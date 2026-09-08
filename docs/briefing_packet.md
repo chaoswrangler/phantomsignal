@@ -1,11 +1,11 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-09-08T21:44:26.316382+00:00
+- Generated: 2026-09-08T23:59:02.364000+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
-- Total items in window: 432
+- Total items in window: 407
 - Total clusters raw: 201
 - Total clusters in packet: 79
 - Dropped low score: 122
@@ -70,16 +70,21 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
@@ -90,13 +95,13 @@
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
@@ -104,57 +109,62 @@
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 3
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
+  - In window count: 2
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 1
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 8
+  - In window count: 1
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 2
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
@@ -169,11 +179,6 @@
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
-  - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
   - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
@@ -190,66 +195,41 @@
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 0
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 8
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
+  - Item count: 10
+  - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
@@ -260,6 +240,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 8
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -275,21 +275,16 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
-  - Item count: 100
-  - In window count: 4
+  - Item count: 20
+  - In window count: 1
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
@@ -300,36 +295,46 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 2
+  - Item count: 100
+  - In window count: 4
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 1
+  - Item count: 10
+  - In window count: 2
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
-  - Item count: 30
-  - In window count: 22
+  - Item count: 100
+  - In window count: 1
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 13
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -340,36 +345,36 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 13
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 23
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 19
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 20
+  - In window count: 0
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 100
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
@@ -379,12 +384,7 @@
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
-  - In window count: 2
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 100
+  - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -395,16 +395,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
@@ -420,15 +420,20 @@
   - Status: ok
   - Item count: 50
   - In window count: 50
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
+  - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
   - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
@@ -440,21 +445,16 @@
   - Status: ok
   - Item count: 25
   - In window count: 9
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
   - Status: ok
-  - Item count: 25
-  - In window count: 24
+  - Item count: 100
+  - In window count: 0
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
@@ -472,115 +472,6 @@
   - In window count: 1
 
 ## Affinity groups (themes)
-
-### WordPress active exploitation
-- Anchor signal: WordPress
-- Theme key: wordpress
-- Cluster count: 6
-- Article count: 8
-- Cohesion: 0.245
-- Shared strong signals: WordPress
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: web_shell_backdoor, zero_day, active_exploitation, apt_espionage
-  - affected_industries: financial_services
-  - affected_products: WordPress, ScreenConnect
-  - urgency_signals: actively_exploited, zero_day, preauth_unauth
-- Cluster IDs: 47ebc75104, e810fe8c13, 9ebfca707c, 1b8c4b752b, 8d0dc94b54, d19603372e
-- Links:
-  - https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/
-  - https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html
-  - https://www.securityweek.com/adobe-patches-over-170-vulnerabilities-including-commerce-zero-day/
-  - https://www.securityweek.com/sap-patches-critical-extended-passport-processing-vulnerability/
-  - https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html
-  - https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/
-  - https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/
-  - https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency
-
-### ShinyHunters: ransomware extortion
-- Anchor signal: ShinyHunters
-- Theme key: shinyhunters
-- Cluster count: 5
-- Article count: 7
-- Cohesion: 0.371
-- Shared strong signals: ShinyHunters
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion, apt_espionage, phishing_social_eng, active_exploitation
-  - actor_attribution: ShinyHunters, Cl0p
-  - affected_industries: financial_services, manufacturing_industrial
-  - urgency_signals: actively_exploited
-- Cluster IDs: d8c893e316, 498d32f5a8, 0be1df44fd, 88364fe6d8, 1b8c4b752b
-- Links:
-  - https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure
-  - https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/
-  - https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest
-  - https://www.team-cymru.com/post/radar-takes-the-guess-work-out-of-vulnerability-exposure-management
-  - https://www.team-cymru.com/post/webmin-vulnerability-and-port-scanning-activity
-  - https://www.team-cymru.com/post/research-shows-number-of-potentially-compromised-organizations-more-than-doubles-since-january
-  - https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/
-
-### CVE-2026-86207 exploitation activity
-- Anchor signal: CVE-2026-86207
-- Theme key: cve-2026-86207
-- Cluster count: 4
-- Article count: 4
-- Cohesion: 0.295
-- Shared strong signals: CVE-2026-86207
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day, active_exploitation, apt_espionage
-  - cve_ids: CVE-2026-86206, CVE-2026-86207, CVE-2026-86218, CVE-2026-18577
-  - urgency_signals: preauth_unauth, zero_day, actively_exploited
-- Cluster IDs: 2a281139fe, 711e127637, 88ed7b3f4d, 8d0dc94b54
-- Links:
-  - https://www.rapid7.com/blog/post/ve-cve-2026-86206-cve-2026-86207-n-able-n-central-authentication-bypass-fixed
-  - https://www.huntress.com/blog/n-able-vulnerability-exploitation
-  - https://www.infosecurity-magazine.com/news/nable-hotfix-critical-rce/
-  - https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/
-
-### CVE-2026-86206 exploitation activity
-- Anchor signal: CVE-2026-86206
-- Theme key: cve-2026-86206
-- Cluster count: 4
-- Article count: 4
-- Cohesion: 0.295
-- Shared strong signals: CVE-2026-86206
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day, active_exploitation, apt_espionage
-  - cve_ids: CVE-2026-86206, CVE-2026-86207, CVE-2026-86218, CVE-2026-18577
-  - urgency_signals: preauth_unauth, zero_day, actively_exploited
-- Cluster IDs: 2a281139fe, 711e127637, 88ed7b3f4d, 8d0dc94b54
-- Links:
-  - https://www.rapid7.com/blog/post/ve-cve-2026-86206-cve-2026-86207-n-able-n-central-authentication-bypass-fixed
-  - https://www.huntress.com/blog/n-able-vulnerability-exploitation
-  - https://www.infosecurity-magazine.com/news/nable-hotfix-critical-rce/
-  - https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/
-
-### CVE-2026-86218 exploitation activity
-- Anchor signal: CVE-2026-86218
-- Theme key: cve-2026-86218
-- Cluster count: 4
-- Article count: 4
-- Cohesion: 0.32
-- Shared strong signals: CVE-2026-86218
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day, active_exploitation, apt_espionage
-  - cve_ids: CVE-2026-86218, CVE-2026-86206, CVE-2026-86207
-  - urgency_signals: zero_day, preauth_unauth, actively_exploited, poc_available
-- Cluster IDs: 81949698a6, 711e127637, 88ed7b3f4d, 8d0dc94b54
-- Links:
-  - https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html
-  - https://www.huntress.com/blog/n-able-vulnerability-exploitation
-  - https://www.infosecurity-magazine.com/news/nable-hotfix-critical-rce/
-  - https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/
 
 ### AWS active exploitation
 - Anchor signal: AWS
@@ -601,9 +492,31 @@
   - https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html
   - https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html
   - https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html
-  - https://aws.amazon.com/blogs/security/incident-response-guide-for-aws-cloudtrail-investigations-part-2/
   - https://orca.security/resources/blog/orca-security-browser-extension-aws-console/
+  - https://aws.amazon.com/blogs/security/incident-response-guide-for-aws-cloudtrail-investigations-part-2/
   - https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html
+
+### ShinyHunters: ransomware extortion
+- Anchor signal: ShinyHunters
+- Theme key: shinyhunters
+- Cluster count: 4
+- Article count: 6
+- Cohesion: 0.457
+- Shared strong signals: ShinyHunters
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: ransomware_extortion, apt_espionage
+  - actor_attribution: ShinyHunters, Cl0p
+  - affected_industries: manufacturing_industrial
+- Cluster IDs: d8c893e316, 498d32f5a8, 0be1df44fd, 88364fe6d8
+- Links:
+  - https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure
+  - https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/
+  - https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest
+  - https://www.team-cymru.com/post/radar-takes-the-guess-work-out-of-vulnerability-exposure-management
+  - https://www.team-cymru.com/post/webmin-vulnerability-and-port-scanning-activity
+  - https://www.team-cymru.com/post/research-shows-number-of-potentially-compromised-organizations-more-than-doubles-since-january
 
 ### Cl0p: ransomware extortion
 - Anchor signal: Cl0p
@@ -625,26 +538,27 @@
   - https://www.team-cymru.com/post/research-shows-number-of-potentially-compromised-organizations-more-than-doubles-since-january
   - https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence
 
-### ScreenConnect active exploitation
-- Anchor signal: ScreenConnect
-- Theme key: screenconnect
+### WordPress active exploitation
+- Anchor signal: WordPress
+- Theme key: wordpress
 - Cluster count: 4
-- Article count: 4
-- Cohesion: 0.275
-- Shared strong signals: ScreenConnect
+- Article count: 6
+- Cohesion: 0.232
+- Shared strong signals: WordPress
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: zero_day, web_shell_backdoor, active_exploitation, apt_espionage, data_breach
-  - affected_industries: financial_services
-  - affected_products: ScreenConnect, WordPress
+  - threat_categories: web_shell_backdoor, zero_day, active_exploitation, apt_espionage
+  - affected_products: WordPress
   - urgency_signals: actively_exploited, zero_day, preauth_unauth
-- Cluster IDs: fd6610db37, e810fe8c13, 1b8c4b752b, 8d0dc94b54
+- Cluster IDs: 47ebc75104, e810fe8c13, 9ebfca707c, d19603372e
 - Links:
-  - https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/
+  - https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/
+  - https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html
+  - https://www.securityweek.com/adobe-patches-over-170-vulnerabilities-including-commerce-zero-day/
   - https://www.securityweek.com/sap-patches-critical-extended-passport-processing-vulnerability/
-  - https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/
-  - https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/
+  - https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html
+  - https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency
 
 ### SonicWall exploitation (2 CVEs)
 - Anchor signal: SonicWall
@@ -669,6 +583,121 @@
   - https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html
   - https://research.checkpoint.com/2026/7th-september-threat-intelligence-report/
 
+### CVE-2026-86207 exploitation activity
+- Anchor signal: CVE-2026-86207
+- Theme key: cve-2026-86207
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.26
+- Shared strong signals: CVE-2026-86207
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day
+  - cve_ids: CVE-2026-86206, CVE-2026-86207, CVE-2026-18577, CVE-2026-86218
+  - urgency_signals: preauth_unauth, zero_day
+- Cluster IDs: 2a281139fe, 711e127637, 88ed7b3f4d
+- Links:
+  - https://www.rapid7.com/blog/post/ve-cve-2026-86206-cve-2026-86207-n-able-n-central-authentication-bypass-fixed
+  - https://www.huntress.com/blog/n-able-vulnerability-exploitation
+  - https://www.infosecurity-magazine.com/news/nable-hotfix-critical-rce/
+
+### CVE-2026-86206 exploitation activity
+- Anchor signal: CVE-2026-86206
+- Theme key: cve-2026-86206
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.26
+- Shared strong signals: CVE-2026-86206
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day
+  - cve_ids: CVE-2026-86206, CVE-2026-86207, CVE-2026-18577, CVE-2026-86218
+  - urgency_signals: preauth_unauth, zero_day
+- Cluster IDs: 2a281139fe, 711e127637, 88ed7b3f4d
+- Links:
+  - https://www.rapid7.com/blog/post/ve-cve-2026-86206-cve-2026-86207-n-able-n-central-authentication-bypass-fixed
+  - https://www.huntress.com/blog/n-able-vulnerability-exploitation
+  - https://www.infosecurity-magazine.com/news/nable-hotfix-critical-rce/
+
+### CVE-2026-81963 exploitation activity
+- Anchor signal: CVE-2026-81963
+- Theme key: cve-2026-81963
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.337
+- Shared strong signals: CVE-2026-81963
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation, zero_day
+  - affected_products: Azure
+  - cve_ids: CVE-2026-81963, CVE-2026-85880
+  - urgency_signals: actively_exploited, zero_day
+- Cluster IDs: fd6610db37, 9097ac899e, f08ee4366d
+- Links:
+  - https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/
+  - https://cyberscoop.com/microsoft-patch-tuesday-september-2026/
+  - https://blog.talosintelligence.com/microsoft-patch-tuesday-for-september-2026/
+
+### CVE-2026-85880 exploitation activity
+- Anchor signal: CVE-2026-85880
+- Theme key: cve-2026-85880
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.337
+- Shared strong signals: CVE-2026-85880
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation, zero_day
+  - affected_products: Azure
+  - cve_ids: CVE-2026-81963, CVE-2026-85880
+  - urgency_signals: actively_exploited, zero_day
+- Cluster IDs: fd6610db37, 9097ac899e, f08ee4366d
+- Links:
+  - https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/
+  - https://cyberscoop.com/microsoft-patch-tuesday-september-2026/
+  - https://blog.talosintelligence.com/microsoft-patch-tuesday-for-september-2026/
+
+### CVE-2026-86218 exploitation activity
+- Anchor signal: CVE-2026-86218
+- Theme key: cve-2026-86218
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.278
+- Shared strong signals: CVE-2026-86218
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day, active_exploitation
+  - cve_ids: CVE-2026-86218, CVE-2026-86206, CVE-2026-86207
+  - urgency_signals: zero_day, preauth_unauth, actively_exploited, poc_available
+- Cluster IDs: 81949698a6, 711e127637, 88ed7b3f4d
+- Links:
+  - https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html
+  - https://www.huntress.com/blog/n-able-vulnerability-exploitation
+  - https://www.infosecurity-magazine.com/news/nable-hotfix-critical-rce/
+
+### Cisco vulnerability activity
+- Anchor signal: Cisco
+- Theme key: cisco
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.244
+- Shared strong signals: Cisco
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_industries: financial_services
+  - affected_products: Cisco
+- Cluster IDs: f08ee4366d, 93c6fb73a4, 354835d235
+- Links:
+  - https://blog.talosintelligence.com/microsoft-patch-tuesday-for-september-2026/
+  - https://blog.talosintelligence.com/clearfake-webdav-infection-chain/
+  - https://blog.talosintelligence.com/clickfix-moves-into-the-browser/
+
 ### phishing social eng targeting Microsoft 365
 - Anchor signal: Microsoft 365
 - Theme key: microsoft-365
@@ -681,53 +710,21 @@
 - Dominant features:
   - threat_categories: phishing_social_eng, ransomware_extortion
   - affected_products: Microsoft 365
-- Cluster IDs: 2e696487bb, eea70812dc, fc680fa84f
+- Cluster IDs: 2e696487bb, eea70812dc, 94a219b713
 - Links:
   - https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/
   - https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-overpass-kernel-vulnerability/
-  - https://www.helpnetsecurity.com/2026/09/08/vishing-microsoft-365-data-theft-extortion/
   - https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html
+  - https://www.helpnetsecurity.com/2026/09/08/vishing-microsoft-365-data-theft-extortion/
   - https://www.infosecurity-magazine.com/news/bigbear-2-phaas-5000-microsoft/
-
-### Cisco vulnerability activity
-- Anchor signal: Cisco
-- Theme key: cisco
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.333
-- Shared strong signals: Cisco
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_industries: financial_services
-  - affected_products: Cisco
-- Cluster IDs: 93c6fb73a4, 354835d235
-- Links:
-  - https://blog.talosintelligence.com/clearfake-webdav-infection-chain/
-  - https://blog.talosintelligence.com/clickfix-moves-into-the-browser/
-
-### phishing social eng targeting Microsoft Defender
-- Anchor signal: Microsoft Defender
-- Theme key: microsoft-defender
-- Cluster count: 2
-- Article count: 7
-- Cohesion: 0.24
-- Shared strong signals: Microsoft Defender
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: phishing_social_eng
-  - affected_products: Microsoft Defender
-- Cluster IDs: 1946cdc3c5, 2e696487bb
-- Links:
-  - https://www.microsoft.com/en-us/security/blog/2026/09/02/impersonating-it-support-threat-actors-turn-remote-session-into-enterprise-wide-access/
-  - https://thehackernews.com/2026/09/fake-software-installers-disable.html
-  - https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/
 
 ## Forward signals
 
 ### Novelty
-- Novel cves: 0
+- Novel cves: 3
+  - CVE-2026-69676 (first seen via Cisco Talos at 2026-09-08T22:16:35+00:00, cluster f08ee4366d)
+  - CVE-2026-69852 (first seen via Cisco Talos at 2026-09-08T22:16:35+00:00, cluster f08ee4366d)
+  - CVE-2026-72957 (first seen via Cisco Talos at 2026-09-08T22:16:35+00:00, cluster f08ee4366d)
 - Novel actors: 0
 - Novel products: 0
 
@@ -774,7 +771,7 @@
   - New products: (none)
   - Prior top industries: critical_infrastructure, financial_services, government
   - Prior top products: Cisco, Fortinet, Google Cloud
-- **UNC6671** (cluster fc680fa84f)
+- **UNC6671** (cluster 94a219b713)
   - New industries: (none)
   - New products: Microsoft 365
   - Prior top industries: financial_services, government, healthcare
@@ -793,7 +790,7 @@
 - actor_attribution: Kimsuky (weeks observed: 4, cluster 93a2320bbc)
 - cve_ids: CVE-2026-58231 (weeks observed: 4, cluster eea70812dc)
 - actor_attribution: RansomHub (weeks observed: 4, cluster fc5c9992d3)
-- actor_attribution: UNC6671 (weeks observed: 4, cluster fc680fa84f)
+- actor_attribution: UNC6671 (weeks observed: 4, cluster 94a219b713)
 - actor_attribution: UNC6240 (weeks observed: 3, cluster d8c893e316)
 - actor_attribution: UNC6661 (weeks observed: 3, cluster d8c893e316)
 
@@ -874,7 +871,7 @@ Back to Blog Vulnerabilities and Exploits Critical SonicWall SMA1000 Vulnerabili
   - Link: https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added seven security flaws to its Known Exploited Vulnerabilities (KEV) catalog after they landed in attackers' crosshairs. The vulnerabilities are as follows - CVE-2026-83548 (CVSS score: 10.0) - A server-side request forgery vulnerability in SonicWall SMA 1000 Appliances that could allow a remote unauthenticated
 
-### Cluster 2a281139fe — score 33
+### Cluster 2a281139fe — score 32
 
 - Title: CVE-2026-86206, CVE-2026-86207: N-able N-central Authentication Bypass (FIXED)
 - Source: Rapid7 (offensive_vulnerability_research)
@@ -1376,6 +1373,53 @@ The EU CRA's Real Question: What Shipped, and When Did You Know? Sponsored by Ac
   - Link: https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/
   - Summary: The EU Cyber Resilience Act's vulnerability reporting requirements take effect September 11, giving software vendors as little as 24 hours to report actively exploited flaws. ActiveState explains why knowing exactly what shipped and when vulnerabilities were discovered will be critical to meeting the new requirements. [...]
 
+### Cluster 9097ac899e — score 17
+
+- Title: Microsoft discloses two actively exploited zero-days among 974 vulnerabilities
+- Source: CyberScoop (cyber_news_breach_reporting)
+- Published: 2026-09-08T22:50:41+00:00
+- Link: https://cyberscoop.com/microsoft-patch-tuesday-september-2026/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, phishing_social_eng, ransomware_extortion, vulnerability_disclosure, zero_day
+- affected_industries: government, telecommunications
+- cve_ids: CVE-2026-81963, CVE-2026-85880
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, vulnerability_disclosure, active_exploitation
+- affected_industries: government, telecommunications
+- cve_ids: CVE-2026-81963, CVE-2026-85880
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+While the vendor hit another monthly record, it hasn’t resulted in a flood of active exploits. Researchers encourage customers to focus on their specific areas of risk and exposure. The post Microsoft discloses two actively exploited zero-days among 974 vulnerabilities appeared first on CyberScoop .
+```
+
+#### Full body
+
+```
+Advertisement Get our latest cybersecurity news first on Google. Click here! Close Microsoft addressed 974 defects across its product suite, including two actively exploited zero-day vulnerabilities, in its monthly Patch Tuesday security program . The massive batch of patches, Microsoft’s largest ever, reflects a continuing trend for the vendor as it leans on artificial intelligence to discover more vulnerabilities at a faster rate. Yet, the recent period of record breaking vulnerability disclosures hasn’t resulted in a flood of actively exploited zero-days. “AI-assisted vulnerability discovery shows no signs of slowing down,” Dustin Childs, head of threat awareness at Trend Micro’s Zero Day Initiative, wrote in a blog post Tuesday. “However, we have not seen a correlating spike in active exploits — yet.” The vulnerabilities actively exploited prior to disclosure — CVE-2026-81963 affecting the Windows Update Stack and CVE-2026-85880 affecting Windows Advanced Local Procedure Call — both have CVSS ratings of 7.8 and allow attackers to escalate privileges. Advertisement More than 1 in 10 defects Microsoft disclosed in this month’s security update are rated critical. The update included 723 vulnerabilities in Windows, 111 in Office, 111 in Office 2016, 62 in SQL and 22 spanning various developer tools. Researchers encouraged security teams and customers to not get overwhelmed by the total number of defects, but instead focus on their specific areas of risk and exposure. “While the number of vulnerabilities being patched is rising, the number of vulnerabilities that can and will affect most organizations remains quite low. AI-assisted vulnerability discovery in 2026 is creating larger haystacks, but it isn’t finding more needles,” Satnam Narang, senior staff research engineer at Tenable, said in an email. “It’s critical that organizations understand which vulnerabilities actually apply to them, whether they pose a threat by being reachable and exploitable, and prioritize remediation based on this risk context,” he added. Jack Bicer, director of vulnerability research at Action1, drew a similar conclusion from the record-breaking Patch Tuesday. Advertisement “At this scale, the challenge is not simply getting through the patch list but knowing what needs attention first,” he said. “With hundreds of updates landing at once, IT and security teams need to quickly separate the vulnerabilities that demand immediate action from those that can follow the normal deployment cycle.” The full list of vulnerabilities addressed this month is available in Microsoft’s Security Response Center . Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops (Getty Images) Binary code depicted in waves. (iStock/Getty Images) (Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity AI-adaptable security platforms are critical for autonomous decision-making Defending in the middle of the vulnpocalypse The Vulnpocalypse arrived early Government The G7 tells industry to hurry up and prep for post-quantum encryption Jail time for Maine child in 764 marks turning point in federal law enforcement FCC proposes public scorecard to rate telecoms on anti-robocall efforts Dogged Russia-based botnet dismantled after 23-year run Technology European parliament members call for slowdown of Serbia’s EU entry over spyware use Pegasus, NoviSpy variant spyware found on devices of Serbian activists Wyden seeks upgraded NSA security guidance on commercial VPN use The Collective Cyber Defense letter wrote your next vendor questionnaire Threats FBI raises alarm over deceptive phishing campaign targeting prominent people McKesson copes with fallout from data theft extortion attack ATF confirms cyberattack hit system containing info on its investigation targets Unit 42 warns AI has shifted balance of power from defenders to attackers Policy Whistleblower says USPS deploying ne
+```
+
+#### Corroborating sources (1)
+
+- **CyberScoop** (cyber_news_breach_reporting)
+  - Title: Microsoft discloses two actively exploited zero-days among 974 vulnerabilities
+  - Published: 2026-09-08T22:50:41+00:00
+  - Link: https://cyberscoop.com/microsoft-patch-tuesday-september-2026/
+  - Summary: While the vendor hit another monthly record, it hasn’t resulted in a flood of active exploits. Researchers encourage customers to focus on their specific areas of risk and exposure. The post Microsoft discloses two actively exploited zero-days among 974 vulnerabilities appeared first on CyberScoop .
+
 ### Cluster fc5f82ab7c — score 17
 
 - Title: An Introduction to Operational Relay Box (ORB) Networks - Unpatched, Forgotten, and Obscured
@@ -1428,7 +1472,7 @@ S2 Research Team 8 min read October 29, 2024 An Introduction to Operational Rela
 - Published: 2026-09-02T22:51:18+00:00
 - Link: https://www.microsoft.com/en-us/security/blog/2026/09/02/impersonating-it-support-threat-actors-turn-remote-session-into-enterprise-wide-access/
 - Fetch status: ok
-- Member count: 5
+- Member count: 3
 - Corroborating source count: 3
 - Strong signals: Microsoft Defender
 
@@ -1817,7 +1861,7 @@ The vulnerability, CVE-2026-86218, was allocated a maximum-severity rating by th
 #### Full body
 
 ```
-Infosecurity Magazine Home » News » N-able Releases Hotfix for Critical Remote Code Execution Vulnerability N-able Releases Hotfix for Critical Remote Code Execution Vulnerability News 7 September 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn Managed IT software provider N-able has released a new hotfix that includes a patch for a critical remote code execution (RCE) vulnerability. CVE-2026-86218 is a critical pre-authentication RCE flaw in N-central, N-able’s remote monitoring and management platform. It was disclosed by the software provider on September 6 and was allocated a maximum-severity rating (CVSS) of 10. The vulnerability affects N-central versions before 2026.3.1.14 and can allow an unauthenticated attacker to execute code on the N-central server. N-able has not publicly disclosed the affected component or exploitation method. It said it has found no evidence that CVE-2026-86218 has been exploited in production environments. Meanwhile, the software provider released a patch for the vulnerability in its N-central 2026.3 Hotfix 4 , which brings the build to 2026.3.1.14. This is the latest of five vulnerabilities affecting N-able products in a few weeks. CVE-2026-18556 and CVE-2026-18577 are high-severity authentication bypasses that were found to be exploited earlier in 2026 – and added to the US Cybersecurity and Infrastructure Security Agency’s (CISA) Known Exploited Vulnerabilities (KEV) catalog in August. Patches for those two vulnerabilities were included in N-able’s HF1 and HF2 hotfixes, published on August 2 and 6. CVE-2026-86207 is a high-severity authentication bypass affecting internal only APIs and CVE-2026-86206 is a high-severity access-control filter bypass exposing internal APIs. They were both patched in N-able’s HF3 hotfix on September 5. Image credits: Cristi Dangeorge / Shutterstock.com You may also like The Most Exploited Vulnerabilities by State Sponsored Actors, and the Easy Fix News Feature 15 May 2020 New Year, New Operating System Opinion 30 January 2020 How Forgotten Legacy Systems Could Be Your Downfall Opinion 18 April 2019 CISA Warns of Six Exploited Flaws in Microsoft, Linux, Red Hat and Citrix Products News 27 August 2026 NIST Seeks Public Input on AI-Ready NVD Modernization News 12 August 2026 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Researcher Publishes CrowdStrike Privilege Escalation Zero Day News 7 September 2026 1 Multiple Class Action Lawsuits Filed Against IDScan News 7 September 2026 2 North Korea’s Lazarus Operates Through Six Distinct Cyber Clusters News 7 September 2026 3 Rhysida Publishes Berlin Government Data After €2m Extortion Demand Refused News 7 September 2026 4 FulcrumSec Claims Responsibility for Manchester Airport Group Breach News 2 September 2026 5 FBI Probes Possible Breach of 153 Million Driver’s Licenses News 3 September 2026 6 CREST Onboards First Cohort for AI-Enabled Pentesting Accreditation News 3 September 2026 1 Attackers Steal METR API Key and Burn $600,000 in AI Credits News 1 September 2026 2 New CREST AI Standards to Deliver AI-Enabled Pentesting Accreditation News 28 July 2026 3 65% of Enterprises Have Seen AI Agents Act Out of Scope News 1 September 2026 4 Hiring for the AI Era: A New Challenge for CISOs News Feature 31 August 2026 5 Gambling Goblin Turns Brazilian Government Sites Into SEO Weapons News 2 September 2026 6 Human Risk in Cybersecurity: Protecting Your Organization Beyond Technology Webinar 15:00 — 16:00, 16 July 2026 1 Understanding Frontier AI Defense: What Cyber and IT Leads Need to Know Webinar 15:00 — 16:00, 3 September 2026 2 Same Front Door, New Visitors: Securing Humans and AI Agents at the Browser Webinar 11:00 — 12:00, 23 July 2026 3 Securing M365 Data and Identity Systems Against Modern Adversaries Webinar 15:00 — 16:00, 22 January 2026 4 Behind the Curtain of Microsoft 365 Cybersecurity: Lessons from Overlooked Resilience Gaps Webina
+Infosecurity Magazine Home » News » N-able Releases Hotfix for Critical Remote Code Execution Vulnerability N-able Releases Hotfix for Critical Remote Code Execution Vulnerability News 7 September 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn Managed IT software provider N-able has released a new hotfix that includes a patch for a critical remote code execution (RCE) vulnerability. CVE-2026-86218 is a critical pre-authentication RCE flaw in N-central, N-able’s remote monitoring and management platform. It was disclosed by the software provider on September 6 and was allocated a maximum-severity rating (CVSS) of 10. The vulnerability affects N-central versions before 2026.3.1.14 and can allow an unauthenticated attacker to execute code on the N-central server. N-able has not publicly disclosed the affected component or exploitation method. It said it has found no evidence that CVE-2026-86218 has been exploited in production environments. Meanwhile, the software provider released a patch for the vulnerability in its N-central 2026.3 Hotfix 4 , which brings the build to 2026.3.1.14. This is the latest of five vulnerabilities affecting N-able products in a few weeks. CVE-2026-18556 and CVE-2026-18577 are high-severity authentication bypasses that were found to be exploited earlier in 2026 – and added to the US Cybersecurity and Infrastructure Security Agency’s (CISA) Known Exploited Vulnerabilities (KEV) catalog in August. Patches for those two vulnerabilities were included in N-able’s HF1 and HF2 hotfixes, published on August 2 and 6. CVE-2026-86207 is a high-severity authentication bypass affecting internal only APIs and CVE-2026-86206 is a high-severity access-control filter bypass exposing internal APIs. They were both patched in N-able’s HF3 hotfix on September 5. Image credits: Cristi Dangeorge / Shutterstock.com You may also like The Most Exploited Vulnerabilities by State Sponsored Actors, and the Easy Fix News Feature 15 May 2020 New Year, New Operating System Opinion 30 January 2020 How Forgotten Legacy Systems Could Be Your Downfall Opinion 18 April 2019 CISA Warns of Six Exploited Flaws in Microsoft, Linux, Red Hat and Citrix Products News 27 August 2026 NIST Seeks Public Input on AI-Ready NVD Modernization News 12 August 2026 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Researcher Publishes CrowdStrike Privilege Escalation Zero Day News 7 September 2026 1 Multiple Class Action Lawsuits Filed Against IDScan News 7 September 2026 2 North Korea’s Lazarus Operates Through Six Distinct Cyber Clusters News 7 September 2026 3 Rhysida Publishes Berlin Government Data After €2m Extortion Demand Refused News 7 September 2026 4 FulcrumSec Claims Responsibility for Manchester Airport Group Breach News 2 September 2026 5 FBI Probes Possible Breach of 153 Million Driver’s Licenses News 3 September 2026 6 CREST Onboards First Cohort for AI-Enabled Pentesting Accreditation News 3 September 2026 1 Attackers Steal METR API Key and Burn $600,000 in AI Credits News 1 September 2026 2 New CREST AI Standards to Deliver AI-Enabled Pentesting Accreditation News 28 July 2026 3 65% of Enterprises Have Seen AI Agents Act Out of Scope News 1 September 2026 4 Hiring for the AI Era: A New Challenge for CISOs News Feature 31 August 2026 5 Gambling Goblin Turns Brazilian Government Sites Into SEO Weapons News 2 September 2026 6 Human Risk in Cybersecurity: Protecting Your Organization Beyond Technology Webinar 15:00 — 16:00, 16 July 2026 1 Understanding Frontier AI Defense: What Cyber and IT Leads Need to Know Webinar 15:00 — 16:00, 3 September 2026 2 Same Front Door, New Visitors: Securing Humans and AI Agents at the Browser Webinar 11:00 — 12:00, 23 July 2026 3 How to Manage Enterprise Cyber Resilience in the Age of AI Webinar 11:00 — 12:00, 21 May 2026 4 Why Resilience‑Focused Cloud Design Is Your Best Defense Against Modern Attacks Webinar 18:00 — 19:00, 9 Apri
 ```
 
 #### Corroborating sources (1)
@@ -1828,93 +1872,52 @@ Infosecurity Magazine Home » News » N-able Releases Hotfix for Critical Remote
   - Link: https://www.infosecurity-magazine.com/news/nable-hotfix-critical-rce/
   - Summary: The vulnerability, CVE-2026-86218, was allocated a maximum-severity rating by the software provider itself
 
-### Cluster 93c6fb73a4 — score 12
+### Cluster f08ee4366d — score 12
 
-- Title: ClearFake WebDAV infection chain delivers Amatera stealer, ZigCryptoStealer, and NetSupport Manager
+- Title: Microsoft Patch Tuesday for September 2026 — Snort rules and prominent vulnerabilities
 - Source: Cisco Talos (threat_research_primary)
-- Published: 2026-09-08T10:01:07+00:00
-- Link: https://blog.talosintelligence.com/clearfake-webdav-infection-chain/
+- Published: 2026-09-08T22:16:35+00:00
+- Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-september-2026/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_industries: financial_services, government
-- affected_products: Cisco
+- threat_categories: active_exploitation
+- affected_products: Azure, Cisco
+- cve_ids: CVE-2026-69676, CVE-2026-69852, CVE-2026-72957, CVE-2026-81963, CVE-2026-85880
+- urgency_signals: actively_exploited
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- affected_industries: financial_services, government
-- affected_products: Cisco
+- threat_categories: active_exploitation
+- affected_products: Azure, Cisco
+- cve_ids: CVE-2026-81963, CVE-2026-85880, CVE-2026-69676, CVE-2026-69852, CVE-2026-72957
+- urgency_signals: actively_exploited
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-We assess with moderate confidence that the attacks are not targeted at a particular organization, but are a part of a cryptocurrency and credentials-stealing operation using the Amatera stealer as the primary payload.
+Microsoft has released its monthly security update for September 2026, which includes 973 vulnerabilities affecting a range of products, including 113 that Microsoft marked as "critical."
 ```
 
 #### Full body
 
 ```
-ClearFake WebDAV infection chain delivers Amatera stealer, ZigCryptoStealer, and NetSupport Manager By Vanja Svajcer Tuesday, September 8, 2026 06:01 Threats Threat Spotlight Cisco Talos began an investigation after observing a DLL named "verification.google" executing from WebDAV at a Ukrainian government organization. We assess with moderate confidence that the attacks are not targeted at a particular organization, but are a part of a cryptocurrency and credentials-stealing operation using the Amatera stealer as the primary payload. Pivoting around the similar WebDAV behavior led to a second loader named "pf.ch" and allowed us to reconstruct its earlier delivery stages. The chain uses a Cloudflare Worker to inject JavaScript code stored on BNB Smart Chain and a ClickFix prompt impersonating Google CAPTCHA, leading to download and execution of Amatera stealer. The chain is likely very similar to what has caused the WebDAV-based execution at the Ukraininan government organization. The two Amatera builds were tasked with different secondary payloads by their respective command-and-control (C2) infrastructure: the "pf.ch" loader was instructed to deploy a NativeAOT loader running ZigCryptoStealer and a Go-based reverse proxy, while the "verification.google" loader was instructed to install an unauthorized instance of NetSupport Manager. The NetSupport Manager installation contained configuration with the C2 server using an IP address based in Russia. With moderate confidence, we assess that "verification.google" branch attack was conducted by a Russian threat actor. In April 2026, Cisco Talos identified an unusual WebDAV DLL execution in endpoint telemetry from a Ukrainian government organization. The remote file was named "verification.google" and was launched through the 32-bit version of "rundll32.exe". This initial finding led us to two similar delivery chains, two different DLL loaders and two ACR/Amatera stealer payloads. Talos tracks the actor behind the observed "verification.google" activity as UAT-10820. Following the initial investigation, we decided to hunt for similar WebDAV and ordinal-execution patterns in an attempt to recover the full infection chain. Using VirusTotal, we were able to identify a full chain from a second DLL loader named "pf.ch". These two examples are a part of a wider set of recent campaigns delivering Amatera through different infection chains. In July 2026, Malwarebytes documented fake game and software downloads that used RenPy Loader, MSBuild and EtherHiding before delivering Amatera. Blackpoint Cyber described another fake-verification chain that used a signed Microsoft App-V script, configuration stored in Google Calendar and a payload concealed in a PNG image. Apart from the main payload malware family, we found no common infrastructure or other evidence linking those activities to the chains described in this post. Initial finding in endpoint telemetry The initial event that started the investigation was recorded in April 2026 and it showed an execution of a DLL file through a WebDAV UNC path together with startup of the Windows WebClient service. Apart from the initial command line, we had details of the checksum of the executed DLL but it was not clear what started the execution chain. It was time for hunting in open source intelligence repositories and Talos analytical platform. We wanted to find a similar execution with the similar loader and the payload family and ideally recover the whole infection chain which would likely point to how "verification.google" execution was triggered. This lead us to the "pf.ch" loader and the chain we discovered. Hunting reveals a second WebDAV delivery chain The "pf.ch" sample uses the same combination of WebDAV, a disguised DLL filename and ordinal execution through "rundll32.exe". We were also able to recover the full ClickFake related sequence leading to this loader. Figure 1 shows both chains, with dashed elements marking stages that were not d
+Microsoft Patch Tuesday for September 2026 — Snort rules and prominent vulnerabilities By Cisco Talos Tuesday, September 8, 2026 18:16 Patch Tuesday Microsoft has released its monthly security update for September 2026, which includes 973 vulnerabilities affecting a range of products, including 113 that Microsoft marked as "critical." Microsoft notes that 2 of the vulnerabilities disclosed this month have been exploited in the wild: CVE-2026-81963 affects Windows Update Stack. CVE-2026-81963 is a elevation of privilege vulnerability associated with Improper Link Resolution Before File Access ('Link Following') and Improper Access Control and has a CVSS base score of 7.8. CVE-2026-85880 affects Windows Advanced Local Procedure Call (ALPC). CVE-2026-85880 is a elevation of privilege vulnerability associated with Heap-based Buffer Overflow and Use of Uninitialized Resource and has a CVSS base score of 7.8. Out of 113 "critical" vulnerabilities, 82 are remote code execution (RCE) vulnerabilities. Microsoft considers exploitation of the following vulnerabilities more likely: CVE-2026-69676 affects Windows Kerberos. CVE-2026-69676 is a remote code execution vulnerability associated with Authentication Bypass by Capture-replay and has a CVSS base score of 8.8. CVE-2026-69852 affects Windows Routing and Remote Access Service (RRAS). CVE-2026-69852 is a remote code execution vulnerability associated with Heap-based Buffer Overflow and has a CVSS base score of 7.5. CVE-2026-72957 affects Windows Deployment Services. CVE-2026-72957 is a remote code execution vulnerability associated with Heap-based Buffer Overflow and has a CVSS base score of 7.8. CVE-2026-69854 affects Spring Cloud Azure. CVE-2026-69854 is a elevation of privilege vulnerability associated with Improper Authentication and has a CVSS base score of 9.0. CVE-2026-83501 affects Windows Virtualization-Based Security (VBS). CVE-2026-83501 is a information disclosure vulnerability associated with Out-of-bounds Read and has a CVSS base score of 5.5. CVE-2026-70585 affects Windows Services for NFS ONCRPC XDR Driver. CVE-2026-70585 is a remote code execution vulnerability associated with Use After Free and has a CVSS base score of 7.0. CVE-2026-69730 affects Windows DNS Server. CVE-2026-69730 is a remote code execution vulnerability associated with Use After Free and has a CVSS base score of 9.8. CVE-2026-69857 affects Azure Cosmos DB. CVE-2026-69857 is a spoofing vulnerability associated with Authorization Bypass Through User-Controlled Key and has a CVSS base score of 8.5. Microsoft considers exploitation of the following vulnerabilities less likely: CVE-2026-69845 and CVE-2026-72979 affect Windows DHCP Server. CVE-2026-69845 is a remote code execution vulnerability associated with Heap-based Buffer Overflow and Improper Input Validation and has a CVSS base score of 9.8. CVE-2026-72979 is a remote code execution vulnerability associated with Use After Free and has a CVSS base score of 9.8. CVE-2026-58599 affects HEVC Video Extensions. CVE-2026-58599 is a remote code execution vulnerability associated with Heap-based Buffer Overflow and has a CVSS base score of 7.8. CVE-2026-65772 affects Microsoft Dynamics 365 On-Premises. CVE-2026-65772 is a remote code execution vulnerability associated with Deserialization of Untrusted Data and has a CVSS base score of 8.8. CVE-2026-66302 affects Skype for Business. CVE-2026-66302 is a remote code execution vulnerability associated with External Control of File Name or Path and has a CVSS base score of 9.8. CVE-2026-67631 , CVE-2026-65669 , and CVE-2026-67378 affect Microsoft SQL Server. CVE-2026-67631 is a remote code execution vulnerability associated with Heap-based Buffer Overflow and has a CVSS base score of 8.8. CVE-2026-65669 is a elevation of privilege vulnerability associated with Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') and has a CVSS base score of 9.6. CVE-2026-67378 is a re
 ```
 
 #### Corroborating sources (1)
 
 - **Cisco Talos** (threat_research_primary)
-  - Title: ClearFake WebDAV infection chain delivers Amatera stealer, ZigCryptoStealer, and NetSupport Manager
-  - Published: 2026-09-08T10:01:07+00:00
-  - Link: https://blog.talosintelligence.com/clearfake-webdav-infection-chain/
-  - Summary: We assess with moderate confidence that the attacks are not targeted at a particular organization, but are a part of a cryptocurrency and credentials-stealing operation using the Amatera stealer as the primary payload.
-
-### Cluster 354835d235 — score 12
-
-- Title: ClickFix moves into the browser: Cryptocurrency theft with Google-hosted C2
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-09-08T10:00:38+00:00
-- Link: https://blog.talosintelligence.com/clickfix-moves-into-the-browser/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Cisco
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, phishing_social_eng, supply_chain
-- affected_industries: financial_services, retail_ecommerce
-- affected_products: Cisco, Google Cloud
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, phishing_social_eng, apt_espionage
-- affected_industries: financial_services, retail_ecommerce
-- affected_products: Cisco, Google Cloud
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Cisco Talos is tracking a cryptocurrency-stealing campaign that abuses the Google Visualization API for command and control (C2), retrieving obfuscated JavaScript from a publicly published Google Sheets document and injecting it into the victim's browser session.
-```
-
-#### Full body
-
-```
-ClickFix moves into the browser: Cryptocurrency theft with Google-hosted C2 By Sean Gallagher Tuesday, September 8, 2026 06:00 Threat Spotlight Cisco Talos is tracking a cryptocurrency-stealing campaign that abuses the Google Visualization API for command and control (C2), retrieving obfuscated JavaScript from a publicly published Google Sheets document and injecting it into the victim's browser session. The actors use a variation on ClickFix social engineering. Instead of convincing targets to run commands against the operating system, they convince targets to paste JavaScript into the Chrome address bar or install it into the Tampermonkey browser extension, which also provides persistence. The lure poses as a leaked vulnerability report describing a nonexistent API flaw at cryptocurrency swap services, and is aimed at users willing to exploit it for financial gain. Talos observed lures distributed through Telegram, DarkForums, and paste sites. The injected script functions as a web skimmer. It hooks the browser's fetch API, replaces cryptocurrency deposit addresses in server responses and the user's clipboard, and displays counterfeit "bonus" interface elements. Cisco Talos has recently observed a criminal campaign that leveraged an interesting twist on what we refer to as “legitimate service abuse.” In this monthslong campaign, the criminal actors used the Google Visualization API as part of a scheme to inject malicious JavaScript into two cryptocurrency trading websites. This campaign uses a twist on the tactics associated with “ClickFix” social engineering attacks , in which targets are manipulated into copying and pasting PowerShell or other commands and executing them to launch malware. Rather than targeting the victim device’s OS, the actors behind this campaign aim to convince the user to inject malicious code into their own browser session. Early versions of this campaign began in early October 2025 . The social engineering lures used initially focused on getting targets to paste a code snippet directly into the Chrome web browser’s navigation bar; the latest version relies on a legitimate Chrome plugin, Tampermonkey, to inject a loader script pasted in by the user and provide persistence across sessions with the current targeted site. In March 2026, the actors behind the campaign began using the Google Visualization API to deliver malicious scripts stored in a Google Sheets document. In July, after frequent disruption of their posts on shared text sites, the actors moved to hosting all the components of their campaign in Google Docs and Google Sheets. So far, the actors behind the scheme have largely targeted individuals who frequent web discussion boards and forums focused on cryptocurrency trading, software development, basic cybersecurity, and hacking. The lure used in the campaign is designed to appeal mostly to would-be cybercriminals looking to make a quick profit off an “API vulnerability” that doesn’t exist to get bigger payouts on cryptocurrency trades. While this campaign doesn’t pose a specific threat to most organizations, the approaches that the actors here are using do. These techniques and tools could be leveraged in other malware and web attacks with much wider impact, including supply-chain attacks on e-commerce sites and other customer-facing systems. Just Google it Google application abuse for C2 is not new by any stretch of the imagination. There have been multiple cases of state-sponsored actors using Google Sheets APIs, Google Drive, and other Google cloud services to help control deployed malware, concealing communications within traffic to otherwise trusted network spaces. Hunting for these threats usually requires examination of DNS traffic and the processes that are making the requests to reach these destinations — like a random executable making a DNS request for “docs.google[.]com”. But when the requests are made from within a browser session, that makes detection much more difficult. The
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: ClickFix moves into the browser: Cryptocurrency theft with Google-hosted C2
-  - Published: 2026-09-08T10:00:38+00:00
-  - Link: https://blog.talosintelligence.com/clickfix-moves-into-the-browser/
-  - Summary: Cisco Talos is tracking a cryptocurrency-stealing campaign that abuses the Google Visualization API for command and control (C2), retrieving obfuscated JavaScript from a publicly published Google Sheets document and injecting it into the victim's browser session.
+  - Title: Microsoft Patch Tuesday for September 2026 — Snort rules and prominent vulnerabilities
+  - Published: 2026-09-08T22:16:35+00:00
+  - Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-september-2026/
+  - Summary: Microsoft has released its monthly security update for September 2026, which includes 973 vulnerabilities affecting a range of products, including 113 that Microsoft marked as "critical."
 
 ### Cluster e810fe8c13 — score 12
 
@@ -2201,16 +2204,104 @@ Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Cred
   - Published: 2026-09-05T16:52:33+00:00
   - Link: https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html
   - Summary: JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical vulnerability in TeamCity to breach its own environment. "Cadence users should immediately revoke or rotate all credentials and secrets that may have been used to run their Cadence executions," JetBrains said.
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - Title: Incident response guide for AWS CloudTrail investigations – Part 2
-  - Published: 2026-09-03T21:15:53+00:00
-  - Link: https://aws.amazon.com/blogs/security/incident-response-guide-for-aws-cloudtrail-investigations-part-2/
-  - Summary: In Part 1 of this guide, we examined two common incident scenarios: cross-account Amazon Simple Storage Service (Amazon S3) data deletion with ransomware implications, and cryptocurrency mining deployed through AWS CloudFormation using exposed AWS Management Console credentials. We also introduced key incident response terminology and investigative frameworks for analyzing AWS CloudTrail events. In this second […]
 - **Orca Security Research** (cloud_identity_infrastructure)
   - Title: Bring Orca Security Context Into the AWS Console with the Orca Browser Extension
   - Published: 2026-09-02T14:11:59+00:00
   - Link: https://orca.security/resources/blog/orca-security-browser-extension-aws-console/
   - Summary: Key Takeaways The Cost of Switching Tabs Cloud engineers and developers live in the AWS console, not in a security platform. So when a question comes up about a resource’s risk, the only path has been to stop, open a new tab, and go looking for that asset inside their security tooling. That detour costs […]
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - Title: Incident response guide for AWS CloudTrail investigations – Part 2
+  - Published: 2026-09-03T21:15:53+00:00
+  - Link: https://aws.amazon.com/blogs/security/incident-response-guide-for-aws-cloudtrail-investigations-part-2/
+  - Summary: In Part 1 of this guide, we examined two common incident scenarios: cross-account Amazon Simple Storage Service (Amazon S3) data deletion with ransomware implications, and cryptocurrency mining deployed through AWS CloudFormation using exposed AWS Management Console credentials. We also introduced key incident response terminology and investigative frameworks for analyzing AWS CloudTrail events. In this second […]
+
+### Cluster 93c6fb73a4 — score 11
+
+- Title: ClearFake WebDAV infection chain delivers Amatera stealer, ZigCryptoStealer, and NetSupport Manager
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-09-08T10:01:07+00:00
+- Link: https://blog.talosintelligence.com/clearfake-webdav-infection-chain/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: financial_services, government
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: financial_services, government
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+We assess with moderate confidence that the attacks are not targeted at a particular organization, but are a part of a cryptocurrency and credentials-stealing operation using the Amatera stealer as the primary payload.
+```
+
+#### Full body
+
+```
+ClearFake WebDAV infection chain delivers Amatera stealer, ZigCryptoStealer, and NetSupport Manager By Vanja Svajcer Tuesday, September 8, 2026 06:01 Threats Threat Spotlight Cisco Talos began an investigation after observing a DLL named "verification.google" executing from WebDAV at a Ukrainian government organization. We assess with moderate confidence that the attacks are not targeted at a particular organization, but are a part of a cryptocurrency and credentials-stealing operation using the Amatera stealer as the primary payload. Pivoting around the similar WebDAV behavior led to a second loader named "pf.ch" and allowed us to reconstruct its earlier delivery stages. The chain uses a Cloudflare Worker to inject JavaScript code stored on BNB Smart Chain and a ClickFix prompt impersonating Google CAPTCHA, leading to download and execution of Amatera stealer. The chain is likely very similar to what has caused the WebDAV-based execution at the Ukraininan government organization. The two Amatera builds were tasked with different secondary payloads by their respective command-and-control (C2) infrastructure: the "pf.ch" loader was instructed to deploy a NativeAOT loader running ZigCryptoStealer and a Go-based reverse proxy, while the "verification.google" loader was instructed to install an unauthorized instance of NetSupport Manager. The NetSupport Manager installation contained configuration with the C2 server using an IP address based in Russia. With moderate confidence, we assess that "verification.google" branch attack was conducted by a Russian threat actor. In April 2026, Cisco Talos identified an unusual WebDAV DLL execution in endpoint telemetry from a Ukrainian government organization. The remote file was named "verification.google" and was launched through the 32-bit version of "rundll32.exe". This initial finding led us to two similar delivery chains, two different DLL loaders and two ACR/Amatera stealer payloads. Talos tracks the actor behind the observed "verification.google" activity as UAT-10820. Following the initial investigation, we decided to hunt for similar WebDAV and ordinal-execution patterns in an attempt to recover the full infection chain. Using VirusTotal, we were able to identify a full chain from a second DLL loader named "pf.ch". These two examples are a part of a wider set of recent campaigns delivering Amatera through different infection chains. In July 2026, Malwarebytes documented fake game and software downloads that used RenPy Loader, MSBuild and EtherHiding before delivering Amatera. Blackpoint Cyber described another fake-verification chain that used a signed Microsoft App-V script, configuration stored in Google Calendar and a payload concealed in a PNG image. Apart from the main payload malware family, we found no common infrastructure or other evidence linking those activities to the chains described in this post. Initial finding in endpoint telemetry The initial event that started the investigation was recorded in April 2026 and it showed an execution of a DLL file through a WebDAV UNC path together with startup of the Windows WebClient service. Apart from the initial command line, we had details of the checksum of the executed DLL but it was not clear what started the execution chain. It was time for hunting in open source intelligence repositories and Talos analytical platform. We wanted to find a similar execution with the similar loader and the payload family and ideally recover the whole infection chain which would likely point to how "verification.google" execution was triggered. This lead us to the "pf.ch" loader and the chain we discovered. Hunting reveals a second WebDAV delivery chain The "pf.ch" sample uses the same combination of WebDAV, a disguised DLL filename and ordinal execution through "rundll32.exe". We were also able to recover the full ClickFake related sequence leading to this loader. Figure 1 shows both chains, with dashed elements marking stages that were not d
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: ClearFake WebDAV infection chain delivers Amatera stealer, ZigCryptoStealer, and NetSupport Manager
+  - Published: 2026-09-08T10:01:07+00:00
+  - Link: https://blog.talosintelligence.com/clearfake-webdav-infection-chain/
+  - Summary: We assess with moderate confidence that the attacks are not targeted at a particular organization, but are a part of a cryptocurrency and credentials-stealing operation using the Amatera stealer as the primary payload.
+
+### Cluster 354835d235 — score 11
+
+- Title: ClickFix moves into the browser: Cryptocurrency theft with Google-hosted C2
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-09-08T10:00:38+00:00
+- Link: https://blog.talosintelligence.com/clickfix-moves-into-the-browser/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Cisco
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, phishing_social_eng, supply_chain
+- affected_industries: financial_services, retail_ecommerce
+- affected_products: Cisco, Google Cloud
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, phishing_social_eng, apt_espionage
+- affected_industries: financial_services, retail_ecommerce
+- affected_products: Cisco, Google Cloud
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Cisco Talos is tracking a cryptocurrency-stealing campaign that abuses the Google Visualization API for command and control (C2), retrieving obfuscated JavaScript from a publicly published Google Sheets document and injecting it into the victim's browser session.
+```
+
+#### Full body
+
+```
+ClickFix moves into the browser: Cryptocurrency theft with Google-hosted C2 By Sean Gallagher Tuesday, September 8, 2026 06:00 Threat Spotlight Cisco Talos is tracking a cryptocurrency-stealing campaign that abuses the Google Visualization API for command and control (C2), retrieving obfuscated JavaScript from a publicly published Google Sheets document and injecting it into the victim's browser session. The actors use a variation on ClickFix social engineering. Instead of convincing targets to run commands against the operating system, they convince targets to paste JavaScript into the Chrome address bar or install it into the Tampermonkey browser extension, which also provides persistence. The lure poses as a leaked vulnerability report describing a nonexistent API flaw at cryptocurrency swap services, and is aimed at users willing to exploit it for financial gain. Talos observed lures distributed through Telegram, DarkForums, and paste sites. The injected script functions as a web skimmer. It hooks the browser's fetch API, replaces cryptocurrency deposit addresses in server responses and the user's clipboard, and displays counterfeit "bonus" interface elements. Cisco Talos has recently observed a criminal campaign that leveraged an interesting twist on what we refer to as “legitimate service abuse.” In this monthslong campaign, the criminal actors used the Google Visualization API as part of a scheme to inject malicious JavaScript into two cryptocurrency trading websites. This campaign uses a twist on the tactics associated with “ClickFix” social engineering attacks , in which targets are manipulated into copying and pasting PowerShell or other commands and executing them to launch malware. Rather than targeting the victim device’s OS, the actors behind this campaign aim to convince the user to inject malicious code into their own browser session. Early versions of this campaign began in early October 2025 . The social engineering lures used initially focused on getting targets to paste a code snippet directly into the Chrome web browser’s navigation bar; the latest version relies on a legitimate Chrome plugin, Tampermonkey, to inject a loader script pasted in by the user and provide persistence across sessions with the current targeted site. In March 2026, the actors behind the campaign began using the Google Visualization API to deliver malicious scripts stored in a Google Sheets document. In July, after frequent disruption of their posts on shared text sites, the actors moved to hosting all the components of their campaign in Google Docs and Google Sheets. So far, the actors behind the scheme have largely targeted individuals who frequent web discussion boards and forums focused on cryptocurrency trading, software development, basic cybersecurity, and hacking. The lure used in the campaign is designed to appeal mostly to would-be cybercriminals looking to make a quick profit off an “API vulnerability” that doesn’t exist to get bigger payouts on cryptocurrency trades. While this campaign doesn’t pose a specific threat to most organizations, the approaches that the actors here are using do. These techniques and tools could be leveraged in other malware and web attacks with much wider impact, including supply-chain attacks on e-commerce sites and other customer-facing systems. Just Google it Google application abuse for C2 is not new by any stretch of the imagination. There have been multiple cases of state-sponsored actors using Google Sheets APIs, Google Drive, and other Google cloud services to help control deployed malware, concealing communications within traffic to otherwise trusted network spaces. Hunting for these threats usually requires examination of DNS traffic and the processes that are making the requests to reach these destinations — like a random executable making a DNS request for “docs.google[.]com”. But when the requests are made from within a browser session, that makes detection much more difficult. The
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: ClickFix moves into the browser: Cryptocurrency theft with Google-hosted C2
+  - Published: 2026-09-08T10:00:38+00:00
+  - Link: https://blog.talosintelligence.com/clickfix-moves-into-the-browser/
+  - Summary: Cisco Talos is tracking a cryptocurrency-stealing campaign that abuses the Google Visualization API for command and control (C2), retrieving obfuscated JavaScript from a publicly published Google Sheets document and injecting it into the victim's browser session.
 
 ### Cluster 56feb4a619 — score 11
 
@@ -2894,47 +2985,6 @@ CATEGORIES AI Research 20 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Link: https://research.checkpoint.com/2026/gaming-the-system-how-a-chinese-speaking-actor-turned-brazilian-government-sites-into-an-seo-weapon/
   - Summary: Research by: Amit Yardeni Key Points Introduction Since mid-2025, Check Point Research has tracked a sustained campaign against Brazilian organizations. The tradecraft points to a Chinese-speaking cybercrime group connected to Earth Berberoka, an actor first documented targeting gambling sites across Asia. Once inside a victim, the group deploys a broad Linux toolkit: a custom downloader, several backdoors, […] The post Gaming the system: how a Chinese-speaking actor turned Brazilian government sites into an SEO weapon appeared first on Check Point Research .
 
-### Cluster 2e68cba663 — score 10
-
-- Title: The story behind the intelligence
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-09-03T18:00:13+00:00
-- Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
-```
-
-#### Full body
-
-```
-The story behind the intelligence By Hazel Burton Thursday, September 3, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. Our goal is to get accurate threat intelligence to our audience as quickly as possible, with all the context you need to ask the right questions of your own environment: How at risk are we from this threat? Are we prepared for it? And what can we do about it? What you don’t often see is all the... well, frankly, “mess” involved in producing it. All the dead ends we followed until we could confirm those ends were as dead as a doornail. All the work it took to ultimately produce an assessment, supported by evidence and written so that defenders can act on it. Much of that abstraction is necessary. Defenders need intelligence they can use, not a complete account of every conversation we had, or investigative detour behind it. But it can create an overly tidy picture of both cybercrime and the work required to understand it. If you do fancy a look behind the curtain, though, may I recommend our just-published episode of Beers with Talos ? Our guest is Azim Khodjibaev, whose remit is adversary engagement. His work involves developing personas for deep- and dark-web research, engaging directly with threat actors, and building relationships with people who may become (and have been) openly threatening to him. At one point, he was maintaining eight separate personas, some of which were interacting with one another. Azim’s engagements have helped Talos identify prolific cybercriminals and contributed to wider disruption efforts. They have also resulted in ransomware operators placing “Azim sucks” in their code and accusing him of belonging to the very criminal groups he was investigating. His experiences also expose the problem with treating adversaries as uniformly sophisticated operators. Some are technically capable and highly organised. Others are impulsive, ego-driven, or one-trick ponies. Many have a scary detachment from the consequences of their actions. Increasingly, Azim is seeing less-experienced threat actors working through loosely organised online collectives. Intelligence necessarily turns that disorder into something defenders can understand and use. But occasionally, it is worth looking behind the finished product – the patience it takes to get accurate answers, who we are investigating, and the deeply human behaviour that shapes both sides. This Beers with Talos episode, “Eight People Walk Into a Dark Web Forum. They’re All Azim,” isn’t exactly going to help many people in our industry sleep better at night. But for anyone wanting to understand more about the threat we’re up against, as a co-host of the pod I’m biased, but I believe it’s an essential listen. And if that doesn’t inspire you to download the episode, perhaps my live review of trying Flamin’ Hot Cheetos for the very first time (with a chaser of Nerds) will. The one big thing Cisco Talos is highlighting a growing operational hurdle for security teams that we call the AI "safety penalty." As frontier AI models advance, their built-in guardrails are increasingly blocking legitimate defensive tasks. This was evident in July 2026 when Hugging Face's primary cloud LLM refused to analyze forensic data during a breach, delaying their response. While defenders are slowed by these frustrating refusals, adversaries are freely leveraging unconstrained models to attack at machine speed. Why do I care? This guardrail asymmetry hands the advantage directly to attackers. When a cloud-hosted AI model refuses a forensic request mid-incident, defenders lose precious time. Security teams are paying for vendor-imposed limitations without gaining a capability edge, especially as open-weight alternatives close the reasoning gap. Ultimately, relying on third-party alignment policies means a sudden update in Silicon Valley could quietly break your defensive workflows overnight. So now what? Security leadership
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: The story behind the intelligence
-  - Published: 2026-09-03T18:00:13+00:00
-  - Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
-  - Summary: From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
-
 ### Cluster 396a583814 — score 10
 
 - Title: What Fal.Con 2026 Reinforced: AI Makes Proving Exposure More Important Than Ever
@@ -3012,6 +3062,47 @@ CTEM Is Not About the Stages. It’s About the Outcome. Stephen Gates September 
   - Published: 2026-09-02T13:11:00+00:00
   - Link: https://horizon3.ai/intelligence/blogs/ctem-outcome-not-stages/
   - Summary: CTEM is not about filling five technology boxes. It is about continuously reducing exploitable exposure, proving remediation worked, and measuring whether the environment is becoming harder to attack.
+
+### Cluster 2e68cba663 — score 10
+
+- Title: The story behind the intelligence
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-09-03T18:00:13+00:00
+- Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
+```
+
+#### Full body
+
+```
+The story behind the intelligence By Hazel Burton Thursday, September 3, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. Our goal is to get accurate threat intelligence to our audience as quickly as possible, with all the context you need to ask the right questions of your own environment: How at risk are we from this threat? Are we prepared for it? And what can we do about it? What you don’t often see is all the... well, frankly, “mess” involved in producing it. All the dead ends we followed until we could confirm those ends were as dead as a doornail. All the work it took to ultimately produce an assessment, supported by evidence and written so that defenders can act on it. Much of that abstraction is necessary. Defenders need intelligence they can use, not a complete account of every conversation we had, or investigative detour behind it. But it can create an overly tidy picture of both cybercrime and the work required to understand it. If you do fancy a look behind the curtain, though, may I recommend our just-published episode of Beers with Talos ? Our guest is Azim Khodjibaev, whose remit is adversary engagement. His work involves developing personas for deep- and dark-web research, engaging directly with threat actors, and building relationships with people who may become (and have been) openly threatening to him. At one point, he was maintaining eight separate personas, some of which were interacting with one another. Azim’s engagements have helped Talos identify prolific cybercriminals and contributed to wider disruption efforts. They have also resulted in ransomware operators placing “Azim sucks” in their code and accusing him of belonging to the very criminal groups he was investigating. His experiences also expose the problem with treating adversaries as uniformly sophisticated operators. Some are technically capable and highly organised. Others are impulsive, ego-driven, or one-trick ponies. Many have a scary detachment from the consequences of their actions. Increasingly, Azim is seeing less-experienced threat actors working through loosely organised online collectives. Intelligence necessarily turns that disorder into something defenders can understand and use. But occasionally, it is worth looking behind the finished product – the patience it takes to get accurate answers, who we are investigating, and the deeply human behaviour that shapes both sides. This Beers with Talos episode, “Eight People Walk Into a Dark Web Forum. They’re All Azim,” isn’t exactly going to help many people in our industry sleep better at night. But for anyone wanting to understand more about the threat we’re up against, as a co-host of the pod I’m biased, but I believe it’s an essential listen. And if that doesn’t inspire you to download the episode, perhaps my live review of trying Flamin’ Hot Cheetos for the very first time (with a chaser of Nerds) will. The one big thing Cisco Talos is highlighting a growing operational hurdle for security teams that we call the AI "safety penalty." As frontier AI models advance, their built-in guardrails are increasingly blocking legitimate defensive tasks. This was evident in July 2026 when Hugging Face's primary cloud LLM refused to analyze forensic data during a breach, delaying their response. While defenders are slowed by these frustrating refusals, adversaries are freely leveraging unconstrained models to attack at machine speed. Why do I care? This guardrail asymmetry hands the advantage directly to attackers. When a cloud-hosted AI model refuses a forensic request mid-incident, defenders lose precious time. Security teams are paying for vendor-imposed limitations without gaining a capability edge, especially as open-weight alternatives close the reasoning gap. Ultimately, relying on third-party alignment policies means a sudden update in Silicon Valley could quietly break your defensive workflows overnight. So now what? Security leadership
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: The story behind the intelligence
+  - Published: 2026-09-03T18:00:13+00:00
+  - Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
+  - Summary: From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
 
 ### Cluster bb1555be83 — score 10
 
@@ -3147,106 +3238,6 @@ SAP warns of maximum severity 'OVERPASS' kernel vulnerability By Sergiu Gatlan S
   - Published: 2026-09-08T14:55:20+00:00
   - Link: https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-overpass-kernel-vulnerability/
   - Summary: SAP has addressed 20 vulnerabilities across multiple products in its September 2026 security updates, including a maximum-severity memory corruption flaw in the SAP Kernel code. [...]
-
-### Cluster 1b8c4b752b — score 10
-
-- Title: Mathspace Data Breach Exposes Over 1 Million People
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-09-08T10:47:36+00:00
-- Link: https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, apt_espionage, data_breach, phishing_social_eng, ransomware_extortion, web_shell_backdoor, zero_day
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services
-- affected_products: ScreenConnect, WordPress
-- cve_ids: CVE-2026-72898
-- urgency_signals: actively_exploited, zero_day
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach, apt_espionage, web_shell_backdoor, active_exploitation
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services
-- affected_products: WordPress, ScreenConnect
-- cve_ids: CVE-2026-72898
-- urgency_signals: actively_exploited, zero_day
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Hackers stole the information of students, teachers, staff, and parents/guardians from a self-hosted Metabase instance. The post Mathspace Data Breach Exposes Over 1 Million People appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Mathspace, an online mathematics program for students, has disclosed a data breach that impacts over 1 million individuals. The incident, it says, was discovered last week, roughly three weeks after hackers compromised its self-hosted Metabase instance using a known vulnerability. The security defect, tracked as CVE-2026-72898 (CVSS score of 10/10) and described as an SQL injection issue, was patched on August 6 , after it had been exploited in the wild as a zero-day. Shortly after the patches were released, the notorious extortion group ShinyHunters claimed responsibility for hacking Metabase. Mathspace failed to escalate Metabase’s critical advisory to prioritize patching and upgraded its instance on August 29, more than two weeks after hackers hit it. “Our investigation identified unauthorised access dating back to 10 August 2026, Australian Eastern Standard Time. We confirmed that information was downloaded from our Australian reporting database on 27 August,” Mathspace says in an incident notice . Advertisement. Scroll to continue reading. Furthermore, Mathspace did not complete the compromise checks Metabase had recommended, and did not identify the intrusion upon applying the update. “We are investigating why the initial advisory was not escalated and why those checks were not completed sooner. We are changing both processes as part of our incident response,” the online platform says. Mathspace has taken its Metabase instance offline, revoked API keys, disabled the database access accounts, changed passwords, and exported the logs for investigation. The data breach impacts 1,079,819 students, teachers, staff, and parents/guardians from Australia and New Zealand. Hackers downloaded names, user IDs, usernames, email addresses, email verification status, time zone, country, date joined, and last login and active dates. “No academic records, learning activities, results, assessment records, passwords (hashes), authentication tokens, SSO credentials, or API credentials were exposed. The exposed data did not include records linking user accounts to their schools,” Mathspace says. The platform warns that the threat actors may use the stolen information to mount phishing attacks, urging the potentially affected individuals to treat with extreme caution any unsolicited communication containing accurate references to the incident. Mathspace reported the incident to the relevant authorities in Australia and, over the weekend, started notifying the potentially affected individuals. Related: Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refusal Related: 153 Million Driver License Images Offered on Dark Web Related: Ransomware Gang Claims Nutex Health Data Breach Related: 9.5 Million Impacted by Aesto Health Data Breach Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire N-able Patches Critical Zero-Day in N-central Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits North Korean Hackers Deploy New Linux Espionage Toolkit Adobe Commerce Zero-Day Exploited to Backdoor Online Stores Modified ScreenConnect Clients Used in Worm-Like Campaign Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites HPE Patches Critical RCE Vulnerabilities in AOS-CX Sangoma Switchvox Vulnerability Exploited in the Wild Latest News Microsoft Patches Record 974 Vulnerabilities, Including Two Exploited Zero-Days Adobe Patches Over 170 Vulnerabilities, Including Commerce Zero-Day The Hidden Instructions That Can Hijack AI Agents Hackers Return $263 Million Stolen From Liquid Network Cylake Raises $245 Million Ahead of Cybersecurity Platform Beta SAP Patches Critical Extended Passport Processing Vulnerability Party’s Over for Crypto Scammers Who Went on a Spending Spree After a $240 Million Bitcoin Theft Mikr
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Mathspace Data Breach Exposes Over 1 Million People
-  - Published: 2026-09-08T10:47:36+00:00
-  - Link: https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/
-  - Summary: Hackers stole the information of students, teachers, staff, and parents/guardians from a self-hosted Metabase instance. The post Mathspace Data Breach Exposes Over 1 Million People appeared first on SecurityWeek .
-
-### Cluster 8d0dc94b54 — score 10
-
-- Title: N-able Patches Critical Zero-Day in N-central
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-09-08T10:37:58+00:00
-- Link: https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, apt_espionage, data_breach, web_shell_backdoor, zero_day
-- affected_industries: financial_services
-- affected_products: ScreenConnect, WordPress
-- cve_ids: CVE-2026-86206, CVE-2026-86207, CVE-2026-86218
-- urgency_signals: actively_exploited, no_patch_yet, preauth_unauth, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, data_breach, apt_espionage, web_shell_backdoor, active_exploitation
-- affected_industries: financial_services
-- affected_products: WordPress, ScreenConnect
-- cve_ids: CVE-2026-86218, CVE-2026-86206, CVE-2026-86207
-- urgency_signals: actively_exploited, zero_day, preauth_unauth, no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Administrators are advised to check their deployments for newly created user accounts they don’t recognize. The post N-able Patches Critical Zero-Day in N-central appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-IT software firm N-able has rolled out an urgent fix for an unauthenticated remote code execution (RCE) vulnerability in its N-central endpoint management platform that has been exploited as a zero-day. Tracked as CVE-2026-86218 (CVSS score of 10/10), the security defect was discovered after N-able patched two other flaws in N-central, namely CVE-2026-86206 and CVE-2026-86207 “This critical zero-day vulnerability, CVE-2026-86218, could allow pre-authenticated access to the N-central server if exploited,” N-able warns . While no action is required for N-central hosted environments, as the patches were deployed server-side, users of on-premises N-central instances should immediately apply the 2026.3 HF4 hotfix , the company says. “Review your logs for scanning activity. We’ve observed scans originating from the IP range 23.234.64.0/18 attempting to exploit this vulnerability. Check your logs for any connections from this range,” N-able also notes. Administrators are also advised to check their deployments for newly created user accounts they don’t recognize. Advertisement. Scroll to continue reading. “At this time, we have no confirmations that this vulnerability has been exploited in production environments, but unpatched systems remain at risk,” N-able says. The hotfix for the exploited zero-day supersedes the previously released patches for CVE-2026-86206 and CVE-2026-86207, two bugs that Huntress flagged as potentially chained together in the wild to bypass authentication and compromise N-central production environments. “However, due to limited historical logging available directly on the appliance, we cannot definitively confirm which specific exploit the threat actor used to achieve their compromise, nor can we rule out the use of alternative vulnerabilities,” Huntress said on Saturday. The cybersecurity firm observed attacks targeting N-central’s underlying API and appliance logs starting on September 4, 2026. Related: Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits Related: Adobe Commerce Zero-Day Exploited to Backdoor Online Stores Related: Modified ScreenConnect Clients Used in Worm-Like Campaign Related: Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Mathspace Data Breach Exposes Over 1 Million People Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits North Korean Hackers Deploy New Linux Espionage Toolkit Adobe Commerce Zero-Day Exploited to Backdoor Online Stores Modified ScreenConnect Clients Used in Worm-Like Campaign Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites HPE Patches Critical RCE Vulnerabilities in AOS-CX Sangoma Switchvox Vulnerability Exploited in the Wild Latest News Microsoft Patches Record 974 Vulnerabilities, Including Two Exploited Zero-Days Adobe Patches Over 170 Vulnerabilities, Including Commerce Zero-Day The Hidden Instructions That Can Hijack AI Agents Hackers Return $263 Million Stolen From Liquid Network Cylake Raises $245 Million Ahead of Cybersecurity Platform Beta SAP Patches Critical Extended Passport Processing Vulnerability Party’s Over for Crypto Scammers Who Went on a Spending Spree After a $240 Million Bitcoin Theft MikroTik Patches Critical Flaws Chained to Hack Routers Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Virtual Event: Attack Surface Management Summit 2026 September 16, 2026 Join as speakers examine the various components of ASM strategy, the push to mandate continuous asset visibility and inventory tools, and the use of red-teaming, bug bounties and pen-tests in modern security programs. Reg
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: N-able Patches Critical Zero-Day in N-central
-  - Published: 2026-09-08T10:37:58+00:00
-  - Link: https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/
-  - Summary: Administrators are advised to check their deployments for newly created user accounts they don’t recognize. The post N-able Patches Critical Zero-Day in N-central appeared first on SecurityWeek .
 
 ### Cluster d19603372e — score 10
 
@@ -3624,6 +3615,78 @@ Infosecurity Magazine Home » News » Rhysida Publishes Berlin Government Data A
   - Link: https://www.infosecurity-magazine.com/news/rhysida-berlin-data-extortion/
   - Summary: The ransomware group’s published dataset reportedly includes Berlin state employee data, as well as highly sensitive emergency plans
 
+### Cluster 1b8c4b752b — score 9
+
+- Title: Mathspace Data Breach Exposes Over 1 Million People
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-09-08T10:47:36+00:00
+- Link: https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Hackers stole the information of students, teachers, staff, and parents/guardians from a self-hosted Metabase instance. The post Mathspace Data Breach Exposes Over 1 Million People appeared first on SecurityWeek .
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Mathspace Data Breach Exposes Over 1 Million People
+  - Published: 2026-09-08T10:47:36+00:00
+  - Link: https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/
+  - Summary: Hackers stole the information of students, teachers, staff, and parents/guardians from a self-hosted Metabase instance. The post Mathspace Data Breach Exposes Over 1 Million People appeared first on SecurityWeek .
+
+### Cluster 8d0dc94b54 — score 9
+
+- Title: N-able Patches Critical Zero-Day in N-central
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-09-08T10:37:58+00:00
+- Link: https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Administrators are advised to check their deployments for newly created user accounts they don’t recognize. The post N-able Patches Critical Zero-Day in N-central appeared first on SecurityWeek .
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: N-able Patches Critical Zero-Day in N-central
+  - Published: 2026-09-08T10:37:58+00:00
+  - Link: https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/
+  - Summary: Administrators are advised to check their deployments for newly created user accounts they don’t recognize. The post N-able Patches Critical Zero-Day in N-central appeared first on SecurityWeek .
+
 ### Cluster 36383a6cd0 — score 9
 
 - Title: Security Vulnerability in a Voting System
@@ -3691,47 +3754,6 @@ Google warned that the rapid integration of AI-assisted coding tools has signifi
   - Published: 2026-09-08T12:02:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/ai-coding-tools-threat-actors/
   - Summary: Google warned that the rapid integration of AI-assisted coding tools has significantly expanded software supply chain risks
-
-### Cluster fbe10584c4 — score 9
-
-- Title: How AI-driven Threat Detection is Reshaping Threat Intelligence
-- Source: Team Cymru (ransomware_ecrime_financial_crime)
-- Published: 2026-09-04T13:13:53+00:00
-- Link: https://www.team-cymru.com/post/ai-driven-threat-detection-is-reshaping-cybersecurity
-- Fetch status: not_attempted
-- Member count: 3
-- Corroborating source count: 2
-- Strong signals: Fortinet
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_products: Fortinet, Ivanti
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_5_chatter
-
-#### Primary article taxonomy
-- affected_products: Fortinet
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Hear Fortinet’s Aamir Lakhani explain the role of AI in cybersecurity and how AI-driven threat detection is reshaping modern threat intelligence.
-```
-
-#### Corroborating sources (2)
-
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - Title: How AI-driven Threat Detection is Reshaping Threat Intelligence
-  - Published: 2026-09-04T13:13:53+00:00
-  - Link: https://www.team-cymru.com/post/ai-driven-threat-detection-is-reshaping-cybersecurity
-  - Summary: Hear Fortinet’s Aamir Lakhani explain the role of AI in cybersecurity and how AI-driven threat detection is reshaping modern threat intelligence.
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - Title: Experiences with SASE solutions from Palo, FortiNet, and/or Cloudflare
-  - Published: 2026-09-08T19:18:23+00:00
-  - Link: https://www.reddit.com/r/sysadmin/comments/1way5g2/experiences_with_sase_solutions_from_palo/
-  - Summary: Our org is looking to solve a few separate problems that I feel can all be solved with a SASE solution. Certain users needing to VPN to a particular office for license check-in/check-out. (Old school license software) Web filtering (porn, illegal, phishing, malware, etc.) Encrypted browsing for road warriors (hotels, airports, etc.) I know both Palo and Fortinet have SASE solutions, but I've heard Cloudflare also has their own solution that I'm curious if anyone has ever tried at scale. We don't have Palo or Fortinet hardware firewalls. We're looking at about 250 users to start, growing to maybe 500 over the next 24 months. submitted by /u/cyr0nk0r [link] [comments]
 
 ### Cluster dc442d78ed — score 8
 
@@ -3902,16 +3924,16 @@ New research suggests the coming Vulnpocalypse may not be so overwhelming for en
   - Link: https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared
   - Summary: New research suggests the coming Vulnpocalypse may not be so overwhelming for enterprise security teams — if they have the right strategies.
 
-### Cluster fc680fa84f — score 8
+### Cluster 94a219b713 — score 8
 
-- Title: IT help-desk vishing tricks executives into handing over Microsoft 365 access
-- Source: Help Net Security (cyber_news_breach_reporting)
-- Published: 2026-09-08T11:17:28+00:00
-- Link: https://www.helpnetsecurity.com/2026/09/08/vishing-microsoft-365-data-theft-extortion/
+- Title: Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-09-07T15:51:56+00:00
+- Link: https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html
 - Fetch status: not_attempted
 - Member count: 3
 - Corroborating source count: 3
-- Strong signals: Microsoft 365, UNC6671
+- Strong signals: Microsoft 365
 
 #### Cluster taxonomy (union across members)
 - threat_categories: credential_theft, mfa_bypass, phishing_social_eng, ransomware_extortion
@@ -3921,30 +3943,29 @@ New research suggests the coming Vulnpocalypse may not be so overwhelming for en
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng
-- actor_attribution: UNC6671
+- threat_categories: ransomware_extortion, phishing_social_eng, credential_theft, mfa_bypass
 - affected_products: Microsoft 365
-- content_type: news_report
+- content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-IT help-desk vishing calls, stolen session tokens, and sign-ins routed through residential proxies are behind a wave of data theft and extortion against Microsoft 365 and other SaaS accounts, according to Arctic Wolf. The company is tracking the activity under the name PREY-0058 and notes it shares significant tradecraft similarities with a data extortion group that Google Threat Intelligence Group calls UNC6671. The extortion side has gone by several names, among them BlackFile, Pink, Helix, … More → The post IT help-desk vishing tricks executives into handing over Microsoft 365 access appeared first on Help Net Security .
+Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other software-as-a-service (SaaS) offerings through information technology (IT) help desk vishing, adversary-in-the-middle (AitM) token theft, and residential-proxy sign-ins. The activity, which mainly singles out directors, vice presidents, and other executive staff
 ```
 
 #### Corroborating sources (3)
 
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: IT help-desk vishing tricks executives into handing over Microsoft 365 access
-  - Published: 2026-09-08T11:17:28+00:00
-  - Link: https://www.helpnetsecurity.com/2026/09/08/vishing-microsoft-365-data-theft-extortion/
-  - Summary: IT help-desk vishing calls, stolen session tokens, and sign-ins routed through residential proxies are behind a wave of data theft and extortion against Microsoft 365 and other SaaS accounts, according to Arctic Wolf. The company is tracking the activity under the name PREY-0058 and notes it shares significant tradecraft similarities with a data extortion group that Google Threat Intelligence Group calls UNC6671. The extortion side has gone by several names, among them BlackFile, Pink, Helix, … More → The post IT help-desk vishing tricks executives into handing over Microsoft 365 access appeared first on Help Net Security .
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks
   - Published: 2026-09-07T15:51:56+00:00
   - Link: https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html
   - Summary: Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other software-as-a-service (SaaS) offerings through information technology (IT) help desk vishing, adversary-in-the-middle (AitM) token theft, and residential-proxy sign-ins. The activity, which mainly singles out directors, vice presidents, and other executive staff
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: IT help-desk vishing tricks executives into handing over Microsoft 365 access
+  - Published: 2026-09-08T11:17:28+00:00
+  - Link: https://www.helpnetsecurity.com/2026/09/08/vishing-microsoft-365-data-theft-extortion/
+  - Summary: IT help-desk vishing calls, stolen session tokens, and sign-ins routed through residential proxies are behind a wave of data theft and extortion against Microsoft 365 and other SaaS accounts, according to Arctic Wolf. The company is tracking the activity under the name PREY-0058 and notes it shares significant tradecraft similarities with a data extortion group that Google Threat Intelligence Group calls UNC6671. The extortion side has gone by several names, among them BlackFile, Pink, Helix, … More → The post IT help-desk vishing tricks executives into handing over Microsoft 365 access appeared first on Help Net Security .
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: BigBear 2 PhaaS Campaign Steals 5000+ Microsoft Credentials
   - Published: 2026-09-08T09:45:00+00:00
@@ -4273,43 +4294,3 @@ submitted by /u/_pimps [link] [comments]
   - Published: 2026-09-07T03:47:14+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1w9h4ng/from_padding_oracle_to_shell_unauthenticated_rce/
   - Summary: submitted by /u/_pimps [link] [comments]
-
-### Cluster 129d76f838 — score 8
-
-- Title: Microsoft releases Windows 10 KB5122878 extended security update
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-09-08T18:49:19+00:00
-- Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5122878-extended-security-update/
-- Fetch status: not_attempted
-- Member count: 3
-- Corroborating source count: 2
-- Strong signals: Microsoft Windows
-
-#### Cluster taxonomy (union across members)
-- affected_products: Azure, Microsoft Windows
-- content_type: news_report
-- confidence_tier: tier_4_news, tier_5_chatter
-
-#### Primary article taxonomy
-- affected_products: Microsoft Windows
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Microsoft has released the Windows 10 KB5122878 extended security update, which includes this month's record-breaking September 2026 Patch Tuesday fixes, along with a few bug fixes. [...]
-```
-
-#### Corroborating sources (2)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Microsoft releases Windows 10 KB5122878 extended security update
-  - Published: 2026-09-08T18:49:19+00:00
-  - Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5122878-extended-security-update/
-  - Summary: Microsoft has released the Windows 10 KB5122878 extended security update, which includes this month's record-breaking September 2026 Patch Tuesday fixes, along with a few bug fixes. [...]
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - Title: Automated On-prem Windows Server Patching
-  - Published: 2026-09-08T16:51:45+00:00
-  - Link: https://www.reddit.com/r/sysadmin/comments/1watwom/automated_onprem_windows_server_patching/
-  - Summary: I've been out of infrastructure management for a few years, back then I was using WSUS to patch servers. My understanding is Microsoft's recommended way of managing on-prem server patching is to onboard the servers with Azure Arc then use Azure Update Manager to patch them. This was the first solution that came to mind when I was assigned this responsibility. I assumed it was free but costs $5 a month for on-prem to use AUM. Do you folks have a better or less costly solution that you use? Preferably something specifically built for server management? I was thinking of Ansible (which I would need to learn, which is fine) or something like Automox. We have less than 100 servers. I will be the one patching them all. There are custom applications that run on them that I suppose I will need to make sure still run after the patching. Thanks in advance for any feedback or advice. submitted by /u/void_ops [link] [comments]
