@@ -6,9 +6,29 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 10 Sep 2026 21:31:23 +0000</lastBuildDate>
+<lastBuildDate>Thu, 10 Sep 2026 23:55:40 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>A real Carnival Cruise Line email was serving customers malware</title>
+<link>https://www.reddit.com/r/netsec/comments/1wczamw/a_real_carnival_cruise_line_email_was_serving/</link>
+<description><![CDATA[submitted by /u/tuxxin [link] [comments]]]></description>
+<pubDate>Thu, 10 Sep 2026 23:23:43 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wczamw/a_real_carnival_cruise_line_email_was_serving/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
+<title>New Android malware encrypts files, steals data, and harasses victims</title>
+<link>https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/</link>
+<description><![CDATA[A new Android malware strain called Mantax Otax combines ransomware and spyware capabilities to encrypt files, steal sensitive data, and spam and harass victims. [...]<br/><br/><em>Tags: Android · ransomware_extortion</em>]]></description>
+<pubDate>Thu, 10 Sep 2026 21:40:43 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>Android</category>
+<category>ransomware_extortion</category>
+</item>
 <item>
 <title>Voice Callers Exploit BYOD to Reach Microsoft 365, Corporate Data</title>
 <link>https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data</link>
@@ -3528,15 +3548,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>GeoJSON Map Viewer</title>
-<link>https://simonwillison.net/2026/Sep/1/geojson/</link>
-<description><![CDATA[Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council ) and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one. After some iterations using Claude Code for web and Fable 5.1 we got to this finished tool. As for the GeoJSON.. it turns out if you ask ChatGPT Work to provide boundaries for almost anything it will churn away extracting and combining files from different Government data sources and build exactly what you need. I got this polygon from: I want a polygon that represents the exact boundary of the El Granada GCSD And this one from: Get me a GeoJSON file for the boundary (or boundaries if that makes sense) for the MCC - Midcoast Community Council - that operates near Half Moon Bay CA Here&apos;s a link that displays both of them at the same time on the new GeoJSON map]]></description>
-<pubDate>Tue, 01 Sep 2026 18:05:45 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Sep/1/geojson/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>Introducing agentic video understanding with Gemini</title>
 <link>https://deepmind.google/blog/introducing-agentic-video-in-gemini/</link>
 <description><![CDATA[]]></description>
@@ -3774,15 +3785,6 @@
 <guid isPermaLink="true">https://securelist.com/mirage-kitten-new-backdoors-noderabbit-pollcat/121244/</guid>
 <source url="https://securelist.com/feed/">Kaspersky Securelist</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>Don’t Let Abliteration Abliterate Your Bug Hunting: Discovering Verdict Bias in Uncensored Models</title>
-<link>https://www.reddit.com/r/netsec/comments/1w429pe/dont_let_abliteration_abliterate_your_bug_hunting/</link>
-<description><![CDATA[submitted by /u/onlinereadme [link] [comments]]]></description>
-<pubDate>Tue, 01 Sep 2026 05:08:07 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1w429pe/dont_let_abliteration_abliterate_your_bug_hunting/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>waf-fu, or Some Log Replay Nonsense</title>
@@ -4047,15 +4049,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>Privilege escalation from IIS AppPool to NT Authority/SYSTEM via AD CS RPC endpoint</title>
-<link>https://www.reddit.com/r/netsec/comments/1w36tcq/privilege_escalation_from_iis_apppool_to_nt/</link>
-<description><![CDATA[submitted by /u/1046ica [link] [comments]]]></description>
-<pubDate>Mon, 31 Aug 2026 07:40:42 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1w36tcq/privilege_escalation_from_iis_apppool_to_nt/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Risky Bulletin: New powers for Dutch intelligence services</title>
 <link>https://risky.biz/RBNEWS607/</link>
 <description><![CDATA[Dutch intelligence services will get new powers, a security expert has been arrested in Israel for hacking, the BTS hacker gets a 20 year sentence in South Korea, and an AfD politician in Germany has been linked to a Russian cybercrime hosting service.]]></description>
@@ -4171,15 +4164,6 @@
 <guid isPermaLink="true">https://risky.biz/RBNEWSSI142/</guid>
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>Anatomy of a ServiceNow Red Team</title>
-<link>https://www.reddit.com/r/netsec/comments/1w2mktz/anatomy_of_a_servicenow_red_team/</link>
-<description><![CDATA[submitted by /u/gid0rah [link] [comments]]]></description>
-<pubDate>Sun, 30 Aug 2026 16:46:45 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1w2mktz/anatomy_of_a_servicenow_red_team/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Boardroom Battles 2026: ASD’s Cyber Priorities &amp; AI Risk</title>
@@ -4420,15 +4404,6 @@
 <guid isPermaLink="true">https://www.elastic.co/security-labs/threat-command/dll-search-order-hijacking-elastic-defend</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>UniBLEed: Unauthenticated Root RCE on Any Unitree G1 Humanoid Robot Within Bluetooth Range</title>
-<link>https://www.reddit.com/r/netsec/comments/1w05xwz/unibleed_unauthenticated_root_rce_on_any_unitree/</link>
-<description><![CDATA[submitted by /u/WiseTuna [link] [comments]]]></description>
-<pubDate>Thu, 27 Aug 2026 20:44:41 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1w05xwz/unibleed_unauthenticated_root_rce_on_any_unitree/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Join OpenSSF at AGNTCon + MCPCon North America: Securing Agentic AI</title>
@@ -20084,7 +20059,7 @@
 <title>September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 10 Sep 2026 21:31:23 +0000</pubDate>
+<pubDate>Thu, 10 Sep 2026 23:55:40 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20093,7 +20068,7 @@
 <title>CrowdStrike Delivers the Next Evolution of the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 10 Sep 2026 21:31:23 +0000</pubDate>
+<pubDate>Thu, 10 Sep 2026 23:55:40 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20102,7 +20077,7 @@
 <title>CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Thu, 10 Sep 2026 21:31:23 +0000</pubDate>
+<pubDate>Thu, 10 Sep 2026 23:55:40 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20112,7 +20087,7 @@
 <title>CrowdStrike Announces Agentic Identity Provider</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 10 Sep 2026 21:31:23 +0000</pubDate>
+<pubDate>Thu, 10 Sep 2026 23:55:40 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20121,7 +20096,7 @@
 <title>CrowdStrike Falcon Guardian Defines the Next Generation of AI Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 10 Sep 2026 21:31:23 +0000</pubDate>
+<pubDate>Thu, 10 Sep 2026 23:55:40 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20130,7 +20105,7 @@
 <title>Peer Pressure: Inside the Sality Botnet Disruption Operation</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 10 Sep 2026 21:31:23 +0000</pubDate>
+<pubDate>Thu, 10 Sep 2026 23:55:40 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20139,7 +20114,7 @@
 <title>Agents of Chaos: A New $100K Agentic Security Challenge</title>
 <link>https://www.crowdstrike.com/en-us/blog/agents-of-chaos-immersive-ai-security-challenge/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 10 Sep 2026 21:31:23 +0000</pubDate>
+<pubDate>Thu, 10 Sep 2026 23:55:40 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/agents-of-chaos-immersive-ai-security-challenge/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20148,7 +20123,7 @@
 <title>CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar™: Cloud Workload Protection Platforms</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 10 Sep 2026 21:31:23 +0000</pubDate>
+<pubDate>Thu, 10 Sep 2026 23:55:40 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20157,7 +20132,7 @@
 <title>Benchmaxxing: When the Benchmark Becomes the Target</title>
 <link>https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 10 Sep 2026 21:31:23 +0000</pubDate>
+<pubDate>Thu, 10 Sep 2026 23:55:40 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20166,7 +20141,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 10 Sep 2026 21:31:23 +0000</pubDate>
+<pubDate>Thu, 10 Sep 2026 23:55:40 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
