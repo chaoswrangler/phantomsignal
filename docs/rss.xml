@@ -6,9 +6,47 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 10 Sep 2026 23:55:40 +0000</lastBuildDate>
+<lastBuildDate>Fri, 11 Sep 2026 04:08:05 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>New infosec products of the week: September 11, 2026</title>
+<link>https://www.helpnetsecurity.com/2026/09/11/new-infosec-products-of-the-week-september-11-2026/</link>
+<description><![CDATA[Here’s a look at the most interesting products from the past week, featuring releases from Akeyless, Orchid Security, Scytale, and Securin. Securin Platform helps security teams prove when attack paths are closed Securin has announced the general availability of the Securin Platform, an AI-native Preemptive Exposure Management platform designed to answer three questions security teams struggle with every day: What can attackers actually exploit? What should we fix first? And did the fix actually work? … More → The post New infosec products of the week: September 11, 2026 appeared first on Help Net Security .]]></description>
+<pubDate>Fri, 11 Sep 2026 04:00:08 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/11/new-infosec-products-of-the-week-september-11-2026/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Datasette 1.0a39 and 0.65.4 security releases</title>
+<link>https://simonwillison.net/2026/Sep/11/datasette-security/</link>
+<description><![CDATA[Datasette 1.0a39 and 0.65.4 security releases Today we&apos;re releasing two new security patch versions of Datasette: 1.0a39 and 0.65.4 - one for the current alpha series and one for the stable 0.65.x family. These are security fixes which you should apply if you are running a Datasette instance on the public web - in particular if that instance mixes both public and private tables. Following issues reported by Sevban Dönmez , Alex Garcia and I ran an extensive audit of Datasette using Claude Fable 5.1, GPT-5.6, and GPT-6 Astra. We then spent almost a week collaborating on and reviewing the fixes. They helped find some very subtle bugs. We&apos;ll be incorporating security audits by frontier models into all of our development work going forward. Alex came up with a way of splitting the work which I found extremely productive: Alex Garcia and I worked together running and then responding to the audit, working in a shared private repository. For most of the issues we split the work: one of us wou]]></description>
+<pubDate>Fri, 11 Sep 2026 03:27:16 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Sep/11/datasette-security/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Risky Bulletin: Anthropic agents went hacking again</title>
+<link>https://risky.biz/RBNEWS612/</link>
+<description><![CDATA[Anthropic agents went hacking again, South Korea increases its data breach fines, Apple notifies three Turkish ministers of mercenary spyware attacks, and CISA is ready to hire 250 staff.<br/><br/><em>Tags: Anthropic/Claude · data_breach</em>]]></description>
+<pubDate>Fri, 11 Sep 2026 02:32:11 +0000</pubDate>
+<guid isPermaLink="true">https://risky.biz/RBNEWS612/</guid>
+<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
+<category>practitioner_analysis</category>
+<category>Anthropic/Claude</category>
+<category>data_breach</category>
+</item>
+<item>
+<title>Indonesia Hit by Android Banking App-Cloning Campaign</title>
+<link>https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign</link>
+<description><![CDATA[The GoldFactory threat group exploits the Android Work Profile feature to deliver the Gigabud Trojan, while Mantax Otax spreads separately.]]></description>
+<pubDate>Fri, 11 Sep 2026 01:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>A real Carnival Cruise Line email was serving customers malware</title>
 <link>https://www.reddit.com/r/netsec/comments/1wczamw/a_real_carnival_cruise_line_email_was_serving/</link>
@@ -2158,6 +2196,15 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
+<title>ISC Stormcast For Friday, September 4th, 2026 https://isc.sans.edu/podcastdetail/10082, (Fri, Sep 4th)</title>
+<link>https://isc.sans.edu/diary/rss/33310</link>
+<description><![CDATA[(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.]]></description>
+<pubDate>Fri, 04 Sep 2026 02:00:02 +0000</pubDate>
+<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33310</guid>
+<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
+<category>government_authoritative</category>
+</item>
+<item>
 <title>Recorded Future Announces Automated Signature Creation, Accelerating Vulnerability Prioritization</title>
 <link>https://www.recordedfuture.com/blog/automated-signature-creation</link>
 <description><![CDATA[Recorded Future&apos;s Automated Signature Creation turns new vulnerabilities into detection signatures in under an hour, matching the pace of AI-driven exploits.]]></description>
@@ -2165,6 +2212,33 @@
 <guid isPermaLink="true">https://www.recordedfuture.com/blog/automated-signature-creation</guid>
 <source url="https://www.recordedfuture.com/feed">Recorded Future</source>
 <category>threat_research_primary</category>
+</item>
+<item>
+<title>Runtime is the real defense, not just posture</title>
+<link>https://webflow.sysdig.com/blog/runtime-is-the-real-defense-not-just-posture</link>
+<description><![CDATA[Instead of trying to build a forward-looking defense with backward-facing tools, it&apos;s time to flip the script: Start with runtime security.]]></description>
+<pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://webflow.sysdig.com/blog/runtime-is-the-real-defense-not-just-posture</guid>
+<source url="https://sysdig.com/feed/">Sysdig</source>
+<category>detection_response_operations</category>
+</item>
+<item>
+<title>Cloud security and the power of runtime insights</title>
+<link>https://webflow.sysdig.com/blog/cloud-security-and-the-power-of-runtime-insights</link>
+<description><![CDATA[As organizations move to the cloud, the adoption of a CNAPP with runtime insights becomes a pivotal strategy for securing cloud environments.]]></description>
+<pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://webflow.sysdig.com/blog/cloud-security-and-the-power-of-runtime-insights</guid>
+<source url="https://sysdig.com/feed/">Sysdig</source>
+<category>detection_response_operations</category>
+</item>
+<item>
+<title>Data access: the hidden cost of security vendor lock-in</title>
+<link>https://www.elastic.co/security-labs/blog/siem-data-export-comparison</link>
+<description><![CDATA[Getting data into a security platform is always easy; getting it back out is where vendors add cost, extra tooling, and latency, and it is the part of the evaluation most teams overlook.]]></description>
+<pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/blog/siem-data-export-comparison</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>Managed EDR: What It Is &amp; How to Choose a Provider</title>
@@ -2950,15 +3024,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>Honeypot-Omaha and batch.py [Guest Diary], (Wed, Sep 2nd)</title>
-<link>https://isc.sans.edu/diary/rss/33306</link>
-<description><![CDATA[[This is a Guest Diary by Frank Igbokwe, an ISC intern as part of the SANS.edu BACS program]]]></description>
-<pubDate>Thu, 03 Sep 2026 02:02:56 +0000</pubDate>
-<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33306</guid>
-<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
-<category>government_authoritative</category>
-</item>
-<item>
 <title>How Developers Prevent Production Risk at the Source</title>
 <link>https://www.wiz.io/blog/prevent-production-risk-at-code-stage</link>
 <description><![CDATA[Fixing security vulnerabilities in code takes seconds, while patching in production creates high operational costs and risk. Discover how empowering developers as your first line of defense eliminates exposure across every phase of your software pipeline.]]></description>
@@ -3527,16 +3592,6 @@
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
 <category>credential_theft</category>
-</item>
-<item>
-<title>Codex bundles LibreOffice</title>
-<link>https://simonwillison.net/2026/Sep/1/codex-libreoffice/</link>
-<description><![CDATA[I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a folder called codex-primary-runtime , including a full Python installation, a full Node.js installation, and native binaries for Poppler , git, and the LibreOffice open source office suite (which forked from OpenOffice.org in 2010): The ~/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/documents folder includes skills which tell Codex how to find and use those binaries. Tags: codex , generative-ai , openai , ai , llms , openoffice , open-source<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
-<pubDate>Tue, 01 Sep 2026 19:03:01 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Sep/1/codex-libreoffice/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-<category>OpenAI/ChatGPT</category>
 </item>
 <item>
 <title>Cybersecurity IR Workshop: The workshop you shouldn’t miss</title>
@@ -4943,15 +4998,6 @@
 <description><![CDATA[The international law enforcement operation focused on disrupting crime-as-a-service networks and infrastructure behind groups like Black Axe.]]></description>
 <pubDate>Wed, 26 Aug 2026 08:30:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.darkreading.com/threat-intelligence/interpols-jackal-iv-west-african-crime-infrastructure</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Nigeria Looks to Sovereign Cloud for Cyber, National Security</title>
-<link>https://www.darkreading.com/cybersecurity-operations/nigeria-sovereign-cloud-cyber-national-security</link>
-<description><![CDATA[The West African nation launched financing, procurement, and infrastructure policies to boost its sovereign cloud initiative and increase domestic technical knowledge.]]></description>
-<pubDate>Wed, 26 Aug 2026 08:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/nigeria-sovereign-cloud-cyber-national-security</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
 </item>
@@ -6886,6 +6932,16 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
+<title>Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave</title>
+<link>https://blog.cloudflare.com/ddos-threat-report-2026-h1/</link>
+<description><![CDATA[In the first half of 2026, Cloudflare detected a 519% surge in hyper-volumetric DDos attacks across its network. These attacks were driven heavily by DNS and CLDAP reflection vectors. This report breaks down how major geopolitical conflicts reshaped the global cyber threat landscape.<br/><br/><em>Tags: ddos</em>]]></description>
+<pubDate>Tue, 11 Aug 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://blog.cloudflare.com/ddos-threat-report-2026-h1/</guid>
+<source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
+<category>cloud_identity_infrastructure</category>
+<category>ddos</category>
+</item>
+<item>
 <title>CVE-2026-63520: Microsoft SharePoint Remote Code Execution (FIXED)</title>
 <link>https://www.rapid7.com/blog/post/etr-cve-2026-63520-microsoft-sharepoint-remote-code-execution-fixed</link>
 <description><![CDATA[Overview Rapid7 Labs conducted a zero-day research project against Microsoft SharePoint, resulting in the discovery of two new vulnerabilities that, when chained together, achieve unauthenticated remote code execution (RCE) against a vulnerable SharePoint server. Today, both Rapid7 and Microsoft are disclosing the second vulnerability in this chain, the RCE vulnerability CVE-2026-63520. The first vulnerability in the chain, CVE-2026-55040, was disclosed by Rapid7 and Microsoft last month. Our full disclosure timeline for the exploit chain can be seen below in Figure 1. Figure 1: The road to disclosure. ⠀ CVE-2026-63520 affects all supported versions of Microsoft SharePoint. An attacker can leverage CVE-2026-63520 to execute arbitrary code on a vulnerable SharePoint server with the privileges of the SharePoint Site’s service account. The vulnerability is due to an unsafe .NET type instantiation issue within the Business Connectivity Services . CVE-2026-63520 has a CVSSv3.1 score of 8.1 <br/><br/><em>Tags: Microsoft SharePoint · CVE-2026-63520 · CVE-2026-55040 · zero_day</em>]]></description>
@@ -6908,16 +6964,6 @@
 <category>offensive_vulnerability_research</category>
 <category>Microsoft SharePoint</category>
 <category>CVE-2026-55040</category>
-</item>
-<item>
-<title>Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave</title>
-<link>https://blog.cloudflare.com/ddos-threat-report-2026-h1/</link>
-<description><![CDATA[In the first half of 2026, Cloudflare detected a 519% surge in hyper-volumetric DDos attacks across its network. These attacks were driven heavily by DNS and CLDAP reflection vectors. This report breaks down how major geopolitical conflicts reshaped the global cyber threat landscape.<br/><br/><em>Tags: ddos</em>]]></description>
-<pubDate>Tue, 11 Aug 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.cloudflare.com/ddos-threat-report-2026-h1/</guid>
-<source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
-<category>cloud_identity_infrastructure</category>
-<category>ddos</category>
 </item>
 <item>
 <title>Head Mare APT is exploiting vulnerabilities in an unpatched TrueConf server to deliver PhantomCore and PhantomGraph to video conference participants</title>
@@ -12842,16 +12888,6 @@
 <guid isPermaLink="true">https://www.welivesecurity.com/en/privacy/eyes-wide-open-mitigate-security-privacy-risks-smart-glasses/</guid>
 <source url="https://www.welivesecurity.com/en/rss/feed/">ESET WeLiveSecurity</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>Risky Bulletin: FCC relaxes foreign router security patch ban</title>
-<link>https://risky.biz/RBNEWS562/</link>
-<description><![CDATA[The FCC relaxes its foreign router ban to allow for security updates, the ShinyHunters group disrupts schools across the globe, a 21-year-old remote code execution bug turns up in FreeBSD, and another Linux privilege escalation bug was disclosed… without a patch.<br/><br/><em>Tags: ShinyHunters</em>]]></description>
-<pubDate>Mon, 11 May 2026 00:39:13 +0000</pubDate>
-<guid isPermaLink="true">https://risky.biz/RBNEWS562/</guid>
-<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
-<category>ShinyHunters</category>
 </item>
 <item>
 <title>Malicious Coding Agent Skills and the Risk of Dynamic Context</title>
@@ -20059,7 +20095,7 @@
 <title>September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 10 Sep 2026 23:55:40 +0000</pubDate>
+<pubDate>Fri, 11 Sep 2026 04:08:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20068,7 +20104,7 @@
 <title>CrowdStrike Delivers the Next Evolution of the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 10 Sep 2026 23:55:40 +0000</pubDate>
+<pubDate>Fri, 11 Sep 2026 04:08:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20077,7 +20113,7 @@
 <title>CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Thu, 10 Sep 2026 23:55:40 +0000</pubDate>
+<pubDate>Fri, 11 Sep 2026 04:08:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20087,7 +20123,7 @@
 <title>CrowdStrike Announces Agentic Identity Provider</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 10 Sep 2026 23:55:40 +0000</pubDate>
+<pubDate>Fri, 11 Sep 2026 04:08:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20096,7 +20132,7 @@
 <title>CrowdStrike Falcon Guardian Defines the Next Generation of AI Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 10 Sep 2026 23:55:40 +0000</pubDate>
+<pubDate>Fri, 11 Sep 2026 04:08:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20105,7 +20141,7 @@
 <title>Peer Pressure: Inside the Sality Botnet Disruption Operation</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 10 Sep 2026 23:55:40 +0000</pubDate>
+<pubDate>Fri, 11 Sep 2026 04:08:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20114,7 +20150,7 @@
 <title>Agents of Chaos: A New $100K Agentic Security Challenge</title>
 <link>https://www.crowdstrike.com/en-us/blog/agents-of-chaos-immersive-ai-security-challenge/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 10 Sep 2026 23:55:40 +0000</pubDate>
+<pubDate>Fri, 11 Sep 2026 04:08:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/agents-of-chaos-immersive-ai-security-challenge/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20123,7 +20159,7 @@
 <title>CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar™: Cloud Workload Protection Platforms</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 10 Sep 2026 23:55:40 +0000</pubDate>
+<pubDate>Fri, 11 Sep 2026 04:08:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20132,7 +20168,7 @@
 <title>Benchmaxxing: When the Benchmark Becomes the Target</title>
 <link>https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 10 Sep 2026 23:55:40 +0000</pubDate>
+<pubDate>Fri, 11 Sep 2026 04:08:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20141,7 +20177,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 10 Sep 2026 23:55:40 +0000</pubDate>
+<pubDate>Fri, 11 Sep 2026 04:08:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
