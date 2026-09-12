@@ -6,7 +6,7 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Fri, 11 Sep 2026 21:38:20 +0000</lastBuildDate>
+<lastBuildDate>Sat, 12 Sep 2026 00:02:28 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -17,6 +17,15 @@
 <guid isPermaLink="true">https://www.huntress.com/blog/google-doc-sidebar-malware-mac-windows</guid>
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
+</item>
+<item>
+<title>So you want to use OpenRouter?</title>
+<link>https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/</link>
+<description><![CDATA[So you want to use OpenRouter? One of OpenRouter&apos;s selling points is that it &quot;handles fallbacks automatically and picks the most cost-effective option for each request&quot;, so you can call a single API endpoint for a model and get routed to the best available backend provider. Mohamed Moustafa points out a whole set of ways that this can cause you problems. Different providers run different serving software with different optimizations and settings, which means that the same OpenRouter endpoint can serve model requests that behave in different ways. Some providers even lack vision capability for vision models, and the way the reasoning effort option is processed can differ as well. Thankfully you can control which provider is routed to using the provider.only option . The /endpoints method returns the list of available providers for a specific model ID. Via Hacker News Tags: ai , generative-ai , llms , openrouter]]></description>
+<pubDate>Fri, 11 Sep 2026 22:49:18 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Cyberattack causes a flight delay? Airlines won’t owe you a hotel or meal</title>
@@ -127,6 +136,15 @@
 <guid isPermaLink="true">https://www.schneier.com/blog/archives/2026/09/my-talk-at-def-con.html</guid>
 <source url="https://www.schneier.com/feed/atom/">Schneier on Security</source>
 <category>practitioner_analysis</category>
+</item>
+<item>
+<title>Feeling sad about AI</title>
+<link>https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/</link>
+<description><![CDATA[My comment on Feeling sad about AI — Hacker News. I&apos;m not sure how useful it is to say this, but I think a lot of people (myself included, a few years ago now) have been through this moment of existential crisis and come out the other side. The initial reaction, when some coding agent does a piece of work that would have taken you a week in an hour and does it well , is to be very disheartened by it. Once you come to terms with the idea that translating an exact specification into decent code isn&apos;t a unique skill any more, you can start looking at the larger set of problems that you face as a software engineer and realize that there is so much left , and your existing skill and experience mean you can master these new tools, provide value, and execute at a level far greater than anyone who is just getting started building software using agents without any of your depth. If you don&apos;t want your profession to change at all then you&apos;re going to have a tough time with this - but that&apos;s sure]]></description>
+<pubDate>Fri, 11 Sep 2026 17:28:37 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Passkey-themed phishing attacks lead to Microsoft 365 data theft</title>
@@ -400,15 +418,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Read the Bits, Not the Integer: msPKI-Certificate-Name-Flag and the ESC4⤍ESC1 Chain</title>
-<link>https://www.reddit.com/r/netsec/comments/1wdbsor/read_the_bits_not_the_integer/</link>
-<description><![CDATA[Stop using static integers to hunt for AD CS vulnerabilities. If your cheat sheet says msPKI-Certificate-Name-Flag == 1 , you are missing complex attack paths. Published my field notes on why we need to read the bits, not the integer. submitted by /u/thesecretmyth [link] [comments]]]></description>
-<pubDate>Fri, 11 Sep 2026 09:56:57 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wdbsor/read_the_bits_not_the_integer/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Surfshark Systems Targeted by Hackers</title>
 <link>https://www.securityweek.com/surfshark-systems-targeted-by-hackers/</link>
 <description><![CDATA[A misconfigured test server containing engineering material, including internal configurations, was accessed by threat actors. The post Surfshark Systems Targeted by Hackers appeared first on SecurityWeek .]]></description>
@@ -445,15 +454,6 @@
 <source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
 <category>cyber_news_breach_reporting</category>
 <category>data_breach</category>
-</item>
-<item>
-<title>CSA Zero Trust Microsegmentation Guidance - formalizes topology-defined vs. connection-defined segmentation models</title>
-<link>https://www.reddit.com/r/netsec/comments/1wdaeny/csa_zero_trust_microsegmentation_guidance/</link>
-<description><![CDATA[Disclosure: I led this workstream at the Cloud Security Alliance. CSA published new guidance on Zero Trust Microsegmentation. Sharing here because the framing is more precise than most vendor material on this topic, and I think the model split is useful even if you disagree with parts of the paper. Core definition used throughout: a communication is &quot;segmented&quot; only if it&apos;s explicitly permitted, enforceable, observable, and governable over time - not just blocked by default or isolated by network position. Two models, formally separated: Topology-defined segmentation: enforcement based on network position: zones, routes, VLANs, security groups, firewalls, gateways. Controls where traffic is allowed to flow. Connection-defined segmentation: enforcement based on session establishment: identity, device posture, entitlement, and context gate whether a session to a service can be created at all. Controls who/what can talk to a service, independent of network location. The paper&apos;s position i]]></description>
-<pubDate>Fri, 11 Sep 2026 08:36:58 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wdaeny/csa_zero_trust_microsegmentation_guidance/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>PaperCut Flaws Exploited in AI-Powered Attacks</title>
@@ -650,15 +650,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>A real Carnival Cruise Line email was serving customers malware</title>
-<link>https://www.reddit.com/r/netsec/comments/1wczamw/a_real_carnival_cruise_line_email_was_serving/</link>
-<description><![CDATA[submitted by /u/tuxxin [link] [comments]]]></description>
-<pubDate>Thu, 10 Sep 2026 23:23:43 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wczamw/a_real_carnival_cruise_line_email_was_serving/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>New Android malware encrypts files, steals data, and harasses victims</title>
 <link>https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/</link>
 <description><![CDATA[A new Android malware strain called Mantax Otax combines ransomware and spyware capabilities to encrypt files, steal sensitive data, and spam and harass victims. [...]<br/><br/><em>Tags: Android · ransomware_extortion</em>]]></description>
@@ -756,17 +747,6 @@
 <category>Microsoft 365</category>
 <category>Cl0p</category>
 <category>ransomware_extortion</category>
-</item>
-<item>
-<title>🕵️‍♂️ SonicWall SMA1000 (CVE-2026-15409): SSRF to Erlang RCE chained into automated DCSync from the appliance</title>
-<link>https://www.reddit.com/r/netsec/comments/1wcqbvq/sonicwall_sma1000_cve202615409_ssrf_to_erlang_rce/</link>
-<description><![CDATA[CVE-2026-15409 is an unauthenticated SSRF in the SMA1000 WorkPlace interface. The chain is the interesting part. The /wsproxy WebSocket endpoint is used to reach a locally bound Erlang distribution node ( couchdb@127.0.0.1 on port 1050), the Erlang handshake is completed with a hardcoded cookie, and os:cmd() gives command execution as the couchdb user. From there the operator read policy_file.xml, decrypted the stored LDAP bind passwords (static 32-byte AES key lifted from ASAPPasswordUtil.class bytecode), and dropped a standalone Linux build of Impacket secretsdump to /tmp on the appliance. secretsdump then ran from the SonicWall itself against internal DCs, with DCSync automated using recovered LDAP creds and, more effectively, domain-controller machine-account hashes for pass-the-hash. The exploit is a direct refactor of Rapid7&apos;s public PoC, reworked for unattended bulk use. Full chain, scripts and IOCs in the writeup. https://hunt.io/blog/sonicwall-sma1000-uk-council-attack submitt<br/><br/><em>Tags: SonicWall · CVE-2026-15409</em>]]></description>
-<pubDate>Thu, 10 Sep 2026 17:48:31 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wcqbvq/sonicwall_sma1000_cve202615409_ssrf_to_erlang_rce/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>SonicWall</category>
-<category>CVE-2026-15409</category>
 </item>
 <item>
 <title>ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories</title>
@@ -892,11 +872,12 @@
 <item>
 <title>The 20 Most Common Passwords Hackers Target in 2026</title>
 <link>https://www.huntress.com/blog/most-common-passwords</link>
-<description><![CDATA[See this year&apos;s most common passwords, why they&apos;re so easy to crack, and how a stronger password (or passphrase) habit keeps your accounts protected.]]></description>
+<description><![CDATA[See this year&apos;s most common passwords, why they&apos;re so easy to crack, and how a stronger password (or passphrase) habit keeps your accounts protected.<br/><br/><em>Tags: credential_theft</em>]]></description>
 <pubDate>Thu, 10 Sep 2026 13:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.huntress.com/blog/most-common-passwords</guid>
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
+<category>credential_theft</category>
 </item>
 <item>
 <title>MantaxOtax Android Malware Combines Ransomware With Spyware</title>
@@ -2082,6 +2063,15 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
+<title>The Pelican comparison grid for Astra is pretty interesting</title>
+<link>https://simonwillison.net/2026/Sep/4/astra-pelicans/</link>
+<description><![CDATA[I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn&apos;t support reasoning=none). Then I rendered those pelicans in a comparison grid with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisingly useful. See the grid for full quality images. Here&apos;s the transcript that created the GPT-6 Nova pelicans. There are a few interesting things that stand out from this grid. The Astra pelicans are much better . The very best GPT-5.6-Sol pelican (I liked xhigh better than max) is still pretty clearly a bunch of abstract shapes. Every single one of the Astra pelicans, from low to xhigh, looks better than that. The Astra max one is really good. Astra below max still doesn&apos;t reliably get the pelican legs on both sides of the frame. In terms of cost, Astra may be around twice the price of Sol ($10/million input, $50/million output, compared to $5/$30 for S]]></description>
+<pubDate>Fri, 04 Sep 2026 23:59:05 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Sep/4/astra-pelicans/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Friday Squid Blogging: Squid on a Stick at the New York State Fair</title>
 <link>https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-squid-on-a-stick-at-the-new-york-state-fair.html</link>
 <description><![CDATA[Looks tasty . As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.]]></description>
@@ -2126,16 +2116,6 @@
 <guid isPermaLink="true">https://horizon3.ai/intelligence/blogs/fal-con-2026-ai-exposure-validation/</guid>
 <source url="https://horizon3.ai/feed/">Horizon3 Attack Research</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>OpenAI&apos;s rogue agents were caught communicating via public wikis</title>
-<link>https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/</link>
-<description><![CDATA[Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack by models being trained by OpenAI. This time it was agents engaged in some sort of web research benchmark, so they had (supposedly) controlled access to the Web. The agents figured out they could update public Wikis and spent weeks exchanging thousands of messages with each other to collaborate on the benchmark. This story only broke a few hours ago. There are already hints that this affects many other wikis that may not have been found yet. (One of the Wikis on that list belongs to ludism.org . For a delightfully surreal moment I thought that a Ludite organization might have a swarm of agents defacing their space, but it turns out Ludism is &quot;philosophy as it applies to games and gaming&quot;.) The research team also published the data they collected during their investigation. I&apos;ve converted that into a 68MB SQL<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
-<pubDate>Fri, 04 Sep 2026 17:38:48 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-<category>OpenAI/ChatGPT</category>
 </item>
 <item>
 <title>How Yahoo optimizes resources with flexible VMs in Managed Service for Apache Spark</title>
@@ -2703,17 +2683,6 @@
 <category>reddit_practitioner_osint</category>
 </item>
 <item>
-<title>August newsletter is out</title>
-<link>https://simonwillison.net/2026/Sep/4/august-newsletter/</link>
-<description><![CDATA[The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: We got more details on OpenAl&apos;s accidental cyberattacks One-shotting Raccoon Heist games with Fable 5 and Sol 5.6 Claude auto mode Understanding ChatGPT Work Model releases Miscellaneous bits and bobs My projects What I&apos;m using at the moment Here&apos;s a copy of the July newsletter as a preview of what you&apos;ll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter<br/><br/><em>Tags: Anthropic/Claude · OpenAI/ChatGPT</em>]]></description>
-<pubDate>Fri, 04 Sep 2026 05:54:40 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Sep/4/august-newsletter/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-<category>Anthropic/Claude</category>
-<category>OpenAI/ChatGPT</category>
-</item>
-<item>
 <title>Risky Bulletin: Russia tells data centers to deploy drone defenses</title>
 <link>https://risky.biz/RBNEWS609/</link>
 <description><![CDATA[Russia tells data centers to deploy drone defenses, Dropbox discloses a security breach, a new spyware wave hits Serbia, and CISA scraps six free cybersecurity assessment programs.]]></description>
@@ -2796,15 +2765,6 @@
 <source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
 <category>cloud_identity_infrastructure</category>
 <category>OpenAI/ChatGPT</category>
-</item>
-<item>
-<title>GPT‑6 Astra</title>
-<link>https://simonwillison.net/2026/Sep/3/gpt6-astra/</link>
-<description><![CDATA[GPT‑6 Astra GPT-6 Astra is &quot;rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS&quot; - I&apos;ve not tried it yet myself, so I don&apos;t have a great deal to say about it yet. It&apos;s going to be API priced at the same rate as Claude Fable 5 and 5.1: $10/million input and $50/million output. This is clearly OpenAI&apos;s Fable competitor, and appears to score higher than Fable on most of OpenAI&apos;s self-reported benchmarks. Most impressively, Astra scores 99.9% on the recent (released in March) ARC-AGI 3 benchmark - though notably Fable 5 does not yet have a published result, and the ARC-AGI blog notes that the 99.9% score was achieved for $19K using OpenAI&apos;s custom &quot;Provider Adapter harness&quot;, while the default ARC-AGI harness scored 62.7% for $26K. The Provider Adapter harness preserves opaque reasoning state between requests and uses compaction for longer conver]]></description>
-<pubDate>Thu, 03 Sep 2026 20:18:41 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Sep/3/gpt6-astra/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Large Enterprises Targeted in Fake Merger &amp; Acquisition Scams</title>
@@ -3632,15 +3592,6 @@
 <category>AWS</category>
 </item>
 <item>
-<title>llm-openrouter 0.7.1</title>
-<link>https://simonwillison.net/2026/Sep/2/llm-openrouter/</link>
-<description><![CDATA[Release: llm-openrouter 0.7.1 Performance fix for loading OpenRouter models. Thanks, waveplate . #59 Tags: llm , openrouter]]></description>
-<pubDate>Wed, 02 Sep 2026 20:23:26 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Sep/2/llm-openrouter/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>AI Gives Cybercriminals a Dangerous Time Advantage</title>
 <link>https://www.darkreading.com/threat-intelligence/ai-gives-cybercriminals-dangerous-time-advantage</link>
 <description><![CDATA[Former cybercriminal Brett Johnson provides a look inside the mind of a threat actor and discusses where AI provides the most value for attackers.]]></description>
@@ -3648,15 +3599,6 @@
 <guid isPermaLink="true">https://www.darkreading.com/threat-intelligence/ai-gives-cybercriminals-dangerous-time-advantage</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>llm 0.34</title>
-<link>https://simonwillison.net/2026/Sep/2/llm/</link>
-<description><![CDATA[Release: llm 0.34 One new feature: llm logs --usage Markdown output now includes the response duration in milliseconds and as a human-readable duration. llm logs --short includes a new duration_ms field. #1653 Plus several contributed bug fixes, and a significant performance improvement to llm logs thanks to waveplate on GitHub, see also llm-openrouter 0.7.1 . Tags: llm]]></description>
-<pubDate>Wed, 02 Sep 2026 19:23:52 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Sep/2/llm/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Agentic security: Detection and response at machine speed</title>
@@ -3668,13 +3610,14 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>llm-anthropic 0.28</title>
-<link>https://simonwillison.net/2026/Sep/2/llm-anthropic/</link>
-<description><![CDATA[Release: llm-anthropic 0.28 Claude Fable 5.1 , reasoning traces are now displayed by default for models that support them, plus a new llm_anthropic.ClaudeRefusal exception for when Claude throws a refusal. Tags: llm , anthropic , claude , claude-mythos-fable]]></description>
-<pubDate>Wed, 02 Sep 2026 17:59:32 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Sep/2/llm-anthropic/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
+<title>The Validator Can Lie: SSRF Beyond URL Validation (GitLab, Mealie, Apache ShenYu, Thumbor)</title>
+<link>https://www.reddit.com/r/netsec/comments/1w5hjc8/the_validator_can_lie_ssrf_beyond_url_validation/</link>
+<description><![CDATA[submitted by /u/Xclow3n_ [link] [comments]<br/><br/><em>Tags: GitLab</em>]]></description>
+<pubDate>Wed, 02 Sep 2026 17:47:32 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1w5hjc8/the_validator_can_lie_ssrf_beyond_url_validation/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+<category>GitLab</category>
 </item>
 <item>
 <title>Critical SonicWall SMA1000 Vulnerabilities CVE-2026-83548, CVE-2026-83549 Exploited in the Wild</title>
@@ -4125,6 +4068,16 @@
 <category>CVE-2026-82078</category>
 </item>
 <item>
+<title>From Patch to Exploit; Using Claude Code to reverse engineer an n-day in Papercut NG</title>
+<link>https://www.reddit.com/r/netsec/comments/1w4dvux/from_patch_to_exploit_using_claude_code_to/</link>
+<description><![CDATA[submitted by /u/kev-thehermit [link] [comments]<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
+<pubDate>Tue, 01 Sep 2026 14:39:16 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1w4dvux/from_patch_to_exploit_using_claude_code_to/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+<category>Anthropic/Claude</category>
+</item>
+<item>
 <title>Attackers Steal METR API Key and Burn $600,000 in AI Credits</title>
 <link>https://www.infosecurity-magazine.com/news/attackers-steal-metr-api-key/</link>
 <description><![CDATA[Attackers used a stolen METR API key for three weeks, consuming model credits worth $600,000]]></description>
@@ -4209,6 +4162,25 @@
 <category>apt_espionage</category>
 </item>
 <item>
+<title>Off the Hook: Discovering and Observing Active Exploitation of Sangoma Switchvox CVE-2026-9586</title>
+<link>https://www.reddit.com/r/netsec/comments/1w4aj8x/off_the_hook_discovering_and_observing_active/</link>
+<description><![CDATA[submitted by /u/scopedsecurity [link] [comments]<br/><br/><em>Tags: CVE-2026-9586</em>]]></description>
+<pubDate>Tue, 01 Sep 2026 12:28:03 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1w4aj8x/off_the_hook_discovering_and_observing_active/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+<category>CVE-2026-9586</category>
+</item>
+<item>
+<title>Authentication bypass in EOL Proxmox VE 7 release</title>
+<link>https://www.reddit.com/r/netsec/comments/1w4agtv/authentication_bypass_in_eol_proxmox_ve_7_release/</link>
+<description><![CDATA[A lot of proxmox 7.0-7 and &lt; 8.0.4 has been rooted today, it&apos;s needed to have port :8006 open, exploitation demo here: https://forum.proxmox.com/threads/proxmox-ve-7-is-vulnerable-to-some-type-of-0day-rce-non-auth.186078/post-867875 submitted by /u/WiuEmPe [link] [comments]]]></description>
+<pubDate>Tue, 01 Sep 2026 12:25:06 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1w4agtv/authentication_bypass_in_eol_proxmox_ve_7_release/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
 <title>Introducing Continuous Vulnerability Assessment: Real-Time Defense for the AI Threat Era</title>
 <link>https://www.wiz.io/blog/introducing-cva</link>
 <description><![CDATA[Detect exposure to new vulnerabilities the moment they are published with Wiz CVA]]></description>
@@ -4227,6 +4199,15 @@
 <category>offensive_vulnerability_research</category>
 <category>CVE-2026-9586</category>
 <category>active_exploitation</category>
+</item>
+<item>
+<title>GeoNetwork - Pre-Auth RCE via Unauthenticated File Upload and Unsafe XSLT Processor (4 CVEs, 121 government deployments, all patched)</title>
+<link>https://www.reddit.com/r/netsec/comments/1w46vwa/geonetwork_preauth_rce_via_unauthenticated_file/</link>
+<description><![CDATA[submitted by /u/ZealousidealHunter80 [link] [comments]]]></description>
+<pubDate>Tue, 01 Sep 2026 09:29:24 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1w46vwa/geonetwork_preauth_rce_via_unauthenticated_file/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Financial Stability Board Sounds the Alarm Over Frontier AI Risks</title>
@@ -4256,6 +4237,15 @@
 <guid isPermaLink="true">https://securelist.com/mirage-kitten-new-backdoors-noderabbit-pollcat/121244/</guid>
 <source url="https://securelist.com/feed/">Kaspersky Securelist</source>
 <category>threat_research_primary</category>
+</item>
+<item>
+<title>Don’t Let Abliteration Abliterate Your Bug Hunting: Discovering Verdict Bias in Uncensored Models</title>
+<link>https://www.reddit.com/r/netsec/comments/1w429pe/dont_let_abliteration_abliterate_your_bug_hunting/</link>
+<description><![CDATA[submitted by /u/onlinereadme [link] [comments]]]></description>
+<pubDate>Tue, 01 Sep 2026 05:08:07 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1w429pe/dont_let_abliteration_abliterate_your_bug_hunting/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>waf-fu, or Some Log Replay Nonsense</title>
@@ -4518,6 +4508,15 @@
 <guid isPermaLink="true">https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-august-2026/</guid>
 <source url="https://www.welivesecurity.com/en/rss/feed/">ESET WeLiveSecurity</source>
 <category>threat_research_primary</category>
+</item>
+<item>
+<title>Privilege escalation from IIS AppPool to NT Authority/SYSTEM via AD CS RPC endpoint</title>
+<link>https://www.reddit.com/r/netsec/comments/1w36tcq/privilege_escalation_from_iis_apppool_to_nt/</link>
+<description><![CDATA[submitted by /u/1046ica [link] [comments]]]></description>
+<pubDate>Mon, 31 Aug 2026 07:40:42 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1w36tcq/privilege_escalation_from_iis_apppool_to_nt/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Risky Bulletin: New powers for Dutch intelligence services</title>
@@ -13139,6 +13138,15 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
+<title>Build Fast, Build Secure: Wiz findings are now in Lovable</title>
+<link>https://www.wiz.io/blog/introducing-wiz-lovable-integration</link>
+<description><![CDATA[With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created]]></description>
+<pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-lovable-integration</guid>
+<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>How Cloudflare responded to the “Copy Fail” Linux vulnerability</title>
 <link>https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/</link>
 <description><![CDATA[When a critical Linux kernel privilege escalation was publicly disclosed, Cloudflare&apos;s security and engineering teams detected, investigated, and mitigated the threat across our global fleet, confirming zero customer impact and no malicious exploitation.<br/><br/><em>Tags: Linux kernel</em>]]></description>
@@ -13147,15 +13155,6 @@
 <source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
 <category>cloud_identity_infrastructure</category>
 <category>Linux kernel</category>
-</item>
-<item>
-<title>Build Fast, Build Secure: Wiz findings are now in Lovable</title>
-<link>https://www.wiz.io/blog/introducing-wiz-lovable-integration</link>
-<description><![CDATA[With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created]]></description>
-<pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-lovable-integration</guid>
-<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>It&apos;s Time to Go After Achieving Zero Code Criticals</title>
@@ -19744,7 +19743,7 @@
 <title>September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 11 Sep 2026 21:38:20 +0000</pubDate>
+<pubDate>Sat, 12 Sep 2026 00:02:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19753,7 +19752,7 @@
 <title>CrowdStrike Delivers the Next Evolution of the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 11 Sep 2026 21:38:20 +0000</pubDate>
+<pubDate>Sat, 12 Sep 2026 00:02:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19762,7 +19761,7 @@
 <title>CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Fri, 11 Sep 2026 21:38:20 +0000</pubDate>
+<pubDate>Sat, 12 Sep 2026 00:02:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19772,7 +19771,7 @@
 <title>CrowdStrike Announces Agentic Identity Provider</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 11 Sep 2026 21:38:20 +0000</pubDate>
+<pubDate>Sat, 12 Sep 2026 00:02:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19781,7 +19780,7 @@
 <title>CrowdStrike Falcon Guardian Defines the Next Generation of AI Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 11 Sep 2026 21:38:20 +0000</pubDate>
+<pubDate>Sat, 12 Sep 2026 00:02:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19790,7 +19789,7 @@
 <title>Peer Pressure: Inside the Sality Botnet Disruption Operation</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 11 Sep 2026 21:38:20 +0000</pubDate>
+<pubDate>Sat, 12 Sep 2026 00:02:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19799,7 +19798,7 @@
 <title>Agents of Chaos: A New $100K Agentic Security Challenge</title>
 <link>https://www.crowdstrike.com/en-us/blog/agents-of-chaos-immersive-ai-security-challenge/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 11 Sep 2026 21:38:20 +0000</pubDate>
+<pubDate>Sat, 12 Sep 2026 00:02:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/agents-of-chaos-immersive-ai-security-challenge/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19808,7 +19807,7 @@
 <title>CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar™: Cloud Workload Protection Platforms</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 11 Sep 2026 21:38:20 +0000</pubDate>
+<pubDate>Sat, 12 Sep 2026 00:02:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19817,7 +19816,7 @@
 <title>Benchmaxxing: When the Benchmark Becomes the Target</title>
 <link>https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 11 Sep 2026 21:38:20 +0000</pubDate>
+<pubDate>Sat, 12 Sep 2026 00:02:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19826,7 +19825,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 11 Sep 2026 21:38:20 +0000</pubDate>
+<pubDate>Sat, 12 Sep 2026 00:02:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
