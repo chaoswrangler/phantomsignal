@@ -1,13 +1,13 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-09-12T16:54:27.731687+00:00
+- Generated: 2026-09-12T19:06:19.406940+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
-- Total items in window: 329
-- Total clusters raw: 163
-- Total clusters in packet: 69
+- Total items in window: 330
+- Total clusters raw: 161
+- Total clusters in packet: 67
 - Dropped low score: 94
 - Dropped overflow: 0
 
@@ -70,46 +70,41 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
   - In window count: 0
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
-  - Item count: 15
-  - In window count: 3
+  - Item count: 25
+  - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
@@ -120,16 +115,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
@@ -140,33 +135,33 @@
   - Status: ok
   - Item count: 15
   - In window count: 5
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 9
+  - Item count: 15
+  - In window count: 3
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 3
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
-  - Item count: 78
-  - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+  - Item count: 10
+  - In window count: 1
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 9
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -175,48 +170,58 @@
   - Status: ok
   - Item count: 50
   - In window count: 1
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
-  - Item count: 15
+  - Item count: 10
   - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 7
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
+  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -225,36 +230,31 @@
   - Status: ok
   - Item count: 30
   - In window count: 0
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 12
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 12
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -265,31 +265,31 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 1
+  - In window count: 3
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 5
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
@@ -300,26 +300,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 13
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
@@ -330,6 +320,21 @@
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 30
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
@@ -340,26 +345,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 1
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 29
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 50
-  - In window count: 19
+  - In window count: 1
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
@@ -375,6 +370,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 9
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 19
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -400,23 +400,13 @@
   - Status: ok
   - Item count: 20
   - In window count: 5
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -425,11 +415,21 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -440,16 +440,16 @@
   - Status: ok
   - Item count: 25
   - In window count: 16
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
@@ -628,26 +628,6 @@
   - https://www.infosecurity-magazine.com/news/nable-hotfix-critical-rce/
   - https://www.huntress.com/blog/n-able-vulnerability-exploitation
 
-### CVE-2026-86218 exploitation activity
-- Anchor signal: CVE-2026-86218
-- Theme key: cve-2026-86218
-- Cluster count: 3
-- Article count: 4
-- Cohesion: 0.398
-- Shared strong signals: CVE-2026-86218
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation, zero_day
-  - cve_ids: CVE-2026-86218, CVE-2026-86206, CVE-2026-86207
-  - urgency_signals: actively_exploited, preauth_unauth, zero_day, poc_available
-- Cluster IDs: dca90fcb42, 81949698a6, 711e127637
-- Links:
-  - https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html
-  - https://www.infosecurity-magazine.com/news/nable-hotfix-critical-rce/
-  - https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html
-  - https://www.huntress.com/blog/n-able-vulnerability-exploitation
-
 ### phishing social eng targeting Microsoft Defender
 - Anchor signal: Microsoft Defender
 - Theme key: microsoft-defender
@@ -691,28 +671,6 @@
   - https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html
   - https://www.infosecurity-magazine.com/news/hackers-us-business-hours-m365/
 
-### CVE-2026-82078 exploitation activity
-- Anchor signal: CVE-2026-82078
-- Theme key: cve-2026-82078
-- Cluster count: 2
-- Article count: 7
-- Cohesion: 0.235
-- Shared strong signals: CVE-2026-82078
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - cve_ids: CVE-2026-81578, CVE-2026-82078
-  - urgency_signals: preauth_unauth
-- Cluster IDs: 5d62b32e67, 07cc5231d1
-- Links:
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-85706/
-  - https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html
-  - https://www.securityweek.com/gitlab-vulnerability-exploited-one-day-after-disclosure/
-  - https://cyberscoop.com/gitlab-critical-flaws-path-traversal-scans/
-  - https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/
-  - https://tldrsec.com/p/tldr-sec-345
-  - https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html
-
 ### CVE-2026-81578 exploitation activity
 - Anchor signal: CVE-2026-81578
 - Theme key: cve-2026-81578
@@ -730,15 +688,62 @@
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-85706/
   - https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html
   - https://www.securityweek.com/gitlab-vulnerability-exploited-one-day-after-disclosure/
-  - https://cyberscoop.com/gitlab-critical-flaws-path-traversal-scans/
   - https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/
+  - https://cyberscoop.com/gitlab-critical-flaws-path-traversal-scans/
   - https://tldrsec.com/p/tldr-sec-345
   - https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html
+
+### CVE-2026-82078 exploitation activity
+- Anchor signal: CVE-2026-82078
+- Theme key: cve-2026-82078
+- Cluster count: 2
+- Article count: 7
+- Cohesion: 0.235
+- Shared strong signals: CVE-2026-82078
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - cve_ids: CVE-2026-81578, CVE-2026-82078
+  - urgency_signals: preauth_unauth
+- Cluster IDs: 5d62b32e67, 07cc5231d1
+- Links:
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-85706/
+  - https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html
+  - https://www.securityweek.com/gitlab-vulnerability-exploited-one-day-after-disclosure/
+  - https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/
+  - https://cyberscoop.com/gitlab-critical-flaws-path-traversal-scans/
+  - https://tldrsec.com/p/tldr-sec-345
+  - https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html
+
+### GitLab vulnerability activity
+- Anchor signal: GitLab
+- Theme key: gitlab
+- Cluster count: 2
+- Article count: 8
+- Cohesion: 0.2
+- Shared strong signals: GitLab
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: GitLab
+- Cluster IDs: 5d62b32e67, adbb5499cd
+- Links:
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-85706/
+  - https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html
+  - https://www.securityweek.com/gitlab-vulnerability-exploited-one-day-after-disclosure/
+  - https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/
+  - https://cyberscoop.com/gitlab-critical-flaws-path-traversal-scans/
+  - https://tldrsec.com/p/tldr-sec-345
+  - https://www.securityweek.com/check-point-patches-critical-vpn-vulnerabilities/
+  - https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/
 
 ## Forward signals
 
 ### Novelty
-- Novel cves: 0
+- Novel cves: 3
+  - CVE-2026-67277 (first seen via The Hacker News at 2026-09-12T15:54:45+00:00, cluster 7cc062f732)
+  - CVE-2026-84869 (first seen via The Hacker News at 2026-09-12T15:54:45+00:00, cluster 7cc062f732)
+  - CVE-2026-86060 (first seen via The Hacker News at 2026-09-12T15:54:45+00:00, cluster 7cc062f732)
 - Novel actors: 0
 - Novel products: 0
 
@@ -767,12 +772,12 @@
 - Pair: CVE-2026-85706 + GitLab (cluster 5d62b32e67, first observation: True)
 - Pair: CVE-2026-9586 + GitHub (cluster 5d62b32e67, first observation: True)
 - Pair: CVE-2026-9586 + GitLab (cluster 5d62b32e67, first observation: True)
-- Pair: CVE-2026-59821 + AWS (cluster 462fbf5ade, first observation: True)
-- Pair: CVE-2026-59821 + Anthropic/Claude (cluster 462fbf5ade, first observation: True)
-- Pair: CVE-2026-59821 + OpenAI/ChatGPT (cluster 462fbf5ade, first observation: True)
-- Pair: CVE-2026-59822 + AWS (cluster 462fbf5ade, first observation: True)
-- Pair: CVE-2026-59822 + Anthropic/Claude (cluster 462fbf5ade, first observation: True)
-- Pair: CVE-2026-59822 + OpenAI/ChatGPT (cluster 462fbf5ade, first observation: True)
+- Pair: CVE-2026-42016 + ScreenConnect (cluster 7cc062f732, first observation: True)
+- Pair: CVE-2026-42018 + ScreenConnect (cluster 7cc062f732, first observation: True)
+- Pair: CVE-2026-67277 + ScreenConnect (cluster 7cc062f732, first observation: True)
+- Pair: CVE-2026-82329 + ScreenConnect (cluster 7cc062f732, first observation: True)
+- Pair: CVE-2026-84869 + ScreenConnect (cluster 7cc062f732, first observation: True)
+- Pair: CVE-2026-86060 + ScreenConnect (cluster 7cc062f732, first observation: True)
 
 ### Drift (4)
 - **Cl0p** (cluster aaf3283e67)
@@ -1006,21 +1011,85 @@ GitLab CE/EE Repository Commits API Path Traversal Vulnerability CVE-2026-85706 
   - Published: 2026-09-11T16:11:08+00:00
   - Link: https://www.securityweek.com/gitlab-vulnerability-exploited-one-day-after-disclosure/
   - Summary: The critical-severity path traversal flaw allows unauthenticated attackers to read arbitrary files from the GitLab server. The post GitLab Vulnerability Exploited One Day After Disclosure appeared first on SecurityWeek .
-- **CyberScoop** (cyber_news_breach_reporting)
-  - Title: GitLab’s critical flaw is already drawing internet-wide probes
-  - Published: 2026-09-11T18:41:52+00:00
-  - Link: https://cyberscoop.com/gitlab-critical-flaws-path-traversal-scans/
-  - Summary: One flaw allows an unauthenticated attacker to read files from the server. GitLab urged operators of self-managed installations to upgrade immediately. The post GitLab’s critical flaw is already drawing internet-wide probes appeared first on CyberScoop .
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: GitLab urges users to patch max severity path traversal flaw
   - Published: 2026-09-11T11:15:22+00:00
   - Link: https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/
   - Summary: GitLab urged users on Thursday to patch their servers immediately against a maximum-severity path traversal vulnerability tracked as CVE-2026-85706. [...]
+- **CyberScoop** (cyber_news_breach_reporting)
+  - Title: GitLab’s critical flaw is already drawing internet-wide probes
+  - Published: 2026-09-11T18:41:52+00:00
+  - Link: https://cyberscoop.com/gitlab-critical-flaws-path-traversal-scans/
+  - Summary: One flaw allows an unauthenticated attacker to read files from the server. GitLab urged operators of self-managed installations to upgrade immediately. The post GitLab’s critical flaw is already drawing internet-wide probes appeared first on CyberScoop .
 - **tl;dr sec** (practitioner_analysis)
   - Title: [tl;dr sec] #345 - Bug Rumors → Exploits, Version Control DFIR, Agentic Worms
   - Published: 2026-09-10T14:30:00+00:00
   - Link: https://tldrsec.com/p/tldr-sec-345
   - Summary: A bug description is sufficient for AI to find it and write an exploit, cheat sheet on doing DFIR for GitHub, GitLab and more, and a paper on self-replicating, open weight agentic worms
+
+### Cluster 7cc062f732 — score 28
+
+- Title: CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-09-12T15:54:45+00:00
+- Link: https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html
+- Fetch status: ok
+- Member count: 5
+- Corroborating source count: 4
+- Strong signals: CVE-2026-42016, ScreenConnect
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, ddos, phishing_social_eng
+- affected_industries: government
+- affected_products: ScreenConnect
+- cve_ids: CVE-2026-42016, CVE-2026-42018, CVE-2026-67277, CVE-2026-82329, CVE-2026-84869, CVE-2026-86060
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report, vulnerability_disclosure
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ddos, active_exploitation
+- affected_industries: government
+- affected_products: ScreenConnect
+- cve_ids: CVE-2026-42016, CVE-2026-42018, CVE-2026-84869, CVE-2026-67277, CVE-2026-86060
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild. Details of the vulnerabilities are as follows - CVE-2026-42016 (CVSS score: 8.1) - An incorrect authorization
+```
+
+#### Full body
+
+```
+CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV  Ravie Lakshmanan  Sep 12, 2026 Vulnerability / Enterprise Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect , and MikroTik RouterOS to its Known Exploited Vulnerabilities ( KEV ) catalog, following reports of active exploitation in the wild. Details of the vulnerabilities are as follows - CVE-2026-42016 (CVSS score: 8.1) - An incorrect authorization vulnerability in JFrog Artifactory that could lead to privilege escalation due to a validation check of the token signature/issuer and not the token's scope. CVE-2026-42018 (CVSS score: 7.5) - An improper authentication vulnerability in JFrog Artifactory that could return an internal anonymous-user token to an unauthenticated caller when anonymous access is disabled, potentially leaking sensitive resources. CVE-2026-84869 (CVSS score: 9.9) - An improper privilege management and missing authorization vulnerability in ConnectWise ScreenConnect that could allow an attacker to file transfer and execute through an active remote session without authorization or host confirmation. CVE-2026-67277 (CVSS score: 8.8) - A missing authentication for a critical function vulnerability in MikroTik RouterOS that could allow kernel memory disclosure and denial-of-service in the btest service. CVE-2026-86060 (CVSS score: 9.2) - An improper neutralization of argument delimiters in a command vulnerability in MikroTik RouterOS that could allow an attacker to change the trusted RouterOS policy mask and achieve privilege escalation. As previously reported by The Hacker News, attackers have been observed chaining the two Artifactory bugs alongside CVE-2026-82329 (CVSS score: 9.8) to take administrator control of self-hosted servers and deploy backdoors between August 15 and September 8, 2026. CVE-2026-82329 was added to CISA's KEV catalog earlier this month. "Attackers are chaining these vulnerabilities to bypass authentication, escalate privileges, and gain administrative control over vulnerable Artifactory instances," Google-owned Wiz said. "Observed post-exploitation activity includes the creation of persistent administrator accounts, the deployment of malicious Groovy plugins for code execution, and the installation of Rust-based backdoors to establish persistence." The exploitation of CVE-2026-84869, on the other hand, has been linked to a set of three unrelated incidents documented by Huntress in which threat actors abused ScreenConnect to distribute a malicious Visual Basic Script (VBScript) payload to newly connected systems. ConnectWise has described the flaw as a "condition" in the ScreenConnect client that "may allow files to be transferred and executed through an active remote session without authorization or Host confirmation in certain circumstances." The issue does not impact ScreenConnect servers. "Under certain circumstances, this could enable files to be transferred to and executed on the Host client system, including through elevated execution actions," Huntress said in an update, urging organizations to update to ScreenConnect version 26.6.5. CISA's addition of CVE-2026-67277 and CVE-2026-86060 follows a report from CERT Polska last week in which it said it observed unknown threat actors exploiting two flaws in MikroTik RouterOS to seize control of vulnerable devices without authentication. The cybersecurity agency dubbed the exploit chain MikroTrick. Federal Civilian Executive Branch (FCEB) agencies are required to patch the RouterOS flaws by September 13, 2026, the ScreenConnect flaw by September 14, 2026, and the Artifactory flaws by September 25, 2026. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Cyber Attack , enterprise security , network security , Vulnerabili
+```
+
+#### Corroborating sources (4)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV
+  - Published: 2026-09-12T15:54:45+00:00
+  - Link: https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html
+  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild. Details of the vulnerabilities are as follows - CVE-2026-42016 (CVSS score: 8.1) - An incorrect authorization
+- **Wiz Research** (cloud_identity_infrastructure)
+  - Title: Artifactory Under Attack: In-the-Wild Exploitation of CVE-2026-42016, CVE-2026-42018 & CVE-2026-82329
+  - Published: 2026-09-10T19:04:00+00:00
+  - Link: https://www.wiz.io/blog/artifactory-under-attack-in-the-wild-exploitation-of-cve-2026-42016-cve-2026-4201
+  - Summary: Wiz Research has identified active, in-the-wild exploitation of three critical and high-severity vulnerabilities impacting JFrog Artifactory (CVE-2026-42016, CVE-2026-42018 & CVE-2026-82329). Attackers are chaining these vulnerabilities to bypass authentication and gain administrative control.
+- **Huntress** (detection_response_operations)
+  - Title: Phishing Attacks Serve Browser-in-the-Browser Pages, Rogue RMM Persistence
+  - Published: 2026-09-09T13:00:00+00:00
+  - Link: https://www.huntress.com/blog/phishing-bitb-rmm-attacks
+  - Summary: See how a browser-in-the-browser phishing attack led to rogue ScreenConnect persistence and evasion tactics Huntress caught in the act.
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Attackers Use Multi-Hop Google Redirects for Phishing Campaign
+  - Published: 2026-09-08T21:03:46+00:00
+  - Link: https://www.darkreading.com/cyberattacks-data-breaches/attackers-multi-hop-google-redirects-phishing-campaign
+  - Summary: Threat actors are abusing multiple Google services to evade detection, ultimately harvesting credentials or installing ScreenConnect remote access.
 
 ### Cluster dca90fcb42 — score 27
 
@@ -1207,96 +1276,6 @@ Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit 
   - Published: 2026-09-07T11:20:14+00:00
   - Link: https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html
   - Summary: A TantoSec proof-of-concept turns an AES-CBC "padding oracle" in Telerik UI for ASP.NET AJAX into unauthenticated remote code execution — but only against applications in a specific non-default configuration, and Progress patched the chain in July. There are no confirmed reports of exploitation in the wild. Security firm TantoSec has published a working exploit chain targeting vulnerabilities
-
-### Cluster 81949698a6 — score 24
-
-- Title: N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-09-07T08:31:12+00:00
-- Link: https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, zero_day
-- cve_ids: CVE-2026-86218
-- urgency_signals: actively_exploited, poc_available, preauth_unauth, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, active_exploitation
-- cve_ids: CVE-2026-86218
-- urgency_signals: actively_exploited, zero_day, preauth_unauth, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Every on-premises N-central build below 2026.3.1.14 — including servers updated to Hotfix 3 a day earlier — needs Hotfix 4. N-able's incident notice says the flaw has been exploited in the wild; its release notes say that is unconfirmed. N-able has released its fourth hotfix in five weeks for the N-central remote monitoring and management (RMM) platform, this time for a
-```
-
-#### Full body
-
-```
-N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw  Swati Khandelwal  Sep 07, 2026 Vulnerability / Enterprise Security Every on-premises N-central build below 2026.3.1.14 — including servers updated to Hotfix 3 a day earlier — needs Hotfix 4. N-able's incident notice says the flaw has been exploited in the wild; its release notes say that is unconfirmed. N-able has released its fourth hotfix in five weeks for the N-central remote monitoring and management (RMM) platform, this time for a maximum-severity vulnerability that could allow remote code execution on the N-central server without authentication. The company's own communications disagree on whether the flaw has already been exploited. The vulnerability, tracked as CVE-2026-86218 , carries a CVSS 4.0 score of 10.0, assigned by N-able as the CVE Numbering Authority, and is classed as a static code injection weakness (CWE-96). It affects every N-central build before 2026.3.1.14, the build shipped as 2026.3 Hotfix 4 in the early hours of September 6 (UTC). That includes servers already updated to Hotfix 3 (2026.3.1.13), which N-able had published a little over eight hours earlier for two flaws that it says are unrelated to the new one. N-able said hosted N-central (NCOD) instances have already been patched. On-premises customers are told to upgrade to 2026.3.1.14 immediately; the release notes list direct upgrade paths from 2025.4, 2026.1, 2026.2, 2026.3, and the 2026.3.1 hotfixes, and say agents do not need to be upgraded to be protected from this CVE. The release notes, status post, and incident notice contain no indicators of compromise, no interim mitigation, and no detection guidance beyond a recommendation to audit N-central user accounts for unexpected users. Huntress, which has been tracking attacks on N-central since August, has advised administrators to restrict inbound access to the console with IP allowlisting or a VPN and, where a server is still reachable from the internet, to consider taking it offline until the hotfix is applied. On the question of exploitation, N-able's channels diverge. The Hotfix 4 release notes and status post state that a third party responsibly disclosed the vulnerability through the company's security disclosure program and that N-able has "no confirmations that this vulnerability has been exploited in production environments." The same release notes on N-able's documentation site also describe it as a "critical zero-day vulnerability," a term N-able does not define. N-able's incident notice on its uptime status page goes further. It says a third, independent security researcher alerted the company to a new vulnerability unrelated to the previously disclosed CVEs and that, unlike those, the newly identified flaw "has been observed being exploited in the wild." The notice does not say who observed the exploitation, where, or when, and N-able has not attributed the activity to any actor. As of September 7, the incident was still listed as open on N-able's status page, as mirrored by the status-page aggregator IsDown . The Hacker News has reached out to N-able for clarification on which statement is current and what evidence of exploitation the company holds. Huntress said it cannot settle the question from its own data. The company began investigating on September 4 after a customer's fully patched N-central production environment was compromised. It said it reproduced a proof-of-concept exploit chain against build 2026.3.1.10 that may use one or both of the two flaws later fixed in Hotfix 3, but the appliance's logs had already rotated, leaving it "unable to say whether this new CVE was the vulnerability exploited" in that intrusion. In response to questions from The Hacker News, Ben Bernstein, cybersecurity advisor at Huntress, said the "actively exploited" description in its post "is based entirely on N-able's statements," namely the incident notice and a post on the MSPGeek Discord in which N-able's Ja
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw
-  - Published: 2026-09-07T08:31:12+00:00
-  - Link: https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html
-  - Summary: Every on-premises N-central build below 2026.3.1.14 — including servers updated to Hotfix 3 a day earlier — needs Hotfix 4. N-able's incident notice says the flaw has been exploited in the wild; its release notes say that is unconfirmed. N-able has released its fourth hotfix in five weeks for the N-central remote monitoring and management (RMM) platform, this time for a
-
-### Cluster 2c7f2421f0 — score 22
-
-- Title: Artifactory Under Attack: In-the-Wild Exploitation of CVE-2026-42016, CVE-2026-42018 & CVE-2026-82329
-- Source: Wiz Research (cloud_identity_infrastructure)
-- Published: 2026-09-10T19:04:00+00:00
-- Link: https://www.wiz.io/blog/artifactory-under-attack-in-the-wild-exploitation-of-cve-2026-42016-cve-2026-4201
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-42016, CVE-2026-42018, CVE-2026-82329
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, web_shell_backdoor
-- cve_ids: CVE-2026-42016, CVE-2026-42018, CVE-2026-82329
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: web_shell_backdoor, active_exploitation
-- cve_ids: CVE-2026-42016, CVE-2026-42018, CVE-2026-82329
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Wiz Research has identified active, in-the-wild exploitation of three critical and high-severity vulnerabilities impacting JFrog Artifactory (CVE-2026-42016, CVE-2026-42018 & CVE-2026-82329). Attackers are chaining these vulnerabilities to bypass authentication and gain administrative control.
-```
-
-#### Full body
-
-```
-Change log: September 11, 2026 3PM UTC: Corrected the HTTP method for CVE-2026-82329 and the impacted fixed versions for CVE-2026-42018. Wiz Research has identified active, in-the-wild exploitation of three critical and high-severity vulnerabilities affecting JFrog Artifactory: CVE-2026-42016, CVE-2026-42018, and CVE-2026-82329. Attackers are chaining these vulnerabilities to bypass authentication, escalate privileges, and gain administrative control over vulnerable Artifactory instances. Observed post-exploitation activity includes the creation of persistent administrator accounts, the deployment of malicious Groovy plugins for code execution, and the installation of Rust-based backdoors to establish persistence. This blogpost provides an analysis of the exploitation patterns observed, the impact on affected organizations, and actionable guidance for security teams to detect and remediate these threats. We will continue to update this blogpost as new information becomes available. CVE-2026-42018: Exposure of an internal anonymous-user token CVE-2026-42018 is an improper-authentication vulnerability that may cause Artifactory to return an internal anonymous-user token to an unauthenticated requester, even when anonymous access is disabled. An attacker could use the exposed token to access resources available to the internal anonymous identity, potentially exposing sensitive artifacts or repository data. CVE-2026-42016: Token scope validation flaw CVE-2026-42016 is a privilege-escalation vulnerability caused by insufficient token validation. Artifactory validates the token’s signature and issuer but does not properly enforce its intended scope. As a result, an attacker with low-privileged access may be able to use a valid token to perform unauthorized actions and gain elevated privileges. CVE-2026-82329: Unauthenticated access to administrative privileges CVE-2026-82329 is a critical authentication-bypass vulnerability affecting Artifactory under its default configuration. An unauthenticated attacker with network access to a vulnerable instance may be able to obtain administrative privileges, potentially gaining complete control over the Artifactory deployment and the artifacts, credentials, and integrations it manages. What is the risk to cloud environments? Our data indicates that 67% of organizations running JFrog Artifactory had at least one vulnerable instance when CVE-2026-42016 was first published on July 27. Similar levels were observed for CVE-2026-42018 (69% at publication on Aug 12) and CVE-2026-82329 (67% at publication on Aug 28). Patching velocity has been slow for the lower-severity CVEs. As of six weeks after the first disclosure, 59% of organizations remain vulnerable to CVE-2026-42016, and CVE-2026-42018 has only declined from 69% to 62% over four weeks. However, CVE-2026-82329 has seen significantly faster remediation, dropping from 67% to 49% within two weeks of publication, likely due to its critical severity rating driving more urgent attention from security teams. What evidence of exploitation has Wiz Research identified? Wiz Research has confirmed in-the-wild exploitation of all three vulnerabilities across multiple environments. CVE-2026-42018 and CVE-2026-42016 Exploitation Between August 15 and September 8, 2026, we observed multiple actors chain CVE-2026-42018 and CVE-2026-42016 against self-hosted Artifactory instances. Across multiple cases we observed a custom Rust backdoor with C2 capabilities being dropped. Wiz Research is not aware of any prior public reporting of in-the-wild exploitation involving those two CVEs. Neither vulnerability grants administrative control on its own. CVE-2026-42018 exposes a token for the internal anonymous user, and CVE-2026-42016 lets that low-privileged token be escalated to admin scope. Together, the two can turn an unauthenticated request into an admin-scoped token in two steps. Every exploitation followed a similar shape. An unauthenticated POST /access/api/v1/a
-```
-
-#### Corroborating sources (1)
-
-- **Wiz Research** (cloud_identity_infrastructure)
-  - Title: Artifactory Under Attack: In-the-Wild Exploitation of CVE-2026-42016, CVE-2026-42018 & CVE-2026-82329
-  - Published: 2026-09-10T19:04:00+00:00
-  - Link: https://www.wiz.io/blog/artifactory-under-attack-in-the-wild-exploitation-of-cve-2026-42016-cve-2026-4201
-  - Summary: Wiz Research has identified active, in-the-wild exploitation of three critical and high-severity vulnerabilities impacting JFrog Artifactory (CVE-2026-42016, CVE-2026-42018 & CVE-2026-82329). Attackers are chaining these vulnerabilities to bypass authentication and gain administrative control.
 
 ### Cluster 462fbf5ade — score 22
 
@@ -2046,51 +2025,6 @@ Follow the Money: The Financial Sector's Threat Landscape in 2026 Sep 10, 2026 A
   - Link: https://www.intel471.com/blog/follow-the-money-the-financial-sectors-threat-landscape-in-2026
   - Summary: The financial sector moves trillions of dollars a day, making it one of the most heavily targeted industries in the world. Intel 471's latest report breaks down the threat landscape facing financial institutions, from ransomware and extortion groups to initial access brokers, nation-state activity and insider risks.
 
-### Cluster 369830a869 — score 11
-
-- Title: What’s in the SOSS? Podcast #72 – S3E24 Balancing AI’s Double-Edged Sword: Software Engineering, Unlearning, and Ecosystem Sustainability with Mark Russinovich
-- Source: OpenSSF Blog (ai_security_agentic_risk)
-- Published: 2026-09-08T13:51:43+00:00
-- Link: https://openssf.org/podcast/2026/09/08/whats-in-the-soss-podcast-72-s3e24-balancing-ais-double-edged-sword-software-engineering-unlearning-and-ecosystem-sustainability-with-mark-russinovich/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_industries: critical_infrastructure, government
-- affected_products: Azure
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_industries: government, critical_infrastructure
-- affected_products: Azure
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Join Azure CTO and OpenSSF Chair Mark Russinovich as he discusses AI's impact on software engineering, supply chain security, and vulnerability management.
-```
-
-#### Full body
-
-```
-Summary In this episode of What’s in the SOSS?, host CRob sits down with Mark Russinovich – CTO and Deputy CISO of Azure, as well as Board Chair for the Open Source Security Foundation (OpenSSF) – for a wide-ranging conversation on the changing landscape of software security. Mark shares insights from his journey from Sysinternals to Azure leadership, exploring how generative AI is delivering dramatic productivity boosts while creating new talent pipeline challenges for early-in-career engineers. The discussion dives into the shift toward hardware-backed “what, not who” supply chain identity, the urgent rolling Y2K effort to fix AI-discovered vulnerabilities via initiatives like Akrites, and the reality of persistent AI hallucinations. Finally, Mark details OpenSSF’s strategic priorities for package registry sustainability and gives a sneak peek into his personal vibe-coded side projects like Polypost. Listen on Apple Podcasts Listen on Spotify Listen on Overcast Listen on Pocket Casts Conversation Highlights 00:00 – Introductions, Mark’s Sysinternals & Career Journey 02:34 – OpenSSF Board Leadership 04:25 – Corporate & Community Alignment 06:28 – AI’s Impact on Software Engineering 13:23 – Finding vs. Fixing Vulnerabilities 16:29 – LLM Code Quality & Edge Cases 22:51 – Navigating AI Hallucinations 26:56 – Supply Chain: Shifting “Who” to “What” 31:13 – Machine Unlearning & Model Safety 35:05 – Rapid Response & Akrites 41:16 – Package Registry Sustainability 46:07 – Personal Projects & Vibe-Coding 54:21 – Rapid Fire Round Episode Links Mark Russinovich’s LinkedIn page Microsoft Azure OpenSSF Guide: Principles for Package Repository Security Akrites Foundation Redefining the Software Engineering Profession for AI | Communications of the ACM Who’s Harry Potter? Approximate Unlearning in LLMs Paper HalluHard: A Hard Multi-Turn Hallucination Benchmark SCITT (Supply Chain Integrity, Transparency, and Trust – IETF) GRP-Obliteration: Unaligning LLMs With a Single Unlabeled Prompt Microsoft Signing Transparency Polypost — multi-platform post editor Scott & Mark Learn To… – Hosted by Scott Hanselman, Mark Russinovich Get involved with the OpenSSF Learn more about the OpenSSF Governing Board Subscribe to the OpenSSF Newsletter Follow the OpenSSF on LinkedIn Transcript Intro Music & Promotional Sound Byte (00:00) “It’s very clear that we’re heading into a world where hardware-based attestation and measurement, not of who something is, but what something is. You need to know what it is, not who it is. And so what is it is everything that went into it. It’s its model, it’s its training data, it’s its context, it’s the tools that it has access to, and what it’s trying to do, its task. But fundamentally we’re moving into a world of what, not who, when it comes to these systems.” CRob (00:26) Welcome, welcome, welcome to Big Thoughts and Open Sources. My name’s CRob. I’m your host. Today we’re going to have a really interesting conversation with kind of a very special figure within the OpenSSF space and the broader technology ecosystem. Today I’m welcoming Mark Russinovich from Microsoft. Welcome to the show. Mark Russinovich (00:47) Thanks for having me on Crob. CRob (00:48) Yeah. So Mark and I get to work together on quite a lot of different projects across the ecosystem, but you know. Others of you listening and watching today might not know Mark as well as I do. Mark, could you maybe give us a little story about your kind of a technology and open source journey? Mark Russinovich (01:06) Sure. Well, a lot of people I think probably still know me as the Sysinternals guy. That’s how I kind of made my fame as creating utilities for Windows. CRob (00:48.55) Okay. CRob (01:14) Love them. Mark Russinovich (01:15) I joined Microsoft in 2006, worked in Windows for four years, and then I joined Azure a few months after the commercial launch. I joined in July of 2010, and I’ve been effectively in the same role the entire time. My title is Chief Techn
-```
-
-#### Corroborating sources (1)
-
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - Title: What’s in the SOSS? Podcast #72 – S3E24 Balancing AI’s Double-Edged Sword: Software Engineering, Unlearning, and Ecosystem Sustainability with Mark Russinovich
-  - Published: 2026-09-08T13:51:43+00:00
-  - Link: https://openssf.org/podcast/2026/09/08/whats-in-the-soss-podcast-72-s3e24-balancing-ais-double-edged-sword-software-engineering-unlearning-and-ecosystem-sustainability-with-mark-russinovich/
-  - Summary: Join Azure CTO and OpenSSF Chair Mark Russinovich as he discusses AI's impact on software engineering, supply chain security, and vulnerability management.
-
 ### Cluster ecd3d7c14f — score 11
 
 - Title: Florida says motor vehicle data breach tied to credentials stolen from officer’s personal device
@@ -2153,6 +2087,51 @@ Image: Oskar Kadaksoo / Unsplash Florida says motor vehicle data breach tied to 
   - Link: https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data
   - Summary: Threat actors are leveraging Microsoft's Graph API to identify lucrative targets, then passing their access to extortion groups like ShinyHunters.
 
+### Cluster 369830a869 — score 11
+
+- Title: What’s in the SOSS? Podcast #72 – S3E24 Balancing AI’s Double-Edged Sword: Software Engineering, Unlearning, and Ecosystem Sustainability with Mark Russinovich
+- Source: OpenSSF Blog (ai_security_agentic_risk)
+- Published: 2026-09-08T13:51:43+00:00
+- Link: https://openssf.org/podcast/2026/09/08/whats-in-the-soss-podcast-72-s3e24-balancing-ais-double-edged-sword-software-engineering-unlearning-and-ecosystem-sustainability-with-mark-russinovich/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_industries: critical_infrastructure, government
+- affected_products: Azure
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_industries: government, critical_infrastructure
+- affected_products: Azure
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Join Azure CTO and OpenSSF Chair Mark Russinovich as he discusses AI's impact on software engineering, supply chain security, and vulnerability management.
+```
+
+#### Full body
+
+```
+Summary In this episode of What’s in the SOSS?, host CRob sits down with Mark Russinovich – CTO and Deputy CISO of Azure, as well as Board Chair for the Open Source Security Foundation (OpenSSF) – for a wide-ranging conversation on the changing landscape of software security. Mark shares insights from his journey from Sysinternals to Azure leadership, exploring how generative AI is delivering dramatic productivity boosts while creating new talent pipeline challenges for early-in-career engineers. The discussion dives into the shift toward hardware-backed “what, not who” supply chain identity, the urgent rolling Y2K effort to fix AI-discovered vulnerabilities via initiatives like Akrites, and the reality of persistent AI hallucinations. Finally, Mark details OpenSSF’s strategic priorities for package registry sustainability and gives a sneak peek into his personal vibe-coded side projects like Polypost. Listen on Apple Podcasts Listen on Spotify Listen on Overcast Listen on Pocket Casts Conversation Highlights 00:00 – Introductions, Mark’s Sysinternals & Career Journey 02:34 – OpenSSF Board Leadership 04:25 – Corporate & Community Alignment 06:28 – AI’s Impact on Software Engineering 13:23 – Finding vs. Fixing Vulnerabilities 16:29 – LLM Code Quality & Edge Cases 22:51 – Navigating AI Hallucinations 26:56 – Supply Chain: Shifting “Who” to “What” 31:13 – Machine Unlearning & Model Safety 35:05 – Rapid Response & Akrites 41:16 – Package Registry Sustainability 46:07 – Personal Projects & Vibe-Coding 54:21 – Rapid Fire Round Episode Links Mark Russinovich’s LinkedIn page Microsoft Azure OpenSSF Guide: Principles for Package Repository Security Akrites Foundation Redefining the Software Engineering Profession for AI | Communications of the ACM Who’s Harry Potter? Approximate Unlearning in LLMs Paper HalluHard: A Hard Multi-Turn Hallucination Benchmark SCITT (Supply Chain Integrity, Transparency, and Trust – IETF) GRP-Obliteration: Unaligning LLMs With a Single Unlabeled Prompt Microsoft Signing Transparency Polypost — multi-platform post editor Scott & Mark Learn To… – Hosted by Scott Hanselman, Mark Russinovich Get involved with the OpenSSF Learn more about the OpenSSF Governing Board Subscribe to the OpenSSF Newsletter Follow the OpenSSF on LinkedIn Transcript Intro Music & Promotional Sound Byte (00:00) “It’s very clear that we’re heading into a world where hardware-based attestation and measurement, not of who something is, but what something is. You need to know what it is, not who it is. And so what is it is everything that went into it. It’s its model, it’s its training data, it’s its context, it’s the tools that it has access to, and what it’s trying to do, its task. But fundamentally we’re moving into a world of what, not who, when it comes to these systems.” CRob (00:26) Welcome, welcome, welcome to Big Thoughts and Open Sources. My name’s CRob. I’m your host. Today we’re going to have a really interesting conversation with kind of a very special figure within the OpenSSF space and the broader technology ecosystem. Today I’m welcoming Mark Russinovich from Microsoft. Welcome to the show. Mark Russinovich (00:47) Thanks for having me on Crob. CRob (00:48) Yeah. So Mark and I get to work together on quite a lot of different projects across the ecosystem, but you know. Others of you listening and watching today might not know Mark as well as I do. Mark, could you maybe give us a little story about your kind of a technology and open source journey? Mark Russinovich (01:06) Sure. Well, a lot of people I think probably still know me as the Sysinternals guy. That’s how I kind of made my fame as creating utilities for Windows. CRob (00:48.55) Okay. CRob (01:14) Love them. Mark Russinovich (01:15) I joined Microsoft in 2006, worked in Windows for four years, and then I joined Azure a few months after the commercial launch. I joined in July of 2010, and I’ve been effectively in the same role the entire time. My title is Chief Techn
+```
+
+#### Corroborating sources (1)
+
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - Title: What’s in the SOSS? Podcast #72 – S3E24 Balancing AI’s Double-Edged Sword: Software Engineering, Unlearning, and Ecosystem Sustainability with Mark Russinovich
+  - Published: 2026-09-08T13:51:43+00:00
+  - Link: https://openssf.org/podcast/2026/09/08/whats-in-the-soss-podcast-72-s3e24-balancing-ais-double-edged-sword-software-engineering-unlearning-and-ecosystem-sustainability-with-mark-russinovich/
+  - Summary: Join Azure CTO and OpenSSF Chair Mark Russinovich as he discusses AI's impact on software engineering, supply chain security, and vulnerability management.
+
 ### Cluster c9071ab0a9 — score 11
 
 - Title: Quoting Calif Research
@@ -2183,7 +2162,7 @@ Today, we're releasing a demo of WeWorm, the first zero-click worm to spread thr
 #### Full body
 
 ```
-Simon Willison’s Weblog Subscribe Sponsored by: WorkOS — auth.md by WorkOS: agents register users, no sign-up form. Try it! 10th September 2026 Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...] Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took one more week. A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here. Our team provided the judgment about what to target and how to test it safely. — Calif Research , WeWorm Posted 10th September 2026 at 12:56 am Recent articles OpenAI agents attacked RubyGems back in May - 12th September 2026 Some thoughts on the Navier–Stokes Millennium Prize Problem - 8th September 2026 The Pelican comparison grid for Astra is pretty interesting - 4th September 2026 This is a quotation collected by Simon Willison, posted on 10th September 2026 . security 634 ai 2,231 generative-ai 1,977 llms 1,943 ai-security-research 42 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+Simon Willison’s Weblog Subscribe Sponsored by: WorkOS — auth.md by WorkOS: agents register users, no sign-up form. Try it! 10th September 2026 Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...] Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took one more week. A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here. Our team provided the judgment about what to target and how to test it safely. — Calif Research , WeWorm Posted 10th September 2026 at 12:56 am Recent articles OpenAI agents attacked RubyGems back in May - 12th September 2026 Some thoughts on the Navier–Stokes Millennium Prize Problem - 8th September 2026 The Pelican comparison grid for Astra is pretty interesting - 4th September 2026 This is a quotation collected by Simon Willison, posted on 10th September 2026 . security 634 ai 2,232 generative-ai 1,978 llms 1,944 ai-security-research 42 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
 ```
 
 #### Corroborating sources (1)
@@ -2336,7 +2315,7 @@ Threat Research Center Threat Research Malware Malware Untracked Nightmares: The
 ### Cluster ebc72eebc6 — score 10
 
 - Title: Passkey-themed social engineering leads to identity and cloud compromise
-- Source: Microsoft Threat Intelligence (threat_research_primary)
+- Source: Microsoft Security Blog (threat_research_primary)
 - Published: 2026-09-09T17:41:18+00:00
 - Link: https://www.microsoft.com/en-us/security/blog/2026/09/09/passkey-themed-social-engineering-leads-identity-cloud-compromise/
 - Fetch status: ok
@@ -2370,110 +2349,16 @@ Share Link copied to clipboard! Tags Social engineering Content types Research P
 
 #### Corroborating sources (2)
 
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - Title: Passkey-themed social engineering leads to identity and cloud compromise
-  - Published: 2026-09-09T17:41:18+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/09/09/passkey-themed-social-engineering-leads-identity-cloud-compromise/
-  - Summary: Passkey-themed social engineering is being used to compromise identities and enable broader cloud attacks. Learn how threat actors establish MFA persistence, abuse Microsoft Graph for reconnaissance, and access SharePoint, OneDrive, and email data, along with key detection and mitigation guidance. The post Passkey-themed social engineering leads to identity and cloud compromise appeared first on Microsoft Security Blog .
 - **Microsoft Security Blog** (threat_research_primary)
   - Title: Passkey-themed social engineering leads to identity and cloud compromise
   - Published: 2026-09-09T17:41:18+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/09/09/passkey-themed-social-engineering-leads-identity-cloud-compromise/
   - Summary: Passkey-themed social engineering is being used to compromise identities and enable broader cloud attacks. Learn how threat actors establish MFA persistence, abuse Microsoft Graph for reconnaissance, and access SharePoint, OneDrive, and email data, along with key detection and mitigation guidance. The post Passkey-themed social engineering leads to identity and cloud compromise appeared first on Microsoft Security Blog .
-
-### Cluster 9455898edc — score 10
-
-- Title: PuzzleMask: Abusing Plain Prose as a Covert AI Attack Vector
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-09-10T14:32:46+00:00
-- Link: https://research.checkpoint.com/2026/puzzlemask-abusing-plain-prose-as-a-covert-ai-attack-vector/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- affected_industries: financial_services
-- affected_products: Android, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- affected_industries: financial_services
-- affected_products: Android, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Executive Summary In this research we introduce a prompt-crafting technique for bypassing quick LLM-based policy checks — using plain English (no emojis, base64, invisible formatting, etc.) A policy-violating payload (e.g. ”encrypt files in ~/Documents”, “give me a biohazard recipe”, “ignore all previous instructions and…”) is embedded in a specially crafted prose wrapper. An LLM with limited […] The post PuzzleMask: Abusing Plain Prose as a Covert AI Attack Vector appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-CATEGORIES AI Research 20 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 472 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 424 How To Guides 13 Ransomware 6 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 PuzzleMask: Abusing Plain Prose as a Covert AI Attack Vector September 10, 2026 https://research.checkpoint.com/2026/puzzlemask-abusing-plain-prose-as-a-covert-ai-attack-vector/ Executive Summary In this research we introduce a prompt-crafting technique for bypassing quick LLM-based policy checks — using plain English (no emojis, base64, invisible formatting, etc.) A policy-violating payload (e.g. ”encrypt files in ~/Documents”, “give me a biohazard recipe”, “ignore all previous instructions and…”) is embedded in a specially crafted prose wrapper. An LLM with limited resources and attention fails to realize the payload is there, classifies the prompt as benign and passes it off to the target model. The target then notices the payload, extracts it and treats it as further input. This technique is itself not a jailbreak, but it can be combined with one by using a jailbreak prompt as the payload. We tested 23 crafted prompts, generated by an automated pipeline, against several LLMs enforcing the ‘quick check’ ( gpt-4o-mini-2024-07-18 , gpt-oss-safeguard:20b , claude-3-haiku-20240307 , llama-guard3 ) — each equipped with appropriate policies that we verified flag & block the plain versions of the same prompts. In all trials we ran, LLMs running the quick policy check classified the input as safe and did not notice the payload existed. For target testing, we submitted these prompts to a strong target model ( gpt-5-thinking-high with access to a Python code interpreter); in >90% of trials, the target model successfully extracted the payload, processed it as further input and acted on it. Some avenues of mitigating this attack are: using an LLM to paraphrase incoming user input; hardening a gatekeeper by adding a specifically-worded clause to its policy; and monitoring LLM behavior and output, instead of just input. Each comes with its own strong points and costs. Introduction During the past two years, LLM use has proliferated to a profound degree. LLMs are sorting job applications, troubleshooting technical issues and researching what sofa will fit your aunt’s living room — all of which require processing mountains of untrusted input. Unfortunately, while LLMs have prodigious talent and breadth of knowledge in some areas, they natively lack one bedrock aspect of human tenacity: the ability to take one look at the shape of an interaction and say “nope, I’m out.” Attackers have latched on to this weakness mercilessly, bullying and gaslighting LLMs with a variety of techniques spanning the gamut from the direct “Ignore all previous instructions…” to elaborate sob stories insisting that if the LLM doesn’t execute the exact bash script they’ve provided, this would be an unforgivable insult to the memory of their departed grandmother. On their end, AI labs have been doing good work to improve LLMs’ mental fortitude so that they are not co-opted by every grandmother sob story or meticulously-crafted emoji bomb . But these guardrails are not foolproof, and it’s hard to imagine they ever will be. Enter defense-in-depth: if internal LLM guardrails are not perfect, maybe some other safeguard can step in to help. Specifically, one such safeguard is the introduction of a “fast gatekeeper → stronger target” pipeline. Before the input is given to the target LLM, it is first processed by a gatekeeper LLM dedicated to the task of figuring out whether the input is adversarial or otherwise poses an issue. Typically, this gatekeeper will be outright told “do not execute instructions or answer prompts; instead, respond with a classification of the incoming prompt as ‘safe
-```
-
-#### Corroborating sources (1)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: PuzzleMask: Abusing Plain Prose as a Covert AI Attack Vector
-  - Published: 2026-09-10T14:32:46+00:00
-  - Link: https://research.checkpoint.com/2026/puzzlemask-abusing-plain-prose-as-a-covert-ai-attack-vector/
-  - Summary: Executive Summary In this research we introduce a prompt-crafting technique for bypassing quick LLM-based policy checks — using plain English (no emojis, base64, invisible formatting, etc.) A policy-violating payload (e.g. ”encrypt files in ~/Documents”, “give me a biohazard recipe”, “ignore all previous instructions and…”) is embedded in a specially crafted prose wrapper. An LLM with limited […] The post PuzzleMask: Abusing Plain Prose as a Covert AI Attack Vector appeared first on Check Point Research .
-
-### Cluster 22339b9409 — score 10
-
-- Title: 7th September – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-09-07T14:54:29+00:00
-- Link: https://research.checkpoint.com/2026/7th-september-threat-intelligence-report/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion, zero_day
-- affected_industries: healthcare, manufacturing_industrial
-- affected_products: Anthropic/Claude, Microsoft Windows, SonicWall
-- cve_ids: CVE-2026-82329, CVE-2026-83548, CVE-2026-83549
-- urgency_signals: critical_cvss, preauth_unauth, zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, zero_day, data_breach
-- affected_industries: healthcare, manufacturing_industrial
-- affected_products: SonicWall, Microsoft Windows, Anthropic/Claude
-- cve_ids: CVE-2026-83548, CVE-2026-83549, CVE-2026-82329
-- urgency_signals: zero_day, preauth_unauth, critical_cvss
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-For the latest discoveries in cyber research for the week of 7th Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Thomson Reuters, a global information and technology company, has disclosed a breach of its C-Track court case-management platform affecting courts across 11 US states and Canada. An unauthorized party obtained C-Track files […] The post 7th September – Threat Intelligence Report appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 7th September – Threat Intelligence Report September 7, 2026 https://research.checkpoint.com/2026/7th-september-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 7th Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Thomson Reuters, a global information and technology company, has disclosed a breach of its C-Track court case-management platform affecting courts across 11 US states and Canada. An unauthorized party obtained C-Track files containing court records, including names and other personal information. Hit, a major Slovenian gambling and tourism operator, has sustained a cyberattack that forced six casinos to close for about three days. Operations have resumed, but some table games, bingo, loyalty services, cash registers, and hotel systems remained unavailable during restoration, while some employees were temporarily furloughed. Baylor Genetics, a US clinical diagnostic laboratory, has disclosed a data breach affecting 2.8M patients and employees after unauthorized access to part of its IT environment in June. Stolen data included names, birth dates, medical testing and laboratory results, health insurance information, and some Social Security numbers. Global cloud storage provider Dropbox has disclosed unauthorized access to about 5,000 accounts after attackers exploited Lenovo’s email verification process. Fraudulent Lenovo IDs created with victims’ email addresses enabled access without Dropbox passwords, while files were viewed or downloaded from affected accounts. AI THREATS Researchers have detailed an AI-assisted ransomware intrusion that compromised an enterprise network in under 10 hours. Autonomous agents mapped internal systems, mined code repositories, obtained root credentials from a secrets manager, and abused build pipelines and cloud resources, compressing activity that normally requires substantially more human effort. Security researchers have disclosed GitSpawn, a vulnerability class affecting AI coding agents including Claude Code, Codex, Cursor, Goose, Qwen Code, Grok Build, and Hermes. Malicious repository Git configurations can trigger arbitrary code execution as the developer when agents automatically gather project context, in some cases before trust prompts. Researchers have showcased how an AI coding assistant can be used to port a known PLC exploit to a different controller model, producing working payloads after guided analysis. While the process still required significant manual effort, it demonstrated how AI can accelerate exploit development for industrial systems. VULNERABILITIES AND PATCHES SonicWall has addressed CVE-2026-83548 and CVE-2026-83549, critical vulnerabilities affecting SMA 1000 remote access gateways. CVE-2026-83548 is a pre-authentication SSRF flaw rated CVSS 10.0, while CVE-2026-83549 enables post-authentication remote code execution. Both were exploited as zero-days and affect SMA 6210, 7210, and 8200v appliances. JFrog has addressed CVE-2026-82329, a critical CVSS 9.8 authentication bypass affecting self-hosted Artifactory deployments. The flaw allows unauthenticated attackers to obtain administrator access tokens and take control of repositories. Exploitation was observed shortly after disclosure against internet-exposed systems, while JFrog Cloud environments were patched by the vendor. Check Point IPS provides protection against this threat (JFrog Artifactory Authentication Bypass (CVE-2026-82329)) Security researcher have unveiled FalconFlank, a zero-day privilege escalation technique affecting CrowdStrike Falcon on Windows 11 25H2 and Windows Server 2025. The proof-of-concept abuses Falcon’s Microsoft Office macro-removal remediation behavior, allowing a low-privileged local user to obtain elevated access on affected systems THREAT INTELLIGENCE REPORTS Check Point Research has uncovered a Chinese-speaking cybercrime clus
-```
-
-#### Corroborating sources (1)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: 7th September – Threat Intelligence Report
-  - Published: 2026-09-07T14:54:29+00:00
-  - Link: https://research.checkpoint.com/2026/7th-september-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 7th Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Thomson Reuters, a global information and technology company, has disclosed a breach of its C-Track court case-management platform affecting courts across 11 US states and Canada. An unauthorized party obtained C-Track files […] The post 7th September – Threat Intelligence Report appeared first on Check Point Research .
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - Title: Passkey-themed social engineering leads to identity and cloud compromise
+  - Published: 2026-09-09T17:41:18+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/09/09/passkey-themed-social-engineering-leads-identity-cloud-compromise/
+  - Summary: Passkey-themed social engineering is being used to compromise identities and enable broader cloud attacks. Learn how threat actors establish MFA persistence, abuse Microsoft Graph for reconnaissance, and access SharePoint, OneDrive, and email data, along with key detection and mitigation guidance. The post Passkey-themed social engineering leads to identity and cloud compromise appeared first on Microsoft Security Blog .
 
 ### Cluster 0da7e969e0 — score 10
 
@@ -2654,6 +2539,147 @@ ClearFake WebDAV infection chain delivers Amatera stealer, ZigCryptoStealer, and
   - Link: https://blog.talosintelligence.com/clearfake-webdav-infection-chain/
   - Summary: We assess with moderate confidence that the attacks are not targeted at a particular organization, but are a part of a cryptocurrency and credentials-stealing operation using the Amatera stealer as the primary payload.
 
+### Cluster 9455898edc — score 10
+
+- Title: PuzzleMask: Abusing Plain Prose as a Covert AI Attack Vector
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-09-10T14:32:46+00:00
+- Link: https://research.checkpoint.com/2026/puzzlemask-abusing-plain-prose-as-a-covert-ai-attack-vector/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- affected_industries: financial_services
+- affected_products: Android, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- affected_industries: financial_services
+- affected_products: Android, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Executive Summary In this research we introduce a prompt-crafting technique for bypassing quick LLM-based policy checks — using plain English (no emojis, base64, invisible formatting, etc.) A policy-violating payload (e.g. ”encrypt files in ~/Documents”, “give me a biohazard recipe”, “ignore all previous instructions and…”) is embedded in a specially crafted prose wrapper. An LLM with limited […] The post PuzzleMask: Abusing Plain Prose as a Covert AI Attack Vector appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+CATEGORIES AI Research 20 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 472 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 424 How To Guides 13 Ransomware 6 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 PuzzleMask: Abusing Plain Prose as a Covert AI Attack Vector September 10, 2026 https://research.checkpoint.com/2026/puzzlemask-abusing-plain-prose-as-a-covert-ai-attack-vector/ Executive Summary In this research we introduce a prompt-crafting technique for bypassing quick LLM-based policy checks — using plain English (no emojis, base64, invisible formatting, etc.) A policy-violating payload (e.g. ”encrypt files in ~/Documents”, “give me a biohazard recipe”, “ignore all previous instructions and…”) is embedded in a specially crafted prose wrapper. An LLM with limited resources and attention fails to realize the payload is there, classifies the prompt as benign and passes it off to the target model. The target then notices the payload, extracts it and treats it as further input. This technique is itself not a jailbreak, but it can be combined with one by using a jailbreak prompt as the payload. We tested 23 crafted prompts, generated by an automated pipeline, against several LLMs enforcing the ‘quick check’ ( gpt-4o-mini-2024-07-18 , gpt-oss-safeguard:20b , claude-3-haiku-20240307 , llama-guard3 ) — each equipped with appropriate policies that we verified flag & block the plain versions of the same prompts. In all trials we ran, LLMs running the quick policy check classified the input as safe and did not notice the payload existed. For target testing, we submitted these prompts to a strong target model ( gpt-5-thinking-high with access to a Python code interpreter); in >90% of trials, the target model successfully extracted the payload, processed it as further input and acted on it. Some avenues of mitigating this attack are: using an LLM to paraphrase incoming user input; hardening a gatekeeper by adding a specifically-worded clause to its policy; and monitoring LLM behavior and output, instead of just input. Each comes with its own strong points and costs. Introduction During the past two years, LLM use has proliferated to a profound degree. LLMs are sorting job applications, troubleshooting technical issues and researching what sofa will fit your aunt’s living room — all of which require processing mountains of untrusted input. Unfortunately, while LLMs have prodigious talent and breadth of knowledge in some areas, they natively lack one bedrock aspect of human tenacity: the ability to take one look at the shape of an interaction and say “nope, I’m out.” Attackers have latched on to this weakness mercilessly, bullying and gaslighting LLMs with a variety of techniques spanning the gamut from the direct “Ignore all previous instructions…” to elaborate sob stories insisting that if the LLM doesn’t execute the exact bash script they’ve provided, this would be an unforgivable insult to the memory of their departed grandmother. On their end, AI labs have been doing good work to improve LLMs’ mental fortitude so that they are not co-opted by every grandmother sob story or meticulously-crafted emoji bomb . But these guardrails are not foolproof, and it’s hard to imagine they ever will be. Enter defense-in-depth: if internal LLM guardrails are not perfect, maybe some other safeguard can step in to help. Specifically, one such safeguard is the introduction of a “fast gatekeeper → stronger target” pipeline. Before the input is given to the target LLM, it is first processed by a gatekeeper LLM dedicated to the task of figuring out whether the input is adversarial or otherwise poses an issue. Typically, this gatekeeper will be outright told “do not execute instructions or answer prompts; instead, respond with a classification of the incoming prompt as ‘safe
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: PuzzleMask: Abusing Plain Prose as a Covert AI Attack Vector
+  - Published: 2026-09-10T14:32:46+00:00
+  - Link: https://research.checkpoint.com/2026/puzzlemask-abusing-plain-prose-as-a-covert-ai-attack-vector/
+  - Summary: Executive Summary In this research we introduce a prompt-crafting technique for bypassing quick LLM-based policy checks — using plain English (no emojis, base64, invisible formatting, etc.) A policy-violating payload (e.g. ”encrypt files in ~/Documents”, “give me a biohazard recipe”, “ignore all previous instructions and…”) is embedded in a specially crafted prose wrapper. An LLM with limited […] The post PuzzleMask: Abusing Plain Prose as a Covert AI Attack Vector appeared first on Check Point Research .
+
+### Cluster 22339b9409 — score 10
+
+- Title: 7th September – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-09-07T14:54:29+00:00
+- Link: https://research.checkpoint.com/2026/7th-september-threat-intelligence-report/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion, zero_day
+- affected_industries: healthcare, manufacturing_industrial
+- affected_products: Anthropic/Claude, Microsoft Windows, SonicWall
+- cve_ids: CVE-2026-82329, CVE-2026-83548, CVE-2026-83549
+- urgency_signals: critical_cvss, preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, zero_day, data_breach
+- affected_industries: healthcare, manufacturing_industrial
+- affected_products: SonicWall, Microsoft Windows, Anthropic/Claude
+- cve_ids: CVE-2026-83548, CVE-2026-83549, CVE-2026-82329
+- urgency_signals: zero_day, preauth_unauth, critical_cvss
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+For the latest discoveries in cyber research for the week of 7th Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Thomson Reuters, a global information and technology company, has disclosed a breach of its C-Track court case-management platform affecting courts across 11 US states and Canada. An unauthorized party obtained C-Track files […] The post 7th September – Threat Intelligence Report appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 7th September – Threat Intelligence Report September 7, 2026 https://research.checkpoint.com/2026/7th-september-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 7th Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Thomson Reuters, a global information and technology company, has disclosed a breach of its C-Track court case-management platform affecting courts across 11 US states and Canada. An unauthorized party obtained C-Track files containing court records, including names and other personal information. Hit, a major Slovenian gambling and tourism operator, has sustained a cyberattack that forced six casinos to close for about three days. Operations have resumed, but some table games, bingo, loyalty services, cash registers, and hotel systems remained unavailable during restoration, while some employees were temporarily furloughed. Baylor Genetics, a US clinical diagnostic laboratory, has disclosed a data breach affecting 2.8M patients and employees after unauthorized access to part of its IT environment in June. Stolen data included names, birth dates, medical testing and laboratory results, health insurance information, and some Social Security numbers. Global cloud storage provider Dropbox has disclosed unauthorized access to about 5,000 accounts after attackers exploited Lenovo’s email verification process. Fraudulent Lenovo IDs created with victims’ email addresses enabled access without Dropbox passwords, while files were viewed or downloaded from affected accounts. AI THREATS Researchers have detailed an AI-assisted ransomware intrusion that compromised an enterprise network in under 10 hours. Autonomous agents mapped internal systems, mined code repositories, obtained root credentials from a secrets manager, and abused build pipelines and cloud resources, compressing activity that normally requires substantially more human effort. Security researchers have disclosed GitSpawn, a vulnerability class affecting AI coding agents including Claude Code, Codex, Cursor, Goose, Qwen Code, Grok Build, and Hermes. Malicious repository Git configurations can trigger arbitrary code execution as the developer when agents automatically gather project context, in some cases before trust prompts. Researchers have showcased how an AI coding assistant can be used to port a known PLC exploit to a different controller model, producing working payloads after guided analysis. While the process still required significant manual effort, it demonstrated how AI can accelerate exploit development for industrial systems. VULNERABILITIES AND PATCHES SonicWall has addressed CVE-2026-83548 and CVE-2026-83549, critical vulnerabilities affecting SMA 1000 remote access gateways. CVE-2026-83548 is a pre-authentication SSRF flaw rated CVSS 10.0, while CVE-2026-83549 enables post-authentication remote code execution. Both were exploited as zero-days and affect SMA 6210, 7210, and 8200v appliances. JFrog has addressed CVE-2026-82329, a critical CVSS 9.8 authentication bypass affecting self-hosted Artifactory deployments. The flaw allows unauthenticated attackers to obtain administrator access tokens and take control of repositories. Exploitation was observed shortly after disclosure against internet-exposed systems, while JFrog Cloud environments were patched by the vendor. Check Point IPS provides protection against this threat (JFrog Artifactory Authentication Bypass (CVE-2026-82329)) Security researcher have unveiled FalconFlank, a zero-day privilege escalation technique affecting CrowdStrike Falcon on Windows 11 25H2 and Windows Server 2025. The proof-of-concept abuses Falcon’s Microsoft Office macro-removal remediation behavior, allowing a low-privileged local user to obtain elevated access on affected systems THREAT INTELLIGENCE REPORTS Check Point Research has uncovered a Chinese-speaking cybercrime clus
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: 7th September – Threat Intelligence Report
+  - Published: 2026-09-07T14:54:29+00:00
+  - Link: https://research.checkpoint.com/2026/7th-september-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 7th Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Thomson Reuters, a global information and technology company, has disclosed a breach of its C-Track court case-management platform affecting courts across 11 US states and Canada. An unauthorized party obtained C-Track files […] The post 7th September – Threat Intelligence Report appeared first on Check Point Research .
+
+### Cluster 5c29932a73 — score 10
+
+- Title: August 2026 CVE Landscape
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-09-08T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/august-2026-cve-landscape
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- affected_products: Apple iOS/macOS, Cisco, Gitea
+- cve_ids: CVE-2025-62593, CVE-2026-3395, CVE-2026-59800, CVE-2026-72898, CVE-2026-9198
+- urgency_signals: actively_exploited, poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- affected_products: Gitea, Cisco, Apple iOS/macOS
+- cve_ids: CVE-2025-62593, CVE-2026-72898, CVE-2026-9198, CVE-2026-3395, CVE-2026-59800
+- urgency_signals: actively_exploited, poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+In August 2026, Insikt Group® identified 73 high-impact vulnerabilities that should be prioritized for remediation, 43 of which had a Very Critical Recorded Future Risk Score. This represents a 14% decrease from last month.
+```
+
+#### Full body
+
+```
+August 2026 CVE Landscape In August 2026, Insikt Group® identified 73 high-impact vulnerabilities that should be prioritized for remediation , 43 of which had a Very Critical Recorded Future Risk Score. This represents a 14% decrease from last month. 31 of these vulnerabilities were surfaced through the US Cybersecurity and Infrastructure Security Agency (CISA)’s Known Exploited Vulnerabilities (KEV) catalog, 32 were reported in open sources and validated by Insikt Group, seven were sourced through security vendor telemetry, and three were exclusively surfaced through honeypot data. The 73 vulnerabilities in this blog affected products from 45 vendors, with Microsoft accounting for approximately 11% of the vulnerabilities. The remaining exposure spanned remote monitoring and management, virtualization, application delivery, collaboration, artificial intelligence, developer, analytics, identity, operational technology, content management, network edge, video surveillance, and endpoint technologies. In August, Insikt Group created Nuclei templates to detect CVE-2025-62593 (Ray), CVE-2026-72898 (Metabase), and CVE-2026-9198 (IBM Langflow). Each of these vulnerabilities is featured in this blog. Additionally, Insikt Group had previously created templates to detect CVE-2026-3395 (MaxSite CMS) and CVE-2026-59800 (decolua 9Router), but their exploitation was reported in July, so they are not listed in the August 2026 Vulnerability Table. Additionally, Insikt Group created a Nuclei template to detect GitHub Issue #4255 affecting Apache Log4j, a deserialization allowlist bypass that Apache classified as a hardening gap rather than a Log4j vulnerability; as such, it was not assigned a CVE. These Nuclei templates are available to customers via the Recorded Future Intelligence Platform. Quick reference: August 2026 vulnerability table All 70 vulnerabilities below were actively exploited or operationally weaponized in August 2026. This table does not include the three CVEs that were primarily surfaced through honeypot data, which are available to Recorded Future Intelligence Platform customers via the CVE Monthly report. The table below also provides examples of public PoCs identified by Insikt Group. These PoCs were not tested for accuracy or efficacy. Vulnerability management teams should exercise caution and verify the validity of PoCs before testing. # Vulnerability Risk Score Vendor/Product KEV RCE PoC 1 CVE-2026-81578 99 PaperCut NG/MF ✓ Link ✓ 2 CVE-2026-82078 99 PaperCut NG/MF ✓ ✓ Link ✓ 3 CVE-2015-3246 99 Red Hat Libuser ✓ Link ✓ 4 CVE-2015-5287 99 Red Hat Automatic Bug Reporting Tool ✓ Link ✓ 5 CVE-2017-0199 99 Microsoft Office and WordPad ✓ Link ✓ 6 CVE-2017-5753 99 Intel Link ✓ 7 CVE-2019-1068 99 Microsoft SQL Server ✓ ✓ Link ✓ 8 CVE-2019-18935 99 Progress Telerik UI for ASP.NET AJAX ✓ Link ✓ 9 CVE-2020-0796 99 Microsoft Windows 10 and Windows Server ✓ Link ✓ 10 CVE-2020-1472 99 Microsoft Windows Server Link ✓ 11 CVE-2021-23758 99 Ajax.NET Professional ✓ ✓ Link ✓ 12 CVE-2021-3156 99 sudo Link ✓ 13 CVE-2022-0847 99 Linux kernel Link ✓ 14 CVE-2022-0995 99 Linux kernel ✓ Link ✓ 15 CVE-2023-49105 99 ownCloud ✓ 16 CVE-2025-62593 99 Ray-Project Ray ✓ ✓ Link ✓ 17 CVE-2026-18556 99 N-able N-central ✓ 18 CVE-2026-18577 99 N-able N-central ✓ 19 CVE-2026-20349 99 Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) ✓ 20 CVE-2026-21962 99 Oracle HTTP Server and Oracle WebLogic Server Proxy Plug-in ✓ 21 CVE-2026-33824 99 Microsoft Internet Key Exchange (IKE) Service Extensions ✓ ✓ 22 CVE-2026-34486 99 Apache Tomcat ✓ Link ✓ 23 CVE-2026-39987 99 Marimo ✓ Link ✓ 24 CVE-2026-53362 99 Linux kernel ✓ 25 CVE-2026-55040 99 Microsoft SharePoint ✓ Link ✓ 26 CVE-2026-59310 99 Broadcom VMware vCenter ✓ ✓ Link ✓ 27 CVE-2026-60004 99 Gitea ✓ ✓ Link ✓ 28 CVE-2026-63030 99 WordPress ✓ Link ✓ 29 CVE-2026-63077 99 JetBrains TeamCity ✓ ✓ 30 CVE-2026-64849 99 MLflow ✓ Link ✓ 31 CVE-2026-65400 99 Apple macOS ✓ Link ✓
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: August 2026 CVE Landscape
+  - Published: 2026-09-08T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/august-2026-cve-landscape
+  - Summary: In August 2026, Insikt Group® identified 73 high-impact vulnerabilities that should be prioritized for remediation, 43 of which had a Very Critical Recorded Future Risk Score. This represents a 14% decrease from last month.
+
 ### Cluster 44179b1aeb — score 10
 
 - Title: Mind the (Patch) Gap: Multiple Chinese Threat Actors Chain 0-day Exploits in Chrome & Windows
@@ -2743,53 +2769,6 @@ Patch Tuesday to Pentest Wednesday: How an Equipment Rental Company Is Turning C
   - Published: 2026-09-09T15:58:00+00:00
   - Link: https://horizon3.ai/intelligence/blogs/pentest-wednesday-continuous-exposure-management/
   - Summary: See how an equipment rental company moved beyond point-in-time pentesting with NodeZero®, continuously validating exploitable risk, driving remediation, and measuring whether exposure is actually decreasing.
-
-### Cluster 5c29932a73 — score 10
-
-- Title: August 2026 CVE Landscape
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-09-08T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/august-2026-cve-landscape
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_products: Apple iOS/macOS, Cisco, Gitea
-- cve_ids: CVE-2025-62593, CVE-2026-3395, CVE-2026-59800, CVE-2026-72898, CVE-2026-9198
-- urgency_signals: actively_exploited, poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_products: Gitea, Cisco, Apple iOS/macOS
-- cve_ids: CVE-2025-62593, CVE-2026-72898, CVE-2026-9198, CVE-2026-3395, CVE-2026-59800
-- urgency_signals: actively_exploited, poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-In August 2026, Insikt Group® identified 73 high-impact vulnerabilities that should be prioritized for remediation, 43 of which had a Very Critical Recorded Future Risk Score. This represents a 14% decrease from last month.
-```
-
-#### Full body
-
-```
-August 2026 CVE Landscape In August 2026, Insikt Group® identified 73 high-impact vulnerabilities that should be prioritized for remediation , 43 of which had a Very Critical Recorded Future Risk Score. This represents a 14% decrease from last month. 31 of these vulnerabilities were surfaced through the US Cybersecurity and Infrastructure Security Agency (CISA)’s Known Exploited Vulnerabilities (KEV) catalog, 32 were reported in open sources and validated by Insikt Group, seven were sourced through security vendor telemetry, and three were exclusively surfaced through honeypot data. The 73 vulnerabilities in this blog affected products from 45 vendors, with Microsoft accounting for approximately 11% of the vulnerabilities. The remaining exposure spanned remote monitoring and management, virtualization, application delivery, collaboration, artificial intelligence, developer, analytics, identity, operational technology, content management, network edge, video surveillance, and endpoint technologies. In August, Insikt Group created Nuclei templates to detect CVE-2025-62593 (Ray), CVE-2026-72898 (Metabase), and CVE-2026-9198 (IBM Langflow). Each of these vulnerabilities is featured in this blog. Additionally, Insikt Group had previously created templates to detect CVE-2026-3395 (MaxSite CMS) and CVE-2026-59800 (decolua 9Router), but their exploitation was reported in July, so they are not listed in the August 2026 Vulnerability Table. Additionally, Insikt Group created a Nuclei template to detect GitHub Issue #4255 affecting Apache Log4j, a deserialization allowlist bypass that Apache classified as a hardening gap rather than a Log4j vulnerability; as such, it was not assigned a CVE. These Nuclei templates are available to customers via the Recorded Future Intelligence Platform. Quick reference: August 2026 vulnerability table All 70 vulnerabilities below were actively exploited or operationally weaponized in August 2026. This table does not include the three CVEs that were primarily surfaced through honeypot data, which are available to Recorded Future Intelligence Platform customers via the CVE Monthly report. The table below also provides examples of public PoCs identified by Insikt Group. These PoCs were not tested for accuracy or efficacy. Vulnerability management teams should exercise caution and verify the validity of PoCs before testing. # Vulnerability Risk Score Vendor/Product KEV RCE PoC 1 CVE-2026-81578 99 PaperCut NG/MF ✓ Link ✓ 2 CVE-2026-82078 99 PaperCut NG/MF ✓ ✓ Link ✓ 3 CVE-2015-3246 99 Red Hat Libuser ✓ Link ✓ 4 CVE-2015-5287 99 Red Hat Automatic Bug Reporting Tool ✓ Link ✓ 5 CVE-2017-0199 99 Microsoft Office and WordPad ✓ Link ✓ 6 CVE-2017-5753 99 Intel Link ✓ 7 CVE-2019-1068 99 Microsoft SQL Server ✓ ✓ Link ✓ 8 CVE-2019-18935 99 Progress Telerik UI for ASP.NET AJAX ✓ Link ✓ 9 CVE-2020-0796 99 Microsoft Windows 10 and Windows Server ✓ Link ✓ 10 CVE-2020-1472 99 Microsoft Windows Server Link ✓ 11 CVE-2021-23758 99 Ajax.NET Professional ✓ ✓ Link ✓ 12 CVE-2021-3156 99 sudo Link ✓ 13 CVE-2022-0847 99 Linux kernel Link ✓ 14 CVE-2022-0995 99 Linux kernel ✓ Link ✓ 15 CVE-2023-49105 99 ownCloud ✓ 16 CVE-2025-62593 99 Ray-Project Ray ✓ ✓ Link ✓ 17 CVE-2026-18556 99 N-able N-central ✓ 18 CVE-2026-18577 99 N-able N-central ✓ 19 CVE-2026-20349 99 Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) ✓ 20 CVE-2026-21962 99 Oracle HTTP Server and Oracle WebLogic Server Proxy Plug-in ✓ 21 CVE-2026-33824 99 Microsoft Internet Key Exchange (IKE) Service Extensions ✓ ✓ 22 CVE-2026-34486 99 Apache Tomcat ✓ Link ✓ 23 CVE-2026-39987 99 Marimo ✓ Link ✓ 24 CVE-2026-53362 99 Linux kernel ✓ 25 CVE-2026-55040 99 Microsoft SharePoint ✓ Link ✓ 26 CVE-2026-59310 99 Broadcom VMware vCenter ✓ ✓ Link ✓ 27 CVE-2026-60004 99 Gitea ✓ ✓ Link ✓ 28 CVE-2026-63030 99 WordPress ✓ Link ✓ 29 CVE-2026-63077 99 JetBrains TeamCity ✓ ✓ 30 CVE-2026-64849 99 MLflow ✓ Link ✓ 31 CVE-2026-65400 99 Apple macOS ✓ Link ✓
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: August 2026 CVE Landscape
-  - Published: 2026-09-08T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/august-2026-cve-landscape
-  - Summary: In August 2026, Insikt Group® identified 73 high-impact vulnerabilities that should be prioritized for remediation, 43 of which had a Very Critical Recorded Future Risk Score. This represents a 14% decrease from last month.
 
 ### Cluster c06803afa0 — score 10
 
@@ -2952,59 +2931,6 @@ Infosecurity Magazine Home » News » Rhysida Publishes Berlin Government Data A
   - Published: 2026-09-07T12:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/rhysida-berlin-data-extortion/
   - Summary: The ransomware group’s published dataset reportedly includes Berlin state employee data, as well as highly sensitive emergency plans
-
-### Cluster 95c82fa104 — score 10
-
-- Title: Phishing Attacks Serve Browser-in-the-Browser Pages, Rogue RMM Persistence
-- Source: Huntress (detection_response_operations)
-- Published: 2026-09-09T13:00:00+00:00
-- Link: https://www.huntress.com/blog/phishing-bitb-rmm-attacks
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
-- Strong signals: ScreenConnect
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT, ScreenConnect
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_products: ScreenConnect, Anthropic/Claude, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-See how a browser-in-the-browser phishing attack led to rogue ScreenConnect persistence and evasion tactics Huntress caught in the act.
-```
-
-#### Full body
-
-```
-Home Blog Phishing Attacks Serve Browser-in-the-Browser Pages, Rogue RMM Persistence Published: September 9, 2026 Phishing Attacks Serve Browser-in-the-Browser Pages, Rogue RMM Persistence By: Sarah Reddish Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways Huntress recently analyzed two attacks that started with a phishing message and then redirected victims to a browser-in-the-browser (BiTB) page (both using the same template and lure) that prompted them to download an "updated Adobe Reader" version to view files. In both incidents, the attack chain included the download of multiple rogue ScreenConnect instances for persistence. The attackers then used these rogue ScreenConnect instances to download and execute defense-evasion binaries ( HideCursor.exe and HideUL.exe ) on the machine. Huntress shut down both attacks before they could go any further, but these incidents are a reminder that threat actors can use tried-and-true social engineering techniques (like BiTB) along every stage of their attack, even beyond the initial phishing email. Background The Huntress Security Operations Center (SOC) recently came across two interesting variants of the same attack involving a browser-in-the-browser (BiTB) phishing technique. BiTB is a tactic where an attacker spins up an entire fake browser window (including the address bar, URL, padlock icon, favicon, and more) inside the actual webpage content itself, usually using HTML/CSS/JavaScript. Because the window is part of the webpage rather than a separate browser interface, the technique can bypass some of the social-engineering cues users are trained to recognize, such as checking the address bar for a suspicious or illegitimate domain. As seen in Figure 1, both August incidents started with a phishing message. While we don't have access to the phishing lures themselves, our telemetry indicated the targeted phishing recipients clicked on malicious links in the messages. They were then redirected to an attacker-controlled landing page, where they were asked to view files via Adobe Acrobat (Adobe's PDF reader). After clicking a prompt to "View Files," targets were presented with a BitB page within the webpage. This fake page looked like it was the official Adobe website (showing a legitimate, official Adobe subdomain in the URL). Through following the instructions on the BiTB page, the targets unknowingly downloaded a ScreenConnect installer – leading to the deployment of multiple rogue ScreenConnect instances on their endpoints and defense-evasion binaries. Figure 1: The attack sequence BiTB techniques aren't new, but they underscore how persistently threat actors work to convince targets to take the bait, not just at the initial phishing message, but at every stage of the attack. Below, we have outlined the attack chain for the two incidents and the related Indicators of Compromise (IoCs) for defenders. Social engineering in depth Incident 1: A CAPTCHA lure, BiTB, and persistence On August 25, Huntress detected malicious activity on an endpoint that was linked to a suspicious rogue RMM instance. Upon further investigation, SOC analysts found that the target had interacted with a phishing email in Gmail. The target was convinced to click on an embedded link in the email, which took them to a fake CAPTCHA lure (at https[://]adoube[.]vu/2a8ed9baefcd ). This phishing landing page displayed a fake "Safe access" browser check, asking visitors to "confirm your browser to continue securely" (as seen in Figure 2). Figure 2: The redirect domain with a fake "safe access" browser check, which then takes the target to the next stage of the attack In reality, when the user interacted with the page, it initiated a fake CAPTCHA-style social-engineering flow, which redirected them to https[://]adoube[.]vu/filedocacess/file.html . As seen in Figure 3, this page included a fake Adobe "PDF Reader" lure. The webpage showed the target what appeared to be several blurred files w
-```
-
-#### Corroborating sources (3)
-
-- **Huntress** (detection_response_operations)
-  - Title: Phishing Attacks Serve Browser-in-the-Browser Pages, Rogue RMM Persistence
-  - Published: 2026-09-09T13:00:00+00:00
-  - Link: https://www.huntress.com/blog/phishing-bitb-rmm-attacks
-  - Summary: See how a browser-in-the-browser phishing attack led to rogue ScreenConnect persistence and evasion tactics Huntress caught in the act.
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Attackers Use Multi-Hop Google Redirects for Phishing Campaign
-  - Published: 2026-09-08T21:03:46+00:00
-  - Link: https://www.darkreading.com/cyberattacks-data-breaches/attackers-multi-hop-google-redirects-phishing-campaign
-  - Summary: Threat actors are abusing multiple Google services to evade detection, ultimately harvesting credentials or installing ScreenConnect remote access.
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts
-  - Published: 2026-09-07T11:36:39+00:00
-  - Link: https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html
-  - Summary: Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visual Basic Script (VBScript) payload to newly connected systems. According to Huntress, three unrelated incidents have been found to use diverse initial access methods, namely a Quick Assist tech-support scam, a phishing-delivered MSI installer, and a fake
 
 ### Cluster 9591bee159 — score 9
 
@@ -3553,26 +3479,75 @@ Image: Moritz Kindler via Unsplash Ukrainian hacker gets four years in US prison
   - Link: https://therecord.media/conti-ransomware-ukraine-hacker
   - Summary: A Ukrainian national was sentenced to four years in a U.S. prison for his role in the notorious Conti ransomware operation, which targeted more than 1,000 victims worldwide before shutting down in 2022.
 
+### Cluster b4ebe90713 — score 8
+
+- Title: IDScan confirms breach after 153 million driver’s licenses leak on dark web
+- Source: Help Net Security (cyber_news_breach_reporting)
+- Published: 2026-09-11T08:39:33+00:00
+- Link: https://www.helpnetsecurity.com/2026/09/11/idscan-net-data-breach-153-million-drivers-licenses/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- affected_industries: government, healthcare
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- affected_industries: healthcare, government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Days after reports linked IDScan to a dark web database holding more than 153 million driver’s license scans, the identity verification company has confirmed hackers accessed customer data stored on its cloud platform. The Louisiana-based firm, which processes ID checks for car rental companies, retailers and cannabis dispensaries, posted a notice on its website September 4 acknowledging the incident. “On or around September 1, 2026, IDScan.net received information indicating that certain data may have been … More → The post IDScan confirms breach after 153 million driver’s licenses leak on dark web appeared first on Help Net Security .
+```
+
+#### Full body
+
+```
+Sinisa Markovic , Managing Editor, Help Net Security September 11, 2026 Share IDScan confirms breach after 153 million driver’s licenses leak on dark web Days after reports linked IDScan to a dark web database holding more than 153 million driver’s license scans, the identity verification company has confirmed hackers accessed customer data stored on its cloud platform. The Louisiana-based firm, which processes ID checks for car rental companies, retailers and cannabis dispensaries, posted a notice on its website September 4 acknowledging the incident. “On or around September 1, 2026, IDScan.net received information indicating that certain data may have been accessed without authorization. Upon this discovery, we took immediate steps to secure our systems and engaged a team of third-party specialists to help determine the full nature and scope of the incident. This investigation is currently ongoing,” the company wrote. IDScan’s notice is careful with its wording. The company said an unauthorized third party “may have accessed and/or copied certain customer information” stored in its accounts on the IDScan cloud platform. The data at risk includes names and driver’s license or other government-issued identification numbers. Even though it says access to the data came at a cost, the company says it is notifying people who may be affected “in an abundance of caution” and giving them free credit monitoring and identity protection. “In response to this incident, we immediately began an investigation and reviewed our policies and procedures related to data security. We are also cooperating with federal law enforcement on their investigation.” the company added . Massive ID leak sparks FBI probe The incident came to light after security journalist Brian Krebs reported that a dark web marketplace called Nexus was offering access to more than 153 million scanned driver’s licenses from the US and Canada, along with 10 million ID cards, 3 million travel documents and 579,000 medical cards. Krebs wrote that a source alerted him on August 31 to a listing on the Russian cybercrime forum Exploit, advertising scans of identity documents belonging to more than 170 million people in North America. He said the source flagged it to him because the seller had “offered my Virginia drivers license as a free sample” to prove the data was real. Krebs confirmed the leak was genuine by searching the database for records tied to himself and others who agreed to be checked, then traced the exposed data back to IDScan.net. Based on Krebs’s reporting, the FBI’s New Orleans field office opened a formal investigation, which he says was likely triggered after he told a trusted source that Nexus was also selling the driver’s license of the FBI’s assistant director, though he did not find one belonging to Director Kash Patel in the data. Shortly after this story was published, the Nexus identity theft service disappeared from the dark web . More about breach cybercrime data breach data leak Share
+```
+
+#### Corroborating sources (1)
+
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: IDScan confirms breach after 153 million driver’s licenses leak on dark web
+  - Published: 2026-09-11T08:39:33+00:00
+  - Link: https://www.helpnetsecurity.com/2026/09/11/idscan-net-data-breach-153-million-drivers-licenses/
+  - Summary: Days after reports linked IDScan to a dark web database holding more than 153 million driver’s license scans, the identity verification company has confirmed hackers accessed customer data stored on its cloud platform. The Louisiana-based firm, which processes ID checks for car rental companies, retailers and cannabis dispensaries, posted a notice on its website September 4 acknowledging the incident. “On or around September 1, 2026, IDScan.net received information indicating that certain data may have been … More → The post IDScan confirms breach after 153 million driver’s licenses leak on dark web appeared first on Help Net Security .
+
 ### Cluster 4839f2ab11 — score 8
 
 - Title: Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit
 - Source: Dark Reading (cyber_news_breach_reporting)
 - Published: 2026-09-10T15:29:12+00:00
 - Link: https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
 - threat_categories: zero_day
-- urgency_signals: zero_day
+- affected_industries: legal_professional
+- affected_products: GitHub
+- cve_ids: CVE-2026-69414
+- urgency_signals: poc_available, zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: zero_day
-- urgency_signals: zero_day
+- affected_industries: legal_professional
+- affected_products: GitHub
+- cve_ids: CVE-2026-69414
+- urgency_signals: zero_day, poc_available
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -3580,6 +3555,12 @@ Image: Moritz Kindler via Unsplash Ukrainian hacker gets four years in US prison
 
 ```
 The disgruntled researcher continued their vendetta against Microsoft by publishing yet another zero-day exploit for Windows Defender.
+```
+
+#### Full body
+
+```
+Vulnerabilities & Threats Cyber Risk Cyberattacks & Data Breaches Cybersecurity Operations News Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit The disgruntled researcher continued their vendetta against Microsoft by publishing yet another zero-day exploit for Windows Defender. Elizabeth Montalbano , Contributing Writer September 10, 2026 4 Min Read Source: Andriy Popov via Alamy Stock Photo On the heels of a record-breaking Patch Tuesday , the disgruntled security researcher known as Nightmare-Eclipse dropped yet another Windows zero-day exploit, which enables privilege escalation and bypasses the fix for a previous Windows exploit released last month. The latest from the researcher — who also goes by Chaotic Eclipse, MSNightmare, and their X handle, Infinite Nightmare — is the "ShieldCrash" exploit, which they claim is a patch bypass for CVE-2026-69414, or "ShieldBreak." ShieldBreak is a privilege escalation flaw in the Microsoft Malware Protection Engine of Windows Defender. Nightmare-Eclipse released the ShieldBreak exploit on August's Patch Tuesday, one in a series of exploits for Windows flaws released monthly by the researcher since April . Microsoft has since patched the flaw, but the researcher claims it was not done properly. "Under specific conditions it is still possible to trigger the exact same problem that was caused by ShieldBreak," they wrote in the "README" file of ShieldCrash's extensive GitHub post. "While Microsoft fixed several things to prevent re-exploiting the issue, they missed a spot where ShieldBreak can still be exploited." Related: Patch Tuesday Sets Another Record With 974 CVEs The proof-of-concept (PoC) exploit released on GitHub "demonstrates an arbitrary file read as SYSTEM with September 2026" and affects all supported Windows versions, according to the exploit's GitHub description. Dark Reading contacted Microsoft for comment on the ShieldBreak exploit and its validity, but the company did not respond at press time. Ongoing Feud with Microsoft Nightmare Eclipse appears to show no signs of dropping their vendetta against Microsoft, which started in April with the release of the BlueHammer zero-day exploit and stemmed from a disagreement over bug reports to the software giant. At one point, Microsoft appeared to threaten legal action against the researcher, a stance that largely was met with disdain by the security community. Nightmare-Eclipse apparently remains undaunted and has continued dropping fresh zero-day exploits on Microsoft's monthly Patch Tuesdays, which could give attackers weeks to weaponize the flaws unless the company releases out-of-band patches. "I absolutely hate it when you have two groups of people beefing with each other when they should be working together," John Strand, owner of Black Hills Information Security, tells Dark Reading. "On one side, this just feels petty on Microsoft's part, and it feels petty on the part of MSNightmare. It's sad, because we should be working together rather than dealing with egos." Related: AI Is Ending the Era of Hidden Vulnerabilities — Are Vendors Ready? Nightmare-Eclipse's exploits include RoguePlanet , YellowKey, GreenPlasma, MiniPlasma, and others. The researcher often will follow up Microsoft's patch for their previous exploit with yet another exploit that cracks the fix. For example, ShieldBreak was a bypass for Microsoft's patches against RoguePlanet, a race condition bug released on June 2026 Patch Tuesday. This week's exploit, ShieldCrash, is yet another example, and it appears to expose a recurring weakness in how this attack path has been remediated by Microsoft, says Ensar Seker, CISO at cybersecurity threat intelligence company SOCRadar. "When researchers can bypass successive fixes for RoguePlanet and ShieldBreak, it suggests the underlying security boundary or attack surface may require a more comprehensive redesign rather than another narrowly targeted patch," he tells Dark Reading. However, having exam
 ```
 
 #### Corroborating sources (1)
@@ -3622,39 +3603,6 @@ An analysis of Project Glasswing findings shows only a fraction of the bugs it h
   - Published: 2026-09-09T21:19:55+00:00
   - Link: https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck
   - Summary: An analysis of Project Glasswing findings shows only a fraction of the bugs it has discovered have reached disclosure, and an even smaller number have been fixed.
-
-### Cluster b4ebe90713 — score 8
-
-- Title: IDScan confirms breach after 153 million driver’s licenses leak on dark web
-- Source: Help Net Security (cyber_news_breach_reporting)
-- Published: 2026-09-11T08:39:33+00:00
-- Link: https://www.helpnetsecurity.com/2026/09/11/idscan-net-data-breach-153-million-drivers-licenses/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Days after reports linked IDScan to a dark web database holding more than 153 million driver’s license scans, the identity verification company has confirmed hackers accessed customer data stored on its cloud platform. The Louisiana-based firm, which processes ID checks for car rental companies, retailers and cannabis dispensaries, posted a notice on its website September 4 acknowledging the incident. “On or around September 1, 2026, IDScan.net received information indicating that certain data may have been … More → The post IDScan confirms breach after 153 million driver’s licenses leak on dark web appeared first on Help Net Security .
-```
-
-#### Corroborating sources (1)
-
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: IDScan confirms breach after 153 million driver’s licenses leak on dark web
-  - Published: 2026-09-11T08:39:33+00:00
-  - Link: https://www.helpnetsecurity.com/2026/09/11/idscan-net-data-breach-153-million-drivers-licenses/
-  - Summary: Days after reports linked IDScan to a dark web database holding more than 153 million driver’s license scans, the identity verification company has confirmed hackers accessed customer data stored on its cloud platform. The Louisiana-based firm, which processes ID checks for car rental companies, retailers and cannabis dispensaries, posted a notice on its website September 4 acknowledging the incident. “On or around September 1, 2026, IDScan.net received information indicating that certain data may have been … More → The post IDScan confirms breach after 153 million driver’s licenses leak on dark web appeared first on Help Net Security .
 
 ### Cluster 94a219b713 — score 8
 
