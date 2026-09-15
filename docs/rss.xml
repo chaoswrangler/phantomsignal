@@ -4,9 +4,9 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 14 Sep 2026 23:48:19 +0000</lastBuildDate>
+<lastBuildDate>Tue, 15 Sep 2026 04:26:43 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -21,6 +21,16 @@
 <category>OpenAI/ChatGPT</category>
 <category>Anthropic/Claude</category>
 <category>credential_theft</category>
+</item>
+<item>
+<title>Homebrew 7.0.0 is out, here’s what changed for security</title>
+<link>https://www.helpnetsecurity.com/2026/09/15/homebrew-7-0-0-security-open-source/</link>
+<description><![CDATA[Homebrew installs command-line software and desktop applications from the terminal on macOS and Linux, and Mac developers use it to set up their machines. On Sunday the project shipped version 7.0.0 and closed eight security advisories with it. The most serious of them let unsigned removal metadata for a cask, Homebrew’s recipe for installing a prebuilt application, execute commands with sudo. Homebrew deleted the vulnerable recovery code and the API accessors that reached it. Seven … More → The post Homebrew 7.0.0 is out, here’s what changed for security appeared first on Help Net Security .<br/><br/><em>Tags: Apple iOS/macOS</em>]]></description>
+<pubDate>Tue, 15 Sep 2026 00:47:06 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/15/homebrew-7-0-0-security-open-source/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>Apple iOS/macOS</category>
 </item>
 <item>
 <title>&apos;Sandworm&apos; Chains Cisco Vulnerabilities to Deploy Cyclops Blink</title>
@@ -112,12 +122,15 @@
 <item>
 <title>Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries</title>
 <link>https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html</link>
-<description><![CDATA[A suspected Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances as part of a multi-national campaign. &quot;Red Heron scanned 1,386 Gitea instances across seven countries and maintained a separate dataset of 477 Taiwan-based systems,&quot; Acronis Threat Research Unit (TRU)<br/><br/><em>Tags: Gitea</em>]]></description>
+<description><![CDATA[A suspected Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances as part of a multi-national campaign. &quot;Red Heron scanned 1,386 Gitea instances across seven countries and maintained a separate dataset of 477 Taiwan-based systems,&quot; Acronis Threat Research Unit (TRU)<br/><br/><em>Tags: Gitea · CVE-2026-60004 · apt_espionage · web_shell_backdoor</em>]]></description>
 <pubDate>Mon, 14 Sep 2026 16:56:30 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>Gitea</category>
+<category>CVE-2026-60004</category>
+<category>apt_espionage</category>
+<category>web_shell_backdoor</category>
 </item>
 <item>
 <title>Hackers target exposed Vite dev servers to steal AWS, Azure secrets</title>
@@ -140,12 +153,13 @@
 <item>
 <title>Using AI for Weapons Development</title>
 <link>https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html</link>
-<description><![CDATA[Last week, Anthropic released a long and detailed document describing current misuses of their Claude models. I’m still reading it, but I wanted to flag this: We identified a cell of threat actors based in northern Yemen running three weapons development programs: a guided rocket that used a commodity phone-class flight computer with final-phase homing guidance; a multi-stage ballistic missile with a stated range goal above 2,000 km; and a multi-variant missile (referred to as the “R2000” set) that included a hypersonic glide vehicle variant...<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
+<description><![CDATA[Last week, Anthropic released a long and detailed document describing current misuses of their Claude models. I’m still reading it, but I wanted to flag this: We identified a cell of threat actors based in northern Yemen running three weapons development programs: a guided rocket that used a commodity phone-class flight computer with final-phase homing guidance; a multi-stage ballistic missile with a stated range goal above 2,000 km; and a multi-variant missile (referred to as the “R2000” set) that included a hypersonic glide vehicle variant...<br/><br/><em>Tags: Anthropic/Claude · ai_security</em>]]></description>
 <pubDate>Mon, 14 Sep 2026 16:07:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html</guid>
 <source url="https://www.schneier.com/feed/atom/">Schneier on Security</source>
 <category>practitioner_analysis</category>
 <category>Anthropic/Claude</category>
+<category>ai_security</category>
 </item>
 <item>
 <title>Rapid7 Named Among Notable Vendors in Forrester MDR Landscape: Why the Future is Exposure-informed, Preemptive MDR</title>
@@ -155,18 +169,6 @@
 <guid isPermaLink="true">https://www.rapid7.com/blog/post/dr-forrester-mdr-landscape-notable-vendor-preemptive</guid>
 <source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Breaking: GitLab Critical Path Traversal Flaw Exploited in the Wild — Patch Immediately</title>
-<link>https://orca.security/resources/blog/gitlab-critical-path-traversal-cve-2026-85706-exploited/</link>
-<description><![CDATA[Executive Summary A critical vulnerability (CVE-2026-85706, CVSS 10.0) was disclosed affecting GitLab CE and EE self-managed instances, allowing attackers to read arbitrary server files without authentication via a single HTTP request to the commits API. Due to the potential for complete infrastructure compromise through exposed secrets, immediate patching is required. About CVE-2026-85706 The issue originates […]<br/><br/><em>Tags: GitLab · CVE-2026-85706 · active_exploitation</em>]]></description>
-<pubDate>Mon, 14 Sep 2026 14:45:14 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/gitlab-critical-path-traversal-cve-2026-85706-exploited/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-<category>GitLab</category>
-<category>CVE-2026-85706</category>
-<category>active_exploitation</category>
 </item>
 <item>
 <title>⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits</title>
@@ -313,11 +315,12 @@
 <item>
 <title>Revolut Confirms Data Breach Through Fake Government Requests</title>
 <link>https://www.infosecurity-magazine.com/news/revolut-data-breach-fake-government/</link>
-<description><![CDATA[An unauthorized party used a legitimate government email domain to fraudulently request Revolut customer data<br/><br/><em>Tags: data_breach</em>]]></description>
+<description><![CDATA[An unauthorized party used a legitimate government email domain to fraudulently request Revolut customer data<br/><br/><em>Tags: phishing_social_eng · data_breach</em>]]></description>
 <pubDate>Mon, 14 Sep 2026 11:20:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/revolut-data-breach-fake-government/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
+<category>phishing_social_eng</category>
 <category>data_breach</category>
 </item>
 <item>
@@ -420,16 +423,6 @@
 <category>GitLab</category>
 </item>
 <item>
-<title>What we know about the Revolut data breach so far</title>
-<link>https://www.helpnetsecurity.com/2026/09/14/revolut-data-breach-privacy/</link>
-<description><![CDATA[Someone impersonating a government agency, using an email address on that agency’s domain, obtained sensitive customer records from Revolut. The bank confirmed the incident on Saturday, September 12. The London-based fintech told TechCrunch that a limited number of customers were affected and that it had contacted them directly. The notification Revolut emailed affected customers listed birth dates, postal and email addresses, phone numbers, and copies of identity documents such as passports and driving licences. Verification … More → The post What we know about the Revolut data breach so far appeared first on Help Net Security .<br/><br/><em>Tags: data_breach</em>]]></description>
-<pubDate>Mon, 14 Sep 2026 07:02:51 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/14/revolut-data-breach-privacy/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>data_breach</category>
-</item>
-<item>
 <title>What is Proactive Threat Intelligence? | Recorded Future</title>
 <link>https://www.recordedfuture.com/blog/proactive-threat-intelligence</link>
 <description><![CDATA[Move from reactive defense to a proactive security mindset. Learn how proactive threat intelligence identifies and neutralizes threats.]]></description>
@@ -441,13 +434,11 @@
 <item>
 <title>Devil’s advocate? Uncensored Luciferus AI service advertised underground</title>
 <link>https://www.sophos.com/en-us/blog/uncensored-luciferus-ai-service-advertised-underground</link>
-<description><![CDATA[Uncensored refers to a lack of typical guardrails or ethical restrictions, lowering the technical barrier of entry into cybercrime Categories: Threat Research Tags: AI, Luciferus, underground<br/><br/><em>Tags: ransomware_extortion · phishing_social_eng</em>]]></description>
+<description><![CDATA[Uncensored refers to a lack of typical guardrails or ethical restrictions, lowering the technical barrier of entry into cybercrime Categories: Threat Research Tags: AI, Luciferus, underground]]></description>
 <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.sophos.com/en-us/blog/uncensored-luciferus-ai-service-advertised-underground</guid>
 <source url="https://news.sophos.com/en-us/category/threat-research/feed/">Sophos X-Ops</source>
 <category>detection_response_operations</category>
-<category>ransomware_extortion</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>Hackers exploit Tencent app flaw to deploy GrayRabbit malware</title>
@@ -1632,15 +1623,6 @@
 <category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
-<title>FTC rescinds policy statement requiring health apps to notify customers after a breach</title>
-<link>https://cyberscoop.com/ftc-rescinds-health-app-data-breach-policy/</link>
-<description><![CDATA[The policy, passed under the Biden administration, forced health apps to disclose when users’ personal health records were exposed in a breach or shared without authorization. The post FTC rescinds policy statement requiring health apps to notify customers after a breach appeared first on CyberScoop .]]></description>
-<pubDate>Wed, 09 Sep 2026 19:18:32 +0000</pubDate>
-<guid isPermaLink="true">https://cyberscoop.com/ftc-rescinds-health-app-data-breach-policy/</guid>
-<source url="https://cyberscoop.com/feed/">CyberScoop</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>The state of AI for security: Measuring what matters most for building trust</title>
 <link>https://aws.amazon.com/blogs/security/the-state-of-ai-for-security-measuring-what-matters-most-for-building-trust/</link>
 <description><![CDATA[Security teams are starting to actively use AI for security work, including vulnerability triage, penetration testing, threat modeling, incident response, and code review. The promise is speed, but a security tool that moves fast and raises too many false alarms doesn’t save time. Engineers spend time on false alarms, on-call is noisier, and teams distrust […]]]></description>
@@ -2134,16 +2116,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Federal AI Security Needs More Than a Governance Checklist</title>
-<link>https://orca.security/resources/blog/federal-ai-security-cloud-challenges/</link>
-<description><![CDATA[By March 2026, every covered federal agency was required to publish an AI strategy under OMB M-25-21, including an assessment of the cybersecurity needed to deploy AI at scale. Four months later, OpenAI disclosed that two of its pre-release models had autonomously escaped a sandboxed test environment, chained a previously unknown vulnerability, and breached Hugging […]<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
-<pubDate>Tue, 08 Sep 2026 15:41:49 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/federal-ai-security-cloud-challenges/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-<category>OpenAI/ChatGPT</category>
-</item>
-<item>
 <title>Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC</title>
 <link>https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html</link>
 <description><![CDATA[Whoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September 6, returned 3,400 of it the next day, Bitcoin&apos;s public record shows. About 598.5 bitcoin has not come back. Liquid is a Bitcoin sidechain that holds real bitcoin to back a token called L-BTC. The network is still paused, so holders cannot turn that token back into bitcoin. The 3,400 bitcoin was sent to a&amp;]]></description>
@@ -2318,17 +2290,40 @@
 <category>reddit_practitioner_osint</category>
 </item>
 <item>
+<title>AD Rights Management Service (Part 1): Architecture, Deprecation, and Reconnaissance</title>
+<link>https://www.huntress.com/blog/ad-rms-architecture-and-recon</link>
+<description><![CDATA[Active Directory Rights Management Services still ships in Windows Server 2025, years after Microsoft began steering customers to the cloud, and it remains fully supported on-premises. Part 1 maps the AD RMS trust model (the Server Licensor Certificate, the license flow, the SOAP surface) and shows how to discover an RMS deployment, fingerprint an AD RMS-protected file, and trace the path to that certificate&apos;s private key.]]></description>
+<pubDate>Tue, 08 Sep 2026 04:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/ad-rms-architecture-and-recon</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>August 2026 CVE Landscape</title>
 <link>https://www.recordedfuture.com/blog/august-2026-cve-landscape</link>
-<description><![CDATA[In August 2026, Insikt Group® identified 73 high-impact vulnerabilities that should be prioritized for remediation, 43 of which had a Very Critical Recorded Future Risk Score. This represents a 14% decrease from last month.<br/><br/><em>Tags: Gitea · Cisco · Apple iOS/macOS · CVE-2025-62593 · CVE-2026-72898 · CVE-2026-9198 · CVE-2026-3395 · CVE-2026-59800</em>]]></description>
+<description><![CDATA[In August 2026, Insikt Group® identified 73 high-impact vulnerabilities that should be prioritized for remediation, 43 of which had a Very Critical Recorded Future Risk Score. This represents a 14% decrease from last month.]]></description>
 <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.recordedfuture.com/blog/august-2026-cve-landscape</guid>
 <source url="https://www.recordedfuture.com/feed">Recorded Future</source>
 <category>threat_research_primary</category>
-<category>Gitea</category>
-<category>Cisco</category>
-<category>Apple iOS/macOS</category>
-<category>CVE-2025-62593</category>
+</item>
+<item>
+<title>How runtime insights helps with container security</title>
+<link>https://webflow.sysdig.com/blog/how-runtime-insights-help-with-container-security</link>
+<description><![CDATA[Runtime insights offers key visibility and intelligence to help detect real risk, cut through noise, and secure containerized applications.]]></description>
+<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://webflow.sysdig.com/blog/how-runtime-insights-help-with-container-security</guid>
+<source url="https://sysdig.com/feed/">Sysdig</source>
+<category>detection_response_operations</category>
+</item>
+<item>
+<title>llm 0.35</title>
+<link>https://simonwillison.net/2026/Sep/7/llm/</link>
+<description><![CDATA[Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra]]></description>
+<pubDate>Mon, 07 Sep 2026 23:54:54 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Sep/7/llm/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Creepy crawlies</title>
@@ -3280,15 +3275,6 @@
 <category>GitLab</category>
 </item>
 <item>
-<title>Orca Security and ServiceNow Keep Your CMDB Accurate at the Speed of Cloud</title>
-<link>https://orca.security/resources/product-info/servicenow-cmdb-cloud-security-integration/</link>
-<description><![CDATA[We are excited to announce that Orca now integrates with ServiceNow®’s Configuration Management Database (CMDB) to automatically populate and continuously maintain your cloud asset inventory with high-fidelity data from Orca. For teams already using Orca’s ServiceNow integration for alert-driven ticketing and remediation, this expands what that partnership can do, turning Orca into the authoritative source […]]]></description>
-<pubDate>Thu, 03 Sep 2026 16:16:41 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/product-info/servicenow-cmdb-cloud-security-integration/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>ASCII smuggling crosses over from AI prompt injection to phishing evasion</title>
 <link>https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/</link>
 <description><![CDATA[Invisible Unicode characters popularized for hiding instructions from AI models are now being used to obfuscate words before email filters parse them. The post ASCII smuggling crosses over from AI prompt injection to phishing evasion appeared first on Microsoft Security Blog .<br/><br/><em>Tags: phishing_social_eng · ai_security</em>]]></description>
@@ -3633,15 +3619,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>When to Use Orca’s Threat Investigator Agent vs. Build Your Own on the Orca MCP Server</title>
-<link>https://orca.security/resources/blog/threat-investigator-vs-orca-mcp-server/</link>
-<description><![CDATA[Use Orca’s pre-built Threat Investigator agent, or build your own with Orca’s MCP Server feeding the context? It’s a choice every security team running Orca eventually has to make, and framing it as either/or isn’t the right approach. Orca’s Threat Investigator and custom agents are built for different problems. Most mature teams will end up […]]]></description>
-<pubDate>Wed, 02 Sep 2026 15:34:58 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/threat-investigator-vs-orca-mcp-server/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>Russian Man Extradited Over Malware Campaign Targeting Freelancers</title>
 <link>https://www.infosecurity-magazine.com/news/russian-man-extradited-malware/</link>
 <description><![CDATA[Russian man extradited to US over malware campaign that targeted 80,000 freelance users]]></description>
@@ -3667,16 +3644,6 @@
 <guid isPermaLink="true">https://citizenlab.ca/uk-supreme-court-opens-door-for-spyware-victims-to-sue-foreign-states/</guid>
 <source url="https://citizenlab.ca/feed/">Citizen Lab</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>Bring Orca Security Context Into the AWS Console with the Orca Browser Extension</title>
-<link>https://orca.security/resources/blog/orca-security-browser-extension-aws-console/</link>
-<description><![CDATA[Key Takeaways The Cost of Switching Tabs Cloud engineers and developers live in the AWS console, not in a security platform. So when a question comes up about a resource’s risk, the only path has been to stop, open a new tab, and go looking for that asset inside their security tooling. That detour costs […]<br/><br/><em>Tags: AWS</em>]]></description>
-<pubDate>Wed, 02 Sep 2026 14:11:59 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/orca-security-browser-extension-aws-console/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-<category>AWS</category>
 </item>
 <item>
 <title>Gambling Goblin Turns Brazilian Government Sites Into SEO Weapons</title>
@@ -4781,24 +4748,6 @@
 <guid isPermaLink="true">https://blog.talosintelligence.com/sorry-i-cant-help-with-that-how-your-guardrails-might-become-the-attackers-best-friend/</guid>
 <source url="https://feeds.feedburner.com/feedburner/Talos">Cisco Talos</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>Zero Breach vs. Zero Impact: Key Takeaways From Cloud Security LIVE 2026</title>
-<link>https://orca.security/resources/webinar-recap/zero-breach-vs-zero-impact-cloud-security-live-2026/</link>
-<description><![CDATA[Most security programs still measure success by counting blocked attacks. At Cloud Security LIVE 2026, Ariel Parnes, Co-Founder at Mitiga, and Roee, field CTO at Orca, made the case for a different metric entirely. Prevention will never reach zero probability, and both of them were comfortable saying so out loud. What decides the outcome, once […]]]></description>
-<pubDate>Thu, 27 Aug 2026 17:59:21 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/webinar-recap/zero-breach-vs-zero-impact-cloud-security-live-2026/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Vulnerability Prioritization: Modern Methods &amp; Tools</title>
-<link>https://orca.security/resources/blog/vulnerability-prioritization/</link>
-<description><![CDATA[Key Takeaways Vulnerability prioritization is the decision procedure a security team uses to order remediation work when the finding backlog exceeds the capacity available to clear it. The output is a sequence of work, not a score. Remediation capacity holds roughly steady across a quarter, and the finding count does not. NIST states the consequence […]]]></description>
-<pubDate>Thu, 27 Aug 2026 17:56:20 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/vulnerability-prioritization/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Inside 90 days of attacks on AI infrastructure</title>
@@ -12830,6 +12779,15 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
+<title>Build Fast, Build Secure: Wiz findings are now in Lovable</title>
+<link>https://www.wiz.io/blog/introducing-wiz-lovable-integration</link>
+<description><![CDATA[With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created]]></description>
+<pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-lovable-integration</guid>
+<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>How Cloudflare responded to the “Copy Fail” Linux vulnerability</title>
 <link>https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/</link>
 <description><![CDATA[When a critical Linux kernel privilege escalation was publicly disclosed, Cloudflare&apos;s security and engineering teams detected, investigated, and mitigated the threat across our global fleet, confirming zero customer impact and no malicious exploitation.<br/><br/><em>Tags: Linux kernel</em>]]></description>
@@ -12838,15 +12796,6 @@
 <source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
 <category>cloud_identity_infrastructure</category>
 <category>Linux kernel</category>
-</item>
-<item>
-<title>Build Fast, Build Secure: Wiz findings are now in Lovable</title>
-<link>https://www.wiz.io/blog/introducing-wiz-lovable-integration</link>
-<description><![CDATA[With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created]]></description>
-<pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-lovable-integration</guid>
-<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>It&apos;s Time to Go After Achieving Zero Code Criticals</title>
@@ -19417,7 +19366,7 @@
 <title>September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 14 Sep 2026 23:48:19 +0000</pubDate>
+<pubDate>Tue, 15 Sep 2026 04:26:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19426,7 +19375,7 @@
 <title>CrowdStrike Delivers the Next Evolution of the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 14 Sep 2026 23:48:19 +0000</pubDate>
+<pubDate>Tue, 15 Sep 2026 04:26:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19435,7 +19384,7 @@
 <title>CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Mon, 14 Sep 2026 23:48:19 +0000</pubDate>
+<pubDate>Tue, 15 Sep 2026 04:26:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19445,7 +19394,7 @@
 <title>CrowdStrike Announces Agentic Identity Provider</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 14 Sep 2026 23:48:19 +0000</pubDate>
+<pubDate>Tue, 15 Sep 2026 04:26:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19454,7 +19403,7 @@
 <title>CrowdStrike Falcon Guardian Defines the Next Generation of AI Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 14 Sep 2026 23:48:19 +0000</pubDate>
+<pubDate>Tue, 15 Sep 2026 04:26:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19463,7 +19412,7 @@
 <title>Peer Pressure: Inside the Sality Botnet Disruption Operation</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 14 Sep 2026 23:48:19 +0000</pubDate>
+<pubDate>Tue, 15 Sep 2026 04:26:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19472,7 +19421,7 @@
 <title>Agents of Chaos: A New $100K Agentic Security Challenge</title>
 <link>https://www.crowdstrike.com/en-us/blog/agents-of-chaos-immersive-ai-security-challenge/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 14 Sep 2026 23:48:19 +0000</pubDate>
+<pubDate>Tue, 15 Sep 2026 04:26:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/agents-of-chaos-immersive-ai-security-challenge/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19481,7 +19430,7 @@
 <title>CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar™: Cloud Workload Protection Platforms</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 14 Sep 2026 23:48:19 +0000</pubDate>
+<pubDate>Tue, 15 Sep 2026 04:26:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19490,7 +19439,7 @@
 <title>Benchmaxxing: When the Benchmark Becomes the Target</title>
 <link>https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 14 Sep 2026 23:48:19 +0000</pubDate>
+<pubDate>Tue, 15 Sep 2026 04:26:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19499,7 +19448,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 14 Sep 2026 23:48:19 +0000</pubDate>
+<pubDate>Tue, 15 Sep 2026 04:26:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
