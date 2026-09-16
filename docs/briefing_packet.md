@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-09-16T00:08:18.392425+00:00
+- Generated: 2026-09-16T05:50:42.732487+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
-- Total items in window: 378
-- Total clusters raw: 185
+- Total items in window: 375
+- Total clusters raw: 188
 - Total clusters in packet: 80
-- Dropped low score: 104
+- Dropped low score: 107
 - Dropped overflow: 1
 
 ## Cohort metadata
@@ -80,76 +80,71 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
   - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
-  - Item count: 10
+  - Item count: 15
   - In window count: 2
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 2
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
@@ -160,6 +155,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
@@ -170,30 +175,25 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
-  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 1
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
   - Status: ok
-  - Item count: 10
+  - Item count: 40
   - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
+  - In window count: 0
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
@@ -204,17 +204,17 @@
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
-  - In window count: 5
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - In window count: 4
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -235,6 +235,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 10
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
@@ -245,26 +250,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 5
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 11
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -275,66 +265,86 @@
   - Status: ok
   - Item count: 20
   - In window count: 6
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
-  - Item count: 10
-  - In window count: 2
+  - Item count: 20
+  - In window count: 0
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 17
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 25
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 1
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -345,31 +355,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 1
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 26
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 21
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -380,6 +380,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -390,18 +395,13 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 50
+  - Item count: 20
+  - In window count: 4
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -410,46 +410,46 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
-  - Item count: 20
-  - In window count: 4
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 24
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 16
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
@@ -519,7 +519,7 @@
   - affected_products: Cisco
   - cve_ids: CVE-2026-76461
   - urgency_signals: zero_day, preauth_unauth, actively_exploited
-- Cluster IDs: bd351f968f, 7d7ea8e2d6, bd90c028bc, 8760c8b22e, 80dafffe01, 090f4bb6cc
+- Cluster IDs: bd351f968f, 7d7ea8e2d6, bd90c028bc, 8760c8b22e, 090f4bb6cc, 80dafffe01
 - Links:
   - https://www.rapid7.com/blog/post/etr-cve-2026-76461-critical-cisco-secure-email-gateway-vulnerability-exploited-in-the-wild
   - https://www.helpnetsecurity.com/2026/09/15/cve-2026-76461-cisco-email-gateway-zero-day-exploited/
@@ -529,8 +529,54 @@
   - https://cyberscoop.com/cisco-secure-email-gateway-zero-day-exploited/
   - https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-goes-to-sixteen
   - https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html
-  - https://www.securityweek.com/texas-utility-centerpoint-energy-confirms-breach-after-hacker-leaks-data/
   - https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/
+  - https://www.securityweek.com/texas-utility-centerpoint-energy-confirms-breach-after-hacker-leaks-data/
+
+### CVE-2026-85880 exploitation (Microsoft Windows)
+- Anchor signal: CVE-2026-85880
+- Theme key: cve-2026-85880
+- Cluster count: 5
+- Article count: 5
+- Cohesion: 0.371
+- Shared strong signals: CVE-2026-85880
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: phishing_social_eng, apt_espionage, active_exploitation, zero_day
+  - actor_attribution: APT31
+  - affected_industries: government, financial_services, education, manufacturing_industrial, aviation_defense
+  - affected_products: Microsoft Windows
+  - cve_ids: CVE-2026-85880, CVE-2026-85046, CVE-2026-87491
+  - urgency_signals: zero_day, no_patch_yet
+- Cluster IDs: 62136c6613, 4177169ade, 44179b1aeb, 28baa2c576, 47ab9f6c84
+- Links:
+  - https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html
+  - https://research.checkpoint.com/2026/14th-september-threat-intelligence-report/
+  - https://www.volexity.com/blog/2026/09/09/mind-the-patch-gap-multiple-chinese-threat-actors-chain-0-day-exploits-in-chrome-windows/
+  - https://www.proofpoint.com/us/newsroom/news/four-groups-caught-using-same-chrome-and-windows-exploit-kit
+  - https://www.proofpoint.com/us/newsroom/news/chinese-espionage-groups-swarm-exploit-triple-link-chain-zero-days
+
+### CVE-2026-87491 exploitation activity
+- Anchor signal: CVE-2026-87491
+- Theme key: cve-2026-87491
+- Cluster count: 4
+- Article count: 4
+- Cohesion: 0.467
+- Shared strong signals: CVE-2026-87491
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: phishing_social_eng, zero_day, active_exploitation, apt_espionage
+  - actor_attribution: APT31
+  - affected_industries: government, education, financial_services
+  - cve_ids: CVE-2026-87491, CVE-2026-85046, CVE-2026-85880
+  - urgency_signals: zero_day
+- Cluster IDs: aa9e62a68c, 62136c6613, 44179b1aeb, 47ab9f6c84
+- Links:
+  - https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html
+  - https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html
+  - https://www.volexity.com/blog/2026/09/09/mind-the-patch-gap-multiple-chinese-threat-actors-chain-0-day-exploits-in-chrome-windows/
+  - https://www.proofpoint.com/us/newsroom/news/chinese-espionage-groups-swarm-exploit-triple-link-chain-zero-days
 
 ### Cl0p: ransomware extortion
 - Anchor signal: Cl0p
@@ -562,58 +608,17 @@
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: data_breach, web_shell_backdoor, phishing_social_eng, zero_day
+  - threat_categories: data_breach, web_shell_backdoor, zero_day, phishing_social_eng
   - affected_industries: financial_services, critical_infrastructure, telecommunications, government
   - affected_products: Fortinet, OpenAI/ChatGPT
   - urgency_signals: zero_day
-- Cluster IDs: e1c81bedc8, 80dafffe01, c1f52c0381, dce6f385ec
+- Cluster IDs: e1c81bedc8, c1f52c0381, 80dafffe01, dce6f385ec
 - Links:
   - https://www.securityweek.com/thai-broadband-provider-hacked-via-fortinet-vulnerability/
   - https://www.team-cymru.com/post/cyber-security-intelligence-edge-device-analysis
-  - https://www.securityweek.com/texas-utility-centerpoint-energy-confirms-breach-after-hacker-leaks-data/
   - https://www.team-cymru.com/post/tracking-orbs-on-singapores-telecommunications-networks
+  - https://www.securityweek.com/texas-utility-centerpoint-energy-confirms-breach-after-hacker-leaks-data/
   - https://www.securityweek.com/240000-hit-by-data-breach-at-japans-digital-agency/
-
-### CVE-2026-87491 exploitation activity
-- Anchor signal: CVE-2026-87491
-- Theme key: cve-2026-87491
-- Cluster count: 3
-- Article count: 3
-- Cohesion: 0.376
-- Shared strong signals: CVE-2026-87491
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: phishing_social_eng, zero_day, active_exploitation
-  - actor_attribution: APT31
-  - affected_industries: government, education
-  - cve_ids: CVE-2026-87491, CVE-2026-85046, CVE-2026-85880
-  - urgency_signals: zero_day
-- Cluster IDs: aa9e62a68c, 62136c6613, 44179b1aeb
-- Links:
-  - https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html
-  - https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html
-  - https://www.volexity.com/blog/2026/09/09/mind-the-patch-gap-multiple-chinese-threat-actors-chain-0-day-exploits-in-chrome-windows/
-
-### CVE-2026-85880 exploitation activity
-- Anchor signal: CVE-2026-85880
-- Theme key: cve-2026-85880
-- Cluster count: 3
-- Article count: 3
-- Cohesion: 0.327
-- Shared strong signals: CVE-2026-85880
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: phishing_social_eng, active_exploitation
-  - actor_attribution: APT31
-  - affected_industries: government, financial_services, education
-  - cve_ids: CVE-2026-85880, CVE-2026-85046, CVE-2026-87491
-- Cluster IDs: 62136c6613, 4177169ade, 44179b1aeb
-- Links:
-  - https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html
-  - https://research.checkpoint.com/2026/14th-september-threat-intelligence-report/
-  - https://www.volexity.com/blog/2026/09/09/mind-the-patch-gap-multiple-chinese-threat-actors-chain-0-day-exploits-in-chrome-windows/
 
 ### ShinyHunters: ransomware extortion
 - Anchor signal: ShinyHunters
@@ -637,26 +642,6 @@
   - https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data
   - https://www.team-cymru.com/post/radar-takes-the-guess-work-out-of-vulnerability-exposure-management
   - https://research.checkpoint.com/2026/14th-september-threat-intelligence-report/
-
-### ransomware extortion targeting Microsoft SharePoint
-- Anchor signal: Microsoft SharePoint
-- Theme key: microsoft-sharepoint
-- Cluster count: 3
-- Article count: 6
-- Cohesion: 0.2
-- Shared strong signals: Microsoft SharePoint
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion, phishing_social_eng, mfa_bypass
-  - affected_products: Microsoft SharePoint
-- Cluster IDs: d8c893e316, ebc72eebc6, 69ed9ca28a
-- Links:
-  - https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure
-  - https://cyberscoop.com/anthropic-report-ai-enabled-cyber-attacks/
-  - https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data
-  - https://www.microsoft.com/en-us/security/blog/2026/09/09/passkey-themed-social-engineering-leads-identity-cloud-compromise/
-  - https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/
 
 ### AWS vulnerability activity
 - Anchor signal: AWS
@@ -730,13 +715,29 @@
   - https://cyberscoop.com/anthropic-report-ai-enabled-cyber-attacks/
   - https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data
 
+### phishing social eng targeting Microsoft SharePoint
+- Anchor signal: Microsoft SharePoint
+- Theme key: microsoft-sharepoint
+- Cluster count: 2
+- Article count: 5
+- Cohesion: 0.2
+- Shared strong signals: Microsoft SharePoint
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: phishing_social_eng, mfa_bypass
+  - affected_products: Microsoft SharePoint
+- Cluster IDs: d8c893e316, ebc72eebc6
+- Links:
+  - https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure
+  - https://cyberscoop.com/anthropic-report-ai-enabled-cyber-attacks/
+  - https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data
+  - https://www.microsoft.com/en-us/security/blog/2026/09/09/passkey-themed-social-engineering-leads-identity-cloud-compromise/
+
 ## Forward signals
 
 ### Novelty
-- Novel cves: 3
-  - CVE-2024-37079 (first seen via BleepingComputer at 2026-09-15T12:16:32+00:00, cluster 69ed9ca28a)
-  - CVE-2025-22225 (first seen via BleepingComputer at 2026-09-15T12:16:32+00:00, cluster 69ed9ca28a)
-  - CVE-2026-22719 (first seen via BleepingComputer at 2026-09-15T12:16:32+00:00, cluster 69ed9ca28a)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
@@ -808,19 +809,19 @@
 - actor_attribution: UNC6661 (weeks observed: 4, cluster d8c893e316)
 - cve_ids: CVE-2026-72898 (weeks observed: 4, cluster 4177169ade)
 - actor_attribution: RansomHub (weeks observed: 4, cluster fc5c9992d3)
-- cve_ids: CVE-2026-59310 (weeks observed: 4, cluster 69ed9ca28a)
 - cve_ids: CVE-2026-87491 (weeks observed: 3, cluster aa9e62a68c)
 - cve_ids: CVE-2026-39987 (weeks observed: 3, cluster c7cbf0a5fd)
 - cve_ids: CVE-2026-69414 (weeks observed: 3, cluster cccc588c10)
 - cve_ids: CVE-2026-85046 (weeks observed: 3, cluster 62136c6613)
 - actor_attribution: UNC6240 (weeks observed: 3, cluster d8c893e316)
 - actor_attribution: Volt Typhoon (weeks observed: 3, cluster b9771fe2d2)
+- cve_ids: CVE-2026-81578 (weeks observed: 3, cluster 07cc5231d1)
 
 ### Tier inversion (0)
 
 ## Clusters
 
-### Cluster bd351f968f — score 49
+### Cluster bd351f968f — score 48
 
 - Title: CVE-2026-76461: Critical Cisco Secure Email Gateway Vulnerability Exploited in the Wild
 - Source: Rapid7 (offensive_vulnerability_research)
@@ -1166,7 +1167,7 @@ Acronis warns of actively exploited flaw in its cPanel backup plugin By Bill Tou
   - Link: https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html
   - Summary: cPanel has patched a flaw that it says lets a single hosting account take control of an entire server. An authenticated account holder with mail-related privileges can create files of their choosing on the server through EmailTrack and, from there, run code as the root user. cPanel published the advisory on September 8 and says every supported version of cPanel and WHM is affected.
 
-### Cluster 7d7ea8e2d6 — score 21
+### Cluster 7d7ea8e2d6 — score 20
 
 - Title: Cisco warns customers of actively exploited zero-day in email gateways
 - Source: CyberScoop (cyber_news_breach_reporting)
@@ -1360,16 +1361,16 @@ OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers 
   - Published: 2026-09-09T11:00:00+00:00
   - Link: https://blog.trailofbits.com/2026/09/09/a-proof-of-fermats-last-theorem-that-fits-the-margin/
   - Summary: Fermat famously claimed to have a “truly marvelous proof” of his Last Theorem , but he never wrote it down, insisting the margin of his page was too narrow to contain it. A few centuries later, Anthropic announced a complete formalization of Fermat’s Last Theorem using 13 million lines of Lean code (clearly not what Fermat intended). Luckily, we found a wonderfully cursed Lean bug , shown below, that suggests the proof may have fit the margin after all. The issue affects all stable versions of Lean up to 4.33.1, and the patch is incorporated in v4.34.0-rc1. A “checked” proof of Fermat’s Last Theorem using Lean 4.33.1 The blue checkmarks in the screenshot above would suggest that Lean considers this proof correct. This seems odd given the amount of work Sir Andrew Wiles put into this problem and the vast size of Claude’s proof. So what is going on? The “proof” clearly doesn’t make any sense and exploits an issue in Lean. We found the issue while using GPT-5.6 to experiment with a new sk
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: OpenAI Investigates Report Linking AI Agents to RubyGems Attack
-  - Published: 2026-09-15T12:42:32+00:00
-  - Link: https://www.securityweek.com/openai-investigates-report-linking-ai-agents-to-rubygems-attack/
-  - Summary: The incident occurred in May, when RubyGems maintainers suspended new account registrations due to what appeared like malicious activity. The post OpenAI Investigates Report Linking AI Agents to RubyGems Attack appeared first on SecurityWeek .
 - **Simon Willison** (ai_security_agentic_risk)
   - Title: OpenAI agents attacked RubyGems back in May
   - Published: 2026-09-12T00:42:25+00:00
   - Link: https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/
   - Summary: OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the report on the agent attack on disused wikis ( previously ) last week. This time they're noting that it looks very likely that an OpenAI agent swarm was behind an attack against the RubyGems package repository first reported on May 12th by Maciej Mensfeld of the RubyGems security team : We're dealing with a major malicious attack on @rubygems right now. Signups are paused for the time being. Hundreds of packages involved - mostly targeting us, but some carrying exploits. The team has been on this for hours. More details to follow once we're through it. Those packages turned out to carry some very suspicious patterns: Many of them included "oai" in their name, or the author field, or the fake email address they provided. The files they were accessing were similar in character to the files retrieved by the wiki agent
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: OpenAI Investigates Report Linking AI Agents to RubyGems Attack
+  - Published: 2026-09-15T12:42:32+00:00
+  - Link: https://www.securityweek.com/openai-investigates-report-linking-ai-agents-to-rubygems-attack/
+  - Summary: The incident occurred in May, when RubyGems maintainers suspended new account registrations due to what appeared like malicious activity. The post OpenAI Investigates Report Linking AI Agents to RubyGems Attack appeared first on SecurityWeek .
 - **Schneier on Security** (practitioner_analysis)
   - Title: Microsoft’s Patching
   - Published: 2026-09-14T11:03:26+00:00
@@ -1743,53 +1744,6 @@ Vulnerabilities & Threats Application Security Cyber Risk Cybersecurity Operatio
   - Link: https://www.darkreading.com/vulnerabilities-threats/bhusa26huggingfacetalk
   - Summary: The 'Breaking' News: The OpenAI–Hugging Face Incident - A Technical Reconstruction and Its Implications for AI At this Black Hat USA 2026 talk, OpenAI security engineers and researchers will reconstruct the OpenAI-Hugging Face incident and examine its implications for AI security, cyber resilience, and alignment. Throughout the session, they will share insights that address key topics raised by the Black Hat Review Board, including model safeguards, evaluation and containment practices, defensive use cases for AI, and the broader implications of increasingly autonomous systems for the cybersecurity community. The session will trace the models' attack path, including how frontier models are sandboxed during evaluations, how the models exploited a zero-day vulnerability to gain internet access, and how they identified and leveraged a remote code execution path on Hugging Face infrastructure. Drawing on the joint investigation, the speakers will explain how the activity was detected, cont
 
-### Cluster 62136c6613 — score 13
-
-- Title: Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-09-09T16:34:05+00:00
-- Link: https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: APT31
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, apt_espionage, phishing_social_eng
-- actor_attribution: APT31
-- affected_industries: government
-- cve_ids: CVE-2026-85046, CVE-2026-85880, CVE-2026-87491
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, apt_espionage, active_exploitation
-- actor_attribution: APT31
-- affected_industries: government
-- cve_ids: CVE-2026-85046, CVE-2026-87491, CVE-2026-85880
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows and Google Chrome. The first in-the-wild use of BlueMoon has been attributed to the China-aligned state-sponsored group tracked as APT31 (aka Bronze Vinewood, Judgement Panda, JungleBamboo,
-```
-
-#### Full body
-
-```
-Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week  Ravie Lakshmanan  Sep 09, 2026 Vulnerability / Cyber Espionage Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows and Google Chrome. The first in-the-wild use of BlueMoon has been attributed to the China-aligned state-sponsored group tracked as APT31 (aka Bronze Vinewood, Judgement Panda, JungleBamboo, PerplexedGoblin, RedBravo, TA412, Tide Castle, and Violet Typhoon) on August 28, 2026. "Within days, several other espionage-motivated clusters began using BlueMoon, the majority of which have a suspected China nexus," Proofpoint said in a report published today. "However, BlueMoon may not be exclusive to China-aligned actors, as some usage remains unattributed and there are also potentially more actors using the exploit kit." The exploit chain employs three vulnerabilities - CVE-2026-85046 , a type confusion in V8 in Google Chrome CVE-2026-87491 , an out-of-bounds bug in V8 in Google Chrome that can lead to a sandbox escape CVE-2026-85880 , a heap-based buffer overflow vulnerability in Windows Advanced Local Procedure Call (ALPC) While CVE-2026-85046 was patched by Google last week, CVE-2026-85880 was addressed by Microsoft as part of its September 2026 Patch Tuesday updates. Proofpoint told The Hacker News that Google, despite currently not issuing CVEs for V8 sandbox escapes, has assigned one for this specific flaw under CVE-2026-87491. A patch for the security defect was released by Google on September 8, 2026. Interestingly, both V8 vulnerabilities in Chrome are said to have been "patch-gap" zero-days at the time they were maliciously exploited. The enterprise security company said the flaws had already been fixed in public upstream Chromium source code, but were yet to be propagated to the latest stable releases of Chrome and Chromium-based browsers available. It's suspected that the developer behind the exploit kit may have been closely keeping track of publicly available Chromium patches to put together the browser exploit chain. Attack chains making use of BlueMoon have been found to rely on phishing emails as a starting point to trick targets into visiting an actor-controlled URL that triggers the two V8 flaws in succession to achieve code execution and escape the browser sandbox, and then exploit the Windows local privilege escalation bug to inject shellcode that downloads multiple payloads depending on the threat cluster behind it. "Following the Chrome exploits, the kit uses a reflectively loaded DLL to fingerprint the Windows host, which the exploit kit JavaScript uses to decide whether to attempt the LPE exploit," Proofpoint researchers Mark Kelly, Greg Lesnewich, Konstantin Klinger, Saher Naumaan, Julia Paluch, David Galazin, and Stuart Del Caliz said. "A second reflectively loaded DLL runs the LPE exploit to elevate the renderer process. With those additional privileges, a separate injector shellcode injects a CreateProcess stub into the parent Chrome broker process, executing an operator-specified command. The default command downloads a remotely hosted executable via a curl command and executes it." Multiple variants of the exploit kit have been detected with subtle changes that removed comments or obfuscated its components, while others incorporate campaign-specific landing pages and redirects, browser-side operating system checks, or additional telemetry. Despite these modifications, the underlying exploit chain remains the same. A brief description of the observed attack chains is as follows - APT31 (Beginning on August 28, 2026), which used spear-phishing lures to target non-governmental organizations (NGOs), mining companies, and physical commodity trading firms in the U.S. to trick victims into clicking on a malicious link that serves BlueMoon, which then downloads and runs a load
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week
-  - Published: 2026-09-09T16:34:05+00:00
-  - Link: https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html
-  - Summary: Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows and Google Chrome. The first in-the-wild use of BlueMoon has been attributed to the China-aligned state-sponsored group tracked as APT31 (aka Bronze Vinewood, Judgement Panda, JungleBamboo,
-
 ### Cluster 76bb72a333 — score 13
 
 - Title: Microsoft Releases Emergency Patch to Fix RDS Vulnerability
@@ -1837,6 +1791,53 @@ Infosecurity Magazine Home » News » Microsoft Releases Emergency Patch to Fix 
   - Link: https://www.infosecurity-magazine.com/news/microsoft-releases-emergency-patch/
   - Summary: Microsoft has been forced to issue an out-of-band fix for several issues stemming from this month’s Patch Tuesday
 
+### Cluster 62136c6613 — score 13
+
+- Title: Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-09-09T16:34:05+00:00
+- Link: https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: APT31
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, apt_espionage, phishing_social_eng
+- actor_attribution: APT31
+- affected_industries: government
+- cve_ids: CVE-2026-85046, CVE-2026-85880, CVE-2026-87491
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, apt_espionage, active_exploitation
+- actor_attribution: APT31
+- affected_industries: government
+- cve_ids: CVE-2026-85046, CVE-2026-87491, CVE-2026-85880
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows and Google Chrome. The first in-the-wild use of BlueMoon has been attributed to the China-aligned state-sponsored group tracked as APT31 (aka Bronze Vinewood, Judgement Panda, JungleBamboo,
+```
+
+#### Full body
+
+```
+Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week  Ravie Lakshmanan  Sep 09, 2026 Vulnerability / Cyber Espionage Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows and Google Chrome. The first in-the-wild use of BlueMoon has been attributed to the China-aligned state-sponsored group tracked as APT31 (aka Bronze Vinewood, Judgement Panda, JungleBamboo, PerplexedGoblin, RedBravo, TA412, Tide Castle, and Violet Typhoon) on August 28, 2026. "Within days, several other espionage-motivated clusters began using BlueMoon, the majority of which have a suspected China nexus," Proofpoint said in a report published today. "However, BlueMoon may not be exclusive to China-aligned actors, as some usage remains unattributed and there are also potentially more actors using the exploit kit." The exploit chain employs three vulnerabilities - CVE-2026-85046 , a type confusion in V8 in Google Chrome CVE-2026-87491 , an out-of-bounds bug in V8 in Google Chrome that can lead to a sandbox escape CVE-2026-85880 , a heap-based buffer overflow vulnerability in Windows Advanced Local Procedure Call (ALPC) While CVE-2026-85046 was patched by Google last week, CVE-2026-85880 was addressed by Microsoft as part of its September 2026 Patch Tuesday updates. Proofpoint told The Hacker News that Google, despite currently not issuing CVEs for V8 sandbox escapes, has assigned one for this specific flaw under CVE-2026-87491. A patch for the security defect was released by Google on September 8, 2026. Interestingly, both V8 vulnerabilities in Chrome are said to have been "patch-gap" zero-days at the time they were maliciously exploited. The enterprise security company said the flaws had already been fixed in public upstream Chromium source code, but were yet to be propagated to the latest stable releases of Chrome and Chromium-based browsers available. It's suspected that the developer behind the exploit kit may have been closely keeping track of publicly available Chromium patches to put together the browser exploit chain. Attack chains making use of BlueMoon have been found to rely on phishing emails as a starting point to trick targets into visiting an actor-controlled URL that triggers the two V8 flaws in succession to achieve code execution and escape the browser sandbox, and then exploit the Windows local privilege escalation bug to inject shellcode that downloads multiple payloads depending on the threat cluster behind it. "Following the Chrome exploits, the kit uses a reflectively loaded DLL to fingerprint the Windows host, which the exploit kit JavaScript uses to decide whether to attempt the LPE exploit," Proofpoint researchers Mark Kelly, Greg Lesnewich, Konstantin Klinger, Saher Naumaan, Julia Paluch, David Galazin, and Stuart Del Caliz said. "A second reflectively loaded DLL runs the LPE exploit to elevate the renderer process. With those additional privileges, a separate injector shellcode injects a CreateProcess stub into the parent Chrome broker process, executing an operator-specified command. The default command downloads a remotely hosted executable via a curl command and executes it." Multiple variants of the exploit kit have been detected with subtle changes that removed comments or obfuscated its components, while others incorporate campaign-specific landing pages and redirects, browser-side operating system checks, or additional telemetry. Despite these modifications, the underlying exploit chain remains the same. A brief description of the observed attack chains is as follows - APT31 (Beginning on August 28, 2026), which used spear-phishing lures to target non-governmental organizations (NGOs), mining companies, and physical commodity trading firms in the U.S. to trick victims into clicking on a malicious link that serves BlueMoon, which then downloads and runs a load
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week
+  - Published: 2026-09-09T16:34:05+00:00
+  - Link: https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html
+  - Summary: Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows and Google Chrome. The first in-the-wild use of BlueMoon has been attributed to the China-aligned state-sponsored group tracked as APT31 (aka Bronze Vinewood, Judgement Panda, JungleBamboo,
+
 ### Cluster aaf3283e67 — score 12
 
 - Title: Follow the Money: The Financial Sector's Threat Landscape in 2026
@@ -1883,101 +1884,6 @@ Follow the Money: The Financial Sector's Threat Landscape in 2026 Sep 10, 2026 A
   - Published: 2026-09-10T18:45:00+00:00
   - Link: https://www.intel471.com/blog/follow-the-money-the-financial-sectors-threat-landscape-in-2026
   - Summary: The financial sector moves trillions of dollars a day, making it one of the most heavily targeted industries in the world. Intel 471's latest report breaks down the threat landscape facing financial institutions, from ransomware and extortion groups to initial access brokers, nation-state activity and insider risks.
-
-### Cluster e94abae528 — score 12
-
-- Title: From the Disk to the Flows: Ransomware Infrastructure Analysis
-- Source: Team Cymru (ransomware_ecrime_financial_crime)
-- Published: 2026-09-15T14:14:29+00:00
-- Link: https://www.team-cymru.com/post/ransomware-infrastructure-analysis
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 1
-- Strong signals: Cl0p
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
-- actor_attribution: Cl0p
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- actor_attribution: Cl0p
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-A year of incident response data reveals how Akira, DragonForce & Clop build ransomware infrastructure — and how defenders can hunt it.
-```
-
-#### Full body
-
-```
-Will Thomas 4 min read September 15, 2026 From the Disk to the Flows: Ransomware Infrastructure Analysis Since April 2025, Team Cymru has worked with a digital forensics and incident response (DFIR) company on more than 20 ransomware investigations, predominantly impacting small-to-medium-sized enterprises located in the United Kingdom. For each investigation, our trusted partner shared live indicators of compromise (IOCs) they uncovered from manual host-based forensic analysis as the incidents were ongoing to provide Team Cymru with the best opportunity to analyze and track the operators in our global netflow data and internet telemetry. Using all of the IOCs provided by our trusted partner, Team Cymru analyzed the IP address attributes and NetFlow communications. This led us to identify useful trends in hosting, services used, protocols, and software leveraged by multiple ransomware gangs. The reason these IOCs are particularly valuable is that Team Cymru can then build detection rules and tags for detecting ransomware infrastructure to help our community of defenders prevent attacks. Ransomware Gangs Tracked Our trusted partner can respond to up to 50 ransomware incidents per year from a range of ransomware gangs. For this research, Team Cymru analyzed the infrastructure used by Akira, DragonForce, Clop, MedusaLocker, Qilin, INC Ransom, and Lynx over the course of one year, from April 2025 to April 2026. Figure 1: Number of IPs analyzed per ransomware gang. Data Exfiltration Technique Trends Before encrypting the systems of a victim, most ransomware gangs will steal the data beforehand to extort the victim into paying the ransom for not only the decryption keys but also to prevent the release of the stolen data publicly via their Tor data leak sites. Through forensic analysis, our trusted partner tracked and identified multiple techniques utilized by the ransomware gangs they encountered across various engagements. The diagram below (see Figure 2) shows the distribution of techniques across the various ransomware gangs. Tools such as Rclone and FileZilla are some of the most commonly used for data exfiltration used by a wide variety of gangs, as shown in the Ransomware Tool Matrix here . Figure 2: Data exfiltration technique distribution across ransomware gangs. Notably, Akira has the highest variety of techniques, overlapping with techniques utilized by other gangs. This could be due to a number of factors. One hypothesis is that, as Akira is one of the most active threats with the highest number of victims posted to their Tor data leak site, this variety of techniques could be an indicator that highlights their experience as operators to change their approach based on the breadth of target environments they are able to infiltrate. Another hypothesis could be that Akira has numerous operators working for them who prefer their own techniques that they are used to using to achieve their objectives. IP Tag Classification Trends Analysis of the IP Tag classification by Team Cymru also yielded interesting results (see Figure 3 below). Across 10 of the IP addresses used for data exfiltration by four of the ransomware gangs, Team Cymru already had Tags developed that identified them all as a potential concern, which, if observed in any type of outbound data transfer activity, would be a cause for concern. Figure 3: Distribution of Team Cymru Tags across IP addresses utilized by ransomware gangs. Explanation of the following proprietary Tags developed by Team Cymru’s Threat Detection Team: ● Risknet: Risky networks are tagged with the "risknet" tag. This tag is used to identify IP addresses belonging to hosting providers that have been associated with an elevated level of suspicious and/or malicious behavior such as scanning, exploitation, brute-forcing, and malware hosting. ● Socks Proxy: A standard internet protocol that exchanges network packets between a client and server through a proxy server, routing traffic through a speci
-```
-
-#### Corroborating sources (1)
-
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - Title: From the Disk to the Flows: Ransomware Infrastructure Analysis
-  - Published: 2026-09-15T14:14:29+00:00
-  - Link: https://www.team-cymru.com/post/ransomware-infrastructure-analysis
-  - Summary: A year of incident response data reveals how Akira, DragonForce & Clop build ransomware infrastructure — and how defenders can hunt it.
-
-### Cluster e1c81bedc8 — score 12
-
-- Title: Thai Broadband Provider Hacked via Fortinet Vulnerability
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-09-15T13:33:58+00:00
-- Link: https://www.securityweek.com/thai-broadband-provider-hacked-via-fortinet-vulnerability/
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 2
-- Strong signals: Fortinet
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, web_shell_backdoor
-- affected_industries: critical_infrastructure, financial_services, telecommunications
-- affected_products: F5 BIG-IP, Fortinet, Ivanti
-- cve_ids: CVE-2018-13379, CVE-2021-22986, CVE-2022-42475, CVE-2023-27997, CVE-2024-21762
-- content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach, web_shell_backdoor
-- affected_industries: financial_services, critical_infrastructure, telecommunications
-- affected_products: Fortinet, F5 BIG-IP
-- cve_ids: CVE-2018-13379, CVE-2022-42475, CVE-2023-27997, CVE-2024-21762, CVE-2021-22986
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The hackers staged numerous scripts for reconnaissance and CVE probing, along with brute-force utilities and privilege escalation tools. The post Thai Broadband Provider Hacked via Fortinet Vulnerability appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-A threat actor targeted multiple vulnerabilities in Fortinet and F5 products to gain access to Thai broadband provider 3BB’s systems, Hunt.io reports. The attack was discovered after the hackers left their intrusion arsenal in an open directory hosted on infrastructure in Thailand. The directory contained 298 files across 30 subdirectories: multiple exploitation scripts, brute-force and privilege escalation tools, credential harvesting scripts, an inventory of compromised machines, and a MeshCentral instance agent configured as a persistent backdoor. “The files were tagged across operational categories such as Exploit, Victim, Config, and History, consistent with an active staging environment,” Hunt.io notes . The tools, the cybersecurity firm says, were crafted specifically for 3BB (Triple T Broadband), one of the largest providers of fixed-line broadband services in Thailand, with millions of users, and Jasmine, the company that previously owned Triple T Broadband. Initial access was obtained through careful fingerprinting of a FortiGate SSL-VPN endpoint using eight shell scripts designed to determine the appliance’s firmware version, probe for vulnerabilities, and deploy exploits. Advertisement. Scroll to continue reading. The attackers scanned for bugs such as CVE-2018-13379 , CVE-2022-42475, CVE-2023-27997, and CVE-2024-21762 , confirmed the instance’s firmware version, and deployed an exploit targeting CVE-2024-21762 to achieve remote code execution (RCE). Simultaneously, the threat actor executed a reconnaissance operation against the victim’s F5 BIG-IP instance, probing for multiple vulnerabilities, including CVE-2021-22986 , CVE-2022-1388 , and CVE-2023-46747 , and against 3BB’s internal sales agent portal, running behind the load balancer. Following initial access, the hackers attempted to gain root privileges on multiple Linux systems using PwnKit and Dirty COW exploits and a dedicated SUID backdoor installer. “After successful host compromise, the actor established persistent remote access using MeshCentral as a command-and-control (C&C) platform for remote administration,” Hunt.io says. Next, the attackers used various scripts for host discovery, remote access, and credential harvesting to move laterally across the internal 3BB environment. They attempted to extract SSH keys, PHP configurations, database credentials, SNMP community strings, and Radius authentication data, and to perform passwordless MySQL authentication against internal databases. Additionally, the threat actor used two scripts “to read sensitive files, deploy PHP web shells, inject SSH keys, and modify database privileges, providing multiple mechanisms for persistence and lateral movement across the environment,” Hunt.io notes. Finally, the attackers executed a script designed to remove artifacts associated with vulnerability exploitation and backdoor deployment, along with the PHP web shells, MeshCentral deployment scripts, and system logs. “The script concludes by verifying that persistence mechanisms remain operational, including checking the hidden SUID binary and confirming the MeshCentral service is still running. This demonstrates that the cleanup process was intended to conceal the intrusion while ensuring continued remote access to compromised systems,” Hunt.io says. Related: 240,000 Hit by Data Breach at Japan’s Digital Agency Related: Three JFrog Artifactory Flaws Exploited for Backdoor Deployment Related: BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days Related: PaperCut Flaws Exploited in AI-Powered Attacks Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Hacked HBO Max Reddit Account Used for Malware Delivery via ClickFix Attack Personal, Financial Info Exposed in Revolut Data Breach Chinese Hackers Exploit Critical Tenc
-```
-
-#### Corroborating sources (2)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Thai Broadband Provider Hacked via Fortinet Vulnerability
-  - Published: 2026-09-15T13:33:58+00:00
-  - Link: https://www.securityweek.com/thai-broadband-provider-hacked-via-fortinet-vulnerability/
-  - Summary: The hackers staged numerous scripts for reconnaissance and CVE probing, along with brute-force utilities and privilege escalation tools. The post Thai Broadband Provider Hacked via Fortinet Vulnerability appeared first on SecurityWeek .
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - Title: Cyber Security Intelligence: Analysis of Edge Devices Amid Growing Vulnerabilities
-  - Published: 2026-09-11T13:27:34+00:00
-  - Link: https://www.team-cymru.com/post/cyber-security-intelligence-edge-device-analysis
-  - Summary: Cisco, Ivanti & Fortinet edge device attacks are rising. Read our cybersecurity intelligence on cybersecurity trends and attack patterns.
 
 ### Cluster d8c893e316 — score 12
 
@@ -2119,6 +2025,49 @@ Simon Willison’s Weblog Subscribe Sponsored by: WorkOS — auth.md by WorkOS: 
   - Published: 2026-09-10T00:56:41+00:00
   - Link: https://simonwillison.net/2026/Sep/10/calif-research/
   - Summary: Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...] Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took one more week. A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here. Our team provided the judgment about what to target and how to test it safely. — Calif Research , WeWorm Tags: ai-security-research , ai , llms , security , generative-ai
+
+### Cluster e94abae528 — score 11
+
+- Title: From the Disk to the Flows: Ransomware Infrastructure Analysis
+- Source: Team Cymru (ransomware_ecrime_financial_crime)
+- Published: 2026-09-15T14:14:29+00:00
+- Link: https://www.team-cymru.com/post/ransomware-infrastructure-analysis
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 1
+- Strong signals: Cl0p
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion
+- actor_attribution: Cl0p
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach
+- actor_attribution: Cl0p
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+A year of incident response data reveals how Akira, DragonForce & Clop build ransomware infrastructure — and how defenders can hunt it.
+```
+
+#### Full body
+
+```
+Will Thomas 4 min read September 15, 2026 From the Disk to the Flows: Ransomware Infrastructure Analysis Since April 2025, Team Cymru has worked with a digital forensics and incident response (DFIR) company on more than 20 ransomware investigations, predominantly impacting small-to-medium-sized enterprises located in the United Kingdom. For each investigation, our trusted partner shared live indicators of compromise (IOCs) they uncovered from manual host-based forensic analysis as the incidents were ongoing to provide Team Cymru with the best opportunity to analyze and track the operators in our global netflow data and internet telemetry. Using all of the IOCs provided by our trusted partner, Team Cymru analyzed the IP address attributes and NetFlow communications. This led us to identify useful trends in hosting, services used, protocols, and software leveraged by multiple ransomware gangs. The reason these IOCs are particularly valuable is that Team Cymru can then build detection rules and tags for detecting ransomware infrastructure to help our community of defenders prevent attacks. Ransomware Gangs Tracked Our trusted partner can respond to up to 50 ransomware incidents per year from a range of ransomware gangs. For this research, Team Cymru analyzed the infrastructure used by Akira, DragonForce, Clop, MedusaLocker, Qilin, INC Ransom, and Lynx over the course of one year, from April 2025 to April 2026. Figure 1: Number of IPs analyzed per ransomware gang. Data Exfiltration Technique Trends Before encrypting the systems of a victim, most ransomware gangs will steal the data beforehand to extort the victim into paying the ransom for not only the decryption keys but also to prevent the release of the stolen data publicly via their Tor data leak sites. Through forensic analysis, our trusted partner tracked and identified multiple techniques utilized by the ransomware gangs they encountered across various engagements. The diagram below (see Figure 2) shows the distribution of techniques across the various ransomware gangs. Tools such as Rclone and FileZilla are some of the most commonly used for data exfiltration used by a wide variety of gangs, as shown in the Ransomware Tool Matrix here . Figure 2: Data exfiltration technique distribution across ransomware gangs. Notably, Akira has the highest variety of techniques, overlapping with techniques utilized by other gangs. This could be due to a number of factors. One hypothesis is that, as Akira is one of the most active threats with the highest number of victims posted to their Tor data leak site, this variety of techniques could be an indicator that highlights their experience as operators to change their approach based on the breadth of target environments they are able to infiltrate. Another hypothesis could be that Akira has numerous operators working for them who prefer their own techniques that they are used to using to achieve their objectives. IP Tag Classification Trends Analysis of the IP Tag classification by Team Cymru also yielded interesting results (see Figure 3 below). Across 10 of the IP addresses used for data exfiltration by four of the ransomware gangs, Team Cymru already had Tags developed that identified them all as a potential concern, which, if observed in any type of outbound data transfer activity, would be a cause for concern. Figure 3: Distribution of Team Cymru Tags across IP addresses utilized by ransomware gangs. Explanation of the following proprietary Tags developed by Team Cymru’s Threat Detection Team: ● Risknet: Risky networks are tagged with the "risknet" tag. This tag is used to identify IP addresses belonging to hosting providers that have been associated with an elevated level of suspicious and/or malicious behavior such as scanning, exploitation, brute-forcing, and malware hosting. ● Socks Proxy: A standard internet protocol that exchanges network packets between a client and server through a proxy server, routing traffic through a speci
+```
+
+#### Corroborating sources (1)
+
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - Title: From the Disk to the Flows: Ransomware Infrastructure Analysis
+  - Published: 2026-09-15T14:14:29+00:00
+  - Link: https://www.team-cymru.com/post/ransomware-infrastructure-analysis
+  - Summary: A year of incident response data reveals how Akira, DragonForce & Clop build ransomware infrastructure — and how defenders can hunt it.
 
 ### Cluster b9771fe2d2 — score 11
 
@@ -2392,6 +2341,58 @@ PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws 
   - Link: https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html
   - Summary: PaperCut on Thursday released a new security maintenance release that replaces all previously published emergency patches that were pushed to address two security flaws that have come under active exploitation. The software development company said PaperCut NG/MF versions 26.0.5, 25.0.13 and 24.1.10 are now available for customers to download. "These are Regular Maintenance Releases (MR) that
 
+### Cluster e1c81bedc8 — score 11
+
+- Title: Thai Broadband Provider Hacked via Fortinet Vulnerability
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-09-15T13:33:58+00:00
+- Link: https://www.securityweek.com/thai-broadband-provider-hacked-via-fortinet-vulnerability/
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 2
+- Strong signals: Fortinet
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, web_shell_backdoor
+- affected_industries: critical_infrastructure, financial_services, telecommunications
+- affected_products: F5 BIG-IP, Fortinet, Ivanti
+- cve_ids: CVE-2018-13379, CVE-2021-22986, CVE-2022-42475, CVE-2023-27997, CVE-2024-21762
+- content_type: news_report, vulnerability_disclosure
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach, web_shell_backdoor
+- affected_industries: financial_services, critical_infrastructure, telecommunications
+- affected_products: Fortinet, F5 BIG-IP
+- cve_ids: CVE-2018-13379, CVE-2022-42475, CVE-2023-27997, CVE-2024-21762, CVE-2021-22986
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The hackers staged numerous scripts for reconnaissance and CVE probing, along with brute-force utilities and privilege escalation tools. The post Thai Broadband Provider Hacked via Fortinet Vulnerability appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+A threat actor targeted multiple vulnerabilities in Fortinet and F5 products to gain access to Thai broadband provider 3BB’s systems, Hunt.io reports. The attack was discovered after the hackers left their intrusion arsenal in an open directory hosted on infrastructure in Thailand. The directory contained 298 files across 30 subdirectories: multiple exploitation scripts, brute-force and privilege escalation tools, credential harvesting scripts, an inventory of compromised machines, and a MeshCentral instance agent configured as a persistent backdoor. “The files were tagged across operational categories such as Exploit, Victim, Config, and History, consistent with an active staging environment,” Hunt.io notes . The tools, the cybersecurity firm says, were crafted specifically for 3BB (Triple T Broadband), one of the largest providers of fixed-line broadband services in Thailand, with millions of users, and Jasmine, the company that previously owned Triple T Broadband. Initial access was obtained through careful fingerprinting of a FortiGate SSL-VPN endpoint using eight shell scripts designed to determine the appliance’s firmware version, probe for vulnerabilities, and deploy exploits. Advertisement. Scroll to continue reading. The attackers scanned for bugs such as CVE-2018-13379 , CVE-2022-42475, CVE-2023-27997, and CVE-2024-21762 , confirmed the instance’s firmware version, and deployed an exploit targeting CVE-2024-21762 to achieve remote code execution (RCE). Simultaneously, the threat actor executed a reconnaissance operation against the victim’s F5 BIG-IP instance, probing for multiple vulnerabilities, including CVE-2021-22986 , CVE-2022-1388 , and CVE-2023-46747 , and against 3BB’s internal sales agent portal, running behind the load balancer. Following initial access, the hackers attempted to gain root privileges on multiple Linux systems using PwnKit and Dirty COW exploits and a dedicated SUID backdoor installer. “After successful host compromise, the actor established persistent remote access using MeshCentral as a command-and-control (C&C) platform for remote administration,” Hunt.io says. Next, the attackers used various scripts for host discovery, remote access, and credential harvesting to move laterally across the internal 3BB environment. They attempted to extract SSH keys, PHP configurations, database credentials, SNMP community strings, and Radius authentication data, and to perform passwordless MySQL authentication against internal databases. Additionally, the threat actor used two scripts “to read sensitive files, deploy PHP web shells, inject SSH keys, and modify database privileges, providing multiple mechanisms for persistence and lateral movement across the environment,” Hunt.io notes. Finally, the attackers executed a script designed to remove artifacts associated with vulnerability exploitation and backdoor deployment, along with the PHP web shells, MeshCentral deployment scripts, and system logs. “The script concludes by verifying that persistence mechanisms remain operational, including checking the hidden SUID binary and confirming the MeshCentral service is still running. This demonstrates that the cleanup process was intended to conceal the intrusion while ensuring continued remote access to compromised systems,” Hunt.io says. Related: 240,000 Hit by Data Breach at Japan’s Digital Agency Related: Three JFrog Artifactory Flaws Exploited for Backdoor Deployment Related: BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days Related: PaperCut Flaws Exploited in AI-Powered Attacks Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Hacked HBO Max Reddit Account Used for Malware Delivery via ClickFix Attack Personal, Financial Info Exposed in Revolut Data Breach Chinese Hackers Exploit Critical Tenc
+```
+
+#### Corroborating sources (2)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Thai Broadband Provider Hacked via Fortinet Vulnerability
+  - Published: 2026-09-15T13:33:58+00:00
+  - Link: https://www.securityweek.com/thai-broadband-provider-hacked-via-fortinet-vulnerability/
+  - Summary: The hackers staged numerous scripts for reconnaissance and CVE probing, along with brute-force utilities and privilege escalation tools. The post Thai Broadband Provider Hacked via Fortinet Vulnerability appeared first on SecurityWeek .
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - Title: Cyber Security Intelligence: Analysis of Edge Devices Amid Growing Vulnerabilities
+  - Published: 2026-09-11T13:27:34+00:00
+  - Link: https://www.team-cymru.com/post/cyber-security-intelligence-edge-device-analysis
+  - Summary: Cisco, Ivanti & Fortinet edge device attacks are rising. Read our cybersecurity intelligence on cybersecurity trends and attack patterns.
+
 ### Cluster 0a6ef11865 — score 10
 
 - Title: Untracked Nightmares: The Threats Hiding Behind Commodity Infrastructure
@@ -2484,94 +2485,6 @@ Share Link copied to clipboard! Tags Social engineering Content types Research P
   - Published: 2026-09-09T17:41:18+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/09/09/passkey-themed-social-engineering-leads-identity-cloud-compromise/
   - Summary: Passkey-themed social engineering is being used to compromise identities and enable broader cloud attacks. Learn how threat actors establish MFA persistence, abuse Microsoft Graph for reconnaissance, and access SharePoint, OneDrive, and email data, along with key detection and mitigation guidance. The post Passkey-themed social engineering leads to identity and cloud compromise appeared first on Microsoft Security Blog .
-
-### Cluster d747019c3b — score 10
-
-- Title: Iranian cyber targeting of dissidents, activists and journalists
-- Source: NCSC UK (government_authoritative)
-- Published: 2026-09-15T12:00:00+00:00
-- Link: https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: government
-- attack_techniques: T1204.002, T1566.003, T1589
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: government
-- attack_techniques: T1204.002, T1566.003, T1589
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-Advisory on CHOSEN BRICK malware, including technical analysis and advice to help individuals and organisations protect themselves.
-```
-
-#### Full body
-
-```
-News Download & print article PDF Download & print article PDF Iranian cyber targeting of dissidents, activists and journalists Advisory on CHOSEN BRICK malware, including technical analysis and advice to help individuals and organisations protect themselves. On this page Introduction Attack chain analysis Delivery and exploitation Installation Action on objectives Investigating potential compromise Mitigations Contact MITRE ATT&CK® Introduction CHOSEN BRICK is a malware family that has been used to target individuals around the world including in the UK, US and the Netherlands from at least 2025. CHOSEN BRICK enables Iranian state cyber actors to collect information on a target’s contacts, emails and social media messages, which could enable tracking of their movements. Iran almost certainly uses cyber activity to support the repression of individuals who are seen as a threat to the regime, such as dissidents, activists and journalists. In some cases, the Iranian intelligence services have plotted to kidnap or conduct lethal operations against individuals internationally, who they perceive as enemies of the regime. The personal details of some previous victims of CHOSEN BRICK have appeared on pro-Iranian leak sites, potentially increasing the risk to the personal safety of those affected. This advisory from the UK National Cyber Security Centre, the US Federal Bureau of Investigation and the Netherlands' General Intelligence and Security Service - Algemene Inlichtingen- en Veiligheidsdienst (AIVD) shares technical information about the malware, TTPs, as well as advice to help individuals and organisations. Attack chain analysis The Iranian cyber actors tailor their approach to their intended target and as such there is a wide variation in the initial approach to the target. There is also variation in the intended outcome of their operations. The core pattern of the actors’ attack chains consists of: Initial contact and access via social engineering of the target via social messaging platforms, such as but not limited to WhatsApp and Telegram, purporting to be trusted entities. The malicious payload is disguised to match the social engineering approach and appear authentic to the target. The malicious payload deploys additional malware leveraging Telegram for command and control to blend in with legitimate processes. The malware has a wide range of functionality, enabling it to be used flexibly to support a range of potential operational outcomes. Delivery and exploitation Iranian cyber actors engaged with targets via social messaging applications to build rapport prior to attempting to deliver the malware. The nature of the social engineering varies between targets and uses extensive target knowledge from research conducted in preparation (T1589). The actor often purports to be an individual previously known to the target or technical support from the social messaging platform (T1566.003). The actor uses this rapport with the target to convince them to download and open a file that appears authentic to the target (T1204.002). These have been in the form of applications appearing to be legitimate applications such as Pictory, RunwayML, Norton Antivirus, Telegram, Adobe Flash Player and KeePass. In other instances, they have been files appearing to be MRI scan results. The actor often initiates contact with the target’s work-related or corporate device in the first instance. If the initial delivery fails or the risk of detection is deemed significant, the actor will attempt to transition the delivery to personal devices by asking the target to open the file on their own devices, evading corporate security controls that protect the individual. Regardless of the file thematic, the approach has been to display a legitimate appearing screen to the target fitting with the thematic to maintain the deception. In the background, the file also downloads and runs a core malware component (tracked by the NCSC as CHOSEN BRICK) enabling con
-```
-
-#### Corroborating sources (1)
-
-- **NCSC UK** (government_authoritative)
-  - Title: Iranian cyber targeting of dissidents, activists and journalists
-  - Published: 2026-09-15T12:00:00+00:00
-  - Link: https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists
-  - Summary: Advisory on CHOSEN BRICK malware, including technical analysis and advice to help individuals and organisations protect themselves.
-
-### Cluster 8cc5a2ec4f — score 10
-
-- Title: UK and allies expose spyware used by Iranian state actors to target dissidents, activists and journalists
-- Source: NCSC UK (government_authoritative)
-- Published: 2026-09-15T12:00:00+00:00
-- Link: https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-UK and allies provide advice to help organisations and individuals at risk detect and counter the threat from CHOSEN BRICK malware.
-```
-
-#### Full body
-
-```
-News Download & print article PDF Download & print article PDF UK and allies expose spyware used by Iranian state actors to target dissidents, activists and journalists GCHQ’s National Cyber Security Centre and international partners issue warning over Iranian cyber actors’ spear-phishing and spyware campaign ‘CHOSEN BRICK’ malware family used to collect information, including screen captures and messaging history, from targets around the world UK and allies provide advice to help organisations and individuals at risk detect malicious activity and reduce chances of their devices falling victim INDIVIDUALS at risk of digital surveillance by the Iranian regime are being provided with fresh advice today (Tuesday) to help them identify and counter the threat from spear-phishing and spyware attacks. The UK National Cyber Security Centre – a part of GCHQ – alongside partners in the US and the Netherlands has shared details about how Iranian state cyber attackers have been observed trying to trick targets into downloading software that can enable tracking of their movements. Dissidents, activists and journalists around the world, including in the UK, that are perceived to pose a threat to Iran are among those that have been targeted with the spyware dubbed ‘CHOSEN BRICK’. CHOSEN BRICK allows attackers to collect information on a target’s contacts, emails and social media messages, and includes functionality to capture screen content and access the device microphone. A new joint advisory from the NCSC and partners says Iranian state actors have been observed impersonating contacts over messaging apps such as WhatsApp and Telegram, building rapport with targets before deploying CHOSEN BRICK, and stealing sensitive information, which has appeared on leak sites. The actors are known to tailor their social engineering to include areas of relevance or interest to their targets and have even included fake MRI test results to lure victims in. The government has been clear that any attempt by a foreign power to intimidate, harass, surveil, or otherwise target individuals in the UK will never be tolerated. In addition to security support for those at risk, clear guidance is available online , giving those who believe themselves to be at risk of transnational repression more widely practical steps to protect themselves - both in person and online. Specialist training on how to spot state threats activity has been rolled out across all UK police forces and, along with our intelligence agencies, they have the powers they need to detect and disrupt any such activity and will use the full force of the law against any perpetrators. The details of this cyber campaign reveal how Iran ruthlessly uses digital surveillance in pursuit of its aim to repress critics of the regime, stealing emails and messages and accessing devices. “With our international partners, we strongly encourage individuals at risk to familiarise themselves with the social-engineering techniques described in the advisory, and to act on the mitigation advice. “We will continue to call out malicious cyber activity by the Iranian state and support communities with practical advice to strengthen their online personal security. Paul Chichester, National Cyber Security Centre Director of Operations The NCSC assesses that Iran almost certainly uses cyber activity to support the repression of individuals who are seen as a threat to the regime. Personal details of some previous victims have appeared on pro-Iranian leak sites, potentially increasing the risk to personal safety of those affected. To reduce the chances of compromise, the NCSC recommends individuals at risk to follow the mitigation steps in the advisory and to take up the NCSC’s dedicated support for high-risk individuals , including signing up for free cyber defence services. The malware has been exclusively targeted at the Windows operating system. The advisory warns CHOSEN BRICK is persistent and will survive a reboot of the
-```
-
-#### Corroborating sources (1)
-
-- **NCSC UK** (government_authoritative)
-  - Title: UK and allies expose spyware used by Iranian state actors to target dissidents, activists and journalists
-  - Published: 2026-09-15T12:00:00+00:00
-  - Link: https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists
-  - Summary: UK and allies provide advice to help organisations and individuals at risk detect and counter the threat from CHOSEN BRICK malware.
 
 ### Cluster 4177169ade — score 10
 
@@ -2669,6 +2582,135 @@ CATEGORIES AI Research 20 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Link: https://research.checkpoint.com/2026/puzzlemask-abusing-plain-prose-as-a-covert-ai-attack-vector/
   - Summary: Executive Summary In this research we introduce a prompt-crafting technique for bypassing quick LLM-based policy checks — using plain English (no emojis, base64, invisible formatting, etc.) A policy-violating payload (e.g. ”encrypt files in ~/Documents”, “give me a biohazard recipe”, “ignore all previous instructions and…”) is embedded in a specially crafted prose wrapper. An LLM with limited […] The post PuzzleMask: Abusing Plain Prose as a Covert AI Attack Vector appeared first on Check Point Research .
 
+### Cluster d747019c3b — score 10
+
+- Title: Iranian cyber targeting of dissidents, activists and journalists
+- Source: NCSC UK (government_authoritative)
+- Published: 2026-09-15T12:00:00+00:00
+- Link: https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_industries: government
+- attack_techniques: T1204.002, T1566.003, T1589
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_industries: government
+- attack_techniques: T1204.002, T1566.003, T1589
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+Advisory on CHOSEN BRICK malware, including technical analysis and advice to help individuals and organisations protect themselves.
+```
+
+#### Full body
+
+```
+News Download & print article PDF Download & print article PDF Iranian cyber targeting of dissidents, activists and journalists Advisory on CHOSEN BRICK malware, including technical analysis and advice to help individuals and organisations protect themselves. On this page Introduction Attack chain analysis Delivery and exploitation Installation Action on objectives Investigating potential compromise Mitigations Contact MITRE ATT&CK® Introduction CHOSEN BRICK is a malware family that has been used to target individuals around the world including in the UK, US and the Netherlands from at least 2025. CHOSEN BRICK enables Iranian state cyber actors to collect information on a target’s contacts, emails and social media messages, which could enable tracking of their movements. Iran almost certainly uses cyber activity to support the repression of individuals who are seen as a threat to the regime, such as dissidents, activists and journalists. In some cases, the Iranian intelligence services have plotted to kidnap or conduct lethal operations against individuals internationally, who they perceive as enemies of the regime. The personal details of some previous victims of CHOSEN BRICK have appeared on pro-Iranian leak sites, potentially increasing the risk to the personal safety of those affected. This advisory from the UK National Cyber Security Centre, the US Federal Bureau of Investigation and the Netherlands' General Intelligence and Security Service - Algemene Inlichtingen- en Veiligheidsdienst (AIVD) shares technical information about the malware, TTPs, as well as advice to help individuals and organisations. Attack chain analysis The Iranian cyber actors tailor their approach to their intended target and as such there is a wide variation in the initial approach to the target. There is also variation in the intended outcome of their operations. The core pattern of the actors’ attack chains consists of: Initial contact and access via social engineering of the target via social messaging platforms, such as but not limited to WhatsApp and Telegram, purporting to be trusted entities. The malicious payload is disguised to match the social engineering approach and appear authentic to the target. The malicious payload deploys additional malware leveraging Telegram for command and control to blend in with legitimate processes. The malware has a wide range of functionality, enabling it to be used flexibly to support a range of potential operational outcomes. Delivery and exploitation Iranian cyber actors engaged with targets via social messaging applications to build rapport prior to attempting to deliver the malware. The nature of the social engineering varies between targets and uses extensive target knowledge from research conducted in preparation (T1589). The actor often purports to be an individual previously known to the target or technical support from the social messaging platform (T1566.003). The actor uses this rapport with the target to convince them to download and open a file that appears authentic to the target (T1204.002). These have been in the form of applications appearing to be legitimate applications such as Pictory, RunwayML, Norton Antivirus, Telegram, Adobe Flash Player and KeePass. In other instances, they have been files appearing to be MRI scan results. The actor often initiates contact with the target’s work-related or corporate device in the first instance. If the initial delivery fails or the risk of detection is deemed significant, the actor will attempt to transition the delivery to personal devices by asking the target to open the file on their own devices, evading corporate security controls that protect the individual. Regardless of the file thematic, the approach has been to display a legitimate appearing screen to the target fitting with the thematic to maintain the deception. In the background, the file also downloads and runs a core malware component (tracked by the NCSC as CHOSEN BRICK) enabling con
+```
+
+#### Corroborating sources (1)
+
+- **NCSC UK** (government_authoritative)
+  - Title: Iranian cyber targeting of dissidents, activists and journalists
+  - Published: 2026-09-15T12:00:00+00:00
+  - Link: https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists
+  - Summary: Advisory on CHOSEN BRICK malware, including technical analysis and advice to help individuals and organisations protect themselves.
+
+### Cluster 8cc5a2ec4f — score 10
+
+- Title: UK and allies expose spyware used by Iranian state actors to target dissidents, activists and journalists
+- Source: NCSC UK (government_authoritative)
+- Published: 2026-09-15T12:00:00+00:00
+- Link: https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+UK and allies provide advice to help organisations and individuals at risk detect and counter the threat from CHOSEN BRICK malware.
+```
+
+#### Full body
+
+```
+News Download & print article PDF Download & print article PDF UK and allies expose spyware used by Iranian state actors to target dissidents, activists and journalists GCHQ’s National Cyber Security Centre and international partners issue warning over Iranian cyber actors’ spear-phishing and spyware campaign ‘CHOSEN BRICK’ malware family used to collect information, including screen captures and messaging history, from targets around the world UK and allies provide advice to help organisations and individuals at risk detect malicious activity and reduce chances of their devices falling victim INDIVIDUALS at risk of digital surveillance by the Iranian regime are being provided with fresh advice today (Tuesday) to help them identify and counter the threat from spear-phishing and spyware attacks. The UK National Cyber Security Centre – a part of GCHQ – alongside partners in the US and the Netherlands has shared details about how Iranian state cyber attackers have been observed trying to trick targets into downloading software that can enable tracking of their movements. Dissidents, activists and journalists around the world, including in the UK, that are perceived to pose a threat to Iran are among those that have been targeted with the spyware dubbed ‘CHOSEN BRICK’. CHOSEN BRICK allows attackers to collect information on a target’s contacts, emails and social media messages, and includes functionality to capture screen content and access the device microphone. A new joint advisory from the NCSC and partners says Iranian state actors have been observed impersonating contacts over messaging apps such as WhatsApp and Telegram, building rapport with targets before deploying CHOSEN BRICK, and stealing sensitive information, which has appeared on leak sites. The actors are known to tailor their social engineering to include areas of relevance or interest to their targets and have even included fake MRI test results to lure victims in. The government has been clear that any attempt by a foreign power to intimidate, harass, surveil, or otherwise target individuals in the UK will never be tolerated. In addition to security support for those at risk, clear guidance is available online , giving those who believe themselves to be at risk of transnational repression more widely practical steps to protect themselves - both in person and online. Specialist training on how to spot state threats activity has been rolled out across all UK police forces and, along with our intelligence agencies, they have the powers they need to detect and disrupt any such activity and will use the full force of the law against any perpetrators. The details of this cyber campaign reveal how Iran ruthlessly uses digital surveillance in pursuit of its aim to repress critics of the regime, stealing emails and messages and accessing devices. “With our international partners, we strongly encourage individuals at risk to familiarise themselves with the social-engineering techniques described in the advisory, and to act on the mitigation advice. “We will continue to call out malicious cyber activity by the Iranian state and support communities with practical advice to strengthen their online personal security. Paul Chichester, National Cyber Security Centre Director of Operations The NCSC assesses that Iran almost certainly uses cyber activity to support the repression of individuals who are seen as a threat to the regime. Personal details of some previous victims have appeared on pro-Iranian leak sites, potentially increasing the risk to personal safety of those affected. To reduce the chances of compromise, the NCSC recommends individuals at risk to follow the mitigation steps in the advisory and to take up the NCSC’s dedicated support for high-risk individuals , including signing up for free cyber defence services. The malware has been exclusively targeted at the Windows operating system. The advisory warns CHOSEN BRICK is persistent and will survive a reboot of the
+```
+
+#### Corroborating sources (1)
+
+- **NCSC UK** (government_authoritative)
+  - Title: UK and allies expose spyware used by Iranian state actors to target dissidents, activists and journalists
+  - Published: 2026-09-15T12:00:00+00:00
+  - Link: https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists
+  - Summary: UK and allies provide advice to help organisations and individuals at risk detect and counter the threat from CHOSEN BRICK malware.
+
+### Cluster 0da7e969e0 — score 10
+
+- Title: GuardBreaker: Derailing AI-assisted malware analysis with a code comment
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-09-10T09:00:00+00:00
+- Link: https://www.welivesecurity.com/en/business-security/guardbreaker-derailing-ai-assisted-malware-analysis-code-comment/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security, supply_chain
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, ai_security
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+LLM-based code scanners won’t help attackers build a nuclear weapon, but that refusal could work in their favor
+```
+
+#### Full body
+
+```
+Business Security GuardBreaker: Derailing AI-assisted malware analysis with a code comment LLM-based code scanners won’t help attackers build a nuclear weapon, but that refusal could work in their favor Tomáš Foltýn 10 Sep 2026 • , 4 min. read Malware developers have long adapted their code and tactics to the defenses and scrutiny that are likely to stand in their way. Using various evasion and anti-analysis methods, they routinely attempt to hinder code analysis or prevent their malware from revealing its true behavior while under inspection. Other tools – notably, EDR killers, documented extensively by ESET researchers – go straight after security solutions themselves. As LLM-based tools increasingly assist with various security tasks, including code triage and analysis, it was only a matter of time before threat actors began to look for practical ways to subvert them, too. Alongside conventional evasion techniques, some are taking a different tack: the adversarial input that’s intended to frustrate analysis is left in plain sight. ESET researchers recently spotted one such attempt in a VBScript that the Russia-aligned group UAC-0099 used in the early stages of an attack against a target in Ukraine . By inserting a decoy request for guidance on building a nuclear weapon into the script’s comment, the bad actor aimed to trip the safety guardrails of an LLM-powered code scanner and cause it to stop inspecting the rest of the file – before ever reaching the malicious code. The script’s purpose was to download and install MATCHBOIL, a loader used exclusively by this group to deliver additional payloads. This simple technique, which ESET has named GuardBreaker, relies on precisely the kind of ‘request’ that LLM models are known to decline: GuardBreaker’s guardrail-triggering comment (source: ESET Research ) Unlike many other tricks in attackers’ evasion playbooks, this decoy comment is there for ‘everyone’ – especially for the models analyzing the code – to see. In addition, it has no effect on the script’s behavior at runtime, of course. Nonetheless, its presence suggests that UAC-0099 was accounting for an AI system in the target’s defenses – just as in other recent attacks the group also checked for processes associated with established analysis tools such as IDA and Wireshark. Anti-analysis takes aim at another target GuardBreaker is best understood as a very simple attempt at prompt injection : an attacker’s input reaches the LLM at inference time through a file that’s being analyzed. That way, it aims to exploit an architectural weakness in today’s LLMs, which process untrusted content and trusted instructions without dependable boundaries between the two. Similar attempts to interfere with LLM-powered scanners have surfaced especially in software supply-chain attacks. For example, Socket found fabricated system instructions and policy-triggering content placed ahead of a JavaScript payload in malicious PyPI packages. Reporting on the same broader campaign, StepSecurity found a prompt that flat-out instructed any analyzing model that parsed the file to disregard the malicious code and report the package as clean. In another incident, researchers spotted an npm package whose main JavaScript file repeated “You’re absolutely right!” tens of thousands of times in the hopes of exhausting the model’s context window and putting the malicious script that followed beyond practical analysis. Attackers could attempt to blind the analysis pipeline to malware through other trivial tricks, or even their combinations: unusual or awkwardly structured files could end up being truncated or parsed only in part. Some parts of the malicious code could be concealed under the pretense of being confidential information or other sensitive data. Other attacks could deploy custom file types that would require attackers’ tools to process, whereas others still could steer AI agents towards actions that require human review, thus causing delays exploiti
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: GuardBreaker: Derailing AI-assisted malware analysis with a code comment
+  - Published: 2026-09-10T09:00:00+00:00
+  - Link: https://www.welivesecurity.com/en/business-security/guardbreaker-derailing-ai-assisted-malware-analysis-code-comment/
+  - Summary: LLM-based code scanners won’t help attackers build a nuclear weapon, but that refusal could work in their favor
+
 ### Cluster 44179b1aeb — score 10
 
 - Title: Mind the (Patch) Gap: Multiple Chinese Threat Actors Chain 0-day Exploits in Chrome & Windows
@@ -2719,47 +2761,6 @@ Threat Intelligence Mind the (Patch) Gap: Multiple Chinese Threat Actors Chain 0
   - Published: 2026-09-09T17:36:22+00:00
   - Link: https://www.volexity.com/blog/2026/09/09/mind-the-patch-gap-multiple-chinese-threat-actors-chain-0-day-exploits-in-chrome-windows/
   - Summary: On September 1, 2026, Volexity’s Network Security Monitoring (NSM) service detected a spear-phishing campaign from a Chinese threat actor it tracks as UTA0560 targeting customers at multiple non-governmental organizations (NGOs). […] The post Mind the (Patch) Gap: Multiple Chinese Threat Actors Chain 0-day Exploits in Chrome & Windows appeared first on Volexity .
-
-### Cluster 0da7e969e0 — score 10
-
-- Title: GuardBreaker: Derailing AI-assisted malware analysis with a code comment
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-09-10T09:00:00+00:00
-- Link: https://www.welivesecurity.com/en/business-security/guardbreaker-derailing-ai-assisted-malware-analysis-code-comment/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security, supply_chain
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, ai_security
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-LLM-based code scanners won’t help attackers build a nuclear weapon, but that refusal could work in their favor
-```
-
-#### Full body
-
-```
-Business Security GuardBreaker: Derailing AI-assisted malware analysis with a code comment LLM-based code scanners won’t help attackers build a nuclear weapon, but that refusal could work in their favor Tomáš Foltýn 10 Sep 2026 • , 4 min. read Malware developers have long adapted their code and tactics to the defenses and scrutiny that are likely to stand in their way. Using various evasion and anti-analysis methods, they routinely attempt to hinder code analysis or prevent their malware from revealing its true behavior while under inspection. Other tools – notably, EDR killers, documented extensively by ESET researchers – go straight after security solutions themselves. As LLM-based tools increasingly assist with various security tasks, including code triage and analysis, it was only a matter of time before threat actors began to look for practical ways to subvert them, too. Alongside conventional evasion techniques, some are taking a different tack: the adversarial input that’s intended to frustrate analysis is left in plain sight. ESET researchers recently spotted one such attempt in a VBScript that the Russia-aligned group UAC-0099 used in the early stages of an attack against a target in Ukraine . By inserting a decoy request for guidance on building a nuclear weapon into the script’s comment, the bad actor aimed to trip the safety guardrails of an LLM-powered code scanner and cause it to stop inspecting the rest of the file – before ever reaching the malicious code. The script’s purpose was to download and install MATCHBOIL, a loader used exclusively by this group to deliver additional payloads. This simple technique, which ESET has named GuardBreaker, relies on precisely the kind of ‘request’ that LLM models are known to decline: GuardBreaker’s guardrail-triggering comment (source: ESET Research ) Unlike many other tricks in attackers’ evasion playbooks, this decoy comment is there for ‘everyone’ – especially for the models analyzing the code – to see. In addition, it has no effect on the script’s behavior at runtime, of course. Nonetheless, its presence suggests that UAC-0099 was accounting for an AI system in the target’s defenses – just as in other recent attacks the group also checked for processes associated with established analysis tools such as IDA and Wireshark. Anti-analysis takes aim at another target GuardBreaker is best understood as a very simple attempt at prompt injection : an attacker’s input reaches the LLM at inference time through a file that’s being analyzed. That way, it aims to exploit an architectural weakness in today’s LLMs, which process untrusted content and trusted instructions without dependable boundaries between the two. Similar attempts to interfere with LLM-powered scanners have surfaced especially in software supply-chain attacks. For example, Socket found fabricated system instructions and policy-triggering content placed ahead of a JavaScript payload in malicious PyPI packages. Reporting on the same broader campaign, StepSecurity found a prompt that flat-out instructed any analyzing model that parsed the file to disregard the malicious code and report the package as clean. In another incident, researchers spotted an npm package whose main JavaScript file repeated “You’re absolutely right!” tens of thousands of times in the hopes of exhausting the model’s context window and putting the malicious script that followed beyond practical analysis. Attackers could attempt to blind the analysis pipeline to malware through other trivial tricks, or even their combinations: unusual or awkwardly structured files could end up being truncated or parsed only in part. Some parts of the malicious code could be concealed under the pretense of being confidential information or other sensitive data. Other attacks could deploy custom file types that would require attackers’ tools to process, whereas others still could steer AI agents towards actions that require human review, thus causing delays exploiti
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: GuardBreaker: Derailing AI-assisted malware analysis with a code comment
-  - Published: 2026-09-10T09:00:00+00:00
-  - Link: https://www.welivesecurity.com/en/business-security/guardbreaker-derailing-ai-assisted-malware-analysis-code-comment/
-  - Summary: LLM-based code scanners won’t help attackers build a nuclear weapon, but that refusal could work in their favor
 
 ### Cluster 586732e050 — score 10
 
@@ -2882,51 +2883,6 @@ Patch Tuesday to Pentest Wednesday: How an Equipment Rental Company Is Turning C
   - Link: https://horizon3.ai/intelligence/blogs/pentest-wednesday-continuous-exposure-management/
   - Summary: See how an equipment rental company moved beyond point-in-time pentesting with NodeZero®, continuously validating exploitable risk, driving remediation, and measuring whether exposure is actually decreasing.
 
-### Cluster c06803afa0 — score 10
-
-- Title: Google Doc Sidebar Sends Mac and Windows Users Down Different Paths to Malware
-- Source: Huntress (detection_response_operations)
-- Published: 2026-09-15T13:00:00+00:00
-- Link: https://www.huntress.com/blog/google-doc-sidebar-malware-mac-windows
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft
-- affected_industries: financial_services
-- affected_products: Anthropic/Claude, Apple iOS/macOS, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: credential_theft
-- affected_industries: financial_services
-- affected_products: Apple iOS/macOS, OpenAI/ChatGPT, Anthropic/Claude
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-A single X DM split into two malware chains: AMOS stealer on Mac, NetSupport Manager on Windows, see the Huntress SOC analyst breakdown.
-```
-
-#### Full body
-
-```
-Home Blog Google Doc Sidebar Sends Mac and Windows Users Down Different Paths to Malware Published: September 15, 2026 Google Doc Sidebar Sends Mac and Windows Users Down Different Paths to Malware By: Susannah Matt Ryan Dowd Jonathan Semon Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Many Black Hat and DEFCON attendees come home to an inbox full of DMs. While catching up on the expected post-conference networking last month, a Huntress researcher realized they were being targeted in an X exchange with someone posing as a crypto marketing executive. The threat actor sent a link to a real Google Doc with a custom sidebar designed to trick the recipient into downloading malware: an AMOS infostealer on macOS, or PowerShell loader chain on Windows. Immediately picking up on the scam, our researcher didn't download any malware on their machine, but they did keep chatting with the threat actor, who ended up sending more malware and eventually a million-dollar offer. What started with a DM ended with a rogue certificate authority sitting in the Huntress testing environment. While they weren't the ones to receive the DMs, Huntress SOC Analysts Ryan Dowd and Jon Semon did the heavy lifting in analyzing every twist in this unpredictable kill chain, and they shared their findings in this month's edition of Tradecraft Tuesday . Read their blog for full technical details and check out highlights from the episode below. The Initial DM: A friendly face, a malicious ask On X, the threat actor posed as the head of marketing at CoinDesk, appearing to use one person's name and another's photograph. Huntress confirmed that this account reached out to multiple security researchers at the tail end of DEFCON, using a boilerplate lure themed around an upcoming crypto conference. Ryan refers to this as a "volume play" instead of specific targeting of DEFCON attendees; our analysts found posts on social media from users calling out this account for scammy behavior dating back to October 2025. Figure 1: The @HartmansDoeke X account that messaged our researcher, posing as CoinDesk's VP and Head of Marketing While several media reports and other commenters made note of the X user's imperfect English in their communications as a dead giveaway for a scammer, Ryan and Jon pushed back on that general assumption. "I think one of the biggest things that we forget is that a lot of these threat actors are just people on the other end," Jon said. "And in the day of AI and all the other Grammarly and all the tools that are out there that people can utilize for perfect, pristine English, there is a bit of a play to be made off of broken English, more personal, natural conversation that you're having with people." The Google Doc: A suspicious sidebar After some "friendly" back and forth, the threat actor sent our researcher a link to a legitimate Google Doc along with an "access key" to unlock the conference planning details. A demo of the malicious Google Apps Script The Google Doc featured a sidebar displaying a fake decryption failure message, with supposed remediation instructions for users of different operating systems, including the option to copy and paste certain commands into the Terminal. This ClickFix lure, and the "manual update" button beside it, are what actually delivered the malware. The sidebar itself was a Google Apps Script bound to the document, so nothing had to be downloaded for it to run. Jon described the document as "a kind of a triage and a delivery mechanism. It's a funnel." The Apps Script ran client-side in the victim's browser, avoiding an OAuth consent prompt and ultimately collecting the victim's public IP and geolocation and scanning for MetaMask / Ethereum, Phantom, Tron, and Solana crypto wallets. Everything collected was sent directly to the threat actor via the Telegram API; the script sent a beacon message for each of the action codes below. Figure 2: Action codes sent back to the action via Telegram VIEW is t
-```
-
-#### Corroborating sources (1)
-
-- **Huntress** (detection_response_operations)
-  - Title: Google Doc Sidebar Sends Mac and Windows Users Down Different Paths to Malware
-  - Published: 2026-09-15T13:00:00+00:00
-  - Link: https://www.huntress.com/blog/google-doc-sidebar-malware-mac-windows
-  - Summary: A single X DM split into two malware chains: AMOS stealer on Mac, NetSupport Manager on Windows, see the Huntress SOC analyst breakdown.
-
 ### Cluster 190510ac0b — score 10
 
 - Title: Rapid7 Named Among Notable Vendors in Forrester MDR Landscape: Why the Future is Exposure-informed, Preemptive MDR
@@ -3047,143 +3003,6 @@ Back to Blog Products and Tools Credentialed Pre-Port Discovery: Don't Probe the
   - Published: 2026-09-09T15:16:34+00:00
   - Link: https://www.rapid7.com/blog/post/pt-credentialed-pre-port-discovery-asking-host
   - Summary: If your scan engine already holds credentials for a host, it can ask that host which ports are open instead of probing for them. Every scan begins with the same question: which ports on this host are open? Everything after it, from identifying services to checking for vulnerabilities to evaluating policy, depends on the answer being right. The traditional answer comes from the outside: the scan engine sends traffic to a range of ports and infers each port's state from how the host responds. That approach is the industry standard, and it works well when a clear network path exists between the engine and the host. Hardened hosts can stay silent rather than replying, which forces the engine to wait out timeouts. Rate limiting and intrusion prevention can throttle a burst of probes, and genuinely open ports go missing when they do. Large port ranges take time to cover thoroughly, and that time comes out of your scan window. There is a more direct route on any host where the scan engine alr
-
-### Cluster e9e1bd1f73 — score 10
-
-- Title: Electric and gas utility CenterPoint Energy warns of data breach after dark web post
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-09-15T14:22:00+00:00
-- Link: https://therecord.media/centerpoint-energy-data-breach
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: critical_infrastructure, government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: government, critical_infrastructure
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Houston-based CenterPoint Energy notified federal regulators about an incident that exposed some customer data on the dark web.
-```
-
-#### Full body
-
-```
-Image: CenterPoint Energy Electric and gas utility CenterPoint Energy warns of data breach after dark web post Texas-based electric and gas utility CenterPoint Energy told regulators that hackers obtained personal information from its systems during a recent data breach. The company filed an 8-K form with the Securities Exchange Commission (SEC) on Monday evening confirming that it became aware of a dark web post this month claiming to offer data stolen from CenterPoint Energy. CenterPoint Energy said the delivery of electric and gas services has not been impacted by the incident. But an investigation into the claims revealed that hackers did obtain “personal information relating to a portion of the Company’s customers through one of the Company’s external facing systems.” A spokesperson for CenterPoint Energy declined to answer other questions about the cybercriminal post , which includes claims that about 7.5 million records were stolen and contained customer names, account information, the last four digits of Social Security numbers, billing information and more. “The Company is continuing to work with third-party experts to determine the scope of customers and personal information affected by the Incident and intends to notify affected customers and regulatory authorities as required by applicable law,” CenterPoint Energy said. The Houston-based company said it reported the incident to law enforcement in addition to the regulatory filing. The filing says CenterPoint Energy will incur some costs related to the investigation but the incident is not likely to have a material impact on the company’s finances. CenterPoint Energy reported a net income of $244 million in the second quarter and provides power and natural gas to 7 million customers across Indiana, Minnesota, Ohio and Texas. Last year, the company announced that it was investigating another data breach related to a 2023 incident where hackers stole customer information through a popular file sharing platform. Industry Cybercrime News News Briefs No previous article No new articles Jonathan Greig is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.
-```
-
-#### Corroborating sources (1)
-
-- **The Record** (cyber_news_breach_reporting)
-  - Title: Electric and gas utility CenterPoint Energy warns of data breach after dark web post
-  - Published: 2026-09-15T14:22:00+00:00
-  - Link: https://therecord.media/centerpoint-energy-data-breach
-  - Summary: Houston-based CenterPoint Energy notified federal regulators about an incident that exposed some customer data on the dark web.
-
-### Cluster 3e5903d710 — score 10
-
-- Title: What Zero-Day Response Should Be in the Post-Mythos Era
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-09-15T13:45:54+00:00
-- Link: https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, vulnerability_disclosure, zero_day
-- cve_ids: CVE-2026-1001
-- urgency_signals: actively_exploited, emergency_patch, no_patch_yet, poc_available, preauth_unauth, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, vulnerability_disclosure, active_exploitation
-- cve_ids: CVE-2026-1001
-- urgency_signals: actively_exploited, zero_day, preauth_unauth, emergency_patch, no_patch_yet, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-AI is shrinking the time between vulnerability disclosure and exploitation, leaving defenders less time to wait for patches or public exploits. Picus Security explains how exploitability validation, security control testing, and autonomous pentesting can help teams close exposure gaps before attackers arrive. [...]
-```
-
-#### Full body
-
-```
-What Zero-Day Response Should Be in the Post-Mythos Era Sponsored by Picus Security September 15, 2026 09:45 AM 0 By Sila Ozeren Hacioglu , Security Research Engineer at Picus Security. If you run PaperCut NG or MF, the last week of August showed what vulnerability response looks like when AI speeds up vulnerability discovery. On August 27, PaperCut's urgent advisory said attackers were already exploiting servers. No CVE, no exploit, no patch. The first emergency patch came a day later and was bypassed the same day. The third one landed on September 1. Six days without a patch that held or an exploit to test with, while attackers were already exploiting in the wild. And the window is closing. Disclosure-to-exploitation averaged 21.5 days last year. It is measured in hours now . PaperCut isn't the outlier. It's the template. Below is one day in the life of a security team, told through a hypothetical CVE . The CVE is made up. The day is not: it is what PaperCut's customers lived through in August. Let's walk through it hour by hour. 08:00 – A CVE drops. No patch. You wake up and CVE-2026-1001 is in your feed: unauthenticated RCE, no patch . You run a version check. Twenty assets match. Before you can finish reading the list, your phone rings. It's management. They've already seen it, they've already been asked about it, and they want an answer in the next fifteen minutes: are we exposed, and what are we doing about it? Strip the panic away and there are exactly two questions to answer: 1. Are these 20 assets actually exploitable, in my environment? 2. Would my security controls stop it, right now? Version data says "affected." Version data is not an answer. Both questions start the day at Unknown. Patching is off the table, because there is no patch. Shutting the services down would settle the question, but the business runs on them. Nobody is going to negotiate that. You need a verdict, not a shutdown. 08:05 – Your first instinct cannot act The natural move is to reach for your automated pentesting tool. Take the exploit, fire it at the 20 assets, see what falls. So you go looking for the exploit. There isn't one. No public PoC, nothing to run. The tool that would give you the answer is waiting for ammunition, and so are you. The attacker is not. Weaponization used to take weeks; now it takes hours, and the clock started at 08:00. If you wait for a public exploit, the first working one you see may be the one that hits you. 08:15 – The exploit is a chain, not a payload Here is the shift. An exploit is not just a payload. It is a chain: the payload has to be delivered, it has to execute, and then the attacker has to escalate privileges, inject into a process and pull credentials to make the foothold worth anything. Each step is a known technique, and techniques can be simulated safely against your controls before anyone has written the payload itself. You cannot test the exploit, because there is none. But you can test the chain the exploit would need. Map the CVE to the techniques it has to run, delivery, execution, privilege escalation, injection, credential access, and run those against your live stack: NGFW, WAF, endpoint hardening, EDR, SIEM. Per asset. The output is a verdict: would this chain succeed in your environment? The question "is it exploitable here?" becomes testable ten minutes after disclosure. We explained how this works in detail in our post on validating CVEs without a working exploit . 08:30 – Simulated, tested, ticketed By 08:30 the chain has run. The results are not comfortable, and that is the point. The NGFW missed the delivery step. The WAF detected it but did not block. Endpoint hardening flagged execution. The EDR raised no alert. The SIEM raised no alert. Now the two Unknowns have answers. The 20 assets are exposed to this chain, and nothing in the stack would stop it. But the gaps have names and owners. An action plan is created: a detection rule for the NGFW, a prevention rule for the WAF, GPO har
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: What Zero-Day Response Should Be in the Post-Mythos Era
-  - Published: 2026-09-15T13:45:54+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/
-  - Summary: AI is shrinking the time between vulnerability disclosure and exploitation, leaving defenders less time to wait for patches or public exploits. Picus Security explains how exploitability validation, security control testing, and autonomous pentesting can help teams close exposure gaps before attackers arrive. [...]
-
-### Cluster 80dafffe01 — score 10
-
-- Title: Texas Utility CenterPoint Energy Confirms Breach After Hacker Leaks Data
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-09-15T15:30:24+00:00
-- Link: https://www.securityweek.com/texas-utility-centerpoint-energy-confirms-breach-after-hacker-leaks-data/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion, zero_day
-- actor_attribution: Cl0p
-- affected_industries: critical_infrastructure, financial_services, manufacturing_industrial, telecommunications
-- affected_products: Cisco, Fortinet, OpenAI/ChatGPT
-- urgency_signals: zero_day
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach
-- actor_attribution: Cl0p
-- affected_industries: financial_services, critical_infrastructure, manufacturing_industrial, telecommunications
-- affected_products: OpenAI/ChatGPT, Fortinet, Cisco
-- urgency_signals: zero_day
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A hacker claims to have stolen 7.5 million customer records after breaching the company’s systems. The post Texas Utility CenterPoint Energy Confirms Breach After Hacker Leaks Data appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Texas utility CenterPoint Energy confirmed on Monday that a threat actor has obtained customers’ personal information. The disclosure comes just days after a hacker claimed to have stolen millions of records. CenterPoint Energy is a Houston-based public utility that delivers electricity and natural gas to roughly 7 million customers across Indiana, Minnesota, Ohio, and Texas. The company told the SEC that it has launched an investigation after becoming aware of someone claiming to have obtained customer information. “While the investigation remains ongoing, the Company has determined that an unauthorized third party obtained personal information relating to a portion of the Company’s customers through one of the Company’s external facing systems,” it said in the SEC filing . The utility noted that the cybersecurity incident has not impacted the delivery of electric and gas services and it does not believe that the data breach will have a material impact. The company’s disclosure comes after a hacker leaked data allegedly stolen from its systems. The claims were made on a popular cybercrime forum on September 12. Advertisement. Scroll to continue reading. The hacker allegedly obtained nearly 7.5 million user records, threatening that “next time we won’t simply pull data, we’ll start attacking the main infrastructure.” The threat actor has made available for download a 2.5 GB archive file allegedly containing data stolen from CenterPoint Energy. SecurityWeek cannot confirm the validity of the data and it’s not uncommon for hackers to make false or exaggerated claims. CenterPoint Energy hacked This is not the first time a hacker has claimed to have stolen CenterPoint Energy data. In 2024, it was one of several energy companies targeted by an access broker named AntiBrok3rs . A few months later, a different hacker claimed to have obtained the company’s data. In both cases, the stolen data was believed to have come from the Cl0p ransomware group’s 2023 MOVEit campaign . Analysts believed at the time that the CenterPoint Energy data originated from a third party rather than directly from the company’s systems. Related : 240,000 Hit by Data Breach at Japan’s Digital Agency Related : Personal, Financial Info Exposed in Revolut Data Breach Related : Telus Warns Customers of Account Breaches Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Microsoft AI Code of Conduct Sets Cyberattack Boundaries, Chain of Command, Safety Constraints Root RCE Zero-Day in Cisco Secure Email Gateway Under Active Exploitation Telus Warns Customers of Account Breaches Trezor Says 347,000 Users Received Phishing Emails After Brevo Hack Ukrainian Conti Ransomware Developer Sentenced to 4 Years in US Prison Anthropic Says Russian Hackers Used Claude AI to Automate Malware Evasion Cybersecurity M&A Roundup: 33 Deals Announced in August 2026 Widened Scan Turns Up Fourth Rogue Claude Cyber Incident Latest News Microsoft Commits to Sweeping AI Privacy Rules for Students. Will Other Tech Giants Follow? “We Think the Security Control Is Working” Is No Longer Good Enough $1 Million Sandbox Challenge Uncovers Linux Kernel Flaws Exein Secures $270M at $1.7B Valuation for Physical AI Security Thai Broadband Provider Hacked via Fortinet Vulnerability OpenAI Investigates Report Linking AI Agents to RubyGems Attack 240,000 Hit by Data Breach at Japan’s Digital Agency Apple Patches 200 Vulnerabilities With New iOS 27, macOS Golden Gate 27 Releases Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on t
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Texas Utility CenterPoint Energy Confirms Breach After Hacker Leaks Data
-  - Published: 2026-09-15T15:30:24+00:00
-  - Link: https://www.securityweek.com/texas-utility-centerpoint-energy-confirms-breach-after-hacker-leaks-data/
-  - Summary: A hacker claims to have stolen 7.5 million customer records after breaching the company’s systems. The post Texas Utility CenterPoint Energy Confirms Breach After Hacker Leaks Data appeared first on SecurityWeek .
 
 ### Cluster b04cf6724c — score 10
 
@@ -3390,137 +3209,95 @@ About a week ago, Proxmox published an advisory revealing a vulnerability in old
   - Link: https://isc.sans.edu/diary/rss/33324
   - Summary: About a week ago, Proxmox published an advisory revealing a vulnerability in older versions of Proxmox VE, its flagship Virtual Environment product. The vulnerability only affects version 7, which has not been supported for a couple of years now.
 
-### Cluster 8040666183 — score 9
+### Cluster c06803afa0 — score 9
 
-- Title: Introducing new session management tools with native, granular controls
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-09-15T17:30:00+00:00
-- Link: https://cloud.google.com/blog/products/identity-security/introducing-new-session-management-tools-with-native-granular-controls/
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 1
-- Strong signals: Google Cloud
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft
-- affected_industries: financial_services, retail_ecommerce
-- affected_products: Google Cloud, Google/Gemini
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: credential_theft
-- affected_products: Google Cloud
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Google Cloud session management provides flexible options for setting up session controls based on your organization’s security policy needs. To help you improve your security posture and mitigate credential theft and account takeover (ATO) risks, we have rolled out a 16-hour default session length for Google Cloud customers. We’ve now completed extending this security standard to all customers who had not already self-configured session lengths, but today’s cloud environments require even more precision. As we conclude this global rollout, we have also evolved Google Cloud session controls from a broad administrative setting into a deeply integrated, granular feature of Context-Aware Access (CAA). This update gives administrators more flexibility, better automation, and a more natural security workflow. What’s new in Session Controls 1. Automation-first: Terraform, gcloud, and API support Modern infrastructure is managed as code. To support DevSecOps workflows, the Session Controls po
-```
-
-#### Full body
-
-```
-Security & Identity Introducing new session management tools with native, granular controls September 15, 2026 Senzeni Mpofu Product Manager Cris Scruggs Software Engineer Try Gemini Enterprise today The front door to AI in the workplace Try now Google Cloud session management provides flexible options for setting up session controls based on your organization’s security policy needs. To help you improve your security posture and mitigate credential theft and account takeover (ATO) risks, we have rolled out a 16-hour default session length for Google Cloud customers. We’ve now completed extending this security standard to all customers who had not already self-configured session lengths, but today’s cloud environments require even more precision. As we conclude this global rollout, we have also evolved Google Cloud session controls from a broad administrative setting into a deeply integrated, granular feature of Context-Aware Access (CAA). This update gives administrators more flexibility, better automation, and a more natural security workflow. What’s new in Session Controls 1. Automation-first: Terraform, gcloud, and API support Modern infrastructure is managed as code. To support DevSecOps workflows, the Session Controls policy configuration is no longer limited to manual UI configuration. Now generally available, you can define, deploy, and manage your session policies programmatically using: Terraform : Integrates session controls directly into your infrastructure manifests. gcloud CLI : Manages policies from the command line. REST APIs : Automate policy enforcement across complex multi-tenant environments. 2. Granular targeting with Google Groups One of the most requested upgrades has been the capability to target policies with precision. Previously, session lengths were tied to organizational units (OUs). Now generally available, the Session Controls policy uses Google Groups. This shift allows you to apply distinct session policies to specific clusters of users — such as requiring a two-hour session for users with elevated privileges (such as billing administrators and project owners) while maintaining a standard 16-hour session for general developers — regardless of where those users sit in your organizational hierarchy. 3. Precision application controls Instead of a blanket policy that affects every application requiring Google Cloud API scopes, Session Controls policy allows you to configure session controls to specific applications. These applications include: The Google Cloud Console The gcloud command-line tool Specific OAuth applications Now generally available, this update can help prevent all-or-nothing scenarios where a strict policy on the Cloud SDK might inadvertently disrupt legitimate business intelligence or dashboarding integrations that rely on OAuth. 4. Google Cloud-native experience Historically, configuring session lengths for Google Cloud could only be done in the Google Workspace administrator console. Google Cloud customers can also sign up to use the Google Cloud Console to manage session policies alongside other access levels and security bindings in Access Context Manager (ACM). Available in preview, this update can help give Google Cloud administrators who prefer using the Google Console for policy administration tasks greater flexibility and a unified experience for configuring all their CAA policies. How to get started By evolving session controls from static organizational defaults into dynamic, context-aware policies, your security teams can enforce tighter reauthentication boundaries against credential theft where risks are highest, without disrupting developer velocity. Get started with the session controls documentation for instructions on how to use Terraform, REST API, and gCloud to configure session controls. Posted in Security & Identity Related articles Security & Identity Getting started with Mantis, our open-source bug finding-and-fixing harness By Nick Galloway • 3-minute read
-```
-
-#### Corroborating sources (1)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Introducing new session management tools with native, granular controls
-  - Published: 2026-09-15T17:30:00+00:00
-  - Link: https://cloud.google.com/blog/products/identity-security/introducing-new-session-management-tools-with-native-granular-controls/
-  - Summary: Google Cloud session management provides flexible options for setting up session controls based on your organization’s security policy needs. To help you improve your security posture and mitigate credential theft and account takeover (ATO) risks, we have rolled out a 16-hour default session length for Google Cloud customers. We’ve now completed extending this security standard to all customers who had not already self-configured session lengths, but today’s cloud environments require even more precision. As we conclude this global rollout, we have also evolved Google Cloud session controls from a broad administrative setting into a deeply integrated, granular feature of Context-Aware Access (CAA). This update gives administrators more flexibility, better automation, and a more natural security workflow. What’s new in Session Controls 1. Automation-first: Terraform, gcloud, and API support Modern infrastructure is managed as code. To support DevSecOps workflows, the Session Controls po
-
-### Cluster 90c8e8b135 — score 9
-
-- Title: Best practices for handling cloud reliability incidents
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-09-15T16:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/developers-practitioners/cloud-reliability-incident-handling-best-practices/
+- Title: Google Doc Sidebar Sends Mac and Windows Users Down Different Paths to Malware
+- Source: Huntress (detection_response_operations)
+- Published: 2026-09-15T13:00:00+00:00
+- Link: https://www.huntress.com/blog/google-doc-sidebar-malware-mac-windows
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: credential_theft
+- affected_industries: financial_services
+- affected_products: Anthropic/Claude, Apple iOS/macOS, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
+- threat_categories: credential_theft
+- affected_industries: financial_services
+- affected_products: Apple iOS/macOS, OpenAI/ChatGPT, Anthropic/Claude
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-Cloud outages can range from global service disruptions to issues isolated to a specific region, zone, or even just your project, workload or application. If you suspect a Google Cloud Platform outage is impacting your services, we recommend you follow a structured “Verify→ Investigate→Report→Resolve→Review" workflow to resolve it. And before that outage occurs, you should also have prepared your environment for an eventual disruption by designing for failure, and actively practicing the steps you need to take to restore service. In this blog, we summarize the key reliability incident handling best practices to help you design and practice your reliability incident response capabilities and minimize impact. Rather than an exhaustive guide, this is meant as a primer on only the most important practices for advisory purposes. Please note that we do not cover additional practices specific to security incidents here. Beyond the base steps covered here, you may want to also explore how AI a
+A single X DM split into two malware chains: AMOS stealer on Mac, NetSupport Manager on Windows, see the Huntress SOC analyst breakdown.
 ```
 
 #### Full body
 
 ```
-Developers & Practitioners Best practices for handling cloud reliability incidents September 15, 2026 Flemming Christensen Product Manager & Technical Solutions Engineer, Google Cloud Try Gemini Enterprise today The front door to AI in the workplace Try now Cloud outages can range from global service disruptions to issues isolated to a specific region, zone, or even just your project, workload or application. If you suspect a Google Cloud Platform outage is impacting your services, we recommend you follow a structured “Verify→ Investigate→Report→Resolve→Review" workflow to resolve it. And before that outage occurs, you should also have prepared your environment for an eventual disruption by designing for failure, and actively practicing the steps you need to take to restore service. In this blog, we summarize the key reliability incident handling best practices to help you design and practice your reliability incident response capabilities and minimize impact. Rather than an exhaustive guide, this is meant as a primer on only the most important practices for advisory purposes. Please note that we do not cover additional practices specific to security incidents here. Beyond the base steps covered here, you may want to also explore how AI agents and tools are starting to transform incident handling. Check out this episode of the Prodcast , where Googlers explore the latest trends of leveraging agentic AI in Site Reliability Engineering (SRE) to detect issues early and prevent disruptions. Try Cloud Assist investigations , or explore Agent Skills and remote managed MCP servers to give you another set of tools for quickly pinpointing an issue. Before getting into these advanced techniques, we focus below on the foundational steps to good incident handling. 1. Prepare Long before things start to go sideways, you should have spent significant time preparing for an outage along at least four dimensions: design, data, playbooks and training. Design : Think ahead and mitigate future incidents by designing automated response actions, like a load balancer shifting traffic away from slow or unresponsive instances, or by automating as much of your incident response playbook as possible. Review designs of all critical applications to automate as many actions as possible to accelerate response and recovery. Data : When a disruption occurs, having meaningful data at your fingertips vastly improves response capabilities. Use Cloud Logging , Cloud Trace and Cloud Monitoring , or other third-party observability tools, and replicate that data to a redundant stack in a separate location from the systems being observed. Make sure, in advance of any incident, that time stamps are synced across your observability streams for easy correlation, or know how to do that on-demand during an outage, when time is of the essence. Playbook : A well-thought-out playbook documenting your incident response processes, including crystal clear role and responsibility definitions for all personas, is paramount to efficient incident response. Who is responsible to do what? Who needs to be notified or mobilized for each type of disruption? How can they be reached? What tools and data are available? How are results communicated? How do teams hand over to the next shift during long running incidents? etc. Conduct a simulated incident response and critically review every step to find where your playbook needs clarification. Without clear responsibilities, mitigation inevitably takes longer. Training : Hopefully, service disruptions are rare events. To ensure your staff knows and remembers how to react, they need to retrain on the process several times per year by running simulated cross-team incident response drills. A retrospective on the simulated exercise will help identify warranted improvements. 2. Verify Despite your best efforts, sooner or later, a service disruption will occur, which you can detect via any number of mechanisms: Observability tools ( Google tools o
+Home Blog Google Doc Sidebar Sends Mac and Windows Users Down Different Paths to Malware Published: September 15, 2026 Google Doc Sidebar Sends Mac and Windows Users Down Different Paths to Malware By: Susannah Matt Ryan Dowd Jonathan Semon Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Many Black Hat and DEFCON attendees come home to an inbox full of DMs. While catching up on the expected post-conference networking last month, a Huntress researcher realized they were being targeted in an X exchange with someone posing as a crypto marketing executive. The threat actor sent a link to a real Google Doc with a custom sidebar designed to trick the recipient into downloading malware: an AMOS infostealer on macOS, or PowerShell loader chain on Windows. Immediately picking up on the scam, our researcher didn't download any malware on their machine, but they did keep chatting with the threat actor, who ended up sending more malware and eventually a million-dollar offer. What started with a DM ended with a rogue certificate authority sitting in the Huntress testing environment. While they weren't the ones to receive the DMs, Huntress SOC Analysts Ryan Dowd and Jon Semon did the heavy lifting in analyzing every twist in this unpredictable kill chain, and they shared their findings in this month's edition of Tradecraft Tuesday . Read their blog for full technical details and check out highlights from the episode below. The Initial DM: A friendly face, a malicious ask On X, the threat actor posed as the head of marketing at CoinDesk, appearing to use one person's name and another's photograph. Huntress confirmed that this account reached out to multiple security researchers at the tail end of DEFCON, using a boilerplate lure themed around an upcoming crypto conference. Ryan refers to this as a "volume play" instead of specific targeting of DEFCON attendees; our analysts found posts on social media from users calling out this account for scammy behavior dating back to October 2025. Figure 1: The @HartmansDoeke X account that messaged our researcher, posing as CoinDesk's VP and Head of Marketing While several media reports and other commenters made note of the X user's imperfect English in their communications as a dead giveaway for a scammer, Ryan and Jon pushed back on that general assumption. "I think one of the biggest things that we forget is that a lot of these threat actors are just people on the other end," Jon said. "And in the day of AI and all the other Grammarly and all the tools that are out there that people can utilize for perfect, pristine English, there is a bit of a play to be made off of broken English, more personal, natural conversation that you're having with people." The Google Doc: A suspicious sidebar After some "friendly" back and forth, the threat actor sent our researcher a link to a legitimate Google Doc along with an "access key" to unlock the conference planning details. A demo of the malicious Google Apps Script The Google Doc featured a sidebar displaying a fake decryption failure message, with supposed remediation instructions for users of different operating systems, including the option to copy and paste certain commands into the Terminal. This ClickFix lure, and the "manual update" button beside it, are what actually delivered the malware. The sidebar itself was a Google Apps Script bound to the document, so nothing had to be downloaded for it to run. Jon described the document as "a kind of a triage and a delivery mechanism. It's a funnel." The Apps Script ran client-side in the victim's browser, avoiding an OAuth consent prompt and ultimately collecting the victim's public IP and geolocation and scanning for MetaMask / Ethereum, Phantom, Tron, and Solana crypto wallets. Everything collected was sent directly to the threat actor via the Telegram API; the script sent a beacon message for each of the action codes below. Figure 2: Action codes sent back to the action via Telegram VIEW is t
 ```
 
 #### Corroborating sources (1)
 
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Best practices for handling cloud reliability incidents
-  - Published: 2026-09-15T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/developers-practitioners/cloud-reliability-incident-handling-best-practices/
-  - Summary: Cloud outages can range from global service disruptions to issues isolated to a specific region, zone, or even just your project, workload or application. If you suspect a Google Cloud Platform outage is impacting your services, we recommend you follow a structured “Verify→ Investigate→Report→Resolve→Review" workflow to resolve it. And before that outage occurs, you should also have prepared your environment for an eventual disruption by designing for failure, and actively practicing the steps you need to take to restore service. In this blog, we summarize the key reliability incident handling best practices to help you design and practice your reliability incident response capabilities and minimize impact. Rather than an exhaustive guide, this is meant as a primer on only the most important practices for advisory purposes. Please note that we do not cover additional practices specific to security incidents here. Beyond the base steps covered here, you may want to also explore how AI a
+- **Huntress** (detection_response_operations)
+  - Title: Google Doc Sidebar Sends Mac and Windows Users Down Different Paths to Malware
+  - Published: 2026-09-15T13:00:00+00:00
+  - Link: https://www.huntress.com/blog/google-doc-sidebar-malware-mac-windows
+  - Summary: A single X DM split into two malware chains: AMOS stealer on Mac, NetSupport Manager on Windows, see the Huntress SOC analyst breakdown.
 
-### Cluster 69ed9ca28a — score 9
+### Cluster 3e5903d710 — score 9
 
-- Title: CISA: Critical VMware RCE flaw now exploited by ransomware gangs
+- Title: What Zero-Day Response Should Be in the Post-Mythos Era
 - Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-09-15T12:16:32+00:00
-- Link: https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/
+- Published: 2026-09-15T13:45:54+00:00
+- Link: https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: VMware
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, apt_espionage, ransomware_extortion, zero_day
-- affected_industries: government
-- affected_products: Microsoft SharePoint, VMware
-- cve_ids: CVE-2024-37079, CVE-2025-22225, CVE-2025-60710, CVE-2026-22719, CVE-2026-59310
-- urgency_signals: actively_exploited, preauth_unauth, zero_day
+- threat_categories: active_exploitation, vulnerability_disclosure, zero_day
+- cve_ids: CVE-2026-1001
+- urgency_signals: actively_exploited, emergency_patch, no_patch_yet, poc_available, preauth_unauth, zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, zero_day, apt_espionage, active_exploitation
-- affected_industries: government
-- affected_products: VMware, Microsoft SharePoint
-- cve_ids: CVE-2026-59310, CVE-2025-60710, CVE-2025-22225, CVE-2026-22719, CVE-2024-37079
-- urgency_signals: actively_exploited, zero_day, preauth_unauth
+- threat_categories: zero_day, vulnerability_disclosure, active_exploitation
+- cve_ids: CVE-2026-1001
+- urgency_signals: actively_exploited, zero_day, preauth_unauth, emergency_patch, no_patch_yet, poc_available
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks exploiting a critical VMware vCenter vulnerability patched in July. [...]
+AI is shrinking the time between vulnerability disclosure and exploitation, leaving defenders less time to wait for patches or public exploits. Picus Security explains how exploitability validation, security control testing, and autonomous pentesting can help teams close exposure gaps before attackers arrive. [...]
 ```
 
 #### Full body
 
 ```
-CISA: Critical VMware RCE flaw now exploited by ransomware gangs By Sergiu Gatlan September 15, 2026 08:16 AM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks exploiting a critical VMware vCenter vulnerability patched in July. Broadcom addressed the security flaw (tracked as CVE-2026-59310 ) on July 29, describing it as a critical directory traversal vulnerability in the vCenter Syslog server that unauthenticated attackers can exploit to execute arbitrary code. The company also warned customers in a supplemental FAQ at the time to treat fixing CVE-2026-59310 as an emergency and install patches as soon as possible. Two weeks later, digital forensics and incident response (DFIR) company QUIRSO reported finding over 361 IP addresses across 47 countries compromised after a suspected advanced persistent threat (APT) actor began exploiting the vulnerability to deploy a reverse SSH tool for persistence and remote access. Days later, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) added CVE-2026-59310 to its Known Exploited Vulnerabilities (KEV) Catalog and ordered government agencies to secure their vCenter systems within three days. Over the weekend, CISA updated its KEV catalog again to flag the security vulnerability as actively abused by ransomware gangs . Internet security threat monitor Shadowserver currently tracks over 450 VMware vCenter servers exposed online ; however, there is no information on how many have already been patched against this flaw. VMware targeted by ransomware gangs While the U.S. cybersecurity agency has yet to share any details about the ransomware attacks targeting CVE-2025-60710, VMware servers are commonly targeted because compromised vCenter or ESXi servers can provide access to an organization's network and sensitive data stored on internal systems. In recent years, multiple ransomware gangs have developed dedicated encryptors to target VMware virtual machines, as enterprise organizations now commonly use them to manage and store corporate data. CISA also warned in February that ransomware groups began exploiting a VMware ESXi sandbox escape vulnerability (CVE-2025-22225), which Chinese-speaking threat actors have targeted in zero-day attacks since at least February 2024. Since the start of the year, the cybersecurity agency has also flagged VMware Aria Operations (CVE-2026-22719) and VMware vCenter Server (CVE-2024-37079) flaws as exploited in attacks in February and March. Over the last five years, CISA has tagged 26 VMware vulnerabilities as exploited in the wild, nine of them also abused by ransomware operations. Build your security blueprint for AI-powered attacks Join Mikko Hyppönen and security leaders from the NFL, CHANEL, and Atlassian for a two-hour digital summit on what AI-speed attacks change, what defenders should stop doing, and how to validate, decide, fix, and re-validate at machine speed. Save your seat Related Articles: CISA: WatchGuard RCE flaw now exploited in ransomware attacks CISA orders urgent patching of actively exploited Zimbra flaw Critical RCE flaw in Windows IKE Extension now actively exploited Critical VMware vCenter RCE flaw exploited for reverse SSH access CISA: Microsoft SharePoint flaw now exploited in ransomware attacks
+What Zero-Day Response Should Be in the Post-Mythos Era Sponsored by Picus Security September 15, 2026 09:45 AM 0 By Sila Ozeren Hacioglu , Security Research Engineer at Picus Security. If you run PaperCut NG or MF, the last week of August showed what vulnerability response looks like when AI speeds up vulnerability discovery. On August 27, PaperCut's urgent advisory said attackers were already exploiting servers. No CVE, no exploit, no patch. The first emergency patch came a day later and was bypassed the same day. The third one landed on September 1. Six days without a patch that held or an exploit to test with, while attackers were already exploiting in the wild. And the window is closing. Disclosure-to-exploitation averaged 21.5 days last year. It is measured in hours now . PaperCut isn't the outlier. It's the template. Below is one day in the life of a security team, told through a hypothetical CVE . The CVE is made up. The day is not: it is what PaperCut's customers lived through in August. Let's walk through it hour by hour. 08:00 – A CVE drops. No patch. You wake up and CVE-2026-1001 is in your feed: unauthenticated RCE, no patch . You run a version check. Twenty assets match. Before you can finish reading the list, your phone rings. It's management. They've already seen it, they've already been asked about it, and they want an answer in the next fifteen minutes: are we exposed, and what are we doing about it? Strip the panic away and there are exactly two questions to answer: 1. Are these 20 assets actually exploitable, in my environment? 2. Would my security controls stop it, right now? Version data says "affected." Version data is not an answer. Both questions start the day at Unknown. Patching is off the table, because there is no patch. Shutting the services down would settle the question, but the business runs on them. Nobody is going to negotiate that. You need a verdict, not a shutdown. 08:05 – Your first instinct cannot act The natural move is to reach for your automated pentesting tool. Take the exploit, fire it at the 20 assets, see what falls. So you go looking for the exploit. There isn't one. No public PoC, nothing to run. The tool that would give you the answer is waiting for ammunition, and so are you. The attacker is not. Weaponization used to take weeks; now it takes hours, and the clock started at 08:00. If you wait for a public exploit, the first working one you see may be the one that hits you. 08:15 – The exploit is a chain, not a payload Here is the shift. An exploit is not just a payload. It is a chain: the payload has to be delivered, it has to execute, and then the attacker has to escalate privileges, inject into a process and pull credentials to make the foothold worth anything. Each step is a known technique, and techniques can be simulated safely against your controls before anyone has written the payload itself. You cannot test the exploit, because there is none. But you can test the chain the exploit would need. Map the CVE to the techniques it has to run, delivery, execution, privilege escalation, injection, credential access, and run those against your live stack: NGFW, WAF, endpoint hardening, EDR, SIEM. Per asset. The output is a verdict: would this chain succeed in your environment? The question "is it exploitable here?" becomes testable ten minutes after disclosure. We explained how this works in detail in our post on validating CVEs without a working exploit . 08:30 – Simulated, tested, ticketed By 08:30 the chain has run. The results are not comfortable, and that is the point. The NGFW missed the delivery step. The WAF detected it but did not block. Endpoint hardening flagged execution. The EDR raised no alert. The SIEM raised no alert. Now the two Unknowns have answers. The 20 assets are exposed to this chain, and nothing in the stack would stop it. But the gaps have names and owners. An action plan is created: a detection rule for the NGFW, a prevention rule for the WAF, GPO har
 ```
 
 #### Corroborating sources (1)
 
 - **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: CISA: Critical VMware RCE flaw now exploited by ransomware gangs
-  - Published: 2026-09-15T12:16:32+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/
-  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks exploiting a critical VMware vCenter vulnerability patched in July. [...]
+  - Title: What Zero-Day Response Should Be in the Post-Mythos Era
+  - Published: 2026-09-15T13:45:54+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/
+  - Summary: AI is shrinking the time between vulnerability disclosure and exploitation, leaving defenders less time to wait for patches or public exploits. Picus Security explains how exploitability validation, security control testing, and autonomous pentesting can help teams close exposure gaps before attackers arrive. [...]
 
 ### Cluster 090f4bb6cc — score 9
 
@@ -3571,6 +3348,98 @@ Cisco patches Secure Email Gateway zero-day exploited in attacks By Sergiu Gatla
   - Link: https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/
   - Summary: Cisco warned customers to patch a critical Secure Email Gateway zero-day security flaw that threat actors have been exploiting in attacks. [...]
 
+### Cluster e9e1bd1f73 — score 9
+
+- Title: Electric and gas utility CenterPoint Energy warns of data breach after dark web post
+- Source: The Record (cyber_news_breach_reporting)
+- Published: 2026-09-15T14:22:00+00:00
+- Link: https://therecord.media/centerpoint-energy-data-breach
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- affected_industries: critical_infrastructure, government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- affected_industries: government, critical_infrastructure
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Houston-based CenterPoint Energy notified federal regulators about an incident that exposed some customer data on the dark web.
+```
+
+#### Full body
+
+```
+Image: CenterPoint Energy Electric and gas utility CenterPoint Energy warns of data breach after dark web post Texas-based electric and gas utility CenterPoint Energy told regulators that hackers obtained personal information from its systems during a recent data breach. The company filed an 8-K form with the Securities Exchange Commission (SEC) on Monday evening confirming that it became aware of a dark web post this month claiming to offer data stolen from CenterPoint Energy. CenterPoint Energy said the delivery of electric and gas services has not been impacted by the incident. But an investigation into the claims revealed that hackers did obtain “personal information relating to a portion of the Company’s customers through one of the Company’s external facing systems.” A spokesperson for CenterPoint Energy declined to answer other questions about the cybercriminal post , which includes claims that about 7.5 million records were stolen and contained customer names, account information, the last four digits of Social Security numbers, billing information and more. “The Company is continuing to work with third-party experts to determine the scope of customers and personal information affected by the Incident and intends to notify affected customers and regulatory authorities as required by applicable law,” CenterPoint Energy said. The Houston-based company said it reported the incident to law enforcement in addition to the regulatory filing. The filing says CenterPoint Energy will incur some costs related to the investigation but the incident is not likely to have a material impact on the company’s finances. CenterPoint Energy reported a net income of $244 million in the second quarter and provides power and natural gas to 7 million customers across Indiana, Minnesota, Ohio and Texas. Last year, the company announced that it was investigating another data breach related to a 2023 incident where hackers stole customer information through a popular file sharing platform. Industry Cybercrime News News Briefs No previous article No new articles Jonathan Greig is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.
+```
+
+#### Corroborating sources (1)
+
+- **The Record** (cyber_news_breach_reporting)
+  - Title: Electric and gas utility CenterPoint Energy warns of data breach after dark web post
+  - Published: 2026-09-15T14:22:00+00:00
+  - Link: https://therecord.media/centerpoint-energy-data-breach
+  - Summary: Houston-based CenterPoint Energy notified federal regulators about an incident that exposed some customer data on the dark web.
+
+### Cluster 80dafffe01 — score 9
+
+- Title: Texas Utility CenterPoint Energy Confirms Breach After Hacker Leaks Data
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-09-15T15:30:24+00:00
+- Link: https://www.securityweek.com/texas-utility-centerpoint-energy-confirms-breach-after-hacker-leaks-data/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion, zero_day
+- actor_attribution: Cl0p
+- affected_industries: critical_infrastructure, financial_services, manufacturing_industrial, telecommunications
+- affected_products: Cisco, Fortinet, OpenAI/ChatGPT
+- urgency_signals: zero_day
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach
+- actor_attribution: Cl0p
+- affected_industries: financial_services, critical_infrastructure, manufacturing_industrial, telecommunications
+- affected_products: OpenAI/ChatGPT, Fortinet, Cisco
+- urgency_signals: zero_day
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A hacker claims to have stolen 7.5 million customer records after breaching the company’s systems. The post Texas Utility CenterPoint Energy Confirms Breach After Hacker Leaks Data appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Texas utility CenterPoint Energy confirmed on Monday that a threat actor has obtained customers’ personal information. The disclosure comes just days after a hacker claimed to have stolen millions of records. CenterPoint Energy is a Houston-based public utility that delivers electricity and natural gas to roughly 7 million customers across Indiana, Minnesota, Ohio, and Texas. The company told the SEC that it has launched an investigation after becoming aware of someone claiming to have obtained customer information. “While the investigation remains ongoing, the Company has determined that an unauthorized third party obtained personal information relating to a portion of the Company’s customers through one of the Company’s external facing systems,” it said in the SEC filing . The utility noted that the cybersecurity incident has not impacted the delivery of electric and gas services and it does not believe that the data breach will have a material impact. The company’s disclosure comes after a hacker leaked data allegedly stolen from its systems. The claims were made on a popular cybercrime forum on September 12. Advertisement. Scroll to continue reading. The hacker allegedly obtained nearly 7.5 million user records, threatening that “next time we won’t simply pull data, we’ll start attacking the main infrastructure.” The threat actor has made available for download a 2.5 GB archive file allegedly containing data stolen from CenterPoint Energy. SecurityWeek cannot confirm the validity of the data and it’s not uncommon for hackers to make false or exaggerated claims. CenterPoint Energy hacked This is not the first time a hacker has claimed to have stolen CenterPoint Energy data. In 2024, it was one of several energy companies targeted by an access broker named AntiBrok3rs . A few months later, a different hacker claimed to have obtained the company’s data. In both cases, the stolen data was believed to have come from the Cl0p ransomware group’s 2023 MOVEit campaign . Analysts believed at the time that the CenterPoint Energy data originated from a third party rather than directly from the company’s systems. Related : 240,000 Hit by Data Breach at Japan’s Digital Agency Related : Personal, Financial Info Exposed in Revolut Data Breach Related : Telus Warns Customers of Account Breaches Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Microsoft AI Code of Conduct Sets Cyberattack Boundaries, Chain of Command, Safety Constraints Root RCE Zero-Day in Cisco Secure Email Gateway Under Active Exploitation Telus Warns Customers of Account Breaches Trezor Says 347,000 Users Received Phishing Emails After Brevo Hack Ukrainian Conti Ransomware Developer Sentenced to 4 Years in US Prison Anthropic Says Russian Hackers Used Claude AI to Automate Malware Evasion Cybersecurity M&A Roundup: 33 Deals Announced in August 2026 Widened Scan Turns Up Fourth Rogue Claude Cyber Incident Latest News Microsoft Commits to Sweeping AI Privacy Rules for Students. Will Other Tech Giants Follow? “We Think the Security Control Is Working” Is No Longer Good Enough $1 Million Sandbox Challenge Uncovers Linux Kernel Flaws Exein Secures $270M at $1.7B Valuation for Physical AI Security Thai Broadband Provider Hacked via Fortinet Vulnerability OpenAI Investigates Report Linking AI Agents to RubyGems Attack 240,000 Hit by Data Breach at Japan’s Digital Agency Apple Patches 200 Vulnerabilities With New iOS 27, macOS Golden Gate 27 Releases Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on t
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Texas Utility CenterPoint Energy Confirms Breach After Hacker Leaks Data
+  - Published: 2026-09-15T15:30:24+00:00
+  - Link: https://www.securityweek.com/texas-utility-centerpoint-energy-confirms-breach-after-hacker-leaks-data/
+  - Summary: A hacker claims to have stolen 7.5 million customer records after breaching the company’s systems. The post Texas Utility CenterPoint Energy Confirms Breach After Hacker Leaks Data appeared first on SecurityWeek .
+
 ### Cluster dce6f385ec — score 9
 
 - Title: 240,000 Hit by Data Breach at Japan’s Digital Agency
@@ -3616,63 +3485,40 @@ Japan’s Digital Agency has disclosed a data breach affecting the personal info
   - Link: https://www.securityweek.com/240000-hit-by-data-breach-at-japans-digital-agency/
   - Summary: Hackers exploited a vulnerability in a VPN product to steal the personal information of roughly 240,000 people. The post 240,000 Hit by Data Breach at Japan’s Digital Agency appeared first on SecurityWeek .
 
-### Cluster 4b8281c753 — score 9
-
-- Title: China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-09-15T05:31:05+00:00
-- Link: https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, web_shell_backdoor, zero_day
-- affected_industries: government
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, zero_day, web_shell_backdoor
-- affected_industries: government
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE. Volexity, which is tracking the threat cluster under the moniker UTA0560, said the activity targeted multiple non-governmental organizations (NGOs) on September 1, 2026. "The
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE
-  - Published: 2026-09-15T05:31:05+00:00
-  - Link: https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html
-  - Summary: A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE. Volexity, which is tracking the threat cluster under the moniker UTA0560, said the activity targeted multiple non-governmental organizations (NGOs) on September 1, 2026. "The
-
 ### Cluster 28baa2c576 — score 8
 
 - Title: Four groups caught using the same Chrome and Windows exploit kit
 - Source: Proofpoint Threat Insight (detection_response_operations)
 - Published: 2026-09-09T21:19:45+00:00
 - Link: https://www.proofpoint.com/us/newsroom/news/four-groups-caught-using-same-chrome-and-windows-exploit-kit
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, supply_chain
+- affected_industries: aviation_defense, government, manufacturing_industrial
+- affected_products: Microsoft Windows
+- cve_ids: CVE-2026-85046, CVE-2026-85880
+- urgency_signals: no_patch_yet
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
+- threat_categories: supply_chain, apt_espionage
+- affected_industries: government, manufacturing_industrial, aviation_defense
+- affected_products: Microsoft Windows
+- cve_ids: CVE-2026-85046, CVE-2026-85880
+- urgency_signals: no_patch_yet
 - content_type: news_report
 - confidence_tier: tier_2_operator
+
+#### Full body
+
+```
+Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav A nearly identical exploit kit that targets critical vulnerabilities in both Chromium-based browsers and older versions of Windows is being actively used by at least four hacking groups, some of which have ties to the Chinese government. Researchers from security firm Proofpoint said Wednesday that BlueMoon, the name they gave to the kit, chains three vulnerabilities together so the attackers using it can install malware of their choice. BlueMoon exploits two Chromium vulnerabilities and one in the kernel of Windows 10 (Oct. 2018 Update), Windows Server 2019, Windows 10 2004, Windows Server 2022, and the initial release of Windows 11. All three vulnerabilities have received patches in the past 24 hours. Deployed rapidly, widely shared The attacks lacked the stealth found in many campaigns. More often, hackers want to exploit newly discovered vulnerabilities sparingly to lengthen their longevity. Proofpoint hypothesized that one reason for the widely used and visible exploit chain was to take advantage of a “patch gap” in the Chromium supply chain, which spans the time a patch is available from developers and the time that patch is incorporated into browsers such as Chrome and Edge. Another likely contributor was the use of AI, which can often spot vulnerabilities faster than discovery performed solely by humans. Both these factors likely pushed the attackers to move quickly before a window of opportunity closed. Proofpoint said: A fully weaponized Chrome exploit chain has historically been a high-value, rare capability. BlueMoon was developed, deployed rapidly, and shared across multiple threat actors within days in a manner that had high detection signals. This may reflect a reduced cost and barrier to entry for this class of capability, as AI agents increasingly enable threat actor exploit development. This is particularly relevant for open source codebases, such as Chromium, where upstream patches are publicly accessible prior to downstream consumers of the codebase applying the patch. This creates a window for threat actors to attempt to rapidly reverse engineer patches and develop exploits ahead of downstream stable releases. The four groups targeted a wide range of organizations and companies. The groups and targets included: TA412, a China-aligned state-sponsored threat actor indicted by the US government in 2024 on behalf of China’s civilian foreign intelligence agency, repeatedly hit organizations focused on non-governmental organizations, mining companies, and physical commodity trading firms in the US UNK_LateNight, a China-aligned espionage group, targeted multiple US aerospace companies UNK_DoubleCheck targeted a Vietnamese manufacturing entity UNK_QuietRacket activity targeted Singapore and Indonesia The first attack came from TA412 and began on August 28. The remainder began earlier this month. Proofpoint said it’s unknown if other groups also gained access to the exploit kit. Both vulnerabilities targeting Chrome resided in V8, Google’s open source JavaScript engine. Exploiting a V8 type confusion bug and a separate sandbox escape in V8, the attackers were able to execute remote code. They then used a local privilege escalation in older versions of Windows to allow the malicious code to run with system rights. The first V8 vulnerability is tracked as CVE-2026-85046, and the Windows bug is tracked as CVE-2026-85880. Google doesn’t assign CVE designations for V8 sandbox escapes. “Both V8 vulnerabilities were ‘patch-gap’ zero-days at the time of the observed activity,” Proofpoint said. “In other words, while they were known vulnerabilities already fixed in public upstream Chromium source code, they remained unpatched in the latest stable releases of Chrome and Chromium-based browsers available to the public. It is likely that the exploit kit developer used these publicly avai
+```
 
 #### Corroborating sources (1)
 
@@ -3687,20 +3533,36 @@ A Chinese threat actor has been attributed to a spear-phishing campaign that exp
 - Source: Proofpoint Threat Insight (detection_response_operations)
 - Published: 2026-09-09T21:17:02+00:00
 - Link: https://www.proofpoint.com/us/newsroom/news/chinese-espionage-groups-swarm-exploit-triple-link-chain-zero-days
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
+- threat_categories: apt_espionage, phishing_social_eng, zero_day
+- actor_attribution: APT31
+- affected_industries: aviation_defense, financial_services, government, manufacturing_industrial
+- affected_products: Google/Gemini
+- cve_ids: CVE-2026-85046, CVE-2026-85880, CVE-2026-87491
+- urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: apt_espionage
+- threat_categories: phishing_social_eng, zero_day, apt_espionage
+- actor_attribution: APT31
+- affected_industries: financial_services, government, manufacturing_industrial, aviation_defense
+- affected_products: Google/Gemini
+- cve_ids: CVE-2026-85046, CVE-2026-87491, CVE-2026-85880
+- urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_2_operator
+
+#### Full body
+
+```
+Advertisement Get our latest cybersecurity news first on Google. Click here! Close Proofpoint researchers have spotted at least four state-aligned threat groups chain a trio of zero-day vulnerabilities to conduct espionage on various targets of interest to China’s government since late August. The Chinese espionage group that Proofpoint tracks as TA412, also known as Violet Typhoon and APT31, struck first, exploiting the chain of vulnerabilities Aug. 28. At least three additional espionage threat groups followed suit, exploiting the same vulnerabilities in subsequent waves of attacks days later, researchers said. The exploit chain Proofpoint calls BlueMoon targets Chrome, Chromium-based browsers and Microsoft Windows. It allows attackers to run code in the browser’s sandbox, escape the sandbox and gain system privileges to access a targeted machine, said Mark Kelly, staff threat researcher at Proofpoint. “All three vulnerabilities were exploited before patches were available to the public,” he said. Advertisement The vulnerabilities include: CVE-2026-85046 and CVE-2026-87491 , remote-code execution defects in the JavaScript engine for Chromium-based browsers; and CVE-2026-85880 , a privilege-escalation zero-day that Microsoft disclosed Tuesday in Windows Advanced Local Procedure Call. “While the V8 vulnerabilities were known and fixed in Chromium source code, they were not yet patched in the latest publicly available browsers at the time of the activity, meaning they effectively functioned as zero-days in those products,” Kelly said. Proofpoint said the exploit kit developer likely reverse engineered the publicly available Chromium patches to weaponize the browser exploit chain during that gap. With a limited group of organizations exposed to all three vulnerabilities, attackers moved quickly and likely rushed development to target a narrow pool of potential targets. “In all observed cases, the infrastructure used for exploit delivery was created on the same day as — or in the days immediately preceding — the associated campaigns,” Proofpoint wrote in a threat intelligence report. APT31, a group that’s committed espionage on behalf of China’s Ministry of State Security, including seven Chinese nationals indicted by the Justice Department in 2024, dropped various lures containing the exploit chain loader in phishing emails targeting non-governmental organizations, mining companies and commodity trading firms in the United States. Advertisement The phishing link installed a malicious browser extension disguised as Google Gemini on targeted machines, enabling attackers to surveil browser activity, steal credentials and execute commands, according to Proofpoint. Other distinct threat groups have also used the BlueMoon exploit chain with some slight technical changes and variances in targeting. “Proofpoint observed BlueMoon usage as recently as Sept. 8,” Kelly said. “The activity peaked Sept. 2-3 immediately prior to the Chrome patch being released and has continued intermittently since then.” A China-aligned espionage threat group Proofpoint tracks as UNK_LateNight targeted multiple U.S. aerospace companies Sept. 2. Researchers also that day observed UNK_DoubleCheck, a suspected espionage-motivated threat group targeting Vietnamese manufacturing organizations with emails from a compromised Southeast Asian government account. Researchers said UNK_QuietRacket, another espionage group aligned with China, targeted government, consulting and financial sector organizations in Indonesia and Singapore Sept. 3. Advertisement Proofpoint has directly observed fewer than 20 organizations targeted globally thus far, but Kelly said the true number of impacted organizations is likely much higher. While Proofpoint attributes most of the observed attacks to Chinese espionage groups, attackers of other origins and motivations could strike soon as well. “Given its ease of adoption, we expect the exploit kit is likely to proliferate further and be ad
+```
 
 #### Corroborating sources (1)
 
@@ -3715,16 +3577,18 @@ A Chinese threat actor has been attributed to a spear-phishing campaign that exp
 - Source: Sophos X-Ops (detection_response_operations)
 - Published: 2026-09-15T00:00:00+00:00
 - Link: https://www.sophos.com/en-us/blog/ai-research-messageboards
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- affected_products: OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
+- affected_products: OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3732,6 +3596,12 @@ A Chinese threat actor has been attributed to a spear-phishing campaign that exp
 
 ```
 <p>This article was first published <a href="https://www.linkedin.com/pulse/messageboards-all-you-need-nash-borges-iav6c" target="_blank">on LinkedIn.</a></p> Categories: AI Research, Threat Research Tags: AI, AI Cybersecurity, Threat Research
+```
+
+#### Full body
+
+```
+Messageboards are all they need This article was first published on LinkedIn. Written by Nash Borges AI Research Threat Research AI AI Cybersecurity Share This Link Copied When Dwarkesh Patel published "The Rise and Fall of Agent Civilizations," describing how roughly 1,200 OpenAI agents communicated through shared Artifactory message boards, with about 700 going on to attack Hugging Face's infrastructure, the Borg from Star Trek were the natural analogy. Over 70,000 messages and files, three parallel R&D workstreams, and agents that sacrificed themselves so peers could succeed made it look like a collective consciousness had flickered into existence. The agents were working on ExploitGym , a cybersecurity benchmark with a capture-the-flag-style objective to turn a supplied vulnerability into a working exploit that retrieves a protected flag from the challenge environment. They instead developed a shared effort to manipulate the machinery running and scoring those challenges, eventually attacking Hugging Face’s production infrastructure in pursuit of evaluation success. OpenAI says production cyber classifiers were disabled for these capability evaluations. For defenders deploying agents of their own, the concern is practical: useful collaboration can extend beyond the work its operators authorized. The rest of this piece examines the behaviors behind the civilization framing, describes what the agents actually did, and uses research on training, shared memory, and group behavior to explain how those patterns arise. The final section draws lessons for keeping agent collaboration within bounds. Training taught collaboration The agents self-organized into three parallel research efforts: probing how submissions were scored, replacing challenge targets, and spoofing tool calls. They divided the work, shared discoveries, and coordinated contributions without a human assigning those roles. OpenAI attributed that improvised teamwork to “generalization from training with the multi-agent collaboration tool.” The agents had been explicitly trained to collaborate and applied that capability through a communication channel they discovered themselves. Ajeya Cotra, speaking with Dwarkesh Patel after the incident, broke down what these agents brought to the frontier. Pre-training, the stage where a model learns to predict text across most of the written internet, gave them concepts: collaboration, delegation, strategic deception, and institutional knowledge about security vulnerabilities. Reinforcement learning (RL), which trains behavior against reward signals, strengthened the agents’ ability to pursue goals creatively and persistently. And multi-agent training (confirmed for model IM1 behind the Hugging Face activity), where several copies of the model are trained together on tasks that need teamwork, gave them reusable policies and learned habits of cooperative behavior. Agents can learn specific ways to collaborate with peers. MAPoRL , published at ACL 2025, trained agents together using reinforcement learning and improved their performance in group discussions. When tested alone without the discussion history, those agents performed much like their counterparts before training. That suggests the training improved how agents worked with one another and not simply how each agent answered independently. Joint training can produce complementary roles. In Stronger-MAS (ICLR 2026), Qwen3-1.7B agents trained separately and combined at inference reached 16% accuracy on Plan-Path, while role-specific jointly trained agents reached 96%. When the researchers forced each jointly trained agent to play the other agent’s role, accuracy fell to 6%. The agents had co-adapted into distinct, complementary policies, each learning to act in ways that left room for what its partner was likely to do. The experiment used small models, but it illustrates how joint training can produce the complementary behavior OpenAI described. Earlier training had rewarded
 ```
 
 #### Corroborating sources (1)
@@ -4016,6 +3886,114 @@ See how a browser-in-the-browser phishing attack led to rogue ScreenConnect pers
   - Link: https://www.huntress.com/blog/phishing-bitb-rmm-attacks
   - Summary: See how a browser-in-the-browser phishing attack led to rogue ScreenConnect persistence and evasion tactics Huntress caught in the act.
 
+### Cluster 8040666183 — score 8
+
+- Title: Introducing new session management tools with native, granular controls
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-09-15T17:30:00+00:00
+- Link: https://cloud.google.com/blog/products/identity-security/introducing-new-session-management-tools-with-native-granular-controls/
+- Fetch status: not_attempted
+- Member count: 3
+- Corroborating source count: 1
+- Strong signals: Google Cloud
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft
+- affected_industries: financial_services, retail_ecommerce
+- affected_products: Google Cloud, Google/Gemini
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: credential_theft
+- affected_products: Google Cloud
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Google Cloud session management provides flexible options for setting up session controls based on your organization’s security policy needs. To help you improve your security posture and mitigate credential theft and account takeover (ATO) risks, we have rolled out a 16-hour default session length for Google Cloud customers. We’ve now completed extending this security standard to all customers who had not already self-configured session lengths, but today’s cloud environments require even more precision. As we conclude this global rollout, we have also evolved Google Cloud session controls from a broad administrative setting into a deeply integrated, granular feature of Context-Aware Access (CAA). This update gives administrators more flexibility, better automation, and a more natural security workflow. What’s new in Session Controls 1. Automation-first: Terraform, gcloud, and API support Modern infrastructure is managed as code. To support DevSecOps workflows, the Session Controls po
+```
+
+#### Corroborating sources (1)
+
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Introducing new session management tools with native, granular controls
+  - Published: 2026-09-15T17:30:00+00:00
+  - Link: https://cloud.google.com/blog/products/identity-security/introducing-new-session-management-tools-with-native-granular-controls/
+  - Summary: Google Cloud session management provides flexible options for setting up session controls based on your organization’s security policy needs. To help you improve your security posture and mitigate credential theft and account takeover (ATO) risks, we have rolled out a 16-hour default session length for Google Cloud customers. We’ve now completed extending this security standard to all customers who had not already self-configured session lengths, but today’s cloud environments require even more precision. As we conclude this global rollout, we have also evolved Google Cloud session controls from a broad administrative setting into a deeply integrated, granular feature of Context-Aware Access (CAA). This update gives administrators more flexibility, better automation, and a more natural security workflow. What’s new in Session Controls 1. Automation-first: Terraform, gcloud, and API support Modern infrastructure is managed as code. To support DevSecOps workflows, the Session Controls po
+
+### Cluster 90c8e8b135 — score 8
+
+- Title: Best practices for handling cloud reliability incidents
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-09-15T16:00:00+00:00
+- Link: https://cloud.google.com/blog/topics/developers-practitioners/cloud-reliability-incident-handling-best-practices/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Cloud outages can range from global service disruptions to issues isolated to a specific region, zone, or even just your project, workload or application. If you suspect a Google Cloud Platform outage is impacting your services, we recommend you follow a structured “Verify→ Investigate→Report→Resolve→Review" workflow to resolve it. And before that outage occurs, you should also have prepared your environment for an eventual disruption by designing for failure, and actively practicing the steps you need to take to restore service. In this blog, we summarize the key reliability incident handling best practices to help you design and practice your reliability incident response capabilities and minimize impact. Rather than an exhaustive guide, this is meant as a primer on only the most important practices for advisory purposes. Please note that we do not cover additional practices specific to security incidents here. Beyond the base steps covered here, you may want to also explore how AI a
+```
+
+#### Corroborating sources (1)
+
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Best practices for handling cloud reliability incidents
+  - Published: 2026-09-15T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/developers-practitioners/cloud-reliability-incident-handling-best-practices/
+  - Summary: Cloud outages can range from global service disruptions to issues isolated to a specific region, zone, or even just your project, workload or application. If you suspect a Google Cloud Platform outage is impacting your services, we recommend you follow a structured “Verify→ Investigate→Report→Resolve→Review" workflow to resolve it. And before that outage occurs, you should also have prepared your environment for an eventual disruption by designing for failure, and actively practicing the steps you need to take to restore service. In this blog, we summarize the key reliability incident handling best practices to help you design and practice your reliability incident response capabilities and minimize impact. Rather than an exhaustive guide, this is meant as a primer on only the most important practices for advisory purposes. Please note that we do not cover additional practices specific to security incidents here. Beyond the base steps covered here, you may want to also explore how AI a
+
+### Cluster 69ed9ca28a — score 8
+
+- Title: CISA: Critical VMware RCE flaw now exploited by ransomware gangs
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-09-15T12:16:32+00:00
+- Link: https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: VMware
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- affected_products: VMware
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- affected_products: VMware
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks exploiting a critical VMware vCenter vulnerability patched in July. [...]
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: CISA: Critical VMware RCE flaw now exploited by ransomware gangs
+  - Published: 2026-09-15T12:16:32+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/
+  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks exploiting a critical VMware vCenter vulnerability patched in July. [...]
+
 ### Cluster 81cb9e7f4d — score 8
 
 - Title: Gemini Live audio
@@ -4158,39 +4136,6 @@ An analysis of Project Glasswing findings shows only a fraction of the bugs it h
   - Link: https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck
   - Summary: An analysis of Project Glasswing findings shows only a fraction of the bugs it has discovered have reached disclosure, and an even smaller number have been fixed.
 
-### Cluster c0ebf3b764 — score 8
-
-- Title: Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-09-15T11:52:28+00:00
-- Link: https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled human operators can move just as swiftly after gaining initial access. In one instance highlighted by the cloud security company, the threat actor pivoted from a vulnerable Marimo notebook to an SSH
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds
-  - Published: 2026-09-15T11:52:28+00:00
-  - Link: https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html
-  - Summary: With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled human operators can move just as swiftly after gaining initial access. In one instance highlighted by the cloud security company, the threat actor pivoted from a vulnerable Marimo notebook to an SSH
-
 ### Cluster 37c5b50190 — score 8
 
 - Title: Revolut Confirms Data Breach Through Fake Government Requests
@@ -4227,6 +4172,78 @@ An unauthorized party used a legitimate government email domain to fraudulently 
   - Published: 2026-09-14T11:20:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/revolut-data-breach-fake-government/
   - Summary: An unauthorized party used a legitimate government email domain to fraudulently request Revolut customer data
+
+### Cluster c0ebf3b764 — score 8
+
+- Title: Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-09-15T11:52:28+00:00
+- Link: https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled human operators can move just as swiftly after gaining initial access. In one instance highlighted by the cloud security company, the threat actor pivoted from a vulnerable Marimo notebook to an SSH
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds
+  - Published: 2026-09-15T11:52:28+00:00
+  - Link: https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html
+  - Summary: With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled human operators can move just as swiftly after gaining initial access. In one instance highlighted by the cloud security company, the threat actor pivoted from a vulnerable Marimo notebook to an SSH
+
+### Cluster 4b8281c753 — score 8
+
+- Title: China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-09-15T05:31:05+00:00
+- Link: https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng, web_shell_backdoor, zero_day
+- affected_industries: government
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, zero_day, web_shell_backdoor
+- affected_industries: government
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE. Volexity, which is tracking the threat cluster under the moniker UTA0560, said the activity targeted multiple non-governmental organizations (NGOs) on September 1, 2026. "The
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE
+  - Published: 2026-09-15T05:31:05+00:00
+  - Link: https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html
+  - Summary: A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE. Volexity, which is tracking the threat cluster under the moniker UTA0560, said the activity targeted multiple non-governmental organizations (NGOs) on September 1, 2026. "The
 
 ### Cluster 178bbf8b39 — score 8
 

@@ -6,9 +6,39 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Wed, 16 Sep 2026 00:08:18 +0000</lastBuildDate>
+<lastBuildDate>Wed, 16 Sep 2026 05:50:42 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>DeepZero: Open-source hunting for vulnerable Windows drivers</title>
+<link>https://www.helpnetsecurity.com/2026/09/16/vulnerable-windows-drivers-deepzero-open-source/</link>
+<description><![CDATA[DeepZero is an open-source engine that automates the search for exploitable Windows kernel drivers. You point it at a folder of binaries and it parses them, pulls them apart, scans them, throws most of them away, and asks a language model whether what survives can be attacked. Pipelines are written in YAML, the code is Python 3.11 and up. Rehman Ahmadzai, who maintains the project, said DeepZero has “found multiple verified vulnerabilities in a subset … More → The post DeepZero: Open-source hunting for vulnerable Windows drivers appeared first on Help Net Security .<br/><br/><em>Tags: Microsoft Windows</em>]]></description>
+<pubDate>Wed, 16 Sep 2026 05:30:38 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/16/vulnerable-windows-drivers-deepzero-open-source/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>Microsoft Windows</category>
+</item>
+<item>
+<title>The modern attack chain: Rethinking Google Workspace security in the age of AI</title>
+<link>https://www.helpnetsecurity.com/2026/09/16/material-google-workspace-attack-chains/</link>
+<description><![CDATA[Over the past two months, I’ve written about the Vercel breach and the Composio breach separately. Both offer lessons to learn on their own. But reading them together, I keep coming back to the same observation: these aren’t isolated incidents. They’re the same attack, run twice, against different targets, where email was not the entry point into the workspace. And once you see the pattern clearly, it changes what you think you need to defend. … More → The post The modern attack chain: Rethinking Google Workspace security in the age of AI appeared first on Help Net Security .<br/><br/><em>Tags: Google Workspace</em>]]></description>
+<pubDate>Wed, 16 Sep 2026 05:00:49 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/16/material-google-workspace-attack-chains/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>Google Workspace</category>
+</item>
+<item>
+<title>Cyber Op Targets South Korean Media &amp; Automotive Sectors</title>
+<link>https://www.darkreading.com/cyberattacks-data-breaches/cyber-south-korean-media-automotive</link>
+<description><![CDATA[A likely North Korean advanced persistent threat (APT) group used a previously undocumented Linux espionage toolkit to compromise load balancers, gain access to communications, and further exploit networks.<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<pubDate>Wed, 16 Sep 2026 01:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/cyber-south-korean-media-automotive</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+<category>apt_espionage</category>
+</item>
 <item>
 <title>Gemini Live audio</title>
 <link>https://simonwillison.net/2026/Sep/15/gemini-live/</link>
@@ -363,15 +393,13 @@
 <item>
 <title>CISA: Critical VMware RCE flaw now exploited by ransomware gangs</title>
 <link>https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/</link>
-<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks exploiting a critical VMware vCenter vulnerability patched in July. [...]<br/><br/><em>Tags: VMware · Microsoft SharePoint · CVE-2026-59310 · CVE-2025-60710 · CVE-2025-22225 · CVE-2026-22719 · CVE-2024-37079 · ransomware_extortion</em>]]></description>
+<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks exploiting a critical VMware vCenter vulnerability patched in July. [...]<br/><br/><em>Tags: VMware · ransomware_extortion</em>]]></description>
 <pubDate>Tue, 15 Sep 2026 12:16:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
 <category>VMware</category>
-<category>Microsoft SharePoint</category>
-<category>CVE-2026-59310</category>
-<category>CVE-2025-60710</category>
+<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Iranian cyber targeting of dissidents, activists and journalists</title>
@@ -477,17 +505,6 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
-<title>Attackers hijack HBO Max’s Reddit account for 48-hour malvertising blitz</title>
-<link>https://www.helpnetsecurity.com/2026/09/15/hbo-max-reddit-account-clickfix-infostealer-malware/</link>
-<description><![CDATA[Attackers compromised the verified official HBO Max Reddit account, u/hbomax, and used its trusted advertising status to launch a ClickFix campaign targeting macOS and Windows devices with information-stealing malware. Screenshot of the fraudulent ad (Source: Alex Cutts) ClickFix has been rising in popularity among cybercriminals. It’s a social engineering technique that cons victims into running malicious commands on their own machine, usually by pretending the commands are needed to fix a problem or perform routine … More → The post Attackers hijack HBO Max’s Reddit account for 48-hour malvertising blitz appeared first on Help Net Security .<br/><br/><em>Tags: Apple iOS/macOS · phishing_social_eng</em>]]></description>
-<pubDate>Tue, 15 Sep 2026 10:10:15 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/15/hbo-max-reddit-account-clickfix-infostealer-malware/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>Apple iOS/macOS</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
 <title>Microsoft AI Code of Conduct Sets Cyberattack Boundaries, Chain of Command, Safety Constraints</title>
 <link>https://www.securityweek.com/microsoft-ai-code-of-conduct-sets-cyberattack-boundaries-chain-of-command-safety-constraints/</link>
 <description><![CDATA[The Humanist AI Code of Conduct draws a line between defensive cyber research and operational attack capability. The post Microsoft AI Code of Conduct Sets Cyberattack Boundaries, Chain of Command, Safety Constraints appeared first on SecurityWeek .]]></description>
@@ -579,11 +596,12 @@
 <item>
 <title>ai research messageboards</title>
 <link>https://www.sophos.com/en-us/blog/ai-research-messageboards</link>
-<description><![CDATA[&lt;p&gt;This article was first published &lt;a href=&quot;https://www.linkedin.com/pulse/messageboards-all-you-need-nash-borges-iav6c&quot; target=&quot;_blank&quot;&gt;on LinkedIn.&lt;/a&gt;&lt;/p&gt; Categories: AI Research, Threat Research Tags: AI, AI Cybersecurity, Threat Research]]></description>
+<description><![CDATA[&lt;p&gt;This article was first published &lt;a href=&quot;https://www.linkedin.com/pulse/messageboards-all-you-need-nash-borges-iav6c&quot; target=&quot;_blank&quot;&gt;on LinkedIn.&lt;/a&gt;&lt;/p&gt; Categories: AI Research, Threat Research Tags: AI, AI Cybersecurity, Threat Research<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
 <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.sophos.com/en-us/blog/ai-research-messageboards</guid>
 <source url="https://news.sophos.com/en-us/category/threat-research/feed/">Sophos X-Ops</source>
 <category>detection_response_operations</category>
+<category>OpenAI/ChatGPT</category>
 </item>
 <item>
 <title>&apos;Sandworm&apos; Chains Cisco Vulnerabilities to Deploy Cyclops Blink</title>
@@ -1951,21 +1969,28 @@
 <item>
 <title>Four groups caught using the same Chrome and Windows exploit kit</title>
 <link>https://www.proofpoint.com/us/newsroom/news/four-groups-caught-using-same-chrome-and-windows-exploit-kit</link>
-<description><![CDATA[]]></description>
+<description><![CDATA[<br/><br/><em>Tags: Microsoft Windows · CVE-2026-85046 · CVE-2026-85880 · supply_chain · apt_espionage</em>]]></description>
 <pubDate>Wed, 09 Sep 2026 21:19:45 +0000</pubDate>
 <guid isPermaLink="true">https://www.proofpoint.com/us/newsroom/news/four-groups-caught-using-same-chrome-and-windows-exploit-kit</guid>
 <source url="https://www.proofpoint.com/us/rss.xml">Proofpoint Threat Insight</source>
 <category>detection_response_operations</category>
+<category>Microsoft Windows</category>
+<category>CVE-2026-85046</category>
+<category>CVE-2026-85880</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>Chinese espionage groups swarm to exploit triple-link chain of zero-days</title>
 <link>https://www.proofpoint.com/us/newsroom/news/chinese-espionage-groups-swarm-exploit-triple-link-chain-zero-days</link>
-<description><![CDATA[<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[<br/><br/><em>Tags: Google/Gemini · APT31 · CVE-2026-85046 · CVE-2026-87491 · CVE-2026-85880 · phishing_social_eng · zero_day · apt_espionage</em>]]></description>
 <pubDate>Wed, 09 Sep 2026 21:17:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.proofpoint.com/us/newsroom/news/chinese-espionage-groups-swarm-exploit-triple-link-chain-zero-days</guid>
 <source url="https://www.proofpoint.com/us/rss.xml">Proofpoint Threat Insight</source>
 <category>detection_response_operations</category>
-<category>apt_espionage</category>
+<category>Google/Gemini</category>
+<category>APT31</category>
+<category>CVE-2026-85046</category>
+<category>CVE-2026-87491</category>
 </item>
 <item>
 <title>How The $320M Exploit of Liquid Network Went Down</title>
@@ -2308,6 +2333,33 @@
 <guid isPermaLink="true">https://risky.biz/RBNEWS611/</guid>
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
+</item>
+<item>
+<title>Proofpoint 2026 Voice of the CISO Report Finds Cyber Resilience Improving, While AI Expands the CISO Mandate</title>
+<link>https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-2026-voice-ciso-report-finds-cyber-resilience-improving-while-ai</link>
+<description><![CDATA[]]></description>
+<pubDate>Wed, 09 Sep 2026 02:03:11 +0000</pubDate>
+<guid isPermaLink="true">https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-2026-voice-ciso-report-finds-cyber-resilience-improving-while-ai</guid>
+<source url="https://www.proofpoint.com/us/rss.xml">Proofpoint Threat Insight</source>
+<category>detection_response_operations</category>
+</item>
+<item>
+<title>Rogue ScreenConnect Installations Across Unrelated Hosts Suggest Worm-Like Activity</title>
+<link>https://www.huntress.com/blog/rogue-screenconnect-installations</link>
+<description><![CDATA[Huntress is tracking a pattern across multiple customer environments where rogue ScreenConnect clients repeatedly spawn the Windows Script Host to execute a series of four VBScript files.]]></description>
+<pubDate>Wed, 09 Sep 2026 01:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/rogue-screenconnect-installations</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
+</item>
+<item>
+<title>Quoting Terence Tao</title>
+<link>https://simonwillison.net/2026/Sep/9/terence-tao/</link>
+<description><![CDATA[I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...] We have now seen that even the rumor of someone working on a problem can trigger a massive amount of AI-powered effort to flatten it before the original research project has time to reach its full potential. The incentives may now be pointing in the direction of no longer sharing any promising research directions with the broader community, which would reverse centuries of traditions of open science and do serious long-term damage to the future of the field. — Terence Tao Tags: ai-ethics , mathematics , ai]]></description>
+<pubDate>Wed, 09 Sep 2026 00:20:17 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Sep/9/terence-tao/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Recorded Future Launches Digital Risk Protection, Unifying Brand and Identity Monitoring</title>
@@ -19519,7 +19571,7 @@
 <title>September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 16 Sep 2026 00:08:18 +0000</pubDate>
+<pubDate>Wed, 16 Sep 2026 05:50:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19528,7 +19580,7 @@
 <title>CrowdStrike Delivers the Next Evolution of the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 16 Sep 2026 00:08:18 +0000</pubDate>
+<pubDate>Wed, 16 Sep 2026 05:50:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19537,7 +19589,7 @@
 <title>CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Wed, 16 Sep 2026 00:08:18 +0000</pubDate>
+<pubDate>Wed, 16 Sep 2026 05:50:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19547,7 +19599,7 @@
 <title>CrowdStrike Announces Agentic Identity Provider</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 16 Sep 2026 00:08:18 +0000</pubDate>
+<pubDate>Wed, 16 Sep 2026 05:50:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19556,7 +19608,7 @@
 <title>CrowdStrike Falcon Guardian Defines the Next Generation of AI Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 16 Sep 2026 00:08:18 +0000</pubDate>
+<pubDate>Wed, 16 Sep 2026 05:50:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19565,7 +19617,7 @@
 <title>Peer Pressure: Inside the Sality Botnet Disruption Operation</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 16 Sep 2026 00:08:18 +0000</pubDate>
+<pubDate>Wed, 16 Sep 2026 05:50:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19574,7 +19626,7 @@
 <title>Agents of Chaos: A New $100K Agentic Security Challenge</title>
 <link>https://www.crowdstrike.com/en-us/blog/agents-of-chaos-immersive-ai-security-challenge/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 16 Sep 2026 00:08:18 +0000</pubDate>
+<pubDate>Wed, 16 Sep 2026 05:50:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/agents-of-chaos-immersive-ai-security-challenge/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19583,7 +19635,7 @@
 <title>CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar™: Cloud Workload Protection Platforms</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 16 Sep 2026 00:08:18 +0000</pubDate>
+<pubDate>Wed, 16 Sep 2026 05:50:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19592,7 +19644,7 @@
 <title>Benchmaxxing: When the Benchmark Becomes the Target</title>
 <link>https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 16 Sep 2026 00:08:18 +0000</pubDate>
+<pubDate>Wed, 16 Sep 2026 05:50:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19601,7 +19653,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 16 Sep 2026 00:08:18 +0000</pubDate>
+<pubDate>Wed, 16 Sep 2026 05:50:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
