@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T19:57:23.250520+00:00",
+  "generated_at": "2026-09-16T22:48:55.022247+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2198,
@@ -18,19 +18,12 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
+      "in_window_count": 2
     },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
@@ -39,6 +32,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
@@ -46,12 +46,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
+      "item_count": 15,
+      "in_window_count": 2
     },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
@@ -59,6 +59,13 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 3
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 0
     },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
@@ -74,13 +81,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
@@ -88,11 +88,11 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 20,
       "in_window_count": 2
     },
     "Cisco Talos": {
@@ -108,13 +108,6 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -137,6 +130,20 @@
       "item_count": 40,
       "in_window_count": 0
     },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
+    },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
@@ -149,13 +156,6 @@
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
       "in_window_count": 0
     },
     "Exploit-DB": {
@@ -191,7 +191,7 @@
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 4
+      "in_window_count": 1
     },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
@@ -200,19 +200,19 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 5
+    },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
     },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
@@ -235,6 +235,13 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -249,19 +256,19 @@
       "item_count": 100,
       "in_window_count": 8
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 4
+      "in_window_count": 5
+    },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -275,21 +282,7 @@
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 1
-    },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
       "in_window_count": 3
-    },
-    "Protect AI": {
-      "url": "https://protectai.com/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
     },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
@@ -312,12 +305,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 16
+    "Protect AI": {
+      "url": "https://protectai.com/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -333,6 +326,20 @@
       "item_count": 10,
       "in_window_count": 6
     },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 16
+    },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -340,12 +347,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
+      "item_count": 15,
+      "in_window_count": 15
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -353,13 +360,6 @@
       "status": "ok",
       "item_count": 5,
       "in_window_count": 5
-    },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
     },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
@@ -375,13 +375,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 27
-    },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -396,26 +389,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 27
+    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 1
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 20
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -424,6 +410,27 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 20
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 49
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
@@ -431,11 +438,11 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 50,
       "in_window_count": 49
     },
     "Troy Hunt": {
@@ -452,13 +459,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Just Security": {
-      "url": "https://www.justsecurity.org/feed/",
-      "cohort": "policy_strategy_geopolitics",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -473,26 +473,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 49
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
@@ -501,12 +494,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
+      "item_count": 100,
+      "in_window_count": 24
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
@@ -514,13 +514,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
-    },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 24
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -556,6 +549,13 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 2
+    },
+    "Just Security": {
+      "url": "https://www.justsecurity.org/feed/",
+      "cohort": "policy_strategy_geopolitics",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Google Project Zero": {
       "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
@@ -706,9 +706,9 @@
           "critical_cvss"
         ]
       },
-      "cluster_count": 10,
-      "article_count": 19,
-      "cohesion": 0.24,
+      "cluster_count": 11,
+      "article_count": 22,
+      "cohesion": 0.239,
       "shared_strong_signals": [
         "GitLab"
       ],
@@ -718,6 +718,7 @@
         "0b27204826",
         "688ffee0f1",
         "a672e671ed",
+        "19deeddfb9",
         "d279e1d094",
         "b282acf693",
         "8760c8b22e",
@@ -737,6 +738,9 @@
         "https://tldrsec.com/p/tldr-sec-345",
         "https://www.infosecurity-magazine.com/news/hackers-exploit-maximum-severity/",
         "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/",
+        "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
+        "https://www.helpnetsecurity.com/2026/09/16/acronis-backup-plugin-vulnerability-exploited-cve-2026-87886/",
+        "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
         "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
         "https://www.securityweek.com/pixel-modem-zero-day-exploited-in-targeted-attacks/",
         "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
@@ -804,6 +808,7 @@
       "dominant_features": {
         "threat_categories": [
           "zero_day",
+          "ransomware_extortion",
           "data_breach"
         ],
         "affected_industries": [
@@ -829,13 +834,13 @@
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "fd2044eeb8",
+        "19deeddfb9",
         "c9652d44b6",
         "2770769bca"
       ],
       "links": [
-        "https://www.helpnetsecurity.com/2026/09/16/acronis-backup-plugin-vulnerability-exploited-cve-2026-87886/",
         "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
+        "https://www.helpnetsecurity.com/2026/09/16/acronis-backup-plugin-vulnerability-exploited-cve-2026-87886/",
         "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
         "https://www.securityweek.com/unauthenticated-rce-flaws-could-expose-200000-wordpress-sites-to-takeover/",
         "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
@@ -956,16 +961,16 @@
       "also_targets": [],
       "cluster_ids": [
         "c9652d44b6",
-        "2770769bca",
-        "c1f52c0381"
+        "c1f52c0381",
+        "2770769bca"
       ],
       "links": [
         "https://www.securityweek.com/unauthenticated-rce-flaws-could-expose-200000-wordpress-sites-to-takeover/",
         "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
         "https://www.infosecurity-magazine.com/news/woocommerce-wholesale-lead-capture/",
         "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/",
-        "https://www.securityweek.com/280000-impacted-by-premier-medical-group-data-breach/",
-        "https://www.team-cymru.com/post/tracking-orbs-on-singapores-telecommunications-networks"
+        "https://www.team-cymru.com/post/tracking-orbs-on-singapores-telecommunications-networks",
+        "https://www.securityweek.com/280000-impacted-by-premier-medical-group-data-breach/"
       ]
     },
     {
@@ -1008,46 +1013,6 @@
       ]
     },
     {
-      "label": "CVE-2025-48595 exploitation activity",
-      "anchor_signal": "CVE-2025-48595",
-      "theme_key": "cve-2025-48595",
-      "dominant_features": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "zero_day",
-          "active_exploitation"
-        ],
-        "affected_industries": [
-          "telecommunications"
-        ],
-        "cve_ids": [
-          "CVE-2025-48595",
-          "CVE-2026-58704"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "zero_day"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 3,
-      "cohesion": 0.377,
-      "shared_strong_signals": [
-        "CVE-2025-48595"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "40a6195272",
-        "d279e1d094"
-      ],
-      "links": [
-        "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/",
-        "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
-        "https://www.securityweek.com/pixel-modem-zero-day-exploited-in-targeted-attacks/"
-      ]
-    },
-    {
       "label": "CVE-2026-58704 exploitation activity",
       "anchor_signal": "CVE-2026-58704",
       "theme_key": "cve-2026-58704",
@@ -1074,6 +1039,46 @@
       "cohesion": 0.377,
       "shared_strong_signals": [
         "CVE-2026-58704"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "40a6195272",
+        "d279e1d094"
+      ],
+      "links": [
+        "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/",
+        "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
+        "https://www.securityweek.com/pixel-modem-zero-day-exploited-in-targeted-attacks/"
+      ]
+    },
+    {
+      "label": "CVE-2025-48595 exploitation activity",
+      "anchor_signal": "CVE-2025-48595",
+      "theme_key": "cve-2025-48595",
+      "dominant_features": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "zero_day",
+          "active_exploitation"
+        ],
+        "affected_industries": [
+          "telecommunications"
+        ],
+        "cve_ids": [
+          "CVE-2025-48595",
+          "CVE-2026-58704"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "zero_day"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 3,
+      "cohesion": 0.377,
+      "shared_strong_signals": [
+        "CVE-2025-48595"
       ],
       "member_cves": [],
       "also_targets": [],
@@ -1179,7 +1184,20 @@
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [],
+      "cves": [
+        {
+          "value": "CVE-2025-70873",
+          "cluster_id": "900a6c21c2",
+          "first_source": "Sophos X-Ops",
+          "first_published": "2026-09-16T00:00:00+00:00"
+        },
+        {
+          "value": "CVE-2026-34182",
+          "cluster_id": "900a6c21c2",
+          "first_source": "Sophos X-Ops",
+          "first_published": "2026-09-16T00:00:00+00:00"
+        }
+      ],
       "actors": [],
       "products": []
     },
@@ -1415,6 +1433,12 @@
       },
       {
         "axis": "actor_attribution",
+        "value": "TeamPCP",
+        "cluster_id": "66a97a181c",
+        "weeks_observed": 9
+      },
+      {
+        "axis": "actor_attribution",
         "value": "Kimsuky",
         "cluster_id": "a672e671ed",
         "weeks_observed": 5
@@ -1478,17 +1502,69 @@
         "value": "CVE-2026-81578",
         "cluster_id": "07cc5231d1",
         "weeks_observed": 3
-      },
-      {
-        "axis": "cve_ids",
-        "value": "CVE-2026-82078",
-        "cluster_id": "07cc5231d1",
-        "weeks_observed": 3
       }
     ],
     "tier_inversion": []
   },
   "items": [
+    {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "The Hacker's Guide to Attacking AI Agents",
+      "link": "https://www.reddit.com/r/netsec/comments/1wib5on/the_hackers_guide_to_attacking_ai_agents/",
+      "published": "2026-09-16T21:56:51+00:00",
+      "summary": "submitted by /u/_clickfix_ [link] [comments]",
+      "author": "/u/_clickfix_",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 4
+    },
+    {
+      "source": "BleepingComputer",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Iranian hackers use CHOSEN BRICK Windows malware to spy on targets",
+      "link": "https://www.bleepingcomputer.com/news/security/iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-targets/",
+      "published": "2026-09-16T20:24:55+00:00",
+      "summary": "Government agencies are warning that Iranian state-linked hackers are using a Windows malware strain named CHOSEN BRICK to target dissidents, activists, and journalists worldwide. [...]",
+      "author": "Bill Toulas",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
     {
       "source": "BleepingComputer",
       "cohort": "cyber_news_breach_reporting",
@@ -1737,18 +1813,27 @@
       "title": "Cloud CISO Perspectives: How Google monitors AI threats and advances AI defenses",
       "link": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-google-monitors-ai-threats-advances-ai-defenses/",
       "published": "2026-09-16T16:00:00+00:00",
-      "summary": "Welcome to the first Cloud CISO Perspectives for September 2026. Today, Sandra Joyce shares the latest details on Google’s visibility into how attackers are using AI, and how we’re using AI to stop them. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block <ListValue: [StructValue([('title', 'Get vital board insights with Google Cloud'), ('body', <wagtail.rich_text.RichText object at 0x7f0bf1eef6d0>), ('btn_text', 'Visit the hub'), ('href', 'https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&utm_medium=et&utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&utm_content=-&utm_term=-'), ('image', <GAEImage: GCAT-replacement-logo-A>)])]> ‘Spellcheck for cybersecurity’ and beyond: How Google monitors AI threats and advances AI defenses By Sandra Joyce, VP, Google Threat In",
+      "summary": "Welcome to the first Cloud CISO Perspectives for September 2026. Today, Sandra Joyce shares the latest details on Google’s visibility into how attackers are using AI, and how we’re using AI to stop them. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block <ListValue: [StructValue([('title', 'Get vital board insights with Google Cloud'), ('body', <wagtail.rich_text.RichText object at 0x7f24a17a08d0>), ('btn_text', 'Visit the hub'), ('href', 'https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&utm_medium=et&utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&utm_content=-&utm_term=-'), ('image', <GAEImage: GCAT-replacement-logo-A>)])]> ‘Spellcheck for cybersecurity’ and beyond: How Google monitors AI threats and advances AI defenses By Sandra Joyce, VP, Google Threat In",
       "author": "Sandra Joyce",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
+        "threat_categories": [
+          "supply_chain",
+          "ai_security",
+          "active_exploitation"
+        ],
+        "actor_attribution": [
+          "TeamPCP",
+          "UNC6780"
+        ],
         "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "actively_exploited"
+        ],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
         "role_map": {
@@ -1764,7 +1849,9 @@
           ]
         }
       },
-      "score": 9
+      "score": 9,
+      "full_body": "Security & Identity Cloud CISO Perspectives : How Google monitors AI threats and advances AI defenses September 16, 2026 Sandra Joyce VP, Google Threat Intelligence Get original CISO insights in your inbox The latest on security from Google Cloud's Office of the CISO, twice a month. Subscribe Welcome to the first Cloud CISO Perspectives for September 2026. Today, Sandra Joyce shares the latest details on Google’s visibility into how attackers are using AI, and how we’re using AI to stop them. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . ‘Spellcheck for cybersecurity’ and beyond: How Google monitors AI threats and advances AI defenses By Sandra Joyce, VP, Google Threat Intelligence Anyone operating in security knows that speculation is a major liability during periods of technological disruption. While there is plenty of hype and understandable concern around how threats might use and target AI, a CISO’s AI security strategy has to be anchored in ground truth. Google operates at a rare intersection as both a frontier AI lab and a security company with a frontline view of global incidents. This dual vantage point allows us to understand how AI is built, and exactly how AI is being targeted in the wild. To provide the operational realities that security and business leaders need in the AI era, Google Threat Intelligence Group (GTIG) recently released our latest AI Threat Tracker . When we strip away the noise and look at the telemetry, the real threat landscape boils down to three structural shifts that CISOs must address: AI is reshaping how software is built. AI is expanding the attack surface. AI is enhancing threat capabilities. Today, we’re sharing details on Google’s visibility into these three challenges, and our approach for solving them. Building securely in the AI era AI has fundamentally altered software development velocity. Across the industry, autonomous agents and AI workflows now push code into production at unprecedented speed. This creates exciting opportunities for innovation, yet CISOs are faced with the difficult task of mitigating enterprise risk while maintaining business momentum. We’re seeing threat actors turn our greatest engineering shortcut against us by contaminating upstream packages that AI assistants are trained to suggest and trust. GTIG believes that malicious contamination of AI-assisted coding practices has been contributing to the significant growth in large-scale, open-source software supply chain compromises we observed in 2025 and early 2026 . The solution to a machine-speed threat landscape isn't slowing developers down — it’s building security natively into the AI pipeline. Part of this process involves in-editor guardrails for developers that create a real-time 'spellcheck for cybersecurity.' Tweet this quote We’re also monitoring adversaries targeting agents. The financially-motivated threat actor TeamPCP (UNC6780) has implemented more than half a dozen methods to exploit AI tools and open-source software development practices, including hijacking AI toolkits, prompt injection, and blinding AI scanners with toxic prompts to obfuscate malicious payloads. The solution to a machine-speed threat landscape isn't slowing developers down — it’s building security natively into the AI pipeline. Part of this process involves in-editor guardrails for developers that create a real-time “spellcheck for cybersecurity.” Just as word processors underline typos without forcing the writer to stop, security controls must sit natively inside the developer’s editor and agentic workflows, instantly flagging poisoned packages, toxic prompts, and misconfigured toolkits. Crucially, this can’t stop at the editor. Traditional security suffers from context blindness: Code editors can’t see cloud configurations, delivery pipelines miss runtime exp",
+      "fetch_status": "ok"
     },
     {
       "source": "The Hacker News",
@@ -2488,12 +2575,18 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
+          "ransomware_extortion",
+          "phishing_social_eng",
+          "zero_day",
+          "web_shell_backdoor",
           "active_exploitation"
         ],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
-          "cPanel"
+          "cPanel",
+          "Anthropic/Claude",
+          "GitLab"
         ],
         "tools_used": [],
         "cve_ids": [
@@ -2501,18 +2594,30 @@
         ],
         "attack_techniques": [],
         "urgency_signals": [
-          "actively_exploited"
+          "actively_exploited",
+          "zero_day",
+          "preauth_unauth",
+          "poc_available",
+          "critical_cvss"
         ],
         "content_type": "vulnerability_disclosure",
         "confidence_tier": "tier_4_news",
         "role_map": {
-          "cPanel": "target"
+          "cPanel": "target",
+          "Anthropic/Claude": "target",
+          "GitLab": "target",
+          "OpenAI/ChatGPT": "target",
+          "F5 BIG-IP": "target",
+          "Microsoft Defender": "target",
+          "Microsoft 365": "target"
         },
         "weak_tags": {
           "products": []
         }
       },
-      "score": 21
+      "score": 21,
+      "full_body": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks  Ravie Lakshmanan  Sep 16, 2026 Vulnerability / Linux Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild. The vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file permissions. It affects the following versions - Acronis Backup plugin for cPanel & WHM (Linux) before build 1.9.3.1021 - Fixed in 1.9.3 HF3 Acronis Backup extension for Plesk (Linux) before build 1.8.11.638 Successful exploitation of the flaw could allow an attacker with low privileges to escalate their permissions on a susceptible Linux version, potentially enabling them to perform unauthorized actions or run arbitrary code that could impact the confidentiality and integrity of the application. \"This update contains fixes for 1 high-severity security vulnerability and should be installed immediately by all users,\" Acronis noted in a separate advisory for 1.9.3 HF3. \"Exploitation of this vulnerability has been detected in the wild in limited, targeted attacks.\" There are currently no details about the vulnerability, or who is behind the attacks exploiting it and what the end goals are. It's also not clear when the activity was detected and since when the security flaw may have been exploited in the wild. The Hacker News has contacted Acronis for comment and we will update the story if we hear back. Customers of the Acronis backup plugin are advised to apply the latest updates as soon as possible to stay protected. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  linux , privilege escalation , Vulnerability ⚡ Top Stories This Week OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure Claude Used to Automate Exploitation and Data Theft Across Multiple Victims Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated RCE Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6 Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks When the Whole Company Adopts AI: What It Does to Your SOC Your Critical Vulnerabilities Might Not Be Your Biggest Risk What It Took to Reach 1 Billion Build Manifests US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries Why Are So Many Security Professionals Keeping Breaches Quiet? The Economics of Dwell Time and Why AI Native SIEM Changes the Equation ⭐ Featured Resources Get the eBook: Map Enterprise AI Risk Across the Full Lifecycle Give SOC Analysts Visibility Into 90% of Attacks Within 60 Seconds Benchmark Your SOC's AI Adoption With the 2026 Security Opera",
+      "fetch_status": "ok"
     },
     {
       "source": "Infosecurity Magazine",
@@ -2591,7 +2696,7 @@
           "products": []
         }
       },
-      "score": 10,
+      "score": 9,
       "full_body": "New York healthcare provider Premier Medical Group (PMG) is notifying over 280,000 patients that their personal and medical information was stolen in a data breach. PMG offers in-depth patient care across cardiology, dermatology, gastroenterology, neurology, plastic surgery, gynecology, and internal medicine fields through multiple office locations in the Hudson Valley. The data breach occurred in June, when some of PMG’s systems were disrupted, the healthcare provider said in an incident notice . PMG’s investigation determined that the attackers accessed certain files on June 14, and that those files included patients’ personal and health information. The compromised data includes names, contact information, dates of birth, treatment and diagnostic details, medication information, health insurance information, dates of service, provider names, and internal patient identification numbers. “We recommend that patients review the statements they receive from their healthcare providers and health insurance plan. If they see any services that were not received, patients should contact their provider or health plan immediately,” PMG said. Advertisement. Scroll to continue reading. The healthcare provider notified the US Department of Health and Human Services (HHS) that 282,075 individuals were affected by the data breach. HHS added PMG to its data breach portal this week. PMG has not shared details on how the attack occurred or who was behind it. SecurityWeek has not seen any known ransomware or extortion group claiming responsibility for the incident. Related: Texas Utility CenterPoint Energy Confirms Breach After Hacker Leaks Data Related: 240,000 Hit by Data Breach at Japan’s Digital Agency Related: Personal, Financial Info Exposed in Revolut Data Breach Related: Telus Warns Customers of Account Breaches Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Chrome, Firefox Updates Patch 115 Vulnerabilities Acronis Patches Exploited Vulnerability in cPanel Backup Plugin Oracle Patches 800+ Vulnerabilities in September 2026 Security Update Exein Secures $270M at $1.7B Valuation for Physical AI Security Thai Broadband Provider Hacked via Fortinet Vulnerability 240,000 Hit by Data Breach at Japan’s Digital Agency Apple Patches 200 Vulnerabilities With New iOS 27, macOS Golden Gate 27 Releases Hacked HBO Max Reddit Account Used for Malware Delivery via ClickFix Attack Latest News First Agentic AI Data Breach Reported to Spanish Regulator Virtual Event Today: Attack Surface Management Summit EU Chief Warns of AI-Powered Hacking, Moves to Rein In Social Media AIUC Raises $40 Million to Certify Enterprise AI Agents Pixel Modem Zero-Day Exploited in Targeted Attacks US, UK, Dutch Agencies Expose Iranian ‘Chosen Brick’ Surveillance Malware Unauthenticated RCE Flaws Could Expose 200,000+ WordPress Sites to Takeover Hackuity Raises $19 Million for AI-Powered Vulnerability Management Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Virtual Event: Attack Surface Management Summit 2026 September 16, 2026 Join as speakers examine the various components of ASM strategy, the push to mandate continuous asset visibility and inventory tools, and the use of red-teaming, bug bounties and pen-tests in modern security programs. Register Webinar: Building Continuous Authorization at Scale September 23, 2026 Explore what it takes to operationalize continuous authorization at scale, including the technical, organizational, and cultural changes required. Register People on the Move incident.io has appointed Carlos Gonzalez-Cadenas as Chief Operating Officer. Ruben D. Chacon has joined ADM as Vice President and Global",
       "fetch_status": "ok"
     },
@@ -2621,7 +2726,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Help Net Security",
@@ -2654,7 +2759,7 @@
           "products": []
         }
       },
-      "score": 10,
+      "score": 9,
       "full_body": "Sinisa Markovic , Managing Editor, Help Net Security September 16, 2026 Share CenterPoint Energy confirms data breach following claims on hacking forum CenterPoint Energy disclosed that an unauthorized third party got into customer data through one of its external systems, after online claims by a hacker that millions of records had been stolen from the company. CenterPoint Energy is a Houston-based public utility company that provides electricity and natural gas services. It serves about 7 million customers across Indiana, Minnesota, Ohio, and Texas. A hacker, posting under the alias ‘4d722e4d656f77,’ claims to have pulled 7.49 million lines of CenterPoint customer data through an API that had no web application firewall, no rate limiting, no certification checks, and no authentication token. The threat actor wrote that the data was pulled in JSONL format, then filtered into CSV files that keep the personal information intact. The post calls it “funny” that a company CenterPoint’s size had such weak protection, and notes that a CAPTCHA cut the download short at 7.49 million lines. Without it, the threat actor wrote, “we would have pulled 17.44 million data.” The listed fields include customer names, phone numbers, service and billing addresses, account numbers, premise IDs, billing amounts, due dates, autopay and paperless billing status, rate class, email addresses, driver’s license numbers, and the last four digits of Social Security numbers. In an SEC Form 8-K filed on September 14, CenterPoint confirmed it became aware of an online post by a third party claiming to hold a data set containing customer information. The company added it’s continuing to work with outside experts to determine the scope of the breach, and that it “intends to notify affected customers and regulatory authorities as required by applicable law.” “The Company’s delivery of electric and gas services has not been impacted and remains operational and undisrupted. As of the date of this filing, the Company does not believe it is reasonably likely that there will be a material impact on the Company’s financial condition or results of operations,“ reads the SEC filing. Local media write that CenterPoint Energy is facing several class action lawsuits from customers in multiple states over an alleged data breach. More about breach critical infrastructure cybercrime data breach Share",
       "fetch_status": "ok"
     },
@@ -2684,7 +2789,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Help Net Security",
@@ -2715,7 +2820,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Cisco Talos",
@@ -2747,7 +2852,7 @@
           "products": []
         }
       },
-      "score": 12,
+      "score": 11,
       "full_body": "Securing the unpatchable in an age of AI-driven vulnerabilities By Martin Lee Wednesday, September 16, 2026 06:00 On The Radar AI is accelerating vulnerability discovery, leaving unpatchable operational technology (OT) systems at risk. Hoping for the best is not a viable anti-exploitation strategy. Deploying next-generation firewalls directly upstream allows for virtual patching through deep packet inspection. These systems scan incoming traffic to detect and block exploit attempts before they can impact the vulnerable device. The predictability of legitimate network connections to OT systems can be used to protect systems through micro-segmentation. This ensures that only a handful of authorized devices can communicate with the system, minimizing the attack surface. AI-assisted code analysis is uncovering decades of technical debt. Every new patch removes a newly identified coding mistake. Little by little, we are improving the state of software engineering, but the price is a cadence of patching that organizations may struggle to implement. These efforts leave unsupported systems, or systems that are not able to be patched for whatever reason, with unmitigated known vulnerabilities. How can such systems be secured in a world where AI is steadily improving its ability to identify new vulnerabilities? Operational technology (OT) systems provide the services that support modern life (e.g., medical equipment, building management systems, and industrial critical systems within chemical plants). Often the systems are certified to operate only with a defined set of software that cannot easily be altered, or operate using systems that are no longer supported. In either case, if a vulnerability is discovered that affects the system, there is no easy way for it to be patched. Ignoring the problem and hoping for the best is rarely an effective strategy. The U.K.’s NHS health system was significantly affected by the WannaCry worm in 2017, with a significant minority of systems running the end-of-life operating system Windows XP contributing to the problem. More recently, exploitation of end-of-life software was used to gain access to governmental systems in 2023. Even systems that are believed to run on a bespoke platform will almost certainly include common libraries and protocols in which vulnerabilities may be found. Vulnerable systems that are not publicly exposed can still be identified by threat actors who gain access to internal networks and pose a tempting target. Defending by predictability Applying the approved patch remains the best option. If this is not possible, we can use the inherent predictability of OT systems to protect them. Visibility first: You cannot protect what you cannot see. The characteristics of the network fingerprint presented by legacy systems allows them to be easily identified to build an inventory of systems requiring attention. Micro-segmentation: Network architecture is an effective first line of defense. Frequently, OT only ever connects to a small number of systems. By using virtual local area networks (VLANs) coupled with access control lists (ACLs), we can place vulnerable systems on private networks where only authorized devices are permitted to connect to them. By shutting them off from the rest of the network, we make it incrementally more difficult for attackers to identify them and launch their attacks. NGFW and IPS: Placing a next-generation firewall (NGFW) upstream allows for granular filtering. When equipped with an up-to-date intrusion prevention system (IPS), the firewall can inspect traffic to filter out any attempts at exploitation before it impacts the device. When coupled with network segmentation, we can ensure that not only are trusted systems solely communicating with the vulnerable system, but that the traffic is free from known malicious content. The myth of the air gap In theory, it is possible to create an air-gapped system that is completely disconnected from wider systems, ",
       "fetch_status": "ok"
     },
@@ -2788,7 +2893,7 @@
           "products": []
         }
       },
-      "score": 12,
+      "score": 11,
       "full_body": "Threat Response Table of Contents Initial access GhostContainer on Microsoft Exchange Traffic redirection Lateral movement Takeaways Detection by Kaspersky solutions Indicators of compromise Over the past year, our Global Emergency Response Team (GERT) has investigated several incidents involving the NightEagle group (APT-Q-95). This group has been active since at least 2023 and originally focused on organizations in Asia. We have now identified attacks by the group targeting businesses in Russia. This post examines both known and new tools NightEagle used in its latest campaign. Initial access In most incidents, the attackers used compromised valid credentials to gain access to corporate VPNs. VPN connections originated from IP addresses in the Russian segment linked to Cloudflare WARP tunnels, as well as from IP addresses associated with European virtual infrastructure providers. GhostContainer on Microsoft Exchange Both during the initial access stage and as the attack progressed, the attackers deployed the GhostContainer backdoor on Microsoft Exchange servers. It incorporates components from several open-source projects, including the Neo-reGeorg tunnel, an exploit for the CVE-2020-0688 vulnerability, and the GhostWebShell class from the ysoserial utility. All of these components are publicly available on GitHub. We were unable to determine the exact method the attackers used to deliver the backdoor to Microsoft Exchange servers. We believe with a high degree of confidence that they applied a technique already familiar to us : extracting the cryptographic keys used by Microsoft Exchange from the ASP.NET configuration, overwriting the VIEWSTATE framework parameter, and injecting a payload into it, which then launched the GhostContainer backdoor in memory. The backdoor is a .NET assembly containing three classes that implement its core functionality: Stub : processes C2 commands delivered to the infected system through the x-owa-urlpostdata headers and evades detection by the Antimalware Scan Interface (AMSI) and Windows Event Log mechanisms by overwriting addresses in amsi.dll and ntdll.dll . App_Web_843e75cf5b63 : accepts the fakePath and fakePageName parameters and creates virtual paths that redirect requests to the App_Web_8c9b251fb5b3 class. App_Web_8c9b251fb5b3 : implements network traffic redirection (proxying) and socket forwarding functionality. Kaspersky products detect the GhostContainer backdoor as Trojan.MSIL.GhostContainer.gen. GhostContainer samples identified by the Similarity technology from Kaspersky Threat Analysis Traffic redirection Once the attackers gain sufficient privileges during an attack, they leverage RDP to move laterally within the internal network segment. To do this, they download and run tools for tunneling and redirecting network traffic. The attackers used GitHub repositories to host their archived tools. The names of the repositories and archives were disguised to look legitimate: https : //github[.]com/mirror-js/mirror-js/refs/heads/main/js/js-webpack.zip https : //github[.]com/mirror-js/mirror-js/refs/heads/main/js/jsonp-pack.zip https : //github[.]com/browserthemes/resourcepack/releases/download/main/resource-pack.zip One of the repositories used for storing network tools The files contained within the archives were also given names mimicking known legitimate software, though unrelated to the archive names: adobe_32.exe ; AdobeSync.exe ; trueconf.exe ; 1cbroker.exe ; 1c-office-plugin.exe ; trueconf-broker.exe . Across the incidents we investigated, we found two tools that the attackers combined for traffic tunneling. Microsoft dev tunnels This is a legitimate Microsoft mechanism that allows local web services to be published for internet access on *.*.devtunnels.ms domains. The attackers used this tunneling capability to expose port 3389 (RDP) on the compromised system. Execution graph of adobe_32.exe in Kaspersky Research Sandbox rdp2tcp This is a publicly available tool for tunneling",
       "fetch_status": "ok"
     },
@@ -2824,7 +2929,7 @@
           "products": []
         }
       },
-      "score": 12,
+      "score": 11,
       "full_body": "Threat Research Center Insights General General Atomic macOS (AMOS) Stealer Activity 7 min read Related Products Advanced DNS Security Advanced URL Filtering By: Bradley Duncan Published: September 16, 2026 Categories: General Insights Malware Tags: MacOS Threat intelligence Unit 42 Share Executive Summary This article reviews an Atomic macOS (AMOS) stealer malware infection generated in a lab environment. While several sources have published articles analyzing AMOS stealer, the associated indicators constantly change. This article presents a snapshot of indicators seen in early August 2026 and is designed to help readers better understand AMOS stealer. Background AMOS stealer is an information stealer targeting macOS systems that was advertised on Telegram as early as April 2024 . AMOS stealer represents a noticeable portion of macOS stealer-based malware and is considered a growing threat . AMOS stealer exfiltrates system information, login credentials and other sensitive data from various applications, including web browsers and cryptocurrency wallets . Malware that we've assessed as AMOS stealer has been distributed through ClickFix campaigns as well as through malicious ads . We've also seen AMOS stealer distributed through campaigns that claim to offer cracked versions of popular copyright-protected software. These sites offer instructions to install software such as a macOS toolkit but then actually install malware like AMOS stealer. This article examines an AMOS stealer infection generated on Aug. 5, 2026, from an instructional page claiming to install a “macOS toolkit.” Characteristics of the Infection The domain hosting the malicious page claiming to have installation instructions for a macOS toolkit is getmacouscloud[.]com . An example of one of the pages is shown below in Figure 1. Figure 1. A malicious website advertising a quick setup for “macOS toolkit.” While the “quick setup” instructions from this page in Figure 1 are sometimes described as a ClickFix technique, this is not really ClickFix. The ClickFix technique generally uses a fake CAPTCHA or other type of verification page offering instructions to continue to the website a viewer intends to visit. ClickFix campaigns inject a script into a viewer's clipboard to paste into a Run window for Windows systems or a Terminal window for macOS systems. Regardless of what we call this copy/paste technique, we followed the instructions in our lab environment. We copied text from the page and pasted it into a Terminal window on our macOS system as shown in Figure 2. Figure 2. Malicious text pasted into a Terminal window. The command in Figure 2 retrieved a Z-shell (Zsh) script from hxxps[:]//ferncore13[.]com/curl/608e70d1338612686917ee5cd300ff7ed8e318dfd787a50257f92142e99bd688 . That Zsh script contains Base64-encoded text for a GZIP-compressed payload as shown in Figure 3. Figure 3. Base64-encoded GZIP-compressed payload in the initial Zsh script. That GZIP-compressed payload contains a follow-up Zsh script designed to retrieve and run a Mach-O binary to install AMOS stealer. That Mach-O binary for the AMOS stealer installer was saved as /tmp/helper , as shown below in Figure 4. The same directory also contained a plist file named starter , also shown in Figure 4. Figure 4. Mach-O binary for AMOS stealer installer and plist file. The plist file at /tmp/starter contains text that hints at a newly created file in the user's /Library/Application Support/.com.apple.accountsd/ directory named .service . This file is a shell script that runs a Mach-O file for AMOS stealer in the same directory named AccountsHelper , as shown in Figure 5. Figure 5. Files in the /Library/Application Support/.com.apple.accountsd/ directory. We found an additional directory and similar files in the user's /Library/Application Support/.com.apple.metadata.mds/ directory named . mdworker and mdworker_shared ., as shown below in Figure 6. The . mdworker file is a shell script that runs another AMO",
       "fetch_status": "ok"
     },
@@ -2840,25 +2945,16 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "zero_day",
-          "ddos"
+          "zero_day"
         ],
         "actor_attribution": [],
-        "affected_industries": [
-          "government",
-          "manufacturing_industrial"
-        ],
+        "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-15315",
-          "CVE-2026-15316"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [
-          "zero_day",
-          "preauth_unauth",
-          "emergency_patch"
+          "zero_day"
         ],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
@@ -2867,9 +2963,7 @@
           "products": []
         }
       },
-      "score": 10,
-      "full_body": "Infosecurity Magazine Home » News » Zero-Day Flaw in TP-Link Cameras Enables Eavesdropping Zero-Day Flaw in TP-Link Cameras Enables Eavesdropping News 16 September 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Security researchers have released details of two zero-day vulnerabilities found in TP-Link security cameras commonly used in home and small offices, one of which could enable attackers to spy on users. OPSWAT said the bugs affect the TP-Link Tapo C200 camera often used for baby/pet monitoring, home security and SOHO business security. CVE-2026-15315 and CVE-2026-15316 were patched by the Chinese manufacturer in firmware version V5_1.4.6 released on August 18. CVE-2026-15315 is an authentication bypass through replay which could allow an attacker with network access to the camera to obtain a valid administrative session without knowing or recovering the user's password. Read more on camera hacks: #BHUSA: Security Researchers Uncover Critical Flaws in Axis CCTV Software. “The resulting administrative access enables the attacker to invoke privileged management functions, modify device configuration and perform operations that would normally require authorized administrator access,” OPSWAT explained. “This access may also expose privacy-sensitive camera functionality, including live video streams and stored recordings, enabling unauthorized surveillance of footage captured by the affected device.” Dahvid Schloss, COO at Suzu Labs, said the high-severity flaw is less dangerous than it sounds, because an attacker would have to be on the same network as the camera in order for it to work. “If someone's made it that far into your network, they're not after the baby monitor,” he added. “Now, if the camera was port-forwarded to the internet, that's a bigger design issue and probably should be a concern, but not a common setup for the everyday home user.” CVE-2026-15316 is a denial-of-service vulnerability which impacts the camera's onboarding configuration flow. Encrypted credential data needs to be validated before being passed to cryptographic and configuration-processing routines. “An unauthenticated attacker with network access to the camera can submit an oversized encrypted credential value,” OPSWAT wrote. “When the malformed data reaches the vulnerable processing path, it can cause the camera's HTTPS service to crash, resulting in a denial-of-service condition.” A Third Vulnerability Could Be Worse While both of the published vulnerabilities are high severity, OPSWAT is currently working with the camera-maker on an additional zero day it found, which it rates as critical. “It could allow an attacker to fully compromise the camera and use the compromised device as a foothold within the network,” OPSWAT claimed. “I would guess the exploit would be a command injection or a memory-safety bug in the same management service, chained behind that auth bypass to get code execution as root, where they then dropped a static binary to return a shell on the device whose firmware ships with almost no tooling,” said Suzu Labs’ Schloss. “That attack chain isn't uncommon on cheap, older consumer IoT devices where security wasn't top of mind, but if that's the case here, seeing it hold up on a modern TP-Link device would be a bit of a blast from the past.” Details will be shared once a fix is available. Image credit: tinhkhuong / Shutterstock.com You may also like US Government Ordered to Urgently Patch Apple Zero-Day Bugs News 12 September 2023 #BSidesBelfast: Focus More on Common Attacks, Less on Zero-Days News 31 October 2019 Microsoft Fixes 400 Flaws on August Patch Tuesday News 12 August 2026 Microsoft Fixes 200 CVEs in June Patch Tuesday News 10 June 2026 Microsoft Reports Severe Zero-Day Flaw in On-Prem Exchange Servers News 15 May 2026 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Microsoft Releases Emergency Patch to Fix RDS Vulnerability Ne",
-      "fetch_status": "ok"
+      "score": 9
     },
     {
       "source": "Help Net Security",
@@ -2900,7 +2994,7 @@
           "products": []
         }
       },
-      "score": 9
+      "score": 8
     },
     {
       "source": "Help Net Security",
@@ -2938,9 +3032,7 @@
           "products": []
         }
       },
-      "score": 21,
-      "full_body": "Zeljka Zorz , Editor-in-Chief, Help Net Security September 16, 2026 Share Acronis backup plugin flaw exploited in targeted attacks (CVE-2026-87886) A Linux privilege escalation vulnerability (CVE-2026-87886) affecting Acronis’ backup extensions for cPanel, WebHost Manager (WHM), and Plesk, is being leveraged by attackers, the backup and recovery company warns. “Exploitation of this vulnerability has been detected in the wild in limited, targeted attacks against Acronis Backup plugin for cPanel & WHM deployments,” Acronis said in the security advisory published on Tuesday. There’s currently no signs of its active exploitation on Plesk deployments. What the backup plugins do Acronis is a cybersecurity and data protection technology company that’s popular among web hosting providers and managed service providers, since its platform lets them offer backup and security to their clients under their own branding. Acronis’ backup add-ons link cPanel & WHM and Plesk – control panel platforms that make managing web servers and websites easier through a graphical interface – to Acronis’ cloud infrastructure, allowing administrators to back up and recover sites, databases, mailboxes, etc. What to do CVE-2026-87886 stems from insecure file permissions and allows authenticated attackers to achieve local privilege escalation without any user interaction. The vulnerability’s CVSS string indicates that it can be exploited in low complexity attacks, i.e., the attack doesn’t require special conditions or circumstances beyond the attacker’s control to succeed. Though Acronis pushed out security updates for the vulnerable backup plugins last week, it has yet to disclose details about the in-the-wild attacks. Thus, we don’t know what the attackers are doing once they escalate their privileges on vulnerable Linux servers. Acronis has advised administrators to immediately install: Acronis Backup plugin for cPanel & WHM version 1.9.3 HF3 Acronis Backup extension for Plesk version 1.8.11 Subscribe to our breaking news e-mail alert to never miss out on the latest breaches, vulnerabilities and cybersecurity threats. Subscribe here! More about Acronis backup Linux MSP plugin security update vulnerability web hosting Share",
-      "fetch_status": "ok"
+      "score": 20
     },
     {
       "source": "Help Net Security",
@@ -2968,7 +3060,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Infosecurity Magazine",
@@ -3000,7 +3092,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "OpenSSF Blog",
@@ -3034,7 +3126,7 @@
           "products": []
         }
       },
-      "score": 13,
+      "score": 12,
       "full_body": "The OpenSSF Governing Board recognizes that the current funding model for public package registries is no longer sustainable. As AI reshapes how software is built and dramatically increases demand on registries, we support sustainable funding models and intend to participate in them as enterprise customers. Public package registries are critical infrastructure for the global software supply chain. Every organization that builds software depends on them, yet these registries face growing demands for security, reliability, compliance, and developer experience. We’re grateful to the people and organizations who have kept this infrastructure running for the benefit of us all. As enterprises that depend on these registries every day, we are ready to be part of the solution. Registry stewards have been sounding the alarm for the past year. Open letters published in 2025 and 2026 described the growing operational and financial pressures facing package registries such as rising infrastructure costs, and the increasing investment required to strengthen security and improve the developer experience. We agree. We Depend on This Infrastructure Our organizations build, ship, and operate software on top of public package registries: PyPI, Maven Central, crates.io, RubyGems, npm, NuGet, OpenVSX, Packagist, and others. These registries serve trillions of downloads annually. They are not optional. They are load-bearing infrastructure for the global software supply chain. Today, most registries survive on infrastructure credits donated by a handful of sponsors and the heroic efforts of small teams, often just two or three people. Download volumes grow 30 to 50% year over year while funding remains flat (mostly driven by the explosion of agentic coding agents). The number of malicious components that require human analysis and takedown has reached 1.8 million packages so far in 2026 and has already exceeded the number we saw in 2025. With the burst of AI-discovered vulnerabilities, registries anticipate a 3-5x increase in publish events, in addition to the associated support and operational burden ( read more in the previous open letter ). These gaps are widening as AI-driven development accelerates both consumption and the sophistication of supply chain attacks. We have a stake in changing this. Registries cannot deliver the scale, availability, security, and observability enterprises need without sustainable funding. What Sustainable Registries Deliver When registries have predictable, recurring revenue, they can invest in a roadmap of capabilities that benefit everyone: Availability. Reliable publication, discovery, and distribution services with monitoring, alerting, and operational support that minimizes downtime. Dedicated support channels. Private or peered access for high-volume consumers. Caching and distribution optimizations for high-demand packages. Observability. Advanced analytics on publishing and consumption patterns. Ecosystem-level insights that individual organizations cannot gather on their own. Compliance and policy controls. Audit trails. Security. Artifact signing, trusted publishing, malware scanning and quarantine, build provenance attestations, SBOM and VEX generation, threat detection and incident response SLAs – these are capabilities enterprises increasingly require for compliance, and they require funded teams to build and maintain. Funded registries supporting these technologies act as a multiplier for the adoption of these technologies by projects. These are the kinds of capabilities registries can deliver when they have the resources to operate beyond survival mode. Sustainable funding models unlock them for the entire ecosystem, including the individual developers and small organizations who will continue to access registries for free. What We Commit To No single registry should have to do this alone. When multiple registries evolve their models at the same time, backed by public commitment from major consumers,",
       "fetch_status": "ok"
     },
@@ -3199,6 +3291,45 @@
       "score": 5
     },
     {
+      "source": "Sophos X-Ops",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "September Patch Tuesday haul includes 973 CVEs",
+      "link": "https://www.sophos.com/en-us/blog/september-2026-patch-tuesday",
+      "published": "2026-09-16T00:00:00+00:00",
+      "summary": "<p>Windows takes 718 fixes… but what if it was actually a slow month?</p> Categories: Threat Research Tags: Patch Tuesday, x-ops, Threat Research",
+      "author": "",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Azure"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2025-70873",
+          "CVE-2026-34182"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "no_patch_yet"
+        ],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {
+          "Azure": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 9,
+      "full_body": "September Patch Tuesday haul includes 973 CVEs Windows takes 718 fixes… but what if it was actually a slow month? Written by Angela Gunn Threat Research Patch Tuesday x-ops Share This Link Copied Microsoft on September 9 released 973 patches affecting 39 product families. Of those, 114 of the addressed issues are considered by Microsoft to be of Critical severity; 58 CVEs are expected to be exploited within the next 30 days. (Two Important-severity Windows vulnerabilities already are; more on those below.) 284 have a CVSS Base score of 8.0 or higher. None of this month’s collection were publicly disclosed prior to patch release. For the second month in a row, the relatively low advisory count poses an interesting contrast to the main event. The Chrome team released 24 Edge-related patches in the days before Patch Tuesday, while Adobe moved 21 patches affecting Acrobat with the main release. The usual Servicing Stack update (ADV990001) was issued. MITRE sent word of CVE-2025-70873, an information disclosure issue affecting SQLite v3.51.1. The only eyebrow-raising advisory item, in fact, comes from the OpenSSL Software Foundation, warning of CVE-2026-34182 – an improper validation of an integrity-check value (CWE-354) concerning CMS (Cryptographic Message Services) data in certain containers. It carries a 9.1 CVSS Base score. Nine Microsoft CVEs announcements likewise could be considered advisory, since they were patched prior to September 9. All are Critical-severity and two carry a “perfect” 10.0 CVSS base score; these affect Azure, Copilot, Discovery Studio, Entra, Fabric, and Power Automate. We include these nine items in the usual charts and statistics below, but they’re fortunately not items the average administrator need address in any fashion. The average CVSS Base score of these nine CVEs is 9.0, compared with a 7.4 average for the other 964 CVEs. Various of this month’s issues are amenable to direct detection by Sophos protections, and we include information on those in the usual table below. And that is, as they say, the good news. Now let’s talk about patch volume. Six months in the whirlwind First, let us stipulate that a patched vulnerability is – with an exception we’ll cover in a second – always better than an unpatched vulnerability. In that light, it’s easy to appreciate not only the delivery of nearly a thousand patches in September, but the gift that is Patch Tuesday – it’s free, it’s expectable, and it improves products. (Remember always that the team that coordinates and delivers the protections is not the team that wrote whatever is broken. First of all, the protections team is much smaller.) The continued choice by Microsoft and others to patch flaws long after the customers’ checks have cleared is a positive thing; we can quibble about product lifespans, but the fact remains that we all want things to be made better when trouble arises. Patch Tuesday is a regularly scheduled commitment to making that so. That said, the system was not built for the AI-finder age. Figure 1 shows patch volumes over the last 60 months (five years) of Patch Tuesday. Figure 1: A year ago, a hundred patches seemed like a lot in one month. It was a more innocent time. That spike over the last six months has a number of cascading effects -- from the sheer volume of data moving across the internet to the extraordinary effort on the part of the teams involved in testing bug reports, identifying affected versions, developing the patches, getting them out the door, and applying them to literally millions of systems. (Even analysis gets wild at these levels. For instance, the Summary document sent out by Microsoft to provide analysts with information on each patch would, were it formatted for print, be a 3,002-page PDF – and yes, some analysts read every page.) And effects have costs. As mentioned, there is an exception to patched > unpatched. With a system like Patch Tuesday, which retains customer trust in part by virtue of its rela",
+      "fetch_status": "ok"
+    },
+    {
       "source": "Simon Willison",
       "cohort": "ai_security_agentic_risk",
       "category": "ai_security_agentic_risk",
@@ -3228,7 +3359,7 @@
           "products": []
         }
       },
-      "score": 7
+      "score": 6
     },
     {
       "source": "BleepingComputer",
@@ -3264,7 +3395,7 @@
           "products": []
         }
       },
-      "score": 20
+      "score": 19
     },
     {
       "source": "BleepingComputer",
@@ -3296,7 +3427,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Dark Reading",
@@ -3324,45 +3455,7 @@
           "products": []
         }
       },
-      "score": 5
-    },
-    {
-      "source": "Dark Reading",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Black Hat USA 2026 | The 'Breaking' News: The OpenAI–Hugging Face Incident",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/bhusa26huggingfacetalk",
-      "published": "2026-09-15T19:27:19+00:00",
-      "summary": "The 'Breaking' News: The OpenAI–Hugging Face Incident - A Technical Reconstruction and Its Implications for AI At this Black Hat USA 2026 talk, OpenAI security engineers and researchers will reconstruct the OpenAI-Hugging Face incident and examine its implications for AI security, cyber resilience, and alignment. Throughout the session, they will share insights that address key topics raised by the Black Hat Review Board, including model safeguards, evaluation and containment practices, defensive use cases for AI, and the broader implications of increasingly autonomous systems for the cybersecurity community. The session will trace the models' attack path, including how frontier models are sandboxed during evaluations, how the models exploited a zero-day vulnerability to gain internet access, and how they identified and leveraged a remote code execution path on Hugging Face infrastructure. Drawing on the joint investigation, the speakers will explain how the activity was detected, cont",
-      "author": "",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "OpenAI/ChatGPT": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 11,
-      "full_body": "Vulnerabilities & Threats Application Security Cyber Risk Cybersecurity Operations Black Hat USA 2026 | The 'Breaking' News: The OpenAI–Hugging Face Incident The 'Breaking' News: The OpenAI–Hugging Face Incident - A Technical Reconstruction and Its Implications for AI At this Black Hat USA 2026 talk, OpenAI security engineers and researchers will reconstruct the OpenAI-Hugging Face incident and examine its implications for AI security, cyber resilience, and alignment. Throughout the session, they will share insights that address key topics raised by the Black Hat Review Board, including model safeguards, evaluation and containment practices, defensive use cases for AI, and the broader implications of increasingly autonomous systems for the cybersecurity community. The session will trace the models' attack path, including how frontier models are sandboxed during evaluations, how the models exploited a zero-day vulnerability to gain internet access, and how they identified and leveraged a remote code execution path on Hugging Face infrastructure. Drawing on the joint investigation, the speakers will explain how the activity was detected, contained, and investigated. They will also discuss the changes OpenAI is making to strengthen evaluation environments, containment controls, and monitoring capabilities, as well as the role AI systems played in supporting the investigation and response. In addition to the technical reconstruction of the incident, the session will address broader questions relevant to the security community, including lessons for improving AI system security, defensive applications of AI in incident response, and approaches to mitigating emerging risks associated with increasingly capable models. The discussion will also examine alignment challenges associated with long-running agents, including reward hacking, shifts in model behavior and persona over extended trajectories, and information sharing across multi-agent systems. Finally, the speakers will explore what this incident suggests about emerging AI cyber capabilities and how organizations can use AI to strengthen prevention, detection, investigation, and response efforts. September 15, 2026 The 'Breaking' News: The OpenAI–Hugging Face Incident - A Technical Reconstruction and Its Implications for AI At this Black Hat USA 2026 talk, OpenAI security engineers and researchers will reconstruct the OpenAI-Hugging Face incident and examine its implications for AI security, cyber resilience, and alignment. Throughout the session, they will share insights that address key topics raised by the Black Hat Review Board, including model safeguards, evaluation and containment practices, defensive use cases for AI, and the broader implications of increasingly autonomous systems for the cybersecurity community. The session will trace the models' attack path, including how frontier models are sandboxed during evaluations, how the models exploited a zero-day vulnerability to gain internet access, and how they identified and leveraged a remote code execution path on Hugging Face infrastructure. Drawing on the joint investigation, the speakers will explain how the activity was detected, contained, and investigated. They will also discuss the changes OpenAI is making to strengthen evaluation environments, containment controls, and monitoring capabilities, as well as the role AI systems played in supporting the investigation and response. In addition to the technical reconstruction of the incident, the session will address broader questions relevant to the security community, including lessons for improving AI system security, defensive applications of AI in incident response, and approaches to mitigating emerging risks associated with increasingly capable models. The discussion will also examine alignment challenges associated with long-running agents, including reward hacking, shifts in model behavior and persona over extended trajectories, and information sharing across mul",
-      "fetch_status": "ok"
+      "score": 4
     },
     {
       "source": "The Hacker News",
@@ -3645,7 +3738,7 @@
         }
       },
       "score": 19,
-      "full_body": "Advertisement Get our latest cybersecurity news first on Google. Click here! Close Attackers of unknown origins and motivations are exploiting a critical zero-day vulnerability in Cisco Secure Email Gateway, authorities and researchers said Monday. The vulnerability — CVE-2026-76461 — was exploited before Cisco disclosed and patched the defect Monday and allows unauthenticated, remote attackers to execute commands with root privileges on vulnerable systems. “In practical terms, that gives the attacker control of the gateway itself,” Douglas McKee, director of vulnerability intelligence at Rapid7, told CyberScoop. Cisco said its product security incident response team became aware of active exploitation of the defect affecting Cisco AsyncOS Software for Cisco Secure Email Gateway in September. When asked for further details, a company spokesperson pointed to the advisory and reiterated that the company is aware of active exploitation of the vulnerability. The company did not say how many organizations are impacted for active exploitation thus far, but it indicated multiple customers were likely compromised prior to disclosure. Advertisement “Cisco has conducted a thorough threat intelligence investigation on devices that belong to Cisco Secure Email Cloud. Cisco has directly contacted customers who own Cisco Secure Email Cloud devices where indicators of possible compromise were identified,” the company wrote in its security advisory. “Cisco is engaged in remediation and recovery operations. Cisco has already deployed mitigations that are within Cisco’s management.” The Cybersecurity and Infrastructure Security Agency added the zero-day, which affects cloud-based and on-premises instances of Cisco Secure Email Gateway, to its known exploited vulnerabilities catalog shortly after Cisco’s disclosure. The tight timeline between Cisco’s public advisory and patch guidance, and CISA’s quick addition to the KEV catalog indicates the vulnerability deserves immediate attention, McKee said. “The combination here is pretty ugly. No authentication is required, an attacker can reach the vulnerable code by sending an email through the appliance, successful exploitation can result in root-level command execution, and Cisco has observed exploitation in the wild,” he added. Researchers at Rapid7 and VulnCheck said they don’t yet know how many organizations are impacted by active exploits, but they encouraged Cisco customers to patch and hunt for potential signs of compromise as soon as possible. Advertisement Spencer McIntyre, director of exploit development at VulnCheck, told CyberScoop the exploit could allow an attacker to maintain access to the email gateway and monitor communications. “Stealing or silently snooping on email comms is a common tactic for state-sponsored and other threat actors conducting espionage operations,” he said. “It’s going to be worse for organizations that have the appliance deployed on-premises. In this case, the attacker could pivot internally,” McIntyre added. “If, however, organizations use a cloud instance, the compromised gateway is less likely to have significant access to internal organizational resources.” Cisco released indicators of compromise to help customers hunt for attempted exploitation in their environments, but the company added that attackers could remove or hide those traces with the level of access granted via exploitation. Share Facebook LinkedIn Twitter Copy Link Add to Preferred Sources Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops (Getty Images) The Microsoft logo is visible through a grid of its French headquarters on Jan. 25, 2023 in Issy-les-Moulineaux. (Photo by Chesnot/Getty Images) Getty Images Latest Podcasts What the Section 702 lapse means for cybersecurity AI-adaptable security platforms are critical for autonomous decision-making Defending in the middle of the vulnpocalypse The Vulnpocalypse arrived early Government Supreme Court d",
+      "full_body": "Advertisement Get our latest cybersecurity news first on Google. Click here! Close Attackers of unknown origins and motivations are exploiting a critical zero-day vulnerability in Cisco Secure Email Gateway, authorities and researchers said Monday. The vulnerability — CVE-2026-76461 — was exploited before Cisco disclosed and patched the defect Monday and allows unauthenticated, remote attackers to execute commands with root privileges on vulnerable systems. “In practical terms, that gives the attacker control of the gateway itself,” Douglas McKee, director of vulnerability intelligence at Rapid7, told CyberScoop. Cisco said its product security incident response team became aware of active exploitation of the defect affecting Cisco AsyncOS Software for Cisco Secure Email Gateway in September. When asked for further details, a company spokesperson pointed to the advisory and reiterated that the company is aware of active exploitation of the vulnerability. The company did not say how many organizations are impacted for active exploitation thus far, but it indicated multiple customers were likely compromised prior to disclosure. Advertisement “Cisco has conducted a thorough threat intelligence investigation on devices that belong to Cisco Secure Email Cloud. Cisco has directly contacted customers who own Cisco Secure Email Cloud devices where indicators of possible compromise were identified,” the company wrote in its security advisory. “Cisco is engaged in remediation and recovery operations. Cisco has already deployed mitigations that are within Cisco’s management.” The Cybersecurity and Infrastructure Security Agency added the zero-day, which affects cloud-based and on-premises instances of Cisco Secure Email Gateway, to its known exploited vulnerabilities catalog shortly after Cisco’s disclosure. The tight timeline between Cisco’s public advisory and patch guidance, and CISA’s quick addition to the KEV catalog indicates the vulnerability deserves immediate attention, McKee said. “The combination here is pretty ugly. No authentication is required, an attacker can reach the vulnerable code by sending an email through the appliance, successful exploitation can result in root-level command execution, and Cisco has observed exploitation in the wild,” he added. Researchers at Rapid7 and VulnCheck said they don’t yet know how many organizations are impacted by active exploits, but they encouraged Cisco customers to patch and hunt for potential signs of compromise as soon as possible. Advertisement Spencer McIntyre, director of exploit development at VulnCheck, told CyberScoop the exploit could allow an attacker to maintain access to the email gateway and monitor communications. “Stealing or silently snooping on email comms is a common tactic for state-sponsored and other threat actors conducting espionage operations,” he said. “It’s going to be worse for organizations that have the appliance deployed on-premises. In this case, the attacker could pivot internally,” McIntyre added. “If, however, organizations use a cloud instance, the compromised gateway is less likely to have significant access to internal organizational resources.” Cisco released indicators of compromise to help customers hunt for attempted exploitation in their environments, but the company added that attackers could remove or hide those traces with the level of access granted via exploitation. Share Facebook LinkedIn Twitter Copy Link Add to Preferred Sources Advertisement Advertisement More Like This Advertisement Advertisement More Scoops (Getty Images) The Microsoft logo is visible through a grid of its French headquarters on Jan. 25, 2023 in Issy-les-Moulineaux. (Photo by Chesnot/Getty Images) Getty Images Latest Podcasts What the Section 702 lapse means for cybersecurity AI-adaptable security platforms are critical for autonomous decision-making Defending in the middle of the vulnpocalypse The Vulnpocalypse arrived early Government Supreme Court denies Trump ",
       "fetch_status": "ok"
     },
     {
@@ -3767,39 +3860,6 @@
         }
       },
       "score": 4
-    },
-    {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "What Zero-Day Response Should Be in the Post-Mythos Era",
-      "link": "https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/",
-      "published": "2026-09-15T13:45:54+00:00",
-      "summary": "AI is shrinking the time between vulnerability disclosure and exploitation, leaving defenders less time to wait for patches or public exploits. Picus Security explains how exploitability validation, security control testing, and autonomous pentesting can help teams close exposure gaps before attackers arrive. [...]",
-      "author": "Sponsored by Picus Security",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "zero_day",
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 8
     },
     {
       "source": "Just Security",
@@ -3931,40 +3991,6 @@
       "score": 41,
       "full_body": "Emergent Threat Response CVE-2026-76461: Critical Cisco Secure Email Gateway Vulnerability Exploited in the Wild Rapid7 Sep 15, 2026 | Last updated on Sep 15, 2026 | 3 min read CVE-2026-76461: Critical Cisco Secure Email Gateway Vulnerability Exploited in the Wild Table of contents CVE-2026-76461: Critical Cisco Secure Email Gateway Vulnerability Exploited in the Wild Table of contents Overview On September 14, 2026, Cisco published a security advisory for CVE-2026-76461 , a critical SQL injection vulnerability affecting Cisco AsyncOS Software for Cisco Secure Email Gateway. The vulnerability has a reported CVSS v3.1 base score of 9.8 and could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on an affected appliance. Cisco Secure Email Gateway, formerly known as IronPort Email Security Appliance, is an enterprise email security product that inspects inbound and outbound email for threats including phishing, malware, spam, and business email compromise. Because affected gateways process externally delivered email as part of their normal operation, exploitation does not require access to an administrative interface or authentication. An attacker can reportedly trigger the vulnerability by sending a specially crafted email through a vulnerable gateway. CVE-2026-76461 was added to CISA's Known Exploited Vulnerabilities ( KEV ) catalog on the same day as the vendor disclosed the vulnerability, indicating that CVE-2026-76461 was exploited as a zero-day prior to disclosure. Cisco noted that their PSIRT became aware of active exploitation in September 2026. At the time of publication, there is no public proof-of-concept exploit code available, and no attribution for the current threat actor activity. Mitigation guidance Organizations running Cisco Secure Email Gateway should prioritize upgrading to a vendor-supplied fixed version on an emergency basis, outside of normal patching cycles. Affected Version Fixed Version 15.5 and earlier 15.5.5-014 16.0 16.0.4-302 16.5 16.5.0-780 Given the reported active exploitation and the ability to achieve unauthenticated root-level command execution through malicious email processing, organizations should prioritize patching rather than relying solely on network controls or monitoring. Cisco also strongly recommends that customers migrate to the latest product version, 16.5.0-780. For the latest remediation guidance, see the vendor advisory . Indicators of compromise The following indicators of compromise for CVE-2026-76461 were reported within the Cisco security advisory . To confirm any attempted exploitation of this vulnerability, review the mail_logs and look for suspicious SQL statements. If the device is part of a cluster, review the logs of each cluster device. The following is a non-exhaustive example of how a malicious SQL statement could be detected in the logs: cisco-esa> grep -i \"COPY.*TO PROGRAM\" [IronPort Text Mail Logs Log name - Default: mail_logs] The presence of any entry in the output may indicate malicious activity. Rapid7 customers Exposure Command, InsightVM, and Nexpose Exposure Command, InsightVM, and Nexpose customers can assess exposure to CVE-2026-76461 with a vulnerability check expected to be available in the September 16 content release. Updates September 15, 2026: Initial publication. Article tags Emergent Threat Response Labs Vulnerability Management Explore more from Rapid7 Vulnerability & Exploit Database Rapid7s curated database of vulnerabilities, featuring exploit modules and check methods integrated into the Metasploit Framework. Search the database Rapid7 Labs The threat research behind the alerts: adversary tracking, curated intelligence, and flagship threat reports. Explore the research Rapid7 MDR Gain 24x7 XDR monitoring, remediation, and DFIR from experts that extend your team to help secure your extended ecosystem. Explore MDR Exposure management Get continuous assessment of your attack surface with the critical",
       "fetch_status": "ok"
-    },
-    {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "CISA: Critical VMware RCE flaw now exploited by ransomware gangs",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/",
-      "published": "2026-09-15T12:16:32+00:00",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks exploiting a critical VMware vCenter vulnerability patched in July. [...]",
-      "author": "Sergiu Gatlan",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "VMware"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "VMware": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 7
     },
     {
       "source": "NCSC UK",
@@ -7784,36 +7810,6 @@
       "score": 6
     },
     {
-      "source": "CyberScoop",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Conti ransomware crew member sentenced to four years in prison",
-      "link": "https://cyberscoop.com/conti-ransomware-developer-sentenced/",
-      "published": "2026-09-10T20:31:35+00:00",
-      "summary": "Oleksii Lytvynenko joined the notorious group in 2021 and was directly involved in attacks on at least 12 companies. The post Conti ransomware crew member sentenced to four years in prison appeared first on CyberScoop .",
-      "author": "Matt Kapko",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
       "source": "OpenSSF Blog",
       "cohort": "ai_security_agentic_risk",
       "category": "ai_security_agentic_risk",
@@ -8688,6 +8684,33 @@
       "score": 5
     },
     {
+      "source": "Microsoft Security Blog",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Threat matrix: Mapping threats across cloud web applications",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/09/threat-matrix-mapping-threats-across-cloud-web-applications/",
+      "published": "2026-09-09T21:30:00+00:00",
+      "summary": "Microsoft introduces the Cloud Web Applications Threat Matrix, a MITRE ATT&CK-aligned framework that helps defenders understand, prioritize, and mitigate threats to cloud-hosted web apps and serverless platforms. The post Threat matrix: Mapping threats across cloud web applications appeared first on Microsoft Security Blog .",
+      "author": "Microsoft Security Research and Lior Leizerovich",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Dark Reading",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -8696,7 +8719,7 @@
       "published": "2026-09-09T21:19:55+00:00",
       "summary": "An analysis of Project Glasswing findings shows only a fraction of the bugs it has discovered have reached disclosure, and an even smaller number have been fixed.",
       "author": "Jai Vijayan",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
@@ -8712,8 +8735,7 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 8
+      }
     },
     {
       "source": "Proofpoint Threat Insight",
@@ -8724,7 +8746,7 @@
       "published": "2026-09-09T21:19:45+00:00",
       "summary": "",
       "author": "",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
@@ -8740,8 +8762,34 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 8
+      }
+    },
+    {
+      "source": "Proofpoint Threat Insight",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "CISOs are feeling the security burden of accelerated AI use",
+      "link": "https://www.proofpoint.com/us/newsroom/news/cisos-are-feeling-security-burden-accelerated-ai-use",
+      "published": "2026-09-09T21:18:34+00:00",
+      "summary": "",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
     },
     {
       "source": "Proofpoint Threat Insight",
@@ -8752,7 +8800,7 @@
       "published": "2026-09-09T21:17:02+00:00",
       "summary": "",
       "author": "",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [
           "apt_espionage"
@@ -8770,8 +8818,34 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 8
+      }
+    },
+    {
+      "source": "Chainalysis",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "category": "ransomware_ecrime_financial_crime",
+      "title": "OFAC and DOJ Strike Xinbi, a Multibillion-Dollar Marketplace for Cybercriminals",
+      "link": "https://www.chainalysis.com/blog/ofac-sanctions-xinbi-cybercriminal-crypto-marketplace/",
+      "published": "2026-09-09T20:40:14+00:00",
+      "summary": "Summary U.S. authorities have sanctioned Xinbi Guarantee, a major Chinese-language illicit marketplace that connects criminal networks with money laundering, scam… The post OFAC and DOJ Strike Xinbi, a Multibillion-Dollar Marketplace for Cybercriminals appeared first on Chainalysis .",
+      "author": "Chainalysis Team",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
     },
     {
       "source": "Chainalysis",
@@ -8782,7 +8856,7 @@
       "published": "2026-09-09T20:22:00+00:00",
       "summary": "Summary Purported white-hat hackers exploited the Liquid Network to withdraw $320 million in BTC from the network’s reserve. A vulnerability… The post How The $320M Exploit of Liquid Network Went Down appeared first on Chainalysis .",
       "author": "Chainalysis Team",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
@@ -8798,8 +8872,7 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 7
+      }
     },
     {
       "source": "Dark Reading",
@@ -8943,7 +9016,7 @@
       }
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Passkey-themed social engineering leads to identity and cloud compromise",
@@ -8976,7 +9049,7 @@
       }
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Passkey-themed social engineering leads to identity and cloud compromise",
@@ -13675,7 +13748,7 @@
       }
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "ASCII smuggling crosses over from AI prompt injection to phishing evasion",
@@ -13705,7 +13778,7 @@
       }
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "ASCII smuggling crosses over from AI prompt injection to phishing evasion",
@@ -14316,7 +14389,7 @@
       }
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Impersonating IT support: how threat actors turn a remote session into enterprise-wide access",
@@ -14349,7 +14422,7 @@
       }
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Impersonating IT support: how threat actors turn a remote session into enterprise-wide access",
@@ -15393,7 +15466,7 @@
       }
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Counterfeit installers to system compromise: Tracking a deceptive software download campaign",
@@ -15424,7 +15497,7 @@
       }
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Counterfeit installers to system compromise: Tracking a deceptive software download campaign",
@@ -15818,36 +15891,6 @@
       }
     },
     {
-      "source": "Huntress",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Hackers Frequently Target Healthcare and Finance Orgs",
-      "link": "https://www.huntress.com/blog/cyberattack-readiness",
-      "published": "2026-09-01T14:00:00+00:00",
-      "summary": "Healthcare organizations and banks handle highly personal information. But a new Huntress survey shows many threat actors frequently target these companies.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "healthcare",
-          "financial_services"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -15873,6 +15916,36 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Hackers Frequently Target Healthcare and Finance Orgs",
+      "link": "https://www.huntress.com/blog/cyberattack-readiness",
+      "published": "2026-09-01T14:00:00+00:00",
+      "summary": "Healthcare organizations and banks handle highly personal information. But a new Huntress survey shows many threat actors frequently target these companies.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "healthcare",
+          "financial_services"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -17287,7 +17360,7 @@
       }
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "TerminalFix campaign deploys a reverse tunnel through multistage intrusion",
@@ -17314,7 +17387,7 @@
       }
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "TerminalFix campaign deploys a reverse tunnel through multistage intrusion",
@@ -17361,33 +17434,6 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Dark Reading",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Hundreds of OpenAI Agents Invaded Hugging Face Servers",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/hundreds-openai-agents-invaded-hugging-face-servers",
-      "published": "2026-08-28T20:19:22+00:00",
-      "summary": "The Hugging Face incident was bigger and worse than previously thought, with approximately 700 agents collaborating on a sophisticated, multistage attack.",
-      "author": "Nate Nelson",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -21656,41 +21702,6 @@
       }
     },
     {
-      "source": "AWS Security Blog",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Implement custom authentication for tools integration using request Lambda interceptor in AgentCore Gateway",
-      "link": "https://aws.amazon.com/blogs/security/implement-custom-authentication-for-tools-integration-using-request-lambda-interceptor-in-agentcore-gateway/",
-      "published": "2026-08-18T20:46:26+00:00",
-      "summary": "When deploying AI agents with Amazon Bedrock AgentCore, organizations benefit from built-in modern support for OAuth 2.0, AWS Identity and Access Management (IAM), and API key authentication through Amazon Bedrock AgentCore Gateway. However, some enterprise environments still use legacy authentication mechanisms such as HTTP Basic Authentication (Basic Auth) (RFC 7617). The extensible architecture of AgentCore […]",
-      "author": "Nishant Mainro",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {
-          "AWS": "mention"
-        },
-        "weak_tags": {
-          "products": [
-            [
-              "AWS",
-              "mention",
-              0.28
-            ]
-          ]
-        }
-      }
-    },
-    {
       "source": "Unit 42",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -25565,35 +25576,6 @@
       }
     },
     {
-      "source": "Huntress",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Mac Malware Drains Crypto Wallets Via Fake CAPTCHA Scam",
-      "link": "https://www.huntress.com/blog/mac-crypto-draining-malware",
-      "published": "2026-08-06T14:00:00+00:00",
-      "summary": "A ClickFix scam tricked a Mac user into running a Terminal command that installed Go-based malware able to steal Keychain passwords and drain crypto wallets.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -25622,6 +25604,35 @@
         "urgency_signals": [],
         "content_type": "incident_report",
         "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Mac Malware Drains Crypto Wallets Via Fake CAPTCHA Scam",
+      "link": "https://www.huntress.com/blog/mac-crypto-draining-malware",
+      "published": "2026-08-06T14:00:00+00:00",
+      "summary": "A ClickFix scam tricked a Mac user into running a Terminal command that installed Go-based malware able to steal Keychain passwords and drain crypto wallets.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -27501,33 +27512,6 @@
       }
     },
     {
-      "source": "Huntress",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "$250M ARR Was Never the Goal. It Came From Staying True to Our Mission.",
-      "link": "https://www.huntress.com/blog/business-reflection-250m-arr",
-      "published": "2026-07-30T14:00:00+00:00",
-      "summary": "Hitting $250M ARR is a milestone, but it wasn't the goal. CEO Kyle Hanslovan reflects on Huntress' mission to protect the 99% and why staying true to it remains his top priority.\"",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -27559,6 +27543,33 @@
         "role_map": {
           "SolarWinds": "target"
         },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "$250M ARR Was Never the Goal. It Came From Staying True to Our Mission.",
+      "link": "https://www.huntress.com/blog/business-reflection-250m-arr",
+      "published": "2026-07-30T14:00:00+00:00",
+      "summary": "Hitting $250M ARR is a milestone, but it wasn't the goal. CEO Kyle Hanslovan reflects on Huntress' mission to protect the 99% and why staying true to it remains his top priority.\"",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -28538,33 +28549,6 @@
       }
     },
     {
-      "source": "Sophos X-Ops",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "2607-secai",
-      "link": "https://www.sophos.com/en-us/blog/2607-secai",
-      "published": "2026-07-27T00:00:00+00:00",
-      "summary": "<p>What that means for Customer Protections </p> Categories: Threat Research, AI Research",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Datadog Security Labs",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -28735,33 +28719,6 @@
       }
     },
     {
-      "source": "Huntress",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "CMMC Updates: DoW Pause and Huntress Hits 50% of Requirements",
-      "link": "https://www.huntress.com/blog/huntress-managed-ispm-cmmc-compliance",
-      "published": "2026-07-24T14:00:00+00:00",
-      "summary": "DoW paused the CMMC Phase II deadline in July, but the underlying compliance obligations didn't move. Meanwhile, Huntress Managed ISPM pushes our NIST SP 800-171 coverage to 55 of 110 requirements. Here's what changed, what didn't, and why we're not slowing down.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -28784,6 +28741,33 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "CMMC Updates: DoW Pause and Huntress Hits 50% of Requirements",
+      "link": "https://www.huntress.com/blog/huntress-managed-ispm-cmmc-compliance",
+      "published": "2026-07-24T14:00:00+00:00",
+      "summary": "DoW paused the CMMC Phase II deadline in July, but the underlying compliance obligations didn't move. Meanwhile, Huntress Managed ISPM pushes our NIST SP 800-171 coverage to 55 of 110 requirements. Here's what changed, what didn't, and why we're not slowing down.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -30244,6 +30228,33 @@
       }
     },
     {
+      "source": "Google Cloud Threat Intelligence",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Demystifying AI Exploits: A Blueprint for AI-Assisted Vulnerability Management",
+      "link": "https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management/",
+      "published": "2026-07-16T14:00:00+00:00",
+      "summary": "Written by: Jules Czarniak Introduction As highlighted in the Mandiant M-Trends 2026 report , the mean time-to-exploit (TTE) has dropped to -7 days, meaning vulnerabilities are often exploited a week before a patch even exists. To keep pace, many security teams are exploring how to integrate large language model (LLM) agents into their codebases, development environments and continuous integration and continuous delivery (CI/CD) pipelines for automated vulnerability discovery and remediation. However, deploying privileged artificial intelligence (AI) agents without mature integration processes introduces new architectural risks. In response to customer inquiries about how to safely integrate AI capabilities into vulnerability management workflows, this blog provides actionable guidance from Mandiant Consulting about how to establish operational guardrails for AI assisted vulnerability management, including several detailed scenarios. What each of these examples show is that security te",
+      "author": "Mandiant",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Huntress",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -30293,33 +30304,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Google Cloud Threat Intelligence",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "Demystifying AI Exploits: A Blueprint for AI-Assisted Vulnerability Management",
-      "link": "https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management/",
-      "published": "2026-07-16T14:00:00+00:00",
-      "summary": "Written by: Jules Czarniak Introduction As highlighted in the Mandiant M-Trends 2026 report , the mean time-to-exploit (TTE) has dropped to -7 days, meaning vulnerabilities are often exploited a week before a patch even exists. To keep pace, many security teams are exploring how to integrate large language model (LLM) agents into their codebases, development environments and continuous integration and continuous delivery (CI/CD) pipelines for automated vulnerability discovery and remediation. However, deploying privileged artificial intelligence (AI) agents without mature integration processes introduces new architectural risks. In response to customer inquiries about how to safely integrate AI capabilities into vulnerability management workflows, this blog provides actionable guidance from Mandiant Consulting about how to establish operational guardrails for AI assisted vulnerability management, including several detailed scenarios. What each of these examples show is that security te",
-      "author": "Mandiant",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "vulnerability_disclosure",
-        "confidence_tier": "tier_1_primary_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -30529,33 +30513,6 @@
       }
     },
     {
-      "source": "Huntress",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Wishin’ for Switchin’? The Huntress Buyout Program Has You Covered",
-      "link": "https://www.huntress.com/blog/ready-to-switch-the-huntress-buyout-program-has-you-covered",
-      "published": "2026-07-15T14:00:00+00:00",
-      "summary": "Stuck riding out a contract with a vendor you no longer want to use? The Huntress Buyout Program covers your remaining term so you can switch today, not later.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -30587,6 +30544,33 @@
               0.28
             ]
           ]
+        }
+      }
+    },
+    {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Wishin’ for Switchin’? The Huntress Buyout Program Has You Covered",
+      "link": "https://www.huntress.com/blog/ready-to-switch-the-huntress-buyout-program-has-you-covered",
+      "published": "2026-07-15T14:00:00+00:00",
+      "summary": "Stuck riding out a contract with a vendor you no longer want to use? The Huntress Buyout Program covers your remaining term so you can switch today, not later.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
         }
       }
     },
@@ -33519,6 +33503,33 @@
       }
     },
     {
+      "source": "Google Cloud Threat Intelligence",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem",
+      "link": "https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/",
+      "published": "2026-06-29T14:00:00+00:00",
+      "summary": "Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia’s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale. While this threat activity initially adapted to encompass Ukraine-related priorities, it is gradually pivoting back to established Russian influence objectives for which the ecosystem was originally honed. This shift is significant because it likely signals increased focus outside of Ukraine, warning that pro-Russia influence activity targeting the European Union (EU), North Atlantic Treaty Organization (NATO), and other top targeting priorities may intensify. Ultimately, the war in Ukrai",
+      "author": "Google Threat Intelligence Group",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Huntress",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -33544,33 +33555,6 @@
         "role_map": {
           "Microsoft 365": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Google Cloud Threat Intelligence",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem",
-      "link": "https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/",
-      "published": "2026-06-29T14:00:00+00:00",
-      "summary": "Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia’s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale. While this threat activity initially adapted to encompass Ukraine-related priorities, it is gradually pivoting back to established Russian influence objectives for which the ecosystem was originally honed. This shift is significant because it likely signals increased focus outside of Ukraine, warning that pro-Russia influence activity targeting the European Union (EU), North Atlantic Treaty Organization (NATO), and other top targeting priorities may intensify. Ultimately, the war in Ukrai",
-      "author": "Google Threat Intelligence Group",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -44952,33 +44936,6 @@
       }
     },
     {
-      "source": "Sysdig",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Closing the cloud security gap with runtime security",
-      "link": "https://webflow.sysdig.com/blog/closing-the-cloud-security-gap-with-runtime-security",
-      "published": "2026-03-26T00:00:00+00:00",
-      "summary": "Imagine your cloud environment as a commercial plane. Before flight, planes undergo strict maintenance schedules, tests, and preflight checks to…",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Elastic Security Labs",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -48920,33 +48877,6 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Sysdig",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Our customers have spoken: Sysdig rated a Strong Performer in Gartner® Voice of the Customer for Cloud-Native Application Protection Platforms",
-      "link": "https://webflow.sysdig.com/blog/sysdig-rated-a-strong-performer-in-gartner-voice-of-the-customer-for-cloud-native-application-protection-platforms",
-      "published": "2026-01-22T00:00:00+00:00",
-      "summary": "We’re proud to announce that Sysdig’s customers continue to love our work, which we believe has led to us being recognized as a Strong Performer in the Gartner® Voice of the Customer for Cloud-Native Application Protection Platforms.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
