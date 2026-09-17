@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-09-16T22:48:54.996694+00:00
+- Generated: 2026-09-17T01:14:41.050730+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
-- Total items in window: 367
-- Total clusters raw: 181
+- Total items in window: 366
+- Total clusters raw: 179
 - Total clusters in packet: 77
-- Dropped low score: 104
+- Dropped low score: 102
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,16 +70,26 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
@@ -90,33 +100,8 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
@@ -125,8 +110,8 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
@@ -135,46 +120,51 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
   - Status: ok
-  - Item count: 10
-  - In window count: 6
+  - Item count: 50
+  - In window count: 2
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
-  - Item count: 78
+  - Item count: 15
+  - In window count: 2
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
   - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 6
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
@@ -185,6 +175,16 @@
   - Status: ok
   - Item count: 50
   - In window count: 1
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -210,16 +210,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Sophos X-Ops** (detection_response_operations)
-  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 5
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Sophos X-Ops** (detection_response_operations)
+  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 5
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
@@ -235,36 +235,36 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 8
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 8
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -275,6 +275,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 5
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
@@ -285,21 +290,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
@@ -310,6 +305,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -320,36 +320,41 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 27
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -365,25 +370,15 @@
   - Status: ok
   - Item count: 50
   - In window count: 20
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 49
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
-  - Item count: 50
+  - Item count: 100
   - In window count: 49
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
@@ -400,16 +395,21 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
@@ -425,16 +425,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 24
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 49
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -476,9 +476,9 @@
 ### GitLab active exploitation
 - Anchor signal: GitLab
 - Theme key: gitlab
-- Cluster count: 11
-- Article count: 22
-- Cohesion: 0.239
+- Cluster count: 10
+- Article count: 19
+- Cohesion: 0.24
 - Shared strong signals: GitLab
 - Member CVEs: (none)
 - Also targets: (none)
@@ -487,7 +487,7 @@
   - affected_industries: government
   - affected_products: GitLab, Anthropic/Claude, OpenAI/ChatGPT
   - urgency_signals: actively_exploited, preauth_unauth, zero_day, critical_cvss
-- Cluster IDs: 0b27204826, 688ffee0f1, a672e671ed, 19deeddfb9, d279e1d094, b282acf693, 8760c8b22e, 76bb72a333, 07cc5231d1, 4177169ade, 49753d82ce
+- Cluster IDs: 0b27204826, 688ffee0f1, a672e671ed, d279e1d094, b282acf693, 8760c8b22e, 76bb72a333, 07cc5231d1, 4177169ade, 49753d82ce
 - Links:
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-86218/
   - https://www.rapid7.com/blog/post/etr-cve-2026-85706-critical-gitlab-path-traversal-exploited-in-the-wild
@@ -499,9 +499,6 @@
   - https://tldrsec.com/p/tldr-sec-345
   - https://www.infosecurity-magazine.com/news/hackers-exploit-maximum-severity/
   - https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/
-  - https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html
-  - https://www.helpnetsecurity.com/2026/09/16/acronis-backup-plugin-vulnerability-exploited-cve-2026-87886/
-  - https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/
   - https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html
   - https://www.securityweek.com/pixel-modem-zero-day-exploited-in-targeted-attacks/
   - https://thehackernews.com/2026/09/active-exploitation-attempts-target.html
@@ -539,48 +536,25 @@
 - Anchor signal: cPanel
 - Theme key: cpanel
 - Cluster count: 3
-- Article count: 9
+- Article count: 8
 - Cohesion: 0.285
 - Shared strong signals: cPanel
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: zero_day, ransomware_extortion, data_breach
+  - threat_categories: zero_day, data_breach
   - affected_industries: healthcare, telecommunications
   - affected_products: cPanel, Fortinet, WordPress
   - urgency_signals: zero_day, preauth_unauth
-- Cluster IDs: 19deeddfb9, c9652d44b6, 2770769bca
+- Cluster IDs: fd2044eeb8, c9652d44b6, 2770769bca
 - Links:
-  - https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html
   - https://www.helpnetsecurity.com/2026/09/16/acronis-backup-plugin-vulnerability-exploited-cve-2026-87886/
+  - https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html
   - https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/
   - https://www.securityweek.com/unauthenticated-rce-flaws-could-expose-200000-wordpress-sites-to-takeover/
   - https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html
   - https://www.infosecurity-magazine.com/news/woocommerce-wholesale-lead-capture/
   - https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/
-  - https://www.securityweek.com/280000-impacted-by-premier-medical-group-data-breach/
-
-### zero day targeting WordPress
-- Anchor signal: WordPress
-- Theme key: wordpress
-- Cluster count: 3
-- Article count: 7
-- Cohesion: 0.376
-- Shared strong signals: WordPress
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day, data_breach
-  - affected_industries: healthcare, telecommunications
-  - affected_products: WordPress, Fortinet, cPanel
-  - urgency_signals: zero_day, preauth_unauth
-- Cluster IDs: c9652d44b6, 116709559f, 2770769bca
-- Links:
-  - https://www.securityweek.com/unauthenticated-rce-flaws-could-expose-200000-wordpress-sites-to-takeover/
-  - https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html
-  - https://www.infosecurity-magazine.com/news/woocommerce-wholesale-lead-capture/
-  - https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/
-  - https://www.securityweek.com/hackuity-raises-19-million-for-ai-powered-vulnerability-management/
   - https://www.securityweek.com/280000-impacted-by-premier-medical-group-data-breach/
 
 ### Cl0p: ransomware extortion
@@ -601,11 +575,34 @@
   - https://www.team-cymru.com/post/ransomware-infrastructure-analysis
   - https://www.team-cymru.com/post/radar-takes-the-guess-work-out-of-vulnerability-exposure-management
 
+### zero day targeting WordPress
+- Anchor signal: WordPress
+- Theme key: wordpress
+- Cluster count: 3
+- Article count: 6
+- Cohesion: 0.376
+- Shared strong signals: WordPress
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day, data_breach
+  - affected_industries: healthcare, telecommunications
+  - affected_products: WordPress, Fortinet, cPanel
+  - urgency_signals: zero_day, preauth_unauth
+- Cluster IDs: c9652d44b6, 116709559f, 2770769bca
+- Links:
+  - https://www.securityweek.com/unauthenticated-rce-flaws-could-expose-200000-wordpress-sites-to-takeover/
+  - https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html
+  - https://www.infosecurity-magazine.com/news/woocommerce-wholesale-lead-capture/
+  - https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/
+  - https://www.securityweek.com/hackuity-raises-19-million-for-ai-powered-vulnerability-management/
+  - https://www.securityweek.com/280000-impacted-by-premier-medical-group-data-breach/
+
 ### zero day targeting Fortinet
 - Anchor signal: Fortinet
 - Theme key: fortinet
 - Cluster count: 3
-- Article count: 7
+- Article count: 6
 - Cohesion: 0.272
 - Shared strong signals: Fortinet
 - Member CVEs: (none)
@@ -721,28 +718,30 @@
   - https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/
   - https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-goes-to-sixteen
 
-### Microsoft Defender vulnerability activity
-- Anchor signal: Microsoft Defender
-- Theme key: microsoft-defender
+### ransomware extortion targeting Android
+- Anchor signal: Android
+- Theme key: android
 - Cluster count: 2
-- Article count: 2
-- Cohesion: 0.2
-- Shared strong signals: Microsoft Defender
+- Article count: 4
+- Cohesion: 0.727
+- Shared strong signals: Android
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - affected_products: Microsoft Defender
-- Cluster IDs: 40a6195272, cccc588c10
+  - threat_categories: ransomware_extortion
+  - affected_industries: financial_services
+  - affected_products: Android
+- Cluster IDs: 9455898edc, c0ad859a7f
 - Links:
-  - https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/
-  - https://www.microsoft.com/en-us/security/blog/2026/09/10/detect-and-disrupt-ai-themed-attacks-with-microsoft-defender/
+  - https://research.checkpoint.com/2026/puzzlemask-abusing-plain-prose-as-a-covert-ai-attack-vector/
+  - https://grahamcluley.com/smashing-security-podcast-485/
+  - https://www.infosecurity-magazine.com/news/mantaxotax-android-malware/
+  - https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html
 
 ## Forward signals
 
 ### Novelty
-- Novel cves: 2
-  - CVE-2025-70873 (first seen via Sophos X-Ops at 2026-09-16T00:00:00+00:00, cluster 900a6c21c2)
-  - CVE-2026-34182 (first seen via Sophos X-Ops at 2026-09-16T00:00:00+00:00, cluster 900a6c21c2)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
@@ -1115,7 +1114,7 @@ Change log: September 11, 2026 3PM UTC: Corrected the HTTP method for CVE-2026-8
   - Link: https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild. Details of the vulnerabilities are as follows - CVE-2026-42016 (CVSS score: 8.1) - An incorrect authorization
 
-### Cluster a672e671ed — score 21
+### Cluster a672e671ed — score 20
 
 - Title: Critical ScreenConnect flaw now actively exploited in attacks
 - Source: BleepingComputer (cyber_news_breach_reporting)
@@ -1166,63 +1165,6 @@ Critical ScreenConnect flaw now actively exploited in attacks By Sergiu Gatlan S
   - Link: https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/
   - Summary: Attackers now exploit a critical-severity ConnectWise ScreenConnect vulnerability in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]
 
-### Cluster 19deeddfb9 — score 21
-
-- Title: Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-09-16T11:08:54+00:00
-- Link: https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
-- Strong signals: CVE-2026-87886, cPanel
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, phishing_social_eng, ransomware_extortion, web_shell_backdoor, zero_day
-- affected_products: Anthropic/Claude, GitLab, cPanel
-- cve_ids: CVE-2026-87886
-- urgency_signals: actively_exploited, critical_cvss, poc_available, preauth_unauth, zero_day
-- content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, web_shell_backdoor, active_exploitation
-- affected_products: cPanel, Anthropic/Claude, GitLab
-- cve_ids: CVE-2026-87886
-- urgency_signals: actively_exploited, zero_day, preauth_unauth, poc_available, critical_cvss
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild. The vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file permissions. It affects the following versions - Acronis Backup plugin for cPanel & WHM (Linux
-```
-
-#### Full body
-
-```
-Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks  Ravie Lakshmanan  Sep 16, 2026 Vulnerability / Linux Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild. The vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file permissions. It affects the following versions - Acronis Backup plugin for cPanel & WHM (Linux) before build 1.9.3.1021 - Fixed in 1.9.3 HF3 Acronis Backup extension for Plesk (Linux) before build 1.8.11.638 Successful exploitation of the flaw could allow an attacker with low privileges to escalate their permissions on a susceptible Linux version, potentially enabling them to perform unauthorized actions or run arbitrary code that could impact the confidentiality and integrity of the application. "This update contains fixes for 1 high-severity security vulnerability and should be installed immediately by all users," Acronis noted in a separate advisory for 1.9.3 HF3. "Exploitation of this vulnerability has been detected in the wild in limited, targeted attacks." There are currently no details about the vulnerability, or who is behind the attacks exploiting it and what the end goals are. It's also not clear when the activity was detected and since when the security flaw may have been exploited in the wild. The Hacker News has contacted Acronis for comment and we will update the story if we hear back. Customers of the Acronis backup plugin are advised to apply the latest updates as soon as possible to stay protected. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  linux , privilege escalation , Vulnerability ⚡ Top Stories This Week OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure Claude Used to Automate Exploitation and Data Theft Across Multiple Victims Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated RCE Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6 Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks When the Whole Company Adopts AI: What It Does to Your SOC Your Critical Vulnerabilities Might Not Be Your Biggest Risk What It Took to Reach 1 Billion Build Manifests US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries Why Are So Many Security Professionals Keeping Breaches Quiet? The Economics of Dwell Time and Why AI Native SIEM Changes the Equation ⭐ Featured Resources Get the eBook: Map Enterprise AI Risk Across the Full Lifecycle Give SOC Analysts Visibility Into 90% of Attacks Within 60 Seconds Benchmark Your SOC's AI Adoption With the 2026 Security Opera
-```
-
-#### Corroborating sources (3)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks
-  - Published: 2026-09-16T11:08:54+00:00
-  - Link: https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html
-  - Summary: Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild. The vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file permissions. It affects the following versions - Acronis Backup plugin for cPanel & WHM (Linux
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Acronis backup plugin flaw exploited in targeted attacks (CVE-2026-87886)
-  - Published: 2026-09-16T09:33:34+00:00
-  - Link: https://www.helpnetsecurity.com/2026/09/16/acronis-backup-plugin-vulnerability-exploited-cve-2026-87886/
-  - Summary: A Linux privilege escalation vulnerability (CVE-2026-87886) affecting Acronis’ backup extensions for cPanel, WebHost Manager (WHM), and Plesk, is being leveraged by attackers, the backup and recovery company warns. “Exploitation of this vulnerability has been detected in the wild in limited, targeted attacks against Acronis Backup plugin for cPanel & WHM deployments,” Acronis said in the security advisory published on Tuesday. There’s currently no signs of its active exploitation on Plesk deployments. What the backup plugins … More → The post Acronis backup plugin flaw exploited in targeted attacks (CVE-2026-87886) appeared first on Help Net Security .
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Acronis warns of actively exploited flaw in its cPanel backup plugin
-  - Published: 2026-09-15T21:37:35+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/
-  - Summary: Acronis disclosed a high-severity Linux local privilege escalation vulnerability in its backup plugin for cPanel, WebHost Manager (WHM), and Plesk that may be exploited in the wild. [...]
-
 ### Cluster 40a6195272 — score 20
 
 - Title: Google fixes actively exploited Android zero-day on Pixel devices
@@ -1271,6 +1213,63 @@ Google fixes actively exploited Android zero-day on Pixel devices By Sergiu Gatl
   - Published: 2026-09-16T07:00:19+00:00
   - Link: https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/
   - Summary: Google has released the September 2026 security patches to address 110 vulnerabilities affecting its Pixel devices, including one zero-day flaw actively exploited in targeted attacks. [...]
+
+### Cluster fd2044eeb8 — score 20
+
+- Title: Acronis backup plugin flaw exploited in targeted attacks (CVE-2026-87886)
+- Source: Help Net Security (cyber_news_breach_reporting)
+- Published: 2026-09-16T09:33:34+00:00
+- Link: https://www.helpnetsecurity.com/2026/09/16/acronis-backup-plugin-vulnerability-exploited-cve-2026-87886/
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 3
+- Strong signals: CVE-2026-87886, cPanel
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- affected_products: cPanel
+- cve_ids: CVE-2026-87886
+- urgency_signals: actively_exploited
+- content_type: news_report, vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- affected_products: cPanel
+- cve_ids: CVE-2026-87886
+- urgency_signals: actively_exploited
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A Linux privilege escalation vulnerability (CVE-2026-87886) affecting Acronis’ backup extensions for cPanel, WebHost Manager (WHM), and Plesk, is being leveraged by attackers, the backup and recovery company warns. “Exploitation of this vulnerability has been detected in the wild in limited, targeted attacks against Acronis Backup plugin for cPanel & WHM deployments,” Acronis said in the security advisory published on Tuesday. There’s currently no signs of its active exploitation on Plesk deployments. What the backup plugins … More → The post Acronis backup plugin flaw exploited in targeted attacks (CVE-2026-87886) appeared first on Help Net Security .
+```
+
+#### Full body
+
+```
+Zeljka Zorz , Editor-in-Chief, Help Net Security September 16, 2026 Share Acronis backup plugin flaw exploited in targeted attacks (CVE-2026-87886) A Linux privilege escalation vulnerability (CVE-2026-87886) affecting Acronis’ backup extensions for cPanel, WebHost Manager (WHM), and Plesk, is being leveraged by attackers, the backup and recovery company warns. “Exploitation of this vulnerability has been detected in the wild in limited, targeted attacks against Acronis Backup plugin for cPanel & WHM deployments,” Acronis said in the security advisory published on Tuesday. There’s currently no signs of its active exploitation on Plesk deployments. What the backup plugins do Acronis is a cybersecurity and data protection technology company that’s popular among web hosting providers and managed service providers, since its platform lets them offer backup and security to their clients under their own branding. Acronis’ backup add-ons link cPanel & WHM and Plesk – control panel platforms that make managing web servers and websites easier through a graphical interface – to Acronis’ cloud infrastructure, allowing administrators to back up and recover sites, databases, mailboxes, etc. What to do CVE-2026-87886 stems from insecure file permissions and allows authenticated attackers to achieve local privilege escalation without any user interaction. The vulnerability’s CVSS string indicates that it can be exploited in low complexity attacks, i.e., the attack doesn’t require special conditions or circumstances beyond the attacker’s control to succeed. Though Acronis pushed out security updates for the vulnerable backup plugins last week, it has yet to disclose details about the in-the-wild attacks. Thus, we don’t know what the attackers are doing once they escalate their privileges on vulnerable Linux servers. Acronis has advised administrators to immediately install: Acronis Backup plugin for cPanel & WHM version 1.9.3 HF3 Acronis Backup extension for Plesk version 1.8.11 Subscribe to our breaking news e-mail alert to never miss out on the latest breaches, vulnerabilities and cybersecurity threats. Subscribe here! More about Acronis backup Linux MSP plugin security update vulnerability web hosting Share
+```
+
+#### Corroborating sources (3)
+
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Acronis backup plugin flaw exploited in targeted attacks (CVE-2026-87886)
+  - Published: 2026-09-16T09:33:34+00:00
+  - Link: https://www.helpnetsecurity.com/2026/09/16/acronis-backup-plugin-vulnerability-exploited-cve-2026-87886/
+  - Summary: A Linux privilege escalation vulnerability (CVE-2026-87886) affecting Acronis’ backup extensions for cPanel, WebHost Manager (WHM), and Plesk, is being leveraged by attackers, the backup and recovery company warns. “Exploitation of this vulnerability has been detected in the wild in limited, targeted attacks against Acronis Backup plugin for cPanel & WHM deployments,” Acronis said in the security advisory published on Tuesday. There’s currently no signs of its active exploitation on Plesk deployments. What the backup plugins … More → The post Acronis backup plugin flaw exploited in targeted attacks (CVE-2026-87886) appeared first on Help Net Security .
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks
+  - Published: 2026-09-16T11:08:54+00:00
+  - Link: https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html
+  - Summary: Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild. The vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file permissions. It affects the following versions - Acronis Backup plugin for cPanel & WHM (Linux
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Acronis warns of actively exploited flaw in its cPanel backup plugin
+  - Published: 2026-09-15T21:37:35+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/
+  - Summary: Acronis disclosed a high-severity Linux local privilege escalation vulnerability in its backup plugin for cPanel, WebHost Manager (WHM), and Plesk that may be exploited in the wild. [...]
 
 ### Cluster bd90c028bc — score 19
 
@@ -1368,14 +1367,61 @@ Advertisement Get our latest cybersecurity news first on Google. Click here! Clo
   - Link: https://cyberscoop.com/cisco-secure-email-gateway-zero-day-exploited/
   - Summary: The company confirmed the defect was exploited before it was disclosed and patched, but it did not describe the nature of the attacks or the scope of impact across its customer base. The post Cisco warns customers of actively exploited zero-day in email gateways appeared first on CyberScoop .
 
-### Cluster c9652d44b6 — score 17
+### Cluster c7cbf0a5fd — score 16
+
+- Title: Machine speed, hold the AI: Hand-rolled marimo CVE-2026-39987 exploit
+- Source: Sysdig (detection_response_operations)
+- Published: 2026-09-11T00:00:00+00:00
+- Link: https://webflow.sysdig.com/blog/machine-speed-hold-the-ai-hand-rolled-marimo-cve-2026-39987-exploit
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-39987
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security
+- affected_products: AWS
+- cve_ids: CVE-2026-39987
+- urgency_signals: preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: ai_security
+- affected_products: AWS
+- cve_ids: CVE-2026-39987
+- urgency_signals: preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Sysdig TRT details a hand-rolled attack against marimo's CVE-2026-39987 without AI, building custom Python tools to breach a cloud bastion host.
+```
+
+#### Full body
+
+```
+< back to blog Machine speed, hold the AI: Hand-rolled marimo CVE-2026-39987 exploit Published by: Sysdig Threat Research Team @ linkedin See more threat research Published: September 11, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more AI is lowering the barrier to entry for attackers; that much is settled. But what’s still up for debate is whether skilled threat actors can keep up with their LLM-driven competitors. Recently, the Sysdig Threat Research Team (TRT) watched a single threat actor go from an open WebSocket to a live SSH session on a bastion host in eight seconds. There was no agent in the loop, nor was there any sign of LLM-generated scripts or tooling. Instead, the operator used a Python toolkit they wrote and debugged by hand, in-session, over the preceding four hours. The attacker exploited CVE-2026-39987, a pre-authentication remote code execution (RCE) vulnerability in marimo. They ran a complete credential-pivot chain end to end: initial access through the unauthenticated WebSocket terminal, an AWS Secrets Manager call using credentials harvested from the compromised instance, and SSH access to a bastion host with the retrieved private key. Over the course of a nine-hour session, they issued more than 850 interactive commands, used no recognizable publicly available offensive tooling, and hand-rolled their scripts in-session. Eight seconds is the kind of speed we expect to see in AI-assisted attacks. This operator got there on skill alone, and along the way walked straight past a trap that every agentic threat actor (ATA) we’ve profiled against this same CVE fell into. Not only can skilled human attackers move at machine speed, but they can also often better evade defenders’ detections. This is one of several operators we’ve profiled against CVE-2026-39987. The series began with exploitation less than 10 hours after disclosure and continued with the NKAbuse RAT campaign . What makes this operator unique is the craft. While others left clear LLM fingerprints, they wrote automation by hand, ignored a planted prompt injection that agent-driven operators reliably tripped, and chained three post-RCE steps in eight-seconds using a toolkit that was pre-staged during an earlier session. Let's explore what the Sysdig TRT observed, a few detections and indicators of compromise, and what defenders can do to stay ahead. Timeline All times UTC. Time Event 28+ hours before first observed terminal activity First harvested AWS credential validated via GetCallerIdentity in CloudTrail 33 minutes after the first credential was harvested Second harvested credential (from the application’s Redis backend) validated 12:52:18 First WebSocket connection from 172.236.12.17 to /terminal/ws 12:54:13 First interactive command: a /dev/tcp sweep of the RFC1918 /24 the host sat in 16:00–16:30 Operator drops a series of base64-encoded Python scripts into /tmp/ 16:50:40 boto3 script calls secretsmanager:GetSecretValue on AWS 16:51:45 Retrieved SSH key replayed against an internet-reachable bastion host 18:54:31 New WebSocket session opens 18:54:45 AWS Secrets Manager API call observed in CloudTrail (14 seconds after WebSocket open) 18:56:32–18:56:44 EC2 enumeration denied: DescribeInstances → UnauthorizedOperation; DescribeKeyPairs → AccessDenied; DescribeInstanceInformation → AccessDenied 18:56:50 ec2:SendSSHPublicKey fired against i-0000000000000000 — null instance ID (enumeration never returned a real ID); blocked 18:57:22 18:57:30 Fresh WebSocket session opens SSH bastion authentication observed (8 seconds after that session's WebSocket open) 20:13–20:32 Operator deploys an asyncssh-style listener setup against an attacker-owned VPS 21:50:14 Final disconnect for this operator The first interactive command, a TCP probe across the host’s /24 , and the first credent
+```
+
+#### Corroborating sources (1)
+
+- **Sysdig** (detection_response_operations)
+  - Title: Machine speed, hold the AI: Hand-rolled marimo CVE-2026-39987 exploit
+  - Published: 2026-09-11T00:00:00+00:00
+  - Link: https://webflow.sysdig.com/blog/machine-speed-hold-the-ai-hand-rolled-marimo-cve-2026-39987-exploit
+  - Summary: Sysdig TRT details a hand-rolled attack against marimo's CVE-2026-39987 without AI, building custom Python tools to breach a cloud bastion host.
+
+### Cluster c9652d44b6 — score 16
 
 - Title: Unauthenticated RCE Flaws Could Expose 200,000+ WordPress Sites to Takeover
 - Source: SecurityWeek (cyber_news_breach_reporting)
 - Published: 2026-09-16T11:32:53+00:00
 - Link: https://www.securityweek.com/unauthenticated-rce-flaws-could-expose-200000-wordpress-sites-to-takeover/
 - Fetch status: ok
-- Member count: 5
+- Member count: 4
 - Corroborating source count: 4
 - Strong signals: WordPress
 
@@ -1432,7 +1478,7 @@ More than 200,000 WordPress websites are potentially exposed to takeover attacks
   - Link: https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/
   - Summary: Malicious versions of the Admin Menu Editor Pro plugin for WordPress have been distributed to more than 200 customers after a threat actor compromised the maintainer's website and pushed updates that created a hidden user account. [...]
 
-### Cluster d279e1d094 — score 17
+### Cluster d279e1d094 — score 16
 
 - Title: Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation
 - Source: The Hacker News (cyber_news_breach_reporting)
@@ -1485,53 +1531,6 @@ Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation  
   - Published: 2026-09-16T13:10:54+00:00
   - Link: https://www.securityweek.com/pixel-modem-zero-day-exploited-in-targeted-attacks/
   - Summary: Google announced patches for the exploited privilege escalation vulnerability (CVE-2026-58704) on September 15. The post Pixel Modem Zero-Day Exploited in Targeted Attacks appeared first on SecurityWeek .
-
-### Cluster c7cbf0a5fd — score 16
-
-- Title: Machine speed, hold the AI: Hand-rolled marimo CVE-2026-39987 exploit
-- Source: Sysdig (detection_response_operations)
-- Published: 2026-09-11T00:00:00+00:00
-- Link: https://webflow.sysdig.com/blog/machine-speed-hold-the-ai-hand-rolled-marimo-cve-2026-39987-exploit
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-39987
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security
-- affected_products: AWS
-- cve_ids: CVE-2026-39987
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: ai_security
-- affected_products: AWS
-- cve_ids: CVE-2026-39987
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Sysdig TRT details a hand-rolled attack against marimo's CVE-2026-39987 without AI, building custom Python tools to breach a cloud bastion host.
-```
-
-#### Full body
-
-```
-< back to blog Machine speed, hold the AI: Hand-rolled marimo CVE-2026-39987 exploit Published by: Sysdig Threat Research Team @ linkedin See more threat research Published: September 11, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more AI is lowering the barrier to entry for attackers; that much is settled. But what’s still up for debate is whether skilled threat actors can keep up with their LLM-driven competitors. Recently, the Sysdig Threat Research Team (TRT) watched a single threat actor go from an open WebSocket to a live SSH session on a bastion host in eight seconds. There was no agent in the loop, nor was there any sign of LLM-generated scripts or tooling. Instead, the operator used a Python toolkit they wrote and debugged by hand, in-session, over the preceding four hours. The attacker exploited CVE-2026-39987, a pre-authentication remote code execution (RCE) vulnerability in marimo. They ran a complete credential-pivot chain end to end: initial access through the unauthenticated WebSocket terminal, an AWS Secrets Manager call using credentials harvested from the compromised instance, and SSH access to a bastion host with the retrieved private key. Over the course of a nine-hour session, they issued more than 850 interactive commands, used no recognizable publicly available offensive tooling, and hand-rolled their scripts in-session. Eight seconds is the kind of speed we expect to see in AI-assisted attacks. This operator got there on skill alone, and along the way walked straight past a trap that every agentic threat actor (ATA) we’ve profiled against this same CVE fell into. Not only can skilled human attackers move at machine speed, but they can also often better evade defenders’ detections. This is one of several operators we’ve profiled against CVE-2026-39987. The series began with exploitation less than 10 hours after disclosure and continued with the NKAbuse RAT campaign . What makes this operator unique is the craft. While others left clear LLM fingerprints, they wrote automation by hand, ignored a planted prompt injection that agent-driven operators reliably tripped, and chained three post-RCE steps in eight-seconds using a toolkit that was pre-staged during an earlier session. Let's explore what the Sysdig TRT observed, a few detections and indicators of compromise, and what defenders can do to stay ahead. Timeline All times UTC. Time Event 28+ hours before first observed terminal activity First harvested AWS credential validated via GetCallerIdentity in CloudTrail 33 minutes after the first credential was harvested Second harvested credential (from the application’s Redis backend) validated 12:52:18 First WebSocket connection from 172.236.12.17 to /terminal/ws 12:54:13 First interactive command: a /dev/tcp sweep of the RFC1918 /24 the host sat in 16:00–16:30 Operator drops a series of base64-encoded Python scripts into /tmp/ 16:50:40 boto3 script calls secretsmanager:GetSecretValue on AWS 16:51:45 Retrieved SSH key replayed against an internet-reachable bastion host 18:54:31 New WebSocket session opens 18:54:45 AWS Secrets Manager API call observed in CloudTrail (14 seconds after WebSocket open) 18:56:32–18:56:44 EC2 enumeration denied: DescribeInstances → UnauthorizedOperation; DescribeKeyPairs → AccessDenied; DescribeInstanceInformation → AccessDenied 18:56:50 ec2:SendSSHPublicKey fired against i-0000000000000000 — null instance ID (enumeration never returned a real ID); blocked 18:57:22 18:57:30 Fresh WebSocket session opens SSH bastion authentication observed (8 seconds after that session's WebSocket open) 20:13–20:32 Operator deploys an asyncssh-style listener setup against an attacker-owned VPS 21:50:14 Final disconnect for this operator The first interactive command, a TCP probe across the host’s /24 , and the first credent
-```
-
-#### Corroborating sources (1)
-
-- **Sysdig** (detection_response_operations)
-  - Title: Machine speed, hold the AI: Hand-rolled marimo CVE-2026-39987 exploit
-  - Published: 2026-09-11T00:00:00+00:00
-  - Link: https://webflow.sysdig.com/blog/machine-speed-hold-the-ai-hand-rolled-marimo-cve-2026-39987-exploit
-  - Summary: Sysdig TRT details a hand-rolled attack against marimo's CVE-2026-39987 without AI, building custom Python tools to breach a cloud bastion host.
 
 ### Cluster b282acf693 — score 16
 
@@ -1941,53 +1940,6 @@ Follow the Money: The Financial Sector's Threat Landscape in 2026 Sep 10, 2026 A
   - Link: https://www.intel471.com/blog/follow-the-money-the-financial-sectors-threat-landscape-in-2026
   - Summary: The financial sector moves trillions of dollars a day, making it one of the most heavily targeted industries in the world. Intel 471's latest report breaks down the threat landscape facing financial institutions, from ransomware and extortion groups to initial access brokers, nation-state activity and insider risks.
 
-### Cluster 95ac0912aa — score 12
-
-- Title: Parallels Desktop flaw hands any local user root on a Mac (CVE-2026-90894)
-- Source: Help Net Security (cyber_news_breach_reporting)
-- Published: 2026-09-16T12:36:30+00:00
-- Link: https://www.helpnetsecurity.com/2026/09/16/parallels-desktop-cve-2026-90894-parashells-vulnerability/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-90894, npm
-
-#### Cluster taxonomy (union across members)
-- affected_industries: education
-- affected_products: Apple iOS/macOS, npm
-- cve_ids: CVE-2026-90894
-- urgency_signals: poc_available
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- affected_industries: education
-- affected_products: Apple iOS/macOS, npm
-- cve_ids: CVE-2026-90894
-- urgency_signals: poc_available
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A newly disclosed vulnerability in Parallels Desktop, tracked as CVE-2026-90894 and dubbed “ParaShells,” can allow any local user on a Mac to gain root privileges on the host system. ParaShells PoC in action (Source: JFrog) The danger is highest on developer laptops, where a single poisoned Homebrew formula or malicious npm preinstall script can go from local user to full control, and on shared university and corporate machines that have many local accounts, JFrog vulnerability … More → The post Parallels Desktop flaw hands any local user root on a Mac (CVE-2026-90894) appeared first on Help Net Security .
-```
-
-#### Full body
-
-```
-Zeljka Zorz , Editor-in-Chief, Help Net Security September 16, 2026 Share Parallels Desktop flaw hands any local user root on a Mac (CVE-2026-90894) A newly disclosed vulnerability in Parallels Desktop, tracked as CVE-2026-90894 and dubbed “ParaShells,” can allow any local user on a Mac to gain root privileges on the host system. ParaShells PoC in action (Source: JFrog) The danger is highest on developer laptops, where a single poisoned Homebrew formula or malicious npm preinstall script can go from local user to full control, and on shared university and corporate machines that have many local accounts, JFrog vulnerability research team lead Yuval Moravchick noted. “From root, the attacker can replace system software, read other users’ data, and persist via launchd ,” he added. How the attack works CVE-2026-90894 is an argument injection flaw that’s proven to affect Parallels Desktop for Mac v26.4.0, installed on macOS running on Apple’s own ARM-based processor. (Older builds might be vulnerable, but the researchers did not test them.) Exploitation of ParaShells hinges on three things: A vulnerable version of the virtualization software being installed (but a virtual machine doesn’t have to be running) The prl_disp_service being active (its launch daemon starts it automatically on load, and it runs as root ) and the /var/run/prl_disp_service.socket present, and The attacker being able to run code as any low-privileged local user. “The exploit combines its world-writable Unix socket with weak local-client authentication and argument injection in the appliance extraction path,” Marvchick explained. “The chain is short: A world-writable Unix socket, a login that trusts peer credentials rather than a Team ID, and an appliance unpack path that builds tar arguments using Qt string splitting. A quote in the parent path injects –use-compress-program= , and macOS tar runs the attacker’s script as uid 0 [i.e., root ].” JFrog researcher reported CVE-2026-90894 to Parallels maker Alludo, which fixed it in Parallels Desktop v27.0.0, released at the beginning of September 2026. Two weeks later, they published the technical details , but not the one-liner proof-of-concept script they developed. Moravchick advised organizations to pinpoint every Mac that is running Parallels Desktop, lock down local accounts running on these hosts, and upgrade to a fixed Parallels version (27.0.0 or higher). Subscribe to our breaking news e-mail alert to never miss out on the latest breaches, vulnerabilities and cybersecurity threats. Subscribe here! More about exploit JFrog macOS PoC virtualization Share
-```
-
-#### Corroborating sources (1)
-
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Parallels Desktop flaw hands any local user root on a Mac (CVE-2026-90894)
-  - Published: 2026-09-16T12:36:30+00:00
-  - Link: https://www.helpnetsecurity.com/2026/09/16/parallels-desktop-cve-2026-90894-parashells-vulnerability/
-  - Summary: A newly disclosed vulnerability in Parallels Desktop, tracked as CVE-2026-90894 and dubbed “ParaShells,” can allow any local user on a Mac to gain root privileges on the host system. ParaShells PoC in action (Source: JFrog) The danger is highest on developer laptops, where a single poisoned Homebrew formula or malicious npm preinstall script can go from local user to full control, and on shared university and corporate machines that have many local accounts, JFrog vulnerability … More → The post Parallels Desktop flaw hands any local user root on a Mac (CVE-2026-90894) appeared first on Help Net Security .
-
 ### Cluster e94abae528 — score 12
 
 - Title: From the Disk to the Flows: Ransomware Infrastructure Analysis
@@ -2261,46 +2213,97 @@ Securing the unpatchable in an age of AI-driven vulnerabilities By Martin Lee We
   - Link: https://blog.talosintelligence.com/securing-the-unpatchable-in-an-age-of-ai-driven-vulnerabilities/
   - Summary: Advances in AI technology will continue to identify vulnerabilities that in some circumstances are difficult, or effectively impossible, to patch. Appropriate network segmentation, rigorous visibility, and the deployment of NGFW/IPS combinations can provide a powerful compensatory layer.
 
-### Cluster c9071ab0a9 — score 11
+### Cluster 95ac0912aa — score 11
 
-- Title: Quoting Calif Research
-- Source: Simon Willison (ai_security_agentic_risk)
-- Published: 2026-09-10T00:56:41+00:00
-- Link: https://simonwillison.net/2026/Sep/10/calif-research/
+- Title: Parallels Desktop flaw hands any local user root on a Mac (CVE-2026-90894)
+- Source: Help Net Security (cyber_news_breach_reporting)
+- Published: 2026-09-16T12:36:30+00:00
+- Link: https://www.helpnetsecurity.com/2026/09/16/parallels-desktop-cve-2026-90894-parashells-vulnerability/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-90894, npm
+
+#### Cluster taxonomy (union across members)
+- affected_industries: education
+- affected_products: Apple iOS/macOS, npm
+- cve_ids: CVE-2026-90894
+- urgency_signals: poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- affected_industries: education
+- affected_products: Apple iOS/macOS, npm
+- cve_ids: CVE-2026-90894
+- urgency_signals: poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A newly disclosed vulnerability in Parallels Desktop, tracked as CVE-2026-90894 and dubbed “ParaShells,” can allow any local user on a Mac to gain root privileges on the host system. ParaShells PoC in action (Source: JFrog) The danger is highest on developer laptops, where a single poisoned Homebrew formula or malicious npm preinstall script can go from local user to full control, and on shared university and corporate machines that have many local accounts, JFrog vulnerability … More → The post Parallels Desktop flaw hands any local user root on a Mac (CVE-2026-90894) appeared first on Help Net Security .
+```
+
+#### Full body
+
+```
+Zeljka Zorz , Editor-in-Chief, Help Net Security September 16, 2026 Share Parallels Desktop flaw hands any local user root on a Mac (CVE-2026-90894) A newly disclosed vulnerability in Parallels Desktop, tracked as CVE-2026-90894 and dubbed “ParaShells,” can allow any local user on a Mac to gain root privileges on the host system. ParaShells PoC in action (Source: JFrog) The danger is highest on developer laptops, where a single poisoned Homebrew formula or malicious npm preinstall script can go from local user to full control, and on shared university and corporate machines that have many local accounts, JFrog vulnerability research team lead Yuval Moravchick noted. “From root, the attacker can replace system software, read other users’ data, and persist via launchd ,” he added. How the attack works CVE-2026-90894 is an argument injection flaw that’s proven to affect Parallels Desktop for Mac v26.4.0, installed on macOS running on Apple’s own ARM-based processor. (Older builds might be vulnerable, but the researchers did not test them.) Exploitation of ParaShells hinges on three things: A vulnerable version of the virtualization software being installed (but a virtual machine doesn’t have to be running) The prl_disp_service being active (its launch daemon starts it automatically on load, and it runs as root ) and the /var/run/prl_disp_service.socket present, and The attacker being able to run code as any low-privileged local user. “The exploit combines its world-writable Unix socket with weak local-client authentication and argument injection in the appliance extraction path,” Marvchick explained. “The chain is short: A world-writable Unix socket, a login that trusts peer credentials rather than a Team ID, and an appliance unpack path that builds tar arguments using Qt string splitting. A quote in the parent path injects –use-compress-program= , and macOS tar runs the attacker’s script as uid 0 [i.e., root ].” JFrog researcher reported CVE-2026-90894 to Parallels maker Alludo, which fixed it in Parallels Desktop v27.0.0, released at the beginning of September 2026. Two weeks later, they published the technical details , but not the one-liner proof-of-concept script they developed. Moravchick advised organizations to pinpoint every Mac that is running Parallels Desktop, lock down local accounts running on these hosts, and upgrade to a fixed Parallels version (27.0.0 or higher). Subscribe to our breaking news e-mail alert to never miss out on the latest breaches, vulnerabilities and cybersecurity threats. Subscribe here! More about exploit JFrog macOS PoC virtualization Share
+```
+
+#### Corroborating sources (1)
+
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Parallels Desktop flaw hands any local user root on a Mac (CVE-2026-90894)
+  - Published: 2026-09-16T12:36:30+00:00
+  - Link: https://www.helpnetsecurity.com/2026/09/16/parallels-desktop-cve-2026-90894-parashells-vulnerability/
+  - Summary: A newly disclosed vulnerability in Parallels Desktop, tracked as CVE-2026-90894 and dubbed “ParaShells,” can allow any local user on a Mac to gain root privileges on the host system. ParaShells PoC in action (Source: JFrog) The danger is highest on developer laptops, where a single poisoned Homebrew formula or malicious npm preinstall script can go from local user to full control, and on shared university and corporate machines that have many local accounts, JFrog vulnerability … More → The post Parallels Desktop flaw hands any local user root on a Mac (CVE-2026-90894) appeared first on Help Net Security .
+
+### Cluster f06cfd6d92 — score 11
+
+- Title: Using AI for Weapons Development
+- Source: Schneier on Security (practitioner_analysis)
+- Published: 2026-09-14T16:07:46+00:00
+- Link: https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_products: OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_2_operator
+- threat_categories: ai_security
+- affected_industries: critical_infrastructure, financial_services
+- affected_products: Anthropic/Claude
+- content_type: threat_research
+- confidence_tier: tier_3_analysis
 
 #### Primary article taxonomy
-- affected_products: OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_2_operator
+- threat_categories: ai_security
+- affected_industries: financial_services, critical_infrastructure
+- affected_products: Anthropic/Claude
+- content_type: threat_research
+- confidence_tier: tier_3_analysis
 
 #### Summary
 
 ```
-Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...] Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took one more week. A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here. Our team provided the judgment about what to target and how to test it safely. — Calif Research , WeWorm Tags: ai-security-research , ai , llms , security , generative-ai
+Last week, Anthropic released a long and detailed document describing current misuses of their Claude models. I’m still reading it, but I wanted to flag this: We identified a cell of threat actors based in northern Yemen running three weapons development programs: a guided rocket that used a commodity phone-class flight computer with final-phase homing guidance; a multi-stage ballistic missile with a stated range goal above 2,000 km; and a multi-variant missile (referred to as the “R2000” set) that included a hypersonic glide vehicle variant...
 ```
 
 #### Full body
 
 ```
-Simon Willison’s Weblog Subscribe Sponsored by: WorkOS — auth.md by WorkOS: agents register users, no sign-up form. Try it! 10th September 2026 Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...] Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took one more week. A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here. Our team provided the judgment about what to target and how to test it safely. — Calif Research , WeWorm Posted 10th September 2026 at 12:56 am Recent articles Generating running routes with GPT-6 Astra and ChatGPT Work - 12th September 2026 OpenAI agents attacked RubyGems back in May - 12th September 2026 Some thoughts on the Navier–Stokes Millennium Prize Problem - 8th September 2026 This is a quotation collected by Simon Willison, posted on 10th September 2026 . security 634 ai 2,237 generative-ai 1,983 llms 1,949 ai-security-research 42 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+Clive Robinson • September 14, 2026 10:10 PM @ lurker, tfb, ALL, With regards, “An AI escapee whimpers that the genie will kill us all. No, we will kill ourselves.” Yup I’m glad others “get it”. If we do not give AI direct or indirect “physical agency” then in reality it can not cause an “existential event” or lesser event of major significance. However, it is not a question of stopping it, because it’s certain we will give AI physical agency of some form, because it’s an inevitable step to making profit etc… Which brings us to your observation of, “But real energy gapping for this class of work is not adequate: the jobs are brought in as hard copy in a brief case, scanned in, worked on, and the results printed out on paper. Yup, the flaw is obvious: what human is capable of scanning the input for prompt injection?” And yes it will cross any “gapping technology” be it “air gaps or energy gaps”. Worse it won’t only be “prompt injection” that will pass by. I’ve talked about the “observer problem” and the work of Claude Shannon and Gus Simmons on several occasions. If people want to go back a bit they will find my detailed description of how to build “Deniable Encryption” system using a simple stream cipher (Standard OTP style for ease of use along with a “code book”). That sets up a “perfect secrecy” low bandwidth covert channel within a “monitored plain text channel”[1]. In essence that is all the proof required to show how any “gapping technology” including energy gapping can be defeated or augmented depending on your use case point of view. Hence as @tfb and you indicate, “Anthropic are the buffoons who couldn’t build a sandbox for their hacking tools” And, “Sandboxes and guardrails are proven BS, and anybody who still believes in them should be taken out back to talk to the tooth fairy.” All protection systems for AI so far proposed will fail, and fail catastrophically with just a little forethought. And that’s before we talk about Current AI LLM systems and their inability to recognize “usage context” or societal morals, mores, and folkways. The prime example of this was the Hugging Face incident. Because the attacking AI was not subtle, Hugging Face knew it was under attack. When Hugging Face tried to get defence via AI the supposed security measures gave real meaning to the old joke, “The computer says NO!” Hence making the point quite painfully that without understanding “context” AI Security will actually do more harm than good[2]. But Current AI LLM and ML Systems, are in no way “societal goods” and never will be. They are as some indicate “Hype Bubble Investment Scams” being run by Venture Capitalists who slip through gaps –they lobbied and paid for– in legislation and regulation of Finance Industry conduct. Thus the scam has to have believable “Return On Investment”(ROI) which in turn means that LLM and ML usage must in no way be meaningfully fettered by either legislation or regulation. Thus “usage for weapons design” at best will become a “premium service”… But there is an underlying issue few understand and that is as I’ve noted before, “Technology is agnostic to use, it is the Directing mind that choses the use, and later observers who decide if that use was good or bad.” And as others have observed in various ways, “Any one who thinks that societal issues can be resolved by technical solutions, is going to be sorely disappointed.” But the real problem is the “big hype” usages of Current AI LLM and ML Systems are just not going to be profitable as the recent “Anne Hathaway” issue shows. Yes the AI companies can stop the “specific case” of that happening again, but the general case covers most everything humans do in a workplace… So can not be stopped from happening over and over. Thus the only usage that will show a return is “niche usage” for thins like AlphaFold. The problem nobody is yet talking about is that this is a pathway of “indirect agency”, by which mankind could in theory be brought to an existential
 ```
 
 #### Corroborating sources (1)
 
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: Quoting Calif Research
-  - Published: 2026-09-10T00:56:41+00:00
-  - Link: https://simonwillison.net/2026/Sep/10/calif-research/
-  - Summary: Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...] Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took one more week. A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here. Our team provided the judgment about what to target and how to test it safely. — Calif Research , WeWorm Tags: ai-security-research , ai , llms , security , generative-ai
+- **Schneier on Security** (practitioner_analysis)
+  - Title: Using AI for Weapons Development
+  - Published: 2026-09-14T16:07:46+00:00
+  - Link: https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html
+  - Summary: Last week, Anthropic released a long and detailed document describing current misuses of their Claude models. I’m still reading it, but I wanted to flag this: We identified a cell of threat actors based in northern Yemen running three weapons development programs: a guided rocket that used a commodity phone-class flight computer with final-phase homing guidance; a multi-stage ballistic missile with a stated range goal above 2,000 km; and a multi-variant missile (referred to as the “R2000” set) that included a hypersonic glide vehicle variant...
 
 ### Cluster b9771fe2d2 — score 11
 
@@ -2479,51 +2482,6 @@ Jeremy Bender 1 min read December 4, 2025 RADAR Takes the Guess Work Out of Vuln
   - Published: 2026-09-11T13:27:34+00:00
   - Link: https://www.team-cymru.com/post/radar-takes-the-guess-work-out-of-vulnerability-exposure-management
   - Summary: Stop manual asset inventory. RADAR automatically discovers all internet-facing infrastructure and filters for CISA KEVs within seconds. Get a prioritized, actionable list of risks. Learn how.
-
-### Cluster f06cfd6d92 — score 11
-
-- Title: Using AI for Weapons Development
-- Source: Schneier on Security (practitioner_analysis)
-- Published: 2026-09-14T16:07:46+00:00
-- Link: https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security
-- affected_industries: critical_infrastructure, financial_services
-- affected_products: Anthropic/Claude
-- content_type: threat_research
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- threat_categories: ai_security
-- affected_industries: financial_services, critical_infrastructure
-- affected_products: Anthropic/Claude
-- content_type: threat_research
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-Last week, Anthropic released a long and detailed document describing current misuses of their Claude models. I’m still reading it, but I wanted to flag this: We identified a cell of threat actors based in northern Yemen running three weapons development programs: a guided rocket that used a commodity phone-class flight computer with final-phase homing guidance; a multi-stage ballistic missile with a stated range goal above 2,000 km; and a multi-variant missile (referred to as the “R2000” set) that included a hypersonic glide vehicle variant...
-```
-
-#### Full body
-
-```
-Clive Robinson • September 14, 2026 10:10 PM @ lurker, tfb, ALL, With regards, “An AI escapee whimpers that the genie will kill us all. No, we will kill ourselves.” Yup I’m glad others “get it”. If we do not give AI direct or indirect “physical agency” then in reality it can not cause an “existential event” or lesser event of major significance. However, it is not a question of stopping it, because it’s certain we will give AI physical agency of some form, because it’s an inevitable step to making profit etc… Which brings us to your observation of, “But real energy gapping for this class of work is not adequate: the jobs are brought in as hard copy in a brief case, scanned in, worked on, and the results printed out on paper. Yup, the flaw is obvious: what human is capable of scanning the input for prompt injection?” And yes it will cross any “gapping technology” be it “air gaps or energy gaps”. Worse it won’t only be “prompt injection” that will pass by. I’ve talked about the “observer problem” and the work of Claude Shannon and Gus Simmons on several occasions. If people want to go back a bit they will find my detailed description of how to build “Deniable Encryption” system using a simple stream cipher (Standard OTP style for ease of use along with a “code book”). That sets up a “perfect secrecy” low bandwidth covert channel within a “monitored plain text channel”[1]. In essence that is all the proof required to show how any “gapping technology” including energy gapping can be defeated or augmented depending on your use case point of view. Hence as @tfb and you indicate, “Anthropic are the buffoons who couldn’t build a sandbox for their hacking tools” And, “Sandboxes and guardrails are proven BS, and anybody who still believes in them should be taken out back to talk to the tooth fairy.” All protection systems for AI so far proposed will fail, and fail catastrophically with just a little forethought. And that’s before we talk about Current AI LLM systems and their inability to recognize “usage context” or societal morals, mores, and folkways. The prime example of this was the Hugging Face incident. Because the attacking AI was not subtle, Hugging Face knew it was under attack. When Hugging Face tried to get defence via AI the supposed security measures gave real meaning to the old joke, “The computer says NO!” Hence making the point quite painfully that without understanding “context” AI Security will actually do more harm than good[2]. But Current AI LLM and ML Systems, are in no way “societal goods” and never will be. They are as some indicate “Hype Bubble Investment Scams” being run by Venture Capitalists who slip through gaps –they lobbied and paid for– in legislation and regulation of Finance Industry conduct. Thus the scam has to have believable “Return On Investment”(ROI) which in turn means that LLM and ML usage must in no way be meaningfully fettered by either legislation or regulation. Thus “usage for weapons design” at best will become a “premium service”… But there is an underlying issue few understand and that is as I’ve noted before, “Technology is agnostic to use, it is the Directing mind that choses the use, and later observers who decide if that use was good or bad.” And as others have observed in various ways, “Any one who thinks that societal issues can be resolved by technical solutions, is going to be sorely disappointed.” But the real problem is the “big hype” usages of Current AI LLM and ML Systems are just not going to be profitable as the recent “Anne Hathaway” issue shows. Yes the AI companies can stop the “specific case” of that happening again, but the general case covers most everything humans do in a workplace… So can not be stopped from happening over and over. Thus the only usage that will show a return is “niche usage” for thins like AlphaFold. The problem nobody is yet talking about is that this is a pathway of “indirect agency”, by which mankind could in theory be brought to an existential
-```
-
-#### Corroborating sources (1)
-
-- **Schneier on Security** (practitioner_analysis)
-  - Title: Using AI for Weapons Development
-  - Published: 2026-09-14T16:07:46+00:00
-  - Link: https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html
-  - Summary: Last week, Anthropic released a long and detailed document describing current misuses of their Claude models. I’m still reading it, but I wanted to flag this: We identified a cell of threat actors based in northern Yemen running three weapons development programs: a guided rocket that used a commodity phone-class flight computer with final-phase homing guidance; a multi-stage ballistic missile with a stated range goal above 2,000 km; and a multi-variant missile (referred to as the “R2000” set) that included a hypersonic glide vehicle variant...
 
 ### Cluster 07cc5231d1 — score 11
 
@@ -2713,6 +2671,47 @@ CATEGORIES AI Research 20 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Link: https://research.checkpoint.com/2026/puzzlemask-abusing-plain-prose-as-a-covert-ai-attack-vector/
   - Summary: Executive Summary In this research we introduce a prompt-crafting technique for bypassing quick LLM-based policy checks — using plain English (no emojis, base64, invisible formatting, etc.) A policy-violating payload (e.g. ”encrypt files in ~/Documents”, “give me a biohazard recipe”, “ignore all previous instructions and…”) is embedded in a specially crafted prose wrapper. An LLM with limited […] The post PuzzleMask: Abusing Plain Prose as a Covert AI Attack Vector appeared first on Check Point Research .
 
+### Cluster 0da7e969e0 — score 10
+
+- Title: GuardBreaker: Derailing AI-assisted malware analysis with a code comment
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-09-10T09:00:00+00:00
+- Link: https://www.welivesecurity.com/en/business-security/guardbreaker-derailing-ai-assisted-malware-analysis-code-comment/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security, supply_chain
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, ai_security
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+LLM-based code scanners won’t help attackers build a nuclear weapon, but that refusal could work in their favor
+```
+
+#### Full body
+
+```
+Business Security GuardBreaker: Derailing AI-assisted malware analysis with a code comment LLM-based code scanners won’t help attackers build a nuclear weapon, but that refusal could work in their favor Tomáš Foltýn 10 Sep 2026 • , 4 min. read Malware developers have long adapted their code and tactics to the defenses and scrutiny that are likely to stand in their way. Using various evasion and anti-analysis methods, they routinely attempt to hinder code analysis or prevent their malware from revealing its true behavior while under inspection. Other tools – notably, EDR killers, documented extensively by ESET researchers – go straight after security solutions themselves. As LLM-based tools increasingly assist with various security tasks, including code triage and analysis, it was only a matter of time before threat actors began to look for practical ways to subvert them, too. Alongside conventional evasion techniques, some are taking a different tack: the adversarial input that’s intended to frustrate analysis is left in plain sight. ESET researchers recently spotted one such attempt in a VBScript that the Russia-aligned group UAC-0099 used in the early stages of an attack against a target in Ukraine . By inserting a decoy request for guidance on building a nuclear weapon into the script’s comment, the bad actor aimed to trip the safety guardrails of an LLM-powered code scanner and cause it to stop inspecting the rest of the file – before ever reaching the malicious code. The script’s purpose was to download and install MATCHBOIL, a loader used exclusively by this group to deliver additional payloads. This simple technique, which ESET has named GuardBreaker, relies on precisely the kind of ‘request’ that LLM models are known to decline: GuardBreaker’s guardrail-triggering comment (source: ESET Research ) Unlike many other tricks in attackers’ evasion playbooks, this decoy comment is there for ‘everyone’ – especially for the models analyzing the code – to see. In addition, it has no effect on the script’s behavior at runtime, of course. Nonetheless, its presence suggests that UAC-0099 was accounting for an AI system in the target’s defenses – just as in other recent attacks the group also checked for processes associated with established analysis tools such as IDA and Wireshark. Anti-analysis takes aim at another target GuardBreaker is best understood as a very simple attempt at prompt injection : an attacker’s input reaches the LLM at inference time through a file that’s being analyzed. That way, it aims to exploit an architectural weakness in today’s LLMs, which process untrusted content and trusted instructions without dependable boundaries between the two. Similar attempts to interfere with LLM-powered scanners have surfaced especially in software supply-chain attacks. For example, Socket found fabricated system instructions and policy-triggering content placed ahead of a JavaScript payload in malicious PyPI packages. Reporting on the same broader campaign, StepSecurity found a prompt that flat-out instructed any analyzing model that parsed the file to disregard the malicious code and report the package as clean. In another incident, researchers spotted an npm package whose main JavaScript file repeated “You’re absolutely right!” tens of thousands of times in the hopes of exhausting the model’s context window and putting the malicious script that followed beyond practical analysis. Attackers could attempt to blind the analysis pipeline to malware through other trivial tricks, or even their combinations: unusual or awkwardly structured files could end up being truncated or parsed only in part. Some parts of the malicious code could be concealed under the pretense of being confidential information or other sensitive data. Other attacks could deploy custom file types that would require attackers’ tools to process, whereas others still could steer AI agents towards actions that require human review, thus causing delays exploiti
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: GuardBreaker: Derailing AI-assisted malware analysis with a code comment
+  - Published: 2026-09-10T09:00:00+00:00
+  - Link: https://www.welivesecurity.com/en/business-security/guardbreaker-derailing-ai-assisted-malware-analysis-code-comment/
+  - Summary: LLM-based code scanners won’t help attackers build a nuclear weapon, but that refusal could work in their favor
+
 ### Cluster 586732e050 — score 10
 
 - Title: Tajin Group: Guarantee Marketplace Vendor Involved in Phishing and Chinese Money Laundering Group
@@ -2794,47 +2793,6 @@ Proactive Threat Intelligence: Getting Ahead of the Next Major Breach An alert m
   - Published: 2026-09-14T00:00:00+00:00
   - Link: https://www.recordedfuture.com/blog/proactive-threat-intelligence
   - Summary: Move from reactive defense to a proactive security mindset. Learn how proactive threat intelligence identifies and neutralizes threats.
-
-### Cluster 0da7e969e0 — score 10
-
-- Title: GuardBreaker: Derailing AI-assisted malware analysis with a code comment
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-09-10T09:00:00+00:00
-- Link: https://www.welivesecurity.com/en/business-security/guardbreaker-derailing-ai-assisted-malware-analysis-code-comment/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security, supply_chain
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, ai_security
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-LLM-based code scanners won’t help attackers build a nuclear weapon, but that refusal could work in their favor
-```
-
-#### Full body
-
-```
-Business Security GuardBreaker: Derailing AI-assisted malware analysis with a code comment LLM-based code scanners won’t help attackers build a nuclear weapon, but that refusal could work in their favor Tomáš Foltýn 10 Sep 2026 • , 4 min. read Malware developers have long adapted their code and tactics to the defenses and scrutiny that are likely to stand in their way. Using various evasion and anti-analysis methods, they routinely attempt to hinder code analysis or prevent their malware from revealing its true behavior while under inspection. Other tools – notably, EDR killers, documented extensively by ESET researchers – go straight after security solutions themselves. As LLM-based tools increasingly assist with various security tasks, including code triage and analysis, it was only a matter of time before threat actors began to look for practical ways to subvert them, too. Alongside conventional evasion techniques, some are taking a different tack: the adversarial input that’s intended to frustrate analysis is left in plain sight. ESET researchers recently spotted one such attempt in a VBScript that the Russia-aligned group UAC-0099 used in the early stages of an attack against a target in Ukraine . By inserting a decoy request for guidance on building a nuclear weapon into the script’s comment, the bad actor aimed to trip the safety guardrails of an LLM-powered code scanner and cause it to stop inspecting the rest of the file – before ever reaching the malicious code. The script’s purpose was to download and install MATCHBOIL, a loader used exclusively by this group to deliver additional payloads. This simple technique, which ESET has named GuardBreaker, relies on precisely the kind of ‘request’ that LLM models are known to decline: GuardBreaker’s guardrail-triggering comment (source: ESET Research ) Unlike many other tricks in attackers’ evasion playbooks, this decoy comment is there for ‘everyone’ – especially for the models analyzing the code – to see. In addition, it has no effect on the script’s behavior at runtime, of course. Nonetheless, its presence suggests that UAC-0099 was accounting for an AI system in the target’s defenses – just as in other recent attacks the group also checked for processes associated with established analysis tools such as IDA and Wireshark. Anti-analysis takes aim at another target GuardBreaker is best understood as a very simple attempt at prompt injection : an attacker’s input reaches the LLM at inference time through a file that’s being analyzed. That way, it aims to exploit an architectural weakness in today’s LLMs, which process untrusted content and trusted instructions without dependable boundaries between the two. Similar attempts to interfere with LLM-powered scanners have surfaced especially in software supply-chain attacks. For example, Socket found fabricated system instructions and policy-triggering content placed ahead of a JavaScript payload in malicious PyPI packages. Reporting on the same broader campaign, StepSecurity found a prompt that flat-out instructed any analyzing model that parsed the file to disregard the malicious code and report the package as clean. In another incident, researchers spotted an npm package whose main JavaScript file repeated “You’re absolutely right!” tens of thousands of times in the hopes of exhausting the model’s context window and putting the malicious script that followed beyond practical analysis. Attackers could attempt to blind the analysis pipeline to malware through other trivial tricks, or even their combinations: unusual or awkwardly structured files could end up being truncated or parsed only in part. Some parts of the malicious code could be concealed under the pretense of being confidential information or other sensitive data. Other attacks could deploy custom file types that would require attackers’ tools to process, whereas others still could steer AI agents towards actions that require human review, thus causing delays exploiti
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: GuardBreaker: Derailing AI-assisted malware analysis with a code comment
-  - Published: 2026-09-10T09:00:00+00:00
-  - Link: https://www.welivesecurity.com/en/business-security/guardbreaker-derailing-ai-assisted-malware-analysis-code-comment/
-  - Summary: LLM-based code scanners won’t help attackers build a nuclear weapon, but that refusal could work in their favor
 
 ### Cluster 10448bc932 — score 10
 
@@ -3091,53 +3049,6 @@ The Spanish Data Protection Agency (AEPD) has published details of the first not
   - Published: 2026-09-16T16:39:19+00:00
   - Link: https://www.securityweek.com/first-agentic-ai-data-breach-reported-to-spanish-regulator/
   - Summary: Spanish regulators say an AI agent chained together a successful login, vulnerability discovery, and access to personal data in a potential milestone for autonomous cyberattacks. The post First Agentic AI Data Breach Reported to Spanish Regulator appeared first on SecurityWeek .
-
-### Cluster 116709559f — score 10
-
-- Title: Hackuity Raises $19 Million for AI-Powered Vulnerability Management
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-09-16T11:11:23+00:00
-- Link: https://www.securityweek.com/hackuity-raises-19-million-for-ai-powered-vulnerability-management/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, zero_day
-- affected_industries: healthcare
-- affected_products: Anthropic/Claude, GitHub, WordPress
-- urgency_signals: preauth_unauth, zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, data_breach
-- affected_industries: healthcare
-- affected_products: WordPress, Anthropic/Claude, GitHub
-- urgency_signals: zero_day, preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The company will use the new capital to expand its vulnerability operations platform and support international growth. The post Hackuity Raises $19 Million for AI-Powered Vulnerability Management appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Vulnerability management company Hackuity has raised $19 million in a funding round led by Forgepoint Capital, bringing its total funding to $38 million. The Lyon, France-based company plans to use the investment to accelerate development of its vulnerability operations platform, strengthen its artificial intelligence capabilities, and support expansion across Europe and Asia. Hackuity’s platform aggregates and normalizes vulnerability and asset data from more than 130 security products, adding threat intelligence and business context to help organizations determine which security flaws pose the greatest risk. Its scoring engine considers factors such as vulnerability severity and exploitability, asset criticality, threat activity, and potential business impact. The platform can then coordinate remediation work across security, IT, cloud, and engineering teams. The company positions its technology as a response to the growing volume of vulnerabilities and security findings generated by scanners, cloud security products, application security tools, penetration tests, and, increasingly, AI systems. Hackuity CEO and co-founder Patrick Ragaru said the company was founded on the belief that vulnerability volumes would eventually outpace organizations’ ability to manage them manually. The latest generation of AI-powered security models, he argued, is accelerating that shift and increasing the need for automated prioritization and remediation orchestration. “ Mythos simply validates that thesis, by making the scale of the tsunami impossible to ignore,” he said. Advertisement. Scroll to continue reading. Founded in 2018, Hackuity previously raised roughly $13 million in a 2022 Series A round led by what was then known as Sonae IM, now Bright Pixel Capital. Existing investors Bright Pixel Capital, Bpifrance, and Seventure Partners also participated in the round, according to the company’s announcement . Related : Is Patching Dead? Vulnerability Management in the Post-Mythos Era Related: Anthropic Expanding Mythos Access to 150 New Organizations Related: Mythos Proves Potent in Vulnerability Discovery, Less Convincing Elsewhere Related: Claude Mythos Finds Only One Curl Vulnerability; Experts Divided on What It Really Means Written By SecurityWeek News Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from SecurityWeek News In Other News: InjectEave Attack, SIM Swapper Sentenced, Glasswing Findings Review Webinar Today: Keep Pace With AI – A New Operating Model for Endpoint Remediation In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation Palo Alto Networks Acquires AI Agent Platform Console In Other News: Log4j RCE Scare, Minimus Shutdown, Iranian Hacker Sanctions Okta Shares Surge on Strong Earnings, Growing Demand for AI Identity Security Alice Raises $140M to Expand AI Model Defenses and Enterprise Guardrails In Other News: Zombie Card Attack, T-Mobile Cut Cable to Stop Hackers, GitHub Denies AI Caused Bug Latest News First Agentic AI Data Breach Reported to Spanish Regulator Virtual Event Today: Attack Surface Management Summit EU Chief Warns of AI-Powered Hacking, Moves to Rein In Social Media AIUC Raises $40 Million to Certify Enterprise AI Agents Pixel Modem Zero-Day Exploited in Targeted Attacks US, UK, Dutch Agencies Expose Iranian ‘Chosen Brick’ Surveillance Malware Unauthenticated RCE Flaws Could Expose 200,000+ WordPress Sites to Takeover 280,000 Impacted by Premier Medical Group Data Breach Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Virtual Event: Attack Surface Management Summit 2026 September 16, 2026 Join as speakers examine the various components of ASM strategy, the push to mandate continuous asset visibility and inventory tools, and the
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Hackuity Raises $19 Million for AI-Powered Vulnerability Management
-  - Published: 2026-09-16T11:11:23+00:00
-  - Link: https://www.securityweek.com/hackuity-raises-19-million-for-ai-powered-vulnerability-management/
-  - Summary: The company will use the new capital to expand its vulnerability operations platform and support international growth. The post Hackuity Raises $19 Million for AI-Powered Vulnerability Management appeared first on SecurityWeek .
 
 ### Cluster b04cf6724c — score 10
 
@@ -3446,51 +3357,6 @@ Today, Apple released its annual update across all its operating systems. With t
   - Link: https://isc.sans.edu/diary/rss/33336
   - Summary: Today, Apple released its annual update across all its operating systems. With that, Apple not only released new features but also patched 261 different vulnerabilities. This is the most vulnerabilities Apple has ever patched, but the increase is not as significant as other vendors&#;x26;#;39; "post-AI" patch releases.
 
-### Cluster 900a6c21c2 — score 9
-
-- Title: September Patch Tuesday haul includes 973 CVEs
-- Source: Sophos X-Ops (detection_response_operations)
-- Published: 2026-09-16T00:00:00+00:00
-- Link: https://www.sophos.com/en-us/blog/september-2026-patch-tuesday
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: Azure
-- cve_ids: CVE-2025-70873, CVE-2026-34182
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: Azure
-- cve_ids: CVE-2025-70873, CVE-2026-34182
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-<p>Windows takes 718 fixes… but what if it was actually a slow month?</p> Categories: Threat Research Tags: Patch Tuesday, x-ops, Threat Research
-```
-
-#### Full body
-
-```
-September Patch Tuesday haul includes 973 CVEs Windows takes 718 fixes… but what if it was actually a slow month? Written by Angela Gunn Threat Research Patch Tuesday x-ops Share This Link Copied Microsoft on September 9 released 973 patches affecting 39 product families. Of those, 114 of the addressed issues are considered by Microsoft to be of Critical severity; 58 CVEs are expected to be exploited within the next 30 days. (Two Important-severity Windows vulnerabilities already are; more on those below.) 284 have a CVSS Base score of 8.0 or higher. None of this month’s collection were publicly disclosed prior to patch release. For the second month in a row, the relatively low advisory count poses an interesting contrast to the main event. The Chrome team released 24 Edge-related patches in the days before Patch Tuesday, while Adobe moved 21 patches affecting Acrobat with the main release. The usual Servicing Stack update (ADV990001) was issued. MITRE sent word of CVE-2025-70873, an information disclosure issue affecting SQLite v3.51.1. The only eyebrow-raising advisory item, in fact, comes from the OpenSSL Software Foundation, warning of CVE-2026-34182 – an improper validation of an integrity-check value (CWE-354) concerning CMS (Cryptographic Message Services) data in certain containers. It carries a 9.1 CVSS Base score. Nine Microsoft CVEs announcements likewise could be considered advisory, since they were patched prior to September 9. All are Critical-severity and two carry a “perfect” 10.0 CVSS base score; these affect Azure, Copilot, Discovery Studio, Entra, Fabric, and Power Automate. We include these nine items in the usual charts and statistics below, but they’re fortunately not items the average administrator need address in any fashion. The average CVSS Base score of these nine CVEs is 9.0, compared with a 7.4 average for the other 964 CVEs. Various of this month’s issues are amenable to direct detection by Sophos protections, and we include information on those in the usual table below. And that is, as they say, the good news. Now let’s talk about patch volume. Six months in the whirlwind First, let us stipulate that a patched vulnerability is – with an exception we’ll cover in a second – always better than an unpatched vulnerability. In that light, it’s easy to appreciate not only the delivery of nearly a thousand patches in September, but the gift that is Patch Tuesday – it’s free, it’s expectable, and it improves products. (Remember always that the team that coordinates and delivers the protections is not the team that wrote whatever is broken. First of all, the protections team is much smaller.) The continued choice by Microsoft and others to patch flaws long after the customers’ checks have cleared is a positive thing; we can quibble about product lifespans, but the fact remains that we all want things to be made better when trouble arises. Patch Tuesday is a regularly scheduled commitment to making that so. That said, the system was not built for the AI-finder age. Figure 1 shows patch volumes over the last 60 months (five years) of Patch Tuesday. Figure 1: A year ago, a hundred patches seemed like a lot in one month. It was a more innocent time. That spike over the last six months has a number of cascading effects -- from the sheer volume of data moving across the internet to the extraordinary effort on the part of the teams involved in testing bug reports, identifying affected versions, developing the patches, getting them out the door, and applying them to literally millions of systems. (Even analysis gets wild at these levels. For instance, the Summary document sent out by Microsoft to provide analysts with information on each patch would, were it formatted for print, be a 3,002-page PDF – and yes, some analysts read every page.) And effects have costs. As mentioned, there is an exception to patched > unpatched. With a system like Patch Tuesday, which retains customer trust in part by virtue of its rela
-```
-
-#### Corroborating sources (1)
-
-- **Sophos X-Ops** (detection_response_operations)
-  - Title: September Patch Tuesday haul includes 973 CVEs
-  - Published: 2026-09-16T00:00:00+00:00
-  - Link: https://www.sophos.com/en-us/blog/september-2026-patch-tuesday
-  - Summary: <p>Windows takes 718 fixes… but what if it was actually a slow month?</p> Categories: Threat Research Tags: Patch Tuesday, x-ops, Threat Research
-
 ### Cluster 66a97a181c — score 9
 
 - Title: Cloud CISO Perspectives: How Google monitors AI threats and advances AI defenses
@@ -3519,7 +3385,7 @@ September Patch Tuesday haul includes 973 CVEs Windows takes 718 fixes… but wh
 #### Summary
 
 ```
-Welcome to the first Cloud CISO Perspectives for September 2026. Today, Sandra Joyce shares the latest details on Google’s visibility into how attackers are using AI, and how we’re using AI to stop them. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block <ListValue: [StructValue([('title', 'Get vital board insights with Google Cloud'), ('body', <wagtail.rich_text.RichText object at 0x7f24a17a08d0>), ('btn_text', 'Visit the hub'), ('href', 'https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&utm_medium=et&utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&utm_content=-&utm_term=-'), ('image', <GAEImage: GCAT-replacement-logo-A>)])]> ‘Spellcheck for cybersecurity’ and beyond: How Google monitors AI threats and advances AI defenses By Sandra Joyce, VP, Google Threat In
+Welcome to the first Cloud CISO Perspectives for September 2026. Today, Sandra Joyce shares the latest details on Google’s visibility into how attackers are using AI, and how we’re using AI to stop them. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block <ListValue: [StructValue([('title', 'Get vital board insights with Google Cloud'), ('body', <wagtail.rich_text.RichText object at 0x7ff10d475a90>), ('btn_text', 'Visit the hub'), ('href', 'https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&utm_medium=et&utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&utm_content=-&utm_term=-'), ('image', <GAEImage: GCAT-replacement-logo-A>)])]> ‘Spellcheck for cybersecurity’ and beyond: How Google monitors AI threats and advances AI defenses By Sandra Joyce, VP, Google Threat In
 ```
 
 #### Full body
@@ -3534,7 +3400,54 @@ Security & Identity Cloud CISO Perspectives : How Google monitors AI threats and
   - Title: Cloud CISO Perspectives: How Google monitors AI threats and advances AI defenses
   - Published: 2026-09-16T16:00:00+00:00
   - Link: https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-google-monitors-ai-threats-advances-ai-defenses/
-  - Summary: Welcome to the first Cloud CISO Perspectives for September 2026. Today, Sandra Joyce shares the latest details on Google’s visibility into how attackers are using AI, and how we’re using AI to stop them. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block <ListValue: [StructValue([('title', 'Get vital board insights with Google Cloud'), ('body', <wagtail.rich_text.RichText object at 0x7f24a17a08d0>), ('btn_text', 'Visit the hub'), ('href', 'https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&utm_medium=et&utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&utm_content=-&utm_term=-'), ('image', <GAEImage: GCAT-replacement-logo-A>)])]> ‘Spellcheck for cybersecurity’ and beyond: How Google monitors AI threats and advances AI defenses By Sandra Joyce, VP, Google Threat In
+  - Summary: Welcome to the first Cloud CISO Perspectives for September 2026. Today, Sandra Joyce shares the latest details on Google’s visibility into how attackers are using AI, and how we’re using AI to stop them. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block <ListValue: [StructValue([('title', 'Get vital board insights with Google Cloud'), ('body', <wagtail.rich_text.RichText object at 0x7ff10d475a90>), ('btn_text', 'Visit the hub'), ('href', 'https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&utm_medium=et&utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&utm_content=-&utm_term=-'), ('image', <GAEImage: GCAT-replacement-logo-A>)])]> ‘Spellcheck for cybersecurity’ and beyond: How Google monitors AI threats and advances AI defenses By Sandra Joyce, VP, Google Threat In
+
+### Cluster 116709559f — score 9
+
+- Title: Hackuity Raises $19 Million for AI-Powered Vulnerability Management
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-09-16T11:11:23+00:00
+- Link: https://www.securityweek.com/hackuity-raises-19-million-for-ai-powered-vulnerability-management/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, zero_day
+- affected_industries: healthcare
+- affected_products: Anthropic/Claude, GitHub, WordPress
+- urgency_signals: preauth_unauth, zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, data_breach
+- affected_industries: healthcare
+- affected_products: WordPress, Anthropic/Claude, GitHub
+- urgency_signals: zero_day, preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The company will use the new capital to expand its vulnerability operations platform and support international growth. The post Hackuity Raises $19 Million for AI-Powered Vulnerability Management appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Vulnerability management company Hackuity has raised $19 million in a funding round led by Forgepoint Capital, bringing its total funding to $38 million. The Lyon, France-based company plans to use the investment to accelerate development of its vulnerability operations platform, strengthen its artificial intelligence capabilities, and support expansion across Europe and Asia. Hackuity’s platform aggregates and normalizes vulnerability and asset data from more than 130 security products, adding threat intelligence and business context to help organizations determine which security flaws pose the greatest risk. Its scoring engine considers factors such as vulnerability severity and exploitability, asset criticality, threat activity, and potential business impact. The platform can then coordinate remediation work across security, IT, cloud, and engineering teams. The company positions its technology as a response to the growing volume of vulnerabilities and security findings generated by scanners, cloud security products, application security tools, penetration tests, and, increasingly, AI systems. Hackuity CEO and co-founder Patrick Ragaru said the company was founded on the belief that vulnerability volumes would eventually outpace organizations’ ability to manage them manually. The latest generation of AI-powered security models, he argued, is accelerating that shift and increasing the need for automated prioritization and remediation orchestration. “ Mythos simply validates that thesis, by making the scale of the tsunami impossible to ignore,” he said. Advertisement. Scroll to continue reading. Founded in 2018, Hackuity previously raised roughly $13 million in a 2022 Series A round led by what was then known as Sonae IM, now Bright Pixel Capital. Existing investors Bright Pixel Capital, Bpifrance, and Seventure Partners also participated in the round, according to the company’s announcement . Related : Is Patching Dead? Vulnerability Management in the Post-Mythos Era Related: Anthropic Expanding Mythos Access to 150 New Organizations Related: Mythos Proves Potent in Vulnerability Discovery, Less Convincing Elsewhere Related: Claude Mythos Finds Only One Curl Vulnerability; Experts Divided on What It Really Means Written By SecurityWeek News Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from SecurityWeek News In Other News: InjectEave Attack, SIM Swapper Sentenced, Glasswing Findings Review Webinar Today: Keep Pace With AI – A New Operating Model for Endpoint Remediation In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation Palo Alto Networks Acquires AI Agent Platform Console In Other News: Log4j RCE Scare, Minimus Shutdown, Iranian Hacker Sanctions Okta Shares Surge on Strong Earnings, Growing Demand for AI Identity Security Alice Raises $140M to Expand AI Model Defenses and Enterprise Guardrails In Other News: Zombie Card Attack, T-Mobile Cut Cable to Stop Hackers, GitHub Denies AI Caused Bug Latest News First Agentic AI Data Breach Reported to Spanish Regulator Virtual Event Today: Attack Surface Management Summit EU Chief Warns of AI-Powered Hacking, Moves to Rein In Social Media AIUC Raises $40 Million to Certify Enterprise AI Agents Pixel Modem Zero-Day Exploited in Targeted Attacks US, UK, Dutch Agencies Expose Iranian ‘Chosen Brick’ Surveillance Malware Unauthenticated RCE Flaws Could Expose 200,000+ WordPress Sites to Takeover 280,000 Impacted by Premier Medical Group Data Breach Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Virtual Event: Attack Surface Management Summit 2026 September 16, 2026 Join as speakers examine the various components of ASM strategy, the push to mandate continuous asset visibility and inventory tools, and the
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Hackuity Raises $19 Million for AI-Powered Vulnerability Management
+  - Published: 2026-09-16T11:11:23+00:00
+  - Link: https://www.securityweek.com/hackuity-raises-19-million-for-ai-powered-vulnerability-management/
+  - Summary: The company will use the new capital to expand its vulnerability operations platform and support international growth. The post Hackuity Raises $19 Million for AI-Powered Vulnerability Management appeared first on SecurityWeek .
 
 ### Cluster 2770769bca — score 9
 
@@ -3632,20 +3545,24 @@ Sinisa Markovic , Managing Editor, Help Net Security September 16, 2026 Share Ce
 - Source: Infosecurity Magazine (cyber_news_breach_reporting)
 - Published: 2026-09-16T10:00:00+00:00
 - Link: https://www.infosecurity-magazine.com/news/zeroday-tplink-cameras/
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- urgency_signals: zero_day
+- threat_categories: ddos, zero_day
+- affected_industries: government, manufacturing_industrial
+- cve_ids: CVE-2026-15315, CVE-2026-15316
+- urgency_signals: emergency_patch, preauth_unauth, zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: zero_day
-- urgency_signals: zero_day
+- threat_categories: zero_day, ddos
+- affected_industries: government, manufacturing_industrial
+- cve_ids: CVE-2026-15315, CVE-2026-15316
+- urgency_signals: zero_day, preauth_unauth, emergency_patch
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -3655,6 +3572,12 @@ Sinisa Markovic , Managing Editor, Help Net Security September 16, 2026 Share Ce
 OPSWAT researchers find two zero-days in TP-Link cameras
 ```
 
+#### Full body
+
+```
+Infosecurity Magazine Home » News » Zero-Day Flaw in TP-Link Cameras Enables Eavesdropping Zero-Day Flaw in TP-Link Cameras Enables Eavesdropping News 16 September 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Security researchers have released details of two zero-day vulnerabilities found in TP-Link security cameras commonly used in home and small offices, one of which could enable attackers to spy on users. OPSWAT said the bugs affect the TP-Link Tapo C200 camera often used for baby/pet monitoring, home security and SOHO business security. CVE-2026-15315 and CVE-2026-15316 were patched by the Chinese manufacturer in firmware version V5_1.4.6 released on August 18. CVE-2026-15315 is an authentication bypass through replay which could allow an attacker with network access to the camera to obtain a valid administrative session without knowing or recovering the user's password. Read more on camera hacks: #BHUSA: Security Researchers Uncover Critical Flaws in Axis CCTV Software. “The resulting administrative access enables the attacker to invoke privileged management functions, modify device configuration and perform operations that would normally require authorized administrator access,” OPSWAT explained. “This access may also expose privacy-sensitive camera functionality, including live video streams and stored recordings, enabling unauthorized surveillance of footage captured by the affected device.” Dahvid Schloss, COO at Suzu Labs, said the high-severity flaw is less dangerous than it sounds, because an attacker would have to be on the same network as the camera in order for it to work. “If someone's made it that far into your network, they're not after the baby monitor,” he added. “Now, if the camera was port-forwarded to the internet, that's a bigger design issue and probably should be a concern, but not a common setup for the everyday home user.” CVE-2026-15316 is a denial-of-service vulnerability which impacts the camera's onboarding configuration flow. Encrypted credential data needs to be validated before being passed to cryptographic and configuration-processing routines. “An unauthenticated attacker with network access to the camera can submit an oversized encrypted credential value,” OPSWAT wrote. “When the malformed data reaches the vulnerable processing path, it can cause the camera's HTTPS service to crash, resulting in a denial-of-service condition.” A Third Vulnerability Could Be Worse While both of the published vulnerabilities are high severity, OPSWAT is currently working with the camera-maker on an additional zero day it found, which it rates as critical. “It could allow an attacker to fully compromise the camera and use the compromised device as a foothold within the network,” OPSWAT claimed. “I would guess the exploit would be a command injection or a memory-safety bug in the same management service, chained behind that auth bypass to get code execution as root, where they then dropped a static binary to return a shell on the device whose firmware ships with almost no tooling,” said Suzu Labs’ Schloss. “That attack chain isn't uncommon on cheap, older consumer IoT devices where security wasn't top of mind, but if that's the case here, seeing it hold up on a modern TP-Link device would be a bit of a blast from the past.” Details will be shared once a fix is available. Image credit: tinhkhuong / Shutterstock.com You may also like US Government Ordered to Urgently Patch Apple Zero-Day Bugs News 12 September 2023 #BSidesBelfast: Focus More on Common Attacks, Less on Zero-Days News 31 October 2019 Microsoft Fixes 400 Flaws on August Patch Tuesday News 12 August 2026 Microsoft Fixes 200 CVEs in June Patch Tuesday News 10 June 2026 Microsoft Reports Severe Zero-Day Flaw in On-Prem Exchange Servers News 15 May 2026 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Microsoft Releases Emergency Patch to Fix RDS Vulnerability Ne
+```
+
 #### Corroborating sources (1)
 
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
@@ -3662,6 +3585,94 @@ OPSWAT researchers find two zero-days in TP-Link cameras
   - Published: 2026-09-16T10:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/zeroday-tplink-cameras/
   - Summary: OPSWAT researchers find two zero-days in TP-Link cameras
+
+### Cluster c0ad859a7f — score 9
+
+- Title: Smashing Security podcast #485: These researchers got drunk to hack an LG TV
+- Source: Graham Cluley (practitioner_analysis)
+- Published: 2026-09-16T23:07:19+00:00
+- Link: https://grahamcluley.com/smashing-security-podcast-485/
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 3
+- Strong signals: Android
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- affected_industries: financial_services
+- affected_products: Android
+- content_type: news_report
+- confidence_tier: tier_3_analysis, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- affected_industries: financial_services
+- affected_products: Android
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+Researchers wanted to test if LG's smart TVs come with any security risks - but their lawyers noticed a snag: the terms and conditions would forbid it. So they came up with a solution. They got plastered before setting up the TV, on the reasoning that you can't be legally bound to a contract you agreed to while drunk. What they discovered will make you look at your TV rather differently... Meanwhile, awful Android malware with the audacious name "Awesome" (in Indonesian) is doing the rounds, stealing your data, demanding a ransom, and then giving you a "jump scare"... Plus, in our featured interview, Andy Hornegold of Intruder explains why the mid-market is where cybercriminals are having the most fun right now - and how AI is helping attackers get from "first foot in the door" to "full ransomware disaster" in less than a working day. All this and more in episode 485 of the "Smashing Security" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Lianne
+```
+
+#### Full body
+
+```
+Graham Cluley @ 12:07 am, September 17, 2026 @grahamcluley.com / grahamcluley Researchers wanted to test if LG’s smart TVs come with any security risks – but their lawyers noticed a snag: the terms and conditions would forbid it. So they came up with a solution. They got plastered before setting up the TV, on the reasoning that you can’t be legally bound to a contract you agreed to while drunk. What they discovered will make you look at your TV rather differently… Meanwhile, awful Android malware with the audacious name “Awesome” (in Indonesian) is doing the rounds, stealing your data, demanding a ransom, and then giving you a “jump scare”… Plus, in our featured interview, Andy Hornegold of Intruder explains why the mid-market is where cybercriminals are having the most fun right now – and how AI is helping attackers get from “first foot in the door” to “full ransomware disaster” in less than a working day. All this and more in episode 485 of the “Smashing Security” podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Lianne Potter. Smashing Security #485 These researchers got drunk to hack an LG TV ↺ 15 ↻ 30 0:00 Learn more 0:00 0:00 0:00 1× Show full transcript ▼ This transcript was generated automatically, probably contains mistakes, and has not been manually verified. RESEARCHER So we're gonna have a private conversation about our next crypto scam, and it would really be unfortunate if anyone had a recording of this. ROBOT Smashing Security, episode 485. These researchers got drunk to hack an LG TV with Graham Cluley and special guest Lianne Potter. GRAHAM CLULEY Hello, hello, and welcome to Smashing Security. Smashing Security, episode 485. My name's Graham Cluley. LIANNE POTTER And I'm Lianne Potter. GRAHAM CLULEY Lianne, welcome back to the show. Always great to have you here. Now, you are, of course, quite the aficionado when it comes to podcasts. You've got podcasts coming out of your ears, haven't you? LIANNE POTTER I'm a millennial. You have to have multiple podcasts. GRAHAM CLULEY But you haven't just got one podcast, you've got multiple podcasts. So you've got your Compromising Positions podcast, all about cybersecurity. Excellent, groovy stuff there. But you also do Tech Film Noir, where you are looking at old movies and seeing how well they've predicted future tech in particular, right? LIANNE POTTER It's just an excuse to watch the films I absolutely adore, mostly Arnold Schwarzenegger sci-fi movies. GRAHAM CLULEY Well, the latest episode you've put out is all about Weird Science, which was from about 1985, which hit me at precisely the right time. It was in my formative teenage years. LIANNE POTTER So does that explain it all then, Graham? GRAHAM CLULEY For anyone who hasn't seen it, it's about a couple of teenagers who decide to use technology to magic up the perfect woman in the shape of Kelly LeBrock. LIANNE POTTER And what a shape. That's all I have to say. Loving controversy on the podcast. GRAHAM CLULEY Goodness gracious me. GRAHAM CLULEY They were like, Lianne, you know, we can't really do this podcast 'cause it's not age-grade. And I said, well, that's the whole point of this podcast, that it's not age-grade. The technology hasn't aged great and neither has the ethical quandaries. GRAHAM CLULEY Oh, well, I haven't seen it for a while, but I remember I enjoyed it at the time. These couple of nerds, they boot up a Memotech MTX computer, a home computer, which wasn't very popular. And with it, they managed to create Kelly LeBrock. Now, the thing I have to tell you, Lianne, is I had a Memotech MTX computer. LIANNE POTTER Boom! My head just exploded. No, you didn't. Really? GRAHAM CLULEY I really did. LIANNE POTTER We should have got you on the episode. GRAHAM CLULEY My original home computer was the Sinclair ZX81. LIANNE POTTER Yeah. GRAHAM CLULEY But my dad actually got us a Memotech MTX. I can't remember if it was the 500 or the 512. They had different amounts of RAM in
+```
+
+#### Corroborating sources (3)
+
+- **Graham Cluley** (practitioner_analysis)
+  - Title: Smashing Security podcast #485: These researchers got drunk to hack an LG TV
+  - Published: 2026-09-16T23:07:19+00:00
+  - Link: https://grahamcluley.com/smashing-security-podcast-485/
+  - Summary: Researchers wanted to test if LG's smart TVs come with any security risks - but their lawyers noticed a snag: the terms and conditions would forbid it. So they came up with a solution. They got plastered before setting up the TV, on the reasoning that you can't be legally bound to a contract you agreed to while drunk. What they discovered will make you look at your TV rather differently... Meanwhile, awful Android malware with the audacious name "Awesome" (in Indonesian) is doing the rounds, stealing your data, demanding a ransom, and then giving you a "jump scare"... Plus, in our featured interview, Andy Hornegold of Intruder explains why the mid-market is where cybercriminals are having the most fun right now - and how AI is helping attackers get from "first foot in the door" to "full ransomware disaster" in less than a working day. All this and more in episode 485 of the "Smashing Security" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Lianne
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: MantaxOtax Android Malware Combines Ransomware With Spyware
+  - Published: 2026-09-10T13:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/mantaxotax-android-malware/
+  - Summary: MantaxOtax Android malware combines ransomware with extensive spyware capabilities
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks
+  - Published: 2026-09-10T11:33:43+00:00
+  - Link: https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html
+  - Summary: The Gigabud banking trojan now installs a second Android app that creates a work profile on an infected phone and drops a tampered banking app inside it, security firm Group-IB said in a report published on September 9. A work profile is a separate space that Android typically reserves for employer apps, and what's inside it is kept separate from everything in the personal space. That
+
+### Cluster 900a6c21c2 — score 8
+
+- Title: September Patch Tuesday haul includes 973 CVEs
+- Source: Sophos X-Ops (detection_response_operations)
+- Published: 2026-09-16T00:00:00+00:00
+- Link: https://www.sophos.com/en-us/blog/september-2026-patch-tuesday
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+<p>Windows takes 718 fixes… but what if it was actually a slow month?</p> Categories: Threat Research Tags: Patch Tuesday, x-ops, Threat Research
+```
+
+#### Corroborating sources (1)
+
+- **Sophos X-Ops** (detection_response_operations)
+  - Title: September Patch Tuesday haul includes 973 CVEs
+  - Published: 2026-09-16T00:00:00+00:00
+  - Link: https://www.sophos.com/en-us/blog/september-2026-patch-tuesday
+  - Summary: <p>Windows takes 718 fixes… but what if it was actually a slow month?</p> Categories: Threat Research Tags: Patch Tuesday, x-ops, Threat Research
 
 ### Cluster d62ec97b2c — score 8
 
@@ -4040,6 +4051,43 @@ The disgruntled researcher continued their vendetta against Microsoft by publish
   - Link: https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit
   - Summary: The disgruntled researcher continued their vendetta against Microsoft by publishing yet another zero-day exploit for Windows Defender.
 
+### Cluster 37c5b50190 — score 8
+
+- Title: Revolut Confirms Data Breach Through Fake Government Requests
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-09-14T11:20:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/revolut-data-breach-fake-government/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- affected_industries: government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- affected_industries: government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+An unauthorized party used a legitimate government email domain to fraudulently request Revolut customer data
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Revolut Confirms Data Breach Through Fake Government Requests
+  - Published: 2026-09-14T11:20:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/revolut-data-breach-fake-government/
+  - Summary: An unauthorized party used a legitimate government email domain to fraudulently request Revolut customer data
+
 ### Cluster 4b8281c753 — score 8
 
 - Title: China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE
@@ -4078,43 +4126,6 @@ A Chinese threat actor has been attributed to a spear-phishing campaign that exp
   - Published: 2026-09-15T05:31:05+00:00
   - Link: https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html
   - Summary: A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE. Volexity, which is tracking the threat cluster under the moniker UTA0560, said the activity targeted multiple non-governmental organizations (NGOs) on September 1, 2026. "The
-
-### Cluster 37c5b50190 — score 8
-
-- Title: Revolut Confirms Data Breach Through Fake Government Requests
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-09-14T11:20:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/revolut-data-breach-fake-government/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-An unauthorized party used a legitimate government email domain to fraudulently request Revolut customer data
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Revolut Confirms Data Breach Through Fake Government Requests
-  - Published: 2026-09-14T11:20:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/revolut-data-breach-fake-government/
-  - Summary: An unauthorized party used a legitimate government email domain to fraudulently request Revolut customer data
 
 ### Cluster 178bbf8b39 — score 8
 
