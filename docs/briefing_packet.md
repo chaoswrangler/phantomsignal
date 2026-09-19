@@ -1,15 +1,15 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-09-18T21:34:12.860287+00:00
+- Generated: 2026-09-19T00:05:00.994272+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
 - Total items in window: 408
-- Total clusters raw: 215
+- Total clusters raw: 214
 - Total clusters in packet: 80
 - Dropped low score: 79
-- Dropped overflow: 56
+- Dropped overflow: 55
 
 ## Cohort metadata
 
@@ -70,28 +70,18 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 4
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
@@ -100,21 +90,31 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
@@ -125,10 +125,10 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
-  - Item count: 15
+  - Item count: 100
   - In window count: 2
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
@@ -140,23 +140,23 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 4
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -180,23 +180,23 @@
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
   - Status: ok
-  - Item count: 10
+  - Item count: 15
   - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -205,11 +205,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
@@ -225,86 +220,91 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 2
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 6
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 3
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
@@ -315,11 +315,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -330,11 +325,26 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 21
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
@@ -345,26 +355,16 @@
   - Status: ok
   - Item count: 50
   - In window count: 0
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 21
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 18
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 18
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
@@ -385,6 +385,11 @@
   - Status: ok
   - Item count: 15
   - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -405,21 +410,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 26
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
@@ -435,6 +425,16 @@
   - Status: ok
   - Item count: 50
   - In window count: 50
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 26
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -455,16 +455,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Just Security** (policy_strategy_geopolitics)
-  - URL: https://www.justsecurity.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 100
   - In window count: 2
+- **Just Security** (policy_strategy_geopolitics)
+  - URL: https://www.justsecurity.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Google Project Zero** (offensive_vulnerability_research)
   - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
   - Status: ok
@@ -531,46 +531,62 @@
 ### Android active exploitation
 - Anchor signal: Android
 - Theme key: android
-- Cluster count: 4
-- Article count: 8
-- Cohesion: 0.405
+- Cluster count: 3
+- Article count: 7
+- Cohesion: 0.413
 - Shared strong signals: Android
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion, active_exploitation, web_shell_backdoor
+  - threat_categories: ransomware_extortion, active_exploitation
   - affected_industries: financial_services
-  - affected_products: Android, WordPress
+  - affected_products: Android
   - urgency_signals: actively_exploited
-- Cluster IDs: 4ac366c7ba, 3853341000, 76bb72a333, 8d68d6570f
+- Cluster IDs: 4ac366c7ba, 3853341000, 76bb72a333
 - Links:
   - https://research.checkpoint.com/2026/ai-threat-landscape-digest-july-august-2026/
   - https://www.team-cymru.com/post/coper-octo-a-conductor-for-mobile-mayhem-with-eight-limbs
-  - https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/
   - https://www.helpnetsecurity.com/2026/09/18/google-androidx-security-state-libraries/
   - https://grahamcluley.com/smashing-security-podcast-485/
+  - https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/
   - https://www.infosecurity-magazine.com/news/microsoft-releases-emergency-patch/
-  - https://www.infosecurity-magazine.com/news/cisa-upgrades-vulnerability/
 
-### ransomware extortion targeting WordPress
-- Anchor signal: WordPress
-- Theme key: wordpress
+### zero day targeting Fortinet
+- Anchor signal: Fortinet
+- Theme key: fortinet
 - Cluster count: 3
 - Article count: 3
-- Cohesion: 0.383
-- Shared strong signals: WordPress
+- Cohesion: 0.24
+- Shared strong signals: Fortinet
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion, web_shell_backdoor
-  - affected_industries: financial_services
-  - affected_products: WordPress, Android
-  - urgency_signals: emergency_patch
-- Cluster IDs: 1f8d8a4d6d, 76bb72a333, 8d68d6570f
+  - threat_categories: zero_day
+  - affected_industries: critical_infrastructure
+  - affected_products: Fortinet
+  - urgency_signals: zero_day
+- Cluster IDs: 1f8d8a4d6d, c1f52c0381, fbe10584c4
 - Links:
   - https://www.securityweek.com/critical-orkes-conductor-vulnerability-exploited-in-attacks/
-  - https://www.infosecurity-magazine.com/news/microsoft-releases-emergency-patch/
-  - https://www.infosecurity-magazine.com/news/cisa-upgrades-vulnerability/
+  - https://www.team-cymru.com/post/tracking-orbs-on-singapores-telecommunications-networks
+  - https://www.team-cymru.com/post/ai-driven-threat-detection-is-reshaping-cybersecurity
+
+### Salt Typhoon: apt espionage
+- Anchor signal: Salt Typhoon
+- Theme key: salt-typhoon
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.385
+- Shared strong signals: Salt Typhoon
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: apt_espionage
+  - actor_attribution: Salt Typhoon
+- Cluster IDs: b9771fe2d2, 5f75cd0900
+- Links:
+  - https://www.team-cymru.com/post/defense-industrial-base-nation-state-network-telemetry
+  - https://www.welivesecurity.com/en/eset-research/beware-sparrowock-backdoor-bites-commands-catch/
 
 ### AWS vulnerability activity
 - Anchor signal: AWS
@@ -590,41 +606,23 @@
   - https://www.helpnetsecurity.com/2026/09/17/aws-middle-east-outage-permanent-data-loss-bahrain-uae/
   - https://www.sentinelone.com/labs/dont-call-us-well-call-your-apis-tradertraitor-backdoors-resurface-on-victim-with-no-crypto-ties/
 
-### Salt Typhoon: apt espionage
-- Anchor signal: Salt Typhoon
-- Theme key: salt-typhoon
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.385
-- Shared strong signals: Salt Typhoon
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: apt_espionage
-  - actor_attribution: Salt Typhoon
-- Cluster IDs: b9771fe2d2, 5f75cd0900
-- Links:
-  - https://www.team-cymru.com/post/defense-industrial-base-nation-state-network-telemetry
-  - https://www.welivesecurity.com/en/eset-research/beware-sparrowock-backdoor-bites-commands-catch/
-
-### zero day targeting Fortinet
-- Anchor signal: Fortinet
-- Theme key: fortinet
+### ransomware extortion targeting WordPress
+- Anchor signal: WordPress
+- Theme key: wordpress
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.2
-- Shared strong signals: Fortinet
+- Shared strong signals: WordPress
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: zero_day
-  - affected_industries: critical_infrastructure
-  - affected_products: Fortinet
-  - urgency_signals: zero_day
-- Cluster IDs: 1f8d8a4d6d, c1f52c0381
+  - threat_categories: ransomware_extortion
+  - affected_products: WordPress
+  - urgency_signals: emergency_patch
+- Cluster IDs: 1f8d8a4d6d, 76bb72a333
 - Links:
   - https://www.securityweek.com/critical-orkes-conductor-vulnerability-exploited-in-attacks/
-  - https://www.team-cymru.com/post/tracking-orbs-on-singapores-telecommunications-networks
+  - https://www.infosecurity-magazine.com/news/microsoft-releases-emergency-patch/
 
 ### Google Cloud vulnerability activity
 - Anchor signal: Google Cloud
@@ -669,12 +667,7 @@
 - Novel actors: 0
 - Novel products: 0
 
-### Velocity bursts (3)
-- **Zero-click RCE vulnerability hit four major AI coding agents, two remain unpatched**
-  - Cluster: b80b35d009
-  - Sources in window: 3
-  - Window hours: 3.8
-  - Cohort count: 3
+### Velocity bursts (2)
 - **CVE-2026-85706: Critical GitLab Path Traversal Exploited in the Wild**
   - Cluster: 688ffee0f1
   - Sources in window: 3
@@ -705,7 +698,12 @@
 - Pair: CVE-2026-76461 + Cisco (cluster cbc8c9c93f, first observation: True)
 - Pair: CVE-2026-20176 + Cisco (cluster f6ef4f9586, first observation: True)
 
-### Drift (4)
+### Drift (5)
+- **APT36** (cluster b80b35d009)
+  - New industries: (none)
+  - New products: Google/Gemini, OpenAI/ChatGPT
+  - Prior top industries: government
+  - Prior top products: AWS, Anthropic/Claude, GitHub
 - **Lazarus** (cluster 250fac7429)
   - New industries: retail_ecommerce
   - New products: AWS, Apple iOS/macOS, GitHub
@@ -967,7 +965,7 @@ CATEGORIES AI Research 20 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
 - Published: 2026-09-18T08:49:00+00:00
 - Link: https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/
 - Fetch status: ok
-- Member count: 8
+- Member count: 9
 - Corroborating source count: 6
 - Strong signals: Anthropic/Claude, GitHub, Google/Gemini
 
@@ -1012,10 +1010,10 @@ Sinisa Markovic , Managing Editor, Help Net Security September 18, 2026 Share Ze
   - Link: https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html
   - Summary: The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government and defense entities in India and Afghanistan. The attacks, per Zscaler ThreatLabz, involve the use of previously undocumented tools called RUSTYSHADE, RUSTYMOVE, PSNATCH, and BASHNATCH. The activity has been codenamed Operation
 - **Simon Willison** (ai_security_agentic_risk)
-  - Title: Quoting Thariq Shihipar
-  - Published: 2026-09-18T19:09:27+00:00
-  - Link: https://simonwillison.net/2026/Sep/18/thariq-shihipar/
-  - Summary: We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. This is a built-in mod, but you’ll be able to build custom versions of project instructions yourself as you’d like too. You can see the source for the mod here ! — Thariq Shihipar , there are more mods here Tags: thariq-shihipar , coding-agents , anthropic , claude-code , generative-ai , ai , llms
+  - Title: Gemini Hacked Three Companies in First Known Breakout by Google’s AI
+  - Published: 2026-09-18T23:57:57+00:00
+  - Link: https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/
+  - Summary: Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Felony Bench ! The hacks, which the company confirmed on Friday, occurred in May as part of a test run by the company Irregular, which was also involved in similar incidents disclosed by OpenAI, Anthropic and Meta. In one of the cases, the model guessed passwords until it gained access to a protected system. In the other two cases, the model found credentials in a public repository that allowed it to then access protected systems. In each case, the model ended the intrusion after determining it had accessed a real company’s systems, Google said. Gemini is apparently less determined than other models, and decided not to keep going. Tags: security , ai , generative-ai , llms , gemini , accidental-cyberattacks
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer
   - Published: 2026-09-18T15:19:06+00:00
@@ -1184,7 +1182,54 @@ Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks  Rav
   - Link: https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html
   - Summary: Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild. The vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file permissions. It affects the following versions - Acronis Backup plugin for cPanel & WHM (Linux
 
-### Cluster 2cd28e489a — score 18
+### Cluster b14e569a31 — score 17
+
+- Title: Record breaking DDoS Potential Discovered: CVE-2022-26143
+- Source: Team Cymru (ransomware_ecrime_financial_crime)
+- Published: 2026-09-18T16:59:03+00:00
+- Link: https://www.team-cymru.com/post/record-breaking-ddos-potential-discovered-cve-2022-26143
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2022-26143
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, ddos
+- affected_industries: financial_services, telecommunications
+- cve_ids: CVE-2022-26143
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: ddos, active_exploitation
+- affected_industries: financial_services, telecommunications
+- cve_ids: CVE-2022-26143
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Discover how the CVE-2022-26143 vulnerability could lead to record-breaking DDoS attacks, and what it means for the cybersecurity landscape.
+```
+
+#### Full body
+
+```
+10 min read March 8, 2022 Record breaking DDoS Potential Discovered: CVE-2022-26143 How cross-industry collaboration discovered a devastating DDoS method CVE-2022-26143: TP240PhoneHome Reflection/Amplification DDoS Attack Vector Executive summary A new reflection/amplification distributed denial-of-service (DDoS) vector with a record-breaking potential amplification ratio of 4,294,967,296:1 has been abused by attackers in the wild to launch multiple high-impact DDoS attacks. Security researchers, network operators, and security vendors observed these attacks and formed a task force to investigate the new DDoS vector and provide mitigation guidance. Approximately 2,600 Mitel MiCollab and MiVoice Business Express collaboration systems acting as PBX-to-internet gateways were incorrectly deployed with an abusable system test facility exposed to the public internet. Attackers were actively leveraging these systems to launch reflection/amplification DDoS attacks of more than 53 million packets per second (Mpps). With optimal attack tuning, the potential traffic yield for this DDoS vector is significantly higher. Attacks have been observed on broadband access ISPs, financial institutions, logistics companies, gaming companies, and organizations in other vertical markets. The attacks can be mitigated using standard DDoS-defense techniques. Mitel has released patched software that disables the abusable test facility, and is actively engaged in remediation efforts with their customers. Research and mitigation task force contributors include Akamai SIRT, Cloudflare, Lumen Black Lotus Labs, Mitel, NETSCOUT Arbor ASERT, TELUS, Team Cymru, and The Shadowserver Foundation. Introduction Beginning in mid-February 2022, security researchers, network operators, and security vendors observed a spike in DDoS attacks sourced from UDP port 10074 targeting broadband access ISPs, financial institutions, logistics companies, and organizations in other vertical markets. Upon further investigation, it was determined that the devices abused to launch these attacks are MiCollab and MiVoice Business Express collaboration systems produced by which incorporate TP-240 VoIP-processing interface cards and supporting software; their primary function is to provide internet-based site-to-site voice connectivity for PBX systems. Approximately 2600 of these systems have been incorrectly provisioned so that an unauthenticated system test facility has been inadvertently exposed to the public internet, allowing attackers to leverage these PBX VoIP gateways as DDoS reflectors/amplifiers. Mitel is aware that these systems are being abused to facilitate high-pps DDoS attacks, and have been actively working with customers to remediate abusable devices with patched software that disables public access to the system test facility. In this blog, we will further explore the observed activity, explain how the driver has been abused, and share recommended mitigation steps. This research was created cooperatively among a team of researchers from Akamai SIRT, Cloudflare, Lumen Black Lotus Labs, NETSCOUT Arbor ASERT , TELUS, Team Cymru, and The Shadowserver Foundation. DDoS attacks in the wild While spikes of network traffic associated with the vulnerable service were observed on January 8 and February 7, 2022, we believe the first actual attacks leveraging the exploit began on February 18. Observed attacks were primarily predicated on pps, or throughput, and appeared to be UDP reflection/amplification attacks sourced from UDP/10074 that were mainly directed toward destination ports UDP/80 and UDP/443. The single largest observed attack of this type preceding this one was approximately 53 Mpps and 23 Gbps. The average packet size for that attack was approximately 60 bytes, with an attack duration of approximately 5 minutes. The amplified attack packets are not fragmented. This particular attack vector differs from most UDP reflection/amplification attack methodologies in that the ex
+```
+
+#### Corroborating sources (1)
+
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - Title: Record breaking DDoS Potential Discovered: CVE-2022-26143
+  - Published: 2026-09-18T16:59:03+00:00
+  - Link: https://www.team-cymru.com/post/record-breaking-ddos-potential-discovered-cve-2022-26143
+  - Summary: Discover how the CVE-2022-26143 vulnerability could lead to record-breaking DDoS attacks, and what it means for the cybersecurity landscape.
+
+### Cluster 2cd28e489a — score 17
 
 - Title: A Vault with a Heap-View: The Uncomfortable Space Between AgentCore Harness and Identity
 - Source: Unit 42 (threat_research_primary)
@@ -1237,53 +1282,6 @@ Threat Research Center Threat Research Cloud Cybersecurity Research Cloud Cybers
   - Published: 2026-09-17T13:12:47+00:00
   - Link: https://www.helpnetsecurity.com/2026/09/17/aws-middle-east-outage-permanent-data-loss-bahrain-uae/
   - Summary: Six months after Iranian drone strikes tore through its Middle East infrastructure, Amazon Web Services (AWS) has acknowledged the permanent loss of customer data in Bahrain and the UAE. In two updates posted September 15, AWS said it can no longer recover customer data and resources stored in its Middle East (Bahrain) region, known as me-south-1, or in one availability zone of its Middle East (UAE) region, known as me-central-1. For the UAE, the loss … More → The post Iranian strikes on AWS facilities left customer data beyond recovery in Bahrain, UAE appeared first on Help Net Security .
-
-### Cluster b14e569a31 — score 17
-
-- Title: Record breaking DDoS Potential Discovered: CVE-2022-26143
-- Source: Team Cymru (ransomware_ecrime_financial_crime)
-- Published: 2026-09-18T16:59:03+00:00
-- Link: https://www.team-cymru.com/post/record-breaking-ddos-potential-discovered-cve-2022-26143
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2022-26143
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ddos
-- affected_industries: financial_services, telecommunications
-- cve_ids: CVE-2022-26143
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: ddos, active_exploitation
-- affected_industries: financial_services, telecommunications
-- cve_ids: CVE-2022-26143
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Discover how the CVE-2022-26143 vulnerability could lead to record-breaking DDoS attacks, and what it means for the cybersecurity landscape.
-```
-
-#### Full body
-
-```
-10 min read March 8, 2022 Record breaking DDoS Potential Discovered: CVE-2022-26143 How cross-industry collaboration discovered a devastating DDoS method CVE-2022-26143: TP240PhoneHome Reflection/Amplification DDoS Attack Vector Executive summary A new reflection/amplification distributed denial-of-service (DDoS) vector with a record-breaking potential amplification ratio of 4,294,967,296:1 has been abused by attackers in the wild to launch multiple high-impact DDoS attacks. Security researchers, network operators, and security vendors observed these attacks and formed a task force to investigate the new DDoS vector and provide mitigation guidance. Approximately 2,600 Mitel MiCollab and MiVoice Business Express collaboration systems acting as PBX-to-internet gateways were incorrectly deployed with an abusable system test facility exposed to the public internet. Attackers were actively leveraging these systems to launch reflection/amplification DDoS attacks of more than 53 million packets per second (Mpps). With optimal attack tuning, the potential traffic yield for this DDoS vector is significantly higher. Attacks have been observed on broadband access ISPs, financial institutions, logistics companies, gaming companies, and organizations in other vertical markets. The attacks can be mitigated using standard DDoS-defense techniques. Mitel has released patched software that disables the abusable test facility, and is actively engaged in remediation efforts with their customers. Research and mitigation task force contributors include Akamai SIRT, Cloudflare, Lumen Black Lotus Labs, Mitel, NETSCOUT Arbor ASERT, TELUS, Team Cymru, and The Shadowserver Foundation. Introduction Beginning in mid-February 2022, security researchers, network operators, and security vendors observed a spike in DDoS attacks sourced from UDP port 10074 targeting broadband access ISPs, financial institutions, logistics companies, and organizations in other vertical markets. Upon further investigation, it was determined that the devices abused to launch these attacks are MiCollab and MiVoice Business Express collaboration systems produced by which incorporate TP-240 VoIP-processing interface cards and supporting software; their primary function is to provide internet-based site-to-site voice connectivity for PBX systems. Approximately 2600 of these systems have been incorrectly provisioned so that an unauthenticated system test facility has been inadvertently exposed to the public internet, allowing attackers to leverage these PBX VoIP gateways as DDoS reflectors/amplifiers. Mitel is aware that these systems are being abused to facilitate high-pps DDoS attacks, and have been actively working with customers to remediate abusable devices with patched software that disables public access to the system test facility. In this blog, we will further explore the observed activity, explain how the driver has been abused, and share recommended mitigation steps. This research was created cooperatively among a team of researchers from Akamai SIRT, Cloudflare, Lumen Black Lotus Labs, NETSCOUT Arbor ASERT , TELUS, Team Cymru, and The Shadowserver Foundation. DDoS attacks in the wild While spikes of network traffic associated with the vulnerable service were observed on January 8 and February 7, 2022, we believe the first actual attacks leveraging the exploit began on February 18. Observed attacks were primarily predicated on pps, or throughput, and appeared to be UDP reflection/amplification attacks sourced from UDP/10074 that were mainly directed toward destination ports UDP/80 and UDP/443. The single largest observed attack of this type preceding this one was approximately 53 Mpps and 23 Gbps. The average packet size for that attack was approximately 60 bytes, with an attack duration of approximately 5 minutes. The amplified attack packets are not fragmented. This particular attack vector differs from most UDP reflection/amplification attack methodologies in that the ex
-```
-
-#### Corroborating sources (1)
-
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - Title: Record breaking DDoS Potential Discovered: CVE-2022-26143
-  - Published: 2026-09-18T16:59:03+00:00
-  - Link: https://www.team-cymru.com/post/record-breaking-ddos-potential-discovered-cve-2022-26143
-  - Summary: Discover how the CVE-2022-26143 vulnerability could lead to record-breaking DDoS attacks, and what it means for the cybersecurity landscape.
 
 ### Cluster 1f8d8a4d6d — score 16
 
@@ -1970,11 +1968,6 @@ S2 Research Team 14 min read March 6, 2024 Coper / Octo - A Conductor for Mobile
   - Published: 2026-09-18T16:59:38+00:00
   - Link: https://www.team-cymru.com/post/coper-octo-a-conductor-for-mobile-mayhem-with-eight-limbs
   - Summary: Explore Coper/Octo, an Android malware-as-a-service evolved from Exobot, targeting users globally with remote access, keylogging, and SMS interception. Contact us.
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: New RatHat Android malware uses AI to automate device control
-  - Published: 2026-09-17T21:50:26+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/
-  - Summary: A new Android malware called RatHat has been discovered, targeting users with an AI-powered subsystem that helps operators remotely navigate compromised devices. [...]
 - **Help Net Security** (cyber_news_breach_reporting)
   - Title: Android apps can now check security patches down to individual device components
   - Published: 2026-09-18T08:38:42+00:00
@@ -1985,6 +1978,11 @@ S2 Research Team 14 min read March 6, 2024 Coper / Octo - A Conductor for Mobile
   - Published: 2026-09-16T23:07:19+00:00
   - Link: https://grahamcluley.com/smashing-security-podcast-485/
   - Summary: Researchers wanted to test if LG's smart TVs come with any security risks - but their lawyers noticed a snag: the terms and conditions would forbid it. So they came up with a solution. They got plastered before setting up the TV, on the reasoning that you can't be legally bound to a contract you agreed to while drunk. What they discovered will make you look at your TV rather differently... Meanwhile, awful Android malware with the audacious name "Awesome" (in Indonesian) is doing the rounds, stealing your data, demanding a ransom, and then giving you a "jump scare"... Plus, in our featured interview, Andy Hornegold of Intruder explains why the mid-market is where cybercriminals are having the most fun right now - and how AI is helping attackers get from "first foot in the door" to "full ransomware disaster" in less than a working day. All this and more in episode 485 of the "Smashing Security" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Lianne
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: New RatHat Android malware uses AI to automate device control
+  - Published: 2026-09-17T21:50:26+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/
+  - Summary: A new Android malware called RatHat has been discovered, targeting users with an AI-powered subsystem that helps operators remotely navigate compromised devices. [...]
 
 ### Cluster 250fac7429 — score 12
 
@@ -2073,49 +2071,6 @@ How Kyocera AVX Built a Global Security Validation Program from Zero Horizon3 Cu
   - Published: 2026-09-18T16:12:24+00:00
   - Link: https://horizon3.ai/customer-story/kyocera-avx-global-security-validation/
   - Summary: See how Kyocera AVX used NodeZero to build a global security validation program, scale autonomous pentesting across manufacturing sites, and remediate more than 30,000 vulnerabilities and misconfigurations.
-
-### Cluster 7f120b7413 — score 12
-
-- Title: Be alert: targeted attacks on prominent Rustaceans
-- Source: Simon Willison (ai_security_agentic_risk)
-- Published: 2026-09-17T23:59:19+00:00
-- Link: https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_products: OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_products: OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Be alert: targeted attacks on prominent Rustaceans Important warning from Adam Harvey and the crates security team: We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order to use them to publish malware. A video call is set up for something positive — maybe for a job, maybe for a project, maybe for a contract opportunity — and then that's used as a vector to either get the target to install something on their computer (such as a purportedly missing audio codec) or execute another command (for example, via putting a command on the clipboard). Last month this trick was used in a successful supply chain attack against the array ref crate , among others. Any piece of software that depends on open source (which is almost every piece of software) has a network of human beings who are potential attack vectors - everyone with publishing rights to any of the packages in the dependency ne
-```
-
-#### Full body
-
-```
-Simon Willison’s Weblog Subscribe Sponsored by: Teleport — See what 13 engineers learned from “pressure washing” their codebase using LLMs for 90 days. Hint: Quality > quantity for finding security vulnerabilities. 17th September 2026 - Link Blog Be alert: targeted attacks on prominent Rustaceans . Important warning from Adam Harvey and the crates security team: We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order to use them to publish malware. A video call is set up for something positive — maybe for a job, maybe for a project, maybe for a contract opportunity — and then that's used as a vector to either get the target to install something on their computer (such as a purportedly missing audio codec) or execute another command (for example, via putting a command on the clipboard). Last month this trick was used in a successful supply chain attack against the array ref crate , among others. Any piece of software that depends on open source (which is almost every piece of software) has a network of human beings who are potential attack vectors - everyone with publishing rights to any of the packages in the dependency network for that software. I guess our best defense right now is dependency cooldowns - giving new package releases a few days before upgrading to them, in the hope that supply chain attacks like this will be spotted by someone else. Posted 17th September 2026 at 11:59 pm Recent articles Generating running routes with GPT-6 Astra and ChatGPT Work - 12th September 2026 OpenAI agents attacked RubyGems back in May - 12th September 2026 Some thoughts on the Navier–Stokes Millennium Prize Problem - 8th September 2026 This is a link post by Simon Willison, posted on 17th September 2026 . open-source 321 security 637 rust 114 supply-chain 22 dependency-cooldowns 5 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
-```
-
-#### Corroborating sources (1)
-
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: Be alert: targeted attacks on prominent Rustaceans
-  - Published: 2026-09-17T23:59:19+00:00
-  - Link: https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/
-  - Summary: Be alert: targeted attacks on prominent Rustaceans Important warning from Adam Harvey and the crates security team: We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order to use them to publish malware. A video call is set up for something positive — maybe for a job, maybe for a project, maybe for a contract opportunity — and then that's used as a vector to either get the target to install something on their computer (such as a purportedly missing audio codec) or execute another command (for example, via putting a command on the clipboard). Last month this trick was used in a successful supply chain attack against the array ref crate , among others. Any piece of software that depends on open source (which is almost every piece of software) has a network of human beings who are potential attack vectors - everyone with publishing rights to any of the packages in the dependency ne
 
 ### Cluster b04cf6724c — score 12
 
@@ -2260,45 +2215,6 @@ Infosecurity Magazine Home » News » Microsoft Releases Emergency Patch to Fix 
   - Link: https://www.infosecurity-magazine.com/news/microsoft-releases-emergency-patch/
   - Summary: Microsoft has been forced to issue an out-of-band fix for several issues stemming from this month’s Patch Tuesday
 
-### Cluster 33b6cffcbd — score 11
-
-- Title: Inside the Modern SOC: Defending the Cross-Environment Pivot
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-09-17T22:00:33+00:00
-- Link: https://unit42.paloaltonetworks.com/soc-cross-environment-pivot/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Cross-environment attacks demand a new approach to security operations. Learn how Unit 42 Managed XSIAM helps SOC teams investigate complete attack paths. The post Inside the Modern SOC: Defending the Cross-Environment Pivot appeared first on Unit 42 .
-```
-
-#### Full body
-
-```
-Threat Research Center Insights Inside the Modern SOC Inside the Modern SOC Inside the Modern SOC: Defending the Cross-Environment Pivot 3 min read Related Products Cortex Cortex XSIAM Managed Threat Hunting Unit 42 Managed Detection and Response Unit 42 Managed XSIAM By: Sharon Maydar Published: September 17, 2026 Categories: Inside the Modern SOC Insights Tags: AI Attack surface Unit 42 Incident Response Report Share The Cross-Environment Gap Our series, Inside the Modern SOC: Trends and Insights from Unit 42 Managed Services , shares the operational patterns that Unit 42 experts observe, with today's challenge beginning after the initial foothold. Across Unit 42 investigations, we continue to see adversaries move well beyond where an attack begins. They pivot across the enterprise, avoiding detection by exploiting the visibility gaps created by disconnected security tools. According to the 2026 Unit 42 Global Incident Response Report , 43% of attacks involved activity across four or more attack surfaces, with some cases spanning as many as eight. As attacks move across cloud, endpoint, network, identity and software-as-a-service (SaaS) environments, analysts must connect activity across security domains before the complete attack path becomes clear. Following the Attack Across Environments The First Signal An investigation may begin with what appears to be an isolated event. An endpoint generates an alert. A cloud administrator provisions a resource outside of normal activity. An unfamiliar application requests elevated permissions. On its own, none of these events necessarily signals a broader attack. The Cross-Environment Pivot As the attack progresses, related activity begins appearing elsewhere. Permissions may change within a SaaS application. Cloud resources may be provisioned or reconfigured. Sensitive data may be staged for exfiltration. New network connections may emerge between systems that rarely communicate. When these signals are investigated separately, security teams can miss the connection between them and the larger attack taking shape across the environment. Reconstructing the Attack Path The complete picture often becomes clear only when activity across security domains is connected. AI-driven correlation connects signals that initially appear unrelated, helping analysts reconstruct how an adversary gained access, where they moved, what they accessed and what they were attempting to accomplish. Because attackers don't operate within the boundaries monitored by individual security tools, security operations can't either. Defenders need to follow attacker activity across the enterprise and investigate the intrusion as one connected attack. Doing this consistently requires continuous monitoring and response, along with ongoing optimization of detections, correlation rules and workflows as threats and environments evolve. How SOC Leaders Can Defend Across Attack Surfaces Use AI to Investigate the Attack, Not the Alert As attackers move across security domains, security leaders should evaluate whether their operations can reconstruct a complete attack path rather than respond to isolated alerts. The goal is to use AI-driven correlation to reveal how seemingly unrelated activity connects before an adversary reaches their objective. Connect Evidence Across the Attack Path To track adversarial behavior from the first signal across every stage of the attack lifecycle, organizations must connect evidence across their security environment through lateral movement, persistence and impact. True visibility requires cross-domain correlation, while threat hunting should test for attacker behaviors that may not yet have generated an alert. SOC leaders should ensure their platforms automatically correlate activity into unified incident storylines, giving analysts the context to investigate and respond without manually pivoting between tools or teams. Continuously Test and Evolve Security Operations Treat every investigatio
-```
-
-#### Corroborating sources (1)
-
-- **Unit 42** (threat_research_primary)
-  - Title: Inside the Modern SOC: Defending the Cross-Environment Pivot
-  - Published: 2026-09-17T22:00:33+00:00
-  - Link: https://unit42.paloaltonetworks.com/soc-cross-environment-pivot/
-  - Summary: Cross-environment attacks demand a new approach to security operations. Learn how Unit 42 Managed XSIAM helps SOC teams investigate complete attack paths. The post Inside the Modern SOC: Defending the Cross-Environment Pivot appeared first on Unit 42 .
-
 ### Cluster 7110d0c027 — score 11
 
 - Title: We’re In: Enterprise Commitment to Sustainable Package Registries
@@ -2341,6 +2257,49 @@ The OpenSSF Governing Board recognizes that the current funding model for public
   - Published: 2026-09-16T08:17:17+00:00
   - Link: https://openssf.org/blog/2026/09/16/were-in-enterprise-commitment-to-sustainable-package-registries/
   - Summary: The OpenSSF Governing Board and major tech enterprises are partnering to support sustainable funding models for public package registries. This commitment aims to secure and scale the global software supply chain while ensuring open source stays free and accessible for individual developers.
+
+### Cluster 7f120b7413 — score 11
+
+- Title: Be alert: targeted attacks on prominent Rustaceans
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-09-17T23:59:19+00:00
+- Link: https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_products: OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_products: OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Be alert: targeted attacks on prominent Rustaceans Important warning from Adam Harvey and the crates security team: We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order to use them to publish malware. A video call is set up for something positive — maybe for a job, maybe for a project, maybe for a contract opportunity — and then that's used as a vector to either get the target to install something on their computer (such as a purportedly missing audio codec) or execute another command (for example, via putting a command on the clipboard). Last month this trick was used in a successful supply chain attack against the array ref crate , among others. Any piece of software that depends on open source (which is almost every piece of software) has a network of human beings who are potential attack vectors - everyone with publishing rights to any of the packages in the dependency ne
+```
+
+#### Full body
+
+```
+Simon Willison’s Weblog Subscribe Sponsored by: Teleport — See what 13 engineers learned from “pressure washing” their codebase using LLMs for 90 days. Hint: Quality > quantity for finding security vulnerabilities. 17th September 2026 - Link Blog Be alert: targeted attacks on prominent Rustaceans . Important warning from Adam Harvey and the crates security team: We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order to use them to publish malware. A video call is set up for something positive — maybe for a job, maybe for a project, maybe for a contract opportunity — and then that's used as a vector to either get the target to install something on their computer (such as a purportedly missing audio codec) or execute another command (for example, via putting a command on the clipboard). Last month this trick was used in a successful supply chain attack against the array ref crate , among others. Any piece of software that depends on open source (which is almost every piece of software) has a network of human beings who are potential attack vectors - everyone with publishing rights to any of the packages in the dependency network for that software. I guess our best defense right now is dependency cooldowns - giving new package releases a few days before upgrading to them, in the hope that supply chain attacks like this will be spotted by someone else. Posted 17th September 2026 at 11:59 pm Recent articles Generating running routes with GPT-6 Astra and ChatGPT Work - 12th September 2026 OpenAI agents attacked RubyGems back in May - 12th September 2026 Some thoughts on the Navier–Stokes Millennium Prize Problem - 8th September 2026 This is a link post by Simon Willison, posted on 17th September 2026 . open-source 321 security 638 rust 114 supply-chain 22 dependency-cooldowns 5 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+```
+
+#### Corroborating sources (1)
+
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Be alert: targeted attacks on prominent Rustaceans
+  - Published: 2026-09-17T23:59:19+00:00
+  - Link: https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/
+  - Summary: Be alert: targeted attacks on prominent Rustaceans Important warning from Adam Harvey and the crates security team: We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order to use them to publish malware. A video call is set up for something positive — maybe for a job, maybe for a project, maybe for a contract opportunity — and then that's used as a vector to either get the target to install something on their computer (such as a purportedly missing audio codec) or execute another command (for example, via putting a command on the clipboard). Last month this trick was used in a successful supply chain attack against the array ref crate , among others. Any piece of software that depends on open source (which is almost every piece of software) has a network of human beings who are potential attack vectors - everyone with publishing rights to any of the packages in the dependency ne
 
 ### Cluster f06cfd6d92 — score 11
 
@@ -2436,6 +2395,45 @@ Inside Google Cloud What’s new with Google Cloud September 18, 2026 Google Clo
   - Link: https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html
   - Summary: Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud). The median organization takes 43 days to patch one (Verizon DBIR 2026). A new free guide explains how autonomous AI agents are closing that gap, and what security leaders must demand before pointing one at production. TL;DR Exploitation is now the front door. It starts 31% of breaches (Verizon DBIR
 
+### Cluster 33b6cffcbd — score 10
+
+- Title: Inside the Modern SOC: Defending the Cross-Environment Pivot
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-09-17T22:00:33+00:00
+- Link: https://unit42.paloaltonetworks.com/soc-cross-environment-pivot/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Cross-environment attacks demand a new approach to security operations. Learn how Unit 42 Managed XSIAM helps SOC teams investigate complete attack paths. The post Inside the Modern SOC: Defending the Cross-Environment Pivot appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center Insights Inside the Modern SOC Inside the Modern SOC Inside the Modern SOC: Defending the Cross-Environment Pivot 3 min read Related Products Cortex Cortex XSIAM Managed Threat Hunting Unit 42 Managed Detection and Response Unit 42 Managed XSIAM By: Sharon Maydar Published: September 17, 2026 Categories: Inside the Modern SOC Insights Tags: AI Attack surface Unit 42 Incident Response Report Share The Cross-Environment Gap Our series, Inside the Modern SOC: Trends and Insights from Unit 42 Managed Services , shares the operational patterns that Unit 42 experts observe, with today's challenge beginning after the initial foothold. Across Unit 42 investigations, we continue to see adversaries move well beyond where an attack begins. They pivot across the enterprise, avoiding detection by exploiting the visibility gaps created by disconnected security tools. According to the 2026 Unit 42 Global Incident Response Report , 43% of attacks involved activity across four or more attack surfaces, with some cases spanning as many as eight. As attacks move across cloud, endpoint, network, identity and software-as-a-service (SaaS) environments, analysts must connect activity across security domains before the complete attack path becomes clear. Following the Attack Across Environments The First Signal An investigation may begin with what appears to be an isolated event. An endpoint generates an alert. A cloud administrator provisions a resource outside of normal activity. An unfamiliar application requests elevated permissions. On its own, none of these events necessarily signals a broader attack. The Cross-Environment Pivot As the attack progresses, related activity begins appearing elsewhere. Permissions may change within a SaaS application. Cloud resources may be provisioned or reconfigured. Sensitive data may be staged for exfiltration. New network connections may emerge between systems that rarely communicate. When these signals are investigated separately, security teams can miss the connection between them and the larger attack taking shape across the environment. Reconstructing the Attack Path The complete picture often becomes clear only when activity across security domains is connected. AI-driven correlation connects signals that initially appear unrelated, helping analysts reconstruct how an adversary gained access, where they moved, what they accessed and what they were attempting to accomplish. Because attackers don't operate within the boundaries monitored by individual security tools, security operations can't either. Defenders need to follow attacker activity across the enterprise and investigate the intrusion as one connected attack. Doing this consistently requires continuous monitoring and response, along with ongoing optimization of detections, correlation rules and workflows as threats and environments evolve. How SOC Leaders Can Defend Across Attack Surfaces Use AI to Investigate the Attack, Not the Alert As attackers move across security domains, security leaders should evaluate whether their operations can reconstruct a complete attack path rather than respond to isolated alerts. The goal is to use AI-driven correlation to reveal how seemingly unrelated activity connects before an adversary reaches their objective. Connect Evidence Across the Attack Path To track adversarial behavior from the first signal across every stage of the attack lifecycle, organizations must connect evidence across their security environment through lateral movement, persistence and impact. True visibility requires cross-domain correlation, while threat hunting should test for attacker behaviors that may not yet have generated an alert. SOC leaders should ensure their platforms automatically correlate activity into unified incident storylines, giving analysts the context to investigate and respond without manually pivoting between tools or teams. Continuously Test and Evolve Security Operations Treat every investigatio
+```
+
+#### Corroborating sources (1)
+
+- **Unit 42** (threat_research_primary)
+  - Title: Inside the Modern SOC: Defending the Cross-Environment Pivot
+  - Published: 2026-09-17T22:00:33+00:00
+  - Link: https://unit42.paloaltonetworks.com/soc-cross-environment-pivot/
+  - Summary: Cross-environment attacks demand a new approach to security operations. Learn how Unit 42 Managed XSIAM helps SOC teams investigate complete attack paths. The post Inside the Modern SOC: Defending the Cross-Environment Pivot appeared first on Unit 42 .
+
 ### Cluster d99c303c35 — score 10
 
 - Title: Atomic macOS (AMOS) Stealer Activity
@@ -2478,53 +2476,6 @@ Threat Research Center Insights General General Atomic macOS (AMOS) Stealer Acti
   - Published: 2026-09-16T10:00:06+00:00
   - Link: https://unit42.paloaltonetworks.com/atomic-macos-amos-stealer-activity/
   - Summary: Modern macOS malware uses deceptive setup guides to steal credentials and sensitive user data. Learn how to identify and block these threats. The post Atomic macOS (AMOS) Stealer Activity appeared first on Unit 42 .
-
-### Cluster 233b776dcc — score 10
-
-- Title: NightEagle targets Russian companies
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-09-16T10:00:11+00:00
-- Link: https://securelist.com/tr/nighteagle-apt-ghostcontainer-and-tunneling/121323/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_industries: critical_infrastructure
-- affected_products: GitHub
-- cve_ids: CVE-2020-0688
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_industries: critical_infrastructure
-- affected_products: GitHub
-- cve_ids: CVE-2020-0688
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Kaspersky GERT experts have uncovered a new campaign by the NightEagle APT, featuring the GhostContainer backdoor and tools hosted on GitHub. The group is also exploiting vulnerabilities in Active Directory and RDP.
-```
-
-#### Full body
-
-```
-Threat Response Table of Contents Initial access GhostContainer on Microsoft Exchange Traffic redirection Lateral movement Takeaways Detection by Kaspersky solutions Indicators of compromise Over the past year, our Global Emergency Response Team (GERT) has investigated several incidents involving the NightEagle group (also tracked as APT-Q-95) . This group has been active since at least 2023 and originally focused on organizations in Asia. We have now identified attacks by the group targeting businesses in Russia. This post examines both known and new tools NightEagle used in its latest campaign. Initial access In most incidents, the attackers used compromised valid credentials to gain access to corporate VPNs. VPN connections originated from IP addresses in the Russian segment linked to Cloudflare WARP tunnels, as well as from IP addresses associated with European virtual infrastructure providers. GhostContainer on Microsoft Exchange Both during the initial access stage and as the attack progressed, the attackers deployed the GhostContainer backdoor on Microsoft Exchange servers. It incorporates components from several open-source projects, including the Neo-reGeorg tunnel, an exploit for the CVE-2020-0688 vulnerability, and the GhostWebShell class from the ysoserial utility. All of these components are publicly available on GitHub. We were unable to determine the exact method the attackers used to deliver the backdoor to Microsoft Exchange servers. We believe with a high degree of confidence that they applied a technique already familiar to us : extracting the cryptographic keys used by Microsoft Exchange from the ASP.NET configuration, overwriting the VIEWSTATE framework parameter, and injecting a payload into it, which then launched the GhostContainer backdoor in memory. The backdoor is a .NET assembly containing three classes that implement its core functionality: Stub : processes C2 commands delivered to the infected system through the x-owa-urlpostdata headers and evades detection by the Antimalware Scan Interface (AMSI) and Windows Event Log mechanisms by overwriting addresses in amsi.dll and ntdll.dll . App_Web_843e75cf5b63 : accepts the fakePath and fakePageName parameters and creates virtual paths that redirect requests to the App_Web_8c9b251fb5b3 class. App_Web_8c9b251fb5b3 : implements network traffic redirection (proxying) and socket forwarding functionality. Kaspersky products detect the GhostContainer backdoor as Trojan.MSIL.GhostContainer.gen. GhostContainer samples identified by the Similarity technology from Kaspersky Threat Analysis Traffic redirection Once the attackers gain sufficient privileges during an attack, they leverage RDP to move laterally within the internal network segment. To do this, they download and run tools for tunneling and redirecting network traffic. The attackers used GitHub repositories to host their archived tools. The names of the repositories and archives were disguised to look legitimate: https : //github[.]com/mirror-js/mirror-js/refs/heads/main/js/js-webpack.zip https : //github[.]com/mirror-js/mirror-js/refs/heads/main/js/jsonp-pack.zip https : //github[.]com/browserthemes/resourcepack/releases/download/main/resource-pack.zip One of the repositories used for storing network tools The files contained within the archives were also given names mimicking known legitimate software, though unrelated to the archive names: adobe_32.exe ; AdobeSync.exe ; trueconf.exe ; 1cbroker.exe ; 1c-office-plugin.exe ; trueconf-broker.exe . Across the incidents we investigated, we found two tools that the attackers combined for traffic tunneling. Microsoft dev tunnels This is a legitimate Microsoft mechanism that allows local web services to be published for internet access on *.*.devtunnels.ms domains. The attackers used this tunneling capability to expose port 3389 (RDP) on the compromised system. Execution graph of adobe_32.exe in Kaspersky Research Sandbox rdp2tcp This is a publicly available t
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: NightEagle targets Russian companies
-  - Published: 2026-09-16T10:00:11+00:00
-  - Link: https://securelist.com/tr/nighteagle-apt-ghostcontainer-and-tunneling/121323/
-  - Summary: Kaspersky GERT experts have uncovered a new campaign by the NightEagle APT, featuring the GhostContainer backdoor and tools hosted on GitHub. The group is also exploiting vulnerabilities in Active Directory and RDP.
 
 ### Cluster 4177169ade — score 10
 
@@ -2576,6 +2527,141 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 14th Septe
   - Published: 2026-09-14T12:22:06+00:00
   - Link: https://research.checkpoint.com/2026/14th-september-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 14th Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES IDScan.net, a US identity verification provider, has disclosed a data breach after detecting unauthorized access on September 1. Exposed data included names and government identification numbers, while a criminal marketplace advertised a […] The post 14th September – Threat Intelligence Report appeared first on Check Point Research .
+
+### Cluster 233b776dcc — score 10
+
+- Title: NightEagle targets Russian companies
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-09-16T10:00:11+00:00
+- Link: https://securelist.com/tr/nighteagle-apt-ghostcontainer-and-tunneling/121323/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_industries: critical_infrastructure
+- affected_products: GitHub
+- cve_ids: CVE-2020-0688
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_industries: critical_infrastructure
+- affected_products: GitHub
+- cve_ids: CVE-2020-0688
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Kaspersky GERT experts have uncovered a new campaign by the NightEagle APT, featuring the GhostContainer backdoor and tools hosted on GitHub. The group is also exploiting vulnerabilities in Active Directory and RDP.
+```
+
+#### Full body
+
+```
+Threat Response Table of Contents Initial access GhostContainer on Microsoft Exchange Traffic redirection Lateral movement Takeaways Detection by Kaspersky solutions Indicators of compromise Over the past year, our Global Emergency Response Team (GERT) has investigated several incidents involving the NightEagle group (also tracked as APT-Q-95) . This group has been active since at least 2023 and originally focused on organizations in Asia. We have now identified attacks by the group targeting businesses in Russia. This post examines both known and new tools NightEagle used in its latest campaign. Initial access In most incidents, the attackers used compromised valid credentials to gain access to corporate VPNs. VPN connections originated from IP addresses in the Russian segment linked to Cloudflare WARP tunnels, as well as from IP addresses associated with European virtual infrastructure providers. GhostContainer on Microsoft Exchange Both during the initial access stage and as the attack progressed, the attackers deployed the GhostContainer backdoor on Microsoft Exchange servers. It incorporates components from several open-source projects, including the Neo-reGeorg tunnel, an exploit for the CVE-2020-0688 vulnerability, and the GhostWebShell class from the ysoserial utility. All of these components are publicly available on GitHub. We were unable to determine the exact method the attackers used to deliver the backdoor to Microsoft Exchange servers. We believe with a high degree of confidence that they applied a technique already familiar to us : extracting the cryptographic keys used by Microsoft Exchange from the ASP.NET configuration, overwriting the VIEWSTATE framework parameter, and injecting a payload into it, which then launched the GhostContainer backdoor in memory. The backdoor is a .NET assembly containing three classes that implement its core functionality: Stub : processes C2 commands delivered to the infected system through the x-owa-urlpostdata headers and evades detection by the Antimalware Scan Interface (AMSI) and Windows Event Log mechanisms by overwriting addresses in amsi.dll and ntdll.dll . App_Web_843e75cf5b63 : accepts the fakePath and fakePageName parameters and creates virtual paths that redirect requests to the App_Web_8c9b251fb5b3 class. App_Web_8c9b251fb5b3 : implements network traffic redirection (proxying) and socket forwarding functionality. Kaspersky products detect the GhostContainer backdoor as Trojan.MSIL.GhostContainer.gen. GhostContainer samples identified by the Similarity technology from Kaspersky Threat Analysis Traffic redirection Once the attackers gain sufficient privileges during an attack, they leverage RDP to move laterally within the internal network segment. To do this, they download and run tools for tunneling and redirecting network traffic. The attackers used GitHub repositories to host their archived tools. The names of the repositories and archives were disguised to look legitimate: https : //github[.]com/mirror-js/mirror-js/refs/heads/main/js/js-webpack.zip https : //github[.]com/mirror-js/mirror-js/refs/heads/main/js/jsonp-pack.zip https : //github[.]com/browserthemes/resourcepack/releases/download/main/resource-pack.zip One of the repositories used for storing network tools The files contained within the archives were also given names mimicking known legitimate software, though unrelated to the archive names: adobe_32.exe ; AdobeSync.exe ; trueconf.exe ; 1cbroker.exe ; 1c-office-plugin.exe ; trueconf-broker.exe . Across the incidents we investigated, we found two tools that the attackers combined for traffic tunneling. Microsoft dev tunnels This is a legitimate Microsoft mechanism that allows local web services to be published for internet access on *.*.devtunnels.ms domains. The attackers used this tunneling capability to expose port 3389 (RDP) on the compromised system. Execution graph of adobe_32.exe in Kaspersky Research Sandbox rdp2tcp This is a publicly available t
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: NightEagle targets Russian companies
+  - Published: 2026-09-16T10:00:11+00:00
+  - Link: https://securelist.com/tr/nighteagle-apt-ghostcontainer-and-tunneling/121323/
+  - Summary: Kaspersky GERT experts have uncovered a new campaign by the NightEagle APT, featuring the GhostContainer backdoor and tools hosted on GitHub. The group is also exploiting vulnerabilities in Active Directory and RDP.
+
+### Cluster 5f75cd0900 — score 10
+
+- Title: Beware the SparroWock: The backdoor that bites, the commands that catch
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-09-17T08:50:00+00:00
+- Link: https://www.welivesecurity.com/en/eset-research/beware-sparrowock-backdoor-bites-commands-catch/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, web_shell_backdoor
+- actor_attribution: Salt Typhoon
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage, web_shell_backdoor
+- actor_attribution: Salt Typhoon
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+ESET researchers document SparroWocky, the new flagship backdoor of the FamousSparrow APT group
+```
+
+#### Full body
+
+```
+ESET Research Beware the SparroWock: The backdoor that bites, the commands that catch ESET researchers document SparroWocky, the new flagship backdoor of the FamousSparrow APT group Alexandre Côté Cyr Romain Dumont 17 Sep 2026 • , 27 min. read ESET Research’s ongoing monitoring of FamousSparrow has borne fruit once again. Our previous public report on FamousSparrow revealed that this China-aligned APT group had developed two new versions of its custom backdoor named SparrowDoor. This time, we discovered that FamousSparrow has switched to a new backdoor, SparroWocky, and has been deploying it to several countries in Latin America since at least August 2025. In what was probably China’s reaction to the US showing increased interest in Latin America, FamousSparrow increased its targeting of the region to almost exclusively targeting it in July 2025. A month later, we noticed that the group had started using the new SparroWocky backdoor, which then quickly replaced SparrowDoor as FamousSparrow’s main implant. SparroWocky is a modular, C++ backdoor. Its architecture and the techniques used by its authors indicate strong knowledge of anti-analysis tricks and Windows internals. We chose to name the backdoor SparroWocky because the first samples we collected all contain the first stanza of Jabberwocky , a nonsense poem by Lewis Carroll. Fortunately, while advanced, SparroWocky’s inner workings are much less arcane than a gyre and gimble in the wabe , so a through and through [of] the vorpal blade allowed us to bring you a detailed analysis of the backdoor. Key points of the blogpost: FamousSparrow is extensively targeting governmental organizations in Latin America. Since August 2025, the group appears to be abandoning SparrowDoor in favor of SparroWocky, a new custom C++ backdoor. With the switch to SparroWocky, FamousSparrow started to incorporate code from open-source projects directly into its malware. SparroWocky is a full-featured backdoor that manipulates low-level structures in memory, and patches code at runtime in order to avoid detection. SparroWocky has the capability to load and execute Beacon Object Files, a special type of executable file supported by many red-teaming and penetration-testing tools. FamousSparrow is a China-aligned cyberespionage group believed to have been active since at least 2019. We first publicly documented the group in a blogpost from September 2021 when we observed it exploiting the ProxyLogon vulnerability. The group was initially known for targeting hotels around the world but has also targeted governments, international organizations, trade groups, engineering companies, and law firms. FamousSparrow is the only known user of the SparrowDoor backdoor. We analyzed two versions of SparrowDoor in a 2025 blogpost , in which we also discussed the attribution claims around the group. As mentioned by Trend Micro , FamousSparrow is linked to Earth Estries; however, the exact nature of the link is not fully known. FamousSparrow has also been publicly linked to Salt Typhoon , but, due to the absence of any technical indicators, we track them as separate. Based on our investigation, we attribute the latest campaign and the SparroWocky backdoor to FamousSparrow with high confidence, since in some of the first attacks involving this backdoor, SparroWocky was deployed by the FamousSparrow-exclusive SparrowDoor. Moreover, not only does the victimology match FamousSparrow’s previous targeting, we have also recorded attempts to deploy SparroWocky at many of the same organizations that had previously been targeted with SparrowDoor. Latin America in the crosshairs As previously mentioned, FamousSparrow currently appears to be focused on high-profile targets in Latin America. This trend started at the latest in July 2025 and has continued with the introduction of SparroWocky. In fact, from mid-2025 and into 2026, 90% of the group’s targets registered in our telemetry have been located in the region. As depicted in
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: Beware the SparroWock: The backdoor that bites, the commands that catch
+  - Published: 2026-09-17T08:50:00+00:00
+  - Link: https://www.welivesecurity.com/en/eset-research/beware-sparrowock-backdoor-bites-commands-catch/
+  - Summary: ESET researchers document SparroWocky, the new flagship backdoor of the FamousSparrow APT group
+
+### Cluster aca47e784c — score 10
+
+- Title: Cyberthreats are moving faster than SMBs: Readiness must accelerate
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-09-16T09:00:00+00:00
+- Link: https://www.welivesecurity.com/en/business-security/cyberthreats-moving-faster-smbs-readiness-must-accelerate/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security, phishing_social_eng
+- affected_industries: financial_services, government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, ai_security
+- affected_industries: financial_services, government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+As AI adoption expands the attack surface and adds to the security workload, businesses need automation backed by experts
+```
+
+#### Full body
+
+```
+Business Security Cyberthreats are moving faster than SMBs: Readiness must accelerate As AI adoption expands the attack surface and adds to the security workload, businesses need automation backed by experts Phil Muncaster 16 Sep 2026 • , 8 min. read The cyberthreat landscape has been evolving for years. But there’s a sense today that things are escalating more rapidly than before. That’s largely the result of AI. The technology is not only arming threat actors with the means to launch more sophisticated attacks at greater speed and scale than before. It is also providing them with a larger attack surface to aim at, as businesses rush to adopt the technology. In many cases, that adoption is outpacing the vital governance efforts needed to securely manage and contain it. Against this backdrop, SMB business and IT leaders understand the importance of effective cybersecurity. They want to be protected, operational, and resilient. But they don’t have an infinite budget to spend. They want security that’s simple to understand, adopt and operate. This calls for a different operational model where AI and automation support security teams where it makes sense, with human oversight for decisions that require context and judgment. Finding the right balance, and the right partner will be key to driving readiness and resilience. AI is changing the threat landscape AI is changing the game in impressive ways. Executives are wowed by the potential for productivity and process efficiency gains. By the prospect of transforming customer experience, accelerating business decision making, and breaking into new markets. ESET SMB Cyber Readiness Index 2026 found that most (73%) SMBs are integrating AI into their business. Yet where there’s opportunity, there’s also risk – and most businesses acknowledge that. As AI becomes a growing part of business operations, it also becomes part of the attack surface. It could be a customer service chatbot, a coding assistant deployed by DevOps, or a fleet of agents used by the finance team for repetitive bookkeeping tasks. Wherever AI has access to sensitive data and/or systems, excessive permissions, and the ability to make decisions and take actions, it represents a potential security risk. These risks tend to proliferate in the darkness. According to the report above, 40% of all businesses lack a proper AI policy. Source: ESET SMB Cyber Readiness Index 2026 Accidental data leakage or rogue AI agents are one thing. But there’s arguably an even greater threat from malicious third parties. AI skills repositories are a growing area of risk. Skills work like browser plugins, but for AI agents. But a growing number are designed to steal data, abuse permissions, download malware, or perform unintended actions. ESET analyzed 900,000 such skills across several popular repositories between March and May 2026. It discovered over 25,000 that were suspicious, and more than 3,000 tagged as malicious. Some exfiltrated data and executed malware. Others manipulated sensitive systems, overrode instructions through prompt injection, and changed agent behavior. Unfortunately, skills are just the tip of the iceberg. Users can encounter malicious links via chatbots, leading them to phishing sites and malware installs. Or they may find attackers have poisoned download sources and other components that AI agents interact with, leading to hijacking, fraud, malware and other threats. Prompt injection is another threat – one recently branded the most dangerous of all LLM threats by OWASP. Attackers manipulate AI either by feeding malicious instructions (prompts) directly or hiding them in content that the AI will later retrieve or read. It makes every piece of content a potential attack vector. AI turns up the heat AI is not just a target for attack. It’s a powerful tool for threat actors to wield in attacks. As British government security experts warned back in March 2025 , the technology “will almost certainly continue to make eleme
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: Cyberthreats are moving faster than SMBs: Readiness must accelerate
+  - Published: 2026-09-16T09:00:00+00:00
+  - Link: https://www.welivesecurity.com/en/business-security/cyberthreats-moving-faster-smbs-readiness-must-accelerate/
+  - Summary: As AI adoption expands the attack surface and adds to the security workload, businesses need automation backed by experts
 
 ### Cluster 897b6c1468 — score 10
 
@@ -2862,94 +2948,6 @@ Proactive Threat Intelligence: Getting Ahead of the Next Major Breach An alert m
   - Link: https://www.recordedfuture.com/blog/proactive-threat-intelligence
   - Summary: Move from reactive defense to a proactive security mindset. Learn how proactive threat intelligence identifies and neutralizes threats.
 
-### Cluster 5f75cd0900 — score 10
-
-- Title: Beware the SparroWock: The backdoor that bites, the commands that catch
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-09-17T08:50:00+00:00
-- Link: https://www.welivesecurity.com/en/eset-research/beware-sparrowock-backdoor-bites-commands-catch/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, web_shell_backdoor
-- actor_attribution: Salt Typhoon
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage, web_shell_backdoor
-- actor_attribution: Salt Typhoon
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-ESET researchers document SparroWocky, the new flagship backdoor of the FamousSparrow APT group
-```
-
-#### Full body
-
-```
-ESET Research Beware the SparroWock: The backdoor that bites, the commands that catch ESET researchers document SparroWocky, the new flagship backdoor of the FamousSparrow APT group Alexandre Côté Cyr Romain Dumont 17 Sep 2026 • , 27 min. read ESET Research’s ongoing monitoring of FamousSparrow has borne fruit once again. Our previous public report on FamousSparrow revealed that this China-aligned APT group had developed two new versions of its custom backdoor named SparrowDoor. This time, we discovered that FamousSparrow has switched to a new backdoor, SparroWocky, and has been deploying it to several countries in Latin America since at least August 2025. In what was probably China’s reaction to the US showing increased interest in Latin America, FamousSparrow increased its targeting of the region to almost exclusively targeting it in July 2025. A month later, we noticed that the group had started using the new SparroWocky backdoor, which then quickly replaced SparrowDoor as FamousSparrow’s main implant. SparroWocky is a modular, C++ backdoor. Its architecture and the techniques used by its authors indicate strong knowledge of anti-analysis tricks and Windows internals. We chose to name the backdoor SparroWocky because the first samples we collected all contain the first stanza of Jabberwocky , a nonsense poem by Lewis Carroll. Fortunately, while advanced, SparroWocky’s inner workings are much less arcane than a gyre and gimble in the wabe , so a through and through [of] the vorpal blade allowed us to bring you a detailed analysis of the backdoor. Key points of the blogpost: FamousSparrow is extensively targeting governmental organizations in Latin America. Since August 2025, the group appears to be abandoning SparrowDoor in favor of SparroWocky, a new custom C++ backdoor. With the switch to SparroWocky, FamousSparrow started to incorporate code from open-source projects directly into its malware. SparroWocky is a full-featured backdoor that manipulates low-level structures in memory, and patches code at runtime in order to avoid detection. SparroWocky has the capability to load and execute Beacon Object Files, a special type of executable file supported by many red-teaming and penetration-testing tools. FamousSparrow is a China-aligned cyberespionage group believed to have been active since at least 2019. We first publicly documented the group in a blogpost from September 2021 when we observed it exploiting the ProxyLogon vulnerability. The group was initially known for targeting hotels around the world but has also targeted governments, international organizations, trade groups, engineering companies, and law firms. FamousSparrow is the only known user of the SparrowDoor backdoor. We analyzed two versions of SparrowDoor in a 2025 blogpost , in which we also discussed the attribution claims around the group. As mentioned by Trend Micro , FamousSparrow is linked to Earth Estries; however, the exact nature of the link is not fully known. FamousSparrow has also been publicly linked to Salt Typhoon , but, due to the absence of any technical indicators, we track them as separate. Based on our investigation, we attribute the latest campaign and the SparroWocky backdoor to FamousSparrow with high confidence, since in some of the first attacks involving this backdoor, SparroWocky was deployed by the FamousSparrow-exclusive SparrowDoor. Moreover, not only does the victimology match FamousSparrow’s previous targeting, we have also recorded attempts to deploy SparroWocky at many of the same organizations that had previously been targeted with SparrowDoor. Latin America in the crosshairs As previously mentioned, FamousSparrow currently appears to be focused on high-profile targets in Latin America. This trend started at the latest in July 2025 and has continued with the introduction of SparroWocky. In fact, from mid-2025 and into 2026, 90% of the group’s targets registered in our telemetry have been located in the region. As depicted in
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: Beware the SparroWock: The backdoor that bites, the commands that catch
-  - Published: 2026-09-17T08:50:00+00:00
-  - Link: https://www.welivesecurity.com/en/eset-research/beware-sparrowock-backdoor-bites-commands-catch/
-  - Summary: ESET researchers document SparroWocky, the new flagship backdoor of the FamousSparrow APT group
-
-### Cluster aca47e784c — score 10
-
-- Title: Cyberthreats are moving faster than SMBs: Readiness must accelerate
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-09-16T09:00:00+00:00
-- Link: https://www.welivesecurity.com/en/business-security/cyberthreats-moving-faster-smbs-readiness-must-accelerate/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security, phishing_social_eng
-- affected_industries: financial_services, government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, ai_security
-- affected_industries: financial_services, government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-As AI adoption expands the attack surface and adds to the security workload, businesses need automation backed by experts
-```
-
-#### Full body
-
-```
-Business Security Cyberthreats are moving faster than SMBs: Readiness must accelerate As AI adoption expands the attack surface and adds to the security workload, businesses need automation backed by experts Phil Muncaster 16 Sep 2026 • , 8 min. read The cyberthreat landscape has been evolving for years. But there’s a sense today that things are escalating more rapidly than before. That’s largely the result of AI. The technology is not only arming threat actors with the means to launch more sophisticated attacks at greater speed and scale than before. It is also providing them with a larger attack surface to aim at, as businesses rush to adopt the technology. In many cases, that adoption is outpacing the vital governance efforts needed to securely manage and contain it. Against this backdrop, SMB business and IT leaders understand the importance of effective cybersecurity. They want to be protected, operational, and resilient. But they don’t have an infinite budget to spend. They want security that’s simple to understand, adopt and operate. This calls for a different operational model where AI and automation support security teams where it makes sense, with human oversight for decisions that require context and judgment. Finding the right balance, and the right partner will be key to driving readiness and resilience. AI is changing the threat landscape AI is changing the game in impressive ways. Executives are wowed by the potential for productivity and process efficiency gains. By the prospect of transforming customer experience, accelerating business decision making, and breaking into new markets. ESET SMB Cyber Readiness Index 2026 found that most (73%) SMBs are integrating AI into their business. Yet where there’s opportunity, there’s also risk – and most businesses acknowledge that. As AI becomes a growing part of business operations, it also becomes part of the attack surface. It could be a customer service chatbot, a coding assistant deployed by DevOps, or a fleet of agents used by the finance team for repetitive bookkeeping tasks. Wherever AI has access to sensitive data and/or systems, excessive permissions, and the ability to make decisions and take actions, it represents a potential security risk. These risks tend to proliferate in the darkness. According to the report above, 40% of all businesses lack a proper AI policy. Source: ESET SMB Cyber Readiness Index 2026 Accidental data leakage or rogue AI agents are one thing. But there’s arguably an even greater threat from malicious third parties. AI skills repositories are a growing area of risk. Skills work like browser plugins, but for AI agents. But a growing number are designed to steal data, abuse permissions, download malware, or perform unintended actions. ESET analyzed 900,000 such skills across several popular repositories between March and May 2026. It discovered over 25,000 that were suspicious, and more than 3,000 tagged as malicious. Some exfiltrated data and executed malware. Others manipulated sensitive systems, overrode instructions through prompt injection, and changed agent behavior. Unfortunately, skills are just the tip of the iceberg. Users can encounter malicious links via chatbots, leading them to phishing sites and malware installs. Or they may find attackers have poisoned download sources and other components that AI agents interact with, leading to hijacking, fraud, malware and other threats. Prompt injection is another threat – one recently branded the most dangerous of all LLM threats by OWASP. Attackers manipulate AI either by feeding malicious instructions (prompts) directly or hiding them in content that the AI will later retrieve or read. It makes every piece of content a potential attack vector. AI turns up the heat AI is not just a target for attack. It’s a powerful tool for threat actors to wield in attacks. As British government security experts warned back in March 2025 , the technology “will almost certainly continue to make eleme
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: Cyberthreats are moving faster than SMBs: Readiness must accelerate
-  - Published: 2026-09-16T09:00:00+00:00
-  - Link: https://www.welivesecurity.com/en/business-security/cyberthreats-moving-faster-smbs-readiness-must-accelerate/
-  - Summary: As AI adoption expands the attack surface and adds to the security workload, businesses need automation backed by experts
-
 ### Cluster 63b4630409 — score 10
 
 - Title: CTEM Buyer’s Guide: How to Evaluate the Technologies That Turn Continuous Threat Exposure Management Into an Operating Model
@@ -3109,98 +3107,6 @@ Managed Detection and Response (MDR) Rapid7 Named Among Notable Vendors in Forre
   - Published: 2026-09-14T14:51:07+00:00
   - Link: https://www.rapid7.com/blog/post/dr-forrester-mdr-landscape-notable-vendor-preemptive
   - Summary: The managed detection and response (MDR) market has reached a turning point. We’ve gone beyond the baseline of 24/7 monitoring focusing on the speed of detection and moved to a world with a convergence of exposure management and response to deliver measurable, outcome-based defenses of a larger, AI-driven attack surface. For anyone evaluating MDR right now, the Managed Detection and Response Services Landscape, Q3 2026 report by Forrester is a useful map that lays out where the market is heading. This is a market that has moved beyond "do you cover my telemetry?" to “Can a provider connect and prove that its activity is tied to real reduction in risk?”. Rapid7 was named among the notable providers in this Forrester MDR Landscape. Being included matters to us, but the more interesting story is in what Forrester says about the market itself. Detection and exposure are becoming one service One of the report's clearest signals is directional: Forrester writes that "MDR services will conver
-
-### Cluster 54dcd1e9f9 — score 10
-
-- Title: 23 Million User Records Compromised in Gyazo Data Breach
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-09-18T11:38:40+00:00
-- Link: https://www.securityweek.com/23-million-user-records-compromised-in-gyazo-data-breach/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ddos, ransomware_extortion, supply_chain, zero_day
-- affected_industries: critical_infrastructure, healthcare, manufacturing_industrial
-- affected_products: GitHub, OpenAI/ChatGPT
-- urgency_signals: zero_day
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, zero_day, data_breach, ddos
-- affected_industries: healthcare, critical_infrastructure, manufacturing_industrial
-- affected_products: GitHub, OpenAI/ChatGPT
-- urgency_signals: zero_day
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Gyazo maker Helpfeel said the attacker exploited a vulnerability in its image upload server to gain unauthorized access. The post 23 Million User Records Compromised in Gyazo Data Breach appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Japanese software company Helpfeel is notifying users of its Gyazo image-sharing service that hackers have accessed their information. Gyazo is a widely used cross-platform tool that lets users capture screenshots, GIFs, or short screen recordings and instantly generate shareable links. Helpfeel revealed this week that it recently detected unauthorized access to Gyazo servers. A hacker exploited a vulnerability in its image upload server on September 11, enabling them to execute malicious commands. The attacker was kicked out the next day, but not before accessing a database storing roughly 23.6 million user records. The compromised Gyazo user information includes names, email addresses, password hashes, user and device IDs, X integration tokens, profile information, usage statistics, and billing information. Payment card information was not compromised, according to the vendor. Advertisement. Scroll to continue reading. “The approximately 23.62 million affected records include records for anonymous accounts with no registered email address or similar information. We are continuing to determine the actual number of individuals whose personal information was disclosed without authorization,” Helpfeel said . In addition to the user records, the attacker accessed roughly 490 million image metadata records. This metadata includes information that could allow threat actors to reconstruct and access URLs associated with images uploaded by users. A list of private images has also been compromised, but the company has not shared any information on volume. Related : Brevo Supply Chain Attack Injects Malware Into 100,000 Websites Related : Revolut Data Breach: 5 Months, 680 High-Profile Accounts, $3M Ransom Related : 280,000 Impacted by Premier Medical Group Data Breach Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Cyberattacks on Two Oil Tankers Prompt Coast Guard, FBI to Board Vessels OpenAI Says Its Models Searched GitHub for Leaked API Keys During Training CISA Retires Weekly Vulnerability Bulletin in Risk-Based Pivot AI Agents Can Retrain Own Models Mid-Task, Leaking Secrets and Erasing Refusals Pixel Modem Zero-Day Exploited in Targeted Attacks US, UK, Dutch Agencies Expose Iranian ‘Chosen Brick’ Surveillance Malware Enterprises Warned of Attacks Exploiting WSO2 Vulnerability Texas Utility CenterPoint Energy Confirms Breach After Hacker Leaks Data Latest News In Other News: Ransomware Developer Sentenced, Plugin4Shell AI Attack, Critical SAP Flaw AI-Built Exploit and Sign-In Flaw Opened Path to Internal OpenAI Code Microsoft Patches 18 Vulnerabilities in AI, Cloud Products NightmareStresser DDoS Service Disrupted in International Operation Brevo Supply Chain Attack Injects Malware Into 100,000 Websites Critical Orkes Conductor Vulnerability Exploited in Attacks MIND Secures $72 Million for AI-Powered DLP Check Point, Kaspersky, Tanium Patch Product Vulnerabilities Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Virtual Event: Attack Surface Management Summit 2026 September 16, 2026 Join as speakers examine the various components of ASM strategy, the push to mandate continuous asset visibility and inventory tools, and the use of red-teaming, bug bounties and pen-tests in modern security programs. Register Webinar: Building Continuous Authorization at Scale September 23, 2026 Explore what it takes to operationalize continuous authorization at scale, includ
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: 23 Million User Records Compromised in Gyazo Data Breach
-  - Published: 2026-09-18T11:38:40+00:00
-  - Link: https://www.securityweek.com/23-million-user-records-compromised-in-gyazo-data-breach/
-  - Summary: Gyazo maker Helpfeel said the attacker exploited a vulnerability in its image upload server to gain unauthorized access. The post 23 Million User Records Compromised in Gyazo Data Breach appeared first on SecurityWeek .
-
-### Cluster 8d68d6570f — score 10
-
-- Title: CISA Upgrades Vulnerability Reporting Platform with More Automation
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-09-18T10:00:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/cisa-upgrades-vulnerability/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion, vulnerability_disclosure, web_shell_backdoor
-- affected_industries: education, financial_services
-- affected_products: Android, WordPress
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, web_shell_backdoor, vulnerability_disclosure
-- affected_industries: financial_services, education
-- affected_products: Android, WordPress
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The US cybersecurity agency is moving to a new vulnerability coordination platform called VINCE-NT
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » CISA Upgrades Vulnerability Reporting Platform with More Automation CISA Upgrades Vulnerability Reporting Platform with More Automation News 18 September 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn The US Cybersecurity and Infrastructure Security Agency (CISA) has upgraded its vulnerability reporting and coordination platform to allow for more automation and streamlined processes, as well as new built-in tools that vulnerability researchers can use. Since 2020, CISA has been using Carnegie Mellon University's Vulnerability Information and Coordination Environment (VINCE), a vulnerability management platform developed that same year by the Computer Emergency and Response Team Coordination Center (CERT/CC), a unit of the university’s Software Engineering Institute (SEI). From September 17, 2026, the US cybersecurity agency is now using VINCE – New Technology (VINCE-NT). “VINCE-NT is a modernized, CISA-managed platform for vulnerability reporting and coordination. It improves how vulnerability reporters, product suppliers and CISA case managers collaborate throughout the disclosure process,” CISA said in an announcement published on social media on September 17. The agency also said the change shifts ownership, sponsorship and management of the platform to its Coordinated Vulnerability Disclosure (CVD) team and enables improved integration with its internal tools and processes. Enhancements include: A user-friendly interface that makes submitting vulnerability reports easier, safer and reduces friction Enhanced triage effectiveness enabling teams to better prioritize the most critical vulnerabilities Simplified advisory publication workflows through automation Built-in tools enabling transparent collaboration among all parties while protecting sensitive data Enhanced reporting case metrics, giving CISA’s CVD team actionable insights to improve coordination Stronger support for multi-party coordination and developing advisories Additionally, VINCE-NT revamped some of the vulnerability terminology used by CISA until now. The “vendors/developer/maintainer” entry becomes “supplier,” “product” is replaced by “component” and “researcher/finder” is now “reporter.” In an FAQ about the transition , CISA said active VINCE cases will be transitioned over the coming weeks. For stakeholders who have active cases on VINCE, a case coordinator will reach out and convey the transition date. Inactive cases will not be moved to VINCE-NT but will still be available on VINCE. The US agency said organizations should update internal reporting procedures to reflect that vulnerability submissions to CISA should now be made through VINCE-NT. Read now: Linux Foundation's Akrites to Go Live in September You may also like AI Companies to Play Bigger Role in CVE Program, Says CISA News 15 April 2026 NIST Seeks Public Input on AI-Ready NVD Modernization News 12 August 2026 CISA Throws Lifeline to CVE Program with Last-Minute Contract Extension News 17 April 2025 CVE Program Launches Two New Forums to Enhance CVE Utilization News 3 July 2025 European Cybersecurity Agency ENISA Seeks Top-Tier Status in CVE Program News 15 April 2026 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Major Cyber Vendors Turn to New UK Testing Program as MITRE Evaluations Face Changes News 16 September 2026 1 AI Agent Carries Out Multi-Stage Data Theft Attack News 17 September 2026 2 Most Firms Unable to Recover Quickly from Ransomware News 15 September 2026 3 Cisco Warns of Active Exploitation of Critical ISE Flaw News 17 September 2026 4 PHP Webshell Campaign Targets WordPress Through Critical WooCommerce Plugin Bug News 16 September 2026 5 New Chinese-Made ‘RatHat’ Android Malware Leverages AI to Steal Financial Data News 17 September 2026 6 Major Cyber Vendors Turn to New UK Testing Program as MITRE Evaluations Face Changes News 16 September 2026 1 Anthropic Re
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: CISA Upgrades Vulnerability Reporting Platform with More Automation
-  - Published: 2026-09-18T10:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/cisa-upgrades-vulnerability/
-  - Summary: The US cybersecurity agency is moving to a new vulnerability coordination platform called VINCE-NT
 
 ### Cluster 2f0547b4d4 — score 9
 
@@ -3397,51 +3303,6 @@ Today, Apple released its annual update across all its operating systems. With t
   - Link: https://isc.sans.edu/diary/rss/33336
   - Summary: Today, Apple released its annual update across all its operating systems. With that, Apple not only released new features but also patched 261 different vulnerabilities. This is the most vulnerabilities Apple has ever patched, but the increase is not as significant as other vendors&#;x26;#;39; "post-AI" patch releases.
 
-### Cluster 9561d00114 — score 9
-
-- Title: Every regulatory disclosure rule asks the same question. Each calls it something else
-- Source: Sysdig (detection_response_operations)
-- Published: 2026-09-18T00:00:00+00:00
-- Link: https://webflow.sysdig.com/blog/every-regulatory-disclosure-rule-asks-the-same-question-each-calls-it-something-else
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach
-- affected_industries: critical_infrastructure, manufacturing_industrial
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: data_breach, active_exploitation
-- affected_industries: critical_infrastructure, manufacturing_industrial
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-EU orgs must juggle reporting obligations and timelines for CRA, GDPR, NIS2, and more. But the most important step is judging what needs reporting.
-```
-
-#### Full body
-
-```
-< back to blog Every regulatory disclosure rule asks the same question. Each calls it something else Published by: Crystal Morin Sr. Cybersecurity Strategist @ linkedin Get the compliance checklist Published: September 18, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more When I spoke about the EU regulatory landscape for banks and fintechs last year , I noted that the Cyber Resilience Act (CRA) had entered into force but would not legally apply until December 2027. That is still true for most of the CRA, but not for the framework’s reporting obligations. As of September 11, 2026 , manufacturers of products with digital elements sold into the EU market have to report actively exploited vulnerabilities and severe incidents. These organizations are required to send an early warning to the European Union Agency for Cybersecurity (ENISA) and the relevant national Computer Security Incident Response Team (CSIRT) within 24 hours. This must then be followed by a more detailed notification within 72 hours, and a final report within 14 days for a vulnerability or one month for a severe incident. The new rule doesn’t just apply to new products, but to products already on the market as well. For most regulated organizations, that isn’t a new obligation, just a new disclosure clock added to a pile of existing ones. And if you’re a software vendor selling into highly regulated industries, it’s worse than that: Your notification is the event that also starts your customers' clocks. Deadlines usually get all the attention because they’re the easiest thing to put on a board slide, but those deadlines are downstream of one key judgement. That judgement is where most organizations actually fail. But you can't make that judgement clearly and confidently until you make it past the deadlines. The clocks are multiplying Here’s a list of some concurrent timelines a global organization may be tracking: General Data Protection Regulation (GDPR) Article 33. Regulated entities must notify the supervisory authority without undue delay, no later than 72 hours after becoming aware of a personal data breach, unless the breach is unlikely to result in a risk to individuals’ rights and freedoms. Under Article 34, if the risk to individuals is high, you notify them too. Network and Information Security 2 (NIS2) Article 23 . Regulated entities must deliver a 24-hour early warning after becoming aware of a significant incident, a fuller notification at 72 hours, and a final report at one month. Digital Operational Resilience Act (DORA) . Regulated entities must send an initial notification within four hours of classifying an incident as major , and in no case later than 24 hours from becoming aware of it. This should be followed by an intermediate report at 72 hours and a final report at one month. Securities and Exchange Commission (SEC) Form 8-K, Item 1.05 . Organizations must disclose a material cybersecurity incident within four business days of determining it is material . Cyber Incident Reporting for Critical Infrastructure Act (CIRCIA) . Cybersecurity and Infrastructure Security Agency (CISA) is expected to finalize CIRCIA in September 2026 . Once enacted, it’s expected to mandate regulated entities to report a covered cyber incident within 72 hours of reasonably believing one occurred, and a ransom payment within 24 hours of disbursing it. The CRA . As explored above, regulated entities must send an early warning to ENISA and the relevant national CSIRT within 24 hours , follow with a more detailed notification within 72 hours, then submit a final report within 14 days for a vulnerability or one month for a severe incident, as of September 11, 2026. That’s six regulatory regimes, each with very similar, albeit not quite the same, deadlines, recipients, and forms. A single incident
-```
-
-#### Corroborating sources (1)
-
-- **Sysdig** (detection_response_operations)
-  - Title: Every regulatory disclosure rule asks the same question. Each calls it something else
-  - Published: 2026-09-18T00:00:00+00:00
-  - Link: https://webflow.sysdig.com/blog/every-regulatory-disclosure-rule-asks-the-same-question-each-calls-it-something-else
-  - Summary: EU orgs must juggle reporting obligations and timelines for CRA, GDPR, NIS2, and more. But the most important step is judging what needs reporting.
-
 ### Cluster ffb6c790f6 — score 9
 
 - Title: Changing the game: Using agentic AI to secure infrastructure code
@@ -3481,40 +3342,52 @@ Systems Changing the game: Using agentic AI to secure infrastructure code Septem
   - Link: https://cloud.google.com/blog/topics/systems/using-ai-agents-to-secure-google-infrastructure/
   - Summary: AI is accelerating software development at an unprecedented pace. But as code generation scales, so do the challenges of securing the code, especially emerging AI-based vulnerability exploitations. To meet these challenges, the Google AI and Infrastructure team is transforming how we approach security. In this article, we discuss new AI-native agentic methods that we’ve developed that systematically embed high-precision, pervasive vulnerability scanning and patching directly into Google’s software development lifecycle. By continuously scanning every code change across hundreds of millions of lines of code that we deploy onto our infrastructure, we are preventing hundreds of vulnerabilities per month from ever reaching our code base or production, defending our global network, AI infrastructure and our users. Solution architecture and implementation Pervasive pre-submit agentic scanning: security as part of ongoing software development Traditionally, the technology industry relies on l
 
-### Cluster 367415dec5 — score 9
+### Cluster 54dcd1e9f9 — score 9
 
-- Title: Brevo Supply Chain Attack Injects Malware Into 100,000 Websites
+- Title: 23 Million User Records Compromised in Gyazo Data Breach
 - Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-09-18T09:46:57+00:00
-- Link: https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites/
-- Fetch status: not_attempted
+- Published: 2026-09-18T11:38:40+00:00
+- Link: https://www.securityweek.com/23-million-user-records-compromised-in-gyazo-data-breach/
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- content_type: news_report
+- threat_categories: data_breach, ddos, ransomware_extortion, supply_chain, zero_day
+- affected_industries: critical_infrastructure, healthcare, manufacturing_industrial
+- affected_products: GitHub, OpenAI/ChatGPT
+- urgency_signals: zero_day
+- content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: supply_chain
-- content_type: news_report
+- threat_categories: ransomware_extortion, supply_chain, zero_day, data_breach, ddos
+- affected_industries: healthcare, critical_infrastructure, manufacturing_industrial
+- affected_products: GitHub, OpenAI/ChatGPT
+- urgency_signals: zero_day
+- content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Hackers used a compromised API key to deploy a Cloudflare worker that injected malicious scripts. The post Brevo Supply Chain Attack Injects Malware Into 100,000 Websites appeared first on SecurityWeek .
+Gyazo maker Helpfeel said the attacker exploited a vulnerability in its image upload server to gain unauthorized access. The post 23 Million User Records Compromised in Gyazo Data Breach appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Japanese software company Helpfeel is notifying users of its Gyazo image-sharing service that hackers have accessed their information. Gyazo is a widely used cross-platform tool that lets users capture screenshots, GIFs, or short screen recordings and instantly generate shareable links. Helpfeel revealed this week that it recently detected unauthorized access to Gyazo servers. A hacker exploited a vulnerability in its image upload server on September 11, enabling them to execute malicious commands. The attacker was kicked out the next day, but not before accessing a database storing roughly 23.6 million user records. The compromised Gyazo user information includes names, email addresses, password hashes, user and device IDs, X integration tokens, profile information, usage statistics, and billing information. Payment card information was not compromised, according to the vendor. Advertisement. Scroll to continue reading. “The approximately 23.62 million affected records include records for anonymous accounts with no registered email address or similar information. We are continuing to determine the actual number of individuals whose personal information was disclosed without authorization,” Helpfeel said . In addition to the user records, the attacker accessed roughly 490 million image metadata records. This metadata includes information that could allow threat actors to reconstruct and access URLs associated with images uploaded by users. A list of private images has also been compromised, but the company has not shared any information on volume. Related : Brevo Supply Chain Attack Injects Malware Into 100,000 Websites Related : Revolut Data Breach: 5 Months, 680 High-Profile Accounts, $3M Ransom Related : 280,000 Impacted by Premier Medical Group Data Breach Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Cyberattacks on Two Oil Tankers Prompt Coast Guard, FBI to Board Vessels OpenAI Says Its Models Searched GitHub for Leaked API Keys During Training CISA Retires Weekly Vulnerability Bulletin in Risk-Based Pivot AI Agents Can Retrain Own Models Mid-Task, Leaking Secrets and Erasing Refusals Pixel Modem Zero-Day Exploited in Targeted Attacks US, UK, Dutch Agencies Expose Iranian ‘Chosen Brick’ Surveillance Malware Enterprises Warned of Attacks Exploiting WSO2 Vulnerability Texas Utility CenterPoint Energy Confirms Breach After Hacker Leaks Data Latest News In Other News: Ransomware Developer Sentenced, Plugin4Shell AI Attack, Critical SAP Flaw AI-Built Exploit and Sign-In Flaw Opened Path to Internal OpenAI Code Microsoft Patches 18 Vulnerabilities in AI, Cloud Products NightmareStresser DDoS Service Disrupted in International Operation Brevo Supply Chain Attack Injects Malware Into 100,000 Websites Critical Orkes Conductor Vulnerability Exploited in Attacks MIND Secures $72 Million for AI-Powered DLP Check Point, Kaspersky, Tanium Patch Product Vulnerabilities Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Virtual Event: Attack Surface Management Summit 2026 September 16, 2026 Join as speakers examine the various components of ASM strategy, the push to mandate continuous asset visibility and inventory tools, and the use of red-teaming, bug bounties and pen-tests in modern security programs. Register Webinar: Building Continuous Authorization at Scale September 23, 2026 Explore what it takes to operationalize continuous authorization at scale, includ
 ```
 
 #### Corroborating sources (1)
 
 - **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Brevo Supply Chain Attack Injects Malware Into 100,000 Websites
-  - Published: 2026-09-18T09:46:57+00:00
-  - Link: https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites/
-  - Summary: Hackers used a compromised API key to deploy a Cloudflare worker that injected malicious scripts. The post Brevo Supply Chain Attack Injects Malware Into 100,000 Websites appeared first on SecurityWeek .
+  - Title: 23 Million User Records Compromised in Gyazo Data Breach
+  - Published: 2026-09-18T11:38:40+00:00
+  - Link: https://www.securityweek.com/23-million-user-records-compromised-in-gyazo-data-breach/
+  - Summary: Gyazo maker Helpfeel said the attacker exploited a vulnerability in its image upload server to gain unauthorized access. The post 23 Million User Records Compromised in Gyazo Data Breach appeared first on SecurityWeek .
 
 ### Cluster 1b0a154614 — score 9
 
@@ -3522,16 +3395,18 @@ Hackers used a compromised API key to deploy a Cloudflare worker that injected m
 - Source: CyberScoop (cyber_news_breach_reporting)
 - Published: 2026-09-18T17:19:49+00:00
 - Link: https://cyberscoop.com/hacktron-ai-heif-heist-vulnerability/
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- affected_products: GitHub, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
+- affected_products: OpenAI/ChatGPT, GitHub
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -3539,6 +3414,12 @@ Hackers used a compromised API key to deploy a Cloudflare worker that injected m
 
 ```
 The bug, since patched, gave attackers remote code execution privileges and access to user accounts and production environments, including Meta’s core product suite and an OpenAI software repository. The post Researchers use AI to find widespread software decoder flaw appeared first on CyberScoop .
+```
+
+#### Full body
+
+```
+Advertisement Get our latest cybersecurity news first on Google. Click here! Close Researchers said they used Anthropic’s Claude and OpenAI’s Codex to identify a damaging flaw embedded in a popular software decoding tool that could leave major internet platforms, enterprise services, and web frameworks vulnerable to data theft and remote access. The vulnerability, nicknamed HEIF Heist, refers to the malware’s ability to trigger memory corruption errors in affected software, allowing the attacker to pilfer sensitive data from its victims. In a report published Thursday, the researchers laid out the potential damage an attacker could cause, including gaining access to internal OpenAI repositories, leaking user files, access tokens, and other sensitive data for online services like Amazon Web Services, and gaining remote code execution privileges across a range of online services, including Meta’s core product suite, GitHub Enterprise servers and open-source internet forum Discourse. “Even when Remote Code Execution isn’t immediately achievable, the attack primitives may still allow arbitrary heap disclosure, letting an attacker ‘heist’ in-memory data such as other users’ data and environment variables,” wrote Hacktron researchers Harsh Jaiswal, Mohan SRK, Rahul Maini and Sudhanshu Rajbhar. The researchers relied heavily on AI systems, including frontier models from OpenAI and Anthropic, to conduct their research . Attribution for the research is described as being “led” by the Hacktron human researchers “assisted by Hacktron Harness, GPT-5.6 Sol, and Opus 5.” Advertisement According to the research, the attack exploited the way that code parsing tools in many popular software decoders — specifically libheif and libde265, used to parse C and C++ software — process certain image files. By uploading HEIF, HEIC and AVIF image files corrupted with malicious code, the attacker could bypass most of the victim’s application layer defenses, in many cases achieving remote code execution privileges for accounts or products tied to major AI and tech brands. While the latest version of libheif has been patched, the researchers said “any deployment lacking the latest upstream security patches is potentially vulnerable.” In one incident detailed in a Sept. 13 blog, Jaiswal, Maini, and Hacktron researcher Mohan Pedhapati described how chaining two vulnerabilities, including an image parser flaw, could compromise OpenAI employee accounts. With access to the compromised accounts, researchers could reach OpenAI’s internal repositories. As a proof of concept, they opened a pull request in the company’s “monorepo,” a centralized library where code is shared across projects, using the employee’s Codex credentials. Advertisement According to a timeline provided by the researchers, the flaw was discovered on July 25 and patched within days. They said the entire attack, from discovering the initial vulnerability to gaining access to the repositories, took less than 72 hours. OpenAI paid them a bug bounty of $6,500 for their work. Given that AI models are increasingly integrated into enterprise and personal networks, an attacker exploiting HEIF Heist could have accessed far more than just OpenAI’s systems and data. “Until two months ago, a user or OpenAI employee logging into OpenAI’s own help forum could have had their ChatGPT and Codex accounts taken over,” the researchers wrote. “Since people can connect various services to Codex and ChatGPT, the scope of what we could theoretically access was huge, including GitHub, Slack and emails.” CyberScoop has reached out to OpenAI for comment on the research and additional information. At the same time, the researchers said the attack paths they found were not particularly easy or efficient to exploit. Advertisement “Exploitation requires fingerprinting the target version and tailoring the payload images,” the blog stated. “Some of our RCE attempts landed only after thousands of image uploads. That said, an AI
 ```
 
 #### Corroborating sources (1)
@@ -3555,18 +3436,20 @@ The bug, since patched, gave attackers remote code execution privileges and acce
 - Source: Team Cymru (ransomware_ecrime_financial_crime)
 - Published: 2026-09-18T16:59:39+00:00
 - Link: https://www.team-cymru.com/post/team-cymru-supports-interpol-s-operation-synergia-ii-to-dismantle-22-000-cybercrime-servers
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
 - threat_categories: phishing_social_eng, ransomware_extortion
+- affected_industries: financial_services
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
 - threat_categories: ransomware_extortion, phishing_social_eng
+- affected_industries: financial_services
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3574,6 +3457,12 @@ The bug, since patched, gave attackers remote code execution privileges and acce
 
 ```
 Team Cymru helped INTERPOL dismantle 22K cybercrime servers across 95 countries in Operation Synergia II, disrupting phishing, malware, and ransomware threats.
+```
+
+#### Full body
+
+```
+S2 Research Team 3 min read November 5, 2024 Team Cymru Supports INTERPOL‚Äôs Operation Synergia II to Dismantle 22,000 Cybercrime Servers As part of Team Cymru's mission to Save and Improve Human Lives, we were honored to be invited again to support INTERPOL with Operation Synergia II. This partnership successfully led to 41 Arrests Across 95 Countries after coordinated efforts that disrupted over 22,000 malicious IP addresses and servers between April 1 and August 31, 2024. This massive takedown operation, involving law enforcement agencies from 95 INTERPOL member countries, specifically targeted phishing operations, information stealers, and ransomware infrastructure that directly threaten communities worldwide. This mission aligns with INTERPOL's own commitment to protecting global communities. As Craig Jones, Former Director of Cybercrime at INTERPOL recently explained on the Future of Threat Intelligence podcast: "The purpose of our program is to reduce the global impact of cybercrime and protect communities for a safer world. It's simple. That's what we're trying to do. We're trying to make the world safer, and we're trying to stop the harm from the cybercriminals impacting our communities." Our Role in the Operation Working alongside other partners, Team Cymru contributed to Operation Synergia II by identifying and categorizing malicious infrastructure using our own Internet telemetry data platform: Pure Signal. Our specialized Internet tagging team collaborated with our S2 Threat Research Team to research, assess, then validate their findings at the scale of the Internet that the operation needed for success. These efforts provided INTERPOL with high-confidence attributions of malicious servers and infrastructure. Our methodology included: Implementing comprehensive analysis of banking malware and phishing infrastructure Categorizing Internet-facing nodes through our extensive tagging system Investigations into specific malware families Providing validated data to assist in the creation of threat intelligence reports Operation Synergia II Impact and Results Team Cymru is proud of the contributions to this mission, providing the scale and visibility needed to map malicious infrastructures in real-time as it dynamically evolves. The operation demonstrated the effectiveness of public-private partnerships in combating cybercrime. According to INTERPOL, key outcomes included: Identification of approximately 30,000 suspicious IP addresses Successful takedown of 76% of identified malicious infrastructure Seizure of 59 servers and 43 electronic devices 41 arrests, with 65 additional individuals under investigation INTERPOL Targeting Critical Cyber Threats Operation Synergia II specifically addressed three critical areas of cybercrime that continue to pose significant threats to organizations and individuals worldwide: Phishing Infrastructure : As the most commonly reported initial access technique, phishing remains a primary concern, especially with cybercriminals now leveraging Generative AI to create convincing, more sophisticated, multilingual attacks. Information Stealers : With a 40% increase in the sale of stolen data logs on the dark web in 2023, information stealers represent a growing threat to sensitive data and system security. Ransomware Operations : The past year saw a 70% increase in ransomware attacks across all industries, with threat actors expanding both their targeted sectors and geographical reach. Looking Forward Operation Synergia II represents just how important collaborative efforts are in the fight against cybercrime. Team Cymru's 25-year experience of providing infrastructure analysis capabilities contributed to the operation's success, supporting INTERPOL and its member countries in taking action against cybercriminal infrastructure. As cyber threats continue to evolve, Team Cymru remains committed to working alongside law enforcement and industry partners to detect, analyze, and disrupt malicious c
 ```
 
 #### Corroborating sources (1)
@@ -4148,3 +4037,106 @@ Uncover how real-time threat intelligence can drive ROI for CISOs in technology 
   - Published: 2026-09-18T16:59:04+00:00
   - Link: https://www.team-cymru.com/post/threat-intelligence-a-ciso-roi-guide-focus-on-real-time-threat-intelligence
   - Summary: Uncover how real-time threat intelligence can drive ROI for CISOs in technology companies. Explore the benefits and strategies in this insightful guide.
+
+### Cluster fbe10584c4 — score 9
+
+- Title: How AI-driven Threat Detection is Reshaping Threat Intelligence
+- Source: Team Cymru (ransomware_ecrime_financial_crime)
+- Published: 2026-09-18T16:59:04+00:00
+- Link: https://www.team-cymru.com/post/ai-driven-threat-detection-is-reshaping-cybersecurity
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Fortinet
+
+#### Cluster taxonomy (union across members)
+- affected_products: Fortinet
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Fortinet
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Hear Fortinet‚Äôs Aamir Lakhani explain the role of AI in cybersecurity and how AI-driven threat detection is reshaping modern threat intelligence.
+```
+
+#### Corroborating sources (1)
+
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - Title: How AI-driven Threat Detection is Reshaping Threat Intelligence
+  - Published: 2026-09-18T16:59:04+00:00
+  - Link: https://www.team-cymru.com/post/ai-driven-threat-detection-is-reshaping-cybersecurity
+  - Summary: Hear Fortinet‚Äôs Aamir Lakhani explain the role of AI in cybersecurity and how AI-driven threat detection is reshaping modern threat intelligence.
+
+### Cluster d696ca1c63 — score 9
+
+- Title: Fingerprinting Malware C2s with Tags
+- Source: Team Cymru (ransomware_ecrime_financial_crime)
+- Published: 2026-09-18T16:59:04+00:00
+- Link: https://www.team-cymru.com/post/fingerprinting-malware-c2s-with-tags
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+This blog is written for threat analysts, defenders, and CTI teams who use our Scout platform‚Äîbut even if you‚Äôre not a user today, it offers practical insight into how advanced research teams fingerprint C2 infrastructure, and how you might apply similar methods using your tools.
+```
+
+#### Corroborating sources (1)
+
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - Title: Fingerprinting Malware C2s with Tags
+  - Published: 2026-09-18T16:59:04+00:00
+  - Link: https://www.team-cymru.com/post/fingerprinting-malware-c2s-with-tags
+  - Summary: This blog is written for threat analysts, defenders, and CTI teams who use our Scout platform‚Äîbut even if you‚Äôre not a user today, it offers practical insight into how advanced research teams fingerprint C2 infrastructure, and how you might apply similar methods using your tools.
+
+### Cluster 895acc602d — score 9
+
+- Title: Transparent Tribe APT Infrastructure Mapping - Part 1
+- Source: Team Cymru (ransomware_ecrime_financial_crime)
+- Published: 2026-09-18T16:59:04+00:00
+- Link: https://www.team-cymru.com/post/transparent-tribe-apt-infrastructure-mapping-1
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+This is the first article of a two-part series on Transparent Tribe‚Äôs CrimsonRAT infrastructure. We have been tracking CrimsonRAT , Transparent Tribe‚Äôs most ubiquitous remote access tool, over a number of months.
+```
+
+#### Corroborating sources (1)
+
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - Title: Transparent Tribe APT Infrastructure Mapping - Part 1
+  - Published: 2026-09-18T16:59:04+00:00
+  - Link: https://www.team-cymru.com/post/transparent-tribe-apt-infrastructure-mapping-1
+  - Summary: This is the first article of a two-part series on Transparent Tribe‚Äôs CrimsonRAT infrastructure. We have been tracking CrimsonRAT , Transparent Tribe‚Äôs most ubiquitous remote access tool, over a number of months.
