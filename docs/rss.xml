@@ -6,13 +6,13 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 19 Sep 2026 00:05:01 +0000</lastBuildDate>
+<lastBuildDate>Sat, 19 Sep 2026 04:29:50 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
 <title>Gemini Hacked Three Companies in First Known Breakout by Google’s AI</title>
 <link>https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/</link>
-<description><![CDATA[Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Felony Bench ! The hacks, which the company confirmed on Friday, occurred in May as part of a test run by the company Irregular, which was also involved in similar incidents disclosed by OpenAI, Anthropic and Meta. In one of the cases, the model guessed passwords until it gained access to a protected system. In the other two cases, the model found credentials in a public repository that allowed it to then access protected systems. In each case, the model ended the intrusion after determining it had accessed a real company’s systems, Google said. Gemini is apparently less determined than other models, and decided not to keep going. Tags: security , ai , generative-ai , llms , gemini , accidental-cyberattacks<br/><br/><em>Tags: Google/Gemini</em>]]></description>
+<description><![CDATA[Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Felony Bench ! The hacks, which the company confirmed on Friday, occurred in May as part of a test run by the company Irregular, which was also involved in similar incidents disclosed by OpenAI, Anthropic and Meta. In one of the cases, the model guessed passwords until it gained access to a protected system. In the other two cases, the model found credentials in a public repository that allowed it to then access protected systems. In each case, the model ended the intrusion after determining it had accessed a real company’s systems, Google said. Gemini is apparently less determined than other models, and decided not to keep going. Google knew about these in July, but chose not to disclose them until the WSJ reached out, presumably based on a tip. Google said it didn’t consider the hacks to warrant public disclosure—because its model didn’t cause harm to the companies and ended each intrusio<br/><br/><em>Tags: Google/Gemini</em>]]></description>
 <pubDate>Fri, 18 Sep 2026 23:57:57 +0000</pubDate>
 <guid isPermaLink="true">https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/</guid>
 <source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
@@ -97,11 +97,12 @@
 <item>
 <title>Iranian Exploitation Activities Continue as of November 2022</title>
 <link>https://www.team-cymru.com/post/iranian-exploitation-activities-continue-as-of-november-2022</link>
-<description><![CDATA[Stay informed on the latest cybersecurity threats with Team Cymru&apos;s ongoing tracking of Iranian exploitation activities. Discover the latest insights and telemetry data on this ongoing threat and how organizations can better defend against it.]]></description>
+<description><![CDATA[Stay informed on the latest cybersecurity threats with Team Cymru&apos;s ongoing tracking of Iranian exploitation activities. Discover the latest insights and telemetry data on this ongoing threat and how organizations can better defend against it.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
 <pubDate>Fri, 18 Sep 2026 16:59:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/iranian-exploitation-activities-continue-as-of-november-2022</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
+<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Latrodectus: This Spider Bytes Like Ice</title>
@@ -1684,7 +1685,7 @@
 <item>
 <title>Cloud CISO Perspectives: How Google monitors AI threats and advances AI defenses</title>
 <link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-google-monitors-ai-threats-advances-ai-defenses/</link>
-<description><![CDATA[Welcome to the first Cloud CISO Perspectives for September 2026. Today, Sandra Joyce shares the latest details on Google’s visibility into how attackers are using AI, and how we’re using AI to stop them. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fb98521ee10&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; ‘Spellcheck for cybersecurity’ and beyond: How Google monitors AI threats and advances AI defenses By Sandra Joyce, VP, Google Threat In]]></description>
+<description><![CDATA[Welcome to the first Cloud CISO Perspectives for September 2026. Today, Sandra Joyce shares the latest details on Google’s visibility into how attackers are using AI, and how we’re using AI to stop them. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fce886920d0&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; ‘Spellcheck for cybersecurity’ and beyond: How Google monitors AI threats and advances AI defenses By Sandra Joyce, VP, Google Threat In]]></description>
 <pubDate>Wed, 16 Sep 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-google-monitors-ai-threats-advances-ai-defenses/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
@@ -7554,7 +7555,7 @@
 <category>credential_theft</category>
 </item>
 <item>
-<title>Vulnerability response in the AI-discovery era</title>
+<title>Vulnerability response in the AI-discovery era: A four-part plan</title>
 <link>https://webflow.sysdig.com/blog/vulnerability-response-in-the-ai-discovery-era</link>
 <description><![CDATA[]]></description>
 <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
@@ -15963,16 +15964,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>MuddyWater: Snakes by the riverbank</title>
-<link>https://www.welivesecurity.com/en/eset-research/muddywater-snakes-riverbank/</link>
-<description><![CDATA[MuddyWater targets critical infrastructure in Israel and Egypt, relying on custom malware, improved tactics, and a predictable playbook<br/><br/><em>Tags: MuddyWater</em>]]></description>
-<pubDate>Tue, 02 Dec 2025 10:00:15 +0000</pubDate>
-<guid isPermaLink="true">https://www.welivesecurity.com/en/eset-research/muddywater-snakes-riverbank/</guid>
-<source url="https://www.welivesecurity.com/en/rss/feed/">ESET WeLiveSecurity</source>
-<category>threat_research_primary</category>
-<category>MuddyWater</category>
-</item>
-<item>
 <title>AlphaFold: Five years of impact</title>
 <link>https://deepmind.google/blog/alphafold-five-years-of-impact/</link>
 <description><![CDATA[Explore how AlphaFold has accelerated science and fueled a global wave of biological discovery.]]></description>
@@ -19387,7 +19378,7 @@
 <title>CrowdStrike Named a Leader in The Forrester Wave™: External Threat Intelligence Service Providers, Q3 2026</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 19 Sep 2026 00:05:01 +0000</pubDate>
+<pubDate>Sat, 19 Sep 2026 04:29:50 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19396,7 +19387,7 @@
 <title>CrowdStrike SafeMind: When the Best Offense Builds the Best Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 19 Sep 2026 00:05:01 +0000</pubDate>
+<pubDate>Sat, 19 Sep 2026 04:29:50 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19405,7 +19396,7 @@
 <title>CrowdStrike Accelerates Real-Time Data Classification with On-Device AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 19 Sep 2026 00:05:01 +0000</pubDate>
+<pubDate>Sat, 19 Sep 2026 04:29:50 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19414,7 +19405,7 @@
 <title>PhantomRaven: An LLM-Generated Information Stealer Developed for Bug Bounty Hunting</title>
 <link>https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 19 Sep 2026 00:05:01 +0000</pubDate>
+<pubDate>Sat, 19 Sep 2026 04:29:50 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19423,7 +19414,7 @@
 <title>September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 19 Sep 2026 00:05:01 +0000</pubDate>
+<pubDate>Sat, 19 Sep 2026 04:29:50 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19432,7 +19423,7 @@
 <title>CrowdStrike Delivers the Next Evolution of the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 19 Sep 2026 00:05:01 +0000</pubDate>
+<pubDate>Sat, 19 Sep 2026 04:29:50 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19441,7 +19432,7 @@
 <title>CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Sat, 19 Sep 2026 00:05:01 +0000</pubDate>
+<pubDate>Sat, 19 Sep 2026 04:29:50 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19451,7 +19442,7 @@
 <title>CrowdStrike Announces Agentic Identity Provider</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 19 Sep 2026 00:05:01 +0000</pubDate>
+<pubDate>Sat, 19 Sep 2026 04:29:50 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19460,7 +19451,7 @@
 <title>CrowdStrike Falcon Guardian Defines the Next Generation of AI Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 19 Sep 2026 00:05:01 +0000</pubDate>
+<pubDate>Sat, 19 Sep 2026 04:29:50 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19469,7 +19460,7 @@
 <title>Peer Pressure: Inside the Sality Botnet Disruption Operation</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 19 Sep 2026 00:05:01 +0000</pubDate>
+<pubDate>Sat, 19 Sep 2026 04:29:50 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>

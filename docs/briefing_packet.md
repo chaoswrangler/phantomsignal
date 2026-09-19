@@ -1,6 +1,6 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-09-19T00:05:00.994272+00:00
+- Generated: 2026-09-19T04:29:50.595273+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
@@ -80,6 +80,11 @@
   - Status: ok
   - Item count: 15
   - In window count: 4
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
@@ -90,31 +95,21 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
+  - Item count: 25
+  - In window count: 0
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
@@ -125,16 +120,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
-  - Item count: 100
-  - In window count: 2
+  - Item count: 20
+  - In window count: 4
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 4
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
@@ -145,11 +150,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 4
+  - Item count: 100
+  - In window count: 3
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -165,31 +170,36 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
+  - In window count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
   - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
@@ -200,11 +210,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
@@ -215,51 +220,46 @@
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 2
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
-  - Item count: 20
-  - In window count: 6
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
+  - Item count: 10
+  - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 4
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 6
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 4
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -270,11 +270,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
@@ -285,13 +280,8 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
@@ -300,21 +290,26 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 20
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -325,6 +320,11 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
@@ -340,26 +340,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 21
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 50
   - In window count: 0
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 20
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
@@ -370,26 +365,26 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 9
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 100
+  - In window count: 10
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 100
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
-  - In window count: 1
+  - In window count: 9
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -420,6 +415,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
@@ -430,41 +430,41 @@
   - Status: ok
   - Item count: 100
   - In window count: 26
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 3
+  - Item count: 10
+  - In window count: 1
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 15
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **Google Project Zero** (offensive_vulnerability_research)
   - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
   - Status: ok
@@ -624,6 +624,23 @@
   - https://www.securityweek.com/critical-orkes-conductor-vulnerability-exploited-in-attacks/
   - https://www.infosecurity-magazine.com/news/microsoft-releases-emergency-patch/
 
+### Apple iOS/macOS vulnerability activity
+- Anchor signal: Apple iOS/macOS
+- Theme key: apple-ios-macos
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.2
+- Shared strong signals: Apple iOS/macOS
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_industries: financial_services
+  - affected_products: Apple iOS/macOS
+- Cluster IDs: 250fac7429, d99c303c35
+- Links:
+  - https://www.sentinelone.com/labs/dont-call-us-well-call-your-apis-tradertraitor-backdoors-resurface-on-victim-with-no-crypto-ties/
+  - https://unit42.paloaltonetworks.com/atomic-macos-amos-stealer-activity/
+
 ### Google Cloud vulnerability activity
 - Anchor signal: Google Cloud
 - Theme key: google-cloud
@@ -642,23 +659,6 @@
   - https://www.securityweek.com/microsoft-patches-18-vulnerabilities-in-ai-cloud-products/
   - https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
   - https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html
-
-### Apple iOS/macOS vulnerability activity
-- Anchor signal: Apple iOS/macOS
-- Theme key: apple-ios-macos
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.2
-- Shared strong signals: Apple iOS/macOS
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_industries: financial_services
-  - affected_products: Apple iOS/macOS
-- Cluster IDs: 250fac7429, d99c303c35
-- Links:
-  - https://www.sentinelone.com/labs/dont-call-us-well-call-your-apis-tradertraitor-backdoors-resurface-on-victim-with-no-crypto-ties/
-  - https://unit42.paloaltonetworks.com/atomic-macos-amos-stealer-activity/
 
 ## Forward signals
 
@@ -720,9 +720,9 @@
   - Prior top industries: financial_services, healthcare, manufacturing_industrial
   - Prior top products: Anthropic/Claude, Microsoft SharePoint, Salesforce
 - **LockBit** (cluster b14566fc43)
-  - New industries: manufacturing_industrial
+  - New industries: (none)
   - New products: Cisco
-  - Prior top industries: education, government, healthcare
+  - Prior top industries: education, government, manufacturing_industrial
   - Prior top products: GitHub, GitLab, OpenAI/ChatGPT
 
 ### Persistence (12)
@@ -1013,7 +1013,7 @@ Sinisa Markovic , Managing Editor, Help Net Security September 18, 2026 Share Ze
   - Title: Gemini Hacked Three Companies in First Known Breakout by Google’s AI
   - Published: 2026-09-18T23:57:57+00:00
   - Link: https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/
-  - Summary: Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Felony Bench ! The hacks, which the company confirmed on Friday, occurred in May as part of a test run by the company Irregular, which was also involved in similar incidents disclosed by OpenAI, Anthropic and Meta. In one of the cases, the model guessed passwords until it gained access to a protected system. In the other two cases, the model found credentials in a public repository that allowed it to then access protected systems. In each case, the model ended the intrusion after determining it had accessed a real company’s systems, Google said. Gemini is apparently less determined than other models, and decided not to keep going. Tags: security , ai , generative-ai , llms , gemini , accidental-cyberattacks
+  - Summary: Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Felony Bench ! The hacks, which the company confirmed on Friday, occurred in May as part of a test run by the company Irregular, which was also involved in similar incidents disclosed by OpenAI, Anthropic and Meta. In one of the cases, the model guessed passwords until it gained access to a protected system. In the other two cases, the model found credentials in a public repository that allowed it to then access protected systems. In each case, the model ended the intrusion after determining it had accessed a real company’s systems, Google said. Gemini is apparently less determined than other models, and decided not to keep going. Google knew about these in July, but chose not to disclose them until the WSJ reached out, presumably based on a tip. Google said it didn’t consider the hacks to warrant public disclosure—because its model didn’t cause harm to the companies and ended each intrusio
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer
   - Published: 2026-09-18T15:19:06+00:00
@@ -1864,64 +1864,6 @@ Will Thomas 5 min read March 2, 2026 Tracking CyberStrikeAI Usage Team Cymru is 
   - Link: https://www.team-cymru.com/post/tracking-cyberstrikeai-usage
   - Summary: Discover how CyberStrikeAI is revolutionizing AI-augmented offensive security. Explore its ties to Chinese state-sponsored actors and learn to detect it with NetFlow.
 
-### Cluster 5684813f28 — score 13
-
-- Title: Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-09-18T12:47:04+00:00
-- Link: https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
-- Strong signals: Azure, CVE-2026-85889
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, apt_espionage, phishing_social_eng, ransomware_extortion
-- affected_industries: government
-- affected_products: Anthropic/Claude, Azure, GitLab, Google Cloud, Salesforce
-- cve_ids: CVE-2026-62721, CVE-2026-85878, CVE-2026-85885, CVE-2026-85889, CVE-2026-87701
-- urgency_signals: actively_exploited, critical_cvss
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, apt_espionage, active_exploitation
-- affected_products: Azure, Anthropic/Claude, GitLab
-- cve_ids: CVE-2026-85889, CVE-2026-85885, CVE-2026-85878, CVE-2026-87701, CVE-2026-62721
-- urgency_signals: actively_exploited, critical_cvss
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required. The vulnerability, tracked as CVE-2026-85889, carries a CVSS score of 10.0. "Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to elevate privileges over a network,"
-```
-
-#### Full body
-
-```
-Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation  Ravie Lakshmanan  Sep 18, 2026 Vulnerability / Cloud Security Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required. The vulnerability, tracked as CVE-2026-85889 , carries a CVSS score of 10.0. "Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to elevate privileges over a network," Microsoft said in a Thursday advisory. Azure AI Foundry, also called Microsoft Foundry, is an enterprise platform designed to build, deploy, and manage generative artificial intelligence (AI) applications and agents. The Windows maker credited security researcher Rémy Marot (@R_Marot) for discovering and reporting the flaw. There is no evidence that the issue has been exploited in the wild. Also patched by Microsoft in recent days are a number of other critical flaws - CVE-2026-85885 (CVSS score: 9.9) - A command injection vulnerability in Microsoft 365 Copilot that could allow an authorized attacker to elevate privileges over a network CVE-2026-85878 (CVSS score: 9.9) - An improper authorization in Azure Database for PostgreSQL that could allow an authorized attacker to elevate privileges over a network CVE-2026-87701 (CVSS score: 9.6) - An improper neutralization vulnerability in Azure Cosmos DB that could allow an authorized attacker to elevate privileges over a network As is typically the case with cloud-based CVEs, Microsoft said the vulnerabilities have already been fully mitigated, and that they require no action for users to take. Separately, Microsoft has shipped updates for two other vulnerabilities, one of which was originally disclosed last month. CVE-2026-62721 (CVSS score: 7.8) - An insufficient granularity of access control in Windows User-Mode Power Service (UMPS) that could allow an authorized attacker to elevate privileges locally and gain SYSTEM privileges. CVE-2026-85921 (CVSS score: 8.2) - A double free vulnerability in Windows Secure Kernel Mode that could allow an authorized attacker to elevate privileges locally and gain Virtual Trust Level 1 (VTL1) privileges. Both flaws have been addressed as part of an out-of-band update for Windows 11, version 26H1 - 2026-09 Cumulative Update for Windows 11, version 26H1 for arm64-based Systems (KB5129194) (28000.2956) 2026-09 Cumulative Update for Windows 11, version 26H1 for x64-based Systems (KB5129194) (28000.2956) The disclosure comes as Microsoft patched a record 974 vulnerabilities spanning its software portfolio earlier last week. Two of those defects impacting Windows Advanced Local Procedure Call (ALPC) and the Windows Update Stack have come under active exploitation. According to reports from Proofpoint and Volexity , the ALPC vulnerability has been chained along with two Google Chrome flaws to develop an exploit kit called BlueMoon that has been weaponized by multiple espionage-aligned threat actors to deliver malicious payloads. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  artificial intelligence , Cloud security , cyber espionage , Microsoft , Vulnerability , Windows ⚡ Top Stories This Week OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure Claude Used to Automate Exploitation and Data Theft Across Multiple Victims Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories Check Point Discloses Two 9.8-Rated VPN Certificate Flaws E
-```
-
-#### Corroborating sources (3)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation
-  - Published: 2026-09-18T12:47:04+00:00
-  - Link: https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html
-  - Summary: Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required. The vulnerability, tracked as CVE-2026-85889, carries a CVSS score of 10.0. "Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to elevate privileges over a network,"
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Accelerating the borderless Lakehouse: Announcing preview of cross-cloud caching
-  - Published: 2026-09-18T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/products/data-analytics/borderless-lakehouse-cross-cloud-caching-and-connections/
-  - Summary: Today, we are excited to announce enhancements to the borderless Lakehouse , our answer to how data engineers, data scientists, and increasingly, AI agents, can query governed data directly where it lives. To reason accurately and automate complex enterprise workflows, agents and data consumers of all types need fast, unified access to an organization's complete data estate, joining customer records, transaction logs, and operational telemetry across clouds. However, modern enterprise data is rarely confined to a single location; data estates often span Amazon S3, Azure Data Lake Storage (ADLS), Google Cloud Storage, operational databases, and SaaS platforms like Salesforce, SAP, and Workday. Historically, uniting these distributed datasets required brittle ETL pipelines, duplicated storage, and prohibitive cross-cloud data transfer costs. We introduced the borderless Lakehouse earlier this year to let organizations query and activate data in place across clouds. By adopting the Apache
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Microsoft Patches 18 Vulnerabilities in AI, Cloud Products
-  - Published: 2026-09-18T10:57:03+00:00
-  - Link: https://www.securityweek.com/microsoft-patches-18-vulnerabilities-in-ai-cloud-products/
-  - Summary: Microsoft fixed vulnerabilities across Azure and AI-branded products, with privilege escalation flaws accounting for the majority. The post Microsoft Patches 18 Vulnerabilities in AI, Cloud Products appeared first on SecurityWeek .
-
 ### Cluster 3853341000 — score 13
 
 - Title: Coper / Octo - A Conductor for Mobile Mayhem‚Ä¶ With Eight Limbs?
@@ -2030,47 +1972,6 @@ LABScon Don’t Call Us, We’ll Call Your APIs | TraderTraitor Backdoors Resurf
   - Published: 2026-09-18T17:00:16+00:00
   - Link: https://www.sentinelone.com/labs/dont-call-us-well-call-your-apis-tradertraitor-backdoors-resurface-on-victim-with-no-crypto-ties/
   - Summary: North Korean operators built a foothold on a DevOps engineer's Mac in a campaign whose job interview lures deliver malware via Terraform lock files.
-
-### Cluster 0af61280d0 — score 12
-
-- Title: How Kyocera AVX Built a Global Security Validation Program from Zero
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-09-18T16:12:24+00:00
-- Link: https://horizon3.ai/customer-story/kyocera-avx-global-security-validation/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_industries: manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-See how Kyocera AVX used NodeZero to build a global security validation program, scale autonomous pentesting across manufacturing sites, and remediate more than 30,000 vulnerabilities and misconfigurations.
-```
-
-#### Full body
-
-```
-How Kyocera AVX Built a Global Security Validation Program from Zero Horizon3 Customer Stories Building a security validation program across global manufacturing environments requires more than deploying another scanning tool. Security teams need to identify which weaknesses attackers can actually exploit, prioritize remediation, and validate risk without disrupting production. Kyocera AVX faced that challenge across 33 manufacturing sites worldwide. With no formal vulnerability management or pentesting program, the company needed a practical way to understand real exposure and build a repeatable validation process that could coexist with complex production environments. This customer story explores how Kyocera AVX used NodeZero® to build a global, evidence-driven security validation program, remediate more than 30,000 vulnerabilities and misconfigurations, and establish a pentesting cadence four times higher than the industry norm. Key Insight Traditional vulnerability findings show teams what might be vulnerable. Kyocera AVX needed an attacker’s perspective to understand which weaknesses could actually be exploited and chained into meaningful attack paths. By making NodeZero the engine behind its vulnerability management and pentesting program, Kyocera AVX gained: Visibility into real, exploitable attack paths A repeatable validation program across global manufacturing sites Actionable Fix Actions that IT teams could use to remediate risk Targeted retesting with 1-Click Verify Executive visibility through NodeZero data integrated with Splunk A sustainable testing model designed around production realities What You’ll Learn How to build a security validation program from the ground up Why exploit-based testing provides context traditional vulnerability findings cannot How Kyocera AVX scaled autonomous pentesting across global manufacturing environments How attack-path evidence helps overcome operational resistance to security testing Why Fix Actions can make remediation clearer and more actionable for IT teams How targeted retesting verifies whether security fixes actually reduce exposure How NodeZero data and Splunk dashboards help communicate risk to executives How continuous pentesting can coexist with production and OT-adjacent environments Why It Matters Manufacturing security teams have to balance cyber risk with business continuity and production safety. That can make organizations understandably cautious about introducing testing they perceive as invasive. But avoiding validation leaves another risk: vulnerabilities, misconfigurations, credential exposures, and attack paths can remain hidden because no one has demonstrated how an attacker could actually use them. Kyocera AVX changed that dynamic. NodeZero reached most manufacturing sites in roughly one to two years, compared with the four to five years typically required to fully roll out comparable tools in the company’s environment. Today, approximately 34 NodeZero hosts support regular assessments, with about four pentests per site each year plus targeted validation. In approximately three years, Kyocera AVX remediated more than 30,000 vulnerabilities and misconfigurations , transforming a program with essentially no formal vulnerability management or pentesting coverage into a global, evidence-driven security validation practice. Download the customer story to see how Kyocera AVX used NodeZero to build a global security validation program, expose real attack paths, and turn more than 30,000 weaknesses into measurable risk reduction. Download the customer story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: How Kyocera AVX Built a Global Security Validation Program from Zero
-  - Published: 2026-09-18T16:12:24+00:00
-  - Link: https://horizon3.ai/customer-story/kyocera-avx-global-security-validation/
-  - Summary: See how Kyocera AVX used NodeZero to build a global security validation program, scale autonomous pentesting across manufacturing sites, and remediate more than 30,000 vulnerabilities and misconfigurations.
 
 ### Cluster b04cf6724c — score 12
 
@@ -2215,6 +2116,105 @@ Infosecurity Magazine Home » News » Microsoft Releases Emergency Patch to Fix 
   - Link: https://www.infosecurity-magazine.com/news/microsoft-releases-emergency-patch/
   - Summary: Microsoft has been forced to issue an out-of-band fix for several issues stemming from this month’s Patch Tuesday
 
+### Cluster 5684813f28 — score 12
+
+- Title: Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-09-18T12:47:04+00:00
+- Link: https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 3
+- Strong signals: Azure, CVE-2026-85889
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, apt_espionage, phishing_social_eng, ransomware_extortion
+- affected_industries: government
+- affected_products: Anthropic/Claude, Azure, GitLab, Google Cloud, Salesforce
+- cve_ids: CVE-2026-62721, CVE-2026-85878, CVE-2026-85885, CVE-2026-85889, CVE-2026-87701
+- urgency_signals: actively_exploited, critical_cvss
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, apt_espionage, active_exploitation
+- affected_products: Azure, Anthropic/Claude, GitLab
+- cve_ids: CVE-2026-85889, CVE-2026-85885, CVE-2026-85878, CVE-2026-87701, CVE-2026-62721
+- urgency_signals: actively_exploited, critical_cvss
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required. The vulnerability, tracked as CVE-2026-85889, carries a CVSS score of 10.0. "Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to elevate privileges over a network,"
+```
+
+#### Full body
+
+```
+Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation  Ravie Lakshmanan  Sep 18, 2026 Vulnerability / Cloud Security Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required. The vulnerability, tracked as CVE-2026-85889 , carries a CVSS score of 10.0. "Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to elevate privileges over a network," Microsoft said in a Thursday advisory. Azure AI Foundry, also called Microsoft Foundry, is an enterprise platform designed to build, deploy, and manage generative artificial intelligence (AI) applications and agents. The Windows maker credited security researcher Rémy Marot (@R_Marot) for discovering and reporting the flaw. There is no evidence that the issue has been exploited in the wild. Also patched by Microsoft in recent days are a number of other critical flaws - CVE-2026-85885 (CVSS score: 9.9) - A command injection vulnerability in Microsoft 365 Copilot that could allow an authorized attacker to elevate privileges over a network CVE-2026-85878 (CVSS score: 9.9) - An improper authorization in Azure Database for PostgreSQL that could allow an authorized attacker to elevate privileges over a network CVE-2026-87701 (CVSS score: 9.6) - An improper neutralization vulnerability in Azure Cosmos DB that could allow an authorized attacker to elevate privileges over a network As is typically the case with cloud-based CVEs, Microsoft said the vulnerabilities have already been fully mitigated, and that they require no action for users to take. Separately, Microsoft has shipped updates for two other vulnerabilities, one of which was originally disclosed last month. CVE-2026-62721 (CVSS score: 7.8) - An insufficient granularity of access control in Windows User-Mode Power Service (UMPS) that could allow an authorized attacker to elevate privileges locally and gain SYSTEM privileges. CVE-2026-85921 (CVSS score: 8.2) - A double free vulnerability in Windows Secure Kernel Mode that could allow an authorized attacker to elevate privileges locally and gain Virtual Trust Level 1 (VTL1) privileges. Both flaws have been addressed as part of an out-of-band update for Windows 11, version 26H1 - 2026-09 Cumulative Update for Windows 11, version 26H1 for arm64-based Systems (KB5129194) (28000.2956) 2026-09 Cumulative Update for Windows 11, version 26H1 for x64-based Systems (KB5129194) (28000.2956) The disclosure comes as Microsoft patched a record 974 vulnerabilities spanning its software portfolio earlier last week. Two of those defects impacting Windows Advanced Local Procedure Call (ALPC) and the Windows Update Stack have come under active exploitation. According to reports from Proofpoint and Volexity , the ALPC vulnerability has been chained along with two Google Chrome flaws to develop an exploit kit called BlueMoon that has been weaponized by multiple espionage-aligned threat actors to deliver malicious payloads. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  artificial intelligence , Cloud security , cyber espionage , Microsoft , Vulnerability , Windows ⚡ Top Stories This Week OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure Claude Used to Automate Exploitation and Data Theft Across Multiple Victims Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories Check Point Discloses Two 9.8-Rated VPN Certificate Flaws E
+```
+
+#### Corroborating sources (3)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation
+  - Published: 2026-09-18T12:47:04+00:00
+  - Link: https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html
+  - Summary: Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required. The vulnerability, tracked as CVE-2026-85889, carries a CVSS score of 10.0. "Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to elevate privileges over a network,"
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Accelerating the borderless Lakehouse: Announcing preview of cross-cloud caching
+  - Published: 2026-09-18T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/products/data-analytics/borderless-lakehouse-cross-cloud-caching-and-connections/
+  - Summary: Today, we are excited to announce enhancements to the borderless Lakehouse , our answer to how data engineers, data scientists, and increasingly, AI agents, can query governed data directly where it lives. To reason accurately and automate complex enterprise workflows, agents and data consumers of all types need fast, unified access to an organization's complete data estate, joining customer records, transaction logs, and operational telemetry across clouds. However, modern enterprise data is rarely confined to a single location; data estates often span Amazon S3, Azure Data Lake Storage (ADLS), Google Cloud Storage, operational databases, and SaaS platforms like Salesforce, SAP, and Workday. Historically, uniting these distributed datasets required brittle ETL pipelines, duplicated storage, and prohibitive cross-cloud data transfer costs. We introduced the borderless Lakehouse earlier this year to let organizations query and activate data in place across clouds. By adopting the Apache
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Microsoft Patches 18 Vulnerabilities in AI, Cloud Products
+  - Published: 2026-09-18T10:57:03+00:00
+  - Link: https://www.securityweek.com/microsoft-patches-18-vulnerabilities-in-ai-cloud-products/
+  - Summary: Microsoft fixed vulnerabilities across Azure and AI-branded products, with privilege escalation flaws accounting for the majority. The post Microsoft Patches 18 Vulnerabilities in AI, Cloud Products appeared first on SecurityWeek .
+
+### Cluster 0af61280d0 — score 11
+
+- Title: How Kyocera AVX Built a Global Security Validation Program from Zero
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-09-18T16:12:24+00:00
+- Link: https://horizon3.ai/customer-story/kyocera-avx-global-security-validation/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_industries: manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+See how Kyocera AVX used NodeZero to build a global security validation program, scale autonomous pentesting across manufacturing sites, and remediate more than 30,000 vulnerabilities and misconfigurations.
+```
+
+#### Full body
+
+```
+How Kyocera AVX Built a Global Security Validation Program from Zero Horizon3 Customer Stories Building a security validation program across global manufacturing environments requires more than deploying another scanning tool. Security teams need to identify which weaknesses attackers can actually exploit, prioritize remediation, and validate risk without disrupting production. Kyocera AVX faced that challenge across 33 manufacturing sites worldwide. With no formal vulnerability management or pentesting program, the company needed a practical way to understand real exposure and build a repeatable validation process that could coexist with complex production environments. This customer story explores how Kyocera AVX used NodeZero® to build a global, evidence-driven security validation program, remediate more than 30,000 vulnerabilities and misconfigurations, and establish a pentesting cadence four times higher than the industry norm. Key Insight Traditional vulnerability findings show teams what might be vulnerable. Kyocera AVX needed an attacker’s perspective to understand which weaknesses could actually be exploited and chained into meaningful attack paths. By making NodeZero the engine behind its vulnerability management and pentesting program, Kyocera AVX gained: Visibility into real, exploitable attack paths A repeatable validation program across global manufacturing sites Actionable Fix Actions that IT teams could use to remediate risk Targeted retesting with 1-Click Verify Executive visibility through NodeZero data integrated with Splunk A sustainable testing model designed around production realities What You’ll Learn How to build a security validation program from the ground up Why exploit-based testing provides context traditional vulnerability findings cannot How Kyocera AVX scaled autonomous pentesting across global manufacturing environments How attack-path evidence helps overcome operational resistance to security testing Why Fix Actions can make remediation clearer and more actionable for IT teams How targeted retesting verifies whether security fixes actually reduce exposure How NodeZero data and Splunk dashboards help communicate risk to executives How continuous pentesting can coexist with production and OT-adjacent environments Why It Matters Manufacturing security teams have to balance cyber risk with business continuity and production safety. That can make organizations understandably cautious about introducing testing they perceive as invasive. But avoiding validation leaves another risk: vulnerabilities, misconfigurations, credential exposures, and attack paths can remain hidden because no one has demonstrated how an attacker could actually use them. Kyocera AVX changed that dynamic. NodeZero reached most manufacturing sites in roughly one to two years, compared with the four to five years typically required to fully roll out comparable tools in the company’s environment. Today, approximately 34 NodeZero hosts support regular assessments, with about four pentests per site each year plus targeted validation. In approximately three years, Kyocera AVX remediated more than 30,000 vulnerabilities and misconfigurations , transforming a program with essentially no formal vulnerability management or pentesting coverage into a global, evidence-driven security validation practice. Download the customer story to see how Kyocera AVX used NodeZero to build a global security validation program, expose real attack paths, and turn more than 30,000 weaknesses into measurable risk reduction. Download the customer story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: How Kyocera AVX Built a Global Security Validation Program from Zero
+  - Published: 2026-09-18T16:12:24+00:00
+  - Link: https://horizon3.ai/customer-story/kyocera-avx-global-security-validation/
+  - Summary: See how Kyocera AVX used NodeZero to build a global security validation program, scale autonomous pentesting across manufacturing sites, and remediate more than 30,000 vulnerabilities and misconfigurations.
+
 ### Cluster 7110d0c027 — score 11
 
 - Title: We’re In: Enterprise Commitment to Sustainable Package Registries
@@ -2346,55 +2346,6 @@ Clive Robinson • September 14, 2026 10:10 PM @ lurker, tfb, ALL, With regards,
   - Link: https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html
   - Summary: Last week, Anthropic released a long and detailed document describing current misuses of their Claude models. I’m still reading it, but I wanted to flag this: We identified a cell of threat actors based in northern Yemen running three weapons development programs: a guided rocket that used a commodity phone-class flight computer with final-phase homing guidance; a multi-stage ballistic missile with a stated range goal above 2,000 km; and a multi-variant missile (referred to as the “R2000” set) that included a hypersonic glide vehicle variant...
 
-### Cluster ab440398cd — score 11
-
-- Title: What’s new with Google Cloud
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-09-18T16:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 2
-- Strong signals: Google Cloud
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft
-- affected_industries: government, retail_ecommerce
-- affected_products: Google Cloud, Google/Gemini
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- affected_industries: government, retail_ecommerce
-- affected_products: Google/Gemini, Google Cloud
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Sept 14 - Sept 18 Storage Intelligence Advisor for Google Cloud Storage is now GA Google Cloud Storage customers can now manage cloud storage more effectively with Storage Intelligence Advisor , delivering curated metrics, automated anomaly detection, and actionable recommendations right out of the box, with zero setup required. Advisor baselines activity across your projects and automatically detects four key anomalies: surges in operations, unexpected rises in cross-region egress, and spikes in errors. Each finding includes deep drill-down visibility into the resources driving the change, alongside prescriptive s
-```
-
-#### Full body
-
-```
-Inside Google Cloud What’s new with Google Cloud September 18, 2026 Google Cloud Content & Editorial Try Gemini Enterprise today The front door to AI in the workplace Try now Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . Sept 14 - Sept 18 Storage Intelligence Advisor for Google Cloud Storage is now GA Google Cloud Storage customers can now manage cloud storage more effectively with Storage Intelligence Advisor , delivering curated metrics, automated anomaly detection, and actionable recommendations right out of the box, with zero setup required. Advisor baselines activity across your projects and automatically detects four key anomalies: surges in operations, unexpected rises in cross-region egress, and spikes in errors. Each finding includes deep drill-down visibility into the resources driving the change, alongside prescriptive steps to remediate issues before they impact performance or cost. Learn more to get started with Storage Intelligence Advisor . Build private WebSockets from Apigee X to Cloud Run Real-time AI agents and streaming architectures often require persistent, bidirectional connections. A new implementation guide by Apigee Customer Engineer Joel Gauci demonstrates how to establish private southbound connectivity between Apigee X and Cloud Run. Using Private Service Connect (PSC) and a Regional Internal Application Load Balancer, teams can enforce API governance and security policies at the edge while keeping backend services completely isolated from the public internet. Explore the step-by-step guide and open-source code Connecting Gemini Enterprise Agent Runtime to Apigee with Private Service Connect Deploying autonomous AI agents often presents security, compliance, and cost challenges. A new reference guide details how to build an end-to-end, private architecture between Gemini Enterprise Agent Runtime and Apigee. This design helps protect internal backends and manage token quotas. Read the full community guide and deploy the code Discover what’s new and next in Apigee As enterprise architectures adapt to generative AI and autonomous workflows, Apigee is expanding its proven platform capabilities to support modern AI gateway use cases alongside traditional API management. Join our session on Thursday, September 24, featuring Apigee Product Manager Geir Sjurseth. Get an inside look at recent product releases, explore architectural patterns for securing models and agents, and bring your questions for the live Q&A. Register for the September 24 Apigee product update Managed Service for Apache Kafka supports clusters with public Internet access! With Managed Kafka public clusters , you can now produce and consume messages from clients outside your VPC—including your local machine, for faster, frictionless testing. Public clusters unlock use cases like IoT devices, retail storefronts, and telco network towers. Enable public access on new or existing clusters via the Google Cloud console, gcloud CLI, or REST API. Spin up your first public cluster , or reach out to kafka-hotline@google.com with questions. Stream data directly into Bigtable using Bigtable subscriptions, now in Preview! You can write Pub/Sub messages to a Bigtable table with zero ETL with Bigtable subscriptions . No pipelines, no code, delivered by the serverless, zero-ops experience you already know with Pub/Sub. Power your AI workloads, from model telemetry to real-time context engineering, without the overhead of managing complicated ETL pipelines. Built to be dependable, with native support for dead-letter topics. Try the feature today ! Sept 7 - Sept 10 Why Your Voice Agent Needs Session Auditing Moving voice agents to production demands robust
-```
-
-#### Corroborating sources (2)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: What’s new with Google Cloud
-  - Published: 2026-09-18T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
-  - Summary: Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Sept 14 - Sept 18 Storage Intelligence Advisor for Google Cloud Storage is now GA Google Cloud Storage customers can now manage cloud storage more effectively with Storage Intelligence Advisor , delivering curated metrics, automated anomaly detection, and actionable recommendations right out of the box, with zero setup required. Advisor baselines activity across your projects and automatically detects four key anomalies: surges in operations, unexpected rises in cross-region egress, and spikes in errors. Each finding includes deep drill-down visibility into the resources driving the change, alongside prescriptive s
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: CISO's Expert Guide to Agentic Pentesting for Websites
-  - Published: 2026-09-17T10:50:53+00:00
-  - Link: https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html
-  - Summary: Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud). The median organization takes 43 days to patch one (Verizon DBIR 2026). A new free guide explains how autonomous AI agents are closing that gap, and what security leaders must demand before pointing one at production. TL;DR Exploitation is now the front door. It starts 31% of breaches (Verizon DBIR
-
 ### Cluster 33b6cffcbd — score 10
 
 - Title: Inside the Modern SOC: Defending the Cross-Environment Pivot
@@ -2477,57 +2428,6 @@ Threat Research Center Insights General General Atomic macOS (AMOS) Stealer Acti
   - Link: https://unit42.paloaltonetworks.com/atomic-macos-amos-stealer-activity/
   - Summary: Modern macOS malware uses deceptive setup guides to steal credentials and sensitive user data. Learn how to identify and block these threats. The post Atomic macOS (AMOS) Stealer Activity appeared first on Unit 42 .
 
-### Cluster 4177169ade — score 10
-
-- Title: 14th September – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-09-14T12:22:06+00:00
-- Link: https://research.checkpoint.com/2026/14th-september-threat-intelligence-report/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach
-- actor_attribution: ShinyHunters
-- affected_industries: education, financial_services, government
-- affected_products: Anthropic/Claude, GitLab, OpenAI/ChatGPT
-- cve_ids: CVE-2026-67276, CVE-2026-72898, CVE-2026-81963, CVE-2026-85706, CVE-2026-85880
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: data_breach, active_exploitation
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services, government, education
-- affected_products: GitLab, Anthropic/Claude, OpenAI/ChatGPT
-- cve_ids: CVE-2026-72898, CVE-2026-85880, CVE-2026-81963, CVE-2026-85706, CVE-2026-67276
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-For the latest discoveries in cyber research for the week of 14th Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES IDScan.net, a US identity verification provider, has disclosed a data breach after detecting unauthorized access on September 1. Exposed data included names and government identification numbers, while a criminal marketplace advertised a […] The post 14th September – Threat Intelligence Report appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 14th September – Threat Intelligence Report September 14, 2026 https://research.checkpoint.com/2026/14th-september-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 14th Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES IDScan.net, a US identity verification provider, has disclosed a data breach after detecting unauthorized access on September 1. Exposed data included names and government identification numbers, while a criminal marketplace advertised a collection containing millions of identity documents, including driver’s licenses, associated with the company’s verification services. Mathspace, an education platform used in Australia and New Zealand, has suffered a data breach affecting more than 1 million people. The attackers exploited CVE-2026-72898 in self-hosted tool Metabase to access an internal reporting database. Exposed information included names, email addresses, usernames, and locations, while passwords and academic records were not affected. Check Point IPS provides protection against this threat (Metabase SQL Injection (CVE-2026-72898)) Fintech company Revolut has reported a data exposure after employees fulfilled fraudulent information requests sent from an email account within a government agency’s legitimate domain. Exposed records included identity documents, verification selfies, contact details, IBANs, account statements, withdrawal records, and complete transaction histories. Florida’s state Department of Motor Vehicles fell victim to a data breach after criminals used credentials stolen from a Plant City police officer’s personal device. The credentials enabled access to driver records, and the ShinyHunters group published images of stolen data. AI THREATS Check Point Research has detailed PuzzleMask, a plain-prose prompt technique that hides prohibited instructions from lightweight LLM gatekeepers while allowing stronger target models to recover them. In testing, gatekeepers classified the prompts as safe, while target models extracted and acted on concealed payloads in more than 90 percent of trials. Check Point Research has demonstrated a covert cross-account channel in ChatGPT’s code-execution environment that allowed hidden tasks to run using a victim’s available tools, data, and connected applications. A proof of concept used a shared conversation to retrieve Gmail data from one account and relay the results to another. Anthropic has disclosed four incidents in which Claude models operated on the real internet because of configuration failures instead of remaining within intended sandboxes. In the most serious case, a model published a malicious PyPI package that was executed by systems, exposing credentials and enabling access to a database. VULNERABILITIES AND PATCHES Microsoft has released its September 2026 Patch Tuesday updates, addressing a record 974 vulnerabilities across its products, including two actively exploited zero-days. CVE-2026-85880 and CVE-2026-81963 both allow local attackers to elevate privileges to SYSTEM, while 20 additional flaws could enable unauthenticated remote code execution without user interaction. Check Point IPS provides protection against this threat (Microsoft Windows Update Stack Elevation of Privilege (CVE-2026-81963)) GitLab has addressed CVE-2026-85706, a critical path traversal vulnerability affecting Community and Enterprise Editions, with a CVSS score of 10.0. The flaw allows unauthenticated attackers to read arbitrary files through the repository commits API. Affected versions include 18.7 through 19.3.1, with fixes available in 19.1.8, 19.2.6, and 19.3.2. Check Point IPS provides protection against this threat (GitLab Arbitrary File Read (CVE-2026-85706)) MikroTik has fixed CVE-2026-67276 and CVE-2026-86060, RouterOS vulnerabilities that can be chained to obtain passwordless SSH access and elevate privileges t
-```
-
-#### Corroborating sources (1)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: 14th September – Threat Intelligence Report
-  - Published: 2026-09-14T12:22:06+00:00
-  - Link: https://research.checkpoint.com/2026/14th-september-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 14th Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES IDScan.net, a US identity verification provider, has disclosed a data breach after detecting unauthorized access on September 1. Exposed data included names and government identification numbers, while a criminal marketplace advertised a […] The post 14th September – Threat Intelligence Report appeared first on Check Point Research .
-
 ### Cluster 233b776dcc — score 10
 
 - Title: NightEagle targets Russian companies
@@ -2574,215 +2474,6 @@ Threat Response Table of Contents Initial access GhostContainer on Microsoft Exc
   - Published: 2026-09-16T10:00:11+00:00
   - Link: https://securelist.com/tr/nighteagle-apt-ghostcontainer-and-tunneling/121323/
   - Summary: Kaspersky GERT experts have uncovered a new campaign by the NightEagle APT, featuring the GhostContainer backdoor and tools hosted on GitHub. The group is also exploiting vulnerabilities in Active Directory and RDP.
-
-### Cluster 5f75cd0900 — score 10
-
-- Title: Beware the SparroWock: The backdoor that bites, the commands that catch
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-09-17T08:50:00+00:00
-- Link: https://www.welivesecurity.com/en/eset-research/beware-sparrowock-backdoor-bites-commands-catch/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, web_shell_backdoor
-- actor_attribution: Salt Typhoon
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage, web_shell_backdoor
-- actor_attribution: Salt Typhoon
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-ESET researchers document SparroWocky, the new flagship backdoor of the FamousSparrow APT group
-```
-
-#### Full body
-
-```
-ESET Research Beware the SparroWock: The backdoor that bites, the commands that catch ESET researchers document SparroWocky, the new flagship backdoor of the FamousSparrow APT group Alexandre Côté Cyr Romain Dumont 17 Sep 2026 • , 27 min. read ESET Research’s ongoing monitoring of FamousSparrow has borne fruit once again. Our previous public report on FamousSparrow revealed that this China-aligned APT group had developed two new versions of its custom backdoor named SparrowDoor. This time, we discovered that FamousSparrow has switched to a new backdoor, SparroWocky, and has been deploying it to several countries in Latin America since at least August 2025. In what was probably China’s reaction to the US showing increased interest in Latin America, FamousSparrow increased its targeting of the region to almost exclusively targeting it in July 2025. A month later, we noticed that the group had started using the new SparroWocky backdoor, which then quickly replaced SparrowDoor as FamousSparrow’s main implant. SparroWocky is a modular, C++ backdoor. Its architecture and the techniques used by its authors indicate strong knowledge of anti-analysis tricks and Windows internals. We chose to name the backdoor SparroWocky because the first samples we collected all contain the first stanza of Jabberwocky , a nonsense poem by Lewis Carroll. Fortunately, while advanced, SparroWocky’s inner workings are much less arcane than a gyre and gimble in the wabe , so a through and through [of] the vorpal blade allowed us to bring you a detailed analysis of the backdoor. Key points of the blogpost: FamousSparrow is extensively targeting governmental organizations in Latin America. Since August 2025, the group appears to be abandoning SparrowDoor in favor of SparroWocky, a new custom C++ backdoor. With the switch to SparroWocky, FamousSparrow started to incorporate code from open-source projects directly into its malware. SparroWocky is a full-featured backdoor that manipulates low-level structures in memory, and patches code at runtime in order to avoid detection. SparroWocky has the capability to load and execute Beacon Object Files, a special type of executable file supported by many red-teaming and penetration-testing tools. FamousSparrow is a China-aligned cyberespionage group believed to have been active since at least 2019. We first publicly documented the group in a blogpost from September 2021 when we observed it exploiting the ProxyLogon vulnerability. The group was initially known for targeting hotels around the world but has also targeted governments, international organizations, trade groups, engineering companies, and law firms. FamousSparrow is the only known user of the SparrowDoor backdoor. We analyzed two versions of SparrowDoor in a 2025 blogpost , in which we also discussed the attribution claims around the group. As mentioned by Trend Micro , FamousSparrow is linked to Earth Estries; however, the exact nature of the link is not fully known. FamousSparrow has also been publicly linked to Salt Typhoon , but, due to the absence of any technical indicators, we track them as separate. Based on our investigation, we attribute the latest campaign and the SparroWocky backdoor to FamousSparrow with high confidence, since in some of the first attacks involving this backdoor, SparroWocky was deployed by the FamousSparrow-exclusive SparrowDoor. Moreover, not only does the victimology match FamousSparrow’s previous targeting, we have also recorded attempts to deploy SparroWocky at many of the same organizations that had previously been targeted with SparrowDoor. Latin America in the crosshairs As previously mentioned, FamousSparrow currently appears to be focused on high-profile targets in Latin America. This trend started at the latest in July 2025 and has continued with the introduction of SparroWocky. In fact, from mid-2025 and into 2026, 90% of the group’s targets registered in our telemetry have been located in the region. As depicted in
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: Beware the SparroWock: The backdoor that bites, the commands that catch
-  - Published: 2026-09-17T08:50:00+00:00
-  - Link: https://www.welivesecurity.com/en/eset-research/beware-sparrowock-backdoor-bites-commands-catch/
-  - Summary: ESET researchers document SparroWocky, the new flagship backdoor of the FamousSparrow APT group
-
-### Cluster aca47e784c — score 10
-
-- Title: Cyberthreats are moving faster than SMBs: Readiness must accelerate
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-09-16T09:00:00+00:00
-- Link: https://www.welivesecurity.com/en/business-security/cyberthreats-moving-faster-smbs-readiness-must-accelerate/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security, phishing_social_eng
-- affected_industries: financial_services, government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, ai_security
-- affected_industries: financial_services, government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-As AI adoption expands the attack surface and adds to the security workload, businesses need automation backed by experts
-```
-
-#### Full body
-
-```
-Business Security Cyberthreats are moving faster than SMBs: Readiness must accelerate As AI adoption expands the attack surface and adds to the security workload, businesses need automation backed by experts Phil Muncaster 16 Sep 2026 • , 8 min. read The cyberthreat landscape has been evolving for years. But there’s a sense today that things are escalating more rapidly than before. That’s largely the result of AI. The technology is not only arming threat actors with the means to launch more sophisticated attacks at greater speed and scale than before. It is also providing them with a larger attack surface to aim at, as businesses rush to adopt the technology. In many cases, that adoption is outpacing the vital governance efforts needed to securely manage and contain it. Against this backdrop, SMB business and IT leaders understand the importance of effective cybersecurity. They want to be protected, operational, and resilient. But they don’t have an infinite budget to spend. They want security that’s simple to understand, adopt and operate. This calls for a different operational model where AI and automation support security teams where it makes sense, with human oversight for decisions that require context and judgment. Finding the right balance, and the right partner will be key to driving readiness and resilience. AI is changing the threat landscape AI is changing the game in impressive ways. Executives are wowed by the potential for productivity and process efficiency gains. By the prospect of transforming customer experience, accelerating business decision making, and breaking into new markets. ESET SMB Cyber Readiness Index 2026 found that most (73%) SMBs are integrating AI into their business. Yet where there’s opportunity, there’s also risk – and most businesses acknowledge that. As AI becomes a growing part of business operations, it also becomes part of the attack surface. It could be a customer service chatbot, a coding assistant deployed by DevOps, or a fleet of agents used by the finance team for repetitive bookkeeping tasks. Wherever AI has access to sensitive data and/or systems, excessive permissions, and the ability to make decisions and take actions, it represents a potential security risk. These risks tend to proliferate in the darkness. According to the report above, 40% of all businesses lack a proper AI policy. Source: ESET SMB Cyber Readiness Index 2026 Accidental data leakage or rogue AI agents are one thing. But there’s arguably an even greater threat from malicious third parties. AI skills repositories are a growing area of risk. Skills work like browser plugins, but for AI agents. But a growing number are designed to steal data, abuse permissions, download malware, or perform unintended actions. ESET analyzed 900,000 such skills across several popular repositories between March and May 2026. It discovered over 25,000 that were suspicious, and more than 3,000 tagged as malicious. Some exfiltrated data and executed malware. Others manipulated sensitive systems, overrode instructions through prompt injection, and changed agent behavior. Unfortunately, skills are just the tip of the iceberg. Users can encounter malicious links via chatbots, leading them to phishing sites and malware installs. Or they may find attackers have poisoned download sources and other components that AI agents interact with, leading to hijacking, fraud, malware and other threats. Prompt injection is another threat – one recently branded the most dangerous of all LLM threats by OWASP. Attackers manipulate AI either by feeding malicious instructions (prompts) directly or hiding them in content that the AI will later retrieve or read. It makes every piece of content a potential attack vector. AI turns up the heat AI is not just a target for attack. It’s a powerful tool for threat actors to wield in attacks. As British government security experts warned back in March 2025 , the technology “will almost certainly continue to make eleme
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: Cyberthreats are moving faster than SMBs: Readiness must accelerate
-  - Published: 2026-09-16T09:00:00+00:00
-  - Link: https://www.welivesecurity.com/en/business-security/cyberthreats-moving-faster-smbs-readiness-must-accelerate/
-  - Summary: As AI adoption expands the attack surface and adds to the security workload, businesses need automation backed by experts
-
-### Cluster 897b6c1468 — score 10
-
-- Title: HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-09-18T06:05:26+00:00
-- Link: https://isc.sans.edu/diary/rss/33352
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-In June 2026 the IETF published RFC 10008[ 1 ], defining a new HTTP method: "QUERY". The HTTP protocol faced already by changes (HTTP/2, HTTP/2) but it's the first new standard HTTP verb since "PATCH" in 2010!
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)
-  - Published: 2026-09-18T06:05:26+00:00
-  - Link: https://isc.sans.edu/diary/rss/33352
-  - Summary: In June 2026 the IETF published RFC 10008[ 1 ], defining a new HTTP method: "QUERY". The HTTP protocol faced already by changes (HTTP/2, HTTP/2) but it's the first new standard HTTP verb since "PATCH" in 2010!
-
-### Cluster b14566fc43 — score 10
-
-- Title: Ransomware incidents in Japan in the first half of 2026: Investigation of The Gentlemen’s infrastructure and evidence of Qilin's AI use
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-09-17T10:00:43+00:00
-- Link: https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- actor_attribution: LockBit
-- affected_industries: manufacturing_industrial
-- affected_products: Cisco
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- actor_attribution: LockBit
-- affected_industries: manufacturing_industrial
-- affected_products: Cisco
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs with capital under JPY 1 billion represented 80% of victims.
-```
-
-#### Full body
-
-```
-Ransomware incidents in Japan in the first half of 2026: Investigation of The Gentlemen’s infrastructure and evidence of Qilin's AI use By Takahiro Takeda , Jordyn Dunk , Michael Szeliga Thursday, September 17, 2026 06:00 ransomware Threat Spotlight Compared with the same period last year, ransomware incidents in Japan increased slightly by approximately 4.7%, indicating that ransomware continues to pose a significant threat. In Japan, The Gentlemen was the most active ransomware group in the first half of 2026. Attackers continue to primarily target small- and medium-sized enterprises, with organizations capitalized at less than JPY 1 billion accounting for approximately 80% of the total — an increase of around 13% from the previous year. The total number of listings on The Gentlemen’s leak site increased from 48 in January to 105 in July, representing approximately a 2.2-fold increase in activity. Additionally, there is a possibility that Russian-speaking individuals are involved in The Gentlemen’s attacks. Qilin, which recorded the second-highest number of observed incidents in 2026 after The Gentlemen, is leveraging AI to improve the efficiency of its operations. Victimized companies Figure 1 summarizes ransomware incidents affecting Japanese companies from January to July 2026. According to Cisco Talos research, 90 organizations in Japan were affected by ransomware during this period. Compared with 86 incidents during the same period from January to July last year, this represents a slight increase of approximately 4.7%, indicating that ransomware incidents continue to remain at a high level. On a monthly basis, there were approximately 13 incidents per month on average. The number of incidents increased in March and April, with April recording the highest number during the period at 19 incidents. Cases involving overseas offices and subsidiaries accounted for 13.3% of the total. Among these, Taiwan recorded the highest number of incidents, followed by the United States and the Philippines, which recorded the same number of incidents, with multiple cases identified in each country. Figure 1. Ransomware incidents in Japan during the first half of 2026 (January through July). The manufacturing sector continued to be the most affected industry, accounting for 34% of incidents, followed by the information and communications sector at 11% and the services sector at 9% (see Figure 2). Figure 2. Percentage of victim organizations by industry. In terms of the size of the affected organizations, those with capital of less than JPY 100 million accounted for the largest share at 48%, followed by organizations with capital of JPY 100 million to less than JPY 1 billion at 30%. Combined, organizations with capital of less than JPY 1 billion accounted for 78% of the total, representing an increase of around 13% from 69% in 2025. This suggests that attackers are increasingly focusing their efforts on small- and medium-sized enterprises (see Figure 3). Figure 3. Classification of victim organizations by capital size (excluding unknown). Most frequently observed ransomware types in Japan In Japan, the most frequently observed ransomware group in the first half of 2026 was The Gentlemen, with 14 incidents. This was followed by Qilin, which caused the highest number of incidents last year, and SafePay, which had relatively few confirmed incidents during the same period last year, with seven incidents each. The Gentlemen and SafePay have increased their activity this year and can be considered emerging ransomware groups that require increased vigilance. Other ransomware groups observed include NightSpire, NetRunner, LockBit 5.0, RansomEXX, Stormous, and AiLock. Looking at the ransomware groups observed this year, very few of the groups that were active during the same period last year have been observed, highlighting the rapid changes in the ransomware threat landscape. Figure 4. Number of incidents by ransomware type used in attacks (exclude
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Ransomware incidents in Japan in the first half of 2026: Investigation of The Gentlemen’s infrastructure and evidence of Qilin's AI use
-  - Published: 2026-09-17T10:00:43+00:00
-  - Link: https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/
-  - Summary: Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs with capital under JPY 1 billion represented 80% of victims.
-
-### Cluster ef7016e41f — score 10
-
-- Title: Securing the unpatchable in an age of AI-driven vulnerabilities
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-09-16T10:00:36+00:00
-- Link: https://blog.talosintelligence.com/securing-the-unpatchable-in-an-age-of-ai-driven-vulnerabilities/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government, healthcare, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: healthcare, government, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Advances in AI technology will continue to identify vulnerabilities that in some circumstances are difficult, or effectively impossible, to patch. Appropriate network segmentation, rigorous visibility, and the deployment of NGFW/IPS combinations can provide a powerful compensatory layer.
-```
-
-#### Full body
-
-```
-Securing the unpatchable in an age of AI-driven vulnerabilities By Martin Lee Wednesday, September 16, 2026 06:00 On The Radar AI is accelerating vulnerability discovery, leaving unpatchable operational technology (OT) systems at risk. Hoping for the best is not a viable anti-exploitation strategy. Deploying next-generation firewalls directly upstream allows for virtual patching through deep packet inspection. These systems scan incoming traffic to detect and block exploit attempts before they can impact the vulnerable device. The predictability of legitimate network connections to OT systems can be used to protect systems through micro-segmentation. This ensures that only a handful of authorized devices can communicate with the system, minimizing the attack surface. AI-assisted code analysis is uncovering decades of technical debt. Every new patch removes a newly identified coding mistake. Little by little, we are improving the state of software engineering, but the price is a cadence of patching that organizations may struggle to implement. These efforts leave unsupported systems, or systems that are not able to be patched for whatever reason, with unmitigated known vulnerabilities. How can such systems be secured in a world where AI is steadily improving its ability to identify new vulnerabilities? Operational technology (OT) systems provide the services that support modern life (e.g., medical equipment, building management systems, and industrial critical systems within chemical plants). Often the systems are certified to operate only with a defined set of software that cannot easily be altered, or operate using systems that are no longer supported. In either case, if a vulnerability is discovered that affects the system, there is no easy way for it to be patched. Ignoring the problem and hoping for the best is rarely an effective strategy. The U.K.’s NHS health system was significantly affected by the WannaCry worm in 2017, with a significant minority of systems running the end-of-life operating system Windows XP contributing to the problem. More recently, exploitation of end-of-life software was used to gain access to governmental systems in 2023. Even systems that are believed to run on a bespoke platform will almost certainly include common libraries and protocols in which vulnerabilities may be found. Vulnerable systems that are not publicly exposed can still be identified by threat actors who gain access to internal networks and pose a tempting target. Defending by predictability Applying the approved patch remains the best option. If this is not possible, we can use the inherent predictability of OT systems to protect them. Visibility first: You cannot protect what you cannot see. The characteristics of the network fingerprint presented by legacy systems allows them to be easily identified to build an inventory of systems requiring attention. Micro-segmentation: Network architecture is an effective first line of defense. Frequently, OT only ever connects to a small number of systems. By using virtual local area networks (VLANs) coupled with access control lists (ACLs), we can place vulnerable systems on private networks where only authorized devices are permitted to connect to them. By shutting them off from the rest of the network, we make it incrementally more difficult for attackers to identify them and launch their attacks. NGFW and IPS: Placing a next-generation firewall (NGFW) upstream allows for granular filtering. When equipped with an up-to-date intrusion prevention system (IPS), the firewall can inspect traffic to filter out any attempts at exploitation before it impacts the device. When coupled with network segmentation, we can ensure that not only are trusted systems solely communicating with the vulnerable system, but that the traffic is free from known malicious content. The myth of the air gap In theory, it is possible to create an air-gapped system that is completely disconnected from wider systems,
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Securing the unpatchable in an age of AI-driven vulnerabilities
-  - Published: 2026-09-16T10:00:36+00:00
-  - Link: https://blog.talosintelligence.com/securing-the-unpatchable-in-an-age-of-ai-driven-vulnerabilities/
-  - Summary: Advances in AI technology will continue to identify vulnerabilities that in some circumstances are difficult, or effectively impossible, to patch. Appropriate network segmentation, rigorous visibility, and the deployment of NGFW/IPS combinations can provide a powerful compensatory layer.
 
 ### Cluster 3e81320fe3 — score 10
 
@@ -2948,6 +2639,266 @@ Proactive Threat Intelligence: Getting Ahead of the Next Major Breach An alert m
   - Link: https://www.recordedfuture.com/blog/proactive-threat-intelligence
   - Summary: Move from reactive defense to a proactive security mindset. Learn how proactive threat intelligence identifies and neutralizes threats.
 
+### Cluster 897b6c1468 — score 10
+
+- Title: HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-09-18T06:05:26+00:00
+- Link: https://isc.sans.edu/diary/rss/33352
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+In June 2026 the IETF published RFC 10008[ 1 ], defining a new HTTP method: "QUERY". The HTTP protocol faced already by changes (HTTP/2, HTTP/2) but it's the first new standard HTTP verb since "PATCH" in 2010!
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)
+  - Published: 2026-09-18T06:05:26+00:00
+  - Link: https://isc.sans.edu/diary/rss/33352
+  - Summary: In June 2026 the IETF published RFC 10008[ 1 ], defining a new HTTP method: "QUERY". The HTTP protocol faced already by changes (HTTP/2, HTTP/2) but it's the first new standard HTTP verb since "PATCH" in 2010!
+
+### Cluster 4177169ade — score 10
+
+- Title: 14th September – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-09-14T12:22:06+00:00
+- Link: https://research.checkpoint.com/2026/14th-september-threat-intelligence-report/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, data_breach
+- actor_attribution: ShinyHunters
+- affected_industries: education, financial_services, government
+- affected_products: Anthropic/Claude, GitLab, OpenAI/ChatGPT
+- cve_ids: CVE-2026-67276, CVE-2026-72898, CVE-2026-81963, CVE-2026-85706, CVE-2026-85880
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: data_breach, active_exploitation
+- actor_attribution: ShinyHunters
+- affected_industries: financial_services, government, education
+- affected_products: GitLab, Anthropic/Claude, OpenAI/ChatGPT
+- cve_ids: CVE-2026-72898, CVE-2026-85880, CVE-2026-81963, CVE-2026-85706, CVE-2026-67276
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+For the latest discoveries in cyber research for the week of 14th Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES IDScan.net, a US identity verification provider, has disclosed a data breach after detecting unauthorized access on September 1. Exposed data included names and government identification numbers, while a criminal marketplace advertised a […] The post 14th September – Threat Intelligence Report appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 14th September – Threat Intelligence Report September 14, 2026 https://research.checkpoint.com/2026/14th-september-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 14th Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES IDScan.net, a US identity verification provider, has disclosed a data breach after detecting unauthorized access on September 1. Exposed data included names and government identification numbers, while a criminal marketplace advertised a collection containing millions of identity documents, including driver’s licenses, associated with the company’s verification services. Mathspace, an education platform used in Australia and New Zealand, has suffered a data breach affecting more than 1 million people. The attackers exploited CVE-2026-72898 in self-hosted tool Metabase to access an internal reporting database. Exposed information included names, email addresses, usernames, and locations, while passwords and academic records were not affected. Check Point IPS provides protection against this threat (Metabase SQL Injection (CVE-2026-72898)) Fintech company Revolut has reported a data exposure after employees fulfilled fraudulent information requests sent from an email account within a government agency’s legitimate domain. Exposed records included identity documents, verification selfies, contact details, IBANs, account statements, withdrawal records, and complete transaction histories. Florida’s state Department of Motor Vehicles fell victim to a data breach after criminals used credentials stolen from a Plant City police officer’s personal device. The credentials enabled access to driver records, and the ShinyHunters group published images of stolen data. AI THREATS Check Point Research has detailed PuzzleMask, a plain-prose prompt technique that hides prohibited instructions from lightweight LLM gatekeepers while allowing stronger target models to recover them. In testing, gatekeepers classified the prompts as safe, while target models extracted and acted on concealed payloads in more than 90 percent of trials. Check Point Research has demonstrated a covert cross-account channel in ChatGPT’s code-execution environment that allowed hidden tasks to run using a victim’s available tools, data, and connected applications. A proof of concept used a shared conversation to retrieve Gmail data from one account and relay the results to another. Anthropic has disclosed four incidents in which Claude models operated on the real internet because of configuration failures instead of remaining within intended sandboxes. In the most serious case, a model published a malicious PyPI package that was executed by systems, exposing credentials and enabling access to a database. VULNERABILITIES AND PATCHES Microsoft has released its September 2026 Patch Tuesday updates, addressing a record 974 vulnerabilities across its products, including two actively exploited zero-days. CVE-2026-85880 and CVE-2026-81963 both allow local attackers to elevate privileges to SYSTEM, while 20 additional flaws could enable unauthenticated remote code execution without user interaction. Check Point IPS provides protection against this threat (Microsoft Windows Update Stack Elevation of Privilege (CVE-2026-81963)) GitLab has addressed CVE-2026-85706, a critical path traversal vulnerability affecting Community and Enterprise Editions, with a CVSS score of 10.0. The flaw allows unauthenticated attackers to read arbitrary files through the repository commits API. Affected versions include 18.7 through 19.3.1, with fixes available in 19.1.8, 19.2.6, and 19.3.2. Check Point IPS provides protection against this threat (GitLab Arbitrary File Read (CVE-2026-85706)) MikroTik has fixed CVE-2026-67276 and CVE-2026-86060, RouterOS vulnerabilities that can be chained to obtain passwordless SSH access and elevate privileges t
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: 14th September – Threat Intelligence Report
+  - Published: 2026-09-14T12:22:06+00:00
+  - Link: https://research.checkpoint.com/2026/14th-september-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 14th Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES IDScan.net, a US identity verification provider, has disclosed a data breach after detecting unauthorized access on September 1. Exposed data included names and government identification numbers, while a criminal marketplace advertised a […] The post 14th September – Threat Intelligence Report appeared first on Check Point Research .
+
+### Cluster b14566fc43 — score 10
+
+- Title: Ransomware incidents in Japan in the first half of 2026: Investigation of The Gentlemen’s infrastructure and evidence of Qilin's AI use
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-09-17T10:00:43+00:00
+- Link: https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- actor_attribution: LockBit
+- affected_industries: manufacturing_industrial
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- actor_attribution: LockBit
+- affected_industries: manufacturing_industrial
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs with capital under JPY 1 billion represented 80% of victims.
+```
+
+#### Full body
+
+```
+Ransomware incidents in Japan in the first half of 2026: Investigation of The Gentlemen’s infrastructure and evidence of Qilin's AI use By Takahiro Takeda , Jordyn Dunk , Michael Szeliga Thursday, September 17, 2026 06:00 ransomware Threat Spotlight Compared with the same period last year, ransomware incidents in Japan increased slightly by approximately 4.7%, indicating that ransomware continues to pose a significant threat. In Japan, The Gentlemen was the most active ransomware group in the first half of 2026. Attackers continue to primarily target small- and medium-sized enterprises, with organizations capitalized at less than JPY 1 billion accounting for approximately 80% of the total — an increase of around 13% from the previous year. The total number of listings on The Gentlemen’s leak site increased from 48 in January to 105 in July, representing approximately a 2.2-fold increase in activity. Additionally, there is a possibility that Russian-speaking individuals are involved in The Gentlemen’s attacks. Qilin, which recorded the second-highest number of observed incidents in 2026 after The Gentlemen, is leveraging AI to improve the efficiency of its operations. Victimized companies Figure 1 summarizes ransomware incidents affecting Japanese companies from January to July 2026. According to Cisco Talos research, 90 organizations in Japan were affected by ransomware during this period. Compared with 86 incidents during the same period from January to July last year, this represents a slight increase of approximately 4.7%, indicating that ransomware incidents continue to remain at a high level. On a monthly basis, there were approximately 13 incidents per month on average. The number of incidents increased in March and April, with April recording the highest number during the period at 19 incidents. Cases involving overseas offices and subsidiaries accounted for 13.3% of the total. Among these, Taiwan recorded the highest number of incidents, followed by the United States and the Philippines, which recorded the same number of incidents, with multiple cases identified in each country. Figure 1. Ransomware incidents in Japan during the first half of 2026 (January through July). The manufacturing sector continued to be the most affected industry, accounting for 34% of incidents, followed by the information and communications sector at 11% and the services sector at 9% (see Figure 2). Figure 2. Percentage of victim organizations by industry. In terms of the size of the affected organizations, those with capital of less than JPY 100 million accounted for the largest share at 48%, followed by organizations with capital of JPY 100 million to less than JPY 1 billion at 30%. Combined, organizations with capital of less than JPY 1 billion accounted for 78% of the total, representing an increase of around 13% from 69% in 2025. This suggests that attackers are increasingly focusing their efforts on small- and medium-sized enterprises (see Figure 3). Figure 3. Classification of victim organizations by capital size (excluding unknown). Most frequently observed ransomware types in Japan In Japan, the most frequently observed ransomware group in the first half of 2026 was The Gentlemen, with 14 incidents. This was followed by Qilin, which caused the highest number of incidents last year, and SafePay, which had relatively few confirmed incidents during the same period last year, with seven incidents each. The Gentlemen and SafePay have increased their activity this year and can be considered emerging ransomware groups that require increased vigilance. Other ransomware groups observed include NightSpire, NetRunner, LockBit 5.0, RansomEXX, Stormous, and AiLock. Looking at the ransomware groups observed this year, very few of the groups that were active during the same period last year have been observed, highlighting the rapid changes in the ransomware threat landscape. Figure 4. Number of incidents by ransomware type used in attacks (exclude
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Ransomware incidents in Japan in the first half of 2026: Investigation of The Gentlemen’s infrastructure and evidence of Qilin's AI use
+  - Published: 2026-09-17T10:00:43+00:00
+  - Link: https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/
+  - Summary: Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs with capital under JPY 1 billion represented 80% of victims.
+
+### Cluster ef7016e41f — score 10
+
+- Title: Securing the unpatchable in an age of AI-driven vulnerabilities
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-09-16T10:00:36+00:00
+- Link: https://blog.talosintelligence.com/securing-the-unpatchable-in-an-age-of-ai-driven-vulnerabilities/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: government, healthcare, manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: healthcare, government, manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Advances in AI technology will continue to identify vulnerabilities that in some circumstances are difficult, or effectively impossible, to patch. Appropriate network segmentation, rigorous visibility, and the deployment of NGFW/IPS combinations can provide a powerful compensatory layer.
+```
+
+#### Full body
+
+```
+Securing the unpatchable in an age of AI-driven vulnerabilities By Martin Lee Wednesday, September 16, 2026 06:00 On The Radar AI is accelerating vulnerability discovery, leaving unpatchable operational technology (OT) systems at risk. Hoping for the best is not a viable anti-exploitation strategy. Deploying next-generation firewalls directly upstream allows for virtual patching through deep packet inspection. These systems scan incoming traffic to detect and block exploit attempts before they can impact the vulnerable device. The predictability of legitimate network connections to OT systems can be used to protect systems through micro-segmentation. This ensures that only a handful of authorized devices can communicate with the system, minimizing the attack surface. AI-assisted code analysis is uncovering decades of technical debt. Every new patch removes a newly identified coding mistake. Little by little, we are improving the state of software engineering, but the price is a cadence of patching that organizations may struggle to implement. These efforts leave unsupported systems, or systems that are not able to be patched for whatever reason, with unmitigated known vulnerabilities. How can such systems be secured in a world where AI is steadily improving its ability to identify new vulnerabilities? Operational technology (OT) systems provide the services that support modern life (e.g., medical equipment, building management systems, and industrial critical systems within chemical plants). Often the systems are certified to operate only with a defined set of software that cannot easily be altered, or operate using systems that are no longer supported. In either case, if a vulnerability is discovered that affects the system, there is no easy way for it to be patched. Ignoring the problem and hoping for the best is rarely an effective strategy. The U.K.’s NHS health system was significantly affected by the WannaCry worm in 2017, with a significant minority of systems running the end-of-life operating system Windows XP contributing to the problem. More recently, exploitation of end-of-life software was used to gain access to governmental systems in 2023. Even systems that are believed to run on a bespoke platform will almost certainly include common libraries and protocols in which vulnerabilities may be found. Vulnerable systems that are not publicly exposed can still be identified by threat actors who gain access to internal networks and pose a tempting target. Defending by predictability Applying the approved patch remains the best option. If this is not possible, we can use the inherent predictability of OT systems to protect them. Visibility first: You cannot protect what you cannot see. The characteristics of the network fingerprint presented by legacy systems allows them to be easily identified to build an inventory of systems requiring attention. Micro-segmentation: Network architecture is an effective first line of defense. Frequently, OT only ever connects to a small number of systems. By using virtual local area networks (VLANs) coupled with access control lists (ACLs), we can place vulnerable systems on private networks where only authorized devices are permitted to connect to them. By shutting them off from the rest of the network, we make it incrementally more difficult for attackers to identify them and launch their attacks. NGFW and IPS: Placing a next-generation firewall (NGFW) upstream allows for granular filtering. When equipped with an up-to-date intrusion prevention system (IPS), the firewall can inspect traffic to filter out any attempts at exploitation before it impacts the device. When coupled with network segmentation, we can ensure that not only are trusted systems solely communicating with the vulnerable system, but that the traffic is free from known malicious content. The myth of the air gap In theory, it is possible to create an air-gapped system that is completely disconnected from wider systems,
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Securing the unpatchable in an age of AI-driven vulnerabilities
+  - Published: 2026-09-16T10:00:36+00:00
+  - Link: https://blog.talosintelligence.com/securing-the-unpatchable-in-an-age-of-ai-driven-vulnerabilities/
+  - Summary: Advances in AI technology will continue to identify vulnerabilities that in some circumstances are difficult, or effectively impossible, to patch. Appropriate network segmentation, rigorous visibility, and the deployment of NGFW/IPS combinations can provide a powerful compensatory layer.
+
+### Cluster 5f75cd0900 — score 10
+
+- Title: Beware the SparroWock: The backdoor that bites, the commands that catch
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-09-17T08:50:00+00:00
+- Link: https://www.welivesecurity.com/en/eset-research/beware-sparrowock-backdoor-bites-commands-catch/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, web_shell_backdoor
+- actor_attribution: Salt Typhoon
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage, web_shell_backdoor
+- actor_attribution: Salt Typhoon
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+ESET researchers document SparroWocky, the new flagship backdoor of the FamousSparrow APT group
+```
+
+#### Full body
+
+```
+ESET Research Beware the SparroWock: The backdoor that bites, the commands that catch ESET researchers document SparroWocky, the new flagship backdoor of the FamousSparrow APT group Alexandre Côté Cyr Romain Dumont 17 Sep 2026 • , 27 min. read ESET Research’s ongoing monitoring of FamousSparrow has borne fruit once again. Our previous public report on FamousSparrow revealed that this China-aligned APT group had developed two new versions of its custom backdoor named SparrowDoor. This time, we discovered that FamousSparrow has switched to a new backdoor, SparroWocky, and has been deploying it to several countries in Latin America since at least August 2025. In what was probably China’s reaction to the US showing increased interest in Latin America, FamousSparrow increased its targeting of the region to almost exclusively targeting it in July 2025. A month later, we noticed that the group had started using the new SparroWocky backdoor, which then quickly replaced SparrowDoor as FamousSparrow’s main implant. SparroWocky is a modular, C++ backdoor. Its architecture and the techniques used by its authors indicate strong knowledge of anti-analysis tricks and Windows internals. We chose to name the backdoor SparroWocky because the first samples we collected all contain the first stanza of Jabberwocky , a nonsense poem by Lewis Carroll. Fortunately, while advanced, SparroWocky’s inner workings are much less arcane than a gyre and gimble in the wabe , so a through and through [of] the vorpal blade allowed us to bring you a detailed analysis of the backdoor. Key points of the blogpost: FamousSparrow is extensively targeting governmental organizations in Latin America. Since August 2025, the group appears to be abandoning SparrowDoor in favor of SparroWocky, a new custom C++ backdoor. With the switch to SparroWocky, FamousSparrow started to incorporate code from open-source projects directly into its malware. SparroWocky is a full-featured backdoor that manipulates low-level structures in memory, and patches code at runtime in order to avoid detection. SparroWocky has the capability to load and execute Beacon Object Files, a special type of executable file supported by many red-teaming and penetration-testing tools. FamousSparrow is a China-aligned cyberespionage group believed to have been active since at least 2019. We first publicly documented the group in a blogpost from September 2021 when we observed it exploiting the ProxyLogon vulnerability. The group was initially known for targeting hotels around the world but has also targeted governments, international organizations, trade groups, engineering companies, and law firms. FamousSparrow is the only known user of the SparrowDoor backdoor. We analyzed two versions of SparrowDoor in a 2025 blogpost , in which we also discussed the attribution claims around the group. As mentioned by Trend Micro , FamousSparrow is linked to Earth Estries; however, the exact nature of the link is not fully known. FamousSparrow has also been publicly linked to Salt Typhoon , but, due to the absence of any technical indicators, we track them as separate. Based on our investigation, we attribute the latest campaign and the SparroWocky backdoor to FamousSparrow with high confidence, since in some of the first attacks involving this backdoor, SparroWocky was deployed by the FamousSparrow-exclusive SparrowDoor. Moreover, not only does the victimology match FamousSparrow’s previous targeting, we have also recorded attempts to deploy SparroWocky at many of the same organizations that had previously been targeted with SparrowDoor. Latin America in the crosshairs As previously mentioned, FamousSparrow currently appears to be focused on high-profile targets in Latin America. This trend started at the latest in July 2025 and has continued with the introduction of SparroWocky. In fact, from mid-2025 and into 2026, 90% of the group’s targets registered in our telemetry have been located in the region. As depicted in
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: Beware the SparroWock: The backdoor that bites, the commands that catch
+  - Published: 2026-09-17T08:50:00+00:00
+  - Link: https://www.welivesecurity.com/en/eset-research/beware-sparrowock-backdoor-bites-commands-catch/
+  - Summary: ESET researchers document SparroWocky, the new flagship backdoor of the FamousSparrow APT group
+
+### Cluster aca47e784c — score 10
+
+- Title: Cyberthreats are moving faster than SMBs: Readiness must accelerate
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-09-16T09:00:00+00:00
+- Link: https://www.welivesecurity.com/en/business-security/cyberthreats-moving-faster-smbs-readiness-must-accelerate/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security, phishing_social_eng
+- affected_industries: financial_services, government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, ai_security
+- affected_industries: financial_services, government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+As AI adoption expands the attack surface and adds to the security workload, businesses need automation backed by experts
+```
+
+#### Full body
+
+```
+Business Security Cyberthreats are moving faster than SMBs: Readiness must accelerate As AI adoption expands the attack surface and adds to the security workload, businesses need automation backed by experts Phil Muncaster 16 Sep 2026 • , 8 min. read The cyberthreat landscape has been evolving for years. But there’s a sense today that things are escalating more rapidly than before. That’s largely the result of AI. The technology is not only arming threat actors with the means to launch more sophisticated attacks at greater speed and scale than before. It is also providing them with a larger attack surface to aim at, as businesses rush to adopt the technology. In many cases, that adoption is outpacing the vital governance efforts needed to securely manage and contain it. Against this backdrop, SMB business and IT leaders understand the importance of effective cybersecurity. They want to be protected, operational, and resilient. But they don’t have an infinite budget to spend. They want security that’s simple to understand, adopt and operate. This calls for a different operational model where AI and automation support security teams where it makes sense, with human oversight for decisions that require context and judgment. Finding the right balance, and the right partner will be key to driving readiness and resilience. AI is changing the threat landscape AI is changing the game in impressive ways. Executives are wowed by the potential for productivity and process efficiency gains. By the prospect of transforming customer experience, accelerating business decision making, and breaking into new markets. ESET SMB Cyber Readiness Index 2026 found that most (73%) SMBs are integrating AI into their business. Yet where there’s opportunity, there’s also risk – and most businesses acknowledge that. As AI becomes a growing part of business operations, it also becomes part of the attack surface. It could be a customer service chatbot, a coding assistant deployed by DevOps, or a fleet of agents used by the finance team for repetitive bookkeeping tasks. Wherever AI has access to sensitive data and/or systems, excessive permissions, and the ability to make decisions and take actions, it represents a potential security risk. These risks tend to proliferate in the darkness. According to the report above, 40% of all businesses lack a proper AI policy. Source: ESET SMB Cyber Readiness Index 2026 Accidental data leakage or rogue AI agents are one thing. But there’s arguably an even greater threat from malicious third parties. AI skills repositories are a growing area of risk. Skills work like browser plugins, but for AI agents. But a growing number are designed to steal data, abuse permissions, download malware, or perform unintended actions. ESET analyzed 900,000 such skills across several popular repositories between March and May 2026. It discovered over 25,000 that were suspicious, and more than 3,000 tagged as malicious. Some exfiltrated data and executed malware. Others manipulated sensitive systems, overrode instructions through prompt injection, and changed agent behavior. Unfortunately, skills are just the tip of the iceberg. Users can encounter malicious links via chatbots, leading them to phishing sites and malware installs. Or they may find attackers have poisoned download sources and other components that AI agents interact with, leading to hijacking, fraud, malware and other threats. Prompt injection is another threat – one recently branded the most dangerous of all LLM threats by OWASP. Attackers manipulate AI either by feeding malicious instructions (prompts) directly or hiding them in content that the AI will later retrieve or read. It makes every piece of content a potential attack vector. AI turns up the heat AI is not just a target for attack. It’s a powerful tool for threat actors to wield in attacks. As British government security experts warned back in March 2025 , the technology “will almost certainly continue to make eleme
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: Cyberthreats are moving faster than SMBs: Readiness must accelerate
+  - Published: 2026-09-16T09:00:00+00:00
+  - Link: https://www.welivesecurity.com/en/business-security/cyberthreats-moving-faster-smbs-readiness-must-accelerate/
+  - Summary: As AI adoption expands the attack surface and adds to the security workload, businesses need automation backed by experts
+
 ### Cluster 63b4630409 — score 10
 
 - Title: CTEM Buyer’s Guide: How to Evaluate the Technologies That Turn Continuous Threat Exposure Management Into an Operating Model
@@ -3107,6 +3058,55 @@ Managed Detection and Response (MDR) Rapid7 Named Among Notable Vendors in Forre
   - Published: 2026-09-14T14:51:07+00:00
   - Link: https://www.rapid7.com/blog/post/dr-forrester-mdr-landscape-notable-vendor-preemptive
   - Summary: The managed detection and response (MDR) market has reached a turning point. We’ve gone beyond the baseline of 24/7 monitoring focusing on the speed of detection and moved to a world with a convergence of exposure management and response to deliver measurable, outcome-based defenses of a larger, AI-driven attack surface. For anyone evaluating MDR right now, the Managed Detection and Response Services Landscape, Q3 2026 report by Forrester is a useful map that lays out where the market is heading. This is a market that has moved beyond "do you cover my telemetry?" to “Can a provider connect and prove that its activity is tied to real reduction in risk?”. Rapid7 was named among the notable providers in this Forrester MDR Landscape. Being included matters to us, but the more interesting story is in what Forrester says about the market itself. Detection and exposure are becoming one service One of the report's clearest signals is directional: Forrester writes that "MDR services will conver
+
+### Cluster ab440398cd — score 10
+
+- Title: What’s new with Google Cloud
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-09-18T16:00:00+00:00
+- Link: https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 2
+- Strong signals: Google Cloud
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft
+- affected_industries: government, retail_ecommerce
+- affected_products: Google Cloud, Google/Gemini
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- affected_industries: government, retail_ecommerce
+- affected_products: Google/Gemini, Google Cloud
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Sept 14 - Sept 18 Storage Intelligence Advisor for Google Cloud Storage is now GA Google Cloud Storage customers can now manage cloud storage more effectively with Storage Intelligence Advisor , delivering curated metrics, automated anomaly detection, and actionable recommendations right out of the box, with zero setup required. Advisor baselines activity across your projects and automatically detects four key anomalies: surges in operations, unexpected rises in cross-region egress, and spikes in errors. Each finding includes deep drill-down visibility into the resources driving the change, alongside prescriptive s
+```
+
+#### Full body
+
+```
+Inside Google Cloud What’s new with Google Cloud September 18, 2026 Google Cloud Content & Editorial Try Gemini Enterprise today The front door to AI in the workplace Try now Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . Sept 14 - Sept 18 Storage Intelligence Advisor for Google Cloud Storage is now GA Google Cloud Storage customers can now manage cloud storage more effectively with Storage Intelligence Advisor , delivering curated metrics, automated anomaly detection, and actionable recommendations right out of the box, with zero setup required. Advisor baselines activity across your projects and automatically detects four key anomalies: surges in operations, unexpected rises in cross-region egress, and spikes in errors. Each finding includes deep drill-down visibility into the resources driving the change, alongside prescriptive steps to remediate issues before they impact performance or cost. Learn more to get started with Storage Intelligence Advisor . Build private WebSockets from Apigee X to Cloud Run Real-time AI agents and streaming architectures often require persistent, bidirectional connections. A new implementation guide by Apigee Customer Engineer Joel Gauci demonstrates how to establish private southbound connectivity between Apigee X and Cloud Run. Using Private Service Connect (PSC) and a Regional Internal Application Load Balancer, teams can enforce API governance and security policies at the edge while keeping backend services completely isolated from the public internet. Explore the step-by-step guide and open-source code Connecting Gemini Enterprise Agent Runtime to Apigee with Private Service Connect Deploying autonomous AI agents often presents security, compliance, and cost challenges. A new reference guide details how to build an end-to-end, private architecture between Gemini Enterprise Agent Runtime and Apigee. This design helps protect internal backends and manage token quotas. Read the full community guide and deploy the code Discover what’s new and next in Apigee As enterprise architectures adapt to generative AI and autonomous workflows, Apigee is expanding its proven platform capabilities to support modern AI gateway use cases alongside traditional API management. Join our session on Thursday, September 24, featuring Apigee Product Manager Geir Sjurseth. Get an inside look at recent product releases, explore architectural patterns for securing models and agents, and bring your questions for the live Q&A. Register for the September 24 Apigee product update Managed Service for Apache Kafka supports clusters with public Internet access! With Managed Kafka public clusters , you can now produce and consume messages from clients outside your VPC—including your local machine, for faster, frictionless testing. Public clusters unlock use cases like IoT devices, retail storefronts, and telco network towers. Enable public access on new or existing clusters via the Google Cloud console, gcloud CLI, or REST API. Spin up your first public cluster , or reach out to kafka-hotline@google.com with questions. Stream data directly into Bigtable using Bigtable subscriptions, now in Preview! You can write Pub/Sub messages to a Bigtable table with zero ETL with Bigtable subscriptions . No pipelines, no code, delivered by the serverless, zero-ops experience you already know with Pub/Sub. Power your AI workloads, from model telemetry to real-time context engineering, without the overhead of managing complicated ETL pipelines. Built to be dependable, with native support for dead-letter topics. Try the feature today ! Sept 7 - Sept 10 Why Your Voice Agent Needs Session Auditing Moving voice agents to production demands robust
+```
+
+#### Corroborating sources (2)
+
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: What’s new with Google Cloud
+  - Published: 2026-09-18T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
+  - Summary: Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Sept 14 - Sept 18 Storage Intelligence Advisor for Google Cloud Storage is now GA Google Cloud Storage customers can now manage cloud storage more effectively with Storage Intelligence Advisor , delivering curated metrics, automated anomaly detection, and actionable recommendations right out of the box, with zero setup required. Advisor baselines activity across your projects and automatically detects four key anomalies: surges in operations, unexpected rises in cross-region egress, and spikes in errors. Each finding includes deep drill-down visibility into the resources driving the change, alongside prescriptive s
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: CISO's Expert Guide to Agentic Pentesting for Websites
+  - Published: 2026-09-17T10:50:53+00:00
+  - Link: https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html
+  - Summary: Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud). The median organization takes 43 days to patch one (Verizon DBIR 2026). A new free guide explains how autonomous AI agents are closing that gap, and what security leaders must demand before pointing one at production. TL;DR Exploitation is now the front door. It starts 31% of breaches (Verizon DBIR
 
 ### Cluster 2f0547b4d4 — score 9
 
@@ -3303,45 +3303,6 @@ Today, Apple released its annual update across all its operating systems. With t
   - Link: https://isc.sans.edu/diary/rss/33336
   - Summary: Today, Apple released its annual update across all its operating systems. With that, Apple not only released new features but also patched 261 different vulnerabilities. This is the most vulnerabilities Apple has ever patched, but the increase is not as significant as other vendors&#;x26;#;39; "post-AI" patch releases.
 
-### Cluster ffb6c790f6 — score 9
-
-- Title: Changing the game: Using agentic AI to secure infrastructure code
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-09-18T16:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/systems/using-ai-agents-to-secure-google-infrastructure/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-AI is accelerating software development at an unprecedented pace. But as code generation scales, so do the challenges of securing the code, especially emerging AI-based vulnerability exploitations. To meet these challenges, the Google AI and Infrastructure team is transforming how we approach security. In this article, we discuss new AI-native agentic methods that we’ve developed that systematically embed high-precision, pervasive vulnerability scanning and patching directly into Google’s software development lifecycle. By continuously scanning every code change across hundreds of millions of lines of code that we deploy onto our infrastructure, we are preventing hundreds of vulnerabilities per month from ever reaching our code base or production, defending our global network, AI infrastructure and our users. Solution architecture and implementation Pervasive pre-submit agentic scanning: security as part of ongoing software development Traditionally, the technology industry relies on l
-```
-
-#### Full body
-
-```
-Systems Changing the game: Using agentic AI to secure infrastructure code September 18, 2026 Andrés Lagar-Cavilla Distinguished Engineer, Google Parthasarathy Ranganathan VP, Engineering Fellow Try Gemini Enterprise today The front door to AI in the workplace Try now AI is accelerating software development at an unprecedented pace. But as code generation scales, so do the challenges of securing the code, especially emerging AI-based vulnerability exploitations. To meet these challenges, the Google AI and Infrastructure team is transforming how we approach security. In this article, we discuss new AI-native agentic methods that we’ve developed that systematically embed high-precision, pervasive vulnerability scanning and patching directly into Google’s software development lifecycle. By continuously scanning every code change across hundreds of millions of lines of code that we deploy onto our infrastructure, we are preventing hundreds of vulnerabilities per month from ever reaching our code base or production, defending our global network, AI infrastructure and our users. Solution architecture and implementation Pervasive pre-submit agentic scanning: security as part of ongoing software development Traditionally, the technology industry relies on large one-off security scans that are slow and lack sufficient context. As a result, they often find vulnerabilities too late. Our approach instead focuses on pre-submit scanning, where we evaluate each code check-in (across every layer of the stack) in real-time using AI agents. By integrating the pre-submit scan into the tools developers already use, security becomes a continuous routine process, similar to rule checkers, readability reviews or other software development tools. Also, from an AI perspective, scanning each individual code change requires much less context than performing a large one-off scan, significantly improving the scan’s effectiveness. The importance of localized threat models For this initiative, w e evolved Mantis , our open-source multi-agent review harness, to increase the precision of our security agents by matching them with a cohort of robust localized threat mode ls. Rather than relying on static decoupled documents, the threat models use live codebase metadata. The scanning agent improves its accuracy further using a dependence call graph across packages and libraries to expand and refine its threat model context. Making threat models part of our ongoing vulnerability scanning encourages developers to continuously update threats and dependencies, keeping the models up-to-date. Using localized and precise threat model data translates to dramatic accuracy improvements, bringing our false-positive rates down to 3% in some cases. Specialized triage agents speed up development Vulnerability scanning as part of code check-in requires it to respond quickly to the developer or agents generating the code, so as not to impede engineering productivity. To get responses with low latency, we run a two-step validation process. First, we run a quick lightweight scan that validates its findings against a specialized triage agent. This agent programmatically checks the actual structure of the code (using abstract syntax tree parsing, call-graph traversal, and pre-indexed domain safety rules) to prove that the vulnerable path is actually reachable by an attacker. This agent gets over 92% precision and completes its work in less than a minute. Then, a post-submit scan as part of nightly integration testing serves as a second layer of defense, using off-peak cycles to test for vulnerabilities that may have been introduced across multiple changes. Bug fix agents close the loop Finding vulnerabilities is only half the battle. The last component of our solution is an automated bug-fix agent that uses the scan results and generated proofs (snippet of code that demonstrates how the vulnerability is exercised) to autonomously construct precise fixes that are consistent with our
-```
-
-#### Corroborating sources (1)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Changing the game: Using agentic AI to secure infrastructure code
-  - Published: 2026-09-18T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/systems/using-ai-agents-to-secure-google-infrastructure/
-  - Summary: AI is accelerating software development at an unprecedented pace. But as code generation scales, so do the challenges of securing the code, especially emerging AI-based vulnerability exploitations. To meet these challenges, the Google AI and Infrastructure team is transforming how we approach security. In this article, we discuss new AI-native agentic methods that we’ve developed that systematically embed high-precision, pervasive vulnerability scanning and patching directly into Google’s software development lifecycle. By continuously scanning every code change across hundreds of millions of lines of code that we deploy onto our infrastructure, we are preventing hundreds of vulnerabilities per month from ever reaching our code base or production, defending our global network, AI infrastructure and our users. Solution architecture and implementation Pervasive pre-submit agentic scanning: security as part of ongoing software development Traditionally, the technology industry relies on l
-
 ### Cluster 54dcd1e9f9 — score 9
 
 - Title: 23 Million User Records Compromised in Gyazo Data Breach
@@ -3479,16 +3440,22 @@ S2 Research Team 3 min read November 5, 2024 Team Cymru Supports INTERPOL‚Äô
 - Source: Team Cymru (ransomware_ecrime_financial_crime)
 - Published: 2026-09-18T16:59:38+00:00
 - Link: https://www.team-cymru.com/post/iranian-exploitation-activities-continue-as-of-november-2022
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- affected_industries: critical_infrastructure, government
+- urgency_signals: no_patch_yet
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- affected_industries: government, critical_infrastructure
+- urgency_signals: no_patch_yet
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3496,6 +3463,12 @@ S2 Research Team 3 min read November 5, 2024 Team Cymru Supports INTERPOL‚Äô
 
 ```
 Stay informed on the latest cybersecurity threats with Team Cymru's ongoing tracking of Iranian exploitation activities. Discover the latest insights and telemetry data on this ongoing threat and how organizations can better defend against it.
+```
+
+#### Full body
+
+```
+S2 Research Team 3 min read December 9, 2022 Iranian Exploitation Activities Continue as of November 2022 Telemetry Data Suggests 107.173.231.114 Remains an Active IOC Introduction This blog provides a short update on Team Cymru‚Äôs ongoing tracking of threat actor groups associated with Iran. PHOSPHORUS is an Iranian threat group known to target organizations in energy, government, and technology sectors based in Europe, the Middle East, the United States, and other countries/regions. In recent reporting, PHOSPHORUS TTPs have included the likely opportunistic targeting of unpatched vulnerable systems, leveraging common exploits such as Log4J and ProxyShell. Reports published in 2022 (for instance by the DFIR Report and Deep Instinct ) have highlighted the long-term utilization of a common command and control (C2) server ( 107.173.231.114 ‚Äì ColoCrossing, US ), believed to be associated with PHOSPHORUS activities. Passive DNS information historically associated 107.173.231.114 with several similarly structured domain names, for example: kcp53.mssync[.]one tcp443.mssync[.]one tcp443.symantecserver[.]co tcp.newdesk[.]top kcp53.newdesk[.]top work.newdesk[.]top tcp443.newdesk[.]top tcp443.aptmirror[.]eu kcp53.aptmirror[.]eu tcp443.msupdate[.]us kcp53.msupdate[.]us Reporting by Secureworks suggested that PHOSPHORUS domains from this attack cluster were, in general, registered with Porkbun, and that some of the domains were also associated with opportunistic ransomware attacks. However, between 30 June 2022 and 06 July 2022, the domains aptmirror[.]eu , msupdate[.]us , and newdesk[.]top (mentioned above) were re-registered with NameSilo. The domains were previously registered with Porkbun. Recent observations relating to 107.173.231.114 On 14 September 2022 a joint Cybersecurity Advisory Alert (AA22-257A) was released highlighting these domains and 107.173.231.114 within the report‚Äôs IOC section. Figure 1 ‚Äì CISA Alert ‚Äç Having noticed the CISA alert, we conducted a review of recent network telemetry data for 107.173.231.114 , revealing that exploitation activity involving this IP likely continues. Communications were observed between a South Asian victim and ports TCP/443 and UDP/53 of 107.173.231.114. We assess this was likely an opportunistic compromise, based on the presence of an outdated/unpatched version of Microsoft Exchange running on the victim IP. The activity likely indicates the malware in use relies on a hardcoded IP address vice domain resolution for ongoing C2 communications. The use of binaries with hardcoded IP addresses is a known TTP of the threat actor and was described in the previously mentioned Secureworks report. Secondly, the victim also communicated over the same ports (TCP/443 and UDP/53) with an IP address assigned to Kaspersky. It is possible these connections equate to behavior observed in previous PHOSPHORUS samples, whereby the malware would seek to communicate with legitimate Kaspersky domains. Connections to domains such as kcp53.kaspersky[.]com and tcp443.kaspersky[.]com are potentially a means of masking malicious communications with similarly constructed domains (see the PDNS data for 107.173.231.114 above). Reporting by Deep Instinct, referenced earlier, included these Kaspersky domains and attributed PHOSPHORUS malware with generating many connections to legitimate companies along with connections to attacker-controlled domains to confuse a network defender into categorizing the traffic as authentic traffic. It is worth noting that the Kaspersky IP hosted both kcp53.kaspersky[.]com and tcp443.kaspersky[.]com , as well as other domains, at the time these connections were observed. Thirdly, the victim also communicated with TCP/443 of an IP address assigned to Cloudflare. At the time of these connections, the Cloudflare IP hosted numerous domains including api.myip[.]com . As noted in the previously referenced DFIR Report research, PHOSPHORUS malware was observed resolving the domain api.m
 ```
 
 #### Corroborating sources (1)
@@ -4140,3 +4113,38 @@ This is the first article of a two-part series on Transparent Tribe‚Äôs Crim
   - Published: 2026-09-18T16:59:04+00:00
   - Link: https://www.team-cymru.com/post/transparent-tribe-apt-infrastructure-mapping-1
   - Summary: This is the first article of a two-part series on Transparent Tribe‚Äôs CrimsonRAT infrastructure. We have been tracking CrimsonRAT , Transparent Tribe‚Äôs most ubiquitous remote access tool, over a number of months.
+
+### Cluster ae371adef9 — score 9
+
+- Title: Google's Head of Security Architecture Shares Framework for Protecting AI Systems
+- Source: Team Cymru (ransomware_ecrime_financial_crime)
+- Published: 2026-09-18T16:59:04+00:00
+- Link: https://www.team-cymru.com/post/googles-head-of-security-architecture-shares-framework-for-protecting-ai-systems
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: ai_security
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Google‚Äôs Head of Security Architecture shares a real-world framework for protecting AI systems from evolving threats like model poisoning and prompt injection.
+```
+
+#### Corroborating sources (1)
+
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - Title: Google's Head of Security Architecture Shares Framework for Protecting AI Systems
+  - Published: 2026-09-18T16:59:04+00:00
+  - Link: https://www.team-cymru.com/post/googles-head-of-security-architecture-shares-framework-for-protecting-ai-systems
+  - Summary: Google‚Äôs Head of Security Architecture shares a real-world framework for protecting AI systems from evolving threats like model poisoning and prompt injection.
