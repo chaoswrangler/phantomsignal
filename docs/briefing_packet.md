@@ -1,6 +1,6 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-09-19T20:24:45.087317+00:00
+- Generated: 2026-09-19T22:50:21.642602+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
@@ -80,8 +80,18 @@
   - Status: ok
   - Item count: 15
   - In window count: 4
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
@@ -90,66 +100,46 @@
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
+  - Item count: 100
+  - In window count: 3
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
@@ -160,6 +150,21 @@
   - Status: ok
   - Item count: 50
   - In window count: 4
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
@@ -175,15 +180,15 @@
   - Status: ok
   - Item count: 50
   - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
+  - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
   - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
@@ -195,18 +200,13 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -220,41 +220,41 @@
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 2
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 2
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 6
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
   - Status: ok
-  - Item count: 100
-  - In window count: 3
+  - Item count: 10
+  - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -265,16 +265,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
@@ -285,31 +275,41 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 0
+  - In window count: 3
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
@@ -320,36 +320,31 @@
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 50
   - In window count: 0
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
@@ -360,6 +355,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
@@ -375,16 +375,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 9
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 100
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 0
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 100
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -395,6 +395,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
@@ -410,11 +415,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
@@ -430,16 +430,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 26
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 14
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 26
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
@@ -455,16 +455,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **Google Project Zero** (offensive_vulnerability_research)
   - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
   - Status: ok
@@ -483,17 +483,17 @@
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: active_exploitation, ransomware_extortion, zero_day, phishing_social_eng, ddos
+  - threat_categories: active_exploitation, ransomware_extortion, zero_day, phishing_social_eng, apt_espionage
   - affected_industries: financial_services, government
   - affected_products: Anthropic/Claude, Linux kernel, WordPress
   - urgency_signals: actively_exploited, preauth_unauth, critical_cvss, zero_day
-- Cluster IDs: 2fe42b3f58, 64d509601f, 19deeddfb9, 4ba50ec954, d279e1d094, b282acf693
+- Cluster IDs: 2fe42b3f58, 19deeddfb9, 64d509601f, 4ba50ec954, d279e1d094, b282acf693
 - Links:
   - https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html
   - https://www.securityweek.com/critical-orkes-conductor-vulnerability-exploited-in-attacks/
   - https://www.team-cymru.com/post/ai-driven-threat-detection-is-reshaping-cybersecurity
-  - https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html
   - https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html
+  - https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html
   - https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html
   - https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html
   - https://thehackernews.com/2026/09/active-exploitation-attempts-target.html
@@ -1184,55 +1184,6 @@ Advertisement Get our latest cybersecurity news first on Google. Click here! Clo
   - Link: https://cyberscoop.com/cisco-ise-zero-day-cve-2026-76460/
   - Summary: The latest zero-day has a maximum-severity rating and affects Cisco Identity Services Engine, a product hit with three actively exploited vulnerabilities since June 2025. The post Cisco alerts customers to second actively exploited zero-day in as many days appeared first on CyberScoop .
 
-### Cluster 64d509601f — score 19
-
-- Title: SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-09-19T09:31:17+00:00
-- Link: https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-28326, SolarWinds
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, apt_espionage, ddos, phishing_social_eng, ransomware_extortion, vulnerability_disclosure, zero_day
-- affected_industries: financial_services
-- affected_products: Anthropic/Claude, Linux kernel, SolarWinds
-- cve_ids: CVE-2026-28299, CVE-2026-28302, CVE-2026-28304, CVE-2026-28323, CVE-2026-28326
-- urgency_signals: actively_exploited, critical_cvss, preauth_unauth, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, ddos, apt_espionage, vulnerability_disclosure, active_exploitation
-- affected_industries: financial_services
-- affected_products: SolarWinds, Anthropic/Claude, Linux kernel
-- cve_ids: CVE-2026-28326, CVE-2026-28323, CVE-2026-28299, CVE-2026-28302, CVE-2026-28304
-- urgency_signals: actively_exploited, zero_day, preauth_unauth, critical_cvss
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability. The vulnerability, tracked as CVE-2026-28326, is rated 8.8 out of 10.0 on the CVSS scoring system. The issue affects all versions of Access Rights Manager 2026.2 and prior. "SolarWinds
-```
-
-#### Full body
-
-```
-SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE  Ravie Lakshmanan  Sep 19, 2026 Vulnerability / Identity Security SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability. The vulnerability, tracked as CVE-2026-28326 , is rated 8.8 out of 10.0 on the CVSS scoring system. The issue affects all versions of Access Rights Manager 2026.2 and prior. "SolarWinds Access Rights Manager was reported to be affected by an unauthenticated remote code execution vulnerability," SolarWinds said in an advisory released on September 17, 2026. "The issue stems from a hard-coded static key." The company credited Armadin security researcher Kai Huang with discovering and reporting the flaw, which has been patched in ARM 2026.2.1 . SolarWinds makes no mention of the vulnerability being exploited in the wild. The development comes nearly two months after the company shipped fixes for a critical flaw impacting Web Help Desk (WHD) (CVE-2026-28323, CVSS score: 9.8) that could result in a SAML authentication bypass when the SAML 2.0 authentication method is enabled. Another vulnerability relates to a denial-of-service (DoS) vulnerability (CVE-2026-28299, CVSS score: 8.2) that could cause the Web Help Desk server to crash due to insufficient memory. Both issues have been resolved in WHD 2026.2.1. SolarWinds has also released fixes for 16 flaws impacting Serv-U (CVE-2026-28302, from CVE-2026-28304 through CVE-2026-28317, CVE-2026-28321, CVE-2026-28323) that could lead to privilege escalation, remote code execution, and the creation of administrator accounts. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  enterprise security , Identity Security , SolarWinds , Vulnerability ⚡ Top Stories This Week Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing ⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It. How to Evaluate a Unified Security Platform Using a One-Incident Test Stop Trying to Control AI Behavior. Control What AI Can Reach ⭐ Featured Resources Validation Summi
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE
-  - Published: 2026-09-19T09:31:17+00:00
-  - Link: https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html
-  - Summary: SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability. The vulnerability, tracked as CVE-2026-28326, is rated 8.8 out of 10.0 on the CVSS scoring system. The issue affects all versions of Access Rights Manager 2026.2 and prior. "SolarWinds
-
 ### Cluster f6ef4f9586 — score 19
 
 - Title: Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks
@@ -1335,6 +1286,55 @@ Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks  Rav
   - Published: 2026-09-16T11:08:54+00:00
   - Link: https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html
   - Summary: Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild. The vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file permissions. It affects the following versions - Acronis Backup plugin for cPanel & WHM (Linux
+
+### Cluster 64d509601f — score 18
+
+- Title: SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-09-19T09:31:17+00:00
+- Link: https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-28326, SolarWinds
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, apt_espionage, ddos, phishing_social_eng, ransomware_extortion, vulnerability_disclosure, zero_day
+- affected_industries: financial_services
+- affected_products: Anthropic/Claude, Linux kernel, SolarWinds
+- cve_ids: CVE-2026-28299, CVE-2026-28302, CVE-2026-28304, CVE-2026-28323, CVE-2026-28326
+- urgency_signals: actively_exploited, critical_cvss, preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, ddos, apt_espionage, vulnerability_disclosure, active_exploitation
+- affected_industries: financial_services
+- affected_products: SolarWinds, Anthropic/Claude, Linux kernel
+- cve_ids: CVE-2026-28326, CVE-2026-28323, CVE-2026-28299, CVE-2026-28302, CVE-2026-28304
+- urgency_signals: actively_exploited, zero_day, preauth_unauth, critical_cvss
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability. The vulnerability, tracked as CVE-2026-28326, is rated 8.8 out of 10.0 on the CVSS scoring system. The issue affects all versions of Access Rights Manager 2026.2 and prior. "SolarWinds
+```
+
+#### Full body
+
+```
+SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE  Ravie Lakshmanan  Sep 19, 2026 Vulnerability / Identity Security SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability. The vulnerability, tracked as CVE-2026-28326 , is rated 8.8 out of 10.0 on the CVSS scoring system. The issue affects all versions of Access Rights Manager 2026.2 and prior. "SolarWinds Access Rights Manager was reported to be affected by an unauthenticated remote code execution vulnerability," SolarWinds said in an advisory released on September 17, 2026. "The issue stems from a hard-coded static key." The company credited Armadin security researcher Kai Huang with discovering and reporting the flaw, which has been patched in ARM 2026.2.1 . SolarWinds makes no mention of the vulnerability being exploited in the wild. The development comes nearly two months after the company shipped fixes for a critical flaw impacting Web Help Desk (WHD) (CVE-2026-28323, CVSS score: 9.8) that could result in a SAML authentication bypass when the SAML 2.0 authentication method is enabled. Another vulnerability relates to a denial-of-service (DoS) vulnerability (CVE-2026-28299, CVSS score: 8.2) that could cause the Web Help Desk server to crash due to insufficient memory. Both issues have been resolved in WHD 2026.2.1. SolarWinds has also released fixes for 16 flaws impacting Serv-U (CVE-2026-28302, from CVE-2026-28304 through CVE-2026-28317, CVE-2026-28321, CVE-2026-28323) that could lead to privilege escalation, remote code execution, and the creation of administrator accounts. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  enterprise security , Identity Security , SolarWinds , Vulnerability ⚡ Top Stories This Week Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing ⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It. How to Evaluate a Unified Security Platform Using a One-Incident Test Stop Trying to Control AI Behavior. Control What AI Can Reach ⭐ Featured Resources Validation Summi
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE
+  - Published: 2026-09-19T09:31:17+00:00
+  - Link: https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html
+  - Summary: SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability. The vulnerability, tracked as CVE-2026-28326, is rated 8.8 out of 10.0 on the CVSS scoring system. The issue affects all versions of Access Rights Manager 2026.2 and prior. "SolarWinds
 
 ### Cluster 4ba50ec954 — score 16
 
@@ -2588,6 +2588,39 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 14th Septe
   - Link: https://research.checkpoint.com/2026/14th-september-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 14th Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES IDScan.net, a US identity verification provider, has disclosed a data breach after detecting unauthorized access on September 1. Exposed data included names and government identification numbers, while a criminal marketplace advertised a […] The post 14th September – Threat Intelligence Report appeared first on Check Point Research .
 
+### Cluster 897b6c1468 — score 10
+
+- Title: HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-09-19T04:51:46+00:00
+- Link: https://isc.sans.edu/diary/rss/33352
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+In June 2026 the IETF published RFC 10008[ 1 ], defining a new HTTP method: "QUERY". The HTTP protocol faced already by changes (HTTP/2, HTTP/3) but it's the first new standard HTTP verb since "PATCH" in 2010!
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)
+  - Published: 2026-09-19T04:51:46+00:00
+  - Link: https://isc.sans.edu/diary/rss/33352
+  - Summary: In June 2026 the IETF published RFC 10008[ 1 ], defining a new HTTP method: "QUERY". The HTTP protocol faced already by changes (HTTP/2, HTTP/3) but it's the first new standard HTTP verb since "PATCH" in 2010!
+
 ### Cluster 5f75cd0900 — score 10
 
 - Title: Beware the SparroWock: The backdoor that bites, the commands that catch
@@ -2675,158 +2708,6 @@ Business Security Cyberthreats are moving faster than SMBs: Readiness must accel
   - Published: 2026-09-16T09:00:00+00:00
   - Link: https://www.welivesecurity.com/en/business-security/cyberthreats-moving-faster-smbs-readiness-must-accelerate/
   - Summary: As AI adoption expands the attack surface and adds to the security workload, businesses need automation backed by experts
-
-### Cluster 897b6c1468 — score 10
-
-- Title: HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-09-19T04:51:46+00:00
-- Link: https://isc.sans.edu/diary/rss/33352
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-In June 2026 the IETF published RFC 10008[ 1 ], defining a new HTTP method: "QUERY". The HTTP protocol faced already by changes (HTTP/2, HTTP/3) but it's the first new standard HTTP verb since "PATCH" in 2010!
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)
-  - Published: 2026-09-19T04:51:46+00:00
-  - Link: https://isc.sans.edu/diary/rss/33352
-  - Summary: In June 2026 the IETF published RFC 10008[ 1 ], defining a new HTTP method: "QUERY". The HTTP protocol faced already by changes (HTTP/2, HTTP/3) but it's the first new standard HTTP verb since "PATCH" in 2010!
-
-### Cluster 0af61280d0 — score 10
-
-- Title: How Kyocera AVX Built a Global Security Validation Program from Zero
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-09-18T16:12:24+00:00
-- Link: https://horizon3.ai/customer-story/kyocera-avx-global-security-validation/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_industries: manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-See how Kyocera AVX used NodeZero to build a global security validation program, scale autonomous pentesting across manufacturing sites, and remediate more than 30,000 vulnerabilities and misconfigurations.
-```
-
-#### Full body
-
-```
-How Kyocera AVX Built a Global Security Validation Program from Zero Horizon3 Customer Stories Building a security validation program across global manufacturing environments requires more than deploying another scanning tool. Security teams need to identify which weaknesses attackers can actually exploit, prioritize remediation, and validate risk without disrupting production. Kyocera AVX faced that challenge across 33 manufacturing sites worldwide. With no formal vulnerability management or pentesting program, the company needed a practical way to understand real exposure and build a repeatable validation process that could coexist with complex production environments. This customer story explores how Kyocera AVX used NodeZero® to build a global, evidence-driven security validation program, remediate more than 30,000 vulnerabilities and misconfigurations, and establish a pentesting cadence four times higher than the industry norm. Key Insight Traditional vulnerability findings show teams what might be vulnerable. Kyocera AVX needed an attacker’s perspective to understand which weaknesses could actually be exploited and chained into meaningful attack paths. By making NodeZero the engine behind its vulnerability management and pentesting program, Kyocera AVX gained: Visibility into real, exploitable attack paths A repeatable validation program across global manufacturing sites Actionable Fix Actions that IT teams could use to remediate risk Targeted retesting with 1-Click Verify Executive visibility through NodeZero data integrated with Splunk A sustainable testing model designed around production realities What You’ll Learn How to build a security validation program from the ground up Why exploit-based testing provides context traditional vulnerability findings cannot How Kyocera AVX scaled autonomous pentesting across global manufacturing environments How attack-path evidence helps overcome operational resistance to security testing Why Fix Actions can make remediation clearer and more actionable for IT teams How targeted retesting verifies whether security fixes actually reduce exposure How NodeZero data and Splunk dashboards help communicate risk to executives How continuous pentesting can coexist with production and OT-adjacent environments Why It Matters Manufacturing security teams have to balance cyber risk with business continuity and production safety. That can make organizations understandably cautious about introducing testing they perceive as invasive. But avoiding validation leaves another risk: vulnerabilities, misconfigurations, credential exposures, and attack paths can remain hidden because no one has demonstrated how an attacker could actually use them. Kyocera AVX changed that dynamic. NodeZero reached most manufacturing sites in roughly one to two years, compared with the four to five years typically required to fully roll out comparable tools in the company’s environment. Today, approximately 34 NodeZero hosts support regular assessments, with about four pentests per site each year plus targeted validation. In approximately three years, Kyocera AVX remediated more than 30,000 vulnerabilities and misconfigurations , transforming a program with essentially no formal vulnerability management or pentesting coverage into a global, evidence-driven security validation practice. Download the customer story to see how Kyocera AVX used NodeZero to build a global security validation program, expose real attack paths, and turn more than 30,000 weaknesses into measurable risk reduction. Download the customer story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: How Kyocera AVX Built a Global Security Validation Program from Zero
-  - Published: 2026-09-18T16:12:24+00:00
-  - Link: https://horizon3.ai/customer-story/kyocera-avx-global-security-validation/
-  - Summary: See how Kyocera AVX used NodeZero to build a global security validation program, scale autonomous pentesting across manufacturing sites, and remediate more than 30,000 vulnerabilities and misconfigurations.
-
-### Cluster 63b4630409 — score 10
-
-- Title: CTEM Buyer’s Guide: How to Evaluate the Technologies That Turn Continuous Threat Exposure Management Into an Operating Model
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-09-17T19:10:58+00:00
-- Link: https://horizon3.ai/downloads/whitepapers/ctem-buyers-guide/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Learn how to evaluate CTEM technologies based on what they can prove, from exploitable attack paths and remediation priorities to verification and measurable risk reduction.
-```
-
-#### Full body
-
-```
-CTEM Buyer’s Guide: How to Evaluate the Technologies That Turn Continuous Threat Exposure Management Into an Operating Model Horizon3 | September 17, 2026 | Whitepapers Get the CTEM Buyer’s Guide Table of Contents From CTEM Framework to Operating Model Continuous Threat Exposure Management (CTEM) has become one of the most important—and broadly interpreted—frameworks in cybersecurity. Gartner® describes CTEM as an integrated, iterative approach to continuously evaluating and improving security posture. But CTEM is a framework, not a product category. The challenge for buyers is determining which technologies can turn it into a repeatable operating model that reduces exposure to attackers. Instead of asking which vendors support CTEM, ask: What can this technology prove about our exposure? This buyer’s guide translates CTEM into a practical operating loop: Discover Exposure, Validate Exploitability, Prioritize With Confidence, Remediate With Clarity, Verify Risk Removal, and Repeat. Learn how to evaluate solutions based on attacker evidence, attack-path context, remediation clarity, and measurable risk reduction, not simply findings or risk scores. Inside the Guide Learn how to: Understand the difference between threats, vulnerabilities, exposure, and risk. Evaluate how solutions uncover exposure across vulnerabilities, identities, credentials, misconfigurations, and security controls. See whether a solution can prove exploitability and demonstrate attacker impact. Prioritize remediation using proven exploitability, attack paths, and business impact. Verify that exposure is gone and track risk reduction over time. Ask five questions that separate CTEM claims from proof. Who Should Read This This buyer’s guide is designed for: Chief Information Security Officers (CISOs) Security Architects Exposure Management and Vulnerability Management leaders Security Operations and Security Engineering teams Cloud, Infrastructure, Identity, Application, and IT teams responsible for remediation Download the CTEM Buyer’s Guide Download the CTEM Buyer’s Guide to learn how to connect exposure to exploitability, remediation, verification, and measurable risk reduction. Not seeing the form? Open the standalone form . Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: CTEM Buyer’s Guide: How to Evaluate the Technologies That Turn Continuous Threat Exposure Management Into an Operating Model
-  - Published: 2026-09-17T19:10:58+00:00
-  - Link: https://horizon3.ai/downloads/whitepapers/ctem-buyers-guide/
-  - Summary: Learn how to evaluate CTEM technologies based on what they can prove, from exploitable attack paths and remediation priorities to verification and measurable risk reduction.
-
-### Cluster 5d6d8aeffe — score 10
-
-- Title: CISO’s CTEM Evaluation Checklist
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-09-16T16:55:08+00:00
-- Link: https://horizon3.ai/downloads/factsheets/ciso-ctem-evaluation-checklist/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Use the CISO’s CTEM Evaluation Checklist to assess whether technologies supporting your CTEM program can prove exploitability, demonstrate attack impact, verify remediation, and show measurable exposure reduction.
-```
-
-#### Full body
-
-```
-CISO’s CTEM Evaluation Checklist Horizon3 September 16, 2026 Factsheets Continuous Threat Exposure Management (CTEM) is a framework, not a product category. Many technologies can contribute to a CTEM program, but simply claiming to “support CTEM” doesn’t demonstrate that a technology can help your organization reduce exploitable exposure. For CISOs evaluating technologies to support a CTEM program, the standard should be evidence: Can the technology prove what attackers can exploit, demonstrate the impact, verify that remediation worked, and show that exploitable exposure is decreasing over time? Five Questions to Ask When Evaluating CTEM Technologies The CISO’s CTEM Evaluation Checklist provides five questions security leaders can use to set the standard for their evaluation teams: How do you prove that an exposure is actually exploitable in our environment? What evidence will you show us of what an attacker can actually accomplish? How does proven exploitability change what we should remediate first? Can you reproduce the specific test or attack path after remediation to prove the exposure is gone? Can you demonstrate over time that our exploitable exposure is actually decreasing? The answers should be demonstrated with evidence from your environment, not accepted as feature claims or roadmap promises. Know What Good CTEM Technology Looks Like A strong CTEM technology evaluation should produce repeatable evidence across the entire operating loop: discover exposure, validate exploitability, prioritize, remediate, verify, and repeat. The checklist helps evaluation teams distinguish meaningful capabilities from red flags, including reliance on scanner findings, risk scores, closed tickets, configuration changes, or isolated test results without proof of real-world exploitability and impact. Make Evidence the CTEM Decision Standard Before investing in technology to support your CTEM program, determine whether it can meet four fundamental standards: Proof: Can it prove exploitability in your environment? Impact: Can it show what successful exploitation makes possible? Verification: Can it prove remediation actually removed the exposure? Improvement: Can it demonstrate that exploitable exposure is decreasing over time? Rather than comparing technologies based on CTEM feature checklists alone, use repeatable evidence to determine whether they can demonstrate that your organization is becoming harder to compromise. Evaluate CTEM Technologies with Evidence You Can Trust Download the CISO’s CTEM Evaluation Checklist for five questions to ask your evaluation team and the evidence to demand before investing in technologies to support your CTEM program. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: CISO’s CTEM Evaluation Checklist
-  - Published: 2026-09-16T16:55:08+00:00
-  - Link: https://horizon3.ai/downloads/factsheets/ciso-ctem-evaluation-checklist/
-  - Summary: Use the CISO’s CTEM Evaluation Checklist to assess whether technologies supporting your CTEM program can prove exploitability, demonstrate attack impact, verify remediation, and show measurable exposure reduction.
 
 ### Cluster b14566fc43 — score 10
 
@@ -3079,6 +2960,125 @@ Proactive Threat Intelligence: Getting Ahead of the Next Major Breach An alert m
   - Published: 2026-09-14T00:00:00+00:00
   - Link: https://www.recordedfuture.com/blog/proactive-threat-intelligence
   - Summary: Move from reactive defense to a proactive security mindset. Learn how proactive threat intelligence identifies and neutralizes threats.
+
+### Cluster 0af61280d0 — score 10
+
+- Title: How Kyocera AVX Built a Global Security Validation Program from Zero
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-09-18T16:12:24+00:00
+- Link: https://horizon3.ai/customer-story/kyocera-avx-global-security-validation/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_industries: manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+See how Kyocera AVX used NodeZero to build a global security validation program, scale autonomous pentesting across manufacturing sites, and remediate more than 30,000 vulnerabilities and misconfigurations.
+```
+
+#### Full body
+
+```
+How Kyocera AVX Built a Global Security Validation Program from Zero Horizon3 Customer Stories Building a security validation program across global manufacturing environments requires more than deploying another scanning tool. Security teams need to identify which weaknesses attackers can actually exploit, prioritize remediation, and validate risk without disrupting production. Kyocera AVX faced that challenge across 33 manufacturing sites worldwide. With no formal vulnerability management or pentesting program, the company needed a practical way to understand real exposure and build a repeatable validation process that could coexist with complex production environments. This customer story explores how Kyocera AVX used NodeZero® to build a global, evidence-driven security validation program, remediate more than 30,000 vulnerabilities and misconfigurations, and establish a pentesting cadence four times higher than the industry norm. Key Insight Traditional vulnerability findings show teams what might be vulnerable. Kyocera AVX needed an attacker’s perspective to understand which weaknesses could actually be exploited and chained into meaningful attack paths. By making NodeZero the engine behind its vulnerability management and pentesting program, Kyocera AVX gained: Visibility into real, exploitable attack paths A repeatable validation program across global manufacturing sites Actionable Fix Actions that IT teams could use to remediate risk Targeted retesting with 1-Click Verify Executive visibility through NodeZero data integrated with Splunk A sustainable testing model designed around production realities What You’ll Learn How to build a security validation program from the ground up Why exploit-based testing provides context traditional vulnerability findings cannot How Kyocera AVX scaled autonomous pentesting across global manufacturing environments How attack-path evidence helps overcome operational resistance to security testing Why Fix Actions can make remediation clearer and more actionable for IT teams How targeted retesting verifies whether security fixes actually reduce exposure How NodeZero data and Splunk dashboards help communicate risk to executives How continuous pentesting can coexist with production and OT-adjacent environments Why It Matters Manufacturing security teams have to balance cyber risk with business continuity and production safety. That can make organizations understandably cautious about introducing testing they perceive as invasive. But avoiding validation leaves another risk: vulnerabilities, misconfigurations, credential exposures, and attack paths can remain hidden because no one has demonstrated how an attacker could actually use them. Kyocera AVX changed that dynamic. NodeZero reached most manufacturing sites in roughly one to two years, compared with the four to five years typically required to fully roll out comparable tools in the company’s environment. Today, approximately 34 NodeZero hosts support regular assessments, with about four pentests per site each year plus targeted validation. In approximately three years, Kyocera AVX remediated more than 30,000 vulnerabilities and misconfigurations , transforming a program with essentially no formal vulnerability management or pentesting coverage into a global, evidence-driven security validation practice. Download the customer story to see how Kyocera AVX used NodeZero to build a global security validation program, expose real attack paths, and turn more than 30,000 weaknesses into measurable risk reduction. Download the customer story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: How Kyocera AVX Built a Global Security Validation Program from Zero
+  - Published: 2026-09-18T16:12:24+00:00
+  - Link: https://horizon3.ai/customer-story/kyocera-avx-global-security-validation/
+  - Summary: See how Kyocera AVX used NodeZero to build a global security validation program, scale autonomous pentesting across manufacturing sites, and remediate more than 30,000 vulnerabilities and misconfigurations.
+
+### Cluster 63b4630409 — score 10
+
+- Title: CTEM Buyer’s Guide: How to Evaluate the Technologies That Turn Continuous Threat Exposure Management Into an Operating Model
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-09-17T19:10:58+00:00
+- Link: https://horizon3.ai/downloads/whitepapers/ctem-buyers-guide/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Learn how to evaluate CTEM technologies based on what they can prove, from exploitable attack paths and remediation priorities to verification and measurable risk reduction.
+```
+
+#### Full body
+
+```
+CTEM Buyer’s Guide: How to Evaluate the Technologies That Turn Continuous Threat Exposure Management Into an Operating Model Horizon3 | September 17, 2026 | Whitepapers Get the CTEM Buyer’s Guide Table of Contents From CTEM Framework to Operating Model Continuous Threat Exposure Management (CTEM) has become one of the most important—and broadly interpreted—frameworks in cybersecurity. Gartner® describes CTEM as an integrated, iterative approach to continuously evaluating and improving security posture. But CTEM is a framework, not a product category. The challenge for buyers is determining which technologies can turn it into a repeatable operating model that reduces exposure to attackers. Instead of asking which vendors support CTEM, ask: What can this technology prove about our exposure? This buyer’s guide translates CTEM into a practical operating loop: Discover Exposure, Validate Exploitability, Prioritize With Confidence, Remediate With Clarity, Verify Risk Removal, and Repeat. Learn how to evaluate solutions based on attacker evidence, attack-path context, remediation clarity, and measurable risk reduction, not simply findings or risk scores. Inside the Guide Learn how to: Understand the difference between threats, vulnerabilities, exposure, and risk. Evaluate how solutions uncover exposure across vulnerabilities, identities, credentials, misconfigurations, and security controls. See whether a solution can prove exploitability and demonstrate attacker impact. Prioritize remediation using proven exploitability, attack paths, and business impact. Verify that exposure is gone and track risk reduction over time. Ask five questions that separate CTEM claims from proof. Who Should Read This This buyer’s guide is designed for: Chief Information Security Officers (CISOs) Security Architects Exposure Management and Vulnerability Management leaders Security Operations and Security Engineering teams Cloud, Infrastructure, Identity, Application, and IT teams responsible for remediation Download the CTEM Buyer’s Guide Download the CTEM Buyer’s Guide to learn how to connect exposure to exploitability, remediation, verification, and measurable risk reduction. Not seeing the form? Open the standalone form . Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: CTEM Buyer’s Guide: How to Evaluate the Technologies That Turn Continuous Threat Exposure Management Into an Operating Model
+  - Published: 2026-09-17T19:10:58+00:00
+  - Link: https://horizon3.ai/downloads/whitepapers/ctem-buyers-guide/
+  - Summary: Learn how to evaluate CTEM technologies based on what they can prove, from exploitable attack paths and remediation priorities to verification and measurable risk reduction.
+
+### Cluster 5d6d8aeffe — score 10
+
+- Title: CISO’s CTEM Evaluation Checklist
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-09-16T16:55:08+00:00
+- Link: https://horizon3.ai/downloads/factsheets/ciso-ctem-evaluation-checklist/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Use the CISO’s CTEM Evaluation Checklist to assess whether technologies supporting your CTEM program can prove exploitability, demonstrate attack impact, verify remediation, and show measurable exposure reduction.
+```
+
+#### Full body
+
+```
+CISO’s CTEM Evaluation Checklist Horizon3 September 16, 2026 Factsheets Continuous Threat Exposure Management (CTEM) is a framework, not a product category. Many technologies can contribute to a CTEM program, but simply claiming to “support CTEM” doesn’t demonstrate that a technology can help your organization reduce exploitable exposure. For CISOs evaluating technologies to support a CTEM program, the standard should be evidence: Can the technology prove what attackers can exploit, demonstrate the impact, verify that remediation worked, and show that exploitable exposure is decreasing over time? Five Questions to Ask When Evaluating CTEM Technologies The CISO’s CTEM Evaluation Checklist provides five questions security leaders can use to set the standard for their evaluation teams: How do you prove that an exposure is actually exploitable in our environment? What evidence will you show us of what an attacker can actually accomplish? How does proven exploitability change what we should remediate first? Can you reproduce the specific test or attack path after remediation to prove the exposure is gone? Can you demonstrate over time that our exploitable exposure is actually decreasing? The answers should be demonstrated with evidence from your environment, not accepted as feature claims or roadmap promises. Know What Good CTEM Technology Looks Like A strong CTEM technology evaluation should produce repeatable evidence across the entire operating loop: discover exposure, validate exploitability, prioritize, remediate, verify, and repeat. The checklist helps evaluation teams distinguish meaningful capabilities from red flags, including reliance on scanner findings, risk scores, closed tickets, configuration changes, or isolated test results without proof of real-world exploitability and impact. Make Evidence the CTEM Decision Standard Before investing in technology to support your CTEM program, determine whether it can meet four fundamental standards: Proof: Can it prove exploitability in your environment? Impact: Can it show what successful exploitation makes possible? Verification: Can it prove remediation actually removed the exposure? Improvement: Can it demonstrate that exploitable exposure is decreasing over time? Rather than comparing technologies based on CTEM feature checklists alone, use repeatable evidence to determine whether they can demonstrate that your organization is becoming harder to compromise. Evaluate CTEM Technologies with Evidence You Can Trust Download the CISO’s CTEM Evaluation Checklist for five questions to ask your evaluation team and the evidence to demand before investing in technologies to support your CTEM program. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: CISO’s CTEM Evaluation Checklist
+  - Published: 2026-09-16T16:55:08+00:00
+  - Link: https://horizon3.ai/downloads/factsheets/ciso-ctem-evaluation-checklist/
+  - Summary: Use the CISO’s CTEM Evaluation Checklist to assess whether technologies supporting your CTEM program can prove exploitability, demonstrate attack impact, verify remediation, and show measurable exposure reduction.
 
 ### Cluster 10448bc932 — score 10
 
@@ -4007,6 +4007,41 @@ A Chinese threat actor has been attributed to a spear-phishing campaign that exp
   - Link: https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html
   - Summary: A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE. Volexity, which is tracking the threat cluster under the moniker UTA0560, said the activity targeted multiple non-governmental organizations (NGOs) on September 1, 2026. "The
 
+### Cluster 178bbf8b39 — score 8
+
+- Title: IBM Db2 Mirror for i: pre-auth RCE and the road to QSECOFR
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-09-14T13:20:24+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1wg39a3/ibm_db2_mirror_for_i_preauth_rce_and_the_road_to/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+submitted by /u/buherator [link] [comments]
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: IBM Db2 Mirror for i: pre-auth RCE and the road to QSECOFR
+  - Published: 2026-09-14T13:20:24+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1wg39a3/ibm_db2_mirror_for_i_preauth_rce_and_the_road_to/
+  - Summary: submitted by /u/buherator [link] [comments]
+
 ### Cluster 8d68d6570f — score 8
 
 - Title: CISA Upgrades Vulnerability Reporting Platform with More Automation
@@ -4113,41 +4148,6 @@ An unauthorized party used a legitimate government email domain to fraudulently 
   - Published: 2026-09-14T11:20:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/revolut-data-breach-fake-government/
   - Summary: An unauthorized party used a legitimate government email domain to fraudulently request Revolut customer data
-
-### Cluster 178bbf8b39 — score 8
-
-- Title: IBM Db2 Mirror for i: pre-auth RCE and the road to QSECOFR
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-09-14T13:20:24+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1wg39a3/ibm_db2_mirror_for_i_preauth_rce_and_the_road_to/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/buherator [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: IBM Db2 Mirror for i: pre-auth RCE and the road to QSECOFR
-  - Published: 2026-09-14T13:20:24+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1wg39a3/ibm_db2_mirror_for_i_preauth_rce_and_the_road_to/
-  - Summary: submitted by /u/buherator [link] [comments]
 
 ### Cluster f3a77c405e — score 8
 
