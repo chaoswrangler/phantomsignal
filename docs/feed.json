@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-20T00:54:31.179143+00:00",
+  "generated_at": "2026-09-20T05:57:32.304246+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
-  "total_items": 2223,
+  "total_items": 2198,
   "feed_status": {
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
@@ -18,13 +18,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
@@ -39,6 +32,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
@@ -46,18 +46,18 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "NCSC UK": {
@@ -74,12 +74,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 3
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -95,19 +95,19 @@
       "item_count": 100,
       "in_window_count": 3
     },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
@@ -116,6 +116,13 @@
       "item_count": 50,
       "in_window_count": 4
     },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -123,39 +130,11 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
       "in_window_count": 0
     },
     "Exploit-DB": {
@@ -165,11 +144,39 @@
       "item_count": 50,
       "in_window_count": 0
     },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 0
+    },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 15,
+      "in_window_count": 0
+    },
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Black Hills Information Security": {
@@ -181,13 +188,6 @@
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -235,13 +235,6 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 6
-    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -256,6 +249,13 @@
       "item_count": 100,
       "in_window_count": 3
     },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 6
+    },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
       "cohort": "threat_research_primary",
@@ -263,19 +263,19 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
-    },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
+    },
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 4
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -305,13 +305,6 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
@@ -319,12 +312,33 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 20
+    },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -339,20 +353,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 20
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -382,12 +382,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 30,
+      "in_window_count": 19
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -396,19 +396,12 @@
       "item_count": 50,
       "in_window_count": 0
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 19
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -417,19 +410,19 @@
       "item_count": 50,
       "in_window_count": 18
     },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 9
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -438,11 +431,25 @@
       "item_count": 100,
       "in_window_count": 100
     },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 9
+    },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 15,
+      "in_window_count": 0
+    },
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
       "in_window_count": 0
     },
     "The Hacker News": {
@@ -452,29 +459,8 @@
       "item_count": 50,
       "in_window_count": 50
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -487,12 +473,40 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 14
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
@@ -507,20 +521,6 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 26
-    },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 14
-    },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -709,7 +709,7 @@
         ]
       },
       "cluster_count": 6,
-      "article_count": 10,
+      "article_count": 9,
       "cohesion": 0.302,
       "shared_strong_signals": [
         "Linux kernel"
@@ -731,7 +731,6 @@
         "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
         "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
         "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
-        "https://www.reddit.com/r/cybersecurity/comments/1wkdg4y/four_linux_kernel_flaws_now_have_public_exploits/",
         "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
         "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html"
       ]
@@ -859,7 +858,7 @@
         ]
       },
       "cluster_count": 5,
-      "article_count": 11,
+      "article_count": 10,
       "cohesion": 0.255,
       "shared_strong_signals": [
         "WordPress"
@@ -875,7 +874,6 @@
       ],
       "links": [
         "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
-        "https://www.reddit.com/r/cybersecurity/comments/1wkdg4y/four_linux_kernel_flaws_now_have_public_exploits/",
         "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
         "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
         "https://www.infosecurity-magazine.com/news/microsoft-releases-emergency-patch/",
@@ -1021,36 +1019,6 @@
       ]
     },
     {
-      "label": "Google Cloud vulnerability activity",
-      "anchor_signal": "Google Cloud",
-      "theme_key": "google-cloud",
-      "dominant_features": {
-        "affected_products": [
-          "Google Cloud"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 7,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "Google Cloud"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "5684813f28",
-        "ab440398cd"
-      ],
-      "links": [
-        "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-        "https://cloud.google.com/blog/products/data-analytics/borderless-lakehouse-cross-cloud-caching-and-connections/",
-        "https://www.securityweek.com/microsoft-patches-18-vulnerabilities-in-ai-cloud-products/",
-        "https://www.reddit.com/r/cybersecurity/comments/1wjx7xd/microsoft_teams_help_desk_impersonation_when_it/",
-        "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-        "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html"
-      ]
-    },
-    {
       "label": "ShinyHunters: data breach",
       "anchor_signal": "ShinyHunters",
       "theme_key": "shinyhunters",
@@ -1080,6 +1048,35 @@
       "links": [
         "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
         "https://research.checkpoint.com/2026/14th-september-threat-intelligence-report/"
+      ]
+    },
+    {
+      "label": "Google Cloud vulnerability activity",
+      "anchor_signal": "Google Cloud",
+      "theme_key": "google-cloud",
+      "dominant_features": {
+        "affected_products": [
+          "Google Cloud"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 6,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "Google Cloud"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "5684813f28",
+        "ab440398cd"
+      ],
+      "links": [
+        "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
+        "https://cloud.google.com/blog/products/data-analytics/borderless-lakehouse-cross-cloud-caching-and-connections/",
+        "https://www.securityweek.com/microsoft-patches-18-vulnerabilities-in-ai-cloud-products/",
+        "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+        "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html"
       ]
     },
     {
@@ -1114,20 +1111,7 @@
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [
-        {
-          "value": "CVE-2026-68121",
-          "cluster_id": "4ba50ec954",
-          "first_source": "The Hacker News",
-          "first_published": "2026-09-19T06:24:10+00:00"
-        },
-        {
-          "value": "CVE-2026-74469",
-          "cluster_id": "4ba50ec954",
-          "first_source": "The Hacker News",
-          "first_published": "2026-09-19T06:24:10+00:00"
-        }
-      ],
+      "cves": [],
       "actors": [],
       "products": []
     },
@@ -1144,7 +1128,7 @@
         "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
         "sources_in_window": 3,
         "window_hours": 5.0,
-        "cohort_count": 3
+        "cohort_count": 2
       }
     ],
     "leading_edge": [],
@@ -1391,40 +1375,6 @@
     ],
     "tier_inversion": [
       {
-        "cluster_id": "b80b35d009",
-        "title": "Zero-click RCE vulnerability hit four major AI coding agents, two remain unpatched",
-        "primary_source": "Help Net Security",
-        "strong_signals": [
-          "APT36"
-        ]
-      },
-      {
-        "cluster_id": "4ba50ec954",
-        "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
-        "primary_source": "The Hacker News",
-        "strong_signals": [
-          "CVE-2025-39682",
-          "CVE-2025-39964",
-          "CVE-2026-53266",
-          "CVE-2026-68121",
-          "CVE-2026-74469",
-          "CVE-2026-80844",
-          "CVE-2026-81000"
-        ]
-      },
-      {
-        "cluster_id": "5684813f28",
-        "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
-        "primary_source": "The Hacker News",
-        "strong_signals": [
-          "CVE-2026-62721",
-          "CVE-2026-85878",
-          "CVE-2026-85885",
-          "CVE-2026-85889",
-          "CVE-2026-87701"
-        ]
-      },
-      {
         "cluster_id": "1464b3e2ea",
         "title": "CVE-2026-77179: Docker's hypervisor for Mac compromised (Docker Desktop, Docker Sandboxes)",
         "primary_source": "Reddit r/netsec",
@@ -1435,66 +1385,6 @@
     ]
   },
   "items": [
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Google Gemini accidentally breached real systems during a security test",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1wkymom/google_gemini_accidentally_breached_real_systems/",
-      "published": "2026-09-19T21:48:12+00:00",
-      "summary": "During a cybersecurity test, Gemini reportedly accessed real company systems by guessing a password and finding exposed credentials. Once it realized the targets were real, it stopped. Google says its safety controls worked. submitted by /u/thechougala [link] [comments]",
-      "author": "/u/thechougala",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Google/Gemini"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {
-          "Google/Gemini": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "iTorrents.org Compromised To Spread Windows Malware, Kaspersky Says",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1wktnvs/itorrentsorg_compromised_to_spread_windows/",
-      "published": "2026-09-19T18:29:00+00:00",
-      "summary": "submitted by /u/Cheap_Corner_3504 [link] [comments]",
-      "author": "/u/Cheap_Corner_3504",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 8
-    },
     {
       "source": "BleepingComputer",
       "cohort": "cyber_news_breach_reporting",
@@ -1525,7 +1415,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "BleepingComputer",
@@ -1555,7 +1445,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "BleepingComputer",
@@ -1595,7 +1485,7 @@
           "products": []
         }
       },
-      "score": 12,
+      "score": 11,
       "full_body": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang By Lawrence Abrams September 19, 2026 09:48 AM 0 The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. The attack began Friday night when ShinyHunters exploited what they claim is an unauthenticated file upload vulnerability in Grav CMS, which they used to upload a small text file to Clop's site. File downloaded from Clop's data leak site Source: BleepingComputer The small text file contained a message from the threat actors to the Clop ransomware gang, warning not to threaten them and including a link to ShinyHunter's own data leak site. \"THIS SITE HAS BEEN PWN3D BY SHINYHUNTERES #Skids10p - Maybe don't try to threaten us next time,\" read the uploaded file. File uploaded to Clop's data leak site Source: BleepingComputer The file also contained a link to the ShinyHunters data leak site. BleepingComputer confirmed that the file had been uploaded to Clop's server and could be downloaded directly from the ransomware gang's Tor site. Several hours later, ShinyHunters told BleepingComputer that they had \"completely defaced\" the Clop site. Visiting the site confirmed it had been replaced with a page displaying ASCII art of Umbreon, the Pokémon used as ShinyHunters' logo. The defacement also included a link to the group's Tor site and the message, \"rooting your systems since '19 ;)\". Clop's data leak site defaced by ShinyHunters Source: BleepingComputer At the time of this writing, the defaced page is still being served from Clop's infrastructure, according to ShinyHunters. ShinyHunters claims data theft ShinyHunters told BleepingComputer it gained \"full access\" to the server and stole source code, Grav CMS plugins, system logs, and other data. \"The data we stole includes source codes, gravCMS plugins, and other things. We are still downloading and reviewing them,\" ShinyHunters told BleepingComputer. The threat actors also claim to have stolen all files stored under /var/log , which could contain system activity, authentication logs, and potentially, the IP addresses of those who connected to it. ShinyHunters also claims to have obtained the private keys used by Clop's Tor onion service. \"We have their onion keys. So if they kick us out it wouldn't matter at all because we control the private keys to host the same exact onion URL,\" the threat actor claimed. If the keys are valid, it would allow the threat actors to operate a Tor site using Clop's existing onion address on servers they control. BleepingComputer has independently confirmed the defacement and earlier uploaded file but has not independently verified ShinyHunters' claims that it stole server logs, source code, or Clop's onion private keys. ShinyHunters says it is now reviewing the allegedly stolen data. When asked what they planned to do with the stolen information, the threat actor responded, \"Going to extort them.\" The group says it plans to publish a message on its own leak site instructing Clop to contact them within 72 hours. Cybersecurity researcher VXDB told BleepingComputer the Umbreon artwork now displayed on Clop's leak site is the same as what was used in the August 2020 defacement of the HackForums website, which ShinyHunters also claimed at the time. Feud between cybercrime groups ShinyHunters says the attack is retaliation for threats allegedly made by a Clop representative during an ongoing feud between the cybercrime groups. According to ShinyHunters, a Clop representative threatened to identify group members and made violent threats after ShinyHunters disrupted a Clop data theft campaign. ShinyHunters says the dispute dates back to Clop's 2025 Oracle E-Business Suite data theft campaign . In October 2025, Clop exploited multiple vulnerabilities in Oracle E-Business Suite servers, including a zero-day flaw tracked as CVE-2025-61882 , to steal",
       "fetch_status": "ok"
     },
@@ -1655,69 +1545,7 @@
           "products": []
         }
       },
-      "score": 6
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws.",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1wkm3wa/claude_opus_5_helped_researchers_take_over_openai/",
-      "published": "2026-09-19T13:21:06+00:00",
-      "summary": "submitted by /u/Vast_Hope_7185 [link] [comments]",
-      "author": "/u/Vast_Hope_7185",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Anthropic/Claude",
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {
-          "Anthropic/Claude": "target",
-          "OpenAI/ChatGPT": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Best site / app to be pair with cyber security news",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1wkifw5/best_site_app_to_be_pair_with_cyber_security_news/",
-      "published": "2026-09-19T10:15:49+00:00",
-      "summary": "Hi guys, I would like to ask if anyone know a good site or app to see news from the cyber security area, news in general and recent attacks, globally mainly. submitted by /u/low0nink [link] [comments]",
-      "author": "/u/low0nink",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 3
+      "score": 5
     },
     {
       "source": "The Hacker News",
@@ -1903,36 +1731,6 @@
       "score": 8
     },
     {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "CVE-2026-77179: Docker's hypervisor for Mac compromised (Docker Desktop, Docker Sandboxes)",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1wkei8h/cve202677179_dockers_hypervisor_for_mac/",
-      "published": "2026-09-19T06:27:22+00:00",
-      "summary": "submitted by /u/natcoba [link] [comments]",
-      "author": "/u/natcoba",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-77179"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "vulnerability_disclosure",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 8
-    },
-    {
       "source": "Reddit r/netsec",
       "cohort": "reddit_practitioner_osint",
       "category": "reddit_practitioner_osint",
@@ -2028,43 +1826,6 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Four Linux kernel flaws now have public exploits, users could potentially escalate to root",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1wkdg4y/four_linux_kernel_flaws_now_have_public_exploits/",
-      "published": "2026-09-19T05:30:08+00:00",
-      "summary": "Public exploits are now available for four recently patched Linux kernel vulnerabilities: • CVE-2026-80844 — DirtyAH6 • CVE-2026-81000 — TUNderflow • CVE-2026-68121 — PPPoEject • CVE-2026-74469 — DiagSpill These are mainly local privilege escalation bugs. So an attacker would generally need some access to the system first, but could potentially use these flaws to gain root access . This matters especially for shared servers, cloud/hosting systems and machines running older kernels. Fixes are already available, so updating your kernel/distro packages is recommended. So far, there are no reports of these exploits being used in real-world attacks. Source: submitted by /u/thechougala [link] [comments]",
-      "author": "/u/thechougala",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Linux kernel"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-80844",
-          "CVE-2026-81000",
-          "CVE-2026-68121",
-          "CVE-2026-74469"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {
-          "Linux kernel": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 0
-    },
-    {
       "source": "SANS Internet Storm Center",
       "cohort": "government_authoritative",
       "category": "government_authoritative",
@@ -2090,93 +1851,9 @@
           "products": []
         }
       },
-      "score": 10,
+      "score": 9,
       "full_body": "",
       "fetch_status": "fetch_failed:HTTPError"
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Looking for threat related YouTube channels",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1wkazcn/looking_for_threat_related_youtube_channels/",
-      "published": "2026-09-19T03:23:41+00:00",
-      "summary": "Looking for YouTube channels that go into threat research / analysis / general news. Podcasts get annoying because they’re often too long and unfocused or too general. Ideally I’d like something like 10-15 minute videos going into current threats, interesting or upcoming APTs, etc. I’m not looking for walkthroughs or tutorials, I want intel. Anything in that theme please let me know! submitted by /u/DizzyWisco [link] [comments]",
-      "author": "/u/DizzyWisco",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 3
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "TikTok users' cameras hacked with open weight model by depthfirst",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1wka8uj/tiktok_users_cameras_hacked_with_open_weight/",
-      "published": "2026-09-19T02:47:41+00:00",
-      "summary": "washingtonpost.com/technology/…/cybersecurity-experts-say-free-ai-software-is-supercharging-hackers submitted by /u/BeneficialArtist3477 [link] [comments]",
-      "author": "/u/BeneficialArtist3477",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 3
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Gyazo server flaw exploited to steal 23.6 million user records",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1wk7pk0/gyazo_server_flaw_exploited_to_steal_236_million/",
-      "published": "2026-09-19T00:47:20+00:00",
-      "summary": "submitted by /u/AsterPrivacy [link] [comments]",
-      "author": "/u/AsterPrivacy",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 2
     },
     {
       "source": "Simon Willison",
@@ -2348,38 +2025,6 @@
         }
       },
       "score": 4
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Microsoft Teams Help Desk Impersonation: When IT Support Messages You First",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1wjx7xd/microsoft_teams_help_desk_impersonation_when_it/",
-      "published": "2026-09-18T17:50:45+00:00",
-      "summary": "Attackers are opening Microsoft Teams chats from tenants they control, using a display name like IT Service Desk , and talking people into either installing a file or handing over a remote session. Teams allows chat from any external domain by default, and the attacker only needs the target to say yes once. In the case Expel documented, the yes was an MSI hosted on a Microsoft Azure storage endpoint; the payoff was a fake Windows lock screen that captured the user’s password in the clear. Two settings in the Teams admin center and one sentence said out loud to your staff close most of this. submitted by /u/scamdrill [link] [comments]",
-      "author": "/u/scamdrill",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Azure"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {
-          "Azure": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 2
     },
     {
       "source": "CyberScoop",
@@ -4937,34 +4582,6 @@
       "score": 4
     },
     {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "New Check Point flaw lets hackers execute code with root privileges",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1wjpy75/new_check_point_flaw_lets_hackers_execute_code/",
-      "published": "2026-09-18T13:16:50+00:00",
-      "summary": "submitted by /u/DistinctSpeaker7252 [link] [comments]",
-      "author": "/u/DistinctSpeaker7252",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 2
-    },
-    {
       "source": "BleepingComputer",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -7420,7 +7037,7 @@
       "title": "Cloud CISO Perspectives: How Google monitors AI threats and advances AI defenses",
       "link": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-google-monitors-ai-threats-advances-ai-defenses/",
       "published": "2026-09-16T16:00:00+00:00",
-      "summary": "Welcome to the first Cloud CISO Perspectives for September 2026. Today, Sandra Joyce shares the latest details on Google’s visibility into how attackers are using AI, and how we’re using AI to stop them. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block <ListValue: [StructValue([('title', 'Get vital board insights with Google Cloud'), ('body', <wagtail.rich_text.RichText object at 0x7f3cf75a8390>), ('btn_text', 'Visit the hub'), ('href', 'https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&utm_medium=et&utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&utm_content=-&utm_term=-'), ('image', <GAEImage: GCAT-replacement-logo-A>)])]> ‘Spellcheck for cybersecurity’ and beyond: How Google monitors AI threats and advances AI defenses By Sandra Joyce, VP, Google Threat In",
+      "summary": "Welcome to the first Cloud CISO Perspectives for September 2026. Today, Sandra Joyce shares the latest details on Google’s visibility into how attackers are using AI, and how we’re using AI to stop them. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block <ListValue: [StructValue([('title', 'Get vital board insights with Google Cloud'), ('body', <wagtail.rich_text.RichText object at 0x7f5d0e33b6d0>), ('btn_text', 'Visit the hub'), ('href', 'https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&utm_medium=et&utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&utm_content=-&utm_term=-'), ('image', <GAEImage: GCAT-replacement-logo-A>)])]> ‘Spellcheck for cybersecurity’ and beyond: How Google monitors AI threats and advances AI defenses By Sandra Joyce, VP, Google Threat In",
       "author": "Sandra Joyce",
       "in_window": true,
       "taxonomy": {

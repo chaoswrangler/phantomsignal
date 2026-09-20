@@ -6,28 +6,9 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 20 Sep 2026 00:54:31 +0000</lastBuildDate>
+<lastBuildDate>Sun, 20 Sep 2026 05:57:32 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
-<item>
-<title>Google Gemini accidentally breached real systems during a security test</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1wkymom/google_gemini_accidentally_breached_real_systems/</link>
-<description><![CDATA[During a cybersecurity test, Gemini reportedly accessed real company systems by guessing a password and finding exposed credentials. Once it realized the targets were real, it stopped. Google says its safety controls worked. submitted by /u/thechougala [link] [comments]<br/><br/><em>Tags: Google/Gemini</em>]]></description>
-<pubDate>Sat, 19 Sep 2026 21:48:12 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1wkymom/google_gemini_accidentally_breached_real_systems/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-<category>Google/Gemini</category>
-</item>
-<item>
-<title>iTorrents.org Compromised To Spread Windows Malware, Kaspersky Says</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1wktnvs/itorrentsorg_compromised_to_spread_windows/</link>
-<description><![CDATA[submitted by /u/Cheap_Corner_3504 [link] [comments]]]></description>
-<pubDate>Sat, 19 Sep 2026 18:29:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1wktnvs/itorrentsorg_compromised_to_spread_windows/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-</item>
 <item>
 <title>BragJack attacks hijack AI browser agents through malicious extensions</title>
 <link>https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/</link>
@@ -80,26 +61,6 @@
 <category>data_breach</category>
 </item>
 <item>
-<title>Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws.</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1wkm3wa/claude_opus_5_helped_researchers_take_over_openai/</link>
-<description><![CDATA[submitted by /u/Vast_Hope_7185 [link] [comments]<br/><br/><em>Tags: Anthropic/Claude · OpenAI/ChatGPT</em>]]></description>
-<pubDate>Sat, 19 Sep 2026 13:21:06 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1wkm3wa/claude_opus_5_helped_researchers_take_over_openai/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-<category>Anthropic/Claude</category>
-<category>OpenAI/ChatGPT</category>
-</item>
-<item>
-<title>Best site / app to be pair with cyber security news</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1wkifw5/best_site_app_to_be_pair_with_cyber_security_news/</link>
-<description><![CDATA[Hi guys, I would like to ask if anyone know a good site or app to see news from the cyber security area, news in general and recent attacks, globally mainly. submitted by /u/low0nink [link] [comments]]]></description>
-<pubDate>Sat, 19 Sep 2026 10:15:49 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1wkifw5/best_site_app_to_be_pair_with_cyber_security_news/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE</title>
 <link>https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html</link>
 <description><![CDATA[SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability. The vulnerability, tracked as CVE-2026-28326, is rated 8.8 out of 10.0 on the CVSS scoring system. The issue affects all versions of Access Rights Manager 2026.2 and prior. &quot;SolarWinds<br/><br/><em>Tags: SolarWinds · Anthropic/Claude · Linux kernel · CVE-2026-28326 · CVE-2026-28323 · CVE-2026-28299 · CVE-2026-28302 · CVE-2026-28304</em>]]></description>
@@ -148,16 +109,6 @@
 </item>
 <item>
 <title>CVE-2026-77179: Docker&apos;s hypervisor for Mac compromised (Docker Desktop, Docker Sandboxes)</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1wkei8h/cve202677179_dockers_hypervisor_for_mac/</link>
-<description><![CDATA[submitted by /u/natcoba [link] [comments]<br/><br/><em>Tags: CVE-2026-77179</em>]]></description>
-<pubDate>Sat, 19 Sep 2026 06:27:22 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1wkei8h/cve202677179_dockers_hypervisor_for_mac/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-<category>CVE-2026-77179</category>
-</item>
-<item>
-<title>CVE-2026-77179: Docker&apos;s hypervisor for Mac compromised (Docker Desktop, Docker Sandboxes)</title>
 <link>https://www.reddit.com/r/netsec/comments/1wkeh8n/cve202677179_dockers_hypervisor_for_mac/</link>
 <description><![CDATA[submitted by /u/natcoba [link] [comments]<br/><br/><em>Tags: CVE-2026-77179</em>]]></description>
 <pubDate>Sat, 19 Sep 2026 06:25:58 +0000</pubDate>
@@ -180,19 +131,6 @@
 <category>CVE-2025-39682</category>
 </item>
 <item>
-<title>Four Linux kernel flaws now have public exploits, users could potentially escalate to root</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1wkdg4y/four_linux_kernel_flaws_now_have_public_exploits/</link>
-<description><![CDATA[Public exploits are now available for four recently patched Linux kernel vulnerabilities: • CVE-2026-80844 — DirtyAH6 • CVE-2026-81000 — TUNderflow • CVE-2026-68121 — PPPoEject • CVE-2026-74469 — DiagSpill These are mainly local privilege escalation bugs. So an attacker would generally need some access to the system first, but could potentially use these flaws to gain root access . This matters especially for shared servers, cloud/hosting systems and machines running older kernels. Fixes are already available, so updating your kernel/distro packages is recommended. So far, there are no reports of these exploits being used in real-world attacks. Source: submitted by /u/thechougala [link] [comments]<br/><br/><em>Tags: Linux kernel · CVE-2026-80844 · CVE-2026-81000 · CVE-2026-68121 · CVE-2026-74469</em>]]></description>
-<pubDate>Sat, 19 Sep 2026 05:30:08 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1wkdg4y/four_linux_kernel_flaws_now_have_public_exploits/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-<category>Linux kernel</category>
-<category>CVE-2026-80844</category>
-<category>CVE-2026-81000</category>
-<category>CVE-2026-68121</category>
-</item>
-<item>
 <title>HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)</title>
 <link>https://isc.sans.edu/diary/rss/33352</link>
 <description><![CDATA[In June 2026 the IETF published RFC 10008[ 1 ], defining a new HTTP method: &quot;QUERY&quot;. The HTTP protocol faced already by changes (HTTP/2, HTTP/3) but it&apos;s the first new standard HTTP verb since &quot;PATCH&quot; in 2010!]]></description>
@@ -200,33 +138,6 @@
 <guid isPermaLink="true">https://isc.sans.edu/diary/rss/33352</guid>
 <source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
 <category>government_authoritative</category>
-</item>
-<item>
-<title>Looking for threat related YouTube channels</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1wkazcn/looking_for_threat_related_youtube_channels/</link>
-<description><![CDATA[Looking for YouTube channels that go into threat research / analysis / general news. Podcasts get annoying because they’re often too long and unfocused or too general. Ideally I’d like something like 10-15 minute videos going into current threats, interesting or upcoming APTs, etc. I’m not looking for walkthroughs or tutorials, I want intel. Anything in that theme please let me know! submitted by /u/DizzyWisco [link] [comments]]]></description>
-<pubDate>Sat, 19 Sep 2026 03:23:41 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1wkazcn/looking_for_threat_related_youtube_channels/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
-<title>TikTok users&apos; cameras hacked with open weight model by depthfirst</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1wka8uj/tiktok_users_cameras_hacked_with_open_weight/</link>
-<description><![CDATA[washingtonpost.com/technology/…/cybersecurity-experts-say-free-ai-software-is-supercharging-hackers submitted by /u/BeneficialArtist3477 [link] [comments]]]></description>
-<pubDate>Sat, 19 Sep 2026 02:47:41 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1wka8uj/tiktok_users_cameras_hacked_with_open_weight/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
-<title>Gyazo server flaw exploited to steal 23.6 million user records</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1wk7pk0/gyazo_server_flaw_exploited_to_steal_236_million/</link>
-<description><![CDATA[submitted by /u/AsterPrivacy [link] [comments]]]></description>
-<pubDate>Sat, 19 Sep 2026 00:47:20 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1wk7pk0/gyazo_server_flaw_exploited_to_steal_236_million/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Gemini Hacked Three Companies in First Known Breakout by Google’s AI</title>
@@ -277,16 +188,6 @@
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>Linux kernel</category>
-</item>
-<item>
-<title>Microsoft Teams Help Desk Impersonation: When IT Support Messages You First</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1wjx7xd/microsoft_teams_help_desk_impersonation_when_it/</link>
-<description><![CDATA[Attackers are opening Microsoft Teams chats from tenants they control, using a display name like IT Service Desk , and talking people into either installing a file or handing over a remote session. Teams allows chat from any external domain by default, and the attacker only needs the target to say yes once. In the case Expel documented, the yes was an MSI hosted on a Microsoft Azure storage endpoint; the payoff was a fake Windows lock screen that captured the user’s password in the clear. Two settings in the Teams admin center and one sentence said out loud to your staff close most of this. submitted by /u/scamdrill [link] [comments]<br/><br/><em>Tags: Azure</em>]]></description>
-<pubDate>Fri, 18 Sep 2026 17:50:45 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1wjx7xd/microsoft_teams_help_desk_impersonation_when_it/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-<category>Azure</category>
 </item>
 <item>
 <title>Researchers use AI to find widespread software decoder flaw</title>
@@ -1095,15 +996,6 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
-<title>New Check Point flaw lets hackers execute code with root privileges</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1wjpy75/new_check_point_flaw_lets_hackers_execute_code/</link>
-<description><![CDATA[submitted by /u/DistinctSpeaker7252 [link] [comments]]]></description>
-<pubDate>Fri, 18 Sep 2026 13:16:50 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1wjpy75/new_check_point_flaw_lets_hackers_execute_code/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Webinar: Which Google Workspace security controls actually matter?</title>
 <link>https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter/</link>
 <description><![CDATA[Fast-growing companies face countless recommendations for securing Google Workspace, but not every control provides the same value. This webinar examines real-world breaches to explore which security controls matter most, which may be overrated, and where lean security teams should focus their resources. [...]<br/><br/><em>Tags: Google Workspace</em>]]></description>
@@ -1858,7 +1750,7 @@
 <item>
 <title>Cloud CISO Perspectives: How Google monitors AI threats and advances AI defenses</title>
 <link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-google-monitors-ai-threats-advances-ai-defenses/</link>
-<description><![CDATA[Welcome to the first Cloud CISO Perspectives for September 2026. Today, Sandra Joyce shares the latest details on Google’s visibility into how attackers are using AI, and how we’re using AI to stop them. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f3cf75a8390&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; ‘Spellcheck for cybersecurity’ and beyond: How Google monitors AI threats and advances AI defenses By Sandra Joyce, VP, Google Threat In]]></description>
+<description><![CDATA[Welcome to the first Cloud CISO Perspectives for September 2026. Today, Sandra Joyce shares the latest details on Google’s visibility into how attackers are using AI, and how we’re using AI to stop them. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f5d0e33b6d0&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; ‘Spellcheck for cybersecurity’ and beyond: How Google monitors AI threats and advances AI defenses By Sandra Joyce, VP, Google Threat In]]></description>
 <pubDate>Wed, 16 Sep 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-google-monitors-ai-threats-advances-ai-defenses/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
@@ -19512,7 +19404,7 @@
 <title>CrowdStrike Named a Leader in The Forrester Wave™: External Threat Intelligence Service Providers, Q3 2026</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 20 Sep 2026 00:54:31 +0000</pubDate>
+<pubDate>Sun, 20 Sep 2026 05:57:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19521,7 +19413,7 @@
 <title>CrowdStrike SafeMind: When the Best Offense Builds the Best Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 20 Sep 2026 00:54:31 +0000</pubDate>
+<pubDate>Sun, 20 Sep 2026 05:57:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19530,7 +19422,7 @@
 <title>CrowdStrike Accelerates Real-Time Data Classification with On-Device AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 20 Sep 2026 00:54:31 +0000</pubDate>
+<pubDate>Sun, 20 Sep 2026 05:57:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19539,7 +19431,7 @@
 <title>PhantomRaven: An LLM-Generated Information Stealer Developed for Bug Bounty Hunting</title>
 <link>https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 20 Sep 2026 00:54:31 +0000</pubDate>
+<pubDate>Sun, 20 Sep 2026 05:57:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19548,7 +19440,7 @@
 <title>September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 20 Sep 2026 00:54:31 +0000</pubDate>
+<pubDate>Sun, 20 Sep 2026 05:57:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19557,7 +19449,7 @@
 <title>CrowdStrike Delivers the Next Evolution of the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 20 Sep 2026 00:54:31 +0000</pubDate>
+<pubDate>Sun, 20 Sep 2026 05:57:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19566,7 +19458,7 @@
 <title>CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Sun, 20 Sep 2026 00:54:31 +0000</pubDate>
+<pubDate>Sun, 20 Sep 2026 05:57:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19576,7 +19468,7 @@
 <title>CrowdStrike Announces Agentic Identity Provider</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 20 Sep 2026 00:54:31 +0000</pubDate>
+<pubDate>Sun, 20 Sep 2026 05:57:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19585,7 +19477,7 @@
 <title>CrowdStrike Falcon Guardian Defines the Next Generation of AI Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 20 Sep 2026 00:54:31 +0000</pubDate>
+<pubDate>Sun, 20 Sep 2026 05:57:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19594,7 +19486,7 @@
 <title>Peer Pressure: Inside the Sality Botnet Disruption Operation</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 20 Sep 2026 00:54:31 +0000</pubDate>
+<pubDate>Sun, 20 Sep 2026 05:57:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
