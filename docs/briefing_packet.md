@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-09-20T18:10:13.697644+00:00
+- Generated: 2026-09-20T21:22:39.359845+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
-- Total items in window: 408
-- Total clusters raw: 209
+- Total items in window: 410
+- Total clusters raw: 210
 - Total clusters in packet: 80
-- Dropped low score: 129
+- Dropped low score: 130
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,21 +70,26 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 4
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
@@ -100,80 +105,65 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
-  - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 8
+  - In window count: 0
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 4
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 8
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
-  - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
@@ -185,20 +175,30 @@
   - Status: ok
   - Item count: 50
   - In window count: 0
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
@@ -220,116 +220,126 @@
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 2
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 6
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 3
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 6
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 4
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 2
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
+  - In window count: 3
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
-  - In window count: 3
+  - In window count: 4
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 0
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+  - In window count: 2
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 20
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
+  - In window count: 0
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
-  - Item count: 5
-  - In window count: 5
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+  - Item count: 10
+  - In window count: 2
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 1
+  - In window count: 20
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 20
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -340,26 +350,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 50
   - In window count: 0
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 19
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
@@ -370,6 +365,11 @@
   - Status: ok
   - Item count: 50
   - In window count: 18
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -385,48 +385,13 @@
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -435,26 +400,61 @@
   - Status: ok
   - Item count: 100
   - In window count: 26
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 15
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
-  - In window count: 0
+  - In window count: 1
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
@@ -681,10 +681,10 @@
 - Dominant features:
   - affected_industries: financial_services
   - affected_products: Apple iOS/macOS
-- Cluster IDs: d99c303c35, 250fac7429
+- Cluster IDs: 250fac7429, d99c303c35
 - Links:
-  - https://unit42.paloaltonetworks.com/atomic-macos-amos-stealer-activity/
   - https://www.sentinelone.com/labs/dont-call-us-well-call-your-apis-tradertraitor-backdoors-resurface-on-victim-with-no-crypto-ties/
+  - https://unit42.paloaltonetworks.com/atomic-macos-amos-stealer-activity/
 
 ### ShinyHunters: data breach
 - Anchor signal: ShinyHunters
@@ -1074,7 +1074,7 @@ CATEGORIES AI Research 20 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
 - Published: 2026-09-18T08:49:00+00:00
 - Link: https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/
 - Fetch status: ok
-- Member count: 11
+- Member count: 12
 - Corroborating source count: 6
 - Strong signals: Anthropic/Claude, GitHub, Google/Gemini
 
@@ -1113,16 +1113,16 @@ Sinisa Markovic , Managing Editor, Help Net Security September 18, 2026 Share Ze
   - Published: 2026-09-18T08:49:00+00:00
   - Link: https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/
   - Summary: Four major AI coding agents, Claude Code, Codex, GitHub Copilot and Gemini CLI, all share the same zero-click RCE vulnerability, one that could give an attacker the same reach into a company’s systems and data as the employee running the agent, according to AIR. “It is the first supply chain vulnerability of the AI agent ecosystem,” the researchers said. “Anyone running a major coding agent that installs plugins from a marketplace is exposed. The exposure … More → The post Zero-click RCE vulnerability hit four major AI coding agents, two remain unpatched appeared first on Help Net Security .
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Quoting voxium
+  - Published: 2026-09-20T21:06:43+00:00
+  - Link: https://simonwillison.net/2026/Sep/20/voxium/
+  - Summary: It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are working 12 to 13 hours a day just to press enter. Nobody is reading anything. Everyone, literally everyone, from an L1 to an L7 engineer here is doing the same thing. Talk to Claude. — voxium Tags: ai-misuse , llms , ai , generative-ai
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2
   - Published: 2026-09-18T15:24:16+00:00
   - Link: https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html
   - Summary: The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government and defense entities in India and Afghanistan. The attacks, per Zscaler ThreatLabz, involve the use of previously undocumented tools called RUSTYSHADE, RUSTYMOVE, PSNATCH, and BASHNATCH. The activity has been codenamed Operation
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: Gemini Hacked Three Companies in First Known Breakout by Google’s AI
-  - Published: 2026-09-18T23:57:57+00:00
-  - Link: https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/
-  - Summary: Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Felony Bench ! The hacks, which the company confirmed on Friday, occurred in May as part of a test run by the company Irregular, which was also involved in similar incidents disclosed by OpenAI, Anthropic and Meta. In one of the cases, the model guessed passwords until it gained access to a protected system. In the other two cases, the model found credentials in a public repository that allowed it to then access protected systems. In each case, the model ended the intrusion after determining it had accessed a real company’s systems, Google said. Gemini is apparently less determined than other models, and decided not to keep going. Google knew about these in July, but chose not to disclose them until the WSJ reached out, presumably based on a tip. Google said it didn’t consider the hacks to warrant public disclosure—because its model didn’t cause harm to the companies and ended each intrusio
 - **Schneier on Security** (practitioner_analysis)
   - Title: Microsoft’s Patching
   - Published: 2026-09-14T11:03:26+00:00
@@ -2313,6 +2313,53 @@ S2 Research Team 14 min read March 6, 2024 Coper / Octo - A Conductor for Mobile
   - Link: https://www.helpnetsecurity.com/2026/09/18/google-androidx-security-state-libraries/
   - Summary: New AndroidX Security State libraries provide a more granular way to determine how securely patched an Android device is. The stable Security State v1.1.0 and Security State Provider v1.0.0 libraries allow developers to check the security status of individual device components and determine whether security updates are ready to be downloaded and installed on a specific device. For phone manufacturers and developers who build over-the-air (OTA) update systems, the androidx.security.state.provider library provides a standard way … More → The post Android apps can now check security patches down to individual device components appeared first on Help Net Security .
 
+### Cluster 250fac7429 — score 10
+
+- Title: Don’t Call Us, We’ll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties
+- Source: SentinelOne Labs (threat_research_primary)
+- Published: 2026-09-18T17:00:16+00:00
+- Link: https://www.sentinelone.com/labs/dont-call-us-well-call-your-apis-tradertraitor-backdoors-resurface-on-victim-with-no-crypto-ties/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, ddos, phishing_social_eng
+- actor_attribution: Lazarus, UNC4899
+- affected_industries: financial_services, retail_ecommerce
+- affected_products: AWS, Apple iOS/macOS, GitHub
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, ddos, apt_espionage
+- actor_attribution: Lazarus, UNC4899
+- affected_industries: financial_services, retail_ecommerce
+- affected_products: Apple iOS/macOS, GitHub, AWS
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+North Korean operators built a foothold on a DevOps engineer's Mac in a campaign whose job interview lures deliver malware via Terraform lock files.
+```
+
+#### Full body
+
+```
+LABScon Don’t Call Us, We’ll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties Albert Priego , Alex Delamotte & Matej Havranek / September 18, 2026 Executive Summary Following disclosure of the TraderTraitor attack against LayerZero in April 2026, SentinelOne identified an additional victim with the same macOS backdoors. Our analysis explores the mechanics of these backdoors and the expanded targeting against a victim in the IT services sector with no relationship to cryptocurrency trading. We also identified more weaponized GitHub repositories from the social engineering schemes used to target job seekers in these campaigns. This report expands on how Terraform lock files enable the delivery of malware from custom Terraform provider registries controlled by the attackers. Overview Throughout 2026, the financially motivated DPRK state-sponsored Lazarus subgroup TraderTraitor ( aka UNC4899, PUKCHONG, Jade Sleet) has engaged in campaigns targeting entities involved in cryptocurrency trading, including a high-profile attack disclosed in April where USD 292 million was stolen from KelpDAO through a compromise of LayerZero . KelpDAO is a decentralized finance (DeFi) protocol that supports restaking Ethereum; LayerZero provides services with the capability to exchange cryptocurrency across different blockchain platforms. TraderTraitor compromised LayerZero and determined methods to create a fake cryptocurrency minting event, which the attacker combined with a DDoS against validation servers so that compromised servers would approve an illegitimate mint event, leading to the massive theft. Following the public disclosure of this breach, SentinelOne identified an additional victim infected with the macOS backdoors, FLATROOF ( aka macOS.Gaslight ) and ROOFDECK , which were first observed in the LayerZero attack. Unlike the previous high-profile victim, this target was a much smaller organization in the IT services industry. Our investigation revealed insights into what happens when this threat actor compromises a smaller organization that we believe ultimately yielded insufficient value to sustain the intrusion. Weaponized Terraform Coding Projects Each campaign related to this wave of activity uses social engineering via fake job interview lures, a traditional Contagious Interview approach common among DPRK actors. The attacker makes contact with job seekers from the company that is ultimately compromised; the GitHub profile of each targeted job seeker we identified falls into DevOps or cryptocurrency/FinTech engineering projects. The GitHub repository themes for coding project lures are designed as infrastructure engineering projects related to the company that the DPRK actors are posing as. By pivoting from the gtn-candidate-repo repository shared by LayerZero in their incident report , we identified additional lures, which included references to the companies Northwind and Novacart. It is unclear if these were fabricated companies used by the threat actor, or if they were posing as hiring teams from real companies with these names; one Northwind example describes it as an ecommerce company launching in the near future. Other repository names that we identified include: Northwind-IAC novacart-interview terraform-candidate-repo Interview task from a GitHub repository containing a weaponized .terraform.lock.hcl file The repositories contain a weaponized .terraform.lock.hcl file in the coding project with a custom provider that points to a domain controlled by the attacker. We identified three malicious provider domains across multiple repositories: registry.hashicorp-aws[.]com registry.hashicorp-aws[.]io registry.hashicorp-terraform[.]io When the victim runs terraform init with the weaponized lockfile in place, Terraform treats the custom provider as the source of truth, resulting in Terraform downloading and executing the malicious provider modules. Developer awareness can lead to friction against this
+```
+
+#### Corroborating sources (1)
+
+- **SentinelOne Labs** (threat_research_primary)
+  - Title: Don’t Call Us, We’ll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties
+  - Published: 2026-09-18T17:00:16+00:00
+  - Link: https://www.sentinelone.com/labs/dont-call-us-well-call-your-apis-tradertraitor-backdoors-resurface-on-victim-with-no-crypto-ties/
+  - Summary: North Korean operators built a foothold on a DevOps engineer's Mac in a campaign whose job interview lures deliver malware via Terraform lock files.
+
 ### Cluster 33b6cffcbd — score 10
 
 - Title: Inside the Modern SOC: Defending the Cross-Environment Pivot
@@ -2395,100 +2442,6 @@ Threat Research Center Insights General General Atomic macOS (AMOS) Stealer Acti
   - Link: https://unit42.paloaltonetworks.com/atomic-macos-amos-stealer-activity/
   - Summary: Modern macOS malware uses deceptive setup guides to steal credentials and sensitive user data. Learn how to identify and block these threats. The post Atomic macOS (AMOS) Stealer Activity appeared first on Unit 42 .
 
-### Cluster 250fac7429 — score 10
-
-- Title: Don’t Call Us, We’ll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties
-- Source: SentinelOne Labs (threat_research_primary)
-- Published: 2026-09-18T17:00:16+00:00
-- Link: https://www.sentinelone.com/labs/dont-call-us-well-call-your-apis-tradertraitor-backdoors-resurface-on-victim-with-no-crypto-ties/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, ddos, phishing_social_eng
-- actor_attribution: Lazarus, UNC4899
-- affected_industries: financial_services, retail_ecommerce
-- affected_products: AWS, Apple iOS/macOS, GitHub
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, ddos, apt_espionage
-- actor_attribution: Lazarus, UNC4899
-- affected_industries: financial_services, retail_ecommerce
-- affected_products: Apple iOS/macOS, GitHub, AWS
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-North Korean operators built a foothold on a DevOps engineer's Mac in a campaign whose job interview lures deliver malware via Terraform lock files.
-```
-
-#### Full body
-
-```
-LABScon Don’t Call Us, We’ll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties Albert Priego , Alex Delamotte & Matej Havranek / September 18, 2026 Executive Summary Following disclosure of the TraderTraitor attack against LayerZero in April 2026, SentinelOne identified an additional victim with the same macOS backdoors. Our analysis explores the mechanics of these backdoors and the expanded targeting against a victim in the IT services sector with no relationship to cryptocurrency trading. We also identified more weaponized GitHub repositories from the social engineering schemes used to target job seekers in these campaigns. This report expands on how Terraform lock files enable the delivery of malware from custom Terraform provider registries controlled by the attackers. Overview Throughout 2026, the financially motivated DPRK state-sponsored Lazarus subgroup TraderTraitor ( aka UNC4899, PUKCHONG, Jade Sleet) has engaged in campaigns targeting entities involved in cryptocurrency trading, including a high-profile attack disclosed in April where USD 292 million was stolen from KelpDAO through a compromise of LayerZero . KelpDAO is a decentralized finance (DeFi) protocol that supports restaking Ethereum; LayerZero provides services with the capability to exchange cryptocurrency across different blockchain platforms. TraderTraitor compromised LayerZero and determined methods to create a fake cryptocurrency minting event, which the attacker combined with a DDoS against validation servers so that compromised servers would approve an illegitimate mint event, leading to the massive theft. Following the public disclosure of this breach, SentinelOne identified an additional victim infected with the macOS backdoors, FLATROOF ( aka macOS.Gaslight ) and ROOFDECK , which were first observed in the LayerZero attack. Unlike the previous high-profile victim, this target was a much smaller organization in the IT services industry. Our investigation revealed insights into what happens when this threat actor compromises a smaller organization that we believe ultimately yielded insufficient value to sustain the intrusion. Weaponized Terraform Coding Projects Each campaign related to this wave of activity uses social engineering via fake job interview lures, a traditional Contagious Interview approach common among DPRK actors. The attacker makes contact with job seekers from the company that is ultimately compromised; the GitHub profile of each targeted job seeker we identified falls into DevOps or cryptocurrency/FinTech engineering projects. The GitHub repository themes for coding project lures are designed as infrastructure engineering projects related to the company that the DPRK actors are posing as. By pivoting from the gtn-candidate-repo repository shared by LayerZero in their incident report , we identified additional lures, which included references to the companies Northwind and Novacart. It is unclear if these were fabricated companies used by the threat actor, or if they were posing as hiring teams from real companies with these names; one Northwind example describes it as an ecommerce company launching in the near future. Other repository names that we identified include: Northwind-IAC novacart-interview terraform-candidate-repo Interview task from a GitHub repository containing a weaponized .terraform.lock.hcl file The repositories contain a weaponized .terraform.lock.hcl file in the coding project with a custom provider that points to a domain controlled by the attacker. We identified three malicious provider domains across multiple repositories: registry.hashicorp-aws[.]com registry.hashicorp-aws[.]io registry.hashicorp-terraform[.]io When the victim runs terraform init with the weaponized lockfile in place, Terraform treats the custom provider as the source of truth, resulting in Terraform downloading and executing the malicious provider modules. Developer awareness can lead to friction against this
-```
-
-#### Corroborating sources (1)
-
-- **SentinelOne Labs** (threat_research_primary)
-  - Title: Don’t Call Us, We’ll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties
-  - Published: 2026-09-18T17:00:16+00:00
-  - Link: https://www.sentinelone.com/labs/dont-call-us-well-call-your-apis-tradertraitor-backdoors-resurface-on-victim-with-no-crypto-ties/
-  - Summary: North Korean operators built a foothold on a DevOps engineer's Mac in a campaign whose job interview lures deliver malware via Terraform lock files.
-
-### Cluster 233b776dcc — score 10
-
-- Title: NightEagle targets Russian companies
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-09-16T10:00:11+00:00
-- Link: https://securelist.com/tr/nighteagle-apt-ghostcontainer-and-tunneling/121323/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_industries: critical_infrastructure
-- affected_products: GitHub
-- cve_ids: CVE-2020-0688
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_industries: critical_infrastructure
-- affected_products: GitHub
-- cve_ids: CVE-2020-0688
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Kaspersky GERT experts have uncovered a new campaign by the NightEagle APT, featuring the GhostContainer backdoor and tools hosted on GitHub. The group is also exploiting vulnerabilities in Active Directory and RDP.
-```
-
-#### Full body
-
-```
-Threat Response Table of Contents Initial access GhostContainer on Microsoft Exchange Traffic redirection Lateral movement Takeaways Detection by Kaspersky solutions Indicators of compromise Over the past year, our Global Emergency Response Team (GERT) has investigated several incidents involving the NightEagle group (also tracked as APT-Q-95) . This group has been active since at least 2023 and originally focused on organizations in Asia. We have now identified attacks by the group targeting businesses in Russia. This post examines both known and new tools NightEagle used in its latest campaign. Initial access In most incidents, the attackers used compromised valid credentials to gain access to corporate VPNs. VPN connections originated from IP addresses in the Russian segment linked to Cloudflare WARP tunnels, as well as from IP addresses associated with European virtual infrastructure providers. GhostContainer on Microsoft Exchange Both during the initial access stage and as the attack progressed, the attackers deployed the GhostContainer backdoor on Microsoft Exchange servers. It incorporates components from several open-source projects, including the Neo-reGeorg tunnel, an exploit for the CVE-2020-0688 vulnerability, and the GhostWebShell class from the ysoserial utility. All of these components are publicly available on GitHub. We were unable to determine the exact method the attackers used to deliver the backdoor to Microsoft Exchange servers. We believe with a high degree of confidence that they applied a technique already familiar to us : extracting the cryptographic keys used by Microsoft Exchange from the ASP.NET configuration, overwriting the VIEWSTATE framework parameter, and injecting a payload into it, which then launched the GhostContainer backdoor in memory. The backdoor is a .NET assembly containing three classes that implement its core functionality: Stub : processes C2 commands delivered to the infected system through the x-owa-urlpostdata headers and evades detection by the Antimalware Scan Interface (AMSI) and Windows Event Log mechanisms by overwriting addresses in amsi.dll and ntdll.dll . App_Web_843e75cf5b63 : accepts the fakePath and fakePageName parameters and creates virtual paths that redirect requests to the App_Web_8c9b251fb5b3 class. App_Web_8c9b251fb5b3 : implements network traffic redirection (proxying) and socket forwarding functionality. Kaspersky products detect the GhostContainer backdoor as Trojan.MSIL.GhostContainer.gen. GhostContainer samples identified by the Similarity technology from Kaspersky Threat Analysis Traffic redirection Once the attackers gain sufficient privileges during an attack, they leverage RDP to move laterally within the internal network segment. To do this, they download and run tools for tunneling and redirecting network traffic. The attackers used GitHub repositories to host their archived tools. The names of the repositories and archives were disguised to look legitimate: https : //github[.]com/mirror-js/mirror-js/refs/heads/main/js/js-webpack.zip https : //github[.]com/mirror-js/mirror-js/refs/heads/main/js/jsonp-pack.zip https : //github[.]com/browserthemes/resourcepack/releases/download/main/resource-pack.zip One of the repositories used for storing network tools The files contained within the archives were also given names mimicking known legitimate software, though unrelated to the archive names: adobe_32.exe ; AdobeSync.exe ; trueconf.exe ; 1cbroker.exe ; 1c-office-plugin.exe ; trueconf-broker.exe . Across the incidents we investigated, we found two tools that the attackers combined for traffic tunneling. Microsoft dev tunnels This is a legitimate Microsoft mechanism that allows local web services to be published for internet access on *.*.devtunnels.ms domains. The attackers used this tunneling capability to expose port 3389 (RDP) on the compromised system. Execution graph of adobe_32.exe in Kaspersky Research Sandbox rdp2tcp This is a publicly available t
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: NightEagle targets Russian companies
-  - Published: 2026-09-16T10:00:11+00:00
-  - Link: https://securelist.com/tr/nighteagle-apt-ghostcontainer-and-tunneling/121323/
-  - Summary: Kaspersky GERT experts have uncovered a new campaign by the NightEagle APT, featuring the GhostContainer backdoor and tools hosted on GitHub. The group is also exploiting vulnerabilities in Active Directory and RDP.
-
 ### Cluster 4177169ade — score 10
 
 - Title: 14th September – Threat Intelligence Report
@@ -2540,93 +2493,52 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 14th Septe
   - Link: https://research.checkpoint.com/2026/14th-september-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 14th Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES IDScan.net, a US identity verification provider, has disclosed a data breach after detecting unauthorized access on September 1. Exposed data included names and government identification numbers, while a criminal marketplace advertised a […] The post 14th September – Threat Intelligence Report appeared first on Check Point Research .
 
-### Cluster b14566fc43 — score 10
+### Cluster 233b776dcc — score 10
 
-- Title: Ransomware incidents in Japan in the first half of 2026: Investigation of The Gentlemen’s infrastructure and evidence of Qilin's AI use
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-09-17T10:00:43+00:00
-- Link: https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/
+- Title: NightEagle targets Russian companies
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-09-16T10:00:11+00:00
+- Link: https://securelist.com/tr/nighteagle-apt-ghostcontainer-and-tunneling/121323/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- actor_attribution: LockBit
-- affected_industries: manufacturing_industrial
-- affected_products: Cisco
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_industries: critical_infrastructure
+- affected_products: GitHub
+- cve_ids: CVE-2020-0688
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- actor_attribution: LockBit
-- affected_industries: manufacturing_industrial
-- affected_products: Cisco
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_industries: critical_infrastructure
+- affected_products: GitHub
+- cve_ids: CVE-2020-0688
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs with capital under JPY 1 billion represented 80% of victims.
+Kaspersky GERT experts have uncovered a new campaign by the NightEagle APT, featuring the GhostContainer backdoor and tools hosted on GitHub. The group is also exploiting vulnerabilities in Active Directory and RDP.
 ```
 
 #### Full body
 
 ```
-Ransomware incidents in Japan in the first half of 2026: Investigation of The Gentlemen’s infrastructure and evidence of Qilin's AI use By Takahiro Takeda , Jordyn Dunk , Michael Szeliga Thursday, September 17, 2026 06:00 ransomware Threat Spotlight Compared with the same period last year, ransomware incidents in Japan increased slightly by approximately 4.7%, indicating that ransomware continues to pose a significant threat. In Japan, The Gentlemen was the most active ransomware group in the first half of 2026. Attackers continue to primarily target small- and medium-sized enterprises, with organizations capitalized at less than JPY 1 billion accounting for approximately 80% of the total — an increase of around 13% from the previous year. The total number of listings on The Gentlemen’s leak site increased from 48 in January to 105 in July, representing approximately a 2.2-fold increase in activity. Additionally, there is a possibility that Russian-speaking individuals are involved in The Gentlemen’s attacks. Qilin, which recorded the second-highest number of observed incidents in 2026 after The Gentlemen, is leveraging AI to improve the efficiency of its operations. Victimized companies Figure 1 summarizes ransomware incidents affecting Japanese companies from January to July 2026. According to Cisco Talos research, 90 organizations in Japan were affected by ransomware during this period. Compared with 86 incidents during the same period from January to July last year, this represents a slight increase of approximately 4.7%, indicating that ransomware incidents continue to remain at a high level. On a monthly basis, there were approximately 13 incidents per month on average. The number of incidents increased in March and April, with April recording the highest number during the period at 19 incidents. Cases involving overseas offices and subsidiaries accounted for 13.3% of the total. Among these, Taiwan recorded the highest number of incidents, followed by the United States and the Philippines, which recorded the same number of incidents, with multiple cases identified in each country. Figure 1. Ransomware incidents in Japan during the first half of 2026 (January through July). The manufacturing sector continued to be the most affected industry, accounting for 34% of incidents, followed by the information and communications sector at 11% and the services sector at 9% (see Figure 2). Figure 2. Percentage of victim organizations by industry. In terms of the size of the affected organizations, those with capital of less than JPY 100 million accounted for the largest share at 48%, followed by organizations with capital of JPY 100 million to less than JPY 1 billion at 30%. Combined, organizations with capital of less than JPY 1 billion accounted for 78% of the total, representing an increase of around 13% from 69% in 2025. This suggests that attackers are increasingly focusing their efforts on small- and medium-sized enterprises (see Figure 3). Figure 3. Classification of victim organizations by capital size (excluding unknown). Most frequently observed ransomware types in Japan In Japan, the most frequently observed ransomware group in the first half of 2026 was The Gentlemen, with 14 incidents. This was followed by Qilin, which caused the highest number of incidents last year, and SafePay, which had relatively few confirmed incidents during the same period last year, with seven incidents each. The Gentlemen and SafePay have increased their activity this year and can be considered emerging ransomware groups that require increased vigilance. Other ransomware groups observed include NightSpire, NetRunner, LockBit 5.0, RansomEXX, Stormous, and AiLock. Looking at the ransomware groups observed this year, very few of the groups that were active during the same period last year have been observed, highlighting the rapid changes in the ransomware threat landscape. Figure 4. Number of incidents by ransomware type used in attacks (exclude
+Threat Response Table of Contents Initial access GhostContainer on Microsoft Exchange Traffic redirection Lateral movement Takeaways Detection by Kaspersky solutions Indicators of compromise Over the past year, our Global Emergency Response Team (GERT) has investigated several incidents involving the NightEagle group (also tracked as APT-Q-95) . This group has been active since at least 2023 and originally focused on organizations in Asia. We have now identified attacks by the group targeting businesses in Russia. This post examines both known and new tools NightEagle used in its latest campaign. Initial access In most incidents, the attackers used compromised valid credentials to gain access to corporate VPNs. VPN connections originated from IP addresses in the Russian segment linked to Cloudflare WARP tunnels, as well as from IP addresses associated with European virtual infrastructure providers. GhostContainer on Microsoft Exchange Both during the initial access stage and as the attack progressed, the attackers deployed the GhostContainer backdoor on Microsoft Exchange servers. It incorporates components from several open-source projects, including the Neo-reGeorg tunnel, an exploit for the CVE-2020-0688 vulnerability, and the GhostWebShell class from the ysoserial utility. All of these components are publicly available on GitHub. We were unable to determine the exact method the attackers used to deliver the backdoor to Microsoft Exchange servers. We believe with a high degree of confidence that they applied a technique already familiar to us : extracting the cryptographic keys used by Microsoft Exchange from the ASP.NET configuration, overwriting the VIEWSTATE framework parameter, and injecting a payload into it, which then launched the GhostContainer backdoor in memory. The backdoor is a .NET assembly containing three classes that implement its core functionality: Stub : processes C2 commands delivered to the infected system through the x-owa-urlpostdata headers and evades detection by the Antimalware Scan Interface (AMSI) and Windows Event Log mechanisms by overwriting addresses in amsi.dll and ntdll.dll . App_Web_843e75cf5b63 : accepts the fakePath and fakePageName parameters and creates virtual paths that redirect requests to the App_Web_8c9b251fb5b3 class. App_Web_8c9b251fb5b3 : implements network traffic redirection (proxying) and socket forwarding functionality. Kaspersky products detect the GhostContainer backdoor as Trojan.MSIL.GhostContainer.gen. GhostContainer samples identified by the Similarity technology from Kaspersky Threat Analysis Traffic redirection Once the attackers gain sufficient privileges during an attack, they leverage RDP to move laterally within the internal network segment. To do this, they download and run tools for tunneling and redirecting network traffic. The attackers used GitHub repositories to host their archived tools. The names of the repositories and archives were disguised to look legitimate: https : //github[.]com/mirror-js/mirror-js/refs/heads/main/js/js-webpack.zip https : //github[.]com/mirror-js/mirror-js/refs/heads/main/js/jsonp-pack.zip https : //github[.]com/browserthemes/resourcepack/releases/download/main/resource-pack.zip One of the repositories used for storing network tools The files contained within the archives were also given names mimicking known legitimate software, though unrelated to the archive names: adobe_32.exe ; AdobeSync.exe ; trueconf.exe ; 1cbroker.exe ; 1c-office-plugin.exe ; trueconf-broker.exe . Across the incidents we investigated, we found two tools that the attackers combined for traffic tunneling. Microsoft dev tunnels This is a legitimate Microsoft mechanism that allows local web services to be published for internet access on *.*.devtunnels.ms domains. The attackers used this tunneling capability to expose port 3389 (RDP) on the compromised system. Execution graph of adobe_32.exe in Kaspersky Research Sandbox rdp2tcp This is a publicly available t
 ```
 
 #### Corroborating sources (1)
 
-- **Cisco Talos** (threat_research_primary)
-  - Title: Ransomware incidents in Japan in the first half of 2026: Investigation of The Gentlemen’s infrastructure and evidence of Qilin's AI use
-  - Published: 2026-09-17T10:00:43+00:00
-  - Link: https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/
-  - Summary: Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs with capital under JPY 1 billion represented 80% of victims.
-
-### Cluster ef7016e41f — score 10
-
-- Title: Securing the unpatchable in an age of AI-driven vulnerabilities
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-09-16T10:00:36+00:00
-- Link: https://blog.talosintelligence.com/securing-the-unpatchable-in-an-age-of-ai-driven-vulnerabilities/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government, healthcare, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: healthcare, government, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Advances in AI technology will continue to identify vulnerabilities that in some circumstances are difficult, or effectively impossible, to patch. Appropriate network segmentation, rigorous visibility, and the deployment of NGFW/IPS combinations can provide a powerful compensatory layer.
-```
-
-#### Full body
-
-```
-Securing the unpatchable in an age of AI-driven vulnerabilities By Martin Lee Wednesday, September 16, 2026 06:00 On The Radar AI is accelerating vulnerability discovery, leaving unpatchable operational technology (OT) systems at risk. Hoping for the best is not a viable anti-exploitation strategy. Deploying next-generation firewalls directly upstream allows for virtual patching through deep packet inspection. These systems scan incoming traffic to detect and block exploit attempts before they can impact the vulnerable device. The predictability of legitimate network connections to OT systems can be used to protect systems through micro-segmentation. This ensures that only a handful of authorized devices can communicate with the system, minimizing the attack surface. AI-assisted code analysis is uncovering decades of technical debt. Every new patch removes a newly identified coding mistake. Little by little, we are improving the state of software engineering, but the price is a cadence of patching that organizations may struggle to implement. These efforts leave unsupported systems, or systems that are not able to be patched for whatever reason, with unmitigated known vulnerabilities. How can such systems be secured in a world where AI is steadily improving its ability to identify new vulnerabilities? Operational technology (OT) systems provide the services that support modern life (e.g., medical equipment, building management systems, and industrial critical systems within chemical plants). Often the systems are certified to operate only with a defined set of software that cannot easily be altered, or operate using systems that are no longer supported. In either case, if a vulnerability is discovered that affects the system, there is no easy way for it to be patched. Ignoring the problem and hoping for the best is rarely an effective strategy. The U.K.’s NHS health system was significantly affected by the WannaCry worm in 2017, with a significant minority of systems running the end-of-life operating system Windows XP contributing to the problem. More recently, exploitation of end-of-life software was used to gain access to governmental systems in 2023. Even systems that are believed to run on a bespoke platform will almost certainly include common libraries and protocols in which vulnerabilities may be found. Vulnerable systems that are not publicly exposed can still be identified by threat actors who gain access to internal networks and pose a tempting target. Defending by predictability Applying the approved patch remains the best option. If this is not possible, we can use the inherent predictability of OT systems to protect them. Visibility first: You cannot protect what you cannot see. The characteristics of the network fingerprint presented by legacy systems allows them to be easily identified to build an inventory of systems requiring attention. Micro-segmentation: Network architecture is an effective first line of defense. Frequently, OT only ever connects to a small number of systems. By using virtual local area networks (VLANs) coupled with access control lists (ACLs), we can place vulnerable systems on private networks where only authorized devices are permitted to connect to them. By shutting them off from the rest of the network, we make it incrementally more difficult for attackers to identify them and launch their attacks. NGFW and IPS: Placing a next-generation firewall (NGFW) upstream allows for granular filtering. When equipped with an up-to-date intrusion prevention system (IPS), the firewall can inspect traffic to filter out any attempts at exploitation before it impacts the device. When coupled with network segmentation, we can ensure that not only are trusted systems solely communicating with the vulnerable system, but that the traffic is free from known malicious content. The myth of the air gap In theory, it is possible to create an air-gapped system that is completely disconnected from wider systems,
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Securing the unpatchable in an age of AI-driven vulnerabilities
-  - Published: 2026-09-16T10:00:36+00:00
-  - Link: https://blog.talosintelligence.com/securing-the-unpatchable-in-an-age-of-ai-driven-vulnerabilities/
-  - Summary: Advances in AI technology will continue to identify vulnerabilities that in some circumstances are difficult, or effectively impossible, to patch. Appropriate network segmentation, rigorous visibility, and the deployment of NGFW/IPS combinations can provide a powerful compensatory layer.
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: NightEagle targets Russian companies
+  - Published: 2026-09-16T10:00:11+00:00
+  - Link: https://securelist.com/tr/nighteagle-apt-ghostcontainer-and-tunneling/121323/
+  - Summary: Kaspersky GERT experts have uncovered a new campaign by the NightEagle APT, featuring the GhostContainer backdoor and tools hosted on GitHub. The group is also exploiting vulnerabilities in Active Directory and RDP.
 
 ### Cluster 5f75cd0900 — score 10
 
@@ -2715,125 +2627,6 @@ Business Security Cyberthreats are moving faster than SMBs: Readiness must accel
   - Published: 2026-09-16T09:00:00+00:00
   - Link: https://www.welivesecurity.com/en/business-security/cyberthreats-moving-faster-smbs-readiness-must-accelerate/
   - Summary: As AI adoption expands the attack surface and adds to the security workload, businesses need automation backed by experts
-
-### Cluster 0af61280d0 — score 10
-
-- Title: How Kyocera AVX Built a Global Security Validation Program from Zero
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-09-18T16:12:24+00:00
-- Link: https://horizon3.ai/customer-story/kyocera-avx-global-security-validation/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_industries: manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-See how Kyocera AVX used NodeZero to build a global security validation program, scale autonomous pentesting across manufacturing sites, and remediate more than 30,000 vulnerabilities and misconfigurations.
-```
-
-#### Full body
-
-```
-How Kyocera AVX Built a Global Security Validation Program from Zero Horizon3 Customer Stories Building a security validation program across global manufacturing environments requires more than deploying another scanning tool. Security teams need to identify which weaknesses attackers can actually exploit, prioritize remediation, and validate risk without disrupting production. Kyocera AVX faced that challenge across 33 manufacturing sites worldwide. With no formal vulnerability management or pentesting program, the company needed a practical way to understand real exposure and build a repeatable validation process that could coexist with complex production environments. This customer story explores how Kyocera AVX used NodeZero® to build a global, evidence-driven security validation program, remediate more than 30,000 vulnerabilities and misconfigurations, and establish a pentesting cadence four times higher than the industry norm. Key Insight Traditional vulnerability findings show teams what might be vulnerable. Kyocera AVX needed an attacker’s perspective to understand which weaknesses could actually be exploited and chained into meaningful attack paths. By making NodeZero the engine behind its vulnerability management and pentesting program, Kyocera AVX gained: Visibility into real, exploitable attack paths A repeatable validation program across global manufacturing sites Actionable Fix Actions that IT teams could use to remediate risk Targeted retesting with 1-Click Verify Executive visibility through NodeZero data integrated with Splunk A sustainable testing model designed around production realities What You’ll Learn How to build a security validation program from the ground up Why exploit-based testing provides context traditional vulnerability findings cannot How Kyocera AVX scaled autonomous pentesting across global manufacturing environments How attack-path evidence helps overcome operational resistance to security testing Why Fix Actions can make remediation clearer and more actionable for IT teams How targeted retesting verifies whether security fixes actually reduce exposure How NodeZero data and Splunk dashboards help communicate risk to executives How continuous pentesting can coexist with production and OT-adjacent environments Why It Matters Manufacturing security teams have to balance cyber risk with business continuity and production safety. That can make organizations understandably cautious about introducing testing they perceive as invasive. But avoiding validation leaves another risk: vulnerabilities, misconfigurations, credential exposures, and attack paths can remain hidden because no one has demonstrated how an attacker could actually use them. Kyocera AVX changed that dynamic. NodeZero reached most manufacturing sites in roughly one to two years, compared with the four to five years typically required to fully roll out comparable tools in the company’s environment. Today, approximately 34 NodeZero hosts support regular assessments, with about four pentests per site each year plus targeted validation. In approximately three years, Kyocera AVX remediated more than 30,000 vulnerabilities and misconfigurations , transforming a program with essentially no formal vulnerability management or pentesting coverage into a global, evidence-driven security validation practice. Download the customer story to see how Kyocera AVX used NodeZero to build a global security validation program, expose real attack paths, and turn more than 30,000 weaknesses into measurable risk reduction. Download the customer story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: How Kyocera AVX Built a Global Security Validation Program from Zero
-  - Published: 2026-09-18T16:12:24+00:00
-  - Link: https://horizon3.ai/customer-story/kyocera-avx-global-security-validation/
-  - Summary: See how Kyocera AVX used NodeZero to build a global security validation program, scale autonomous pentesting across manufacturing sites, and remediate more than 30,000 vulnerabilities and misconfigurations.
-
-### Cluster 63b4630409 — score 10
-
-- Title: CTEM Buyer’s Guide: How to Evaluate the Technologies That Turn Continuous Threat Exposure Management Into an Operating Model
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-09-17T19:10:58+00:00
-- Link: https://horizon3.ai/downloads/whitepapers/ctem-buyers-guide/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Learn how to evaluate CTEM technologies based on what they can prove, from exploitable attack paths and remediation priorities to verification and measurable risk reduction.
-```
-
-#### Full body
-
-```
-CTEM Buyer’s Guide: How to Evaluate the Technologies That Turn Continuous Threat Exposure Management Into an Operating Model Horizon3 | September 17, 2026 | Whitepapers Get the CTEM Buyer’s Guide Table of Contents From CTEM Framework to Operating Model Continuous Threat Exposure Management (CTEM) has become one of the most important—and broadly interpreted—frameworks in cybersecurity. Gartner® describes CTEM as an integrated, iterative approach to continuously evaluating and improving security posture. But CTEM is a framework, not a product category. The challenge for buyers is determining which technologies can turn it into a repeatable operating model that reduces exposure to attackers. Instead of asking which vendors support CTEM, ask: What can this technology prove about our exposure? This buyer’s guide translates CTEM into a practical operating loop: Discover Exposure, Validate Exploitability, Prioritize With Confidence, Remediate With Clarity, Verify Risk Removal, and Repeat. Learn how to evaluate solutions based on attacker evidence, attack-path context, remediation clarity, and measurable risk reduction, not simply findings or risk scores. Inside the Guide Learn how to: Understand the difference between threats, vulnerabilities, exposure, and risk. Evaluate how solutions uncover exposure across vulnerabilities, identities, credentials, misconfigurations, and security controls. See whether a solution can prove exploitability and demonstrate attacker impact. Prioritize remediation using proven exploitability, attack paths, and business impact. Verify that exposure is gone and track risk reduction over time. Ask five questions that separate CTEM claims from proof. Who Should Read This This buyer’s guide is designed for: Chief Information Security Officers (CISOs) Security Architects Exposure Management and Vulnerability Management leaders Security Operations and Security Engineering teams Cloud, Infrastructure, Identity, Application, and IT teams responsible for remediation Download the CTEM Buyer’s Guide Download the CTEM Buyer’s Guide to learn how to connect exposure to exploitability, remediation, verification, and measurable risk reduction. Not seeing the form? Open the standalone form . Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: CTEM Buyer’s Guide: How to Evaluate the Technologies That Turn Continuous Threat Exposure Management Into an Operating Model
-  - Published: 2026-09-17T19:10:58+00:00
-  - Link: https://horizon3.ai/downloads/whitepapers/ctem-buyers-guide/
-  - Summary: Learn how to evaluate CTEM technologies based on what they can prove, from exploitable attack paths and remediation priorities to verification and measurable risk reduction.
-
-### Cluster 5d6d8aeffe — score 10
-
-- Title: CISO’s CTEM Evaluation Checklist
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-09-16T16:55:08+00:00
-- Link: https://horizon3.ai/downloads/factsheets/ciso-ctem-evaluation-checklist/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Use the CISO’s CTEM Evaluation Checklist to assess whether technologies supporting your CTEM program can prove exploitability, demonstrate attack impact, verify remediation, and show measurable exposure reduction.
-```
-
-#### Full body
-
-```
-CISO’s CTEM Evaluation Checklist Horizon3 September 16, 2026 Factsheets Continuous Threat Exposure Management (CTEM) is a framework, not a product category. Many technologies can contribute to a CTEM program, but simply claiming to “support CTEM” doesn’t demonstrate that a technology can help your organization reduce exploitable exposure. For CISOs evaluating technologies to support a CTEM program, the standard should be evidence: Can the technology prove what attackers can exploit, demonstrate the impact, verify that remediation worked, and show that exploitable exposure is decreasing over time? Five Questions to Ask When Evaluating CTEM Technologies The CISO’s CTEM Evaluation Checklist provides five questions security leaders can use to set the standard for their evaluation teams: How do you prove that an exposure is actually exploitable in our environment? What evidence will you show us of what an attacker can actually accomplish? How does proven exploitability change what we should remediate first? Can you reproduce the specific test or attack path after remediation to prove the exposure is gone? Can you demonstrate over time that our exploitable exposure is actually decreasing? The answers should be demonstrated with evidence from your environment, not accepted as feature claims or roadmap promises. Know What Good CTEM Technology Looks Like A strong CTEM technology evaluation should produce repeatable evidence across the entire operating loop: discover exposure, validate exploitability, prioritize, remediate, verify, and repeat. The checklist helps evaluation teams distinguish meaningful capabilities from red flags, including reliance on scanner findings, risk scores, closed tickets, configuration changes, or isolated test results without proof of real-world exploitability and impact. Make Evidence the CTEM Decision Standard Before investing in technology to support your CTEM program, determine whether it can meet four fundamental standards: Proof: Can it prove exploitability in your environment? Impact: Can it show what successful exploitation makes possible? Verification: Can it prove remediation actually removed the exposure? Improvement: Can it demonstrate that exploitable exposure is decreasing over time? Rather than comparing technologies based on CTEM feature checklists alone, use repeatable evidence to determine whether they can demonstrate that your organization is becoming harder to compromise. Evaluate CTEM Technologies with Evidence You Can Trust Download the CISO’s CTEM Evaluation Checklist for five questions to ask your evaluation team and the evidence to demand before investing in technologies to support your CTEM program. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: CISO’s CTEM Evaluation Checklist
-  - Published: 2026-09-16T16:55:08+00:00
-  - Link: https://horizon3.ai/downloads/factsheets/ciso-ctem-evaluation-checklist/
-  - Summary: Use the CISO’s CTEM Evaluation Checklist to assess whether technologies supporting your CTEM program can prove exploitability, demonstrate attack impact, verify remediation, and show measurable exposure reduction.
 
 ### Cluster 3e81320fe3 — score 10
 
@@ -2999,12 +2792,53 @@ Proactive Threat Intelligence: Getting Ahead of the Next Major Breach An alert m
   - Link: https://www.recordedfuture.com/blog/proactive-threat-intelligence
   - Summary: Move from reactive defense to a proactive security mindset. Learn how proactive threat intelligence identifies and neutralizes threats.
 
-### Cluster 190510ac0b — score 10
+### Cluster 0af61280d0 — score 10
 
-- Title: Rapid7 Named Among Notable Vendors in Forrester MDR Landscape: Why the Future is Exposure-informed, Preemptive MDR
-- Source: Rapid7 (offensive_vulnerability_research)
-- Published: 2026-09-14T14:51:07+00:00
-- Link: https://www.rapid7.com/blog/post/dr-forrester-mdr-landscape-notable-vendor-preemptive
+- Title: How Kyocera AVX Built a Global Security Validation Program from Zero
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-09-18T16:12:24+00:00
+- Link: https://horizon3.ai/customer-story/kyocera-avx-global-security-validation/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_industries: manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+See how Kyocera AVX used NodeZero to build a global security validation program, scale autonomous pentesting across manufacturing sites, and remediate more than 30,000 vulnerabilities and misconfigurations.
+```
+
+#### Full body
+
+```
+How Kyocera AVX Built a Global Security Validation Program from Zero Horizon3 Customer Stories Building a security validation program across global manufacturing environments requires more than deploying another scanning tool. Security teams need to identify which weaknesses attackers can actually exploit, prioritize remediation, and validate risk without disrupting production. Kyocera AVX faced that challenge across 33 manufacturing sites worldwide. With no formal vulnerability management or pentesting program, the company needed a practical way to understand real exposure and build a repeatable validation process that could coexist with complex production environments. This customer story explores how Kyocera AVX used NodeZero® to build a global, evidence-driven security validation program, remediate more than 30,000 vulnerabilities and misconfigurations, and establish a pentesting cadence four times higher than the industry norm. Key Insight Traditional vulnerability findings show teams what might be vulnerable. Kyocera AVX needed an attacker’s perspective to understand which weaknesses could actually be exploited and chained into meaningful attack paths. By making NodeZero the engine behind its vulnerability management and pentesting program, Kyocera AVX gained: Visibility into real, exploitable attack paths A repeatable validation program across global manufacturing sites Actionable Fix Actions that IT teams could use to remediate risk Targeted retesting with 1-Click Verify Executive visibility through NodeZero data integrated with Splunk A sustainable testing model designed around production realities What You’ll Learn How to build a security validation program from the ground up Why exploit-based testing provides context traditional vulnerability findings cannot How Kyocera AVX scaled autonomous pentesting across global manufacturing environments How attack-path evidence helps overcome operational resistance to security testing Why Fix Actions can make remediation clearer and more actionable for IT teams How targeted retesting verifies whether security fixes actually reduce exposure How NodeZero data and Splunk dashboards help communicate risk to executives How continuous pentesting can coexist with production and OT-adjacent environments Why It Matters Manufacturing security teams have to balance cyber risk with business continuity and production safety. That can make organizations understandably cautious about introducing testing they perceive as invasive. But avoiding validation leaves another risk: vulnerabilities, misconfigurations, credential exposures, and attack paths can remain hidden because no one has demonstrated how an attacker could actually use them. Kyocera AVX changed that dynamic. NodeZero reached most manufacturing sites in roughly one to two years, compared with the four to five years typically required to fully roll out comparable tools in the company’s environment. Today, approximately 34 NodeZero hosts support regular assessments, with about four pentests per site each year plus targeted validation. In approximately three years, Kyocera AVX remediated more than 30,000 vulnerabilities and misconfigurations , transforming a program with essentially no formal vulnerability management or pentesting coverage into a global, evidence-driven security validation practice. Download the customer story to see how Kyocera AVX used NodeZero to build a global security validation program, expose real attack paths, and turn more than 30,000 weaknesses into measurable risk reduction. Download the customer story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: How Kyocera AVX Built a Global Security Validation Program from Zero
+  - Published: 2026-09-18T16:12:24+00:00
+  - Link: https://horizon3.ai/customer-story/kyocera-avx-global-security-validation/
+  - Summary: See how Kyocera AVX used NodeZero to build a global security validation program, scale autonomous pentesting across manufacturing sites, and remediate more than 30,000 vulnerabilities and misconfigurations.
+
+### Cluster 63b4630409 — score 10
+
+- Title: CTEM Buyer’s Guide: How to Evaluate the Technologies That Turn Continuous Threat Exposure Management Into an Operating Model
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-09-17T19:10:58+00:00
+- Link: https://horizon3.ai/downloads/whitepapers/ctem-buyers-guide/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
@@ -3021,22 +2855,149 @@ Proactive Threat Intelligence: Getting Ahead of the Next Major Breach An alert m
 #### Summary
 
 ```
-The managed detection and response (MDR) market has reached a turning point. We’ve gone beyond the baseline of 24/7 monitoring focusing on the speed of detection and moved to a world with a convergence of exposure management and response to deliver measurable, outcome-based defenses of a larger, AI-driven attack surface. For anyone evaluating MDR right now, the Managed Detection and Response Services Landscape, Q3 2026 report by Forrester is a useful map that lays out where the market is heading. This is a market that has moved beyond "do you cover my telemetry?" to “Can a provider connect and prove that its activity is tied to real reduction in risk?”. Rapid7 was named among the notable providers in this Forrester MDR Landscape. Being included matters to us, but the more interesting story is in what Forrester says about the market itself. Detection and exposure are becoming one service One of the report's clearest signals is directional: Forrester writes that "MDR services will conver
+Learn how to evaluate CTEM technologies based on what they can prove, from exploitable attack paths and remediation priorities to verification and measurable risk reduction.
 ```
 
 #### Full body
 
 ```
-Managed Detection and Response (MDR) Rapid7 Named Among Notable Vendors in Forrester MDR Landscape: Why the Future is Exposure-informed, Preemptive MDR Rapid7 Sep 14, 2026 | Last updated on Sep 14, 2026 | 5 min read DISCOVER RAPID7 MDR Rapid7 Named Among Notable Vendors in Forrester MDR Landscape: Why the Future is Exposure-informed, Preemptive MDR Table of contents Rapid7 Named Among Notable Vendors in Forrester MDR Landscape: Why the Future is Exposure-informed, Preemptive MDR DISCOVER RAPID7 MDR Table of contents The managed detection and response (MDR) market has reached a turning point. We’ve gone beyond the baseline of 24/7 monitoring focusing on the speed of detection and moved to a world with a convergence of exposure management and response to deliver measurable, outcome-based defenses of a larger, AI-driven attack surface. For anyone evaluating MDR right now, the Managed Detection and Response Services Landscape, Q3 2026 report by Forrester is a useful map that lays out where the market is heading. This is a market that has moved beyond "do you cover my telemetry?" to “Can a provider connect and prove that its activity is tied to real reduction in risk?”. Rapid7 was named among the notable providers in this Forrester MDR Landscape. Being included matters to us, but the more interesting story is in what Forrester says about the market itself. Detection and exposure are becoming one service One of the report's clearest signals is directional: Forrester writes that "MDR services will converge with exposure and posture improvement.” That convergence is the whole basis of Rapid7 MDR and our Command Platform strategy. Most MDR services react after an attacker has already broken in. Rapid7 designed its service to anticipate where attackers are likely to succeed and disrupt them earlier. We combine exposure context, detection, and response into a single operational loop, where vulnerability findings and asset risk scoring flow directly into alerts and investigations. This means analysts can cut noise and focus response on the exposures most likely to cause business impact. It's what we mean by exposure-informed, Preemptive MDR : The same context that tells you where you're weak is the context that sharpens how you detect and respond. For buyers, the practical implication is that old procurement habits are changing. Buyers used to invest in detection from one vendor, exposure management from another, and then hope the two solutions would seamlessly talk to each other. That approach is now turning into a liability. The market will reward providers that connect these additions to measurable risk reduction rather than bolting on loosely joined SKUs. That's a bar customers should hold every provider to, including Rapid7. "Make providers prove the investigation, rather than narrate the dashboard" The second theme is about accountability. In its guidance on working with providers, Forrester is blunt: Buyers should "make providers prove the investigation, rather than narrate the dashboard." A slick activity feed is not evidence that anyone reached the right conclusion. Buyers should ask to see the reasoning behind a disposition, the actions taken, and the controls that keep automation from making unsafe decisions. This is a healthy pressure on the whole market, and it's a test we welcome. Rapid7 MDR is delivered on Rapid7's own SIEM, which gives customers a direct window into our SOC, including validated threats, the response actions taken, where AI accelerated the work, and where a human analyst stepped in and why. Every action is logged, explainable, and auditable. As agentic AI takes on more of the investigation workload, that transparency becomes the difference between a service you trust and a black box you hope is working. Our approach is deliberately human-led and AI-enhanced: AI scales triage and investigation across large volumes of telemetry, while analysts stay responsible for validation and response decisions. Accountabi
+CTEM Buyer’s Guide: How to Evaluate the Technologies That Turn Continuous Threat Exposure Management Into an Operating Model Horizon3 | September 17, 2026 | Whitepapers Get the CTEM Buyer’s Guide Table of Contents From CTEM Framework to Operating Model Continuous Threat Exposure Management (CTEM) has become one of the most important—and broadly interpreted—frameworks in cybersecurity. Gartner® describes CTEM as an integrated, iterative approach to continuously evaluating and improving security posture. But CTEM is a framework, not a product category. The challenge for buyers is determining which technologies can turn it into a repeatable operating model that reduces exposure to attackers. Instead of asking which vendors support CTEM, ask: What can this technology prove about our exposure? This buyer’s guide translates CTEM into a practical operating loop: Discover Exposure, Validate Exploitability, Prioritize With Confidence, Remediate With Clarity, Verify Risk Removal, and Repeat. Learn how to evaluate solutions based on attacker evidence, attack-path context, remediation clarity, and measurable risk reduction, not simply findings or risk scores. Inside the Guide Learn how to: Understand the difference between threats, vulnerabilities, exposure, and risk. Evaluate how solutions uncover exposure across vulnerabilities, identities, credentials, misconfigurations, and security controls. See whether a solution can prove exploitability and demonstrate attacker impact. Prioritize remediation using proven exploitability, attack paths, and business impact. Verify that exposure is gone and track risk reduction over time. Ask five questions that separate CTEM claims from proof. Who Should Read This This buyer’s guide is designed for: Chief Information Security Officers (CISOs) Security Architects Exposure Management and Vulnerability Management leaders Security Operations and Security Engineering teams Cloud, Infrastructure, Identity, Application, and IT teams responsible for remediation Download the CTEM Buyer’s Guide Download the CTEM Buyer’s Guide to learn how to connect exposure to exploitability, remediation, verification, and measurable risk reduction. Not seeing the form? Open the standalone form . Share:
 ```
 
 #### Corroborating sources (1)
 
-- **Rapid7** (offensive_vulnerability_research)
-  - Title: Rapid7 Named Among Notable Vendors in Forrester MDR Landscape: Why the Future is Exposure-informed, Preemptive MDR
-  - Published: 2026-09-14T14:51:07+00:00
-  - Link: https://www.rapid7.com/blog/post/dr-forrester-mdr-landscape-notable-vendor-preemptive
-  - Summary: The managed detection and response (MDR) market has reached a turning point. We’ve gone beyond the baseline of 24/7 monitoring focusing on the speed of detection and moved to a world with a convergence of exposure management and response to deliver measurable, outcome-based defenses of a larger, AI-driven attack surface. For anyone evaluating MDR right now, the Managed Detection and Response Services Landscape, Q3 2026 report by Forrester is a useful map that lays out where the market is heading. This is a market that has moved beyond "do you cover my telemetry?" to “Can a provider connect and prove that its activity is tied to real reduction in risk?”. Rapid7 was named among the notable providers in this Forrester MDR Landscape. Being included matters to us, but the more interesting story is in what Forrester says about the market itself. Detection and exposure are becoming one service One of the report's clearest signals is directional: Forrester writes that "MDR services will conver
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: CTEM Buyer’s Guide: How to Evaluate the Technologies That Turn Continuous Threat Exposure Management Into an Operating Model
+  - Published: 2026-09-17T19:10:58+00:00
+  - Link: https://horizon3.ai/downloads/whitepapers/ctem-buyers-guide/
+  - Summary: Learn how to evaluate CTEM technologies based on what they can prove, from exploitable attack paths and remediation priorities to verification and measurable risk reduction.
+
+### Cluster 5d6d8aeffe — score 10
+
+- Title: CISO’s CTEM Evaluation Checklist
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-09-16T16:55:08+00:00
+- Link: https://horizon3.ai/downloads/factsheets/ciso-ctem-evaluation-checklist/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Use the CISO’s CTEM Evaluation Checklist to assess whether technologies supporting your CTEM program can prove exploitability, demonstrate attack impact, verify remediation, and show measurable exposure reduction.
+```
+
+#### Full body
+
+```
+CISO’s CTEM Evaluation Checklist Horizon3 September 16, 2026 Factsheets Continuous Threat Exposure Management (CTEM) is a framework, not a product category. Many technologies can contribute to a CTEM program, but simply claiming to “support CTEM” doesn’t demonstrate that a technology can help your organization reduce exploitable exposure. For CISOs evaluating technologies to support a CTEM program, the standard should be evidence: Can the technology prove what attackers can exploit, demonstrate the impact, verify that remediation worked, and show that exploitable exposure is decreasing over time? Five Questions to Ask When Evaluating CTEM Technologies The CISO’s CTEM Evaluation Checklist provides five questions security leaders can use to set the standard for their evaluation teams: How do you prove that an exposure is actually exploitable in our environment? What evidence will you show us of what an attacker can actually accomplish? How does proven exploitability change what we should remediate first? Can you reproduce the specific test or attack path after remediation to prove the exposure is gone? Can you demonstrate over time that our exploitable exposure is actually decreasing? The answers should be demonstrated with evidence from your environment, not accepted as feature claims or roadmap promises. Know What Good CTEM Technology Looks Like A strong CTEM technology evaluation should produce repeatable evidence across the entire operating loop: discover exposure, validate exploitability, prioritize, remediate, verify, and repeat. The checklist helps evaluation teams distinguish meaningful capabilities from red flags, including reliance on scanner findings, risk scores, closed tickets, configuration changes, or isolated test results without proof of real-world exploitability and impact. Make Evidence the CTEM Decision Standard Before investing in technology to support your CTEM program, determine whether it can meet four fundamental standards: Proof: Can it prove exploitability in your environment? Impact: Can it show what successful exploitation makes possible? Verification: Can it prove remediation actually removed the exposure? Improvement: Can it demonstrate that exploitable exposure is decreasing over time? Rather than comparing technologies based on CTEM feature checklists alone, use repeatable evidence to determine whether they can demonstrate that your organization is becoming harder to compromise. Evaluate CTEM Technologies with Evidence You Can Trust Download the CISO’s CTEM Evaluation Checklist for five questions to ask your evaluation team and the evidence to demand before investing in technologies to support your CTEM program. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: CISO’s CTEM Evaluation Checklist
+  - Published: 2026-09-16T16:55:08+00:00
+  - Link: https://horizon3.ai/downloads/factsheets/ciso-ctem-evaluation-checklist/
+  - Summary: Use the CISO’s CTEM Evaluation Checklist to assess whether technologies supporting your CTEM program can prove exploitability, demonstrate attack impact, verify remediation, and show measurable exposure reduction.
+
+### Cluster b14566fc43 — score 10
+
+- Title: Ransomware incidents in Japan in the first half of 2026: Investigation of The Gentlemen’s infrastructure and evidence of Qilin's AI use
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-09-17T10:00:43+00:00
+- Link: https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- actor_attribution: LockBit
+- affected_industries: manufacturing_industrial
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- actor_attribution: LockBit
+- affected_industries: manufacturing_industrial
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs with capital under JPY 1 billion represented 80% of victims.
+```
+
+#### Full body
+
+```
+Ransomware incidents in Japan in the first half of 2026: Investigation of The Gentlemen’s infrastructure and evidence of Qilin's AI use By Takahiro Takeda , Jordyn Dunk , Michael Szeliga Thursday, September 17, 2026 06:00 ransomware Threat Spotlight Compared with the same period last year, ransomware incidents in Japan increased slightly by approximately 4.7%, indicating that ransomware continues to pose a significant threat. In Japan, The Gentlemen was the most active ransomware group in the first half of 2026. Attackers continue to primarily target small- and medium-sized enterprises, with organizations capitalized at less than JPY 1 billion accounting for approximately 80% of the total — an increase of around 13% from the previous year. The total number of listings on The Gentlemen’s leak site increased from 48 in January to 105 in July, representing approximately a 2.2-fold increase in activity. Additionally, there is a possibility that Russian-speaking individuals are involved in The Gentlemen’s attacks. Qilin, which recorded the second-highest number of observed incidents in 2026 after The Gentlemen, is leveraging AI to improve the efficiency of its operations. Victimized companies Figure 1 summarizes ransomware incidents affecting Japanese companies from January to July 2026. According to Cisco Talos research, 90 organizations in Japan were affected by ransomware during this period. Compared with 86 incidents during the same period from January to July last year, this represents a slight increase of approximately 4.7%, indicating that ransomware incidents continue to remain at a high level. On a monthly basis, there were approximately 13 incidents per month on average. The number of incidents increased in March and April, with April recording the highest number during the period at 19 incidents. Cases involving overseas offices and subsidiaries accounted for 13.3% of the total. Among these, Taiwan recorded the highest number of incidents, followed by the United States and the Philippines, which recorded the same number of incidents, with multiple cases identified in each country. Figure 1. Ransomware incidents in Japan during the first half of 2026 (January through July). The manufacturing sector continued to be the most affected industry, accounting for 34% of incidents, followed by the information and communications sector at 11% and the services sector at 9% (see Figure 2). Figure 2. Percentage of victim organizations by industry. In terms of the size of the affected organizations, those with capital of less than JPY 100 million accounted for the largest share at 48%, followed by organizations with capital of JPY 100 million to less than JPY 1 billion at 30%. Combined, organizations with capital of less than JPY 1 billion accounted for 78% of the total, representing an increase of around 13% from 69% in 2025. This suggests that attackers are increasingly focusing their efforts on small- and medium-sized enterprises (see Figure 3). Figure 3. Classification of victim organizations by capital size (excluding unknown). Most frequently observed ransomware types in Japan In Japan, the most frequently observed ransomware group in the first half of 2026 was The Gentlemen, with 14 incidents. This was followed by Qilin, which caused the highest number of incidents last year, and SafePay, which had relatively few confirmed incidents during the same period last year, with seven incidents each. The Gentlemen and SafePay have increased their activity this year and can be considered emerging ransomware groups that require increased vigilance. Other ransomware groups observed include NightSpire, NetRunner, LockBit 5.0, RansomEXX, Stormous, and AiLock. Looking at the ransomware groups observed this year, very few of the groups that were active during the same period last year have been observed, highlighting the rapid changes in the ransomware threat landscape. Figure 4. Number of incidents by ransomware type used in attacks (exclude
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Ransomware incidents in Japan in the first half of 2026: Investigation of The Gentlemen’s infrastructure and evidence of Qilin's AI use
+  - Published: 2026-09-17T10:00:43+00:00
+  - Link: https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/
+  - Summary: Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs with capital under JPY 1 billion represented 80% of victims.
+
+### Cluster ef7016e41f — score 10
+
+- Title: Securing the unpatchable in an age of AI-driven vulnerabilities
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-09-16T10:00:36+00:00
+- Link: https://blog.talosintelligence.com/securing-the-unpatchable-in-an-age-of-ai-driven-vulnerabilities/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: government, healthcare, manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: healthcare, government, manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Advances in AI technology will continue to identify vulnerabilities that in some circumstances are difficult, or effectively impossible, to patch. Appropriate network segmentation, rigorous visibility, and the deployment of NGFW/IPS combinations can provide a powerful compensatory layer.
+```
+
+#### Full body
+
+```
+Securing the unpatchable in an age of AI-driven vulnerabilities By Martin Lee Wednesday, September 16, 2026 06:00 On The Radar AI is accelerating vulnerability discovery, leaving unpatchable operational technology (OT) systems at risk. Hoping for the best is not a viable anti-exploitation strategy. Deploying next-generation firewalls directly upstream allows for virtual patching through deep packet inspection. These systems scan incoming traffic to detect and block exploit attempts before they can impact the vulnerable device. The predictability of legitimate network connections to OT systems can be used to protect systems through micro-segmentation. This ensures that only a handful of authorized devices can communicate with the system, minimizing the attack surface. AI-assisted code analysis is uncovering decades of technical debt. Every new patch removes a newly identified coding mistake. Little by little, we are improving the state of software engineering, but the price is a cadence of patching that organizations may struggle to implement. These efforts leave unsupported systems, or systems that are not able to be patched for whatever reason, with unmitigated known vulnerabilities. How can such systems be secured in a world where AI is steadily improving its ability to identify new vulnerabilities? Operational technology (OT) systems provide the services that support modern life (e.g., medical equipment, building management systems, and industrial critical systems within chemical plants). Often the systems are certified to operate only with a defined set of software that cannot easily be altered, or operate using systems that are no longer supported. In either case, if a vulnerability is discovered that affects the system, there is no easy way for it to be patched. Ignoring the problem and hoping for the best is rarely an effective strategy. The U.K.’s NHS health system was significantly affected by the WannaCry worm in 2017, with a significant minority of systems running the end-of-life operating system Windows XP contributing to the problem. More recently, exploitation of end-of-life software was used to gain access to governmental systems in 2023. Even systems that are believed to run on a bespoke platform will almost certainly include common libraries and protocols in which vulnerabilities may be found. Vulnerable systems that are not publicly exposed can still be identified by threat actors who gain access to internal networks and pose a tempting target. Defending by predictability Applying the approved patch remains the best option. If this is not possible, we can use the inherent predictability of OT systems to protect them. Visibility first: You cannot protect what you cannot see. The characteristics of the network fingerprint presented by legacy systems allows them to be easily identified to build an inventory of systems requiring attention. Micro-segmentation: Network architecture is an effective first line of defense. Frequently, OT only ever connects to a small number of systems. By using virtual local area networks (VLANs) coupled with access control lists (ACLs), we can place vulnerable systems on private networks where only authorized devices are permitted to connect to them. By shutting them off from the rest of the network, we make it incrementally more difficult for attackers to identify them and launch their attacks. NGFW and IPS: Placing a next-generation firewall (NGFW) upstream allows for granular filtering. When equipped with an up-to-date intrusion prevention system (IPS), the firewall can inspect traffic to filter out any attempts at exploitation before it impacts the device. When coupled with network segmentation, we can ensure that not only are trusted systems solely communicating with the vulnerable system, but that the traffic is free from known malicious content. The myth of the air gap In theory, it is possible to create an air-gapped system that is completely disconnected from wider systems,
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Securing the unpatchable in an age of AI-driven vulnerabilities
+  - Published: 2026-09-16T10:00:36+00:00
+  - Link: https://blog.talosintelligence.com/securing-the-unpatchable-in-an-age-of-ai-driven-vulnerabilities/
+  - Summary: Advances in AI technology will continue to identify vulnerabilities that in some circumstances are difficult, or effectively impossible, to patch. Appropriate network segmentation, rigorous visibility, and the deployment of NGFW/IPS combinations can provide a powerful compensatory layer.
 
 ### Cluster 10448bc932 — score 10
 
@@ -3080,6 +3041,45 @@ Page content 1Password’s FLAWED report , published on August 6, 2026, gives de
   - Published: 2026-09-15T11:00:00+00:00
   - Link: https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/
   - Summary: 1Password’s FLAWED report , published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective by discouraging them from using technology that could help them fix more vulnerabilities. Teams that take its headline at face value may leave repairable vulnerabilities unaddressed. We want our work to help defenders fix more vulnerabilities. This post shares real-world data on human and agent patch quality from our consulting projects and Patch the Planet. We’re also releasing two agent skills: post-patch-validation to help agents test fixes, and review-walkthrough to help engineers review them. How the experiment produces a misleading headline Our review of 1Password’s code and data found f
+
+### Cluster 190510ac0b — score 10
+
+- Title: Rapid7 Named Among Notable Vendors in Forrester MDR Landscape: Why the Future is Exposure-informed, Preemptive MDR
+- Source: Rapid7 (offensive_vulnerability_research)
+- Published: 2026-09-14T14:51:07+00:00
+- Link: https://www.rapid7.com/blog/post/dr-forrester-mdr-landscape-notable-vendor-preemptive
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+The managed detection and response (MDR) market has reached a turning point. We’ve gone beyond the baseline of 24/7 monitoring focusing on the speed of detection and moved to a world with a convergence of exposure management and response to deliver measurable, outcome-based defenses of a larger, AI-driven attack surface. For anyone evaluating MDR right now, the Managed Detection and Response Services Landscape, Q3 2026 report by Forrester is a useful map that lays out where the market is heading. This is a market that has moved beyond "do you cover my telemetry?" to “Can a provider connect and prove that its activity is tied to real reduction in risk?”. Rapid7 was named among the notable providers in this Forrester MDR Landscape. Being included matters to us, but the more interesting story is in what Forrester says about the market itself. Detection and exposure are becoming one service One of the report's clearest signals is directional: Forrester writes that "MDR services will conver
+```
+
+#### Full body
+
+```
+Managed Detection and Response (MDR) Rapid7 Named Among Notable Vendors in Forrester MDR Landscape: Why the Future is Exposure-informed, Preemptive MDR Rapid7 Sep 14, 2026 | Last updated on Sep 14, 2026 | 5 min read DISCOVER RAPID7 MDR Rapid7 Named Among Notable Vendors in Forrester MDR Landscape: Why the Future is Exposure-informed, Preemptive MDR Table of contents Rapid7 Named Among Notable Vendors in Forrester MDR Landscape: Why the Future is Exposure-informed, Preemptive MDR DISCOVER RAPID7 MDR Table of contents The managed detection and response (MDR) market has reached a turning point. We’ve gone beyond the baseline of 24/7 monitoring focusing on the speed of detection and moved to a world with a convergence of exposure management and response to deliver measurable, outcome-based defenses of a larger, AI-driven attack surface. For anyone evaluating MDR right now, the Managed Detection and Response Services Landscape, Q3 2026 report by Forrester is a useful map that lays out where the market is heading. This is a market that has moved beyond "do you cover my telemetry?" to “Can a provider connect and prove that its activity is tied to real reduction in risk?”. Rapid7 was named among the notable providers in this Forrester MDR Landscape. Being included matters to us, but the more interesting story is in what Forrester says about the market itself. Detection and exposure are becoming one service One of the report's clearest signals is directional: Forrester writes that "MDR services will converge with exposure and posture improvement.” That convergence is the whole basis of Rapid7 MDR and our Command Platform strategy. Most MDR services react after an attacker has already broken in. Rapid7 designed its service to anticipate where attackers are likely to succeed and disrupt them earlier. We combine exposure context, detection, and response into a single operational loop, where vulnerability findings and asset risk scoring flow directly into alerts and investigations. This means analysts can cut noise and focus response on the exposures most likely to cause business impact. It's what we mean by exposure-informed, Preemptive MDR : The same context that tells you where you're weak is the context that sharpens how you detect and respond. For buyers, the practical implication is that old procurement habits are changing. Buyers used to invest in detection from one vendor, exposure management from another, and then hope the two solutions would seamlessly talk to each other. That approach is now turning into a liability. The market will reward providers that connect these additions to measurable risk reduction rather than bolting on loosely joined SKUs. That's a bar customers should hold every provider to, including Rapid7. "Make providers prove the investigation, rather than narrate the dashboard" The second theme is about accountability. In its guidance on working with providers, Forrester is blunt: Buyers should "make providers prove the investigation, rather than narrate the dashboard." A slick activity feed is not evidence that anyone reached the right conclusion. Buyers should ask to see the reasoning behind a disposition, the actions taken, and the controls that keep automation from making unsafe decisions. This is a healthy pressure on the whole market, and it's a test we welcome. Rapid7 MDR is delivered on Rapid7's own SIEM, which gives customers a direct window into our SOC, including validated threats, the response actions taken, where AI accelerated the work, and where a human analyst stepped in and why. Every action is logged, explainable, and auditable. As agentic AI takes on more of the investigation workload, that transparency becomes the difference between a service you trust and a black box you hope is working. Our approach is deliberately human-led and AI-enhanced: AI scales triage and investigation across large volumes of telemetry, while analysts stay responsible for validation and response decisions. Accountabi
+```
+
+#### Corroborating sources (1)
+
+- **Rapid7** (offensive_vulnerability_research)
+  - Title: Rapid7 Named Among Notable Vendors in Forrester MDR Landscape: Why the Future is Exposure-informed, Preemptive MDR
+  - Published: 2026-09-14T14:51:07+00:00
+  - Link: https://www.rapid7.com/blog/post/dr-forrester-mdr-landscape-notable-vendor-preemptive
+  - Summary: The managed detection and response (MDR) market has reached a turning point. We’ve gone beyond the baseline of 24/7 monitoring focusing on the speed of detection and moved to a world with a convergence of exposure management and response to deliver measurable, outcome-based defenses of a larger, AI-driven attack surface. For anyone evaluating MDR right now, the Managed Detection and Response Services Landscape, Q3 2026 report by Forrester is a useful map that lays out where the market is heading. This is a market that has moved beyond "do you cover my telemetry?" to “Can a provider connect and prove that its activity is tied to real reduction in risk?”. Rapid7 was named among the notable providers in this Forrester MDR Landscape. Being included matters to us, but the more interesting story is in what Forrester says about the market itself. Detection and exposure are becoming one service One of the report's clearest signals is directional: Forrester writes that "MDR services will conver
 
 ### Cluster 12ce610685 — score 10
 
@@ -3980,82 +3980,6 @@ The move is consistent with the agency's advice on the need for organizations to
   - Link: https://www.darkreading.com/cyber-risk/cisa-ditches-weekly-vuln-roundups-risk-based-focus
   - Summary: The move is consistent with the agency's advice on the need for organizations to prioritize the vulnerabilities that actually matter.
 
-### Cluster 49753d82ce — score 8
-
-- Title: Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-09-16T15:50:59+00:00
-- Link: https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-89026
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-89026
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- cve_ids: CVE-2026-89026
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation. The vulnerability in question is CVE-2026-89026 (CVSS v3.1 score: 9.8/CVSS v4.0 score: 9.3), which can allow an unauthenticated remote attacker to execute arbitrary operating system (OS) commands by taking advantage of a hard-coded
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution
-  - Published: 2026-09-16T15:50:59+00:00
-  - Link: https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html
-  - Summary: A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation. The vulnerability in question is CVE-2026-89026 (CVSS v3.1 score: 9.8/CVSS v4.0 score: 9.3), which can allow an unauthenticated remote attacker to execute arbitrary operating system (OS) commands by taking advantage of a hard-coded
-
-### Cluster 4b8281c753 — score 8
-
-- Title: China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-09-15T05:31:05+00:00
-- Link: https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, web_shell_backdoor, zero_day
-- affected_industries: government
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, zero_day, web_shell_backdoor
-- affected_industries: government
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE. Volexity, which is tracking the threat cluster under the moniker UTA0560, said the activity targeted multiple non-governmental organizations (NGOs) on September 1, 2026. "The
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE
-  - Published: 2026-09-15T05:31:05+00:00
-  - Link: https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html
-  - Summary: A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE. Volexity, which is tracking the threat cluster under the moniker UTA0560, said the activity targeted multiple non-governmental organizations (NGOs) on September 1, 2026. "The
-
 ### Cluster 8d68d6570f — score 8
 
 - Title: CISA Upgrades Vulnerability Reporting Platform with More Automation
@@ -4162,6 +4086,82 @@ An unauthorized party used a legitimate government email domain to fraudulently 
   - Published: 2026-09-14T11:20:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/revolut-data-breach-fake-government/
   - Summary: An unauthorized party used a legitimate government email domain to fraudulently request Revolut customer data
+
+### Cluster 49753d82ce — score 8
+
+- Title: Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-09-16T15:50:59+00:00
+- Link: https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-89026
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-89026
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- cve_ids: CVE-2026-89026
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation. The vulnerability in question is CVE-2026-89026 (CVSS v3.1 score: 9.8/CVSS v4.0 score: 9.3), which can allow an unauthenticated remote attacker to execute arbitrary operating system (OS) commands by taking advantage of a hard-coded
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution
+  - Published: 2026-09-16T15:50:59+00:00
+  - Link: https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html
+  - Summary: A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation. The vulnerability in question is CVE-2026-89026 (CVSS v3.1 score: 9.8/CVSS v4.0 score: 9.3), which can allow an unauthenticated remote attacker to execute arbitrary operating system (OS) commands by taking advantage of a hard-coded
+
+### Cluster 4b8281c753 — score 8
+
+- Title: China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-09-15T05:31:05+00:00
+- Link: https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng, web_shell_backdoor, zero_day
+- affected_industries: government
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, zero_day, web_shell_backdoor
+- affected_industries: government
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE. Volexity, which is tracking the threat cluster under the moniker UTA0560, said the activity targeted multiple non-governmental organizations (NGOs) on September 1, 2026. "The
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE
+  - Published: 2026-09-15T05:31:05+00:00
+  - Link: https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html
+  - Summary: A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE. Volexity, which is tracking the threat cluster under the moniker UTA0560, said the activity targeted multiple non-governmental organizations (NGOs) on September 1, 2026. "The
 
 ### Cluster 178bbf8b39 — score 8
 
