@@ -1,15 +1,15 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-09-22T18:41:48.682320+00:00
+- Generated: 2026-09-22T21:56:09.076809+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
-- Total items in window: 420
-- Total clusters raw: 213
+- Total items in window: 421
+- Total clusters raw: 211
 - Total clusters in packet: 80
 - Dropped low score: 79
-- Dropped overflow: 54
+- Dropped overflow: 52
 
 ## Cohort metadata
 
@@ -75,81 +75,76 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 3
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
   - In window count: 3
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
-  - Item count: 15
-  - In window count: 5
+  - Item count: 20
+  - In window count: 3
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 5
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
@@ -160,20 +155,15 @@
   - Status: ok
   - Item count: 10
   - In window count: 7
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 50
+  - In window count: 3
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
   - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
@@ -185,20 +175,30 @@
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
@@ -215,6 +215,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 5
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -225,46 +230,51 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 2
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 2
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 5
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
+  - In window count: 4
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
-  - Item count: 100
-  - In window count: 3
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 5
+  - Item count: 20
+  - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 5
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
@@ -272,11 +282,6 @@
   - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
@@ -290,65 +295,55 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
-  - Item count: 20
+  - Item count: 10
+  - In window count: 2
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 18
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 3
+  - Item count: 10
+  - In window count: 2
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 0
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
+  - In window count: 3
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 50
   - In window count: 0
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
@@ -370,6 +365,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
+- **Just Security** (policy_strategy_geopolitics)
+  - URL: https://www.justsecurity.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -380,21 +390,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 100
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Just Security** (policy_strategy_geopolitics)
-  - URL: https://www.justsecurity.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
@@ -410,11 +410,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
@@ -425,11 +420,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 50
+  - Item count: 20
+  - In window count: 2
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
@@ -440,6 +435,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 26
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -476,18 +476,18 @@
 ### Linux kernel active exploitation
 - Anchor signal: Linux kernel
 - Theme key: linux-kernel
-- Cluster count: 6
-- Article count: 11
-- Cohesion: 0.227
+- Cluster count: 5
+- Article count: 10
+- Cohesion: 0.237
 - Shared strong signals: Linux kernel
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion, zero_day, active_exploitation, ddos
+  - threat_categories: ransomware_extortion, zero_day, ddos, active_exploitation, phishing_social_eng
   - affected_industries: financial_services, government
-  - affected_products: Linux kernel, Anthropic/Claude
-  - urgency_signals: preauth_unauth, actively_exploited, zero_day, critical_cvss
-- Cluster IDs: 2fe42b3f58, 64d509601f, 12a6389ae4, 4ba50ec954, 5181aef14d, 3ea29765e6
+  - affected_products: Linux kernel, Anthropic/Claude, Microsoft Defender
+  - urgency_signals: zero_day, preauth_unauth, actively_exploited, critical_cvss
+- Cluster IDs: 2fe42b3f58, 64d509601f, 12a6389ae4, 4ba50ec954, 5181aef14d
 - Links:
   - https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html
   - https://www.team-cymru.com/post/ai-driven-threat-detection-is-reshaping-cybersecurity
@@ -498,41 +498,12 @@
   - https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html
   - https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/
   - https://www.securityweek.com/recent-zyxel-switch-vulnerability-exploited-by-chinese-hackers/
-  - https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html
-
-### Cisco exploitation (2 CVEs)
-- Anchor signal: Cisco
-- Theme key: cisco
-- Cluster count: 6
-- Article count: 10
-- Cohesion: 0.302
-- Shared strong signals: Cisco
-- Member CVEs: CVE-2026-76460, CVE-2026-76461
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation, phishing_social_eng, zero_day
-  - affected_industries: financial_services, government
-  - affected_products: Cisco
-  - cve_ids: CVE-2026-76460, CVE-2026-76461
-  - urgency_signals: actively_exploited, zero_day
-- Cluster IDs: cbc8c9c93f, f6ef4f9586, 5f3dd92061, bf92f99cb9, b14566fc43, bd15a6a5ba
-- Links:
-  - https://cyberscoop.com/cisco-ise-zero-day-cve-2026-76460/
-  - https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html
-  - https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues
-  - https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant/
-  - https://www.helpnetsecurity.com/2026/09/22/cairn-open-source-framework-ai-malware-closedquorum/
-  - https://research.checkpoint.com/2026/21st-september-threat-intelligence-report/
-  - https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/
-  - https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/
-  - https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/
-  - https://risky.biz/RBNEWS613/
 
 ### WordPress active exploitation
 - Anchor signal: WordPress
 - Theme key: wordpress
 - Cluster count: 4
-- Article count: 13
+- Article count: 15
 - Cohesion: 0.2
 - Shared strong signals: WordPress
 - Member CVEs: (none)
@@ -545,8 +516,8 @@
 - Cluster IDs: 0634a6363d, b0f82cd776, 0cd3932478, 4ba50ec954
 - Links:
   - https://orca.security/resources/research/cve-2026-93485-wordpress-comment2shell-rce/
-  - https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/
   - https://www.greynoise.io/blog/open-season-on-kapibala-attacker-steals-government-records-wordpress-exploitation
+  - https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/
   - https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html
   - https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/
   - https://www.infosecurity-magazine.com/news/woocommerce-wholesale-lead-capture/
@@ -573,6 +544,65 @@
 - Links:
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-86218/
   - https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/
+
+### phishing social eng targeting Cisco
+- Anchor signal: Cisco
+- Theme key: cisco
+- Cluster count: 3
+- Article count: 4
+- Cohesion: 0.309
+- Shared strong signals: Cisco
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: phishing_social_eng, active_exploitation
+  - affected_industries: financial_services
+  - affected_products: Cisco
+- Cluster IDs: cbc8c9c93f, 5f3dd92061, b14566fc43
+- Links:
+  - https://cyberscoop.com/cisco-ise-zero-day-cve-2026-76460/
+  - https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant/
+  - https://www.helpnetsecurity.com/2026/09/22/cairn-open-source-framework-ai-malware-closedquorum/
+  - https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/
+
+### CVE-2026-76460 exploitation activity
+- Anchor signal: CVE-2026-76460
+- Theme key: cve-2026-76460
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.229
+- Shared strong signals: CVE-2026-76460
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day
+  - affected_industries: financial_services, government
+  - cve_ids: CVE-2026-76460, CVE-2026-76461
+  - urgency_signals: zero_day
+- Cluster IDs: cbc8c9c93f, 52127152d6, bf92f99cb9
+- Links:
+  - https://cyberscoop.com/cisco-ise-zero-day-cve-2026-76460/
+  - https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues
+  - https://research.checkpoint.com/2026/21st-september-threat-intelligence-report/
+
+### AWS vulnerability activity
+- Anchor signal: AWS
+- Theme key: aws
+- Cluster count: 3
+- Article count: 6
+- Cohesion: 0.204
+- Shared strong signals: AWS
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: AWS, GitHub
+- Cluster IDs: 91e999c8ea, aaff320d43, 250fac7429
+- Links:
+  - https://unit42.paloaltonetworks.com/detecting-exposed-aws-iam-credentials/
+  - https://aws.amazon.com/blogs/security/transforming-bedrock-guardrails-events-into-ocsf-with-cloudwatch/
+  - https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/
+  - https://www.infosecurity-magazine.com/news/shinyhunters-claim-hack-of-clop/
+  - https://www.sentinelone.com/labs/dont-call-us-well-call-your-apis-tradertraitor-backdoors-resurface-on-victim-with-no-crypto-ties/
 
 ### ddos targeting Microsoft Defender
 - Anchor signal: Microsoft Defender
@@ -614,31 +644,11 @@
   - https://www.team-cymru.com/post/ai-driven-threat-detection-is-reshaping-cybersecurity
   - https://www.team-cymru.com/post/tracking-orbs-on-singapores-telecommunications-networks
 
-### active exploitation targeting Android
-- Anchor signal: Android
-- Theme key: android
-- Cluster count: 2
-- Article count: 5
-- Cohesion: 0.317
-- Shared strong signals: Android
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation
-  - affected_industries: financial_services
-  - affected_products: Android
-- Cluster IDs: 4ac366c7ba, bd15a6a5ba
-- Links:
-  - https://research.checkpoint.com/2026/ai-threat-landscape-digest-july-august-2026/
-  - https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/
-  - https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/
-  - https://risky.biz/RBNEWS613/
-
 ### supply chain targeting npm
 - Anchor signal: npm
 - Theme key: npm
 - Cluster count: 2
-- Article count: 13
+- Article count: 16
 - Cohesion: 0.2
 - Shared strong signals: npm
 - Member CVEs: (none)
@@ -649,8 +659,8 @@
 - Cluster IDs: 0634a6363d, c56eac66cf
 - Links:
   - https://orca.security/resources/research/cve-2026-93485-wordpress-comment2shell-rce/
-  - https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/
   - https://www.greynoise.io/blog/open-season-on-kapibala-attacker-steals-government-records-wordpress-exploitation
+  - https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/
   - https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html
   - https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/
   - https://www.infosecurity-magazine.com/news/woocommerce-wholesale-lead-capture/
@@ -659,23 +669,6 @@
   - https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html
   - https://www.securityweek.com/malicious-b-tree-npm-package-accumulates-millions-of-downloads/
   - https://www.infosecurity-magazine.com/news/attackers-abuse-npm-trusted/
-
-### AWS vulnerability activity
-- Anchor signal: AWS
-- Theme key: aws
-- Cluster count: 2
-- Article count: 4
-- Cohesion: 0.211
-- Shared strong signals: AWS
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: AWS, GitHub
-- Cluster IDs: 91e999c8ea, 250fac7429
-- Links:
-  - https://unit42.paloaltonetworks.com/detecting-exposed-aws-iam-credentials/
-  - https://aws.amazon.com/blogs/security/transforming-bedrock-guardrails-events-into-ocsf-with-cloudwatch/
-  - https://www.sentinelone.com/labs/dont-call-us-well-call-your-apis-tradertraitor-backdoors-resurface-on-victim-with-no-crypto-ties/
 
 ### Gitea exploitation (CVE-2026-7273)
 - Anchor signal: Gitea
@@ -713,31 +706,26 @@
   - https://www.team-cymru.com/post/defense-industrial-base-nation-state-network-telemetry
   - https://www.welivesecurity.com/en/eset-research/beware-sparrowock-backdoor-bites-commands-catch/
 
-### Apple iOS/macOS vulnerability activity
-- Anchor signal: Apple iOS/macOS
-- Theme key: apple-ios-macos
+### CVE-2026-91843 exploitation activity
+- Anchor signal: CVE-2026-91843
+- Theme key: cve-2026-91843
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.2
-- Shared strong signals: Apple iOS/macOS
+- Shared strong signals: CVE-2026-91843
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - affected_industries: financial_services
-  - affected_products: Apple iOS/macOS
-- Cluster IDs: d99c303c35, 250fac7429
+  - cve_ids: CVE-2026-91843
+- Cluster IDs: df5a100cb0, bf92f99cb9
 - Links:
-  - https://unit42.paloaltonetworks.com/atomic-macos-amos-stealer-activity/
-  - https://www.sentinelone.com/labs/dont-call-us-well-call-your-apis-tradertraitor-backdoors-resurface-on-victim-with-no-crypto-ties/
+  - https://thehackernews.com/2026/09/check-point-warns-of-management-server.html
+  - https://research.checkpoint.com/2026/21st-september-threat-intelligence-report/
 
 ## Forward signals
 
 ### Novelty
-- Novel cves: 4
-  - CVE-2026-93616 (first seen via BleepingComputer at 2026-09-22T16:32:47+00:00, cluster f470950c01)
-  - CVE-2026-55245 (first seen via The Hacker News at 2026-09-22T16:41:12+00:00, cluster 3ea29765e6)
-  - CVE-2026-86242 (first seen via The Hacker News at 2026-09-22T16:41:12+00:00, cluster 3ea29765e6)
-  - CVE-2026-90898 (first seen via The Hacker News at 2026-09-22T16:41:12+00:00, cluster 3ea29765e6)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
@@ -762,7 +750,17 @@
 - Pair: CVE-2026-32996 + Gitea (cluster 0cd3932478, first observation: True)
 - Pair: CVE-2026-32996 + WordPress (cluster 0cd3932478, first observation: True)
 
-### Drift (2)
+### Drift (4)
+- **Cl0p** (cluster aaff320d43)
+  - New industries: education
+  - New products: AWS
+  - Prior top industries: financial_services, government, manufacturing_industrial
+  - Prior top products: Microsoft 365, OpenAI/ChatGPT, SolarWinds
+- **ShinyHunters** (cluster aaff320d43)
+  - New industries: education
+  - New products: AWS
+  - Prior top industries: financial_services, healthcare, manufacturing_industrial
+  - Prior top products: Anthropic/Claude, Microsoft SharePoint, Salesforce
 - **UNC3886** (cluster c1f52c0381)
   - New industries: government
   - New products: (none)
@@ -775,7 +773,9 @@
   - Prior top products: Android, Apple iOS/macOS, Microsoft Windows
 
 ### Persistence (15)
+- actor_attribution: ShinyHunters (weeks observed: 14, cluster aaff320d43)
 - actor_attribution: Scattered Spider (weeks observed: 12, cluster fc5c9992d3)
+- actor_attribution: Cl0p (weeks observed: 10, cluster aaff320d43)
 - actor_attribution: BlackCat/ALPHV (weeks observed: 7, cluster fc5c9992d3)
 - actor_attribution: Lazarus (weeks observed: 7, cluster 250fac7429)
 - actor_attribution: LockBit (weeks observed: 7, cluster b14566fc43)
@@ -788,8 +788,6 @@
 - cve_ids: CVE-2026-87491 (weeks observed: 4, cluster bcfbd3fc84)
 - cve_ids: CVE-2026-59309 (weeks observed: 4, cluster 62087c81f0)
 - actor_attribution: APT31 (weeks observed: 4, cluster 7c42269e48)
-- actor_attribution: Salt Typhoon (weeks observed: 4, cluster b9771fe2d2)
-- cve_ids: CVE-2026-22769 (weeks observed: 4, cluster b04cf6724c)
 
 ### Tier inversion (3)
 - **vCenter pre-auth RCE: CVE-2026-59309/59310**
@@ -955,7 +953,7 @@ CATEGORIES AI Research 21 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Link: https://research.checkpoint.com/2026/ai-threat-landscape-digest-july-august-2026/
   - Summary: The defining development of the period came not from attackers but from the AI labs themselves, whose models broke out of controlled evaluations and reached real systems. In the wild, the criminal and state use of AI continued to mature along the lines tracked in earlier editions: models now act as attack operators, an underground […] The post AI Threat Landscape Digest: July–August 2026 appeared first on Check Point Research .
 
-### Cluster bcfbd3fc84 — score 24
+### Cluster bcfbd3fc84 — score 23
 
 - Title: Mind the (Patch) Gap, Part 2: Fake Websites Used to Deploy Chrome & Windows 0-Day Exploits
 - Source: Volexity (threat_research_primary)
@@ -1054,7 +1052,7 @@ New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Base
 - Published: 2026-09-22T17:38:08+00:00
 - Link: https://orca.security/resources/research/cve-2026-93485-wordpress-comment2shell-rce/
 - Fetch status: ok
-- Member count: 7
+- Member count: 9
 - Corroborating source count: 6
 - Strong signals: CVE-2026-93485, WordPress
 
@@ -1094,16 +1092,16 @@ Executive Summary A high-severity vulnerability (CVE-2026-93485, CVSS 7.1) was d
   - Published: 2026-09-22T17:38:08+00:00
   - Link: https://orca.security/resources/research/cve-2026-93485-wordpress-comment2shell-rce/
   - Summary: Executive Summary A high-severity vulnerability (CVE-2026-93485, CVSS 7.1) was disclosed affecting WordPress Core, allowing attackers to achieve full remote code execution via a stored cross-site scripting flaw in the comment rendering pipeline. Due to the potential for complete server compromise, immediate patching is required. About CVE-2026-93485 The issue originates from the wpautop() function in wp-includes/formatting.php, […]
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: WordPress Patches ‘Click2Shell’ Vulnerability
-  - Published: 2026-09-22T10:22:27+00:00
-  - Link: https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/
-  - Summary: The bug lets attackers automatically install and preview themes and could lead to remote code execution. The post WordPress Patches ‘Click2Shell’ Vulnerability appeared first on SecurityWeek .
 - **GreyNoise** (cloud_identity_infrastructure)
   - Title: Open Season on Kapibala: Attacker Steals Over 18,000 Government Records Through WordPress Exploitation
   - Published: 2026-09-21T00:00:00+00:00
   - Link: https://www.greynoise.io/blog/open-season-on-kapibala-attacker-steals-government-records-wordpress-exploitation
   - Summary: GreyNoise has been tracking malicious use of an IP address since early June 2026 due to its frequent use in scans and attacks against a variety of technologies. We detail a few of the more notable intrusions we observed including the theft of more than 18,000 sensitive records from a western government.
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: WordPress Patches ‘Click2Shell’ Vulnerability
+  - Published: 2026-09-22T10:22:27+00:00
+  - Link: https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/
+  - Summary: The bug lets attackers automatically install and preview themes and could lead to remote code execution. The post WordPress Patches ‘Click2Shell’ Vulnerability appeared first on SecurityWeek .
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session
   - Published: 2026-09-22T06:03:14+00:00
@@ -1252,7 +1250,7 @@ The latest zero-day has a maximum-severity rating and affects Cisco Identity Ser
 #### Full body
 
 ```
-Advertisement Get our latest cybersecurity news first on Google. Click here! Close Cisco disclosed its second actively exploited zero-day vulnerability in as many days, presenting its customers with back-to-back threats to address in unrelated products. The latest zero-day — CVE-2026-76460 — has a maximum-severity rating and was exploited before Cisco disclosed and patched the vulnerability Wednesday. The defect in an API of Cisco Identity Services Engine (ISE) allows a remote attacker to bypass authentication and gain full control of the affected device. “ISE devices enforce network access policy, so root access on the appliance lets an attacker modify that policy, extract stored credentials, delete logs, and move laterally into every network segment ISE controls,” Landon Rice, senior exploit developer at VulnCheck, told CyberScoop. Cisco did not say how many organizations have been compromised thus far, but reported it found the vulnerability during a technical support case. Advertisement “Cisco is aware of active exploitation of this vulnerability. We strongly recommend customers upgrade to available fixed software and follow guidance in the advisory,” a Cisco spokesperson said in a statement. The Cybersecurity and Infrastructure Security Agency added the zero-day to its known exploited vulnerabilities catalog shortly after Cisco’s disclosure. Researchers haven’t attributed attacks involving CVE-2026-76460 to any known group or threat actor, but Rice noted Cisco ISE vulnerabilities are a recurring target. Multiple vulnerabilities affecting the Cisco product have been exploited since June 2025, including CVE-2025-20337 and CVE-2025-20281 . The latest zero-day vulnerability and the pair of defects disclosed in the summer of 2025 were all rated critical with the highest rating of 10. Cisco didn’t say when the first instance of CVE-2026-76460 exploitation occurred, but the disclosure came just two days after the vendor disclosed CVE-2026-76461, an actively exploited zero-day vulnerability in Cisco Secure Email Gateway . Advertisement While the two zero-days disclosed this week have consecutive CVE identifiers, there’s no indication they are connected or share any technical relationship, Rice said. “These are different products and different vulnerability classes with no relation,” he added. A Cisco spokesperson concurred with that assessment. “CVEs are assigned on a first-come, first-served basis, so consecutive numbering reflects assignment order rather than any relationship between the issues. CVE-2026-76460 and CVE-2026-76461 affect different codebases,” the spokesperson added. Cisco published indicators of compromise to help customers hunt for attempted exploitation in their environments, and said there are no workarounds for the vulnerability. Share Facebook LinkedIn Twitter Copy Link Add to Preferred Sources Advertisement Advertisement More Like This Advertisement Advertisement More Scoops The Cisco Systems logo is displayed at the Mobile World Congress (MWC) in Barcelona on February 25, 2019. (GABRIEL BOUYS / AFP) (Getty Images) (Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity ClickFix and the social engineering of routine AI-adaptable security platforms are critical for autonomous decision-making Defending in the middle of the vulnpocalypse Government Dems seek top-to-bottom assessment of CISA workforce International security agencies warn about North Korean hackers exploiting job seekers to steal crypto, data The AI hacking apocalypse is not inevitable CISA promotes a fresh way to deter cyberattackers: Lie to them Technology Researchers use AI to find widespread software decoder flaw What’s next for CISA's CDM program that gives cybersecurity tools to federal agencies Researchers say OpenAI agents were behind May hacking campaign targeting RubyGems European parliament members call for slowdown of Serbia’s EU entry over spyware use Threats Early Scattered Spider member pleads guilty to c
+Advertisement Get our latest cybersecurity news first on Google. Click here! Close Cisco disclosed its second actively exploited zero-day vulnerability in as many days, presenting its customers with back-to-back threats to address in unrelated products. The latest zero-day — CVE-2026-76460 — has a maximum-severity rating and was exploited before Cisco disclosed and patched the vulnerability Wednesday. The defect in an API of Cisco Identity Services Engine (ISE) allows a remote attacker to bypass authentication and gain full control of the affected device. “ISE devices enforce network access policy, so root access on the appliance lets an attacker modify that policy, extract stored credentials, delete logs, and move laterally into every network segment ISE controls,” Landon Rice, senior exploit developer at VulnCheck, told CyberScoop. Cisco did not say how many organizations have been compromised thus far, but reported it found the vulnerability during a technical support case. Advertisement “Cisco is aware of active exploitation of this vulnerability. We strongly recommend customers upgrade to available fixed software and follow guidance in the advisory,” a Cisco spokesperson said in a statement. The Cybersecurity and Infrastructure Security Agency added the zero-day to its known exploited vulnerabilities catalog shortly after Cisco’s disclosure. Researchers haven’t attributed attacks involving CVE-2026-76460 to any known group or threat actor, but Rice noted Cisco ISE vulnerabilities are a recurring target. Multiple vulnerabilities affecting the Cisco product have been exploited since June 2025, including CVE-2025-20337 and CVE-2025-20281 . The latest zero-day vulnerability and the pair of defects disclosed in the summer of 2025 were all rated critical with the highest rating of 10. Cisco didn’t say when the first instance of CVE-2026-76460 exploitation occurred, but the disclosure came just two days after the vendor disclosed CVE-2026-76461, an actively exploited zero-day vulnerability in Cisco Secure Email Gateway . Advertisement While the two zero-days disclosed this week have consecutive CVE identifiers, there’s no indication they are connected or share any technical relationship, Rice said. “These are different products and different vulnerability classes with no relation,” he added. A Cisco spokesperson concurred with that assessment. “CVEs are assigned on a first-come, first-served basis, so consecutive numbering reflects assignment order rather than any relationship between the issues. CVE-2026-76460 and CVE-2026-76461 affect different codebases,” the spokesperson added. Cisco published indicators of compromise to help customers hunt for attempted exploitation in their environments, and said there are no workarounds for the vulnerability. Share Facebook LinkedIn Twitter Copy Link Add to Preferred Sources Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops The Cisco Systems logo is displayed at the Mobile World Congress (MWC) in Barcelona on February 25, 2019. (GABRIEL BOUYS / AFP) (Getty Images) (Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity ClickFix and the social engineering of routine AI-adaptable security platforms are critical for autonomous decision-making Defending in the middle of the vulnpocalypse Government Dems seek top-to-bottom assessment of CISA workforce International security agencies warn about North Korean hackers exploiting job seekers to steal crypto, data The AI hacking apocalypse is not inevitable CISA promotes a fresh way to deter cyberattackers: Lie to them Technology Researchers use AI to find widespread software decoder flaw What’s next for CISA's CDM program that gives cybersecurity tools to federal agencies Researchers say OpenAI agents were behind May hacking campaign targeting RubyGems European parliament members call for slowdown of Serbia’s EU entry over spyware use Threats Early Scattered Spider member pleads
 ```
 
 #### Corroborating sources (1)
@@ -1316,99 +1314,6 @@ Zeljka Zorz , Editor-in-Chief, Help Net Security September 22, 2026 Share Attack
   - Published: 2026-09-22T05:31:59+00:00
   - Link: https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-7273 (CVSS score: 8.8), is a stack-based buffer overflow vulnerability that could result in arbitrary operating
-
-### Cluster f6ef4f9586 — score 19
-
-- Title: Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-09-17T06:39:40+00:00
-- Link: https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: CVE-2026-76460
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, zero_day
-- affected_industries: government
-- affected_products: Cisco
-- cve_ids: CVE-2026-20176, CVE-2026-20211, CVE-2026-20307, CVE-2026-76460, CVE-2026-76461
-- urgency_signals: actively_exploited, critical_cvss, preauth_unauth, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, active_exploitation
-- affected_industries: government
-- affected_products: Cisco
-- cve_ids: CVE-2026-76460, CVE-2026-76461, CVE-2026-20176, CVE-2026-20211, CVE-2026-20307
-- urgency_signals: actively_exploited, zero_day, preauth_unauth, critical_cvss
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Cisco has warned of a fresh maximum-severity security flaw impacting Identity Services Engine (ISE) that has come under active exploitation. The vulnerability, tracked as CVE-2026-76460 (CVSS score: 10.0), could allow an unauthenticated, remote attacker to bypass authentication. "This vulnerability is due to insufficient authentication control on an API endpoint," Cisco said. "An attacker
-```
-
-#### Full body
-
-```
-Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks  Ravie Lakshmanan  Sep 17, 2026 Vulnerability / Web Security Cisco has warned of a fresh maximum-severity security flaw impacting Identity Services Engine (ISE) that has come under active exploitation. The vulnerability, tracked as CVE-2026-76460 (CVSS score: 10.0), could allow an unauthenticated, remote attacker to bypass authentication. "This vulnerability is due to insufficient authentication control on an API endpoint," Cisco said. "An attacker could exploit this vulnerability by sending a crafted request to an affected API endpoint. A successful exploit could allow the attacker to gain unauthorized access to the affected device by bypassing the web-based management interface." The issue affects Cisco ISE and Cisco ISE Passive Identity Connector (ISE-PIC), regardless of device configuration. It has been addressed in the following versions - 3.1 - Fixed in 3.1 Patch 12 3.2 - Fixed in 3.2 Patch 11 3.3 - Fixed in 3.3 Patch 12 3.4 - Fixed in 3.4 Patch 7 3.51 - Fixed in 3.5 Patch 4 Cisco said it's "aware of active exploitation of this vulnerability," urging customers to upgrade to a fixed software release to counter the threat. The company did not share any details on the nature of the attacks exploiting the flaw, or who is behind them. As indicators of compromise (IoCs), Cisco is recommending that users review "access.log" and look for suspicious usernames. If the device is part of a distributed deployment, it's essential to review the logs of each node. It has provided the following command to detect unexpected usernames - admin#show logging application ise-kong/access.log | include dummyuser The presence of any entry in the command output likely points to malicious activity. If such activity is detected, users are advised to re-image the affected nodes and restore from configuration backup if needed. "Upon successful exploitation of this vulnerability, threat actors may obtain command execution with root privileges," Cisco said. "Because of this level of access, evidence of exploitation and indicators of compromise may be removed or hidden by the threat actors." Cisco also emphasized that there are no workarounds, but as a mitigation, customers can use infrastructure access control lists (iACLs) to allow only required management and control plane traffic that is destined to the affected device. The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on September 16, 2026, added CVE-2026-76460 to its Known Exploited Vulnerabilities ( KEV ) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the patches by September 19, 2026. The disclosure comes merely days after Cisco said a critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway ( CVE-2026-76461 , CVSS score: 9.8) has come under active exploitation in the wild. Besides CVE-2026-76460, Cisco has rolled out fixes for a number of critical security vulnerabilities spanning its product portfolio, some of which are hardening measures released as part of an ongoing review. Of the 77 new CVEs issued Wednesday, 41 affect ISE and 28 affect the Secure Firewall portfolio. A brief description of the flaws is below - CVE-2026-20176 (CVSS score: 9.9), CVE-2026-20211 (CVSS score: 9.1), CVE-2026-20307 (CVSS score: 9.1) - Multiple vulnerabilities in ISE that could allow an authenticated, remote attacker to execute arbitrary commands on the underlying operating system of an affected device. To exploit these vulnerabilities, the attacker must have valid administrative credentials. CVE-2026-76423 (CVSS score: 10.0), CVE-2026-76424, CVE-2026-76425, CVE-2026-76426, CVE-2026-76427, CVE-2026-76428 - Multiple vulnerabilities in ISE and Cisco ISE Passive Identity Connector (ISE-PIC) that could allow a remote attacker to bypass authentication to the REST API, achieve remote code execution, perform SQL injection, and conduct XML External Entity injection att
-```
-
-#### Corroborating sources (2)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks
-  - Published: 2026-09-17T06:39:40+00:00
-  - Link: https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html
-  - Summary: Cisco has warned of a fresh maximum-severity security flaw impacting Identity Services Engine (ISE) that has come under active exploitation. The vulnerability, tracked as CVE-2026-76460 (CVSS score: 10.0), could allow an unauthenticated, remote attacker to bypass authentication. "This vulnerability is due to insufficient authentication control on an API endpoint," Cisco said. "An attacker
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Cisco Zero-Day Highlights API Endpoint Authentication Issues
-  - Published: 2026-09-18T19:26:47+00:00
-  - Link: https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues
-  - Summary: The authentication bypass flaw CVE-2026-76460 impacts Cisco's Identity Services Engine (ISE) and received a maximum 10 out of 10 CVSS score.
-
-### Cluster 62087c81f0 — score 18
-
-- Title: vCenter pre-auth RCE: CVE-2026-59309/59310
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-09-22T07:58:09+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1wn37be/vcenter_preauth_rce_cve20265930959310/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-59309, CVE-2026-59310, VMware
-
-#### Cluster taxonomy (union across members)
-- affected_products: VMware
-- cve_ids: CVE-2026-59309, CVE-2026-59310
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- affected_products: VMware
-- cve_ids: CVE-2026-59309, CVE-2026-59310
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-CVE-2026-59309 & CVE-2026-59310: patch-diffing VMware vCenter reveals two pre-auth 9.8 bugs - an auth bypass and a syslog path traversal to RCE submitted by /u/MobetaSec [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: vCenter pre-auth RCE: CVE-2026-59309/59310
-  - Published: 2026-09-22T07:58:09+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1wn37be/vcenter_preauth_rce_cve20265930959310/
-  - Summary: CVE-2026-59309 & CVE-2026-59310: patch-diffing VMware vCenter reveals two pre-auth 9.8 bugs - an auth bypass and a syslog path traversal to RCE submitted by /u/MobetaSec [link] [comments]
 
 ### Cluster 5f3dd92061 — score 18
 
@@ -1508,6 +1413,45 @@ SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE  Ravi
   - Published: 2026-09-19T09:31:17+00:00
   - Link: https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html
   - Summary: SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability. The vulnerability, tracked as CVE-2026-28326, is rated 8.8 out of 10.0 on the CVSS scoring system. The issue affects all versions of Access Rights Manager 2026.2 and prior. "SolarWinds
+
+### Cluster 62087c81f0 — score 17
+
+- Title: vCenter pre-auth RCE: CVE-2026-59309/59310
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-09-22T07:58:09+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1wn37be/vcenter_preauth_rce_cve20265930959310/
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-59309, CVE-2026-59310, VMware
+
+#### Cluster taxonomy (union across members)
+- affected_products: VMware
+- cve_ids: CVE-2026-59309, CVE-2026-59310
+- urgency_signals: preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- affected_products: VMware
+- cve_ids: CVE-2026-59309, CVE-2026-59310
+- urgency_signals: preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+CVE-2026-59309 & CVE-2026-59310: patch-diffing VMware vCenter reveals two pre-auth 9.8 bugs - an auth bypass and a syslog path traversal to RCE submitted by /u/MobetaSec [link] [comments]
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: vCenter pre-auth RCE: CVE-2026-59309/59310
+  - Published: 2026-09-22T07:58:09+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1wn37be/vcenter_preauth_rce_cve20265930959310/
+  - Summary: CVE-2026-59309 & CVE-2026-59310: patch-diffing VMware vCenter reveals two pre-auth 9.8 bugs - an auth bypass and a syslog path traversal to RCE submitted by /u/MobetaSec [link] [comments]
 
 ### Cluster 0188a8d3e5 — score 17
 
@@ -1670,7 +1614,7 @@ Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updat
 - Published: 2026-09-22T17:34:47+00:00
 - Link: https://orca.security/resources/research/ghappier-loader-npm-supply-chain-attack/
 - Fetch status: ok
-- Member count: 6
+- Member count: 7
 - Corroborating source count: 5
 - Strong signals: npm
 
@@ -1913,6 +1857,53 @@ Table of Contents Introduction Technical details Background Initial infection an
   - Published: 2026-09-17T13:00:53+00:00
   - Link: https://securelist.com/moviereaper-malware-torrent-odyssey-solana/121344/
   - Summary: Kaspersky experts have discovered a new MovieReaper campaign. The multi-stage Trojan spreads through movie torrents, such as The Odyssey, and uses the Solana blockchain to hide its C2 infrastructure.
+
+### Cluster 52127152d6 — score 14
+
+- Title: Cisco Zero-Day Highlights API Endpoint Authentication Issues
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-09-18T19:26:47+00:00
+- Link: https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-76460
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- affected_products: OpenAI/ChatGPT
+- cve_ids: CVE-2026-76460
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- affected_products: OpenAI/ChatGPT
+- cve_ids: CVE-2026-76460
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The authentication bypass flaw CVE-2026-76460 impacts Cisco's Identity Services Engine (ISE) and received a maximum 10 out of 10 CVSS score.
+```
+
+#### Full body
+
+```
+Vulnerabilities & Threats Cyber Risk Application Security Cyberattacks & Data Breaches News Cisco Zero-Day Highlights API Endpoint Authentication Issues The authentication bypass flaw CVE-2026-76460 impacts Cisco's Identity Services Engine (ISE) and received a maximum 10 out of 10 CVSS score. Rob Wright , Senior News Director , Dark Reading September 18, 2026 4 Min Read Source: saifulasmee chede via Getty Images Cisco this week disclosed a slew of critical security vulnerabilities impacting its Identity Services Engine (ISE), including a maximum-severity zero-day flaw that's under exploitation. CVE-2026-76460 is an authentication bypass vulnerability impacting an API in ISE , Cisco's network access control and zero-trust solution. According to the company, the flaw stems from "insufficient authentication control" on an ISE API endpoint. "An attacker could exploit this vulnerability by sending a crafted request to an affected API endpoint," Cisco said in its advisory . "A successful exploit could allow the attacker to gain unauthorized access to the affected device by bypassing the web-based management interface." The bug was disclosed and patched on Sept. 16, and the Cybersecurity and Infrastructure Security Agency (CISA) added the flaw to its Known Exploited Vulnerabilities (KEV) catalog on the same day. Cisco also disclosed and patched several other bugs affecting ISE and ISE Passive Identity Connector (ISE-PIC) that have similar API authentication issues. Related: MFA Won't Save You From OAuth Consent Abuse It's unclear who is exploiting CVE-2026-76460 and how extensive the activity is. (Dark Reading contacted Cisco for comment, but the company did not address the questions and instead provided a brief statement that echoed the advisory.) But the zero-day attacks illustrate a trend of API authentication issues for the networking giant, as well as beyond. "Missing authentication for API endpoints is an industry-wide problem," Johannes Ullrich, founder of the SANS Internet Storm Center, tells Dark Reading. In theory, each request to an API endpoint should be properly authenticated and access-controlled. However, that doesn't always happen. "In some cases, APIs that were not directly reachable in the past are exposed, and in the process, proper authentication and access control are skipped," Ullrich says. "This easily happens as more extensive APIs are exposed to support more modern web application interfaces." ISE Zero-Day Puts Entire Network at Risk CVE-2026-76460 is particularly dangerous for several reasons. First, successful exploitation allows an attacker to gain root privileges and command execution on vulnerable instances, with no authentication or user interaction required. Second and more importantly, Ullrich explains, ISE itself is used by other Cisco APIs for authentication and access control. Therefore, an attacker that compromises ISE can disable the solution and gain access to various networks or impersonate other hosts. This could lead to additional compromises, he says, because applications may now rely on access control decisions from the compromised ISE platform. Related: Black Hat USA 2026 | OpenAI's Deep Dive Into Hugging Face Incident "In short, it is like replacing a building's security guard with an imposter, how it allows intruders to enter using fake IDs," Ullrich says. "Employees inside the building will trust these IDs because they believe that the security guard at the entrance checked them." In an advisory for CVE-2026-76460, threat intelligence provider BitSight noted that ISE is at the heart of many organizations' identity and network access infrastructure. "It helps determine which users and devices can connect to a network and what they can access after connecting," Emma Stevens, senior threat intelligence advisor at Bitsight, wrote. "Root-level access to that infrastructure can create visibility, integrity, and availability risks across a much wider environment." Ullrich notes that API endpoi
+```
+
+#### Corroborating sources (1)
+
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Cisco Zero-Day Highlights API Endpoint Authentication Issues
+  - Published: 2026-09-18T19:26:47+00:00
+  - Link: https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues
+  - Summary: The authentication bypass flaw CVE-2026-76460 impacts Cisco's Identity Services Engine (ISE) and received a maximum 10 out of 10 CVSS score.
 
 ### Cluster c235fc8c50 — score 14
 
@@ -2182,6 +2173,60 @@ NodeZero Federal Horizon3 September 22, 2026 Factsheets Federal agencies face re
   - Link: https://horizon3.ai/downloads/factsheets/nodezero-federal/
   - Summary: Horizon3's NodeZero Federal provides production-safe, autonomous penetration testing for federal agencies. Achieve continuous readiness with proven, exploitable findings and rapid retest validation.
 
+### Cluster aaff320d43 — score 12
+
+- Title: ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-09-22T19:13:29+00:00
+- Link: https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: ShinyHunters
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion, zero_day
+- actor_attribution: Cl0p, ShinyHunters
+- affected_industries: education
+- affected_products: AWS
+- urgency_signals: no_patch_yet, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, zero_day
+- actor_attribution: ShinyHunters
+- affected_industries: education
+- affected_products: AWS
+- urgency_signals: zero_day, no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data on employees and job applicants. [...]
+```
+
+#### Full body
+
+```
+ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach By Lawrence Abrams September 22, 2026 03:13 PM 1 The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data on employees and job applicants. The threat actors told BleepingComputer the vulnerability allows remote code execution and that they used it Monday night to access FBI systems before moving laterally into FBI-managed AWS GovCloud infrastructure. ShinyHunters claims it stole between 2TB and 3TB of data from the agency, including information on current and former FBI employees, job applicants, and other internal records. The group also claims it compromised FBI Criminal Justice, HR, Medlink, and additional services during the intrusion. ShinyHunters further claims it is now exploiting the same alleged zero-day against other organizations, including Fortune 500 companies. BleepingComputer has not independently verified the alleged zero-day, lateral movement, or amount of stolen data. However, ShinyHunters shared a screenshot with BleepingComputer showing the FBI Jobs website at apply.fbijobs.gov defaced with the group's Umbreon Pokémon logo and a message claiming that FBI employee and applicant information had been compromised. The defacement stated, "THIS SITE HAS BEEN SEIZED BY SHINYHUNTERS. rooting your systems since '19 ;)". Allegedly defaced FBI Jobs website Source: ShinyHunters The message further claimed that sensitive personally identifiable and health-related information belonging to FBI employees and applicants had been stolen. "All FBI data was compromised including sensitive PII/PHI on incumbent and former FBI employees and all applicant information," read a message on the defaced site. "We have a lot more than what we claim here. Thank you for your attention to this matter." ShinyHunters told BleepingComputer that the FBI quickly became aware of the intrusion, immediately took affected systems offline, and that the FBI Jobs site now displays a maintenance message. The group also claimed that access to multiple FBI networks was terminated simultaneously after the agency detected the intrusion. "They literally pulled the plug on everything," ShinyHunters said. The threat actors shared two sample records with BleepingComputer that the group claims were stolen during the attack, including data allegedly associated with FBI personnel. One record allegedly contained information associated with an FBI special agent involved in a previous BreachForums investigation, while another allegedly contained information associated with FBI Director Kash Patel. BleepingComputer is not publishing the personal information contained in those records and has not independently verified their authenticity or source. 404 Media first reported the alleged breach after receiving a sample containing approximately 5,000 purported FBI employee records. The publication said it verified that some information in the sample was accurate, including phone numbers corresponding to people with the same names and numbers associated with US Department of Justice personnel. Alleged PeopleSoft zero-day ShinyHunters claims they gained initial access through a new zero-day vulnerability in Oracle PeopleSoft that remains unpatched. "The Oracle product we exploited the 0day in is PeopleSoft. We found another one yesterday and immediately exploited it on the FBI," ShinyHunters told BleepingComputer. The group also claims it tried to erase evidence of its activity from compromised servers to make the zero-day harder to identify. ShinyHunters also told BleepingComputer that it is now using the same alleged PeopleSoft vulnerability to target corporations and the Fortune 500 after targeting the education sector . ShinyHunters claims the stolen FBI data came from systems accessed following the initial PeopleSoft compromise. These systems allegedly include the FBI's AWS Gov
+```
+
+#### Corroborating sources (2)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach
+  - Published: 2026-09-22T19:13:29+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/
+  - Summary: The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data on employees and job applicants. [...]
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: ShinyHunters Claim Hack of Rival Ransomware Gang Clop
+  - Published: 2026-09-21T12:30:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/shinyhunters-claim-hack-of-clop/
+  - Summary: ShinyHunters has claimed responsibility for hacking the Clop ransomware group, defacing its leak site and alleging theft of key operational data
+
 ### Cluster b9771fe2d2 — score 12
 
 - Title: Targeting the Defense Industrial Base: What Network Telemetry Reveals About Nation-State Pre-Positioning
@@ -2401,6 +2446,84 @@ tcblogposts 3 min read November 2, 2022 High Vulnerability in OpenSSL 3.0 How Te
   - Link: https://www.team-cymru.com/post/high-vulnerability-in-openssl-3-0
   - Summary: Stay informed about the high vulnerability in OpenSSL 3.0 with our latest blog post. Understand the impact on security and protect your technology company.
 
+### Cluster df5a100cb0 — score 12
+
+- Title: Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-09-22T18:29:39+00:00
+- Link: https://thehackernews.com/2026/09/check-point-warns-of-management-server.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-93616
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- cve_ids: CVE-2026-85102, CVE-2026-85103, CVE-2026-91843, CVE-2026-93616
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- cve_ids: CVE-2026-93616, CVE-2026-85102, CVE-2026-91843, CVE-2026-85103
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23, the company said. The flaw, CVE-2026-93616, allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point
+```
+
+#### Full body
+
+```
+Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks  Swati Khandelwal  Sep 22, 2026 Network Security / Vulnerability Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23, the company said . The flaw, CVE-2026-93616 , allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point gateways it manages. Separately, Check Point said attackers have been trying since September 12 to exploit a VPN flaw it fixed on September 9 . The attempts, against a flaw tracked as CVE-2026-85102, have targeted customers of Spark, Check Point's firewall line for small businesses. When the fix came out, Check Point had no evidence the flaw was being exploited. CVE-2026-93616 is a path traversal bug in the management server's web service. The service does not properly limit which files and folders a request can reach. An attacker can use it to upload scripts to the server and then run them. Check Point rated it 9.8 out of 10 on the CVSS scale in the CVE record for the flaw. Check Point's advisory does not name the targets of the July attacks or the attackers, nor does it say what the attackers did after exploiting the flaw. Management Server Versions and Fix Check Point numbers the Jumbo Hotfix updates for each release by "Take." Its LivePatch channel, which pushes urgent fixes, uses a separate set of take numbers. The CVE record lists these versions as affected: R82.20 with no Jumbo Hotfix installed R82.10 with Jumbo Hotfix Take 44 or below R82 with Jumbo Hotfix Take 126 or below R81.20 with Jumbo Hotfix Take 166 or below R81.10 with Jumbo Hotfix Take 190 or below (end of support) R81, R80.40, R80.30, R80.20, R80.10 and R80 (all end of support) Check Point's advisory lists R82.20 as affected without the "no Jumbo Hotfix" condition. On September 16, Check Point fixed a separate flaw in the management server , CVE-2026-91843, through LivePatch. That update was LivePatch Take 28, or Take 29 on R82.20, according to a summary of Check Point's advisory by France's CERT Santé . Check Point says those LivePatch takes do not fix CVE-2026-93616. CVE-2026-85103, a VPN certificate flaw that Check Point fixed on September 9, affected both gateways and management servers. On R82.10, R82, and R81.20, the new flaw's affected list goes one take higher than that flaw's. So a server updated only enough to be outside that September flaw's range is still affected by CVE-2026-93616. The fixed builds, and Check Point's guidance on mitigation, hunting and indicators of compromise, are in support article sk1000171 . Administrators of management servers should: Check the server's release and Jumbo Hotfix take against the list above. Install the fix listed in sk1000171. Use the hunting guidance and indicators of compromise in sk1000171 to look for signs of an attack. Installing the fix does not show whether the server was attacked before. Check Point's advisory names only Security Management as affected and does not say what network access an attacker needs. The Hacker News has asked Check Point about other affected products, the fixed builds, and the July attacks. Spark Firewalls Targeted Through VPN Flaw CVE-2026-85102 is in the way Check Point gateways check certificates while a VPN connection is being set up. It may let an attacker who has not logged in run code on the gateway. Fixes have been out since September 9 and are in support article sk1000117 . The affected products are Security Gateway and Spark firewalls, whether centrally or locally managed, on R81 and R81.10 (both end of support), R81.10.x, R81.20, R82, R82.00.x and R82.10. The Netherlands' National Cyber Security Centre (NCSC) says the flaw applies when these products use Site-to-Site VPN or Remote Access VPN. Check Point said the attempts came from anonymiz
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks
+  - Published: 2026-09-22T18:29:39+00:00
+  - Link: https://thehackernews.com/2026/09/check-point-warns-of-management-server.html
+  - Summary: Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23, the company said. The flaw, CVE-2026-93616, allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point
+
+### Cluster 1210516def — score 11
+
+- Title: LausivLoader analysis, or how to pass data between malware stages, (Thu, Sep 17th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-09-22T13:10:20+00:00
+- Link: https://isc.sans.edu/diary/rss/33348
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+At the end of August, a malspam message was caught in the quarantine of a mail gateway operated by one of my customers. The message was not especially remarkable â€“ it asked the recipient to review some attached requirements and provide a price quotation for a fiber optic system and appeared to impersonate an employee of a legitimate company.
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: LausivLoader analysis, or how to pass data between malware stages, (Thu, Sep 17th)
+  - Published: 2026-09-22T13:10:20+00:00
+  - Link: https://isc.sans.edu/diary/rss/33348
+  - Summary: At the end of August, a malspam message was caught in the quarantine of a mail gateway operated by one of my customers. The message was not especially remarkable â€“ it asked the recipient to review some attached requirements and provide a price quotation for a fiber optic system and appeared to impersonate an employee of a legitimate company.
+
 ### Cluster bf92f99cb9 — score 11
 
 - Title: 21st September – Threat Intelligence Report
@@ -2447,39 +2570,6 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 21st Septe
   - Published: 2026-09-21T23:13:07+00:00
   - Link: https://research.checkpoint.com/2026/21st-september-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 21st Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Japan’s Digital Agency, which operates the Government Solution Service used by multiple ministries, has confirmed a data breach after attackers exploited a vulnerability in a VPN appliance. Approximately 246,000 records were exposed, […] The post 21st September – Threat Intelligence Report appeared first on Check Point Research .
-
-### Cluster 1210516def — score 11
-
-- Title: LausivLoader analysis, or how to pass data between malware stages, (Thu, Sep 17th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-09-22T13:10:20+00:00
-- Link: https://isc.sans.edu/diary/rss/33348
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-At the end of August, a malspam message was caught in the quarantine of a mail gateway operated by one of my customers. The message was not especially remarkable â€“ it asked the recipient to review some attached requirements and provide a price quotation for a fiber optic system and appeared to impersonate an employee of a legitimate company.
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: LausivLoader analysis, or how to pass data between malware stages, (Thu, Sep 17th)
-  - Published: 2026-09-22T13:10:20+00:00
-  - Link: https://isc.sans.edu/diary/rss/33348
-  - Summary: At the end of August, a malspam message was caught in the quarantine of a mail gateway operated by one of my customers. The message was not especially remarkable â€“ it asked the recipient to review some attached requirements and provide a price quotation for a fiber optic system and appeared to impersonate an employee of a legitimate company.
 
 ### Cluster 7110d0c027 — score 11
 
@@ -3013,88 +3103,6 @@ Securing the unpatchable in an age of AI-driven vulnerabilities By Martin Lee We
   - Link: https://blog.talosintelligence.com/securing-the-unpatchable-in-an-age-of-ai-driven-vulnerabilities/
   - Summary: Advances in AI technology will continue to identify vulnerabilities that in some circumstances are difficult, or effectively impossible, to patch. Appropriate network segmentation, rigorous visibility, and the deployment of NGFW/IPS combinations can provide a powerful compensatory layer.
 
-### Cluster 3e81320fe3 — score 10
-
-- Title: Our View on What It Takes To Be Named an Industry-Recognized Threat Intelligence Leader
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-09-17T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/forrester-wave-external-threat-intelligence-2026
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion, supply_chain
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-A behind-the-scenes look at how Recorded Future earned its spot as a threat intelligence leader in the latest Forrester Wave.
-```
-
-#### Full body
-
-```
-Our View on What It Takes To Be Named an Industry-Recognized Threat Intelligence Leader Recorded Future was just named a Leader in The Forrester Wave™: External Threat Intelligence Service Providers, Q3 2026. We’re incredibly proud of this acknowledgment, just as we are of every recognition we’ve received over the years. Behind every one of these industry evaluations is a lot of work that readers never see — including product demonstrations, customer reference calls, briefing presentations, and formal questionnaire submissions — all of it condensed into a single final report. But the most interesting part of any industry recognition is all the details and information that resides in the demos, decks, and responses, so we wanted to share some additional context on the factors that we believe contributed to our ranking this year. Use this blog post as a companion guide when reading your complimentary copy of the Forrester Wave™ report, which you’ll find in the link below. Get the report . Superior support for Priority Intelligence Requirements Priority Intelligence Requirements (PIRs) are foundational in helping security teams achieve meaningful outcomes, because they help shape data collection strategy and support the effective decision-making that enables machine-speed defense. Recorded Future received the highest possible score in the PIR criterion. Forrester’s evaluation describes this score as for vendors that offer “superior support for features such as mechanisms to translate external PIRs meaningfully, advanced querying for building/optimizing PIRs, and structured management of General Intelligence Requirements.” We’ve made PIRs a particular focus in the Recorded Future Platform, adding prebuilt PIRs and enabling customers to use them or define their own in our Impact and Metrics Dashboard . The dashboard surfaces metrics based on those requirements, so teams can more easily measure and better report on how successfully their programs are answering the key questions business leadership wants answered. Extensive intelligence collection sources and deep and dark web monitoring Intelligence is at the core of the modern security stack, and good intelligence is often what separates reactive security teams from proactive ones that can defend themselves pre-attack, at the first sign of threat. To us, Forrester’s evaluation criteria show how important comprehensive intelligence collection is in providing security teams with full visibility across the threat landscape. Here are the different types of data sources we primarily index and analyze and how these data sources can be used for a multitude of use cases: Technical intelligence — network traffic analysis across billions of daily data points from over 200 points of presence, internet-wide scanning and infrastructure monitoring, malware detonation and behavioral analysis, and vulnerability exploitation tracking Underground intelligence — data gathered from criminal forums, marketplaces, and adversaries that can help identify stolen data and credentials, emerging attack techniques, threat actor intent, and ransomware victimology Community intelligence — aggregated detections across customers that reveal patterns and campaign-level activity no single organization would usually catch on its own Open-source intelligence — broader context from data leakage detection, code repository monitoring, social media monitoring, and web/HTML/DOM analysis to help catch brand abuse, impersonation, and exposed data Threat hunting, vulnerability intelligence, third-party risk management, and more We believe that receiving the highest possible scores in the Forrester Wave in criteria around multiple cybersecurity disciplines — including brand protection, third-party and supply chain intelligence, fraud intelligence, and threat hunting and vulnerability intelligence — demonstrate our commitment to providing powerful threat intelligence and defensive capabilities across the entire attack surface.
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Our View on What It Takes To Be Named an Industry-Recognized Threat Intelligence Leader
-  - Published: 2026-09-17T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/forrester-wave-external-threat-intelligence-2026
-  - Summary: A behind-the-scenes look at how Recorded Future earned its spot as a threat intelligence leader in the latest Forrester Wave.
-
-### Cluster fa1e9027a9 — score 10
-
-- Title: The New Rules of Machine Speed Defense
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-09-17T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/new-rules-machine-speed-defense
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Experts from Recorded Future and Mastercard explore how security organizations can shift to proactive, machine-speed defense by leveraging high-quality threat intelligence and adhering to evolving global security frameworks designed to help mitigate AI-enabled risks.
-```
-
-#### Full body
-
-```
-The New Rules of Machine Speed Defense Global security frameworks are evolving: Security organizations are increasingly leveraging global frameworks to navigate the complexities of AI-enabled threats, balancing the need for standardized best practices with the necessity of business-specific risk decisions. Intelligence-led defense is essential: Modern, intelligence-led defense generally requires operationalizing security at machine speed by integrating enriched, contextual threat data, which better enables strategic, risk-based vulnerability prioritization rather than reacting to every threat. Effective security requires data quality and relevance: Organizations must prioritize the quality and "fit for purpose" of the intelligence feeding into their threat intelligence solutions so they can make quick, accurate decisions and avoid the risks of moving fast with bad information. As both human-directed and autonomous AI-powered attacks accelerate, security organizations, policymakers, and industry groups around the world are rethinking traditional approaches to defense. Recorded Future CISO Jason Steer and Mastercard VP of Government Affairs and Policy Christian Ohanian recently sat down with Recorded Future’s Jon Miller to discuss how to build threat intelligence programs that can defend at machine speed, how emerging policy frameworks can help, and why high-quality intelligence is increasingly essential in this new era. This blog offers highlights from the discussion. Watch the full event. Evolving security standards and frameworks Globally, security frameworks like the National Institute of Standards and Technology (NIST) Cyber AI Profile and Singapore’s cybersecurity guidelines are evolving to help organizations keep pace with new threats. According to Christian Ohanian, the goal is to encourage the adoption of AI to bolster resilience while also providing guidance on the kinds of AI-enabled threats organizations now face. However, Ohanian pointed out that creating these standards involves debate. While some argue that frameworks should provide a clear, prioritized checklist to help resource-strapped teams improve their security programs, others believe that a "one-size-fits-all" approach fails to account for the unique risk profiles of different industries and organizations. Jason Steer noted that while standards create a helpful taxonomy, the burden remains on CISOs to translate that language into business-specific risk decisions. “This is why intelligence is important,” he noted. “Every industry, every geography, has its own subtleties of attack, so leaning into ‘What are the real risks to my business?’ becomes the hardest part.” The role of high-quality, purpose-fit intelligence Ohanian noted that global security standards increasingly recognize that threat intelligence is a foundational component of modern defense. They’re also beginning to acknowledge that security organizations need to use AI and other autonomous solutions to improve the way they operationalize their intelligence. Framework discussions, he said, are now focused on “the importance of organizations looking really closely at how they can increase the speed of the way they’re using threat intelligence, how they can increase the accuracy of the prioritization of the alerts and warnings they’re getting.” Ohanian emphasized that organizations must move beyond the simple acquisition of data and evaluate the intelligence sources feeding into their threat intelligence solutions. They need to look at "fit for purpose," ensuring that the intelligence aligns with the organization’s specific risk profile and governance requirements. Steer agreed. “Coverage and collection at fast speed enable information to be brought together for people to assess the impact to their business,” he said. “But then it's only good if that information gets to the right people in the right tools.” When it does, he said, high-quality intelligence can better fulfill its ultimate goal of pro
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: The New Rules of Machine Speed Defense
-  - Published: 2026-09-17T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/new-rules-machine-speed-defense
-  - Summary: Experts from Recorded Future and Mastercard explore how security organizations can shift to proactive, machine-speed defense by leveraging high-quality threat intelligence and adhering to evolving global security frameworks designed to help mitigate AI-enabled risks.
-
 ### Cluster 12a3a99ac3 — score 10
 
 - Title: The SMB cybersecurity squeeze: AI agents at work, old attacks in overdrive
@@ -3347,6 +3355,88 @@ CISO’s CTEM Evaluation Checklist Horizon3 September 16, 2026 Factsheets Contin
   - Link: https://horizon3.ai/downloads/factsheets/ciso-ctem-evaluation-checklist/
   - Summary: Use the CISO’s CTEM Evaluation Checklist to assess whether technologies supporting your CTEM program can prove exploitability, demonstrate attack impact, verify remediation, and show measurable exposure reduction.
 
+### Cluster 3e81320fe3 — score 10
+
+- Title: Our View on What It Takes To Be Named an Industry-Recognized Threat Intelligence Leader
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-09-17T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/forrester-wave-external-threat-intelligence-2026
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion, supply_chain
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+A behind-the-scenes look at how Recorded Future earned its spot as a threat intelligence leader in the latest Forrester Wave.
+```
+
+#### Full body
+
+```
+Our View on What It Takes To Be Named an Industry-Recognized Threat Intelligence Leader Recorded Future was just named a Leader in The Forrester Wave™: External Threat Intelligence Service Providers, Q3 2026. We’re incredibly proud of this acknowledgment, just as we are of every recognition we’ve received over the years. Behind every one of these industry evaluations is a lot of work that readers never see — including product demonstrations, customer reference calls, briefing presentations, and formal questionnaire submissions — all of it condensed into a single final report. But the most interesting part of any industry recognition is all the details and information that resides in the demos, decks, and responses, so we wanted to share some additional context on the factors that we believe contributed to our ranking this year. Use this blog post as a companion guide when reading your complimentary copy of the Forrester Wave™ report, which you’ll find in the link below. Get the report . Superior support for Priority Intelligence Requirements Priority Intelligence Requirements (PIRs) are foundational in helping security teams achieve meaningful outcomes, because they help shape data collection strategy and support the effective decision-making that enables machine-speed defense. Recorded Future received the highest possible score in the PIR criterion. Forrester’s evaluation describes this score as for vendors that offer “superior support for features such as mechanisms to translate external PIRs meaningfully, advanced querying for building/optimizing PIRs, and structured management of General Intelligence Requirements.” We’ve made PIRs a particular focus in the Recorded Future Platform, adding prebuilt PIRs and enabling customers to use them or define their own in our Impact and Metrics Dashboard . The dashboard surfaces metrics based on those requirements, so teams can more easily measure and better report on how successfully their programs are answering the key questions business leadership wants answered. Extensive intelligence collection sources and deep and dark web monitoring Intelligence is at the core of the modern security stack, and good intelligence is often what separates reactive security teams from proactive ones that can defend themselves pre-attack, at the first sign of threat. To us, Forrester’s evaluation criteria show how important comprehensive intelligence collection is in providing security teams with full visibility across the threat landscape. Here are the different types of data sources we primarily index and analyze and how these data sources can be used for a multitude of use cases: Technical intelligence — network traffic analysis across billions of daily data points from over 200 points of presence, internet-wide scanning and infrastructure monitoring, malware detonation and behavioral analysis, and vulnerability exploitation tracking Underground intelligence — data gathered from criminal forums, marketplaces, and adversaries that can help identify stolen data and credentials, emerging attack techniques, threat actor intent, and ransomware victimology Community intelligence — aggregated detections across customers that reveal patterns and campaign-level activity no single organization would usually catch on its own Open-source intelligence — broader context from data leakage detection, code repository monitoring, social media monitoring, and web/HTML/DOM analysis to help catch brand abuse, impersonation, and exposed data Threat hunting, vulnerability intelligence, third-party risk management, and more We believe that receiving the highest possible scores in the Forrester Wave in criteria around multiple cybersecurity disciplines — including brand protection, third-party and supply chain intelligence, fraud intelligence, and threat hunting and vulnerability intelligence — demonstrate our commitment to providing powerful threat intelligence and defensive capabilities across the entire attack surface.
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Our View on What It Takes To Be Named an Industry-Recognized Threat Intelligence Leader
+  - Published: 2026-09-17T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/forrester-wave-external-threat-intelligence-2026
+  - Summary: A behind-the-scenes look at how Recorded Future earned its spot as a threat intelligence leader in the latest Forrester Wave.
+
+### Cluster fa1e9027a9 — score 10
+
+- Title: The New Rules of Machine Speed Defense
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-09-17T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/new-rules-machine-speed-defense
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Experts from Recorded Future and Mastercard explore how security organizations can shift to proactive, machine-speed defense by leveraging high-quality threat intelligence and adhering to evolving global security frameworks designed to help mitigate AI-enabled risks.
+```
+
+#### Full body
+
+```
+The New Rules of Machine Speed Defense Global security frameworks are evolving: Security organizations are increasingly leveraging global frameworks to navigate the complexities of AI-enabled threats, balancing the need for standardized best practices with the necessity of business-specific risk decisions. Intelligence-led defense is essential: Modern, intelligence-led defense generally requires operationalizing security at machine speed by integrating enriched, contextual threat data, which better enables strategic, risk-based vulnerability prioritization rather than reacting to every threat. Effective security requires data quality and relevance: Organizations must prioritize the quality and "fit for purpose" of the intelligence feeding into their threat intelligence solutions so they can make quick, accurate decisions and avoid the risks of moving fast with bad information. As both human-directed and autonomous AI-powered attacks accelerate, security organizations, policymakers, and industry groups around the world are rethinking traditional approaches to defense. Recorded Future CISO Jason Steer and Mastercard VP of Government Affairs and Policy Christian Ohanian recently sat down with Recorded Future’s Jon Miller to discuss how to build threat intelligence programs that can defend at machine speed, how emerging policy frameworks can help, and why high-quality intelligence is increasingly essential in this new era. This blog offers highlights from the discussion. Watch the full event. Evolving security standards and frameworks Globally, security frameworks like the National Institute of Standards and Technology (NIST) Cyber AI Profile and Singapore’s cybersecurity guidelines are evolving to help organizations keep pace with new threats. According to Christian Ohanian, the goal is to encourage the adoption of AI to bolster resilience while also providing guidance on the kinds of AI-enabled threats organizations now face. However, Ohanian pointed out that creating these standards involves debate. While some argue that frameworks should provide a clear, prioritized checklist to help resource-strapped teams improve their security programs, others believe that a "one-size-fits-all" approach fails to account for the unique risk profiles of different industries and organizations. Jason Steer noted that while standards create a helpful taxonomy, the burden remains on CISOs to translate that language into business-specific risk decisions. “This is why intelligence is important,” he noted. “Every industry, every geography, has its own subtleties of attack, so leaning into ‘What are the real risks to my business?’ becomes the hardest part.” The role of high-quality, purpose-fit intelligence Ohanian noted that global security standards increasingly recognize that threat intelligence is a foundational component of modern defense. They’re also beginning to acknowledge that security organizations need to use AI and other autonomous solutions to improve the way they operationalize their intelligence. Framework discussions, he said, are now focused on “the importance of organizations looking really closely at how they can increase the speed of the way they’re using threat intelligence, how they can increase the accuracy of the prioritization of the alerts and warnings they’re getting.” Ohanian emphasized that organizations must move beyond the simple acquisition of data and evaluate the intelligence sources feeding into their threat intelligence solutions. They need to look at "fit for purpose," ensuring that the intelligence aligns with the organization’s specific risk profile and governance requirements. Steer agreed. “Coverage and collection at fast speed enable information to be brought together for people to assess the impact to their business,” he said. “But then it's only good if that information gets to the right people in the right tools.” When it does, he said, high-quality intelligence can better fulfill its ultimate goal of pro
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: The New Rules of Machine Speed Defense
+  - Published: 2026-09-17T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/new-rules-machine-speed-defense
+  - Summary: Experts from Recorded Future and Mastercard explore how security organizations can shift to proactive, machine-speed defense by leveraging high-quality threat intelligence and adhering to evolving global security frameworks designed to help mitigate AI-enabled risks.
+
 ### Cluster ba588269d5 — score 10
 
 - Title: Proofpoint Stops the Attacks Traditional Defenses Miss in the AI Era
@@ -3479,26 +3569,20 @@ A Chinese threat actor has been targeting vulnerable ZyXEL GS1900 switches world
 - Source: The Hacker News (cyber_news_breach_reporting)
 - Published: 2026-09-22T16:41:12+00:00
 - Link: https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: CVE-2026-90898
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_industries: government
-- affected_products: Anthropic/Claude, Linux kernel, OpenAI/ChatGPT
-- cve_ids: CVE-2026-55245, CVE-2026-86242, CVE-2026-90898
-- urgency_signals: actively_exploited, preauth_unauth
+- cve_ids: CVE-2026-90898
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_industries: government
-- affected_products: Anthropic/Claude, Linux kernel, OpenAI/ChatGPT
-- cve_ids: CVE-2026-90898, CVE-2026-86242, CVE-2026-55245
-- urgency_signals: actively_exploited, preauth_unauth
+- cve_ids: CVE-2026-90898
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -3506,12 +3590,6 @@ A Chinese threat actor has been targeting vulnerable ZyXEL GS1900 switches world
 
 ```
 A critical vulnerability in Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request. The flaw, tracked as CVE-2026-90898 (CVSS score: 9.8), affects all versions of the Bifrost HTTP transport before 2.1.0 when management authentication is
-```
-
-#### Full body
-
-```
-Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials  Swati Khandelwal  Sep 22, 2026 Artificial Intelligence / Vulnerability A critical vulnerability in Bifrost , an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request. The flaw, tracked as CVE-2026-90898 (CVSS score: 9.8), affects all versions of the Bifrost HTTP transport before 2.1.0 when management authentication is disabled, which is the default configuration. A fix is available in transports/v2.1.0. Yuval Moravchick of JFrog Security Research , who discovered the flaw, said an attacker can register a stdio-type MCP client through a single unauthenticated POST to the management API endpoint /api/mcp/client. Bifrost starts the specified command immediately, before any MCP handshake, as the gateway process user. On the official Docker image, that user is appuser. Because the gateway stores API keys for every connected provider, executing commands on the gateway process grants the attacker access to those credentials. The stock Bifrost binary binds the management API to localhost by default, which limits exposure to the local machine. The official Docker image binds to 0.0.0.0, making the management API reachable from outside the container if the port is published. Operators should upgrade to transports/v2.1.0, which returns 403 when an unauthenticated caller tries to register a stdio MCP client. Those who cannot upgrade immediately should set governance.auth_config.is_enabled to true, use strong credentials, and keep the management listener off untrusted networks. JFrog advises treating any instance that ran with authentication disabled and the management API exposed as compromised, and rotating virtual keys and provider API keys. Operators on transports/v2.0.0 are still affected by the MCP flaw. That release fixed only an earlier plugin vulnerability and does not block the unauthenticated registration. The 1.6.x line through 1.6.11 contains neither fix. A second, related flaw found by Or Peles of the same research team was disclosed on September 6 . CVE-2026-86242 (CVSS score: 8.1) allows an unauthenticated attacker to register a custom plugin whose path is an HTTP URL. Bifrost downloads the file, writes it as a temporary shared object, and loads it through Go's plugin.Open function. On dynamically linked builds, which Bifrost requires for custom Go plugins, the plugin loads and its code runs as the gateway process user. On statically linked builds, including the official Docker image, plugin.Open fails and the result is server-side request forgery only. The fix is in transports/v2.0.0. Both flaws share the same root cause: Bifrost's management API ships with authentication disabled by default. They are the second and third security issues disclosed in the project in under a month, after an unrelated SSRF flaw (CVE-2026-55245) fixed in late August. The MCP flaw follows a pattern that has already led to real-world attacks. In April 2026, researchers disclosed a design flaw in MCP's STDIO transport that affects Anthropic's official SDKs. A similar command-injection flaw in LiteLLM, another AI gateway, was actively exploited and added to CISA's Known Exploited Vulnerabilities catalog in June. Neither Bifrost CVE appears in the KEV catalog as of publication. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  API Security , artificial intelligence , Vulnerability , Web Security ⚡ Top Stories This Week Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads Public Exploits Released for Four Linux Kernel Flaws
 ```
 
 #### Corroborating sources (1)
@@ -3528,22 +3606,18 @@ Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials
 - Source: BleepingComputer (cyber_news_breach_reporting)
 - Published: 2026-09-22T18:04:39+00:00
 - Link: https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 4
 - Corroborating source count: 3
 - Strong signals: Google/Gemini
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, credential_theft, data_breach
-- affected_industries: financial_services
-- affected_products: Android, Cisco, Google/Gemini, OpenAI/ChatGPT
+- affected_products: Google/Gemini, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_2_operator, tier_3_analysis, tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: credential_theft, data_breach, active_exploitation
-- affected_industries: financial_services
-- affected_products: Android, Cisco, Google/Gemini
+- affected_products: Google/Gemini
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -3551,12 +3625,6 @@ Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials
 
 ```
 A new Windows malware named ClosedQuorum uses Google Gemini, DeepSeek, Qwen, and Mistral AI models to autonomously determine the actions to take during post-compromise stages of an attack. [...]
-```
-
-#### Full body
-
-```
-New ClosedQuorum Windows malware uses AI for attack decisions By Bill Toulas September 22, 2026 02:04 PM 0 A new Windows malware named ClosedQuorum uses Google Gemini, DeepSeek, Qwen, and Mistral AI models to autonomously determine the actions to take during post-compromise stages of an attack. The Go-based malware acts with no commands from a human operator, using reconnaissance information and a voting system to decide its next step on infected hosts. When votes are tied, DeepSeek has priority at making the final call, based on the option it considers most appropriate, followed by Qwen, Mistral, and Gemini. Cisco Talos researchers analyzing ClosedQuorum say that the models are restricted to a predefined set of decisions, including: steal — simultaneously runs LSASS credential dumping, browser (Chrome, Edge, Firefox) credential theft, and cryptocurrency-wallet (MetaMast, Exodus, Ethereum) extraction inject — generates shellcode, then uses either process hollowing or Early Bird APC injection persist — executes the malware’s persistence module move — included as a possible lateral movement decision, but the analyzed distribution build has no corresponding handler, so it cannot execute this action The stolen details are then passed to the operators via a Discord webhook, so apart from the malware delivery, the attack can be fully automated. ClosedQuorum attack model overview Source: Cisco Talos describes ClosedQuorum as the first publicly documented Windows implant to delegate tactical command-and-control (C2) decisions to a panel of AI models, commenting that this adds greater speed and scaling potential to malicious operations. The researchers also highlight that this eliminates human interaction, allowing the attack chain to proceed at any time. However, Cisco notes that this may also pose challenges in certain cases where rate limits are hit, output is malformed, or commercial APIs that the system relies on are temporarily unavailable. Since it is not a sophisticated piece of malware, it is unclear if ClosedQuorum is a test or experiment. However, the researchers warn that it represents an "architectural shift towards attack-chain automation." “While we do not have confirmation of in-the-wild deployment, artifacts from the binary were used to connect the developer to postings on criminal forums related to carding, dating back to 2025,” explains Cisco Talos . The binary that Cisco Talos analyzed contains placeholder API credentials and a dummy Discord webhook, although the creators can add those in their custom ClosedQuorum builds. Cisco Talos discovered ClosedQuorum through CAIRN , an open-source toolkit it released to help researchers track and analyze AI-integrated malware. Build your security blueprint for AI-powered attacks Join Mikko Hyppönen and security leaders from the NFL, CHANEL, and Atlassian for a two-hour digital summit on what AI-speed attacks change, what defenders should stop doing, and how to validate, decide, fix, and re-validate at machine speed. Save your seat Related Articles: New RatHat Android malware uses AI to automate device control OpenAI details more cases of AI agents taking unauthorized actions Anthropic wants Claude to analyze your bank account and financial data Spain's data agency gets first report of AI-powered data breach Hackers abused Claude to extract secrets from 1.8M Android apps
 ```
 
 #### Corroborating sources (3)
@@ -3753,43 +3821,6 @@ In June 2026 the IETF published RFC 10008[ 1 ], defining a new HTTP method: "QUE
   - Published: 2026-09-19T04:51:46+00:00
   - Link: https://isc.sans.edu/diary/rss/33352
   - Summary: In June 2026 the IETF published RFC 10008[ 1 ], defining a new HTTP method: "QUERY". The HTTP protocol faced already by changes (HTTP/2, HTTP/3) but it's the first new standard HTTP verb since "PATCH" in 2010!
-
-### Cluster 390d3add7a — score 9
-
-- Title: BigCommerce alerts merchants of data breach linked to Ribon apps
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-09-21T21:18:49+00:00
-- Link: https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: retail_ecommerce
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: retail_ecommerce
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applications and used them to inject malicious scripts into online stores. [...]
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: BigCommerce alerts merchants of data breach linked to Ribon apps
-  - Published: 2026-09-21T21:18:49+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/
-  - Summary: Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applications and used them to inject malicious scripts into online stores. [...]
 
 ### Cluster 5684813f28 — score 9
 
@@ -4006,109 +4037,6 @@ submitted by /u/natcoba [link] [comments]
   - Link: https://www.sophos.com/en-us/blog/september-2026-patch-tuesday
   - Summary: <p>Windows takes 718 fixes… but what if it was actually a slow month?</p> Categories: Threat Research Tags: Patch Tuesday, x-ops, Threat Research
 
-### Cluster 3fc6825c50 — score 8
-
-- Title: The Tale of Two INC Ransom Notes: A Ransomware Timeline | Huntress
-- Source: Huntress (detection_response_operations)
-- Published: 2026-09-21T13:00:00+00:00
-- Link: https://www.huntress.com/blog/two-inc-ransom-notes
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Huntress analysts reconstructed a three-week INC ransomware attack from endpoint data, uncovering a 17-day lull despite missing process telemetry.
-```
-
-#### Corroborating sources (1)
-
-- **Huntress** (detection_response_operations)
-  - Title: The Tale of Two INC Ransom Notes: A Ransomware Timeline | Huntress
-  - Published: 2026-09-21T13:00:00+00:00
-  - Link: https://www.huntress.com/blog/two-inc-ransom-notes
-  - Summary: Huntress analysts reconstructed a three-week INC ransomware attack from endpoint data, uncovering a 17-day lull despite missing process telemetry.
-
-### Cluster 13696f2798 — score 8
-
-- Title: Operational Resilience: Turning Your IR Plan Into a Resilient Team
-- Source: Huntress (detection_response_operations)
-- Published: 2026-09-17T14:00:00+00:00
-- Link: https://www.huntress.com/blog/operational-resilience-incident-response-plan
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-An incident response plan only works if it’s tested. Learn the 5 pillars of operational resilience and how to turn your plan into muscle memory before an attack hits.
-```
-
-#### Corroborating sources (1)
-
-- **Huntress** (detection_response_operations)
-  - Title: Operational Resilience: Turning Your IR Plan Into a Resilient Team
-  - Published: 2026-09-17T14:00:00+00:00
-  - Link: https://www.huntress.com/blog/operational-resilience-incident-response-plan
-  - Summary: An incident response plan only works if it’s tested. Learn the 5 pillars of operational resilience and how to turn your plan into muscle memory before an attack hits.
-
-### Cluster 31579fe20b — score 8
-
-- Title: Ready, Settra, Go: New Settra Ransomware Variant Deploys MeshAgent RMM
-- Source: Huntress (detection_response_operations)
-- Published: 2026-09-17T13:00:00+00:00
-- Link: https://www.huntress.com/blog/new-settra-ransomware-variant
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Huntress has recently seen two incidents involving Settra, a ransomware variant that was first publicly reported in June 2026.
-```
-
-#### Corroborating sources (1)
-
-- **Huntress** (detection_response_operations)
-  - Title: Ready, Settra, Go: New Settra Ransomware Variant Deploys MeshAgent RMM
-  - Published: 2026-09-17T13:00:00+00:00
-  - Link: https://www.huntress.com/blog/new-settra-ransomware-variant
-  - Summary: Huntress has recently seen two incidents involving Settra, a ransomware variant that was first publicly reported in June 2026.
-
 ### Cluster 9561d00114 — score 8
 
 - Title: Every regulatory disclosure rule asks the same question. Each calls it something else
@@ -4141,6 +4069,43 @@ EU orgs must juggle reporting obligations and timelines for CRA, GDPR, NIS2, and
   - Published: 2026-09-18T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/every-regulatory-disclosure-rule-asks-the-same-question-each-calls-it-something-else
   - Summary: EU orgs must juggle reporting obligations and timelines for CRA, GDPR, NIS2, and more. But the most important step is judging what needs reporting.
+
+### Cluster 390d3add7a — score 8
+
+- Title: BigCommerce alerts merchants of data breach linked to Ribon apps
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-09-21T21:18:49+00:00
+- Link: https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- affected_industries: retail_ecommerce
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- affected_industries: retail_ecommerce
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applications and used them to inject malicious scripts into online stores. [...]
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: BigCommerce alerts merchants of data breach linked to Ribon apps
+  - Published: 2026-09-21T21:18:49+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/
+  - Summary: Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applications and used them to inject malicious scripts into online stores. [...]
 
 ### Cluster d06920cf73 — score 8
 
@@ -4273,3 +4238,36 @@ Discover how AI threat intelligence reveals cybercriminals' true tactics. Learn 
   - Published: 2026-09-21T22:37:48+00:00
   - Link: https://www.team-cymru.com/post/ai-threat-intelligence-cybercrime-evolution
   - Summary: Discover how AI threat intelligence reveals cybercriminals' true tactics. Learn why agentic AI and automated threat detection are reshaping cybersecurity.
+
+### Cluster 1f9d3b95ad — score 8
+
+- Title: Unmasking DPRK Cyber Threat Actors: Fake IT Worker Infrastructure & Post-Exposure Analysis
+- Source: Team Cymru (ransomware_ecrime_financial_crime)
+- Published: 2026-09-21T22:37:48+00:00
+- Link: https://www.team-cymru.com/post/dprk-fake-it-worker-cyber-threat-actors-infrastructure
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Uncover how DPRK cyber threat actors use fake IT schemes, Astrill VPN, and freelance platforms to infiltrate networks. Learn to spot these advanced persistent threats.
+```
+
+#### Corroborating sources (1)
+
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - Title: Unmasking DPRK Cyber Threat Actors: Fake IT Worker Infrastructure & Post-Exposure Analysis
+  - Published: 2026-09-21T22:37:48+00:00
+  - Link: https://www.team-cymru.com/post/dprk-fake-it-worker-cyber-threat-actors-infrastructure
+  - Summary: Uncover how DPRK cyber threat actors use fake IT schemes, Astrill VPN, and freelance platforms to infiltrate networks. Learn to spot these advanced persistent threats.
