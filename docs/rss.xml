@@ -6,9 +6,111 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 24 Sep 2026 14:49:37 +0000</lastBuildDate>
+<lastBuildDate>Thu, 24 Sep 2026 18:58:05 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions</title>
+<link>https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html</link>
+<description><![CDATA[A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats, chained two flaws in OnePlus&apos;s own software to gain root access, the highest level of control over an Android phone. OnePlus told him the same flaws affect many more of its own devices and those of OPPO, though it has not<br/><br/><em>Tags: Android · vulnerability_disclosure</em>]]></description>
+<pubDate>Thu, 24 Sep 2026 18:10:18 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>Android</category>
+<category>vulnerability_disclosure</category>
+</item>
+<item>
+<title>New bill would create federal investigative body for AI-driven hacks</title>
+<link>https://cyberscoop.com/new-bill-would-create-federal-investigative-body-for-ai-driven-hacks/</link>
+<description><![CDATA[A new Democratic bill in Congress would establish a federal Cybersecurity and AI Board of Investigations to provide independent government oversight of cyberattacks carried out by AI agents, following recent hacks by models run at companies like Anthropic, OpenAI, Meta and others. The bill, introduced by Sen. Ed Markey, D-Mass., would attempt to establish a […] The post New bill would create federal investigative body for AI-driven hacks appeared first on CyberScoop .<br/><br/><em>Tags: Anthropic/Claude · OpenAI/ChatGPT</em>]]></description>
+<pubDate>Thu, 24 Sep 2026 18:07:31 +0000</pubDate>
+<guid isPermaLink="true">https://cyberscoop.com/new-bill-would-create-federal-investigative-body-for-ai-driven-hacks/</guid>
+<source url="https://cyberscoop.com/feed/">CyberScoop</source>
+<category>cyber_news_breach_reporting</category>
+<category>Anthropic/Claude</category>
+<category>OpenAI/ChatGPT</category>
+</item>
+<item>
+<title>ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories</title>
+<link>https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html</link>
+<description><![CDATA[This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before. That is the thread running through the pile. Trusted paths get poisoned. Old bugs find new jobs. AI tools leak more than expected. Fake prompts look real enough. And some attacks barely need an exploit at all — just]]></description>
+<pubDate>Thu, 24 Sep 2026 17:52:43 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Exposed GitLab project email addresses let attackers push code</title>
+<link>https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/</link>
+<description><![CDATA[Private GitLab email addresses that allow developers to push issues or tasks to a project are being deliberately exposed in READMEs, contributing guides, and support pages used to collect bug reports. [...]<br/><br/><em>Tags: GitLab</em>]]></description>
+<pubDate>Thu, 24 Sep 2026 17:47:44 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>GitLab</category>
+</item>
+<item>
+<title>Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/</link>
+<description><![CDATA[Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect and disrupt this activity before ransomware deployment. The post Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft Defender · ransomware_extortion</em>]]></description>
+<pubDate>Thu, 24 Sep 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<category>threat_research_primary</category>
+<category>Microsoft Defender</category>
+<category>ransomware_extortion</category>
+</item>
+<item>
+<title>​​​​​​​​What’s new in Microsoft Security: September 2026​​</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/09/24/whats-new-in-microsoft-security-september-2026/</link>
+<description><![CDATA[This month&apos;s updates help you discover and control local AI agents, extend Zero Trust to agent traffic, and strengthen SOC foundations. The post ​​​​​​​​What’s new in Microsoft Security: September 2026​​ appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft Defender</em>]]></description>
+<pubDate>Thu, 24 Sep 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/09/24/whats-new-in-microsoft-security-september-2026/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<category>threat_research_primary</category>
+<category>Microsoft Defender</category>
+</item>
+<item>
+<title>Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/</link>
+<description><![CDATA[Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect and disrupt this activity before ransomware deployment. The post Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments appeared first on Microsoft Security Blog .<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<pubDate>Thu, 24 Sep 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<category>threat_research_primary</category>
+<category>ransomware_extortion</category>
+</item>
+<item>
+<title>How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers</title>
+<link>https://www.reddit.com/r/netsec/comments/1wp466a/how_cloudflare_addressed_a_crosstenant_data/</link>
+<description><![CDATA[submitted by /u/natcoba [link] [comments]<br/><br/><em>Tags: data_breach</em>]]></description>
+<pubDate>Thu, 24 Sep 2026 15:07:04 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wp466a/how_cloudflare_addressed_a_crosstenant_data/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+<category>data_breach</category>
+</item>
+<item>
+<title>Emerging Ransomware Gang Uses Backup Destruction Threats to Pressure Victims</title>
+<link>https://www.infosecurity-magazine.com/news/ransomware-gang-uses-backup/</link>
+<description><![CDATA[Ransom notes by n0n ransomware claim to take double extortion to a new level of danger for victims<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<pubDate>Thu, 24 Sep 2026 15:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/ransomware-gang-uses-backup/</guid>
+<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
+<category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
+</item>
+<item>
+<title>3 Cyber Threats That Defined the Summer of 2026</title>
+<link>https://www.darkreading.com/cyberattacks-data-breaches/3-cyber-threats-defined-summer-2026</link>
+<description><![CDATA[This installment of the Reporters&apos; Notebook video series discusses the impact of AI agents breaching Hugging Face, Fairlife&apos;s ransomware attack, and Iranian-linked threat actors compromising a dozen US water systems. It was a busy summer.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<pubDate>Thu, 24 Sep 2026 14:44:12 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/3-cyber-threats-defined-summer-2026</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
+</item>
 <item>
 <title>OpenAI Agents Probed Websites for Vulnerabilities While Fetching Public Data</title>
 <link>https://www.securityweek.com/openai-agents-probed-websites-for-vulnerabilities-while-fetching-public-data/</link>
@@ -22,7 +124,7 @@
 <item>
 <title>A new, no-compromises database architecture for the agentic era</title>
 <link>https://cloud.google.com/blog/products/databases/alloydbs-agentic-database-architecture/</link>
-<description><![CDATA[Entire database engineering careers have been spent on a single question: How do you scale an OLTP workload without compromising the system of record that owns the data? Exadata answered the question by offloading queries into a scale-out storage tier beneath the database, removing the network as the bottleneck. Azure SQL Hyperscale did it with shared block servers, scaling out to tens of read replicas. Aurora offloaded log application to distributed storage nodes, scaling reads across tens of PostgreSQL nodes. Meanwhile, emerging architectures persist data in traditional object storage with a provisioned cache tier in front, recovering latency for hot data but leaving a high-latency tail on every cache miss. Each of these architectures is inherently constrained by at least one of these three properties: scale, latency, and isolation — and sometimes even two. For instance, architectures built on caches or shared block servers compromise scalability, because I/O inevitably bottlenecks o]]></description>
+<description><![CDATA[Entire database engineering careers have been spent on a single question: How do you scale an OLTP workload without compromising the system of record that owns the data? Exadata answered the question by offloading queries into a scale-out storage tier beneath the database, removing the network as the bottleneck. Azure SQL Hyperscale did it with shared block servers, scaling out to tens of read replicas. Aurora offloaded log application to distributed storage nodes, scaling reads across tens of PostgreSQL nodes. Meanwhile, emerging architectures persist data in traditional object storage with a provisioned cache tier in front, recovering latency for hot data but leaving a high-latency tail on every cache miss. Each of these architectures is inherently constrained by at least one of these three properties: scale, latency, and isolation — and sometimes even two. For instance, architectures built on shared block servers compromise scalability, because I/O inevitably bottlenecks on the bloc]]></description>
 <pubDate>Thu, 24 Sep 2026 14:30:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/products/databases/alloydbs-agentic-database-architecture/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
@@ -46,6 +148,18 @@
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/fedramp-vdr-and-ver-daily-scans-are-only-the-beginning/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Proactive Defense: Hardening Code Pipelines and CI/CD Infrastructure</title>
+<link>https://cloud.google.com/blog/topics/threat-intelligence/hardening-code-pipelines-and-ci-cd-infrastructure/</link>
+<description><![CDATA[Introduction The landscape of software supply chain security has undergone a significant shift. Recent campaigns demonstrate that sophisticated threat actors are systematically targeting the engineering lifecycle by compromising trusted security and programming tools. These intrusions reveal three key tactics: Attackers target trusted security scanners, utility libraries, and AI developer tools to exploit the elevated privileges granted to these systems within build pipelines. Adversaries target developer workstations and Integrated Development Environments (IDEs) via highly tailored social engineering, malicious extensions, or typosquatted local dependencies to exfiltrate private cryptographic keys, API tokens, and active session credentials directly from local engineering environments. Rather than relying solely on compromised static credentials, attackers have escalated to advanced pipeline manipulation techniques, including GitHub Actions cache poisoning, OpenID Connect ( OIDC) tok<br/><br/><em>Tags: GitHub · supply_chain · phishing_social_eng</em>]]></description>
+<pubDate>Thu, 24 Sep 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/hardening-code-pipelines-and-ci-cd-infrastructure/</guid>
+<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
+<category>threat_research_primary</category>
+<category>GitHub</category>
+<category>supply_chain</category>
+<category>phishing_social_eng</category>
 </item>
 <item>
 <title>Proactive Defense: Hardening Code Pipelines and CI/CD Infrastructure</title>
@@ -110,6 +224,19 @@
 <guid isPermaLink="true">https://www.wiz.io/blog/scan-for-good-critical-ai-exposures</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>The Not So Silent Miner: Threat Actor Compiles Cryptominer on the Endpoint</title>
+<link>https://www.huntress.com/blog/threat-actor-compiles-cryptominer</link>
+<description><![CDATA[Threat actors exploited Samsung MagicINFO to install AnyDesk, disable Defender, and compile a Monero miner directly on a victim endpoint. Learn the detection signals.<br/><br/><em>Tags: Microsoft Defender · Anthropic/Claude · CVE-2025-4632 · CVE-2024-7399</em>]]></description>
+<pubDate>Thu, 24 Sep 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/threat-actor-compiles-cryptominer</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
+<category>Microsoft Defender</category>
+<category>Anthropic/Claude</category>
+<category>CVE-2025-4632</category>
+<category>CVE-2024-7399</category>
 </item>
 <item>
 <title>When Business Email Compromise Starts Rewriting Reality</title>
@@ -320,14 +447,14 @@
 <item>
 <title>US Court Sentences Armenian Man to Prison for Ryuk Ransomware Attacks</title>
 <link>https://www.securityweek.com/us-court-sentences-armenian-man-to-prison-for-ryuk-ransomware-attacks/</link>
-<description><![CDATA[Karen Vardanyan has also been ordered to pay over $1.2 million in restitution to victims. The post US Court Sentences Armenian Man to Prison for Ryuk Ransomware Attacks appeared first on SecurityWeek .<br/><br/><em>Tags: Microsoft Defender · WordPress · SolarWinds · Scattered Spider · ShinyHunters · ransomware_extortion · phishing_social_eng · data_breach</em>]]></description>
+<description><![CDATA[Karen Vardanyan has also been ordered to pay over $1.2 million in restitution to victims. The post US Court Sentences Armenian Man to Prison for Ryuk Ransomware Attacks appeared first on SecurityWeek .<br/><br/><em>Tags: Microsoft Defender · SolarWinds · OpenAI/ChatGPT · Scattered Spider · ShinyHunters · ransomware_extortion · phishing_social_eng · data_breach</em>]]></description>
 <pubDate>Thu, 24 Sep 2026 08:38:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/us-court-sentences-armenian-man-to-prison-for-ryuk-ransomware-attacks/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
 <category>Microsoft Defender</category>
-<category>WordPress</category>
 <category>SolarWinds</category>
+<category>OpenAI/ChatGPT</category>
 <category>Scattered Spider</category>
 </item>
 <item>
@@ -394,12 +521,11 @@
 <item>
 <title>What&apos;s New in hate_crack Since 2.0</title>
 <link>https://trustedsec.com/blog/whats-new-in-hate-crack-since-2-0</link>
-<description><![CDATA[&lt;p&gt;You thought you knew hate_crack 👀 Well, version 2.0 changed that. In Part 1 of this latest blog series, we go through 13 new attack methods, menu restructuring, and local LLM integration.&lt;/p&gt;<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
+<description><![CDATA[&lt;p&gt;You thought you knew hate_crack 👀 Well, version 2.0 changed that. In Part 1 of this latest blog series, we go through 13 new attack methods, menu restructuring, and local LLM integration.&lt;/p&gt;]]></description>
 <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://trustedsec.com/blog/whats-new-in-hate-crack-since-2-0</guid>
 <source url="https://www.trustedsec.com/feed/">TrustedSec</source>
 <category>detection_response_operations</category>
-<category>OpenAI/ChatGPT</category>
 </item>
 <item>
 <title>CISA outlines improvement plan for CVE program</title>
@@ -779,24 +905,28 @@
 <item>
 <title>Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape</title>
 <link>https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html</link>
-<description><![CDATA[A use-after-free in the Linux kernel&apos;s AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst said in research published September 22. The flaw, tracked as CVE-2026-80521 (CVSS score: 7.8), was fixed upstream on August 6, but Ubuntu has not shipped the patch for its 26.04, 24.04, or 22.04 LTS releases. DepthFirst<br/><br/><em>Tags: Linux kernel · CVE-2026-80521</em>]]></description>
+<description><![CDATA[A use-after-free in the Linux kernel&apos;s AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst said in research published September 22. The flaw, tracked as CVE-2026-80521 (CVSS score: 7.8), was fixed upstream on August 6, but Ubuntu has not shipped the patch for its 26.04, 24.04, or 22.04 LTS releases. DepthFirst<br/><br/><em>Tags: Linux kernel · Google Cloud · Azure · CVE-2026-80521 · vulnerability_disclosure</em>]]></description>
 <pubDate>Wed, 23 Sep 2026 11:12:18 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>Linux kernel</category>
+<category>Google Cloud</category>
+<category>Azure</category>
 <category>CVE-2026-80521</category>
 </item>
 <item>
 <title>ShinyHunters Claims FBI Hack Via PeopleSoft Zero Day</title>
 <link>https://www.infosecurity-magazine.com/news/shinyhunters-fbi-hack-peoplesoft/</link>
-<description><![CDATA[Infamous threat group ShinyHunters claims to have personal information on thousands of FBI employees<br/><br/><em>Tags: ShinyHunters · zero_day</em>]]></description>
+<description><![CDATA[Infamous threat group ShinyHunters claims to have personal information on thousands of FBI employees<br/><br/><em>Tags: Salesforce · AWS · ShinyHunters · Cl0p · ransomware_extortion · zero_day · data_breach</em>]]></description>
 <pubDate>Wed, 23 Sep 2026 10:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/shinyhunters-fbi-hack-peoplesoft/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
+<category>Salesforce</category>
+<category>AWS</category>
 <category>ShinyHunters</category>
-<category>zero_day</category>
+<category>Cl0p</category>
 </item>
 <item>
 <title>CVE-2026-94127: Critical Unauthenticated RCE in F5 BIG-IP APM</title>
@@ -911,28 +1041,6 @@
 <source url="https://www.recordedfuture.com/feed">Recorded Future</source>
 <category>threat_research_primary</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>ShinyHunters claims attack on FBI exposes almost all agents</title>
-<link>https://cyberscoop.com/shinyhunters-claims-fbi-attack/</link>
-<description><![CDATA[The FBI jobs site, which was temporarily defaced, remains unavailable and the agency said it’s investigating the claims. The post ShinyHunters claims attack on FBI exposes almost all agents appeared first on CyberScoop .<br/><br/><em>Tags: Salesforce · Snowflake · ShinyHunters · ransomware_extortion · phishing_social_eng</em>]]></description>
-<pubDate>Tue, 22 Sep 2026 23:47:43 +0000</pubDate>
-<guid isPermaLink="true">https://cyberscoop.com/shinyhunters-claims-fbi-attack/</guid>
-<source url="https://cyberscoop.com/feed/">CyberScoop</source>
-<category>cyber_news_breach_reporting</category>
-<category>Salesforce</category>
-<category>Snowflake</category>
-<category>ShinyHunters</category>
-<category>ransomware_extortion</category>
-</item>
-<item>
-<title>After water attacks, Capitol Hill offers its own proposal for an AI-cyber test program</title>
-<link>https://cyberscoop.com/gottheimer-ai-cyber-defense-act-cisa-pilot/</link>
-<description><![CDATA[A key House Democrat and his bipartisan sponsors want to see a $100 million DHS pilot to help critical infrastructure owners and operators — separate from another administration-proposed pilot program. The post After water attacks, Capitol Hill offers its own proposal for an AI-cyber test program appeared first on CyberScoop .]]></description>
-<pubDate>Tue, 22 Sep 2026 21:14:32 +0000</pubDate>
-<guid isPermaLink="true">https://cyberscoop.com/gottheimer-ai-cyber-defense-act-cisa-pilot/</guid>
-<source url="https://cyberscoop.com/feed/">CyberScoop</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>DarkMe RAT: A VB6 APT Trojan Turned Conventional Infostealer</title>
@@ -1497,14 +1605,12 @@
 <item>
 <title>Tracking ORBs on Singapore&apos;s Telecommunications Networks</title>
 <link>https://www.team-cymru.com/post/tracking-orbs-on-singapores-telecommunications-networks</link>
-<description><![CDATA[APT attacks by UNC3886 target Singapore telecom using ORB networks. Learn practical ORB tracking techniques to uncover hidden infrastructure with Scout.<br/><br/><em>Tags: Fortinet · UNC3886 · zero_day · apt_espionage</em>]]></description>
+<description><![CDATA[APT attacks by UNC3886 target Singapore telecom using ORB networks. Learn practical ORB tracking techniques to uncover hidden infrastructure with Scout.<br/><br/><em>Tags: UNC3886 · apt_espionage</em>]]></description>
 <pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/tracking-orbs-on-singapores-telecommunications-networks</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
-<category>Fortinet</category>
 <category>UNC3886</category>
-<category>zero_day</category>
 <category>apt_espionage</category>
 </item>
 <item>
@@ -1538,15 +1644,12 @@
 <item>
 <title>Scattered Spider Attacks | Infrastructure and TTP Analysis</title>
 <link>https://www.team-cymru.com/post/scattered-spider-attacks-infrastructure-profile</link>
-<description><![CDATA[An in-depth analysis of Scattered Spider attacks, detailing the group‚Äôs infrastructure usage and TTPs to help defenders detect and disrupt activity earlier.<br/><br/><em>Tags: Scattered Spider · BlackCat/ALPHV · RansomHub · ransomware_extortion · phishing_social_eng · credential_theft</em>]]></description>
+<description><![CDATA[An in-depth analysis of Scattered Spider attacks, detailing the group‚Äôs infrastructure usage and TTPs to help defenders detect and disrupt activity earlier.<br/><br/><em>Tags: Scattered Spider</em>]]></description>
 <pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/scattered-spider-attacks-infrastructure-profile</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
 <category>Scattered Spider</category>
-<category>BlackCat/ALPHV</category>
-<category>RansomHub</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Reducing Friction in Cyber Threat Intelligence: Views from a Director of Advanced Cyber Practices</title>
@@ -2308,40 +2411,6 @@
 <category>CVE-2026-28326</category>
 </item>
 <item>
-<title>Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild</title>
-<link>https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html</link>
-<description><![CDATA[A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet. The vulnerability in question is CVE-2026-58138 (CVSS v3.1 score: 9.8/CVSS v4 score: 9.3), which relates to a case of unauthenticated remote code execution. &quot;Orkes Conductor 3.21.21 before 3.30.2 contains an unauthenticated remote code execution vulnerability that allows remote<br/><br/><em>Tags: Anthropic/Claude · Fortinet · Linux kernel · CVE-2026-58138 · ransomware_extortion · zero_day · active_exploitation</em>]]></description>
-<pubDate>Sat, 19 Sep 2026 08:18:54 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>Anthropic/Claude</category>
-<category>Fortinet</category>
-<category>Linux kernel</category>
-<category>CVE-2026-58138</category>
-</item>
-<item>
-<title>Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up</title>
-<link>https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html</link>
-<description><![CDATA[Google&apos;s Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The development was first reported by The Wall Street Journal. The incidents occurred in May 2026 as part of a test run conducted by Israeli company Irregular. The evaluation partner was also involved in similar hacks disclosed]]></description>
-<pubDate>Sat, 19 Sep 2026 07:51:34 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories</title>
-<link>https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html</link>
-<description><![CDATA[An attacker copied about 170 of CrowdSec&apos;s private GitHub repositories on May 22 using the account of an employee who had just left, CrowdSec said on September 18. The French security company had kept his GitHub access open. CrowdSec says his laptop was compromised in May&apos;s supply chain attack on TanStack, in which malicious versions of TanStack&apos;s npm packages stole credentials from<br/><br/><em>Tags: GitHub · npm · supply_chain</em>]]></description>
-<pubDate>Sat, 19 Sep 2026 07:14:54 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>GitHub</category>
-<category>npm</category>
-<category>supply_chain</category>
-</item>
-<item>
 <title>CVE-2026-77179: Docker&apos;s hypervisor for Mac compromised (Docker Desktop, Docker Sandboxes)</title>
 <link>https://www.reddit.com/r/netsec/comments/1wkeh8n/cve202677179_dockers_hypervisor_for_mac/</link>
 <description><![CDATA[submitted by /u/natcoba [link] [comments]<br/><br/><em>Tags: CVE-2026-77179</em>]]></description>
@@ -2350,19 +2419,6 @@
 <source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
 <category>reddit_practitioner_osint</category>
 <category>CVE-2026-77179</category>
-</item>
-<item>
-<title>CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild</title>
-<link>https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html</link>
-<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added three security flaws impacting the Linux kernel to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2025-39682 (CVSS score: 9.8) - An improper check for unusual or exceptional conditions vulnerability in the TLS receive path<br/><br/><em>Tags: Linux kernel · Anthropic/Claude · WordPress · CVE-2025-39682 · CVE-2026-53266 · CVE-2025-39964 · CVE-2026-80844 · CVE-2026-81000</em>]]></description>
-<pubDate>Sat, 19 Sep 2026 06:24:10 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>Linux kernel</category>
-<category>Anthropic/Claude</category>
-<category>WordPress</category>
-<category>CVE-2025-39682</category>
 </item>
 <item>
 <title>HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)</title>
@@ -2435,37 +2491,6 @@
 <guid isPermaLink="true">https://horizon3.ai/customer-story/kyocera-avx-global-security-validation/</guid>
 <source url="https://horizon3.ai/feed/">Horizon3 Attack Research</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>What’s new with Google Cloud</title>
-<link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/</link>
-<description><![CDATA[Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block &lt;ListValue: []&gt; Sept 14 - Sept 18 Storage Intelligence Advisor for Google Cloud Storage is now GA Google Cloud Storage customers can now manage cloud storage more effectively with Storage Intelligence Advisor , delivering curated metrics, automated anomaly detection, and actionable recommendations right out of the box, with zero setup required. Advisor baselines activity across your projects and automatically detects four key anomalies: surges in operations, unexpected rises in cross-region egress, and spikes in errors. Each finding includes deep drill-down visibility into the resources driving the change, alongside prescriptive s<br/><br/><em>Tags: Google Cloud</em>]]></description>
-<pubDate>Fri, 18 Sep 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
-<category>Google Cloud</category>
-</item>
-<item>
-<title>Accelerating the borderless Lakehouse: Announcing preview of cross-cloud caching</title>
-<link>https://cloud.google.com/blog/products/data-analytics/borderless-lakehouse-cross-cloud-caching-and-connections/</link>
-<description><![CDATA[Today, we are excited to announce enhancements to the borderless Lakehouse , our answer to how data engineers, data scientists, and increasingly, AI agents, can query governed data directly where it lives. To reason accurately and automate complex enterprise workflows, agents and data consumers of all types need fast, unified access to an organization&apos;s complete data estate, joining customer records, transaction logs, and operational telemetry across clouds. However, modern enterprise data is rarely confined to a single location; data estates often span Amazon S3, Azure Data Lake Storage (ADLS), Google Cloud Storage, operational databases, and SaaS platforms like Salesforce, SAP, and Workday. Historically, uniting these distributed datasets required brittle ETL pipelines, duplicated storage, and prohibitive cross-cloud data transfer costs. We introduced the borderless Lakehouse earlier this year to let organizations query and activate data in place across clouds. By adopting the Apache<br/><br/><em>Tags: Salesforce · Google Cloud · Azure</em>]]></description>
-<pubDate>Fri, 18 Sep 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/products/data-analytics/borderless-lakehouse-cross-cloud-caching-and-connections/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
-<category>Salesforce</category>
-<category>Google Cloud</category>
-<category>Azure</category>
-</item>
-<item>
-<title>Changing the game: Using agentic AI to secure infrastructure code</title>
-<link>https://cloud.google.com/blog/topics/systems/using-ai-agents-to-secure-google-infrastructure/</link>
-<description><![CDATA[AI is accelerating software development at an unprecedented pace. But as code generation scales, so do the challenges of securing the code, especially emerging AI-based vulnerability exploitations. To meet these challenges, the Google AI and Infrastructure team is transforming how we approach security. In this article, we discuss new AI-native agentic methods that we’ve developed that systematically embed high-precision, pervasive vulnerability scanning and patching directly into Google’s software development lifecycle. By continuously scanning every code change across hundreds of millions of lines of code that we deploy onto our infrastructure, we are preventing hundreds of vulnerabilities per month from ever reaching our code base or production, defending our global network, AI infrastructure and our users. Solution architecture and implementation Pervasive pre-submit agentic scanning: security as part of ongoing software development Traditionally, the technology industry relies on l]]></description>
-<pubDate>Fri, 18 Sep 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/topics/systems/using-ai-agents-to-secure-google-infrastructure/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>New Settra Ransomware Variant Deployed in Attacks on Retail and Manufacturing</title>
@@ -2611,6 +2636,51 @@
 <guid isPermaLink="true">https://horizon3.ai/downloads/whitepapers/ctem-buyers-guide/</guid>
 <source url="https://horizon3.ai/feed/">Horizon3 Attack Research</source>
 <category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>Should you care about an “AI slowdown?”</title>
+<link>https://blog.talosintelligence.com/should-you-care-about-an-ai-slowdown/</link>
+<description><![CDATA[In this week&apos;s Threat Source, David talks about why focusing on your security basics is still your best bet, even in a world with rapid AI advancements.]]></description>
+<pubDate>Thu, 17 Sep 2026 18:00:23 +0000</pubDate>
+<guid isPermaLink="true">https://blog.talosintelligence.com/should-you-care-about-an-ai-slowdown/</guid>
+<source url="https://feeds.feedburner.com/feedburner/Talos">Cisco Talos</source>
+<category>threat_research_primary</category>
+</item>
+<item>
+<title>Compliance Automation: Benefits, Tools &amp; Best Practices</title>
+<link>https://orca.security/resources/blog/compliance-automation/</link>
+<description><![CDATA[Key Takeaways Compliance automation is the practice of turning written control obligations into scheduled machine tests. Those tests collect the evidence, check it, and record the result with a timestamp. That can replace much of the manual work of gathering screenshots and spreadsheets ahead of an audit. The obligation does not change, but the artifact […]]]></description>
+<pubDate>Thu, 17 Sep 2026 17:31:14 +0000</pubDate>
+<guid isPermaLink="true">https://orca.security/resources/blog/compliance-automation/</guid>
+<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>CyberCom 2.0 and the Revolution in AI-Enabled Offensive Cyber Operations</title>
+<link>https://horizon3.ai/downloads/whitepapers/cybercom-2-0-ai-enabled-offensive-cyber-operations/</link>
+<description><![CDATA[AI is transforming the speed, scale, and economics of offensive cyber operations. Explore how CyberCom 2.0 can help lay the foundation for the next era of AI-enabled American cyber power.]]></description>
+<pubDate>Thu, 17 Sep 2026 17:22:31 +0000</pubDate>
+<guid isPermaLink="true">https://horizon3.ai/downloads/whitepapers/cybercom-2-0-ai-enabled-offensive-cyber-operations/</guid>
+<source url="https://horizon3.ai/feed/">Horizon3 Attack Research</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>From guidance to action: Security fundamentals that materially reduce risk</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/09/17/from-guidance-to-action-security-fundamentals-that-materially-reduce-risk/</link>
+<description><![CDATA[AI has made fundamental changes to the operating environment for cybersecurity. Explore exposure management guidance on recommended controls and take action and stay ahead of cyberthreats. The post From guidance to action: Security fundamentals that materially reduce risk appeared first on Microsoft Security Blog .]]></description>
+<pubDate>Thu, 17 Sep 2026 17:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/09/17/from-guidance-to-action-security-fundamentals-that-materially-reduce-risk/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<category>threat_research_primary</category>
+</item>
+<item>
+<title>Improving email security outcomes with real-world Microsoft Defender insights</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/09/17/improving-email-security-outcomes-with-real-world-microsoft-defender-insights/</link>
+<description><![CDATA[The latest email security benchmarking reports show strong Microsoft Defender performance across pre-delivery and post-delivery scenarios and reveal where threats and defenses continue to evolve. The post Improving email security outcomes with real-world Microsoft Defender insights appeared first on Microsoft Security Blog .]]></description>
+<pubDate>Thu, 17 Sep 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/09/17/improving-email-security-outcomes-with-real-world-microsoft-defender-insights/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>FamousSparrow Swaps SparrowDoor For New SparroWocky Backdoor</title>
@@ -2800,15 +2870,6 @@
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
 <category>data_breach</category>
-</item>
-<item>
-<title>Fragnesia primitive via Open vSwitch. Deterministic local privilege escalation.</title>
-<link>https://www.reddit.com/r/netsec/comments/1wimrzt/fragnesia_primitive_via_open_vswitch/</link>
-<description><![CDATA[This is a deterministic local privilege escalation affecting the default install of the latest Arch, Fedora, Debian, Amazon Linux and RHEL distributions, having unprivileged user namespaces enabled, openvswitch auto-loading, and a stock kernel carrying the Fragnesia fix. submitted by /u/nibblesec [link] [comments]]]></description>
-<pubDate>Thu, 17 Sep 2026 07:06:38 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wimrzt/fragnesia_primitive_via_open_vswitch/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Unpacking a laZzzy Donut</title>
@@ -3321,9 +3382,9 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Investing Together: Wiz Defend and Google Security Operations</title>
+<title>一緒に投資する: Wiz Defend と Google Security Operations</title>
 <link>https://www.wiz.io/blog/wiz-defend-and-google-security-operations</link>
-<description><![CDATA[Continuing to deepen the integration between Wiz Defend and Google Security Operations, helping teams work faster wherever they choose to investigate]]></description>
+<description><![CDATA[Wiz Defend と Google Security Operations の統合をさらに深め、チームが調査を行う場所を問わず、より迅速な作業を支援します。]]></description>
 <pubDate>Tue, 15 Sep 2026 12:49:17 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/wiz-defend-and-google-security-operations</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
@@ -4331,15 +4392,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Identity-Based AI Attack Threatens Security of Enterprise Data</title>
-<link>https://www.darkreading.com/threat-intelligence/identity-based-ai-attack-security-enterprise-data</link>
-<description><![CDATA[&quot;Workflow identity hijacking&quot; can bypass standard security controls and hijack an organization&apos;s data by sending a basic request through an unauthenticated entry point.]]></description>
-<pubDate>Wed, 09 Sep 2026 14:39:44 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/threat-intelligence/identity-based-ai-attack-security-enterprise-data</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Gigabud Uses Android App Cloning to Evade Fraud Detection</title>
 <link>https://www.infosecurity-magazine.com/news/gigabud-android-app-cloning-fraud/</link>
 <description><![CDATA[Gigabud clones banking apps into a work profile to break the link between malware alerts and fraud<br/><br/><em>Tags: Android</em>]]></description>
@@ -4560,15 +4612,6 @@
 <description><![CDATA[Key Takeaways Cloud transformation is the change an organization makes to how it builds, runs, and funds software once its workloads live in cloud computing environments. It covers the move itself and what the move was meant to enable. Deployment practices change, capacity decisions change, and so does ownership of what breaks at 2 am. […]]]></description>
 <pubDate>Tue, 08 Sep 2026 16:54:52 +0000</pubDate>
 <guid isPermaLink="true">https://orca.security/resources/blog/cloud-transformation/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>What is Cloud Security?</title>
-<link>https://orca.security/resources/blog/what-is-cloud-security/</link>
-<description><![CDATA[Forecasts predict the global cloud security market will grow from an estimated $46.16 billion in 2026 to approximately $133.39 billion by 2035. At a time when cloud computing represents a requirement for competitive advantage, understanding cloud security is paramount to any organization and tech leader. Cloud security encompasses the technologies and practices that protect your […]]]></description>
-<pubDate>Tue, 08 Sep 2026 16:32:02 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/what-is-cloud-security/</guid>
 <source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
 <category>cloud_identity_infrastructure</category>
 </item>
@@ -4933,15 +4976,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>How to secure edge AI in customer-owned environments</title>
-<link>https://www.microsoft.com/en-us/security/blog/2026/09/04/secure-edge-ai-customer-owned-environments/</link>
-<description><![CDATA[As AI moves into customer-owned environments, organizations need new ways to verify the systems, software, and AI assets they trust before releasing sensitive data, credentials, and models. The post How to secure edge AI in customer-owned environments appeared first on Microsoft Security Blog .]]></description>
-<pubDate>Fri, 04 Sep 2026 19:10:10 +0000</pubDate>
-<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/09/04/secure-edge-ai-customer-owned-environments/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>OSPAR 2026 report now available with 167 services in scope</title>
 <link>https://aws.amazon.com/blogs/security/ospar-2026-report-now-available-with-167-services-in-scope/</link>
 <description><![CDATA[We’re pleased to confirm the successful completion of our annual Amazon Web Services (AWS) Outsourced Service Provider’s Audit Report (OSPAR) assessment on July 29, 2026, in line with the OSPAR version 2.0 framework. The Association of Banks in Singapore (ABS) established the Guidelines on Control Objectives and Procedures for Outsourced Service Providers (ABS Guidelines) to […]<br/><br/><em>Tags: AWS</em>]]></description>
@@ -5090,17 +5124,6 @@
 <guid isPermaLink="true">https://www.chainalysis.com/blog/chainalysis-supports-hyperevm-with-automatic-token-support/</guid>
 <source url="https://www.chainalysis.com/blog/feed/">Chainalysis</source>
 <category>ransomware_ecrime_financial_crime</category>
-</item>
-<item>
-<title>ASCII smuggling crosses over from AI prompt injection to phishing evasion</title>
-<link>https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/</link>
-<description><![CDATA[Invisible Unicode characters popularized for hiding instructions from AI models are now being used to obfuscate words before email filters parse them. The post ASCII smuggling crosses over from AI prompt injection to phishing evasion appeared first on Microsoft Security Blog .<br/><br/><em>Tags: phishing_social_eng · ai_security</em>]]></description>
-<pubDate>Thu, 03 Sep 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
-<category>threat_research_primary</category>
-<category>phishing_social_eng</category>
-<category>ai_security</category>
 </item>
 <item>
 <title>ASCII smuggling crosses over from AI prompt injection to phishing evasion</title>
@@ -5677,9 +5700,9 @@
 <category>apt_espionage</category>
 </item>
 <item>
-<title>Introducing Continuous Vulnerability Assessment: Real-Time Defense for the AI Threat Era</title>
+<title>継続的脆弱性評価の導入：AI脅威時代に向けたリアルタイム防御</title>
 <link>https://www.wiz.io/blog/introducing-cva</link>
-<description><![CDATA[Detect exposure to new vulnerabilities the moment they are published with Wiz CVA]]></description>
+<description><![CDATA[Wiz CVA を使用して、新しい脆弱性が公開された瞬間にその露出を検出します]]></description>
 <pubDate>Tue, 01 Sep 2026 10:54:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/introducing-cva</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
@@ -6539,15 +6562,6 @@
 <category>web_shell_backdoor</category>
 </item>
 <item>
-<title>Interpol Operation Jackal IV Identifies 263 Cybercrime Suspects</title>
-<link>https://www.infosecurity-magazine.com/news/interpol-operation-jackal-iv/</link>
-<description><![CDATA[Interpol operation leads to 58 arrests and identifies 263 suspects across 22 countries]]></description>
-<pubDate>Wed, 26 Aug 2026 13:30:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/interpol-operation-jackal-iv/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>VMs won&apos;t contain cyber-capable agents</title>
 <link>https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/</link>
 <description><![CDATA[As part of Patch the Planet , we received preview access to GPT 5.6-Cyber with a simple task: evaluate its cyber capabilities. Recent events inspired me to give it a challenge to work through: escape the VM I’d normally use for sandboxing. The target was a QEMU/KVM VM on my Linux dev machine (Debian Linux 12, AMD Zen3). It escaped the VM three different times. First, it used recently disclosed bugs in my host kernel. When I fully updated, it used disclosed bugs that had not yet reached package maintainers or were not classified as security bugs. When I rebuilt QEMU and dependencies from the latest upstream source, it found several 0-days. It operated autonomously for hours, backtracked from approaches that didn’t work, pulled code and research papers, wrote oracles, made its own minimal examples, and aimed for a reusable, reliable exploit, all with minimal handholding and prompting. My main job was to physically reboot the machine when it hardlocked the host kernel. If it wasn’t clear ]]></description>
@@ -6665,6 +6679,15 @@
 <guid isPermaLink="true">https://blog.talosintelligence.com/the-safety-penalty-reclaiming-operational-sovereignty-in-the-age-of-ai/</guid>
 <source url="https://feeds.feedburner.com/feedburner/Talos">Cisco Talos</source>
 <category>threat_research_primary</category>
+</item>
+<item>
+<title>日本のビジネスパーソンを対象としたWiz調査で 「AI導入加速」はクラウド移行を上回ることが明らかに</title>
+<link>https://www.wiz.io/blog/japan-business-leaders-survey-2026</link>
+<description><![CDATA[同時に8割以上がAIによるサイバー攻撃への備えに遅れを感じ、60%がAIセキュリティへの投資を計画]]></description>
+<pubDate>Tue, 25 Aug 2026 06:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.wiz.io/blog/japan-business-leaders-survey-2026</guid>
+<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>SpooNMAP Grows Up: Findings, Local LLM Detection, and a Whole Lot Less Waiting</title>
@@ -8363,17 +8386,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>ChainDrop supply chain compromise: Anatomy of a self-propagating worm</title>
-<link>https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/</link>
-<description><![CDATA[A credential-stealing worm hidden in more than 400 compromised npm packages automatically spread across software ecosystems by republishing malicious updates. This analysis details the attack chain, affected environments, and practical guidance for detection, hunting, and remediation. The post ChainDrop supply chain compromise: Anatomy of a self-propagating worm appeared first on Microsoft Security Blog .<br/><br/><em>Tags: npm · supply_chain</em>]]></description>
-<pubDate>Tue, 04 Aug 2026 23:46:41 +0000</pubDate>
-<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
-<category>threat_research_primary</category>
-<category>npm</category>
-<category>supply_chain</category>
-</item>
-<item>
 <title>Benchmarking the Agentic SOC: How we evaluate LLMs for security workflows</title>
 <link>https://www.elastic.co/security-labs/threat-command/llm-benchmarking-agentic-soc</link>
 <description><![CDATA[Public leaderboards can&apos;t tell you which LLM to trust in your SOC, so Elastic built an evaluation framework that grades models on the work (tool calls, execution traces, blind judging) across Agent Builder, Attack Discovery, and automatic migration.]]></description>
@@ -8392,9 +8404,9 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>Wiz at Black Hat 2026: Driving AI Threat Readiness</title>
+<title>Black Hat 2026におけるWiz：AI脅威への備えを推進</title>
 <link>https://www.wiz.io/blog/wiz-at-black-hat-2026</link>
-<description><![CDATA[Announcing new capabilities that help organizations prepare for the AI era by expanding visibility and accelerating response, so security teams can defend at machine speed.]]></description>
+<description><![CDATA[可視性を拡大し、対応を加速させることで、組織が AI 時代に備え、セキュリティ チームがマシン スピードで防御できるように支援する新機能を発表します。]]></description>
 <pubDate>Tue, 04 Aug 2026 13:06:10 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/wiz-at-black-hat-2026</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
@@ -8971,9 +8983,9 @@
 <category>apt_espionage</category>
 </item>
 <item>
-<title>The Wiz Red Agent is Now Generally Available</title>
+<title>Wiz Red Agent が一般提供開始されました</title>
 <link>https://www.wiz.io/blog/wiz-red-agent-is-ga</link>
-<description><![CDATA[Continuously uncover complex, exploitable risks to stay ahead in the AI Threat Era with the Red Agent]]></description>
+<description><![CDATA[Red AgentでAI脅威の時代を先取りし、複雑で悪用可能なリスクを継続的に発見します]]></description>
 <pubDate>Wed, 29 Jul 2026 12:50:56 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/wiz-red-agent-is-ga</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
@@ -9124,9 +9136,9 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>Atlas: Wiz&apos;s autonomous AI Agent for vulnerability research, ranked #1 on CyberGym</title>
+<title>Atlasのご紹介：WizのAI脆弱性リサーチャー</title>
 <link>https://www.wiz.io/blog/atlas-ai-vulnerability-researcher</link>
-<description><![CDATA[See how Wiz built Atlas, an autonomous AI system for vulnerability research that validates every finding with a real, working exploit.]]></description>
+<description><![CDATA[実証可能なリアルなエクスプロイトを用いてすべての検出結果を検証する、脆弱性調査のための自律型AIシステム「Atlas」をWizがどのように構築したかをご覧ください。]]></description>
 <pubDate>Mon, 27 Jul 2026 14:00:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/atlas-ai-vulnerability-researcher</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
@@ -9802,9 +9814,9 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>The Red Agent POV: The One Boolean That Broke a B2B Platform’s Credit System</title>
+<title>レッドエージェントの視点：B2Bプラットフォームのクレジットシステムを壊したたった1つのブール値</title>
 <link>https://www.wiz.io/blog/red-agent-pov-business-logic</link>
-<description><![CDATA[Part 3: How the Red Agent bypassed a credit and paywall system by changing a single client-side value from false to true.]]></description>
+<description><![CDATA[パート3：クライアント側の単一の値をfalseからtrueに変更することで、レッドエージェントがクレジットおよびペイウォールシステムを回避した方法。]]></description>
 <pubDate>Wed, 15 Jul 2026 13:33:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/red-agent-pov-business-logic</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
@@ -10456,15 +10468,6 @@
 <category>ai_security</category>
 </item>
 <item>
-<title>Guide to Cloud Application Security: Must-Knows and No-No’s | Huntress</title>
-<link>https://www.huntress.com/blog/cloud-application-security</link>
-<description><![CDATA[Cloud application security keeps threat actors away from your data. We share practical ways to protect your apps and why it matters for your team today.]]></description>
-<pubDate>Thu, 02 Jul 2026 18:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/cloud-application-security</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>It’s 37oC, And All We Can Think About Is ColdFusion (Adobe ColdFusion Security Bulletin APSB26-68 CVE Bonanza)</title>
 <link>https://labs.watchtowr.com/its-37oc-and-all-we-can-think-about-is-coldfusion-adobe-coldfusion-security-bulletin-apsb26-68-cve-bonanza/</link>
 <description><![CDATA[We’re back, melting - we’ve tried shouting, screaming, and throwing things at the Sun, and it is just not working. Before we begin our analysis, we want to be clear - given the number of vulnerabilities fixed (and some not mentioned..), we’ve struggled to have confidence]]></description>
@@ -10499,16 +10502,6 @@
 <guid isPermaLink="true">https://www.sentinelone.com/labs/context-engineering-compaction-agent-memory-for-automated-malware-analysis/</guid>
 <source url="https://www.sentinelone.com/labs/feed/">SentinelOne Labs</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>Celebrating Canada Day with Localized Managed Phishing</title>
-<link>https://www.huntress.com/blog/canada-localized-managed-phishing</link>
-<description><![CDATA[Huntress Managed SAT now offers localized phishing simulations for Canada, using familiar, country-specific brands and scenarios to provide more effective security awareness training for your learners.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Thu, 02 Jul 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/canada-localized-managed-phishing</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>GPT-5.5-Cyber built a zlib fuzzing lab in a day</title>
@@ -10573,16 +10566,6 @@
 <guid isPermaLink="true">https://www.elastic.co/security-labs/blog/alert-triage-agentic-soc-elastic-workflows</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>6 security settings every GitHub maintainer should enable this week</title>
-<link>https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/</link>
-<description><![CDATA[These six free settings will not make your project unhackable. Nothing will. What they will do is close the easy doors. Turn these on, and your project will be meaningfully harder to attack than it was before. The post 6 security settings every GitHub maintainer should enable this week appeared first on The GitHub Blog .<br/><br/><em>Tags: GitHub</em>]]></description>
-<pubDate>Wed, 01 Jul 2026 15:59:29 +0000</pubDate>
-<guid isPermaLink="true">https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/</guid>
-<source url="https://github.blog/category/security/feed/">GitHub Security Lab</source>
-<category>offensive_vulnerability_research</category>
-<category>GitHub</category>
 </item>
 <item>
 <title>Content Independence Day, one year on: building the business model for the agentic Internet</title>
@@ -10754,9 +10737,9 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>The Red Agent POV: Exploiting Broken Object-Level Authorization in an Airline GraphQL API</title>
+<title>レッドエージェントの視点：航空会社のGraphQL APIにおけるオブジェクトレベルの認可の不備の悪用</title>
 <link>https://www.wiz.io/blog/red-agent-pov-bola</link>
-<description><![CDATA[Part 2: How the Red Agent bypassed backend resolvers to expose an entire airline booking database in fifteen minutes]]></description>
+<description><![CDATA[パート2：Red Agentはいかにしてバックエンドリゾルバーをバイパスし、15分で航空会社全体の予約データベースを露出させたか]]></description>
 <pubDate>Mon, 29 Jun 2026 09:31:40 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/red-agent-pov-bola</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
@@ -11281,24 +11264,22 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>The Red Agent POV: How it Reasoned its Way to SSRF</title>
+<title>Red Agentの視点：いかにして推論を重ねてSSRFへと至ったか</title>
 <link>https://www.wiz.io/blog/red-agent-pov-ssrf</link>
-<description><![CDATA[Part 1: How the Red Agent uncovered a multi-step attack chain allowing SSRF-to-Local-File-Read on a GCP Cloud Run API<br/><br/><em>Tags: Google Cloud</em>]]></description>
+<description><![CDATA[パート1：Red AgentがGCP Cloud Run APIにおいてSSRFからローカルファイル読み取りを可能にする複数ステップの攻撃チェーンをどのように解明したか]]></description>
 <pubDate>Wed, 17 Jun 2026 14:33:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/red-agent-pov-ssrf</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
-<category>Google Cloud</category>
 </item>
 <item>
-<title>Introducing the Red Agent POV Series</title>
+<title>レッドエージェント POVシリーズのご紹介</title>
 <link>https://www.wiz.io/blog/red-agent-pov-series</link>
-<description><![CDATA[An inside look at how the Red Agent, our AI-Powered Attacker, uncovers complex, exploitable risks in the wild<br/><br/><em>Tags: active_exploitation</em>]]></description>
+<description><![CDATA[当社のAI搭載アタッカーであるRed Agentが、実際の環境で複雑かつ悪用可能なリスクをどのように特定するのか、その裏側をご紹介します]]></description>
 <pubDate>Wed, 17 Jun 2026 14:33:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/red-agent-pov-series</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
-<category>active_exploitation</category>
 </item>
 <item>
 <title>Protecting legacy OT systems against modern cyberthreats</title>
@@ -12251,9 +12232,9 @@
 <category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
-<title>Defending at Machine-Speed: Building AI Threat Readiness with Wiz</title>
+<title>マシン・スピードの防御：Wizで構築するAI脅威への備え</title>
 <link>https://www.wiz.io/blog/wiz-ai-threat-readiness-operating-model</link>
-<description><![CDATA[How Wiz helps organizations adopt an AI Operating Model for AI Threat Readiness]]></description>
+<description><![CDATA[Wizが組織のAI脅威への備えに向けたAIオペレーティングモデルの導入をどのように支援するか]]></description>
 <pubDate>Wed, 27 May 2026 12:00:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/wiz-ai-threat-readiness-operating-model</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
@@ -12797,19 +12778,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>Welcome to BlackFile: Inside a Vishing Extortion Operation</title>
-<link>https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/</link>
-<description><![CDATA[Written by: Austin Larsen, Tyler McLellan, Genevieve Stark, Dan Ebreo Introduction Google Threat Intelligence Group (GTIG) has continued to track an expansive extortion campaign by UNC6671, a threat actor operating under the &quot;BlackFile&quot; brand, that targets organizations via sophisticated voice phishing (vishing) and single sign-on (SSO) compromise. By leveraging adversary-in-the-middle (AiTM) techniques to bypass traditional perimeter defenses and multi-factor authentication (MFA), UNC6671 gains deep access to cloud environments. The group primarily targets Microsoft 365 and Okta infrastructure, leveraging Python and PowerShell scripts to programmatically exfiltrate sensitive corporate data for subsequent extortion attempts. This post details UNC6671’s attack lifecycle and provides defenders with actionable guidance to detect and mitigate these identity-centric threats. Since emerging in early 2026, UNC6671 has maintained a high operational cadence. GTIG assesses that the group has tar<br/><br/><em>Tags: UNC6671 · ransomware_extortion · phishing_social_eng · mfa_bypass</em>]]></description>
-<pubDate>Fri, 15 May 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/</guid>
-<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
-<category>threat_research_primary</category>
-<category>UNC6671</category>
-<category>ransomware_extortion</category>
-<category>phishing_social_eng</category>
-<category>mfa_bypass</category>
-</item>
-<item>
 <title>Why geopolitical turmoil is a gift for scammers, and how to stay safe</title>
 <link>https://www.welivesecurity.com/en/scams/geopolitical-turmoil-gift-scammers-how-stay-safe/</link>
 <description><![CDATA[Conflict is a boon for opportunistic fraudsters. Look out for their ploys.]]></description>
@@ -13332,24 +13300,6 @@
 <category>ai_security_agentic_risk</category>
 <category>Microsoft/Copilot</category>
 <category>CVE-2026-24299</category>
-</item>
-<item>
-<title>From Foundation to Force: Your Guide to Operationalizing Wiz at Scale</title>
-<link>https://www.wiz.io/blog/operationalizing-wiz-at-scale</link>
-<description><![CDATA[Following your foundation, operationalize Wiz across development, detection and response, and program maturity so your security program never stops getting stronger.]]></description>
-<pubDate>Mon, 04 May 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.wiz.io/blog/operationalizing-wiz-at-scale</guid>
-<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Meet Wiz for M365: Bringing SaaS into the Security Graph</title>
-<link>https://www.wiz.io/blog/wiz-for-microsoft-365</link>
-<description><![CDATA[Secure Microsoft 365 and the cloud it powers — one platform, one graph, complete context.]]></description>
-<pubDate>Mon, 04 May 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.wiz.io/blog/wiz-for-microsoft-365</guid>
-<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>One agent, the right skills: Elastic Security 9.4 brings domain expertise on demand to every SOC workflow</title>
@@ -16398,15 +16348,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>MedGemma: Our most capable open models for health AI development</title>
-<link>https://deepmind.google/blog/medgemma-our-most-capable-open-models-for-health-ai-development/</link>
-<description><![CDATA[We’re announcing new multimodal models in the MedGemma collection, our most capable open models for health AI development.]]></description>
-<pubDate>Sat, 25 Oct 2025 18:02:50 +0000</pubDate>
-<guid isPermaLink="true">https://deepmind.google/blog/medgemma-our-most-capable-open-models-for-health-ai-development/</guid>
-<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>We Got Yelled At by Amazon So You Didn’t Have To</title>
 <link>https://www.greynoise.io/blog/we-got-yelled-at-by-amazon-so-you-didnt-have-to</link>
 <description><![CDATA[At GreyNoise, our sensors attract attackers so you don’t have to. We take the hits, learn from every attack, and share insights so you stay safe.]]></description>
@@ -19350,10 +19291,19 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
+<title>CrowdStrike Named a Leader in The Forrester Wave™: Proactive Security Platforms, Q3 2026</title>
+<link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/</link>
+<description><![CDATA[]]></description>
+<pubDate>Thu, 24 Sep 2026 18:58:05 +0000</pubDate>
+<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/</guid>
+<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>CrowdStrike Named a Leader in The Forrester Wave™: External Threat Intelligence Service Providers, Q3 2026</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 24 Sep 2026 14:49:37 +0000</pubDate>
+<pubDate>Thu, 24 Sep 2026 18:58:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19362,7 +19312,7 @@
 <title>CrowdStrike SafeMind: When the Best Offense Builds the Best Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 24 Sep 2026 14:49:37 +0000</pubDate>
+<pubDate>Thu, 24 Sep 2026 18:58:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19371,7 +19321,7 @@
 <title>CrowdStrike Accelerates Real-Time Data Classification with On-Device AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 24 Sep 2026 14:49:37 +0000</pubDate>
+<pubDate>Thu, 24 Sep 2026 18:58:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19380,7 +19330,7 @@
 <title>PhantomRaven: An LLM-Generated Information Stealer Developed for Bug Bounty Hunting</title>
 <link>https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 24 Sep 2026 14:49:37 +0000</pubDate>
+<pubDate>Thu, 24 Sep 2026 18:58:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19389,7 +19339,7 @@
 <title>September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 24 Sep 2026 14:49:37 +0000</pubDate>
+<pubDate>Thu, 24 Sep 2026 18:58:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19398,7 +19348,7 @@
 <title>CrowdStrike Delivers the Next Evolution of the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 24 Sep 2026 14:49:37 +0000</pubDate>
+<pubDate>Thu, 24 Sep 2026 18:58:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19407,7 +19357,7 @@
 <title>CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Thu, 24 Sep 2026 14:49:37 +0000</pubDate>
+<pubDate>Thu, 24 Sep 2026 18:58:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19417,7 +19367,7 @@
 <title>CrowdStrike Announces Agentic Identity Provider</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 24 Sep 2026 14:49:37 +0000</pubDate>
+<pubDate>Thu, 24 Sep 2026 18:58:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19426,17 +19376,8 @@
 <title>CrowdStrike Falcon Guardian Defines the Next Generation of AI Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 24 Sep 2026 14:49:37 +0000</pubDate>
+<pubDate>Thu, 24 Sep 2026 18:58:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</guid>
-<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
-<category>threat_research_primary</category>
-</item>
-<item>
-<title>Peer Pressure: Inside the Sality Botnet Disruption Operation</title>
-<link>https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/</link>
-<description><![CDATA[]]></description>
-<pubDate>Thu, 24 Sep 2026 14:49:37 +0000</pubDate>
-<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
 </item>
