@@ -6,9 +6,99 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Fri, 25 Sep 2026 01:20:15 +0000</lastBuildDate>
+<lastBuildDate>Fri, 25 Sep 2026 07:30:00 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Russia&apos;s Hybrid Cyber-Physical War in Europe Heats Up</title>
+<link>https://www.darkreading.com/physical-security/russia-hybrid-cyber-physical-war-europe</link>
+<description><![CDATA[A storm is raging in the form of cyber sabotage, disinformation, and drone attacks on European nations, particularly those that provide material support to Ukraine.]]></description>
+<pubDate>Fri, 25 Sep 2026 07:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/physical-security/russia-hybrid-cyber-physical-war-europe</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Roundcube Webmail Vulnerability in Attackers’ Crosshairs</title>
+<link>https://www.securityweek.com/roundcube-webmail-vulnerability-in-attackers-crosshairs/</link>
+<description><![CDATA[Tracked as CVE-2026-48842, the exploited bug is an SQL injection that can be exploited without authentication. The post Roundcube Webmail Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek .<br/><br/><em>Tags: F5 BIG-IP · WordPress · SolarWinds · CVE-2026-48842 · CVE-2025-68461 · CVE-2025-49113 · CVE-2024-37383 · zero_day</em>]]></description>
+<pubDate>Fri, 25 Sep 2026 06:57:40 +0000</pubDate>
+<guid isPermaLink="true">https://www.securityweek.com/roundcube-webmail-vulnerability-in-attackers-crosshairs/</guid>
+<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
+<category>cyber_news_breach_reporting</category>
+<category>F5 BIG-IP</category>
+<category>WordPress</category>
+<category>SolarWinds</category>
+<category>CVE-2026-48842</category>
+</item>
+<item>
+<title>A Closer Look at Malware From the Macfinger ClickFix Campaign, (Fri, Sep 25th)</title>
+<link>https://isc.sans.edu/diary/rss/33368</link>
+<description><![CDATA[Introduction]]></description>
+<pubDate>Fri, 25 Sep 2026 06:45:47 +0000</pubDate>
+<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33368</guid>
+<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
+<category>government_authoritative</category>
+</item>
+<item>
+<title>Half of threat hunters say bad data is their biggest problem</title>
+<link>https://www.helpnetsecurity.com/2026/09/25/sans-threat-hunting-data-quality/</link>
+<description><![CDATA[Half of security professionals name data quality or quantity as their biggest barrier to effective threat hunting, according to the SANS 2026 Threat Hunting Survey. Teams with working playbooks describe the logs as their ceiling, and gaps in cloud logging and identity telemetry come up most often. Gaps in the logs hurt most against the attackers respondents see most often, the ones who blend in with legitimate activity. Catching them means spotting behavior that looks … More → The post Half of threat hunters say bad data is their biggest problem appeared first on Help Net Security .]]></description>
+<pubDate>Fri, 25 Sep 2026 05:00:56 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/25/sans-threat-hunting-data-quality/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Cloudflare Fixes Flaw That Let One Container Read Another Customer&apos;s Leftover Disk Data</title>
+<link>https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html</link>
+<description><![CDATA[A flaw in Cloudflare Containers let a paying customer read data that other customers&apos; containers had left behind on the same server, Cloudflare and the researchers who found it said on Thursday. The data came from disk space that earlier containers had used and given up, not from any live workload, and an attacker could not choose whose data they got, according to Cloudflare. The company]]></description>
+<pubDate>Fri, 25 Sep 2026 04:49:22 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV</title>
+<link>https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html</link>
+<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-5430 (CVS score: 9.8) - A path traversal vulnerability in WSO2 API Control Plane,<br/><br/><em>Tags: CVE-2026-5430</em>]]></description>
+<pubDate>Fri, 25 Sep 2026 04:46:34 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>CVE-2026-5430</category>
+</item>
+<item>
+<title>Your incident count is missing a few incidents</title>
+<link>https://www.helpnetsecurity.com/2026/09/25/eu-usa-retail-chain-cyberattacks/</link>
+<description><![CDATA[If you run security for a brand with hundreds or thousands of locations, the tools you’ve bought may have little to do with whether an attack stays at one store. A new VikingCloud survey asked 200 security and IT leaders at U.S. and European chains about the past year. None of the 13 security technologies it measured was tied to less spread between sites, and neither was real-time visibility. One policy decision was. The sections … More → The post Your incident count is missing a few incidents appeared first on Help Net Security .]]></description>
+<pubDate>Fri, 25 Sep 2026 04:30:26 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/25/eu-usa-retail-chain-cyberattacks/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Risky Bulletin: Major vulnerability found in ancient TACACS+ networking protocol</title>
+<link>https://risky.biz/RBNEWS615/</link>
+<description><![CDATA[A major vulnerability has been found in the ancient TACACS+ networking protocol, Australia’s Prime Minister claims an OpenAI agent hacked the country’s Medicare website, OpenAI gives Ukraine access to its Daybreak cyber-defense program and the UK will establish an anti-disinformation center.<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
+<pubDate>Fri, 25 Sep 2026 04:17:47 +0000</pubDate>
+<guid isPermaLink="true">https://risky.biz/RBNEWS615/</guid>
+<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
+<category>practitioner_analysis</category>
+<category>OpenAI/ChatGPT</category>
+</item>
+<item>
+<title>Argus Monitor Local Denial-of-Service Vulnerability (CVE-2026-79417)</title>
+<link>https://www.reddit.com/r/netsec/comments/1wpkc7q/argus_monitor_local_denialofservice_vulnerability/</link>
+<description><![CDATA[(1) An exposed IOCTL lets unprivileged users disable the x86 MONITOR &amp; MWAIT instructions used by Hyper-V and other kernel components--triggering a HYPERVISOR_ERROR bugcheck. (2) Reaching the IOCTL requires exploiting a TOCTOU bug arguably caused by poor documentation of the SeLocateProcessImageName function. (3) Reimplementation of the driver&apos;s security through obscurity IOCTL encryption scheme: SHA-256 KDF-derived XOR keystream &amp; CRC16 Checksum. See full write-up , and Github for PoC. submitted by /u/p0xq [link] [comments]<br/><br/><em>Tags: GitHub · CVE-2026-79417 · ddos</em>]]></description>
+<pubDate>Fri, 25 Sep 2026 02:13:27 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wpkc7q/argus_monitor_local_denialofservice_vulnerability/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+<category>GitHub</category>
+<category>CVE-2026-79417</category>
+<category>ddos</category>
+</item>
 <item>
 <title>The 2026 State of AI Security Report has three numbers that really stuck with me: 81%, 50.1%, 99.9%</title>
 <link>https://www.reddit.com/r/netsec/comments/1wpetk9/the_2026_state_of_ai_security_report_has_three/</link>
@@ -132,12 +222,11 @@
 <item>
 <title>ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories</title>
 <link>https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html</link>
-<description><![CDATA[This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before. That is the thread running through the pile. Trusted paths get poisoned. Old bugs find new jobs. AI tools leak more than expected. Fake prompts look real enough. And some attacks barely need an exploit at all — just<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
+<description><![CDATA[This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before. That is the thread running through the pile. Trusted paths get poisoned. Old bugs find new jobs. AI tools leak more than expected. Fake prompts look real enough. And some attacks barely need an exploit at all — just]]></description>
 <pubDate>Thu, 24 Sep 2026 17:52:43 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>Exposed GitLab project email addresses let attackers push code</title>
@@ -464,14 +553,15 @@
 <item>
 <title>SolarWinds Patches Critical RCE Flaws in Observability Self-Hosted</title>
 <link>https://www.securityweek.com/solarwinds-patches-critical-rce-flaws-in-observability-self-hosted/</link>
-<description><![CDATA[The vulnerabilities, tracked as CVE-2026-28324 and CVE-2026-28325, can be exploited without authentication. The post SolarWinds Patches Critical RCE Flaws in Observability Self-Hosted appeared first on SecurityWeek .<br/><br/><em>Tags: SolarWinds · CVE-2026-28324 · CVE-2026-28325</em>]]></description>
+<description><![CDATA[The vulnerabilities, tracked as CVE-2026-28324 and CVE-2026-28325, can be exploited without authentication. The post SolarWinds Patches Critical RCE Flaws in Observability Self-Hosted appeared first on SecurityWeek .<br/><br/><em>Tags: SolarWinds · F5 BIG-IP · Microsoft Defender · CVE-2026-28324 · CVE-2026-28325 · CVE-2026-28326 · zero_day · data_breach</em>]]></description>
 <pubDate>Thu, 24 Sep 2026 10:40:40 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/solarwinds-patches-critical-rce-flaws-in-observability-self-hosted/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
 <category>SolarWinds</category>
+<category>F5 BIG-IP</category>
+<category>Microsoft Defender</category>
 <category>CVE-2026-28324</category>
-<category>CVE-2026-28325</category>
 </item>
 <item>
 <title>MacSync under the microscope: new delivery methods and a new payload</title>
@@ -506,16 +596,6 @@
 <category>data_breach</category>
 </item>
 <item>
-<title>New Android malware RemControl steals banking PINs and blocks removal attempts</title>
-<link>https://www.helpnetsecurity.com/2026/09/24/remcontrol-android-banking-trojan-fake-tv-app/</link>
-<description><![CDATA[A new Android banking trojan called RemControl tricks victims into installing a fake TV app, then takes control of their phones to steal banking PINs, Group-IB has found. Researchers confirmed that the malware targets customers of more than 30 banks in Italy, France, Spain, Poland, Portugal, Canada and some Gulf states. The first samples were submitted to VirusTotal on July 19, 2026. The domain used for its command and control (C2) server was registered on … More → The post New Android malware RemControl steals banking PINs and blocks removal attempts appeared first on Help Net Security .<br/><br/><em>Tags: Android</em>]]></description>
-<pubDate>Thu, 24 Sep 2026 09:40:43 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/24/remcontrol-android-banking-trojan-fake-tv-app/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>Android</category>
-</item>
-<item>
 <title>OpenAI hacked Australian Medicare govt site, probed data providers</title>
 <link>https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/</link>
 <description><![CDATA[OpenAI agents targeted public data providers in multiple countries, probing some for vulnerabilities and exploiting a security weakness in an Australian government portal while performing information-retrieval tasks as part of a research project. [...]<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
@@ -534,16 +614,6 @@
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>apt_espionage</category>
-</item>
-<item>
-<title>US Court Sentences Armenian Man to Prison for Ryuk Ransomware Attacks</title>
-<link>https://www.securityweek.com/us-court-sentences-armenian-man-to-prison-for-ryuk-ransomware-attacks/</link>
-<description><![CDATA[Karen Vardanyan has also been ordered to pay over $1.2 million in restitution to victims. The post US Court Sentences Armenian Man to Prison for Ryuk Ransomware Attacks appeared first on SecurityWeek .<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Thu, 24 Sep 2026 08:38:29 +0000</pubDate>
-<guid isPermaLink="true">https://www.securityweek.com/us-court-sentences-armenian-man-to-prison-for-ryuk-ransomware-attacks/</guid>
-<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Data Overtakes Skills as Top Threat Hunting Challenge, SANS Study Finds</title>
@@ -2317,15 +2387,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Three memory-safety bugs in Godot&apos;s untrusted-file parsers</title>
-<link>https://www.reddit.com/r/netsec/comments/1wm7krn/three_memorysafety_bugs_in_godots_untrustedfile/</link>
-<description><![CDATA[Author here. The post describes three memory-safety bugs which have been in Godot since v1.0 and v3.0. All three are still present in current releases. The bugs can affect exported games that load community-authored data files. Godot allows attackers using maliciously crafted files to trigger reads or writes past the end of a buffer, inside the process running the game. The post includes the response from Godot maintainers who deny this is a security issue, and my reply to them. Happy to give more information about the bugs or the audit if there are questions. submitted by /u/bitbutter [link] [comments]]]></description>
-<pubDate>Mon, 21 Sep 2026 09:08:49 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wm7krn/three_memorysafety_bugs_in_godots_untrustedfile/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>The SMB cybersecurity squeeze: AI agents at work, old attacks in overdrive</title>
 <link>https://www.welivesecurity.com/en/business-security/smb-cybersecurity-squeeze-ai-agents-work-old-attacks-overdrive/</link>
 <description><![CDATA[As AI opens new paths to company data while making familiar attacks faster and cheaper, SMBs need protection designed around the time and expertise available to operate it<br/><br/><em>Tags: supply_chain · credential_theft · zero_day</em>]]></description>
@@ -2443,38 +2504,6 @@
 <guid isPermaLink="true">https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Identity Visibility in 2026: The Foundation of Identity Security</title>
-<link>https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html</link>
-<description><![CDATA[Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon&apos;s annual Data Breach Investigations Report. This article explains what identity visibility means in IAM, why cloud and multicloud environments complicate it, which capabilities matter in<br/><br/><em>Tags: data_breach</em>]]></description>
-<pubDate>Sat, 19 Sep 2026 13:28:41 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>data_breach</category>
-</item>
-<item>
-<title>SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE</title>
-<link>https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html</link>
-<description><![CDATA[SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability. The vulnerability, tracked as CVE-2026-28326, is rated 8.8 out of 10.0 on the CVSS scoring system. The issue affects all versions of Access Rights Manager 2026.2 and prior. &quot;SolarWinds<br/><br/><em>Tags: SolarWinds · Anthropic/Claude · Linux kernel · CVE-2026-28326 · CVE-2026-28323 · CVE-2026-28299 · CVE-2026-28302 · CVE-2026-28304</em>]]></description>
-<pubDate>Sat, 19 Sep 2026 09:31:17 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>SolarWinds</category>
-<category>Anthropic/Claude</category>
-<category>Linux kernel</category>
-<category>CVE-2026-28326</category>
-</item>
-<item>
-<title>HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)</title>
-<link>https://isc.sans.edu/diary/rss/33352</link>
-<description><![CDATA[In June 2026 the IETF published RFC 10008[ 1 ], defining a new HTTP method: &quot;QUERY&quot;. The HTTP protocol faced already by changes (HTTP/2, HTTP/3) but it&apos;s the first new standard HTTP verb since &quot;PATCH&quot; in 2010!]]></description>
-<pubDate>Sat, 19 Sep 2026 04:51:46 +0000</pubDate>
-<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33352</guid>
-<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
-<category>government_authoritative</category>
 </item>
 <item>
 <title>Gemini Hacked Three Companies in First Known Breakout by Google’s AI</title>
@@ -4211,15 +4240,6 @@
 <pubDate>Thu, 10 Sep 2026 08:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/ofac-sanctions-chinese-scam/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>EU Cyber Resilience Act to Enforce New Reporting Requirements</title>
-<link>https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements</link>
-<description><![CDATA[Starting Friday, European organizations will have just 24 hours to notify the EU government any time they discover serious product security incidents.]]></description>
-<pubDate>Thu, 10 Sep 2026 07:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
@@ -12632,16 +12652,6 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Risky Bulletin: Indonesia emerges as a new hub for cyber scams</title>
-<link>https://risky.biz/RBNEWS565/</link>
-<description><![CDATA[Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack.<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Mon, 18 May 2026 05:24:03 +0000</pubDate>
-<guid isPermaLink="true">https://risky.biz/RBNEWS565/</guid>
-<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
-<category>zero_day</category>
-</item>
-<item>
 <title>Pathfinding Labs: Deploy, test, and learn from 100+ intentionally vulnerable AWS environments</title>
 <link>https://securitylabs.datadoghq.com/articles/introducing-pathfinding-labs/</link>
 <description><![CDATA[Introducing Pathfinding Labs, a collection of intentionally vulnerable AWS environments for red teamers and blue teamers to deploy, exploit, and use for detection validation.<br/><br/><em>Tags: AWS</em>]]></description>
@@ -13093,15 +13103,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>Build Fast, Build Secure: Wiz findings are now in Lovable</title>
-<link>https://www.wiz.io/blog/introducing-wiz-lovable-integration</link>
-<description><![CDATA[With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created]]></description>
-<pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-lovable-integration</guid>
-<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>How Cloudflare responded to the “Copy Fail” Linux vulnerability</title>
 <link>https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/</link>
 <description><![CDATA[When a critical Linux kernel privilege escalation was publicly disclosed, Cloudflare&apos;s security and engineering teams detected, investigated, and mitigated the threat across our global fleet, confirming zero customer impact and no malicious exploitation.<br/><br/><em>Tags: Linux kernel</em>]]></description>
@@ -13110,6 +13111,15 @@
 <source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
 <category>cloud_identity_infrastructure</category>
 <category>Linux kernel</category>
+</item>
+<item>
+<title>Build Fast, Build Secure: Wiz findings are now in Lovable</title>
+<link>https://www.wiz.io/blog/introducing-wiz-lovable-integration</link>
+<description><![CDATA[With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created]]></description>
+<pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-lovable-integration</guid>
+<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>It&apos;s Time to Go After Achieving Zero Code Criticals</title>
@@ -15822,15 +15832,6 @@
 <source url="https://intel471.com/blog/feed">Intel 471</source>
 <category>ransomware_ecrime_financial_crime</category>
 <category>supply_chain</category>
-</item>
-<item>
-<title>Seeking symmetry during ATT&amp;CK® season: How to harness today’s diverse analyst and tester landscape to paint a security masterpiece</title>
-<link>https://www.welivesecurity.com/en/business-security/seeking-symmetry-attck-season-harness-todays-diverse-analyst-tester-landscape-paint-security-masterpiece/</link>
-<description><![CDATA[Interpreting the vast cybersecurity vendor landscape through the lens of industry analysts and testing authorities can immensely enhance your cyber-resilience.]]></description>
-<pubDate>Wed, 10 Dec 2025 15:03:51 +0000</pubDate>
-<guid isPermaLink="true">https://www.welivesecurity.com/en/business-security/seeking-symmetry-attck-season-harness-todays-diverse-analyst-tester-landscape-paint-security-masterpiece/</guid>
-<source url="https://www.welivesecurity.com/en/rss/feed/">ESET WeLiveSecurity</source>
-<category>threat_research_primary</category>
 </item>
 <item>
 <title>Strengthening our partnership with the UK government to support prosperity and security in the AI era</title>
@@ -19276,7 +19277,7 @@
 <title>CrowdStrike Named a Leader in The Forrester Wave™: Proactive Security Platforms, Q3 2026</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 25 Sep 2026 01:20:15 +0000</pubDate>
+<pubDate>Fri, 25 Sep 2026 07:30:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19285,7 +19286,7 @@
 <title>CrowdStrike Named a Leader in The Forrester Wave™: External Threat Intelligence Service Providers, Q3 2026</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 25 Sep 2026 01:20:15 +0000</pubDate>
+<pubDate>Fri, 25 Sep 2026 07:30:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19294,7 +19295,7 @@
 <title>CrowdStrike SafeMind: When the Best Offense Builds the Best Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 25 Sep 2026 01:20:15 +0000</pubDate>
+<pubDate>Fri, 25 Sep 2026 07:30:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19303,7 +19304,7 @@
 <title>CrowdStrike Accelerates Real-Time Data Classification with On-Device AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 25 Sep 2026 01:20:15 +0000</pubDate>
+<pubDate>Fri, 25 Sep 2026 07:30:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19312,7 +19313,7 @@
 <title>PhantomRaven: An LLM-Generated Information Stealer Developed for Bug Bounty Hunting</title>
 <link>https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 25 Sep 2026 01:20:15 +0000</pubDate>
+<pubDate>Fri, 25 Sep 2026 07:30:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19321,7 +19322,7 @@
 <title>September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 25 Sep 2026 01:20:15 +0000</pubDate>
+<pubDate>Fri, 25 Sep 2026 07:30:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19330,7 +19331,7 @@
 <title>CrowdStrike Delivers the Next Evolution of the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 25 Sep 2026 01:20:15 +0000</pubDate>
+<pubDate>Fri, 25 Sep 2026 07:30:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19339,7 +19340,7 @@
 <title>CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Fri, 25 Sep 2026 01:20:15 +0000</pubDate>
+<pubDate>Fri, 25 Sep 2026 07:30:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19349,7 +19350,7 @@
 <title>CrowdStrike Announces Agentic Identity Provider</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 25 Sep 2026 01:20:15 +0000</pubDate>
+<pubDate>Fri, 25 Sep 2026 07:30:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19358,7 +19359,7 @@
 <title>CrowdStrike Falcon Guardian Defines the Next Generation of AI Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 25 Sep 2026 01:20:15 +0000</pubDate>
+<pubDate>Fri, 25 Sep 2026 07:30:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
