@@ -6,9 +6,30 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 26 Sep 2026 17:00:55 +0000</lastBuildDate>
+<lastBuildDate>Sat, 26 Sep 2026 19:39:29 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks</title>
+<link>https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/</link>
+<description><![CDATA[The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft CVE-2026-35273 flaw, allowing the threat actors to resume widespread exploitation of a flaw on vulnerable servers. [...]<br/><br/><em>Tags: ShinyHunters · CVE-2026-35273 · ransomware_extortion</em>]]></description>
+<pubDate>Sat, 26 Sep 2026 19:03:34 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>ShinyHunters</category>
+<category>CVE-2026-35273</category>
+<category>ransomware_extortion</category>
+</item>
+<item>
+<title>Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials</title>
+<link>https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html</link>
+<description><![CDATA[The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex. The new findings come from Ontinue, which described the activity as a four-stage attack chain aimed at targeting Ukrainian-speaking users. &quot;The attack chain begins with a fake CAPTCHA page and]]></description>
+<pubDate>Sat, 26 Sep 2026 18:22:52 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>GitHub Actions re-enabled with Mini Shai-Hulud payload still active</title>
 <link>https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/</link>
@@ -462,15 +483,6 @@
 <category>web_shell_backdoor</category>
 </item>
 <item>
-<title>Hackers steal $351.6 million in Bitget crypto exchange hack</title>
-<link>https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/</link>
-<description><![CDATA[​Cryptocurrency exchange Bitget disclosed today that suspected North Korean hackers have stolen $351.6 million from its hot and warm wallets. [...]]]></description>
-<pubDate>Fri, 25 Sep 2026 08:33:44 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Researchers Identify AliExpress Phishing Domains Before Registration</title>
 <link>https://www.infosecurity-magazine.com/news/aliexpress-phishing-flagged-early/</link>
 <description><![CDATA[EfficientIP says it flagged AliExpress phishing domains before they were registered<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
@@ -842,6 +854,15 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
+<title>The Not So Silent Miner: Threat Actor Compiles Cryptominer on the Endpoint</title>
+<link>https://www.huntress.com/blog/threat-actor-compiles-cryptominer</link>
+<description><![CDATA[Threat actors exploited Samsung MagicINFO to install AnyDesk, disable Defender, and compile a Monero miner directly on a victim endpoint. Learn the detection signals.]]></description>
+<pubDate>Thu, 24 Sep 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/threat-actor-compiles-cryptominer</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>When Business Email Compromise Starts Rewriting Reality</title>
 <link>https://www.rapid7.com/blog/post/ve-business-email-compromise-rewriting-reality-zimbra-cve</link>
 <description><![CDATA[Business Email Compromise (BEC) operates on a familiar playbook. Threat actors breach a mailbox, silently monitor operations, map approval chains, and ultimately exploit that access to divert funds or exfiltrate sensitive assets. This dynamic is central to our analysis as we kick off a series around Rapid7&apos;s collaborative research with Zimbra; upcoming installments will explore technical details and broader findings based within the Zimbra Collaboration Suite. Our investigation disrupted the traditional BEC model in unexpected ways. We uncovered over 50 vulnerabilities, and found that several allow attackers not just to observe environments, but to actively rewrite them by impersonating senders without credentials, controlling inbox visibility, and altering shared documents and calendars. Business Email Compromise in action: Digital abuse of trust None of this is theoretical for Zimbra. But don’t take my word for it, just ask Russia . CISA keeps putting Zimbra bugs into the Known Explo<br/><br/><em>Tags: CVE-2024-45519 · CVE-2025-27915 · CVE-2026-73570 · CVE-2022-27925 · CVE-2022-37042 · phishing_social_eng · zero_day</em>]]></description>
@@ -863,15 +884,6 @@
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
 <category>cloud_identity_infrastructure</category>
 <category>Google Cloud</category>
-</item>
-<item>
-<title>The Not So Silent Miner: Threat Actor Compiles Cryptominer on the Endpoint</title>
-<link>https://www.huntress.com/blog/threat-actor-compiles-cryptominer</link>
-<description><![CDATA[Threat actors exploited Samsung MagicINFO to install AnyDesk, disable Defender, and compile a Monero miner directly on a victim endpoint. Learn the detection signals.]]></description>
-<pubDate>Thu, 24 Sep 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/threat-actor-compiles-cryptominer</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>Prompt-Injection Bug Hits $4B Agentic AI App &apos;Manus&apos;</title>
@@ -1779,17 +1791,6 @@
 <category>web_shell_backdoor</category>
 </item>
 <item>
-<title>WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session</title>
-<link>https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html</link>
-<description><![CDATA[A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site&apos;s server. WordPress fixed the flaw, tracked as CVE-2026-93485 and called &quot;Comment2Shell,&quot; on September 17 in version 7.1.1 and told site owners to update right away. There is<br/><br/><em>Tags: WordPress · CVE-2026-93485</em>]]></description>
-<pubDate>Tue, 22 Sep 2026 06:03:14 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>WordPress</category>
-<category>CVE-2026-93485</category>
-</item>
-<item>
 <title>Windows Exploitation Techniques: Dangling COM Object Registrations</title>
 <link>https://www.reddit.com/r/netsec/comments/1wmy5go/windows_exploitation_techniques_dangling_com/</link>
 <description><![CDATA[submitted by /u/wojtekch [link] [comments]]]></description>
@@ -2669,6 +2670,15 @@
 <description><![CDATA[My comment on MCP was always a bad idea? — Hacker News. This article entirely misses the value that MCP brings today. Sure, there&apos;s almost no reason to use MCPs if you are running a full-blown terminal agent (Claude Code, Codex, Meta Muse, OpenClaw etc) with unfettered internet access - just let it call APIs directly. If you want to operate something that&apos;s less YOLO than that, you&apos;ll find yourself wanting: Control over exactly which external services it can access A way to handle authentication that doesn&apos;t allow the agent to directly access API keys A sensible UI to allow users to connect and authenticate further services Strong audit logging for what&apos;s going on MCP makes all of that so much easier to provide. Thinking MCP is obsolete because full coding agents don&apos;t need it misses out on all of the other things we might want to build. Tags: hacker-news , model-context-protocol]]></description>
 <pubDate>Sun, 20 Sep 2026 20:24:41 +0000</pubDate>
 <guid isPermaLink="true">https://simonwillison.net/2026/Sep/20/hn-49779718/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>California Sea Lion, Brandt&apos;s Cormorant</title>
+<link>https://simonwillison.net/2026/Sep/19/sighting-401567341/</link>
+<description><![CDATA[California Sea Lion, Brandt&apos;s Cormorant, in Pillar Point Harbor, CA, US I only noticed this after I had taken the photo: Morris the Northern Gannet is peeking out from behind the base of the sign. Tags: wildlife]]></description>
+<pubDate>Sat, 19 Sep 2026 17:10:08 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Sep/19/sighting-401567341/</guid>
 <source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
 <category>ai_security_agentic_risk</category>
 </item>
@@ -3635,6 +3645,15 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
+<title>Google Doc Sidebar Sends Mac and Windows Users Down Different Paths to Malware</title>
+<link>https://www.huntress.com/blog/google-doc-sidebar-malware-mac-windows</link>
+<description><![CDATA[A single X DM split into two malware chains: AMOS stealer on Mac, NetSupport Manager on Windows, see the Huntress SOC analyst breakdown.]]></description>
+<pubDate>Tue, 15 Sep 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/google-doc-sidebar-malware-mac-windows</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>Have it both ways: stay discoverable in search while disallowing AI training</title>
 <link>https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/</link>
 <description><![CDATA[Cloudflare is giving site owners a way to stay discoverable while disallowing AI training. New controls and an Accountable designation establish a shared model with Apple, Google, and Microsoft.]]></description>
@@ -3651,15 +3670,6 @@
 <guid isPermaLink="true">https://blog.cloudflare.com/workers-granular-authorization/</guid>
 <source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Google Doc Sidebar Sends Mac and Windows Users Down Different Paths to Malware</title>
-<link>https://www.huntress.com/blog/google-doc-sidebar-malware-mac-windows</link>
-<description><![CDATA[A single X DM split into two malware chains: AMOS stealer on Mac, NetSupport Manager on Windows, see the Huntress SOC analyst breakdown.]]></description>
-<pubDate>Tue, 15 Sep 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/google-doc-sidebar-malware-mac-windows</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>AI the Top Priority for New Spend as Cyber Budgets Flatline</title>
@@ -4298,15 +4308,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it</title>
-<link>https://blog.cloudflare.com/post-quantum-dnssec-1111/</link>
-<description><![CDATA[1.1.1.1 now validates DNSSEC signatures using NIST’s post-quantum ML-DSA-44 algorithm. Here is how we manage 2,420-byte signatures and downgrade risks at scale.]]></description>
-<pubDate>Thu, 10 Sep 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.cloudflare.com/post-quantum-dnssec-1111/</guid>
-<source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>The 20 Most Common Passwords Hackers Target in 2026</title>
 <link>https://www.huntress.com/blog/most-common-passwords</link>
 <description><![CDATA[See this year&apos;s most common passwords, why they&apos;re so easy to crack, and how a stronger password (or passphrase) habit keeps your accounts protected.]]></description>
@@ -4323,6 +4324,15 @@
 <guid isPermaLink="true">https://www.huntress.com/blog/password-statistics</guid>
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
+</item>
+<item>
+<title>1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it</title>
+<link>https://blog.cloudflare.com/post-quantum-dnssec-1111/</link>
+<description><![CDATA[1.1.1.1 now validates DNSSEC signatures using NIST’s post-quantum ML-DSA-44 algorithm. Here is how we manage 2,420-byte signatures and downgrade risks at scale.]]></description>
+<pubDate>Thu, 10 Sep 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://blog.cloudflare.com/post-quantum-dnssec-1111/</guid>
+<source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>MantaxOtax Android Malware Combines Ransomware With Spyware</title>
@@ -9144,15 +9154,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>Natural disasters and government interference: examining Q2 2026’s major Internet disruption events</title>
-<link>https://blog.cloudflare.com/q2-2026-internet-disruption-summary/</link>
-<description><![CDATA[Cloudflare Radar tracked Internet disruptions driven by natural disasters, government-mandated shutdowns, and DNSSEC key rollovers over the last quarter. This post analyzes traffic telemetry to explain how these events impacted global connectivity.]]></description>
-<pubDate>Tue, 28 Jul 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.cloudflare.com/q2-2026-internet-disruption-summary/</guid>
-<source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>Credential Stuffing Campaign Hits SonicWall | Huntress SOC Tracking</title>
 <link>https://www.huntress.com/blog/sonicwall-credential-stuffing-campaign</link>
 <description><![CDATA[The Huntress SOC is tracking an active credential stuffing campaign targeting SonicWall devices, compromising dozens of organizations since July 25.<br/><br/><em>Tags: SonicWall · credential_theft</em>]]></description>
@@ -9162,6 +9163,15 @@
 <category>detection_response_operations</category>
 <category>SonicWall</category>
 <category>credential_theft</category>
+</item>
+<item>
+<title>Natural disasters and government interference: examining Q2 2026’s major Internet disruption events</title>
+<link>https://blog.cloudflare.com/q2-2026-internet-disruption-summary/</link>
+<description><![CDATA[Cloudflare Radar tracked Internet disruptions driven by natural disasters, government-mandated shutdowns, and DNSSEC key rollovers over the last quarter. This post analyzes traffic telemetry to explain how these events impacted global connectivity.]]></description>
+<pubDate>Tue, 28 Jul 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://blog.cloudflare.com/q2-2026-internet-disruption-summary/</guid>
+<source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>When cyber attacks happen: helping organisations recover</title>
@@ -10198,15 +10208,6 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>Why we cannot wait for better post-quantum signature algorithms</title>
-<link>https://blog.cloudflare.com/ml-dsa-will-have-to-do/</link>
-<description><![CDATA[NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We take a closer look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best currently available.]]></description>
-<pubDate>Thu, 09 Jul 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.cloudflare.com/ml-dsa-will-have-to-do/</guid>
-<source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>Conditional Access Misconfigurations Exposed 55 Orgs with MFA On</title>
 <link>https://www.huntress.com/blog/conditional-access-misconfigurations</link>
 <description><![CDATA[Two Microsoft 365 attacks got through Conditional Access policies that seemed fully configured. Learn what went wrong and how Huntress Managed ISPM catches these gaps first.<br/><br/><em>Tags: Microsoft 365</em>]]></description>
@@ -10226,6 +10227,15 @@
 <category>detection_response_operations</category>
 <category>CVE-2025-5777</category>
 <category>ransomware_extortion</category>
+</item>
+<item>
+<title>Why we cannot wait for better post-quantum signature algorithms</title>
+<link>https://blog.cloudflare.com/ml-dsa-will-have-to-do/</link>
+<description><![CDATA[NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We take a closer look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best currently available.]]></description>
+<pubDate>Thu, 09 Jul 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://blog.cloudflare.com/ml-dsa-will-have-to-do/</guid>
+<source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement</title>
@@ -10294,15 +10304,6 @@
 <category>web_shell_backdoor</category>
 </item>
 <item>
-<title>GhostApproval: A Trust Boundary Gap in AI Coding Assistants</title>
-<link>https://www.wiz.io/blog/ghostapproval-a-trust-boundary-gap-in-ai-coding-assistants</link>
-<description><![CDATA[Uncovering a category-level blind spot in modern AI coding assistants, and why the Human-in-the-Loop safety model fails against this classic threat]]></description>
-<pubDate>Wed, 08 Jul 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.wiz.io/blog/ghostapproval-a-trust-boundary-gap-in-ai-coding-assistants</guid>
-<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>AI-Coded Malware | Analyzing Vibe-Coded AD Enumeration | Huntress</title>
 <link>https://www.huntress.com/blog/ai-coded-malware-vibe-coding-active-directory</link>
 <description><![CDATA[Threat actors are now using AI to generate custom PowerShell scripts for Active Directory attacks. Our team analyzed real vibe-coded malware and what it means for defenders.]]></description>
@@ -10310,6 +10311,15 @@
 <guid isPermaLink="true">https://www.huntress.com/blog/ai-coded-malware-vibe-coding-active-directory</guid>
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
+</item>
+<item>
+<title>GhostApproval: A Trust Boundary Gap in AI Coding Assistants</title>
+<link>https://www.wiz.io/blog/ghostapproval-a-trust-boundary-gap-in-ai-coding-assistants</link>
+<description><![CDATA[Uncovering a category-level blind spot in modern AI coding assistants, and why the Human-in-the-Loop safety model fails against this classic threat]]></description>
+<pubDate>Wed, 08 Jul 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.wiz.io/blog/ghostapproval-a-trust-boundary-gap-in-ai-coding-assistants</guid>
+<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Weekly Update 511: Live from my Riad in Marrakech</title>
@@ -13120,15 +13130,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>Build Fast, Build Secure: Wiz findings are now in Lovable</title>
-<link>https://www.wiz.io/blog/introducing-wiz-lovable-integration</link>
-<description><![CDATA[With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created]]></description>
-<pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-lovable-integration</guid>
-<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>How Cloudflare responded to the “Copy Fail” Linux vulnerability</title>
 <link>https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/</link>
 <description><![CDATA[When a critical Linux kernel privilege escalation was publicly disclosed, Cloudflare&apos;s security and engineering teams detected, investigated, and mitigated the threat across our global fleet, confirming zero customer impact and no malicious exploitation.<br/><br/><em>Tags: Linux kernel</em>]]></description>
@@ -13137,6 +13138,15 @@
 <source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
 <category>cloud_identity_infrastructure</category>
 <category>Linux kernel</category>
+</item>
+<item>
+<title>Build Fast, Build Secure: Wiz findings are now in Lovable</title>
+<link>https://www.wiz.io/blog/introducing-wiz-lovable-integration</link>
+<description><![CDATA[With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created]]></description>
+<pubDate>Thu, 07 May 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-lovable-integration</guid>
+<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>It&apos;s Time to Go After Achieving Zero Code Criticals</title>
@@ -19256,7 +19266,7 @@
 <title>CrowdStrike Named a Leader in The Forrester Wave™: Proactive Security Platforms, Q3 2026</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 26 Sep 2026 17:00:55 +0000</pubDate>
+<pubDate>Sat, 26 Sep 2026 19:39:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19265,7 +19275,7 @@
 <title>CrowdStrike Named a Leader in The Forrester Wave™: External Threat Intelligence Service Providers, Q3 2026</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 26 Sep 2026 17:00:55 +0000</pubDate>
+<pubDate>Sat, 26 Sep 2026 19:39:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19274,7 +19284,7 @@
 <title>CrowdStrike SafeMind: When the Best Offense Builds the Best Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 26 Sep 2026 17:00:55 +0000</pubDate>
+<pubDate>Sat, 26 Sep 2026 19:39:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19283,7 +19293,7 @@
 <title>CrowdStrike Accelerates Real-Time Data Classification with On-Device AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 26 Sep 2026 17:00:55 +0000</pubDate>
+<pubDate>Sat, 26 Sep 2026 19:39:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19292,7 +19302,7 @@
 <title>PhantomRaven: An LLM-Generated Information Stealer Developed for Bug Bounty Hunting</title>
 <link>https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 26 Sep 2026 17:00:55 +0000</pubDate>
+<pubDate>Sat, 26 Sep 2026 19:39:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19301,7 +19311,7 @@
 <title>September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 26 Sep 2026 17:00:55 +0000</pubDate>
+<pubDate>Sat, 26 Sep 2026 19:39:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19310,7 +19320,7 @@
 <title>CrowdStrike Delivers the Next Evolution of the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 26 Sep 2026 17:00:55 +0000</pubDate>
+<pubDate>Sat, 26 Sep 2026 19:39:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19319,7 +19329,7 @@
 <title>CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Sat, 26 Sep 2026 17:00:55 +0000</pubDate>
+<pubDate>Sat, 26 Sep 2026 19:39:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19329,7 +19339,7 @@
 <title>CrowdStrike Announces Agentic Identity Provider</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 26 Sep 2026 17:00:55 +0000</pubDate>
+<pubDate>Sat, 26 Sep 2026 19:39:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19338,7 +19348,7 @@
 <title>CrowdStrike Falcon Guardian Defines the Next Generation of AI Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 26 Sep 2026 17:00:55 +0000</pubDate>
+<pubDate>Sat, 26 Sep 2026 19:39:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
