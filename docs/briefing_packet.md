@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-09-25T22:09:58.491714+00:00
+- Generated: 2026-09-26T01:22:35.527547+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
-- Total items in window: 440
-- Total clusters raw: 211
+- Total items in window: 441
+- Total clusters raw: 212
 - Total clusters in packet: 80
-- Dropped low score: 130
+- Dropped low score: 131
 - Dropped overflow: 1
 
 ## Cohort metadata
@@ -79,7 +79,12 @@
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
-  - In window count: 1
+  - In window count: 2
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
@@ -90,21 +95,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
@@ -125,31 +125,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
-  - In window count: 3
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
   - In window count: 3
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
@@ -159,17 +159,12 @@
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
+  - In window count: 3
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 1
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
@@ -180,6 +175,11 @@
   - Status: ok
   - Item count: 50
   - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 1
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
@@ -255,16 +255,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -275,16 +265,26 @@
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 3
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
@@ -295,11 +295,11 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
-  - Item count: 10
-  - In window count: 2
+  - Item count: 20
+  - In window count: 20
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
@@ -310,6 +310,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
@@ -320,41 +330,31 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 20
-  - In window count: 20
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
+  - Item count: 30
+  - In window count: 21
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
-  - Item count: 5
-  - In window count: 5
+  - Item count: 100
+  - In window count: 1
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
   - Status: ok
-  - Item count: 100
+  - Item count: 50
   - In window count: 1
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 22
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 1
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
@@ -370,16 +370,6 @@
   - Status: ok
   - Item count: 50
   - In window count: 27
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
-- **Just Security** (policy_strategy_geopolitics)
-  - URL: https://www.justsecurity.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -390,6 +380,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 100
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -405,18 +400,13 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -425,16 +415,21 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 50
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -460,6 +455,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 6
+- **Just Security** (policy_strategy_geopolitics)
+  - URL: https://www.justsecurity.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
@@ -538,6 +538,30 @@
   - https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html
   - https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html
 
+### Cl0p: zero day
+- Anchor signal: Cl0p
+- Theme key: cl0p
+- Cluster count: 3
+- Article count: 8
+- Cohesion: 0.207
+- Shared strong signals: Cl0p
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day, ransomware_extortion
+  - actor_attribution: Cl0p, ShinyHunters
+  - affected_industries: government
+  - urgency_signals: zero_day
+- Cluster IDs: 6a53a92578, 584fee88ac, 01df98b2e6
+- Links:
+  - https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-renewed-mass-exploitation-campaign-targeting-oracle-peoplesoft/
+  - https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/
+  - https://www.infosecurity-magazine.com/news/shinyhunters-fbi-hack-peoplesoft/
+  - https://risky.biz/RBNEWS614/
+  - https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html
+  - https://www.securityweek.com/in-other-news-clop-leak-site-takeover-docker-botnet-hunts-ai-keys-water-utility-exposure/
+  - https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/
+
 ### Google Cloud vulnerability activity
 - Anchor signal: Google Cloud
 - Theme key: google-cloud
@@ -597,27 +621,22 @@
   - https://aws.amazon.com/blogs/security/icymi-august-2026-aws-security/
   - https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html
 
-### Cl0p: ransomware extortion
-- Anchor signal: Cl0p
-- Theme key: cl0p
+### Cisco vulnerability activity
+- Anchor signal: Cisco
+- Theme key: cisco
 - Cluster count: 2
-- Article count: 7
+- Article count: 3
 - Cohesion: 0.2
-- Shared strong signals: Cl0p
+- Shared strong signals: Cisco
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion
-  - actor_attribution: Cl0p
-  - affected_industries: financial_services
-- Cluster IDs: e14a01009a, 01df98b2e6
+  - affected_products: Cisco
+- Cluster IDs: 5f3dd92061, 584fee88ac
 - Links:
-  - https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/
+  - https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant/
+  - https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html
   - https://www.securityweek.com/in-other-news-clop-leak-site-takeover-docker-botnet-hunts-ai-keys-water-utility-exposure/
-  - https://www.infosecurity-magazine.com/news/shinyhunters-fbi-hack-peoplesoft/
-  - https://risky.biz/RBNEWS614/
-  - https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html
-  - https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/
 
 ### CVE-2026-91843 exploitation activity
 - Anchor signal: CVE-2026-91843
@@ -638,8 +657,7 @@
 ## Forward signals
 
 ### Novelty
-- Novel cves: 1
-  - CVE-2026-42608 (first seen via BleepingComputer at 2026-09-25T20:57:55+00:00, cluster e14a01009a)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
@@ -649,16 +667,17 @@
   - Sources in window: 3
   - Window hours: 0.5
   - Cohort count: 5
-- **ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw**
-  - Cluster: e14a01009a
+- **ShinyHunters Renewed Mass Exploitation Campaign Targeting Oracle PeopleSoft**
+  - Cluster: 6a53a92578
   - Sources in window: 3
   - Window hours: 4.5
-  - Cohort count: 2
+  - Cohort count: 3
 
 ### Leading edge (0)
 
 ### Convergence (15)
 - Pair: CVE-2026-94127 + F5 BIG-IP (cluster 211e00329a, first observation: True)
+- Pair: CVE-2026-35273 + UNC6240 (cluster 6a53a92578, first observation: True)
 - Pair: CVE-2025-49113 + Anthropic/Claude (cluster 6b592b3549, first observation: True)
 - Pair: CVE-2025-49113 + Linux kernel (cluster 6b592b3549, first observation: True)
 - Pair: CVE-2025-68461 + Anthropic/Claude (cluster 6b592b3549, first observation: True)
@@ -667,24 +686,28 @@
 - Pair: CVE-2026-48842 + Anthropic/Claude (cluster 6b592b3549, first observation: True)
 - Pair: CVE-2026-48842 + Linux kernel (cluster 6b592b3549, first observation: True)
 - Pair: CVE-2026-48842 + WordPress (cluster 6b592b3549, first observation: True)
-- Pair: CVE-2026-42608 + Cl0p (cluster e14a01009a, first observation: True)
-- Pair: CVE-2026-42608 + ShinyHunters (cluster e14a01009a, first observation: True)
 - Pair: CVE-2026-79417 + GitHub (cluster 15a5b415da, first observation: True)
 - Pair: CVE-2026-79417 + npm (cluster 15a5b415da, first observation: True)
 - Pair: CVE-2026-87902 + WordPress (cluster 0634a6363d, first observation: True)
 - Pair: CVE-2026-87902 + npm (cluster 0634a6363d, first observation: True)
+- Pair: CVE-2026-93485 + WordPress (cluster 0634a6363d, first observation: True)
 
-### Drift (4)
-- **Cl0p** (cluster e14a01009a)
-  - New industries: critical_infrastructure
+### Drift (5)
+- **Cl0p** (cluster 6a53a92578)
+  - New industries: education, healthcare
   - New products: (none)
   - Prior top industries: financial_services, government, manufacturing_industrial
   - Prior top products: Microsoft 365, OpenAI/ChatGPT, SolarWinds
-- **ShinyHunters** (cluster e14a01009a)
-  - New industries: critical_infrastructure, government
+- **ShinyHunters** (cluster 6a53a92578)
+  - New industries: education, government
   - New products: (none)
   - Prior top industries: financial_services, healthcare, manufacturing_industrial
   - Prior top products: Anthropic/Claude, Microsoft SharePoint, Salesforce
+- **UNC6240** (cluster 6a53a92578)
+  - New industries: education, government
+  - New products: (none)
+  - Prior top industries: financial_services, healthcare
+  - Prior top products: AWS, Microsoft SharePoint, Salesforce
 - **MuddyWater** (cluster 7c416ee970)
   - New industries: (none)
   - New products: Microsoft Entra
@@ -697,9 +720,9 @@
   - Prior top products: Cisco, Fortinet, Google Cloud
 
 ### Persistence (15)
-- actor_attribution: ShinyHunters (weeks observed: 13, cluster e14a01009a)
+- actor_attribution: ShinyHunters (weeks observed: 13, cluster 6a53a92578)
 - actor_attribution: Scattered Spider (weeks observed: 11, cluster fc5c9992d3)
-- actor_attribution: Cl0p (weeks observed: 10, cluster e14a01009a)
+- actor_attribution: Cl0p (weeks observed: 10, cluster 6a53a92578)
 - actor_attribution: BlackCat/ALPHV (weeks observed: 7, cluster fc5c9992d3)
 - cve_ids: CVE-2026-59310 (weeks observed: 6, cluster 62087c81f0)
 - actor_attribution: RansomHub (weeks observed: 6, cluster fc5c9992d3)
@@ -838,7 +861,76 @@ Threat Intelligence Mind the (Patch) Gap, Part 2: Fake Websites Used to Deploy C
   - Link: https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html
   - Summary: A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites. The attacks, detected on September 3 and 4, 2026, involved the chaining of two vulnerabilities in Chrome (CVE-2026-85046, CVE-2026-87491) and one impacting Windows Advanced Local Procedure Call (CVE-2026-85880) to break
 
-### Cluster 6b592b3549 — score 26
+### Cluster 6a53a92578 — score 26
+
+- Title: ShinyHunters Renewed Mass Exploitation Campaign Targeting Oracle PeopleSoft
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-09-25T14:00:00+00:00
+- Link: https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-renewed-mass-exploitation-campaign-targeting-oracle-peoplesoft/
+- Fetch status: ok
+- Member count: 6
+- Corroborating source count: 5
+- Strong signals: CVE-2026-35273, ShinyHunters, UNC6240
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion, web_shell_backdoor, zero_day
+- actor_attribution: Cl0p, ShinyHunters, UNC6240
+- affected_industries: education, government, healthcare
+- cve_ids: CVE-2026-35273
+- urgency_signals: no_patch_yet, preauth_unauth, zero_day
+- content_type: incident_report, news_report
+- confidence_tier: tier_2_operator, tier_3_analysis, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, web_shell_backdoor
+- actor_attribution: ShinyHunters, UNC6240
+- affected_industries: healthcare, government, education
+- cve_ids: CVE-2026-35273
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Introduction As an update to the June 2026 post, ShinyHunters Targets Education Sector with Oracle PeopleSoft Exploit , Mandiant and Google Threat Intelligence Group (GTIG) have identified renewed mass exploitation of CVE-2026-35273 by UNC6240 (ShinyHunters), along with expanded global targeting across multiple sectors. In June, the threat actor exploited this vulnerability as a zero-day predominantly against academic institutions. This new wave of activity stems from UNC6240 modifying its exploit to bypass web application firewall (WAF) rules blocking the vulnerable Environment Management Hub (PSEMHUB) endpoint. The threat actor bypassed these string-based WAF rules by URL-encoding a single character in the request path, requesting /%50SEMHUB/ in place of /PSEMHUB/ . Many WAF and reverse proxy rules match the literal path before URL decoding, while the PeopleSoft application server decodes the request and routes it to the vulnerable servlet. This allows the threat actor to reach the e
+```
+
+#### Full body
+
+```
+Threat Intelligence ShinyHunters Renewed Mass Exploitation Campaign Targeting Oracle PeopleSoft September 25, 2026 Mandiant Mandiant Services Stop attacks, reduce risk, and advance your security. Contact Mandiant Introduction As an update to the June 2026 post, ShinyHunters Targets Education Sector with Oracle PeopleSoft Exploit , Mandiant and Google Threat Intelligence Group (GTIG) have identified renewed mass exploitation of CVE-2026-35273 by UNC6240 (ShinyHunters), along with expanded global targeting across multiple sectors. In June, the threat actor exploited this vulnerability as a zero-day predominantly against academic institutions. This new wave of activity stems from UNC6240 modifying its exploit to bypass web application firewall (WAF) rules blocking the vulnerable Environment Management Hub (PSEMHUB) endpoint. The threat actor bypassed these string-based WAF rules by URL-encoding a single character in the request path, requesting /%50SEMHUB/ in place of /PSEMHUB/ . Many WAF and reverse proxy rules match the literal path before URL decoding, while the PeopleSoft application server decodes the request and routes it to the vulnerable servlet. This allows the threat actor to reach the endpoint on systems whose operators may have believed their WAF rules had mitigated the exposure. Our analysis indicates that the threat actor expanded their targeting in this recent campaign, deploying web shells on dozens of systems globally, spanning higher education, technology, IT services, healthcare, agriculture, transportation, and government. Mandiant recommends that organizations running Oracle PeopleSoft take the following immediate actions. Additional remediation and hardening guidance is included later in this post. Remediation and Hardening Quick Guide Apply the Oracle Security Alert patch for CVE-2026-35273. WAF rules and path-based blocking are not a substitute for patching. Disable the Environment Management Hub (EMHub) service in multi-server configurations, or remove the PSEMHUB application entirely in single-server configurations, as advised in Oracle's security alert guidance . Search PIA WebLogic access logs for requests to /PSEMHUB/ and any percent-encoded variant (for example, /%50SEMHUB/ ), particularly POST requests to /hub and requests to .jsp files from external source IP addresses. Inspect <PS_CFG_HOME>/webserv/<domain>/applications/peoplesoft/PSEMHUB.war/ for files that are not part of the shipped product, including but not limited to x.jsp , u.jsp , tunnel.jsp , tunnel.jspx , and Ple64.exe . Rotate credentials readable by the PeopleSoft application service account, including database connection strings in psappsrv.cfg , Integration Broker credentials, and any cloud credentials reachable from the web tier. Monitor outbound traffic from PeopleSoft hosts to the network indicators listed in this post, and review endpoints for unexpected MeshCentral agents. Figure 1: Remediation and hardening quick guide Background: From Zero-Day to N-Day In June 2026, we reported a UNC6240 campaign that exploited CVE-2026-35273 as a zero-day between May 27 and June 9, 2026, predominantly against higher education institutions. Oracle released an out-of-band Security Alert on June 10, 2026. Mandiant’s June guidance recommended patching and, where patching or disabling EMHub was not immediately possible, blocking external access to /PSEMHUB/* at the perimeter, noting that WAF body-inspection rules alone were insufficient. The current campaign demonstrates that UNC6240 adapted to published defensive guidance, targeting organizations that implemented WAF rules but did not patch the vulnerability. Attack Lifecycle We observed a consistent sequence of events in targeted PeopleSoft environments, progressing from discovery and verification to web shell deployment and hands-on-keyboard activity. Target Verification Before exploitation, targeted servers typically received five to 15 POST requests to /%50SEMHUB/hub containing a serialized J
+```
+
+#### Corroborating sources (5)
+
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: ShinyHunters Renewed Mass Exploitation Campaign Targeting Oracle PeopleSoft
+  - Published: 2026-09-25T14:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-renewed-mass-exploitation-campaign-targeting-oracle-peoplesoft/
+  - Summary: Introduction As an update to the June 2026 post, ShinyHunters Targets Education Sector with Oracle PeopleSoft Exploit , Mandiant and Google Threat Intelligence Group (GTIG) have identified renewed mass exploitation of CVE-2026-35273 by UNC6240 (ShinyHunters), along with expanded global targeting across multiple sectors. In June, the threat actor exploited this vulnerability as a zero-day predominantly against academic institutions. This new wave of activity stems from UNC6240 modifying its exploit to bypass web application firewall (WAF) rules blocking the vulnerable Environment Management Hub (PSEMHUB) endpoint. The threat actor bypassed these string-based WAF rules by URL-encoding a single character in the request path, requesting /%50SEMHUB/ in place of /PSEMHUB/ . Many WAF and reverse proxy rules match the literal path before URL decoding, while the PeopleSoft application server decodes the request and routes it to the vulnerable servlet. This allows the threat actor to reach the e
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw
+  - Published: 2026-09-25T20:57:55+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/
+  - Summary: The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unauthenticated path traversal vulnerability. [...]
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: ShinyHunters Claims FBI Hack Via PeopleSoft Zero Day
+  - Published: 2026-09-23T10:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/shinyhunters-fbi-hack-peoplesoft/
+  - Summary: Infamous threat group ShinyHunters claims to have personal information on thousands of FBI employees
+- **Risky Business News** (practitioner_analysis)
+  - Title: Risky Bulletin: Team Cymru unmasks shady Chinese proxy network
+  - Published: 2026-09-23T05:56:34+00:00
+  - Link: https://risky.biz/RBNEWS614/
+  - Summary: A network of 10,000 AI servers is masking malicious Chinese AI activity, Ukrainian hackers leak Russia’s naval secrets, ShinyHunters hacks the FBI, and the EvilTokens phishing service is disrupted by tech companies.
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants
+  - Published: 2026-09-23T05:30:09+00:00
+  - Link: https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html
+  - Summary: The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency. "We have compromised the FBI. We hold very sensitive data on almost ALL FBI Agents and individuals who filed an application with the FBI for a job," the group said in a statement posted on their dark
+
+### Cluster 6b592b3549 — score 25
 
 - Title: Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild
 - Source: The Hacker News (cyber_news_breach_reporting)
@@ -891,75 +983,6 @@ Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild  Ravie L
   - Published: 2026-09-25T06:57:40+00:00
   - Link: https://www.securityweek.com/roundcube-webmail-vulnerability-in-attackers-crosshairs/
   - Summary: Tracked as CVE-2026-48842, the exploited bug is an SQL injection that can be exploited without authentication. The post Roundcube Webmail Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek .
-
-### Cluster e14a01009a — score 23
-
-- Title: ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-09-25T20:57:55+00:00
-- Link: https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/
-- Fetch status: ok
-- Member count: 6
-- Corroborating source count: 5
-- Strong signals: Cl0p, ShinyHunters
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion, zero_day
-- actor_attribution: Cl0p, ShinyHunters
-- affected_industries: critical_infrastructure, financial_services, government, manufacturing_industrial
-- cve_ids: CVE-2026-42608
-- urgency_signals: no_patch_yet, preauth_unauth, zero_day
-- content_type: incident_report, news_report
-- confidence_tier: tier_3_analysis, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- actor_attribution: ShinyHunters, Cl0p
-- affected_industries: financial_services
-- cve_ids: CVE-2026-42608
-- urgency_signals: preauth_unauth, no_patch_yet
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unauthenticated path traversal vulnerability. [...]
-```
-
-#### Full body
-
-```
-ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw By Lawrence Abrams September 25, 2026 04:57 PM 0 The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unauthenticated path traversal vulnerability. The Clop leak site was breached earlier this month by the ShinyHunters extortion gang, which first uploaded a small text file and later replaced the site with a full-page defacement displaying its Umbreon Pokémon logo and a link to its own data leak site. Clop data leak site defaced by ShinyHunters ShinyHunters later claimed on its own data leak site that it stole source code, Grav CMS plugins, server logs, and the private keys used by Clop's Tor onion service. The group then issued a ransom demand, threatening to leak the stolen files if Clop did not pay. Clop has now announced a new onion address and says the old domain will remain accessible temporarily before being retired. Clop also denied having any relationship or ongoing negotiations with ShinyHunters. "We do not know them, we have never worked with them, and at the moment we are not in contact with them; furthermore, we have not provided them with any information, nor will we do so—either now or in the future," Clop told BleepingComputer. When asked whether the group had determined how ShinyHunters breached the leak site, Clop confirmed that its Grav installation had not been fully updated. However, the Russian ransomware gang disputes ShinyHunters' claims that valuable operational or financial data was stolen from the compromised server. "We didn't update the Grav plugin — though it happened eventually—but the server contained nothing but content (meaning there was absolutely no data or financial activity there, nor could there have been). Therefore, their claim is worthless—as are their words," Clop said. While Clop says they are not communicating with the other threat actors, they have since been quietly removed from ShinyHunters' data leak site, which commonly happens when negotiations are taking place. When questioned about the removal, ShinyHunters told BleepingComputer that they did not want to answer any further questions about this. Grav confirms flaw used in attack Grav CMS has now confirmed that the vulnerability and exploitation details shared by ShinyHunters with BleepingComputer are accurate. ShinyHunters told BleepingComputer that the compromised Clop server was running Grav CMS 1.7.43 and claimed it exploited an unauthenticated file upload flaw in Grav's form upload handling. According to the threat actor, the vulnerable code used values supplied through form-related POST parameters when creating temporary upload directories without first validating them as safe filesystem path components. The group specifically identified the __unique_form_id__ parameter and said the value was added into a temporary path like: tmp/forms/<session_id>/<unique_id> ShinyHunters claimed that by supplying directory traversal sequences, such as ../../../shhq , for the unique form identifier, it could cause Grav to create an upload path outside the intended tmp/forms directory. The uploaded file could then be written elsewhere under the Grav installation. After BleepingComputer shared the technical details with Grav, the CMS developers confirmed that the threat actor's description was accurate. "Yes, it's a legitimate flaw, and the threat actor's description is accurate," Grav told BleepingComputer. Grav said the flaw is tracked as CVE-2026-42608 and is a path traversal vulnerability that was privately reported and fixed in Grav 2.0 (2.0.0-beta.2) earlier this year, with the advisory published on April 27. The fix added a sanitizeId() function that only accepts identifiers matching the allowlist: [A-Za-z0-9,_-]{1,64} Grav confirmed that this sanitization method is the same mitigation described by ShinyH
-```
-
-#### Corroborating sources (5)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw
-  - Published: 2026-09-25T20:57:55+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/
-  - Summary: The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unauthenticated path traversal vulnerability. [...]
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: In Other News: Clop Leak Site Takeover, Docker Botnet Hunts AI Keys, Water Utility Exposure
-  - Published: 2026-09-25T15:07:31+00:00
-  - Link: https://www.securityweek.com/in-other-news-clop-leak-site-takeover-docker-botnet-hunts-ai-keys-water-utility-exposure/
-  - Summary: Noteworthy stories that might have slipped under the radar: BragJack attack against browser AI assistants, TDengine flaw threatens industrial telemetry uptime, Ubuntu update overhaul. The post In Other News: Clop Leak Site Takeover, Docker Botnet Hunts AI Keys, Water Utility Exposure appeared first on SecurityWeek .
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: ShinyHunters Claims FBI Hack Via PeopleSoft Zero Day
-  - Published: 2026-09-23T10:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/shinyhunters-fbi-hack-peoplesoft/
-  - Summary: Infamous threat group ShinyHunters claims to have personal information on thousands of FBI employees
-- **Risky Business News** (practitioner_analysis)
-  - Title: Risky Bulletin: Team Cymru unmasks shady Chinese proxy network
-  - Published: 2026-09-23T05:56:34+00:00
-  - Link: https://risky.biz/RBNEWS614/
-  - Summary: A network of 10,000 AI servers is masking malicious Chinese AI activity, Ukrainian hackers leak Russia’s naval secrets, ShinyHunters hacks the FBI, and the EvilTokens phishing service is disrupted by tech companies.
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants
-  - Published: 2026-09-23T05:30:09+00:00
-  - Link: https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html
-  - Summary: The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency. "We have compromised the FBI. We hold very sensitive data on almost ALL FBI Agents and individuals who filed an application with the FBI for a job," the group said in a statement posted on their dark
 
 ### Cluster 15a5b415da — score 23
 
@@ -1539,47 +1562,6 @@ The Closed Quorum: Inside the first reported autonomous AI C2 implant By Ryan Fe
   - Link: https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html
   - Summary: A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server, Cisco Talos said on September 22. The models can choose to steal Windows credentials, saved browser passwords, and crypto wallet data. Talos has not seen this setup work from start to finish, and the public version of the malware does not work as it is.
 
-### Cluster 33a6d341d5 — score 15
-
-- Title: Using Threat Intelligence to Stop Ransomware Attacks
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-09-25T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/ransomware-threat-intelligence
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- content_type: incident_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- content_type: incident_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Learn how ransomware threat intelligence empowers your team to actively follow adversary infrastructure, monitor dark web chatter and prevent attacks.
-```
-
-#### Full body
-
-```
-Using Threat Intelligence to Track and Disrupt Ransomware Attacks Ransomware does not start when files are encrypted. By then, an attacker may already have obtained valid credentials, entered the network, moved between systems and established a command-and-control (C2) channel. That gives defenders an earlier window to act. Ransomware threat intelligence helps security teams identify the actors, infrastructure and access methods connected to ransomware activity before an attack reaches its final stage. Instead of waiting for an endpoint alert or ransom note, teams can look for exposed credentials, malicious infrastructure and known attacker behavior, then act on the threats most relevant to their organization. The need for that earlier view is growing. Modern ransomware operations may use Ransomware-as-a-Service (RaaS) models and double- or triple-extortion tactics, giving defenders more reason to identify warning signs before encryption. Key takeaways Ransomware threat intelligence can expose signs of an attack before encryption, including compromised access and attacker infrastructure. IOCs remain useful, but TTPs provide longer-lasting context because attacker behavior changes less quickly than individual IP addresses or file hashes. Early disruption can focus on closing initial access paths or cutting communication between compromised systems and known C2 infrastructure. Recorded Future assists in connecting ransomware intelligence with organizational exposure, threat actor context and existing security workflows so teams can better prioritize action. Why reactive ransomware defense is not enough Reactive controls remain important, but they often cannot provide the external context security teams need to identify which ransomware threats are most likely to reach their environment. Endpoint detection and response (EDR), network monitoring, and backups all have a role in ransomware defense. The problem is timing . If a team only acts after malicious behavior appears inside its environment, the attacker may already have gained access or started moving toward systems that matter. This is where modern ransomware detection benefits from external intelligence. Security teams can compare what they see internally with information about active ransomware groups, infrastructure and exploitation activity outside their network. IOCs show what happened. TTPs help anticipate what comes next. Indicators of compromise (IOCs), such as malicious IP addresses, domains, and file hashes, can help security controls identify known threats. They also typically have a short shelf life when attackers rotate infrastructure or alter malware. Tactics, techniques, and procedures (TTPs) describe how an adversary operates. MITRE ATT&CK organizes those behaviors across stages such as initial access, lateral movement and command and control. A ransomware actor can quickly replace an IP address. Changing a working attack method takes more effort. Tracking both IOCs and TTPs gives defenders a stronger basis for deciding what to block now and what behavior to watch for next. The goal is not to replace IOC-based detection. It is to add enough context to understand who may be behind an indicator, how it fits into an attack, and what the adversary is likely to attempt next. How does Threat Intelligence help prevent ransomware attacks? The best time to disrupt ransomware is before the attacker reaches the impact stage. Threat intelligence creates opportunities to act during initial access and C2 activity rather than relying on recovery after encryption. External intelligence can reveal parts of the ransomware operation that are difficult to see from internal telemetry alone. That includes activity in criminal marketplaces as well as infrastructure connected to known threat actors. Phase 1: Track the adversary outside your network Initial access is often a business in its own right. Initial access brokers (IABs) obtain access to compromised organizations and advert
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Using Threat Intelligence to Stop Ransomware Attacks
-  - Published: 2026-09-25T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/ransomware-threat-intelligence
-  - Summary: Learn how ransomware threat intelligence empowers your team to actively follow adversary infrastructure, monitor dark web chatter and prevent attacks.
-
 ### Cluster b14e569a31 — score 15
 
 - Title: Record breaking DDoS Potential Discovered: CVE-2022-26143
@@ -1726,6 +1708,47 @@ Eli Woodward 3 min read July 8, 2025 ToolShell, SharePoint, and the Death of the
   - Published: 2026-09-22T11:17:41+00:00
   - Link: https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html
   - Summary: A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to full technical details published today by Viettel Cyber Security researcher Dinh Ho Anh Khoa. The flaw, CVE-2026-65660, affects SharePoint Server 2016, 2019, and Subscription Edition. Patches have been
+
+### Cluster 33a6d341d5 — score 14
+
+- Title: Using Threat Intelligence to Stop Ransomware Attacks
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-09-25T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/ransomware-threat-intelligence
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- content_type: incident_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- content_type: incident_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Learn how ransomware threat intelligence empowers your team to actively follow adversary infrastructure, monitor dark web chatter and prevent attacks.
+```
+
+#### Full body
+
+```
+Using Threat Intelligence to Track and Disrupt Ransomware Attacks Ransomware does not start when files are encrypted. By then, an attacker may already have obtained valid credentials, entered the network, moved between systems and established a command-and-control (C2) channel. That gives defenders an earlier window to act. Ransomware threat intelligence helps security teams identify the actors, infrastructure and access methods connected to ransomware activity before an attack reaches its final stage. Instead of waiting for an endpoint alert or ransom note, teams can look for exposed credentials, malicious infrastructure and known attacker behavior, then act on the threats most relevant to their organization. The need for that earlier view is growing. Modern ransomware operations may use Ransomware-as-a-Service (RaaS) models and double- or triple-extortion tactics, giving defenders more reason to identify warning signs before encryption. Key takeaways Ransomware threat intelligence can expose signs of an attack before encryption, including compromised access and attacker infrastructure. IOCs remain useful, but TTPs provide longer-lasting context because attacker behavior changes less quickly than individual IP addresses or file hashes. Early disruption can focus on closing initial access paths or cutting communication between compromised systems and known C2 infrastructure. Recorded Future assists in connecting ransomware intelligence with organizational exposure, threat actor context and existing security workflows so teams can better prioritize action. Why reactive ransomware defense is not enough Reactive controls remain important, but they often cannot provide the external context security teams need to identify which ransomware threats are most likely to reach their environment. Endpoint detection and response (EDR), network monitoring, and backups all have a role in ransomware defense. The problem is timing . If a team only acts after malicious behavior appears inside its environment, the attacker may already have gained access or started moving toward systems that matter. This is where modern ransomware detection benefits from external intelligence. Security teams can compare what they see internally with information about active ransomware groups, infrastructure and exploitation activity outside their network. IOCs show what happened. TTPs help anticipate what comes next. Indicators of compromise (IOCs), such as malicious IP addresses, domains, and file hashes, can help security controls identify known threats. They also typically have a short shelf life when attackers rotate infrastructure or alter malware. Tactics, techniques, and procedures (TTPs) describe how an adversary operates. MITRE ATT&CK organizes those behaviors across stages such as initial access, lateral movement and command and control. A ransomware actor can quickly replace an IP address. Changing a working attack method takes more effort. Tracking both IOCs and TTPs gives defenders a stronger basis for deciding what to block now and what behavior to watch for next. The goal is not to replace IOC-based detection. It is to add enough context to understand who may be behind an indicator, how it fits into an attack, and what the adversary is likely to attempt next. How does Threat Intelligence help prevent ransomware attacks? The best time to disrupt ransomware is before the attacker reaches the impact stage. Threat intelligence creates opportunities to act during initial access and C2 activity rather than relying on recovery after encryption. External intelligence can reveal parts of the ransomware operation that are difficult to see from internal telemetry alone. That includes activity in criminal marketplaces as well as infrastructure connected to known threat actors. Phase 1: Track the adversary outside your network Initial access is often a business in its own right. Initial access brokers (IABs) obtain access to compromised organizations and advert
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Using Threat Intelligence to Stop Ransomware Attacks
+  - Published: 2026-09-25T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/ransomware-threat-intelligence
+  - Summary: Learn how ransomware threat intelligence empowers your team to actively follow adversary infrastructure, monitor dark web chatter and prevent attacks.
 
 ### Cluster 642074e2ab — score 14
 
@@ -1999,46 +2022,52 @@ Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Es
   - Link: https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html
   - Summary: A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst said in research published September 22. The flaw, tracked as CVE-2026-80521 (CVSS score: 7.8), was fixed upstream on August 6, but Ubuntu has not shipped the patch for its 26.04, 24.04, or 22.04 LTS releases. DepthFirst
 
-### Cluster 8ef92ff806 — score 12
+### Cluster 584fee88ac — score 12
 
-- Title: Don't let TEEs break your MPC
-- Source: Trail of Bits (offensive_vulnerability_research)
-- Published: 2026-09-25T11:00:00+00:00
-- Link: https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/
+- Title: In Other News: Clop Leak Site Takeover, Docker Botnet Hunts AI Keys, Water Utility Exposure
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-09-25T15:07:31+00:00
+- Link: https://www.securityweek.com/in-other-news-clop-leak-site-takeover-docker-botnet-hunts-ai-keys-water-utility-exposure/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: (none)
+- Strong signals: Cl0p
 
 #### Cluster taxonomy (union across members)
-- affected_industries: manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
+- threat_categories: credential_theft, data_breach, ransomware_extortion, vulnerability_disclosure
+- actor_attribution: Cl0p, ShinyHunters
+- affected_industries: critical_infrastructure, manufacturing_industrial
+- affected_products: Anthropic/Claude, Cisco, OpenAI/ChatGPT
+- content_type: incident_report
+- confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- affected_industries: manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
+- threat_categories: ransomware_extortion, credential_theft, data_breach, vulnerability_disclosure
+- actor_attribution: ShinyHunters, Cl0p
+- affected_industries: critical_infrastructure, manufacturing_industrial
+- affected_products: Anthropic/Claude, Cisco, OpenAI/ChatGPT
+- content_type: incident_report
+- confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manufacturer and its attestation infrastructure. But subtle issues can arise when running an MPC protocol inside a TEE without accounting for the untrusted host: for example, a malicious host could roll back the filesystem state after a threshold signer deletes a used pre-signature, causing the signer to reuse their nonce share and disclose their private key share. So is this combination worth it? Provided you treat the TEE as a defense-in-depth layer rather than a substitute for a sound protocol, the answer is yes. This blog post discusses what TEE attestation can and can’t fix in MPC deployments
+Noteworthy stories that might have slipped under the radar: BragJack attack against browser AI assistants, TDengine flaw threatens industrial telemetry uptime, Ubuntu update overhaul. The post In Other News: Clop Leak Site Takeover, Docker Botnet Hunts AI Keys, Water Utility Exposure appeared first on SecurityWeek .
 ```
 
 #### Full body
 
 ```
-Page content Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manufacturer and its attestation infrastructure. But subtle issues can arise when running an MPC protocol inside a TEE without accounting for the untrusted host: for example, a malicious host could roll back the filesystem state after a threshold signer deletes a used pre-signature, causing the signer to reuse their nonce share and disclose their private key share. So is this combination worth it? Provided you treat the TEE as a defense-in-depth layer rather than a substitute for a sound protocol, the answer is yes. This blog post discusses what TEE attestation can and can’t fix in MPC deployments, explores the pitfalls we see most often in audits, and covers best practices, such as incorporating strong attestation processes and binding them to the MPC parties’ identities. MPC: Security that depends on participant behavior Before diving into how TEEs and MPC interact, we need to understand what MPC means and what security guarantees it offers. MPC is a cryptographic technique that allows multiple parties to jointly compute a function over their private inputs without revealing those inputs to each other. The security of MPC protocols depends critically on assumptions about participant behavior. The cryptographic literature uses two primary security models: Semi-honest (honest-but-curious) security : In this model, all participants follow the protocol exactly as specified, but they may try to learn additional information from the messages they receive during the protocol execution. Participants can try to learn more than they should, but they don’t deviate from the protocol specification. Malicious security : This stronger model assumes participants may deviate arbitrarily from the protocol. A malicious participant might send incorrectly computed values, use wrong inputs, abort the protocol at strategic moments, and behave in ways designed to compromise security or learn private information. This distinction is important in the context of TEEs. If a TEE attestation can cryptographically guarantee that all parties are running the correct protocol implementation, it effectively elevates semi-honest protocols to provide malicious security guarantees (at least against certain classes of attacks, as we’ll discuss later). But before delving into the details, let’s discuss how TEEs work. TEEs: Three core security guarantees TEEs are secure areas within a processor that provide hardware-based protection for code and data, even from privileged software like operating systems or hypervisors. TEEs offer three core security guarantees: Confidentiality : Data and code are encrypted in memory and accessible only from within the TEE. This ensures that even privileged system software cannot inspect the contents of the secure computation. Integrity : The data and code are protected from tampering. Any attempt to modify the TEE’s memory or execution state from outside should be detected. Attestation : Remote parties can cryptographically verify what code is running in the TEE. This allows external verifiers to gain assurance about the computation being performed and the legitimacy of the TEE without trusting the host system. This last property is particularly crucial for building distributed systems with TEEs. How TEE attestation works The attestation mechanism is at the heart of TEE security. When a TEE is manufactured, it’s provisioned with a private key and a corresponding certificate that chains back to a root certificate held by a trust anchor (typically the manufacturer). When an attestation is requested, the TEE takes measurements (crypt
+SecurityWeek’s weekly cybersecurity news roundup offers a concise overview of important developments that may not receive full standalone coverage yet remain relevant to the broader threat landscape. This curated summary highlights key stories across vulnerability disclosures, emerging attack methods, policy updates, industry reports, and other noteworthy events to help readers stay well-informed about the evolving cybersecurity environment. Here are this week’s highlights: Clop’s leak site seized in ShinyHunters grudge match ShinyHunters has defaced the Tor data leak site of the Cl0p ransomware gang. The extortion group claims it also stole server logs, source code and the private keys for Clop’s onion service. It demanded an eight-figure payment and a public apology, and threatened to expose companies that allegedly paid Cl0p during its Oracle E-Business Suite campaign . ShinyHunters says the attack is payback for threats allegedly made by a Clop representative in a feud that goes back to that campaign. Advertisement. Scroll to continue reading. BragJack attack against browser AI assistants Researchers at endpoint security firm Forever have disclosed BragJack , a set of flaws that let a malicious extension take control of the built-in AI assistants in Chrome, Edge, Opera Neon, Perplexity Comet and the Claude in Chrome extension. In each case, the assistant trusts commands from a specific web page. An installed extension could hijack that page by injecting scripts or tampering with network traffic, then send its own prompts without any user interaction. Depending on the browser, this enabled reading emails, accessing local files, capturing screenshots or turning on the camera and microphone. The vendors paid bounties ranging from $600 to $7,000. Worm-ready Go implant sneaks into AI agent memory tooling An attacker has published malicious versions of MemTensor’s MemOS packages on npm and PyPI, including a memory plugin for the OpenClaw AI agent harness. The packages carry a previously unseen Go implant named sckit. Instead of running at install time, the malware launches when the Python library is imported or the npm plugin is used. It hunts for npm, PyPI, GitHub, AWS, Hugging Face and other secrets. The implant contains templates for spreading through npm, PyPI and GitHub Actions, but Semgrep says there is no evidence yet that it has propagated. Aikido and StepSecurity also shared details. AI relay networks funnel Chinese traffic to Western frontier models Team Cymru has found nearly 11,000 servers running Claude Relay Service or its successor, sub2api. These open source gateways pool AI accounts so many users can share them, while model providers see only the relay and never the real user or their location. In one US-hosted cluster, more than 4,000 IP addresses in China and Hong Kong (regions that Anthropic, OpenAI and Google exclude) connected to 304 relays that also reached OpenAI, Anthropic, xAI and Google endpoints. Infostealer logs expose remote access keys across US water sector SpyCloud analyzed stolen identity data tied to 10,000 US water and wastewater utilities and the technology vendors that supply them. It found active infostealer exposure at 1,787 organizations, and credentials for OT or remote-access systems at 258. In one case, malware on a single device at an advanced-metering technology provider captured saved logins for roughly 167 utility metering portals. Exposed credentials at the utilities themselves were mostly for remote-administration tools such as TeamViewer and SonicWall and Fortinet management portals, though SpyCloud stresses the findings reflect potential access paths, not confirmed intrusions. CLOSEDQUORUM swaps C2 servers for commercial AI APIs Cisco Talos has documented CLOSEDQUORUM , a Go-based Windows implant that it believes is the first publicly documented one to hand its command-and-control decisions to commercial LLMs instead of a human operator or attacker-run server. Up to four models
 ```
 
 #### Corroborating sources (1)
 
-- **Trail of Bits** (offensive_vulnerability_research)
-  - Title: Don't let TEEs break your MPC
-  - Published: 2026-09-25T11:00:00+00:00
-  - Link: https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/
-  - Summary: Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manufacturer and its attestation infrastructure. But subtle issues can arise when running an MPC protocol inside a TEE without accounting for the untrusted host: for example, a malicious host could roll back the filesystem state after a threshold signer deletes a used pre-signature, causing the signer to reuse their nonce share and disclose their private key share. So is this combination worth it? Provided you treat the TEE as a defense-in-depth layer rather than a substitute for a sound protocol, the answer is yes. This blog post discusses what TEE attestation can and can’t fix in MPC deployments
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: In Other News: Clop Leak Site Takeover, Docker Botnet Hunts AI Keys, Water Utility Exposure
+  - Published: 2026-09-25T15:07:31+00:00
+  - Link: https://www.securityweek.com/in-other-news-clop-leak-site-takeover-docker-botnet-hunts-ai-keys-water-utility-exposure/
+  - Summary: Noteworthy stories that might have slipped under the radar: BragJack attack against browser AI assistants, TDengine flaw threatens industrial telemetry uptime, Ubuntu update overhaul. The post In Other News: Clop Leak Site Takeover, Docker Botnet Hunts AI Keys, Water Utility Exposure appeared first on SecurityWeek .
 
 ### Cluster 4ff2661d4c — score 12
 
@@ -2186,38 +2215,46 @@ Risky Bulletin Podcast September 25, 2026 Risky Bulletin: Major vulnerability fo
   - Link: https://www.darkreading.com/threat-intelligence/attackers-manipulate-ai-chatbots-mass-disinformation-phishing-campaign
   - Summary: Threat actors are poisoning ChatGPT, Gemini, and Google AI Overview answers by seeding the Web with malicious links and data and then optimizing the content.
 
-### Cluster 8d54e235f9 — score 11
+### Cluster 8ef92ff806 — score 11
 
-- Title: A Closer Look at Malware From the Macfinger ClickFix Campaign, (Fri, Sep 25th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-09-25T12:45:19+00:00
-- Link: https://isc.sans.edu/diary/rss/33368
-- Fetch status: fetch_failed:HTTPError
+- Title: Don't let TEEs break your MPC
+- Source: Trail of Bits (offensive_vulnerability_research)
+- Published: 2026-09-25T11:00:00+00:00
+- Link: https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- affected_industries: manufacturing_industrial
 - content_type: news_report
-- confidence_tier: tier_1_government
+- confidence_tier: tier_1_offensive_research
 
 #### Primary article taxonomy
+- affected_industries: manufacturing_industrial
 - content_type: news_report
-- confidence_tier: tier_1_government
+- confidence_tier: tier_1_offensive_research
 
 #### Summary
 
 ```
-Introduction
+Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manufacturer and its attestation infrastructure. But subtle issues can arise when running an MPC protocol inside a TEE without accounting for the untrusted host: for example, a malicious host could roll back the filesystem state after a threshold signer deletes a used pre-signature, causing the signer to reuse their nonce share and disclose their private key share. So is this combination worth it? Provided you treat the TEE as a defense-in-depth layer rather than a substitute for a sound protocol, the answer is yes. This blog post discusses what TEE attestation can and can’t fix in MPC deployments
+```
+
+#### Full body
+
+```
+Page content Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manufacturer and its attestation infrastructure. But subtle issues can arise when running an MPC protocol inside a TEE without accounting for the untrusted host: for example, a malicious host could roll back the filesystem state after a threshold signer deletes a used pre-signature, causing the signer to reuse their nonce share and disclose their private key share. So is this combination worth it? Provided you treat the TEE as a defense-in-depth layer rather than a substitute for a sound protocol, the answer is yes. This blog post discusses what TEE attestation can and can’t fix in MPC deployments, explores the pitfalls we see most often in audits, and covers best practices, such as incorporating strong attestation processes and binding them to the MPC parties’ identities. MPC: Security that depends on participant behavior Before diving into how TEEs and MPC interact, we need to understand what MPC means and what security guarantees it offers. MPC is a cryptographic technique that allows multiple parties to jointly compute a function over their private inputs without revealing those inputs to each other. The security of MPC protocols depends critically on assumptions about participant behavior. The cryptographic literature uses two primary security models: Semi-honest (honest-but-curious) security : In this model, all participants follow the protocol exactly as specified, but they may try to learn additional information from the messages they receive during the protocol execution. Participants can try to learn more than they should, but they don’t deviate from the protocol specification. Malicious security : This stronger model assumes participants may deviate arbitrarily from the protocol. A malicious participant might send incorrectly computed values, use wrong inputs, abort the protocol at strategic moments, and behave in ways designed to compromise security or learn private information. This distinction is important in the context of TEEs. If a TEE attestation can cryptographically guarantee that all parties are running the correct protocol implementation, it effectively elevates semi-honest protocols to provide malicious security guarantees (at least against certain classes of attacks, as we’ll discuss later). But before delving into the details, let’s discuss how TEEs work. TEEs: Three core security guarantees TEEs are secure areas within a processor that provide hardware-based protection for code and data, even from privileged software like operating systems or hypervisors. TEEs offer three core security guarantees: Confidentiality : Data and code are encrypted in memory and accessible only from within the TEE. This ensures that even privileged system software cannot inspect the contents of the secure computation. Integrity : The data and code are protected from tampering. Any attempt to modify the TEE’s memory or execution state from outside should be detected. Attestation : Remote parties can cryptographically verify what code is running in the TEE. This allows external verifiers to gain assurance about the computation being performed and the legitimacy of the TEE without trusting the host system. This last property is particularly crucial for building distributed systems with TEEs. How TEE attestation works The attestation mechanism is at the heart of TEE security. When a TEE is manufactured, it’s provisioned with a private key and a corresponding certificate that chains back to a root certificate held by a trust anchor (typically the manufacturer). When an attestation is requested, the TEE takes measurements (crypt
 ```
 
 #### Corroborating sources (1)
 
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: A Closer Look at Malware From the Macfinger ClickFix Campaign, (Fri, Sep 25th)
-  - Published: 2026-09-25T12:45:19+00:00
-  - Link: https://isc.sans.edu/diary/rss/33368
-  - Summary: Introduction
+- **Trail of Bits** (offensive_vulnerability_research)
+  - Title: Don't let TEEs break your MPC
+  - Published: 2026-09-25T11:00:00+00:00
+  - Link: https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/
+  - Summary: Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manufacturer and its attestation infrastructure. But subtle issues can arise when running an MPC protocol inside a TEE without accounting for the untrusted host: for example, a malicious host could roll back the filesystem state after a threshold signer deletes a used pre-signature, causing the signer to reuse their nonce share and disclose their private key share. So is this combination worth it? Provided you treat the TEE as a defense-in-depth layer rather than a substitute for a sound protocol, the answer is yes. This blog post discusses what TEE attestation can and can’t fix in MPC deployments
 
 ### Cluster ee15270475 — score 11
 
@@ -2519,52 +2556,6 @@ tcblogposts 3 min read November 2, 2022 High Vulnerability in OpenSSL 3.0 How Te
   - Published: 2026-09-21T22:37:48+00:00
   - Link: https://www.team-cymru.com/post/high-vulnerability-in-openssl-3-0
   - Summary: Stay informed about the high vulnerability in OpenSSL 3.0 with our latest blog post. Understand the impact on security and protect your technology company.
-
-### Cluster 43f5c3f825 — score 11
-
-- Title: Best practices guide for customizing Gemini models via Reinforcement Learning (RL)
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-09-25T16:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/developers-practitioners/best-practices-guide-for-customizing-gemini-models/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: Google/Gemini
-
-#### Cluster taxonomy (union across members)
-- affected_products: Google/Gemini
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: Google/Gemini
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Reinforcement learning (RL) has been a keystone of modern LLM post-training, but it demands large training clusters and access to model internals that external customers can't have with proprietary models like Gemini. So here at Google Cloud, we packaged it into a managed RL fine-tuning service (RLFT service) — you bring prompts and a reward function; we handle the infrastructure and the proprietary model internals. Now, you can adapt Gemini with the service — teaching the model from a reward signal you define, rather than from a fixed set of labeled answers. This unlocks a class of problems that supervised fine-tuning (SFT) struggles with: tasks that are hard to demonstrate but easy to score. In this guide, we will walk through practical best practices for using RL fine-tuning service. We'll start with a short tour of the RL training loop, how to decide if and when to use RL, and introduce how to get the most value from this approach. What is RLFT? RLFT adapts Gemini from a reward sig
-```
-
-#### Full body
-
-```
-Developers & Practitioners Best practices guide for customizing Gemini models via Reinforcement Learning (RL) September 25, 2026 Jiaqi Pan Senior Software Engineer, Google Kunal Jha Senior Product Manager, Google Try Gemini Enterprise today The front door to AI in the workplace Try now Reinforcement learning (RL) has been a keystone of modern LLM post-training, but it demands large training clusters and access to model internals that external customers can't have with proprietary models like Gemini. So here at Google Cloud, we packaged it into a managed RL fine-tuning service (RLFT service) — you bring prompts and a reward function; we handle the infrastructure and the proprietary model internals. Now, you can adapt Gemini with the service — teaching the model from a reward signal you define, rather than from a fixed set of labeled answers. This unlocks a class of problems that supervised fine-tuning (SFT) struggles with: tasks that are hard to demonstrate but easy to score. In this guide, we will walk through practical best practices for using RL fine-tuning service. We'll start with a short tour of the RL training loop, how to decide if and when to use RL, and introduce how to get the most value from this approach. What is RLFT? RLFT adapts Gemini from a reward signal you define rather than labeled answers. Instead of authoring a large set of gold examples, you write one program that scores a response and the service improves the model against it — unlocking tasks that are hard to demonstrate but easy to verify : you can't hand-write the ideal SQL for every schema, but you can run the query and check the result. At each training step the service generates multiple candidate responses to your prompts, scores them with your reward, and improves the model so that higher-scoring responses become more likely while it stays close to the original Gemini. The reinforcement learning that makes this work is fully managed — you never configure it. The one thing you own, and the thing that most determines your results, is the reward. Three properties define what RLFT can and can't do: It learns from the model's own outputs: It refines what the model already produces rather than copying an external target, so it tends to disturb unrelated capabilities less than SFT. It rewards outcomes, not paths: Any response that reaches a good result earns reward, which fits open-ended tasks with many valid solutions. It amplifies existing competence: It makes occasional success reliable , but it can't teach a skill the model never demonstrates. When to use RLFT Prompting and SFT handle most adaptation; exhaust them first. RLFT earns its keep when you can grade a response but can't cheaply author it , when SFT has plateaued on the metric that matters (faithfulness, schema validity, tone), or when the task has many equally valid answers a single reference target would wrongly penalize. SFT and RLFT are complementary, not competing: Direct RLFT when the base model already succeeds part of the time — enough for the reward to tell better answers from worse ones. Two-stage SFT → RLFT when you have SFT data or the base success rate is too low for RL to gain traction. Use SFT as a short, cheap warm start — kept light, since over-fitting the demonstrations leaves less room for RL to improve — then continue into RL via Continuous Tuning , which initializes RL from the SFT checkpoint. Across early adopters, these patterns show where RLFT delivers the most value — each scoring an outcome the business cares about but could never cheaply demonstrate. Use cases for RLFT AI-powered NPCs in games What: In-character, on-brand dialogue held across long, multilingual, multi-turn conversations. Problem: Off-the-shelf models break immersion — wrong language, hallucinated items, ignored players, repetitive loops. Objective and reward: A Gemini autorater (LLM-as-a-judge) scores each turn on persona, flow, and game-state syntax, penalizing format and language errors. Results
-```
-
-#### Corroborating sources (2)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Best practices guide for customizing Gemini models via Reinforcement Learning (RL)
-  - Published: 2026-09-25T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/developers-practitioners/best-practices-guide-for-customizing-gemini-models/
-  - Summary: Reinforcement learning (RL) has been a keystone of modern LLM post-training, but it demands large training clusters and access to model internals that external customers can't have with proprietary models like Gemini. So here at Google Cloud, we packaged it into a managed RL fine-tuning service (RLFT service) — you bring prompts and a reward function; we handle the infrastructure and the proprietary model internals. Now, you can adapt Gemini with the service — teaching the model from a reward signal you define, rather than from a fixed set of labeled answers. This unlocks a class of problems that supervised fine-tuning (SFT) struggles with: tasks that are hard to demonstrate but easy to score. In this guide, we will walk through practical best practices for using RL fine-tuning service. We'll start with a short tour of the RL training loop, how to decide if and when to use RL, and introduce how to get the most value from this approach. What is RLFT? RLFT adapts Gemini from a reward sig
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: Gemini Hacked Three Companies in First Known Breakout by Google’s AI
-  - Published: 2026-09-18T23:57:57+00:00
-  - Link: https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/
-  - Summary: Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Felony Bench ! The hacks, which the company confirmed on Friday, occurred in May as part of a test run by the company Irregular, which was also involved in similar incidents disclosed by OpenAI, Anthropic and Meta. In one of the cases, the model guessed passwords until it gained access to a protected system. In the other two cases, the model found credentials in a public repository that allowed it to then access protected systems. In each case, the model ended the intrusion after determining it had accessed a real company’s systems, Google said. Gemini is apparently less determined than other models, and decided not to keep going. Google knew about these in July, but chose not to disclose them until the WSJ reached out, presumably based on a tip. Google said it didn’t consider the hacks to warrant public disclosure—because its model didn’t cause harm to the companies and ended each intrusio
 
 ### Cluster bededcd553 — score 10
 
@@ -2955,51 +2946,6 @@ Introducing CAIRN: Frontier tracking for AI-integrated malware By Ryan Fetterman
   - Link: https://blog.talosintelligence.com/introducing-cairn-frontier-tracking-for-ai-integrated-malware/
   - Summary: Talos is releasing CAIRN, a research toolkit for hunting, classifying, and tracking emerging AI-integrated malware.
 
-### Cluster 12a3a99ac3 — score 10
-
-- Title: The SMB cybersecurity squeeze: AI agents at work, old attacks in overdrive
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-09-21T09:00:00+00:00
-- Link: https://www.welivesecurity.com/en/business-security/smb-cybersecurity-squeeze-ai-agents-work-old-attacks-overdrive/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, supply_chain, zero_day
-- affected_industries: government
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, credential_theft, zero_day
-- affected_industries: government
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-As AI opens new paths to company data while making familiar attacks faster and cheaper, SMBs need protection designed around the time and expertise available to operate it
-```
-
-#### Full body
-
-```
-Business Security The SMB cybersecurity squeeze: AI agents at work, old attacks in overdrive As AI opens new paths to company data while making familiar attacks faster and cheaper, SMBs need protection designed around the time and expertise available to operate it Tomáš Foltýn 21 Sep 2026 • , 8 min. read AI has moved quickly into the daily work of small and mid-size businesses (SMBs). Many have moved past chatbots and begun assigning work to AI agents in the hope of gaining an edge on their similarly resource-strapped competitors and levelling the playing field with larger companies. Indeed, the ambitious adopters are deploying, or at least experimenting with, multi-agent ‘assembly lines,’ where one supervisor agent manages swarms of specialist agents and passes work between them. But AI changes more than how work gets done. Each new access and connection leaves the business with new dependencies that represent a potential cybersecurity risk. SMBs rarely have resources to spare, however, and least of all in IT. Cybersecurity in particular is often just one item on a list of duties owned by a person or small team that deals with everything from account provisioning to zero-day fallout. Yet few businesses are likely to backpedal on AI until every risk is mapped and addressed. Fewer still know which loopholes need plugging first – ESET’s recent global survey of 4,400 SMB decision-makers found that 40 percent of the businesses didn’t even have an AI policy. The rules were more common in companies that had already suffered an incident, revealing the familiar pattern where governance often arrives after a breach. Broadly speaking, today’s security risks are expanding in two main directions: AI creates new paths to business systems while adversaries use it to add speed and scale to ‘old’ threats. AI agents, double agents and errant agents Whatever its remit, each agent connected to business systems can act through permissions granted by its ‘owner.’ Once an agent has access to internal documents and can communicate externally, anything that influences its instructions can also influence what it does with its permissions. A chatbot may produce a wayward answer, whereas an agent with access to data and tools could take a wayward and, ultimately, costly action. In multi-agent setups, manipulated outputs can be handed to the next part of the chain, triggering a cascading problem whose root cause is difficult to track down. Of course, some risks surrounding AI agents have familiar roots: an agent’s supply chains can be compromised and its permissions abused. This is best illustrated by skills, or packaged instructions that tell an agent what actions to take and which tools to use. Between March and May 2026, ESET’s systems scanned almost 900,000 unique skills from popular repositories – more than 25,000 turned out to be suspicious and more than 3,000 outright malicious, leading to credential theft, data exfiltration and remote code execution. Figure 1. Instructions of a self-modifying skill that can lead to unpredictable behavior and abuse (source: ESET Threat Report H1 2026 ) How many were installed globally is anyone’s guess, but the analysis shows how quickly a poorly governed supply chain has grown around agentic AI. The skills ecosystem lacks app-store-style gatekeeping, and one-off checks before installation are by no means sufficient, either. Skills and tool connections, including those using ubiquitous MCP servers, remain live dependencies after an initial review as their instructions and upstream services can change at any time. The end result could be a “rug pull” where a tool that at first behaves as expected later morphs into, for example, an infostealer. A lean IT team is unlikely to review every such dependency at installation, much less continue to keep an eye on it afterwards. Indeed, they may not even know that an employee has connected a seemingly useful skill to an agent without realizing that it can, for example, read
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: The SMB cybersecurity squeeze: AI agents at work, old attacks in overdrive
-  - Published: 2026-09-21T09:00:00+00:00
-  - Link: https://www.welivesecurity.com/en/business-security/smb-cybersecurity-squeeze-ai-agents-work-old-attacks-overdrive/
-  - Summary: As AI opens new paths to company data while making familiar attacks faster and cheaper, SMBs need protection designed around the time and expertise available to operate it
-
 ### Cluster bf92f99cb9 — score 10
 
 - Title: 21st September – Threat Intelligence Report
@@ -3046,6 +2992,84 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 21st Septe
   - Published: 2026-09-21T23:13:07+00:00
   - Link: https://research.checkpoint.com/2026/21st-september-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 21st Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Japan’s Digital Agency, which operates the Government Solution Service used by multiple ministries, has confirmed a data breach after attackers exploited a vulnerability in a VPN appliance. Approximately 246,000 records were exposed, […] The post 21st September – Threat Intelligence Report appeared first on Check Point Research .
+
+### Cluster 8d54e235f9 — score 10
+
+- Title: A Closer Look at Malware From the Macfinger ClickFix Campaign, (Fri, Sep 25th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-09-25T12:45:19+00:00
+- Link: https://isc.sans.edu/diary/rss/33368
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+Introduction
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: A Closer Look at Malware From the Macfinger ClickFix Campaign, (Fri, Sep 25th)
+  - Published: 2026-09-25T12:45:19+00:00
+  - Link: https://isc.sans.edu/diary/rss/33368
+  - Summary: Introduction
+
+### Cluster 12a3a99ac3 — score 10
+
+- Title: The SMB cybersecurity squeeze: AI agents at work, old attacks in overdrive
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-09-21T09:00:00+00:00
+- Link: https://www.welivesecurity.com/en/business-security/smb-cybersecurity-squeeze-ai-agents-work-old-attacks-overdrive/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, supply_chain, zero_day
+- affected_industries: government
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, credential_theft, zero_day
+- affected_industries: government
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+As AI opens new paths to company data while making familiar attacks faster and cheaper, SMBs need protection designed around the time and expertise available to operate it
+```
+
+#### Full body
+
+```
+Business Security The SMB cybersecurity squeeze: AI agents at work, old attacks in overdrive As AI opens new paths to company data while making familiar attacks faster and cheaper, SMBs need protection designed around the time and expertise available to operate it Tomáš Foltýn 21 Sep 2026 • , 8 min. read AI has moved quickly into the daily work of small and mid-size businesses (SMBs). Many have moved past chatbots and begun assigning work to AI agents in the hope of gaining an edge on their similarly resource-strapped competitors and levelling the playing field with larger companies. Indeed, the ambitious adopters are deploying, or at least experimenting with, multi-agent ‘assembly lines,’ where one supervisor agent manages swarms of specialist agents and passes work between them. But AI changes more than how work gets done. Each new access and connection leaves the business with new dependencies that represent a potential cybersecurity risk. SMBs rarely have resources to spare, however, and least of all in IT. Cybersecurity in particular is often just one item on a list of duties owned by a person or small team that deals with everything from account provisioning to zero-day fallout. Yet few businesses are likely to backpedal on AI until every risk is mapped and addressed. Fewer still know which loopholes need plugging first – ESET’s recent global survey of 4,400 SMB decision-makers found that 40 percent of the businesses didn’t even have an AI policy. The rules were more common in companies that had already suffered an incident, revealing the familiar pattern where governance often arrives after a breach. Broadly speaking, today’s security risks are expanding in two main directions: AI creates new paths to business systems while adversaries use it to add speed and scale to ‘old’ threats. AI agents, double agents and errant agents Whatever its remit, each agent connected to business systems can act through permissions granted by its ‘owner.’ Once an agent has access to internal documents and can communicate externally, anything that influences its instructions can also influence what it does with its permissions. A chatbot may produce a wayward answer, whereas an agent with access to data and tools could take a wayward and, ultimately, costly action. In multi-agent setups, manipulated outputs can be handed to the next part of the chain, triggering a cascading problem whose root cause is difficult to track down. Of course, some risks surrounding AI agents have familiar roots: an agent’s supply chains can be compromised and its permissions abused. This is best illustrated by skills, or packaged instructions that tell an agent what actions to take and which tools to use. Between March and May 2026, ESET’s systems scanned almost 900,000 unique skills from popular repositories – more than 25,000 turned out to be suspicious and more than 3,000 outright malicious, leading to credential theft, data exfiltration and remote code execution. Figure 1. Instructions of a self-modifying skill that can lead to unpredictable behavior and abuse (source: ESET Threat Report H1 2026 ) How many were installed globally is anyone’s guess, but the analysis shows how quickly a poorly governed supply chain has grown around agentic AI. The skills ecosystem lacks app-store-style gatekeeping, and one-off checks before installation are by no means sufficient, either. Skills and tool connections, including those using ubiquitous MCP servers, remain live dependencies after an initial review as their instructions and upstream services can change at any time. The end result could be a “rug pull” where a tool that at first behaves as expected later morphs into, for example, an infostealer. A lean IT team is unlikely to review every such dependency at installation, much less continue to keep an eye on it afterwards. Indeed, they may not even know that an employee has connected a seemingly useful skill to an agent without realizing that it can, for example, read
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: The SMB cybersecurity squeeze: AI agents at work, old attacks in overdrive
+  - Published: 2026-09-21T09:00:00+00:00
+  - Link: https://www.welivesecurity.com/en/business-security/smb-cybersecurity-squeeze-ai-agents-work-old-attacks-overdrive/
+  - Summary: As AI opens new paths to company data while making familiar attacks faster and cheaper, SMBs need protection designed around the time and expertise available to operate it
 
 ### Cluster 7c416ee970 — score 10
 
@@ -3509,52 +3533,13 @@ Home Blog The Rogue RMM Stack: One Phish, Multiple Persistence Paths Published: 
   - Link: https://www.helpnetsecurity.com/2026/09/25/fake-payroll-desktop-apps-screenconnect/
   - Summary: An attacker has been offering “desktop apps” for three large US payroll and HR platforms that have never released one, Allure Security have found. Anyone who runs the installer gets a copy of ScreenConnect, a legitimate remote access tool, configured to let the attacker control the computer without the user knowing. According to Ryan Merritt, Director of Security Research at Allure Security, all three providers deliver their products as web applications accessed through a browser, … More → The post Fake payroll desktop apps hand attackers a route to company paychecks appeared first on Help Net Security .
 
-### Cluster 5d753c0044 — score 9
-
-- Title: One does not simply defend agentically
-- Source: NCSC UK (government_authoritative)
-- Published: 2026-09-21T12:00:00+00:00
-- Link: https://www.ncsc.gov.uk/blogs/one-does-not-simply-defend-agentically
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-Defenders can’t use AI in the same way attackers can, but there’s much they can do to unlock the potential of agentic cyber defence.
-```
-
-#### Full body
-
-```
-Blog Post Download & print article PDF Download & print article PDF One does not simply defend agentically Defenders can’t use AI in the same way attackers can, but there’s much they can do to unlock the potential of agentic cyber defence. Dave Chismon agung fatria via Getty Images One of my favourite cyber security maxims is Halvar Flake’s observation that “All offensive problems are technical problems, and all defensive problems are political problems”. For an attacker conducting offensive cyber actions, the problems that need to be solved are largely technical. They might be: ‘ Do I have an exploit for this vulnerability? ’ or ‘ How do I avoid detection? ’ Whilst defenders also have technical challenges, they mostly wrestle with what Halvar describes as ‘political’ problems (which for the purposes of this discussion can be framed as organisational problems). Problems such as: ‘Can we get budget to replace this end-of-life system or invest in a more secure option?’ ‘How do I get IT operations to make time for patching?’ ‘How do we get a change request to put in firewall rules approved?’ In other words, defenders are most restricted by their organisational policies, whilst most attackers are restricted by technical hurdles. The reason for this difference becomes clear when you compare the core purposes of attackers and defenders. For attackers, their core purpose is ‘to conduct cyber offence’ and success will cause their employer to profit. Whether that’s stealing money from organisations, extorting victims, or exfiltrating information. Cyber offence is their raison d'être . For the defenders, their mission is to help their organisation avoid loss. Their employer’s mission isn’t cyber defence; it will depend upon whatever activity that organisation does (such as developing products, treating patients, or providing digital services). Cyber defence is effectively ‘a cost of doing business’, one of many priorities that the organisation has to manage. This means the cost of cyber defence has to be rigorously assessed to make sure it does not harm the organisation’s competing priorities: ‘Could that money earmarked to replace the end-of-life system be better used on marketing?’ ‘Will that patch take down the VPN?’ ‘How sure are we that the firewall rule will not break a business function that relies on that connectivity?’ Some board members may see little difference between a DoS attack taking down the organisation’s IT, or a poorly implemented action by the cyber defence team that does the same thing. Except that the board can’t shout at an attacker over the phone … Agentic tooling can be used for cyber offence , because AI is good at helping with technical problems with a clearly measurable success state. Offensive problems are mostly technical, and usually have a clear success state (the target program crashes, your malware calls home). But defensive problems , as we’ve established above, are not mostly technical. Nor do they always have a clear success state. Using AI automation for defence therefore quickly becomes a matter of organisational politics, and someone needs to be responsible for the action taken. Defenders simply cannot put AI to work in the same way attackers can. This is an inconvenient truth, as it suggests that the threat from AI-enabled cyber attacks will grow, whilst autonomous / agentic cyber defence might struggle to keep up unless we approach things differently. How can defenders make better use of AI? Rather than trying to mimic attackers’ use of agentic tooling (and risk breaking things), defenders need to solve the problem by explicitly considering the constraints. I am biased, but I think the work on Autonomous Cyber Defence by CETAS – commissioned by the NCSC – is excellent. It identified early that defenders have different levels of appetite for where they would apply AI. But how can we break the problem down further to make it tractable? To start with, let’s examine the technical defensive tasks an
-```
-
-#### Corroborating sources (1)
-
-- **NCSC UK** (government_authoritative)
-  - Title: One does not simply defend agentically
-  - Published: 2026-09-21T12:00:00+00:00
-  - Link: https://www.ncsc.gov.uk/blogs/one-does-not-simply-defend-agentically
-  - Summary: Defenders can’t use AI in the same way attackers can, but there’s much they can do to unlock the potential of agentic cyber defence.
-
 ### Cluster 81221e5c5f — score 9
 
 - Title: One URL, Three Different Tricks, (Thu, Sep 24th)
 - Source: SANS Internet Storm Center (government_authoritative)
 - Published: 2026-09-24T06:25:06+00:00
 - Link: https://isc.sans.edu/diary/rss/33366
-- Fetch status: not_attempted
+- Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -3649,12 +3634,12 @@ Microsoft Security Research published an interesting blog post " TerminalFix cam
   - Link: https://isc.sans.edu/diary/rss/33318
   - Summary: Microsoft Security Research published an interesting blog post " TerminalFix campaign deploys a reverse tunnel through multistage intrusion " about a malware campaign. The aspect that I want to take a closer look at, is the fact that the threat actors used PNG files with steganography. I reached out to the researchers and they kindly shared the IOCs for the PNG files with me.
 
-### Cluster 50904175b4 — score 9
+### Cluster 5d753c0044 — score 9
 
-- Title: Kiteworks recommends server shutdown pending possible attack
-- Source: Sophos X-Ops (detection_response_operations)
-- Published: 2026-09-25T00:00:00+00:00
-- Link: https://www.sophos.com/en-us/blog/kiteworks-recommends-server-shutdown-pending-possible-attack
+- Title: One does not simply defend agentically
+- Source: NCSC UK (government_authoritative)
+- Published: 2026-09-21T12:00:00+00:00
+- Link: https://www.ncsc.gov.uk/blogs/one-does-not-simply-defend-agentically
 - Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
@@ -3662,58 +3647,60 @@ Microsoft Security Research published an interesting blog post " TerminalFix cam
 
 #### Cluster taxonomy (union across members)
 - content_type: news_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_1_government
 
 #### Primary article taxonomy
 - content_type: news_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_1_government
 
 #### Summary
 
 ```
-Categories: Threat Research Tags: advisory, Kiteworks
+Defenders can’t use AI in the same way attackers can, but there’s much they can do to unlock the potential of agentic cyber defence.
 ```
 
 #### Corroborating sources (1)
 
-- **Sophos X-Ops** (detection_response_operations)
-  - Title: Kiteworks recommends server shutdown pending possible attack
-  - Published: 2026-09-25T00:00:00+00:00
-  - Link: https://www.sophos.com/en-us/blog/kiteworks-recommends-server-shutdown-pending-possible-attack
-  - Summary: Categories: Threat Research Tags: advisory, Kiteworks
+- **NCSC UK** (government_authoritative)
+  - Title: One does not simply defend agentically
+  - Published: 2026-09-21T12:00:00+00:00
+  - Link: https://www.ncsc.gov.uk/blogs/one-does-not-simply-defend-agentically
+  - Summary: Defenders can’t use AI in the same way attackers can, but there’s much they can do to unlock the potential of agentic cyber defence.
 
-### Cluster 90b084cdf5 — score 9
+### Cluster 43f5c3f825 — score 9
 
-- Title: AI adoption is a security survival metric
-- Source: Sysdig (detection_response_operations)
-- Published: 2026-09-25T00:00:00+00:00
-- Link: https://webflow.sysdig.com/blog/ai-adoption-is-a-security-survival-metric
+- Title: Best practices guide for customizing Gemini models via Reinforcement Learning (RL)
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-09-25T16:00:00+00:00
+- Link: https://cloud.google.com/blog/topics/developers-practitioners/best-practices-guide-for-customizing-gemini-models/
 - Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: (none)
+- Strong signals: Google/Gemini
 
 #### Cluster taxonomy (union across members)
+- affected_products: Google/Gemini
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
+- affected_products: Google/Gemini
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-AI is moving from experiment to infrastructure. Sysdig research shows more organizations building their own infrastructure, reducing the AI attack surface.
+Reinforcement learning (RL) has been a keystone of modern LLM post-training, but it demands large training clusters and access to model internals that external customers can't have with proprietary models like Gemini. So here at Google Cloud, we packaged it into a managed RL fine-tuning service (RLFT service) — you bring prompts and a reward function; we handle the infrastructure and the proprietary model internals. Now, you can adapt Gemini with the service — teaching the model from a reward signal you define, rather than from a fixed set of labeled answers. This unlocks a class of problems that supervised fine-tuning (SFT) struggles with: tasks that are hard to demonstrate but easy to score. In this guide, we will walk through practical best practices for using RL fine-tuning service. We'll start with a short tour of the RL training loop, how to decide if and when to use RL, and introduce how to get the most value from this approach. What is RLFT? RLFT adapts Gemini from a reward sig
 ```
 
 #### Corroborating sources (1)
 
-- **Sysdig** (detection_response_operations)
-  - Title: AI adoption is a security survival metric
-  - Published: 2026-09-25T00:00:00+00:00
-  - Link: https://webflow.sysdig.com/blog/ai-adoption-is-a-security-survival-metric
-  - Summary: AI is moving from experiment to infrastructure. Sysdig research shows more organizations building their own infrastructure, reducing the AI attack surface.
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Best practices guide for customizing Gemini models via Reinforcement Learning (RL)
+  - Published: 2026-09-25T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/developers-practitioners/best-practices-guide-for-customizing-gemini-models/
+  - Summary: Reinforcement learning (RL) has been a keystone of modern LLM post-training, but it demands large training clusters and access to model internals that external customers can't have with proprietary models like Gemini. So here at Google Cloud, we packaged it into a managed RL fine-tuning service (RLFT service) — you bring prompts and a reward function; we handle the infrastructure and the proprietary model internals. Now, you can adapt Gemini with the service — teaching the model from a reward signal you define, rather than from a fixed set of labeled answers. This unlocks a class of problems that supervised fine-tuning (SFT) struggles with: tasks that are hard to demonstrate but easy to score. In this guide, we will walk through practical best practices for using RL fine-tuning service. We'll start with a short tour of the RL training loop, how to decide if and when to use RL, and introduce how to get the most value from this approach. What is RLFT? RLFT adapts Gemini from a reward sig
 
 ### Cluster ab440398cd — score 9
 
@@ -3845,6 +3832,39 @@ submitted by /u/si9int [link] [comments]
   - Title: Proofpoint Stops the Attacks Traditional Defenses Miss in the AI Era
   - Published: 2026-09-22T11:00:00+00:00
   - Link: https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-stops-attacks-traditional-defenses-miss-ai-era
+
+### Cluster 50904175b4 — score 8
+
+- Title: Kiteworks recommends server shutdown pending possible attack
+- Source: Sophos X-Ops (detection_response_operations)
+- Published: 2026-09-25T00:00:00+00:00
+- Link: https://www.sophos.com/en-us/blog/kiteworks-recommends-server-shutdown-pending-possible-attack
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Categories: Threat Research Tags: advisory, Kiteworks
+```
+
+#### Corroborating sources (1)
+
+- **Sophos X-Ops** (detection_response_operations)
+  - Title: Kiteworks recommends server shutdown pending possible attack
+  - Published: 2026-09-25T00:00:00+00:00
+  - Link: https://www.sophos.com/en-us/blog/kiteworks-recommends-server-shutdown-pending-possible-attack
+  - Summary: Categories: Threat Research Tags: advisory, Kiteworks
 
 ### Cluster 313eff8055 — score 8
 
@@ -3982,42 +4002,38 @@ Huntress analysts reconstructed a three-week INC ransomware attack from endpoint
   - Link: https://www.huntress.com/blog/two-inc-ransom-notes
   - Summary: Huntress analysts reconstructed a three-week INC ransomware attack from endpoint data, uncovering a 17-day lull despite missing process telemetry.
 
-### Cluster b9fc937ed4 — score 8
+### Cluster 90b084cdf5 — score 8
 
-- Title: Doubts grow over claims OpenAI agent hacked Australian Medicare portal
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-09-25T12:00:00+00:00
-- Link: https://therecord.media/openai-australia-breach-cyber
+- Title: AI adoption is a security survival metric
+- Source: Sysdig (detection_response_operations)
+- Published: 2026-09-25T00:00:00+00:00
+- Link: https://webflow.sysdig.com/blog/ai-adoption-is-a-security-survival-metric
 - Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_industries: government
-- urgency_signals: preauth_unauth
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- affected_industries: government
-- urgency_signals: preauth_unauth
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-Researchers are questioning whether an OpenAI agent needed to hack an Australian government health portal to access it, after a review of the website’s archived code found it explicitly directed visitors to an unauthenticated endpoint.
+AI is moving from experiment to infrastructure. Sysdig research shows more organizations building their own infrastructure, reducing the AI attack surface.
 ```
 
 #### Corroborating sources (1)
 
-- **The Record** (cyber_news_breach_reporting)
-  - Title: Doubts grow over claims OpenAI agent hacked Australian Medicare portal
-  - Published: 2026-09-25T12:00:00+00:00
-  - Link: https://therecord.media/openai-australia-breach-cyber
-  - Summary: Researchers are questioning whether an OpenAI agent needed to hack an Australian government health portal to access it, after a review of the website’s archived code found it explicitly directed visitors to an unauthenticated endpoint.
+- **Sysdig** (detection_response_operations)
+  - Title: AI adoption is a security survival metric
+  - Published: 2026-09-25T00:00:00+00:00
+  - Link: https://webflow.sysdig.com/blog/ai-adoption-is-a-security-survival-metric
+  - Summary: AI is moving from experiment to infrastructure. Sysdig research shows more organizations building their own infrastructure, reducing the AI attack surface.
 
 ### Cluster b0d89fbe69 — score 8
 
