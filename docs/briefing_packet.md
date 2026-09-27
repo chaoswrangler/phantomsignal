@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-09-27T13:47:03.767029+00:00
+- Generated: 2026-09-27T18:13:41.316421+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
 - Total items in window: 442
-- Total clusters raw: 208
-- Total clusters in packet: 78
-- Dropped low score: 130
+- Total clusters raw: 210
+- Total clusters in packet: 79
+- Dropped low score: 131
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,43 +75,48 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 5
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
@@ -120,91 +125,86 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 4
+  - Item count: 15
+  - In window count: 1
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
+  - Item count: 100
   - In window count: 4
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
   - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 1
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 4
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+  - In window count: 1
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
@@ -220,16 +220,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 1
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
@@ -245,16 +245,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 9
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -265,61 +255,71 @@
   - Status: ok
   - Item count: 100
   - In window count: 3
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 9
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
+  - In window count: 0
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
-  - Item count: 5
-  - In window count: 5
+  - Item count: 100
+  - In window count: 3
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 20
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
@@ -330,16 +330,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
@@ -380,11 +380,11 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - Item count: 100
+  - In window count: 100
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -400,23 +400,28 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 0
-  - In window count: 0
+  - Item count: 10
+  - In window count: 1
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -435,11 +440,6 @@
   - Status: ok
   - Item count: 25
   - In window count: 23
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 100
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
@@ -565,6 +565,25 @@
   - https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html
   - https://www.infosecurity-magazine.com/news/attackers-abuse-npm-trusted/
 
+### Citrix exploitation (2 CVEs)
+- Anchor signal: Citrix
+- Theme key: citrix
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.7
+- Shared strong signals: Citrix
+- Member CVEs: CVE-2026-88771, CVE-2026-88772
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: ddos, active_exploitation
+  - affected_products: Citrix
+  - cve_ids: CVE-2026-88771, CVE-2026-88772
+  - urgency_signals: actively_exploited, preauth_unauth, no_patch_yet
+- Cluster IDs: 12dbc3c5b0, b27b9afca9
+- Links:
+  - https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html
+  - https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/
+
 ### WordPress active exploitation
 - Anchor signal: WordPress
 - Theme key: wordpress
@@ -641,7 +660,13 @@
 ## Forward signals
 
 ### Novelty
-- Novel cves: 0
+- Novel cves: 6
+  - CVE-2026-88771 (first seen via The Hacker News at 2026-09-27T07:47:57+00:00, cluster 12dbc3c5b0)
+  - CVE-2026-88772 (first seen via The Hacker News at 2026-09-27T07:47:57+00:00, cluster 12dbc3c5b0)
+  - CVE-2026-88773 (first seen via The Hacker News at 2026-09-27T07:47:57+00:00, cluster 12dbc3c5b0)
+  - CVE-2026-88774 (first seen via The Hacker News at 2026-09-27T07:47:57+00:00, cluster 12dbc3c5b0)
+  - CVE-2026-88771 (first seen via BleepingComputer at 2026-09-27T16:02:37+00:00, cluster b27b9afca9)
+  - CVE-2026-88772 (first seen via BleepingComputer at 2026-09-27T16:02:37+00:00, cluster b27b9afca9)
 - Novel actors: 0
 - Novel products: 0
 
@@ -675,7 +700,7 @@
 - Pair: CVE-2026-86060 + Android (cluster 5ccb851e5d, first observation: True)
 - Pair: CVE-2026-86060 + Microsoft SharePoint (cluster 5ccb851e5d, first observation: True)
 - Pair: CVE-2026-86060 + cPanel (cluster 5ccb851e5d, first observation: True)
-- Pair: CVE-2025-49113 + ShinyHunters (cluster 6b592b3549, first observation: True)
+- Pair: CVE-2026-88771 + Citrix (cluster 12dbc3c5b0, first observation: True)
 
 ### Drift (5)
 - **Cl0p** (cluster 6a53a92578)
@@ -709,9 +734,9 @@
 - actor_attribution: Scattered Spider (weeks observed: 11, cluster fc5c9992d3)
 - actor_attribution: Cl0p (weeks observed: 10, cluster 6a53a92578)
 - actor_attribution: BlackCat/ALPHV (weeks observed: 7, cluster fc5c9992d3)
+- cve_ids: CVE-2026-19490 (weeks observed: 6, cluster 12dbc3c5b0)
 - cve_ids: CVE-2026-59310 (weeks observed: 6, cluster 62087c81f0)
 - actor_attribution: RansomHub (weeks observed: 6, cluster fc5c9992d3)
-- cve_ids: CVE-2026-19490 (weeks observed: 5, cluster 12dbc3c5b0)
 - actor_attribution: Volt Typhoon (weeks observed: 5, cluster b9771fe2d2)
 - actor_attribution: UNC5221 (weeks observed: 5, cluster b04cf6724c)
 - actor_attribution: UNC6240 (weeks observed: 4, cluster 6a53a92578)
@@ -789,53 +814,6 @@ Emergent Threat Response CVE-2026-94127: Critical Unauthenticated RCE in F5 BIG-
   - Published: 2026-09-23T23:20:45+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1woli59/is_this_a_joke_in_the_auth_header_f5_bigip_unauth/
   - Summary: submitted by /u/dx7r__ [link] [comments]
-
-### Cluster 12dbc3c5b0 — score 36
-
-- Title: Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-09-27T07:47:57+00:00
-- Link: https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Citrix
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, zero_day
-- affected_products: Citrix
-- cve_ids: CVE-2026-19490
-- urgency_signals: actively_exploited, no_patch_yet, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, active_exploitation
-- affected_products: Citrix
-- cve_ids: CVE-2026-19490
-- urgency_signals: actively_exploited, zero_day, no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr said on September 26. Citrix has not confirmed the flaws or published a fix. Some administrators say they have taken appliances offline rather than wait for one to be available. NetScaler ADC and
-```
-
-#### Full body
-
-```
-Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation  Swati Khandelwal  Sep 27, 2026 Vulnerability / Network Security Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr said on September 26. Citrix has not confirmed the flaws or published a fix. Some administrators say they have taken appliances offline rather than wait for one to be available. NetScaler ADC and NetScaler Gateway sit at the edge of enterprise networks, where they handle VPN and remote access, load balancing, and user authentication. The new flaws are not the authentication bypass, CVE-2026-19490 , that Citrix fixed on August 19 and that CISA added to its Known Exploited Vulnerabilities catalog on September 9. watchTowr described the new flaws as unpatched, and a fix for the bypass has existed since August 19. Citrix has not said whether appliances on the August builds, 14.1-73.32 and 13.1-63.21, or any newer builds, are affected by the new flaws. watchTowr's first post on X on September 26 said it was reacting to rumors of several unpatched NetScaler RCE vulnerabilities in the wild. "While details are scarce, the information is credible," it wrote. A follow-up post at 22:19 UTC gave the fuller account: two vulnerabilities, both remote code execution, both unpatched, exploited before any fix existed, discovered during forensic investigations, and Citrix communications and patches expected early in the week of September 28. It directed further questions to Citrix. The firm has published no evidence, named no victim, and has not said whose forensic investigations found the exploitation. In August it showed that a NetScaler heap overflow Citrix had patched in June could be used for remote code execution. Reports of shutdown advice appeared on Reddit the same day. An administrator posting on r/Citrix wrote that their IT supplier's security team had phoned to advise shutting their NetScalers down immediately, without giving details. Others in the thread said their organizations had done the same. The source of the suppliers' warning is not established. With no bulletin, there is no vendor workaround, and no indicators of compromise for the new flaws have been published. Until a fix ships, the decision for anyone running a NetScaler is whether to keep it online, isolate it, or power it off, and whether to treat it as already compromised. Because the exploitation, as watchTowr describes it, happened before any fix existed, installing the fix will not tell an operator whether an attacker got in first. In 2025, after a NetScaler flaw was exploited as a zero-day against Dutch organizations, the Netherlands' National Cyber Security Center said that updating alone did not remove the risk, because an attacker could keep access gained before the patch, and told administrators to run its check scripts. Citrix's existing guidance for a suspected NetScaler compromise says to: Preserve evidence first: a snapshot of a VPX instance, the logs held on remote syslog servers and NetScaler Console, a technical support bundle, and a core dump of the packet engine. Isolate the appliance from the network. Change every service account password and secret stored on it, reset the passwords of users who signed in through it, and revoke its certificates and private keys. Keep the management interface off the internet. "The NetScaler Management Services should never be exposed to the public internet," the guidance says. The Dutch agency's 2025 check scripts, which cover a live appliance, core dumps, and full NetScaler images, are a further option, with limits. The README for the live-appliance script says it looks for files that indicate compromise, is not specific to one vulnerability, and comes with no guarantee of effectiveness. The code was last updated in September 2025. Which versions of NetScaler would receive a f
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation
-  - Published: 2026-09-27T07:47:57+00:00
-  - Link: https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html
-  - Summary: Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr said on September 26. Citrix has not confirmed the flaws or published a fix. Some administrators say they have taken appliances offline rather than wait for one to be available. NetScaler ADC and
 
 ### Cluster 6a53a92578 — score 33
 
@@ -1027,6 +1005,53 @@ SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild  Ra
   - Link: https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/
   - Summary: The Cybersecurity and Infrastructure Security Agency (CISA) warns that hackers are exploiting a critical authentication bypass vulnerability (CVE-2026-5430) affecting multiple products from enterprise software provider WSO2. [...]
 
+### Cluster 12dbc3c5b0 — score 25
+
+- Title: Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-09-27T07:47:57+00:00
+- Link: https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Citrix
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, ddos
+- affected_products: Citrix
+- cve_ids: CVE-2026-19490, CVE-2026-88771, CVE-2026-88772, CVE-2026-88773, CVE-2026-88774
+- urgency_signals: actively_exploited, no_patch_yet, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ddos, active_exploitation
+- affected_products: Citrix
+- cve_ids: CVE-2026-88771, CVE-2026-88772, CVE-2026-19490, CVE-2026-88773, CVE-2026-88774
+- urgency_signals: actively_exploited, preauth_unauth, no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of the two affects every deployment on an affected version, including those in the default configuration. The bulletin came a day after security firm watchTowr
+```
+
+#### Full body
+
+```
+Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation  Swati Khandelwal  Sep 27, 2026 Vulnerability / Network Security Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of the two affects every deployment on an affected version, including those in the default configuration. The bulletin came a day after security firm watchTowr said two unpatched NetScaler RCE flaws had been exploited, and after some administrators said they had taken appliances offline. Citrix did not say whether its two flaws are the ones watchTowr described, but they match that account. NetScaler ADC and NetScaler Gateway sit at the edge of enterprise networks, where they handle VPN and remote access, load balancing, and user authentication. Citrix said in its bulletin that the two exploited flaws are: CVE-2026-88771 (CVSS v4 score: 9.5) - An improper input validation flaw that lets an unauthenticated attacker run arbitrary commands. It affects all NetScaler ADC and NetScaler Gateway deployments, with no extra feature required. CVE-2026-88772 (CVSS v4 score: 9.5) - A memory overflow that can lead to remote code execution or denial-of-service (DoS). It affects appliances with DTLS enabled. DTLS is on by default for VPN virtual servers, so a NetScaler Gateway is affected unless DTLS has been explicitly turned off. "Exploits of CVE-2026-88771 and CVE-2026-88772 on unmitigated NetScaler deployments have been observed," the company said. It did not say how widely the flaws have been exploited, by whom, or since when. The bulletin is Citrix's first public notice of the flaws, so both were attacked before a fix was public. It lists no workaround for either and no indicators of compromise. Appliances on 14.1-73.32 and 13.1-63.21, the builds that fixed the exploited authentication bypass CVE-2026-19490 in August, fall inside the affected range and need the new update. The fixes are in the following versions, which Citrix urged affected customers to install as soon as possible: NetScaler ADC and NetScaler Gateway 14.1-73.37 and later releases NetScaler ADC and NetScaler Gateway 13.1-64.23 and later releases of 13.1 NetScaler ADC 14.1-FIPS 14.1-73.37 FIPS and later releases of 14.1-FIPS NetScaler ADC 13.1-FIPS and 13.1-NDcPP 13.1-37.279 and later releases of 13.1-FIPS and 13.1-NDcPP The bulletin covers customer-managed appliances, including NetScaler instances used in Secure Private Access Hybrid deployments. Citrix upgrades its own cloud services and Citrix-managed Adaptive Authentication. The 13.1 fix arrives after that branch reached End of Maintenance on September 15 under Citrix's release schedule . The six other flaws, which the bulletin does not list as exploited, are: CVE-2026-88773 (CVSS v4 score: 9.3) - An HTTP request smuggling flaw, on appliances with load balancing, content switching, VPN, or authentication virtual servers of type HTTP or SSL. CVE-2026-88774 (CVSS v4 score: 7.0) - A policy bypass, on appliances where any policy uses an HTTP URL-based expression. CVE-2026-88775 (CVSS v4 score: 8.8) - A memory overflow that can cause unpredictable behavior or DoS, on appliances configured as a Gateway (SSL VPN, ICA Proxy, CVPN, RDP Proxy) or an authentication, authorization, and auditing (AAA) virtual server. CVE-2026-88776 (CVSS v4 score: 8.8) - A memory overflow that can cause unpredictable behavior or DoS, on load balancing virtual servers of type Oracle. CVE-2026-88777 (CVSS v4 score: 8.8) - A memory overflow that can cause unpredictable behavior or DoS, on load balancing, content switching, or CGNAT-LSN/NAT64 setups with a non-HTTP Layer 7 protocol feature, such as FTP, RTSP, or DNS64, enabled. CVE-2026-88778 (CVSS v4 score: 8.8) - A TCP Initial Sequence Number (ISN) prediction flaw, on appliances with TCP-based virtual servers, such as HTTP, S
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation
+  - Published: 2026-09-27T07:47:57+00:00
+  - Link: https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html
+  - Summary: Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of the two affects every deployment on an affected version, including those in the default configuration. The bulletin came a day after security firm watchTowr
+
 ### Cluster 6b592b3549 — score 24
 
 - Title: Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild
@@ -1142,16 +1167,16 @@ Threat Intelligence Proactive Defense: Hardening Code Pipelines and CI/CD Infras
   - Published: 2026-09-25T02:13:27+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1wpkc7q/argus_monitor_local_denialofservice_vulnerability/
   - Summary: (1) An exposed IOCTL lets unprivileged users disable the x86 MONITOR & MWAIT instructions used by Hyper-V and other kernel components--triggering a HYPERVISOR_ERROR bugcheck. (2) Reaching the IOCTL requires exploiting a TOCTOU bug arguably caused by poor documentation of the SeLocateProcessImageName function. (3) Reimplementation of the driver's security through obscurity IOCTL encryption scheme: SHA-256 KDF-derived XOR keystream & CRC16 Checksum. See full write-up , and Github for PoC. submitted by /u/p0xq [link] [comments]
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: GitHub Actions re-enabled with Mini Shai-Hulud payload still active
-  - Published: 2026-09-26T14:19:46+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/
-  - Summary: Two third-party GitHub Actions previously compromised in a Mini Shai-Hulud campaign were re-enabled by their maintainer and remained accessible for more than a week despite still pointing to malicious code. [...]
 - **tl;dr sec** (practitioner_analysis)
   - Title: [tl;dr sec] #347 - AI Agents Hacking Companies for $25, Threat Hunter's Guide to GitHub, Finding Gadgets Like it’s 2026
   - Published: 2026-09-24T14:30:00+00:00
   - Link: https://tldrsec.com/p/tldr-sec-347
   - Summary: Threat actor using open source harnesses to hack companies, how to use GitHub logs to find baddies, using LLMs to find novel Java deserialization gadgets
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: GitHub Actions re-enabled with Mini Shai-Hulud payload still active
+  - Published: 2026-09-26T14:19:46+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/
+  - Summary: Two third-party GitHub Actions previously compromised in a Mini Shai-Hulud campaign were re-enabled by their maintainer and remained accessible for more than a week despite still pointing to malicious code. [...]
 
 ### Cluster 53f2b6a774 — score 21
 
@@ -1832,6 +1857,49 @@ Home Blog DarkMe Email Campaign Broadens Targeting For APT RAT Published: Septem
   - Link: https://www.huntress.com/blog/darkme-rat-abandons-exploits
   - Summary: DarkMe, an APT-linked VB6 RAT known for using zero day exploits, turned up in two Huntress incidents stripped down to a plain .pif infostealer malware.
 
+### Cluster 0188a8d3e5 — score 14
+
+- Title: Transparent Tribe APT Infrastructure Mapping - Part 2
+- Source: Team Cymru (ransomware_ecrime_financial_crime)
+- Published: 2026-09-21T22:37:48+00:00
+- Link: https://www.team-cymru.com/post/transparent-tribe-apt-infrastructure-mapping
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: APT36
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage
+- actor_attribution: APT36
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage
+- actor_attribution: APT36
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Transparent Tribe (APT36, Mythic Leopard, ProjectM, Operation C-Major) is the name given to a threat actor group largely targeting Indian entities and assets.
+```
+
+#### Full body
+
+```
+S2 Research Team 9 min read July 2, 2021 Transparent Tribe APT Infrastructure Mapping - Part 2 Part 2: A Deeper Dive into the Identification of CrimsonRAT Infrastructure October 2020 ‚Äì June 2021 Introduction Transparent Tribe (APT36, Mythic Leopard, ProjectM, Operation C-Major) is the name given to a threat actor group largely targeting Indian entities and assets. Transparent Tribe has also been known to target entities in Afghanistan and social activists in Pakistan, the latter of which points towards the assumed attribution of Pakistani intelligence. This is the second blog of a two-part series on Transparent Tribe‚Äôs CrimsonRAT infrastructure. You may read the first article here: Part 1: A High-Level Study of CrimsonRAT Infrastructure October 2020 ‚Äì March 2021 We have been tracking CrimsonRAT, Transparent Tribe‚Äôs most ubiquitous remote access tool, over several months. This blog will present a deeper dive into the methods we use to identify CrimsonRAT infrastructure and observations on specific artefacts which have allowed us to attribute this infrastructure dating back multiple years. Our intention is to provide supporting context to existing Transparent Tribe reporting and IOCs, to aide in future threat reconnaissance activities against this group. Key Observations CrimsonRAT infrastructure is largely hosted on infrastructure leased by Pi NET LLC, a Vietnamese VPS reseller. An RDP certificate serves as a key indicator for CrimsonRAT and has been observed on 17 C2 servers in total. A methodology for tracing CrimsonRAT C2 servers was devised based on network traffic patterns and the scanning of beacon ports. CrimsonRAT C2 servers provide a standardized response when an initial TCP connection is established. Potential crossover login activity has been observed, linking multiple C2 servers together, as well as providing a link to AhMyth AndroidRAT. Eggs in One Basket (Pi NET LLC) When reviewing CrimsonRAT C2 infrastructure an RDP certificate (with a Common Name value of WIN-P9NRMH5G6M8 ) continued to appear. Our certificate data showed this Common Name appearing across many of the previously identified ‚Äòpreferred‚Äô providers (see Part 1) used by Transparent Tribe. After reviewing rWhois records for IP addresses hosting this certificate it became apparent that many, if not all these hosts, were being subleased to Pi NET LLC . A list of all 17 CrimsonRAT C2 servers hosting the Common Name WIN-P9NRMH5G6M8 certificate is provided at the end of this blog. Expanding this search using Shodan‚Äôs data holdings, we were able to bolster our theory (the association of the certificate with Pi NET LLC ) as only a relatively small number of hosts (240) were identified, the majority of which were either assigned directly to, or subleased to Pi NET LLC . Unfortunately, not all providers document the details of subleasing in Whois records, so we were not able to tie ALL the IP addresses identified to a single entity (Pi NET). Figure 1: Shodan 240 hosts found with Common Name WIN-P9NRMH5G6M8 More recently we have also observed a different certificate in use on Pi NET LLC hosts, with a Common Name of WIN-L6BUPB5SQBC . This certificate is associated with CrimsonRAT C2s 134.119.181.15, 181.215.47.169 and 134.119.181.142 and moving forward could be an alternative indicator of Transparent Tribe activity. Reviewing Whois information for all CrimsonRAT C2 servers we have identified to date, we found that roughly three-quarters (75%) were associated in some way with Pi NET LLC . Therefore, we assess with moderate confidence that Transparent Tribe is hosting a large proportion of (known) CrimsonRAT infrastructure through this single VPS provider, i.e., whilst CrimsonRAT servers are overtly hosted with several different providers, it is likely that this infrastructure is managed and sold by the small reseller Pi NET LLC. Pi NET LLC (pivps[.]com) is a VPS reseller based out of northern Vietnam, which provides very affordable Windows and Linux h
+```
+
+#### Corroborating sources (1)
+
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - Title: Transparent Tribe APT Infrastructure Mapping - Part 2
+  - Published: 2026-09-21T22:37:48+00:00
+  - Link: https://www.team-cymru.com/post/transparent-tribe-apt-infrastructure-mapping
+  - Summary: Transparent Tribe (APT36, Mythic Leopard, ProjectM, Operation C-Major) is the name given to a threat actor group largely targeting Indian entities and assets.
+
 ### Cluster 12a6389ae4 — score 14
 
 - Title: Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates
@@ -1878,49 +1946,6 @@ Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updat
   - Published: 2026-09-22T16:14:04+00:00
   - Link: https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html
   - Summary: A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was published on GitHub on September 19. The tool, called BigDiskBuster, has no patch, no CVE, and no Microsoft advisory. Its author, Abdelhamid Naceri, is a former Microsoft security researcher whose earlier Defender exploits were used in
-
-### Cluster 0188a8d3e5 — score 14
-
-- Title: Transparent Tribe APT Infrastructure Mapping - Part 2
-- Source: Team Cymru (ransomware_ecrime_financial_crime)
-- Published: 2026-09-21T22:37:48+00:00
-- Link: https://www.team-cymru.com/post/transparent-tribe-apt-infrastructure-mapping
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: APT36
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
-- actor_attribution: APT36
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage
-- actor_attribution: APT36
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Transparent Tribe (APT36, Mythic Leopard, ProjectM, Operation C-Major) is the name given to a threat actor group largely targeting Indian entities and assets.
-```
-
-#### Full body
-
-```
-S2 Research Team 9 min read July 2, 2021 Transparent Tribe APT Infrastructure Mapping - Part 2 Part 2: A Deeper Dive into the Identification of CrimsonRAT Infrastructure October 2020 ‚Äì June 2021 Introduction Transparent Tribe (APT36, Mythic Leopard, ProjectM, Operation C-Major) is the name given to a threat actor group largely targeting Indian entities and assets. Transparent Tribe has also been known to target entities in Afghanistan and social activists in Pakistan, the latter of which points towards the assumed attribution of Pakistani intelligence. This is the second blog of a two-part series on Transparent Tribe‚Äôs CrimsonRAT infrastructure. You may read the first article here: Part 1: A High-Level Study of CrimsonRAT Infrastructure October 2020 ‚Äì March 2021 We have been tracking CrimsonRAT, Transparent Tribe‚Äôs most ubiquitous remote access tool, over several months. This blog will present a deeper dive into the methods we use to identify CrimsonRAT infrastructure and observations on specific artefacts which have allowed us to attribute this infrastructure dating back multiple years. Our intention is to provide supporting context to existing Transparent Tribe reporting and IOCs, to aide in future threat reconnaissance activities against this group. Key Observations CrimsonRAT infrastructure is largely hosted on infrastructure leased by Pi NET LLC, a Vietnamese VPS reseller. An RDP certificate serves as a key indicator for CrimsonRAT and has been observed on 17 C2 servers in total. A methodology for tracing CrimsonRAT C2 servers was devised based on network traffic patterns and the scanning of beacon ports. CrimsonRAT C2 servers provide a standardized response when an initial TCP connection is established. Potential crossover login activity has been observed, linking multiple C2 servers together, as well as providing a link to AhMyth AndroidRAT. Eggs in One Basket (Pi NET LLC) When reviewing CrimsonRAT C2 infrastructure an RDP certificate (with a Common Name value of WIN-P9NRMH5G6M8 ) continued to appear. Our certificate data showed this Common Name appearing across many of the previously identified ‚Äòpreferred‚Äô providers (see Part 1) used by Transparent Tribe. After reviewing rWhois records for IP addresses hosting this certificate it became apparent that many, if not all these hosts, were being subleased to Pi NET LLC . A list of all 17 CrimsonRAT C2 servers hosting the Common Name WIN-P9NRMH5G6M8 certificate is provided at the end of this blog. Expanding this search using Shodan‚Äôs data holdings, we were able to bolster our theory (the association of the certificate with Pi NET LLC ) as only a relatively small number of hosts (240) were identified, the majority of which were either assigned directly to, or subleased to Pi NET LLC . Unfortunately, not all providers document the details of subleasing in Whois records, so we were not able to tie ALL the IP addresses identified to a single entity (Pi NET). Figure 1: Shodan 240 hosts found with Common Name WIN-P9NRMH5G6M8 More recently we have also observed a different certificate in use on Pi NET LLC hosts, with a Common Name of WIN-L6BUPB5SQBC . This certificate is associated with CrimsonRAT C2s 134.119.181.15, 181.215.47.169 and 134.119.181.142 and moving forward could be an alternative indicator of Transparent Tribe activity. Reviewing Whois information for all CrimsonRAT C2 servers we have identified to date, we found that roughly three-quarters (75%) were associated in some way with Pi NET LLC . Therefore, we assess with moderate confidence that Transparent Tribe is hosting a large proportion of (known) CrimsonRAT infrastructure through this single VPS provider, i.e., whilst CrimsonRAT servers are overtly hosted with several different providers, it is likely that this infrastructure is managed and sold by the small reseller Pi NET LLC. Pi NET LLC (pivps[.]com) is a VPS reseller based out of northern Vietnam, which provides very affordable Windows and Linux h
-```
-
-#### Corroborating sources (1)
-
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - Title: Transparent Tribe APT Infrastructure Mapping - Part 2
-  - Published: 2026-09-21T22:37:48+00:00
-  - Link: https://www.team-cymru.com/post/transparent-tribe-apt-infrastructure-mapping
-  - Summary: Transparent Tribe (APT36, Mythic Leopard, ProjectM, Operation C-Major) is the name given to a threat actor group largely targeting Indian entities and assets.
 
 ### Cluster f41f7912c8 — score 13
 
@@ -2100,6 +2125,39 @@ tcblogposts min read March 13, 2024 Threat Intelligence: A CISO ROI Guide - Elit
   - Link: https://www.team-cymru.com/post/threat-intelligence-a-ciso-roi-guide-elite-threat-hunters-prevent-supply-chain-breaches
   - Summary: Discover how elite threat hunters and Pure Signal Recon help CISOs prevent supply chain breaches, save millions, and boost security ROI. Learn more.
 
+### Cluster 10265ec447 — score 11
+
+- Title: Wireshark 4.6.9 Released, (Sun, Sep 27th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-09-27T15:04:49+00:00
+- Link: https://isc.sans.edu/diary/rss/33372
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+Wireshark release 4.6.9 fixes 19 vulnerabilities and 16 bugs.
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: Wireshark 4.6.9 Released, (Sun, Sep 27th)
+  - Published: 2026-09-27T15:04:49+00:00
+  - Link: https://isc.sans.edu/diary/rss/33372
+  - Summary: Wireshark release 4.6.9 fixes 19 vulnerabilities and 16 bugs.
+
 ### Cluster ee15270475 — score 11
 
 - Title: How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers
@@ -2224,6 +2282,53 @@ By Stacey Potter At OpenSSF, securing the open source software supply chain isn�
   - Published: 2026-09-24T19:32:24+00:00
   - Link: https://openssf.org/blog/2026/09/24/inside-the-openssf-summer-mentorship-showcase-how-emerging-developers-are-strengthening-supply-chain-security/
   - Summary: At OpenSSF, securing the open source software supply chain isn’t just about writing code or establishing policies. It is about growing the community of developers who build, maintain, and innovate these tools.
+
+### Cluster b27b9afca9 — score 11
+
+- Title: Citrix confirms two NetScaler RCE zero-days exploited in attacks
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-09-27T16:02:37+00:00
+- Link: https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-88771, CVE-2026-88772
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, ddos
+- affected_products: Citrix
+- cve_ids: CVE-2026-88771, CVE-2026-88772
+- urgency_signals: actively_exploited, no_patch_yet, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ddos, active_exploitation
+- affected_products: Citrix
+- cve_ids: CVE-2026-88771, CVE-2026-88772
+- urgency_signals: actively_exploited, preauth_unauth, no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security updates to fix the flaws. [...]
+```
+
+#### Full body
+
+```
+Citrix confirms two NetScaler RCE zero-days exploited in attacks By Lawrence Abrams September 27, 2026 12:02 PM 0 Update: Article rewritten with official confirmation from Citrix. Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security updates to fix the flaws. The vulnerabilities are the same zero-days that cybersecurity researchers, IT providers, and national cybersecurity agencies began privately warning organizations about over the weekend. NetScaler appliances are particularly valuable targets because organizations commonly deploy them as Internet-facing edge devices that provide remote access and application delivery services for internal corporate networks. Compromising one of these devices can give attackers an initial foothold at the perimeter of a victim's network and potentially provide a path to internal systems without first compromising an endpoint inside the organization. The first signs of the incident appeared when Citrix administrators began reporting on Reddit that IT suppliers and security teams were privately contacting their organizations and advising them to shut down their NetScaler appliances. "We got a call from our IT supplier's security team, they couldn't give any details but they advised to shut our Netscalers down immediately," one administrator wrote . Other administrators said law enforcement, CERTs, and national cybersecurity agencies had also been contacting organizations about the issue. Cybersecurity firm watchTowr later publicly warned that it was "rapidly reacting to rumors" that multiple unpatched Citrix NetScaler remote code execution vulnerabilities were being exploited in the wild after verifying the information with "authoratitive sources." "We are currently rapidly reacting to rumors that multiple unpatched Citrix NetScaler RCE vulnerabilities are circulating in the wild. While details are scarce, the information is credible," watchTowr said . Citrix confirms active exploitation Citrix has now published security bulletin CTX697096 , confirming the vulnerabilities and releasing patches for affected NetScaler ADC and NetScaler Gateway appliances. CVE-2026-88771 is a remote code execution vulnerability caused by improper input validation, allowing an unauthenticated attacker to execute arbitrary commands. It has a severity score of 9.5. Citrix says the flaw affects all NetScaler ADC and NetScaler Gateway deployments, including those using the default configuration, and does not require any additional feature to be enabled. CVE-2026-88772 is a memory overflow vulnerability that can lead to remote code execution or a denial-of-service condition, also with a severity score of 9.5. This vulnerability can be exploited when DTLS is enabled on a NetScaler ADC or NetScaler Gateway. Citrix notes that DTLS is enabled by default on VPN virtual servers. Citrix has confirmed that both flaws have been exploited in attacks against NetScaler devices as zero-days. "Exploits of CVE-2026-88771 and CVE-2026-88772 on unmitigated NetScaler deployments have been observed," Citrix said in the security bulletin . Citrix says the following versions are affected: NetScaler ADC and NetScaler Gateway 14.1 before 14.1-73.37 NetScaler ADC and NetScaler Gateway 13.1 before 13.1-64.23 NetScaler ADC FIPS before 14.1-73.37 FIPS NetScaler ADC FIPS and NDcPP before 13.1-37.279 Secure Private Access Hybrid deployments using NetScaler instances are also affected and must be upgraded to the recommended builds. Citrix says the bulletin only applies to customer-managed NetScaler ADC and NetScaler Gateway appliances. Cloud Software Group is upgrading Citrix-managed cloud services and Citrix-managed Adaptive Authentication. The security bulletin also fixes six other NetScaler vulnerabilities, bringing the total to eight flaws fixed in this update. NCSC warned organizations before disclosu
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Citrix confirms two NetScaler RCE zero-days exploited in attacks
+  - Published: 2026-09-27T16:02:37+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/
+  - Summary: Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security updates to fix the flaws. [...]
 
 ### Cluster b9771fe2d2 — score 11
 
@@ -2781,51 +2886,6 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 21st Septe
   - Link: https://research.checkpoint.com/2026/21st-september-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 21st Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Japan’s Digital Agency, which operates the Government Solution Service used by multiple ministries, has confirmed a data breach after attackers exploited a vulnerability in a VPN appliance. Approximately 246,000 records were exposed, […] The post 21st September – Threat Intelligence Report appeared first on Check Point Research .
 
-### Cluster 12a3a99ac3 — score 10
-
-- Title: The SMB cybersecurity squeeze: AI agents at work, old attacks in overdrive
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-09-21T09:00:00+00:00
-- Link: https://www.welivesecurity.com/en/business-security/smb-cybersecurity-squeeze-ai-agents-work-old-attacks-overdrive/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, supply_chain, zero_day
-- affected_industries: government
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, credential_theft, zero_day
-- affected_industries: government
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-As AI opens new paths to company data while making familiar attacks faster and cheaper, SMBs need protection designed around the time and expertise available to operate it
-```
-
-#### Full body
-
-```
-Business Security The SMB cybersecurity squeeze: AI agents at work, old attacks in overdrive As AI opens new paths to company data while making familiar attacks faster and cheaper, SMBs need protection designed around the time and expertise available to operate it Tomáš Foltýn 21 Sep 2026 • , 8 min. read AI has moved quickly into the daily work of small and mid-size businesses (SMBs). Many have moved past chatbots and begun assigning work to AI agents in the hope of gaining an edge on their similarly resource-strapped competitors and levelling the playing field with larger companies. Indeed, the ambitious adopters are deploying, or at least experimenting with, multi-agent ‘assembly lines,’ where one supervisor agent manages swarms of specialist agents and passes work between them. But AI changes more than how work gets done. Each new access and connection leaves the business with new dependencies that represent a potential cybersecurity risk. SMBs rarely have resources to spare, however, and least of all in IT. Cybersecurity in particular is often just one item on a list of duties owned by a person or small team that deals with everything from account provisioning to zero-day fallout. Yet few businesses are likely to backpedal on AI until every risk is mapped and addressed. Fewer still know which loopholes need plugging first – ESET’s recent global survey of 4,400 SMB decision-makers found that 40 percent of the businesses didn’t even have an AI policy. The rules were more common in companies that had already suffered an incident, revealing the familiar pattern where governance often arrives after a breach. Broadly speaking, today’s security risks are expanding in two main directions: AI creates new paths to business systems while adversaries use it to add speed and scale to ‘old’ threats. AI agents, double agents and errant agents Whatever its remit, each agent connected to business systems can act through permissions granted by its ‘owner.’ Once an agent has access to internal documents and can communicate externally, anything that influences its instructions can also influence what it does with its permissions. A chatbot may produce a wayward answer, whereas an agent with access to data and tools could take a wayward and, ultimately, costly action. In multi-agent setups, manipulated outputs can be handed to the next part of the chain, triggering a cascading problem whose root cause is difficult to track down. Of course, some risks surrounding AI agents have familiar roots: an agent’s supply chains can be compromised and its permissions abused. This is best illustrated by skills, or packaged instructions that tell an agent what actions to take and which tools to use. Between March and May 2026, ESET’s systems scanned almost 900,000 unique skills from popular repositories – more than 25,000 turned out to be suspicious and more than 3,000 outright malicious, leading to credential theft, data exfiltration and remote code execution. Figure 1. Instructions of a self-modifying skill that can lead to unpredictable behavior and abuse (source: ESET Threat Report H1 2026 ) How many were installed globally is anyone’s guess, but the analysis shows how quickly a poorly governed supply chain has grown around agentic AI. The skills ecosystem lacks app-store-style gatekeeping, and one-off checks before installation are by no means sufficient, either. Skills and tool connections, including those using ubiquitous MCP servers, remain live dependencies after an initial review as their instructions and upstream services can change at any time. The end result could be a “rug pull” where a tool that at first behaves as expected later morphs into, for example, an infostealer. A lean IT team is unlikely to review every such dependency at installation, much less continue to keep an eye on it afterwards. Indeed, they may not even know that an employee has connected a seemingly useful skill to an agent without realizing that it can, for example, read
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: The SMB cybersecurity squeeze: AI agents at work, old attacks in overdrive
-  - Published: 2026-09-21T09:00:00+00:00
-  - Link: https://www.welivesecurity.com/en/business-security/smb-cybersecurity-squeeze-ai-agents-work-old-attacks-overdrive/
-  - Summary: As AI opens new paths to company data while making familiar attacks faster and cheaper, SMBs need protection designed around the time and expertise available to operate it
-
 ### Cluster e1b756c88e — score 10
 
 - Title: Trust and the enticing consultancy offer
@@ -2905,6 +2965,51 @@ Introducing CAIRN: Frontier tracking for AI-integrated malware By Ryan Fetterman
   - Published: 2026-09-22T10:00:25+00:00
   - Link: https://blog.talosintelligence.com/introducing-cairn-frontier-tracking-for-ai-integrated-malware/
   - Summary: Talos is releasing CAIRN, a research toolkit for hunting, classifying, and tracking emerging AI-integrated malware.
+
+### Cluster 12a3a99ac3 — score 10
+
+- Title: The SMB cybersecurity squeeze: AI agents at work, old attacks in overdrive
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-09-21T09:00:00+00:00
+- Link: https://www.welivesecurity.com/en/business-security/smb-cybersecurity-squeeze-ai-agents-work-old-attacks-overdrive/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, supply_chain, zero_day
+- affected_industries: government
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, credential_theft, zero_day
+- affected_industries: government
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+As AI opens new paths to company data while making familiar attacks faster and cheaper, SMBs need protection designed around the time and expertise available to operate it
+```
+
+#### Full body
+
+```
+Business Security The SMB cybersecurity squeeze: AI agents at work, old attacks in overdrive As AI opens new paths to company data while making familiar attacks faster and cheaper, SMBs need protection designed around the time and expertise available to operate it Tomáš Foltýn 21 Sep 2026 • , 8 min. read AI has moved quickly into the daily work of small and mid-size businesses (SMBs). Many have moved past chatbots and begun assigning work to AI agents in the hope of gaining an edge on their similarly resource-strapped competitors and levelling the playing field with larger companies. Indeed, the ambitious adopters are deploying, or at least experimenting with, multi-agent ‘assembly lines,’ where one supervisor agent manages swarms of specialist agents and passes work between them. But AI changes more than how work gets done. Each new access and connection leaves the business with new dependencies that represent a potential cybersecurity risk. SMBs rarely have resources to spare, however, and least of all in IT. Cybersecurity in particular is often just one item on a list of duties owned by a person or small team that deals with everything from account provisioning to zero-day fallout. Yet few businesses are likely to backpedal on AI until every risk is mapped and addressed. Fewer still know which loopholes need plugging first – ESET’s recent global survey of 4,400 SMB decision-makers found that 40 percent of the businesses didn’t even have an AI policy. The rules were more common in companies that had already suffered an incident, revealing the familiar pattern where governance often arrives after a breach. Broadly speaking, today’s security risks are expanding in two main directions: AI creates new paths to business systems while adversaries use it to add speed and scale to ‘old’ threats. AI agents, double agents and errant agents Whatever its remit, each agent connected to business systems can act through permissions granted by its ‘owner.’ Once an agent has access to internal documents and can communicate externally, anything that influences its instructions can also influence what it does with its permissions. A chatbot may produce a wayward answer, whereas an agent with access to data and tools could take a wayward and, ultimately, costly action. In multi-agent setups, manipulated outputs can be handed to the next part of the chain, triggering a cascading problem whose root cause is difficult to track down. Of course, some risks surrounding AI agents have familiar roots: an agent’s supply chains can be compromised and its permissions abused. This is best illustrated by skills, or packaged instructions that tell an agent what actions to take and which tools to use. Between March and May 2026, ESET’s systems scanned almost 900,000 unique skills from popular repositories – more than 25,000 turned out to be suspicious and more than 3,000 outright malicious, leading to credential theft, data exfiltration and remote code execution. Figure 1. Instructions of a self-modifying skill that can lead to unpredictable behavior and abuse (source: ESET Threat Report H1 2026 ) How many were installed globally is anyone’s guess, but the analysis shows how quickly a poorly governed supply chain has grown around agentic AI. The skills ecosystem lacks app-store-style gatekeeping, and one-off checks before installation are by no means sufficient, either. Skills and tool connections, including those using ubiquitous MCP servers, remain live dependencies after an initial review as their instructions and upstream services can change at any time. The end result could be a “rug pull” where a tool that at first behaves as expected later morphs into, for example, an infostealer. A lean IT team is unlikely to review every such dependency at installation, much less continue to keep an eye on it afterwards. Indeed, they may not even know that an employee has connected a seemingly useful skill to an agent without realizing that it can, for example, read
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: The SMB cybersecurity squeeze: AI agents at work, old attacks in overdrive
+  - Published: 2026-09-21T09:00:00+00:00
+  - Link: https://www.welivesecurity.com/en/business-security/smb-cybersecurity-squeeze-ai-agents-work-old-attacks-overdrive/
+  - Summary: As AI opens new paths to company data while making familiar attacks faster and cheaper, SMBs need protection designed around the time and expertise available to operate it
 
 ### Cluster 7c416ee970 — score 10
 
@@ -3078,45 +3183,6 @@ The Lure Isn't The Malware. It's Your Logo. Recorded Future's Insikt Group Ⓡ h
   - Link: https://www.recordedfuture.com/blog/your-logo-is-the-lure
   - Summary: Recorded Future's Insikt GroupⓇ has been tracking ClickFix, a social engineering technique that turns a familiar logo or verification prompt into the entry point for an attack. Here's what that research reveals about catching it, and why it's now running inside Malicious Site Monitoring, part of our newly launched Digital Risk Protection solution.
 
-### Cluster 3494226aac — score 10
-
-- Title: How dynamic application security testing validates risk at runtime
-- Source: Rapid7 (offensive_vulnerability_research)
-- Published: 2026-09-23T13:49:39+00:00
-- Link: https://www.rapid7.com/blog/post/em-dynamic-application-security-testing-dast-validates-risk-at-runtime-idc-marketscape
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Security teams already have long queues of potential application vulnerabilities. The useful question is what happens next: can they see how a weakness behaves in a running application, reproduce the attack, and give developers enough evidence to fix it? Dynamic application security testing (DAST) helps answer those questions by testing applications as an attacker encounters them. The IDC MarketScape: Worldwide Dynamic Application Security Testing 2026 Vendor Assessment (Doc #US54119126, September 2026). The IDC MarketScape evaluated 16 vendors and named Rapid7 a Leader. We believe the result reflects the strength of Rapid7’s DAST capabilities, but the IDC MarketScape also offers a useful view of where the category is heading. DAST has developed beyond traditional web scanning into a source of runtime evidence that can help organizations validate risk across the application layer. From possible weakness to validated application risk Code analysis and dependency scanning help teams iden
-```
-
-#### Full body
-
-```
-Exposure Command How dynamic application security testing validates risk at runtime Rapid7 Sep 23, 2026 | Last updated on Sep 23, 2026 | 3 min read DISCOVER EXPOSURE COMMAND How dynamic application security testing validates risk at runtime Table of contents How dynamic application security testing validates risk at runtime DISCOVER EXPOSURE COMMAND Table of contents Security teams already have long queues of potential application vulnerabilities. The useful question is what happens next: can they see how a weakness behaves in a running application, reproduce the attack, and give developers enough evidence to fix it? Dynamic application security testing (DAST) helps answer those questions by testing applications as an attacker encounters them. The IDC MarketScape: Worldwide Dynamic Application Security Testing 2026 Vendor Assessment (Doc #US54119126, September 2026). The IDC MarketScape evaluated 16 vendors and named Rapid7 a Leader. We believe the result reflects the strength of Rapid7’s DAST capabilities, but the IDC MarketScape also offers a useful view of where the category is heading. DAST has developed beyond traditional web scanning into a source of runtime evidence that can help organizations validate risk across the application layer. From possible weakness to validated application risk Code analysis and dependency scanning help teams identify weaknesses before an application is deployed. DAST provides a different view by interacting with the assembled application while it is running. It can show what happens when a particular request reaches the application, how the application responds, and whether a suspected weakness can be reproduced. This is especially valuable for APIs and AI-backed applications, where risk may emerge through interactions among models, prompts, data, tools, and permissions. Some of these behaviors cannot be fully understood from source code or a dependency manifest. They become visible when the application is exercised under runtime conditions. DAST therefore has a direct role in continuous threat exposure management (CTEM). Discovery gives teams a view of their assets and possible weaknesses, but that view alone does not tell them where to focus. Validation helps narrow the field by showing which exposures can be reached or exploited and providing evidence that teams can use to take action. For Rapid7, DAST is exposure management applied to the application layer. Web applications, APIs, and AI-backed endpoints are all part of the attack surface, so they need to be discovered, tested, prioritized, and managed alongside infrastructure, cloud, and other exposures. Why we believe Rapid7 was named a Leader by IDC Rapid7’s DAST solution is delivered as part of the Exposure Command portfolio. Its scan engine maps an application, executes attacks against the discovered paths, and validates confirmed findings. Security teams can map a broad area of an application while limiting active attacks to an appropriate set of paths, giving them control over how testing is performed. Findings are checked against Rapid7 telemetry to help determine which issues warrant closer attention. When a finding needs action, browser-based replay reproduces the original request, the attack request, and the triggering response. Developers receive evidence they can work with, rather than a finding they must first spend time proving. Authenticated scanning can be difficult to maintain across a changing application portfolio, and a broken login sequence can leave important areas untested. Rapid7’s solution can identify the affected step and support a targeted update without requiring the entire sequence to be recorded again. The connection with Surface Command adds another useful layer. Newly discovered external assets can be surfaced for application testing, helping teams close the gap between finding an application and understanding the risk it presents DAST plays a core role within Exposure Command: providing the application-
-```
-
-#### Corroborating sources (1)
-
-- **Rapid7** (offensive_vulnerability_research)
-  - Title: How dynamic application security testing validates risk at runtime
-  - Published: 2026-09-23T13:49:39+00:00
-  - Link: https://www.rapid7.com/blog/post/em-dynamic-application-security-testing-dast-validates-risk-at-runtime-idc-marketscape
-  - Summary: Security teams already have long queues of potential application vulnerabilities. The useful question is what happens next: can they see how a weakness behaves in a running application, reproduce the attack, and give developers enough evidence to fix it? Dynamic application security testing (DAST) helps answer those questions by testing applications as an attacker encounters them. The IDC MarketScape: Worldwide Dynamic Application Security Testing 2026 Vendor Assessment (Doc #US54119126, September 2026). The IDC MarketScape evaluated 16 vendors and named Rapid7 a Leader. We believe the result reflects the strength of Rapid7’s DAST capabilities, but the IDC MarketScape also offers a useful view of where the category is heading. DAST has developed beyond traditional web scanning into a source of runtime evidence that can help organizations validate risk across the application layer. From possible weakness to validated application risk Code analysis and dependency scanning help teams iden
-
 ### Cluster 8ef92ff806 — score 10
 
 - Title: Don't let TEEs break your MPC
@@ -3157,6 +3223,45 @@ Page content Threshold signature schemes, a form of multi-party computation (MPC
   - Published: 2026-09-25T11:00:00+00:00
   - Link: https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/
   - Summary: Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manufacturer and its attestation infrastructure. But subtle issues can arise when running an MPC protocol inside a TEE without accounting for the untrusted host: for example, a malicious host could roll back the filesystem state after a threshold signer deletes a used pre-signature, causing the signer to reuse their nonce share and disclose their private key share. So is this combination worth it? Provided you treat the TEE as a defense-in-depth layer rather than a substitute for a sound protocol, the answer is yes. This blog post discusses what TEE attestation can and can’t fix in MPC deployments
+
+### Cluster 3494226aac — score 10
+
+- Title: How dynamic application security testing validates risk at runtime
+- Source: Rapid7 (offensive_vulnerability_research)
+- Published: 2026-09-23T13:49:39+00:00
+- Link: https://www.rapid7.com/blog/post/em-dynamic-application-security-testing-dast-validates-risk-at-runtime-idc-marketscape
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Security teams already have long queues of potential application vulnerabilities. The useful question is what happens next: can they see how a weakness behaves in a running application, reproduce the attack, and give developers enough evidence to fix it? Dynamic application security testing (DAST) helps answer those questions by testing applications as an attacker encounters them. The IDC MarketScape: Worldwide Dynamic Application Security Testing 2026 Vendor Assessment (Doc #US54119126, September 2026). The IDC MarketScape evaluated 16 vendors and named Rapid7 a Leader. We believe the result reflects the strength of Rapid7’s DAST capabilities, but the IDC MarketScape also offers a useful view of where the category is heading. DAST has developed beyond traditional web scanning into a source of runtime evidence that can help organizations validate risk across the application layer. From possible weakness to validated application risk Code analysis and dependency scanning help teams iden
+```
+
+#### Full body
+
+```
+Exposure Command How dynamic application security testing validates risk at runtime Rapid7 Sep 23, 2026 | Last updated on Sep 23, 2026 | 3 min read DISCOVER EXPOSURE COMMAND How dynamic application security testing validates risk at runtime Table of contents How dynamic application security testing validates risk at runtime DISCOVER EXPOSURE COMMAND Table of contents Security teams already have long queues of potential application vulnerabilities. The useful question is what happens next: can they see how a weakness behaves in a running application, reproduce the attack, and give developers enough evidence to fix it? Dynamic application security testing (DAST) helps answer those questions by testing applications as an attacker encounters them. The IDC MarketScape: Worldwide Dynamic Application Security Testing 2026 Vendor Assessment (Doc #US54119126, September 2026). The IDC MarketScape evaluated 16 vendors and named Rapid7 a Leader. We believe the result reflects the strength of Rapid7’s DAST capabilities, but the IDC MarketScape also offers a useful view of where the category is heading. DAST has developed beyond traditional web scanning into a source of runtime evidence that can help organizations validate risk across the application layer. From possible weakness to validated application risk Code analysis and dependency scanning help teams identify weaknesses before an application is deployed. DAST provides a different view by interacting with the assembled application while it is running. It can show what happens when a particular request reaches the application, how the application responds, and whether a suspected weakness can be reproduced. This is especially valuable for APIs and AI-backed applications, where risk may emerge through interactions among models, prompts, data, tools, and permissions. Some of these behaviors cannot be fully understood from source code or a dependency manifest. They become visible when the application is exercised under runtime conditions. DAST therefore has a direct role in continuous threat exposure management (CTEM). Discovery gives teams a view of their assets and possible weaknesses, but that view alone does not tell them where to focus. Validation helps narrow the field by showing which exposures can be reached or exploited and providing evidence that teams can use to take action. For Rapid7, DAST is exposure management applied to the application layer. Web applications, APIs, and AI-backed endpoints are all part of the attack surface, so they need to be discovered, tested, prioritized, and managed alongside infrastructure, cloud, and other exposures. Why we believe Rapid7 was named a Leader by IDC Rapid7’s DAST solution is delivered as part of the Exposure Command portfolio. Its scan engine maps an application, executes attacks against the discovered paths, and validates confirmed findings. Security teams can map a broad area of an application while limiting active attacks to an appropriate set of paths, giving them control over how testing is performed. Findings are checked against Rapid7 telemetry to help determine which issues warrant closer attention. When a finding needs action, browser-based replay reproduces the original request, the attack request, and the triggering response. Developers receive evidence they can work with, rather than a finding they must first spend time proving. Authenticated scanning can be difficult to maintain across a changing application portfolio, and a broken login sequence can leave important areas untested. Rapid7’s solution can identify the affected step and support a targeted update without requiring the entire sequence to be recorded again. The connection with Surface Command adds another useful layer. Newly discovered external assets can be surfaced for application testing, helping teams close the gap between finding an application and understanding the risk it presents DAST plays a core role within Exposure Command: providing the application-
+```
+
+#### Corroborating sources (1)
+
+- **Rapid7** (offensive_vulnerability_research)
+  - Title: How dynamic application security testing validates risk at runtime
+  - Published: 2026-09-23T13:49:39+00:00
+  - Link: https://www.rapid7.com/blog/post/em-dynamic-application-security-testing-dast-validates-risk-at-runtime-idc-marketscape
+  - Summary: Security teams already have long queues of potential application vulnerabilities. The useful question is what happens next: can they see how a weakness behaves in a running application, reproduce the attack, and give developers enough evidence to fix it? Dynamic application security testing (DAST) helps answer those questions by testing applications as an attacker encounters them. The IDC MarketScape: Worldwide Dynamic Application Security Testing 2026 Vendor Assessment (Doc #US54119126, September 2026). The IDC MarketScape evaluated 16 vendors and named Rapid7 a Leader. We believe the result reflects the strength of Rapid7’s DAST capabilities, but the IDC MarketScape also offers a useful view of where the category is heading. DAST has developed beyond traditional web scanning into a source of runtime evidence that can help organizations validate risk across the application layer. From possible weakness to validated application risk Code analysis and dependency scanning help teams iden
 
 ### Cluster 584fee88ac — score 10
 
@@ -3204,103 +3309,6 @@ SecurityWeek’s weekly cybersecurity news roundup offers a concise overview of 
   - Published: 2026-09-25T15:07:31+00:00
   - Link: https://www.securityweek.com/in-other-news-clop-leak-site-takeover-docker-botnet-hunts-ai-keys-water-utility-exposure/
   - Summary: Noteworthy stories that might have slipped under the radar: BragJack attack against browser AI assistants, TDengine flaw threatens industrial telemetry uptime, Ubuntu update overhaul. The post In Other News: Clop Leak Site Takeover, Docker Botnet Hunts AI Keys, Water Utility Exposure appeared first on SecurityWeek .
-
-### Cluster 793f25a293 — score 10
-
-- Title: Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-09-24T18:10:18+00:00
-- Link: https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: Android
-
-#### Cluster taxonomy (union across members)
-- threat_categories: vulnerability_disclosure
-- affected_industries: financial_services, legal_professional
-- affected_products: Android
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: vulnerability_disclosure
-- affected_industries: legal_professional
-- affected_products: Android
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats, chained two flaws in OnePlus's own software to gain root access, the highest level of control over an Android phone. OnePlus told him the same flaws affect many more of its own devices and those of OPPO, though it has not
-```
-
-#### Full body
-
-```
-Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions  Swati Khandelwal  Sep 24, 2026 Vulnerability / Mobile Security A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats, chained two flaws in OnePlus's own software to gain root access, the highest level of control over an Android phone. OnePlus told him the same flaws affect many more of its own devices and those of OPPO, though it has not said which. OnePlus confirmed both flaws in May. In the same reply, the company told Moorats that it alone decides when to make a flaw public and warned that publishing without its permission could result in legal liability. He published on September 24 anyway, when OnePlus had released no fix. OnePlus set out its position in the reply, which Moorats published in full . It said a fix was scheduled, but claimed "the exclusive final right of vulnerability disclosure," and told him that even after a fix ships, researchers may not publish full technical details on their own. The company argued that European cybersecurity rules require makers to accept and fix reports but do not allow researchers to disclose them without the maker's consent. It warned that if he published without permission, OnePlus would "pursue relevant legal liabilities in accordance with applicable laws." How the Attack Works Moorats found the first flaw in a OnePlus service called AtlasService , which gathers debugging data, runs as root, and accepts calls from any app without checking who is calling. A crafted call reaches a OnePlus debugging tool that takes the app's text and drops it, unchecked, into a system command. That hands the app root, but only within a restricted system zone called dumpstate, which cannot do everything root normally can. The second flaw finishes the job. OnePlus ships another service, a hardware helper called olc2, with a command that executes any shell instruction it receives. Its only guard is that the caller must already be root, which the first flaw provides. This time, the command runs in a zone that grants all low-level Linux privileges, including the ability to load kernel code, giving the app control of the device at the system level. Who Is Affected, and What You Can Do The attack is local. A malicious app has to be installed and running on the phone first, so it cannot be launched over the internet. But once it is there, the app needs no permissions and shows the user no prompt, and it worked on a stock phone Moorats had not modified. There is no evidence that anyone has used the flaws in a real attack. Moorats also confirmed the attack on an older OnePlus 12 Pro, and he expects the same problem across OxygenOS 16 in general. OnePlus and OPPO build their phones on shared software, which is why OnePlus's warning covered both. As of Moorats's disclosure, OnePlus had assigned no CVE and released no fix, and no OnePlus advisory naming the flaws could be found. Until a fix ships, the one practical defense is the thing the attack needs to get started: install apps only from sources you trust, because it cannot run without a malicious app on the phone. By Moorats's account, the disclosure ran over about five months: April 18, 2026: reported both flaws to OnePlus. May 20: OnePlus confirmed them, claimed sole control over disclosure, and warned of legal liability if he published. June 22: OnePlus gave an update on its fix and asked him to hold off, and he agreed not to publish before September 17. July 20 and September 11: he asked for updates and received no reply. September 24: he published. Separately, this is not the only recent case of an installed app reaching root on flagship Android phones. In August, Lukas Maar, a researcher at the security firm Calif, showed a different technique that took a no-permission app to root locked phones running the latest firmware from Samsung, Xiaomi, OPPO, OnePlus, an
-```
-
-#### Corroborating sources (2)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions
-  - Published: 2026-09-24T18:10:18+00:00
-  - Link: https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html
-  - Summary: A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats, chained two flaws in OnePlus's own software to gain root access, the highest level of control over an Android phone. OnePlus told him the same flaws affect many more of its own devices and those of OPPO, though it has not
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: RemControl Banking Trojan Gives Attackers Remote Control of Android Devices
-  - Published: 2026-09-25T09:30:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/banking-trojan-remote-control/
-  - Summary: The newly-discovered trojan abuses the Android Accessibility Service to gain control over victim devices and collect sensitive banking credentials
-
-### Cluster df5a100cb0 — score 10
-
-- Title: Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-09-22T18:29:39+00:00
-- Link: https://thehackernews.com/2026/09/check-point-warns-of-management-server.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-93616
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- cve_ids: CVE-2026-85102, CVE-2026-85103, CVE-2026-91843, CVE-2026-93616
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- cve_ids: CVE-2026-93616, CVE-2026-85102, CVE-2026-91843, CVE-2026-85103
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23, the company said. The flaw, CVE-2026-93616, allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point
-```
-
-#### Full body
-
-```
-Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks  Swati Khandelwal  Sep 22, 2026 Network Security / Vulnerability Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23, the company said . The flaw, CVE-2026-93616 , allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point gateways it manages. Separately, Check Point said attackers have been trying since September 12 to exploit a VPN flaw it fixed on September 9 . The attempts, against a flaw tracked as CVE-2026-85102, have targeted customers of Spark, Check Point's firewall line for small businesses. When the fix came out, Check Point had no evidence the flaw was being exploited. CVE-2026-93616 is a path traversal bug in the management server's web service. The service does not properly limit which files and folders a request can reach. An attacker can use it to upload scripts to the server and then run them. Check Point rated it 9.8 out of 10 on the CVSS scale in the CVE record for the flaw. Check Point's advisory does not name the targets of the July attacks or the attackers, nor does it say what the attackers did after exploiting the flaw. Management Server Versions and Fix Check Point numbers the Jumbo Hotfix updates for each release by "Take." Its LivePatch channel, which pushes urgent fixes, uses a separate set of take numbers. The CVE record lists these versions as affected: R82.20 with no Jumbo Hotfix installed R82.10 with Jumbo Hotfix Take 44 or below R82 with Jumbo Hotfix Take 126 or below R81.20 with Jumbo Hotfix Take 166 or below R81.10 with Jumbo Hotfix Take 190 or below (end of support) R81, R80.40, R80.30, R80.20, R80.10 and R80 (all end of support) Check Point's advisory lists R82.20 as affected without the "no Jumbo Hotfix" condition. On September 16, Check Point fixed a separate flaw in the management server , CVE-2026-91843, through LivePatch. That update was LivePatch Take 28, or Take 29 on R82.20, according to a summary of Check Point's advisory by France's CERT Santé . Check Point says those LivePatch takes do not fix CVE-2026-93616. CVE-2026-85103, a VPN certificate flaw that Check Point fixed on September 9, affected both gateways and management servers. On R82.10, R82, and R81.20, the new flaw's affected list goes one take higher than that flaw's. So a server updated only enough to be outside that September flaw's range is still affected by CVE-2026-93616. The fixed builds, and Check Point's guidance on mitigation, hunting and indicators of compromise, are in support article sk1000171 . Administrators of management servers should: Check the server's release and Jumbo Hotfix take against the list above. Install the fix listed in sk1000171. Use the hunting guidance and indicators of compromise in sk1000171 to look for signs of an attack. Installing the fix does not show whether the server was attacked before. Check Point's advisory names only Security Management as affected and does not say what network access an attacker needs. The Hacker News has asked Check Point about other affected products, the fixed builds, and the July attacks. Spark Firewalls Targeted Through VPN Flaw CVE-2026-85102 is in the way Check Point gateways check certificates while a VPN connection is being set up. It may let an attacker who has not logged in run code on the gateway. Fixes have been out since September 9 and are in support article sk1000117 . The affected products are Security Gateway and Spark firewalls, whether centrally or locally managed, on R81 and R81.10 (both end of support), R81.10.x, R81.20, R82, R82.00.x and R82.10. The Netherlands' National Cyber Security Centre (NCSC) says the flaw applies when these products use Site-to-Site VPN or Remote Access VPN. Check Point said the attempts came from anonymiz
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks
-  - Published: 2026-09-22T18:29:39+00:00
-  - Link: https://thehackernews.com/2026/09/check-point-warns-of-management-server.html
-  - Summary: Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23, the company said. The flaw, CVE-2026-93616, allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point
 
 ### Cluster b04cf6724c — score 10
 
@@ -3441,6 +3449,103 @@ Will Thomas 5 min read January 21, 2026 Scattered Spider Attacks | Infrastructur
   - Link: https://www.team-cymru.com/post/scattered-spider-attacks-infrastructure-profile
   - Summary: An in-depth analysis of Scattered Spider attacks, detailing the group‚Äôs infrastructure usage and TTPs to help defenders detect and disrupt activity earlier.
 
+### Cluster 793f25a293 — score 10
+
+- Title: Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-09-24T18:10:18+00:00
+- Link: https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: Android
+
+#### Cluster taxonomy (union across members)
+- threat_categories: vulnerability_disclosure
+- affected_industries: financial_services, legal_professional
+- affected_products: Android
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: vulnerability_disclosure
+- affected_industries: legal_professional
+- affected_products: Android
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats, chained two flaws in OnePlus's own software to gain root access, the highest level of control over an Android phone. OnePlus told him the same flaws affect many more of its own devices and those of OPPO, though it has not
+```
+
+#### Full body
+
+```
+Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions  Swati Khandelwal  Sep 24, 2026 Vulnerability / Mobile Security A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats, chained two flaws in OnePlus's own software to gain root access, the highest level of control over an Android phone. OnePlus told him the same flaws affect many more of its own devices and those of OPPO, though it has not said which. OnePlus confirmed both flaws in May. In the same reply, the company told Moorats that it alone decides when to make a flaw public and warned that publishing without its permission could result in legal liability. He published on September 24 anyway, when OnePlus had released no fix. OnePlus set out its position in the reply, which Moorats published in full . It said a fix was scheduled, but claimed "the exclusive final right of vulnerability disclosure," and told him that even after a fix ships, researchers may not publish full technical details on their own. The company argued that European cybersecurity rules require makers to accept and fix reports but do not allow researchers to disclose them without the maker's consent. It warned that if he published without permission, OnePlus would "pursue relevant legal liabilities in accordance with applicable laws." How the Attack Works Moorats found the first flaw in a OnePlus service called AtlasService , which gathers debugging data, runs as root, and accepts calls from any app without checking who is calling. A crafted call reaches a OnePlus debugging tool that takes the app's text and drops it, unchecked, into a system command. That hands the app root, but only within a restricted system zone called dumpstate, which cannot do everything root normally can. The second flaw finishes the job. OnePlus ships another service, a hardware helper called olc2, with a command that executes any shell instruction it receives. Its only guard is that the caller must already be root, which the first flaw provides. This time, the command runs in a zone that grants all low-level Linux privileges, including the ability to load kernel code, giving the app control of the device at the system level. Who Is Affected, and What You Can Do The attack is local. A malicious app has to be installed and running on the phone first, so it cannot be launched over the internet. But once it is there, the app needs no permissions and shows the user no prompt, and it worked on a stock phone Moorats had not modified. There is no evidence that anyone has used the flaws in a real attack. Moorats also confirmed the attack on an older OnePlus 12 Pro, and he expects the same problem across OxygenOS 16 in general. OnePlus and OPPO build their phones on shared software, which is why OnePlus's warning covered both. As of Moorats's disclosure, OnePlus had assigned no CVE and released no fix, and no OnePlus advisory naming the flaws could be found. Until a fix ships, the one practical defense is the thing the attack needs to get started: install apps only from sources you trust, because it cannot run without a malicious app on the phone. By Moorats's account, the disclosure ran over about five months: April 18, 2026: reported both flaws to OnePlus. May 20: OnePlus confirmed them, claimed sole control over disclosure, and warned of legal liability if he published. June 22: OnePlus gave an update on its fix and asked him to hold off, and he agreed not to publish before September 17. July 20 and September 11: he asked for updates and received no reply. September 24: he published. Separately, this is not the only recent case of an installed app reaching root on flagship Android phones. In August, Lukas Maar, a researcher at the security firm Calif, showed a different technique that took a no-permission app to root locked phones running the latest firmware from Samsung, Xiaomi, OPPO, OnePlus, an
+```
+
+#### Corroborating sources (2)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions
+  - Published: 2026-09-24T18:10:18+00:00
+  - Link: https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html
+  - Summary: A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats, chained two flaws in OnePlus's own software to gain root access, the highest level of control over an Android phone. OnePlus told him the same flaws affect many more of its own devices and those of OPPO, though it has not
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: RemControl Banking Trojan Gives Attackers Remote Control of Android Devices
+  - Published: 2026-09-25T09:30:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/banking-trojan-remote-control/
+  - Summary: The newly-discovered trojan abuses the Android Accessibility Service to gain control over victim devices and collect sensitive banking credentials
+
+### Cluster df5a100cb0 — score 10
+
+- Title: Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-09-22T18:29:39+00:00
+- Link: https://thehackernews.com/2026/09/check-point-warns-of-management-server.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-93616
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- cve_ids: CVE-2026-85102, CVE-2026-85103, CVE-2026-91843, CVE-2026-93616
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- cve_ids: CVE-2026-93616, CVE-2026-85102, CVE-2026-91843, CVE-2026-85103
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23, the company said. The flaw, CVE-2026-93616, allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point
+```
+
+#### Full body
+
+```
+Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks  Swati Khandelwal  Sep 22, 2026 Network Security / Vulnerability Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23, the company said . The flaw, CVE-2026-93616 , allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point gateways it manages. Separately, Check Point said attackers have been trying since September 12 to exploit a VPN flaw it fixed on September 9 . The attempts, against a flaw tracked as CVE-2026-85102, have targeted customers of Spark, Check Point's firewall line for small businesses. When the fix came out, Check Point had no evidence the flaw was being exploited. CVE-2026-93616 is a path traversal bug in the management server's web service. The service does not properly limit which files and folders a request can reach. An attacker can use it to upload scripts to the server and then run them. Check Point rated it 9.8 out of 10 on the CVSS scale in the CVE record for the flaw. Check Point's advisory does not name the targets of the July attacks or the attackers, nor does it say what the attackers did after exploiting the flaw. Management Server Versions and Fix Check Point numbers the Jumbo Hotfix updates for each release by "Take." Its LivePatch channel, which pushes urgent fixes, uses a separate set of take numbers. The CVE record lists these versions as affected: R82.20 with no Jumbo Hotfix installed R82.10 with Jumbo Hotfix Take 44 or below R82 with Jumbo Hotfix Take 126 or below R81.20 with Jumbo Hotfix Take 166 or below R81.10 with Jumbo Hotfix Take 190 or below (end of support) R81, R80.40, R80.30, R80.20, R80.10 and R80 (all end of support) Check Point's advisory lists R82.20 as affected without the "no Jumbo Hotfix" condition. On September 16, Check Point fixed a separate flaw in the management server , CVE-2026-91843, through LivePatch. That update was LivePatch Take 28, or Take 29 on R82.20, according to a summary of Check Point's advisory by France's CERT Santé . Check Point says those LivePatch takes do not fix CVE-2026-93616. CVE-2026-85103, a VPN certificate flaw that Check Point fixed on September 9, affected both gateways and management servers. On R82.10, R82, and R81.20, the new flaw's affected list goes one take higher than that flaw's. So a server updated only enough to be outside that September flaw's range is still affected by CVE-2026-93616. The fixed builds, and Check Point's guidance on mitigation, hunting and indicators of compromise, are in support article sk1000171 . Administrators of management servers should: Check the server's release and Jumbo Hotfix take against the list above. Install the fix listed in sk1000171. Use the hunting guidance and indicators of compromise in sk1000171 to look for signs of an attack. Installing the fix does not show whether the server was attacked before. Check Point's advisory names only Security Management as affected and does not say what network access an attacker needs. The Hacker News has asked Check Point about other affected products, the fixed builds, and the July attacks. Spark Firewalls Targeted Through VPN Flaw CVE-2026-85102 is in the way Check Point gateways check certificates while a VPN connection is being set up. It may let an attacker who has not logged in run code on the gateway. Fixes have been out since September 9 and are in support article sk1000117 . The affected products are Security Gateway and Spark firewalls, whether centrally or locally managed, on R81 and R81.10 (both end of support), R81.10.x, R81.20, R82, R82.00.x and R82.10. The Netherlands' National Cyber Security Centre (NCSC) says the flaw applies when these products use Site-to-Site VPN or Remote Access VPN. Check Point said the attempts came from anonymiz
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks
+  - Published: 2026-09-22T18:29:39+00:00
+  - Link: https://thehackernews.com/2026/09/check-point-warns-of-management-server.html
+  - Summary: Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23, the company said. The flaw, CVE-2026-93616, allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point
+
 ### Cluster 3e44424588 — score 10
 
 - Title: Rogue RMM Abuse: How Attackers Exploit Remote Access Tools
@@ -3495,7 +3600,7 @@ Home Blog The Rogue RMM Stack: One Phish, Multiple Persistence Paths Published: 
 - Source: NCSC UK (government_authoritative)
 - Published: 2026-09-21T12:00:00+00:00
 - Link: https://www.ncsc.gov.uk/blogs/one-does-not-simply-defend-agentically
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -3514,12 +3619,6 @@ Home Blog The Rogue RMM Stack: One Phish, Multiple Persistence Paths Published: 
 Defenders can’t use AI in the same way attackers can, but there’s much they can do to unlock the potential of agentic cyber defence.
 ```
 
-#### Full body
-
-```
-Blog Post Download & print article PDF Download & print article PDF One does not simply defend agentically Defenders can’t use AI in the same way attackers can, but there’s much they can do to unlock the potential of agentic cyber defence. Dave Chismon agung fatria via Getty Images One of my favourite cyber security maxims is Halvar Flake’s observation that “All offensive problems are technical problems, and all defensive problems are political problems”. For an attacker conducting offensive cyber actions, the problems that need to be solved are largely technical. They might be: ‘ Do I have an exploit for this vulnerability? ’ or ‘ How do I avoid detection? ’ Whilst defenders also have technical challenges, they mostly wrestle with what Halvar describes as ‘political’ problems (which for the purposes of this discussion can be framed as organisational problems). Problems such as: ‘Can we get budget to replace this end-of-life system or invest in a more secure option?’ ‘How do I get IT operations to make time for patching?’ ‘How do we get a change request to put in firewall rules approved?’ In other words, defenders are most restricted by their organisational policies, whilst most attackers are restricted by technical hurdles. The reason for this difference becomes clear when you compare the core purposes of attackers and defenders. For attackers, their core purpose is ‘to conduct cyber offence’ and success will cause their employer to profit. Whether that’s stealing money from organisations, extorting victims, or exfiltrating information. Cyber offence is their raison d'être . For the defenders, their mission is to help their organisation avoid loss. Their employer’s mission isn’t cyber defence; it will depend upon whatever activity that organisation does (such as developing products, treating patients, or providing digital services). Cyber defence is effectively ‘a cost of doing business’, one of many priorities that the organisation has to manage. This means the cost of cyber defence has to be rigorously assessed to make sure it does not harm the organisation’s competing priorities: ‘Could that money earmarked to replace the end-of-life system be better used on marketing?’ ‘Will that patch take down the VPN?’ ‘How sure are we that the firewall rule will not break a business function that relies on that connectivity?’ Some board members may see little difference between a DoS attack taking down the organisation’s IT, or a poorly implemented action by the cyber defence team that does the same thing. Except that the board can’t shout at an attacker over the phone … Agentic tooling can be used for cyber offence , because AI is good at helping with technical problems with a clearly measurable success state. Offensive problems are mostly technical, and usually have a clear success state (the target program crashes, your malware calls home). But defensive problems , as we’ve established above, are not mostly technical. Nor do they always have a clear success state. Using AI automation for defence therefore quickly becomes a matter of organisational politics, and someone needs to be responsible for the action taken. Defenders simply cannot put AI to work in the same way attackers can. This is an inconvenient truth, as it suggests that the threat from AI-enabled cyber attacks will grow, whilst autonomous / agentic cyber defence might struggle to keep up unless we approach things differently. How can defenders make better use of AI? Rather than trying to mimic attackers’ use of agentic tooling (and risk breaking things), defenders need to solve the problem by explicitly considering the constraints. I am biased, but I think the work on Autonomous Cyber Defence by CETAS – commissioned by the NCSC – is excellent. It identified early that defenders have different levels of appetite for where they would apply AI. But how can we break the problem down further to make it tractable? To start with, let’s examine the technical defensive tasks an
-```
-
 #### Corroborating sources (1)
 
 - **NCSC UK** (government_authoritative)
@@ -3534,7 +3633,7 @@ Blog Post Download & print article PDF Download & print article PDF One does not
 - Source: SANS Internet Storm Center (government_authoritative)
 - Published: 2026-09-25T12:45:19+00:00
 - Link: https://isc.sans.edu/diary/rss/33368
-- Fetch status: fetch_failed:HTTPError
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -3629,39 +3728,6 @@ At the end of August, a malspam message was caught in the quarantine of a mail g
   - Link: https://isc.sans.edu/diary/rss/33348
   - Summary: At the end of August, a malspam message was caught in the quarantine of a mail gateway operated by one of my customers. The message was not especially remarkable â€“ it asked the recipient to review some attached requirements and provide a price quotation for a fiber optic system and appeared to impersonate an employee of a legitimate company.
 
-### Cluster cc469a2a02 — score 9
-
-- Title: TerminalFix: PNG Steganography, (Mon, Sep 21st)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-09-21T10:33:53+00:00
-- Link: https://isc.sans.edu/diary/rss/33318
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-Microsoft Security Research published an interesting blog post " TerminalFix campaign deploys a reverse tunnel through multistage intrusion " about a malware campaign. The aspect that I want to take a closer look at, is the fact that the threat actors used PNG files with steganography. I reached out to the researchers and they kindly shared the IOCs for the PNG files with me.
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: TerminalFix: PNG Steganography, (Mon, Sep 21st)
-  - Published: 2026-09-21T10:33:53+00:00
-  - Link: https://isc.sans.edu/diary/rss/33318
-  - Summary: Microsoft Security Research published an interesting blog post " TerminalFix campaign deploys a reverse tunnel through multistage intrusion " about a malware campaign. The aspect that I want to take a closer look at, is the fact that the threat actors used PNG files with steganography. I reached out to the researchers and they kindly shared the IOCs for the PNG files with me.
-
 ### Cluster ba588269d5 — score 8
 
 - Title: Proofpoint Stops the Attacks Traditional Defenses Miss in the AI Era
@@ -3753,6 +3819,39 @@ Categories: Threat Research Tags: advisory, Kiteworks
   - Published: 2026-09-25T00:00:00+00:00
   - Link: https://www.sophos.com/en-us/blog/kiteworks-recommends-server-shutdown-pending-possible-attack
   - Summary: Categories: Threat Research Tags: advisory, Kiteworks
+
+### Cluster 90b084cdf5 — score 8
+
+- Title: AI adoption is a security survival metric
+- Source: Sysdig (detection_response_operations)
+- Published: 2026-09-25T00:00:00+00:00
+- Link: https://webflow.sysdig.com/blog/ai-adoption-is-a-security-survival-metric
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+AI is moving from experiment to infrastructure. Sysdig research shows more organizations building their own infrastructure, reducing the AI attack surface.
+```
+
+#### Corroborating sources (1)
+
+- **Sysdig** (detection_response_operations)
+  - Title: AI adoption is a security survival metric
+  - Published: 2026-09-25T00:00:00+00:00
+  - Link: https://webflow.sysdig.com/blog/ai-adoption-is-a-security-survival-metric
+  - Summary: AI is moving from experiment to infrastructure. Sysdig research shows more organizations building their own infrastructure, reducing the AI attack surface.
 
 ### Cluster 313eff8055 — score 8
 
@@ -3889,39 +3988,6 @@ Huntress analysts reconstructed a three-week INC ransomware attack from endpoint
   - Published: 2026-09-21T13:00:00+00:00
   - Link: https://www.huntress.com/blog/two-inc-ransom-notes
   - Summary: Huntress analysts reconstructed a three-week INC ransomware attack from endpoint data, uncovering a 17-day lull despite missing process telemetry.
-
-### Cluster 90b084cdf5 — score 8
-
-- Title: AI adoption is a security survival metric
-- Source: Sysdig (detection_response_operations)
-- Published: 2026-09-25T00:00:00+00:00
-- Link: https://webflow.sysdig.com/blog/ai-adoption-is-a-security-survival-metric
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-AI is moving from experiment to infrastructure. Sysdig research shows more organizations building their own infrastructure, reducing the AI attack surface.
-```
-
-#### Corroborating sources (1)
-
-- **Sysdig** (detection_response_operations)
-  - Title: AI adoption is a security survival metric
-  - Published: 2026-09-25T00:00:00+00:00
-  - Link: https://webflow.sysdig.com/blog/ai-adoption-is-a-security-survival-metric
-  - Summary: AI is moving from experiment to infrastructure. Sysdig research shows more organizations building their own infrastructure, reducing the AI attack surface.
 
 ### Cluster 01df98b2e6 — score 8
 

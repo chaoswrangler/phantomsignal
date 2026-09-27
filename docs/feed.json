@@ -1,11 +1,18 @@
 {
-  "generated_at": "2026-09-27T13:47:03.799951+00:00",
+  "generated_at": "2026-09-27T18:13:41.352313+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2198,
   "feed_status": {
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -18,12 +25,12 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
+      "item_count": 25,
+      "in_window_count": 0
     },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
@@ -32,19 +39,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
+      "in_window_count": 5
     },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
@@ -53,15 +60,15 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -74,12 +81,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 10
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -88,20 +95,6 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
-    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
@@ -109,18 +102,11 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 50,
+      "item_count": 100,
       "in_window_count": 4
     },
     "Volexity": {
@@ -130,32 +116,18 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 0
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
       "in_window_count": 0
     },
     "PortSwigger Research": {
@@ -165,19 +137,33 @@
       "item_count": 40,
       "in_window_count": 1
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 78,
       "in_window_count": 0
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "parse_error",
-      "item_count": 0,
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
       "in_window_count": 0
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 4
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -186,12 +172,26 @@
       "item_count": 15,
       "in_window_count": 1
     },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
+    },
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
@@ -214,19 +214,19 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 30,
       "in_window_count": 1
+    },
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -249,20 +249,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 9
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -277,12 +263,26 @@
       "item_count": 100,
       "in_window_count": 3
     },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 9
+    },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
+    },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -291,13 +291,6 @@
       "item_count": 100,
       "in_window_count": 4
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
@@ -305,11 +298,25 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 0
+    },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "OpenSSF Blog": {
@@ -319,12 +326,12 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
       "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -333,12 +340,12 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 20,
+      "in_window_count": 20
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -346,13 +353,6 @@
       "status": "ok",
       "item_count": 5,
       "in_window_count": 5
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 20
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -368,19 +368,19 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
+    },
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
@@ -438,12 +438,12 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 100,
+      "in_window_count": 100
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -466,12 +466,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
@@ -480,8 +480,8 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -489,6 +489,13 @@
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -514,13 +521,6 @@
       "status": "ok",
       "item_count": 25,
       "in_window_count": 23
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 100
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -842,6 +842,48 @@
       ]
     },
     {
+      "label": "Citrix exploitation (2 CVEs)",
+      "anchor_signal": "Citrix",
+      "theme_key": "citrix",
+      "dominant_features": {
+        "threat_categories": [
+          "ddos",
+          "active_exploitation"
+        ],
+        "affected_products": [
+          "Citrix"
+        ],
+        "cve_ids": [
+          "CVE-2026-88771",
+          "CVE-2026-88772"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth",
+          "no_patch_yet"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.7,
+      "shared_strong_signals": [
+        "Citrix"
+      ],
+      "member_cves": [
+        "CVE-2026-88771",
+        "CVE-2026-88772"
+      ],
+      "also_targets": [],
+      "cluster_ids": [
+        "12dbc3c5b0",
+        "b27b9afca9"
+      ],
+      "links": [
+        "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
+        "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/"
+      ]
+    },
+    {
       "label": "WordPress active exploitation",
       "anchor_signal": "WordPress",
       "theme_key": "wordpress",
@@ -965,7 +1007,44 @@
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [],
+      "cves": [
+        {
+          "value": "CVE-2026-88771",
+          "cluster_id": "12dbc3c5b0",
+          "first_source": "The Hacker News",
+          "first_published": "2026-09-27T07:47:57+00:00"
+        },
+        {
+          "value": "CVE-2026-88772",
+          "cluster_id": "12dbc3c5b0",
+          "first_source": "The Hacker News",
+          "first_published": "2026-09-27T07:47:57+00:00"
+        },
+        {
+          "value": "CVE-2026-88773",
+          "cluster_id": "12dbc3c5b0",
+          "first_source": "The Hacker News",
+          "first_published": "2026-09-27T07:47:57+00:00"
+        },
+        {
+          "value": "CVE-2026-88774",
+          "cluster_id": "12dbc3c5b0",
+          "first_source": "The Hacker News",
+          "first_published": "2026-09-27T07:47:57+00:00"
+        },
+        {
+          "value": "CVE-2026-88771",
+          "cluster_id": "b27b9afca9",
+          "first_source": "BleepingComputer",
+          "first_published": "2026-09-27T16:02:37+00:00"
+        },
+        {
+          "value": "CVE-2026-88772",
+          "cluster_id": "b27b9afca9",
+          "first_source": "BleepingComputer",
+          "first_published": "2026-09-27T16:02:37+00:00"
+        }
+      ],
       "actors": [],
       "products": []
     },
@@ -1065,8 +1144,8 @@
         "first_observation": true
       },
       {
-        "cluster_id": "6b592b3549",
-        "pair": "CVE-2025-49113 + ShinyHunters",
+        "cluster_id": "12dbc3c5b0",
+        "pair": "CVE-2026-88771 + Citrix",
         "first_observation": true
       }
     ],
@@ -1191,6 +1270,12 @@
       },
       {
         "axis": "cve_ids",
+        "value": "CVE-2026-19490",
+        "cluster_id": "12dbc3c5b0",
+        "weeks_observed": 6
+      },
+      {
+        "axis": "cve_ids",
         "value": "CVE-2026-59310",
         "cluster_id": "62087c81f0",
         "weeks_observed": 6
@@ -1200,12 +1285,6 @@
         "value": "RansomHub",
         "cluster_id": "fc5c9992d3",
         "weeks_observed": 6
-      },
-      {
-        "axis": "cve_ids",
-        "value": "CVE-2026-19490",
-        "cluster_id": "12dbc3c5b0",
-        "weeks_observed": 5
       },
       {
         "axis": "actor_attribution",
@@ -1269,6 +1348,108 @@
     ]
   },
   "items": [
+    {
+      "source": "BleepingComputer",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+      "published": "2026-09-27T16:02:37+00:00",
+      "summary": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security updates to fix the flaws. [...]",
+      "author": "Lawrence Abrams",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "ddos",
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Citrix"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-88771",
+          "CVE-2026-88772"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth",
+          "no_patch_yet"
+        ],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "Citrix": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 11,
+      "full_body": "Citrix confirms two NetScaler RCE zero-days exploited in attacks By Lawrence Abrams September 27, 2026 12:02 PM 0 Update: Article rewritten with official confirmation from Citrix. Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security updates to fix the flaws. The vulnerabilities are the same zero-days that cybersecurity researchers, IT providers, and national cybersecurity agencies began privately warning organizations about over the weekend. NetScaler appliances are particularly valuable targets because organizations commonly deploy them as Internet-facing edge devices that provide remote access and application delivery services for internal corporate networks. Compromising one of these devices can give attackers an initial foothold at the perimeter of a victim's network and potentially provide a path to internal systems without first compromising an endpoint inside the organization. The first signs of the incident appeared when Citrix administrators began reporting on Reddit that IT suppliers and security teams were privately contacting their organizations and advising them to shut down their NetScaler appliances. \"We got a call from our IT supplier's security team, they couldn't give any details but they advised to shut our Netscalers down immediately,\" one administrator wrote . Other administrators said law enforcement, CERTs, and national cybersecurity agencies had also been contacting organizations about the issue. Cybersecurity firm watchTowr later publicly warned that it was \"rapidly reacting to rumors\" that multiple unpatched Citrix NetScaler remote code execution vulnerabilities were being exploited in the wild after verifying the information with \"authoratitive sources.\" \"We are currently rapidly reacting to rumors that multiple unpatched Citrix NetScaler RCE vulnerabilities are circulating in the wild. While details are scarce, the information is credible,\" watchTowr said . Citrix confirms active exploitation Citrix has now published security bulletin CTX697096 , confirming the vulnerabilities and releasing patches for affected NetScaler ADC and NetScaler Gateway appliances. CVE-2026-88771 is a remote code execution vulnerability caused by improper input validation, allowing an unauthenticated attacker to execute arbitrary commands. It has a severity score of 9.5. Citrix says the flaw affects all NetScaler ADC and NetScaler Gateway deployments, including those using the default configuration, and does not require any additional feature to be enabled. CVE-2026-88772 is a memory overflow vulnerability that can lead to remote code execution or a denial-of-service condition, also with a severity score of 9.5. This vulnerability can be exploited when DTLS is enabled on a NetScaler ADC or NetScaler Gateway. Citrix notes that DTLS is enabled by default on VPN virtual servers. Citrix has confirmed that both flaws have been exploited in attacks against NetScaler devices as zero-days. \"Exploits of CVE-2026-88771 and CVE-2026-88772 on unmitigated NetScaler deployments have been observed,\" Citrix said in the security bulletin . Citrix says the following versions are affected: NetScaler ADC and NetScaler Gateway 14.1 before 14.1-73.37 NetScaler ADC and NetScaler Gateway 13.1 before 13.1-64.23 NetScaler ADC FIPS before 14.1-73.37 FIPS NetScaler ADC FIPS and NDcPP before 13.1-37.279 Secure Private Access Hybrid deployments using NetScaler instances are also affected and must be upgraded to the recommended builds. Citrix says the bulletin only applies to customer-managed NetScaler ADC and NetScaler Gateway appliances. Cloud Software Group is upgrading Citrix-managed cloud services and Citrix-managed Adaptive Authentication. The security bulletin also fixes six other NetScaler vulnerabilities, bringing the total to eight flaws fixed in this update. NCSC warned organizations before disclosu",
+      "fetch_status": "ok"
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "cohort": "government_authoritative",
+      "category": "government_authoritative",
+      "title": "Wireshark 4.6.9 Released, (Sun, Sep 27th)",
+      "link": "https://isc.sans.edu/diary/rss/33372",
+      "published": "2026-09-27T15:04:49+00:00",
+      "summary": "Wireshark release 4.6.9 fixes 19 vulnerabilities and 16 bugs.",
+      "author": "",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_government",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 11,
+      "full_body": "",
+      "fetch_status": "fetch_failed:HTTPError"
+    },
+    {
+      "source": "BleepingComputer",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
+      "link": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+      "published": "2026-09-27T14:13:31+00:00",
+      "summary": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from other customers' containers on the same physical host. [...]",
+      "author": "Bill Toulas",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
     {
       "source": "SecurityWeek",
       "cohort": "cyber_news_breach_reporting",
@@ -1340,12 +1521,12 @@
       "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
       "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
       "published": "2026-09-27T07:47:57+00:00",
-      "summary": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr said on September 26. Citrix has not confirmed the flaws or published a fix. Some administrators say they have taken appliances offline rather than wait for one to be available. NetScaler ADC and",
+      "summary": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of the two affects every deployment on an affected version, including those in the default configuration. The bulletin came a day after security firm watchTowr",
       "author": "info@thehackernews.com (The Hacker News)",
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "zero_day",
+          "ddos",
           "active_exploitation"
         ],
         "actor_attribution": [],
@@ -1355,12 +1536,16 @@
         ],
         "tools_used": [],
         "cve_ids": [
-          "CVE-2026-19490"
+          "CVE-2026-88771",
+          "CVE-2026-88772",
+          "CVE-2026-19490",
+          "CVE-2026-88773",
+          "CVE-2026-88774"
         ],
         "attack_techniques": [],
         "urgency_signals": [
           "actively_exploited",
-          "zero_day",
+          "preauth_unauth",
           "no_patch_yet"
         ],
         "content_type": "news_report",
@@ -1372,8 +1557,8 @@
           "products": []
         }
       },
-      "score": 36,
-      "full_body": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation  Swati Khandelwal  Sep 27, 2026 Vulnerability / Network Security Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr said on September 26. Citrix has not confirmed the flaws or published a fix. Some administrators say they have taken appliances offline rather than wait for one to be available. NetScaler ADC and NetScaler Gateway sit at the edge of enterprise networks, where they handle VPN and remote access, load balancing, and user authentication. The new flaws are not the authentication bypass, CVE-2026-19490 , that Citrix fixed on August 19 and that CISA added to its Known Exploited Vulnerabilities catalog on September 9. watchTowr described the new flaws as unpatched, and a fix for the bypass has existed since August 19. Citrix has not said whether appliances on the August builds, 14.1-73.32 and 13.1-63.21, or any newer builds, are affected by the new flaws. watchTowr's first post on X on September 26 said it was reacting to rumors of several unpatched NetScaler RCE vulnerabilities in the wild. \"While details are scarce, the information is credible,\" it wrote. A follow-up post at 22:19 UTC gave the fuller account: two vulnerabilities, both remote code execution, both unpatched, exploited before any fix existed, discovered during forensic investigations, and Citrix communications and patches expected early in the week of September 28. It directed further questions to Citrix. The firm has published no evidence, named no victim, and has not said whose forensic investigations found the exploitation. In August it showed that a NetScaler heap overflow Citrix had patched in June could be used for remote code execution. Reports of shutdown advice appeared on Reddit the same day. An administrator posting on r/Citrix wrote that their IT supplier's security team had phoned to advise shutting their NetScalers down immediately, without giving details. Others in the thread said their organizations had done the same. The source of the suppliers' warning is not established. With no bulletin, there is no vendor workaround, and no indicators of compromise for the new flaws have been published. Until a fix ships, the decision for anyone running a NetScaler is whether to keep it online, isolate it, or power it off, and whether to treat it as already compromised. Because the exploitation, as watchTowr describes it, happened before any fix existed, installing the fix will not tell an operator whether an attacker got in first. In 2025, after a NetScaler flaw was exploited as a zero-day against Dutch organizations, the Netherlands' National Cyber Security Center said that updating alone did not remove the risk, because an attacker could keep access gained before the patch, and told administrators to run its check scripts. Citrix's existing guidance for a suspected NetScaler compromise says to: Preserve evidence first: a snapshot of a VPX instance, the logs held on remote syslog servers and NetScaler Console, a technical support bundle, and a core dump of the packet engine. Isolate the appliance from the network. Change every service account password and secret stored on it, reset the passwords of users who signed in through it, and revoke its certificates and private keys. Keep the management interface off the internet. \"The NetScaler Management Services should never be exposed to the public internet,\" the guidance says. The Dutch agency's 2025 check scripts, which cover a live appliance, core dumps, and full NetScaler images, are a further option, with limits. The README for the live-appliance script says it looks for files that indicate compromise, is not specific to one vulnerability, and comes with no guarantee of effectiveness. The code was last updated in September 2025. Which versions of NetScaler would receive a f",
+      "score": 25,
+      "full_body": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation  Swati Khandelwal  Sep 27, 2026 Vulnerability / Network Security Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of the two affects every deployment on an affected version, including those in the default configuration. The bulletin came a day after security firm watchTowr said two unpatched NetScaler RCE flaws had been exploited, and after some administrators said they had taken appliances offline. Citrix did not say whether its two flaws are the ones watchTowr described, but they match that account. NetScaler ADC and NetScaler Gateway sit at the edge of enterprise networks, where they handle VPN and remote access, load balancing, and user authentication. Citrix said in its bulletin that the two exploited flaws are: CVE-2026-88771 (CVSS v4 score: 9.5) - An improper input validation flaw that lets an unauthenticated attacker run arbitrary commands. It affects all NetScaler ADC and NetScaler Gateway deployments, with no extra feature required. CVE-2026-88772 (CVSS v4 score: 9.5) - A memory overflow that can lead to remote code execution or denial-of-service (DoS). It affects appliances with DTLS enabled. DTLS is on by default for VPN virtual servers, so a NetScaler Gateway is affected unless DTLS has been explicitly turned off. \"Exploits of CVE-2026-88771 and CVE-2026-88772 on unmitigated NetScaler deployments have been observed,\" the company said. It did not say how widely the flaws have been exploited, by whom, or since when. The bulletin is Citrix's first public notice of the flaws, so both were attacked before a fix was public. It lists no workaround for either and no indicators of compromise. Appliances on 14.1-73.32 and 13.1-63.21, the builds that fixed the exploited authentication bypass CVE-2026-19490 in August, fall inside the affected range and need the new update. The fixes are in the following versions, which Citrix urged affected customers to install as soon as possible: NetScaler ADC and NetScaler Gateway 14.1-73.37 and later releases NetScaler ADC and NetScaler Gateway 13.1-64.23 and later releases of 13.1 NetScaler ADC 14.1-FIPS 14.1-73.37 FIPS and later releases of 14.1-FIPS NetScaler ADC 13.1-FIPS and 13.1-NDcPP 13.1-37.279 and later releases of 13.1-FIPS and 13.1-NDcPP The bulletin covers customer-managed appliances, including NetScaler instances used in Secure Private Access Hybrid deployments. Citrix upgrades its own cloud services and Citrix-managed Adaptive Authentication. The 13.1 fix arrives after that branch reached End of Maintenance on September 15 under Citrix's release schedule . The six other flaws, which the bulletin does not list as exploited, are: CVE-2026-88773 (CVSS v4 score: 9.3) - An HTTP request smuggling flaw, on appliances with load balancing, content switching, VPN, or authentication virtual servers of type HTTP or SSL. CVE-2026-88774 (CVSS v4 score: 7.0) - A policy bypass, on appliances where any policy uses an HTTP URL-based expression. CVE-2026-88775 (CVSS v4 score: 8.8) - A memory overflow that can cause unpredictable behavior or DoS, on appliances configured as a Gateway (SSL VPN, ICA Proxy, CVPN, RDP Proxy) or an authentication, authorization, and auditing (AAA) virtual server. CVE-2026-88776 (CVSS v4 score: 8.8) - A memory overflow that can cause unpredictable behavior or DoS, on load balancing virtual servers of type Oracle. CVE-2026-88777 (CVSS v4 score: 8.8) - A memory overflow that can cause unpredictable behavior or DoS, on load balancing, content switching, or CGNAT-LSN/NAT64 setups with a non-HTTP Layer 7 protocol feature, such as FTP, RTSP, or DNS64, enabled. CVE-2026-88778 (CVSS v4 score: 8.8) - A TCP Initial Sequence Number (ISN) prediction flaw, on appliances with TCP-based virtual servers, such as HTTP, S",
       "fetch_status": "ok"
     },
     {
@@ -1402,7 +1587,7 @@
           "products": []
         }
       },
-      "score": 4
+      "score": 3
     },
     {
       "source": "Reddit r/netsec",
@@ -1526,7 +1711,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "SecurityWeek",
@@ -2647,9 +2832,7 @@
           "products": []
         }
       },
-      "score": 9,
-      "full_body": "",
-      "fetch_status": "fetch_failed:HTTPError"
+      "score": 9
     },
     {
       "source": "SecurityWeek",
@@ -9438,36 +9621,6 @@
       "link": "https://www.ncsc.gov.uk/blogs/one-does-not-simply-defend-agentically",
       "published": "2026-09-21T12:00:00+00:00",
       "summary": "Defenders can’t use AI in the same way attackers can, but there’s much they can do to unlock the potential of agentic cyber defence.",
-      "author": "",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_government",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 9,
-      "full_body": "Blog Post Download & print article PDF Download & print article PDF One does not simply defend agentically Defenders can’t use AI in the same way attackers can, but there’s much they can do to unlock the potential of agentic cyber defence. Dave Chismon agung fatria via Getty Images One of my favourite cyber security maxims is Halvar Flake’s observation that “All offensive problems are technical problems, and all defensive problems are political problems”. For an attacker conducting offensive cyber actions, the problems that need to be solved are largely technical. They might be: ‘ Do I have an exploit for this vulnerability? ’ or ‘ How do I avoid detection? ’ Whilst defenders also have technical challenges, they mostly wrestle with what Halvar describes as ‘political’ problems (which for the purposes of this discussion can be framed as organisational problems). Problems such as: ‘Can we get budget to replace this end-of-life system or invest in a more secure option?’ ‘How do I get IT operations to make time for patching?’ ‘How do we get a change request to put in firewall rules approved?’ In other words, defenders are most restricted by their organisational policies, whilst most attackers are restricted by technical hurdles. The reason for this difference becomes clear when you compare the core purposes of attackers and defenders. For attackers, their core purpose is ‘to conduct cyber offence’ and success will cause their employer to profit. Whether that’s stealing money from organisations, extorting victims, or exfiltrating information. Cyber offence is their raison d'être . For the defenders, their mission is to help their organisation avoid loss. Their employer’s mission isn’t cyber defence; it will depend upon whatever activity that organisation does (such as developing products, treating patients, or providing digital services). Cyber defence is effectively ‘a cost of doing business’, one of many priorities that the organisation has to manage. This means the cost of cyber defence has to be rigorously assessed to make sure it does not harm the organisation’s competing priorities: ‘Could that money earmarked to replace the end-of-life system be better used on marketing?’ ‘Will that patch take down the VPN?’ ‘How sure are we that the firewall rule will not break a business function that relies on that connectivity?’ Some board members may see little difference between a DoS attack taking down the organisation’s IT, or a poorly implemented action by the cyber defence team that does the same thing. Except that the board can’t shout at an attacker over the phone … Agentic tooling can be used for cyber offence , because AI is good at helping with technical problems with a clearly measurable success state. Offensive problems are mostly technical, and usually have a clear success state (the target program crashes, your malware calls home). But defensive problems , as we’ve established above, are not mostly technical. Nor do they always have a clear success state. Using AI automation for defence therefore quickly becomes a matter of organisational politics, and someone needs to be responsible for the action taken. Defenders simply cannot put AI to work in the same way attackers can. This is an inconvenient truth, as it suggests that the threat from AI-enabled cyber attacks will grow, whilst autonomous / agentic cyber defence might struggle to keep up unless we approach things differently. How can defenders make better use of AI? Rather than trying to mimic attackers’ use of agentic tooling (and risk breaking things), defenders need to solve the problem by explicitly considering the constraints. I am biased, but I think the work on Autonomous Cyber Defence by CETAS – commissioned by the NCSC – is excellent. It identified early that defenders have different levels of appetite for where they would apply AI. But how can we break the problem down further to make it tractable? To start with, let’s examine the technical defensive tasks an",
-      "fetch_status": "ok"
-    },
-    {
-      "source": "SANS Internet Storm Center",
-      "cohort": "government_authoritative",
-      "category": "government_authoritative",
-      "title": "TerminalFix: PNG Steganography, (Mon, Sep 21st)",
-      "link": "https://isc.sans.edu/diary/rss/33318",
-      "published": "2026-09-21T10:33:53+00:00",
-      "summary": "Microsoft Security Research published an interesting blog post \" TerminalFix campaign deploys a reverse tunnel through multistage intrusion \" about a malware campaign. The aspect that I want to take a closer look at, is the fact that the threat actors used PNG files with steganography. I reached out to the researchers and they kindly shared the IOCs for the PNG files with me.",
       "author": "",
       "in_window": true,
       "taxonomy": {
@@ -18309,36 +18462,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "H1 2026 Malware Vulnerability Trends",
-      "link": "https://www.recordedfuture.com/research/h1-2026-malware-vulnerability-trends",
-      "published": "2026-09-03T00:00:00+00:00",
-      "summary": "Learn how adversaries abuse trusted tools, AI, and developer environments for cyberattacks. Get actionable insights on ransomware, mobile threats, and supply chain security.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "vulnerability_disclosure",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -18386,6 +18509,36 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "H1 2026 Malware Vulnerability Trends",
+      "link": "https://www.recordedfuture.com/research/h1-2026-malware-vulnerability-trends",
+      "published": "2026-09-03T00:00:00+00:00",
+      "summary": "Learn how adversaries abuse trusted tools, AI, and developer environments for cyberattacks. Get actionable insights on ransomware, mobile threats, and supply chain security.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_1_primary_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -19833,33 +19986,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "The Agentic SOC – From AI Theater to Real Defense",
-      "link": "https://www.recordedfuture.com/blog/agentic-soc-real-defense",
-      "published": "2026-09-01T00:00:00+00:00",
-      "summary": "Experts from Recorded Future and Accenture offer perspectives on navigating the path to becoming an agentic SOC. Find out how to plan moving beyond “AI theater” by prioritizing measurable KPIs, proactively mitigating autonomous security risks, and evolving the analyst’s role from managing alerts to managing agents.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -20017,6 +20143,33 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "The Agentic SOC – From AI Theater to Real Defense",
+      "link": "https://www.recordedfuture.com/blog/agentic-soc-real-defense",
+      "published": "2026-09-01T00:00:00+00:00",
+      "summary": "Experts from Recorded Future and Accenture offer perspectives on navigating the path to becoming an agentic SOC. Find out how to plan moving beyond “AI theater” by prioritizing measurable KPIs, proactively mitigating autonomous security risks, and evolving the analyst’s role from managing alerts to managing agents.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -22491,35 +22644,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense",
-      "link": "https://www.recordedfuture.com/blog/mexico-cybersecurity-plan",
-      "published": "2026-08-25T00:00:00+00:00",
-      "summary": "Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -22542,6 +22666,35 @@
         "urgency_signals": [],
         "content_type": "vulnerability_disclosure",
         "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense",
+      "link": "https://www.recordedfuture.com/blog/mexico-cybersecurity-plan",
+      "published": "2026-08-25T00:00:00+00:00",
+      "summary": "Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -23905,64 +24058,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "PurpleDelta's Fraudulent Employment Operations",
-      "link": "https://www.recordedfuture.com/research/purpledelta-fraudulent-employment-operations",
-      "published": "2026-08-18T00:00:00+00:00",
-      "summary": "Learn how North Korean IT worker threat cluster \"PurpleDelta\" uses AI-generated personas, sophisticated tradecraft, and custom ChatGPT assistants to infiltrate organizations. Discover key indicators of compromise and mitigation strategies to protect your company from these fraudulent employment operations.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [
-          "OpenAI/ChatGPT"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {
-          "OpenAI/ChatGPT": "tool"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "CopyCop Targets AI Investment in Armenia",
-      "link": "https://www.recordedfuture.com/blog/copycop-targets-ai-investment",
-      "published": "2026-08-18T00:00:00+00:00",
-      "summary": "The Russian influence network CopyCop is targeting Western-backed AI and infrastructure projects in Armenia, including the Firebird AI data center, to undermine the country’s westward geopolitical realignment.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -24091,6 +24186,64 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "PurpleDelta's Fraudulent Employment Operations",
+      "link": "https://www.recordedfuture.com/research/purpledelta-fraudulent-employment-operations",
+      "published": "2026-08-18T00:00:00+00:00",
+      "summary": "Learn how North Korean IT worker threat cluster \"PurpleDelta\" uses AI-generated personas, sophisticated tradecraft, and custom ChatGPT assistants to infiltrate organizations. Discover key indicators of compromise and mitigation strategies to protect your company from these fraudulent employment operations.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [
+          "OpenAI/ChatGPT"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {
+          "OpenAI/ChatGPT": "tool"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "CopyCop Targets AI Investment in Armenia",
+      "link": "https://www.recordedfuture.com/blog/copycop-targets-ai-investment",
+      "published": "2026-08-18T00:00:00+00:00",
+      "summary": "The Russian influence network CopyCop is targeting Western-backed AI and infrastructure projects in Armenia, including the Firebird AI data center, to undermine the country’s westward geopolitical realignment.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_1_primary_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -25918,37 +26071,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "Mines, Minds, and Machines: The Journey of AI",
-      "link": "https://www.recordedfuture.com/blog/mines-minds-machines",
-      "published": "2026-08-11T00:00:00+00:00",
-      "summary": "Minerals become chips. Chips become data centers. Data centers become models, and models are acquiring arms and legs. From Earth to Embodied AI traces the supply chain of the fourth industrial revolution, and shows how geopolitical rivalry and cyber operations now run along every link, from mine to machine.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "manufacturing_industrial"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -26135,6 +26257,37 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Mines, Minds, and Machines: The Journey of AI",
+      "link": "https://www.recordedfuture.com/blog/mines-minds-machines",
+      "published": "2026-08-11T00:00:00+00:00",
+      "summary": "Minerals become chips. Chips become data centers. Data centers become models, and models are acquiring arms and legs. From Earth to Embodied AI traces the supply chain of the fourth industrial revolution, and shows how geopolitical rivalry and cyber operations now run along every link, from mine to machine.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -26462,37 +26615,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "The Hugging Face Hack Was Cheap Persistence at Work",
-      "link": "https://www.recordedfuture.com/blog/hugging-face-cheap-persistence",
-      "published": "2026-08-10T00:00:00+00:00",
-      "summary": "The Hugging Face and OpenAI security incident showed AI doesn't make attackers smarter. It makes persistence cheap, and defenses built for alerts can't keep up.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {
-          "OpenAI/ChatGPT": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -26543,6 +26665,37 @@
         "content_type": "low_signal",
         "confidence_tier": "tier_1_offensive_research",
         "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "The Hugging Face Hack Was Cheap Persistence at Work",
+      "link": "https://www.recordedfuture.com/blog/hugging-face-cheap-persistence",
+      "published": "2026-08-10T00:00:00+00:00",
+      "summary": "The Hugging Face and OpenAI security incident showed AI doesn't make attackers smarter. It makes persistence cheap, and defenses built for alerts can't keep up.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "OpenAI/ChatGPT"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {
+          "OpenAI/ChatGPT": "target"
+        },
         "weak_tags": {
           "products": []
         }
