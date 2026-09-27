@@ -6,26 +6,18 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 26 Sep 2026 22:36:46 +0000</lastBuildDate>
+<lastBuildDate>Sun, 27 Sep 2026 01:16:28 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
-<title>Accounts are getting hacked, credit card used, 170+ compromised passwords in Google</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1wr2oms/accounts_are_getting_hacked_credit_card_used_170/</link>
-<description><![CDATA[Is there any way an average-level tech competent person like me can automate changing 170 passwords that are compromised in Google? I&apos;ve just been getting hammered by these people since yesterday. My email was bombarded with subscription emails while they used my stolen credit card info to buy $500 glasses on Scheels and have them shipped somewhere else in my state. Now today they just added their macbook to my Apple account. I&apos;m really confused how this is happening outside of the compromised passwords stored on Google. I have 2FA on a lot of important stuff. I do not have the time to go through and change 170 passwords. Thanks in advance. submitted by /u/ScottsTotz [link] [comments]]]></description>
-<pubDate>Sat, 26 Sep 2026 21:51:36 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1wr2oms/accounts_are_getting_hacked_credit_card_used_170/</guid>
+<title>Building AI Guardrails</title>
+<link>https://www.reddit.com/r/cybersecurity/comments/1wr5i5h/building_ai_guardrails/</link>
+<description><![CDATA[as part of my project , which is creating a platform as a proxy layer that detects LLM vulnerabilities which includes prompt injection and jailbreak on the first phase im gonna add a small model that detects specifically prompt injection and jailbreak , i have picked some models and evaluated them on public datasets (from hugging face) ( i know most of these open source models are fine tuned on these public datasets ) from the results i got that : meta-llama/Llama-Prompt-Guard-2-86M protectai/deberta-v3-base-prompt-injection-v2 are the best ones , more specifically ProtectAI V2 , but reading the model cards of them , it says ProtectAI does not detect jailbreaks, despite the evaluation results indicating otherwise and that ProtectAI only detect English language So should i choose Prompt Guard 2 ? I know this is just the first step , tell me your thoughts on this submitted by /u/WinterSalt158 [link] [comments]<br/><br/><em>Tags: ai_security</em>]]></description>
+<pubDate>Sun, 27 Sep 2026 00:01:39 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1wr5i5h/building_ai_guardrails/</guid>
 <source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
 <category>reddit_practitioner_osint</category>
-</item>
-<item>
-<title>Looking for an independent security firm to review a small SaaS security product before wider launch. Recommendations?</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1wr2mrk/looking_for_an_independent_security_firm_to/</link>
-<description><![CDATA[Small business, about 20 corporate users currently in a private pilot, live billing not yet enabled. There&apos;s no revenue yet to pay one of those big firms thousands of dollars to rubberstamp it, but we have used multiple AI security evaluation tools like Akido in the free tier to cross our t&apos;s and dot our i&apos;s. The SaaS in question is a security-focused platform designed to monitor the lifecycle of credentials, secrets, and other sensitive access information. It helps organizations identify aging, expiring, or potentially unmanaged credentials, maintain visibility into ownership and usage, and reduce the risk of forgotten or long-lived access. The goal is to provide continuous oversight and clear auditability without requiring the actual secret values to be stored in in our tool. So we&apos;re not super worried about breaches, we aren&apos;t a secrets vault and payments are secured by Stripe in a hosted session, and logins are secured by 2FA, so I think we are pretty well covered, just trying to e]]></description>
-<pubDate>Sat, 26 Sep 2026 21:49:11 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1wr2mrk/looking_for_an_independent_security_firm_to/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
+<category>ai_security</category>
 </item>
 <item>
 <title>I’ve been building my own Red Team tooling here’s what I’ve learned so far</title>
@@ -279,6 +271,16 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
+<title>What’s new with Google Cloud</title>
+<link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/</link>
+<description><![CDATA[Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block &lt;ListValue: []&gt; Sept 21 - Sept 25 Master MCP tool authorization and agent governance with Apigee While the Model Context Protocol (MCP) solves interoperability for autonomous AI agents, chained actions like CRM edits or database queries quickly expose systems to unauthorized execution. Join our technical deep dive on Thursday, October 1, 2026, at 5:00 PM CEST featuring Christophe from Google Cloud. Learn how positioning Apigee between MCP clients and enterprise backends enables fine-grained authorization (FGA), complete audit trails, and policy evaluation via emerging standards like OpenID AuthZEN. Language and accessibility note:<br/><br/><em>Tags: Google Cloud</em>]]></description>
+<pubDate>Fri, 25 Sep 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+<category>Google Cloud</category>
+</item>
+<item>
 <title>Unlock 3x QPS and microsecond latency with Memorystore for Valkey 9.1</title>
 <link>https://cloud.google.com/blog/products/databases/memorystore-for-valkey-9-1-3x-qps-caching/</link>
 <description><![CDATA[At Google Cloud, we are committed to delivering the best managed experience backed by open source software. Today, we’re announcing the general availability of Memorystore for Valkey 9.1 , which achieves up to 3x queries per second (QPS) at microsecond latency compared to Memorystore for Redis Cluster. Our support for Valkey dates back to 2024 , when Redis Inc. shifted its licensing away from the permissive open-source BSD license to a dual-license model. In response, Google Cloud, alongside other technology leaders, backed the creation of Valkey, an open-source alternative governed by the Linux Foundation. Valkey has come a remarkably long way since then, delivering major performance and feature updates that push boundaries far beyond the original fork. Valkey is particularly compelling for organizations scaling AI and microservices to handle millions of concurrent users. Here, backend developers and architects must deliver both massive throughput while also maintaining microsecond la<br/><br/><em>Tags: Google Cloud</em>]]></description>
@@ -297,16 +299,6 @@
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
 <category>cloud_identity_infrastructure</category>
 <category>Google/Gemini</category>
-</item>
-<item>
-<title>What’s new with Google Cloud</title>
-<link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/</link>
-<description><![CDATA[Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block &lt;ListValue: []&gt; Sept 21 - Sept 25 Master MCP tool authorization and agent governance with Apigee While the Model Context Protocol (MCP) solves interoperability for autonomous AI agents, chained actions like CRM edits or database queries quickly expose systems to unauthorized execution. Join our technical deep dive on Thursday, October 1, 2026, at 5:00 PM CEST featuring Christophe from Google Cloud. Learn how positioning Apigee between MCP clients and enterprise backends enables fine-grained authorization (FGA), complete audit trails, and policy evaluation via emerging standards like OpenID AuthZEN. Language and accessibility note:<br/><br/><em>Tags: Google Cloud</em>]]></description>
-<pubDate>Fri, 25 Sep 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
-<category>Google Cloud</category>
 </item>
 <item>
 <title>Storm-3168: Agentic-driven cloud attacks using compromised service principals</title>
@@ -2645,6 +2637,15 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
+<title>datasette-explain 0.2.2</title>
+<link>https://simonwillison.net/2026/Sep/20/datasette-explain/</link>
+<description><![CDATA[Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwillison.net to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin. Tags: sqlite , datasette]]></description>
+<pubDate>Sun, 20 Sep 2026 00:22:04 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Sep/20/datasette-explain/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>datasette-auth-github 1.0</title>
 <link>https://simonwillison.net/2026/Sep/19/datasette-auth-github/</link>
 <description><![CDATA[Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren&apos;t lasting very long. It turned out that the plugin was setting cookies without a Max-Age parameter, so they were expiring at the end of a browser session (which in Mobile Safari seems to happen pretty often, independently of how you are using the app.) I fixed that in #80 and, since this plugin has been around for quite a while and is tested against both Datasette 0.65.x and Datasette 1.0ax, I decided to bump it up to a 1.0 release. I&apos;m trying to get better at promoting stable plugins to 1.0. Tags: github , plugins , datasette]]></description>
@@ -3231,15 +3232,6 @@
 <guid isPermaLink="true">https://webflow.sysdig.com/blog/intro-runtime-security-falco</guid>
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>datasette 1.0a40</title>
-<link>https://simonwillison.net/2026/Sep/16/datasette/</link>
-<description><![CDATA[Release: datasette 1.0a40 Same security fix as 0.65.5 , plus some neat new features and bug fixes: Plugins can now launch and manage background tasks using the new datasette.add_background_task() method. Thanks, Alex Garcia . I&apos;ve migrated Datasette to httpx2 for features like the internal datasette.client.get() method. A whole lot of bug fixes , many of them stemming from a recent effort to triage issues for a 1.0 stable release. Tags: security , datasette]]></description>
-<pubDate>Wed, 16 Sep 2026 23:51:43 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Sep/16/datasette/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Smashing Security podcast #485: These researchers got drunk to hack an LG TV</title>
@@ -5420,6 +5412,17 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
+<title>H1 2026 Malware Vulnerability Trends</title>
+<link>https://www.recordedfuture.com/research/h1-2026-malware-vulnerability-trends</link>
+<description><![CDATA[Learn how adversaries abuse trusted tools, AI, and developer environments for cyberattacks. Get actionable insights on ransomware, mobile threats, and supply chain security.<br/><br/><em>Tags: ransomware_extortion · supply_chain</em>]]></description>
+<pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/research/h1-2026-malware-vulnerability-trends</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
+<category>ransomware_extortion</category>
+<category>supply_chain</category>
+</item>
+<item>
 <title>[webapps] FreePBX 17.0.2 - Remote Code Execution (RCE)</title>
 <link>https://www.exploit-db.com/exploits/52681</link>
 <description><![CDATA[FreePBX 17.0.2 - Remote Code Execution (RCE)]]></description>
@@ -5436,17 +5439,6 @@
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52680</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>H1 2026 Malware Vulnerability Trends</title>
-<link>https://www.recordedfuture.com/research/h1-2026-malware-vulnerability-trends</link>
-<description><![CDATA[Learn how adversaries abuse trusted tools, AI, and developer environments for cyberattacks. Get actionable insights on ransomware, mobile threats, and supply chain security.<br/><br/><em>Tags: ransomware_extortion · supply_chain</em>]]></description>
-<pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/research/h1-2026-malware-vulnerability-trends</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
-<category>ransomware_extortion</category>
-<category>supply_chain</category>
 </item>
 <item>
 <title>Smashing Security podcast #483: This AI helps thieves steal your iPhone</title>
@@ -5912,6 +5904,15 @@
 <category>supply_chain</category>
 </item>
 <item>
+<title>The Agentic SOC – From AI Theater to Real Defense</title>
+<link>https://www.recordedfuture.com/blog/agentic-soc-real-defense</link>
+<description><![CDATA[Experts from Recorded Future and Accenture offer perspectives on navigating the path to becoming an agentic SOC. Find out how to plan moving beyond “AI theater” by prioritizing measurable KPIs, proactively mitigating autonomous security risks, and evolving the analyst’s role from managing alerts to managing agents.]]></description>
+<pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/agentic-soc-real-defense</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>[webapps] Wolf CMS 0.8.3.1 - RCE v</title>
 <link>https://www.exploit-db.com/exploits/52672</link>
 <description><![CDATA[Wolf CMS 0.8.3.1 - RCE v]]></description>
@@ -5964,15 +5965,6 @@
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52667</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>The Agentic SOC – From AI Theater to Real Defense</title>
-<link>https://www.recordedfuture.com/blog/agentic-soc-real-defense</link>
-<description><![CDATA[Experts from Recorded Future and Accenture offer perspectives on navigating the path to becoming an agentic SOC. Find out how to plan moving beyond “AI theater” by prioritizing measurable KPIs, proactively mitigating autonomous security risks, and evolving the analyst’s role from managing alerts to managing agents.]]></description>
-<pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/agentic-soc-real-defense</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
 </item>
 <item>
 <title>Ungentlemanly behavior: Insights into a ransomware operation</title>
@@ -6797,16 +6789,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>[remote] CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE</title>
-<link>https://www.exploit-db.com/exploits/52658</link>
-<description><![CDATA[CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE<br/><br/><em>Tags: CVE-2026-42167</em>]]></description>
-<pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52658</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2026-42167</category>
-</item>
-<item>
 <title>Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense</title>
 <link>https://www.recordedfuture.com/blog/mexico-cybersecurity-plan</link>
 <description><![CDATA[Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -6815,6 +6797,16 @@
 <source url="https://www.recordedfuture.com/feed">Recorded Future</source>
 <category>threat_research_primary</category>
 <category>ransomware_extortion</category>
+</item>
+<item>
+<title>[remote] CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE</title>
+<link>https://www.exploit-db.com/exploits/52658</link>
+<description><![CDATA[CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE<br/><br/><em>Tags: CVE-2026-42167</em>]]></description>
+<pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52658</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+<category>CVE-2026-42167</category>
 </item>
 <item>
 <title>Inside Elastic&apos;s agentic SOC: How we took AI alert triage from 60% to 92% accuracy</title>
@@ -7266,6 +7258,24 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
+<title>PurpleDelta&apos;s Fraudulent Employment Operations</title>
+<link>https://www.recordedfuture.com/research/purpledelta-fraudulent-employment-operations</link>
+<description><![CDATA[Learn how North Korean IT worker threat cluster &quot;PurpleDelta&quot; uses AI-generated personas, sophisticated tradecraft, and custom ChatGPT assistants to infiltrate organizations. Discover key indicators of compromise and mitigation strategies to protect your company from these fraudulent employment operations.]]></description>
+<pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/research/purpledelta-fraudulent-employment-operations</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
+</item>
+<item>
+<title>CopyCop Targets AI Investment in Armenia</title>
+<link>https://www.recordedfuture.com/blog/copycop-targets-ai-investment</link>
+<description><![CDATA[The Russian influence network CopyCop is targeting Western-backed AI and infrastructure projects in Armenia, including the Firebird AI data center, to undermine the country’s westward geopolitical realignment.]]></description>
+<pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/copycop-targets-ai-investment</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>[remote] PCMan 2.0.7 - Buffer Overflow</title>
 <link>https://www.exploit-db.com/exploits/52657</link>
 <description><![CDATA[PCMan 2.0.7 - Buffer Overflow]]></description>
@@ -7309,24 +7319,6 @@
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52653</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>PurpleDelta&apos;s Fraudulent Employment Operations</title>
-<link>https://www.recordedfuture.com/research/purpledelta-fraudulent-employment-operations</link>
-<description><![CDATA[Learn how North Korean IT worker threat cluster &quot;PurpleDelta&quot; uses AI-generated personas, sophisticated tradecraft, and custom ChatGPT assistants to infiltrate organizations. Discover key indicators of compromise and mitigation strategies to protect your company from these fraudulent employment operations.]]></description>
-<pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/research/purpledelta-fraudulent-employment-operations</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
-</item>
-<item>
-<title>CopyCop Targets AI Investment in Armenia</title>
-<link>https://www.recordedfuture.com/blog/copycop-targets-ai-investment</link>
-<description><![CDATA[The Russian influence network CopyCop is targeting Western-backed AI and infrastructure projects in Armenia, including the Firebird AI data center, to undermine the country’s westward geopolitical realignment.]]></description>
-<pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/copycop-targets-ai-investment</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
 </item>
 <item>
 <title>Between Two Nerds: The eye of Sauron</title>
@@ -7932,6 +7924,16 @@
 <category>detection_response_operations</category>
 </item>
 <item>
+<title>Mines, Minds, and Machines: The Journey of AI</title>
+<link>https://www.recordedfuture.com/blog/mines-minds-machines</link>
+<description><![CDATA[Minerals become chips. Chips become data centers. Data centers become models, and models are acquiring arms and legs. From Earth to Embodied AI traces the supply chain of the fourth industrial revolution, and shows how geopolitical rivalry and cyber operations now run along every link, from mine to machine.<br/><br/><em>Tags: supply_chain</em>]]></description>
+<pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/mines-minds-machines</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
+<category>supply_chain</category>
+</item>
+<item>
 <title>[webapps] Apache Gravitino 1.2.1 - SSRF</title>
 <link>https://www.exploit-db.com/exploits/52641</link>
 <description><![CDATA[Apache Gravitino 1.2.1 - SSRF]]></description>
@@ -7994,16 +7996,6 @@
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52635</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Mines, Minds, and Machines: The Journey of AI</title>
-<link>https://www.recordedfuture.com/blog/mines-minds-machines</link>
-<description><![CDATA[Minerals become chips. Chips become data centers. Data centers become models, and models are acquiring arms and legs. From Earth to Embodied AI traces the supply chain of the fourth industrial revolution, and shows how geopolitical rivalry and cyber operations now run along every link, from mine to machine.<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/mines-minds-machines</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
-<category>supply_chain</category>
 </item>
 <item>
 <title>deno-case-studies</title>
@@ -8113,6 +8105,16 @@
 <category>zero_day</category>
 </item>
 <item>
+<title>The Hugging Face Hack Was Cheap Persistence at Work</title>
+<link>https://www.recordedfuture.com/blog/hugging-face-cheap-persistence</link>
+<description><![CDATA[The Hugging Face and OpenAI security incident showed AI doesn&apos;t make attackers smarter. It makes persistence cheap, and defenses built for alerts can&apos;t keep up.<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
+<pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/hugging-face-cheap-persistence</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
+<category>OpenAI/ChatGPT</category>
+</item>
+<item>
 <title>[webapps] OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution</title>
 <link>https://www.exploit-db.com/exploits/52633</link>
 <description><![CDATA[OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution]]></description>
@@ -8129,16 +8131,6 @@
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52632</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>The Hugging Face Hack Was Cheap Persistence at Work</title>
-<link>https://www.recordedfuture.com/blog/hugging-face-cheap-persistence</link>
-<description><![CDATA[The Hugging Face and OpenAI security incident showed AI doesn&apos;t make attackers smarter. It makes persistence cheap, and defenses built for alerts can&apos;t keep up.<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
-<pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/hugging-face-cheap-persistence</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
-<category>OpenAI/ChatGPT</category>
 </item>
 <item>
 <title>Sponsored: Island&apos;s expansion to SASE and enterprise AI</title>
@@ -19228,7 +19220,7 @@
 <title>CrowdStrike Named a Leader in The Forrester Wave™: Proactive Security Platforms, Q3 2026</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 26 Sep 2026 22:36:46 +0000</pubDate>
+<pubDate>Sun, 27 Sep 2026 01:16:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19237,7 +19229,7 @@
 <title>CrowdStrike Named a Leader in The Forrester Wave™: External Threat Intelligence Service Providers, Q3 2026</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 26 Sep 2026 22:36:46 +0000</pubDate>
+<pubDate>Sun, 27 Sep 2026 01:16:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19246,7 +19238,7 @@
 <title>CrowdStrike SafeMind: When the Best Offense Builds the Best Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 26 Sep 2026 22:36:46 +0000</pubDate>
+<pubDate>Sun, 27 Sep 2026 01:16:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19255,7 +19247,7 @@
 <title>CrowdStrike Accelerates Real-Time Data Classification with On-Device AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 26 Sep 2026 22:36:46 +0000</pubDate>
+<pubDate>Sun, 27 Sep 2026 01:16:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19264,7 +19256,7 @@
 <title>PhantomRaven: An LLM-Generated Information Stealer Developed for Bug Bounty Hunting</title>
 <link>https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 26 Sep 2026 22:36:46 +0000</pubDate>
+<pubDate>Sun, 27 Sep 2026 01:16:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19273,7 +19265,7 @@
 <title>September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 26 Sep 2026 22:36:46 +0000</pubDate>
+<pubDate>Sun, 27 Sep 2026 01:16:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19282,7 +19274,7 @@
 <title>CrowdStrike Delivers the Next Evolution of the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 26 Sep 2026 22:36:46 +0000</pubDate>
+<pubDate>Sun, 27 Sep 2026 01:16:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19291,7 +19283,7 @@
 <title>CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Sat, 26 Sep 2026 22:36:46 +0000</pubDate>
+<pubDate>Sun, 27 Sep 2026 01:16:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19301,7 +19293,7 @@
 <title>CrowdStrike Announces Agentic Identity Provider</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 26 Sep 2026 22:36:46 +0000</pubDate>
+<pubDate>Sun, 27 Sep 2026 01:16:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19310,7 +19302,7 @@
 <title>CrowdStrike Falcon Guardian Defines the Next Generation of AI Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 26 Sep 2026 22:36:46 +0000</pubDate>
+<pubDate>Sun, 27 Sep 2026 01:16:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
