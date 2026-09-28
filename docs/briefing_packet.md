@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-09-27T21:58:15.170903+00:00
+- Generated: 2026-09-28T00:28:40.533653+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 75
-- Total items in window: 440
-- Total clusters raw: 208
-- Total clusters in packet: 79
-- Dropped low score: 129
+- Feeds OK: 74
+- Total items in window: 439
+- Total clusters raw: 206
+- Total clusters in packet: 78
+- Dropped low score: 128
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,56 +70,46 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
   - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
@@ -130,16 +120,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
-  - In window count: 3
+  - In window count: 1
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 4
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
@@ -150,31 +155,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 4
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 1
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
   - Status: ok
-  - Item count: 50
-  - In window count: 0
+  - Item count: 40
+  - In window count: 1
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
@@ -185,13 +185,28 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -200,41 +215,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 1
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
@@ -250,11 +250,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 9
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
@@ -265,6 +260,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -275,31 +275,31 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 4
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -310,41 +310,41 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 20
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
   - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
+  - Item count: 20
+  - In window count: 2
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
-  - Item count: 30
-  - In window count: 16
+  - Item count: 15
+  - In window count: 15
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 17
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
@@ -352,11 +352,6 @@
   - In window count: 0
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -370,6 +365,16 @@
   - Status: ok
   - Item count: 50
   - In window count: 28
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -380,11 +385,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 100
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -395,11 +395,31 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 50
+  - Item count: 10
+  - In window count: 1
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
@@ -410,31 +430,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 26
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -464,7 +464,7 @@
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 100
-  - In window count: 1
+  - In window count: 0
 - **Google Project Zero** (offensive_vulnerability_research)
   - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
   - Status: ok
@@ -545,7 +545,7 @@
 - Anchor signal: npm
 - Theme key: npm
 - Cluster count: 3
-- Article count: 12
+- Article count: 11
 - Cohesion: 0.244
 - Shared strong signals: npm
 - Member CVEs: (none)
@@ -557,7 +557,6 @@
 - Links:
   - https://orca.security/resources/research/cve-2026-93485-wordpress-comment2shell-rce/
   - https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html
-  - https://www.greynoise.io/blog/open-season-on-kapibala-attacker-steals-government-records-wordpress-exploitation
   - https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/
   - https://securitylabs.datadoghq.com/articles/opencode-upgrade-remote-code-execution/
   - https://orca.security/resources/research/ghappier-loader-npm-supply-chain-attack/
@@ -588,7 +587,7 @@
 - Anchor signal: WordPress
 - Theme key: wordpress
 - Cluster count: 2
-- Article count: 7
+- Article count: 6
 - Cohesion: 0.2
 - Shared strong signals: WordPress
 - Member CVEs: (none)
@@ -602,7 +601,6 @@
   - https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html
   - https://orca.security/resources/research/cve-2026-93485-wordpress-comment2shell-rce/
   - https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html
-  - https://www.greynoise.io/blog/open-season-on-kapibala-attacker-steals-government-records-wordpress-exploitation
   - https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/
 
 ### Google Cloud vulnerability activity
@@ -1224,17 +1222,16 @@ New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Base
 - Published: 2026-09-22T17:38:08+00:00
 - Link: https://orca.security/resources/research/cve-2026-93485-wordpress-comment2shell-rce/
 - Fetch status: ok
-- Member count: 6
-- Corroborating source count: 4
+- Member count: 5
+- Corroborating source count: 3
 - Strong signals: CVE-2026-93485, WordPress
 
 #### Cluster taxonomy (union across members)
 - threat_categories: active_exploitation, data_breach, supply_chain, web_shell_backdoor
-- affected_industries: government
 - affected_products: WordPress, npm
 - cve_ids: CVE-2026-87902, CVE-2026-93485
 - urgency_signals: actively_exploited, poc_available, preauth_unauth
-- content_type: news_report, threat_research, vulnerability_disclosure
+- content_type: news_report, vulnerability_disclosure
 - confidence_tier: tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
@@ -1257,7 +1254,7 @@ Executive Summary A high-severity vulnerability (CVE-2026-93485, CVSS 7.1) was d
 Executive Summary A high-severity vulnerability (CVE-2026-93485, CVSS 7.1) was disclosed affecting WordPress Core, allowing attackers to achieve full remote code execution via a stored cross-site scripting flaw in the comment rendering pipeline. Due to the potential for complete server compromise, immediate patching is required. About CVE-2026-93485 The issue originates from the wpautop() function in wp-includes/formatting.php, where a mismatch between comment sanitization at save time and HTML reformatting at display time leads to injection of live event handlers. By submitting a crafted anonymous comment containing a specially constructed HTML attribute with a > character, attackers can cause the wpautop() regular expression to misinterpret tag boundaries, breaking the tag structure apart and relocating attacker-controlled text into a position where the browser treats it as executable JavaScript. No authentication is required to submit the initial malicious comment. When a logged-in administrator views the page containing the malicious comment, the injected script executes automatically without any click required. The script leverages the administrator’s session to install a plugin containing a web shell, achieving full remote code execution on the server. Affected Systems The following components are affected: WordPress Core, versions 4.7 through 7.1.0. This represents the vast majority of WordPress installations worldwide. The vulnerability affects any content processed through wpautop(), which includes comments, posts, and other content areas. Sites using block themes (all default themes since Twenty Twenty-Two) are confirmed affected. Risk Impact While WordPress has comment moderation enabled by default, several factors lower the exploitation barrier: auto-approval is enabled for users who have had a previous comment approved, and some sites disable moderation entirely. The attack complexity is rated Low, and no authentication is required for the initial XSS vector; only user interaction (an administrator viewing the page) is needed. Users should upgrade to WordPress 7.1.1 immediately, or the corresponding security backport for their branch (7.0.5, 6.9.8, and corresponding backports down to 4.7.36). WordPress sites with automatic background updates enabled will receive the patch automatically. Sites unable to patch immediately should disable comments site-wide, enable strict comment moderation requiring manual approval for all comments, deploy WAF rules to filter malicious comment payloads, and audit installed plugins for any unexpected or unfamiliar entries. At the time of writing, no public proof-of-concept exploit has been published, and there is no known active exploitation in the wild. CVE-2026-93485 is not listed on the CISA Known Exploited Vulnerabilities catalog. Regardless, the severity and low attack complexity make this vulnerability high risk, especially for internet-facing WordPress deployments with comments enabled. Successful exploitation could allow attackers to execute arbitrary code on the web server, install persistent backdoors via malicious plugins, and potentially pivot to compromise the underlying infrastructure, leading to service disruption, data exposure, or full infrastructure compromise. WordPress 7.1.1 also addressed 10 additional security vulnerabilities including path traversal, CSRF, and additional XSS issues, making this a critical update. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable WordPress versions, understand their exposure in context — including internet accessibility, runtime reachability, and asset criticality — and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the newItem view, helping security teams focus on the most critical remediation paths first. Related articles Research npm Supply-Chain Attack Abuses Trusted Publishing to Ship GHAPPIER Loader Sep 22, 2026 Re
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (3)
 
 - **Orca Security Research** (cloud_identity_infrastructure)
   - Title: WordPress “Comment2Shell” XSS-to-RCE Chain Lets Unauthenticated Attackers Compromise Servers via Malicious Comments
@@ -1269,11 +1266,6 @@ Executive Summary A high-severity vulnerability (CVE-2026-93485, CVSS 7.1) was d
   - Published: 2026-09-24T05:36:18+00:00
   - Link: https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html
   - Summary: Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtain remote code execution (RCE). "An unauthenticated attacker can make get_page_template() page-template resolution include a chosen readable local .php file
-- **GreyNoise** (cloud_identity_infrastructure)
-  - Title: Open Season on Kapibala: Attacker Steals Over 18,000 Government Records Through WordPress Exploitation
-  - Published: 2026-09-21T00:00:00+00:00
-  - Link: https://www.greynoise.io/blog/open-season-on-kapibala-attacker-steals-government-records-wordpress-exploitation
-  - Summary: GreyNoise has been tracking malicious use of an IP address since early June 2026 due to its frequent use in scans and attacks against a variety of technologies. We detail a few of the more notable intrusions we observed including the theft of more than 18,000 sensitive records from a western government.
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: Elementor WordPress flaw lets attackers create admin accounts
   - Published: 2026-09-25T18:13:33+00:00
@@ -2790,6 +2782,49 @@ Share Link copied to clipboard! Tags Adversary-in-the-middle (AiTM) Phishing Thr
   - Link: https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/
   - Summary: EvilTokens has quickly become one of the top PhaaS platforms, enabling device code phishing attacks through AI-assisted lures, automated infrastructure, and token theft. In collaboration with partners, Microsoft Digital Crimes Unit (DCU) facilitated a disruption of EvilTokens infrastructure and operations. The post Unmasking EvilTokens: Getting to the root of device code phishing appeared first on Microsoft Security Blog .
 
+### Cluster 8845f71e12 — score 10
+
+- Title: Group Policy hijacked: PAYLOAD ransomware weaponizes Active Directory GPO
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-09-21T10:00:40+00:00
+- Link: https://securelist.com/tr/payload-ransomware-via-group-policy/121335/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- affected_industries: manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- affected_industries: manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Kaspersky GERT experts dive into the technical incident analysis of PAYLOAD ransomware: an encryptionless, binary-less operation that abused Active Directory mechanisms for managing Group Policy Objects.
+```
+
+#### Full body
+
+```
+Threat Response Table of Contents Executive summary Group Policy as an attack surface Attack timeline Incident overview Initial access Execution The PAYLOAD GPO The win Firewall Off GPO The one-day delay detonation Forensic findings Detection engineering Anti-forensics and recovery-inhibition capabilities Confirmed PAYLOAD family capabilities Windows Event Log clearing Forensic indicators Security process and service termination Forensic indicators VSS deletion, backup and recovery suppression Forensic indicators Ecosystem-relevant ransomware techniques ETW suppression and in-memory patching Forensic indicators Vulnerable signed driver abuse, BYOVD Forensic indicators ESXi security policy weakening Forensic indicators Remediation Phase 1 — domain controller actions (to be performed first) Phase 2 — Active Directory and GPO hardening Phase 3 — credential and access hardening Phase 4 — detection and monitoring Conclusion Detection by Kaspersky solutions MITRE ATT&CK mapping Indicators of compromise Executive summary In April 2026, we at Kaspersky’s Global Emergency Response Team (GERT) responded to a security incident at a manufacturing organization in the Middle East. The threat actor obtained domain admin-equivalent control of the organization’s Active Directory environment and authored a malicious Group Policy Object (GPO) named PAYLOAD, linking it at the domain root. Through that single object, the actor delivered ransom notes, hijacked the desktop wallpaper and lock screen, enforced a logon banner, and disabled the local administrator account across every domain-joined Windows workstation — all without dropping a ransomware binary or encrypting any data. The only ransomware we found in this incident was PAYLOAD sample targeting ESXi on Linux servers. Besides that, data exfiltration was observed originating from the file servers and several additional systems, and was later published on the dark web. This case is an example of two converging trends that define the 2026 ransomware landscape : Living-off-the-land abuse of trusted AD infrastructure. Group Policy is a signed, allowlisted, SYSTEM-privileged distribution channel that the majority of endpoint detection and response tools is designed not to inspect. By delivering impact through GPO rather than through malware, the actor sidestepped the entire file- and process-based detection stack. Encryptionless extortion. Industry telemetry shows extortion-only incidents grow significantly year-on-year. PAYLOAD fits this model; the leverage is operational disruption and the threat of escalation rather than cryptographic denial of data. We confirmed that no files were encrypted on Windows machines, no malicious binaries were resident on disk, no endpoint persistence was established, and no malicious processes were running at the time of analysis. The entire attack lived inside Active Directory itself. The defensive implication is stark: an organization whose detection strategy depends on catching a ransomware executable would have seen nothing until the first endpoint rebooted and the ransom wallpaper appeared. In this article, we will describe the GPO attack chain and provide operational advice on how to detect such threats, including detailed remediation recommendations. Group Policy as an attack surface Attacks through group policies are nothing new. They can inflict significant, domain-wide damage with multiple malicious capabilities. A Group Policy Object (GPO) is essentially a combination of a Group Policy Container (GPC) in Active Directory and a Group Policy Template (GPT) in SYSVOL. The Group Policy scope depends on whether the GPC is linked to the directory tree at the domain, site, or organization unit (OU) level. A link at the domain root means the policy applies to every computer and user object beneath it. Thus, a GPO compromised at the domain root can affect all in-scope domain users and computers, potentially granting an attacker complete control over the corporate
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: Group Policy hijacked: PAYLOAD ransomware weaponizes Active Directory GPO
+  - Published: 2026-09-21T10:00:40+00:00
+  - Link: https://securelist.com/tr/payload-ransomware-via-group-policy/121335/
+  - Summary: Kaspersky GERT experts dive into the technical incident analysis of PAYLOAD ransomware: an encryptionless, binary-less operation that abused Active Directory mechanisms for managing Group Policy Objects.
+
 ### Cluster bf92f99cb9 — score 10
 
 - Title: 21st September – Threat Intelligence Report
@@ -2836,49 +2871,6 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 21st Septe
   - Published: 2026-09-21T23:13:07+00:00
   - Link: https://research.checkpoint.com/2026/21st-september-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 21st Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Japan’s Digital Agency, which operates the Government Solution Service used by multiple ministries, has confirmed a data breach after attackers exploited a vulnerability in a VPN appliance. Approximately 246,000 records were exposed, […] The post 21st September – Threat Intelligence Report appeared first on Check Point Research .
-
-### Cluster 8845f71e12 — score 10
-
-- Title: Group Policy hijacked: PAYLOAD ransomware weaponizes Active Directory GPO
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-09-21T10:00:40+00:00
-- Link: https://securelist.com/tr/payload-ransomware-via-group-policy/121335/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- affected_industries: manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- affected_industries: manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Kaspersky GERT experts dive into the technical incident analysis of PAYLOAD ransomware: an encryptionless, binary-less operation that abused Active Directory mechanisms for managing Group Policy Objects.
-```
-
-#### Full body
-
-```
-Threat Response Table of Contents Executive summary Group Policy as an attack surface Attack timeline Incident overview Initial access Execution The PAYLOAD GPO The win Firewall Off GPO The one-day delay detonation Forensic findings Detection engineering Anti-forensics and recovery-inhibition capabilities Confirmed PAYLOAD family capabilities Windows Event Log clearing Forensic indicators Security process and service termination Forensic indicators VSS deletion, backup and recovery suppression Forensic indicators Ecosystem-relevant ransomware techniques ETW suppression and in-memory patching Forensic indicators Vulnerable signed driver abuse, BYOVD Forensic indicators ESXi security policy weakening Forensic indicators Remediation Phase 1 — domain controller actions (to be performed first) Phase 2 — Active Directory and GPO hardening Phase 3 — credential and access hardening Phase 4 — detection and monitoring Conclusion Detection by Kaspersky solutions MITRE ATT&CK mapping Indicators of compromise Executive summary In April 2026, we at Kaspersky’s Global Emergency Response Team (GERT) responded to a security incident at a manufacturing organization in the Middle East. The threat actor obtained domain admin-equivalent control of the organization’s Active Directory environment and authored a malicious Group Policy Object (GPO) named PAYLOAD, linking it at the domain root. Through that single object, the actor delivered ransom notes, hijacked the desktop wallpaper and lock screen, enforced a logon banner, and disabled the local administrator account across every domain-joined Windows workstation — all without dropping a ransomware binary or encrypting any data. The only ransomware we found in this incident was PAYLOAD sample targeting ESXi on Linux servers. Besides that, data exfiltration was observed originating from the file servers and several additional systems, and was later published on the dark web. This case is an example of two converging trends that define the 2026 ransomware landscape : Living-off-the-land abuse of trusted AD infrastructure. Group Policy is a signed, allowlisted, SYSTEM-privileged distribution channel that the majority of endpoint detection and response tools is designed not to inspect. By delivering impact through GPO rather than through malware, the actor sidestepped the entire file- and process-based detection stack. Encryptionless extortion. Industry telemetry shows extortion-only incidents grow significantly year-on-year. PAYLOAD fits this model; the leverage is operational disruption and the threat of escalation rather than cryptographic denial of data. We confirmed that no files were encrypted on Windows machines, no malicious binaries were resident on disk, no endpoint persistence was established, and no malicious processes were running at the time of analysis. The entire attack lived inside Active Directory itself. The defensive implication is stark: an organization whose detection strategy depends on catching a ransomware executable would have seen nothing until the first endpoint rebooted and the ransom wallpaper appeared. In this article, we will describe the GPO attack chain and provide operational advice on how to detect such threats, including detailed remediation recommendations. Group Policy as an attack surface Attacks through group policies are nothing new. They can inflict significant, domain-wide damage with multiple malicious capabilities. A Group Policy Object (GPO) is essentially a combination of a Group Policy Container (GPC) in Active Directory and a Group Policy Template (GPT) in SYSVOL. The Group Policy scope depends on whether the GPC is linked to the directory tree at the domain, site, or organization unit (OU) level. A link at the domain root means the policy applies to every computer and user object beneath it. Thus, a GPO compromised at the domain root can affect all in-scope domain users and computers, potentially granting an attacker complete control over the corporate
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: Group Policy hijacked: PAYLOAD ransomware weaponizes Active Directory GPO
-  - Published: 2026-09-21T10:00:40+00:00
-  - Link: https://securelist.com/tr/payload-ransomware-via-group-policy/121335/
-  - Summary: Kaspersky GERT experts dive into the technical incident analysis of PAYLOAD ransomware: an encryptionless, binary-less operation that abused Active Directory mechanisms for managing Group Policy Objects.
 
 ### Cluster e1b756c88e — score 10
 
@@ -2959,51 +2951,6 @@ Introducing CAIRN: Frontier tracking for AI-integrated malware By Ryan Fetterman
   - Published: 2026-09-22T10:00:25+00:00
   - Link: https://blog.talosintelligence.com/introducing-cairn-frontier-tracking-for-ai-integrated-malware/
   - Summary: Talos is releasing CAIRN, a research toolkit for hunting, classifying, and tracking emerging AI-integrated malware.
-
-### Cluster 12a3a99ac3 — score 10
-
-- Title: The SMB cybersecurity squeeze: AI agents at work, old attacks in overdrive
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-09-21T09:00:00+00:00
-- Link: https://www.welivesecurity.com/en/business-security/smb-cybersecurity-squeeze-ai-agents-work-old-attacks-overdrive/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, supply_chain, zero_day
-- affected_industries: government
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, credential_theft, zero_day
-- affected_industries: government
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-As AI opens new paths to company data while making familiar attacks faster and cheaper, SMBs need protection designed around the time and expertise available to operate it
-```
-
-#### Full body
-
-```
-Business Security The SMB cybersecurity squeeze: AI agents at work, old attacks in overdrive As AI opens new paths to company data while making familiar attacks faster and cheaper, SMBs need protection designed around the time and expertise available to operate it Tomáš Foltýn 21 Sep 2026 • , 8 min. read AI has moved quickly into the daily work of small and mid-size businesses (SMBs). Many have moved past chatbots and begun assigning work to AI agents in the hope of gaining an edge on their similarly resource-strapped competitors and levelling the playing field with larger companies. Indeed, the ambitious adopters are deploying, or at least experimenting with, multi-agent ‘assembly lines,’ where one supervisor agent manages swarms of specialist agents and passes work between them. But AI changes more than how work gets done. Each new access and connection leaves the business with new dependencies that represent a potential cybersecurity risk. SMBs rarely have resources to spare, however, and least of all in IT. Cybersecurity in particular is often just one item on a list of duties owned by a person or small team that deals with everything from account provisioning to zero-day fallout. Yet few businesses are likely to backpedal on AI until every risk is mapped and addressed. Fewer still know which loopholes need plugging first – ESET’s recent global survey of 4,400 SMB decision-makers found that 40 percent of the businesses didn’t even have an AI policy. The rules were more common in companies that had already suffered an incident, revealing the familiar pattern where governance often arrives after a breach. Broadly speaking, today’s security risks are expanding in two main directions: AI creates new paths to business systems while adversaries use it to add speed and scale to ‘old’ threats. AI agents, double agents and errant agents Whatever its remit, each agent connected to business systems can act through permissions granted by its ‘owner.’ Once an agent has access to internal documents and can communicate externally, anything that influences its instructions can also influence what it does with its permissions. A chatbot may produce a wayward answer, whereas an agent with access to data and tools could take a wayward and, ultimately, costly action. In multi-agent setups, manipulated outputs can be handed to the next part of the chain, triggering a cascading problem whose root cause is difficult to track down. Of course, some risks surrounding AI agents have familiar roots: an agent’s supply chains can be compromised and its permissions abused. This is best illustrated by skills, or packaged instructions that tell an agent what actions to take and which tools to use. Between March and May 2026, ESET’s systems scanned almost 900,000 unique skills from popular repositories – more than 25,000 turned out to be suspicious and more than 3,000 outright malicious, leading to credential theft, data exfiltration and remote code execution. Figure 1. Instructions of a self-modifying skill that can lead to unpredictable behavior and abuse (source: ESET Threat Report H1 2026 ) How many were installed globally is anyone’s guess, but the analysis shows how quickly a poorly governed supply chain has grown around agentic AI. The skills ecosystem lacks app-store-style gatekeeping, and one-off checks before installation are by no means sufficient, either. Skills and tool connections, including those using ubiquitous MCP servers, remain live dependencies after an initial review as their instructions and upstream services can change at any time. The end result could be a “rug pull” where a tool that at first behaves as expected later morphs into, for example, an infostealer. A lean IT team is unlikely to review every such dependency at installation, much less continue to keep an eye on it afterwards. Indeed, they may not even know that an employee has connected a seemingly useful skill to an agent without realizing that it can, for example, read
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: The SMB cybersecurity squeeze: AI agents at work, old attacks in overdrive
-  - Published: 2026-09-21T09:00:00+00:00
-  - Link: https://www.welivesecurity.com/en/business-security/smb-cybersecurity-squeeze-ai-agents-work-old-attacks-overdrive/
-  - Summary: As AI opens new paths to company data while making familiar attacks faster and cheaper, SMBs need protection designed around the time and expertise available to operate it
 
 ### Cluster 24a067f53f — score 10
 
@@ -3086,6 +3033,51 @@ The Lure Isn't The Malware. It's Your Logo. Recorded Future's Insikt Group Ⓡ h
   - Published: 2026-09-23T00:00:00+00:00
   - Link: https://www.recordedfuture.com/blog/your-logo-is-the-lure
   - Summary: Recorded Future's Insikt GroupⓇ has been tracking ClickFix, a social engineering technique that turns a familiar logo or verification prompt into the entry point for an attack. Here's what that research reveals about catching it, and why it's now running inside Malicious Site Monitoring, part of our newly launched Digital Risk Protection solution.
+
+### Cluster 12a3a99ac3 — score 10
+
+- Title: The SMB cybersecurity squeeze: AI agents at work, old attacks in overdrive
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-09-21T09:00:00+00:00
+- Link: https://www.welivesecurity.com/en/business-security/smb-cybersecurity-squeeze-ai-agents-work-old-attacks-overdrive/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, supply_chain, zero_day
+- affected_industries: government
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, credential_theft, zero_day
+- affected_industries: government
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+As AI opens new paths to company data while making familiar attacks faster and cheaper, SMBs need protection designed around the time and expertise available to operate it
+```
+
+#### Full body
+
+```
+Business Security The SMB cybersecurity squeeze: AI agents at work, old attacks in overdrive As AI opens new paths to company data while making familiar attacks faster and cheaper, SMBs need protection designed around the time and expertise available to operate it Tomáš Foltýn 21 Sep 2026 • , 8 min. read AI has moved quickly into the daily work of small and mid-size businesses (SMBs). Many have moved past chatbots and begun assigning work to AI agents in the hope of gaining an edge on their similarly resource-strapped competitors and levelling the playing field with larger companies. Indeed, the ambitious adopters are deploying, or at least experimenting with, multi-agent ‘assembly lines,’ where one supervisor agent manages swarms of specialist agents and passes work between them. But AI changes more than how work gets done. Each new access and connection leaves the business with new dependencies that represent a potential cybersecurity risk. SMBs rarely have resources to spare, however, and least of all in IT. Cybersecurity in particular is often just one item on a list of duties owned by a person or small team that deals with everything from account provisioning to zero-day fallout. Yet few businesses are likely to backpedal on AI until every risk is mapped and addressed. Fewer still know which loopholes need plugging first – ESET’s recent global survey of 4,400 SMB decision-makers found that 40 percent of the businesses didn’t even have an AI policy. The rules were more common in companies that had already suffered an incident, revealing the familiar pattern where governance often arrives after a breach. Broadly speaking, today’s security risks are expanding in two main directions: AI creates new paths to business systems while adversaries use it to add speed and scale to ‘old’ threats. AI agents, double agents and errant agents Whatever its remit, each agent connected to business systems can act through permissions granted by its ‘owner.’ Once an agent has access to internal documents and can communicate externally, anything that influences its instructions can also influence what it does with its permissions. A chatbot may produce a wayward answer, whereas an agent with access to data and tools could take a wayward and, ultimately, costly action. In multi-agent setups, manipulated outputs can be handed to the next part of the chain, triggering a cascading problem whose root cause is difficult to track down. Of course, some risks surrounding AI agents have familiar roots: an agent’s supply chains can be compromised and its permissions abused. This is best illustrated by skills, or packaged instructions that tell an agent what actions to take and which tools to use. Between March and May 2026, ESET’s systems scanned almost 900,000 unique skills from popular repositories – more than 25,000 turned out to be suspicious and more than 3,000 outright malicious, leading to credential theft, data exfiltration and remote code execution. Figure 1. Instructions of a self-modifying skill that can lead to unpredictable behavior and abuse (source: ESET Threat Report H1 2026 ) How many were installed globally is anyone’s guess, but the analysis shows how quickly a poorly governed supply chain has grown around agentic AI. The skills ecosystem lacks app-store-style gatekeeping, and one-off checks before installation are by no means sufficient, either. Skills and tool connections, including those using ubiquitous MCP servers, remain live dependencies after an initial review as their instructions and upstream services can change at any time. The end result could be a “rug pull” where a tool that at first behaves as expected later morphs into, for example, an infostealer. A lean IT team is unlikely to review every such dependency at installation, much less continue to keep an eye on it afterwards. Indeed, they may not even know that an employee has connected a seemingly useful skill to an agent without realizing that it can, for example, read
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: The SMB cybersecurity squeeze: AI agents at work, old attacks in overdrive
+  - Published: 2026-09-21T09:00:00+00:00
+  - Link: https://www.welivesecurity.com/en/business-security/smb-cybersecurity-squeeze-ai-agents-work-old-attacks-overdrive/
+  - Summary: As AI opens new paths to company data while making familiar attacks faster and cheaper, SMBs need protection designed around the time and expertise available to operate it
 
 ### Cluster 7c416ee970 — score 10
 
@@ -3177,6 +3169,45 @@ NodeZero Federal Horizon3 September 22, 2026 Factsheets Federal agencies face re
   - Link: https://horizon3.ai/downloads/factsheets/nodezero-federal/
   - Summary: Horizon3's NodeZero Federal provides production-safe, autonomous penetration testing for federal agencies. Achieve continuous readiness with proven, exploitable findings and rapid retest validation.
 
+### Cluster 3494226aac — score 10
+
+- Title: How dynamic application security testing validates risk at runtime
+- Source: Rapid7 (offensive_vulnerability_research)
+- Published: 2026-09-23T13:49:39+00:00
+- Link: https://www.rapid7.com/blog/post/em-dynamic-application-security-testing-dast-validates-risk-at-runtime-idc-marketscape
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Security teams already have long queues of potential application vulnerabilities. The useful question is what happens next: can they see how a weakness behaves in a running application, reproduce the attack, and give developers enough evidence to fix it? Dynamic application security testing (DAST) helps answer those questions by testing applications as an attacker encounters them. The IDC MarketScape: Worldwide Dynamic Application Security Testing 2026 Vendor Assessment (Doc #US54119126, September 2026). The IDC MarketScape evaluated 16 vendors and named Rapid7 a Leader. We believe the result reflects the strength of Rapid7’s DAST capabilities, but the IDC MarketScape also offers a useful view of where the category is heading. DAST has developed beyond traditional web scanning into a source of runtime evidence that can help organizations validate risk across the application layer. From possible weakness to validated application risk Code analysis and dependency scanning help teams iden
+```
+
+#### Full body
+
+```
+Exposure Command How dynamic application security testing validates risk at runtime Rapid7 Sep 23, 2026 | Last updated on Sep 23, 2026 | 3 min read DISCOVER EXPOSURE COMMAND How dynamic application security testing validates risk at runtime Table of contents How dynamic application security testing validates risk at runtime DISCOVER EXPOSURE COMMAND Table of contents Security teams already have long queues of potential application vulnerabilities. The useful question is what happens next: can they see how a weakness behaves in a running application, reproduce the attack, and give developers enough evidence to fix it? Dynamic application security testing (DAST) helps answer those questions by testing applications as an attacker encounters them. The IDC MarketScape: Worldwide Dynamic Application Security Testing 2026 Vendor Assessment (Doc #US54119126, September 2026). The IDC MarketScape evaluated 16 vendors and named Rapid7 a Leader. We believe the result reflects the strength of Rapid7’s DAST capabilities, but the IDC MarketScape also offers a useful view of where the category is heading. DAST has developed beyond traditional web scanning into a source of runtime evidence that can help organizations validate risk across the application layer. From possible weakness to validated application risk Code analysis and dependency scanning help teams identify weaknesses before an application is deployed. DAST provides a different view by interacting with the assembled application while it is running. It can show what happens when a particular request reaches the application, how the application responds, and whether a suspected weakness can be reproduced. This is especially valuable for APIs and AI-backed applications, where risk may emerge through interactions among models, prompts, data, tools, and permissions. Some of these behaviors cannot be fully understood from source code or a dependency manifest. They become visible when the application is exercised under runtime conditions. DAST therefore has a direct role in continuous threat exposure management (CTEM). Discovery gives teams a view of their assets and possible weaknesses, but that view alone does not tell them where to focus. Validation helps narrow the field by showing which exposures can be reached or exploited and providing evidence that teams can use to take action. For Rapid7, DAST is exposure management applied to the application layer. Web applications, APIs, and AI-backed endpoints are all part of the attack surface, so they need to be discovered, tested, prioritized, and managed alongside infrastructure, cloud, and other exposures. Why we believe Rapid7 was named a Leader by IDC Rapid7’s DAST solution is delivered as part of the Exposure Command portfolio. Its scan engine maps an application, executes attacks against the discovered paths, and validates confirmed findings. Security teams can map a broad area of an application while limiting active attacks to an appropriate set of paths, giving them control over how testing is performed. Findings are checked against Rapid7 telemetry to help determine which issues warrant closer attention. When a finding needs action, browser-based replay reproduces the original request, the attack request, and the triggering response. Developers receive evidence they can work with, rather than a finding they must first spend time proving. Authenticated scanning can be difficult to maintain across a changing application portfolio, and a broken login sequence can leave important areas untested. Rapid7’s solution can identify the affected step and support a targeted update without requiring the entire sequence to be recorded again. The connection with Surface Command adds another useful layer. Newly discovered external assets can be surfaced for application testing, helping teams close the gap between finding an application and understanding the risk it presents DAST plays a core role within Exposure Command: providing the application-
+```
+
+#### Corroborating sources (1)
+
+- **Rapid7** (offensive_vulnerability_research)
+  - Title: How dynamic application security testing validates risk at runtime
+  - Published: 2026-09-23T13:49:39+00:00
+  - Link: https://www.rapid7.com/blog/post/em-dynamic-application-security-testing-dast-validates-risk-at-runtime-idc-marketscape
+  - Summary: Security teams already have long queues of potential application vulnerabilities. The useful question is what happens next: can they see how a weakness behaves in a running application, reproduce the attack, and give developers enough evidence to fix it? Dynamic application security testing (DAST) helps answer those questions by testing applications as an attacker encounters them. The IDC MarketScape: Worldwide Dynamic Application Security Testing 2026 Vendor Assessment (Doc #US54119126, September 2026). The IDC MarketScape evaluated 16 vendors and named Rapid7 a Leader. We believe the result reflects the strength of Rapid7’s DAST capabilities, but the IDC MarketScape also offers a useful view of where the category is heading. DAST has developed beyond traditional web scanning into a source of runtime evidence that can help organizations validate risk across the application layer. From possible weakness to validated application risk Code analysis and dependency scanning help teams iden
+
 ### Cluster 8ef92ff806 — score 10
 
 - Title: Don't let TEEs break your MPC
@@ -3217,45 +3248,6 @@ Page content Threshold signature schemes, a form of multi-party computation (MPC
   - Published: 2026-09-25T11:00:00+00:00
   - Link: https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/
   - Summary: Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manufacturer and its attestation infrastructure. But subtle issues can arise when running an MPC protocol inside a TEE without accounting for the untrusted host: for example, a malicious host could roll back the filesystem state after a threshold signer deletes a used pre-signature, causing the signer to reuse their nonce share and disclose their private key share. So is this combination worth it? Provided you treat the TEE as a defense-in-depth layer rather than a substitute for a sound protocol, the answer is yes. This blog post discusses what TEE attestation can and can’t fix in MPC deployments
-
-### Cluster 3494226aac — score 10
-
-- Title: How dynamic application security testing validates risk at runtime
-- Source: Rapid7 (offensive_vulnerability_research)
-- Published: 2026-09-23T13:49:39+00:00
-- Link: https://www.rapid7.com/blog/post/em-dynamic-application-security-testing-dast-validates-risk-at-runtime-idc-marketscape
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Security teams already have long queues of potential application vulnerabilities. The useful question is what happens next: can they see how a weakness behaves in a running application, reproduce the attack, and give developers enough evidence to fix it? Dynamic application security testing (DAST) helps answer those questions by testing applications as an attacker encounters them. The IDC MarketScape: Worldwide Dynamic Application Security Testing 2026 Vendor Assessment (Doc #US54119126, September 2026). The IDC MarketScape evaluated 16 vendors and named Rapid7 a Leader. We believe the result reflects the strength of Rapid7’s DAST capabilities, but the IDC MarketScape also offers a useful view of where the category is heading. DAST has developed beyond traditional web scanning into a source of runtime evidence that can help organizations validate risk across the application layer. From possible weakness to validated application risk Code analysis and dependency scanning help teams iden
-```
-
-#### Full body
-
-```
-Exposure Command How dynamic application security testing validates risk at runtime Rapid7 Sep 23, 2026 | Last updated on Sep 23, 2026 | 3 min read DISCOVER EXPOSURE COMMAND How dynamic application security testing validates risk at runtime Table of contents How dynamic application security testing validates risk at runtime DISCOVER EXPOSURE COMMAND Table of contents Security teams already have long queues of potential application vulnerabilities. The useful question is what happens next: can they see how a weakness behaves in a running application, reproduce the attack, and give developers enough evidence to fix it? Dynamic application security testing (DAST) helps answer those questions by testing applications as an attacker encounters them. The IDC MarketScape: Worldwide Dynamic Application Security Testing 2026 Vendor Assessment (Doc #US54119126, September 2026). The IDC MarketScape evaluated 16 vendors and named Rapid7 a Leader. We believe the result reflects the strength of Rapid7’s DAST capabilities, but the IDC MarketScape also offers a useful view of where the category is heading. DAST has developed beyond traditional web scanning into a source of runtime evidence that can help organizations validate risk across the application layer. From possible weakness to validated application risk Code analysis and dependency scanning help teams identify weaknesses before an application is deployed. DAST provides a different view by interacting with the assembled application while it is running. It can show what happens when a particular request reaches the application, how the application responds, and whether a suspected weakness can be reproduced. This is especially valuable for APIs and AI-backed applications, where risk may emerge through interactions among models, prompts, data, tools, and permissions. Some of these behaviors cannot be fully understood from source code or a dependency manifest. They become visible when the application is exercised under runtime conditions. DAST therefore has a direct role in continuous threat exposure management (CTEM). Discovery gives teams a view of their assets and possible weaknesses, but that view alone does not tell them where to focus. Validation helps narrow the field by showing which exposures can be reached or exploited and providing evidence that teams can use to take action. For Rapid7, DAST is exposure management applied to the application layer. Web applications, APIs, and AI-backed endpoints are all part of the attack surface, so they need to be discovered, tested, prioritized, and managed alongside infrastructure, cloud, and other exposures. Why we believe Rapid7 was named a Leader by IDC Rapid7’s DAST solution is delivered as part of the Exposure Command portfolio. Its scan engine maps an application, executes attacks against the discovered paths, and validates confirmed findings. Security teams can map a broad area of an application while limiting active attacks to an appropriate set of paths, giving them control over how testing is performed. Findings are checked against Rapid7 telemetry to help determine which issues warrant closer attention. When a finding needs action, browser-based replay reproduces the original request, the attack request, and the triggering response. Developers receive evidence they can work with, rather than a finding they must first spend time proving. Authenticated scanning can be difficult to maintain across a changing application portfolio, and a broken login sequence can leave important areas untested. Rapid7’s solution can identify the affected step and support a targeted update without requiring the entire sequence to be recorded again. The connection with Surface Command adds another useful layer. Newly discovered external assets can be surfaced for application testing, helping teams close the gap between finding an application and understanding the risk it presents DAST plays a core role within Exposure Command: providing the application-
-```
-
-#### Corroborating sources (1)
-
-- **Rapid7** (offensive_vulnerability_research)
-  - Title: How dynamic application security testing validates risk at runtime
-  - Published: 2026-09-23T13:49:39+00:00
-  - Link: https://www.rapid7.com/blog/post/em-dynamic-application-security-testing-dast-validates-risk-at-runtime-idc-marketscape
-  - Summary: Security teams already have long queues of potential application vulnerabilities. The useful question is what happens next: can they see how a weakness behaves in a running application, reproduce the attack, and give developers enough evidence to fix it? Dynamic application security testing (DAST) helps answer those questions by testing applications as an attacker encounters them. The IDC MarketScape: Worldwide Dynamic Application Security Testing 2026 Vendor Assessment (Doc #US54119126, September 2026). The IDC MarketScape evaluated 16 vendors and named Rapid7 a Leader. We believe the result reflects the strength of Rapid7’s DAST capabilities, but the IDC MarketScape also offers a useful view of where the category is heading. DAST has developed beyond traditional web scanning into a source of runtime evidence that can help organizations validate risk across the application layer. From possible weakness to validated application risk Code analysis and dependency scanning help teams iden
 
 ### Cluster 584fee88ac — score 10
 
@@ -3455,16 +3447,13 @@ Will Thomas 5 min read January 21, 2026 Scattered Spider Attacks | Infrastructur
 - Strong signals: Android
 
 #### Cluster taxonomy (union across members)
-- threat_categories: vulnerability_disclosure
-- affected_industries: financial_services, legal_professional
+- affected_industries: financial_services
 - affected_products: Android
 - urgency_signals: no_patch_yet
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: vulnerability_disclosure
-- affected_industries: legal_professional
 - affected_products: Android
 - urgency_signals: no_patch_yet
 - content_type: news_report
@@ -3474,12 +3463,6 @@ Will Thomas 5 min read January 21, 2026 Scattered Spider Attacks | Infrastructur
 
 ```
 A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats, chained two flaws in OnePlus's own software to gain root access, the highest level of control over an Android phone. OnePlus told him the same flaws affect many more of its own devices and those of OPPO, though it has not
-```
-
-#### Full body
-
-```
-Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions  Swati Khandelwal  Sep 24, 2026 Vulnerability / Mobile Security A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats, chained two flaws in OnePlus's own software to gain root access, the highest level of control over an Android phone. OnePlus told him the same flaws affect many more of its own devices and those of OPPO, though it has not said which. OnePlus confirmed both flaws in May. In the same reply, the company told Moorats that it alone decides when to make a flaw public and warned that publishing without its permission could result in legal liability. He published on September 24 anyway, when OnePlus had released no fix. OnePlus set out its position in the reply, which Moorats published in full . It said a fix was scheduled, but claimed "the exclusive final right of vulnerability disclosure," and told him that even after a fix ships, researchers may not publish full technical details on their own. The company argued that European cybersecurity rules require makers to accept and fix reports but do not allow researchers to disclose them without the maker's consent. It warned that if he published without permission, OnePlus would "pursue relevant legal liabilities in accordance with applicable laws." How the Attack Works Moorats found the first flaw in a OnePlus service called AtlasService , which gathers debugging data, runs as root, and accepts calls from any app without checking who is calling. A crafted call reaches a OnePlus debugging tool that takes the app's text and drops it, unchecked, into a system command. That hands the app root, but only within a restricted system zone called dumpstate, which cannot do everything root normally can. The second flaw finishes the job. OnePlus ships another service, a hardware helper called olc2, with a command that executes any shell instruction it receives. Its only guard is that the caller must already be root, which the first flaw provides. This time, the command runs in a zone that grants all low-level Linux privileges, including the ability to load kernel code, giving the app control of the device at the system level. Who Is Affected, and What You Can Do The attack is local. A malicious app has to be installed and running on the phone first, so it cannot be launched over the internet. But once it is there, the app needs no permissions and shows the user no prompt, and it worked on a stock phone Moorats had not modified. There is no evidence that anyone has used the flaws in a real attack. Moorats also confirmed the attack on an older OnePlus 12 Pro, and he expects the same problem across OxygenOS 16 in general. OnePlus and OPPO build their phones on shared software, which is why OnePlus's warning covered both. As of Moorats's disclosure, OnePlus had assigned no CVE and released no fix, and no OnePlus advisory naming the flaws could be found. Until a fix ships, the one practical defense is the thing the attack needs to get started: install apps only from sources you trust, because it cannot run without a malicious app on the phone. By Moorats's account, the disclosure ran over about five months: April 18, 2026: reported both flaws to OnePlus. May 20: OnePlus confirmed them, claimed sole control over disclosure, and warned of legal liability if he published. June 22: OnePlus gave an update on its fix and asked him to hold off, and he agreed not to publish before September 17. July 20 and September 11: he asked for updates and received no reply. September 24: he published. Separately, this is not the only recent case of an installed app reaching root on flagship Android phones. In August, Lukas Maar, a researcher at the security firm Calif, showed a different technique that took a no-permission app to root locked phones running the latest firmware from Samsung, Xiaomi, OPPO, OnePlus, an
 ```
 
 #### Corroborating sources (2)
@@ -3722,6 +3705,32 @@ At the end of August, a malspam message was caught in the quarantine of a mail g
   - Link: https://isc.sans.edu/diary/rss/33348
   - Summary: At the end of August, a malspam message was caught in the quarantine of a mail gateway operated by one of my customers. The message was not especially remarkable â€“ it asked the recipient to review some attached requirements and provide a price quotation for a fiber optic system and appeared to impersonate an employee of a legitimate company.
 
+### Cluster ba588269d5 — score 8
+
+- Title: Proofpoint Stops the Attacks Traditional Defenses Miss in the AI Era
+- Source: Proofpoint Threat Insight (detection_response_operations)
+- Published: 2026-09-22T11:00:00+00:00
+- Link: https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-stops-attacks-traditional-defenses-miss-ai-era
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Corroborating sources (1)
+
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - Title: Proofpoint Stops the Attacks Traditional Defenses Miss in the AI Era
+  - Published: 2026-09-22T11:00:00+00:00
+  - Link: https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-stops-attacks-traditional-defenses-miss-ai-era
+
 ### Cluster 729baadd66 — score 8
 
 - Title: What's New in hate_crack Since 2.0
@@ -3754,32 +3763,6 @@ At the end of August, a malspam message was caught in the quarantine of a mail g
   - Published: 2026-09-24T04:00:00+00:00
   - Link: https://trustedsec.com/blog/whats-new-in-hate-crack-since-2-0
   - Summary: <p>You thought you knew hate_crack 👀 Well, version 2.0 changed that. In Part 1 of this latest blog series, we go through 13 new attack methods, menu restructuring, and local LLM integration.</p>
-
-### Cluster ba588269d5 — score 8
-
-- Title: Proofpoint Stops the Attacks Traditional Defenses Miss in the AI Era
-- Source: Proofpoint Threat Insight (detection_response_operations)
-- Published: 2026-09-22T11:00:00+00:00
-- Link: https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-stops-attacks-traditional-defenses-miss-ai-era
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Corroborating sources (1)
-
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - Title: Proofpoint Stops the Attacks Traditional Defenses Miss in the AI Era
-  - Published: 2026-09-22T11:00:00+00:00
-  - Link: https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-stops-attacks-traditional-defenses-miss-ai-era
 
 ### Cluster 50904175b4 — score 8
 
@@ -4020,6 +4003,43 @@ Secure file-sharing software company Kiteworks is urging customers worldwide to 
   - Link: https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/
   - Summary: Secure file-sharing software company Kiteworks is urging customers worldwide to temporarily shut down their servers on Saturday for a six-hour window after receiving threat intelligence warning of a potentially imminent cyberattack. [...]
 
+### Cluster 9ed08264e4 — score 8
+
+- Title: Ransomware Attacks Reach Record High for 2026
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-09-23T12:00:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/ransomware-attacks-reach-record/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- affected_industries: manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- affected_industries: manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A total of 1073 firms fell victim to ransomware attacks globally in August, with the industrial sector the most affected, according to new NCC data
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Ransomware Attacks Reach Record High for 2026
+  - Published: 2026-09-23T12:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/ransomware-attacks-reach-record/
+  - Summary: A total of 1073 firms fell victim to ransomware attacks globally in August, with the industrial sector the most affected, according to new NCC data
+
 ### Cluster b0d89fbe69 — score 8
 
 - Title: ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories
@@ -4131,43 +4151,6 @@ A critical vulnerability in Bifrost, an open-source AI gateway that routes reque
   - Link: https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html
   - Summary: A critical vulnerability in Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request. The flaw, tracked as CVE-2026-90898 (CVSS score: 9.8), affects all versions of the Bifrost HTTP transport before 2.1.0 when management authentication is
 
-### Cluster 9ed08264e4 — score 8
-
-- Title: Ransomware Attacks Reach Record High for 2026
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-09-23T12:00:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/ransomware-attacks-reach-record/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- affected_industries: manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- affected_industries: manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A total of 1073 firms fell victim to ransomware attacks globally in August, with the industrial sector the most affected, according to new NCC data
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Ransomware Attacks Reach Record High for 2026
-  - Published: 2026-09-23T12:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/ransomware-attacks-reach-record/
-  - Summary: A total of 1073 firms fell victim to ransomware attacks globally in August, with the industrial sector the most affected, according to new NCC data
-
 ### Cluster 1c9e89932f — score 8
 
 - Title: ATT&CKing TACACS+ to Pwn Your Network via a Pre-Auth RCE - elttam
@@ -4202,36 +4185,3 @@ submitted by /u/AnimalStrange [link] [comments]
   - Published: 2026-09-23T03:53:01+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1wnvaik/attcking_tacacs_to_pwn_your_network_via_a_preauth/
   - Summary: submitted by /u/AnimalStrange [link] [comments]
-
-### Cluster 27f5c42e7f — score 8
-
-- Title: Cloud Threat Emulation on Autopilot: Context is Everything
-- Source: Elastic Security Labs (detection_response_operations)
-- Published: 2026-09-21T00:00:00+00:00
-- Link: https://www.elastic.co/security-labs/threat-command/cloud-threat-emulation-methodology
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Cloud threat emulation is more than detonation. A plan-first methodology for cloud detection engineering: scope, victim model, telemetry, coverage, cleanup. Learn how to properly leverage AI to automate your emulations.
-```
-
-#### Corroborating sources (1)
-
-- **Elastic Security Labs** (detection_response_operations)
-  - Title: Cloud Threat Emulation on Autopilot: Context is Everything
-  - Published: 2026-09-21T00:00:00+00:00
-  - Link: https://www.elastic.co/security-labs/threat-command/cloud-threat-emulation-methodology
-  - Summary: Cloud threat emulation is more than detonation. A plan-first methodology for cloud detection engineering: scope, victim model, telemetry, coverage, cleanup. Learn how to properly leverage AI to automate your emulations.
