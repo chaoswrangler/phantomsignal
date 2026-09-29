@@ -6,9 +6,31 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 28 Sep 2026 21:46:59 +0000</lastBuildDate>
+<lastBuildDate>Tue, 29 Sep 2026 01:42:38 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Citrix patches actively exploited NetScaler zero-days after a weekend of unofficial warnings</title>
+<link>https://cyberscoop.com/citrix-zero-days-delayed-disclosure/</link>
+<description><![CDATA[The vendor’s products are a common, recurring target for attackers, yet the official warning for some Citrix NetScaler customers was too late. The post Citrix patches actively exploited NetScaler zero-days after a weekend of unofficial warnings appeared first on CyberScoop .<br/><br/><em>Tags: Citrix · active_exploitation</em>]]></description>
+<pubDate>Tue, 29 Sep 2026 00:58:15 +0000</pubDate>
+<guid isPermaLink="true">https://cyberscoop.com/citrix-zero-days-delayed-disclosure/</guid>
+<source url="https://cyberscoop.com/feed/">CyberScoop</source>
+<category>cyber_news_breach_reporting</category>
+<category>Citrix</category>
+<category>active_exploitation</category>
+</item>
+<item>
+<title>Apple Emergency Patch for iOS 26, macOS26, macOS15 (CVE-2026-86950), (Mon, Sep 28th)</title>
+<link>https://isc.sans.edu/diary/rss/33376</link>
+<description><![CDATA[Apple today released patches for all of its operating systems. However, only patches for older branches include a security fix. The vulnerability being addressed in iOS 26, macOS 26 and macOS 15 is already being exploited. iOS and macOS 27 are not affected. Today&amp;#;x26;#;39;s update for the current &quot;27&quot; branch does not address security issues, but fixes some functional issues that got caught after the release two weeks ago. A 27.1 version was also expected to support the new foldable iPhone and will likely include specific features geared to the soon to be available device.<br/><br/><em>Tags: Apple iOS/macOS · CVE-2026-86950</em>]]></description>
+<pubDate>Mon, 28 Sep 2026 22:35:35 +0000</pubDate>
+<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33376</guid>
+<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
+<category>government_authoritative</category>
+<category>Apple iOS/macOS</category>
+<category>CVE-2026-86950</category>
+</item>
 <item>
 <title>One Packet Can Crash OT Servers in Industrial Sectors</title>
 <link>https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine</link>
@@ -78,11 +100,12 @@
 <item>
 <title>Quoting @joedaroo</title>
 <link>https://simonwillison.net/2026/Sep/28/joedaroo/</link>
-<description><![CDATA[To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Security posture takes time to develop. It’s not just about hardening the systems at play; you have to ingrain it in the culture of the company. The literal people themselves in your organization have to change and evolve with it. These jumps in capabilities were so fast and so sudden that they created an extremely difficult problem. [...] So today my hope is that everyone around the world can look at their own organization and say: how can I deal with a surprise or a sudden jump in AI capability? Are my people, my systems, or my processes resilient to surprises? Do my teams know what to do when something goes wrong? Do I have the right incident response? The right comms and messaging? Do I have the right people ready to go when capabilities jump? — @joedaroo , Agent Security ]]></description>
+<description><![CDATA[To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Security posture takes time to develop. It’s not just about hardening the systems at play; you have to ingrain it in the culture of the company. The literal people themselves in your organization have to change and evolve with it. These jumps in capabilities were so fast and so sudden that they created an extremely difficult problem. [...] So today my hope is that everyone around the world can look at their own organization and say: how can I deal with a surprise or a sudden jump in AI capability? Are my people, my systems, or my processes resilient to surprises? Do my teams know what to do when something goes wrong? Do I have the right incident response? The right comms and messaging? Do I have the right people ready to go when capabilities jump? — @joedaroo , Agent Security <br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
 <pubDate>Mon, 28 Sep 2026 19:11:42 +0000</pubDate>
 <guid isPermaLink="true">https://simonwillison.net/2026/Sep/28/joedaroo/</guid>
 <source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
 <category>ai_security_agentic_risk</category>
+<category>OpenAI/ChatGPT</category>
 </item>
 <item>
 <title>How we found 24 Android vulnerabilities using our open source AI security agent</title>
@@ -412,11 +435,15 @@
 <item>
 <title>Kiteworks Urges Server Shutdown, Finds Advanced Forms Vulnerability</title>
 <link>https://www.securityweek.com/kiteworks-urges-server-shutdown-finds-advanced-forms-vulnerability/</link>
-<description><![CDATA[The company says the measure was precautionary and that it has no evidence of Kiteworks or customer systems being compromised. The post Kiteworks Urges Server Shutdown, Finds Advanced Forms Vulnerability appeared first on SecurityWeek .]]></description>
+<description><![CDATA[The company says the measure was precautionary and that it has no evidence of Kiteworks or customer systems being compromised. The post Kiteworks Urges Server Shutdown, Finds Advanced Forms Vulnerability appeared first on SecurityWeek .<br/><br/><em>Tags: Salesforce · SolarWinds · Microsoft SharePoint · CVE-2026-65660 · zero_day · data_breach</em>]]></description>
 <pubDate>Mon, 28 Sep 2026 09:44:27 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/kiteworks-urges-server-shutdown-finds-advanced-forms-vulnerability/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
+<category>Salesforce</category>
+<category>SolarWinds</category>
+<category>Microsoft SharePoint</category>
+<category>CVE-2026-65660</category>
 </item>
 <item>
 <title>Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist</title>
@@ -987,20 +1014,22 @@
 <item>
 <title>Kiteworks recommends server shutdown pending possible attack</title>
 <link>https://www.sophos.com/en-us/blog/kiteworks-recommends-server-shutdown-pending-possible-attack</link>
-<description><![CDATA[Categories: Threat Research Tags: advisory, Kiteworks]]></description>
+<description><![CDATA[Categories: Threat Research Tags: advisory, Kiteworks<br/><br/><em>Tags: zero_day</em>]]></description>
 <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.sophos.com/en-us/blog/kiteworks-recommends-server-shutdown-pending-possible-attack</guid>
 <source url="https://news.sophos.com/en-us/category/threat-research/feed/">Sophos X-Ops</source>
 <category>detection_response_operations</category>
+<category>zero_day</category>
 </item>
 <item>
 <title>AI adoption is a security survival metric</title>
 <link>https://webflow.sysdig.com/blog/ai-adoption-is-a-security-survival-metric</link>
-<description><![CDATA[AI is moving from experiment to infrastructure. Sysdig research shows more organizations building their own infrastructure, reducing the AI attack surface.]]></description>
+<description><![CDATA[AI is moving from experiment to infrastructure. Sysdig research shows more organizations building their own infrastructure, reducing the AI attack surface.<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
 <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://webflow.sysdig.com/blog/ai-adoption-is-a-security-survival-metric</guid>
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
+<category>OpenAI/ChatGPT</category>
 </item>
 <item>
 <title>&apos;Salesbleed&apos; Exploits Salesforce Agents to Enable Slack Phishing</title>
@@ -1086,11 +1115,12 @@
 <item>
 <title>ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories</title>
 <link>https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html</link>
-<description><![CDATA[This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before. That is the thread running through the pile. Trusted paths get poisoned. Old bugs find new jobs. AI tools leak more than expected. Fake prompts look real enough. And some attacks barely need an exploit at all — just]]></description>
+<description><![CDATA[This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before. That is the thread running through the pile. Trusted paths get poisoned. Old bugs find new jobs. AI tools leak more than expected. Fake prompts look real enough. And some attacks barely need an exploit at all — just<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
 <pubDate>Thu, 24 Sep 2026 17:52:43 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+<category>phishing_social_eng</category>
 </item>
 <item>
 <title>Fake Journalist phishing scam targeting tech founders</title>
@@ -1251,11 +1281,15 @@
 <item>
 <title>The Not So Silent Miner: Threat Actor Compiles Cryptominer on the Endpoint</title>
 <link>https://www.huntress.com/blog/threat-actor-compiles-cryptominer</link>
-<description><![CDATA[Threat actors exploited Samsung MagicINFO to install AnyDesk, disable Defender, and compile a Monero miner directly on a victim endpoint. Learn the detection signals.]]></description>
+<description><![CDATA[Threat actors exploited Samsung MagicINFO to install AnyDesk, disable Defender, and compile a Monero miner directly on a victim endpoint. Learn the detection signals.<br/><br/><em>Tags: Microsoft Defender · Anthropic/Claude · CVE-2025-4632 · CVE-2024-7399</em>]]></description>
 <pubDate>Thu, 24 Sep 2026 13:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.huntress.com/blog/threat-actor-compiles-cryptominer</guid>
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
+<category>Microsoft Defender</category>
+<category>Anthropic/Claude</category>
+<category>CVE-2025-4632</category>
+<category>CVE-2024-7399</category>
 </item>
 <item>
 <title>How Google Cloud Networking Supports Your Fluid Compute Choices for AI Workloads</title>
@@ -1319,14 +1353,12 @@
 <item>
 <title>MacSync under the microscope: new delivery methods and a new payload</title>
 <link>https://securelist.com/macsync-new-version/121383/</link>
-<description><![CDATA[We look at a new version of the MacSync macOS stealer with a backdoor module that targets crypto enthusiasts and developers.<br/><br/><em>Tags: Apple iOS/macOS · phishing_social_eng · credential_theft · web_shell_backdoor · active_exploitation</em>]]></description>
+<description><![CDATA[We look at a new version of the MacSync macOS stealer with a backdoor module that targets crypto enthusiasts and developers.<br/><br/><em>Tags: Apple iOS/macOS · web_shell_backdoor</em>]]></description>
 <pubDate>Thu, 24 Sep 2026 10:00:21 +0000</pubDate>
 <guid isPermaLink="true">https://securelist.com/macsync-new-version/121383/</guid>
 <source url="https://securelist.com/feed/">Kaspersky Securelist</source>
 <category>threat_research_primary</category>
 <category>Apple iOS/macOS</category>
-<category>phishing_social_eng</category>
-<category>credential_theft</category>
 <category>web_shell_backdoor</category>
 </item>
 <item>
@@ -1401,20 +1433,12 @@
 <item>
 <title>What&apos;s New in hate_crack Since 2.0</title>
 <link>https://trustedsec.com/blog/whats-new-in-hate-crack-since-2-0</link>
-<description><![CDATA[&lt;p&gt;You thought you knew hate_crack 👀 Well, version 2.0 changed that. In Part 1 of this latest blog series, we go through 13 new attack methods, menu restructuring, and local LLM integration.&lt;/p&gt;]]></description>
+<description><![CDATA[&lt;p&gt;You thought you knew hate_crack 👀 Well, version 2.0 changed that. In Part 1 of this latest blog series, we go through 13 new attack methods, menu restructuring, and local LLM integration.&lt;/p&gt;<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
 <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://trustedsec.com/blog/whats-new-in-hate-crack-since-2-0</guid>
 <source url="https://www.trustedsec.com/feed/">TrustedSec</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>CISA outlines improvement plan for CVE program</title>
-<link>https://cyberscoop.com/cisa-cve-data-quality-white-paper-expert-reaction/</link>
-<description><![CDATA[The white paper is the latest step in trying to create a “Quality Era” for the Common Vulnerabilities and Exposures (CVE) program as the number of CVEs surges. The post CISA outlines improvement plan for CVE program appeared first on CyberScoop .]]></description>
-<pubDate>Thu, 24 Sep 2026 00:31:36 +0000</pubDate>
-<guid isPermaLink="true">https://cyberscoop.com/cisa-cve-data-quality-white-paper-expert-reaction/</guid>
-<source url="https://cyberscoop.com/feed/">CyberScoop</source>
-<category>cyber_news_breach_reporting</category>
+<category>OpenAI/ChatGPT</category>
 </item>
 <item>
 <title>Russia Escalating Hybrid Attacks Across Europe</title>
@@ -1528,12 +1552,13 @@
 <item>
 <title>A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You</title>
 <link>https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html</link>
-<description><![CDATA[The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you. GitLab shows each user this address behind a button labeled &quot;Email work item to this project.&quot; Mail sent to it opens an issue in that project, authored<br/><br/><em>Tags: GitLab</em>]]></description>
+<description><![CDATA[The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you. GitLab shows each user this address behind a button labeled &quot;Email work item to this project.&quot; Mail sent to it opens an issue in that project, authored<br/><br/><em>Tags: GitLab · supply_chain</em>]]></description>
 <pubDate>Wed, 23 Sep 2026 16:53:10 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>GitLab</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key</title>
@@ -1635,34 +1660,40 @@
 <item>
 <title>OAuth Token Theft Through Microsoft&apos;s Front Door | Huntress</title>
 <link>https://www.huntress.com/blog/stealing-oauth-tokens-through-microsofts-front-door</link>
-<description><![CDATA[A sideloaded package turns a Microsoft-signed binary into an OAuth token theft tool. No phishing domain, no spoofed UI, no browser. Here&apos;s how to detect it.<br/><br/><em>Tags: phishing_social_eng · credential_theft</em>]]></description>
+<description><![CDATA[A sideloaded package turns a Microsoft-signed binary into an OAuth token theft tool. No phishing domain, no spoofed UI, no browser. Here&apos;s how to detect it.<br/><br/><em>Tags: Microsoft 365 · phishing_social_eng · credential_theft</em>]]></description>
 <pubDate>Wed, 23 Sep 2026 13:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.huntress.com/blog/stealing-oauth-tokens-through-microsofts-front-door</guid>
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
+<category>Microsoft 365</category>
 <category>phishing_social_eng</category>
 <category>credential_theft</category>
 </item>
 <item>
 <title>Rogue RMM Abuse: How Attackers Exploit Remote Access Tools</title>
 <link>https://www.huntress.com/blog/rogue-rmm-abuse-phishing-persistent-access</link>
-<description><![CDATA[The Huntress SOC uncovered phishing attacks that trick employees into installing rogue RMM tools like ScreenConnect for persistent access. Learn how to spot it.<br/><br/><em>Tags: ScreenConnect · phishing_social_eng</em>]]></description>
+<description><![CDATA[The Huntress SOC uncovered phishing attacks that trick employees into installing rogue RMM tools like ScreenConnect for persistent access. Learn how to spot it.<br/><br/><em>Tags: ScreenConnect · Anthropic/Claude · OpenAI/ChatGPT · phishing_social_eng</em>]]></description>
 <pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.huntress.com/blog/rogue-rmm-abuse-phishing-persistent-access</guid>
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
 <category>ScreenConnect</category>
+<category>Anthropic/Claude</category>
+<category>OpenAI/ChatGPT</category>
 <category>phishing_social_eng</category>
 </item>
 <item>
 <title>Ransomware Attacks Reach Record High for 2026</title>
 <link>https://www.infosecurity-magazine.com/news/ransomware-attacks-reach-record/</link>
-<description><![CDATA[A total of 1073 firms fell victim to ransomware attacks globally in August, with the industrial sector the most affected, according to new NCC data<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<description><![CDATA[A total of 1073 firms fell victim to ransomware attacks globally in August, with the industrial sector the most affected, according to new NCC data<br/><br/><em>Tags: Salesforce · ShinyHunters · LockBit · Cl0p · ransomware_extortion · zero_day · data_breach · apt_espionage</em>]]></description>
 <pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/ransomware-attacks-reach-record/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
+<category>Salesforce</category>
+<category>ShinyHunters</category>
+<category>LockBit</category>
+<category>Cl0p</category>
 </item>
 <item>
 <title>545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent</title>
@@ -1911,11 +1942,15 @@
 <item>
 <title>AI Attacks Move Faster. Huntress’ Agentic SOC Keeps Up</title>
 <link>https://www.huntress.com/blog/ai-attackers-machine-speed-huntress-athena</link>
-<description><![CDATA[AI hasn&apos;t changed attacker tradecraft, just the speed. See how Huntress built Athena, an agentic SOC partner, to help analysts keep pace.]]></description>
+<description><![CDATA[AI hasn&apos;t changed attacker tradecraft, just the speed. See how Huntress built Athena, an agentic SOC partner, to help analysts keep pace.<br/><br/><em>Tags: Anthropic/Claude · OpenAI/ChatGPT · ransomware_extortion · phishing_social_eng · credential_theft</em>]]></description>
 <pubDate>Tue, 22 Sep 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.huntress.com/blog/ai-attackers-machine-speed-huntress-athena</guid>
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
+<category>Anthropic/Claude</category>
+<category>OpenAI/ChatGPT</category>
+<category>ransomware_extortion</category>
+<category>phishing_social_eng</category>
 </item>
 <item>
 <title>North Korean Attackers Hit 30,000 Devices and Steal $10.7m</title>
@@ -1925,15 +1960,6 @@
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/north-korean-waterplum-30000/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>LausivLoader analysis, or how to pass data between malware stages, (Thu, Sep 17th)</title>
-<link>https://isc.sans.edu/diary/rss/33348</link>
-<description><![CDATA[At the end of August, a malspam message was caught in the quarantine of a mail gateway operated by one of my customers. The message was not especially remarkable â€“ it asked the recipient to review some attached requirements and provide a price quotation for a fiber optic system and appeared to impersonate an employee of a legitimate company.]]></description>
-<pubDate>Tue, 22 Sep 2026 13:10:20 +0000</pubDate>
-<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33348</guid>
-<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
-<category>government_authoritative</category>
 </item>
 <item>
 <title>NodeZero Federal</title>
@@ -2015,17 +2041,41 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
+<title>Agent Running in the Age of AI</title>
+<link>https://www.recordedfuture.com/blog/agent-running-ai</link>
+<description><![CDATA[In the age of AI, the new customer of intelligence is an agent. Every agent needs an intelligence layer it can trust to make good decisions and take confident action.]]></description>
+<pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/agent-running-ai</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
+</item>
+<item>
+<title>Risky identities continue to plague cloud infrastructures</title>
+<link>https://webflow.sysdig.com/blog/risky-identities-continue-to-plague-cloud-infrastructures</link>
+<description><![CDATA[Our research finds cloud-native IAM remains one of the most persistently misconfigured and poorly governed areas of security. Here’s what you can do.]]></description>
+<pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://webflow.sysdig.com/blog/risky-identities-continue-to-plague-cloud-infrastructures</guid>
+<source url="https://sysdig.com/feed/">Sysdig</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>21st September – Threat Intelligence Report</title>
 <link>https://research.checkpoint.com/2026/21st-september-threat-intelligence-report/</link>
-<description><![CDATA[For the latest discoveries in cyber research for the week of 21st September, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Japan’s Digital Agency, which operates the Government Solution Service used by multiple ministries, has confirmed a data breach after attackers exploited a vulnerability in a VPN appliance. Approximately 246,000 records were exposed, […] The post 21st September – Threat Intelligence Report appeared first on Check Point Research .<br/><br/><em>Tags: CVE-2026-91843 · CVE-2026-76460 · CVE-2026-76461 · ransomware_extortion · supply_chain · data_breach</em>]]></description>
+<description><![CDATA[For the latest discoveries in cyber research for the week of 21st September, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Japan’s Digital Agency, which operates the Government Solution Service used by multiple ministries, has confirmed a data breach after attackers exploited a vulnerability in a VPN appliance. Approximately 246,000 records were exposed, […] The post 21st September – Threat Intelligence Report appeared first on Check Point Research .<br/><br/><em>Tags: data_breach</em>]]></description>
 <pubDate>Mon, 21 Sep 2026 23:13:07 +0000</pubDate>
 <guid isPermaLink="true">https://research.checkpoint.com/2026/21st-september-threat-intelligence-report/</guid>
 <source url="https://research.checkpoint.com/feed/">Check Point Research</source>
 <category>threat_research_primary</category>
-<category>CVE-2026-91843</category>
-<category>CVE-2026-76460</category>
-<category>CVE-2026-76461</category>
-<category>ransomware_extortion</category>
+<category>data_breach</category>
+</item>
+<item>
+<title>Jev introduces a new shape of LLM - System One, aka Decision Models</title>
+<link>https://simonwillison.net/2026/Sep/21/jev/</link>
+<description><![CDATA[Last week TypeSafe AI unveiled Jev , their first example of a new category of model that they are calling &quot;System One models&quot; (I&apos;m with Maggie Appleton, I think &quot;decision models&quot; is a better name for these). Jev is an interesting variant on the usual LLM format: it still accepts text inputs, but instead of text output it returns floating point numbers corresponding to categories, yes/no questions, ratings, and associated confidence scores. TypeSafe describe Jev like this: Think of Jev as a frontier-intelligence function call: unstructured state in, typed probabilistic decisions out. It&apos;s also very fast, and really cheap . Regular LLMs are priced in terms of input and output tokens, with output generally charged at significantly higher rates. Jev charges only for input - output is free - and the input price of their first model is $0.042 per million tokens - cheaper even than OpenAI&apos;s GPT-5 Nano ($0.05/million). Jev lets you ask questions about text or semi-structured data. You compose ]]></description>
+<pubDate>Mon, 21 Sep 2026 23:09:20 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Sep/21/jev/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>From C2 Detection to Possible Victim Identification</title>
@@ -2055,16 +2105,22 @@
 <category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
+<title>The Unclosed Gap: Why the 2026 DBIR Proves the Decisive Battle Happens Before the First Internal Alert</title>
+<link>https://www.team-cymru.com/post/2026-dbir-external-threat-visibility-gap</link>
+<description><![CDATA[The 2026 DBIR reveals 88% of threats are external. Learn how Team Cymru&apos;s Pure Signal closes the visibility gap before internal alerts trigger.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/2026-dbir-external-threat-visibility-gap</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
 <title>Targeting the Defense Industrial Base: What Network Telemetry Reveals About Nation-State Pre-Positioning</title>
 <link>https://www.team-cymru.com/post/defense-industrial-base-nation-state-network-telemetry</link>
-<description><![CDATA[Discover how nation-states target the Defense Industrial Base via pre-positioning. Learn why network telemetry is crucial to detect these hidden cyber threats.<br/><br/><em>Tags: Volt Typhoon · Salt Typhoon · supply_chain · apt_espionage</em>]]></description>
+<description><![CDATA[Discover how nation-states target the Defense Industrial Base via pre-positioning. Learn why network telemetry is crucial to detect these hidden cyber threats.<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/defense-industrial-base-nation-state-network-telemetry</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
-<category>Volt Typhoon</category>
-<category>Salt Typhoon</category>
-<category>supply_chain</category>
 <category>apt_espionage</category>
 </item>
 <item>
@@ -2146,15 +2202,12 @@
 <item>
 <title>GRIMBOLT C2 Infrastructure Recon: Pivoting From One IP to a Mapped Cluster</title>
 <link>https://www.team-cymru.com/post/grimbolt-c2-infrastructure-mapping-and-reconnaisssance</link>
-<description><![CDATA[Explore how to Map GRIMBOLT C2 infrastructure linked to UNC6201 by pivoting from one IP using WHOIS, PDNS, ports, and X509 certificate fingerprints.<br/><br/><em>Tags: UNC6201 · UNC5221 · CVE-2026-22769 · zero_day · apt_espionage</em>]]></description>
+<description><![CDATA[Explore how to Map GRIMBOLT C2 infrastructure linked to UNC6201 by pivoting from one IP using WHOIS, PDNS, ports, and X509 certificate fingerprints.<br/><br/><em>Tags: UNC6201</em>]]></description>
 <pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/grimbolt-c2-infrastructure-mapping-and-reconnaisssance</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
 <category>UNC6201</category>
-<category>UNC5221</category>
-<category>CVE-2026-22769</category>
-<category>zero_day</category>
 </item>
 <item>
 <title>What Helping Secure SMBs Shows About Attack Trends</title>
@@ -2169,12 +2222,11 @@
 <item>
 <title>Tracking CyberStrikeAI Usage</title>
 <link>https://www.team-cymru.com/post/tracking-cyberstrikeai-usage</link>
-<description><![CDATA[Discover how CyberStrikeAI is revolutionizing AI-augmented offensive security. Explore its ties to Chinese state-sponsored actors and learn to detect it with NetFlow.<br/><br/><em>Tags: GitHub · apt_espionage</em>]]></description>
+<description><![CDATA[Discover how CyberStrikeAI is revolutionizing AI-augmented offensive security. Explore its ties to Chinese state-sponsored actors and learn to detect it with NetFlow.<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/tracking-cyberstrikeai-usage</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
-<category>GitHub</category>
 <category>apt_espionage</category>
 </item>
 <item>
@@ -2186,6 +2238,24 @@
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
 <category>ransomware_extortion</category>
+</item>
+<item>
+<title>Team Cymru Partners with INTERPOL in Coordinated Operation Red Card 2.0</title>
+<link>https://www.team-cymru.com/post/team-cymru-and-interpol-work-to-prevent-international-cyber-fraud</link>
+<description><![CDATA[Team Cymru&apos;s NetFlow-powered intelligence supports INTERPOL‚Äôs Operation Red Card 2.0, disrupting international cyber fraud and malicious infrastructure.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/team-cymru-and-interpol-work-to-prevent-international-cyber-fraud</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>Fraud Intelligence at Stripe: Inside the Financial Fraud Kill Chain</title>
+<link>https://www.team-cymru.com/post/financial-fraud-intelligence-with-vincent-passaro-of-stripe</link>
+<description><![CDATA[Learn how Stripe‚Äôs Vincent Passaro applies fraud intelligence to the financial fraud kill chain, breaking down account takeover and how to proactively defend.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/financial-fraud-intelligence-with-vincent-passaro-of-stripe</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
 <title>Protecting Critical National Infrastructure (CNI) through extended global visibility</title>
@@ -2200,14 +2270,12 @@
 <item>
 <title>Tracking ORBs on Singapore&apos;s Telecommunications Networks</title>
 <link>https://www.team-cymru.com/post/tracking-orbs-on-singapores-telecommunications-networks</link>
-<description><![CDATA[APT attacks by UNC3886 target Singapore telecom using ORB networks. Learn practical ORB tracking techniques to uncover hidden infrastructure with Scout.<br/><br/><em>Tags: Fortinet · UNC3886 · zero_day · apt_espionage</em>]]></description>
+<description><![CDATA[APT attacks by UNC3886 target Singapore telecom using ORB networks. Learn practical ORB tracking techniques to uncover hidden infrastructure with Scout.<br/><br/><em>Tags: UNC3886 · apt_espionage</em>]]></description>
 <pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/tracking-orbs-on-singapores-telecommunications-networks</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
-<category>Fortinet</category>
 <category>UNC3886</category>
-<category>zero_day</category>
 <category>apt_espionage</category>
 </item>
 <item>
@@ -2219,6 +2287,15 @@
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
 <category>Fortinet</category>
+</item>
+<item>
+<title>MediaLand Isn&apos;t Dormant: The Reality of Active OFAC-Sanctioned Infrastructure</title>
+<link>https://www.team-cymru.com/post/ofac-sanctions-compliance-active-risk-medialand-as206728</link>
+<description><![CDATA[OFAC sanctions compliance goes beyond policy‚Äîsanctioned bulletproof hosting like MediaLand AS206728 remains an active risk for financial services.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/ofac-sanctions-compliance-active-risk-medialand-as206728</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
 <title>Operationalize Pure Signal‚Ñ¢ in OpenCTI</title>
@@ -2241,15 +2318,12 @@
 <item>
 <title>Scattered Spider Attacks | Infrastructure and TTP Analysis</title>
 <link>https://www.team-cymru.com/post/scattered-spider-attacks-infrastructure-profile</link>
-<description><![CDATA[An in-depth analysis of Scattered Spider attacks, detailing the group‚Äôs infrastructure usage and TTPs to help defenders detect and disrupt activity earlier.<br/><br/><em>Tags: Scattered Spider · BlackCat/ALPHV · RansomHub · ransomware_extortion · phishing_social_eng · credential_theft</em>]]></description>
+<description><![CDATA[An in-depth analysis of Scattered Spider attacks, detailing the group‚Äôs infrastructure usage and TTPs to help defenders detect and disrupt activity earlier.<br/><br/><em>Tags: Scattered Spider</em>]]></description>
 <pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/scattered-spider-attacks-infrastructure-profile</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
 <category>Scattered Spider</category>
-<category>BlackCat/ALPHV</category>
-<category>RansomHub</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Reducing Friction in Cyber Threat Intelligence: Views from a Director of Advanced Cyber Practices</title>
@@ -2275,6 +2349,24 @@
 <description><![CDATA[Accelerate triage and automate threat hunting with the Team Cymru and OpenCTI integration. Combine global visibility with open-source orchestration for faster defense.]]></description>
 <pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/team-cymru-and-opencti-better-together-for-threat-intelligence</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>Analysing Carding Infrastructure</title>
+<link>https://www.team-cymru.com/post/analysing-carding-infrastructure</link>
+<description><![CDATA[A cybercrime intelligence analysis of carding operations, detailing the infrastructure, hosting providers, and network patterns used to support carding activity.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/analysing-carding-infrastructure</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>RADAR Offers Full External Asset Discovery at the Click of a Button</title>
+<link>https://www.team-cymru.com/post/radar-offers-full-external-asset-discovery-at-the-click-of-a-button</link>
+<description><![CDATA[Stop chasing unknown assets. Learn how RADAR provides a full footprint of internet-exposed assets and CVE context in minutes using a single search.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/radar-offers-full-external-asset-discovery-at-the-click-of-a-button</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
 </item>
@@ -2326,11 +2418,38 @@
 <category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
+<title>With RADAR, Never Worry About Losing Sight of Exposed Assets</title>
+<link>https://www.team-cymru.com/post/with-radar-never-worry-about-losing-sight-of-exposed-assets</link>
+<description><![CDATA[Stop losing sight of exposed assets and shadow IT. RADAR provides instant, complete visibility into your entire digital footprint and third-party suppliers, without noisy scanning. Learn how to get started today.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/with-radar-never-worry-about-losing-sight-of-exposed-assets</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>Team Cymru Supports Europol to Takedown of Three Key Cybercriminal Tools as Part of Operation Endgame</title>
+<link>https://www.team-cymru.com/post/team-cymru-supports-europol-to-takedown-of-three-key-cybercriminal-tools-as-part-of-operation-endgame</link>
+<description><![CDATA[Team Cymru provided critical data to Europol, leading to the massive disruption of over 1,000 malicious servers and the arrest of a major cybercriminal. See the full Operation Endgame report.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/team-cymru-supports-europol-to-takedown-of-three-key-cybercriminal-tools-as-part-of-operation-endgame</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
 <title>Team Cymru and Abusix Partner to Eradicate Botnets</title>
 <link>https://www.team-cymru.com/post/team-cymru-and-abusix-partner-to-eradicate-botnets</link>
 <description><![CDATA[Team Cymru&apos;s threat intelligence and Abusix&apos;s reporting join forces to close the loop on botnet infections. Learn how the partnership systematically eradicates Mirai.]]></description>
 <pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/team-cymru-and-abusix-partner-to-eradicate-botnets</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>No Scans. No Noise. Just Complete Exposure Visibility</title>
+<link>https://www.team-cymru.com/post/no-scans-no-noise-just-complete-visibility-introducing-puresignal-radar</link>
+<description><![CDATA[The infrastructure you don&apos;t know about will hurt you. RADAR delivers complete, passive asset discovery using real network traffic. Stop active scanning risks.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/no-scans-no-noise-just-complete-visibility-introducing-puresignal-radar</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
 </item>
@@ -2366,14 +2485,21 @@
 <item>
 <title>Supply Chain &amp; CTI</title>
 <link>https://www.team-cymru.com/post/supply-chain-cti</link>
-<description><![CDATA[This blog explores how cyber threat intelligence (CTI) must change and support a new approach to supply chain risk.<br/><br/><em>Tags: ransomware_extortion · supply_chain · data_breach</em>]]></description>
+<description><![CDATA[This blog explores how cyber threat intelligence (CTI) must change and support a new approach to supply chain risk.<br/><br/><em>Tags: supply_chain</em>]]></description>
 <pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/supply-chain-cti</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
-<category>ransomware_extortion</category>
 <category>supply_chain</category>
-<category>data_breach</category>
+</item>
+<item>
+<title>Uncovering DPRK Remote Workers: Detecting Hidden Threats Through Internet Telemetry</title>
+<link>https://www.team-cymru.com/post/uncovering-dprk-remote-workers</link>
+<description><![CDATA[This blog explores unpacks key insights and explains how internet telemetry can be used to detect these threats in the real world.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/uncovering-dprk-remote-workers</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
 <title>Inside DanaBot‚Äôs Infrastructure: In Support of Operation Endgame II</title>
@@ -2390,6 +2516,15 @@
 <description><![CDATA[Explore how federal agencies can align compliance mandates like NIST SP 800-171, CMMC, and FISMA with proactive threat intelligence for stronger security.]]></description>
 <pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/understanding-the-federal-compliance-landscape</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>Team Cymru Achieves ISO 27001 Re-Certification for Third Consecutive Year</title>
+<link>https://www.team-cymru.com/post/team-cymru-achieves-iso-27001-re-certification-for-third-consecutive-year</link>
+<description><![CDATA[Team Cymru earns ISO 27001 re-certification for the third year, reinforcing its commitment to security, compliance, and protecting customer data. Learn more.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/team-cymru-achieves-iso-27001-re-certification-for-third-consecutive-year</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
 </item>
@@ -2411,6 +2546,15 @@
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
 <category>ai_security</category>
+</item>
+<item>
+<title>Tracing the Path From SmartApeSG to NetSupport RAT</title>
+<link>https://www.team-cymru.com/post/tracing-the-path-from-smartapesg-to-netsupport-rat</link>
+<description><![CDATA[Investigation reveals how SmartApeSG delivers NetSupport RAT, exposing links to RAT clusters, crypto services, and suspicious infrastructure. Learn more.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/tracing-the-path-from-smartapesg-to-netsupport-rat</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
 <title>Building a More Resilient Security Strategy Through Threat Intelligence Integration</title>
@@ -2440,15 +2584,31 @@
 <category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
+<title>Jingle Shells: How Virtual Offices Enable a Facade of Legitimacy</title>
+<link>https://www.team-cymru.com/post/jingle-shells-how-virtual-offices-enable-a-facade-of-legitimacy</link>
+<description><![CDATA[Virtual offices provide flexibility but also enable fraudsters to establish shell companies. Learn how this trend impacts businesses and regulations globally.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/jingle-shells-how-virtual-offices-enable-a-facade-of-legitimacy</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>A Visualizza into Recent IcedID Campaigns:</title>
+<link>https://www.team-cymru.com/post/a-visualizza-into-recent-icedid-campaigns</link>
+<description><![CDATA[In this blog post we examine recent trends in IcedID / BokBot campaigns, looking at activity for a one-week period in September 2022.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/a-visualizza-into-recent-icedid-campaigns</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
 <title>Threat Intelligence: A CISO ROI Guide - Prevent Data Breaches</title>
 <link>https://www.team-cymru.com/post/threat-intelligence-a-ciso-roi-guide-prevent-data-breaches</link>
-<description><![CDATA[Uncover the power of threat intelligence for a technology company. Learn how to prevent data breaches and maximize ROI as a CISO with expert guidance.<br/><br/><em>Tags: supply_chain · data_breach</em>]]></description>
+<description><![CDATA[Uncover the power of threat intelligence for a technology company. Learn how to prevent data breaches and maximize ROI as a CISO with expert guidance.]]></description>
 <pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/threat-intelligence-a-ciso-roi-guide-prevent-data-breaches</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
-<category>supply_chain</category>
-<category>data_breach</category>
 </item>
 <item>
 <title>Threat Intelligence: A CISO ROI Guide - Focus on Real-Time Threat Intelligence</title>
@@ -2462,14 +2622,66 @@
 <item>
 <title>Threat Intelligence: A CISO ROI Guide - Elite Threat Hunters Prevent Supply Chain Breaches</title>
 <link>https://www.team-cymru.com/post/threat-intelligence-a-ciso-roi-guide-elite-threat-hunters-prevent-supply-chain-breaches</link>
-<description><![CDATA[Discover how elite threat hunters and Pure Signal Recon help CISOs prevent supply chain breaches, save millions, and boost security ROI. Learn more.<br/><br/><em>Tags: ransomware_extortion · supply_chain · data_breach</em>]]></description>
+<description><![CDATA[Discover how elite threat hunters and Pure Signal Recon help CISOs prevent supply chain breaches, save millions, and boost security ROI. Learn more.<br/><br/><em>Tags: supply_chain</em>]]></description>
 <pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/threat-intelligence-a-ciso-roi-guide-elite-threat-hunters-prevent-supply-chain-breaches</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
-<category>ransomware_extortion</category>
 <category>supply_chain</category>
-<category>data_breach</category>
+</item>
+<item>
+<title>Unmasking AVE_MARIA</title>
+<link>https://www.team-cymru.com/post/unmasking-ave-maria</link>
+<description><![CDATA[Uncover the secrets of AVE_MARIA, a mysterious technology company shaking up the industry. Explore the truth behind the mask in this revealing blog post.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/unmasking-ave-maria</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>Top 10 TCP Ports for Border Policy Review</title>
+<link>https://www.team-cymru.com/post/top-10-tcp-ports-for-border-policy-review</link>
+<description><![CDATA[Discover the top 10 TCP ports for border policy review in this insightful blog post. Discover how these ports impact technology companies and border security.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/top-10-tcp-ports-for-border-policy-review</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>What We‚Äôre Seeing with x.509 Certificates and Why You Should Worry</title>
+<link>https://www.team-cymru.com/post/what-we-re-seeing-with-x-509-certificates-and-why-you-should-worry</link>
+<description><![CDATA[Uncover the alarming trends in x.509 certificates and why it&apos;s crucial for tech companies to take notice. Stay informed and protect your digital assets.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/what-we-re-seeing-with-x-509-certificates-and-why-you-should-worry</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>Azorult ‚Äì what we see using our own tools</title>
+<link>https://www.team-cymru.com/post/azorult-what-we-see-using-our-own-tools</link>
+<description><![CDATA[Explore Azorult through the lens of our proprietary tools and gain unique insights into this technology company&apos;s innovative solutions.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/azorult-what-we-see-using-our-own-tools</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>Detecting Cyber Recon Using Network Signals</title>
+<link>https://www.team-cymru.com/post/detecting-cyber-recon-using-network-signals</link>
+<description><![CDATA[Uncover the secrets of detecting cyber recon using network signals. Stay one step ahead with insights from a leading technology company.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/detecting-cyber-recon-using-network-signals</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>Gamaredon: An Insight Into Victimology Using Recon</title>
+<link>https://www.team-cymru.com/post/gamaredon-an-insight-into-victimology-using-augury</link>
+<description><![CDATA[Uncover the tactics of Gamaredon cyberattacks and gain a deeper understanding of victimology through reconnaissance. Explore the latest insights and analysis.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/gamaredon-an-insight-into-victimology-using-augury</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
 <title>How the Iranian Cyber Security Agency Detects Emissary Panda Malware</title>
@@ -2477,6 +2689,51 @@
 <description><![CDATA[Uncover the intricate methods employed by the Iranian Cyber Security Agency to identify and combat Emissary Panda malware, a crucial insight for tech companies.]]></description>
 <pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/how-the-iranian-cyber-security-agency-detects-emissary-panda-malware</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>BGP Hijacking and BGP Security</title>
+<link>https://www.team-cymru.com/post/bgp-hijacking-and-bgp-security</link>
+<description><![CDATA[Learn how BGP hijacking can impact your network security. Our in-depth guide explores BGP security measures to protect your technology company&apos;s infrastructure.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/bgp-hijacking-and-bgp-security</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>Adapt and Overcome</title>
+<link>https://www.team-cymru.com/post/adapt-and-overcome</link>
+<description><![CDATA[Discover how a &apos;Technology Company&apos; can adapt and overcome challenges with innovative strategies. Learn how to thrive in the face of adversity.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/adapt-and-overcome</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>Network Perimeters in the Age of Social Distancing</title>
+<link>https://www.team-cymru.com/post/network-perimeters-in-the-age-of-social-distancing</link>
+<description><![CDATA[Explore the impact of social distancing on network perimeters in the age of COVID-19. Learn how technology companies are adapting to secure remote work environments.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/network-perimeters-in-the-age-of-social-distancing</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>GhostDNSbusters</title>
+<link>https://www.team-cymru.com/post/ghostdnsbusters</link>
+<description><![CDATA[Unleash the power of &apos;GhostDNSbusters&apos; with cutting-edge technology solutions. Join the revolution with this innovative technology company.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/ghostdnsbusters</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>GhostDNSbusters (Part 2)</title>
+<link>https://www.team-cymru.com/post/illuminating-ghostdns-infrastructure-part-2</link>
+<description><![CDATA[Uncover the latest in the battle against cyber threats with &apos;GhostDNSbusters (Part 2)&apos;, as we delve into the cutting-edge tactics of a leading Technology Company.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/illuminating-ghostdns-infrastructure-part-2</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
 </item>
@@ -2509,11 +2766,29 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
+<title>GhostDNSbusters (Part 3)</title>
+<link>https://www.team-cymru.com/post/ghostdnsbusters-part-3</link>
+<description><![CDATA[Uncover the latest tech insights with GhostDNSbusters (Part 3) as we delve into the world of cybersecurity. Stay ahead with our expert analysis!]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/ghostdnsbusters-part-3</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
 <title>Taking Down Emotet</title>
 <link>https://www.team-cymru.com/post/taking-down-emotet</link>
 <description><![CDATA[Learn how a leading Technology Company successfully dismantled Emotet, the notorious malware, and secured its systems against future cyber threats.]]></description>
 <pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/taking-down-emotet</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>Interviews from The Underground Economy Conference ‚Äì Part 1</title>
+<link>https://www.team-cymru.com/post/interviews-from-the-underground-economy-conference-part-1</link>
+<description><![CDATA[Explore exclusive interviews from The Underground Economy Conference ‚Äì Part 1, featuring insights and perspectives from leaders in the underground economy.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/interviews-from-the-underground-economy-conference-part-1</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
 </item>
@@ -2527,6 +2802,15 @@
 <category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
+<title>Interviews from The Underground Economy Conference ‚Äì Part 2</title>
+<link>https://www.team-cymru.com/post/interviews-from-the-underground-economy-conference-part-2</link>
+<description><![CDATA[Explore exclusive interviews from The Underground Economy Conference ‚Äì Part 2, featuring insights from leaders in the technology industry and beyond.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/interviews-from-the-underground-economy-conference-part-2</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
 <title>Transparent Tribe APT Infrastructure Mapping - Part 1</title>
 <link>https://www.team-cymru.com/post/transparent-tribe-apt-infrastructure-mapping-1</link>
 <description><![CDATA[This is the first article of a two-part series on Transparent Tribe‚Äôs CrimsonRAT infrastructure. We have been tracking CrimsonRAT , Transparent Tribe‚Äôs most ubiquitous remote access tool, over a number of months.<br/><br/><em>Tags: apt_espionage</em>]]></description>
@@ -2535,6 +2819,15 @@
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
 <category>apt_espionage</category>
+</item>
+<item>
+<title>Tracking BokBot (IcedID) Infrastructure</title>
+<link>https://www.team-cymru.com/post/tracking-bokbot-icedid-infrastructuremapping-a-vast-and-currently-active-icedid-network</link>
+<description><![CDATA[Uncover the intricate web of BokBot (IcedID) infrastructure with expert insights. Stay ahead of the game with our in-depth analysis.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/tracking-bokbot-icedid-infrastructuremapping-a-vast-and-currently-active-icedid-network</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
 <title>Transparent Tribe APT Infrastructure Mapping - Part 2</title>
@@ -2562,6 +2855,15 @@
 <description><![CDATA[Uncover the secrets of threat hunting maturity with Team Cymru&apos;s expert insights. Level up your cybersecurity game with this in-depth exploration.]]></description>
 <pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/team-cymru-s-threat-hunting-maturity-model-explainedpart-1</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>MoqHao Part 1.5: High-Level Trends of Recent Campaigns Targeting Japan</title>
+<link>https://www.team-cymru.com/post/moqhao-part-1-5-high-level-trends-of-recent-campaigns-targeting-japan</link>
+<description><![CDATA[Explore the high-level trends of recent campaigns targeting Japan in MoqHao Part 1.5. Discover how technology companies are leveraging this valuable market.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/moqhao-part-1-5-high-level-trends-of-recent-campaigns-targeting-japan</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
 </item>
@@ -2604,16 +2906,42 @@
 <category>apt_espionage</category>
 </item>
 <item>
+<title>Insights into North Korean ‚ÄòInternet Outages‚Äô</title>
+<link>https://www.team-cymru.com/post/insight-into-north-korean-internet-outages</link>
+<description><![CDATA[Explore the mystery behind North Korean &apos;Internet Outages&apos; and gain insight into the technological implications in this intriguing blog post.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/insight-into-north-korean-internet-outages</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
 <title>Record breaking DDoS Potential Discovered: CVE-2022-26143</title>
 <link>https://www.team-cymru.com/post/record-breaking-ddos-potential-discovered-cve-2022-26143</link>
-<description><![CDATA[Discover how the CVE-2022-26143 vulnerability could lead to record-breaking DDoS attacks, and what it means for the cybersecurity landscape.<br/><br/><em>Tags: CVE-2022-26143 · ddos · active_exploitation</em>]]></description>
+<description><![CDATA[Discover how the CVE-2022-26143 vulnerability could lead to record-breaking DDoS attacks, and what it means for the cybersecurity landscape.<br/><br/><em>Tags: CVE-2022-26143 · ddos</em>]]></description>
 <pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/record-breaking-ddos-potential-discovered-cve-2022-26143</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
 <category>CVE-2022-26143</category>
 <category>ddos</category>
-<category>active_exploitation</category>
+</item>
+<item>
+<title>Raccoon Stealer ‚Äì An Insight into Victim ‚ÄúGates‚Äù</title>
+<link>https://www.team-cymru.com/post/raccoon-stealer-an-insight-into-victim-gates</link>
+<description><![CDATA[Uncover the cunning tactics of the Raccoon Stealer and its impact on the tech industry.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/raccoon-stealer-an-insight-into-victim-gates</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>Sliver Case Study: Assessing Common Offensive Security Tools</title>
+<link>https://www.team-cymru.com/post/sliver-case-study-assessing-common-offensive-security-tools</link>
+<description><![CDATA[Explore our in-depth case study on assessing common offensive security tools, perfect for technology companies seeking to bolster their defense strategies.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/sliver-case-study-assessing-common-offensive-security-tools</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
 <title>The Sliding Scale of Threat Actor Sophistication When Reacting to 0-day Vulnerabilities</title>
@@ -2634,16 +2962,58 @@
 <category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
+<title>Mythic Case Study: Assessing Common Offensive Security Tools</title>
+<link>https://www.team-cymru.com/post/mythic-case-study-assessing-common-offensive-security-tools</link>
+<description><![CDATA[Discover how a leading technology company evaluates common offensive security tools in this insightful mythic case study. Dive into the world of cybersecurity!]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/mythic-case-study-assessing-common-offensive-security-tools</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>Team Cymru Myth vs Fact</title>
+<link>https://www.team-cymru.com/post/team-cymru-myth-vs-fact</link>
+<description><![CDATA[Separating myths from facts with Team Cymru. Learn the truth about cybersecurity and internet security with insights from a leading technology company.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/team-cymru-myth-vs-fact</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>Seychelles, Seychelles, on the C(2) Shore</title>
+<link>https://www.team-cymru.com/post/seychelles-seychelles-on-the-c-2-shore</link>
+<description><![CDATA[Explore the beauty of Seychelles and its C(2) Shore with our technology company. Discover the perfect blend of nature and innovation on this breathtaking island.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/seychelles-seychelles-on-the-c-2-shore</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
 <title>High Vulnerability in OpenSSL 3.0</title>
 <link>https://www.team-cymru.com/post/high-vulnerability-in-openssl-3-0</link>
-<description><![CDATA[Stay informed about the high vulnerability in OpenSSL 3.0 with our latest blog post. Understand the impact on security and protect your technology company.<br/><br/><em>Tags: CVE-2022-3602 · CVE-2022-3786 · ddos</em>]]></description>
+<description><![CDATA[Stay informed about the high vulnerability in OpenSSL 3.0 with our latest blog post. Understand the impact on security and protect your technology company.]]></description>
 <pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/high-vulnerability-in-openssl-3-0</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
-<category>CVE-2022-3602</category>
-<category>CVE-2022-3786</category>
-<category>ddos</category>
+</item>
+<item>
+<title>Inside the V1 Raccoon Stealer‚Äôs Den</title>
+<link>https://www.team-cymru.com/post/inside-the-v1-raccoon-stealer-s-den</link>
+<description><![CDATA[Stay ahead of the latest cybersecurity threats with Team Cymru&apos;s expert analysis. Dive deep into the V1 Raccoon Stealer&apos;s den and learn how it operates and the possible connections to Kharkiv and the CC2BTC Marketplace.]]></description>
+<pubDate>Mon, 21 Sep 2026 22:37:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/inside-the-v1-raccoon-stealer-s-den</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>Cloudflare Python Workers are now generally available</title>
+<link>https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/</link>
+<description><![CDATA[Cloudflare Python Workers are now generally available After a two year preview, Cloudflare&apos;s support for running Python code in their server-side Workers platform is now stable: &quot;Python is now a first-class, fully supported language on the Cloudflare Developer Platform&quot;. A neat thing about this is how it works. Cloudflare are running Python compiled to WebAssembly via Pyodide in their V8-based workerd runtime. This comes with some limitations, documented here - most notably both multiprocessing and threading are non-functional in the WebAssembly VM. One particularly interesting detail of this is the local development environment story - their pywrangler development tool (confusingly packaged as workers-py on PyPI) runs a full local simulation of their stack, including executing code with Pyodide in WebAssembly in V8 in a 123MB workerd binary, which for me ended up in node_modules/@cloudflare/workerd-darwin-arm64/bin/workerd . Python Workers represent a significant investment in the wid]]></description>
+<pubDate>Mon, 21 Sep 2026 22:25:44 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>How AI Agents Can Trigger Runaway Costs for Enterprises</title>
@@ -3041,15 +3411,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Note on 18th September 2026</title>
-<link>https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/</link>
-<description><![CDATA[Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park. Skeptical geneticist: &quot;pfft, it&apos;s just frog DNA. And they deliberately let them eat people for the marketing.&quot; Tags: llms , ai , generative-ai]]></description>
-<pubDate>Fri, 18 Sep 2026 19:21:32 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>MFA Won&apos;t Save You From OAuth Consent Abuse</title>
 <link>https://www.darkreading.com/vulnerabilities-threats/mfa-oauth-consent-abuse</link>
 <description><![CDATA[MFA is essential, but it cannot replace OAuth governance, least-privilege scopes, consent monitoring, and rapid revocation.]]></description>
@@ -3394,20 +3755,20 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Cyber Adversary Simulation (CyAS): scheme documents now available</title>
-<link>https://www.ncsc.gov.uk/blogs/cyber-adversary-simulation-cyas-scheme-documents-now-available</link>
-<description><![CDATA[Our view of good cyber adversary simulation – and how assured providers can deliver it.]]></description>
-<pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/cyber-adversary-simulation-cyas-scheme-documents-now-available</guid>
-<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
-<category>government_authoritative</category>
-</item>
-<item>
 <title>Adversary simulation: what you need to know</title>
 <link>https://www.ncsc.gov.uk/guidance/adversary-simulation-what-you-need-to-know</link>
 <description><![CDATA[Adversary simulation (&apos;red teaming&apos;) tests your ability to prevent, detect and respond to cyber attacks.]]></description>
 <pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.ncsc.gov.uk/guidance/adversary-simulation-what-you-need-to-know</guid>
+<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
+<category>government_authoritative</category>
+</item>
+<item>
+<title>Cyber Adversary Simulation (CyAS): scheme documents now available</title>
+<link>https://www.ncsc.gov.uk/blogs/cyber-adversary-simulation-cyas-scheme-documents-now-available</link>
+<description><![CDATA[Our view of good cyber adversary simulation – and how assured providers can deliver it.]]></description>
+<pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/cyber-adversary-simulation-cyas-scheme-documents-now-available</guid>
 <source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
 <category>government_authoritative</category>
 </item>
@@ -5970,15 +6331,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>Hackers Frequently Target Healthcare and Finance Orgs</title>
-<link>https://www.huntress.com/blog/cyberattack-readiness</link>
-<description><![CDATA[Healthcare organizations and banks handle highly personal information. But a new Huntress survey shows many threat actors frequently target these companies.]]></description>
-<pubDate>Tue, 01 Sep 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/cyberattack-readiness</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>Financially Motivated Threat Actor BREEZE COMET Targets Brazil</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/financially-motivated-threat-actor-breeze-comet-targets-brazil/</link>
 <description><![CDATA[Introduction Beginning in 2024 Mandiant investigated a string of compromises affecting Brazilian financial services, retail, and eCommerce organizations. Google Threat Intelligence Group (GTIG) tracks this activity as BREEZE COMET (formerly UNC5669), a financially motivated threat actor specializing in manipulating payment systems and banking software in Brazil to conduct fraudulent transfers. This activity overlaps with operations publicly reported as Plump Spider and SHADOW-AETHER-064 . In this blog, we detail BREEZE COMET’s tactics and toolkit, and provide mitigation recommendations and detections to support organizations in defending against this active and developing threat. BREEZE COMET tactics have evolved over time to leverage a customized malware suite and compromised, trusted websites to facilitate initial access, command and control (C2), and to interact with financial software and payment APIs. BREEZE COMET’s operational infrastructure may also indicate intent to expand the<br/><br/><em>Tags: UNC5669</em>]]></description>
@@ -5987,6 +6339,15 @@
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>UNC5669</category>
+</item>
+<item>
+<title>Hackers Frequently Target Healthcare and Finance Orgs</title>
+<link>https://www.huntress.com/blog/cyberattack-readiness</link>
+<description><![CDATA[Healthcare organizations and banks handle highly personal information. But a new Huntress survey shows many threat actors frequently target these companies.]]></description>
+<pubDate>Tue, 01 Sep 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/cyberattack-readiness</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>65% of Enterprises Have Seen AI Agents Act Out of Scope</title>
@@ -8361,15 +8722,6 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Mac Malware Drains Crypto Wallets Via Fake CAPTCHA Scam</title>
-<link>https://www.huntress.com/blog/mac-crypto-draining-malware</link>
-<description><![CDATA[A ClickFix scam tricked a Mac user into running a Terminal command that installed Go-based malware able to steal Keychain passwords and drain crypto wallets.]]></description>
-<pubDate>Thu, 06 Aug 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/mac-crypto-draining-malware</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>UNC6671 Rebrands: Multi-Brand Vishing Extortion Targets Financial Services and Enterprise Cloud Environments</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/unc6671-targets-financial-services-and-enterprise-cloud-environments/</link>
 <description><![CDATA[Written by: Tyler McLellan, Austin Larsen Introduction Google Threat Intelligence Group (GTIG) continues to track UNC6671 actively conducting compromises leading to data theft extortion, despite the alleged announced retirement of the BlackFile extortion brand in May 2026. Telemetry and infrastructure analysis reveal that rather than disbanding, UNC6671 has diversified its operations across multiple extortion fronts including Redact, Pink, Helix, and Falcon. UNC6671 continues to rely on voice phishing (vishing) to target enterprise employees, posing as IT helpdesk staff facilitating mandatory, urgent security migrations. Significantly, the threat actor often contacts employees via their personal mobile devices. These calls lure victims to spoofed login portals where Adversary-in-the-Middle (AiTM) infrastructure intercepts credentials and multi-factor authentication (MFA) tokens. Once session persistence is established, the actors deploy automated scripts for data exfiltration from ente<br/><br/><em>Tags: UNC6671 · ransomware_extortion · phishing_social_eng · mfa_bypass</em>]]></description>
@@ -8381,6 +8733,15 @@
 <category>ransomware_extortion</category>
 <category>phishing_social_eng</category>
 <category>mfa_bypass</category>
+</item>
+<item>
+<title>Mac Malware Drains Crypto Wallets Via Fake CAPTCHA Scam</title>
+<link>https://www.huntress.com/blog/mac-crypto-draining-malware</link>
+<description><![CDATA[A ClickFix scam tricked a Mac user into running a Terminal command that installed Go-based malware able to steal Keychain passwords and drain crypto wallets.]]></description>
+<pubDate>Thu, 06 Aug 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/mac-crypto-draining-malware</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>From ranking to recommended: get your site ready to thrive in the age of AI agents</title>
@@ -8940,15 +9301,6 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>$250M ARR Was Never the Goal. It Came From Staying True to Our Mission.</title>
-<link>https://www.huntress.com/blog/business-reflection-250m-arr</link>
-<description><![CDATA[Hitting $250M ARR is a milestone, but it wasn&apos;t the goal. CEO Kyle Hanslovan reflects on Huntress&apos; mission to protect the 99% and why staying true to it remains his top priority.&quot;]]></description>
-<pubDate>Thu, 30 Jul 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/business-reflection-250m-arr</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>Batten Down Your Packages: Mitigation Guidance for Supply Chain Compromise</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/mitigation-guidance-for-supply-chain-compromise/</link>
 <description><![CDATA[Written by: Kelli Vanderlee, Stuart Carrera For years, the cybersecurity industry&apos;s understanding of software supply chain compromise has been anchored by a few watershed events, including Russian cyber espionage actor ICE RELIC’s (formerly known as APT29) 2020 compromise of SolarWinds and North Korean cyber espionage actor UNC4736&apos;s 2023 compromise of 3CX . However, Google Threat Intelligence Group (GTIG) has been tracking growth in threat activity targeting open source software repositories to conduct supply chain compromises over the past several years. A series of large scale open source software supply chain compromise campaigns in 2025 and the first half of 2026 underscore how important it is that organizations implement defensive strategies that directly address this threat vector. In this blog post, GTIG and Mandiant discuss trends we have observed in threat actor use of software supply chain compromise, and provide mitigation and hardening recommendations that incorporate insi<br/><br/><em>Tags: SolarWinds · APT29 · UNC4736 · supply_chain · apt_espionage</em>]]></description>
@@ -8960,6 +9312,15 @@
 <category>APT29</category>
 <category>UNC4736</category>
 <category>supply_chain</category>
+</item>
+<item>
+<title>$250M ARR Was Never the Goal. It Came From Staying True to Our Mission.</title>
+<link>https://www.huntress.com/blog/business-reflection-250m-arr</link>
+<description><![CDATA[Hitting $250M ARR is a milestone, but it wasn&apos;t the goal. CEO Kyle Hanslovan reflects on Huntress&apos; mission to protect the 99% and why staying true to it remains his top priority.&quot;]]></description>
+<pubDate>Thu, 30 Jul 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/business-reflection-250m-arr</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>CosmosEscape: Taking Over Every Database in Azure Cosmos DB</title>
@@ -9318,15 +9679,6 @@
 <category>Anthropic/Claude</category>
 </item>
 <item>
-<title>CMMC Updates: DoW Pause and Huntress Hits 50% of Requirements</title>
-<link>https://www.huntress.com/blog/huntress-managed-ispm-cmmc-compliance</link>
-<description><![CDATA[DoW paused the CMMC Phase II deadline in July, but the underlying compliance obligations didn&apos;t move. Meanwhile, Huntress Managed ISPM pushes our NIST SP 800-171 coverage to 55 of 110 requirements. Here&apos;s what changed, what didn&apos;t, and why we&apos;re not slowing down.]]></description>
-<pubDate>Fri, 24 Jul 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/huntress-managed-ispm-cmmc-compliance</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>Updated Cyber Threat Actor Naming System</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system/</link>
 <description><![CDATA[Update (July 30): A table listing the new names of select prominent threat actors was appended to this post. Introduction Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents an effort to standardize tracking across platforms and public reporting. Why are we Adopting a Different Naming System? Historically, Mandiant and Google’s Threat Analysis Group (TAG) maintained distinct tracking systems, relying on parallel naming schemas that grew independently over time. The creation of GTIG has necessitated a new, fused tracking system, and a new naming system. Thinking to the future, GTIG’s new system will rely on cryptonyms. Relying on sequential numbers or disparate identifiers (e.g. APT1) fails to provide defenders the critical context needed to operate quickly. Threat tracking shouldn’t be an exercise in memorization, but rather one of intuition. The new naming convention aligns with i<br/><br/><em>Tags: APT1</em>]]></description>
@@ -9335,6 +9687,15 @@
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>APT1</category>
+</item>
+<item>
+<title>CMMC Updates: DoW Pause and Huntress Hits 50% of Requirements</title>
+<link>https://www.huntress.com/blog/huntress-managed-ispm-cmmc-compliance</link>
+<description><![CDATA[DoW paused the CMMC Phase II deadline in July, but the underlying compliance obligations didn&apos;t move. Meanwhile, Huntress Managed ISPM pushes our NIST SP 800-171 coverage to 55 of 110 requirements. Here&apos;s what changed, what didn&apos;t, and why we&apos;re not slowing down.]]></description>
+<pubDate>Fri, 24 Jul 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/huntress-managed-ispm-cmmc-compliance</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>Risky Bulletin: Western cyber agencies warn of Russian hacks of Zimbra servers</title>
@@ -9799,6 +10160,15 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
+<title>Demystifying AI Exploits: A Blueprint for AI-Assisted Vulnerability Management</title>
+<link>https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management/</link>
+<description><![CDATA[Written by: Jules Czarniak Introduction As highlighted in the Mandiant M-Trends 2026 report , the mean time-to-exploit (TTE) has dropped to -7 days, meaning vulnerabilities are often exploited a week before a patch even exists. To keep pace, many security teams are exploring how to integrate large language model (LLM) agents into their codebases, development environments and continuous integration and continuous delivery (CI/CD) pipelines for automated vulnerability discovery and remediation. However, deploying privileged artificial intelligence (AI) agents without mature integration processes introduces new architectural risks. In response to customer inquiries about how to safely integrate AI capabilities into vulnerability management workflows, this blog provides actionable guidance from Mandiant Consulting about how to establish operational guardrails for AI assisted vulnerability management, including several detailed scenarios. What each of these examples show is that security te]]></description>
+<pubDate>Thu, 16 Jul 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management/</guid>
+<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>Custom HTML for Custom Phishing: Make the Fake Feel Real</title>
 <link>https://www.huntress.com/blog/custom-html-for-custom-phishing</link>
 <description><![CDATA[Build personalized, realistic phishing scenarios with Huntress Custom HTML for Custom Phishing, tailored to your organization&apos;s unique risks and vendors.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
@@ -9816,15 +10186,6 @@
 <guid isPermaLink="true">https://www.huntress.com/blog/athena-huntress-agentic-soc-analyst</guid>
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>Demystifying AI Exploits: A Blueprint for AI-Assisted Vulnerability Management</title>
-<link>https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management/</link>
-<description><![CDATA[Written by: Jules Czarniak Introduction As highlighted in the Mandiant M-Trends 2026 report , the mean time-to-exploit (TTE) has dropped to -7 days, meaning vulnerabilities are often exploited a week before a patch even exists. To keep pace, many security teams are exploring how to integrate large language model (LLM) agents into their codebases, development environments and continuous integration and continuous delivery (CI/CD) pipelines for automated vulnerability discovery and remediation. However, deploying privileged artificial intelligence (AI) agents without mature integration processes introduces new architectural risks. In response to customer inquiries about how to safely integrate AI capabilities into vulnerability management workflows, this blog provides actionable guidance from Mandiant Consulting about how to establish operational guardrails for AI assisted vulnerability management, including several detailed scenarios. What each of these examples show is that security te]]></description>
-<pubDate>Thu, 16 Jul 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management/</guid>
-<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
-<category>threat_research_primary</category>
 </item>
 <item>
 <title>Our approach to bioresilience</title>
@@ -9895,15 +10256,6 @@
 <category>credential_theft</category>
 </item>
 <item>
-<title>Wishin’ for Switchin’? The Huntress Buyout Program Has You Covered</title>
-<link>https://www.huntress.com/blog/ready-to-switch-the-huntress-buyout-program-has-you-covered</link>
-<description><![CDATA[Stuck riding out a contract with a vendor you no longer want to use? The Huntress Buyout Program covers your remaining term so you can switch today, not later.]]></description>
-<pubDate>Wed, 15 Jul 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/ready-to-switch-the-huntress-buyout-program-has-you-covered</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>The Risk of Exposed Cloud Functions and How to Harden</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/</link>
 <description><![CDATA[Written by: Corné de Jong Introduction Mandiant security assessments frequently identify publicly exposed serverless applications that lack authentication, often as a result of specific business requirements. Serverless deployments typically run custom-developed code that incorporates third-party packages, making them targets for a wide range of application-level attacks, including: Local and Remote File Inclusion (LFI/RFI) Command Injection Successful exploitation of these vulnerabilities can grant an attacker full control over the underlying container instance. Such access can serve as a foothold that may ultimately lead to a full compromise of the victim’s cloud environment. Based on lessons learned in customer engagements, in this blog post we describe attack scenarios and provide actionable guidance on how to secure serverless environments. While this analysis focuses on hardening strategies for Google Cloud Run services and functions that must remain publicly accessible, these pr]]></description>
@@ -9911,6 +10263,15 @@
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
 <category>threat_research_primary</category>
+</item>
+<item>
+<title>Wishin’ for Switchin’? The Huntress Buyout Program Has You Covered</title>
+<link>https://www.huntress.com/blog/ready-to-switch-the-huntress-buyout-program-has-you-covered</link>
+<description><![CDATA[Stuck riding out a contract with a vendor you no longer want to use? The Huntress Buyout Program covers your remaining term so you can switch today, not later.]]></description>
+<pubDate>Wed, 15 Jul 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/ready-to-switch-the-huntress-buyout-program-has-you-covered</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>The Red Agent POV: The One Boolean That Broke a B2B Platform’s Credit System</title>
@@ -12479,16 +12840,6 @@
 <guid isPermaLink="true">https://www.normaltech.ai/p/do-ai-risks-require-extraordinary</guid>
 <source url="https://www.aisnakeoil.com/feed">AI Snake Oil</source>
 <category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>Srsly Risky Biz: Politicians ditch Signal for homegrown apps</title>
-<link>https://risky.biz/SRB168/</link>
-<description><![CDATA[Tom Uren and James Wilson talk about moves from several European governments to ditch Signal and set up their own encrypted messaging systems for internal government use. These efforts are motivated by concerns about phishing and sovereignty, but the solutions being adopted are imperfect and will come with their own set of problems. Signal fills a space that can’t be filled with sovereign capability. They also talk about Fast16 malware. We are only now learning about the second arm of a mid-2000s campaign to delay Iran’s nuclear weapons program that included the infamous Stuxnet worm. This episode is also available on YouTube<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Thu, 21 May 2026 06:16:56 +0000</pubDate>
-<guid isPermaLink="true">https://risky.biz/SRB168/</guid>
-<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>Unpatchable Vulnerabilities of Kubernetes: CVE-2021-25740</title>
@@ -19176,10 +19527,19 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
+<title>A Win for Defenders: CrowdStrike and NVIDIA Extend Security Across the AI Stack</title>
+<link>https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/</link>
+<description><![CDATA[]]></description>
+<pubDate>Tue, 29 Sep 2026 01:42:38 +0000</pubDate>
+<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/</guid>
+<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>CrowdStrike Named a Leader in The Forrester Wave™: Proactive Security Platforms, Q3 2026</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 28 Sep 2026 21:46:59 +0000</pubDate>
+<pubDate>Tue, 29 Sep 2026 01:42:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19188,7 +19548,7 @@
 <title>CrowdStrike Named a Leader in The Forrester Wave™: External Threat Intelligence Service Providers, Q3 2026</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 28 Sep 2026 21:46:59 +0000</pubDate>
+<pubDate>Tue, 29 Sep 2026 01:42:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19197,7 +19557,7 @@
 <title>CrowdStrike SafeMind: When the Best Offense Builds the Best Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 28 Sep 2026 21:46:59 +0000</pubDate>
+<pubDate>Tue, 29 Sep 2026 01:42:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19206,7 +19566,7 @@
 <title>CrowdStrike Accelerates Real-Time Data Classification with On-Device AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 28 Sep 2026 21:46:59 +0000</pubDate>
+<pubDate>Tue, 29 Sep 2026 01:42:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19215,7 +19575,7 @@
 <title>PhantomRaven: An LLM-Generated Information Stealer Developed for Bug Bounty Hunting</title>
 <link>https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 28 Sep 2026 21:46:59 +0000</pubDate>
+<pubDate>Tue, 29 Sep 2026 01:42:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19224,7 +19584,7 @@
 <title>September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 28 Sep 2026 21:46:59 +0000</pubDate>
+<pubDate>Tue, 29 Sep 2026 01:42:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19233,7 +19593,7 @@
 <title>CrowdStrike Delivers the Next Evolution of the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 28 Sep 2026 21:46:59 +0000</pubDate>
+<pubDate>Tue, 29 Sep 2026 01:42:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19242,7 +19602,7 @@
 <title>CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Mon, 28 Sep 2026 21:46:59 +0000</pubDate>
+<pubDate>Tue, 29 Sep 2026 01:42:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19252,17 +19612,8 @@
 <title>CrowdStrike Announces Agentic Identity Provider</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 28 Sep 2026 21:46:59 +0000</pubDate>
+<pubDate>Tue, 29 Sep 2026 01:42:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</guid>
-<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
-<category>threat_research_primary</category>
-</item>
-<item>
-<title>CrowdStrike Falcon Guardian Defines the Next Generation of AI Security</title>
-<link>https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</link>
-<description><![CDATA[]]></description>
-<pubDate>Mon, 28 Sep 2026 21:46:59 +0000</pubDate>
-<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
 </item>
