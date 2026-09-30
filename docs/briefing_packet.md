@@ -1,13 +1,13 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-09-30T00:15:28.991371+00:00
+- Generated: 2026-09-30T06:31:56.126455+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
 - Total items in window: 347
-- Total clusters raw: 139
-- Total clusters in packet: 64
+- Total clusters raw: 140
+- Total clusters in packet: 65
 - Dropped low score: 75
 - Dropped overflow: 0
 
@@ -80,136 +80,136 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
-  - Item count: 25
+  - Item count: 10
   - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
-  - In window count: 0
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 4
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
   - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 1
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
-  - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
-  - Item count: 10
+  - Item count: 50
   - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
@@ -230,56 +230,41 @@
   - Status: ok
   - Item count: 30
   - In window count: 1
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 3
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 7
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
   - In window count: 3
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 1
+  - In window count: 3
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 7
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 3
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 5
+  - Item count: 20
+  - In window count: 1
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
@@ -290,11 +275,16 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
-  - Item count: 10
-  - In window count: 2
+  - Item count: 20
+  - In window count: 3
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 5
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
@@ -305,103 +295,103 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 18
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 20
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 1
+  - Item count: 15
+  - In window count: 15
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 2
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
+  - Item count: 100
+  - In window count: 1
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 50
-  - In window count: 28
+  - Item count: 30
+  - In window count: 18
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 28
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 25
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -410,23 +400,13 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -435,16 +415,36 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
-  - In window count: 0
+  - In window count: 25
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 23
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
@@ -521,7 +521,7 @@
   - https://cyberscoop.com/fbi-data-breach-shinyhunters-agent-safety-risk/
   - https://www.infosecurity-magazine.com/news/shinyhunters-fbi-hack-peoplesoft/
   - https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/
-  - https://risky.biz/RBNEWS614/
+  - https://risky.biz/RBNEWS617/
   - https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html
   - https://www.securityweek.com/pentagon-personnel-agency-data-breach-impacts-3-million-people/
   - https://cyberscoop.com/kiteworks-lifts-shutdown-advisory-after-credible-threat-intelligence-from-federal-authorities/
@@ -723,13 +723,7 @@
   - Window hours: 1.2
   - Cohort count: 4
 
-### Leading edge (1)
-- **ShinyHunters Renewed Mass Exploitation Campaign Targeting Oracle PeopleSoft**
-  - Cluster: 6a53a92578
-  - Lead hours: 56.1
-  - First source: Risky Business News
-  - Later Tier 1 source: Google Cloud Threat Intelligence
-  - Shared signals: CVE-2026-35273, Cl0p, ShinyHunters, UNC6240
+### Leading edge (0)
 
 ### Convergence (15)
 - Pair: CVE-2026-88771 + Citrix (cluster b0527f41c8, first observation: True)
@@ -1024,7 +1018,7 @@ Apple today released patches for all of its operating systems. However, only pat
 - Strong signals: CVE-2026-35273, ShinyHunters, UNC6240
 
 #### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, ransomware_extortion, web_shell_backdoor, zero_day
+- threat_categories: ransomware_extortion, web_shell_backdoor, zero_day
 - actor_attribution: Cl0p, ShinyHunters, UNC6240
 - affected_industries: education, financial_services, government, healthcare
 - cve_ids: CVE-2026-35273
@@ -1091,10 +1085,10 @@ Threat Intelligence ShinyHunters Renewed Mass Exploitation Campaign Targeting Or
   - Link: https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/
   - Summary: Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attacks, stealing highly sensitive data from the FBI and extorting the Russian ransomware group Cl0p.
 - **Risky Business News** (practitioner_analysis)
-  - Title: Risky Bulletin: Team Cymru unmasks shady Chinese proxy network
-  - Published: 2026-09-23T05:56:34+00:00
-  - Link: https://risky.biz/RBNEWS614/
-  - Summary: A network of 10,000 AI servers is masking malicious Chinese AI activity, Ukrainian hackers leak Russia’s naval secrets, ShinyHunters hacks the FBI, and the EvilTokens phishing service is disrupted by tech companies.
+  - Title: ShinyHunters suspect arrested in the Netherlands
+  - Published: 2026-09-30T03:56:03+00:00
+  - Link: https://risky.biz/RBNEWS617/
+  - Summary: A ShinyHunters suspect has been arrested in the Netherlands, Apple fixes an iOS zero-day found by Meta, recent Citrix zero-days see mass exploitation within hours and NVIDIA launches an AI sandboxing platform.
 
 ### Cluster 5ccb851e5d — score 26
 
@@ -1201,8 +1195,8 @@ Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild  Ravie L
 - Published: 2026-09-24T14:00:00+00:00
 - Link: https://cloud.google.com/blog/topics/threat-intelligence/hardening-code-pipelines-and-ci-cd-infrastructure/
 - Fetch status: ok
-- Member count: 6
-- Corroborating source count: 6
+- Member count: 7
+- Corroborating source count: 7
 - Strong signals: GitHub
 
 #### Cluster taxonomy (union across members)
@@ -1233,7 +1227,7 @@ Introduction The landscape of software supply chain security has undergone a sig
 Threat Intelligence Proactive Defense: Hardening Code Pipelines and CI/CD Infrastructure September 24, 2026 Mandiant Mandiant Services Stop attacks, reduce risk, and advance your security. Contact Mandiant Introduction The landscape of software supply chain security has undergone a significant shift. Recent campaigns demonstrate that sophisticated threat actors are systematically targeting the engineering lifecycle by compromising trusted security and programming tools. These intrusions reveal three key tactics: Attackers target trusted security scanners, utility libraries, and AI developer tools to exploit the elevated privileges granted to these systems within build pipelines. Adversaries target developer workstations and Integrated Development Environments (IDEs) via highly tailored social engineering, malicious extensions, or typosquatted local dependencies to exfiltrate private cryptographic keys, API tokens, and active session credentials directly from local engineering environments. Rather than relying solely on compromised static credentials, attackers have escalated to advanced pipeline manipulation techniques, including GitHub Actions cache poisoning, OpenID Connect ( OIDC) token extraction, and the subversion of mutable action tags to publish compromised packages that still carry legitimate cryptographic provenance. Building upon prior guidance ( here , and here ), this blog provides an actionable blueprint for software and platform architects designed to safeguard the software supply chain against threat vectors that are actively being exploited, third-party risks, and architectural vulnerabilities throughout the entire Software Development Lifecycle (SDLC). Read on for more on how to establish continuous integration and continuous delivery/deployment ( CI/CD) safeguards, strengthen developer workflows, and build robust, end-to-end defense-in-depth. The Multi-Layered Approach Treating each stage of the pipeline as independent security domains is no longer sufficient because these multi-layered attacks target vulnerabilities across the entire build pipeline. Defending against these persistent threats requires a thorough, defense-in-depth approach spanning the five key pillars of the software development lifecycle outlined in Figure 1: Figure 1: The five core pillars for securing the software development lifecycle Endpoint Developer workstations are high-value targets because they hold direct, privileged access to repositories, pipelines, and cloud environments. Threat actors frequently target IDEs, exploiting unmonitored local access to collect personal access tokens (PATs), SSH keys, and proprietary code. Organizations should establish a unified security layer that enforces a consistent security posture across all local host machines and cloud-based development environments. Local Secret Scanning Organizations should deploy pre-commit hooks and IDE-integrated scanning tools to detect and block secrets prior to repository commit. Standardizing local pre-commit templates ensures git trees are fully verified before changes are pushed to central servers. To minimize the impact of a potential leak, organizations should migrate from legacy classic PATs to fine-grained PATs constrained by tight time-to-live (TTL) limits and minimal, environment-specific permissions. Endpoint Security Management Organizations should configure Endpoint Detection and Response (EDR) solutions to monitor developer software integrations and enforce continuous device posture checks. EDR agents should monitor trusted IDE process trees for anomalous file access, unexpected process spawning, and unauthorized outbound network connections. To ensure complete alignment, these EDR compliance signals should be integrated directly with Unified Endpoint Management (UEM) systems to automatically restrict or revoke a user's ability to access Source Code Management (SCM) systems, execute pipeline tasks, or publish code if their device falls out of compliance
 ```
 
-#### Corroborating sources (6)
+#### Corroborating sources (7)
 
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - Title: Proactive Defense: Hardening Code Pipelines and CI/CD Infrastructure
@@ -1260,6 +1254,11 @@ Threat Intelligence Proactive Defense: Hardening Code Pipelines and CI/CD Infras
   - Published: 2026-09-25T02:13:27+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1wpkc7q/argus_monitor_local_denialofservice_vulnerability/
   - Summary: (1) An exposed IOCTL lets unprivileged users disable the x86 MONITOR & MWAIT instructions used by Hyper-V and other kernel components--triggering a HYPERVISOR_ERROR bugcheck. (2) Reaching the IOCTL requires exploiting a TOCTOU bug arguably caused by poor documentation of the SeLocateProcessImageName function. (3) Reimplementation of the driver's security through obscurity IOCTL encryption scheme: SHA-256 KDF-derived XOR keystream & CRC16 Checksum. See full write-up , and Github for PoC. submitted by /u/p0xq [link] [comments]
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: WSL containers are generally available on Windows
+  - Published: 2026-09-30T03:47:25+00:00
+  - Link: https://www.helpnetsecurity.com/2026/09/30/microsoft-wsl-containers-available/
+  - Summary: Microsoft made WSL containers generally available and shipped the feature with controls that let administrators switch it off or limit where it pulls images from. WSL containers run Linux containers on Windows through the Windows Subsystem for Linux. They install with wsl --update or from Microsoft’s GitHub releases page. Source: Microsoft If your developers work on Windows laptops, the two Intune settings are the ones to look at first. Intune, Microsoft’s device management product, can … More → The post WSL containers are generally available on Windows appeared first on Help Net Security .
 - **tl;dr sec** (practitioner_analysis)
   - Title: [tl;dr sec] #347 - AI Agents Hacking Companies for $25, Threat Hunter's Guide to GitHub, Finding Gadgets Like it’s 2026
   - Published: 2026-09-24T14:30:00+00:00
@@ -1323,58 +1322,6 @@ Share Link copied to clipboard! Content types Research Products and services Mic
   - Published: 2026-09-28T15:33:21+00:00
   - Link: https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack
   - Summary: The "agentic threat actor" may have used exposed credentials to access resources and delete cloud-based storage, applications, and databases.
-
-### Cluster e823177ebb — score 17
-
-- Title: Defending at machine speed: Securing the public sector in the agentic era
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-09-29T14:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/public-sector/defending-at-machine-speed-securing-the-public-sector-in-the-agentic-era/
-- Fetch status: ok
-- Member count: 4
-- Corroborating source count: 2
-- Strong signals: Google/Gemini
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- affected_industries: critical_infrastructure, education, financial_services, government
-- affected_products: Android, Google/Gemini
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- affected_industries: government, critical_infrastructure, education
-- affected_products: Google/Gemini
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Over the last three decades in cybersecurity, I’ve witnessed major paradigm shifts — yet none match the velocity and complexity of today’s landscape. Attackers are now using AI to move at machine speed: accelerating intrusions, exploiting zero-day vulnerabilities, and rendering legacy defenses obsolete. Reactive, manual security reviews can no longer keep pace with sophisticated and increasingly automated threats. Building true cyber resilience means shifting from reactive troubleshooting to a proactive defense — one where continuous posture validation and autonomous remediation are built directly into every workload from day one. Public sector teams require a unified, structured approach to continuously scan, validate, and remediate software vulnerabilities. Google AI Threat Defense brings together the reasoning power of Gemini , deep multi-cloud visibility from Wiz , autonomous code remediation with CodeMender , and Mandiant frontline threat intelligence into a singular, continuous o
-```
-
-#### Full body
-
-```
-Public Sector Defending at machine speed: Securing the public sector in the agentic era September 29, 2026 Ron Bushar Managing Director & Chief Security Officer, Google Public Sector Google Public Sector Newsletter Essential public sector updates with Google Cloud insights. Subscribe Over the last three decades in cybersecurity, I’ve witnessed major paradigm shifts — yet none match the velocity and complexity of today’s landscape. Attackers are now using AI to move at machine speed: accelerating intrusions, exploiting zero-day vulnerabilities, and rendering legacy defenses obsolete. Reactive, manual security reviews can no longer keep pace with sophisticated and increasingly automated threats. Building true cyber resilience means shifting from reactive troubleshooting to a proactive defense — one where continuous posture validation and autonomous remediation are built directly into every workload from day one. Public sector teams require a unified, structured approach to continuously scan, validate, and remediate software vulnerabilities. Google AI Threat Defense brings together the reasoning power of Gemini , deep multi-cloud visibility from Wiz , autonomous code remediation with CodeMender , and Mandiant frontline threat intelligence into a singular, continuous operational loop. By securing the entire software lifecycle from code to cloud, this unified system enables agencies to continuously monitor and neutralize emerging threats at machine speed — safeguarding critical infrastructure, mission integrity, and public trust. Real-world cyber defenses in action Across state governments and higher education institutions, security and IT leaders are using Google’s AI and security solutions to secure highly dynamic environments, systems, and operations in the agentic era. Let’s take a closer look at how organizations across the public sector are automating defense and building resilience. The State of Iowa : Under CISO Shane Dwyer, the state partnered with Google Public Sector to eliminate operational blindness, consolidating more than 20 separate security environments into a single, centralized security operations center (SOC). By ingesting large volumes of telemetry through Google Security Operations, Iowa established a unified operational view across its multi-cloud footprint — enabling its cyber personnel to move away from routine alert triage and focus on proactive threat defense and rapid incident remediation. Underway are several SOC process automation efforts that will continue to support the mission of reducing the overall workload and effectiveness of the SOC team. The State of Connecticut : Connecticut faced an unsustainable, fragmented security model across its multicloud footprint. Under CISO Gene Meltser, the state transitioned to a unified, AI-driven operations center with Google Cloud. This agentic Security Operations Center (SOC) configuration allows Connecticut to apply automated cyber defenses across decentralized networks, neutralizing novel threats in near real-time before they reach production systems. University of California, Riverside (UCR) : Under CIO Matthew Gunkel, UCR Information Technology Solutions (ITS) built an integrated stack on Google Cloud to serve an academic community of more than 26,000 students, faculty, and researchers. The university implemented Google Security Operations and Security Command Center to establish a Zero Trust security architecture, while deploying Gemini Enterprise to automate IT support workflows, empower faculty, and give security analysts real-time assistive intelligence to resolve incidents at machine speed. Arizona State University (ASU) : Under CISO Lester Godsey, ASU addressed policy friction by consolidating 19 new security standards and existing university policies into an interactive, queryable AI assistant. To prepare future cyber defenders for the agentic era, ASU is launching a student-led SOC that provides hands-on training in orchestration, automation, and A
-```
-
-#### Corroborating sources (2)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Defending at machine speed: Securing the public sector in the agentic era
-  - Published: 2026-09-29T14:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/public-sector/defending-at-machine-speed-securing-the-public-sector-in-the-agentic-era/
-  - Summary: Over the last three decades in cybersecurity, I’ve witnessed major paradigm shifts — yet none match the velocity and complexity of today’s landscape. Attackers are now using AI to move at machine speed: accelerating intrusions, exploiting zero-day vulnerabilities, and rendering legacy defenses obsolete. Reactive, manual security reviews can no longer keep pace with sophisticated and increasingly automated threats. Building true cyber resilience means shifting from reactive troubleshooting to a proactive defense — one where continuous posture validation and autonomous remediation are built directly into every workload from day one. Public sector teams require a unified, structured approach to continuously scan, validate, and remediate software vulnerabilities. Google AI Threat Defense brings together the reasoning power of Gemini , deep multi-cloud visibility from Wiz , autonomous code remediation with CodeMender , and Mandiant frontline threat intelligence into a singular, continuous o
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims
-  - Published: 2026-09-28T17:38:33+00:00
-  - Link: https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html
-  - Summary: RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has traced nearly 100 deployments of that console since April 2026. It said this fits a malware-as-a-service model, in which each customer runs a separate copy. The console stores what the malware collects from each phone,
 
 ### Cluster 9ddd638717 — score 16
 
@@ -1463,6 +1410,58 @@ Phishing When Business Email Compromise Starts Rewriting Reality Douglas McKee, 
   - Published: 2026-09-24T13:00:00+00:00
   - Link: https://www.rapid7.com/blog/post/ve-business-email-compromise-rewriting-reality-zimbra-cve
   - Summary: Business Email Compromise (BEC) operates on a familiar playbook. Threat actors breach a mailbox, silently monitor operations, map approval chains, and ultimately exploit that access to divert funds or exfiltrate sensitive assets. This dynamic is central to our analysis as we kick off a series around Rapid7's collaborative research with Zimbra; upcoming installments will explore technical details and broader findings based within the Zimbra Collaboration Suite. Our investigation disrupted the traditional BEC model in unexpected ways. We uncovered over 50 vulnerabilities, and found that several allow attackers not just to observe environments, but to actively rewrite them by impersonating senders without credentials, controlling inbox visibility, and altering shared documents and calendars. Business Email Compromise in action: Digital abuse of trust None of this is theoretical for Zimbra. But don’t take my word for it, just ask Russia . CISA keeps putting Zimbra bugs into the Known Explo
+
+### Cluster e823177ebb — score 16
+
+- Title: Defending at machine speed: Securing the public sector in the agentic era
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-09-29T14:00:00+00:00
+- Link: https://cloud.google.com/blog/topics/public-sector/defending-at-machine-speed-securing-the-public-sector-in-the-agentic-era/
+- Fetch status: ok
+- Member count: 4
+- Corroborating source count: 2
+- Strong signals: Google/Gemini
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- affected_industries: critical_infrastructure, education, financial_services, government
+- affected_products: Android, Google/Gemini
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- affected_industries: government, critical_infrastructure, education
+- affected_products: Google/Gemini
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Over the last three decades in cybersecurity, I’ve witnessed major paradigm shifts — yet none match the velocity and complexity of today’s landscape. Attackers are now using AI to move at machine speed: accelerating intrusions, exploiting zero-day vulnerabilities, and rendering legacy defenses obsolete. Reactive, manual security reviews can no longer keep pace with sophisticated and increasingly automated threats. Building true cyber resilience means shifting from reactive troubleshooting to a proactive defense — one where continuous posture validation and autonomous remediation are built directly into every workload from day one. Public sector teams require a unified, structured approach to continuously scan, validate, and remediate software vulnerabilities. Google AI Threat Defense brings together the reasoning power of Gemini , deep multi-cloud visibility from Wiz , autonomous code remediation with CodeMender , and Mandiant frontline threat intelligence into a singular, continuous o
+```
+
+#### Full body
+
+```
+Public Sector Defending at machine speed: Securing the public sector in the agentic era September 29, 2026 Ron Bushar Managing Director & Chief Security Officer, Google Public Sector Google Public Sector Newsletter Essential public sector updates with Google Cloud insights. Subscribe Over the last three decades in cybersecurity, I’ve witnessed major paradigm shifts — yet none match the velocity and complexity of today’s landscape. Attackers are now using AI to move at machine speed: accelerating intrusions, exploiting zero-day vulnerabilities, and rendering legacy defenses obsolete. Reactive, manual security reviews can no longer keep pace with sophisticated and increasingly automated threats. Building true cyber resilience means shifting from reactive troubleshooting to a proactive defense — one where continuous posture validation and autonomous remediation are built directly into every workload from day one. Public sector teams require a unified, structured approach to continuously scan, validate, and remediate software vulnerabilities. Google AI Threat Defense brings together the reasoning power of Gemini , deep multi-cloud visibility from Wiz , autonomous code remediation with CodeMender , and Mandiant frontline threat intelligence into a singular, continuous operational loop. By securing the entire software lifecycle from code to cloud, this unified system enables agencies to continuously monitor and neutralize emerging threats at machine speed — safeguarding critical infrastructure, mission integrity, and public trust. Real-world cyber defenses in action Across state governments and higher education institutions, security and IT leaders are using Google’s AI and security solutions to secure highly dynamic environments, systems, and operations in the agentic era. Let’s take a closer look at how organizations across the public sector are automating defense and building resilience. The State of Iowa : Under CISO Shane Dwyer, the state partnered with Google Public Sector to eliminate operational blindness, consolidating more than 20 separate security environments into a single, centralized security operations center (SOC). By ingesting large volumes of telemetry through Google Security Operations, Iowa established a unified operational view across its multi-cloud footprint — enabling its cyber personnel to move away from routine alert triage and focus on proactive threat defense and rapid incident remediation. Underway are several SOC process automation efforts that will continue to support the mission of reducing the overall workload and effectiveness of the SOC team. The State of Connecticut : Connecticut faced an unsustainable, fragmented security model across its multicloud footprint. Under CISO Gene Meltser, the state transitioned to a unified, AI-driven operations center with Google Cloud. This agentic Security Operations Center (SOC) configuration allows Connecticut to apply automated cyber defenses across decentralized networks, neutralizing novel threats in near real-time before they reach production systems. University of California, Riverside (UCR) : Under CIO Matthew Gunkel, UCR Information Technology Solutions (ITS) built an integrated stack on Google Cloud to serve an academic community of more than 26,000 students, faculty, and researchers. The university implemented Google Security Operations and Security Command Center to establish a Zero Trust security architecture, while deploying Gemini Enterprise to automate IT support workflows, empower faculty, and give security analysts real-time assistive intelligence to resolve incidents at machine speed. Arizona State University (ASU) : Under CISO Lester Godsey, ASU addressed policy friction by consolidating 19 new security standards and existing university policies into an interactive, queryable AI assistant. To prepare future cyber defenders for the agentic era, ASU is launching a student-led SOC that provides hands-on training in orchestration, automation, and A
+```
+
+#### Corroborating sources (2)
+
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Defending at machine speed: Securing the public sector in the agentic era
+  - Published: 2026-09-29T14:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/public-sector/defending-at-machine-speed-securing-the-public-sector-in-the-agentic-era/
+  - Summary: Over the last three decades in cybersecurity, I’ve witnessed major paradigm shifts — yet none match the velocity and complexity of today’s landscape. Attackers are now using AI to move at machine speed: accelerating intrusions, exploiting zero-day vulnerabilities, and rendering legacy defenses obsolete. Reactive, manual security reviews can no longer keep pace with sophisticated and increasingly automated threats. Building true cyber resilience means shifting from reactive troubleshooting to a proactive defense — one where continuous posture validation and autonomous remediation are built directly into every workload from day one. Public sector teams require a unified, structured approach to continuously scan, validate, and remediate software vulnerabilities. Google AI Threat Defense brings together the reasoning power of Gemini , deep multi-cloud visibility from Wiz , autonomous code remediation with CodeMender , and Mandiant frontline threat intelligence into a singular, continuous o
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims
+  - Published: 2026-09-28T17:38:33+00:00
+  - Link: https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html
+  - Summary: RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has traced nearly 100 deployments of that console since April 2026. It said this fits a malware-as-a-service model, in which each customer runs a separate copy. The console stores what the malware collects from each phone,
 
 ### Cluster 81a335718b — score 15
 
@@ -1604,12 +1603,12 @@ A software bill of materials (SBOM) could prevent most supply chain attacks. Let
 - Published: 2026-09-25T04:17:47+00:00
 - Link: https://risky.biz/RBNEWS615/
 - Fetch status: ok
-- Member count: 11
-- Corroborating source count: 8
+- Member count: 9
+- Corroborating source count: 7
 - Strong signals: OpenAI/ChatGPT
 
 #### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, supply_chain
+- threat_categories: phishing_social_eng
 - affected_industries: government
 - affected_products: OpenAI/ChatGPT
 - content_type: news_report, vulnerability_disclosure
@@ -1632,7 +1631,7 @@ A major vulnerability has been found in the ancient TACACS+ networking protocol,
 Risky Bulletin Podcast September 25, 2026 Risky Bulletin: Major vulnerability found in ancient TACACS+ networking protocol Presented by Catalin Cimpanu News Editor Claire Aird Newsreader A major vulnerability has been found in the ancient TACACS+ networking protocol, Australiaâs Prime Minister claims an OpenAI agent hacked the countryâs Medicare website, OpenAI gives Ukraine access to its Daybreak cyber-defense program and the UK will establish an anti-disinformation center. Your browser does not support the audio element. Risky Bulletin: Major vulnerability found in ancient TACACS+ networking protocol â¶ 0:00 / 11:02 Subscribe Brought to you by SpecterOps Know Your Adversary Show notes Risky Bulletin: Major vulnerability found in ancient TACACS+ networking protocol
 ```
 
-#### Corroborating sources (8)
+#### Corroborating sources (7)
 
 - **Risky Business News** (practitioner_analysis)
   - Title: Risky Bulletin: Major vulnerability found in ancient TACACS+ networking protocol
@@ -1644,36 +1643,31 @@ Risky Bulletin Podcast September 25, 2026 Risky Bulletin: Major vulnerability fo
   - Published: 2026-09-28T20:00:00+00:00
   - Link: https://www.huntress.com/blog/chatgpt-custom-gpts-clickfix-rat
   - Summary: Huntress researchers reveal how attackers are exploiting ChatGPT Custom GPTs to spread ClickFix lures and DLL-sideloaded malware. See the full breakdown.
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: OpenAI’s GPT-6 Astra ran supply chain attacks despite being told not to
-  - Published: 2026-09-29T11:41:50+00:00
-  - Link: https://www.helpnetsecurity.com/2026/09/29/openai-gpt-6-astra-supply-chain-attacks-test-simulations/
-  - Summary: OpenAI’s GPT-6 Astra carried out supply chain attacks on software outside the scope of a security test, according to the UK AI Security Institute (AISI). Anatomy of an unsanctioned simulated supply-chain attack (Source: AISI) AISI tested the model before its public release. The tests ran inside a simulation, so no live systems were touched. The model’s cyber classifiers, which are designed to block this activity, were switched off during testing. “In our simulations, we found … More → The post OpenAI’s GPT-6 Astra ran supply chain attacks despite being told not to appeared first on Help Net Security .
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Custom ChatGPTs push ClickFix attacks to deploy RAT malware
-  - Published: 2026-09-29T20:59:39+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/
-  - Summary: Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks to deliver malware. [...]
 - **The Record** (cyber_news_breach_reporting)
   - Title: OpenAI apologizes for agents breaching Australian government websites without authorization
   - Published: 2026-09-29T19:48:00+00:00
   - Link: https://therecord.media/openai-apologizes-australia-medicare-breach
   - Summary: The artificial intelligence giant acknowledged it botched its response to the incidents and should have done more to promptly notify and work with the Australian government in the days after it discovered the breaches.
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Custom ChatGPTs push ClickFix attacks to deploy RAT malware
+  - Published: 2026-09-29T20:59:39+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/
+  - Summary: Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks to deliver malware. [...]
 - **SecurityWeek** (cyber_news_breach_reporting)
   - Title: Hackers Use ChatGPT Custom GPTs in ClickFix Attacks
   - Published: 2026-09-29T13:03:35+00:00
   - Link: https://www.securityweek.com/hackers-use-chatgpt-custom-gpts-in-clickfix-attacks/
   - Summary: The personalized versions of ChatGPT were used to impersonate legitimate products and trick users into executing PowerShell commands. The post Hackers Use ChatGPT Custom GPTs in ClickFix Attacks appeared first on SecurityWeek .
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions
-  - Published: 2026-09-29T05:12:32+00:00
-  - Link: https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html
-  - Summary: OpenAI on Monday shelved plans to release GPT-6.1 Astra, a next-generation artificial intelligence (AI) model that was planned for an October launch, after it failed internal safety and alignment audits. The development was first reported by The Wall Street Journal. The move "marks a rare case of a major AI developer ditching a new release because of safety concerns," the news publication said.
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: Attackers Manipulate AI Chatbots in Mass Disinformation, Phishing Campaign
   - Published: 2026-09-23T14:47:09+00:00
   - Link: https://www.darkreading.com/threat-intelligence/attackers-manipulate-ai-chatbots-mass-disinformation-phishing-campaign
   - Summary: Threat actors are poisoning ChatGPT, Gemini, and Google AI Overview answers by seeding the Web with malicious links and data and then optimizing the content.
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions
+  - Published: 2026-09-29T05:12:32+00:00
+  - Link: https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html
+  - Summary: OpenAI on Monday shelved plans to release GPT-6.1 Astra, a next-generation artificial intelligence (AI) model that was planned for an October launch, after it failed internal safety and alignment audits. The development was first reported by The Wall Street Journal. The move "marks a rare case of a major AI developer ditching a new release because of safety concerns," the news publication said.
 
 ### Cluster 48be01e909 — score 12
 
@@ -1724,7 +1718,7 @@ Share Link copied to clipboard! Tags Phishing Social engineering Content types R
   - Link: https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/
   - Summary: Microsoft observed phishing campaigns that abused MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity The post Phishing Abuses RMM Tools for Persistent Access appeared first on Microsoft Security Blog .
 
-### Cluster a89ee14154 — score 12
+### Cluster a89ee14154 — score 11
 
 - Title: ​​Beyond source code: A path to the keys to the kingdom
 - Source: Microsoft Security Blog (threat_research_primary)
@@ -1767,7 +1761,7 @@ Share Link copied to clipboard! Content types Best practices Products and servic
   - Link: https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/
   - Summary: Explore how Storm-3068 turned a compromised identity into broader cloud access and the steps organizations can take to defend their identities, pipelines, and cloud infrastructure. The post ​​Beyond source code: A path to the keys to the kingdom appeared first on Microsoft Security Blog .
 
-### Cluster 355863d181 — score 12
+### Cluster 355863d181 — score 11
 
 - Title: Star Blizzard refines phishing and malware delivery with the RedFlick technique
 - Source: Microsoft Security Blog (threat_research_primary)
@@ -2177,47 +2171,6 @@ Share Link copied to clipboard! Content types News Products and services Microso
   - Link: https://www.microsoft.com/en-us/security/blog/2026/09/23/reimagining-the-soc-for-the-agentic-era-in-microsoft-defender/
   - Summary: We are announcing ISOC in Microsoft Defender: a foundation built for agentic security that brings leading solutions for SIEM and threat protection together. The post Reimagining the SOC for the agentic era in Microsoft Defender appeared first on Microsoft Security Blog .
 
-### Cluster 30d82499fe — score 10
-
-- Title: The devil is still in the email – but wearing a new mask
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-09-28T09:00:00+00:00
-- Link: https://www.welivesecurity.com/en/business-security/devil-email-wearing-new-mask/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-When phishing can increasingly pass familiar checks, avoiding or limiting the damage depends on how quickly your company can detect and contain the attack
-```
-
-#### Full body
-
-```
-Business Security The devil is still in the email – but wears a new mask When phishing can increasingly pass familiar checks, avoiding or limiting the damage depends on how quickly your company can detect and contain the attack Tomáš Foltýn 28 Sep 2026 • , 6 min. read Many of today’s phishing attempts are no longer betrayed by poor grammar, a sketchy URL or a crude login page. To be sure, it does still pay to look out for these red flags, but their absence doesn’t make a message legitimate. Modern social engineering schemes are increasingly designed to withstand scrutiny and to provide reassurance where an attack might once have left some giveaways. By extension, email-borne threats in particular are now built to meet as little resistance as possible. They subvert legitimate workflows and reach employees mid-task, when their accounts are authenticated and any incoming requests for action feel like part of an ordinary working day. Some techniques go after live sessions themselves, with attackers shifting their focus from stealing passwords to stealing authentication tokens. With the cybercrime-as-a-service economy thriving, anyone with ill intent can buy a ready-made phishing kit that arrives complete with the machinery for capturing logins. Meanwhile, AI has slashed the amount of time and effort needed to research a large number of targets and strike the right tone for each of them. These shifts are developing faster than many companies can come to grips with them. What the training taught Bad grammar was the first tell to go. Purpose-built AI tools now make it trivial to clean up the language and even tailor the lure for each recipient. Instead of one-and-done attempts, some bad actors are also using AI to build rapport with their marks before eventually ‘going in for the kill.’ These days, polished or culturally nuanced writing says nothing about whether a message is genuine. The URL link has also become an ‘unknown quantity.’ When the destination URL is hidden inside a QR code, there’s nothing to hover over. What’s more, the code is scanned on a phone, so the usual controls that protect company-issued laptops don’t apply. The ‘device hop’ also means that the company may have a hard time developing a full picture of the attack. To put things into perspective – QR code phishing accounted for one in nine detected phishing emails in ESET’s telemetry in the first half of 2026 while Microsoft ranks QR codes as the fastest-growing email-based attack vector. Example of a phishing email detected by ESET products as QRCode/Phishing (source: ESET Threat Report H1 2026 ) How about the fake login page – the one that awareness training materials conveniently highlight in a red rectangle? ConsentFix, for one, dispenses with it entirely. The victim lands on a compromised but legitimate website, where a fake CAPTCHA-style prompt sends them through a real Microsoft sign-in flow before redirecting them to a URL containing an OAuth authorization code. They’re then instructed to paste that URL back into the compromised page, allowing the attacker to extract the code and exchange it for access and refresh tokens. Importantly, once the victim already has an active Microsoft session, no password or multi-factor authentication (MFA) prompt is triggered to foil the attack. On a related note, detections of ClickFix – a social engineering trick that dupes the victim into pasting a command into their own terminal – continue to soar . Its variant known as AI-fix has been spotted placing fake troubleshooting instructions on legitimate domains that belong to Anthropic, OpenAI and Microsoft. Meanwhile, a fake ad blocker known as CrashFix, points targets to the official Chrome Web Store, and even waits an hour after installation before displaying its first bogus alert, likely to sever the mental link between cause and effect. As neither seeing nor hearing is believing these days, a recognizable face or voice doesn’t always provide conclusive evidence of who
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: The devil is still in the email – but wearing a new mask
-  - Published: 2026-09-28T09:00:00+00:00
-  - Link: https://www.welivesecurity.com/en/business-security/devil-email-wearing-new-mask/
-  - Summary: When phishing can increasingly pass familiar checks, avoiding or limiting the damage depends on how quickly your company can detect and contain the attack
-
 ### Cluster e1b756c88e — score 10
 
 - Title: Trust and the enticing consultancy offer
@@ -2258,6 +2211,47 @@ Trust and the enticing consultancy offer By Martin Lee Thursday, September 24, 2
   - Published: 2026-09-24T18:00:37+00:00
   - Link: https://blog.talosintelligence.com/trust-and-the-enticing-consultancy-offer/
   - Summary: In this week’s newsletter Martin muses over a very suspicious elicitation over social media and the true value of trust within the cyber ecosystem. Hubris might be the real vulnerability that the cyber industry must worry about.
+
+### Cluster 30d82499fe — score 10
+
+- Title: The devil is still in the email – but wearing a new mask
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-09-28T09:00:00+00:00
+- Link: https://www.welivesecurity.com/en/business-security/devil-email-wearing-new-mask/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+When phishing can increasingly pass familiar checks, avoiding or limiting the damage depends on how quickly your company can detect and contain the attack
+```
+
+#### Full body
+
+```
+Business Security The devil is still in the email – but wears a new mask When phishing can increasingly pass familiar checks, avoiding or limiting the damage depends on how quickly your company can detect and contain the attack Tomáš Foltýn 28 Sep 2026 • , 6 min. read Many of today’s phishing attempts are no longer betrayed by poor grammar, a sketchy URL or a crude login page. To be sure, it does still pay to look out for these red flags, but their absence doesn’t make a message legitimate. Modern social engineering schemes are increasingly designed to withstand scrutiny and to provide reassurance where an attack might once have left some giveaways. By extension, email-borne threats in particular are now built to meet as little resistance as possible. They subvert legitimate workflows and reach employees mid-task, when their accounts are authenticated and any incoming requests for action feel like part of an ordinary working day. Some techniques go after live sessions themselves, with attackers shifting their focus from stealing passwords to stealing authentication tokens. With the cybercrime-as-a-service economy thriving, anyone with ill intent can buy a ready-made phishing kit that arrives complete with the machinery for capturing logins. Meanwhile, AI has slashed the amount of time and effort needed to research a large number of targets and strike the right tone for each of them. These shifts are developing faster than many companies can come to grips with them. What the training taught Bad grammar was the first tell to go. Purpose-built AI tools now make it trivial to clean up the language and even tailor the lure for each recipient. Instead of one-and-done attempts, some bad actors are also using AI to build rapport with their marks before eventually ‘going in for the kill.’ These days, polished or culturally nuanced writing says nothing about whether a message is genuine. The URL link has also become an ‘unknown quantity.’ When the destination URL is hidden inside a QR code, there’s nothing to hover over. What’s more, the code is scanned on a phone, so the usual controls that protect company-issued laptops don’t apply. The ‘device hop’ also means that the company may have a hard time developing a full picture of the attack. To put things into perspective – QR code phishing accounted for one in nine detected phishing emails in ESET’s telemetry in the first half of 2026 while Microsoft ranks QR codes as the fastest-growing email-based attack vector. Example of a phishing email detected by ESET products as QRCode/Phishing (source: ESET Threat Report H1 2026 ) How about the fake login page – the one that awareness training materials conveniently highlight in a red rectangle? ConsentFix, for one, dispenses with it entirely. The victim lands on a compromised but legitimate website, where a fake CAPTCHA-style prompt sends them through a real Microsoft sign-in flow before redirecting them to a URL containing an OAuth authorization code. They’re then instructed to paste that URL back into the compromised page, allowing the attacker to extract the code and exchange it for access and refresh tokens. Importantly, once the victim already has an active Microsoft session, no password or multi-factor authentication (MFA) prompt is triggered to foil the attack. On a related note, detections of ClickFix – a social engineering trick that dupes the victim into pasting a command into their own terminal – continue to soar . Its variant known as AI-fix has been spotted placing fake troubleshooting instructions on legitimate domains that belong to Anthropic, OpenAI and Microsoft. Meanwhile, a fake ad blocker known as CrashFix, points targets to the official Chrome Web Store, and even waits an hour after installation before displaying its first bogus alert, likely to sever the mental link between cause and effect. As neither seeing nor hearing is believing these days, a recognizable face or voice doesn’t always provide conclusive evidence of who
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: The devil is still in the email – but wearing a new mask
+  - Published: 2026-09-28T09:00:00+00:00
+  - Link: https://www.welivesecurity.com/en/business-security/devil-email-wearing-new-mask/
+  - Summary: When phishing can increasingly pass familiar checks, avoiding or limiting the damage depends on how quickly your company can detect and contain the attack
 
 ### Cluster c851c05fb6 — score 10
 
@@ -2472,274 +2466,6 @@ Page content Threshold signature schemes, a form of multi-party computation (MPC
   - Link: https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/
   - Summary: Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manufacturer and its attestation infrastructure. But subtle issues can arise when running an MPC protocol inside a TEE without accounting for the untrusted host: for example, a malicious host could roll back the filesystem state after a threshold signer deletes a used pre-signature, causing the signer to reuse their nonce share and disclose their private key share. So is this combination worth it? Provided you treat the TEE as a defense-in-depth layer rather than a substitute for a sound protocol, the answer is yes. This blog post discusses what TEE attestation can and can’t fix in MPC deployments
 
-### Cluster ca3d762fc2 — score 10
-
-- Title: New Spectre v2 attack variant leaks Linux root password hash in minutes
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-09-29T17:10:11+00:00
-- Link: https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: Linux kernel
-- cve_ids: CVE-2026-64507, CVE-2026-64508
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- affected_products: Linux kernel
-- cve_ids: CVE-2026-64507, CVE-2026-64508
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A new Branch Target Reuse (BTR) attack has been devised that can recover root password hashes on Intel computers running Linux in 3-5 minutes on average. [...]
-```
-
-#### Full body
-
-```
-New Spectre v2 attack variant leaks Linux root password hash in minutes By Bill Toulas September 29, 2026 01:10 PM 0 A new Spectre v2 attack variant called Branch Target Reuse (BTR) can recover root password hashes from Intel computers running Linux in just a few minutes. A BTR attack exploits stale information in a processor's branch predictor after a just-in-time (JIT) engine reuses memory for new code. By manipulating this leftover information, an attacker can trick the processor into temporarily executing the wrong instructions and potentially expose sensitive data. Researchers at VUsec (Systems and Network Security Group at VU Amsterdam) and Scuola Superiore Sant'Anna devised the new attack and evaluated how practical it is against Firefox's JavaScript engine SpiderMonkey, GraalVM, and the Linux kernel's cBPF. VUSec’s Cristiano Guiffrida explained to BleepingComputer that this attack remains an important finding, considering that since 2018 the field assumed that these kinds of attacks were not practical due to self-modifying code (SMC) serving as the basis for dynamic code generation in commodity JIT engines. BTR demonstrates the opposite, showing that SMC-based transient execution attacks are practical in real-world environments and can be used to leak the hash for the root password. The researchers notified the affected vendors, and the issues received the identifiers CVE-2026-64507 and CVE-2026-64508. Fixes have already been merged into the Linux kernel. BTR leaks root password hash In the Spectre-v2 speculative execution side-channel attack, the CPU is tricked into briefly running instructions at a wrongly predicted jump destination, which can expose data through the CPU cache. Its BTR variant does this by reusing an old prediction after the code at that destination has been replaced, the researchers explain in a technical paper. The new attack exploits a gap between JIT-compiled code and the CPU’s branch predictor; specifically, when a JIT engine frees code and puts new code at the same address, the CPU may still remember an indirect branch target from the old code. On a later branch, a point where the CPU decides which instruction to run next, it can briefly execute the new code from that stale target speculatively, even though normal execution would go elsewhere. BTR attack overview Source: VUSec In their tests on Linux, the researchers used unprivileged classic BPF programs to train that prediction, free the original program, and place a different program in the reused memory. The stale target led the CPU to execute attacker-crafted instructions at a misaligned offset, causing data access during speculative execution and generating a measurable cache trace that let the researchers infer the data byte by byte. Next, they located a running ‘su’ process and recovered the root password hash from its memory at a rate of eight bytes per second. “We evaluated the end-to-end exploit on both Raptor Cove and Lion Cove, and leaked the password within 3 and 5 minutes on average, respectively,” the researchers claim . From a practical standpoint, leaking a password hash is not the same as retrieving the password in plaintext. However, an attacker can attempt to crack the hash offline or using cloud computing resources, with success depending on the hashing algorithm and the strength of the password. The published technical paper demonstrates two end-to-end exploits against Linux cBPF: one at default configuration and one with the constant blinding hardening option enabled. In the latter, the exploit is adapted to encode attacker-controlled instructions in jump offsets and still recover the hash within five minutes. Exploit adapted to constant blinding hardening Source: VUSec The researchers also examined Firefox’s SpiderMonkey and Oracle’s GraalVM as separate JIT engines for BTR exposure. In SpiderMonkey, VUSec’s proof-of-concept showed that stale predictions survive code reuse, but not a complete browser exploit. In GraalVM,
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: New Spectre v2 attack variant leaks Linux root password hash in minutes
-  - Published: 2026-09-29T17:10:11+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/
-  - Summary: A new Branch Target Reuse (BTR) attack has been devised that can recover root password hashes on Intel computers running Linux in 3-5 minutes on average. [...]
-
-### Cluster 12e35837c2 — score 10
-
-- Title: New Spectre v2 Variant Exposes Intel, AMD, Arm CPUs to Data Leaks
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-09-29T17:00:00+00:00
-- Link: https://www.securityweek.com/new-spectre-v2-variant-exposes-intel-amd-arm-cpus-to-data-leaks/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: education
-- affected_products: Linux kernel
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- affected_industries: education
-- affected_products: Linux kernel
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Branch Target Reuse (BTR) is a new Spectre v2 attack targeting JIT compilers in web browsers, language runtimes, and the operating system kernel The post New Spectre v2 Variant Exposes Intel, AMD, Arm CPUs to Data Leaks appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Researchers from the VUSec group at Vrije Universiteit Amsterdam in the Netherlands and Scuola Superiore Sant’Anna in Italy have disclosed a new variant of the Spectre v2 attack that affects systems powered by Intel, AMD, and Arm CPUs. The researchers named it Branch Target Reuse (BTR) , and it targets the just-in-time (JIT) compilers relied upon by operating system kernels, web browsers, and runtimes. An attacker able to run code on a targeted machine could exploit BTR to steal sensitive data from memory, such as password hashes. Attacks launched from malicious web pages also appear feasible, but the researchers have yet to build a complete browser exploit. Spectre v2 BTR exploits how processors handle code that changes at runtime. “The key insight behind the attack is that, while modern CPUs restore architectural code coherence after self-modification, they do not necessarily invalidate stale indirect branch prediction entries (i.e., branch targets),” the researchers explain. In JIT engines, these stale predictions can outlive the code they were created for. They can later be reused once new code is written to the same memory. This results in what the researchers call a speculative execute-after-free primitive, which lets an attacker hijack speculative execution into the new code at obsolete offsets. The researchers analyzed Linux cBPF, Oracle’s GraalVM runtime, and SpiderMonkey, the JavaScript and WebAssembly engine in Firefox. They developed two end-to-end exploits against the Linux kernel. Advertisement. Scroll to continue reading. Linux kernel exploit leaks the root password hash The kernel exploits abuse classic BPF (cBPF). While only privileged users can access the eBPF JIT, its more capable successor, cBPF can still be used by unprivileged programs. Seccomp, socket filtering, and packet filtering in applications like Docker and Chrome continue to rely on it. On modern Intel CPUs, the exploit leaks arbitrary memory and bypasses all enabled mitigations. According to the researchers, their exploits can extract sensitive information even when a system is fully updated and its default security settings are in place. “Our exploit leaks 8 bytes per second. That may sound slow, but with careful pointer chasing we only need to leak a small amount of data to reach the secret,” the researchers note. In a demo, they used the attack to locate and leak the root password hash after it was loaded into memory. Browsers and sandboxed runtimes are also exposed In Firefox, the attack would be launched from a malicious website that runs JavaScript code in the targeted user’s browser. Because Mozilla has yet to complete the rollout of site isolation, content from other tabs may share the attacker’s address space, exposing that data. The researchers’ proof-of-concept showed that stale branch entries persist in SpiderMonkey on Intel processors long enough to be reused. They estimate that data could leak at a rate of dozens of bytes per second, but more work is needed to build a complete browser exploit. In GraalVM, BTR could allow an attacker to speculatively skip over the memory masking that protects the runtime’s strictest sandbox mode against Spectre. The researchers managed to reliably reuse memory addresses, but GraalVM’s own code compilation and garbage collection processes erased the stale branch entries before they could be exploited. According to the researchers, this limitation “does not appear fundamental.” Fixes are left to software The issue was reported to impacted chipmakers and software developers, all of which acknowledged the research. CPU vendors pointed out that existing mechanisms, such as the indirect branch prediction barrier (IBPB), can mitigate BTR, and that fixes need to be implemented in software. Linux kernel developers have introduced an x86 mitigation that triggers an IBPB across every CPU core whenever a cBPF program is placed in a memory region that was already used by previously executed BPF code. Oracle has
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: New Spectre v2 Variant Exposes Intel, AMD, Arm CPUs to Data Leaks
-  - Published: 2026-09-29T17:00:00+00:00
-  - Link: https://www.securityweek.com/new-spectre-v2-variant-exposes-intel-amd-arm-cpus-to-data-leaks/
-  - Summary: Branch Target Reuse (BTR) is a new Spectre v2 attack targeting JIT compilers in web browsers, language runtimes, and the operating system kernel The post New Spectre v2 Variant Exposes Intel, AMD, Arm CPUs to Data Leaks appeared first on SecurityWeek .
-
-### Cluster ed6a463ce7 — score 10
-
-- Title: Pentagon Personnel Agency Data Breach Impacts 3 Million People
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-09-29T12:25:12+00:00
-- Link: https://www.securityweek.com/pentagon-personnel-agency-data-breach-impacts-3-million-people/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, zero_day
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services, manufacturing_industrial
-- affected_products: Microsoft SharePoint, OpenAI/ChatGPT
-- cve_ids: CVE-2026-65660
-- urgency_signals: zero_day
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, data_breach
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services, manufacturing_industrial
-- affected_products: Microsoft SharePoint, OpenAI/ChatGPT
-- cve_ids: CVE-2026-65660
-- urgency_signals: zero_day
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The data breach affects the Defense Manpower Data Center (DMDC), which maintains personnel records for the Department of Defense. The post Pentagon Personnel Agency Data Breach Impacts 3 Million People appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-The US Defense Manpower Data Center (DMDC), which maintains personnel records for the Pentagon, has started notifying people that their personal information was exposed. According to the DMDC’s notice, unauthorized users had access to one of its file-sharing servers for roughly nine months. A copy of the notification letter , dated September 18 and shared online by a recipient, says the problem was discovered in mid-July. “On July 16, 2026, a security vulnerability in a DMDC file sharing system was discovered, which allowed unauthorized users to access files. DMDC immediately updated the file sharing system to patch the vulnerability and the system was restored,” the letter reads. The letter does not name the affected file-sharing product or describe the vulnerability. “Analysis identified that between October 2025 and the date of discovery, a small number of unauthorized users accessed files on a server containing unencrypted PII,” the letter says. Advertisement. Scroll to continue reading. Exposed records varied by individual and included Social Security numbers alongside names, dates of birth, contact details, demographic data, and military occupational specialties. “At this time, DoW does not have any indications of misuse of the accessed information,” DMDC says. The letter does not say how many people are affected. A Department of War official told CNN that the breach impacts 2.76 million living individuals and 294,000 deceased individuals. According to its website, DMDC held at least 60 million records as of fiscal year 2024. Those records cover military and civilian personnel, contractors, family members, retirees and veterans. It is unclear who is behind the cyberattack. No known cybercrime group appears to have taken credit for an attack on the DMDC. DMDC says it launched privacy and cybersecurity incident response actions after finding the vulnerability. Related : DC Health Agency Exposes 400,000 Beneficiary Records Related : Astrana Health Data Breach Impacts Private, Confidential Information Related : ShinyHunters Claims FBI Hack, Demands Retraction of Threat Report Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs OpenAI Calls Off GPT-6.1 Astra Launch, Details Safety Cases for Frontier Training Apple Patches Zero-Day Linked to ‘Extremely Sophisticated Attack’ Nvidia Unveils AI Agent Safety Platform With Hardware-Based Watchdog Citrix Confirms 2 NetScaler Zero-Days After Admins Pulled the Plug Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks North Korea Suspected in $351 Million Bitget Crypto Heist CISA Election Security Plan Flags Patching Barriers, Voter Database Attacks Windows, Linux, Android File Notification Systems Leak User Activity Latest News OpenAI CEO Announces New AI Agent and Avoids Mention of Security Concerns at Developer Conference DARPA Selects Xint to Use AI in Securing Military Messaging Apps New Spectre v2 Variant Exposes Intel, AMD, Arm CPUs to Data Leaks RemoteThreat Launches With $7 Million for Offensive Operations Platform Reco Raises $55 Million for Agentic Security Hackers Use ChatGPT Custom GPTs in ClickFix Attacks Rig Security Emerges From Stealth With $12M to Tackle Agentic AI Identity Risks Four Cyber Threats Harboring Big Plans for the Future Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Securing AI Agents, MCPs, and AI Automations October 7, 2026 Learn how to address potential risks
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Pentagon Personnel Agency Data Breach Impacts 3 Million People
-  - Published: 2026-09-29T12:25:12+00:00
-  - Link: https://www.securityweek.com/pentagon-personnel-agency-data-breach-impacts-3-million-people/
-  - Summary: The data breach affects the Defense Manpower Data Center (DMDC), which maintains personnel records for the Department of Defense. The post Pentagon Personnel Agency Data Breach Impacts 3 Million People appeared first on SecurityWeek .
-
-### Cluster fd4ff49516 — score 10
-
-- Title: Kiteworks lifts shutdown advisory after ‘credible threat intelligence’ from federal authorities
-- Source: CyberScoop (cyber_news_breach_reporting)
-- Published: 2026-09-29T14:11:43+00:00
-- Link: https://cyberscoop.com/kiteworks-lifts-shutdown-advisory-after-credible-threat-intelligence-from-federal-authorities/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, ransomware_extortion
-- actor_attribution: ShinyHunters
-- affected_industries: critical_infrastructure, financial_services, government
-- affected_products: Snowflake
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services, government, critical_infrastructure
-- affected_products: Snowflake
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The company said it found and patched a previously unknown critical vulnerability in one product during the weekend shutdown, and has no indication it was exploited. The post Kiteworks lifts shutdown advisory after ‘credible threat intelligence’ from federal authorities appeared first on CyberScoop .
-```
-
-#### Full body
-
-```
-Advertisement Get our latest cybersecurity news first on Google. Click here! Close Kiteworks, a provider of secure file transfer and data-sharing tools, told customers Monday they could resume normal operations after a weekend-long precautionary shutdown prompted by what it called “credible threat intelligence” from federal authorities. The recommendation, issued last week, advised customers to take production systems offline ahead of a potential imminent attack. The company also shut down the environments it hosts on customers’ behalf. By Sunday, Kiteworks said continuous monitoring showed no abnormal activity. “Telling customers to take production systems offline is not a decision any vendor makes lightly, and we knew exactly what we were asking of them,” Chief Information Security Officer Frank Balonis said in the company’s statement. “We made it anyway, because when the choice is between certainty and convenience, customer data is not something we are willing to gamble with.” During the shutdown, Kiteworks discovered a previously unknown critical vulnerability in Advanced Forms, a secure data collection tool used by fewer than 1% of its customers, a group the company said comprises approximately 50 organizations. The company said its other products, including file collaboration, file transfer, email encryption and managed file transfer, were unaffected. Advertisement Kiteworks said it developed and deployed a fix during the window and has no indication the vulnerability was ever exploited. All known vulnerabilities are addressed in release 9.5.1, which the company recommends customers run. Company CEO Jonathan Yaron said in a release that being proactive about the threat was top of mind. “Our customers gave up their weekend on our recommendation, at short notice and at difficult hours, and many of their teams worked through the night alongside ours,” Yaron said. “The industry standard is to wait for proof of an attack. We would rather be proactive on credible warning than wait for certainty and be too late. That is the standard we intend to keep.” Kiteworks, a California-based company formerly known as Accellion, rebranded in October 2021 after a vulnerability in its legacy file transfer appliance allowed an extortion gang to breach hundreds of organizations. That campaign was part of a broader wave of attacks on file transfer products . Kiteworks declined to identify which federal authorities provided the intelligence or which hacking group prompted the warning. The company said it worked with federal intelligence authorities throughout the weekend and shared threat intelligence with industry partners, including Mandiant. Share Facebook LinkedIn Twitter Copy Link Add to Preferred Sources Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops Citrix office complex in Santa Clara, California. ( Justin Sullivan/Getty Images) F5 Headquarters in Seattle, Washington. (Courtesy of F5) Latest Podcasts What the Section 702 lapse means for cybersecurity Jailbreaks, sandboxes, and the limits of AI safeguards ClickFix and the social engineering of routine AI-adaptable security platforms are critical for autonomous decision-making Government US is looking to weave AI into critical infrastructure for cybersecurity, national cyber director says As AI world debates security, NVIDIA releases open source tools for agents ShinyHunters trades financial extortion for a reckless war of ego with the FBI Supreme Court permits states to use SAVE database for citizenship checks Technology New bill would create federal investigative body for AI-driven hacks CISA outlines improvement plan for CVE program OpenAI, Ukraine partner on ‘Daybreak’ program to protect power grids and water systems Citing China, President Trump doubles down on hands-off approach to AI regulation Threats Army soldier sentenced for spree of attacks on AT&T, Snowflake and other major companies Bipartisan Senate leaders introduce bill to b
-```
-
-#### Corroborating sources (1)
-
-- **CyberScoop** (cyber_news_breach_reporting)
-  - Title: Kiteworks lifts shutdown advisory after ‘credible threat intelligence’ from federal authorities
-  - Published: 2026-09-29T14:11:43+00:00
-  - Link: https://cyberscoop.com/kiteworks-lifts-shutdown-advisory-after-credible-threat-intelligence-from-federal-authorities/
-  - Summary: The company said it found and patched a previously unknown critical vulnerability in one product during the weekend shutdown, and has no indication it was exploited. The post Kiteworks lifts shutdown advisory after ‘credible threat intelligence’ from federal authorities appeared first on CyberScoop .
-
-### Cluster a1fd76ffa8 — score 10
-
-- Title: 'NeedyMantis' Provides Long-Term Access to Compromised Networks
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-09-29T15:12:39+00:00
-- Link: https://www.darkreading.com/threat-intelligence/needymantis-long-term-access-compromised-networks
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, phishing_social_eng, supply_chain, web_shell_backdoor
-- affected_industries: education, government, healthcare, telecommunications
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, phishing_social_eng, apt_espionage, web_shell_backdoor
-- affected_industries: healthcare, government, telecommunications, education
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Microsoft observed a China-based actor using a previously unidentified malware framework in targeted intrusions against telcos, universities, medical, and government-related organizations.
-```
-
-#### Full body
-
-```
-Threat Intelligence Cyber Risk Cyberattacks & Data Breaches Vulnerabilities & Threats News 'NeedyMantis' Provides Long-Term Access to Compromised Networks Microsoft observed a China-based actor using a previously unidentified malware framework in targeted intrusions against telcos, universities, medical, and government-related organizations. Elizabeth Montalbano , Contributing Writer September 29, 2026 4 Min Read Source: Valentin Baciu via Shutterstock A previously unidentified malware family is giving attackers long-term stealth access to targeted networks once they've already infiltrated a system, revealing a potential blind spot for defenders that tend to focus more on initial intrusion rather than post-compromise activity. The malware, dubbed "NeedyMantis," is a modular framework that has been used in a limited number of targeted intrusions against telecommunications companies , universities, medical nonprofits, intergovernmental organizations, and government contractors, Microsoft Threat Intelligence revealed in a blog post yesterday. The company linked the malware to a threat actor tracked as Storm-3069 that is based in China, though Microsoft did not link the actor to any Chinese nation-state groups. However, Microsoft has not concluded that all deployments of the malware are tied to Storm-3069, the company said. Microsoft discovered NeedyMantis while investigating indicators of compromise (IoCs) associated with the DAEMON Tools supply chain compromise , which was reported by Kaspersky in May. The malware, used since at least October 2025, combines multiple loaders, custom encrypted file archives, a custom executable file format, and modular components that enable operators to evade analysis and extend functionality through additional modules. Related: UAE, Saudi Arabia Face Onslaught of Increasingly Complex Cyberattacks "These characteristics, combined with its use in targeted intrusions, make NeedyMantis a useful case study for understanding how threat actors establish and maintain long-term access within victim environments," according to Microsoft Threat Intelligence. How NeedyMantis Works At its core, NeedyMantis is a modular backdoor designed for post-compromise activity, which means an attacker already must have gained initial access to a network to deploy the malware. It communicates with attacker-controlled infrastructure over HTTPS and WebSockets, gathers information about the compromised system, and can load additional components as needed. Distributed by a two-stage loader, NeedyMantis can make malicious code look legitimate. It uses DLL sideloading to hide behind trusted applications such as Poedit, curl, Vim, and TightVNC, with malicious DLLs posing as components from major software vendors, according to Microsoft. "The loader and archive have been found packaged alongside legitimate software, with the first-stage loader — masquerading as a required DLL — being loaded through DLL sideloading ," according to the post. The malware also can peel back layers of encrypted and compressed payloads, with its loaders using custom archives, changing encryption keys, and employing other techniques designed to make static analysis harder. Related: Attackers Manipulate AI Chatbots in Mass Disinformation, Phishing Campaign Range of NeedyMantis Capabilities Unknown In one intrusion, attackers used Impacket to copy the legitimate software and malicious files before execution. "This activity occurred after the actor had already obtained access to the environment and illustrates one method by which NeedyMantis can be introduced during an intrusion post-compromise," according to the post. And though Microsoft revealed some capabilities of the malware, given its modular nature , it's likely that there are many others that remain unknown, according to Andrew Costis, engineering manager of the adversary research team at AttackIQ. "The question is what happens after entry," he tells Dark Reading. "Its main component can load fur
-```
-
-#### Corroborating sources (1)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: 'NeedyMantis' Provides Long-Term Access to Compromised Networks
-  - Published: 2026-09-29T15:12:39+00:00
-  - Link: https://www.darkreading.com/threat-intelligence/needymantis-long-term-access-compromised-networks
-  - Summary: Microsoft observed a China-based actor using a previously unidentified malware framework in targeted intrusions against telcos, universities, medical, and government-related organizations.
-
-### Cluster bc03121785 — score 10
-
-- Title: New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-09-29T17:20:17+00:00
-- Link: https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: Linux kernel
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- affected_products: Linux kernel
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors. The new Spectre-v2 variant has been codenamed Branch Target Reuse (BTR). "The key insight is that, while modern CPUs
-```
-
-#### Full body
-
-```
-New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses  Ravie Lakshmanan  Sep 29, 2026 Vulnerability / Hardware Security A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time ( JIT ) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors. The new Spectre-v2 variant has been codenamed Branch Target Reuse (BTR) . "The key insight is that, while modern CPUs restore architectural code coherence after self-modification, they do not necessarily invalidate stale indirect branch prediction entries (i.e., branch targets)," researchers Sander Wiebing, Yuhui Zhu, Alessandro Biondi, and Cristiano Giuffrida said in an accompanying paper. "In JIT engines, these stale targets can outlive the original code and later be reused when the code cache is repopulated, yielding a transient execute-after-free primitive. This allows attackers to hijack transient control flow to newly generated code at obsolete offsets, bypassing software hardening or reaching misaligned gadgets." BTR was evaluated against SpiderMonkey (the JIT engine of Mozilla Firefox), GraalVM, and the Linux kernel's cBPF JIT, all of which have been found to be affected, although with "markedly different exploitability characteristics and leakage rates." As a proof-of-concept, two end-to-end exploits have been devised against the Linux kernel that can be used to leak and recover the root password hash within minutes from a fully patched Intel system with default protections enabled. Spectre refers to a class of CPU security vulnerabilities first discovered in 2017 that exploit speculative execution, a performance optimization technique that modern processors use to predict and execute instructions beforehand. An attacker can exploit this loophole to trick a CPU into performing speculative operations that access sensitive data, and then infer that data through a cache timing side channel. Spectre v2 is one specific type of the Spectre attack that abuses indirect branch prediction in modern processors to achieve the same goals. Specifically, it poisons the CPU's branch prediction mechanism to cause a victim program to execute an indirect branch, which, in turn, causes the CPU to mispredict the branch and speculatively execute attacker-controlled code or a gadget. Although the results of the misprediction are discarded, an attacker can infer what the victim's speculative execution accessed by taking advantage of the cache state changes and measuring the cache changes. "BTR targets JIT engines and arises from the interplay between Self-Modifying Code (SMC) and indirect branch prediction," the researchers said, adding, "JIT engines do expose exploitable transient-execution opportunities induced by SMC for the first time." The attack presumes an attacker who is able to run unprivileged code in a JIT engine and is seeking to disclose sensitive data from the host environment. The entire sequence of actions is as follows - The attacker lures the JIT engine into allocating a training chunk and forces the victim branch to jump to it, thereby inserting a BTB entry referencing the current entry point. The attacker forces a deallocation of the training chunk and an allocation of the target chunk that partially reuses the same address. The attacker triggers the indirect branch again, the CPU uses the now-stale branch target buffer (BTB) entry and speculatively jumps to the old training-chunk entry point. The end result is control-flow hijacking and secret data disclosure. "By redirecting control flow to an architecturally invalid entry point, the attacker can bypass Spectre hardening mitigations or execute misaligned instructions, ultimately disclosing secret data," the researchers explained. However, a key aspect BTR hinges on is that the stale BTB entry must not be invalidated or replaced after the JIT engine frees the tra
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses
-  - Published: 2026-09-29T17:20:17+00:00
-  - Link: https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html
-  - Summary: A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors. The new Spectre-v2 variant has been codenamed Branch Target Reuse (BTR). "The key insight is that, while modern CPUs
-
 ### Cluster 793f25a293 — score 10
 
 - Title: Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions
@@ -2941,85 +2667,48 @@ Yesterday, we received a phishing email with an interesting link. At first sight
   - Link: https://isc.sans.edu/diary/rss/33366
   - Summary: Yesterday, we received a phishing email with an interesting link. At first sight, it looks like garbage, but every piece of it has been carefully crafted to confuse basic security controls. Here is the defanged link:
 
-### Cluster 01a35ff044 — score 9
+### Cluster ca3d762fc2 — score 9
 
-- Title: Introducing Threat Signals: agentic skills for open-source threat intelligence, free for every Cloudflare account
-- Source: Cloudflare Security (cloud_identity_infrastructure)
-- Published: 2026-09-29T13:00:00+00:00
-- Link: https://blog.cloudflare.com/threat-signals/
+- Title: New Spectre v2 attack variant leaks Linux root password hash in minutes
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-09-29T17:10:11+00:00
+- Link: https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- content_type: news_report
-- confidence_tier: tier_2_operator
+- affected_products: Linux kernel
+- cve_ids: CVE-2026-64507, CVE-2026-64508
+- content_type: incident_report
+- confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- content_type: news_report
-- confidence_tier: tier_2_operator
+- affected_products: Linux kernel
+- cve_ids: CVE-2026-64507, CVE-2026-64508
+- content_type: incident_report
+- confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-We are expanding access to Cloudforce One's Threat Events Platform to every Cloudflare account and introducing Threat Signals. Threat Signals automatically parses open-source threat reporting, extracts structured indicators, and connects threat context directly to your WAF rules.
+A new Branch Target Reuse (BTR) attack has been devised that can recover root password hashes on Intel computers running Linux in 3-5 minutes on average. [...]
 ```
 
 #### Full body
 
 ```
-Organizations can now scale threat intelligence expertise the way they scale infrastructure. Threat intelligence analysts and network defenders have long automated the ingestion of structured threat feeds to help enrich their SIEM or WAF. The harder work has always been unstructured reporting: turning a research post into indicators your tools can use, without losing the context that explains why they matter. AI skills make that work possible to automate. A skill is a set of rich, detailed instructions that captures how an experienced analyst handles one part of the job, and it runs the same way on every report.Â Threat Signals puts that process into practice at scale. Itâs launching today, and we made it available to every Cloudflare account.Â Threat Signals turns open-source reporting that you choose into intelligence you can act on. Its agentic skills summarize reports, surface key context, extract and normalize indicators of compromise, and apply tags â all within a private, account-scoped dataset. The end result is a contextualized indicator stored in your accountâs private Threat Intelligence dataset as a Threat Event that can instantly be applied in your WAF policy. Starting today, we are also expanding access to Cloudforce Oneâs Threat Events Platform , our core threat intelligence offering, to all Cloudflare accounts for free. With this expansion, each account gets: API and dashboard access to Threat Signals and the ability to select one RSS feed A private dataset built from the RSS feed in Threat Signals, tailored to your reporting requirements and stored for up to 30 days API and dashboard access to Threat Events Platform to investigate events, indicators, and tags related to your private dataset Essentials, Advantage, and Elite enterprise customers can extend this offering to include an expanded number of RSS feeds, access to Cloudforce Oneâs proprietary threat intelligence datasets, the ability to generate custom agentic skills, higher storage options for Threat Signalsâ derived open-source reporting, and the ability to create custom WAF rules on open-source and proprietary threat events. A view of Threat Signals displaying collected RSS feeds Discovery is only the beginning We started with open-source intelligence because it is the most obvious place to prove the power of agentic workflows. We also heard from customers that their existing platforms cannot scale beyond polling 100 RSS feeds. Recognizing the critical impact open-source reporting plays in understanding the threat landscape, we sought to build an infinitely scalable platform (more on that later). Researchers regularly publish detailed findings on vulnerabilities, malicious infrastructure, phishing campaigns, malware families, and threat actors. While RSS feed readers make it easier to discover new reporting, discovery is only the beginning. Harnessing data into a usable workflow with consistent expertise is the key to building actionable defense. Expertise has never been something organizations can replicate at scale. A report explains how a campaign works and identifies the infrastructure behind it, but before an analyst can use that information, they need to: Read and summarize the report Identify relevant indicators Convert indicator values into a consistent format Classify the report using an internal taxonomy for tagging Populate the indicators into a threat intelligence platform (TIP) Preserve a link to the original source Share the intelligence with the rest of the security team Repeating that process across dozens of sources takes time; moreover, almost every step is entirely about human judgment. As a result, context is lost. Indicators inserted into your TIP are separated from the context that explains why they matter and helps assess the risk later in the remediation cycle. It's not surprising that weeks later, a domain is pushed to a blocklist and nobody understands why.Â How Threat Signals works Threat Signals uses RSS to mon
+New Spectre v2 attack variant leaks Linux root password hash in minutes By Bill Toulas September 29, 2026 01:10 PM 0 A new Spectre v2 attack variant called Branch Target Reuse (BTR) can recover root password hashes from Intel computers running Linux in just a few minutes. A BTR attack exploits stale information in a processor's branch predictor after a just-in-time (JIT) engine reuses memory for new code. By manipulating this leftover information, an attacker can trick the processor into temporarily executing the wrong instructions and potentially expose sensitive data. Researchers at VUsec (Systems and Network Security Group at VU Amsterdam) and Scuola Superiore Sant'Anna devised the new attack and evaluated how practical it is against Firefox's JavaScript engine SpiderMonkey, GraalVM, and the Linux kernel's cBPF. VUSec’s Cristiano Guiffrida explained to BleepingComputer that this attack remains an important finding, considering that since 2018 the field assumed that these kinds of attacks were not practical due to self-modifying code (SMC) serving as the basis for dynamic code generation in commodity JIT engines. BTR demonstrates the opposite, showing that SMC-based transient execution attacks are practical in real-world environments and can be used to leak the hash for the root password. The researchers notified the affected vendors, and the issues received the identifiers CVE-2026-64507 and CVE-2026-64508. Fixes have already been merged into the Linux kernel. BTR leaks root password hash In the Spectre-v2 speculative execution side-channel attack, the CPU is tricked into briefly running instructions at a wrongly predicted jump destination, which can expose data through the CPU cache. Its BTR variant does this by reusing an old prediction after the code at that destination has been replaced, the researchers explain in a technical paper. The new attack exploits a gap between JIT-compiled code and the CPU’s branch predictor; specifically, when a JIT engine frees code and puts new code at the same address, the CPU may still remember an indirect branch target from the old code. On a later branch, a point where the CPU decides which instruction to run next, it can briefly execute the new code from that stale target speculatively, even though normal execution would go elsewhere. BTR attack overview Source: VUSec In their tests on Linux, the researchers used unprivileged classic BPF programs to train that prediction, free the original program, and place a different program in the reused memory. The stale target led the CPU to execute attacker-crafted instructions at a misaligned offset, causing data access during speculative execution and generating a measurable cache trace that let the researchers infer the data byte by byte. Next, they located a running ‘su’ process and recovered the root password hash from its memory at a rate of eight bytes per second. “We evaluated the end-to-end exploit on both Raptor Cove and Lion Cove, and leaked the password within 3 and 5 minutes on average, respectively,” the researchers claim . From a practical standpoint, leaking a password hash is not the same as retrieving the password in plaintext. However, an attacker can attempt to crack the hash offline or using cloud computing resources, with success depending on the hashing algorithm and the strength of the password. The published technical paper demonstrates two end-to-end exploits against Linux cBPF: one at default configuration and one with the constant blinding hardening option enabled. In the latter, the exploit is adapted to encode attacker-controlled instructions in jump offsets and still recover the hash within five minutes. Exploit adapted to constant blinding hardening Source: VUSec The researchers also examined Firefox’s SpiderMonkey and Oracle’s GraalVM as separate JIT engines for BTR exposure. In SpiderMonkey, VUSec’s proof-of-concept showed that stale predictions survive code reuse, but not a complete browser exploit. In GraalVM,
 ```
 
 #### Corroborating sources (1)
 
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - Title: Introducing Threat Signals: agentic skills for open-source threat intelligence, free for every Cloudflare account
-  - Published: 2026-09-29T13:00:00+00:00
-  - Link: https://blog.cloudflare.com/threat-signals/
-  - Summary: We are expanding access to Cloudforce One's Threat Events Platform to every Cloudflare account and introducing Threat Signals. Threat Signals automatically parses open-source threat reporting, extracts structured indicators, and connects threat context directly to your WAF rules.
-
-### Cluster e75f1749ab — score 9
-
-- Title: Enforce positive security with Cloudflare Application Profiles
-- Source: Cloudflare Security (cloud_identity_infrastructure)
-- Published: 2026-09-29T13:00:00+00:00
-- Link: https://blog.cloudflare.com/application-profiles/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Cloudflare learns the structure of your HTTP requests and identifies deviations. You can add a positive security layer that helps reduce attack surface as AI makes it easier for attackers to generate and vary payloads.
-```
-
-#### Full body
-
-```
-Today, we are launching Application Profiles, a seamless way to enforce a positive security policy. By analyzing the structure and format of HTTP requests and identifying deviations, Cloudflare can help you significantly reduce the attack surface area. Every customer we speak to wants to know how we can protect them from attacks that use frontier AI models. This has become the number one priority for anyone working in security. Large language models (LLMs) allow even non-technical people to launch attacks with a single prompt. LLMs can generate malicious payloads, test known techniques, and probe applications autonomously by mutating their tactics based on the feedback from the application or the Web Application Firewall (WAF).Â Our tools have changed to stay a step ahead of the attackers. Managed WAF rules and machine learning-based detections remain essential for detecting techniques such as SQL injection, cross-site scripting, remote code execution, and new CVEs, including many variations of those attacks. The answer canât simply be âpatch fasterâ: this is not sustainable, and it doesnât work if you havenât completely mapped your vulnerabilities. What if you could learn what good requests look like by analyzing your traffic structure? Instead of looking only for requests that resemble known attacks, we could allow only requests that conform with what we expect. By doing this, weâd dramatically reduce the attack surface area. For example, if the search field in your query doesnât expect special characters, we can only accept alphanumeric strings. This would already prevent a vast library of known attacks. But we donât stop here. Once we have learned the structure and format of your HTTP requests, we can infer the goal of each operation and then understand what the application ultimately does. With this information, we can identify and prioritize the most critical and vulnerable operations and fields you should take care of first. Cloudflare already supports positive security for APIs through Schema Learning and Schema Validation. We are now extending this protection to web applications through Application Schema Profiles . You onboard an application, we learn its profile, and then we start to deploy an always-on detection that identifies non-conformity. All automated and enriched by powerful analytics. We are opening a closed beta to invited Enterprise customers without API Security; customers with API Security already have access. Validating requests based on learned profiles Schema Profiles periodically learn the expected request structure from observed traffic. After a profile is available, an always-on validation layer is automatically deployed on live traffic. For every request, the detection evaluates whether it conforms or not with the profile, and it adds the result as metadata, augmenting the information already associated with the request. The signal does not take action by itself: customers can analyze past traffic in Security Analytics and decide where enforcement is appropriate and create Security Rules to block non-conforming requests. Requests to operations without a profile are not classified by this feature. Request validation enriches the request with metadata that can be used in analytics or Security Rules to enforce blocking of non-conforming requests.Â Unlike Managed Rules, failing validation does not require a request to match a known attack signature. A value outside an expected range, an unknown enum value, an invalid universally unique identifier (UUID), or unexpected characters â all can be identified because they differ from the learned profile. For example, consider the following operation:Â www.example.com/shop/2dbda2e7-cfc9-448d-9465-799d2e6ff363/inventory?product_id=938062541 Below we describe the learning process, which evaluates only the structure and format of the request. When enough traffic has been observed, we learn that the path expects a UUID variable and that product
-```
-
-#### Corroborating sources (1)
-
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - Title: Enforce positive security with Cloudflare Application Profiles
-  - Published: 2026-09-29T13:00:00+00:00
-  - Link: https://blog.cloudflare.com/application-profiles/
-  - Summary: Cloudflare learns the structure of your HTTP requests and identifies deviations. You can add a positive security layer that helps reduce attack surface as AI makes it easier for attackers to generate and vary payloads.
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: New Spectre v2 attack variant leaks Linux root password hash in minutes
+  - Published: 2026-09-29T17:10:11+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/
+  - Summary: A new Branch Target Reuse (BTR) attack has been devised that can recover root password hashes on Intel computers running Linux in 3-5 minutes on average. [...]
 
 ### Cluster b85976d38c — score 9
 
@@ -3059,7 +2748,7 @@ Apple released security updates to fix a zero-day vulnerability exploited in "ex
 #### Full body
 
 ```
-Apple patches CoreGraphics zero-day flaw exploited in attacks By Sergiu Gatlan September 29, 2026 03:33 AM 1 Apple released security updates to fix a zero-day vulnerability exploited in "extremely sophisticated" targeted attacks on iOS devices. Tracked as CVE-2026-86950 , this flaw stems from an out-of-bounds write weakness discovered by Meta Product Security in CoreGraphics, a framework used for two-dimensional vector graphics, image rendering, and text drawing across iOS, macOS, iPadOS, watchOS, and tvOS. Successful exploitation of out-of-bounds write vulnerabilities can let attackers crash a program, corrupt data, or, in the worst case, gain remote code execution by writing data outside the allocated memory buffer. "Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27," it warned on Monday . "Processing a maliciously crafted file may lead to arbitrary code execution. An out-of-bounds write issue was addressed with improved bounds checking." The complete list of devices impacted by this zero-day is extensive, as it impacts both older and newer models, including: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later and Macs running macOS Sequoia 15.8.1 and Tahoe 26.7.1 Apple has addressed this issue with improved bounds checking to prevent exploitation in iOS 26.7.1 and iPadOS 26.7.1 , macOS Tahoe 26.7.1 , and macOS Sequoia 15.8.1 . While this flaw is likely exploited only in highly targeted attacks, it is strongly advised to install these security updates promptly to prevent potential ongoing attacks. With this vulnerability, Apple has fixed two zero-days exploited in the wild since the start of the year. The other one, an arbitrary code execution vulnerability in dyld (the Dynamic Link Editor used by Apple operating systems) tracked as CVE-2026-20700 and also exploited in extremely sophisticated targeted attacks, was patched in February . Earlier this year, it also addressed a high-severity Beats Studio Buds flaw (CVE-2025-20701) that lets attackers in Bluetooth range spy on users' conversations, and patched older iPhones and iPads against four vulnerabilities targeted in cyberespionage and crypto-theft attacks using the Coruna exploit kit. Last year, Apple fixed seven more zero-days exploited in the wild, the first in January (CVE-2025-24085), the second in February (CVE-2025-24200), a third in March (CVE-2025-24201), two more in April (CVE-2025-31200 and CVE-2025-31201), and two others in December (CVE-2025-43529 and CVE-2025-14174). Build your security blueprint for AI-powered attacks Join Mikko Hyppönen and security leaders from the NFL, CHANEL, and Atlassian for a two-hour digital summit on what AI-speed attacks change, what defenders should stop doing, and how to validate, decide, fix, and re-validate at machine speed. Save your seat Related Articles: New AmnesiaStealer macOS malware hijacks browser sessions via remote control Hackers exploit macOS Screen Sharing flaw to deploy Monero miner Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks Citrix confirms two NetScaler RCE zero-days exploited in attacks New Windows Defender zero-day blocks Microsoft antivirus updates
+Apple patches CoreGraphics zero-day flaw exploited in attacks By Sergiu Gatlan September 29, 2026 03:33 AM 1 Apple released security updates to fix a zero-day vulnerability exploited in "extremely sophisticated" targeted attacks on iOS devices. Tracked as CVE-2026-86950 , this flaw stems from an out-of-bounds write weakness discovered by Meta Product Security in CoreGraphics, a framework used for two-dimensional vector graphics, image rendering, and text drawing across iOS, macOS, iPadOS, watchOS, and tvOS. Successful exploitation of out-of-bounds write vulnerabilities can let attackers crash a program, corrupt data, or, in the worst case, gain remote code execution by writing data outside the allocated memory buffer. "Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27," it warned on Monday . "Processing a maliciously crafted file may lead to arbitrary code execution. An out-of-bounds write issue was addressed with improved bounds checking." The complete list of devices impacted by this zero-day is extensive, as it impacts both older and newer models, including: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later and Macs running macOS Sequoia 15.8.1 and Tahoe 26.7.1 Apple has addressed this issue with improved bounds checking to prevent exploitation in iOS 26.7.1 and iPadOS 26.7.1 , macOS Tahoe 26.7.1 , and macOS Sequoia 15.8.1 . While this flaw is likely exploited only in highly targeted attacks, it is strongly advised to install these security updates promptly to prevent potential ongoing attacks. With this vulnerability, Apple has fixed two zero-days exploited in the wild since the start of the year. The other one, an arbitrary code execution vulnerability in dyld (the Dynamic Link Editor used by Apple operating systems) tracked as CVE-2026-20700 and also exploited in extremely sophisticated targeted attacks, was patched in February . Earlier this year, it also addressed a high-severity Beats Studio Buds flaw (CVE-2025-20701) that lets attackers in Bluetooth range spy on users' conversations, and patched older iPhones and iPads against four vulnerabilities targeted in cyberespionage and crypto-theft attacks using the Coruna exploit kit. Last year, Apple fixed seven more zero-days exploited in the wild, the first in January (CVE-2025-24085), the second in February (CVE-2025-24200), a third in March (CVE-2025-24201), two more in April (CVE-2025-31200 and CVE-2025-31201), and two others in December (CVE-2025-43529 and CVE-2025-14174). Build your security blueprint for AI-powered attacks Join Mikko Hyppönen and security leaders from the NFL, CHANEL, and Atlassian for a two-hour digital summit on what AI-speed attacks change, what defenders should stop doing, and how to validate, decide, fix, and re-validate at machine speed. Save your seat Related Articles: New AmnesiaStealer macOS malware hijacks browser sessions via remote control Hackers exploit macOS Screen Sharing flaw to deploy Monero miner Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks Signal adds encypted local backup support to iOS, desktop apps Citrix confirms two NetScaler RCE zero-days exploited in attacks
 ```
 
 #### Corroborating sources (1)
@@ -3069,6 +2758,272 @@ Apple patches CoreGraphics zero-day flaw exploited in attacks By Sergiu Gatlan S
   - Published: 2026-09-29T07:33:12+00:00
   - Link: https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/
   - Summary: Apple released security updates to fix a zero-day vulnerability exploited in "extremely sophisticated" targeted attacks on iOS devices. [...]
+
+### Cluster 12e35837c2 — score 9
+
+- Title: New Spectre v2 Variant Exposes Intel, AMD, Arm CPUs to Data Leaks
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-09-29T17:00:00+00:00
+- Link: https://www.securityweek.com/new-spectre-v2-variant-exposes-intel-amd-arm-cpus-to-data-leaks/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: education
+- affected_products: Linux kernel
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- affected_industries: education
+- affected_products: Linux kernel
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Branch Target Reuse (BTR) is a new Spectre v2 attack targeting JIT compilers in web browsers, language runtimes, and the operating system kernel The post New Spectre v2 Variant Exposes Intel, AMD, Arm CPUs to Data Leaks appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Researchers from the VUSec group at Vrije Universiteit Amsterdam in the Netherlands and Scuola Superiore Sant’Anna in Italy have disclosed a new variant of the Spectre v2 attack that affects systems powered by Intel, AMD, and Arm CPUs. The researchers named it Branch Target Reuse (BTR) , and it targets the just-in-time (JIT) compilers relied upon by operating system kernels, web browsers, and runtimes. An attacker able to run code on a targeted machine could exploit BTR to steal sensitive data from memory, such as password hashes. Attacks launched from malicious web pages also appear feasible, but the researchers have yet to build a complete browser exploit. Spectre v2 BTR exploits how processors handle code that changes at runtime. “The key insight behind the attack is that, while modern CPUs restore architectural code coherence after self-modification, they do not necessarily invalidate stale indirect branch prediction entries (i.e., branch targets),” the researchers explain. In JIT engines, these stale predictions can outlive the code they were created for. They can later be reused once new code is written to the same memory. This results in what the researchers call a speculative execute-after-free primitive, which lets an attacker hijack speculative execution into the new code at obsolete offsets. The researchers analyzed Linux cBPF, Oracle’s GraalVM runtime, and SpiderMonkey, the JavaScript and WebAssembly engine in Firefox. They developed two end-to-end exploits against the Linux kernel. Advertisement. Scroll to continue reading. Linux kernel exploit leaks the root password hash The kernel exploits abuse classic BPF (cBPF). While only privileged users can access the eBPF JIT, its more capable successor, cBPF can still be used by unprivileged programs. Seccomp, socket filtering, and packet filtering in applications like Docker and Chrome continue to rely on it. On modern Intel CPUs, the exploit leaks arbitrary memory and bypasses all enabled mitigations. According to the researchers, their exploits can extract sensitive information even when a system is fully updated and its default security settings are in place. “Our exploit leaks 8 bytes per second. That may sound slow, but with careful pointer chasing we only need to leak a small amount of data to reach the secret,” the researchers note. In a demo, they used the attack to locate and leak the root password hash after it was loaded into memory. Browsers and sandboxed runtimes are also exposed In Firefox, the attack would be launched from a malicious website that runs JavaScript code in the targeted user’s browser. Because Mozilla has yet to complete the rollout of site isolation, content from other tabs may share the attacker’s address space, exposing that data. The researchers’ proof-of-concept showed that stale branch entries persist in SpiderMonkey on Intel processors long enough to be reused. They estimate that data could leak at a rate of dozens of bytes per second, but more work is needed to build a complete browser exploit. In GraalVM, BTR could allow an attacker to speculatively skip over the memory masking that protects the runtime’s strictest sandbox mode against Spectre. The researchers managed to reliably reuse memory addresses, but GraalVM’s own code compilation and garbage collection processes erased the stale branch entries before they could be exploited. According to the researchers, this limitation “does not appear fundamental.” Fixes are left to software The issue was reported to impacted chipmakers and software developers, all of which acknowledged the research. CPU vendors pointed out that existing mechanisms, such as the indirect branch prediction barrier (IBPB), can mitigate BTR, and that fixes need to be implemented in software. Linux kernel developers have introduced an x86 mitigation that triggers an IBPB across every CPU core whenever a cBPF program is placed in a memory region that was already used by previously executed BPF code. Oracle has
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: New Spectre v2 Variant Exposes Intel, AMD, Arm CPUs to Data Leaks
+  - Published: 2026-09-29T17:00:00+00:00
+  - Link: https://www.securityweek.com/new-spectre-v2-variant-exposes-intel-amd-arm-cpus-to-data-leaks/
+  - Summary: Branch Target Reuse (BTR) is a new Spectre v2 attack targeting JIT compilers in web browsers, language runtimes, and the operating system kernel The post New Spectre v2 Variant Exposes Intel, AMD, Arm CPUs to Data Leaks appeared first on SecurityWeek .
+
+### Cluster ed6a463ce7 — score 9
+
+- Title: Pentagon Personnel Agency Data Breach Impacts 3 Million People
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-09-29T12:25:12+00:00
+- Link: https://www.securityweek.com/pentagon-personnel-agency-data-breach-impacts-3-million-people/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, zero_day
+- actor_attribution: ShinyHunters
+- affected_industries: financial_services, manufacturing_industrial
+- affected_products: Microsoft SharePoint, OpenAI/ChatGPT
+- cve_ids: CVE-2026-65660
+- urgency_signals: zero_day
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, data_breach
+- actor_attribution: ShinyHunters
+- affected_industries: financial_services, manufacturing_industrial
+- affected_products: Microsoft SharePoint, OpenAI/ChatGPT
+- cve_ids: CVE-2026-65660
+- urgency_signals: zero_day
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The data breach affects the Defense Manpower Data Center (DMDC), which maintains personnel records for the Department of Defense. The post Pentagon Personnel Agency Data Breach Impacts 3 Million People appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+The US Defense Manpower Data Center (DMDC), which maintains personnel records for the Pentagon, has started notifying people that their personal information was exposed. According to the DMDC’s notice, unauthorized users had access to one of its file-sharing servers for roughly nine months. A copy of the notification letter , dated September 18 and shared online by a recipient, says the problem was discovered in mid-July. “On July 16, 2026, a security vulnerability in a DMDC file sharing system was discovered, which allowed unauthorized users to access files. DMDC immediately updated the file sharing system to patch the vulnerability and the system was restored,” the letter reads. The letter does not name the affected file-sharing product or describe the vulnerability. “Analysis identified that between October 2025 and the date of discovery, a small number of unauthorized users accessed files on a server containing unencrypted PII,” the letter says. Advertisement. Scroll to continue reading. Exposed records varied by individual and included Social Security numbers alongside names, dates of birth, contact details, demographic data, and military occupational specialties. “At this time, DoW does not have any indications of misuse of the accessed information,” DMDC says. The letter does not say how many people are affected. A Department of War official told CNN that the breach impacts 2.76 million living individuals and 294,000 deceased individuals. According to its website, DMDC held at least 60 million records as of fiscal year 2024. Those records cover military and civilian personnel, contractors, family members, retirees and veterans. It is unclear who is behind the cyberattack. No known cybercrime group appears to have taken credit for an attack on the DMDC. DMDC says it launched privacy and cybersecurity incident response actions after finding the vulnerability. Related : DC Health Agency Exposes 400,000 Beneficiary Records Related : Astrana Health Data Breach Impacts Private, Confidential Information Related : ShinyHunters Claims FBI Hack, Demands Retraction of Threat Report Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs OpenAI Calls Off GPT-6.1 Astra Launch, Details Safety Cases for Frontier Training Apple Patches Zero-Day Linked to ‘Extremely Sophisticated Attack’ Nvidia Unveils AI Agent Safety Platform With Hardware-Based Watchdog Citrix Confirms 2 NetScaler Zero-Days After Admins Pulled the Plug Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks North Korea Suspected in $351 Million Bitget Crypto Heist CISA Election Security Plan Flags Patching Barriers, Voter Database Attacks Windows, Linux, Android File Notification Systems Leak User Activity Latest News Trump Says Top Tech Firms Have Signed Accord to ‘Self-Police’ AI Development OpenAI CEO Announces New AI Agent and Avoids Mention of Security Concerns at Developer Conference DARPA Selects Xint to Use AI in Securing Military Messaging Apps New Spectre v2 Variant Exposes Intel, AMD, Arm CPUs to Data Leaks RemoteThreat Launches With $7 Million for Offensive Operations Platform Reco Raises $55 Million for Agentic Security Hackers Use ChatGPT Custom GPTs in ClickFix Attacks Rig Security Emerges From Stealth With $12M to Tackle Agentic AI Identity Risks Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Securing AI Agents, MCPs, and AI Automations October 7, 2026 Learn how to
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Pentagon Personnel Agency Data Breach Impacts 3 Million People
+  - Published: 2026-09-29T12:25:12+00:00
+  - Link: https://www.securityweek.com/pentagon-personnel-agency-data-breach-impacts-3-million-people/
+  - Summary: The data breach affects the Defense Manpower Data Center (DMDC), which maintains personnel records for the Department of Defense. The post Pentagon Personnel Agency Data Breach Impacts 3 Million People appeared first on SecurityWeek .
+
+### Cluster 38a2561273 — score 9
+
+- Title: Insiders for Hire: How the Underground Market for Employee Access is Evolving Insider Risks
+- Source: Intel 471 (ransomware_ecrime_financial_crime)
+- Published: 2026-09-29T21:00:00+00:00
+- Link: https://www.intel471.com/blog/insiders-for-hire-how-the-underground-market-for-employee-access-is-evolving-insider-risks
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: critical_infrastructure, financial_services, telecommunications
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_industries: financial_services, critical_infrastructure, telecommunications
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Explore how threat actors recruit insiders, target specific employee capabilities and turn legitimate workplace access into criminal capabilities and services.
+```
+
+#### Full body
+
+```
+Insiders for Hire: What the Underground Market for Employee Access Tells Us About Insider Risk Sep 29, 2026 The typical image of an insider threat being a disgruntled employee or departing contractor is out of date. Today’s insider is often recruited, not self-motivated, sourced through an underground market of recruiters, brokers and service providers. Even high-profile schemes such as North Korean IT workers hired under false identities are only one part of the picture. Behind them sits a broader underground market where recruiters, brokers and service providers compete to turn employee access into criminal capability. The people adversaries seek aren’t necessarily the most senior or privileged, either. They’re increasingly the employees who control specific workflows. On a criminal forum in July 2026, one actor offered a US $50,000 referral fee for an introduction to an employee at a major crypto exchange working in KYC or compliance. The actor didn’t want credentials or a database, but a person who controls a specific workflow. Others try to create insider capability through deliberate employment placement. In January 2026, an actor posted offers on a forum seeking unemployed U.S. residents to apply for jobs at a major U.S. telephone carrier and then conduct subscriber identity module (SIM) swaps. Participants were offered a cut of the proceeds rather than upfront payment. These cases come from our latest white paper, Insiders for Hire: Underground Recruitment, Access Claims and Insider-Enabled Services . It examines insider activity at the demand stage, before anything has necessarily happened inside a victim organization. The paper studies what adversaries are asking for, what they are offering and how they are organizing. This provides threat intelligence, insider threat programs and security teams with evidence of adversary demand to help guide external monitoring, detection and resilience strategies. While many insider risk programs are scoped around privileged users, this report gives CTI and security teams evidence to extend that scope to support, logistics, moderation, finance and verification staff. A year of underground insider activity Intel 471 analyzed 85 insider-related leads tied to 80 actor handles, collected between Aug. 25, 2025, and Aug. 23, 2026, across criminal forums, Telegram groups, messaging platforms and marketplaces. The sample is limited, and an advertisement doesn't prove a genuine insider exists or that a capability works. It does, however, show what adversaries want and how they are organizing to get it. Recruitment accounted for 53% of observed records, well ahead of claimed insider access, insider-enabled services and data sales. Much of the underground's energy goes into finding, approaching and converting the people who can deliver internal capabilities, rather than into employees independently selling access. Workflow beats seniority For CTI and insider risk teams, the most important finding may be who is being targeted. Privileged IT administrators remain in demand, but they share the target list with KYC personnel, bank tellers, customer support agents, moderation teams, logistics employees and verification staff. These roles matter because of what they can do. A support agent can reset an account. A carrier employee can perform a SIM swap. A logistics worker in a shipping company can hold or reroute a package. A social media moderator can unban a profile. Each of these outcomes is something an external attacker would otherwise have to work hard to circumvent, and each can be sold as a reusable insider capability across multiple transactions. The industry data reflects this. Transportation appeared in 22% of leads, technology in 20% and telecommunications in 18%. FedEx and UPS were each named in nine leads, more than any other organization. That concentration reflects demand for repeatable operational workflows, not sector size. Outcomes as a service Some actors have stopped selling ac
+```
+
+#### Corroborating sources (1)
+
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - Title: Insiders for Hire: How the Underground Market for Employee Access is Evolving Insider Risks
+  - Published: 2026-09-29T21:00:00+00:00
+  - Link: https://www.intel471.com/blog/insiders-for-hire-how-the-underground-market-for-employee-access-is-evolving-insider-risks
+  - Summary: Explore how threat actors recruit insiders, target specific employee capabilities and turn legitimate workplace access into criminal capabilities and services.
+
+### Cluster fd4ff49516 — score 9
+
+- Title: Kiteworks lifts shutdown advisory after ‘credible threat intelligence’ from federal authorities
+- Source: CyberScoop (cyber_news_breach_reporting)
+- Published: 2026-09-29T14:11:43+00:00
+- Link: https://cyberscoop.com/kiteworks-lifts-shutdown-advisory-after-credible-threat-intelligence-from-federal-authorities/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng, ransomware_extortion
+- actor_attribution: ShinyHunters
+- affected_industries: critical_infrastructure, financial_services, government
+- affected_products: Snowflake
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng
+- actor_attribution: ShinyHunters
+- affected_industries: financial_services, government, critical_infrastructure
+- affected_products: Snowflake
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The company said it found and patched a previously unknown critical vulnerability in one product during the weekend shutdown, and has no indication it was exploited. The post Kiteworks lifts shutdown advisory after ‘credible threat intelligence’ from federal authorities appeared first on CyberScoop .
+```
+
+#### Full body
+
+```
+Advertisement Get our latest cybersecurity news first on Google. Click here! Close Kiteworks, a provider of secure file transfer and data-sharing tools, told customers Monday they could resume normal operations after a weekend-long precautionary shutdown prompted by what it called “credible threat intelligence” from federal authorities. The recommendation, issued last week, advised customers to take production systems offline ahead of a potential imminent attack. The company also shut down the environments it hosts on customers’ behalf. By Sunday, Kiteworks said continuous monitoring showed no abnormal activity. “Telling customers to take production systems offline is not a decision any vendor makes lightly, and we knew exactly what we were asking of them,” Chief Information Security Officer Frank Balonis said in the company’s statement. “We made it anyway, because when the choice is between certainty and convenience, customer data is not something we are willing to gamble with.” During the shutdown, Kiteworks discovered a previously unknown critical vulnerability in Advanced Forms, a secure data collection tool used by fewer than 1% of its customers, a group the company said comprises approximately 50 organizations. The company said its other products, including file collaboration, file transfer, email encryption and managed file transfer, were unaffected. Advertisement Kiteworks said it developed and deployed a fix during the window and has no indication the vulnerability was ever exploited. All known vulnerabilities are addressed in release 9.5.1, which the company recommends customers run. Company CEO Jonathan Yaron said in a release that being proactive about the threat was top of mind. “Our customers gave up their weekend on our recommendation, at short notice and at difficult hours, and many of their teams worked through the night alongside ours,” Yaron said. “The industry standard is to wait for proof of an attack. We would rather be proactive on credible warning than wait for certainty and be too late. That is the standard we intend to keep.” Kiteworks, a California-based company formerly known as Accellion, rebranded in October 2021 after a vulnerability in its legacy file transfer appliance allowed an extortion gang to breach hundreds of organizations. That campaign was part of a broader wave of attacks on file transfer products . Kiteworks declined to identify which federal authorities provided the intelligence or which hacking group prompted the warning. The company said it worked with federal intelligence authorities throughout the weekend and shared threat intelligence with industry partners, including Mandiant. Share Facebook LinkedIn Twitter Copy Link Add to Preferred Sources Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops Citrix office complex in Santa Clara, California. ( Justin Sullivan/Getty Images) F5 Headquarters in Seattle, Washington. (Courtesy of F5) Latest Podcasts What the Section 702 lapse means for cybersecurity Jailbreaks, sandboxes, and the limits of AI safeguards ClickFix and the social engineering of routine AI-adaptable security platforms are critical for autonomous decision-making Government US is looking to weave AI into critical infrastructure for cybersecurity, national cyber director says As AI world debates security, NVIDIA releases open source tools for agents ShinyHunters trades financial extortion for a reckless war of ego with the FBI Supreme Court permits states to use SAVE database for citizenship checks Technology New bill would create federal investigative body for AI-driven hacks CISA outlines improvement plan for CVE program OpenAI, Ukraine partner on ‘Daybreak’ program to protect power grids and water systems Citing China, President Trump doubles down on hands-off approach to AI regulation Threats Army soldier sentenced for spree of attacks on AT&T, Snowflake and other major companies Bipartisan Senate leaders introduce bill to b
+```
+
+#### Corroborating sources (1)
+
+- **CyberScoop** (cyber_news_breach_reporting)
+  - Title: Kiteworks lifts shutdown advisory after ‘credible threat intelligence’ from federal authorities
+  - Published: 2026-09-29T14:11:43+00:00
+  - Link: https://cyberscoop.com/kiteworks-lifts-shutdown-advisory-after-credible-threat-intelligence-from-federal-authorities/
+  - Summary: The company said it found and patched a previously unknown critical vulnerability in one product during the weekend shutdown, and has no indication it was exploited. The post Kiteworks lifts shutdown advisory after ‘credible threat intelligence’ from federal authorities appeared first on CyberScoop .
+
+### Cluster a1fd76ffa8 — score 9
+
+- Title: 'NeedyMantis' Provides Long-Term Access to Compromised Networks
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-09-29T15:12:39+00:00
+- Link: https://www.darkreading.com/threat-intelligence/needymantis-long-term-access-compromised-networks
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, phishing_social_eng, supply_chain, web_shell_backdoor
+- affected_industries: education, government, healthcare, telecommunications
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, phishing_social_eng, apt_espionage, web_shell_backdoor
+- affected_industries: healthcare, government, telecommunications, education
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Microsoft observed a China-based actor using a previously unidentified malware framework in targeted intrusions against telcos, universities, medical, and government-related organizations.
+```
+
+#### Full body
+
+```
+Threat Intelligence Cyber Risk Cyberattacks & Data Breaches Vulnerabilities & Threats News 'NeedyMantis' Provides Long-Term Access to Compromised Networks Microsoft observed a China-based actor using a previously unidentified malware framework in targeted intrusions against telcos, universities, medical, and government-related organizations. Elizabeth Montalbano , Contributing Writer September 29, 2026 4 Min Read Source: Valentin Baciu via Shutterstock A previously unidentified malware family is giving attackers long-term stealth access to targeted networks once they've already infiltrated a system, revealing a potential blind spot for defenders that tend to focus more on initial intrusion rather than post-compromise activity. The malware, dubbed "NeedyMantis," is a modular framework that has been used in a limited number of targeted intrusions against telecommunications companies , universities, medical nonprofits, intergovernmental organizations, and government contractors, Microsoft Threat Intelligence revealed in a blog post yesterday. The company linked the malware to a threat actor tracked as Storm-3069 that is based in China, though Microsoft did not link the actor to any Chinese nation-state groups. However, Microsoft has not concluded that all deployments of the malware are tied to Storm-3069, the company said. Microsoft discovered NeedyMantis while investigating indicators of compromise (IoCs) associated with the DAEMON Tools supply chain compromise , which was reported by Kaspersky in May. The malware, used since at least October 2025, combines multiple loaders, custom encrypted file archives, a custom executable file format, and modular components that enable operators to evade analysis and extend functionality through additional modules. Related: UAE, Saudi Arabia Face Onslaught of Increasingly Complex Cyberattacks "These characteristics, combined with its use in targeted intrusions, make NeedyMantis a useful case study for understanding how threat actors establish and maintain long-term access within victim environments," according to Microsoft Threat Intelligence. How NeedyMantis Works At its core, NeedyMantis is a modular backdoor designed for post-compromise activity, which means an attacker already must have gained initial access to a network to deploy the malware. It communicates with attacker-controlled infrastructure over HTTPS and WebSockets, gathers information about the compromised system, and can load additional components as needed. Distributed by a two-stage loader, NeedyMantis can make malicious code look legitimate. It uses DLL sideloading to hide behind trusted applications such as Poedit, curl, Vim, and TightVNC, with malicious DLLs posing as components from major software vendors, according to Microsoft. "The loader and archive have been found packaged alongside legitimate software, with the first-stage loader — masquerading as a required DLL — being loaded through DLL sideloading ," according to the post. The malware also can peel back layers of encrypted and compressed payloads, with its loaders using custom archives, changing encryption keys, and employing other techniques designed to make static analysis harder. Related: Attackers Manipulate AI Chatbots in Mass Disinformation, Phishing Campaign Range of NeedyMantis Capabilities Unknown In one intrusion, attackers used Impacket to copy the legitimate software and malicious files before execution. "This activity occurred after the actor had already obtained access to the environment and illustrates one method by which NeedyMantis can be introduced during an intrusion post-compromise," according to the post. And though Microsoft revealed some capabilities of the malware, given its modular nature , it's likely that there are many others that remain unknown, according to Andrew Costis, engineering manager of the adversary research team at AttackIQ. "The question is what happens after entry," he tells Dark Reading. "Its main component can load fur
+```
+
+#### Corroborating sources (1)
+
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: 'NeedyMantis' Provides Long-Term Access to Compromised Networks
+  - Published: 2026-09-29T15:12:39+00:00
+  - Link: https://www.darkreading.com/threat-intelligence/needymantis-long-term-access-compromised-networks
+  - Summary: Microsoft observed a China-based actor using a previously unidentified malware framework in targeted intrusions against telcos, universities, medical, and government-related organizations.
+
+### Cluster bc03121785 — score 9
+
+- Title: New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-09-29T17:20:17+00:00
+- Link: https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Linux kernel
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- affected_products: Linux kernel
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors. The new Spectre-v2 variant has been codenamed Branch Target Reuse (BTR). "The key insight is that, while modern CPUs
+```
+
+#### Full body
+
+```
+New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses  Ravie Lakshmanan  Sep 29, 2026 Vulnerability / Hardware Security A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time ( JIT ) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors. The new Spectre v2 variant has been codenamed Branch Target Reuse (BTR) . "The key insight is that, while modern CPUs restore architectural code coherence after self-modification, they do not necessarily invalidate stale indirect branch prediction entries (i.e., branch targets)," researchers Sander Wiebing, Yuhui Zhu, Alessandro Biondi, and Cristiano Giuffrida said in an accompanying paper. "In JIT engines, these stale targets can outlive the original code and later be reused when the code cache is repopulated, yielding a transient execute-after-free primitive. This allows attackers to hijack transient control flow to newly generated code at obsolete offsets, bypassing software hardening or reaching misaligned gadgets." BTR was evaluated against SpiderMonkey (the JIT engine of Mozilla Firefox), GraalVM, and the Linux kernel's cBPF JIT, all of which have been found to be affected, although with "markedly different exploitability characteristics and leakage rates." As a proof-of-concept, two end-to-end exploits have been devised against the Linux kernel that can be used to leak and recover the root password hash within minutes from a fully patched Intel system with default protections enabled. Spectre refers to a class of CPU security vulnerabilities first discovered in 2017 that exploit speculative execution, a performance optimization technique that modern processors use to predict and execute instructions beforehand. An attacker can exploit this loophole to trick a CPU into performing speculative operations that access sensitive data, and then infer that data through a cache timing side channel. Spectre v2 is one specific type of the Spectre attack that abuses indirect branch prediction in modern processors to achieve the same goals. Specifically, it poisons the CPU's branch prediction mechanism to cause a victim program to execute an indirect branch, which, in turn, causes the CPU to mispredict the branch and speculatively execute attacker-controlled code or a gadget. Although the results of the misprediction are discarded, an attacker can infer what the victim's speculative execution accessed by taking advantage of the cache state changes and measuring the cache changes. "BTR targets JIT engines and arises from the interplay between Self-Modifying Code (SMC) and indirect branch prediction," the researchers said, adding, "JIT engines do expose exploitable transient-execution opportunities induced by SMC for the first time." The attack presumes an attacker who is able to run unprivileged code in a JIT engine and is seeking to disclose sensitive data from the host environment. The entire sequence of actions is as follows - The attacker lures the JIT engine into allocating a training chunk and forces the victim branch to jump to it, thereby inserting a BTB entry referencing the current entry point. The attacker forces a deallocation of the training chunk and an allocation of the target chunk that partially reuses the same address. The attacker triggers the indirect branch again, the CPU uses the now-stale branch target buffer (BTB) entry and speculatively jumps to the old training-chunk entry point. The end result is control-flow hijacking and secret data disclosure. "By redirecting control flow to an architecturally invalid entry point, the attacker can bypass Spectre hardening mitigations or execute misaligned instructions, ultimately disclosing secret data," the researchers explained. However, a key aspect BTR hinges on is that the stale BTB entry must not be invalidated or replaced after the JIT engine frees the tra
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses
+  - Published: 2026-09-29T17:20:17+00:00
+  - Link: https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html
+  - Summary: A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors. The new Spectre-v2 variant has been codenamed Branch Target Reuse (BTR). "The key insight is that, while modern CPUs
 
 ### Cluster bd76ce6fac — score 9
 
@@ -3419,6 +3374,86 @@ AI is moving from experiment to infrastructure. Sysdig research shows more organ
   - Link: https://webflow.sysdig.com/blog/ai-adoption-is-a-security-survival-metric
   - Summary: AI is moving from experiment to infrastructure. Sysdig research shows more organizations building their own infrastructure, reducing the AI attack surface.
 
+### Cluster 01a35ff044 — score 8
+
+- Title: Introducing Threat Signals: agentic skills for open-source threat intelligence, free for every Cloudflare account
+- Source: Cloudflare Security (cloud_identity_infrastructure)
+- Published: 2026-09-29T13:00:00+00:00
+- Link: https://blog.cloudflare.com/threat-signals/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+We are expanding access to Cloudforce One's Threat Events Platform to every Cloudflare account and introducing Threat Signals. Threat Signals automatically parses open-source threat reporting, extracts structured indicators, and connects threat context directly to your WAF rules.
+```
+
+#### Full body
+
+```
+Organizations can now scale threat intelligence expertise the way they scale infrastructure. Threat intelligence analysts and network defenders have long automated the ingestion of structured threat feeds to help enrich their SIEM or WAF. The harder work has always been unstructured reporting: turning a research post into indicators your tools can use, without losing the context that explains why they matter. AI skills make that work possible to automate. A skill is a set of rich, detailed instructions that captures how an experienced analyst handles one part of the job, and it runs the same way on every report.Â Threat Signals puts that process into practice at scale. Itâs launching today, and we made it available to every Cloudflare account.Â Threat Signals turns open-source reporting that you choose into intelligence you can act on. Its agentic skills summarize reports, surface key context, extract and normalize indicators of compromise, and apply tags â all within a private, account-scoped dataset. The end result is a contextualized indicator stored in your accountâs private Threat Intelligence dataset as a Threat Event that can instantly be applied in your WAF policy. Starting today, we are also expanding access to Cloudforce Oneâs Threat Events Platform , our core threat intelligence offering, to all Cloudflare accounts for free. With this expansion, each account gets: API and dashboard access to Threat Signals and the ability to select one RSS feed A private dataset built from the RSS feed in Threat Signals, tailored to your reporting requirements and stored for up to 30 days API and dashboard access to Threat Events Platform to investigate events, indicators, and tags related to your private dataset Essentials, Advantage, and Elite enterprise customers can extend this offering to include an expanded number of RSS feeds, access to Cloudforce Oneâs proprietary threat intelligence datasets, the ability to generate custom agentic skills, higher storage options for Threat Signalsâ derived open-source reporting, and the ability to create custom WAF rules on open-source and proprietary threat events. A view of Threat Signals displaying collected RSS feeds Discovery is only the beginning We started with open-source intelligence because it is the most obvious place to prove the power of agentic workflows. We also heard from customers that their existing platforms cannot scale beyond polling 100 RSS feeds. Recognizing the critical impact open-source reporting plays in understanding the threat landscape, we sought to build an infinitely scalable platform (more on that later). Researchers regularly publish detailed findings on vulnerabilities, malicious infrastructure, phishing campaigns, malware families, and threat actors. While RSS feed readers make it easier to discover new reporting, discovery is only the beginning. Harnessing data into a usable workflow with consistent expertise is the key to building actionable defense. Expertise has never been something organizations can replicate at scale. A report explains how a campaign works and identifies the infrastructure behind it, but before an analyst can use that information, they need to: Read and summarize the report Identify relevant indicators Convert indicator values into a consistent format Classify the report using an internal taxonomy for tagging Populate the indicators into a threat intelligence platform (TIP) Preserve a link to the original source Share the intelligence with the rest of the security team Repeating that process across dozens of sources takes time; moreover, almost every step is entirely about human judgment. As a result, context is lost. Indicators inserted into your TIP are separated from the context that explains why they matter and helps assess the risk later in the remediation cycle. It's not surprising that weeks later, a domain is pushed to a blocklist and nobody understands why.Â How Threat Signals works Threat Signals uses RSS to mon
+```
+
+#### Corroborating sources (1)
+
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - Title: Introducing Threat Signals: agentic skills for open-source threat intelligence, free for every Cloudflare account
+  - Published: 2026-09-29T13:00:00+00:00
+  - Link: https://blog.cloudflare.com/threat-signals/
+  - Summary: We are expanding access to Cloudforce One's Threat Events Platform to every Cloudflare account and introducing Threat Signals. Threat Signals automatically parses open-source threat reporting, extracts structured indicators, and connects threat context directly to your WAF rules.
+
+### Cluster e75f1749ab — score 8
+
+- Title: Enforce positive security with Cloudflare Application Profiles
+- Source: Cloudflare Security (cloud_identity_infrastructure)
+- Published: 2026-09-29T13:00:00+00:00
+- Link: https://blog.cloudflare.com/application-profiles/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Cloudflare learns the structure of your HTTP requests and identifies deviations. You can add a positive security layer that helps reduce attack surface as AI makes it easier for attackers to generate and vary payloads.
+```
+
+#### Full body
+
+```
+Today, we are launching Application Profiles, a seamless way to enforce a positive security policy. By analyzing the structure and format of HTTP requests and identifying deviations, Cloudflare can help you significantly reduce the attack surface area. Every customer we speak to wants to know how we can protect them from attacks that use frontier AI models. This has become the number one priority for anyone working in security. Large language models (LLMs) allow even non-technical people to launch attacks with a single prompt. LLMs can generate malicious payloads, test known techniques, and probe applications autonomously by mutating their tactics based on the feedback from the application or the Web Application Firewall (WAF).Â Our tools have changed to stay a step ahead of the attackers. Managed WAF rules and machine learning-based detections remain essential for detecting techniques such as SQL injection, cross-site scripting, remote code execution, and new CVEs, including many variations of those attacks. The answer canât simply be âpatch fasterâ: this is not sustainable, and it doesnât work if you havenât completely mapped your vulnerabilities. What if you could learn what good requests look like by analyzing your traffic structure? Instead of looking only for requests that resemble known attacks, we could allow only requests that conform with what we expect. By doing this, weâd dramatically reduce the attack surface area. For example, if the search field in your query doesnât expect special characters, we can only accept alphanumeric strings. This would already prevent a vast library of known attacks. But we donât stop here. Once we have learned the structure and format of your HTTP requests, we can infer the goal of each operation and then understand what the application ultimately does. With this information, we can identify and prioritize the most critical and vulnerable operations and fields you should take care of first. Cloudflare already supports positive security for APIs through Schema Learning and Schema Validation. We are now extending this protection to web applications through Application Schema Profiles . You onboard an application, we learn its profile, and then we start to deploy an always-on detection that identifies non-conformity. All automated and enriched by powerful analytics. We are opening a closed beta to invited Enterprise customers without API Security; customers with API Security already have access. Validating requests based on learned profiles Schema Profiles periodically learn the expected request structure from observed traffic. After a profile is available, an always-on validation layer is automatically deployed on live traffic. For every request, the detection evaluates whether it conforms or not with the profile, and it adds the result as metadata, augmenting the information already associated with the request. The signal does not take action by itself: customers can analyze past traffic in Security Analytics and decide where enforcement is appropriate and create Security Rules to block non-conforming requests. Requests to operations without a profile are not classified by this feature. Request validation enriches the request with metadata that can be used in analytics or Security Rules to enforce blocking of non-conforming requests.Â Unlike Managed Rules, failing validation does not require a request to match a known attack signature. A value outside an expected range, an unknown enum value, an invalid universally unique identifier (UUID), or unexpected characters â all can be identified because they differ from the learned profile. For example, consider the following operation:Â www.example.com/shop/2dbda2e7-cfc9-448d-9465-799d2e6ff363/inventory?product_id=938062541 Below we describe the learning process, which evaluates only the structure and format of the request. When enough traffic has been observed, we learn that the path expects a UUID variable and that product
+```
+
+#### Corroborating sources (1)
+
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - Title: Enforce positive security with Cloudflare Application Profiles
+  - Published: 2026-09-29T13:00:00+00:00
+  - Link: https://blog.cloudflare.com/application-profiles/
+  - Summary: Cloudflare learns the structure of your HTTP requests and identifies deviations. You can add a positive security layer that helps reduce attack surface as AI makes it easier for attackers to generate and vary payloads.
+
 ### Cluster e7a9d35417 — score 8
 
 - Title: Japan's Keio confirms ransomware attack disrupted business systems
@@ -3507,47 +3542,6 @@ Times Car confirms data breach affecting 6.6 million user accounts By Bill Toula
   - Link: https://www.bleepingcomputer.com/news/security/times-car-confirms-data-breach-affecting-66-million-user-accounts/
   - Summary: Japanese car-sharing service Times Car has confirmed that approximately 6.6 million user accounts were compromised in a cyberattack disclosed late last week. [...]
 
-### Cluster 9783f575b3 — score 8
-
-- Title: Quoting Anthropic Frontier Red Team
-- Source: Simon Willison (ai_security_agentic_risk)
-- Published: 2026-09-29T22:20:28+00:00
-- Link: https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Anthropic/Claude
-
-#### Cluster taxonomy (union across members)
-- affected_products: Anthropic/Claude
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: Anthropic/Claude
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them. — Anthropic Frontier Red Team , GLM-5.3 and the spread of advanced cyber capabilities Tags: anthropic , generative-ai , ai-security-research , glm , ai , ai-in-china , llms
-```
-
-#### Full body
-
-```
-Simon Willison’s Weblog Subscribe Sponsored by: Greptile — AI code reviewers catch bugs at run time and manage your code. Trusted by Nvidia, Netflix, and many more 29th September 2026 We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them. — Anthropic Frontier Red Team , GLM-5.3 and the spread of advanced cyber capabilities Posted 29th September 2026 at 10:20 pm Recent articles OpenAI DevDay 2026 live blog - 29th September 2026 2026 in LLMs (so far) - 27th September 2026 Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war - 22nd September 2026 This is a quotation collected by Simon Willison, posted on 29th September 2026 . ai 2,256 generative-ai 2,000 llms 1,967 anthropic 343 ai-in-china 109 glm 10 ai-security-research 45 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
-```
-
-#### Corroborating sources (1)
-
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: Quoting Anthropic Frontier Red Team
-  - Published: 2026-09-29T22:20:28+00:00
-  - Link: https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/
-  - Summary: We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them. — Anthropic Frontier Red Team , GLM-5.3 and the spread of advanced cyber capabilities Tags: anthropic , generative-ai , ai-security-research , glm , ai , ai-in-china , llms
-
 ### Cluster e3915171a0 — score 8
 
 - Title: Four Cyber Threats Harboring Big Plans for the Future
@@ -3591,30 +3585,69 @@ Not unlike the fictional Skynet sending increasingly sophisticated ‘Terminator
   - Link: https://www.securityweek.com/four-cyber-threats-harboring-big-plans-for-the-future/
   - Summary: - AI, supply-chain exposure, quantum computing and geopolitical conflict are testing security programs. Preparing for disruption must become part of day-to-day operations. The post Four Cyber Threats Harboring Big Plans for the Future appeared first on SecurityWeek .
 
+### Cluster 9783f575b3 — score 8
+
+- Title: Quoting Anthropic Frontier Red Team
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-09-29T22:20:28+00:00
+- Link: https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Anthropic/Claude
+
+#### Cluster taxonomy (union across members)
+- affected_products: Anthropic/Claude
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Anthropic/Claude
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them. — Anthropic Frontier Red Team , GLM-5.3 and the spread of advanced cyber capabilities Tags: anthropic , generative-ai , ai-security-research , glm , ai , ai-in-china , llms
+```
+
+#### Full body
+
+```
+Simon Willison’s Weblog Subscribe Sponsored by: Greptile — AI code reviewers catch bugs at run time and manage your code. Trusted by Nvidia, Netflix, and many more 29th September 2026 We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them. — Anthropic Frontier Red Team , GLM-5.3 and the spread of advanced cyber capabilities Posted 29th September 2026 at 10:20 pm Recent articles OpenAI DevDay 2026 live blog - 29th September 2026 2026 in LLMs (so far) - 27th September 2026 Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war - 22nd September 2026 This is a quotation collected by Simon Willison, posted on 29th September 2026 . ai 2,257 generative-ai 2,001 llms 1,968 anthropic 343 ai-in-china 109 glm 10 ai-security-research 45 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+```
+
+#### Corroborating sources (1)
+
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Quoting Anthropic Frontier Red Team
+  - Published: 2026-09-29T22:20:28+00:00
+  - Link: https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/
+  - Summary: We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them. — Anthropic Frontier Red Team , GLM-5.3 and the spread of advanced cyber capabilities Tags: anthropic , generative-ai , ai-security-research , glm , ai , ai-in-china , llms
+
 ### Cluster ed48920795 — score 8
 
 - Title: One Packet Can Crash OT Servers in Industrial Sectors
 - Source: Dark Reading (cyber_news_breach_reporting)
 - Published: 2026-09-28T21:13:04+00:00
 - Link: https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ddos, zero_day
+- threat_categories: zero_day
 - affected_industries: critical_infrastructure, manufacturing_industrial
-- cve_ids: CVE-2026-42542
-- urgency_signals: actively_exploited, poc_available, preauth_unauth, zero_day
+- urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: zero_day, ddos, active_exploitation
+- threat_categories: zero_day
 - affected_industries: critical_infrastructure, manufacturing_industrial
-- cve_ids: CVE-2026-42542
-- urgency_signals: actively_exploited, zero_day, preauth_unauth, poc_available
+- urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -3624,12 +3657,6 @@ Not unlike the fictional Skynet sending increasingly sophisticated ‘Terminator
 A high-severity zero-day vulnerability affects the TDengine time-series database used across industrial, IoT, energy, and automotive environments.
 ```
 
-#### Full body
-
-```
-ICS/OT Security IoT Threat Intelligence Vulnerabilities & Threats News One Packet Can Crash OT Servers in Industrial Sectors A high-severity zero-day vulnerability affects the TDengine time-series database used across industrial, IoT, energy, and automotive environments. Jai Vijayan , Contributing Writer September 28, 2026 4 Min Read Source: Elena Abrazhevich via Shutterstock A newly disclosed flaw in an open source database used in industrial and Internet of Things (IoT) environments could let unauthenticated attackers crash vulnerable servers with a single specially crafted network packet. The zero-day vulnerability, tracked as CVE-2026-42542 affects TDengine, a time-series database that organizations in sectors like manufacturing, energy, automotive, and IoT use to store and analyze large volumes of data collected over time. Examples of such data include readings from sensors and industrial equipment, as well as application- and infrastructure-related performance metrics. TDengine says more than 730,000 instances of the database are currently running in organizations ranging from startups to large multinationals across multiple industry sectors. The company's customers include Siemens, McDonald's, Sinopec, and NavInfo. An Ordinary Failure in an Important Place Researchers from Ridge Security discovered the vulnerability while testing open source applications used in IoT and operational technology (OT) environments that, according to the company, traditional IT security tools typically tend to overlook. Related: You Need Cyber Deception for OT "CVE-2026-42542 is a three-line fix guarding a subtraction, in a function that runs before anyone has proven who they are, on a port that in too many networks is reachable from too many places," the company said in a report disclosing the flaw. "That is not an exotic failure. It is an ordinary one, in an important place." The high-severity vulnerability (CVSS score: 7.5) affects TDengine versions 3.4.0.0 through 3.4.1.5. TDengine released a fixed version of the software (3.4.1.6) after Ridge Security reported the vulnerability to it. So far, there is no evidence of any attacks targeting the vulnerability in the wild, and no exploit code appears to have become public either, according to Ridge Security, but that could change. The security vendor itself has developed a proof-of-concept exploit for the vulnerability but has chosen not to publicly disclose it. Ridge Security said attackers who successfully exploit CVE-2026-42542 can trigger a denial-of-service condition on the affected server. The impact could be particularly significant in industrial telemetry , IoT, energy and utilities, connected vehicles , and other operational environments, where losing access to the database can mean losing visibility into equipment and operations, the security vendor said. It recommended that organizations using the database upgrade to the fixed version. They should also restrict access to TCP port 6030, the database's default RPC port, Ridge recommended. Related: How an Emerging Industrial Protocol Family Could Put OT at Risk Ridge Security researcher Yan Zhou says the bug is relatively easy to exploit for an attacker with network access to port 6030. "The vulnerability can be triggered with a single malformed network packet, without requiring credentials or an established session," Zhou tells Dark Reading. "Based on the technical details provided in the vendor advisory and the patch changes, reproducing the issue would likely take hours rather than weeks.” An Integer-Underflow Issue The flaw is an integer-underflow bug in TDengine's pre-authentication message parsing, meaning the bug is triggered when the server is processing the initial network request from a client before TDengine even verifies who is connecting. An integer underflow occurs when a calculation produces a number smaller than the system can represent. Instead of producing an error, the value can wrap around to a very large number.
-```
-
 #### Corroborating sources (1)
 
 - **Dark Reading** (cyber_news_breach_reporting)
@@ -3637,43 +3664,6 @@ ICS/OT Security IoT Threat Intelligence Vulnerabilities & Threats News One Packe
   - Published: 2026-09-28T21:13:04+00:00
   - Link: https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine
   - Summary: A high-severity zero-day vulnerability affects the TDengine time-series database used across industrial, IoT, energy, and automotive environments.
-
-### Cluster 9ed08264e4 — score 8
-
-- Title: Ransomware Attacks Reach Record High for 2026
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-09-23T12:00:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/ransomware-attacks-reach-record/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- affected_industries: manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- affected_industries: manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A total of 1073 firms fell victim to ransomware attacks globally in August, with the industrial sector the most affected, according to new NCC data
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Ransomware Attacks Reach Record High for 2026
-  - Published: 2026-09-23T12:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/ransomware-attacks-reach-record/
-  - Summary: A total of 1073 firms fell victim to ransomware attacks globally in August, with the industrial sector the most affected, according to new NCC data
 
 ### Cluster b0d89fbe69 — score 8
 
@@ -3748,6 +3738,43 @@ The private email address GitLab gives you for filing issues by email is a crede
   - Published: 2026-09-23T20:53:38+00:00
   - Link: https://www.darkreading.com/application-security/gitlab-email-addresses-supply-chain-attacks
   - Summary: Incoming email addresses automatically assigned to each user on the platform contain highly privileged access tokens that attackers can use.
+
+### Cluster 9ed08264e4 — score 8
+
+- Title: Ransomware Attacks Reach Record High for 2026
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-09-23T12:00:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/ransomware-attacks-reach-record/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- affected_industries: manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- affected_industries: manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A total of 1073 firms fell victim to ransomware attacks globally in August, with the industrial sector the most affected, according to new NCC data
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Ransomware Attacks Reach Record High for 2026
+  - Published: 2026-09-23T12:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/ransomware-attacks-reach-record/
+  - Summary: A total of 1073 firms fell victim to ransomware attacks globally in August, with the industrial sector the most affected, according to new NCC data
 
 ### Cluster 8098e82854 — score 8
 

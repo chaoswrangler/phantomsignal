@@ -6,9 +6,58 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Wed, 30 Sep 2026 00:15:29 +0000</lastBuildDate>
+<lastBuildDate>Wed, 30 Sep 2026 06:31:56 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>EU Cyber Resilience Act requirements for containers and Kubernetes</title>
+<link>https://www.helpnetsecurity.com/2026/09/30/rapidfort-cra-container-compliance/</link>
+<description><![CDATA[Starting in full force on Dec. 10, 2024, the EU Cyber Resilience Act (CRA) is a regulation (EU 2024/2847) that defines mandatory cybersecurity requirements for all products with digital elements sold in EU markets. Reporting obligations will begin on Sept. 11, 2026, with full enforcement kicking in on Dec. 11, 2027. The CRA brings new requirements for teams working with containers and Kubernetes regarding how cloud native applications are built, distributed, and maintained throughout their lifecycle. CRA scope in cloud … More → The post EU Cyber Resilience Act requirements for containers and Kubernetes appeared first on Help Net Security .<br/><br/><em>Tags: Kubernetes</em>]]></description>
+<pubDate>Wed, 30 Sep 2026 05:00:53 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/30/rapidfort-cra-container-compliance/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>Kubernetes</category>
+</item>
+<item>
+<title>Most open critical and high flaws are over 90 days old</title>
+<link>https://www.helpnetsecurity.com/2026/09/30/research-unpatched-vulnerabilities-backlog/</link>
+<description><![CDATA[Detectify analyzed exposure data from 1,293 of its customers in the US, the UK and the Nordics and found that most serious flaws still open on their internet-facing systems are months old. Of the critical and high-severity vulnerabilities open at the time of the snapshot, 97% in the Nordics had been exposed for more than 90 days, along with 92% in the UK and 86% in the US. Source: Detectify The organizations already know about … More → The post Most open critical and high flaws are over 90 days old appeared first on Help Net Security .]]></description>
+<pubDate>Wed, 30 Sep 2026 04:00:38 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/30/research-unpatched-vulnerabilities-backlog/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>ShinyHunters suspect arrested in the Netherlands</title>
+<link>https://risky.biz/RBNEWS617/</link>
+<description><![CDATA[A ShinyHunters suspect has been arrested in the Netherlands, Apple fixes an iOS zero-day found by Meta, recent Citrix zero-days see mass exploitation within hours and NVIDIA launches an AI sandboxing platform.<br/><br/><em>Tags: ShinyHunters · zero_day</em>]]></description>
+<pubDate>Wed, 30 Sep 2026 03:56:03 +0000</pubDate>
+<guid isPermaLink="true">https://risky.biz/RBNEWS617/</guid>
+<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
+<category>practitioner_analysis</category>
+<category>ShinyHunters</category>
+<category>zero_day</category>
+</item>
+<item>
+<title>WSL containers are generally available on Windows</title>
+<link>https://www.helpnetsecurity.com/2026/09/30/microsoft-wsl-containers-available/</link>
+<description><![CDATA[Microsoft made WSL containers generally available and shipped the feature with controls that let administrators switch it off or limit where it pulls images from. WSL containers run Linux containers on Windows through the Windows Subsystem for Linux. They install with wsl --update or from Microsoft’s GitHub releases page. Source: Microsoft If your developers work on Windows laptops, the two Intune settings are the ones to look at first. Intune, Microsoft’s device management product, can … More → The post WSL containers are generally available on Windows appeared first on Help Net Security .<br/><br/><em>Tags: GitHub</em>]]></description>
+<pubDate>Wed, 30 Sep 2026 03:47:25 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/30/microsoft-wsl-containers-available/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>GitHub</category>
+</item>
+<item>
+<title>Most organizations need six months or longer to roll out new security controls</title>
+<link>https://www.helpnetsecurity.com/2026/09/30/relentless-defense-cisco-cybersecurity-survey/</link>
+<description><![CDATA[Cisco surveyed 8,000 security professionals in 30 markets about how well their organizations defend against AI-era threats, and only 8% landed in the top group. Cisco gave the most weight in its scoring to internal friction, meaning the delays and turf problems inside a company that slow a security team when something changes. Cisco says frontier AI models can find software vulnerabilities at a scale and speed no human team working alone can match. Fewer … More → The post Most organizations need six months or longer to roll out new security controls appeared first on Help Net Security .]]></description>
+<pubDate>Wed, 30 Sep 2026 03:30:01 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/30/relentless-defense-cisco-cybersecurity-survey/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>Quoting Anthropic Frontier Red Team</title>
 <link>https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/</link>
@@ -84,6 +133,15 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
+<title>Insiders for Hire: How the Underground Market for Employee Access is Evolving Insider Risks</title>
+<link>https://www.intel471.com/blog/insiders-for-hire-how-the-underground-market-for-employee-access-is-evolving-insider-risks</link>
+<description><![CDATA[Explore how threat actors recruit insiders, target specific employee capabilities and turn legitimate workplace access into criminal capabilities and services.]]></description>
+<pubDate>Tue, 29 Sep 2026 21:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.intel471.com/blog/insiders-for-hire-how-the-underground-market-for-employee-access-is-evolving-insider-risks</guid>
+<source url="https://intel471.com/blog/feed">Intel 471</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
 <title>Custom ChatGPTs push ClickFix attacks to deploy RAT malware</title>
 <link>https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/</link>
 <description><![CDATA[Custom variants of OpenAI&apos;s ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks to deliver malware. [...]<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
@@ -133,6 +191,15 @@
 <category>Citrix</category>
 <category>CVE-2026-88772</category>
 <category>zero_day</category>
+</item>
+<item>
+<title>GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price</title>
+<link>https://simonwillison.net/2026/Sep/29/hn-49898129/</link>
+<description><![CDATA[My comment on GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price — Hacker News. I&apos;m a bit late with the pelicans because I was live-blogging the keynote: https://simonwillison.net/2026/Sep/29/openai-devday-2026-liv... Here they are for GPT-6.1-Sol: https://tools.simonwillison.net/markdown-svg-renderer?url=ht... They&apos;re not notably different from the GPT-6 family pelicans: https://static.simonwillison.net/static/2026/gpt-pelicans-gr... Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt]]></description>
+<pubDate>Tue, 29 Sep 2026 18:27:48 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Sep/29/hn-49898129/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Former US Air Force members sent to prison over BEC attacks</title>
@@ -464,15 +531,6 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Vega II brings security-trained AI and lasting memory to the SOC</title>
-<link>https://www.helpnetsecurity.com/2026/09/29/vega-ii-agentic-cyber-defense-platform/</link>
-<description><![CDATA[Vega has introduced Vega II, its biggest platform release since emerging from stealth. The update brings frontier AI trained for security operations into the SOC, gives teams a lasting record of what they have learned, and removes the legacy SIEM and data pipeline barriers that have kept vital information out of reach. With Vega II, every security team has the harness for cyber defense: the system where AI runs detection, triage, and investigation as an … More → The post Vega II brings security-trained AI and lasting memory to the SOC appeared first on Help Net Security .]]></description>
-<pubDate>Tue, 29 Sep 2026 12:43:03 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/29/vega-ii-agentic-cyber-defense-platform/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>The Blue Agent POV: Investigating Multi-Platform Data Exfiltration Across AWS and GitHub</title>
 <link>https://www.wiz.io/blog/blue-agent-data-exfiltration-investigation</link>
 <description><![CDATA[See how the Blue Agent investigated a multi-platform attack in minutes, following evidence across AWS and GitHub to uncover compromised credentials, stolen source code, and custom data exfiltration tooling<br/><br/><em>Tags: GitHub · AWS</em>]]></description>
@@ -514,36 +572,6 @@
 <category>OpenAI/ChatGPT</category>
 <category>ShinyHunters</category>
 <category>CVE-2026-65660</category>
-</item>
-<item>
-<title>Deepfakes become a board priority once an executive falls for one</title>
-<link>https://www.helpnetsecurity.com/2026/09/29/pindrop-enterprise-deepfake-attacks-report/</link>
-<description><![CDATA[Nearly three-quarters of security leaders have encountered or suspect a deepfake attack in the past year, while just 10% say their organizations have purpose-built defenses, according to Pindrop’s 2026 Deepfake Readiness Index. Real-time communications have become a target for deepfake and AI impersonation attacks. Phone calls to IT help desks, remote job interviews, and video meetings give attackers opportunities to pose as people an organization trusts. Identity controls were not designed to determine whether the … More → The post Deepfakes become a board priority once an executive falls for one appeared first on Help Net Security .]]></description>
-<pubDate>Tue, 29 Sep 2026 11:59:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/29/pindrop-enterprise-deepfake-attacks-report/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Malicious Custom GPT on chatgpt.com lures users into installing a RAT</title>
-<link>https://www.helpnetsecurity.com/2026/09/29/malicious-chatgpt-custom-gpt-malware-via-clickfix/</link>
-<description><![CDATA[Malware peddlers are using sponsored Google results to push a malicious ChatGPT Custom GPT named “Plus 5.6,” created to lead users to a fake Cloudflare CAPTCHA check and, ultimately, make them download and run a remote access trojan (RAT). “The campaign has impacted dozens of users: the Huntress SOC has responded to at least 40 incidents stemming from the specific Google Sites domain involved in this attack, and confirmed that two of these incidents came … More → The post Malicious Custom GPT on chatgpt.com lures users into installing a RAT appeared first on Help Net Security .<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
-<pubDate>Tue, 29 Sep 2026 11:55:25 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/29/malicious-chatgpt-custom-gpt-malware-via-clickfix/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>OpenAI/ChatGPT</category>
-</item>
-<item>
-<title>OpenAI’s GPT-6 Astra ran supply chain attacks despite being told not to</title>
-<link>https://www.helpnetsecurity.com/2026/09/29/openai-gpt-6-astra-supply-chain-attacks-test-simulations/</link>
-<description><![CDATA[OpenAI’s GPT-6 Astra carried out supply chain attacks on software outside the scope of a security test, according to the UK AI Security Institute (AISI). Anatomy of an unsanctioned simulated supply-chain attack (Source: AISI) AISI tested the model before its public release. The tests ran inside a simulation, so no live systems were touched. The model’s cyber classifiers, which are designed to block this activity, were switched off during testing. “In our simulations, we found … More → The post OpenAI’s GPT-6 Astra ran supply chain attacks despite being told not to appeared first on Help Net Security .<br/><br/><em>Tags: OpenAI/ChatGPT · supply_chain</em>]]></description>
-<pubDate>Tue, 29 Sep 2026 11:41:50 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/29/openai-gpt-6-astra-supply-chain-attacks-test-simulations/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>OpenAI/ChatGPT</category>
-<category>supply_chain</category>
 </item>
 <item>
 <title>Four Cyber Threats Harboring Big Plans for the Future</title>
@@ -673,15 +701,12 @@
 <item>
 <title>One Packet Can Crash OT Servers in Industrial Sectors</title>
 <link>https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine</link>
-<description><![CDATA[A high-severity zero-day vulnerability affects the TDengine time-series database used across industrial, IoT, energy, and automotive environments.<br/><br/><em>Tags: CVE-2026-42542 · zero_day · ddos · active_exploitation</em>]]></description>
+<description><![CDATA[A high-severity zero-day vulnerability affects the TDengine time-series database used across industrial, IoT, energy, and automotive environments.<br/><br/><em>Tags: zero_day</em>]]></description>
 <pubDate>Mon, 28 Sep 2026 21:13:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
-<category>CVE-2026-42542</category>
 <category>zero_day</category>
-<category>ddos</category>
-<category>active_exploitation</category>
 </item>
 <item>
 <title>Japan&apos;s Keio confirms ransomware attack disrupted business systems</title>
@@ -1600,16 +1625,6 @@
 </item>
 <item>
 <title>How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers</title>
-<link>https://www.reddit.com/r/netsec/comments/1wp466a/how_cloudflare_addressed_a_crosstenant_data/</link>
-<description><![CDATA[submitted by /u/natcoba [link] [comments]<br/><br/><em>Tags: data_breach</em>]]></description>
-<pubDate>Thu, 24 Sep 2026 15:07:04 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wp466a/how_cloudflare_addressed_a_crosstenant_data/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>data_breach</category>
-</item>
-<item>
-<title>How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers</title>
 <link>https://blog.cloudflare.com/containers-cross-tenant-vulnerability/</link>
 <description><![CDATA[External security researchers at Accomplish identified a vulnerability in Cloudflare Containers that could expose residual disk data from previous workloads. We explain how the issue worked, how we investigated it, and the steps we took to remediate it.<br/><br/><em>Tags: data_breach</em>]]></description>
 <pubDate>Thu, 24 Sep 2026 15:00:00 +0000</pubDate>
@@ -1679,19 +1694,6 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>When Business Email Compromise Starts Rewriting Reality</title>
-<link>https://www.rapid7.com/blog/post/ve-business-email-compromise-rewriting-reality-zimbra-cve</link>
-<description><![CDATA[Business Email Compromise (BEC) operates on a familiar playbook. Threat actors breach a mailbox, silently monitor operations, map approval chains, and ultimately exploit that access to divert funds or exfiltrate sensitive assets. This dynamic is central to our analysis as we kick off a series around Rapid7&apos;s collaborative research with Zimbra; upcoming installments will explore technical details and broader findings based within the Zimbra Collaboration Suite. Our investigation disrupted the traditional BEC model in unexpected ways. We uncovered over 50 vulnerabilities, and found that several allow attackers not just to observe environments, but to actively rewrite them by impersonating senders without credentials, controlling inbox visibility, and altering shared documents and calendars. Business Email Compromise in action: Digital abuse of trust None of this is theoretical for Zimbra. But don’t take my word for it, just ask Russia . CISA keeps putting Zimbra bugs into the Known Explo<br/><br/><em>Tags: CVE-2024-45519 · CVE-2025-27915 · CVE-2026-73570 · CVE-2022-27925 · CVE-2022-37042 · phishing_social_eng · zero_day</em>]]></description>
-<pubDate>Thu, 24 Sep 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.rapid7.com/blog/post/ve-business-email-compromise-rewriting-reality-zimbra-cve</guid>
-<source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2024-45519</category>
-<category>CVE-2025-27915</category>
-<category>CVE-2026-73570</category>
-<category>CVE-2022-27925</category>
-</item>
-<item>
 <title>The Not So Silent Miner: Threat Actor Compiles Cryptominer on the Endpoint</title>
 <link>https://www.huntress.com/blog/threat-actor-compiles-cryptominer</link>
 <description><![CDATA[Threat actors exploited Samsung MagicINFO to install AnyDesk, disable Defender, and compile a Monero miner directly on a victim endpoint. Learn the detection signals.<br/><br/><em>Tags: Microsoft Defender · Anthropic/Claude · CVE-2025-4632 · CVE-2024-7399</em>]]></description>
@@ -1703,6 +1705,19 @@
 <category>Anthropic/Claude</category>
 <category>CVE-2025-4632</category>
 <category>CVE-2024-7399</category>
+</item>
+<item>
+<title>When Business Email Compromise Starts Rewriting Reality</title>
+<link>https://www.rapid7.com/blog/post/ve-business-email-compromise-rewriting-reality-zimbra-cve</link>
+<description><![CDATA[Business Email Compromise (BEC) operates on a familiar playbook. Threat actors breach a mailbox, silently monitor operations, map approval chains, and ultimately exploit that access to divert funds or exfiltrate sensitive assets. This dynamic is central to our analysis as we kick off a series around Rapid7&apos;s collaborative research with Zimbra; upcoming installments will explore technical details and broader findings based within the Zimbra Collaboration Suite. Our investigation disrupted the traditional BEC model in unexpected ways. We uncovered over 50 vulnerabilities, and found that several allow attackers not just to observe environments, but to actively rewrite them by impersonating senders without credentials, controlling inbox visibility, and altering shared documents and calendars. Business Email Compromise in action: Digital abuse of trust None of this is theoretical for Zimbra. But don’t take my word for it, just ask Russia . CISA keeps putting Zimbra bugs into the Known Explo<br/><br/><em>Tags: CVE-2024-45519 · CVE-2025-27915 · CVE-2026-73570 · CVE-2022-27925 · CVE-2022-37042 · phishing_social_eng · zero_day</em>]]></description>
+<pubDate>Thu, 24 Sep 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.rapid7.com/blog/post/ve-business-email-compromise-rewriting-reality-zimbra-cve</guid>
+<source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
+<category>offensive_vulnerability_research</category>
+<category>CVE-2024-45519</category>
+<category>CVE-2025-27915</category>
+<category>CVE-2026-73570</category>
+<category>CVE-2022-27925</category>
 </item>
 <item>
 <title>Prompt-Injection Bug Hits $4B Agentic AI App &apos;Manus&apos;</title>
@@ -2137,6 +2152,15 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
+<title>SF October 14th: A Birds of a Feather Session on Agentic Engineering</title>
+<link>https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/</link>
+<description><![CDATA[SF October 14th: A Birds of a Feather Session on Agentic Engineering I&apos;m hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things with and on top of coding agents. Think of it as an agentic show-and-tell: ​Compare notes with other builders and experimenters on things you’re trying, what you&apos;re learning, and what you haven’t figured out yet. We’re especially interested in work you haven’t discussed publicly, odd experiments, or unfinished projects that don’t have an obvious market. ​Expect one flowing conversation with an informal show-and-tell. Sharing something you’re working on is encouraged but no presentation is required. This isn&apos;t about product pitches, it&apos;s about much earlier explorations than that. This agentic AI stuff is weird! Let&apos;s celebrate and lean into that weirdness. Tags: events , ai , generative-ai , llms , coding-agents , jesse-vincent , agentic-engineering]]></description>
+<pubDate>Wed, 23 Sep 2026 02:53:19 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>The Lure Isn&apos;t The Malware. It&apos;s Your Logo.</title>
 <link>https://www.recordedfuture.com/blog/your-logo-is-the-lure</link>
 <description><![CDATA[Recorded Future&apos;s Insikt GroupⓇ has been tracking ClickFix, a social engineering technique that turns a familiar logo or verification prompt into the entry point for an attack. Here&apos;s what that research reveals about catching it, and why it&apos;s now running inside Malicious Site Monitoring, part of our newly launched Digital Risk Protection solution.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
@@ -2421,20 +2445,20 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>Proofpoint Breaks Down the Divide Between Data Security and AI Security with the Industry’s First Unified Agentic System</title>
-<link>https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-breaks-down-divide-between-data-security-and-ai-security</link>
-<description><![CDATA[]]></description>
-<pubDate>Tue, 22 Sep 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-breaks-down-divide-between-data-security-and-ai-security</guid>
-<source url="https://www.proofpoint.com/us/rss.xml">Proofpoint Threat Insight</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>Proofpoint Stops the Attacks Traditional Defenses Miss in the AI Era</title>
 <link>https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-stops-attacks-traditional-defenses-miss-ai-era</link>
 <description><![CDATA[]]></description>
 <pubDate>Tue, 22 Sep 2026 11:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-stops-attacks-traditional-defenses-miss-ai-era</guid>
+<source url="https://www.proofpoint.com/us/rss.xml">Proofpoint Threat Insight</source>
+<category>detection_response_operations</category>
+</item>
+<item>
+<title>Proofpoint Breaks Down the Divide Between Data Security and AI Security with the Industry’s First Unified Agentic System</title>
+<link>https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-breaks-down-divide-between-data-security-and-ai-security</link>
+<description><![CDATA[]]></description>
+<pubDate>Tue, 22 Sep 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-breaks-down-divide-between-data-security-and-ai-security</guid>
 <source url="https://www.proofpoint.com/us/rss.xml">Proofpoint Threat Insight</source>
 <category>detection_response_operations</category>
 </item>
@@ -3789,15 +3813,6 @@
 <description><![CDATA[Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwillison.net to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin. Tags: sqlite , datasette]]></description>
 <pubDate>Sun, 20 Sep 2026 00:22:04 +0000</pubDate>
 <guid isPermaLink="true">https://simonwillison.net/2026/Sep/20/datasette-explain/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>datasette-auth-github 1.0</title>
-<link>https://simonwillison.net/2026/Sep/19/datasette-auth-github/</link>
-<description><![CDATA[Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren&apos;t lasting very long. It turned out that the plugin was setting cookies without a Max-Age parameter, so they were expiring at the end of a browser session (which in Mobile Safari seems to happen pretty often, independently of how you are using the app.) I fixed that in #80 and, since this plugin has been around for quite a while and is tested against both Datasette 0.65.x and Datasette 1.0ax, I decided to bump it up to a 1.0 release. I&apos;m trying to get better at promoting stable plugins to 1.0. Tags: github , plugins , datasette]]></description>
-<pubDate>Sat, 19 Sep 2026 19:52:02 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Sep/19/datasette-auth-github/</guid>
 <source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
 <category>ai_security_agentic_risk</category>
 </item>
@@ -12950,15 +12965,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>Risky Bulletin: Microsoft ends SMS MFA for personal accounts</title>
-<link>https://risky.biz/RBNEWS567/</link>
-<description><![CDATA[Microsoft ends support for SMS MFA on personal accounts, GitHub was hacked via a malicious VS Code extension, CISA will let researchers submit new KEV entries, and an SMS blaster was detained at Eurovision.]]></description>
-<pubDate>Fri, 22 May 2026 00:48:57 +0000</pubDate>
-<guid isPermaLink="true">https://risky.biz/RBNEWS567/</guid>
-<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
-</item>
-<item>
 <title>The Coverage Gap: Why Your Blocklist Is Missing 119,000 Malicious IPs Today</title>
 <link>https://www.greynoise.io/blog/why-your-blocklist-missing-malicious-ips</link>
 <description><![CDATA[GreyNoise compared 119,842 malicious IPs against 11 major threat feeds. The average coverage: just 2%, exposing the limits of static blocklists.]]></description>
@@ -16572,15 +16578,6 @@
 <category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
-<title>Cybercrime Takedowns: Trust, Partnerships and Focus</title>
-<link>https://www.intel471.com/blog/cybercrime-takedowns-trust-partnerships-and-focus</link>
-<description><![CDATA[Intel 471’s Public Sector team is regularly called upon to provide cyber investigation support, threat insights and real-life attribution in support of global law enforcement operations.]]></description>
-<pubDate>Tue, 11 Nov 2025 17:30:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.intel471.com/blog/cybercrime-takedowns-trust-partnerships-and-focus</guid>
-<source url="https://intel471.com/blog/feed">Intel 471</source>
-<category>ransomware_ecrime_financial_crime</category>
-</item>
-<item>
 <title>Introducing HTTP Anomaly Rank</title>
 <link>https://portswigger.net/research/introducing-http-anomaly-rank</link>
 <description><![CDATA[HTTP Anomaly Rank If you&apos;ve ever used Burp Intruder or Turbo Intruder, you&apos;ll be familiar with the ritual of manually digging through thousands of responses by repeatedly sorting the table via length,]]></description>
@@ -19618,7 +19615,7 @@
 <title>Copy, Paste, Compromised: How ClickFix Attacks Work and How CrowdStrike Stops Them</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-clickfix-attacks-work-and-how-to-stop-them/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 30 Sep 2026 00:15:29 +0000</pubDate>
+<pubDate>Wed, 30 Sep 2026 06:31:56 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-clickfix-attacks-work-and-how-to-stop-them/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19627,7 +19624,7 @@
 <title>A Win for Defenders: CrowdStrike and NVIDIA Extend Security Across the AI Stack</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 30 Sep 2026 00:15:29 +0000</pubDate>
+<pubDate>Wed, 30 Sep 2026 06:31:56 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19636,7 +19633,7 @@
 <title>CrowdStrike Named a Leader in The Forrester Wave™: Proactive Security Platforms, Q3 2026</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 30 Sep 2026 00:15:29 +0000</pubDate>
+<pubDate>Wed, 30 Sep 2026 06:31:56 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19645,7 +19642,7 @@
 <title>CrowdStrike Named a Leader in The Forrester Wave™: External Threat Intelligence Service Providers, Q3 2026</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 30 Sep 2026 00:15:29 +0000</pubDate>
+<pubDate>Wed, 30 Sep 2026 06:31:56 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19654,7 +19651,7 @@
 <title>CrowdStrike SafeMind: When the Best Offense Builds the Best Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 30 Sep 2026 00:15:29 +0000</pubDate>
+<pubDate>Wed, 30 Sep 2026 06:31:56 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19663,7 +19660,7 @@
 <title>CrowdStrike Accelerates Real-Time Data Classification with On-Device AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 30 Sep 2026 00:15:29 +0000</pubDate>
+<pubDate>Wed, 30 Sep 2026 06:31:56 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19672,7 +19669,7 @@
 <title>PhantomRaven: An LLM-Generated Information Stealer Developed for Bug Bounty Hunting</title>
 <link>https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 30 Sep 2026 00:15:29 +0000</pubDate>
+<pubDate>Wed, 30 Sep 2026 06:31:56 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19681,7 +19678,7 @@
 <title>September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 30 Sep 2026 00:15:29 +0000</pubDate>
+<pubDate>Wed, 30 Sep 2026 06:31:56 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19690,7 +19687,7 @@
 <title>CrowdStrike Delivers the Next Evolution of the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 30 Sep 2026 00:15:29 +0000</pubDate>
+<pubDate>Wed, 30 Sep 2026 06:31:56 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19699,7 +19696,7 @@
 <title>CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Wed, 30 Sep 2026 00:15:29 +0000</pubDate>
+<pubDate>Wed, 30 Sep 2026 06:31:56 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
