@@ -6,9 +6,103 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Wed, 30 Sep 2026 19:02:15 +0000</lastBuildDate>
+<lastBuildDate>Wed, 30 Sep 2026 22:56:31 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>US sanctions 10 over ATM malware scheme tied to Tren de Aragua</title>
+<link>https://therecord.media/us-sanctions-10-atm-jackpotting-tren-de-aragua</link>
+<description><![CDATA[Treasury’s Office of Foreign Assets Control (OFAC) targeted multiple Venezuelan nationals and several companies they control that are part of the effort to launder the money stolen from dozens of ATMs.]]></description>
+<pubDate>Wed, 30 Sep 2026 22:35:00 +0000</pubDate>
+<guid isPermaLink="true">https://therecord.media/us-sanctions-10-atm-jackpotting-tren-de-aragua</guid>
+<source url="https://therecord.media/feed">The Record</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>OpenAI reveals ‘novel’ encryption bypass used in distillation attack</title>
+<link>https://cyberscoop.com/openai-moonshot-ai-model-distillation-attack/</link>
+<description><![CDATA[The company said individuals associated with Chinese company MoonshotAI were behind parts of the attack, but did not offer hard evidence for the claim. The post OpenAI reveals ‘novel’ encryption bypass used in distillation attack appeared first on CyberScoop .<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
+<pubDate>Wed, 30 Sep 2026 22:17:34 +0000</pubDate>
+<guid isPermaLink="true">https://cyberscoop.com/openai-moonshot-ai-model-distillation-attack/</guid>
+<source url="https://cyberscoop.com/feed/">CyberScoop</source>
+<category>cyber_news_breach_reporting</category>
+<category>OpenAI/ChatGPT</category>
+</item>
+<item>
+<title>Malicious Custom GPTs Turn ChatGPT Into RAT Delivery Lure</title>
+<link>https://www.darkreading.com/cyberattacks-data-breaches/malicious-custom-gpts-chatgpt-rat-delivery-lure</link>
+<description><![CDATA[In yet another ClickFix-style campaign, threat actors abuse legitimate domains from OpenAI and Google to fool unsuspecting users.]]></description>
+<pubDate>Wed, 30 Sep 2026 21:25:47 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/malicious-custom-gpts-chatgpt-rat-delivery-lure</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>From SELECT to SYSADMIN with SQL Copilot (CVE-2026-65669)</title>
+<link>https://embracethered.com/blog/posts/2026/from-select-to-sysadmin-sql-copilot-bluehat-asia/</link>
+<description><![CDATA[Two weeks back I presented at BlueHat Asia 2026 about my research on Microsoft’s Copilot in SSMS, the SQL Server Management Studio. This post is a write up about the talk, which covered CVE-2026-65669 , a SQL Server Elevation of Privilege Vulnerability rated critical by Microsoft. So, make sure your installations are up-to-date. The slides of the presentation can be found here . BlueHat Asia 2026 in Singapore First, a few words about the conference. I have spoken at BlueHat before, sometime back in 2017, and also two years ago. Both times at Microsoft’s Redmond Campus.<br/><br/><em>Tags: CVE-2026-65669</em>]]></description>
+<pubDate>Wed, 30 Sep 2026 21:00:40 +0000</pubDate>
+<guid isPermaLink="true">https://embracethered.com/blog/posts/2026/from-select-to-sysadmin-sql-copilot-bluehat-asia/</guid>
+<source url="https://embracethered.com/blog/index.xml">Embrace the Red</source>
+<category>ai_security_agentic_risk</category>
+<category>CVE-2026-65669</category>
+</item>
+<item>
+<title>Russian state hackers use new RedFlick technique to push malware</title>
+<link>https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/</link>
+<description><![CDATA[The Russian state actor Star Blizzard has been using a new malware installation tactic dubbed &quot;RedFlick&quot; to deploy its signature CosmicPulse backdoor. [...]<br/><br/><em>Tags: web_shell_backdoor</em>]]></description>
+<pubDate>Wed, 30 Sep 2026 20:34:01 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>web_shell_backdoor</category>
+</item>
+<item>
+<title>Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wild (Updated September 30)</title>
+<link>https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/</link>
+<description><![CDATA[Unit 42 is aware of possible 0-day activity against NetScaler devices. Citrix reports CVE-2026-88771, CVE-2026-88772 have been exploited in the wild. The post Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wild (Updated September 30) appeared first on Unit 42 .<br/><br/><em>Tags: CVE-2026-88771 · CVE-2026-88772 · active_exploitation</em>]]></description>
+<pubDate>Wed, 30 Sep 2026 20:00:04 +0000</pubDate>
+<guid isPermaLink="true">https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/</guid>
+<source url="https://unit42.paloaltonetworks.com/feed/">Unit 42</source>
+<category>threat_research_primary</category>
+<category>CVE-2026-88771</category>
+<category>CVE-2026-88772</category>
+<category>active_exploitation</category>
+</item>
+<item>
+<title>DIVD says Zammad zero-days enabled AI-driven network breach</title>
+<link>https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/</link>
+<description><![CDATA[The Dutch Institute for Vulnerability Disclosure (DIVD) says that the breach of its network was possible by exploiting a chain of two zero-day vulnerabilities in the open-source Zammad ticketing system. [...]<br/><br/><em>Tags: CVE-2026-102489 · CVE-2026-102490 · credential_theft · zero_day · data_breach · vulnerability_disclosure</em>]]></description>
+<pubDate>Wed, 30 Sep 2026 19:49:15 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>CVE-2026-102489</category>
+<category>CVE-2026-102490</category>
+<category>credential_theft</category>
+<category>zero_day</category>
+</item>
+<item>
+<title>Google: Vulnerability disclosures double to 10,000 per month as AI fuels exploitation</title>
+<link>https://therecord.media/google-vulnerabilities-cyberattacks-ai</link>
+<description><![CDATA[Vulnerability disclosures continue to skyrocket, doubling over the course of the year to more than 10,000 each month, Google researchers warned.<br/><br/><em>Tags: CVE-2026-1731 · vulnerability_disclosure · active_exploitation</em>]]></description>
+<pubDate>Wed, 30 Sep 2026 19:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://therecord.media/google-vulnerabilities-cyberattacks-ai</guid>
+<source url="https://therecord.media/feed">The Record</source>
+<category>cyber_news_breach_reporting</category>
+<category>CVE-2026-1731</category>
+<category>vulnerability_disclosure</category>
+<category>active_exploitation</category>
+</item>
+<item>
+<title>As AI Reshapes the SOC Career Ladder, Satisfaction Rises for 91%, but Entry Gets Harder for Nearly Half</title>
+<link>https://www.darkreading.com/cybersecurity-careers/ai-reshapes-soc-career-ladder</link>
+<description><![CDATA[New Swimlane research underscores a paradox: While AI detection and response is essential to giving defenders an edge, one in four security pros say AI limits their skill development.]]></description>
+<pubDate>Wed, 30 Sep 2026 18:56:56 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-careers/ai-reshapes-soc-career-ladder</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets</title>
 <link>https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html</link>
@@ -153,7 +247,7 @@
 <description><![CDATA[Microsoft Threat Intelligence examines CVE-2026-73570 exploitation in Zimbra, including observed attack paths, detection opportunities, and mitigation guidance. The post Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570 appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft Defender · CVE-2026-73570</em>]]></description>
 <pubDate>Wed, 30 Sep 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>Microsoft Defender</category>
 <category>CVE-2026-73570</category>
@@ -164,7 +258,7 @@
 <description><![CDATA[Microsoft Threat Intelligence examines CVE-2026-73570 exploitation in Zimbra, including observed attack paths, detection opportunities, and mitigation guidance. The post Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570 appeared first on Microsoft Security Blog .<br/><br/><em>Tags: CVE-2026-73570</em>]]></description>
 <pubDate>Wed, 30 Sep 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>CVE-2026-73570</category>
 </item>
@@ -279,16 +373,6 @@
 <guid isPermaLink="true">https://www.securityweek.com/chrome-firefox-updates-patch-over-100-vulnerabilities/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Russian FSB-linked hackers scale up phishing attacks against Ukraine supporters</title>
-<link>https://therecord.media/russia-hackers-ukraine-blizzard</link>
-<description><![CDATA[The Russian state-backed hacking group Star Blizzard has expanded its phishing operations this year, using a new technique that makes it easier to infect victims with malware.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/russia-hackers-ukraine-blizzard</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>AI Boosts SOC Analyst Capacity but Limits Skill Development</title>
@@ -535,7 +619,7 @@
 <description><![CDATA[Microsoft observed phishing campaigns that abused MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity The post Phishing Abuses RMM Tools for Persistent Access appeared first on Microsoft Security Blog .<br/><br/><em>Tags: ScreenConnect · Microsoft Defender · GitLab · phishing_social_eng</em>]]></description>
 <pubDate>Tue, 29 Sep 2026 21:39:27 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>ScreenConnect</category>
 <category>Microsoft Defender</category>
@@ -548,7 +632,7 @@
 <description><![CDATA[Microsoft observed phishing campaigns that abused MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity The post Phishing Abuses RMM Tools for Persistent Access appeared first on Microsoft Security Blog .<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
 <pubDate>Tue, 29 Sep 2026 21:39:27 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>phishing_social_eng</category>
 </item>
@@ -623,16 +707,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>OpenAI apologizes for agents breaching Australian government websites without authorization</title>
-<link>https://therecord.media/openai-apologizes-australia-medicare-breach</link>
-<description><![CDATA[The artificial intelligence giant acknowledged it botched its response to the incidents and should have done more to promptly notify and work with the Australian government in the days after it discovered the breaches.<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
-<pubDate>Tue, 29 Sep 2026 19:48:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/openai-apologizes-australia-medicare-breach</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
-<category>OpenAI/ChatGPT</category>
-</item>
-<item>
 <title>Hackers exploit Citrix NetScaler zero-day to deploy web shells</title>
 <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/</link>
 <description><![CDATA[Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root access, steal credentials, and spread into internal networks. [...]<br/><br/><em>Tags: Citrix · CVE-2026-88772 · zero_day</em>]]></description>
@@ -675,12 +749,11 @@
 <item>
 <title>New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses</title>
 <link>https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html</link>
-<description><![CDATA[A group of academics from VUSec and Scuola Superiore Sant&apos;Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors. The new Spectre v2 variant has been codenamed Branch Target Reuse (BTR). &quot;The key insight is that, while modern CPUs<br/><br/><em>Tags: Linux kernel</em>]]></description>
+<description><![CDATA[A group of academics from VUSec and Scuola Superiore Sant&apos;Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors. The new Spectre v2 variant has been codenamed Branch Target Reuse (BTR). &quot;The key insight is that, while modern CPUs]]></description>
 <pubDate>Tue, 29 Sep 2026 17:20:17 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-<category>Linux kernel</category>
 </item>
 <item>
 <title>Russia&apos;s Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor</title>
@@ -691,18 +764,6 @@
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>web_shell_backdoor</category>
-</item>
-<item>
-<title>New Spectre v2 attack variant leaks Linux root password hash in minutes</title>
-<link>https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/</link>
-<description><![CDATA[A new Branch Target Reuse (BTR) attack has been devised that can recover root password hashes on Intel computers running Linux in 3-5 minutes on average. [...]<br/><br/><em>Tags: Linux kernel · CVE-2026-64507 · CVE-2026-64508</em>]]></description>
-<pubDate>Tue, 29 Sep 2026 17:10:11 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>Linux kernel</category>
-<category>CVE-2026-64507</category>
-<category>CVE-2026-64508</category>
 </item>
 <item>
 <title>Meet Athena: Huntress&apos; Agentic SOC Analyst</title>
@@ -778,7 +839,7 @@
 <description><![CDATA[Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”. The post Star Blizzard refines phishing and malware delivery with the RedFlick technique appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft Defender · phishing_social_eng · credential_theft · apt_espionage · web_shell_backdoor</em>]]></description>
 <pubDate>Tue, 29 Sep 2026 15:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>Microsoft Defender</category>
 <category>phishing_social_eng</category>
@@ -791,7 +852,7 @@
 <description><![CDATA[Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”. The post Star Blizzard refines phishing and malware delivery with the RedFlick technique appeared first on Microsoft Security Blog .<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
 <pubDate>Tue, 29 Sep 2026 15:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>phishing_social_eng</category>
 </item>
@@ -825,12 +886,11 @@
 <item>
 <title>Kiteworks lifts shutdown advisory after ‘credible threat intelligence’ from federal authorities</title>
 <link>https://cyberscoop.com/kiteworks-lifts-shutdown-advisory-after-credible-threat-intelligence-from-federal-authorities/</link>
-<description><![CDATA[The company said it found and patched a previously unknown critical vulnerability in one product during the weekend shutdown, and has no indication it was exploited. The post Kiteworks lifts shutdown advisory after ‘credible threat intelligence’ from federal authorities appeared first on CyberScoop .<br/><br/><em>Tags: Snowflake · ShinyHunters · ransomware_extortion · phishing_social_eng</em>]]></description>
+<description><![CDATA[The company said it found and patched a previously unknown critical vulnerability in one product during the weekend shutdown, and has no indication it was exploited. The post Kiteworks lifts shutdown advisory after ‘credible threat intelligence’ from federal authorities appeared first on CyberScoop .<br/><br/><em>Tags: ShinyHunters · ransomware_extortion · phishing_social_eng</em>]]></description>
 <pubDate>Tue, 29 Sep 2026 14:11:43 +0000</pubDate>
 <guid isPermaLink="true">https://cyberscoop.com/kiteworks-lifts-shutdown-advisory-after-credible-threat-intelligence-from-federal-authorities/</guid>
 <source url="https://cyberscoop.com/feed/">CyberScoop</source>
 <category>cyber_news_breach_reporting</category>
-<category>Snowflake</category>
 <category>ShinyHunters</category>
 <category>ransomware_extortion</category>
 <category>phishing_social_eng</category>
@@ -1155,24 +1215,12 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
-<title>Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wild</title>
-<link>https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/</link>
-<description><![CDATA[Unit 42 is aware of possible 0-day activity against NetScaler devices. Citrix reports CVE-2026-88771, CVE-2026-88772 have been exploited in the wild. The post Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wild appeared first on Unit 42 .<br/><br/><em>Tags: CVE-2026-88771 · CVE-2026-88772 · active_exploitation</em>]]></description>
-<pubDate>Mon, 28 Sep 2026 15:02:04 +0000</pubDate>
-<guid isPermaLink="true">https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/</guid>
-<source url="https://unit42.paloaltonetworks.com/feed/">Unit 42</source>
-<category>threat_research_primary</category>
-<category>CVE-2026-88771</category>
-<category>CVE-2026-88772</category>
-<category>active_exploitation</category>
-</item>
-<item>
 <title>NeedyMantis: Unpacking a post-compromise malware family used in targeted operations</title>
 <link>https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/</link>
 <description><![CDATA[Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations. The post NeedyMantis: Unpacking a post-compromise malware family used in targeted operations appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft Defender · supply_chain · apt_espionage</em>]]></description>
 <pubDate>Mon, 28 Sep 2026 15:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>Microsoft Defender</category>
 <category>supply_chain</category>
@@ -1184,7 +1232,7 @@
 <description><![CDATA[Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations. The post NeedyMantis: Unpacking a post-compromise malware family used in targeted operations appeared first on Microsoft Security Blog .]]></description>
 <pubDate>Mon, 28 Sep 2026 15:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 </item>
 <item>
@@ -1507,16 +1555,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Army soldier sentenced for spree of attacks on AT&amp;T, Snowflake and other major companies</title>
-<link>https://cyberscoop.com/cameron-wagenius-att-snowflake-attacks-sentenced/</link>
-<description><![CDATA[Cameron Wagenius was involved in some of the most high-profile attacks of 2024 while on active duty. The post Army soldier sentenced for spree of attacks on AT&amp;T, Snowflake and other major companies appeared first on CyberScoop .<br/><br/><em>Tags: Snowflake</em>]]></description>
-<pubDate>Fri, 25 Sep 2026 21:28:36 +0000</pubDate>
-<guid isPermaLink="true">https://cyberscoop.com/cameron-wagenius-att-snowflake-attacks-sentenced/</guid>
-<source url="https://cyberscoop.com/feed/">CyberScoop</source>
-<category>cyber_news_breach_reporting</category>
-<category>Snowflake</category>
-</item>
-<item>
 <title>What We Missed: Google Gemini Joins the AI Escape Party</title>
 <link>https://www.darkreading.com/cyber-risk/what-we-missed-google-gemini-ai-escape-party</link>
 <description><![CDATA[In this video conversation, Dark Reading editors discuss some of the news they didn&apos;t get a chance to cover, from Google Gemini models breaking containment to ShinyHunters ratting on TeamPCP hackers.]]></description>
@@ -1561,7 +1599,7 @@
 <description><![CDATA[Microsoft details JADEPUFFER-linked Azure reconnaissance, resource deletion, and credential access using compromised service principals, identifying the activity as associated with Storm-3168 and providing guidance for defenders. The post Storm-3168: Agentic-driven cloud attacks using compromised service principals appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Azure · Microsoft Defender · ransomware_extortion</em>]]></description>
 <pubDate>Fri, 25 Sep 2026 15:35:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>Azure</category>
 <category>Microsoft Defender</category>
@@ -1573,7 +1611,7 @@
 <description><![CDATA[Microsoft details JADEPUFFER-linked Azure reconnaissance, resource deletion, and credential access using compromised service principals, identifying the activity as associated with Storm-3168 and providing guidance for defenders. The post Storm-3168: Agentic-driven cloud attacks using compromised service principals appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Azure</em>]]></description>
 <pubDate>Fri, 25 Sep 2026 15:35:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>Azure</category>
 </item>
@@ -1909,9 +1947,19 @@
 <description><![CDATA[Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect and disrupt this activity before ransomware deployment. The post Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft Defender · ransomware_extortion</em>]]></description>
 <pubDate>Thu, 24 Sep 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>Microsoft Defender</category>
+<category>ransomware_extortion</category>
+</item>
+<item>
+<title>Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/</link>
+<description><![CDATA[Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect and disrupt this activity before ransomware deployment. The post Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments appeared first on Microsoft Security Blog .<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<pubDate>Thu, 24 Sep 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<category>threat_research_primary</category>
 <category>ransomware_extortion</category>
 </item>
 <item>
@@ -1923,16 +1971,6 @@
 <source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>Microsoft Defender</category>
-</item>
-<item>
-<title>Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments</title>
-<link>https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/</link>
-<description><![CDATA[Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect and disrupt this activity before ransomware deployment. The post Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments appeared first on Microsoft Security Blog .<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Thu, 24 Sep 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
-<category>threat_research_primary</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers</title>
@@ -2189,6 +2227,15 @@
 <source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
 <category>cloud_identity_infrastructure</category>
 <category>AWS</category>
+</item>
+<item>
+<title>SASE Converges Network &amp; Security Into One Cloud Solution</title>
+<link>https://www.darkreading.com/cloud-security/sase-converges-network-security-one-cloud</link>
+<description><![CDATA[Enterprise computing is moving to the edge. Keeping it secure requires tactics far beyond putting up firewalls. (Second in a three-part series.)]]></description>
+<pubDate>Wed, 23 Sep 2026 22:29:10 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cloud-security/sase-converges-network-security-one-cloud</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>EDR Evasion Stack Helps Process Injection Slip Past Defenses</title>
@@ -2623,17 +2670,6 @@
 <guid isPermaLink="true">https://citizenlab.ca/submission-to-the-immigration-and-refugee-board-of-canada/</guid>
 <source url="https://citizenlab.ca/feed/">Citizen Lab</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>Unmasking EvilTokens: Getting to the root of device code phishing</title>
-<link>https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/</link>
-<description><![CDATA[EvilTokens has quickly become one of the top PhaaS platforms, enabling device code phishing attacks through AI-assisted lures, automated infrastructure, and token theft. In collaboration with partners, Microsoft Digital Crimes Unit (DCU) facilitated a disruption of EvilTokens infrastructure and operations. The post Unmasking EvilTokens: Getting to the root of device code phishing appeared first on Microsoft Security Blog .<br/><br/><em>Tags: phishing_social_eng · credential_theft</em>]]></description>
-<pubDate>Tue, 22 Sep 2026 15:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
-<category>threat_research_primary</category>
-<category>phishing_social_eng</category>
-<category>credential_theft</category>
 </item>
 <item>
 <title>Unmasking EvilTokens: Getting to the root of device code phishing</title>
@@ -4100,15 +4136,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>llm-keys-ui 0.1</title>
-<link>https://simonwillison.net/2026/Sep/20/llm-keys-ui/</link>
-<description><![CDATA[Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I&apos;ve started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to configure an API key. I don&apos;t like pasting API keys into agent sessions, so I wanted a way to get those keys onto a machine without pasting them into the ChatGPT app directly. With this plugin, I can tell Codex to run: uvx --with llm-keys-ui llm keys-ui --all Then have it tell me the URL - including local network or Tailscale device IPs - for an interface to save additional API keys. Then later it can use a command like llm keys get anthropic as part of a shell command when it needs to use a key. Tags: llm , coding-agents , codex]]></description>
-<pubDate>Sun, 20 Sep 2026 19:22:19 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Sep/20/llm-keys-ui/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>Why I still haven’t bought into true RSI</title>
 <link>https://www.interconnects.ai/p/where-i-stand-on-rsi</link>
 <description><![CDATA[An “AI moderate’s” view on recent events and the trajectory of frontier models.]]></description>
@@ -4578,15 +4605,6 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
-<title>AI Security Spending Jumps as Fear Outpaces Proof of Value</title>
-<link>https://www.darkreading.com/cybersecurity-operations/ai-security-spending-jumps-fear-outpaces-proof-value</link>
-<description><![CDATA[CISOs are not waiting for AI to prove its cybersecurity value before investing in the technology. Is it the right move?]]></description>
-<pubDate>Wed, 16 Sep 2026 21:26:55 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/ai-security-spending-jumps-fear-outpaces-proof-value</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Architecting a secure landing zone in the AWS European Sovereign Cloud</title>
 <link>https://aws.amazon.com/blogs/security/architecting-a-secure-landing-zone-in-the-aws-european-sovereign-cloud/</link>
 <description><![CDATA[The AWS European Sovereign Cloud is a new, independent cloud for Europe, physically and logically separate from existing AWS Regions and operated within the European Union (EU). It provides the same services, features, and APIs as AWS commercial Regions, but runs as a distinct AWS partition (aws-eusc), with its own control plane, AWS Identity and […]]]></description>
@@ -4603,15 +4621,6 @@
 <guid isPermaLink="true">https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/</guid>
 <source url="https://krebsonsecurity.com/feed/">Krebs on Security</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>Fighting Your Dragons Through Tough Tech Times</title>
-<link>https://www.darkreading.com/cybersecurity-careers/finding-hope-brutal-job-market</link>
-<description><![CDATA[Cybersecurity industry veteran Hal Pomeranz gives a pep talk on career anxiety and self-doubt and shares how to build meaningful connections during historical tech industry downturns.]]></description>
-<pubDate>Wed, 16 Sep 2026 18:00:54 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-careers/finding-hope-brutal-job-market</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Chainalysis Supports Arc with Automatic Token Support</title>
@@ -6398,15 +6407,6 @@
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>FBI Seizes $560K in Crypto From Hamas Fundraising Network</title>
-<link>https://www.chainalysis.com/blog/fbi-seizes-hamas-crypto-fundraising-network/</link>
-<description><![CDATA[Summary The U.S. Justice Department has seized $560,000 in cryptocurrency from Hamas-linked fundraising campaigns and shut down elements of the… The post FBI Seizes $560K in Crypto From Hamas Fundraising Network appeared first on Chainalysis .]]></description>
-<pubDate>Thu, 03 Sep 2026 13:03:20 +0000</pubDate>
-<guid isPermaLink="true">https://www.chainalysis.com/blog/fbi-seizes-hamas-crypto-fundraising-network/</guid>
-<source url="https://www.chainalysis.com/blog/feed/">Chainalysis</source>
-<category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
 <title>Shadow AI in Financial Services | Risk &amp; Governance</title>
@@ -16697,15 +16697,6 @@
 <category>Google Workspace</category>
 </item>
 <item>
-<title>Accelerating discovery with the AI for Math Initiative</title>
-<link>https://deepmind.google/blog/accelerating-discovery-with-the-ai-for-math-initiative/</link>
-<description><![CDATA[The initiative brings together some of the world&apos;s most prestigious research institutions to pioneer the use of AI in mathematical research.]]></description>
-<pubDate>Wed, 29 Oct 2025 14:31:13 +0000</pubDate>
-<guid isPermaLink="true">https://deepmind.google/blog/accelerating-discovery-with-the-ai-for-math-initiative/</guid>
-<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>Claude Pirate: Abusing Anthropic&apos;s File API For Data Exfiltration</title>
 <link>https://embracethered.com/blog/posts/2025/claude-abusing-network-access-and-anthropic-api-for-data-exfiltration/</link>
 <description><![CDATA[Recently, Anthropic added the capability for Claude’s Code Interpreter to perform network requests. This is obviously very dangerous as we will see in this post. At a high level, this post is about a data exfiltration attack chain, where an adversary (either the model or third-party attacker via indirect prompt injection) can exfiltrate data the user has access to. The interesting part is that this is not via hyperlink rendering as we often see, but by leveraging the built-in Anthropic Claude APIs!<br/><br/><em>Tags: ai_security</em>]]></description>
@@ -19639,19 +19630,10 @@
 <category>ai_security</category>
 </item>
 <item>
-<title>HITCON CMT 2023 - LLM Security Presentation and Trip Report</title>
-<link>https://embracethered.com/blog/posts/2023/hitcon-llm-security-presentation-and-trip-report/</link>
-<description><![CDATA[Last month I had the opportunity to attend HITCON in Taiwan for the first time. It’s an annual event hosted by the Hackers in Taiwan organization and CMT stands for the community version. There is a second event for enterprises later this year also - think of it like Blackhat vs Defcon in a way. Conference, Location and Registration HITCON CMT 2023 was a two day event hosted in the east side of Taipei at Academia Sinica.]]></description>
-<pubDate>Mon, 18 Sep 2023 10:24:51 +0000</pubDate>
-<guid isPermaLink="true">https://embracethered.com/blog/posts/2023/hitcon-llm-security-presentation-and-trip-report/</guid>
-<source url="https://embracethered.com/blog/index.xml">Embrace the Red</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>Copy, Paste, Compromised: How ClickFix Attacks Work and How CrowdStrike Stops Them</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-clickfix-attacks-work-and-how-to-stop-them/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 30 Sep 2026 19:02:15 +0000</pubDate>
+<pubDate>Wed, 30 Sep 2026 22:56:31 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-clickfix-attacks-work-and-how-to-stop-them/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19660,7 +19642,7 @@
 <title>A Win for Defenders: CrowdStrike and NVIDIA Extend Security Across the AI Stack</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 30 Sep 2026 19:02:15 +0000</pubDate>
+<pubDate>Wed, 30 Sep 2026 22:56:31 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19669,7 +19651,7 @@
 <title>CrowdStrike Named a Leader in The Forrester Wave™: Proactive Security Platforms, Q3 2026</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 30 Sep 2026 19:02:15 +0000</pubDate>
+<pubDate>Wed, 30 Sep 2026 22:56:31 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19678,7 +19660,7 @@
 <title>CrowdStrike Named a Leader in The Forrester Wave™: External Threat Intelligence Service Providers, Q3 2026</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 30 Sep 2026 19:02:15 +0000</pubDate>
+<pubDate>Wed, 30 Sep 2026 22:56:31 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19687,7 +19669,7 @@
 <title>CrowdStrike SafeMind: When the Best Offense Builds the Best Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 30 Sep 2026 19:02:15 +0000</pubDate>
+<pubDate>Wed, 30 Sep 2026 22:56:31 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19696,7 +19678,7 @@
 <title>CrowdStrike Accelerates Real-Time Data Classification with On-Device AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 30 Sep 2026 19:02:15 +0000</pubDate>
+<pubDate>Wed, 30 Sep 2026 22:56:31 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19705,7 +19687,7 @@
 <title>PhantomRaven: An LLM-Generated Information Stealer Developed for Bug Bounty Hunting</title>
 <link>https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 30 Sep 2026 19:02:15 +0000</pubDate>
+<pubDate>Wed, 30 Sep 2026 22:56:31 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19714,7 +19696,7 @@
 <title>September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 30 Sep 2026 19:02:15 +0000</pubDate>
+<pubDate>Wed, 30 Sep 2026 22:56:31 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19723,7 +19705,7 @@
 <title>CrowdStrike Delivers the Next Evolution of the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 30 Sep 2026 19:02:15 +0000</pubDate>
+<pubDate>Wed, 30 Sep 2026 22:56:31 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19732,7 +19714,7 @@
 <title>CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Wed, 30 Sep 2026 19:02:15 +0000</pubDate>
+<pubDate>Wed, 30 Sep 2026 22:56:31 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
