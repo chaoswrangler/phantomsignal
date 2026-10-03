@@ -6,9 +6,32 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 03 Oct 2026 06:17:24 +0000</lastBuildDate>
+<lastBuildDate>Sat, 03 Oct 2026 12:23:48 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Fortra Patches Critical Vulnerabilities in BoKS</title>
+<link>https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/</link>
+<description><![CDATA[The bugs could lead to authentication bypass, shell command execution, and memory corruption. The post Fortra Patches Critical Vulnerabilities in BoKS appeared first on SecurityWeek .<br/><br/><em>Tags: Microsoft SharePoint · Fortinet · GitHub · ShinyHunters · CVE-2026-79901 · CVE-2026-79898 · CVE-2026-12627 · phishing_social_eng</em>]]></description>
+<pubDate>Sat, 03 Oct 2026 11:34:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/</guid>
+<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
+<category>cyber_news_breach_reporting</category>
+<category>Microsoft SharePoint</category>
+<category>Fortinet</category>
+<category>GitHub</category>
+<category>ShinyHunters</category>
+</item>
+<item>
+<title>N0n ransomware: what you need to know</title>
+<link>https://www.fortra.com/blog/n0n-ransomware-what-you-need-know</link>
+<description><![CDATA[N0n is a newly-emerged cyber extortion gang. The group was first spotted in the middle of September 2026, and within days it had published on its dark web leak site details of what it claimed to be around a dozen victims. Since then, the tally has continued to grow. Read more in my article on the Fortra blog.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<pubDate>Sat, 03 Oct 2026 08:29:54 +0000</pubDate>
+<guid isPermaLink="true">https://www.fortra.com/blog/n0n-ransomware-what-you-need-know</guid>
+<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
+<category>practitioner_analysis</category>
+<category>ransomware_extortion</category>
+</item>
 <item>
 <title>RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail</title>
 <link>https://www.darkreading.com/cybersecurity-operations/remotethreat-bets-security-teams-need-to-test-what-happens-after-defenses-fail</link>
@@ -97,16 +120,6 @@
 <category>CVE-2026-88772</category>
 </item>
 <item>
-<title>Bypassing Secure Boot via Unbounded RLE8 Splash Images in U-Boot (CVE-2026-71972)</title>
-<link>https://www.reddit.com/r/netsec/comments/1wvyt5b/bypassing_secure_boot_via_unbounded_rle8_splash/</link>
-<description><![CDATA[When analysing firmware attack surfaces, image decoders built into bootloaders get less scrutiny than cryptographically verified OS kernels. If image parsing happens before signature verification, any memory corruption in the parser breaks the secure boot trust model. researchers analysed U-Boot&apos;s video subsystem (drivers/video/video_bmp.c) and identified an unbounded write in the RLE8 bitmap decoder (video_display_rle8_bitmap()) that leads to a pre-authentication Secure Boot bypass . Root Cause and Vulnerability Mechanics When U-Boot displays a boot logo or splash screen, it parses a BMP image loaded from local storage (SPI flash, MMC/eMMC, USB, or SD card). Unbounded framebuffer write: During RLE8 decompression, video_display_rle8_bitmap() decodes run-length encoded streams directly into the active framebuffer without validating stream bounds against the frame boundary or allocated buffer size. Pre-authentication execution window: In many embedded target configurations, the boot spla<br/><br/><em>Tags: CVE-2026-71972</em>]]></description>
-<pubDate>Fri, 02 Oct 2026 16:50:08 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wvyt5b/bypassing_secure_boot_via_unbounded_rle8_splash/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>CVE-2026-71972</category>
-</item>
-<item>
 <title>SWIFT Banking &amp; Government Middleware Enables RCE</title>
 <link>https://www.darkreading.com/cybersecurity-operations/swift-banking-govt-middleware-rce</link>
 <description><![CDATA[Patch middleware vulnerabilities now to avoid hardware-based MFA exploits in ultra-sensitive environments.<br/><br/><em>Tags: CVE-2026-18397 · zero_day</em>]]></description>
@@ -131,14 +144,16 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
-<title>8 out of 10 Banks HATE This One Weird 3SKey RCE</title>
-<link>https://www.reddit.com/r/netsec/comments/1wvxp1p/8_out_of_10_banks_hate_this_one_weird_3skey_rce/</link>
-<description><![CDATA[TL;DR. SConnect - 1M+ users, an extension middleware+native host for authentication with eIDs, 3SKeys and other hardware signing tokens had a drive-by RCE which enabled any site or iframe a user saw to silently download and execute a dll due to a poor hand-rolled implementation of RSA-2048 token validation, enabling a use of uninitialized memory validation bypass which enabled &quot;plugins&quot; (DLLs) to be loaded. v2.16.0.0 of the extension and native host is vulnerable. CVE-2026-18397 . CVSS 9.4. submitted by /u/acorn222 [link] [comments]<br/><br/><em>Tags: CVE-2026-18397</em>]]></description>
-<pubDate>Fri, 02 Oct 2026 16:05:04 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wvxp1p/8_out_of_10_banks_hate_this_one_weird_3skey_rce/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>CVE-2026-18397</category>
+<title>The First 24 Hours: What Happens When Ransomware Lands</title>
+<link>https://www.huntress.com/blog/what-happens-during-a-ransomware-attack</link>
+<description><![CDATA[Nazar Tymoshyk from UnderDefense shares his thoughts on what ransomware attacks look like during the all-important opening hours.<br/><br/><em>Tags: OpenAI/ChatGPT · Anthropic/Claude · ransomware_extortion</em>]]></description>
+<pubDate>Fri, 02 Oct 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/what-happens-during-a-ransomware-attack</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
+<category>OpenAI/ChatGPT</category>
+<category>Anthropic/Claude</category>
+<category>ransomware_extortion</category>
 </item>
 <item>
 <title>What’s new with Google Cloud</title>
@@ -220,16 +235,6 @@
 <category>zero_day</category>
 </item>
 <item>
-<title>45% of credential-phishing pages weren&apos;t on Google Safe Browsing when first seen; 29% still weren&apos;t after a week</title>
-<link>https://www.reddit.com/r/netsec/comments/1wvucap/45_of_credentialphishing_pages_werent_on_google/</link>
-<description><![CDATA[submitted by /u/ricveloso [link] [comments]<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Fri, 02 Oct 2026 13:50:28 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wvucap/45_of_credentialphishing_pages_werent_on_google/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
 <title>macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor</title>
 <link>https://www.securityweek.com/macos-users-targeted-by-fake-zoom-installer-carrying-cloudsyncd-backdoor/</link>
 <description><![CDATA[The dropper “carries a complete universal Mach-O inside itself, roughly 756 KB in the development build, and extracts it at runtime. The post macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor appeared first on SecurityWeek .<br/><br/><em>Tags: Apple iOS/macOS · web_shell_backdoor</em>]]></description>
@@ -276,16 +281,6 @@
 <guid isPermaLink="true">https://www.justsecurity.org/159499/early-edition-october-2-2026/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=early-edition-october-2-2026</guid>
 <source url="https://www.justsecurity.org/feed/">Just Security</source>
 <category>policy_strategy_geopolitics</category>
-</item>
-<item>
-<title>Azure&apos;s Weakest Link - Five Full Cross-Tenant Compromises</title>
-<link>https://www.reddit.com/r/netsec/comments/1wvs9ea/azures_weakest_link_five_full_crosstenant/</link>
-<description><![CDATA[API Connections allow anyone to fully compromise any other connection worldwide, giving full access to the connected backend. submitted by /u/piraterapper [link] [comments]<br/><br/><em>Tags: Azure</em>]]></description>
-<pubDate>Fri, 02 Oct 2026 12:15:55 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wvs9ea/azures_weakest_link_five_full_crosstenant/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>Azure</category>
 </item>
 <item>
 <title>Crypto Scammers Hijack Microsoft’s Official X Account</title>
@@ -593,25 +588,6 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
-<title>Server Mismatch: WordPress plugin vulnerabilities when relying on .htaccess files</title>
-<link>https://www.reddit.com/r/netsec/comments/1wv3l51/server_mismatch_wordpress_plugin_vulnerabilities/</link>
-<description><![CDATA[submitted by /u/ultrastrik3 [link] [comments]<br/><br/><em>Tags: WordPress</em>]]></description>
-<pubDate>Thu, 01 Oct 2026 16:11:19 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wv3l51/server_mismatch_wordpress_plugin_vulnerabilities/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>WordPress</category>
-</item>
-<item>
-<title>How to Spot a Compromised MikroTik Router</title>
-<link>https://www.reddit.com/r/netsec/comments/1wv1dei/how_to_spot_a_compromised_mikrotik_router/</link>
-<description><![CDATA[A blue-team writeup on detecting a compromised MikroTik from its own config. Seven techniques, each with the collection command, the artifact it leaves behind, and a triage step. Feedback welcome. submitted by /u/ifritnoises [link] [comments]]]></description>
-<pubDate>Thu, 01 Oct 2026 14:46:54 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wv1dei/how_to_spot_a_compromised_mikrotik_router/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory</title>
 <link>https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html</link>
 <description><![CDATA[Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site again. The backdoor has been codenamed SC after the &quot;SC_&quot; markers present in the injected content. Sucuri has described the malware as a &quot;self-healing mesh&quot; that&apos;s<br/><br/><em>Tags: WordPress · web_shell_backdoor</em>]]></description>
@@ -621,15 +597,6 @@
 <category>cyber_news_breach_reporting</category>
 <category>WordPress</category>
 <category>web_shell_backdoor</category>
-</item>
-<item>
-<title>Hacker Conversations: Rob Juncker, a Knock at the Door and a Moral Compass</title>
-<link>https://www.securityweek.com/hacker-conversations-rob-juncker-a-knock-at-the-door-and-a-moral-compass/</link>
-<description><![CDATA[Rob Juncker is chief product and technology officer at Mimecast. Is he a hacker? “Unequivocally yes,” he says. The post Hacker Conversations: Rob Juncker, a Knock at the Door and a Moral Compass appeared first on SecurityWeek .]]></description>
-<pubDate>Thu, 01 Oct 2026 14:30:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.securityweek.com/hacker-conversations-rob-juncker-a-knock-at-the-door-and-a-moral-compass/</guid>
-<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Police dismantle KillSec ransomware gang allegedly led by 16-year-old</title>
@@ -887,15 +854,6 @@
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
 <category>ShinyHunters</category>
-</item>
-<item>
-<title>The Real Price Tag on Breaches</title>
-<link>https://www.reddit.com/r/netsec/comments/1wum2gj/the_real_price_tag_on_breaches/</link>
-<description><![CDATA[submitted by /u/fagnerbrack [link] [comments]]]></description>
-<pubDate>Thu, 01 Oct 2026 01:01:03 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wum2gj/the_real_price_tag_on_breaches/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>CVE-2026-76504 | Cisco Catalyst SD-WAN Manager API Authentication Bypass Vulnerability | Reversed by Horizon3</title>
@@ -1288,25 +1246,6 @@
 <category>Anthropic/Claude</category>
 </item>
 <item>
-<title>No Time to Pwn – Can AI Find and Exploit the Linux Kernel?</title>
-<link>https://www.reddit.com/r/netsec/comments/1wtnh31/no_time_to_pwn_can_ai_find_and_exploit_the_linux/</link>
-<description><![CDATA[submitted by /u/fede_k [link] [comments]<br/><br/><em>Tags: Linux kernel</em>]]></description>
-<pubDate>Tue, 29 Sep 2026 21:58:55 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wtnh31/no_time_to_pwn_can_ai_find_and_exploit_the_linux/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>Linux kernel</category>
-</item>
-<item>
-<title>Critical RCE Alert: Full takeover of HashiCorp Vault and OpenBao. OpenBao is patched. Vault remains exposed</title>
-<link>https://www.reddit.com/r/netsec/comments/1wtn3cv/critical_rce_alert_full_takeover_of_hashicorp/</link>
-<description><![CDATA[OpenBao engineers at ControlPlane have chained 4 vulnerabilities to show how under certain conditions, an OpenBao or Vault server can be completely compromised from an unauthenticated position. This is only the second RCE ever found in the Vault codebase. The exploit is highly plausible in real-world environments, requiring only an unauthenticated entry path and a defined Raft snapshot policy to trigger a complete server compromise. If you are impacted, upgrade as soon as possible to OpenBao 2.6.3 or 2.7.0 While OpenBao is fully patched, HashiCorp Vault remains exposed as of writing. Unfortunately, IBM&apos;s unwillingness to coordinate a mutual disclosure policy means Vault users currently lack an official mitigation submitted by /u/the_hypotenuse [link] [comments]]]></description>
-<pubDate>Tue, 29 Sep 2026 21:43:15 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wtn3cv/critical_rce_alert_full_takeover_of_hashicorp/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Phishing Abuses RMM Tools for Persistent Access</title>
 <link>https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/</link>
 <description><![CDATA[Microsoft observed phishing campaigns that abused MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity The post Phishing Abuses RMM Tools for Persistent Access appeared first on Microsoft Security Blog .<br/><br/><em>Tags: ScreenConnect · Microsoft Defender · GitLab · phishing_social_eng</em>]]></description>
@@ -1568,17 +1507,6 @@
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
 <category>AWS</category>
-</item>
-<item>
-<title>Here We Go Again (Citrix NetScaler DTLS Preauth Memory Overflow CVE-2026-88772) - watchTowr Labs</title>
-<link>https://www.reddit.com/r/netsec/comments/1wtattu/here_we_go_again_citrix_netscaler_dtls_preauth/</link>
-<description><![CDATA[submitted by /u/dx7r__ [link] [comments]<br/><br/><em>Tags: Citrix · CVE-2026-88772</em>]]></description>
-<pubDate>Tue, 29 Sep 2026 13:57:34 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wtattu/here_we_go_again_citrix_netscaler_dtls_preauth/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>Citrix</category>
-<category>CVE-2026-88772</category>
 </item>
 <item>
 <title>Here We Go Again (Citrix NetScaler DTLS Preauth Memory Overflow CVE-2026-88772)</title>
@@ -1876,11 +1804,14 @@
 <item>
 <title>28th September – Threat Intelligence Report</title>
 <link>https://research.checkpoint.com/2026/28th-september-threat-intelligence-report/</link>
-<description><![CDATA[For the latest discoveries in cyber research for the week of 28th September, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES The FBI has confirmed unauthorized activity affecting FBIjobs.gov after the ShinyHunters group defaced the website. The group claimed to have stolen employee and applicant information and shared samples of purported FBI personnel […] The post 28th September – Threat Intelligence Report appeared first on Check Point Research .<br/><br/><em>Tags: ShinyHunters</em>]]></description>
+<description><![CDATA[For the latest discoveries in cyber research for the week of 28th September, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES The FBI has confirmed unauthorized activity affecting FBIjobs.gov after the ShinyHunters group defaced the website. The group claimed to have stolen employee and applicant information and shared samples of purported FBI personnel […] The post 28th September – Threat Intelligence Report appeared first on Check Point Research .<br/><br/><em>Tags: Cisco · WordPress · F5 BIG-IP · ShinyHunters · CVE-2026-85102 · CVE-2026-93616 · CVE-2026-94127 · CVE-2026-87902</em>]]></description>
 <pubDate>Mon, 28 Sep 2026 13:55:26 +0000</pubDate>
 <guid isPermaLink="true">https://research.checkpoint.com/2026/28th-september-threat-intelligence-report/</guid>
 <source url="https://research.checkpoint.com/feed/">Check Point Research</source>
 <category>threat_research_primary</category>
+<category>Cisco</category>
+<category>WordPress</category>
+<category>F5 BIG-IP</category>
 <category>ShinyHunters</category>
 </item>
 <item>
@@ -1920,17 +1851,6 @@
 <guid isPermaLink="true">https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html</guid>
 <source url="https://www.schneier.com/feed/atom/">Schneier on Security</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>Oh Look, The Foot Gun Went Off Again (Citrix NetScaler PreAuth Command Injection CVE-2026-88771) - watchTowr Labs</title>
-<link>https://www.reddit.com/r/netsec/comments/1wsbh8j/oh_look_the_foot_gun_went_off_again_citrix/</link>
-<description><![CDATA[submitted by /u/dx7r__ [link] [comments]<br/><br/><em>Tags: Citrix · CVE-2026-88771</em>]]></description>
-<pubDate>Mon, 28 Sep 2026 10:58:09 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wsbh8j/oh_look_the_foot_gun_went_off_again_citrix/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>Citrix</category>
-<category>CVE-2026-88771</category>
 </item>
 <item>
 <title>Oh Look, The Foot Gun Went Off Again (Citrix NetScaler PreAuth Command Injection CVE-2026-88771)</title>
@@ -2082,19 +2002,6 @@
 <guid isPermaLink="true">https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells</title>
-<link>https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html</link>
-<description><![CDATA[Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The ShinyHunters-linked activity involves the weaponization of CVE-2026-35273 (CVSS score: 9.8), a critical security flaw that could result in unauthenticated remote code execution. The vulnerability was first exploited as a zero-day<br/><br/><em>Tags: ShinyHunters · UNC6240 · CVE-2026-35273 · credential_theft · zero_day · web_shell_backdoor</em>]]></description>
-<pubDate>Sat, 26 Sep 2026 11:46:40 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>ShinyHunters</category>
-<category>UNC6240</category>
-<category>CVE-2026-35273</category>
-<category>credential_theft</category>
 </item>
 <item>
 <title>Trading Maintenance for Momentum: Scaling Security Validation Across 230+ Sites</title>
@@ -8002,16 +7909,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>Gunra ransomware: what you need to know</title>
-<link>https://www.fortra.com/blog/gunra-ransomware-what-you-need-know</link>
-<description><![CDATA[The ransomware gang Gunra has been creating havoc - exploiting unpatched VPNs and firewalls to steal data, encrypt systems, and extort victims across healthcare, finance, manufacturing, and more. Read more in my article on the Fortra blog.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Mon, 24 Aug 2026 12:52:37 +0000</pubDate>
-<guid isPermaLink="true">https://www.fortra.com/blog/gunra-ransomware-what-you-need-know</guid>
-<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
-<category>practitioner_analysis</category>
-<category>ransomware_extortion</category>
-</item>
-<item>
 <title>Risky Bulletin: Expired credit cards can be used for malicious transactions</title>
 <link>https://risky.biz/RBNEWS604/</link>
 <description><![CDATA[Expired credit cards can be used for malicious transactions, Iranian hackers shut down a UK power plant, the Lazarus Group hacks South Korea’s Presidential Office, and an Android malware strain is infecting smart cars.<br/><br/><em>Tags: Android · Lazarus</em>]]></description>
@@ -11070,27 +10967,6 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>Conditional Access Misconfigurations Exposed 55 Orgs with MFA On</title>
-<link>https://www.huntress.com/blog/conditional-access-misconfigurations</link>
-<description><![CDATA[Two Microsoft 365 attacks got through Conditional Access policies that seemed fully configured. Learn what went wrong and how Huntress Managed ISPM catches these gaps first.<br/><br/><em>Tags: Microsoft 365</em>]]></description>
-<pubDate>Thu, 09 Jul 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/conditional-access-misconfigurations</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
-<category>Microsoft 365</category>
-</item>
-<item>
-<title>CitrixBleed 2 (CVE-2025-5777) 7Steps to Dragonforce Ransomware | Huntress</title>
-<link>https://www.huntress.com/blog/citrixbleed-2-dragonforce-ransomware</link>
-<description><![CDATA[Huntress has observed a series of strikingly similar intrusions beginning with CitrixBleed 2 exploitation, employing novel local privilege escalation techniques, and ending in Dragonforce ransomware.<br/><br/><em>Tags: CVE-2025-5777 · ransomware_extortion</em>]]></description>
-<pubDate>Thu, 09 Jul 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/citrixbleed-2-dragonforce-ransomware</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
-<category>CVE-2025-5777</category>
-<category>ransomware_extortion</category>
-</item>
-<item>
 <title>Why we cannot wait for better post-quantum signature algorithms</title>
 <link>https://blog.cloudflare.com/ml-dsa-will-have-to-do/</link>
 <description><![CDATA[NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We take a closer look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best currently available.]]></description>
@@ -11367,15 +11243,6 @@
 <guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-mcp</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>/r/netsec&apos;s Q3 2026 Information Security Hiring Thread</title>
-<link>https://www.reddit.com/r/netsec/comments/1ulbf96/rnetsecs_q3_2026_information_security_hiring/</link>
-<description><![CDATA[Overview If you have open positions at your company for information security professionals and would like to hire from the /r/netsec user base, please leave a comment detailing any open job listings at your company. We would also like to encourage you to post internship positions as well. Many of our readers are currently in school or are just finishing their education. Please reserve top level comments for those posting open positions. Rules &amp; Guidelines Include the company name in the post. If you want to be topsykret, go recruit elsewhere. Include the geographic location of the position along with the availability of relocation assistance or remote work. If you are a third party recruiter, you must disclose this in your posting. Please be thorough and upfront with the position details. Use of non-hr&apos;d (realistic) requirements is encouraged. While it&apos;s fine to link to the position on your companies website, provide the important details in the comment. Mention if applicants should ap]]></description>
-<pubDate>Thu, 02 Jul 2026 07:32:10 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1ulbf96/rnetsecs_q3_2026_information_security_hiring/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Srsly Risky Biz: America won&apos;t beat the distillation ecosystem</title>
@@ -19667,7 +19534,7 @@
 <title>CrowdStrike Expands Federal SOC Modernization Through CISA-Funded SIEMaaS</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 03 Oct 2026 06:17:24 +0000</pubDate>
+<pubDate>Sat, 03 Oct 2026 12:23:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19676,7 +19543,7 @@
 <title>Copy, Paste, Compromised: How ClickFix Attacks Work and How CrowdStrike Stops Them</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-clickfix-attacks-work-and-how-to-stop-them/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 03 Oct 2026 06:17:24 +0000</pubDate>
+<pubDate>Sat, 03 Oct 2026 12:23:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-clickfix-attacks-work-and-how-to-stop-them/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19685,7 +19552,7 @@
 <title>A Win for Defenders: CrowdStrike and NVIDIA Extend Security Across the AI Stack</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 03 Oct 2026 06:17:24 +0000</pubDate>
+<pubDate>Sat, 03 Oct 2026 12:23:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19694,7 +19561,7 @@
 <title>CrowdStrike Named a Leader in The Forrester Wave™: Proactive Security Platforms, Q3 2026</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 03 Oct 2026 06:17:24 +0000</pubDate>
+<pubDate>Sat, 03 Oct 2026 12:23:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19703,7 +19570,7 @@
 <title>CrowdStrike Named a Leader in The Forrester Wave™: External Threat Intelligence Service Providers, Q3 2026</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 03 Oct 2026 06:17:24 +0000</pubDate>
+<pubDate>Sat, 03 Oct 2026 12:23:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19712,7 +19579,7 @@
 <title>CrowdStrike SafeMind: When the Best Offense Builds the Best Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 03 Oct 2026 06:17:24 +0000</pubDate>
+<pubDate>Sat, 03 Oct 2026 12:23:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19721,7 +19588,7 @@
 <title>CrowdStrike Accelerates Real-Time Data Classification with On-Device AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 03 Oct 2026 06:17:24 +0000</pubDate>
+<pubDate>Sat, 03 Oct 2026 12:23:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19730,7 +19597,7 @@
 <title>PhantomRaven: An LLM-Generated Information Stealer Developed for Bug Bounty Hunting</title>
 <link>https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 03 Oct 2026 06:17:24 +0000</pubDate>
+<pubDate>Sat, 03 Oct 2026 12:23:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19739,7 +19606,7 @@
 <title>September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 03 Oct 2026 06:17:24 +0000</pubDate>
+<pubDate>Sat, 03 Oct 2026 12:23:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19748,7 +19615,7 @@
 <title>CrowdStrike Delivers the Next Evolution of the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 03 Oct 2026 06:17:24 +0000</pubDate>
+<pubDate>Sat, 03 Oct 2026 12:23:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
