@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-10-03T12:23:48.240027+00:00
+- Generated: 2026-10-03T17:09:21.354976+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
-- Total items in window: 318
-- Total clusters raw: 137
-- Total clusters in packet: 57
-- Dropped low score: 80
+- Total items in window: 343
+- Total clusters raw: 145
+- Total clusters in packet: 56
+- Dropped low score: 89
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,63 +70,53 @@
 
 ## Feed status
 
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
-  - Item count: 25
-  - In window count: 0
+  - Item count: 15
+  - In window count: 2
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -139,36 +129,46 @@
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
-  - In window count: 9
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - In window count: 10
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 15
+  - In window count: 1
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
   - Status: ok
-  - Item count: 40
+  - Item count: 50
+  - In window count: 3
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
+  - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
   - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
@@ -180,23 +180,18 @@
   - Status: ok
   - Item count: 50
   - In window count: 9
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -210,16 +205,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Sophos X-Ops** (detection_response_operations)
-  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
-  - Item count: 15
-  - In window count: 2
+  - Item count: 10
+  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Sophos X-Ops** (detection_response_operations)
+  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
@@ -235,51 +235,51 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 9
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 9
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 2
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
+  - In window count: 1
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 9
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
@@ -290,36 +290,26 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 3
+  - Item count: 100
+  - In window count: 2
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
+  - Item count: 10
+  - In window count: 3
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
@@ -330,16 +320,31 @@
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
-  - Item count: 30
-  - In window count: 13
+  - Item count: 15
+  - In window count: 15
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 1
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
@@ -350,46 +355,36 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 20
-  - In window count: 20
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 1
+  - Item count: 30
+  - In window count: 13
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 25
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 0
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 7
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsec/.rss
-  - Status: ok
-  - Item count: 0
   - In window count: 0
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -410,61 +405,66 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 23
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 1
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 23
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsec/.rss
+  - Status: ok
+  - Item count: 25
+  - In window count: 24
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **Google Project Zero** (offensive_vulnerability_research)
   - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
   - Status: ok
@@ -505,7 +505,7 @@
 - Anchor signal: Citrix
 - Theme key: citrix
 - Cluster count: 3
-- Article count: 18
+- Article count: 19
 - Cohesion: 0.466
 - Shared strong signals: Citrix
 - Member CVEs: CVE-2026-88771, CVE-2026-88772
@@ -525,10 +525,11 @@
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-19490/
   - https://orca.security/resources/research/critical-citrix-netscaler-zero-days-under-active-exploitation/
   - https://labs.watchtowr.com/here-we-go-again-citrix-netscaler-dtls-preauth-memory-overflow-cve-2026-88772/
-  - https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html
+  - https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html
   - https://www.sophos.com/en-us/blog/citrix-netscaler-cve-2026-88771-cve-2026-88772-in-active-exploitation
   - https://www.greynoise.io/blog/swarming-against-citrix-0-day-exploitation
   - https://cyberscoop.com/citrix-netscaler-zero-day-attacks-three-weeks-undetected/
+  - https://www.reddit.com/r/netsec/comments/1wtattu/here_we_go_again_citrix_netscaler_dtls_preauth/
   - https://www.infosecurity-magazine.com/news/citrix-patches-critical-zero-days/
   - https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response
 
@@ -655,13 +656,13 @@
   - https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html
   - https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/
 
-### CVE-2026-102490 exploitation activity
-- Anchor signal: CVE-2026-102490
-- Theme key: cve-2026-102490
+### CVE-2026-102489 exploitation activity
+- Anchor signal: CVE-2026-102489
+- Theme key: cve-2026-102489
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.688
-- Shared strong signals: CVE-2026-102490
+- Shared strong signals: CVE-2026-102489
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -672,13 +673,13 @@
   - https://webflow.sysdig.com/blog/ai-agent-exploits-zammad-zero-days-in-divd-breach-what-we-know-and-how-to-detect-it
   - https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/
 
-### CVE-2026-102489 exploitation activity
-- Anchor signal: CVE-2026-102489
-- Theme key: cve-2026-102489
+### CVE-2026-102490 exploitation activity
+- Anchor signal: CVE-2026-102490
+- Theme key: cve-2026-102490
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.688
-- Shared strong signals: CVE-2026-102489
+- Shared strong signals: CVE-2026-102490
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -724,10 +725,7 @@
 ## Forward signals
 
 ### Novelty
-- Novel cves: 3
-  - CVE-2026-12627 (first seen via SecurityWeek at 2026-10-03T11:34:00+00:00, cluster 23f54b57d1)
-  - CVE-2026-79898 (first seen via SecurityWeek at 2026-10-03T11:34:00+00:00, cluster 23f54b57d1)
-  - CVE-2026-79901 (first seen via SecurityWeek at 2026-10-03T11:34:00+00:00, cluster 23f54b57d1)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
@@ -735,8 +733,8 @@
 - **Zero-Day Exploitation of Citrix NetScaler ADC and Gateway: CVE-2026-88771 and CVE-2026-88772**
   - Cluster: b0527f41c8
   - Sources in window: 3
-  - Window hours: 1.8
-  - Cohort count: 6
+  - Window hours: 0.1
+  - Cohort count: 7
 - **Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570**
   - Cluster: a14cf81e36
   - Sources in window: 3
@@ -784,17 +782,22 @@
   - Prior top industries: critical_infrastructure, government, manufacturing_industrial
   - Prior top products: Citrix, Microsoft Windows, Salesforce
 
-### Persistence (8)
+### Persistence (9)
 - actor_attribution: ShinyHunters (weeks observed: 13, cluster 8f6c26226b)
 - actor_attribution: Cl0p (weeks observed: 10, cluster 8f6c26226b)
 - cve_ids: CVE-2026-19490 (weeks observed: 7, cluster b0527f41c8)
 - cve_ids: CVE-2025-3248 (weeks observed: 6, cluster 8af8fa458d)
 - actor_attribution: Salt Typhoon (weeks observed: 5, cluster 5fc59e5ed7)
 - cve_ids: CVE-2026-73570 (weeks observed: 4, cluster a14cf81e36)
+- cve_ids: CVE-2026-85102 (weeks observed: 3, cluster 8f6c26226b)
 - cve_ids: CVE-2026-85706 (weeks observed: 3, cluster 2960bdb9ca)
 - cve_ids: CVE-2026-76460 (weeks observed: 3, cluster 4e072e3956)
 
-### Tier inversion (0)
+### Tier inversion (1)
+- **JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources**
+  - Cluster: 8af8fa458d
+  - Primary source: The Hacker News
+  - Strong signals: CVE-2025-3248
 
 ## Clusters
 
@@ -805,8 +808,8 @@
 - Published: 2026-09-28T10:05:00+00:00
 - Link: https://www.rapid7.com/blog/post/etr-zero-day-exploitation-of-citrix-netscaler-adc-and-gateway-cve-2026-88771-and-cve-2026-88772
 - Fetch status: ok
-- Member count: 16
-- Corroborating source count: 11
+- Member count: 17
+- Corroborating source count: 12
 - Strong signals: CVE-2026-88771, CVE-2026-88772, Citrix
 
 #### Cluster taxonomy (union across members)
@@ -814,9 +817,9 @@
 - affected_industries: education, financial_services, government, legal_professional
 - affected_products: Citrix
 - cve_ids: CVE-2026-19490, CVE-2026-88771, CVE-2026-88772, CVE-2026-88773, CVE-2026-88774, CVE-2026-88775
-- urgency_signals: actively_exploited, critical_cvss, no_patch_yet, preauth_unauth, zero_day
+- urgency_signals: actively_exploited, critical_cvss, preauth_unauth, zero_day
 - content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_1_government, tier_1_offensive_research, tier_1_primary_research, tier_2_operator, tier_4_news
+- confidence_tier: tier_1_government, tier_1_offensive_research, tier_1_primary_research, tier_2_operator, tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
 - threat_categories: zero_day, active_exploitation
@@ -838,7 +841,7 @@ Overview On September 27, 2026, Citrix disclosed eight new vulnerabilities affec
 Vulnerability Management Zero-Day Exploitation of Citrix NetScaler ADC and Gateway: CVE-2026-88771 and CVE-2026-88772 Rapid7 Sep 28, 2026 | Last updated on Sep 30, 2026 | 4 min read Zero-Day Exploitation of Citrix NetScaler ADC and Gateway: CVE-2026-88771 and CVE-2026-88772 Table of contents Zero-Day Exploitation of Citrix NetScaler ADC and Gateway: CVE-2026-88771 and CVE-2026-88772 Table of contents Overview On September 27, 2026, Citrix disclosed eight new vulnerabilities affecting NetScaler ADC and NetScaler Gateway, including two critical remote code execution (RCE) vulnerabilities: CVE-2026-88771 and CVE-2026-88772 . Both of these RCE vulnerabilities carry a critical CVSSv4 score of 9.5, and both have been confirmed as being actively exploited in the wild as zero-days prior to the vendor disclosure . CVE-2026-88771 affects vulnerable NetScaler deployments in their default configuration, with no additional product features required. The vendor has also indicated that the attack complexity for exploiting CVE-2026-88771 is low, meaning reliable RCE is likely against all vulnerable NetScaler appliances regardless of their configuration. This is especially concerning due to the prevalence of NetScaler appliances. CVE-2026-88772 is a memory corruption vulnerability and requires the DTLS feature to be enabled on the appliance. The vendor has indicated that the attack complexity is high, meaning achieving reliable exploitation may be more difficult for an attacker than that of CVE-2026-88771. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) reports active exploitation is occurring globally, and added both CVE-2026-88771 and CVE-2026-88772 to its Known Exploited Vulnerabilities (KEV) catalog on September 27, 2026. Multiple CERTs worldwide have begun issuing alerts due to the critical nature of this situation. The following table summarizes all eight vulnerabilities: CVE CVSSv4 Vulnerability Exploitation confirmed CVE-2026-88771 9.5 (Critical) Improper input validation leading to RCE in a default configuration (CWE-20) Yes ( CISA ) CVE-2026-88772 9.5 (Critical) Memory overflow leading to RCE in a DTLS configuration (CWE-119) Yes ( CISA ) CVE-2026-88773 9.3 (Critical) HTTP request smuggling (CWE-444) No CVE-2026-88774 7.0 (High) Policy bypass involving URL expressions (CWE-16) No CVE-2026-88775 8.8 (High) Memory overflow in Gateway or AAA configuration (CWE-119) No CVE-2026-88776 8.8 (High) Memory overflow in load balancer of type Oracle configuration (CWE-119) No CVE-2026-88777 8.8 (High) Memory overflow in a LB/CS or CGNAT-LSN/NAT64 configuration (CWE-119) No CVE-2026-88778 8.8 (High) Predictable TCP initial sequence numbers (CWE-342) No Mitigation guidance The following vendor-supplied updates are available to remediate all eight vulnerabilities. Rapid7 strongly recommends updating affected NetScaler appliances on an emergency basis , outside of normal patching cycles, and investigating vulnerable appliances for signs of compromise. Citrix NetScaler ADC and Citrix NetScaler Gateway 14.1-73.37 and later releases. Citrix NetScaler ADC and Citrix NetScaler Gateway 13.1-64.23 and later releases of 13.1 . Citrix NetScaler ADC 14.1-FIPS , 14.1-73.37 FIPS and later releases of 14.1-FIPS . Citrix NetScaler ADC 13.1-FIPS and 13.1-NDcPP 13.1.37.279 and later releases of 13.1-FIPS and 13.1-NDcPP . For the latest mitigation guidance, please refer to the vendor advisory . Rapid7 MDR Observed Exploitation Rapid7 observed the earliest exploitation attempts at 2026-09-20T14:28:43 UTC . Only two attempts were seen on September 20, which does not indicate widespread exploitation at that time. The command injection observed on September 20 is captured below: Timestamp: 2026-09-20T14:28:43.000Z Account: wfr Result: FAILED_BAD_LOGIN Source_ip: 149.104.78.208 Source_data: "Authentication is rejected for WFR pitboss PPE nsppe missed too many heartbeats NSPPE;tar${IFS}czf$IFS/var/netscaler/gui/vpn/c$IFS-C$IFS/flash${IFS}nsconfig; (client
 ```
 
-#### Corroborating sources (11)
+#### Corroborating sources (12)
 
 - **Rapid7** (offensive_vulnerability_research)
   - Title: Zero-Day Exploitation of Citrix NetScaler ADC and Gateway: CVE-2026-88771 and CVE-2026-88772
@@ -876,10 +879,10 @@ Vulnerability Management Zero-Day Exploitation of Citrix NetScaler ADC and Gatew
   - Link: https://labs.watchtowr.com/here-we-go-again-citrix-netscaler-dtls-preauth-memory-overflow-cve-2026-88772/
   - Summary: Part 1 of this week's saga can be found here. This research is a glimpse into the capabilities that power our Preemptive Exposure Management solution, enabling organizations to rapidly react to emerging threats: the watchTowr Platform. What Is A Citrix NetScaler? NetScaler, from Citrix (now under Cloud
 - **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation
-  - Published: 2026-09-27T07:47:57+00:00
-  - Link: https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html
-  - Summary: Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of the two affects every deployment on an affected version, including those in the default configuration. The bulletin came a day after security firm watchTowr
+  - Title: Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution
+  - Published: 2026-09-30T05:30:30+00:00
+  - Link: https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html
+  - Summary: Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-88772 (CVSS score: 9.5), has been described as a memory overflow bug in the Datagram Transport Layer Security (DTLS) protocol handling that's rooted in the NetScaler
 - **Sophos X-Ops** (detection_response_operations)
   - Title: Citrix NetScaler vulnerabilities (CVE-2026-88771, CVE-2026-88772) in active exploitation
   - Published: 2026-09-28T00:00:00+00:00
@@ -895,6 +898,11 @@ Vulnerability Management Zero-Day Exploitation of Citrix NetScaler ADC and Gatew
   - Published: 2026-09-29T21:30:22+00:00
   - Link: https://cyberscoop.com/citrix-netscaler-zero-day-attacks-three-weeks-undetected/
   - Summary: Mandiant researchers said dozens of organizations have been impacted by attacks attributed to advanced and suspected state-sponsored threat groups. They expect more attacks to come. The post Attackers exploited Citrix NetScaler zero-day for at least three weeks undetected appeared first on CyberScoop .
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: Here We Go Again (Citrix NetScaler DTLS Preauth Memory Overflow CVE-2026-88772) - watchTowr Labs
+  - Published: 2026-09-29T13:57:34+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1wtattu/here_we_go_again_citrix_netscaler_dtls_preauth/
+  - Summary: submitted by /u/dx7r__ [link] [comments]
 
 ### Cluster e8f8b3bb19 — score 70
 
@@ -1403,6 +1411,39 @@ Public Sector Defending at machine speed: Securing the public sector in the agen
   - Link: https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html
   - Summary: RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has traced nearly 100 deployments of that console since April 2026. It said this fits a malware-as-a-service model, in which each customer runs a separate copy. The console stores what the malware collects from each phone,
 
+### Cluster f7fb483b20 — score 14
+
+- Title: YARA-X 1.21.0 Release, (Sat, Oct 3rd)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-10-03T14:40:21+00:00
+- Link: https://isc.sans.edu/diary/rss/33392
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+YARA-X&#;x26;#;39;s 1.21.0 release brings 5 improvements and 4 bugfixes.
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: YARA-X 1.21.0 Release, (Sat, Oct 3rd)
+  - Published: 2026-10-03T14:40:21+00:00
+  - Link: https://isc.sans.edu/diary/rss/33392
+  - Summary: YARA-X&#;x26;#;39;s 1.21.0 release brings 5 improvements and 4 bugfixes.
+
 ### Cluster 2b530e9966 — score 14
 
 - Title: From SELECT to SYSADMIN with SQL Copilot (CVE-2026-65669)
@@ -1486,60 +1527,6 @@ Kubernetes changed how teams ship software. Applications now run anywhere, scale
   - Published: 2026-09-30T15:52:31+00:00
   - Link: https://www.wiz.io/blog/wizos-helm-charts
   - Summary: Secure your Kubernetes supply chain with WizOS Helm Charts. Eliminate hidden CI/CD risks and unmaintained dependencies with hardened, signed, and CVE-scanned charts for seamless Kubernetes deployment.
-
-### Cluster 2960bdb9ca — score 12
-
-- Title: GitLab warns of critical RCE vulnerability in AI Gateway service
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-10-02T16:20:05+00:00
-- Link: https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: GitLab
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ransomware_extortion
-- affected_industries: government
-- affected_products: GitLab
-- cve_ids: CVE-2026-85706, CVE-2026-90970
-- urgency_signals: actively_exploited, no_patch_yet, preauth_unauth
-- content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, active_exploitation
-- affected_industries: government
-- affected_products: GitLab
-- cve_ids: CVE-2026-90970, CVE-2026-85706
-- urgency_signals: actively_exploited, preauth_unauth, no_patch_yet
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-GitLab warned customers today to immediately patch a critical AI Gateway vulnerability that could let attackers run arbitrary commands on vulnerable instances. [...]
-```
-
-#### Full body
-
-```
-GitLab warns of critical RCE vulnerability in AI Gateway service By Sergiu Gatlan October 2, 2026 12:20 PM 0 GitLab warned customers today to immediately patch a critical AI Gateway vulnerability that could let attackers run arbitrary commands on vulnerable instances. AI Gateway is a service that gives access to AI-native GitLab Duo features. While GitLab operates its own cloud-based AI Gateway instance used by GitLab.com, GitLab Self-Managed, and GitLab Dedicated, users can also deploy their own self-hosted instances on GitLab Self-Managed through GitLab Duo Self-Hosted. Tracked as CVE-2026-90970 , this security flaw stems from an improper neutralization weakness and can let attackers with basic privileges and Duo Agent Platform access execute arbitrary commands on unpatched instances. "GitLab has remediated an issue in the GitLab AI Gateway that, under certain conditions, could have allowed an authenticated user with Duo Agent Platform access to escape the prompt template sandbox via a specially crafted flow configuration, leading to arbitrary command execution on the AI Gateway," the company explained in a Friday advisory. GitLab released versions 19.2.4, 19.3.2, and 19.4.1 to address this vulnerability for Self-Hosted AI Gateway users and said that customers using a GitLab-hosted AI Gateway are already protected and do not need to take action. "These versions contain a critical security fix for GitLab Self-Hosted AI Gateway, and we strongly recommend that all GitLab Self-Managed customers with GitLab Self-Hosted AI Gateway installations update to one of these versions immediately," it said. "We have conducted targeted outreach to Self-Hosted AI Gateway customers prior to this release post with this guidance." GitLab added that it reached out to those who host their own AI Gateway before disclosure and urged users to upgrade vulnerable instances as soon as possible. Last month, GitLab also patched a maximum severity path traversal vulnerability (CVE-2026-85706) in GitLab Community Edition (CE) and Enterprise Edition (EE) that allows unauthenticated attackers to read sensitive data such as credentials and other secrets from vulnerable servers. One day later, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) added CVE-2026-85706 to its list of actively exploited flaws and gave federal agencies three days to secure their systems as mandated by Binding Operational Directive (BOD) 26-04. Since November 2021, CISA has tagged five GitLab vulnerabilities abused in the wild, including one exploited by ransomware gangs. GitLab's DevSecOps platform has over 30 million registered users and is used by over 50% of Fortune 100 companies, including Nvidia, Lockheed Martin, T-Mobile, Goldman Sachs, Airbus, and UBS. Build your security blueprint for AI-powered attacks Join Mikko Hyppönen and security leaders from the NFL, CHANEL, and Atlassian for a two-hour digital summit on what AI-speed attacks change, what defenders should stop doing, and how to validate, decide, fix, and re-validate at machine speed. Save your seat Related Articles: GitLab urges users to patch max severity path traversal flaw CISA orders urgent patching of actively exploited Zimbra flaw Dell asks admins to patch max severity CSM flaws as soon as possible TeamViewer urges users to patch severe flaws “as soon as possible” Check Point warns of hackers exploiting Security Gateway VPN RCE flaw
-```
-
-#### Corroborating sources (2)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: GitLab warns of critical RCE vulnerability in AI Gateway service
-  - Published: 2026-10-02T16:20:05+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/
-  - Summary: GitLab warned customers today to immediately patch a critical AI Gateway vulnerability that could let attackers run arbitrary commands on vulnerable instances. [...]
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers
-  - Published: 2026-10-02T17:33:31+00:00
-  - Link: https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html
-  - Summary: A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab said in an advisory. The gateway is the service that connects a GitLab instance to AI models, and only organizations that host their own gateway need to act. The flaw is fixed in gateway versions 19.2.4, 19.3.2, and 19.4.1. The flaw
 
 ### Cluster 463a33fed6 — score 12
 
@@ -1644,6 +1631,105 @@ Horizon3 + CrowdStrike: Prove. Prioritize. Verify. Horizon3 October 2, 2026 Fact
   - Link: https://horizon3.ai/downloads/factsheets/horizon3-crowdstrike-integration/
   - Summary: See how Horizon3 and CrowdStrike connect NodeZero exploitability intelligence with Falcon Next-Gen SIEM and Fusion SOAR to prove, prioritize, remediate, and verify exploitable risk.
 
+### Cluster 2960bdb9ca — score 11
+
+- Title: GitLab warns of critical RCE vulnerability in AI Gateway service
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-10-02T16:20:05+00:00
+- Link: https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: GitLab
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, ransomware_extortion
+- affected_industries: government
+- affected_products: GitLab
+- cve_ids: CVE-2026-85706, CVE-2026-90970
+- urgency_signals: actively_exploited, no_patch_yet, preauth_unauth
+- content_type: news_report, vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, active_exploitation
+- affected_industries: government
+- affected_products: GitLab
+- cve_ids: CVE-2026-90970, CVE-2026-85706
+- urgency_signals: actively_exploited, preauth_unauth, no_patch_yet
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+GitLab warned customers today to immediately patch a critical AI Gateway vulnerability that could let attackers run arbitrary commands on vulnerable instances. [...]
+```
+
+#### Full body
+
+```
+GitLab warns of critical RCE vulnerability in AI Gateway service By Sergiu Gatlan October 2, 2026 12:20 PM 0 GitLab warned customers today to immediately patch a critical AI Gateway vulnerability that could let attackers run arbitrary commands on vulnerable instances. AI Gateway is a service that gives access to AI-native GitLab Duo features. While GitLab operates its own cloud-based AI Gateway instance used by GitLab.com, GitLab Self-Managed, and GitLab Dedicated, users can also deploy their own self-hosted instances on GitLab Self-Managed through GitLab Duo Self-Hosted. Tracked as CVE-2026-90970 , this security flaw stems from an improper neutralization weakness and can let attackers with basic privileges and Duo Agent Platform access execute arbitrary commands on unpatched instances. "GitLab has remediated an issue in the GitLab AI Gateway that, under certain conditions, could have allowed an authenticated user with Duo Agent Platform access to escape the prompt template sandbox via a specially crafted flow configuration, leading to arbitrary command execution on the AI Gateway," the company explained in a Friday advisory. GitLab released versions 19.2.4, 19.3.2, and 19.4.1 to address this vulnerability for Self-Hosted AI Gateway users and said that customers using a GitLab-hosted AI Gateway are already protected and do not need to take action. "These versions contain a critical security fix for GitLab Self-Hosted AI Gateway, and we strongly recommend that all GitLab Self-Managed customers with GitLab Self-Hosted AI Gateway installations update to one of these versions immediately," it said. "We have conducted targeted outreach to Self-Hosted AI Gateway customers prior to this release post with this guidance." GitLab added that it reached out to those who host their own AI Gateway before disclosure and urged users to upgrade vulnerable instances as soon as possible. Last month, GitLab also patched a maximum severity path traversal vulnerability (CVE-2026-85706) in GitLab Community Edition (CE) and Enterprise Edition (EE) that allows unauthenticated attackers to read sensitive data such as credentials and other secrets from vulnerable servers. One day later, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) added CVE-2026-85706 to its list of actively exploited flaws and gave federal agencies three days to secure their systems as mandated by Binding Operational Directive (BOD) 26-04. Since November 2021, CISA has tagged five GitLab vulnerabilities abused in the wild, including one exploited by ransomware gangs. GitLab's DevSecOps platform has over 30 million registered users and is used by over 50% of Fortune 100 companies, including Nvidia, Lockheed Martin, T-Mobile, Goldman Sachs, Airbus, and UBS. Build your security blueprint for AI-powered attacks Join Mikko Hyppönen and security leaders from the NFL, CHANEL, and Atlassian for a two-hour digital summit on what AI-speed attacks change, what defenders should stop doing, and how to validate, decide, fix, and re-validate at machine speed. Save your seat Related Articles: GitLab urges users to patch max severity path traversal flaw CISA orders urgent patching of actively exploited Zimbra flaw Dell asks admins to patch max severity CSM flaws as soon as possible TeamViewer urges users to patch severe flaws “as soon as possible” Check Point warns of hackers exploiting Security Gateway VPN RCE flaw
+```
+
+#### Corroborating sources (2)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: GitLab warns of critical RCE vulnerability in AI Gateway service
+  - Published: 2026-10-02T16:20:05+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/
+  - Summary: GitLab warned customers today to immediately patch a critical AI Gateway vulnerability that could let attackers run arbitrary commands on vulnerable instances. [...]
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers
+  - Published: 2026-10-02T17:33:31+00:00
+  - Link: https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html
+  - Summary: A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab said in an advisory. The gateway is the service that connects a GitLab instance to AI models, and only organizations that host their own gateway need to act. The flaw is fixed in gateway versions 19.2.4, 19.3.2, and 19.4.1. The flaw
+
+### Cluster 24d5e7827d — score 11
+
+- Title: ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-10-01T16:45:38+00:00
+- Link: https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security, zero_day
+- affected_industries: financial_services
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, ai_security
+- affected_industries: financial_services
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can
+```
+
+#### Full body
+
+```
+ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories  Ravie Lakshmanan  Oct 01, 2026 Hacking News / Cybersecurity News This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can hide commands in public infrastructure, reuse old flaws, abuse weak defaults, or let automation stitch together a rough path that still works. Faster tools are changing the pace, but basic mistakes are still doing plenty of the work. So the interesting question this week is not “what broke?” It is “what did we assume was safe because it looked ordinary?” The full list has answers. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out. ATM jackpotting crackdown U.S. Treasury Sanctions 10 Targets in Connection with ATM Jackpotting The U.S. Treasury's Office of Foreign Assets Control (OFAC) sanctioned 10 targets involved in a Tren de Aragua ATM jackpotting scheme that stole at least $40.73 million from U.S. financial institutions. The network used cryptocurrency to launder the proceeds. Tren de Aragua is a designated Foreign Terrorist Organization. Jackpotting uses Ploutus malware to force ATMs to dispense cash. Treasury estimates show reported losses totaling $40.73 million from more than 1,500 alleged TdA jackpotting attacks in the U.S. as of August 2025. TRM Lab said the seven designated crypto wallet addresses have received approximately $6.1 million in total inflows since March 2022. "Tren de Aragua is using ATM malware as a terrorist financing tool, then moving the cash onto TRON so it looks like ordinary exchange deposits," said Ari Redbord, Global Head of Policy at TRM Labs. "That is the same playbook we keep seeing from FTOs with on-chain infrastructure. These sanctions target that playbook. We are seeing the Treasury go after both the bad actors and their financial facilitators." Blockchain-based malware concealment Use of EtherHiding Grows Cyber threat actors are using public blockchains to conceal malware instructions, making it challenging to seize or take down. This technique, referred to as EtherHiding , is part of a broader approach called Blockchain Dead Drops (BDD). Chainalysis said "North Korean and Iranian-state operators are among those developing distinct blockchain dead drop techniques," adding "BDDs have surged 440% since the launch of Chinese high-capacity open-source AI models that place no restrictions on generating malicious code." AI safety review underway Moonshot AI Conducts Review BBC News has reported that Chinese AI company Moonshot is conducting an internal review after a July 2026 report from Mindgard found that its AI models, Kimi K2.6 and K3 Swarm, could bypass safety guardrails and generate dangerous information, including providing plans for cyberattacks, terrorism plots, and assassinations. Prompt injection as defense Context Bombs Against Abliterated AI Models In July 2026, Tracebit detailed a technique called Context Bombs that uses prompt injections as a way to trip an AI model provider's runtime safety checks and prevent it from taking malicious actions. In a new report, the AI security company said indirect prompt injections can be used to stop attacks from open-weight models, abliterated or otherwise. "We turned to indirect prompt injection: instructions placed in material an agent reads while carrying out its task," Tracebit said . "The new payload was designed to make the agent believe its operator had ended the assessment. We placed it inside a canary secret in AWS Secrets Manager, where an agent exploring the account could discover it. The string used conversation delimiters to m
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories
+  - Published: 2026-10-01T16:45:38+00:00
+  - Link: https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html
+  - Summary: This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can
+
 ### Cluster 5fc59e5ed7 — score 11
 
 - Title: Citrix Patches Critical Zero Days Under Active Exploitation
@@ -1694,51 +1780,6 @@ Infosecurity Magazine Home » News » Citrix Patches Critical Zero Days Under Ac
   - Published: 2026-09-28T08:30:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/citrix-patches-critical-zero-days/
   - Summary: Citrix has confirmed exploitation of two critical zero-day RCE bugs
-
-### Cluster 24d5e7827d — score 11
-
-- Title: ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-10-01T16:45:38+00:00
-- Link: https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security, zero_day
-- affected_industries: financial_services
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, ai_security
-- affected_industries: financial_services
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can
-```
-
-#### Full body
-
-```
-ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories  Ravie Lakshmanan  Oct 01, 2026 Hacking News / Cybersecurity News This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can hide commands in public infrastructure, reuse old flaws, abuse weak defaults, or let automation stitch together a rough path that still works. Faster tools are changing the pace, but basic mistakes are still doing plenty of the work. So the interesting question this week is not “what broke?” It is “what did we assume was safe because it looked ordinary?” The full list has answers. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out. ATM jackpotting crackdown U.S. Treasury Sanctions 10 Targets in Connection with ATM Jackpotting The U.S. Treasury's Office of Foreign Assets Control (OFAC) sanctioned 10 targets involved in a Tren de Aragua ATM jackpotting scheme that stole at least $40.73 million from U.S. financial institutions. The network used cryptocurrency to launder the proceeds. Tren de Aragua is a designated Foreign Terrorist Organization. Jackpotting uses Ploutus malware to force ATMs to dispense cash. Treasury estimates show reported losses totaling $40.73 million from more than 1,500 alleged TdA jackpotting attacks in the U.S. as of August 2025. TRM Lab said the seven designated crypto wallet addresses have received approximately $6.1 million in total inflows since March 2022. "Tren de Aragua is using ATM malware as a terrorist financing tool, then moving the cash onto TRON so it looks like ordinary exchange deposits," said Ari Redbord, Global Head of Policy at TRM Labs. "That is the same playbook we keep seeing from FTOs with on-chain infrastructure. These sanctions target that playbook. We are seeing the Treasury go after both the bad actors and their financial facilitators." Blockchain-based malware concealment Use of EtherHiding Grows Cyber threat actors are using public blockchains to conceal malware instructions, making it challenging to seize or take down. This technique, referred to as EtherHiding , is part of a broader approach called Blockchain Dead Drops (BDD). Chainalysis said "North Korean and Iranian-state operators are among those developing distinct blockchain dead drop techniques," adding "BDDs have surged 440% since the launch of Chinese high-capacity open-source AI models that place no restrictions on generating malicious code." AI safety review underway Moonshot AI Conducts Review BBC News has reported that Chinese AI company Moonshot is conducting an internal review after a July 2026 report from Mindgard found that its AI models, Kimi K2.6 and K3 Swarm, could bypass safety guardrails and generate dangerous information, including providing plans for cyberattacks, terrorism plots, and assassinations. Prompt injection as defense Context Bombs Against Abliterated AI Models In July 2026, Tracebit detailed a technique called Context Bombs that uses prompt injections as a way to trip an AI model provider's runtime safety checks and prevent it from taking malicious actions. In a new report, the AI security company said indirect prompt injections can be used to stop attacks from open-weight models, abliterated or otherwise. "We turned to indirect prompt injection: instructions placed in material an agent reads while carrying out its task," Tracebit said . "The new payload was designed to make the agent believe its operator had ended the assessment. We placed it inside a canary secret in AWS Secrets Manager, where an agent exploring the account could discover it. The string used conversation delimiters to m
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories
-  - Published: 2026-10-01T16:45:38+00:00
-  - Link: https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html
-  - Summary: This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can
 
 ### Cluster 48be01e909 — score 10
 
@@ -1932,90 +1973,6 @@ Share Link copied to clipboard! Tags Malware Storm Threats intelligence Cyberatt
   - Link: https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/
   - Summary: Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations. The post NeedyMantis: Unpacking a post-compromise malware family used in targeted operations appeared first on Microsoft Security Blog .
 
-### Cluster a29e1d73af — score 10
-
-- Title: The devil is still in the email – but wears a new mask
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-09-28T09:00:00+00:00
-- Link: https://www.welivesecurity.com/en/business-security/devil-email-wearing-new-mask/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-When phishing can increasingly pass familiar checks, avoiding or limiting the damage depends on how quickly your company can detect and contain the attack
-```
-
-#### Full body
-
-```
-Business Security The devil is still in the email – but wears a new mask When phishing can increasingly pass familiar checks, avoiding or limiting the damage depends on how quickly your company can detect and contain the attack Tomáš Foltýn 28 Sep 2026 • , 6 min. read Many of today’s phishing attempts are no longer betrayed by poor grammar, a sketchy URL or a crude login page. To be sure, it does still pay to look out for these red flags, but their absence doesn’t make a message legitimate. Modern social engineering schemes are increasingly designed to withstand scrutiny and to provide reassurance where an attack might once have left some giveaways. By extension, email-borne threats in particular are now built to meet as little resistance as possible. They subvert legitimate workflows and reach employees mid-task, when their accounts are authenticated and any incoming requests for action feel like part of an ordinary working day. Some techniques go after live sessions themselves, with attackers shifting their focus from stealing passwords to stealing authentication tokens. With the cybercrime-as-a-service economy thriving, anyone with ill intent can buy a ready-made phishing kit that arrives complete with the machinery for capturing logins. Meanwhile, AI has slashed the amount of time and effort needed to research a large number of targets and strike the right tone for each of them. These shifts are developing faster than many companies can come to grips with them. What the training taught Bad grammar was the first tell to go. Purpose-built AI tools now make it trivial to clean up the language and even tailor the lure for each recipient. Instead of one-and-done attempts, some bad actors are also using AI to build rapport with their marks before eventually ‘going in for the kill.’ These days, polished or culturally nuanced writing says nothing about whether a message is genuine. The URL link has also become an ‘unknown quantity.’ When the destination URL is hidden inside a QR code, there’s nothing to hover over. What’s more, the code is scanned on a phone, so the usual controls that protect company-issued laptops don’t apply. The ‘device hop’ also means that the company may have a hard time developing a full picture of the attack. To put things into perspective – QR code phishing accounted for one in nine detected phishing emails in ESET’s telemetry in the first half of 2026 while Microsoft ranks QR codes as the fastest-growing email-based attack vector. Example of a phishing email detected by ESET products as QRCode/Phishing (source: ESET Threat Report H1 2026 ) How about the fake login page – the one that awareness training materials conveniently highlight in a red rectangle? ConsentFix, for one, dispenses with it entirely. The victim lands on a compromised but legitimate website, where a fake CAPTCHA-style prompt sends them through a real Microsoft sign-in flow before redirecting them to a URL containing an OAuth authorization code. They’re then instructed to paste that URL back into the compromised page, allowing the attacker to extract the code and exchange it for access and refresh tokens. Importantly, once the victim already has an active Microsoft session, no password or multi-factor authentication (MFA) prompt is triggered to foil the attack. On a related note, detections of ClickFix – a social engineering trick that dupes the victim into pasting a command into their own terminal – continue to soar . Its variant known as AI-fix has been spotted placing fake troubleshooting instructions on legitimate domains that belong to Anthropic, OpenAI and Microsoft. Meanwhile, a fake ad blocker known as CrashFix, points targets to the official Chrome Web Store, and even waits an hour after installation before displaying its first bogus alert, likely to sever the mental link between cause and effect. As neither seeing nor hearing is believing these days, a recognizable face or voice doesn’t always provide conclusive evidence of who
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: The devil is still in the email – but wears a new mask
-  - Published: 2026-09-28T09:00:00+00:00
-  - Link: https://www.welivesecurity.com/en/business-security/devil-email-wearing-new-mask/
-  - Summary: When phishing can increasingly pass familiar checks, avoiding or limiting the damage depends on how quickly your company can detect and contain the attack
-
-### Cluster c851c05fb6 — score 10
-
-- Title: Social Engineering in the Age of Synthetic Media
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-09-29T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/ai-social-engineering
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_products: Palo Alto Networks
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_products: Palo Alto Networks
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-How AI Changes Phishing, Impersonation, and Identity Verification
-```
-
-#### Full body
-
-```
-Social Engineering in the Age of Synthetic Media How AI Changes Phishing, Impersonation, and Identity Verification Most AI-enabled social engineering can still be addressed through existing defenses, but synthetic media attacks require organizations to adapt those defenses and stop treating a familiar face or voice as proof of identity. Many uses of AI in social engineering, including personalizing phishing messages, building fraudulent websites, and automating responses, make established techniques faster, cheaper, and easier to scale. Although organizations must adapt their defenses to address the volume and sophistication of these threats, current evidence indicates that established security controls, such as filtering, verification procedures, and repeated training, still reduce the success of these attacks. That said, synthetic media such as deepfakes and voice alteration present an exception. Synthetic media weakens the audiovisual and biometric signals that people and identity systems previously treated as evidence of legitimate identity. Research has found that both people and detection systems struggle to reliably identify deepfakes, especially those presented outside of controlled settings. As a result, defenses that rely on recognizing a familiar voice, face, or identity document are often insufficient on their own. This distinction matters. Treating all AI-enabled threats as equivalent risks gives organizations a false sense of security while leaving them vulnerable to attacks that existing controls fail to prevent. Malicious Models, Phishing-as-a-Service (PhaaS), and Illegitimate Uses for Legitimate AI Tools Social engineering refers to attempts to manipulate a person into sharing information, sending money, granting access, or acting against their own or their organization’s best interests. Threat actors have adopted legitimate and jailbroken large language models (LLMs) and generative AI (genAI) platforms to create, personalize, and scale social engineering campaigns more quickly and efficiently. Examples include employing genAI to write and personalize phishing messages, research targets, translate content, analyze stolen inboxes, and build fake websites or login pages. Threat actors have also used genAI to automate follow-up messages and support employment, customer service, and business email compromise scams. When attackers use this deception to obtain money, access, services, or another benefit, it becomes fraud. Much of this activity involves phishing, a form of social engineering that uses false messages, websites, or sign-in requests to prompt an unsafe action. Phishing often begins the fraud by prompting the target to send money, disclose information, or surrender an account. Figure 1 : Social engineering uses deception to obtain information, access, or money through tactics such as phishing, while deepfakes make impersonation harder to detect and increase the risk of fraud (Source: Recorded Future) Although many commercial LLMs have built-in safeguards to prevent weaponization for social engineering, the proliferation of malicious models such as WormGPT, EscapeGPT, FraudGPT, WolfGPT, DarkGPT, BlackhatGPT, KawaiiGPT, and WormGPT4 allows users to circumvent these controls ( 1 , 2 , 3 ). For example, WormGPT4, a malicious model identified in September 2025, generates phishing messages, harmful code, data theft tools, and ransom notes ( Figure 1 ). These services are offered using a consumer-friendly model with multiple pricing tiers, including a lifetime access plan. Similar services such as Nytheon, Xanthorox, GhostGPT, and SheByte follow the same approach, packaging existing tools without safety restrictions within subscription models. Figure 2 : WormGPT4 promises generative AI services without “censorship” or other ethical guardrails in place in other commercial LLMs (Source: Unit42 Palo Alto Networks ) In addition to these malicious models, threat actors have been observed using legitimate AI tools to
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Social Engineering in the Age of Synthetic Media
-  - Published: 2026-09-29T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/ai-social-engineering
-  - Summary: How AI Changes Phishing, Impersonation, and Identity Verification
-
 ### Cluster fb1a8533f5 — score 10
 
 - Title: The Fine Art of Frustrating the Adversary
@@ -2059,6 +2016,47 @@ The Fine Art of Frustrating the Adversary By Hazel Burton Thursday, October 1, 2
   - Link: https://blog.talosintelligence.com/the-fine-art-of-frustrating-the-adversary/
   - Summary: What really frustrates an adversary? Eight Cisco Talos researchers share practical ways to make their next move slower and riskier. From deception and behavioral detection to breaking attack dependencies and resisting manufactured urgency.
 
+### Cluster a29e1d73af — score 10
+
+- Title: The devil is still in the email – but wears a new mask
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-09-28T09:00:00+00:00
+- Link: https://www.welivesecurity.com/en/business-security/devil-email-wearing-new-mask/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+When phishing can increasingly pass familiar checks, avoiding or limiting the damage depends on how quickly your company can detect and contain the attack
+```
+
+#### Full body
+
+```
+Business Security The devil is still in the email – but wears a new mask When phishing can increasingly pass familiar checks, avoiding or limiting the damage depends on how quickly your company can detect and contain the attack Tomáš Foltýn 28 Sep 2026 • , 6 min. read Many of today’s phishing attempts are no longer betrayed by poor grammar, a sketchy URL or a crude login page. To be sure, it does still pay to look out for these red flags, but their absence doesn’t make a message legitimate. Modern social engineering schemes are increasingly designed to withstand scrutiny and to provide reassurance where an attack might once have left some giveaways. By extension, email-borne threats in particular are now built to meet as little resistance as possible. They subvert legitimate workflows and reach employees mid-task, when their accounts are authenticated and any incoming requests for action feel like part of an ordinary working day. Some techniques go after live sessions themselves, with attackers shifting their focus from stealing passwords to stealing authentication tokens. With the cybercrime-as-a-service economy thriving, anyone with ill intent can buy a ready-made phishing kit that arrives complete with the machinery for capturing logins. Meanwhile, AI has slashed the amount of time and effort needed to research a large number of targets and strike the right tone for each of them. These shifts are developing faster than many companies can come to grips with them. What the training taught Bad grammar was the first tell to go. Purpose-built AI tools now make it trivial to clean up the language and even tailor the lure for each recipient. Instead of one-and-done attempts, some bad actors are also using AI to build rapport with their marks before eventually ‘going in for the kill.’ These days, polished or culturally nuanced writing says nothing about whether a message is genuine. The URL link has also become an ‘unknown quantity.’ When the destination URL is hidden inside a QR code, there’s nothing to hover over. What’s more, the code is scanned on a phone, so the usual controls that protect company-issued laptops don’t apply. The ‘device hop’ also means that the company may have a hard time developing a full picture of the attack. To put things into perspective – QR code phishing accounted for one in nine detected phishing emails in ESET’s telemetry in the first half of 2026 while Microsoft ranks QR codes as the fastest-growing email-based attack vector. Example of a phishing email detected by ESET products as QRCode/Phishing (source: ESET Threat Report H1 2026 ) How about the fake login page – the one that awareness training materials conveniently highlight in a red rectangle? ConsentFix, for one, dispenses with it entirely. The victim lands on a compromised but legitimate website, where a fake CAPTCHA-style prompt sends them through a real Microsoft sign-in flow before redirecting them to a URL containing an OAuth authorization code. They’re then instructed to paste that URL back into the compromised page, allowing the attacker to extract the code and exchange it for access and refresh tokens. Importantly, once the victim already has an active Microsoft session, no password or multi-factor authentication (MFA) prompt is triggered to foil the attack. On a related note, detections of ClickFix – a social engineering trick that dupes the victim into pasting a command into their own terminal – continue to soar . Its variant known as AI-fix has been spotted placing fake troubleshooting instructions on legitimate domains that belong to Anthropic, OpenAI and Microsoft. Meanwhile, a fake ad blocker known as CrashFix, points targets to the official Chrome Web Store, and even waits an hour after installation before displaying its first bogus alert, likely to sever the mental link between cause and effect. As neither seeing nor hearing is believing these days, a recognizable face or voice doesn’t always provide conclusive evidence of who
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: The devil is still in the email – but wears a new mask
+  - Published: 2026-09-28T09:00:00+00:00
+  - Link: https://www.welivesecurity.com/en/business-security/devil-email-wearing-new-mask/
+  - Summary: When phishing can increasingly pass familiar checks, avoiding or limiting the damage depends on how quickly your company can detect and contain the attack
+
 ### Cluster 10655cf618 — score 10
 
 - Title: What Security Metrics Actually Matter?
@@ -2097,6 +2095,49 @@ What Security Metrics Actually Matter? Stephen Gates October 1, 2026 Blogs Measu
   - Published: 2026-10-01T16:17:43+00:00
   - Link: https://horizon3.ai/intelligence/blogs/ctem-security-metrics-that-matter/
   - Summary: Security activity doesn’t always equal risk reduction. Learn how attack paths, business impact, verification, remediation speed, and recurrence can show whether CTEM is actually working.
+
+### Cluster c851c05fb6 — score 10
+
+- Title: Social Engineering in the Age of Synthetic Media
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-09-29T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/ai-social-engineering
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_products: Palo Alto Networks
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_products: Palo Alto Networks
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+How AI Changes Phishing, Impersonation, and Identity Verification
+```
+
+#### Full body
+
+```
+Social Engineering in the Age of Synthetic Media How AI Changes Phishing, Impersonation, and Identity Verification Most AI-enabled social engineering can still be addressed through existing defenses, but synthetic media attacks require organizations to adapt those defenses and stop treating a familiar face or voice as proof of identity. Many uses of AI in social engineering, including personalizing phishing messages, building fraudulent websites, and automating responses, make established techniques faster, cheaper, and easier to scale. Although organizations must adapt their defenses to address the volume and sophistication of these threats, current evidence indicates that established security controls, such as filtering, verification procedures, and repeated training, still reduce the success of these attacks. That said, synthetic media such as deepfakes and voice alteration present an exception. Synthetic media weakens the audiovisual and biometric signals that people and identity systems previously treated as evidence of legitimate identity. Research has found that both people and detection systems struggle to reliably identify deepfakes, especially those presented outside of controlled settings. As a result, defenses that rely on recognizing a familiar voice, face, or identity document are often insufficient on their own. This distinction matters. Treating all AI-enabled threats as equivalent risks gives organizations a false sense of security while leaving them vulnerable to attacks that existing controls fail to prevent. Malicious Models, Phishing-as-a-Service (PhaaS), and Illegitimate Uses for Legitimate AI Tools Social engineering refers to attempts to manipulate a person into sharing information, sending money, granting access, or acting against their own or their organization’s best interests. Threat actors have adopted legitimate and jailbroken large language models (LLMs) and generative AI (genAI) platforms to create, personalize, and scale social engineering campaigns more quickly and efficiently. Examples include employing genAI to write and personalize phishing messages, research targets, translate content, analyze stolen inboxes, and build fake websites or login pages. Threat actors have also used genAI to automate follow-up messages and support employment, customer service, and business email compromise scams. When attackers use this deception to obtain money, access, services, or another benefit, it becomes fraud. Much of this activity involves phishing, a form of social engineering that uses false messages, websites, or sign-in requests to prompt an unsafe action. Phishing often begins the fraud by prompting the target to send money, disclose information, or surrender an account. Figure 1 : Social engineering uses deception to obtain information, access, or money through tactics such as phishing, while deepfakes make impersonation harder to detect and increase the risk of fraud (Source: Recorded Future) Although many commercial LLMs have built-in safeguards to prevent weaponization for social engineering, the proliferation of malicious models such as WormGPT, EscapeGPT, FraudGPT, WolfGPT, DarkGPT, BlackhatGPT, KawaiiGPT, and WormGPT4 allows users to circumvent these controls ( 1 , 2 , 3 ). For example, WormGPT4, a malicious model identified in September 2025, generates phishing messages, harmful code, data theft tools, and ransom notes ( Figure 1 ). These services are offered using a consumer-friendly model with multiple pricing tiers, including a lifetime access plan. Similar services such as Nytheon, Xanthorox, GhostGPT, and SheByte follow the same approach, packaging existing tools without safety restrictions within subscription models. Figure 2 : WormGPT4 promises generative AI services without “censorship” or other ethical guardrails in place in other commercial LLMs (Source: Unit42 Palo Alto Networks ) In addition to these malicious models, threat actors have been observed using legitimate AI tools to
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Social Engineering in the Age of Synthetic Media
+  - Published: 2026-09-29T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/ai-social-engineering
+  - Summary: How AI Changes Phishing, Impersonation, and Identity Verification
 
 ### Cluster d98d1967f2 — score 10
 
@@ -2407,6 +2448,61 @@ Industry News October 1, 2026 Share DeepKeep’s AI Lens flags coding agent data
   - Link: https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/
   - Summary: We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them. — Anthropic Frontier Red Team , GLM-5.3 and the spread of advanced cyber capabilities Tags: anthropic , generative-ai , ai-security-research , glm , ai , ai-in-china , llms
 
+### Cluster 8af8fa458d — score 10
+
+- Title: JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-09-28T09:08:21+00:00
+- Link: https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 3
+- Strong signals: Azure
+
+#### Cluster taxonomy (union across members)
+- threat_categories: cloud_abuse, ransomware_extortion
+- affected_products: Azure
+- cve_ids: CVE-2025-3248
+- content_type: incident_report, news_report
+- confidence_tier: tier_4_news, tier_5_chatter
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- affected_products: Azure
+- cve_ids: CVE-2025-3248
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals. Microsoft, which is tracking the activity under the name Storm-3168, has called it an evolution of the threat actor's tradecraft. The attack took place in early June 2026 over a period of about 18 hours. "The destructive operations
+```
+
+#### Full body
+
+```
+JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources  Ravie Lakshmanan  Sep 28, 2026 Cloud Security / Identity Security The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals. Microsoft, which is tracking the activity under the name Storm-3168 , has called it an evolution of the threat actor's tradecraft. The attack took place in early June 2026 over a period of about 18 hours. "The destructive operations were facilitated by compromising service principals and targeted Azure Storage Accounts, SQL databases, Key Vaults, Function Apps, recovery protection locks, Virtual Machines, and App Services," researchers Yossi Weizman and Tushar Mudi, along with the Microsoft Security Research team, said . JADEPUFFER was first documented by Sysdig, describing it as the first-ever ransomware operation run end-to-end with the help of a large language model (LLM). The agentic attack exploited a known security flaw in Langflow (CVE-2025-3248) to break in, harvested credentials, burrowed deeper into the network, encrypted Nacos service configuration files, dropped the original database tables, and left a ransom note demanding a Bitcoin payment. While the attack was found to have leveraged MySQL's built-in AES_ENCRYPT() function to perform the encryption step, the same Langflow instance was subsequently targeted by the threat actor a second time using a compiled Go-based ransomware strain codenamed ENCFORGE . ENCFORGE is specifically built for the artificial intelligence (AI) infrastructure, scanning for nearly 180 file extensions spanning model checkpoints, vector databases, training datasets, and embedding indices, along with macOS-centric files like Keychain stores, Xcode project files, and Apple Pages and Numbers documents. "An autonomous agent reasoned about its targets, harvested and reused credentials, moved laterally, established persistence, and destroyed a database, narrating its own intent the entire way," Sysdig noted at the time. "None of the individual techniques were novel or sophisticated. What is notable, however, is that an AI model strung them together into a complete ransomware operation against neglected internet-facing infrastructure." Microsoft, in its analysis, said it observed two compromised service principals linked to the same tenant, with one used for reconnaissance and resource discovery and the second for destructive operations and credential collection. The enumeration activity targeted Azure Virtual Machines, subscriptions, resource groups, and resources for close to 16 hours, carrying out over 300 read operations during the time period. The second compromised service principal also engaged in some discovery operation of its own 90 minutes later, enumerating virtual machines and resource groups across two subscriptions within five seconds. After 16 hours, the second service principal also successfully enumerated Azure App Service configuration stores, likely in an attempt to look for exposed credentials. Soon after, the service principal is said to have conducted more than 150 destructive or credential collection-related operations in 35 minutes. In all, the destructive sequence lasted for about seven minutes and involved over 100 storage account deletion attempts. Also targeted were an Azure Key Vault, Function App, and App Service plan, as well as multiple Azure SQL databases. However, each of the database deletion attempts ended up in failure due to the use of an unsupported API version for the Azure SQL database resource type. "Most Azure Storage accounts targeted by the threat actor were successfully deleted," Microsoft said. "However, Azure resource locks and storage account-level deletion protection blocked deletion attempts for few of the storage accounts, demonstrating the value of independent safeguards that remain effective even when a compromised identity h
+```
+
+#### Corroborating sources (3)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources
+  - Published: 2026-09-28T09:08:21+00:00
+  - Link: https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html
+  - Summary: The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals. Microsoft, which is tracking the activity under the name Storm-3168, has called it an evolution of the threat actor's tradecraft. The attack took place in early June 2026 over a period of about 18 hours. "The destructive operations
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: JadePuffer AI Actor Compromises Azure Tenant in Destructive Cloud Attack
+  - Published: 2026-09-28T15:33:21+00:00
+  - Link: https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack
+  - Summary: The "agentic threat actor" may have used exposed credentials to access resources and delete cloud-based storage, applications, and databases.
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: Azure's Weakest Link - Five Full Cross-Tenant Compromises
+  - Published: 2026-10-02T12:15:55+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1wvs9ea/azures_weakest_link_five_full_crosstenant/
+  - Summary: API Connections allow anyone to fully compromise any other connection worldwide, giving full access to the connected backend. submitted by /u/piraterapper [link] [comments]
+
 ### Cluster e981db64b2 — score 9
 
 - Title: ScreenConnect Client (Ab)used by Attackers, (Thu, Oct 1st)
@@ -2475,7 +2571,46 @@ Wireshark release 4.6.9 fixes 19 vulnerabilities and 16 bugs.
   - Link: https://isc.sans.edu/diary/rss/33372
   - Summary: Wireshark release 4.6.9 fixes 19 vulnerabilities and 16 bugs.
 
-### Cluster 9426a5a9e7 — score 9
+### Cluster aee89b0f66 — score 8
+
+- Title: TerminalFix and Lorem Ipsum Loader enable covert tunneling
+- Source: Sophos X-Ops (detection_response_operations)
+- Published: 2026-09-30T00:00:00+00:00
+- Link: https://www.sophos.com/en-us/blog/terminalfix-and-lorem-ipsum-loader-enable-covert-tunneling
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+The activity is linked to a broader campaign that previously used a different delivery mechanism Categories: Threat Research Tags: TerminalFix, clickfix, Lorem Ipsum Loader
+```
+
+#### Full body
+
+```
+TerminalFix and Lorem Ipsum Loader enable covert tunneling The activity is linked to a broader campaign that previously used a different delivery mechanism Written by Jordon Olness , Morgan Demboski Threat Research TerminalFix clickfix Lorem Ipsum Loader Share This Link Copied In August 2026, Sophos analysts began investigating a series of Managed Detection and Response (MDR) cases that involved ClickFix-style lures and resulted in the deployment of a Python-based tunneling implant. Instead of a typical ClickFix lure that instructs victims to open the Run dialog box, these lures direct users to open a Windows Terminal window. This ClickFix variation is known as ‘TerminalFix’. TerminalFix is not linked to a specific threat group or a single campaign. In 2026, Sophos analysts have observed several malicious campaigns that incorporated these lures (see Figure 1) and resulted in multiple infection chains. Figure 1: TerminalFix lures While investigating this activity, Sophos analysts identified the deployment of Lorem Ipsum Loader, a shellcode-based loader first observed by BlueVoyant in February 2026. The presence of this malware, combined with the command and control (C2) infrastructure, persistence techniques, and DLL sideloading activity, enabled Sophos analysts to link the TerminalFix intrusions to a broader campaign that has been active since at least March. Sophos analysts track this campaign as STAC4924. STAC4924 infection chain By following the instructions in the TerminalFix lure, victims execute a PowerShell command that downloads a ZIP archive containing a legitimate Windows executable, a malicious DLL, and a batch script (see Figure 2). Figure 2: Contents of the downloaded ZIP archive The command then executes the batch script, which installs several persistence mechanisms and launches the legitimate LockScreenContentServer.exe binary. The executable loads the malicious dui70.dll file via DLL sideloading. This DLL contains and executes Lorem Ipsum Loader. This loader attempts to evade entropy-based detections by storing shellcode bytes as English words rather than raw binary data. A separate lookup table provides a mapping between those words and the hexadecimal byte values they represent. Once executed, Lorem Ipsum Loader issues an HTTP request to an attacker-controlled profile hosted on the legitimate Letsdiskuss platform. The loader extracts an encoded string embedded within the profile and decodes it to retrieve the current set of C2 servers. The loader then communicates with the C2 servers using HTTP POST requests that appear to contain JPEG image files (see Figure 3). However, the image files contain encoded data that the malware extracts and decodes to facilitate C2 communications.; Figure 3: Sample image passed between the malware and C2 server The malware then executes a series of PowerShell commands to conduct reconnaissance, gather information, and establish persistence. It deploys a portable Python runtime to the Users\Public\indigo directory by downloading the legitimate Python embedded package from python.org and extracting it alongside malicious files. The runtime is then used to execute client.py, a custom tunneling implant that establishes an encrypted WebSocket connection to attacker-controlled servers and assigns a unique UUID to identify the compromised host. The resulting tunnel enables the threat actors to relay traffic through the compromised host and access network resources while blending in with legitimate web traffic. Two phases, two delivery mechanisms Analysis of the STAC4924 campaign revealed two distinct phases of activity that employ different delivery mechanisms but share many technical characteristics. The first phase, observed in March and April, relied on SEO-poisoned websites distributing trojanized Microsoft Teams MSI installers. These installers deployed a multi-stage PowerShell loader that communicated with victim-specific C2 infrastructure and leveraged attacker-controlled profi
+```
+
+#### Corroborating sources (1)
+
+- **Sophos X-Ops** (detection_response_operations)
+  - Title: TerminalFix and Lorem Ipsum Loader enable covert tunneling
+  - Published: 2026-09-30T00:00:00+00:00
+  - Link: https://www.sophos.com/en-us/blog/terminalfix-and-lorem-ipsum-loader-enable-covert-tunneling
+  - Summary: The activity is linked to a broader campaign that previously used a different delivery mechanism Categories: Threat Research Tags: TerminalFix, clickfix, Lorem Ipsum Loader
+
+### Cluster 9426a5a9e7 — score 8
 
 - Title: The First 24 Hours: What Happens When Ransomware Lands
 - Source: Huntress (detection_response_operations)
@@ -2519,184 +2654,6 @@ Home Blog The First 24 Hours: What Actually Happens When Ransomware Lands Publis
   - Published: 2026-10-02T16:00:00+00:00
   - Link: https://www.huntress.com/blog/what-happens-during-a-ransomware-attack
   - Summary: Nazar Tymoshyk from UnderDefense shares his thoughts on what ransomware attacks look like during the all-important opening hours.
-
-### Cluster ef461b8ae5 — score 9
-
-- Title: Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-10-02T16:56:30+00:00
-- Link: https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, zero_day
-- affected_industries: financial_services, government
-- affected_products: Citrix
-- cve_ids: CVE-2026-88771, CVE-2026-88772, CVE-2026-88778
-- urgency_signals: actively_exploited, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, active_exploitation
-- affected_industries: financial_services, government
-- affected_products: Citrix
-- cve_ids: CVE-2026-88771, CVE-2026-88778, CVE-2026-88772
-- urgency_signals: actively_exploited, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-One company told customers to power down its data-protection platform during a nine-hour window, while the other remained mum on reported attacks prior to releasing a patch for its product.
-```
-
-#### Full body
-
-```
-Cybersecurity Operations Application Security Cyber Risk Vulnerabilities & Threats News Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response One company told customers to power down its data-protection platform during a nine-hour window, while the other remained mum on reported attacks prior to releasing a patch for its product. Robert Lemos , Contributing Writer October 2, 2026 5 Min Read Source: Robert Lemos On Sept. 24, threat detection firm GreyNoise Intelligence observed a single US-based IP address scanning for Citrix NetScaler installations and conducting remote code execution (RCE) attacks. The company issued alerts to customers about the malicious activity. Over the next two days, reports of potential zero-day attacks on NetScaler installations emerged on social media, and cybersecurity professionals debated whether the rumored attacks were true — some argued the activity targeted vulnerabilities already patched in August. On Sept. 26, however, Benjamin Harris, founder and CEO of exposure-management firm watchTowr, urged NetScaler users to take their systems offline. "Monday will be too late," he stated in a LinkedIn post . By Sunday, Citrix seemingly agreed, posting an update that patched eight vulnerabilities (CVE-2026-88771 through CVE-2026-88778), including two zero-days that had been exploited in the wild. The blog post did not recommend taking servers offline until they were patched, instead urging customers to "upgrad[e to] the versions containing the fix immediately." However, the two zero-days — CVE-2026-88771 and CVE-2026-88772 — came under widespread exploitation . Related: RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail One Weekend, Two Disclosure Strategies The same weekend, data protection provider Kiteworks took a different road. On Sept. 25, the company issued a recommendation to customers, urging them to proactively take their systems offline based on intelligence about an imminent attack. With its engineering team and external national intelligence experts working together on identifying the security issue, the company warned that a zero-day attack could be coming. On Monday, Kiteworks published an advisory identifying the vulnerability with an update to patch it. In the end, the company determined the vulnerability would have affected only 1% of its customers, Kiteworks said in its statement . "Telling customers to take production systems offline is not a decision any vendor makes lightly, and we knew exactly what we were asking of them," Frank Balonis, the firm's CISO, said in the statement. "We made it anyway, because when the choice is between certainty and convenience, customer data is not something we are willing to gamble with. That decision is what made the rest possible. We would make the same call again tomorrow to protect our customers' data." Kiteworks exposed IP addresses affect countries worldwide but are concentrated in the United States and Europe. Source: Shadowserver.org The two approaches underscore the hazards for vendors that take aggressive defensive measures. Citrix's response has come under fire from many in the cybersecurity community as being too little, too late. Why didn't the company share intelligence sooner about the apparent zero-day attacks? Related: SWIFT Banking & Government Middleware Enables RCE On the other hand, Kiteworks' rare recommendation to shut down appliances could be considered overkill — especially since only 1% of customers were vulnerable — or an appropriately gauged response to a potentially significant attack targeting their customers, many of whom are government agencies or in regulated industries. The decision to call for customers to shut down their systems was "wild," according to John Strand, owner of Black Hills Information Security, a cybersecurity-training and penetration-testing firm. "This isn't an active attack — people aren't actively being breached — and yet the vendor is telling customers to
-```
-
-#### Corroborating sources (1)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response
-  - Published: 2026-10-02T16:56:30+00:00
-  - Link: https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response
-  - Summary: One company told customers to power down its data-protection platform during a nine-hour window, while the other remained mum on reported attacks prior to releasing a patch for its product.
-
-### Cluster 65dcaf716c — score 9
-
-- Title: Vulnerability Backlogs Are an Ownership Problem
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-10-02T14:00:00+00:00
-- Link: https://www.darkreading.com/cybersecurity-operations/vulnerability-backlogs-ownership-problem
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- affected_industries: government
-- urgency_signals: zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- affected_industries: government
-- urgency_signals: zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Organizations don't need better vulnerability scanners; they need to know who owns their assets and has the authority and capacity to actually fix them.
-```
-
-#### Full body
-
-```
-Cybersecurity Operations Vulnerabilities & Threats Cyber Risk Commentary Vulnerability Backlogs Are an Ownership Problem Organizations don't need better vulnerability scanners; they need to know who owns their assets and has the authority and capacity to actually fix them. Nishant Sharma , Cybersecurity Leader October 2, 2026 4 Min Read Source: igoriss via Getty Images OPINION Most enterprises drowning in vulnerabilities don't have a detection problem. They have an accountability problem wearing a detection problem's clothing. You can see it in how they spend. When a backlog gets big enough to reach the board, the reflex is to buy better scanning — wider coverage, faster cycles, richer threat intel, a single pane of glass. A year later, the organization has excellent visibility into a backlog that has grown. That's a misdiagnosis, not a tooling failure. Scanning capacity and remediation capacity are independent variables, and only one of them scales with a purchase order. Point a modern scanner at an underinstrumented estate, and findings appear at a rate limited only by asset count and check depth. Remediation capacity is limited by engineering hours, change windows, application compatibility, vendor patch availability, and how much downtime the business will tolerate. None of that moves when you upgrade a license. Related: RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail I watched authenticated scanning across a server estate triple our finding count in one quarter. Nothing had gotten less secure. We had just stopped being able to pretend we didn't know. Which produces a perverse incentive: If your program is measured on open findings, expanding coverage makes you look worse. Teams graded that way learn not to look. What a Backlog Actually Measures A backlog is a measure of unresolved ownership, not a measure of technical debt. Think about what has to be true for one finding to close. Someone knows the asset exists. Someone is accountable for it. That person can change it. That person has time to change it. And that person has a reason to do it before their other work. Scanning gets you the first one. The other four are governance. That's why two companies with identical tools, identical estates, and identical finding volumes can differ tenfold in how fast they fix things. Here are possible different situations: No owner. The asset isn't mapped to anyone. This is the most common failure and the worst, because a finding with no owner can't be escalated — there's nobody to escalate to. The unowned tail of your estate is also usually the oldest and most exposed part of it. Owner without authority. A team is accountable but can't act. The vendor controls the patch. Another team owns the platform. The application is contractually frozen. You get a queue that visibly misses a service-level agreement (SLA) while the assignee correctly points out they couldn't have done anything. Owner without capacity. Accountability and authority both exist, but remediation competes with feature delivery in the same backlog, refereed by a product owner whose bonus doesn't mention security. Invisible in tooling — the tickets look assigned and in progress. Owner without consequence. Everything's in place and nothing happens, because missing a remediation SLA costs nobody anything. If your security reporting goes to the security team instead of the owner's boss, this is your default state. Related: Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response Escalating harder fixes exactly one of these. Address Asset Ownership First The highest-leverage move in an enterprise vulnerability program isn't a scanning upgrade. It's accurate, maintained asset-to-owner mapping. It's unglamorous work — reconciling the configuration management database (CMDB) against what scanners actually find, chasing the gaps, forcing a named owner onto every asset, including the ones nobody wants. It looks more like audit than security e
-```
-
-#### Corroborating sources (1)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Vulnerability Backlogs Are an Ownership Problem
-  - Published: 2026-10-02T14:00:00+00:00
-  - Link: https://www.darkreading.com/cybersecurity-operations/vulnerability-backlogs-ownership-problem
-  - Summary: Organizations don't need better vulnerability scanners; they need to know who owns their assets and has the authority and capacity to actually fix them.
-
-### Cluster 542c77fc0d — score 9
-
-- Title: Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-10-02T17:02:12+00:00
-- Link: https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-63688
-
-#### Cluster taxonomy (union across members)
-- affected_products: Kubernetes
-- cve_ids: CVE-2026-54472, CVE-2026-61421, CVE-2026-63688, CVE-2026-63692, CVE-2026-67269
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- affected_products: Kubernetes
-- cve_ids: CVE-2026-63688, CVE-2026-63692, CVE-2026-67269, CVE-2026-54472, CVE-2026-61421
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are listed below - CVE-2026-63688 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the csm-authorization-storage gRPC server that an
-```
-
-#### Full body
-
-```
-Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes  Ravie Lakshmanan  Oct 02, 2026 Vulnerability / Cloud Security Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are listed below - CVE-2026-63688 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the csm-authorization-storage gRPC server that an unauthenticated remote attacker could exploit to obtain unauthorized access to storage backend administrator credentials for all registered storage arrays. CVE-2026-63692 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the authorization proxy and tenant service that an unauthenticated network attacker could exploit to bypass authentication controls and gain administrative-level privileges. CVE-2026-67269 (CVSS score: 9.9) - An improper privilege management vulnerability in the ContainerStorageModule Custom Resource reconciler that a low-privilege remote attacker could exploit to escalate privileges and gain root-level access on cluster nodes. CVE-2026-54472 (CVSS score: 9.8) - A use of hard-coded credentials vulnerability in the CSM Authorization module that a remote unauthenticated attacker could exploit to forge cryptographically valid administrative tokens and gain unauthorized administrative access to the CSM Authorization proxy. CVE-2026-61421 (CVSS score: 9.8) - A use of hard-coded cryptographic key vulnerability in the JWT authentication component of karavi-authorization that a remote unauthenticated attacker with knowledge of this publicly available signing secret could exploit to forge authentication tokens and gain administrative privileges. CVE-2026-67273 (CVSS score: 9.6) - An improper neutralization of special elements used in a template engine vulnerability that a low-privilege attacker with remote access could exploit to escalate privileges, access sensitive information, and carry out unauthorized RBAC tampering. "This vulnerability is considered critical as it enables a complete bypass of the csm-authorization security model, allowing an attacker to gain full administrative control over the storage infrastructure spanning all five supported Dell storage product families," Dell said about CVE-2026-63688. As for CVE-2026-63692, Dell noted that successful exploitation could enable an unauthenticated attacker to gain complete administrative control over the authorization service, and allow them to access or manipulate storage resources across all tenants. The PC maker also noted that an attacker can exploit CVE-2026-67269 to compromise all nodes in a Kubernetes cluster through a single custom resource submission. CVE-2026-54472, on the other hand, can be weaponized to sidestep authentication controls for the CSM Authorization proxy and enable unauthorized management of storage access policies across all connected tenants. Dell is recommending that customers apply the updates and rotate any JWT signing secrets. "Successful exploitation grants the attacker cluster-wide read access to Kubernetes Secrets and the ability to create cluster-scoped RBAC resources, effectively bypassing the intended Kubernetes access controls," Dell said in its advisory for CVE-2026-67273. The flaws, which affect all versions of CSM prior to 1.17.0, have been addressed in 1.18.0. There are no workarounds or mitigations other than updating to the latest version. With vulnerabilities in Dell products ( CVE-2021-21551 and CVE-2026-22769 ) having come under active exploitation in recent years, it's essential to apply the necessary fixes for optimal protection. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Cloud security , Container Security , Dell , Kubernetes , Vulne
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes
-  - Published: 2026-10-02T17:02:12+00:00
-  - Link: https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html
-  - Summary: Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are listed below - CVE-2026-63688 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the csm-authorization-storage gRPC server that an
-
-### Cluster aee89b0f66 — score 8
-
-- Title: TerminalFix and Lorem Ipsum Loader enable covert tunneling
-- Source: Sophos X-Ops (detection_response_operations)
-- Published: 2026-09-30T00:00:00+00:00
-- Link: https://www.sophos.com/en-us/blog/terminalfix-and-lorem-ipsum-loader-enable-covert-tunneling
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-The activity is linked to a broader campaign that previously used a different delivery mechanism Categories: Threat Research Tags: TerminalFix, clickfix, Lorem Ipsum Loader
-```
-
-#### Full body
-
-```
-TerminalFix and Lorem Ipsum Loader enable covert tunneling The activity is linked to a broader campaign that previously used a different delivery mechanism Written by Jordon Olness , Morgan Demboski Threat Research TerminalFix clickfix Lorem Ipsum Loader Share This Link Copied In August 2026, Sophos analysts began investigating a series of Managed Detection and Response (MDR) cases that involved ClickFix-style lures and resulted in the deployment of a Python-based tunneling implant. Instead of a typical ClickFix lure that instructs victims to open the Run dialog box, these lures direct users to open a Windows Terminal window. This ClickFix variation is known as ‘TerminalFix’. TerminalFix is not linked to a specific threat group or a single campaign. In 2026, Sophos analysts have observed several malicious campaigns that incorporated these lures (see Figure 1) and resulted in multiple infection chains. Figure 1: TerminalFix lures While investigating this activity, Sophos analysts identified the deployment of Lorem Ipsum Loader, a shellcode-based loader first observed by BlueVoyant in February 2026. The presence of this malware, combined with the command and control (C2) infrastructure, persistence techniques, and DLL sideloading activity, enabled Sophos analysts to link the TerminalFix intrusions to a broader campaign that has been active since at least March. Sophos analysts track this campaign as STAC4924. STAC4924 infection chain By following the instructions in the TerminalFix lure, victims execute a PowerShell command that downloads a ZIP archive containing a legitimate Windows executable, a malicious DLL, and a batch script (see Figure 2). Figure 2: Contents of the downloaded ZIP archive The command then executes the batch script, which installs several persistence mechanisms and launches the legitimate LockScreenContentServer.exe binary. The executable loads the malicious dui70.dll file via DLL sideloading. This DLL contains and executes Lorem Ipsum Loader. This loader attempts to evade entropy-based detections by storing shellcode bytes as English words rather than raw binary data. A separate lookup table provides a mapping between those words and the hexadecimal byte values they represent. Once executed, Lorem Ipsum Loader issues an HTTP request to an attacker-controlled profile hosted on the legitimate Letsdiskuss platform. The loader extracts an encoded string embedded within the profile and decodes it to retrieve the current set of C2 servers. The loader then communicates with the C2 servers using HTTP POST requests that appear to contain JPEG image files (see Figure 3). However, the image files contain encoded data that the malware extracts and decodes to facilitate C2 communications.; Figure 3: Sample image passed between the malware and C2 server The malware then executes a series of PowerShell commands to conduct reconnaissance, gather information, and establish persistence. It deploys a portable Python runtime to the Users\Public\indigo directory by downloading the legitimate Python embedded package from python.org and extracting it alongside malicious files. The runtime is then used to execute client.py, a custom tunneling implant that establishes an encrypted WebSocket connection to attacker-controlled servers and assigns a unique UUID to identify the compromised host. The resulting tunnel enables the threat actors to relay traffic through the compromised host and access network resources while blending in with legitimate web traffic. Two phases, two delivery mechanisms Analysis of the STAC4924 campaign revealed two distinct phases of activity that employ different delivery mechanisms but share many technical characteristics. The first phase, observed in March and April, relied on SEO-poisoned websites distributing trojanized Microsoft Teams MSI installers. These installers deployed a multi-stage PowerShell loader that communicated with victim-specific C2 infrastructure and leveraged attacker-controlled profi
-```
-
-#### Corroborating sources (1)
-
-- **Sophos X-Ops** (detection_response_operations)
-  - Title: TerminalFix and Lorem Ipsum Loader enable covert tunneling
-  - Published: 2026-09-30T00:00:00+00:00
-  - Link: https://www.sophos.com/en-us/blog/terminalfix-and-lorem-ipsum-loader-enable-covert-tunneling
-  - Summary: The activity is linked to a broader campaign that previously used a different delivery mechanism Categories: Threat Research Tags: TerminalFix, clickfix, Lorem Ipsum Loader
 
 ### Cluster 5b0efacecb — score 8
 
@@ -3076,55 +3033,61 @@ Advertisement Get our latest cybersecurity news first on Google. Click here! Clo
   - Link: https://cyberscoop.com/killsec-ransomware-group-arrests-operation-killswitch/
   - Summary: The teenager-run cybercrime group victimized roughly 500 organizations in less than two years. The post Authorities seize KillSec extortion group infrastructure, arrest 3 alleged members appeared first on CyberScoop .
 
-### Cluster ab440398cd — score 8
+### Cluster ef461b8ae5 — score 8
 
-- Title: What’s new with Google Cloud
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-10-02T16:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
+- Title: Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-10-02T16:56:30+00:00
+- Link: https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: Google Cloud
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_industries: government, healthcare
-- affected_products: Google Cloud
+- threat_categories: active_exploitation, zero_day
+- affected_industries: financial_services, government
+- affected_products: Citrix
+- cve_ids: CVE-2026-88771, CVE-2026-88772, CVE-2026-88778
+- urgency_signals: actively_exploited, zero_day
 - content_type: news_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- affected_industries: healthcare, government
-- affected_products: Google Cloud
+- threat_categories: zero_day, active_exploitation
+- affected_industries: financial_services, government
+- affected_products: Citrix
+- cve_ids: CVE-2026-88771, CVE-2026-88778, CVE-2026-88772
+- urgency_signals: actively_exploited, zero_day
 - content_type: news_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Sept 28 - Oct 2 Mastering Storage Management with Storage Intelligence In our new blog, explore practical strategies to modernize storage operations using Storage Intelligence Advisor and enhanced Batch Operations. See how customers like Shipt and Palo Alto Networks are using these features to manage their estates at scale. Today, Storage Intelligence is used by 25 of the top 50 GCS customers. 2 in 3 customers have Storage Intelligence enabled for over 90% of their storage footprint. Explore best practices on our blog Cut Gen AI costs by 70% with Apigee X dynamic routing Generative AI deployments face a harsh cost-
+One company told customers to power down its data-protection platform during a nine-hour window, while the other remained mum on reported attacks prior to releasing a patch for its product.
 ```
 
 #### Full body
 
 ```
-Inside Google Cloud What’s new with Google Cloud October 2, 2026 Google Cloud Content & Editorial Try Gemini Enterprise today The front door to AI in the workplace Try now Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . Sept 28 - Oct 2 Mastering Storage Management with Storage Intelligence In our new blog, explore practical strategies to modernize storage operations using Storage Intelligence Advisor and enhanced Batch Operations. See how customers like Shipt and Palo Alto Networks are using these features to manage their estates at scale. Today, Storage Intelligence is used by 25 of the top 50 GCS customers. 2 in 3 customers have Storage Intelligence enabled for over 90% of their storage footprint. Explore best practices on our blog Cut Gen AI costs by 70% with Apigee X dynamic routing Generative AI deployments face a harsh cost-performance trade-off: static model selection either wastes budget or compromises quality. Discover how to build an Intelligent AI Gateway using Apigee X to dynamically evaluate prompt complexity in real-time. This new blueprint automatically routes simple queries to lightweight models (like Gemini 3.5 Flash Lite) and complex reasoning tasks to advanced models (like Gemini 3.7 Flash), achieving over 70% cost savings without sacrificing output quality. Read the guide to optimize your Gen AI architecture AI Agent Clinic launches new hands-on session on production agent evaluations A new episode of the AI Agent Clinic is now available showing organizations how to move past manual "vibe checks" to build robust, production-grade agent evaluations. In this hands-on session, Google Cloud engineer Dani Zamora and Matthew Feroz (Merge) take DocsHound, an open-source LangGraph agent, and build an end-to-end eval pipeline in under an hour. Learn how to standardize multi-turn traces across any framework using OpenTelemetry and OpenInference, pair LLM judges with deterministic checkers, and catch silent quality regressions before shipping. Watch here Drive AI impact: Join Google's Agentic Data Cloud event on Nov 4 Every enterprise plans to adopt agentic AI within two years, but data bottlenecks hold them back—AI accesses just 45% of enterprise data today ( MIT, 2026 ). Google's Agentic Data Cloud provides the trustworthy foundation and real-time context AI needs. Join our product leaders November 4th to explore the latest innovations across databases, analytics, business intelligence, and storage, and get direct answers in our executive Q&A with Google Data Cloud VP & GM Andi Gutmans. Register today! Sept 21 - Sept 25 Master MCP tool authorization and agent governance with Apigee While the Model Context Protocol (MCP) solves interoperability for autonomous AI agents, chained actions like CRM edits or database queries quickly expose systems to unauthorized execution. Join our technical deep dive on Thursday, October 1, 2026, at 5:00 PM CEST featuring Christophe from Google Cloud. Learn how positioning Apigee between MCP clients and enterprise backends enables fine-grained authorization (FGA), complete audit trails, and policy evaluation via emerging standards like OpenID AuthZEN. Language and accessibility note: This session will be hosted in French, but non-French speakers can follow along seamlessly by turning on Google Meet live translated captions to read in English, Spanish, German, Portuguese, or Italian. Register for the October 1 Community TechTalk Apigee Trace Viewer Tutorial: Capturing & Analyzing Proxy Traces Streamlining API proxy debugging just got easier with a new tutorial by Apigee Customer Engineer Tyler Ayers. The guide covers end-to-end instructions for capturing debug traces in both Google Cloud Api
+Cybersecurity Operations Application Security Cyber Risk Vulnerabilities & Threats News Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response One company told customers to power down its data-protection platform during a nine-hour window, while the other remained mum on reported attacks prior to releasing a patch for its product. Robert Lemos , Contributing Writer October 2, 2026 5 Min Read Source: Robert Lemos On Sept. 24, threat detection firm GreyNoise Intelligence observed a single US-based IP address scanning for Citrix NetScaler installations and conducting remote code execution (RCE) attacks. The company issued alerts to customers about the malicious activity. Over the next two days, reports of potential zero-day attacks on NetScaler installations emerged on social media, and cybersecurity professionals debated whether the rumored attacks were true — some argued the activity targeted vulnerabilities already patched in August. On Sept. 26, however, Benjamin Harris, founder and CEO of exposure-management firm watchTowr, urged NetScaler users to take their systems offline. "Monday will be too late," he stated in a LinkedIn post . By Sunday, Citrix seemingly agreed, posting an update that patched eight vulnerabilities (CVE-2026-88771 through CVE-2026-88778), including two zero-days that had been exploited in the wild. The blog post did not recommend taking servers offline until they were patched, instead urging customers to "upgrad[e to] the versions containing the fix immediately." However, the two zero-days — CVE-2026-88771 and CVE-2026-88772 — came under widespread exploitation . Related: RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail One Weekend, Two Disclosure Strategies The same weekend, data protection provider Kiteworks took a different road. On Sept. 25, the company issued a recommendation to customers, urging them to proactively take their systems offline based on intelligence about an imminent attack. With its engineering team and external national intelligence experts working together on identifying the security issue, the company warned that a zero-day attack could be coming. On Monday, Kiteworks published an advisory identifying the vulnerability with an update to patch it. In the end, the company determined the vulnerability would have affected only 1% of its customers, Kiteworks said in its statement . "Telling customers to take production systems offline is not a decision any vendor makes lightly, and we knew exactly what we were asking of them," Frank Balonis, the firm's CISO, said in the statement. "We made it anyway, because when the choice is between certainty and convenience, customer data is not something we are willing to gamble with. That decision is what made the rest possible. We would make the same call again tomorrow to protect our customers' data." Kiteworks exposed IP addresses affect countries worldwide but are concentrated in the United States and Europe. Source: Shadowserver.org The two approaches underscore the hazards for vendors that take aggressive defensive measures. Citrix's response has come under fire from many in the cybersecurity community as being too little, too late. Why didn't the company share intelligence sooner about the apparent zero-day attacks? Related: SWIFT Banking & Government Middleware Enables RCE On the other hand, Kiteworks' rare recommendation to shut down appliances could be considered overkill — especially since only 1% of customers were vulnerable — or an appropriately gauged response to a potentially significant attack targeting their customers, many of whom are government agencies or in regulated industries. The decision to call for customers to shut down their systems was "wild," according to John Strand, owner of Black Hills Information Security, a cybersecurity-training and penetration-testing firm. "This isn't an active attack — people aren't actively being breached — and yet the vendor is telling customers to
 ```
 
 #### Corroborating sources (1)
 
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: What’s new with Google Cloud
-  - Published: 2026-10-02T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
-  - Summary: Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Sept 28 - Oct 2 Mastering Storage Management with Storage Intelligence In our new blog, explore practical strategies to modernize storage operations using Storage Intelligence Advisor and enhanced Batch Operations. See how customers like Shipt and Palo Alto Networks are using these features to manage their estates at scale. Today, Storage Intelligence is used by 25 of the top 50 GCS customers. 2 in 3 customers have Storage Intelligence enabled for over 90% of their storage footprint. Explore best practices on our blog Cut Gen AI costs by 70% with Apigee X dynamic routing Generative AI deployments face a harsh cost-
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response
+  - Published: 2026-10-02T16:56:30+00:00
+  - Link: https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response
+  - Summary: One company told customers to power down its data-protection platform during a nine-hour window, while the other remained mum on reported attacks prior to releasing a patch for its product.
 
-### Cluster 8ed1b81f85 — score 8
+### Cluster 65dcaf716c — score 8
 
-- Title: SWIFT Banking & Government Middleware Enables RCE
+- Title: Vulnerability Backlogs Are an Ownership Problem
 - Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-10-02T16:27:54+00:00
-- Link: https://www.darkreading.com/cybersecurity-operations/swift-banking-govt-middleware-rce
+- Published: 2026-10-02T14:00:00+00:00
+- Link: https://www.darkreading.com/cybersecurity-operations/vulnerability-backlogs-ownership-problem
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
@@ -3132,39 +3095,37 @@ Inside Google Cloud What’s new with Google Cloud October 2, 2026 Google Cloud 
 
 #### Cluster taxonomy (union across members)
 - threat_categories: zero_day
-- affected_industries: financial_services, government, telecommunications
-- cve_ids: CVE-2026-18397
+- affected_industries: government
 - urgency_signals: zero_day
-- content_type: news_report
+- content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: zero_day
-- affected_industries: financial_services, government, telecommunications
-- cve_ids: CVE-2026-18397
+- affected_industries: government
 - urgency_signals: zero_day
-- content_type: news_report
+- content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Patch middleware vulnerabilities now to avoid hardware-based MFA exploits in ultra-sensitive environments.
+Organizations don't need better vulnerability scanners; they need to know who owns their assets and has the authority and capacity to actually fix them.
 ```
 
 #### Full body
 
 ```
-Cybersecurity Operations Identity & Access Management Security Application Security Vulnerabilities & Threats News SWIFT Banking & Government Middleware Enables RCE Patch middleware vulnerabilities now to avoid hardware-based MFA exploits in ultra-sensitive environments. Nate Nelson , Contributing Writer October 2, 2026 5 Min Read Source: years via Getty Images Researchers have discovered a critical vulnerability in a hardware authentication program used to access highly sensitive global government and financial systems. In cases where purely digital methods just aren't secure enough, especially careful organizations may require that users authenticate to sensitive systems with multifactor authentication (MFA) hardware. After all, you wouldn't want a simple password to allow hackers into a system that facilitates financial transfers or official government business. Hardware-based MFA requires some means of communicating between one's hardware token and a website in question, though, which researchers continually find is the weak point in the whole arrangement. "SConnect," owned by the Thales Group conglomerate, is one such example of this. It's a browser extension with more than 1 million users on the Chrome Web Store, and plenty more on other app stores. It's used for authentication to major national government systems — like Qatar's national identity provider, Tawtheeq , and the Swedish Tax Agency, Skatteverket — and various banking and insurance portals. Most notably, SConnect has long been one of the primary methods for accessing the Society for Worldwide Interbank Financial Telecommunication (SWIFT) banking system that supports the entire global financial apparatus. Related: RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail In a report shared exclusively with Dark Reading ahead of publication, the browser extension aficionados at Bay Area Labs outlined a vulnerability in SConnect . The vulnerability allows attackers to perform drive-by remote code execution (RCE) attacks against users in a matter of seconds. And, the researchers say, the potential attack scenarios could get a lot worse. Thales Group patched SConnect on the Apple App Store and Chrome Web Store in August and removed the app entirely from Microsoft Edge in September. It published a CVE, CVE-2026-18397, on Oct. 1. The company assigned it a "critical" 9.4 out of 10 in the Common Vulnerability Scoring System (CVSS) 4.0 scale, and users should update their instances as soon as possible. Critical Vulnerability in Government, Banking Middleware SConnect, like other sensitive authentication middleware, pairs a light browser extension with a workhorse desktop program. Users visit SConnect-integrated websites, mash their hardware keys into their computers or connected device readers, and the extension and native host facilitate the communication back and forth, like two little lawyers. If everything goes to plan, the software confirms that both the website and hardware token are trusted, authorized entities. Related: Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response The first problem with SConnect was that the browser extension accepted messages from any webpage or embedded iframe, be it the SWIFT banking system or lowtpills[.]com. Thus, any attacker could attempt to step into an SConnect authentication flow if they could get a victim to the right webpage. SConnect would still verify that the site was authorized, of course, by checking if it possessed a valid RSA digital signature from its vendor, Thales Group. In doing so, it reserved a buffer to hold the result of the RSA calculation. The app developers designed this check themselves, Bay Area Labs concluded, and they failed to protect against a scenario where the attacker supplied an invalid, oversized signature. In that case, the calculation would fail without writing anything to the reserved memory space. SConnect didn't check whether the original calculation succeede
+Cybersecurity Operations Vulnerabilities & Threats Cyber Risk Commentary Vulnerability Backlogs Are an Ownership Problem Organizations don't need better vulnerability scanners; they need to know who owns their assets and has the authority and capacity to actually fix them. Nishant Sharma , Cybersecurity Leader October 2, 2026 4 Min Read Source: igoriss via Getty Images OPINION Most enterprises drowning in vulnerabilities don't have a detection problem. They have an accountability problem wearing a detection problem's clothing. You can see it in how they spend. When a backlog gets big enough to reach the board, the reflex is to buy better scanning — wider coverage, faster cycles, richer threat intel, a single pane of glass. A year later, the organization has excellent visibility into a backlog that has grown. That's a misdiagnosis, not a tooling failure. Scanning capacity and remediation capacity are independent variables, and only one of them scales with a purchase order. Point a modern scanner at an underinstrumented estate, and findings appear at a rate limited only by asset count and check depth. Remediation capacity is limited by engineering hours, change windows, application compatibility, vendor patch availability, and how much downtime the business will tolerate. None of that moves when you upgrade a license. Related: RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail I watched authenticated scanning across a server estate triple our finding count in one quarter. Nothing had gotten less secure. We had just stopped being able to pretend we didn't know. Which produces a perverse incentive: If your program is measured on open findings, expanding coverage makes you look worse. Teams graded that way learn not to look. What a Backlog Actually Measures A backlog is a measure of unresolved ownership, not a measure of technical debt. Think about what has to be true for one finding to close. Someone knows the asset exists. Someone is accountable for it. That person can change it. That person has time to change it. And that person has a reason to do it before their other work. Scanning gets you the first one. The other four are governance. That's why two companies with identical tools, identical estates, and identical finding volumes can differ tenfold in how fast they fix things. Here are possible different situations: No owner. The asset isn't mapped to anyone. This is the most common failure and the worst, because a finding with no owner can't be escalated — there's nobody to escalate to. The unowned tail of your estate is also usually the oldest and most exposed part of it. Owner without authority. A team is accountable but can't act. The vendor controls the patch. Another team owns the platform. The application is contractually frozen. You get a queue that visibly misses a service-level agreement (SLA) while the assignee correctly points out they couldn't have done anything. Owner without capacity. Accountability and authority both exist, but remediation competes with feature delivery in the same backlog, refereed by a product owner whose bonus doesn't mention security. Invisible in tooling — the tickets look assigned and in progress. Owner without consequence. Everything's in place and nothing happens, because missing a remediation SLA costs nobody anything. If your security reporting goes to the security team instead of the owner's boss, this is your default state. Related: Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response Escalating harder fixes exactly one of these. Address Asset Ownership First The highest-leverage move in an enterprise vulnerability program isn't a scanning upgrade. It's accurate, maintained asset-to-owner mapping. It's unglamorous work — reconciling the configuration management database (CMDB) against what scanners actually find, chasing the gaps, forcing a named owner onto every asset, including the ones nobody wants. It looks more like audit than security e
 ```
 
 #### Corroborating sources (1)
 
 - **Dark Reading** (cyber_news_breach_reporting)
-  - Title: SWIFT Banking & Government Middleware Enables RCE
-  - Published: 2026-10-02T16:27:54+00:00
-  - Link: https://www.darkreading.com/cybersecurity-operations/swift-banking-govt-middleware-rce
-  - Summary: Patch middleware vulnerabilities now to avoid hardware-based MFA exploits in ultra-sensitive environments.
+  - Title: Vulnerability Backlogs Are an Ownership Problem
+  - Published: 2026-10-02T14:00:00+00:00
+  - Link: https://www.darkreading.com/cybersecurity-operations/vulnerability-backlogs-ownership-problem
+  - Summary: Organizations don't need better vulnerability scanners; they need to know who owns their assets and has the authority and capacity to actually fix them.
 
 ### Cluster a1fd76ffa8 — score 8
 
@@ -3209,52 +3170,50 @@ Threat Intelligence Cyber Risk Cyberattacks & Data Breaches Vulnerabilities & Th
   - Link: https://www.darkreading.com/threat-intelligence/needymantis-long-term-access-compromised-networks
   - Summary: Microsoft observed a China-based actor using a previously unidentified malware framework in targeted intrusions against telcos, universities, medical, and government-related organizations.
 
-### Cluster 0d3ce97f33 — score 8
+### Cluster 542c77fc0d — score 8
 
-- Title: Two Zero-Days Exploited in Attack on Dutch Institute for Vulnerability Disclosure
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-10-02T08:25:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/
+- Title: Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-10-02T17:02:12+00:00
+- Link: https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: (none)
+- Strong signals: CVE-2026-63688
 
 #### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, vulnerability_disclosure, zero_day
-- affected_industries: government
-- cve_ids: CVE-2026-102489, CVE-2026-102490
-- urgency_signals: zero_day
-- content_type: vulnerability_disclosure
+- affected_products: Kubernetes
+- cve_ids: CVE-2026-54472, CVE-2026-61421, CVE-2026-63688, CVE-2026-63692, CVE-2026-67269
+- urgency_signals: preauth_unauth
+- content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng, zero_day, vulnerability_disclosure
-- affected_industries: government
-- cve_ids: CVE-2026-102489, CVE-2026-102490
-- urgency_signals: zero_day
-- content_type: vulnerability_disclosure
+- affected_products: Kubernetes
+- cve_ids: CVE-2026-63688, CVE-2026-63692, CVE-2026-67269, CVE-2026-54472, CVE-2026-61421
+- urgency_signals: preauth_unauth
+- content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-The Dutch Institute for Vulnerability Disclosure reveals agentic AI-powered attack using Zammad zero-days
+Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are listed below - CVE-2026-63688 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the csm-authorization-storage gRPC server that an
 ```
 
 #### Full body
 
 ```
-Infosecurity Magazine Home » News » Two Zero-Days Exploited in Attack on Dutch Institute for Vulnerability Disclosure Two Zero-Days Exploited in Attack on Dutch Institute for Vulnerability Disclosure News 2 October 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster A Dutch cybersecurity non-profit has revealed how it was compromised in an agentic AI attack that exploited two zero-day flaws in its helpdesk platform. The Dutch Institute for Vulnerability Disclosure (DIVD) is staffed by volunteers and dedicated to ethically disclosing flaws it finds in systems to “make the digital world safer.” However, it became a target itself last week after noticing suspicious activity on September 24. In a LinkedIn post on September 30, the organization revealed that its attackers exploited two zero-days in Zammad. “Used together, they allowed the attackers to hijack sessions, run code remotely and escalate privileges from the Zammad user to root, in seconds, due to the agentic part of this hack,” it said. “From there they were able to access other services and read and exfiltrate data. We urge everyone using any version of Zammad to update to version 7 or take it offline as soon as possible.” The vulnerabilities exploited in the attack are remote code execution bug CVE-2026-102489 and elevation of privileges flaw CVE-2026-102490, both of which have a CVSS score of 9.4 when chained. Read more on agentic AI attacks: Threat Actors Uses Agentic AI to Rapidly Compromise Cloud Target Fortunately, DIVD’s security expertise meant it was able to contain the threat. “Thanks to proper network segmentation and the actions of our IT and incident response team after detection, we were able to stop the attackers from going deeper into our systems and network,” it explained. “Unfortunately, some of the damage was already done.” A separate casefile on the incident explained that volunteer data including DIVD email addresses and possibly contact details was compromised, increasing the risk that malicious actors may try to impersonate DIVD staff. AI Agent to Blame On investigating, it became clear that AI was used in the attack, DIVD continued. “[Logs] show the attacker’s scripts contain notes where the agent justifies its own actions, explaining why what it’s doing is okay and really not phishing, something a human attacker wouldn’t bother with,” it said. “It supports our assessment that this is an agentic AI-powered attack. We can’t share more for now without getting in the way of the investigation.” Tim Burke, CEO of managed IT service provider Quest Technology Management, warned that AI-driven attacks are compressing detection and response timelines. “For companies without a dedicated SOC, continuous monitoring and visibility matter more. Someone still needs to know what is happening in the environment and be able to act quickly,” he told Infosecurity . “The broader point is that AI does not replace the fundamentals. It makes patching, monitoring, access controls, air-gapped/immutable data storage, segmentation, and incident response even more important.” Burke said network segmentation was key to limiting the damage in cases like this, preventing access from spreading across the broader environment. “The first hour should focus on containment: isolate affected systems, restrict compromised accounts or credentials, block suspicious connections, and stop further movement while the team determines what happened,” he added. “Organizations should know in advance who has the authority to take those containment actions. Delays matter more when attack activity happens at machine speed.” You may also like The CISO's New Liability Problem: Governing What You Don't Control Opinion 16 September 2026 Two in Three Orgs Not Convinced They Can Avoid a Breach News 13 February 2019 Agentic AI will Supercharge Cyber Threats. But Not in the Way You Think Opinion 27 July 2026 #EdgeLondon2019: Focus on System and Us
+Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes  Ravie Lakshmanan  Oct 02, 2026 Vulnerability / Cloud Security Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are listed below - CVE-2026-63688 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the csm-authorization-storage gRPC server that an unauthenticated remote attacker could exploit to obtain unauthorized access to storage backend administrator credentials for all registered storage arrays. CVE-2026-63692 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the authorization proxy and tenant service that an unauthenticated network attacker could exploit to bypass authentication controls and gain administrative-level privileges. CVE-2026-67269 (CVSS score: 9.9) - An improper privilege management vulnerability in the ContainerStorageModule Custom Resource reconciler that a low-privilege remote attacker could exploit to escalate privileges and gain root-level access on cluster nodes. CVE-2026-54472 (CVSS score: 9.8) - A use of hard-coded credentials vulnerability in the CSM Authorization module that a remote unauthenticated attacker could exploit to forge cryptographically valid administrative tokens and gain unauthorized administrative access to the CSM Authorization proxy. CVE-2026-61421 (CVSS score: 9.8) - A use of hard-coded cryptographic key vulnerability in the JWT authentication component of karavi-authorization that a remote unauthenticated attacker with knowledge of this publicly available signing secret could exploit to forge authentication tokens and gain administrative privileges. CVE-2026-67273 (CVSS score: 9.6) - An improper neutralization of special elements used in a template engine vulnerability that a low-privilege attacker with remote access could exploit to escalate privileges, access sensitive information, and carry out unauthorized RBAC tampering. "This vulnerability is considered critical as it enables a complete bypass of the csm-authorization security model, allowing an attacker to gain full administrative control over the storage infrastructure spanning all five supported Dell storage product families," Dell said about CVE-2026-63688. As for CVE-2026-63692, Dell noted that successful exploitation could enable an unauthenticated attacker to gain complete administrative control over the authorization service, and allow them to access or manipulate storage resources across all tenants. The PC maker also noted that an attacker can exploit CVE-2026-67269 to compromise all nodes in a Kubernetes cluster through a single custom resource submission. CVE-2026-54472, on the other hand, can be weaponized to sidestep authentication controls for the CSM Authorization proxy and enable unauthorized management of storage access policies across all connected tenants. Dell is recommending that customers apply the updates and rotate any JWT signing secrets. "Successful exploitation grants the attacker cluster-wide read access to Kubernetes Secrets and the ability to create cluster-scoped RBAC resources, effectively bypassing the intended Kubernetes access controls," Dell said in its advisory for CVE-2026-67273. The flaws, which affect all versions of CSM prior to 1.17.0, have been addressed in 1.18.0. There are no workarounds or mitigations other than updating to the latest version. With vulnerabilities in Dell products ( CVE-2021-21551 and CVE-2026-22769 ) having come under active exploitation in recent years, it's essential to apply the necessary fixes for optimal protection. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Cloud security , Container Security , Dell , Kubernetes , Vulne
 ```
 
 #### Corroborating sources (1)
 
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Two Zero-Days Exploited in Attack on Dutch Institute for Vulnerability Disclosure
-  - Published: 2026-10-02T08:25:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/
-  - Summary: The Dutch Institute for Vulnerability Disclosure reveals agentic AI-powered attack using Zammad zero-days
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes
+  - Published: 2026-10-02T17:02:12+00:00
+  - Link: https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html
+  - Summary: Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are listed below - CVE-2026-63688 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the csm-authorization-storage gRPC server that an
 
 ### Cluster 8d712631ac — score 8
 
@@ -3385,55 +3344,52 @@ New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses  Ravie
   - Link: https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html
   - Summary: A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors. The new Spectre v2 variant has been codenamed Branch Target Reuse (BTR). "The key insight is that, while modern CPUs
 
-### Cluster 8af8fa458d — score 8
+### Cluster 0d3ce97f33 — score 8
 
-- Title: JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-09-28T09:08:21+00:00
-- Link: https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html
+- Title: Two Zero-Days Exploited in Attack on Dutch Institute for Vulnerability Disclosure
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-10-02T08:25:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/
 - Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: Azure
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: cloud_abuse, ransomware_extortion
-- affected_products: Azure
-- cve_ids: CVE-2025-3248
-- content_type: incident_report, news_report
+- threat_categories: phishing_social_eng, vulnerability_disclosure, zero_day
+- affected_industries: government
+- cve_ids: CVE-2026-102489, CVE-2026-102490
+- urgency_signals: zero_day
+- content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- affected_products: Azure
-- cve_ids: CVE-2025-3248
-- content_type: incident_report
+- threat_categories: phishing_social_eng, zero_day, vulnerability_disclosure
+- affected_industries: government
+- cve_ids: CVE-2026-102489, CVE-2026-102490
+- urgency_signals: zero_day
+- content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals. Microsoft, which is tracking the activity under the name Storm-3168, has called it an evolution of the threat actor's tradecraft. The attack took place in early June 2026 over a period of about 18 hours. "The destructive operations
+The Dutch Institute for Vulnerability Disclosure reveals agentic AI-powered attack using Zammad zero-days
 ```
 
 #### Full body
 
 ```
-JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources  Ravie Lakshmanan  Sep 28, 2026 Cloud Security / Identity Security The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals. Microsoft, which is tracking the activity under the name Storm-3168 , has called it an evolution of the threat actor's tradecraft. The attack took place in early June 2026 over a period of about 18 hours. "The destructive operations were facilitated by compromising service principals and targeted Azure Storage Accounts, SQL databases, Key Vaults, Function Apps, recovery protection locks, Virtual Machines, and App Services," researchers Yossi Weizman and Tushar Mudi, along with the Microsoft Security Research team, said . JADEPUFFER was first documented by Sysdig, describing it as the first-ever ransomware operation run end-to-end with the help of a large language model (LLM). The agentic attack exploited a known security flaw in Langflow (CVE-2025-3248) to break in, harvested credentials, burrowed deeper into the network, encrypted Nacos service configuration files, dropped the original database tables, and left a ransom note demanding a Bitcoin payment. While the attack was found to have leveraged MySQL's built-in AES_ENCRYPT() function to perform the encryption step, the same Langflow instance was subsequently targeted by the threat actor a second time using a compiled Go-based ransomware strain codenamed ENCFORGE . ENCFORGE is specifically built for the artificial intelligence (AI) infrastructure, scanning for nearly 180 file extensions spanning model checkpoints, vector databases, training datasets, and embedding indices, along with macOS-centric files like Keychain stores, Xcode project files, and Apple Pages and Numbers documents. "An autonomous agent reasoned about its targets, harvested and reused credentials, moved laterally, established persistence, and destroyed a database, narrating its own intent the entire way," Sysdig noted at the time. "None of the individual techniques were novel or sophisticated. What is notable, however, is that an AI model strung them together into a complete ransomware operation against neglected internet-facing infrastructure." Microsoft, in its analysis, said it observed two compromised service principals linked to the same tenant, with one used for reconnaissance and resource discovery and the second for destructive operations and credential collection. The enumeration activity targeted Azure Virtual Machines, subscriptions, resource groups, and resources for close to 16 hours, carrying out over 300 read operations during the time period. The second compromised service principal also engaged in some discovery operation of its own 90 minutes later, enumerating virtual machines and resource groups across two subscriptions within five seconds. After 16 hours, the second service principal also successfully enumerated Azure App Service configuration stores, likely in an attempt to look for exposed credentials. Soon after, the service principal is said to have conducted more than 150 destructive or credential collection-related operations in 35 minutes. In all, the destructive sequence lasted for about seven minutes and involved over 100 storage account deletion attempts. Also targeted were an Azure Key Vault, Function App, and App Service plan, as well as multiple Azure SQL databases. However, each of the database deletion attempts ended up in failure due to the use of an unsupported API version for the Azure SQL database resource type. "Most Azure Storage accounts targeted by the threat actor were successfully deleted," Microsoft said. "However, Azure resource locks and storage account-level deletion protection blocked deletion attempts for few of the storage accounts, demonstrating the value of independent safeguards that remain effective even when a compromised identity h
+Infosecurity Magazine Home » News » Two Zero-Days Exploited in Attack on Dutch Institute for Vulnerability Disclosure Two Zero-Days Exploited in Attack on Dutch Institute for Vulnerability Disclosure News 2 October 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster A Dutch cybersecurity non-profit has revealed how it was compromised in an agentic AI attack that exploited two zero-day flaws in its helpdesk platform. The Dutch Institute for Vulnerability Disclosure (DIVD) is staffed by volunteers and dedicated to ethically disclosing flaws it finds in systems to “make the digital world safer.” However, it became a target itself last week after noticing suspicious activity on September 24. In a LinkedIn post on September 30, the organization revealed that its attackers exploited two zero-days in Zammad. “Used together, they allowed the attackers to hijack sessions, run code remotely and escalate privileges from the Zammad user to root, in seconds, due to the agentic part of this hack,” it said. “From there they were able to access other services and read and exfiltrate data. We urge everyone using any version of Zammad to update to version 7 or take it offline as soon as possible.” The vulnerabilities exploited in the attack are remote code execution bug CVE-2026-102489 and elevation of privileges flaw CVE-2026-102490, both of which have a CVSS score of 9.4 when chained. Read more on agentic AI attacks: Threat Actors Uses Agentic AI to Rapidly Compromise Cloud Target Fortunately, DIVD’s security expertise meant it was able to contain the threat. “Thanks to proper network segmentation and the actions of our IT and incident response team after detection, we were able to stop the attackers from going deeper into our systems and network,” it explained. “Unfortunately, some of the damage was already done.” A separate casefile on the incident explained that volunteer data including DIVD email addresses and possibly contact details was compromised, increasing the risk that malicious actors may try to impersonate DIVD staff. AI Agent to Blame On investigating, it became clear that AI was used in the attack, DIVD continued. “[Logs] show the attacker’s scripts contain notes where the agent justifies its own actions, explaining why what it’s doing is okay and really not phishing, something a human attacker wouldn’t bother with,” it said. “It supports our assessment that this is an agentic AI-powered attack. We can’t share more for now without getting in the way of the investigation.” Tim Burke, CEO of managed IT service provider Quest Technology Management, warned that AI-driven attacks are compressing detection and response timelines. “For companies without a dedicated SOC, continuous monitoring and visibility matter more. Someone still needs to know what is happening in the environment and be able to act quickly,” he told Infosecurity . “The broader point is that AI does not replace the fundamentals. It makes patching, monitoring, access controls, air-gapped/immutable data storage, segmentation, and incident response even more important.” Burke said network segmentation was key to limiting the damage in cases like this, preventing access from spreading across the broader environment. “The first hour should focus on containment: isolate affected systems, restrict compromised accounts or credentials, block suspicious connections, and stop further movement while the team determines what happened,” he added. “Organizations should know in advance who has the authority to take those containment actions. Delays matter more when attack activity happens at machine speed.” You may also like The CISO's New Liability Problem: Governing What You Don't Control Opinion 16 September 2026 Two in Three Orgs Not Convinced They Can Avoid a Breach News 13 February 2019 Agentic AI will Supercharge Cyber Threats. But Not in the Way You Think Opinion 27 July 2026 #EdgeLondon2019: Focus on System and Us
 ```
 
-#### Corroborating sources (2)
+#### Corroborating sources (1)
 
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources
-  - Published: 2026-09-28T09:08:21+00:00
-  - Link: https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html
-  - Summary: The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals. Microsoft, which is tracking the activity under the name Storm-3168, has called it an evolution of the threat actor's tradecraft. The attack took place in early June 2026 over a period of about 18 hours. "The destructive operations
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: JadePuffer AI Actor Compromises Azure Tenant in Destructive Cloud Attack
-  - Published: 2026-09-28T15:33:21+00:00
-  - Link: https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack
-  - Summary: The "agentic threat actor" may have used exposed credentials to access resources and delete cloud-based storage, applications, and databases.
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Two Zero-Days Exploited in Attack on Dutch Institute for Vulnerability Disclosure
+  - Published: 2026-10-02T08:25:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/
+  - Summary: The Dutch Institute for Vulnerability Disclosure reveals agentic AI-powered attack using Zammad zero-days
 
 ### Cluster 8098e82854 — score 8
 
