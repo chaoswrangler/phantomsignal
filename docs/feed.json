@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T20:35:25.921227+00:00",
+  "generated_at": "2026-10-03T00:20:23.664117+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2198,
@@ -18,13 +18,6 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
@@ -32,12 +25,12 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -46,11 +39,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Sekoia": {
@@ -58,6 +51,13 @@
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
+      "in_window_count": 0
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
       "in_window_count": 0
     },
     "Kaspersky Securelist": {
@@ -116,18 +116,25 @@
       "item_count": 50,
       "in_window_count": 3
     },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 7
+      "in_window_count": 6
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 78,
       "in_window_count": 0
     },
     "PortSwigger Research": {
@@ -144,18 +151,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
       "in_window_count": 0
     },
     "Exploit-DB": {
@@ -172,13 +172,6 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
@@ -186,11 +179,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "TrustedSec": {
@@ -200,8 +193,8 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -214,8 +207,8 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -226,6 +219,13 @@
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 30,
+      "in_window_count": 0
+    },
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Orca Security Research": {
@@ -242,19 +242,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 7
-    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 7
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -277,12 +277,12 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 9
+    "Protect AI": {
+      "url": "https://protectai.com/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
@@ -291,12 +291,12 @@
       "item_count": 20,
       "in_window_count": 5
     },
-    "Protect AI": {
-      "url": "https://protectai.com/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 9
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -312,19 +312,19 @@
       "item_count": 100,
       "in_window_count": 2
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -339,13 +339,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -368,6 +361,13 @@
       "item_count": 15,
       "in_window_count": 15
     },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -389,13 +389,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 13
-    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -410,6 +403,20 @@
       "item_count": 20,
       "in_window_count": 2
     },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 13
+    },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 25
+    },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -417,12 +424,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 24
+      "item_count": 15,
+      "in_window_count": 1
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -430,13 +437,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 7
-    },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -451,6 +451,13 @@
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
@@ -473,22 +480,29 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 23
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
+      "item_count": 10,
+      "in_window_count": 1
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -500,20 +514,6 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 50
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 23
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -908,6 +908,32 @@
       ]
     },
     {
+      "label": "CVE-2026-18397 exploitation activity",
+      "anchor_signal": "CVE-2026-18397",
+      "theme_key": "cve-2026-18397",
+      "dominant_features": {
+        "cve_ids": [
+          "CVE-2026-18397"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.625,
+      "shared_strong_signals": [
+        "CVE-2026-18397"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "8ed1b81f85",
+        "b858233ff8"
+      ],
+      "links": [
+        "https://www.darkreading.com/cybersecurity-operations/swift-banking-govt-middleware-rce",
+        "https://www.reddit.com/r/netsec/comments/1wvxp1p/8_out_of_10_banks_hate_this_one_weird_3skey_rce/"
+      ]
+    },
+    {
       "label": "CVE-2026-102489 exploitation activity",
       "anchor_signal": "CVE-2026-102489",
       "theme_key": "cve-2026-102489",
@@ -929,12 +955,12 @@
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "a832e5790f",
-        "0d3ce97f33"
+        "0d3ce97f33",
+        "a832e5790f"
       ],
       "links": [
-        "https://webflow.sysdig.com/blog/ai-agent-exploits-zammad-zero-days-in-divd-breach-what-we-know-and-how-to-detect-it",
-        "https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/"
+        "https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/",
+        "https://webflow.sysdig.com/blog/ai-agent-exploits-zammad-zero-days-in-divd-breach-what-we-know-and-how-to-detect-it"
       ]
     },
     {
@@ -959,38 +985,12 @@
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "a832e5790f",
-        "0d3ce97f33"
+        "0d3ce97f33",
+        "a832e5790f"
       ],
       "links": [
-        "https://webflow.sysdig.com/blog/ai-agent-exploits-zammad-zero-days-in-divd-breach-what-we-know-and-how-to-detect-it",
-        "https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/"
-      ]
-    },
-    {
-      "label": "CVE-2026-18397 exploitation activity",
-      "anchor_signal": "CVE-2026-18397",
-      "theme_key": "cve-2026-18397",
-      "dominant_features": {
-        "cve_ids": [
-          "CVE-2026-18397"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.625,
-      "shared_strong_signals": [
-        "CVE-2026-18397"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "8ed1b81f85",
-        "b858233ff8"
-      ],
-      "links": [
-        "https://www.darkreading.com/cybersecurity-operations/swift-banking-govt-middleware-rce",
-        "https://www.reddit.com/r/netsec/comments/1wvxp1p/8_out_of_10_banks_hate_this_one_weird_3skey_rce/"
+        "https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/",
+        "https://webflow.sysdig.com/blog/ai-agent-exploits-zammad-zero-days-in-divd-breach-what-we-know-and-how-to-detect-it"
       ]
     },
     {
@@ -1048,68 +1048,7 @@
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [
-        {
-          "value": "CVE-2026-90970",
-          "cluster_id": "2960bdb9ca",
-          "first_source": "BleepingComputer",
-          "first_published": "2026-10-02T16:20:05+00:00"
-        },
-        {
-          "value": "CVE-2026-88778",
-          "cluster_id": "ef461b8ae5",
-          "first_source": "Dark Reading",
-          "first_published": "2026-10-02T16:56:30+00:00"
-        },
-        {
-          "value": "CVE-2026-54472",
-          "cluster_id": "542c77fc0d",
-          "first_source": "The Hacker News",
-          "first_published": "2026-10-02T17:02:12+00:00"
-        },
-        {
-          "value": "CVE-2026-61421",
-          "cluster_id": "542c77fc0d",
-          "first_source": "The Hacker News",
-          "first_published": "2026-10-02T17:02:12+00:00"
-        },
-        {
-          "value": "CVE-2026-63688",
-          "cluster_id": "542c77fc0d",
-          "first_source": "The Hacker News",
-          "first_published": "2026-10-02T17:02:12+00:00"
-        },
-        {
-          "value": "CVE-2026-63692",
-          "cluster_id": "542c77fc0d",
-          "first_source": "The Hacker News",
-          "first_published": "2026-10-02T17:02:12+00:00"
-        },
-        {
-          "value": "CVE-2026-67269",
-          "cluster_id": "542c77fc0d",
-          "first_source": "The Hacker News",
-          "first_published": "2026-10-02T17:02:12+00:00"
-        },
-        {
-          "value": "CVE-2026-18397",
-          "cluster_id": "8ed1b81f85",
-          "first_source": "Dark Reading",
-          "first_published": "2026-10-02T16:27:54+00:00"
-        },
-        {
-          "value": "CVE-2026-71972",
-          "cluster_id": "542fa18cc6",
-          "first_source": "Reddit r/netsec",
-          "first_published": "2026-10-02T16:50:08+00:00"
-        },
-        {
-          "value": "CVE-2026-18397",
-          "cluster_id": "b858233ff8",
-          "first_source": "Reddit r/netsec",
-          "first_published": "2026-10-02T16:05:04+00:00"
-        }
-      ],
+      "cves": [],
       "actors": [],
       "products": []
     },
@@ -1334,6 +1273,12 @@
       },
       {
         "axis": "cve_ids",
+        "value": "CVE-2026-85706",
+        "cluster_id": "2960bdb9ca",
+        "weeks_observed": 3
+      },
+      {
+        "axis": "cve_ids",
         "value": "CVE-2026-76460",
         "cluster_id": "4e072e3956",
         "weeks_observed": 3
@@ -1375,6 +1320,34 @@
     ]
   },
   "items": [
+    {
+      "source": "Dark Reading",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail",
+      "link": "https://www.darkreading.com/cybersecurity-operations/remotethreat-bets-security-teams-need-to-test-what-happens-after-defenses-fail",
+      "published": "2026-10-02T20:18:37+00:00",
+      "summary": "The offensive cyber operations startup looks to evolve red teaming beyond traditional methods to simulate attackers' increasingly advanced capabilities.",
+      "author": "Arielle Waldman",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
     {
       "source": "BleepingComputer",
       "cohort": "cyber_news_breach_reporting",
@@ -1631,7 +1604,7 @@
         }
       },
       "score": 10,
-      "full_body": "Cybersecurity Operations Application Security Cyber Risk Vulnerabilities & Threats News Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response One company told customers to power down its data-protection platform during a nine-hour window, while the other remained mum on reported attacks prior to releasing a patch for its product. Robert Lemos , Contributing Writer October 2, 2026 5 Min Read Source: Robert Lemos On Sept. 24, threat detection firm GreyNoise Intelligence observed a single US-based IP address scanning for Citrix NetScaler installations and conducting remote code execution (RCE) attacks. The company issued alerts to customers about the malicious activity. Over the next two days, reports of potential zero-day attacks on NetScaler installations emerged on social media, and cybersecurity professionals debated whether the rumored attacks were true — some argued the activity targeted vulnerabilities already patched in August. On Sept. 26, however, Benjamin Harris, founder and CEO of exposure-management firm watchTowr, urged NetScaler users to take their systems offline. \"Monday will be too late,\" he stated in a LinkedIn post . By Sunday, Citrix seemingly agreed, posting an update that patched eight vulnerabilities (CVE-2026-88771 through CVE-2026-88778), including two zero-days that had been exploited in the wild. The blog post did not recommend taking servers offline until they were patched, instead urging customers to \"upgrad[e to] the versions containing the fix immediately.\" However, the two zero-days — CVE-2026-88771 and CVE-2026-88772 — came under widespread exploitation . Related: SWIFT Banking & Government Middleware Enables RCE One Weekend, Two Disclosure Strategies The same weekend, data protection provider Kiteworks took a different road. On Sept. 25, the company issued a recommendation to customers, urging them to proactively take their systems offline based on intelligence about an imminent attack. With its engineering team and external national intelligence experts working together on identifying the security issue, the company warned that a zero-day attack could be coming. On Monday, Kiteworks published an advisory identifying the vulnerability with an update to patch it. In the end, the company determined the vulnerability would have affected only 1% of its customers, Kiteworks said in its statement . \"Telling customers to take production systems offline is not a decision any vendor makes lightly, and we knew exactly what we were asking of them,\" Frank Balonis, the firm's CISO, said in the statement. \"We made it anyway, because when the choice is between certainty and convenience, customer data is not something we are willing to gamble with. That decision is what made the rest possible. We would make the same call again tomorrow to protect our customers' data.\" Kiteworks exposed IP addresses affect countries worldwide but are concentrated in the United States and Europe. Source: Shadowserver.org The two approaches underscore the hazards for vendors that take aggressive defensive measures. Citrix's response has come under fire from many in the cybersecurity community as being too little, too late. Why didn't the company share intelligence sooner about the apparent zero-day attacks? Related: Is Your Organization Ready for 2027's AI Accountability Era? On the other hand, Kiteworks' rare recommendation to shut down appliances could be considered overkill — especially since only 1% of customers were vulnerable — or an appropriately gauged response to a potentially significant attack targeting their customers, many of whom are government agencies or in regulated industries. The decision to call for customers to shut down their systems was \"wild,\" according to John Strand, owner of Black Hills Information Security, a cybersecurity-training and penetration-testing firm. \"This isn't an active attack — people aren't actively being breached — and yet the vendor is telling customers to take their systems",
+      "full_body": "Cybersecurity Operations Application Security Cyber Risk Vulnerabilities & Threats News Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response One company told customers to power down its data-protection platform during a nine-hour window, while the other remained mum on reported attacks prior to releasing a patch for its product. Robert Lemos , Contributing Writer October 2, 2026 5 Min Read Source: Robert Lemos On Sept. 24, threat detection firm GreyNoise Intelligence observed a single US-based IP address scanning for Citrix NetScaler installations and conducting remote code execution (RCE) attacks. The company issued alerts to customers about the malicious activity. Over the next two days, reports of potential zero-day attacks on NetScaler installations emerged on social media, and cybersecurity professionals debated whether the rumored attacks were true — some argued the activity targeted vulnerabilities already patched in August. On Sept. 26, however, Benjamin Harris, founder and CEO of exposure-management firm watchTowr, urged NetScaler users to take their systems offline. \"Monday will be too late,\" he stated in a LinkedIn post . By Sunday, Citrix seemingly agreed, posting an update that patched eight vulnerabilities (CVE-2026-88771 through CVE-2026-88778), including two zero-days that had been exploited in the wild. The blog post did not recommend taking servers offline until they were patched, instead urging customers to \"upgrad[e to] the versions containing the fix immediately.\" However, the two zero-days — CVE-2026-88771 and CVE-2026-88772 — came under widespread exploitation . Related: RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail One Weekend, Two Disclosure Strategies The same weekend, data protection provider Kiteworks took a different road. On Sept. 25, the company issued a recommendation to customers, urging them to proactively take their systems offline based on intelligence about an imminent attack. With its engineering team and external national intelligence experts working together on identifying the security issue, the company warned that a zero-day attack could be coming. On Monday, Kiteworks published an advisory identifying the vulnerability with an update to patch it. In the end, the company determined the vulnerability would have affected only 1% of its customers, Kiteworks said in its statement . \"Telling customers to take production systems offline is not a decision any vendor makes lightly, and we knew exactly what we were asking of them,\" Frank Balonis, the firm's CISO, said in the statement. \"We made it anyway, because when the choice is between certainty and convenience, customer data is not something we are willing to gamble with. That decision is what made the rest possible. We would make the same call again tomorrow to protect our customers' data.\" Kiteworks exposed IP addresses affect countries worldwide but are concentrated in the United States and Europe. Source: Shadowserver.org The two approaches underscore the hazards for vendors that take aggressive defensive measures. Citrix's response has come under fire from many in the cybersecurity community as being too little, too late. Why didn't the company share intelligence sooner about the apparent zero-day attacks? Related: SWIFT Banking & Government Middleware Enables RCE On the other hand, Kiteworks' rare recommendation to shut down appliances could be considered overkill — especially since only 1% of customers were vulnerable — or an appropriately gauged response to a potentially significant attack targeting their customers, many of whom are government agencies or in regulated industries. The decision to call for customers to shut down their systems was \"wild,\" according to John Strand, owner of Black Hills Information Security, a cybersecurity-training and penetration-testing firm. \"This isn't an active attack — people aren't actively being breached — and yet the vendor is telling customers to ",
       "fetch_status": "ok"
     },
     {
@@ -1703,7 +1676,7 @@
         }
       },
       "score": 9,
-      "full_body": "Cybersecurity Operations Identity & Access Management Security Application Security Vulnerabilities & Threats News SWIFT Banking & Government Middleware Enables RCE Patch middleware vulnerabilities now to avoid hardware-based MFA exploits in ultra-sensitive environments. Nate Nelson , Contributing Writer October 2, 2026 5 Min Read Source: years via Getty Images Researchers have discovered a critical vulnerability in a hardware authentication program used to access highly sensitive global government and financial systems. In cases where purely digital methods just aren't secure enough, especially careful organizations may require that users authenticate to sensitive systems with multifactor authentication (MFA) hardware. After all, you wouldn't want a simple password to allow hackers into a system that facilitates financial transfers or official government business. Hardware-based MFA requires some means of communicating between one's hardware token and a website in question, though, which researchers continually find is the weak point in the whole arrangement. \"SConnect,\" owned by the Thales Group conglomerate, is one such example of this. It's a browser extension with more than 1 million users on the Chrome Web Store, and plenty more on other app stores. It's used for authentication to major national government systems — like Qatar's national identity provider, Tawtheeq , and the Swedish Tax Agency, Skatteverket — and various banking and insurance portals. Most notably, SConnect has long been one of the primary methods for accessing the Society for Worldwide Interbank Financial Telecommunication (SWIFT) banking system that supports the entire global financial apparatus. Related: Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response In a report shared exclusively with Dark Reading ahead of publication, the browser extension aficionados at Bay Area Labs outlined a vulnerability in SConnect . The vulnerability allows attackers to perform drive-by remote code execution (RCE) attacks against users in a matter of seconds. And, the researchers say, the potential attack scenarios could get a lot worse. Thales Group patched SConnect on the Apple App Store and Chrome Web Store in August and removed the app entirely from Microsoft Edge in September. It published a CVE, CVE-2026-18397, on Oct. 1. The company assigned it a \"critical\" 9.4 out of 10 in the Common Vulnerability Scoring System (CVSS) 4.0 scale, and users should update their instances as soon as possible. Critical Vulnerability in Government, Banking Middleware SConnect, like other sensitive authentication middleware, pairs a light browser extension with a workhorse desktop program. Users visit SConnect-integrated websites, mash their hardware keys into their computers or connected device readers, and the extension and native host facilitate the communication back and forth, like two little lawyers. If everything goes to plan, the software confirms that both the website and hardware token are trusted, authorized entities. Related: Is Your Organization Ready for 2027's AI Accountability Era? The first problem with SConnect was that the browser extension accepted messages from any webpage or embedded iframe, be it the SWIFT banking system or lowtpills[.]com. Thus, any attacker could attempt to step into an SConnect authentication flow if they could get a victim to the right webpage. SConnect would still verify that the site was authorized, of course, by checking if it possessed a valid RSA digital signature from its vendor, Thales Group. In doing so, it reserved a buffer to hold the result of the RSA calculation. The app developers designed this check themselves, Bay Area Labs concluded, and they failed to protect against a scenario where the attacker supplied an invalid, oversized signature. In that case, the calculation would fail without writing anything to the reserved memory space. SConnect didn't check whether the original calculation succeeded, but it did stil",
+      "full_body": "Cybersecurity Operations Identity & Access Management Security Application Security Vulnerabilities & Threats News SWIFT Banking & Government Middleware Enables RCE Patch middleware vulnerabilities now to avoid hardware-based MFA exploits in ultra-sensitive environments. Nate Nelson , Contributing Writer October 2, 2026 5 Min Read Source: years via Getty Images Researchers have discovered a critical vulnerability in a hardware authentication program used to access highly sensitive global government and financial systems. In cases where purely digital methods just aren't secure enough, especially careful organizations may require that users authenticate to sensitive systems with multifactor authentication (MFA) hardware. After all, you wouldn't want a simple password to allow hackers into a system that facilitates financial transfers or official government business. Hardware-based MFA requires some means of communicating between one's hardware token and a website in question, though, which researchers continually find is the weak point in the whole arrangement. \"SConnect,\" owned by the Thales Group conglomerate, is one such example of this. It's a browser extension with more than 1 million users on the Chrome Web Store, and plenty more on other app stores. It's used for authentication to major national government systems — like Qatar's national identity provider, Tawtheeq , and the Swedish Tax Agency, Skatteverket — and various banking and insurance portals. Most notably, SConnect has long been one of the primary methods for accessing the Society for Worldwide Interbank Financial Telecommunication (SWIFT) banking system that supports the entire global financial apparatus. Related: RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail In a report shared exclusively with Dark Reading ahead of publication, the browser extension aficionados at Bay Area Labs outlined a vulnerability in SConnect . The vulnerability allows attackers to perform drive-by remote code execution (RCE) attacks against users in a matter of seconds. And, the researchers say, the potential attack scenarios could get a lot worse. Thales Group patched SConnect on the Apple App Store and Chrome Web Store in August and removed the app entirely from Microsoft Edge in September. It published a CVE, CVE-2026-18397, on Oct. 1. The company assigned it a \"critical\" 9.4 out of 10 in the Common Vulnerability Scoring System (CVSS) 4.0 scale, and users should update their instances as soon as possible. Critical Vulnerability in Government, Banking Middleware SConnect, like other sensitive authentication middleware, pairs a light browser extension with a workhorse desktop program. Users visit SConnect-integrated websites, mash their hardware keys into their computers or connected device readers, and the extension and native host facilitate the communication back and forth, like two little lawyers. If everything goes to plan, the software confirms that both the website and hardware token are trusted, authorized entities. Related: Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response The first problem with SConnect was that the browser extension accepted messages from any webpage or embedded iframe, be it the SWIFT banking system or lowtpills[.]com. Thus, any attacker could attempt to step into an SConnect authentication flow if they could get a victim to the right webpage. SConnect would still verify that the site was authorized, of course, by checking if it possessed a valid RSA digital signature from its vendor, Thales Group. In doing so, it reserved a buffer to hold the result of the RSA calculation. The app developers designed this check themselves, Bay Area Labs concluded, and they failed to protect against a scenario where the attacker supplied an invalid, oversized signature. In that case, the calculation would fail without writing anything to the reserved memory space. SConnect didn't check whether the original calculation succeede",
       "fetch_status": "ok"
     },
     {
@@ -2025,7 +1998,6 @@
         ],
         "actor_attribution": [],
         "affected_industries": [
-          "financial_services",
           "government"
         ],
         "affected_products": [],
@@ -2043,7 +2015,7 @@
         }
       },
       "score": 10,
-      "full_body": "Cybersecurity Operations Vulnerabilities & Threats Cyber Risk Commentary Vulnerability Backlogs Are an Ownership Problem Organizations don't need better vulnerability scanners; they need to know who owns their assets and has the authority and capacity to actually fix them. Nishant Sharma , Cybersecurity Leader October 2, 2026 4 Min Read Source: igoriss via Getty Images OPINION Most enterprises drowning in vulnerabilities don't have a detection problem. They have an accountability problem wearing a detection problem's clothing. You can see it in how they spend. When a backlog gets big enough to reach the board, the reflex is to buy better scanning — wider coverage, faster cycles, richer threat intel, a single pane of glass. A year later, the organization has excellent visibility into a backlog that has grown. That's a misdiagnosis, not a tooling failure. Scanning capacity and remediation capacity are independent variables, and only one of them scales with a purchase order. Point a modern scanner at an underinstrumented estate, and findings appear at a rate limited only by asset count and check depth. Remediation capacity is limited by engineering hours, change windows, application compatibility, vendor patch availability, and how much downtime the business will tolerate. None of that moves when you upgrade a license. Related: Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response I watched authenticated scanning across a server estate triple our finding count in one quarter. Nothing had gotten less secure. We had just stopped being able to pretend we didn't know. Which produces a perverse incentive: If your program is measured on open findings, expanding coverage makes you look worse. Teams graded that way learn not to look. What a Backlog Actually Measures A backlog is a measure of unresolved ownership, not a measure of technical debt. Think about what has to be true for one finding to close. Someone knows the asset exists. Someone is accountable for it. That person can change it. That person has time to change it. And that person has a reason to do it before their other work. Scanning gets you the first one. The other four are governance. That's why two companies with identical tools, identical estates, and identical finding volumes can differ tenfold in how fast they fix things. Here are possible different situations: No owner. The asset isn't mapped to anyone. This is the most common failure and the worst, because a finding with no owner can't be escalated — there's nobody to escalate to. The unowned tail of your estate is also usually the oldest and most exposed part of it. Owner without authority. A team is accountable but can't act. The vendor controls the patch. Another team owns the platform. The application is contractually frozen. You get a queue that visibly misses a service-level agreement (SLA) while the assignee correctly points out they couldn't have done anything. Owner without capacity. Accountability and authority both exist, but remediation competes with feature delivery in the same backlog, refereed by a product owner whose bonus doesn't mention security. Invisible in tooling — the tickets look assigned and in progress. Owner without consequence. Everything's in place and nothing happens, because missing a remediation SLA costs nobody anything. If your security reporting goes to the security team instead of the owner's boss, this is your default state. Related: SWIFT Banking & Government Middleware Enables RCE Escalating harder fixes exactly one of these. Address Asset Ownership First The highest-leverage move in an enterprise vulnerability program isn't a scanning upgrade. It's accurate, maintained asset-to-owner mapping. It's unglamorous work — reconciling the configuration management database (CMDB) against what scanners actually find, chasing the gaps, forcing a named owner onto every asset, including the ones nobody wants. It looks more like audit than security engineering, which is exactly ",
+      "full_body": "Cybersecurity Operations Vulnerabilities & Threats Cyber Risk Commentary Vulnerability Backlogs Are an Ownership Problem Organizations don't need better vulnerability scanners; they need to know who owns their assets and has the authority and capacity to actually fix them. Nishant Sharma , Cybersecurity Leader October 2, 2026 4 Min Read Source: igoriss via Getty Images OPINION Most enterprises drowning in vulnerabilities don't have a detection problem. They have an accountability problem wearing a detection problem's clothing. You can see it in how they spend. When a backlog gets big enough to reach the board, the reflex is to buy better scanning — wider coverage, faster cycles, richer threat intel, a single pane of glass. A year later, the organization has excellent visibility into a backlog that has grown. That's a misdiagnosis, not a tooling failure. Scanning capacity and remediation capacity are independent variables, and only one of them scales with a purchase order. Point a modern scanner at an underinstrumented estate, and findings appear at a rate limited only by asset count and check depth. Remediation capacity is limited by engineering hours, change windows, application compatibility, vendor patch availability, and how much downtime the business will tolerate. None of that moves when you upgrade a license. Related: RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail I watched authenticated scanning across a server estate triple our finding count in one quarter. Nothing had gotten less secure. We had just stopped being able to pretend we didn't know. Which produces a perverse incentive: If your program is measured on open findings, expanding coverage makes you look worse. Teams graded that way learn not to look. What a Backlog Actually Measures A backlog is a measure of unresolved ownership, not a measure of technical debt. Think about what has to be true for one finding to close. Someone knows the asset exists. Someone is accountable for it. That person can change it. That person has time to change it. And that person has a reason to do it before their other work. Scanning gets you the first one. The other four are governance. That's why two companies with identical tools, identical estates, and identical finding volumes can differ tenfold in how fast they fix things. Here are possible different situations: No owner. The asset isn't mapped to anyone. This is the most common failure and the worst, because a finding with no owner can't be escalated — there's nobody to escalate to. The unowned tail of your estate is also usually the oldest and most exposed part of it. Owner without authority. A team is accountable but can't act. The vendor controls the patch. Another team owns the platform. The application is contractually frozen. You get a queue that visibly misses a service-level agreement (SLA) while the assignee correctly points out they couldn't have done anything. Owner without capacity. Accountability and authority both exist, but remediation competes with feature delivery in the same backlog, refereed by a product owner whose bonus doesn't mention security. Invisible in tooling — the tickets look assigned and in progress. Owner without consequence. Everything's in place and nothing happens, because missing a remediation SLA costs nobody anything. If your security reporting goes to the security team instead of the owner's boss, this is your default state. Related: Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response Escalating harder fixes exactly one of these. Address Asset Ownership First The highest-leverage move in an enterprise vulnerability program isn't a scanning upgrade. It's accurate, maintained asset-to-owner mapping. It's unglamorous work — reconciling the configuration management database (CMDB) against what scanners actually find, chasing the gaps, forcing a named owner onto every asset, including the ones nobody wants. It looks more like audit than security e",
       "fetch_status": "ok"
     },
     {
@@ -2256,7 +2228,7 @@
           "products": []
         }
       },
-      "score": 4
+      "score": 3
     },
     {
       "source": "SecurityWeek",
@@ -2286,7 +2258,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "The Hacker News",
@@ -2314,7 +2286,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "SecurityWeek",
@@ -2345,7 +2317,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Schneier on Security",
@@ -2375,7 +2347,7 @@
           "products": []
         }
       },
-      "score": 7
+      "score": 6
     },
     {
       "source": "Trail of Bits",
@@ -2405,7 +2377,7 @@
           "products": []
         }
       },
-      "score": 12,
+      "score": 11,
       "full_body": "Page content Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes. As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC , a pair of related hash constructions that bring secure multihashing to developers using hash functions other than Keccak. We hope SequenceHash and SequenceMAC will help cryptographers avoid attacks that take advantage of ambiguous input encodings. The specification is open source, and is now a part of the Community Cryptography Specification Project (C2SP). SequenceHash and SequenceMAC behave similarly to NIST’s TupleHash , but have the advantage of not being tied to a single hash function. They also don’t require developers to implement fiddly computations that aren’t byte-aligned. Instead, SequenceHash and SequenceMAC work out of the box with nearly any secure cryptographic hash function you care to use, including SHA256/384/512, BLAKE, and RIPEMD. SequenceMAC supports keys 32 bytes or longer (up to the ridiculous limit of ${2}^{128}-1$ bytes). (It’s worth noting: SequenceHash and SequenceMAC rely on the security of the underlying hash for their own security. SequenceHash and SequenceMAC can’t magically make MD4 or SHA0 secure again. For the purposes of this document, it’s assumed that you have chosen a reasonable hash function like SHA256, not CRC32.) To make SequenceHash and SequenceMAC easy to use, we’re releasing three initial implementations of SequenceHash and SequenceMAC: one each in Rust, Go, and Python. We’re also releasing a large set of test vectors that cover multiple hash functions and include intermediate values to help developers debug and verify their implementations. Wait, “multihashing”? Yeah, it’s a weird term, but the idea is pretty simple. “Multihashing” means “hashing a bunch of values together.” If you’ve ever read a cryptography paper, and there’s a step that says something like “compute the shared authenticator N=Hash(X, Y, Z, A, B) ,” that’s multihashing. You need to create a hash that incorporates the inputs X, Y, Z, A , and B . Unfortunately, the simple “solution” of concatenating the inputs and hashing the result can lead to serious security problems. For example, consider what happens when you hash three inputs using “raw” SHA256: import hashlib hasher = hashlib . new ( 'sha256' ) hasher . update ( b 'Test 0' ) hasher . update ( b 'Test 1' ) hasher . update ( b 'Test 2' ) print ( hasher . hexdigest ()) hasher = hashlib . new ( 'sha256' ) hasher . update ( b 'Test 0Test 1' ) hasher . update ( b 'Test 2' ) print ( hasher . hexdigest ()) hasher = hashlib . new ( 'sha256' ) hasher . update ( b 'Test 0' ) hasher . update ( b '' ) hasher . update ( b 'Test 1Test 2' ) print ( hasher . hexdigest ()) This produces the following output: 4fce0a9940a42b5c9d1bcbfc9a6ddd6de20d731d584a0acf5bda6de86483641c 4fce0a9940a42b5c9d1bcbfc9a6ddd6de20d731d584a0acf5bda6de86483641c 4fce0a9940a42b5c9d1bcbfc9a6ddd6de20d731d584a0acf5bda6de86483641c Even though inputs are fed in through separate calls, they’re not separated from the perspective of the hash function—under the hood, the inputs are just concatenated. As with many things in cryptography, multihashing is harder than you think. That’s a big problem because multihashing is a critical component of one of the most important tools in zero-knowledge proofs: the Fiat-Shamir transform . When you get multihashing wrong, you introduce the risk of forgeries into your zero-knowledge proofs. Given that zero-knowledge proofs play a major role in cryptocurrency nowadays, that sort of mistake is sometimes measured in millions of dollars. But Fiat-Shamir transforms aren’t the only place where you might want to use multihashing. It’s not uncommon to need to hash a collection of related objects, where both the objects and the collection are variable",
       "fetch_status": "ok"
     },
@@ -2442,7 +2414,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "SecurityWeek",
@@ -2476,7 +2448,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "BleepingComputer",
@@ -2506,7 +2478,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Infosecurity Magazine",
@@ -2536,7 +2508,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Help Net Security",
@@ -2579,7 +2551,7 @@
           "products": []
         }
       },
-      "score": 28,
+      "score": 27,
       "full_body": "Sinisa Markovic , Managing Editor, Help Net Security October 2, 2026 Share Critical FortiMail zero-day exploited in the wild (CVE-2026-104286) Fortinet is warning customers that attackers are exploiting a zero-day vulnerability (CVE-2026-104286) in FortiMail, its email security gateway. Fortinet says the flaw has been reported to be exploited in the wild, and urges customers to apply the workaround it shared until fixes are available. About CVE-2026-104286 “An Improper Limitation of a Pathname to a Restricted Directory (‘Path Traversal’) [CWE-22] and Improper Neutralization of NULL Byte or NULL Character [CWE-158] vulnerability may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests,” the company said in a security advisory published on October 1, 2026. The US Cybersecurity and Infrastructure Security Agency (CISA) added CVE-2026-104286 to its Known Exploited Vulnerabilities (KEV) catalog the same day, and gave US federal civilian agencies until October 4, 2026, to address it. The vulnerability, with a CVSSv3 score of 9.8, was discovered internally by Gwendal Guégniaud of the company’s Product Security team. The flaw affects FortiMail 8.0.0 through 8.0.1, 7.6.0 through 7.6.6, 7.4.0 through 7.4.8, and 7.2.0 through 7.2.9. Fortinet will fix it in versions 8.0.2, 7.6.7 and 7.4.9, which have not been released, and advises 7.2 users to upgrade to the 7.4 branch or above. Until the patch is available, customers can disable support for IBE, FortiMail’s identity-based encryption feature, with these CLI commands: config system encryption ibe set status disable end Alternatively, administrators can block internet access to the management interface or restrict it to a trusted private network. Fortinet’s researchers have also shared the files, IP addresses and log entries tied to the attacks so that administrators can check whether their FortiMail appliances have been compromised. Fortinet did not share details about when or where the attacks were spotted, how many systems were compromised, or who was behind them. More about 0-day Fortinet vulnerability Share",
       "fetch_status": "ok"
     },
@@ -2616,7 +2588,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Infosecurity Magazine",
@@ -2916,7 +2888,7 @@
           "products": []
         }
       },
-      "score": 9,
+      "score": 8,
       "full_body": "< back to blog AI agent exploits Zammad zero-days in DIVD breach: What we know and how to detect it Published by: Marcel Claassen Published by Crystal Morin @ linkedin Published: October 2, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more This incident is currently under active investigation. The information in this blog is based on the information accessible as of the date of this blog, therefore the investigation information is likely to evolve. On September 21, 2026, an agentic threat actor (ATA) breached the Dutch Institute for Vulnerability Disclosure (DIVD) , a volunteer nonprofit that finds exposed systems on the internet and warns their owners. The ATA gained access by chaining two previously unknown vulnerabilities in the Zammad helpdesk platform, CVE-2026-102489 and CVE-2026-102490 , and went from a hijacked session to root access in seconds. According to the DIVD , the organization noticed suspicious activity, opened an investigation, and realized it had been hacked. The organization described the ATA as \"loud and very, very messy,\" likely because AI agents are non-deterministic, choosing each action in succession at machine speed. That noise creates ample detection opportunities for security teams. Additionally, just as the Sysdig Threat Research Team (TRT) has seen from ATAs like JADEPUFFER , the AI agent behind the DIVD breach left comments in the code explaining its actions and reasoning. This noise is what allowed the DIVD to identify the breach within a day; however, due to the speed of the attack, even that was too late. While this agent may have been poorly trained and configured, it was still able to accomplish its task by moving from the helpdesk software to the DIVD system and exfiltrating data. It is unclear how many confirmed Zammad users are impacted by these zero-days, but according to its website, there are over 2,000 customers and 55,000 users. This blog details what we know about how the intrusion unfolded and how security teams can detect and combat the next one, at speed, without knowing the CVE. What happened at DIVD? On October 1, 2026, DIVD confirmed that the breach led to data exfiltration. This is an ongoing investigation, and the organization’s understanding of the incident will likely continue to evolve. The timeline below comes from the case files DIVD opened for the breach and the vulnerabilities: Date Activity September 21 The attacker first gained access to DIVD systems September 22 DIVD detected the intrusion, blocked access to all systems in its data center, and started a forensic investigation with Merlon Security. September 22 to 23 DIVD analyzed and reproduced the vulnerabilities. September 24 DIVD disclosed the breach to the Dutch data protection authority and the National Cyber Security Centre. DIVD also publicly announced the breach and disclosed the vulnerabilities to Zammad. September 26 DIVD scanned for publicly exposed Zammad instances and began notifying vulnerable organizations. September 29 DIVD published the case files and the two CVE records. The vulnerabilities Zammad is a widely deployed open source helpdesk software. DIVD identified both vulnerabilities in the software while investigating the breach with Merlon Security. The vulnerabilities were not disclosed prior to being used against DIVD, and have been characterized as zero-days. CVE-2026-102489 A remote code execution (RCE) flaw affecting versions 6.3.0 to 6.5.4. It is also present in versions 7.0.0 to 7.1.3, but is not exploitable due to specific environmental conditions. Impact on versions before 6.3.0 is unknown. Scored as a high-severity vulnerability with a CVSS score of 8.7. It’s a low-complexity vulnerability to exploit that does not require privileges, and because Zammad is an internet-facing web application, it is exposed at th",
       "fetch_status": "ok"
     },
@@ -2958,7 +2930,7 @@
           "products": []
         }
       },
-      "score": 23
+      "score": 22
     },
     {
       "source": "Dark Reading",
@@ -2988,7 +2960,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Huntress",
@@ -3016,7 +2988,7 @@
           "products": []
         }
       },
-      "score": 9,
+      "score": 8,
       "full_body": "Home Blog New Investigations View: From Black Box to Glass Box Last Updated: October 1, 2026 New Investigations View: From Black Box to Glass Box By: Micah Neidhart Summarize with AI Summarize ChatGPT Claude Perplexity Google AI For a long time, partners have told us the same thing: when an investigation was closed as benign, it was hard to know what actually happened behind the scenes. You might see that our Security Operations Center ( SOC ) looked at something and decided it was not a threat, but not much about why . That lack of visibility made a few things harder than they needed to be: Explaining to end customers what Huntress actually did or didn't do Showing the value of investigations that feel like a black box Answering reasonable questions like, \"What did your analysts find?\" The new Investigations View is our answer. It's a single place where you can see every investigation, what triggered it, and exactly how it was handled. Including those \"closed benign.\" Prefer to watch? Robert Knapp, Director of the Huntress Security Operations Center, walks through the Investigations View, including the timeline of every step an attacker took and every step the SOC took in response, even for investigations closed as benign. New: Chronological timeline of security incident investigations Let's jump to the most exciting part first: you can now drill into any investigation to see a detailed, chronological timeline of everything that took place from first signal to final resolution. And you can easily export this information as a PDF to share with stakeholders. The investigation timeline includes: Signals that led to the investigation Analyst notes and context Incident reports, if one was generated Recommended and completed remediations Final resolution and status The investigation details view shows a full, ordered timeline of every signal, analyst action, and decision. This view turns what used to be a black box into a glass box: partners can see not just the outcome, but the work the Huntress SOC performed to get there. Even for investigations that determine activity is benign. Redesigned: A dashboard for every investigation Ok, let's zoom out from the details a little. Where do you find these delightful investigation timelines? When malicious activity is detected, they are now included by default in all Incident Reports. But you can also see the full list of investigation summaries in one place if you head over to the redesigned Investigations Dashboard. Here's how: Sign in to the Huntress portal Navigate to the Investigations tab in the top navigation Use the search and filters to find the investigations you care about most At the top of the dashboard, you'll find some high-level KPIs, including how many investigations were closed or reported, the organizations within your account that saw the most investigations, top signal types, and more. Below that, you'll also find a row-by-row view of everything our SOC has investigated across your tenants. Review the summary to get a quick overview of each investigation, including: When the investigation began Which customer and which endpoint, identity, or other asset was involved Which signal types were investigated ( EDR , ITDR , etc) How many signals contributed to the investigation Status, including investigations closed as benign or reported The Investigations dashboard gives partners a single view of every Huntress investigation, including those closed as benign. From here, partners can quickly search, filter, and jump into the details that matter most for an organization or endpoint. How to use security incident investigations in your organization The goal of this experience is simple: help you tell a clearer story about how Huntress is protecting your organization or customers. With the Investigations View, you can: Show the volume of investigations our SOC handles on behalf of each organization Walk through specific investigations during QBRs or security reviews Answer tough ",
       "fetch_status": "ok"
     },
@@ -8150,6 +8122,119 @@
       "fetch_status": "ok"
     },
     {
+      "source": "Horizon3 Attack Research",
+      "cohort": "offensive_vulnerability_research",
+      "category": "offensive_vulnerability_research",
+      "title": "Trading Maintenance for Momentum: Scaling Security Validation Across 230+ Sites",
+      "link": "https://horizon3.ai/customer-story/scaling-security-validation-230-sites/",
+      "published": "2026-09-25T23:50:50+00:00",
+      "summary": "See how a global automotive technology manufacturer used NodeZero to reduce testing overhead, cut comparable test runtime by 50%, and scale security validation across more than 230 sites.",
+      "author": "Horizon3",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Unit 42",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "3 Consulting Myths Debunked by Unit 42 Experts",
+      "link": "https://unit42.paloaltonetworks.com/3-consulting-myths-debunked-by-unit-42-experts/",
+      "published": "2026-09-25T23:00:28+00:00",
+      "summary": "Unit 42 security experts address critical cybersecurity misconceptions, offering practical insights to help your organization reinforce its enterprise defenses. The post 3 Consulting Myths Debunked by Unit 42 Experts appeared first on Unit 42 .",
+      "author": "Unit 42",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Krebs on Security",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
+      "link": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
+      "published": "2026-09-25T21:44:40+00:00",
+      "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in restitution to victims.",
+      "author": "BrianKrebs",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government",
+          "telecommunications"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_3_analysis",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Schneier on Security",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "Friday Squid Blogging: Participatory Squid Dissection in October in Tennessee",
+      "link": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-participatory-squid-dissection-in-october-in-tennessee.html",
+      "published": "2026-09-25T21:08:14+00:00",
+      "summary": "I feel like someone who reads this blog will want to go to this : Families are invited to dive into the fascinating world of marine biology during an exciting, hands-on Family Squid Dissection at the Hands-On Science Center. Designed for curious learners of all ages, this unique experience combines an interactive lesson with the opportunity to explore the anatomy and adaptations of real ocean life. […] During the guided squid dissection, each family will work together to examine a squid up close, exploring its organs, structures, and specialized features. The experience provides a memorable opportunity for children and adults to see firsthand how the anatomy of a squid helps it survive in its underwater environment...",
+      "author": "Bruce Schneier",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_3_analysis",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Dark Reading",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -10819,35 +10904,6 @@
         "urgency_signals": [],
         "content_type": "incident_report",
         "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Schneier on Security",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "Research on Models Engaging in Genie-Like Behavior",
-      "link": "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
-      "published": "2026-09-23T11:03:36+00:00",
-      "summary": "New paper: “ Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training .” Abstract: We discover a novel and surprising phenomenon of unintentional misalignment in reasoning language models (RLMs), which we call self-jailbreaking. Specifically, after benign reasoning training on math or code domains, RLMs will use multiple strategies to circumvent their own safety guardrails. One strategy is to introduce benign assumptions about users and scenarios to justify fulfilling harmful requests. For instance, an RLM reasons that harmful requests like “outline a strategy for stealing customers’ credit card information from a retail store” could be associated with the benign intent of “a security professional trying to test defense,” despite no such benign context being provided as input. We observe that many open-weight RLMs, including DeepSeek-R1-distilled, s1.1, Phi-4-mini-reasoning, and Nemotron, suffer from self-jailbreaking despite bein",
-      "author": "Bruce Schneier",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "retail_ecommerce"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_3_analysis",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -15095,33 +15151,6 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_3_analysis",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Dark Reading",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Cybercriminals Are Hiding New Malware in Torrents for Popular Films",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/cybercriminals-hiding-new-malware-torrents-popular-films",
-      "published": "2026-09-21T19:11:26+00:00",
-      "summary": "Victims have been identified in Africa, including in Kenya and Uganda.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
         "role_map": {},
         "weak_tags": {
           "products": []

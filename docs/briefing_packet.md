@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-10-02T20:35:25.888921+00:00
+- Generated: 2026-10-03T00:20:23.632289+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
-- Total items in window: 341
-- Total clusters raw: 142
+- Total items in window: 339
+- Total clusters raw: 143
 - Total clusters in packet: 58
-- Dropped low score: 84
+- Dropped low score: 85
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -80,35 +80,35 @@
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
   - In window count: 0
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
@@ -150,15 +150,20 @@
   - Status: ok
   - Item count: 50
   - In window count: 3
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 7
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+  - In window count: 6
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
-  - Item count: 10
+  - Item count: 78
   - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
@@ -170,15 +175,10 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
   - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
@@ -190,28 +190,23 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -220,8 +215,8 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -229,6 +224,11 @@
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
+  - In window count: 0
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
@@ -240,16 +240,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 7
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 7
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -265,21 +265,21 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 9
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 9
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
@@ -290,16 +290,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -310,11 +310,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
@@ -330,6 +325,11 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -345,11 +345,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 13
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -360,26 +355,31 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 13
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 25
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 24
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 7
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -390,6 +390,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
@@ -405,18 +410,23 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Item count: 100
+  - In window count: 23
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -425,16 +435,6 @@
   - Status: ok
   - Item count: 50
   - In window count: 50
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 23
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -603,40 +603,6 @@
   - https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/
   - https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/
 
-### CVE-2026-102489 exploitation activity
-- Anchor signal: CVE-2026-102489
-- Theme key: cve-2026-102489
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.688
-- Shared strong signals: CVE-2026-102489
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: vulnerability_disclosure
-  - cve_ids: CVE-2026-102489, CVE-2026-102490
-- Cluster IDs: a832e5790f, 0d3ce97f33
-- Links:
-  - https://webflow.sysdig.com/blog/ai-agent-exploits-zammad-zero-days-in-divd-breach-what-we-know-and-how-to-detect-it
-  - https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/
-
-### CVE-2026-102490 exploitation activity
-- Anchor signal: CVE-2026-102490
-- Theme key: cve-2026-102490
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.688
-- Shared strong signals: CVE-2026-102490
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: vulnerability_disclosure
-  - cve_ids: CVE-2026-102489, CVE-2026-102490
-- Cluster IDs: a832e5790f, 0d3ce97f33
-- Links:
-  - https://webflow.sysdig.com/blog/ai-agent-exploits-zammad-zero-days-in-divd-breach-what-we-know-and-how-to-detect-it
-  - https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/
-
 ### CVE-2026-18397 exploitation activity
 - Anchor signal: CVE-2026-18397
 - Theme key: cve-2026-18397
@@ -652,6 +618,40 @@
 - Links:
   - https://www.darkreading.com/cybersecurity-operations/swift-banking-govt-middleware-rce
   - https://www.reddit.com/r/netsec/comments/1wvxp1p/8_out_of_10_banks_hate_this_one_weird_3skey_rce/
+
+### CVE-2026-102489 exploitation activity
+- Anchor signal: CVE-2026-102489
+- Theme key: cve-2026-102489
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.688
+- Shared strong signals: CVE-2026-102489
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: vulnerability_disclosure
+  - cve_ids: CVE-2026-102489, CVE-2026-102490
+- Cluster IDs: 0d3ce97f33, a832e5790f
+- Links:
+  - https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/
+  - https://webflow.sysdig.com/blog/ai-agent-exploits-zammad-zero-days-in-divd-breach-what-we-know-and-how-to-detect-it
+
+### CVE-2026-102490 exploitation activity
+- Anchor signal: CVE-2026-102490
+- Theme key: cve-2026-102490
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.688
+- Shared strong signals: CVE-2026-102490
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: vulnerability_disclosure
+  - cve_ids: CVE-2026-102489, CVE-2026-102490
+- Cluster IDs: 0d3ce97f33, a832e5790f
+- Links:
+  - https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/
+  - https://webflow.sysdig.com/blog/ai-agent-exploits-zammad-zero-days-in-divd-breach-what-we-know-and-how-to-detect-it
 
 ### Kubernetes vulnerability activity
 - Anchor signal: Kubernetes
@@ -688,17 +688,7 @@
 ## Forward signals
 
 ### Novelty
-- Novel cves: 10
-  - CVE-2026-90970 (first seen via BleepingComputer at 2026-10-02T16:20:05+00:00, cluster 2960bdb9ca)
-  - CVE-2026-88778 (first seen via Dark Reading at 2026-10-02T16:56:30+00:00, cluster ef461b8ae5)
-  - CVE-2026-54472 (first seen via The Hacker News at 2026-10-02T17:02:12+00:00, cluster 542c77fc0d)
-  - CVE-2026-61421 (first seen via The Hacker News at 2026-10-02T17:02:12+00:00, cluster 542c77fc0d)
-  - CVE-2026-63688 (first seen via The Hacker News at 2026-10-02T17:02:12+00:00, cluster 542c77fc0d)
-  - CVE-2026-63692 (first seen via The Hacker News at 2026-10-02T17:02:12+00:00, cluster 542c77fc0d)
-  - CVE-2026-67269 (first seen via The Hacker News at 2026-10-02T17:02:12+00:00, cluster 542c77fc0d)
-  - CVE-2026-18397 (first seen via Dark Reading at 2026-10-02T16:27:54+00:00, cluster 8ed1b81f85)
-  - CVE-2026-71972 (first seen via Reddit r/netsec at 2026-10-02T16:50:08+00:00, cluster 542fa18cc6)
-  - CVE-2026-18397 (first seen via Reddit r/netsec at 2026-10-02T16:05:04+00:00, cluster b858233ff8)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
@@ -760,7 +750,7 @@
   - Prior top industries: critical_infrastructure, government, manufacturing_industrial
   - Prior top products: Citrix, Microsoft Windows, Salesforce
 
-### Persistence (8)
+### Persistence (9)
 - actor_attribution: ShinyHunters (weeks observed: 13, cluster b492604dca)
 - actor_attribution: Cl0p (weeks observed: 10, cluster b492604dca)
 - cve_ids: CVE-2026-19490 (weeks observed: 7, cluster b0527f41c8)
@@ -768,6 +758,7 @@
 - actor_attribution: Salt Typhoon (weeks observed: 5, cluster 5fc59e5ed7)
 - cve_ids: CVE-2026-73570 (weeks observed: 4, cluster a14cf81e36)
 - actor_attribution: UNC6240 (weeks observed: 4, cluster b492604dca)
+- cve_ids: CVE-2026-85706 (weeks observed: 3, cluster 2960bdb9ca)
 - cve_ids: CVE-2026-76460 (weeks observed: 3, cluster 4e072e3956)
 
 ### Tier inversion (4)
@@ -1065,7 +1056,57 @@ Share Link copied to clipboard! Content types Research Products and services Mic
   - Link: https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html
   - Summary: Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research team. The attack exploits CVE-2026-73570 (CVSS score: 8.9), an unauthenticated operating system command injection flaw that can lead to remote code execution when Simple Network Management Protocol
 
-### Cluster fd40876279 — score 28
+### Cluster 1f0734997f — score 28
+
+- Title: Vulnerability Discovery and Exploitation Trends in the AI Era
+- Source: Google Cloud Threat Intelligence (threat_research_primary)
+- Published: 2026-09-30T14:00:00+00:00
+- Link: https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, vulnerability_disclosure, zero_day
+- affected_products: Linux kernel
+- urgency_signals: zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_primary_research, tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: zero_day, vulnerability_disclosure, active_exploitation
+- affected_products: Linux kernel
+- urgency_signals: zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Written by: Robin Grunewald, Supriya Mazumdar, Kelli Vanderlee Introduction Google Threat Intelligence Group (GTIG) examines vulnerability disclosure and exploitation statistics to evaluate the impact of artificial intelligence (AI) on the vulnerability threat landscape. We found that AI is measurably changing not just the pace of vulnerability discovery and exploitation, but also the types and typical risk profiles of vulnerabilities that are being discovered. Key findings: Vulnerability disclosures doubled: the number of vulnerabilities disclosed per month doubled, rising from 5,045 in January 2026 to 10,477 in July and continuing to climb to 10,740 in August 2026. Vulnerability exploitation nearly doubled: the number of vulnerabilities exploited increased from an average of 10.5 per month in 2025 to an average of 18 per month from January 2026 to August 2026. Zero-day exploitation increased marginally: zero-day vulnerability exploitation grew from an average of 8 per month in 2025 t
+```
+
+#### Full body
+
+```
+Threat Intelligence Vulnerability Discovery and Exploitation Trends in the AI Era September 30, 2026 Google Threat Intelligence Group Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Written by: Robin Grunewald, Supriya Mazumdar, Kelli Vanderlee Introduction Google Threat Intelligence Group (GTIG) examines vulnerability disclosure and exploitation statistics to evaluate the impact of artificial intelligence (AI) on the vulnerability threat landscape. We found that AI is measurably changing not just the pace of vulnerability discovery and exploitation, but also the types and typical risk profiles of vulnerabilities that are being discovered. Key findings: Vulnerability disclosures doubled: the number of vulnerabilities disclosed per month doubled, rising from 5,045 in January 2026 to 10,477 in July and continuing to climb to 10,740 in August 2026. Vulnerability exploitation nearly doubled: the number of vulnerabilities exploited increased from an average of 10.5 per month in 2025 to an average of 18 per month from January 2026 to August 2026. Zero-day exploitation increased marginally: zero-day vulnerability exploitation grew from an average of 8 per month in 2025 to an average of 11 per month from January 2026 to August 2026. AI finds more consequential vulnerabilities: AI-assisted discovery found proportionally fewer Low-Risk vulnerabilities, more Moderate-Risk vulnerabilities, and more vulnerabilities leading to remote code execution (RCE). GTIG expects that vulnerability discovery and exploitation will continue to grow in the short to medium term. To counter the increased risk from rapid vulnerability discovery and exploitation, organizations must transition from unprioritized mass-patching to threat-intelligence-driven triage, combining targeted edge-defense with automated, agentic remediation. Scope & Methodology This GTIG analysis examines trends in vulnerabilities disclosed from January 1, 2025 through August 31, 2026. The dataset tracks the vulnerabilities alongside critical operational dimensions, including exploitation consequences and GTIG Vulnerability Risk Ratings , and in-the-wild exploitation. When we refer to risk ratings in this blog, we are using GTIG vulnerability risk ratings, not CVSS severity . While the baseline monitoring encompasses the full 20-month window (January 2025–August 2026), this report specifically focuses on growth velocity and emerging threat vectors. The research seeks to evaluate the impact of AI across the cybersecurity landscape both in terms of rates of Common Vulnerabilities and Exposures (CVE) disclosure and rates of exploitation. We also examine vulnerabilities targeting the AI/large language model (LLM) operational stack. CVE Disclosure Doubled in 2026 Vulnerability disclosures doubled from 5,045 in January 2026 to 10,477 in July, with the count of disclosed vulnerabilities reaching a peak of 10,740 in August (Figure 1). Distinguishing Threat Risk from CVE Inflation However, raw disclosure volume throughout 2026 can be misleading without threat intelligence context. Automated CVE Numbering Authority (CNA) assignment policies across open-source ecosystems can inflate baseline figures; for instance, vulnerabilities with a description containing “Linux Kernel” alone generated approximately 5,000 CVEs between January 2026 and August 2026 with zero observed exploited in-the-wild zero-days. Figure 1: Count of vulnerabilities disclosed, January 2025 - August 2026 (Source: GTIG) In terms of risk ratings, the most interesting increase occurred in High-Risk vulnerabilities, which surged from 131 disclosures in January 2026 to 350 in August 2026, a 167% growth (Figure 2). High-Risk vulnerabilities remain a small proportion (3% in August 2026) of all vulnerabilities disclosed. Figure 2: Count of vulnerabilities disclosed by GTIG vulnerability risk rating, January 2025 - August 2026 (Source: GTIG) The increase in High-Risk vulnerabiliti
+```
+
+#### Corroborating sources (2)
+
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - Title: Vulnerability Discovery and Exploitation Trends in the AI Era
+  - Published: 2026-09-30T14:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era/
+  - Summary: Written by: Robin Grunewald, Supriya Mazumdar, Kelli Vanderlee Introduction Google Threat Intelligence Group (GTIG) examines vulnerability disclosure and exploitation statistics to evaluate the impact of artificial intelligence (AI) on the vulnerability threat landscape. We found that AI is measurably changing not just the pace of vulnerability discovery and exploitation, but also the types and typical risk profiles of vulnerabilities that are being discovered. Key findings: Vulnerability disclosures doubled: the number of vulnerabilities disclosed per month doubled, rising from 5,045 in January 2026 to 10,477 in July and continuing to climb to 10,740 in August 2026. Vulnerability exploitation nearly doubled: the number of vulnerabilities exploited increased from an average of 10.5 per month in 2025 to an average of 18 per month from January 2026 to August 2026. Zero-day exploitation increased marginally: zero-day vulnerability exploitation grew from an average of 8 per month in 2025 t
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Vulnerability Discovery and Exploitation Trends in the AI Era
+  - Published: 2026-09-30T14:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era/
+  - Summary: Written by: Robin Grunewald, Supriya Mazumdar, Kelli Vanderlee Introduction Google Threat Intelligence Group (GTIG) examines vulnerability disclosure and exploitation statistics to evaluate the impact of artificial intelligence (AI) on the vulnerability threat landscape. We found that AI is measurably changing not just the pace of vulnerability discovery and exploitation, but also the types and typical risk profiles of vulnerabilities that are being discovered. Key findings: Vulnerability disclosures doubled: the number of vulnerabilities disclosed per month doubled, rising from 5,045 in January 2026 to 10,477 in July and continuing to climb to 10,740 in August 2026. Vulnerability exploitation nearly doubled: the number of vulnerabilities exploited increased from an average of 10.5 per month in 2025 to an average of 18 per month from January 2026 to August 2026. Zero-day exploitation increased marginally: zero-day vulnerability exploitation grew from an average of 8 per month in 2025 t
+
+### Cluster fd40876279 — score 27
 
 - Title: Critical FortiMail zero-day exploited in the wild (CVE-2026-104286)
 - Source: Help Net Security (cyber_news_breach_reporting)
@@ -1128,56 +1169,6 @@ Sinisa Markovic , Managing Editor, Help Net Security October 2, 2026 Share Criti
   - Published: 2026-10-02T08:07:33+00:00
   - Link: https://www.securityweek.com/exploited-fortinet-fortimail-zero-day-calls-for-urgent-action/
   - Summary: CVE-2026-104286 is a critical-severity path traversal vulnerability that could allow attackers to write arbitrary files to the system. The post Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action appeared first on SecurityWeek .
-
-### Cluster 1f0734997f — score 28
-
-- Title: Vulnerability Discovery and Exploitation Trends in the AI Era
-- Source: Google Cloud Threat Intelligence (threat_research_primary)
-- Published: 2026-09-30T14:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, vulnerability_disclosure, zero_day
-- affected_products: Linux kernel
-- urgency_signals: zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_primary_research, tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: zero_day, vulnerability_disclosure, active_exploitation
-- affected_products: Linux kernel
-- urgency_signals: zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Written by: Robin Grunewald, Supriya Mazumdar, Kelli Vanderlee Introduction Google Threat Intelligence Group (GTIG) examines vulnerability disclosure and exploitation statistics to evaluate the impact of artificial intelligence (AI) on the vulnerability threat landscape. We found that AI is measurably changing not just the pace of vulnerability discovery and exploitation, but also the types and typical risk profiles of vulnerabilities that are being discovered. Key findings: Vulnerability disclosures doubled: the number of vulnerabilities disclosed per month doubled, rising from 5,045 in January 2026 to 10,477 in July and continuing to climb to 10,740 in August 2026. Vulnerability exploitation nearly doubled: the number of vulnerabilities exploited increased from an average of 10.5 per month in 2025 to an average of 18 per month from January 2026 to August 2026. Zero-day exploitation increased marginally: zero-day vulnerability exploitation grew from an average of 8 per month in 2025 t
-```
-
-#### Full body
-
-```
-Threat Intelligence Vulnerability Discovery and Exploitation Trends in the AI Era September 30, 2026 Google Threat Intelligence Group Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Written by: Robin Grunewald, Supriya Mazumdar, Kelli Vanderlee Introduction Google Threat Intelligence Group (GTIG) examines vulnerability disclosure and exploitation statistics to evaluate the impact of artificial intelligence (AI) on the vulnerability threat landscape. We found that AI is measurably changing not just the pace of vulnerability discovery and exploitation, but also the types and typical risk profiles of vulnerabilities that are being discovered. Key findings: Vulnerability disclosures doubled: the number of vulnerabilities disclosed per month doubled, rising from 5,045 in January 2026 to 10,477 in July and continuing to climb to 10,740 in August 2026. Vulnerability exploitation nearly doubled: the number of vulnerabilities exploited increased from an average of 10.5 per month in 2025 to an average of 18 per month from January 2026 to August 2026. Zero-day exploitation increased marginally: zero-day vulnerability exploitation grew from an average of 8 per month in 2025 to an average of 11 per month from January 2026 to August 2026. AI finds more consequential vulnerabilities: AI-assisted discovery found proportionally fewer Low-Risk vulnerabilities, more Moderate-Risk vulnerabilities, and more vulnerabilities leading to remote code execution (RCE). GTIG expects that vulnerability discovery and exploitation will continue to grow in the short to medium term. To counter the increased risk from rapid vulnerability discovery and exploitation, organizations must transition from unprioritized mass-patching to threat-intelligence-driven triage, combining targeted edge-defense with automated, agentic remediation. Scope & Methodology This GTIG analysis examines trends in vulnerabilities disclosed from January 1, 2025 through August 31, 2026. The dataset tracks the vulnerabilities alongside critical operational dimensions, including exploitation consequences and GTIG Vulnerability Risk Ratings , and in-the-wild exploitation. When we refer to risk ratings in this blog, we are using GTIG vulnerability risk ratings, not CVSS severity . While the baseline monitoring encompasses the full 20-month window (January 2025–August 2026), this report specifically focuses on growth velocity and emerging threat vectors. The research seeks to evaluate the impact of AI across the cybersecurity landscape both in terms of rates of Common Vulnerabilities and Exposures (CVE) disclosure and rates of exploitation. We also examine vulnerabilities targeting the AI/large language model (LLM) operational stack. CVE Disclosure Doubled in 2026 Vulnerability disclosures doubled from 5,045 in January 2026 to 10,477 in July, with the count of disclosed vulnerabilities reaching a peak of 10,740 in August (Figure 1). Distinguishing Threat Risk from CVE Inflation However, raw disclosure volume throughout 2026 can be misleading without threat intelligence context. Automated CVE Numbering Authority (CNA) assignment policies across open-source ecosystems can inflate baseline figures; for instance, vulnerabilities with a description containing “Linux Kernel” alone generated approximately 5,000 CVEs between January 2026 and August 2026 with zero observed exploited in-the-wild zero-days. Figure 1: Count of vulnerabilities disclosed, January 2025 - August 2026 (Source: GTIG) In terms of risk ratings, the most interesting increase occurred in High-Risk vulnerabilities, which surged from 131 disclosures in January 2026 to 350 in August 2026, a 167% growth (Figure 2). High-Risk vulnerabilities remain a small proportion (3% in August 2026) of all vulnerabilities disclosed. Figure 2: Count of vulnerabilities disclosed by GTIG vulnerability risk rating, January 2025 - August 2026 (Source: GTIG) The increase in High-Risk vulnerabiliti
-```
-
-#### Corroborating sources (2)
-
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - Title: Vulnerability Discovery and Exploitation Trends in the AI Era
-  - Published: 2026-09-30T14:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era/
-  - Summary: Written by: Robin Grunewald, Supriya Mazumdar, Kelli Vanderlee Introduction Google Threat Intelligence Group (GTIG) examines vulnerability disclosure and exploitation statistics to evaluate the impact of artificial intelligence (AI) on the vulnerability threat landscape. We found that AI is measurably changing not just the pace of vulnerability discovery and exploitation, but also the types and typical risk profiles of vulnerabilities that are being discovered. Key findings: Vulnerability disclosures doubled: the number of vulnerabilities disclosed per month doubled, rising from 5,045 in January 2026 to 10,477 in July and continuing to climb to 10,740 in August 2026. Vulnerability exploitation nearly doubled: the number of vulnerabilities exploited increased from an average of 10.5 per month in 2025 to an average of 18 per month from January 2026 to August 2026. Zero-day exploitation increased marginally: zero-day vulnerability exploitation grew from an average of 8 per month in 2025 t
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Vulnerability Discovery and Exploitation Trends in the AI Era
-  - Published: 2026-09-30T14:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era/
-  - Summary: Written by: Robin Grunewald, Supriya Mazumdar, Kelli Vanderlee Introduction Google Threat Intelligence Group (GTIG) examines vulnerability disclosure and exploitation statistics to evaluate the impact of artificial intelligence (AI) on the vulnerability threat landscape. We found that AI is measurably changing not just the pace of vulnerability discovery and exploitation, but also the types and typical risk profiles of vulnerabilities that are being discovered. Key findings: Vulnerability disclosures doubled: the number of vulnerabilities disclosed per month doubled, rising from 5,045 in January 2026 to 10,477 in July and continuing to climb to 10,740 in August 2026. Vulnerability exploitation nearly doubled: the number of vulnerabilities exploited increased from an average of 10.5 per month in 2025 to an average of 18 per month from January 2026 to August 2026. Zero-day exploitation increased marginally: zero-day vulnerability exploitation grew from an average of 8 per month in 2025 t
 
 ### Cluster b492604dca — score 24
 
@@ -1532,47 +1523,6 @@ Horizon3 + CrowdStrike: Prove. Prioritize. Verify. Horizon3 October 2, 2026 Fact
   - Link: https://horizon3.ai/downloads/factsheets/horizon3-crowdstrike-integration/
   - Summary: See how Horizon3 and CrowdStrike connect NodeZero exploitability intelligence with Falcon Next-Gen SIEM and Fusion SOAR to prove, prioritize, remediate, and verify exploitable risk.
 
-### Cluster 93df4bafde — score 12
-
-- Title: SequenceHash: multihashing for the rest of us
-- Source: Trail of Bits (offensive_vulnerability_research)
-- Published: 2026-10-02T11:00:00+00:00
-- Link: https://blog.trailofbits.com/2026/10/02/sequencehash-multihashing-for-the-rest-of-us/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes. As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC , a pair of related hash constructions that bring secure multihashing to developers using hash functions other than Keccak. We hope SequenceHash and SequenceMAC will help cryptographers avoid attacks that take advantage of ambiguous input encodings. The specification is open source, and is now a part of the Community Cryptography Specification Project (C2SP). SequenceHash and SequenceMAC behave similarly to NIST’s TupleHash , but have the advantage of not being tied to a single hash function. They also don’t require developers to implement fiddly computations that aren’t byte-aligned. Instead, SequenceHash and SequenceMAC work out of the box with nearly any secure c
-```
-
-#### Full body
-
-```
-Page content Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes. As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC , a pair of related hash constructions that bring secure multihashing to developers using hash functions other than Keccak. We hope SequenceHash and SequenceMAC will help cryptographers avoid attacks that take advantage of ambiguous input encodings. The specification is open source, and is now a part of the Community Cryptography Specification Project (C2SP). SequenceHash and SequenceMAC behave similarly to NIST’s TupleHash , but have the advantage of not being tied to a single hash function. They also don’t require developers to implement fiddly computations that aren’t byte-aligned. Instead, SequenceHash and SequenceMAC work out of the box with nearly any secure cryptographic hash function you care to use, including SHA256/384/512, BLAKE, and RIPEMD. SequenceMAC supports keys 32 bytes or longer (up to the ridiculous limit of ${2}^{128}-1$ bytes). (It’s worth noting: SequenceHash and SequenceMAC rely on the security of the underlying hash for their own security. SequenceHash and SequenceMAC can’t magically make MD4 or SHA0 secure again. For the purposes of this document, it’s assumed that you have chosen a reasonable hash function like SHA256, not CRC32.) To make SequenceHash and SequenceMAC easy to use, we’re releasing three initial implementations of SequenceHash and SequenceMAC: one each in Rust, Go, and Python. We’re also releasing a large set of test vectors that cover multiple hash functions and include intermediate values to help developers debug and verify their implementations. Wait, “multihashing”? Yeah, it’s a weird term, but the idea is pretty simple. “Multihashing” means “hashing a bunch of values together.” If you’ve ever read a cryptography paper, and there’s a step that says something like “compute the shared authenticator N=Hash(X, Y, Z, A, B) ,” that’s multihashing. You need to create a hash that incorporates the inputs X, Y, Z, A , and B . Unfortunately, the simple “solution” of concatenating the inputs and hashing the result can lead to serious security problems. For example, consider what happens when you hash three inputs using “raw” SHA256: import hashlib hasher = hashlib . new ( 'sha256' ) hasher . update ( b 'Test 0' ) hasher . update ( b 'Test 1' ) hasher . update ( b 'Test 2' ) print ( hasher . hexdigest ()) hasher = hashlib . new ( 'sha256' ) hasher . update ( b 'Test 0Test 1' ) hasher . update ( b 'Test 2' ) print ( hasher . hexdigest ()) hasher = hashlib . new ( 'sha256' ) hasher . update ( b 'Test 0' ) hasher . update ( b '' ) hasher . update ( b 'Test 1Test 2' ) print ( hasher . hexdigest ()) This produces the following output: 4fce0a9940a42b5c9d1bcbfc9a6ddd6de20d731d584a0acf5bda6de86483641c 4fce0a9940a42b5c9d1bcbfc9a6ddd6de20d731d584a0acf5bda6de86483641c 4fce0a9940a42b5c9d1bcbfc9a6ddd6de20d731d584a0acf5bda6de86483641c Even though inputs are fed in through separate calls, they’re not separated from the perspective of the hash function—under the hood, the inputs are just concatenated. As with many things in cryptography, multihashing is harder than you think. That’s a big problem because multihashing is a critical component of one of the most important tools in zero-knowledge proofs: the Fiat-Shamir transform . When you get multihashing wrong, you introduce the risk of forgeries into your zero-knowledge proofs. Given that zero-knowledge proofs play a major role in cryptocurrency nowadays, that sort of mistake is sometimes measured in millions of dollars. But Fiat-Shamir transforms aren’t the only place where you might want to use multihashing. It’s not uncommon to need to hash a collection of related objects, where both the objects and the collection are variable
-```
-
-#### Corroborating sources (1)
-
-- **Trail of Bits** (offensive_vulnerability_research)
-  - Title: SequenceHash: multihashing for the rest of us
-  - Published: 2026-10-02T11:00:00+00:00
-  - Link: https://blog.trailofbits.com/2026/10/02/sequencehash-multihashing-for-the-rest-of-us/
-  - Summary: Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes. As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC , a pair of related hash constructions that bring secure multihashing to developers using hash functions other than Keccak. We hope SequenceHash and SequenceMAC will help cryptographers avoid attacks that take advantage of ambiguous input encodings. The specification is open source, and is now a part of the Community Cryptography Specification Project (C2SP). SequenceHash and SequenceMAC behave similarly to NIST’s TupleHash , but have the advantage of not being tied to a single hash function. They also don’t require developers to implement fiddly computations that aren’t byte-aligned. Instead, SequenceHash and SequenceMAC work out of the box with nearly any secure c
-
 ### Cluster 39ec553152 — score 12
 
 - Title: Securing the Kubernetes Supply Chain: Introducing WizOS Helm Charts
@@ -1680,50 +1630,46 @@ Home Blog Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Publis
   - Link: https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html
   - Summary: Threat actors are abusing ChatGPT Custom GPTs to disguise them as legitimate product offerings and direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver malware. Huntress, which observed the activity in late September 2026, said it marks the abuse of yet another feature in trusted artificial intelligence (AI) platforms. Prior campaigns have weaponized shared
 
-### Cluster 24d5e7827d — score 11
+### Cluster 93df4bafde — score 11
 
-- Title: ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-10-01T16:45:38+00:00
-- Link: https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html
+- Title: SequenceHash: multihashing for the rest of us
+- Source: Trail of Bits (offensive_vulnerability_research)
+- Published: 2026-10-02T11:00:00+00:00
+- Link: https://blog.trailofbits.com/2026/10/02/sequencehash-multihashing-for-the-rest-of-us/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ai_security, zero_day
 - affected_industries: financial_services
-- urgency_signals: zero_day
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_1_offensive_research
 
 #### Primary article taxonomy
-- threat_categories: zero_day, ai_security
 - affected_industries: financial_services
-- urgency_signals: zero_day
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_1_offensive_research
 
 #### Summary
 
 ```
-This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can
+Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes. As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC , a pair of related hash constructions that bring secure multihashing to developers using hash functions other than Keccak. We hope SequenceHash and SequenceMAC will help cryptographers avoid attacks that take advantage of ambiguous input encodings. The specification is open source, and is now a part of the Community Cryptography Specification Project (C2SP). SequenceHash and SequenceMAC behave similarly to NIST’s TupleHash , but have the advantage of not being tied to a single hash function. They also don’t require developers to implement fiddly computations that aren’t byte-aligned. Instead, SequenceHash and SequenceMAC work out of the box with nearly any secure c
 ```
 
 #### Full body
 
 ```
-ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories  Ravie Lakshmanan  Oct 01, 2026 Hacking News / Cybersecurity News This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can hide commands in public infrastructure, reuse old flaws, abuse weak defaults, or let automation stitch together a rough path that still works. Faster tools are changing the pace, but basic mistakes are still doing plenty of the work. So the interesting question this week is not “what broke?” It is “what did we assume was safe because it looked ordinary?” The full list has answers. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out. ATM jackpotting crackdown U.S. Treasury Sanctions 10 Targets in Connection with ATM Jackpotting The U.S. Treasury's Office of Foreign Assets Control (OFAC) sanctioned 10 targets involved in a Tren de Aragua ATM jackpotting scheme that stole at least $40.73 million from U.S. financial institutions. The network used cryptocurrency to launder the proceeds. Tren de Aragua is a designated Foreign Terrorist Organization. Jackpotting uses Ploutus malware to force ATMs to dispense cash. Treasury estimates show reported losses totaling $40.73 million from more than 1,500 alleged TdA jackpotting attacks in the U.S. as of August 2025. TRM Lab said the seven designated crypto wallet addresses have received approximately $6.1 million in total inflows since March 2022. "Tren de Aragua is using ATM malware as a terrorist financing tool, then moving the cash onto TRON so it looks like ordinary exchange deposits," said Ari Redbord, Global Head of Policy at TRM Labs. "That is the same playbook we keep seeing from FTOs with on-chain infrastructure. These sanctions target that playbook. We are seeing the Treasury go after both the bad actors and their financial facilitators." Blockchain-based malware concealment Use of EtherHiding Grows Cyber threat actors are using public blockchains to conceal malware instructions, making it challenging to seize or take down. This technique, referred to as EtherHiding , is part of a broader approach called Blockchain Dead Drops (BDD). Chainalysis said "North Korean and Iranian-state operators are among those developing distinct blockchain dead drop techniques," adding "BDDs have surged 440% since the launch of Chinese high-capacity open-source AI models that place no restrictions on generating malicious code." AI safety review underway Moonshot AI Conducts Review BBC News has reported that Chinese AI company Moonshot is conducting an internal review after a July 2026 report from Mindgard found that its AI models, Kimi K2.6 and K3 Swarm, could bypass safety guardrails and generate dangerous information, including providing plans for cyberattacks, terrorism plots, and assassinations. Prompt injection as defense Context Bombs Against Abliterated AI Models In July 2026, Tracebit detailed a technique called Context Bombs that uses prompt injections as a way to trip an AI model provider's runtime safety checks and prevent it from taking malicious actions. In a new report, the AI security company said indirect prompt injections can be used to stop attacks from open-weight models, abliterated or otherwise. "We turned to indirect prompt injection: instructions placed in material an agent reads while carrying out its task," Tracebit said . "The new payload was designed to make the agent believe its operator had ended the assessment. We placed it inside a canary secret in AWS Secrets Manager, where an agent exploring the account could discover it. The string used conversation delimiters to m
+Page content Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes. As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC , a pair of related hash constructions that bring secure multihashing to developers using hash functions other than Keccak. We hope SequenceHash and SequenceMAC will help cryptographers avoid attacks that take advantage of ambiguous input encodings. The specification is open source, and is now a part of the Community Cryptography Specification Project (C2SP). SequenceHash and SequenceMAC behave similarly to NIST’s TupleHash , but have the advantage of not being tied to a single hash function. They also don’t require developers to implement fiddly computations that aren’t byte-aligned. Instead, SequenceHash and SequenceMAC work out of the box with nearly any secure cryptographic hash function you care to use, including SHA256/384/512, BLAKE, and RIPEMD. SequenceMAC supports keys 32 bytes or longer (up to the ridiculous limit of ${2}^{128}-1$ bytes). (It’s worth noting: SequenceHash and SequenceMAC rely on the security of the underlying hash for their own security. SequenceHash and SequenceMAC can’t magically make MD4 or SHA0 secure again. For the purposes of this document, it’s assumed that you have chosen a reasonable hash function like SHA256, not CRC32.) To make SequenceHash and SequenceMAC easy to use, we’re releasing three initial implementations of SequenceHash and SequenceMAC: one each in Rust, Go, and Python. We’re also releasing a large set of test vectors that cover multiple hash functions and include intermediate values to help developers debug and verify their implementations. Wait, “multihashing”? Yeah, it’s a weird term, but the idea is pretty simple. “Multihashing” means “hashing a bunch of values together.” If you’ve ever read a cryptography paper, and there’s a step that says something like “compute the shared authenticator N=Hash(X, Y, Z, A, B) ,” that’s multihashing. You need to create a hash that incorporates the inputs X, Y, Z, A , and B . Unfortunately, the simple “solution” of concatenating the inputs and hashing the result can lead to serious security problems. For example, consider what happens when you hash three inputs using “raw” SHA256: import hashlib hasher = hashlib . new ( 'sha256' ) hasher . update ( b 'Test 0' ) hasher . update ( b 'Test 1' ) hasher . update ( b 'Test 2' ) print ( hasher . hexdigest ()) hasher = hashlib . new ( 'sha256' ) hasher . update ( b 'Test 0Test 1' ) hasher . update ( b 'Test 2' ) print ( hasher . hexdigest ()) hasher = hashlib . new ( 'sha256' ) hasher . update ( b 'Test 0' ) hasher . update ( b '' ) hasher . update ( b 'Test 1Test 2' ) print ( hasher . hexdigest ()) This produces the following output: 4fce0a9940a42b5c9d1bcbfc9a6ddd6de20d731d584a0acf5bda6de86483641c 4fce0a9940a42b5c9d1bcbfc9a6ddd6de20d731d584a0acf5bda6de86483641c 4fce0a9940a42b5c9d1bcbfc9a6ddd6de20d731d584a0acf5bda6de86483641c Even though inputs are fed in through separate calls, they’re not separated from the perspective of the hash function—under the hood, the inputs are just concatenated. As with many things in cryptography, multihashing is harder than you think. That’s a big problem because multihashing is a critical component of one of the most important tools in zero-knowledge proofs: the Fiat-Shamir transform . When you get multihashing wrong, you introduce the risk of forgeries into your zero-knowledge proofs. Given that zero-knowledge proofs play a major role in cryptocurrency nowadays, that sort of mistake is sometimes measured in millions of dollars. But Fiat-Shamir transforms aren’t the only place where you might want to use multihashing. It’s not uncommon to need to hash a collection of related objects, where both the objects and the collection are variable
 ```
 
 #### Corroborating sources (1)
 
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories
-  - Published: 2026-10-01T16:45:38+00:00
-  - Link: https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html
-  - Summary: This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can
+- **Trail of Bits** (offensive_vulnerability_research)
+  - Title: SequenceHash: multihashing for the rest of us
+  - Published: 2026-10-02T11:00:00+00:00
+  - Link: https://blog.trailofbits.com/2026/10/02/sequencehash-multihashing-for-the-rest-of-us/
+  - Summary: Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes. As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC , a pair of related hash constructions that bring secure multihashing to developers using hash functions other than Keccak. We hope SequenceHash and SequenceMAC will help cryptographers avoid attacks that take advantage of ambiguous input encodings. The specification is open source, and is now a part of the Community Cryptography Specification Project (C2SP). SequenceHash and SequenceMAC behave similarly to NIST’s TupleHash , but have the advantage of not being tied to a single hash function. They also don’t require developers to implement fiddly computations that aren’t byte-aligned. Instead, SequenceHash and SequenceMAC work out of the box with nearly any secure c
 
 ### Cluster 5fc59e5ed7 — score 11
 
@@ -1775,6 +1721,51 @@ Infosecurity Magazine Home » News » Citrix Patches Critical Zero Days Under Ac
   - Published: 2026-09-28T08:30:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/citrix-patches-critical-zero-days/
   - Summary: Citrix has confirmed exploitation of two critical zero-day RCE bugs
+
+### Cluster 24d5e7827d — score 11
+
+- Title: ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-10-01T16:45:38+00:00
+- Link: https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security, zero_day
+- affected_industries: financial_services
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, ai_security
+- affected_industries: financial_services
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can
+```
+
+#### Full body
+
+```
+ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories  Ravie Lakshmanan  Oct 01, 2026 Hacking News / Cybersecurity News This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can hide commands in public infrastructure, reuse old flaws, abuse weak defaults, or let automation stitch together a rough path that still works. Faster tools are changing the pace, but basic mistakes are still doing plenty of the work. So the interesting question this week is not “what broke?” It is “what did we assume was safe because it looked ordinary?” The full list has answers. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out. ATM jackpotting crackdown U.S. Treasury Sanctions 10 Targets in Connection with ATM Jackpotting The U.S. Treasury's Office of Foreign Assets Control (OFAC) sanctioned 10 targets involved in a Tren de Aragua ATM jackpotting scheme that stole at least $40.73 million from U.S. financial institutions. The network used cryptocurrency to launder the proceeds. Tren de Aragua is a designated Foreign Terrorist Organization. Jackpotting uses Ploutus malware to force ATMs to dispense cash. Treasury estimates show reported losses totaling $40.73 million from more than 1,500 alleged TdA jackpotting attacks in the U.S. as of August 2025. TRM Lab said the seven designated crypto wallet addresses have received approximately $6.1 million in total inflows since March 2022. "Tren de Aragua is using ATM malware as a terrorist financing tool, then moving the cash onto TRON so it looks like ordinary exchange deposits," said Ari Redbord, Global Head of Policy at TRM Labs. "That is the same playbook we keep seeing from FTOs with on-chain infrastructure. These sanctions target that playbook. We are seeing the Treasury go after both the bad actors and their financial facilitators." Blockchain-based malware concealment Use of EtherHiding Grows Cyber threat actors are using public blockchains to conceal malware instructions, making it challenging to seize or take down. This technique, referred to as EtherHiding , is part of a broader approach called Blockchain Dead Drops (BDD). Chainalysis said "North Korean and Iranian-state operators are among those developing distinct blockchain dead drop techniques," adding "BDDs have surged 440% since the launch of Chinese high-capacity open-source AI models that place no restrictions on generating malicious code." AI safety review underway Moonshot AI Conducts Review BBC News has reported that Chinese AI company Moonshot is conducting an internal review after a July 2026 report from Mindgard found that its AI models, Kimi K2.6 and K3 Swarm, could bypass safety guardrails and generate dangerous information, including providing plans for cyberattacks, terrorism plots, and assassinations. Prompt injection as defense Context Bombs Against Abliterated AI Models In July 2026, Tracebit detailed a technique called Context Bombs that uses prompt injections as a way to trip an AI model provider's runtime safety checks and prevent it from taking malicious actions. In a new report, the AI security company said indirect prompt injections can be used to stop attacks from open-weight models, abliterated or otherwise. "We turned to indirect prompt injection: instructions placed in material an agent reads while carrying out its task," Tracebit said . "The new payload was designed to make the agent believe its operator had ended the assessment. We placed it inside a canary secret in AWS Secrets Manager, where an agent exploring the account could discover it. The string used conversation delimiters to m
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories
+  - Published: 2026-10-01T16:45:38+00:00
+  - Link: https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html
+  - Summary: This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can
 
 ### Cluster 48be01e909 — score 10
 
@@ -2295,7 +2286,7 @@ One company told customers to power down its data-protection platform during a n
 #### Full body
 
 ```
-Cybersecurity Operations Application Security Cyber Risk Vulnerabilities & Threats News Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response One company told customers to power down its data-protection platform during a nine-hour window, while the other remained mum on reported attacks prior to releasing a patch for its product. Robert Lemos , Contributing Writer October 2, 2026 5 Min Read Source: Robert Lemos On Sept. 24, threat detection firm GreyNoise Intelligence observed a single US-based IP address scanning for Citrix NetScaler installations and conducting remote code execution (RCE) attacks. The company issued alerts to customers about the malicious activity. Over the next two days, reports of potential zero-day attacks on NetScaler installations emerged on social media, and cybersecurity professionals debated whether the rumored attacks were true — some argued the activity targeted vulnerabilities already patched in August. On Sept. 26, however, Benjamin Harris, founder and CEO of exposure-management firm watchTowr, urged NetScaler users to take their systems offline. "Monday will be too late," he stated in a LinkedIn post . By Sunday, Citrix seemingly agreed, posting an update that patched eight vulnerabilities (CVE-2026-88771 through CVE-2026-88778), including two zero-days that had been exploited in the wild. The blog post did not recommend taking servers offline until they were patched, instead urging customers to "upgrad[e to] the versions containing the fix immediately." However, the two zero-days — CVE-2026-88771 and CVE-2026-88772 — came under widespread exploitation . Related: SWIFT Banking & Government Middleware Enables RCE One Weekend, Two Disclosure Strategies The same weekend, data protection provider Kiteworks took a different road. On Sept. 25, the company issued a recommendation to customers, urging them to proactively take their systems offline based on intelligence about an imminent attack. With its engineering team and external national intelligence experts working together on identifying the security issue, the company warned that a zero-day attack could be coming. On Monday, Kiteworks published an advisory identifying the vulnerability with an update to patch it. In the end, the company determined the vulnerability would have affected only 1% of its customers, Kiteworks said in its statement . "Telling customers to take production systems offline is not a decision any vendor makes lightly, and we knew exactly what we were asking of them," Frank Balonis, the firm's CISO, said in the statement. "We made it anyway, because when the choice is between certainty and convenience, customer data is not something we are willing to gamble with. That decision is what made the rest possible. We would make the same call again tomorrow to protect our customers' data." Kiteworks exposed IP addresses affect countries worldwide but are concentrated in the United States and Europe. Source: Shadowserver.org The two approaches underscore the hazards for vendors that take aggressive defensive measures. Citrix's response has come under fire from many in the cybersecurity community as being too little, too late. Why didn't the company share intelligence sooner about the apparent zero-day attacks? Related: Is Your Organization Ready for 2027's AI Accountability Era? On the other hand, Kiteworks' rare recommendation to shut down appliances could be considered overkill — especially since only 1% of customers were vulnerable — or an appropriately gauged response to a potentially significant attack targeting their customers, many of whom are government agencies or in regulated industries. The decision to call for customers to shut down their systems was "wild," according to John Strand, owner of Black Hills Information Security, a cybersecurity-training and penetration-testing firm. "This isn't an active attack — people aren't actively being breached — and yet the vendor is telling customers to take their systems
+Cybersecurity Operations Application Security Cyber Risk Vulnerabilities & Threats News Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response One company told customers to power down its data-protection platform during a nine-hour window, while the other remained mum on reported attacks prior to releasing a patch for its product. Robert Lemos , Contributing Writer October 2, 2026 5 Min Read Source: Robert Lemos On Sept. 24, threat detection firm GreyNoise Intelligence observed a single US-based IP address scanning for Citrix NetScaler installations and conducting remote code execution (RCE) attacks. The company issued alerts to customers about the malicious activity. Over the next two days, reports of potential zero-day attacks on NetScaler installations emerged on social media, and cybersecurity professionals debated whether the rumored attacks were true — some argued the activity targeted vulnerabilities already patched in August. On Sept. 26, however, Benjamin Harris, founder and CEO of exposure-management firm watchTowr, urged NetScaler users to take their systems offline. "Monday will be too late," he stated in a LinkedIn post . By Sunday, Citrix seemingly agreed, posting an update that patched eight vulnerabilities (CVE-2026-88771 through CVE-2026-88778), including two zero-days that had been exploited in the wild. The blog post did not recommend taking servers offline until they were patched, instead urging customers to "upgrad[e to] the versions containing the fix immediately." However, the two zero-days — CVE-2026-88771 and CVE-2026-88772 — came under widespread exploitation . Related: RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail One Weekend, Two Disclosure Strategies The same weekend, data protection provider Kiteworks took a different road. On Sept. 25, the company issued a recommendation to customers, urging them to proactively take their systems offline based on intelligence about an imminent attack. With its engineering team and external national intelligence experts working together on identifying the security issue, the company warned that a zero-day attack could be coming. On Monday, Kiteworks published an advisory identifying the vulnerability with an update to patch it. In the end, the company determined the vulnerability would have affected only 1% of its customers, Kiteworks said in its statement . "Telling customers to take production systems offline is not a decision any vendor makes lightly, and we knew exactly what we were asking of them," Frank Balonis, the firm's CISO, said in the statement. "We made it anyway, because when the choice is between certainty and convenience, customer data is not something we are willing to gamble with. That decision is what made the rest possible. We would make the same call again tomorrow to protect our customers' data." Kiteworks exposed IP addresses affect countries worldwide but are concentrated in the United States and Europe. Source: Shadowserver.org The two approaches underscore the hazards for vendors that take aggressive defensive measures. Citrix's response has come under fire from many in the cybersecurity community as being too little, too late. Why didn't the company share intelligence sooner about the apparent zero-day attacks? Related: SWIFT Banking & Government Middleware Enables RCE On the other hand, Kiteworks' rare recommendation to shut down appliances could be considered overkill — especially since only 1% of customers were vulnerable — or an appropriately gauged response to a potentially significant attack targeting their customers, many of whom are government agencies or in regulated industries. The decision to call for customers to shut down their systems was "wild," according to John Strand, owner of Black Hills Information Security, a cybersecurity-training and penetration-testing firm. "This isn't an active attack — people aren't actively being breached — and yet the vendor is telling customers to
 ```
 
 #### Corroborating sources (1)
@@ -2319,14 +2310,14 @@ Cybersecurity Operations Application Security Cyber Risk Vulnerabilities & Threa
 
 #### Cluster taxonomy (union across members)
 - threat_categories: zero_day
-- affected_industries: financial_services, government
+- affected_industries: government
 - urgency_signals: zero_day
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: zero_day
-- affected_industries: financial_services, government
+- affected_industries: government
 - urgency_signals: zero_day
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
@@ -2340,7 +2331,7 @@ Organizations don't need better vulnerability scanners; they need to know who ow
 #### Full body
 
 ```
-Cybersecurity Operations Vulnerabilities & Threats Cyber Risk Commentary Vulnerability Backlogs Are an Ownership Problem Organizations don't need better vulnerability scanners; they need to know who owns their assets and has the authority and capacity to actually fix them. Nishant Sharma , Cybersecurity Leader October 2, 2026 4 Min Read Source: igoriss via Getty Images OPINION Most enterprises drowning in vulnerabilities don't have a detection problem. They have an accountability problem wearing a detection problem's clothing. You can see it in how they spend. When a backlog gets big enough to reach the board, the reflex is to buy better scanning — wider coverage, faster cycles, richer threat intel, a single pane of glass. A year later, the organization has excellent visibility into a backlog that has grown. That's a misdiagnosis, not a tooling failure. Scanning capacity and remediation capacity are independent variables, and only one of them scales with a purchase order. Point a modern scanner at an underinstrumented estate, and findings appear at a rate limited only by asset count and check depth. Remediation capacity is limited by engineering hours, change windows, application compatibility, vendor patch availability, and how much downtime the business will tolerate. None of that moves when you upgrade a license. Related: Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response I watched authenticated scanning across a server estate triple our finding count in one quarter. Nothing had gotten less secure. We had just stopped being able to pretend we didn't know. Which produces a perverse incentive: If your program is measured on open findings, expanding coverage makes you look worse. Teams graded that way learn not to look. What a Backlog Actually Measures A backlog is a measure of unresolved ownership, not a measure of technical debt. Think about what has to be true for one finding to close. Someone knows the asset exists. Someone is accountable for it. That person can change it. That person has time to change it. And that person has a reason to do it before their other work. Scanning gets you the first one. The other four are governance. That's why two companies with identical tools, identical estates, and identical finding volumes can differ tenfold in how fast they fix things. Here are possible different situations: No owner. The asset isn't mapped to anyone. This is the most common failure and the worst, because a finding with no owner can't be escalated — there's nobody to escalate to. The unowned tail of your estate is also usually the oldest and most exposed part of it. Owner without authority. A team is accountable but can't act. The vendor controls the patch. Another team owns the platform. The application is contractually frozen. You get a queue that visibly misses a service-level agreement (SLA) while the assignee correctly points out they couldn't have done anything. Owner without capacity. Accountability and authority both exist, but remediation competes with feature delivery in the same backlog, refereed by a product owner whose bonus doesn't mention security. Invisible in tooling — the tickets look assigned and in progress. Owner without consequence. Everything's in place and nothing happens, because missing a remediation SLA costs nobody anything. If your security reporting goes to the security team instead of the owner's boss, this is your default state. Related: SWIFT Banking & Government Middleware Enables RCE Escalating harder fixes exactly one of these. Address Asset Ownership First The highest-leverage move in an enterprise vulnerability program isn't a scanning upgrade. It's accurate, maintained asset-to-owner mapping. It's unglamorous work — reconciling the configuration management database (CMDB) against what scanners actually find, chasing the gaps, forcing a named owner onto every asset, including the ones nobody wants. It looks more like audit than security engineering, which is exactly
+Cybersecurity Operations Vulnerabilities & Threats Cyber Risk Commentary Vulnerability Backlogs Are an Ownership Problem Organizations don't need better vulnerability scanners; they need to know who owns their assets and has the authority and capacity to actually fix them. Nishant Sharma , Cybersecurity Leader October 2, 2026 4 Min Read Source: igoriss via Getty Images OPINION Most enterprises drowning in vulnerabilities don't have a detection problem. They have an accountability problem wearing a detection problem's clothing. You can see it in how they spend. When a backlog gets big enough to reach the board, the reflex is to buy better scanning — wider coverage, faster cycles, richer threat intel, a single pane of glass. A year later, the organization has excellent visibility into a backlog that has grown. That's a misdiagnosis, not a tooling failure. Scanning capacity and remediation capacity are independent variables, and only one of them scales with a purchase order. Point a modern scanner at an underinstrumented estate, and findings appear at a rate limited only by asset count and check depth. Remediation capacity is limited by engineering hours, change windows, application compatibility, vendor patch availability, and how much downtime the business will tolerate. None of that moves when you upgrade a license. Related: RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail I watched authenticated scanning across a server estate triple our finding count in one quarter. Nothing had gotten less secure. We had just stopped being able to pretend we didn't know. Which produces a perverse incentive: If your program is measured on open findings, expanding coverage makes you look worse. Teams graded that way learn not to look. What a Backlog Actually Measures A backlog is a measure of unresolved ownership, not a measure of technical debt. Think about what has to be true for one finding to close. Someone knows the asset exists. Someone is accountable for it. That person can change it. That person has time to change it. And that person has a reason to do it before their other work. Scanning gets you the first one. The other four are governance. That's why two companies with identical tools, identical estates, and identical finding volumes can differ tenfold in how fast they fix things. Here are possible different situations: No owner. The asset isn't mapped to anyone. This is the most common failure and the worst, because a finding with no owner can't be escalated — there's nobody to escalate to. The unowned tail of your estate is also usually the oldest and most exposed part of it. Owner without authority. A team is accountable but can't act. The vendor controls the patch. Another team owns the platform. The application is contractually frozen. You get a queue that visibly misses a service-level agreement (SLA) while the assignee correctly points out they couldn't have done anything. Owner without capacity. Accountability and authority both exist, but remediation competes with feature delivery in the same backlog, refereed by a product owner whose bonus doesn't mention security. Invisible in tooling — the tickets look assigned and in progress. Owner without consequence. Everything's in place and nothing happens, because missing a remediation SLA costs nobody anything. If your security reporting goes to the security team instead of the owner's boss, this is your default state. Related: Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response Escalating harder fixes exactly one of these. Address Asset Ownership First The highest-leverage move in an enterprise vulnerability program isn't a scanning upgrade. It's accurate, maintained asset-to-owner mapping. It's unglamorous work — reconciling the configuration management database (CMDB) against what scanners actually find, chasing the gaps, forcing a named owner onto every asset, including the ones nobody wants. It looks more like audit than security e
 ```
 
 #### Corroborating sources (1)
@@ -2350,51 +2341,6 @@ Cybersecurity Operations Vulnerabilities & Threats Cyber Risk Commentary Vulnera
   - Published: 2026-10-02T14:00:00+00:00
   - Link: https://www.darkreading.com/cybersecurity-operations/vulnerability-backlogs-ownership-problem
   - Summary: Organizations don't need better vulnerability scanners; they need to know who owns their assets and has the authority and capacity to actually fix them.
-
-### Cluster 542c77fc0d — score 10
-
-- Title: Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-10-02T17:02:12+00:00
-- Link: https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-63688
-
-#### Cluster taxonomy (union across members)
-- affected_products: Kubernetes
-- cve_ids: CVE-2026-54472, CVE-2026-61421, CVE-2026-63688, CVE-2026-63692, CVE-2026-67269
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- affected_products: Kubernetes
-- cve_ids: CVE-2026-63688, CVE-2026-63692, CVE-2026-67269, CVE-2026-54472, CVE-2026-61421
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are listed below - CVE-2026-63688 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the csm-authorization-storage gRPC server that an
-```
-
-#### Full body
-
-```
-Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes  Ravie Lakshmanan  Oct 02, 2026 Vulnerability / Cloud Security Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are listed below - CVE-2026-63688 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the csm-authorization-storage gRPC server that an unauthenticated remote attacker could exploit to obtain unauthorized access to storage backend administrator credentials for all registered storage arrays. CVE-2026-63692 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the authorization proxy and tenant service that an unauthenticated network attacker could exploit to bypass authentication controls and gain administrative-level privileges. CVE-2026-67269 (CVSS score: 9.9) - An improper privilege management vulnerability in the ContainerStorageModule Custom Resource reconciler that a low-privilege remote attacker could exploit to escalate privileges and gain root-level access on cluster nodes. CVE-2026-54472 (CVSS score: 9.8) - A use of hard-coded credentials vulnerability in the CSM Authorization module that a remote unauthenticated attacker could exploit to forge cryptographically valid administrative tokens and gain unauthorized administrative access to the CSM Authorization proxy. CVE-2026-61421 (CVSS score: 9.8) - A use of hard-coded cryptographic key vulnerability in the JWT authentication component of karavi-authorization that a remote unauthenticated attacker with knowledge of this publicly available signing secret could exploit to forge authentication tokens and gain administrative privileges. CVE-2026-67273 (CVSS score: 9.6) - An improper neutralization of special elements used in a template engine vulnerability that a low-privilege attacker with remote access could exploit to escalate privileges, access sensitive information, and carry out unauthorized RBAC tampering. "This vulnerability is considered critical as it enables a complete bypass of the csm-authorization security model, allowing an attacker to gain full administrative control over the storage infrastructure spanning all five supported Dell storage product families," Dell said about CVE-2026-63688. As for CVE-2026-63692, Dell noted that successful exploitation could enable an unauthenticated attacker to gain complete administrative control over the authorization service, and allow them to access or manipulate storage resources across all tenants. The PC maker also noted that an attacker can exploit CVE-2026-67269 to compromise all nodes in a Kubernetes cluster through a single custom resource submission. CVE-2026-54472, on the other hand, can be weaponized to sidestep authentication controls for the CSM Authorization proxy and enable unauthorized management of storage access policies across all connected tenants. Dell is recommending that customers apply the updates and rotate any JWT signing secrets. "Successful exploitation grants the attacker cluster-wide read access to Kubernetes Secrets and the ability to create cluster-scoped RBAC resources, effectively bypassing the intended Kubernetes access controls," Dell said in its advisory for CVE-2026-67273. The flaws, which affect all versions of CSM prior to 1.17.0, have been addressed in 1.18.0. There are no workarounds or mitigations other than updating to the latest version. With vulnerabilities in Dell products ( CVE-2021-21551 and CVE-2026-22769 ) having come under active exploitation in recent years, it's essential to apply the necessary fixes for optimal protection. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Cloud security , Container Security , Dell , Kubernetes , Vulne
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes
-  - Published: 2026-10-02T17:02:12+00:00
-  - Link: https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html
-  - Summary: Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are listed below - CVE-2026-63688 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the csm-authorization-storage gRPC server that an
 
 ### Cluster 4e072e3956 — score 10
 
@@ -2442,6 +2388,51 @@ Infosecurity Magazine Home » News » Critical Cisco Catalyst SD-WAN Zero-Day Un
   - Published: 2026-10-01T14:17:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/critical-cisco-catalyst-sdwan/
   - Summary: Vulnerability in Cisco Catalyst SD-WAN Manager allows an unauthenticated, remote attacker to access systems with admin privileges
+
+### Cluster 542c77fc0d — score 10
+
+- Title: Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-10-02T17:02:12+00:00
+- Link: https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-63688
+
+#### Cluster taxonomy (union across members)
+- affected_products: Kubernetes
+- cve_ids: CVE-2026-54472, CVE-2026-61421, CVE-2026-63688, CVE-2026-63692, CVE-2026-67269
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- affected_products: Kubernetes
+- cve_ids: CVE-2026-63688, CVE-2026-63692, CVE-2026-67269, CVE-2026-54472, CVE-2026-61421
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are listed below - CVE-2026-63688 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the csm-authorization-storage gRPC server that an
+```
+
+#### Full body
+
+```
+Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes  Ravie Lakshmanan  Oct 02, 2026 Vulnerability / Cloud Security Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are listed below - CVE-2026-63688 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the csm-authorization-storage gRPC server that an unauthenticated remote attacker could exploit to obtain unauthorized access to storage backend administrator credentials for all registered storage arrays. CVE-2026-63692 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the authorization proxy and tenant service that an unauthenticated network attacker could exploit to bypass authentication controls and gain administrative-level privileges. CVE-2026-67269 (CVSS score: 9.9) - An improper privilege management vulnerability in the ContainerStorageModule Custom Resource reconciler that a low-privilege remote attacker could exploit to escalate privileges and gain root-level access on cluster nodes. CVE-2026-54472 (CVSS score: 9.8) - A use of hard-coded credentials vulnerability in the CSM Authorization module that a remote unauthenticated attacker could exploit to forge cryptographically valid administrative tokens and gain unauthorized administrative access to the CSM Authorization proxy. CVE-2026-61421 (CVSS score: 9.8) - A use of hard-coded cryptographic key vulnerability in the JWT authentication component of karavi-authorization that a remote unauthenticated attacker with knowledge of this publicly available signing secret could exploit to forge authentication tokens and gain administrative privileges. CVE-2026-67273 (CVSS score: 9.6) - An improper neutralization of special elements used in a template engine vulnerability that a low-privilege attacker with remote access could exploit to escalate privileges, access sensitive information, and carry out unauthorized RBAC tampering. "This vulnerability is considered critical as it enables a complete bypass of the csm-authorization security model, allowing an attacker to gain full administrative control over the storage infrastructure spanning all five supported Dell storage product families," Dell said about CVE-2026-63688. As for CVE-2026-63692, Dell noted that successful exploitation could enable an unauthenticated attacker to gain complete administrative control over the authorization service, and allow them to access or manipulate storage resources across all tenants. The PC maker also noted that an attacker can exploit CVE-2026-67269 to compromise all nodes in a Kubernetes cluster through a single custom resource submission. CVE-2026-54472, on the other hand, can be weaponized to sidestep authentication controls for the CSM Authorization proxy and enable unauthorized management of storage access policies across all connected tenants. Dell is recommending that customers apply the updates and rotate any JWT signing secrets. "Successful exploitation grants the attacker cluster-wide read access to Kubernetes Secrets and the ability to create cluster-scoped RBAC resources, effectively bypassing the intended Kubernetes access controls," Dell said in its advisory for CVE-2026-67273. The flaws, which affect all versions of CSM prior to 1.17.0, have been addressed in 1.18.0. There are no workarounds or mitigations other than updating to the latest version. With vulnerabilities in Dell products ( CVE-2021-21551 and CVE-2026-22769 ) having come under active exploitation in recent years, it's essential to apply the necessary fixes for optimal protection. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Cloud security , Container Security , Dell , Kubernetes , Vulne
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes
+  - Published: 2026-10-02T17:02:12+00:00
+  - Link: https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html
+  - Summary: Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are listed below - CVE-2026-63688 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the csm-authorization-storage gRPC server that an
 
 ### Cluster 18a79a23bc — score 10
 
@@ -2613,81 +2604,6 @@ Wireshark release 4.6.9 fixes 19 vulnerabilities and 16 bugs.
   - Link: https://isc.sans.edu/diary/rss/33372
   - Summary: Wireshark release 4.6.9 fixes 19 vulnerabilities and 16 bugs.
 
-### Cluster 5b0efacecb — score 9
-
-- Title: New Huntress View for Security Incident Investigations
-- Source: Huntress (detection_response_operations)
-- Published: 2026-10-01T21:00:00+00:00
-- Link: https://www.huntress.com/blog/security-incident-investigations-partner-view
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-See how the Huntress SOC runs security incident investigations from first signal to final resolution, including the ones closed as benign.
-```
-
-#### Full body
-
-```
-Home Blog New Investigations View: From Black Box to Glass Box Last Updated: October 1, 2026 New Investigations View: From Black Box to Glass Box By: Micah Neidhart Summarize with AI Summarize ChatGPT Claude Perplexity Google AI For a long time, partners have told us the same thing: when an investigation was closed as benign, it was hard to know what actually happened behind the scenes. You might see that our Security Operations Center ( SOC ) looked at something and decided it was not a threat, but not much about why . That lack of visibility made a few things harder than they needed to be: Explaining to end customers what Huntress actually did or didn't do Showing the value of investigations that feel like a black box Answering reasonable questions like, "What did your analysts find?" The new Investigations View is our answer. It's a single place where you can see every investigation, what triggered it, and exactly how it was handled. Including those "closed benign." Prefer to watch? Robert Knapp, Director of the Huntress Security Operations Center, walks through the Investigations View, including the timeline of every step an attacker took and every step the SOC took in response, even for investigations closed as benign. New: Chronological timeline of security incident investigations Let's jump to the most exciting part first: you can now drill into any investigation to see a detailed, chronological timeline of everything that took place from first signal to final resolution. And you can easily export this information as a PDF to share with stakeholders. The investigation timeline includes: Signals that led to the investigation Analyst notes and context Incident reports, if one was generated Recommended and completed remediations Final resolution and status The investigation details view shows a full, ordered timeline of every signal, analyst action, and decision. This view turns what used to be a black box into a glass box: partners can see not just the outcome, but the work the Huntress SOC performed to get there. Even for investigations that determine activity is benign. Redesigned: A dashboard for every investigation Ok, let's zoom out from the details a little. Where do you find these delightful investigation timelines? When malicious activity is detected, they are now included by default in all Incident Reports. But you can also see the full list of investigation summaries in one place if you head over to the redesigned Investigations Dashboard. Here's how: Sign in to the Huntress portal Navigate to the Investigations tab in the top navigation Use the search and filters to find the investigations you care about most At the top of the dashboard, you'll find some high-level KPIs, including how many investigations were closed or reported, the organizations within your account that saw the most investigations, top signal types, and more. Below that, you'll also find a row-by-row view of everything our SOC has investigated across your tenants. Review the summary to get a quick overview of each investigation, including: When the investigation began Which customer and which endpoint, identity, or other asset was involved Which signal types were investigated ( EDR , ITDR , etc) How many signals contributed to the investigation Status, including investigations closed as benign or reported The Investigations dashboard gives partners a single view of every Huntress investigation, including those closed as benign. From here, partners can quickly search, filter, and jump into the details that matter most for an organization or endpoint. How to use security incident investigations in your organization The goal of this experience is simple: help you tell a clearer story about how Huntress is protecting your organization or customers. With the Investigations View, you can: Show the volume of investigations our SOC handles on behalf of each organization Walk through specific investigations during QBRs or security reviews Answer tough
-```
-
-#### Corroborating sources (1)
-
-- **Huntress** (detection_response_operations)
-  - Title: New Huntress View for Security Incident Investigations
-  - Published: 2026-10-01T21:00:00+00:00
-  - Link: https://www.huntress.com/blog/security-incident-investigations-partner-view
-  - Summary: See how the Huntress SOC runs security incident investigations from first signal to final resolution, including the ones closed as benign.
-
-### Cluster a832e5790f — score 9
-
-- Title: AI agent exploits Zammad zero-days in DIVD breach: What we know and how to detect it
-- Source: Sysdig (detection_response_operations)
-- Published: 2026-10-02T00:00:00+00:00
-- Link: https://webflow.sysdig.com/blog/ai-agent-exploits-zammad-zero-days-in-divd-breach-what-we-know-and-how-to-detect-it
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: vulnerability_disclosure
-- cve_ids: CVE-2026-102489, CVE-2026-102490
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: vulnerability_disclosure
-- cve_ids: CVE-2026-102489, CVE-2026-102490
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Full body
-
-```
-< back to blog AI agent exploits Zammad zero-days in DIVD breach: What we know and how to detect it Published by: Marcel Claassen Published by Crystal Morin @ linkedin Published: October 2, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more This incident is currently under active investigation. The information in this blog is based on the information accessible as of the date of this blog, therefore the investigation information is likely to evolve. On September 21, 2026, an agentic threat actor (ATA) breached the Dutch Institute for Vulnerability Disclosure (DIVD) , a volunteer nonprofit that finds exposed systems on the internet and warns their owners. The ATA gained access by chaining two previously unknown vulnerabilities in the Zammad helpdesk platform, CVE-2026-102489 and CVE-2026-102490 , and went from a hijacked session to root access in seconds. According to the DIVD , the organization noticed suspicious activity, opened an investigation, and realized it had been hacked. The organization described the ATA as "loud and very, very messy," likely because AI agents are non-deterministic, choosing each action in succession at machine speed. That noise creates ample detection opportunities for security teams. Additionally, just as the Sysdig Threat Research Team (TRT) has seen from ATAs like JADEPUFFER , the AI agent behind the DIVD breach left comments in the code explaining its actions and reasoning. This noise is what allowed the DIVD to identify the breach within a day; however, due to the speed of the attack, even that was too late. While this agent may have been poorly trained and configured, it was still able to accomplish its task by moving from the helpdesk software to the DIVD system and exfiltrating data. It is unclear how many confirmed Zammad users are impacted by these zero-days, but according to its website, there are over 2,000 customers and 55,000 users. This blog details what we know about how the intrusion unfolded and how security teams can detect and combat the next one, at speed, without knowing the CVE. What happened at DIVD? On October 1, 2026, DIVD confirmed that the breach led to data exfiltration. This is an ongoing investigation, and the organization’s understanding of the incident will likely continue to evolve. The timeline below comes from the case files DIVD opened for the breach and the vulnerabilities: Date Activity September 21 The attacker first gained access to DIVD systems September 22 DIVD detected the intrusion, blocked access to all systems in its data center, and started a forensic investigation with Merlon Security. September 22 to 23 DIVD analyzed and reproduced the vulnerabilities. September 24 DIVD disclosed the breach to the Dutch data protection authority and the National Cyber Security Centre. DIVD also publicly announced the breach and disclosed the vulnerabilities to Zammad. September 26 DIVD scanned for publicly exposed Zammad instances and began notifying vulnerable organizations. September 29 DIVD published the case files and the two CVE records. The vulnerabilities Zammad is a widely deployed open source helpdesk software. DIVD identified both vulnerabilities in the software while investigating the breach with Merlon Security. The vulnerabilities were not disclosed prior to being used against DIVD, and have been characterized as zero-days. CVE-2026-102489 A remote code execution (RCE) flaw affecting versions 6.3.0 to 6.5.4. It is also present in versions 7.0.0 to 7.1.3, but is not exploitable due to specific environmental conditions. Impact on versions before 6.3.0 is unknown. Scored as a high-severity vulnerability with a CVSS score of 8.7. It’s a low-complexity vulnerability to exploit that does not require privileges, and because Zammad is an internet-facing web application, it is exposed at th
-```
-
-#### Corroborating sources (1)
-
-- **Sysdig** (detection_response_operations)
-  - Title: AI agent exploits Zammad zero-days in DIVD breach: What we know and how to detect it
-  - Published: 2026-10-02T00:00:00+00:00
-  - Link: https://webflow.sysdig.com/blog/ai-agent-exploits-zammad-zero-days-in-divd-breach-what-we-know-and-how-to-detect-it
-
 ### Cluster ab440398cd — score 9
 
 - Title: What’s new with Google Cloud
@@ -2767,7 +2683,7 @@ Patch middleware vulnerabilities now to avoid hardware-based MFA exploits in ult
 #### Full body
 
 ```
-Cybersecurity Operations Identity & Access Management Security Application Security Vulnerabilities & Threats News SWIFT Banking & Government Middleware Enables RCE Patch middleware vulnerabilities now to avoid hardware-based MFA exploits in ultra-sensitive environments. Nate Nelson , Contributing Writer October 2, 2026 5 Min Read Source: years via Getty Images Researchers have discovered a critical vulnerability in a hardware authentication program used to access highly sensitive global government and financial systems. In cases where purely digital methods just aren't secure enough, especially careful organizations may require that users authenticate to sensitive systems with multifactor authentication (MFA) hardware. After all, you wouldn't want a simple password to allow hackers into a system that facilitates financial transfers or official government business. Hardware-based MFA requires some means of communicating between one's hardware token and a website in question, though, which researchers continually find is the weak point in the whole arrangement. "SConnect," owned by the Thales Group conglomerate, is one such example of this. It's a browser extension with more than 1 million users on the Chrome Web Store, and plenty more on other app stores. It's used for authentication to major national government systems — like Qatar's national identity provider, Tawtheeq , and the Swedish Tax Agency, Skatteverket — and various banking and insurance portals. Most notably, SConnect has long been one of the primary methods for accessing the Society for Worldwide Interbank Financial Telecommunication (SWIFT) banking system that supports the entire global financial apparatus. Related: Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response In a report shared exclusively with Dark Reading ahead of publication, the browser extension aficionados at Bay Area Labs outlined a vulnerability in SConnect . The vulnerability allows attackers to perform drive-by remote code execution (RCE) attacks against users in a matter of seconds. And, the researchers say, the potential attack scenarios could get a lot worse. Thales Group patched SConnect on the Apple App Store and Chrome Web Store in August and removed the app entirely from Microsoft Edge in September. It published a CVE, CVE-2026-18397, on Oct. 1. The company assigned it a "critical" 9.4 out of 10 in the Common Vulnerability Scoring System (CVSS) 4.0 scale, and users should update their instances as soon as possible. Critical Vulnerability in Government, Banking Middleware SConnect, like other sensitive authentication middleware, pairs a light browser extension with a workhorse desktop program. Users visit SConnect-integrated websites, mash their hardware keys into their computers or connected device readers, and the extension and native host facilitate the communication back and forth, like two little lawyers. If everything goes to plan, the software confirms that both the website and hardware token are trusted, authorized entities. Related: Is Your Organization Ready for 2027's AI Accountability Era? The first problem with SConnect was that the browser extension accepted messages from any webpage or embedded iframe, be it the SWIFT banking system or lowtpills[.]com. Thus, any attacker could attempt to step into an SConnect authentication flow if they could get a victim to the right webpage. SConnect would still verify that the site was authorized, of course, by checking if it possessed a valid RSA digital signature from its vendor, Thales Group. In doing so, it reserved a buffer to hold the result of the RSA calculation. The app developers designed this check themselves, Bay Area Labs concluded, and they failed to protect against a scenario where the attacker supplied an invalid, oversized signature. In that case, the calculation would fail without writing anything to the reserved memory space. SConnect didn't check whether the original calculation succeeded, but it did stil
+Cybersecurity Operations Identity & Access Management Security Application Security Vulnerabilities & Threats News SWIFT Banking & Government Middleware Enables RCE Patch middleware vulnerabilities now to avoid hardware-based MFA exploits in ultra-sensitive environments. Nate Nelson , Contributing Writer October 2, 2026 5 Min Read Source: years via Getty Images Researchers have discovered a critical vulnerability in a hardware authentication program used to access highly sensitive global government and financial systems. In cases where purely digital methods just aren't secure enough, especially careful organizations may require that users authenticate to sensitive systems with multifactor authentication (MFA) hardware. After all, you wouldn't want a simple password to allow hackers into a system that facilitates financial transfers or official government business. Hardware-based MFA requires some means of communicating between one's hardware token and a website in question, though, which researchers continually find is the weak point in the whole arrangement. "SConnect," owned by the Thales Group conglomerate, is one such example of this. It's a browser extension with more than 1 million users on the Chrome Web Store, and plenty more on other app stores. It's used for authentication to major national government systems — like Qatar's national identity provider, Tawtheeq , and the Swedish Tax Agency, Skatteverket — and various banking and insurance portals. Most notably, SConnect has long been one of the primary methods for accessing the Society for Worldwide Interbank Financial Telecommunication (SWIFT) banking system that supports the entire global financial apparatus. Related: RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail In a report shared exclusively with Dark Reading ahead of publication, the browser extension aficionados at Bay Area Labs outlined a vulnerability in SConnect . The vulnerability allows attackers to perform drive-by remote code execution (RCE) attacks against users in a matter of seconds. And, the researchers say, the potential attack scenarios could get a lot worse. Thales Group patched SConnect on the Apple App Store and Chrome Web Store in August and removed the app entirely from Microsoft Edge in September. It published a CVE, CVE-2026-18397, on Oct. 1. The company assigned it a "critical" 9.4 out of 10 in the Common Vulnerability Scoring System (CVSS) 4.0 scale, and users should update their instances as soon as possible. Critical Vulnerability in Government, Banking Middleware SConnect, like other sensitive authentication middleware, pairs a light browser extension with a workhorse desktop program. Users visit SConnect-integrated websites, mash their hardware keys into their computers or connected device readers, and the extension and native host facilitate the communication back and forth, like two little lawyers. If everything goes to plan, the software confirms that both the website and hardware token are trusted, authorized entities. Related: Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response The first problem with SConnect was that the browser extension accepted messages from any webpage or embedded iframe, be it the SWIFT banking system or lowtpills[.]com. Thus, any attacker could attempt to step into an SConnect authentication flow if they could get a victim to the right webpage. SConnect would still verify that the site was authorized, of course, by checking if it possessed a valid RSA digital signature from its vendor, Thales Group. In doing so, it reserved a buffer to hold the result of the RSA calculation. The app developers designed this check themselves, Bay Area Labs concluded, and they failed to protect against a scenario where the attacker supplied an invalid, oversized signature. In that case, the calculation would fail without writing anything to the reserved memory space. SConnect didn't check whether the original calculation succeede
 ```
 
 #### Corroborating sources (1)
@@ -2971,6 +2887,45 @@ TerminalFix and Lorem Ipsum Loader enable covert tunneling The activity is linke
   - Link: https://www.sophos.com/en-us/blog/terminalfix-and-lorem-ipsum-loader-enable-covert-tunneling
   - Summary: The activity is linked to a broader campaign that previously used a different delivery mechanism Categories: Threat Research Tags: TerminalFix, clickfix, Lorem Ipsum Loader
 
+### Cluster 5b0efacecb — score 8
+
+- Title: New Huntress View for Security Incident Investigations
+- Source: Huntress (detection_response_operations)
+- Published: 2026-10-01T21:00:00+00:00
+- Link: https://www.huntress.com/blog/security-incident-investigations-partner-view
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+See how the Huntress SOC runs security incident investigations from first signal to final resolution, including the ones closed as benign.
+```
+
+#### Full body
+
+```
+Home Blog New Investigations View: From Black Box to Glass Box Last Updated: October 1, 2026 New Investigations View: From Black Box to Glass Box By: Micah Neidhart Summarize with AI Summarize ChatGPT Claude Perplexity Google AI For a long time, partners have told us the same thing: when an investigation was closed as benign, it was hard to know what actually happened behind the scenes. You might see that our Security Operations Center ( SOC ) looked at something and decided it was not a threat, but not much about why . That lack of visibility made a few things harder than they needed to be: Explaining to end customers what Huntress actually did or didn't do Showing the value of investigations that feel like a black box Answering reasonable questions like, "What did your analysts find?" The new Investigations View is our answer. It's a single place where you can see every investigation, what triggered it, and exactly how it was handled. Including those "closed benign." Prefer to watch? Robert Knapp, Director of the Huntress Security Operations Center, walks through the Investigations View, including the timeline of every step an attacker took and every step the SOC took in response, even for investigations closed as benign. New: Chronological timeline of security incident investigations Let's jump to the most exciting part first: you can now drill into any investigation to see a detailed, chronological timeline of everything that took place from first signal to final resolution. And you can easily export this information as a PDF to share with stakeholders. The investigation timeline includes: Signals that led to the investigation Analyst notes and context Incident reports, if one was generated Recommended and completed remediations Final resolution and status The investigation details view shows a full, ordered timeline of every signal, analyst action, and decision. This view turns what used to be a black box into a glass box: partners can see not just the outcome, but the work the Huntress SOC performed to get there. Even for investigations that determine activity is benign. Redesigned: A dashboard for every investigation Ok, let's zoom out from the details a little. Where do you find these delightful investigation timelines? When malicious activity is detected, they are now included by default in all Incident Reports. But you can also see the full list of investigation summaries in one place if you head over to the redesigned Investigations Dashboard. Here's how: Sign in to the Huntress portal Navigate to the Investigations tab in the top navigation Use the search and filters to find the investigations you care about most At the top of the dashboard, you'll find some high-level KPIs, including how many investigations were closed or reported, the organizations within your account that saw the most investigations, top signal types, and more. Below that, you'll also find a row-by-row view of everything our SOC has investigated across your tenants. Review the summary to get a quick overview of each investigation, including: When the investigation began Which customer and which endpoint, identity, or other asset was involved Which signal types were investigated ( EDR , ITDR , etc) How many signals contributed to the investigation Status, including investigations closed as benign or reported The Investigations dashboard gives partners a single view of every Huntress investigation, including those closed as benign. From here, partners can quickly search, filter, and jump into the details that matter most for an organization or endpoint. How to use security incident investigations in your organization The goal of this experience is simple: help you tell a clearer story about how Huntress is protecting your organization or customers. With the Investigations View, you can: Show the volume of investigations our SOC handles on behalf of each organization Walk through specific investigations during QBRs or security reviews Answer tough
+```
+
+#### Corroborating sources (1)
+
+- **Huntress** (detection_response_operations)
+  - Title: New Huntress View for Security Incident Investigations
+  - Published: 2026-10-01T21:00:00+00:00
+  - Link: https://www.huntress.com/blog/security-incident-investigations-partner-view
+  - Summary: See how the Huntress SOC runs security incident investigations from first signal to final resolution, including the ones closed as benign.
+
 ### Cluster 542929f911 — score 8
 
 - Title: Huntress Tragic Quadrant: Top Cyber Threats Wrecking Businesses
@@ -3140,6 +3095,42 @@ Home Blog Meet Athena, Our Agentic SOC Analyst Last Updated: September 29, 2026 
   - Published: 2026-09-29T16:24:00+00:00
   - Link: https://www.huntress.com/blog/athena-huntress-agentic-soc-analyst
   - Summary: Learn how Huntress' Athena brings agentic AI to the SOC, investigating signals end-to-end while human analysts own the final call.
+
+### Cluster a832e5790f — score 8
+
+- Title: AI agent exploits Zammad zero-days in DIVD breach: What we know and how to detect it
+- Source: Sysdig (detection_response_operations)
+- Published: 2026-10-02T00:00:00+00:00
+- Link: https://webflow.sysdig.com/blog/ai-agent-exploits-zammad-zero-days-in-divd-breach-what-we-know-and-how-to-detect-it
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: vulnerability_disclosure
+- cve_ids: CVE-2026-102489, CVE-2026-102490
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: vulnerability_disclosure
+- cve_ids: CVE-2026-102489, CVE-2026-102490
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Full body
+
+```
+< back to blog AI agent exploits Zammad zero-days in DIVD breach: What we know and how to detect it Published by: Marcel Claassen Published by Crystal Morin @ linkedin Published: October 2, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more This incident is currently under active investigation. The information in this blog is based on the information accessible as of the date of this blog, therefore the investigation information is likely to evolve. On September 21, 2026, an agentic threat actor (ATA) breached the Dutch Institute for Vulnerability Disclosure (DIVD) , a volunteer nonprofit that finds exposed systems on the internet and warns their owners. The ATA gained access by chaining two previously unknown vulnerabilities in the Zammad helpdesk platform, CVE-2026-102489 and CVE-2026-102490 , and went from a hijacked session to root access in seconds. According to the DIVD , the organization noticed suspicious activity, opened an investigation, and realized it had been hacked. The organization described the ATA as "loud and very, very messy," likely because AI agents are non-deterministic, choosing each action in succession at machine speed. That noise creates ample detection opportunities for security teams. Additionally, just as the Sysdig Threat Research Team (TRT) has seen from ATAs like JADEPUFFER , the AI agent behind the DIVD breach left comments in the code explaining its actions and reasoning. This noise is what allowed the DIVD to identify the breach within a day; however, due to the speed of the attack, even that was too late. While this agent may have been poorly trained and configured, it was still able to accomplish its task by moving from the helpdesk software to the DIVD system and exfiltrating data. It is unclear how many confirmed Zammad users are impacted by these zero-days, but according to its website, there are over 2,000 customers and 55,000 users. This blog details what we know about how the intrusion unfolded and how security teams can detect and combat the next one, at speed, without knowing the CVE. What happened at DIVD? On October 1, 2026, DIVD confirmed that the breach led to data exfiltration. This is an ongoing investigation, and the organization’s understanding of the incident will likely continue to evolve. The timeline below comes from the case files DIVD opened for the breach and the vulnerabilities: Date Activity September 21 The attacker first gained access to DIVD systems September 22 DIVD detected the intrusion, blocked access to all systems in its data center, and started a forensic investigation with Merlon Security. September 22 to 23 DIVD analyzed and reproduced the vulnerabilities. September 24 DIVD disclosed the breach to the Dutch data protection authority and the National Cyber Security Centre. DIVD also publicly announced the breach and disclosed the vulnerabilities to Zammad. September 26 DIVD scanned for publicly exposed Zammad instances and began notifying vulnerable organizations. September 29 DIVD published the case files and the two CVE records. The vulnerabilities Zammad is a widely deployed open source helpdesk software. DIVD identified both vulnerabilities in the software while investigating the breach with Merlon Security. The vulnerabilities were not disclosed prior to being used against DIVD, and have been characterized as zero-days. CVE-2026-102489 A remote code execution (RCE) flaw affecting versions 6.3.0 to 6.5.4. It is also present in versions 7.0.0 to 7.1.3, but is not exploitable due to specific environmental conditions. Impact on versions before 6.3.0 is unknown. Scored as a high-severity vulnerability with a CVSS score of 8.7. It’s a low-complexity vulnerability to exploit that does not require privileges, and because Zammad is an internet-facing web application, it is exposed at th
+```
+
+#### Corroborating sources (1)
+
+- **Sysdig** (detection_response_operations)
+  - Title: AI agent exploits Zammad zero-days in DIVD breach: What we know and how to detect it
+  - Published: 2026-10-02T00:00:00+00:00
+  - Link: https://webflow.sysdig.com/blog/ai-agent-exploits-zammad-zero-days-in-divd-breach-what-we-know-and-how-to-detect-it
 
 ### Cluster 77f69fdf7a — score 8
 
