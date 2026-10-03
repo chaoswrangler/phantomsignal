@@ -1,13 +1,13 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-10-03T20:53:58.097238+00:00
+- Generated: 2026-10-03T23:42:43.357515+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
-- Total items in window: 344
-- Total clusters raw: 146
-- Total clusters in packet: 56
+- Total items in window: 345
+- Total clusters raw: 145
+- Total clusters in packet: 55
 - Dropped low score: 90
 - Dropped overflow: 0
 
@@ -85,16 +85,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
@@ -105,6 +95,16 @@
   - Status: ok
   - Item count: 25
   - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
@@ -120,36 +120,36 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
-  - Item count: 15
+  - Item count: 20
   - In window count: 1
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 3
+  - Item count: 15
+  - In window count: 1
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -165,16 +165,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
-  - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 9
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
@@ -185,16 +175,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
-  - Item count: 15
-  - In window count: 2
+  - Item count: 78
+  - In window count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 9
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: parse_error
@@ -210,16 +210,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
@@ -235,11 +235,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 9
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
@@ -250,45 +245,55 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
+  - Item count: 100
+  - In window count: 9
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
-  - In window count: 5
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
+  - In window count: 2
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 3
+  - Item count: 20
+  - In window count: 1
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 9
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
+  - In window count: 0
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
@@ -305,26 +310,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
@@ -335,18 +330,13 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
-  - Item count: 30
-  - In window count: 14
+  - Item count: 20
+  - In window count: 20
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -355,43 +345,68 @@
   - Status: ok
   - Item count: 50
   - In window count: 1
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 15
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 25
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 7
+  - In window count: 10
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -400,23 +415,8 @@
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -425,11 +425,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - Item count: 50
+  - In window count: 50
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -455,16 +455,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **Just Security** (policy_strategy_geopolitics)
-  - URL: https://www.justsecurity.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 100
   - In window count: 2
+- **Just Security** (policy_strategy_geopolitics)
+  - URL: https://www.justsecurity.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Google Project Zero** (offensive_vulnerability_research)
   - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
   - Status: ok
@@ -591,26 +591,6 @@
   - https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era/
   - https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html
 
-### GitLab vulnerability activity
-- Anchor signal: GitLab
-- Theme key: gitlab
-- Cluster count: 3
-- Article count: 5
-- Cohesion: 0.227
-- Shared strong signals: GitLab
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_industries: government
-  - affected_products: GitLab
-  - urgency_signals: preauth_unauth
-- Cluster IDs: 2960bdb9ca, 48be01e909, f6fd3a57fe
-- Links:
-  - https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/
-  - https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html
-  - https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/
-  - https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/
-
 ### Fortinet active exploitation
 - Anchor signal: Fortinet
 - Theme key: fortinet
@@ -656,6 +636,23 @@
   - https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html
   - https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/
 
+### CVE-2026-102490 exploitation activity
+- Anchor signal: CVE-2026-102490
+- Theme key: cve-2026-102490
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.688
+- Shared strong signals: CVE-2026-102490
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: vulnerability_disclosure
+  - cve_ids: CVE-2026-102489, CVE-2026-102490
+- Cluster IDs: a832e5790f, 0d3ce97f33
+- Links:
+  - https://webflow.sysdig.com/blog/ai-agent-exploits-zammad-zero-days-in-divd-breach-what-we-know-and-how-to-detect-it
+  - https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/
+
 ### CVE-2026-102489 exploitation activity
 - Anchor signal: CVE-2026-102489
 - Theme key: cve-2026-102489
@@ -673,22 +670,22 @@
   - https://webflow.sysdig.com/blog/ai-agent-exploits-zammad-zero-days-in-divd-breach-what-we-know-and-how-to-detect-it
   - https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/
 
-### CVE-2026-102490 exploitation activity
-- Anchor signal: CVE-2026-102490
-- Theme key: cve-2026-102490
+### GitLab vulnerability activity
+- Anchor signal: GitLab
+- Theme key: gitlab
 - Cluster count: 2
-- Article count: 2
-- Cohesion: 0.688
-- Shared strong signals: CVE-2026-102490
+- Article count: 4
+- Cohesion: 0.2
+- Shared strong signals: GitLab
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: vulnerability_disclosure
-  - cve_ids: CVE-2026-102489, CVE-2026-102490
-- Cluster IDs: a832e5790f, 0d3ce97f33
+  - affected_products: GitLab
+- Cluster IDs: 2960bdb9ca, 48be01e909
 - Links:
-  - https://webflow.sysdig.com/blog/ai-agent-exploits-zammad-zero-days-in-divd-breach-what-we-know-and-how-to-detect-it
-  - https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/
+  - https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/
+  - https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html
+  - https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/
 
 ### ScreenConnect vulnerability activity
 - Anchor signal: ScreenConnect
@@ -2303,57 +2300,6 @@ Government Higher education is under siege, and fragmented security is making it
   - Link: https://www.rapid7.com/blog/post/it-higher-education-under-siege-fragmented-security
   - Summary: Higher education faces a difficult security equation. Universities hold large volumes of sensitive student, financial, health, and research data while supporting open networks, distributed users, legacy infrastructure, and increasingly complex cloud environments. Attackers have taken notice, and the pressure on security teams continues to grow. In Q2 2025, universities faced an average of 4,388 cyberattacks per organization per week, up 24% from the same period in 2024. Nine in ten universities reported experiencing a breach or security incident during the previous 12 months, while the average cost of a data breach in education reached $10.22 million. Confirmed attacks against higher education institutions exposed more than 3.9 million records in 2025, with ransomware continuing to disrupt teaching, research, financial aid, and administrative operations. Those figures are concerning on their own, but they only explain part of the problem. For university systems with multiple campuses,
 
-### Cluster 23f54b57d1 — score 10
-
-- Title: Fortra Patches Critical Vulnerabilities in BoKS
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-10-03T11:34:00+00:00
-- Link: https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, apt_espionage, phishing_social_eng, web_shell_backdoor, zero_day
-- actor_attribution: ShinyHunters
-- affected_industries: critical_infrastructure, financial_services, government
-- affected_products: Fortinet, GitHub, Microsoft SharePoint
-- cve_ids: CVE-2026-12627, CVE-2026-79898, CVE-2026-79901
-- urgency_signals: actively_exploited, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, zero_day, apt_espionage, web_shell_backdoor, active_exploitation
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services, government, critical_infrastructure
-- affected_products: Microsoft SharePoint, Fortinet, GitHub
-- cve_ids: CVE-2026-79901, CVE-2026-79898, CVE-2026-12627
-- urgency_signals: actively_exploited, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The bugs could lead to authentication bypass, shell command execution, and memory corruption. The post Fortra Patches Critical Vulnerabilities in BoKS appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Fortra has released patches for eight vulnerabilities in Core Privileged Access Manager (BoKS), including three critical-severity bugs. BoKS provides organizations with central management of Unix and Linux fleets, enabling policy enforcement and access control across accounts. On Thursday, the company warned that BoKS Manager deployments relying on BoKS keytab for Active Directory service account management are affected by a critical flaw leading to authentication bypass. Tracked as CVE-2026-79901 (CVSS score of 9.9), the issue exists because AD service account passwords are generated from a “predictable pseudo-random sequence seeded with the current Unix timestamp.” “An attacker who knows the service principal and can estimate the password-change time can reproduce a limited candidate set and verify candidates offline,” Fortra warned. The company underlined that an attacker could exploit the flaw if they knew the affected service principal, could estimate the password-change time, and had suitable Kerberos ticket material. Advertisement. Scroll to continue reading. “A standard authenticated Active Directory account can ordinarily request a service ticket for an SPN assigned to the affected account; administrative access to BoKS, the service host, or its keytab is not normally required. A previously captured service ticket can alternatively provide offline verification material,” it said. The second critical bug, CVE-2026-79898 (CVSS score of 9.1), is a command injection defect in crlserver that could allow an authenticated user to substitute shell commands that would be processed as root on the BoKS Master. According to Fortra, the vulnerability is exploitable through BCC and the WSI REST or SOAP API. BCC and WSI can be accessed over the network without a local sudo or suexec rule. The company also resolved CVE-2026-12627 (CVSS score of 9.8), a stack buffer overflow in BoKS’s autoregistration functionality that could allow a remote attacker to trigger memory corruption. Additionally, Fortra patched five high- and medium-severity BoKS flaws: heap buffer overflows, out-of-bounds read, insecure temporary file, and predictable password generation. The company makes no mention of any of these vulnerabilities being exploited in the wild. Additional information can be found on Fortra’s product security page. Related: Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks Related: Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action Related: WatchGuard Patches Critical Fireware OS Code Injection Vulnerability Related: Chrome, Firefox Updates Patch Over 100 Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Zimbra Vulnerability Exploited in the Wild Prior to Public Disclosure Zammad Zero-Days Exploited in AI-Powered DIVD Hack 500,000 Active Credentials Left Exposed on GitHub Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability WatchGuard Patches Critical Fireware OS Code Injection Vulnerability Chrome, Firefox Updates Patch Over 100 Vulnerabilities Russian APT Star Blizzard Uses ‘RedFlick’ Infection Chain in Recent Attacks ShinyHunters Defiant After FBI Calls on Members to Come Forward Latest News doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures In Other News: $15K iCloud Spoofing Bugs, AI Policy Experts Phished, Adblocker Spies on AI Chats macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor Crypto Scammers Hijack Microsoft’s Official X Account In Rare Move, Alleged Iranian State Hacker Extradited to US Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks AI Agents Aimed SQL Injection at US and Canadian Government Sites Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action Trending Daily Briefing Newslet
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Fortra Patches Critical Vulnerabilities in BoKS
-  - Published: 2026-10-03T11:34:00+00:00
-  - Link: https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/
-  - Summary: The bugs could lead to authentication bypass, shell command execution, and memory corruption. The post Fortra Patches Critical Vulnerabilities in BoKS appeared first on SecurityWeek .
-
 ### Cluster 4e072e3956 — score 10
 
 - Title: Critical Cisco Catalyst SD-WAN Zero-Day Under Active Exploitation
@@ -2570,6 +2516,57 @@ Wireshark release 4.6.9 fixes 19 vulnerabilities and 16 bugs.
   - Published: 2026-09-27T15:04:49+00:00
   - Link: https://isc.sans.edu/diary/rss/33372
   - Summary: Wireshark release 4.6.9 fixes 19 vulnerabilities and 16 bugs.
+
+### Cluster 23f54b57d1 — score 9
+
+- Title: Fortra Patches Critical Vulnerabilities in BoKS
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-10-03T11:34:00+00:00
+- Link: https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, apt_espionage, phishing_social_eng, web_shell_backdoor, zero_day
+- actor_attribution: ShinyHunters
+- affected_industries: critical_infrastructure, financial_services, government
+- affected_products: Fortinet, GitHub, Microsoft SharePoint
+- cve_ids: CVE-2026-12627, CVE-2026-79898, CVE-2026-79901
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, zero_day, apt_espionage, web_shell_backdoor, active_exploitation
+- actor_attribution: ShinyHunters
+- affected_industries: financial_services, government, critical_infrastructure
+- affected_products: Microsoft SharePoint, Fortinet, GitHub
+- cve_ids: CVE-2026-79901, CVE-2026-79898, CVE-2026-12627
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The bugs could lead to authentication bypass, shell command execution, and memory corruption. The post Fortra Patches Critical Vulnerabilities in BoKS appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Fortra has released patches for eight vulnerabilities in Core Privileged Access Manager (BoKS), including three critical-severity bugs. BoKS provides organizations with central management of Unix and Linux fleets, enabling policy enforcement and access control across accounts. On Thursday, the company warned that BoKS Manager deployments relying on BoKS keytab for Active Directory service account management are affected by a critical flaw leading to authentication bypass. Tracked as CVE-2026-79901 (CVSS score of 9.9), the issue exists because AD service account passwords are generated from a “predictable pseudo-random sequence seeded with the current Unix timestamp.” “An attacker who knows the service principal and can estimate the password-change time can reproduce a limited candidate set and verify candidates offline,” Fortra warned. The company underlined that an attacker could exploit the flaw if they knew the affected service principal, could estimate the password-change time, and had suitable Kerberos ticket material. Advertisement. Scroll to continue reading. “A standard authenticated Active Directory account can ordinarily request a service ticket for an SPN assigned to the affected account; administrative access to BoKS, the service host, or its keytab is not normally required. A previously captured service ticket can alternatively provide offline verification material,” it said. The second critical bug, CVE-2026-79898 (CVSS score of 9.1), is a command injection defect in crlserver that could allow an authenticated user to substitute shell commands that would be processed as root on the BoKS Master. According to Fortra, the vulnerability is exploitable through BCC and the WSI REST or SOAP API. BCC and WSI can be accessed over the network without a local sudo or suexec rule. The company also resolved CVE-2026-12627 (CVSS score of 9.8), a stack buffer overflow in BoKS’s autoregistration functionality that could allow a remote attacker to trigger memory corruption. Additionally, Fortra patched five high- and medium-severity BoKS flaws: heap buffer overflows, out-of-bounds read, insecure temporary file, and predictable password generation. The company makes no mention of any of these vulnerabilities being exploited in the wild. Additional information can be found on Fortra’s product security page. Related: Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks Related: Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action Related: WatchGuard Patches Critical Fireware OS Code Injection Vulnerability Related: Chrome, Firefox Updates Patch Over 100 Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Zimbra Vulnerability Exploited in the Wild Prior to Public Disclosure Zammad Zero-Days Exploited in AI-Powered DIVD Hack 500,000 Active Credentials Left Exposed on GitHub Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability WatchGuard Patches Critical Fireware OS Code Injection Vulnerability Chrome, Firefox Updates Patch Over 100 Vulnerabilities Russian APT Star Blizzard Uses ‘RedFlick’ Infection Chain in Recent Attacks ShinyHunters Defiant After FBI Calls on Members to Come Forward Latest News doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures In Other News: $15K iCloud Spoofing Bugs, AI Policy Experts Phished, Adblocker Spies on AI Chats macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor Crypto Scammers Hijack Microsoft’s Official X Account In Rare Move, Alleged Iranian State Hacker Extradited to US Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks AI Agents Aimed SQL Injection at US and Canadian Government Sites Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action Trending Daily Briefing Newslet
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Fortra Patches Critical Vulnerabilities in BoKS
+  - Published: 2026-10-03T11:34:00+00:00
+  - Link: https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/
+  - Summary: The bugs could lead to authentication bypass, shell command execution, and memory corruption. The post Fortra Patches Critical Vulnerabilities in BoKS appeared first on SecurityWeek .
 
 ### Cluster aee89b0f66 — score 8
 
@@ -2940,55 +2937,6 @@ Runtime security for AI agents: if an agent is compromised, so is its account of
   - Published: 2026-10-01T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/with-ai-agents-runtime-is-the-only-place-truth-lives
   - Summary: Runtime security for AI agents: if an agent is compromised, so is its account of itself. Sysdig's founder on the only truth that can't be forged.
-
-### Cluster f6fd3a57fe — score 8
-
-- Title: Kiteworks patches max severity code injection vulnerability
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-10-01T13:51:08+00:00
-- Link: https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- affected_industries: education, government
-- affected_products: GitLab
-- cve_ids: CVE-2026-54154
-- urgency_signals: preauth_unauth, zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- affected_industries: government, education
-- affected_products: GitLab
-- cve_ids: CVE-2026-54154
-- urgency_signals: zero_day, preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Secure file-sharing software company Kiteworks has released security updates to address 126 vulnerabilities, including a max-severity flaw affecting its Email Protection Gateway (EPG) security solution. [...]
-```
-
-#### Full body
-
-```
-Kiteworks patches max severity code injection vulnerability By Sergiu Gatlan October 1, 2026 09:51 AM 0 Secure file-sharing software company Kiteworks has released security updates to address 126 vulnerabilities, including a max-severity flaw affecting its Email Protection Gateway (EPG) security solution. EPG is a component of the Kiteworks Private Content Network (PCN), which integrates enterprise email, Managed File Transfer (MFT), file sharing, APIs, and web forms into a single platform. Formerly known as Accellion, Kiteworks provides services to thousands of global corporations and government agencies, and its Private Content Network has over 100 million end-users. As part of the same set of security patches , Kiteworks has also fixed 11 critical authentication bypass, admin account takeover, stored cross-site scripting (XSS), improper access control, and improper authentication vulnerabilities in the Core and EPG components. Tracked as CVE-2026-54154, the maximum-severity vulnerability was reported through Kiteworks' bug bounty program on YesWeHack. Successful exploitation can let remote threat actors without privileges gain code execution and take over the targeted EPG appliance by exploiting a chain of path traversal, code injection, and missing authentication in low-complexity attacks that don't require user interaction. The flaw affects all Kiteworks Email Protection Gateway releases before 9.4.1 and is now patched in versions 9.4.1 or later. "A combination of input-handling flaws in publicly reachable endpoints of the Kiteworks Email Protection Gateway potentially allowed an unauthenticated remote attacker to achieve arbitrary code execution and, by chaining additional local weaknesses, to escalate to full administrative (root) control of the appliance," Kiteworks explained in a Wednesday advisory. Last week, Kiteworks urged customers to shut down their servers after receiving threat intelligence warning of a potentially imminent zero-day cyberattack. The company lifted the precautionary advisory on Monday after patching a critical vulnerability and brought all hosted customer systems back online, and said that it found no evidence of compromise or suspicious activity. However, Kiteworks has yet to share additional details on the fixed vulnerability and has not yet assigned a CVE ID for easy tracking. Threat watchdog Shadowserver currently tracks nearly 400 Kiteworks instances exposed on the Internet, but provides no information on how many have already been patched or are honeypots. Build your security blueprint for AI-powered attacks Join Mikko Hyppönen and security leaders from the NFL, CHANEL, and Atlassian for a two-hour digital summit on what AI-speed attacks change, what defenders should stop doing, and how to validate, decide, fix, and re-validate at machine speed. Save your seat Related Articles: Kiteworks patches critical flaw, brings customer systems online Hackers now exploit critical Roundcube flaw in code injection attacks Frontline Education breach exposes school district employee data GitLab warns of critical RCE vulnerability in AI Gateway service Dell asks admins to patch max severity CSM flaws as soon as possible
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Kiteworks patches max severity code injection vulnerability
-  - Published: 2026-10-01T13:51:08+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/
-  - Summary: Secure file-sharing software company Kiteworks has released security updates to address 126 vulnerabilities, including a max-severity flaw affecting its Email Protection Gateway (EPG) security solution. [...]
 
 ### Cluster 586d2da611 — score 8
 

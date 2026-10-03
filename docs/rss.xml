@@ -6,7 +6,7 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 03 Oct 2026 20:53:58 +0000</lastBuildDate>
+<lastBuildDate>Sat, 03 Oct 2026 23:42:43 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -768,18 +768,6 @@
 <category>Anthropic/Claude</category>
 </item>
 <item>
-<title>Kiteworks patches max severity code injection vulnerability</title>
-<link>https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/</link>
-<description><![CDATA[Secure file-sharing software company Kiteworks has released security updates to address 126 vulnerabilities, including a max-severity flaw affecting its Email Protection Gateway (EPG) security solution. [...]<br/><br/><em>Tags: GitLab · CVE-2026-54154 · zero_day</em>]]></description>
-<pubDate>Thu, 01 Oct 2026 13:51:08 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>GitLab</category>
-<category>CVE-2026-54154</category>
-<category>zero_day</category>
-</item>
-<item>
 <title>CloudSyncD MacOS Backdoor Hides Behind Fake Zoom Installer</title>
 <link>https://www.infosecurity-magazine.com/news/cloudsyncd-macos-backdoor-fake/</link>
 <description><![CDATA[CloudSyncD uses a fake Zoom installer to phish Mac passwords and launch a two-stage backdoor<br/><br/><em>Tags: Apple iOS/macOS · web_shell_backdoor</em>]]></description>
@@ -1070,6 +1058,16 @@
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>phishing_social_eng</category>
+</item>
+<item>
+<title>Cloud CISO Perspectives: How cybersecurity startups can win CISOs</title>
+<link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-cybersecurity-startups-can-win-cisos/</link>
+<description><![CDATA[Welcome to the second Cloud CISO Perspectives for September 2026. Today, Alicja Cade and Nick Godfrey, senior directors, Office of the CISO, share their guidance for cybersecurity startups on how to win over the CISOs who will become crucial business partners and customers. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fc28a0e9890&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; How cybersecurity startups can win CISOs By Alicja Cade, Senior D<br/><br/><em>Tags: Google Cloud</em>]]></description>
+<pubDate>Wed, 30 Sep 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-cybersecurity-startups-can-win-cisos/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+<category>Google Cloud</category>
 </item>
 <item>
 <title>Securing the Kubernetes Supply Chain: Introducing WizOS Helm Charts</title>
@@ -2128,6 +2126,15 @@
 <guid isPermaLink="true">https://isc.sans.edu/diary/rss/33372</guid>
 <source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
 <category>government_authoritative</category>
+</item>
+<item>
+<title>Kākāpō Party</title>
+<link>https://simonwillison.net/2026/Sep/26/kakapo-party/</link>
+<description><![CDATA[Tool: Kākāpō Party I presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we had in 2026. For my closing slide I wanted to celebrate, and I had seen some buzz around how good Claude Opus 5.5 was at creating pixel art animations. So I rounded up three Kakapo photos from Google image search and dropped them into Claude with this prompt: Here are some photos of kakapo parrots just to remind you what they look like I need you to make an animation in animated pixel art on HTML 5 canvas of obviously pixel art kakapo jumping up and down having a party with confetti and suchlike - there should be at least 20 of them Here&apos;s the transcript , and this is the resulting page . It&apos;s pretty great! I wanted to embed it in a Keynote presentation file, so I downloaded the HTML and told a local Claude Code session: Make me a video of file:///Users/simon/Downloads/kakapo-p]]></description>
+<pubDate>Sat, 26 Sep 2026 23:39:06 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Sep/26/kakapo-party/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Trading Maintenance for Momentum: Scaling Security Validation Across 230+ Sites</title>
@@ -3473,15 +3480,6 @@
 <category>data_breach</category>
 </item>
 <item>
-<title>Jev introduces a new shape of LLM - System One, aka Decision Models</title>
-<link>https://simonwillison.net/2026/Sep/21/jev/</link>
-<description><![CDATA[Last week TypeSafe AI unveiled Jev , their first example of a new category of model that they are calling &quot;System One models&quot; (I&apos;m with Maggie Appleton, I think &quot;decision models&quot; is a better name for these). Jev is an interesting variant on the usual LLM format: it still accepts text inputs, but instead of text output it returns floating point numbers corresponding to categories, yes/no questions, ratings, and associated confidence scores. TypeSafe describe Jev like this: Think of Jev as a frontier-intelligence function call: unstructured state in, typed probabilistic decisions out. It&apos;s also very fast, and really cheap . Regular LLMs are priced in terms of input and output tokens, with output generally charged at significantly higher rates. Jev charges only for input - output is free - and the input price of their first model is $0.042 per million tokens - cheaper even than OpenAI&apos;s GPT-5 Nano ($0.05/million). Jev lets you ask questions about text or semi-structured data. You compose ]]></description>
-<pubDate>Mon, 21 Sep 2026 23:09:20 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Sep/21/jev/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>From C2 Detection to Possible Victim Identification</title>
 <link>https://www.team-cymru.com/post/c2-detection-to-victim-identification</link>
 <description><![CDATA[Discover how to transition from C2 detection to possible victim identification. Improve your cyber incident response by tracking attacker infrastructure to compromised systems.]]></description>
@@ -4409,15 +4407,6 @@
 <guid isPermaLink="true">https://www.team-cymru.com/post/inside-the-v1-raccoon-stealer-s-den</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
-</item>
-<item>
-<title>Cloudflare Python Workers are now generally available</title>
-<link>https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/</link>
-<description><![CDATA[Cloudflare Python Workers are now generally available After a two year preview, Cloudflare&apos;s support for running Python code in their server-side Workers platform is now stable: &quot;Python is now a first-class, fully supported language on the Cloudflare Developer Platform&quot;. A neat thing about this is how it works. Cloudflare are running Python compiled to WebAssembly via Pyodide in their V8-based workerd runtime. This comes with some limitations, documented here - most notably both multiprocessing and threading are non-functional in the WebAssembly VM. One particularly interesting detail of this is the local development environment story - their pywrangler development tool (confusingly packaged as workers-py on PyPI) runs a full local simulation of their stack, including executing code with Pyodide in WebAssembly in V8 in a 123MB workerd binary, which for me ended up in node_modules/@cloudflare/workerd-darwin-arm64/bin/workerd . Python Workers represent a significant investment in the wid]]></description>
-<pubDate>Mon, 21 Sep 2026 22:25:44 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>How AI Agents Can Trigger Runaway Costs for Enterprises</title>
@@ -19650,7 +19639,7 @@
 <title>CrowdStrike Expands Federal SOC Modernization Through CISA-Funded SIEMaaS</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 03 Oct 2026 20:53:58 +0000</pubDate>
+<pubDate>Sat, 03 Oct 2026 23:42:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19659,7 +19648,7 @@
 <title>Copy, Paste, Compromised: How ClickFix Attacks Work and How CrowdStrike Stops Them</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-clickfix-attacks-work-and-how-to-stop-them/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 03 Oct 2026 20:53:58 +0000</pubDate>
+<pubDate>Sat, 03 Oct 2026 23:42:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-clickfix-attacks-work-and-how-to-stop-them/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19668,7 +19657,7 @@
 <title>A Win for Defenders: CrowdStrike and NVIDIA Extend Security Across the AI Stack</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 03 Oct 2026 20:53:58 +0000</pubDate>
+<pubDate>Sat, 03 Oct 2026 23:42:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19677,7 +19666,7 @@
 <title>CrowdStrike Named a Leader in The Forrester Wave™: Proactive Security Platforms, Q3 2026</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 03 Oct 2026 20:53:58 +0000</pubDate>
+<pubDate>Sat, 03 Oct 2026 23:42:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19686,7 +19675,7 @@
 <title>CrowdStrike Named a Leader in The Forrester Wave™: External Threat Intelligence Service Providers, Q3 2026</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 03 Oct 2026 20:53:58 +0000</pubDate>
+<pubDate>Sat, 03 Oct 2026 23:42:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19695,7 +19684,7 @@
 <title>CrowdStrike SafeMind: When the Best Offense Builds the Best Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 03 Oct 2026 20:53:58 +0000</pubDate>
+<pubDate>Sat, 03 Oct 2026 23:42:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19704,7 +19693,7 @@
 <title>CrowdStrike Accelerates Real-Time Data Classification with On-Device AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 03 Oct 2026 20:53:58 +0000</pubDate>
+<pubDate>Sat, 03 Oct 2026 23:42:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19713,7 +19702,7 @@
 <title>PhantomRaven: An LLM-Generated Information Stealer Developed for Bug Bounty Hunting</title>
 <link>https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 03 Oct 2026 20:53:58 +0000</pubDate>
+<pubDate>Sat, 03 Oct 2026 23:42:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19722,7 +19711,7 @@
 <title>September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 03 Oct 2026 20:53:58 +0000</pubDate>
+<pubDate>Sat, 03 Oct 2026 23:42:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19731,7 +19720,7 @@
 <title>CrowdStrike Delivers the Next Evolution of the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 03 Oct 2026 20:53:58 +0000</pubDate>
+<pubDate>Sat, 03 Oct 2026 23:42:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
