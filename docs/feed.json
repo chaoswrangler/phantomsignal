@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T12:08:14.343877+00:00",
+  "generated_at": "2026-10-04T17:24:40.879166+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2198,
@@ -18,19 +18,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
-    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 8
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -46,12 +46,19 @@
       "item_count": 25,
       "in_window_count": 0
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -60,11 +67,11 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "NCSC UK": {
@@ -74,13 +81,6 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
@@ -88,8 +88,15 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -102,26 +109,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
-    },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
-    },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 3
+    },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 4
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -137,26 +137,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 9
-    },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 40,
       "in_window_count": 0
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
@@ -165,12 +151,19 @@
       "item_count": 78,
       "in_window_count": 0
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
+      "item_count": 50,
+      "in_window_count": 9
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
@@ -185,6 +178,13 @@
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
     },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
@@ -242,19 +242,19 @@
       "item_count": 100,
       "in_window_count": 9
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
@@ -270,19 +270,19 @@
       "item_count": 100,
       "in_window_count": 2
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 5
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -291,13 +291,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 9
-    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -305,12 +298,12 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 9
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -326,9 +319,9 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
@@ -347,12 +340,12 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 20
+      "in_window_count": 0
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -361,12 +354,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 30,
+      "item_count": 15,
       "in_window_count": 15
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 20
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -375,15 +375,22 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 30,
       "in_window_count": 15
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -396,33 +403,12 @@
       "item_count": 50,
       "in_window_count": 1
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 7
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -431,11 +417,11 @@
       "item_count": 50,
       "in_window_count": 25
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 20,
       "in_window_count": 2
     },
     "Team Cymru": {
@@ -445,19 +431,26 @@
       "item_count": 100,
       "in_window_count": 0
     },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 7
+    },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
@@ -487,15 +480,15 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -507,6 +500,13 @@
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
     },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
@@ -816,17 +816,17 @@
       "cluster_ids": [
         "a14cf81e36",
         "48be01e909",
+        "a89ee14154",
         "355863d181",
-        "07b6c8a583",
-        "a89ee14154"
+        "07b6c8a583"
       ],
       "links": [
         "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
         "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
         "https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/",
+        "https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/",
         "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
-        "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/",
-        "https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/"
+        "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/"
       ]
     },
     {
@@ -912,7 +912,7 @@
       },
       "cluster_count": 2,
       "article_count": 5,
-      "cohesion": 0.2,
+      "cohesion": 0.206,
       "shared_strong_signals": [
         "Fortinet"
       ],
@@ -928,76 +928,6 @@
         "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
         "https://www.securityweek.com/exploited-fortinet-fortimail-zero-day-calls-for-urgent-action/",
         "https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/"
-      ]
-    },
-    {
-      "label": "ShinyHunters: active exploitation",
-      "anchor_signal": "ShinyHunters",
-      "theme_key": "shinyhunters",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "urgency_signals": [
-          "actively_exploited"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 7,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "ShinyHunters"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "8f6c26226b",
-        "23f54b57d1"
-      ],
-      "links": [
-        "https://research.checkpoint.com/2026/28th-september-threat-intelligence-report/",
-        "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
-        "https://risky.biz/SRB185/",
-        "https://cyberscoop.com/shinyhunters-alleged-leader-arrested-netherlands/",
-        "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
-        "https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/"
-      ]
-    },
-    {
-      "label": "CVE-2026-102489 exploitation activity",
-      "anchor_signal": "CVE-2026-102489",
-      "theme_key": "cve-2026-102489",
-      "dominant_features": {
-        "threat_categories": [
-          "vulnerability_disclosure"
-        ],
-        "cve_ids": [
-          "CVE-2026-102489",
-          "CVE-2026-102490"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.688,
-      "shared_strong_signals": [
-        "CVE-2026-102489"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "a832e5790f",
-        "0d3ce97f33"
-      ],
-      "links": [
-        "https://webflow.sysdig.com/blog/ai-agent-exploits-zammad-zero-days-in-divd-breach-what-we-know-and-how-to-detect-it",
-        "https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/"
       ]
     },
     {
@@ -1018,6 +948,36 @@
       "cohesion": 0.688,
       "shared_strong_signals": [
         "CVE-2026-102490"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "a832e5790f",
+        "0d3ce97f33"
+      ],
+      "links": [
+        "https://webflow.sysdig.com/blog/ai-agent-exploits-zammad-zero-days-in-divd-breach-what-we-know-and-how-to-detect-it",
+        "https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/"
+      ]
+    },
+    {
+      "label": "CVE-2026-102489 exploitation activity",
+      "anchor_signal": "CVE-2026-102489",
+      "theme_key": "cve-2026-102489",
+      "dominant_features": {
+        "threat_categories": [
+          "vulnerability_disclosure"
+        ],
+        "cve_ids": [
+          "CVE-2026-102489",
+          "CVE-2026-102490"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.688,
+      "shared_strong_signals": [
+        "CVE-2026-102489"
       ],
       "member_cves": [],
       "also_targets": [],
@@ -1497,7 +1457,7 @@
           "products": []
         }
       },
-      "score": 13,
+      "score": 12,
       "full_body": "",
       "fetch_status": "fetch_failed:HTTPError"
     },
@@ -1529,7 +1489,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "The Hacker News",
@@ -1567,7 +1527,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "BleepingComputer",
@@ -1597,7 +1557,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "SecurityWeek",
@@ -1617,9 +1577,7 @@
           "web_shell_backdoor",
           "active_exploitation"
         ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
+        "actor_attribution": [],
         "affected_industries": [
           "financial_services",
           "government",
@@ -1654,7 +1612,7 @@
         }
       },
       "score": 8,
-      "full_body": "Fortra has released patches for eight vulnerabilities in Core Privileged Access Manager (BoKS), including three critical-severity bugs. BoKS provides organizations with central management of Unix and Linux fleets, enabling policy enforcement and access control across accounts. On Thursday, the company warned that BoKS Manager deployments relying on BoKS keytab for Active Directory service account management are affected by a critical flaw leading to authentication bypass. Tracked as CVE-2026-79901 (CVSS score of 9.9), the issue exists because AD service account passwords are generated from a “predictable pseudo-random sequence seeded with the current Unix timestamp.” “An attacker who knows the service principal and can estimate the password-change time can reproduce a limited candidate set and verify candidates offline,” Fortra warned. The company underlined that an attacker could exploit the flaw if they knew the affected service principal, could estimate the password-change time, and had suitable Kerberos ticket material. Advertisement. Scroll to continue reading. “A standard authenticated Active Directory account can ordinarily request a service ticket for an SPN assigned to the affected account; administrative access to BoKS, the service host, or its keytab is not normally required. A previously captured service ticket can alternatively provide offline verification material,” it said. The second critical bug, CVE-2026-79898 (CVSS score of 9.1), is a command injection defect in crlserver that could allow an authenticated user to substitute shell commands that would be processed as root on the BoKS Master. According to Fortra, the vulnerability is exploitable through BCC and the WSI REST or SOAP API. BCC and WSI can be accessed over the network without a local sudo or suexec rule. The company also resolved CVE-2026-12627 (CVSS score of 9.8), a stack buffer overflow in BoKS’s autoregistration functionality that could allow a remote attacker to trigger memory corruption. Additionally, Fortra patched five high- and medium-severity BoKS flaws: heap buffer overflows, out-of-bounds read, insecure temporary file, and predictable password generation. The company makes no mention of any of these vulnerabilities being exploited in the wild. Additional information can be found on Fortra’s product security page. Related: Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks Related: Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action Related: WatchGuard Patches Critical Fireware OS Code Injection Vulnerability Related: Chrome, Firefox Updates Patch Over 100 Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Zimbra Vulnerability Exploited in the Wild Prior to Public Disclosure Zammad Zero-Days Exploited in AI-Powered DIVD Hack 500,000 Active Credentials Left Exposed on GitHub Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability WatchGuard Patches Critical Fireware OS Code Injection Vulnerability Chrome, Firefox Updates Patch Over 100 Vulnerabilities Russian APT Star Blizzard Uses ‘RedFlick’ Infection Chain in Recent Attacks ShinyHunters Defiant After FBI Calls on Members to Come Forward Latest News doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures In Other News: $15K iCloud Spoofing Bugs, AI Policy Experts Phished, Adblocker Spies on AI Chats macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor Crypto Scammers Hijack Microsoft’s Official X Account In Rare Move, Alleged Iranian State Hacker Extradited to US Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks AI Agents Aimed SQL Injection at US and Canadian Government Sites Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action Trending Daily Briefing Newslet",
+      "full_body": "Fortra has released patches for eight vulnerabilities in Core Privileged Access Manager (BoKS), including three critical-severity bugs. BoKS provides organizations with central management of Unix and Linux fleets, enabling policy enforcement and access control across accounts. On Thursday, the company warned that BoKS Manager deployments relying on BoKS keytab for Active Directory service account management are affected by a critical flaw leading to authentication bypass. Tracked as CVE-2026-79901 (CVSS score of 9.9), the issue exists because AD service account passwords are generated from a “predictable pseudo-random sequence seeded with the current Unix timestamp.” “An attacker who knows the service principal and can estimate the password-change time can reproduce a limited candidate set and verify candidates offline,” Fortra warned. The company underlined that an attacker could exploit the flaw if they knew the affected service principal, could estimate the password-change time, and had suitable Kerberos ticket material. Advertisement. Scroll to continue reading. “A standard authenticated Active Directory account can ordinarily request a service ticket for an SPN assigned to the affected account; administrative access to BoKS, the service host, or its keytab is not normally required. A previously captured service ticket can alternatively provide offline verification material,” it said. The second critical bug, CVE-2026-79898 (CVSS score of 9.1), is a command injection defect in crlserver that could allow an authenticated user to substitute shell commands that would be processed as root on the BoKS Master. According to Fortra, the vulnerability is exploitable through BCC and the WSI REST or SOAP API. BCC and WSI can be accessed over the network without a local sudo or suexec rule. The company also resolved CVE-2026-12627 (CVSS score of 9.8), a stack buffer overflow in BoKS’s autoregistration functionality that could allow a remote attacker to trigger memory corruption. Additionally, Fortra patched five high- and medium-severity BoKS flaws: heap buffer overflows, out-of-bounds read, insecure temporary file, and predictable password generation. The company makes no mention of any of these vulnerabilities being exploited in the wild. Additional information can be found on Fortra’s product security page. Related: Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks Related: Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action Related: WatchGuard Patches Critical Fireware OS Code Injection Vulnerability Related: Chrome, Firefox Updates Patch Over 100 Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action Zimbra Vulnerability Exploited in the Wild Prior to Public Disclosure Zammad Zero-Days Exploited in AI-Powered DIVD Hack 500,000 Active Credentials Left Exposed on GitHub Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability WatchGuard Patches Critical Fireware OS Code Injection Vulnerability Chrome, Firefox Updates Patch Over 100 Vulnerabilities Russian APT Star Blizzard Uses ‘RedFlick’ Infection Chain in Recent Attacks Latest News Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures In Other News: $15K iCloud Spoofing Bugs, AI Policy Experts Phished, Adblocker Spies on AI Chats macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor Crypto Scammers Hijack Microsoft’s Official X Account In Rare Move, Alleged Iranian State Hacker Extradited to US Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks AI Agents Aimed SQL Injection at US and Canadian Government Sites Tren",
       "fetch_status": "ok"
     },
     {
@@ -3475,34 +3433,6 @@
       "score": 4
     },
     {
-      "source": "SecurityWeek",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Zero Trust Creator Says Model Holds Firm Against AI-Assisted Attacks",
-      "link": "https://www.securityweek.com/zero-trust-creator-says-model-holds-firm-against-ai-assisted-attacks/",
-      "published": "2026-10-01T18:00:00+00:00",
-      "summary": "Fifteen years after coining the framework, John Kindervag insists zero trust still works in the AI era—if you get the implementation right. The post Zero Trust Creator Says Model Holds Firm Against AI-Assisted Attacks appeared first on SecurityWeek .",
-      "author": "Kevin Townsend",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
       "source": "The Hacker News",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -5073,7 +5003,7 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
@@ -5111,7 +5041,7 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
@@ -5788,7 +5718,7 @@
       "score": 5
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Phishing Abuses RMM Tools for Persistent Access",
@@ -5828,7 +5758,7 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Phishing Abuses RMM Tools for Persistent Access",
@@ -6357,7 +6287,7 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
@@ -6399,7 +6329,7 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
@@ -7482,7 +7412,7 @@
       "score": 7
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
@@ -7524,7 +7454,7 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
@@ -8407,7 +8337,7 @@
       }
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Storm-3168: Agentic-driven cloud attacks using compromised service principals",
@@ -8438,7 +8368,7 @@
       }
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Storm-3168: Agentic-driven cloud attacks using compromised service principals",
@@ -9362,7 +9292,7 @@
       }
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments",
@@ -9391,7 +9321,7 @@
       }
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments",

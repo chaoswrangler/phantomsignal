@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-10-04T12:08:14.321340+00:00
+- Generated: 2026-10-04T17:24:40.848746+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
 - Total items in window: 346
-- Total clusters raw: 145
+- Total clusters raw: 144
 - Total clusters in packet: 53
-- Dropped low score: 92
+- Dropped low score: 91
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -80,16 +80,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 8
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
@@ -100,38 +100,43 @@
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -140,21 +145,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 4
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 3
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -165,31 +165,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 9
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
-  - Item count: 15
-  - In window count: 2
+  - Item count: 50
+  - In window count: 9
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
@@ -200,6 +195,11 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
@@ -240,16 +240,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 9
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
@@ -260,36 +260,31 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 5
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 9
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 0
+  - In window count: 9
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
@@ -300,8 +295,8 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
@@ -315,33 +310,43 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
-  - In window count: 20
+  - In window count: 0
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 15
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 15
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -350,51 +355,41 @@
   - Status: ok
   - Item count: 50
   - In window count: 1
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 7
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 25
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
   - Status: ok
-  - Item count: 15
+  - Item count: 20
   - In window count: 2
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
@@ -415,13 +410,13 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -430,6 +425,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
@@ -547,14 +547,14 @@
   - threat_categories: phishing_social_eng, apt_espionage
   - affected_industries: government
   - affected_products: Microsoft Defender
-- Cluster IDs: a14cf81e36, 48be01e909, 355863d181, 07b6c8a583, a89ee14154
+- Cluster IDs: a14cf81e36, 48be01e909, a89ee14154, 355863d181, 07b6c8a583
 - Links:
   - https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/
   - https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html
   - https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/
+  - https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/
   - https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/
   - https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/
-  - https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/
 
 ### CVE-2026-76504 exploitation activity
 - Anchor signal: CVE-2026-76504
@@ -597,7 +597,7 @@
 - Theme key: fortinet
 - Cluster count: 2
 - Article count: 5
-- Cohesion: 0.2
+- Cohesion: 0.206
 - Shared strong signals: Fortinet
 - Member CVEs: (none)
 - Also targets: (none)
@@ -614,36 +614,13 @@
   - https://www.securityweek.com/exploited-fortinet-fortimail-zero-day-calls-for-urgent-action/
   - https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/
 
-### ShinyHunters: active exploitation
-- Anchor signal: ShinyHunters
-- Theme key: shinyhunters
-- Cluster count: 2
-- Article count: 7
-- Cohesion: 0.2
-- Shared strong signals: ShinyHunters
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation
-  - actor_attribution: ShinyHunters
-  - affected_industries: financial_services, government
-  - urgency_signals: actively_exploited
-- Cluster IDs: 8f6c26226b, 23f54b57d1
-- Links:
-  - https://research.checkpoint.com/2026/28th-september-threat-intelligence-report/
-  - https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/
-  - https://risky.biz/SRB185/
-  - https://cyberscoop.com/shinyhunters-alleged-leader-arrested-netherlands/
-  - https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html
-  - https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/
-
-### CVE-2026-102489 exploitation activity
-- Anchor signal: CVE-2026-102489
-- Theme key: cve-2026-102489
+### CVE-2026-102490 exploitation activity
+- Anchor signal: CVE-2026-102490
+- Theme key: cve-2026-102490
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.688
-- Shared strong signals: CVE-2026-102489
+- Shared strong signals: CVE-2026-102490
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -654,13 +631,13 @@
   - https://webflow.sysdig.com/blog/ai-agent-exploits-zammad-zero-days-in-divd-breach-what-we-know-and-how-to-detect-it
   - https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/
 
-### CVE-2026-102490 exploitation activity
-- Anchor signal: CVE-2026-102490
-- Theme key: cve-2026-102490
+### CVE-2026-102489 exploitation activity
+- Anchor signal: CVE-2026-102489
+- Theme key: cve-2026-102489
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.688
-- Shared strong signals: CVE-2026-102490
+- Shared strong signals: CVE-2026-102489
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -1022,7 +999,7 @@ Apple today released patches for all of its operating systems. However, only pat
 ### Cluster a14cf81e36 — score 29
 
 - Title: Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570
-- Source: Microsoft Threat Intelligence (threat_research_primary)
+- Source: Microsoft Security Blog (threat_research_primary)
 - Published: 2026-09-30T14:00:00+00:00
 - Link: https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/
 - Fetch status: ok
@@ -1058,12 +1035,12 @@ Share Link copied to clipboard! Content types Research Products and services Mic
 
 #### Corroborating sources (3)
 
-- **Microsoft Threat Intelligence** (threat_research_primary)
+- **Microsoft Security Blog** (threat_research_primary)
   - Title: Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570
   - Published: 2026-09-30T14:00:00+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/
   - Summary: Microsoft Threat Intelligence examines CVE-2026-73570 exploitation in Zimbra, including observed attack paths, detection opportunities, and mitigation guidance. The post Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570 appeared first on Microsoft Security Blog .
-- **Microsoft Security Blog** (threat_research_primary)
+- **Microsoft Threat Intelligence** (threat_research_primary)
   - Title: Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570
   - Published: 2026-09-30T14:00:00+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/
@@ -1450,7 +1427,7 @@ Two weeks back I presented at BlueHat Asia 2026 about my research on Microsoft�
   - Link: https://embracethered.com/blog/posts/2026/from-select-to-sysadmin-sql-copilot-bluehat-asia/
   - Summary: Two weeks back I presented at BlueHat Asia 2026 about my research on Microsoft’s Copilot in SSMS, the SQL Server Management Studio. This post is a write up about the talk, which covered CVE-2026-65669 , a SQL Server Elevation of Privilege Vulnerability rated critical by Microsoft. So, make sure your installations are up-to-date. The slides of the presentation can be found here . BlueHat Asia 2026 in Singapore First, a few words about the conference. I have spoken at BlueHat before, sometime back in 2017, and also two years ago. Both times at Microsoft’s Redmond Campus.
 
-### Cluster f7fb483b20 — score 13
+### Cluster f7fb483b20 — score 12
 
 - Title: YARA-X 1.21.0 Release, (Sat, Oct 3rd)
 - Source: SANS Internet Storm Center (government_authoritative)
@@ -1644,51 +1621,6 @@ GitLab warns of critical RCE vulnerability in AI Gateway service By Sergiu Gatla
   - Link: https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html
   - Summary: A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab said in an advisory. The gateway is the service that connects a GitLab instance to AI models, and only organizations that host their own gateway need to act. The flaw is fixed in gateway versions 19.2.4, 19.3.2, and 19.4.1. The flaw
 
-### Cluster 24d5e7827d — score 11
-
-- Title: ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-10-01T16:45:38+00:00
-- Link: https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security, zero_day
-- affected_industries: financial_services
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, ai_security
-- affected_industries: financial_services
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can
-```
-
-#### Full body
-
-```
-ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories  Ravie Lakshmanan  Oct 01, 2026 Hacking News / Cybersecurity News This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can hide commands in public infrastructure, reuse old flaws, abuse weak defaults, or let automation stitch together a rough path that still works. Faster tools are changing the pace, but basic mistakes are still doing plenty of the work. So the interesting question this week is not “what broke?” It is “what did we assume was safe because it looked ordinary?” The full list has answers. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out. ATM jackpotting crackdown U.S. Treasury Sanctions 10 Targets in Connection with ATM Jackpotting The U.S. Treasury's Office of Foreign Assets Control (OFAC) sanctioned 10 targets involved in a Tren de Aragua ATM jackpotting scheme that stole at least $40.73 million from U.S. financial institutions. The network used cryptocurrency to launder the proceeds. Tren de Aragua is a designated Foreign Terrorist Organization. Jackpotting uses Ploutus malware to force ATMs to dispense cash. Treasury estimates show reported losses totaling $40.73 million from more than 1,500 alleged TdA jackpotting attacks in the U.S. as of August 2025. TRM Lab said the seven designated crypto wallet addresses have received approximately $6.1 million in total inflows since March 2022. "Tren de Aragua is using ATM malware as a terrorist financing tool, then moving the cash onto TRON so it looks like ordinary exchange deposits," said Ari Redbord, Global Head of Policy at TRM Labs. "That is the same playbook we keep seeing from FTOs with on-chain infrastructure. These sanctions target that playbook. We are seeing the Treasury go after both the bad actors and their financial facilitators." Blockchain-based malware concealment Use of EtherHiding Grows Cyber threat actors are using public blockchains to conceal malware instructions, making it challenging to seize or take down. This technique, referred to as EtherHiding , is part of a broader approach called Blockchain Dead Drops (BDD). Chainalysis said "North Korean and Iranian-state operators are among those developing distinct blockchain dead drop techniques," adding "BDDs have surged 440% since the launch of Chinese high-capacity open-source AI models that place no restrictions on generating malicious code." AI safety review underway Moonshot AI Conducts Review BBC News has reported that Chinese AI company Moonshot is conducting an internal review after a July 2026 report from Mindgard found that its AI models, Kimi K2.6 and K3 Swarm, could bypass safety guardrails and generate dangerous information, including providing plans for cyberattacks, terrorism plots, and assassinations. Prompt injection as defense Context Bombs Against Abliterated AI Models In July 2026, Tracebit detailed a technique called Context Bombs that uses prompt injections as a way to trip an AI model provider's runtime safety checks and prevent it from taking malicious actions. In a new report, the AI security company said indirect prompt injections can be used to stop attacks from open-weight models, abliterated or otherwise. "We turned to indirect prompt injection: instructions placed in material an agent reads while carrying out its task," Tracebit said . "The new payload was designed to make the agent believe its operator had ended the assessment. We placed it inside a canary secret in AWS Secrets Manager, where an agent exploring the account could discover it. The string used conversation delimiters to m
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories
-  - Published: 2026-10-01T16:45:38+00:00
-  - Link: https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html
-  - Summary: This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can
-
 ### Cluster 5fc59e5ed7 — score 11
 
 - Title: Citrix Patches Critical Zero Days Under Active Exploitation
@@ -1740,10 +1672,55 @@ Infosecurity Magazine Home » News » Citrix Patches Critical Zero Days Under Ac
   - Link: https://www.infosecurity-magazine.com/news/citrix-patches-critical-zero-days/
   - Summary: Citrix has confirmed exploitation of two critical zero-day RCE bugs
 
+### Cluster 24d5e7827d — score 11
+
+- Title: ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-10-01T16:45:38+00:00
+- Link: https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security, zero_day
+- affected_industries: financial_services
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, ai_security
+- affected_industries: financial_services
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can
+```
+
+#### Full body
+
+```
+ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories  Ravie Lakshmanan  Oct 01, 2026 Hacking News / Cybersecurity News This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can hide commands in public infrastructure, reuse old flaws, abuse weak defaults, or let automation stitch together a rough path that still works. Faster tools are changing the pace, but basic mistakes are still doing plenty of the work. So the interesting question this week is not “what broke?” It is “what did we assume was safe because it looked ordinary?” The full list has answers. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out. ATM jackpotting crackdown U.S. Treasury Sanctions 10 Targets in Connection with ATM Jackpotting The U.S. Treasury's Office of Foreign Assets Control (OFAC) sanctioned 10 targets involved in a Tren de Aragua ATM jackpotting scheme that stole at least $40.73 million from U.S. financial institutions. The network used cryptocurrency to launder the proceeds. Tren de Aragua is a designated Foreign Terrorist Organization. Jackpotting uses Ploutus malware to force ATMs to dispense cash. Treasury estimates show reported losses totaling $40.73 million from more than 1,500 alleged TdA jackpotting attacks in the U.S. as of August 2025. TRM Lab said the seven designated crypto wallet addresses have received approximately $6.1 million in total inflows since March 2022. "Tren de Aragua is using ATM malware as a terrorist financing tool, then moving the cash onto TRON so it looks like ordinary exchange deposits," said Ari Redbord, Global Head of Policy at TRM Labs. "That is the same playbook we keep seeing from FTOs with on-chain infrastructure. These sanctions target that playbook. We are seeing the Treasury go after both the bad actors and their financial facilitators." Blockchain-based malware concealment Use of EtherHiding Grows Cyber threat actors are using public blockchains to conceal malware instructions, making it challenging to seize or take down. This technique, referred to as EtherHiding , is part of a broader approach called Blockchain Dead Drops (BDD). Chainalysis said "North Korean and Iranian-state operators are among those developing distinct blockchain dead drop techniques," adding "BDDs have surged 440% since the launch of Chinese high-capacity open-source AI models that place no restrictions on generating malicious code." AI safety review underway Moonshot AI Conducts Review BBC News has reported that Chinese AI company Moonshot is conducting an internal review after a July 2026 report from Mindgard found that its AI models, Kimi K2.6 and K3 Swarm, could bypass safety guardrails and generate dangerous information, including providing plans for cyberattacks, terrorism plots, and assassinations. Prompt injection as defense Context Bombs Against Abliterated AI Models In July 2026, Tracebit detailed a technique called Context Bombs that uses prompt injections as a way to trip an AI model provider's runtime safety checks and prevent it from taking malicious actions. In a new report, the AI security company said indirect prompt injections can be used to stop attacks from open-weight models, abliterated or otherwise. "We turned to indirect prompt injection: instructions placed in material an agent reads while carrying out its task," Tracebit said . "The new payload was designed to make the agent believe its operator had ended the assessment. We placed it inside a canary secret in AWS Secrets Manager, where an agent exploring the account could discover it. The string used conversation delimiters to m
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories
+  - Published: 2026-10-01T16:45:38+00:00
+  - Link: https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html
+  - Summary: This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can
+
 ### Cluster 48be01e909 — score 10
 
 - Title: Phishing Abuses RMM Tools for Persistent Access
-- Source: Microsoft Threat Intelligence (threat_research_primary)
+- Source: Microsoft Security Blog (threat_research_primary)
 - Published: 2026-09-29T21:39:27+00:00
 - Link: https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/
 - Fetch status: ok
@@ -1778,116 +1755,16 @@ Share Link copied to clipboard! Tags Phishing Social engineering Content types R
 
 #### Corroborating sources (2)
 
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - Title: Phishing Abuses RMM Tools for Persistent Access
-  - Published: 2026-09-29T21:39:27+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/
-  - Summary: Microsoft observed phishing campaigns that abused MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity The post Phishing Abuses RMM Tools for Persistent Access appeared first on Microsoft Security Blog .
 - **Microsoft Security Blog** (threat_research_primary)
   - Title: Phishing Abuses RMM Tools for Persistent Access
   - Published: 2026-09-29T21:39:27+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/
   - Summary: Microsoft observed phishing campaigns that abused MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity The post Phishing Abuses RMM Tools for Persistent Access appeared first on Microsoft Security Blog .
-
-### Cluster 355863d181 — score 10
-
-- Title: Star Blizzard refines phishing and malware delivery with the RedFlick technique
-- Source: Microsoft Threat Intelligence (threat_research_primary)
-- Published: 2026-09-29T15:00:00+00:00
-- Link: https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, credential_theft, phishing_social_eng, web_shell_backdoor
-- affected_industries: financial_services, government
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, credential_theft, apt_espionage, web_shell_backdoor
-- affected_industries: financial_services, government
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”. The post Star Blizzard refines phishing and malware delivery with the RedFlick technique appeared first on Microsoft Security Blog .
-```
-
-#### Full body
-
-```
-Share Link copied to clipboard! Tags Blizzard Credential theft Cyberespionage Domain compromise Malware Phishing Social engineering Star Blizzard (SEABORGIUM) Threats intelligence Cyberattacker techniques, tools, and infrastructure Social engineering and phishing Threat actors Content types Research Products and services Microsoft Defender Microsoft Defender for Endpoint Topics Threat intelligence Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique that Microsoft tracks as “RedFlick”. These changes represent a notable shift in the actor’s operational tradecraft and support ongoing cyberespionage activity targeting Ukrainian individuals and institutions as well as international non-government organizations (NGOs), Western think tanks, governments, and other organizations associated with international policy—particularly those with a nexus in supporting Ukraine. As part of this evolution, Star Blizzard adopted RedFlick, a malware delivery technique that helps evade detection by initiating a set of scheduled tasks to deploy the actor’s custom backdoor, CosmicPulse. This technique is a notable departure from the actor’s previous use of ClickFix-based infection chains which required victims to complete multiple actions before CosmicPulse could be installed. By contrast, the RedFlick infection flow only requires a single user interaction, reducing friction in the compromise process. Combined with the actor’s shift toward large-scale phishing operations during the same period, these changes likely improve Star Blizzard’s ability to reach more targets, evade detection, and increase the likelihood of successful compromise. This blog provides updated technical analysis of Star Blizzard’s tactics, techniques, and procedures (TTPs) observed throughout 2026, building on our 2025 and 2023 blogs. It details the actor’s evolving phishing, persistence, and malware delivery techniques, and provides recommendations, indicators of compromise (IOCs), detections, and hunting guidance to help organizations identify and defend against RedFlick-related activity. As with any observed nation-state actor activity, Microsoft directly notifies customers that have been targeted or compromised, providing them with recommendations and mitigations to secure their accounts. Star Blizzard TTPs observed in 2026 Star Blizzard is attributed by the United States Cybersecurity and Infrastructure Agency (CISA) as subordinate to the Russian Federal Security Service Centre (FSB) Centre 18. Star Blizzard periodically overhauls their TTPs to avoid detection, often in response to public exposure of the actor’s campaigns that have involved targeted social engineering through messaging apps and credential theft. Since Google Threat Intelligence Group published its report on Star Blizzard’s COLDCOPY malware in October 2025, Microsoft observed the actor refine their initial access and evasive techniques to include: Moving away from targeted spear phishing to large-scale initial contact phishing campaigns Using compromised websites to create accounts to send phishing emails Updating malware deployment to facilitate the installation of a CosmicPulse downloader As of the writing of this blog, the RedFlick campaigns have targeted Ukrainian individuals and institutions, as well as international NGOs, think tanks, governments, and financial institutions that have supported Ukraine politically or financially. Microsoft has observed this activity affect over 100 organizations primarily in the United States and United Kingdom, consistent with Star Blizzard’s longstanding targeting priorities. Microsoft continues to observe some previously reported Star Blizzard phishing techniques throughout 2026; however, the TTPs discussed in this blog have been associated primarily with the actor’s new
-```
-
-#### Corroborating sources (2)
-
 - **Microsoft Threat Intelligence** (threat_research_primary)
-  - Title: Star Blizzard refines phishing and malware delivery with the RedFlick technique
-  - Published: 2026-09-29T15:00:00+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/
-  - Summary: Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”. The post Star Blizzard refines phishing and malware delivery with the RedFlick technique appeared first on Microsoft Security Blog .
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: Star Blizzard refines phishing and malware delivery with the RedFlick technique
-  - Published: 2026-09-29T15:00:00+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/
-  - Summary: Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”. The post Star Blizzard refines phishing and malware delivery with the RedFlick technique appeared first on Microsoft Security Blog .
-
-### Cluster 07b6c8a583 — score 10
-
-- Title: NeedyMantis: Unpacking a post-compromise malware family used in targeted operations
-- Source: Microsoft Threat Intelligence (threat_research_primary)
-- Published: 2026-09-28T15:00:00+00:00
-- Link: https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, supply_chain
-- affected_industries: education, government, healthcare, telecommunications
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, apt_espionage
-- affected_industries: healthcare, government, telecommunications, education
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations. The post NeedyMantis: Unpacking a post-compromise malware family used in targeted operations appeared first on Microsoft Security Blog .
-```
-
-#### Full body
-
-```
-Share Link copied to clipboard! Tags Malware Storm Threats intelligence Cyberattacker techniques, tools, and infrastructure Content types Research Products and services Microsoft Defender Microsoft Defender for Endpoint Topics Threat intelligence Microsoft Threat Intelligence has identified NeedyMantis, a modular post-compromise malware family observed in a limited number of targeted operations affecting telecommunications organizations, universities, medical nonprofits, intergovernmental organizations, and government contractors. Based on observed activity, NeedyMantis is typically deployed after a threat actor has already established access to a target environment, indicating that the malware is used to maintain long-term access and support follow-on operations. NeedyMantis activity dates back to at least October 2025. We discovered the malware family while analyzing and pivoting from research and indicators of compromise associated with the DAEMON Tools supply chain compromise, which Kaspersky previously reported on as part of its investigation into the campaign. Observed activity involving NeedyMantis has thus far aligned with activity that Microsoft associates with threat actors operating from China, although Microsoft has not determined whether all observed activity is attributable to the same operator. While NeedyMantis employs techniques commonly used by modern malware, its architecture combines multiple loaders, custom encrypted file archives, a custom executable file format, and modular components that enable operators to evade analysis and extend functionality through additional modules. These characteristics, combined with its use in targeted intrusions, make NeedyMantis a useful case study for understanding how threat actors establish and maintain long-term access within victim environments. In this blog, we analyze the NeedyMantis malware framework. We examine its packaging and deployment, custom archive format, loader architecture, command-and-control (C2) communications, and modular design. We also provide indicators of compromise (IOCs), Microsoft Defender detections, and mitigation guidance to help organizations defend against this threat and related activity. Observed operators and targeting At the time of writing, Microsoft has observed at least one threat actor using NeedyMantis malware: Storm-3069. Storm-3069 is Microsoft Threat Intelligence’s designator for activity associated with the DAEMON Tools supply chain compromise. While Microsoft assesses the activity originates from China, it has not attributed Storm-3069 to a Chinese nation-state actor. Microsoft identified NeedyMantis through follow-on analysis of indicators associated with Kaspersky’s investigation of the DAEMON Tools compromise. Microsoft has observed additional NeedyMantis activity beyond Storm-3069’s activity in the DAEMON Tools campaign, indicating that the malware might be used by more than one operator. Observed activity involving NeedyMantis has thus far aligned with activity Microsoft associates with threat actors operating from China, such as targeting that aligns with Chinese interests and the use of selective deployment. NeedyMantis has been observed in intrusions affecting telecommunications organizations, universities, intergovernmental organizations, medical nonprofits, and government contractors. Combined with the malware’s limited observed deployment and alignment with activity Microsoft associates with China-based threat actors, this victimology suggests NeedyMantis is deployed selectively rather than broadly. However, Microsoft has not determined whether all observed activity is attributable to the same threat actor or whether multiple actors have access to the malware. Malware packaging and distribution As previously mentioned, observed activity suggests that the malware is typically deployed after a threat actor has established access to a target environment. As a result, the methods used to gain access before NeedyMantis
-```
-
-#### Corroborating sources (2)
-
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - Title: NeedyMantis: Unpacking a post-compromise malware family used in targeted operations
-  - Published: 2026-09-28T15:00:00+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/
-  - Summary: Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations. The post NeedyMantis: Unpacking a post-compromise malware family used in targeted operations appeared first on Microsoft Security Blog .
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: NeedyMantis: Unpacking a post-compromise malware family used in targeted operations
-  - Published: 2026-09-28T15:00:00+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/
-  - Summary: Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations. The post NeedyMantis: Unpacking a post-compromise malware family used in targeted operations appeared first on Microsoft Security Blog .
+  - Title: Phishing Abuses RMM Tools for Persistent Access
+  - Published: 2026-09-29T21:39:27+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/
+  - Summary: Microsoft observed phishing campaigns that abused MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity The post Phishing Abuses RMM Tools for Persistent Access appeared first on Microsoft Security Blog .
 
 ### Cluster a89ee14154 — score 10
 
@@ -1932,48 +1809,105 @@ Share Link copied to clipboard! Content types Best practices Products and servic
   - Link: https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/
   - Summary: Explore how Storm-3068 turned a compromised identity into broader cloud access and the steps organizations can take to defend their identities, pipelines, and cloud infrastructure. The post ​​Beyond source code: A path to the keys to the kingdom appeared first on Microsoft Security Blog .
 
-### Cluster fb1a8533f5 — score 10
+### Cluster 355863d181 — score 10
 
-- Title: The Fine Art of Frustrating the Adversary
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-10-01T10:00:05+00:00
-- Link: https://blog.talosintelligence.com/the-fine-art-of-frustrating-the-adversary/
+- Title: Star Blizzard refines phishing and malware delivery with the RedFlick technique
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-09-29T15:00:00+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/
 - Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
+- Member count: 2
+- Corroborating source count: 2
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure, manufacturing_industrial
-- affected_products: Cisco
+- threat_categories: apt_espionage, credential_theft, phishing_social_eng, web_shell_backdoor
+- affected_industries: financial_services, government
+- affected_products: Microsoft Defender
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- affected_industries: critical_infrastructure, manufacturing_industrial
-- affected_products: Cisco
+- threat_categories: phishing_social_eng, credential_theft, apt_espionage, web_shell_backdoor
+- affected_industries: financial_services, government
+- affected_products: Microsoft Defender
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-What really frustrates an adversary? Eight Cisco Talos researchers share practical ways to make their next move slower and riskier. From deception and behavioral detection to breaking attack dependencies and resisting manufactured urgency.
+Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”. The post Star Blizzard refines phishing and malware delivery with the RedFlick technique appeared first on Microsoft Security Blog .
 ```
 
 #### Full body
 
 ```
-The Fine Art of Frustrating the Adversary By Hazel Burton Thursday, October 1, 2026 06:00 On The Radar For Cybersecurity Awareness Month, eight Cisco Talos researchers share practical ways defenders can frustrate adversaries at different stages of an operation. Deception techniques such as honeypot accounts, false infrastructure, and tarpits can slow adversaries down while giving defenders earlier opportunities to detect their activity. Behavioral detections, tighter control of legitimate remote-management tools, and clear boundaries around AI agents can make essential adversary actions more visible and easier to interrupt. Breaking dependencies between stages of an operation can prevent an adversary from reaching their next objective. Years ago, Cisco Talos blocked an adversary’s command-and-control (C2) traffic. The adversary responded by tweeting, “Write a rule for your a**.” A fine endorsement of our work, if I’ve ever heard one. Talos loves to see an adversary forced to change course. And if every alternative for them is slower, less stealthy, less reliable and more expensive? Chef’s kiss. Adversaries rely on certain advantages. They look for environments where tools and infrastructure allow them to blend in with normal activity. They also look for employees who can be pressured into acting before they have time to think. Strong cybersecurity defenses can change those conditions. They take away adversary choices and increase the risk attached to essential actions, forcing them to keep making new decisions. Each change of plan costs them time and resources, and may eventually cause them to give up and move to another target. It also creates more opportunities for defenders to spot what they are doing. For Cybersecurity Awareness Month, we’re exploring “the fine art of frustrating the adversary.” To kick us off, I asked researchers across Talos, covering all aspects of the attack chain, for the strongest recommendation they could give defenders to seriously frustrate a potential adversary in their environment, and what that action would prevent the adversary from doing next. Take away their choices Many adversaries use techniques that succeed against a large number of organizations. This makes a lot of economic sense: An operation that depends on every potential target having an unusual configuration will not scale particularly well. But it also creates an opportunity for defenders. “By being unique and setting things up a little differently, you may be able to better defend your environment when they come knocking,” Pierre says. For example, organizations can restrict which accounts are permitted to sign into their most critical servers, alert on connection attempts from unauthorized users, and closely monitor any changes to those restrictions. Different credentials or authentication methods can be required for particularly sensitive systems, while protected enclaves can provide increased monitoring around critical infrastructure. Pierre also recommends that defenders “monitor (and alert) for any changes to administrative users or administrative groups.” Of course, no amount of security measures makes an organization impenetrable, but they can make the common methods adversaries use much less dependable. Deception can push that uncertainty even further. “Affecting the attack earlier rather than later in the attack chain is best,” Martin says. “Better to stop an attack from happening than minimize the consequences after it has happened.” Martin suggests creating honeypot email accounts using expired domains with addresses that have previously leaked, or developing fictional employee profiles and seeding their addresses in places where spammers and other adversaries are likely to discover them. Because these accounts have no legitimate users, messages sent to them can be treated with far greater suspicion. The activity can provide early tactical intelligence about malicious infrastructure, lures, and campaigns, allowing defe
+Share Link copied to clipboard! Tags Blizzard Credential theft Cyberespionage Domain compromise Malware Phishing Social engineering Star Blizzard (SEABORGIUM) Threats intelligence Cyberattacker techniques, tools, and infrastructure Social engineering and phishing Threat actors Content types Research Products and services Microsoft Defender Microsoft Defender for Endpoint Topics Threat intelligence Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique that Microsoft tracks as “RedFlick”. These changes represent a notable shift in the actor’s operational tradecraft and support ongoing cyberespionage activity targeting Ukrainian individuals and institutions as well as international non-government organizations (NGOs), Western think tanks, governments, and other organizations associated with international policy—particularly those with a nexus in supporting Ukraine. As part of this evolution, Star Blizzard adopted RedFlick, a malware delivery technique that helps evade detection by initiating a set of scheduled tasks to deploy the actor’s custom backdoor, CosmicPulse. This technique is a notable departure from the actor’s previous use of ClickFix-based infection chains which required victims to complete multiple actions before CosmicPulse could be installed. By contrast, the RedFlick infection flow only requires a single user interaction, reducing friction in the compromise process. Combined with the actor’s shift toward large-scale phishing operations during the same period, these changes likely improve Star Blizzard’s ability to reach more targets, evade detection, and increase the likelihood of successful compromise. This blog provides updated technical analysis of Star Blizzard’s tactics, techniques, and procedures (TTPs) observed throughout 2026, building on our 2025 and 2023 blogs. It details the actor’s evolving phishing, persistence, and malware delivery techniques, and provides recommendations, indicators of compromise (IOCs), detections, and hunting guidance to help organizations identify and defend against RedFlick-related activity. As with any observed nation-state actor activity, Microsoft directly notifies customers that have been targeted or compromised, providing them with recommendations and mitigations to secure their accounts. Star Blizzard TTPs observed in 2026 Star Blizzard is attributed by the United States Cybersecurity and Infrastructure Agency (CISA) as subordinate to the Russian Federal Security Service Centre (FSB) Centre 18. Star Blizzard periodically overhauls their TTPs to avoid detection, often in response to public exposure of the actor’s campaigns that have involved targeted social engineering through messaging apps and credential theft. Since Google Threat Intelligence Group published its report on Star Blizzard’s COLDCOPY malware in October 2025, Microsoft observed the actor refine their initial access and evasive techniques to include: Moving away from targeted spear phishing to large-scale initial contact phishing campaigns Using compromised websites to create accounts to send phishing emails Updating malware deployment to facilitate the installation of a CosmicPulse downloader As of the writing of this blog, the RedFlick campaigns have targeted Ukrainian individuals and institutions, as well as international NGOs, think tanks, governments, and financial institutions that have supported Ukraine politically or financially. Microsoft has observed this activity affect over 100 organizations primarily in the United States and United Kingdom, consistent with Star Blizzard’s longstanding targeting priorities. Microsoft continues to observe some previously reported Star Blizzard phishing techniques throughout 2026; however, the TTPs discussed in this blog have been associated primarily with the actor’s new
 ```
 
-#### Corroborating sources (1)
+#### Corroborating sources (2)
 
-- **Cisco Talos** (threat_research_primary)
-  - Title: The Fine Art of Frustrating the Adversary
-  - Published: 2026-10-01T10:00:05+00:00
-  - Link: https://blog.talosintelligence.com/the-fine-art-of-frustrating-the-adversary/
-  - Summary: What really frustrates an adversary? Eight Cisco Talos researchers share practical ways to make their next move slower and riskier. From deception and behavioral detection to breaking attack dependencies and resisting manufactured urgency.
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: Star Blizzard refines phishing and malware delivery with the RedFlick technique
+  - Published: 2026-09-29T15:00:00+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/
+  - Summary: Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”. The post Star Blizzard refines phishing and malware delivery with the RedFlick technique appeared first on Microsoft Security Blog .
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - Title: Star Blizzard refines phishing and malware delivery with the RedFlick technique
+  - Published: 2026-09-29T15:00:00+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/
+  - Summary: Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”. The post Star Blizzard refines phishing and malware delivery with the RedFlick technique appeared first on Microsoft Security Blog .
+
+### Cluster 07b6c8a583 — score 10
+
+- Title: NeedyMantis: Unpacking a post-compromise malware family used in targeted operations
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-09-28T15:00:00+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, supply_chain
+- affected_industries: education, government, healthcare, telecommunications
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, apt_espionage
+- affected_industries: healthcare, government, telecommunications, education
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations. The post NeedyMantis: Unpacking a post-compromise malware family used in targeted operations appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+Share Link copied to clipboard! Tags Malware Storm Threats intelligence Cyberattacker techniques, tools, and infrastructure Content types Research Products and services Microsoft Defender Microsoft Defender for Endpoint Topics Threat intelligence Microsoft Threat Intelligence has identified NeedyMantis, a modular post-compromise malware family observed in a limited number of targeted operations affecting telecommunications organizations, universities, medical nonprofits, intergovernmental organizations, and government contractors. Based on observed activity, NeedyMantis is typically deployed after a threat actor has already established access to a target environment, indicating that the malware is used to maintain long-term access and support follow-on operations. NeedyMantis activity dates back to at least October 2025. We discovered the malware family while analyzing and pivoting from research and indicators of compromise associated with the DAEMON Tools supply chain compromise, which Kaspersky previously reported on as part of its investigation into the campaign. Observed activity involving NeedyMantis has thus far aligned with activity that Microsoft associates with threat actors operating from China, although Microsoft has not determined whether all observed activity is attributable to the same operator. While NeedyMantis employs techniques commonly used by modern malware, its architecture combines multiple loaders, custom encrypted file archives, a custom executable file format, and modular components that enable operators to evade analysis and extend functionality through additional modules. These characteristics, combined with its use in targeted intrusions, make NeedyMantis a useful case study for understanding how threat actors establish and maintain long-term access within victim environments. In this blog, we analyze the NeedyMantis malware framework. We examine its packaging and deployment, custom archive format, loader architecture, command-and-control (C2) communications, and modular design. We also provide indicators of compromise (IOCs), Microsoft Defender detections, and mitigation guidance to help organizations defend against this threat and related activity. Observed operators and targeting At the time of writing, Microsoft has observed at least one threat actor using NeedyMantis malware: Storm-3069. Storm-3069 is Microsoft Threat Intelligence’s designator for activity associated with the DAEMON Tools supply chain compromise. While Microsoft assesses the activity originates from China, it has not attributed Storm-3069 to a Chinese nation-state actor. Microsoft identified NeedyMantis through follow-on analysis of indicators associated with Kaspersky’s investigation of the DAEMON Tools compromise. Microsoft has observed additional NeedyMantis activity beyond Storm-3069’s activity in the DAEMON Tools campaign, indicating that the malware might be used by more than one operator. Observed activity involving NeedyMantis has thus far aligned with activity Microsoft associates with threat actors operating from China, such as targeting that aligns with Chinese interests and the use of selective deployment. NeedyMantis has been observed in intrusions affecting telecommunications organizations, universities, intergovernmental organizations, medical nonprofits, and government contractors. Combined with the malware’s limited observed deployment and alignment with activity Microsoft associates with China-based threat actors, this victimology suggests NeedyMantis is deployed selectively rather than broadly. However, Microsoft has not determined whether all observed activity is attributable to the same threat actor or whether multiple actors have access to the malware. Malware packaging and distribution As previously mentioned, observed activity suggests that the malware is typically deployed after a threat actor has established access to a target environment. As a result, the methods used to gain access before NeedyMantis
+```
+
+#### Corroborating sources (2)
+
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: NeedyMantis: Unpacking a post-compromise malware family used in targeted operations
+  - Published: 2026-09-28T15:00:00+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/
+  - Summary: Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations. The post NeedyMantis: Unpacking a post-compromise malware family used in targeted operations appeared first on Microsoft Security Blog .
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - Title: NeedyMantis: Unpacking a post-compromise malware family used in targeted operations
+  - Published: 2026-09-28T15:00:00+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/
+  - Summary: Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations. The post NeedyMantis: Unpacking a post-compromise malware family used in targeted operations appeared first on Microsoft Security Blog .
 
 ### Cluster a29e1d73af — score 10
 
@@ -2058,6 +1992,49 @@ Social Engineering in the Age of Synthetic Media How AI Changes Phishing, Impers
   - Published: 2026-09-29T00:00:00+00:00
   - Link: https://www.recordedfuture.com/blog/ai-social-engineering
   - Summary: How AI Changes Phishing, Impersonation, and Identity Verification
+
+### Cluster fb1a8533f5 — score 10
+
+- Title: The Fine Art of Frustrating the Adversary
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-10-01T10:00:05+00:00
+- Link: https://blog.talosintelligence.com/the-fine-art-of-frustrating-the-adversary/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: critical_infrastructure, manufacturing_industrial
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: critical_infrastructure, manufacturing_industrial
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+What really frustrates an adversary? Eight Cisco Talos researchers share practical ways to make their next move slower and riskier. From deception and behavioral detection to breaking attack dependencies and resisting manufactured urgency.
+```
+
+#### Full body
+
+```
+The Fine Art of Frustrating the Adversary By Hazel Burton Thursday, October 1, 2026 06:00 On The Radar For Cybersecurity Awareness Month, eight Cisco Talos researchers share practical ways defenders can frustrate adversaries at different stages of an operation. Deception techniques such as honeypot accounts, false infrastructure, and tarpits can slow adversaries down while giving defenders earlier opportunities to detect their activity. Behavioral detections, tighter control of legitimate remote-management tools, and clear boundaries around AI agents can make essential adversary actions more visible and easier to interrupt. Breaking dependencies between stages of an operation can prevent an adversary from reaching their next objective. Years ago, Cisco Talos blocked an adversary’s command-and-control (C2) traffic. The adversary responded by tweeting, “Write a rule for your a**.” A fine endorsement of our work, if I’ve ever heard one. Talos loves to see an adversary forced to change course. And if every alternative for them is slower, less stealthy, less reliable and more expensive? Chef’s kiss. Adversaries rely on certain advantages. They look for environments where tools and infrastructure allow them to blend in with normal activity. They also look for employees who can be pressured into acting before they have time to think. Strong cybersecurity defenses can change those conditions. They take away adversary choices and increase the risk attached to essential actions, forcing them to keep making new decisions. Each change of plan costs them time and resources, and may eventually cause them to give up and move to another target. It also creates more opportunities for defenders to spot what they are doing. For Cybersecurity Awareness Month, we’re exploring “the fine art of frustrating the adversary.” To kick us off, I asked researchers across Talos, covering all aspects of the attack chain, for the strongest recommendation they could give defenders to seriously frustrate a potential adversary in their environment, and what that action would prevent the adversary from doing next. Take away their choices Many adversaries use techniques that succeed against a large number of organizations. This makes a lot of economic sense: An operation that depends on every potential target having an unusual configuration will not scale particularly well. But it also creates an opportunity for defenders. “By being unique and setting things up a little differently, you may be able to better defend your environment when they come knocking,” Pierre says. For example, organizations can restrict which accounts are permitted to sign into their most critical servers, alert on connection attempts from unauthorized users, and closely monitor any changes to those restrictions. Different credentials or authentication methods can be required for particularly sensitive systems, while protected enclaves can provide increased monitoring around critical infrastructure. Pierre also recommends that defenders “monitor (and alert) for any changes to administrative users or administrative groups.” Of course, no amount of security measures makes an organization impenetrable, but they can make the common methods adversaries use much less dependable. Deception can push that uncertainty even further. “Affecting the attack earlier rather than later in the attack chain is best,” Martin says. “Better to stop an attack from happening than minimize the consequences after it has happened.” Martin suggests creating honeypot email accounts using expired domains with addresses that have previously leaked, or developing fictional employee profiles and seeding their addresses in places where spammers and other adversaries are likely to discover them. Because these accounts have no legitimate users, messages sent to them can be treated with far greater suspicion. The activity can provide early tactical intelligence about malicious infrastructure, lures, and campaigns, allowing defe
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: The Fine Art of Frustrating the Adversary
+  - Published: 2026-10-01T10:00:05+00:00
+  - Link: https://blog.talosintelligence.com/the-fine-art-of-frustrating-the-adversary/
+  - Summary: What really frustrates an adversary? Eight Cisco Talos researchers share practical ways to make their next move slower and riskier. From deception and behavioral detection to breaking attack dependencies and resisting manufactured urgency.
 
 ### Cluster b598221d36 — score 10
 
@@ -2176,47 +2153,6 @@ Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual 
   - Link: https://www.exploit-db.com/exploits/52684
   - Summary: POMS oretnom23v1.0 - SQLi vulnerabilities
 
-### Cluster 93df4bafde — score 10
-
-- Title: SequenceHash: multihashing for the rest of us
-- Source: Trail of Bits (offensive_vulnerability_research)
-- Published: 2026-10-02T11:00:00+00:00
-- Link: https://blog.trailofbits.com/2026/10/02/sequencehash-multihashing-for-the-rest-of-us/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes. As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC , a pair of related hash constructions that bring secure multihashing to developers using hash functions other than Keccak. We hope SequenceHash and SequenceMAC will help cryptographers avoid attacks that take advantage of ambiguous input encodings. The specification is open source, and is now a part of the Community Cryptography Specification Project (C2SP). SequenceHash and SequenceMAC behave similarly to NIST’s TupleHash , but have the advantage of not being tied to a single hash function. They also don’t require developers to implement fiddly computations that aren’t byte-aligned. Instead, SequenceHash and SequenceMAC work out of the box with nearly any secure c
-```
-
-#### Full body
-
-```
-Page content Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes. As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC , a pair of related hash constructions that bring secure multihashing to developers using hash functions other than Keccak. We hope SequenceHash and SequenceMAC will help cryptographers avoid attacks that take advantage of ambiguous input encodings. The specification is open source, and is now a part of the Community Cryptography Specification Project (C2SP). SequenceHash and SequenceMAC behave similarly to NIST’s TupleHash , but have the advantage of not being tied to a single hash function. They also don’t require developers to implement fiddly computations that aren’t byte-aligned. Instead, SequenceHash and SequenceMAC work out of the box with nearly any secure cryptographic hash function you care to use, including SHA256/384/512, BLAKE, and RIPEMD. SequenceMAC supports keys 32 bytes or longer (up to the ridiculous limit of ${2}^{128}-1$ bytes). (It’s worth noting: SequenceHash and SequenceMAC rely on the security of the underlying hash for their own security. SequenceHash and SequenceMAC can’t magically make MD4 or SHA0 secure again. For the purposes of this document, it’s assumed that you have chosen a reasonable hash function like SHA256, not CRC32.) To make SequenceHash and SequenceMAC easy to use, we’re releasing three initial implementations of SequenceHash and SequenceMAC: one each in Rust, Go, and Python. We’re also releasing a large set of test vectors that cover multiple hash functions and include intermediate values to help developers debug and verify their implementations. Wait, “multihashing”? Yeah, it’s a weird term, but the idea is pretty simple. “Multihashing” means “hashing a bunch of values together.” If you’ve ever read a cryptography paper, and there’s a step that says something like “compute the shared authenticator N=Hash(X, Y, Z, A, B) ,” that’s multihashing. You need to create a hash that incorporates the inputs X, Y, Z, A , and B . Unfortunately, the simple “solution” of concatenating the inputs and hashing the result can lead to serious security problems. For example, consider what happens when you hash three inputs using “raw” SHA256: import hashlib hasher = hashlib . new ( 'sha256' ) hasher . update ( b 'Test 0' ) hasher . update ( b 'Test 1' ) hasher . update ( b 'Test 2' ) print ( hasher . hexdigest ()) hasher = hashlib . new ( 'sha256' ) hasher . update ( b 'Test 0Test 1' ) hasher . update ( b 'Test 2' ) print ( hasher . hexdigest ()) hasher = hashlib . new ( 'sha256' ) hasher . update ( b 'Test 0' ) hasher . update ( b '' ) hasher . update ( b 'Test 1Test 2' ) print ( hasher . hexdigest ()) This produces the following output: 4fce0a9940a42b5c9d1bcbfc9a6ddd6de20d731d584a0acf5bda6de86483641c 4fce0a9940a42b5c9d1bcbfc9a6ddd6de20d731d584a0acf5bda6de86483641c 4fce0a9940a42b5c9d1bcbfc9a6ddd6de20d731d584a0acf5bda6de86483641c Even though inputs are fed in through separate calls, they’re not separated from the perspective of the hash function—under the hood, the inputs are just concatenated. As with many things in cryptography, multihashing is harder than you think. That’s a big problem because multihashing is a critical component of one of the most important tools in zero-knowledge proofs: the Fiat-Shamir transform . When you get multihashing wrong, you introduce the risk of forgeries into your zero-knowledge proofs. Given that zero-knowledge proofs play a major role in cryptocurrency nowadays, that sort of mistake is sometimes measured in millions of dollars. But Fiat-Shamir transforms aren’t the only place where you might want to use multihashing. It’s not uncommon to need to hash a collection of related objects, where both the objects and the collection are variable
-```
-
-#### Corroborating sources (1)
-
-- **Trail of Bits** (offensive_vulnerability_research)
-  - Title: SequenceHash: multihashing for the rest of us
-  - Published: 2026-10-02T11:00:00+00:00
-  - Link: https://blog.trailofbits.com/2026/10/02/sequencehash-multihashing-for-the-rest-of-us/
-  - Summary: Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes. As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC , a pair of related hash constructions that bring secure multihashing to developers using hash functions other than Keccak. We hope SequenceHash and SequenceMAC will help cryptographers avoid attacks that take advantage of ambiguous input encodings. The specification is open source, and is now a part of the Community Cryptography Specification Project (C2SP). SequenceHash and SequenceMAC behave similarly to NIST’s TupleHash , but have the advantage of not being tied to a single hash function. They also don’t require developers to implement fiddly computations that aren’t byte-aligned. Instead, SequenceHash and SequenceMAC work out of the box with nearly any secure c
-
 ### Cluster 5dbe1bad04 — score 10
 
 - Title: How AI Is Changing the Roles Required in the Security Operations Center
@@ -2300,6 +2236,47 @@ Government Higher education is under siege, and fragmented security is making it
   - Published: 2026-09-30T14:16:37+00:00
   - Link: https://www.rapid7.com/blog/post/it-higher-education-under-siege-fragmented-security
   - Summary: Higher education faces a difficult security equation. Universities hold large volumes of sensitive student, financial, health, and research data while supporting open networks, distributed users, legacy infrastructure, and increasingly complex cloud environments. Attackers have taken notice, and the pressure on security teams continues to grow. In Q2 2025, universities faced an average of 4,388 cyberattacks per organization per week, up 24% from the same period in 2024. Nine in ten universities reported experiencing a breach or security incident during the previous 12 months, while the average cost of a data breach in education reached $10.22 million. Confirmed attacks against higher education institutions exposed more than 3.9 million records in 2025, with ransomware continuing to disrupt teaching, research, financial aid, and administrative operations. Those figures are concerning on their own, but they only explain part of the problem. For university systems with multiple campuses,
+
+### Cluster 93df4bafde — score 10
+
+- Title: SequenceHash: multihashing for the rest of us
+- Source: Trail of Bits (offensive_vulnerability_research)
+- Published: 2026-10-02T11:00:00+00:00
+- Link: https://blog.trailofbits.com/2026/10/02/sequencehash-multihashing-for-the-rest-of-us/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes. As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC , a pair of related hash constructions that bring secure multihashing to developers using hash functions other than Keccak. We hope SequenceHash and SequenceMAC will help cryptographers avoid attacks that take advantage of ambiguous input encodings. The specification is open source, and is now a part of the Community Cryptography Specification Project (C2SP). SequenceHash and SequenceMAC behave similarly to NIST’s TupleHash , but have the advantage of not being tied to a single hash function. They also don’t require developers to implement fiddly computations that aren’t byte-aligned. Instead, SequenceHash and SequenceMAC work out of the box with nearly any secure c
+```
+
+#### Full body
+
+```
+Page content Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes. As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC , a pair of related hash constructions that bring secure multihashing to developers using hash functions other than Keccak. We hope SequenceHash and SequenceMAC will help cryptographers avoid attacks that take advantage of ambiguous input encodings. The specification is open source, and is now a part of the Community Cryptography Specification Project (C2SP). SequenceHash and SequenceMAC behave similarly to NIST’s TupleHash , but have the advantage of not being tied to a single hash function. They also don’t require developers to implement fiddly computations that aren’t byte-aligned. Instead, SequenceHash and SequenceMAC work out of the box with nearly any secure cryptographic hash function you care to use, including SHA256/384/512, BLAKE, and RIPEMD. SequenceMAC supports keys 32 bytes or longer (up to the ridiculous limit of ${2}^{128}-1$ bytes). (It’s worth noting: SequenceHash and SequenceMAC rely on the security of the underlying hash for their own security. SequenceHash and SequenceMAC can’t magically make MD4 or SHA0 secure again. For the purposes of this document, it’s assumed that you have chosen a reasonable hash function like SHA256, not CRC32.) To make SequenceHash and SequenceMAC easy to use, we’re releasing three initial implementations of SequenceHash and SequenceMAC: one each in Rust, Go, and Python. We’re also releasing a large set of test vectors that cover multiple hash functions and include intermediate values to help developers debug and verify their implementations. Wait, “multihashing”? Yeah, it’s a weird term, but the idea is pretty simple. “Multihashing” means “hashing a bunch of values together.” If you’ve ever read a cryptography paper, and there’s a step that says something like “compute the shared authenticator N=Hash(X, Y, Z, A, B) ,” that’s multihashing. You need to create a hash that incorporates the inputs X, Y, Z, A , and B . Unfortunately, the simple “solution” of concatenating the inputs and hashing the result can lead to serious security problems. For example, consider what happens when you hash three inputs using “raw” SHA256: import hashlib hasher = hashlib . new ( 'sha256' ) hasher . update ( b 'Test 0' ) hasher . update ( b 'Test 1' ) hasher . update ( b 'Test 2' ) print ( hasher . hexdigest ()) hasher = hashlib . new ( 'sha256' ) hasher . update ( b 'Test 0Test 1' ) hasher . update ( b 'Test 2' ) print ( hasher . hexdigest ()) hasher = hashlib . new ( 'sha256' ) hasher . update ( b 'Test 0' ) hasher . update ( b '' ) hasher . update ( b 'Test 1Test 2' ) print ( hasher . hexdigest ()) This produces the following output: 4fce0a9940a42b5c9d1bcbfc9a6ddd6de20d731d584a0acf5bda6de86483641c 4fce0a9940a42b5c9d1bcbfc9a6ddd6de20d731d584a0acf5bda6de86483641c 4fce0a9940a42b5c9d1bcbfc9a6ddd6de20d731d584a0acf5bda6de86483641c Even though inputs are fed in through separate calls, they’re not separated from the perspective of the hash function—under the hood, the inputs are just concatenated. As with many things in cryptography, multihashing is harder than you think. That’s a big problem because multihashing is a critical component of one of the most important tools in zero-knowledge proofs: the Fiat-Shamir transform . When you get multihashing wrong, you introduce the risk of forgeries into your zero-knowledge proofs. Given that zero-knowledge proofs play a major role in cryptocurrency nowadays, that sort of mistake is sometimes measured in millions of dollars. But Fiat-Shamir transforms aren’t the only place where you might want to use multihashing. It’s not uncommon to need to hash a collection of related objects, where both the objects and the collection are variable
+```
+
+#### Corroborating sources (1)
+
+- **Trail of Bits** (offensive_vulnerability_research)
+  - Title: SequenceHash: multihashing for the rest of us
+  - Published: 2026-10-02T11:00:00+00:00
+  - Link: https://blog.trailofbits.com/2026/10/02/sequencehash-multihashing-for-the-rest-of-us/
+  - Summary: Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes. As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC , a pair of related hash constructions that bring secure multihashing to developers using hash functions other than Keccak. We hope SequenceHash and SequenceMAC will help cryptographers avoid attacks that take advantage of ambiguous input encodings. The specification is open source, and is now a part of the Community Cryptography Specification Project (C2SP). SequenceHash and SequenceMAC behave similarly to NIST’s TupleHash , but have the advantage of not being tied to a single hash function. They also don’t require developers to implement fiddly computations that aren’t byte-aligned. Instead, SequenceHash and SequenceMAC work out of the box with nearly any secure c
 
 ### Cluster 4e072e3956 — score 10
 
@@ -2766,7 +2743,6 @@ Runtime security for AI agents: if an agent is compromised, so is its account of
 
 #### Cluster taxonomy (union across members)
 - threat_categories: active_exploitation, apt_espionage, phishing_social_eng, web_shell_backdoor, zero_day
-- actor_attribution: ShinyHunters
 - affected_industries: critical_infrastructure, financial_services, government
 - affected_products: Fortinet, GitHub, Microsoft SharePoint
 - cve_ids: CVE-2026-12627, CVE-2026-79898, CVE-2026-79901
@@ -2776,7 +2752,6 @@ Runtime security for AI agents: if an agent is compromised, so is its account of
 
 #### Primary article taxonomy
 - threat_categories: phishing_social_eng, zero_day, apt_espionage, web_shell_backdoor, active_exploitation
-- actor_attribution: ShinyHunters
 - affected_industries: financial_services, government, critical_infrastructure
 - affected_products: Microsoft SharePoint, Fortinet, GitHub
 - cve_ids: CVE-2026-79901, CVE-2026-79898, CVE-2026-12627
@@ -2793,7 +2768,7 @@ The bugs could lead to authentication bypass, shell command execution, and memor
 #### Full body
 
 ```
-Fortra has released patches for eight vulnerabilities in Core Privileged Access Manager (BoKS), including three critical-severity bugs. BoKS provides organizations with central management of Unix and Linux fleets, enabling policy enforcement and access control across accounts. On Thursday, the company warned that BoKS Manager deployments relying on BoKS keytab for Active Directory service account management are affected by a critical flaw leading to authentication bypass. Tracked as CVE-2026-79901 (CVSS score of 9.9), the issue exists because AD service account passwords are generated from a “predictable pseudo-random sequence seeded with the current Unix timestamp.” “An attacker who knows the service principal and can estimate the password-change time can reproduce a limited candidate set and verify candidates offline,” Fortra warned. The company underlined that an attacker could exploit the flaw if they knew the affected service principal, could estimate the password-change time, and had suitable Kerberos ticket material. Advertisement. Scroll to continue reading. “A standard authenticated Active Directory account can ordinarily request a service ticket for an SPN assigned to the affected account; administrative access to BoKS, the service host, or its keytab is not normally required. A previously captured service ticket can alternatively provide offline verification material,” it said. The second critical bug, CVE-2026-79898 (CVSS score of 9.1), is a command injection defect in crlserver that could allow an authenticated user to substitute shell commands that would be processed as root on the BoKS Master. According to Fortra, the vulnerability is exploitable through BCC and the WSI REST or SOAP API. BCC and WSI can be accessed over the network without a local sudo or suexec rule. The company also resolved CVE-2026-12627 (CVSS score of 9.8), a stack buffer overflow in BoKS’s autoregistration functionality that could allow a remote attacker to trigger memory corruption. Additionally, Fortra patched five high- and medium-severity BoKS flaws: heap buffer overflows, out-of-bounds read, insecure temporary file, and predictable password generation. The company makes no mention of any of these vulnerabilities being exploited in the wild. Additional information can be found on Fortra’s product security page. Related: Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks Related: Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action Related: WatchGuard Patches Critical Fireware OS Code Injection Vulnerability Related: Chrome, Firefox Updates Patch Over 100 Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Zimbra Vulnerability Exploited in the Wild Prior to Public Disclosure Zammad Zero-Days Exploited in AI-Powered DIVD Hack 500,000 Active Credentials Left Exposed on GitHub Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability WatchGuard Patches Critical Fireware OS Code Injection Vulnerability Chrome, Firefox Updates Patch Over 100 Vulnerabilities Russian APT Star Blizzard Uses ‘RedFlick’ Infection Chain in Recent Attacks ShinyHunters Defiant After FBI Calls on Members to Come Forward Latest News doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures In Other News: $15K iCloud Spoofing Bugs, AI Policy Experts Phished, Adblocker Spies on AI Chats macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor Crypto Scammers Hijack Microsoft’s Official X Account In Rare Move, Alleged Iranian State Hacker Extradited to US Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks AI Agents Aimed SQL Injection at US and Canadian Government Sites Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action Trending Daily Briefing Newslet
+Fortra has released patches for eight vulnerabilities in Core Privileged Access Manager (BoKS), including three critical-severity bugs. BoKS provides organizations with central management of Unix and Linux fleets, enabling policy enforcement and access control across accounts. On Thursday, the company warned that BoKS Manager deployments relying on BoKS keytab for Active Directory service account management are affected by a critical flaw leading to authentication bypass. Tracked as CVE-2026-79901 (CVSS score of 9.9), the issue exists because AD service account passwords are generated from a “predictable pseudo-random sequence seeded with the current Unix timestamp.” “An attacker who knows the service principal and can estimate the password-change time can reproduce a limited candidate set and verify candidates offline,” Fortra warned. The company underlined that an attacker could exploit the flaw if they knew the affected service principal, could estimate the password-change time, and had suitable Kerberos ticket material. Advertisement. Scroll to continue reading. “A standard authenticated Active Directory account can ordinarily request a service ticket for an SPN assigned to the affected account; administrative access to BoKS, the service host, or its keytab is not normally required. A previously captured service ticket can alternatively provide offline verification material,” it said. The second critical bug, CVE-2026-79898 (CVSS score of 9.1), is a command injection defect in crlserver that could allow an authenticated user to substitute shell commands that would be processed as root on the BoKS Master. According to Fortra, the vulnerability is exploitable through BCC and the WSI REST or SOAP API. BCC and WSI can be accessed over the network without a local sudo or suexec rule. The company also resolved CVE-2026-12627 (CVSS score of 9.8), a stack buffer overflow in BoKS’s autoregistration functionality that could allow a remote attacker to trigger memory corruption. Additionally, Fortra patched five high- and medium-severity BoKS flaws: heap buffer overflows, out-of-bounds read, insecure temporary file, and predictable password generation. The company makes no mention of any of these vulnerabilities being exploited in the wild. Additional information can be found on Fortra’s product security page. Related: Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks Related: Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action Related: WatchGuard Patches Critical Fireware OS Code Injection Vulnerability Related: Chrome, Firefox Updates Patch Over 100 Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action Zimbra Vulnerability Exploited in the Wild Prior to Public Disclosure Zammad Zero-Days Exploited in AI-Powered DIVD Hack 500,000 Active Credentials Left Exposed on GitHub Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability WatchGuard Patches Critical Fireware OS Code Injection Vulnerability Chrome, Firefox Updates Patch Over 100 Vulnerabilities Russian APT Star Blizzard Uses ‘RedFlick’ Infection Chain in Recent Attacks Latest News Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures In Other News: $15K iCloud Spoofing Bugs, AI Policy Experts Phished, Adblocker Spies on AI Chats macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor Crypto Scammers Hijack Microsoft’s Official X Account In Rare Move, Alleged Iranian State Hacker Extradited to US Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks AI Agents Aimed SQL Injection at US and Canadian Government Sites Tren
 ```
 
 #### Corroborating sources (1)
@@ -2984,6 +2959,53 @@ Threat Intelligence Cyber Risk Cyberattacks & Data Breaches Vulnerabilities & Th
   - Link: https://www.darkreading.com/threat-intelligence/needymantis-long-term-access-compromised-networks
   - Summary: Microsoft observed a China-based actor using a previously unidentified malware framework in targeted intrusions against telcos, universities, medical, and government-related organizations.
 
+### Cluster 0d3ce97f33 — score 8
+
+- Title: Two Zero-Days Exploited in Attack on Dutch Institute for Vulnerability Disclosure
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-10-02T08:25:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng, vulnerability_disclosure, zero_day
+- affected_industries: government
+- cve_ids: CVE-2026-102489, CVE-2026-102490
+- urgency_signals: zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, zero_day, vulnerability_disclosure
+- affected_industries: government
+- cve_ids: CVE-2026-102489, CVE-2026-102490
+- urgency_signals: zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The Dutch Institute for Vulnerability Disclosure reveals agentic AI-powered attack using Zammad zero-days
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » Two Zero-Days Exploited in Attack on Dutch Institute for Vulnerability Disclosure Two Zero-Days Exploited in Attack on Dutch Institute for Vulnerability Disclosure News 2 October 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster A Dutch cybersecurity non-profit has revealed how it was compromised in an agentic AI attack that exploited two zero-day flaws in its helpdesk platform. The Dutch Institute for Vulnerability Disclosure (DIVD) is staffed by volunteers and dedicated to ethically disclosing flaws it finds in systems to “make the digital world safer.” However, it became a target itself last week after noticing suspicious activity on September 24. In a LinkedIn post on September 30, the organization revealed that its attackers exploited two zero-days in Zammad. “Used together, they allowed the attackers to hijack sessions, run code remotely and escalate privileges from the Zammad user to root, in seconds, due to the agentic part of this hack,” it said. “From there they were able to access other services and read and exfiltrate data. We urge everyone using any version of Zammad to update to version 7 or take it offline as soon as possible.” The vulnerabilities exploited in the attack are remote code execution bug CVE-2026-102489 and elevation of privileges flaw CVE-2026-102490, both of which have a CVSS score of 9.4 when chained. Read more on agentic AI attacks: Threat Actors Uses Agentic AI to Rapidly Compromise Cloud Target Fortunately, DIVD’s security expertise meant it was able to contain the threat. “Thanks to proper network segmentation and the actions of our IT and incident response team after detection, we were able to stop the attackers from going deeper into our systems and network,” it explained. “Unfortunately, some of the damage was already done.” A separate casefile on the incident explained that volunteer data including DIVD email addresses and possibly contact details was compromised, increasing the risk that malicious actors may try to impersonate DIVD staff. AI Agent to Blame On investigating, it became clear that AI was used in the attack, DIVD continued. “[Logs] show the attacker’s scripts contain notes where the agent justifies its own actions, explaining why what it’s doing is okay and really not phishing, something a human attacker wouldn’t bother with,” it said. “It supports our assessment that this is an agentic AI-powered attack. We can’t share more for now without getting in the way of the investigation.” Tim Burke, CEO of managed IT service provider Quest Technology Management, warned that AI-driven attacks are compressing detection and response timelines. “For companies without a dedicated SOC, continuous monitoring and visibility matter more. Someone still needs to know what is happening in the environment and be able to act quickly,” he told Infosecurity . “The broader point is that AI does not replace the fundamentals. It makes patching, monitoring, access controls, air-gapped/immutable data storage, segmentation, and incident response even more important.” Burke said network segmentation was key to limiting the damage in cases like this, preventing access from spreading across the broader environment. “The first hour should focus on containment: isolate affected systems, restrict compromised accounts or credentials, block suspicious connections, and stop further movement while the team determines what happened,” he added. “Organizations should know in advance who has the authority to take those containment actions. Delays matter more when attack activity happens at machine speed.” You may also like The CISO's New Liability Problem: Governing What You Don't Control Opinion 16 September 2026 Two in Three Orgs Not Convinced They Can Avoid a Breach News 13 February 2019 Agentic AI will Supercharge Cyber Threats. But Not in the Way You Think Opinion 27 July 2026 #EdgeLondon2019: Focus on System and Us
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Two Zero-Days Exploited in Attack on Dutch Institute for Vulnerability Disclosure
+  - Published: 2026-10-02T08:25:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/
+  - Summary: The Dutch Institute for Vulnerability Disclosure reveals agentic AI-powered attack using Zammad zero-days
+
 ### Cluster 542c77fc0d — score 8
 
 - Title: Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes
@@ -3157,53 +3179,6 @@ New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses  Ravie
   - Published: 2026-09-29T17:20:17+00:00
   - Link: https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html
   - Summary: A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors. The new Spectre v2 variant has been codenamed Branch Target Reuse (BTR). "The key insight is that, while modern CPUs
-
-### Cluster 0d3ce97f33 — score 8
-
-- Title: Two Zero-Days Exploited in Attack on Dutch Institute for Vulnerability Disclosure
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-10-02T08:25:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, vulnerability_disclosure, zero_day
-- affected_industries: government
-- cve_ids: CVE-2026-102489, CVE-2026-102490
-- urgency_signals: zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, zero_day, vulnerability_disclosure
-- affected_industries: government
-- cve_ids: CVE-2026-102489, CVE-2026-102490
-- urgency_signals: zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The Dutch Institute for Vulnerability Disclosure reveals agentic AI-powered attack using Zammad zero-days
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » Two Zero-Days Exploited in Attack on Dutch Institute for Vulnerability Disclosure Two Zero-Days Exploited in Attack on Dutch Institute for Vulnerability Disclosure News 2 October 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster A Dutch cybersecurity non-profit has revealed how it was compromised in an agentic AI attack that exploited two zero-day flaws in its helpdesk platform. The Dutch Institute for Vulnerability Disclosure (DIVD) is staffed by volunteers and dedicated to ethically disclosing flaws it finds in systems to “make the digital world safer.” However, it became a target itself last week after noticing suspicious activity on September 24. In a LinkedIn post on September 30, the organization revealed that its attackers exploited two zero-days in Zammad. “Used together, they allowed the attackers to hijack sessions, run code remotely and escalate privileges from the Zammad user to root, in seconds, due to the agentic part of this hack,” it said. “From there they were able to access other services and read and exfiltrate data. We urge everyone using any version of Zammad to update to version 7 or take it offline as soon as possible.” The vulnerabilities exploited in the attack are remote code execution bug CVE-2026-102489 and elevation of privileges flaw CVE-2026-102490, both of which have a CVSS score of 9.4 when chained. Read more on agentic AI attacks: Threat Actors Uses Agentic AI to Rapidly Compromise Cloud Target Fortunately, DIVD’s security expertise meant it was able to contain the threat. “Thanks to proper network segmentation and the actions of our IT and incident response team after detection, we were able to stop the attackers from going deeper into our systems and network,” it explained. “Unfortunately, some of the damage was already done.” A separate casefile on the incident explained that volunteer data including DIVD email addresses and possibly contact details was compromised, increasing the risk that malicious actors may try to impersonate DIVD staff. AI Agent to Blame On investigating, it became clear that AI was used in the attack, DIVD continued. “[Logs] show the attacker’s scripts contain notes where the agent justifies its own actions, explaining why what it’s doing is okay and really not phishing, something a human attacker wouldn’t bother with,” it said. “It supports our assessment that this is an agentic AI-powered attack. We can’t share more for now without getting in the way of the investigation.” Tim Burke, CEO of managed IT service provider Quest Technology Management, warned that AI-driven attacks are compressing detection and response timelines. “For companies without a dedicated SOC, continuous monitoring and visibility matter more. Someone still needs to know what is happening in the environment and be able to act quickly,” he told Infosecurity . “The broader point is that AI does not replace the fundamentals. It makes patching, monitoring, access controls, air-gapped/immutable data storage, segmentation, and incident response even more important.” Burke said network segmentation was key to limiting the damage in cases like this, preventing access from spreading across the broader environment. “The first hour should focus on containment: isolate affected systems, restrict compromised accounts or credentials, block suspicious connections, and stop further movement while the team determines what happened,” he added. “Organizations should know in advance who has the authority to take those containment actions. Delays matter more when attack activity happens at machine speed.” You may also like The CISO's New Liability Problem: Governing What You Don't Control Opinion 16 September 2026 Two in Three Orgs Not Convinced They Can Avoid a Breach News 13 February 2019 Agentic AI will Supercharge Cyber Threats. But Not in the Way You Think Opinion 27 July 2026 #EdgeLondon2019: Focus on System and Us
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Two Zero-Days Exploited in Attack on Dutch Institute for Vulnerability Disclosure
-  - Published: 2026-10-02T08:25:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/
-  - Summary: The Dutch Institute for Vulnerability Disclosure reveals agentic AI-powered attack using Zammad zero-days
 
 ### Cluster 8098e82854 — score 8
 
