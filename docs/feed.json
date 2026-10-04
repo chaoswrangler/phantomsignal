@@ -1,9 +1,16 @@
 {
-  "generated_at": "2026-10-04T05:23:55.407130+00:00",
+  "generated_at": "2026-10-04T12:08:14.343877+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2198,
   "feed_status": {
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -11,12 +18,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 4
     },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
@@ -32,13 +39,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
@@ -46,19 +46,26 @@
       "item_count": 25,
       "in_window_count": 0
     },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
+    },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
     },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
@@ -88,27 +95,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 3
-    },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 6
-    },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
@@ -130,6 +116,20 @@
       "item_count": 100,
       "in_window_count": 3
     },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 3
+    },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 6
+    },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
@@ -137,12 +137,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
+      "item_count": 50,
+      "in_window_count": 9
     },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
@@ -158,12 +158,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 9
+      "item_count": 78,
+      "in_window_count": 0
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -172,13 +172,6 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
@@ -186,11 +179,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "TrustedSec": {
@@ -199,6 +192,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
+    },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -235,12 +235,12 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 100,
+      "in_window_count": 9
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -249,12 +249,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 9
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -270,19 +277,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 2
-    },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 9
+      "in_window_count": 5
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -291,25 +291,18 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 5
+      "in_window_count": 9
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 3
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
       "in_window_count": 3
     },
     "Cloudflare Radar": {
@@ -326,6 +319,20 @@
       "item_count": 100,
       "in_window_count": 2
     },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -340,18 +347,25 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 20
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
       "in_window_count": 15
     },
     "The Record": {
@@ -361,12 +375,12 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 20
+      "item_count": 15,
+      "in_window_count": 15
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -374,13 +388,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -396,12 +403,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 15
+      "item_count": 10,
+      "in_window_count": 10
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -410,12 +417,12 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 10
+      "in_window_count": 7
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -424,6 +431,13 @@
       "item_count": 50,
       "in_window_count": 25
     },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -431,36 +445,8 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 7
-    },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
-    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -473,6 +459,13 @@
       "item_count": 50,
       "in_window_count": 50
     },
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
       "cohort": "practitioner_analysis",
@@ -480,22 +473,15 @@
       "item_count": 20,
       "in_window_count": 4
     },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 23
+    },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -508,12 +494,26 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 23
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -522,18 +522,18 @@
       "item_count": 25,
       "in_window_count": 24
     },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 1
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 1
     },
     "Risky Business News": {
@@ -783,6 +783,7 @@
         "https://www.sophos.com/en-us/blog/citrix-netscaler-cve-2026-88771-cve-2026-88772-in-active-exploitation",
         "https://www.greynoise.io/blog/swarming-against-citrix-0-day-exploitation",
         "https://cyberscoop.com/citrix-netscaler-zero-day-attacks-three-weeks-undetected/",
+        "https://www.helpnetsecurity.com/2026/10/04/week-in-review-researcher-breaks-into-microsoft-analytics-service-netscaler-rce-0-day-exploited/",
         "https://www.reddit.com/r/netsec/comments/1wtattu/here_we_go_again_citrix_netscaler_dtls_preauth/",
         "https://www.infosecurity-magazine.com/news/citrix-patches-critical-zero-days/",
         "https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response"
@@ -815,17 +816,17 @@
       "cluster_ids": [
         "a14cf81e36",
         "48be01e909",
-        "a89ee14154",
         "355863d181",
-        "07b6c8a583"
+        "07b6c8a583",
+        "a89ee14154"
       ],
       "links": [
         "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
         "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
         "https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/",
-        "https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/",
         "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
-        "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/"
+        "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/",
+        "https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/"
       ]
     },
     {
@@ -1301,12 +1302,6 @@
         "weeks_observed": 7
       },
       {
-        "axis": "cve_ids",
-        "value": "CVE-2025-3248",
-        "cluster_id": "8af8fa458d",
-        "weeks_observed": 6
-      },
-      {
         "axis": "actor_attribution",
         "value": "Salt Typhoon",
         "cluster_id": "5fc59e5ed7",
@@ -1337,18 +1332,115 @@
         "weeks_observed": 3
       }
     ],
-    "tier_inversion": [
-      {
-        "cluster_id": "8af8fa458d",
-        "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
-        "primary_source": "The Hacker News",
-        "strong_signals": [
-          "CVE-2025-3248"
-        ]
-      }
-    ]
+    "tier_inversion": []
   },
   "items": [
+    {
+      "source": "Help Net Security",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Week in review: Researcher breaks into Microsoft analytics service, NetScaler RCE 0-day exploited",
+      "link": "https://www.helpnetsecurity.com/2026/10/04/week-in-review-researcher-breaks-into-microsoft-analytics-service-netscaler-rce-0-day-exploited/",
+      "published": "2026-10-04T08:00:19+00:00",
+      "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: 16-year-old researcher breaks into Microsoft analytics service with access to 17 trillion rows of data A flaw in Titan, an internal Microsoft analytics service, could have let an attacker read employee records and Bing search analytics, a 16-year-old security researcher has disclosed. Citrix NetScaler RCE zero-days exploited globally for weeks (CVE-2026-88771, CVE-2026-88772) Citrix has patched eight critical and high-severity vulnerabilities … More → The post Week in review: Researcher breaks into Microsoft analytics service, NetScaler RCE 0-day exploited appeared first on Help Net Security .",
+      "author": "Sinisa Markovic",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Citrix"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-88771",
+          "CVE-2026-88772"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "Citrix": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 11
+    },
+    {
+      "source": "The Hacker News",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
+      "link": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
+      "published": "2026-10-04T07:22:05+00:00",
+      "summary": "A suspected member of the ShinyHunters digital extortion group, who goes by the online alias \"Rey,\" has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar with the matter. Rey, whose real name is Saif ‌al-Din Khader, is said to have been brought into custody on September 29, 2026, cooperating with the U.S. Federal Bureau of Investigation (FBI) and",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
+    {
+      "source": "The Hacker News",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
+      "link": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+      "published": "2026-10-04T07:20:32+00:00",
+      "summary": "A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal sector organizations. The campaigns have impersonated prominent economists and AI policymakers, as well as a prominent Anthropic employee, to single out an AI policy expert at a",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng",
+          "apt_espionage",
+          "mfa_bypass"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "education",
+          "legal_professional"
+        ],
+        "affected_products": [
+          "Anthropic/Claude"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "Anthropic/Claude": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
     {
       "source": "BleepingComputer",
       "cohort": "cyber_news_breach_reporting",
@@ -1377,7 +1469,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "SANS Internet Storm Center",
@@ -1561,7 +1653,7 @@
           "products": []
         }
       },
-      "score": 9,
+      "score": 8,
       "full_body": "Fortra has released patches for eight vulnerabilities in Core Privileged Access Manager (BoKS), including three critical-severity bugs. BoKS provides organizations with central management of Unix and Linux fleets, enabling policy enforcement and access control across accounts. On Thursday, the company warned that BoKS Manager deployments relying on BoKS keytab for Active Directory service account management are affected by a critical flaw leading to authentication bypass. Tracked as CVE-2026-79901 (CVSS score of 9.9), the issue exists because AD service account passwords are generated from a “predictable pseudo-random sequence seeded with the current Unix timestamp.” “An attacker who knows the service principal and can estimate the password-change time can reproduce a limited candidate set and verify candidates offline,” Fortra warned. The company underlined that an attacker could exploit the flaw if they knew the affected service principal, could estimate the password-change time, and had suitable Kerberos ticket material. Advertisement. Scroll to continue reading. “A standard authenticated Active Directory account can ordinarily request a service ticket for an SPN assigned to the affected account; administrative access to BoKS, the service host, or its keytab is not normally required. A previously captured service ticket can alternatively provide offline verification material,” it said. The second critical bug, CVE-2026-79898 (CVSS score of 9.1), is a command injection defect in crlserver that could allow an authenticated user to substitute shell commands that would be processed as root on the BoKS Master. According to Fortra, the vulnerability is exploitable through BCC and the WSI REST or SOAP API. BCC and WSI can be accessed over the network without a local sudo or suexec rule. The company also resolved CVE-2026-12627 (CVSS score of 9.8), a stack buffer overflow in BoKS’s autoregistration functionality that could allow a remote attacker to trigger memory corruption. Additionally, Fortra patched five high- and medium-severity BoKS flaws: heap buffer overflows, out-of-bounds read, insecure temporary file, and predictable password generation. The company makes no mention of any of these vulnerabilities being exploited in the wild. Additional information can be found on Fortra’s product security page. Related: Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks Related: Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action Related: WatchGuard Patches Critical Fireware OS Code Injection Vulnerability Related: Chrome, Firefox Updates Patch Over 100 Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Zimbra Vulnerability Exploited in the Wild Prior to Public Disclosure Zammad Zero-Days Exploited in AI-Powered DIVD Hack 500,000 Active Credentials Left Exposed on GitHub Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability WatchGuard Patches Critical Fireware OS Code Injection Vulnerability Chrome, Firefox Updates Patch Over 100 Vulnerabilities Russian APT Star Blizzard Uses ‘RedFlick’ Infection Chain in Recent Attacks ShinyHunters Defiant After FBI Calls on Members to Come Forward Latest News doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures In Other News: $15K iCloud Spoofing Bugs, AI Policy Experts Phished, Adblocker Spies on AI Chats macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor Crypto Scammers Hijack Microsoft’s Official X Account In Rare Move, Alleged Iranian State Hacker Extradited to US Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks AI Agents Aimed SQL Injection at US and Canadian Government Sites Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action Trending Daily Briefing Newslet",
       "fetch_status": "ok"
     },
@@ -1593,7 +1685,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Reddit r/netsec",
@@ -1623,7 +1715,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Dark Reading",
@@ -3780,42 +3872,6 @@
       "score": 4
     },
     {
-      "source": "Help Net Security",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "DeepKeep’s AI Lens flags coding agent data leaks and routes destructive commands for approval",
-      "link": "https://www.helpnetsecurity.com/2026/10/01/deepkeeps-ai-lens-flags-coding-agent-data-leaks-and-routes-destructive-commands-for-approval/",
-      "published": "2026-10-01T13:57:07+00:00",
-      "summary": "DeepKeep has announced AI Lens for Developers, a new extension to the company’s AI usage control and runtime protection modules to secure software developers and their coding agents that can write, modify, and execute code on their behalf. The capability gives security teams policy enforcement, audit visibility, and runtime security over coding agents such as Cursor and Claude Code, closing a critical gap most security programs have ever had to cover before. 90% of developers … More → The post DeepKeep’s AI Lens flags coding agent data leaks and routes destructive commands for approval appeared first on Help Net Security .",
-      "author": "Industry News",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "OpenAI/ChatGPT",
-          "Anthropic/Claude"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "OpenAI/ChatGPT": "target",
-          "Anthropic/Claude": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 8,
-      "full_body": "Industry News October 1, 2026 Share DeepKeep’s AI Lens flags coding agent data leaks and routes destructive commands for approval DeepKeep has announced AI Lens for Developers, a new extension to the company’s AI usage control and runtime protection modules to secure software developers and their coding agents that can write, modify, and execute code on their behalf. The capability gives security teams policy enforcement, audit visibility, and runtime security over coding agents such as Cursor and Claude Code, closing a critical gap most security programs have ever had to cover before. 90% of developers use AI coding agents at work at least weekly, creating a growing security problem. These endpoint agents can read local files, run shell commands, and call MCP tools directly on that developer’s machine. Security teams have no way to see what these agents are doing with that access, let alone stop it. This shift, with its increased role for agents in the software development life cycle (SDLC), has code moving from prompt to production with far less human review at each step. DeepKeep’s AI Lens for Developers deploys guardrails and full-time monitoring that target how developers actually work, tracking and filtering what developers and their agents are doing. Built as a light plug-in rather than a full endpoint agent, AI Lens catches agent activity before and after it runs, allowing security teams to get coverage without adding a new endpoint client footprint to developer machines. AI Lens flags credentials, tokens, and passwords that can leak through prompts and attached files, and catches insecure code patterns in what an agent generates, such as a function missing authentication. Destructive commands are flagged and sent for human approval before they run, and teams can set custom key-phrase detection to flag sensitive code sections or internal repositories by name. Every session produces a full audit log, including device ID, prompt content, and user ID, so security teams have a record of what happened even after a developer adjusts a blocked request and tries again. Administrators set policy through a Policy Hub, configuring rules by role or across the organization to block categories like personally identifiable information (PII), credentials, or destructive commands. Hooks built into the coding agent intercept prompts, shell commands, file reads, and MCP tool calls before and after they run, and route each one to DeepKeep’s system for an allow, block, or audit decision. “Developers have more permissions and access than almost anyone else in the organization, and coding agents now act with full autonomy and responsibility. The risk is real, as the recent OpenAI and Hugging Face incident showed, where AI agents were able to access and exploit external systems during testing,” said Ofer Rotberg , VP Product of DeepKeep. “It is essential for CISOs to maintain visibility into what’s happening inside these tools, not just whether they’re approved on paper. Security teams must monitor every agent action and block harmful behaviour in real time, instead of sitting and waiting for the next incident.” AI Lens for Developers supports Cursor and Claude Code today, with GitHub Copilot, OpenAI Codex, Lovable, Windsurf, and more coming soon. It is available now as part of DeepKeep’s wider, dedicated AI security platform. Share",
-      "fetch_status": "ok"
-    },
-    {
       "source": "Infosecurity Magazine",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -5017,7 +5073,7 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
@@ -5055,7 +5111,7 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
@@ -5665,7 +5721,9 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 6,
+      "full_body": "Simon Willison’s Weblog Subscribe Sponsored by: Deepgram — Flux TTS remembers the conversation, so your agent sounds right on reply 20. Hear the demo 29th September 2026 We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them. — Anthropic Frontier Red Team , GLM-5.3 and the spread of advanced cyber capabilities Posted 29th September 2026 at 10:20 pm Recent articles We're going to need default hard budget caps on pretty much everything - 3rd October 2026 OpenAI DevDay 2026 live blog - 29th September 2026 2026 in LLMs (so far) - 27th September 2026 This is a quotation collected by Simon Willison, posted on 29th September 2026 . ai 2,259 generative-ai 2,002 llms 1,969 anthropic 343 ai-in-china 109 glm 10 ai-security-research 46 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026",
+      "fetch_status": "ok"
     },
     {
       "source": "Reddit r/netsec",
@@ -5730,7 +5788,7 @@
       "score": 5
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Phishing Abuses RMM Tools for Persistent Access",
@@ -5770,7 +5828,7 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Phishing Abuses RMM Tools for Persistent Access",
@@ -6299,7 +6357,7 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
@@ -6341,7 +6399,7 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
@@ -7424,7 +7482,7 @@
       "score": 7
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
@@ -7466,7 +7524,7 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
@@ -7850,44 +7908,6 @@
       "fetch_status": "ok"
     },
     {
-      "source": "The Hacker News",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
-      "link": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
-      "published": "2026-09-28T09:08:21+00:00",
-      "summary": "The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals. Microsoft, which is tracking the activity under the name Storm-3168, has called it an evolution of the threat actor's tradecraft. The attack took place in early June 2026 over a period of about 18 hours. \"The destructive operations",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Azure"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2025-3248"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "Azure": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 8,
-      "full_body": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources  Ravie Lakshmanan  Sep 28, 2026 Cloud Security / Identity Security The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals. Microsoft, which is tracking the activity under the name Storm-3168 , has called it an evolution of the threat actor's tradecraft. The attack took place in early June 2026 over a period of about 18 hours. \"The destructive operations were facilitated by compromising service principals and targeted Azure Storage Accounts, SQL databases, Key Vaults, Function Apps, recovery protection locks, Virtual Machines, and App Services,\" researchers Yossi Weizman and Tushar Mudi, along with the Microsoft Security Research team, said . JADEPUFFER was first documented by Sysdig, describing it as the first-ever ransomware operation run end-to-end with the help of a large language model (LLM). The agentic attack exploited a known security flaw in Langflow (CVE-2025-3248) to break in, harvested credentials, burrowed deeper into the network, encrypted Nacos service configuration files, dropped the original database tables, and left a ransom note demanding a Bitcoin payment. While the attack was found to have leveraged MySQL's built-in AES_ENCRYPT() function to perform the encryption step, the same Langflow instance was subsequently targeted by the threat actor a second time using a compiled Go-based ransomware strain codenamed ENCFORGE . ENCFORGE is specifically built for the artificial intelligence (AI) infrastructure, scanning for nearly 180 file extensions spanning model checkpoints, vector databases, training datasets, and embedding indices, along with macOS-centric files like Keychain stores, Xcode project files, and Apple Pages and Numbers documents. \"An autonomous agent reasoned about its targets, harvested and reused credentials, moved laterally, established persistence, and destroyed a database, narrating its own intent the entire way,\" Sysdig noted at the time. \"None of the individual techniques were novel or sophisticated. What is notable, however, is that an AI model strung them together into a complete ransomware operation against neglected internet-facing infrastructure.\" Microsoft, in its analysis, said it observed two compromised service principals linked to the same tenant, with one used for reconnaissance and resource discovery and the second for destructive operations and credential collection. The enumeration activity targeted Azure Virtual Machines, subscriptions, resource groups, and resources for close to 16 hours, carrying out over 300 read operations during the time period. The second compromised service principal also engaged in some discovery operation of its own 90 minutes later, enumerating virtual machines and resource groups across two subscriptions within five seconds. After 16 hours, the second service principal also successfully enumerated Azure App Service configuration stores, likely in an attempt to look for exposed credentials. Soon after, the service principal is said to have conducted more than 150 destructive or credential collection-related operations in 35 minutes. In all, the destructive sequence lasted for about seven minutes and involved over 100 storage account deletion attempts. Also targeted were an Azure Key Vault, Function App, and App Service plan, as well as multiple Azure SQL databases. However, each of the database deletion attempts ended up in failure due to the use of an unsupported API version for the Azure SQL database resource type. \"Most Azure Storage accounts targeted by the threat actor were successfully deleted,\" Microsoft said. \"However, Azure resource locks and storage account-level deletion protection blocked deletion attempts for few of the storage accounts, demonstrating the value of independent safeguards that remain effective even when a compromised identity h",
-      "fetch_status": "ok"
-    },
-    {
       "source": "ESET WeLiveSecurity",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -7974,42 +7994,6 @@
       "score": 11,
       "full_body": "Infosecurity Magazine Home » News » Citrix Patches Critical Zero Days Under Active Exploitation Citrix Patches Critical Zero Days Under Active Exploitation News 28 September 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Citrix has published updates for eight new vulnerabilities, including two critical zero-day CVEs that had been under active exploitation. In a bulletin on September 27 the vendor confirmed eight new flaws in Citrix NetScaler ADC (formerly Citrix ADC) and Citrix NetScaler Gateway (formerly Citrix Gateway). They have CVSS scores ranging from 7 to 9.5. The two most urgent are: CVE-2026-88771: a remote code execution (RCE) flaw due to improper input validation, enabling an unauthenticated attacker to execute arbitrary commands. It affects all NetScaler ADC and NetScaler Gateway deployments with default configuration CVE-2026-88772: a memory overflow vulnerability leading to RCE or denial of service. It affects any deployment with DTLS configuration enabled (which it is by default on VPN vServers) “Exploitation of CVE-2026-88771 and CVE-2026-88772 on unmitigated NetScaler deployments has been observed,” Citrix said in a blog post. “Citrix strongly urges affected customers to install the relevant updated versions as soon as possible.” Read more on Citrix vulnerabilities: Citrix Urges Immediate Patching for Critical NetScaler Vulnerabilities Also noteworthy is CVE-2026-88773, a critical HTTP request smuggling flaw which is present when the HTTP configuration is enabled on NetScaler ADC or NetScaler Gateway. It has a CVSS score of 9.3. Reports had been circulating before the Citrix bulletin of exploitation of the zero-day bugs. The Australian Signals Directorate’s Australian Cyber Security Centre (ACSC) issued a critical alert on September 28 urging organizations to patch. Reports online also suggested the Dutch National Cyber Security Center (NCSC-NL) had issued alerts to local organizations in the country. The US Cybersecurity and Infrastructure Security Agency (CISA) has ordered federal agencies to patch by Wednesday, 30 September. It’s not clear who is behind the exploitation attempts but in 2025, a cyber intrusion linked to China-based group Salt Typhoon targeted a Citrix zero day. The Remaining Five Vulnerabilities The rest of the CVEs published by Citrix include: CVE-2026-88774: a feature policy bypass due to improper HTTP URL based expression usage (CVSS 7) CVE-2026-88775: a memory overflow vulnerability leading to unpredictable or erroneous behavior or denial of service (CVSS 8.8) CVE-2026-88776: a memory overflow vulnerability leading to unpredictable or erroneous behavior or denial of service (CVSS 8.8) CVE-2026-88777: a memory overflow vulnerability leading to unpredictable or erroneous behavior or denial of service (CVSS 8.8) CVE-2026-88778: a TCP Initial Sequence Number (ISN) prediction flaw with a (CVSS 8.8) “This bulletin only applies to customer-managed Citrix NetScaler ADC and Citrix NetScaler Gateway,” the vendor confirmed. “Cloud Software Group upgrades the Citrix-managed cloud services and Citrix-managed Adaptive Authentication with the necessary software updates.” You may also like Zero-Day IE Bug is Being Exploited in the Wild News 21 January 2020 Last Windows 10 Patch Tuesday Features Six Zero-Days News 15 October 2025 NCSC: Patch Critical Oracle EBS Bug Now News 7 October 2025 Citrix Patches Three NetScaler Zero Days as One Sees Active Exploitation News 27 August 2025 768 CVEs Exploited in the Wild in 2024 News 3 February 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice AI-Found Vulnerabilities More Likely to Enable RCE, Google Says News 30 September 2026 1 Trump, Six AI Giants Sign 'Super Intelligence' Safety Accord News 30 September 2026 2 Attackers Combine ChatGPT Feature Abuse With ClickFix to Deliver Trojan Malware News 30 September 2026 3 AI Threats Top Cybersecurity Preparedness Gap, PwC Finds ",
       "fetch_status": "ok"
-    },
-    {
-      "source": "The Hacker News",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
-      "link": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
-      "published": "2026-09-28T07:21:49+00:00",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerabilities are listed below - CVE-2026-88771 (CVSS score: 9.5) - An improper input validation vulnerability that could allow an unauthenticated attacker to",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Citrix"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-88771"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "Citrix": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 8
     },
     {
       "source": "Sophos X-Ops",
@@ -8173,36 +8157,6 @@
         }
       },
       "score": 5
-    },
-    {
-      "source": "SANS Internet Storm Center",
-      "cohort": "government_authoritative",
-      "category": "government_authoritative",
-      "title": "Wireshark 4.6.9 Released, (Sun, Sep 27th)",
-      "link": "https://isc.sans.edu/diary/rss/33372",
-      "published": "2026-09-27T15:04:49+00:00",
-      "summary": "Wireshark release 4.6.9 fixes 19 vulnerabilities and 16 bugs.",
-      "author": "",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_government",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 9,
-      "full_body": "",
-      "fetch_status": "fetch_failed:HTTPError"
     },
     {
       "source": "Simon Willison",
@@ -8453,7 +8407,7 @@
       }
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Storm-3168: Agentic-driven cloud attacks using compromised service principals",
@@ -8484,7 +8438,7 @@
       }
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Storm-3168: Agentic-driven cloud attacks using compromised service principals",
@@ -9408,7 +9362,7 @@
       }
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments",
@@ -9437,7 +9391,7 @@
       }
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments",
@@ -34375,33 +34329,6 @@
               0.28
             ]
           ]
-        }
-      }
-    },
-    {
-      "source": "Troy Hunt",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "Weekly Update 512: IoT Lockout Fail",
-      "link": "https://www.troyhunt.com/weekly-update-512/",
-      "published": "2026-07-15T00:35:38+00:00",
-      "summary": "\"Build a smart home\", they said. \"It'll make life so much better\", they said. Well, life wasn't very bloody good at 23:00 the other night after travelling 33 hours from Paris only to find the IoT doorlock batteries dead and the",
-      "author": "Troy Hunt",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_3_analysis",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
         }
       }
     },
