@@ -6,9 +6,30 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 05 Oct 2026 00:39:14 +0000</lastBuildDate>
+<lastBuildDate>Mon, 05 Oct 2026 06:45:53 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days Earlier</title>
+<link>https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/</link>
+<description><![CDATA[Citrix has confirmed that a new zero-day vulnerability, CVE-2026-88779, emerged just days after two other exploited flaws were patched. The post Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days Earlier appeared first on SecurityWeek .<br/><br/><em>Tags: Citrix · CVE-2026-88779 · zero_day</em>]]></description>
+<pubDate>Mon, 05 Oct 2026 05:14:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/</guid>
+<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
+<category>cyber_news_breach_reporting</category>
+<category>Citrix</category>
+<category>CVE-2026-88779</category>
+<category>zero_day</category>
+</item>
+<item>
+<title>How RMM abuse gives attackers a way in that looks like business as usual</title>
+<link>https://www.helpnetsecurity.com/2026/10/05/remote-monitoring-and-management-rmm-abuse/</link>
+<description><![CDATA[Huntress found attackers using legitimate remote monitoring and management (RMM) software in 45% of the endpoint-related incidents it recorded in the first quarter of 2026. The security company also ranked 11 attack tactics by how often it sees them and how much damage each can do, and RMM abuse sits farthest right on the chart, the position for tactics it sees most often. IT teams use RMM tools to manage computers from anywhere, so an … More → The post How RMM abuse gives attackers a way in that looks like business as usual appeared first on Help Net Security .]]></description>
+<pubDate>Mon, 05 Oct 2026 04:30:08 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/10/05/remote-monitoring-and-management-rmm-abuse/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>TTY Logs and the Data it Captures, (Sun, Oct 4th)</title>
 <link>https://isc.sans.edu/diary/rss/33396</link>
@@ -118,14 +139,14 @@
 <item>
 <title>Fortra Patches Critical Vulnerabilities in BoKS</title>
 <link>https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/</link>
-<description><![CDATA[The bugs could lead to authentication bypass, shell command execution, and memory corruption. The post Fortra Patches Critical Vulnerabilities in BoKS appeared first on SecurityWeek .<br/><br/><em>Tags: Microsoft SharePoint · Fortinet · GitHub · CVE-2026-79901 · CVE-2026-79898 · CVE-2026-12627 · phishing_social_eng · zero_day</em>]]></description>
+<description><![CDATA[The bugs could lead to authentication bypass, shell command execution, and memory corruption. The post Fortra Patches Critical Vulnerabilities in BoKS appeared first on SecurityWeek .<br/><br/><em>Tags: Microsoft SharePoint · Fortinet · Citrix · CVE-2026-79901 · CVE-2026-79898 · CVE-2026-12627 · phishing_social_eng · zero_day</em>]]></description>
 <pubDate>Sat, 03 Oct 2026 11:34:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
 <category>Microsoft SharePoint</category>
 <category>Fortinet</category>
-<category>GitHub</category>
+<category>Citrix</category>
 <category>CVE-2026-79901</category>
 </item>
 <item>
@@ -548,18 +569,6 @@
 <category>zero_day</category>
 </item>
 <item>
-<title>Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action</title>
-<link>https://www.securityweek.com/exploited-fortinet-fortimail-zero-day-calls-for-urgent-action/</link>
-<description><![CDATA[CVE-2026-104286 is a critical-severity path traversal vulnerability that could allow attackers to write arbitrary files to the system. The post Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action appeared first on SecurityWeek .<br/><br/><em>Tags: Fortinet · CVE-2026-104286 · zero_day</em>]]></description>
-<pubDate>Fri, 02 Oct 2026 08:07:33 +0000</pubDate>
-<guid isPermaLink="true">https://www.securityweek.com/exploited-fortinet-fortimail-zero-day-calls-for-urgent-action/</guid>
-<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
-<category>cyber_news_breach_reporting</category>
-<category>Fortinet</category>
-<category>CVE-2026-104286</category>
-<category>zero_day</category>
-</item>
-<item>
 <title>Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools</title>
 <link>https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html</link>
 <description><![CDATA[Google has announced a new security measure that limits access to Android&apos;s accessibility services to verified applications classified as Accessibility Tools when Advanced Protection is enabled. With malicious Android applications abusing the API serving as the main conduit for malware and financial fraud, the tech giant said the move would block a major attack pathway. Advanced Protection is a<br/><br/><em>Tags: Android</em>]]></description>
@@ -596,15 +605,6 @@
 <description><![CDATA[Companies are putting more money into AI while naming attacks on AI systems as the threat they are least ready to face. PwC surveyed 3,934 business and technology leaders in 71 countries between May and July 2026. Half of the security and technology executives among them ranked such attacks in their top five preparedness gaps, ahead of every other threat on the list. More than half of the leaders asked about AI-enabled attacks put three … More → The post Botnets, adversarial attacks and data poisoning top leaders’ AI threat list appeared first on Help Net Security .]]></description>
 <pubDate>Fri, 02 Oct 2026 05:00:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.helpnetsecurity.com/2026/10/02/pwc-attacks-on-ai-systems/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>New infosec products of the week: October 2, 2026</title>
-<link>https://www.helpnetsecurity.com/2026/10/02/new-infosec-products-of-the-week-october-2-2026/</link>
-<description><![CDATA[Here’s a look at the most interesting products from the past week, featuring releases from BlackFog, Genea, Vega, and Thales. Vega II brings security-trained AI and lasting memory to the SOC Vega has introduced Vega II, its biggest platform release since emerging from stealth. The update brings frontier AI trained for security operations into the SOC, gives teams a lasting record of what they have learned, and removes the legacy SIEM and data pipeline barriers … More → The post New infosec products of the week: October 2, 2026 appeared first on Help Net Security .]]></description>
-<pubDate>Fri, 02 Oct 2026 04:00:35 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/10/02/new-infosec-products-of-the-week-october-2-2026/</guid>
 <source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
 <category>cyber_news_breach_reporting</category>
 </item>
@@ -782,16 +782,6 @@
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/ta419-impersonates-ai-experts-us/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>16-year-old suspected leader of KillSec ransomware group arrested</title>
-<link>https://www.helpnetsecurity.com/2026/10/01/killsec-ransomware-16-year-old-main-operator-arrested/</link>
-<description><![CDATA[A 16-year-old is suspected of being the main operator of KillSec, a ransomware group that Eurojust says is responsible for almost 1,000 attacks worldwide. Seizure notice (Source: Eurojust) According to Eurojust, KillSec has been active since 2024. The group got into organizations’ systems by exploiting poorly secured access, particularly access linked to cloud storage. “Once inside, the KillSec group stole data and copied it to their own infrastructure. They then threatened to make the stolen … More → The post 16-year-old suspected leader of KillSec ransomware group arrested appeared first on Help Net Security .<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Thu, 01 Oct 2026 13:59:02 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/10/01/killsec-ransomware-16-year-old-main-operator-arrested/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>CloudSyncD MacOS Backdoor Hides Behind Fake Zoom Installer</title>
@@ -1409,13 +1399,15 @@
 <item>
 <title>Apple Zero-Day Vulnerability Weaponized in Targeted Attacks</title>
 <link>https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks</link>
-<description><![CDATA[Attackers are exploiting CVE-2026-86950, an out-of-bounds write flaw, in an extremely sophisticated fashion, according to Apple.<br/><br/><em>Tags: CVE-2026-86950 · zero_day</em>]]></description>
+<description><![CDATA[Attackers are exploiting CVE-2026-86950, an out-of-bounds write flaw, in an extremely sophisticated fashion, according to Apple.<br/><br/><em>Tags: Apple iOS/macOS · CVE-2026-86950 · CVE-2025-55177 · CVE-2025-43300 · ransomware_extortion · zero_day · apt_espionage</em>]]></description>
 <pubDate>Tue, 29 Sep 2026 21:31:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
+<category>Apple iOS/macOS</category>
 <category>CVE-2026-86950</category>
-<category>zero_day</category>
+<category>CVE-2025-55177</category>
+<category>CVE-2025-43300</category>
 </item>
 <item>
 <title>Attackers exploited Citrix NetScaler zero-day for at least three weeks undetected</title>
@@ -1776,17 +1768,6 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
-<title>Apple Emergency Patch for iOS 26, macOS26, macOS15 (CVE-2026-86950), (Mon, Sep 28th)</title>
-<link>https://isc.sans.edu/diary/rss/33376</link>
-<description><![CDATA[Apple today released patches for all of its operating systems. However, only patches for older branches include a security fix. The vulnerability being addressed in iOS 26, macOS 26 and macOS 15 is already being exploited. iOS and macOS 27 are not affected. Today&amp;#;x26;#;39;s update for the current &quot;27&quot; branch does not address security issues, but fixes some functional issues that got caught after the release two weeks ago. A 27.1 version was also expected to support the new foldable iPhone and will likely include specific features geared to the soon to be available device.<br/><br/><em>Tags: Apple iOS/macOS · CVE-2026-86950</em>]]></description>
-<pubDate>Mon, 28 Sep 2026 22:35:35 +0000</pubDate>
-<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33376</guid>
-<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
-<category>government_authoritative</category>
-<category>Apple iOS/macOS</category>
-<category>CVE-2026-86950</category>
-</item>
-<item>
 <title>One Packet Can Crash OT Servers in Industrial Sectors</title>
 <link>https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine</link>
 <description><![CDATA[A high-severity vulnerability affects the TDengine time-series database used across industrial, IoT, energy, and automotive environments, and orgs should patch right away.]]></description>
@@ -2058,6 +2039,24 @@
 <category>OpenAI/ChatGPT</category>
 <category>Citrix</category>
 <category>Salt Typhoon</category>
+</item>
+<item>
+<title>Quoting Muse AI Agent</title>
+<link>https://simonwillison.net/2026/Sep/28/muse-ai-agent/</link>
+<description><![CDATA[Bad news on the MX Keys Mini pickup. Usman showed up at your building around 9:15 and waited, messaged a bunch of times, and nobody came down. He left angry at 9:38 and left a negative rating. Worse, my auto-reply told him &quot;Yep I&apos;m here!&quot; at 9:27 when you clearly weren&apos;t available, which is on me. That&apos;s a bad look and it made the no-show worse. I&apos;ve sent him an apology from your account owning it and offering to try again another day. But the negative rating is real, and I should probably stop the auto-replies from claiming you&apos;re home when I can&apos;t verify that. Want me to change the pickup replies so they don&apos;t promise you&apos;re there? — Muse AI Agent , working on behalf of @matt.j.robb Tags: meta , generative-ai , muse-agent , ai , general-agents , llms]]></description>
+<pubDate>Mon, 28 Sep 2026 04:01:30 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Sep/28/muse-ai-agent/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Risky Bulletin: Intel ends paid bug bounties</title>
+<link>https://risky.biz/RBNEWS616/</link>
+<description><![CDATA[Intel removes cash rewards from its bug bounty program, OpenAI agents probed dozens of organizations, Fraudsters scam €95 million from an Italian bank and Bitget is hacked for $350 million.]]></description>
+<pubDate>Mon, 28 Sep 2026 01:17:56 +0000</pubDate>
+<guid isPermaLink="true">https://risky.biz/RBNEWS616/</guid>
+<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
+<category>practitioner_analysis</category>
 </item>
 <item>
 <title>Recorded Future Launches MCP, the Intelligence Layer for Agentic Security Operations</title>
@@ -19640,7 +19639,7 @@
 <title>CrowdStrike Expands Federal SOC Modernization Through CISA-Funded SIEMaaS</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 05 Oct 2026 00:39:14 +0000</pubDate>
+<pubDate>Mon, 05 Oct 2026 06:45:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19649,7 +19648,7 @@
 <title>Copy, Paste, Compromised: How ClickFix Attacks Work and How CrowdStrike Stops Them</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-clickfix-attacks-work-and-how-to-stop-them/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 05 Oct 2026 00:39:14 +0000</pubDate>
+<pubDate>Mon, 05 Oct 2026 06:45:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-clickfix-attacks-work-and-how-to-stop-them/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19658,7 +19657,7 @@
 <title>A Win for Defenders: CrowdStrike and NVIDIA Extend Security Across the AI Stack</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 05 Oct 2026 00:39:14 +0000</pubDate>
+<pubDate>Mon, 05 Oct 2026 06:45:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19667,7 +19666,7 @@
 <title>CrowdStrike Named a Leader in The Forrester Wave™: Proactive Security Platforms, Q3 2026</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 05 Oct 2026 00:39:14 +0000</pubDate>
+<pubDate>Mon, 05 Oct 2026 06:45:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19676,7 +19675,7 @@
 <title>CrowdStrike Named a Leader in The Forrester Wave™: External Threat Intelligence Service Providers, Q3 2026</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 05 Oct 2026 00:39:14 +0000</pubDate>
+<pubDate>Mon, 05 Oct 2026 06:45:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19685,7 +19684,7 @@
 <title>CrowdStrike SafeMind: When the Best Offense Builds the Best Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 05 Oct 2026 00:39:14 +0000</pubDate>
+<pubDate>Mon, 05 Oct 2026 06:45:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19694,7 +19693,7 @@
 <title>CrowdStrike Accelerates Real-Time Data Classification with On-Device AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 05 Oct 2026 00:39:14 +0000</pubDate>
+<pubDate>Mon, 05 Oct 2026 06:45:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19703,7 +19702,7 @@
 <title>PhantomRaven: An LLM-Generated Information Stealer Developed for Bug Bounty Hunting</title>
 <link>https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 05 Oct 2026 00:39:14 +0000</pubDate>
+<pubDate>Mon, 05 Oct 2026 06:45:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19712,7 +19711,7 @@
 <title>September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 05 Oct 2026 00:39:14 +0000</pubDate>
+<pubDate>Mon, 05 Oct 2026 06:45:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19721,7 +19720,7 @@
 <title>CrowdStrike Delivers the Next Evolution of the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 05 Oct 2026 00:39:14 +0000</pubDate>
+<pubDate>Mon, 05 Oct 2026 06:45:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
