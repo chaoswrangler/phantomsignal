@@ -6,9 +6,22 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 05 Oct 2026 22:27:42 +0000</lastBuildDate>
+<lastBuildDate>Tue, 06 Oct 2026 02:50:03 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Citrix discloses third actively exploited NetScaler zero-day in less than a week</title>
+<link>https://cyberscoop.com/citrix-netscaler-third-exploited-zero-day-vulnerability/</link>
+<description><![CDATA[The vendor was much quicker and consistent in its response to the latest defect, and researchers consider the impact relatively low compared to the previous pair of zero-days. The post Citrix discloses third actively exploited NetScaler zero-day in less than a week appeared first on CyberScoop .<br/><br/><em>Tags: Citrix · CVE-2026-88779 · CVE-2026-88771 · zero_day · ddos · active_exploitation</em>]]></description>
+<pubDate>Mon, 05 Oct 2026 23:07:17 +0000</pubDate>
+<guid isPermaLink="true">https://cyberscoop.com/citrix-netscaler-third-exploited-zero-day-vulnerability/</guid>
+<source url="https://cyberscoop.com/feed/">CyberScoop</source>
+<category>cyber_news_breach_reporting</category>
+<category>Citrix</category>
+<category>CVE-2026-88779</category>
+<category>CVE-2026-88771</category>
+<category>zero_day</category>
+</item>
 <item>
 <title>AWS Continuum sets a new standard in autonomous code security</title>
 <link>https://aws.amazon.com/blogs/security/aws-continuum-sets-a-new-standard-in-autonomous-code-security/</link>
@@ -608,15 +621,6 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
-<title>Danish university DTU breach exposes data of up to 200,000 people</title>
-<link>https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/</link>
-<description><![CDATA[The Technical University of Denmark (DTU) says information belonging to up to 200,000 users may have been exposed after hackers accessed its identity and access management system and downloaded a large amount of data. [...]]]></description>
-<pubDate>Sat, 03 Oct 2026 14:35:20 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Fortra Patches Critical Vulnerabilities in BoKS</title>
 <link>https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/</link>
 <description><![CDATA[The bugs could lead to authentication bypass, shell command execution, and memory corruption. The post Fortra Patches Critical Vulnerabilities in BoKS appeared first on SecurityWeek .<br/><br/><em>Tags: Microsoft SharePoint · Fortinet · Citrix · ShinyHunters · CVE-2026-79901 · CVE-2026-79898 · CVE-2026-12627 · zero_day</em>]]></description>
@@ -860,12 +864,15 @@
 <item>
 <title>Two Zero-Days Exploited in Attack on Dutch Institute for Vulnerability Disclosure</title>
 <link>https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/</link>
-<description><![CDATA[The Dutch Institute for Vulnerability Disclosure reveals agentic AI-powered attack using Zammad zero-days<br/><br/><em>Tags: vulnerability_disclosure</em>]]></description>
+<description><![CDATA[The Dutch Institute for Vulnerability Disclosure reveals agentic AI-powered attack using Zammad zero-days<br/><br/><em>Tags: CVE-2026-102489 · CVE-2026-102490 · phishing_social_eng · zero_day · vulnerability_disclosure</em>]]></description>
 <pubDate>Fri, 02 Oct 2026 08:25:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/zerodays-dutch-institute/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
-<category>vulnerability_disclosure</category>
+<category>CVE-2026-102489</category>
+<category>CVE-2026-102490</category>
+<category>phishing_social_eng</category>
+<category>zero_day</category>
 </item>
 <item>
 <title>Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools</title>
@@ -1968,15 +1975,50 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
+<title>ISC Stormcast For Tuesday, September 29th, 2026 https://isc.sans.edu/podcastdetail/10114, (Tue, Sep 29th)</title>
+<link>https://isc.sans.edu/diary/rss/33378</link>
+<description><![CDATA[(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.]]></description>
+<pubDate>Tue, 29 Sep 2026 02:00:02 +0000</pubDate>
+<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33378</guid>
+<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
+<category>government_authoritative</category>
+</item>
+<item>
 <title>Social Engineering in the Age of Synthetic Media</title>
 <link>https://www.recordedfuture.com/blog/ai-social-engineering</link>
-<description><![CDATA[How AI Changes Phishing, Impersonation, and Identity Verification<br/><br/><em>Tags: Palo Alto Networks · phishing_social_eng</em>]]></description>
+<description><![CDATA[How AI Changes Phishing, Impersonation, and Identity Verification<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
 <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.recordedfuture.com/blog/ai-social-engineering</guid>
 <source url="https://www.recordedfuture.com/feed">Recorded Future</source>
 <category>threat_research_primary</category>
-<category>Palo Alto Networks</category>
 <category>phishing_social_eng</category>
+</item>
+<item>
+<title>No MDM for Linux? A 68-line Elastic workflow keeps every endpoint&apos;s config current</title>
+<link>https://www.elastic.co/security-labs/blog/linux-endpoint-management-elastic-workflows</link>
+<description><![CDATA[Elastic InfoSec runs Linux endpoint management through Elastic Defend with a scheduled workflow that gets Cursor and Codex config onto new laptops without piling up duplicate actions on offline hosts, and it works for other config too.]]></description>
+<pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/blog/linux-endpoint-management-elastic-workflows</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
+</item>
+<item>
+<title>llm-anthropic 0.30</title>
+<link>https://simonwillison.net/2026/Sep/28/llm-anthropic/</link>
+<description><![CDATA[Release: llm-anthropic 0.30 In addition to Claude Sonnet 5.5, this release adds the ability to run llm anthropic refresh to refresh the list of Anthropic models directly from their API - which means I don&apos;t need to push a new release just to add support for a newly released model. I also added an llm anthropic count command which can use their free token counting API to return a count of tokens that will be used by any prompt, before you send that prompt. Tags: llm , anthropic]]></description>
+<pubDate>Mon, 28 Sep 2026 23:06:21 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Sep/28/llm-anthropic/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Between Two Nerds: The AI crime machine</title>
+<link>https://risky.biz/BTN184/</link>
+<description><![CDATA[In this edition of Between Two Nerds Tom Uren and The Grugq talk about the rise of fully automated LLM-driven hacking campaigns among criminals and even state hacking groups. For those with the right risk appetite, a move fast and break things hacking approach using AI can pay off. This episode is also available on YouTube.]]></description>
+<pubDate>Mon, 28 Sep 2026 22:27:23 +0000</pubDate>
+<guid isPermaLink="true">https://risky.biz/BTN184/</guid>
+<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
+<category>practitioner_analysis</category>
 </item>
 <item>
 <title>Claude Sonnet 5.5</title>
@@ -3424,15 +3466,6 @@
 <guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/deception-by-design-cisa-s-guide-to-tricking-cybercriminals</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>llm 0.36</title>
-<link>https://simonwillison.net/2026/Sep/22/llm/</link>
-<description><![CDATA[Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises llm.ConversationNotSupported when these models receive assistant or tool history, and llm chat rejects them before starting a session. See Models that do not support conversations . The first plugin to use this is llm-typesafe . #1692 Reasoning traces in the Markdown output of llm logs are now wrapped in &lt;details&gt;&lt;summary&gt; tags. #1701 Plus bug fixes from five new contributors . Tags: openai , llm]]></description>
-<pubDate>Tue, 22 Sep 2026 18:48:37 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Sep/22/llm/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>WordPress “Comment2Shell” XSS-to-RCE Chain Lets Unauthenticated Attackers Compromise Servers via Malicious Comments</title>
@@ -19647,7 +19680,7 @@
 <title>New in Falcon Cloud Security: Third-Party App Insights and AI-Enhanced Remediation</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-third-party-app-insights-ai-enhanced-remedation/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 05 Oct 2026 22:27:42 +0000</pubDate>
+<pubDate>Tue, 06 Oct 2026 02:50:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-third-party-app-insights-ai-enhanced-remedation/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19656,7 +19689,7 @@
 <title>Falcon Data Security for SaaS Secures Sensitive Data in Microsoft 365</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-data-security-for-saas-secures-sensitive-data/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 05 Oct 2026 22:27:42 +0000</pubDate>
+<pubDate>Tue, 06 Oct 2026 02:50:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-data-security-for-saas-secures-sensitive-data/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19665,7 +19698,7 @@
 <title>CrowdStrike Expands Federal SOC Modernization Through CISA-Funded SIEMaaS</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 05 Oct 2026 22:27:42 +0000</pubDate>
+<pubDate>Tue, 06 Oct 2026 02:50:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19674,7 +19707,7 @@
 <title>Copy, Paste, Compromised: How ClickFix Attacks Work and How CrowdStrike Stops Them</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-clickfix-attacks-work-and-how-to-stop-them/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 05 Oct 2026 22:27:42 +0000</pubDate>
+<pubDate>Tue, 06 Oct 2026 02:50:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-clickfix-attacks-work-and-how-to-stop-them/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19683,7 +19716,7 @@
 <title>A Win for Defenders: CrowdStrike and NVIDIA Extend Security Across the AI Stack</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 05 Oct 2026 22:27:42 +0000</pubDate>
+<pubDate>Tue, 06 Oct 2026 02:50:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19692,7 +19725,7 @@
 <title>CrowdStrike Named a Leader in The Forrester Wave™: Proactive Security Platforms, Q3 2026</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 05 Oct 2026 22:27:42 +0000</pubDate>
+<pubDate>Tue, 06 Oct 2026 02:50:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19701,7 +19734,7 @@
 <title>CrowdStrike Named a Leader in The Forrester Wave™: External Threat Intelligence Service Providers, Q3 2026</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 05 Oct 2026 22:27:42 +0000</pubDate>
+<pubDate>Tue, 06 Oct 2026 02:50:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19710,7 +19743,7 @@
 <title>CrowdStrike SafeMind: When the Best Offense Builds the Best Defense</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 05 Oct 2026 22:27:42 +0000</pubDate>
+<pubDate>Tue, 06 Oct 2026 02:50:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19719,7 +19752,7 @@
 <title>CrowdStrike Accelerates Real-Time Data Classification with On-Device AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 05 Oct 2026 22:27:42 +0000</pubDate>
+<pubDate>Tue, 06 Oct 2026 02:50:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19728,7 +19761,7 @@
 <title>PhantomRaven: An LLM-Generated Information Stealer Developed for Bug Bounty Hunting</title>
 <link>https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 05 Oct 2026 22:27:42 +0000</pubDate>
+<pubDate>Tue, 06 Oct 2026 02:50:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
