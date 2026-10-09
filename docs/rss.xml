@@ -6,9 +6,19 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 08 Oct 2026 21:56:24 +0000</lastBuildDate>
+<lastBuildDate>Fri, 09 Oct 2026 01:55:32 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>ttok 0.4</title>
+<link>https://simonwillison.net/2026/Oct/8/ttok/</link>
+<description><![CDATA[Release: ttok 0.4 ttok is my CLI tool for counting tokens, using OpenAI&apos;s open source tiktoken library. It hasn&apos;t been in updated in a couple of years, but I finally fixed a Click warning, updated CI, and added a --list-models command to list available models. It works with uvx , so you can count tokens in anything like this: cat file.txt | uvx ttok Tags: projects , ai , openai , generative-ai , llms , tokenization<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
+<pubDate>Thu, 08 Oct 2026 23:34:28 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Oct/8/ttok/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+<category>OpenAI/ChatGPT</category>
+</item>
 <item>
 <title>How We Found Thousands of Exposed NVIDIA GPUs and a Way to Disrupt Them (CVE-2026-47483)</title>
 <link>https://www.reddit.com/r/netsec/comments/1x13vqz/how_we_found_thousands_of_exposed_nvidia_gpus_and/</link>
@@ -570,13 +580,11 @@
 <item>
 <title>Spike in Attacks Targeting Digital Video Recorders in Ukraine</title>
 <link>https://www.greynoise.io/blog/hikvision-camera-exploitation-attempts-ukraine</link>
-<description><![CDATA[For months, GreyNoise recorded almost no Hikvision camera exploit attempts against Ukraine. On Sept 21 activity surged for nine days during Russian strikes, almost all from four IPs, then stopped. We can&apos;t say if the two are linked.<br/><br/><em>Tags: CVE-2021-36260 · zero_day</em>]]></description>
+<description><![CDATA[For months, GreyNoise recorded almost no Hikvision camera exploit attempts against Ukraine. On Sept 21 activity surged for nine days during Russian strikes, almost all from four IPs, then stopped. We can&apos;t say if the two are linked.]]></description>
 <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.greynoise.io/blog/hikvision-camera-exploitation-attempts-ukraine</guid>
 <source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
 <category>cloud_identity_infrastructure</category>
-<category>CVE-2021-36260</category>
-<category>zero_day</category>
 </item>
 <item>
 <title>Introducing AlertZero: Inbox zero for your alert queue</title>
@@ -998,15 +1006,15 @@
 <item>
 <title>CVE-2026-21589 | Atlassian Data Center Products Unauthenticated Arbitrary File Read Vulnerability</title>
 <link>https://horizon3.ai/attack-research/vulnerabilities/cve-2026-21589/</link>
-<description><![CDATA[CVE-2026-21589 is a critical vulnerability affecting multiple Atlassian Data Center products that allows unauthenticated attackers to read specific files within the web application root. NodeZero® Rapid Response safely validates exposure.<br/><br/><em>Tags: Citrix · CVE-2026-21589 · CVE-2026-76504 · CVE-2026-19490 · CVE-2026-86218 · active_exploitation</em>]]></description>
+<description><![CDATA[CVE-2026-21589 is a critical vulnerability affecting multiple Atlassian Data Center products that allows unauthenticated attackers to read specific files within the web application root. NodeZero® Rapid Response safely validates exposure.<br/><br/><em>Tags: Citrix · CVE-2026-21589 · CVE-2026-102489 · CVE-2026-76504 · CVE-2026-19490 · credential_theft · active_exploitation</em>]]></description>
 <pubDate>Tue, 06 Oct 2026 23:15:00 +0000</pubDate>
 <guid isPermaLink="true">https://horizon3.ai/attack-research/vulnerabilities/cve-2026-21589/</guid>
 <source url="https://horizon3.ai/feed/">Horizon3 Attack Research</source>
 <category>offensive_vulnerability_research</category>
 <category>Citrix</category>
 <category>CVE-2026-21589</category>
+<category>CVE-2026-102489</category>
 <category>CVE-2026-76504</category>
-<category>CVE-2026-19490</category>
 </item>
 <item>
 <title>Alert: FortiBleed remains active campaign, can lock out users or lead to ransomware attacks</title>
@@ -1930,6 +1938,15 @@
 <category>practitioner_analysis</category>
 <category>ransomware_extortion</category>
 <category>apt_espionage</category>
+</item>
+<item>
+<title>How AI Helped Chainalysis Investigators Trace the $387 Million North Korea Stole from Bitget</title>
+<link>https://www.chainalysis.com/blog/387m-bitget-theft-2026/</link>
+<description><![CDATA[Summary Since $387 million was stolen from Bitget on September 24, Chainalysis investigators have been working with the exchange and… The post How AI Helped Chainalysis Investigators Trace the $387 Million North Korea Stole from Bitget appeared first on Chainalysis .]]></description>
+<pubDate>Thu, 01 Oct 2026 22:36:41 +0000</pubDate>
+<guid isPermaLink="true">https://www.chainalysis.com/blog/387m-bitget-theft-2026/</guid>
+<source url="https://www.chainalysis.com/blog/feed/">Chainalysis</source>
+<category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
 <title>Alleged KillSec Ransomware Mastermind a 16-Year-Old</title>
@@ -4091,15 +4108,6 @@
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
 <category>OpenAI/ChatGPT</category>
-</item>
-<item>
-<title>Quoting @joedaroo</title>
-<link>https://simonwillison.net/2026/Sep/28/joedaroo/</link>
-<description><![CDATA[To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Security posture takes time to develop. It’s not just about hardening the systems at play; you have to ingrain it in the culture of the company. The literal people themselves in your organization have to change and evolve with it. These jumps in capabilities were so fast and so sudden that they created an extremely difficult problem. [...] So today my hope is that everyone around the world can look at their own organization and say: how can I deal with a surprise or a sudden jump in AI capability? Are my people, my systems, or my processes resilient to surprises? Do my teams know what to do when something goes wrong? Do I have the right incident response? The right comms and messaging? Do I have the right people ready to go when capabilities jump? — @joedaroo , Agent Security ]]></description>
-<pubDate>Mon, 28 Sep 2026 19:11:42 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Sep/28/joedaroo/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>How we found 24 Android vulnerabilities using our open source AI security agent</title>
@@ -6824,15 +6832,6 @@
 <description><![CDATA[Summary U.S. authorities have sanctioned Xinbi Guarantee, a major Chinese-language illicit marketplace that connects criminal networks with money laundering, scam… The post OFAC and DOJ Strike Xinbi, a Multibillion-Dollar Marketplace for Cybercriminals appeared first on Chainalysis .]]></description>
 <pubDate>Wed, 09 Sep 2026 20:40:14 +0000</pubDate>
 <guid isPermaLink="true">https://www.chainalysis.com/blog/ofac-sanctions-xinbi-cybercriminal-crypto-marketplace/</guid>
-<source url="https://www.chainalysis.com/blog/feed/">Chainalysis</source>
-<category>ransomware_ecrime_financial_crime</category>
-</item>
-<item>
-<title>How The $320M Exploit of Liquid Network Went Down</title>
-<link>https://www.chainalysis.com/blog/320m-exploit-liquid-network/</link>
-<description><![CDATA[Summary Purported white-hat hackers exploited the Liquid Network to withdraw $320 million in BTC from the network’s reserve. A vulnerability… The post How The $320M Exploit of Liquid Network Went Down appeared first on Chainalysis .]]></description>
-<pubDate>Wed, 09 Sep 2026 20:22:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.chainalysis.com/blog/320m-exploit-liquid-network/</guid>
 <source url="https://www.chainalysis.com/blog/feed/">Chainalysis</source>
 <category>ransomware_ecrime_financial_crime</category>
 </item>
@@ -19760,7 +19759,7 @@
 <title>Solving the Continuous Authorization Conundrum</title>
 <link>https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 08 Oct 2026 21:56:24 +0000</pubDate>
+<pubDate>Fri, 09 Oct 2026 01:55:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19769,7 +19768,7 @@
 <title>CrowdStrike and Anthropic Give Critical Infrastructure Defenders the AI Advantage</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 08 Oct 2026 21:56:24 +0000</pubDate>
+<pubDate>Fri, 09 Oct 2026 01:55:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19778,7 +19777,7 @@
 <title>Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance</title>
 <link>https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 08 Oct 2026 21:56:24 +0000</pubDate>
+<pubDate>Fri, 09 Oct 2026 01:55:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19787,7 +19786,7 @@
 <title>CrowdStrike Named a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises Vendor Assessment</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-modern-endpoint-security-for-enterprises/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 08 Oct 2026 21:56:24 +0000</pubDate>
+<pubDate>Fri, 09 Oct 2026 01:55:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-modern-endpoint-security-for-enterprises/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19796,7 +19795,7 @@
 <title>Request, Aggregate, Bypass: How Attackers Can Evade LLM Safety Classifiers</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-attackers-can-bypass-llm-safety-classifiers/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 08 Oct 2026 21:56:24 +0000</pubDate>
+<pubDate>Fri, 09 Oct 2026 01:55:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-attackers-can-bypass-llm-safety-classifiers/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19805,7 +19804,7 @@
 <title>Falcon Data Security for SaaS Secures Sensitive Data in Microsoft 365</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-data-security-for-saas-secures-sensitive-data/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 08 Oct 2026 21:56:24 +0000</pubDate>
+<pubDate>Fri, 09 Oct 2026 01:55:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-data-security-for-saas-secures-sensitive-data/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19814,7 +19813,7 @@
 <title>New in Falcon Cloud Security: Third-Party App Insights and AI-Enhanced Remediation</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-third-party-app-insights-ai-enhanced-remedation/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 08 Oct 2026 21:56:24 +0000</pubDate>
+<pubDate>Fri, 09 Oct 2026 01:55:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-third-party-app-insights-ai-enhanced-remedation/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19823,7 +19822,7 @@
 <title>CrowdStrike Expands Federal SOC Modernization Through CISA-Funded SIEMaaS</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 08 Oct 2026 21:56:24 +0000</pubDate>
+<pubDate>Fri, 09 Oct 2026 01:55:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19832,7 +19831,7 @@
 <title>Copy, Paste, Compromised: How ClickFix Attacks Work and How CrowdStrike Stops Them</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-clickfix-attacks-work-and-how-to-stop-them/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 08 Oct 2026 21:56:24 +0000</pubDate>
+<pubDate>Fri, 09 Oct 2026 01:55:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-clickfix-attacks-work-and-how-to-stop-them/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19841,7 +19840,7 @@
 <title>A Win for Defenders: CrowdStrike and NVIDIA Extend Security Across the AI Stack</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 08 Oct 2026 21:56:24 +0000</pubDate>
+<pubDate>Fri, 09 Oct 2026 01:55:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
