@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T13:30:02.825414+00:00",
+  "generated_at": "2026-10-10T18:24:11.706723+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2208,
@@ -32,13 +32,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
@@ -46,8 +39,8 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
@@ -60,11 +53,11 @@
       "item_count": 25,
       "in_window_count": 0
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Citizen Lab": {
@@ -81,19 +74,19 @@
       "item_count": 20,
       "in_window_count": 2
     },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -102,12 +95,12 @@
       "item_count": 15,
       "in_window_count": 5
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
+      "item_count": 15,
+      "in_window_count": 1
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
@@ -116,26 +109,26 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
+    },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 2
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 2
-    },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
@@ -144,18 +137,11 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 4
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
       "in_window_count": 0
     },
     "Assetnote": {
@@ -163,6 +149,20 @@
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 78,
+      "in_window_count": 0
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 2
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
       "in_window_count": 0
     },
     "watchTowr Labs": {
@@ -221,19 +221,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
-    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 30,
       "in_window_count": 2
+    },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 5
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -263,9 +263,16 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
@@ -277,25 +284,18 @@
       "item_count": 100,
       "in_window_count": 4
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "parse_error",
       "item_count": 0,
+      "in_window_count": 0
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 0
     },
     "Cloudflare Radar": {
@@ -312,19 +312,12 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -333,12 +326,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
@@ -347,6 +347,13 @@
       "item_count": 20,
       "in_window_count": 2
     },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
+    },
     "The Record": {
       "url": "https://therecord.media/feed",
       "cohort": "cyber_news_breach_reporting",
@@ -354,12 +361,12 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
+      "item_count": 20,
+      "in_window_count": 13
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -375,13 +382,6 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 25
-    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -389,19 +389,19 @@
       "item_count": 50,
       "in_window_count": 1
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 13
-    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 25
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -452,22 +452,8 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -480,33 +466,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 31
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
+      "item_count": 20,
+      "in_window_count": 2
     },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
@@ -515,12 +487,40 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 31
+    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 14
+      "in_window_count": 16
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -787,6 +787,49 @@
       ]
     },
     {
+      "label": "phishing social eng targeting Snowflake",
+      "anchor_signal": "Snowflake",
+      "theme_key": "snowflake",
+      "dominant_features": {
+        "threat_categories": [
+          "phishing_social_eng",
+          "data_breach",
+          "ransomware_extortion"
+        ],
+        "affected_products": [
+          "Snowflake"
+        ]
+      },
+      "cluster_count": 5,
+      "article_count": 12,
+      "cohesion": 0.325,
+      "shared_strong_signals": [
+        "Snowflake"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "cc01b95e10",
+        "5f49e9bee7",
+        "9b2d03167f",
+        "7ab7500e98",
+        "7dd217f11f"
+      ],
+      "links": [
+        "https://www.rapid7.com/blog/post/it-asos-incident-attackers-using-channels-customers-trust",
+        "https://www.infosecurity-magazine.com/news/asos-customers-message-suspected/",
+        "https://cyberscoop.com/edward-dubrovsky-cypfer-arrested-fbi-extortion-charges/",
+        "https://therecord.media/shinyhunters-arrest-fbi-data-breach-investigation",
+        "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+        "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/",
+        "https://www.darkreading.com/identity-access-management-security/fbi-shinyhunters-claims-hack",
+        "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
+        "https://www.infosecurity-magazine.com/news/asos-data-breach-stolen-employee/",
+        "https://www.infosecurity-magazine.com/news/pwn2own-hackers-32-zeroday/",
+        "https://www.infosecurity-magazine.com/news/google-suspends-opensource-bug/"
+      ]
+    },
+    {
       "label": "AWS active exploitation",
       "anchor_signal": "AWS",
       "theme_key": "aws",
@@ -867,8 +910,7 @@
         "threat_categories": [
           "ransomware_extortion",
           "zero_day",
-          "active_exploitation",
-          "data_breach"
+          "active_exploitation"
         ],
         "actor_attribution": [
           "ShinyHunters",
@@ -877,6 +919,7 @@
         "affected_industries": [
           "government",
           "healthcare",
+          "critical_infrastructure",
           "financial_services"
         ],
         "urgency_signals": [
@@ -886,8 +929,8 @@
         ]
       },
       "cluster_count": 4,
-      "article_count": 9,
-      "cohesion": 0.248,
+      "article_count": 10,
+      "cohesion": 0.232,
       "shared_strong_signals": [
         "ShinyHunters"
       ],
@@ -895,12 +938,13 @@
       "also_targets": [],
       "cluster_ids": [
         "e0b5b97ad2",
-        "467ad059da",
+        "5f49e9bee7",
         "c18e100563",
         "3a47cf5b6c"
       ],
       "links": [
         "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
+        "https://cyberscoop.com/edward-dubrovsky-cypfer-arrested-fbi-extortion-charges/",
         "https://therecord.media/shinyhunters-arrest-fbi-data-breach-investigation",
         "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
         "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/",
@@ -908,41 +952,6 @@
         "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
         "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
         "https://www.infosecurity-magazine.com/news/q3-new-record-ransomware/"
-      ]
-    },
-    {
-      "label": "phishing social eng targeting Snowflake",
-      "anchor_signal": "Snowflake",
-      "theme_key": "snowflake",
-      "dominant_features": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "data_breach"
-        ],
-        "affected_products": [
-          "Snowflake"
-        ]
-      },
-      "cluster_count": 4,
-      "article_count": 5,
-      "cohesion": 0.395,
-      "shared_strong_signals": [
-        "Snowflake"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "cc01b95e10",
-        "9b2d03167f",
-        "7ab7500e98",
-        "7dd217f11f"
-      ],
-      "links": [
-        "https://www.rapid7.com/blog/post/it-asos-incident-attackers-using-channels-customers-trust",
-        "https://www.infosecurity-magazine.com/news/asos-customers-message-suspected/",
-        "https://www.infosecurity-magazine.com/news/asos-data-breach-stolen-employee/",
-        "https://www.infosecurity-magazine.com/news/pwn2own-hackers-32-zeroday/",
-        "https://www.infosecurity-magazine.com/news/google-suspends-opensource-bug/"
       ]
     },
     {
@@ -1021,6 +1030,58 @@
       ]
     },
     {
+      "label": "Fortinet active exploitation",
+      "anchor_signal": "Fortinet",
+      "theme_key": "fortinet",
+      "dominant_features": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "active_exploitation",
+          "zero_day",
+          "ddos"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [
+          "Fortinet",
+          "SonicWall"
+        ],
+        "cve_ids": [
+          "CVE-2026-88779"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth",
+          "no_patch_yet",
+          "poc_available",
+          "zero_day"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 6,
+      "cohesion": 0.227,
+      "shared_strong_signals": [
+        "Fortinet"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "566a5f5f45",
+        "e0b5b97ad2",
+        "c6371def14"
+      ],
+      "links": [
+        "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
+        "https://www.huntress.com/blog/ahsaycbs-flaws-exploit",
+        "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
+        "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
+        "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
+        "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html"
+      ]
+    },
+    {
       "label": "Apple iOS/macOS vulnerability activity",
       "anchor_signal": "Apple iOS/macOS",
       "theme_key": "apple-ios-macos",
@@ -1042,60 +1103,16 @@
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "ed65b9e8ab",
         "05127762db",
+        "ed65b9e8ab",
         "65d4a0ce51",
         "f4ffbda806"
       ],
       "links": [
-        "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
         "https://blog.talosintelligence.com/microsoft-adobe-apple-and-foxit-vulnerabilities/",
+        "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
         "https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/",
         "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html"
-      ]
-    },
-    {
-      "label": "Fortinet active exploitation",
-      "anchor_signal": "Fortinet",
-      "theme_key": "fortinet",
-      "dominant_features": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "active_exploitation",
-          "zero_day"
-        ],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [
-          "Fortinet"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth",
-          "zero_day"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 6,
-      "cohesion": 0.205,
-      "shared_strong_signals": [
-        "Fortinet"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "566a5f5f45",
-        "e0b5b97ad2",
-        "8dc435eaf2"
-      ],
-      "links": [
-        "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
-        "https://www.huntress.com/blog/ahsaycbs-flaws-exploit",
-        "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
-        "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
-        "https://cyberscoop.com/fortibleed-fortinet-vpn-ransomware-fbi-warning/",
-        "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html"
       ]
     },
     {
@@ -1112,7 +1129,8 @@
           "financial_services"
         ],
         "affected_products": [
-          "SonicWall"
+          "SonicWall",
+          "Fortinet"
         ],
         "urgency_signals": [
           "actively_exploited",
@@ -1123,7 +1141,7 @@
       },
       "cluster_count": 3,
       "article_count": 6,
-      "cohesion": 0.2,
+      "cohesion": 0.222,
       "shared_strong_signals": [
         "SonicWall"
       ],
@@ -1144,9 +1162,9 @@
       ]
     },
     {
-      "label": "CVE-2026-105133 exploitation activity",
-      "anchor_signal": "CVE-2026-105133",
-      "theme_key": "cve-2026-105133",
+      "label": "CVE-2026-105134 exploitation activity",
+      "anchor_signal": "CVE-2026-105134",
+      "theme_key": "cve-2026-105134",
       "dominant_features": {
         "threat_categories": [
           "active_exploitation"
@@ -1168,7 +1186,7 @@
       "article_count": 4,
       "cohesion": 0.598,
       "shared_strong_signals": [
-        "CVE-2026-105133"
+        "CVE-2026-105134"
       ],
       "member_cves": [],
       "also_targets": [],
@@ -1192,8 +1210,8 @@
     },
     "velocity": [
       {
-        "cluster_id": "467ad059da",
-        "title": "FBI touts another ShinyHunters arrest in response to data breach",
+        "cluster_id": "5f49e9bee7",
+        "title": "Canadian cybersecurity executive arrested in federal extortion case",
         "sources_in_window": 3,
         "window_hours": 1.7,
         "cohort_count": 2
@@ -1384,7 +1402,7 @@
         "axis": "actor_attribution",
         "value": "Scattered Spider",
         "cluster_id": "65d4a0ce51",
-        "weeks_observed": 10
+        "weeks_observed": 11
       },
       {
         "axis": "cve_ids",
@@ -1459,6 +1477,118 @@
     ]
   },
   "items": [
+    {
+      "source": "BleepingComputer",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
+      "link": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+      "published": "2026-10-10T15:07:54+00:00",
+      "summary": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacking group. [...]",
+      "author": "Lawrence Abrams",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
+    {
+      "source": "BleepingComputer",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
+      "link": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+      "published": "2026-10-10T14:16:17+00:00",
+      "summary": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
+      "author": "Bill Toulas",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "Anthropic/Claude"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "Anthropic/Claude": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
+    {
+      "source": "CyberScoop",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Canadian cybersecurity executive arrested in federal extortion case",
+      "link": "https://cyberscoop.com/edward-dubrovsky-cypfer-arrested-fbi-extortion-charges/",
+      "published": "2026-10-10T13:35:50+00:00",
+      "summary": "Details of the case align with the investigation into ShinyHunters’ attack on FBI IT systems. The post Canadian cybersecurity executive arrested in federal extortion case appeared first on CyberScoop .",
+      "author": "Greg Otto",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [
+          "ShinyHunters"
+        ],
+        "affected_industries": [
+          "healthcare",
+          "government",
+          "critical_infrastructure",
+          "education"
+        ],
+        "affected_products": [
+          "Salesforce",
+          "Snowflake"
+        ],
+        "tools_used": [
+          "Anthropic/Claude"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "incident_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "Salesforce": "target",
+          "Snowflake": "target",
+          "Anthropic/Claude": "tool"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 12,
+      "full_body": "Advertisement Get our latest cybersecurity news first on Google. Click here! Close Federal authorities arrested a Canadian cybersecurity executive Thursday in Pennsylvania on charges of conspiracy of extortion, according to federal court records posted Friday. Edward Dubrovsky, 54, is a former chief operating officer and founder of CYPFER, a firm that helps organizations negotiate with ransomware operators. He is charged with conspiring to threaten the confidentiality of information in order to extort money, a violation of federal computer fraud law, and with conspiring to commit Hobbs Act extortion, which involves using threats to obstruct or affect interstate commerce to obtain money. Other details of the case remain sealed. While the FBI did not publicly announce Dubrovsky’s arrest, the case appears to align with actions taken in the wake of the ShinyHunters’ attack on the FBI’s IT systems, which exposed personal data about thousands of bureau employees. FBI Director Kash Patel said in a social media post that the bureau had arrested “another suspected co-conspirator” of the group, but did not name the suspect. The New York Times reported Friday that a Canadian man was arrested in Pennsylvania in connection with the attack. When asked for further comment, the FBI pointed CyberScoop to Patel’s social media post. Advertisement Dubrovsky’s LinkedIn page lists his role at CYPFER and an affiliation with CyberSteward, which LinkedIn describes as a Toronto-based firm that helps breach victims negotiate ransom payments. Last month, Dubrovsky released a book covering how to deal with ransomware negotiations. Neither Dubrovsky or CYPFER responded to requests for comment. The FBI breach has drawn widespread attention. The attack marks a sobering escalation by ShinyHunters, a notorious group that previously targeted major cloud platforms, healthcare organizations, universities , technology companies, retailers and education service providers. Previous victims of ShinyHunters this year include Instructure , Salesforce , Snowflake and McKesson . Brett Leatherman, the FBI’s assistant director for cyber, said a review found the breach resulted from a third-party platform, where a contractor had not installed a security patch issued for the system. Reuters reported that the contractor worked for Accenture. Since the breach was disclosed, several suspects have been taken into custody. In September, Dutch authorities arrested a 24-year-old suspected of affiliation with ShinyHunters. Additionally, a teenager, which Reuters identified as Saif Al-din Khader, had been detained and was cooperating with investigators. Advertisement Dubrovsky’s case docket states that the case has been moved to the Eastern District of Texas, where Dubrovsky will be detained until a detention hearing is scheduled. Share Facebook LinkedIn Twitter Copy Link Add to Preferred Sources Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops Authorities seized KillSec’s infrastructure and arrested three of the group’s alleged members Sept. 30, 2026. (Photo credit: Europol) Close up of a Dutch police uniform with official badge in The Netherlands. (Getty Images) Federal law enforcement agents from Homeland Security Investigations and FBI guard a high school football game at Cardozo Education Campus in Washington, D.C., September 12, 2025. A cybercriminal group known as ShinyHunters is claiming to have stolen data on every FBI agent. (Photo by Astrid Riecken For The Washington Post via Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity Which nation-sate should worry us most What AI alignment means for cybersecurity Jailbreaks, sandboxes, and the limits of AI safeguards Government Anthropic rolls out program for ‘long-term commitment’ to secure critical infrastructure, open source software Major rules for federal contractors handling sensitive data are nearing the finish line FBI, French authorities seize dee",
+      "fetch_status": "ok"
+    },
     {
       "source": "BleepingComputer",
       "cohort": "cyber_news_breach_reporting",
@@ -1597,13 +1727,13 @@
           "products": []
         }
       },
-      "score": 8
+      "score": 7
     },
     {
       "source": "Krebs on Security",
       "cohort": "practitioner_analysis",
       "category": "practitioner_analysis",
-      "title": "FBI Arrests Founder of Ransomware Negotiation Firm",
+      "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
       "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
       "published": "2026-10-10T00:17:42+00:00",
       "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSecurity.",
@@ -1815,7 +1945,7 @@
           "products": []
         }
       },
-      "score": 14
+      "score": 13
     },
     {
       "source": "The Hacker News",
@@ -1847,7 +1977,7 @@
           "products": []
         }
       },
-      "score": 7
+      "score": 6
     },
     {
       "source": "watchTowr Labs",
@@ -1892,7 +2022,7 @@
           "products": []
         }
       },
-      "score": 43,
+      "score": 42,
       "full_body": "This research is a glimpse into the capability powering the watchTowr Platform, a Preemptive Exposure Management solution. We enable organizations to autonomously validate and mitigate their exposure to emerging threats, ahead of in-the-wild exploitation. Request a demo Before we begin, yes - it's confusing. There are more vulnerabilities with watchTowr IDs in this blog post than there are CVE IDs (assigned by PaperCut), due to PaperCut bundling vulnerabilities and then patch bypasses for those same vulnerabilities into singular CVE IDs. Paper! It still exists. We have to admit it - so much is happening right now (F1, GTA6, breakfast) that we barely have time to lovingly tease our most favoritest vendors. On Thursday, 27 August 2026, PaperCut published an advisory claiming that a mysterious vulnerability was being exploited in-the-wild, leading to system compromise. The watchTowr Intel team has documented the in-the-wild exploitation that our global honeypot network, Attacker Eye, captured here . To add insult to injury, when PaperCut released their advisory, they did so without a patch. Unlike other vendors that struggle to communicate at all, PaperCut provided IOCs in the form of log snippets related to exploitation and temporary mitigations, enabling their customers to take action. That said, much of the information remained unclear. How many vulnerabilities were exploited in this chain? Did any of them require authentication? Were the attackers exploiting post-authentication vulnerabilities? Which components were vulnerable? As mere mortals, we knew absolutely nothing at this point. A familiar feeling. PaperCut is no stranger to the exploitation of vulnerabilities in the wild. They've had their fair share of ransomware gang attention and, of course, live to tell the tale with their CISA KEV trophy. What is PaperCut? For those unaware, PaperCut is print management software that helps organizations monitor, control, and secure printing across their networks. Its core features include print quotas, secure release printing (a job is released only after the user logs in at the printer), cost tracking, and detailed reporting. Together, these cut printing costs, reduce paper waste, and prevent unauthorized use. It is widely used by schools, universities, healthcare providers, government agencies, law firms, and businesses of all sizes. That mix makes it an attractive target for APTs and ransomware gangs, as proven by several vulnerabilities previously exploited in the wild (such as CVE-2023-27351 and CVE-2023-27350). TL;DR Timeline There was a lot happening between 27 August and 1 September, so let us give you the full timeline, including some spoilers. Author's note: even though CVEs were assigned after two rounds of patches, we use the CVE numbers from the beginning of this timeline. This is to avoid confusion between vulnerabilities. 27 August 2026 PaperCut publishes an advisory concerning a vulnerability being exploited in the wild targeting 26.0.3. Advisory comes with no patch - exploited vulnerabilities are still not patched. At this time, no CVEs were assigned, and only IOCs were published (no vulnerability details, no patch was available). With no details about the vulnerabilities or their count, we started working blindly from the IOCs to reproduce them. We had no patch available, thus we had to discover the 0-day vulnerabilities from scratch. Using the unpatched PaperCut version, we found the Post-Auth RCE vulnerability (later identified as CVE-2026-82078), which matched the ITW IOCs shared by PaperCut. However, we did not yet know how to exploit this vulnerability without authentication. PaperCut releases a patch (26.0.4 for PaperCut NG). At this point, we can finally perform patch diffing, which may help us find a way to exploit the Post-Auth RCE without authentication. We analyzed the code changes in 26.0.4, enabling us to confirm that we had correctly reproduced CVE-2026-82078 (Post-Auth RCE) and to identify and rep",
       "fetch_status": "ok"
     },
@@ -1924,7 +2054,7 @@
           "products": []
         }
       },
-      "score": 7
+      "score": 6
     },
     {
       "source": "BleepingComputer",
@@ -1973,7 +2103,7 @@
           "products": []
         }
       },
-      "score": 11,
+      "score": 10,
       "full_body": "Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto By Bill Toulas October 9, 2026 01:17 PM 0 Threat actors are exploiting one critical and one medium-severity vulnerability still unpatched in the AhsayCBS backup management platform to deploy webshells and cryptocurrency miners. AhsayCBS is typically used by managed service providers (MSPs) and system integrators. The malicious activity was observed on October 7, and targeted at least five organizations. The two security issues exploited in attacks are tracked as CVE-2026-105133 , an authentication bypass vulnerability that has a public exploit, and CVE-2026-105134, which can be leveraged for OS command injection. Both vulnerabilities are reported as fixed in AhsayCBS 10.3.2, but researchers at managed detection and response company (MDR) Huntress found that they also affect Ahsay 10.3.4, currently the latest version. \"After further investigation, Huntress has determined that Ahsay 10.3.4 is also affected by these vulnerabilities,\" Huntress says in an update today. In the observed attacks, the threat actor chained the two vulnerabilities, CVE-2026-105133 first to bypass authentication and then CVE-2026-105134 for code execution. After gaining access, Huntress observed the attacker perform reconnaissance, deploy Java Server Page (JSP) webshells, and download the XMRig miner disguised as edge.exe. The miner persists on the host via a service named ‘MicrosoftEdgeUpdateSvc,’ which runs msedge.exe, identified by Huntress as a modified copy of the legitimate Non-Sucking Service Manager (NSSM) utility. A PowerShell file (Taskgmr.ps1) that Huntress believes to be an AI-assisted script conceals mining activity by stopping the service when Task Manager opens and restarting it when Task Manager closes. The script also terminates Task Manager at 6 p.m. local time or if it remains open for more than an hour overnight. In one case, the attacker also deployed the vulnerable WinRing0x64.sys driver, likely in an attempt to unlock more hardware resources for the miner. BleepingComputer has contacted AhsayCBS to ask about its plans to fix the two flaws, but we have not heard back as of publication. Until a patch is available, Huntress recommends that system administrators restrict access to the AhsayCBS management interface to trusted IP addresses only, and investigate signs of compromise. If a compromise is confirmed, administrators should perform a full restore of the host from a safe backup, because the attacker may have installed additional backdoors for prolonged persistence. Huntress has also provided indicators of compromise (IoCs) for this activity, along with four Sigma rules to help defenders detect it. Build your security blueprint for AI-powered attacks Join Mikko Hyppönen and security leaders from the NFL, CHANEL, and Atlassian for a two-hour digital summit on what AI-speed attacks change, what defenders should stop doing, and how to validate, decide, fix, and re-validate at machine speed. Save your seat Related Articles: Hackers exploit macOS Screen Sharing flaw to deploy Monero miner Check Point warns of hackers exploiting Security Gateway VPN RCE flaw Hackers start exploiting critical WordPress flaw for code execution F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks Acronis warns of actively exploited flaw in its cPanel backup plugin",
       "fetch_status": "ok"
     },
@@ -2007,7 +2137,7 @@
           "products": []
         }
       },
-      "score": 7
+      "score": 6
     },
     {
       "source": "The Hacker News",
@@ -2037,7 +2167,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Dark Reading",
@@ -2065,7 +2195,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "The Record",
@@ -2100,7 +2230,7 @@
           "products": []
         }
       },
-      "score": 9,
+      "score": 8,
       "full_body": "An iRhythm Zio. Image via iRhythm Hundreds of thousands impacted by data breach at biosensor firm iRhythm Medical device maker iRhythm said the data of at least 360,000 people was breached in a June cyberattack. The company began filing breach notices in multiple states this week, telling regulators and victims that the incident occurred on June 8 and involved unauthorized access to third-party systems. iRhythm is best known for Zio Patch — a sensor that patients wear on their chest for long-term continuous cardiac monitoring and heart arrhythmia detection. The company said 298,647 people in Texas had information stolen alongside another 69,526 in South Carolina . iRhythm also filed breach notices in California . A company spokesperson declined to say the full number of victims, telling Recorded Future News that iRhythm “responded promptly after detecting the unauthorized access and, once the scope was verified, notified affected individuals and applicable regulators.” “The incident did not affect iRhythm clinical systems or medical devices and did not result in a loss of service or disruption to operations,” the spokesperson said. An investigation into the incident revealed that hackers had access to company systems between June 3 and June 8. The hackers gained access to unidentified third-party-hosted business applications through a social engineering attack. The information stolen includes names, addresses, phone numbers, iRhythm patient account numbers, iRhythm device serial numbers, patient insurance numbers, dates of service, and date of birth. The cybercriminals accessed and downloaded the information, according to a statement from iRhythm. The company said it has “no evidence that any personal information has been or will be used to commit identity theft.” No hacking group ever publicly took credit for the attack. The cyberattack did not impact the company’s products, devices, manufacturing process or distribution operations — and iRhythm said its finances were not disturbed. The company reported $224.2 million in Q2 revenue. In a June 8-K filing with the Securities and Exchange Commission (SEC), iRhythm said it “received communications from a threat actor claiming to have obtained sensitive information, including proprietary data, patient protected health information and other personal information.” “The communications from the threat actor demanded payment in exchange for not publicly disclosing this information,” the company said. “Since receipt of the communications, the Company has confirmed that certain data was exfiltrated from those applications.” Medical device companies have been battered by cybercriminals over the last two years, with dozens experiencing cybersecurity incidents that impacted crucial business and manufacturing systems. Cyberattacks on Medtronic , Boston Scientific , Stryker , UFP , Masimo , Surmodics , Artivion and Zoll have leaked the sensitive medical data of millions and caused supply chain issues. Industry News Cybercrime No previous article No new articles Jonathan Greig is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.",
       "fetch_status": "ok"
     },
@@ -2121,10 +2251,7 @@
         "actor_attribution": [
           "ShinyHunters"
         ],
-        "affected_industries": [
-          "healthcare",
-          "government"
-        ],
+        "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
@@ -2137,9 +2264,7 @@
           "products": []
         }
       },
-      "score": 11,
-      "full_body": "Image: fbi.gov FBI touts another ShinyHunters arrest in response to data breach The FBI arrested another person allegedly connected to the ShinyHunters cybercriminal organization this week as the bureau seeks to detain those responsible for a recent breach of its jobs site. On Friday morning, FBI Director Kash Patel released a statement saying agents “arrested another suspected co-conspirator of the ShinyHunters group” in an operation conducted earlier this week. “This is the latest arrest this FBI has made in a matter of days involving this network, as we work non-stop to dismantle the group, pursue new leads and evidence, and act quickly,” Patel said. “We will continue to work closely with our partners to disrupt what’s left of the ShinyHunters group and their associates, no matter where they operate.” The FBI did not respond to requests for details about the arrest. The New York Times reported that the arrest was conducted in Pennsylvania and involved a Canadian national. At least two other suspected ShinyHunters members have been detained over the last two weeks after the group took over the FBIjobs.gov domain, defaced it and stole troves of sensitive data on nearly every employee at the FBI. Multiple FBI sources told Reuters on Saturday that Saif ‌al-Din Khader was arrested in Jordan on September 28 after previously being identified by journalists and researchers as a key member of the group. Khader allegedly agreed to cooperate with the FBI and other law enforcement agencies to help locate other members of ShinyHunters. That arrest came after the FBI and the Dutch National Police announced the arrest of Pepijn van der Stap — another alleged member of ShinyHunters. The group initially boasted about the attack on the FBI systems, sharing samples of the stolen data with news outlets to verify that it had obtained incredibly sensitive information on agents — including their medical records, home addresses, phone numbers, and areas of work within the FBI. The bureau sent an internal memo last week to employees warning them of the breach and the potential danger to them and their families. The breach also exposed thousands of records about local police officers who work with the FBI on task forces. The FBI reportedly traced the breach back to an unidentified contractor at Accenture who did not patch a vulnerable system. The contractor was fired this week, according to Reuters . The hackers previously claimed they breached the FBI through a vulnerability in Oracle software that was spotlighted by cybersecurity experts in June . ShinyHunters told several news outlets in messages that it would not release the stolen information and did not want to escalate the feud with the FBI — which they said started because of an advisory about their actions that they disagreed with. The FBI took down much of the group’s infrastructure over the last two weeks and efforts to restore its platforms have been stymied by law enforcement. The group moved its operations back to Telegram this week but posted a message in one group on Friday morning saying it no longer planned to remain on the platform. “We will not remain active on Telegram for much longer, as several of our members have reportedly been arrested by the FBI,” the group said . Cybercrime Government News No previous article No new articles Jonathan Greig is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.",
-      "fetch_status": "ok"
+      "score": 10
     },
     {
       "source": "BleepingComputer",
@@ -2169,7 +2294,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "The Record",
@@ -2199,7 +2324,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Graham Cluley",
@@ -2237,7 +2362,7 @@
           "products": []
         }
       },
-      "score": 9,
+      "score": 8,
       "full_body": "Industry News 2 min read $10 million bounty offered for Chinese Hafnium hacker accused of Microsoft Exchange Server mega-attack Graham CLULEY October 09, 2026 The US State Department is offering up to US $10 million for information about the whereabouts of Zhang Yu, a 44-year-old Chinese national who is accused of being a key figure in China's state-sponsored hacking group, Hafnium. Hafnium (also known as Silk Typhoon) is widely believed to be the group that exploited zero day vulnerabilities to breach Microsoft Exchange Server systems in early 2021, According to the bounty announcement on the United States Rewards for Justice website, Zhang is a director at Shanghai Firetech Information Science and Technology and works under the direction of the Shanghai State Security Bureau (part of China's Ministry of State Security.) Zhang is charged alongside 34-year-old Xu Zewei with malicious cyber activity against US computer systems between February 2020 and June 2021. According to the Rewards for Justice bounty, from early 2020 Zhang and Xu allegedly stole data - including research on COVID-19 vaccines - from the email accounts of immunologists, virologists, and US universities, at the behest of China. The following the year the pair allegedly exploited vulnerabilities in Microsoft Exchange Server to steal further information. Once the flaws became public knowledge, other cybercriminal groups and state-sponsored hackers are thought to have also targeted hundreds of thousands of unpatched servers. Victims included the European Banking Authority . US authorities claim that China uses private companies like Shanghai Firetech and Xu's Shanghai Powerock Network to spy and steal sensitive information, whilst at the same time obscuring the government's involvement in hacking. Even if somebody provides information about Zhang's location it does not mean that he will be brought to court. Zhang is believed to be in China, which will not extradite its citizens - especially not one who is alleged to have been spying on its behalf on adversaries. Furthermore, if findings by security firm SentinelOne are to be believed, Zhang's Shanghai Firetech filed multiple software patents about extract data from computers. That's not to say, of course, that the alleged hackers can breathe easy. Xu, for instance, was arrested at Milan airport in July 2025 and extradited to the United States in April this year. Xu has pleaded not guilty, saying that he was in Italy on holiday with his wife and that the police have detained the wrong man. China's Foreign Ministry opposed Xu's extradition, accusing the United States of fabricating charges against him. So, if nothing else, a bounty of up to US $10 million for information about Zhang makes his future foreign travel an increasingly risky proposition, and gives anyone who has knowledge about his future holiday plans a good incentive to talk. tags Industry News Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also like Bookmarks",
       "fetch_status": "ok"
     },
@@ -2969,13 +3094,13 @@
         "affected_industries": [
           "financial_services",
           "government",
-          "education",
-          "legal_professional"
+          "manufacturing_industrial",
+          "education"
         ],
         "affected_products": [
           "SonicWall",
-          "OpenAI/ChatGPT",
-          "Android"
+          "Android",
+          "Fortinet"
         ],
         "tools_used": [],
         "cve_ids": [
@@ -2995,9 +3120,9 @@
         "confidence_tier": "tier_4_news",
         "role_map": {
           "SonicWall": "target",
-          "OpenAI/ChatGPT": "target",
           "Android": "target",
           "Fortinet": "target",
+          "OpenAI/ChatGPT": "target",
           "Anthropic/Claude": "target"
         },
         "weak_tags": {
@@ -3005,7 +3130,7 @@
         }
       },
       "score": 13,
-      "full_body": "Citrix on Thursday warned users of a critical-severity NetScaler vulnerability that requires immediate patching. Tracked as CVE-2026-107406 (CVSS score of 9.5), the flaw is described as a memory overflow that could lead to remote code execution (RCE) or denial-of-service (DoS). According to Citrix, the security defect impacts NetScaler ADC and NetScaler Gateway appliances configured as a SAML SP or SAML IdP, under specific configuration conditions. The bug also affects Secure Private Access Hybrid deployments that use NetScaler. Customers need to update these NetScaler instances as well. Patches were included in NetScaler ADC and Gateway versions 14.1-73.46, 13.1-64.29, 14.1-73.46 FIPS, and 13.1.37.283 (of 13.1-FIPS and 13.1-NDcPP). “As of the publication of the bulletin, Citrix is not aware of any unmitigated exploits of this vulnerability,” Citrix notes , urging customers to upgrade their instances as soon as possible. Advertisement. Scroll to continue reading. Citrix’s fresh warning comes days after the company sounded the alarm on CVE-2026-88779, a zero-day in NetScaler leading to DoS. A week before, two other NetScaler zero-days were patched: CVE-2026-88771 (leading to RCE), and CVE-2026-88772 (leading to RCE or DoS). They have been exploited in attacks against government, financial services, education, legal, and professional services organizations. Related: Critical NetScaler Vulnerability Exploited in Attacks Related: Cisco Patches a Dozen Critical Vulnerabilities Related: Attackers Target Critical Atlassian Vulnerability Within Hours of PoC Publication Related: SonicWall and Splunk Patch Critical Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Patches a Dozen Critical Vulnerabilities SonicWall and Splunk Patch Critical Vulnerabilities Rein Security Raises $25 Million to Guard AI Agents at Runtime Fake Decryption Tools Masked $11M Markup in Ransomware Recovery Scheme FortiBleed Attackers Locking Victims Out of Fortinet Devices Qilin Ransomware Suspect Arrested in Japan, Extradited to Germany Chrome 155 Update Patches 247 Vulnerabilities ASOS Confirms Cyberattack, Data Breach Latest News OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years Google Domains Impacted by Recent ccTLD Hijacks Unpatched AhsayCBS Vulnerabilities Exploited in the Wild Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries US Disrupts Chinese State-Sponsored Hacking Tools Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security Google Pixel 10 Exploits Earned Hackers $560,000 at Pwn2Own Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: AI Is Accelerating Risk. Can Your IT Operations Keep Up? October 14, 2026 Learn about Frontier Pace Governance: a practical approach to helping IT operations move at AI speed without sacrificing security, accountability, or operational discipline. Register Virtual Event: Zero Trust & Identity Strategies Summit 2026 October 14, 2026 Join as we decipher the world of zero trust and share war stories on securing an organization by eliminating implicit trust and continuously validating every stage of a digital interaction. Register People on the Move Rapid7 has named Rik Ferguson as VP of Security Intelligence. Cytactic has appointed Tim Brown as CSO. Scott Simkin has joined Vega as CMO. More People On The Move Expert Insights AI Has Changed Attack Speed, Not Security Fundamentals As AI accelerates vulnerability discovery and exploitation, so-called virtual patching still comes down to defense-in-d",
+      "full_body": "Citrix on Thursday warned users of a critical-severity NetScaler vulnerability that requires immediate patching. Tracked as CVE-2026-107406 (CVSS score of 9.5), the flaw is described as a memory overflow that could lead to remote code execution (RCE) or denial-of-service (DoS). According to Citrix, the security defect impacts NetScaler ADC and NetScaler Gateway appliances configured as a SAML SP or SAML IdP, under specific configuration conditions. The bug also affects Secure Private Access Hybrid deployments that use NetScaler. Customers need to update these NetScaler instances as well. Patches were included in NetScaler ADC and Gateway versions 14.1-73.46, 13.1-64.29, 14.1-73.46 FIPS, and 13.1.37.283 (of 13.1-FIPS and 13.1-NDcPP). “As of the publication of the bulletin, Citrix is not aware of any unmitigated exploits of this vulnerability,” Citrix notes , urging customers to upgrade their instances as soon as possible. Advertisement. Scroll to continue reading. Citrix’s fresh warning comes days after the company sounded the alarm on CVE-2026-88779, a zero-day in NetScaler leading to DoS. A week before, two other NetScaler zero-days were patched: CVE-2026-88771 (leading to RCE), and CVE-2026-88772 (leading to RCE or DoS). They have been exploited in attacks against government, financial services, education, legal, and professional services organizations. Related: Critical NetScaler Vulnerability Exploited in Attacks Related: Cisco Patches a Dozen Critical Vulnerabilities Related: Attackers Target Critical Atlassian Vulnerability Within Hours of PoC Publication Related: SonicWall and Splunk Patch Critical Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Patches a Dozen Critical Vulnerabilities SonicWall and Splunk Patch Critical Vulnerabilities Rein Security Raises $25 Million to Guard AI Agents at Runtime Fake Decryption Tools Masked $11M Markup in Ransomware Recovery Scheme FortiBleed Attackers Locking Victims Out of Fortinet Devices Qilin Ransomware Suspect Arrested in Japan, Extradited to Germany Chrome 155 Update Patches 247 Vulnerabilities ASOS Confirms Cyberattack, Data Breach Latest News Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years Google Domains Impacted by Recent ccTLD Hijacks Unpatched AhsayCBS Vulnerabilities Exploited in the Wild Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries US Disrupts Chinese State-Sponsored Hacking Tools Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: AI Is Accelerating Risk. Can Your IT Operations Keep Up? October 14, 2026 Learn about Frontier Pace Governance: a practical approach to helping IT operations move at AI speed without sacrificing security, accountability, or operational discipline. Register Virtual Event: Zero Trust & Identity Strategies Summit 2026 October 14, 2026 Join as we decipher the world of zero trust and share war stories on securing an organization by eliminating implicit trust and continuously validating every stage of a digital interaction. Register People on the Move Rapid7 has named Rik Ferguson as VP of Security Intelligence. Cytactic has appointed Tim Brown as CSO. Scott Simkin has joined Vega as CMO. More People On The Move Expert Insights AI Has Changed Attack Speed, Not Security Fundamentals As AI accelerates vulnerability discovery and exploitation, so-called virtual patching still comes do",
       "fetch_status": "ok"
     },
     {
@@ -3510,34 +3635,6 @@
       "score": 4
     },
     {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Low-cost Android phones ship with residential proxy malware",
-      "link": "https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/",
-      "published": "2026-10-08T19:20:33+00:00",
-      "summary": "A malware campaign dubbed 'Midnight Mimosa' has been discovered on low-cost Android smartphones that ship with malicious software embedded in their firmware, allowing attackers to silently install apps, perform ad fraud, and turn devices into residential proxies. [...]",
-      "author": "Lawrence Abrams",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
       "source": "Dark Reading",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -3725,40 +3822,6 @@
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
         "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "FakeGit malware campaign returns with 17,610 malicious GitHub repos",
-      "link": "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/",
-      "published": "2026-10-08T17:10:55+00:00",
-      "summary": "More than 17,000 fake repositories on GitHub are distributing the SmartLoader malware after the FakeGit campaign reactivated earlier this month to push the StealC infostealer. [...]",
-      "author": "Bill Toulas",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "GitHub"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "GitHub": "target"
-        },
         "weak_tags": {
           "products": []
         }
@@ -5709,51 +5772,6 @@
       },
       "score": 23,
       "full_body": "CVE-2026-21589 Atlassian Data Center Products Unauthenticated Arbitrary File Read Vulnerability CVE-2026-21589 allows unauthenticated remote attackers to read specific files within the web application root directory of affected Atlassian products. Attackers must know the exact filename and path, and cannot list directory contents. Sensitive information may be exposed depending on the files present. Atlassian classifies the vulnerability as critical. Atlassian states that affected Cloud products have been patched and that its investigation found no evidence of exploitation. No Cloud customer action is required. Technical Details The vulnerability permits file access over the network without authentication. Atlassian confirms these requirements and limitations: Authentication: No credentials are required. Target knowledge: Exploitation requires the target file’s exact name and path. File-access scope: The disclosed vulnerability provides access to specific files within the web application root directory. Directory enumeration: Attackers cannot use this vulnerability to enumerate or list directory contents. Impact: Sensitive files within the accessible directory may be disclosed, depending on the installation’s configuration. NodeZero® Proactive Security Platform Rapid Response A NodeZero Rapid Response test has been developed to safely validate whether this vulnerability can be exploited in your environment. The test executes real attack techniques without causing damage, giving teams immediate clarity on exposure. Run the Rapid Response test: Launch from the NodeZero platform to determine whether exploitation is possible. Patch immediately: Upgrade to a fixed version or apply vendor-recommended mitigations. Re-run the test: Confirm the vulnerability is no longer exploitable after remediation. Stop Guessing, Start Proving Schedule a demo Affected versions & patch Affected Atlassian identifies versions preceding the applicable fixed releases as affected. Installations outside the support window may also be affected and should be upgraded to a supported fixed release. Fixed Product Fixed versions Bitbucket Data Center 9.4.26, 10.2.8, 10.5.1 Confluence Data Center 9.2.26, 10.2.19 Jira Service Management Data Center 5.12.40, 10.3.26, 11.3.12 Jira Software Data Center 9.12.40, 10.3.26, 11.3.12 Bamboo Data Center 10.2.24, 12.1.12 Crowd Data Center 6.3.7, 7.0.3, 7.1.7, 7.2.4 Crucible 4.9.15 Fisheye 4.9.15 Upgrade to an applicable fixed release listed above or a later supported release containing the fix. Mitigations If immediate patching is not possible, restrict public internet access until patching or temporary mitigation is complete. Authentication alone does not protect an exposed instance. Atlassian provides these temporary mitigation options: All affected products: Apply the vendor’s WAF or reverse-proxy filtering rule. Confluence, Jira Service Management, Jira Software, Bamboo, and Crowd: Configure Tomcat’s RewriteValve with the vendor-provided rules. Bitbucket: Apply the vendor’s urlrewrite.xml rule to all applicable cluster nodes, mirrors, and mirror farm nodes. Follow the advisory’s complete configuration, testing, and restart instructions. Timeline October 5, 2026: Atlassian published its security advisory, identifying affected products, fixed versions, and temporary mitigations. October 6, 2026: Horizon3 released the NodeZero Rapid Response test for CVE-2026-21589. References Atlassian Security Advisory: CVE-2026-21589 CVE.org Record: CVE-2026-21589 NIST NVD Record: CVE-2026-21589 Read about other CVEs CVE-2026-102489 CVE-2026-102489 is a critical, actively exploited Zammad vulnerability that can expose user session cookies through WebSocket errors, enabling session hijacking… Read more CVE-2026-76504 CVE-2026-76504 is a critical, actively exploited Cisco Catalyst SD-WAN Manager vulnerability that allows unauthenticated API access as the admin user.… Read more CVE-2026-19490 CVE-2026-19490 is a critical Citrix NetScaler ADC",
-      "fetch_status": "ok"
-    },
-    {
-      "source": "CyberScoop",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Alert: FortiBleed remains active campaign, can lock out users or lead to ransomware attacks",
-      "link": "https://cyberscoop.com/fortibleed-fortinet-vpn-ransomware-fbi-warning/",
-      "published": "2026-10-06T21:03:58+00:00",
-      "summary": "The FBI and Secret Service warned Fortinet users that FortiBleed, uncovered this summer, is a continuing threat. The post Alert: FortiBleed remains active campaign, can lock out users or lead to ransomware attacks appeared first on CyberScoop .",
-      "author": "Tim Starks",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "phishing_social_eng",
-          "zero_day",
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government",
-          "legal_professional"
-        ],
-        "affected_products": [
-          "Fortinet"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "zero_day"
-        ],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "Fortinet": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 8,
-      "full_body": "Advertisement Get our latest cybersecurity news first on Google. Click here! Close FortiBleed, a credential compromise campaign targeting Fortinet firewalls and VPN gateways, is an ongoing threat that can lock users out of their Fortinet accounts and also lead to ransomware attacks, the FBI and Secret Service said in an alert published Tuesday. “Affected organizations may find themselves locked out of their systems if threat actors disable accounts or change passwords, requiring remediation steps beyond standard patching and password resets,” the alert states . “In addition, the FortiBleed attack chain has been observed as an initial entry point for ransomware affiliates.” When it was first uncovered earlier this year, SOCRadar verified more than 86,644 compromised devices across 194 countries. Ensar Seker, chief information security officer of the company, told CyberScoop that “in our later investigation, we identified more than 400,000 or 450,000 firewalls targeted by the wider operation.” There are different aspects of the operation that make comparisons imprecise over time, but overall the numbers “show the campaign is broader and more serious than we understood at the beginning,” Seker said. Advertisement The attackers can disable accounts or change passwords to lock users out with the access they gain, making standard password resets and patching insufficient, the government alert reads. The alert also warns that initial access brokers are making use of the FortiBleed attack to provide access to ransomware affiliates, including INC/Lynx and Payload. The government warning provides additional confirmation about the most worrisome elements of FortiBleed, Seker said. “What stands out for me is that FortiBleed is still an active threat, and attackers are using stolen credentials to access the exposed Fortinet devices, create new administration accounts, and in some cases, lock the real owners out,” he said. “The FBI and the Secret Service also confirm that the success can lead to ransomware attacks as well.” The FBI and Secret Service recommend that Fortinet customers restrict external management or remove internet administration entirely, reset credentials, set up multifactor authentication, review firewall and VPN users for unauthorized changes, review logs for potential lateral movement, and enable secure credential storage. Advertisement The agencies are seeking any information and indicators of compromise that organizations can share, including IP addresses and any usernames the attackers use. Share Facebook LinkedIn Twitter Copy Link Add to Preferred Sources Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops Sen. Ron Wyden, D-Ore., leaves a Senate Democratic meeting at the U.S. Capitol Building on Oct. 3, 2025. (Photo by Kevin Dietsch/Getty Images) (Getty Images) SonicWall’s headquarters in Milpitas, California. (Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity Which nation-sate should worry us most What AI alignment means for cybersecurity Jailbreaks, sandboxes, and the limits of AI safeguards Government Major rules for federal contractors handling sensitive data are nearing the finish line FBI, French authorities seize deepfake CSAM-for-sale websites Former NSA chief Nakasone says agency overhaul is ‘probably needed’ Here’s how experts think CISA should tell agencies to protect OT Technology The legal questions raised by agentic AI hacks As AI world debates security, NVIDIA releases open source tools for agents New bill would create federal investigative body for AI-driven hacks CISA outlines improvement plan for CVE program Threats PoeLLM malware has assembled a sweeping botnet, taking technical cues from a poem Citrix discloses third actively exploited NetScaler zero-day in less than a week Authorities seize KillSec extortion group infrastructure, arrest 3 alleged members AI policy circles targeted in China-linked phishing operation Policy ",
       "fetch_status": "ok"
     },
     {
@@ -11674,33 +11692,6 @@
       }
     },
     {
-      "source": "Reddit r/netsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "How to Spot a Compromised MikroTik Router",
-      "link": "https://www.reddit.com/r/netsec/comments/1wv1dei/how_to_spot_a_compromised_mikrotik_router/",
-      "published": "2026-10-01T14:46:54+00:00",
-      "summary": "A blue-team writeup on detecting a compromised MikroTik from its own config. Seven techniques, each with the collection command, the artifact it leaves behind, and a triage step. Feedback welcome. submitted by /u/ifritnoises [link] [comments]",
-      "author": "/u/ifritnoises",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "tl;dr sec",
       "cohort": "practitioner_analysis",
       "category": "practitioner_analysis",
@@ -12171,33 +12162,6 @@
               0.3
             ]
           ]
-        }
-      }
-    },
-    {
-      "source": "Reddit r/netsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "From: anyone@icloud.com - Spoofing Arbitrary Apple iCloud Identities",
-      "link": "https://www.reddit.com/r/netsec/comments/1wuvcwf/from_anyoneicloudcom_spoofing_arbitrary_apple/",
-      "published": "2026-10-01T09:57:02+00:00",
-      "summary": "submitted by /u/The_Login [link] [comments]",
-      "author": "/u/The_Login",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
         }
       }
     },

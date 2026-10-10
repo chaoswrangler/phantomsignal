@@ -6,9 +6,42 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 10 Oct 2026 13:30:03 +0000</lastBuildDate>
+<lastBuildDate>Sat, 10 Oct 2026 18:24:11 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Cyber exec arrested in case allegedly tied to ShinyHunters hackers</title>
+<link>https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/</link>
+<description><![CDATA[Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI&apos;s ongoing crackdown on the ShinyHunters hacking group. [...]<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<pubDate>Sat, 10 Oct 2026 15:07:54 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
+</item>
+<item>
+<title>ARTEX AI, Claude agents used in cyberattacks on South Korean banks</title>
+<link>https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/</link>
+<description><![CDATA[The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
+<pubDate>Sat, 10 Oct 2026 14:16:17 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>Anthropic/Claude</category>
+</item>
+<item>
+<title>Canadian cybersecurity executive arrested in federal extortion case</title>
+<link>https://cyberscoop.com/edward-dubrovsky-cypfer-arrested-fbi-extortion-charges/</link>
+<description><![CDATA[Details of the case align with the investigation into ShinyHunters’ attack on FBI IT systems. The post Canadian cybersecurity executive arrested in federal extortion case appeared first on CyberScoop .<br/><br/><em>Tags: Salesforce · Snowflake · ShinyHunters · ransomware_extortion</em>]]></description>
+<pubDate>Sat, 10 Oct 2026 13:35:50 +0000</pubDate>
+<guid isPermaLink="true">https://cyberscoop.com/edward-dubrovsky-cypfer-arrested-fbi-extortion-charges/</guid>
+<source url="https://cyberscoop.com/feed/">CyberScoop</source>
+<category>cyber_news_breach_reporting</category>
+<category>Salesforce</category>
+<category>Snowflake</category>
+<category>ShinyHunters</category>
+<category>ransomware_extortion</category>
+</item>
 <item>
 <title>Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management</title>
 <link>https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/</link>
@@ -52,7 +85,7 @@
 <category>Anthropic/Claude</category>
 </item>
 <item>
-<title>FBI Arrests Founder of Ransomware Negotiation Firm</title>
+<title>FBI Arrests Executive at Ransomware Negotiation Firm</title>
 <link>https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/</link>
 <description><![CDATA[Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSecurity.<br/><br/><em>Tags: ShinyHunters · ransomware_extortion</em>]]></description>
 <pubDate>Sat, 10 Oct 2026 00:17:42 +0000</pubDate>
@@ -470,14 +503,14 @@
 <item>
 <title>Citrix Urges Immediate Patching of Critical NetScaler Vulnerability</title>
 <link>https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/</link>
-<description><![CDATA[The security defect, tracked as CVE-2026-107406, could lead to remote code execution or denial-of-service. The post Citrix Urges Immediate Patching of Critical NetScaler Vulnerability appeared first on SecurityWeek .<br/><br/><em>Tags: SonicWall · OpenAI/ChatGPT · Android · CVE-2026-107406 · CVE-2026-88779 · CVE-2026-88771 · CVE-2026-88772 · ransomware_extortion</em>]]></description>
+<description><![CDATA[The security defect, tracked as CVE-2026-107406, could lead to remote code execution or denial-of-service. The post Citrix Urges Immediate Patching of Critical NetScaler Vulnerability appeared first on SecurityWeek .<br/><br/><em>Tags: SonicWall · Android · Fortinet · CVE-2026-107406 · CVE-2026-88779 · CVE-2026-88771 · CVE-2026-88772 · ransomware_extortion</em>]]></description>
 <pubDate>Fri, 09 Oct 2026 06:53:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
 <category>SonicWall</category>
-<category>OpenAI/ChatGPT</category>
 <category>Android</category>
+<category>Fortinet</category>
 <category>CVE-2026-107406</category>
 </item>
 <item>
@@ -636,15 +669,6 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
-<title>Low-cost Android phones ship with residential proxy malware</title>
-<link>https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/</link>
-<description><![CDATA[A malware campaign dubbed &apos;Midnight Mimosa&apos; has been discovered on low-cost Android smartphones that ship with malicious software embedded in their firmware, allowing attackers to silently install apps, perform ad fraud, and turn devices into residential proxies. [...]]]></description>
-<pubDate>Thu, 08 Oct 2026 19:20:33 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Venezuelan Cartel&apos;s Malware Honcho Nabbed for ATM Jackpotting</title>
 <link>https://www.darkreading.com/cyberattacks-data-breaches/venezuelan-cartel-malware-honcho-nabbed-atm-jackpotting</link>
 <description><![CDATA[The first cybercriminal to ever make the FBI&apos;s &quot;10 Most Wanted Fugitives&quot; list allegedly infused Tren de Aragua&apos;s violent criminal operations with cash.]]></description>
@@ -704,17 +728,6 @@
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
-</item>
-<item>
-<title>FakeGit malware campaign returns with 17,610 malicious GitHub repos</title>
-<link>https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/</link>
-<description><![CDATA[More than 17,000 fake repositories on GitHub are distributing the SmartLoader malware after the FakeGit campaign reactivated earlier this month to push the StealC infostealer. [...]<br/><br/><em>Tags: GitHub · credential_theft</em>]]></description>
-<pubDate>Thu, 08 Oct 2026 17:10:55 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>GitHub</category>
-<category>credential_theft</category>
 </item>
 <item>
 <title>Reconstructing AI Agent Activity: Two New Scripts for Forensic Review, (Thu, Oct 8th)</title>
@@ -1314,19 +1327,6 @@
 <category>CVE-2026-21589</category>
 <category>CVE-2026-102489</category>
 <category>CVE-2026-76504</category>
-</item>
-<item>
-<title>Alert: FortiBleed remains active campaign, can lock out users or lead to ransomware attacks</title>
-<link>https://cyberscoop.com/fortibleed-fortinet-vpn-ransomware-fbi-warning/</link>
-<description><![CDATA[The FBI and Secret Service warned Fortinet users that FortiBleed, uncovered this summer, is a continuing threat. The post Alert: FortiBleed remains active campaign, can lock out users or lead to ransomware attacks appeared first on CyberScoop .<br/><br/><em>Tags: Fortinet · ransomware_extortion · phishing_social_eng · zero_day · active_exploitation</em>]]></description>
-<pubDate>Tue, 06 Oct 2026 21:03:58 +0000</pubDate>
-<guid isPermaLink="true">https://cyberscoop.com/fortibleed-fortinet-vpn-ransomware-fbi-warning/</guid>
-<source url="https://cyberscoop.com/feed/">CyberScoop</source>
-<category>cyber_news_breach_reporting</category>
-<category>Fortinet</category>
-<category>ransomware_extortion</category>
-<category>phishing_social_eng</category>
-<category>zero_day</category>
 </item>
 <item>
 <title>EmbeddingGemma 2</title>
@@ -3229,15 +3229,6 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>How to Spot a Compromised MikroTik Router</title>
-<link>https://www.reddit.com/r/netsec/comments/1wv1dei/how_to_spot_a_compromised_mikrotik_router/</link>
-<description><![CDATA[A blue-team writeup on detecting a compromised MikroTik from its own config. Seven techniques, each with the collection command, the artifact it leaves behind, and a triage step. Feedback welcome. submitted by /u/ifritnoises [link] [comments]]]></description>
-<pubDate>Thu, 01 Oct 2026 14:46:54 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wv1dei/how_to_spot_a_compromised_mikrotik_router/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>[tl;dr sec] #348 - Google&apos;s PageBreak Scanner, Perplexity&apos;s Agent Security Tool, Defending Agentically</title>
 <link>https://tldrsec.com/p/tldr-sec-348</link>
 <description><![CDATA[Google&apos;s AI-powered web app scanner with deterministic validation, OSS tool to detect, prevent, and investigate risky AI agent behavior, NCSC: &quot;One does not simply defend agentically&quot;]]></description>
@@ -3386,15 +3377,6 @@
 <guid isPermaLink="true">https://blog.talosintelligence.com/the-fine-art-of-frustrating-the-adversary/</guid>
 <source url="https://feeds.feedburner.com/feedburner/Talos">Cisco Talos</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>From: anyone@icloud.com - Spoofing Arbitrary Apple iCloud Identities</title>
-<link>https://www.reddit.com/r/netsec/comments/1wuvcwf/from_anyoneicloudcom_spoofing_arbitrary_apple/</link>
-<description><![CDATA[submitted by /u/The_Login [link] [comments]]]></description>
-<pubDate>Thu, 01 Oct 2026 09:57:02 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wuvcwf/from_anyoneicloudcom_spoofing_arbitrary_apple/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>AI Threats Top Cybersecurity Preparedness Gap, PwC Finds</title>
@@ -19841,7 +19823,7 @@
 <title>Solving the Continuous Authorization Conundrum</title>
 <link>https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 10 Oct 2026 13:30:03 +0000</pubDate>
+<pubDate>Sat, 10 Oct 2026 18:24:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19850,7 +19832,7 @@
 <title>CrowdStrike and Anthropic Give Critical Infrastructure Defenders the AI Advantage</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 10 Oct 2026 13:30:03 +0000</pubDate>
+<pubDate>Sat, 10 Oct 2026 18:24:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19859,7 +19841,7 @@
 <title>Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance</title>
 <link>https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 10 Oct 2026 13:30:03 +0000</pubDate>
+<pubDate>Sat, 10 Oct 2026 18:24:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19868,7 +19850,7 @@
 <title>CrowdStrike Named a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises Vendor Assessment</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-modern-endpoint-security-for-enterprises/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 10 Oct 2026 13:30:03 +0000</pubDate>
+<pubDate>Sat, 10 Oct 2026 18:24:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-modern-endpoint-security-for-enterprises/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19877,7 +19859,7 @@
 <title>Request, Aggregate, Bypass: How Attackers Can Evade LLM Safety Classifiers</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-attackers-can-bypass-llm-safety-classifiers/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 10 Oct 2026 13:30:03 +0000</pubDate>
+<pubDate>Sat, 10 Oct 2026 18:24:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-attackers-can-bypass-llm-safety-classifiers/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19886,7 +19868,7 @@
 <title>Falcon Data Security for SaaS Secures Sensitive Data in Microsoft 365</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-data-security-for-saas-secures-sensitive-data/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 10 Oct 2026 13:30:03 +0000</pubDate>
+<pubDate>Sat, 10 Oct 2026 18:24:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-data-security-for-saas-secures-sensitive-data/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19895,7 +19877,7 @@
 <title>New in Falcon Cloud Security: Third-Party App Insights and AI-Enhanced Remediation</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-third-party-app-insights-ai-enhanced-remedation/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 10 Oct 2026 13:30:03 +0000</pubDate>
+<pubDate>Sat, 10 Oct 2026 18:24:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-third-party-app-insights-ai-enhanced-remedation/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19904,7 +19886,7 @@
 <title>CrowdStrike Expands Federal SOC Modernization Through CISA-Funded SIEMaaS</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 10 Oct 2026 13:30:03 +0000</pubDate>
+<pubDate>Sat, 10 Oct 2026 18:24:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19913,7 +19895,7 @@
 <title>Copy, Paste, Compromised: How ClickFix Attacks Work and How CrowdStrike Stops Them</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-clickfix-attacks-work-and-how-to-stop-them/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 10 Oct 2026 13:30:03 +0000</pubDate>
+<pubDate>Sat, 10 Oct 2026 18:24:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-clickfix-attacks-work-and-how-to-stop-them/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19922,7 +19904,7 @@
 <title>A Win for Defenders: CrowdStrike and NVIDIA Extend Security Across the AI Stack</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 10 Oct 2026 13:30:03 +0000</pubDate>
+<pubDate>Sat, 10 Oct 2026 18:24:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
