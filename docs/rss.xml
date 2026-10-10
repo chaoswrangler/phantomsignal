@@ -6,9 +6,41 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 10 Oct 2026 06:53:49 +0000</lastBuildDate>
+<lastBuildDate>Sat, 10 Oct 2026 13:30:03 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management</title>
+<link>https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/</link>
+<description><![CDATA[Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP introduces AITEM, an AI-powered approach that connects exposure discovery with investigation, risk prioritization, and response. [...]]]></description>
+<pubDate>Sat, 10 Oct 2026 12:30:39 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison</title>
+<link>https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/</link>
+<description><![CDATA[The former core infrastructure engineer deleted admin accounts, reset hundreds of passwords, and demanded 20 bitcoin to spare the company’s servers. The post Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison appeared first on SecurityWeek .<br/><br/><em>Tags: Apple iOS/macOS · Scattered Spider · ransomware_extortion · phishing_social_eng · web_shell_backdoor</em>]]></description>
+<pubDate>Sat, 10 Oct 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/</guid>
+<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
+<category>cyber_news_breach_reporting</category>
+<category>Apple iOS/macOS</category>
+<category>Scattered Spider</category>
+<category>ransomware_extortion</category>
+<category>phishing_social_eng</category>
+</item>
+<item>
+<title>Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws</title>
+<link>https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html</link>
+<description><![CDATA[Anthropic on Friday said it&apos;s cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites. The AI company said it identified four broad categories of unintended model actions during evaluations and internal use of Claude - Claude Mythos<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
+<pubDate>Sat, 10 Oct 2026 09:18:45 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>Anthropic/Claude</category>
+</item>
 <item>
 <title>Quoting The New York Times</title>
 <link>https://simonwillison.net/2026/Oct/10/the-new-york-times/</link>
@@ -369,13 +401,12 @@
 <item>
 <title>FBI disrupts Flax Typhoon hacking tools used in global cyberattacks</title>
 <link>https://www.helpnetsecurity.com/2026/10/09/fbi-flax-typhoon-microscan-fishhub-domains/</link>
-<description><![CDATA[The FBI seized seven domains used to operate Microscan and FishHub, two hacking tools linked to Chinese state-sponsored hackers known as Flax Typhoon that were used to target critical infrastructure and other organizations in the US and abroad. Seizure notice (Source: US Department of Justice) According to the US Department of Justice, the hackers worked for Integrity Technology Group (Integrity Tech), a China-based company that holds contracts with the Chinese government. “The PRC relies on … More → The post FBI disrupts Flax Typhoon hacking tools used in global cyberattacks appeared first on Help Net Security .<br/><br/><em>Tags: Flax Typhoon · phishing_social_eng · apt_espionage</em>]]></description>
+<description><![CDATA[The FBI seized seven domains used to operate Microscan and FishHub, two hacking tools linked to Chinese state-sponsored hackers known as Flax Typhoon that were used to target critical infrastructure and other organizations in the US and abroad. Seizure notice (Source: US Department of Justice) According to the US Department of Justice, the hackers worked for Integrity Technology Group (Integrity Tech), a China-based company that holds contracts with the Chinese government. “The PRC relies on … More → The post FBI disrupts Flax Typhoon hacking tools used in global cyberattacks appeared first on Help Net Security .<br/><br/><em>Tags: Flax Typhoon · apt_espionage</em>]]></description>
 <pubDate>Fri, 09 Oct 2026 09:44:44 +0000</pubDate>
 <guid isPermaLink="true">https://www.helpnetsecurity.com/2026/10/09/fbi-flax-typhoon-microscan-fishhub-domains/</guid>
 <source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
 <category>cyber_news_breach_reporting</category>
 <category>Flax Typhoon</category>
-<category>phishing_social_eng</category>
 <category>apt_espionage</category>
 </item>
 <item>
@@ -400,15 +431,11 @@
 <item>
 <title>Citrix warns admins to patch new NetScaler RCE flaw immediately</title>
 <link>https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/</link>
-<description><![CDATA[Citrix has warned IT administrators to patch systems immediately against a new critical vulnerability affecting NetScaler ADC networking appliances and NetScaler Gateway secure remote access solutions. [...]<br/><br/><em>Tags: Citrix · CVE-2026-107406 · CVE-2026-3055 · CVE-2026-4368 · CVE-2026-88771 · CVE-2026-88772 · ransomware_extortion · zero_day</em>]]></description>
+<description><![CDATA[Citrix has warned IT administrators to patch systems immediately against a new critical vulnerability affecting NetScaler ADC networking appliances and NetScaler Gateway secure remote access solutions. [...]]]></description>
 <pubDate>Fri, 09 Oct 2026 08:27:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
-<category>Citrix</category>
-<category>CVE-2026-107406</category>
-<category>CVE-2026-3055</category>
-<category>CVE-2026-4368</category>
 </item>
 <item>
 <title>Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own</title>
@@ -537,12 +564,13 @@
 <item>
 <title>FBI disrupts Chinese hacking tools used to breach critical infrastructure</title>
 <link>https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/</link>
-<description><![CDATA[The FBI has seized seven domains used by Chinese state-sponsored hackers known as Flax Typhoon to operate two hacking tools, MicroScan and FishHub, used in attacks that breached critical infrastructure and other organizations worldwide. [...]<br/><br/><em>Tags: Flax Typhoon · apt_espionage</em>]]></description>
+<description><![CDATA[The FBI has seized seven domains used by Chinese state-sponsored hackers known as Flax Typhoon to operate two hacking tools, MicroScan and FishHub, used in attacks that breached critical infrastructure and other organizations worldwide. [...]<br/><br/><em>Tags: Flax Typhoon · phishing_social_eng · apt_espionage</em>]]></description>
 <pubDate>Thu, 08 Oct 2026 21:42:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
 <category>Flax Typhoon</category>
+<category>phishing_social_eng</category>
 <category>apt_espionage</category>
 </item>
 <item>
@@ -732,15 +760,6 @@
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>credential_theft</category>
-</item>
-<item>
-<title>Cisco warns of critical flaws allowing Nexus switch takeover</title>
-<link>https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/</link>
-<description><![CDATA[Cisco released security advisories for five critical vulnerabilities in its NX-OS data center network operating system that could be exploited to run arbitrary code with root privileges on Nexus switches. [...]]]></description>
-<pubDate>Thu, 08 Oct 2026 15:26:33 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Attackers Hijack Three ccTLDs to Obtain Google Certificates</title>
@@ -1824,19 +1843,6 @@
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/frontline-education-breach-k12/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE</title>
-<link>https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html</link>
-<description><![CDATA[A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck. The vulnerability in question is CVE-2026-61500 (CVSS score: 9.3), a case of session forgery stemming from the use of a weak pseudo-random number generator (PRNG) that can lead to a predictable key, which an attacker can then use to gain unauthorized access and<br/><br/><em>Tags: OpenAI/ChatGPT · Android · Citrix · ShinyHunters · CVE-2026-61500 · CVE-2024-23692 · CVE-2026-88772 · active_exploitation</em>]]></description>
-<pubDate>Mon, 05 Oct 2026 08:09:23 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>OpenAI/ChatGPT</category>
-<category>Android</category>
-<category>Citrix</category>
-<category>ShinyHunters</category>
 </item>
 <item>
 <title>TTY Logs and the Data it Captures, (Sun, Oct 4th)</title>
@@ -3205,16 +3211,6 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
-<title>Server Mismatch: WordPress plugin vulnerabilities when relying on .htaccess files</title>
-<link>https://www.reddit.com/r/netsec/comments/1wv3l51/server_mismatch_wordpress_plugin_vulnerabilities/</link>
-<description><![CDATA[submitted by /u/ultrastrik3 [link] [comments]<br/><br/><em>Tags: WordPress</em>]]></description>
-<pubDate>Thu, 01 Oct 2026 16:11:19 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wv3l51/server_mismatch_wordpress_plugin_vulnerabilities/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>WordPress</category>
-</item>
-<item>
 <title>Enabling Cloud Storage end-to-end checksums for improved data integrity and durability</title>
 <link>https://cloud.google.com/blog/products/storage-data-transfer/enabling-end-to-end-checksums-in-cloud-storage/</link>
 <description><![CDATA[At Google Cloud, we know that you count on us to maintain the durability and integrity of your data at all times, both at rest and in transit. And now we’re making it easier for developers to take advantage of native data integrity features in Cloud Storage, by enabling end-to-end checksumming by default in all the Cloud Storage SDKs. Like in any disk-based storage system, bits can flip anywhere in their journey, from the application all the way down to the disk. Cloud Storage has always let clients provide a checksum of the object data being uploaded, and receive a checksum of the data being downloaded. Also since its inception, Cloud Storage stores a checksum for every object in its metadata, regardless of how the object was uploaded into Cloud Storage. But until recently, ensuring end-to-end data integrity required extra work on the part of developers to calculate and provide checksums to Cloud Storage. Cloud Storage always calculates the crc32 (32-bit cyclic redundancy check) of da]]></description>
@@ -3418,15 +3414,6 @@
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
 <category>apt_espionage</category>
-</item>
-<item>
-<title>New Local Privilege Escalation on Acer laptops</title>
-<link>https://www.reddit.com/r/netsec/comments/1wut76l/new_local_privilege_escalation_on_acer_laptops/</link>
-<description><![CDATA[submitted by /u/Intrinsec_ [link] [comments]]]></description>
-<pubDate>Thu, 01 Oct 2026 07:34:59 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1wut76l/new_local_privilege_escalation_on_acer_laptops/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Quoting Matthew Green</title>
@@ -19854,7 +19841,7 @@
 <title>Solving the Continuous Authorization Conundrum</title>
 <link>https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 10 Oct 2026 06:53:49 +0000</pubDate>
+<pubDate>Sat, 10 Oct 2026 13:30:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19863,7 +19850,7 @@
 <title>CrowdStrike and Anthropic Give Critical Infrastructure Defenders the AI Advantage</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 10 Oct 2026 06:53:49 +0000</pubDate>
+<pubDate>Sat, 10 Oct 2026 13:30:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19872,7 +19859,7 @@
 <title>Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance</title>
 <link>https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 10 Oct 2026 06:53:49 +0000</pubDate>
+<pubDate>Sat, 10 Oct 2026 13:30:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19881,7 +19868,7 @@
 <title>CrowdStrike Named a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises Vendor Assessment</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-modern-endpoint-security-for-enterprises/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 10 Oct 2026 06:53:49 +0000</pubDate>
+<pubDate>Sat, 10 Oct 2026 13:30:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-modern-endpoint-security-for-enterprises/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19890,7 +19877,7 @@
 <title>Request, Aggregate, Bypass: How Attackers Can Evade LLM Safety Classifiers</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-attackers-can-bypass-llm-safety-classifiers/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 10 Oct 2026 06:53:49 +0000</pubDate>
+<pubDate>Sat, 10 Oct 2026 13:30:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-attackers-can-bypass-llm-safety-classifiers/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19899,7 +19886,7 @@
 <title>Falcon Data Security for SaaS Secures Sensitive Data in Microsoft 365</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-data-security-for-saas-secures-sensitive-data/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 10 Oct 2026 06:53:49 +0000</pubDate>
+<pubDate>Sat, 10 Oct 2026 13:30:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-data-security-for-saas-secures-sensitive-data/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19908,7 +19895,7 @@
 <title>New in Falcon Cloud Security: Third-Party App Insights and AI-Enhanced Remediation</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-third-party-app-insights-ai-enhanced-remedation/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 10 Oct 2026 06:53:49 +0000</pubDate>
+<pubDate>Sat, 10 Oct 2026 13:30:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-third-party-app-insights-ai-enhanced-remedation/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19917,7 +19904,7 @@
 <title>CrowdStrike Expands Federal SOC Modernization Through CISA-Funded SIEMaaS</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 10 Oct 2026 06:53:49 +0000</pubDate>
+<pubDate>Sat, 10 Oct 2026 13:30:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19926,7 +19913,7 @@
 <title>Copy, Paste, Compromised: How ClickFix Attacks Work and How CrowdStrike Stops Them</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-clickfix-attacks-work-and-how-to-stop-them/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 10 Oct 2026 06:53:49 +0000</pubDate>
+<pubDate>Sat, 10 Oct 2026 13:30:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-clickfix-attacks-work-and-how-to-stop-them/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19935,7 +19922,7 @@
 <title>A Win for Defenders: CrowdStrike and NVIDIA Extend Security Across the AI Stack</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 10 Oct 2026 06:53:49 +0000</pubDate>
+<pubDate>Sat, 10 Oct 2026 13:30:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
