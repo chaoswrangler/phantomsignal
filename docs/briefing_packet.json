@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-11T01:45:58.456779+00:00",
+  "generated_at": "2026-10-11T08:36:46.975555+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 76,
   "total_items_in_window": 311,
-  "total_clusters_raw": 136,
+  "total_clusters_raw": 137,
   "total_clusters_in_packet": 57,
-  "dropped_low_score": 79,
+  "dropped_low_score": 80,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -74,13 +74,6 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
@@ -88,15 +81,8 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -116,13 +102,6 @@
       "item_count": 25,
       "in_window_count": 0
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
@@ -130,19 +109,26 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 3
+      "in_window_count": 0
     },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -151,12 +137,33 @@
       "item_count": 15,
       "in_window_count": 1
     },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 2
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
+    },
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -165,13 +172,6 @@
       "item_count": 15,
       "in_window_count": 5
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
-    },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -179,12 +179,12 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 2
+      "item_count": 100,
+      "in_window_count": 3
     },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
@@ -193,16 +193,9 @@
       "item_count": 40,
       "in_window_count": 2
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
@@ -214,11 +207,18 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
       "in_window_count": 0
     },
     "Exploit-DB": {
@@ -228,13 +228,6 @@
       "item_count": 50,
       "in_window_count": 0
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
@@ -242,19 +235,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
@@ -277,13 +270,6 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
@@ -291,12 +277,12 @@
       "item_count": 20,
       "in_window_count": 5
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -305,19 +291,19 @@
       "item_count": 10,
       "in_window_count": 3
     },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 2
+    },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 6
-    },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
@@ -326,6 +312,13 @@
       "item_count": 100,
       "in_window_count": 5
     },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
       "cohort": "detection_response_operations",
@@ -333,16 +326,16 @@
       "item_count": 100,
       "in_window_count": 4
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
@@ -361,19 +354,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 3
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -382,19 +375,12 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 20,
+      "in_window_count": 13
     },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
@@ -403,19 +389,26 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "The Record": {
       "url": "https://therecord.media/feed",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 5,
       "in_window_count": 5
-    },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
     },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
@@ -424,12 +417,19 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 13
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -452,26 +452,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 1
-    },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 30,
       "in_window_count": 25
-    },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -480,19 +466,26 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 1
+    },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 21
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -515,6 +508,13 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -529,13 +529,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -543,15 +536,8 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 31
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -564,12 +550,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
+      "item_count": 100,
+      "in_window_count": 31
     },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
@@ -577,6 +570,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -3276,11 +3276,11 @@
           "education",
           "financial_services",
           "government",
-          "legal_professional"
+          "manufacturing_industrial"
         ],
         "affected_products": [
           "Android",
-          "OpenAI/ChatGPT",
+          "Fortinet",
           "SonicWall"
         ],
         "tools_used": [],
@@ -3312,7 +3312,7 @@
         "link": "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
         "published": "2026-10-09T06:53:53+00:00",
         "summary": "The security defect, tracked as CVE-2026-107406, could lead to remote code execution or denial-of-service. The post Citrix Urges Immediate Patching of Critical NetScaler Vulnerability appeared first on SecurityWeek .",
-        "full_body": "Citrix on Thursday warned users of a critical-severity NetScaler vulnerability that requires immediate patching. Tracked as CVE-2026-107406 (CVSS score of 9.5), the flaw is described as a memory overflow that could lead to remote code execution (RCE) or denial-of-service (DoS). According to Citrix, the security defect impacts NetScaler ADC and NetScaler Gateway appliances configured as a SAML SP or SAML IdP, under specific configuration conditions. The bug also affects Secure Private Access Hybrid deployments that use NetScaler. Customers need to update these NetScaler instances as well. Patches were included in NetScaler ADC and Gateway versions 14.1-73.46, 13.1-64.29, 14.1-73.46 FIPS, and 13.1.37.283 (of 13.1-FIPS and 13.1-NDcPP). “As of the publication of the bulletin, Citrix is not aware of any unmitigated exploits of this vulnerability,” Citrix notes , urging customers to upgrade their instances as soon as possible. Advertisement. Scroll to continue reading. Citrix’s fresh warning comes days after the company sounded the alarm on CVE-2026-88779, a zero-day in NetScaler leading to DoS. A week before, two other NetScaler zero-days were patched: CVE-2026-88771 (leading to RCE), and CVE-2026-88772 (leading to RCE or DoS). They have been exploited in attacks against government, financial services, education, legal, and professional services organizations. Related: Critical NetScaler Vulnerability Exploited in Attacks Related: Cisco Patches a Dozen Critical Vulnerabilities Related: Attackers Target Critical Atlassian Vulnerability Within Hours of PoC Publication Related: SonicWall and Splunk Patch Critical Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Patches a Dozen Critical Vulnerabilities SonicWall and Splunk Patch Critical Vulnerabilities Rein Security Raises $25 Million to Guard AI Agents at Runtime Fake Decryption Tools Masked $11M Markup in Ransomware Recovery Scheme FortiBleed Attackers Locking Victims Out of Fortinet Devices Qilin Ransomware Suspect Arrested in Japan, Extradited to Germany Chrome 155 Update Patches 247 Vulnerabilities ASOS Confirms Cyberattack, Data Breach Latest News OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years Google Domains Impacted by Recent ccTLD Hijacks Unpatched AhsayCBS Vulnerabilities Exploited in the Wild Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries US Disrupts Chinese State-Sponsored Hacking Tools Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security Google Pixel 10 Exploits Earned Hackers $560,000 at Pwn2Own Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: AI Is Accelerating Risk. Can Your IT Operations Keep Up? October 14, 2026 Learn about Frontier Pace Governance: a practical approach to helping IT operations move at AI speed without sacrificing security, accountability, or operational discipline. Register Virtual Event: Zero Trust & Identity Strategies Summit 2026 October 14, 2026 Join as we decipher the world of zero trust and share war stories on securing an organization by eliminating implicit trust and continuously validating every stage of a digital interaction. Register People on the Move Rapid7 has named Rik Ferguson as VP of Security Intelligence. Cytactic has appointed Tim Brown as CSO. Scott Simkin has joined Vega as CMO. More People On The Move Expert Insights AI Has Changed Attack Speed, Not Security Fundamentals As AI accelerates vulnerability discovery and exploitation, so-called virtual patching still comes down to defense-in-d",
+        "full_body": "Citrix on Thursday warned users of a critical-severity NetScaler vulnerability that requires immediate patching. Tracked as CVE-2026-107406 (CVSS score of 9.5), the flaw is described as a memory overflow that could lead to remote code execution (RCE) or denial-of-service (DoS). According to Citrix, the security defect impacts NetScaler ADC and NetScaler Gateway appliances configured as a SAML SP or SAML IdP, under specific configuration conditions. The bug also affects Secure Private Access Hybrid deployments that use NetScaler. Customers need to update these NetScaler instances as well. Patches were included in NetScaler ADC and Gateway versions 14.1-73.46, 13.1-64.29, 14.1-73.46 FIPS, and 13.1.37.283 (of 13.1-FIPS and 13.1-NDcPP). “As of the publication of the bulletin, Citrix is not aware of any unmitigated exploits of this vulnerability,” Citrix notes , urging customers to upgrade their instances as soon as possible. Advertisement. Scroll to continue reading. Citrix’s fresh warning comes days after the company sounded the alarm on CVE-2026-88779, a zero-day in NetScaler leading to DoS. A week before, two other NetScaler zero-days were patched: CVE-2026-88771 (leading to RCE), and CVE-2026-88772 (leading to RCE or DoS). They have been exploited in attacks against government, financial services, education, legal, and professional services organizations. Related: Critical NetScaler Vulnerability Exploited in Attacks Related: Cisco Patches a Dozen Critical Vulnerabilities Related: Attackers Target Critical Atlassian Vulnerability Within Hours of PoC Publication Related: SonicWall and Splunk Patch Critical Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Patches a Dozen Critical Vulnerabilities SonicWall and Splunk Patch Critical Vulnerabilities Rein Security Raises $25 Million to Guard AI Agents at Runtime Fake Decryption Tools Masked $11M Markup in Ransomware Recovery Scheme FortiBleed Attackers Locking Victims Out of Fortinet Devices Qilin Ransomware Suspect Arrested in Japan, Extradited to Germany Chrome 155 Update Patches 247 Vulnerabilities ASOS Confirms Cyberattack, Data Breach Latest News Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years Google Domains Impacted by Recent ccTLD Hijacks Unpatched AhsayCBS Vulnerabilities Exploited in the Wild Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries US Disrupts Chinese State-Sponsored Hacking Tools Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: AI Is Accelerating Risk. Can Your IT Operations Keep Up? October 14, 2026 Learn about Frontier Pace Governance: a practical approach to helping IT operations move at AI speed without sacrificing security, accountability, or operational discipline. Register Virtual Event: Zero Trust & Identity Strategies Summit 2026 October 14, 2026 Join as we decipher the world of zero trust and share war stories on securing an organization by eliminating implicit trust and continuously validating every stage of a digital interaction. Register People on the Move Rapid7 has named Rik Ferguson as VP of Security Intelligence. Cytactic has appointed Tim Brown as CSO. Scott Simkin has joined Vega as CMO. More People On The Move Expert Insights AI Has Changed Attack Speed, Not Security Fundamentals As AI accelerates vulnerability discovery and exploitation, so-called virtual patching still comes do",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -3327,13 +3327,13 @@
           "affected_industries": [
             "financial_services",
             "government",
-            "education",
-            "legal_professional"
+            "manufacturing_industrial",
+            "education"
           ],
           "affected_products": [
             "SonicWall",
-            "OpenAI/ChatGPT",
-            "Android"
+            "Android",
+            "Fortinet"
           ],
           "tools_used": [],
           "cve_ids": [
@@ -3353,9 +3353,9 @@
           "confidence_tier": "tier_4_news",
           "role_map": {
             "SonicWall": "target",
-            "OpenAI/ChatGPT": "target",
             "Android": "target",
             "Fortinet": "target",
+            "OpenAI/ChatGPT": "target",
             "Anthropic/Claude": "target"
           },
           "weak_tags": {
@@ -3384,13 +3384,13 @@
             "affected_industries": [
               "financial_services",
               "government",
-              "education",
-              "legal_professional"
+              "manufacturing_industrial",
+              "education"
             ],
             "affected_products": [
               "SonicWall",
-              "OpenAI/ChatGPT",
-              "Android"
+              "Android",
+              "Fortinet"
             ],
             "tools_used": [],
             "cve_ids": [
@@ -3410,9 +3410,9 @@
             "confidence_tier": "tier_4_news",
             "role_map": {
               "SonicWall": "target",
-              "OpenAI/ChatGPT": "target",
               "Android": "target",
               "Fortinet": "target",
+              "OpenAI/ChatGPT": "target",
               "Anthropic/Claude": "target"
             },
             "weak_tags": {
@@ -5351,81 +5351,6 @@
       ]
     },
     {
-      "cluster_id": "c82a5c5007",
-      "priority_score": 9,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_government"
-        ]
-      },
-      "primary": {
-        "source": "SANS Internet Storm Center",
-        "cohort": "government_authoritative",
-        "title": "TTY Logs and the Data it Captures, (Sun, Oct 4th)",
-        "link": "https://isc.sans.edu/diary/rss/33396",
-        "published": "2026-10-05T00:15:00+00:00",
-        "summary": "For an experiment, I created a script [ 1 ] that parses and send the TTY logs collected from actors or bots activity that run various commands after they successfully login the DShield sensor. Those TTY logs are sent daily at the end of each day to the DShield SIEM [ 2 ] to be correlated with all the data.",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_government",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SANS Internet Storm Center",
-          "cohort": "government_authoritative",
-          "title": "TTY Logs and the Data it Captures, (Sun, Oct 4th)",
-          "link": "https://isc.sans.edu/diary/rss/33396",
-          "published": "2026-10-05T00:15:00+00:00",
-          "summary": "For an experiment, I created a script [ 1 ] that parses and send the TTY logs collected from actors or bots activity that run various commands after they successfully login the DShield sensor. Those TTY logs are sent daily at the end of each day to the DShield SIEM [ 2 ] to be correlated with all the data.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_government",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "971df320ce",
       "priority_score": 9,
       "member_count": 1,
@@ -5497,6 +5422,81 @@
             "affected_industries": [
               "government"
             ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_government",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "c82a5c5007",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_government"
+        ]
+      },
+      "primary": {
+        "source": "SANS Internet Storm Center",
+        "cohort": "government_authoritative",
+        "title": "TTY Logs and the Data it Captures, (Sun, Oct 4th)",
+        "link": "https://isc.sans.edu/diary/rss/33396",
+        "published": "2026-10-05T00:15:00+00:00",
+        "summary": "For an experiment, I created a script [ 1 ] that parses and send the TTY logs collected from actors or bots activity that run various commands after they successfully login the DShield sensor. Those TTY logs are sent daily at the end of each day to the DShield SIEM [ 2 ] to be correlated with all the data.",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_government",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SANS Internet Storm Center",
+          "cohort": "government_authoritative",
+          "title": "TTY Logs and the Data it Captures, (Sun, Oct 4th)",
+          "link": "https://isc.sans.edu/diary/rss/33396",
+          "published": "2026-10-05T00:15:00+00:00",
+          "summary": "For an experiment, I created a script [ 1 ] that parses and send the TTY logs collected from actors or bots activity that run various commands after they successfully login the DShield sensor. Those TTY logs are sent daily at the end of each day to the DShield SIEM [ 2 ] to be correlated with all the data.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
@@ -7180,6 +7180,111 @@
       ]
     },
     {
+      "cluster_id": "c00df1179c",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "education",
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "no_patch_yet",
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_3_analysis"
+        ]
+      },
+      "primary": {
+        "source": "Graham Cluley",
+        "cohort": "practitioner_analysis",
+        "title": "$10 million bounty offered for Chinese Hafnium hacker accused of Microsoft Exchange Server mega-attack",
+        "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/10-million-bounty-chinese-hafnium-hacker-microsoft-exchange-server-mega-attack",
+        "published": "2026-10-09T14:35:04+00:00",
+        "summary": "The US State Department is offering up to US $10 million for information about the whereabouts of Zhang Yu, a 44-year-old Chinese national who is accused of being a key figure in China's state-sponsored hacking group, Hafnium. Read more in my article on the Hot for Security blog.",
+        "full_body": "Industry News 2 min read $10 million bounty offered for Chinese Hafnium hacker accused of Microsoft Exchange Server mega-attack Graham CLULEY October 09, 2026 The US State Department is offering up to US $10 million for information about the whereabouts of Zhang Yu, a 44-year-old Chinese national who is accused of being a key figure in China's state-sponsored hacking group, Hafnium. Hafnium (also known as Silk Typhoon) is widely believed to be the group that exploited zero day vulnerabilities to breach Microsoft Exchange Server systems in early 2021, According to the bounty announcement on the United States Rewards for Justice website, Zhang is a director at Shanghai Firetech Information Science and Technology and works under the direction of the Shanghai State Security Bureau (part of China's Ministry of State Security.) Zhang is charged alongside 34-year-old Xu Zewei with malicious cyber activity against US computer systems between February 2020 and June 2021. According to the Rewards for Justice bounty, from early 2020 Zhang and Xu allegedly stole data - including research on COVID-19 vaccines - from the email accounts of immunologists, virologists, and US universities, at the behest of China. The following the year the pair allegedly exploited vulnerabilities in Microsoft Exchange Server to steal further information. Once the flaws became public knowledge, other cybercriminal groups and state-sponsored hackers are thought to have also targeted hundreds of thousands of unpatched servers. Victims included the European Banking Authority . US authorities claim that China uses private companies like Shanghai Firetech and Xu's Shanghai Powerock Network to spy and steal sensitive information, whilst at the same time obscuring the government's involvement in hacking. Even if somebody provides information about Zhang's location it does not mean that he will be brought to court. Zhang is believed to be in China, which will not extradite its citizens - especially not one who is alleged to have been spying on its behalf on adversaries. Furthermore, if findings by security firm SentinelOne are to be believed, Zhang's Shanghai Firetech filed multiple software patents about extract data from computers. That's not to say, of course, that the alleged hackers can breathe easy. Xu, for instance, was arrested at Milan airport in July 2025 and extradited to the United States in April this year. Xu has pleaded not guilty, saying that he was in Italy on holiday with his wife and that the police have detained the wrong man. China's Foreign Ministry opposed Xu's extradition, accusing the United States of fabricating charges against him. So, if nothing else, a bounty of up to US $10 million for information about Zhang makes his future foreign travel an increasingly risky proposition, and gives anyone who has knowledge about his future holiday plans a good incentive to talk. tags Industry News Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also like Bookmarks",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "apt_espionage"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "education"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day",
+            "no_patch_yet"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_3_analysis",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Graham Cluley",
+          "cohort": "practitioner_analysis",
+          "title": "$10 million bounty offered for Chinese Hafnium hacker accused of Microsoft Exchange Server mega-attack",
+          "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/10-million-bounty-chinese-hafnium-hacker-microsoft-exchange-server-mega-attack",
+          "published": "2026-10-09T14:35:04+00:00",
+          "summary": "The US State Department is offering up to US $10 million for information about the whereabouts of Zhang Yu, a 44-year-old Chinese national who is accused of being a key figure in China's state-sponsored hacking group, Hafnium. Read more in my article on the Hot for Security blog.",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "apt_espionage"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "education"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day",
+              "no_patch_yet"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_3_analysis",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "b4d3bcfeec",
       "priority_score": 8,
       "member_count": 1,
@@ -7341,111 +7446,6 @@
             "role_map": {
               "Microsoft Defender": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "c00df1179c",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education",
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "no_patch_yet",
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_3_analysis"
-        ]
-      },
-      "primary": {
-        "source": "Graham Cluley",
-        "cohort": "practitioner_analysis",
-        "title": "$10 million bounty offered for Chinese Hafnium hacker accused of Microsoft Exchange Server mega-attack",
-        "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/10-million-bounty-chinese-hafnium-hacker-microsoft-exchange-server-mega-attack",
-        "published": "2026-10-09T14:35:04+00:00",
-        "summary": "The US State Department is offering up to US $10 million for information about the whereabouts of Zhang Yu, a 44-year-old Chinese national who is accused of being a key figure in China's state-sponsored hacking group, Hafnium. Read more in my article on the Hot for Security blog.",
-        "full_body": "Industry News 2 min read $10 million bounty offered for Chinese Hafnium hacker accused of Microsoft Exchange Server mega-attack Graham CLULEY October 09, 2026 The US State Department is offering up to US $10 million for information about the whereabouts of Zhang Yu, a 44-year-old Chinese national who is accused of being a key figure in China's state-sponsored hacking group, Hafnium. Hafnium (also known as Silk Typhoon) is widely believed to be the group that exploited zero day vulnerabilities to breach Microsoft Exchange Server systems in early 2021, According to the bounty announcement on the United States Rewards for Justice website, Zhang is a director at Shanghai Firetech Information Science and Technology and works under the direction of the Shanghai State Security Bureau (part of China's Ministry of State Security.) Zhang is charged alongside 34-year-old Xu Zewei with malicious cyber activity against US computer systems between February 2020 and June 2021. According to the Rewards for Justice bounty, from early 2020 Zhang and Xu allegedly stole data - including research on COVID-19 vaccines - from the email accounts of immunologists, virologists, and US universities, at the behest of China. The following the year the pair allegedly exploited vulnerabilities in Microsoft Exchange Server to steal further information. Once the flaws became public knowledge, other cybercriminal groups and state-sponsored hackers are thought to have also targeted hundreds of thousands of unpatched servers. Victims included the European Banking Authority . US authorities claim that China uses private companies like Shanghai Firetech and Xu's Shanghai Powerock Network to spy and steal sensitive information, whilst at the same time obscuring the government's involvement in hacking. Even if somebody provides information about Zhang's location it does not mean that he will be brought to court. Zhang is believed to be in China, which will not extradite its citizens - especially not one who is alleged to have been spying on its behalf on adversaries. Furthermore, if findings by security firm SentinelOne are to be believed, Zhang's Shanghai Firetech filed multiple software patents about extract data from computers. That's not to say, of course, that the alleged hackers can breathe easy. Xu, for instance, was arrested at Milan airport in July 2025 and extradited to the United States in April this year. Xu has pleaded not guilty, saying that he was in Italy on holiday with his wife and that the police have detained the wrong man. China's Foreign Ministry opposed Xu's extradition, accusing the United States of fabricating charges against him. So, if nothing else, a bounty of up to US $10 million for information about Zhang makes his future foreign travel an increasingly risky proposition, and gives anyone who has knowledge about his future holiday plans a good incentive to talk. tags Industry News Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also like Bookmarks",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "apt_espionage"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "government",
-            "education"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day",
-            "no_patch_yet"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_3_analysis",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Graham Cluley",
-          "cohort": "practitioner_analysis",
-          "title": "$10 million bounty offered for Chinese Hafnium hacker accused of Microsoft Exchange Server mega-attack",
-          "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/10-million-bounty-chinese-hafnium-hacker-microsoft-exchange-server-mega-attack",
-          "published": "2026-10-09T14:35:04+00:00",
-          "summary": "The US State Department is offering up to US $10 million for information about the whereabouts of Zhang Yu, a 44-year-old Chinese national who is accused of being a key figure in China's state-sponsored hacking group, Hafnium. Read more in my article on the Hot for Security blog.",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "apt_espionage"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "government",
-              "education"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day",
-              "no_patch_yet"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_3_analysis",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -8071,6 +8071,58 @@
       ]
     },
     {
+      "label": "Fortinet active exploitation",
+      "anchor_signal": "Fortinet",
+      "theme_key": "fortinet",
+      "dominant_features": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "active_exploitation",
+          "zero_day",
+          "ddos"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [
+          "Fortinet",
+          "SonicWall"
+        ],
+        "cve_ids": [
+          "CVE-2026-88779"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth",
+          "no_patch_yet",
+          "poc_available",
+          "zero_day"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 6,
+      "cohesion": 0.227,
+      "shared_strong_signals": [
+        "Fortinet"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "566a5f5f45",
+        "e0b5b97ad2",
+        "c6371def14"
+      ],
+      "links": [
+        "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
+        "https://www.huntress.com/blog/ahsaycbs-flaws-exploit",
+        "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
+        "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
+        "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
+        "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html"
+      ]
+    },
+    {
       "label": "Apple iOS/macOS vulnerability activity",
       "anchor_signal": "Apple iOS/macOS",
       "theme_key": "apple-ios-macos",
@@ -8118,7 +8170,8 @@
           "financial_services"
         ],
         "affected_products": [
-          "SonicWall"
+          "SonicWall",
+          "Fortinet"
         ],
         "urgency_signals": [
           "actively_exploited",
@@ -8129,7 +8182,7 @@
       },
       "cluster_count": 3,
       "article_count": 6,
-      "cohesion": 0.2,
+      "cohesion": 0.222,
       "shared_strong_signals": [
         "SonicWall"
       ],
@@ -8175,46 +8228,6 @@
       "cohesion": 0.598,
       "shared_strong_signals": [
         "CVE-2026-105133"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "566a5f5f45",
-        "ed65b9e8ab"
-      ],
-      "links": [
-        "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
-        "https://www.huntress.com/blog/ahsaycbs-flaws-exploit",
-        "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
-        "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/"
-      ]
-    },
-    {
-      "label": "CVE-2026-105134 exploitation activity",
-      "anchor_signal": "CVE-2026-105134",
-      "theme_key": "cve-2026-105134",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "critical_infrastructure"
-        ],
-        "cve_ids": [
-          "CVE-2026-105133",
-          "CVE-2026-105134"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "no_patch_yet"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 4,
-      "cohesion": 0.598,
-      "shared_strong_signals": [
-        "CVE-2026-105134"
       ],
       "member_cves": [],
       "also_targets": [],
