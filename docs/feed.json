@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T15:31:39.274996+00:00",
+  "generated_at": "2026-10-11T20:07:47.805632+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2208,
@@ -11,13 +11,6 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
@@ -25,22 +18,8 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
-    },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -53,18 +32,39 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 0
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
+      "in_window_count": 0
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Citizen Lab": {
@@ -74,12 +74,12 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
+      "item_count": 20,
+      "in_window_count": 2
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -88,12 +88,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 1
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -102,12 +102,12 @@
       "item_count": 15,
       "in_window_count": 5
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
+      "item_count": 10,
+      "in_window_count": 4
     },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
@@ -116,23 +116,23 @@
       "item_count": 50,
       "in_window_count": 2
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
@@ -165,13 +165,6 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
@@ -179,15 +172,22 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 1
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -200,12 +200,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 0
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -235,19 +235,19 @@
       "item_count": 20,
       "in_window_count": 5
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 6
+    },
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -270,20 +270,6 @@
       "item_count": 100,
       "in_window_count": 4
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -291,19 +277,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
-    },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -312,12 +291,40 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
+    },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -333,33 +340,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
     "The Record": {
       "url": "https://therecord.media/feed",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 5,
       "in_window_count": 5
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 13
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -368,12 +354,19 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 13
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -381,6 +374,13 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
+    },
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
@@ -396,26 +396,12 @@
       "item_count": 50,
       "in_window_count": 1
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 25
-    },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 21
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -424,12 +410,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
+      "item_count": 30,
+      "in_window_count": 25
+    },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 21
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -445,6 +438,20 @@
       "item_count": 10,
       "in_window_count": 5
     },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 0
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -458,20 +465,6 @@
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
@@ -487,8 +480,22 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -501,19 +508,12 @@
       "item_count": 100,
       "in_window_count": 31
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 50,
+      "in_window_count": 50
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -541,7 +541,7 @@
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 0
+      "in_window_count": 1
     },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
@@ -912,41 +912,6 @@
       ]
     },
     {
-      "label": "phishing social eng targeting Snowflake",
-      "anchor_signal": "Snowflake",
-      "theme_key": "snowflake",
-      "dominant_features": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "data_breach"
-        ],
-        "affected_products": [
-          "Snowflake"
-        ]
-      },
-      "cluster_count": 4,
-      "article_count": 5,
-      "cohesion": 0.395,
-      "shared_strong_signals": [
-        "Snowflake"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "cc01b95e10",
-        "9b2d03167f",
-        "7ab7500e98",
-        "7dd217f11f"
-      ],
-      "links": [
-        "https://www.rapid7.com/blog/post/it-asos-incident-attackers-using-channels-customers-trust",
-        "https://www.infosecurity-magazine.com/news/asos-customers-message-suspected/",
-        "https://www.infosecurity-magazine.com/news/asos-data-breach-stolen-employee/",
-        "https://www.infosecurity-magazine.com/news/pwn2own-hackers-32-zeroday/",
-        "https://www.infosecurity-magazine.com/news/google-suspends-opensource-bug/"
-      ]
-    },
-    {
       "label": "Cisco vulnerability activity",
       "anchor_signal": "Cisco",
       "theme_key": "cisco",
@@ -1022,6 +987,58 @@
       ]
     },
     {
+      "label": "Fortinet active exploitation",
+      "anchor_signal": "Fortinet",
+      "theme_key": "fortinet",
+      "dominant_features": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "active_exploitation",
+          "zero_day",
+          "ddos"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [
+          "Fortinet",
+          "SonicWall"
+        ],
+        "cve_ids": [
+          "CVE-2026-88779"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth",
+          "no_patch_yet",
+          "poc_available",
+          "zero_day"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 6,
+      "cohesion": 0.227,
+      "shared_strong_signals": [
+        "Fortinet"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "566a5f5f45",
+        "e0b5b97ad2",
+        "c6371def14"
+      ],
+      "links": [
+        "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
+        "https://www.huntress.com/blog/ahsaycbs-flaws-exploit",
+        "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
+        "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
+        "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
+        "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html"
+      ]
+    },
+    {
       "label": "Apple iOS/macOS vulnerability activity",
       "anchor_signal": "Apple iOS/macOS",
       "theme_key": "apple-ios-macos",
@@ -1069,7 +1086,8 @@
           "financial_services"
         ],
         "affected_products": [
-          "SonicWall"
+          "SonicWall",
+          "Fortinet"
         ],
         "urgency_signals": [
           "actively_exploited",
@@ -1080,7 +1098,7 @@
       },
       "cluster_count": 3,
       "article_count": 6,
-      "cohesion": 0.2,
+      "cohesion": 0.222,
       "shared_strong_signals": [
         "SonicWall"
       ],
@@ -1101,43 +1119,36 @@
       ]
     },
     {
-      "label": "CVE-2026-105134 exploitation activity",
-      "anchor_signal": "CVE-2026-105134",
-      "theme_key": "cve-2026-105134",
+      "label": "phishing social eng targeting Snowflake",
+      "anchor_signal": "Snowflake",
+      "theme_key": "snowflake",
       "dominant_features": {
         "threat_categories": [
-          "active_exploitation"
+          "phishing_social_eng",
+          "data_breach"
         ],
-        "affected_industries": [
-          "financial_services",
-          "critical_infrastructure"
-        ],
-        "cve_ids": [
-          "CVE-2026-105133",
-          "CVE-2026-105134"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "no_patch_yet"
+        "affected_products": [
+          "Snowflake"
         ]
       },
-      "cluster_count": 2,
+      "cluster_count": 3,
       "article_count": 4,
-      "cohesion": 0.598,
+      "cohesion": 0.449,
       "shared_strong_signals": [
-        "CVE-2026-105134"
+        "Snowflake"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "566a5f5f45",
-        "ed65b9e8ab"
+        "cc01b95e10",
+        "9b2d03167f",
+        "7dd217f11f"
       ],
       "links": [
-        "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
-        "https://www.huntress.com/blog/ahsaycbs-flaws-exploit",
-        "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
-        "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/"
+        "https://www.rapid7.com/blog/post/it-asos-incident-attackers-using-channels-customers-trust",
+        "https://www.infosecurity-magazine.com/news/asos-customers-message-suspected/",
+        "https://www.infosecurity-magazine.com/news/asos-data-breach-stolen-employee/",
+        "https://www.infosecurity-magazine.com/news/google-suspends-opensource-bug/"
       ]
     },
     {
@@ -1320,7 +1331,7 @@
           "healthcare"
         ],
         "prior_top_products": [
-          "Anthropic/Claude",
+          "Microsoft SharePoint",
           "OpenAI/ChatGPT",
           "Salesforce"
         ]
@@ -1457,6 +1468,34 @@
   },
   "items": [
     {
+      "source": "Risky Business News",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "Sponsored: AI is attacking… it needs to defend, too",
+      "link": "https://risky.biz/RBNEWSSI146/",
+      "published": "2026-10-11T19:18:00+00:00",
+      "summary": "In this Risky Business sponsored interview James Wilson chats with Prowler’s founder and CEO Toni de la Fuente about how AI now allows pretty much anyone to vibe-code “killer apps”. These custom apps are often internal for organisations and hosted on the cloud. The pair discuss why developers need to focus on security on top of app functionality and how Prowler can work in parallel with apps and agents to help secure, and continuously assess, cloud infrastructure.",
+      "author": "",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_3_analysis",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 7
+    },
+    {
       "source": "BleepingComputer",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -1513,7 +1552,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "The Hacker News",
@@ -1543,7 +1582,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "BleepingComputer",
@@ -3123,13 +3162,13 @@
         "affected_industries": [
           "financial_services",
           "government",
-          "education",
-          "legal_professional"
+          "manufacturing_industrial",
+          "education"
         ],
         "affected_products": [
           "SonicWall",
-          "OpenAI/ChatGPT",
-          "Android"
+          "Android",
+          "Fortinet"
         ],
         "tools_used": [],
         "cve_ids": [
@@ -3149,9 +3188,9 @@
         "confidence_tier": "tier_4_news",
         "role_map": {
           "SonicWall": "target",
-          "OpenAI/ChatGPT": "target",
           "Android": "target",
           "Fortinet": "target",
+          "OpenAI/ChatGPT": "target",
           "Anthropic/Claude": "target"
         },
         "weak_tags": {
@@ -3159,7 +3198,7 @@
         }
       },
       "score": 13,
-      "full_body": "Citrix on Thursday warned users of a critical-severity NetScaler vulnerability that requires immediate patching. Tracked as CVE-2026-107406 (CVSS score of 9.5), the flaw is described as a memory overflow that could lead to remote code execution (RCE) or denial-of-service (DoS). According to Citrix, the security defect impacts NetScaler ADC and NetScaler Gateway appliances configured as a SAML SP or SAML IdP, under specific configuration conditions. The bug also affects Secure Private Access Hybrid deployments that use NetScaler. Customers need to update these NetScaler instances as well. Patches were included in NetScaler ADC and Gateway versions 14.1-73.46, 13.1-64.29, 14.1-73.46 FIPS, and 13.1.37.283 (of 13.1-FIPS and 13.1-NDcPP). “As of the publication of the bulletin, Citrix is not aware of any unmitigated exploits of this vulnerability,” Citrix notes , urging customers to upgrade their instances as soon as possible. Advertisement. Scroll to continue reading. Citrix’s fresh warning comes days after the company sounded the alarm on CVE-2026-88779, a zero-day in NetScaler leading to DoS. A week before, two other NetScaler zero-days were patched: CVE-2026-88771 (leading to RCE), and CVE-2026-88772 (leading to RCE or DoS). They have been exploited in attacks against government, financial services, education, legal, and professional services organizations. Related: Critical NetScaler Vulnerability Exploited in Attacks Related: Cisco Patches a Dozen Critical Vulnerabilities Related: Attackers Target Critical Atlassian Vulnerability Within Hours of PoC Publication Related: SonicWall and Splunk Patch Critical Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Patches a Dozen Critical Vulnerabilities SonicWall and Splunk Patch Critical Vulnerabilities Rein Security Raises $25 Million to Guard AI Agents at Runtime Fake Decryption Tools Masked $11M Markup in Ransomware Recovery Scheme FortiBleed Attackers Locking Victims Out of Fortinet Devices Qilin Ransomware Suspect Arrested in Japan, Extradited to Germany Chrome 155 Update Patches 247 Vulnerabilities ASOS Confirms Cyberattack, Data Breach Latest News OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years Google Domains Impacted by Recent ccTLD Hijacks Unpatched AhsayCBS Vulnerabilities Exploited in the Wild Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries US Disrupts Chinese State-Sponsored Hacking Tools Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security Google Pixel 10 Exploits Earned Hackers $560,000 at Pwn2Own Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: AI Is Accelerating Risk. Can Your IT Operations Keep Up? October 14, 2026 Learn about Frontier Pace Governance: a practical approach to helping IT operations move at AI speed without sacrificing security, accountability, or operational discipline. Register Virtual Event: Zero Trust & Identity Strategies Summit 2026 October 14, 2026 Join as we decipher the world of zero trust and share war stories on securing an organization by eliminating implicit trust and continuously validating every stage of a digital interaction. Register People on the Move Rapid7 has named Rik Ferguson as VP of Security Intelligence. Cytactic has appointed Tim Brown as CSO. Scott Simkin has joined Vega as CMO. More People On The Move Expert Insights AI Has Changed Attack Speed, Not Security Fundamentals As AI accelerates vulnerability discovery and exploitation, so-called virtual patching still comes down to defense-in-d",
+      "full_body": "Citrix on Thursday warned users of a critical-severity NetScaler vulnerability that requires immediate patching. Tracked as CVE-2026-107406 (CVSS score of 9.5), the flaw is described as a memory overflow that could lead to remote code execution (RCE) or denial-of-service (DoS). According to Citrix, the security defect impacts NetScaler ADC and NetScaler Gateway appliances configured as a SAML SP or SAML IdP, under specific configuration conditions. The bug also affects Secure Private Access Hybrid deployments that use NetScaler. Customers need to update these NetScaler instances as well. Patches were included in NetScaler ADC and Gateway versions 14.1-73.46, 13.1-64.29, 14.1-73.46 FIPS, and 13.1.37.283 (of 13.1-FIPS and 13.1-NDcPP). “As of the publication of the bulletin, Citrix is not aware of any unmitigated exploits of this vulnerability,” Citrix notes , urging customers to upgrade their instances as soon as possible. Advertisement. Scroll to continue reading. Citrix’s fresh warning comes days after the company sounded the alarm on CVE-2026-88779, a zero-day in NetScaler leading to DoS. A week before, two other NetScaler zero-days were patched: CVE-2026-88771 (leading to RCE), and CVE-2026-88772 (leading to RCE or DoS). They have been exploited in attacks against government, financial services, education, legal, and professional services organizations. Related: Critical NetScaler Vulnerability Exploited in Attacks Related: Cisco Patches a Dozen Critical Vulnerabilities Related: Attackers Target Critical Atlassian Vulnerability Within Hours of PoC Publication Related: SonicWall and Splunk Patch Critical Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Patches a Dozen Critical Vulnerabilities SonicWall and Splunk Patch Critical Vulnerabilities Rein Security Raises $25 Million to Guard AI Agents at Runtime Fake Decryption Tools Masked $11M Markup in Ransomware Recovery Scheme FortiBleed Attackers Locking Victims Out of Fortinet Devices Qilin Ransomware Suspect Arrested in Japan, Extradited to Germany Chrome 155 Update Patches 247 Vulnerabilities ASOS Confirms Cyberattack, Data Breach Latest News Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years Google Domains Impacted by Recent ccTLD Hijacks Unpatched AhsayCBS Vulnerabilities Exploited in the Wild Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries US Disrupts Chinese State-Sponsored Hacking Tools Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: AI Is Accelerating Risk. Can Your IT Operations Keep Up? October 14, 2026 Learn about Frontier Pace Governance: a practical approach to helping IT operations move at AI speed without sacrificing security, accountability, or operational discipline. Register Virtual Event: Zero Trust & Identity Strategies Summit 2026 October 14, 2026 Join as we decipher the world of zero trust and share war stories on securing an organization by eliminating implicit trust and continuously validating every stage of a digital interaction. Register People on the Move Rapid7 has named Rik Ferguson as VP of Security Intelligence. Cytactic has appointed Tim Brown as CSO. Scott Simkin has joined Vega as CMO. More People On The Move Expert Insights AI Has Changed Attack Speed, Not Security Fundamentals As AI accelerates vulnerability discovery and exploitation, so-called virtual patching still comes do",
       "fetch_status": "ok"
     },
     {
@@ -5502,6 +5541,7 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
+          "ransomware_extortion",
           "phishing_social_eng",
           "zero_day",
           "data_breach",
@@ -5511,8 +5551,7 @@
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
-          "OpenAI/ChatGPT",
-          "Snowflake"
+          "OpenAI/ChatGPT"
         ],
         "tools_used": [],
         "cve_ids": [],
@@ -5524,15 +5563,14 @@
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
         "role_map": {
-          "OpenAI/ChatGPT": "target",
-          "Snowflake": "target"
+          "OpenAI/ChatGPT": "target"
         },
         "weak_tags": {
           "products": []
         }
       },
       "score": 8,
-      "full_body": "Infosecurity Magazine Home » News » Pwn2Own Hackers Find 32 Zero-Day Vulnerabilities on Day One Pwn2Own Hackers Find 32 Zero-Day Vulnerabilities on Day One News 7 October 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Some of the world’s top ethical hackers descended on the Irish city of Cork in an event that began on October 6, where they have already discovered dozens of zero-day flaws in the latest Pwn2Own Ireland. The hacking competition pits teams against each other in a contest to see who can unearth the most novel vulnerabilities. On the first day of the Zero Day Initiative’s Pwn2Own Ireland 2026, teams targeted smartphones, smart home devices, printers, and AI tools like OpenAI Codex and LiteLLM. Their total haul was 32 zero-day vulnerabilities and over $368,000 in prize money, as well as a trove of “Master of Pwn” points which will be totted up at the end of the competition. Read more on Pwn2Own: Security Researchers Find 47 Zero-Days at Pwn2Own Berlin. Day one saw several successes, including: @_McCaulay combined an out-of-bounds write and a format string(!) bug to exploit the Sonos Era 300 Taisic Yun of Xint used an improper input validation bug and code injection to get a reverse shell on LiteLLM Vũ Chí Thành and Huỳnh Đức Tin of VinSOC found seven zero days during their exploit of Philips Hue Bridge Pro Thanh Do of Team Confused used a single use-after-free exploit on the Lexmark CX532adwe Nam Nguyen, Thanh Vu, and Tin Huynh of VinSOC combined five zero days to exploit the Oracle Autonomous AI Database Ikotas Labs, Inc. used a single argument injection bug to exploit OpenAI Codex Interrupt Labs used an OOB read and an OOB write to exploit the Garmin Index BPM Ethical Hacking to the Fore Hacking competitions like this are arguably more important than ever as vendors struggle to find vulnerabilities in their products before their adversaries do. As a part of the Zero Day Initiative (ZDI), Pwn2Own findings are responsibly disclosed to the relevant vendors, who then have 90 days to release updates before the ZDI publishes them. AI-enabled tools are increasingly being used in an offensive capacity to research exploits, either for novel bugs or recently published flaws. According to Google , vulnerability disclosures doubled from 5045 in January 2026 to 10,477 in July, reaching 10,740 in August 2026. Exploited vulnerabilities rose from an average of 10.5 a month in 2025 to 18 a month so far in 2026. AI discovery also skews to higher impact flaws: 50% of vulnerabilities Google identified as likely AI-discovered resulted in remote code execution, against 26% of other CVEs. However, separate research claims that just 1% of AI-discovered vulnerabilities have been exploited in the wild. Pwn2Own continues on October 7 and 8, when the Master of Pwn will be announced. You may also like Researchers Discover Over 70 Zero-Day Bugs at Pwn2Own Ireland News 28 October 2024 Researchers Find 63 Zero-Day Bugs at Latest Pwn2Own News 12 December 2022 Security Researchers Win Second Tesla At Pwn2Own News 21 March 2024 Security Researchers Find 47 Zero-Days at Pwn2Own Berlin News 18 May 2026 HackerOne Exceeds $300m in Bug Bounty Payments News 30 October 2023 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Attackers Hide AI Prompt Injections Inside Phishing Emails News 7 October 2026 1 FBI and Secret Service Warn of FortiBleed Lockout Threat News 8 October 2026 2 Telegram Account Behind ASOS Rogue Notification Tied to Gaming Trading News 7 October 2026 3 ASOS Customers Receive Bizarre “Hacked” Message Amid Suspected Snowflake Compromise News 6 October 2026 4 ASOS Confirms Data Breach Linked to Stolen Employee Credentials News 8 October 2026 5 Chinese Hacker Deployed AI in Campaign Against South Korean Banks News 8 October 2026 6 Who Authorized That Agent? Enforcing AI Authority Before the Action Webinar 15:00 — 16:00, 8 October 2026 1 Telegram Account B",
+      "full_body": "Infosecurity Magazine Home » News » Pwn2Own Hackers Find 32 Zero-Day Vulnerabilities on Day One Pwn2Own Hackers Find 32 Zero-Day Vulnerabilities on Day One News 7 October 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Some of the world’s top ethical hackers descended on the Irish city of Cork in an event that began on October 6, where they have already discovered dozens of zero-day flaws in the latest Pwn2Own Ireland. The hacking competition pits teams against each other in a contest to see who can unearth the most novel vulnerabilities. On the first day of the Zero Day Initiative’s Pwn2Own Ireland 2026, teams targeted smartphones, smart home devices, printers, and AI tools like OpenAI Codex and LiteLLM. Their total haul was 32 zero-day vulnerabilities and over $368,000 in prize money, as well as a trove of “Master of Pwn” points which will be totted up at the end of the competition. Read more on Pwn2Own: Security Researchers Find 47 Zero-Days at Pwn2Own Berlin. Day one saw several successes, including: @_McCaulay combined an out-of-bounds write and a format string(!) bug to exploit the Sonos Era 300 Taisic Yun of Xint used an improper input validation bug and code injection to get a reverse shell on LiteLLM Vũ Chí Thành and Huỳnh Đức Tin of VinSOC found seven zero days during their exploit of Philips Hue Bridge Pro Thanh Do of Team Confused used a single use-after-free exploit on the Lexmark CX532adwe Nam Nguyen, Thanh Vu, and Tin Huynh of VinSOC combined five zero days to exploit the Oracle Autonomous AI Database Ikotas Labs, Inc. used a single argument injection bug to exploit OpenAI Codex Interrupt Labs used an OOB read and an OOB write to exploit the Garmin Index BPM Ethical Hacking to the Fore Hacking competitions like this are arguably more important than ever as vendors struggle to find vulnerabilities in their products before their adversaries do. As a part of the Zero Day Initiative (ZDI), Pwn2Own findings are responsibly disclosed to the relevant vendors, who then have 90 days to release updates before the ZDI publishes them. AI-enabled tools are increasingly being used in an offensive capacity to research exploits, either for novel bugs or recently published flaws. According to Google , vulnerability disclosures doubled from 5045 in January 2026 to 10,477 in July, reaching 10,740 in August 2026. Exploited vulnerabilities rose from an average of 10.5 a month in 2025 to 18 a month so far in 2026. AI discovery also skews to higher impact flaws: 50% of vulnerabilities Google identified as likely AI-discovered resulted in remote code execution, against 26% of other CVEs. However, separate research claims that just 1% of AI-discovered vulnerabilities have been exploited in the wild. Pwn2Own continues on October 7 and 8, when the Master of Pwn will be announced. You may also like Researchers Discover Over 70 Zero-Day Bugs at Pwn2Own Ireland News 28 October 2024 Researchers Find 63 Zero-Day Bugs at Latest Pwn2Own News 12 December 2022 Security Researchers Win Second Tesla At Pwn2Own News 21 March 2024 Security Researchers Find 47 Zero-Days at Pwn2Own Berlin News 18 May 2026 HackerOne Exceeds $300m in Bug Bounty Payments News 30 October 2023 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Q3 2026 Sets New Record for Ransomware Attacks News 9 October 2026 1 ASOS Confirms Data Breach Linked to Stolen Employee Credentials News 8 October 2026 2 UK and Allies Warn of Cyber Threat from China’s Integrity Technology Group News 9 October 2026 3 Attackers Hide AI Prompt Injections Inside Phishing Emails News 7 October 2026 4 Chinese Hacker Deployed AI in Campaign Against South Korean Banks News 8 October 2026 5 FBI and Secret Service Warn of FortiBleed Lockout Threat News 8 October 2026 6 Telegram Account Behind ASOS Rogue Notification Tied to Gaming Trading News 7 October 2026 1 Who Authorized That Agent? Enforcing AI Authority Before the Actio",
       "fetch_status": "ok"
     },
     {
@@ -7057,7 +7095,9 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
+          "ransomware_extortion",
           "phishing_social_eng",
+          "data_breach",
           "web_shell_backdoor",
           "active_exploitation"
         ],
@@ -7091,7 +7131,7 @@
         }
       },
       "score": 10,
-      "full_body": "Infosecurity Magazine Home » News » ClingSTUN Malware Turns Unpatched IoT Devices Into Proxy Nodes ClingSTUN Malware Turns Unpatched IoT Devices Into Proxy Nodes News 5 October 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino A Linux proxy backdoor has been observed exploiting known, unpatched flaws in internet-facing IoT devices and abusing legitimate public STUN servers to keep compromised systems reachable as remotely controlled proxy nodes. FortiGuard Labs, which dubbed the malware ClingSTUN, said in research published on October 5 that it tracked the campaign across three periods, each with a different download server. The first lasted two days and relied on a single flaw, CVE-2022-36553 in Hytec Inter routers. In the second, the attackers switched to two vulnerability: CVE-2025-34035 in EnGenius's IoT cloud service and CVE-2024-23625 in D-Link's UPnP service. The operators then spread the malware through command injection flaws in Linear, Realtek, TP-Link, AVTECH and D-Link devices. In the third period, the attackers added more entry points, and FortiGuard's list now stands at 24 vulnerabilities, including Ivanti Connect Secure flaws CVE-2023-46805 and CVE-2024-21887 and newer bugs such as CVE-2026-36356 and CVE-2025-67038. STUN Traffic Blends With VoIP and WebRTC ClingSTUN works as a back-connect proxy . It sends STUN binding requests to public servers, 24 in the second version and 13 in the third, to discover its external address and port mappings and keep NAT bindings open, then periodically reports its group identifier and mapped ports to the same servers. Because the servers are legitimate, the traffic resembles normal VoIP and WebRTC communications. FortiGuard said how the operator obtains the mappings and pushes commands through NAT remains unverified, and warned against treating the STUN services as attacker-controlled infrastructure. The malware kills competing processes and watchdog timers, copies itself into system locations, modifies boot scripts for persistence and hides behind process information copied from the system's init process. It supports remote command execution and carries hard-coded exploits for seven more vulnerabilities, including flaws in Realtek's SDK and three DVR products, to spread itself. Read more on IoT malware: New Mirai-Based Linux Botnet 'Evooo1Bot' Turns Victims Into Proxies Defenders Weigh Containment Against Patching Louis Eichenbaum, federal CTO at ColorTokens warned. \"ClingSTUN is another reminder that organizations cannot patch their way out of cyber risk.\" He argued for compensating controls around devices that cannot be fixed immediately, with microsegmentation to limit lateral movement. Meanwhile, John Gallagher, VP at IoT security firm Viakoo, disagreed on segmentation. \"Believing that network segmentation provides security is a flawed assumption,\" he said, arguing instead for automated firmware remediation across multivendor IoT fleets. \"Visibility alone will not save you here,\" he added. FortiGuard advised assessing STUN activity alongside suspicious processes, unexpected UDP connections and recurring keepalive traffic. The cybersecurity firm also urged organizations to inventory internet-facing devices, prioritize patches for actively exploited flaws and replace or isolate devices that no longer receive security updates. You may also like GoTitan Botnet and PrCtrl RAT Exploit Apache Vulnerability News 29 November 2023 MostereRAT Targets Windows Users With Stealth Tactics News 8 September 2025 Phishing Campaign Uses Havoc Framework to Control Infected Systems News 3 March 2025 Advanced ValleyRAT Campaign Hits Windows Users in China News 15 August 2024 SEO Poisoning Targets Chinese Users with Fake Software Sites News 15 September 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Attackers Hide AI Prompt Injections Inside Phishing Emails News 7 October 2026 1 FBI and Secret Service Warn of FortiBleed Locko",
+      "full_body": "Infosecurity Magazine Home » News » ClingSTUN Malware Turns Unpatched IoT Devices Into Proxy Nodes ClingSTUN Malware Turns Unpatched IoT Devices Into Proxy Nodes News 5 October 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino A Linux proxy backdoor has been observed exploiting known, unpatched flaws in internet-facing IoT devices and abusing legitimate public STUN servers to keep compromised systems reachable as remotely controlled proxy nodes. FortiGuard Labs, which dubbed the malware ClingSTUN, said in research published on October 5 that it tracked the campaign across three periods, each with a different download server. The first lasted two days and relied on a single flaw, CVE-2022-36553 in Hytec Inter routers. In the second, the attackers switched to two vulnerability: CVE-2025-34035 in EnGenius's IoT cloud service and CVE-2024-23625 in D-Link's UPnP service. The operators then spread the malware through command injection flaws in Linear, Realtek, TP-Link, AVTECH and D-Link devices. In the third period, the attackers added more entry points, and FortiGuard's list now stands at 24 vulnerabilities, including Ivanti Connect Secure flaws CVE-2023-46805 and CVE-2024-21887 and newer bugs such as CVE-2026-36356 and CVE-2025-67038. STUN Traffic Blends With VoIP and WebRTC ClingSTUN works as a back-connect proxy . It sends STUN binding requests to public servers, 24 in the second version and 13 in the third, to discover its external address and port mappings and keep NAT bindings open, then periodically reports its group identifier and mapped ports to the same servers. Because the servers are legitimate, the traffic resembles normal VoIP and WebRTC communications. FortiGuard said how the operator obtains the mappings and pushes commands through NAT remains unverified, and warned against treating the STUN services as attacker-controlled infrastructure. The malware kills competing processes and watchdog timers, copies itself into system locations, modifies boot scripts for persistence and hides behind process information copied from the system's init process. It supports remote command execution and carries hard-coded exploits for seven more vulnerabilities, including flaws in Realtek's SDK and three DVR products, to spread itself. Read more on IoT malware: New Mirai-Based Linux Botnet 'Evooo1Bot' Turns Victims Into Proxies Defenders Weigh Containment Against Patching Louis Eichenbaum, federal CTO at ColorTokens warned. \"ClingSTUN is another reminder that organizations cannot patch their way out of cyber risk.\" He argued for compensating controls around devices that cannot be fixed immediately, with microsegmentation to limit lateral movement. Meanwhile, John Gallagher, VP at IoT security firm Viakoo, disagreed on segmentation. \"Believing that network segmentation provides security is a flawed assumption,\" he said, arguing instead for automated firmware remediation across multivendor IoT fleets. \"Visibility alone will not save you here,\" he added. FortiGuard advised assessing STUN activity alongside suspicious processes, unexpected UDP connections and recurring keepalive traffic. The cybersecurity firm also urged organizations to inventory internet-facing devices, prioritize patches for actively exploited flaws and replace or isolate devices that no longer receive security updates. You may also like GoTitan Botnet and PrCtrl RAT Exploit Apache Vulnerability News 29 November 2023 MostereRAT Targets Windows Users With Stealth Tactics News 8 September 2025 Phishing Campaign Uses Havoc Framework to Control Infected Systems News 3 March 2025 Advanced ValleyRAT Campaign Hits Windows Users in China News 15 August 2024 SEO Poisoning Targets Chinese Users with Fake Software Sites News 15 September 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Q3 2026 Sets New Record for Ransomware Attacks News 9 October 2026 1 ASOS Confirms Data Breach Linked to Stolen Employee Credent",
       "fetch_status": "ok"
     },
     {
@@ -7407,7 +7447,7 @@
         }
       },
       "score": 8,
-      "full_body": "Infosecurity Magazine Home » News » Google Suspends Open-Source Bug Bounty Due to AI Vulnerability Reports Google Suspends Open-Source Bug Bounty Due to AI Vulnerability Reports News 5 October 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn Google has suspended its open-source bug bounty program until 2027 in an effort to stem the flood of AI submissions. In a statement posted on social media on October 1, Google said the pause was prompted by “a significant rise in automated submissions, the vast majority of which are not valid.” Google OSS VRP: History and Scope Google’s Open Source Vulnerability Rewards Program (OSS VRP) was launched in August 2022. It rewards security researchers for identifying vulnerabilities in Google’s open-source software projects. The program covers the latest versions of open-source software hosted in public repositories owned by Google on GitHub, as well as selected repositories on other platforms. It also includes repository configuration settings, such as GitHub Actions workflows, access control rules and GitHub application configurations. Rewards range from $100 to $31,337 based on the severity level of the reported flaws and the project's importance. The OSS VRP is one of several bug bounty programs operated by Google and has a relatively narrow focus. Vulnerabilities in Google's open source projects that are closely linked to Google Cloud or AI products are directed to the Google Cloud Vulnerability Reward Program (Cloud VRP) or the AI Vulnerability Reward Program (AI VRP), allowing reports to be routed to the teams best placed to assess and address them. Google Plans OSS VRP Overhaul The suspension will not affect OSS VRP supply-chain reports or any reports already submitted, Google said. The company plans to “reformat” the program and expects to provide an update in the first quarter of 2027. “As an alternative, we encourage you to find impact across our other VRP programs and submit there instead, or pursue the Patch Rewards Program,” Google said. Image credits: JHVEPhoto / Shutterstock.com Read now: How Industry Coalitions Are Rallying to Secure Open Source Software for the AI Era You may also like Google Announces $350,000 Project Zero Prize News 14 September 2016 Google Patches 12 Flaws, Pays $11K Bug Bounty in Chrome Update News 14 November 2013 Google's Naptime Framework to Boost Vulnerability Research with AI News 25 June 2024 Google Paid $10m in Bug Bounties to Security Researchers in 2023 News 14 March 2024 Over 50,000 Vulnerabilities Discovered in DoD Systems Through Bug Bounty Program News 18 March 2024 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Attackers Hide AI Prompt Injections Inside Phishing Emails News 7 October 2026 1 FBI and Secret Service Warn of FortiBleed Lockout Threat News 8 October 2026 2 Telegram Account Behind ASOS Rogue Notification Tied to Gaming Trading News 7 October 2026 3 ASOS Customers Receive Bizarre “Hacked” Message Amid Suspected Snowflake Compromise News 6 October 2026 4 ASOS Confirms Data Breach Linked to Stolen Employee Credentials News 8 October 2026 5 Chinese Hacker Deployed AI in Campaign Against South Korean Banks News 8 October 2026 6 Who Authorized That Agent? Enforcing AI Authority Before the Action Webinar 15:00 — 16:00, 8 October 2026 1 Telegram Account Behind ASOS Rogue Notification Tied to Gaming Trading News 7 October 2026 2 ASOS Customers Receive Bizarre “Hacked” Message Amid Suspected Snowflake Compromise News 6 October 2026 3 Google Suspends Open-Source Bug Bounty Due to AI Vulnerability Reports News 5 October 2026 4 Ransomware Affiliate Double-Crosses RaaS Operator to Steal Victim Funds News 6 October 2026 5 Attackers Hide AI Prompt Injections Inside Phishing Emails News 7 October 2026 6 Who Authorized That Agent? Enforcing AI Authority Before the Action Webinar 15:00 — 16:00, 8 October 2026 1 Your Security Awareness Programme Isn't Failing, It's Just ",
+      "full_body": "Infosecurity Magazine Home » News » Google Suspends Open-Source Bug Bounty Due to AI Vulnerability Reports Google Suspends Open-Source Bug Bounty Due to AI Vulnerability Reports News 5 October 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn Google has suspended its open-source bug bounty program until 2027 in an effort to stem the flood of AI submissions. In a statement posted on social media on October 1, Google said the pause was prompted by “a significant rise in automated submissions, the vast majority of which are not valid.” Google OSS VRP: History and Scope Google’s Open Source Vulnerability Rewards Program (OSS VRP) was launched in August 2022. It rewards security researchers for identifying vulnerabilities in Google’s open-source software projects. The program covers the latest versions of open-source software hosted in public repositories owned by Google on GitHub, as well as selected repositories on other platforms. It also includes repository configuration settings, such as GitHub Actions workflows, access control rules and GitHub application configurations. Rewards range from $100 to $31,337 based on the severity level of the reported flaws and the project's importance. The OSS VRP is one of several bug bounty programs operated by Google and has a relatively narrow focus. Vulnerabilities in Google's open source projects that are closely linked to Google Cloud or AI products are directed to the Google Cloud Vulnerability Reward Program (Cloud VRP) or the AI Vulnerability Reward Program (AI VRP), allowing reports to be routed to the teams best placed to assess and address them. Google Plans OSS VRP Overhaul The suspension will not affect OSS VRP supply-chain reports or any reports already submitted, Google said. The company plans to “reformat” the program and expects to provide an update in the first quarter of 2027. “As an alternative, we encourage you to find impact across our other VRP programs and submit there instead, or pursue the Patch Rewards Program,” Google said. Image credits: JHVEPhoto / Shutterstock.com Read now: How Industry Coalitions Are Rallying to Secure Open Source Software for the AI Era You may also like Google Announces $350,000 Project Zero Prize News 14 September 2016 Google Patches 12 Flaws, Pays $11K Bug Bounty in Chrome Update News 14 November 2013 Google's Naptime Framework to Boost Vulnerability Research with AI News 25 June 2024 Google Paid $10m in Bug Bounties to Security Researchers in 2023 News 14 March 2024 Over 50,000 Vulnerabilities Discovered in DoD Systems Through Bug Bounty Program News 18 March 2024 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Q3 2026 Sets New Record for Ransomware Attacks News 9 October 2026 1 ASOS Confirms Data Breach Linked to Stolen Employee Credentials News 8 October 2026 2 UK and Allies Warn of Cyber Threat from China’s Integrity Technology Group News 9 October 2026 3 Attackers Hide AI Prompt Injections Inside Phishing Emails News 7 October 2026 4 Chinese Hacker Deployed AI in Campaign Against South Korean Banks News 8 October 2026 5 FBI and Secret Service Warn of FortiBleed Lockout Threat News 8 October 2026 6 Telegram Account Behind ASOS Rogue Notification Tied to Gaming Trading News 7 October 2026 1 Who Authorized That Agent? Enforcing AI Authority Before the Action Webinar 15:00 — 16:00, 8 October 2026 2 ASOS Customers Receive Bizarre “Hacked” Message Amid Suspected Snowflake Compromise News 6 October 2026 3 Google Suspends Open-Source Bug Bounty Due to AI Vulnerability Reports News 5 October 2026 4 Attackers Hide AI Prompt Injections Inside Phishing Emails News 7 October 2026 5 Ransomware Affiliate Double-Crosses RaaS Operator to Steal Victim Funds News 6 October 2026 6 Who Authorized That Agent? Enforcing AI Authority Before the Action Webinar 15:00 — 16:00, 8 October 2026 1 Your Security Awareness Programme Isn't Failing, It's Just Not Relevant Webinar 15:00 — 16:0",
       "fetch_status": "ok"
     },
     {
@@ -42522,33 +42562,6 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Risky Business News",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "Risky Bulletin: Iran to reconnect to the Internet",
-      "link": "https://risky.biz/RBNEWS569/",
-      "published": "2026-05-27T06:23:13+00:00",
-      "summary": "Iran will reconnect to the Internet, a new vulnerability lets attackers bypass authentication on AI infrastructure, hackers breach Lithuania’s state registry, security firms take down the Glassworm botnet, and CERT India releases strict patching advice.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_3_analysis",
         "role_map": {},
         "weak_tags": {
           "products": []

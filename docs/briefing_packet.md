@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-10-11T15:31:39.245892+00:00
+- Generated: 2026-10-11T20:07:47.775952+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 308
-- Total clusters raw: 137
+- Total items in window: 309
+- Total clusters raw: 138
 - Total clusters in packet: 56
-- Dropped low score: 81
+- Dropped low score: 82
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,28 +75,13 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -105,63 +90,78 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 2
+  - Item count: 10
+  - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
-  - Item count: 15
-  - In window count: 1
+  - Item count: 20
+  - In window count: 2
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 15
+  - In window count: 1
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 5
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 2
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 2
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -185,23 +185,23 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
+  - In window count: 1
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -210,11 +210,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
+  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -235,16 +235,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 5
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 6
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
@@ -260,41 +260,46 @@
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -305,41 +310,36 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 13
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
   - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 20
+  - In window count: 2
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 13
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
@@ -350,31 +350,26 @@
   - Status: ok
   - Item count: 50
   - In window count: 1
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 25
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 21
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 15
-  - In window count: 0
+  - Item count: 30
+  - In window count: 25
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 21
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -385,6 +380,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 5
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -395,16 +400,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
@@ -415,8 +410,18 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -425,16 +430,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 31
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -454,7 +454,7 @@
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
-  - In window count: 0
+  - In window count: 1
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
@@ -600,26 +600,6 @@
   - https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html
   - https://www.infosecurity-magazine.com/news/q3-new-record-ransomware/
 
-### phishing social eng targeting Snowflake
-- Anchor signal: Snowflake
-- Theme key: snowflake
-- Cluster count: 4
-- Article count: 5
-- Cohesion: 0.395
-- Shared strong signals: Snowflake
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: phishing_social_eng, data_breach
-  - affected_products: Snowflake
-- Cluster IDs: cc01b95e10, 9b2d03167f, 7ab7500e98, 7dd217f11f
-- Links:
-  - https://www.rapid7.com/blog/post/it-asos-incident-attackers-using-channels-customers-trust
-  - https://www.infosecurity-magazine.com/news/asos-customers-message-suspected/
-  - https://www.infosecurity-magazine.com/news/asos-data-breach-stolen-employee/
-  - https://www.infosecurity-magazine.com/news/pwn2own-hackers-32-zeroday/
-  - https://www.infosecurity-magazine.com/news/google-suspends-opensource-bug/
-
 ### Cisco vulnerability activity
 - Anchor signal: Cisco
 - Theme key: cisco
@@ -662,6 +642,30 @@
   - https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years/
   - https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/
 
+### Fortinet active exploitation
+- Anchor signal: Fortinet
+- Theme key: fortinet
+- Cluster count: 3
+- Article count: 6
+- Cohesion: 0.227
+- Shared strong signals: Fortinet
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: ransomware_extortion, active_exploitation, zero_day, ddos
+  - affected_industries: financial_services, government
+  - affected_products: Fortinet, SonicWall
+  - cve_ids: CVE-2026-88779
+  - urgency_signals: actively_exploited, preauth_unauth, no_patch_yet, poc_available, zero_day
+- Cluster IDs: 566a5f5f45, e0b5b97ad2, c6371def14
+- Links:
+  - https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/
+  - https://www.huntress.com/blog/ahsaycbs-flaws-exploit
+  - https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html
+  - https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html
+  - https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/
+  - https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html
+
 ### Apple iOS/macOS vulnerability activity
 - Anchor signal: Apple iOS/macOS
 - Theme key: apple-ios-macos
@@ -686,14 +690,14 @@
 - Theme key: sonicwall
 - Cluster count: 3
 - Article count: 6
-- Cohesion: 0.2
+- Cohesion: 0.222
 - Shared strong signals: SonicWall
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - threat_categories: active_exploitation, ransomware_extortion, zero_day
   - affected_industries: financial_services
-  - affected_products: SonicWall
+  - affected_products: SonicWall, Fortinet
   - urgency_signals: actively_exploited, no_patch_yet, poc_available, zero_day
 - Cluster IDs: 566a5f5f45, c6371def14, 21daebd4c3
 - Links:
@@ -704,26 +708,24 @@
   - https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html
   - https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/
 
-### CVE-2026-105134 exploitation activity
-- Anchor signal: CVE-2026-105134
-- Theme key: cve-2026-105134
-- Cluster count: 2
+### phishing social eng targeting Snowflake
+- Anchor signal: Snowflake
+- Theme key: snowflake
+- Cluster count: 3
 - Article count: 4
-- Cohesion: 0.598
-- Shared strong signals: CVE-2026-105134
+- Cohesion: 0.449
+- Shared strong signals: Snowflake
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: active_exploitation
-  - affected_industries: financial_services, critical_infrastructure
-  - cve_ids: CVE-2026-105133, CVE-2026-105134
-  - urgency_signals: actively_exploited, no_patch_yet
-- Cluster IDs: 566a5f5f45, ed65b9e8ab
+  - threat_categories: phishing_social_eng, data_breach
+  - affected_products: Snowflake
+- Cluster IDs: cc01b95e10, 9b2d03167f, 7dd217f11f
 - Links:
-  - https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/
-  - https://www.huntress.com/blog/ahsaycbs-flaws-exploit
-  - https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html
-  - https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/
+  - https://www.rapid7.com/blog/post/it-asos-incident-attackers-using-channels-customers-trust
+  - https://www.infosecurity-magazine.com/news/asos-customers-message-suspected/
+  - https://www.infosecurity-magazine.com/news/asos-data-breach-stolen-employee/
+  - https://www.infosecurity-magazine.com/news/google-suspends-opensource-bug/
 
 ### CVE-2026-105133 exploitation activity
 - Anchor signal: CVE-2026-105133
@@ -795,7 +797,7 @@
   - New industries: (none)
   - New products: Citrix, Fortinet
   - Prior top industries: financial_services, government, healthcare
-  - Prior top products: Anthropic/Claude, OpenAI/ChatGPT, Salesforce
+  - Prior top products: Microsoft SharePoint, OpenAI/ChatGPT, Salesforce
 - **Scattered Spider** (cluster 65d4a0ce51)
   - New industries: healthcare
   - New products: Apple iOS/macOS
@@ -1512,16 +1514,16 @@ We just did a major update to FOR577 and added a lot of new material on day 5 ab
   - Published: 2026-10-09T09:55:24+00:00
   - Link: https://www.helpnetsecurity.com/2026/10/09/anthropic-oss-scanner-ai-security-scans/
   - Summary: Anthropic’s OSS Scanner is a new, free service that uses the company’s strongest AI models to find security vulnerabilities in open-source software. Maintainers who opt in receive periodic scans and reports explaining suspected flaws, how to reproduce them and, when available, how to fix them. The service builds on Anthropic’s experience with Project Glasswing, which used Claude to find software vulnerabilities. Anthropic says human validation has become a bottleneck in its vulnerability research. OSS Scanner … More → The post Anthropic offers free AI security scans to open-source maintainers appeared first on Help Net Security .
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws
-  - Published: 2026-10-10T09:18:45+00:00
-  - Link: https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html
-  - Summary: Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites. The AI company said it identified four broad categories of unintended model actions during evaluations and internal use of Claude - Claude Mythos
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: Chinese Hacker Deployed AI in Campaign Against South Korean Banks
   - Published: 2026-10-08T11:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/chinese-hacker-ai-korean-banks/
   - Summary: CrowdStrike revealed that a Chinese-speaking hacker deployed agentic pentesting tool ARTEX and Claude to help breach data from South Korean financial firms
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws
+  - Published: 2026-10-10T09:18:45+00:00
+  - Link: https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html
+  - Summary: Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites. The AI company said it identified four broad categories of unintended model actions during evaluations and internal use of Claude - Claude Mythos
 
 ### Cluster 29870c7de7 — score 14
 
@@ -1725,8 +1727,8 @@ Sinisa Markovic , Managing Editor, Help Net Security October 9, 2026 Share High-
 
 #### Cluster taxonomy (union across members)
 - threat_categories: active_exploitation, apt_espionage, data_breach, ddos, ransomware_extortion, zero_day
-- affected_industries: education, financial_services, government, legal_professional
-- affected_products: Android, OpenAI/ChatGPT, SonicWall
+- affected_industries: education, financial_services, government, manufacturing_industrial
+- affected_products: Android, Fortinet, SonicWall
 - cve_ids: CVE-2026-107406, CVE-2026-88771, CVE-2026-88772, CVE-2026-88779
 - urgency_signals: actively_exploited, no_patch_yet, poc_available, zero_day
 - content_type: news_report, vulnerability_disclosure
@@ -1734,8 +1736,8 @@ Sinisa Markovic , Managing Editor, Help Net Security October 9, 2026 Share High-
 
 #### Primary article taxonomy
 - threat_categories: ransomware_extortion, zero_day, data_breach, ddos, apt_espionage, active_exploitation
-- affected_industries: financial_services, government, education, legal_professional
-- affected_products: SonicWall, OpenAI/ChatGPT, Android
+- affected_industries: financial_services, government, manufacturing_industrial, education
+- affected_products: SonicWall, Android, Fortinet
 - cve_ids: CVE-2026-107406, CVE-2026-88779, CVE-2026-88771, CVE-2026-88772
 - urgency_signals: actively_exploited, zero_day, no_patch_yet, poc_available
 - content_type: vulnerability_disclosure
@@ -1750,7 +1752,7 @@ The security defect, tracked as CVE-2026-107406, could lead to remote code execu
 #### Full body
 
 ```
-Citrix on Thursday warned users of a critical-severity NetScaler vulnerability that requires immediate patching. Tracked as CVE-2026-107406 (CVSS score of 9.5), the flaw is described as a memory overflow that could lead to remote code execution (RCE) or denial-of-service (DoS). According to Citrix, the security defect impacts NetScaler ADC and NetScaler Gateway appliances configured as a SAML SP or SAML IdP, under specific configuration conditions. The bug also affects Secure Private Access Hybrid deployments that use NetScaler. Customers need to update these NetScaler instances as well. Patches were included in NetScaler ADC and Gateway versions 14.1-73.46, 13.1-64.29, 14.1-73.46 FIPS, and 13.1.37.283 (of 13.1-FIPS and 13.1-NDcPP). “As of the publication of the bulletin, Citrix is not aware of any unmitigated exploits of this vulnerability,” Citrix notes , urging customers to upgrade their instances as soon as possible. Advertisement. Scroll to continue reading. Citrix’s fresh warning comes days after the company sounded the alarm on CVE-2026-88779, a zero-day in NetScaler leading to DoS. A week before, two other NetScaler zero-days were patched: CVE-2026-88771 (leading to RCE), and CVE-2026-88772 (leading to RCE or DoS). They have been exploited in attacks against government, financial services, education, legal, and professional services organizations. Related: Critical NetScaler Vulnerability Exploited in Attacks Related: Cisco Patches a Dozen Critical Vulnerabilities Related: Attackers Target Critical Atlassian Vulnerability Within Hours of PoC Publication Related: SonicWall and Splunk Patch Critical Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Patches a Dozen Critical Vulnerabilities SonicWall and Splunk Patch Critical Vulnerabilities Rein Security Raises $25 Million to Guard AI Agents at Runtime Fake Decryption Tools Masked $11M Markup in Ransomware Recovery Scheme FortiBleed Attackers Locking Victims Out of Fortinet Devices Qilin Ransomware Suspect Arrested in Japan, Extradited to Germany Chrome 155 Update Patches 247 Vulnerabilities ASOS Confirms Cyberattack, Data Breach Latest News OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years Google Domains Impacted by Recent ccTLD Hijacks Unpatched AhsayCBS Vulnerabilities Exploited in the Wild Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries US Disrupts Chinese State-Sponsored Hacking Tools Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security Google Pixel 10 Exploits Earned Hackers $560,000 at Pwn2Own Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: AI Is Accelerating Risk. Can Your IT Operations Keep Up? October 14, 2026 Learn about Frontier Pace Governance: a practical approach to helping IT operations move at AI speed without sacrificing security, accountability, or operational discipline. Register Virtual Event: Zero Trust & Identity Strategies Summit 2026 October 14, 2026 Join as we decipher the world of zero trust and share war stories on securing an organization by eliminating implicit trust and continuously validating every stage of a digital interaction. Register People on the Move Rapid7 has named Rik Ferguson as VP of Security Intelligence. Cytactic has appointed Tim Brown as CSO. Scott Simkin has joined Vega as CMO. More People On The Move Expert Insights AI Has Changed Attack Speed, Not Security Fundamentals As AI accelerates vulnerability discovery and exploitation, so-called virtual patching still comes down to defense-in-d
+Citrix on Thursday warned users of a critical-severity NetScaler vulnerability that requires immediate patching. Tracked as CVE-2026-107406 (CVSS score of 9.5), the flaw is described as a memory overflow that could lead to remote code execution (RCE) or denial-of-service (DoS). According to Citrix, the security defect impacts NetScaler ADC and NetScaler Gateway appliances configured as a SAML SP or SAML IdP, under specific configuration conditions. The bug also affects Secure Private Access Hybrid deployments that use NetScaler. Customers need to update these NetScaler instances as well. Patches were included in NetScaler ADC and Gateway versions 14.1-73.46, 13.1-64.29, 14.1-73.46 FIPS, and 13.1.37.283 (of 13.1-FIPS and 13.1-NDcPP). “As of the publication of the bulletin, Citrix is not aware of any unmitigated exploits of this vulnerability,” Citrix notes , urging customers to upgrade their instances as soon as possible. Advertisement. Scroll to continue reading. Citrix’s fresh warning comes days after the company sounded the alarm on CVE-2026-88779, a zero-day in NetScaler leading to DoS. A week before, two other NetScaler zero-days were patched: CVE-2026-88771 (leading to RCE), and CVE-2026-88772 (leading to RCE or DoS). They have been exploited in attacks against government, financial services, education, legal, and professional services organizations. Related: Critical NetScaler Vulnerability Exploited in Attacks Related: Cisco Patches a Dozen Critical Vulnerabilities Related: Attackers Target Critical Atlassian Vulnerability Within Hours of PoC Publication Related: SonicWall and Splunk Patch Critical Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Patches a Dozen Critical Vulnerabilities SonicWall and Splunk Patch Critical Vulnerabilities Rein Security Raises $25 Million to Guard AI Agents at Runtime Fake Decryption Tools Masked $11M Markup in Ransomware Recovery Scheme FortiBleed Attackers Locking Victims Out of Fortinet Devices Qilin Ransomware Suspect Arrested in Japan, Extradited to Germany Chrome 155 Update Patches 247 Vulnerabilities ASOS Confirms Cyberattack, Data Breach Latest News Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years Google Domains Impacted by Recent ccTLD Hijacks Unpatched AhsayCBS Vulnerabilities Exploited in the Wild Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries US Disrupts Chinese State-Sponsored Hacking Tools Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: AI Is Accelerating Risk. Can Your IT Operations Keep Up? October 14, 2026 Learn about Frontier Pace Governance: a practical approach to helping IT operations move at AI speed without sacrificing security, accountability, or operational discipline. Register Virtual Event: Zero Trust & Identity Strategies Summit 2026 October 14, 2026 Join as we decipher the world of zero trust and share war stories on securing an organization by eliminating implicit trust and continuously validating every stage of a digital interaction. Register People on the Move Rapid7 has named Rik Ferguson as VP of Security Intelligence. Cytactic has appointed Tim Brown as CSO. Scott Simkin has joined Vega as CMO. More People On The Move Expert Insights AI Has Changed Attack Speed, Not Security Fundamentals As AI accelerates vulnerability discovery and exploitation, so-called virtual patching still comes do
 ```
 
 #### Corroborating sources (2)
@@ -1765,53 +1767,6 @@ Citrix on Thursday warned users of a critical-severity NetScaler vulnerability t
   - Published: 2026-10-09T08:11:33+00:00
   - Link: https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html
   - Summary: Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service (DoS) under certain conditions. "CVE-2026-107406 is a memory overflow vulnerability that may lead to remote code execution or denial-of-service under specific configuration conditions," Citrix said. The vulnerability
-
-### Cluster bacba30b6e — score 12
-
-- Title: Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-10-07T15:34:53+00:00
-- Link: https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ddos
-- affected_products: GitHub
-- cve_ids: CVE-2026-105192, CVE-2026-105756
-- urgency_signals: no_patch_yet, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ddos
-- affected_products: GitHub
-- cve_ids: CVE-2026-105192, CVE-2026-105756
-- urgency_signals: preauth_unauth, no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's multiprocess mode, where the cache runs as a standalone server that LLM workers reach over the ZeroMQ messaging library. A single network
-```
-
-#### Full body
-
-```
-Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely  Swati Khandelwal  Oct 07, 2026 Vulnerability / Artificial Intelligence A critical vulnerability in LMCache , open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's multiprocess mode , where the cache runs as a standalone server that LLM workers reach over the ZeroMQ messaging library. A single network message to that server can run commands as the user the LMCache process runs as. The server can be reached from another machine only when an operator sets it to listen on a routable address, rather than the localhost it uses by default. JFrog disclosed the flaw on October 7 and assigned it a severity score of 9.8 out of 10, in the critical range, the rating it gives a server bound to a routable address. The vulnerability, tracked as CVE-2026-105192 , affects LMCache from version 0.3.9, released in October 2025, through 0.5.5, the latest stable release, and is also present in the 0.5.6 release candidates and the development branch. No fixed version exists. Whether a server is exposed comes down to one setting. By default, the multiprocess server listens only on the local machine, so another host cannot reach it. It becomes reachable when an operator starts it with a routable address, much like multi-node deployments share a cache across machines. LMCache's own example Kubernetes deployment starts the server that way, listening on every network interface. A copy of LMCache running inside a single vLLM process does not open the port at all. The ZeroMQ socket the multiprocess server opens for worker processes to register and share cached data has no authentication. One type of message is unpacked with pickle , a Python format that can carry code and run it as the data is decoded. The server unpacks it while still reading the message's arguments, before any check of the message's type, so a crafted message can run the sender's code. The code runs with the privileges of the LMCache process. On the project's official container images, that process runs as root, according to JFrog. The flaw was found by Yuval Moravchick of JFrog's security research team. There is no patched release. Until one ships, JFrog advises operators not to assign the multiprocess server a routable address and to keep its port on the local machine or on a trusted cluster network. A firewall that limits who can reach the port lowers the risk but does not remove it, because any host that can still open a connection can run code. LMCache has not published a security advisory for the flaw. JFrog's advisory does not provide operators with a way to determine whether a server has already been attacked. Other Reports and a Related vLLM Fix Separately, a GitHub user opened six additional LMCache security reports on October 6, the day before CVE-2026-105192 was made public. They allege unauthenticated access to cached data belonging to different tenants, as well as to several network services that execute commands without a login. The reports come from one account, rest on proof-of-concept claims, and have no CVE, no confirmation from the maintainers, and no fix. One points to a default LMCache that has since changed: an admin HTTP server that listened on every network interface in 0.5.5 listens only on the local host in the 0.5.6 release candidates. A related flaw in vLLM is already fixed. Before version 0.30.0, released September 22, a single request carrying a malformed cache_salt value could crash the engine on deployments that use the LMCache multiprocess connector, a denial-of-service bug tracked as CVE-2026-105756 . It is rated 6.5 and does not allow code execution. The core mistake, handing data from an unauthenticated network socket to pickle, is the same one researchers found across other AI inference frameworks in November 2025,
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely
-  - Published: 2026-10-07T15:34:53+00:00
-  - Link: https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html
-  - Summary: A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's multiprocess mode, where the cache runs as a standalone server that LLM workers reach over the ZeroMQ messaging library. A single network
 
 ### Cluster 335dcadc8b — score 12
 
@@ -1859,6 +1814,53 @@ Infosecurity Magazine Home » News » Critical Flaw in Multiple Atlassian Produc
   - Published: 2026-10-08T10:05:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/critical-vulnerability-atlassian/
   - Summary: A critical vulnerability affecting eight Atlassian products, including Jira and Confluence, is being exploited in the wild, said VulnCheck
+
+### Cluster bacba30b6e — score 12
+
+- Title: Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-10-07T15:34:53+00:00
+- Link: https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ddos
+- affected_products: GitHub
+- cve_ids: CVE-2026-105192, CVE-2026-105756
+- urgency_signals: no_patch_yet, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ddos
+- affected_products: GitHub
+- cve_ids: CVE-2026-105192, CVE-2026-105756
+- urgency_signals: preauth_unauth, no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's multiprocess mode, where the cache runs as a standalone server that LLM workers reach over the ZeroMQ messaging library. A single network
+```
+
+#### Full body
+
+```
+Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely  Swati Khandelwal  Oct 07, 2026 Vulnerability / Artificial Intelligence A critical vulnerability in LMCache , open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's multiprocess mode , where the cache runs as a standalone server that LLM workers reach over the ZeroMQ messaging library. A single network message to that server can run commands as the user the LMCache process runs as. The server can be reached from another machine only when an operator sets it to listen on a routable address, rather than the localhost it uses by default. JFrog disclosed the flaw on October 7 and assigned it a severity score of 9.8 out of 10, in the critical range, the rating it gives a server bound to a routable address. The vulnerability, tracked as CVE-2026-105192 , affects LMCache from version 0.3.9, released in October 2025, through 0.5.5, the latest stable release, and is also present in the 0.5.6 release candidates and the development branch. No fixed version exists. Whether a server is exposed comes down to one setting. By default, the multiprocess server listens only on the local machine, so another host cannot reach it. It becomes reachable when an operator starts it with a routable address, much like multi-node deployments share a cache across machines. LMCache's own example Kubernetes deployment starts the server that way, listening on every network interface. A copy of LMCache running inside a single vLLM process does not open the port at all. The ZeroMQ socket the multiprocess server opens for worker processes to register and share cached data has no authentication. One type of message is unpacked with pickle , a Python format that can carry code and run it as the data is decoded. The server unpacks it while still reading the message's arguments, before any check of the message's type, so a crafted message can run the sender's code. The code runs with the privileges of the LMCache process. On the project's official container images, that process runs as root, according to JFrog. The flaw was found by Yuval Moravchick of JFrog's security research team. There is no patched release. Until one ships, JFrog advises operators not to assign the multiprocess server a routable address and to keep its port on the local machine or on a trusted cluster network. A firewall that limits who can reach the port lowers the risk but does not remove it, because any host that can still open a connection can run code. LMCache has not published a security advisory for the flaw. JFrog's advisory does not provide operators with a way to determine whether a server has already been attacked. Other Reports and a Related vLLM Fix Separately, a GitHub user opened six additional LMCache security reports on October 6, the day before CVE-2026-105192 was made public. They allege unauthenticated access to cached data belonging to different tenants, as well as to several network services that execute commands without a login. The reports come from one account, rest on proof-of-concept claims, and have no CVE, no confirmation from the maintainers, and no fix. One points to a default LMCache that has since changed: an admin HTTP server that listened on every network interface in 0.5.5 listens only on the local host in the 0.5.6 release candidates. A related flaw in vLLM is already fixed. Before version 0.30.0, released September 22, a single request carrying a malformed cache_salt value could crash the engine on deployments that use the LMCache multiprocess connector, a denial-of-service bug tracked as CVE-2026-105756 . It is rated 6.5 and does not allow code execution. The core mistake, handing data from an unauthenticated network socket to pickle, is the same one researchers found across other AI inference frameworks in November 2025,
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely
+  - Published: 2026-10-07T15:34:53+00:00
+  - Link: https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html
+  - Summary: A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's multiprocess mode, where the cache runs as a standalone server that LLM workers reach over the ZeroMQ messaging library. A single network
 
 ### Cluster 467ad059da — score 12
 
@@ -2372,6 +2374,55 @@ Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto By Bill Toul
   - Link: https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/
   - Summary: Threat actors are exploiting one critical and one medium-severity vulnerability still unpatched in the AhsayCBS backup management platform to deploy webshells and cryptocurrency miners. [...]
 
+### Cluster 5abaf61ca8 — score 10
+
+- Title: ClingSTUN Malware Turns Unpatched IoT Devices Into Proxy Nodes
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-10-05T14:30:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/clingstun-backdoor-unpatched-iot/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion, web_shell_backdoor
+- affected_industries: government
+- affected_products: Ivanti
+- cve_ids: CVE-2022-36553, CVE-2023-46805, CVE-2024-21887, CVE-2024-23625, CVE-2025-34035
+- urgency_signals: actively_exploited, no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, data_breach, web_shell_backdoor, active_exploitation
+- affected_industries: government
+- affected_products: Ivanti
+- cve_ids: CVE-2022-36553, CVE-2025-34035, CVE-2024-23625, CVE-2023-46805, CVE-2024-21887
+- urgency_signals: actively_exploited, no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+ClingSTUN exploits known IoT flaws and abuses public STUN servers to keep proxy access to devices
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » ClingSTUN Malware Turns Unpatched IoT Devices Into Proxy Nodes ClingSTUN Malware Turns Unpatched IoT Devices Into Proxy Nodes News 5 October 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino A Linux proxy backdoor has been observed exploiting known, unpatched flaws in internet-facing IoT devices and abusing legitimate public STUN servers to keep compromised systems reachable as remotely controlled proxy nodes. FortiGuard Labs, which dubbed the malware ClingSTUN, said in research published on October 5 that it tracked the campaign across three periods, each with a different download server. The first lasted two days and relied on a single flaw, CVE-2022-36553 in Hytec Inter routers. In the second, the attackers switched to two vulnerability: CVE-2025-34035 in EnGenius's IoT cloud service and CVE-2024-23625 in D-Link's UPnP service. The operators then spread the malware through command injection flaws in Linear, Realtek, TP-Link, AVTECH and D-Link devices. In the third period, the attackers added more entry points, and FortiGuard's list now stands at 24 vulnerabilities, including Ivanti Connect Secure flaws CVE-2023-46805 and CVE-2024-21887 and newer bugs such as CVE-2026-36356 and CVE-2025-67038. STUN Traffic Blends With VoIP and WebRTC ClingSTUN works as a back-connect proxy . It sends STUN binding requests to public servers, 24 in the second version and 13 in the third, to discover its external address and port mappings and keep NAT bindings open, then periodically reports its group identifier and mapped ports to the same servers. Because the servers are legitimate, the traffic resembles normal VoIP and WebRTC communications. FortiGuard said how the operator obtains the mappings and pushes commands through NAT remains unverified, and warned against treating the STUN services as attacker-controlled infrastructure. The malware kills competing processes and watchdog timers, copies itself into system locations, modifies boot scripts for persistence and hides behind process information copied from the system's init process. It supports remote command execution and carries hard-coded exploits for seven more vulnerabilities, including flaws in Realtek's SDK and three DVR products, to spread itself. Read more on IoT malware: New Mirai-Based Linux Botnet 'Evooo1Bot' Turns Victims Into Proxies Defenders Weigh Containment Against Patching Louis Eichenbaum, federal CTO at ColorTokens warned. "ClingSTUN is another reminder that organizations cannot patch their way out of cyber risk." He argued for compensating controls around devices that cannot be fixed immediately, with microsegmentation to limit lateral movement. Meanwhile, John Gallagher, VP at IoT security firm Viakoo, disagreed on segmentation. "Believing that network segmentation provides security is a flawed assumption," he said, arguing instead for automated firmware remediation across multivendor IoT fleets. "Visibility alone will not save you here," he added. FortiGuard advised assessing STUN activity alongside suspicious processes, unexpected UDP connections and recurring keepalive traffic. The cybersecurity firm also urged organizations to inventory internet-facing devices, prioritize patches for actively exploited flaws and replace or isolate devices that no longer receive security updates. You may also like GoTitan Botnet and PrCtrl RAT Exploit Apache Vulnerability News 29 November 2023 MostereRAT Targets Windows Users With Stealth Tactics News 8 September 2025 Phishing Campaign Uses Havoc Framework to Control Infected Systems News 3 March 2025 Advanced ValleyRAT Campaign Hits Windows Users in China News 15 August 2024 SEO Poisoning Targets Chinese Users with Fake Software Sites News 15 September 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Q3 2026 Sets New Record for Ransomware Attacks News 9 October 2026 1 ASOS Confirms Data Breach Linked to Stolen Employee Credent
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: ClingSTUN Malware Turns Unpatched IoT Devices Into Proxy Nodes
+  - Published: 2026-10-05T14:30:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/clingstun-backdoor-unpatched-iot/
+  - Summary: ClingSTUN exploits known IoT flaws and abuses public STUN servers to keep proxy access to devices
+
 ### Cluster c18e100563 — score 10
 
 - Title: Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes
@@ -2422,55 +2473,6 @@ Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes
   - Published: 2026-10-05T16:21:52+00:00
   - Link: https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html
   - Summary: Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain conditions. The vulnerability, tracked as CVE-2026-96940, is rated 8.8 on the CVSS scoring system. "Weak authorization in Microsoft Exchange Server allows an authenticated attacker to elevate privileges over a
-
-### Cluster 5abaf61ca8 — score 10
-
-- Title: ClingSTUN Malware Turns Unpatched IoT Devices Into Proxy Nodes
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-10-05T14:30:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/clingstun-backdoor-unpatched-iot/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, phishing_social_eng, web_shell_backdoor
-- affected_industries: government
-- affected_products: Ivanti
-- cve_ids: CVE-2022-36553, CVE-2023-46805, CVE-2024-21887, CVE-2024-23625, CVE-2025-34035
-- urgency_signals: actively_exploited, no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, web_shell_backdoor, active_exploitation
-- affected_industries: government
-- affected_products: Ivanti
-- cve_ids: CVE-2022-36553, CVE-2025-34035, CVE-2024-23625, CVE-2023-46805, CVE-2024-21887
-- urgency_signals: actively_exploited, no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-ClingSTUN exploits known IoT flaws and abuses public STUN servers to keep proxy access to devices
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » ClingSTUN Malware Turns Unpatched IoT Devices Into Proxy Nodes ClingSTUN Malware Turns Unpatched IoT Devices Into Proxy Nodes News 5 October 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino A Linux proxy backdoor has been observed exploiting known, unpatched flaws in internet-facing IoT devices and abusing legitimate public STUN servers to keep compromised systems reachable as remotely controlled proxy nodes. FortiGuard Labs, which dubbed the malware ClingSTUN, said in research published on October 5 that it tracked the campaign across three periods, each with a different download server. The first lasted two days and relied on a single flaw, CVE-2022-36553 in Hytec Inter routers. In the second, the attackers switched to two vulnerability: CVE-2025-34035 in EnGenius's IoT cloud service and CVE-2024-23625 in D-Link's UPnP service. The operators then spread the malware through command injection flaws in Linear, Realtek, TP-Link, AVTECH and D-Link devices. In the third period, the attackers added more entry points, and FortiGuard's list now stands at 24 vulnerabilities, including Ivanti Connect Secure flaws CVE-2023-46805 and CVE-2024-21887 and newer bugs such as CVE-2026-36356 and CVE-2025-67038. STUN Traffic Blends With VoIP and WebRTC ClingSTUN works as a back-connect proxy . It sends STUN binding requests to public servers, 24 in the second version and 13 in the third, to discover its external address and port mappings and keep NAT bindings open, then periodically reports its group identifier and mapped ports to the same servers. Because the servers are legitimate, the traffic resembles normal VoIP and WebRTC communications. FortiGuard said how the operator obtains the mappings and pushes commands through NAT remains unverified, and warned against treating the STUN services as attacker-controlled infrastructure. The malware kills competing processes and watchdog timers, copies itself into system locations, modifies boot scripts for persistence and hides behind process information copied from the system's init process. It supports remote command execution and carries hard-coded exploits for seven more vulnerabilities, including flaws in Realtek's SDK and three DVR products, to spread itself. Read more on IoT malware: New Mirai-Based Linux Botnet 'Evooo1Bot' Turns Victims Into Proxies Defenders Weigh Containment Against Patching Louis Eichenbaum, federal CTO at ColorTokens warned. "ClingSTUN is another reminder that organizations cannot patch their way out of cyber risk." He argued for compensating controls around devices that cannot be fixed immediately, with microsegmentation to limit lateral movement. Meanwhile, John Gallagher, VP at IoT security firm Viakoo, disagreed on segmentation. "Believing that network segmentation provides security is a flawed assumption," he said, arguing instead for automated firmware remediation across multivendor IoT fleets. "Visibility alone will not save you here," he added. FortiGuard advised assessing STUN activity alongside suspicious processes, unexpected UDP connections and recurring keepalive traffic. The cybersecurity firm also urged organizations to inventory internet-facing devices, prioritize patches for actively exploited flaws and replace or isolate devices that no longer receive security updates. You may also like GoTitan Botnet and PrCtrl RAT Exploit Apache Vulnerability News 29 November 2023 MostereRAT Targets Windows Users With Stealth Tactics News 8 September 2025 Phishing Campaign Uses Havoc Framework to Control Infected Systems News 3 March 2025 Advanced ValleyRAT Campaign Hits Windows Users in China News 15 August 2024 SEO Poisoning Targets Chinese Users with Fake Software Sites News 15 September 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Attackers Hide AI Prompt Injections Inside Phishing Emails News 7 October 2026 1 FBI and Secret Service Warn of FortiBleed Locko
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: ClingSTUN Malware Turns Unpatched IoT Devices Into Proxy Nodes
-  - Published: 2026-10-05T14:30:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/clingstun-backdoor-unpatched-iot/
-  - Summary: ClingSTUN exploits known IoT flaws and abuses public STUN servers to keep proxy access to devices
 
 ### Cluster 7e0023e1fe — score 10
 
@@ -3050,88 +3052,6 @@ A Kansas City, Missouri man has been sentenced to 32 months in jail for crimes r
   - Link: https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/
   - Summary: The former core infrastructure engineer deleted admin accounts, reset hundreds of passwords, and demanded 20 bitcoin to spare the company’s servers. The post Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison appeared first on SecurityWeek .
 
-### Cluster b4d3bcfeec — score 8
-
-- Title: Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-10-08T15:45:56+00:00
-- Link: https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said. The Tokyo-based center, which takes incident reports, based its October 8, 2026 alert on those reports and other information. The alert names no attacker and no affected organization. JPCERT/
-```
-
-#### Full body
-
-```
-Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks  Swati Khandelwal  Oct 08, 2026 Data Breach / Web Security Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said. The Tokyo-based center, which takes incident reports, based its October 8, 2026 alert on those reports and other information. The alert names no attacker and no affected organization. JPCERT/CC called what it knows "limited and fragmentary" in the alert, translated here from Japanese. It said its account does not mean the same method was used in every incident. Besides consumer apps, the systems hit include business intelligence (BI) tools and employee-facing management systems that their operators did not expect the public to reach. Data stored in them leaked in some cases. For defenders, the alert includes eight source IP addresses, five User-Agent strings, and a list of API controls, including access controls on every endpoint, public or not. The only product it names as a target is Metabase , a BI tool with a known flaw that attackers have exploited. Metabase has urged users to upgrade to at least the minimum safe releases in a list last updated August 14. Those releases are newer than the first fix for that flaw. The leaks have come one after another around September 2026. The attacks behind them are separate from ransomware and other routine incidents, lead to leaks of large amounts of personal data, and may be increasing, JPCERT/CC said. JPCERT/CC gave no count. One comes from the Security Research Center of Japanese company Macnica, in an analysis published October 7 that the alert cites. Macnica counted 119 incidents made public this year through October 6 in which personal data was stolen or leaked through web systems run by organizations in Japan. It counted 84 in all of 2025 and 62 in 2024, and 81 of this year's 119 came in July or later. The count covers only incidents that Macnica judged similar to the current series. It leaves out ransomware and cases Macnica ties to other attack groups. Of the 81 made public since July, 65 gave too little detail to tell how the attackers got in. The targets have spread from online shops to member services, business systems and customer support. Recent cases include a library's catalog search and a tourist train's seat booking system. Two cases show the scale. Park24 said on September 28 that a third party obtained data on about 6.6 million accounts from the web system of its Times Car car-sharing service. A day later, it said that identity documents , such as driver's license images, had leaked from about 1.6 million accounts. Monogatari Corporation, which runs the Yakiniku King restaurant chain, said 10,788,963 records leaked from the member system of its Yakiniku King app, INTERNET Watch reported on October 5. Both companies said at the time that the cause was still under investigation. Macnica also found 99 similar cases in 13 other countries and regions, mostly from July to September, including 30 in South Korea, 11 in France and 8 in Poland. It does not know whether Japan is the only target, and said disclosure laws and practices differ by country. How the Attackers Get In JPCERT/CC's alert describes three patterns. The first is unauthorized requests to the management APIs behind an app. In some cases, those requests rewrote information. JPCERT/CC has received multiple reports of three ways attackers do this: They analyze a publicly released smartphone app to find its API endpoints and keys. They attack internal APIs that cannot be used through the app's screens. Reported actions include changing a user's privileges, creating unauthorized accounts, comparing how the server answers when a header is added or removed or a malformed authentication token is sent, and finding account details through blind NoSQL injection. They use API keys stolen wh
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks
-  - Published: 2026-10-08T15:45:56+00:00
-  - Link: https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html
-  - Summary: Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said. The Tokyo-based center, which takes incident reports, based its October 8, 2026 alert on those reports and other information. The alert names no attacker and no affected organization. JPCERT/
-
-### Cluster e3ed341c60 — score 8
-
-- Title: 100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-10-07T06:57:54+00:00
-- Link: https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: Microsoft Defender
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- affected_products: Microsoft Defender
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stealer). The activity, which was observed by the agency in September 2026, has been attributed to a threat cluster dubbed UAC-0277. It did not disclose who the
-```
-
-#### Full body
-
-```
-100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer  Ravie Lakshmanan  Oct 07, 2026 Malware / Web Security The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stealer). The activity, which was observed by the agency in September 2026, has been attributed to a threat cluster dubbed UAC-0277. It did not disclose who the victims of the campaign were or if any systems were successfully compromised as a result of these attacks. "When visiting such a site, users were shown a forged Cloudflare verification page that, under the pretext of confirming the visitor is human, prompted them to execute a command," CERT-UA said in an advisory. "Executing the command caused a malicious MSI package to be downloaded and installed from a remote server (the ClickFix technique)." The attacks also make use of the EtherHiding technique to retrieve the domain name of the resource from which the fake verification page is loaded, as well as the script's operating mode, from a smart contract on the Polygon or Ethereum network. According to CERT-UA, there are three operating modes: 0 – inactive; 1 – passive tracking of visitors that includes gathering data about the website and the page from which the visitor arrived; and 2 – displaying the fake verification page. In Mode 2, the bogus verification page is shown only to Windows users who arrive at the site from search engine results and not more than twice in 12 hours. These ClickFix lures lead to the distribution of MSI packages that deliver LunexStealer. At least three different variants of the MSI packages have been discovered - Variant 1 , which installs LunexStealer on the system. Variant 2 , which attempts to bypass Windows account control (UAC), configures Microsoft Defender exclusions, leverages the legitimate-but-vulnerable AMD driver ("PDFWKRNL.sys") to blind security software, and then retrieves and runs LunexStealer from a remote server. Variant 3 , which launches LunexStealer via DLL sideloading by using the legitimate binary ("FnHotkeyUtility.exe") to load a rogue DLL ("spkvol.dll"), which decrypts and executes the stealer. As documented by both Arctic Wolf Labs and Ontinue , LunexStealer is also designed to install a malicious browser extension called LUNARAXE. The extension masquerades as "Microsoft Office Word Editor" to steal cookies, browsing history, and credentials entered into web forms. It also allows the operator to remotely control the browser and execute arbitrary JavaScript on web pages. The stealer also deploys an auxiliary component named NAIVEMESS that's installed based on a configuration received from the command-and-control (C2) server. Its primary responsibility is to provide LUNARAXE with access to the Windows file system through a PowerShell-based Native Messaging Host. "NAIVEMESS functionality includes retrieving the list of drives, browsing directories, reading, creating and overwriting files, as well as executing them," CERT-UA said. "Files are transferred in chunks encoded in Base64, and directories and file groups are pre‑archived into ZIP." The component does have its own communication channel with the C2 server. Rather, commands are received via the extension, which houses three other modules - LUNARAXE.CORE, which handles C2 communication, receives commands, executes them, and exfiltrates browser data (i.e., cookies, browsing history, bookmarks, details about installed extensions, and intercepted credentials). It can also manage tabs, enable/disable extensions, serve notifications, run JavaScript on web pages, and display bogus overlays. It can also copy files from the computer, write files to it, and execute them if NAIVEMESS is installed. LUNARAXE.STEALER, which captures credentials entered into web forms and sends them to LUNARAXE.CORE, along with the pa
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: 100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer
-  - Published: 2026-10-07T06:57:54+00:00
-  - Link: https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html
-  - Summary: The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stealer). The activity, which was observed by the agency in September 2026, has been attributed to a threat cluster dubbed UAC-0277. It did not disclose who the
-
 ### Cluster c00df1179c — score 8
 
 - Title: $10 million bounty offered for Chinese Hafnium hacker accused of Microsoft Exchange Server mega-attack
@@ -3277,15 +3197,15 @@ Infosecurity Magazine Home » News » ASOS Confirms Data Breach Linked to Stolen
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach, phishing_social_eng, vulnerability_disclosure, zero_day
-- affected_products: OpenAI/ChatGPT, Snowflake
+- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion, vulnerability_disclosure, zero_day
+- affected_products: OpenAI/ChatGPT
 - urgency_signals: actively_exploited, zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng, zero_day, data_breach, vulnerability_disclosure, active_exploitation
-- affected_products: OpenAI/ChatGPT, Snowflake
+- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach, vulnerability_disclosure, active_exploitation
+- affected_products: OpenAI/ChatGPT
 - urgency_signals: actively_exploited, zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
@@ -3299,7 +3219,7 @@ Ethical hackers have already found 32 zero days in various products at Pwn2Own I
 #### Full body
 
 ```
-Infosecurity Magazine Home » News » Pwn2Own Hackers Find 32 Zero-Day Vulnerabilities on Day One Pwn2Own Hackers Find 32 Zero-Day Vulnerabilities on Day One News 7 October 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Some of the world’s top ethical hackers descended on the Irish city of Cork in an event that began on October 6, where they have already discovered dozens of zero-day flaws in the latest Pwn2Own Ireland. The hacking competition pits teams against each other in a contest to see who can unearth the most novel vulnerabilities. On the first day of the Zero Day Initiative’s Pwn2Own Ireland 2026, teams targeted smartphones, smart home devices, printers, and AI tools like OpenAI Codex and LiteLLM. Their total haul was 32 zero-day vulnerabilities and over $368,000 in prize money, as well as a trove of “Master of Pwn” points which will be totted up at the end of the competition. Read more on Pwn2Own: Security Researchers Find 47 Zero-Days at Pwn2Own Berlin. Day one saw several successes, including: @_McCaulay combined an out-of-bounds write and a format string(!) bug to exploit the Sonos Era 300 Taisic Yun of Xint used an improper input validation bug and code injection to get a reverse shell on LiteLLM Vũ Chí Thành and Huỳnh Đức Tin of VinSOC found seven zero days during their exploit of Philips Hue Bridge Pro Thanh Do of Team Confused used a single use-after-free exploit on the Lexmark CX532adwe Nam Nguyen, Thanh Vu, and Tin Huynh of VinSOC combined five zero days to exploit the Oracle Autonomous AI Database Ikotas Labs, Inc. used a single argument injection bug to exploit OpenAI Codex Interrupt Labs used an OOB read and an OOB write to exploit the Garmin Index BPM Ethical Hacking to the Fore Hacking competitions like this are arguably more important than ever as vendors struggle to find vulnerabilities in their products before their adversaries do. As a part of the Zero Day Initiative (ZDI), Pwn2Own findings are responsibly disclosed to the relevant vendors, who then have 90 days to release updates before the ZDI publishes them. AI-enabled tools are increasingly being used in an offensive capacity to research exploits, either for novel bugs or recently published flaws. According to Google , vulnerability disclosures doubled from 5045 in January 2026 to 10,477 in July, reaching 10,740 in August 2026. Exploited vulnerabilities rose from an average of 10.5 a month in 2025 to 18 a month so far in 2026. AI discovery also skews to higher impact flaws: 50% of vulnerabilities Google identified as likely AI-discovered resulted in remote code execution, against 26% of other CVEs. However, separate research claims that just 1% of AI-discovered vulnerabilities have been exploited in the wild. Pwn2Own continues on October 7 and 8, when the Master of Pwn will be announced. You may also like Researchers Discover Over 70 Zero-Day Bugs at Pwn2Own Ireland News 28 October 2024 Researchers Find 63 Zero-Day Bugs at Latest Pwn2Own News 12 December 2022 Security Researchers Win Second Tesla At Pwn2Own News 21 March 2024 Security Researchers Find 47 Zero-Days at Pwn2Own Berlin News 18 May 2026 HackerOne Exceeds $300m in Bug Bounty Payments News 30 October 2023 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Attackers Hide AI Prompt Injections Inside Phishing Emails News 7 October 2026 1 FBI and Secret Service Warn of FortiBleed Lockout Threat News 8 October 2026 2 Telegram Account Behind ASOS Rogue Notification Tied to Gaming Trading News 7 October 2026 3 ASOS Customers Receive Bizarre “Hacked” Message Amid Suspected Snowflake Compromise News 6 October 2026 4 ASOS Confirms Data Breach Linked to Stolen Employee Credentials News 8 October 2026 5 Chinese Hacker Deployed AI in Campaign Against South Korean Banks News 8 October 2026 6 Who Authorized That Agent? Enforcing AI Authority Before the Action Webinar 15:00 — 16:00, 8 October 2026 1 Telegram Account B
+Infosecurity Magazine Home » News » Pwn2Own Hackers Find 32 Zero-Day Vulnerabilities on Day One Pwn2Own Hackers Find 32 Zero-Day Vulnerabilities on Day One News 7 October 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Some of the world’s top ethical hackers descended on the Irish city of Cork in an event that began on October 6, where they have already discovered dozens of zero-day flaws in the latest Pwn2Own Ireland. The hacking competition pits teams against each other in a contest to see who can unearth the most novel vulnerabilities. On the first day of the Zero Day Initiative’s Pwn2Own Ireland 2026, teams targeted smartphones, smart home devices, printers, and AI tools like OpenAI Codex and LiteLLM. Their total haul was 32 zero-day vulnerabilities and over $368,000 in prize money, as well as a trove of “Master of Pwn” points which will be totted up at the end of the competition. Read more on Pwn2Own: Security Researchers Find 47 Zero-Days at Pwn2Own Berlin. Day one saw several successes, including: @_McCaulay combined an out-of-bounds write and a format string(!) bug to exploit the Sonos Era 300 Taisic Yun of Xint used an improper input validation bug and code injection to get a reverse shell on LiteLLM Vũ Chí Thành and Huỳnh Đức Tin of VinSOC found seven zero days during their exploit of Philips Hue Bridge Pro Thanh Do of Team Confused used a single use-after-free exploit on the Lexmark CX532adwe Nam Nguyen, Thanh Vu, and Tin Huynh of VinSOC combined five zero days to exploit the Oracle Autonomous AI Database Ikotas Labs, Inc. used a single argument injection bug to exploit OpenAI Codex Interrupt Labs used an OOB read and an OOB write to exploit the Garmin Index BPM Ethical Hacking to the Fore Hacking competitions like this are arguably more important than ever as vendors struggle to find vulnerabilities in their products before their adversaries do. As a part of the Zero Day Initiative (ZDI), Pwn2Own findings are responsibly disclosed to the relevant vendors, who then have 90 days to release updates before the ZDI publishes them. AI-enabled tools are increasingly being used in an offensive capacity to research exploits, either for novel bugs or recently published flaws. According to Google , vulnerability disclosures doubled from 5045 in January 2026 to 10,477 in July, reaching 10,740 in August 2026. Exploited vulnerabilities rose from an average of 10.5 a month in 2025 to 18 a month so far in 2026. AI discovery also skews to higher impact flaws: 50% of vulnerabilities Google identified as likely AI-discovered resulted in remote code execution, against 26% of other CVEs. However, separate research claims that just 1% of AI-discovered vulnerabilities have been exploited in the wild. Pwn2Own continues on October 7 and 8, when the Master of Pwn will be announced. You may also like Researchers Discover Over 70 Zero-Day Bugs at Pwn2Own Ireland News 28 October 2024 Researchers Find 63 Zero-Day Bugs at Latest Pwn2Own News 12 December 2022 Security Researchers Win Second Tesla At Pwn2Own News 21 March 2024 Security Researchers Find 47 Zero-Days at Pwn2Own Berlin News 18 May 2026 HackerOne Exceeds $300m in Bug Bounty Payments News 30 October 2023 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Q3 2026 Sets New Record for Ransomware Attacks News 9 October 2026 1 ASOS Confirms Data Breach Linked to Stolen Employee Credentials News 8 October 2026 2 UK and Allies Warn of Cyber Threat from China’s Integrity Technology Group News 9 October 2026 3 Attackers Hide AI Prompt Injections Inside Phishing Emails News 7 October 2026 4 Chinese Hacker Deployed AI in Campaign Against South Korean Banks News 8 October 2026 5 FBI and Secret Service Warn of FortiBleed Lockout Threat News 8 October 2026 6 Telegram Account Behind ASOS Rogue Notification Tied to Gaming Trading News 7 October 2026 1 Who Authorized That Agent? Enforcing AI Authority Before the Actio
 ```
 
 #### Corroborating sources (1)
@@ -3342,7 +3262,7 @@ Google has paused its Open Source Vulnerability Rewards Program due to a flood o
 #### Full body
 
 ```
-Infosecurity Magazine Home » News » Google Suspends Open-Source Bug Bounty Due to AI Vulnerability Reports Google Suspends Open-Source Bug Bounty Due to AI Vulnerability Reports News 5 October 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn Google has suspended its open-source bug bounty program until 2027 in an effort to stem the flood of AI submissions. In a statement posted on social media on October 1, Google said the pause was prompted by “a significant rise in automated submissions, the vast majority of which are not valid.” Google OSS VRP: History and Scope Google’s Open Source Vulnerability Rewards Program (OSS VRP) was launched in August 2022. It rewards security researchers for identifying vulnerabilities in Google’s open-source software projects. The program covers the latest versions of open-source software hosted in public repositories owned by Google on GitHub, as well as selected repositories on other platforms. It also includes repository configuration settings, such as GitHub Actions workflows, access control rules and GitHub application configurations. Rewards range from $100 to $31,337 based on the severity level of the reported flaws and the project's importance. The OSS VRP is one of several bug bounty programs operated by Google and has a relatively narrow focus. Vulnerabilities in Google's open source projects that are closely linked to Google Cloud or AI products are directed to the Google Cloud Vulnerability Reward Program (Cloud VRP) or the AI Vulnerability Reward Program (AI VRP), allowing reports to be routed to the teams best placed to assess and address them. Google Plans OSS VRP Overhaul The suspension will not affect OSS VRP supply-chain reports or any reports already submitted, Google said. The company plans to “reformat” the program and expects to provide an update in the first quarter of 2027. “As an alternative, we encourage you to find impact across our other VRP programs and submit there instead, or pursue the Patch Rewards Program,” Google said. Image credits: JHVEPhoto / Shutterstock.com Read now: How Industry Coalitions Are Rallying to Secure Open Source Software for the AI Era You may also like Google Announces $350,000 Project Zero Prize News 14 September 2016 Google Patches 12 Flaws, Pays $11K Bug Bounty in Chrome Update News 14 November 2013 Google's Naptime Framework to Boost Vulnerability Research with AI News 25 June 2024 Google Paid $10m in Bug Bounties to Security Researchers in 2023 News 14 March 2024 Over 50,000 Vulnerabilities Discovered in DoD Systems Through Bug Bounty Program News 18 March 2024 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Attackers Hide AI Prompt Injections Inside Phishing Emails News 7 October 2026 1 FBI and Secret Service Warn of FortiBleed Lockout Threat News 8 October 2026 2 Telegram Account Behind ASOS Rogue Notification Tied to Gaming Trading News 7 October 2026 3 ASOS Customers Receive Bizarre “Hacked” Message Amid Suspected Snowflake Compromise News 6 October 2026 4 ASOS Confirms Data Breach Linked to Stolen Employee Credentials News 8 October 2026 5 Chinese Hacker Deployed AI in Campaign Against South Korean Banks News 8 October 2026 6 Who Authorized That Agent? Enforcing AI Authority Before the Action Webinar 15:00 — 16:00, 8 October 2026 1 Telegram Account Behind ASOS Rogue Notification Tied to Gaming Trading News 7 October 2026 2 ASOS Customers Receive Bizarre “Hacked” Message Amid Suspected Snowflake Compromise News 6 October 2026 3 Google Suspends Open-Source Bug Bounty Due to AI Vulnerability Reports News 5 October 2026 4 Ransomware Affiliate Double-Crosses RaaS Operator to Steal Victim Funds News 6 October 2026 5 Attackers Hide AI Prompt Injections Inside Phishing Emails News 7 October 2026 6 Who Authorized That Agent? Enforcing AI Authority Before the Action Webinar 15:00 — 16:00, 8 October 2026 1 Your Security Awareness Programme Isn't Failing, It's Just
+Infosecurity Magazine Home » News » Google Suspends Open-Source Bug Bounty Due to AI Vulnerability Reports Google Suspends Open-Source Bug Bounty Due to AI Vulnerability Reports News 5 October 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn Google has suspended its open-source bug bounty program until 2027 in an effort to stem the flood of AI submissions. In a statement posted on social media on October 1, Google said the pause was prompted by “a significant rise in automated submissions, the vast majority of which are not valid.” Google OSS VRP: History and Scope Google’s Open Source Vulnerability Rewards Program (OSS VRP) was launched in August 2022. It rewards security researchers for identifying vulnerabilities in Google’s open-source software projects. The program covers the latest versions of open-source software hosted in public repositories owned by Google on GitHub, as well as selected repositories on other platforms. It also includes repository configuration settings, such as GitHub Actions workflows, access control rules and GitHub application configurations. Rewards range from $100 to $31,337 based on the severity level of the reported flaws and the project's importance. The OSS VRP is one of several bug bounty programs operated by Google and has a relatively narrow focus. Vulnerabilities in Google's open source projects that are closely linked to Google Cloud or AI products are directed to the Google Cloud Vulnerability Reward Program (Cloud VRP) or the AI Vulnerability Reward Program (AI VRP), allowing reports to be routed to the teams best placed to assess and address them. Google Plans OSS VRP Overhaul The suspension will not affect OSS VRP supply-chain reports or any reports already submitted, Google said. The company plans to “reformat” the program and expects to provide an update in the first quarter of 2027. “As an alternative, we encourage you to find impact across our other VRP programs and submit there instead, or pursue the Patch Rewards Program,” Google said. Image credits: JHVEPhoto / Shutterstock.com Read now: How Industry Coalitions Are Rallying to Secure Open Source Software for the AI Era You may also like Google Announces $350,000 Project Zero Prize News 14 September 2016 Google Patches 12 Flaws, Pays $11K Bug Bounty in Chrome Update News 14 November 2013 Google's Naptime Framework to Boost Vulnerability Research with AI News 25 June 2024 Google Paid $10m in Bug Bounties to Security Researchers in 2023 News 14 March 2024 Over 50,000 Vulnerabilities Discovered in DoD Systems Through Bug Bounty Program News 18 March 2024 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Q3 2026 Sets New Record for Ransomware Attacks News 9 October 2026 1 ASOS Confirms Data Breach Linked to Stolen Employee Credentials News 8 October 2026 2 UK and Allies Warn of Cyber Threat from China’s Integrity Technology Group News 9 October 2026 3 Attackers Hide AI Prompt Injections Inside Phishing Emails News 7 October 2026 4 Chinese Hacker Deployed AI in Campaign Against South Korean Banks News 8 October 2026 5 FBI and Secret Service Warn of FortiBleed Lockout Threat News 8 October 2026 6 Telegram Account Behind ASOS Rogue Notification Tied to Gaming Trading News 7 October 2026 1 Who Authorized That Agent? Enforcing AI Authority Before the Action Webinar 15:00 — 16:00, 8 October 2026 2 ASOS Customers Receive Bizarre “Hacked” Message Amid Suspected Snowflake Compromise News 6 October 2026 3 Google Suspends Open-Source Bug Bounty Due to AI Vulnerability Reports News 5 October 2026 4 Attackers Hide AI Prompt Injections Inside Phishing Emails News 7 October 2026 5 Ransomware Affiliate Double-Crosses RaaS Operator to Steal Victim Funds News 6 October 2026 6 Who Authorized That Agent? Enforcing AI Authority Before the Action Webinar 15:00 — 16:00, 8 October 2026 1 Your Security Awareness Programme Isn't Failing, It's Just Not Relevant Webinar 15:00 — 16:0
 ```
 
 #### Corroborating sources (1)
@@ -3352,6 +3272,88 @@ Infosecurity Magazine Home » News » Google Suspends Open-Source Bug Bounty Due
   - Published: 2026-10-05T10:30:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/google-suspends-opensource-bug/
   - Summary: Google has paused its Open Source Vulnerability Rewards Program due to a flood of AI submissions
+
+### Cluster b4d3bcfeec — score 8
+
+- Title: Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-10-08T15:45:56+00:00
+- Link: https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said. The Tokyo-based center, which takes incident reports, based its October 8, 2026 alert on those reports and other information. The alert names no attacker and no affected organization. JPCERT/
+```
+
+#### Full body
+
+```
+Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks  Swati Khandelwal  Oct 08, 2026 Data Breach / Web Security Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said. The Tokyo-based center, which takes incident reports, based its October 8, 2026 alert on those reports and other information. The alert names no attacker and no affected organization. JPCERT/CC called what it knows "limited and fragmentary" in the alert, translated here from Japanese. It said its account does not mean the same method was used in every incident. Besides consumer apps, the systems hit include business intelligence (BI) tools and employee-facing management systems that their operators did not expect the public to reach. Data stored in them leaked in some cases. For defenders, the alert includes eight source IP addresses, five User-Agent strings, and a list of API controls, including access controls on every endpoint, public or not. The only product it names as a target is Metabase , a BI tool with a known flaw that attackers have exploited. Metabase has urged users to upgrade to at least the minimum safe releases in a list last updated August 14. Those releases are newer than the first fix for that flaw. The leaks have come one after another around September 2026. The attacks behind them are separate from ransomware and other routine incidents, lead to leaks of large amounts of personal data, and may be increasing, JPCERT/CC said. JPCERT/CC gave no count. One comes from the Security Research Center of Japanese company Macnica, in an analysis published October 7 that the alert cites. Macnica counted 119 incidents made public this year through October 6 in which personal data was stolen or leaked through web systems run by organizations in Japan. It counted 84 in all of 2025 and 62 in 2024, and 81 of this year's 119 came in July or later. The count covers only incidents that Macnica judged similar to the current series. It leaves out ransomware and cases Macnica ties to other attack groups. Of the 81 made public since July, 65 gave too little detail to tell how the attackers got in. The targets have spread from online shops to member services, business systems and customer support. Recent cases include a library's catalog search and a tourist train's seat booking system. Two cases show the scale. Park24 said on September 28 that a third party obtained data on about 6.6 million accounts from the web system of its Times Car car-sharing service. A day later, it said that identity documents , such as driver's license images, had leaked from about 1.6 million accounts. Monogatari Corporation, which runs the Yakiniku King restaurant chain, said 10,788,963 records leaked from the member system of its Yakiniku King app, INTERNET Watch reported on October 5. Both companies said at the time that the cause was still under investigation. Macnica also found 99 similar cases in 13 other countries and regions, mostly from July to September, including 30 in South Korea, 11 in France and 8 in Poland. It does not know whether Japan is the only target, and said disclosure laws and practices differ by country. How the Attackers Get In JPCERT/CC's alert describes three patterns. The first is unauthorized requests to the management APIs behind an app. In some cases, those requests rewrote information. JPCERT/CC has received multiple reports of three ways attackers do this: They analyze a publicly released smartphone app to find its API endpoints and keys. They attack internal APIs that cannot be used through the app's screens. Reported actions include changing a user's privileges, creating unauthorized accounts, comparing how the server answers when a header is added or removed or a malformed authentication token is sent, and finding account details through blind NoSQL injection. They use API keys stolen wh
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks
+  - Published: 2026-10-08T15:45:56+00:00
+  - Link: https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html
+  - Summary: Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said. The Tokyo-based center, which takes incident reports, based its October 8, 2026 alert on those reports and other information. The alert names no attacker and no affected organization. JPCERT/
+
+### Cluster e3ed341c60 — score 8
+
+- Title: 100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-10-07T06:57:54+00:00
+- Link: https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Microsoft Defender
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- affected_products: Microsoft Defender
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stealer). The activity, which was observed by the agency in September 2026, has been attributed to a threat cluster dubbed UAC-0277. It did not disclose who the
+```
+
+#### Full body
+
+```
+100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer  Ravie Lakshmanan  Oct 07, 2026 Malware / Web Security The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stealer). The activity, which was observed by the agency in September 2026, has been attributed to a threat cluster dubbed UAC-0277. It did not disclose who the victims of the campaign were or if any systems were successfully compromised as a result of these attacks. "When visiting such a site, users were shown a forged Cloudflare verification page that, under the pretext of confirming the visitor is human, prompted them to execute a command," CERT-UA said in an advisory. "Executing the command caused a malicious MSI package to be downloaded and installed from a remote server (the ClickFix technique)." The attacks also make use of the EtherHiding technique to retrieve the domain name of the resource from which the fake verification page is loaded, as well as the script's operating mode, from a smart contract on the Polygon or Ethereum network. According to CERT-UA, there are three operating modes: 0 – inactive; 1 – passive tracking of visitors that includes gathering data about the website and the page from which the visitor arrived; and 2 – displaying the fake verification page. In Mode 2, the bogus verification page is shown only to Windows users who arrive at the site from search engine results and not more than twice in 12 hours. These ClickFix lures lead to the distribution of MSI packages that deliver LunexStealer. At least three different variants of the MSI packages have been discovered - Variant 1 , which installs LunexStealer on the system. Variant 2 , which attempts to bypass Windows account control (UAC), configures Microsoft Defender exclusions, leverages the legitimate-but-vulnerable AMD driver ("PDFWKRNL.sys") to blind security software, and then retrieves and runs LunexStealer from a remote server. Variant 3 , which launches LunexStealer via DLL sideloading by using the legitimate binary ("FnHotkeyUtility.exe") to load a rogue DLL ("spkvol.dll"), which decrypts and executes the stealer. As documented by both Arctic Wolf Labs and Ontinue , LunexStealer is also designed to install a malicious browser extension called LUNARAXE. The extension masquerades as "Microsoft Office Word Editor" to steal cookies, browsing history, and credentials entered into web forms. It also allows the operator to remotely control the browser and execute arbitrary JavaScript on web pages. The stealer also deploys an auxiliary component named NAIVEMESS that's installed based on a configuration received from the command-and-control (C2) server. Its primary responsibility is to provide LUNARAXE with access to the Windows file system through a PowerShell-based Native Messaging Host. "NAIVEMESS functionality includes retrieving the list of drives, browsing directories, reading, creating and overwriting files, as well as executing them," CERT-UA said. "Files are transferred in chunks encoded in Base64, and directories and file groups are pre‑archived into ZIP." The component does have its own communication channel with the C2 server. Rather, commands are received via the extension, which houses three other modules - LUNARAXE.CORE, which handles C2 communication, receives commands, executes them, and exfiltrates browser data (i.e., cookies, browsing history, bookmarks, details about installed extensions, and intercepted credentials). It can also manage tabs, enable/disable extensions, serve notifications, run JavaScript on web pages, and display bogus overlays. It can also copy files from the computer, write files to it, and execute them if NAIVEMESS is installed. LUNARAXE.STEALER, which captures credentials entered into web forms and sends them to LUNARAXE.CORE, along with the pa
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: 100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer
+  - Published: 2026-10-07T06:57:54+00:00
+  - Link: https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html
+  - Summary: The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stealer). The activity, which was observed by the agency in September 2026, has been attributed to a threat cluster dubbed UAC-0277. It did not disclose who the
 
 ### Cluster 54f7c645e2 — score 8
 
