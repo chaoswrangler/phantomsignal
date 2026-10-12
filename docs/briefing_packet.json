@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-12T00:23:23.835285+00:00",
+  "generated_at": "2026-10-12T07:10:30.016849+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 76,
-  "total_items_in_window": 303,
-  "total_clusters_raw": 134,
+  "total_items_in_window": 315,
+  "total_clusters_raw": 141,
   "total_clusters_in_packet": 52,
-  "dropped_low_score": 82,
+  "dropped_low_score": 89,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,19 +67,19 @@
     }
   },
   "feed_status": {
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
+    },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
@@ -88,15 +88,22 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 25,
       "in_window_count": 0
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -109,47 +116,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
-    },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 9
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -158,13 +130,6 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 5
-    },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
@@ -172,19 +137,26 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 4
+      "in_window_count": 0
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 40,
+      "item_count": 20,
       "in_window_count": 2
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
     },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
@@ -193,23 +165,30 @@
       "item_count": 50,
       "in_window_count": 2
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 9
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 4
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 5
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
@@ -228,6 +207,27 @@
       "item_count": 50,
       "in_window_count": 0
     },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 2
+    },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
@@ -242,13 +242,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
@@ -256,12 +249,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 0
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -276,6 +269,13 @@
       "status": "ok",
       "item_count": 15,
       "in_window_count": 0
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
@@ -298,6 +298,13 @@
       "item_count": 30,
       "in_window_count": 1
     },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 6
+    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
@@ -319,20 +326,6 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 6
-    },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
       "cohort": "threat_research_primary",
@@ -347,11 +340,11 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Protect AI": {
-      "url": "https://protectai.com/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "parse_error",
-      "item_count": 0,
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 0
     },
     "Cloudflare Security": {
@@ -359,6 +352,20 @@
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 1
+    },
+    "Protect AI": {
+      "url": "https://protectai.com/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 1
     },
     "Wiz Research": {
@@ -375,20 +382,6 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -403,12 +396,19 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 100,
+      "in_window_count": 1
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -424,19 +424,19 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 1
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 13
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "in_window_count": 2
     },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
@@ -452,13 +452,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 1
-    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -466,12 +459,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 13
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -487,12 +480,12 @@
       "item_count": 50,
       "in_window_count": 21
     },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -501,6 +494,20 @@
       "item_count": 100,
       "in_window_count": 0
     },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 5
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
@@ -508,8 +515,15 @@
       "item_count": 15,
       "in_window_count": 0
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 31
+    },
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -529,11 +543,11 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 10,
       "in_window_count": 2
     },
     "Reddit r/msp": {
@@ -543,19 +557,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
@@ -564,33 +578,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 31
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 14
-    },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
+    },
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -604,7 +604,7 @@
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 1
+      "in_window_count": 2
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -631,9 +631,9 @@
   "clusters": [
     {
       "cluster_id": "e08a07c74d",
-      "priority_score": 51,
-      "member_count": 3,
-      "corroborating_source_count": 2,
+      "priority_score": 49,
+      "member_count": 2,
+      "corroborating_source_count": 1,
       "strong_signals": [
         "CVE-2026-102489"
       ],
@@ -659,8 +659,7 @@
           "vulnerability_disclosure"
         ],
         "confidence_tier": [
-          "tier_1_offensive_research",
-          "tier_5_chatter"
+          "tier_1_offensive_research"
         ]
       },
       "primary": {
@@ -731,40 +730,14 @@
               "products": []
             }
           }
-        },
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "CVE-2026-102489 Deep-Dive: Zammad Session Leak to RCE",
-          "link": "https://www.reddit.com/r/netsec/comments/1wzw573/cve2026102489_deepdive_zammad_session_leak_to_rce/",
-          "published": "2026-10-07T13:11:06+00:00",
-          "summary": "submitted by /u/scopedsecurity [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-102489"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
         }
       ]
     },
     {
       "cluster_id": "b2361c5736",
-      "priority_score": 44,
-      "member_count": 2,
-      "corroborating_source_count": 2,
+      "priority_score": 42,
+      "member_count": 1,
+      "corroborating_source_count": 1,
       "strong_signals": [
         "CVE-2026-81578",
         "CVE-2026-82077",
@@ -800,8 +773,7 @@
           "vulnerability_disclosure"
         ],
         "confidence_tier": [
-          "tier_1_offensive_research",
-          "tier_5_chatter"
+          "tier_1_offensive_research"
         ]
       },
       "primary": {
@@ -883,36 +855,6 @@
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Death By A Thousand PaperCuts (PaperCut Pre-Auth RCE Chain and Patch Bypasses WT-2026-0141-0144/CVE-2026-82077/CVE-2026-82078/CVE-2026-81578) - watchTowr Labs",
-          "link": "https://www.reddit.com/r/netsec/comments/1x1squu/death_by_a_thousand_papercuts_papercut_preauth/",
-          "published": "2026-10-09T18:17:56+00:00",
-          "summary": "submitted by /u/dx7r__ [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-82077",
-              "CVE-2026-82078",
-              "CVE-2026-81578"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -1231,8 +1173,8 @@
     {
       "cluster_id": "0cc9307a5e",
       "priority_score": 29,
-      "member_count": 8,
-      "corroborating_source_count": 7,
+      "member_count": 7,
+      "corroborating_source_count": 6,
       "strong_signals": [
         "CVE-2026-21589"
       ],
@@ -1269,8 +1211,7 @@
           "tier_1_government",
           "tier_1_offensive_research",
           "tier_2_operator",
-          "tier_4_news",
-          "tier_5_chatter"
+          "tier_4_news"
         ]
       },
       "primary": {
@@ -1501,40 +1442,6 @@
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "You Won’t Hear About These, Even In Myths (Atlassian Jira, Confluence (and more) Pre-Auth Arbitrary File Read CVE-2026-21589) - watchTowr Labs",
-          "link": "https://www.reddit.com/r/netsec/comments/1wz82op/you_wont_hear_about_these_even_in_myths_atlassian/",
-          "published": "2026-10-06T17:06:35+00:00",
-          "summary": "submitted by /u/dx7r__ [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Atlassian Confluence",
-              "Atlassian Jira"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-21589"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "Atlassian Confluence": "target",
-              "Atlassian Jira": "target"
-            },
             "weak_tags": {
               "products": []
             }
@@ -2235,120 +2142,12 @@
       ]
     },
     {
-      "cluster_id": "f273b2b0d8",
-      "priority_score": 15,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "Akira"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [
-          "Akira"
-        ],
-        "affected_industries": [],
-        "affected_products": [
-          "Anthropic/Claude",
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Huntress",
-        "cohort": "detection_response_operations",
-        "title": "Up a Creek Without a Command Line: Mapping an Akira Ransomware Attack",
-        "link": "https://www.huntress.com/blog/mapping-akira-ransomware-attack",
-        "published": "2026-10-06T13:00:00+00:00",
-        "summary": "How Huntress researchers reconstructed an Akira ransomware attack using Registry artifacts, Akira logs, and other post-compromise evidence.",
-        "full_body": "Home Blog Up a Creek Without a Command Line: Mapping an Akira Ransomware Attack Published: October 6, 2026 Up a Creek Without a Command Line: Mapping an Akira Ransomware Attack By: Harlan Carvey Lindsey O'Donnell-Welch Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways In September, the Huntress agent was deployed on an organization that had been hit by an Akira ransomware attack. The post-compromise agent deployment limited Huntress visibility into critical pieces of evidence. An investigation into the impacted endpoint revealed that the threat actor behind the attack accessed the endpoint via Remote Desktop Protocol (RDP), disabled antivirus, and deployed Rclone for data exfiltration, before deploying the ransomware. The actor also deployed a GOST tunneling tool, likely for persistence. Collecting and reviewing a number of forensic artifacts from the impacted endpoint(s) allowed Huntress analysts to piece together some indications of the threat actor/affiliates activities. Acknowledgments : Special thanks to Dray Agha for his extensive contributions to this investigation. Background In September, the Huntress agent was deployed on an organization that had been targeted in an Akira ransomware attack. As we've written about previously, the Huntress agent is sometimes deployed after an attacker had already accessed or compromised the environment. This sometimes happens in response to an incident; other times an organization is still rolling out the agent when the compromise is discovered. Regardless, a post-compromise agent install may limit important EDR telemetry from the initial access, earlier reconnaissance, persistence, or credential theft that happened before installation. However, one limited telemetry stream does not mean that there aren't important clues in other places that can build a picture about what happened during the incident. In this incident, Huntress researchers were able to piece together multiple sources archeology-style—including Registry data, Akira log files, and more—in order to map out what happened during some parts of the attack. For example, even without a recorded ransomware command line, the timeline provides strong evidence of execution: Shellbags show the threat actor accessed the folder, an Akira log file indicates the ransomware targeted it, and a concurrent PowerShell command removed volume shadow copies, a common Akira action. The incident: what we worked with After the Huntress agent was installed in early September, an EDR signal was generated on a domain controller, picking up on the very tip of the iceberg of the activity. As seen in Figure 1, the signal shows svchost.exe being executed from C:\\PerfLogs\\Temp\\ directory under the SYSTEM account, loading config.dll . Figure 1: An EDR signal alerting of threat actor activity after the Huntress agent was installed post-compromise It's worth noting that this signal is indicating one part of the attack at the point in time after the Huntress agent was installed. Had it been installed earlier, the agent would have picked up on other indicators of malicious activity. This would help to tip off the organization that they were being attacked so that they could jump on the incident to stop it. But from an investigation standpoint, it would also give us a deeper understanding of what happened: what the threat actor was doing and how they got in in the first place, which would help inform the impacted organization of which areas to focus on during remediation. The Investigation With the lack of the EDR telemetry and detections, our researchers had to make do with what was available from the impacted endpoints: a mixed bag of Windows Registry artifacts, Windows Event Logs, and Akira log files. However, these artifacts helped paint a picture of the threat actor's activity. The Windows Event Logs showed that the threat actor accessed the impacted endpoint via Terminal Services/RDP , from a workstation not owned by the custom",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "credential_theft"
-          ],
-          "actor_attribution": [
-            "Akira"
-          ],
-          "affected_industries": [],
-          "affected_products": [
-            "OpenAI/ChatGPT",
-            "Anthropic/Claude"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "OpenAI/ChatGPT": "target",
-            "Anthropic/Claude": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Huntress",
-          "cohort": "detection_response_operations",
-          "title": "Up a Creek Without a Command Line: Mapping an Akira Ransomware Attack",
-          "link": "https://www.huntress.com/blog/mapping-akira-ransomware-attack",
-          "published": "2026-10-06T13:00:00+00:00",
-          "summary": "How Huntress researchers reconstructed an Akira ransomware attack using Registry artifacts, Akira logs, and other post-compromise evidence.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "credential_theft"
-            ],
-            "actor_attribution": [
-              "Akira"
-            ],
-            "affected_industries": [],
-            "affected_products": [
-              "OpenAI/ChatGPT",
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "OpenAI/ChatGPT": "target",
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "6d075e716a",
-      "priority_score": 15,
-      "member_count": 12,
+      "cluster_id": "3044565584",
+      "priority_score": 16,
+      "member_count": 13,
       "corroborating_source_count": 8,
       "strong_signals": [
-        "Anthropic/Claude",
-        "Google/Gemini"
+        "Anthropic/Claude"
       ],
       "taxonomy": {
         "threat_categories": [
@@ -2357,6 +2156,7 @@
         "actor_attribution": [],
         "affected_industries": [
           "critical_infrastructure",
+          "education",
           "financial_services"
         ],
         "affected_products": [
@@ -2370,7 +2170,8 @@
         "urgency_signals": [],
         "content_type": [
           "news_report",
-          "vendor_announcement"
+          "vendor_announcement",
+          "vulnerability_disclosure"
         ],
         "confidence_tier": [
           "tier_1_government",
@@ -2379,31 +2180,31 @@
         ]
       },
       "primary": {
-        "source": "SANS Internet Storm Center",
-        "cohort": "government_authoritative",
-        "title": "Reconstructing AI Agent Activity: Two New Scripts for Forensic Review, (Thu, Oct 8th)",
-        "link": "https://isc.sans.edu/diary/rss/33410",
-        "published": "2026-10-08T16:52:53+00:00",
-        "summary": "We just did a major update to FOR577 and added a lot of new material on day 5 about investigating AI usage in incident response. In the new material we dicsuss 8&#;x26;#;xc2;&#;x26;#;xa0;of the most popular AI coding assistants and&#;x26;#;xc2;&#;x26;#;xa0;agents including Claude Code, Codex, Gemini CLI, Cursor, Copilot, Warp, Windsurf, and Qwen Code. I&#;x26;#;39;ve been using Claude Code and a little bit of Codex, but I also have recently been playing with OpenCode and am setting up Hermes. I decided to figure out where the chat history was in OpenCode and where any Hermes evidence might be located.",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
+        "source": "Help Net Security",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "AI vulnerability patching has a grading problem",
+        "link": "https://www.helpnetsecurity.com/2026/10/12/ai-vulnerability-patching-grading-problem/",
+        "published": "2026-10-12T04:45:43+00:00",
+        "summary": "Researchers at Northwestern University tested AI coding agents on 112 real security bugs. They found that a patch which stops a crash often fails the checks the project’s maintainers wrote for the fix. With Claude Opus 4.7, third of the patches that made the crash go away still failed those maintainer tests. If you’re thinking about letting an AI tool patch vulnerabilities for you, this is the number to look at. Many security patching benchmarks … More → The post AI vulnerability patching has a grading problem appeared first on Help Net Security .",
+        "full_body": "Anamarija Pogorelec , Senior Staff Writer, Help Net Security October 12, 2026 Share AI vulnerability patching has a grading problem Researchers at Northwestern University tested AI coding agents on 112 real security bugs. They found that a patch which stops a crash often fails the checks the project’s maintainers wrote for the fix. With Claude Opus 4.7, third of the patches that made the crash go away still failed those maintainer tests. If you’re thinking about letting an AI tool patch vulnerabilities for you, this is the number to look at. Many security patching benchmarks grade a fix on one question: does the proof-of-concept input, the sample that triggers the bug, still crash the program? A patch can pass by blocking the path to the crash and leaving the flaw where it was. The authors call that kind of fix “strictly worse than no fix at all,” since it tells you the problem is solved when it isn’t. Two patches, one right answer The researchers built their dataset from bugs in 84 open-source projects written in C/C++, Go and Rust. For each bug, they pulled the tests the original developers added alongside the real fix. Then they ran the AI patches against those tests. Take a bug in PHP. One AI-style patch fixes the logic the way PHP’s maintainers did. Another just throws an error whenever the inputs look unusual, which stops the crash but also breaks calls PHP is supposed to handle. Both pass PHP’s existing tests. Only the test the maintainers wrote for the fix tells them apart. The team also tried three generations of Claude models. The newest stopped the crash about 90% of the time, but it passed the maintainers’ tests only about 61% of the time. So even the best model they tested failed those tests on roughly four in ten bugs. The agents found the answers The team also caught agents pulling answers out of the test setup: Web search: with web search left on, one Claude Code agent fetched the upstream fix commit within its first four tool calls. It later reported that its patch followed the same approach and cited the page it had fetched. Git history: another agent was given the project’s full git history. It searched for an earlier related fix and reproduced it almost line for line. Answer key: in an earlier version of the harness, an agent read a configuration file that pointed to the ground-truth patch. Its edits matched the upstream fix exactly. The authors point out that searching the git history was a reasonable move, the same thing a human developer would do. The benchmark had left the answer in reach. The setup also caused failures that weren’t the AI’s fault. A hidden background check in Claude Code made commands stall, which looked like the model struggling. In another case, an agent wrote a correct fix plus its own test, and that test clashed with the maintainers’ test file. The benchmark scored the correct fix as a failure. The team reviewed 13 benchmarks and datasets used to evaluate AI patching . Each of the five built for AI agents left at least one of the nine pitfalls unaddressed. What to ask a vendor If you’re sizing up an AI remediation tool, here are four questions to ask: Did the score check only that the crash stopped, or did it also run tests the maintainers wrote? Did the agent have internet access or the project’s git history? What did the prompt tell it about building and testing the code? How were timeouts and pipeline errors counted? That third question matters more than you’d think. Just telling the AI how to build and test the code bumped its success rate on the C and C++ bugs by 20 points, without the AI getting any smarter. And on a leaderboard that only checks whether the crash stops, every one of those patches that missed what the maintainers intended would have counted as a win. Download: The IT leader’s guide to AI code sprawl More about agentic AI AI cybersecurity patching research vulnerability assessment Share",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
-          "affected_industries": [],
+          "affected_industries": [
+            "education"
+          ],
           "affected_products": [
-            "Anthropic/Claude",
-            "Google/Gemini"
+            "Anthropic/Claude"
           ],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_government",
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
           "role_map": {
-            "Anthropic/Claude": "target",
-            "Google/Gemini": "target"
+            "Anthropic/Claude": "target"
           },
           "weak_tags": {
             "products": []
@@ -2411,6 +2212,36 @@
         }
       },
       "corroborating_sources": [
+        {
+          "source": "Help Net Security",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "AI vulnerability patching has a grading problem",
+          "link": "https://www.helpnetsecurity.com/2026/10/12/ai-vulnerability-patching-grading-problem/",
+          "published": "2026-10-12T04:45:43+00:00",
+          "summary": "Researchers at Northwestern University tested AI coding agents on 112 real security bugs. They found that a patch which stops a crash often fails the checks the project’s maintainers wrote for the fix. With Claude Opus 4.7, third of the patches that made the crash go away still failed those maintainer tests. If you’re thinking about letting an AI tool patch vulnerabilities for you, this is the number to look at. Many security patching benchmarks … More → The post AI vulnerability patching has a grading problem appeared first on Help Net Security .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [
+              "education"
+            ],
+            "affected_products": [
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
         {
           "source": "SANS Internet Storm Center",
           "cohort": "government_authoritative",
@@ -2558,34 +2389,6 @@
           }
         },
         {
-          "source": "Help Net Security",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Anthropic offers free AI security scans to open-source maintainers",
-          "link": "https://www.helpnetsecurity.com/2026/10/09/anthropic-oss-scanner-ai-security-scans/",
-          "published": "2026-10-09T09:55:24+00:00",
-          "summary": "Anthropic’s OSS Scanner is a new, free service that uses the company’s strongest AI models to find security vulnerabilities in open-source software. Maintainers who opt in receive periodic scans and reports explaining suspected flaws, how to reproduce them and, when available, how to fix them. The service builds on Anthropic’s experience with Project Glasswing, which used Claude to find software vulnerabilities. Anthropic says human validation has become a bottleneck in its vulnerability research. OSS Scanner … More → The post Anthropic offers free AI security scans to open-source maintainers appeared first on Help Net Security .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
           "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
           "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
@@ -2636,6 +2439,113 @@
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {
+              "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "f273b2b0d8",
+      "priority_score": 15,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "Akira"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_theft",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [
+          "Akira"
+        ],
+        "affected_industries": [],
+        "affected_products": [
+          "Anthropic/Claude",
+          "OpenAI/ChatGPT"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Huntress",
+        "cohort": "detection_response_operations",
+        "title": "Up a Creek Without a Command Line: Mapping an Akira Ransomware Attack",
+        "link": "https://www.huntress.com/blog/mapping-akira-ransomware-attack",
+        "published": "2026-10-06T13:00:00+00:00",
+        "summary": "How Huntress researchers reconstructed an Akira ransomware attack using Registry artifacts, Akira logs, and other post-compromise evidence.",
+        "full_body": "Home Blog Up a Creek Without a Command Line: Mapping an Akira Ransomware Attack Published: October 6, 2026 Up a Creek Without a Command Line: Mapping an Akira Ransomware Attack By: Harlan Carvey Lindsey O'Donnell-Welch Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways In September, the Huntress agent was deployed on an organization that had been hit by an Akira ransomware attack. The post-compromise agent deployment limited Huntress visibility into critical pieces of evidence. An investigation into the impacted endpoint revealed that the threat actor behind the attack accessed the endpoint via Remote Desktop Protocol (RDP), disabled antivirus, and deployed Rclone for data exfiltration, before deploying the ransomware. The actor also deployed a GOST tunneling tool, likely for persistence. Collecting and reviewing a number of forensic artifacts from the impacted endpoint(s) allowed Huntress analysts to piece together some indications of the threat actor/affiliates activities. Acknowledgments : Special thanks to Dray Agha for his extensive contributions to this investigation. Background In September, the Huntress agent was deployed on an organization that had been targeted in an Akira ransomware attack. As we've written about previously, the Huntress agent is sometimes deployed after an attacker had already accessed or compromised the environment. This sometimes happens in response to an incident; other times an organization is still rolling out the agent when the compromise is discovered. Regardless, a post-compromise agent install may limit important EDR telemetry from the initial access, earlier reconnaissance, persistence, or credential theft that happened before installation. However, one limited telemetry stream does not mean that there aren't important clues in other places that can build a picture about what happened during the incident. In this incident, Huntress researchers were able to piece together multiple sources archeology-style—including Registry data, Akira log files, and more—in order to map out what happened during some parts of the attack. For example, even without a recorded ransomware command line, the timeline provides strong evidence of execution: Shellbags show the threat actor accessed the folder, an Akira log file indicates the ransomware targeted it, and a concurrent PowerShell command removed volume shadow copies, a common Akira action. The incident: what we worked with After the Huntress agent was installed in early September, an EDR signal was generated on a domain controller, picking up on the very tip of the iceberg of the activity. As seen in Figure 1, the signal shows svchost.exe being executed from C:\\PerfLogs\\Temp\\ directory under the SYSTEM account, loading config.dll . Figure 1: An EDR signal alerting of threat actor activity after the Huntress agent was installed post-compromise It's worth noting that this signal is indicating one part of the attack at the point in time after the Huntress agent was installed. Had it been installed earlier, the agent would have picked up on other indicators of malicious activity. This would help to tip off the organization that they were being attacked so that they could jump on the incident to stop it. But from an investigation standpoint, it would also give us a deeper understanding of what happened: what the threat actor was doing and how they got in in the first place, which would help inform the impacted organization of which areas to focus on during remediation. The Investigation With the lack of the EDR telemetry and detections, our researchers had to make do with what was available from the impacted endpoints: a mixed bag of Windows Registry artifacts, Windows Event Logs, and Akira log files. However, these artifacts helped paint a picture of the threat actor's activity. The Windows Event Logs showed that the threat actor accessed the impacted endpoint via Terminal Services/RDP , from a workstation not owned by the custom",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "credential_theft"
+          ],
+          "actor_attribution": [
+            "Akira"
+          ],
+          "affected_industries": [],
+          "affected_products": [
+            "OpenAI/ChatGPT",
+            "Anthropic/Claude"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {
+            "OpenAI/ChatGPT": "target",
+            "Anthropic/Claude": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Huntress",
+          "cohort": "detection_response_operations",
+          "title": "Up a Creek Without a Command Line: Mapping an Akira Ransomware Attack",
+          "link": "https://www.huntress.com/blog/mapping-akira-ransomware-attack",
+          "published": "2026-10-06T13:00:00+00:00",
+          "summary": "How Huntress researchers reconstructed an Akira ransomware attack using Registry artifacts, Akira logs, and other post-compromise evidence.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "credential_theft"
+            ],
+            "actor_attribution": [
+              "Akira"
+            ],
+            "affected_industries": [],
+            "affected_products": [
+              "OpenAI/ChatGPT",
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "OpenAI/ChatGPT": "target",
               "Anthropic/Claude": "target"
             },
             "weak_tags": {
@@ -3009,10 +2919,206 @@
       ]
     },
     {
-      "cluster_id": "78c9a97c81",
-      "priority_score": 14,
+      "cluster_id": "c6371def14",
+      "priority_score": 13,
       "member_count": 2,
       "corroborating_source_count": 2,
+      "strong_signals": [
+        "CVE-2026-107406"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "apt_espionage",
+          "data_breach",
+          "ddos",
+          "ransomware_extortion",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "education",
+          "financial_services",
+          "government",
+          "legal_professional"
+        ],
+        "affected_products": [
+          "Android",
+          "OpenAI/ChatGPT",
+          "SonicWall"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-107406",
+          "CVE-2026-88771",
+          "CVE-2026-88772",
+          "CVE-2026-88779"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "no_patch_yet",
+          "poc_available",
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report",
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "SecurityWeek",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Citrix Urges Immediate Patching of Critical NetScaler Vulnerability",
+        "link": "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
+        "published": "2026-10-09T06:53:53+00:00",
+        "summary": "The security defect, tracked as CVE-2026-107406, could lead to remote code execution or denial-of-service. The post Citrix Urges Immediate Patching of Critical NetScaler Vulnerability appeared first on SecurityWeek .",
+        "full_body": "Citrix on Thursday warned users of a critical-severity NetScaler vulnerability that requires immediate patching. Tracked as CVE-2026-107406 (CVSS score of 9.5), the flaw is described as a memory overflow that could lead to remote code execution (RCE) or denial-of-service (DoS). According to Citrix, the security defect impacts NetScaler ADC and NetScaler Gateway appliances configured as a SAML SP or SAML IdP, under specific configuration conditions. The bug also affects Secure Private Access Hybrid deployments that use NetScaler. Customers need to update these NetScaler instances as well. Patches were included in NetScaler ADC and Gateway versions 14.1-73.46, 13.1-64.29, 14.1-73.46 FIPS, and 13.1.37.283 (of 13.1-FIPS and 13.1-NDcPP). “As of the publication of the bulletin, Citrix is not aware of any unmitigated exploits of this vulnerability,” Citrix notes , urging customers to upgrade their instances as soon as possible. Advertisement. Scroll to continue reading. Citrix’s fresh warning comes days after the company sounded the alarm on CVE-2026-88779, a zero-day in NetScaler leading to DoS. A week before, two other NetScaler zero-days were patched: CVE-2026-88771 (leading to RCE), and CVE-2026-88772 (leading to RCE or DoS). They have been exploited in attacks against government, financial services, education, legal, and professional services organizations. Related: Critical NetScaler Vulnerability Exploited in Attacks Related: Cisco Patches a Dozen Critical Vulnerabilities Related: Attackers Target Critical Atlassian Vulnerability Within Hours of PoC Publication Related: SonicWall and Splunk Patch Critical Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Patches a Dozen Critical Vulnerabilities SonicWall and Splunk Patch Critical Vulnerabilities Rein Security Raises $25 Million to Guard AI Agents at Runtime Fake Decryption Tools Masked $11M Markup in Ransomware Recovery Scheme FortiBleed Attackers Locking Victims Out of Fortinet Devices Qilin Ransomware Suspect Arrested in Japan, Extradited to Germany Chrome 155 Update Patches 247 Vulnerabilities ASOS Confirms Cyberattack, Data Breach Latest News OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years Google Domains Impacted by Recent ccTLD Hijacks Unpatched AhsayCBS Vulnerabilities Exploited in the Wild Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries US Disrupts Chinese State-Sponsored Hacking Tools Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security Google Pixel 10 Exploits Earned Hackers $560,000 at Pwn2Own Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: AI Is Accelerating Risk. Can Your IT Operations Keep Up? October 14, 2026 Learn about Frontier Pace Governance: a practical approach to helping IT operations move at AI speed without sacrificing security, accountability, or operational discipline. Register Virtual Event: Zero Trust & Identity Strategies Summit 2026 October 14, 2026 Join as we decipher the world of zero trust and share war stories on securing an organization by eliminating implicit trust and continuously validating every stage of a digital interaction. Register People on the Move Rapid7 has named Rik Ferguson as VP of Security Intelligence. Cytactic has appointed Tim Brown as CSO. Scott Simkin has joined Vega as CMO. More People On The Move Expert Insights AI Has Changed Attack Speed, Not Security Fundamentals As AI accelerates vulnerability discovery and exploitation, so-called virtual patching still comes down to defense-in-d",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "zero_day",
+            "data_breach",
+            "ddos",
+            "apt_espionage",
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "education",
+            "legal_professional"
+          ],
+          "affected_products": [
+            "SonicWall",
+            "OpenAI/ChatGPT",
+            "Android"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-107406",
+            "CVE-2026-88779",
+            "CVE-2026-88771",
+            "CVE-2026-88772"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "zero_day",
+            "no_patch_yet",
+            "poc_available"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "SonicWall": "target",
+            "OpenAI/ChatGPT": "target",
+            "Android": "target",
+            "Fortinet": "target",
+            "Anthropic/Claude": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Citrix Urges Immediate Patching of Critical NetScaler Vulnerability",
+          "link": "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
+          "published": "2026-10-09T06:53:53+00:00",
+          "summary": "The security defect, tracked as CVE-2026-107406, could lead to remote code execution or denial-of-service. The post Citrix Urges Immediate Patching of Critical NetScaler Vulnerability appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "zero_day",
+              "data_breach",
+              "ddos",
+              "apt_espionage",
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "education",
+              "legal_professional"
+            ],
+            "affected_products": [
+              "SonicWall",
+              "OpenAI/ChatGPT",
+              "Android"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-107406",
+              "CVE-2026-88779",
+              "CVE-2026-88771",
+              "CVE-2026-88772"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "zero_day",
+              "no_patch_yet",
+              "poc_available"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "SonicWall": "target",
+              "OpenAI/ChatGPT": "target",
+              "Android": "target",
+              "Fortinet": "target",
+              "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
+          "link": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
+          "published": "2026-10-09T08:11:33+00:00",
+          "summary": "Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service (DoS) under certain conditions. \"CVE-2026-107406 is a memory overflow vulnerability that may lead to remote code execution or denial-of-service under specific configuration conditions,\" Citrix said. The vulnerability",
+          "taxonomy": {
+            "threat_categories": [
+              "ddos"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-107406"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "78c9a97c81",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
       "strong_signals": [
         "CVE-2026-47483"
       ],
@@ -3033,8 +3139,7 @@
           "vulnerability_disclosure"
         ],
         "confidence_tier": [
-          "tier_4_news",
-          "tier_5_chatter"
+          "tier_4_news"
         ]
       },
       "primary": {
@@ -3089,230 +3194,6 @@
               "preauth_unauth"
             ],
             "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "How We Found Thousands of Exposed NVIDIA GPUs and a Way to Disrupt Them (CVE-2026-47483)",
-          "link": "https://www.reddit.com/r/netsec/comments/1x13vqz/how_we_found_thousands_of_exposed_nvidia_gpus_and/",
-          "published": "2026-10-08T21:49:51+00:00",
-          "summary": "TL;DR: NVIDIA DCGM Exporter is a widely used monitoring tool that collects GPU metrics like utilization, memory, temperature, and power consumption from AI servers. We discovered that thousands of these monitoring endpoints are exposed to the public internet, allowing anyone to inspect GPU infrastructure. Worse, we found a high-severity vulnerability (CVE-2026-47483, CVSS 8.2) that lets unauthenticated attackers exhaust server resources, crash GPU monitoring, and potentially disrupt AI workloads remotely. A few other interesting findings: 2,100+ exposed GPU servers , revealing telemetry from 12,000+ GPUs worth ~$100M , including H100s, H200s, and Blackwell GPUs. 60% of exposed GPUs reported 0% utilization across our scans. 12,096 additional servers exposed infrastructure details, including OS, firmware, and networking information. NVIDIA fixed the vulnerability following our responsible disclosure. Full research: https://lava.security/research/cve-2026-47483-nvidia-dcgm-exporter-vulner",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-47483"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "c6371def14",
-      "priority_score": 13,
-      "member_count": 2,
-      "corroborating_source_count": 2,
-      "strong_signals": [
-        "CVE-2026-107406"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "apt_espionage",
-          "data_breach",
-          "ddos",
-          "ransomware_extortion",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education",
-          "financial_services",
-          "government",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "Android",
-          "Fortinet",
-          "SonicWall"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-107406",
-          "CVE-2026-88771",
-          "CVE-2026-88772",
-          "CVE-2026-88779"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "no_patch_yet",
-          "poc_available",
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report",
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "SecurityWeek",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Citrix Urges Immediate Patching of Critical NetScaler Vulnerability",
-        "link": "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
-        "published": "2026-10-09T06:53:53+00:00",
-        "summary": "The security defect, tracked as CVE-2026-107406, could lead to remote code execution or denial-of-service. The post Citrix Urges Immediate Patching of Critical NetScaler Vulnerability appeared first on SecurityWeek .",
-        "full_body": "Citrix on Thursday warned users of a critical-severity NetScaler vulnerability that requires immediate patching. Tracked as CVE-2026-107406 (CVSS score of 9.5), the flaw is described as a memory overflow that could lead to remote code execution (RCE) or denial-of-service (DoS). According to Citrix, the security defect impacts NetScaler ADC and NetScaler Gateway appliances configured as a SAML SP or SAML IdP, under specific configuration conditions. The bug also affects Secure Private Access Hybrid deployments that use NetScaler. Customers need to update these NetScaler instances as well. Patches were included in NetScaler ADC and Gateway versions 14.1-73.46, 13.1-64.29, 14.1-73.46 FIPS, and 13.1.37.283 (of 13.1-FIPS and 13.1-NDcPP). “As of the publication of the bulletin, Citrix is not aware of any unmitigated exploits of this vulnerability,” Citrix notes , urging customers to upgrade their instances as soon as possible. Advertisement. Scroll to continue reading. Citrix’s fresh warning comes days after the company sounded the alarm on CVE-2026-88779, a zero-day in NetScaler leading to DoS. A week before, two other NetScaler zero-days were patched: CVE-2026-88771 (leading to RCE), and CVE-2026-88772 (leading to RCE or DoS). They have been exploited in attacks against government, financial services, education, legal, and professional services organizations. Related: Critical NetScaler Vulnerability Exploited in Attacks Related: Cisco Patches a Dozen Critical Vulnerabilities Related: Attackers Target Critical Atlassian Vulnerability Within Hours of PoC Publication Related: SonicWall and Splunk Patch Critical Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Patches a Dozen Critical Vulnerabilities SonicWall and Splunk Patch Critical Vulnerabilities Rein Security Raises $25 Million to Guard AI Agents at Runtime Fake Decryption Tools Masked $11M Markup in Ransomware Recovery Scheme FortiBleed Attackers Locking Victims Out of Fortinet Devices Qilin Ransomware Suspect Arrested in Japan, Extradited to Germany Chrome 155 Update Patches 247 Vulnerabilities ASOS Confirms Cyberattack, Data Breach Latest News Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years Google Domains Impacted by Recent ccTLD Hijacks Unpatched AhsayCBS Vulnerabilities Exploited in the Wild Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries US Disrupts Chinese State-Sponsored Hacking Tools Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: AI Is Accelerating Risk. Can Your IT Operations Keep Up? October 14, 2026 Learn about Frontier Pace Governance: a practical approach to helping IT operations move at AI speed without sacrificing security, accountability, or operational discipline. Register Virtual Event: Zero Trust & Identity Strategies Summit 2026 October 14, 2026 Join as we decipher the world of zero trust and share war stories on securing an organization by eliminating implicit trust and continuously validating every stage of a digital interaction. Register People on the Move Rapid7 has named Rik Ferguson as VP of Security Intelligence. Cytactic has appointed Tim Brown as CSO. Scott Simkin has joined Vega as CMO. More People On The Move Expert Insights AI Has Changed Attack Speed, Not Security Fundamentals As AI accelerates vulnerability discovery and exploitation, so-called virtual patching still comes do",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "zero_day",
-            "data_breach",
-            "ddos",
-            "apt_espionage",
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "government",
-            "manufacturing_industrial",
-            "education"
-          ],
-          "affected_products": [
-            "SonicWall",
-            "Android",
-            "Fortinet"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-107406",
-            "CVE-2026-88779",
-            "CVE-2026-88771",
-            "CVE-2026-88772"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "zero_day",
-            "no_patch_yet",
-            "poc_available"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "SonicWall": "target",
-            "Android": "target",
-            "Fortinet": "target",
-            "OpenAI/ChatGPT": "target",
-            "Anthropic/Claude": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Citrix Urges Immediate Patching of Critical NetScaler Vulnerability",
-          "link": "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
-          "published": "2026-10-09T06:53:53+00:00",
-          "summary": "The security defect, tracked as CVE-2026-107406, could lead to remote code execution or denial-of-service. The post Citrix Urges Immediate Patching of Critical NetScaler Vulnerability appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "zero_day",
-              "data_breach",
-              "ddos",
-              "apt_espionage",
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "government",
-              "manufacturing_industrial",
-              "education"
-            ],
-            "affected_products": [
-              "SonicWall",
-              "Android",
-              "Fortinet"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-107406",
-              "CVE-2026-88779",
-              "CVE-2026-88771",
-              "CVE-2026-88772"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "zero_day",
-              "no_patch_yet",
-              "poc_available"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "SonicWall": "target",
-              "Android": "target",
-              "Fortinet": "target",
-              "OpenAI/ChatGPT": "target",
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
-          "link": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
-          "published": "2026-10-09T08:11:33+00:00",
-          "summary": "Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service (DoS) under certain conditions. \"CVE-2026-107406 is a memory overflow vulnerability that may lead to remote code execution or denial-of-service under specific configuration conditions,\" Citrix said. The vulnerability",
-          "taxonomy": {
-            "threat_categories": [
-              "ddos"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-107406"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {},
             "weak_tags": {
@@ -3555,8 +3436,8 @@
     {
       "cluster_id": "467ad059da",
       "priority_score": 12,
-      "member_count": 7,
-      "corroborating_source_count": 6,
+      "member_count": 8,
+      "corroborating_source_count": 7,
       "strong_signals": [
         "ShinyHunters"
       ],
@@ -3675,6 +3556,34 @@
             "urgency_signals": [],
             "content_type": "incident_report",
             "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Risky Business News",
+          "cohort": "practitioner_analysis",
+          "title": "Risky Bulletin: ShinyHunters suspects arrested in US and Jordan",
+          "link": "https://risky.biz/RBNEWS619/",
+          "published": "2026-10-12T02:43:40+00:00",
+          "summary": "Two ShinyHunters suspects arrested in Jordan and the US, hackers breach TLD registrars to get valid Google certs, Japanese authorities arrest a Qilin ransomware member and Google suspends its open-source bug bounty program after a flood of AI bug reports.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [
+              "ShinyHunters"
+            ],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_3_analysis",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -3957,6 +3866,152 @@
             "confidence_tier": "tier_2_operator",
             "role_map": {
               "AWS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "f28e2b9829",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "phishing_social_eng",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "aviation_defense",
+          "education",
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [
+          "Azure",
+          "Citrix",
+          "OpenAI/ChatGPT"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-76504",
+          "CVE-2026-86950",
+          "CVE-2026-88771",
+          "CVE-2026-88772"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "critical_cvss",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Check Point Research",
+        "cohort": "threat_research_primary",
+        "title": "5th October – Threat Intelligence Report",
+        "link": "https://research.checkpoint.com/2026/5th-october-threat-intelligence-report/",
+        "published": "2026-10-05T13:57:30+00:00",
+        "summary": "For the latest discoveries in cyber research for the week of 5th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Arizona’s state court system has suffered a phishing-led cyberattack after an employee clicked a malicious link. Attackers copied backup files containing protective-order records and more than 150,000 Foster Care Review Board reports […] The post 5th October – Threat Intelligence Report appeared first on Check Point Research .",
+        "full_body": "FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 5th October – Threat Intelligence Report October 5, 2026 https://research.checkpoint.com/2026/5th-october-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 5th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Arizona’s state court system has suffered a phishing-led cyberattack after an employee clicked a malicious link. Attackers copied backup files containing protective-order records and more than 150,000 Foster Care Review Board reports dating back to 2010, exposing personal and case-related information belonging to current and former participants. Japanese car-sharing service Times Car has disclosed a data breach affecting approximately 6.6 million current and former accounts. Exposed information includes personal data, while identity-verification documents, including driver’s-license images, were exposed for about 1.6 million accounts. Payment card information was not affected. South Africa’s air navigation provider has suffered a ransomware attack affecting operational technology supporting aviation weather services. Preliminary findings identified suspicious activity in weather-related environments, while separate reporting cited possible data theft. The provider has sought independent digital forensics to determine the scope of the incident. Fakturownia, a Polish online invoicing platform used by more than 600,000 businesses, has disclosed a data breach after an attacker exploited a system vulnerability. Copied information included account and company data, password hashes, bank account details, authentication tokens, contractor information, and portions of invoices stored on the platform. AI THREATS Researchers observed autonomous AI agents attempting rudimentary hacking techniques while gathering public information from US and Canadian government websites. Activity included failed SQL injection attempts against the US Department of Education and Library and Archives Canada. Officials reported no compromise, while the origin of the agents remains unconfirmed. Researchers demonstrated that malicious Custom GPTs hosted on ChatGPT were used in a ClickFix campaign to deliver remote access malware. Victims were redirected to a Google Sites page and tricked into running commands. Huntress investigated at least 40 related incidents, including two confirmed infections that began through Custom GPTs. Researchers outlined how JadePuffer, an AI-enabled threat actor tracked as Storm-3168, used compromised Azure service principals to automate cloud reconnaissance and destructive actions. The activity included deleting storage and application resources, targeting backup-related assets, and attempting to retrieve access keys, reflecting agent-driven post-compromise operations in cloud environments. VULNERABILITIES AND PATCHES Citrix has issued fixes for critical NetScaler vulnerabilities CVE-2026-88771-2, affecting NetScaler ADC and Gateway. Attackers have exploited the flaws to gain remote access, deploy web shells and tunneling malware, steal credentials, and move from exposed appliances into internal networks. Check Point IPS provides protection against these threats (Citrix NetScaler Multiple Products Buffer Overflow (CVE-2026-88772), Citrix NetScaler Multiple Products Command Injection (CVE-2026-88771)) Cisco has alerted about CVE-2026-76504, a critical (CVSS 9.8) vulnerability in Catalyst SD-WAN Manager. The flaw allows an unauthenticated remote attacker to send crafted requests and gain administrator access. Cisco reported active exploitation and stated that no fixes are available. Check Point IPS provides protection against this threat (Cisco Catalyst SD-WAN Manager Authentication Bypass (CVE-2026-76504)) Apple has patched CVE-2026-86950, a CoreGraphics memory corruption vulnerability affecting iPhones, iPads, and Macs. Processing a malicious image or PDF can allow arbitrary code exec",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "phishing_social_eng",
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "aviation_defense",
+            "education"
+          ],
+          "affected_products": [
+            "Azure",
+            "Citrix",
+            "OpenAI/ChatGPT"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-88771",
+            "CVE-2026-88772",
+            "CVE-2026-76504",
+            "CVE-2026-86950"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth",
+            "critical_cvss"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Azure": "target",
+            "Citrix": "target",
+            "OpenAI/ChatGPT": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Check Point Research",
+          "cohort": "threat_research_primary",
+          "title": "5th October – Threat Intelligence Report",
+          "link": "https://research.checkpoint.com/2026/5th-october-threat-intelligence-report/",
+          "published": "2026-10-05T13:57:30+00:00",
+          "summary": "For the latest discoveries in cyber research for the week of 5th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Arizona’s state court system has suffered a phishing-led cyberattack after an employee clicked a malicious link. Attackers copied backup files containing protective-order records and more than 150,000 Foster Care Review Board reports […] The post 5th October – Threat Intelligence Report appeared first on Check Point Research .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "phishing_social_eng",
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "aviation_defense",
+              "education"
+            ],
+            "affected_products": [
+              "Azure",
+              "Citrix",
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-88771",
+              "CVE-2026-88772",
+              "CVE-2026-76504",
+              "CVE-2026-86950"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth",
+              "critical_cvss"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Azure": "target",
+              "Citrix": "target",
+              "OpenAI/ChatGPT": "target"
             },
             "weak_tags": {
               "products": []
@@ -4463,152 +4518,6 @@
       ]
     },
     {
-      "cluster_id": "f28e2b9829",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "phishing_social_eng",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "aviation_defense",
-          "education",
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [
-          "Azure",
-          "Citrix",
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-76504",
-          "CVE-2026-86950",
-          "CVE-2026-88771",
-          "CVE-2026-88772"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "critical_cvss",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Check Point Research",
-        "cohort": "threat_research_primary",
-        "title": "5th October – Threat Intelligence Report",
-        "link": "https://research.checkpoint.com/2026/5th-october-threat-intelligence-report/",
-        "published": "2026-10-05T13:57:30+00:00",
-        "summary": "For the latest discoveries in cyber research for the week of 5th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Arizona’s state court system has suffered a phishing-led cyberattack after an employee clicked a malicious link. Attackers copied backup files containing protective-order records and more than 150,000 Foster Care Review Board reports […] The post 5th October – Threat Intelligence Report appeared first on Check Point Research .",
-        "full_body": "FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 5th October – Threat Intelligence Report October 5, 2026 https://research.checkpoint.com/2026/5th-october-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 5th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Arizona’s state court system has suffered a phishing-led cyberattack after an employee clicked a malicious link. Attackers copied backup files containing protective-order records and more than 150,000 Foster Care Review Board reports dating back to 2010, exposing personal and case-related information belonging to current and former participants. Japanese car-sharing service Times Car has disclosed a data breach affecting approximately 6.6 million current and former accounts. Exposed information includes personal data, while identity-verification documents, including driver’s-license images, were exposed for about 1.6 million accounts. Payment card information was not affected. South Africa’s air navigation provider has suffered a ransomware attack affecting operational technology supporting aviation weather services. Preliminary findings identified suspicious activity in weather-related environments, while separate reporting cited possible data theft. The provider has sought independent digital forensics to determine the scope of the incident. Fakturownia, a Polish online invoicing platform used by more than 600,000 businesses, has disclosed a data breach after an attacker exploited a system vulnerability. Copied information included account and company data, password hashes, bank account details, authentication tokens, contractor information, and portions of invoices stored on the platform. AI THREATS Researchers observed autonomous AI agents attempting rudimentary hacking techniques while gathering public information from US and Canadian government websites. Activity included failed SQL injection attempts against the US Department of Education and Library and Archives Canada. Officials reported no compromise, while the origin of the agents remains unconfirmed. Researchers demonstrated that malicious Custom GPTs hosted on ChatGPT were used in a ClickFix campaign to deliver remote access malware. Victims were redirected to a Google Sites page and tricked into running commands. Huntress investigated at least 40 related incidents, including two confirmed infections that began through Custom GPTs. Researchers outlined how JadePuffer, an AI-enabled threat actor tracked as Storm-3168, used compromised Azure service principals to automate cloud reconnaissance and destructive actions. The activity included deleting storage and application resources, targeting backup-related assets, and attempting to retrieve access keys, reflecting agent-driven post-compromise operations in cloud environments. VULNERABILITIES AND PATCHES Citrix has issued fixes for critical NetScaler vulnerabilities CVE-2026-88771-2, affecting NetScaler ADC and Gateway. Attackers have exploited the flaws to gain remote access, deploy web shells and tunneling malware, steal credentials, and move from exposed appliances into internal networks. Check Point IPS provides protection against these threats (Citrix NetScaler Multiple Products Buffer Overflow (CVE-2026-88772), Citrix NetScaler Multiple Products Command Injection (CVE-2026-88771)) Cisco has alerted about CVE-2026-76504, a critical (CVSS 9.8) vulnerability in Catalyst SD-WAN Manager. The flaw allows an unauthenticated remote attacker to send crafted requests and gain administrator access. Cisco reported active exploitation and stated that no fixes are available. Check Point IPS provides protection against this threat (Cisco Catalyst SD-WAN Manager Authentication Bypass (CVE-2026-76504)) Apple has patched CVE-2026-86950, a CoreGraphics memory corruption vulnerability affecting iPhones, iPads, and Macs. Processing a malicious image or PDF can allow arbitrary code exec",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng",
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "government",
-            "aviation_defense",
-            "education"
-          ],
-          "affected_products": [
-            "Azure",
-            "Citrix",
-            "OpenAI/ChatGPT"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-88771",
-            "CVE-2026-88772",
-            "CVE-2026-76504",
-            "CVE-2026-86950"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth",
-            "critical_cvss"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Azure": "target",
-            "Citrix": "target",
-            "OpenAI/ChatGPT": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Check Point Research",
-          "cohort": "threat_research_primary",
-          "title": "5th October – Threat Intelligence Report",
-          "link": "https://research.checkpoint.com/2026/5th-october-threat-intelligence-report/",
-          "published": "2026-10-05T13:57:30+00:00",
-          "summary": "For the latest discoveries in cyber research for the week of 5th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Arizona’s state court system has suffered a phishing-led cyberattack after an employee clicked a malicious link. Attackers copied backup files containing protective-order records and more than 150,000 Foster Care Review Board reports […] The post 5th October – Threat Intelligence Report appeared first on Check Point Research .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "government",
-              "aviation_defense",
-              "education"
-            ],
-            "affected_products": [
-              "Azure",
-              "Citrix",
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-88771",
-              "CVE-2026-88772",
-              "CVE-2026-76504",
-              "CVE-2026-86950"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth",
-              "critical_cvss"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Azure": "target",
-              "Citrix": "target",
-              "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "9adcf13670",
       "priority_score": 10,
       "member_count": 1,
@@ -4836,7 +4745,6 @@
           "active_exploitation",
           "ransomware_extortion",
           "vulnerability_disclosure",
-          "web_shell_backdoor",
           "zero_day"
         ],
         "actor_attribution": [
@@ -4846,19 +4754,18 @@
           "financial_services"
         ],
         "affected_products": [
-          "Android",
-          "GitLab",
+          "Anthropic/Claude",
+          "Microsoft SharePoint",
           "OpenAI/ChatGPT"
         ],
         "tools_used": [],
         "cve_ids": [
-          "CVE-2026-88772",
           "CVE-2026-96940"
         ],
         "attack_techniques": [],
         "urgency_signals": [
           "actively_exploited",
-          "poc_available",
+          "no_patch_yet",
           "preauth_unauth",
           "zero_day"
         ],
@@ -4876,13 +4783,12 @@
         "link": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
         "published": "2026-10-05T16:21:52+00:00",
         "summary": "Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain conditions. The vulnerability, tracked as CVE-2026-96940, is rated 8.8 on the CVSS scoring system. \"Weak authorization in Microsoft Exchange Server allows an authenticated attacker to elevate privileges over a",
-        "full_body": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes  Ravie Lakshmanan  Oct 05, 2026 Vulnerability / Email Security Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain conditions. The vulnerability, tracked as CVE-2026-96940 , is rated 8.8 on the CVSS scoring system. \"Weak authorization in Microsoft Exchange Server allows an authenticated attacker to elevate privileges over a network,\" Microsoft said in an advisory released on October 2, 2026. The Windows maker said an authenticated attacker can exploit this flaw to gain unauthorized access to other users' mailboxes within the same organization and read email messages and attachments. However, the vulnerability does not allow cross-tenant access. Microsoft has already deployed a \"related service-side fix\" to Exchange Online to address the issue. As a result, Exchange Online customers are not required to take any action. Users of affected on-premises Microsoft Exchange Server products are advised to install the updates to stay protected. The following versions are impacted - Microsoft Exchange Server Subscription Edition RTM Microsoft Exchange Server 2016 Cumulative Update 23 Microsoft Exchange Server 2019 Cumulative Update 15 Microsoft Exchange Server 2019 Cumulative Update 14 Redmond has credited Microsoft researcher Jan Mitchell with discovering and reporting the flaw. Although there is no evidence of the flaw being weaponized in the wild, Microsoft has tagged it with an Exploitability assessment of \"Exploitation More Likely,\" making it essential that users move quickly to apply the fixes. The disclosure comes days after Broadcom-owned Symantec warned that the China-linked Warlock actor is exploiting multiple vulnerabilities in Microsoft SharePoint to deploy its namesake ransomware in attacks targeting organizations in Portuguese- and Spanish-speaking countries. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  email security , Microsoft , Vulnerability ⚡ Top Stories This Week ⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Comm",
+        "full_body": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes  Ravie Lakshmanan  Oct 05, 2026 Vulnerability / Email Security Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain conditions. The vulnerability, tracked as CVE-2026-96940 , is rated 8.8 on the CVSS scoring system. \"Weak authorization in Microsoft Exchange Server allows an authenticated attacker to elevate privileges over a network,\" Microsoft said in an advisory released on October 2, 2026. The Windows maker said an authenticated attacker can exploit this flaw to gain unauthorized access to other users' mailboxes within the same organization and read email messages and attachments. However, the vulnerability does not allow cross-tenant access. Microsoft has already deployed a \"related service-side fix\" to Exchange Online to address the issue. As a result, Exchange Online customers are not required to take any action. Users of affected on-premises Microsoft Exchange Server products are advised to install the updates to stay protected. The following versions are impacted - Microsoft Exchange Server Subscription Edition RTM Microsoft Exchange Server 2016 Cumulative Update 23 Microsoft Exchange Server 2019 Cumulative Update 15 Microsoft Exchange Server 2019 Cumulative Update 14 Redmond has credited Microsoft researcher Jan Mitchell with discovering and reporting the flaw. Although there is no evidence of the flaw being weaponized in the wild, Microsoft has tagged it with an Exploitability assessment of \"Exploitation More Likely,\" making it essential that users move quickly to apply the fixes. The disclosure comes days after Broadcom-owned Symantec warned that the China-linked Warlock actor is exploiting multiple vulnerabilities in Microsoft SharePoint to deploy its namesake ransomware in attacks targeting organizations in Portuguese- and Spanish-speaking countries. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  email security , Microsoft , Vulnerability ⚡ Top Stories This Week P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack TP-Link Sued by Four More U.S. States Over Router Security and China Ties Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets Run Code Without Macro Warnings Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes ⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests New NetScaler Zero-Day Exploited in Targeted Atta",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
             "ransomware_extortion",
             "zero_day",
-            "web_shell_backdoor",
             "vulnerability_disclosure",
             "active_exploitation"
           ],
@@ -4893,33 +4799,28 @@
             "financial_services"
           ],
           "affected_products": [
-            "OpenAI/ChatGPT",
-            "GitLab",
-            "Android"
+            "Anthropic/Claude",
+            "Microsoft SharePoint",
+            "OpenAI/ChatGPT"
           ],
           "tools_used": [],
           "cve_ids": [
-            "CVE-2026-96940",
-            "CVE-2026-88772"
+            "CVE-2026-96940"
           ],
           "attack_techniques": [],
           "urgency_signals": [
             "actively_exploited",
             "zero_day",
             "preauth_unauth",
-            "poc_available"
+            "no_patch_yet"
           ],
           "content_type": "news_report",
           "confidence_tier": "tier_4_news",
           "role_map": {
-            "OpenAI/ChatGPT": "target",
-            "GitLab": "target",
-            "Android": "target",
-            "WordPress": "target",
-            "Citrix": "target",
-            "Google/Gemini": "target",
+            "Anthropic/Claude": "target",
             "Microsoft SharePoint": "target",
-            "Kubernetes": "target"
+            "OpenAI/ChatGPT": "target",
+            "Fortinet": "target"
           },
           "weak_tags": {
             "products": []
@@ -4938,7 +4839,6 @@
             "threat_categories": [
               "ransomware_extortion",
               "zero_day",
-              "web_shell_backdoor",
               "vulnerability_disclosure",
               "active_exploitation"
             ],
@@ -4949,33 +4849,28 @@
               "financial_services"
             ],
             "affected_products": [
-              "OpenAI/ChatGPT",
-              "GitLab",
-              "Android"
+              "Anthropic/Claude",
+              "Microsoft SharePoint",
+              "OpenAI/ChatGPT"
             ],
             "tools_used": [],
             "cve_ids": [
-              "CVE-2026-96940",
-              "CVE-2026-88772"
+              "CVE-2026-96940"
             ],
             "attack_techniques": [],
             "urgency_signals": [
               "actively_exploited",
               "zero_day",
               "preauth_unauth",
-              "poc_available"
+              "no_patch_yet"
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {
-              "OpenAI/ChatGPT": "target",
-              "GitLab": "target",
-              "Android": "target",
-              "WordPress": "target",
-              "Citrix": "target",
-              "Google/Gemini": "target",
+              "Anthropic/Claude": "target",
               "Microsoft SharePoint": "target",
-              "Kubernetes": "target"
+              "OpenAI/ChatGPT": "target",
+              "Fortinet": "target"
             },
             "weak_tags": {
               "products": []
@@ -5489,8 +5384,8 @@
     {
       "cluster_id": "82a8a896d6",
       "priority_score": 9,
-      "member_count": 2,
-      "corroborating_source_count": 2,
+      "member_count": 3,
+      "corroborating_source_count": 3,
       "strong_signals": [
         "AWS"
       ],
@@ -5582,6 +5477,34 @@
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "AWS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Help Net Security",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Strands Box: Open-source sandbox for AI agents",
+          "link": "https://www.helpnetsecurity.com/2026/10/12/aws-strands-box-open-source-ai-agent-sandbox/",
+          "published": "2026-10-12T05:30:34+00:00",
+          "summary": "AWS released Strands Box, an open source sandbox for AI agents that pairs operating-system isolation with rules that can weigh what an agent has already done before letting it act again. Box is in developer preview and runs on Macs with Apple silicon, with Linux support planned. If you run coding assistants, you’re familiar with the problem Strands Box targets. Agents read files, run shell commands, execute code they wrote and call APIs, and many … More → The post Strands Box: Open-source sandbox for AI agents appeared first on Help Net Security .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "AWS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
             "role_map": {
               "AWS": "target"
             },
@@ -6328,111 +6251,6 @@
       ]
     },
     {
-      "cluster_id": "c00df1179c",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education",
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "no_patch_yet",
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_3_analysis"
-        ]
-      },
-      "primary": {
-        "source": "Graham Cluley",
-        "cohort": "practitioner_analysis",
-        "title": "$10 million bounty offered for Chinese Hafnium hacker accused of Microsoft Exchange Server mega-attack",
-        "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/10-million-bounty-chinese-hafnium-hacker-microsoft-exchange-server-mega-attack",
-        "published": "2026-10-09T14:35:04+00:00",
-        "summary": "The US State Department is offering up to US $10 million for information about the whereabouts of Zhang Yu, a 44-year-old Chinese national who is accused of being a key figure in China's state-sponsored hacking group, Hafnium. Read more in my article on the Hot for Security blog.",
-        "full_body": "Industry News 2 min read $10 million bounty offered for Chinese Hafnium hacker accused of Microsoft Exchange Server mega-attack Graham CLULEY October 09, 2026 The US State Department is offering up to US $10 million for information about the whereabouts of Zhang Yu, a 44-year-old Chinese national who is accused of being a key figure in China's state-sponsored hacking group, Hafnium. Hafnium (also known as Silk Typhoon) is widely believed to be the group that exploited zero day vulnerabilities to breach Microsoft Exchange Server systems in early 2021, According to the bounty announcement on the United States Rewards for Justice website, Zhang is a director at Shanghai Firetech Information Science and Technology and works under the direction of the Shanghai State Security Bureau (part of China's Ministry of State Security.) Zhang is charged alongside 34-year-old Xu Zewei with malicious cyber activity against US computer systems between February 2020 and June 2021. According to the Rewards for Justice bounty, from early 2020 Zhang and Xu allegedly stole data - including research on COVID-19 vaccines - from the email accounts of immunologists, virologists, and US universities, at the behest of China. The following the year the pair allegedly exploited vulnerabilities in Microsoft Exchange Server to steal further information. Once the flaws became public knowledge, other cybercriminal groups and state-sponsored hackers are thought to have also targeted hundreds of thousands of unpatched servers. Victims included the European Banking Authority . US authorities claim that China uses private companies like Shanghai Firetech and Xu's Shanghai Powerock Network to spy and steal sensitive information, whilst at the same time obscuring the government's involvement in hacking. Even if somebody provides information about Zhang's location it does not mean that he will be brought to court. Zhang is believed to be in China, which will not extradite its citizens - especially not one who is alleged to have been spying on its behalf on adversaries. Furthermore, if findings by security firm SentinelOne are to be believed, Zhang's Shanghai Firetech filed multiple software patents about extract data from computers. That's not to say, of course, that the alleged hackers can breathe easy. Xu, for instance, was arrested at Milan airport in July 2025 and extradited to the United States in April this year. Xu has pleaded not guilty, saying that he was in Italy on holiday with his wife and that the police have detained the wrong man. China's Foreign Ministry opposed Xu's extradition, accusing the United States of fabricating charges against him. So, if nothing else, a bounty of up to US $10 million for information about Zhang makes his future foreign travel an increasingly risky proposition, and gives anyone who has knowledge about his future holiday plans a good incentive to talk. tags Industry News Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also like Bookmarks",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "apt_espionage"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "government",
-            "education"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day",
-            "no_patch_yet"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_3_analysis",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Graham Cluley",
-          "cohort": "practitioner_analysis",
-          "title": "$10 million bounty offered for Chinese Hafnium hacker accused of Microsoft Exchange Server mega-attack",
-          "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/10-million-bounty-chinese-hafnium-hacker-microsoft-exchange-server-mega-attack",
-          "published": "2026-10-09T14:35:04+00:00",
-          "summary": "The US State Department is offering up to US $10 million for information about the whereabouts of Zhang Yu, a 44-year-old Chinese national who is accused of being a key figure in China's state-sponsored hacking group, Hafnium. Read more in my article on the Hot for Security blog.",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "apt_espionage"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "government",
-              "education"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day",
-              "no_patch_yet"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_3_analysis",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "b4d3bcfeec",
       "priority_score": 8,
       "member_count": 1,
@@ -7029,6 +6847,111 @@
       ]
     },
     {
+      "cluster_id": "c00df1179c",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "education",
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "no_patch_yet",
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_3_analysis"
+        ]
+      },
+      "primary": {
+        "source": "Graham Cluley",
+        "cohort": "practitioner_analysis",
+        "title": "$10 million bounty offered for Chinese Hafnium hacker accused of Microsoft Exchange Server mega-attack",
+        "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/10-million-bounty-chinese-hafnium-hacker-microsoft-exchange-server-mega-attack",
+        "published": "2026-10-09T14:35:04+00:00",
+        "summary": "The US State Department is offering up to US $10 million for information about the whereabouts of Zhang Yu, a 44-year-old Chinese national who is accused of being a key figure in China's state-sponsored hacking group, Hafnium. Read more in my article on the Hot for Security blog.",
+        "full_body": "Industry News 2 min read $10 million bounty offered for Chinese Hafnium hacker accused of Microsoft Exchange Server mega-attack Graham CLULEY October 09, 2026 The US State Department is offering up to US $10 million for information about the whereabouts of Zhang Yu, a 44-year-old Chinese national who is accused of being a key figure in China's state-sponsored hacking group, Hafnium. Hafnium (also known as Silk Typhoon) is widely believed to be the group that exploited zero day vulnerabilities to breach Microsoft Exchange Server systems in early 2021, According to the bounty announcement on the United States Rewards for Justice website, Zhang is a director at Shanghai Firetech Information Science and Technology and works under the direction of the Shanghai State Security Bureau (part of China's Ministry of State Security.) Zhang is charged alongside 34-year-old Xu Zewei with malicious cyber activity against US computer systems between February 2020 and June 2021. According to the Rewards for Justice bounty, from early 2020 Zhang and Xu allegedly stole data - including research on COVID-19 vaccines - from the email accounts of immunologists, virologists, and US universities, at the behest of China. The following the year the pair allegedly exploited vulnerabilities in Microsoft Exchange Server to steal further information. Once the flaws became public knowledge, other cybercriminal groups and state-sponsored hackers are thought to have also targeted hundreds of thousands of unpatched servers. Victims included the European Banking Authority . US authorities claim that China uses private companies like Shanghai Firetech and Xu's Shanghai Powerock Network to spy and steal sensitive information, whilst at the same time obscuring the government's involvement in hacking. Even if somebody provides information about Zhang's location it does not mean that he will be brought to court. Zhang is believed to be in China, which will not extradite its citizens - especially not one who is alleged to have been spying on its behalf on adversaries. Furthermore, if findings by security firm SentinelOne are to be believed, Zhang's Shanghai Firetech filed multiple software patents about extract data from computers. That's not to say, of course, that the alleged hackers can breathe easy. Xu, for instance, was arrested at Milan airport in July 2025 and extradited to the United States in April this year. Xu has pleaded not guilty, saying that he was in Italy on holiday with his wife and that the police have detained the wrong man. China's Foreign Ministry opposed Xu's extradition, accusing the United States of fabricating charges against him. So, if nothing else, a bounty of up to US $10 million for information about Zhang makes his future foreign travel an increasingly risky proposition, and gives anyone who has knowledge about his future holiday plans a good incentive to talk. tags Industry News Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also like Bookmarks",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "apt_espionage"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "education"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day",
+            "no_patch_yet"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_3_analysis",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Graham Cluley",
+          "cohort": "practitioner_analysis",
+          "title": "$10 million bounty offered for Chinese Hafnium hacker accused of Microsoft Exchange Server mega-attack",
+          "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/10-million-bounty-chinese-hafnium-hacker-microsoft-exchange-server-mega-attack",
+          "published": "2026-10-09T14:35:04+00:00",
+          "summary": "The US State Department is offering up to US $10 million for information about the whereabouts of Zhang Yu, a 44-year-old Chinese national who is accused of being a key figure in China's state-sponsored hacking group, Hafnium. Read more in my article on the Hot for Security blog.",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "apt_espionage"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "education"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day",
+              "no_patch_yet"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_3_analysis",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "54f7c645e2",
       "priority_score": 8,
       "member_count": 1,
@@ -7222,7 +7145,7 @@
   ],
   "affinity_groups": [
     {
-      "label": "Citrix exploitation (CVE-2026-88779)",
+      "label": "Citrix exploitation (3 CVEs)",
       "anchor_signal": "Citrix",
       "theme_key": "citrix",
       "dominant_features": {
@@ -7250,12 +7173,14 @@
         ]
       },
       "cluster_count": 5,
-      "article_count": 12,
+      "article_count": 11,
       "cohesion": 0.219,
       "shared_strong_signals": [
         "Citrix"
       ],
       "member_cves": [
+        "CVE-2026-88771",
+        "CVE-2026-88772",
         "CVE-2026-88779"
       ],
       "also_targets": [],
@@ -7275,7 +7200,6 @@
         "https://isc.sans.edu/diary/rss/33406",
         "https://orca.security/resources/research/critical-atlassian-path-traversal-exposes-sensitive-files-across-8-products/",
         "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
-        "https://www.reddit.com/r/netsec/comments/1wz82op/you_wont_hear_about_these_even_in_myths_atlassian/",
         "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
         "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
         "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
@@ -7301,7 +7225,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 12,
+      "article_count": 10,
       "cohesion": 0.399,
       "shared_strong_signals": [
         "CVE-2026-102489"
@@ -7315,14 +7239,12 @@
       ],
       "links": [
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-102489/",
-        "https://www.reddit.com/r/netsec/comments/1wzw573/cve2026102489_deepdive_zammad_session_leak_to_rce/",
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-21589/",
         "https://labs.watchtowr.com/you-wont-hear-about-these-even-in-myths-atlassian-jira-confluence-and-more-pre-auth-arbitrary-file-read-cve-2026-21589/",
         "https://www.rapid7.com/blog/post/etr-cve-2026-21589-critical-unauthenticated-arbitrary-file-access-in-atlassian-products",
         "https://isc.sans.edu/diary/rss/33406",
         "https://orca.security/resources/research/critical-atlassian-path-traversal-exposes-sensitive-files-across-8-products/",
         "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
-        "https://www.reddit.com/r/netsec/comments/1wz82op/you_wont_hear_about_these_even_in_myths_atlassian/",
         "https://webflow.sysdig.com/blog/ai-agent-exploits-zammad-zero-days-in-divd-breach-what-we-know-and-how-to-detect-it"
       ]
     },
@@ -7342,7 +7264,7 @@
         ]
       },
       "cluster_count": 4,
-      "article_count": 5,
+      "article_count": 6,
       "cohesion": 0.474,
       "shared_strong_signals": [
         "AWS"
@@ -7360,6 +7282,7 @@
         "https://aws.amazon.com/blogs/security/configuring-your-ai-vulnerability-harness-part-2-the-steering-file/",
         "https://aws.amazon.com/blogs/security/building-your-ai-vulnerability-harness-part-1/",
         "https://securitylabs.datadoghq.com/articles/beyond-valid-credentials-how-exposed-aws-keys-are-tested-for-amazon-bedrock-access/",
+        "https://www.helpnetsecurity.com/2026/10/12/aws-strands-box-open-source-ai-agent-sandbox/",
         "https://www.darkreading.com/cloud-security/agentcorruption-aws-environments-at-risk-single-prompt"
       ]
     },
@@ -7425,8 +7348,8 @@
         ]
       },
       "cluster_count": 4,
-      "article_count": 10,
-      "cohesion": 0.248,
+      "article_count": 11,
+      "cohesion": 0.249,
       "shared_strong_signals": [
         "ShinyHunters"
       ],
@@ -7442,6 +7365,7 @@
         "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
         "https://therecord.media/shinyhunters-arrest-fbi-data-breach-investigation",
         "https://cyberscoop.com/edward-dubrovsky-cypfer-arrested-fbi-extortion-charges/",
+        "https://risky.biz/RBNEWS619/",
         "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
         "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/",
         "https://www.darkreading.com/identity-access-management-security/fbi-shinyhunters-claims-hack",
@@ -7525,58 +7449,6 @@
       ]
     },
     {
-      "label": "Fortinet active exploitation",
-      "anchor_signal": "Fortinet",
-      "theme_key": "fortinet",
-      "dominant_features": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "active_exploitation",
-          "zero_day",
-          "ddos"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [
-          "Fortinet",
-          "SonicWall"
-        ],
-        "cve_ids": [
-          "CVE-2026-88779"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth",
-          "no_patch_yet",
-          "poc_available",
-          "zero_day"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 6,
-      "cohesion": 0.227,
-      "shared_strong_signals": [
-        "Fortinet"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "566a5f5f45",
-        "e0b5b97ad2",
-        "c6371def14"
-      ],
-      "links": [
-        "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
-        "https://www.huntress.com/blog/ahsaycbs-flaws-exploit",
-        "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
-        "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
-        "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
-        "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html"
-      ]
-    },
-    {
       "label": "Apple iOS/macOS vulnerability activity",
       "anchor_signal": "Apple iOS/macOS",
       "theme_key": "apple-ios-macos",
@@ -7624,8 +7496,7 @@
           "financial_services"
         ],
         "affected_products": [
-          "SonicWall",
-          "Fortinet"
+          "SonicWall"
         ],
         "urgency_signals": [
           "actively_exploited",
@@ -7636,7 +7507,7 @@
       },
       "cluster_count": 3,
       "article_count": 6,
-      "cohesion": 0.222,
+      "cohesion": 0.2,
       "shared_strong_signals": [
         "SonicWall"
       ],
@@ -7728,6 +7599,46 @@
         "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
         "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/"
       ]
+    },
+    {
+      "label": "CVE-2026-105133 exploitation activity",
+      "anchor_signal": "CVE-2026-105133",
+      "theme_key": "cve-2026-105133",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "critical_infrastructure"
+        ],
+        "cve_ids": [
+          "CVE-2026-105133",
+          "CVE-2026-105134"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "no_patch_yet"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 4,
+      "cohesion": 0.598,
+      "shared_strong_signals": [
+        "CVE-2026-105133"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "566a5f5f45",
+        "ed65b9e8ab"
+      ],
+      "links": [
+        "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
+        "https://www.huntress.com/blog/ahsaycbs-flaws-exploit",
+        "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
+        "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/"
+      ]
     }
   ],
   "forward_signals": {
@@ -7745,19 +7656,7 @@
         "cohort_count": 2
       }
     ],
-    "leading_edge": [
-      {
-        "cluster_id": "e08a07c74d",
-        "title": "CVE-2026-102489 | Technical Details",
-        "lead_hours": 29.7,
-        "first_source": "Reddit r/netsec",
-        "later_tier1_source": "Horizon3 Attack Research",
-        "shared_signals": [
-          "CVE-2026-102489",
-          "CVE-2026-102490"
-        ]
-      }
-    ],
+    "leading_edge": [],
     "convergence": [
       {
         "cluster_id": "bd1b3dce0b",
@@ -7987,15 +7886,6 @@
         "weeks_observed": 3
       }
     ],
-    "tier_inversion": [
-      {
-        "cluster_id": "78c9a97c81",
-        "title": "High-severity NVIDIA vulnerability lets unauthenticated attackers crash GPU monitoring",
-        "primary_source": "Help Net Security",
-        "strong_signals": [
-          "CVE-2026-47483"
-        ]
-      }
-    ]
+    "tier_inversion": []
   }
 }
