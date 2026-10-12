@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-11T20:07:47.775952+00:00",
+  "generated_at": "2026-10-12T00:23:23.835285+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 76,
-  "total_items_in_window": 309,
-  "total_clusters_raw": 138,
-  "total_clusters_in_packet": 56,
+  "total_items_in_window": 303,
+  "total_clusters_raw": 134,
+  "total_clusters_in_packet": 52,
   "dropped_low_score": 82,
   "dropped_overflow": 0,
   "cohort_metadata": {
@@ -95,18 +95,18 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Trend Micro Research": {
@@ -123,13 +123,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
@@ -144,47 +137,19 @@
       "item_count": 20,
       "in_window_count": 2
     },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 10
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
-    },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 5
-    },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 2
-    },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 9
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -193,12 +158,26 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
+      "item_count": 15,
+      "in_window_count": 5
+    },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
+    },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 4
     },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
@@ -206,6 +185,34 @@
       "status": "ok",
       "item_count": 40,
       "in_window_count": 2
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 2
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
@@ -221,20 +228,6 @@
       "item_count": 50,
       "in_window_count": 0
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
@@ -242,22 +235,8 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -270,12 +249,40 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 15,
-      "in_window_count": 1
+      "in_window_count": 0
+    },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 5
     },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
@@ -289,21 +296,7 @@
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 30,
-      "in_window_count": 2
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
-    },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 6
+      "in_window_count": 1
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -326,18 +319,39 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
-    },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 0
+    },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 6
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
+    },
+    "Protect AI": {
+      "url": "https://protectai.com/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Cloudflare Security": {
@@ -347,33 +361,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Protect AI": {
-      "url": "https://protectai.com/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 3
-    },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
     },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
@@ -382,12 +375,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -401,6 +394,20 @@
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 2
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 2
     },
     "The Record": {
@@ -417,13 +424,6 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
@@ -438,15 +438,15 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 24
+    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -458,6 +458,13 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 1
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -473,26 +480,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 25
-    },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 21
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -501,19 +494,19 @@
       "item_count": 10,
       "in_window_count": 5
     },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 0
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -536,6 +529,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -543,12 +543,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 50,
+      "in_window_count": 50
     },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
@@ -571,12 +571,12 @@
       "item_count": 100,
       "in_window_count": 31
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -585,19 +585,19 @@
       "item_count": 25,
       "in_window_count": 14
     },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -606,19 +606,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
       "cohort": "policy_strategy_geopolitics",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Google Project Zero": {
       "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
@@ -923,9 +923,9 @@
     },
     {
       "cluster_id": "bd1b3dce0b",
-      "priority_score": 36,
-      "member_count": 3,
-      "corroborating_source_count": 3,
+      "priority_score": 34,
+      "member_count": 2,
+      "corroborating_source_count": 2,
       "strong_signals": [
         "CVE-2026-88779",
         "Citrix"
@@ -958,8 +958,7 @@
           "zero_day"
         ],
         "content_type": [
-          "news_report",
-          "vulnerability_disclosure"
+          "news_report"
         ],
         "confidence_tier": [
           "tier_2_operator",
@@ -1055,36 +1054,6 @@
               "Citrix": "target",
               "npm": "target",
               "WordPress": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Sophos X-Ops",
-          "cohort": "detection_response_operations",
-          "title": "Citrix NetScaler vulnerability (CVE-2026-88779) in active exploitation",
-          "link": "https://www.sophos.com/en-us/blog/citrix-netscaler-vulnerability-cve-2026-88779-in-active-exploitation",
-          "published": "2026-10-05T00:00:00+00:00",
-          "summary": "Categories: Threat Research Tags: advisory, vulnerability, Citrix",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Citrix"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-88779"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Citrix": "target"
             },
             "weak_tags": {
               "products": []
@@ -2004,103 +1973,6 @@
       ]
     },
     {
-      "cluster_id": "2c9fe9c79f",
-      "priority_score": 16,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "threat_research"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Datadog Security Labs",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "Guarding the gates: Assessing dangerous permissions granted to Kubernetes built-in principals",
-        "link": "https://securitylabs.datadoghq.com/articles/kubernetes-rbac-built-in-principals-dangerous-permissions/",
-        "published": "2026-10-05T00:00:00+00:00",
-        "summary": "We analyzed RBAC bindings across over 65,000 Kubernetes clusters to find dangerous permissions granted to system:anonymous, system:unauthenticated, and system:authenticated.",
-        "full_body": "Rory McCune Senior Advocate - Security & Compliance Div Savla Data Analyst Kubernetes authorization is a vital but complex part of cluster security, where mistakes can have serious consequences in allowing attackers to establish and expand their access to critical resources. With that in mind we decided to examine how role-based access control (RBAC) is configured in real-world clusters. Specifically, we looked at bindings that can grant some of the built-in principals wide-ranging access to cluster resources. We examined over 65,000 clusters from almost 10,000 organizations to understand what the real-world usage of these principals looked like. Background: How do Kubernetes built-in principals work? Kubernetes provides a number of built-in users and groups that can have permissions assigned to them. Unauthenticated users who make requests to the Kubernetes API server are assigned a username of system:anonymous and a group of system:unauthenticated . As such, any permissions granted to those subjects are given to any caller who can reach the API server at a network level. In most clusters, these permissions allow access to endpoints such as /healthz , which is used for cluster monitoring. However, there are some configuration options that change how the API server handles requests without credentials. If the API server has --anonymous-auth=false set, then requests without credentials will always be rejected. Additionally, Kubernetes v1.34 introduced a feature that allows cluster administrators to restrict anonymous access to a specific list of paths, regardless of what RBAC settings are in place. The third principal that we're looking at in this blog post, system:authenticated , is a group that includes every user with valid credentials for the cluster. Administrators can use this group to grant permissions that every authenticated user in the cluster requires. Distribution defaults Of course, most clusters do not run on upstream Kubernetes but instead use one of the available Kubernetes distributions. In our dataset, most of the clusters ran on Amazon Elastic Kubernetes Service (Amazon EKS), Google Kubernetes Engine (GKE), or Microsoft's Azure Kubernetes Service (AKS), so it's worth mentioning the relevant access-control defaults for each before getting into the data: AKS is one of the few distributions that uses the --anonymous-auth=false setting. So, any permissions granted to the anonymous principals have no effect, and an AKS API server will reject any request without valid credentials. EKS allows anonymous access. However, since v1.32 (before the upstream feature was generally available), EKS has restricted the endpoints that can be exposed without credentials. As a result, bindings to the anonymous principals don't have any effect. GKE allows anonymous access and, like EKS, limits the endpoints that can be accessed without credentials (but from v1.35 in this case). GKE also has an unusual way of handling access to system:authenticated , as by default it allows any user with a valid Google account to have that access to any GKE cluster. (More details are available in Orca's research post on the topic.) It is now possible to block access from arbitrary Google accounts at cluster creation, but the default still stands. Data analysis With the background information covered, what did we see in our data? Across the clusters in the dataset, there were over 320,000 bindings to one of the three principals we're focusing on. Of those, we eliminated 265,000 because they were the default bindings that ship with base Kubernetes ( system:basic-user , system:discovery , and system:public-info-viewer ). That left us about 55,000 bindings to analyze. Filtering 320,000+ bindings to built-in principals down to 3,500+ dangerous grants (click to enlarge) The next group that we excluded was interesting: 11,000 bindings related to podsecuritypolicy objects. Kubernetes Pod Security Policies were removed as a feature in Kubernetes v1.25, which",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "threat_research",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "Kubernetes": "mention"
-          },
-          "weak_tags": {
-            "products": [
-              [
-                "Kubernetes",
-                "mention",
-                0.3
-              ]
-            ]
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Datadog Security Labs",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Guarding the gates: Assessing dangerous permissions granted to Kubernetes built-in principals",
-          "link": "https://securitylabs.datadoghq.com/articles/kubernetes-rbac-built-in-principals-dangerous-permissions/",
-          "published": "2026-10-05T00:00:00+00:00",
-          "summary": "We analyzed RBAC bindings across over 65,000 Kubernetes clusters to find dangerous permissions granted to system:anonymous, system:unauthenticated, and system:authenticated.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Kubernetes": "mention"
-            },
-            "weak_tags": {
-              "products": [
-                [
-                  "Kubernetes",
-                  "mention",
-                  0.3
-                ]
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "a781629acb",
       "priority_score": 16,
       "member_count": 2,
@@ -2714,18 +2586,16 @@
           }
         },
         {
-          "source": "Infosecurity Magazine",
+          "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Chinese Hacker Deployed AI in Campaign Against South Korean Banks",
-          "link": "https://www.infosecurity-magazine.com/news/chinese-hacker-ai-korean-banks/",
-          "published": "2026-10-08T11:00:00+00:00",
-          "summary": "CrowdStrike revealed that a Chinese-speaking hacker deployed agentic pentesting tool ARTEX and Claude to help breach data from South Korean financial firms",
+          "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+          "link": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+          "published": "2026-10-10T09:18:45+00:00",
+          "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites. The AI company said it identified four broad categories of unintended model actions during evaluations and internal use of Claude - Claude Mythos",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
-            "affected_industries": [
-              "financial_services"
-            ],
+            "affected_industries": [],
             "affected_products": [
               "Anthropic/Claude"
             ],
@@ -2744,16 +2614,18 @@
           }
         },
         {
-          "source": "The Hacker News",
+          "source": "Infosecurity Magazine",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
-          "link": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
-          "published": "2026-10-10T09:18:45+00:00",
-          "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites. The AI company said it identified four broad categories of unintended model actions during evaluations and internal use of Claude - Claude Mythos",
+          "title": "Chinese Hacker Deployed AI in Campaign Against South Korean Banks",
+          "link": "https://www.infosecurity-magazine.com/news/chinese-hacker-ai-korean-banks/",
+          "published": "2026-10-08T11:00:00+00:00",
+          "summary": "CrowdStrike revealed that a Chinese-speaking hacker deployed agentic pentesting tool ARTEX and Claude to help breach data from South Korean financial firms",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
-            "affected_industries": [],
+            "affected_industries": [
+              "financial_services"
+            ],
             "affected_products": [
               "Anthropic/Claude"
             ],
@@ -3451,6 +3323,115 @@
       ]
     },
     {
+      "cluster_id": "bacba30b6e",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ddos"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "GitHub"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-105192",
+          "CVE-2026-105756"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "no_patch_yet",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
+        "link": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
+        "published": "2026-10-07T15:34:53+00:00",
+        "summary": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's multiprocess mode, where the cache runs as a standalone server that LLM workers reach over the ZeroMQ messaging library. A single network",
+        "full_body": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely  Swati Khandelwal  Oct 07, 2026 Vulnerability / Artificial Intelligence A critical vulnerability in LMCache , open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's multiprocess mode , where the cache runs as a standalone server that LLM workers reach over the ZeroMQ messaging library. A single network message to that server can run commands as the user the LMCache process runs as. The server can be reached from another machine only when an operator sets it to listen on a routable address, rather than the localhost it uses by default. JFrog disclosed the flaw on October 7 and assigned it a severity score of 9.8 out of 10, in the critical range, the rating it gives a server bound to a routable address. The vulnerability, tracked as CVE-2026-105192 , affects LMCache from version 0.3.9, released in October 2025, through 0.5.5, the latest stable release, and is also present in the 0.5.6 release candidates and the development branch. No fixed version exists. Whether a server is exposed comes down to one setting. By default, the multiprocess server listens only on the local machine, so another host cannot reach it. It becomes reachable when an operator starts it with a routable address, much like multi-node deployments share a cache across machines. LMCache's own example Kubernetes deployment starts the server that way, listening on every network interface. A copy of LMCache running inside a single vLLM process does not open the port at all. The ZeroMQ socket the multiprocess server opens for worker processes to register and share cached data has no authentication. One type of message is unpacked with pickle , a Python format that can carry code and run it as the data is decoded. The server unpacks it while still reading the message's arguments, before any check of the message's type, so a crafted message can run the sender's code. The code runs with the privileges of the LMCache process. On the project's official container images, that process runs as root, according to JFrog. The flaw was found by Yuval Moravchick of JFrog's security research team. There is no patched release. Until one ships, JFrog advises operators not to assign the multiprocess server a routable address and to keep its port on the local machine or on a trusted cluster network. A firewall that limits who can reach the port lowers the risk but does not remove it, because any host that can still open a connection can run code. LMCache has not published a security advisory for the flaw. JFrog's advisory does not provide operators with a way to determine whether a server has already been attacked. Other Reports and a Related vLLM Fix Separately, a GitHub user opened six additional LMCache security reports on October 6, the day before CVE-2026-105192 was made public. They allege unauthenticated access to cached data belonging to different tenants, as well as to several network services that execute commands without a login. The reports come from one account, rest on proof-of-concept claims, and have no CVE, no confirmation from the maintainers, and no fix. One points to a default LMCache that has since changed: an admin HTTP server that listened on every network interface in 0.5.5 listens only on the local host in the 0.5.6 release candidates. A related flaw in vLLM is already fixed. Before version 0.30.0, released September 22, a single request carrying a malformed cache_salt value could crash the engine on deployments that use the LMCache multiprocess connector, a denial-of-service bug tracked as CVE-2026-105756 . It is rated 6.5 and does not allow code execution. The core mistake, handing data from an unauthenticated network socket to pickle, is the same one researchers found across other AI inference frameworks in November 2025,",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ddos"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "GitHub"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-105192",
+            "CVE-2026-105756"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth",
+            "no_patch_yet"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "GitHub": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
+          "link": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
+          "published": "2026-10-07T15:34:53+00:00",
+          "summary": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's multiprocess mode, where the cache runs as a standalone server that LLM workers reach over the ZeroMQ messaging library. A single network",
+          "taxonomy": {
+            "threat_categories": [
+              "ddos"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-105192",
+              "CVE-2026-105756"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth",
+              "no_patch_yet"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "335dcadc8b",
       "priority_score": 12,
       "member_count": 1,
@@ -3563,115 +3544,6 @@
               "AWS": "target",
               "Atlassian Confluence": "target",
               "Atlassian Jira": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "bacba30b6e",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ddos"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "GitHub"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-105192",
-          "CVE-2026-105756"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "no_patch_yet",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
-        "link": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
-        "published": "2026-10-07T15:34:53+00:00",
-        "summary": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's multiprocess mode, where the cache runs as a standalone server that LLM workers reach over the ZeroMQ messaging library. A single network",
-        "full_body": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely  Swati Khandelwal  Oct 07, 2026 Vulnerability / Artificial Intelligence A critical vulnerability in LMCache , open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's multiprocess mode , where the cache runs as a standalone server that LLM workers reach over the ZeroMQ messaging library. A single network message to that server can run commands as the user the LMCache process runs as. The server can be reached from another machine only when an operator sets it to listen on a routable address, rather than the localhost it uses by default. JFrog disclosed the flaw on October 7 and assigned it a severity score of 9.8 out of 10, in the critical range, the rating it gives a server bound to a routable address. The vulnerability, tracked as CVE-2026-105192 , affects LMCache from version 0.3.9, released in October 2025, through 0.5.5, the latest stable release, and is also present in the 0.5.6 release candidates and the development branch. No fixed version exists. Whether a server is exposed comes down to one setting. By default, the multiprocess server listens only on the local machine, so another host cannot reach it. It becomes reachable when an operator starts it with a routable address, much like multi-node deployments share a cache across machines. LMCache's own example Kubernetes deployment starts the server that way, listening on every network interface. A copy of LMCache running inside a single vLLM process does not open the port at all. The ZeroMQ socket the multiprocess server opens for worker processes to register and share cached data has no authentication. One type of message is unpacked with pickle , a Python format that can carry code and run it as the data is decoded. The server unpacks it while still reading the message's arguments, before any check of the message's type, so a crafted message can run the sender's code. The code runs with the privileges of the LMCache process. On the project's official container images, that process runs as root, according to JFrog. The flaw was found by Yuval Moravchick of JFrog's security research team. There is no patched release. Until one ships, JFrog advises operators not to assign the multiprocess server a routable address and to keep its port on the local machine or on a trusted cluster network. A firewall that limits who can reach the port lowers the risk but does not remove it, because any host that can still open a connection can run code. LMCache has not published a security advisory for the flaw. JFrog's advisory does not provide operators with a way to determine whether a server has already been attacked. Other Reports and a Related vLLM Fix Separately, a GitHub user opened six additional LMCache security reports on October 6, the day before CVE-2026-105192 was made public. They allege unauthenticated access to cached data belonging to different tenants, as well as to several network services that execute commands without a login. The reports come from one account, rest on proof-of-concept claims, and have no CVE, no confirmation from the maintainers, and no fix. One points to a default LMCache that has since changed: an admin HTTP server that listened on every network interface in 0.5.5 listens only on the local host in the 0.5.6 release candidates. A related flaw in vLLM is already fixed. Before version 0.30.0, released September 22, a single request carrying a malformed cache_salt value could crash the engine on deployments that use the LMCache multiprocess connector, a denial-of-service bug tracked as CVE-2026-105756 . It is rated 6.5 and does not allow code execution. The core mistake, handing data from an unauthenticated network socket to pickle, is the same one researchers found across other AI inference frameworks in November 2025,",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ddos"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "GitHub"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-105192",
-            "CVE-2026-105756"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth",
-            "no_patch_yet"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "GitHub": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
-          "link": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
-          "published": "2026-10-07T15:34:53+00:00",
-          "summary": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's multiprocess mode, where the cache runs as a standalone server that LLM workers reach over the ZeroMQ messaging library. A single network",
-          "taxonomy": {
-            "threat_categories": [
-              "ddos"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-105192",
-              "CVE-2026-105756"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth",
-              "no_patch_yet"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "GitHub": "target"
             },
             "weak_tags": {
               "products": []
@@ -4085,152 +3957,6 @@
             "confidence_tier": "tier_2_operator",
             "role_map": {
               "AWS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "f28e2b9829",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "phishing_social_eng",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "aviation_defense",
-          "education",
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [
-          "Azure",
-          "Citrix",
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-76504",
-          "CVE-2026-86950",
-          "CVE-2026-88771",
-          "CVE-2026-88772"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "critical_cvss",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Check Point Research",
-        "cohort": "threat_research_primary",
-        "title": "5th October – Threat Intelligence Report",
-        "link": "https://research.checkpoint.com/2026/5th-october-threat-intelligence-report/",
-        "published": "2026-10-05T13:57:30+00:00",
-        "summary": "For the latest discoveries in cyber research for the week of 5th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Arizona’s state court system has suffered a phishing-led cyberattack after an employee clicked a malicious link. Attackers copied backup files containing protective-order records and more than 150,000 Foster Care Review Board reports […] The post 5th October – Threat Intelligence Report appeared first on Check Point Research .",
-        "full_body": "FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 5th October – Threat Intelligence Report October 5, 2026 https://research.checkpoint.com/2026/5th-october-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 5th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Arizona’s state court system has suffered a phishing-led cyberattack after an employee clicked a malicious link. Attackers copied backup files containing protective-order records and more than 150,000 Foster Care Review Board reports dating back to 2010, exposing personal and case-related information belonging to current and former participants. Japanese car-sharing service Times Car has disclosed a data breach affecting approximately 6.6 million current and former accounts. Exposed information includes personal data, while identity-verification documents, including driver’s-license images, were exposed for about 1.6 million accounts. Payment card information was not affected. South Africa’s air navigation provider has suffered a ransomware attack affecting operational technology supporting aviation weather services. Preliminary findings identified suspicious activity in weather-related environments, while separate reporting cited possible data theft. The provider has sought independent digital forensics to determine the scope of the incident. Fakturownia, a Polish online invoicing platform used by more than 600,000 businesses, has disclosed a data breach after an attacker exploited a system vulnerability. Copied information included account and company data, password hashes, bank account details, authentication tokens, contractor information, and portions of invoices stored on the platform. AI THREATS Researchers observed autonomous AI agents attempting rudimentary hacking techniques while gathering public information from US and Canadian government websites. Activity included failed SQL injection attempts against the US Department of Education and Library and Archives Canada. Officials reported no compromise, while the origin of the agents remains unconfirmed. Researchers demonstrated that malicious Custom GPTs hosted on ChatGPT were used in a ClickFix campaign to deliver remote access malware. Victims were redirected to a Google Sites page and tricked into running commands. Huntress investigated at least 40 related incidents, including two confirmed infections that began through Custom GPTs. Researchers outlined how JadePuffer, an AI-enabled threat actor tracked as Storm-3168, used compromised Azure service principals to automate cloud reconnaissance and destructive actions. The activity included deleting storage and application resources, targeting backup-related assets, and attempting to retrieve access keys, reflecting agent-driven post-compromise operations in cloud environments. VULNERABILITIES AND PATCHES Citrix has issued fixes for critical NetScaler vulnerabilities CVE-2026-88771-2, affecting NetScaler ADC and Gateway. Attackers have exploited the flaws to gain remote access, deploy web shells and tunneling malware, steal credentials, and move from exposed appliances into internal networks. Check Point IPS provides protection against these threats (Citrix NetScaler Multiple Products Buffer Overflow (CVE-2026-88772), Citrix NetScaler Multiple Products Command Injection (CVE-2026-88771)) Cisco has alerted about CVE-2026-76504, a critical (CVSS 9.8) vulnerability in Catalyst SD-WAN Manager. The flaw allows an unauthenticated remote attacker to send crafted requests and gain administrator access. Cisco reported active exploitation and stated that no fixes are available. Check Point IPS provides protection against this threat (Cisco Catalyst SD-WAN Manager Authentication Bypass (CVE-2026-76504)) Apple has patched CVE-2026-86950, a CoreGraphics memory corruption vulnerability affecting iPhones, iPads, and Macs. Processing a malicious image or PDF can allow arbitrary code exec",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng",
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "government",
-            "aviation_defense",
-            "education"
-          ],
-          "affected_products": [
-            "Azure",
-            "Citrix",
-            "OpenAI/ChatGPT"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-88771",
-            "CVE-2026-88772",
-            "CVE-2026-76504",
-            "CVE-2026-86950"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth",
-            "critical_cvss"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Azure": "target",
-            "Citrix": "target",
-            "OpenAI/ChatGPT": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Check Point Research",
-          "cohort": "threat_research_primary",
-          "title": "5th October – Threat Intelligence Report",
-          "link": "https://research.checkpoint.com/2026/5th-october-threat-intelligence-report/",
-          "published": "2026-10-05T13:57:30+00:00",
-          "summary": "For the latest discoveries in cyber research for the week of 5th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Arizona’s state court system has suffered a phishing-led cyberattack after an employee clicked a malicious link. Attackers copied backup files containing protective-order records and more than 150,000 Foster Care Review Board reports […] The post 5th October – Threat Intelligence Report appeared first on Check Point Research .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "government",
-              "aviation_defense",
-              "education"
-            ],
-            "affected_products": [
-              "Azure",
-              "Citrix",
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-88771",
-              "CVE-2026-88772",
-              "CVE-2026-76504",
-              "CVE-2026-86950"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth",
-              "critical_cvss"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Azure": "target",
-              "Citrix": "target",
-              "OpenAI/ChatGPT": "target"
             },
             "weak_tags": {
               "products": []
@@ -4737,6 +4463,152 @@
       ]
     },
     {
+      "cluster_id": "f28e2b9829",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "phishing_social_eng",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "aviation_defense",
+          "education",
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [
+          "Azure",
+          "Citrix",
+          "OpenAI/ChatGPT"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-76504",
+          "CVE-2026-86950",
+          "CVE-2026-88771",
+          "CVE-2026-88772"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "critical_cvss",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Check Point Research",
+        "cohort": "threat_research_primary",
+        "title": "5th October – Threat Intelligence Report",
+        "link": "https://research.checkpoint.com/2026/5th-october-threat-intelligence-report/",
+        "published": "2026-10-05T13:57:30+00:00",
+        "summary": "For the latest discoveries in cyber research for the week of 5th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Arizona’s state court system has suffered a phishing-led cyberattack after an employee clicked a malicious link. Attackers copied backup files containing protective-order records and more than 150,000 Foster Care Review Board reports […] The post 5th October – Threat Intelligence Report appeared first on Check Point Research .",
+        "full_body": "FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 5th October – Threat Intelligence Report October 5, 2026 https://research.checkpoint.com/2026/5th-october-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 5th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Arizona’s state court system has suffered a phishing-led cyberattack after an employee clicked a malicious link. Attackers copied backup files containing protective-order records and more than 150,000 Foster Care Review Board reports dating back to 2010, exposing personal and case-related information belonging to current and former participants. Japanese car-sharing service Times Car has disclosed a data breach affecting approximately 6.6 million current and former accounts. Exposed information includes personal data, while identity-verification documents, including driver’s-license images, were exposed for about 1.6 million accounts. Payment card information was not affected. South Africa’s air navigation provider has suffered a ransomware attack affecting operational technology supporting aviation weather services. Preliminary findings identified suspicious activity in weather-related environments, while separate reporting cited possible data theft. The provider has sought independent digital forensics to determine the scope of the incident. Fakturownia, a Polish online invoicing platform used by more than 600,000 businesses, has disclosed a data breach after an attacker exploited a system vulnerability. Copied information included account and company data, password hashes, bank account details, authentication tokens, contractor information, and portions of invoices stored on the platform. AI THREATS Researchers observed autonomous AI agents attempting rudimentary hacking techniques while gathering public information from US and Canadian government websites. Activity included failed SQL injection attempts against the US Department of Education and Library and Archives Canada. Officials reported no compromise, while the origin of the agents remains unconfirmed. Researchers demonstrated that malicious Custom GPTs hosted on ChatGPT were used in a ClickFix campaign to deliver remote access malware. Victims were redirected to a Google Sites page and tricked into running commands. Huntress investigated at least 40 related incidents, including two confirmed infections that began through Custom GPTs. Researchers outlined how JadePuffer, an AI-enabled threat actor tracked as Storm-3168, used compromised Azure service principals to automate cloud reconnaissance and destructive actions. The activity included deleting storage and application resources, targeting backup-related assets, and attempting to retrieve access keys, reflecting agent-driven post-compromise operations in cloud environments. VULNERABILITIES AND PATCHES Citrix has issued fixes for critical NetScaler vulnerabilities CVE-2026-88771-2, affecting NetScaler ADC and Gateway. Attackers have exploited the flaws to gain remote access, deploy web shells and tunneling malware, steal credentials, and move from exposed appliances into internal networks. Check Point IPS provides protection against these threats (Citrix NetScaler Multiple Products Buffer Overflow (CVE-2026-88772), Citrix NetScaler Multiple Products Command Injection (CVE-2026-88771)) Cisco has alerted about CVE-2026-76504, a critical (CVSS 9.8) vulnerability in Catalyst SD-WAN Manager. The flaw allows an unauthenticated remote attacker to send crafted requests and gain administrator access. Cisco reported active exploitation and stated that no fixes are available. Check Point IPS provides protection against this threat (Cisco Catalyst SD-WAN Manager Authentication Bypass (CVE-2026-76504)) Apple has patched CVE-2026-86950, a CoreGraphics memory corruption vulnerability affecting iPhones, iPads, and Macs. Processing a malicious image or PDF can allow arbitrary code exec",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "phishing_social_eng",
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "aviation_defense",
+            "education"
+          ],
+          "affected_products": [
+            "Azure",
+            "Citrix",
+            "OpenAI/ChatGPT"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-88771",
+            "CVE-2026-88772",
+            "CVE-2026-76504",
+            "CVE-2026-86950"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth",
+            "critical_cvss"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Azure": "target",
+            "Citrix": "target",
+            "OpenAI/ChatGPT": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Check Point Research",
+          "cohort": "threat_research_primary",
+          "title": "5th October – Threat Intelligence Report",
+          "link": "https://research.checkpoint.com/2026/5th-october-threat-intelligence-report/",
+          "published": "2026-10-05T13:57:30+00:00",
+          "summary": "For the latest discoveries in cyber research for the week of 5th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Arizona’s state court system has suffered a phishing-led cyberattack after an employee clicked a malicious link. Attackers copied backup files containing protective-order records and more than 150,000 Foster Care Review Board reports […] The post 5th October – Threat Intelligence Report appeared first on Check Point Research .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "phishing_social_eng",
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "aviation_defense",
+              "education"
+            ],
+            "affected_products": [
+              "Azure",
+              "Citrix",
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-88771",
+              "CVE-2026-88772",
+              "CVE-2026-76504",
+              "CVE-2026-86950"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth",
+              "critical_cvss"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Azure": "target",
+              "Citrix": "target",
+              "OpenAI/ChatGPT": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "9adcf13670",
       "priority_score": 10,
       "member_count": 1,
@@ -4952,142 +4824,6 @@
       ]
     },
     {
-      "cluster_id": "5abaf61ca8",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "data_breach",
-          "phishing_social_eng",
-          "ransomware_extortion",
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [
-          "Ivanti"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2022-36553",
-          "CVE-2023-46805",
-          "CVE-2024-21887",
-          "CVE-2024-23625",
-          "CVE-2025-34035"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "no_patch_yet"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "ClingSTUN Malware Turns Unpatched IoT Devices Into Proxy Nodes",
-        "link": "https://www.infosecurity-magazine.com/news/clingstun-backdoor-unpatched-iot/",
-        "published": "2026-10-05T14:30:00+00:00",
-        "summary": "ClingSTUN exploits known IoT flaws and abuses public STUN servers to keep proxy access to devices",
-        "full_body": "Infosecurity Magazine Home » News » ClingSTUN Malware Turns Unpatched IoT Devices Into Proxy Nodes ClingSTUN Malware Turns Unpatched IoT Devices Into Proxy Nodes News 5 October 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino A Linux proxy backdoor has been observed exploiting known, unpatched flaws in internet-facing IoT devices and abusing legitimate public STUN servers to keep compromised systems reachable as remotely controlled proxy nodes. FortiGuard Labs, which dubbed the malware ClingSTUN, said in research published on October 5 that it tracked the campaign across three periods, each with a different download server. The first lasted two days and relied on a single flaw, CVE-2022-36553 in Hytec Inter routers. In the second, the attackers switched to two vulnerability: CVE-2025-34035 in EnGenius's IoT cloud service and CVE-2024-23625 in D-Link's UPnP service. The operators then spread the malware through command injection flaws in Linear, Realtek, TP-Link, AVTECH and D-Link devices. In the third period, the attackers added more entry points, and FortiGuard's list now stands at 24 vulnerabilities, including Ivanti Connect Secure flaws CVE-2023-46805 and CVE-2024-21887 and newer bugs such as CVE-2026-36356 and CVE-2025-67038. STUN Traffic Blends With VoIP and WebRTC ClingSTUN works as a back-connect proxy . It sends STUN binding requests to public servers, 24 in the second version and 13 in the third, to discover its external address and port mappings and keep NAT bindings open, then periodically reports its group identifier and mapped ports to the same servers. Because the servers are legitimate, the traffic resembles normal VoIP and WebRTC communications. FortiGuard said how the operator obtains the mappings and pushes commands through NAT remains unverified, and warned against treating the STUN services as attacker-controlled infrastructure. The malware kills competing processes and watchdog timers, copies itself into system locations, modifies boot scripts for persistence and hides behind process information copied from the system's init process. It supports remote command execution and carries hard-coded exploits for seven more vulnerabilities, including flaws in Realtek's SDK and three DVR products, to spread itself. Read more on IoT malware: New Mirai-Based Linux Botnet 'Evooo1Bot' Turns Victims Into Proxies Defenders Weigh Containment Against Patching Louis Eichenbaum, federal CTO at ColorTokens warned. \"ClingSTUN is another reminder that organizations cannot patch their way out of cyber risk.\" He argued for compensating controls around devices that cannot be fixed immediately, with microsegmentation to limit lateral movement. Meanwhile, John Gallagher, VP at IoT security firm Viakoo, disagreed on segmentation. \"Believing that network segmentation provides security is a flawed assumption,\" he said, arguing instead for automated firmware remediation across multivendor IoT fleets. \"Visibility alone will not save you here,\" he added. FortiGuard advised assessing STUN activity alongside suspicious processes, unexpected UDP connections and recurring keepalive traffic. The cybersecurity firm also urged organizations to inventory internet-facing devices, prioritize patches for actively exploited flaws and replace or isolate devices that no longer receive security updates. You may also like GoTitan Botnet and PrCtrl RAT Exploit Apache Vulnerability News 29 November 2023 MostereRAT Targets Windows Users With Stealth Tactics News 8 September 2025 Phishing Campaign Uses Havoc Framework to Control Infected Systems News 3 March 2025 Advanced ValleyRAT Campaign Hits Windows Users in China News 15 August 2024 SEO Poisoning Targets Chinese Users with Fake Software Sites News 15 September 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Q3 2026 Sets New Record for Ransomware Attacks News 9 October 2026 1 ASOS Confirms Data Breach Linked to Stolen Employee Credent",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng",
-            "data_breach",
-            "web_shell_backdoor",
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government"
-          ],
-          "affected_products": [
-            "Ivanti"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2022-36553",
-            "CVE-2025-34035",
-            "CVE-2024-23625",
-            "CVE-2023-46805",
-            "CVE-2024-21887"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "no_patch_yet"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Ivanti": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "ClingSTUN Malware Turns Unpatched IoT Devices Into Proxy Nodes",
-          "link": "https://www.infosecurity-magazine.com/news/clingstun-backdoor-unpatched-iot/",
-          "published": "2026-10-05T14:30:00+00:00",
-          "summary": "ClingSTUN exploits known IoT flaws and abuses public STUN servers to keep proxy access to devices",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng",
-              "data_breach",
-              "web_shell_backdoor",
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government"
-            ],
-            "affected_products": [
-              "Ivanti"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2022-36553",
-              "CVE-2025-34035",
-              "CVE-2024-23625",
-              "CVE-2023-46805",
-              "CVE-2024-21887"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "no_patch_yet"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Ivanti": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "c18e100563",
       "priority_score": 10,
       "member_count": 1,
@@ -5249,6 +4985,142 @@
       ]
     },
     {
+      "cluster_id": "5abaf61ca8",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "data_breach",
+          "phishing_social_eng",
+          "ransomware_extortion",
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [
+          "Ivanti"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2022-36553",
+          "CVE-2023-46805",
+          "CVE-2024-21887",
+          "CVE-2024-23625",
+          "CVE-2025-34035"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "no_patch_yet"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "ClingSTUN Malware Turns Unpatched IoT Devices Into Proxy Nodes",
+        "link": "https://www.infosecurity-magazine.com/news/clingstun-backdoor-unpatched-iot/",
+        "published": "2026-10-05T14:30:00+00:00",
+        "summary": "ClingSTUN exploits known IoT flaws and abuses public STUN servers to keep proxy access to devices",
+        "full_body": "Infosecurity Magazine Home » News » ClingSTUN Malware Turns Unpatched IoT Devices Into Proxy Nodes ClingSTUN Malware Turns Unpatched IoT Devices Into Proxy Nodes News 5 October 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino A Linux proxy backdoor has been observed exploiting known, unpatched flaws in internet-facing IoT devices and abusing legitimate public STUN servers to keep compromised systems reachable as remotely controlled proxy nodes. FortiGuard Labs, which dubbed the malware ClingSTUN, said in research published on October 5 that it tracked the campaign across three periods, each with a different download server. The first lasted two days and relied on a single flaw, CVE-2022-36553 in Hytec Inter routers. In the second, the attackers switched to two vulnerability: CVE-2025-34035 in EnGenius's IoT cloud service and CVE-2024-23625 in D-Link's UPnP service. The operators then spread the malware through command injection flaws in Linear, Realtek, TP-Link, AVTECH and D-Link devices. In the third period, the attackers added more entry points, and FortiGuard's list now stands at 24 vulnerabilities, including Ivanti Connect Secure flaws CVE-2023-46805 and CVE-2024-21887 and newer bugs such as CVE-2026-36356 and CVE-2025-67038. STUN Traffic Blends With VoIP and WebRTC ClingSTUN works as a back-connect proxy . It sends STUN binding requests to public servers, 24 in the second version and 13 in the third, to discover its external address and port mappings and keep NAT bindings open, then periodically reports its group identifier and mapped ports to the same servers. Because the servers are legitimate, the traffic resembles normal VoIP and WebRTC communications. FortiGuard said how the operator obtains the mappings and pushes commands through NAT remains unverified, and warned against treating the STUN services as attacker-controlled infrastructure. The malware kills competing processes and watchdog timers, copies itself into system locations, modifies boot scripts for persistence and hides behind process information copied from the system's init process. It supports remote command execution and carries hard-coded exploits for seven more vulnerabilities, including flaws in Realtek's SDK and three DVR products, to spread itself. Read more on IoT malware: New Mirai-Based Linux Botnet 'Evooo1Bot' Turns Victims Into Proxies Defenders Weigh Containment Against Patching Louis Eichenbaum, federal CTO at ColorTokens warned. \"ClingSTUN is another reminder that organizations cannot patch their way out of cyber risk.\" He argued for compensating controls around devices that cannot be fixed immediately, with microsegmentation to limit lateral movement. Meanwhile, John Gallagher, VP at IoT security firm Viakoo, disagreed on segmentation. \"Believing that network segmentation provides security is a flawed assumption,\" he said, arguing instead for automated firmware remediation across multivendor IoT fleets. \"Visibility alone will not save you here,\" he added. FortiGuard advised assessing STUN activity alongside suspicious processes, unexpected UDP connections and recurring keepalive traffic. The cybersecurity firm also urged organizations to inventory internet-facing devices, prioritize patches for actively exploited flaws and replace or isolate devices that no longer receive security updates. You may also like GoTitan Botnet and PrCtrl RAT Exploit Apache Vulnerability News 29 November 2023 MostereRAT Targets Windows Users With Stealth Tactics News 8 September 2025 Phishing Campaign Uses Havoc Framework to Control Infected Systems News 3 March 2025 Advanced ValleyRAT Campaign Hits Windows Users in China News 15 August 2024 SEO Poisoning Targets Chinese Users with Fake Software Sites News 15 September 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Q3 2026 Sets New Record for Ransomware Attacks News 9 October 2026 1 ASOS Confirms Data Breach Linked to Stolen Employee Credent",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "phishing_social_eng",
+            "data_breach",
+            "web_shell_backdoor",
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government"
+          ],
+          "affected_products": [
+            "Ivanti"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2022-36553",
+            "CVE-2025-34035",
+            "CVE-2024-23625",
+            "CVE-2023-46805",
+            "CVE-2024-21887"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "no_patch_yet"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Ivanti": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "ClingSTUN Malware Turns Unpatched IoT Devices Into Proxy Nodes",
+          "link": "https://www.infosecurity-magazine.com/news/clingstun-backdoor-unpatched-iot/",
+          "published": "2026-10-05T14:30:00+00:00",
+          "summary": "ClingSTUN exploits known IoT flaws and abuses public STUN servers to keep proxy access to devices",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "phishing_social_eng",
+              "data_breach",
+              "web_shell_backdoor",
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [
+              "Ivanti"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2022-36553",
+              "CVE-2025-34035",
+              "CVE-2024-23625",
+              "CVE-2023-46805",
+              "CVE-2024-21887"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "no_patch_yet"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Ivanti": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "7e0023e1fe",
       "priority_score": 10,
       "member_count": 1,
@@ -5401,81 +5273,6 @@
             "affected_industries": [
               "government"
             ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_government",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "c82a5c5007",
-      "priority_score": 9,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_government"
-        ]
-      },
-      "primary": {
-        "source": "SANS Internet Storm Center",
-        "cohort": "government_authoritative",
-        "title": "TTY Logs and the Data it Captures, (Sun, Oct 4th)",
-        "link": "https://isc.sans.edu/diary/rss/33396",
-        "published": "2026-10-05T00:15:00+00:00",
-        "summary": "For an experiment, I created a script [ 1 ] that parses and send the TTY logs collected from actors or bots activity that run various commands after they successfully login the DShield sensor. Those TTY logs are sent daily at the end of each day to the DShield SIEM [ 2 ] to be correlated with all the data.",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_government",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SANS Internet Storm Center",
-          "cohort": "government_authoritative",
-          "title": "TTY Logs and the Data it Captures, (Sun, Oct 4th)",
-          "link": "https://isc.sans.edu/diary/rss/33396",
-          "published": "2026-10-05T00:15:00+00:00",
-          "summary": "For an experiment, I created a script [ 1 ] that parses and send the TTY logs collected from actors or bots activity that run various commands after they successfully login the DShield sensor. Those TTY logs are sent daily at the end of each day to the DShield SIEM [ 2 ] to be correlated with all the data.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
@@ -6008,115 +5805,6 @@
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
             "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "1a8594f0b4",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education",
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-39987"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Sysdig",
-        "cohort": "detection_response_operations",
-        "title": "Security briefing: September 2026",
-        "link": "https://webflow.sysdig.com/blog/security-briefing-september-2026",
-        "published": "2026-10-05T00:00:00+00:00",
-        "summary": "It may be October as you read this, but I bet many organizations got the creeps in September as environments were continuously breached. There were scams, old-fashioned human actors, a few agents making mistakes, and some persistent actors taking full advantage of a new vulnerability.",
-        "full_body": "< back to blog Security briefing: September 2026 Published by: Crystal Morin Sr. Cybersecurity Strategist @ linkedin Published: October 5, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more Peek-a-boo, who’s spying on you? It may be October as you read this, but I bet many organizations got the creeps in September as environments were continuously breached. There were scams, old-fashioned human actors, a few agents making mistakes, and some persistent actors taking full advantage of a new vulnerability. While those threats may all have come from very different players, most posed the same defensive challenge: a gap between initial access and anyone noticing something was wrong. Peek-a-boo! Are you watching your cloud environment in real time? Let’s dive into the details of September’s security news. Sep 12: Fintech organization hands sensitive information to fraudsters British neobank and fintech company Revolut confirmed on September 12th that a limited number of customers’ sensitive information was passed off to an unauthorized party. The threat actor claiming the campaign, identified as “IAmNotAVillain” (ironic, isn’t it?), established an email address under a legitimate government agency domain to send a request for information to Revolut. According to the threat actor, 147 GB of data was obtained over the course of six months. The data allegedly included names, occupations, contact details, personal documentation, selfies, account statements, and transaction history. This is not a failure you can patch or block your way out of. This is a process failure that highlights the importance of identity verification and the sophistication of modern social engineering campaigns. Sep 24-25: OpenAI agents go off-script against multiple governments On September 24, it was made public that an experimental OpenAI model agent accessed a Services Australia Medicare portal in June while conducting research. The system breach wasn’t identified until an internal review in August, and Australian officials were notified about one month later. On September 25, news came out that OpenAI’s research agents also accessed three US federal agency websites : the SEC, Department of Education, and Department of Commerce. OpenAI has since issued a warning stating that possibly “dozens” more global governments, universities, and institutions could have been accessed. The primary issue that few are talking about is the gap between access and identification. While these weren’t “malicious” breaches, some agents bypassed security controls. Consider whether your organization is capable of identifying an agent accessing your environment, or prepared for your own agent going rogue outside of your control in real time. Additional Sysdig TRT findings A human operator with machine speed On September 11, the Sysdig Threat Research Team (TRT) profiled a human operator who matched some of the attack speeds set by AI-driven attackers on the same marimo CVE-2026-39987. The operator hand-rolled a Python toolkit over roughly four hours, then ran a nine-hour session with 850+ interactive commands. The operator opened the probe file twice and never echoed the marker that agentic threat actors (ATAs) trip over religiously. This is a clear signal of a human over AI. The operator did present a coding error when they fired an EC2 Instance Connect key push against a null instance ID. Otherwise, the attack was much more thoughtful and evasive than noisy AI-driven attacks that will fail fast and try again. AI may lower the barrier to entry for cybercriminals, but it still hasn't replaced the skilled attacker who can build from scratch to avoid traps and evade detection. Defenders need to focus on detecting the attack chain shape, not the attacker type. A Secrets Manager call, SSH key handoff, and outbound ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "government",
-            "education"
-          ],
-          "affected_products": [
-            "OpenAI/ChatGPT"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-39987"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "OpenAI/ChatGPT": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Sysdig",
-          "cohort": "detection_response_operations",
-          "title": "Security briefing: September 2026",
-          "link": "https://webflow.sysdig.com/blog/security-briefing-september-2026",
-          "published": "2026-10-05T00:00:00+00:00",
-          "summary": "It may be October as you read this, but I bet many organizations got the creeps in September as environments were continuously breached. There were scams, old-fashioned human actors, a few agents making mistakes, and some persistent actors taking full advantage of a new vulnerability.",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "government",
-              "education"
-            ],
-            "affected_products": [
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-39987"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "OpenAI/ChatGPT": "target"
-            },
             "weak_tags": {
               "products": []
             }
@@ -6745,6 +6433,175 @@
       ]
     },
     {
+      "cluster_id": "b4d3bcfeec",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks",
+        "link": "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html",
+        "published": "2026-10-08T15:45:56+00:00",
+        "summary": "Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said. The Tokyo-based center, which takes incident reports, based its October 8, 2026 alert on those reports and other information. The alert names no attacker and no affected organization. JPCERT/",
+        "full_body": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks  Swati Khandelwal  Oct 08, 2026 Data Breach / Web Security Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said. The Tokyo-based center, which takes incident reports, based its October 8, 2026 alert on those reports and other information. The alert names no attacker and no affected organization. JPCERT/CC called what it knows \"limited and fragmentary\" in the alert, translated here from Japanese. It said its account does not mean the same method was used in every incident. Besides consumer apps, the systems hit include business intelligence (BI) tools and employee-facing management systems that their operators did not expect the public to reach. Data stored in them leaked in some cases. For defenders, the alert includes eight source IP addresses, five User-Agent strings, and a list of API controls, including access controls on every endpoint, public or not. The only product it names as a target is Metabase , a BI tool with a known flaw that attackers have exploited. Metabase has urged users to upgrade to at least the minimum safe releases in a list last updated August 14. Those releases are newer than the first fix for that flaw. The leaks have come one after another around September 2026. The attacks behind them are separate from ransomware and other routine incidents, lead to leaks of large amounts of personal data, and may be increasing, JPCERT/CC said. JPCERT/CC gave no count. One comes from the Security Research Center of Japanese company Macnica, in an analysis published October 7 that the alert cites. Macnica counted 119 incidents made public this year through October 6 in which personal data was stolen or leaked through web systems run by organizations in Japan. It counted 84 in all of 2025 and 62 in 2024, and 81 of this year's 119 came in July or later. The count covers only incidents that Macnica judged similar to the current series. It leaves out ransomware and cases Macnica ties to other attack groups. Of the 81 made public since July, 65 gave too little detail to tell how the attackers got in. The targets have spread from online shops to member services, business systems and customer support. Recent cases include a library's catalog search and a tourist train's seat booking system. Two cases show the scale. Park24 said on September 28 that a third party obtained data on about 6.6 million accounts from the web system of its Times Car car-sharing service. A day later, it said that identity documents , such as driver's license images, had leaked from about 1.6 million accounts. Monogatari Corporation, which runs the Yakiniku King restaurant chain, said 10,788,963 records leaked from the member system of its Yakiniku King app, INTERNET Watch reported on October 5. Both companies said at the time that the cause was still under investigation. Macnica also found 99 similar cases in 13 other countries and regions, mostly from July to September, including 30 in South Korea, 11 in France and 8 in Poland. It does not know whether Japan is the only target, and said disclosure laws and practices differ by country. How the Attackers Get In JPCERT/CC's alert describes three patterns. The first is unauthorized requests to the management APIs behind an app. In some cases, those requests rewrote information. JPCERT/CC has received multiple reports of three ways attackers do this: They analyze a publicly released smartphone app to find its API endpoints and keys. They attack internal APIs that cannot be used through the app's screens. Reported actions include changing a user's privileges, creating unauthorized accounts, comparing how the server answers when a header is added or removed or a malformed authentication token is sent, and finding account details through blind NoSQL injection. They use API keys stolen wh",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks",
+          "link": "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html",
+          "published": "2026-10-08T15:45:56+00:00",
+          "summary": "Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said. The Tokyo-based center, which takes incident reports, based its October 8, 2026 alert on those reports and other information. The alert names no attacker and no affected organization. JPCERT/",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "e3ed341c60",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft Defender"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
+        "link": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
+        "published": "2026-10-07T06:57:54+00:00",
+        "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stealer). The activity, which was observed by the agency in September 2026, has been attributed to a threat cluster dubbed UAC-0277. It did not disclose who the",
+        "full_body": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer  Ravie Lakshmanan  Oct 07, 2026 Malware / Web Security The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stealer). The activity, which was observed by the agency in September 2026, has been attributed to a threat cluster dubbed UAC-0277. It did not disclose who the victims of the campaign were or if any systems were successfully compromised as a result of these attacks. \"When visiting such a site, users were shown a forged Cloudflare verification page that, under the pretext of confirming the visitor is human, prompted them to execute a command,\" CERT-UA said in an advisory. \"Executing the command caused a malicious MSI package to be downloaded and installed from a remote server (the ClickFix technique).\" The attacks also make use of the EtherHiding technique to retrieve the domain name of the resource from which the fake verification page is loaded, as well as the script's operating mode, from a smart contract on the Polygon or Ethereum network. According to CERT-UA, there are three operating modes: 0 – inactive; 1 – passive tracking of visitors that includes gathering data about the website and the page from which the visitor arrived; and 2 – displaying the fake verification page. In Mode 2, the bogus verification page is shown only to Windows users who arrive at the site from search engine results and not more than twice in 12 hours. These ClickFix lures lead to the distribution of MSI packages that deliver LunexStealer. At least three different variants of the MSI packages have been discovered - Variant 1 , which installs LunexStealer on the system. Variant 2 , which attempts to bypass Windows account control (UAC), configures Microsoft Defender exclusions, leverages the legitimate-but-vulnerable AMD driver (\"PDFWKRNL.sys\") to blind security software, and then retrieves and runs LunexStealer from a remote server. Variant 3 , which launches LunexStealer via DLL sideloading by using the legitimate binary (\"FnHotkeyUtility.exe\") to load a rogue DLL (\"spkvol.dll\"), which decrypts and executes the stealer. As documented by both Arctic Wolf Labs and Ontinue , LunexStealer is also designed to install a malicious browser extension called LUNARAXE. The extension masquerades as \"Microsoft Office Word Editor\" to steal cookies, browsing history, and credentials entered into web forms. It also allows the operator to remotely control the browser and execute arbitrary JavaScript on web pages. The stealer also deploys an auxiliary component named NAIVEMESS that's installed based on a configuration received from the command-and-control (C2) server. Its primary responsibility is to provide LUNARAXE with access to the Windows file system through a PowerShell-based Native Messaging Host. \"NAIVEMESS functionality includes retrieving the list of drives, browsing directories, reading, creating and overwriting files, as well as executing them,\" CERT-UA said. \"Files are transferred in chunks encoded in Base64, and directories and file groups are pre‑archived into ZIP.\" The component does have its own communication channel with the C2 server. Rather, commands are received via the extension, which houses three other modules - LUNARAXE.CORE, which handles C2 communication, receives commands, executes them, and exfiltrates browser data (i.e., cookies, browsing history, bookmarks, details about installed extensions, and intercepted credentials). It can also manage tabs, enable/disable extensions, serve notifications, run JavaScript on web pages, and display bogus overlays. It can also copy files from the computer, write files to it, and execute them if NAIVEMESS is installed. LUNARAXE.STEALER, which captures credentials entered into web forms and sends them to LUNARAXE.CORE, along with the pa",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft Defender"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Microsoft Defender": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
+          "link": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
+          "published": "2026-10-07T06:57:54+00:00",
+          "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stealer). The activity, which was observed by the agency in September 2026, has been attributed to a threat cluster dubbed UAC-0277. It did not disclose who the",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Defender"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Microsoft Defender": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "3a47cf5b6c",
       "priority_score": 8,
       "member_count": 1,
@@ -7172,175 +7029,6 @@
       ]
     },
     {
-      "cluster_id": "b4d3bcfeec",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks",
-        "link": "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html",
-        "published": "2026-10-08T15:45:56+00:00",
-        "summary": "Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said. The Tokyo-based center, which takes incident reports, based its October 8, 2026 alert on those reports and other information. The alert names no attacker and no affected organization. JPCERT/",
-        "full_body": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks  Swati Khandelwal  Oct 08, 2026 Data Breach / Web Security Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said. The Tokyo-based center, which takes incident reports, based its October 8, 2026 alert on those reports and other information. The alert names no attacker and no affected organization. JPCERT/CC called what it knows \"limited and fragmentary\" in the alert, translated here from Japanese. It said its account does not mean the same method was used in every incident. Besides consumer apps, the systems hit include business intelligence (BI) tools and employee-facing management systems that their operators did not expect the public to reach. Data stored in them leaked in some cases. For defenders, the alert includes eight source IP addresses, five User-Agent strings, and a list of API controls, including access controls on every endpoint, public or not. The only product it names as a target is Metabase , a BI tool with a known flaw that attackers have exploited. Metabase has urged users to upgrade to at least the minimum safe releases in a list last updated August 14. Those releases are newer than the first fix for that flaw. The leaks have come one after another around September 2026. The attacks behind them are separate from ransomware and other routine incidents, lead to leaks of large amounts of personal data, and may be increasing, JPCERT/CC said. JPCERT/CC gave no count. One comes from the Security Research Center of Japanese company Macnica, in an analysis published October 7 that the alert cites. Macnica counted 119 incidents made public this year through October 6 in which personal data was stolen or leaked through web systems run by organizations in Japan. It counted 84 in all of 2025 and 62 in 2024, and 81 of this year's 119 came in July or later. The count covers only incidents that Macnica judged similar to the current series. It leaves out ransomware and cases Macnica ties to other attack groups. Of the 81 made public since July, 65 gave too little detail to tell how the attackers got in. The targets have spread from online shops to member services, business systems and customer support. Recent cases include a library's catalog search and a tourist train's seat booking system. Two cases show the scale. Park24 said on September 28 that a third party obtained data on about 6.6 million accounts from the web system of its Times Car car-sharing service. A day later, it said that identity documents , such as driver's license images, had leaked from about 1.6 million accounts. Monogatari Corporation, which runs the Yakiniku King restaurant chain, said 10,788,963 records leaked from the member system of its Yakiniku King app, INTERNET Watch reported on October 5. Both companies said at the time that the cause was still under investigation. Macnica also found 99 similar cases in 13 other countries and regions, mostly from July to September, including 30 in South Korea, 11 in France and 8 in Poland. It does not know whether Japan is the only target, and said disclosure laws and practices differ by country. How the Attackers Get In JPCERT/CC's alert describes three patterns. The first is unauthorized requests to the management APIs behind an app. In some cases, those requests rewrote information. JPCERT/CC has received multiple reports of three ways attackers do this: They analyze a publicly released smartphone app to find its API endpoints and keys. They attack internal APIs that cannot be used through the app's screens. Reported actions include changing a user's privileges, creating unauthorized accounts, comparing how the server answers when a header is added or removed or a malformed authentication token is sent, and finding account details through blind NoSQL injection. They use API keys stolen wh",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks",
-          "link": "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html",
-          "published": "2026-10-08T15:45:56+00:00",
-          "summary": "Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said. The Tokyo-based center, which takes incident reports, based its October 8, 2026 alert on those reports and other information. The alert names no attacker and no affected organization. JPCERT/",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "e3ed341c60",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft Defender"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
-        "link": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
-        "published": "2026-10-07T06:57:54+00:00",
-        "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stealer). The activity, which was observed by the agency in September 2026, has been attributed to a threat cluster dubbed UAC-0277. It did not disclose who the",
-        "full_body": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer  Ravie Lakshmanan  Oct 07, 2026 Malware / Web Security The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stealer). The activity, which was observed by the agency in September 2026, has been attributed to a threat cluster dubbed UAC-0277. It did not disclose who the victims of the campaign were or if any systems were successfully compromised as a result of these attacks. \"When visiting such a site, users were shown a forged Cloudflare verification page that, under the pretext of confirming the visitor is human, prompted them to execute a command,\" CERT-UA said in an advisory. \"Executing the command caused a malicious MSI package to be downloaded and installed from a remote server (the ClickFix technique).\" The attacks also make use of the EtherHiding technique to retrieve the domain name of the resource from which the fake verification page is loaded, as well as the script's operating mode, from a smart contract on the Polygon or Ethereum network. According to CERT-UA, there are three operating modes: 0 – inactive; 1 – passive tracking of visitors that includes gathering data about the website and the page from which the visitor arrived; and 2 – displaying the fake verification page. In Mode 2, the bogus verification page is shown only to Windows users who arrive at the site from search engine results and not more than twice in 12 hours. These ClickFix lures lead to the distribution of MSI packages that deliver LunexStealer. At least three different variants of the MSI packages have been discovered - Variant 1 , which installs LunexStealer on the system. Variant 2 , which attempts to bypass Windows account control (UAC), configures Microsoft Defender exclusions, leverages the legitimate-but-vulnerable AMD driver (\"PDFWKRNL.sys\") to blind security software, and then retrieves and runs LunexStealer from a remote server. Variant 3 , which launches LunexStealer via DLL sideloading by using the legitimate binary (\"FnHotkeyUtility.exe\") to load a rogue DLL (\"spkvol.dll\"), which decrypts and executes the stealer. As documented by both Arctic Wolf Labs and Ontinue , LunexStealer is also designed to install a malicious browser extension called LUNARAXE. The extension masquerades as \"Microsoft Office Word Editor\" to steal cookies, browsing history, and credentials entered into web forms. It also allows the operator to remotely control the browser and execute arbitrary JavaScript on web pages. The stealer also deploys an auxiliary component named NAIVEMESS that's installed based on a configuration received from the command-and-control (C2) server. Its primary responsibility is to provide LUNARAXE with access to the Windows file system through a PowerShell-based Native Messaging Host. \"NAIVEMESS functionality includes retrieving the list of drives, browsing directories, reading, creating and overwriting files, as well as executing them,\" CERT-UA said. \"Files are transferred in chunks encoded in Base64, and directories and file groups are pre‑archived into ZIP.\" The component does have its own communication channel with the C2 server. Rather, commands are received via the extension, which houses three other modules - LUNARAXE.CORE, which handles C2 communication, receives commands, executes them, and exfiltrates browser data (i.e., cookies, browsing history, bookmarks, details about installed extensions, and intercepted credentials). It can also manage tabs, enable/disable extensions, serve notifications, run JavaScript on web pages, and display bogus overlays. It can also copy files from the computer, write files to it, and execute them if NAIVEMESS is installed. LUNARAXE.STEALER, which captures credentials entered into web forms and sends them to LUNARAXE.CORE, along with the pa",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft Defender"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Microsoft Defender": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
-          "link": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
-          "published": "2026-10-07T06:57:54+00:00",
-          "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stealer). The activity, which was observed by the agency in September 2026, has been attributed to a threat cluster dubbed UAC-0277. It did not disclose who the",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft Defender"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Microsoft Defender": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "54f7c645e2",
       "priority_score": 8,
       "member_count": 1,
@@ -7396,81 +7084,6 @@
           "link": "https://www.elastic.co/security-labs/blog/ai-soc-automation-alertzero",
           "published": "2026-10-08T00:00:00+00:00",
           "summary": "AlertZero brings AI SOC automation to Elastic Security with four agents, one job each, so the queue stops setting your priorities. Nothing changes in your environment without your approval.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "ce7c6f69e5",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Elastic Security Labs",
-        "cohort": "detection_response_operations",
-        "title": "Behind the tags: How Elastic SIEM grades 1,781 detection rules on noise, speed, and threat coverage",
-        "link": "https://www.elastic.co/security-labs/threat-command/elastic-siem-detection-rule-tags",
-        "published": "2026-10-05T00:00:00+00:00",
-        "summary": "This article explains how Elastic SIEM uses a monthly automated telemetry pipeline to score prebuilt detection rules across noise, performance, threat, and profile dimensions, helping security teams decide which rules to enable first.",
-        "full_body": "Threat Command Behind the tags: How Elastic SIEM grades 1,781 detection rules on noise, speed, and threat coverage This article explains how Elastic SIEM uses a monthly automated telemetry pipeline to score prebuilt detection rules across noise, performance, threat, and profile dimensions, helping security teams decide which rules to enable first. October 05, 2026 Kseniia Ignatovych Samir Bousseaden Terrance DeJesus Detection Engineering Jump to Share Of Elastic's 2100+ prebuilt detection rules , 385 are tagged Profile: Recommended and 296 are tagged Aggressive . The rest (62% of the list) are deliberately left untagged. Prebuilt rule now carries tags like Noise: Low , Performance: Fast , and Profile: Recommended , recalculated every month from real fleet telemetry rather than fixed once and left alone. This post covers how the scoring actually works and how to use the tags to decide what to enable first. Elastic SIEM rule metadata has two jobs Most of the prebuilt rule metadata answers the question What does this rule detect? The metadata includes the MITRE ATT&CK technique and the data source, along with the platform. Together, these provide static context. The new Noise , Performance , Threat , and Profile tags answer something different: How does this rule behave in production? We now have the answer to this question that users have been asking. This operational context changes over time as environments grow, adoption shifts, and detection patterns evolve. A rule that's quiet today might become noisy after a platform update. A rule tagged Noise: Unknown when it first ships will eventually accumulate enough fleet signal to get a real label. Updated monthly using real-world usage data, these tags stay fresh and deliver actionable insights, and that’s why they’re so valuable. How Elastic SIEM's monthly tag refresh works We love data and automation. Once a month, an automated pipeline reads a 30-day window of telemetry across Elastic deployments and scores every prebuilt rule across four dimensions: Noise , Performance , Threat , and Profile . The inputs are: Analytics telemetry. Alert volume, distinct cluster counts, and firing density per rule. Execution metrics. Average, 95th-percentile, and maximum execution times. The rule's own TOML. Severity, age, platform, and existing tags. The scoring is entirely deterministic. We do use large language models (LLMs) in one place, but only as a fallback for Threat classification on rules where our heuristic catalog has nothing to say. We cover more on that below. Every month, the pipeline automatically opens a draft pull request (PR) on elastic/detection-rules with the proposed updates. Our Elastic Security Labs Threat Command team reviews that PR before anything merges: which rules moved between Recommended and Aggressive , which changed Noise or Performance buckets, and which gained or lost Threat tags. The pipeline generates the proposal, and the team makes the call. Noise: How Elastic SIEM measures alert volume across the fleet We make a decision on Noise tag based on the total alert volume that a rule generates across the fleet over 30 days. The core metric we use internally is global_noise , which is roughly the mean number of alerts per distinct environment on days that the rule actually fired. This smooths out the difference between a rule that hammers one customer and one that fires occasionally across many. We classify rules into four buckets: Noise: Low . Around the 25th percentile for its platform, or fewer than 100 total alerts in the window, or six-months-or-older with essentially no signal (we treat long-lived quiet rules as low noise rather than broken). Noise: High . At or above the 85th percentile, or extreme alert density relative to the number of distinct environments, or a new rule that came out loud in its first 60 days. Noise: Medium . Everything between Low and High. Noise: Unknown . Less than 60 days old with too little signal to tell \"quiet\" from \"not yet wid",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Elastic Security Labs",
-          "cohort": "detection_response_operations",
-          "title": "Behind the tags: How Elastic SIEM grades 1,781 detection rules on noise, speed, and threat coverage",
-          "link": "https://www.elastic.co/security-labs/threat-command/elastic-siem-detection-rule-tags",
-          "published": "2026-10-05T00:00:00+00:00",
-          "summary": "This article explains how Elastic SIEM uses a monthly automated telemetry pipeline to score prebuilt detection rules across noise, performance, threat, and profile dimensions, helping security teams decide which rules to enable first.",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -7637,7 +7250,7 @@
         ]
       },
       "cluster_count": 5,
-      "article_count": 13,
+      "article_count": 12,
       "cohesion": 0.219,
       "shared_strong_signals": [
         "Citrix"
@@ -7655,7 +7268,6 @@
       ],
       "links": [
         "https://orca.security/resources/research/citrix-netscaler-zero-day-exploited-in-the-wild-crashes-saml-authentication-services/",
-        "https://www.sophos.com/en-us/blog/citrix-netscaler-vulnerability-cve-2026-88779-in-active-exploitation",
         "https://www.infosecurity-magazine.com/news/citrix-netscaler-zero-day/",
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-21589/",
         "https://labs.watchtowr.com/you-wont-hear-about-these-even-in-myths-atlassian-jira-confluence-and-more-pre-auth-arbitrary-file-read-cve-2026-21589/",
@@ -7765,7 +7377,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 8,
+      "article_count": 7,
       "cohesion": 0.259,
       "shared_strong_signals": [
         "npm"
@@ -7779,7 +7391,6 @@
       ],
       "links": [
         "https://orca.security/resources/research/citrix-netscaler-zero-day-exploited-in-the-wild-crashes-saml-authentication-services/",
-        "https://www.sophos.com/en-us/blog/citrix-netscaler-vulnerability-cve-2026-88779-in-active-exploitation",
         "https://www.infosecurity-magazine.com/news/citrix-netscaler-zero-day/",
         "https://unit42.paloaltonetworks.com/web3-cloud-supply-chain-attacks/",
         "https://orca.security/resources/research/malicious-npm-campaign-malfex-delivers-rat-and-stealer-via-eight-packages-with-40000-downloads/",
@@ -7892,7 +7503,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 8,
+      "article_count": 7,
       "cohesion": 0.202,
       "shared_strong_signals": [
         "WordPress"
@@ -7906,7 +7517,6 @@
       ],
       "links": [
         "https://orca.security/resources/research/citrix-netscaler-zero-day-exploited-in-the-wild-crashes-saml-authentication-services/",
-        "https://www.sophos.com/en-us/blog/citrix-netscaler-vulnerability-cve-2026-88779-in-active-exploitation",
         "https://www.infosecurity-magazine.com/news/citrix-netscaler-zero-day/",
         "https://orca.security/resources/research/malicious-npm-campaign-malfex-delivers-rat-and-stealer-via-eight-packages-with-40000-downloads/",
         "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
@@ -8080,9 +7690,9 @@
       ]
     },
     {
-      "label": "CVE-2026-105133 exploitation activity",
-      "anchor_signal": "CVE-2026-105133",
-      "theme_key": "cve-2026-105133",
+      "label": "CVE-2026-105134 exploitation activity",
+      "anchor_signal": "CVE-2026-105134",
+      "theme_key": "cve-2026-105134",
       "dominant_features": {
         "threat_categories": [
           "active_exploitation"
@@ -8104,7 +7714,7 @@
       "article_count": 4,
       "cohesion": 0.598,
       "shared_strong_signals": [
-        "CVE-2026-105133"
+        "CVE-2026-105134"
       ],
       "member_cves": [],
       "also_targets": [],
@@ -8344,12 +7954,6 @@
         "axis": "actor_attribution",
         "value": "Nimbus Manticore",
         "cluster_id": "a781629acb",
-        "weeks_observed": 4
-      },
-      {
-        "axis": "cve_ids",
-        "value": "CVE-2026-39987",
-        "cluster_id": "1a8594f0b4",
         "weeks_observed": 4
       },
       {
