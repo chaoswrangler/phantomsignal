@@ -6,9 +6,29 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Fri, 16 Oct 2026 00:18:24 +0000</lastBuildDate>
+<lastBuildDate>Fri, 16 Oct 2026 05:41:55 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Stolen AI API keys are paying for hackers’ autonomous scans</title>
+<link>https://www.helpnetsecurity.com/2026/10/16/stolen-ai-api-keys-autonomous-scans/</link>
+<description><![CDATA[A seller on a restricted criminal forum is marketing an autonomous hacking tool that runs on stolen OpenAI, Anthropic and Google API keys, so the key’s owner pays for the scans. Bitsight’s threat intelligence team tracked the shift across thousands of posts on 16 underground forums from February through August 2026. Over that window, mentions of AI agents, indirect prompt injection and the Model Context Protocol (MCP) rose 67 percent. Two groups are exposed. A … More → The post Stolen AI API keys are paying for hackers’ autonomous scans appeared first on Help Net Security .<br/><br/><em>Tags: ai_security</em>]]></description>
+<pubDate>Fri, 16 Oct 2026 05:00:24 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/10/16/stolen-ai-api-keys-autonomous-scans/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>ai_security</category>
+</item>
+<item>
+<title>DDoS attacks can knock services offline before links reach capacity</title>
+<link>https://www.helpnetsecurity.com/2026/10/16/netscout-ddos-attack-growth-report/</link>
+<description><![CDATA[More than 9.1 million DDoS attacks were recorded globally between January and June 2026, an increase of nearly a quarter year over year, according to Netscout’s DDoS Threat Intelligence Report. Large attacks and distributed targeting strain defenses Attacks exceeding 1 Tbps or 1 Gpps increased 1,286% year over year. Much of that growth came from botnet operators associated with Aisuru, Kimwolf, Jackskid, and their successors. That means attackers need fewer devices to launch large attacks. … More → The post DDoS attacks can knock services offline before links reach capacity appeared first on Help Net Security .<br/><br/><em>Tags: ddos</em>]]></description>
+<pubDate>Fri, 16 Oct 2026 04:30:46 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/10/16/netscout-ddos-attack-growth-report/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>ddos</category>
+</item>
 <item>
 <title>AI-Powered Espionage Campaign Targets Government Linux Infrastructure</title>
 <link>https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/</link>
@@ -182,12 +202,11 @@
 <item>
 <title>Modernizing perimeter security: Scalable perimeters with VPC Service Controls</title>
 <link>https://cloud.google.com/blog/products/identity-security/introducing-new-scalable-perimeter-options-with-vpc-service-controls/</link>
-<description><![CDATA[Agents represent a fundamental shift in cloud operations. They can act on behalf of users or autonomously, make non-deterministic decisions, and request data across projects at unprecedented speed and scale. Because agents are a distinct category of non-human identity (NHI), they require unique secure-by-default guardrails. Traditional, manually-operated network perimeters are vulnerable to today’s machine-speed attacks. Overly permissive perimeters, built to avoid blocked connections, increase the risk of unauthorized data theft, but overly strict perimeters stall development under a flood of access denials. Today, we&apos;re excited to announce key enhancements to VPC Service Controls (VPC-SC) that make perimeters easier to create, maintain, and scale. You can now add folders to perimeter membership, so that projects contained in them inherit policy. You can also manage granular exceptions and resolve denials with guided, scoped remediation. The result is data protected by default, so you<br/><br/><em>Tags: Google Cloud</em>]]></description>
+<description><![CDATA[Agents represent a fundamental shift in cloud operations. They can act on behalf of users or autonomously, make non-deterministic decisions, and request data across projects at unprecedented speed and scale. Because agents are a distinct category of non-human identity (NHI), they require unique secure-by-default guardrails. Traditional, manually-operated network perimeters are vulnerable to today’s machine-speed attacks. Overly permissive perimeters, built to avoid blocked connections, increase the risk of unauthorized data theft, but overly strict perimeters stall development under a flood of access denials. Today, we&apos;re excited to announce key enhancements to VPC Service Controls (VPC-SC) that make perimeters easier to create, maintain, and scale. You can now add folders to perimeter membership, so that projects contained in them inherit policy. You can also manage granular exceptions and resolve denials with guided, scoped remediation. The result is data protected by default, so you]]></description>
 <pubDate>Thu, 15 Oct 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/products/identity-security/introducing-new-scalable-perimeter-options-with-vpc-service-controls/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
 <category>cloud_identity_infrastructure</category>
-<category>Google Cloud</category>
 </item>
 <item>
 <title>Vulnerability Management Isn&apos;t About the Score — It&apos;s About How It Applies to You</title>
@@ -322,15 +341,11 @@
 <item>
 <title>NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks</title>
 <link>https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html</link>
-<description><![CDATA[NGINX released versions 1.30.6 and 1.31.7 on October 14 to fix five vulnerabilities, one of them present in every release since May 2005. There are three memory bugs that F5, the company behind NGINX, says could crash a worker process or possibly let an attacker run code, and each requires a specific configuration to exploit. A fourth lets an attacker forge a TLS session that could<br/><br/><em>Tags: CVE-2025-23419 · CVE-2026-15176 · CVE-2026-93479 · CVE-2026-97205 · CVE-2026-95101</em>]]></description>
+<description><![CDATA[NGINX released versions 1.30.6 and 1.31.7 on October 14 to fix five vulnerabilities, one of them present in every release since May 2005. There are three memory bugs that F5, the company behind NGINX, says could crash a worker process or possibly let an attacker run code, and each requires a specific configuration to exploit. A fourth lets an attacker forge a TLS session that could]]></description>
 <pubDate>Thu, 15 Oct 2026 12:58:05 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-<category>CVE-2025-23419</category>
-<category>CVE-2026-15176</category>
-<category>CVE-2026-93479</category>
-<category>CVE-2026-97205</category>
 </item>
 <item>
 <title>Supermarket Refrigeration Attack Widens to Copeland, Dixell Controllers</title>
@@ -568,15 +583,6 @@
 <category>CVE-2026-76519</category>
 </item>
 <item>
-<title>The internet’s attack surface moves at very different speeds</title>
-<link>https://www.helpnetsecurity.com/2026/10/15/exposed-ai-infrastructure-report/</link>
-<description><![CDATA[Censys found that AI-related software exposed to the public internet grew 63% in nine months, from 164,088 IP addresses in October 2025 to 267,915 in July 2026. Elsewhere in its scans, the internet-scanning company measured much slower movement. Exposed industrial control systems rose about 4% in two and a half years. The oldest versions of four widely deployed business products barely changed their share at all. AI tools are the fast part The growth spans … More → The post The internet’s attack surface moves at very different speeds appeared first on Help Net Security .]]></description>
-<pubDate>Thu, 15 Oct 2026 05:00:02 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/10/15/exposed-ai-infrastructure-report/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>CVE-2026-105133 and CVE-2026-105134 | AhsayCBS Authentication Bypass and Remote Code Execution Vulnerabilities</title>
 <link>https://horizon3.ai/attack-research/vulnerabilities/cve-2026-105133-and-cve-2026-105134/</link>
 <description><![CDATA[Attackers are chaining CVE-2026-105133 and CVE-2026-105134 to bypass authentication and achieve remote code execution in AhsayCBS. Explore the technical findings, indicators of compromise, affected versions, hotfixes, and how NodeZero Rapid Response helps validate exposure.<br/><br/><em>Tags: CVE-2026-105133 · CVE-2026-105134</em>]]></description>
@@ -768,11 +774,14 @@
 <item>
 <title>Passkeys Raise the Bar. Here’s Where Attackers Can Still Get In.</title>
 <link>https://www.huntress.com/blog/passkeys-raise-the-bar-but-attackers-can-still-get-in</link>
-<description><![CDATA[Passkeys significantly improve authentication, but attackers still target enrollment, recovery, endpoints, and alternative flows. Discover how to secure the full account lifecycle with a comprehensive identity strategy.]]></description>
+<description><![CDATA[Passkeys significantly improve authentication, but attackers still target enrollment, recovery, endpoints, and alternative flows. Discover how to secure the full account lifecycle with a comprehensive identity strategy.<br/><br/><em>Tags: OpenAI/ChatGPT · Anthropic/Claude · phishing_social_eng</em>]]></description>
 <pubDate>Wed, 14 Oct 2026 17:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.huntress.com/blog/passkeys-raise-the-bar-but-attackers-can-still-get-in</guid>
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
+<category>OpenAI/ChatGPT</category>
+<category>Anthropic/Claude</category>
+<category>phishing_social_eng</category>
 </item>
 <item>
 <title>AhsayCBS Deep-Dive: Auth Bypass to RCE</title>
@@ -788,12 +797,13 @@
 <item>
 <title>7 Key Manufacturing Cybersecurity Trends for 2027 | Huntress</title>
 <link>https://www.huntress.com/blog/manufacturing-cybersecurity-trends</link>
-<description><![CDATA[Explore the latest manufacturing cybersecurity trends, from ransomware to OT takeovers, and real-world risks to production. Learn how to secure your plant.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<description><![CDATA[Explore the latest manufacturing cybersecurity trends, from ransomware to OT takeovers, and real-world risks to production. Learn how to secure your plant.<br/><br/><em>Tags: ransomware_extortion · phishing_social_eng</em>]]></description>
 <pubDate>Wed, 14 Oct 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.huntress.com/blog/manufacturing-cybersecurity-trends</guid>
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
 <category>ransomware_extortion</category>
+<category>phishing_social_eng</category>
 </item>
 <item>
 <title>10 Endpoint Security Trends and Tips for 2027 | Huntress</title>
@@ -1855,6 +1865,24 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
+<title>UK Targets Cryptomus, Heleket, TokenSpot in New Russian Sanctions</title>
+<link>https://www.chainalysis.com/blog/uk-sanctions-cryptomus-heleket-tokenspot/</link>
+<description><![CDATA[Summary The UK’s latest sanctions target the broader infrastructure supporting Russia’s wartime economy. The UK designated crypto payment processors Cryptomus… The post UK Targets Cryptomus, Heleket, TokenSpot in New Russian Sanctions appeared first on Chainalysis .]]></description>
+<pubDate>Fri, 09 Oct 2026 01:14:08 +0000</pubDate>
+<guid isPermaLink="true">https://www.chainalysis.com/blog/uk-sanctions-cryptomus-heleket-tokenspot/</guid>
+<source url="https://www.chainalysis.com/blog/feed/">Chainalysis</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>ttok 1.0</title>
+<link>https://simonwillison.net/2026/Oct/9/ttok/</link>
+<description><![CDATA[Release: ttok 1.0 I released ttok 0.4 , ran uv tool upgrade ttok , piped a file into the new version... and realized that it was defaulting to the GPT-4 tokenizer when it should very clearly default to GPT-5/GPT-6 instead! I figured switching the default was a reasonable excuse to finally ship a 1.0. OpenAI haven&apos;t actually confirmed that GPT-6 uses the same tokenizer as the GPT-5 family yet - there&apos;s an angry issue about it - but I found this commit by William Liu which reports on an experiment he ran confirming that the tokenizers are likely the same: All seven GPT models (5.5, 5.6 Sol/Terra/Luna, 6 Astra/Sol/Luna) report 44,794 tokens and match each other on every one of the 31 fixtures. GPT-6 introduces no input-count change on this corpus. Tags: projects , ai , openai , generative-ai , llms , tokenization]]></description>
+<pubDate>Fri, 09 Oct 2026 00:34:43 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Oct/9/ttok/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Recorded Future Introduces AI Infrastructure Indicator Lists, Strengthening AI Governance</title>
 <link>https://www.recordedfuture.com/blog/ai-infrastructure-indicator-lists</link>
 <description><![CDATA[Recorded Future&apos;s new AI Infrastructure Indicator Lists help security teams find shadow AI, enforce policy, and prevent data loss.]]></description>
@@ -1990,17 +2018,6 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
-<title>Reconstructing AI Agent Activity: Two New Scripts for Forensic Review, (Thu, Oct 8th)</title>
-<link>https://isc.sans.edu/diary/rss/33410</link>
-<description><![CDATA[We just did a major update to FOR577 and added a lot of new material on day 5 about investigating AI usage in incident response. In the new material we dicsuss 8&amp;#;x26;#;xc2;&amp;#;x26;#;xa0;of the most popular AI coding assistants and&amp;#;x26;#;xc2;&amp;#;x26;#;xa0;agents including Claude Code, Codex, Gemini CLI, Cursor, Copilot, Warp, Windsurf, and Qwen Code. I&amp;#;x26;#;39;ve been using Claude Code and a little bit of Codex, but I also have recently been playing with OpenCode and am setting up Hermes. I decided to figure out where the chat history was in OpenCode and where any Hermes evidence might be located.<br/><br/><em>Tags: Anthropic/Claude · Google/Gemini</em>]]></description>
-<pubDate>Thu, 08 Oct 2026 16:52:53 +0000</pubDate>
-<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33410</guid>
-<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
-<category>government_authoritative</category>
-<category>Anthropic/Claude</category>
-<category>Google/Gemini</category>
-</item>
-<item>
 <title>Malicious npm Campaign “MALFEX” Delivers RAT and Stealer via Eight Packages with 40,000+ Downloads</title>
 <link>https://orca.security/resources/research/malicious-npm-campaign-malfex-delivers-rat-and-stealer-via-eight-packages-with-40000-downloads/</link>
 <description><![CDATA[Executive Summary A supply-chain attack targeting npm developers has been active since August 2023, distributing eight malicious packages that collectively received over 40,767 downloads. Discovered by CloudSEK and Checkmarx, the campaign — dubbed MALFEX — delivers three distinct malware families to Windows systems: the Overlord RAT, the “movinlike” Node.js credential stealer, and rotating downloader payloads. […]<br/><br/><em>Tags: npm · supply_chain</em>]]></description>
@@ -2099,15 +2116,6 @@
 <description><![CDATA[Today, we announced the new Gemini agent, your single, universal agent for work. For small and midsize businesses, with lean teams and margins, Gemini will be a critical tool for you to operate efficiently, deliver excellent customer experiences, and grow. Millions of small and midsize businesses, or SMBs, already trust Google AI across multiple services, like Gemini Enterprise, Google Ads, and Google Workspace. And they are scaling fast: Their usage of Google Cloud’s AI tools increased more than fivefold year over year . Now, SMBs can benefit from all of the agentic capabilities of Gemini. The agentic era for SMBs has arrived Gemini functions as a personal assistant and team member, connects to the systems and data you already use, operates across the interfaces you’re already familiar with, and offers the model choice, security, and cost controls you expect from Google Cloud. It answers your questions, handles your knowledge work, creates your images and media, and even writes and ru]]></description>
 <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/startups/how-to-grow-your-small-business-using-google-gemini/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Innovation in Ireland: How Irish brands scale with Gemini Enterprise</title>
-<link>https://cloud.google.com/blog/topics/customers/ireland-innovation-companies-startups-governments-scale-with-gemini/</link>
-<description><![CDATA[In recent decades, Ireland has grown into a vibrant hub for global technology. As modernization accelerates, Irish organizations — spanning government agencies, established enterprise brands, and growing startups in AI and other areas — are all advancing their technical foundations. Today, leaders across the country are injecting agentic AI into every layer of their business and operational workflows. We are seeing organizations move from early prototypes to production-ready deployments using Gemini Enterprise . This progress supports Ireland&apos;s competitive position within the European market. According to a recent Implement Consulting Group report assessing Google’s local contribution , public and private leaders estimate between 40 billion to 45 billion euros of economic potential in global AI markets. This ambition aligns with broader government initiatives. Since assuming the presidency of the Council of the European Union for the second half of 2026, Ireland has steered higher-leve]]></description>
-<pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/topics/customers/ireland-innovation-companies-startups-governments-scale-with-gemini/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
 <category>cloud_identity_infrastructure</category>
 </item>
@@ -13151,17 +13159,6 @@
 <category>data_breach</category>
 </item>
 <item>
-<title>Risky Bulletin: FSB calls out Western spyware operation</title>
-<link>https://risky.biz/RBNEWS572/</link>
-<description><![CDATA[Russia’s FSB calls out a Western spyware operation, high-profile Instagram accounts hijacked via Meta’s AI support agents, Red Hat npm packages were compromised in another supply chain attack, and ten percent of domains registered last year were malicious.<br/><br/><em>Tags: npm · supply_chain</em>]]></description>
-<pubDate>Wed, 03 Jun 2026 05:12:57 +0000</pubDate>
-<guid isPermaLink="true">https://risky.biz/RBNEWS572/</guid>
-<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
-<category>npm</category>
-<category>supply_chain</category>
-</item>
-<item>
 <title>Cloud security onboarding should move at cloud speed</title>
 <link>https://webflow.sysdig.com/blog/cloud-security-onboarding-should-move-at-cloud-speed</link>
 <description><![CDATA[Sysdig Headless Cloud Security helps teams automate cloud security onboarding at cloud speed by replacing manual, UI-driven setup with API-first, programmable workflows. Using infrastructure as code, Terraform, AI-assisted prompts, and built-in guardrails, organizations can onboard cloud accounts faster, validate permissions and telemetry, reduce configuration drift, and gain immediate operational visibility across modern cloud environments. This headless approach makes cloud security onboarding more scalable, repeatable, transparent, and aligned with DevOps automation pipelines.]]></description>
@@ -19614,7 +19611,7 @@
 <title>October 2026 Patch Tuesday: 1,413 CVEs Include Three Zero-Days and 75 Critical Vulnerabilities</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-october-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 16 Oct 2026 00:18:24 +0000</pubDate>
+<pubDate>Fri, 16 Oct 2026 05:41:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-october-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19623,7 +19620,7 @@
 <title>U.S. Government Disrupts FAMOUS CHOLLIMA Operation with CrowdStrike Assistance</title>
 <link>https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 16 Oct 2026 00:18:24 +0000</pubDate>
+<pubDate>Fri, 16 Oct 2026 05:41:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19632,7 +19629,7 @@
 <title>CrowdStrike and Anthropic Give Critical Infrastructure Defenders the AI Advantage</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 16 Oct 2026 00:18:24 +0000</pubDate>
+<pubDate>Fri, 16 Oct 2026 05:41:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19641,7 +19638,7 @@
 <title>Solving the Continuous Authorization Conundrum</title>
 <link>https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 16 Oct 2026 00:18:24 +0000</pubDate>
+<pubDate>Fri, 16 Oct 2026 05:41:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19650,7 +19647,7 @@
 <title>Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance</title>
 <link>https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 16 Oct 2026 00:18:24 +0000</pubDate>
+<pubDate>Fri, 16 Oct 2026 05:41:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19659,7 +19656,7 @@
 <title>CrowdStrike Named a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises Vendor Assessment</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-modern-endpoint-security-for-enterprises/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 16 Oct 2026 00:18:24 +0000</pubDate>
+<pubDate>Fri, 16 Oct 2026 05:41:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-modern-endpoint-security-for-enterprises/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19668,7 +19665,7 @@
 <title>Request, Aggregate, Bypass: How Attackers Can Evade LLM Safety Classifiers</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-attackers-can-bypass-llm-safety-classifiers/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 16 Oct 2026 00:18:24 +0000</pubDate>
+<pubDate>Fri, 16 Oct 2026 05:41:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-attackers-can-bypass-llm-safety-classifiers/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19677,7 +19674,7 @@
 <title>Falcon Data Security for SaaS Secures Sensitive Data in Microsoft 365</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-data-security-for-saas-secures-sensitive-data/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 16 Oct 2026 00:18:24 +0000</pubDate>
+<pubDate>Fri, 16 Oct 2026 05:41:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-data-security-for-saas-secures-sensitive-data/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19686,7 +19683,7 @@
 <title>New in Falcon Cloud Security: Third-Party App Insights and AI-Enhanced Remediation</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-third-party-app-insights-ai-enhanced-remedation/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 16 Oct 2026 00:18:24 +0000</pubDate>
+<pubDate>Fri, 16 Oct 2026 05:41:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-third-party-app-insights-ai-enhanced-remedation/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19695,7 +19692,7 @@
 <title>CrowdStrike Expands Federal SOC Modernization Through CISA-Funded SIEMaaS</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 16 Oct 2026 00:18:24 +0000</pubDate>
+<pubDate>Fri, 16 Oct 2026 05:41:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
