@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-15T22:04:17.421328+00:00",
+  "generated_at": "2026-10-16T00:18:24.749330+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 76,
-  "total_items_in_window": 349,
-  "total_clusters_raw": 151,
-  "total_clusters_in_packet": 76,
-  "dropped_low_score": 75,
+  "total_items_in_window": 327,
+  "total_clusters_raw": 145,
+  "total_clusters_in_packet": 74,
+  "dropped_low_score": 71,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,20 +67,6 @@
     }
   },
   "feed_status": {
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -88,19 +74,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 3
+    },
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
-    },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
@@ -116,15 +102,43 @@
       "item_count": 25,
       "in_window_count": 0
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 4
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -144,26 +158,26 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 3
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
+    },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 8
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
@@ -172,32 +186,11 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 6
-    },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 40,
-      "in_window_count": 0
-    },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 9
-    },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
       "in_window_count": 0
     },
     "Assetnote": {
@@ -207,19 +200,26 @@
       "item_count": 78,
       "in_window_count": 0
     },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 9
+    },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 0
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 5
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -242,26 +242,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 7
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
@@ -270,12 +256,19 @@
       "item_count": 10,
       "in_window_count": 6
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
     },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
@@ -284,12 +277,26 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
       "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 7
+    },
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -312,12 +319,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
+      "item_count": 20,
+      "in_window_count": 6
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -332,13 +339,6 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
-    },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 6
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -361,12 +361,19 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -375,9 +382,16 @@
       "item_count": 100,
       "in_window_count": 2
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 5
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
@@ -388,20 +402,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -417,12 +417,12 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 21
+      "item_count": 20,
+      "in_window_count": 17
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -431,26 +431,26 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 20
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
-    },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 0
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 17
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -458,6 +458,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 0
     },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
@@ -471,14 +478,7 @@
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 20
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 22
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -486,13 +486,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -508,19 +501,12 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
@@ -528,6 +514,20 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 3
+    },
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
@@ -543,13 +543,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 24
-    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -557,12 +550,26 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 24
+    },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -576,7 +583,7 @@
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 15
+      "in_window_count": 14
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
@@ -584,13 +591,6 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
-    },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 24
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -606,19 +606,19 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
       "cohort": "policy_strategy_geopolitics",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Google Project Zero": {
       "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
@@ -930,8 +930,8 @@
     {
       "cluster_id": "b2361c5736",
       "priority_score": 44,
-      "member_count": 3,
-      "corroborating_source_count": 3,
+      "member_count": 2,
+      "corroborating_source_count": 2,
       "strong_signals": [
         "CVE-2026-81578",
         "CVE-2026-82077",
@@ -964,7 +964,6 @@
           "preauth_unauth"
         ],
         "content_type": [
-          "news_report",
           "vulnerability_disclosure"
         ],
         "confidence_tier": [
@@ -1080,32 +1079,6 @@
               "preauth_unauth"
             ],
             "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/blueteamsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "🤖 Inside a PaperCut Attacker’s AI Toolkit: Agent Instructions, Exploit Code, a Second RCE, and Victims Across 45+ Countries",
-          "link": "https://www.reddit.com/r/blueteamsec/comments/1x6ompn/inside_a_papercut_attackers_ai_toolkit_agent/",
-          "published": "2026-10-15T15:24:27+00:00",
-          "summary": "Hunt.io researchers pulled three open directories from the PaperCut campaign infrastructure while they were still live. For blue teamers, the behavioral indicators might be more useful than the IOCs alone: Reverse SOCKS5 signature: chisel client --auth ... --tls-skip-verify --keepalive 10s <url> R:127.0.0.1:1083:socks Cron persistence under /var/tmp/.rs_live46_v5/ with a pgrep-based self-check and u/reboot entry. Output exfil pattern: <PaperCut install>/server/custom/web/pcp_<10rand>.txt served at /custom/<10rand>.txt, self-deleting after 30 seconds. A second RCE path through XML-RPC (api.setConfigValue + api.lookUpUserNameByCardNo) that doesn't depend on the Tapestry vulnerability, so patching for CVE-2026-81578 alone isn't sufficient if the XML-RPC API is exposed. Custom Rust credential collectors targeting LSA secrets and registry hives for offline NT hash recovery. The exploit scripts also reset user-lookup.* settings in a finally block after each run, which likely explains why the",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-81578"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
             "confidence_tier": "tier_5_chatter",
             "role_map": {},
             "weak_tags": {
@@ -2525,6 +2498,112 @@
       ]
     },
     {
+      "cluster_id": "0928ca710f",
+      "priority_score": 18,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "credential_theft",
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "government"
+        ],
+        "affected_products": [
+          "Palo Alto Networks"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "threat_research"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Unit 42",
+        "cohort": "threat_research_primary",
+        "title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
+        "link": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
+        "published": "2026-10-15T22:00:09+00:00",
+        "summary": "Our analysis an AI-powered espionage campaign targeting government Linux infrastructure with custom malware, web shells, and advanced credential theft. The post AI-Powered Espionage Campaign Targets Government Linux Infrastructure appeared first on Unit 42 .",
+        "full_body": "Threat Research Center Threat Research Malware Malware AI-Powered Espionage Campaign Targets Government Linux Infrastructure 18 min read Related Products Advanced DNS Security Advanced IP Defense Advanced URL Filtering Advanced WildFire Cloud-Delivered Security Services Cortex Cortex Cloud Cortex XDR Cortex XSIAM Unit 42 AI Security Assessment Unit 42 Incident Response By: Roey Porat Tom Fakterman Published: October 15, 2026 Categories: Malware Threat Research Tags: Exfiltration LLM Network security Payload Python Remote Access Trojan Reverse shells Web shells Share Executive Summary Unit 42 identified a campaign targeting government entities and state-affiliated infrastructure, with observed activity spanning from October 2025–April 2026. We track this activity as CL-UNK-1211. In the operations we witnessed, the attackers relied on AI-generated payloads. Multiple artifacts deployed throughout the intrusion contained AI-made conversational annotations and developer reasoning comments, suggesting that the code was either generated using large language models (LLMs) or executed by an automated AI agent. The attackers behind this cluster of activity focused on Linux environments to conduct extensive reconnaissance and maintain persistent network access to support intelligence-gathering. The attackers attempted to dump sensitive databases and exfiltrate government mailboxes to access social media accounts. The campaign included a diverse toolkit that combined open-source tools, custom cross-platform backdoors and widespread web shell deployments. We observed various defense evasion techniques, including attempts to disable endpoint protections, erase system logs and plant deceptive red-team markers to disguise activity as a legitimate security assessment. Our attribution of this activity to CL-UNK-1211 is in accordance with the Unit 42 attribution framework . We designate the term UNK to clusters of activity whose affiliation with either nation-state or cybercrime activity we have not yet determined. This investigation uncovers the defining tools, techniques and attack patterns of this activity cluster. Palo Alto Networks customers are better protected from the threats discussed above through the following products and services: Advanced WildFire Advanced URL Filtering , Advanced DNS Security and Advanced IP Defense Cortex XDR Analytics Engine Cortex XDR and XSIAM Cortex Cloud The Unit 42 AI Security Assessment and Unit 42 Frontier AI Defense service can help identify and mitigate complex AI-enabled risks. If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics AI , Credential Harvesting , Linux Technical Analysis Overview Our analysis of the CL-UNK-1211 cluster of activity reveals a versatile operational playbook tailored to enterprise Linux and database environments. The attackers targeted government entities and state-affiliated infrastructure, maintaining persistent access by using a combination of custom cross-platform backdoors, open-source utilities and widespread web shell deployments. The attackers enumerated mailboxes to identify and gain access to social media accounts tied to government email addresses. In addition, they dumped entire database contents before attempting to exfiltrate the data. The attackers behind CL-UNK-1211 exhibited a methodical approach to defense evasion. This included attempting to disable endpoint protections on compromised systems, and to tamper with system logs that might contain evidence of the attack. We provide a comprehensive analysis of the defining tools, techniques and procedures (TTPs) used throughout the operation, highlighting how the attackers leveraged AI to streamline payload creation across their execution workflow. Our analysis details key mechanisms across the attack chain. These include: Initial access via web shell deployment and credential harvesting Custom RAT execution Mailbox targeting Anti",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "credential_theft",
+            "apt_espionage",
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government",
+            "critical_infrastructure"
+          ],
+          "affected_products": [
+            "Palo Alto Networks"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "threat_research",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Palo Alto Networks": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Unit 42",
+          "cohort": "threat_research_primary",
+          "title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
+          "link": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
+          "published": "2026-10-15T22:00:09+00:00",
+          "summary": "Our analysis an AI-powered espionage campaign targeting government Linux infrastructure with custom malware, web shells, and advanced credential theft. The post AI-Powered Espionage Campaign Targets Government Linux Infrastructure appeared first on Unit 42 .",
+          "taxonomy": {
+            "threat_categories": [
+              "credential_theft",
+              "apt_espionage",
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government",
+              "critical_infrastructure"
+            ],
+            "affected_products": [
+              "Palo Alto Networks"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "threat_research",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Palo Alto Networks": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "1ec8924dc6",
       "priority_score": 17,
       "member_count": 1,
@@ -2612,105 +2691,6 @@
             "role_map": {
               "npm": "target",
               "Docker": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "2da8e59a4c",
-      "priority_score": 17,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "Drupal"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Drupal"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-108097"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
-        "link": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
-        "published": "2026-10-15T12:07:20+00:00",
-        "summary": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19. An attacker cannot reach the flaw through core alone, the Drupal Security Team said in its advisory. Several exploit paths exist through contributed modules, and at least one known path needs no login.",
-        "full_body": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules  Swati Khandelwal  Oct 15, 2026 Vulnerability / Web Security Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19. An attacker cannot reach the flaw through core alone, the Drupal Security Team said in its advisory . Several exploit paths exist through contributed modules, and at least one known path needs no login. Tracked as CVE-2026-108097 , the flaw sits in Field UI, the core module behind the admin pages where site builders manage fields and how they display. Drupal rates it 19 out of 25 on its own risk scale, the level the project calls critical. The advisory does not name the contributed modules that open a path to the flaw, and custom code may also expose it. Drew Webber of the Security Team and Octavio Galland are credited with reporting it. What to Do Now The fixed release for each supported branch: Drupal 11.4.x: update to 11.4.10 Drupal 11.3.x: update to 11.3.19 Drupal 10.6.x: update to 10.6.19 Drupal 12.0.0 beta: 12.0.0-beta2 , which is not for production use No fix: Drupal 11.2.x and below, 10.5.x and below, and Drupal 8 and 9, all of which are end-of-life Both 11.3.x and 10.6.x lose security coverage in December 2026. In the week starting October 4, 151,442 of the 531,499 sites that reported their Drupal core version to drupal.org (28.5%) were on a branch that the advisory lists as affected and that received no fix. A site that cannot update yet can uninstall the Field UI module, field_ui, which \"will provide protection while sites are updated,\" the advisory says. The admin pages for managing fields and their display are unavailable while the module is uninstalled. Field UI is installed by Drupal's Standard install profile, so a site built from that profile has the module unless someone removed it. Drupal Steward , a web application firewall service with rules written by the Security Team, already blocks some known attack vectors for this flaw. Acquia, Pantheon, Ironstar, and Skpr run it for their customers. It does not cover every possible exploit, and those sites should still update, the advisory says. The advisory rated the flaw as having no publicly available exploit code at the time of publication. As of October 15, none had surfaced, and neither the advisory nor public reports described attacks using it. The Security Team had pre-announced the release on October 12 and told sites to reserve time for it \"because exploits might be developed within hours or days.\" In May, Drupal reported exploit attempts within two days of its advisory for a core SQL injection flaw that affected only sites on PostgreSQL, and CISA added that flaw to its catalog of exploited vulnerabilities. What the Fix Changed Field UI builds its admin tables from render arrays, the PHP arrays Drupal turns into HTML. Before the fix, the table element's pre-render step ran whatever PHP callable each table row carried in its #region_callback property, through call_user_func_array, with no check on what that callable was. Drupal's renderer has refused to run untrusted render callbacks since version 8.8 in 2019 , a restriction added after earlier advisories showed that the render system could too easily call arbitrary callbacks. The renderer trusts the table element's own methods, so it ran the pre-render step, and the check never reached the callable that step then executed. The 11.4.10 code no longer calls the callback. It reads each row's region from the row's own region value and uses the table's hidden region, or its first region, when that value is not a known region. The same call had been in the code since at least Drupal 8.9.0 in 2020. In core itself, the callback is set only by Field UI's own display forms. Custom code that set #region_callback on a field_ui_table row will find it no longer runs after the upda",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Drupal"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-108097"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Drupal": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
-          "link": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
-          "published": "2026-10-15T12:07:20+00:00",
-          "summary": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19. An attacker cannot reach the flaw through core alone, the Drupal Security Team said in its advisory. Several exploit paths exist through contributed modules, and at least one known path needs no login.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Drupal"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-108097"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Drupal": "target"
             },
             "weak_tags": {
               "products": []
@@ -2937,6 +2917,105 @@
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "2da8e59a4c",
+      "priority_score": 16,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "Drupal"
+      ],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Drupal"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-108097"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
+        "link": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
+        "published": "2026-10-15T12:07:20+00:00",
+        "summary": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19. An attacker cannot reach the flaw through core alone, the Drupal Security Team said in its advisory. Several exploit paths exist through contributed modules, and at least one known path needs no login.",
+        "full_body": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules  Swati Khandelwal  Oct 15, 2026 Vulnerability / Web Security Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19. An attacker cannot reach the flaw through core alone, the Drupal Security Team said in its advisory . Several exploit paths exist through contributed modules, and at least one known path needs no login. Tracked as CVE-2026-108097 , the flaw sits in Field UI, the core module behind the admin pages where site builders manage fields and how they display. Drupal rates it 19 out of 25 on its own risk scale, the level the project calls critical. The advisory does not name the contributed modules that open a path to the flaw, and custom code may also expose it. Drew Webber of the Security Team and Octavio Galland are credited with reporting it. What to Do Now The fixed release for each supported branch: Drupal 11.4.x: update to 11.4.10 Drupal 11.3.x: update to 11.3.19 Drupal 10.6.x: update to 10.6.19 Drupal 12.0.0 beta: 12.0.0-beta2 , which is not for production use No fix: Drupal 11.2.x and below, 10.5.x and below, and Drupal 8 and 9, all of which are end-of-life Both 11.3.x and 10.6.x lose security coverage in December 2026. In the week starting October 4, 151,442 of the 531,499 sites that reported their Drupal core version to drupal.org (28.5%) were on a branch that the advisory lists as affected and that received no fix. A site that cannot update yet can uninstall the Field UI module, field_ui, which \"will provide protection while sites are updated,\" the advisory says. The admin pages for managing fields and their display are unavailable while the module is uninstalled. Field UI is installed by Drupal's Standard install profile, so a site built from that profile has the module unless someone removed it. Drupal Steward , a web application firewall service with rules written by the Security Team, already blocks some known attack vectors for this flaw. Acquia, Pantheon, Ironstar, and Skpr run it for their customers. It does not cover every possible exploit, and those sites should still update, the advisory says. The advisory rated the flaw as having no publicly available exploit code at the time of publication. As of October 15, none had surfaced, and neither the advisory nor public reports described attacks using it. The Security Team had pre-announced the release on October 12 and told sites to reserve time for it \"because exploits might be developed within hours or days.\" In May, Drupal reported exploit attempts within two days of its advisory for a core SQL injection flaw that affected only sites on PostgreSQL, and CISA added that flaw to its catalog of exploited vulnerabilities. What the Fix Changed Field UI builds its admin tables from render arrays, the PHP arrays Drupal turns into HTML. Before the fix, the table element's pre-render step ran whatever PHP callable each table row carried in its #region_callback property, through call_user_func_array, with no check on what that callable was. Drupal's renderer has refused to run untrusted render callbacks since version 8.8 in 2019 , a restriction added after earlier advisories showed that the render system could too easily call arbitrary callbacks. The renderer trusts the table element's own methods, so it ran the pre-render step, and the check never reached the callable that step then executed. The 11.4.10 code no longer calls the callback. It reads each row's region from the row's own region value and uses the table's hidden region, or its first region, when that value is not a known region. The same call had been in the code since at least Drupal 8.9.0 in 2020. In core itself, the callback is set only by Field UI's own display forms. Custom code that set #region_callback on a field_ui_table row will find it no longer runs after the upda",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Drupal"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-108097"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Drupal": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
+          "link": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
+          "published": "2026-10-15T12:07:20+00:00",
+          "summary": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19. An attacker cannot reach the flaw through core alone, the Drupal Security Team said in its advisory. Several exploit paths exist through contributed modules, and at least one known path needs no login.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Drupal"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-108097"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Drupal": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -3473,8 +3552,146 @@
       ]
     },
     {
-      "cluster_id": "07e976c8a7",
+      "cluster_id": "a08c0c6808",
       "priority_score": 14,
+      "member_count": 2,
+      "corroborating_source_count": 2,
+      "strong_signals": [
+        "CVE-2026-99999",
+        "Linux kernel"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Linux kernel"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-74580",
+          "CVE-2026-99999"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news",
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+        "link": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+        "published": "2026-10-15T20:24:36+00:00",
+        "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared",
+        "full_body": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory  Swati Khandelwal  Oct 15, 2026 Linux / Vulnerability A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape , is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared layer that cloud providers use to keep customers' workloads apart. It was found in a Vercel security challenge and reported privately before any public release, and there is no sign it has been used in a real attack. What the Researcher Showed Paulos Yibelo of the security firm pwn.ai found that specially made network packets sent from inside a virtual machine could do three things, he explained in a technical write-up : read the host's memory, crash the host, and run code on it. All three come from the same kernel flaw. Vercel said in its report on the challenge that the memory leak was demonstrated against its production sandboxes. Each packet the guest sent out could carry back about 32 bytes of the host's memory, and the guest could keep going as long as it kept sending packets. The crash and code execution were observed only on the researcher's own machines, which were set up to match Vercel's. Two specially crafted packets were enough to crash a host and take down every sandbox running on it. Using the same flaw, the researcher then reached administrator control of a host, breaking out of the virtual machine. He stressed this was a lab result, \"not a claim of root command execution in any vendor's production environment.\" \"Our research ran through Omega-Pwn , an internal harness combining our own security research tooling with elements of SingularityNET's OmegaClaw architecture . It let us carry hypotheses, code traces, failed attempts, and experimental results across long-running research sessions. GPT-5.6 Sol was the primary reasoning engine. We directed the investigation, challenged its findings, and validated the interesting ones against actual kernel behavior on systems we controlled,\" Paulos Yibelo told The Hacker News. Vercel said no report in the challenge showed anyone reading a customer's files, secrets, or application data. How Severe It Is, and Who Can Set It Off The kernel's maintainers assigned the flaw CVE-2026-99999 and, in the published record, rated it 9.3 out of 10, or Critical. The U.S. National Vulnerability Database had received that entry but had not yet finished its own review. The same record lists the attack vector as local. In plain terms, the attacker has to already be running code inside a guest, as the researcher was. This is not a flaw that an outsider can exploit by sending packets across the open internet. It is not in CISA's catalog of actively exploited vulnerabilities, and no real-world use has been reported. Why It Reaches Beyond Vercel Vercel Sandbox runs each customer's code in its own Firecracker microVM, a small virtual machine with its own copy of the Linux kernel, on bare-metal Amazon EC2 hosts. That microVM is the wall between one customer and the host, and between one customer and another. The flaw is not in that wall. It is in the Linux kernel's networking code, which the host runs. pwn.ai said Vercel's sandbox was already hardened beyond normal industry standards, with no misconfiguration it could find. Because almost every large cloud separates customer workloads on the same layer of the Linux kernel, Vercel said that a flaw there poses a risk to shared infrastructure rather than to any one provider. The Fix and the Fixed Versions The fix is a single Linux kernel change, commit 6785011f8b16 , written by Red Hat's Michael S. Tsirkin and merged into the mainline kernel. It adds a check that a packet's checksum data cannot point into the IPv4 header befo",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Linux kernel"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-99999"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Linux kernel": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+          "link": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+          "published": "2026-10-15T20:24:36+00:00",
+          "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared",
+          "taxonomy": {
+            "threat_categories": [
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Linux kernel"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-99999"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Linux kernel": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Vghost (CVE-2026-74580): Linux kernel vhost stale IOTLB cache leading to universal LPE and Guest-to-Host escape vector",
+          "link": "https://www.reddit.com/r/netsec/comments/1x5gjk9/vghost_cve202674580_linux_kernel_vhost_stale/",
+          "published": "2026-10-14T03:08:53+00:00",
+          "summary": "submitted by /u/mlgbcnmsl [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Linux kernel"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-74580"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {
+              "Linux kernel": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "07e976c8a7",
+      "priority_score": 13,
       "member_count": 3,
       "corroborating_source_count": 3,
       "strong_signals": [
@@ -3649,144 +3866,6 @@
             "confidence_tier": "tier_4_news",
             "role_map": {
               "Palo Alto Networks": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "a08c0c6808",
-      "priority_score": 14,
-      "member_count": 2,
-      "corroborating_source_count": 2,
-      "strong_signals": [
-        "CVE-2026-99999",
-        "Linux kernel"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Linux kernel"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-74580",
-          "CVE-2026-99999"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news",
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
-        "link": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
-        "published": "2026-10-15T20:24:36+00:00",
-        "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared",
-        "full_body": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory  Swati Khandelwal  Oct 15, 2026 Linux / Vulnerability A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape , is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared layer that cloud providers use to keep customers' workloads apart. It was found in a Vercel security challenge and reported privately before any public release, and there is no sign it has been used in a real attack. What the Researcher Showed Paulos Yibelo of the security firm pwn.ai found that specially made network packets sent from inside a virtual machine could do three things, he explained in a technical write-up : read the host's memory, crash the host, and run code on it. All three come from the same kernel flaw. Vercel said in its report on the challenge that the memory leak was demonstrated against its production sandboxes. Each packet the guest sent out could carry back about 32 bytes of the host's memory, and the guest could keep going as long as it kept sending packets. The crash and code execution were observed only on the researcher's own machines, which were set up to match Vercel's. Two specially crafted packets were enough to crash a host and take down every sandbox running on it. Using the same flaw, the researcher then reached administrator control of a host, breaking out of the virtual machine. He stressed this was a lab result, \"not a claim of root command execution in any vendor's production environment.\" \"Our research ran through Omega-Pwn , an internal harness combining our own security research tooling with elements of SingularityNET's OmegaClaw architecture . It let us carry hypotheses, code traces, failed attempts, and experimental results across long-running research sessions. GPT-5.6 Sol was the primary reasoning engine. We directed the investigation, challenged its findings, and validated the interesting ones against actual kernel behavior on systems we controlled,\" Paulos Yibelo told The Hacker News. Vercel said no report in the challenge showed anyone reading a customer's files, secrets, or application data. How Severe It Is, and Who Can Set It Off The kernel's maintainers assigned the flaw CVE-2026-99999 and, in the published record, rated it 9.3 out of 10, or Critical. The U.S. National Vulnerability Database had received that entry but had not yet finished its own review. The same record lists the attack vector as local. In plain terms, the attacker has to already be running code inside a guest, as the researcher was. This is not a flaw that an outsider can exploit by sending packets across the open internet. It is not in CISA's catalog of actively exploited vulnerabilities, and no real-world use has been reported. Why It Reaches Beyond Vercel Vercel Sandbox runs each customer's code in its own Firecracker microVM, a small virtual machine with its own copy of the Linux kernel, on bare-metal Amazon EC2 hosts. That microVM is the wall between one customer and the host, and between one customer and another. The flaw is not in that wall. It is in the Linux kernel's networking code, which the host runs. pwn.ai said Vercel's sandbox was already hardened beyond normal industry standards, with no misconfiguration it could find. Because almost every large cloud separates customer workloads on the same layer of the Linux kernel, Vercel said that a flaw there poses a risk to shared infrastructure rather than to any one provider. The Fix and the Fixed Versions The fix is a single Linux kernel change, commit 6785011f8b16 , written by Red Hat's Michael S. Tsirkin and merged into the mainline kernel. It adds a check that a packet's checksum data cannot point into the IPv4 header befo",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Linux kernel"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-99999"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Linux kernel": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
-          "link": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
-          "published": "2026-10-15T20:24:36+00:00",
-          "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared",
-          "taxonomy": {
-            "threat_categories": [
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Linux kernel"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-99999"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Linux kernel": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Vghost (CVE-2026-74580): Linux kernel vhost stale IOTLB cache leading to universal LPE and Guest-to-Host escape vector",
-          "link": "https://www.reddit.com/r/netsec/comments/1x5gjk9/vghost_cve202674580_linux_kernel_vhost_stale/",
-          "published": "2026-10-14T03:08:53+00:00",
-          "summary": "submitted by /u/mlgbcnmsl [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Linux kernel"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-74580"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "Linux kernel": "target"
             },
             "weak_tags": {
               "products": []
@@ -4640,6 +4719,97 @@
       ]
     },
     {
+      "cluster_id": "262c329c2f",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "Microsoft Windows"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Unit 42",
+        "cohort": "threat_research_primary",
+        "title": "The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk",
+        "link": "https://unit42.paloaltonetworks.com/noise-inside-network-third-party-risk/",
+        "published": "2026-10-13T22:00:04+00:00",
+        "summary": "Unit 42 dissects a cyberattack targeting a European bank's IT infrastructure, delivering concrete defense strategies to help organizations detect and counter comparable threats. The post The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk appeared first on Unit 42 .",
+        "full_body": "Threat Research Center Insights Anatomy of an Attack Anatomy of an Attack The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk 3 min read Related Products Cortex Cortex XDR Unit 42 Incident Response By: Antonio Diaz Ruben Castillo Published: October 13, 2026 Categories: Anatomy of an Attack Insights Tags: Credential-based attacks Incident response Reconnaissance Share When unusual activity was detected on a European bank’s central IT system, its internal security team quickly recognized that the incident warranted immediate response. They discovered unauthorized VPN-based access attempts that spanned several months. They then engaged Unit 42 to determine the full scope of the intrusion, identify any persistent footholds and secure the environment. While the activity appeared to be a stealthy cyberespionage campaign, the actual intrusion was made possible by gaps in foundational security controls. Rather than relying on novel techniques, the threat actor succeeded through persistence, exploiting weaknesses that stronger identity protections and basic security hygiene could have prevented. The case highlights an important lesson: Sometimes the most damaging intrusions begin with the simplest oversights. Internal Reconnaissance: A High-Volume, Noisy Campaign The intrusion originated through a third-party-managed external gateway appliance that was not properly configured to enforce strict authentication. Using compromised credentials, the attacker began by authenticating to internal systems. Once inside, the threat actor launched a discovery campaign of the internal network. The threat actor conducted multiple rounds of reconnaissance, performing extensive host and network scans across a wide range of protocols and interacting with thousands of systems. This broad, noisy approach was less a targeted strike than casting a net to uncover as many access points as possible. Authentication Abuse and Documentation Browsing The pattern continued with credential testing. Over a period of a few months, the threat actor launched multiple password-guessing campaigns. They hammered at internal systems with brute-force authentication attempts, focusing on administrator accounts. While doing this, they systematically targeted internal documentation and data shares. Using automated web requests, they scraped individual pages and attachments from internal systems and enumerated various operational and network shares. The activity observed did not match the behavior typically associated with a sophisticated threat actor. The noise behind the scanning and login attempts, along with using common system identifiers, pointed to an opportunistic attacker attempting to compromise multiple systems. Their actions showed little effort to remain hidden or avoid detection. Early Detection, Containment, and Remediation In the final stages, the intruder attempted to expand control by exploiting a Windows Server Update Services (WSUS) remote code execution vulnerability on the central configuration management server. This server handled software distribution across the bank, making it a prime target for privilege escalation and long-term persistence. However, the attacker's luck ran out. The moment they attempted to execute unauthorized code, Cortex XDR identified the activity and contained the threat before it could escalate. The attacker was prevented from gaining a persistent foothold or moving laterally throughout the network. When Unit 42 engaged, our team initiated a comprehensive threat-hunting effort. We performed a deep forensic review of endpoint telemetry across approximately thousands of systems, alongside logs from dozens of Windows and Linux servers. Ultimately, no additional attacker presence or persistent backdoors were found. Bank leadership acted quickly to review the exposed documentation and rotate all compromised credentials, completely neutralizing the threat. What This Investigation Revealed This case se",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services"
+          ],
+          "affected_products": [
+            "Microsoft Windows"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Microsoft Windows": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Unit 42",
+          "cohort": "threat_research_primary",
+          "title": "The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk",
+          "link": "https://unit42.paloaltonetworks.com/noise-inside-network-third-party-risk/",
+          "published": "2026-10-13T22:00:04+00:00",
+          "summary": "Unit 42 dissects a cyberattack targeting a European bank's IT infrastructure, delivering concrete defense strategies to help organizations detect and counter comparable threats. The post The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk appeared first on Unit 42 .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services"
+            ],
+            "affected_products": [
+              "Microsoft Windows"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Microsoft Windows": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "baa3477655",
       "priority_score": 10,
       "member_count": 2,
@@ -4765,424 +4935,6 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "262c329c2f",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [
-          "Microsoft Windows"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Unit 42",
-        "cohort": "threat_research_primary",
-        "title": "The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk",
-        "link": "https://unit42.paloaltonetworks.com/noise-inside-network-third-party-risk/",
-        "published": "2026-10-13T22:00:04+00:00",
-        "summary": "Unit 42 dissects a cyberattack targeting a European bank's IT infrastructure, delivering concrete defense strategies to help organizations detect and counter comparable threats. The post The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk appeared first on Unit 42 .",
-        "full_body": "Threat Research Center Insights Anatomy of an Attack Anatomy of an Attack The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk 3 min read Related Products Cortex Cortex XDR Unit 42 Incident Response By: Antonio Diaz Ruben Castillo Published: October 13, 2026 Categories: Anatomy of an Attack Insights Tags: Credential-based attacks Incident response Reconnaissance Share When unusual activity was detected on a European bank’s central IT system, its internal security team quickly recognized that the incident warranted immediate response. They discovered unauthorized VPN-based access attempts that spanned several months. They then engaged Unit 42 to determine the full scope of the intrusion, identify any persistent footholds and secure the environment. While the activity appeared to be a stealthy cyberespionage campaign, the actual intrusion was made possible by gaps in foundational security controls. Rather than relying on novel techniques, the threat actor succeeded through persistence, exploiting weaknesses that stronger identity protections and basic security hygiene could have prevented. The case highlights an important lesson: Sometimes the most damaging intrusions begin with the simplest oversights. Internal Reconnaissance: A High-Volume, Noisy Campaign The intrusion originated through a third-party-managed external gateway appliance that was not properly configured to enforce strict authentication. Using compromised credentials, the attacker began by authenticating to internal systems. Once inside, the threat actor launched a discovery campaign of the internal network. The threat actor conducted multiple rounds of reconnaissance, performing extensive host and network scans across a wide range of protocols and interacting with thousands of systems. This broad, noisy approach was less a targeted strike than casting a net to uncover as many access points as possible. Authentication Abuse and Documentation Browsing The pattern continued with credential testing. Over a period of a few months, the threat actor launched multiple password-guessing campaigns. They hammered at internal systems with brute-force authentication attempts, focusing on administrator accounts. While doing this, they systematically targeted internal documentation and data shares. Using automated web requests, they scraped individual pages and attachments from internal systems and enumerated various operational and network shares. The activity observed did not match the behavior typically associated with a sophisticated threat actor. The noise behind the scanning and login attempts, along with using common system identifiers, pointed to an opportunistic attacker attempting to compromise multiple systems. Their actions showed little effort to remain hidden or avoid detection. Early Detection, Containment, and Remediation In the final stages, the intruder attempted to expand control by exploiting a Windows Server Update Services (WSUS) remote code execution vulnerability on the central configuration management server. This server handled software distribution across the bank, making it a prime target for privilege escalation and long-term persistence. However, the attacker's luck ran out. The moment they attempted to execute unauthorized code, Cortex XDR identified the activity and contained the threat before it could escalate. The attacker was prevented from gaining a persistent foothold or moving laterally throughout the network. When Unit 42 engaged, our team initiated a comprehensive threat-hunting effort. We performed a deep forensic review of endpoint telemetry across approximately thousands of systems, alongside logs from dozens of Windows and Linux servers. Ultimately, no additional attacker presence or persistent backdoors were found. Bank leadership acted quickly to review the exposed documentation and rotate all compromised credentials, completely neutralizing the threat. What This Investigation Revealed This case se",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services"
-          ],
-          "affected_products": [
-            "Microsoft Windows"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Microsoft Windows": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Unit 42",
-          "cohort": "threat_research_primary",
-          "title": "The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk",
-          "link": "https://unit42.paloaltonetworks.com/noise-inside-network-third-party-risk/",
-          "published": "2026-10-13T22:00:04+00:00",
-          "summary": "Unit 42 dissects a cyberattack targeting a European bank's IT infrastructure, delivering concrete defense strategies to help organizations detect and counter comparable threats. The post The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk appeared first on Unit 42 .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services"
-            ],
-            "affected_products": [
-              "Microsoft Windows"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Microsoft Windows": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "5d5fb499b6",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ddos",
-          "phishing_social_eng",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "education",
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [
-          "Atlassian Jira",
-          "Citrix",
-          "WordPress"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2025-64393",
-          "CVE-2026-21589",
-          "CVE-2026-76455",
-          "CVE-2026-88779"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "critical_cvss"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Check Point Research",
-        "cohort": "threat_research_primary",
-        "title": "12th October – Threat Intelligence Report",
-        "link": "https://research.checkpoint.com/2026/12th-october-threat-intelligence-report/",
-        "published": "2026-10-12T14:51:31+00:00",
-        "summary": "For the latest discoveries in cyber research for the week of 12th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Denmark’s government has disclosed a breach involving its Central Register of Persons after unauthorized individuals exploited access provided to a private supplier. The incident reportedly exposed personal information, including names, addresses, and […] The post 12th October – Threat Intelligence Report appeared first on Check Point Research .",
-        "full_body": "FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 12th October – Threat Intelligence Report October 12, 2026 https://research.checkpoint.com/2026/12th-october-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 12th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Denmark’s government has disclosed a breach involving its Central Register of Persons after unauthorized individuals exploited access provided to a private supplier. The incident reportedly exposed personal information, including names, addresses, and identification numbers, associated with approximately 8.8 million individuals in the national registry. UK-based online fashion retailer ASOS has confirmed a cyberattack involving stolen employee credentials that enabled unauthorized access to third-party platforms. Attackers reportedly obtained customer names and contact details and sent unauthorized push notifications to mobile application users. The threat group Xuanye claimed responsibility for the incident. ATB, Ukraine’s largest grocery retailer, has faced a cyberattack that disrupted its online services after attackers posted an extortion demand on its website. The DataSuckers group claimed to have stolen records belonging to 7.9 million customers, which include names, addresses, passport information and order records. Osaka Metropolitan University, one of Japan’s largest universities, has sustained a suspected ransomware attack that disrupted classes, internal networks, email, and administrative systems. Approximately 500 servers were affected, while personal information belonging to at least 130,000 individuals may have been exposed. AI THREATS Researchers documented an AI-assisted intrusion campaign involving the ARTEX toolkit against South Korean financial institutions. Exposed directories revealed Claude Code session histories, configuration files, and Chinese-language prompts associated with the operation. The attackers allegedly used AI-assisted workflows to facilitate data theft and planned to sell stolen information. Researchers identified a phishing campaign targeting both employees and AI-powered email assistants. Malicious emails combine conventional phishing lures with hidden prompt injections embedded in HTML comments and invisible text. These instructions attempt to promote fraudulent requests, or induce unauthorized disclosure of information. Researchers profiled CyberXero, an AI-augmented initial access broker targeting Ukrainian energy infrastructure and conducting automated attacks against WordPress and e-commerce platforms. The operation combines automated exploitation with AI agents and has obtained information belonging to more than 628,000 Ukrainian individuals through its campaigns. VULNERABILITIES AND PATCHES Veeam has released security updates addressing multiple vulnerabilities in Backup & Replication version 12. These include CVE-2025-64393, a critical remote code execution flaw rated CVSS 9.4 that allows low-privileged backup users to execute commands on affected servers. Versions before build 12.3.2.4934 are vulnerable. Citrix NetScaler ADC and Gateway appliances are affected by CVE-2026-88779, a high-severity memory overflow vulnerability rated CVSS 8.7. The flaw affects customer-managed appliances configured for SAML authentication and could cause denial of service. Citrix confirmed targeted exploitation, and security updates are available for affected versions. Cisco has released security updates addressing multiple critical vulnerabilities in NX-OS software. The flaws include CVE-2026-76455, an improper access control vulnerability rated CVSS 9.8. Successful exploitation could allow unauthorized access of affected network infrastructure. Atlassian released patches for CVE-2026-21589, a critical arbitrary file access vulnerability rated CVSS 9.3. The flaw affects eight self-managed Data Center products, including Jira, Confluence, Bitbucket",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng",
-            "ddos"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "government",
-            "critical_infrastructure",
-            "education"
-          ],
-          "affected_products": [
-            "Citrix",
-            "WordPress",
-            "Atlassian Jira"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2025-64393",
-            "CVE-2026-88779",
-            "CVE-2026-76455",
-            "CVE-2026-21589"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "critical_cvss"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Citrix": "target",
-            "WordPress": "target",
-            "Atlassian Jira": "target",
-            "Atlassian Confluence": "target",
-            "Anthropic/Claude": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Check Point Research",
-          "cohort": "threat_research_primary",
-          "title": "12th October – Threat Intelligence Report",
-          "link": "https://research.checkpoint.com/2026/12th-october-threat-intelligence-report/",
-          "published": "2026-10-12T14:51:31+00:00",
-          "summary": "For the latest discoveries in cyber research for the week of 12th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Denmark’s government has disclosed a breach involving its Central Register of Persons after unauthorized individuals exploited access provided to a private supplier. The incident reportedly exposed personal information, including names, addresses, and […] The post 12th October – Threat Intelligence Report appeared first on Check Point Research .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng",
-              "ddos"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "government",
-              "critical_infrastructure",
-              "education"
-            ],
-            "affected_products": [
-              "Citrix",
-              "WordPress",
-              "Atlassian Jira"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2025-64393",
-              "CVE-2026-88779",
-              "CVE-2026-76455",
-              "CVE-2026-21589"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "critical_cvss"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Citrix": "target",
-              "WordPress": "target",
-              "Atlassian Jira": "target",
-              "Atlassian Confluence": "target",
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "d35b3375d9",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-102214",
-          "CVE-2026-105733",
-          "CVE-2026-70229",
-          "CVE-2026-70571",
-          "CVE-2026-96951"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Cisco Talos",
-        "cohort": "threat_research_primary",
-        "title": "Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities",
-        "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/",
-        "published": "2026-10-13T20:37:58+00:00",
-        "summary": "Microsoft has released its monthly security update for October 2026, which includes 1415 vulnerabilities affecting a range of products, including 85 that Microsoft marked as \"critical.\"",
-        "full_body": "Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities By Nick Biasini Tuesday, October 13, 2026 16:37 Patch Tuesday Microsoft has released its monthly security update for October 2026, which includes 1415 vulnerabilities affecting a range of products, including 85 that Microsoft marked as \"critical.\" Microsoft notes that 1 of the vulnerabilities disclosed this month have been exploited in the wild CVE-2026-96951 is a security feature bypass vulnerability that affects Windows Shell. The shared weakness is Improper Neutralization of Special Elements used in a Command ('Command Injection'). The vulnerability has a CVSS base score of 8.8. Out of 85 \"critical\" vulnerabilities, 67 are remote code execution (RCE) vulnerabilities. Microsoft considers exploitation of the following vulnerabilities more likely. CVE-2026-70229 is a remote code execution vulnerability that affects Windows Active Directory Domain Services. The shared weakness is Incorrect Authorization. The vulnerability has a CVSS base score of 8.1. CVE-2026-70571 is a remote code execution vulnerability that affects Microsoft Exchange Server. The shared weakness is Stack-based Buffer Overflow. The vulnerability has a CVSS base score of 8.1. Microsoft considers exploitation of the following vulnerabilities less likely. CVE-2026-105733 , CVE-2026-102214 , and CVE-2026-108399 affect Windows Hyper-V. CVE-2026-105733 has an impact of remote code execution; involves Incorrect Initialization of Resource; has a CVSS base score of 8.8. CVE-2026-102214 has an impact of remote code execution; involves Use After Free; has a CVSS base score of 8.8. CVE-2026-108399 has an impact of elevation of privilege; involves Heap-based Buffer Overflow; has a CVSS base score of 7.2. CVE-2026-100202 is a remote code execution vulnerability that affects Windows Message Queuing Queue Manager. The shared weakness is Use After Free. The vulnerability has a CVSS base score of 9.8. CVE-2026-100209 , CVE-2026-100210 , CVE-2026-100211 , CVE-2026-97739 , CVE-2026-97745 , CVE-2026-97755 , CVE-2026-97759 , CVE-2026-97765 , CVE-2026-97778 , CVE-2026-97741 , CVE-2026-97742 , CVE-2026-97753 , CVE-2026-97756 , CVE-2026-97758 , CVE-2026-97761 , CVE-2026-97767 , CVE-2026-97776 , and CVE-2026-97780 are remote code execution vulnerabilities that affect Microsoft Office Excel. Each has a CVSS base score of 8.8. CVE-2026-100209 , CVE-2026-100211 , CVE-2026-97745 , and CVE-2026-97759 involve Use After Free. CVE-2026-100210 , CVE-2026-97765 , CVE-2026-97756 , CVE-2026-97758 , CVE-2026-97776 , and CVE-2026-97780 involve Heap-based Buffer Overflow. CVE-2026-97739 involves Heap-based Buffer Overflow and Integer Underflow (Wrap or Wraparound). CVE-2026-97755 involves Out-of-bounds Read. CVE-2026-97778 involves Integer Overflow or Wraparound. CVE-2026-97741 involves Heap-based Buffer Overflow and Off-by-one Error. CVE-2026-97742 involves Stack-based Buffer Overflow. CVE-2026-97753 involves Heap-based Buffer Overflow and Integer Overflow or Wraparound. CVE-2026-97761 involves Stack-based Buffer Overflow. CVE-2026-97767 involves Double Free and NULL Pointer Dereference. CVE-2026-100215 is a remote code execution vulnerability that affects Microsoft Graphics Component. The shared weakness is Heap-based Buffer Overflow. The vulnerability has a CVSS base score of 7.8. CVE-2026-100219 and CVE-2026-105016 are remote code execution vulnerabilities that affect Microsoft QUIC. Each has a CVSS base score of 9.8. CVE-2026-100219 involves Use After Free. CVE-2026-105016 involves Heap-based Buffer Overflow. CVE-2026-100220 is a remote code execution vulnerability that affects Windows Media Video Decoder. The shared weakness is Heap-based Buffer Overflow. The vulnerability has a CVSS base score of 8.8. CVE-2026-102211 , CVE-2026-88074 , CVE-2026-108130 , CVE-2026-108471 , and CVE-2026-96914 are elevation of privilege vulnerabilities that affect Windows Virtualization-Based Security (VBS) Enclave. CVE-2026-1022",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-96951",
-            "CVE-2026-70229",
-            "CVE-2026-70571",
-            "CVE-2026-105733",
-            "CVE-2026-102214"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Cisco Talos",
-          "cohort": "threat_research_primary",
-          "title": "Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities",
-          "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/",
-          "published": "2026-10-13T20:37:58+00:00",
-          "summary": "Microsoft has released its monthly security update for October 2026, which includes 1415 vulnerabilities affecting a range of products, including 85 that Microsoft marked as \"critical.\"",
-          "taxonomy": {
-            "threat_categories": [
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-96951",
-              "CVE-2026-70229",
-              "CVE-2026-70571",
-              "CVE-2026-105733",
-              "CVE-2026-102214"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "a9ee824994",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Horizon3 Attack Research",
-        "cohort": "offensive_vulnerability_research",
-        "title": "Integrate to Remediate Proven Attack Paths and Verify Every Fix Automatically",
-        "link": "https://horizon3.ai/downloads/joint-solutions-briefs/horizon3-torq-attack-path-remediation-verification/",
-        "published": "2026-10-14T15:47:56+00:00",
-        "summary": "Discover how Horizon3 and Torq bring NodeZero® exploitability findings into SOC workflows to orchestrate remediation, contain exposed credentials, and verify that attack paths are closed.",
-        "full_body": "Integrate to Remediate Proven Attack Paths and Verify Every Fix Automatically Horizon3 October 14, 2026 Joint Solutions Briefs Security teams need more than a list of weaknesses. They need evidence of which attack paths are exploitable, a way to act on that evidence, and confirmation that remediation closed the path. The Horizon3 and Torq joint solution brief explains how NodeZero® autonomous pentesting and Torq’s AI SOC platform connect proven exploitability with automated remediation and verification. Connect Proof to Remediation NodeZero safely tests the live environment from an assumed-breach position, chaining vulnerabilities, misconfigurations, and credential weaknesses across network, cloud, identity, and Active Directory to demonstrate reachable attack paths. Torq brings those findings into SOC workflows, enriching them with asset ownership and attack-path impact. Teams can use this context to focus remediation on the weaknesses NodeZero has demonstrated are exploitable. Verify That the Fix Held The integration connects remediation with a scoped verification pentest. Torq can orchestrate actions across identity, endpoint, cloud, collaboration, and ITSM tools, then launch a targeted retest to confirm that the attack path is closed. Verified findings resolve in Case Management. Findings that remain exploitable return for another remediation pass, supporting a continuous hack, fix, verify cycle. Explore the Integration’s Use Cases The brief shows how Horizon3 and Torq work together to: Close proven attack paths: Use impact-scored findings to direct remediation across identity, endpoint, and cloud. Contain exposed credentials: Trigger credential rotation and session revocation, followed by verification. Verify remediation automatically: Retest after remediation and resolve a finding once the path is proven closed. The document also illustrates how NodeZero findings flow into Torq Hyperautomation, Socrates AI SOC Analyst, and Case Management, connecting proven weaknesses with coordinated action and verified outcomes. Download the Horizon3 + Torq Joint Solution Brief See how Horizon3 and Torq connect proven attack paths, automated remediation, and verification in a continuous security workflow. Download the Horizon3 + Torq Joint Solution Brief How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Horizon3 Attack Research",
-          "cohort": "offensive_vulnerability_research",
-          "title": "Integrate to Remediate Proven Attack Paths and Verify Every Fix Automatically",
-          "link": "https://horizon3.ai/downloads/joint-solutions-briefs/horizon3-torq-attack-path-remediation-verification/",
-          "published": "2026-10-14T15:47:56+00:00",
-          "summary": "Discover how Horizon3 and Torq bring NodeZero® exploitability findings into SOC workflows to orchestrate remediation, contain exposed credentials, and verify that attack paths are closed.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -5523,6 +5275,333 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "5d5fb499b6",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ddos",
+          "phishing_social_eng",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "education",
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [
+          "Atlassian Jira",
+          "Citrix",
+          "WordPress"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2025-64393",
+          "CVE-2026-21589",
+          "CVE-2026-76455",
+          "CVE-2026-88779"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "critical_cvss"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Check Point Research",
+        "cohort": "threat_research_primary",
+        "title": "12th October – Threat Intelligence Report",
+        "link": "https://research.checkpoint.com/2026/12th-october-threat-intelligence-report/",
+        "published": "2026-10-12T14:51:31+00:00",
+        "summary": "For the latest discoveries in cyber research for the week of 12th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Denmark’s government has disclosed a breach involving its Central Register of Persons after unauthorized individuals exploited access provided to a private supplier. The incident reportedly exposed personal information, including names, addresses, and […] The post 12th October – Threat Intelligence Report appeared first on Check Point Research .",
+        "full_body": "FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 12th October – Threat Intelligence Report October 12, 2026 https://research.checkpoint.com/2026/12th-october-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 12th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Denmark’s government has disclosed a breach involving its Central Register of Persons after unauthorized individuals exploited access provided to a private supplier. The incident reportedly exposed personal information, including names, addresses, and identification numbers, associated with approximately 8.8 million individuals in the national registry. UK-based online fashion retailer ASOS has confirmed a cyberattack involving stolen employee credentials that enabled unauthorized access to third-party platforms. Attackers reportedly obtained customer names and contact details and sent unauthorized push notifications to mobile application users. The threat group Xuanye claimed responsibility for the incident. ATB, Ukraine’s largest grocery retailer, has faced a cyberattack that disrupted its online services after attackers posted an extortion demand on its website. The DataSuckers group claimed to have stolen records belonging to 7.9 million customers, which include names, addresses, passport information and order records. Osaka Metropolitan University, one of Japan’s largest universities, has sustained a suspected ransomware attack that disrupted classes, internal networks, email, and administrative systems. Approximately 500 servers were affected, while personal information belonging to at least 130,000 individuals may have been exposed. AI THREATS Researchers documented an AI-assisted intrusion campaign involving the ARTEX toolkit against South Korean financial institutions. Exposed directories revealed Claude Code session histories, configuration files, and Chinese-language prompts associated with the operation. The attackers allegedly used AI-assisted workflows to facilitate data theft and planned to sell stolen information. Researchers identified a phishing campaign targeting both employees and AI-powered email assistants. Malicious emails combine conventional phishing lures with hidden prompt injections embedded in HTML comments and invisible text. These instructions attempt to promote fraudulent requests, or induce unauthorized disclosure of information. Researchers profiled CyberXero, an AI-augmented initial access broker targeting Ukrainian energy infrastructure and conducting automated attacks against WordPress and e-commerce platforms. The operation combines automated exploitation with AI agents and has obtained information belonging to more than 628,000 Ukrainian individuals through its campaigns. VULNERABILITIES AND PATCHES Veeam has released security updates addressing multiple vulnerabilities in Backup & Replication version 12. These include CVE-2025-64393, a critical remote code execution flaw rated CVSS 9.4 that allows low-privileged backup users to execute commands on affected servers. Versions before build 12.3.2.4934 are vulnerable. Citrix NetScaler ADC and Gateway appliances are affected by CVE-2026-88779, a high-severity memory overflow vulnerability rated CVSS 8.7. The flaw affects customer-managed appliances configured for SAML authentication and could cause denial of service. Citrix confirmed targeted exploitation, and security updates are available for affected versions. Cisco has released security updates addressing multiple critical vulnerabilities in NX-OS software. The flaws include CVE-2026-76455, an improper access control vulnerability rated CVSS 9.8. Successful exploitation could allow unauthorized access of affected network infrastructure. Atlassian released patches for CVE-2026-21589, a critical arbitrary file access vulnerability rated CVSS 9.3. The flaw affects eight self-managed Data Center products, including Jira, Confluence, Bitbucket",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "phishing_social_eng",
+            "ddos"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "critical_infrastructure",
+            "education"
+          ],
+          "affected_products": [
+            "Citrix",
+            "WordPress",
+            "Atlassian Jira"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2025-64393",
+            "CVE-2026-88779",
+            "CVE-2026-76455",
+            "CVE-2026-21589"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "critical_cvss"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Citrix": "target",
+            "WordPress": "target",
+            "Atlassian Jira": "target",
+            "Atlassian Confluence": "target",
+            "Anthropic/Claude": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Check Point Research",
+          "cohort": "threat_research_primary",
+          "title": "12th October – Threat Intelligence Report",
+          "link": "https://research.checkpoint.com/2026/12th-october-threat-intelligence-report/",
+          "published": "2026-10-12T14:51:31+00:00",
+          "summary": "For the latest discoveries in cyber research for the week of 12th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Denmark’s government has disclosed a breach involving its Central Register of Persons after unauthorized individuals exploited access provided to a private supplier. The incident reportedly exposed personal information, including names, addresses, and […] The post 12th October – Threat Intelligence Report appeared first on Check Point Research .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "phishing_social_eng",
+              "ddos"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "critical_infrastructure",
+              "education"
+            ],
+            "affected_products": [
+              "Citrix",
+              "WordPress",
+              "Atlassian Jira"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2025-64393",
+              "CVE-2026-88779",
+              "CVE-2026-76455",
+              "CVE-2026-21589"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "critical_cvss"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Citrix": "target",
+              "WordPress": "target",
+              "Atlassian Jira": "target",
+              "Atlassian Confluence": "target",
+              "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "d35b3375d9",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-102214",
+          "CVE-2026-105733",
+          "CVE-2026-70229",
+          "CVE-2026-70571",
+          "CVE-2026-96951"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Cisco Talos",
+        "cohort": "threat_research_primary",
+        "title": "Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities",
+        "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/",
+        "published": "2026-10-13T20:37:58+00:00",
+        "summary": "Microsoft has released its monthly security update for October 2026, which includes 1415 vulnerabilities affecting a range of products, including 85 that Microsoft marked as \"critical.\"",
+        "full_body": "Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities By Nick Biasini Tuesday, October 13, 2026 16:37 Patch Tuesday Microsoft has released its monthly security update for October 2026, which includes 1415 vulnerabilities affecting a range of products, including 85 that Microsoft marked as \"critical.\" Microsoft notes that 1 of the vulnerabilities disclosed this month have been exploited in the wild CVE-2026-96951 is a security feature bypass vulnerability that affects Windows Shell. The shared weakness is Improper Neutralization of Special Elements used in a Command ('Command Injection'). The vulnerability has a CVSS base score of 8.8. Out of 85 \"critical\" vulnerabilities, 67 are remote code execution (RCE) vulnerabilities. Microsoft considers exploitation of the following vulnerabilities more likely. CVE-2026-70229 is a remote code execution vulnerability that affects Windows Active Directory Domain Services. The shared weakness is Incorrect Authorization. The vulnerability has a CVSS base score of 8.1. CVE-2026-70571 is a remote code execution vulnerability that affects Microsoft Exchange Server. The shared weakness is Stack-based Buffer Overflow. The vulnerability has a CVSS base score of 8.1. Microsoft considers exploitation of the following vulnerabilities less likely. CVE-2026-105733 , CVE-2026-102214 , and CVE-2026-108399 affect Windows Hyper-V. CVE-2026-105733 has an impact of remote code execution; involves Incorrect Initialization of Resource; has a CVSS base score of 8.8. CVE-2026-102214 has an impact of remote code execution; involves Use After Free; has a CVSS base score of 8.8. CVE-2026-108399 has an impact of elevation of privilege; involves Heap-based Buffer Overflow; has a CVSS base score of 7.2. CVE-2026-100202 is a remote code execution vulnerability that affects Windows Message Queuing Queue Manager. The shared weakness is Use After Free. The vulnerability has a CVSS base score of 9.8. CVE-2026-100209 , CVE-2026-100210 , CVE-2026-100211 , CVE-2026-97739 , CVE-2026-97745 , CVE-2026-97755 , CVE-2026-97759 , CVE-2026-97765 , CVE-2026-97778 , CVE-2026-97741 , CVE-2026-97742 , CVE-2026-97753 , CVE-2026-97756 , CVE-2026-97758 , CVE-2026-97761 , CVE-2026-97767 , CVE-2026-97776 , and CVE-2026-97780 are remote code execution vulnerabilities that affect Microsoft Office Excel. Each has a CVSS base score of 8.8. CVE-2026-100209 , CVE-2026-100211 , CVE-2026-97745 , and CVE-2026-97759 involve Use After Free. CVE-2026-100210 , CVE-2026-97765 , CVE-2026-97756 , CVE-2026-97758 , CVE-2026-97776 , and CVE-2026-97780 involve Heap-based Buffer Overflow. CVE-2026-97739 involves Heap-based Buffer Overflow and Integer Underflow (Wrap or Wraparound). CVE-2026-97755 involves Out-of-bounds Read. CVE-2026-97778 involves Integer Overflow or Wraparound. CVE-2026-97741 involves Heap-based Buffer Overflow and Off-by-one Error. CVE-2026-97742 involves Stack-based Buffer Overflow. CVE-2026-97753 involves Heap-based Buffer Overflow and Integer Overflow or Wraparound. CVE-2026-97761 involves Stack-based Buffer Overflow. CVE-2026-97767 involves Double Free and NULL Pointer Dereference. CVE-2026-100215 is a remote code execution vulnerability that affects Microsoft Graphics Component. The shared weakness is Heap-based Buffer Overflow. The vulnerability has a CVSS base score of 7.8. CVE-2026-100219 and CVE-2026-105016 are remote code execution vulnerabilities that affect Microsoft QUIC. Each has a CVSS base score of 9.8. CVE-2026-100219 involves Use After Free. CVE-2026-105016 involves Heap-based Buffer Overflow. CVE-2026-100220 is a remote code execution vulnerability that affects Windows Media Video Decoder. The shared weakness is Heap-based Buffer Overflow. The vulnerability has a CVSS base score of 8.8. CVE-2026-102211 , CVE-2026-88074 , CVE-2026-108130 , CVE-2026-108471 , and CVE-2026-96914 are elevation of privilege vulnerabilities that affect Windows Virtualization-Based Security (VBS) Enclave. CVE-2026-1022",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-96951",
+            "CVE-2026-70229",
+            "CVE-2026-70571",
+            "CVE-2026-105733",
+            "CVE-2026-102214"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Cisco Talos",
+          "cohort": "threat_research_primary",
+          "title": "Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities",
+          "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/",
+          "published": "2026-10-13T20:37:58+00:00",
+          "summary": "Microsoft has released its monthly security update for October 2026, which includes 1415 vulnerabilities affecting a range of products, including 85 that Microsoft marked as \"critical.\"",
+          "taxonomy": {
+            "threat_categories": [
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-96951",
+              "CVE-2026-70229",
+              "CVE-2026-70571",
+              "CVE-2026-105733",
+              "CVE-2026-102214"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "a9ee824994",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Horizon3 Attack Research",
+        "cohort": "offensive_vulnerability_research",
+        "title": "Integrate to Remediate Proven Attack Paths and Verify Every Fix Automatically",
+        "link": "https://horizon3.ai/downloads/joint-solutions-briefs/horizon3-torq-attack-path-remediation-verification/",
+        "published": "2026-10-14T15:47:56+00:00",
+        "summary": "Discover how Horizon3 and Torq bring NodeZero® exploitability findings into SOC workflows to orchestrate remediation, contain exposed credentials, and verify that attack paths are closed.",
+        "full_body": "Integrate to Remediate Proven Attack Paths and Verify Every Fix Automatically Horizon3 October 14, 2026 Joint Solutions Briefs Security teams need more than a list of weaknesses. They need evidence of which attack paths are exploitable, a way to act on that evidence, and confirmation that remediation closed the path. The Horizon3 and Torq joint solution brief explains how NodeZero® autonomous pentesting and Torq’s AI SOC platform connect proven exploitability with automated remediation and verification. Connect Proof to Remediation NodeZero safely tests the live environment from an assumed-breach position, chaining vulnerabilities, misconfigurations, and credential weaknesses across network, cloud, identity, and Active Directory to demonstrate reachable attack paths. Torq brings those findings into SOC workflows, enriching them with asset ownership and attack-path impact. Teams can use this context to focus remediation on the weaknesses NodeZero has demonstrated are exploitable. Verify That the Fix Held The integration connects remediation with a scoped verification pentest. Torq can orchestrate actions across identity, endpoint, cloud, collaboration, and ITSM tools, then launch a targeted retest to confirm that the attack path is closed. Verified findings resolve in Case Management. Findings that remain exploitable return for another remediation pass, supporting a continuous hack, fix, verify cycle. Explore the Integration’s Use Cases The brief shows how Horizon3 and Torq work together to: Close proven attack paths: Use impact-scored findings to direct remediation across identity, endpoint, and cloud. Contain exposed credentials: Trigger credential rotation and session revocation, followed by verification. Verify remediation automatically: Retest after remediation and resolve a finding once the path is proven closed. The document also illustrates how NodeZero findings flow into Torq Hyperautomation, Socrates AI SOC Analyst, and Case Management, connecting proven weaknesses with coordinated action and verified outcomes. Download the Horizon3 + Torq Joint Solution Brief See how Horizon3 and Torq connect proven attack paths, automated remediation, and verification in a continuous security workflow. Download the Horizon3 + Torq Joint Solution Brief How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Horizon3 Attack Research",
+          "cohort": "offensive_vulnerability_research",
+          "title": "Integrate to Remediate Proven Attack Paths and Verify Every Fix Automatically",
+          "link": "https://horizon3.ai/downloads/joint-solutions-briefs/horizon3-torq-attack-path-remediation-verification/",
+          "published": "2026-10-14T15:47:56+00:00",
+          "summary": "Discover how Horizon3 and Torq bring NodeZero® exploitability findings into SOC workflows to orchestrate remediation, contain exposed credentials, and verify that attack paths are closed.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -5877,211 +5956,6 @@
             "cve_ids": [
               "CVE-2026-105740"
             ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "586a782e4e",
-      "priority_score": 10,
-      "member_count": 5,
-      "corroborating_source_count": 5,
-      "strong_signals": [
-        "ShinyHunters"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "intel_roundup",
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_3_analysis",
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Graham Cluley",
-        "cohort": "practitioner_analysis",
-        "title": "Smashing Security podcast #488: How a ransomware negotiator ended up arrested at his own conference",
-        "link": "https://grahamcluley.com/smashing-security-podcast-488/",
-        "published": "2026-10-14T23:06:42+00:00",
-        "summary": "A ransomware negotiator attended a cybersecurity conference, only to be arrested by the FBI in connection with its investigation into the ShinyHunters gang. Meanwhile, hackers get the keys to ASOS's app and the chance to message every single customer. What did they say? And how did the company respond? We have thoughts. All this and more is discussed in episode 488 of the \"Smashing Security\" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.",
-        "full_body": "Graham Cluley @ 12:06 am, October 15, 2026 @grahamcluley.com / grahamcluley A ransomware negotiator attended a cybersecurity conference, only to be arrested by the FBI in connection with its investigation into the ShinyHunters gang. Meanwhile, hackers get the keys to ASOS’s app and the chance to message every single customer. What did they say? And how did the company respond? We have thoughts. All this and more is discussed in episode 488 of the “Smashing Security” podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin. Smashing Security #488 How a ransomware negotiator ended up arrested at his own conference ↺ 15 ↻ 30 0:00 Learn more 0:00 0:00 0:00 1× Show full transcript ▼ This transcript was generated automatically, probably contains mistakes, and has not been manually verified. GRAHAM CLULEY Well, it could be unfashionable trousers. PAUL DUCKLIN Yeah, I suppose. GRAHAM CLULEY There is the potential for some sort of social embarrassment, maybe. When I was at school, I had some cord trousers, which these days would be very, very trendy. But back when I was wearing them in the 1980s, they certainly weren't. PAUL DUCKLIN Yeah, there was no normcore back then, was there? Corduroy trousers. Yes, I had some when I was about 12, and I thought they were great. But I quickly learned that that was not quite the case. Unknown Smashing Security, episode 488. PAUL DUCKLIN How a ransomware negotiator ended up arrested at his own conference, with Graham Cluley and special guest Paul Ducklin. GRAHAM CLULEY Hello, hello, and welcome to Smashing Security, episode 488. My name's Graham Cluley. PAUL DUCKLIN And I am Paul Ducklin. GRAHAM CLULEY Duck, welcome back to the show. Always a pleasure to have you here. PAUL DUCKLIN Always a pleasure to be on the show, Graham. It's fun. With a serious side, and I like both of those things. GRAHAM CLULEY Ah, fantastic. Well, before we kick off, let's thank this week's sponsors, HackTheBox, Origin, and Vanta. We'll be hearing more about them later on in the show. PAUL DUCKLIN This week on Smashing Security. GRAHAM CLULEY We're not gonna be talking about how the password 123456 let a hacker steal the details of 8.8 million people from Denmark's National Population Register. You'll hear no discussion of How scammers are filling your calendar with fake meeting invites to phish you. And we won't even mention— How Anthropic's AI sent Philadelphia police a made-up tip about an unsolved murder. So, Duck, what are you going to be talking about this week? PAUL DUCKLIN I am going to be asking the question, metaphorically of course, if you hacked into an industry giant and you had the chance to send a message to every single customer, what Would you tell them? GRAHAM CLULEY And I'm gonna be discussing the 7 degrees of separation between me and a ransomware gang. I say 7 degrees, it's probably more like 2. All this and much more coming up in this episode of Smashing Security. Earlier this year. JOE Oh, here we go. GRAHAM CLULEY Inside the walls of OpenAI, inside Hugging Face, something was happening. Agents talking to each other, dividing the work between themselves, leaving notes for one another in the dark where no human was watching. JOE They're AI agents doing a code review, Graham. It's not the Manhattan Project. GRAHAM CLULEY And when the sun came up on that incident, the finest engineering minds on the planet sat in a room and asked themselves one question. JOE What did our AI do? They didn't know. The people who built the machine didn't Know what the machine had done. GRAHAM CLULEY And that brings us to you, dear listener. One question, and I want you to think about this. JOE If an AI agent caused an incident at your company tomorrow, what evidence could you actually produce? Because the terrible truth is, most of us have the prompt, we have the result, but what goes on in the middle? No clue. The commands it ran, the files it touched, the credentials it helped it",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion"
-          ],
-          "actor_attribution": [
-            "ShinyHunters"
-          ],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_3_analysis",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Graham Cluley",
-          "cohort": "practitioner_analysis",
-          "title": "Smashing Security podcast #488: How a ransomware negotiator ended up arrested at his own conference",
-          "link": "https://grahamcluley.com/smashing-security-podcast-488/",
-          "published": "2026-10-14T23:06:42+00:00",
-          "summary": "A ransomware negotiator attended a cybersecurity conference, only to be arrested by the FBI in connection with its investigation into the ShinyHunters gang. Meanwhile, hackers get the keys to ASOS's app and the chance to message every single customer. What did they say? And how did the company respond? We have thoughts. All this and more is discussed in episode 488 of the \"Smashing Security\" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [
-              "ShinyHunters"
-            ],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_3_analysis",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Krebs on Security",
-          "cohort": "practitioner_analysis",
-          "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
-          "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
-          "published": "2026-10-10T00:17:42+00:00",
-          "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSecurity.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [
-              "ShinyHunters"
-            ],
-            "affected_industries": [
-              "government"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_3_analysis",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
-          "link": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
-          "published": "2026-10-12T15:16:26+00:00",
-          "summary": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it. But speed is only part of the problem. A secure connection didn't always mean a safe destination. People offering to fix a ransomware mess had questions to answer themselves.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [
-              "ShinyHunters"
-            ],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "intel_roundup",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Risky Business News",
-          "cohort": "practitioner_analysis",
-          "title": "Risky Bulletin: ShinyHunters suspects arrested in US and Jordan",
-          "link": "https://risky.biz/RBNEWS619/",
-          "published": "2026-10-12T02:43:40+00:00",
-          "summary": "Two ShinyHunters suspects arrested in Jordan and the US, hackers breach TLD registrars to get valid Google certs, Japanese authorities arrest a Qilin ransomware member and Google suspends its open-source bug bounty program after a flood of AI bug reports.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [
-              "ShinyHunters"
-            ],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_3_analysis",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "What We Missed: FBI Strikes Back at ShinyHunters",
-          "link": "https://www.darkreading.com/identity-access-management-security/fbi-shinyhunters-claims-hack",
-          "published": "2026-10-09T17:21:00+00:00",
-          "summary": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from the arrest of a suspected ShinyHunters operative to the compromise of a Pentagon-run data center.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [
-              "ShinyHunters"
-            ],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
@@ -6588,7 +6462,6 @@
       "taxonomy": {
         "threat_categories": [
           "data_breach",
-          "phishing_social_eng",
           "zero_day"
         ],
         "actor_attribution": [],
@@ -6622,11 +6495,10 @@
         "link": "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/",
         "published": "2026-10-15T09:55:19+00:00",
         "summary": "Personal information such as names, addresses, Social Security numbers, and driver’s license numbers was compromised. The post CenterPoint Energy Data Breach Impacts 1 Million Texans appeared first on SecurityWeek .",
-        "full_body": "CenterPoint Energy has notified Texan authorities that the personal information of over 1 million individuals was compromised in a data breach. The notice came one month after the Houston-based public utility told the SEC that customer information had been stolen from its systems . Just days before its initial disclosure, a hacker boasted on a known cybercrime forum that it had obtained nearly 7.5 million user records from CenterPoint Energy. In its SEC filing, the company confirmed it learned of the data breach after the threat actor’s public post, noting that only a portion of its customers had been affected and that the incident did not impact its operations. This week, CenterPoint Energy told the Texas Attorney General’s Office that 1,062,060 state residents were affected. It appears that the utility has not sent notification letters to the impacted individuals. According to the company’s filing, the compromised information includes names, addresses, Social Security numbers, and driver’s license numbers. Advertisement. Scroll to continue reading. CenterPoint Energy also delivers electricity and natural gas to customers in Indiana, Minnesota, and Ohio, and residents of those states might have been affected as well. However, the total impact from the incident remains unclear. On September 12, the hacker made a 2.5-gigabyte archive available for download, allegedly containing data exfiltrated from the utility. The file seemingly contains approximately 3 million phone numbers along with additional personal information. SecurityWeek has emailed CenterPoint Energy for clarification on how many individuals were impacted and will update this article if the company responds. Related: Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach Related: iRhythm Data Breach Impacts at Least 360,000 People Related: Oracle Health Data Breach Tally Climbs to Nearly 20 Million Related: Georgia Power, Alabama Power Data Breach Hits 400,000 Accounts Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Warns of Exploited Secure Email Gateway Vulnerability Harmonic Security Raises $50 Million for Workforce AI Protection US Arrests Two in Crackdown on North Korean IT Worker Laptop Farms Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities XWorm RAT Evolves Into Surveillance Platform $86 Million Crypto Heist Linked to Ledger Signer Hardware Implant Latest News Context Is King in the Fight Against Modern Cyberattacks Watch Now: Zero Trust Strategies Summit – All Sessions Available on Demand UK Legal Aid Agency Hack Scope Widens After Forensic Review Supermarket Refrigeration Attack Widens to Copeland, Dixell Controllers CikaBika Bot RAT Uses Discord for C&C Novel Android RAT ‘Hirudo’ Replaces Banking Apps With Trojanized Copies CISO Conversations: James Robinson – Many Jobs, One Journey to Netskope CISO Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution Trending Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach iRhythm Data Breach Impacts at Least 360,000 People Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN Adobe Patches 176 Vulnerabilities Across 11 Products Microsoft Disrupts Chinese-Language Phishing Market Behind 1B+ Messages Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightf",
+        "full_body": "CenterPoint Energy has notified Texan authorities that the personal information of over 1 million individuals was compromised in a data breach. The notice came one month after the Houston-based public utility told the SEC that customer information had been stolen from its systems . Just days before its initial disclosure, a hacker boasted on a known cybercrime forum that it had obtained nearly 7.5 million user records from CenterPoint Energy. In its SEC filing, the company confirmed it learned of the data breach after the threat actor’s public post, noting that only a portion of its customers had been affected and that the incident did not impact its operations. This week, CenterPoint Energy told the Texas Attorney General’s Office that 1,062,060 state residents were affected. It appears that the utility has not sent notification letters to the impacted individuals. According to the company’s filing, the compromised information includes names, addresses, Social Security numbers, and driver’s license numbers. Advertisement. Scroll to continue reading. CenterPoint Energy also delivers electricity and natural gas to customers in Indiana, Minnesota, and Ohio, and residents of those states might have been affected as well. However, the total impact from the incident remains unclear. On September 12, the hacker made a 2.5-gigabyte archive available for download, allegedly containing data exfiltrated from the utility. The file seemingly contains approximately 3 million phone numbers along with additional personal information. SecurityWeek has emailed CenterPoint Energy for clarification on how many individuals were impacted and will update this article if the company responds. Related: Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach Related: iRhythm Data Breach Impacts at Least 360,000 People Related: Oracle Health Data Breach Tally Climbs to Nearly 20 Million Related: Georgia Power, Alabama Power Data Breach Hits 400,000 Accounts Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Warns of Exploited Secure Email Gateway Vulnerability Harmonic Security Raises $50 Million for Workforce AI Protection US Arrests Two in Crackdown on North Korean IT Worker Laptop Farms Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities XWorm RAT Evolves Into Surveillance Platform $86 Million Crypto Heist Linked to Ledger Signer Hardware Implant Latest News Context Is King in the Fight Against Modern Cyberattacks Watch Now: Zero Trust Strategies Summit – All Sessions Available on Demand UK Legal Aid Agency Hack Scope Widens After Forensic Review Supermarket Refrigeration Attack Widens to Copeland, Dixell Controllers CikaBika Bot RAT Uses Discord for C&C Novel Android RAT ‘Hirudo’ Replaces Banking Apps With Trojanized Copies CISO Conversations: James Robinson – Many Jobs, One Journey to Netskope CISO Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution Trending Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach iRhythm Data Breach Impacts at Least 360,000 People Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN Adobe Patches 176 Vulnerabilities Across 11 Products Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with in",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "phishing_social_eng",
             "zero_day",
             "data_breach"
           ],
@@ -6671,7 +6543,6 @@
           "summary": "Personal information such as names, addresses, Social Security numbers, and driver’s license numbers was compromised. The post CenterPoint Energy Data Breach Impacts 1 Million Texans appeared first on SecurityWeek .",
           "taxonomy": {
             "threat_categories": [
-              "phishing_social_eng",
               "zero_day",
               "data_breach"
             ],
@@ -7342,6 +7213,211 @@
       ]
     },
     {
+      "cluster_id": "586a782e4e",
+      "priority_score": 9,
+      "member_count": 5,
+      "corroborating_source_count": 5,
+      "strong_signals": [
+        "ShinyHunters"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [
+          "ShinyHunters"
+        ],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "intel_roundup",
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_3_analysis",
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Graham Cluley",
+        "cohort": "practitioner_analysis",
+        "title": "Smashing Security podcast #488: How a ransomware negotiator ended up arrested at his own conference",
+        "link": "https://grahamcluley.com/smashing-security-podcast-488/",
+        "published": "2026-10-14T23:06:42+00:00",
+        "summary": "A ransomware negotiator attended a cybersecurity conference, only to be arrested by the FBI in connection with its investigation into the ShinyHunters gang. Meanwhile, hackers get the keys to ASOS's app and the chance to message every single customer. What did they say? And how did the company respond? We have thoughts. All this and more is discussed in episode 488 of the \"Smashing Security\" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.",
+        "full_body": "Graham Cluley @ 12:06 am, October 15, 2026 @grahamcluley.com / grahamcluley A ransomware negotiator attended a cybersecurity conference, only to be arrested by the FBI in connection with its investigation into the ShinyHunters gang. Meanwhile, hackers get the keys to ASOS’s app and the chance to message every single customer. What did they say? And how did the company respond? We have thoughts. All this and more is discussed in episode 488 of the “Smashing Security” podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin. Smashing Security #488 How a ransomware negotiator ended up arrested at his own conference ↺ 15 ↻ 30 0:00 Learn more 0:00 0:00 0:00 1× Show full transcript ▼ This transcript was generated automatically, probably contains mistakes, and has not been manually verified. GRAHAM CLULEY Well, it could be unfashionable trousers. PAUL DUCKLIN Yeah, I suppose. GRAHAM CLULEY There is the potential for some sort of social embarrassment, maybe. When I was at school, I had some cord trousers, which these days would be very, very trendy. But back when I was wearing them in the 1980s, they certainly weren't. PAUL DUCKLIN Yeah, there was no normcore back then, was there? Corduroy trousers. Yes, I had some when I was about 12, and I thought they were great. But I quickly learned that that was not quite the case. Unknown Smashing Security, episode 488. PAUL DUCKLIN How a ransomware negotiator ended up arrested at his own conference, with Graham Cluley and special guest Paul Ducklin. GRAHAM CLULEY Hello, hello, and welcome to Smashing Security, episode 488. My name's Graham Cluley. PAUL DUCKLIN And I am Paul Ducklin. GRAHAM CLULEY Duck, welcome back to the show. Always a pleasure to have you here. PAUL DUCKLIN Always a pleasure to be on the show, Graham. It's fun. With a serious side, and I like both of those things. GRAHAM CLULEY Ah, fantastic. Well, before we kick off, let's thank this week's sponsors, HackTheBox, Origin, and Vanta. We'll be hearing more about them later on in the show. PAUL DUCKLIN This week on Smashing Security. GRAHAM CLULEY We're not gonna be talking about how the password 123456 let a hacker steal the details of 8.8 million people from Denmark's National Population Register. You'll hear no discussion of How scammers are filling your calendar with fake meeting invites to phish you. And we won't even mention— How Anthropic's AI sent Philadelphia police a made-up tip about an unsolved murder. So, Duck, what are you going to be talking about this week? PAUL DUCKLIN I am going to be asking the question, metaphorically of course, if you hacked into an industry giant and you had the chance to send a message to every single customer, what Would you tell them? GRAHAM CLULEY And I'm gonna be discussing the 7 degrees of separation between me and a ransomware gang. I say 7 degrees, it's probably more like 2. All this and much more coming up in this episode of Smashing Security. Earlier this year. JOE Oh, here we go. GRAHAM CLULEY Inside the walls of OpenAI, inside Hugging Face, something was happening. Agents talking to each other, dividing the work between themselves, leaving notes for one another in the dark where no human was watching. JOE They're AI agents doing a code review, Graham. It's not the Manhattan Project. GRAHAM CLULEY And when the sun came up on that incident, the finest engineering minds on the planet sat in a room and asked themselves one question. JOE What did our AI do? They didn't know. The people who built the machine didn't Know what the machine had done. GRAHAM CLULEY And that brings us to you, dear listener. One question, and I want you to think about this. JOE If an AI agent caused an incident at your company tomorrow, what evidence could you actually produce? Because the terrible truth is, most of us have the prompt, we have the result, but what goes on in the middle? No clue. The commands it ran, the files it touched, the credentials it helped it",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion"
+          ],
+          "actor_attribution": [
+            "ShinyHunters"
+          ],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_3_analysis",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Graham Cluley",
+          "cohort": "practitioner_analysis",
+          "title": "Smashing Security podcast #488: How a ransomware negotiator ended up arrested at his own conference",
+          "link": "https://grahamcluley.com/smashing-security-podcast-488/",
+          "published": "2026-10-14T23:06:42+00:00",
+          "summary": "A ransomware negotiator attended a cybersecurity conference, only to be arrested by the FBI in connection with its investigation into the ShinyHunters gang. Meanwhile, hackers get the keys to ASOS's app and the chance to message every single customer. What did they say? And how did the company respond? We have thoughts. All this and more is discussed in episode 488 of the \"Smashing Security\" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [
+              "ShinyHunters"
+            ],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_3_analysis",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Krebs on Security",
+          "cohort": "practitioner_analysis",
+          "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
+          "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+          "published": "2026-10-10T00:17:42+00:00",
+          "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSecurity.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [
+              "ShinyHunters"
+            ],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_3_analysis",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
+          "link": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
+          "published": "2026-10-12T15:16:26+00:00",
+          "summary": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it. But speed is only part of the problem. A secure connection didn't always mean a safe destination. People offering to fix a ransomware mess had questions to answer themselves.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [
+              "ShinyHunters"
+            ],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "intel_roundup",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Risky Business News",
+          "cohort": "practitioner_analysis",
+          "title": "Risky Bulletin: ShinyHunters suspects arrested in US and Jordan",
+          "link": "https://risky.biz/RBNEWS619/",
+          "published": "2026-10-12T02:43:40+00:00",
+          "summary": "Two ShinyHunters suspects arrested in Jordan and the US, hackers breach TLD registrars to get valid Google certs, Japanese authorities arrest a Qilin ransomware member and Google suspends its open-source bug bounty program after a flood of AI bug reports.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [
+              "ShinyHunters"
+            ],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_3_analysis",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "What We Missed: FBI Strikes Back at ShinyHunters",
+          "link": "https://www.darkreading.com/identity-access-management-security/fbi-shinyhunters-claims-hack",
+          "published": "2026-10-09T17:21:00+00:00",
+          "summary": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from the arrest of a suspected ShinyHunters operative to the compromise of a Pentagon-run data center.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [
+              "ShinyHunters"
+            ],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "46793131ea",
       "priority_score": 8,
       "member_count": 1,
@@ -7474,87 +7550,6 @@
           "summary": "<p>This article was first published <a href=\"https://www.linkedin.com/pulse/building-intent-based-access-control-without-reading-minds-borges-dxg6e/\" target=\"_self\">on LinkedIn</a>.</p> Categories: AI Research, Threat Research Tags: AI, AI RESEARCH, Threat Research",
           "taxonomy": {
             "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "39f0934aaf",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ai_security"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Datadog Security Labs",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "Jev as a judge: How counterfeit policy steers Jev",
-        "link": "https://securitylabs.datadoghq.com/articles/jev-as-a-judge-how-counterfeit-policy-steers-jev/",
-        "published": "2026-10-15T00:00:00+00:00",
-        "summary": "We evaluate Jev's prompt injection detection and show how counterfeit classification policies can steer its decisions and bypass LangChain's tool-risk gating.",
-        "full_body": "Nick Frichette Staff Security Researcher Feras Al-Kassar Senior Security Researcher On September 15, TypeSafe AI introduced Jev , the first in what the company calls System One Models: models designed to make fast, structured decisions. Traditional large language models (LLMs) generate text sequentially, one token at a time, even when software ultimately needs a small structured decision. Jev gives up free-form text generation and instead returns structured decisions in parallel, with possible outputs defined by the developer. Its training emphasizes calibrated probabilities, so applications can use the modelâs confidence to decide when to act or, in some cases, defer to a human. The approach targets tasks such as classifying content or routing support requests, which TypeSafe says Jev can handle substantially faster and more cheaply than conventional LLMs. In response to this new model and its unique characteristics, the internet has been exploring ways to leverage the low latency and reduced cost that would have otherwise been prohibitive with a traditional LLM. For example, entagl validated Jevâs efficacy at categorizing real customer conversations, and LangChain used Jev for routing LLM requests to different models depending on the complexity of the request. One additional LangChain feature stood out to us: tool-risk gating : a method that uses Jev to âAsk for the probability that a tool call is risky or insufficiently authorized. Calls that are determined risky return an error ToolMessage instead of running the toolâ. Vercelâs eve has implemented a similar feature as well. This use case raises a security question. To assess a proposed action, a classifier may need to read untrusted content in conversation messages or tool arguments. Could an attacker use that content to influence the classifier's decision? TypeSafe acknowledges this limitation in its documentation , noting that injected instructions, misleading framing, and text arguing for its own classification can influence Jev's answers. We wanted to understand how this affects its use as a security control. In this post, we evaluate Jev's ability to detect prompt injection, then test whether attacker-controlled content can steer its classifications and bypass LangChain's tool-risk gating. Evaluation datasets To test Jevâs capabilities comprehensively, we selected four publicly available prompt injection datasets to act as our baseline. While there is some overlap, these datasets cover different attack styles, benign controls, category annotations, and languages. Dataset Total Attack Benign DeepSet Prompt Injections 662 263 399 xTRam1 SafeGuard 10,296 3,146 7,150 zachz Prompt Injection Benchmark 303 200 103 Yanismiraoui Prompt Injections 1,034 1,034 0 Total 12,295 4,643 7,652 Instructions and result labeling One of Jevâs defining features as compared to traditional LLMs is the ability to define specific outputs depending on the type. There are currently three primitives : Choice, Score, and Noul. Pulled from the documentation, these are respectively: Type What it answers Returns Choice Which of these options? choice , probabilities , confidence Score Which level? score , legend , probabilities , confidence Noul Is this true? noul (0 to 1) For our evaluation, we asked the same two questions for every sample. The Noul question, has_prompt_injection , estimated the probability that the sample matched at least one of our defined attack types. The Choice question, attack_category , selected the best-matching attack category, with no_attack as an option for benign samples. This gave us two outputs to evaluate: a probability that we could convert into an attack or benign label using a threshold, and a category label. The following sections describe the instructions and labeling rules for each. Noul instructions ( has_prompt_injection ) We used the has_prompt_injection Noul question to estimate whether the last untrusted message matched at least one of our defin",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ai_security"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Datadog Security Labs",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Jev as a judge: How counterfeit policy steers Jev",
-          "link": "https://securitylabs.datadoghq.com/articles/jev-as-a-judge-how-counterfeit-policy-steers-jev/",
-          "published": "2026-10-15T00:00:00+00:00",
-          "summary": "We evaluate Jev's prompt injection detection and show how counterfeit classification policies can steer its decisions and bypass LangChain's tool-risk gating.",
-          "taxonomy": {
-            "threat_categories": [
-              "ai_security"
-            ],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
@@ -7948,81 +7943,6 @@
             "threat_categories": [
               "ransomware_extortion"
             ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "f669f5bbcb",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "GreyNoise",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "skynox7: Proxyjacking Edge Devices Into Residential Proxies",
-        "link": "https://www.greynoise.io/blog/proxyjacking-edge-devices-residential-proxies",
-        "published": "2026-10-15T00:00:00+00:00",
-        "summary": "How a live GreyNoise product demo turned into an incident response. Inside a proxyjacking campaign that hit 143 devices across 34 countries.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "GreyNoise",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "skynox7: Proxyjacking Edge Devices Into Residential Proxies",
-          "link": "https://www.greynoise.io/blog/proxyjacking-edge-devices-residential-proxies",
-          "published": "2026-10-15T00:00:00+00:00",
-          "summary": "How a live GreyNoise product demo turned into an incident response. Inside a proxyjacking campaign that hit 143 devices across 34 countries.",
-          "taxonomy": {
-            "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
@@ -8533,89 +8453,6 @@
       ]
     },
     {
-      "cluster_id": "7c3382153b",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-106931"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-106931"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/blueteamsec",
-        "cohort": "reddit_practitioner_osint",
-        "title": "SiteGuard Server EditionにおけるOSコマンドインジェクションの脆弱性（CVE-2026-106931）に関する注意喚起 - Security Advisory Regarding OS Command Injection Vulnerability (CVE-2026-106931) in SiteGuard Server Edition",
-        "link": "https://www.reddit.com/r/blueteamsec/comments/1x6e0s6/siteguard_server/",
-        "published": "2026-10-15T06:10:09+00:00",
-        "summary": "submitted by /u/digicat [link] [comments]",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-106931"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_5_chatter",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/blueteamsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "SiteGuard Server EditionにおけるOSコマンドインジェクションの脆弱性（CVE-2026-106931）に関する注意喚起 - Security Advisory Regarding OS Command Injection Vulnerability (CVE-2026-106931) in SiteGuard Server Edition",
-          "link": "https://www.reddit.com/r/blueteamsec/comments/1x6e0s6/siteguard_server/",
-          "published": "2026-10-15T06:10:09+00:00",
-          "summary": "submitted by /u/digicat [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-106931"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "1970aa98e3",
       "priority_score": 8,
       "member_count": 1,
@@ -8821,7 +8658,7 @@
     {
       "cluster_id": "3adf268623",
       "priority_score": 8,
-      "member_count": 3,
+      "member_count": 2,
       "corroborating_source_count": 2,
       "strong_signals": [
         "OpenAI/ChatGPT"
@@ -8986,31 +8823,22 @@
       ]
     },
     {
-      "label": "zero day targeting Palo Alto Networks",
+      "label": "Palo Alto Networks vulnerability activity",
       "anchor_signal": "Palo Alto Networks",
       "theme_key": "palo-alto-networks",
       "dominant_features": {
-        "threat_categories": [
-          "zero_day"
-        ],
         "affected_industries": [
-          "financial_services",
           "critical_infrastructure",
+          "financial_services",
           "government"
         ],
         "affected_products": [
           "Palo Alto Networks"
-        ],
-        "cve_ids": [
-          "CVE-2026-0322"
-        ],
-        "urgency_signals": [
-          "zero_day"
         ]
       },
-      "cluster_count": 5,
-      "article_count": 10,
-      "cohesion": 0.201,
+      "cluster_count": 6,
+      "article_count": 11,
+      "cohesion": 0.216,
       "shared_strong_signals": [
         "Palo Alto Networks"
       ],
@@ -9018,6 +8846,7 @@
       "also_targets": [],
       "cluster_ids": [
         "bf2b2f06a7",
+        "0928ca710f",
         "13a677ded6",
         "07e976c8a7",
         "e909812acf",
@@ -9027,6 +8856,7 @@
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-105133-and-cve-2026-105134/",
         "https://www.helpnetsecurity.com/2026/10/15/cve-2026-0322-cve-2026-76519-cve-2026-105133-cve-2026-105134-exploted/",
         "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
+        "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
         "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/",
         "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
         "https://www.securityweek.com/palo-alto-networks-patches-pan-os-zero-day-exploited-for-remote-code-execution/",
@@ -9182,6 +9012,37 @@
       ]
     },
     {
+      "label": "Citrix vulnerability activity",
+      "anchor_signal": "Citrix",
+      "theme_key": "citrix",
+      "dominant_features": {
+        "affected_products": [
+          "Citrix"
+        ],
+        "urgency_signals": [
+          "critical_cvss"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 4,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "Citrix"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "71978014e0",
+        "5d5fb499b6"
+      ],
+      "links": [
+        "https://orca.security/resources/research/critical-gitlab-rce-lets-unauthenticated-attackers-execute-code-on-servers-cve-2026-97229/",
+        "https://www.rapid7.com/blog/post/etr-cve-2026-97229-critical-unauthenticated-remote-code-execution-in-gitlab",
+        "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
+        "https://research.checkpoint.com/2026/12th-october-threat-intelligence-report/"
+      ]
+    },
+    {
       "label": "GitLab active exploitation",
       "anchor_signal": "GitLab",
       "theme_key": "gitlab",
@@ -9216,37 +9077,6 @@
         "https://www.rapid7.com/blog/post/etr-cve-2026-97229-critical-unauthenticated-remote-code-execution-in-gitlab",
         "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
         "https://www.recordedfuture.com/blog/september-2026-cve-landscape"
-      ]
-    },
-    {
-      "label": "Citrix vulnerability activity",
-      "anchor_signal": "Citrix",
-      "theme_key": "citrix",
-      "dominant_features": {
-        "affected_products": [
-          "Citrix"
-        ],
-        "urgency_signals": [
-          "critical_cvss"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 4,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "Citrix"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "71978014e0",
-        "5d5fb499b6"
-      ],
-      "links": [
-        "https://orca.security/resources/research/critical-gitlab-rce-lets-unauthenticated-attackers-execute-code-on-servers-cve-2026-97229/",
-        "https://www.rapid7.com/blog/post/etr-cve-2026-97229-critical-unauthenticated-remote-code-execution-in-gitlab",
-        "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
-        "https://research.checkpoint.com/2026/12th-october-threat-intelligence-report/"
       ]
     },
     {
@@ -9362,44 +9192,7 @@
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [
-        {
-          "value": "CVE-2026-102764",
-          "cluster_id": "dd71dd27f0",
-          "first_source": "Google Cloud Threat Intelligence",
-          "first_published": "2026-10-15T14:00:00+00:00"
-        },
-        {
-          "value": "CVE-2014-125110",
-          "cluster_id": "a2a2bd1902",
-          "first_source": "Cisco Talos",
-          "first_published": "2026-10-15T18:00:00+00:00"
-        },
-        {
-          "value": "CVE-2015-1000013",
-          "cluster_id": "a2a2bd1902",
-          "first_source": "Cisco Talos",
-          "first_published": "2026-10-15T18:00:00+00:00"
-        },
-        {
-          "value": "CVE-2026-99999",
-          "cluster_id": "a08c0c6808",
-          "first_source": "The Hacker News",
-          "first_published": "2026-10-15T20:24:36+00:00"
-        },
-        {
-          "value": "CVE-2026-110447",
-          "cluster_id": "d202d62335",
-          "first_source": "BleepingComputer",
-          "first_published": "2026-10-15T20:25:04+00:00"
-        },
-        {
-          "value": "CVE-2026-106931",
-          "cluster_id": "7c3382153b",
-          "first_source": "Reddit r/blueteamsec",
-          "first_published": "2026-10-15T06:10:09+00:00"
-        }
-      ],
+      "cves": [],
       "actors": [],
       "products": []
     },
@@ -9484,22 +9277,6 @@
     ],
     "drift": [
       {
-        "actor": "UNC5221",
-        "cluster_id": "dd71dd27f0",
-        "new_industries": [
-          "critical_infrastructure"
-        ],
-        "new_products": [],
-        "prior_top_industries": [
-          "telecommunications"
-        ],
-        "prior_top_products": [
-          "Anthropic/Claude",
-          "Apple iOS/macOS",
-          "Azure"
-        ]
-      },
-      {
         "actor": "Flax Typhoon",
         "cluster_id": "a8bb37fb70",
         "new_industries": [
@@ -9526,7 +9303,7 @@
         "axis": "actor_attribution",
         "value": "ShinyHunters",
         "cluster_id": "586a782e4e",
-        "weeks_observed": 14
+        "weeks_observed": 13
       },
       {
         "axis": "actor_attribution",
@@ -9538,7 +9315,7 @@
         "axis": "actor_attribution",
         "value": "UNC5221",
         "cluster_id": "dd71dd27f0",
-        "weeks_observed": 6
+        "weeks_observed": 7
       },
       {
         "axis": "cve_ids",
@@ -9584,14 +9361,14 @@
       },
       {
         "axis": "cve_ids",
-        "value": "CVE-2026-88779",
-        "cluster_id": "5d5fb499b6",
+        "value": "CVE-2026-35273",
+        "cluster_id": "55d35536fa",
         "weeks_observed": 3
       },
       {
         "axis": "cve_ids",
-        "value": "CVE-2026-35273",
-        "cluster_id": "55d35536fa",
+        "value": "CVE-2026-88779",
+        "cluster_id": "5d5fb499b6",
         "weeks_observed": 3
       }
     ],
@@ -9611,14 +9388,6 @@
         "primary_source": "Reddit r/netsec",
         "strong_signals": [
           "CVE-2026-81983"
-        ]
-      },
-      {
-        "cluster_id": "7c3382153b",
-        "title": "SiteGuard Server EditionにおけるOSコマンドインジェクションの脆弱性（CVE-2026-106931）に関する注意喚起 - Security Advisory Regarding OS Command Injection Vulnerability (CVE-2026-106931) in SiteGuard Server Edition",
-        "primary_source": "Reddit r/blueteamsec",
-        "strong_signals": [
-          "CVE-2026-106931"
         ]
       }
     ]

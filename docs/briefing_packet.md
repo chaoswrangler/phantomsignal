@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-10-15T22:04:17.421328+00:00
+- Generated: 2026-10-16T00:18:24.749330+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 349
-- Total clusters raw: 151
-- Total clusters in packet: 76
-- Dropped low score: 75
+- Total items in window: 327
+- Total clusters raw: 145
+- Total clusters in packet: 74
+- Dropped low score: 71
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,31 +70,21 @@
 
 ## Feed status
 
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
@@ -105,13 +95,33 @@
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 2
+  - Item count: 10
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 4
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -125,61 +135,51 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
-  - In window count: 0
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 9
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
   - In window count: 0
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 9
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 5
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -195,41 +195,46 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 7
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 7
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
@@ -245,11 +250,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 4
+  - Item count: 20
+  - In window count: 6
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -260,11 +265,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 6
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -280,18 +280,28 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
-  - Item count: 100
-  - In window count: 5
+  - Item count: 20
+  - In window count: 1
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 5
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 1
@@ -300,16 +310,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -320,36 +320,41 @@
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 21
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 0
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 17
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 20
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 0
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
@@ -359,22 +364,12 @@
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 20
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
+  - In window count: 22
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
@@ -385,21 +380,26 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
+  - Item count: 100
+  - In window count: 1
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
@@ -410,21 +410,26 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 24
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 24
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
@@ -434,17 +439,12 @@
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 15
+  - In window count: 14
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 25
-  - In window count: 24
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
@@ -455,16 +455,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 5
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Google Project Zero** (offensive_vulnerability_research)
   - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
   - Status: ok
@@ -499,26 +499,24 @@
   - https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html
   - https://tldrsec.com/p/tldr-sec-350
 
-### zero day targeting Palo Alto Networks
+### Palo Alto Networks vulnerability activity
 - Anchor signal: Palo Alto Networks
 - Theme key: palo-alto-networks
-- Cluster count: 5
-- Article count: 10
-- Cohesion: 0.201
+- Cluster count: 6
+- Article count: 11
+- Cohesion: 0.216
 - Shared strong signals: Palo Alto Networks
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: zero_day
-  - affected_industries: financial_services, critical_infrastructure, government
+  - affected_industries: critical_infrastructure, financial_services, government
   - affected_products: Palo Alto Networks
-  - cve_ids: CVE-2026-0322
-  - urgency_signals: zero_day
-- Cluster IDs: bf2b2f06a7, 13a677ded6, 07e976c8a7, e909812acf, 71dd4f4b63
+- Cluster IDs: bf2b2f06a7, 0928ca710f, 13a677ded6, 07e976c8a7, e909812acf, 71dd4f4b63
 - Links:
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-105133-and-cve-2026-105134/
   - https://www.helpnetsecurity.com/2026/10/15/cve-2026-0322-cve-2026-76519-cve-2026-105133-cve-2026-105134-exploted/
   - https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html
+  - https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/
   - https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/
   - https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/
   - https://www.securityweek.com/palo-alto-networks-patches-pan-os-zero-day-exploited-for-remote-code-execution/
@@ -605,6 +603,25 @@
   - https://www.securityweek.com/cisco-warns-of-exploited-secure-email-gateway-vulnerability/
   - https://www.recordedfuture.com/blog/september-2026-cve-landscape
 
+### Citrix vulnerability activity
+- Anchor signal: Citrix
+- Theme key: citrix
+- Cluster count: 2
+- Article count: 4
+- Cohesion: 0.2
+- Shared strong signals: Citrix
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Citrix
+  - urgency_signals: critical_cvss
+- Cluster IDs: 71978014e0, 5d5fb499b6
+- Links:
+  - https://orca.security/resources/research/critical-gitlab-rce-lets-unauthenticated-attackers-execute-code-on-servers-cve-2026-97229/
+  - https://www.rapid7.com/blog/post/etr-cve-2026-97229-critical-unauthenticated-remote-code-execution-in-gitlab
+  - https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html
+  - https://research.checkpoint.com/2026/12th-october-threat-intelligence-report/
+
 ### GitLab active exploitation
 - Anchor signal: GitLab
 - Theme key: gitlab
@@ -624,25 +641,6 @@
   - https://www.rapid7.com/blog/post/etr-cve-2026-97229-critical-unauthenticated-remote-code-execution-in-gitlab
   - https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html
   - https://www.recordedfuture.com/blog/september-2026-cve-landscape
-
-### Citrix vulnerability activity
-- Anchor signal: Citrix
-- Theme key: citrix
-- Cluster count: 2
-- Article count: 4
-- Cohesion: 0.2
-- Shared strong signals: Citrix
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Citrix
-  - urgency_signals: critical_cvss
-- Cluster IDs: 71978014e0, 5d5fb499b6
-- Links:
-  - https://orca.security/resources/research/critical-gitlab-rce-lets-unauthenticated-attackers-execute-code-on-servers-cve-2026-97229/
-  - https://www.rapid7.com/blog/post/etr-cve-2026-97229-critical-unauthenticated-remote-code-execution-in-gitlab
-  - https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html
-  - https://research.checkpoint.com/2026/12th-october-threat-intelligence-report/
 
 ### AWS vulnerability activity
 - Anchor signal: AWS
@@ -713,13 +711,7 @@
 ## Forward signals
 
 ### Novelty
-- Novel cves: 6
-  - CVE-2026-102764 (first seen via Google Cloud Threat Intelligence at 2026-10-15T14:00:00+00:00, cluster dd71dd27f0)
-  - CVE-2014-125110 (first seen via Cisco Talos at 2026-10-15T18:00:00+00:00, cluster a2a2bd1902)
-  - CVE-2015-1000013 (first seen via Cisco Talos at 2026-10-15T18:00:00+00:00, cluster a2a2bd1902)
-  - CVE-2026-99999 (first seen via The Hacker News at 2026-10-15T20:24:36+00:00, cluster a08c0c6808)
-  - CVE-2026-110447 (first seen via BleepingComputer at 2026-10-15T20:25:04+00:00, cluster d202d62335)
-  - CVE-2026-106931 (first seen via Reddit r/blueteamsec at 2026-10-15T06:10:09+00:00, cluster 7c3382153b)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
@@ -744,12 +736,7 @@
 - Pair: CVE-2026-76519 + Palo Alto Networks (cluster bf2b2f06a7, first observation: True)
 - Pair: CVE-2026-85706 + Citrix (cluster 71978014e0, first observation: True)
 
-### Drift (2)
-- **UNC5221** (cluster dd71dd27f0)
-  - New industries: critical_infrastructure
-  - New products: (none)
-  - Prior top industries: telecommunications
-  - Prior top products: Anthropic/Claude, Apple iOS/macOS, Azure
+### Drift (1)
 - **Flax Typhoon** (cluster a8bb37fb70)
   - New industries: legal_professional
   - New products: Microsoft SharePoint, OpenAI/ChatGPT
@@ -757,9 +744,9 @@
   - Prior top products: Anthropic/Claude, GitLab, Ivanti
 
 ### Persistence (12)
-- actor_attribution: ShinyHunters (weeks observed: 14, cluster 586a782e4e)
+- actor_attribution: ShinyHunters (weeks observed: 13, cluster 586a782e4e)
 - actor_attribution: Cl0p (weeks observed: 12, cluster 7cd211da20)
-- actor_attribution: UNC5221 (weeks observed: 6, cluster dd71dd27f0)
+- actor_attribution: UNC5221 (weeks observed: 7, cluster dd71dd27f0)
 - cve_ids: CVE-2026-81578 (weeks observed: 4, cluster b2361c5736)
 - cve_ids: CVE-2026-82078 (weeks observed: 4, cluster b2361c5736)
 - cve_ids: CVE-2026-85706 (weeks observed: 4, cluster 71978014e0)
@@ -767,10 +754,10 @@
 - cve_ids: CVE-2026-88772 (weeks observed: 4, cluster 55d35536fa)
 - cve_ids: CVE-2026-76461 (weeks observed: 3, cluster bdb321c57b)
 - actor_attribution: Flax Typhoon (weeks observed: 3, cluster a8bb37fb70)
-- cve_ids: CVE-2026-88779 (weeks observed: 3, cluster 5d5fb499b6)
 - cve_ids: CVE-2026-35273 (weeks observed: 3, cluster 55d35536fa)
+- cve_ids: CVE-2026-88779 (weeks observed: 3, cluster 5d5fb499b6)
 
-### Tier inversion (3)
+### Tier inversion (2)
 - **Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory**
   - Cluster: a08c0c6808
   - Primary source: The Hacker News
@@ -779,10 +766,6 @@
   - Cluster: d0175e4e87
   - Primary source: Reddit r/netsec
   - Strong signals: CVE-2026-81983
-- **SiteGuard Server EditionにおけるOSコマンドインジェクションの脆弱性（CVE-2026-106931）に関する注意喚起 - Security Advisory Regarding OS Command Injection Vulnerability (CVE-2026-106931) in SiteGuard Server Edition**
-  - Cluster: 7c3382153b
-  - Primary source: Reddit r/blueteamsec
-  - Strong signals: CVE-2026-106931
 
 ## Clusters
 
@@ -867,8 +850,8 @@ CVE-2026-104935 Ivanti Connect Secure Authentication Bypass and Remote Code Exec
 - Published: 2026-10-09T17:31:14+00:00
 - Link: https://labs.watchtowr.com/death-by-a-thousand-papercuts-papercut-pre-auth-rce-chain-and-patch-bypasses-wt-2026-0141-0144-cve-2026-82077-cve-2026-82078-cve-2026-81578/
 - Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
+- Member count: 2
+- Corroborating source count: 2
 - Strong signals: CVE-2026-81578, CVE-2026-82077, CVE-2026-82078
 
 #### Cluster taxonomy (union across members)
@@ -876,7 +859,7 @@ CVE-2026-104935 Ivanti Connect Secure Authentication Bypass and Remote Code Exec
 - affected_industries: education, government, healthcare
 - cve_ids: CVE-2023-27350, CVE-2023-27351, CVE-2026-81578, CVE-2026-82077, CVE-2026-82078
 - urgency_signals: actively_exploited, no_patch_yet, preauth_unauth
-- content_type: news_report, vulnerability_disclosure
+- content_type: vulnerability_disclosure
 - confidence_tier: tier_1_offensive_research, tier_5_chatter
 
 #### Primary article taxonomy
@@ -899,7 +882,7 @@ Before we begin, yes - it's confusing. There are more vulnerabilities with watch
 This research is a glimpse into the capability powering the watchTowr Platform, a Preemptive Exposure Management solution. We enable organizations to autonomously validate and mitigate their exposure to emerging threats, ahead of in-the-wild exploitation. Request a demo Before we begin, yes - it's confusing. There are more vulnerabilities with watchTowr IDs in this blog post than there are CVE IDs (assigned by PaperCut), due to PaperCut bundling vulnerabilities and then patch bypasses for those same vulnerabilities into singular CVE IDs. Paper! It still exists. We have to admit it - so much is happening right now (F1, GTA6, breakfast) that we barely have time to lovingly tease our most favoritest vendors. On Thursday, 27 August 2026, PaperCut published an advisory claiming that a mysterious vulnerability was being exploited in-the-wild, leading to system compromise. The watchTowr Intel team has documented the in-the-wild exploitation that our global honeypot network, Attacker Eye, captured here . To add insult to injury, when PaperCut released their advisory, they did so without a patch. Unlike other vendors that struggle to communicate at all, PaperCut provided IOCs in the form of log snippets related to exploitation and temporary mitigations, enabling their customers to take action. That said, much of the information remained unclear. How many vulnerabilities were exploited in this chain? Did any of them require authentication? Were the attackers exploiting post-authentication vulnerabilities? Which components were vulnerable? As mere mortals, we knew absolutely nothing at this point. A familiar feeling. PaperCut is no stranger to the exploitation of vulnerabilities in the wild. They've had their fair share of ransomware gang attention and, of course, live to tell the tale with their CISA KEV trophy. What is PaperCut? For those unaware, PaperCut is print management software that helps organizations monitor, control, and secure printing across their networks. Its core features include print quotas, secure release printing (a job is released only after the user logs in at the printer), cost tracking, and detailed reporting. Together, these cut printing costs, reduce paper waste, and prevent unauthorized use. It is widely used by schools, universities, healthcare providers, government agencies, law firms, and businesses of all sizes. That mix makes it an attractive target for APTs and ransomware gangs, as proven by several vulnerabilities previously exploited in the wild (such as CVE-2023-27351 and CVE-2023-27350). TL;DR Timeline There was a lot happening between 27 August and 1 September, so let us give you the full timeline, including some spoilers. Author's note: even though CVEs were assigned after two rounds of patches, we use the CVE numbers from the beginning of this timeline. This is to avoid confusion between vulnerabilities. 27 August 2026 PaperCut publishes an advisory concerning a vulnerability being exploited in the wild targeting 26.0.3. Advisory comes with no patch - exploited vulnerabilities are still not patched. At this time, no CVEs were assigned, and only IOCs were published (no vulnerability details, no patch was available). With no details about the vulnerabilities or their count, we started working blindly from the IOCs to reproduce them. We had no patch available, thus we had to discover the 0-day vulnerabilities from scratch. Using the unpatched PaperCut version, we found the Post-Auth RCE vulnerability (later identified as CVE-2026-82078), which matched the ITW IOCs shared by PaperCut. However, we did not yet know how to exploit this vulnerability without authentication. PaperCut releases a patch (26.0.4 for PaperCut NG). At this point, we can finally perform patch diffing, which may help us find a way to exploit the Post-Auth RCE without authentication. We analyzed the code changes in 26.0.4, enabling us to confirm that we had correctly reproduced CVE-2026-82078 (Post-Auth RCE) and to identify and rep
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (2)
 
 - **watchTowr Labs** (offensive_vulnerability_research)
   - Title: Death By A Thousand PaperCuts (PaperCut Pre-Auth RCE Chain and Patch Bypasses WT-2026-0141-0144/CVE-2026-82077/CVE-2026-82078/CVE-2026-81578)
@@ -911,11 +894,6 @@ This research is a glimpse into the capability powering the watchTowr Platform, 
   - Published: 2026-10-09T18:17:56+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1x1squu/death_by_a_thousand_papercuts_papercut_preauth/
   - Summary: submitted by /u/dx7r__ [link] [comments]
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - Title: 🤖 Inside a PaperCut Attacker’s AI Toolkit: Agent Instructions, Exploit Code, a Second RCE, and Victims Across 45+ Countries
-  - Published: 2026-10-15T15:24:27+00:00
-  - Link: https://www.reddit.com/r/blueteamsec/comments/1x6ompn/inside_a_papercut_attackers_ai_toolkit_agent/
-  - Summary: Hunt.io researchers pulled three open directories from the PaperCut campaign infrastructure while they were still live. For blue teamers, the behavioral indicators might be more useful than the IOCs alone: Reverse SOCKS5 signature: chisel client --auth ... --tls-skip-verify --keepalive 10s <url> R:127.0.0.1:1083:socks Cron persistence under /var/tmp/.rs_live46_v5/ with a pgrep-based self-check and u/reboot entry. Output exfil pattern: <PaperCut install>/server/custom/web/pcp_<10rand>.txt served at /custom/<10rand>.txt, self-deleting after 30 seconds. A second RCE path through XML-RPC (api.setConfigValue + api.lookUpUserNameByCardNo) that doesn't depend on the Tapestry vulnerability, so patching for CVE-2026-81578 alone isn't sufficient if the XML-RPC API is exposed. Custom Rust credential collectors targeting LSA secrets and registry hives for offline NT hash recovery. The exploit scripts also reset user-lookup.* settings in a finally block after each run, which likely explains why the
 
 ### Cluster 89a5f81bf2 — score 42
 
@@ -1417,6 +1395,51 @@ A . is all you need! Today Microsoft shipped the patch for a vulnerability in Vi
   - Link: https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/
   - Summary: A . is all you need! Today Microsoft shipped the patch for a vulnerability in Visual Studio Copilot that I reported in August. Microsoft classified it as Important severity Remote Code Execution vulnerability. At the root cause it allows Copilot in Visual Studio or SQL Server Management Studio to bypass a path validation check and write to its own settings and configuration files . This allows Copilot to escape containment restrictions and achieve arbitrary command execution.
 
+### Cluster 0928ca710f — score 18
+
+- Title: AI-Powered Espionage Campaign Targets Government Linux Infrastructure
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-10-15T22:00:09+00:00
+- Link: https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, credential_theft, web_shell_backdoor
+- affected_industries: critical_infrastructure, government
+- affected_products: Palo Alto Networks
+- content_type: threat_research
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: credential_theft, apt_espionage, web_shell_backdoor
+- affected_industries: government, critical_infrastructure
+- affected_products: Palo Alto Networks
+- content_type: threat_research
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Our analysis an AI-powered espionage campaign targeting government Linux infrastructure with custom malware, web shells, and advanced credential theft. The post AI-Powered Espionage Campaign Targets Government Linux Infrastructure appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center Threat Research Malware Malware AI-Powered Espionage Campaign Targets Government Linux Infrastructure 18 min read Related Products Advanced DNS Security Advanced IP Defense Advanced URL Filtering Advanced WildFire Cloud-Delivered Security Services Cortex Cortex Cloud Cortex XDR Cortex XSIAM Unit 42 AI Security Assessment Unit 42 Incident Response By: Roey Porat Tom Fakterman Published: October 15, 2026 Categories: Malware Threat Research Tags: Exfiltration LLM Network security Payload Python Remote Access Trojan Reverse shells Web shells Share Executive Summary Unit 42 identified a campaign targeting government entities and state-affiliated infrastructure, with observed activity spanning from October 2025–April 2026. We track this activity as CL-UNK-1211. In the operations we witnessed, the attackers relied on AI-generated payloads. Multiple artifacts deployed throughout the intrusion contained AI-made conversational annotations and developer reasoning comments, suggesting that the code was either generated using large language models (LLMs) or executed by an automated AI agent. The attackers behind this cluster of activity focused on Linux environments to conduct extensive reconnaissance and maintain persistent network access to support intelligence-gathering. The attackers attempted to dump sensitive databases and exfiltrate government mailboxes to access social media accounts. The campaign included a diverse toolkit that combined open-source tools, custom cross-platform backdoors and widespread web shell deployments. We observed various defense evasion techniques, including attempts to disable endpoint protections, erase system logs and plant deceptive red-team markers to disguise activity as a legitimate security assessment. Our attribution of this activity to CL-UNK-1211 is in accordance with the Unit 42 attribution framework . We designate the term UNK to clusters of activity whose affiliation with either nation-state or cybercrime activity we have not yet determined. This investigation uncovers the defining tools, techniques and attack patterns of this activity cluster. Palo Alto Networks customers are better protected from the threats discussed above through the following products and services: Advanced WildFire Advanced URL Filtering , Advanced DNS Security and Advanced IP Defense Cortex XDR Analytics Engine Cortex XDR and XSIAM Cortex Cloud The Unit 42 AI Security Assessment and Unit 42 Frontier AI Defense service can help identify and mitigate complex AI-enabled risks. If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics AI , Credential Harvesting , Linux Technical Analysis Overview Our analysis of the CL-UNK-1211 cluster of activity reveals a versatile operational playbook tailored to enterprise Linux and database environments. The attackers targeted government entities and state-affiliated infrastructure, maintaining persistent access by using a combination of custom cross-platform backdoors, open-source utilities and widespread web shell deployments. The attackers enumerated mailboxes to identify and gain access to social media accounts tied to government email addresses. In addition, they dumped entire database contents before attempting to exfiltrate the data. The attackers behind CL-UNK-1211 exhibited a methodical approach to defense evasion. This included attempting to disable endpoint protections on compromised systems, and to tamper with system logs that might contain evidence of the attack. We provide a comprehensive analysis of the defining tools, techniques and procedures (TTPs) used throughout the operation, highlighting how the attackers leveraged AI to streamline payload creation across their execution workflow. Our analysis details key mechanisms across the attack chain. These include: Initial access via web shell deployment and credential harvesting Custom RAT execution Mailbox targeting Anti
+```
+
+#### Corroborating sources (1)
+
+- **Unit 42** (threat_research_primary)
+  - Title: AI-Powered Espionage Campaign Targets Government Linux Infrastructure
+  - Published: 2026-10-15T22:00:09+00:00
+  - Link: https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/
+  - Summary: Our analysis an AI-powered espionage campaign targeting government Linux infrastructure with custom malware, web shells, and advanced credential theft. The post AI-Powered Espionage Campaign Targets Government Linux Infrastructure appeared first on Unit 42 .
+
 ### Cluster 1ec8924dc6 — score 17
 
 - Title: Package managers have an integrity problem
@@ -1459,51 +1482,6 @@ Page content I tested 25 of the most popular package managers to check whether t
   - Published: 2026-10-14T11:00:00+00:00
   - Link: https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/
   - Summary: I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded. Supply-chain attacks caused by developer compromise are a common story, but imagine what happens if ongoing mitigation attempts, including work by Trail of Bits 2 , are successful. If developers of popular packages are no longer the easiest targets, attackers will shift their focus to the next weakest link in the system: the package repositories that serve the code. The cryptographic answers to this problem are more subtle than they appear, and many implementations fall short due to deliberate design cho
-
-### Cluster 2da8e59a4c — score 17
-
-- Title: Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-10-15T12:07:20+00:00
-- Link: https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Drupal
-
-#### Cluster taxonomy (union across members)
-- affected_products: Drupal
-- cve_ids: CVE-2026-108097
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- affected_products: Drupal
-- cve_ids: CVE-2026-108097
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19. An attacker cannot reach the flaw through core alone, the Drupal Security Team said in its advisory. Several exploit paths exist through contributed modules, and at least one known path needs no login.
-```
-
-#### Full body
-
-```
-Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules  Swati Khandelwal  Oct 15, 2026 Vulnerability / Web Security Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19. An attacker cannot reach the flaw through core alone, the Drupal Security Team said in its advisory . Several exploit paths exist through contributed modules, and at least one known path needs no login. Tracked as CVE-2026-108097 , the flaw sits in Field UI, the core module behind the admin pages where site builders manage fields and how they display. Drupal rates it 19 out of 25 on its own risk scale, the level the project calls critical. The advisory does not name the contributed modules that open a path to the flaw, and custom code may also expose it. Drew Webber of the Security Team and Octavio Galland are credited with reporting it. What to Do Now The fixed release for each supported branch: Drupal 11.4.x: update to 11.4.10 Drupal 11.3.x: update to 11.3.19 Drupal 10.6.x: update to 10.6.19 Drupal 12.0.0 beta: 12.0.0-beta2 , which is not for production use No fix: Drupal 11.2.x and below, 10.5.x and below, and Drupal 8 and 9, all of which are end-of-life Both 11.3.x and 10.6.x lose security coverage in December 2026. In the week starting October 4, 151,442 of the 531,499 sites that reported their Drupal core version to drupal.org (28.5%) were on a branch that the advisory lists as affected and that received no fix. A site that cannot update yet can uninstall the Field UI module, field_ui, which "will provide protection while sites are updated," the advisory says. The admin pages for managing fields and their display are unavailable while the module is uninstalled. Field UI is installed by Drupal's Standard install profile, so a site built from that profile has the module unless someone removed it. Drupal Steward , a web application firewall service with rules written by the Security Team, already blocks some known attack vectors for this flaw. Acquia, Pantheon, Ironstar, and Skpr run it for their customers. It does not cover every possible exploit, and those sites should still update, the advisory says. The advisory rated the flaw as having no publicly available exploit code at the time of publication. As of October 15, none had surfaced, and neither the advisory nor public reports described attacks using it. The Security Team had pre-announced the release on October 12 and told sites to reserve time for it "because exploits might be developed within hours or days." In May, Drupal reported exploit attempts within two days of its advisory for a core SQL injection flaw that affected only sites on PostgreSQL, and CISA added that flaw to its catalog of exploited vulnerabilities. What the Fix Changed Field UI builds its admin tables from render arrays, the PHP arrays Drupal turns into HTML. Before the fix, the table element's pre-render step ran whatever PHP callable each table row carried in its #region_callback property, through call_user_func_array, with no check on what that callable was. Drupal's renderer has refused to run untrusted render callbacks since version 8.8 in 2019 , a restriction added after earlier advisories showed that the render system could too easily call arbitrary callbacks. The renderer trusts the table element's own methods, so it ran the pre-render step, and the check never reached the callable that step then executed. The 11.4.10 code no longer calls the callback. It reads each row's region from the row's own region value and uses the table's hidden region, or its first region, when that value is not a known region. The same call had been in the code since at least Drupal 8.9.0 in 2020. In core itself, the callback is set only by Field UI's own display forms. Custom code that set #region_callback on a field_ui_table row will find it no longer runs after the upda
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules
-  - Published: 2026-10-15T12:07:20+00:00
-  - Link: https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html
-  - Summary: Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19. An attacker cannot reach the flaw through core alone, the Drupal Security Team said in its advisory. Several exploit paths exist through contributed modules, and at least one known path needs no login.
 
 ### Cluster a2a2bd1902 — score 16
 
@@ -1598,6 +1576,51 @@ Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Pr
   - Published: 2026-10-15T12:28:13+00:00
   - Link: https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html
   - Summary: Next.js released an out-of-band security update on October 14 that fixes two critical flaws allowing unauthenticated remote code execution, along with a high-severity denial-of-service flaw. One code-execution flaw is in React Server Components, and the other in librsvg, the open-source library Next.js uses through the sharp package to handle SVG images. The fixes are in
+
+### Cluster 2da8e59a4c — score 16
+
+- Title: Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-10-15T12:07:20+00:00
+- Link: https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Drupal
+
+#### Cluster taxonomy (union across members)
+- affected_products: Drupal
+- cve_ids: CVE-2026-108097
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- affected_products: Drupal
+- cve_ids: CVE-2026-108097
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19. An attacker cannot reach the flaw through core alone, the Drupal Security Team said in its advisory. Several exploit paths exist through contributed modules, and at least one known path needs no login.
+```
+
+#### Full body
+
+```
+Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules  Swati Khandelwal  Oct 15, 2026 Vulnerability / Web Security Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19. An attacker cannot reach the flaw through core alone, the Drupal Security Team said in its advisory . Several exploit paths exist through contributed modules, and at least one known path needs no login. Tracked as CVE-2026-108097 , the flaw sits in Field UI, the core module behind the admin pages where site builders manage fields and how they display. Drupal rates it 19 out of 25 on its own risk scale, the level the project calls critical. The advisory does not name the contributed modules that open a path to the flaw, and custom code may also expose it. Drew Webber of the Security Team and Octavio Galland are credited with reporting it. What to Do Now The fixed release for each supported branch: Drupal 11.4.x: update to 11.4.10 Drupal 11.3.x: update to 11.3.19 Drupal 10.6.x: update to 10.6.19 Drupal 12.0.0 beta: 12.0.0-beta2 , which is not for production use No fix: Drupal 11.2.x and below, 10.5.x and below, and Drupal 8 and 9, all of which are end-of-life Both 11.3.x and 10.6.x lose security coverage in December 2026. In the week starting October 4, 151,442 of the 531,499 sites that reported their Drupal core version to drupal.org (28.5%) were on a branch that the advisory lists as affected and that received no fix. A site that cannot update yet can uninstall the Field UI module, field_ui, which "will provide protection while sites are updated," the advisory says. The admin pages for managing fields and their display are unavailable while the module is uninstalled. Field UI is installed by Drupal's Standard install profile, so a site built from that profile has the module unless someone removed it. Drupal Steward , a web application firewall service with rules written by the Security Team, already blocks some known attack vectors for this flaw. Acquia, Pantheon, Ironstar, and Skpr run it for their customers. It does not cover every possible exploit, and those sites should still update, the advisory says. The advisory rated the flaw as having no publicly available exploit code at the time of publication. As of October 15, none had surfaced, and neither the advisory nor public reports described attacks using it. The Security Team had pre-announced the release on October 12 and told sites to reserve time for it "because exploits might be developed within hours or days." In May, Drupal reported exploit attempts within two days of its advisory for a core SQL injection flaw that affected only sites on PostgreSQL, and CISA added that flaw to its catalog of exploited vulnerabilities. What the Fix Changed Field UI builds its admin tables from render arrays, the PHP arrays Drupal turns into HTML. Before the fix, the table element's pre-render step ran whatever PHP callable each table row carried in its #region_callback property, through call_user_func_array, with no check on what that callable was. Drupal's renderer has refused to run untrusted render callbacks since version 8.8 in 2019 , a restriction added after earlier advisories showed that the render system could too easily call arbitrary callbacks. The renderer trusts the table element's own methods, so it ran the pre-render step, and the check never reached the callable that step then executed. The 11.4.10 code no longer calls the callback. It reads each row's region from the row's own region value and uses the table's hidden region, or its first region, when that value is not a known region. The same call had been in the code since at least Drupal 8.9.0 in 2020. In core itself, the callback is set only by Field UI's own display forms. Custom code that set #region_callback on a field_ui_table row will find it no longer runs after the upda
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules
+  - Published: 2026-10-15T12:07:20+00:00
+  - Link: https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html
+  - Summary: Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19. An attacker cannot reach the flaw through core alone, the Drupal Security Team said in its advisory. Several exploit paths exist through contributed modules, and at least one known path needs no login.
 
 ### Cluster c1ada5f749 — score 16
 
@@ -1826,7 +1849,59 @@ AWS Security Blog Penetration testing every deployment with AWS Continuum Most s
   - Link: https://aws.amazon.com/blogs/security/penetration-testing-every-deployment-with-aws-continuum/
   - Summary: Most security tooling that fits into a CI/CD pipeline—static analysis (SAST), software composition analysis (SCA), and dynamic scanners (DAST)—flags potential issues from patterns and signatures. A flagged pattern shows you where to look; penetration testing is what confirms whether something is actually exploitable. That confirmation has traditionally come from a periodic, out-of-band engagement that runs […]
 
-### Cluster 07e976c8a7 — score 14
+### Cluster a08c0c6808 — score 14
+
+- Title: Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-10-15T20:24:36+00:00
+- Link: https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: CVE-2026-99999, Linux kernel
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- affected_products: Linux kernel
+- cve_ids: CVE-2026-74580, CVE-2026-99999
+- urgency_signals: actively_exploited
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news, tier_5_chatter
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- affected_products: Linux kernel
+- cve_ids: CVE-2026-99999
+- urgency_signals: actively_exploited
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared
+```
+
+#### Full body
+
+```
+Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory  Swati Khandelwal  Oct 15, 2026 Linux / Vulnerability A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape , is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared layer that cloud providers use to keep customers' workloads apart. It was found in a Vercel security challenge and reported privately before any public release, and there is no sign it has been used in a real attack. What the Researcher Showed Paulos Yibelo of the security firm pwn.ai found that specially made network packets sent from inside a virtual machine could do three things, he explained in a technical write-up : read the host's memory, crash the host, and run code on it. All three come from the same kernel flaw. Vercel said in its report on the challenge that the memory leak was demonstrated against its production sandboxes. Each packet the guest sent out could carry back about 32 bytes of the host's memory, and the guest could keep going as long as it kept sending packets. The crash and code execution were observed only on the researcher's own machines, which were set up to match Vercel's. Two specially crafted packets were enough to crash a host and take down every sandbox running on it. Using the same flaw, the researcher then reached administrator control of a host, breaking out of the virtual machine. He stressed this was a lab result, "not a claim of root command execution in any vendor's production environment." "Our research ran through Omega-Pwn , an internal harness combining our own security research tooling with elements of SingularityNET's OmegaClaw architecture . It let us carry hypotheses, code traces, failed attempts, and experimental results across long-running research sessions. GPT-5.6 Sol was the primary reasoning engine. We directed the investigation, challenged its findings, and validated the interesting ones against actual kernel behavior on systems we controlled," Paulos Yibelo told The Hacker News. Vercel said no report in the challenge showed anyone reading a customer's files, secrets, or application data. How Severe It Is, and Who Can Set It Off The kernel's maintainers assigned the flaw CVE-2026-99999 and, in the published record, rated it 9.3 out of 10, or Critical. The U.S. National Vulnerability Database had received that entry but had not yet finished its own review. The same record lists the attack vector as local. In plain terms, the attacker has to already be running code inside a guest, as the researcher was. This is not a flaw that an outsider can exploit by sending packets across the open internet. It is not in CISA's catalog of actively exploited vulnerabilities, and no real-world use has been reported. Why It Reaches Beyond Vercel Vercel Sandbox runs each customer's code in its own Firecracker microVM, a small virtual machine with its own copy of the Linux kernel, on bare-metal Amazon EC2 hosts. That microVM is the wall between one customer and the host, and between one customer and another. The flaw is not in that wall. It is in the Linux kernel's networking code, which the host runs. pwn.ai said Vercel's sandbox was already hardened beyond normal industry standards, with no misconfiguration it could find. Because almost every large cloud separates customer workloads on the same layer of the Linux kernel, Vercel said that a flaw there poses a risk to shared infrastructure rather than to any one provider. The Fix and the Fixed Versions The fix is a single Linux kernel change, commit 6785011f8b16 , written by Red Hat's Michael S. Tsirkin and merged into the mainline kernel. It adds a check that a packet's checksum data cannot point into the IPv4 header befo
+```
+
+#### Corroborating sources (2)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory
+  - Published: 2026-10-15T20:24:36+00:00
+  - Link: https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html
+  - Summary: A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: Vghost (CVE-2026-74580): Linux kernel vhost stale IOTLB cache leading to universal LPE and Guest-to-Host escape vector
+  - Published: 2026-10-14T03:08:53+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1x5gjk9/vghost_cve202674580_linux_kernel_vhost_stale/
+  - Summary: submitted by /u/mlgbcnmsl [link] [comments]
+
+### Cluster 07e976c8a7 — score 13
 
 - Title: Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks
 - Source: BleepingComputer (cyber_news_breach_reporting)
@@ -1884,58 +1959,6 @@ Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks By Lawrence Abr
   - Published: 2026-10-15T11:46:49+00:00
   - Link: https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html
   - Summary: Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation. The vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of remote code execution in the management interface. "A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an
-
-### Cluster a08c0c6808 — score 14
-
-- Title: Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-10-15T20:24:36+00:00
-- Link: https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: CVE-2026-99999, Linux kernel
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_products: Linux kernel
-- cve_ids: CVE-2026-74580, CVE-2026-99999
-- urgency_signals: actively_exploited
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news, tier_5_chatter
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_products: Linux kernel
-- cve_ids: CVE-2026-99999
-- urgency_signals: actively_exploited
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared
-```
-
-#### Full body
-
-```
-Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory  Swati Khandelwal  Oct 15, 2026 Linux / Vulnerability A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape , is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared layer that cloud providers use to keep customers' workloads apart. It was found in a Vercel security challenge and reported privately before any public release, and there is no sign it has been used in a real attack. What the Researcher Showed Paulos Yibelo of the security firm pwn.ai found that specially made network packets sent from inside a virtual machine could do three things, he explained in a technical write-up : read the host's memory, crash the host, and run code on it. All three come from the same kernel flaw. Vercel said in its report on the challenge that the memory leak was demonstrated against its production sandboxes. Each packet the guest sent out could carry back about 32 bytes of the host's memory, and the guest could keep going as long as it kept sending packets. The crash and code execution were observed only on the researcher's own machines, which were set up to match Vercel's. Two specially crafted packets were enough to crash a host and take down every sandbox running on it. Using the same flaw, the researcher then reached administrator control of a host, breaking out of the virtual machine. He stressed this was a lab result, "not a claim of root command execution in any vendor's production environment." "Our research ran through Omega-Pwn , an internal harness combining our own security research tooling with elements of SingularityNET's OmegaClaw architecture . It let us carry hypotheses, code traces, failed attempts, and experimental results across long-running research sessions. GPT-5.6 Sol was the primary reasoning engine. We directed the investigation, challenged its findings, and validated the interesting ones against actual kernel behavior on systems we controlled," Paulos Yibelo told The Hacker News. Vercel said no report in the challenge showed anyone reading a customer's files, secrets, or application data. How Severe It Is, and Who Can Set It Off The kernel's maintainers assigned the flaw CVE-2026-99999 and, in the published record, rated it 9.3 out of 10, or Critical. The U.S. National Vulnerability Database had received that entry but had not yet finished its own review. The same record lists the attack vector as local. In plain terms, the attacker has to already be running code inside a guest, as the researcher was. This is not a flaw that an outsider can exploit by sending packets across the open internet. It is not in CISA's catalog of actively exploited vulnerabilities, and no real-world use has been reported. Why It Reaches Beyond Vercel Vercel Sandbox runs each customer's code in its own Firecracker microVM, a small virtual machine with its own copy of the Linux kernel, on bare-metal Amazon EC2 hosts. That microVM is the wall between one customer and the host, and between one customer and another. The flaw is not in that wall. It is in the Linux kernel's networking code, which the host runs. pwn.ai said Vercel's sandbox was already hardened beyond normal industry standards, with no misconfiguration it could find. Because almost every large cloud separates customer workloads on the same layer of the Linux kernel, Vercel said that a flaw there poses a risk to shared infrastructure rather than to any one provider. The Fix and the Fixed Versions The fix is a single Linux kernel change, commit 6785011f8b16 , written by Red Hat's Michael S. Tsirkin and merged into the mainline kernel. It adds a check that a packet's checksum data cannot point into the IPv4 header befo
-```
-
-#### Corroborating sources (2)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory
-  - Published: 2026-10-15T20:24:36+00:00
-  - Link: https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html
-  - Summary: A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: Vghost (CVE-2026-74580): Linux kernel vhost stale IOTLB cache leading to universal LPE and Guest-to-Host escape vector
-  - Published: 2026-10-14T03:08:53+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1x5gjk9/vghost_cve202674580_linux_kernel_vhost_stale/
-  - Summary: submitted by /u/mlgbcnmsl [link] [comments]
 
 ### Cluster b5227daa92 — score 12
 
@@ -2300,6 +2323,49 @@ Infosecurity Magazine Home » News » Karaoke Giant Reveals Data Breach Impactin
   - Link: https://www.infosecurity-magazine.com/news/karaoke-giant-data-breach-eight/
   - Summary: Daiichi Kosho says a supply chain breach has exposed personal data on over eight million karaoke customers
 
+### Cluster 262c329c2f — score 10
+
+- Title: The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-10-13T22:00:04+00:00
+- Link: https://unit42.paloaltonetworks.com/noise-inside-network-third-party-risk/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: financial_services
+- affected_products: Microsoft Windows
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: financial_services
+- affected_products: Microsoft Windows
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Unit 42 dissects a cyberattack targeting a European bank's IT infrastructure, delivering concrete defense strategies to help organizations detect and counter comparable threats. The post The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center Insights Anatomy of an Attack Anatomy of an Attack The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk 3 min read Related Products Cortex Cortex XDR Unit 42 Incident Response By: Antonio Diaz Ruben Castillo Published: October 13, 2026 Categories: Anatomy of an Attack Insights Tags: Credential-based attacks Incident response Reconnaissance Share When unusual activity was detected on a European bank’s central IT system, its internal security team quickly recognized that the incident warranted immediate response. They discovered unauthorized VPN-based access attempts that spanned several months. They then engaged Unit 42 to determine the full scope of the intrusion, identify any persistent footholds and secure the environment. While the activity appeared to be a stealthy cyberespionage campaign, the actual intrusion was made possible by gaps in foundational security controls. Rather than relying on novel techniques, the threat actor succeeded through persistence, exploiting weaknesses that stronger identity protections and basic security hygiene could have prevented. The case highlights an important lesson: Sometimes the most damaging intrusions begin with the simplest oversights. Internal Reconnaissance: A High-Volume, Noisy Campaign The intrusion originated through a third-party-managed external gateway appliance that was not properly configured to enforce strict authentication. Using compromised credentials, the attacker began by authenticating to internal systems. Once inside, the threat actor launched a discovery campaign of the internal network. The threat actor conducted multiple rounds of reconnaissance, performing extensive host and network scans across a wide range of protocols and interacting with thousands of systems. This broad, noisy approach was less a targeted strike than casting a net to uncover as many access points as possible. Authentication Abuse and Documentation Browsing The pattern continued with credential testing. Over a period of a few months, the threat actor launched multiple password-guessing campaigns. They hammered at internal systems with brute-force authentication attempts, focusing on administrator accounts. While doing this, they systematically targeted internal documentation and data shares. Using automated web requests, they scraped individual pages and attachments from internal systems and enumerated various operational and network shares. The activity observed did not match the behavior typically associated with a sophisticated threat actor. The noise behind the scanning and login attempts, along with using common system identifiers, pointed to an opportunistic attacker attempting to compromise multiple systems. Their actions showed little effort to remain hidden or avoid detection. Early Detection, Containment, and Remediation In the final stages, the intruder attempted to expand control by exploiting a Windows Server Update Services (WSUS) remote code execution vulnerability on the central configuration management server. This server handled software distribution across the bank, making it a prime target for privilege escalation and long-term persistence. However, the attacker's luck ran out. The moment they attempted to execute unauthorized code, Cortex XDR identified the activity and contained the threat before it could escalate. The attacker was prevented from gaining a persistent foothold or moving laterally throughout the network. When Unit 42 engaged, our team initiated a comprehensive threat-hunting effort. We performed a deep forensic review of endpoint telemetry across approximately thousands of systems, alongside logs from dozens of Windows and Linux servers. Ultimately, no additional attacker presence or persistent backdoors were found. Bank leadership acted quickly to review the exposed documentation and rotate all compromised credentials, completely neutralizing the threat. What This Investigation Revealed This case se
+```
+
+#### Corroborating sources (1)
+
+- **Unit 42** (threat_research_primary)
+  - Title: The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk
+  - Published: 2026-10-13T22:00:04+00:00
+  - Link: https://unit42.paloaltonetworks.com/noise-inside-network-third-party-risk/
+  - Summary: Unit 42 dissects a cyberattack targeting a European bank's IT infrastructure, delivering concrete defense strategies to help organizations detect and counter comparable threats. The post The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk appeared first on Unit 42 .
+
 ### Cluster baa3477655 — score 10
 
 - Title: The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime
@@ -2350,48 +2416,136 @@ Share Link copied to clipboard! Tags Phishing Social engineering Threats intelli
   - Link: https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/
   - Summary: Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem. The post The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime appeared first on Microsoft Security Blog .
 
-### Cluster 262c329c2f — score 10
+### Cluster e66fba4a49 — score 10
 
-- Title: The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-10-13T22:00:04+00:00
-- Link: https://unit42.paloaltonetworks.com/noise-inside-network-third-party-risk/
+- Title: TAG-193’s Regional Espionage Operations
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-10-14T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/tag193-regional-espionage-operations
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_industries: financial_services
-- affected_products: Microsoft Windows
+- threat_categories: apt_espionage
+- affected_industries: critical_infrastructure, government
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- affected_industries: financial_services
-- affected_products: Microsoft Windows
+- threat_categories: apt_espionage
+- affected_industries: government, critical_infrastructure
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Unit 42 dissects a cyberattack targeting a European bank's IT infrastructure, delivering concrete defense strategies to help organizations detect and counter comparable threats. The post The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk appeared first on Unit 42 .
+Explore joint Cisco Talos and Recorded Future research on TAG-193's cyber-espionage operations targeting government across Central Asia and the wider Commonwealth of Independent States (CIS)
 ```
 
 #### Full body
 
 ```
-Threat Research Center Insights Anatomy of an Attack Anatomy of an Attack The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk 3 min read Related Products Cortex Cortex XDR Unit 42 Incident Response By: Antonio Diaz Ruben Castillo Published: October 13, 2026 Categories: Anatomy of an Attack Insights Tags: Credential-based attacks Incident response Reconnaissance Share When unusual activity was detected on a European bank’s central IT system, its internal security team quickly recognized that the incident warranted immediate response. They discovered unauthorized VPN-based access attempts that spanned several months. They then engaged Unit 42 to determine the full scope of the intrusion, identify any persistent footholds and secure the environment. While the activity appeared to be a stealthy cyberespionage campaign, the actual intrusion was made possible by gaps in foundational security controls. Rather than relying on novel techniques, the threat actor succeeded through persistence, exploiting weaknesses that stronger identity protections and basic security hygiene could have prevented. The case highlights an important lesson: Sometimes the most damaging intrusions begin with the simplest oversights. Internal Reconnaissance: A High-Volume, Noisy Campaign The intrusion originated through a third-party-managed external gateway appliance that was not properly configured to enforce strict authentication. Using compromised credentials, the attacker began by authenticating to internal systems. Once inside, the threat actor launched a discovery campaign of the internal network. The threat actor conducted multiple rounds of reconnaissance, performing extensive host and network scans across a wide range of protocols and interacting with thousands of systems. This broad, noisy approach was less a targeted strike than casting a net to uncover as many access points as possible. Authentication Abuse and Documentation Browsing The pattern continued with credential testing. Over a period of a few months, the threat actor launched multiple password-guessing campaigns. They hammered at internal systems with brute-force authentication attempts, focusing on administrator accounts. While doing this, they systematically targeted internal documentation and data shares. Using automated web requests, they scraped individual pages and attachments from internal systems and enumerated various operational and network shares. The activity observed did not match the behavior typically associated with a sophisticated threat actor. The noise behind the scanning and login attempts, along with using common system identifiers, pointed to an opportunistic attacker attempting to compromise multiple systems. Their actions showed little effort to remain hidden or avoid detection. Early Detection, Containment, and Remediation In the final stages, the intruder attempted to expand control by exploiting a Windows Server Update Services (WSUS) remote code execution vulnerability on the central configuration management server. This server handled software distribution across the bank, making it a prime target for privilege escalation and long-term persistence. However, the attacker's luck ran out. The moment they attempted to execute unauthorized code, Cortex XDR identified the activity and contained the threat before it could escalate. The attacker was prevented from gaining a persistent foothold or moving laterally throughout the network. When Unit 42 engaged, our team initiated a comprehensive threat-hunting effort. We performed a deep forensic review of endpoint telemetry across approximately thousands of systems, alongside logs from dozens of Windows and Linux servers. Ultimately, no additional attacker presence or persistent backdoors were found. Bank leadership acted quickly to review the exposed documentation and rotate all compromised credentials, completely neutralizing the threat. What This Investigation Revealed This case se
+TAG-193’s Regional Espionage Operations Joint research by Cisco Talos and Recorded Future’s Insikt Group examined sustained cyber-espionage activity by TAG-193 targeting government organizations across Central Asia and the wider Commonwealth of Independent States (CIS). Tracked by Cisco Talos as UAT-6275 and also known as Silent Lynx, TAG-193 combines diplomatic and economic targeting with an interest in environmental policy, water resources, and forestry. Exposed infrastructure provided new visibility into its malware, operational practices, and evolving delivery techniques. The findings point to possible links to Kazakhstan, but questions remain about the group’s origins. This post highlights how TAG-193’s operations reflect the intelligence value of regional diplomacy and resource management, and how its expanding toolkit supports that mission. Government Targeting across the Region TAG-193’s targeting extends across government institutions responsible for diplomacy, economic development, agriculture, and environmental management. These organizations hold information that can inform negotiations, economic planning, and regional security decisions. Across Central Asia, shared river systems and interconnected energy and transport infrastructure give such information particular strategic value. Figure 1: Timeline of TAG-193 campaigns Our research examined TAG-193 campaigns from early 2025 through May 2026, identifying activity involving government entities in Russia, Tajikistan, Belarus, Armenia, and Uzbekistan. Lure documents and impersonated services indicated additional targeting interests across the region. Together, these findings suggest a sustained intelligence-collection mission encompassing diplomatic priorities and the management of natural resources. Figure 2: Overview of TAG-193 victimology Diplomacy, Water Security, and Resource Management Several TAG-193 intrusions identified through Recorded Future® Network Intelligence occurred around diplomatic developments involving Kazakhstan. Following Kazakhstan’s parliamentary consideration of a treaty on allied relations with Tajikistan, we noted communications between a Tajik government entity responsible for economic development and TAG-193 infrastructure. Additionally, activity involving a Belarusian agriculture-related government entity preceded a senior bilateral meeting in Astana. While these temporal associations do not establish that the TAG-193-related activity was connected to the described developments or reveal what information the operators sought, they do provide context indicating TAG-193’s targeting interests. TAG-193’s recurring interest in environmental and resource-management institutions is also noteworthy. Observed activity involved an Armenian government entity responsible for environmental matters and infrastructure associated with Uzbekistan’s Smart Forestry initiative, which supports digital forestry management, environmental monitoring, and ecological restoration. Additional targeting involved Nizhny Novgorod, Russia, at the confluence of the Volga and Oka rivers within the Caspian Sea basin. Although its geographic location alone does not establish a water-related collection objective, earlier reporting linked TAG-193 to the targeting of water-resource organizations across Central Asia, providing further context for this apparent interest. In Kazakhstan, water security is closely tied to economic stability and national security. Dependence on cross-border water supplies leaves the country exposed to upstream decisions about water use, storage, and diversion. Climate change, glacier loss, and inefficient irrigation place additional pressure on water availability, with implications for agriculture, industry, and domestic supplies. The Aral Sea disaster illustrates the lasting economic, environmental, and public-health consequences of water mismanagement, helping explain why water security remains a strategic priority. Trusted Accounts and Service
 ```
 
 #### Corroborating sources (1)
 
-- **Unit 42** (threat_research_primary)
-  - Title: The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk
-  - Published: 2026-10-13T22:00:04+00:00
-  - Link: https://unit42.paloaltonetworks.com/noise-inside-network-third-party-risk/
-  - Summary: Unit 42 dissects a cyberattack targeting a European bank's IT infrastructure, delivering concrete defense strategies to help organizations detect and counter comparable threats. The post The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk appeared first on Unit 42 .
+- **Recorded Future** (threat_research_primary)
+  - Title: TAG-193’s Regional Espionage Operations
+  - Published: 2026-10-14T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/tag193-regional-espionage-operations
+  - Summary: Explore joint Cisco Talos and Recorded Future research on TAG-193's cyber-espionage operations targeting government across Central Asia and the wider Commonwealth of Independent States (CIS)
+
+### Cluster 55d35536fa — score 10
+
+- Title: September 2026 CVE Landscape
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-10-13T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/september-2026-cve-landscape
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, zero_day
+- affected_industries: manufacturing_industrial
+- affected_products: Cisco, Fortinet, GitLab
+- cve_ids: CVE-2019-0708, CVE-2021-38003, CVE-2026-35273, CVE-2026-88771, CVE-2026-88772
+- urgency_signals: actively_exploited, no_patch_yet, poc_available, zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: zero_day, active_exploitation
+- affected_industries: manufacturing_industrial
+- affected_products: GitLab, Fortinet, Cisco
+- cve_ids: CVE-2026-88771, CVE-2026-88772, CVE-2026-35273, CVE-2019-0708, CVE-2021-38003
+- urgency_signals: actively_exploited, zero_day, no_patch_yet, poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+In September 2026, Insikt Group® identified 94 high-impact vulnerabilities that should be prioritized for remediation, 59 of which had a Very Critical Recorded Future Risk Score. This represents a 29% increase from last month.
+```
+
+#### Full body
+
+```
+September 2026 CVE Landscape In September 2026, Insikt Group® identified 94 high-impact vulnerabilities to prioritize for remediation , 59 of which had a Very Critical Recorded Future Risk Score. This represents a 29% increase from last month. 43 of these vulnerabilities were surfaced through the US Cybersecurity and Infrastructure Security Agency (CISA)’s Known Exploited Vulnerabilities (KEV) catalog, 37 were reported in open sources and validated by Insikt Group, and 14 were exclusively surfaced through honeypot data. The 94 vulnerabilities identified affected products from 58 vendors, with Linux and Microsoft together accounting for approximately 13% of the vulnerabilities. The remaining exposures spanned network edge and security management appliances; operating systems (OS) and mobile devices; collaboration, content management, and enterprise platforms; artificial intelligence (AI), developer, and automation tools; and operational technology and industrial systems. September reporting also highlighted zero-day exploitation of CVE-2026-88771 and CVE-2026-88772 (NetScaler), as well as renewed exploitation of CVE-2026-35273 (PeopleSoft) against unpatched systems. Quick reference: September 2026 vulnerability table All 80 vulnerabilities below were actively exploited or operationally weaponized in September 2026. This table does not include the 14 CVEs that were exclusively surfaced through honeypot data, which are available to Recorded Future Intelligence Platform customers via the CVE Monthly report. The table below also provides examples of public PoCs identified by Insikt Group. These PoCs were not tested for accuracy or efficacy. Vulnerability management teams should exercise caution and verify the validity of PoCs before testing. # Vulnerability Risk Score Vendor/Product KEV RCE PoC 1 CVE-2019-0708 99 Microsoft Remote Desktop Services ✓ ✓ 2 CVE-2021-38003 99 Google Chrome ✓ ✓ 3 CVE-2021-44228 99 Apache Log4j2 ✓ ✓ 4 CVE-2022-0847 99 Linux kernel ✓ 5 CVE-2022-22965 99 Spring Framework ✓ ✓ 6 CVE-2025-25249 99 Fortinet FortiOS and FortiSwitchManager ✓ ✓ ✓ 7 CVE-2025-39682 99 Linux kernel (Siemens SIMATIC CN 4100) ✓ ✓ 8 CVE-2025-39964 99 Linux kernel (Siemens SIPLUS S7-1500 CPU 1518-4 PN/DP MFP) ✓ ✓ 9 CVE-2026-19490 99 Citrix NetScaler ADC and Gateway ✓ ✓ 10 CVE-2026-20079 99 Cisco Secure FMC and SCC Firewall Management ✓ ✓ ✓ 11 CVE-2026-39987 99 Marimo ✓ ✓ 12 CVE-2026-42016 99 JFrog Artifactory ✓ 13 CVE-2026-42018 99 JFrog Artifactory ✓ ✓ 14 CVE-2026-48710 99 Starlette and affected Red Hat products ✓ ✓ 15 CVE-2026-49869 99 Kestra OSS ✓ ✓ ✓ 16 CVE-2026-53266 99 Linux kernel ✓ 17 CVE-2026-5430 99 WSO2 Universal Gateway, Traffic Manager, and API Control Plane ✓ ✓ 18 CVE-2026-58704 99 Google Pixel (modem) ✓ 19 CVE-2026-60137 99 WordPress Core ✓ 20 CVE-2026-63030 99 WordPress Core ✓ ✓ 21 CVE-2026-65660 99 Microsoft SharePoint Server ✓ ✓ ✓ 22 CVE-2026-67277 99 MikroTik RouterOS ✓ ✓ 23 CVE-2026-67279 99 MikroTik RouterOS ✓ ✓ 24 CVE-2026-71362 99 Adobe Commerce and Magento Open Source ✓ ✓ 25 CVE-2026-7273 99 Zyxel GS1900 series switches ✓ ✓ 26 CVE-2026-75650 99 Adobe Commerce and Magento Open Source ✓ ✓ ✓ 27 CVE-2026-76460 99 Cisco ISE and ISE-PIC ✓ ✓ 28 CVE-2026-76461 99 Cisco Secure Email Gateway ✓ ✓ ✓ 29 CVE-2026-76504 99 Cisco Catalyst SD-WAN Manager ✓ ✓ 30 CVE-2026-81963 99 Microsoft Windows Update Stack ✓ 31 CVE-2026-83548 99 SonicWall SMA1000 ✓ ✓ 32 CVE-2026-84869 99 ConnectWise ScreenConnect ✓ ✓ 33 CVE-2026-85102 99 Check Point Security Gateway and Spark Firewall ✓ ✓ 34 CVE-2026-85706 99 GitLab CE/EE ✓ ✓ 35 CVE-2026-85880 99 Microsoft Windows ALPC ✓ 36 CVE-2026-86060 99 MikroTik RouterOS ✓ ✓ 37 CVE-2026-86218 99 N-able N-central ✓ ✓ ✓ 38 CVE-2026-86950 99 Apple iOS, iPadOS, and macOS ✓ ✓ ✓ 39 CVE-2026-87491 99 Google Chrome (V8) ✓ ✓ ✓ 40 CVE-2026-87886 99 Acronis Backup integrations for cPanel & WHM, Plesk, and DirectAdmin ✓ 41 CVE-2026-87902 99 WordPress Core ✓ ✓ ✓ 42 CVE-2026-88771 99 Citrix NetScaler ADC and Gateway ✓ ✓
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: September 2026 CVE Landscape
+  - Published: 2026-10-13T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/september-2026-cve-landscape
+  - Summary: In September 2026, Insikt Group® identified 94 high-impact vulnerabilities that should be prioritized for remediation, 59 of which had a Very Critical Recorded Future Risk Score. This represents a 29% increase from last month.
+
+### Cluster da2b16ecaa — score 10
+
+- Title: Malware Indicators of Compromise (IoCs) | Recorded Future
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-10-13T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/malware-indicators-of-compromise
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Learn what malware indicators of compromise (IoCs) are, common types, how they’re collected, and best practices for detection and response.
+```
+
+#### Full body
+
+```
+Malware Indicators of Compromise (IoCs): A Complete Guide to Detection and Response One malware hash can turn a vague alert into a concrete investigation. Analysts can search endpoints for the exact file, trace where it appeared, and determine whether related activity exists elsewhere. But if the attacker changes the file, the hash changes too. Domains and Internet Protocol (IP) addresses can also lose relevance as attackers rotate infrastructure. This is why malware indicators of compromise work best as evidence within a larger investigation, not as isolated entries on a blocklist. Their value grows when analysts can establish where an indicator came from, how recently it was observed, what threats are connected to it, and whether those connections matter to their organization. Malware indicators of compromise are technical artifacts or observations that suggest malicious activity. They help security teams detect, investigate, and contain threats, but an IoC is most useful when analysts can assess its source, timing, confidence, and relationship to other threat activity. Key takeaways Malware indicators can include file-based artifacts, network infrastructure, and other technical evidence associated with malicious activity. IoCs do not exclusively describe past attacks. They can point to malicious activity that may be underway or has already occurred. Indicator types have different defensive lifespans. An IP address may quickly lose relevance, while a file hash remains an exact identifier for the same sample even if attackers create a new version. Threat intelligence can add context that helps analysts prioritize IoCs, connect related activity, and move from an isolated match toward a wider investigation. What are malware indicators of compromise? An indicator of compromise (IoC) is a technical artifact or observable that suggests malicious activity. The National Institute of Standards and Technology (NIST) defines IoCs broadly enough to include signs that an attack may be imminent, underway, or that a compromise may already have occurred. For a security operations center (SOC) analyst or incident responder, an IoC can help answer a practical question: Have we seen evidence associated with this threat in our environment? Analysts can use malware IoCs to validate an alert, search logs and endpoints for related activity, or scope an incident after malicious activity is confirmed. They can also use an indicator as a starting point for investigating connected infrastructure, malware, or attacker behavior. An IoC does not automatically prove that an organization has been compromised. Context matters. Finding a malware hash executing on an endpoint carries a different meaning from finding the same hash in an intelligence feed. IoCs and TTPs serve different purposes Indicators of compromise identify observable evidence associated with malicious activity. Tactics, techniques, and procedures (TTPs) describe how an adversary operates. A specific command-and-control domain is an IoC. The techniques an attacker repeatedly uses to establish persistence or move through a network are TTPs. Atomic indicators are often easier to match against security telemetry, but attackers may be able to change them quickly. TTP-based detection can be harder to evade when it focuses on established attacker behavior, but it can also demand richer telemetry and more detection engineering. Security teams do not need to choose one or the other. An IoC can provide the first concrete lead, while TTPs can help analysts search for related activity after an attacker changes a domain or recompiles malware. The most common types of malware indicators Malware indicators generally appear either in files and host activity or in network communications. Each gives analysts a different view of what the malware has done. File-based IoCs File hashes such as SHA-256 fingerprints allow security tools to identify an exact known file. They provide a precise match, but attackers
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Malware Indicators of Compromise (IoCs) | Recorded Future
+  - Published: 2026-10-13T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/malware-indicators-of-compromise
+  - Summary: Learn what malware indicators of compromise (IoCs) are, common types, how they’re collected, and best practices for detection and response.
 
 ### Cluster 5d5fb499b6 — score 10
 
@@ -2525,137 +2679,6 @@ Integrate to Remediate Proven Attack Paths and Verify Every Fix Automatically Ho
   - Published: 2026-10-14T15:47:56+00:00
   - Link: https://horizon3.ai/downloads/joint-solutions-briefs/horizon3-torq-attack-path-remediation-verification/
   - Summary: Discover how Horizon3 and Torq bring NodeZero® exploitability findings into SOC workflows to orchestrate remediation, contain exposed credentials, and verify that attack paths are closed.
-
-### Cluster e66fba4a49 — score 10
-
-- Title: TAG-193’s Regional Espionage Operations
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-10-14T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/tag193-regional-espionage-operations
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
-- affected_industries: critical_infrastructure, government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage
-- affected_industries: government, critical_infrastructure
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Explore joint Cisco Talos and Recorded Future research on TAG-193's cyber-espionage operations targeting government across Central Asia and the wider Commonwealth of Independent States (CIS)
-```
-
-#### Full body
-
-```
-TAG-193’s Regional Espionage Operations Joint research by Cisco Talos and Recorded Future’s Insikt Group examined sustained cyber-espionage activity by TAG-193 targeting government organizations across Central Asia and the wider Commonwealth of Independent States (CIS). Tracked by Cisco Talos as UAT-6275 and also known as Silent Lynx, TAG-193 combines diplomatic and economic targeting with an interest in environmental policy, water resources, and forestry. Exposed infrastructure provided new visibility into its malware, operational practices, and evolving delivery techniques. The findings point to possible links to Kazakhstan, but questions remain about the group’s origins. This post highlights how TAG-193’s operations reflect the intelligence value of regional diplomacy and resource management, and how its expanding toolkit supports that mission. Government Targeting across the Region TAG-193’s targeting extends across government institutions responsible for diplomacy, economic development, agriculture, and environmental management. These organizations hold information that can inform negotiations, economic planning, and regional security decisions. Across Central Asia, shared river systems and interconnected energy and transport infrastructure give such information particular strategic value. Figure 1: Timeline of TAG-193 campaigns Our research examined TAG-193 campaigns from early 2025 through May 2026, identifying activity involving government entities in Russia, Tajikistan, Belarus, Armenia, and Uzbekistan. Lure documents and impersonated services indicated additional targeting interests across the region. Together, these findings suggest a sustained intelligence-collection mission encompassing diplomatic priorities and the management of natural resources. Figure 2: Overview of TAG-193 victimology Diplomacy, Water Security, and Resource Management Several TAG-193 intrusions identified through Recorded Future® Network Intelligence occurred around diplomatic developments involving Kazakhstan. Following Kazakhstan’s parliamentary consideration of a treaty on allied relations with Tajikistan, we noted communications between a Tajik government entity responsible for economic development and TAG-193 infrastructure. Additionally, activity involving a Belarusian agriculture-related government entity preceded a senior bilateral meeting in Astana. While these temporal associations do not establish that the TAG-193-related activity was connected to the described developments or reveal what information the operators sought, they do provide context indicating TAG-193’s targeting interests. TAG-193’s recurring interest in environmental and resource-management institutions is also noteworthy. Observed activity involved an Armenian government entity responsible for environmental matters and infrastructure associated with Uzbekistan’s Smart Forestry initiative, which supports digital forestry management, environmental monitoring, and ecological restoration. Additional targeting involved Nizhny Novgorod, Russia, at the confluence of the Volga and Oka rivers within the Caspian Sea basin. Although its geographic location alone does not establish a water-related collection objective, earlier reporting linked TAG-193 to the targeting of water-resource organizations across Central Asia, providing further context for this apparent interest. In Kazakhstan, water security is closely tied to economic stability and national security. Dependence on cross-border water supplies leaves the country exposed to upstream decisions about water use, storage, and diversion. Climate change, glacier loss, and inefficient irrigation place additional pressure on water availability, with implications for agriculture, industry, and domestic supplies. The Aral Sea disaster illustrates the lasting economic, environmental, and public-health consequences of water mismanagement, helping explain why water security remains a strategic priority. Trusted Accounts and Service
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: TAG-193’s Regional Espionage Operations
-  - Published: 2026-10-14T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/tag193-regional-espionage-operations
-  - Summary: Explore joint Cisco Talos and Recorded Future research on TAG-193's cyber-espionage operations targeting government across Central Asia and the wider Commonwealth of Independent States (CIS)
-
-### Cluster 55d35536fa — score 10
-
-- Title: September 2026 CVE Landscape
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-10-13T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/september-2026-cve-landscape
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, zero_day
-- affected_industries: manufacturing_industrial
-- affected_products: Cisco, Fortinet, GitLab
-- cve_ids: CVE-2019-0708, CVE-2021-38003, CVE-2026-35273, CVE-2026-88771, CVE-2026-88772
-- urgency_signals: actively_exploited, no_patch_yet, poc_available, zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: zero_day, active_exploitation
-- affected_industries: manufacturing_industrial
-- affected_products: GitLab, Fortinet, Cisco
-- cve_ids: CVE-2026-88771, CVE-2026-88772, CVE-2026-35273, CVE-2019-0708, CVE-2021-38003
-- urgency_signals: actively_exploited, zero_day, no_patch_yet, poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-In September 2026, Insikt Group® identified 94 high-impact vulnerabilities that should be prioritized for remediation, 59 of which had a Very Critical Recorded Future Risk Score. This represents a 29% increase from last month.
-```
-
-#### Full body
-
-```
-September 2026 CVE Landscape In September 2026, Insikt Group® identified 94 high-impact vulnerabilities to prioritize for remediation , 59 of which had a Very Critical Recorded Future Risk Score. This represents a 29% increase from last month. 43 of these vulnerabilities were surfaced through the US Cybersecurity and Infrastructure Security Agency (CISA)’s Known Exploited Vulnerabilities (KEV) catalog, 37 were reported in open sources and validated by Insikt Group, and 14 were exclusively surfaced through honeypot data. The 94 vulnerabilities identified affected products from 58 vendors, with Linux and Microsoft together accounting for approximately 13% of the vulnerabilities. The remaining exposures spanned network edge and security management appliances; operating systems (OS) and mobile devices; collaboration, content management, and enterprise platforms; artificial intelligence (AI), developer, and automation tools; and operational technology and industrial systems. September reporting also highlighted zero-day exploitation of CVE-2026-88771 and CVE-2026-88772 (NetScaler), as well as renewed exploitation of CVE-2026-35273 (PeopleSoft) against unpatched systems. Quick reference: September 2026 vulnerability table All 80 vulnerabilities below were actively exploited or operationally weaponized in September 2026. This table does not include the 14 CVEs that were exclusively surfaced through honeypot data, which are available to Recorded Future Intelligence Platform customers via the CVE Monthly report. The table below also provides examples of public PoCs identified by Insikt Group. These PoCs were not tested for accuracy or efficacy. Vulnerability management teams should exercise caution and verify the validity of PoCs before testing. # Vulnerability Risk Score Vendor/Product KEV RCE PoC 1 CVE-2019-0708 99 Microsoft Remote Desktop Services ✓ ✓ 2 CVE-2021-38003 99 Google Chrome ✓ ✓ 3 CVE-2021-44228 99 Apache Log4j2 ✓ ✓ 4 CVE-2022-0847 99 Linux kernel ✓ 5 CVE-2022-22965 99 Spring Framework ✓ ✓ 6 CVE-2025-25249 99 Fortinet FortiOS and FortiSwitchManager ✓ ✓ ✓ 7 CVE-2025-39682 99 Linux kernel (Siemens SIMATIC CN 4100) ✓ ✓ 8 CVE-2025-39964 99 Linux kernel (Siemens SIPLUS S7-1500 CPU 1518-4 PN/DP MFP) ✓ ✓ 9 CVE-2026-19490 99 Citrix NetScaler ADC and Gateway ✓ ✓ 10 CVE-2026-20079 99 Cisco Secure FMC and SCC Firewall Management ✓ ✓ ✓ 11 CVE-2026-39987 99 Marimo ✓ ✓ 12 CVE-2026-42016 99 JFrog Artifactory ✓ 13 CVE-2026-42018 99 JFrog Artifactory ✓ ✓ 14 CVE-2026-48710 99 Starlette and affected Red Hat products ✓ ✓ 15 CVE-2026-49869 99 Kestra OSS ✓ ✓ ✓ 16 CVE-2026-53266 99 Linux kernel ✓ 17 CVE-2026-5430 99 WSO2 Universal Gateway, Traffic Manager, and API Control Plane ✓ ✓ 18 CVE-2026-58704 99 Google Pixel (modem) ✓ 19 CVE-2026-60137 99 WordPress Core ✓ 20 CVE-2026-63030 99 WordPress Core ✓ ✓ 21 CVE-2026-65660 99 Microsoft SharePoint Server ✓ ✓ ✓ 22 CVE-2026-67277 99 MikroTik RouterOS ✓ ✓ 23 CVE-2026-67279 99 MikroTik RouterOS ✓ ✓ 24 CVE-2026-71362 99 Adobe Commerce and Magento Open Source ✓ ✓ 25 CVE-2026-7273 99 Zyxel GS1900 series switches ✓ ✓ 26 CVE-2026-75650 99 Adobe Commerce and Magento Open Source ✓ ✓ ✓ 27 CVE-2026-76460 99 Cisco ISE and ISE-PIC ✓ ✓ 28 CVE-2026-76461 99 Cisco Secure Email Gateway ✓ ✓ ✓ 29 CVE-2026-76504 99 Cisco Catalyst SD-WAN Manager ✓ ✓ 30 CVE-2026-81963 99 Microsoft Windows Update Stack ✓ 31 CVE-2026-83548 99 SonicWall SMA1000 ✓ ✓ 32 CVE-2026-84869 99 ConnectWise ScreenConnect ✓ ✓ 33 CVE-2026-85102 99 Check Point Security Gateway and Spark Firewall ✓ ✓ 34 CVE-2026-85706 99 GitLab CE/EE ✓ ✓ 35 CVE-2026-85880 99 Microsoft Windows ALPC ✓ 36 CVE-2026-86060 99 MikroTik RouterOS ✓ ✓ 37 CVE-2026-86218 99 N-able N-central ✓ ✓ ✓ 38 CVE-2026-86950 99 Apple iOS, iPadOS, and macOS ✓ ✓ ✓ 39 CVE-2026-87491 99 Google Chrome (V8) ✓ ✓ ✓ 40 CVE-2026-87886 99 Acronis Backup integrations for cPanel & WHM, Plesk, and DirectAdmin ✓ 41 CVE-2026-87902 99 WordPress Core ✓ ✓ ✓ 42 CVE-2026-88771 99 Citrix NetScaler ADC and Gateway ✓ ✓
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: September 2026 CVE Landscape
-  - Published: 2026-10-13T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/september-2026-cve-landscape
-  - Summary: In September 2026, Insikt Group® identified 94 high-impact vulnerabilities that should be prioritized for remediation, 59 of which had a Very Critical Recorded Future Risk Score. This represents a 29% increase from last month.
-
-### Cluster da2b16ecaa — score 10
-
-- Title: Malware Indicators of Compromise (IoCs) | Recorded Future
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-10-13T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/malware-indicators-of-compromise
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Learn what malware indicators of compromise (IoCs) are, common types, how they’re collected, and best practices for detection and response.
-```
-
-#### Full body
-
-```
-Malware Indicators of Compromise (IoCs): A Complete Guide to Detection and Response One malware hash can turn a vague alert into a concrete investigation. Analysts can search endpoints for the exact file, trace where it appeared, and determine whether related activity exists elsewhere. But if the attacker changes the file, the hash changes too. Domains and Internet Protocol (IP) addresses can also lose relevance as attackers rotate infrastructure. This is why malware indicators of compromise work best as evidence within a larger investigation, not as isolated entries on a blocklist. Their value grows when analysts can establish where an indicator came from, how recently it was observed, what threats are connected to it, and whether those connections matter to their organization. Malware indicators of compromise are technical artifacts or observations that suggest malicious activity. They help security teams detect, investigate, and contain threats, but an IoC is most useful when analysts can assess its source, timing, confidence, and relationship to other threat activity. Key takeaways Malware indicators can include file-based artifacts, network infrastructure, and other technical evidence associated with malicious activity. IoCs do not exclusively describe past attacks. They can point to malicious activity that may be underway or has already occurred. Indicator types have different defensive lifespans. An IP address may quickly lose relevance, while a file hash remains an exact identifier for the same sample even if attackers create a new version. Threat intelligence can add context that helps analysts prioritize IoCs, connect related activity, and move from an isolated match toward a wider investigation. What are malware indicators of compromise? An indicator of compromise (IoC) is a technical artifact or observable that suggests malicious activity. The National Institute of Standards and Technology (NIST) defines IoCs broadly enough to include signs that an attack may be imminent, underway, or that a compromise may already have occurred. For a security operations center (SOC) analyst or incident responder, an IoC can help answer a practical question: Have we seen evidence associated with this threat in our environment? Analysts can use malware IoCs to validate an alert, search logs and endpoints for related activity, or scope an incident after malicious activity is confirmed. They can also use an indicator as a starting point for investigating connected infrastructure, malware, or attacker behavior. An IoC does not automatically prove that an organization has been compromised. Context matters. Finding a malware hash executing on an endpoint carries a different meaning from finding the same hash in an intelligence feed. IoCs and TTPs serve different purposes Indicators of compromise identify observable evidence associated with malicious activity. Tactics, techniques, and procedures (TTPs) describe how an adversary operates. A specific command-and-control domain is an IoC. The techniques an attacker repeatedly uses to establish persistence or move through a network are TTPs. Atomic indicators are often easier to match against security telemetry, but attackers may be able to change them quickly. TTP-based detection can be harder to evade when it focuses on established attacker behavior, but it can also demand richer telemetry and more detection engineering. Security teams do not need to choose one or the other. An IoC can provide the first concrete lead, while TTPs can help analysts search for related activity after an attacker changes a domain or recompiles malware. The most common types of malware indicators Malware indicators generally appear either in files and host activity or in network communications. Each gives analysts a different view of what the malware has done. File-based IoCs File hashes such as SHA-256 fingerprints allow security tools to identify an exact known file. They provide a precise match, but attackers
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Malware Indicators of Compromise (IoCs) | Recorded Future
-  - Published: 2026-10-13T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/malware-indicators-of-compromise
-  - Summary: Learn what malware indicators of compromise (IoCs) are, common types, how they’re collected, and best practices for detection and response.
 
 ### Cluster 49f60154a2 — score 10
 
@@ -2826,70 +2849,6 @@ Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit At
   - Published: 2026-10-15T07:07:05+00:00
   - Link: https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html
   - Summary: Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian. Langflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. In February 2025, DataStax, the parent company of Langflow, was acquired by IBM. The vulnerability in question is CVE-2026-105740 (CVSS score: 9.9), a case of
-
-### Cluster 586a782e4e — score 10
-
-- Title: Smashing Security podcast #488: How a ransomware negotiator ended up arrested at his own conference
-- Source: Graham Cluley (practitioner_analysis)
-- Published: 2026-10-14T23:06:42+00:00
-- Link: https://grahamcluley.com/smashing-security-podcast-488/
-- Fetch status: ok
-- Member count: 5
-- Corroborating source count: 5
-- Strong signals: ShinyHunters
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- actor_attribution: ShinyHunters
-- affected_industries: government
-- content_type: intel_roundup, news_report
-- confidence_tier: tier_3_analysis, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- actor_attribution: ShinyHunters
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-A ransomware negotiator attended a cybersecurity conference, only to be arrested by the FBI in connection with its investigation into the ShinyHunters gang. Meanwhile, hackers get the keys to ASOS's app and the chance to message every single customer. What did they say? And how did the company respond? We have thoughts. All this and more is discussed in episode 488 of the "Smashing Security" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.
-```
-
-#### Full body
-
-```
-Graham Cluley @ 12:06 am, October 15, 2026 @grahamcluley.com / grahamcluley A ransomware negotiator attended a cybersecurity conference, only to be arrested by the FBI in connection with its investigation into the ShinyHunters gang. Meanwhile, hackers get the keys to ASOS’s app and the chance to message every single customer. What did they say? And how did the company respond? We have thoughts. All this and more is discussed in episode 488 of the “Smashing Security” podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin. Smashing Security #488 How a ransomware negotiator ended up arrested at his own conference ↺ 15 ↻ 30 0:00 Learn more 0:00 0:00 0:00 1× Show full transcript ▼ This transcript was generated automatically, probably contains mistakes, and has not been manually verified. GRAHAM CLULEY Well, it could be unfashionable trousers. PAUL DUCKLIN Yeah, I suppose. GRAHAM CLULEY There is the potential for some sort of social embarrassment, maybe. When I was at school, I had some cord trousers, which these days would be very, very trendy. But back when I was wearing them in the 1980s, they certainly weren't. PAUL DUCKLIN Yeah, there was no normcore back then, was there? Corduroy trousers. Yes, I had some when I was about 12, and I thought they were great. But I quickly learned that that was not quite the case. Unknown Smashing Security, episode 488. PAUL DUCKLIN How a ransomware negotiator ended up arrested at his own conference, with Graham Cluley and special guest Paul Ducklin. GRAHAM CLULEY Hello, hello, and welcome to Smashing Security, episode 488. My name's Graham Cluley. PAUL DUCKLIN And I am Paul Ducklin. GRAHAM CLULEY Duck, welcome back to the show. Always a pleasure to have you here. PAUL DUCKLIN Always a pleasure to be on the show, Graham. It's fun. With a serious side, and I like both of those things. GRAHAM CLULEY Ah, fantastic. Well, before we kick off, let's thank this week's sponsors, HackTheBox, Origin, and Vanta. We'll be hearing more about them later on in the show. PAUL DUCKLIN This week on Smashing Security. GRAHAM CLULEY We're not gonna be talking about how the password 123456 let a hacker steal the details of 8.8 million people from Denmark's National Population Register. You'll hear no discussion of How scammers are filling your calendar with fake meeting invites to phish you. And we won't even mention— How Anthropic's AI sent Philadelphia police a made-up tip about an unsolved murder. So, Duck, what are you going to be talking about this week? PAUL DUCKLIN I am going to be asking the question, metaphorically of course, if you hacked into an industry giant and you had the chance to send a message to every single customer, what Would you tell them? GRAHAM CLULEY And I'm gonna be discussing the 7 degrees of separation between me and a ransomware gang. I say 7 degrees, it's probably more like 2. All this and much more coming up in this episode of Smashing Security. Earlier this year. JOE Oh, here we go. GRAHAM CLULEY Inside the walls of OpenAI, inside Hugging Face, something was happening. Agents talking to each other, dividing the work between themselves, leaving notes for one another in the dark where no human was watching. JOE They're AI agents doing a code review, Graham. It's not the Manhattan Project. GRAHAM CLULEY And when the sun came up on that incident, the finest engineering minds on the planet sat in a room and asked themselves one question. JOE What did our AI do? They didn't know. The people who built the machine didn't Know what the machine had done. GRAHAM CLULEY And that brings us to you, dear listener. One question, and I want you to think about this. JOE If an AI agent caused an incident at your company tomorrow, what evidence could you actually produce? Because the terrible truth is, most of us have the prompt, we have the result, but what goes on in the middle? No clue. The commands it ran, the files it touched, the credentials it helped it
-```
-
-#### Corroborating sources (5)
-
-- **Graham Cluley** (practitioner_analysis)
-  - Title: Smashing Security podcast #488: How a ransomware negotiator ended up arrested at his own conference
-  - Published: 2026-10-14T23:06:42+00:00
-  - Link: https://grahamcluley.com/smashing-security-podcast-488/
-  - Summary: A ransomware negotiator attended a cybersecurity conference, only to be arrested by the FBI in connection with its investigation into the ShinyHunters gang. Meanwhile, hackers get the keys to ASOS's app and the chance to message every single customer. What did they say? And how did the company respond? We have thoughts. All this and more is discussed in episode 488 of the "Smashing Security" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.
-- **Krebs on Security** (practitioner_analysis)
-  - Title: FBI Arrests Executive at Ransomware Negotiation Firm
-  - Published: 2026-10-10T00:17:42+00:00
-  - Link: https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/
-  - Summary: Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSecurity.
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: ⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More
-  - Published: 2026-10-12T15:16:26+00:00
-  - Link: https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html
-  - Summary: Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it. But speed is only part of the problem. A secure connection didn't always mean a safe destination. People offering to fix a ransomware mess had questions to answer themselves.
-- **Risky Business News** (practitioner_analysis)
-  - Title: Risky Bulletin: ShinyHunters suspects arrested in US and Jordan
-  - Published: 2026-10-12T02:43:40+00:00
-  - Link: https://risky.biz/RBNEWS619/
-  - Summary: Two ShinyHunters suspects arrested in Jordan and the US, hackers breach TLD registrars to get valid Google certs, Japanese authorities arrest a Qilin ransomware member and Google suspends its open-source bug bounty program after a flood of AI bug reports.
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: What We Missed: FBI Strikes Back at ShinyHunters
-  - Published: 2026-10-09T17:21:00+00:00
-  - Link: https://www.darkreading.com/identity-access-management-security/fbi-shinyhunters-claims-hack
-  - Summary: In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from the arrest of a suspected ShinyHunters operative to the compromise of a Pentagon-run data center.
 
 ### Cluster c6a5397bce — score 10
 
@@ -3111,7 +3070,7 @@ Security & Identity Modernizing perimeter security: Scalable perimeters with VPC
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, zero_day
+- threat_categories: data_breach, zero_day
 - affected_industries: critical_infrastructure, financial_services, legal_professional
 - affected_products: GitHub, Ivanti, Palo Alto Networks
 - urgency_signals: zero_day
@@ -3119,7 +3078,7 @@ Security & Identity Modernizing perimeter security: Scalable perimeters with VPC
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng, zero_day, data_breach
+- threat_categories: zero_day, data_breach
 - affected_industries: financial_services, critical_infrastructure, legal_professional
 - affected_products: GitHub, Ivanti, Palo Alto Networks
 - urgency_signals: zero_day
@@ -3135,7 +3094,7 @@ Personal information such as names, addresses, Social Security numbers, and driv
 #### Full body
 
 ```
-CenterPoint Energy has notified Texan authorities that the personal information of over 1 million individuals was compromised in a data breach. The notice came one month after the Houston-based public utility told the SEC that customer information had been stolen from its systems . Just days before its initial disclosure, a hacker boasted on a known cybercrime forum that it had obtained nearly 7.5 million user records from CenterPoint Energy. In its SEC filing, the company confirmed it learned of the data breach after the threat actor’s public post, noting that only a portion of its customers had been affected and that the incident did not impact its operations. This week, CenterPoint Energy told the Texas Attorney General’s Office that 1,062,060 state residents were affected. It appears that the utility has not sent notification letters to the impacted individuals. According to the company’s filing, the compromised information includes names, addresses, Social Security numbers, and driver’s license numbers. Advertisement. Scroll to continue reading. CenterPoint Energy also delivers electricity and natural gas to customers in Indiana, Minnesota, and Ohio, and residents of those states might have been affected as well. However, the total impact from the incident remains unclear. On September 12, the hacker made a 2.5-gigabyte archive available for download, allegedly containing data exfiltrated from the utility. The file seemingly contains approximately 3 million phone numbers along with additional personal information. SecurityWeek has emailed CenterPoint Energy for clarification on how many individuals were impacted and will update this article if the company responds. Related: Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach Related: iRhythm Data Breach Impacts at Least 360,000 People Related: Oracle Health Data Breach Tally Climbs to Nearly 20 Million Related: Georgia Power, Alabama Power Data Breach Hits 400,000 Accounts Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Warns of Exploited Secure Email Gateway Vulnerability Harmonic Security Raises $50 Million for Workforce AI Protection US Arrests Two in Crackdown on North Korean IT Worker Laptop Farms Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities XWorm RAT Evolves Into Surveillance Platform $86 Million Crypto Heist Linked to Ledger Signer Hardware Implant Latest News Context Is King in the Fight Against Modern Cyberattacks Watch Now: Zero Trust Strategies Summit – All Sessions Available on Demand UK Legal Aid Agency Hack Scope Widens After Forensic Review Supermarket Refrigeration Attack Widens to Copeland, Dixell Controllers CikaBika Bot RAT Uses Discord for C&C Novel Android RAT ‘Hirudo’ Replaces Banking Apps With Trojanized Copies CISO Conversations: James Robinson – Many Jobs, One Journey to Netskope CISO Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution Trending Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach iRhythm Data Breach Impacts at Least 360,000 People Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN Adobe Patches 176 Vulnerabilities Across 11 Products Microsoft Disrupts Chinese-Language Phishing Market Behind 1B+ Messages Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightf
+CenterPoint Energy has notified Texan authorities that the personal information of over 1 million individuals was compromised in a data breach. The notice came one month after the Houston-based public utility told the SEC that customer information had been stolen from its systems . Just days before its initial disclosure, a hacker boasted on a known cybercrime forum that it had obtained nearly 7.5 million user records from CenterPoint Energy. In its SEC filing, the company confirmed it learned of the data breach after the threat actor’s public post, noting that only a portion of its customers had been affected and that the incident did not impact its operations. This week, CenterPoint Energy told the Texas Attorney General’s Office that 1,062,060 state residents were affected. It appears that the utility has not sent notification letters to the impacted individuals. According to the company’s filing, the compromised information includes names, addresses, Social Security numbers, and driver’s license numbers. Advertisement. Scroll to continue reading. CenterPoint Energy also delivers electricity and natural gas to customers in Indiana, Minnesota, and Ohio, and residents of those states might have been affected as well. However, the total impact from the incident remains unclear. On September 12, the hacker made a 2.5-gigabyte archive available for download, allegedly containing data exfiltrated from the utility. The file seemingly contains approximately 3 million phone numbers along with additional personal information. SecurityWeek has emailed CenterPoint Energy for clarification on how many individuals were impacted and will update this article if the company responds. Related: Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach Related: iRhythm Data Breach Impacts at Least 360,000 People Related: Oracle Health Data Breach Tally Climbs to Nearly 20 Million Related: Georgia Power, Alabama Power Data Breach Hits 400,000 Accounts Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Warns of Exploited Secure Email Gateway Vulnerability Harmonic Security Raises $50 Million for Workforce AI Protection US Arrests Two in Crackdown on North Korean IT Worker Laptop Farms Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities XWorm RAT Evolves Into Surveillance Platform $86 Million Crypto Heist Linked to Ledger Signer Hardware Implant Latest News Context Is King in the Fight Against Modern Cyberattacks Watch Now: Zero Trust Strategies Summit – All Sessions Available on Demand UK Legal Aid Agency Hack Scope Widens After Forensic Review Supermarket Refrigeration Attack Widens to Copeland, Dixell Controllers CikaBika Bot RAT Uses Discord for C&C Novel Android RAT ‘Hirudo’ Replaces Banking Apps With Trojanized Copies CISO Conversations: James Robinson – Many Jobs, One Journey to Netskope CISO Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution Trending Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach iRhythm Data Breach Impacts at Least 360,000 People Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN Adobe Patches 176 Vulnerabilities Across 11 Products Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with in
 ```
 
 #### Corroborating sources (1)
@@ -3437,6 +3396,70 @@ submitted by /u/NewResearch1337 [link] [comments]
   - Link: https://www.reddit.com/r/netsec/comments/1x4xuvc/we_let_ai_fuzz_adobe_reader_for_a_week_it_found_a/
   - Summary: submitted by /u/NewResearch1337 [link] [comments]
 
+### Cluster 586a782e4e — score 9
+
+- Title: Smashing Security podcast #488: How a ransomware negotiator ended up arrested at his own conference
+- Source: Graham Cluley (practitioner_analysis)
+- Published: 2026-10-14T23:06:42+00:00
+- Link: https://grahamcluley.com/smashing-security-podcast-488/
+- Fetch status: ok
+- Member count: 5
+- Corroborating source count: 5
+- Strong signals: ShinyHunters
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- actor_attribution: ShinyHunters
+- affected_industries: government
+- content_type: intel_roundup, news_report
+- confidence_tier: tier_3_analysis, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- actor_attribution: ShinyHunters
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+A ransomware negotiator attended a cybersecurity conference, only to be arrested by the FBI in connection with its investigation into the ShinyHunters gang. Meanwhile, hackers get the keys to ASOS's app and the chance to message every single customer. What did they say? And how did the company respond? We have thoughts. All this and more is discussed in episode 488 of the "Smashing Security" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.
+```
+
+#### Full body
+
+```
+Graham Cluley @ 12:06 am, October 15, 2026 @grahamcluley.com / grahamcluley A ransomware negotiator attended a cybersecurity conference, only to be arrested by the FBI in connection with its investigation into the ShinyHunters gang. Meanwhile, hackers get the keys to ASOS’s app and the chance to message every single customer. What did they say? And how did the company respond? We have thoughts. All this and more is discussed in episode 488 of the “Smashing Security” podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin. Smashing Security #488 How a ransomware negotiator ended up arrested at his own conference ↺ 15 ↻ 30 0:00 Learn more 0:00 0:00 0:00 1× Show full transcript ▼ This transcript was generated automatically, probably contains mistakes, and has not been manually verified. GRAHAM CLULEY Well, it could be unfashionable trousers. PAUL DUCKLIN Yeah, I suppose. GRAHAM CLULEY There is the potential for some sort of social embarrassment, maybe. When I was at school, I had some cord trousers, which these days would be very, very trendy. But back when I was wearing them in the 1980s, they certainly weren't. PAUL DUCKLIN Yeah, there was no normcore back then, was there? Corduroy trousers. Yes, I had some when I was about 12, and I thought they were great. But I quickly learned that that was not quite the case. Unknown Smashing Security, episode 488. PAUL DUCKLIN How a ransomware negotiator ended up arrested at his own conference, with Graham Cluley and special guest Paul Ducklin. GRAHAM CLULEY Hello, hello, and welcome to Smashing Security, episode 488. My name's Graham Cluley. PAUL DUCKLIN And I am Paul Ducklin. GRAHAM CLULEY Duck, welcome back to the show. Always a pleasure to have you here. PAUL DUCKLIN Always a pleasure to be on the show, Graham. It's fun. With a serious side, and I like both of those things. GRAHAM CLULEY Ah, fantastic. Well, before we kick off, let's thank this week's sponsors, HackTheBox, Origin, and Vanta. We'll be hearing more about them later on in the show. PAUL DUCKLIN This week on Smashing Security. GRAHAM CLULEY We're not gonna be talking about how the password 123456 let a hacker steal the details of 8.8 million people from Denmark's National Population Register. You'll hear no discussion of How scammers are filling your calendar with fake meeting invites to phish you. And we won't even mention— How Anthropic's AI sent Philadelphia police a made-up tip about an unsolved murder. So, Duck, what are you going to be talking about this week? PAUL DUCKLIN I am going to be asking the question, metaphorically of course, if you hacked into an industry giant and you had the chance to send a message to every single customer, what Would you tell them? GRAHAM CLULEY And I'm gonna be discussing the 7 degrees of separation between me and a ransomware gang. I say 7 degrees, it's probably more like 2. All this and much more coming up in this episode of Smashing Security. Earlier this year. JOE Oh, here we go. GRAHAM CLULEY Inside the walls of OpenAI, inside Hugging Face, something was happening. Agents talking to each other, dividing the work between themselves, leaving notes for one another in the dark where no human was watching. JOE They're AI agents doing a code review, Graham. It's not the Manhattan Project. GRAHAM CLULEY And when the sun came up on that incident, the finest engineering minds on the planet sat in a room and asked themselves one question. JOE What did our AI do? They didn't know. The people who built the machine didn't Know what the machine had done. GRAHAM CLULEY And that brings us to you, dear listener. One question, and I want you to think about this. JOE If an AI agent caused an incident at your company tomorrow, what evidence could you actually produce? Because the terrible truth is, most of us have the prompt, we have the result, but what goes on in the middle? No clue. The commands it ran, the files it touched, the credentials it helped it
+```
+
+#### Corroborating sources (5)
+
+- **Graham Cluley** (practitioner_analysis)
+  - Title: Smashing Security podcast #488: How a ransomware negotiator ended up arrested at his own conference
+  - Published: 2026-10-14T23:06:42+00:00
+  - Link: https://grahamcluley.com/smashing-security-podcast-488/
+  - Summary: A ransomware negotiator attended a cybersecurity conference, only to be arrested by the FBI in connection with its investigation into the ShinyHunters gang. Meanwhile, hackers get the keys to ASOS's app and the chance to message every single customer. What did they say? And how did the company respond? We have thoughts. All this and more is discussed in episode 488 of the "Smashing Security" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.
+- **Krebs on Security** (practitioner_analysis)
+  - Title: FBI Arrests Executive at Ransomware Negotiation Firm
+  - Published: 2026-10-10T00:17:42+00:00
+  - Link: https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/
+  - Summary: Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSecurity.
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: ⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More
+  - Published: 2026-10-12T15:16:26+00:00
+  - Link: https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html
+  - Summary: Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it. But speed is only part of the problem. A secure connection didn't always mean a safe destination. People offering to fix a ransomware mess had questions to answer themselves.
+- **Risky Business News** (practitioner_analysis)
+  - Title: Risky Bulletin: ShinyHunters suspects arrested in US and Jordan
+  - Published: 2026-10-12T02:43:40+00:00
+  - Link: https://risky.biz/RBNEWS619/
+  - Summary: Two ShinyHunters suspects arrested in Jordan and the US, hackers breach TLD registrars to get valid Google certs, Japanese authorities arrest a Qilin ransomware member and Google suspends its open-source bug bounty program after a flood of AI bug reports.
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: What We Missed: FBI Strikes Back at ShinyHunters
+  - Published: 2026-10-09T17:21:00+00:00
+  - Link: https://www.darkreading.com/identity-access-management-security/fbi-shinyhunters-claims-hack
+  - Summary: In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from the arrest of a suspected ShinyHunters operative to the compromise of a Pentagon-run data center.
+
 ### Cluster 46793131ea — score 8
 
 - Title: The Threat Hunting Flywheel: Why Threat Hunting Isn’t About Finding Bad Things
@@ -3514,47 +3537,6 @@ Building intent-based access control without reading minds This article was firs
   - Published: 2026-10-13T00:00:00+00:00
   - Link: https://www.sophos.com/en-us/blog/building-intent-based-access-control-without-reading-minds
   - Summary: <p>This article was first published <a href="https://www.linkedin.com/pulse/building-intent-based-access-control-without-reading-minds-borges-dxg6e/" target="_self">on LinkedIn</a>.</p> Categories: AI Research, Threat Research Tags: AI, AI RESEARCH, Threat Research
-
-### Cluster 39f0934aaf — score 8
-
-- Title: Jev as a judge: How counterfeit policy steers Jev
-- Source: Datadog Security Labs (cloud_identity_infrastructure)
-- Published: 2026-10-15T00:00:00+00:00
-- Link: https://securitylabs.datadoghq.com/articles/jev-as-a-judge-how-counterfeit-policy-steers-jev/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: ai_security
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-We evaluate Jev's prompt injection detection and show how counterfeit classification policies can steer its decisions and bypass LangChain's tool-risk gating.
-```
-
-#### Full body
-
-```
-Nick Frichette Staff Security Researcher Feras Al-Kassar Senior Security Researcher On September 15, TypeSafe AI introduced Jev , the first in what the company calls System One Models: models designed to make fast, structured decisions. Traditional large language models (LLMs) generate text sequentially, one token at a time, even when software ultimately needs a small structured decision. Jev gives up free-form text generation and instead returns structured decisions in parallel, with possible outputs defined by the developer. Its training emphasizes calibrated probabilities, so applications can use the modelâs confidence to decide when to act or, in some cases, defer to a human. The approach targets tasks such as classifying content or routing support requests, which TypeSafe says Jev can handle substantially faster and more cheaply than conventional LLMs. In response to this new model and its unique characteristics, the internet has been exploring ways to leverage the low latency and reduced cost that would have otherwise been prohibitive with a traditional LLM. For example, entagl validated Jevâs efficacy at categorizing real customer conversations, and LangChain used Jev for routing LLM requests to different models depending on the complexity of the request. One additional LangChain feature stood out to us: tool-risk gating : a method that uses Jev to âAsk for the probability that a tool call is risky or insufficiently authorized. Calls that are determined risky return an error ToolMessage instead of running the toolâ. Vercelâs eve has implemented a similar feature as well. This use case raises a security question. To assess a proposed action, a classifier may need to read untrusted content in conversation messages or tool arguments. Could an attacker use that content to influence the classifier's decision? TypeSafe acknowledges this limitation in its documentation , noting that injected instructions, misleading framing, and text arguing for its own classification can influence Jev's answers. We wanted to understand how this affects its use as a security control. In this post, we evaluate Jev's ability to detect prompt injection, then test whether attacker-controlled content can steer its classifications and bypass LangChain's tool-risk gating. Evaluation datasets To test Jevâs capabilities comprehensively, we selected four publicly available prompt injection datasets to act as our baseline. While there is some overlap, these datasets cover different attack styles, benign controls, category annotations, and languages. Dataset Total Attack Benign DeepSet Prompt Injections 662 263 399 xTRam1 SafeGuard 10,296 3,146 7,150 zachz Prompt Injection Benchmark 303 200 103 Yanismiraoui Prompt Injections 1,034 1,034 0 Total 12,295 4,643 7,652 Instructions and result labeling One of Jevâs defining features as compared to traditional LLMs is the ability to define specific outputs depending on the type. There are currently three primitives : Choice, Score, and Noul. Pulled from the documentation, these are respectively: Type What it answers Returns Choice Which of these options? choice , probabilities , confidence Score Which level? score , legend , probabilities , confidence Noul Is this true? noul (0 to 1) For our evaluation, we asked the same two questions for every sample. The Noul question, has_prompt_injection , estimated the probability that the sample matched at least one of our defined attack types. The Choice question, attack_category , selected the best-matching attack category, with no_attack as an option for benign samples. This gave us two outputs to evaluate: a probability that we could convert into an attack or benign label using a threshold, and a category label. The following sections describe the instructions and labeling rules for each. Noul instructions ( has_prompt_injection ) We used the has_prompt_injection Noul question to estimate whether the last untrusted message matched at least one of our defin
-```
-
-#### Corroborating sources (1)
-
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - Title: Jev as a judge: How counterfeit policy steers Jev
-  - Published: 2026-10-15T00:00:00+00:00
-  - Link: https://securitylabs.datadoghq.com/articles/jev-as-a-judge-how-counterfeit-policy-steers-jev/
-  - Summary: We evaluate Jev's prompt injection detection and show how counterfeit classification policies can steer its decisions and bypass LangChain's tool-risk gating.
 
 ### Cluster 81904b9716 — score 8
 
@@ -3726,39 +3708,6 @@ The threat landscape has shifted. Here's what cybersecurity leaders need to know
   - Published: 2026-10-14T16:00:00+00:00
   - Link: https://www.huntress.com/blog/what-does-the-future-hold-for-todays-cybersecurity-leaders
   - Summary: The threat landscape has shifted. Here's what cybersecurity leaders need to know about RMM abuse, AI-powered attacks, ransomware, and identity threats in 2026.
-
-### Cluster f669f5bbcb — score 8
-
-- Title: skynox7: Proxyjacking Edge Devices Into Residential Proxies
-- Source: GreyNoise (cloud_identity_infrastructure)
-- Published: 2026-10-15T00:00:00+00:00
-- Link: https://www.greynoise.io/blog/proxyjacking-edge-devices-residential-proxies
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-How a live GreyNoise product demo turned into an incident response. Inside a proxyjacking campaign that hit 143 devices across 34 countries.
-```
-
-#### Corroborating sources (1)
-
-- **GreyNoise** (cloud_identity_infrastructure)
-  - Title: skynox7: Proxyjacking Edge Devices Into Residential Proxies
-  - Published: 2026-10-15T00:00:00+00:00
-  - Link: https://www.greynoise.io/blog/proxyjacking-edge-devices-residential-proxies
-  - Summary: How a live GreyNoise product demo turned into an incident response. Inside a proxyjacking campaign that hit 143 devices across 34 countries.
 
 ### Cluster e63dc0ea66 — score 8
 
@@ -3970,41 +3919,6 @@ An exploit chain was found in LG webOS, leading to root command execution. The c
   - Link: https://www.reddit.com/r/netsec/comments/1x3wv86/lg_webos_syncdemo_preauth_rce/
   - Summary: An exploit chain was found in LG webOS, leading to root command execution. The chain starts with a client-key issuance bypass, progresses through service-level access, and ultimately leads to root command execution. submitted by /u/SSDisclosure [link] [comments]
 
-### Cluster 7c3382153b — score 8
-
-- Title: SiteGuard Server EditionにおけるOSコマンドインジェクションの脆弱性（CVE-2026-106931）に関する注意喚起 - Security Advisory Regarding OS Command Injection Vulnerability (CVE-2026-106931) in SiteGuard Server Edition
-- Source: Reddit r/blueteamsec (reddit_practitioner_osint)
-- Published: 2026-10-15T06:10:09+00:00
-- Link: https://www.reddit.com/r/blueteamsec/comments/1x6e0s6/siteguard_server/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-106931
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-106931
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- cve_ids: CVE-2026-106931
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/digicat [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - Title: SiteGuard Server EditionにおけるOSコマンドインジェクションの脆弱性（CVE-2026-106931）に関する注意喚起 - Security Advisory Regarding OS Command Injection Vulnerability (CVE-2026-106931) in SiteGuard Server Edition
-  - Published: 2026-10-15T06:10:09+00:00
-  - Link: https://www.reddit.com/r/blueteamsec/comments/1x6e0s6/siteguard_server/
-  - Summary: submitted by /u/digicat [link] [comments]
-
 ### Cluster 1970aa98e3 — score 8
 
 - Title: Auditing the auditor: Unmasking Apex Accelerator
@@ -4087,7 +4001,7 @@ Redesigning source control at Anthropic Interesting piece from Anthropic describ
 - Published: 2026-10-12T16:58:00+00:00
 - Link: https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/
 - Fetch status: not_attempted
-- Member count: 3
+- Member count: 2
 - Corroborating source count: 2
 - Strong signals: OpenAI/ChatGPT
 
