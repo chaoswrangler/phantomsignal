@@ -1,6 +1,6 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-10-17T21:21:37.317216+00:00
+- Generated: 2026-10-17T23:55:23.919697+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
@@ -75,86 +75,76 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 4
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
+  - Item count: 15
+  - In window count: 4
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
-  - Item count: 100
-  - In window count: 3
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
+  - Item count: 25
   - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 1
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 3
+  - Item count: 10
+  - In window count: 0
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 9
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
-  - In window count: 0
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
@@ -162,6 +152,11 @@
   - In window count: 6
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 9
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 9
@@ -174,6 +169,11 @@
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
   - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
@@ -195,11 +195,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
@@ -210,41 +205,51 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
-  - Item count: 20
+  - Item count: 10
   - In window count: 8
-- **Sophos X-Ops** (detection_response_operations)
-  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 1
+- **Sophos X-Ops** (detection_response_operations)
+  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+  - Status: ok
+  - Item count: 15
   - In window count: 1
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 1
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 1
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 8
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 6
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
@@ -255,66 +260,46 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 6
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 5
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
-  - Item count: 10
+  - Item count: 20
   - In window count: 2
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 1
+  - In window count: 2
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 5
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
@@ -325,11 +310,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
-  - Item count: 30
-  - In window count: 17
+  - Item count: 10
+  - In window count: 2
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -340,11 +330,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 50
   - In window count: 0
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 24
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
@@ -355,21 +355,21 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 20
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 50
-  - In window count: 24
+  - Item count: 30
+  - In window count: 17
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -380,21 +380,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 7
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 22
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -415,13 +405,23 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -430,16 +430,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
-  - In window count: 1
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
+  - In window count: 22
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -450,21 +445,26 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Google Project Zero** (offensive_vulnerability_research)
   - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
   - Status: ok
@@ -658,12 +658,12 @@
 - Also targets: (none)
 - Dominant features:
   - affected_products: Microsoft SharePoint
-- Cluster IDs: a8bb37fb70, a771aff4b6
+- Cluster IDs: a8bb37fb70, 8c1557a59b
 - Links:
   - https://cyberscoop.com/microsoft-patch-tuesday-october-2026/
-  - https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access
   - https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/
   - https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html
+  - https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access
 
 ### Linux kernel vulnerability activity
 - Anchor signal: Linux kernel
@@ -2033,12 +2033,12 @@ Infosecurity Magazine Home » News » Karaoke Giant Reveals Data Breach Impactin
   - Link: https://www.infosecurity-magazine.com/news/karaoke-giant-data-breach-eight/
   - Summary: Daiichi Kosho says a supply chain breach has exposed personal data on over eight million karaoke customers
 
-### Cluster a771aff4b6 — score 11
+### Cluster 8c1557a59b — score 11
 
-- Title: ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks
-- Source: Huntress (detection_response_operations)
-- Published: 2026-10-16T23:00:00+00:00
-- Link: https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access
+- Title: Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-10-17T15:18:51+00:00
+- Link: https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/
 - Fetch status: ok
 - Member count: 3
 - Corroborating source count: 3
@@ -2046,34 +2046,30 @@ Infosecurity Magazine Home » News » Karaoke Giant Reveals Data Breach Impactin
 
 #### Cluster taxonomy (union across members)
 - threat_categories: supply_chain
-- affected_products: Azure, Microsoft 365, Microsoft SharePoint
+- affected_products: Microsoft 365, Microsoft SharePoint
 - content_type: incident_report, news_report
 - confidence_tier: tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
-- affected_products: Azure, Microsoft 365, Microsoft SharePoint
+- threat_categories: supply_chain
+- affected_products: Microsoft 365, Microsoft SharePoint
 - content_type: news_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-ConnectWise (SkyKick) vendor credentials are being abused to access Microsoft 365 tenants. Disable the apps now and check your logs here.
+ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]
 ```
 
 #### Full body
 
 ```
-Home Blog ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks Published: October 16, 2026 ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks By: Jonathan Semon Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways A Microsoft 365 credential (API secret) belonging to ConnectWise Cloud Backup (formerly SkyKick) has been compromised, and Huntress has confirmed it is being used to gain unauthorized access to customers' M365 environments. Huntress has high confidence that the threat actor also abused ConnectWise Cloud Management applications for Exchange Online, Microsoft Teams, and SharePoint Online. In one Huntress partner tenant, a second ConnectWise application, ConnectWise Cloud Management - MS Teams (Application ID 24205314-2b89-4e07-a2a4-579e898a5640 ), gave itself Global Administrator and then added new credentials to two other applications in that tenant, one of them being a single-tenant Huntress application unique to this partner. Microsoft's sign-in logs record the second application connection coming from a private IPv6 address (ULA) fde4:8dba:2600:37ce:6d26:200:a76:* , a range Microsoft logs for traffic inside its own cloud network. Legitimate ConnectWise traffic and unrelated customer traffic also appears to originate from the same ULA, so please consider the address alone does not identify who operated the system. We are working to determine that. Disabling M365 apps, including the abused ConnectWise apps will not remove credentials that were already added. You must review the credentials on all of your M365 applications. Impacted organizations should immediately disable the ConnectWise Cloud Backup (formerly SkyKick, Application ID: 506e08f9-6e9a-4da4-942b-a099a03644ae ) and ConnectWise Cloud Management - MS Teams (Application ID 24205314-2b89-4e07-a2a4-579e898a5640 ) applications in their Microsoft 365 tenant. Consider temporarily disabling other ConnectWise Cloud Management application IDs as well. Disable application IDs, do not delete them. Disabling the app in your tenant does not change backups ConnectWise has already stored. Confirm retention and restore options with ConnectWise. Do not re-enable affected ConnectWise applications until ConnectWise confirms all credentials have been reset. Acknowledgements : Special thanks to Rich Mozeleski, Andrew Brandt, Andrew Kaiser, Dave Kleinatland, and Matt Kiely for their contributions to this investigation and writeup. Update: 10/17/26 @ 4:45 PM ET During further investigations, Huntress identified a second, targeted wave of attempts from 144.172.64[.]128 on October 15, unsuccessfully targeting a narrow scope of 16 Huntress-protected tenants. These tenants are in the policy, national security, trade, and critical mineral sectors. Unlike the first wave of activity outlined in our initial blog below, most of these tenants do not rely on any ConnectWise products. In tenants without the relevant ConnectWise service principal, the attempts failed because the application was not present. For the new target set, the first sweep targeted Graph tokens from the SkyKick app and occurred on October 15 between 09:25:04 and 12:35:50 UTC. Several tenants were hit in bursts during that timeframe. The second sweep hit the same tenants on the same date, between 13:54:39 and 14:20:24 UTC. This sweep appeared to be manual and targeted Exchange Online, SharePoint Online, Teams, Azure Resource Manager, Entra, and the Office 365 Management APIs. In addition to the activity above: Huntress has identified almost 1,000 Entra tenants with sign-in activity from the IP address associated with the unauthorized activity ( 144.172.64[.]128 ). Over 300 of those succeeded. While many of these sign-ins were successful, the absence of a service principal in some tenants prevented the threat actor from successfully gaining access to those tenants. Huntress have also received external reports and tips from outside our fleet describing similar activity in o
+Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack By Ionut Ilascu October 17, 2026 11:18 AM 2 ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. Reports of the malicious activity began emerging on Friday, with administrators observing unauthorized access to client data in Microsoft 365 tenants due to a potential “SkyKick/CW breach.” Later on the same day, managed cybersecurity and threat detection platform Huntress confirmed the worries, saying that it had identified at least 162 compromised tenants in its environment. In a post today, Microsoft also confirmed malicious activity involving ConnectWise’s Cloud Backup service, saying it identified unauthorized authentication attempts from an IP address on October 15. ConnectWise’s cloud backup solutions provide backup and recovery services that help managed service providers (MSPs) and IT teams protect and restore customer data, such as emails and files, in cloud environments including Microsoft 365 and Google Workspace. For Microsoft 365 backups, the service relies on permissions granted through Microsoft Entra ID. An application identity known as a “service principal” represents the software in a customer’s tenant and enables it to access resources according to the permissions granted. Microsoft 365 tenant breaches In a security advisory , ConnectWise said that it “recently identified unauthorized access to application identities within the ConnectWise Cloud Backup environment” and shut down application access for its partners and clients. “We have no indicators to date that Cloud Backup partner backup data has been compromised. The existing cloud backup archive is not impacted by this service interruption and will be accessible once services are restored,” ConnectWise says . However, the company has launched an investigation and is engaged in remediation efforts. Based on reports from Microsoft, Huntress, and administrators, the malicious activity started at least on October 15 from a single IP address: 144.172.64[.]128 . One user on Reddit said that they received a notification from the Microsoft Privileged Identity Management (PIM) service on October 15 alerting of a SkyKick service principal assigning itself the role of Exchange Administrator, despite not using the app in years. Nevertheless, some of the reported IDs for the offensive SkyKick match those provided by Huntress, Microsoft, and Todyl - a cybersecurity platform primarily for MSPs and IT professionals. According to Todyl researchers, the attacker authenticated directly to Microsoft 365 as the backup application using its secret, gaining the permissions customers had already granted it. The sign-in requests were performed by an automated script, and since they did not involve a user login, protections such as multi-factor authentication (MFA) were ineffective. “Because the application already held broad, previously granted permissions in each tenant, those sign-ins gave the attacker the technical ability to read and write mail and attachments, OneDrive and SharePoint files, and Teams chats,” Todyl said . In the analyzed intrusions on nine tenants, Todyl researchers identified only sign-in activity and did not find evidence that the threat actor “created accounts, added permissions, changed passwords, or established persistence in any tenant through the backup app.” Reconnaissance and persistence attempts However, Huntress saw on nearly 50 tenants it monitors that service principals for “ConnectWise’s Cloud Management apps (Exchange Online, Microsoft Teams, and Microsoft Graph) assigned themselves directory roles, mostly Exchange Administrator.” In one tenant, Huntress researchers also observed that the attacker established persistence, the operation taking around five minutes. During the activity, Cloud Management - MS Teams ( 24205314-2b89-4e07-a2a4-579e898
 ```
 
 #### Corroborating sources (3)
 
-- **Huntress** (detection_response_operations)
-  - Title: ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks
-  - Published: 2026-10-16T23:00:00+00:00
-  - Link: https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access
-  - Summary: ConnectWise (SkyKick) vendor credentials are being abused to access Microsoft 365 tenants. Disable the apps now and check your logs here.
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack
   - Published: 2026-10-17T15:18:51+00:00
@@ -2084,56 +2080,11 @@ Home Blog ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks Publis
   - Published: 2026-10-17T06:16:46+00:00
   - Link: https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html
   - Summary: Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments. ConnectWise Cloud Backup is a cloud-based backup and recovery service built for managed service providers (MSPs
-
-### Cluster dbc31057a4 — score 11
-
-- Title: MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-10-17T11:11:56+00:00
-- Link: https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: npm
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_industries: critical_infrastructure
-- affected_products: npm
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_industries: critical_infrastructure
-- affected_products: npm
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named "imgdecode," was uploaded to the package registry on September 30, 2026, by a user named "malfexteste8." It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of
-```
-
-#### Full body
-
-```
-MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon  Ravie Lakshmanan  Oct 17, 2026 Malware / Windows Security Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX . The package, named " imgdecode ," was uploaded to the package registry on September 30, 2026, by a user named "malfexteste8." It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of the package is 1.0.3. "The npm package imgdecode hides a malicious loader in a compiled Node.js addon," SafeDep said . "Its nine-line JavaScript file loads a Windows dynamic-link library (DLL). When a Node.js program calls require('imgdecode') from a Windows console, the DLL attempts to download encrypted shellcode from GitHub. It decrypts the response and injects the result into a new dllhost.exe process." First documented by both Checkmarx and CloudSEK, MALFEX is the name assigned to a long-running campaign in which an unknown threat actor has been publishing malicious packages to npm since August 6, 2023, with an aim to compromise Windows systems. These packages were published across five npm publisher handles: malfexkkj, malfex_user, malfexteste2, malfexteste3, malfexteste4. Of the eight identified packages, three were found to act as a loader for Overlord RAT, while three others ("cdn-img-fetch," "img-to-native," and "native-runner") worked together to download and run a Node.js stealer. A third infection pathway involved the use of a postinstall hook to execute JavaScript capable of contacting an external server and retrieving an unspecified next-stage binary. Interestingly, the threat actor behind the campaign appears to be responding to public disclosures and npm removals by publishing replacements for "native-runner" and "img-to-native" within two days in the form of "runhelper" and "imgbundle." That same day, the first version of "imgdecode" was published. The timeline of events is as follows - September 26, 2026 - cdn-img-fetch, img-to-native, and native-runner 1.0.0 published September 28, 2026, at 4:06 p.m. UTC - npm removes native-runner and img-to-native September 30, 2026, at 3:29 a.m. UTC - imgbundle 1.0.0 published, replacing img-to-native September 30, 2026, at 3:37 a.m. UTC - runhelper 1.0.0 published, replacing native-runner September 30, 2026, at 4:13 p.m. UTC - runhelper unpublished September 30, 2026, at 10:32 p.m. UTC - imgdecode 1.0.0 published September 30, 2026, at 11:07 p.m. UTC - imgdecode 1.0.1 published October 1, 2026, at 5:48 p.m. UTC - imgdecode 1.0.2 published October 7, 2026, at 11:06 p.m. UTC - npm removes imgbundle October 8, 2026, at 1:03 p.m. UTC - npm removes cdn-img-fetch October 11, 2026, at 10:09 p.m. UTC - imgdecode 1.0.3 published The Node.js stealer chain is notable for the fact that none of the packages featured an install hook. Instead, the malicious code runs when "native-runner" is loaded. The package lists "img-to-native" as its dependency, which, in turn, has "img-to-native" as a dependency. The exact functionality of each of these packages is below - cdn-img-fetch downloads "banner.png" from a GitHub repository ("cavecrew/proj") and extracts an encrypted blob. img-to-native decrypts the blob using the key "malfexteam2027" and writes the contents to disk as a Go executable ("%APPDATA%\Microsoft\Windows\node_runtime_helper.exe"). native-runner executes the Go executable, which then downloads the stealer binary ("setup.exe" aka movinlike) from "104.234.65[.]75:700." " Runhelper ," advertised as a helper utility for "launching native binaries from Node.js projects," functions similarly to "native-runner" in that it's designed to run malicious code. Its primary responsibility is to locate a JPG file ("cdn-img-fetch/.runtime/rt.jpg"), extract shellcode from it, copy it into executable memory, and run it using Koffi , a Foreign Function Interface (FFI) mo
-```
-
-#### Corroborating sources (2)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon
-  - Published: 2026-10-17T11:11:56+00:00
-  - Link: https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html
-  - Summary: Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named "imgdecode," was uploaded to the package registry on September 30, 2026, by a user named "malfexteste8." It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of
-- **Elastic Security Labs** (detection_response_operations)
-  - Title: Auditing the auditor: Unmasking Apex Accelerator
-  - Published: 2026-10-12T00:00:00+00:00
-  - Link: https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages
-  - Summary: REF8801 exposes how Apex Accelerator combines convincing Web3 services with malicious npm packages, attacker-controlled AI infrastructure, and cross-platform malware delivery.
+- **Huntress** (detection_response_operations)
+  - Title: ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks
+  - Published: 2026-10-16T23:00:00+00:00
+  - Link: https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access
+  - Summary: ConnectWise (SkyKick) vendor credentials are being abused to access Microsoft 365 tenants. Disable the apps now and check your logs here.
 
 ### Cluster baa3477655 — score 10
 
@@ -2367,127 +2318,6 @@ Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabi
   - Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/
   - Summary: Microsoft has released its monthly security update for October 2026, which includes 1415 vulnerabilities affecting a range of products, including 85 that Microsoft marked as "critical."
 
-### Cluster a328f0a9e5 — score 10
-
-- Title: Meeting the ECB’s AI-Enabled Cybersecurity Supervisory Recommendations with NodeZero®
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-10-16T13:22:00+00:00
-- Link: https://horizon3.ai/downloads/joint-solutions-briefs/ecb-cybersecurity-recommendations-nodezero/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_industries: financial_services, government
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_industries: financial_services, government
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Explore how NodeZero autonomous penetration testing connects application, cloud, identity, and infrastructure weaknesses into validated attack paths, helping banks prioritize remediation and build evidence for the ECB’s cybersecurity supervisory recommendations.
-```
-
-#### Full body
-
-```
-Meeting the ECB’s AI-Enabled Cybersecurity Supervisory Recommendations with NodeZero® Horizon3 October 16, 2026 Joint Solutions Briefs As AI accelerates vulnerability discovery and exploitation, financial institutions need evidence that their defenses can withstand the attack paths an adversary could actually use. This solution brief explains how NodeZero® autonomous penetration testing helps banks translate the ECB’s cybersecurity focus areas into validated exposure, prioritized remediation, and proof that fixes close attack paths. Move from Assessment to Demonstrated Proof The brief outlines the ECB’s six focus areas: protecting the attack surface; accelerating vulnerability and patch management; enhancing monitoring, detection, and AI-enabled defense; strengthening governance and supply chain assurance; reinforcing defense-in-depth cyber hygiene; and improving operational resilience and recovery. NodeZero tests infrastructure, cloud, identity, and web applications, chaining exploitable weaknesses into demonstrated attack paths. Teams gain evidence of what is reachable, how weaknesses connect, and where remediation can reduce risk. Follow an Attack Path from an Exposed Application to Domain Compromise The document walks through a connected attack chain, beginning with an exposed application configuration file. It shows how a service credential enables authenticated access, an application weakness exposes cloud credentials, and a privileged Azure runbook opens a route into internal infrastructure. The path continues through Active Directory and SQL Server access to SYSTEM privileges and domain compromise. Each stage connects the technical evidence to relevant ECB focus areas, illustrating why application, cloud, identity, and infrastructure testing belong in one continuous assessment. Prioritize Fixes and Verify Risk Reduction The brief identifies practical remediation points across the chain, including exposed files, application code, credentials, access rights, and remote-execution paths. It explains why closing initial access and correcting downstream weaknesses both matter. With remediation verification and recurring testing, teams can confirm that a fix closes or materially reduces a validated path. Risk Based Exposure Management and vulnerability prioritization help focus effort on weaknesses that create a credible route to business impact. Build Evidence for Your Action Plan Validated attack paths can support evidence for exposed assets, application and identity weaknesses, cloud and internal reachability, least privilege, segmentation, and risk-based remediation. The brief also explains where separate evidence is needed for monitoring and detection, management oversight, third-party assurance, incident response, recovery, and information sharing. It includes results from a Tier-1 financial services organization to illustrate the business impact of autonomous testing. Download the ECB Cybersecurity Solution Brief Explore the attack-path walkthrough and learn how NodeZero can support your institution’s cybersecurity action plan with proof of exposure and remediation. Download the ECB Cybersecurity Solution Brief How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Meeting the ECB’s AI-Enabled Cybersecurity Supervisory Recommendations with NodeZero®
-  - Published: 2026-10-16T13:22:00+00:00
-  - Link: https://horizon3.ai/downloads/joint-solutions-briefs/ecb-cybersecurity-recommendations-nodezero/
-  - Summary: Explore how NodeZero autonomous penetration testing connects application, cloud, identity, and infrastructure weaknesses into validated attack paths, helping banks prioritize remediation and build evidence for the ECB’s cybersecurity supervisory recommendations.
-
-### Cluster b5227daa92 — score 10
-
-- Title: From Proven Attack Paths to Verified Fixes: Horizon3 and Torq Close the Remediation Loop
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-10-15T16:16:41+00:00
-- Link: https://horizon3.ai/intelligence/blogs/horizon3-torq-verified-security-remediation/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Horizon3 and Torq connect real-world attack-path evidence to security operations, coordinated remediation, and verification. Discover how NodeZero and Torq help teams prioritize exploitable exposures, automate remediation workflows, and confirm that security fixes hold.
-```
-
-#### Full body
-
-```
-From Proven Attack Paths to Verified Fixes: Horizon3 and Torq Close the Remediation Loop Brad Hong October 15, 2026 Blogs A remediation ticket can be closed while the exposure remains exploitable. A password change may leave other compromised credentials unaddressed. A configuration update may correct one system while the same weakness persists elsewhere. The work is recorded as complete, but the attacker still has a way through. Security teams are buried in findings, and most of them never lead anywhere an attacker cares about. What they need is proof at both ends of remediation: what an attacker can exploit before the fix, and whether the attacker can still exploit it after. The Horizon3 and Torq partnership connects those steps. NodeZero® proves which weaknesses an attacker can exploit and where they lead. Torq brings that proof into security operations and drives the fix through the tools and teams that own it. NodeZero then attacks again to prove the fix held. The value is in carrying that proof through the entire workflow: it decides what gets fixed first, who owns it, and when the work is actually done. Vulnerable Does Not Equal Exploitable. Exploitable Does Not Equal Impact. A vulnerability finding identifies a weakness. It does not establish whether an attacker can reach and exploit that weakness in your environment. Successful exploitation then raises another question: what does that access enable? The distinction matters when deciding what to fix first. A weakness that exposes a privileged identity or sensitive data can demand a different response from one that provides limited access to an isolated system. Severity alone cannot explain those relationships. NodeZero tests them. NodeZero safely tests the production environment from a defined starting position, such as an assumed-breach foothold inside the network or the external perimeter, chaining vulnerabilities, misconfigurations, and credential weaknesses to demonstrate attack paths and resulting impacts. This reveals how individual findings connect. A compromised credential may provide access to a host, where another weakness enables privilege escalation or further movement. Each step contributes to the outcome, but treating the findings as unrelated tickets can obscure which changes would interrupt the chain. Attack-path evidence gives remediation teams that context: which identities and systems are exposed, what an attacker achieved, and which single fix breaks several paths at once. Connect Attack Evidence to Security Operations Torq’s Horizon3 integration provides steps for retrieving pentests, weaknesses, attack paths, hosts, and credentials, plus a GraphQL query step that opens the rest of the Horizon3 API to workflow builders. The connection uses a Horizon3 API key and the gateway URL for the relevant region. Using a User role API key, workflows can also schedule NodeZero verification tests; a Read-only key can retrieve results but cannot start tests. Torq workflows can retrieve NodeZero findings on a schedule or on demand. Each finding arrives with the attack-path impact NodeZero demonstrated, and Torq adds asset ownership from the organization’s other systems, connecting the technical evidence to the operational context needed to act. Ownership answers who can make the change. Attack-path context explains what the change is intended to prevent. On the Torq side, Socrates, Torq’s AI SOC Analyst, supports prioritization, Torq Hyperautomation coordinates actions across connected systems, and Case Management tracks the findings and remediation process. Together, they let customers use AI to fight AI: NodeZero proves exposure at machine speed, and Torq acts on that proof at machine speed. The organization decides which actions run automatically and what counts as done. Coordinate Remediation Across the Systems Involved An attack path can cross identity, endpoint, and cloud systems. Addressing it may require several changes owned by different teams. Torq work
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: From Proven Attack Paths to Verified Fixes: Horizon3 and Torq Close the Remediation Loop
-  - Published: 2026-10-15T16:16:41+00:00
-  - Link: https://horizon3.ai/intelligence/blogs/horizon3-torq-verified-security-remediation/
-  - Summary: Horizon3 and Torq connect real-world attack-path evidence to security operations, coordinated remediation, and verification. Discover how NodeZero and Torq help teams prioritize exploitable exposures, automate remediation workflows, and confirm that security fixes hold.
-
-### Cluster a9ee824994 — score 10
-
-- Title: Integrate to Remediate Proven Attack Paths and Verify Every Fix Automatically
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-10-14T15:47:56+00:00
-- Link: https://horizon3.ai/downloads/joint-solutions-briefs/horizon3-torq-attack-path-remediation-verification/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Discover how Horizon3 and Torq bring NodeZero® exploitability findings into SOC workflows to orchestrate remediation, contain exposed credentials, and verify that attack paths are closed.
-```
-
-#### Full body
-
-```
-Integrate to Remediate Proven Attack Paths and Verify Every Fix Automatically Horizon3 October 14, 2026 Joint Solutions Briefs Security teams need more than a list of weaknesses. They need evidence of which attack paths are exploitable, a way to act on that evidence, and confirmation that remediation closed the path. The Horizon3 and Torq joint solution brief explains how NodeZero® autonomous pentesting and Torq’s AI SOC platform connect proven exploitability with automated remediation and verification. Connect Proof to Remediation NodeZero safely tests the live environment from an assumed-breach position, chaining vulnerabilities, misconfigurations, and credential weaknesses across network, cloud, identity, and Active Directory to demonstrate reachable attack paths. Torq brings those findings into SOC workflows, enriching them with asset ownership and attack-path impact. Teams can use this context to focus remediation on the weaknesses NodeZero has demonstrated are exploitable. Verify That the Fix Held The integration connects remediation with a scoped verification pentest. Torq can orchestrate actions across identity, endpoint, cloud, collaboration, and ITSM tools, then launch a targeted retest to confirm that the attack path is closed. Verified findings resolve in Case Management. Findings that remain exploitable return for another remediation pass, supporting a continuous hack, fix, verify cycle. Explore the Integration’s Use Cases The brief shows how Horizon3 and Torq work together to: Close proven attack paths: Use impact-scored findings to direct remediation across identity, endpoint, and cloud. Contain exposed credentials: Trigger credential rotation and session revocation, followed by verification. Verify remediation automatically: Retest after remediation and resolve a finding once the path is proven closed. The document also illustrates how NodeZero findings flow into Torq Hyperautomation, Socrates AI SOC Analyst, and Case Management, connecting proven weaknesses with coordinated action and verified outcomes. Download the Horizon3 + Torq Joint Solution Brief See how Horizon3 and Torq connect proven attack paths, automated remediation, and verification in a continuous security workflow. Download the Horizon3 + Torq Joint Solution Brief How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Integrate to Remediate Proven Attack Paths and Verify Every Fix Automatically
-  - Published: 2026-10-14T15:47:56+00:00
-  - Link: https://horizon3.ai/downloads/joint-solutions-briefs/horizon3-torq-attack-path-remediation-verification/
-  - Summary: Discover how Horizon3 and Torq bring NodeZero® exploitability findings into SOC workflows to orchestrate remediation, contain exposed credentials, and verify that attack paths are closed.
-
 ### Cluster c99d86a173 — score 10
 
 - Title: TAG-217 Targets South Korean Financial Services with ARTEX
@@ -2661,6 +2491,127 @@ Malware Indicators of Compromise (IoCs): A Complete Guide to Detection and Respo
   - Published: 2026-10-13T00:00:00+00:00
   - Link: https://www.recordedfuture.com/blog/malware-indicators-of-compromise
   - Summary: Learn what malware indicators of compromise (IoCs) are, common types, how they’re collected, and best practices for detection and response.
+
+### Cluster a328f0a9e5 — score 10
+
+- Title: Meeting the ECB’s AI-Enabled Cybersecurity Supervisory Recommendations with NodeZero®
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-10-16T13:22:00+00:00
+- Link: https://horizon3.ai/downloads/joint-solutions-briefs/ecb-cybersecurity-recommendations-nodezero/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_industries: financial_services, government
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_industries: financial_services, government
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Explore how NodeZero autonomous penetration testing connects application, cloud, identity, and infrastructure weaknesses into validated attack paths, helping banks prioritize remediation and build evidence for the ECB’s cybersecurity supervisory recommendations.
+```
+
+#### Full body
+
+```
+Meeting the ECB’s AI-Enabled Cybersecurity Supervisory Recommendations with NodeZero® Horizon3 October 16, 2026 Joint Solutions Briefs As AI accelerates vulnerability discovery and exploitation, financial institutions need evidence that their defenses can withstand the attack paths an adversary could actually use. This solution brief explains how NodeZero® autonomous penetration testing helps banks translate the ECB’s cybersecurity focus areas into validated exposure, prioritized remediation, and proof that fixes close attack paths. Move from Assessment to Demonstrated Proof The brief outlines the ECB’s six focus areas: protecting the attack surface; accelerating vulnerability and patch management; enhancing monitoring, detection, and AI-enabled defense; strengthening governance and supply chain assurance; reinforcing defense-in-depth cyber hygiene; and improving operational resilience and recovery. NodeZero tests infrastructure, cloud, identity, and web applications, chaining exploitable weaknesses into demonstrated attack paths. Teams gain evidence of what is reachable, how weaknesses connect, and where remediation can reduce risk. Follow an Attack Path from an Exposed Application to Domain Compromise The document walks through a connected attack chain, beginning with an exposed application configuration file. It shows how a service credential enables authenticated access, an application weakness exposes cloud credentials, and a privileged Azure runbook opens a route into internal infrastructure. The path continues through Active Directory and SQL Server access to SYSTEM privileges and domain compromise. Each stage connects the technical evidence to relevant ECB focus areas, illustrating why application, cloud, identity, and infrastructure testing belong in one continuous assessment. Prioritize Fixes and Verify Risk Reduction The brief identifies practical remediation points across the chain, including exposed files, application code, credentials, access rights, and remote-execution paths. It explains why closing initial access and correcting downstream weaknesses both matter. With remediation verification and recurring testing, teams can confirm that a fix closes or materially reduces a validated path. Risk Based Exposure Management and vulnerability prioritization help focus effort on weaknesses that create a credible route to business impact. Build Evidence for Your Action Plan Validated attack paths can support evidence for exposed assets, application and identity weaknesses, cloud and internal reachability, least privilege, segmentation, and risk-based remediation. The brief also explains where separate evidence is needed for monitoring and detection, management oversight, third-party assurance, incident response, recovery, and information sharing. It includes results from a Tier-1 financial services organization to illustrate the business impact of autonomous testing. Download the ECB Cybersecurity Solution Brief Explore the attack-path walkthrough and learn how NodeZero can support your institution’s cybersecurity action plan with proof of exposure and remediation. Download the ECB Cybersecurity Solution Brief How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Meeting the ECB’s AI-Enabled Cybersecurity Supervisory Recommendations with NodeZero®
+  - Published: 2026-10-16T13:22:00+00:00
+  - Link: https://horizon3.ai/downloads/joint-solutions-briefs/ecb-cybersecurity-recommendations-nodezero/
+  - Summary: Explore how NodeZero autonomous penetration testing connects application, cloud, identity, and infrastructure weaknesses into validated attack paths, helping banks prioritize remediation and build evidence for the ECB’s cybersecurity supervisory recommendations.
+
+### Cluster b5227daa92 — score 10
+
+- Title: From Proven Attack Paths to Verified Fixes: Horizon3 and Torq Close the Remediation Loop
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-10-15T16:16:41+00:00
+- Link: https://horizon3.ai/intelligence/blogs/horizon3-torq-verified-security-remediation/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Horizon3 and Torq connect real-world attack-path evidence to security operations, coordinated remediation, and verification. Discover how NodeZero and Torq help teams prioritize exploitable exposures, automate remediation workflows, and confirm that security fixes hold.
+```
+
+#### Full body
+
+```
+From Proven Attack Paths to Verified Fixes: Horizon3 and Torq Close the Remediation Loop Brad Hong October 15, 2026 Blogs A remediation ticket can be closed while the exposure remains exploitable. A password change may leave other compromised credentials unaddressed. A configuration update may correct one system while the same weakness persists elsewhere. The work is recorded as complete, but the attacker still has a way through. Security teams are buried in findings, and most of them never lead anywhere an attacker cares about. What they need is proof at both ends of remediation: what an attacker can exploit before the fix, and whether the attacker can still exploit it after. The Horizon3 and Torq partnership connects those steps. NodeZero® proves which weaknesses an attacker can exploit and where they lead. Torq brings that proof into security operations and drives the fix through the tools and teams that own it. NodeZero then attacks again to prove the fix held. The value is in carrying that proof through the entire workflow: it decides what gets fixed first, who owns it, and when the work is actually done. Vulnerable Does Not Equal Exploitable. Exploitable Does Not Equal Impact. A vulnerability finding identifies a weakness. It does not establish whether an attacker can reach and exploit that weakness in your environment. Successful exploitation then raises another question: what does that access enable? The distinction matters when deciding what to fix first. A weakness that exposes a privileged identity or sensitive data can demand a different response from one that provides limited access to an isolated system. Severity alone cannot explain those relationships. NodeZero tests them. NodeZero safely tests the production environment from a defined starting position, such as an assumed-breach foothold inside the network or the external perimeter, chaining vulnerabilities, misconfigurations, and credential weaknesses to demonstrate attack paths and resulting impacts. This reveals how individual findings connect. A compromised credential may provide access to a host, where another weakness enables privilege escalation or further movement. Each step contributes to the outcome, but treating the findings as unrelated tickets can obscure which changes would interrupt the chain. Attack-path evidence gives remediation teams that context: which identities and systems are exposed, what an attacker achieved, and which single fix breaks several paths at once. Connect Attack Evidence to Security Operations Torq’s Horizon3 integration provides steps for retrieving pentests, weaknesses, attack paths, hosts, and credentials, plus a GraphQL query step that opens the rest of the Horizon3 API to workflow builders. The connection uses a Horizon3 API key and the gateway URL for the relevant region. Using a User role API key, workflows can also schedule NodeZero verification tests; a Read-only key can retrieve results but cannot start tests. Torq workflows can retrieve NodeZero findings on a schedule or on demand. Each finding arrives with the attack-path impact NodeZero demonstrated, and Torq adds asset ownership from the organization’s other systems, connecting the technical evidence to the operational context needed to act. Ownership answers who can make the change. Attack-path context explains what the change is intended to prevent. On the Torq side, Socrates, Torq’s AI SOC Analyst, supports prioritization, Torq Hyperautomation coordinates actions across connected systems, and Case Management tracks the findings and remediation process. Together, they let customers use AI to fight AI: NodeZero proves exposure at machine speed, and Torq acts on that proof at machine speed. The organization decides which actions run automatically and what counts as done. Coordinate Remediation Across the Systems Involved An attack path can cross identity, endpoint, and cloud systems. Addressing it may require several changes owned by different teams. Torq work
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: From Proven Attack Paths to Verified Fixes: Horizon3 and Torq Close the Remediation Loop
+  - Published: 2026-10-15T16:16:41+00:00
+  - Link: https://horizon3.ai/intelligence/blogs/horizon3-torq-verified-security-remediation/
+  - Summary: Horizon3 and Torq connect real-world attack-path evidence to security operations, coordinated remediation, and verification. Discover how NodeZero and Torq help teams prioritize exploitable exposures, automate remediation workflows, and confirm that security fixes hold.
+
+### Cluster a9ee824994 — score 10
+
+- Title: Integrate to Remediate Proven Attack Paths and Verify Every Fix Automatically
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-10-14T15:47:56+00:00
+- Link: https://horizon3.ai/downloads/joint-solutions-briefs/horizon3-torq-attack-path-remediation-verification/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Discover how Horizon3 and Torq bring NodeZero® exploitability findings into SOC workflows to orchestrate remediation, contain exposed credentials, and verify that attack paths are closed.
+```
+
+#### Full body
+
+```
+Integrate to Remediate Proven Attack Paths and Verify Every Fix Automatically Horizon3 October 14, 2026 Joint Solutions Briefs Security teams need more than a list of weaknesses. They need evidence of which attack paths are exploitable, a way to act on that evidence, and confirmation that remediation closed the path. The Horizon3 and Torq joint solution brief explains how NodeZero® autonomous pentesting and Torq’s AI SOC platform connect proven exploitability with automated remediation and verification. Connect Proof to Remediation NodeZero safely tests the live environment from an assumed-breach position, chaining vulnerabilities, misconfigurations, and credential weaknesses across network, cloud, identity, and Active Directory to demonstrate reachable attack paths. Torq brings those findings into SOC workflows, enriching them with asset ownership and attack-path impact. Teams can use this context to focus remediation on the weaknesses NodeZero has demonstrated are exploitable. Verify That the Fix Held The integration connects remediation with a scoped verification pentest. Torq can orchestrate actions across identity, endpoint, cloud, collaboration, and ITSM tools, then launch a targeted retest to confirm that the attack path is closed. Verified findings resolve in Case Management. Findings that remain exploitable return for another remediation pass, supporting a continuous hack, fix, verify cycle. Explore the Integration’s Use Cases The brief shows how Horizon3 and Torq work together to: Close proven attack paths: Use impact-scored findings to direct remediation across identity, endpoint, and cloud. Contain exposed credentials: Trigger credential rotation and session revocation, followed by verification. Verify remediation automatically: Retest after remediation and resolve a finding once the path is proven closed. The document also illustrates how NodeZero findings flow into Torq Hyperautomation, Socrates AI SOC Analyst, and Case Management, connecting proven weaknesses with coordinated action and verified outcomes. Download the Horizon3 + Torq Joint Solution Brief See how Horizon3 and Torq connect proven attack paths, automated remediation, and verification in a continuous security workflow. Download the Horizon3 + Torq Joint Solution Brief How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Integrate to Remediate Proven Attack Paths and Verify Every Fix Automatically
+  - Published: 2026-10-14T15:47:56+00:00
+  - Link: https://horizon3.ai/downloads/joint-solutions-briefs/horizon3-torq-attack-path-remediation-verification/
+  - Summary: Discover how Horizon3 and Torq bring NodeZero® exploitability findings into SOC workflows to orchestrate remediation, contain exposed credentials, and verify that attack paths are closed.
 
 ### Cluster 15a43bf96e — score 10
 
@@ -2841,6 +2792,56 @@ Infosecurity Magazine Home » News » Luna Moth Leaks Shed Light on Ransomware G
   - Published: 2026-10-12T15:15:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/luna-moth-leaks-ransomware-playbook/
   - Summary: Leaked documents suggest a multi-pronged operation, with social engineering and more technical attackers working together to manipulate a single target
+
+### Cluster dbc31057a4 — score 10
+
+- Title: MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-10-17T11:11:56+00:00
+- Link: https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: npm
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_industries: critical_infrastructure
+- affected_products: npm
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_industries: critical_infrastructure
+- affected_products: npm
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named "imgdecode," was uploaded to the package registry on September 30, 2026, by a user named "malfexteste8." It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of
+```
+
+#### Full body
+
+```
+MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon  Ravie Lakshmanan  Oct 17, 2026 Malware / Windows Security Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX . The package, named " imgdecode ," was uploaded to the package registry on September 30, 2026, by a user named "malfexteste8." It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of the package is 1.0.3. "The npm package imgdecode hides a malicious loader in a compiled Node.js addon," SafeDep said . "Its nine-line JavaScript file loads a Windows dynamic-link library (DLL). When a Node.js program calls require('imgdecode') from a Windows console, the DLL attempts to download encrypted shellcode from GitHub. It decrypts the response and injects the result into a new dllhost.exe process." First documented by both Checkmarx and CloudSEK, MALFEX is the name assigned to a long-running campaign in which an unknown threat actor has been publishing malicious packages to npm since August 6, 2023, with an aim to compromise Windows systems. These packages were published across five npm publisher handles: malfexkkj, malfex_user, malfexteste2, malfexteste3, malfexteste4. Of the eight identified packages, three were found to act as a loader for Overlord RAT, while three others ("cdn-img-fetch," "img-to-native," and "native-runner") worked together to download and run a Node.js stealer. A third infection pathway involved the use of a postinstall hook to execute JavaScript capable of contacting an external server and retrieving an unspecified next-stage binary. Interestingly, the threat actor behind the campaign appears to be responding to public disclosures and npm removals by publishing replacements for "native-runner" and "img-to-native" within two days in the form of "runhelper" and "imgbundle." That same day, the first version of "imgdecode" was published. The timeline of events is as follows - September 26, 2026 - cdn-img-fetch, img-to-native, and native-runner 1.0.0 published September 28, 2026, at 4:06 p.m. UTC - npm removes native-runner and img-to-native September 30, 2026, at 3:29 a.m. UTC - imgbundle 1.0.0 published, replacing img-to-native September 30, 2026, at 3:37 a.m. UTC - runhelper 1.0.0 published, replacing native-runner September 30, 2026, at 4:13 p.m. UTC - runhelper unpublished September 30, 2026, at 10:32 p.m. UTC - imgdecode 1.0.0 published September 30, 2026, at 11:07 p.m. UTC - imgdecode 1.0.1 published October 1, 2026, at 5:48 p.m. UTC - imgdecode 1.0.2 published October 7, 2026, at 11:06 p.m. UTC - npm removes imgbundle October 8, 2026, at 1:03 p.m. UTC - npm removes cdn-img-fetch October 11, 2026, at 10:09 p.m. UTC - imgdecode 1.0.3 published The Node.js stealer chain is notable for the fact that none of the packages featured an install hook. Instead, the malicious code runs when "native-runner" is loaded. The package lists "img-to-native" as its dependency, which, in turn, has "img-to-native" as a dependency. The exact functionality of each of these packages is below - cdn-img-fetch downloads "banner.png" from a GitHub repository ("cavecrew/proj") and extracts an encrypted blob. img-to-native decrypts the blob using the key "malfexteam2027" and writes the contents to disk as a Go executable ("%APPDATA%\Microsoft\Windows\node_runtime_helper.exe"). native-runner executes the Go executable, which then downloads the stealer binary ("setup.exe" aka movinlike) from "104.234.65[.]75:700." " Runhelper ," advertised as a helper utility for "launching native binaries from Node.js projects," functions similarly to "native-runner" in that it's designed to run malicious code. Its primary responsibility is to locate a JPG file ("cdn-img-fetch/.runtime/rt.jpg"), extract shellcode from it, copy it into executable memory, and run it using Koffi , a Foreign Function Interface (FFI) mo
+```
+
+#### Corroborating sources (2)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon
+  - Published: 2026-10-17T11:11:56+00:00
+  - Link: https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html
+  - Summary: Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named "imgdecode," was uploaded to the package registry on September 30, 2026, by a user named "malfexteste8." It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of
+- **Elastic Security Labs** (detection_response_operations)
+  - Title: Auditing the auditor: Unmasking Apex Accelerator
+  - Published: 2026-10-12T00:00:00+00:00
+  - Link: https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages
+  - Summary: REF8801 exposes how Apex Accelerator combines convincing Web3 services with malicious npm packages, attacker-controlled AI infrastructure, and cross-platform malware delivery.
 
 ### Cluster c6a5397bce — score 10
 
@@ -3093,6 +3094,47 @@ I remember the name of that AI doco now - The AI Doc: Or How I Became an Apocalo
   - Link: https://www.troyhunt.com/weekly-update-525/
   - Summary: I remember the name of that AI doco now - The AI Doc: Or How I Became an Apocaloptimist . I was watching it on the long-haul flight home the other day, and what I found particularly engrossing was the polar-opposite opinions from a bunch of people: "it'
 
+### Cluster 79a9ac95de — score 9
+
+- Title: GTA 6 leaker threatens to release full playable version of game ahead of official launch
+- Source: Graham Cluley (practitioner_analysis)
+- Published: 2026-10-13T08:20:56+00:00
+- Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/gta-6-leaker-threatens-release-full-game
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+The hacker behind a high-profile string of leaks involving the upcoming release of the Grand Theft Auto (GTA) 6 videogame has threatened to release a complete, playable build. Read more in my article on the Hot for Security blog.
+```
+
+#### Full body
+
+```
+Industry News 2 min read GTA 6 leaker threatens to release full playable version of game ahead of official launch Graham CLULEY October 13, 2026 The hacker behind a high-profile string of leaks involving the upcoming release of the Grand Theft Auto (GTA) 6 videogame has threatened to release a complete, playable build. The website of "CyberLeek" published the threat shortly after releasing around 25 minutes of fresh footage of the blockbuster game due to be released in November by Rockstar Games. Eurogamer , which has seen the footage, says it appears to be legitimate , and confirmed that it carries the emblem of CyberLeek. According to CyberLeek, the full playable build of GTA 6 will be released when its own cryptocurrency coin reaches a market cap of US $30 million. In an attempt to give its claims more credence, CyberLeek says that any doubters can request specific scenes to confirm it has access to the entire game. CyberLeek says that if the GTA 6 game is released on physical disk, and a public apology is made, it will step back from its threats. Campaign groups like Stop Killing Games which fights games to remain playable after publishers end support, have reportedly distanced themselves from CyberLeek's actions, and in August posted on Reddit that gamers should not encourage CyberLeek: "Do not send these people your money, no matter how much sympathy you may feel for their actions. This is illegal, and frankly, we feel for everyone at Rockstar having to go through this ordeal again, especially just over a week before Rockstar’s own official “Extended Look” premieres." Take-Two, Rockstar’s parent company, appears to be hell bent on identifying whoever is behind the leaks, and has attempted to subpoena Microsoft and Discord in order to gather information about their possible identity. Anyone who works in the field of cybersecurity is too familiar with the refrain of "pay up or we release it." What is unusual in this case is that the hacker in not demanding a direct ransom payment, but is instead asking their audience to pump up the value of a crypto token. The hacker's hope is that the pent-up desire of enough Grand Theft Auto fans will boost how much the crypto coins are worth. But, of course, there is no guarantee that the hackers will release a full, playable version of the game - even if their cryptocurrency coin does reach US $30 million. As ever, videogame fans should be very wary of believing anybody who offers a download of a supposedly leaked game. Especially when a game is as hyped-up as GTA 6, there is a real risk that unsuspecting fans will be duped into making bad decisions that could put their computer security at risk. Besides which, the real, genuine GTA 6 is due to be released on video game platforms on 19 November. It is not worth infecting your computer, or losing money on a dodgy crypto coin, just to see it a few weeks early. tags Industry News Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also like Bookmarks
+```
+
+#### Corroborating sources (1)
+
+- **Graham Cluley** (practitioner_analysis)
+  - Title: GTA 6 leaker threatens to release full playable version of game ahead of official launch
+  - Published: 2026-10-13T08:20:56+00:00
+  - Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/gta-6-leaker-threatens-release-full-game
+  - Summary: The hacker behind a high-profile string of leaks involving the upcoming release of the Grand Theft Auto (GTA) 6 videogame has threatened to release a complete, playable build. Read more in my article on the Hot for Security blog.
+
 ### Cluster be99652207 — score 9
 
 - Title: Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation
@@ -3184,47 +3226,6 @@ Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit At
   - Published: 2026-10-15T07:07:05+00:00
   - Link: https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html
   - Summary: Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian. Langflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. In February 2025, DataStax, the parent company of Langflow, was acquired by IBM. The vulnerability in question is CVE-2026-105740 (CVSS score: 9.9), a case of
-
-### Cluster 79a9ac95de — score 9
-
-- Title: GTA 6 leaker threatens to release full playable version of game ahead of official launch
-- Source: Graham Cluley (practitioner_analysis)
-- Published: 2026-10-13T08:20:56+00:00
-- Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/gta-6-leaker-threatens-release-full-game
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: financial_services
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- affected_industries: financial_services
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-The hacker behind a high-profile string of leaks involving the upcoming release of the Grand Theft Auto (GTA) 6 videogame has threatened to release a complete, playable build. Read more in my article on the Hot for Security blog.
-```
-
-#### Full body
-
-```
-Industry News 2 min read GTA 6 leaker threatens to release full playable version of game ahead of official launch Graham CLULEY October 13, 2026 The hacker behind a high-profile string of leaks involving the upcoming release of the Grand Theft Auto (GTA) 6 videogame has threatened to release a complete, playable build. The website of "CyberLeek" published the threat shortly after releasing around 25 minutes of fresh footage of the blockbuster game due to be released in November by Rockstar Games. Eurogamer , which has seen the footage, says it appears to be legitimate , and confirmed that it carries the emblem of CyberLeek. According to CyberLeek, the full playable build of GTA 6 will be released when its own cryptocurrency coin reaches a market cap of US $30 million. In an attempt to give its claims more credence, CyberLeek says that any doubters can request specific scenes to confirm it has access to the entire game. CyberLeek says that if the GTA 6 game is released on physical disk, and a public apology is made, it will step back from its threats. Campaign groups like Stop Killing Games which fights games to remain playable after publishers end support, have reportedly distanced themselves from CyberLeek's actions, and in August posted on Reddit that gamers should not encourage CyberLeek: "Do not send these people your money, no matter how much sympathy you may feel for their actions. This is illegal, and frankly, we feel for everyone at Rockstar having to go through this ordeal again, especially just over a week before Rockstar’s own official “Extended Look” premieres." Take-Two, Rockstar’s parent company, appears to be hell bent on identifying whoever is behind the leaks, and has attempted to subpoena Microsoft and Discord in order to gather information about their possible identity. Anyone who works in the field of cybersecurity is too familiar with the refrain of "pay up or we release it." What is unusual in this case is that the hacker in not demanding a direct ransom payment, but is instead asking their audience to pump up the value of a crypto token. The hacker's hope is that the pent-up desire of enough Grand Theft Auto fans will boost how much the crypto coins are worth. But, of course, there is no guarantee that the hackers will release a full, playable version of the game - even if their cryptocurrency coin does reach US $30 million. As ever, videogame fans should be very wary of believing anybody who offers a download of a supposedly leaked game. Especially when a game is as hyped-up as GTA 6, there is a real risk that unsuspecting fans will be duped into making bad decisions that could put their computer security at risk. Besides which, the real, genuine GTA 6 is due to be released on video game platforms on 19 November. It is not worth infecting your computer, or losing money on a dodgy crypto coin, just to see it a few weeks early. tags Industry News Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also like Bookmarks
-```
-
-#### Corroborating sources (1)
-
-- **Graham Cluley** (practitioner_analysis)
-  - Title: GTA 6 leaker threatens to release full playable version of game ahead of official launch
-  - Published: 2026-10-13T08:20:56+00:00
-  - Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/gta-6-leaker-threatens-release-full-game
-  - Summary: The hacker behind a high-profile string of leaks involving the upcoming release of the Grand Theft Auto (GTA) 6 videogame has threatened to release a complete, playable build. Read more in my article on the Hot for Security blog.
 
 ### Cluster d0175e4e87 — score 9
 
@@ -3793,6 +3794,39 @@ Edward Dubrovsky, a longtime cybersecurity executive, was arrested and charged i
   - Link: https://www.darkreading.com/insider-threats/prominent-ransomware-negotiator-extortion-charges
   - Summary: Edward Dubrovsky, a longtime cybersecurity executive, was arrested and charged in Pennsylvania last week under conspiracy to extort money.
 
+### Cluster eff03a7556 — score 8
+
+- Title: An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-10-14T11:00:00+00:00
+- Link: https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The bug was simple: the login let you choose where your sign-in code went. Proving it on a live website was the hard part. TL;DR During an authorized assessment, an AI pentesting agent found a critical authentication bypass on a major insurer's production website, on its own. One login request let the user choose where the one-time passcode went. The attack was the easy part. Proving it
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.
+  - Published: 2026-10-14T11:00:00+00:00
+  - Link: https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html
+  - Summary: The bug was simple: the login let you choose where your sign-in code went. Proving it on a live website was the hard part. TL;DR During an authorized assessment, an AI pentesting agent found a critical authentication bypass on a major insurer's production website, on its own. One login request let the user choose where the one-time passcode went. The attack was the easy part. Proving it
+
 ### Cluster d13acecc7c — score 8
 
 - Title: ICO Reprimands Met Over Third-Party Data Leak
@@ -3862,39 +3896,6 @@ ReliaQuest confirmed that the Qilin and Settra ransomware groups are actively ex
   - Published: 2026-10-12T09:15:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/palo-alto-vpn-vulnerability-target/
   - Summary: ReliaQuest confirmed that the Qilin and Settra ransomware groups are actively exploiting a Palo Alto vulnerability patched in May
-
-### Cluster eff03a7556 — score 8
-
-- Title: An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-10-14T11:00:00+00:00
-- Link: https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The bug was simple: the login let you choose where your sign-in code went. Proving it on a live website was the hard part. TL;DR During an authorized assessment, an AI pentesting agent found a critical authentication bypass on a major insurer's production website, on its own. One login request let the user choose where the one-time passcode went. The attack was the easy part. Proving it
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.
-  - Published: 2026-10-14T11:00:00+00:00
-  - Link: https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html
-  - Summary: The bug was simple: the login let you choose where your sign-in code went. Proving it on a live website was the hard part. TL;DR During an authorized assessment, an AI pentesting agent found a critical authentication bypass on a major insurer's production website, on its own. One login request let the user choose where the one-time passcode went. The attack was the easy part. Proving it
 
 ### Cluster ae34d601ea — score 8
 
