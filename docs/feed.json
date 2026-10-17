@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T22:43:35.029613+00:00",
+  "generated_at": "2026-10-17T01:12:40.465125+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2208,
@@ -11,8 +11,29 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 4
+    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -25,43 +46,8 @@
       "item_count": 25,
       "in_window_count": 0
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
-    },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
@@ -74,26 +60,12 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 6
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -102,6 +74,20 @@
       "item_count": 15,
       "in_window_count": 2
     },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
@@ -109,12 +95,12 @@
       "item_count": 100,
       "in_window_count": 2
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 15,
+      "in_window_count": 3
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -123,6 +109,20 @@
       "item_count": 10,
       "in_window_count": 9
     },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 6
+    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
@@ -130,18 +130,18 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
+    },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
       "in_window_count": 0
     },
     "PortSwigger Research": {
@@ -151,18 +151,11 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
+      "item_count": 50,
       "in_window_count": 0
     },
     "watchTowr Labs": {
@@ -172,6 +165,13 @@
       "item_count": 15,
       "in_window_count": 0
     },
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
@@ -179,19 +179,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 7
+      "in_window_count": 8
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -199,6 +192,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -235,6 +235,13 @@
       "item_count": 30,
       "in_window_count": 1
     },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 13
+    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
@@ -249,13 +256,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 6
-    },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -263,19 +263,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 13
-    },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 6
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -291,16 +291,16 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 2
+      "in_window_count": 1
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
@@ -326,6 +326,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -333,12 +340,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 20,
+      "in_window_count": 0
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -354,20 +361,6 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 20
-    },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -375,12 +368,12 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 30,
+      "in_window_count": 18
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -389,6 +382,20 @@
       "item_count": 50,
       "in_window_count": 0
     },
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
       "cohort": "ai_security_agentic_risk",
@@ -396,15 +403,15 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 19
+      "item_count": 20,
+      "in_window_count": 20
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -417,25 +424,11 @@
       "item_count": 50,
       "in_window_count": 24
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 1
-    },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
       "in_window_count": 1
     },
     "Schneier on Security": {
@@ -444,6 +437,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 7
+    },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -466,12 +466,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 2
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -480,15 +480,8 @@
       "item_count": 50,
       "in_window_count": 50
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -496,6 +489,13 @@
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -513,27 +513,27 @@
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 3
+      "in_window_count": 2
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 20
-    },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 21
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 1
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 1
     },
     "Risky Business News": {
@@ -681,65 +681,14 @@
   },
   "affinity_groups": [
     {
-      "label": "Ivanti active exploitation",
-      "anchor_signal": "Ivanti",
-      "theme_key": "ivanti",
-      "dominant_features": {
-        "threat_categories": [
-          "zero_day",
-          "active_exploitation",
-          "apt_espionage"
-        ],
-        "actor_attribution": [
-          "UNC5221"
-        ],
-        "affected_products": [
-          "Ivanti"
-        ],
-        "cve_ids": [
-          "CVE-2023-46805",
-          "CVE-2024-21887",
-          "CVE-2025-0282",
-          "CVE-2026-102764"
-        ],
-        "urgency_signals": [
-          "zero_day",
-          "no_patch_yet",
-          "actively_exploited"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 11,
-      "cohesion": 0.324,
-      "shared_strong_signals": [
-        "Ivanti"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "d7ef6dfb22",
-        "2aa23d3748",
-        "95c7bfa05e"
-      ],
-      "links": [
-        "https://www.rapid7.com/blog/post/etr-ivanti-connect-secure-zero-day-exploited-in-the-wild-cve-2026-104935",
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-104935/",
-        "https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/",
-        "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
-        "https://cyberscoop.com/ivanti-connect-secure-zero-day-actively-exploited/",
-        "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching",
-        "https://therecord.media/beyond-trust-cyberattack-china",
-        "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/"
-      ]
-    },
-    {
-      "label": "UNC5221 exploitation (CVE-2026-102764)",
+      "label": "UNC5221 active exploitation",
       "anchor_signal": "UNC5221",
       "theme_key": "unc5221",
       "dominant_features": {
         "threat_categories": [
           "zero_day",
           "apt_espionage",
+          "active_exploitation",
           "web_shell_backdoor"
         ],
         "actor_attribution": [
@@ -756,25 +705,31 @@
         ],
         "urgency_signals": [
           "zero_day",
-          "no_patch_yet"
+          "no_patch_yet",
+          "actively_exploited"
         ]
       },
-      "cluster_count": 3,
-      "article_count": 6,
-      "cohesion": 0.484,
+      "cluster_count": 4,
+      "article_count": 14,
+      "cohesion": 0.437,
       "shared_strong_signals": [
         "UNC5221"
       ],
-      "member_cves": [
-        "CVE-2026-102764"
-      ],
+      "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
+        "d7ef6dfb22",
         "dd71dd27f0",
         "2aa23d3748",
         "95c7bfa05e"
       ],
       "links": [
+        "https://www.rapid7.com/blog/post/etr-ivanti-connect-secure-zero-day-exploited-in-the-wild-cve-2026-104935",
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-104935/",
+        "https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/",
+        "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
+        "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching",
+        "https://cyberscoop.com/china-espionage-attacks-beyondtrust-zero-day-armory-castle/",
         "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust/",
         "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/",
         "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
@@ -1100,18 +1055,37 @@
         "https://orca.security/resources/blog/how-to-apply-your-own-vulnerability-scoring-in-orca-with-custom-agents/",
         "https://research.checkpoint.com/2026/12th-october-threat-intelligence-report/"
       ]
+    },
+    {
+      "label": "Citrix vulnerability activity",
+      "anchor_signal": "Citrix",
+      "theme_key": "citrix",
+      "dominant_features": {
+        "affected_products": [
+          "Citrix"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "Citrix"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "5d5fb499b6",
+        "95c7bfa05e"
+      ],
+      "links": [
+        "https://research.checkpoint.com/2026/12th-october-threat-intelligence-report/",
+        "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/"
+      ]
     }
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [
-        {
-          "value": "CVE-2026-103849",
-          "cluster_id": "75450a47d2",
-          "first_source": "BleepingComputer",
-          "first_published": "2026-10-16T20:00:59+00:00"
-        }
-      ],
+      "cves": [],
       "actors": [],
       "products": []
     },
@@ -1217,24 +1191,6 @@
         ]
       },
       {
-        "actor": "Flax Typhoon",
-        "cluster_id": "a8bb37fb70",
-        "new_industries": [
-          "legal_professional"
-        ],
-        "new_products": [],
-        "prior_top_industries": [
-          "critical_infrastructure",
-          "government",
-          "healthcare"
-        ],
-        "prior_top_products": [
-          "Anthropic/Claude",
-          "Microsoft SharePoint",
-          "OpenAI/ChatGPT"
-        ]
-      },
-      {
         "actor": "ShinyHunters",
         "cluster_id": "be99652207",
         "new_industries": [],
@@ -1299,14 +1255,14 @@
       },
       {
         "axis": "cve_ids",
-        "value": "CVE-2026-35273",
-        "cluster_id": "55d35536fa",
+        "value": "CVE-2026-88779",
+        "cluster_id": "5d5fb499b6",
         "weeks_observed": 3
       },
       {
         "axis": "cve_ids",
-        "value": "CVE-2026-88779",
-        "cluster_id": "5d5fb499b6",
+        "value": "CVE-2026-35273",
+        "cluster_id": "55d35536fa",
         "weeks_observed": 3
       }
     ],
@@ -2160,7 +2116,7 @@
           "products": []
         }
       },
-      "score": 4
+      "score": 3
     },
     {
       "source": "The Record",
@@ -2196,7 +2152,7 @@
           "products": []
         }
       },
-      "score": 10,
+      "score": 9,
       "full_body": "The Arundel Center, Anne Arundel County's main office building in Annapolis, Maryland. Image: aacounty.org Baltimore suburb confirms August data breach after ransomware claims Officials in Anne Arundel County, Maryland, confirmed that hackers stole files from government systems during an incident in August. A county spokesperson told Recorded Future News that they discovered “irregular activity” on August 28 and began an investigation on a “limited subset of systems within the county computer network.” “Through the course of the county’s response and investigation, it was determined that an unauthorized actor gained access to a limited number of systems and copied certain files from those systems,” the spokesperson said. The spokesperson did not respond to questions about what data was involved but said investigators are currently reviewing the files to determine whether any stolen information related to residents of the county. The Baltimore suburb is home to more than 600,000 residents and the state’s capital of Annapolis. Washington, D.C. is nearby, as well. Dozens of federal agencies have offices or headquarters in the county, including the Defense Department, the Internal Revenue Service, the Environmental Protection Agency, the Social Security Administration, the Department of Agriculture, the U.S. Coast Guard and more. County officials said they notified federal law enforcement about the data breach as well as other government agencies. The attack was claimed by the Rhysida ransomware gang, which threatened to leak 2.6 terabytes worth of documents stolen from the county if a $2 million ransom was not paid. The group recently attempted to extort the government of Berlin after stealing troves of emails and contracts from government systems. Rhysida has repeatedly targeted governments across the globe since emerging several years ago. Its victims include Kuwait’s Finance Ministry , the city of Seattle and the city of Columbus, Ohio and even the transportation department of Maryland . Anne Arundel County dealt with a ransomware attack by a different group last year that forced the government to shut off multiple systems. In a stroke of bad luck, the county released a new statement about last year’s attack on Thursday evening, telling residents that it planned to send out breach notification letters about leaked data in that incident on October 19. A spokesperson for the county told Recorded Future News that the August 28 attack is a “separate incident.” The Anne Arundel County spokesperson added that recent reports “indicate that there has been a surge in these kinds of calculated cybercrimes specifically targeting state and local governments.” Cities and counties in New Mexico , Utah , Texas , Nebraska , Missouri and Arizona have all dealt with service outages over the last two weeks due to cyberattacks. Government Cybercrime News No previous article No new articles Jonathan Greig is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.",
       "fetch_status": "ok"
     },
@@ -2232,7 +2188,7 @@
           "products": []
         }
       },
-      "score": 18,
+      "score": 17,
       "full_body": "Rapid7 Intelligence Rapid7 Intelligence Wins the 2026 Péter Szőr Award for Outstanding Research Christiaan Beek Oct 16, 2026 | Last updated on Oct 16, 2026 | 5 min read DISCOVER RAPID7 INTELLIGENCE Rapid7 Intelligence Wins the 2026 Péter Szőr Award for Outstanding Research Table of contents Rapid7 Intelligence Wins the 2026 Péter Szőr Award for Outstanding Research DISCOVER RAPID7 INTELLIGENCE Table of contents Some awards you're happy to receive, while others make you stop for a moment. Receiving the 2026 Péter Szőr Award this week at Virus Bulletin in Seville for our research, BPFdoor in Telecom Networks: Sleeper Cells in the Backbone , was of the latter kind. Virus Bulletin created the award to honor Péter's life and work, and it recognizes outstanding technical security research: the rigorous, the deep, and the useful – exactly what he was known for himself. And as far as recognitions in our industry go, it's hard to top. I'm extremely proud. What the Pèter Szőr Award means to us I knew Péter, and early in my career, I learned from him. This was back when malware analysis meant staring at assembly, arguing about what a routine really did, and realizing hours later that your first theory was wrong. One memory came straight back when I heard about the award: going through Stuxnet together. For anyone in research at the time, that was the moment you knew the game had changed. Engineering, tradecraft, espionage and physical-world consequences, all in one package. What stayed with me wasn't how much Péter knew, but rather his curiosity. He wanted to understand things, and then once he did, he wanted everyone else to understand too. Plenty of brilliant people in cybersecurity keep it to themselves, but the ones who leave a legacy make the people around them better. Receiving an award that carries his name felt like one of those full-circle moments. The research behind the award The original research from Rapid7 Intelligence emerged after months of investigating stealthy access inside telecommunications environments. This wasn't malware dropped during a conventional intrusion, but long-term strategic positioning: passive backdoors, kernel-level capabilities and covert access, quietly settled into critical infrastructure and in no hurry whatsoever. Telecom networks carry our communications, our identities and, increasingly, everything governments and businesses run on. So when an adversary sets up camp there, the impact goes well beyond one compromised machine or one unlucky company. Virus Bulletin's community nomination noted that the work paired deep technical investigation with real-world impact, including long hours with agencies and CERTs around the world and tools, scripts, intelligence and detection capabilities for defenders. That's the part I'm happiest about, as this wasn't research for publication alone. Remember that a PDF has never stopped an intrusion. Publishing research is a checkpoint, not the finish line We're still doing the research. Since the original report, Rapid7 Intelligence has analyzed hundreds more samples, found previously undocumented BPFDoor variants, and tracked changes in the operators' tradecraft. Our follow-up work covered new httpShell and icmpShell variants built to make detection even harder. In further publications , we went beyond BPFDoor to additional Linux implants and infrastructure targeting telecom and network-edge environments, including AVERAT and techniques that hide in ordinary-looking traffic like SMTP. That's how this work goes. You find something, you share it, someone sends you another sample, a CERT spots something in their environment, an analyst notices the one odd function nobody looked at twice, and you're back down the rabbit hole. Anyone who thinks an initial report is the finish line has never received \"just one more sample\" at 4 p.m. on a Friday. And truthfully, I also love that this happens in the open. From the outside, our industry looks like a cage match over attrib",
       "fetch_status": "ok"
     },
@@ -2282,7 +2238,7 @@
           "products": []
         }
       },
-      "score": 10,
+      "score": 9,
       "full_body": "Image: BeyondTrust / maks_d via Unsplash Suspected Chinese espionage attackers abusing BeyondTrust IT support zero-day An alleged Chinese state-backed group is using a new zero-day in BeyondTrust software to conduct espionage attacks. BeyondTrust, Mandiant and Google Threat Intelligence Group (GTIG) confirmed the zero-day on Thursday evening, publishing incident reports detailing attacks involving the bug. The identity security company said the vulnerability affects its Remote Support appliances that enable IT teams to securely access and troubleshoot remote endpoints. A patch has been released addressing the issue and several mitigations are available. Other cybersecurity firms have since confirmed exploitation. The company said it was first tipped off to the bug — tagged as CVE-2026-102764 — on September 27, when an attack against another vendor's edge appliances became public and sparked an investigation into a similar issue. Mandiant also warned BeyondTrust of a potential vulnerability, sending the company’s engineering team on a hunt that led them back to a zero-day exploited on August 29. Mandiant incident responders said the attackers were able to escalate their privileges after exploiting the bug, moving laterally within the victim’s network and establishing a deeper foothold. They noted that the group behind the attacks — which they call Armory Castle or UNC5221 — “leveraged a deep understanding of BeyondTrust appliance internals” due to their abuse of proprietary tools. Mandiant saw the group use custom malware they call Sawfly and Bareclaw. The threat actors found a way to get every credential the appliance stored and were able to modify files that survive reboots and configuration resets. Mandiant warned that any vulnerable appliance that was reachable from the internet should be treated as potentially compromised until it has been reviewed. ‘Long-term intelligence collection’ BeyondTrust confirmed Mandiant’s assessment that Armory Castle is a Chinese “state-sponsored espionage operation focused on long-term intelligence collection.” “ARMORY CASTLE’s documented targets include legal services, SaaS providers, business-process outsourcers, technology companies, and government,” the company said, noting that researchers believe the group targets technology firms to help with the discovery of other zero-day exploits. The group was previously responsible for exploiting multiple vulnerabilities in popular edge devices and was known to use passive backdoors and other novel tools to sustain their access to breached systems. The group has been active since October 2023 and Google said they have “targeted a wide range of countries and verticals during their operations.” “In past campaigns, ARMORY CASTLE has conducted widespread and opportunistic exploitation following the public disclosure of vulnerabilities it had exploited selectively as zero-days, racing to infiltrate target organizations before patches are deployed,” they said. “It is possible that we will observe similar widespread exploitation attempts associated with CVE-2026-102764.” Google compared the situation to previous incidents where the same threat actors conducted widespread exploitation of two bugs affecting products from IT firm Ivanti following their disclosure. Armory Castle was also previously implicated in exploiting zero-days affecting Citrix as well as multiple issues in Ivanti products, including CVE-2023-46805 , CVE-2024-21887 , and CVE-2025-0282 . “In 2025, Mandiant reported that the actor took an Ivanti patch for a flaw that had been rated low risk, studied it, and turned it into working remote code execution against unpatched appliances,” BeyondTrust said. “The actor uses a zero-day selectively against chosen targets, and once the vulnerability is public, the actor typically moves to broad exploitation of every instance still unpatched.” Last year, Mandiant and multiple U.S. agencies warned about activity from the group targeting governments, le",
       "fetch_status": "ok"
     },
@@ -2312,7 +2268,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Infosecurity Magazine",
@@ -2342,7 +2298,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Help Net Security",
@@ -2372,7 +2328,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Orca Security Research",
@@ -2388,25 +2344,19 @@
         "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "Azure"
-        ],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
-        "role_map": {
-          "Azure": "target"
-        },
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
       },
-      "score": 9,
-      "full_body": "Ask most teams for a map of their network and you’ll get one of two things: a diagram someone drew for an audit two years ago, or an export from the firewall and cloud consoles showing what each rule allows. Both describe intent. Neither describes what an attacker on the internet can actually reach today. The gap between the two is where incidents start. A database is marked “public network access enabled” but sits behind a private endpoint, so it isn’t reachable at all. A load balancer looks locked down in one console, but a CDN in front of it forwards traffic from anywhere. A subdomain still points at a cloud resource that was deleted months ago, and anyone can claim it. Orca approaches the network map from the attacker’s side: follow the full path to every asset, then test the perimeter from the outside. Custom Agents turn that data into a map you can keep current without redrawing it by hand. What usually goes into a network map? A useful network map answers a short list of questions. Traditionally, each answer comes from a different source, maintained by a different team: What the map needs Where it usually comes from What Orca adds An inventory of assets and addresses CMDB, IP address management, spreadsheets Cloud asset inventory across accounts, plus discovered domains, subdomains, and IP addresses The ways in from the internet Security group and load balancer configurations An exposure rating for every asset, calculated across the full network path The controls in front of each asset Firewall, security group, and WAF rule exports Security groups, cloud firewalls, Check Point firewalls, WAFs, and CDNs evaluated together, with labels showing which assets are fully or partly behind a WAF Open ports and running services Port scans, configuration review Exposure rated per port, for services Orca finds running on the asset Application and API endpoints API gateway configurations, developer documentation Discovered API endpoints, Swagger views, and a Network Exposure graph linking open ports to the application endpoints behind them The condition of the perimeter An annual penetration test Ongoing external probing for subdomain takeover risk, certificate problems, exposed files, and debug panels What sits behind the perimeter Team knowledge Attack paths, crown jewels, and the Internet and IAM Exposure Graph The traditional column has a common weakness: each source describes one layer, in one tool, as configured. Combining them is often done manually and made obsolete quickly. Why isn’t the configuration enough? Every cloud provider exposes its own public access settings, such as Azure’s PublicNetworkAccess flag. That setting records what a resource permits. It doesn’t answer whether the resource can be reached from the internet, and the two answers are often different. Orca calculates exposure by following the full network path to each resource: firewall rules, network security groups, private endpoints, load balancers, WAFs, and CDNs. A resource that permits public access but sits behind a private endpoint isn’t reachable, so Orca doesn’t classify it as Public Facing. A virtual machine with a strict security group that receives traffic forwarded by a load balancer inherits the load balancer’s exposure. Each asset ends up with one of a small set of exposure ratings: Public Facing: open to all IPv4 addresses Internet Facing: reachable from specific external addresses, including through CDNs Trusted Access: reachable only from IP ranges you’ve defined as trusted None: no external exposure found Orca also rates exposure per port. An asset can be Internet Facing on port 443 while its other three open ports are Trusted Access or None. That’s the difference between “this server is exposed” and “this one service on this server is exposed,” and it’s the level of detail a network map needs. A firewall rule tells you what one control allows. A network map has to show what the aggregation of controls allows, port by port. What does test",
-      "fetch_status": "ok"
+      "score": 8
     },
     {
       "source": "BleepingComputer",
@@ -2439,7 +2389,7 @@
           "products": []
         }
       },
-      "score": 10,
+      "score": 9,
       "full_body": "Burger King Japan data breach exposes 11 million customer records By Sergiu Gatlan October 16, 2026 08:01 AM 0 Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. Founded in 1953 in Florida, Burger King is now a multinational fast-food chain with nearly 20,000 locations worldwide, including 350 in Japan. In a Thursday press release, Burger King Japan said it concluded a follow-up investigation on October 13 and apologized to customers whose data was stolen in early October and leaked online. The breached servers stored the personal information for users of the company's official smartphone app, including their names, dates of birth, gender, email addresses, phone numbers, and order history. \"We identified a potential unauthorized third-party access to the system that manages member information for our official app and conducted an investigation,\" Burger King Japan said . \"As a result, it was determined on Tuesday, October 13, 2026, that unauthorized access occurred between Friday, October 2, 2026, and Wednesday, October 7, 2026, resulting in a leak of member information. Upon becoming aware of the unauthorized access, we immediately blocked access from the source in question.\" However, the company says the compromised server did not store customer credit card numbers and that it found no evidence that the threat actors accessed user credentials. Burger King Japan has reported the breach to Japan's Personal Information Protection Commission (PPC) and is now also investigating how the attackers accessed the compromised server, with help from external cybersecurity experts. \"We sincerely apologize for the great inconvenience and concern this situation has caused to our customers and all others involved,\" it added. \"At this time, no secondary damage, such as fraudulent use, resulting from this incident has been confirmed.\" The fast-food chain also warned affected customers to watch for suspicious emails, SMS messages, and phone calls that may impersonate Burger King Japan, and to avoid clicking URLs, opening attachments, or entering member information or passwords. This incident adds to a wave of cyberattacks that have impacted several major Japanese companies since the start of the year, including entertainment system maker Daiichi Kosho , cloud and digital infrastructure firm IDC Frontier , Japanese publishing giant Nikkei , private railway operator Keio , car-sharing service Times Car , cloud and data center service provider Sakura Internet , taxi operator Nihon Kotsu , telecommunications giant KDDI , and many others. Macnica researcher Yutaka Sejiyama has logged 119 cybersecurity incidents involving personal information theft or exposure this year and found that attackers are now probing websites and APIs for access-control, configuration, and authentication weaknesses, and exploiting known (n-day) vulnerabilities. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Burger King's Online Store for Kids Exposes Customers’ Info Nikkei discloses breaches of employees’ Microsoft, Google email accounts UK Legal Aid Agency: Hackers stole records dating back to 1978 Nippon Columbia malware incident exposes 8.6 million karaoke fan records Hackers stole Pentagon personnel records of over 3 million people",
       "fetch_status": "ok"
     },
@@ -2471,7 +2421,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "The Hacker News",
@@ -2499,7 +2449,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Schneier on Security",
@@ -2529,7 +2479,7 @@
           "products": []
         }
       },
-      "score": 7
+      "score": 6
     },
     {
       "source": "SecurityWeek",
@@ -2564,7 +2514,7 @@
           "products": []
         }
       },
-      "score": 16
+      "score": 15
     },
     {
       "source": "Reddit r/netsec",
@@ -2954,7 +2904,7 @@
           "products": []
         }
       },
-      "score": 11,
+      "score": 10,
       "full_body": "TAG-217 Targets South Korean Financial Services with ARTEX The threat actor linked to recent AI-assisted attacks on South Korean financial institutions was testing infrastructure and assembling attack tools as early as August 2026, weeks before the banking campaign became public, according to new research from Recorded Future’s Insikt Group. Subsequent public reporting indicated that the breaches exposed personal data belonging to at least 68,000 people across at least seven financial institutions. Insikt Group’s investigation expands the known timeline and capabilities of the actor, tracked as TAG-217. Insikt Group uncovered tools designed to steal cryptocurrency wallet files, gain greater access to Linux systems, and test weaknesses in mobile devices. The findings illustrate the “ jagged edge ” of AI-enabled attacks: threat actors realizing significant gains while committing basic operational security mistakes. AI helps attackers pursue more targets across more environments, but does not prevent them from making the security mistakes that allowed Recorded Future to uncover preparations and capabilities beyond the reported banking campaign. Those mistakes give defenders opportunities to identify related activity and disrupt operations. Targeting South Korean Banks In early October 2026, South Korea’s Financial Services Commission (FSC) disclosed that multiple financial institutions had been hit by cyberattacks. The attacks had compromised different systems and allowed unauthorized access to different data at each victim entity, with one breach exposing the personal information of an outsourced developer and another resulting in the theft of customer data. Industry sources reported that the attacks involved the use of ARTEX, a Chinese-language, open-source AI penetration testing framework. The variety of targets at each financial institution likely demonstrates an advantage of AI over human operators: the ability to opportunistically test for weaknesses at scale until a valuable target is found. On October 7, 2026, public analysis of the incident identified that the threat actor, suspected to be a Chinese speaker, used several AI tools as part of their campaign, including Claude Code, DeepSeek, Grok, and Zhipu AI. Other reports shared network infrastructure indicators used in the campaign, including a primary server running ARTEX and the use of residential proxies, likely to obfuscate the origin of the activity. Recorded Future investigated this infrastructure to better understand the actor’s operations and tracked this activity under the designation TAG-217. Putting Together a More Complete Timeline for TAG-217 Differentiating between agentic and human-operated attacks can be difficult, especially when skilled threat actors use AI to enhance operational effectiveness. Agentic attacks use the same tactics and techniques as human operators, though faster and at scale. In the case of TAG-217, operational security mistakes allowed Insikt Group to piece together how the threat actor used AI tools to amplify their intrusion attempts across multiple environments and to uncover earlier preparations and a broader set of capabilities than public reporting revealed. TAG-217 routed its traffic through residential internet connections, likely to reduce the chances of detection. Recorded Future analysts used open directories within TAG-217 infrastructure to further understand its operations (Source: Recorded Future) Using open directories and other evidence left exposed by TAG-217, Insikt Group identified activity beginning weeks earlier than previously reported, as well as additional attempts to carry out a variety of financially motivated operations. A reconstructed timeline of events is as follows: August 17–22, 2026: TAG-217 tested infrastructure designed to maintain remote access to computers and conducted internet scanning. Its logs recorded repeated test connections between its own servers, but did not indicate successful access to ",
       "fetch_status": "ok"
     },
@@ -4773,8 +4723,7 @@
         ],
         "affected_industries": [
           "government",
-          "critical_infrastructure",
-          "legal_professional"
+          "critical_infrastructure"
         ],
         "affected_products": [
           "Microsoft SharePoint",
@@ -4809,7 +4758,7 @@
         }
       },
       "score": 19,
-      "full_body": "Advertisement Get our latest cybersecurity news first on Google. Click here! Close Microsoft’s streak of record-breaking vulnerability disclosures continued with a mega Patch Tuesday , containing 1,413 defects affecting the company’s various enterprise products and services. The monthly batch of patches surpassed the company’s previous annual record of 1,261 common vulnerabilities and exposures (CVEs) set in 2020. “Hundreds of CVEs in a single release used to be the exception — now it’s the baseline,” Dustin Childs, head of threat awareness at TrendAI’s Zero Day Initiative, wrote in an email. AI is partly to blame, he added, but it “isn’t creating these bugs out of thin air; it’s just shortening the time between a vulnerability existing and someone noticing it.” Yet, for defenders understandably overwhelmed by the surge of defects found in Microsoft products, actively exploited zero-day vulnerabilities aren’t growing in kind. Advertisement “If there’s solace to be had, it’s in the fact that only one of these bugs is under active attack,” Childs wrote in a blog post . “If you go back to the hot 0-day summer of 2023, there were 17 Microsoft 0-days between January and October as opposed to 15 this year during the same period.” Microsoft disclosed one actively exploited zero-day affecting Windows Shell — CVE-2026-96951 — that allows unauthorized attackers to bypass a security feature. The high-severity defect is the third Windows Shell vulnerability exploited this year, according to Satnam Narang, senior staff research engineer at Tenable. “There have been 26 Windows Shell vulnerabilities patched in 2026 through October, a staggering figure compared to previous years, with only 3 Windows Shell CVEs in 2025 and just one in 2024 and 2022,” he added. The vast majority of defects Microsoft disclosed in this month’s security update affect Windows, its ubiquitous operating system , spanning 1,102 vulnerabilities combined. The update also included 134 vulnerabilities in Office, 61 in various developer tools and 36 in SharePoint Server. Microsoft tried to address the toll this monthly flood of vulnerabilities has on its customers by introducing “ risk cohorts .” These groups of vulnerabilities don’t necessarily share a root cause or severity rating, but generally require a similar customer assessment that could guide prioritization efforts, the company said. Advertisement “The volume isn’t the real story anymore,” Childs added. “What matters is that discovery is scaling faster than exploitation, so teams that triage by sheer CVE count instead of exploitability are burning cycles on the wrong bugs. Patch what’s proven, prioritized, and public, and treat everything else as this month’s new normal.” The full list of vulnerabilities addressed this month is available in Microsoft’s Security Response Center . Share Facebook LinkedIn Twitter Copy Link Add to Preferred Sources Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops A logo sign outside of the headquarters of Ivanti in South Jordan, Utah. (Kristoffer Tripplaar / Alamy Stock Photo) Citrix offices in Santa Clara, California. (Getty Images) Hackers stealing data concept. (Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity The messy middle of AI-powered bug disclosure Which nation-sate should worry us most What AI alignment means for cybersecurity Government Senators press Trump admin to rally federal government around AI safety, security FTC says ‘sextortion’ protection companies deceived customers about services Anthropic rolls out program for ‘long-term commitment’ to secure critical infrastructure, open source software DOJ, FBI seize Flax Typhoon-linked hacking tools Microscan, FishHub Technology OpenAI says Iran, Russia used AI journalists, think tanks to influence Western media FBI, French authorities seize deepfake CSAM-for-sale websites The legal questions raised by agentic AI hacks As AI world debates securit",
+      "full_body": "Advertisement Get our latest cybersecurity news first on Google. Click here! Close Microsoft’s streak of record-breaking vulnerability disclosures continued with a mega Patch Tuesday , containing 1,413 defects affecting the company’s various enterprise products and services. The monthly batch of patches surpassed the company’s previous annual record of 1,261 common vulnerabilities and exposures (CVEs) set in 2020. “Hundreds of CVEs in a single release used to be the exception — now it’s the baseline,” Dustin Childs, head of threat awareness at TrendAI’s Zero Day Initiative, wrote in an email. AI is partly to blame, he added, but it “isn’t creating these bugs out of thin air; it’s just shortening the time between a vulnerability existing and someone noticing it.” Yet, for defenders understandably overwhelmed by the surge of defects found in Microsoft products, actively exploited zero-day vulnerabilities aren’t growing in kind. Advertisement “If there’s solace to be had, it’s in the fact that only one of these bugs is under active attack,” Childs wrote in a blog post . “If you go back to the hot 0-day summer of 2023, there were 17 Microsoft 0-days between January and October as opposed to 15 this year during the same period.” Microsoft disclosed one actively exploited zero-day affecting Windows Shell — CVE-2026-96951 — that allows unauthorized attackers to bypass a security feature. The high-severity defect is the third Windows Shell vulnerability exploited this year, according to Satnam Narang, senior staff research engineer at Tenable. “There have been 26 Windows Shell vulnerabilities patched in 2026 through October, a staggering figure compared to previous years, with only 3 Windows Shell CVEs in 2025 and just one in 2024 and 2022,” he added. The vast majority of defects Microsoft disclosed in this month’s security update affect Windows, its ubiquitous operating system , spanning 1,102 vulnerabilities combined. The update also included 134 vulnerabilities in Office, 61 in various developer tools and 36 in SharePoint Server. Microsoft tried to address the toll this monthly flood of vulnerabilities has on its customers by introducing “ risk cohorts .” These groups of vulnerabilities don’t necessarily share a root cause or severity rating, but generally require a similar customer assessment that could guide prioritization efforts, the company said. Advertisement “The volume isn’t the real story anymore,” Childs added. “What matters is that discovery is scaling faster than exploitation, so teams that triage by sheer CVE count instead of exploitability are burning cycles on the wrong bugs. Patch what’s proven, prioritized, and public, and treat everything else as this month’s new normal.” The full list of vulnerabilities addressed this month is available in Microsoft’s Security Response Center . Share Facebook LinkedIn Twitter Copy Link Add to Preferred Sources Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops A logo sign outside of the headquarters of Ivanti in South Jordan, Utah. (Kristoffer Tripplaar / Alamy Stock Photo) Citrix offices in Santa Clara, California. (Getty Images) Hackers stealing data concept. (Getty Images) Latest Podcasts The messy middle of AI-powered bug disclosure Which nation-sate should worry us most What AI alignment means for cybersecurity Jailbreaks, sandboxes, and the limits of AI safeguards Government The next election influence campaign will target your AI chatbot Senators press Trump admin to rally federal government around AI safety, security FTC says ‘sextortion’ protection companies deceived customers about services Anthropic rolls out program for ‘long-term commitment’ to secure critical infrastructure, open source software Technology DOJ, FBI seize Flax Typhoon-linked hacking tools Microscan, FishHub OpenAI says Iran, Russia used AI journalists, think tanks to influence Western media FBI, French authorities seize deepfake CSAM-for-sale websites The l",
       "fetch_status": "ok"
     },
     {
@@ -6037,42 +5986,6 @@
       "score": 6
     },
     {
-      "source": "CyberScoop",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Ivanti misses opportunity to fix vulnerability before attackers got to work and made it a zero-day",
-      "link": "https://cyberscoop.com/ivanti-connect-secure-zero-day-actively-exploited/",
-      "published": "2026-10-13T22:10:42+00:00",
-      "summary": "The security vendor said it initially discovered a portion of the defect during internal security checks in June, but the company said it didn’t meet the threshold for an out-of-band release. The post Ivanti misses opportunity to fix vulnerability before attackers got to work and made it a zero-day appeared first on CyberScoop .",
-      "author": "Matt Kapko",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Ivanti"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": "vulnerability_disclosure",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "Ivanti": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 17
-    },
-    {
       "source": "Embrace the Red",
       "cohort": "ai_security_agentic_risk",
       "category": "ai_security_agentic_risk",
@@ -6649,7 +6562,9 @@
           "products": []
         }
       },
-      "score": 9
+      "score": 9,
+      "full_body": "",
+      "fetch_status": "fetch_failed:HTTPError"
     },
     {
       "source": "The Hacker News",
@@ -7867,7 +7782,7 @@
       "published": "2026-10-10T00:17:42+00:00",
       "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSecurity.",
       "author": "BrianKrebs",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [
           "ransomware_extortion"
@@ -7889,8 +7804,7 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 7
+      }
     },
     {
       "source": "Simon Willison",
@@ -7901,7 +7815,7 @@
       "published": "2026-10-09T22:48:37+00:00",
       "summary": "Deno is joining Cloudflare The Deno team released the first version of celld back in August - their open source implementation of the Durable Objects pattern from Cloudflare Workers. Today, Cloudflare are acquiring Deno outright, with the goal of building on celld to \"make workerd self-hosting a first-class supported way to build and run apps using the Workers programming model\" (see the Cloudflare blog .) The bad news is that Deno itself will not be maintained by Cloudflare beyond the next year: We will support the Deno runtime for another year with monthly releases containing bug fixes and security updates. After that year we will end our development of the Deno runtime. Deno will remain open source, and we welcome others who want to continue its development. Deno (and Node.js) creator Ryan Dahl explained that decision in a comment on Hacker News: It's a joint decision and I agree with it. I'm most invested in its success and have put the most work into it - and I no longer think it'",
       "author": "",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
@@ -7917,8 +7831,7 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 6
+      }
     },
     {
       "source": "Interconnects",
@@ -8859,33 +8772,6 @@
         "role_map": {
           "npm": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Reddit r/netsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "A Single POST Freezes Any Next.js Server",
-      "link": "https://www.reddit.com/r/netsec/comments/1x0v7sw/a_single_post_freezes_any_nextjs_server/",
-      "published": "2026-10-08T16:17:23+00:00",
-      "summary": "submitted by /u/TradeGold6317 [link] [comments]",
-      "author": "/u/TradeGold6317",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -19338,33 +19224,6 @@
         "role_map": {
           "Microsoft 365": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Proofpoint Threat Insight",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Ghost Service Accounts Enable M365 Data Theft in Chile",
-      "link": "https://www.proofpoint.com/us/newsroom/news/ghost-service-accounts-enable-m365-data-theft-chile",
-      "published": "2026-09-24T16:14:45+00:00",
-      "summary": "",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
