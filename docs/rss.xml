@@ -6,9 +6,20 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 17 Oct 2026 01:12:40 +0000</lastBuildDate>
+<lastBuildDate>Sat, 17 Oct 2026 06:48:25 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants</title>
+<link>https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html</link>
+<description><![CDATA[Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers&apos; M365 environments. ConnectWise Cloud Backup is a cloud-based backup and recovery service built for managed service providers (MSPs<br/><br/><em>Tags: Microsoft 365 · Microsoft SharePoint</em>]]></description>
+<pubDate>Sat, 17 Oct 2026 06:16:46 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>Microsoft 365</category>
+<category>Microsoft SharePoint</category>
+</item>
 <item>
 <title>BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs</title>
 <link>https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs</link>
@@ -322,11 +333,12 @@
 <item>
 <title>How to Build Your Actual Network Map with Custom Agents in Orca</title>
 <link>https://orca.security/resources/blog/how-to-build-your-actual-network-map-with-custom-agents-in-orca/</link>
-<description><![CDATA[Ask most teams for a map of their network and you’ll get one of two things: a diagram someone drew for an audit two years ago, or an export from the firewall and cloud consoles showing what each rule allows. Both describe intent. Neither describes what an attacker on the internet can actually reach today. […]]]></description>
+<description><![CDATA[Ask most teams for a map of their network and you’ll get one of two things: a diagram someone drew for an audit two years ago, or an export from the firewall and cloud consoles showing what each rule allows. Both describe intent. Neither describes what an attacker on the internet can actually reach today. […]<br/><br/><em>Tags: Azure</em>]]></description>
 <pubDate>Fri, 16 Oct 2026 12:30:00 +0000</pubDate>
 <guid isPermaLink="true">https://orca.security/resources/blog/how-to-build-your-actual-network-map-with-custom-agents-in-orca/</guid>
 <source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
 <category>cloud_identity_infrastructure</category>
+<category>Azure</category>
 </item>
 <item>
 <title>Burger King Japan data breach exposes 11 million customer records</title>
@@ -450,15 +462,12 @@
 <item>
 <title>BeyondTrust patches zero-day exploited in attacks since August</title>
 <link>https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/</link>
-<description><![CDATA[BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]<br/><br/><em>Tags: Ivanti · Citrix · UNC5221 · CVE-2026-102764 · CVE-2023-4966 · CVE-2023-46805 · CVE-2024-21887 · CVE-2025-0282</em>]]></description>
+<description><![CDATA[BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]<br/><br/><em>Tags: zero_day</em>]]></description>
 <pubDate>Fri, 16 Oct 2026 06:18:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
-<category>Ivanti</category>
-<category>Citrix</category>
-<category>UNC5221</category>
-<category>CVE-2026-102764</category>
+<category>zero_day</category>
 </item>
 <item>
 <title>Stolen AI API keys are paying for hackers’ autonomous scans</title>
@@ -810,15 +819,15 @@
 <item>
 <title>Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation</title>
 <link>https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html</link>
-<description><![CDATA[Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation. The vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of remote code execution in the management interface. &quot;A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an<br/><br/><em>Tags: Anthropic/Claude · Palo Alto Networks · Cisco · ShinyHunters · CVE-2026-0322 · CVE-2026-76519 · ransomware_extortion</em>]]></description>
+<description><![CDATA[Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation. The vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of remote code execution in the management interface. &quot;A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an<br/><br/><em>Tags: Palo Alto Networks · Linux kernel · Cisco · CVE-2026-0322 · CVE-2026-76519 · web_shell_backdoor</em>]]></description>
 <pubDate>Thu, 15 Oct 2026 11:46:49 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-<category>Anthropic/Claude</category>
 <category>Palo Alto Networks</category>
+<category>Linux kernel</category>
 <category>Cisco</category>
-<category>ShinyHunters</category>
+<category>CVE-2026-0322</category>
 </item>
 <item>
 <title>Warning Over High-Risk Vulnerabilities in Widely Used LLM Gateway Tool</title>
@@ -1739,15 +1748,6 @@
 <guid isPermaLink="true">https://www.bitdefender.com/en-us/blog/hotforsecurity/gta-6-leaker-threatens-release-full-game</guid>
 <source url="https://grahamcluley.com/feed/">Graham Cluley</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies</title>
-<link>https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html</link>
-<description><![CDATA[Low-cost Android smartphones have been shipped with malicious software baked into the device firmware, allowing bad actors to covertly install apps, conduct ad fraud, and turn devices into residential proxies. The activity, which targets Android devices built on MediaTek platforms across several brands, is being tracked by Bitdefender under the moniker Midnight Mimosa. The preinstalled]]></description>
-<pubDate>Tue, 13 Oct 2026 06:00:11 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>September 2026 CVE Landscape</title>
@@ -16158,15 +16158,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>Your personal information is on the dark web. What happens next?</title>
-<link>https://www.welivesecurity.com/en/privacy/information-dark-web-what-happens-next/</link>
-<description><![CDATA[If your data is on the dark web, it’s probably only a matter of time before it’s abused for fraud or account hijacking. Here’s what to do.]]></description>
-<pubDate>Tue, 13 Jan 2026 10:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.welivesecurity.com/en/privacy/information-dark-web-what-happens-next/</guid>
-<source url="https://www.welivesecurity.com/en/rss/feed/">ESET WeLiveSecurity</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>What we know about Iran’s Internet shutdown</title>
 <link>https://blog.cloudflare.com/iran-protests-internet-shutdown/</link>
 <description><![CDATA[Cloudflare Radar data shows Internet traffic from Iran has effectively dropped to zero since January 8, signaling a complete shutdown in the country and disconnection from the global Internet.]]></description>
@@ -19551,7 +19542,7 @@
 <title>October 2026 Patch Tuesday: 1,413 CVEs Include Three Zero-Days and 75 Critical Vulnerabilities</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-october-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 17 Oct 2026 01:12:40 +0000</pubDate>
+<pubDate>Sat, 17 Oct 2026 06:48:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-october-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19560,7 +19551,7 @@
 <title>U.S. Government Disrupts FAMOUS CHOLLIMA Operation with CrowdStrike Assistance</title>
 <link>https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 17 Oct 2026 01:12:40 +0000</pubDate>
+<pubDate>Sat, 17 Oct 2026 06:48:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19569,7 +19560,7 @@
 <title>CrowdStrike and Anthropic Give Critical Infrastructure Defenders the AI Advantage</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 17 Oct 2026 01:12:40 +0000</pubDate>
+<pubDate>Sat, 17 Oct 2026 06:48:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19578,7 +19569,7 @@
 <title>Solving the Continuous Authorization Conundrum</title>
 <link>https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 17 Oct 2026 01:12:40 +0000</pubDate>
+<pubDate>Sat, 17 Oct 2026 06:48:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19587,7 +19578,7 @@
 <title>Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance</title>
 <link>https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 17 Oct 2026 01:12:40 +0000</pubDate>
+<pubDate>Sat, 17 Oct 2026 06:48:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19596,7 +19587,7 @@
 <title>CrowdStrike Named a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises Vendor Assessment</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-modern-endpoint-security-for-enterprises/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 17 Oct 2026 01:12:40 +0000</pubDate>
+<pubDate>Sat, 17 Oct 2026 06:48:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-modern-endpoint-security-for-enterprises/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19605,7 +19596,7 @@
 <title>Request, Aggregate, Bypass: How Attackers Can Evade LLM Safety Classifiers</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-attackers-can-bypass-llm-safety-classifiers/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 17 Oct 2026 01:12:40 +0000</pubDate>
+<pubDate>Sat, 17 Oct 2026 06:48:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-attackers-can-bypass-llm-safety-classifiers/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19614,7 +19605,7 @@
 <title>Falcon Data Security for SaaS Secures Sensitive Data in Microsoft 365</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-data-security-for-saas-secures-sensitive-data/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 17 Oct 2026 01:12:40 +0000</pubDate>
+<pubDate>Sat, 17 Oct 2026 06:48:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-data-security-for-saas-secures-sensitive-data/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19623,7 +19614,7 @@
 <title>New in Falcon Cloud Security: Third-Party App Insights and AI-Enhanced Remediation</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-third-party-app-insights-ai-enhanced-remedation/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 17 Oct 2026 01:12:40 +0000</pubDate>
+<pubDate>Sat, 17 Oct 2026 06:48:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-third-party-app-insights-ai-enhanced-remedation/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19632,7 +19623,7 @@
 <title>CrowdStrike Expands Federal SOC Modernization Through CISA-Funded SIEMaaS</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 17 Oct 2026 01:12:40 +0000</pubDate>
+<pubDate>Sat, 17 Oct 2026 06:48:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
