@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-10-17T15:21:12.541352+00:00
+- Generated: 2026-10-17T18:20:39.355407+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 346
+- Total items in window: 345
 - Total clusters raw: 160
-- Total clusters in packet: 78
-- Dropped low score: 82
+- Total clusters in packet: 75
+- Dropped low score: 85
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,86 +70,71 @@
 
 ## Feed status
 
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
+  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 1
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
-  - Item count: 15
-  - In window count: 3
+  - Item count: 25
+  - In window count: 0
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
+  - In window count: 3
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
   - In window count: 3
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 6
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 9
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
@@ -160,10 +145,30 @@
   - Status: ok
   - Item count: 10
   - In window count: 9
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 6
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
+  - In window count: 0
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 9
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
@@ -174,11 +179,6 @@
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
-  - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
@@ -210,6 +210,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -220,10 +225,10 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
-  - Item count: 10
+  - Item count: 30
   - In window count: 1
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
@@ -235,26 +240,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 1
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 15
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 6
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 15
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -265,21 +270,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
@@ -290,16 +290,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 5
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 5
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
@@ -310,43 +310,23 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
   - Status: ok
-  - Item count: 100
+  - Item count: 20
   - In window count: 1
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 0
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -355,21 +335,41 @@
   - Status: ok
   - Item count: 30
   - In window count: 17
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 0
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 24
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -390,11 +390,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
@@ -405,6 +400,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
@@ -415,11 +415,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 22
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
@@ -435,36 +430,41 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 22
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 17
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - In window count: 16
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
+  - In window count: 1
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **Just Security** (policy_strategy_geopolitics)
-  - URL: https://www.justsecurity.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Just Security** (policy_strategy_geopolitics)
+  - URL: https://www.justsecurity.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Google Project Zero** (offensive_vulnerability_research)
   - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
   - Status: ok
@@ -647,24 +647,6 @@
   - https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html
   - https://www.recordedfuture.com/blog/september-2026-cve-landscape
 
-### Microsoft SharePoint vulnerability activity
-- Anchor signal: Microsoft SharePoint
-- Theme key: microsoft-sharepoint
-- Cluster count: 2
-- Article count: 4
-- Cohesion: 0.2
-- Shared strong signals: Microsoft SharePoint
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Microsoft SharePoint
-- Cluster IDs: a8bb37fb70, bca60260ff
-- Links:
-  - https://cyberscoop.com/microsoft-patch-tuesday-october-2026/
-  - https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html
-  - https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access
-  - https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/
-
 ### Linux kernel vulnerability activity
 - Anchor signal: Linux kernel
 - Theme key: linux-kernel
@@ -743,7 +725,7 @@
 - cve_ids: CVE-2026-88779 (weeks observed: 3, cluster 5d5fb499b6)
 - cve_ids: CVE-2026-35273 (weeks observed: 3, cluster 55d35536fa)
 
-### Tier inversion (4)
+### Tier inversion (3)
 - **Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory**
   - Cluster: a08c0c6808
   - Primary source: The Hacker News
@@ -752,10 +734,6 @@
   - Cluster: d0175e4e87
   - Primary source: Reddit r/netsec
   - Strong signals: CVE-2026-81983
-- **Deep-Dive into Android Binder UaF (CVE-2023-20938) using Time-Travel Debugging**
-  - Cluster: 25a004b01a
-  - Primary source: Reddit r/netsec
-  - Strong signals: CVE-2023-20938
 - **CVE-2026-108082: Symfony ReDoS. One request. Seconds of CPU**
   - Cluster: ae34d601ea
   - Primary source: Reddit r/netsec
@@ -1895,60 +1873,6 @@ AWS Security Blog Quantum-resistant signing on AWS, Part 1: Build a software sup
   - Link: https://aws.amazon.com/blogs/security/quantum-resistant-signing-on-aws-part-1-build-a-software-supply-chain-with-ml-dsa/
   - Summary: Software supply chain attacks have grown in both frequency and sophistication. Recent high-profile compromises of build systems and open source dependencies demonstrate that attackers increasingly target the trust mechanisms that verify software integrity. Those trust mechanisms rely on digital signature algorithms, and today many use traditional algorithms such as Rivest-Shamir-Adleman (RSA) and the Elliptic Curve […]
 
-### Cluster bca60260ff — score 12
-
-- Title: Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-10-17T06:16:46+00:00
-- Link: https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
-- Strong signals: Microsoft 365
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_industries: legal_professional
-- affected_products: Microsoft 365, Microsoft SharePoint
-- content_type: incident_report, news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- affected_industries: legal_professional
-- affected_products: Microsoft 365, Microsoft SharePoint
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments. ConnectWise Cloud Backup is a cloud-based backup and recovery service built for managed service providers (MSPs
-```
-
-#### Full body
-
-```
-Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants  Ravie Lakshmanan  Oct 17, 2026 Cloud Security / Cyberattack Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments. ConnectWise Cloud Backup is a cloud-based backup and recovery service built for managed service providers (MSPs) to secure their clients' Microsoft 365 or Google Workspace data. To accomplish its tasks, the application is granted broad access to mailboxes, OneDrive, SharePoint, Teams, and directory data in every tenant on which it's installed. Huntress said it has observed confirmed unauthorized sign-ins within 173 partner/customer tenants using the compromised vendor credential. The incident impacts every organization that has the app installed, and the credential works against every tenant the app is consented in. "The app's credential is in hostile hands," security researcher Jonathan Semon said . "It was used to obtain Microsoft Graph tokens in customer tenants from 144.172.64[.]128 on October 15, between 06:13 and 08:34 UTC. The actor moved through tenants in sorted GUID order, a few seconds apart, which points to a script working from a target list." In the observed attackers, the adversary has been observed authenticating to the app using their own tooling, in a manner analogous to the backup service, and obtains tokens with the app's existing permissions. Given that the app has extensive permissions to access customer data, an attacker in possession of the tokens can read mailboxes, files, and directory data the backup service can. Huntress said the same IP address engaged in password spraying against four law firm tenants on October 13 and 14, 2026, although it said it detected no successful user sign-ins in its telemetry. In at least one partner tenant, the cybersecurity company said it found a separate ConnectWise app assigning itself Global Administrator privileges and adding credentials to other trusted applications within this environment, thereby opening a pathway to other privileged apps within customer environments. This effectively extends the risk beyond the vendor account. "The ConnectWise Cloud Management app for Microsoft Teams (application ID 24205314-2b89-4e07-a2a4-579e898a5640) added itself to the Global Administrator role, then ran a Python script (User-Agent Python-urllib/3.12) that modified two other applications in the tenant: an MSP management application, and Huntress's own application (Huntress Security Platform), adding new client secrets to both," Semon explained. "The two applications that received new secrets are trusted, privileged tools. Adding a credential to an MSP management application can extend access beyond the one tenant, because those applications are often consented into the MSP's customers' tenants. A credential on a security tool's application gives the holder whatever that tool is permitted to do." Todyl, in a similar analysis, said it detected an unauthorized party authenticating to Microsoft Graph as the ConnectWise Cloud Backup application. "The access inherited the app's existing consent, which permits read/write access to mail and attachments (full mailbox access through Exchange Web Services), OneDrive and SharePoint files, and Teams chats, including the ability to restore data," Nicholas Koken, Todyl's head of Detection Engineering, said . "Revoking user sessions does not end this access. Disabling the app in a tenant stops new tokens from being issued there, though tokens already issued stay valid for up to 90 minutes. Any tenant where the app is still enabled stays exposed until ConnectWise rotates the credential." In response to the incident, ConnectWise has taken the step of closing Cloud Backup application access until further notice. Th
-```
-
-#### Corroborating sources (3)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants
-  - Published: 2026-10-17T06:16:46+00:00
-  - Link: https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html
-  - Summary: Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments. ConnectWise Cloud Backup is a cloud-based backup and recovery service built for managed service providers (MSPs
-- **Huntress** (detection_response_operations)
-  - Title: ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks
-  - Published: 2026-10-16T23:00:00+00:00
-  - Link: https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access
-  - Summary: ConnectWise (SkyKick) vendor credentials are being abused to access Microsoft 365 tenants. Disable the apps now and check your logs here.
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack
-  - Published: 2026-10-17T15:18:51+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/
-  - Summary: ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]
-
 ### Cluster a08c0c6808 — score 12
 
 - Title: Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory
@@ -2000,51 +1924,6 @@ Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory �
   - Published: 2026-10-16T10:42:41+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1x7cvh3/pwnescape_guesttohost_kvm_escape_cve202699999/
   - Summary: submitted by /u/si9int [link] [comments]
-
-### Cluster 5bf398a88b — score 11
-
-- Title: Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-10-16T17:47:54+00:00
-- Link: https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, phishing_social_eng, supply_chain
-- affected_industries: critical_infrastructure, government
-- tools_used: Apple iOS/macOS
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, phishing_social_eng, apt_espionage
-- affected_industries: government, critical_infrastructure
-- tools_used: Apple iOS/macOS
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Unit 42 details the top initial access vectors adversaries use to breach organizations, led by edge exploits, credential abuse and phishing The post Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026 appeared first on Unit 42 .
-```
-
-#### Full body
-
-```
-Threat Research Center Insights General General Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026 2 min read Related Products Unit 42 Incident Response By: Unit 42 Published: October 16, 2026 Categories: General Insights Trend Reports Tags: Initial Access Threat intelligence Trends Share This report provides an overview of the top five initial access threat vectors observed by Unit 42 Threat Intelligence for September 2026. Adversary activity during this period demonstrates a pronounced reliance on external edge exploitation and identity compromise, with the targeting of public-facing infrastructure and legitimate credential abuse serving as the primary footholds for intrusion campaigns. Concurrently, social engineering continues to drive targeted operations against public sector and critical infrastructure targets, while high-impact supply chain intrusions and zero-interaction drive-by compromises pose acute systemic risks across interconnected technology ecosystems. Ranking Threat Title Overview & Behavior Description 1 (Primary Entry Vector) Exploitation of Public-Facing Applications Represents the primary and most frequent entry mechanism observed during the reporting period, characterized by multiple threat clusters identifying and compromising exposed internet-facing web applications, database instances, and perimeter services to establish initial persistent footholds. 2 (Secondary Prevalent Vector) Valid Credentials & Credential Abuse Serves as a leading operational access vector where adversaries utilize pre-harvested, sprayed, or illicitly obtained authentication material, frequently chained alongside edge-service vulnerabilities to bypass perimeter defenses and blend in with legitimate user activity. 3 (Leading Social Engineering Vector) Phishing / Targeted Social Engineering Functions as a primary delivery mechanism across both electronic messaging and browser-centric lures, predominantly deployed to compromise credentials and execute payloads across public sector, defense, and regional enterprise environments. 4 (High-Impact Systemic Vector) Supply Chain Compromise Represents a specialized, high-consequence vector highlighted in targeted reporting, notable for producing widespread cascading impact across diverse critical industry sectors due to advanced attacker tradecraft and trusted-relationship exploitation. 5 (Specialized Delivery Vector) Drive-By Compromise / Watering Hole Operates as an automated exploitation technique where target traffic directed to compromised or malicious web destinations triggers system compromise without requiring interaction beyond site visitation, observed across select specialized threat operations. Table 1. Top 5 Initial Access Threat Vectors Unit 42 Threat Intelligence Services provide organizations with direct access to elite frontline threat expertise, enabling security teams to prioritize real risks and sharpen detection capabilities . These human-led services combine world-class intelligence with direct access to the analysts behind it, offering tailored context and guidance aligned to a customer's specific environment. Back to top Tags Initial Access Threat intelligence Trends Threat Research Center Next: AI-Powered Espionage Campaign Targets Government Linux Infrastructure Related Articles Atomic macOS (AMOS) Stealer Activity Know Ourselves Before Knowing Our Enemies: Threat Intelligence at the Expense of Asset Management Why Threat Intelligence: A Conversation With Unit 42 Interns Related General Resources Insights October 7, 2026 Evolution of Web3 in Cloud Supply Chain Attacks Cloud configuration DPRK Supply-chain attack Read now Insights September 16, 2026 Atomic macOS (AMOS) Stealer Activity MacOS Threat intelligence Unit 42 Read now Insights September 2, 2026 An AI-Assisted Cyber Attack: Inside a Unit 42 Investigation Agentic AI Frontier AI Read now Insights August 28, 2026 Perturbation Probing: A New Diagnostic for the Fragility of LLM Safety AI
-```
-
-#### Corroborating sources (1)
-
-- **Unit 42** (threat_research_primary)
-  - Title: Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026
-  - Published: 2026-10-16T17:47:54+00:00
-  - Link: https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/
-  - Summary: Unit 42 details the top initial access vectors adversaries use to breach organizations, led by edge exploits, credential abuse and phishing The post Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026 appeared first on Unit 42 .
 
 ### Cluster 64d6041454 — score 11
 
@@ -2136,6 +2015,58 @@ Infosecurity Magazine Home » News » Karaoke Giant Reveals Data Breach Impactin
   - Link: https://www.infosecurity-magazine.com/news/karaoke-giant-data-breach-eight/
   - Summary: Daiichi Kosho says a supply chain breach has exposed personal data on over eight million karaoke customers
 
+### Cluster a771aff4b6 — score 11
+
+- Title: ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks
+- Source: Huntress (detection_response_operations)
+- Published: 2026-10-16T23:00:00+00:00
+- Link: https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 3
+- Strong signals: Microsoft 365
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_products: Anthropic/Claude, Microsoft 365, OpenAI/ChatGPT
+- content_type: incident_report, news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- affected_products: OpenAI/ChatGPT, Anthropic/Claude, Microsoft 365
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+ConnectWise (SkyKick) vendor credentials are being abused to access Microsoft 365 tenants. Disable the apps now and check your logs here.
+```
+
+#### Full body
+
+```
+Home Blog ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks Published: October 16, 2026 ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks By: Jonathan Semon Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways A Microsoft 365 credential (API secret) belonging to ConnectWise Cloud Backup (formerly SkyKick) has been compromised, and Huntress has confirmed it is being used to gain unauthorized access to customers' M365 environments. In one Huntress partner tenant, a second ConnectWise application, ConnectWise Cloud Management - MS Teams (Application ID 24205314-2b89-4e07-a2a4-579e898a5640 ), gave itself Global Administrator and then added new credentials to two other applications in that tenant, one of them being a single-tenant Huntress application unique to this partner. Microsoft's sign-in logs record the second application connection coming from a private IPv6 address (ULA) fde4:8dba:2600:37ce:6d26:200:a76:* , a range Microsoft logs for traffic inside its own cloud network. Legitimate ConnectWise traffic and unrelated customer traffic also appears to originate from the same ULA, so please consider the address alone does not identify who operated the system. We are working to determine that. Disabling M365 apps, including the abused ConnectWise apps will not remove credentials that were already added. You must review the credentials on all of your M365 applications. Impacted organizations should immediately disable the ConnectWise Cloud Backup (formerly SkyKick, Application ID: 506e08f9-6e9a-4da4-942b-a099a03644ae ) and ConnectWise Cloud Management - MS Teams (Application ID 24205314-2b89-4e07-a2a4-579e898a5640 ) applications in their Microsoft 365 tenant. Consider temporarily disabling other ConnectWise Cloud Management application IDs as well. Disable application IDs, do not delete them. Disabling the app in your tenant does not change backups ConnectWise has already stored. Confirm retention and restore options with ConnectWise. Do not re-enable affected ConnectWise applications until ConnectWise confirms all credentials have been reset. Acknowledgements : Special thanks to Rich Mozeleski, Andrew Brandt, Andrew Kaiser, Dave Kleinatland, and Matt Kiely for their contributions to this investigation and writeup. Update: 10/17/26 @ 10:30 AM ET After spending the night combing through Azure logs, we have high-confidence that the threat actor has also abused the following M365 applications: • ConnectWise Cloud Management - Exchange Online ( b78f6a77-d4e5-46fb-87e5-d1648bd02519 ). • ConnectWise Cloud Management - MS Teams ( 24205314-2b89-4e07-a2a4-579e898a5640 ). • ConnectWise Cloud Management - SharePoint Online ( b2b55f5b-7758-4719-8d8f-88ae172e6bdb ). At the moment, it does not look like these apps have been disabled by ConnectWise. When it comes to early exploitation and post-exploitation behaviors, we’ve observed what might be an affinity towards alphabetical targeting (our most interesting victims start with “A”). Although all tenants should be scrutinized, this pattern is worth sharing for prioritization. If you’ve been impacted with noteworthy tradecraft relating to this SkyKick incident, our research team would love to learn more so we take actions to protect the community. Hit us up at [email protected] . Background ConnectWise Cloud Backup (Formerly SkyKick) is a cloud-based backup and recovery service built for managed service providers (MSPs) to protect their clients' Microsoft 365 or Google Workspace data. To do that job, the app is granted broad access to mailboxes, OneDrive, SharePoint, Teams, and directory data in every tenant it is installed in. On October 15, the application's identity signed in to customer Microsoft 365 tenants from 144.172.64[.]128 , a hosting provider address, and received Microsoft Graph access tokens. This is not how the app normally behaves: legitimate traffic comes from Azure private IP space. As of 19:00 UTC on October 16, Huntress has
+```
+
+#### Corroborating sources (3)
+
+- **Huntress** (detection_response_operations)
+  - Title: ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks
+  - Published: 2026-10-16T23:00:00+00:00
+  - Link: https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access
+  - Summary: ConnectWise (SkyKick) vendor credentials are being abused to access Microsoft 365 tenants. Disable the apps now and check your logs here.
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack
+  - Published: 2026-10-17T15:18:51+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/
+  - Summary: ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants
+  - Published: 2026-10-17T06:16:46+00:00
+  - Link: https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html
+  - Summary: Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments. ConnectWise Cloud Backup is a cloud-based backup and recovery service built for managed service providers (MSPs
+
 ### Cluster dbc31057a4 — score 11
 
 - Title: MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon
@@ -2186,55 +2117,50 @@ MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon �
   - Link: https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages
   - Summary: REF8801 exposes how Apex Accelerator combines convincing Web3 services with malicious npm packages, attacker-controlled AI infrastructure, and cross-platform malware delivery.
 
-### Cluster baa3477655 — score 10
+### Cluster 5bf398a88b — score 10
 
-- Title: The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime
-- Source: Microsoft Security Blog (threat_research_primary)
-- Published: 2026-10-14T13:00:00+00:00
-- Link: https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/
+- Title: Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-10-16T17:47:54+00:00
+- Link: https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/
 - Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
+- Member count: 1
+- Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services, government, healthcare
-- affected_products: Google Cloud, Microsoft Defender
+- threat_categories: apt_espionage, phishing_social_eng, supply_chain
+- affected_industries: critical_infrastructure, government
+- tools_used: Apple iOS/macOS
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: healthcare, financial_services, government
-- affected_products: Google Cloud, Microsoft Defender
+- threat_categories: supply_chain, phishing_social_eng, apt_espionage
+- affected_industries: government, critical_infrastructure
+- tools_used: Apple iOS/macOS
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem. The post The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime appeared first on Microsoft Security Blog .
+Unit 42 details the top initial access vectors adversaries use to breach organizations, led by edge exploits, credential abuse and phishing The post Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026 appeared first on Unit 42 .
 ```
 
 #### Full body
 
 ```
-Share Link copied to clipboard! Tags Phishing Social engineering Threats intelligence Cyberattacker techniques, tools, and infrastructure Cybercrime Social engineering and phishing Threat actors Content types Research Products and services Microsoft Defender Microsoft Defender for Endpoint Microsoft Defender for Identity Topics Threat intelligence Over the past year, Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators, developers, and an illicit marketplace selling tools and infrastructure for large-scale phishing, enabling cybercriminal operations worldwide. Threat actors purchased and used these tools and infrastructure, including phishing kits and access to compromised or fraudulent Microsoft or Google cloud environments and related credentials, to target organizations across the healthcare, financial services, wholesale distribution, and information technology (IT) sectors in Japan, the United States, Australia, and India. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem’s primary developers and infrastructure . Microsoft’s research into one phishing kit unraveled a larger ecosystem, including the phishing kit developers, an infrastructure dealer, and the threat actors who buy from both. In this blog, we examine several phishing kits marketed and sold through YAM Store, an underground marketplace tracked by Microsoft as Storm-3119. We share our analysis of the technical aspects of this Chinese-language phishing kit ecosystem, the shared infrastructure, provisioning methods, and downstream activity by threat actors using these tools. Figure 1: Heat map of most impacted countries by combined Storm-3119 and Storm-2990-related activity. Uncovering the shadow world of a phishing kit ecosystem Microsoft, alongside industry partner Resecurity , identified three phishing kits sold through the YAM Store that make up this Chinese-language cybercriminal network: CoGUI (also known as NX or FA), Haozi (also known as Phoenix), and Iron Man System. Microsoft tracks the cluster of activity and the developers behind all three phishing kits as Storm-2990. Since January 2026, the threat actors behind these kits have been responsible for facilitating the sending of over one billion phishing emails and SMS messages to over 75 thousand organizations worldwide. Microsoft assesses with high confidence that these phishing kits were developed by Chinese-speaking threat actors, and, despite their distinct branding and separate Telegram-based sales channels, exhibit highly similar capabilities and functionality. The phishing kits provide phishing templates impersonating legitimate brands and organizations (including government, financial, and logistics) worldwide, and enable criminal actors to facilitate high-volume phishing and credential stealing operations. The similarity in their infrastructure and overlap in activity suggest either shared development origins, code reuse, or close collaboration among their developers. These phishing kits have been advertised through YAM Store, first CoGUI and Haozi, followed by Iron Man System starting in June 2026. YAM Store and affiliated phishing kit companies accepted payments through cryptocurrency, including USDT and Ethereum, adding another layer to conceal illicit activity. The scale and proliferation of this ecosystem demonstrate how readily available criminal infrastructure can lower the barrier to entry, enabling less skilled cybercriminals to target organizations at scale and contribute to fraud losses. By mapping the relationship between YAM Store and these phishing kits, we provide insight into the commercial infrastructure that supports modern phishing operations. Figure 2. YAM Store (Storm-3119) sells fraudulently acquired infrastructure to CoGUI, Haozi, and Iron Man System, all interconnected phishing kit operators, who then pr
+Threat Research Center Insights General General Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026 2 min read Related Products Unit 42 Incident Response By: Unit 42 Published: October 16, 2026 Categories: General Insights Trend Reports Tags: Initial Access Threat intelligence Trends Share This report provides an overview of the top five initial access threat vectors observed by Unit 42 Threat Intelligence for September 2026. Adversary activity during this period demonstrates a pronounced reliance on external edge exploitation and identity compromise, with the targeting of public-facing infrastructure and legitimate credential abuse serving as the primary footholds for intrusion campaigns. Concurrently, social engineering continues to drive targeted operations against public sector and critical infrastructure targets, while high-impact supply chain intrusions and zero-interaction drive-by compromises pose acute systemic risks across interconnected technology ecosystems. Ranking Threat Title Overview & Behavior Description 1 (Primary Entry Vector) Exploitation of Public-Facing Applications Represents the primary and most frequent entry mechanism observed during the reporting period, characterized by multiple threat clusters identifying and compromising exposed internet-facing web applications, database instances, and perimeter services to establish initial persistent footholds. 2 (Secondary Prevalent Vector) Valid Credentials & Credential Abuse Serves as a leading operational access vector where adversaries utilize pre-harvested, sprayed, or illicitly obtained authentication material, frequently chained alongside edge-service vulnerabilities to bypass perimeter defenses and blend in with legitimate user activity. 3 (Leading Social Engineering Vector) Phishing / Targeted Social Engineering Functions as a primary delivery mechanism across both electronic messaging and browser-centric lures, predominantly deployed to compromise credentials and execute payloads across public sector, defense, and regional enterprise environments. 4 (High-Impact Systemic Vector) Supply Chain Compromise Represents a specialized, high-consequence vector highlighted in targeted reporting, notable for producing widespread cascading impact across diverse critical industry sectors due to advanced attacker tradecraft and trusted-relationship exploitation. 5 (Specialized Delivery Vector) Drive-By Compromise / Watering Hole Operates as an automated exploitation technique where target traffic directed to compromised or malicious web destinations triggers system compromise without requiring interaction beyond site visitation, observed across select specialized threat operations. Table 1. Top 5 Initial Access Threat Vectors Unit 42 Threat Intelligence Services provide organizations with direct access to elite frontline threat expertise, enabling security teams to prioritize real risks and sharpen detection capabilities . These human-led services combine world-class intelligence with direct access to the analysts behind it, offering tailored context and guidance aligned to a customer's specific environment. Back to top Tags Initial Access Threat intelligence Trends Threat Research Center Next: AI-Powered Espionage Campaign Targets Government Linux Infrastructure Related Articles Atomic macOS (AMOS) Stealer Activity Know Ourselves Before Knowing Our Enemies: Threat Intelligence at the Expense of Asset Management Why Threat Intelligence: A Conversation With Unit 42 Interns Related General Resources Insights October 7, 2026 Evolution of Web3 in Cloud Supply Chain Attacks Cloud configuration DPRK Supply-chain attack Read now Insights September 16, 2026 Atomic macOS (AMOS) Stealer Activity MacOS Threat intelligence Unit 42 Read now Insights September 2, 2026 An AI-Assisted Cyber Attack: Inside a Unit 42 Investigation Agentic AI Frontier AI Read now Insights August 28, 2026 Perturbation Probing: A New Diagnostic for the Fragility of LLM Safety AI
 ```
 
-#### Corroborating sources (2)
+#### Corroborating sources (1)
 
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime
-  - Published: 2026-10-14T13:00:00+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/
-  - Summary: Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem. The post The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime appeared first on Microsoft Security Blog .
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - Title: The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime
-  - Published: 2026-10-14T13:00:00+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/
-  - Summary: Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem. The post The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime appeared first on Microsoft Security Blog .
+- **Unit 42** (threat_research_primary)
+  - Title: Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026
+  - Published: 2026-10-16T17:47:54+00:00
+  - Link: https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/
+  - Summary: Unit 42 details the top initial access vectors adversaries use to breach organizations, led by edge exploits, credential abuse and phishing The post Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026 appeared first on Unit 42 .
 
 ### Cluster 262c329c2f — score 10
 
@@ -2278,6 +2204,56 @@ Threat Research Center Insights Anatomy of an Attack Anatomy of an Attack The No
   - Published: 2026-10-13T22:00:04+00:00
   - Link: https://unit42.paloaltonetworks.com/noise-inside-network-third-party-risk/
   - Summary: Unit 42 dissects a cyberattack targeting a European bank's IT infrastructure, delivering concrete defense strategies to help organizations detect and counter comparable threats. The post The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk appeared first on Unit 42 .
+
+### Cluster baa3477655 — score 10
+
+- Title: The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime
+- Source: Microsoft Threat Intelligence (threat_research_primary)
+- Published: 2026-10-14T13:00:00+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services, government, healthcare
+- affected_products: Google Cloud, Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_industries: healthcare, financial_services, government
+- affected_products: Google Cloud, Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem. The post The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+Share Link copied to clipboard! Tags Phishing Social engineering Threats intelligence Cyberattacker techniques, tools, and infrastructure Cybercrime Social engineering and phishing Threat actors Content types Research Products and services Microsoft Defender Microsoft Defender for Endpoint Microsoft Defender for Identity Topics Threat intelligence Over the past year, Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators, developers, and an illicit marketplace selling tools and infrastructure for large-scale phishing, enabling cybercriminal operations worldwide. Threat actors purchased and used these tools and infrastructure, including phishing kits and access to compromised or fraudulent Microsoft or Google cloud environments and related credentials, to target organizations across the healthcare, financial services, wholesale distribution, and information technology (IT) sectors in Japan, the United States, Australia, and India. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem’s primary developers and infrastructure . Microsoft’s research into one phishing kit unraveled a larger ecosystem, including the phishing kit developers, an infrastructure dealer, and the threat actors who buy from both. In this blog, we examine several phishing kits marketed and sold through YAM Store, an underground marketplace tracked by Microsoft as Storm-3119. We share our analysis of the technical aspects of this Chinese-language phishing kit ecosystem, the shared infrastructure, provisioning methods, and downstream activity by threat actors using these tools. Figure 1: Heat map of most impacted countries by combined Storm-3119 and Storm-2990-related activity. Uncovering the shadow world of a phishing kit ecosystem Microsoft, alongside industry partner Resecurity , identified three phishing kits sold through the YAM Store that make up this Chinese-language cybercriminal network: CoGUI (also known as NX or FA), Haozi (also known as Phoenix), and Iron Man System. Microsoft tracks the cluster of activity and the developers behind all three phishing kits as Storm-2990. Since January 2026, the threat actors behind these kits have been responsible for facilitating the sending of over one billion phishing emails and SMS messages to over 75 thousand organizations worldwide. Microsoft assesses with high confidence that these phishing kits were developed by Chinese-speaking threat actors, and, despite their distinct branding and separate Telegram-based sales channels, exhibit highly similar capabilities and functionality. The phishing kits provide phishing templates impersonating legitimate brands and organizations (including government, financial, and logistics) worldwide, and enable criminal actors to facilitate high-volume phishing and credential stealing operations. The similarity in their infrastructure and overlap in activity suggest either shared development origins, code reuse, or close collaboration among their developers. These phishing kits have been advertised through YAM Store, first CoGUI and Haozi, followed by Iron Man System starting in June 2026. YAM Store and affiliated phishing kit companies accepted payments through cryptocurrency, including USDT and Ethereum, adding another layer to conceal illicit activity. The scale and proliferation of this ecosystem demonstrate how readily available criminal infrastructure can lower the barrier to entry, enabling less skilled cybercriminals to target organizations at scale and contribute to fraud losses. By mapping the relationship between YAM Store and these phishing kits, we provide insight into the commercial infrastructure that supports modern phishing operations. Figure 2. YAM Store (Storm-3119) sells fraudulently acquired infrastructure to CoGUI, Haozi, and Iron Man System, all interconnected phishing kit operators, who then pr
+```
+
+#### Corroborating sources (2)
+
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - Title: The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime
+  - Published: 2026-10-14T13:00:00+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/
+  - Summary: Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem. The post The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime appeared first on Microsoft Security Blog .
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime
+  - Published: 2026-10-14T13:00:00+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/
+  - Summary: Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem. The post The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime appeared first on Microsoft Security Blog .
 
 ### Cluster d35b3375d9 — score 10
 
@@ -3731,80 +3707,6 @@ BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote 
   - Link: https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/
   - Summary: BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]
 
-### Cluster ab440398cd — score 8
-
-- Title: What’s new with Google Cloud
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-10-16T16:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
-- Fetch status: not_attempted
-- Member count: 2
-- Corroborating source count: 1
-- Strong signals: Google Cloud, Google/Gemini
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government
-- affected_products: Google Cloud, Google/Gemini
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_industries: government
-- affected_products: Google Cloud, Google/Gemini
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Oct 12 - Oct 16 AI tokenomics in action: Enforcing tiered token budgets with Apigee Scaling artificial intelligence across an enterprise requires clear token governance to keep LLM spend predictable across departments. Join Tarun Abraham on Thursday, November 5, 2026 for a Community TechTalk on AI tokenomics. Discover how to use Apigee to enforce isolated, tiered token budgets and model access for each team—such as assigning Engineering a dedicated budget for Gemini Pro while covering mixed usage for Marketing—without changing application code. Attendees will also gain access to a sample codebase featuring a reusab
-```
-
-#### Corroborating sources (1)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: What’s new with Google Cloud
-  - Published: 2026-10-16T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
-  - Summary: Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Oct 12 - Oct 16 AI tokenomics in action: Enforcing tiered token budgets with Apigee Scaling artificial intelligence across an enterprise requires clear token governance to keep LLM spend predictable across departments. Join Tarun Abraham on Thursday, November 5, 2026 for a Community TechTalk on AI tokenomics. Discover how to use Apigee to enforce isolated, tiered token budgets and model access for each team—such as assigning Engineering a dedicated budget for Gemini Pro while covering mixed usage for Marketing—without changing application code. Attendees will also gain access to a sample codebase featuring a reusab
-
-### Cluster 16a7ecdf21 — score 8
-
-- Title: Announcing Wiz Runtime Sensor add-on for GKE: Turnkey threat detection for Kubernetes
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-10-16T16:00:00+00:00
-- Link: https://cloud.google.com/blog/products/identity-security/wiz-sensor-for-gke-turnkey-threat-detection-for-kubernetes/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Kubernetes
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government
-- affected_products: Kubernetes
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_industries: government
-- affected_products: Kubernetes
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Everything is moving faster in the age of AI, and that includes security threats. What used to take attackers weeks to exploit can now happen in just a few minutes. Standard vulnerability scans that run on artifacts at rest can catch basic setup issues, but to detect an attack that's actively happening you need real-time runtime protection. Today, we’re introducing the Wiz Runtime Sensor add-on for Google Kubernetes Engine (GKE), in preview. This built-in integration brings low-touch deployment, automated lifecycle management, enterprise credential security, and fleet-wide governance to Wiz's industry-leading eBPF runtime threat detection for both Standard and Autopilot GKE clusters. The operational friction of runtime security Security and platform engineering teams share common dilemmas when deploying in-cluster runtime defenses: Deployment and lifecycle friction : Deploying runtime agents often requires managing installations from third-party sources across dozens or hundreds of clu
-```
-
-#### Corroborating sources (1)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Announcing Wiz Runtime Sensor add-on for GKE: Turnkey threat detection for Kubernetes
-  - Published: 2026-10-16T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/products/identity-security/wiz-sensor-for-gke-turnkey-threat-detection-for-kubernetes/
-  - Summary: Everything is moving faster in the age of AI, and that includes security threats. What used to take attackers weeks to exploit can now happen in just a few minutes. Standard vulnerability scans that run on artifacts at rest can catch basic setup issues, but to detect an attack that's actively happening you need real-time runtime protection. Today, we’re introducing the Wiz Runtime Sensor add-on for Google Kubernetes Engine (GKE), in preview. This built-in integration brings low-touch deployment, automated lifecycle management, enterprise credential security, and fleet-wide governance to Wiz's industry-leading eBPF runtime threat detection for both Standard and Autopilot GKE clusters. The operational friction of runtime security Security and platform engineering teams share common dilemmas when deploying in-cluster runtime defenses: Deployment and lifecycle friction : Deploying runtime agents often requires managing installations from third-party sources across dozens or hundreds of clu
-
 ### Cluster 49f60154a2 — score 8
 
 - Title: Vulnerability Management Isn't About the Score — It's About How It Applies to You
@@ -3975,41 +3877,6 @@ ReliaQuest confirmed that the Qilin and Settra ransomware groups are actively ex
   - Published: 2026-10-12T09:15:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/palo-alto-vpn-vulnerability-target/
   - Summary: ReliaQuest confirmed that the Qilin and Settra ransomware groups are actively exploiting a Palo Alto vulnerability patched in May
-
-### Cluster 25a004b01a — score 8
-
-- Title: Deep-Dive into Android Binder UaF (CVE-2023-20938) using Time-Travel Debugging
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-10-16T17:53:54+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1x7n3e7/deepdive_into_android_binder_uaf_cve202320938/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2023-20938
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2023-20938
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- cve_ids: CVE-2023-20938
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/Emergency_Stable_923 [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: Deep-Dive into Android Binder UaF (CVE-2023-20938) using Time-Travel Debugging
-  - Published: 2026-10-16T17:53:54+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1x7n3e7/deepdive_into_android_binder_uaf_cve202320938/
-  - Summary: submitted by /u/Emergency_Stable_923 [link] [comments]
 
 ### Cluster ae34d601ea — score 8
 
