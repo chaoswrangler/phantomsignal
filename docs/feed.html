@@ -1,9 +1,16 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><title>PHANTOMSignal feed.json</title><style>body{margin:0;background:#0b0f14;color:#e8f4ff;font-family:'JetBrains Mono',Consolas,monospace}pre{margin:0;padding:24px;font-size:13px;line-height:1.5;white-space:pre-wrap;word-break:break-word}</style></head><body><pre>{
-  &quot;generated_at&quot;: &quot;2026-10-17T06:48:25.743660+00:00&quot;,
+  &quot;generated_at&quot;: &quot;2026-10-17T11:31:20.913098+00:00&quot;,
   &quot;lookback_hours&quot;: 168,
   &quot;lookback_human&quot;: &quot;7 days&quot;,
   &quot;total_items&quot;: 2208,
   &quot;feed_status&quot;: {
+    &quot;CrowdStrike&quot;: {
+      &quot;url&quot;: &quot;https://www.crowdstrike.com/blog/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
+    },
     &quot;Unit 42&quot;: {
       &quot;url&quot;: &quot;https://unit42.paloaltonetworks.com/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
@@ -11,12 +18,12 @@
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 4
     },
-    &quot;CrowdStrike&quot;: {
-      &quot;url&quot;: &quot;https://www.crowdstrike.com/blog/feed/&quot;,
+    &quot;Microsoft Threat Intelligence&quot;: {
+      &quot;url&quot;: &quot;https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
+      &quot;in_window_count&quot;: 1
     },
     &quot;Microsoft Security Blog&quot;: {
       &quot;url&quot;: &quot;https://www.microsoft.com/en-us/security/blog/feed/&quot;,
@@ -30,6 +37,13 @@
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
+    },
+    &quot;Google Threat Analysis Group&quot;: {
+      &quot;url&quot;: &quot;https://blog.google/threat-analysis-group/rss/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;parse_error&quot;,
+      &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
     &quot;Trend Micro Research&quot;: {
@@ -46,27 +60,6 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Microsoft Threat Intelligence&quot;: {
-      &quot;url&quot;: &quot;https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 1
-    },
-    &quot;Google Threat Analysis Group&quot;: {
-      &quot;url&quot;: &quot;https://blog.google/threat-analysis-group/rss/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;parse_error&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
-    },
-    &quot;Citizen Lab&quot;: {
-      &quot;url&quot;: &quot;https://citizenlab.ca/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 1
-    },
     &quot;Kaspersky Securelist&quot;: {
       &quot;url&quot;: &quot;https://securelist.com/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
@@ -74,12 +67,26 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
+    &quot;Recorded Future&quot;: {
+      &quot;url&quot;: &quot;https://www.recordedfuture.com/feed&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 50,
+      &quot;in_window_count&quot;: 6
+    },
     &quot;NCSC UK&quot;: {
       &quot;url&quot;: &quot;https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml&quot;,
       &quot;cohort&quot;: &quot;government_authoritative&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 3
+    },
+    &quot;Citizen Lab&quot;: {
+      &quot;url&quot;: &quot;https://citizenlab.ca/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 1
     },
     &quot;Cisco Talos&quot;: {
       &quot;url&quot;: &quot;https://feeds.feedburner.com/feedburner/Talos&quot;,
@@ -94,6 +101,13 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 2
+    },
+    &quot;SANS Internet Storm Center&quot;: {
+      &quot;url&quot;: &quot;https://isc.sans.edu/rssfeed_full.xml&quot;,
+      &quot;cohort&quot;: &quot;government_authoritative&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 9
     },
     &quot;Volexity&quot;: {
       &quot;url&quot;: &quot;https://www.volexity.com/feed/&quot;,
@@ -116,32 +130,18 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 9
     },
-    &quot;Recorded Future&quot;: {
-      &quot;url&quot;: &quot;https://www.recordedfuture.com/feed&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+    &quot;Assetnote&quot;: {
+      &quot;url&quot;: &quot;https://www.assetnote.io/resources/research/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 50,
-      &quot;in_window_count&quot;: 6
-    },
-    &quot;SANS Internet Storm Center&quot;: {
-      &quot;url&quot;: &quot;https://isc.sans.edu/rssfeed_full.xml&quot;,
-      &quot;cohort&quot;: &quot;government_authoritative&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 10
+      &quot;item_count&quot;: 78,
+      &quot;in_window_count&quot;: 0
     },
     &quot;PortSwigger Research&quot;: {
       &quot;url&quot;: &quot;https://portswigger.net/research/rss&quot;,
       &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 40,
-      &quot;in_window_count&quot;: 0
-    },
-    &quot;Assetnote&quot;: {
-      &quot;url&quot;: &quot;https://www.assetnote.io/resources/research/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 78,
       &quot;in_window_count&quot;: 0
     },
     &quot;Red Canary&quot;: {
@@ -200,18 +200,18 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
-    &quot;GitHub Security Lab&quot;: {
-      &quot;url&quot;: &quot;https://github.blog/category/security/feed/&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 1
-    },
     &quot;Sophos X-Ops&quot;: {
       &quot;url&quot;: &quot;https://news.sophos.com/en-us/category/threat-research/feed/&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 15,
+      &quot;in_window_count&quot;: 1
+    },
+    &quot;GitHub Security Lab&quot;: {
+      &quot;url&quot;: &quot;https://github.blog/category/security/feed/&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
     },
     &quot;SpecterOps&quot;: {
@@ -228,13 +228,6 @@
       &quot;item_count&quot;: 30,
       &quot;in_window_count&quot;: 1
     },
-    &quot;Rapid7&quot;: {
-      &quot;url&quot;: &quot;https://www.rapid7.com/blog/rss/&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 8
-    },
     &quot;Orca Security Research&quot;: {
       &quot;url&quot;: &quot;https://orca.security/resources/blog/feed/&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
@@ -242,12 +235,12 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 5
     },
-    &quot;Permiso Security&quot;: {
-      &quot;url&quot;: &quot;https://permiso.io/blog/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+    &quot;Rapid7&quot;: {
+      &quot;url&quot;: &quot;https://www.rapid7.com/blog/rss/&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 8
     },
     &quot;AWS Security Blog&quot;: {
       &quot;url&quot;: &quot;https://aws.amazon.com/blogs/security/feed/&quot;,
@@ -256,6 +249,20 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 6
     },
+    &quot;Permiso Security&quot;: {
+      &quot;url&quot;: &quot;https://permiso.io/blog/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
+    },
+    &quot;Huntress&quot;: {
+      &quot;url&quot;: &quot;https://www.huntress.com/blog/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 15
+    },
     &quot;Trail of Bits&quot;: {
       &quot;url&quot;: &quot;https://blog.trailofbits.com/feed/&quot;,
       &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
@@ -263,18 +270,25 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 1
     },
-    &quot;Huntress&quot;: {
-      &quot;url&quot;: &quot;https://www.huntress.com/blog/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 13
-    },
     &quot;Sysdig&quot;: {
       &quot;url&quot;: &quot;https://sysdig.com/feed/&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 1
+    },
+    &quot;Google Cloud Threat Intelligence&quot;: {
+      &quot;url&quot;: &quot;https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 2
+    },
+    &quot;Cloudflare Security&quot;: {
+      &quot;url&quot;: &quot;https://blog.cloudflare.com/tag/security/rss/&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 1
     },
     &quot;Protect AI&quot;: {
@@ -284,13 +298,6 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Cloudflare Security&quot;: {
-      &quot;url&quot;: &quot;https://blog.cloudflare.com/tag/security/rss/&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 1
-    },
     &quot;Cloudflare Radar&quot;: {
       &quot;url&quot;: &quot;https://blog.cloudflare.com/tag/cloudflare-radar/rss/&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
@@ -298,19 +305,12 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 2
     },
-    &quot;Google Cloud Threat Intelligence&quot;: {
-      &quot;url&quot;: &quot;https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 2
-    },
-    &quot;Google DeepMind Blog&quot;: {
-      &quot;url&quot;: &quot;https://deepmind.google/blog/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+    &quot;Wiz Research&quot;: {
+      &quot;url&quot;: &quot;https://www.wiz.io/feed/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 5
+      &quot;in_window_count&quot;: 2
     },
     &quot;Coveware&quot;: {
       &quot;url&quot;: &quot;https://www.coveware.com/blog?format=rss&quot;,
@@ -319,12 +319,12 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Wiz Research&quot;: {
-      &quot;url&quot;: &quot;https://www.wiz.io/feed/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+    &quot;Google DeepMind Blog&quot;: {
+      &quot;url&quot;: &quot;https://deepmind.google/blog/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 2
+      &quot;in_window_count&quot;: 5
     },
     &quot;OpenSSF Blog&quot;: {
       &quot;url&quot;: &quot;https://openssf.org/feed/&quot;,
@@ -368,19 +368,12 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 10
     },
-    &quot;GreyNoise&quot;: {
-      &quot;url&quot;: &quot;https://www.greynoise.io/blog/rss.xml&quot;,
+    &quot;Google Cloud Security&quot;: {
+      &quot;url&quot;: &quot;https://cloudblog.withgoogle.com/rss/&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 1
-    },
-    &quot;Intel 471&quot;: {
-      &quot;url&quot;: &quot;https://intel471.com/blog/feed&quot;,
-      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 50,
-      &quot;in_window_count&quot;: 0
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 20
     },
     &quot;Simon Willison&quot;: {
       &quot;url&quot;: &quot;https://simonwillison.net/atom/everything/&quot;,
@@ -389,18 +382,25 @@
       &quot;item_count&quot;: 30,
       &quot;in_window_count&quot;: 17
     },
-    &quot;Google Cloud Security&quot;: {
-      &quot;url&quot;: &quot;https://cloudblog.withgoogle.com/rss/&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+    &quot;Intel 471&quot;: {
+      &quot;url&quot;: &quot;https://intel471.com/blog/feed&quot;,
+      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 20
+      &quot;item_count&quot;: 50,
+      &quot;in_window_count&quot;: 0
     },
     &quot;AI Snake Oil&quot;: {
       &quot;url&quot;: &quot;https://www.aisnakeoil.com/feed&quot;,
       &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 1
+    },
+    &quot;GreyNoise&quot;: {
+      &quot;url&quot;: &quot;https://www.greynoise.io/blog/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 1
     },
     &quot;CyberScoop&quot;: {
@@ -424,18 +424,18 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 10
     },
-    &quot;Team Cymru&quot;: {
-      &quot;url&quot;: &quot;https://www.team-cymru.com/post/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 1
-    },
     &quot;Troy Hunt&quot;: {
       &quot;url&quot;: &quot;https://www.troyhunt.com/rss/&quot;,
       &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 15,
+      &quot;in_window_count&quot;: 1
+    },
+    &quot;Team Cymru&quot;: {
+      &quot;url&quot;: &quot;https://www.team-cymru.com/post/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 1
     },
     &quot;Schneier on Security&quot;: {
@@ -466,6 +466,13 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
+    &quot;Graham Cluley&quot;: {
+      &quot;url&quot;: &quot;https://grahamcluley.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 2
+    },
     &quot;Reddit r/msp&quot;: {
       &quot;url&quot;: &quot;https://www.reddit.com/r/msp/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
@@ -487,13 +494,6 @@
       &quot;item_count&quot;: 50,
       &quot;in_window_count&quot;: 50
     },
-    &quot;Graham Cluley&quot;: {
-      &quot;url&quot;: &quot;https://grahamcluley.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 2
-    },
     &quot;Reddit r/AskNetsec&quot;: {
       &quot;url&quot;: &quot;https://www.reddit.com/r/AskNetsec/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
@@ -513,7 +513,7 @@
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 25,
-      &quot;in_window_count&quot;: 21
+      &quot;in_window_count&quot;: 20
     },
     &quot;Infosecurity Magazine&quot;: {
       &quot;url&quot;: &quot;https://www.infosecurity-magazine.com/rss/news/&quot;,
@@ -543,19 +543,19 @@
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 6
     },
-    &quot;Elastic Security Labs&quot;: {
-      &quot;url&quot;: &quot;https://www.elastic.co/security-labs/rss/feed.xml&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 1
-    },
     &quot;Just Security&quot;: {
       &quot;url&quot;: &quot;https://www.justsecurity.org/feed/&quot;,
       &quot;cohort&quot;: &quot;policy_strategy_geopolitics&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 10
+    },
+    &quot;Elastic Security Labs&quot;: {
+      &quot;url&quot;: &quot;https://www.elastic.co/security-labs/rss/feed.xml&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 1
     },
     &quot;Google Project Zero&quot;: {
       &quot;url&quot;: &quot;https://googleprojectzero.blogspot.com/feeds/posts/default&quot;,
@@ -867,7 +867,7 @@
         ]
       },
       &quot;cluster_count&quot;: 2,
-      &quot;article_count&quot;: 5,
+      &quot;article_count&quot;: 4,
       &quot;cohesion&quot;: 0.2,
       &quot;shared_strong_signals&quot;: [
         &quot;GitLab&quot;
@@ -881,7 +881,6 @@
       &quot;links&quot;: [
         &quot;https://www.rapid7.com/blog/post/ra-gitlab-ci-cd-regex-integer-overflow-technical-analysis-cve-2026-97229&quot;,
         &quot;https://orca.security/resources/research/critical-gitlab-rce-lets-unauthenticated-attackers-execute-code-on-servers-cve-2026-97229/&quot;,
-        &quot;https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html&quot;,
         &quot;https://www.recordedfuture.com/blog/september-2026-cve-landscape&quot;
       ]
     },
@@ -909,6 +908,36 @@
       &quot;links&quot;: [
         &quot;https://www.rapid7.com/blog/post/em-patch-tuesday-october-2026&quot;,
         &quot;https://unit42.paloaltonetworks.com/noise-inside-network-third-party-risk/&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;supply chain targeting npm&quot;,
+      &quot;anchor_signal&quot;: &quot;npm&quot;,
+      &quot;theme_key&quot;: &quot;npm&quot;,
+      &quot;dominant_features&quot;: {
+        &quot;threat_categories&quot;: [
+          &quot;supply_chain&quot;
+        ],
+        &quot;affected_products&quot;: [
+          &quot;npm&quot;
+        ]
+      },
+      &quot;cluster_count&quot;: 2,
+      &quot;article_count&quot;: 3,
+      &quot;cohesion&quot;: 0.545,
+      &quot;shared_strong_signals&quot;: [
+        &quot;npm&quot;
+      ],
+      &quot;member_cves&quot;: [],
+      &quot;also_targets&quot;: [],
+      &quot;cluster_ids&quot;: [
+        &quot;1ec8924dc6&quot;,
+        &quot;dbc31057a4&quot;
+      ],
+      &quot;links&quot;: [
+        &quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;,
+        &quot;https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html&quot;,
+        &quot;https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages&quot;
       ]
     },
     {
@@ -965,32 +994,6 @@
       ]
     },
     {
-      &quot;label&quot;: &quot;npm vulnerability activity&quot;,
-      &quot;anchor_signal&quot;: &quot;npm&quot;,
-      &quot;theme_key&quot;: &quot;npm&quot;,
-      &quot;dominant_features&quot;: {
-        &quot;affected_products&quot;: [
-          &quot;npm&quot;
-        ]
-      },
-      &quot;cluster_count&quot;: 2,
-      &quot;article_count&quot;: 2,
-      &quot;cohesion&quot;: 0.333,
-      &quot;shared_strong_signals&quot;: [
-        &quot;npm&quot;
-      ],
-      &quot;member_cves&quot;: [],
-      &quot;also_targets&quot;: [],
-      &quot;cluster_ids&quot;: [
-        &quot;1ec8924dc6&quot;,
-        &quot;1970aa98e3&quot;
-      ],
-      &quot;links&quot;: [
-        &quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;,
-        &quot;https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages&quot;
-      ]
-    },
-    {
       &quot;label&quot;: &quot;Microsoft SharePoint vulnerability activity&quot;,
       &quot;anchor_signal&quot;: &quot;Microsoft SharePoint&quot;,
       &quot;theme_key&quot;: &quot;microsoft-sharepoint&quot;,
@@ -1000,7 +1003,7 @@
         ]
       },
       &quot;cluster_count&quot;: 2,
-      &quot;article_count&quot;: 2,
+      &quot;article_count&quot;: 3,
       &quot;cohesion&quot;: 0.2,
       &quot;shared_strong_signals&quot;: [
         &quot;Microsoft SharePoint&quot;
@@ -1013,7 +1016,8 @@
       ],
       &quot;links&quot;: [
         &quot;https://cyberscoop.com/microsoft-patch-tuesday-october-2026/&quot;,
-        &quot;https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html&quot;
+        &quot;https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html&quot;,
+        &quot;https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access&quot;
       ]
     },
     {
@@ -1220,14 +1224,14 @@
       },
       {
         &quot;axis&quot;: &quot;cve_ids&quot;,
-        &quot;value&quot;: &quot;CVE-2026-88779&quot;,
-        &quot;cluster_id&quot;: &quot;5d5fb499b6&quot;,
+        &quot;value&quot;: &quot;CVE-2026-35273&quot;,
+        &quot;cluster_id&quot;: &quot;55d35536fa&quot;,
         &quot;weeks_observed&quot;: 3
       },
       {
         &quot;axis&quot;: &quot;cve_ids&quot;,
-        &quot;value&quot;: &quot;CVE-2026-35273&quot;,
-        &quot;cluster_id&quot;: &quot;55d35536fa&quot;,
+        &quot;value&quot;: &quot;CVE-2026-88779&quot;,
+        &quot;cluster_id&quot;: &quot;5d5fb499b6&quot;,
         &quot;weeks_observed&quot;: 3
       }
     ],
@@ -1272,6 +1276,72 @@
       &quot;source&quot;: &quot;The Hacker News&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;MALFEX npm Package &#x27;imgdecode&#x27; Hides Shellcode Loader in Windows Native Addon&quot;,
+      &quot;link&quot;: &quot;https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html&quot;,
+      &quot;published&quot;: &quot;2026-10-17T11:11:56+00:00&quot;,
+      &quot;summary&quot;: &quot;Cybersecurity researchers have discovered a malicious npm package that&#x27;s part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \&quot;imgdecode,\&quot; was uploaded to the package registry on September 30, 2026, by a user named \&quot;malfexteste8.\&quot; It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of&quot;,
+      &quot;author&quot;: &quot;info@thehackernews.com (The Hacker News)&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [
+          &quot;supply_chain&quot;
+        ],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [
+          &quot;critical_infrastructure&quot;
+        ],
+        &quot;affected_products&quot;: [
+          &quot;npm&quot;
+        ],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {
+          &quot;npm&quot;: &quot;target&quot;
+        },
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 9,
+      &quot;full_body&quot;: &quot;MALFEX npm Package &#x27;imgdecode&#x27; Hides Shellcode Loader in Windows Native Addon  Ravie Lakshmanan  Oct 17, 2026 Malware / Windows Security Cybersecurity researchers have discovered a malicious npm package that&#x27;s part of a recently disclosed software supply chain attack campaign dubbed MALFEX . The package, named \&quot; imgdecode ,\&quot; was uploaded to the package registry on September 30, 2026, by a user named \&quot;malfexteste8.\&quot; It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of the package is 1.0.3. \&quot;The npm package imgdecode hides a malicious loader in a compiled Node.js addon,\&quot; SafeDep said . \&quot;Its nine-line JavaScript file loads a Windows dynamic-link library (DLL). When a Node.js program calls require(&#x27;imgdecode&#x27;) from a Windows console, the DLL attempts to download encrypted shellcode from GitHub. It decrypts the response and injects the result into a new dllhost.exe process.\&quot; First documented by both Checkmarx and CloudSEK, MALFEX is the name assigned to a long-running campaign in which an unknown threat actor has been publishing malicious packages to npm since August 6, 2023, with an aim to compromise Windows systems. These packages were published across five npm publisher handles: malfexkkj, malfex_user, malfexteste2, malfexteste3, malfexteste4. Of the eight identified packages, three were found to act as a loader for Overlord RAT, while three others (\&quot;cdn-img-fetch,\&quot; \&quot;img-to-native,\&quot; and \&quot;native-runner\&quot;) worked together to download and run a Node.js stealer. A third infection pathway involved the use of a postinstall hook to execute JavaScript capable of contacting an external server and retrieving an unspecified next-stage binary. Interestingly, the threat actor behind the campaign appears to be responding to public disclosures and npm removals by publishing replacements for \&quot;native-runner\&quot; and \&quot;img-to-native\&quot; within two days in the form of \&quot;runhelper\&quot; and \&quot;imgbundle.\&quot; That same day, the first version of \&quot;imgdecode\&quot; was published. The timeline of events is as follows - September 26, 2026 - cdn-img-fetch, img-to-native, and native-runner 1.0.0 published September 28, 2026, at 4:06 p.m. UTC - npm removes native-runner and img-to-native September 30, 2026, at 3:29 a.m. UTC - imgbundle 1.0.0 published, replacing img-to-native September 30, 2026, at 3:37 a.m. UTC - runhelper 1.0.0 published, replacing native-runner September 30, 2026, at 4:13 p.m. UTC - runhelper unpublished September 30, 2026, at 10:32 p.m. UTC - imgdecode 1.0.0 published September 30, 2026, at 11:07 p.m. UTC - imgdecode 1.0.1 published October 1, 2026, at 5:48 p.m. UTC - imgdecode 1.0.2 published October 7, 2026, at 11:06 p.m. UTC - npm removes imgbundle October 8, 2026, at 1:03 p.m. UTC - npm removes cdn-img-fetch October 11, 2026, at 10:09 p.m. UTC - imgdecode 1.0.3 published The Node.js stealer chain is notable for the fact that none of the packages featured an install hook. Instead, the malicious code runs when \&quot;native-runner\&quot; is loaded. The package lists \&quot;img-to-native\&quot; as its dependency, which, in turn, has \&quot;img-to-native\&quot; as a dependency. The exact functionality of each of these packages is below - cdn-img-fetch downloads \&quot;banner.png\&quot; from a GitHub repository (\&quot;cavecrew/proj\&quot;) and extracts an encrypted blob. img-to-native decrypts the blob using the key \&quot;malfexteam2027\&quot; and writes the contents to disk as a Go executable (\&quot;%APPDATA%\\Microsoft\\Windows\\node_runtime_helper.exe\&quot;). native-runner executes the Go executable, which then downloads the stealer binary (\&quot;setup.exe\&quot; aka movinlike) from \&quot;104.234.65[.]75:700.\&quot; \&quot; Runhelper ,\&quot; advertised as a helper utility for \&quot;launching native binaries from Node.js projects,\&quot; functions similarly to \&quot;native-runner\&quot; in that it&#x27;s designed to run malicious code. Its primary responsibility is to locate a JPG file (\&quot;cdn-img-fetch/.runtime/rt.jpg\&quot;), extract shellcode from it, copy it into executable memory, and run it using Koffi , a Foreign Function Interface (FFI) mo&quot;,
+      &quot;fetch_status&quot;: &quot;ok&quot;
+    },
+    {
+      &quot;source&quot;: &quot;SecurityWeek&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel&quot;,
+      &quot;link&quot;: &quot;https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/&quot;,
+      &quot;published&quot;: &quot;2026-10-17T11:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;Israeli company Discover-Tech’s ads allow threat actors to fingerprint and track devices at scale and infect selected targets. The post Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel appeared first on SecurityWeek .&quot;,
+      &quot;author&quot;: &quot;Ionut Arghire&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 6
+    },
+    {
+      &quot;source&quot;: &quot;The Hacker News&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;title&quot;: &quot;Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants&quot;,
       &quot;link&quot;: &quot;https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html&quot;,
       &quot;published&quot;: &quot;2026-10-17T06:16:46+00:00&quot;,
@@ -1305,6 +1375,38 @@
       &quot;score&quot;: 10,
       &quot;full_body&quot;: &quot;Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants  Ravie Lakshmanan  Oct 17, 2026 Cloud Security / Cyberattack Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers&#x27; M365 environments. ConnectWise Cloud Backup is a cloud-based backup and recovery service built for managed service providers (MSPs) to secure their clients&#x27; Microsoft 365 or Google Workspace data. To accomplish its tasks, the application is granted broad access to mailboxes, OneDrive, SharePoint, Teams, and directory data in every tenant on which it&#x27;s installed. Huntress said it has observed confirmed unauthorized sign-ins within 173 partner/customer tenants using the compromised vendor credential. The incident impacts every organization that has the app installed, and the credential works against every tenant the app is consented in. \&quot;The app&#x27;s credential is in hostile hands,\&quot; security researcher Jonathan Semon said . \&quot;It was used to obtain Microsoft Graph tokens in customer tenants from 144.172.64[.]128 on October 15, between 06:13 and 08:34 UTC. The actor moved through tenants in sorted GUID order, a few seconds apart, which points to a script working from a target list.\&quot; In the observed attackers, the adversary has been observed authenticating to the app using their own tooling, in a manner analogous to the backup service, and obtains tokens with the app&#x27;s existing permissions. Given that the app has extensive permissions to access customer data, an attacker in possession of the tokens can read mailboxes, files, and directory data the backup service can. Huntress said the same IP address engaged in password spraying against four law firm tenants on October 13 and 14, 2026, although it said it detected no successful user sign-ins in its telemetry. In at least one partner tenant, the cybersecurity company said it found a separate ConnectWise app assigning itself Global Administrator privileges and adding credentials to other trusted applications within this environment, thereby opening a pathway to other privileged apps within customer environments. This effectively extends the risk beyond the vendor account. \&quot;The ConnectWise Cloud Management app for Microsoft Teams (application ID 24205314-2b89-4e07-a2a4-579e898a5640) added itself to the Global Administrator role, then ran a Python script (User-Agent Python-urllib/3.12) that modified two other applications in the tenant: an MSP management application, and Huntress&#x27;s own application (Huntress Security Platform), adding new client secrets to both,\&quot; Semon explained. \&quot;The two applications that received new secrets are trusted, privileged tools. Adding a credential to an MSP management application can extend access beyond the one tenant, because those applications are often consented into the MSP&#x27;s customers&#x27; tenants. A credential on a security tool&#x27;s application gives the holder whatever that tool is permitted to do.\&quot; Todyl, in a similar analysis, said it detected an unauthorized party authenticating to Microsoft Graph as the ConnectWise Cloud Backup application. \&quot;The access inherited the app&#x27;s existing consent, which permits read/write access to mail and attachments (full mailbox access through Exchange Web Services), OneDrive and SharePoint files, and Teams chats, including the ability to restore data,\&quot; Nicholas Koken, Todyl&#x27;s head of Detection Engineering, said . \&quot;Revoking user sessions does not end this access. Disabling the app in a tenant stops new tokens from being issued there, though tokens already issued stay valid for up to 90 minutes. Any tenant where the app is still enabled stays exposed until ConnectWise rotates the credential.\&quot; In response to the incident, ConnectWise has taken the step of closing Cloud Backup application access until further notice. Th&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
+    },
+    {
+      &quot;source&quot;: &quot;Huntress&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;category&quot;: &quot;detection_response_operations&quot;,
+      &quot;title&quot;: &quot;ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks&quot;,
+      &quot;link&quot;: &quot;https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access&quot;,
+      &quot;published&quot;: &quot;2026-10-16T23:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;ConnectWise (SkyKick) vendor credentials are being abused to access Microsoft 365 tenants. Disable the apps now and check your logs here.&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [
+          &quot;Microsoft 365&quot;
+        ],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {
+          &quot;Microsoft 365&quot;: &quot;target&quot;
+        },
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 9
     },
     {
       &quot;source&quot;: &quot;Dark Reading&quot;,
@@ -1342,7 +1444,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 10
+      &quot;score&quot;: 9
     },
     {
       &quot;source&quot;: &quot;BleepingComputer&quot;,
@@ -1372,7 +1474,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 8
+      &quot;score&quot;: 7
     },
     {
       &quot;source&quot;: &quot;Dark Reading&quot;,
@@ -1404,7 +1506,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;OpenSSF Blog&quot;,
@@ -1436,7 +1538,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 8
+      &quot;score&quot;: 7
     },
     {
       &quot;source&quot;: &quot;Volexity&quot;,
@@ -2176,6 +2278,36 @@
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
+      &quot;source&quot;: &quot;Huntress&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;category&quot;: &quot;detection_response_operations&quot;,
+      &quot;title&quot;: &quot;Inside the Hunt: Sarah Reddish&quot;,
+      &quot;link&quot;: &quot;https://www.huntress.com/blog/employee-spotlight-sarah-reddish&quot;,
+      &quot;published&quot;: &quot;2026-10-16T13:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;Go inside the hunt with Sarah Reddish, a SOC analyst on Huntress’ global SOC working in Triage &amp; Analysis. See how she makes a difference every day.&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 9,
+      &quot;full_body&quot;: &quot;Home Blog Inside the Hunt: Sarah Reddish Turns Complex Threats Into Clear Action Published: October 16, 2026 Inside the Hunt: Sarah Reddish Turns Complex Threats Into Clear Action By: Erin Bortz Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Meet Sarah Reddish , a Security Operations Analyst on Huntress&#x27; global Security Operations Center (SOC), working in Triage &amp; Analysis. Her role goes far beyond monitoring a queue. She investigates and researches suspicious activity, intrusions, and a wide range of security threats. She also analyzes partner environments to determine what happened and what matters, and then writes clear reports with practical, easy-to-follow remediation guidance. \&quot;I don&#x27;t just identify threats,\&quot; she says. \&quot;I translate them into clear reports and outcomes that help partners understand the risk and respond confidently.\&quot; That means turning complex technical findings into information people can understand and act on, while helping protect partner data, systems, and peace of mind. Sarah hanging with her Huntress teammates A wider view of security operations At Huntress, Sarah gets to work as part of a truly global SOC and protect a broad range of partner environments at scale. She collaborates across regions, participates in cross-region handoffs that support global SOC continuity, and learns from an exceptionally talented analyst community. That global perspective changes what an investigation can become. Sarah isn&#x27;t only working through a single environment or incident. She&#x27;s helping turn investigations into actionable protection for many partners, while learning from analysts who bring different experiences and perspectives to the work. Hear Sarah in this Huntress Shorts , \&quot;Slow down if you get a pop-up asking you to update your Adobe software\&quot; From ambiguity to action The most rewarding part of Sarah&#x27;s work right now is turning complex, ambiguous threats into clear answers and actionable guidance. She investigates what happened, helps disrupt malicious activity, and sees her work directly wreck adversaries and improve our partners&#x27; security. In one investigation, a fake browser-verification prompt instructed a user to run a command. Sarah traced the activity from the initial lure through execution and follow-on behavior, separating what she observed from what she could confirm. She then translated the investigation into clear containment and recovery steps for the partner, turning a confusing incident into a practical path forward. As Sarah puts it, \&quot;The work is much more than monitoring alerts. You investigate what happened, build attack timelines and scope, translate your findings and why they matter, and give partners clear remediation steps to protect themselves.\&quot; In other words, Sarah&#x27;s goal is to make the situation understandable and the next steps practical, even when the investigation begins with incomplete or unclear information. Trust that stretches the role Sarah&#x27;s growth has also been shaped by the trust and guidance of Chris Hecker , Manager of Security Operations, who serves as a sounding board for incident-severity decisions, operational escalations, and career development. His practical guidance, along with the trust he places in Sarah to own her work, has challenged her to think more strategically about both individual investigations and their broader impact. That balance of support and ownership is an important part of how Sarah approaches the role. She is encouraged to work through difficult decisions, learn from an experienced global team, and consider not just what happened in an environment, but how her analysis can help a partner respond with confidence. Stay curious and keep learning For anyone considering a role like hers, Sarah&#x27;s advice is direct: \&quot;Come ready to stay curious, think critically, and keep learning.\&quot; The work is challenging and meaningful, with the opportunity to investigate real threats, communicate clearly, and learn alongside a talented global team. &quot;,
+      &quot;fetch_status&quot;: &quot;ok&quot;
+    },
+    {
       &quot;source&quot;: &quot;The Record&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
@@ -2327,25 +2459,19 @@
         &quot;threat_categories&quot;: [],
         &quot;actor_attribution&quot;: [],
         &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [
-          &quot;Azure&quot;
-        ],
+        &quot;affected_products&quot;: [],
         &quot;tools_used&quot;: [],
         &quot;cve_ids&quot;: [],
         &quot;attack_techniques&quot;: [],
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;news_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {
-          &quot;Azure&quot;: &quot;target&quot;
-        },
+        &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 8,
-      &quot;full_body&quot;: &quot;Ask most teams for a map of their network and you’ll get one of two things: a diagram someone drew for an audit two years ago, or an export from the firewall and cloud consoles showing what each rule allows. Both describe intent. Neither describes what an attacker on the internet can actually reach today. The gap between the two is where incidents start. A database is marked “public network access enabled” but sits behind a private endpoint, so it isn’t reachable at all. A load balancer looks locked down in one console, but a CDN in front of it forwards traffic from anywhere. A subdomain still points at a cloud resource that was deleted months ago, and anyone can claim it. Orca approaches the network map from the attacker’s side: follow the full path to every asset, then test the perimeter from the outside. Custom Agents turn that data into a map you can keep current without redrawing it by hand. What usually goes into a network map? A useful network map answers a short list of questions. Traditionally, each answer comes from a different source, maintained by a different team: What the map needs Where it usually comes from What Orca adds An inventory of assets and addresses CMDB, IP address management, spreadsheets Cloud asset inventory across accounts, plus discovered domains, subdomains, and IP addresses The ways in from the internet Security group and load balancer configurations An exposure rating for every asset, calculated across the full network path The controls in front of each asset Firewall, security group, and WAF rule exports Security groups, cloud firewalls, Check Point firewalls, WAFs, and CDNs evaluated together, with labels showing which assets are fully or partly behind a WAF Open ports and running services Port scans, configuration review Exposure rated per port, for services Orca finds running on the asset Application and API endpoints API gateway configurations, developer documentation Discovered API endpoints, Swagger views, and a Network Exposure graph linking open ports to the application endpoints behind them The condition of the perimeter An annual penetration test Ongoing external probing for subdomain takeover risk, certificate problems, exposed files, and debug panels What sits behind the perimeter Team knowledge Attack paths, crown jewels, and the Internet and IAM Exposure Graph The traditional column has a common weakness: each source describes one layer, in one tool, as configured. Combining them is often done manually and made obsolete quickly. Why isn’t the configuration enough? Every cloud provider exposes its own public access settings, such as Azure’s PublicNetworkAccess flag. That setting records what a resource permits. It doesn’t answer whether the resource can be reached from the internet, and the two answers are often different. Orca calculates exposure by following the full network path to each resource: firewall rules, network security groups, private endpoints, load balancers, WAFs, and CDNs. A resource that permits public access but sits behind a private endpoint isn’t reachable, so Orca doesn’t classify it as Public Facing. A virtual machine with a strict security group that receives traffic forwarded by a load balancer inherits the load balancer’s exposure. Each asset ends up with one of a small set of exposure ratings: Public Facing: open to all IPv4 addresses Internet Facing: reachable from specific external addresses, including through CDNs Trusted Access: reachable only from IP ranges you’ve defined as trusted None: no external exposure found Orca also rates exposure per port. An asset can be Internet Facing on port 443 while its other three open ports are Trusted Access or None. That’s the difference between “this server is exposed” and “this one service on this server is exposed,” and it’s the level of detail a network map needs. A firewall rule tells you what one control allows. A network map has to show what the aggregation of controls allows, port by port. What does test&quot;,
-      &quot;fetch_status&quot;: &quot;ok&quot;
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;BleepingComputer&quot;,
@@ -2438,7 +2564,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 5
+      &quot;score&quot;: 4
     },
     {
       &quot;source&quot;: &quot;Schneier on Security&quot;,
@@ -2468,7 +2594,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;SecurityWeek&quot;,
@@ -2503,7 +2629,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 15
+      &quot;score&quot;: 14
     },
     {
       &quot;source&quot;: &quot;Reddit r/netsec&quot;,
@@ -2533,7 +2659,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 8
+      &quot;score&quot;: 7
     },
     {
       &quot;source&quot;: &quot;Infosecurity Magazine&quot;,
@@ -2563,7 +2689,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 5
+      &quot;score&quot;: 4
     },
     {
       &quot;source&quot;: &quot;Help Net Security&quot;,
@@ -2591,7 +2717,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 5
+      &quot;score&quot;: 4
     },
     {
       &quot;source&quot;: &quot;SecurityWeek&quot;,
@@ -2619,7 +2745,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 8
+      &quot;score&quot;: 7
     },
     {
       &quot;source&quot;: &quot;SecurityWeek&quot;,
@@ -2647,7 +2773,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 8
+      &quot;score&quot;: 7
     },
     {
       &quot;source&quot;: &quot;The Hacker News&quot;,
@@ -2684,7 +2810,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 13
+      &quot;score&quot;: 12
     },
     {
       &quot;source&quot;: &quot;The Hacker News&quot;,
@@ -2712,7 +2838,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 5
+      &quot;score&quot;: 4
     },
     {
       &quot;source&quot;: &quot;BleepingComputer&quot;,
@@ -5123,7 +5249,7 @@
       &quot;score&quot;: 4
     },
     {
-      &quot;source&quot;: &quot;Microsoft Security Blog&quot;,
+      &quot;source&quot;: &quot;Microsoft Threat Intelligence&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;category&quot;: &quot;threat_research_primary&quot;,
       &quot;title&quot;: &quot;The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime&quot;,
@@ -5165,7 +5291,7 @@
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
-      &quot;source&quot;: &quot;Microsoft Threat Intelligence&quot;,
+      &quot;source&quot;: &quot;Microsoft Security Blog&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;category&quot;: &quot;threat_research_primary&quot;,
       &quot;title&quot;: &quot;The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime&quot;,
@@ -6836,41 +6962,6 @@
       &quot;score&quot;: 4
     },
     {
-      &quot;source&quot;: &quot;The Hacker News&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code&quot;,
-      &quot;link&quot;: &quot;https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html&quot;,
-      &quot;published&quot;: &quot;2026-10-13T08:43:37+00:00&quot;,
-      &quot;summary&quot;: &quot;GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software that could result in arbitrary code execution. \&quot;GitLab has remediated an issue that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD&quot;,
-      &quot;author&quot;: &quot;info@thehackernews.com (The Hacker News)&quot;,
-      &quot;in_window&quot;: true,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [
-          &quot;GitLab&quot;
-        ],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [
-          &quot;preauth_unauth&quot;,
-          &quot;critical_cvss&quot;
-        ],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {
-          &quot;GitLab&quot;: &quot;target&quot;
-        },
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      },
-      &quot;score&quot;: 9
-    },
-    {
       &quot;source&quot;: &quot;Graham Cluley&quot;,
       &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
       &quot;category&quot;: &quot;practitioner_analysis&quot;,
@@ -7020,9 +7111,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 8,
-      &quot;full_body&quot;: &quot;Building intent-based access control without reading minds This article was first published on LinkedIn . Written by Nash Borges AI Research Threat Research AI AI RESEARCH Share This Link Copied In Minority Report, the Department of Precrime promised certainty. Three precognitives saw the future, the system picked the consensus, and police arrested people for murders they hadn&#x27;t yet committed. The whole machine depended on one buried secret: sometimes the precogs disagreed, and the dissenting vision, the minority report, was quietly deleted. The system held together as long as the precogs agreed, but broke when it removed its own doubt. A new wave of security products is reaching for the same capability. The pitch goes something like this: put a small AI model on every laptop, let it watch what people do across their apps, browsers, and AI tools the way a colleague sitting behind them would, understand what each person is trying to do, determine if they are malicious, and intervene before the damage is done. The same monitoring keeps a complete record of work, so an analyst can read what happened instead of piecing it together from scattered logs. The person might be an employee pasting sensitive data into an unapproved AI assistant, an outsider logged in with stolen credentials, or someone following a scammer&#x27;s instructions to hand over remote control of their laptop. The watching part is now straightforward with local models. The design question is what a system should do with inference about intent that won’t always be correct. Strip away the architecture and the pitch makes three promises: catch a risky action in time to stop it, tell it apart from normal work without burying analysts in alerts, and make whatever gets flagged quick to investigate. Useful intent-based access control can be built today by combining contextual inference with explicit policy and enforcement at sensitive actions. The research supports reconstructing what happened after the fact, scoring how well an action fits a person&#x27;s job, and adding friction at the moment of risk. Recognizing someone&#x27;s immediate goal while they&#x27;re still pursuing it is less settled, and reliably separating malicious from benign motives in ordinary work is a challenge. So working systems test something more concrete: how well an action fits the person&#x27;s job, how unusual it is for them, or which objective on a short list it matches. Each test trades false alarms for misses differently, and each leaves a gap an imitator can hide in, which is why the design around the test matters as much as the test itself. We’ll start with what a local model can read from the screen, move through the tests from most to least concrete, take the case where the intent belongs to someone else, and finish with how the tests combine into access control. What a local model can read from the screen Reconstructing what someone did on their screen already works surprisingly well. Cohen et al. split the job in two. A small model first summarizes each step of a short UI trajectory, using screenshots and action records to capture what was on screen and what the user did, and a second fine-tuned model infers the goal from those summaries. With Gemini Flash 8B as the small model, that decomposed pipeline inferred the user&#x27;s goal about as well as Gemini 1.5 Pro, a model that cost more than 30 times as much per token. Jiang et al.&#x27;s task-induction method handles an earlier step, sorting interleaved computer-use traces back into their original tasks with near-perfect agreement. Both results are retrospective. Each settles its answer after the last interaction, which suits post-incident response but doesn&#x27;t establish how reliably a goal can be identified while someone is still pursuing it. Established endpoint vendors and newer products alike are building around small, specialized models that make decisions in real time , in some cases directly on the device . Many rely mainly on structured events such as clipbo&quot;,
-      &quot;fetch_status&quot;: &quot;ok&quot;
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;AWS Security Blog&quot;,
@@ -7682,6 +7771,60 @@
         }
       },
       &quot;score&quot;: 5
+    },
+    {
+      &quot;source&quot;: &quot;Reddit r/netsec&quot;,
+      &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
+      &quot;category&quot;: &quot;reddit_practitioner_osint&quot;,
+      &quot;title&quot;: &quot;Smashing the token limit with overlapping fragments (CSS injection token exfiltration, PortSwigger Research)&quot;,
+      &quot;link&quot;: &quot;https://www.reddit.com/r/netsec/comments/1x2bhmo/smashing_the_token_limit_with_overlapping/&quot;,
+      &quot;published&quot;: &quot;2026-10-10T10:00:26+00:00&quot;,
+      &quot;summary&quot;: &quot;submitted by /u/theomkamble [link] [comments]&quot;,
+      &quot;author&quot;: &quot;/u/theomkamble&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_5_chatter&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;SANS Internet Storm Center&quot;,
+      &quot;cohort&quot;: &quot;government_authoritative&quot;,
+      &quot;category&quot;: &quot;government_authoritative&quot;,
+      &quot;title&quot;: &quot;Why TLP should not replace your internal information classification, (Sat, Oct 10th)&quot;,
+      &quot;link&quot;: &quot;https://isc.sans.edu/diary/rss/33414&quot;,
+      &quot;published&quot;: &quot;2026-10-10T09:11:34+00:00&quot;,
+      &quot;summary&quot;: &quot;The Traffic Light Protocol (TLP)[ 1 ], which is now in its second incarnation, is a wonderful standard that enables one to easily communicate whether information may be shared further (and if so, how far).&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_government&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
     },
     {
       &quot;source&quot;: &quot;Simon Willison&quot;,
@@ -16414,7 +16557,7 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Microsoft Security Blog&quot;,
+      &quot;source&quot;: &quot;Microsoft Threat Intelligence&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;category&quot;: &quot;threat_research_primary&quot;,
       &quot;title&quot;: &quot;Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570&quot;,
@@ -16445,7 +16588,7 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Microsoft Threat Intelligence&quot;,
+      &quot;source&quot;: &quot;Microsoft Security Blog&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;category&quot;: &quot;threat_research_primary&quot;,
       &quot;title&quot;: &quot;Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570&quot;,
@@ -16918,7 +17061,7 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Microsoft Security Blog&quot;,
+      &quot;source&quot;: &quot;Microsoft Threat Intelligence&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;category&quot;: &quot;threat_research_primary&quot;,
       &quot;title&quot;: &quot;Phishing Abuses RMM Tools for Persistent Access&quot;,
@@ -16951,7 +17094,7 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Microsoft Threat Intelligence&quot;,
+      &quot;source&quot;: &quot;Microsoft Security Blog&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;category&quot;: &quot;threat_research_primary&quot;,
       &quot;title&quot;: &quot;Phishing Abuses RMM Tools for Persistent Access&quot;,
@@ -34072,64 +34215,6 @@
         &quot;attack_techniques&quot;: [],
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;low_signal&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;Huntress&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;category&quot;: &quot;detection_response_operations&quot;,
-      &quot;title&quot;: &quot;Reverse Engineering the Six Stages of MacSync Stealer and RAT&quot;,
-      &quot;link&quot;: &quot;https://www.huntress.com/blog/macsync-stealer-rat-reverse-engineering&quot;,
-      &quot;published&quot;: &quot;2026-07-29T14:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;We reverse-engineered MacSync, a six-stage macOS stealer and RAT, recovered from attacker infrastructure after the victim’s host was taken offline.&quot;,
-      &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [
-          &quot;Apple iOS/macOS&quot;
-        ],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {
-          &quot;Apple iOS/macOS&quot;: &quot;target&quot;
-        },
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;Huntress&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;category&quot;: &quot;detection_response_operations&quot;,
-      &quot;title&quot;: &quot;Introducing Huntress Webhooks. Get Real-Time Security Alerts.&quot;,
-      &quot;link&quot;: &quot;https://www.huntress.com/blog/introducing-huntress-webhooks&quot;,
-      &quot;published&quot;: &quot;2026-07-29T14:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Huntress Webhooks push incidents and escalations straight to Slack, your PSA, or SIEM in real time with no polling. See how you can set them up in minutes.&quot;,
-      &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
