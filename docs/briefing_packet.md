@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-10-17T23:55:23.919697+00:00
+- Generated: 2026-10-18T04:02:08.254320+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 344
-- Total clusters raw: 159
+- Total items in window: 345
+- Total clusters raw: 160
 - Total clusters in packet: 75
-- Dropped low score: 84
+- Dropped low score: 85
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,65 +70,50 @@
 
 ## Feed status
 
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
   - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
-  - In window count: 3
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
   - In window count: 3
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
@@ -140,23 +125,38 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
+  - In window count: 1
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 6
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 9
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 9
@@ -164,11 +164,6 @@
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
-  - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
@@ -179,6 +174,11 @@
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
+  - In window count: 0
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
@@ -200,21 +200,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
+  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -225,126 +220,136 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 1
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 8
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 1
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 1
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 5
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 6
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 15
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 15
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
+  - In window count: 2
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
   - In window count: 1
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 2
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
   - In window count: 2
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 5
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
-  - Item count: 10
+  - Item count: 100
   - In window count: 2
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 15
+  - Item count: 10
+  - In window count: 2
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 15
+  - In window count: 15
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 17
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 50
   - In window count: 0
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
-  - Item count: 50
-  - In window count: 24
+  - Item count: 20
+  - In window count: 20
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
@@ -355,16 +360,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 20
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 17
+  - Item count: 50
+  - In window count: 24
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -385,13 +385,18 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -400,33 +405,8 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -435,20 +415,40 @@
   - Status: ok
   - Item count: 100
   - In window count: 22
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 15
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
+  - In window count: 16
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
+  - In window count: 1
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
@@ -658,12 +658,12 @@
 - Also targets: (none)
 - Dominant features:
   - affected_products: Microsoft SharePoint
-- Cluster IDs: a8bb37fb70, 8c1557a59b
+- Cluster IDs: a8bb37fb70, bca60260ff
 - Links:
   - https://cyberscoop.com/microsoft-patch-tuesday-october-2026/
-  - https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/
   - https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html
   - https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access
+  - https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/
 
 ### Linux kernel vulnerability activity
 - Anchor signal: Linux kernel
@@ -1667,49 +1667,6 @@ Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contribu
   - Link: https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/
   - Summary: Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]
 
-### Cluster 02911c4103 — score 14
-
-- Title: What to do when a data breach notice doesn't say much
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-10-12T09:00:00+00:00
-- Link: https://www.welivesecurity.com/en/how-to/what-to-do-when-a-data-breach-notice-tells-you-almost-nothing/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: financial_services
-- content_type: incident_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: financial_services
-- content_type: incident_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Data breach notifications are telling victims less than ever. What the company leaves out can still shape what you do next.
-```
-
-#### Full body
-
-```
-How To What to do when a data breach notice doesn't say much Data breach notifications are telling victims less than ever. What the company leaves out can still shape what you do next. Phil Muncaster 12 Oct 2026 • , 7 min. read Publicly reported data breaches hit an all-time high in the US last year, with over 3,300 incidents recorded and nearly 280 million victim notices mailed out. But are all of these worth the paper they’re written on? Increasingly, they lack crucial details. As the volume of data breach incidents increases, there’s a growing chance that you’ll be caught up in one. According to the non-profit Identity Theft Resource Center (ITRC), over 471 million victim notices went out in the first half of 2026 alone. Yet just a quarter (24%) contained details about the attack vector. That’s the lowest ever rate recorded by the ITRC. This is bad news for consumers, corporate victims and policymakers. A lack of detail prevents you from understanding your true risk exposure or taking meaningful action to limit the fallout and possibly prevent it from happening again. ITRC’s own data shows that three-quarters of victims want a plain-language list of exactly what data was compromised. Why are organizations cagey about releasing details? There are many reasons why a breached entity might be reluctant, or unable, to share the full details of a breach incident. Crisis comms teams may want to get some information out to customers once news of an incident surfaces, to preserve reputation and prevent harmful speculation from mounting. But they may not yet know the full picture. Information such as exactly what was compromised and how may take weeks or even months to establish, especially if it involves large data volumes. And if there’s a chance that broader disclosure could help other threat actors (by revealing the attack path and defensive weaknesses) or the adversary itself (if it is still inside the network) then it may be withheld. There are also more financially driven motives for limiting disclosure. Excessive info-sharing might impact the share price, reputation, and/or competitive advantage of an organization. The truth is that disclosures to regulators will usually feature far more detail. The victims, meanwhile, are often left grasping at straws. Example of a data breach notice with a detailed explanation of the situation (for more, head over here ) How do you interpret a breach notice? The language used in a breach notification can be confusing. If it says your data was “accessed” it doesn’t necessarily mean it was actually stolen (i.e., “exfiltrated”). And just because a breached company claims they have seen “no evidence of misuse” there’s absolutely no guarantee that this is true. What they see and what’s actually happening on the cybercrime underground can be two very different things. Similarly, if a company says you “may have been affected” it doesn’t mean your data was definitely in the trove that was compromised – although it’s always best to err on the side of caution. RELATED READING: They’re coming for your data: What are infostealers and how do I stay safe? As mentioned, breach notices may be cagey about exactly how the hackers got in and stole the data (the attack vector). But for victims, this is one of the less important pieces of information. What you really need to know is: Whether your data was ‘only’ accessed or actually taken (although it’s best to assume the worst until you hear different) What data was taken, as this will determine your next steps (e.g., whether you need to reset passwords, call your bank, cancel cards etc) When the incident happened and how long it lasted, as this can help you to check against suspicious activity on affected accounts What the company itself is telling you to do in terms of specific next steps Is the notification even legitimate? It’s also important to check if the notice is genuine . Scammers have grown wise to the fact that breach notifications are an increasin
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: What to do when a data breach notice doesn't say much
-  - Published: 2026-10-12T09:00:00+00:00
-  - Link: https://www.welivesecurity.com/en/how-to/what-to-do-when-a-data-breach-notice-tells-you-almost-nothing/
-  - Summary: Data breach notifications are telling victims less than ever. What the company leaves out can still shape what you do next.
-
 ### Cluster a2a2bd1902 — score 14
 
 - Title: The Q3 Vulnerability Pulse: Discovery ≠ Exploitation
@@ -1758,6 +1715,49 @@ The Q3 Vulnerability Pulse: Discovery ≠ Exploitation By Thorsten Rosendahl Thu
   - Published: 2026-10-15T18:00:00+00:00
   - Link: https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/
   - Summary: Is the cybersecurity world really facing a "Bugmageddon?" Thor breaks down the latest CVE and KEV trends in the latest Threat Source newsletter.
+
+### Cluster 02911c4103 — score 14
+
+- Title: What to do when a data breach notice doesn't say much
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-10-12T09:00:00+00:00
+- Link: https://www.welivesecurity.com/en/how-to/what-to-do-when-a-data-breach-notice-tells-you-almost-nothing/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Data breach notifications are telling victims less than ever. What the company leaves out can still shape what you do next.
+```
+
+#### Full body
+
+```
+How To What to do when a data breach notice doesn't say much Data breach notifications are telling victims less than ever. What the company leaves out can still shape what you do next. Phil Muncaster 12 Oct 2026 • , 7 min. read Publicly reported data breaches hit an all-time high in the US last year, with over 3,300 incidents recorded and nearly 280 million victim notices mailed out. But are all of these worth the paper they’re written on? Increasingly, they lack crucial details. As the volume of data breach incidents increases, there’s a growing chance that you’ll be caught up in one. According to the non-profit Identity Theft Resource Center (ITRC), over 471 million victim notices went out in the first half of 2026 alone. Yet just a quarter (24%) contained details about the attack vector. That’s the lowest ever rate recorded by the ITRC. This is bad news for consumers, corporate victims and policymakers. A lack of detail prevents you from understanding your true risk exposure or taking meaningful action to limit the fallout and possibly prevent it from happening again. ITRC’s own data shows that three-quarters of victims want a plain-language list of exactly what data was compromised. Why are organizations cagey about releasing details? There are many reasons why a breached entity might be reluctant, or unable, to share the full details of a breach incident. Crisis comms teams may want to get some information out to customers once news of an incident surfaces, to preserve reputation and prevent harmful speculation from mounting. But they may not yet know the full picture. Information such as exactly what was compromised and how may take weeks or even months to establish, especially if it involves large data volumes. And if there’s a chance that broader disclosure could help other threat actors (by revealing the attack path and defensive weaknesses) or the adversary itself (if it is still inside the network) then it may be withheld. There are also more financially driven motives for limiting disclosure. Excessive info-sharing might impact the share price, reputation, and/or competitive advantage of an organization. The truth is that disclosures to regulators will usually feature far more detail. The victims, meanwhile, are often left grasping at straws. Example of a data breach notice with a detailed explanation of the situation (for more, head over here ) How do you interpret a breach notice? The language used in a breach notification can be confusing. If it says your data was “accessed” it doesn’t necessarily mean it was actually stolen (i.e., “exfiltrated”). And just because a breached company claims they have seen “no evidence of misuse” there’s absolutely no guarantee that this is true. What they see and what’s actually happening on the cybercrime underground can be two very different things. Similarly, if a company says you “may have been affected” it doesn’t mean your data was definitely in the trove that was compromised – although it’s always best to err on the side of caution. RELATED READING: They’re coming for your data: What are infostealers and how do I stay safe? As mentioned, breach notices may be cagey about exactly how the hackers got in and stole the data (the attack vector). But for victims, this is one of the less important pieces of information. What you really need to know is: Whether your data was ‘only’ accessed or actually taken (although it’s best to assume the worst until you hear different) What data was taken, as this will determine your next steps (e.g., whether you need to reset passwords, call your bank, cancel cards etc) When the incident happened and how long it lasted, as this can help you to check against suspicious activity on affected accounts What the company itself is telling you to do in terms of specific next steps Is the notification even legitimate? It’s also important to check if the notice is genuine . Scammers have grown wise to the fact that breach notifications are an increasin
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: What to do when a data breach notice doesn't say much
+  - Published: 2026-10-12T09:00:00+00:00
+  - Link: https://www.welivesecurity.com/en/how-to/what-to-do-when-a-data-breach-notice-tells-you-almost-nothing/
+  - Summary: Data breach notifications are telling victims less than ever. What the company leaves out can still shape what you do next.
 
 ### Cluster 4e19b641c5 — score 14
 
@@ -2033,12 +2033,12 @@ Infosecurity Magazine Home » News » Karaoke Giant Reveals Data Breach Impactin
   - Link: https://www.infosecurity-magazine.com/news/karaoke-giant-data-breach-eight/
   - Summary: Daiichi Kosho says a supply chain breach has exposed personal data on over eight million karaoke customers
 
-### Cluster 8c1557a59b — score 11
+### Cluster bca60260ff — score 11
 
-- Title: Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-10-17T15:18:51+00:00
-- Link: https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/
+- Title: Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-10-17T06:16:46+00:00
+- Link: https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html
 - Fetch status: ok
 - Member count: 3
 - Corroborating source count: 3
@@ -2046,35 +2046,31 @@ Infosecurity Magazine Home » News » Karaoke Giant Reveals Data Breach Impactin
 
 #### Cluster taxonomy (union across members)
 - threat_categories: supply_chain
+- affected_industries: legal_professional
 - affected_products: Microsoft 365, Microsoft SharePoint
 - content_type: incident_report, news_report
 - confidence_tier: tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: supply_chain
+- affected_industries: legal_professional
 - affected_products: Microsoft 365, Microsoft SharePoint
-- content_type: news_report
+- content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]
+Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments. ConnectWise Cloud Backup is a cloud-based backup and recovery service built for managed service providers (MSPs
 ```
 
 #### Full body
 
 ```
-Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack By Ionut Ilascu October 17, 2026 11:18 AM 2 ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. Reports of the malicious activity began emerging on Friday, with administrators observing unauthorized access to client data in Microsoft 365 tenants due to a potential “SkyKick/CW breach.” Later on the same day, managed cybersecurity and threat detection platform Huntress confirmed the worries, saying that it had identified at least 162 compromised tenants in its environment. In a post today, Microsoft also confirmed malicious activity involving ConnectWise’s Cloud Backup service, saying it identified unauthorized authentication attempts from an IP address on October 15. ConnectWise’s cloud backup solutions provide backup and recovery services that help managed service providers (MSPs) and IT teams protect and restore customer data, such as emails and files, in cloud environments including Microsoft 365 and Google Workspace. For Microsoft 365 backups, the service relies on permissions granted through Microsoft Entra ID. An application identity known as a “service principal” represents the software in a customer’s tenant and enables it to access resources according to the permissions granted. Microsoft 365 tenant breaches In a security advisory , ConnectWise said that it “recently identified unauthorized access to application identities within the ConnectWise Cloud Backup environment” and shut down application access for its partners and clients. “We have no indicators to date that Cloud Backup partner backup data has been compromised. The existing cloud backup archive is not impacted by this service interruption and will be accessible once services are restored,” ConnectWise says . However, the company has launched an investigation and is engaged in remediation efforts. Based on reports from Microsoft, Huntress, and administrators, the malicious activity started at least on October 15 from a single IP address: 144.172.64[.]128 . One user on Reddit said that they received a notification from the Microsoft Privileged Identity Management (PIM) service on October 15 alerting of a SkyKick service principal assigning itself the role of Exchange Administrator, despite not using the app in years. Nevertheless, some of the reported IDs for the offensive SkyKick match those provided by Huntress, Microsoft, and Todyl - a cybersecurity platform primarily for MSPs and IT professionals. According to Todyl researchers, the attacker authenticated directly to Microsoft 365 as the backup application using its secret, gaining the permissions customers had already granted it. The sign-in requests were performed by an automated script, and since they did not involve a user login, protections such as multi-factor authentication (MFA) were ineffective. “Because the application already held broad, previously granted permissions in each tenant, those sign-ins gave the attacker the technical ability to read and write mail and attachments, OneDrive and SharePoint files, and Teams chats,” Todyl said . In the analyzed intrusions on nine tenants, Todyl researchers identified only sign-in activity and did not find evidence that the threat actor “created accounts, added permissions, changed passwords, or established persistence in any tenant through the backup app.” Reconnaissance and persistence attempts However, Huntress saw on nearly 50 tenants it monitors that service principals for “ConnectWise’s Cloud Management apps (Exchange Online, Microsoft Teams, and Microsoft Graph) assigned themselves directory roles, mostly Exchange Administrator.” In one tenant, Huntress researchers also observed that the attacker established persistence, the operation taking around five minutes. During the activity, Cloud Management - MS Teams ( 24205314-2b89-4e07-a2a4-579e898
+Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants  Ravie Lakshmanan  Oct 17, 2026 Cloud Security / Cyberattack Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments. ConnectWise Cloud Backup is a cloud-based backup and recovery service built for managed service providers (MSPs) to secure their clients' Microsoft 365 or Google Workspace data. To accomplish its tasks, the application is granted broad access to mailboxes, OneDrive, SharePoint, Teams, and directory data in every tenant on which it's installed. Huntress said it has observed confirmed unauthorized sign-ins within 173 partner/customer tenants using the compromised vendor credential. The incident impacts every organization that has the app installed, and the credential works against every tenant the app is consented in. "The app's credential is in hostile hands," security researcher Jonathan Semon said . "It was used to obtain Microsoft Graph tokens in customer tenants from 144.172.64[.]128 on October 15, between 06:13 and 08:34 UTC. The actor moved through tenants in sorted GUID order, a few seconds apart, which points to a script working from a target list." In the observed attackers, the adversary has been observed authenticating to the app using their own tooling, in a manner analogous to the backup service, and obtains tokens with the app's existing permissions. Given that the app has extensive permissions to access customer data, an attacker in possession of the tokens can read mailboxes, files, and directory data the backup service can. Huntress said the same IP address engaged in password spraying against four law firm tenants on October 13 and 14, 2026, although it said it detected no successful user sign-ins in its telemetry. In at least one partner tenant, the cybersecurity company said it found a separate ConnectWise app assigning itself Global Administrator privileges and adding credentials to other trusted applications within this environment, thereby opening a pathway to other privileged apps within customer environments. This effectively extends the risk beyond the vendor account. "The ConnectWise Cloud Management app for Microsoft Teams (application ID 24205314-2b89-4e07-a2a4-579e898a5640) added itself to the Global Administrator role, then ran a Python script (User-Agent Python-urllib/3.12) that modified two other applications in the tenant: an MSP management application, and Huntress's own application (Huntress Security Platform), adding new client secrets to both," Semon explained. "The two applications that received new secrets are trusted, privileged tools. Adding a credential to an MSP management application can extend access beyond the one tenant, because those applications are often consented into the MSP's customers' tenants. A credential on a security tool's application gives the holder whatever that tool is permitted to do." Todyl, in a similar analysis, said it detected an unauthorized party authenticating to Microsoft Graph as the ConnectWise Cloud Backup application. "The access inherited the app's existing consent, which permits read/write access to mail and attachments (full mailbox access through Exchange Web Services), OneDrive and SharePoint files, and Teams chats, including the ability to restore data," Nicholas Koken, Todyl's head of Detection Engineering, said . "Revoking user sessions does not end this access. Disabling the app in a tenant stops new tokens from being issued there, though tokens already issued stay valid for up to 90 minutes. Any tenant where the app is still enabled stays exposed until ConnectWise rotates the credential." In response to the incident, ConnectWise has taken the step of closing Cloud Backup application access until further notice. Th
 ```
 
 #### Corroborating sources (3)
 
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack
-  - Published: 2026-10-17T15:18:51+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/
-  - Summary: ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants
   - Published: 2026-10-17T06:16:46+00:00
@@ -2085,56 +2081,11 @@ Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack By Ionu
   - Published: 2026-10-16T23:00:00+00:00
   - Link: https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access
   - Summary: ConnectWise (SkyKick) vendor credentials are being abused to access Microsoft 365 tenants. Disable the apps now and check your logs here.
-
-### Cluster baa3477655 — score 10
-
-- Title: The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime
-- Source: Microsoft Security Blog (threat_research_primary)
-- Published: 2026-10-14T13:00:00+00:00
-- Link: https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services, government, healthcare
-- affected_products: Google Cloud, Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: healthcare, financial_services, government
-- affected_products: Google Cloud, Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem. The post The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime appeared first on Microsoft Security Blog .
-```
-
-#### Full body
-
-```
-Share Link copied to clipboard! Tags Phishing Social engineering Threats intelligence Cyberattacker techniques, tools, and infrastructure Cybercrime Social engineering and phishing Threat actors Content types Research Products and services Microsoft Defender Microsoft Defender for Endpoint Microsoft Defender for Identity Topics Threat intelligence Over the past year, Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators, developers, and an illicit marketplace selling tools and infrastructure for large-scale phishing, enabling cybercriminal operations worldwide. Threat actors purchased and used these tools and infrastructure, including phishing kits and access to compromised or fraudulent Microsoft or Google cloud environments and related credentials, to target organizations across the healthcare, financial services, wholesale distribution, and information technology (IT) sectors in Japan, the United States, Australia, and India. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem’s primary developers and infrastructure . Microsoft’s research into one phishing kit unraveled a larger ecosystem, including the phishing kit developers, an infrastructure dealer, and the threat actors who buy from both. In this blog, we examine several phishing kits marketed and sold through YAM Store, an underground marketplace tracked by Microsoft as Storm-3119. We share our analysis of the technical aspects of this Chinese-language phishing kit ecosystem, the shared infrastructure, provisioning methods, and downstream activity by threat actors using these tools. Figure 1: Heat map of most impacted countries by combined Storm-3119 and Storm-2990-related activity. Uncovering the shadow world of a phishing kit ecosystem Microsoft, alongside industry partner Resecurity , identified three phishing kits sold through the YAM Store that make up this Chinese-language cybercriminal network: CoGUI (also known as NX or FA), Haozi (also known as Phoenix), and Iron Man System. Microsoft tracks the cluster of activity and the developers behind all three phishing kits as Storm-2990. Since January 2026, the threat actors behind these kits have been responsible for facilitating the sending of over one billion phishing emails and SMS messages to over 75 thousand organizations worldwide. Microsoft assesses with high confidence that these phishing kits were developed by Chinese-speaking threat actors, and, despite their distinct branding and separate Telegram-based sales channels, exhibit highly similar capabilities and functionality. The phishing kits provide phishing templates impersonating legitimate brands and organizations (including government, financial, and logistics) worldwide, and enable criminal actors to facilitate high-volume phishing and credential stealing operations. The similarity in their infrastructure and overlap in activity suggest either shared development origins, code reuse, or close collaboration among their developers. These phishing kits have been advertised through YAM Store, first CoGUI and Haozi, followed by Iron Man System starting in June 2026. YAM Store and affiliated phishing kit companies accepted payments through cryptocurrency, including USDT and Ethereum, adding another layer to conceal illicit activity. The scale and proliferation of this ecosystem demonstrate how readily available criminal infrastructure can lower the barrier to entry, enabling less skilled cybercriminals to target organizations at scale and contribute to fraud losses. By mapping the relationship between YAM Store and these phishing kits, we provide insight into the commercial infrastructure that supports modern phishing operations. Figure 2. YAM Store (Storm-3119) sells fraudulently acquired infrastructure to CoGUI, Haozi, and Iron Man System, all interconnected phishing kit operators, who then pr
-```
-
-#### Corroborating sources (2)
-
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime
-  - Published: 2026-10-14T13:00:00+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/
-  - Summary: Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem. The post The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime appeared first on Microsoft Security Blog .
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - Title: The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime
-  - Published: 2026-10-14T13:00:00+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/
-  - Summary: Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem. The post The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime appeared first on Microsoft Security Blog .
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack
+  - Published: 2026-10-17T15:18:51+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/
+  - Summary: ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]
 
 ### Cluster 5bf398a88b — score 10
 
@@ -2223,6 +2174,56 @@ Threat Research Center Insights Anatomy of an Attack Anatomy of an Attack The No
   - Published: 2026-10-13T22:00:04+00:00
   - Link: https://unit42.paloaltonetworks.com/noise-inside-network-third-party-risk/
   - Summary: Unit 42 dissects a cyberattack targeting a European bank's IT infrastructure, delivering concrete defense strategies to help organizations detect and counter comparable threats. The post The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk appeared first on Unit 42 .
+
+### Cluster baa3477655 — score 10
+
+- Title: The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-10-14T13:00:00+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services, government, healthcare
+- affected_products: Google Cloud, Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_industries: healthcare, financial_services, government
+- affected_products: Google Cloud, Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem. The post The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+Share Link copied to clipboard! Tags Phishing Social engineering Threats intelligence Cyberattacker techniques, tools, and infrastructure Cybercrime Social engineering and phishing Threat actors Content types Research Products and services Microsoft Defender Microsoft Defender for Endpoint Microsoft Defender for Identity Topics Threat intelligence Over the past year, Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators, developers, and an illicit marketplace selling tools and infrastructure for large-scale phishing, enabling cybercriminal operations worldwide. Threat actors purchased and used these tools and infrastructure, including phishing kits and access to compromised or fraudulent Microsoft or Google cloud environments and related credentials, to target organizations across the healthcare, financial services, wholesale distribution, and information technology (IT) sectors in Japan, the United States, Australia, and India. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem’s primary developers and infrastructure . Microsoft’s research into one phishing kit unraveled a larger ecosystem, including the phishing kit developers, an infrastructure dealer, and the threat actors who buy from both. In this blog, we examine several phishing kits marketed and sold through YAM Store, an underground marketplace tracked by Microsoft as Storm-3119. We share our analysis of the technical aspects of this Chinese-language phishing kit ecosystem, the shared infrastructure, provisioning methods, and downstream activity by threat actors using these tools. Figure 1: Heat map of most impacted countries by combined Storm-3119 and Storm-2990-related activity. Uncovering the shadow world of a phishing kit ecosystem Microsoft, alongside industry partner Resecurity , identified three phishing kits sold through the YAM Store that make up this Chinese-language cybercriminal network: CoGUI (also known as NX or FA), Haozi (also known as Phoenix), and Iron Man System. Microsoft tracks the cluster of activity and the developers behind all three phishing kits as Storm-2990. Since January 2026, the threat actors behind these kits have been responsible for facilitating the sending of over one billion phishing emails and SMS messages to over 75 thousand organizations worldwide. Microsoft assesses with high confidence that these phishing kits were developed by Chinese-speaking threat actors, and, despite their distinct branding and separate Telegram-based sales channels, exhibit highly similar capabilities and functionality. The phishing kits provide phishing templates impersonating legitimate brands and organizations (including government, financial, and logistics) worldwide, and enable criminal actors to facilitate high-volume phishing and credential stealing operations. The similarity in their infrastructure and overlap in activity suggest either shared development origins, code reuse, or close collaboration among their developers. These phishing kits have been advertised through YAM Store, first CoGUI and Haozi, followed by Iron Man System starting in June 2026. YAM Store and affiliated phishing kit companies accepted payments through cryptocurrency, including USDT and Ethereum, adding another layer to conceal illicit activity. The scale and proliferation of this ecosystem demonstrate how readily available criminal infrastructure can lower the barrier to entry, enabling less skilled cybercriminals to target organizations at scale and contribute to fraud losses. By mapping the relationship between YAM Store and these phishing kits, we provide insight into the commercial infrastructure that supports modern phishing operations. Figure 2. YAM Store (Storm-3119) sells fraudulently acquired infrastructure to CoGUI, Haozi, and Iron Man System, all interconnected phishing kit operators, who then pr
+```
+
+#### Corroborating sources (2)
+
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime
+  - Published: 2026-10-14T13:00:00+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/
+  - Summary: Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem. The post The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime appeared first on Microsoft Security Blog .
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - Title: The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime
+  - Published: 2026-10-14T13:00:00+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/
+  - Summary: Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem. The post The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime appeared first on Microsoft Security Blog .
 
 ### Cluster 5d5fb499b6 — score 10
 
@@ -3094,47 +3095,6 @@ I remember the name of that AI doco now - The AI Doc: Or How I Became an Apocalo
   - Link: https://www.troyhunt.com/weekly-update-525/
   - Summary: I remember the name of that AI doco now - The AI Doc: Or How I Became an Apocaloptimist . I was watching it on the long-haul flight home the other day, and what I found particularly engrossing was the polar-opposite opinions from a bunch of people: "it'
 
-### Cluster 79a9ac95de — score 9
-
-- Title: GTA 6 leaker threatens to release full playable version of game ahead of official launch
-- Source: Graham Cluley (practitioner_analysis)
-- Published: 2026-10-13T08:20:56+00:00
-- Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/gta-6-leaker-threatens-release-full-game
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: financial_services
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- affected_industries: financial_services
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-The hacker behind a high-profile string of leaks involving the upcoming release of the Grand Theft Auto (GTA) 6 videogame has threatened to release a complete, playable build. Read more in my article on the Hot for Security blog.
-```
-
-#### Full body
-
-```
-Industry News 2 min read GTA 6 leaker threatens to release full playable version of game ahead of official launch Graham CLULEY October 13, 2026 The hacker behind a high-profile string of leaks involving the upcoming release of the Grand Theft Auto (GTA) 6 videogame has threatened to release a complete, playable build. The website of "CyberLeek" published the threat shortly after releasing around 25 minutes of fresh footage of the blockbuster game due to be released in November by Rockstar Games. Eurogamer , which has seen the footage, says it appears to be legitimate , and confirmed that it carries the emblem of CyberLeek. According to CyberLeek, the full playable build of GTA 6 will be released when its own cryptocurrency coin reaches a market cap of US $30 million. In an attempt to give its claims more credence, CyberLeek says that any doubters can request specific scenes to confirm it has access to the entire game. CyberLeek says that if the GTA 6 game is released on physical disk, and a public apology is made, it will step back from its threats. Campaign groups like Stop Killing Games which fights games to remain playable after publishers end support, have reportedly distanced themselves from CyberLeek's actions, and in August posted on Reddit that gamers should not encourage CyberLeek: "Do not send these people your money, no matter how much sympathy you may feel for their actions. This is illegal, and frankly, we feel for everyone at Rockstar having to go through this ordeal again, especially just over a week before Rockstar’s own official “Extended Look” premieres." Take-Two, Rockstar’s parent company, appears to be hell bent on identifying whoever is behind the leaks, and has attempted to subpoena Microsoft and Discord in order to gather information about their possible identity. Anyone who works in the field of cybersecurity is too familiar with the refrain of "pay up or we release it." What is unusual in this case is that the hacker in not demanding a direct ransom payment, but is instead asking their audience to pump up the value of a crypto token. The hacker's hope is that the pent-up desire of enough Grand Theft Auto fans will boost how much the crypto coins are worth. But, of course, there is no guarantee that the hackers will release a full, playable version of the game - even if their cryptocurrency coin does reach US $30 million. As ever, videogame fans should be very wary of believing anybody who offers a download of a supposedly leaked game. Especially when a game is as hyped-up as GTA 6, there is a real risk that unsuspecting fans will be duped into making bad decisions that could put their computer security at risk. Besides which, the real, genuine GTA 6 is due to be released on video game platforms on 19 November. It is not worth infecting your computer, or losing money on a dodgy crypto coin, just to see it a few weeks early. tags Industry News Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also like Bookmarks
-```
-
-#### Corroborating sources (1)
-
-- **Graham Cluley** (practitioner_analysis)
-  - Title: GTA 6 leaker threatens to release full playable version of game ahead of official launch
-  - Published: 2026-10-13T08:20:56+00:00
-  - Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/gta-6-leaker-threatens-release-full-game
-  - Summary: The hacker behind a high-profile string of leaks involving the upcoming release of the Grand Theft Auto (GTA) 6 videogame has threatened to release a complete, playable build. Read more in my article on the Hot for Security blog.
-
 ### Cluster be99652207 — score 9
 
 - Title: Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation
@@ -3226,6 +3186,47 @@ Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit At
   - Published: 2026-10-15T07:07:05+00:00
   - Link: https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html
   - Summary: Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian. Langflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. In February 2025, DataStax, the parent company of Langflow, was acquired by IBM. The vulnerability in question is CVE-2026-105740 (CVSS score: 9.9), a case of
+
+### Cluster 79a9ac95de — score 9
+
+- Title: GTA 6 leaker threatens to release full playable version of game ahead of official launch
+- Source: Graham Cluley (practitioner_analysis)
+- Published: 2026-10-13T08:20:56+00:00
+- Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/gta-6-leaker-threatens-release-full-game
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+The hacker behind a high-profile string of leaks involving the upcoming release of the Grand Theft Auto (GTA) 6 videogame has threatened to release a complete, playable build. Read more in my article on the Hot for Security blog.
+```
+
+#### Full body
+
+```
+Industry News 2 min read GTA 6 leaker threatens to release full playable version of game ahead of official launch Graham CLULEY October 13, 2026 The hacker behind a high-profile string of leaks involving the upcoming release of the Grand Theft Auto (GTA) 6 videogame has threatened to release a complete, playable build. The website of "CyberLeek" published the threat shortly after releasing around 25 minutes of fresh footage of the blockbuster game due to be released in November by Rockstar Games. Eurogamer , which has seen the footage, says it appears to be legitimate , and confirmed that it carries the emblem of CyberLeek. According to CyberLeek, the full playable build of GTA 6 will be released when its own cryptocurrency coin reaches a market cap of US $30 million. In an attempt to give its claims more credence, CyberLeek says that any doubters can request specific scenes to confirm it has access to the entire game. CyberLeek says that if the GTA 6 game is released on physical disk, and a public apology is made, it will step back from its threats. Campaign groups like Stop Killing Games which fights games to remain playable after publishers end support, have reportedly distanced themselves from CyberLeek's actions, and in August posted on Reddit that gamers should not encourage CyberLeek: "Do not send these people your money, no matter how much sympathy you may feel for their actions. This is illegal, and frankly, we feel for everyone at Rockstar having to go through this ordeal again, especially just over a week before Rockstar’s own official “Extended Look” premieres." Take-Two, Rockstar’s parent company, appears to be hell bent on identifying whoever is behind the leaks, and has attempted to subpoena Microsoft and Discord in order to gather information about their possible identity. Anyone who works in the field of cybersecurity is too familiar with the refrain of "pay up or we release it." What is unusual in this case is that the hacker in not demanding a direct ransom payment, but is instead asking their audience to pump up the value of a crypto token. The hacker's hope is that the pent-up desire of enough Grand Theft Auto fans will boost how much the crypto coins are worth. But, of course, there is no guarantee that the hackers will release a full, playable version of the game - even if their cryptocurrency coin does reach US $30 million. As ever, videogame fans should be very wary of believing anybody who offers a download of a supposedly leaked game. Especially when a game is as hyped-up as GTA 6, there is a real risk that unsuspecting fans will be duped into making bad decisions that could put their computer security at risk. Besides which, the real, genuine GTA 6 is due to be released on video game platforms on 19 November. It is not worth infecting your computer, or losing money on a dodgy crypto coin, just to see it a few weeks early. tags Industry News Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also like Bookmarks
+```
+
+#### Corroborating sources (1)
+
+- **Graham Cluley** (practitioner_analysis)
+  - Title: GTA 6 leaker threatens to release full playable version of game ahead of official launch
+  - Published: 2026-10-13T08:20:56+00:00
+  - Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/gta-6-leaker-threatens-release-full-game
+  - Summary: The hacker behind a high-profile string of leaks involving the upcoming release of the Grand Theft Auto (GTA) 6 videogame has threatened to release a complete, playable build. Read more in my article on the Hot for Security blog.
 
 ### Cluster d0175e4e87 — score 9
 
@@ -3580,78 +3581,6 @@ The threat landscape has shifted. Here's what cybersecurity leaders need to know
   - Link: https://www.huntress.com/blog/what-does-the-future-hold-for-todays-cybersecurity-leaders
   - Summary: The threat landscape has shifted. Here's what cybersecurity leaders need to know about RMM abuse, AI-powered attacks, ransomware, and identity threats in 2026.
 
-### Cluster ea03af9635 — score 8
-
-- Title: Burger King Japan data breach exposes 11 million customer records
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-10-16T12:01:29+00:00
-- Link: https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Burger King Japan data breach exposes 11 million customer records
-  - Published: 2026-10-16T12:01:29+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/
-  - Summary: Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]
-
-### Cluster 95c7bfa05e — score 8
-
-- Title: BeyondTrust patches zero-day exploited in attacks since August
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-10-16T06:18:08+00:00
-- Link: https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: BeyondTrust patches zero-day exploited in attacks since August
-  - Published: 2026-10-16T06:18:08+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/
-  - Summary: BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]
-
 ### Cluster ef2fa9d058 — score 8
 
 - Title: Baltimore suburb confirms August data breach after ransomware claims
@@ -3725,6 +3654,78 @@ An alleged Chinese state-backed group is using a new zero-day affecting BeyondTr
   - Published: 2026-10-16T13:00:00+00:00
   - Link: https://therecord.media/beyond-trust-cyberattack-china
   - Summary: An alleged Chinese state-backed group is using a new zero-day affecting BeyondTrust IT support software to conduct espionage attacks.
+
+### Cluster ea03af9635 — score 8
+
+- Title: Burger King Japan data breach exposes 11 million customer records
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-10-16T12:01:29+00:00
+- Link: https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Burger King Japan data breach exposes 11 million customer records
+  - Published: 2026-10-16T12:01:29+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/
+  - Summary: Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]
+
+### Cluster 95c7bfa05e — score 8
+
+- Title: BeyondTrust patches zero-day exploited in attacks since August
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-10-16T06:18:08+00:00
+- Link: https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: BeyondTrust patches zero-day exploited in attacks since August
+  - Published: 2026-10-16T06:18:08+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/
+  - Summary: BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]
 
 ### Cluster 49f60154a2 — score 8
 

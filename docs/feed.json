@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-17T23:55:23.949771+00:00",
+  "generated_at": "2026-10-18T04:02:08.282432+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2208,
   "feed_status": {
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 15,
+      "in_window_count": 4
     },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
@@ -18,18 +18,25 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
+      "item_count": 10,
+      "in_window_count": 2
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
       "in_window_count": 0
     },
     "SentinelOne Labs": {
@@ -39,20 +46,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
@@ -60,32 +53,18 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 3
-    },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
       "in_window_count": 3
     },
     "Check Point Research": {
@@ -102,12 +81,26 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 1
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
     },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
@@ -116,16 +109,23 @@
       "item_count": 50,
       "in_window_count": 6
     },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 9
+      "in_window_count": 2
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 9
+    },
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 9
@@ -135,13 +135,6 @@
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 40,
-      "in_window_count": 0
-    },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
       "in_window_count": 0
     },
     "Assetnote": {
@@ -156,6 +149,13 @@
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 50,
+      "in_window_count": 0
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "watchTowr Labs": {
@@ -186,13 +186,6 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
@@ -200,12 +193,12 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 0
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -221,12 +214,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 8
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 5
+      "in_window_count": 1
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -235,19 +235,12 @@
       "item_count": 30,
       "in_window_count": 1
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 8
-    },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 5
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -256,20 +249,6 @@
       "item_count": 20,
       "in_window_count": 6
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 15
-    },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -277,11 +256,32 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 15
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
       "item_count": 20,
+      "in_window_count": 2
+    },
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 1
     },
     "Protect AI": {
@@ -291,25 +291,18 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 2
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
       "in_window_count": 2
     },
     "Google DeepMind Blog": {
@@ -319,26 +312,12 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 100,
       "in_window_count": 2
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -347,12 +326,26 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -361,12 +354,12 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 15,
+      "in_window_count": 15
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -375,6 +368,20 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 17
+    },
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -382,12 +389,12 @@
       "item_count": 50,
       "in_window_count": 0
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 24
+      "item_count": 20,
+      "in_window_count": 20
     },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
@@ -403,19 +410,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 20
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 17
+      "item_count": 50,
+      "in_window_count": 24
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -445,15 +445,22 @@
       "item_count": 15,
       "in_window_count": 1
     },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -466,43 +473,8 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -515,25 +487,53 @@
       "item_count": 100,
       "in_window_count": 22
     },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 15
-    },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 16
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 1
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 1
     },
     "Risky Business News": {
@@ -1002,13 +1002,13 @@
       "also_targets": [],
       "cluster_ids": [
         "a8bb37fb70",
-        "8c1557a59b"
+        "bca60260ff"
       ],
       "links": [
         "https://cyberscoop.com/microsoft-patch-tuesday-october-2026/",
-        "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
         "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
-        "https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access"
+        "https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access",
+        "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/"
       ]
     },
     {
@@ -1248,6 +1248,34 @@
   },
   "items": [
     {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "PhantomBuffer: Effective EDR Evasion Through Stealth Injection",
+      "link": "https://www.reddit.com/r/netsec/comments/1x8rwjz/phantombuffer_effective_edr_evasion_through/",
+      "published": "2026-10-18T02:30:45+00:00",
+      "summary": "PhantomBuffer EDR evasion uses stealth injection via SendMessage with WM_SETTEXT to effective bypass EDR (Endpoint Detection and Response). Unlike traditional edr bypass techniques, it does not use the VirtualAllocEx and WriteProcessMemory APIs . submitted by /u/Cold-Dinosaur [link] [comments]",
+      "author": "/u/Cold-Dinosaur",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 4
+    },
+    {
       "source": "BleepingComputer",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -1264,8 +1292,7 @@
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
-          "Microsoft 365",
-          "Microsoft SharePoint"
+          "Microsoft 365"
         ],
         "tools_used": [],
         "cve_ids": [],
@@ -1274,23 +1301,13 @@
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
         "role_map": {
-          "Microsoft 365": "target",
-          "Microsoft SharePoint": "target",
-          "Microsoft Entra": "mention"
+          "Microsoft 365": "target"
         },
         "weak_tags": {
-          "products": [
-            [
-              "Microsoft Entra",
-              "mention",
-              0.29
-            ]
-          ]
+          "products": []
         }
       },
-      "score": 9,
-      "full_body": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack By Ionut Ilascu October 17, 2026 11:18 AM 2 ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. Reports of the malicious activity began emerging on Friday, with administrators observing unauthorized access to client data in Microsoft 365 tenants due to a potential “SkyKick/CW breach.” Later on the same day, managed cybersecurity and threat detection platform Huntress confirmed the worries, saying that it had identified at least 162 compromised tenants in its environment. In a post today, Microsoft also confirmed malicious activity involving ConnectWise’s Cloud Backup service, saying it identified unauthorized authentication attempts from an IP address on October 15. ConnectWise’s cloud backup solutions provide backup and recovery services that help managed service providers (MSPs) and IT teams protect and restore customer data, such as emails and files, in cloud environments including Microsoft 365 and Google Workspace. For Microsoft 365 backups, the service relies on permissions granted through Microsoft Entra ID. An application identity known as a “service principal” represents the software in a customer’s tenant and enables it to access resources according to the permissions granted. Microsoft 365 tenant breaches In a security advisory , ConnectWise said that it “recently identified unauthorized access to application identities within the ConnectWise Cloud Backup environment” and shut down application access for its partners and clients. “We have no indicators to date that Cloud Backup partner backup data has been compromised. The existing cloud backup archive is not impacted by this service interruption and will be accessible once services are restored,” ConnectWise says . However, the company has launched an investigation and is engaged in remediation efforts. Based on reports from Microsoft, Huntress, and administrators, the malicious activity started at least on October 15 from a single IP address: 144.172.64[.]128 . One user on Reddit said that they received a notification from the Microsoft Privileged Identity Management (PIM) service on October 15 alerting of a SkyKick service principal assigning itself the role of Exchange Administrator, despite not using the app in years. Nevertheless, some of the reported IDs for the offensive SkyKick match those provided by Huntress, Microsoft, and Todyl - a cybersecurity platform primarily for MSPs and IT professionals. According to Todyl researchers, the attacker authenticated directly to Microsoft 365 as the backup application using its secret, gaining the permissions customers had already granted it. The sign-in requests were performed by an automated script, and since they did not involve a user login, protections such as multi-factor authentication (MFA) were ineffective. “Because the application already held broad, previously granted permissions in each tenant, those sign-ins gave the attacker the technical ability to read and write mail and attachments, OneDrive and SharePoint files, and Teams chats,” Todyl said . In the analyzed intrusions on nine tenants, Todyl researchers identified only sign-in activity and did not find evidence that the threat actor “created accounts, added permissions, changed passwords, or established persistence in any tenant through the backup app.” Reconnaissance and persistence attempts However, Huntress saw on nearly 50 tenants it monitors that service principals for “ConnectWise’s Cloud Management apps (Exchange Online, Microsoft Teams, and Microsoft Graph) assigned themselves directory roles, mostly Exchange Administrator.” In one tenant, Huntress researchers also observed that the attacker established persistence, the operation taking around five minutes. During the activity, Cloud Management - MS Teams ( 24205314-2b89-4e07-a2a4-579e898",
-      "fetch_status": "ok"
+      "score": 8
     },
     {
       "source": "BleepingComputer",
@@ -1322,7 +1339,7 @@
           "products": []
         }
       },
-      "score": 9
+      "score": 8
     },
     {
       "source": "The Hacker News",
@@ -1403,9 +1420,12 @@
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
-        "affected_industries": [],
+        "affected_industries": [
+          "legal_professional"
+        ],
         "affected_products": [
-          "Microsoft 365"
+          "Microsoft 365",
+          "Microsoft SharePoint"
         ],
         "tools_used": [],
         "cve_ids": [],
@@ -1414,13 +1434,16 @@
         "content_type": "incident_report",
         "confidence_tier": "tier_4_news",
         "role_map": {
-          "Microsoft 365": "target"
+          "Microsoft 365": "target",
+          "Microsoft SharePoint": "target"
         },
         "weak_tags": {
           "products": []
         }
       },
-      "score": 9
+      "score": 9,
+      "full_body": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants  Ravie Lakshmanan  Oct 17, 2026 Cloud Security / Cyberattack Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments. ConnectWise Cloud Backup is a cloud-based backup and recovery service built for managed service providers (MSPs) to secure their clients' Microsoft 365 or Google Workspace data. To accomplish its tasks, the application is granted broad access to mailboxes, OneDrive, SharePoint, Teams, and directory data in every tenant on which it's installed. Huntress said it has observed confirmed unauthorized sign-ins within 173 partner/customer tenants using the compromised vendor credential. The incident impacts every organization that has the app installed, and the credential works against every tenant the app is consented in. \"The app's credential is in hostile hands,\" security researcher Jonathan Semon said . \"It was used to obtain Microsoft Graph tokens in customer tenants from 144.172.64[.]128 on October 15, between 06:13 and 08:34 UTC. The actor moved through tenants in sorted GUID order, a few seconds apart, which points to a script working from a target list.\" In the observed attackers, the adversary has been observed authenticating to the app using their own tooling, in a manner analogous to the backup service, and obtains tokens with the app's existing permissions. Given that the app has extensive permissions to access customer data, an attacker in possession of the tokens can read mailboxes, files, and directory data the backup service can. Huntress said the same IP address engaged in password spraying against four law firm tenants on October 13 and 14, 2026, although it said it detected no successful user sign-ins in its telemetry. In at least one partner tenant, the cybersecurity company said it found a separate ConnectWise app assigning itself Global Administrator privileges and adding credentials to other trusted applications within this environment, thereby opening a pathway to other privileged apps within customer environments. This effectively extends the risk beyond the vendor account. \"The ConnectWise Cloud Management app for Microsoft Teams (application ID 24205314-2b89-4e07-a2a4-579e898a5640) added itself to the Global Administrator role, then ran a Python script (User-Agent Python-urllib/3.12) that modified two other applications in the tenant: an MSP management application, and Huntress's own application (Huntress Security Platform), adding new client secrets to both,\" Semon explained. \"The two applications that received new secrets are trusted, privileged tools. Adding a credential to an MSP management application can extend access beyond the one tenant, because those applications are often consented into the MSP's customers' tenants. A credential on a security tool's application gives the holder whatever that tool is permitted to do.\" Todyl, in a similar analysis, said it detected an unauthorized party authenticating to Microsoft Graph as the ConnectWise Cloud Backup application. \"The access inherited the app's existing consent, which permits read/write access to mail and attachments (full mailbox access through Exchange Web Services), OneDrive and SharePoint files, and Teams chats, including the ability to restore data,\" Nicholas Koken, Todyl's head of Detection Engineering, said . \"Revoking user sessions does not end this access. Disabling the app in a tenant stops new tokens from being issued there, though tokens already issued stay valid for up to 90 minutes. Any tenant where the app is still enabled stays exposed until ConnectWise rotates the credential.\" In response to the incident, ConnectWise has taken the step of closing Cloud Backup application access until further notice. Th",
+      "fetch_status": "ok"
     },
     {
       "source": "Huntress",
@@ -7787,6 +7810,60 @@
       "score": 5
     },
     {
+      "source": "Simon Willison",
+      "cohort": "ai_security_agentic_risk",
+      "category": "ai_security_agentic_risk",
+      "title": "Dwarf Fortress uses version control now",
+      "link": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
+      "published": "2026-10-11T00:52:37+00:00",
+      "summary": "I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control more . That's art. I went looking and I'm sad to report that the days without version control appear to have ended. Quoting Tarn Adams over time: March 2013: \"I don't use version control -- I didn't like the feeling of having the code get committed into a black box thingy with no immediate upside\" March 2016: \"I don’t even use version control. If you don’t know what that is then you’re not gonna yell at me. If you even know what version control is you’re gonna be like, ‘You don’t use version control? You don’t use source control? What is wrong with you? How can you even work? I’m just not cut out for it, in a sense. It’s been 15 years, so the reasons have change over time, but that’s my current understanding of it.\" March 2023: \"I've got Discord channels to c",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Simon Willison",
+      "cohort": "ai_security_agentic_risk",
+      "category": "ai_security_agentic_risk",
+      "title": "Python 3.15.0 added to actions/python-versions",
+      "link": "https://simonwillison.net/2026/Oct/10/python-actions/",
+      "published": "2026-10-10T23:58:04+00:00",
+      "summary": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-versions and git pull once an hour until they add the stable 3.15 - then tell me about it Now that this has landed, you can add \"3.15\" to a GitHub Actions testing matrix to run tests against the new Python 3.15.0 release . Tags: github , python , github-actions , chatgpt",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Reddit r/netsec",
       "cohort": "reddit_practitioner_osint",
       "category": "reddit_practitioner_osint",
@@ -8691,33 +8768,6 @@
           "preauth_unauth"
         ],
         "content_type": "vulnerability_disclosure",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Reddit r/netsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Loupe: An Android Console in the Browser",
-      "link": "https://www.reddit.com/r/netsec/comments/1x13cde/loupe_an_android_console_in_the_browser/",
-      "published": "2026-10-08T21:27:29+00:00",
-      "summary": "submitted by /u/CaptMeelo [link] [comments]",
-      "author": "/u/CaptMeelo",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
         "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
@@ -10532,72 +10582,6 @@
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
         "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Simon Willison",
-      "cohort": "ai_security_agentic_risk",
-      "category": "ai_security_agentic_risk",
-      "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
-      "link": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
-      "published": "2026-10-07T00:16:45+00:00",
-      "summary": "OpenAI “rogue” agent activities found on Wikimedia projects Given how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wikipedia found evidence of that activity once they went looking: The Wikimedia Foundation conducted its own investigation to see whether Wikimedia websites had been similarly affected by AI agents, focusing on those operated by OpenAI. We can confirm that we have discovered some activity by these “rogue” OpenAI agents on Wikimedia platforms. The unauthorized bot activities included edits to our wikis, some unsuccessful attempts to exploit a public note-taking tool we host, and heavy traffic, which are described more below. They found evidence of agents editing sandbox pages, trying to use pieces of infrastructure such as Etherpad to help proxy content from elsewhere, and saw widespread crawling and \"hundreds of thousands of data queries\" to their Wikidata Query Service. My best guess is that most of this was a similar (or the same) swa",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {
-          "OpenAI/ChatGPT": "mention"
-        },
-        "weak_tags": {
-          "products": [
-            [
-              "OpenAI/ChatGPT",
-              "mention",
-              0.3
-            ]
-          ]
-        }
-      }
-    },
-    {
-      "source": "Simon Willison",
-      "cohort": "ai_security_agentic_risk",
-      "category": "ai_security_agentic_risk",
-      "title": "Quoting Victoria Kim",
-      "link": "https://simonwillison.net/2026/Oct/6/victoria-kim/",
-      "published": "2026-10-06T23:58:56+00:00",
-      "summary": "Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon [chief strategy officer at OpenAI] said. — Victoria Kim , Reporting from the Australian parliament Tags: accidental-cyberattacks , generative-ai , ai-security-research , openai , ai , llms",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {
-          "OpenAI/ChatGPT": "target"
-        },
         "weak_tags": {
           "products": []
         }
