@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-10-18T08:47:15.875804+00:00
+- Generated: 2026-10-18T13:08:30.238215+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 344
-- Total clusters raw: 158
-- Total clusters in packet: 75
-- Dropped low score: 83
+- Total items in window: 346
+- Total clusters raw: 160
+- Total clusters in packet: 76
+- Dropped low score: 84
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,11 +70,6 @@
 
 ## Feed status
 
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
@@ -85,48 +80,18 @@
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+  - In window count: 2
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
@@ -135,60 +100,105 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
-  - Item count: 100
+  - Item count: 10
+  - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 3
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 6
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 9
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
-  - In window count: 9
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
+  - In window count: 10
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
   - Status: ok
-  - Item count: 10
+  - Item count: 40
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
   - Status: ok
-  - Item count: 78
-  - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
+  - Item count: 10
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 9
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
+  - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
   - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
@@ -200,28 +210,13 @@
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Sophos X-Ops** (detection_response_operations)
-  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -230,48 +225,33 @@
   - Status: ok
   - Item count: 20
   - In window count: 8
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+- **Sophos X-Ops** (detection_response_operations)
+  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
-  - Item count: 30
+  - Item count: 15
+  - In window count: 1
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 1
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
-  - Item count: 20
+  - Item count: 30
   - In window count: 1
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 6
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 15
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 1
@@ -280,56 +260,71 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 6
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 5
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
+  - In window count: 1
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 1
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 10
+  - In window count: 2
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
@@ -340,63 +335,68 @@
   - Status: ok
   - Item count: 50
   - In window count: 0
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 24
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
   - Status: ok
-  - Item count: 20
+  - Item count: 5
+  - In window count: 5
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 1
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 24
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 7
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -405,26 +405,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
-  - In window count: 2
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 22
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
+  - In window count: 1
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
@@ -435,6 +420,21 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 22
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -455,16 +455,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **Just Security** (policy_strategy_geopolitics)
-  - URL: https://www.justsecurity.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Just Security** (policy_strategy_geopolitics)
+  - URL: https://www.justsecurity.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Google Project Zero** (offensive_vulnerability_research)
   - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
   - Status: ok
@@ -472,6 +472,25 @@
   - In window count: 0
 
 ## Affinity groups (themes)
+
+### CVE-2026-96951 exploitation activity
+- Anchor signal: CVE-2026-96951
+- Theme key: cve-2026-96951
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.303
+- Shared strong signals: CVE-2026-96951
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation, zero_day
+  - cve_ids: CVE-2026-96951
+  - urgency_signals: actively_exploited, zero_day
+- Cluster IDs: 89a5f81bf2, a8bb37fb70, d35b3375d9
+- Links:
+  - https://www.rapid7.com/blog/post/em-patch-tuesday-october-2026
+  - https://cyberscoop.com/microsoft-patch-tuesday-october-2026/
+  - https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/
 
 ### zero day targeting UNC5221
 - Anchor signal: UNC5221
@@ -497,25 +516,6 @@
   - https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust/
   - https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/
   - https://thehackernews.com/2026/10/china-linked-hackers-exploited.html
-
-### CVE-2026-96951 exploitation activity
-- Anchor signal: CVE-2026-96951
-- Theme key: cve-2026-96951
-- Cluster count: 3
-- Article count: 3
-- Cohesion: 0.2
-- Shared strong signals: CVE-2026-96951
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation, zero_day
-  - cve_ids: CVE-2026-96951
-  - urgency_signals: actively_exploited, zero_day
-- Cluster IDs: 89a5f81bf2, a8bb37fb70, d35b3375d9
-- Links:
-  - https://www.rapid7.com/blog/post/em-patch-tuesday-october-2026
-  - https://cyberscoop.com/microsoft-patch-tuesday-october-2026/
-  - https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/
 
 ### Cisco active exploitation
 - Anchor signal: Cisco
@@ -561,22 +561,6 @@
   - https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/
   - https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html
 
-### Microsoft Windows vulnerability activity
-- Anchor signal: Microsoft Windows
-- Theme key: microsoft-windows
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.273
-- Shared strong signals: Microsoft Windows
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Microsoft Windows
-- Cluster IDs: 89a5f81bf2, 262c329c2f
-- Links:
-  - https://www.rapid7.com/blog/post/em-patch-tuesday-october-2026
-  - https://unit42.paloaltonetworks.com/noise-inside-network-third-party-risk/
-
 ### GitLab active exploitation
 - Anchor signal: GitLab
 - Theme key: gitlab
@@ -613,24 +597,6 @@
   - https://aws.amazon.com/blogs/security/quantum-resistant-signing-on-aws-part-1-build-a-software-supply-chain-with-ml-dsa/
   - https://www.helpnetsecurity.com/2026/10/18/week-in-review-hidden-implant-in-ledger-wallets-linked-to-93m-theft-1500-npm-packages-exposed/
 
-### supply chain targeting npm
-- Anchor signal: npm
-- Theme key: npm
-- Cluster count: 2
-- Article count: 3
-- Cohesion: 0.545
-- Shared strong signals: npm
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: supply_chain
-  - affected_products: npm
-- Cluster IDs: 1ec8924dc6, dbc31057a4
-- Links:
-  - https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/
-  - https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html
-  - https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages
-
 ### Fortinet vulnerability activity
 - Anchor signal: Fortinet
 - Theme key: fortinet
@@ -647,6 +613,24 @@
   - https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/
   - https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html
   - https://www.recordedfuture.com/blog/september-2026-cve-landscape
+
+### supply chain targeting npm
+- Anchor signal: npm
+- Theme key: npm
+- Cluster count: 2
+- Article count: 3
+- Cohesion: 0.273
+- Shared strong signals: npm
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: supply_chain
+  - affected_products: npm
+- Cluster IDs: 1ec8924dc6, 1970aa98e3
+- Links:
+  - https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/
+  - https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages
+  - https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html
 
 ### Microsoft SharePoint vulnerability activity
 - Anchor signal: Microsoft SharePoint
@@ -665,6 +649,23 @@
   - https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access
   - https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/
   - https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html
+
+### Apple iOS/macOS vulnerability activity
+- Anchor signal: Apple iOS/macOS
+- Theme key: apple-ios-macos
+- Cluster count: 2
+- Article count: 3
+- Cohesion: 0.2
+- Shared strong signals: Apple iOS/macOS
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Apple iOS/macOS
+- Cluster IDs: e23a63c743, 1970aa98e3
+- Links:
+  - https://www.volexity.com/blog/2026/10/16/mind-the-patch-gap-part-3-analysis-with-volexity-volcano-threat-intel-and-mcp/
+  - https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages
+  - https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html
 
 ### Linux kernel vulnerability activity
 - Anchor signal: Linux kernel
@@ -718,15 +719,15 @@
 - Pair: UNC5221 + Ivanti (cluster d7ef6dfb22, first observation: True)
 - Pair: UNC5221 + Palo Alto Networks (cluster d7ef6dfb22, first observation: True)
 - Pair: CVE-2026-97229 + GitLab (cluster 39e6bcca1c, first observation: True)
-- Pair: CVE-2026-108398 + Microsoft Windows (cluster 89a5f81bf2, first observation: True)
-- Pair: CVE-2026-70242 + Microsoft Windows (cluster 89a5f81bf2, first observation: True)
-- Pair: CVE-2026-96951 + Microsoft Windows (cluster 89a5f81bf2, first observation: True)
-- Pair: CVE-2026-97016 + Microsoft Windows (cluster 89a5f81bf2, first observation: True)
-- Pair: CVE-2026-97749 + Microsoft Windows (cluster 89a5f81bf2, first observation: True)
 - Pair: CVE-2026-102764 + UNC5221 (cluster dd71dd27f0, first observation: True)
 - Pair: CVE-2024-47575 + UNC5820 (cluster 13a677ded6, first observation: True)
 - Pair: CVE-2024-47575 + Fortinet (cluster 13a677ded6, first observation: True)
 - Pair: CVE-2024-47575 + Palo Alto Networks (cluster 13a677ded6, first observation: True)
+- Pair: CVE-2025-61624 + UNC5820 (cluster 13a677ded6, first observation: True)
+- Pair: CVE-2025-61624 + Fortinet (cluster 13a677ded6, first observation: True)
+- Pair: CVE-2025-61624 + Palo Alto Networks (cluster 13a677ded6, first observation: True)
+- Pair: UNC5820 + Fortinet (cluster 13a677ded6, first observation: True)
+- Pair: UNC5820 + Palo Alto Networks (cluster 13a677ded6, first observation: True)
 
 ### Drift (1)
 - **UNC5221** (cluster d7ef6dfb22)
@@ -893,23 +894,21 @@ Research Rapid7 Analysis: GitLab CI/CD Regex Integer Overflow (CVE-2026-97229) J
 - Source: Rapid7 (offensive_vulnerability_research)
 - Published: 2026-10-13T21:40:27+00:00
 - Link: https://www.rapid7.com/blog/post/em-patch-tuesday-october-2026
-- Fetch status: ok
+- Fetch status: fetch_failed:ReadTimeout
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: CVE-2026-96951
 
 #### Cluster taxonomy (union across members)
 - threat_categories: active_exploitation, zero_day
-- affected_products: Microsoft Windows
-- cve_ids: CVE-2026-108398, CVE-2026-70242, CVE-2026-96951, CVE-2026-97016, CVE-2026-97749
+- cve_ids: CVE-2026-96951
 - urgency_signals: actively_exploited, zero_day
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
 
 #### Primary article taxonomy
 - threat_categories: zero_day, active_exploitation
-- affected_products: Microsoft Windows
-- cve_ids: CVE-2026-96951, CVE-2026-108398, CVE-2026-70242, CVE-2026-97749, CVE-2026-97016
+- cve_ids: CVE-2026-96951
 - urgency_signals: actively_exploited, zero_day
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
@@ -918,12 +917,6 @@ Research Rapid7 Analysis: GitLab CI/CD Regex Integer Overflow (CVE-2026-97229) J
 
 ```
 Microsoft is publishing 1,413 own-product vulnerabilities on October 2026 Patch Tuesday , including 1,102 vulnerabilities in Windows. Anyone who enjoyed last month’s record-setting Patch Tuesday will love the October 2026 edition, because it’s much bigger still. As Rapid7 has noted over the course of 2026, there is every reason to suppose that vulnerability volumes will continue to rise. Microsoft is aware of exploitation in the wild for just one of the vulnerabilities published today, as well as public disclosure for two others. Windows Shell: zero-day security feature bypass The Windows Shell is Microsoft’s term for the GUI interaction logic for the entire OS provided by explorer.exe and associated libraries and APIs, and for the second time this year , the Windows Shell is the site of an exploited-in-the-wild zero-day vulnerability. Today’s specimen is CVE-2026-96951 . Once again, the immediate prize for an attacker is a Mark of the Web (MOTW) bypass. What this means is that Windows
-```
-
-#### Full body
-
-```
-Patch Tuesday Patch Tuesday - October 2026 Adam Barnett Oct 13, 2026 | Last updated on Oct 13, 2026 | 244 min read Patch Tuesday - October 2026 Table of contents Patch Tuesday - October 2026 Table of contents Microsoft is publishing 1,413 own-product vulnerabilities on October 2026 Patch Tuesday , including 1,102 vulnerabilities in Windows. Anyone who enjoyed last month’s record-setting Patch Tuesday will love the October 2026 edition, because it’s much bigger still. As Rapid7 has noted over the course of 2026, there is every reason to suppose that vulnerability volumes will continue to rise. Microsoft is aware of exploitation in the wild for just one of the vulnerabilities published today, as well as public disclosure for two others. Windows Shell: zero-day security feature bypass The Windows Shell is Microsoft’s term for the GUI interaction logic for the entire OS provided by explorer.exe and associated libraries and APIs, and for the second time this year , the Windows Shell is the site of an exploited-in-the-wild zero-day vulnerability. Today’s specimen is CVE-2026-96951 . Once again, the immediate prize for an attacker is a Mark of the Web (MOTW) bypass. What this means is that Windows won’t provide the user with a dialog explaining that Windows protected their PC, because in this case, it didn’t. Exploitation requires that a user opens a specially crafted malicious file or visits an attacker-controlled site, so the evergreen advice about being careful what you click remains valid. Fans of vintage operating systems should note that Windows Server 2012 doesn’t receive a patch, although Server 2012 R2 does. The advisory acknowledges reporters from multiple organizations, although none from within Microsoft. The vulnerability also affected Microsoft’s Outlook.com cloud services, although Outlook.com was patched in a build dated several weeks ago. .NET Framework: zero-day security feature bypass Microsoft is aware of some level of public disclosure of CVE-2026-108398 , a .NET Framework security feature bypass. Exploitation requires an attacker with an existing foothold to register a malicious .NET assembly for loading by a protected process, bypassing Windows Defender Application Control (WDAC) enforcement. Microsoft rebranded WDAC as App Control for Business several years ago, so you may know it under its new name. The Microsoft Learn page for Application Control for Windows points out that “your organization's data is one of its most valuable assets... and threat actors want it”, and this is, of course, correct. The patch presumably removes an attacker-controlled location from the list of places .NET Framework searches for registered assemblies, which are typically contained within DLLs and executables. If any further indications were needed that vulnerability volumes are increasing industry-wide, this is only the second month that Microsoft has published vulnerabilities with six-digit CVE numbers, but these extra-large CVEs will seem unremarkable from now on. Outlook: multiple no-interaction RCEs The sheer volume of vulnerabilities in recent Patch Tuesday releases can easily include several examples of potentially concerning vulnerabilities, each of which might have been more remarkable in its own right back when volumes were lower. Today, Microsoft has published five separate remote code execution vulnerabilities in Outlook where the preview pane is a vector, meaning that simply scrolling past an email in the Outlook reading pane would be sufficient to trigger exploitation. Worse still, Outlook might helpfully display the preview without any user interaction at all. All five of CVE-2026-70242 , CVE-2026-97749 , CVE-2026-97016 , CVE-2026-88156 , and CVE-2026-70291 receive fixes in the same patches. No-interaction Outlook preview pane vulnerabilities can sometimes feature prominently in state-backed actor campaigns, with CVE-2023-23397 as a prominent example in this category . Edge: security updates unclear In September 202
 ```
 
 #### Corroborating sources (1)
@@ -1760,6 +1753,39 @@ How To What to do when a data breach notice doesn't say much Data breach notific
   - Link: https://www.welivesecurity.com/en/how-to/what-to-do-when-a-data-breach-notice-tells-you-almost-nothing/
   - Summary: Data breach notifications are telling victims less than ever. What the company leaves out can still shape what you do next.
 
+### Cluster ef02f219bd — score 14
+
+- Title: Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-10-18T12:59:30+00:00
+- Link: https://isc.sans.edu/diary/rss/33434
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+Here is the YARA rule I used to detect " Orphaned VBA Projects Inside DWG Files ".
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)
+  - Published: 2026-10-18T12:59:30+00:00
+  - Link: https://isc.sans.edu/diary/rss/33434
+  - Summary: Here is the YARA rule I used to detect " Orphaned VBA Projects Inside DWG Files ".
+
 ### Cluster 4e19b641c5 — score 14
 
 - Title: Penetration testing every deployment with AWS Continuum
@@ -2039,56 +2065,6 @@ Infosecurity Magazine Home » News » Karaoke Giant Reveals Data Breach Impactin
   - Link: https://www.infosecurity-magazine.com/news/karaoke-giant-data-breach-eight/
   - Summary: Daiichi Kosho says a supply chain breach has exposed personal data on over eight million karaoke customers
 
-### Cluster baa3477655 — score 10
-
-- Title: The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime
-- Source: Microsoft Security Blog (threat_research_primary)
-- Published: 2026-10-14T13:00:00+00:00
-- Link: https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services, government, healthcare
-- affected_products: Google Cloud, Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: healthcare, financial_services, government
-- affected_products: Google Cloud, Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem. The post The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime appeared first on Microsoft Security Blog .
-```
-
-#### Full body
-
-```
-Share Link copied to clipboard! Tags Phishing Social engineering Threats intelligence Cyberattacker techniques, tools, and infrastructure Cybercrime Social engineering and phishing Threat actors Content types Research Products and services Microsoft Defender Microsoft Defender for Endpoint Microsoft Defender for Identity Topics Threat intelligence Over the past year, Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators, developers, and an illicit marketplace selling tools and infrastructure for large-scale phishing, enabling cybercriminal operations worldwide. Threat actors purchased and used these tools and infrastructure, including phishing kits and access to compromised or fraudulent Microsoft or Google cloud environments and related credentials, to target organizations across the healthcare, financial services, wholesale distribution, and information technology (IT) sectors in Japan, the United States, Australia, and India. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem’s primary developers and infrastructure . Microsoft’s research into one phishing kit unraveled a larger ecosystem, including the phishing kit developers, an infrastructure dealer, and the threat actors who buy from both. In this blog, we examine several phishing kits marketed and sold through YAM Store, an underground marketplace tracked by Microsoft as Storm-3119. We share our analysis of the technical aspects of this Chinese-language phishing kit ecosystem, the shared infrastructure, provisioning methods, and downstream activity by threat actors using these tools. Figure 1: Heat map of most impacted countries by combined Storm-3119 and Storm-2990-related activity. Uncovering the shadow world of a phishing kit ecosystem Microsoft, alongside industry partner Resecurity , identified three phishing kits sold through the YAM Store that make up this Chinese-language cybercriminal network: CoGUI (also known as NX or FA), Haozi (also known as Phoenix), and Iron Man System. Microsoft tracks the cluster of activity and the developers behind all three phishing kits as Storm-2990. Since January 2026, the threat actors behind these kits have been responsible for facilitating the sending of over one billion phishing emails and SMS messages to over 75 thousand organizations worldwide. Microsoft assesses with high confidence that these phishing kits were developed by Chinese-speaking threat actors, and, despite their distinct branding and separate Telegram-based sales channels, exhibit highly similar capabilities and functionality. The phishing kits provide phishing templates impersonating legitimate brands and organizations (including government, financial, and logistics) worldwide, and enable criminal actors to facilitate high-volume phishing and credential stealing operations. The similarity in their infrastructure and overlap in activity suggest either shared development origins, code reuse, or close collaboration among their developers. These phishing kits have been advertised through YAM Store, first CoGUI and Haozi, followed by Iron Man System starting in June 2026. YAM Store and affiliated phishing kit companies accepted payments through cryptocurrency, including USDT and Ethereum, adding another layer to conceal illicit activity. The scale and proliferation of this ecosystem demonstrate how readily available criminal infrastructure can lower the barrier to entry, enabling less skilled cybercriminals to target organizations at scale and contribute to fraud losses. By mapping the relationship between YAM Store and these phishing kits, we provide insight into the commercial infrastructure that supports modern phishing operations. Figure 2. YAM Store (Storm-3119) sells fraudulently acquired infrastructure to CoGUI, Haozi, and Iron Man System, all interconnected phishing kit operators, who then pr
-```
-
-#### Corroborating sources (2)
-
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime
-  - Published: 2026-10-14T13:00:00+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/
-  - Summary: Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem. The post The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime appeared first on Microsoft Security Blog .
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - Title: The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime
-  - Published: 2026-10-14T13:00:00+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/
-  - Summary: Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem. The post The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime appeared first on Microsoft Security Blog .
-
 ### Cluster 5bf398a88b — score 10
 
 - Title: Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026
@@ -2177,6 +2153,101 @@ Threat Research Center Insights Anatomy of an Attack Anatomy of an Attack The No
   - Link: https://unit42.paloaltonetworks.com/noise-inside-network-third-party-risk/
   - Summary: Unit 42 dissects a cyberattack targeting a European bank's IT infrastructure, delivering concrete defense strategies to help organizations detect and counter comparable threats. The post The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk appeared first on Unit 42 .
 
+### Cluster baa3477655 — score 10
+
+- Title: The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-10-14T13:00:00+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services, government, healthcare
+- affected_products: Google Cloud, Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_industries: healthcare, financial_services, government
+- affected_products: Google Cloud, Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem. The post The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+Share Link copied to clipboard! Tags Phishing Social engineering Threats intelligence Cyberattacker techniques, tools, and infrastructure Cybercrime Social engineering and phishing Threat actors Content types Research Products and services Microsoft Defender Microsoft Defender for Endpoint Microsoft Defender for Identity Topics Threat intelligence Over the past year, Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators, developers, and an illicit marketplace selling tools and infrastructure for large-scale phishing, enabling cybercriminal operations worldwide. Threat actors purchased and used these tools and infrastructure, including phishing kits and access to compromised or fraudulent Microsoft or Google cloud environments and related credentials, to target organizations across the healthcare, financial services, wholesale distribution, and information technology (IT) sectors in Japan, the United States, Australia, and India. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem’s primary developers and infrastructure . Microsoft’s research into one phishing kit unraveled a larger ecosystem, including the phishing kit developers, an infrastructure dealer, and the threat actors who buy from both. In this blog, we examine several phishing kits marketed and sold through YAM Store, an underground marketplace tracked by Microsoft as Storm-3119. We share our analysis of the technical aspects of this Chinese-language phishing kit ecosystem, the shared infrastructure, provisioning methods, and downstream activity by threat actors using these tools. Figure 1: Heat map of most impacted countries by combined Storm-3119 and Storm-2990-related activity. Uncovering the shadow world of a phishing kit ecosystem Microsoft, alongside industry partner Resecurity , identified three phishing kits sold through the YAM Store that make up this Chinese-language cybercriminal network: CoGUI (also known as NX or FA), Haozi (also known as Phoenix), and Iron Man System. Microsoft tracks the cluster of activity and the developers behind all three phishing kits as Storm-2990. Since January 2026, the threat actors behind these kits have been responsible for facilitating the sending of over one billion phishing emails and SMS messages to over 75 thousand organizations worldwide. Microsoft assesses with high confidence that these phishing kits were developed by Chinese-speaking threat actors, and, despite their distinct branding and separate Telegram-based sales channels, exhibit highly similar capabilities and functionality. The phishing kits provide phishing templates impersonating legitimate brands and organizations (including government, financial, and logistics) worldwide, and enable criminal actors to facilitate high-volume phishing and credential stealing operations. The similarity in their infrastructure and overlap in activity suggest either shared development origins, code reuse, or close collaboration among their developers. These phishing kits have been advertised through YAM Store, first CoGUI and Haozi, followed by Iron Man System starting in June 2026. YAM Store and affiliated phishing kit companies accepted payments through cryptocurrency, including USDT and Ethereum, adding another layer to conceal illicit activity. The scale and proliferation of this ecosystem demonstrate how readily available criminal infrastructure can lower the barrier to entry, enabling less skilled cybercriminals to target organizations at scale and contribute to fraud losses. By mapping the relationship between YAM Store and these phishing kits, we provide insight into the commercial infrastructure that supports modern phishing operations. Figure 2. YAM Store (Storm-3119) sells fraudulently acquired infrastructure to CoGUI, Haozi, and Iron Man System, all interconnected phishing kit operators, who then pr
+```
+
+#### Corroborating sources (2)
+
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime
+  - Published: 2026-10-14T13:00:00+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/
+  - Summary: Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem. The post The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime appeared first on Microsoft Security Blog .
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - Title: The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime
+  - Published: 2026-10-14T13:00:00+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/
+  - Summary: Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem. The post The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime appeared first on Microsoft Security Blog .
+
+### Cluster d35b3375d9 — score 10
+
+- Title: Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-10-13T20:37:58+00:00
+- Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- cve_ids: CVE-2026-102214, CVE-2026-105733, CVE-2026-70229, CVE-2026-70571, CVE-2026-96951
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- cve_ids: CVE-2026-96951, CVE-2026-70229, CVE-2026-70571, CVE-2026-105733, CVE-2026-102214
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Microsoft has released its monthly security update for October 2026, which includes 1415 vulnerabilities affecting a range of products, including 85 that Microsoft marked as "critical."
+```
+
+#### Full body
+
+```
+Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities By Nick Biasini Tuesday, October 13, 2026 16:37 Patch Tuesday Microsoft has released its monthly security update for October 2026, which includes 1415 vulnerabilities affecting a range of products, including 85 that Microsoft marked as "critical." Microsoft notes that 1 of the vulnerabilities disclosed this month have been exploited in the wild CVE-2026-96951 is a security feature bypass vulnerability that affects Windows Shell. The shared weakness is Improper Neutralization of Special Elements used in a Command ('Command Injection'). The vulnerability has a CVSS base score of 8.8. Out of 85 "critical" vulnerabilities, 67 are remote code execution (RCE) vulnerabilities. Microsoft considers exploitation of the following vulnerabilities more likely. CVE-2026-70229 is a remote code execution vulnerability that affects Windows Active Directory Domain Services. The shared weakness is Incorrect Authorization. The vulnerability has a CVSS base score of 8.1. CVE-2026-70571 is a remote code execution vulnerability that affects Microsoft Exchange Server. The shared weakness is Stack-based Buffer Overflow. The vulnerability has a CVSS base score of 8.1. Microsoft considers exploitation of the following vulnerabilities less likely. CVE-2026-105733 , CVE-2026-102214 , and CVE-2026-108399 affect Windows Hyper-V. CVE-2026-105733 has an impact of remote code execution; involves Incorrect Initialization of Resource; has a CVSS base score of 8.8. CVE-2026-102214 has an impact of remote code execution; involves Use After Free; has a CVSS base score of 8.8. CVE-2026-108399 has an impact of elevation of privilege; involves Heap-based Buffer Overflow; has a CVSS base score of 7.2. CVE-2026-100202 is a remote code execution vulnerability that affects Windows Message Queuing Queue Manager. The shared weakness is Use After Free. The vulnerability has a CVSS base score of 9.8. CVE-2026-100209 , CVE-2026-100210 , CVE-2026-100211 , CVE-2026-97739 , CVE-2026-97745 , CVE-2026-97755 , CVE-2026-97759 , CVE-2026-97765 , CVE-2026-97778 , CVE-2026-97741 , CVE-2026-97742 , CVE-2026-97753 , CVE-2026-97756 , CVE-2026-97758 , CVE-2026-97761 , CVE-2026-97767 , CVE-2026-97776 , and CVE-2026-97780 are remote code execution vulnerabilities that affect Microsoft Office Excel. Each has a CVSS base score of 8.8. CVE-2026-100209 , CVE-2026-100211 , CVE-2026-97745 , and CVE-2026-97759 involve Use After Free. CVE-2026-100210 , CVE-2026-97765 , CVE-2026-97756 , CVE-2026-97758 , CVE-2026-97776 , and CVE-2026-97780 involve Heap-based Buffer Overflow. CVE-2026-97739 involves Heap-based Buffer Overflow and Integer Underflow (Wrap or Wraparound). CVE-2026-97755 involves Out-of-bounds Read. CVE-2026-97778 involves Integer Overflow or Wraparound. CVE-2026-97741 involves Heap-based Buffer Overflow and Off-by-one Error. CVE-2026-97742 involves Stack-based Buffer Overflow. CVE-2026-97753 involves Heap-based Buffer Overflow and Integer Overflow or Wraparound. CVE-2026-97761 involves Stack-based Buffer Overflow. CVE-2026-97767 involves Double Free and NULL Pointer Dereference. CVE-2026-100215 is a remote code execution vulnerability that affects Microsoft Graphics Component. The shared weakness is Heap-based Buffer Overflow. The vulnerability has a CVSS base score of 7.8. CVE-2026-100219 and CVE-2026-105016 are remote code execution vulnerabilities that affect Microsoft QUIC. Each has a CVSS base score of 9.8. CVE-2026-100219 involves Use After Free. CVE-2026-105016 involves Heap-based Buffer Overflow. CVE-2026-100220 is a remote code execution vulnerability that affects Windows Media Video Decoder. The shared weakness is Heap-based Buffer Overflow. The vulnerability has a CVSS base score of 8.8. CVE-2026-102211 , CVE-2026-88074 , CVE-2026-108130 , CVE-2026-108471 , and CVE-2026-96914 are elevation of privilege vulnerabilities that affect Windows Virtualization-Based Security (VBS) Enclave. CVE-2026-1022
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities
+  - Published: 2026-10-13T20:37:58+00:00
+  - Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/
+  - Summary: Microsoft has released its monthly security update for October 2026, which includes 1415 vulnerabilities affecting a range of products, including 85 that Microsoft marked as "critical."
+
 ### Cluster 5d5fb499b6 — score 10
 
 - Title: 12th October – Threat Intelligence Report
@@ -2225,51 +2296,6 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 12th Octob
   - Published: 2026-10-12T14:51:31+00:00
   - Link: https://research.checkpoint.com/2026/12th-october-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 12th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Denmark’s government has disclosed a breach involving its Central Register of Persons after unauthorized individuals exploited access provided to a private supplier. The incident reportedly exposed personal information, including names, addresses, and […] The post 12th October – Threat Intelligence Report appeared first on Check Point Research .
-
-### Cluster d35b3375d9 — score 10
-
-- Title: Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-10-13T20:37:58+00:00
-- Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- cve_ids: CVE-2026-102214, CVE-2026-105733, CVE-2026-70229, CVE-2026-70571, CVE-2026-96951
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- cve_ids: CVE-2026-96951, CVE-2026-70229, CVE-2026-70571, CVE-2026-105733, CVE-2026-102214
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Microsoft has released its monthly security update for October 2026, which includes 1415 vulnerabilities affecting a range of products, including 85 that Microsoft marked as "critical."
-```
-
-#### Full body
-
-```
-Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities By Nick Biasini Tuesday, October 13, 2026 16:37 Patch Tuesday Microsoft has released its monthly security update for October 2026, which includes 1415 vulnerabilities affecting a range of products, including 85 that Microsoft marked as "critical." Microsoft notes that 1 of the vulnerabilities disclosed this month have been exploited in the wild CVE-2026-96951 is a security feature bypass vulnerability that affects Windows Shell. The shared weakness is Improper Neutralization of Special Elements used in a Command ('Command Injection'). The vulnerability has a CVSS base score of 8.8. Out of 85 "critical" vulnerabilities, 67 are remote code execution (RCE) vulnerabilities. Microsoft considers exploitation of the following vulnerabilities more likely. CVE-2026-70229 is a remote code execution vulnerability that affects Windows Active Directory Domain Services. The shared weakness is Incorrect Authorization. The vulnerability has a CVSS base score of 8.1. CVE-2026-70571 is a remote code execution vulnerability that affects Microsoft Exchange Server. The shared weakness is Stack-based Buffer Overflow. The vulnerability has a CVSS base score of 8.1. Microsoft considers exploitation of the following vulnerabilities less likely. CVE-2026-105733 , CVE-2026-102214 , and CVE-2026-108399 affect Windows Hyper-V. CVE-2026-105733 has an impact of remote code execution; involves Incorrect Initialization of Resource; has a CVSS base score of 8.8. CVE-2026-102214 has an impact of remote code execution; involves Use After Free; has a CVSS base score of 8.8. CVE-2026-108399 has an impact of elevation of privilege; involves Heap-based Buffer Overflow; has a CVSS base score of 7.2. CVE-2026-100202 is a remote code execution vulnerability that affects Windows Message Queuing Queue Manager. The shared weakness is Use After Free. The vulnerability has a CVSS base score of 9.8. CVE-2026-100209 , CVE-2026-100210 , CVE-2026-100211 , CVE-2026-97739 , CVE-2026-97745 , CVE-2026-97755 , CVE-2026-97759 , CVE-2026-97765 , CVE-2026-97778 , CVE-2026-97741 , CVE-2026-97742 , CVE-2026-97753 , CVE-2026-97756 , CVE-2026-97758 , CVE-2026-97761 , CVE-2026-97767 , CVE-2026-97776 , and CVE-2026-97780 are remote code execution vulnerabilities that affect Microsoft Office Excel. Each has a CVSS base score of 8.8. CVE-2026-100209 , CVE-2026-100211 , CVE-2026-97745 , and CVE-2026-97759 involve Use After Free. CVE-2026-100210 , CVE-2026-97765 , CVE-2026-97756 , CVE-2026-97758 , CVE-2026-97776 , and CVE-2026-97780 involve Heap-based Buffer Overflow. CVE-2026-97739 involves Heap-based Buffer Overflow and Integer Underflow (Wrap or Wraparound). CVE-2026-97755 involves Out-of-bounds Read. CVE-2026-97778 involves Integer Overflow or Wraparound. CVE-2026-97741 involves Heap-based Buffer Overflow and Off-by-one Error. CVE-2026-97742 involves Stack-based Buffer Overflow. CVE-2026-97753 involves Heap-based Buffer Overflow and Integer Overflow or Wraparound. CVE-2026-97761 involves Stack-based Buffer Overflow. CVE-2026-97767 involves Double Free and NULL Pointer Dereference. CVE-2026-100215 is a remote code execution vulnerability that affects Microsoft Graphics Component. The shared weakness is Heap-based Buffer Overflow. The vulnerability has a CVSS base score of 7.8. CVE-2026-100219 and CVE-2026-105016 are remote code execution vulnerabilities that affect Microsoft QUIC. Each has a CVSS base score of 9.8. CVE-2026-100219 involves Use After Free. CVE-2026-105016 involves Heap-based Buffer Overflow. CVE-2026-100220 is a remote code execution vulnerability that affects Windows Media Video Decoder. The shared weakness is Heap-based Buffer Overflow. The vulnerability has a CVSS base score of 8.8. CVE-2026-102211 , CVE-2026-88074 , CVE-2026-108130 , CVE-2026-108471 , and CVE-2026-96914 are elevation of privilege vulnerabilities that affect Windows Virtualization-Based Security (VBS) Enclave. CVE-2026-1022
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities
-  - Published: 2026-10-13T20:37:58+00:00
-  - Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/
-  - Summary: Microsoft has released its monthly security update for October 2026, which includes 1415 vulnerabilities affecting a range of products, including 85 that Microsoft marked as "critical."
 
 ### Cluster c99d86a173 — score 10
 
@@ -2798,56 +2824,6 @@ Home Blog ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks Publis
   - Link: https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html
   - Summary: Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments. ConnectWise Cloud Backup is a cloud-based backup and recovery service built for managed service providers (MSPs
 
-### Cluster dbc31057a4 — score 10
-
-- Title: MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-10-17T11:11:56+00:00
-- Link: https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: npm
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_industries: critical_infrastructure
-- affected_products: npm
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_industries: critical_infrastructure
-- affected_products: npm
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named "imgdecode," was uploaded to the package registry on September 30, 2026, by a user named "malfexteste8." It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of
-```
-
-#### Full body
-
-```
-MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon  Ravie Lakshmanan  Oct 17, 2026 Malware / Windows Security Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX . The package, named " imgdecode ," was uploaded to the package registry on September 30, 2026, by a user named "malfexteste8." It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of the package is 1.0.3. "The npm package imgdecode hides a malicious loader in a compiled Node.js addon," SafeDep said . "Its nine-line JavaScript file loads a Windows dynamic-link library (DLL). When a Node.js program calls require('imgdecode') from a Windows console, the DLL attempts to download encrypted shellcode from GitHub. It decrypts the response and injects the result into a new dllhost.exe process." First documented by both Checkmarx and CloudSEK, MALFEX is the name assigned to a long-running campaign in which an unknown threat actor has been publishing malicious packages to npm since August 6, 2023, with an aim to compromise Windows systems. These packages were published across five npm publisher handles: malfexkkj, malfex_user, malfexteste2, malfexteste3, malfexteste4. Of the eight identified packages, three were found to act as a loader for Overlord RAT, while three others ("cdn-img-fetch," "img-to-native," and "native-runner") worked together to download and run a Node.js stealer. A third infection pathway involved the use of a postinstall hook to execute JavaScript capable of contacting an external server and retrieving an unspecified next-stage binary. Interestingly, the threat actor behind the campaign appears to be responding to public disclosures and npm removals by publishing replacements for "native-runner" and "img-to-native" within two days in the form of "runhelper" and "imgbundle." That same day, the first version of "imgdecode" was published. The timeline of events is as follows - September 26, 2026 - cdn-img-fetch, img-to-native, and native-runner 1.0.0 published September 28, 2026, at 4:06 p.m. UTC - npm removes native-runner and img-to-native September 30, 2026, at 3:29 a.m. UTC - imgbundle 1.0.0 published, replacing img-to-native September 30, 2026, at 3:37 a.m. UTC - runhelper 1.0.0 published, replacing native-runner September 30, 2026, at 4:13 p.m. UTC - runhelper unpublished September 30, 2026, at 10:32 p.m. UTC - imgdecode 1.0.0 published September 30, 2026, at 11:07 p.m. UTC - imgdecode 1.0.1 published October 1, 2026, at 5:48 p.m. UTC - imgdecode 1.0.2 published October 7, 2026, at 11:06 p.m. UTC - npm removes imgbundle October 8, 2026, at 1:03 p.m. UTC - npm removes cdn-img-fetch October 11, 2026, at 10:09 p.m. UTC - imgdecode 1.0.3 published The Node.js stealer chain is notable for the fact that none of the packages featured an install hook. Instead, the malicious code runs when "native-runner" is loaded. The package lists "img-to-native" as its dependency, which, in turn, has "img-to-native" as a dependency. The exact functionality of each of these packages is below - cdn-img-fetch downloads "banner.png" from a GitHub repository ("cavecrew/proj") and extracts an encrypted blob. img-to-native decrypts the blob using the key "malfexteam2027" and writes the contents to disk as a Go executable ("%APPDATA%\Microsoft\Windows\node_runtime_helper.exe"). native-runner executes the Go executable, which then downloads the stealer binary ("setup.exe" aka movinlike) from "104.234.65[.]75:700." " Runhelper ," advertised as a helper utility for "launching native binaries from Node.js projects," functions similarly to "native-runner" in that it's designed to run malicious code. Its primary responsibility is to locate a JPG file ("cdn-img-fetch/.runtime/rt.jpg"), extract shellcode from it, copy it into executable memory, and run it using Koffi , a Foreign Function Interface (FFI) mo
-```
-
-#### Corroborating sources (2)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon
-  - Published: 2026-10-17T11:11:56+00:00
-  - Link: https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html
-  - Summary: Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named "imgdecode," was uploaded to the package registry on September 30, 2026, by a user named "malfexteste8." It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of
-- **Elastic Security Labs** (detection_response_operations)
-  - Title: Auditing the auditor: Unmasking Apex Accelerator
-  - Published: 2026-10-12T00:00:00+00:00
-  - Link: https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages
-  - Summary: REF8801 exposes how Apex Accelerator combines convincing Web3 services with malicious npm packages, attacker-controlled AI infrastructure, and cross-platform malware delivery.
-
 ### Cluster c6a5397bce — score 10
 
 - Title: Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability
@@ -2897,6 +2873,56 @@ Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulne
   - Published: 2026-10-15T14:30:00+00:00
   - Link: https://tldrsec.com/p/tldr-sec-350
   - Summary: OSS tool to reverse binaries, apps, etc. with natural language, new hunting toolkit by Cisco Talos, testing Jev on identity resolution
+
+### Cluster 1970aa98e3 — score 10
+
+- Title: Auditing the auditor: Unmasking Apex Accelerator
+- Source: Elastic Security Labs (detection_response_operations)
+- Published: 2026-10-12T00:00:00+00:00
+- Link: https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: npm
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain, web_shell_backdoor
+- affected_industries: financial_services
+- affected_products: Apple iOS/macOS, Google/Gemini, npm
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, web_shell_backdoor
+- affected_industries: financial_services
+- affected_products: Apple iOS/macOS, npm, Google/Gemini
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+REF8801 exposes how Apex Accelerator combines convincing Web3 services with malicious npm packages, attacker-controlled AI infrastructure, and cross-platform malware delivery.
+```
+
+#### Full body
+
+```
+Threat Command Auditing the auditor: Unmasking Apex Accelerator REF8801 exposes how Apex Accelerator combines convincing Web3 services with malicious npm packages, attacker-controlled AI infrastructure, and cross-platform malware delivery. October 12, 2026 Jia Yu Chan Daniel Stepanic Malware Analysis Threat Intelligence AI Security Jump to Share Elastic Security Labs identified a malicious npm package, @apexacc/cli , which led us to an operation posing as a Web3 accelerator. That operation had spent months building a public presence, targeting cryptocurrency start-ups and founders with offers of free AI credits and coding tools, along with security audits. The group also advertised an in-person event through a dedicated invitation page, adding to its efforts to appear legitimate. The tools delivered information-stealing malware and backdoors for macOS and Windows machines. The operation also repackaged a legitimate coding agent to send model requests through attacker-controlled services, while its audit tools generated fabricated security findings. We hope that our research raises awareness of similar scams, as AI-generated code, websites, and portfolios increasingly make illegitimate operations look polished and well-established. Key takeaways Elastic Security Labs uncovered a scheme posing as a Web3 venture capital accelerator to target cryptocurrency start-ups and founders. This fake organization offers free Claude and Gemini credits, distributes backdoored code repositories and npm packages, and intercepts large language model (LLM) traffic. Campaigns distribute CloudSyncD malware for macOS and a custom Windows information stealer that exfiltrates data through Telegram. All 18 tools in @apexacc/audit return fabricated findings. In a separate test, @apexacc/cli ’s remote scoring service returned 51/100 for a fictitious project while reporting that its AI scorer was unavailable. How we found the malicious npm packages This research started with a Slack notification from our supply-chain monitor bot, which flagged suspicious behavior tied to the npm package ( @apexacc/cli ). On closer inspection, we discovered a package that was malicious from the moment it was published, not a supply chain compromise. Supply Chain Monitor notification. Later that day, we learned that this package was connected to the same publisher in a campaign previously reported by SafeDep. Shortly after this, the same threat actor published another malicious npm package ( @apexacc/audit ) with a new campaign. We then examined the group's websites and malicious packages, as well as its distributed malware. How the fake Web3 accelerator attracted founders The main project presents itself as Apex Arena , a private workspace for crypto/Web3 founders backed by an accelerator called Apex . The website claims to have over 200 portfolio projects and to have raised more than $124 million in capital. The platform advertises the following services: Smart contract/Web3 security auditing, including downloadable code-auditing tools (the Model Context Protocol–delivered [MCP-delivered] "Apex Audit" suite). Direct messaging between founders and Apex investment relations. A directory of vetted individuals seeking job opportunities. Start-up assessments across a set of categories that produce an Apex Score . Apex Arena home page. The following screenshot shows a proposed workflow in which users receive their Apex Score through Apex's own coding project, Apex Copilot , which contains a malicious backdoor: Apex Arena service offering features. Below is an excerpt from an Apex Audit product pitch on an event listing that was taken down for violating the platform's terms of service: Snippet of Luma event posting (taken down). The group uses fake reviews to make its services appear legitimate to people researching the company or its products: Fake reviews. Our team found an example of a start-up founder describing his interactions with the threat actor and how he handled the s
+```
+
+#### Corroborating sources (2)
+
+- **Elastic Security Labs** (detection_response_operations)
+  - Title: Auditing the auditor: Unmasking Apex Accelerator
+  - Published: 2026-10-12T00:00:00+00:00
+  - Link: https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages
+  - Summary: REF8801 exposes how Apex Accelerator combines convincing Web3 services with malicious npm packages, attacker-controlled AI infrastructure, and cross-platform malware delivery.
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon
+  - Published: 2026-10-17T11:11:56+00:00
+  - Link: https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html
+  - Summary: Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named "imgdecode," was uploaded to the package registry on September 30, 2026, by a user named "malfexteste8." It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of
 
 ### Cluster aa1c563cbc — score 9
 
@@ -3018,45 +3044,6 @@ Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers By Bill Toulas 
   - Published: 2026-10-15T20:25:04+00:00
   - Link: https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/
   - Summary: Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud. [...]
-
-### Cluster c141bb95c5 — score 9
-
-- Title: Cyberattack on Connected Fridges in France
-- Source: Schneier on Security (practitioner_analysis)
-- Published: 2026-10-14T14:10:22+00:00
-- Link: https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-Another IoT cyberattack , this one in France: Hackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight, according to one supermarket chain affected. […] Normally, supermarket freezers go through a short period of defrosting overnight, in which temperatures rise slightly. But the hackers ordered the units to heat up and stay hot, although Danfoss did not confirm any reports about just how warm the fridges and freezers could become in that process. Danfoss said the affected cold units were older models whose security software could not be updated to ward off a risk they had identified...
-```
-
-#### Full body
-
-```
-Clive Robinson • October 14, 2026 2:49 PM @ Bruce, ALL, This is not the first recent attack on networked fridges in shops. I provided a link in, https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html/#comment-458947 To the Stars and Stripes US military magazine. They reported that several military base commissary refrigerators had mysteriously been hacked, Army, Air Force special agents investigate refrigerator outages affecting several commissary stores Three military criminal investigation agencies confirmed Tuesday agents are investigating refrigeration outages that occurred at commissary stores across the country within days of each other. “ Army Criminal Investigation Division’s Cyber Field Office and Air Force Office of Special Investigations confirmed they have active investigations into the situation. The Air Force said that the Defense Criminal Investigative Agency is taking the lead. None elaborated on the nature of the investigation. Unverified sources have suggested the outages affected up to a dozen stores, though the Defense Department has declined to release anything beyond an acknowledgment of a “possible refrigeration disruption.” It was also unclear Tuesday how many of the outages persisted at the stores, which remained open to sell dry goods. “ ‘https://www.stripes.com/theaters/us/2026-09-01/army-cid-investigates-commissary-refrigerator-outages-22721718.html Whilst the Military agencies are not saying very much, the article has indicated that, “Last month, several security news outlets cited research that noted there can be security flaws in refrigeration systems that make them vulnerable to an outside attack.”
-```
-
-#### Corroborating sources (1)
-
-- **Schneier on Security** (practitioner_analysis)
-  - Title: Cyberattack on Connected Fridges in France
-  - Published: 2026-10-14T14:10:22+00:00
-  - Link: https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html
-  - Summary: Another IoT cyberattack , this one in France: Hackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight, according to one supermarket chain affected. […] Normally, supermarket freezers go through a short period of defrosting overnight, in which temperatures rise slightly. But the hackers ordered the units to heat up and stay hot, although Danfoss did not confirm any reports about just how warm the fridges and freezers could become in that process. Danfoss said the affected cold units were older models whose security software could not be updated to ward off a risk they had identified...
 
 ### Cluster 87cc0b02f9 — score 9
 
@@ -3190,6 +3177,45 @@ Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit At
   - Published: 2026-10-15T07:07:05+00:00
   - Link: https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html
   - Summary: Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian. Langflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. In February 2025, DataStax, the parent company of Langflow, was acquired by IBM. The vulnerability in question is CVE-2026-105740 (CVSS score: 9.9), a case of
+
+### Cluster c141bb95c5 — score 9
+
+- Title: Cyberattack on Connected Fridges in France
+- Source: Schneier on Security (practitioner_analysis)
+- Published: 2026-10-14T14:10:22+00:00
+- Link: https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+Another IoT cyberattack , this one in France: Hackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight, according to one supermarket chain affected. […] Normally, supermarket freezers go through a short period of defrosting overnight, in which temperatures rise slightly. But the hackers ordered the units to heat up and stay hot, although Danfoss did not confirm any reports about just how warm the fridges and freezers could become in that process. Danfoss said the affected cold units were older models whose security software could not be updated to ward off a risk they had identified...
+```
+
+#### Full body
+
+```
+Clive Robinson • October 14, 2026 2:49 PM @ Bruce, ALL, This is not the first recent attack on networked fridges in shops. I provided a link in, https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html/#comment-458947 To the Stars and Stripes US military magazine. They reported that several military base commissary refrigerators had mysteriously been hacked, Army, Air Force special agents investigate refrigerator outages affecting several commissary stores Three military criminal investigation agencies confirmed Tuesday agents are investigating refrigeration outages that occurred at commissary stores across the country within days of each other. “ Army Criminal Investigation Division’s Cyber Field Office and Air Force Office of Special Investigations confirmed they have active investigations into the situation. The Air Force said that the Defense Criminal Investigative Agency is taking the lead. None elaborated on the nature of the investigation. Unverified sources have suggested the outages affected up to a dozen stores, though the Defense Department has declined to release anything beyond an acknowledgment of a “possible refrigeration disruption.” It was also unclear Tuesday how many of the outages persisted at the stores, which remained open to sell dry goods. “ ‘https://www.stripes.com/theaters/us/2026-09-01/army-cid-investigates-commissary-refrigerator-outages-22721718.html Whilst the Military agencies are not saying very much, the article has indicated that, “Last month, several security news outlets cited research that noted there can be security flaws in refrigeration systems that make them vulnerable to an outside attack.”
+```
+
+#### Corroborating sources (1)
+
+- **Schneier on Security** (practitioner_analysis)
+  - Title: Cyberattack on Connected Fridges in France
+  - Published: 2026-10-14T14:10:22+00:00
+  - Link: https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html
+  - Summary: Another IoT cyberattack , this one in France: Hackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight, according to one supermarket chain affected. […] Normally, supermarket freezers go through a short period of defrosting overnight, in which temperatures rise slightly. But the hackers ordered the units to heat up and stay hot, although Danfoss did not confirm any reports about just how warm the fridges and freezers could become in that process. Danfoss said the affected cold units were older models whose security software could not be updated to ward off a risk they had identified...
 
 ### Cluster 79a9ac95de — score 9
 
@@ -3480,20 +3506,16 @@ Home Blog 7 Key Manufacturing Cybersecurity Trends Last Updated: October 14, 202
 - Source: Huntress (detection_response_operations)
 - Published: 2026-10-14T16:00:00+00:00
 - Link: https://www.huntress.com/blog/endpoint-security-trends
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3501,12 +3523,6 @@ Home Blog 7 Key Manufacturing Cybersecurity Trends Last Updated: October 14, 202
 
 ```
 Learn the latest endpoint security trends, from AI-powered defense to zero trust and human-led threat hunting that help under-resourced teams stop threats faster.
-```
-
-#### Full body
-
-```
-Home Blog Endpoint Security Trends Last Updated: October 14, 2026 Endpoint Security Trends By: Brenda Buckman Summarize with AI Summarize ChatGPT Claude Perplexity Google AI In 2026, the endpoint security issues facing businesses look way different from malware campaigns of a decade ago. Endpoints, identities, and cloud workloads now overlap, and traditional antivirus or perimeter-only defenses can’t keep up with fast-moving threats. Threat actors are using methods like living-off-the-land (LotL) attacks to quietly sneak into your environment. To keep up, you have to evolve your security strategy and plan for incidents before they happen. Here are 10 endpoint security trends shaping 2026 and what they mean for your business. 1. Watch as the AI race speeds up Trend: As AI-powered endpoint tools become more advanced, organizations have new security and ethics risks. The focus in 2026 is on balancing autonomy with control, so AI decisions don’t go unchecked. AI used to be a nice-to-have feature. But now, it’s becoming more embedded in day-to-day security operations. Your endpoint security partner needs to be intentional about using the right AI systems. This is especially true with agentic AI, or agents that analyze huge volumes of data and even automate parts of investigations. These agents are only as strong as their training and guardrails, and they can miss novel threats or behave unpredictably if they’re attacked or misused. Attackers can also target the agents themselves as a non-human identity, trying to hijack: API keys Tokens Service accounts created for AI tools AI works best with human oversight rather than being the final decision-maker. That’s where Huntress shines, pairing AI-driven detections with 24/7 human security operations center (SOC) analysts who validate suspicious activity and step in before mistakes turn into breaches. 2. Keep an eye on ransomware’s shifting tactics Trend: Ransomware is evolving. Threat actors are moving from single-encryption events to multi-layered extortion, heightening business risk and public fallout. Ransomware is still one of the biggest threats to endpoints, but the playbook has changed. Many groups now use double or triple extortion, combining data theft, encryption, and public pressure to force higher payouts. These multi-front attacks mean every minute counts. After gaining a foothold, attackers might quickly harvest credentials and threaten disclosure long before deploying encryption. With so much at stake, fast detection is critical. Strong endpoint visibility and strong ransomware protection , paired with managed endpoint detection and response, reduce dwell time and stop an incident before it spirals into downtime or data exposure. 3. Get your incident response plan in shape Trend: Security is about preparation just as much as prevention. Without a tested IR plan, even small attacks can spin out into chaos. Plenty of businesses have security measures, but not nearly enough have a clear, tested incident response (IR) plan . In fact, in Verizon’s 2025 Data Breach Investigations Report , they discovered only 55% of companies have a fully documented IR plan. And IBM’s Cost of a Data Breach Report 2025 revealed that just 30% regularly test those plans. When an attack hits and no one’s sure who does what, it’s easy to lose precious time just figuring out the basics. Details like who to call and how to communicate with leadership or customers can quickly slip through the cracks without a defined plan. A solid IR plan outlines: Roles Decision paths Contact trees It also includes playbooks for common scenarios like ransomware and suspicious remote access. The right partner for managed endpoint detection and response (EDR) can support that plan with real-world expertise, the way Huntress can. That experience includes 24/7 monitoring and clear guidance for your team as they move from detection to clean-up. 4. Be aware of EDR to XDR platform consolidation Trend: Blending security layer
 ```
 
 #### Corroborating sources (1)
@@ -3584,80 +3600,6 @@ The threat landscape has shifted. Here's what cybersecurity leaders need to know
   - Published: 2026-10-14T16:00:00+00:00
   - Link: https://www.huntress.com/blog/what-does-the-future-hold-for-todays-cybersecurity-leaders
   - Summary: The threat landscape has shifted. Here's what cybersecurity leaders need to know about RMM abuse, AI-powered attacks, ransomware, and identity threats in 2026.
-
-### Cluster ef2fa9d058 — score 8
-
-- Title: Baltimore suburb confirms August data breach after ransomware claims
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-10-16T13:05:00+00:00
-- Link: https://therecord.media/anne-arundel-county-maryland-confirms-data-breach
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
-- affected_industries: government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- affected_industries: government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Anne Arundel County, Maryland, said an intruder stole files from government systems, and investigators are working to assess how much data was exposed.
-```
-
-#### Corroborating sources (1)
-
-- **The Record** (cyber_news_breach_reporting)
-  - Title: Baltimore suburb confirms August data breach after ransomware claims
-  - Published: 2026-10-16T13:05:00+00:00
-  - Link: https://therecord.media/anne-arundel-county-maryland-confirms-data-breach
-  - Summary: Anne Arundel County, Maryland, said an intruder stole files from government systems, and investigators are working to assess how much data was exposed.
-
-### Cluster 2aa23d3748 — score 8
-
-- Title: Suspected Chinese espionage attackers abusing BeyondTrust IT support zero-day
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-10-16T13:00:00+00:00
-- Link: https://therecord.media/beyond-trust-cyberattack-china
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, zero_day
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, apt_espionage
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-An alleged Chinese state-backed group is using a new zero-day affecting BeyondTrust IT support software to conduct espionage attacks.
-```
-
-#### Corroborating sources (1)
-
-- **The Record** (cyber_news_breach_reporting)
-  - Title: Suspected Chinese espionage attackers abusing BeyondTrust IT support zero-day
-  - Published: 2026-10-16T13:00:00+00:00
-  - Link: https://therecord.media/beyond-trust-cyberattack-china
-  - Summary: An alleged Chinese state-backed group is using a new zero-day affecting BeyondTrust IT support software to conduct espionage attacks.
 
 ### Cluster ea03af9635 — score 8
 
@@ -3798,6 +3740,80 @@ Edward Dubrovsky, a longtime cybersecurity executive, was arrested and charged i
   - Published: 2026-10-12T20:00:53+00:00
   - Link: https://www.darkreading.com/insider-threats/prominent-ransomware-negotiator-extortion-charges
   - Summary: Edward Dubrovsky, a longtime cybersecurity executive, was arrested and charged in Pennsylvania last week under conspiracy to extort money.
+
+### Cluster ef2fa9d058 — score 8
+
+- Title: Baltimore suburb confirms August data breach after ransomware claims
+- Source: The Record (cyber_news_breach_reporting)
+- Published: 2026-10-16T13:05:00+00:00
+- Link: https://therecord.media/anne-arundel-county-maryland-confirms-data-breach
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion
+- affected_industries: government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach
+- affected_industries: government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Anne Arundel County, Maryland, said an intruder stole files from government systems, and investigators are working to assess how much data was exposed.
+```
+
+#### Corroborating sources (1)
+
+- **The Record** (cyber_news_breach_reporting)
+  - Title: Baltimore suburb confirms August data breach after ransomware claims
+  - Published: 2026-10-16T13:05:00+00:00
+  - Link: https://therecord.media/anne-arundel-county-maryland-confirms-data-breach
+  - Summary: Anne Arundel County, Maryland, said an intruder stole files from government systems, and investigators are working to assess how much data was exposed.
+
+### Cluster 2aa23d3748 — score 8
+
+- Title: Suspected Chinese espionage attackers abusing BeyondTrust IT support zero-day
+- Source: The Record (cyber_news_breach_reporting)
+- Published: 2026-10-16T13:00:00+00:00
+- Link: https://therecord.media/beyond-trust-cyberattack-china
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, apt_espionage
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+An alleged Chinese state-backed group is using a new zero-day affecting BeyondTrust IT support software to conduct espionage attacks.
+```
+
+#### Corroborating sources (1)
+
+- **The Record** (cyber_news_breach_reporting)
+  - Title: Suspected Chinese espionage attackers abusing BeyondTrust IT support zero-day
+  - Published: 2026-10-16T13:00:00+00:00
+  - Link: https://therecord.media/beyond-trust-cyberattack-china
+  - Summary: An alleged Chinese state-backed group is using a new zero-day affecting BeyondTrust IT support software to conduct espionage attacks.
 
 ### Cluster eff03a7556 — score 8
 
