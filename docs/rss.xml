@@ -6,9 +6,170 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 22 Oct 2026 13:40:21 +0000</lastBuildDate>
+<lastBuildDate>Thu, 22 Oct 2026 18:27:22 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More</title>
+<link>https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html</link>
+<description><![CDATA[This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That&apos;s a lot to deal with in just a few days. And the week isn&apos;t even over yet. But those big headlines are only half the story. Stolen passwords, exposed<br/><br/><em>Tags: GitLab</em>]]></description>
+<pubDate>Thu, 22 Oct 2026 17:45:44 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>GitLab</category>
+</item>
+<item>
+<title>Exclusive: bipartisan bill would develop federal guidance for distillation attacks, convene industry on defensive cyber</title>
+<link>https://cyberscoop.com/bipartisan-bill-combat-ai-distillation-attacks-nist/</link>
+<description><![CDATA[One of the bill’s sponsors told CyberScoop it’s “incredibly expensive” for U.S. AI companies to stay ahead and distillation attacks incentivize stealing over innovation. The post Exclusive: bipartisan bill would develop federal guidance for distillation attacks, convene industry on defensive cyber appeared first on CyberScoop .]]></description>
+<pubDate>Thu, 22 Oct 2026 17:37:24 +0000</pubDate>
+<guid isPermaLink="true">https://cyberscoop.com/bipartisan-bill-combat-ai-distillation-attacks-nist/</guid>
+<source url="https://cyberscoop.com/feed/">CyberScoop</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>How bug bounty sharpens one researcher’s security skills</title>
+<link>https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/</link>
+<description><![CDATA[As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog .]]></description>
+<pubDate>Thu, 22 Oct 2026 17:21:30 +0000</pubDate>
+<guid isPermaLink="true">https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/</guid>
+<source url="https://github.blog/category/security/feed/">GitHub Security Lab</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>Arista patches new VeloCloud Orchestrator zero-day exploited in attacks</title>
+<link>https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/</link>
+<description><![CDATA[Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]<br/><br/><em>Tags: CVE-2026-114625 · CVE-2026-7473 · CVE-2026-16812 · CVE-2026-93952 · zero_day · web_shell_backdoor · active_exploitation</em>]]></description>
+<pubDate>Thu, 22 Oct 2026 17:18:22 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>CVE-2026-114625</category>
+<category>CVE-2026-7473</category>
+<category>CVE-2026-16812</category>
+<category>CVE-2026-93952</category>
+</item>
+<item>
+<title>EMudhra Intermediate CA Certificates Compromised</title>
+<link>https://unit42.paloaltonetworks.com/emudhra-certificate-compromise/</link>
+<description><![CDATA[Eight compromised eMudhra intermediate CA private keys risk unauthorized TLS signing and MitM interception. Read our analysis and containment guide. The post EMudhra Intermediate CA Certificates Compromised appeared first on Unit 42 .<br/><br/><em>Tags: Palo Alto Networks · credential_theft</em>]]></description>
+<pubDate>Thu, 22 Oct 2026 17:15:32 +0000</pubDate>
+<guid isPermaLink="true">https://unit42.paloaltonetworks.com/emudhra-certificate-compromise/</guid>
+<source url="https://unit42.paloaltonetworks.com/feed/">Unit 42</source>
+<category>threat_research_primary</category>
+<category>Palo Alto Networks</category>
+<category>credential_theft</category>
+</item>
+<item>
+<title>Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes</title>
+<link>https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html</link>
+<description><![CDATA[Linux servers running KSMBD, the kernel&apos;s built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by Trend Micro&apos;s Zero Day Initiative, with no fix yet in the mainline kernel. One of them, ZDI-CAN-33774, can be triggered before any network authentication. The other, ZDI-CAN-33549, requires the SMB Direct transport and an RDMA-capable network<br/><br/><em>Tags: zero_day</em>]]></description>
+<pubDate>Thu, 22 Oct 2026 17:01:53 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>zero_day</category>
+</item>
+<item>
+<title>The Current Landscape of OAuth Attacks</title>
+<link>https://unit42.paloaltonetworks.com/current-landscape-oauth-attacks/</link>
+<description><![CDATA[Unit 42 explores modern OAuth threats and actionable steps organizations can take to protect their environments. The post The Current Landscape of OAuth Attacks appeared first on Unit 42 .<br/><br/><em>Tags: supply_chain · phishing_social_eng</em>]]></description>
+<pubDate>Thu, 22 Oct 2026 17:00:25 +0000</pubDate>
+<guid isPermaLink="true">https://unit42.paloaltonetworks.com/current-landscape-oauth-attacks/</guid>
+<source url="https://unit42.paloaltonetworks.com/feed/">Unit 42</source>
+<category>threat_research_primary</category>
+<category>supply_chain</category>
+<category>phishing_social_eng</category>
+</item>
+<item>
+<title>CVE-2026-94300: Concurrent GSS-TSIG messages corrupt memory</title>
+<link>https://www.reddit.com/r/netsec/comments/1xcnwyi/cve202694300_concurrent_gsstsig_messages_corrupt/</link>
+<description><![CDATA[submitted by /u/LordAlfredo [link] [comments]<br/><br/><em>Tags: CVE-2026-94300</em>]]></description>
+<pubDate>Thu, 22 Oct 2026 16:49:44 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1xcnwyi/cve202694300_concurrent_gsstsig_messages_corrupt/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+<category>CVE-2026-94300</category>
+</item>
+<item>
+<title>Microsoft blames ConnectWise attacks on Chinese state hacker using ARTEX AI agents</title>
+<link>https://therecord.media/china-cyber-connectwise-ai</link>
+<description><![CDATA[A Chinese government-aligned hacking group used automated tools to carry out the recent supply chain attack on IT management software company ConnectWise and is using the same techniques to try to compromise organizations around the globe, Microsoft said.<br/><br/><em>Tags: supply_chain</em>]]></description>
+<pubDate>Thu, 22 Oct 2026 16:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://therecord.media/china-cyber-connectwise-ai</guid>
+<source url="https://therecord.media/feed">The Record</source>
+<category>cyber_news_breach_reporting</category>
+<category>supply_chain</category>
+</item>
+<item>
+<title>Markdown Is the New Executable: Attackers Are Dropping Agent Instructions Into Your Downloads Folder From the Web</title>
+<link>https://www.reddit.com/r/netsec/comments/1xcnb6o/markdown_is_the_new_executable_attackers_are/</link>
+<description><![CDATA[submitted by /u/Content-Winter5328 [link] [comments]]]></description>
+<pubDate>Thu, 22 Oct 2026 16:27:22 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1xcnb6o/markdown_is_the_new_executable_attackers_are/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
+<title>Unboxing Phishing Kits: Huntress Examines 3 Real Kits</title>
+<link>https://www.huntress.com/blog/unboxing-phishing-kits</link>
+<description><![CDATA[Huntress examines 3 phishing kits that hand beginner attackers everything they need to steal tokens. See what the attacks look like from the inside.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
+<pubDate>Thu, 22 Oct 2026 15:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/unboxing-phishing-kits</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
+<category>phishing_social_eng</category>
+</item>
+<item>
+<title>Hacker Conversations: Corey Thuen and the Evil Bit</title>
+<link>https://www.securityweek.com/hacker-conversations-corey-thuen-and-the-evil-bit/</link>
+<description><![CDATA[Corey Thuen hires hackers for what he calls ‘the evil bit’ — an adversarial streak he believes is either there or it isn’t. The post Hacker Conversations: Corey Thuen and the Evil Bit appeared first on SecurityWeek .]]></description>
+<pubDate>Thu, 22 Oct 2026 14:31:34 +0000</pubDate>
+<guid isPermaLink="true">https://www.securityweek.com/hacker-conversations-corey-thuen-and-the-evil-bit/</guid>
+<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Beyond tree cover: mapping the world’s forest types</title>
+<link>https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/</link>
+<description><![CDATA[A global map categorizing every 10-meter patch of land on Earth into distinct forest types.]]></description>
+<pubDate>Thu, 22 Oct 2026 14:30:24 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>[tl;dr sec] #351 - PHP2Shell, Autopatching Skills, AWS Pathrunner</title>
+<link>https://tldrsec.com/p/tldr-sec-351</link>
+<description><![CDATA[My experience with PHP2Shell + related resources, two new OSS skills from Trail of Bits, new tool that automates exploitation of AWS IAM privilege escalation paths<br/><br/><em>Tags: AWS</em>]]></description>
+<pubDate>Thu, 22 Oct 2026 14:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://tldrsec.com/p/tldr-sec-351</guid>
+<source url="https://tldrsec.com/feed.xml">tl;dr sec</source>
+<category>practitioner_analysis</category>
+<category>AWS</category>
+</item>
+<item>
+<title>Machine speed attacks require machine speed detection and response</title>
+<link>https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/</link>
+<description><![CDATA[Attackers can steal credentials and begin exfiltrating data within minutes, often before security teams can respond. Exaforce examines real-world attacks involving stolen GitHub tokens, malicious AI installers, and MFA phishing, explaining why faster detection and automated containment are critical. [...]<br/><br/><em>Tags: GitHub · phishing_social_eng</em>]]></description>
+<pubDate>Thu, 22 Oct 2026 14:02:12 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>GitHub</category>
+<category>phishing_social_eng</category>
+</item>
+<item>
+<title>EU Regulators to Investigate Booking.com Over Scam Risks</title>
+<link>https://www.infosecurity-magazine.com/news/eu-bookingcom-scam-risks/</link>
+<description><![CDATA[The EU Commission will assess whether Booking.com has adequately protected customers from phishing attacks<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
+<pubDate>Thu, 22 Oct 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/eu-bookingcom-scam-risks/</guid>
+<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
+<category>cyber_news_breach_reporting</category>
+<category>phishing_social_eng</category>
+</item>
 <item>
 <title>Cybercrime crackdown across Africa leads to 1,462 arrests, $105 million seized</title>
 <link>https://therecord.media/africa-cybercrime-interpol-arrests</link>
@@ -22,14 +183,12 @@
 <item>
 <title>New Serious PHP Vulnerabilities Released and Patched</title>
 <link>https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html</link>
-<description><![CDATA[PHP maintainers have released two critical vulnerabilities: PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately. Who is at risk: all PHP installations serving web requests, including PHP-FPM, Apache with mod_php, php-cgi, FrankenPHP and LiteSpeed. We consider the risk highest for mod_php, with a demonstrated exploit where an unauthenticated request can trigger the attack before any application code runs. The vulnerabilities:...<br/><br/><em>Tags: LiteSpeed · CVE-2026-109618 · CVE-2026-109619</em>]]></description>
+<description><![CDATA[PHP maintainers have released fixes for two critical vulnerabilities: PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately. Who is at risk: all PHP installations serving web requests, including PHP-FPM, Apache with mod_php, php-cgi, FrankenPHP and LiteSpeed. We consider the risk highest for mod_php, with a demonstrated exploit where an unauthenticated request can trigger the attack before any application code runs...<br/><br/><em>Tags: LiteSpeed</em>]]></description>
 <pubDate>Thu, 22 Oct 2026 13:26:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html</guid>
 <source url="https://www.schneier.com/feed/atom/">Schneier on Security</source>
 <category>practitioner_analysis</category>
 <category>LiteSpeed</category>
-<category>CVE-2026-109618</category>
-<category>CVE-2026-109619</category>
 </item>
 <item>
 <title>Operation IXIM: Preventing a botnet of millions of Popcorn Time users</title>
@@ -61,6 +220,19 @@
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>ARTEX in the Wild: Storm-0940 Expands Targeting of IT and Software Vendors</title>
+<link>https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors</link>
+<description><![CDATA[Wiz Research is tracking an ARTEX-using actor, overlapping with Storm-0940, across multiple targeted software vendors. Learn how the AI agent attacks Okta, Entra, and Cognito, and what it left behind in the logs.<br/><br/><em>Tags: Okta · Microsoft 365 · AWS · supply_chain · active_exploitation</em>]]></description>
+<pubDate>Thu, 22 Oct 2026 13:05:31 +0000</pubDate>
+<guid isPermaLink="true">https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors</guid>
+<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
+<category>cloud_identity_infrastructure</category>
+<category>Okta</category>
+<category>Microsoft 365</category>
+<category>AWS</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>Iranian Hacking Group Found Hosting C2 Infrastructure in the US</title>
@@ -95,15 +267,11 @@
 <item>
 <title>Signal Vulnerability Lets Malicious Callers Block Hang-Ups</title>
 <link>https://www.securityweek.com/signal-vulnerability-lets-malicious-callers-block-hang-ups/</link>
-<description><![CDATA[Affecting the open source calling library RingRTC, the bug prevented calls from ending properly. The post Signal Vulnerability Lets Malicious Callers Block Hang-Ups appeared first on SecurityWeek .<br/><br/><em>Tags: SolarWinds · GitHub · CVE-2026-113380 · ransomware_extortion · supply_chain</em>]]></description>
+<description><![CDATA[Affecting the open source calling library RingRTC, the bug prevented calls from ending properly. The post Signal Vulnerability Lets Malicious Callers Block Hang-Ups appeared first on SecurityWeek .]]></description>
 <pubDate>Thu, 22 Oct 2026 12:34:31 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/signal-vulnerability-lets-malicious-callers-block-hang-ups/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
-<category>SolarWinds</category>
-<category>GitHub</category>
-<category>CVE-2026-113380</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Tech and Security Companies Respond to PHP2Shell Vulnerabilities</title>
@@ -240,15 +408,11 @@
 <item>
 <title>Cisco Patches 34 Vulnerabilities Across Multiple Products</title>
 <link>https://www.securityweek.com/cisco-patches-34-vulnerabilities-across-multiple-products/</link>
-<description><![CDATA[Critical-severity security defects could lead to command execution, authentication bypass, and XSS attacks. The post Cisco Patches 34 Vulnerabilities Across Multiple Products appeared first on SecurityWeek .<br/><br/><em>Tags: SolarWinds · CVE-2026-76466 · CVE-2026-76473 · CVE-2026-76474 · CVE-2026-76475 · CVE-2026-20236 · supply_chain · ddos</em>]]></description>
+<description><![CDATA[Critical-severity security defects could lead to command execution, authentication bypass, and XSS attacks. The post Cisco Patches 34 Vulnerabilities Across Multiple Products appeared first on SecurityWeek .]]></description>
 <pubDate>Thu, 22 Oct 2026 10:05:21 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/cisco-patches-34-vulnerabilities-across-multiple-products/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
-<category>SolarWinds</category>
-<category>CVE-2026-76466</category>
-<category>CVE-2026-76473</category>
-<category>CVE-2026-76474</category>
 </item>
 <item>
 <title>Encryption isn’t enough to protect data wherever it goes</title>
@@ -321,7 +485,7 @@
 <item>
 <title>Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed</title>
 <link>https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html</link>
-<description><![CDATA[Amazon&apos;s Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches. &quot;The exploit attempt originated from an IP address associated with a commercial anonymization network,&quot; CJ Moses,<br/><br/><em>Tags: OpenAI/ChatGPT · CVE-2026-109618 · CVE-2026-109619 · active_exploitation</em>]]></description>
+<description><![CDATA[Amazon&apos;s Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities dating back to October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches. &quot;The exploit attempt originated from an IP address associated with a commercial anonymization network,<br/><br/><em>Tags: OpenAI/ChatGPT · CVE-2026-109618 · CVE-2026-109619 · active_exploitation</em>]]></description>
 <pubDate>Thu, 22 Oct 2026 06:34:10 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
@@ -367,12 +531,33 @@
 <item>
 <title>Using AWS WAF to apply mitigations for PHP2Shell RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619)</title>
 <link>https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/</link>
-<description><![CDATA[On October 21, 2026, the PHP project released emergency fixes for two critical remote code execution (RCE) vulnerabilities in the PHP core runtime, tracked as CVE-2026-109618 and CVE-2026-109619 and collectively named PHP2Shell. Both are rated 9.2 (Critical) under CVSS v4.0, and both allow an unauthenticated attacker to run code on a vulnerable server. The fixed […]<br/><br/><em>Tags: AWS · CVE-2026-109618 · CVE-2026-109619</em>]]></description>
+<description><![CDATA[October 22, 2026: We updated this post to add the AWS WAF PHP application managed rule group. Version 2.3 of the rule group adds the PHP2Shell_BODY rule for CVE-2026-109619, and AWS made it the default version. On October 21, 2026, the PHP project released emergency fixes for two critical remote code execution (RCE) vulnerabilities in the […]<br/><br/><em>Tags: AWS · CVE-2026-109618 · CVE-2026-109619</em>]]></description>
 <pubDate>Thu, 22 Oct 2026 00:50:04 +0000</pubDate>
 <guid isPermaLink="true">https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/</guid>
 <source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
 <category>cloud_identity_infrastructure</category>
 <category>AWS</category>
+<category>CVE-2026-109618</category>
+<category>CVE-2026-109619</category>
+</item>
+<item>
+<title>[remote] PHP2Shell (CVE-2026-109618) - PHP core versions after v5.4 - RCE</title>
+<link>https://www.exploit-db.com/exploits/52704</link>
+<description><![CDATA[PHP2Shell (CVE-2026-109618) - PHP core versions after v5.4 - RCE<br/><br/><em>Tags: CVE-2026-109618</em>]]></description>
+<pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52704</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+<category>CVE-2026-109618</category>
+</item>
+<item>
+<title>PHP2Shell (CVE-2026-109618 and CVE-2026-109619): Detecting unauthenticated remote code execution in PHP core</title>
+<link>https://webflow.sysdig.com/blog/php2shell-cve-2026-109618-and-cve-2026-109619-detecting-unauthenticated-remote-code-execution-in-php-core</link>
+<description><![CDATA[PHP2Shell (CVE-2026-109618 and CVE-2026-109619) lets an unauthenticated attacker run code on a PHP server with HTTP requests alone. The Sysdig Threat Research Team analyzed the exploitation and outlines affected versions, mitigations, and how to detect post-exploitation activity at runtime with Sysdig Secure and open source Falco.<br/><br/><em>Tags: CVE-2026-109618 · CVE-2026-109619</em>]]></description>
+<pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://webflow.sysdig.com/blog/php2shell-cve-2026-109618-and-cve-2026-109619-detecting-unauthenticated-remote-code-execution-in-php-core</guid>
+<source url="https://sysdig.com/feed/">Sysdig</source>
+<category>detection_response_operations</category>
 <category>CVE-2026-109618</category>
 <category>CVE-2026-109619</category>
 </item>
@@ -586,17 +771,6 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
-<title>PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors</title>
-<link>https://www.securityweek.com/php2shell-patches-land-as-first-exploitation-attempts-hit-sensors/</link>
-<description><![CDATA[Several cybersecurity companies saw exploitation attempts of CVE-2026-109618 and CVE-2026-109619 before PHP released the patches. The post PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors appeared first on SecurityWeek .<br/><br/><em>Tags: CVE-2026-109618 · CVE-2026-109619</em>]]></description>
-<pubDate>Wed, 21 Oct 2026 16:50:40 +0000</pubDate>
-<guid isPermaLink="true">https://www.securityweek.com/php2shell-patches-land-as-first-exploitation-attempts-hit-sensors/</guid>
-<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
-<category>cyber_news_breach_reporting</category>
-<category>CVE-2026-109618</category>
-<category>CVE-2026-109619</category>
-</item>
-<item>
 <title>OVHcloud GitHub Compromise Tied to GlassWorm Threat Actors</title>
 <link>https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors</link>
 <description><![CDATA[A developer&apos;s GitHub account that was compromised several months earlier was used to push malicious code to unsuspecting users.<br/><br/><em>Tags: GitHub</em>]]></description>
@@ -698,27 +872,25 @@
 <item>
 <title>Behind the Panels: Validating ShinyHunters Cluster A Infrastructure Through Network Telemetry</title>
 <link>https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure</link>
-<description><![CDATA[Use network telemetry to validate cyber threat actors&apos; phishing infrastructure. Track ShinyHunters clusters and defend against SaaS data exfiltration.<br/><br/><em>Tags: Salesforce · Microsoft SharePoint · ShinyHunters · UNC6661 · UNC6240 · ransomware_extortion · phishing_social_eng · mfa_bypass</em>]]></description>
+<description><![CDATA[Use network telemetry to validate cyber threat actors&apos; phishing infrastructure. Track ShinyHunters clusters and defend against SaaS data exfiltration.<br/><br/><em>Tags: ShinyHunters · phishing_social_eng</em>]]></description>
 <pubDate>Wed, 21 Oct 2026 14:59:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
-<category>Salesforce</category>
-<category>Microsoft SharePoint</category>
 <category>ShinyHunters</category>
-<category>UNC6661</category>
+<category>phishing_social_eng</category>
 </item>
 <item>
 <title>CVE-2026-109618 / CVE-2026-109619 | PHP Core Remote Code Execution Vulnerabilities (PHP2Shell)</title>
 <link>https://horizon3.ai/attack-research/vulnerabilities/cve-2026-109618-cve-2026-109619/</link>
-<description><![CDATA[PHP2Shell refers to two critical PHP core vulnerabilities, CVE-2026-109618 and CVE-2026-109619, that can enable unauthenticated remote code execution. Explore the out-of-memory corruption and stale global state attack paths, affected PHP versions, exploitation conditions, and October 2026 security updates.<br/><br/><em>Tags: CVE-2026-109618 · CVE-2026-109619 · CVE-2026-101767 · active_exploitation</em>]]></description>
+<description><![CDATA[PHP2Shell refers to two critical PHP core vulnerabilities, CVE-2026-109618 and CVE-2026-109619, that can enable unauthenticated remote code execution. Explore the out-of-memory corruption and stale global state attack paths, affected PHP versions, exploitation conditions, and October 2026 security updates.<br/><br/><em>Tags: LiteSpeed · CVE-2026-109618 · CVE-2026-109619 · active_exploitation</em>]]></description>
 <pubDate>Wed, 21 Oct 2026 14:50:44 +0000</pubDate>
 <guid isPermaLink="true">https://horizon3.ai/attack-research/vulnerabilities/cve-2026-109618-cve-2026-109619/</guid>
 <source url="https://horizon3.ai/feed/">Horizon3 Attack Research</source>
 <category>offensive_vulnerability_research</category>
+<category>LiteSpeed</category>
 <category>CVE-2026-109618</category>
 <category>CVE-2026-109619</category>
-<category>CVE-2026-101767</category>
 <category>active_exploitation</category>
 </item>
 <item>
@@ -785,7 +957,7 @@
 <item>
 <title>Responding to core PHP vulnerabilities CVE-2026-109618 and CVE-2026-109619</title>
 <link>https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/</link>
-<description><![CDATA[Editor&apos;s note : This blog was updated on Oct. 21, 2026 at 3:30 p.m. PDT with additional guidance on Cloud Armor, and at 4:25 p.m. PDT with additional guidance on monitoring, patching, and remediation. PHP and Wiz Research disclosed today two critical vulnerabilities in the core PHP language runtime that can expose applications to unauthenticated remote code execution and memory disclosure. Wiz used a mix of models to identify and help remediate these vulnerabilities. Notably, Gemini 4 Argon made an invaluable contribution to finding the vulnerability, exploit development, attack detection, and validation of the patch. While Google Cloud itself is not vulnerable, users of PHP running on Google Cloud may be vulnerable . At Google Cloud, we understand the severity of these vulnerabilities, and are sharing guidance to help our customers take immediate action to secure their applications. Vulnerability background PHP is a widely-used, server-side scripting language that powers many websites<br/><br/><em>Tags: Google Cloud · Google/Gemini · CVE-2026-109618 · CVE-2026-109619</em>]]></description>
+<description><![CDATA[Editor&apos;s note : This blog was updated on Oct. 22, 2026 at 9:25 a.m. PDT, with revised guidance on Cloud Armor, and on Oct. 21, 2026, with additional guidance on monitoring, patching, and remediation. PHP and Wiz Research disclosed today two critical vulnerabilities in the core PHP language runtime that can expose applications to unauthenticated remote code execution and memory disclosure. Wiz used a mix of models to identify and help remediate these vulnerabilities. Notably, Gemini 4 Argon made an invaluable contribution to finding the vulnerability, exploit development, attack detection, and validation of the patch. While Google Cloud itself is not vulnerable, users of PHP running on Google Cloud may be vulnerable . At Google Cloud, we understand the severity of these vulnerabilities, and are sharing guidance to help our customers take immediate action to secure their applications. Vulnerability background PHP is a widely-used, server-side scripting language that powers many websites,<br/><br/><em>Tags: Google Cloud · Google/Gemini · CVE-2026-109618 · CVE-2026-109619</em>]]></description>
 <pubDate>Wed, 21 Oct 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
@@ -796,21 +968,21 @@
 <category>CVE-2026-109619</category>
 </item>
 <item>
-<title>Symantec Uncovers AI Agent Hijacking Models for Autonomous Cyber-Attacks</title>
-<link>https://www.infosecurity-magazine.com/news/symantec-ai-agent-llmjacking/</link>
-<description><![CDATA[Researchers at Symantec have uncovered an AI agent designed to operate a full cyber-attack without human intervention]]></description>
-<pubDate>Wed, 21 Oct 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/symantec-ai-agent-llmjacking/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge</title>
 <link>https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html</link>
 <description><![CDATA[PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP team says only updating fully protects a server. The flaws, together called PHP2Shell, sit in the PHP runtime, not in any application, so a site is exposed even when its own]]></description>
 <pubDate>Wed, 21 Oct 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Symantec Uncovers AI Agent Hijacking Models for Autonomous Cyber-Attacks</title>
+<link>https://www.infosecurity-magazine.com/news/symantec-ai-agent-llmjacking/</link>
+<description><![CDATA[Researchers at Symantec have uncovered an AI agent designed to operate a full cyber-attack without human intervention]]></description>
+<pubDate>Wed, 21 Oct 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/symantec-ai-agent-llmjacking/</guid>
+<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
@@ -872,14 +1044,13 @@
 <item>
 <title>Q3 2026 Threat Update: Attackers Are Exploiting Vulnerabilities Within 3 Days</title>
 <link>https://www.rapid7.com/blog/post/tr-q3-2026-threat-update-attackers-exploiting-vulnerabilities-within-3-days</link>
-<description><![CDATA[Three days is the average time between a high-severity vulnerability becoming public and its exploitation, according to the latest Quarterly Threat Landscape Report from Rapid7. And 71% of the exploitation tracked in Q3 occurred within the first seven days. For security teams already managing growing vulnerability backlogs, this creates a difficult question: How do you reduce exposure when attackers can exploit vulnerabilities before your next patching window? Rapid7&apos;s Q3 2026 research brings together vulnerability intelligence, ransomware activity, APT tracking, and underground forum intelligence to show where attacker activity is concentrated. The exploitation window has narrowed, big time Rapid7 tracked 43 newly exploited high- and critical-severity vulnerabilities this quarter, down 7% from Q2 but still 19% higher than the same period last year. The number of newly exploited vulnerabilities isn&apos;t growing at the same rate as disclosures. The more pressing concern is how quickly atta<br/><br/><em>Tags: ransomware_extortion · apt_espionage · active_exploitation</em>]]></description>
+<description><![CDATA[Three days is the average time between a high-severity vulnerability becoming public and its exploitation, according to the latest Quarterly Threat Landscape Report from Rapid7. And 71% of the exploitation tracked in Q3 occurred within the first seven days. For security teams already managing growing vulnerability backlogs, this creates a difficult question: How do you reduce exposure when attackers can exploit vulnerabilities before your next patching window? Rapid7&apos;s Q3 2026 research brings together vulnerability intelligence, ransomware activity, APT tracking, and underground forum intelligence to show where attacker activity is concentrated. The exploitation window has narrowed, big time Rapid7 tracked 43 newly exploited high- and critical-severity vulnerabilities this quarter, down 7% from Q2 but still 19% higher than the same period last year. The number of newly exploited vulnerabilities isn&apos;t growing at the same rate as disclosures. The more pressing concern is how quickly atta<br/><br/><em>Tags: ransomware_extortion · apt_espionage</em>]]></description>
 <pubDate>Wed, 21 Oct 2026 13:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.rapid7.com/blog/post/tr-q3-2026-threat-update-attackers-exploiting-vulnerabilities-within-3-days</guid>
 <source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
 <category>offensive_vulnerability_research</category>
 <category>ransomware_extortion</category>
 <category>apt_espionage</category>
-<category>active_exploitation</category>
 </item>
 <item>
 <title>Amazon-Themed ClickFix Campaign Serves Up Finger-Licking Malware</title>
@@ -1058,16 +1229,6 @@
 <category>web_shell_backdoor</category>
 </item>
 <item>
-<title>CISA: SafePay ransomware hit over 600 critical infrastructure orgs</title>
-<link>https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/</link>
-<description><![CDATA[The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Wed, 21 Oct 2026 08:36:24 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
-</item>
-<item>
 <title>State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web</title>
 <link>https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html</link>
 <description><![CDATA[State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from. The state-owned bank, India&apos;s largest, said in a stock-exchange filing dated October 21 that it &quot;has experienced an incident involving the loss of certain data.&quot; The count is<br/><br/><em>Tags: data_breach</em>]]></description>
@@ -1129,26 +1290,6 @@
 <category>threat_research_primary</category>
 <category>Lazarus</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>Stolen UpdraftCentral keys used to backdoor WordPress sites</title>
-<link>https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/</link>
-<description><![CDATA[A threat actor breached TeamUpdraft&apos;s website, a developer of popular WordPress backup and security plugins, potentially compromising UpdraftCentral connection keys that can send commands to connected websites. [...]<br/><br/><em>Tags: WordPress · web_shell_backdoor</em>]]></description>
-<pubDate>Wed, 21 Oct 2026 01:01:50 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>WordPress</category>
-<category>web_shell_backdoor</category>
-</item>
-<item>
-<title>Mozilla, Google, Apple block compromised eMudhra CA certificates</title>
-<link>https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/</link>
-<description><![CDATA[Certificate authority eMudhra revoked eight compromised intermediate certificates after researchers found their private keys were so weak that anyone could recover them almost instantly and use them to forge trusted certificates for legitimate websites. [...]]]></description>
-<pubDate>Wed, 21 Oct 2026 00:46:42 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>PHP2Shell Exploitation: Two Critical PHP Flaws Explained</title>
@@ -1287,9 +1428,9 @@
 <category>reddit_practitioner_osint</category>
 </item>
 <item>
-<title>Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 20)</title>
+<title>Threat Brief: Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20)</title>
 <link>https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/</link>
-<description><![CDATA[Ransomware operators including Spikey Scorpius (aka Qilin) and Tarnished Scorpius (aka Inc) are exploiting PAN-OS vulnerability CVE-2026-0257. The post Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 20) appeared first on Unit 42 .<br/><br/><em>Tags: Palo Alto Networks · Microsoft Windows · CVE-2026-0257 · ransomware_extortion · active_exploitation</em>]]></description>
+<description><![CDATA[Ransomware operators including Spikey Scorpius (aka Qilin) and Tarnished Scorpius (aka Inc) are exploiting PAN-OS vulnerability CVE-2026-0257. The post Threat Brief: Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20) appeared first on Unit 42 .<br/><br/><em>Tags: Palo Alto Networks · Microsoft Windows · CVE-2026-0257 · ransomware_extortion · active_exploitation</em>]]></description>
 <pubDate>Tue, 20 Oct 2026 20:30:42 +0000</pubDate>
 <guid isPermaLink="true">https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/</guid>
 <source url="https://unit42.paloaltonetworks.com/feed/">Unit 42</source>
@@ -1756,15 +1897,6 @@
 <category>vulnerability_disclosure</category>
 </item>
 <item>
-<title>DHS to ban DeepSeek from federal civilian agencies</title>
-<link>https://cyberscoop.com/dhs-bans-deepseek-federal-agencies/</link>
-<description><![CDATA[The order cites national security concerns, including sending data to servers in China, the potential for malware and the overall risk to federal IT systems. The post DHS to ban DeepSeek from federal civilian agencies appeared first on CyberScoop .]]></description>
-<pubDate>Mon, 19 Oct 2026 15:27:20 +0000</pubDate>
-<guid isPermaLink="true">https://cyberscoop.com/dhs-bans-deepseek-federal-agencies/</guid>
-<source url="https://cyberscoop.com/feed/">CyberScoop</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Exploited Vulnerabilities Typically Take Three Months to Patch, Moody’s Finds</title>
 <link>https://www.infosecurity-magazine.com/news/exploited-vulnerabilities-three/</link>
 <description><![CDATA[Known exploited vulnerabilities take a median time of 87 days to be patched, according to a new Moody’s report]]></description>
@@ -1828,7 +1960,7 @@
 <item>
 <title>Webmin Vulnerability and Port Scanning Activity</title>
 <link>https://www.team-cymru.com/post/webmin-vulnerability-and-port-scanning-activity</link>
-<description><![CDATA[Stay ahead of cyber threats with our in-depth analysis of the Webmin vulnerability and port scanning activity. Protect your technology company now!<br/><br/><em>Tags: ShinyHunters · Cl0p · ransomware_extortion · apt_espionage</em>]]></description>
+<description><![CDATA[Stay ahead of cyber threats with our in-depth analysis of the Webmin vulnerability and port scanning activity. Protect your technology company now!<br/><br/><em>Tags: ShinyHunters · Cl0p · ransomware_extortion · supply_chain · phishing_social_eng · apt_espionage</em>]]></description>
 <pubDate>Mon, 19 Oct 2026 14:30:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/webmin-vulnerability-and-port-scanning-activity</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
@@ -1836,12 +1968,12 @@
 <category>ShinyHunters</category>
 <category>Cl0p</category>
 <category>ransomware_extortion</category>
-<category>apt_espionage</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>Research Shows Number of Potentially Compromised Organizations More than Doubles Since January</title>
 <link>https://www.team-cymru.com/post/research-shows-number-of-potentially-compromised-organizations-more-than-doubles-since-january</link>
-<description><![CDATA[Discover the alarming rise in compromised organizations since January. Learn how this impacts technology companies and what steps can be taken to mitigate the risks.<br/><br/><em>Tags: ShinyHunters · Cl0p · ransomware_extortion · apt_espionage</em>]]></description>
+<description><![CDATA[Discover the alarming rise in compromised organizations since January. Learn how this impacts technology companies and what steps can be taken to mitigate the risks.<br/><br/><em>Tags: ShinyHunters · Cl0p · ransomware_extortion · supply_chain · phishing_social_eng · apt_espionage</em>]]></description>
 <pubDate>Mon, 19 Oct 2026 14:30:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/research-shows-number-of-potentially-compromised-organizations-more-than-doubles-since-january</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
@@ -1849,7 +1981,7 @@
 <category>ShinyHunters</category>
 <category>Cl0p</category>
 <category>ransomware_extortion</category>
-<category>apt_espionage</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>Dissecting DDoS Attacks</title>
@@ -2453,13 +2585,14 @@
 <item>
 <title>Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site</title>
 <link>https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/</link>
-<description><![CDATA[U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources close to the investigation say one of the executives in the United States even helped ShinyHunters operate a website that pressured victims into paying a ransom.<br/><br/><em>Tags: ShinyHunters · ransomware_extortion</em>]]></description>
+<description><![CDATA[U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources close to the investigation say one of the executives in the United States even helped ShinyHunters operate a website that pressured victims into paying a ransom.<br/><br/><em>Tags: ShinyHunters · ransomware_extortion · data_breach</em>]]></description>
 <pubDate>Mon, 19 Oct 2026 13:48:56 +0000</pubDate>
 <guid isPermaLink="true">https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/</guid>
 <source url="https://krebsonsecurity.com/feed/">Krebs on Security</source>
 <category>practitioner_analysis</category>
 <category>ShinyHunters</category>
 <category>ransomware_extortion</category>
+<category>data_breach</category>
 </item>
 <item>
 <title>OpenCode Breach Could Affect OpenAI, Anthropic and Google</title>
@@ -2567,17 +2700,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys</title>
-<link>https://thehackernews.com/2026/10/opencode-console-breach-may-have.html</link>
-<description><![CDATA[An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode&apos;s optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without<br/><br/><em>Tags: Anthropic/Claude · OpenAI/ChatGPT</em>]]></description>
-<pubDate>Mon, 19 Oct 2026 06:07:08 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/10/opencode-console-breach-may-have.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>Anthropic/Claude</category>
-<category>OpenAI/ChatGPT</category>
-</item>
-<item>
 <title>Risky Bulletin: Linux patches PwnEscape KVM vulnerability</title>
 <link>https://risky.biz/RBNEWS622/</link>
 <description><![CDATA[A serious vulnerability lets attackers escape Kernel-based virtual machines, OpenCode users become collateral damage in a distillation attack, supply chain incidents hit AOMEI and ConnectWise and Intel will discontinue SGX.<br/><br/><em>Tags: supply_chain</em>]]></description>
@@ -2615,16 +2737,6 @@
 <category>government_authoritative</category>
 </item>
 <item>
-<title>ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants</title>
-<link>https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html</link>
-<description><![CDATA[ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants. The disabled identities are listed below - ConnectWise Cloud Backup - 506e08f9-6e9a-4da4-942b-a099a03644ae ConnectWise<br/><br/><em>Tags: Microsoft 365</em>]]></description>
-<pubDate>Sun, 18 Oct 2026 08:23:02 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>Microsoft 365</category>
-</item>
-<item>
 <title>PhantomBuffer: Effective EDR Evasion Through Stealth Injection</title>
 <link>https://www.reddit.com/r/netsec/comments/1x8rwjz/phantombuffer_effective_edr_evasion_through/</link>
 <description><![CDATA[PhantomBuffer EDR evasion uses stealth injection via SendMessage with WM_SETTEXT to effective bypass EDR (Endpoint Detection and Response). Unlike traditional edr bypass techniques, it does not use the VirtualAllocEx and WriteProcessMemory APIs . submitted by /u/Cold-Dinosaur [link] [comments]]]></description>
@@ -2632,27 +2744,6 @@
 <guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1x8rwjz/phantombuffer_effective_edr_evasion_through/</guid>
 <source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
 <category>reddit_practitioner_osint</category>
-</item>
-<item>
-<title>MALFEX npm Package &apos;imgdecode&apos; Hides Shellcode Loader in Windows Native Addon</title>
-<link>https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html</link>
-<description><![CDATA[Cybersecurity researchers have discovered a malicious npm package that&apos;s part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named &quot;imgdecode,&quot; was uploaded to the package registry on September 30, 2026, by a user named &quot;malfexteste8.&quot; It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of<br/><br/><em>Tags: npm · supply_chain</em>]]></description>
-<pubDate>Sat, 17 Oct 2026 11:11:56 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>npm</category>
-<category>supply_chain</category>
-</item>
-<item>
-<title>Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants</title>
-<link>https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html</link>
-<description><![CDATA[Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers&apos; M365 environments. ConnectWise Cloud Backup is a cloud-based backup and recovery service built for managed service providers (MSPs<br/><br/><em>Tags: Microsoft 365</em>]]></description>
-<pubDate>Sat, 17 Oct 2026 06:16:46 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>Microsoft 365</category>
 </item>
 <item>
 <title>ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks</title>
@@ -2708,15 +2799,6 @@
 <category>zero_day</category>
 </item>
 <item>
-<title>Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug</title>
-<link>https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html</link>
-<description><![CDATA[A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD&apos;s KARL kernel-address randomization and its SMAP and SMEP hardware protections.Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped]]></description>
-<pubDate>Fri, 16 Oct 2026 17:48:45 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026</title>
 <link>https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/</link>
 <description><![CDATA[Unit 42 details the top initial access vectors adversaries use to breach organizations, led by edge exploits, credential abuse and phishing The post Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026 appeared first on Unit 42 .<br/><br/><em>Tags: supply_chain · phishing_social_eng · apt_espionage</em>]]></description>
@@ -2727,25 +2809,6 @@
 <category>supply_chain</category>
 <category>phishing_social_eng</category>
 <category>apt_espionage</category>
-</item>
-<item>
-<title>16% of RPKI-covered IPv4 routes still allow a forged-origin hijack that passes validation, the setup behind the Virtualizor update attack</title>
-<link>https://www.reddit.com/r/netsec/comments/1x7i0l6/16_of_rpkicovered_ipv4_routes_still_allow_a/</link>
-<description><![CDATA[Author here, I work at IPinfo. some security-relevant highlights part of the post: The August 28 Virtualizor update attack used a forged-origin /24 inside Hetzner’s space. From what we saw, it was RPKI-valid because Hetzner’s ROA covered the /16 and allowed announcements down to /24, and no real /24 existed to compete with it. We also measured how common that setup is. In this case, of 855,217 RPKI-covered IPv4 routes, 138,698 (16.2%) have a ROA looser than the route announced and no more-specific route of their own filling the gap. For IPv6 it’s 20.9%. That’s roughly 18 million more-specifics someone could announce today and come out RPKI-valid and uncontested. Hosting providers also differ a lot: Contabo leaves 540 of 553 covered routes open, DigitalOcean 780 of 863, OVH 11.5%. Invalid routes are being dropped now: a typical valid route is seen by 596 vantage points, an invalid one by 2. So the remaining risk is routes that pass the check, not ones that fail it. There&apos;s also the fix ]]></description>
-<pubDate>Fri, 16 Oct 2026 14:40:18 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1x7i0l6/16_of_rpkicovered_ipv4_routes_still_allow_a/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
-<title>CVE-2026-108082: Symfony ReDoS. One request. Seconds of CPU</title>
-<link>https://www.reddit.com/r/netsec/comments/1x7httc/cve2026108082_symfony_redos_one_request_seconds/</link>
-<description><![CDATA[If you run Laravel (or anything on Symfony), read this. CVE-2026-108082: one unauthenticated GET, seconds of backend CPU, ~100 requests and the app times out. A dumb ReDoS that common config turns into a real DoS. 👀⤵️ submitted by /u/r3verii [link] [comments]<br/><br/><em>Tags: CVE-2026-108082</em>]]></description>
-<pubDate>Fri, 16 Oct 2026 14:32:31 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1x7httc/cve2026108082_symfony_redos_one_request_seconds/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>CVE-2026-108082</category>
 </item>
 <item>
 <title>When Your Ransomware Negotiator Works for the Other Side</title>
@@ -2910,25 +2973,29 @@
 <item>
 <title>How Multi-Campus Universities can Build a more Connected Security Program</title>
 <link>https://www.rapid7.com/blog/post/it-multi-campus-universities-building-more-connected-security-programs</link>
-<description><![CDATA[Parts 1 and 2 of this series looked at two pressures facing higher education security teams. First, the threat landscape : universities are dealing with more frequent attacks across complex, distributed environments, while campus-by-campus security can make it harder to share intelligence and coordinate response. Second, the compliance burden: overlapping requirements across FERPA, GLBA, HIPAA, and CMMC make it difficult to establish what data was affected, which reporting obligations apply, and how quickly the institution needs to act. This final part is about what changes when a university system starts treating security as a shared capability rather than a collection of separate campus programs. Multi-campus institutions still need to preserve local autonomy, but they also need enough visibility across the wider organization to understand where risk sits, how an incident is spreading, and whether the same problem is appearing elsewhere. That balance is especially relevant in higher <br/><br/><em>Tags: zero_day</em>]]></description>
+<description><![CDATA[Parts 1 and 2 of this series looked at two pressures facing higher education security teams. First, the threat landscape : universities are dealing with more frequent attacks across complex, distributed environments, while campus-by-campus security can make it harder to share intelligence and coordinate response. Second, the compliance burden: overlapping requirements across FERPA, GLBA, HIPAA, and CMMC make it difficult to establish what data was affected, which reporting obligations apply, and how quickly the institution needs to act. This final part is about what changes when a university system starts treating security as a shared capability rather than a collection of separate campus programs. Multi-campus institutions still need to preserve local autonomy, but they also need enough visibility across the wider organization to understand where risk sits, how an incident is spreading, and whether the same problem is appearing elsewhere. That balance is especially relevant in higher ]]></description>
 <pubDate>Thu, 15 Oct 2026 19:20:59 +0000</pubDate>
 <guid isPermaLink="true">https://www.rapid7.com/blog/post/it-multi-campus-universities-building-more-connected-security-programs</guid>
 <source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
 <category>offensive_vulnerability_research</category>
-<category>zero_day</category>
 </item>
 <item>
 <title>The Q3 Vulnerability Pulse: Discovery ≠ Exploitation</title>
 <link>https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/</link>
-<description><![CDATA[Is the cybersecurity world really facing a &quot;Bugmageddon?&quot; Thor breaks down the latest CVE and KEV trends in the latest Threat Source newsletter.<br/><br/><em>Tags: GitHub · Cisco · CVE-2014-125110 · CVE-2015-1000013 · zero_day · apt_espionage · active_exploitation</em>]]></description>
+<description><![CDATA[Is the cybersecurity world really facing a &quot;Bugmageddon?&quot; Thor breaks down the latest CVE and KEV trends in the latest Threat Source newsletter.]]></description>
 <pubDate>Thu, 15 Oct 2026 18:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/</guid>
 <source url="https://feeds.feedburner.com/feedburner/Talos">Cisco Talos</source>
 <category>threat_research_primary</category>
-<category>GitHub</category>
-<category>Cisco</category>
-<category>CVE-2014-125110</category>
-<category>CVE-2015-1000013</category>
+</item>
+<item>
+<title>Measuring Human Cryptanalysis Effort</title>
+<link>https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html</link>
+<description><![CDATA[Matthew Green has a new site that tries to estimate the number of cryptanalyst-hours that have been spent analyzing different public-key algorithms: Abstract: We estimate how much public cryptanalysis each public-key assumption has received, using the literature itself as the instrument. From roughly sixteen thousand candidate papers we classify cryptanalytic work on ECDLP, structured and plain lattices, syndrome decoding and their comparators, then convert papers into estimated research-allocation years through a person-level author map. These publication-based estimates may substantially overstate actual time spent. Lattices have overtaken elliptic curves in this cumulative measure only recently; we express that history as inference budgets under stated productivity assumptions. The study was conducted by AI models: Claude Fable 5.1 and Claude Opus 5.5 built the pipeline, ran the analysis and wrote this page, with contributions from GPT-6 Astra. Matthew Green set the questions, made ]]></description>
+<pubDate>Thu, 15 Oct 2026 16:24:29 +0000</pubDate>
+<guid isPermaLink="true">https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html</guid>
+<source url="https://www.schneier.com/feed/atom/">Schneier on Security</source>
+<category>practitioner_analysis</category>
 </item>
 <item>
 <title>AWS Security Agent (now part of AWS Continuum) exploited 33 of 37 new real-world CVEs</title>
@@ -2939,6 +3006,15 @@
 <source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
 <category>cloud_identity_infrastructure</category>
 <category>AWS</category>
+</item>
+<item>
+<title>Accelerating the search for antimicrobial peptides with Google Antigravity</title>
+<link>https://deepmind.google/blog/accelerating-antimicrobial-discovery/</link>
+<description><![CDATA[Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.]]></description>
+<pubDate>Thu, 15 Oct 2026 16:08:03 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/accelerating-antimicrobial-discovery/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Vulnerability Management Isn&apos;t About the Score — It&apos;s About How It Applies to You</title>
@@ -2967,6 +3043,24 @@
 <source url="https://tldrsec.com/feed.xml">tl;dr sec</source>
 <category>practitioner_analysis</category>
 <category>Cisco</category>
+</item>
+<item>
+<title>Thoma Bravo&apos;s Proofpoint to buy Varonis Systems in $6.3 billion all-cash deal</title>
+<link>https://www.proofpoint.com/us/newsroom/news/thoma-bravos-proofpoint-buy-varonis-systems-63-billion-all-cash-deal</link>
+<description><![CDATA[]]></description>
+<pubDate>Thu, 15 Oct 2026 14:25:34 +0000</pubDate>
+<guid isPermaLink="true">https://www.proofpoint.com/us/newsroom/news/thoma-bravos-proofpoint-buy-varonis-systems-63-billion-all-cash-deal</guid>
+<source url="https://www.proofpoint.com/us/rss.xml">Proofpoint Threat Insight</source>
+<category>detection_response_operations</category>
+</item>
+<item>
+<title>Proofpoint to Acquire Varonis in $6.3 Billion Cybersecurity Deal</title>
+<link>https://www.proofpoint.com/us/newsroom/news/proofpoint-acquire-varonis-63-billion-cybersecurity-deal</link>
+<description><![CDATA[]]></description>
+<pubDate>Thu, 15 Oct 2026 14:22:47 +0000</pubDate>
+<guid isPermaLink="true">https://www.proofpoint.com/us/newsroom/news/proofpoint-acquire-varonis-63-billion-cybersecurity-deal</guid>
+<source url="https://www.proofpoint.com/us/rss.xml">Proofpoint Threat Insight</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>ARMORY CASTLE Exploits BeyondTrust</title>
@@ -3028,20 +3122,20 @@
 <category>credential_theft</category>
 </item>
 <item>
-<title>Post-quantum updates to our TLS guidance</title>
-<link>https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance</link>
-<description><![CDATA[The NCSC publishes its recommendations for configuring post-quantum cryptography in TLS. Now is time to migrate.]]></description>
-<pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance</guid>
-<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
-<category>government_authoritative</category>
-</item>
-<item>
 <title>Using TLS to protect data</title>
 <link>https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data</link>
 <description><![CDATA[Recommended profiles to securely configure TLS for the most common versions and scenarios, with additional guidance for managing older versions.]]></description>
 <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data</guid>
+<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
+<category>government_authoritative</category>
+</item>
+<item>
+<title>Post-quantum updates to our TLS guidance</title>
+<link>https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance</link>
+<description><![CDATA[The NCSC publishes its recommendations for configuring post-quantum cryptography in TLS. Now is time to migrate.]]></description>
+<pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance</guid>
 <source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
 <category>government_authoritative</category>
 </item>
@@ -4273,15 +4367,6 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
-<title>Deno is joining Cloudflare</title>
-<link>https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/</link>
-<description><![CDATA[Deno is joining Cloudflare The Deno team released the first version of celld back in August - their open source implementation of the Durable Objects pattern from Cloudflare Workers. Today, Cloudflare are acquiring Deno outright, with the goal of building on celld to &quot;make workerd self-hosting a first-class supported way to build and run apps using the Workers programming model&quot; (see the Cloudflare blog .) The bad news is that Deno itself will not be maintained by Cloudflare beyond the next year: We will support the Deno runtime for another year with monthly releases containing bug fixes and security updates. After that year we will end our development of the Deno runtime. Deno will remain open source, and we welcome others who want to continue its development. Deno (and Node.js) creator Ryan Dahl explained that decision in a comment on Hacker News: It&apos;s a joint decision and I agree with it. I&apos;m most invested in its success and have put the most work into it - and I no longer think it&apos;]]></description>
-<pubDate>Fri, 09 Oct 2026 22:48:37 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>I expect rapid progress but not towards general superintelligence</title>
 <link>https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards</link>
 <description><![CDATA[I’ve often been surprised when I hear from top researchers in industry that they think AI will be better than them at their job in a few years, and I didn’t really know why I doubted it.]]></description>
@@ -4338,15 +4423,6 @@
 <guid isPermaLink="true">https://www.darkreading.com/cyber-risk/security-threats-don-t-stop-at-the-office-why-executives-families-need-training-too</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Quoting Matthew Green</title>
-<link>https://simonwillison.net/2026/Oct/9/matthew-green/</link>
-<description><![CDATA[Everyone is very concerned about being respectable, so I’m going to be the goofball who raises worst-case possibilities. I think there is a 1% chance we live in Minicrypt, and a 15% chance we functionally lose confidence in our existing public-key encryption algorithms. [...] The problem here is that the speed of AI producing surprises, and the speed of human beings replacing standards (even with the very best AI assistance) are just orders of magnitude different. You only recover from a surprise like this if you do the preparation in advance. — Matthew Green , on Twitter. I looked it up and Minicrypt is Russell Impagliazzo’s hypothetical world in which public-key encryption is impossible. Tags: ai-security-research , matthew-green , cryptography , standards , llms , ai , generative-ai]]></description>
-<pubDate>Fri, 09 Oct 2026 15:02:29 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Oct/9/matthew-green/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Wikimedia Says Rogue AI Agents Abused its Platforms</title>
@@ -6694,16 +6770,6 @@
 <category>data_breach</category>
 </item>
 <item>
-<title>Emerging Ransomware Gang Uses Backup Destruction Threats to Pressure Victims</title>
-<link>https://www.infosecurity-magazine.com/news/ransomware-gang-uses-backup/</link>
-<description><![CDATA[Ransom notes by n0n ransomware claim to take double extortion to a new level of danger for victims<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Thu, 24 Sep 2026 15:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/ransomware-gang-uses-backup/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
-</item>
-<item>
 <title>[tl;dr sec] #347 - AI Agents Hacking Companies for $25, Threat Hunter&apos;s Guide to GitHub, Finding Gadgets Like it’s 2026</title>
 <link>https://tldrsec.com/p/tldr-sec-347</link>
 <description><![CDATA[Threat actor using open source harnesses to hack companies, how to use GitHub logs to find baddies, using LLMs to find novel Java deserialization gadgets<br/><br/><em>Tags: GitHub</em>]]></description>
@@ -7276,17 +7342,6 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
-<title>A Vault with a Heap-View: The Uncomfortable Space Between AgentCore Harness and Identity</title>
-<link>https://unit42.paloaltonetworks.com/securing-aws-agentcore-harness-credentials/</link>
-<description><![CDATA[Analysis of how default configurations in AWS AgentCore Harness allow prompt injection to exfiltrate credentials, and key steps to secure your agents. The post A Vault with a Heap-View: The Uncomfortable Space Between AgentCore Harness and Identity appeared first on Unit 42 .<br/><br/><em>Tags: AWS · ai_security</em>]]></description>
-<pubDate>Fri, 18 Sep 2026 10:00:36 +0000</pubDate>
-<guid isPermaLink="true">https://unit42.paloaltonetworks.com/securing-aws-agentcore-harness-credentials/</guid>
-<source url="https://unit42.paloaltonetworks.com/feed/">Unit 42</source>
-<category>threat_research_primary</category>
-<category>AWS</category>
-<category>ai_security</category>
-</item>
-<item>
 <title>‘Nudify’ apps: What to do if someone makes a fake nude of you</title>
 <link>https://www.welivesecurity.com/en/privacy/nudify-apps-fake-nude-you/</link>
 <description><![CDATA[Whether you’re a victim, the parent of a victim, or just concerned, here’s what you can do about fake nude images]]></description>
@@ -7321,15 +7376,6 @@
 <guid isPermaLink="true">https://www.elastic.co/security-labs/blog/centralized-alert-triage-cross-project-search</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>Inside the Modern SOC: Defending the Cross-Environment Pivot</title>
-<link>https://unit42.paloaltonetworks.com/soc-cross-environment-pivot/</link>
-<description><![CDATA[Cross-environment attacks demand a new approach to security operations. Learn how Unit 42 Managed XSIAM helps SOC teams investigate complete attack paths. The post Inside the Modern SOC: Defending the Cross-Environment Pivot appeared first on Unit 42 .]]></description>
-<pubDate>Thu, 17 Sep 2026 22:00:33 +0000</pubDate>
-<guid isPermaLink="true">https://unit42.paloaltonetworks.com/soc-cross-environment-pivot/</guid>
-<source url="https://unit42.paloaltonetworks.com/feed/">Unit 42</source>
-<category>threat_research_primary</category>
 </item>
 <item>
 <title>US Coast Guard and FBI board oil tanker to investigate cyber attack</title>
@@ -7629,20 +7675,20 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Iranian cyber targeting of dissidents, activists and journalists</title>
-<link>https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists</link>
-<description><![CDATA[Advisory on CHOSEN BRICK malware, including technical analysis and advice to help individuals and organisations protect themselves.]]></description>
-<pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists</guid>
-<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
-<category>government_authoritative</category>
-</item>
-<item>
 <title>UK and allies expose spyware used by Iranian state actors to target dissidents, activists and journalists</title>
 <link>https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists</link>
 <description><![CDATA[UK and allies provide advice to help organisations and individuals at risk detect and counter the threat from CHOSEN BRICK malware.]]></description>
 <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.ncsc.gov.uk/news/uk-allies-expose-spyware-iranian-state-actors-target-dissidents-activists-journalists</guid>
+<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
+<category>government_authoritative</category>
+</item>
+<item>
+<title>Iranian cyber targeting of dissidents, activists and journalists</title>
+<link>https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists</link>
+<description><![CDATA[Advisory on CHOSEN BRICK malware, including technical analysis and advice to help individuals and organisations protect themselves.]]></description>
+<pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/news/iranian-cyber-targeting-of-dissidents-activists-and-journalists</guid>
 <source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
 <category>government_authoritative</category>
 </item>
@@ -9457,15 +9503,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert</title>
-<link>https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/</link>
-<description><![CDATA[Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .]]></description>
-<pubDate>Thu, 20 Aug 2026 17:52:13 +0000</pubDate>
-<guid isPermaLink="true">https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/</guid>
-<source url="https://citizenlab.ca/feed/">Citizen Lab</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>Rust Supply Chain Attack on arrayref: Significant Overlap with DPRK Campaigns</title>
 <link>https://www.wiz.io/blog/rust-supply-chain-attack-on-arrayref-significant-overlap-with-dprk-campaigns</link>
 <description><![CDATA[Malicious versions of the arrayref Rust crate (and others) executed a backdoor at compile time. The campaign&apos;s infrastructure overlaps with recent DPRK supply chain attacks, including Mastra and axios.<br/><br/><em>Tags: supply_chain · web_shell_backdoor</em>]]></description>
@@ -9689,15 +9726,6 @@
 <description><![CDATA[Nodemailer 9.0.0 - File Read/ SSRF]]></description>
 <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52654</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[webapps] Linuxfabrik monitoring_plugins_6.0.0 - SSRF</title>
-<link>https://www.exploit-db.com/exploits/52653</link>
-<description><![CDATA[Linuxfabrik monitoring_plugins_6.0.0 - SSRF]]></description>
-<pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52653</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
 </item>
@@ -10537,17 +10565,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>Bank of America Phishing Email Delivers ScreenConnect Malware</title>
-<link>https://www.huntress.com/blog/bank-spam-rmm</link>
-<description><![CDATA[A fake Bank of America phishing email kicks off a multi-stage malware infection chain. See how one convincing bank scam unravels.<br/><br/><em>Tags: ScreenConnect · phishing_social_eng</em>]]></description>
-<pubDate>Tue, 04 Aug 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/bank-spam-rmm</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
-<category>ScreenConnect</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
 <title>NCSC statement in response to recent incidents resulting from frontier AI evaluations</title>
 <link>https://www.ncsc.gov.uk/news/ncsc-statement-in-response-to-recent-incidents-resulting-from-frontier-ai-evaluations</link>
 <description><![CDATA[A statement from Ollie Whitehouse, Chief Technology Officer at the NCSC, on AI security following recent incidents.]]></description>
@@ -11190,15 +11207,6 @@
 <guid isPermaLink="true">https://redcanary.com/blog/threat-intelligence/intelligence-insights-july-2026/</guid>
 <source url="https://redcanary.com/feed/">Red Canary</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>The case for a cooldown: Why Dependabot now waits before issuing version updates</title>
-<link>https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/</link>
-<description><![CDATA[A new default three-day cooldown delays version update pull requests so maintainers and security researchers can address findings in a release before it gets into your code. The post The case for a cooldown: Why Dependabot now waits before issuing version updates appeared first on The GitHub Blog .]]></description>
-<pubDate>Thu, 23 Jul 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/</guid>
-<source url="https://github.blog/category/security/feed/">GitHub Security Lab</source>
-<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>[tl;dr sec] #338 - OpenAI and Hugging Face, Accelerating EDR Evasion, Google&apos;s Mantis</title>
@@ -13142,15 +13150,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>[tl;dr sec] #331 - How Adversaries Use AI, Skill Issues, Using IDEs for C2</title>
-<link>https://tldrsec.com/p/tldr-sec-331</link>
-<description><![CDATA[Google&apos;s deep dive on how threat actors are using AI, bypassing malicious skill scanning, using VS Code dev tunnels for command and control]]></description>
-<pubDate>Thu, 04 Jun 2026 14:30:00 +0000</pubDate>
-<guid isPermaLink="true">https://tldrsec.com/p/tldr-sec-331</guid>
-<source url="https://tldrsec.com/feed.xml">tl;dr sec</source>
-<category>practitioner_analysis</category>
-</item>
-<item>
 <title>AI Threat Readiness Pillar 1: Reduce Critical Exposures &amp; Scan with AI</title>
 <link>https://www.wiz.io/blog/ai-threat-readiness-pillar-1</link>
 <description><![CDATA[Diving into the first pillar of the AI Threat Readiness Framework and how Wiz helps]]></description>
@@ -13675,15 +13674,6 @@
 <guid isPermaLink="true">https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/</guid>
 <source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
 <category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>From Cryptographic Blind Spots to Post-Quantum Agility: Introducing Wiz for PQC Readiness</title>
-<link>https://www.wiz.io/blog/wiz-for-pqc-readiness</link>
-<description><![CDATA[Eliminate cryptographic blind spots and neutralize legacy debt with an integrated cryptographic asset inventory. Identify risks across code, cloud, and runtime, using the Wiz Security Graph to prioritize migration and protect against &quot;Harvest Now, Decrypt Later&quot; attacks.]]></description>
-<pubDate>Mon, 18 May 2026 11:00:01 +0000</pubDate>
-<guid isPermaLink="true">https://www.wiz.io/blog/wiz-for-pqc-readiness</guid>
-<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>How to create custom cloud security controls faster with headless cloud security</title>
@@ -15333,15 +15323,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>Malware detection with Sysdig</title>
-<link>https://webflow.sysdig.com/blog/malware-detection-with-sysdig</link>
-<description><![CDATA[When we talk about cloud security, we spend a lot of time discussing things like configuration and identity risk. But we shouldn&apos;t lose sight of other types of risk, simply because they don&apos;t lead to the lion&apos;s share of incidents. One of those risks is malware. And as attackers increasingly automate exploitation of exposed services and vulnerable workloads, it’s no longer safe to assume you can ignore malware risk in cloud environments.]]></description>
-<pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://webflow.sysdig.com/blog/malware-detection-with-sysdig</guid>
-<source url="https://sysdig.com/feed/">Sysdig</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>What cybersecurity actually does for your business</title>
 <link>https://www.welivesecurity.com/en/business-security/what-cybersecurity-actually-does-for-your-business/</link>
 <description><![CDATA[The ability to continue operating safely in an unsafe environment where competitors cannot is a competitive advantage that is rarely measured or discussed]]></description>
@@ -16621,15 +16602,6 @@
 <description><![CDATA[Google DeepMind opens a new Singapore research lab, accelerating AI progress in the Asia-Pacific region.]]></description>
 <pubDate>Tue, 18 Nov 2025 17:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://deepmind.google/blog/were-expanding-our-presence-in-singapore-to-advance-ai-in-the-asia-pacific-region/</guid>
-<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>A new era of intelligence with Gemini 3</title>
-<link>https://deepmind.google/blog/a-new-era-of-intelligence-with-gemini-3/</link>
-<description><![CDATA[]]></description>
-<pubDate>Tue, 18 Nov 2025 16:06:41 +0000</pubDate>
-<guid isPermaLink="true">https://deepmind.google/blog/a-new-era-of-intelligence-with-gemini-3/</guid>
 <source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
 <category>ai_security_agentic_risk</category>
 </item>
@@ -19511,7 +19483,7 @@
 <title>CrowdStrike Uncovers New Agentic AI Campaigns</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-agentic-ai-campaigns/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 22 Oct 2026 13:40:21 +0000</pubDate>
+<pubDate>Thu, 22 Oct 2026 18:27:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-agentic-ai-campaigns/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19520,7 +19492,7 @@
 <title>CrowdStrike Protects Customers from Threats Delivered via PHP2Shell</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-protects-customers-from-php-rce-zero-days/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 22 Oct 2026 13:40:21 +0000</pubDate>
+<pubDate>Thu, 22 Oct 2026 18:27:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-protects-customers-from-php-rce-zero-days/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19529,7 +19501,7 @@
 <title>CrowdStrike Achieves NCSC CIR Enhanced Level Assurance</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-achieves-uk-ncsc-cir-enhanced-level-assurance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 22 Oct 2026 13:40:21 +0000</pubDate>
+<pubDate>Thu, 22 Oct 2026 18:27:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-achieves-uk-ncsc-cir-enhanced-level-assurance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19538,7 +19510,7 @@
 <title>U.S. Government Disrupts FAMOUS CHOLLIMA Operation with CrowdStrike Assistance</title>
 <link>https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 22 Oct 2026 13:40:21 +0000</pubDate>
+<pubDate>Thu, 22 Oct 2026 18:27:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19547,7 +19519,7 @@
 <title>October 2026 Patch Tuesday: 1,413 CVEs Include Three Zero-Days and 75 Critical Vulnerabilities</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-october-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 22 Oct 2026 13:40:21 +0000</pubDate>
+<pubDate>Thu, 22 Oct 2026 18:27:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-october-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19556,7 +19528,7 @@
 <title>CrowdStrike and Anthropic Give Critical Infrastructure Defenders the AI Advantage</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 22 Oct 2026 13:40:21 +0000</pubDate>
+<pubDate>Thu, 22 Oct 2026 18:27:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19565,7 +19537,7 @@
 <title>Solving the Continuous Authorization Conundrum</title>
 <link>https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 22 Oct 2026 13:40:21 +0000</pubDate>
+<pubDate>Thu, 22 Oct 2026 18:27:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19574,7 +19546,7 @@
 <title>Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance</title>
 <link>https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 22 Oct 2026 13:40:21 +0000</pubDate>
+<pubDate>Thu, 22 Oct 2026 18:27:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19583,7 +19555,7 @@
 <title>CrowdStrike Named a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises Vendor Assessment</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-modern-endpoint-security-for-enterprises/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 22 Oct 2026 13:40:21 +0000</pubDate>
+<pubDate>Thu, 22 Oct 2026 18:27:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-modern-endpoint-security-for-enterprises/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19592,7 +19564,7 @@
 <title>Request, Aggregate, Bypass: How Attackers Can Evade LLM Safety Classifiers</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-attackers-can-bypass-llm-safety-classifiers/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 22 Oct 2026 13:40:21 +0000</pubDate>
+<pubDate>Thu, 22 Oct 2026 18:27:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-attackers-can-bypass-llm-safety-classifiers/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
