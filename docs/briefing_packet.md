@@ -1,15 +1,15 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-10-24T10:41:58.106026+00:00
+- Generated: 2026-10-24T14:24:00.709623+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
 - Total items in window: 454
-- Total clusters raw: 238
+- Total clusters raw: 239
 - Total clusters in packet: 80
 - Dropped low score: 126
-- Dropped overflow: 32
+- Dropped overflow: 33
 
 ## Cohort metadata
 
@@ -70,83 +70,78 @@
 
 ## Feed status
 
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 5
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 5
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 5
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 8
@@ -160,11 +155,11 @@
   - Status: ok
   - Item count: 50
   - In window count: 2
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 8
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
@@ -175,6 +170,11 @@
   - Status: ok
   - Item count: 50
   - In window count: 11
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
@@ -190,11 +190,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
@@ -205,13 +200,13 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -220,6 +215,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 4
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 7
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
@@ -235,46 +240,26 @@
   - Status: ok
   - Item count: 30
   - In window count: 4
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 7
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 7
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 5
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
+  - Item count: 10
   - In window count: 0
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
@@ -285,58 +270,78 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 8
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 20
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - In window count: 0
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 0
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 14
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -345,76 +350,76 @@
   - Status: ok
   - Item count: 50
   - In window count: 1
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 14
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 29
+  - Item count: 10
+  - In window count: 10
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 29
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 100
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
   - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
+  - Item count: 15
+  - In window count: 1
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
-  - Item count: 50
-  - In window count: 50
+  - Item count: 0
+  - In window count: 0
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 23
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
@@ -425,8 +430,8 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -434,22 +439,17 @@
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 22
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
   - In window count: 23
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
@@ -486,7 +486,7 @@
   - threat_categories: active_exploitation
   - cve_ids: CVE-2026-109618, CVE-2026-109619, CVE-2026-115560
   - urgency_signals: actively_exploited, poc_available, no_patch_yet
-- Cluster IDs: f4a1025e01, 59969a7c2a, 27252b6951, 5806ce98aa, 65f0b10f8b, 03ad94fad0, fa232b0e92, 5e9563cebc, f320a38d8c, 21772a3458
+- Cluster IDs: f4a1025e01, 59969a7c2a, 27252b6951, 5806ce98aa, 65f0b10f8b, fa232b0e92, 5e9563cebc, 03ad94fad0, f320a38d8c, 21772a3458
 - Links:
   - https://www.rapid7.com/blog/post/etr-cve-2026-109618-and-cve-2026-109619-critical-unauthenticated-remote-code-execution-in-php
   - https://securelist.com/tr/php2shell-critical-vulnerabilities-in-php/121596/
@@ -510,9 +510,9 @@
   - https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/
   - https://blog.talosintelligence.com/two-critical-rces-in-php-core/
   - https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation
-  - https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html
   - https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html
   - https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/
+  - https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html
   - https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html
   - https://blog.cloudflare.com/php-vulnerabilities-waf-protection/
 
@@ -529,7 +529,7 @@
   - threat_categories: active_exploitation
   - cve_ids: CVE-2026-109618, CVE-2026-109619, CVE-2026-115560
   - urgency_signals: actively_exploited, poc_available, no_patch_yet
-- Cluster IDs: f4a1025e01, 59969a7c2a, 27252b6951, 5806ce98aa, 65f0b10f8b, 03ad94fad0, fa232b0e92, 5e9563cebc, f320a38d8c, 21772a3458
+- Cluster IDs: f4a1025e01, 59969a7c2a, 27252b6951, 5806ce98aa, 65f0b10f8b, fa232b0e92, 5e9563cebc, 03ad94fad0, f320a38d8c, 21772a3458
 - Links:
   - https://www.rapid7.com/blog/post/etr-cve-2026-109618-and-cve-2026-109619-critical-unauthenticated-remote-code-execution-in-php
   - https://securelist.com/tr/php2shell-critical-vulnerabilities-in-php/121596/
@@ -553,9 +553,9 @@
   - https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/
   - https://blog.talosintelligence.com/two-critical-rces-in-php-core/
   - https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation
-  - https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html
   - https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html
   - https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/
+  - https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html
   - https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html
   - https://blog.cloudflare.com/php-vulnerabilities-waf-protection/
 
@@ -627,8 +627,8 @@
 - Anchor signal: PyPI
 - Theme key: pypi
 - Cluster count: 4
-- Article count: 11
-- Cohesion: 0.248
+- Article count: 12
+- Cohesion: 0.228
 - Shared strong signals: PyPI
 - Member CVEs: (none)
 - Also targets: (none)
@@ -639,7 +639,7 @@
 - Links:
   - https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-langflow-mongodb-and-more
   - https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/
-  - https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html
+  - https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html
   - https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/
   - https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors
   - https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/
@@ -790,7 +790,8 @@
 ## Forward signals
 
 ### Novelty
-- Novel cves: 0
+- Novel cves: 1
+  - CVE-2022-22706 (first seen via Reddit r/netsec at 2026-10-24T10:57:59+00:00, cluster 6a3134fc7c)
 - Novel actors: 0
 - Novel products: 0
 
@@ -880,11 +881,15 @@
 - actor_attribution: UNC6240 (weeks observed: 5, cluster d8c893e316)
 - cve_ids: CVE-2025-53770 (weeks observed: 5, cluster 7c42269e48)
 
-### Tier inversion (1)
+### Tier inversion (2)
 - **Imperia CMS SiteActive TEMPLATE Unauthenticated SSTI Remote Code Execution (CVE-2026-110355)**
   - Cluster: ce10cb1b5c
   - Primary source: Reddit r/netsec
   - Strong signals: CVE-2026-110355
+- **Full source release: autonomous root chain for TCL 50C721 Android TV via CVE-2022-22706 (Mali GPU page-cache write)**
+  - Cluster: 6a3134fc7c
+  - Primary source: Reddit r/netsec
+  - Strong signals: CVE-2022-22706
 
 ## Clusters
 
@@ -895,7 +900,7 @@
 - Published: 2026-10-23T15:38:56+00:00
 - Link: https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-langflow-mongodb-and-more
 - Fetch status: ok
-- Member count: 5
+- Member count: 6
 - Corroborating source count: 5
 - Strong signals: CVE-2026-0768, CVE-2026-0769, CVE-2026-10134, CVE-2026-7873, CVE-2026-93680, GitHub
 
@@ -939,10 +944,10 @@ Metasploit Metasploit Wrap Up: Langflow, MongoDB, and More Alan David Foster Oct
   - Link: https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/
   - Summary: Hackers used compromised GitHub CLI OAuth tokens to push and approve malicious packages on PyPI and Docker. The post LiteLLM Compromised in Fresh Supply Chain Attack appeared first on SecurityWeek .
 - **The Hacker News** (cyber_news_breach_reporting)
-  - Title: LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release
-  - Published: 2026-10-22T08:28:48+00:00
-  - Link: https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html
-  - Summary: LiteLLM on Wednesday disclosed that threat actors compromised "multiple independent security controls" to push a malicious version of the Python package containing a credential stealer and a backdoor. On October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub registry and the Python Package Index (PyPI) repository. The incident took place around 4:00 a.m.
+  - Title: Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline
+  - Published: 2026-10-24T11:03:33+00:00
+  - Link: https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html
+  - Summary: LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. "On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: Machine speed attacks require machine speed detection and response
   - Published: 2026-10-22T14:02:12+00:00
@@ -1144,7 +1149,7 @@ Overview On October 21, 2026, the PHP project announced security releases for tw
 #### Full body
 
 ```
-Emergent Threat Response CVE-2026-109618 and CVE-2026-109619: Critical Unauthenticated Remote Code Execution in PHP Rapid7 Oct 21, 2026 | Last updated on Oct 23, 2026 | 8 min read CVE-2026-109618 and CVE-2026-109619: Critical Unauthenticated Remote Code Execution in PHP Table of contents CVE-2026-109618 and CVE-2026-109619: Critical Unauthenticated Remote Code Execution in PHP Table of contents Overview On October 21, 2026, the PHP project announced security releases for two critical vulnerabilities in PHP. CVE-2026-109618 can corrupt memory during out-of-memory (OOM) handling, while CVE-2026-109619 is a use-after-free flaw involving state retained between requests. Both have a CVSSv4 score of 9.2 and both can allow for unauthenticated remote code execution (RCE) with the web worker's privileges. CVE CVSSv4 Description CVE-2026-109618 9.2 (Critical) RCE via OOM corruption CVE-2026-109619 9.2 (Critical) RCE via stale global state All installations serving web requests are at risk, including PHP-FPM, Apache mod_php, php-cgi, FrankenPHP, and LiteSpeed. The vendor considers mod_php the highest risk because exploitation can succeed before any application code runs. The advisories report that a successful RCE exploit was developed during research, including achieving RCE against Apache mod_php and PHP-FPM through different attack paths. As of October 21, 2026, there are multiple indications that this research is being independently reproduced, and a viable exploit is expected to be made public soon. Due to the extremely high deployment of PHP based web applications, exploitation in-the-wild is expected. Rapid7 recommends updating affected installations on an emergency basis, outside of normal patch cycles. Multiple public proof-of-concept (PoC) exploits for CVE-2026-109618 and CVE-2026-109619 are now available. Rapid7 researchers have reviewed these and observe that each demonstrates RCE only against a specific combination of operating system, PHP version, and web server, and none appears to be broadly reliable. Rapid7’s own research supports this. Our attempts so far have produced a working exploit only under narrow lab conditions, and exploitation depends on assumptions that are unlikely to hold on internet-facing instances. We are continuing to investigate approaches that could improve portability, but have not yet developed a reliable, general-purpose exploit. Rapid7 has not observed exploitation in the wild, though there are multiple reports of exploitation attempts, which is expected for a vulnerability of this profile. The situation is evolving quickly, and a more portable exploit technique could emerge at any time. The current difficulty of reliable exploitation should be treated as a window to patch rather than a reason to delay, and Rapid7 continues to recommend updating affected installations on an emergency basis. Technical overview CVE-2026-109618: Memory corruption during OOM handling According to the OOM advisory , PHP can abruptly abandon request processing when a memory allocation fails. If internal request data is only partly initialized, that exit can leave invalid data for request cleanup to use. Crafted multipart requests, used for forms and file uploads, can exhaust memory even when their size appears to meet PHP's configured limits. Application operations that allocate memory in response to attacker input can also trigger OOM. Apache mod_php runs cleanup even when request startup fails, enabling the demonstrated attack before application code executes. The advisory reports RCE over HTTP with default PHP input and memory limits, including multi-worker prefork deployments. PHP-FPM terminates a worker when startup fails, preventing that particular sequence. Source analysis supports FPM susceptibility after successful startup, but the advisory reports no complete FPM exploit for this CVE. Exploit portability and reliability depend on the PHP build, extensions, frontend behavior, and memory layout. CVE-2026-109619:
+Emergent Threat Response CVE-2026-109618 and CVE-2026-109619: Critical Unauthenticated Remote Code Execution in PHP Rapid7 Oct 21, 2026 | Last updated on Oct 24, 2026 | 8 min read CVE-2026-109618 and CVE-2026-109619: Critical Unauthenticated Remote Code Execution in PHP Table of contents CVE-2026-109618 and CVE-2026-109619: Critical Unauthenticated Remote Code Execution in PHP Table of contents Overview On October 21, 2026, the PHP project announced security releases for two critical vulnerabilities in PHP. CVE-2026-109618 can corrupt memory during out-of-memory (OOM) handling, while CVE-2026-109619 is a use-after-free flaw involving state retained between requests. Both have a CVSSv4 score of 9.2 and both can allow for unauthenticated remote code execution (RCE) with the web worker's privileges. CVE CVSSv4 Description CVE-2026-109618 9.2 (Critical) RCE via OOM corruption CVE-2026-109619 9.2 (Critical) RCE via stale global state All installations serving web requests are at risk, including PHP-FPM, Apache mod_php, php-cgi, FrankenPHP, and LiteSpeed. The vendor considers mod_php the highest risk because exploitation can succeed before any application code runs. The advisories report that a successful RCE exploit was developed during research, including achieving RCE against Apache mod_php and PHP-FPM through different attack paths. As of October 21, 2026, there are multiple indications that this research is being independently reproduced, and a viable exploit is expected to be made public soon. Due to the extremely high deployment of PHP based web applications, exploitation in-the-wild is expected. Rapid7 recommends updating affected installations on an emergency basis, outside of normal patch cycles. Multiple public proof-of-concept (PoC) exploits for CVE-2026-109618 and CVE-2026-109619 are now available. Rapid7 researchers have reviewed these and observe that each demonstrates RCE only against a specific combination of operating system, PHP version, and web server, and none appears to be broadly reliable. Rapid7’s own research supports this. Our attempts so far have produced a working exploit only under narrow lab conditions, and exploitation depends on assumptions that are unlikely to hold on internet-facing instances. We are continuing to investigate approaches that could improve portability, but have not yet developed a reliable, general-purpose exploit. Rapid7 has not observed exploitation in the wild, though there are multiple reports of exploitation attempts, which is expected for a vulnerability of this profile. The situation is evolving quickly, and a more portable exploit technique could emerge at any time. The current difficulty of reliable exploitation should be treated as a window to patch rather than a reason to delay, and Rapid7 continues to recommend updating affected installations on an emergency basis. Technical overview CVE-2026-109618: Memory corruption during OOM handling According to the OOM advisory , PHP can abruptly abandon request processing when a memory allocation fails. If internal request data is only partly initialized, that exit can leave invalid data for request cleanup to use. Crafted multipart requests, used for forms and file uploads, can exhaust memory even when their size appears to meet PHP's configured limits. Application operations that allocate memory in response to attacker input can also trigger OOM. Apache mod_php runs cleanup even when request startup fails, enabling the demonstrated attack before application code executes. The advisory reports RCE over HTTP with default PHP input and memory limits, including multi-worker prefork deployments. PHP-FPM terminates a worker when startup fails, preventing that particular sequence. Source analysis supports FPM susceptibility after successful startup, but the advisory reports no complete FPM exploit for this CVE. Exploit portability and reliability depend on the PHP build, extensions, frontend behavior, and memory layout. CVE-2026-109619:
 ```
 
 #### Corroborating sources (18)
@@ -1393,16 +1398,16 @@ Share Link copied to clipboard! Tags Supply chain attack Threats intelligence AI
   - Published: 2026-10-20T16:17:52+00:00
   - Link: https://cyberscoop.com/connectwise-cloud-backup-supply-chain-attack/
   - Summary: Hundreds of customers are confirmed impacted, as attackers use a sensitive credential to break into connected Microsoft 365 applications unimpeded. The post ConnectWise customers hit by supply-chain attack linked to compromised API secret appeared first on CyberScoop .
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Microsoft 365 accounts compromised at 79 organizations, no passwords needed
-  - Published: 2026-10-23T11:45:12+00:00
-  - Link: https://www.helpnetsecurity.com/2026/10/23/microsoft-365-accounts-stolen-sessions/
-  - Summary: An attacker who spent ten weeks replaying stolen Microsoft 365 sign-in sessions broke into email accounts at 79 organizations and used hidden inbox rules to keep victims from seeing parts of their own mail, according to Huntress. The researchers tracked the campaign between July 14 and September 22, 2026, counting 497 successful sign-ins and more than 200,000 failed login attempts. The stolen sessions were replayed from servers at 1337 Services GmbH, a hosting provider incorporated … More → The post Microsoft 365 accounts compromised at 79 organizations, no passwords needed appeared first on Help Net Security .
 - **Huntress** (detection_response_operations)
   - Title: M365 Token Spray and Replay Campaign Compromises Business Email Accounts
   - Published: 2026-10-22T13:00:00+00:00
   - Link: https://www.huntress.com/blog/token-replay-spray
   - Summary: Huntress tracked a 10-week Microsoft 365 campaign pairing AiTM relays with token replay, rogue Entra devices, MFA tampering, and hidden inbox rules.
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Microsoft 365 accounts compromised at 79 organizations, no passwords needed
+  - Published: 2026-10-23T11:45:12+00:00
+  - Link: https://www.helpnetsecurity.com/2026/10/23/microsoft-365-accounts-stolen-sessions/
+  - Summary: An attacker who spent ten weeks replaying stolen Microsoft 365 sign-in sessions broke into email accounts at 79 organizations and used hidden inbox rules to keep victims from seeing parts of their own mail, according to Huntress. The researchers tracked the campaign between July 14 and September 22, 2026, counting 497 successful sign-ins and more than 200,000 failed login attempts. The stolen sessions were replayed from servers at 1337 Services GmbH, a hosting provider incorporated … More → The post Microsoft 365 accounts compromised at 79 organizations, no passwords needed appeared first on Help Net Security .
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: ConnectWise Disables Cloud Backups Amid Concerns for Downstream MSPs
   - Published: 2026-10-19T19:19:33+00:00
@@ -2073,53 +2078,6 @@ S2 Research Team 8 min read October 29, 2024 An Introduction to Operational Rela
   - Link: https://www.team-cymru.com/post/an-introduction-to-operational-relay-box-orb-networks-unpatched-forgotten-and-obscured
   - Summary: Explore how threat actors use Operational Relay Box (ORB) networks to evade detection, hide malicious activity, and complicate cyber defense efforts. Talk to an expert.
 
-### Cluster 03ad94fad0 — score 17
-
-- Title: PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-10-23T11:25:43+00:00
-- Link: https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-115560
-
-#### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor
-- affected_products: Linux kernel
-- cve_ids: CVE-2026-109618, CVE-2026-109619, CVE-2026-115560
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: web_shell_backdoor
-- affected_products: Linux kernel
-- cve_ids: CVE-2026-115560, CVE-2026-109618, CVE-2026-109619
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called
-```
-
-#### Full body
-
-```
-PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches  Swati Khandelwal  Oct 23, 2026 Vulnerability / Web Security PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560 , affects only web applications configured in an unusual way, and PHP considers it an unlikely risk. The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called session upload progress until a fix is available in the next routine release. The warning came in a short informational advisory published on October 23. It follows the October 21 emergency release that fixed two critical PHP2Shell flaws, CVE-2026-109618 and CVE-2026-109619 , which let an attacker without an account run code on a server. Those were patched in PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35. The new issue is separate and is not fixed by those releases. Only a narrow setup is at risk. PHP says the problem can occur when a web application does all of the following: sets the session.serialize_handler option to php_binary or php_serialize in its configuration, then changes that option to php while running by calling ini_set(), and makes that change before it calls session_start(). Session upload progress must also still be turned on. An application that never changes the serialize handler while running can leave the feature on and is not exposed through this path. PHP says this setup is unlikely in practice. The action is one line. PHP recommends setting session.upload_progress.enabled=0 until the next routine bugfix release. This is the same setting it already listed as a mitigation in the October 21 advisory for CVE-2026-109619. Anyone who applied it then and left it in place needs to do nothing more for the new issue. Session upload progress is turned on by default and lets an application track the progress of a file upload. Because the setup is uncommon, PHP is handling the fix as part of its regular release cycle rather than as an emergency, and it will publish a full advisory for CVE-2026-115560 with the next release. PHP has not stated which versions are affected, which releases will contain the fix, or a severity score. It also has not said whether the new issue shares a root cause with CVE-2026-109619. No exploitation of CVE-2026-115560 has been reported; the attacks reported since October 21 target the two earlier PHP2Shell flaws. Separately, attempts to exploit the two earlier PHP2Shell flaws have surged. Amazon said its honeypots logged an exploit attempt against CVE-2026-109618 and CVE-2026-109619 on October 17, four days before the flaws were disclosed, and Cloudflare said attempts rose from tens of thousands within 45 minutes of the October 21 disclosure to millions by early October 22. Attackers have tried to use the flaws to install a Mirai botnet variant, according to Sophos and Arctic Wolf. Those attempts have so far failed: Previdian, Wordfence and others report scanning and probing but no confirmed code execution, and researchers say a reliable exploit is proving harder to build than expected. That activity targets the two flaws patched on October 21, not CVE-2026-115560, which has not been reported under attack. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  PHP , Vulnerability , Web Security ⚡ Top Stories This Week Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert C
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches
-  - Published: 2026-10-23T11:25:43+00:00
-  - Link: https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html
-  - Summary: PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called
-
 ### Cluster fa232b0e92 — score 17
 
 - Title: PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert
@@ -2213,6 +2171,53 @@ Expect to see quite a few websites serving error pages today: Nearly 70 percent 
   - Published: 2026-10-21T15:26:07+00:00
   - Link: https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/
   - Summary: Expect to see quite a few websites serving "404" or "Page Not Found" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the flaws, and that these critical bugs are already being exploited in the wild.
+
+### Cluster 03ad94fad0 — score 16
+
+- Title: PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-10-23T11:25:43+00:00
+- Link: https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-115560
+
+#### Cluster taxonomy (union across members)
+- threat_categories: web_shell_backdoor
+- affected_products: Linux kernel
+- cve_ids: CVE-2026-109618, CVE-2026-109619, CVE-2026-115560
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: web_shell_backdoor
+- affected_products: Linux kernel
+- cve_ids: CVE-2026-115560, CVE-2026-109618, CVE-2026-109619
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called
+```
+
+#### Full body
+
+```
+PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches  Swati Khandelwal  Oct 23, 2026 Vulnerability / Web Security PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560 , affects only web applications configured in an unusual way, and PHP considers it an unlikely risk. The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called session upload progress until a fix is available in the next routine release. The warning came in a short informational advisory published on October 23. It follows the October 21 emergency release that fixed two critical PHP2Shell flaws, CVE-2026-109618 and CVE-2026-109619 , which let an attacker without an account run code on a server. Those were patched in PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35. The new issue is separate and is not fixed by those releases. Only a narrow setup is at risk. PHP says the problem can occur when a web application does all of the following: sets the session.serialize_handler option to php_binary or php_serialize in its configuration, then changes that option to php while running by calling ini_set(), and makes that change before it calls session_start(). Session upload progress must also still be turned on. An application that never changes the serialize handler while running can leave the feature on and is not exposed through this path. PHP says this setup is unlikely in practice. The action is one line. PHP recommends setting session.upload_progress.enabled=0 until the next routine bugfix release. This is the same setting it already listed as a mitigation in the October 21 advisory for CVE-2026-109619. Anyone who applied it then and left it in place needs to do nothing more for the new issue. Session upload progress is turned on by default and lets an application track the progress of a file upload. Because the setup is uncommon, PHP is handling the fix as part of its regular release cycle rather than as an emergency, and it will publish a full advisory for CVE-2026-115560 with the next release. PHP has not stated which versions are affected, which releases will contain the fix, or a severity score. It also has not said whether the new issue shares a root cause with CVE-2026-109619. No exploitation of CVE-2026-115560 has been reported; the attacks reported since October 21 target the two earlier PHP2Shell flaws. Separately, attempts to exploit the two earlier PHP2Shell flaws have surged. Amazon said its honeypots logged an exploit attempt against CVE-2026-109618 and CVE-2026-109619 on October 17, four days before the flaws were disclosed, and Cloudflare said attempts rose from tens of thousands within 45 minutes of the October 21 disclosure to millions by early October 22. Attackers have tried to use the flaws to install a Mirai botnet variant, according to Sophos and Arctic Wolf. Those attempts have so far failed: Previdian, Wordfence and others report scanning and probing but no confirmed code execution, and researchers say a reliable exploit is proving harder to build than expected. That activity targets the two flaws patched on October 21, not CVE-2026-115560, which has not been reported under attack. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  PHP , Vulnerability , Web Security ⚡ Top Stories This Week Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert C
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches
+  - Published: 2026-10-23T11:25:43+00:00
+  - Link: https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html
+  - Summary: PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called
 
 ### Cluster cff3936ad6 — score 16
 
@@ -2605,39 +2610,6 @@ Table of Contents Background Initial infection vector Full infection chain Malwa
   - Link: https://securelist.com/lazarus-operation-flashhole/121541/
   - Summary: Kaspersky researchers analyze Operation FlashHole – a recent complex attack by Lazarus, involving a sophisticated malware set, watering-hole technique and abuse of CrossWeb EX financial security software.
 
-### Cluster eb6f21ab0c — score 14
-
-- Title: PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-10-23T13:43:20+00:00
-- Link: https://isc.sans.edu/diary/rss/33450
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-This morning, we returned to Infocon Green. As usual, we are raising the Infocon to alert you to emerging situations requiring immediate attention. PHP fit that description. By now, you either know about it, or you probably never will, so it is time to go back to "business as usual".
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)
-  - Published: 2026-10-23T13:43:20+00:00
-  - Link: https://isc.sans.edu/diary/rss/33450
-  - Summary: This morning, we returned to Infocon Green. As usual, we are raising the Infocon to alert you to emerging situations requiring immediate attention. PHP fit that description. By now, you either know about it, or you probably never will, so it is time to go back to "business as usual".
-
 ### Cluster 3eb9b72a05 — score 14
 
 - Title: [webapps] Keycloak 26.7.2 - Unauthenticated Account Takeover
@@ -2742,6 +2714,39 @@ Ian Kretz Senior Security Researcher On October 21, 2026, attackers published a 
   - Published: 2026-10-22T19:12:51+00:00
   - Link: https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/
   - Summary: Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]
+
+### Cluster eb6f21ab0c — score 13
+
+- Title: PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-10-23T13:43:20+00:00
+- Link: https://isc.sans.edu/diary/rss/33450
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+This morning, we returned to Infocon Green. As usual, we are raising the Infocon to alert you to emerging situations requiring immediate attention. PHP fit that description. By now, you either know about it, or you probably never will, so it is time to go back to "business as usual".
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)
+  - Published: 2026-10-23T13:43:20+00:00
+  - Link: https://isc.sans.edu/diary/rss/33450
+  - Summary: This morning, we returned to Infocon Green. As usual, we are raising the Infocon to alert you to emerging situations requiring immediate attention. PHP fit that description. By now, you either know about it, or you probably never will, so it is time to go back to "business as usual".
 
 ### Cluster 7c42269e48 — score 13
 
@@ -2909,53 +2914,6 @@ Executive Summary Wiz Research uncovered multiple critical vulnerabilities in co
   - Link: https://www.wiz.io/blog/php2shell-php-rce
   - Summary: Core PHP engine flaws enable remote code execution and Heartbleed-style memory disclosure across the web.
 
-### Cluster 119c62509b — score 12
-
-- Title: HPE patches eight max severity RCE and auth bypass AOS flaws
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-10-23T12:48:00+00:00
-- Link: https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_products: GitLab
-- cve_ids: CVE-2026-79844, CVE-2026-79845, CVE-2026-79846, CVE-2026-79847, CVE-2026-79848
-- urgency_signals: actively_exploited, no_patch_yet, poc_available, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_products: GitLab
-- cve_ids: CVE-2026-79844, CVE-2026-79845, CVE-2026-79846, CVE-2026-79847, CVE-2026-79848
-- urgency_signals: actively_exploited, preauth_unauth, no_patch_yet, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and code execution issues. [...]
-```
-
-#### Full body
-
-```
-HPE patches eight max severity RCE and auth bypass AOS flaws By Sergiu Gatlan October 23, 2026 08:48 AM 0 Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and code execution issues. Also known as AOS, ArubaOS powers Aruba Networking enterprise wireless infrastructure, including mobility conductors, access points, controllers, and gateway devices. The eight maximum-severity security flaws patched today affect multiple AOS-8 and AOS-10 software versions, and they can be exploited by remote threat actors without privileges through low-complexity attacks that don't require user interaction. HPE warned customers to patch these security issues as soon as possible and provided mitigation measures, including restricting access to AOS management interfaces. "Customers are strongly urged to patch their instances due to the complexity, breadth, and impact of these vulnerabilities," the company warned in a Thursday security advisory. "To minimize the likelihood of an attacker exploiting these vulnerabilities, HPE Networking recommends that the CLI and web-based management interfaces be restricted to a dedicated layer 2 segment/VLAN and/or controlled by firewall policies at layer 3 and above along with accounting controls for tracking and logging user activities and resource usage." The full list of maximum severity flaws fixed today can be found in the table embedded below: CVE-ID Vulnerability CVE-2026-79844 Authentication Bypass Leading to RCE in AOS-10 CVE-2026-79845 Authentication Bypass in the PAPI Protocol of AOS-10 CVE-2026-79846 Unauthenticated Command Injection in AOS-8 CVE-2026-79847 Unauthenticated Buffer Overflow leads to RCE in AOS-10 CVE-2026-79848 Unauthenticated SQL Injection leading to RCE in AOS-8 CVE-2026-79849 Unauthenticated SQL Injection leading to RCE in AOS-8 CVE-2026-79850 Authentication Bypass leading to RCE in AOS-8 CVE-2026-79851 Unauthenticated Buffer Overflow leading to RCE in AOS-10 The company added that it has not yet found publicly available proof-of-concept exploit code or evidence that these vulnerabilities are being exploited in the wild. "HPE Networking is not aware of any public discussion or exploit code that targets the listed vulnerabilities as of the release date of this advisory," it said. In June 2025, HPE patched eight critical StoreOnce vulnerabilities that allowed authentication bypass and remote code execution and, one month later, warned of hardcoded credentials in Aruba Instant On Access Points that can let attackers bypass device authentication. In January 2025, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) also flagged a maximum-severity HPE OneView vulnerability as exploited in attacks. More recently, HPE warned of critical flaws allowing admin password resets and remote code execution on unpatched AOS-CX devices. HPE employs more than 61,000 people worldwide and provides services and products to over 55,000 enterprise customers worldwide, including 90% of Fortune 500 companies. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: HPE patches critical ArubaOS-CX remote code execution flaw PHP shares mitigation for new RCE vulnerability with no patch GitLab warns of new max severity code execution vulnerability PHP ships emergency patches for critical PHP2Shell flaws F5 releases out-of-band patches for critical NGINX vulnerabilities
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: HPE patches eight max severity RCE and auth bypass AOS flaws
-  - Published: 2026-10-23T12:48:00+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/
-  - Summary: Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and code execution issues. [...]
-
 ### Cluster 4ff2661d4c — score 12
 
 - Title: Supply Chain & CTI
@@ -3080,7 +3038,7 @@ Amazon's Threat Intelligence team on Wednesday said it detected an attempt to ex
 #### Full body
 
 ```
-Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed  Ravie Lakshmanan  Oct 22, 2026 Vulnerability / Threat Intelligence Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities dating back to October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches. "The exploit attempt originated from an IP address associated with a commercial anonymization network," CJ Moses, CISO of Amazon Integrated Security, said in a post shared with The Hacker News. "While the vulnerability was under embargo, the targeting of a honeypot from an anonymized IP address suggests the activity was conducted by a threat actor, though it remains unclear how the actor acquired exploit information prior to disclosure." The attempt, Amazon said, was recorded from " 103.216.220[.]92 ," an IP address geolocated to Australia. An Amazon spokesperson told The Hacker News that the activity was largely a one-off probe. ⚡ WARNING — PHP Warns of Another Unpatched RCE Flaw CVE-2026-115560 The activity relates to a set of two vulnerabilities impacting PHP core, both rated 9.2 on the CVSS scoring system. Tracked as CVE-2026-109618 and CVE-2026-109619 and discovered by researchers from Calif , OpenAI , and Google-owned Wiz , the flaws can be abused to achieve pre-authentication remote code execution on affected systems. The shortcomings are present in every PHP release from the 7.x and 8.x series, and pose a risk to every reachable PHP endpoint on an affected server, including static forms, login routes, and health checks. According to CrowdStrike, an attack exploiting the flaws leaves virtually no digital traces. "There is no authentication to bypass, no session to steal, and no vulnerable endpoint to discover," CrowdStrike said . "The exposure is independent of the CMS, framework, or plug-ins in use." "Worker processes remain stable, responses return HTTP 200, and application logs record no anomalies, because no application code ever ran. The only server-side trace is a single memory-limit fatal in the web server's error log, which is routinely dismissed as noise, leaving defenders without actionable web telemetry to identify compromised endpoints." Originally scheduled for coordinated disclosure on October 22, 2026, at 2:00 p.m. UTC, details about the CVE identifiers and a proof-of-concept (PoC) exploit leaked ahead of time , prompting the PHP Foundation to move the release forward by one day. "Both issues sit in parts of PHP that nearly every request touches: memory management and error handling," the PHP Foundation said . "Their central place in PHP is what made both vulnerabilities serious, and also so hard to fix without breaking compatibility, hurting performance, or forcing changes on the large ecosystem of third-party extensions." Amazon said it detected multiple PoC exploits for PHP2Shell coinciding with the day of the release of the fixes, with the earliest attempt flagged around October 21, 2026, at 2 a.m. UTC. This was followed by additional exploitation attempts from anonymized infrastructure over the next six hours. The variety of payloads and the anonymization infrastructure used indicate that multiple threat actors are involved, Amazon Threat Intelligence said. The attempts have been recorded from the following IP addresses on October 21, 2026 - 31.223.184[.]166 37.19.200[.]5 134.209.159[.]64 103.114.163[.]188 95.217.98[.]37 According to ELLIO , the first PHP2Shell request targeting its sensors was observed on October 21, 2026, at 8:36 a.m. UTC, less than an hour after "Chainguard unilaterally broke the embargo and published built images containing the fix." "Chainguard had received the patch in advance so its users could update the moment the vulnerabilities were disclosed," the PHP Foundation said. "Any attacker could now study the fix in binary form wh
+Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed  Ravie Lakshmanan  Oct 22, 2026 Vulnerability / Threat Intelligence Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities dating back to October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches. "The exploit attempt originated from an IP address associated with a commercial anonymization network," CJ Moses, CISO of Amazon Integrated Security, said in a post shared with The Hacker News. "While the vulnerability was under embargo, the targeting of a honeypot from an anonymized IP address suggests the activity was conducted by a threat actor, though it remains unclear how the actor acquired exploit information prior to disclosure." The attempt, Amazon said, was recorded from " 103.216.220[.]92 ," an IP address geolocated to Australia. An Amazon spokesperson told The Hacker News the activity was largely a one-off probe, adding "there was no evidence" it was benign. ⚡ WARNING — PHP Warns of Another Unpatched RCE Flaw CVE-2026-115560 The activity relates to a set of two vulnerabilities impacting PHP core, both rated 9.2 on the CVSS scoring system. Tracked as CVE-2026-109618 and CVE-2026-109619 and discovered by researchers from Calif , OpenAI , and Google-owned Wiz , the flaws can be abused to achieve pre-authentication remote code execution on affected systems. The shortcomings are present in every PHP release from the 7.x and 8.x series, and pose a risk to every reachable PHP endpoint on an affected server, including static forms, login routes, and health checks. According to CrowdStrike, an attack exploiting the flaws leaves virtually no digital traces. "There is no authentication to bypass, no session to steal, and no vulnerable endpoint to discover," CrowdStrike said . "The exposure is independent of the CMS, framework, or plug-ins in use." "Worker processes remain stable, responses return HTTP 200, and application logs record no anomalies, because no application code ever ran. The only server-side trace is a single memory-limit fatal in the web server's error log, which is routinely dismissed as noise, leaving defenders without actionable web telemetry to identify compromised endpoints." Originally scheduled for coordinated disclosure on October 22, 2026, at 2:00 p.m. UTC, details about the CVE identifiers and a proof-of-concept (PoC) exploit leaked ahead of time , prompting the PHP Foundation to move the release forward by one day. "Both issues sit in parts of PHP that nearly every request touches: memory management and error handling," the PHP Foundation said . "Their central place in PHP is what made both vulnerabilities serious, and also so hard to fix without breaking compatibility, hurting performance, or forcing changes on the large ecosystem of third-party extensions." Amazon said it detected multiple PoC exploits for PHP2Shell coinciding with the day of the release of the fixes, with the earliest attempt flagged around October 21, 2026, at 2 a.m. UTC. This was followed by additional exploitation attempts from anonymized infrastructure over the next six hours. The variety of payloads and the anonymization infrastructure used indicate that multiple threat actors are involved, Amazon Threat Intelligence said. The attempts have been recorded from the following IP addresses on October 21, 2026 - 31.223.184[.]166 37.19.200[.]5 134.209.159[.]64 103.114.163[.]188 95.217.98[.]37 According to ELLIO , the first PHP2Shell request targeting its sensors was observed on October 21, 2026, at 8:36 a.m. UTC, less than an hour after "Chainguard unilaterally broke the embargo and published built images containing the fix." "Chainguard had received the patch in advance so its users could update the moment the vulnerabilities were disclosed," the PHP Foundation said. "Any attacker
 ```
 
 #### Corroborating sources (1)
@@ -3090,53 +3048,6 @@ Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Public
   - Published: 2026-10-22T06:34:10+00:00
   - Link: https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html
   - Summary: Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities dating back to October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches. "The exploit attempt originated from an IP address associated with a commercial anonymization network,
-
-### Cluster 291b7cae3e — score 11
-
-- Title: Infostealer riding the AI Train
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-10-23T13:00:09+00:00
-- Link: https://research.checkpoint.com/2026/infostealer-riding-the-ai-train/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, credential_theft, ransomware_extortion
-- affected_industries: financial_services
-- affected_products: Android, Google Cloud, OpenAI/ChatGPT
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, credential_theft, active_exploitation
-- affected_industries: financial_services
-- affected_products: Android, OpenAI/ChatGPT, Google Cloud
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Key Points Introduction Infostealers commonly target browser passwords, session cookies, and cryptocurrency wallets. This malware combines those established capabilities with dedicated collection routines for AI applications and development tools. Its targets include Claude, ChatGPT Desktop, Codex, Cursor, Windsurf, and GitHub Copilot, alongside cloud credentials and sensitive files from local development environments. This expanded targeting reflects […] The post Infostealer riding the AI Train appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-CATEGORIES AI Research 22 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 476 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 430 How To Guides 13 Ransomware 6 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 Infostealer riding the AI Train October 23, 2026 https://research.checkpoint.com/2026/infostealer-riding-the-ai-train/ Key Points Aokigahara , a newly observed infostealer, has been spotted in the wild. An earlier version may have been known as Kamidere or Stygian . The malware includes traditional data theft capabilities targeting browsers, VPN clients, cryptocurrency wallets, FTP/SFTP clients, password managers, and email applications, among other targets. AI applications and development tools are notable targets. The stealer collects authentication files, session data, and configuration files associated with Claude, ChatGPT Desktop, Codex, Cursor, Windsurf, GitHub Copilot, Gemini CLI, and other tools. Stolen AI credentials could offer opportunities for monetization. Usable credentials or session tokens could enable unauthorized access to paid AI services or the resale of compromised accounts. Its collection scope extends to developer and cloud environments. Targets include Git credential files, SSH private keys, and AWS, Azure, and Google Cloud credential and configuration files. Introduction Infostealers commonly target browser passwords, session cookies, and cryptocurrency wallets. This malware combines those established capabilities with dedicated collection routines for AI applications and development tools. Its targets include Claude, ChatGPT Desktop, Codex, Cursor, Windsurf, and GitHub Copilot, alongside cloud credentials and sensitive files from local development environments. This expanded targeting reflects a broader shift in what attackers may consider valuable, not only personal accounts and financial data, but also access to AI services and the environments developers use to build software. Valid credentials or session tokens could expose private conversations and development data, enable unauthorized use of paid services, or potentially be sold to provide access to compromised AI accounts. While the malware’s collection routines support these possibilities, the analysis does not confirm how its operators monetize the stolen data. Stealer Capabilities and Targeted Applications The Aokigahara infostealer includes common information-stealing capabilities, such as screenshot capture, clipboard collection, browser credential and cookie theft, cryptocurrency wallet data collection, and file grabbing. It also includes a clipper handler that drops a separate component for clipboard manipulation. The malware targets Chromium-based browsers and Mozilla Firefox, desktop cryptocurrency wallets and browser wallet extensions, messaging applications such as Discord and Telegram, and gaming platforms such as Steam, Roblox, and Minecraft. Additional targets include password managers, VPN clients, FTP/SFTP clients, email applications, and AI development tools. The table below summarizes each handler, its targets, and any limitations identified during the analysis. The table below lists the malware’s main capabilities and their corresponding internal function names. Function What the handler targets sysinfo The machine and current user: computer/user names, IP, Windows version, CPU/RAM, screen size, language, uptime, running processes, environment variables, installed software, and detected antivirus. screenshot Captures the screen as Screenshot.jpg . clipboard Captures clipboard contents into Clipboard.txt . browsers Chromium-based browser profiles. The embedded paths name Chrome (including Beta/Canary), Edge (including Beta/Dev/Canary), Brave, Opera, Vivaldi, Yandex, 360Chrome, CentBrowser, CocCoc, Comodo Dragon, Epic Privacy Browser, Iridium, Tor
-```
-
-#### Corroborating sources (1)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: Infostealer riding the AI Train
-  - Published: 2026-10-23T13:00:09+00:00
-  - Link: https://research.checkpoint.com/2026/infostealer-riding-the-ai-train/
-  - Summary: Key Points Introduction Infostealers commonly target browser passwords, session cookies, and cryptocurrency wallets. This malware combines those established capabilities with dedicated collection routines for AI applications and development tools. Its targets include Claude, ChatGPT Desktop, Codex, Cursor, Windsurf, and GitHub Copilot, alongside cloud credentials and sensitive files from local development environments. This expanded targeting reflects […] The post Infostealer riding the AI Train appeared first on Check Point Research .
 
 ### Cluster 21772a3458 — score 11
 
@@ -3348,6 +3259,53 @@ Simon Willison’s Weblog Newsletter Sponsored by: WorkOS Airlock — intent-bas
   - Published: 2026-10-21T18:41:53+00:00
   - Link: https://simonwillison.net/2026/Oct/21/php-security-release/
   - Summary: Today's PHP Security Release, and How We're Strengthening PHP Security If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process. This post from the PHP Foundation explain what went so wrong: On Tuesday, October 20th, at around 15:00 UTC, the two CVE IDs began circulating on online forums and social media. They came with a wrong release time and a wrong CVSS score of 10.0 (the actual score is 9.2). No technical details leaked. In response, the PHP project brought its pre-announcement forward and published it at 19:30 UTC . It also moved the release from October 22nd, 14:00 UTC, to October 21st, 14:00 UTC [...] As a result of the leak and pre-announcement around 20:00 UTC, Calif, one of the security firms that had reported the issues mistakenly published a video. It showed their proof
+
+### Cluster 119c62509b — score 11
+
+- Title: HPE patches eight max severity RCE and auth bypass AOS flaws
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-10-23T12:48:00+00:00
+- Link: https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- affected_products: GitLab
+- cve_ids: CVE-2026-79844, CVE-2026-79845, CVE-2026-79846, CVE-2026-79847, CVE-2026-79848
+- urgency_signals: actively_exploited, no_patch_yet, poc_available, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- affected_products: GitLab
+- cve_ids: CVE-2026-79844, CVE-2026-79845, CVE-2026-79846, CVE-2026-79847, CVE-2026-79848
+- urgency_signals: actively_exploited, preauth_unauth, no_patch_yet, poc_available
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and code execution issues. [...]
+```
+
+#### Full body
+
+```
+HPE patches eight max severity RCE and auth bypass AOS flaws By Sergiu Gatlan October 23, 2026 08:48 AM 0 Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and code execution issues. Also known as AOS, ArubaOS powers Aruba Networking enterprise wireless infrastructure, including mobility conductors, access points, controllers, and gateway devices. The eight maximum-severity security flaws patched today affect multiple AOS-8 and AOS-10 software versions, and they can be exploited by remote threat actors without privileges through low-complexity attacks that don't require user interaction. HPE warned customers to patch these security issues as soon as possible and provided mitigation measures, including restricting access to AOS management interfaces. "Customers are strongly urged to patch their instances due to the complexity, breadth, and impact of these vulnerabilities," the company warned in a Thursday security advisory. "To minimize the likelihood of an attacker exploiting these vulnerabilities, HPE Networking recommends that the CLI and web-based management interfaces be restricted to a dedicated layer 2 segment/VLAN and/or controlled by firewall policies at layer 3 and above along with accounting controls for tracking and logging user activities and resource usage." The full list of maximum severity flaws fixed today can be found in the table embedded below: CVE-ID Vulnerability CVE-2026-79844 Authentication Bypass Leading to RCE in AOS-10 CVE-2026-79845 Authentication Bypass in the PAPI Protocol of AOS-10 CVE-2026-79846 Unauthenticated Command Injection in AOS-8 CVE-2026-79847 Unauthenticated Buffer Overflow leads to RCE in AOS-10 CVE-2026-79848 Unauthenticated SQL Injection leading to RCE in AOS-8 CVE-2026-79849 Unauthenticated SQL Injection leading to RCE in AOS-8 CVE-2026-79850 Authentication Bypass leading to RCE in AOS-8 CVE-2026-79851 Unauthenticated Buffer Overflow leading to RCE in AOS-10 The company added that it has not yet found publicly available proof-of-concept exploit code or evidence that these vulnerabilities are being exploited in the wild. "HPE Networking is not aware of any public discussion or exploit code that targets the listed vulnerabilities as of the release date of this advisory," it said. In June 2025, HPE patched eight critical StoreOnce vulnerabilities that allowed authentication bypass and remote code execution and, one month later, warned of hardcoded credentials in Aruba Instant On Access Points that can let attackers bypass device authentication. In January 2025, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) also flagged a maximum-severity HPE OneView vulnerability as exploited in attacks. More recently, HPE warned of critical flaws allowing admin password resets and remote code execution on unpatched AOS-CX devices. HPE employs more than 61,000 people worldwide and provides services and products to over 55,000 enterprise customers worldwide, including 90% of Fortune 500 companies. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: HPE patches critical ArubaOS-CX remote code execution flaw PHP shares mitigation for new RCE vulnerability with no patch GitLab warns of new max severity code execution vulnerability PHP ships emergency patches for critical PHP2Shell flaws F5 releases out-of-band patches for critical NGINX vulnerabilities
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: HPE patches eight max severity RCE and auth bypass AOS flaws
+  - Published: 2026-10-23T12:48:00+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/
+  - Summary: Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and code execution issues. [...]
 
 ### Cluster fb556ca51b — score 11
 
@@ -3709,7 +3667,7 @@ tcblogposts 4 min read March 15, 2023 Threat Intelligence: A CISO ROI Guide - Pr
 
 - Title: Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software
 - Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-10-24T08:45:56+00:00
+- Published: 2026-10-24T11:09:29+00:00
 - Link: https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html
 - Fetch status: ok
 - Member count: 2
@@ -3746,7 +3704,7 @@ Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely
 
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software
-  - Published: 2026-10-24T08:45:56+00:00
+  - Published: 2026-10-24T11:09:29+00:00
   - Link: https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html
   - Summary: A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially
 
@@ -3793,16 +3751,20 @@ submitted by /u/MrTuxracer [link] [comments]
 - Source: Unit 42 (threat_research_primary)
 - Published: 2026-10-22T17:00:25+00:00
 - Link: https://unit42.paloaltonetworks.com/current-landscape-oauth-attacks/
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng, supply_chain
+- affected_industries: financial_services, retail_ecommerce
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
+- threat_categories: supply_chain, phishing_social_eng
+- affected_industries: financial_services, retail_ecommerce
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
@@ -3810,6 +3772,12 @@ submitted by /u/MrTuxracer [link] [comments]
 
 ```
 Unit 42 explores modern OAuth threats and actionable steps organizations can take to protect their environments. The post The Current Landscape of OAuth Attacks appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center Insights General General The Current Landscape of OAuth Attacks 13 min read Related Products Cloud-Delivered Security Services Idira By: Beliz Kaleli Diva-Oriane Marty Oleksii Alex Starov Shawn He Shuang Published: October 22, 2026 Categories: General Insights Tags: AI Credential-based attacks MFA Share As enterprises continue to roll out multi-factor authentication (MFA), attackers have adapted. Rather than only stealing credentials, attackers have shifted to stealing Open Authorization (OAuth) tokens, the keys that govern what applications can do on your behalf. Adversaries are already accelerating these attacks by using dynamic evasion code, phishing-as-a-service (PhaaS) templates and LLM-generated brand impersonations. Because OAuth attacks occur at the authorization layer after user authentication, stolen access and refresh tokens bypass MFA, survive password resets and grant durable access. While OAuth misuse occurs at a lower volume than traditional phishing attacks, these attacks may carry severe consequences such as: Account takeover Persistent access to sensitive data that survives password resets and MFA re-enrollment Lateral movement across every service connected to the compromised identity Data exfiltration without triggering credential-based alerts A foothold in enterprise environments for broader supply chain or insider attacks Defending against these threats can be accomplished using several strategies: Disabling end-user app consent for vague or impersonating app names Enforcing admin-only approval workflows Monitoring authorization code clipboard events Continuously auditing registered redirect_uri values To understand why OAuth has become such a prime target for modern adversaries, it helps to examine the authentication challenges the protocol was originally designed to solve. Looking back at how applications handled identity before OAuth reveals how the threat landscape has evolved from simple password theft to complex token hijacking. The Past: Phishing for Passwords Websites and applications often tie together functionality from other sites. For example, some popular ecommerce and social media platforms allow users to log in through their email accounts. In 2006, before OAuth, combining functionality between applications involved sharing one application’s credentials, which are supposed to be secret, with another. This type of sharing is a significant security issue because it increases the consequences of a successful credential phishing attack. In credential phishing, attackers trick users into sharing their login credentials, allowing attackers to gain full access to their accounts. This could be access to an email account, business system, social media account or bank account. The attacker gains access to all of the information in that account and the authority to make changes, including altering the password and locking out the user. During the pre-OAuth era, applications or sites sharing credentials meant that attackers could pivot to different platforms or services through compromising a single account. To address these issues, the OAuth working group released the first draft of OAuth Core 1.0 in 2007. The Internet Engineering Task Force (IETF) released Request for Comments (RFC) 6749 for OAuth 2.0 in 2012 and is working on OAuth 2.1 as of 2026. The Present: Why OAuth Became the New Attack Surface The OAuth Framework OAuth allows users to grant third-party applications passwordless authorization to their data on another service. Figure 1 displays a sample sign-in screen presenting OAuth authentication options with three different Identity Providers (IdPs): Google, Apple and Microsoft. Figure 1. Example sign-in page presenting OAuth options. In a typical OAuth flow: The user authenticates with the identity provider The user approves the permissions (i.e., scopes) requested by the third-party application The identity provider issues an access token to the third-party applicati
 ```
 
 #### Corroborating sources (1)
@@ -3855,6 +3823,41 @@ An investigation into a threat actor bypassing AI safety controls to coordinate 
   - Link: https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/
   - Summary: An investigation into a threat actor bypassing AI safety controls to coordinate credential theft, VoIP fraud planning, and database exfiltration. The post “Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities appeared first on Unit 42 .
 
+### Cluster 66edb4d266 — score 10
+
+- Title: MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-10-22T08:45:00+00:00
+- Link: https://www.welivesecurity.com/en/eset-research/mythicratatoskr-yggdrasil-enabled-backdoor-deployed-uac0099-sandworm-collaboration/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: web_shell_backdoor
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: web_shell_backdoor
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+ESET researchers uncover MythicRatatoskr – a previously unknown Go-based backdoor hiding its C&C server inside the Yggdrasil mesh network – that paved the way for a destructive attack against a Ukrainian grain firm
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration
+  - Published: 2026-10-22T08:45:00+00:00
+  - Link: https://www.welivesecurity.com/en/eset-research/mythicratatoskr-yggdrasil-enabled-backdoor-deployed-uac0099-sandworm-collaboration/
+  - Summary: ESET researchers uncover MythicRatatoskr – a previously unknown Go-based backdoor hiding its C&C server inside the Yggdrasil mesh network – that paved the way for a destructive attack against a Ukrainian grain firm
+
 ### Cluster a28b47ffdb — score 10
 
 - Title: I had plans for that second
@@ -3888,38 +3891,42 @@ The Earth is speeding up, the leap second is being abolished, oh, and there's cr
   - Link: https://blog.talosintelligence.com/i-had-plans-for-that-second/
   - Summary: The Earth is speeding up, the leap second is being abolished, oh, and there's critical vulnerabilities in PHP.
 
-### Cluster 31229ea3e4 — score 10
+### Cluster 291b7cae3e — score 10
 
-- Title: (Reliable)? php2shell exploitability, (Fri, Oct 23rd)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-10-23T20:04:47+00:00
-- Link: https://isc.sans.edu/diary/rss/33452
+- Title: Infostealer riding the AI Train
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-10-23T13:00:09+00:00
+- Link: https://research.checkpoint.com/2026/infostealer-riding-the-ai-train/
 - Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: credential_theft
+- affected_industries: financial_services
 - content_type: news_report
-- confidence_tier: tier_1_government
+- confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
+- threat_categories: credential_theft
+- affected_industries: financial_services
 - content_type: news_report
-- confidence_tier: tier_1_government
+- confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Yesterday everyone was running around like crazy (me included :) because of the php2shell vulnerability.
+Key Points Introduction Infostealers commonly target browser passwords, session cookies, and cryptocurrency wallets. This malware combines those established capabilities with dedicated collection routines for AI applications and development tools. Its targets include Claude, ChatGPT Desktop, Codex, Cursor, Windsurf, and GitHub Copilot, alongside cloud credentials and sensitive files from local development environments. This expanded targeting reflects […] The post Infostealer riding the AI Train appeared first on Check Point Research .
 ```
 
 #### Corroborating sources (1)
 
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: (Reliable)? php2shell exploitability, (Fri, Oct 23rd)
-  - Published: 2026-10-23T20:04:47+00:00
-  - Link: https://isc.sans.edu/diary/rss/33452
-  - Summary: Yesterday everyone was running around like crazy (me included :) because of the php2shell vulnerability.
+- **Check Point Research** (threat_research_primary)
+  - Title: Infostealer riding the AI Train
+  - Published: 2026-10-23T13:00:09+00:00
+  - Link: https://research.checkpoint.com/2026/infostealer-riding-the-ai-train/
+  - Summary: Key Points Introduction Infostealers commonly target browser passwords, session cookies, and cryptocurrency wallets. This malware combines those established capabilities with dedicated collection routines for AI applications and development tools. Its targets include Claude, ChatGPT Desktop, Codex, Cursor, Windsurf, and GitHub Copilot, alongside cloud credentials and sensitive files from local development environments. This expanded targeting reflects […] The post Infostealer riding the AI Train appeared first on Check Point Research .
 
 ### Cluster d5a5de35e0 — score 10
 
@@ -3958,40 +3965,71 @@ For the latest discoveries in cyber research for the week of 19th October, pleas
   - Link: https://research.checkpoint.com/2026/19th-october-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 19th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES CenterPoint Energy, a US utility company serving Texas and several other states, has disclosed a data breach affecting more than 1 million Texas residents. Unauthorized access to an external system exposed names, […] The post 19th October – Threat Intelligence Report appeared first on Check Point Research .
 
-### Cluster 66edb4d266 — score 10
+### Cluster 31229ea3e4 — score 10
 
-- Title: MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-10-22T08:45:00+00:00
-- Link: https://www.welivesecurity.com/en/eset-research/mythicratatoskr-yggdrasil-enabled-backdoor-deployed-uac0099-sandworm-collaboration/
+- Title: (Reliable)? php2shell exploitability, (Fri, Oct 23rd)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-10-23T20:04:47+00:00
+- Link: https://isc.sans.edu/diary/rss/33452
 - Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+Yesterday everyone was running around like crazy (me included :) because of the php2shell vulnerability.
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: (Reliable)? php2shell exploitability, (Fri, Oct 23rd)
+  - Published: 2026-10-23T20:04:47+00:00
+  - Link: https://isc.sans.edu/diary/rss/33452
+  - Summary: Yesterday everyone was running around like crazy (me included :) because of the php2shell vulnerability.
+
+### Cluster ffb7745d72 — score 10
+
+- Title: Behind Japan’s Warnings of a Cyber Crisis
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-10-22T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/japan-cyber-crisis-warnings
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: web_shell_backdoor
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-ESET researchers uncover MythicRatatoskr – a previously unknown Go-based backdoor hiding its C&C server inside the Yggdrasil mesh network – that paved the way for a destructive attack against a Ukrainian grain firm
+Explore Japan's 2026 cyber crisis, rising breach trends, AI tooling, legacy systems, and key mitigation strategies to protect organizations.
 ```
 
 #### Corroborating sources (1)
 
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration
-  - Published: 2026-10-22T08:45:00+00:00
-  - Link: https://www.welivesecurity.com/en/eset-research/mythicratatoskr-yggdrasil-enabled-backdoor-deployed-uac0099-sandworm-collaboration/
-  - Summary: ESET researchers uncover MythicRatatoskr – a previously unknown Go-based backdoor hiding its C&C server inside the Yggdrasil mesh network – that paved the way for a destructive attack against a Ukrainian grain firm
+- **Recorded Future** (threat_research_primary)
+  - Title: Behind Japan’s Warnings of a Cyber Crisis
+  - Published: 2026-10-22T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/japan-cyber-crisis-warnings
+  - Summary: Explore Japan's 2026 cyber crisis, rising breach trends, AI tooling, legacy systems, and key mitigation strategies to protect organizations.
 
 ### Cluster 9ccfc452c8 — score 10
 
@@ -4096,72 +4134,6 @@ Horizon3 has surpassed $100 million in annual recurring revenue, with ARR growin
   - Link: https://horizon3.ai/news/press-release/horizon3-surpasses-100-million-arr/
   - Summary: Horizon3 has surpassed $100 million in annual recurring revenue, with ARR growing more than 120% year over year. The milestone reflects increasing adoption of the NodeZero platform, a channel-first growth strategy, and demand for continuous, production-safe autonomous penetration testing. Horizon3 also outlined its next phase of investment in sovereign cyber AI regions, critical infrastructure centers of excellence, and attack-defend AI learning loops.
 
-### Cluster ffb7745d72 — score 10
-
-- Title: Behind Japan’s Warnings of a Cyber Crisis
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-10-22T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/japan-cyber-crisis-warnings
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Explore Japan's 2026 cyber crisis, rising breach trends, AI tooling, legacy systems, and key mitigation strategies to protect organizations.
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Behind Japan’s Warnings of a Cyber Crisis
-  - Published: 2026-10-22T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/japan-cyber-crisis-warnings
-  - Summary: Explore Japan's 2026 cyber crisis, rising breach trends, AI tooling, legacy systems, and key mitigation strategies to protect organizations.
-
-### Cluster 4e3381e10d — score 10
-
-- Title: How bug bounty sharpens one researcher’s security skills
-- Source: GitHub Security Lab (offensive_vulnerability_research)
-- Published: 2026-10-22T17:21:30+00:00
-- Link: https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog .
-```
-
-#### Corroborating sources (1)
-
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - Title: How bug bounty sharpens one researcher’s security skills
-  - Published: 2026-10-22T17:21:30+00:00
-  - Link: https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/
-  - Summary: As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog .
-
 ### Cluster e8059a89a7 — score 10
 
 - Title: Q3 2026 Threat Update: Attackers Are Exploiting Vulnerabilities Within 3 Days
@@ -4196,6 +4168,39 @@ Three days is the average time between a high-severity vulnerability becoming pu
   - Published: 2026-10-21T13:00:00+00:00
   - Link: https://www.rapid7.com/blog/post/tr-q3-2026-threat-update-attackers-exploiting-vulnerabilities-within-3-days
   - Summary: Three days is the average time between a high-severity vulnerability becoming public and its exploitation, according to the latest Quarterly Threat Landscape Report from Rapid7. And 71% of the exploitation tracked in Q3 occurred within the first seven days. For security teams already managing growing vulnerability backlogs, this creates a difficult question: How do you reduce exposure when attackers can exploit vulnerabilities before your next patching window? Rapid7's Q3 2026 research brings together vulnerability intelligence, ransomware activity, APT tracking, and underground forum intelligence to show where attacker activity is concentrated. The exploitation window has narrowed, big time Rapid7 tracked 43 newly exploited high- and critical-severity vulnerabilities this quarter, down 7% from Q2 but still 19% higher than the same period last year. The number of newly exploited vulnerabilities isn't growing at the same rate as disclosures. The more pressing concern is how quickly atta
+
+### Cluster 4e3381e10d — score 10
+
+- Title: How bug bounty sharpens one researcher’s security skills
+- Source: GitHub Security Lab (offensive_vulnerability_research)
+- Published: 2026-10-22T17:21:30+00:00
+- Link: https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog .
+```
+
+#### Corroborating sources (1)
+
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - Title: How bug bounty sharpens one researcher’s security skills
+  - Published: 2026-10-22T17:21:30+00:00
+  - Link: https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/
+  - Summary: As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog .
 
 ### Cluster b04cf6724c — score 10
 
@@ -4306,39 +4311,6 @@ An in-depth analysis of Scattered Spider attacks, detailing the group’s infras
   - Link: https://www.team-cymru.com/post/scattered-spider-attacks-infrastructure-profile
   - Summary: An in-depth analysis of Scattered Spider attacks, detailing the group’s infrastructure usage and TTPs to help defenders detect and disrupt activity earlier.
 
-### Cluster 597b974a57 — score 10
-
-- Title: Compromised TLS Certificates
-- Source: Schneier on Security (practitioner_analysis)
-- Published: 2026-10-23T11:04:22+00:00
-- Link: https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys : The compromised eMudhra keys were defective at a level that’s challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve cryptography private key contains roughly 384 bits of entropy, a size allowing almost 2 384 , or a number with 116 digits, different possibilities. The private key sizes of the compromised keys ranged from 3 to 8 bits. Astonishingly, the private keys were 4, 56, 66, 115, 155, 156, 230, 237...
-```
-
-#### Corroborating sources (1)
-
-- **Schneier on Security** (practitioner_analysis)
-  - Title: Compromised TLS Certificates
-  - Published: 2026-10-23T11:04:22+00:00
-  - Link: https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html
-  - Summary: The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys : The compromised eMudhra keys were defective at a level that’s challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve cryptography private key contains roughly 384 bits of entropy, a size allowing almost 2 384 , or a number with 116 digits, different possibilities. The private key sizes of the compromised keys ranged from 3 to 8 bits. Astonishingly, the private keys were 4, 56, 66, 115, 155, 156, 230, 237...
-
 ### Cluster 30bf137831 — score 10
 
 - Title: Possible new Cellebrite iPhone Radio Zero-Day
@@ -4376,74 +4348,6 @@ Justin.sh is reporting on a confidential Cellebrite document that has been leake
   - Link: https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html
   - Summary: Justin.sh is reporting on a confidential Cellebrite document that has been leaked to him: Cellebrite calls it Advanced Unlocks (AU from here on), not to be confused with the “advanced unlocking services” they’ve marketed for years. A press release from earlier this year confirms AU is a new product for 2026. […] According to Cellebrite, AU: is a “next-generation AFU vector that is more resilient to Apple’s OS changes” works with Stolen Device Protection enabled, which tightens USB restrictions is enabled by a dedicated appliance with a stated range (!) of about 8 meters...
 
-### Cluster ab65df23ba — score 10
-
-- Title: Hacker leaks 281 GB of data from Germany’s far-right AfD party
-- Source: Graham Cluley (practitioner_analysis)
-- Published: 2026-10-23T12:29:16+00:00
-- Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/hacker-leaks-281-gb-data-germany-afd
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-The AfD has confirmed that hackers breached its hosting provider. A leak site now claims to offer 421,179 of the party’s internal emails, and shows AI-written summaries rather than the emails themselves. Read more in my article on the Hot for Security blog.
-```
-
-#### Corroborating sources (1)
-
-- **Graham Cluley** (practitioner_analysis)
-  - Title: Hacker leaks 281 GB of data from Germany’s far-right AfD party
-  - Published: 2026-10-23T12:29:16+00:00
-  - Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/hacker-leaks-281-gb-data-germany-afd
-  - Summary: The AfD has confirmed that hackers breached its hosting provider. A leak site now claims to offer 421,179 of the party’s internal emails, and shows AI-written summaries rather than the emails themselves. Read more in my article on the Hot for Security blog.
-
-### Cluster 9f4e7093bf — score 9
-
-- Title: Quest Diagnostics warns of potential data theft after attack on lab service system
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-10-23T12:52:00+00:00
-- Link: https://therecord.media/quest-diagnostics-network-intrusion
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: healthcare
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- affected_industries: healthcare
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Nationwide lab test company Quest Diagnostics said one of its key systems may have experienced a breach of patient data.
-```
-
-#### Corroborating sources (1)
-
-- **The Record** (cyber_news_breach_reporting)
-  - Title: Quest Diagnostics warns of potential data theft after attack on lab service system
-  - Published: 2026-10-23T12:52:00+00:00
-  - Link: https://therecord.media/quest-diagnostics-network-intrusion
-  - Summary: Nationwide lab test company Quest Diagnostics said one of its key systems may have experienced a breach of patient data.
-
 ### Cluster cc68ea44a4 — score 9
 
 - Title: Quest Diagnostics confirms data breach exposed patient records
@@ -4478,3 +4382,104 @@ American clinical laboratory company Quest Diagnostics disclosed that patient re
   - Published: 2026-10-23T16:40:07+00:00
   - Link: https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/
   - Summary: American clinical laboratory company Quest Diagnostics disclosed that patient records have been exposed after a threat actor gained unauthorized access to its Quanum LSM system. [...]
+
+### Cluster 597b974a57 — score 9
+
+- Title: Compromised TLS Certificates
+- Source: Schneier on Security (practitioner_analysis)
+- Published: 2026-10-23T11:04:22+00:00
+- Link: https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys : The compromised eMudhra keys were defective at a level that’s challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve cryptography private key contains roughly 384 bits of entropy, a size allowing almost 2 384 , or a number with 116 digits, different possibilities. The private key sizes of the compromised keys ranged from 3 to 8 bits. Astonishingly, the private keys were 4, 56, 66, 115, 155, 156, 230, 237...
+```
+
+#### Corroborating sources (1)
+
+- **Schneier on Security** (practitioner_analysis)
+  - Title: Compromised TLS Certificates
+  - Published: 2026-10-23T11:04:22+00:00
+  - Link: https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html
+  - Summary: The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys : The compromised eMudhra keys were defective at a level that’s challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve cryptography private key contains roughly 384 bits of entropy, a size allowing almost 2 384 , or a number with 116 digits, different possibilities. The private key sizes of the compromised keys ranged from 3 to 8 bits. Astonishingly, the private keys were 4, 56, 66, 115, 155, 156, 230, 237...
+
+### Cluster ab65df23ba — score 9
+
+- Title: Hacker leaks 281 GB of data from Germany’s far-right AfD party
+- Source: Graham Cluley (practitioner_analysis)
+- Published: 2026-10-23T12:29:16+00:00
+- Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/hacker-leaks-281-gb-data-germany-afd
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+The AfD has confirmed that hackers breached its hosting provider. A leak site now claims to offer 421,179 of the party’s internal emails, and shows AI-written summaries rather than the emails themselves. Read more in my article on the Hot for Security blog.
+```
+
+#### Corroborating sources (1)
+
+- **Graham Cluley** (practitioner_analysis)
+  - Title: Hacker leaks 281 GB of data from Germany’s far-right AfD party
+  - Published: 2026-10-23T12:29:16+00:00
+  - Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/hacker-leaks-281-gb-data-germany-afd
+  - Summary: The AfD has confirmed that hackers breached its hosting provider. A leak site now claims to offer 421,179 of the party’s internal emails, and shows AI-written summaries rather than the emails themselves. Read more in my article on the Hot for Security blog.
+
+### Cluster 6a3134fc7c — score 9
+
+- Title: Full source release: autonomous root chain for TCL 50C721 Android TV via CVE-2022-22706 (Mali GPU page-cache write)
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-10-24T10:57:59+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1xe5oy7/full_source_release_autonomous_root_chain_for_tcl/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2022-22706
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2022-22706
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- cve_ids: CVE-2022-22706
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+submitted by /u/amnioticboy [link] [comments]
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: Full source release: autonomous root chain for TCL 50C721 Android TV via CVE-2022-22706 (Mali GPU page-cache write)
+  - Published: 2026-10-24T10:57:59+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1xe5oy7/full_source_release_autonomous_root_chain_for_tcl/
+  - Summary: submitted by /u/amnioticboy [link] [comments]

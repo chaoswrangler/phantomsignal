@@ -6,9 +6,40 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 24 Oct 2026 10:41:58 +0000</lastBuildDate>
+<lastBuildDate>Sat, 24 Oct 2026 14:24:00 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software</title>
+<link>https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html</link>
+<description><![CDATA[A memory-corruption flaw in Google&apos;s Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program&apos;s memory, potentially<br/><br/><em>Tags: OpenAI/ChatGPT · CVE-2026-111497</em>]]></description>
+<pubDate>Sat, 24 Oct 2026 11:09:29 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>OpenAI/ChatGPT</category>
+<category>CVE-2026-111497</category>
+</item>
+<item>
+<title>Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline</title>
+<link>https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html</link>
+<description><![CDATA[LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. &quot;On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of<br/><br/><em>Tags: GitHub</em>]]></description>
+<pubDate>Sat, 24 Oct 2026 11:03:33 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>GitHub</category>
+</item>
+<item>
+<title>Full source release: autonomous root chain for TCL 50C721 Android TV via CVE-2022-22706 (Mali GPU page-cache write)</title>
+<link>https://www.reddit.com/r/netsec/comments/1xe5oy7/full_source_release_autonomous_root_chain_for_tcl/</link>
+<description><![CDATA[submitted by /u/amnioticboy [link] [comments]<br/><br/><em>Tags: CVE-2022-22706</em>]]></description>
+<pubDate>Sat, 24 Oct 2026 10:57:59 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1xe5oy7/full_source_release_autonomous_root_chain_for_tcl/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+<category>CVE-2022-22706</category>
+</item>
 <item>
 <title>Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet</title>
 <link>https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html</link>
@@ -17,17 +48,6 @@
 <guid isPermaLink="true">https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software</title>
-<link>https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html</link>
-<description><![CDATA[A memory-corruption flaw in Google&apos;s Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program&apos;s memory, potentially<br/><br/><em>Tags: OpenAI/ChatGPT · CVE-2026-111497</em>]]></description>
-<pubDate>Sat, 24 Oct 2026 08:45:56 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>OpenAI/ChatGPT</category>
-<category>CVE-2026-111497</category>
 </item>
 <item>
 <title>We used RCE on 3 million PCs to prevent a botnet</title>
@@ -321,15 +341,12 @@
 <item>
 <title>Infostealer riding the AI Train</title>
 <link>https://research.checkpoint.com/2026/infostealer-riding-the-ai-train/</link>
-<description><![CDATA[Key Points Introduction Infostealers commonly target browser passwords, session cookies, and cryptocurrency wallets. This malware combines those established capabilities with dedicated collection routines for AI applications and development tools. Its targets include Claude, ChatGPT Desktop, Codex, Cursor, Windsurf, and GitHub Copilot, alongside cloud credentials and sensitive files from local development environments. This expanded targeting reflects […] The post Infostealer riding the AI Train appeared first on Check Point Research .<br/><br/><em>Tags: Android · OpenAI/ChatGPT · Google Cloud · ransomware_extortion · credential_theft · active_exploitation</em>]]></description>
+<description><![CDATA[Key Points Introduction Infostealers commonly target browser passwords, session cookies, and cryptocurrency wallets. This malware combines those established capabilities with dedicated collection routines for AI applications and development tools. Its targets include Claude, ChatGPT Desktop, Codex, Cursor, Windsurf, and GitHub Copilot, alongside cloud credentials and sensitive files from local development environments. This expanded targeting reflects […] The post Infostealer riding the AI Train appeared first on Check Point Research .<br/><br/><em>Tags: credential_theft</em>]]></description>
 <pubDate>Fri, 23 Oct 2026 13:00:09 +0000</pubDate>
 <guid isPermaLink="true">https://research.checkpoint.com/2026/infostealer-riding-the-ai-train/</guid>
 <source url="https://research.checkpoint.com/feed/">Check Point Research</source>
 <category>threat_research_primary</category>
-<category>Android</category>
-<category>OpenAI/ChatGPT</category>
-<category>Google Cloud</category>
-<category>ransomware_extortion</category>
+<category>credential_theft</category>
 </item>
 <item>
 <title>Quest Diagnostics warns of potential data theft after attack on lab service system</title>
@@ -809,11 +826,13 @@
 <item>
 <title>The Current Landscape of OAuth Attacks</title>
 <link>https://unit42.paloaltonetworks.com/current-landscape-oauth-attacks/</link>
-<description><![CDATA[Unit 42 explores modern OAuth threats and actionable steps organizations can take to protect their environments. The post The Current Landscape of OAuth Attacks appeared first on Unit 42 .]]></description>
+<description><![CDATA[Unit 42 explores modern OAuth threats and actionable steps organizations can take to protect their environments. The post The Current Landscape of OAuth Attacks appeared first on Unit 42 .<br/><br/><em>Tags: supply_chain · phishing_social_eng</em>]]></description>
 <pubDate>Thu, 22 Oct 2026 17:00:25 +0000</pubDate>
 <guid isPermaLink="true">https://unit42.paloaltonetworks.com/current-landscape-oauth-attacks/</guid>
 <source url="https://unit42.paloaltonetworks.com/feed/">Unit 42</source>
 <category>threat_research_primary</category>
+<category>supply_chain</category>
+<category>phishing_social_eng</category>
 </item>
 <item>
 <title>CVE-2026-94300: Concurrent GSS-TSIG messages corrupt memory</title>
@@ -3100,6 +3119,24 @@
 <category>reddit_practitioner_osint</category>
 </item>
 <item>
+<title>Meta shakes up the frontiers, open and closed</title>
+<link>https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open</link>
+<description><![CDATA[US open weights are back!]]></description>
+<pubDate>Sat, 17 Oct 2026 14:06:54 +0000</pubDate>
+<guid isPermaLink="true">https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open</guid>
+<source url="https://www.interconnects.ai/feed">Interconnects</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>web-edit 0.1a2</title>
+<link>https://simonwillison.net/2026/Oct/17/web-edit/</link>
+<description><![CDATA[Release: web-edit 0.1a2 web-edit ( previously ) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale. I added a &quot;copy to clipboard&quot; option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here&apos;s DeepSeek 4.1 Flash 1017 ) and I wanted an easy way to copy the resulting logs into a Gist. Tags: projects , pelican-riding-a-bicycle , deepseek]]></description>
+<pubDate>Sat, 17 Oct 2026 13:16:49 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Oct/17/web-edit/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks</title>
 <link>https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access</link>
 <description><![CDATA[ConnectWise (SkyKick) vendor credentials are being abused to access Microsoft 365 tenants. Disable the apps now and check your logs here.<br/><br/><em>Tags: Microsoft 365</em>]]></description>
@@ -3355,16 +3392,6 @@
 <source url="https://www.schneier.com/feed/atom/">Schneier on Security</source>
 <category>practitioner_analysis</category>
 <category>web_shell_backdoor</category>
-</item>
-<item>
-<title>PwnEscape: Guest-to-Host KVM Escape (CVE-2026-99999)</title>
-<link>https://www.reddit.com/r/netsec/comments/1x7cvh3/pwnescape_guesttohost_kvm_escape_cve202699999/</link>
-<description><![CDATA[submitted by /u/si9int [link] [comments]<br/><br/><em>Tags: CVE-2026-99999</em>]]></description>
-<pubDate>Fri, 16 Oct 2026 10:42:41 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1x7cvh3/pwnescape_guesttohost_kvm_escape_cve202699999/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>CVE-2026-99999</category>
 </item>
 <item>
 <title>Krybit ransomware: what you need to know</title>
@@ -4767,15 +4794,6 @@
 <category>cyber_news_breach_reporting</category>
 <category>supply_chain</category>
 <category>data_breach</category>
-</item>
-<item>
-<title>datasette-ports 0.4</title>
-<link>https://simonwillison.net/2026/Oct/12/datasette-ports/</link>
-<description><![CDATA[Release: datasette-ports 0.4 My plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as well. Knowing the PID makes it easier to attach the new Python 3.15 profiler . Tags: datasette]]></description>
-<pubDate>Mon, 12 Oct 2026 04:57:07 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Oct/12/datasette-ports/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Risky Bulletin: ShinyHunters suspects arrested in US and Jordan</title>
@@ -19675,7 +19693,7 @@
 <title>Why Organizations Secure AI Agents with Falcon Guardian</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 24 Oct 2026 10:41:58 +0000</pubDate>
+<pubDate>Sat, 24 Oct 2026 14:24:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19684,7 +19702,7 @@
 <title>Obstacles to Weaponizing PHP2Shell Likely Constrain Immediate Widespread Exploitation</title>
 <link>https://www.crowdstrike.com/en-us/blog/obstacles-to-weaponizing-php2shell-likely-constrain-exploitation/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 24 Oct 2026 10:41:58 +0000</pubDate>
+<pubDate>Sat, 24 Oct 2026 14:24:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/obstacles-to-weaponizing-php2shell-likely-constrain-exploitation/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19693,7 +19711,7 @@
 <title>CrowdStrike Protects Customers from Threats Delivered via PHP2Shell</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-protects-customers-from-php-rce-zero-days/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 24 Oct 2026 10:41:58 +0000</pubDate>
+<pubDate>Sat, 24 Oct 2026 14:24:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-protects-customers-from-php-rce-zero-days/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19702,7 +19720,7 @@
 <title>CrowdStrike Uncovers New Agentic AI Campaigns</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-agentic-ai-campaigns/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 24 Oct 2026 10:41:58 +0000</pubDate>
+<pubDate>Sat, 24 Oct 2026 14:24:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-agentic-ai-campaigns/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19711,7 +19729,7 @@
 <title>CrowdStrike Achieves NCSC CIR Enhanced Level Assurance</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-achieves-uk-ncsc-cir-enhanced-level-assurance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 24 Oct 2026 10:41:58 +0000</pubDate>
+<pubDate>Sat, 24 Oct 2026 14:24:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-achieves-uk-ncsc-cir-enhanced-level-assurance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19720,7 +19738,7 @@
 <title>U.S. Government Disrupts FAMOUS CHOLLIMA Operation with CrowdStrike Assistance</title>
 <link>https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 24 Oct 2026 10:41:58 +0000</pubDate>
+<pubDate>Sat, 24 Oct 2026 14:24:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19729,7 +19747,7 @@
 <title>October 2026 Patch Tuesday: 1,413 CVEs Include Three Zero-Days and 75 Critical Vulnerabilities</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-october-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 24 Oct 2026 10:41:58 +0000</pubDate>
+<pubDate>Sat, 24 Oct 2026 14:24:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-october-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19738,7 +19756,7 @@
 <title>CrowdStrike and Anthropic Give Critical Infrastructure Defenders the AI Advantage</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 24 Oct 2026 10:41:58 +0000</pubDate>
+<pubDate>Sat, 24 Oct 2026 14:24:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19747,7 +19765,7 @@
 <title>Solving the Continuous Authorization Conundrum</title>
 <link>https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 24 Oct 2026 10:41:58 +0000</pubDate>
+<pubDate>Sat, 24 Oct 2026 14:24:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19756,7 +19774,7 @@
 <title>Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance</title>
 <link>https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 24 Oct 2026 10:41:58 +0000</pubDate>
+<pubDate>Sat, 24 Oct 2026 14:24:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
