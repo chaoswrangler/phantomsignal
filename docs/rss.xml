@@ -4,11 +4,39 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 25 Oct 2026 18:50:36 +0000</lastBuildDate>
+<lastBuildDate>Sun, 25 Oct 2026 21:35:53 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>YARA-X 1.22.0 Release, (Sun, Oct 25th)</title>
+<link>https://isc.sans.edu/diary/rss/33454</link>
+<description><![CDATA[YARA-X&amp;#;x26;#;39;s 1.22.0 release brings 11 improvements and 9 bugfixes.]]></description>
+<pubDate>Sun, 25 Oct 2026 19:57:53 +0000</pubDate>
+<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33454</guid>
+<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
+<category>government_authoritative</category>
+</item>
+<item>
+<title>Sponsored: Should your threat hunt become a detection?</title>
+<link>https://risky.biz/RBNEWSSI148a/</link>
+<description><![CDATA[In this Risky Business sponsored interview James Wilson chats to Nebulock’s Head of Detection Strategy Alex Hurtado about the company’s threat hunting evaluation framework, GATES. The pair talk through the five steps of Nebulock’s new acronym, and how they help remove gut feelings and guesswork when asking the question: “Should this threat hunt find be promoted to a detection rule”?]]></description>
+<pubDate>Sun, 25 Oct 2026 19:14:25 +0000</pubDate>
+<guid isPermaLink="true">https://risky.biz/RBNEWSSI148a/</guid>
+<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
+<category>practitioner_analysis</category>
+</item>
+<item>
+<title>Gheist: Attempted Scaled Abuse of Stolen GitHub Tokens Stumbles</title>
+<link>https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles</link>
+<description><![CDATA[An automated campaign is planting secret-dumping workflows in every repository that stolen GitHub tokens can reach. It uses no C2 server, is actively evolving, and has been significantly disrupted by recent GitHub security improvements.<br/><br/><em>Tags: GitHub</em>]]></description>
+<pubDate>Sun, 25 Oct 2026 17:55:33 +0000</pubDate>
+<guid isPermaLink="true">https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles</guid>
+<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
+<category>cloud_identity_infrastructure</category>
+<category>GitHub</category>
+</item>
 <item>
 <title>Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers</title>
 <link>https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html</link>
@@ -384,15 +412,12 @@
 <item>
 <title>Infostealer riding the AI Train</title>
 <link>https://research.checkpoint.com/2026/infostealer-riding-the-ai-train/</link>
-<description><![CDATA[Key Points Introduction Infostealers commonly target browser passwords, session cookies, and cryptocurrency wallets. This malware combines those established capabilities with dedicated collection routines for AI applications and development tools. Its targets include Claude, ChatGPT Desktop, Codex, Cursor, Windsurf, and GitHub Copilot, alongside cloud credentials and sensitive files from local development environments. This expanded targeting reflects […] The post Infostealer riding the AI Train appeared first on Check Point Research .<br/><br/><em>Tags: Android · OpenAI/ChatGPT · Google Cloud · ransomware_extortion · credential_theft · active_exploitation</em>]]></description>
+<description><![CDATA[Key Points Introduction Infostealers commonly target browser passwords, session cookies, and cryptocurrency wallets. This malware combines those established capabilities with dedicated collection routines for AI applications and development tools. Its targets include Claude, ChatGPT Desktop, Codex, Cursor, Windsurf, and GitHub Copilot, alongside cloud credentials and sensitive files from local development environments. This expanded targeting reflects […] The post Infostealer riding the AI Train appeared first on Check Point Research .<br/><br/><em>Tags: credential_theft</em>]]></description>
 <pubDate>Fri, 23 Oct 2026 13:00:09 +0000</pubDate>
 <guid isPermaLink="true">https://research.checkpoint.com/2026/infostealer-riding-the-ai-train/</guid>
 <source url="https://research.checkpoint.com/feed/">Check Point Research</source>
 <category>threat_research_primary</category>
-<category>Android</category>
-<category>OpenAI/ChatGPT</category>
-<category>Google Cloud</category>
-<category>ransomware_extortion</category>
+<category>credential_theft</category>
 </item>
 <item>
 <title>Quest Diagnostics warns of potential data theft after attack on lab service system</title>
@@ -696,6 +721,16 @@
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Expanding Claude availability and deployment choice on Google Cloud</title>
+<link>https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud/</link>
+<description><![CDATA[Every organization has unique requirements for building and scaling generative AI. At Google Cloud, we are committed to giving developers model choice and architectural flexibility to run workloads however they need. Today, we’re announcing the general availability of an Anthropic-managed deployment option for Claude Models on Google Cloud. This gives teams more choice in how they run their models, helping them consolidate AI workloads on Google Cloud alongside our existingGoogle-managed deployment option. Both options deliver the same frontier models on day zero, the same pricing, and the same Google Cloud billing. The difference comes down to who acts as your data processor and whether you need access to the new Claude platform features when they launch: [NEW] Claude Models on Google Cloud (Anthropic managed) Delivers day-zero access to Claude models and Claude Platform features such as Claude Managed Agents (beta), skills, and code execution. Anthropic operates the stack as the data<br/><br/><em>Tags: Google Cloud</em>]]></description>
+<pubDate>Thu, 22 Oct 2026 21:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+<category>Google Cloud</category>
 </item>
 <item>
 <title>Toronto crime tips org freezes operations after details of data breach come to light</title>
@@ -1463,6 +1498,19 @@
 <category>credential_theft</category>
 </item>
 <item>
+<title>Responding to core PHP vulnerabilities CVE-2026-109618 and CVE-2026-109619</title>
+<link>https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/</link>
+<description><![CDATA[Editor&apos;s note : This blog was updated on Oct. 23, 2026 at 3:20 p.m. PDT, with additional guidance from Mandiant Consulting on monitoring, patching, and remediation. We have previously updated the blog on Oct. 22, 2026, with revised guidance for Security Command Center and Cloud Armor, and on Oct. 21, 2026 . PHP and Wiz Research disclosed today two critical vulnerabilities in the core PHP language runtime that can expose applications to unauthenticated remote code execution and memory disclosure. Wiz used a mix of models to identify and help remediate these vulnerabilities. Notably, Gemini 4 Argon made an invaluable contribution to finding the vulnerability, exploit development, attack detection, and validation of the patch. While Google Cloud itself is not vulnerable, users of PHP running on Google Cloud may be vulnerable . At Google Cloud, we understand the severity of these vulnerabilities, and are sharing guidance to help our customers take immediate action to secure their applicati<br/><br/><em>Tags: Google Cloud · Google/Gemini · CVE-2026-109618 · CVE-2026-109619</em>]]></description>
+<pubDate>Wed, 21 Oct 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+<category>Google Cloud</category>
+<category>Google/Gemini</category>
+<category>CVE-2026-109618</category>
+<category>CVE-2026-109619</category>
+</item>
+<item>
 <title>PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge</title>
 <link>https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html</link>
 <description><![CDATA[PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP team says only updating fully protects a server. The flaws, together called PHP2Shell, sit in the PHP runtime, not in any application, so a site is exposed even when its own]]></description>
@@ -1595,6 +1643,16 @@
 <category>CVE-2026-109619</category>
 </item>
 <item>
+<title>Google Cloud expands model choice and flexibility, bringing OpenAI models to customers</title>
+<link>https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers/</link>
+<description><![CDATA[Google Cloud has always been defined by choice, enterprise-grade governance, and market-leading price-performance. Key to the foundation of openness and choice is giving customers flexibility to run agentic workloads across their choice of models and infrastructure to achieve the right balance of cost, capability, and performance. Today, we are expanding that foundation by launching OpenAI models in Google Cloud’s model garden. Google Cloud is now the only hyperscale cloud provider offering access to all three leading closed source LLMs, alongside more than 200 first-party, third-party, and open models on a unified enterprise AI platform. The right model for every workload Modern enterprise AI requires matching each workload to the right model rather than relying on a single model for every task. By adding OpenAI’s newest models to model garden, we are giving teams options across the full spectrum of enterprise workloads. For OpenAI models: GPT-6 Astra : Designed for demanding work acr<br/><br/><em>Tags: Google Cloud</em>]]></description>
+<pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+<category>Google Cloud</category>
+</item>
+<item>
 <title>Ransomware Attacks Rise as Rival Gangs Vie For Market Supremacy</title>
 <link>https://www.infosecurity-magazine.com/news/rival-gangs-vie-for-market/</link>
 <description><![CDATA[Cybercriminal groups The Gentlemen and Qilin dominate ransomware attacks - and both are evolving their tactics in an attempt to outdo one another<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -1603,6 +1661,26 @@
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
+</item>
+<item>
+<title>Hardware-backed security at global scale: Confidential G4 with NVIDIA Blackwell is GA</title>
+<link>https://cloud.google.com/blog/topics/ai-infrastructure/confidential-g4-gpus-are-ga/</link>
+<description><![CDATA[Bringing autonomous agents into production means processing sensitive data and valuable intellectual property in real time. Protecting proprietary model weights, user prompts, and generated outputs requires security that safeguards data while it is actively being computed. As part of our efforts to enable your enterprise securely, today we are announcing that Confidential Computing on Google Cloud’s G4 instances enabled by NVIDIA RTX PRO 6000 Blackwell Server edition GPUs is now generally available. This release integrates NVIDIA Confidential Computing directly into Google Cloud&apos;s AI Hypercomputer , delivering the dynamic performance needed to scale without compromising privacy. When we announced Confidential G4 in preview earlier this year, we talked about its global footprint and scale. Today, these instances are generally available across 36 zones , using multiple consumption models , on Compute Engine VMs and GKE nodes . In addition, support for Confidential Space enabling secure m<br/><br/><em>Tags: Google Cloud</em>]]></description>
+<pubDate>Wed, 21 Oct 2026 11:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/ai-infrastructure/confidential-g4-gpus-are-ga/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+<category>Google Cloud</category>
+</item>
+<item>
+<title>Google Cloud and NVIDIA expand co-engineering collaboration to scale infrastructure for the agentic era</title>
+<link>https://cloud.google.com/blog/topics/ai-infrastructure/google-cloud-infrastructure-at-nvidia-gtc-berlin-2026/</link>
+<description><![CDATA[As enterprises transition to continuous, multi-step agentic workflows, traditional infrastructure is hitting its limits. But raw performance is only part of the equation. To truly scale agentic AI, enterprises also need the flexibility to run the right models for the right tasks, alongside the data and operational sovereignty required to maintain verifiable control over both their sensitive intellectual property and the underlying infrastructure. Today at NVIDIA GTC Berlin 2026, we are announcing new advancements across the stack to deliver this foundation: minimizing bottlenecks, expanding ecosystem choice, and introducing new sovereign AI and Confidential Computing capabilities to protect your most sensitive workloads with hardware-enforced security. Architecting for the agentic era To help you train, serve, and operate models at scale, Google Cloud’s AI Hypercomputer is built on compute, storage, networking, and software that we co-designed as a single system. Today, in collaboratio<br/><br/><em>Tags: Google Cloud</em>]]></description>
+<pubDate>Wed, 21 Oct 2026 11:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/ai-infrastructure/google-cloud-infrastructure-at-nvidia-gtc-berlin-2026/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+<category>Google Cloud</category>
 </item>
 <item>
 <title>SafePay Has Compromised 600 Critical Infrastructure Victims Worldwide, CISA Warns</title>
@@ -1773,12 +1851,11 @@
 <item>
 <title>[webapps] Keycloak 26.7.2 - Unauthenticated Account Takeover</title>
 <link>https://www.exploit-db.com/exploits/52699</link>
-<description><![CDATA[Keycloak 26.7.2 - Unauthenticated Account Takeover<br/><br/><em>Tags: CVE-2026-18963</em>]]></description>
+<description><![CDATA[Keycloak 26.7.2 - Unauthenticated Account Takeover]]></description>
 <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52699</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
-<category>CVE-2026-18963</category>
 </item>
 <item>
 <title>Proof-of-concept exploit released for PHP vulnerabilities (CVE-2026-109618, CVE-2026-109619)</title>
@@ -2089,6 +2166,17 @@
 <source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
 <category>reddit_practitioner_osint</category>
 <category>ai_security</category>
+</item>
+<item>
+<title>Announcing llm-d 1.0: Open distributed inference for agents on Google Cloud TPUs and GPUs</title>
+<link>https://cloud.google.com/blog/topics/ai-infrastructure/llm-d-1-0-an-open-source-stack-for-distributed-inference/</link>
+<description><![CDATA[Today at the PyTorch Conference, we released llm-d 1.0, an open-source, Kubernetes-native stack for distributed LLM inference. Co-founded by Google with Red Hat, IBM and others, we worked with a community of more than 500 contributors over 25 organizations on this Cloud Native Computing Foundation (CNCF) Sandbox project, bringing together two important communities: PyTorch, where vLLM and SGLang serve models, and Kubernetes, where distributed systems run and scale in production. llm-d 1.0 arrives at a time when agents are changing the nature of inference. A year ago, most inference traffic was chat: one prompt in, one response out. Today, workloads are shifting to multi-step agents and reinforcement learning (RL) rollouts that fan out across tools, share long prefixes, and arrive in bursts. Serving them on a single machine — or behind a generic round-robin load balancer — breaks down fast. Replicas recompute the same prompts, accelerator memory fills up with duplicate state, and one bu<br/><br/><em>Tags: Google Cloud · Kubernetes</em>]]></description>
+<pubDate>Tue, 20 Oct 2026 11:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/ai-infrastructure/llm-d-1-0-an-open-source-stack-for-distributed-inference/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+<category>Google Cloud</category>
+<category>Kubernetes</category>
 </item>
 <item>
 <title>Possible new Cellebrite iPhone Radio Zero-Day</title>
@@ -3351,15 +3439,6 @@
 <guid isPermaLink="true">https://risky.biz/RBNEWS621/</guid>
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>Small Agents, Smaller Blast Radius: Controlling What AI Can Do, (Fri, Oct 16th)</title>
-<link>https://isc.sans.edu/diary/rss/33430</link>
-<description><![CDATA[I believe the cybersecurity industry may be approaching AI security the wrong way.]]></description>
-<pubDate>Fri, 16 Oct 2026 00:46:35 +0000</pubDate>
-<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33430</guid>
-<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
-<category>government_authoritative</category>
 </item>
 <item>
 <title>TAG-217 Targets South Korean Financial Services with ARTEX</title>
@@ -13083,17 +13162,6 @@
 <category>ShinyHunters</category>
 </item>
 <item>
-<title>Sponsored: Understanding CI/CD attack paths</title>
-<link>https://risky.biz/RBNEWSSI131/</link>
-<description><![CDATA[In this sponsored episode, James Wilson chats with SpecterOps CTO Jared Atkinson about the central role that GitHub has played in recent supply chain compromises. GitHub is where code gets built, tested, and shipped to devices, cloud, and on-prem environments. Understanding the paths an attacker can use to get into GitHub, and where they can pivot to from there, is essential to securing your GitHub repos and CI/CD pipelines.<br/><br/><em>Tags: GitHub · supply_chain</em>]]></description>
-<pubDate>Fri, 12 Jun 2026 04:28:07 +0000</pubDate>
-<guid isPermaLink="true">https://risky.biz/RBNEWSSI131/</guid>
-<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
-<category>GitHub</category>
-<category>supply_chain</category>
-</item>
-<item>
 <title>Sysdig and Anthropic: Turning Claude compliance events into real security signals</title>
 <link>https://webflow.sysdig.com/blog/sysdig-and-anthropic-turning-claude-compliance-events-into-real-security-signals</link>
 <description><![CDATA[Enterprises have adopted Claude faster than they have the security guardrails for it. An Anthropic API key has become one of the most powerful credentials in the building. With it, Claude can reach sensitive data, run code, and act on a user&apos;s behalf. Yet most security programs still treat it as an afterthought, something to rotate eventually and worry about later.]]></description>
@@ -13777,17 +13845,6 @@
 <guid isPermaLink="true">https://webflow.sysdig.com/blog/introducing-the-runtime-investigations-skill-for-headless-cloud-security</guid>
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>durabletask: TeamPCP&apos;s Latest PyPi Compromise</title>
-<link>https://www.wiz.io/blog/durabletask-teampcp-supply-chain-attack</link>
-<description><![CDATA[Discover the latest on malicious versions of the pypi package durabletask, matching TeamPCP tactics.<br/><br/><em>Tags: PyPI · TeamPCP</em>]]></description>
-<pubDate>Tue, 19 May 2026 17:30:20 +0000</pubDate>
-<guid isPermaLink="true">https://www.wiz.io/blog/durabletask-teampcp-supply-chain-attack</guid>
-<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
-<category>cloud_identity_infrastructure</category>
-<category>PyPI</category>
-<category>TeamPCP</category>
 </item>
 <item>
 <title>The quest for greater tech independence</title>
@@ -19575,7 +19632,7 @@
 <title>Why Organizations Secure AI Agents with Falcon Guardian</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 25 Oct 2026 18:50:36 +0000</pubDate>
+<pubDate>Sun, 25 Oct 2026 21:35:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19584,7 +19641,7 @@
 <title>Obstacles to Weaponizing PHP2Shell Likely Constrain Immediate Widespread Exploitation</title>
 <link>https://www.crowdstrike.com/en-us/blog/obstacles-to-weaponizing-php2shell-likely-constrain-exploitation/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 25 Oct 2026 18:50:36 +0000</pubDate>
+<pubDate>Sun, 25 Oct 2026 21:35:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/obstacles-to-weaponizing-php2shell-likely-constrain-exploitation/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19593,7 +19650,7 @@
 <title>CrowdStrike Protects Customers from Threats Delivered via PHP2Shell</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-protects-customers-from-php-rce-zero-days/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 25 Oct 2026 18:50:36 +0000</pubDate>
+<pubDate>Sun, 25 Oct 2026 21:35:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-protects-customers-from-php-rce-zero-days/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19602,7 +19659,7 @@
 <title>CrowdStrike Uncovers New Agentic AI Campaigns</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-agentic-ai-campaigns/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 25 Oct 2026 18:50:36 +0000</pubDate>
+<pubDate>Sun, 25 Oct 2026 21:35:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-agentic-ai-campaigns/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19611,7 +19668,7 @@
 <title>CrowdStrike Achieves NCSC CIR Enhanced Level Assurance</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-achieves-uk-ncsc-cir-enhanced-level-assurance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 25 Oct 2026 18:50:36 +0000</pubDate>
+<pubDate>Sun, 25 Oct 2026 21:35:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-achieves-uk-ncsc-cir-enhanced-level-assurance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19620,7 +19677,7 @@
 <title>U.S. Government Disrupts FAMOUS CHOLLIMA Operation with CrowdStrike Assistance</title>
 <link>https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 25 Oct 2026 18:50:36 +0000</pubDate>
+<pubDate>Sun, 25 Oct 2026 21:35:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19629,7 +19686,7 @@
 <title>October 2026 Patch Tuesday: 1,413 CVEs Include Three Zero-Days and 75 Critical Vulnerabilities</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-october-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 25 Oct 2026 18:50:36 +0000</pubDate>
+<pubDate>Sun, 25 Oct 2026 21:35:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-october-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19638,7 +19695,7 @@
 <title>CrowdStrike and Anthropic Give Critical Infrastructure Defenders the AI Advantage</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 25 Oct 2026 18:50:36 +0000</pubDate>
+<pubDate>Sun, 25 Oct 2026 21:35:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19647,7 +19704,7 @@
 <title>Solving the Continuous Authorization Conundrum</title>
 <link>https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 25 Oct 2026 18:50:36 +0000</pubDate>
+<pubDate>Sun, 25 Oct 2026 21:35:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19656,7 +19713,7 @@
 <title>Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance</title>
 <link>https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 25 Oct 2026 18:50:36 +0000</pubDate>
+<pubDate>Sun, 25 Oct 2026 21:35:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>

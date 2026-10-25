@@ -1,11 +1,18 @@
 {
-  "generated_at": "2026-10-25T18:50:36.679580+00:00",
+  "generated_at": "2026-10-25T21:35:53.301271+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
-  "total_items": 2188,
+  "total_items": 2208,
   "feed_status": {
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -18,11 +25,25 @@
       "item_count": 15,
       "in_window_count": 5
     },
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 1
+    },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
       "in_window_count": 0
     },
     "Google Threat Analysis Group": {
@@ -32,54 +53,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 5
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -95,12 +74,26 @@
       "item_count": 20,
       "in_window_count": 2
     },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 3
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
+    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 7
+      "in_window_count": 8
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -130,11 +123,39 @@
       "item_count": 50,
       "in_window_count": 2
     },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 0
+    },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
       "in_window_count": 0
     },
     "Exploit-DB": {
@@ -144,32 +165,11 @@
       "item_count": 50,
       "in_window_count": 11
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
-    },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
       "in_window_count": 0
     },
     "Black Hills Information Security": {
@@ -200,13 +200,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
@@ -228,19 +221,12 @@
       "item_count": 20,
       "in_window_count": 7
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 4
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -249,12 +235,12 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 7
+      "item_count": 30,
+      "in_window_count": 4
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -276,6 +262,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 4
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 7
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -319,6 +312,20 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 10
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 20
+    },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -333,26 +340,12 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 9
-    },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
     },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
@@ -361,12 +354,26 @@
       "item_count": 20,
       "in_window_count": 2
     },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
+    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 15
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 13
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -382,13 +389,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -396,19 +396,12 @@
       "item_count": 50,
       "in_window_count": 1
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 13
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 29
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -424,19 +417,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 29
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 6
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 100
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -445,6 +438,13 @@
       "item_count": 15,
       "in_window_count": 1
     },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 100
+    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -452,29 +452,15 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
+      "item_count": 20,
+      "in_window_count": 3
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -487,8 +473,8 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -501,12 +487,26 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -541,7 +541,7 @@
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 6
+      "in_window_count": 7
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -703,8 +703,8 @@
         ]
       },
       "cluster_count": 10,
-      "article_count": 30,
-      "cohesion": 0.424,
+      "article_count": 31,
+      "cohesion": 0.423,
       "shared_strong_signals": [
         "CVE-2026-109619"
       ],
@@ -729,6 +729,7 @@
         "https://orca.security/resources/blog/php2shell-php-rce-vulnerabilities/",
         "https://isc.sans.edu/diary/rss/33440",
         "https://webflow.sysdig.com/blog/php2shell-cve-2026-109618-and-cve-2026-109619-detecting-unauthenticated-remote-code-execution-in-php-core",
+        "https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/",
         "https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
         "https://www.elastic.co/security-labs/threat-command/php2shell-php-rce-detection",
         "https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/",
@@ -774,8 +775,8 @@
         ]
       },
       "cluster_count": 10,
-      "article_count": 30,
-      "cohesion": 0.424,
+      "article_count": 31,
+      "cohesion": 0.423,
       "shared_strong_signals": [
         "CVE-2026-109618"
       ],
@@ -800,6 +801,7 @@
         "https://orca.security/resources/blog/php2shell-php-rce-vulnerabilities/",
         "https://isc.sans.edu/diary/rss/33440",
         "https://webflow.sysdig.com/blog/php2shell-cve-2026-109618-and-cve-2026-109619-detecting-unauthenticated-remote-code-execution-in-php-core",
+        "https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/",
         "https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
         "https://www.elastic.co/security-labs/threat-command/php2shell-php-rce-detection",
         "https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/",
@@ -820,67 +822,6 @@
         "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
         "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
         "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/"
-      ]
-    },
-    {
-      "label": "AWS active exploitation",
-      "anchor_signal": "AWS",
-      "theme_key": "aws",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "affected_products": [
-          "AWS"
-        ],
-        "urgency_signals": [
-          "actively_exploited"
-        ]
-      },
-      "cluster_count": 6,
-      "article_count": 32,
-      "cohesion": 0.234,
-      "shared_strong_signals": [
-        "AWS"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "f4a1025e01",
-        "0c3d84d7ed",
-        "27252b6951",
-        "1d63c3b8c3",
-        "5f2d69d128",
-        "02b4cbceb1"
-      ],
-      "links": [
-        "https://www.rapid7.com/blog/post/etr-cve-2026-109618-and-cve-2026-109619-critical-unauthenticated-remote-code-execution-in-php",
-        "https://securelist.com/tr/php2shell-critical-vulnerabilities-in-php/121596/",
-        "https://www.exploit-db.com/exploits/52704",
-        "https://orca.security/resources/blog/php2shell-php-rce-vulnerabilities/",
-        "https://isc.sans.edu/diary/rss/33440",
-        "https://webflow.sysdig.com/blog/php2shell-cve-2026-109618-and-cve-2026-109619-detecting-unauthenticated-remote-code-execution-in-php-core",
-        "https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
-        "https://www.elastic.co/security-labs/threat-command/php2shell-php-rce-detection",
-        "https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/",
-        "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-        "https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities",
-        "https://securitylabs.datadoghq.com/articles/php2shell-critical-vulnerabilities-in-php/",
-        "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
-        "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
-        "https://www.reddit.com/r/netsec/comments/1xb5g1c/php_rce_cve2026109618/",
-        "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-109618-cve-2026-109619/",
-        "https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors",
-        "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
-        "https://securitylabs.datadoghq.com/articles/litellm-compromised-pypi-docker/",
-        "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
-        "https://www.helpnetsecurity.com/2026/10/22/litellm-compromised-supply-chain-attack-pypi-docker/",
-        "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
-        "https://www.wiz.io/blog/php2shell-php-rce",
-        "https://securitylabs.datadoghq.com/articles/introducing-pathrunner-aws-privilege-escalation-framework/",
-        "https://aws.amazon.com/blogs/security/best-practices-for-integrating-iam-roles-anywhere-with-your-pki/",
-        "https://tldrsec.com/p/tldr-sec-351"
       ]
     },
     {
@@ -924,6 +865,72 @@
         "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
         "https://simonwillison.net/2026/Oct/21/php-security-release/",
         "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/"
+      ]
+    },
+    {
+      "label": "AWS active exploitation",
+      "anchor_signal": "AWS",
+      "theme_key": "aws",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation",
+          "supply_chain"
+        ],
+        "affected_products": [
+          "AWS"
+        ],
+        "cve_ids": [
+          "CVE-2026-109618",
+          "CVE-2026-109619",
+          "CVE-2026-115560"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth",
+          "poc_available"
+        ]
+      },
+      "cluster_count": 5,
+      "article_count": 29,
+      "cohesion": 0.239,
+      "shared_strong_signals": [
+        "AWS"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "f4a1025e01",
+        "0c3d84d7ed",
+        "27252b6951",
+        "1d63c3b8c3",
+        "5f2d69d128"
+      ],
+      "links": [
+        "https://www.rapid7.com/blog/post/etr-cve-2026-109618-and-cve-2026-109619-critical-unauthenticated-remote-code-execution-in-php",
+        "https://securelist.com/tr/php2shell-critical-vulnerabilities-in-php/121596/",
+        "https://www.exploit-db.com/exploits/52704",
+        "https://orca.security/resources/blog/php2shell-php-rce-vulnerabilities/",
+        "https://isc.sans.edu/diary/rss/33440",
+        "https://webflow.sysdig.com/blog/php2shell-cve-2026-109618-and-cve-2026-109619-detecting-unauthenticated-remote-code-execution-in-php-core",
+        "https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/",
+        "https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
+        "https://www.elastic.co/security-labs/threat-command/php2shell-php-rce-detection",
+        "https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/",
+        "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+        "https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities",
+        "https://securitylabs.datadoghq.com/articles/php2shell-critical-vulnerabilities-in-php/",
+        "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
+        "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
+        "https://www.reddit.com/r/netsec/comments/1xb5g1c/php_rce_cve2026109618/",
+        "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-109618-cve-2026-109619/",
+        "https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors",
+        "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+        "https://securitylabs.datadoghq.com/articles/litellm-compromised-pypi-docker/",
+        "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+        "https://www.helpnetsecurity.com/2026/10/22/litellm-compromised-supply-chain-attack-pypi-docker/",
+        "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+        "https://www.wiz.io/blog/php2shell-php-rce"
       ]
     },
     {
@@ -1020,7 +1027,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 11,
+      "article_count": 12,
       "cohesion": 0.213,
       "shared_strong_signals": [
         "PyPI"
@@ -1035,6 +1042,7 @@
       "links": [
         "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-langflow-mongodb-and-more",
         "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/",
+        "https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles",
         "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
         "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
         "https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors",
@@ -1256,6 +1264,8 @@
           "CVE-2026-109619",
           "CVE-2026-115560",
           "Drupal",
+          "Google Cloud",
+          "Google/Gemini",
           "LiteSpeed",
           "WordPress"
         ]
@@ -1510,6 +1520,96 @@
   },
   "items": [
     {
+      "source": "SANS Internet Storm Center",
+      "cohort": "government_authoritative",
+      "category": "government_authoritative",
+      "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
+      "link": "https://isc.sans.edu/diary/rss/33454",
+      "published": "2026-10-25T19:57:53+00:00",
+      "summary": "YARA-X&#;x26;#;39;s 1.22.0 release brings 11 improvements and 9 bugfixes.",
+      "author": "",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_government",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 14,
+      "full_body": "",
+      "fetch_status": "fetch_failed:HTTPError"
+    },
+    {
+      "source": "Risky Business News",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "Sponsored: Should your threat hunt become a detection?",
+      "link": "https://risky.biz/RBNEWSSI148a/",
+      "published": "2026-10-25T19:14:25+00:00",
+      "summary": "In this Risky Business sponsored interview James Wilson chats to Nebulock’s Head of Detection Strategy Alex Hurtado about the company’s threat hunting evaluation framework, GATES. The pair talk through the five steps of Nebulock’s new acronym, and how they help remove gut feelings and guesswork when asking the question: “Should this threat hunt find be promoted to a detection rule”?",
+      "author": "",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_3_analysis",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 7
+    },
+    {
+      "source": "Wiz Research",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Gheist: Attempted Scaled Abuse of Stolen GitHub Tokens Stumbles",
+      "link": "https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles",
+      "published": "2026-10-25T17:55:33+00:00",
+      "summary": "An automated campaign is planting secret-dumping workflows in every repository that stolen GitHub tokens can reach. It uses no C2 server, is actively evolving, and has been significantly disrupted by recent GitHub security improvements.",
+      "author": "Hila Ramati",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "GitHub"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {
+          "GitHub": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 9
+    },
+    {
       "source": "The Hacker News",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -1655,7 +1755,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "The Hacker News",
@@ -1687,7 +1787,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "BleepingComputer",
@@ -2711,34 +2811,22 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "ransomware_extortion",
-          "credential_theft",
-          "active_exploitation"
+          "credential_theft"
         ],
         "actor_attribution": [],
         "affected_industries": [
           "financial_services"
         ],
-        "affected_products": [
-          "Android",
-          "OpenAI/ChatGPT",
-          "Google Cloud"
-        ],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited"
-        ],
+        "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
         "role_map": {
-          "Android": "target",
-          "OpenAI/ChatGPT": "target",
-          "Google Cloud": "target",
-          "Azure": "target",
-          "AWS": "target",
-          "GitHub": "mention"
+          "GitHub": "mention",
+          "OpenAI/ChatGPT": "mention"
         },
         "weak_tags": {
           "products": [
@@ -2746,13 +2834,16 @@
               "GitHub",
               "mention",
               0.29
+            ],
+            [
+              "OpenAI/ChatGPT",
+              "mention",
+              0.28
             ]
           ]
         }
       },
-      "score": 10,
-      "full_body": "CATEGORIES AI Research 22 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 476 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 430 How To Guides 13 Ransomware 6 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 Infostealer riding the AI Train October 23, 2026 https://research.checkpoint.com/2026/infostealer-riding-the-ai-train/ Key Points Aokigahara , a newly observed infostealer, has been spotted in the wild. An earlier version may have been known as Kamidere or Stygian . The malware includes traditional data theft capabilities targeting browsers, VPN clients, cryptocurrency wallets, FTP/SFTP clients, password managers, and email applications, among other targets. AI applications and development tools are notable targets. The stealer collects authentication files, session data, and configuration files associated with Claude, ChatGPT Desktop, Codex, Cursor, Windsurf, GitHub Copilot, Gemini CLI, and other tools. Stolen AI credentials could offer opportunities for monetization. Usable credentials or session tokens could enable unauthorized access to paid AI services or the resale of compromised accounts. Its collection scope extends to developer and cloud environments. Targets include Git credential files, SSH private keys, and AWS, Azure, and Google Cloud credential and configuration files. Introduction Infostealers commonly target browser passwords, session cookies, and cryptocurrency wallets. This malware combines those established capabilities with dedicated collection routines for AI applications and development tools. Its targets include Claude, ChatGPT Desktop, Codex, Cursor, Windsurf, and GitHub Copilot, alongside cloud credentials and sensitive files from local development environments. This expanded targeting reflects a broader shift in what attackers may consider valuable, not only personal accounts and financial data, but also access to AI services and the environments developers use to build software. Valid credentials or session tokens could expose private conversations and development data, enable unauthorized use of paid services, or potentially be sold to provide access to compromised AI accounts. While the malware’s collection routines support these possibilities, the analysis does not confirm how its operators monetize the stolen data. Stealer Capabilities and Targeted Applications The Aokigahara infostealer includes common information-stealing capabilities, such as screenshot capture, clipboard collection, browser credential and cookie theft, cryptocurrency wallet data collection, and file grabbing. It also includes a clipper handler that drops a separate component for clipboard manipulation. The malware targets Chromium-based browsers and Mozilla Firefox, desktop cryptocurrency wallets and browser wallet extensions, messaging applications such as Discord and Telegram, and gaming platforms such as Steam, Roblox, and Minecraft. Additional targets include password managers, VPN clients, FTP/SFTP clients, email applications, and AI development tools. The table below summarizes each handler, its targets, and any limitations identified during the analysis. The table below lists the malware’s main capabilities and their corresponding internal function names. Function What the handler targets sysinfo The machine and current user: computer/user names, IP, Windows version, CPU/RAM, screen size, language, uptime, running processes, environment variables, installed software, and detected antivirus. screenshot Captures the screen as Screenshot.jpg . clipboard Captures clipboard contents into Clipboard.txt . browsers Chromium-based browser profiles. The embedded paths name Chrome (including Beta/Canary), Edge (including Beta/Dev/Canary), Brave, Opera, Vivaldi, Yandex, 360Chrome, CentBrowser, CocCoc, Comodo Dragon, Epic Privacy Browser, Iridium, Tor",
-      "fetch_status": "ok"
+      "score": 10
     },
     {
       "source": "The Record",
@@ -3695,6 +3786,45 @@
         }
       },
       "score": 4
+    },
+    {
+      "source": "Google Cloud Security",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Expanding Claude availability and deployment choice on Google Cloud",
+      "link": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud/",
+      "published": "2026-10-22T21:00:00+00:00",
+      "summary": "Every organization has unique requirements for building and scaling generative AI. At Google Cloud, we are committed to giving developers model choice and architectural flexibility to run workloads however they need. Today, we’re announcing the general availability of an Anthropic-managed deployment option for Claude Models on Google Cloud. This gives teams more choice in how they run their models, helping them consolidate AI workloads on Google Cloud alongside our existingGoogle-managed deployment option. Both options deliver the same frontier models on day zero, the same pricing, and the same Google Cloud billing. The difference comes down to who acts as your data processor and whether you need access to the new Claude platform features when they launch: [NEW] Claude Models on Google Cloud (Anthropic managed) Delivers day-zero access to Claude models and Claude Platform features such as Claude Managed Agents (beta), skills, and code execution. Anthropic operates the stack as the data",
+      "author": "Michael Gerstenhaber",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Google Cloud"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {
+          "Google Cloud": "target",
+          "Anthropic/Claude": "mention"
+        },
+        "weak_tags": {
+          "products": [
+            [
+              "Anthropic/Claude",
+              "mention",
+              0.27
+            ]
+          ]
+        }
+      },
+      "score": 2
     },
     {
       "source": "The Record",
@@ -6163,6 +6293,45 @@
       "fetch_status": "ok"
     },
     {
+      "source": "Google Cloud Security",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Responding to core PHP vulnerabilities CVE-2026-109618 and CVE-2026-109619",
+      "link": "https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/",
+      "published": "2026-10-21T14:00:00+00:00",
+      "summary": "Editor's note : This blog was updated on Oct. 23, 2026 at 3:20 p.m. PDT, with additional guidance from Mandiant Consulting on monitoring, patching, and remediation. We have previously updated the blog on Oct. 22, 2026, with revised guidance for Security Command Center and Cloud Armor, and on Oct. 21, 2026 . PHP and Wiz Research disclosed today two critical vulnerabilities in the core PHP language runtime that can expose applications to unauthenticated remote code execution and memory disclosure. Wiz used a mix of models to identify and help remediate these vulnerabilities. Notably, Gemini 4 Argon made an invaluable contribution to finding the vulnerability, exploit development, attack detection, and validation of the patch. While Google Cloud itself is not vulnerable, users of PHP running on Google Cloud may be vulnerable . At Google Cloud, we understand the severity of these vulnerabilities, and are sharing guidance to help our customers take immediate action to secure their applicati",
+      "author": "Raluca Ada Popa",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Google Cloud",
+          "Google/Gemini"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-109618",
+          "CVE-2026-109619"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {
+          "Google Cloud": "target",
+          "Google/Gemini": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 23
+    },
+    {
       "source": "The Hacker News",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -6589,6 +6758,47 @@
       "score": 14
     },
     {
+      "source": "Google Cloud Security",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Google Cloud expands model choice and flexibility, bringing OpenAI models to customers",
+      "link": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers/",
+      "published": "2026-10-21T12:00:00+00:00",
+      "summary": "Google Cloud has always been defined by choice, enterprise-grade governance, and market-leading price-performance. Key to the foundation of openness and choice is giving customers flexibility to run agentic workloads across their choice of models and infrastructure to achieve the right balance of cost, capability, and performance. Today, we are expanding that foundation by launching OpenAI models in Google Cloud’s model garden. Google Cloud is now the only hyperscale cloud provider offering access to all three leading closed source LLMs, alongside more than 200 first-party, third-party, and open models on a unified enterprise AI platform. The right model for every workload Modern enterprise AI requires matching each workload to the right model rather than relying on a single model for every task. By adding OpenAI’s newest models to model garden, we are giving teams options across the full spectrum of enterprise workloads. For OpenAI models: GPT-6 Astra : Designed for demanding work acr",
+      "author": "Michael Gerstenhaber",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [
+          "Google Cloud"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {
+          "Google Cloud": "target",
+          "OpenAI/ChatGPT": "mention"
+        },
+        "weak_tags": {
+          "products": [
+            [
+              "OpenAI/ChatGPT",
+              "mention",
+              0.28
+            ]
+          ]
+        }
+      },
+      "score": 7
+    },
+    {
       "source": "Infosecurity Magazine",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -6617,6 +6827,70 @@
         }
       },
       "score": 8
+    },
+    {
+      "source": "Google Cloud Security",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Hardware-backed security at global scale: Confidential G4 with NVIDIA Blackwell is GA",
+      "link": "https://cloud.google.com/blog/topics/ai-infrastructure/confidential-g4-gpus-are-ga/",
+      "published": "2026-10-21T11:30:00+00:00",
+      "summary": "Bringing autonomous agents into production means processing sensitive data and valuable intellectual property in real time. Protecting proprietary model weights, user prompts, and generated outputs requires security that safeguards data while it is actively being computed. As part of our efforts to enable your enterprise securely, today we are announcing that Confidential Computing on Google Cloud’s G4 instances enabled by NVIDIA RTX PRO 6000 Blackwell Server edition GPUs is now generally available. This release integrates NVIDIA Confidential Computing directly into Google Cloud's AI Hypercomputer , delivering the dynamic performance needed to scale without compromising privacy. When we announced Confidential G4 in preview earlier this year, we talked about its global footprint and scale. Today, these instances are generally available across 36 zones , using multiple consumption models , on Compute Engine VMs and GKE nodes . In addition, support for Confidential Space enabling secure m",
+      "author": "Sam Lugani",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Google Cloud"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {
+          "Google Cloud": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 7
+    },
+    {
+      "source": "Google Cloud Security",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Google Cloud and NVIDIA expand co-engineering collaboration to scale infrastructure for the agentic era",
+      "link": "https://cloud.google.com/blog/topics/ai-infrastructure/google-cloud-infrastructure-at-nvidia-gtc-berlin-2026/",
+      "published": "2026-10-21T11:30:00+00:00",
+      "summary": "As enterprises transition to continuous, multi-step agentic workflows, traditional infrastructure is hitting its limits. But raw performance is only part of the equation. To truly scale agentic AI, enterprises also need the flexibility to run the right models for the right tasks, alongside the data and operational sovereignty required to maintain verifiable control over both their sensitive intellectual property and the underlying infrastructure. Today at NVIDIA GTC Berlin 2026, we are announcing new advancements across the stack to deliver this foundation: minimizing bottlenecks, expanding ecosystem choice, and introducing new sovereign AI and Confidential Computing capabilities to protect your most sensitive workloads with hardware-enforced security. Architecting for the agentic era To help you train, serve, and operate models at scale, Google Cloud’s AI Hypercomputer is built on compute, storage, networking, and software that we co-designed as a single system. Today, in collaboratio",
+      "author": "Ankur Mehrotra",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Google Cloud"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {
+          "Google Cloud": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 7
     },
     {
       "source": "Infosecurity Magazine",
@@ -7160,13 +7434,10 @@
         "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-18963"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [
-          "preauth_unauth",
-          "poc_available"
+          "preauth_unauth"
         ],
         "content_type": "news_report",
         "confidence_tier": "tier_1_offensive_research",
@@ -7176,8 +7447,8 @@
         }
       },
       "score": 14,
-      "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training Keycloak 26.7.2 - Unauthenticated Account Takeover EDB-ID: 52699 CVE: 2026-18963 EDB Verified: Author: Abel Maldonado Type: webapps Exploit: / Platform: Multiple Date: 2026-10-21 Vulnerable App: # Exploit Title: Keycloak 26.7.2 - Unauthenticated Account Takeover # Date: 2026-10-15 # Exploit Author: Abel Maldonado | Orevim # Vendor Homepage: https://www.keycloak.org/ # Software Link: https://github.com/keycloak/keycloak/releases/tag/26.6.2 # Version: 26.0.0 - 26.4.14, 26.5.0 - 26.6.5, 26.7.0 - 26.7.1 # Tested on: Keycloak 26.6.2 (Docker, quay.io/keycloak/keycloak:26.6.2) # CVE: CVE-2026-18963 # Advisory: https://github.com/keycloak/keycloak/security/advisories/GHSA-4gv3-mc9p-5wqc # CWE: CWE-640 (Weak Password Recovery Mechanism for Forgotten Password) # Type: webapps # Platform: multiple # Repo: https://github.com/orevim/CVE-2026-18963-PoC # Research: https://orevim.co/research#cve-2026-18963 \"\"\"Proof of concept and vulnerability check for CVE-2026-18963. CVE-2026-18963 is a reset-credentials flow bypass in Keycloak. An unscoped AUTHENTICATION_SELECTOR_SCREEN_DISPLAYED note lets an unauthenticated caller re-render the authenticator selection screen bound to the email execution. On an affected build that execution's action handler sets emailVerified and calls success() without checking the action token, so the flow reaches the update-password required action with no emailed link. Affected: >= 26.0.0 < 26.4.15, >= 26.5.0 < 26.6.6, >= 26.7.0 < 26.7.2. Patched in 26.4.15, 26.6.6 and 26.7.2; the 26.8.0 line ships with the fix. Three modes: --check decide whether the instance is affected, using a random identifier that resolves to nothing. Sends no mail and changes no account. --check --users ... additionally report which identifiers resolve. On an affected build a resolving identifier has emailVerified set as a side effect. --set-password complete the takeover. This locks the account holder out. Endpoints come from the realm's OIDC discovery document and form fields come from the forms themselves, so custom themes, custom paths and custom field names work without edits. Everything else is an option. Playwright is imported only when --open is used. \"\"\" from __future__ import annotations import argparse import base64 import dataclasses import enum import hashlib import http.client import http.cookiejar import html import json import os import random import re import secrets import socket import ssl import sys import time import urllib.error import urllib.parse import urllib.request from dataclasses import dataclass, field from html.parser import HTMLParser from pathlib import Path os.umask(0o077) # captures hold request and response material; keep them owner-only # Protocol defaults. Every one of these can be replaced from the command line. DISCOVERY_SUFFIX = \".well-known/openid-configuration\" RESET_PATH_MARKER = \"login-actions/reset-credentials\" SELECTOR_FIELD = \"tryAnotherWay=on\" USERNAME_FIELD = \"username\" PASSWORD_FIELDS = (\"password-new\", \"password-confirm\") HTML_ACCEPT = \"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\" class Outcome(enum.Enum): NOT_VULNERABLE = \"not-vulnerable\" ACCOUNT_ABSENT = \"account-absent\" FORM_REACHED = \"form-reached\" PASSWORD_SET = \"password-set\" RATE_LIMITED = \"rate-limited\" INCONCLUSIVE = \"inconclusive\" @dataclass class Target: url: str | None = None realm: str | None = None discovery_url: str | None = None auth_url: str | None = None reset_url: str | None = None client_id: str | None = None redirect_uri: str | None = None scope: str = \"openid\" selector_field: str = SELECTOR_FIELD username_field: str = USERNAME_FIELD password_fields: tuple[str, ...] = PASSWORD_FIELDS address: str | None = None verify_tls: bool = True timeout: float = 30.0 user_agent: str | None = None headers: dict[str, str] = field(default_factory=dict) def __post_init__(self) -> None: if self.url: self.url = sel",
-      "fetch_status": "ok"
+      "full_body": "",
+      "fetch_status": "fetch_failed:ReadTimeout"
     },
     {
       "source": "Sophos X-Ops",
@@ -8178,6 +8449,40 @@
         }
       },
       "score": 2
+    },
+    {
+      "source": "Google Cloud Security",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Announcing llm-d 1.0: Open distributed inference for agents on Google Cloud TPUs and GPUs",
+      "link": "https://cloud.google.com/blog/topics/ai-infrastructure/llm-d-1-0-an-open-source-stack-for-distributed-inference/",
+      "published": "2026-10-20T11:30:00+00:00",
+      "summary": "Today at the PyTorch Conference, we released llm-d 1.0, an open-source, Kubernetes-native stack for distributed LLM inference. Co-founded by Google with Red Hat, IBM and others, we worked with a community of more than 500 contributors over 25 organizations on this Cloud Native Computing Foundation (CNCF) Sandbox project, bringing together two important communities: PyTorch, where vLLM and SGLang serve models, and Kubernetes, where distributed systems run and scale in production. llm-d 1.0 arrives at a time when agents are changing the nature of inference. A year ago, most inference traffic was chat: one prompt in, one response out. Today, workloads are shifting to multi-step agents and reinforcement learning (RL) rollouts that fan out across tools, share long prefixes, and arrive in bursts. Serving them on a single machine — or behind a generic round-robin load balancer — breaks down fast. Replicas recompute the same prompts, accelerator memory fills up with duplicate state, and one bu",
+      "author": "Sean Horgan",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Google Cloud",
+          "Kubernetes"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {
+          "Google Cloud": "target",
+          "Kubernetes": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 7
     },
     {
       "source": "Schneier on Security",
@@ -12113,33 +12418,6 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_3_analysis",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "SANS Internet Storm Center",
-      "cohort": "government_authoritative",
-      "category": "government_authoritative",
-      "title": "Small Agents, Smaller Blast Radius: Controlling What AI Can Do, (Fri, Oct 16th)",
-      "link": "https://isc.sans.edu/diary/rss/33430",
-      "published": "2026-10-16T00:46:35+00:00",
-      "summary": "I believe the cybersecurity industry may be approaching AI security the wrong way.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_government",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -41557,39 +41835,6 @@
       }
     },
     {
-      "source": "Risky Business News",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "Sponsored: Understanding CI/CD attack paths",
-      "link": "https://risky.biz/RBNEWSSI131/",
-      "published": "2026-06-12T04:28:07+00:00",
-      "summary": "In this sponsored episode, James Wilson chats with SpecterOps CTO Jared Atkinson about the central role that GitHub has played in recent supply chain compromises. GitHub is where code gets built, tested, and shipped to devices, cloud, and on-prem environments. Understanding the paths an attacker can use to get into GitHub, and where they can pivot to from there, is essential to securing your GitHub repos and CI/CD pipelines.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "GitHub"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_3_analysis",
-        "role_map": {
-          "GitHub": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Sysdig",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -43644,39 +43889,6 @@
         "content_type": "low_signal",
         "confidence_tier": "tier_2_operator",
         "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Wiz Research",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "durabletask: TeamPCP's Latest PyPi Compromise",
-      "link": "https://www.wiz.io/blog/durabletask-teampcp-supply-chain-attack",
-      "published": "2026-05-19T17:30:20+00:00",
-      "summary": "Discover the latest on malicious versions of the pypi package durabletask, matching TeamPCP tactics.",
-      "author": "Rami McCarthy",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [
-          "TeamPCP"
-        ],
-        "affected_industries": [],
-        "affected_products": [
-          "PyPI"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {
-          "PyPI": "target"
-        },
         "weak_tags": {
           "products": []
         }

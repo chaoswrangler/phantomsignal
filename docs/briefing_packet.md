@@ -1,15 +1,15 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-10-25T18:50:36.658901+00:00
+- Generated: 2026-10-25T21:35:53.272425+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 75
-- Total items in window: 433
-- Total clusters raw: 232
+- Feeds OK: 76
+- Total items in window: 456
+- Total clusters raw: 235
 - Total clusters in packet: 80
-- Dropped low score: 122
-- Dropped overflow: 30
+- Dropped low score: 124
+- Dropped overflow: 31
 
 ## Cohort metadata
 
@@ -75,56 +75,41 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 5
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 1
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
   - In window count: 0
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 5
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
@@ -135,11 +120,21 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
-  - In window count: 7
+  - In window count: 8
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
@@ -160,35 +155,40 @@
   - Status: ok
   - Item count: 50
   - In window count: 2
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
   - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 11
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
-  - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
   - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
@@ -210,11 +210,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -230,26 +225,21 @@
   - Status: ok
   - Item count: 20
   - In window count: 7
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
-  - Item count: 30
-  - In window count: 4
+  - Item count: 10
+  - In window count: 1
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
-  - Item count: 100
-  - In window count: 7
+  - Item count: 30
+  - In window count: 4
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
@@ -265,6 +255,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 7
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -295,6 +290,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 10
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -305,31 +310,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 9
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 13
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
@@ -340,26 +345,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 50
   - In window count: 1
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
-  - Item count: 30
-  - In window count: 13
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 29
+  - Item count: 10
+  - In window count: 10
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -370,58 +365,28 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 29
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 100
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 100
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -430,6 +395,41 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -454,7 +454,7 @@
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
-  - In window count: 6
+  - In window count: 7
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
@@ -477,8 +477,8 @@
 - Anchor signal: CVE-2026-109619
 - Theme key: cve-2026-109619
 - Cluster count: 10
-- Article count: 30
-- Cohesion: 0.424
+- Article count: 31
+- Cohesion: 0.423
 - Shared strong signals: CVE-2026-109619
 - Member CVEs: (none)
 - Also targets: (none)
@@ -495,6 +495,7 @@
   - https://orca.security/resources/blog/php2shell-php-rce-vulnerabilities/
   - https://isc.sans.edu/diary/rss/33440
   - https://webflow.sysdig.com/blog/php2shell-cve-2026-109618-and-cve-2026-109619-detecting-unauthenticated-remote-code-execution-in-php-core
+  - https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/
   - https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619
   - https://www.elastic.co/security-labs/threat-command/php2shell-php-rce-detection
   - https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/
@@ -520,8 +521,8 @@
 - Anchor signal: CVE-2026-109618
 - Theme key: cve-2026-109618
 - Cluster count: 10
-- Article count: 30
-- Cohesion: 0.424
+- Article count: 31
+- Cohesion: 0.423
 - Shared strong signals: CVE-2026-109618
 - Member CVEs: (none)
 - Also targets: (none)
@@ -538,6 +539,7 @@
   - https://orca.security/resources/blog/php2shell-php-rce-vulnerabilities/
   - https://isc.sans.edu/diary/rss/33440
   - https://webflow.sysdig.com/blog/php2shell-cve-2026-109618-and-cve-2026-109619-detecting-unauthenticated-remote-code-execution-in-php-core
+  - https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/
   - https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619
   - https://www.elastic.co/security-labs/threat-command/php2shell-php-rce-detection
   - https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/
@@ -558,49 +560,6 @@
   - https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/
   - https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html
   - https://blog.cloudflare.com/php-vulnerabilities-waf-protection/
-
-### AWS active exploitation
-- Anchor signal: AWS
-- Theme key: aws
-- Cluster count: 6
-- Article count: 32
-- Cohesion: 0.234
-- Shared strong signals: AWS
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation
-  - affected_products: AWS
-  - urgency_signals: actively_exploited
-- Cluster IDs: f4a1025e01, 0c3d84d7ed, 27252b6951, 1d63c3b8c3, 5f2d69d128, 02b4cbceb1
-- Links:
-  - https://www.rapid7.com/blog/post/etr-cve-2026-109618-and-cve-2026-109619-critical-unauthenticated-remote-code-execution-in-php
-  - https://securelist.com/tr/php2shell-critical-vulnerabilities-in-php/121596/
-  - https://www.exploit-db.com/exploits/52704
-  - https://orca.security/resources/blog/php2shell-php-rce-vulnerabilities/
-  - https://isc.sans.edu/diary/rss/33440
-  - https://webflow.sysdig.com/blog/php2shell-cve-2026-109618-and-cve-2026-109619-detecting-unauthenticated-remote-code-execution-in-php-core
-  - https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619
-  - https://www.elastic.co/security-labs/threat-command/php2shell-php-rce-detection
-  - https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/
-  - https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/
-  - https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities
-  - https://securitylabs.datadoghq.com/articles/php2shell-critical-vulnerabilities-in-php/
-  - https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php
-  - https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html
-  - https://www.reddit.com/r/netsec/comments/1xb5g1c/php_rce_cve2026109618/
-  - https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-109618-cve-2026-109619/
-  - https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors
-  - https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/
-  - https://securitylabs.datadoghq.com/articles/litellm-compromised-pypi-docker/
-  - https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html
-  - https://www.helpnetsecurity.com/2026/10/22/litellm-compromised-supply-chain-attack-pypi-docker/
-  - https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/
-  - https://www.wiz.io/blog/php2shell-php-rce
-  - https://securitylabs.datadoghq.com/articles/introducing-pathrunner-aws-privilege-escalation-framework/
-  - https://aws.amazon.com/blogs/security/best-practices-for-integrating-iam-roles-anywhere-with-your-pki/
-  - https://tldrsec.com/p/tldr-sec-351
 
 ### WordPress vulnerability activity
 - Anchor signal: WordPress
@@ -623,6 +582,48 @@
   - https://blog.cloudflare.com/php-vulnerabilities-waf-protection/
   - https://simonwillison.net/2026/Oct/21/php-security-release/
   - https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/
+
+### AWS active exploitation
+- Anchor signal: AWS
+- Theme key: aws
+- Cluster count: 5
+- Article count: 29
+- Cohesion: 0.239
+- Shared strong signals: AWS
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation, supply_chain
+  - affected_products: AWS
+  - cve_ids: CVE-2026-109618, CVE-2026-109619, CVE-2026-115560
+  - urgency_signals: actively_exploited, preauth_unauth, poc_available
+- Cluster IDs: f4a1025e01, 0c3d84d7ed, 27252b6951, 1d63c3b8c3, 5f2d69d128
+- Links:
+  - https://www.rapid7.com/blog/post/etr-cve-2026-109618-and-cve-2026-109619-critical-unauthenticated-remote-code-execution-in-php
+  - https://securelist.com/tr/php2shell-critical-vulnerabilities-in-php/121596/
+  - https://www.exploit-db.com/exploits/52704
+  - https://orca.security/resources/blog/php2shell-php-rce-vulnerabilities/
+  - https://isc.sans.edu/diary/rss/33440
+  - https://webflow.sysdig.com/blog/php2shell-cve-2026-109618-and-cve-2026-109619-detecting-unauthenticated-remote-code-execution-in-php-core
+  - https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/
+  - https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619
+  - https://www.elastic.co/security-labs/threat-command/php2shell-php-rce-detection
+  - https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/
+  - https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/
+  - https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities
+  - https://securitylabs.datadoghq.com/articles/php2shell-critical-vulnerabilities-in-php/
+  - https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php
+  - https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html
+  - https://www.reddit.com/r/netsec/comments/1xb5g1c/php_rce_cve2026109618/
+  - https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-109618-cve-2026-109619/
+  - https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors
+  - https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/
+  - https://securitylabs.datadoghq.com/articles/litellm-compromised-pypi-docker/
+  - https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html
+  - https://www.helpnetsecurity.com/2026/10/22/litellm-compromised-supply-chain-attack-pypi-docker/
+  - https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/
+  - https://www.wiz.io/blog/php2shell-php-rce
 
 ### Drupal vulnerability activity
 - Anchor signal: Drupal
@@ -669,7 +670,7 @@
 - Anchor signal: PyPI
 - Theme key: pypi
 - Cluster count: 3
-- Article count: 11
+- Article count: 12
 - Cohesion: 0.213
 - Shared strong signals: PyPI
 - Member CVEs: (none)
@@ -680,6 +681,7 @@
 - Links:
   - https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-langflow-mongodb-and-more
   - https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/
+  - https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles
   - https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html
   - https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/
   - https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors
@@ -812,7 +814,7 @@
   - Lead hours: 14.1
   - First source: Reddit r/netsec
   - Later Tier 1 source: NCSC UK
-  - Shared signals: AWS, CVE-2026-109618, CVE-2026-109619, CVE-2026-115560, Drupal, LiteSpeed, WordPress
+  - Shared signals: AWS, CVE-2026-109618, CVE-2026-109619, CVE-2026-115560, Drupal, Google Cloud, Google/Gemini, LiteSpeed, WordPress
 
 ### Convergence (15)
 - Pair: CVE-2026-0768 + Docker (cluster 3d6ca9f782, first observation: True)
@@ -884,8 +886,8 @@
 - Published: 2026-10-23T15:38:56+00:00
 - Link: https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-langflow-mongodb-and-more
 - Fetch status: ok
-- Member count: 6
-- Corroborating source count: 5
+- Member count: 7
+- Corroborating source count: 6
 - Strong signals: CVE-2026-0768, CVE-2026-0769, CVE-2026-10134, CVE-2026-7873, CVE-2026-93680, GitHub
 
 #### Cluster taxonomy (union across members)
@@ -894,7 +896,7 @@
 - cve_ids: CVE-2026-0768, CVE-2026-0769, CVE-2026-10134, CVE-2026-7873, CVE-2026-93680
 - urgency_signals: preauth_unauth
 - content_type: incident_report, news_report
-- confidence_tier: tier_1_offensive_research, tier_4_news
+- confidence_tier: tier_1_offensive_research, tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
 - affected_products: GitHub
@@ -915,7 +917,7 @@ This release adds multiple new modules, and 6 of those modules point at a single
 Metasploit Metasploit Wrap Up: Langflow, MongoDB, and More Alan David Foster Oct 23, 2026 | Last updated on Oct 23, 2026 | 5 min read Metasploit Wrap Up: Langflow, MongoDB, and More Table of contents Metasploit Wrap Up: Langflow, MongoDB, and More Table of contents This release adds multiple new modules, and 6 of those modules point at a single target: Langflow , the open-source LLM workflow builder. Together they cover an authentication bypass (CVE-2026-93680), 3 unauthenticated remote code execution paths (CVE-2026-0768, CVE-2026-0769, and CVE-2026-10134), and 2 authenticated code execution flaws (CVE-2026-7873 and CVE-2026-93674), spanning Langflow releases from 1.0.0 through 1.11.4. Thanks to the work of rmhowe425 , with research credit to Peter Girnus and n0k0. Beyond Langflow, open source contributor kmkz contributed a pre-auth RCE chain against OpenCTI. MongoDB coverage has also been expanded with 3 new auxiliary modules plus an Apache Solr version scanner thanks to the work of community member h00die . New Module Content (11) 4gaBoards Mass User Information Disclosure (CVE-2026-53959) Authors: Balachandar Gowrisankar, de3erve (GitHub), and lucquach (GitHub) Type: Auxiliary Pull request: #21831 contributed by anirbala98 Path: gather/4gaboards_users_info_disclosure_cve_2026_53959 CVE reference: CVE-2026-53959 Description: Adds a module that exploits CVE-2026-53959, a broken access control vulnerability allowing mass user information disclosure in 4gaBoards versions 3.3.8 and below. The application's /api/users REST endpoint lets any authenticated user retrieve a full, unpaginated list of every user in the system. Missing authorization checks allow an attacker to retrieve the email, phone, organization, name, and SSO email addresses (ssoGoogleEmail, ssoGithubEmail, and others) of every user. Langflow AI Authentication Bypass (CVE-2026-93680) Author: Richard Howe Type: Auxiliary Pull request: #21942 contributed by rmhowe425 Path: gather/langflow_auth_bypass_cve_2026_93680 CVE reference: CVE-2026-93680 Description: Adds a new auxiliary module that leverages CVE-2026-93680, an authentication bypass vulnerability impacting Langflow versions 1.5.0 through 1.11.4. Apache Solr Version Scanner Author: h00die Type: Auxiliary Pull request: #22006 contributed by h00die Path: scanner/http/apache_solr_version Description: Adds a new scanner that identifies Apache Solr and reports its version. MongoDB Auxiliary Module Suite Authors: h00die and prithvee07 Type: Auxiliary Pull request: #21785 contributed by h00die Description: Adds the mongodb_version, mongodb_schemadump, and mongodb_hashdump auxiliary modules, and updates the existing mongodb_login module. This PR adds the following modules: scanner/mongodb/mongodb_hashdump scanner/mongodb/mongodb_schemadump scanner/mongodb/mongodb_version OpenCTI Authentication Bypass and Notifier EJS Remote Code Execution Author: Jean-Marie Bourbon Type: Exploit Pull request: #21826 contributed by kmkz Path: linux/http/opencti_notifier_rce CVE references: CVE-2026-27960 and CVE-2026-39980 Description: Adds a new exploit module for OpenCTI that chains CVE-2026-27960 and CVE-2026-39980 to achieve unauthenticated remote command execution. Grafana SQL Expressions DuckDB Command Injection (CVE-2024-9264) Author: Özcan Ersan (@ozcanpng) Type: Exploit Pull request: #21901 contributed by ozcanpng Path: multi/http/grafana_sql_expressions_rce_cve_2024_9264 CVE reference: CVE-2024-9264 Description: Adds an authenticated exploit module for CVE-2024-9264, a DuckDB command injection in Grafana SQL Expressions. Langflow AI Code Validation Authenticated RCE (CVE-2026-7873) Authors: Richard Howe and n0k0 Type: Exploit Pull request: #21877 contributed by rmhowe425 Path: multi/http/langflow_auth_rce_cve_2026_7873 CVE reference: CVE-2026-7873 Description: Adds a new exploit module that detects and exploits CVE-2026-7873, an authenticated RCE vulnerability impacting Langflow versions 1.0.0 through 1.10.0. Langflow AI Auth
 ```
 
-#### Corroborating sources (5)
+#### Corroborating sources (6)
 
 - **Rapid7** (offensive_vulnerability_research)
   - Title: Metasploit Wrap Up: Langflow, MongoDB, and More
@@ -927,6 +929,11 @@ Metasploit Metasploit Wrap Up: Langflow, MongoDB, and More Alan David Foster Oct
   - Published: 2026-10-23T08:10:46+00:00
   - Link: https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/
   - Summary: Hackers used compromised GitHub CLI OAuth tokens to push and approve malicious packages on PyPI and Docker. The post LiteLLM Compromised in Fresh Supply Chain Attack appeared first on SecurityWeek .
+- **Wiz Research** (cloud_identity_infrastructure)
+  - Title: Gheist: Attempted Scaled Abuse of Stolen GitHub Tokens Stumbles
+  - Published: 2026-10-25T17:55:33+00:00
+  - Link: https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles
+  - Summary: An automated campaign is planting secret-dumping workflows in every repository that stolen GitHub tokens can reach. It uses no C2 server, is actively evolving, and has been significantly disrupted by recent GitHub security improvements.
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline
   - Published: 2026-10-24T11:03:33+00:00
@@ -1104,14 +1111,14 @@ CVE-2026-106173 Deep-Dive: FortiSIEM gRPC Path Traversal File Write RCE Zach Han
 - Published: 2026-10-21T15:22:52+00:00
 - Link: https://www.rapid7.com/blog/post/etr-cve-2026-109618-and-cve-2026-109619-critical-unauthenticated-remote-code-execution-in-php
 - Fetch status: ok
-- Member count: 21
-- Corroborating source count: 17
+- Member count: 22
+- Corroborating source count: 18
 - Strong signals: CVE-2026-109618, CVE-2026-109619, LiteSpeed
 
 #### Cluster taxonomy (union across members)
 - threat_categories: active_exploitation
 - affected_industries: government
-- affected_products: AWS, Drupal, LiteSpeed, WordPress
+- affected_products: AWS, Drupal, Google Cloud, Google/Gemini, LiteSpeed, WordPress
 - cve_ids: CVE-2026-109618, CVE-2026-109619, CVE-2026-115560
 - urgency_signals: actively_exploited, critical_cvss, poc_available, preauth_unauth
 - content_type: news_report, vendor_announcement, vulnerability_disclosure
@@ -1137,7 +1144,7 @@ Overview On October 21, 2026, the PHP project announced security releases for tw
 Emergent Threat Response CVE-2026-109618 and CVE-2026-109619: Critical Unauthenticated Remote Code Execution in PHP Rapid7 Oct 21, 2026 | Last updated on Oct 24, 2026 | 8 min read CVE-2026-109618 and CVE-2026-109619: Critical Unauthenticated Remote Code Execution in PHP Table of contents CVE-2026-109618 and CVE-2026-109619: Critical Unauthenticated Remote Code Execution in PHP Table of contents Overview On October 21, 2026, the PHP project announced security releases for two critical vulnerabilities in PHP. CVE-2026-109618 can corrupt memory during out-of-memory (OOM) handling, while CVE-2026-109619 is a use-after-free flaw involving state retained between requests. Both have a CVSSv4 score of 9.2 and both can allow for unauthenticated remote code execution (RCE) with the web worker's privileges. CVE CVSSv4 Description CVE-2026-109618 9.2 (Critical) RCE via OOM corruption CVE-2026-109619 9.2 (Critical) RCE via stale global state All installations serving web requests are at risk, including PHP-FPM, Apache mod_php, php-cgi, FrankenPHP, and LiteSpeed. The vendor considers mod_php the highest risk because exploitation can succeed before any application code runs. The advisories report that a successful RCE exploit was developed during research, including achieving RCE against Apache mod_php and PHP-FPM through different attack paths. As of October 21, 2026, there are multiple indications that this research is being independently reproduced, and a viable exploit is expected to be made public soon. Due to the extremely high deployment of PHP based web applications, exploitation in-the-wild is expected. Rapid7 recommends updating affected installations on an emergency basis, outside of normal patch cycles. Multiple public proof-of-concept (PoC) exploits for CVE-2026-109618 and CVE-2026-109619 are now available. Rapid7 researchers have reviewed these and observe that each demonstrates RCE only against a specific combination of operating system, PHP version, and web server, and none appears to be broadly reliable. Rapid7’s own research supports this. Our attempts so far have produced a working exploit only under narrow lab conditions, and exploitation depends on assumptions that are unlikely to hold on internet-facing instances. We are continuing to investigate approaches that could improve portability, but have not yet developed a reliable, general-purpose exploit. Rapid7 has not observed exploitation in the wild, though there are multiple reports of exploitation attempts, which is expected for a vulnerability of this profile. The situation is evolving quickly, and a more portable exploit technique could emerge at any time. The current difficulty of reliable exploitation should be treated as a window to patch rather than a reason to delay, and Rapid7 continues to recommend updating affected installations on an emergency basis. Technical overview CVE-2026-109618: Memory corruption during OOM handling According to the OOM advisory , PHP can abruptly abandon request processing when a memory allocation fails. If internal request data is only partly initialized, that exit can leave invalid data for request cleanup to use. Crafted multipart requests, used for forms and file uploads, can exhaust memory even when their size appears to meet PHP's configured limits. Application operations that allocate memory in response to attacker input can also trigger OOM. Apache mod_php runs cleanup even when request startup fails, enabling the demonstrated attack before application code executes. The advisory reports RCE over HTTP with default PHP input and memory limits, including multi-worker prefork deployments. PHP-FPM terminates a worker when startup fails, preventing that particular sequence. Source analysis supports FPM susceptibility after successful startup, but the advisory reports no complete FPM exploit for this CVE. Exploit portability and reliability depend on the PHP build, extensions, frontend behavior, and memory layout. CVE-2026-109619:
 ```
 
-#### Corroborating sources (17)
+#### Corroborating sources (18)
 
 - **Rapid7** (offensive_vulnerability_research)
   - Title: CVE-2026-109618 and CVE-2026-109619: Critical Unauthenticated Remote Code Execution in PHP
@@ -1169,6 +1176,11 @@ Emergent Threat Response CVE-2026-109618 and CVE-2026-109619: Critical Unauthent
   - Published: 2026-10-22T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/php2shell-cve-2026-109618-and-cve-2026-109619-detecting-unauthenticated-remote-code-execution-in-php-core
   - Summary: PHP2Shell (CVE-2026-109618 and CVE-2026-109619) lets an unauthenticated attacker run code on a PHP server with HTTP requests alone. The Sysdig Threat Research Team analyzed the exploitation and outlines affected versions, mitigations, and how to detect post-exploitation activity at runtime with Sysdig Secure and open source Falco.
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Responding to core PHP vulnerabilities CVE-2026-109618 and CVE-2026-109619
+  - Published: 2026-10-21T14:00:00+00:00
+  - Link: https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/
+  - Summary: Editor's note : This blog was updated on Oct. 23, 2026 at 3:20 p.m. PDT, with additional guidance from Mandiant Consulting on monitoring, patching, and remediation. We have previously updated the blog on Oct. 22, 2026, with revised guidance for Security Command Center and Cloud Armor, and on Oct. 21, 2026 . PHP and Wiz Research disclosed today two critical vulnerabilities in the core PHP language runtime that can expose applications to unauthenticated remote code execution and memory disclosure. Wiz used a mix of models to identify and help remediate these vulnerabilities. Notably, Gemini 4 Argon made an invaluable contribution to finding the vulnerability, exploit development, attack detection, and validation of the patch. While Google Cloud itself is not vulnerable, users of PHP running on Google Cloud may be vulnerable . At Google Cloud, we understand the severity of these vulnerabilities, and are sharing guidance to help our customers take immediate action to secure their applicati
 - **Sophos X-Ops** (detection_response_operations)
   - Title: Proof-of-concept exploit released for PHP vulnerabilities (CVE-2026-109618, CVE-2026-109619)
   - Published: 2026-10-21T00:00:00+00:00
@@ -2585,26 +2597,57 @@ Table of Contents Background Initial infection vector Full infection chain Malwa
   - Link: https://securelist.com/lazarus-operation-flashhole/121541/
   - Summary: Kaspersky researchers analyze Operation FlashHole – a recent complex attack by Lazarus, involving a sophisticated malware set, watering-hole technique and abuse of CrossWeb EX financial security software.
 
+### Cluster 2cb50a13c9 — score 14
+
+- Title: YARA-X 1.22.0 Release, (Sun, Oct 25th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-10-25T19:57:53+00:00
+- Link: https://isc.sans.edu/diary/rss/33454
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+YARA-X&#;x26;#;39;s 1.22.0 release brings 11 improvements and 9 bugfixes.
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: YARA-X 1.22.0 Release, (Sun, Oct 25th)
+  - Published: 2026-10-25T19:57:53+00:00
+  - Link: https://isc.sans.edu/diary/rss/33454
+  - Summary: YARA-X&#;x26;#;39;s 1.22.0 release brings 11 improvements and 9 bugfixes.
+
 ### Cluster 3eb9b72a05 — score 14
 
 - Title: [webapps] Keycloak 26.7.2 - Unauthenticated Account Takeover
 - Source: Exploit-DB (offensive_vulnerability_research)
 - Published: 2026-10-21T00:00:00+00:00
 - Link: https://www.exploit-db.com/exploits/52699
-- Fetch status: ok
+- Fetch status: fetch_failed:ReadTimeout
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-18963
-- urgency_signals: poc_available, preauth_unauth
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
 
 #### Primary article taxonomy
-- cve_ids: CVE-2026-18963
-- urgency_signals: preauth_unauth, poc_available
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
 
@@ -2612,12 +2655,6 @@ Table of Contents Background Initial infection vector Full infection chain Malwa
 
 ```
 Keycloak 26.7.2 - Unauthenticated Account Takeover
-```
-
-#### Full body
-
-```
-Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training Keycloak 26.7.2 - Unauthenticated Account Takeover EDB-ID: 52699 CVE: 2026-18963 EDB Verified: Author: Abel Maldonado Type: webapps Exploit: / Platform: Multiple Date: 2026-10-21 Vulnerable App: # Exploit Title: Keycloak 26.7.2 - Unauthenticated Account Takeover # Date: 2026-10-15 # Exploit Author: Abel Maldonado | Orevim # Vendor Homepage: https://www.keycloak.org/ # Software Link: https://github.com/keycloak/keycloak/releases/tag/26.6.2 # Version: 26.0.0 - 26.4.14, 26.5.0 - 26.6.5, 26.7.0 - 26.7.1 # Tested on: Keycloak 26.6.2 (Docker, quay.io/keycloak/keycloak:26.6.2) # CVE: CVE-2026-18963 # Advisory: https://github.com/keycloak/keycloak/security/advisories/GHSA-4gv3-mc9p-5wqc # CWE: CWE-640 (Weak Password Recovery Mechanism for Forgotten Password) # Type: webapps # Platform: multiple # Repo: https://github.com/orevim/CVE-2026-18963-PoC # Research: https://orevim.co/research#cve-2026-18963 """Proof of concept and vulnerability check for CVE-2026-18963. CVE-2026-18963 is a reset-credentials flow bypass in Keycloak. An unscoped AUTHENTICATION_SELECTOR_SCREEN_DISPLAYED note lets an unauthenticated caller re-render the authenticator selection screen bound to the email execution. On an affected build that execution's action handler sets emailVerified and calls success() without checking the action token, so the flow reaches the update-password required action with no emailed link. Affected: >= 26.0.0 < 26.4.15, >= 26.5.0 < 26.6.6, >= 26.7.0 < 26.7.2. Patched in 26.4.15, 26.6.6 and 26.7.2; the 26.8.0 line ships with the fix. Three modes: --check decide whether the instance is affected, using a random identifier that resolves to nothing. Sends no mail and changes no account. --check --users ... additionally report which identifiers resolve. On an affected build a resolving identifier has emailVerified set as a side effect. --set-password complete the takeover. This locks the account holder out. Endpoints come from the realm's OIDC discovery document and form fields come from the forms themselves, so custom themes, custom paths and custom field names work without edits. Everything else is an option. Playwright is imported only when --open is used. """ from __future__ import annotations import argparse import base64 import dataclasses import enum import hashlib import http.client import http.cookiejar import html import json import os import random import re import secrets import socket import ssl import sys import time import urllib.error import urllib.parse import urllib.request from dataclasses import dataclass, field from html.parser import HTMLParser from pathlib import Path os.umask(0o077) # captures hold request and response material; keep them owner-only # Protocol defaults. Every one of these can be replaced from the command line. DISCOVERY_SUFFIX = ".well-known/openid-configuration" RESET_PATH_MARKER = "login-actions/reset-credentials" SELECTOR_FIELD = "tryAnotherWay=on" USERNAME_FIELD = "username" PASSWORD_FIELDS = ("password-new", "password-confirm") HTML_ACCEPT = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" class Outcome(enum.Enum): NOT_VULNERABLE = "not-vulnerable" ACCOUNT_ABSENT = "account-absent" FORM_REACHED = "form-reached" PASSWORD_SET = "password-set" RATE_LIMITED = "rate-limited" INCONCLUSIVE = "inconclusive" @dataclass class Target: url: str | None = None realm: str | None = None discovery_url: str | None = None auth_url: str | None = None reset_url: str | None = None client_id: str | None = None redirect_uri: str | None = None scope: str = "openid" selector_field: str = SELECTOR_FIELD username_field: str = USERNAME_FIELD password_fields: tuple[str, ...] = PASSWORD_FIELDS address: str | None = None verify_tls: bool = True timeout: float = 30.0 user_agent: str | None = None headers: dict[str, str] = field(default_factory=dict) def __post_init__(self) -> None: if self.url: self.url = sel
 ```
 
 #### Corroborating sources (1)
@@ -3118,6 +3155,47 @@ OnÂ October 19, 2026, at approximatelyÂ 17:00 UTC, Cloudflare became aware tha
   - Link: https://blog.cloudflare.com/emudhra-certificate-compromise/
   - Summary: Following the discovery that eight eMudhra intermediate certificates use weak keys, Cloudflare is deploying mitigations and releasing client updates. We explain the impact, our response, and what customers and developers should do next.
 
+### Cluster 8cb026f4f0 — score 11
+
+- Title: LiteLLM Compromised, Steals Credentials
+- Source: Wiz Research (cloud_identity_infrastructure)
+- Published: 2026-10-21T13:44:12+00:00
+- Link: https://www.wiz.io/blog/litellm-compromised-steals-credentials
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Docker, GitHub, PyPI
+- content_type: incident_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Docker, GitHub, PyPI
+- content_type: incident_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+In a new incident, a malicious version (1.107.0) of the LiteLLM package was uploaded to PyPI and Docker on October 21. The malicious version includes a credential stealer targeting browser, cloud and AI secrets as well as a dormant C2 capability.
+```
+
+#### Full body
+
+```
+LiteLLM Compromised At 11:39 UTC on October 21, a malicious version (1.107.0) of the LiteLLM package was uploaded to PyPI. This version was quarantined on PyPI as of 13:20 UTC. According to ClickPy data , the malicious version received approximately 49,000 downloads. LiteLLM Docker containers on GHCR and Docker hub also included the trojanized version of LiteLLM. These included the v1.107.0 , latest , main-latest and main-stable tags. These were removed ~13:53 UTC. The most recent safe version is v1.106.2. When the malicious package is installed, three files are extracted directly into the site-packages root: cook.pth , cook.py and sitecustomize.py . These packages are designed to be executed whenever a python interpreter is started. Per LiteLLM developer BerriAI : malicious actions were taken through three engineers' GitHub accounts, appearing to be by way of stolen GitHub CLI OAuth tokens. The threat actor used one user's account triggered the project-releaser run, and another user's account to approve it. All tokens which were involved in this attack have been revoked. And in a followup : GitHub CLI OAuth token exposure After a thorough investigation, we have observed specific situations in which Claude Code will embed a user’s GitHub CLI OAuth token into a response body, and in situations where response bodies are logged, these tokens may appear in LiteLLM logs. Access to our internal LiteLLM deployment We identified an unexpected, innocuously named user account in our internal LiteLLM deployment, which was exposed to the public internet. We believe the attacker gained access to this deployment, obtained the GitHub CLI OAuth tokens from its logs, and subsequently used those credentials to compromise our release workflow. We have not yet confirmed how the attacker gained access to our internal deployment, but currently suspect it was through a recently patched vulnerability. UPDATES 14:05 UTC - added IOC table 14:15 UTC - added Attack Commits details 14:40 UTC - added Credential Stealer details, noted Docker takedown 15:20 UTC - clarified dual-technique approach novelty and LLM-aided development 16:40 UTC - added diagram of payload flow 16:55 UTC - added LiteLLM statement on root cause 18:35 UTC - LiteLLM has released a blog post 19:05 UTC - added observed post-exploitation activity 21:45 UTC - updated LiteLLM details on root cause October 22 12:55 UTC - added PyPi download stats Payload Diagram of payload flow The payload has strong indications of LLM-aided development, including verbose variable names (encrypted_private_key_output ), overly defensive error handling with generic try/except blocks, platform-specific code paths that fail silently on untested platforms (Windows marker path /tmp/ doesn't exist, fcntl/fork calls crash the remote loader), and a dead code module ( exec_py ) that was defined but never called. The structure suggests iterative prompting: functional on the happy path but brittle at the edges and untested. Upon startup, the interpreter processes cook.pth , which includes a command to import cook , which loads cook.py . cook.py deobfuscates itself, runs a stealer routine and writes a maker to /tmp/.pc_once_72129118c59f5636c0bb (note this fails on Windows, as the /tmp/ path often does not exist). The stealer routine gathers system, browser, developer, cloud and AI tool secrets, encrypts them and exfiltrates to www.litellm.dev/healthcheck via a post request. This domain is attacker controlled, impersonating LiteLLM infrastructure. Python interpreters will also attempt to execute sitecustomize.py - however, it will only run on Linux & MacOS machines. This script attempts to fetch domain.txt from a GitHub dead drop ( letters9813/pythonclient-test/main/domain.txt) . If it receives a response, it will attempt to download a second stage python script from http://<domain>/codepy and run it. As of the time of analysis, the domain.txt file was never populated beyond initial test values. The repo has been taken d
+```
+
+#### Corroborating sources (1)
+
+- **Wiz Research** (cloud_identity_infrastructure)
+  - Title: LiteLLM Compromised, Steals Credentials
+  - Published: 2026-10-21T13:44:12+00:00
+  - Link: https://www.wiz.io/blog/litellm-compromised-steals-credentials
+  - Summary: In a new incident, a malicious version (1.107.0) of the LiteLLM package was uploaded to PyPI and Docker on October 21. The malicious version includes a credential stealer targeting browser, cloud and AI secrets as well as a dormant C2 capability.
+
 ### Cluster b4dcc058dd — score 11
 
 - Title: Who Checked It? Attestations, Gemara, and CRA Due Diligence
@@ -3160,47 +3238,6 @@ By Eddie Knight Introduction There are several places in security and compliance
   - Published: 2026-10-22T12:10:04+00:00
   - Link: https://openssf.org/blog/2026/10/22/who-checked-it-attestations-gemara-and-cra-due-diligence/
   - Summary: Discover how the OpenSSF Gemara project clarifies the complex world of security attestations, streamlines software supply chain evaluations, and helps organizations confidently meet EU Cyber Resilience Act (CRA) due diligence requirements.
-
-### Cluster 8cb026f4f0 — score 11
-
-- Title: LiteLLM Compromised, Steals Credentials
-- Source: Wiz Research (cloud_identity_infrastructure)
-- Published: 2026-10-21T13:44:12+00:00
-- Link: https://www.wiz.io/blog/litellm-compromised-steals-credentials
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: Docker, GitHub, PyPI
-- content_type: incident_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: Docker, GitHub, PyPI
-- content_type: incident_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-In a new incident, a malicious version (1.107.0) of the LiteLLM package was uploaded to PyPI and Docker on October 21. The malicious version includes a credential stealer targeting browser, cloud and AI secrets as well as a dormant C2 capability.
-```
-
-#### Full body
-
-```
-LiteLLM Compromised At 11:39 UTC on October 21, a malicious version (1.107.0) of the LiteLLM package was uploaded to PyPI. This version was quarantined on PyPI as of 13:20 UTC. According to ClickPy data , the malicious version received approximately 49,000 downloads. LiteLLM Docker containers on GHCR and Docker hub also included the trojanized version of LiteLLM. These included the v1.107.0 , latest , main-latest and main-stable tags. These were removed ~13:53 UTC. The most recent safe version is v1.106.2. When the malicious package is installed, three files are extracted directly into the site-packages root: cook.pth , cook.py and sitecustomize.py . These packages are designed to be executed whenever a python interpreter is started. Per LiteLLM developer BerriAI : malicious actions were taken through three engineers' GitHub accounts, appearing to be by way of stolen GitHub CLI OAuth tokens. The threat actor used one user's account triggered the project-releaser run, and another user's account to approve it. All tokens which were involved in this attack have been revoked. And in a followup : GitHub CLI OAuth token exposure After a thorough investigation, we have observed specific situations in which Claude Code will embed a user’s GitHub CLI OAuth token into a response body, and in situations where response bodies are logged, these tokens may appear in LiteLLM logs. Access to our internal LiteLLM deployment We identified an unexpected, innocuously named user account in our internal LiteLLM deployment, which was exposed to the public internet. We believe the attacker gained access to this deployment, obtained the GitHub CLI OAuth tokens from its logs, and subsequently used those credentials to compromise our release workflow. We have not yet confirmed how the attacker gained access to our internal deployment, but currently suspect it was through a recently patched vulnerability. UPDATES 14:05 UTC - added IOC table 14:15 UTC - added Attack Commits details 14:40 UTC - added Credential Stealer details, noted Docker takedown 15:20 UTC - clarified dual-technique approach novelty and LLM-aided development 16:40 UTC - added diagram of payload flow 16:55 UTC - added LiteLLM statement on root cause 18:35 UTC - LiteLLM has released a blog post 19:05 UTC - added observed post-exploitation activity 21:45 UTC - updated LiteLLM details on root cause October 22 12:55 UTC - added PyPi download stats Payload Diagram of payload flow The payload has strong indications of LLM-aided development, including verbose variable names (encrypted_private_key_output ), overly defensive error handling with generic try/except blocks, platform-specific code paths that fail silently on untested platforms (Windows marker path /tmp/ doesn't exist, fcntl/fork calls crash the remote loader), and a dead code module ( exec_py ) that was defined but never called. The structure suggests iterative prompting: functional on the happy path but brittle at the edges and untested. Upon startup, the interpreter processes cook.pth , which includes a command to import cook , which loads cook.py . cook.py deobfuscates itself, runs a stealer routine and writes a maker to /tmp/.pc_once_72129118c59f5636c0bb (note this fails on Windows, as the /tmp/ path often does not exist). The stealer routine gathers system, browser, developer, cloud and AI tool secrets, encrypts them and exfiltrates to www.litellm.dev/healthcheck via a post request. This domain is attacker controlled, impersonating LiteLLM infrastructure. Python interpreters will also attempt to execute sitecustomize.py - however, it will only run on Linux & MacOS machines. This script attempts to fetch domain.txt from a GitHub dead drop ( letters9813/pythonclient-test/main/domain.txt) . If it receives a response, it will attempt to download a second stage python script from http://<domain>/codepy and run it. As of the time of analysis, the domain.txt file was never populated beyond initial test values. The repo has been taken d
-```
-
-#### Corroborating sources (1)
-
-- **Wiz Research** (cloud_identity_infrastructure)
-  - Title: LiteLLM Compromised, Steals Credentials
-  - Published: 2026-10-21T13:44:12+00:00
-  - Link: https://www.wiz.io/blog/litellm-compromised-steals-credentials
-  - Summary: In a new incident, a malicious version (1.107.0) of the LiteLLM package was uploaded to PyPI and Docker on October 21. The malicious version includes a credential stealer targeting browser, cloud and AI secrets as well as a dormant C2 capability.
 
 ### Cluster 119c62509b — score 11
 
@@ -3736,24 +3773,20 @@ I had plans for that second By Hazel Burton Thursday, October 22, 2026 14:04 Thr
 - Source: Check Point Research (threat_research_primary)
 - Published: 2026-10-23T13:00:09+00:00
 - Link: https://research.checkpoint.com/2026/infostealer-riding-the-ai-train/
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, credential_theft, ransomware_extortion
+- threat_categories: credential_theft
 - affected_industries: financial_services
-- affected_products: Android, Google Cloud, OpenAI/ChatGPT
-- urgency_signals: actively_exploited
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, credential_theft, active_exploitation
+- threat_categories: credential_theft
 - affected_industries: financial_services
-- affected_products: Android, OpenAI/ChatGPT, Google Cloud
-- urgency_signals: actively_exploited
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
@@ -3761,12 +3794,6 @@ I had plans for that second By Hazel Burton Thursday, October 22, 2026 14:04 Thr
 
 ```
 Key Points Introduction Infostealers commonly target browser passwords, session cookies, and cryptocurrency wallets. This malware combines those established capabilities with dedicated collection routines for AI applications and development tools. Its targets include Claude, ChatGPT Desktop, Codex, Cursor, Windsurf, and GitHub Copilot, alongside cloud credentials and sensitive files from local development environments. This expanded targeting reflects […] The post Infostealer riding the AI Train appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-CATEGORIES AI Research 22 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 476 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 430 How To Guides 13 Ransomware 6 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 Infostealer riding the AI Train October 23, 2026 https://research.checkpoint.com/2026/infostealer-riding-the-ai-train/ Key Points Aokigahara , a newly observed infostealer, has been spotted in the wild. An earlier version may have been known as Kamidere or Stygian . The malware includes traditional data theft capabilities targeting browsers, VPN clients, cryptocurrency wallets, FTP/SFTP clients, password managers, and email applications, among other targets. AI applications and development tools are notable targets. The stealer collects authentication files, session data, and configuration files associated with Claude, ChatGPT Desktop, Codex, Cursor, Windsurf, GitHub Copilot, Gemini CLI, and other tools. Stolen AI credentials could offer opportunities for monetization. Usable credentials or session tokens could enable unauthorized access to paid AI services or the resale of compromised accounts. Its collection scope extends to developer and cloud environments. Targets include Git credential files, SSH private keys, and AWS, Azure, and Google Cloud credential and configuration files. Introduction Infostealers commonly target browser passwords, session cookies, and cryptocurrency wallets. This malware combines those established capabilities with dedicated collection routines for AI applications and development tools. Its targets include Claude, ChatGPT Desktop, Codex, Cursor, Windsurf, and GitHub Copilot, alongside cloud credentials and sensitive files from local development environments. This expanded targeting reflects a broader shift in what attackers may consider valuable, not only personal accounts and financial data, but also access to AI services and the environments developers use to build software. Valid credentials or session tokens could expose private conversations and development data, enable unauthorized use of paid services, or potentially be sold to provide access to compromised AI accounts. While the malware’s collection routines support these possibilities, the analysis does not confirm how its operators monetize the stolen data. Stealer Capabilities and Targeted Applications The Aokigahara infostealer includes common information-stealing capabilities, such as screenshot capture, clipboard collection, browser credential and cookie theft, cryptocurrency wallet data collection, and file grabbing. It also includes a clipper handler that drops a separate component for clipboard manipulation. The malware targets Chromium-based browsers and Mozilla Firefox, desktop cryptocurrency wallets and browser wallet extensions, messaging applications such as Discord and Telegram, and gaming platforms such as Steam, Roblox, and Minecraft. Additional targets include password managers, VPN clients, FTP/SFTP clients, email applications, and AI development tools. The table below summarizes each handler, its targets, and any limitations identified during the analysis. The table below lists the malware’s main capabilities and their corresponding internal function names. Function What the handler targets sysinfo The machine and current user: computer/user names, IP, Windows version, CPU/RAM, screen size, language, uptime, running processes, environment variables, installed software, and detected antivirus. screenshot Captures the screen as Screenshot.jpg . clipboard Captures clipboard contents into Clipboard.txt . browsers Chromium-based browser profiles. The embedded paths name Chrome (including Beta/Canary), Edge (including Beta/Dev/Canary), Brave, Opera, Vivaldi, Yandex, 360Chrome, CentBrowser, CocCoc, Comodo Dragon, Epic Privacy Browser, Iridium, Tor
 ```
 
 #### Corroborating sources (1)
@@ -3985,39 +4012,6 @@ Explore Japan's 2026 cyber crisis, rising breach trends, AI tooling, legacy syst
   - Link: https://www.recordedfuture.com/blog/japan-cyber-crisis-warnings
   - Summary: Explore Japan's 2026 cyber crisis, rising breach trends, AI tooling, legacy systems, and key mitigation strategies to protect organizations.
 
-### Cluster 4e3381e10d — score 10
-
-- Title: How bug bounty sharpens one researcher’s security skills
-- Source: GitHub Security Lab (offensive_vulnerability_research)
-- Published: 2026-10-22T17:21:30+00:00
-- Link: https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog .
-```
-
-#### Corroborating sources (1)
-
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - Title: How bug bounty sharpens one researcher’s security skills
-  - Published: 2026-10-22T17:21:30+00:00
-  - Link: https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/
-  - Summary: As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog .
-
 ### Cluster e8059a89a7 — score 10
 
 - Title: Q3 2026 Threat Update: Attackers Are Exploiting Vulnerabilities Within 3 Days
@@ -4052,6 +4046,39 @@ Three days is the average time between a high-severity vulnerability becoming pu
   - Published: 2026-10-21T13:00:00+00:00
   - Link: https://www.rapid7.com/blog/post/tr-q3-2026-threat-update-attackers-exploiting-vulnerabilities-within-3-days
   - Summary: Three days is the average time between a high-severity vulnerability becoming public and its exploitation, according to the latest Quarterly Threat Landscape Report from Rapid7. And 71% of the exploitation tracked in Q3 occurred within the first seven days. For security teams already managing growing vulnerability backlogs, this creates a difficult question: How do you reduce exposure when attackers can exploit vulnerabilities before your next patching window? Rapid7's Q3 2026 research brings together vulnerability intelligence, ransomware activity, APT tracking, and underground forum intelligence to show where attacker activity is concentrated. The exploitation window has narrowed, big time Rapid7 tracked 43 newly exploited high- and critical-severity vulnerabilities this quarter, down 7% from Q2 but still 19% higher than the same period last year. The number of newly exploited vulnerabilities isn't growing at the same rate as disclosures. The more pressing concern is how quickly atta
+
+### Cluster 4e3381e10d — score 10
+
+- Title: How bug bounty sharpens one researcher’s security skills
+- Source: GitHub Security Lab (offensive_vulnerability_research)
+- Published: 2026-10-22T17:21:30+00:00
+- Link: https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog .
+```
+
+#### Corroborating sources (1)
+
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - Title: How bug bounty sharpens one researcher’s security skills
+  - Published: 2026-10-22T17:21:30+00:00
+  - Link: https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/
+  - Summary: As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog .
 
 ### Cluster 30bf137831 — score 10
 
@@ -4443,48 +4470,3 @@ A ransomware group used a supply chain compromise to hack around 40 shipping com
   - Published: 2026-10-23T03:35:19+00:00
   - Link: https://risky.biz/RBNEWS624/
   - Summary: A ransomware group used a supply chain compromise to hack around 40 shipping companies, the Pentagon assembles a technology sabotage unit, PHP2Shell exploitation gets underway and GoDaddy revokes 400,000 certs.
-
-### Cluster 02b4cbceb1 — score 9
-
-- Title: Introducing pathrunner: An AWS privilege escalation framework
-- Source: Datadog Security Labs (cloud_identity_infrastructure)
-- Published: 2026-10-20T00:00:00+00:00
-- Link: https://securitylabs.datadoghq.com/articles/introducing-pathrunner-aws-privilege-escalation-framework/
-- Fetch status: not_attempted
-- Member count: 4
-- Corroborating source count: 3
-- Strong signals: AWS
-
-#### Cluster taxonomy (union across members)
-- affected_products: AWS
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_3_analysis
-
-#### Primary article taxonomy
-- affected_products: AWS
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Introducing pathrunner, a modular, cloud-native offensive security framework that automates the exploitation of AWS IAM privilege escalation paths.
-```
-
-#### Corroborating sources (3)
-
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - Title: Introducing pathrunner: An AWS privilege escalation framework
-  - Published: 2026-10-20T00:00:00+00:00
-  - Link: https://securitylabs.datadoghq.com/articles/introducing-pathrunner-aws-privilege-escalation-framework/
-  - Summary: Introducing pathrunner, a modular, cloud-native offensive security framework that automates the exploitation of AWS IAM privilege escalation paths.
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - Title: Best practices for integrating IAM Roles Anywhere with your PKI
-  - Published: 2026-10-21T17:03:50+00:00
-  - Link: https://aws.amazon.com/blogs/security/best-practices-for-integrating-iam-roles-anywhere-with-your-pki/
-  - Summary: Using temporary credentials is a security best practice to reduce the risk from credentials getting compromised. With AWS IAM Roles Anywhere, now your workloads outside of Amazon Web Services (AWS) will be able to access AWS resources by obtaining temporary security credentials in AWS Identity and Access Management (IAM). IAM Roles Anywhere relies on public […]
-- **tl;dr sec** (practitioner_analysis)
-  - Title: [tl;dr sec] #351 - PHP2Shell, Autopatching Skills, AWS Pathrunner
-  - Published: 2026-10-22T14:30:00+00:00
-  - Link: https://tldrsec.com/p/tldr-sec-351
-  - Summary: My experience with PHP2Shell + related resources, two new OSS skills from Trail of Bits, new tool that automates exploitation of AWS IAM privilege escalation paths
