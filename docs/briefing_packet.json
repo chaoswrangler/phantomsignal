@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-25T15:54:09.202470+00:00",
+  "generated_at": "2026-10-25T18:50:36.658901+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 76,
-  "total_items_in_window": 456,
-  "total_clusters_raw": 234,
+  "feeds_ok": 75,
+  "total_items_in_window": 433,
+  "total_clusters_raw": 232,
   "total_clusters_in_packet": 80,
-  "dropped_low_score": 124,
+  "dropped_low_score": 122,
   "dropped_overflow": 30,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,19 +67,12 @@
     }
   },
   "feed_status": {
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 3
+      "in_window_count": 0
     },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
@@ -109,33 +102,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 2
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 3
+      "in_window_count": 1
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -144,12 +116,19 @@
       "item_count": 15,
       "in_window_count": 5
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 25,
+      "in_window_count": 0
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -158,19 +137,26 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 4
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -179,12 +165,12 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
@@ -200,11 +186,18 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 78,
+      "item_count": 50,
+      "in_window_count": 2
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Exploit-DB": {
@@ -214,18 +207,18 @@
       "item_count": 50,
       "in_window_count": 11
     },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
+    },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 40,
-      "in_window_count": 0
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
       "in_window_count": 0
     },
     "The DFIR Report": {
@@ -235,12 +228,26 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 0
+    },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -256,19 +263,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
-    },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 1
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -277,12 +277,12 @@
       "item_count": 15,
       "in_window_count": 4
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 0
     },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
@@ -291,12 +291,12 @@
       "item_count": 20,
       "in_window_count": 7
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 7
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -305,13 +305,6 @@
       "item_count": 30,
       "in_window_count": 4
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
@@ -319,12 +312,12 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
+      "item_count": 100,
+      "in_window_count": 7
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -332,6 +325,20 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -354,25 +361,18 @@
       "item_count": 20,
       "in_window_count": 5
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 9
-    },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "parse_error",
       "item_count": 0,
+      "in_window_count": 0
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 0
     },
     "Google DeepMind Blog": {
@@ -382,26 +382,12 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 20
     },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
@@ -410,19 +396,26 @@
       "item_count": 10,
       "in_window_count": 4
     },
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 9
+    },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "The Record": {
       "url": "https://therecord.media/feed",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 5,
       "in_window_count": 5
-    },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
     },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
@@ -431,12 +424,12 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 13
+      "item_count": 15,
+      "in_window_count": 15
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -452,13 +445,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 1
-    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -466,12 +452,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 50,
+      "in_window_count": 1
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 13
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -480,19 +473,19 @@
       "item_count": 50,
       "in_window_count": 29
     },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 100
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -501,12 +494,12 @@
       "item_count": 10,
       "in_window_count": 6
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 100,
+      "in_window_count": 100
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -522,12 +515,26 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
@@ -536,29 +543,8 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 23
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -571,12 +557,26 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
+      "item_count": 100,
+      "in_window_count": 23
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -606,19 +606,19 @@
       "item_count": 100,
       "in_window_count": 6
     },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
       "cohort": "policy_strategy_geopolitics",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Google Project Zero": {
       "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
@@ -1306,7 +1306,7 @@
       "cluster_id": "f4a1025e01",
       "priority_score": 36,
       "member_count": 21,
-      "corroborating_source_count": 18,
+      "corroborating_source_count": 17,
       "strong_signals": [
         "CVE-2026-109618",
         "CVE-2026-109619",
@@ -1317,12 +1317,12 @@
           "active_exploitation"
         ],
         "actor_attribution": [],
-        "affected_industries": [],
+        "affected_industries": [
+          "government"
+        ],
         "affected_products": [
           "AWS",
           "Drupal",
-          "Google Cloud",
-          "Google/Gemini",
           "LiteSpeed",
           "WordPress"
         ],
@@ -1568,41 +1568,6 @@
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_2_operator",
             "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Google Cloud Security",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Responding to core PHP vulnerabilities CVE-2026-109618 and CVE-2026-109619",
-          "link": "https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/",
-          "published": "2026-10-21T14:00:00+00:00",
-          "summary": "Editor's note : This blog was updated on Oct. 23, 2026 at 3:20 p.m. PDT, with additional guidance from Mandiant Consulting on monitoring, patching, and remediation. We have previously updated the blog on Oct. 22, 2026, with revised guidance for Security Command Center and Cloud Armor, and on Oct. 21, 2026 . PHP and Wiz Research disclosed today two critical vulnerabilities in the core PHP language runtime that can expose applications to unauthenticated remote code execution and memory disclosure. Wiz used a mix of models to identify and help remediate these vulnerabilities. Notably, Gemini 4 Argon made an invaluable contribution to finding the vulnerability, exploit development, attack detection, and validation of the patch. While Google Cloud itself is not vulnerable, users of PHP running on Google Cloud may be vulnerable . At Google Cloud, we understand the severity of these vulnerabilities, and are sharing guidance to help our customers take immediate action to secure their applicati",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Google Cloud",
-              "Google/Gemini"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-109618",
-              "CVE-2026-109619"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Google Cloud": "target",
-              "Google/Gemini": "target"
-            },
             "weak_tags": {
               "products": []
             }
@@ -1863,14 +1828,16 @@
         {
           "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
-          "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
-          "link": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-          "published": "2026-10-23T07:40:45+00:00",
-          "summary": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought. The attacks aim to exploit CVE-2026-109618 and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote",
+          "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+          "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+          "published": "2026-10-25T17:19:46+00:00",
+          "summary": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619. \"In one case, the attackers targeted a government entity in Europe and within two hours of the initial exploitation they had successfully accessed password hashes and multi-factor",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
-            "affected_industries": [],
+            "affected_industries": [
+              "government"
+            ],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [
@@ -1878,9 +1845,7 @@
               "CVE-2026-109619"
             ],
             "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
+            "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {},
@@ -2167,8 +2132,8 @@
     {
       "cluster_id": "fbd47b91b1",
       "priority_score": 28,
-      "member_count": 9,
-      "corroborating_source_count": 7,
+      "member_count": 7,
+      "corroborating_source_count": 6,
       "strong_signals": [
         "Microsoft 365"
       ],
@@ -2294,37 +2259,6 @@
                   0.3
                 ]
               ]
-            }
-          }
-        },
-        {
-          "source": "Microsoft Security Blog",
-          "cohort": "threat_research_primary",
-          "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-          "published": "2026-10-21T18:23:55+00:00",
-          "summary": "Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise, enabling application credential abuse across Microsoft 365 environments. The post AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise appeared first on Microsoft Security Blog .",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "apt_espionage"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft 365"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Microsoft 365": "target"
-            },
-            "weak_tags": {
-              "products": []
             }
           }
         },
@@ -2653,8 +2587,8 @@
     {
       "cluster_id": "8a05848284",
       "priority_score": 25,
-      "member_count": 3,
-      "corroborating_source_count": 3,
+      "member_count": 2,
+      "corroborating_source_count": 2,
       "strong_signals": [
         "CVE-2026-0257",
         "Palo Alto Networks"
@@ -2764,38 +2698,6 @@
             "role_map": {
               "Palo Alto Networks": "target",
               "Microsoft Windows": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
-          "link": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
-          "published": "2026-10-20T15:32:27+00:00",
-          "summary": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to set up unauthorized VPN connections. It was patched by Palo Alto Networks in May 2026 and was",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Palo Alto Networks"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-0257"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Palo Alto Networks": "target"
             },
             "weak_tags": {
               "products": []
@@ -3816,223 +3718,6 @@
       ]
     },
     {
-      "cluster_id": "cc227d9597",
-      "priority_score": 17,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "GitHub",
-          "Microsoft Defender",
-          "PyPI"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Microsoft Security Blog",
-        "cohort": "threat_research_primary",
-        "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-        "published": "2026-10-23T18:12:19+00:00",
-        "summary": "Microsoft Threat Intelligence analyzes the LiteLLM 1.107.0 compromise, including Python startup hooks, credential theft, remote code loading, detections, and mitigations. The post Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks appeared first on Microsoft Security Blog .",
-        "full_body": "Share Link copied to clipboard! Tags Supply chain attack Threats intelligence AI threats Supply chain attacks Content types Research Products and services Microsoft Defender Topics Actionable threat insights AI and agents On October 21, 2026, a compromised LiteLLM 1.107.0 release was published to the Python Package Index (PyPI) and distributed through official container images. The malicious package added files that Python could execute during normal interpreter initialization. An application did not need to import LiteLLM for the payload to run: starting Python in an affected environment could be enough. Microsoft analyzed two execution paths in the affected wheels: a credential collector launched through a path extension, and a Unix-oriented loader persisted through site-specific configuration. The collector targeted authentication material across developer tools, AI applications, cloud environments, browsers, and infrastructure. A separate database module attempted to read selected credential and model-configuration records from the LiteLLM proxy. Endpoint observations on Windows and macOS matched the recovered collector’s discovery, encryption, and outbound-connection behavior. In one Windows example, a routine Python invocation to install an unrelated dependency activated the collector. This distinction matters for response: investigators should not start Python or pip inside a suspect environment to determine whether the malicious package is present. This blog explains the startup mechanisms, the credentials the payload could reach, and the evidence defenders can use to investigate exposure. It also provides Microsoft Defender detection information, advanced hunting queries, and recovery guidance. Removing the package or a release tag is not sufficient recovery. Organizations must address the affected Python environment, any surviving processes, and credentials accessible to the compromised identity. Attack overview LiteLLM is commonly deployed as a gateway between applications and model providers. In that position it may have access to model-provider API keys, database connection strings, workload identities, routing configuration, and tenant policy data. The same package is also used on developer workstations, build agents, test systems, and containers, which widened the set of environments that could be exposed by the compromised release. According to LiteLLM maintainers , stolen developer GitHub credentials were used to alter the release workflow and redirect it to the lookalike repository Berri-AI/litellm rather than the legitimate BerriAI/litellm repository. A credential associated with another developer account was then used to satisfy a production approval step. Microsoft has not independently determined how the attacker first accessed the upstream environment or obtained those credentials. The compromised package used Python startup mechanisms to execute malicious code automatically, meaning exposure was not limited to systems actively using a LiteLLM gateway. Developer workstations, continuous integration and continuous delivery/deployment (CI/CD) agents, test environments, containers, and other systems that started Python with the affected package installed could also execute the payload. The malicious code supported credential collection and, on Unix-based systems, retrieval and execution of additional Python code. Figure 1: Compromised LiteLLM 1.107.0 execution flow. 1. Compromised package distribution The compromised LiteLLM 1.107.0 release delivered malicious Python startup files to environments where the package was installed. 2. Automatic payload execution Python startup processing launched the credential collector without requiring the application to actively use LiteLLM gateway functionality. 3. Credential and sensitive-data collection The collector targeted developer credentials, cloud credentials, browser data, SSH material, environment variables, and LiteLLM database data accessible to the affected ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "credential_theft"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft Defender",
-            "GitHub",
-            "PyPI"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Microsoft Defender": "target",
-            "GitHub": "target",
-            "PyPI": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Microsoft Security Blog",
-          "cohort": "threat_research_primary",
-          "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-          "published": "2026-10-23T18:12:19+00:00",
-          "summary": "Microsoft Threat Intelligence analyzes the LiteLLM 1.107.0 compromise, including Python startup hooks, credential theft, remote code loading, detections, and mitigations. The post Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks appeared first on Microsoft Security Blog .",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "credential_theft"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft Defender",
-              "GitHub",
-              "PyPI"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Microsoft Defender": "target",
-              "GitHub": "target",
-              "PyPI": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "65f0b10f8b",
-      "priority_score": 17,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Drupal",
-          "OpenAI/ChatGPT",
-          "WordPress"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "poc_available",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Recorded Future",
-        "cohort": "threat_research_primary",
-        "title": "PHP2Shell Exploitation: Two Critical PHP Flaws Explained",
-        "link": "https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation",
-        "published": "2026-10-21T00:00:00+00:00",
-        "summary": "Two critical PHP remote code execution flaws (PHP2Shell) are reportedly being exploited. See who’s exposed, how the exploits work, and how to remediate now.",
-        "full_body": "PHP2Shell Exploitation: Two Critical PHP Flaws Explained Two critical remote code execution vulnerabilities in the PHP engine, CVE-2026-109618 and CVE-2026-109619 (nicknamed “PHP2Shell”), are reportedly being targeted in active exploitation attempts following the leak of technical details ahead of PHP’s October 21, 2026, security release. Because the flaws affect PHP itself rather than a specific application, websites running vulnerable PHP versions may be exposed, including those built on WordPress, Drupal, and Joomla. This post covers PHP’s advisories, exploitation reports, public proof-of-concept exploits, exposure data, and patching guidance, along with details from the TTP Instance Insikt Group® published to customers. Attack Surface Intelligence signatures for CVE-2026-109618 and CVE-2026-109619 are available to Recorded Future customers. Organizations running PHP should patch immediately. The Latest Update Insikt Group has published a TTP Instance for PHP2Shell covering public proof-of-concept (PoC) exploits, observed exploit activity, and recommended mitigations. As of 7 PM UTC on October 21, 2026: Patch status: PHP released fixed versions on October 21, 2026: PHP 8.2.35, 8.3.36, 8.4.27, and 8.5.12. Exploitation status : While there are some reports of emerging exploitation attempts targeting PHP2Shell, the available reporting does not establish the full extent of successful exploitation or confirmed compromises ( 1 , 2 ). PoC status: Publicly available repositories claim to provide PHP2Shell proof-of-concept (PoC) exploits, although their effectiveness and relationship to the confirmed vulnerabilities vary. For example, security researcher J4ck3LSyN published two alleged PoCs but subsequently invalidated the cached-pointer UAF theory underlying their proposed exploitation sequences. How It Started On October 20, 2026, the PHP security team announced an out-of-band security release for October 21 at 14:00 UTC to fix two critical vulnerabilities, both rated 9.2 under CVSS v4.0. PHP initially withheld technical details and affected versions pending coordinated disclosure, warning that the release could be accelerated if vulnerability details leaked or exploitation emerged. Ahead of the scheduled release, watchTowr reported reproducing CVE-2026-109618 and assessed that both vulnerabilities could enable remote code execution (RCE). Technical information subsequently leaked before coordinated disclosure, prompting heightened concern about potential exploitation. PHP shipped the fixes on October 21, alongside a PHP Foundation post about the release, which addressed the emergency release and improvements to PHP's security processes. The “PHP2Shell” name comes from Wiz Research, which found the flaws with Calif and OpenAI and reported them to PHP in August. Wiz’s write-up covers the discovery and root cause in depth. The Vulnerabilities Both CVEs are memory-safety vulnerabilities involving PHP's handling of request memory during initialization, error handling, and cleanup. According to Wiz, out-of-memory (OOM) failures and stale internal state can expose freed or partially initialized memory, potentially enabling memory disclosure, memory corruption, and remote code execution (RCE). CVE-2026-109618: An OOM-related vulnerability involving partially initialized request memory. Wiz identified a use-after-free (UAF) in the session upload-progress unserializer and a related flaw that can disclose PHP worker memory. Wiz demonstrated unauthenticated RCE against WordPress, Drupal, and Joomla. CVE-2026-109619: A stale-state vulnerability involving PHP globals that retain references to freed request memory. Wiz identified a UAF involving fatal-error backtraces and a separate OPcache type-confusion flaw. Wiz demonstrated unauthenticated RCE against Drupal and WordPress. The vulnerabilities affect PHP itself rather than a particular website application. Some exploitation paths involve PHP's session upload-progress functionality, which Vir",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "WordPress",
-            "Drupal",
-            "OpenAI/ChatGPT"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-109618",
-            "CVE-2026-109619"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth",
-            "poc_available"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "WordPress": "target",
-            "Drupal": "target",
-            "OpenAI/ChatGPT": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Recorded Future",
-          "cohort": "threat_research_primary",
-          "title": "PHP2Shell Exploitation: Two Critical PHP Flaws Explained",
-          "link": "https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation",
-          "published": "2026-10-21T00:00:00+00:00",
-          "summary": "Two critical PHP remote code execution flaws (PHP2Shell) are reportedly being exploited. See who’s exposed, how the exploits work, and how to remediate now.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "WordPress",
-              "Drupal",
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-109618",
-              "CVE-2026-109619"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth",
-              "poc_available"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "WordPress": "target",
-              "Drupal": "target",
-              "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "5806ce98aa",
       "priority_score": 17,
       "member_count": 1,
@@ -4157,6 +3842,119 @@
               "Drupal": "target",
               "WordPress": "target",
               "cPanel": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "65f0b10f8b",
+      "priority_score": 17,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Drupal",
+          "OpenAI/ChatGPT",
+          "WordPress"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-109618",
+          "CVE-2026-109619"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "poc_available",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Recorded Future",
+        "cohort": "threat_research_primary",
+        "title": "PHP2Shell Exploitation: Two Critical PHP Flaws Explained",
+        "link": "https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation",
+        "published": "2026-10-21T00:00:00+00:00",
+        "summary": "Two critical PHP remote code execution flaws (PHP2Shell) are reportedly being exploited. See who’s exposed, how the exploits work, and how to remediate now.",
+        "full_body": "PHP2Shell Exploitation: Two Critical PHP Flaws Explained Two critical remote code execution vulnerabilities in the PHP engine, CVE-2026-109618 and CVE-2026-109619 (nicknamed “PHP2Shell”), are reportedly being targeted in active exploitation attempts following the leak of technical details ahead of PHP’s October 21, 2026, security release. Because the flaws affect PHP itself rather than a specific application, websites running vulnerable PHP versions may be exposed, including those built on WordPress, Drupal, and Joomla. This post covers PHP’s advisories, exploitation reports, public proof-of-concept exploits, exposure data, and patching guidance, along with details from the TTP Instance Insikt Group® published to customers. Attack Surface Intelligence signatures for CVE-2026-109618 and CVE-2026-109619 are available to Recorded Future customers. Organizations running PHP should patch immediately. The Latest Update Insikt Group has published a TTP Instance for PHP2Shell covering public proof-of-concept (PoC) exploits, observed exploit activity, and recommended mitigations. As of 7 PM UTC on October 21, 2026: Patch status: PHP released fixed versions on October 21, 2026: PHP 8.2.35, 8.3.36, 8.4.27, and 8.5.12. Exploitation status : While there are some reports of emerging exploitation attempts targeting PHP2Shell, the available reporting does not establish the full extent of successful exploitation or confirmed compromises ( 1 , 2 ). PoC status: Publicly available repositories claim to provide PHP2Shell proof-of-concept (PoC) exploits, although their effectiveness and relationship to the confirmed vulnerabilities vary. For example, security researcher J4ck3LSyN published two alleged PoCs but subsequently invalidated the cached-pointer UAF theory underlying their proposed exploitation sequences. How It Started On October 20, 2026, the PHP security team announced an out-of-band security release for October 21 at 14:00 UTC to fix two critical vulnerabilities, both rated 9.2 under CVSS v4.0. PHP initially withheld technical details and affected versions pending coordinated disclosure, warning that the release could be accelerated if vulnerability details leaked or exploitation emerged. Ahead of the scheduled release, watchTowr reported reproducing CVE-2026-109618 and assessed that both vulnerabilities could enable remote code execution (RCE). Technical information subsequently leaked before coordinated disclosure, prompting heightened concern about potential exploitation. PHP shipped the fixes on October 21, alongside a PHP Foundation post about the release, which addressed the emergency release and improvements to PHP's security processes. The “PHP2Shell” name comes from Wiz Research, which found the flaws with Calif and OpenAI and reported them to PHP in August. Wiz’s write-up covers the discovery and root cause in depth. The Vulnerabilities Both CVEs are memory-safety vulnerabilities involving PHP's handling of request memory during initialization, error handling, and cleanup. According to Wiz, out-of-memory (OOM) failures and stale internal state can expose freed or partially initialized memory, potentially enabling memory disclosure, memory corruption, and remote code execution (RCE). CVE-2026-109618: An OOM-related vulnerability involving partially initialized request memory. Wiz identified a use-after-free (UAF) in the session upload-progress unserializer and a related flaw that can disclose PHP worker memory. Wiz demonstrated unauthenticated RCE against WordPress, Drupal, and Joomla. CVE-2026-109619: A stale-state vulnerability involving PHP globals that retain references to freed request memory. Wiz identified a UAF involving fatal-error backtraces and a separate OPcache type-confusion flaw. Wiz demonstrated unauthenticated RCE against Drupal and WordPress. The vulnerabilities affect PHP itself rather than a particular website application. Some exploitation paths involve PHP's session upload-progress functionality, which Vir",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "WordPress",
+            "Drupal",
+            "OpenAI/ChatGPT"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-109618",
+            "CVE-2026-109619"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth",
+            "poc_available"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "WordPress": "target",
+            "Drupal": "target",
+            "OpenAI/ChatGPT": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Recorded Future",
+          "cohort": "threat_research_primary",
+          "title": "PHP2Shell Exploitation: Two Critical PHP Flaws Explained",
+          "link": "https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation",
+          "published": "2026-10-21T00:00:00+00:00",
+          "summary": "Two critical PHP remote code execution flaws (PHP2Shell) are reportedly being exploited. See who’s exposed, how the exploits work, and how to remediate now.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "WordPress",
+              "Drupal",
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-109618",
+              "CVE-2026-109619"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth",
+              "poc_available"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "WordPress": "target",
+              "Drupal": "target",
+              "OpenAI/ChatGPT": "target"
             },
             "weak_tags": {
               "products": []
@@ -4505,6 +4303,128 @@
       ]
     },
     {
+      "cluster_id": "03ad94fad0",
+      "priority_score": 16,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2026-115560"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "Anthropic/Claude",
+          "OpenAI/ChatGPT"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-109618",
+          "CVE-2026-109619",
+          "CVE-2026-115560"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "no_patch_yet"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
+        "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+        "published": "2026-10-23T11:25:43+00:00",
+        "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called",
+        "full_body": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches  Swati Khandelwal  Oct 23, 2026 Vulnerability / Web Security PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560 , affects only web applications configured in an unusual way, and PHP considers it an unlikely risk. The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called session upload progress until a fix is available in the next routine release. The warning came in a short informational advisory published on October 23. It follows the October 21 emergency release that fixed two critical PHP2Shell flaws, CVE-2026-109618 and CVE-2026-109619 , which let an attacker without an account run code on a server. Those were patched in PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35. The new issue is separate and is not fixed by those releases. Only a narrow setup is at risk. PHP says the problem can occur when a web application does all of the following: sets the session.serialize_handler option to php_binary or php_serialize in its configuration, then changes that option to php while running by calling ini_set(), and makes that change before it calls session_start(). Session upload progress must also still be turned on. An application that never changes the serialize handler while running can leave the feature on and is not exposed through this path. PHP says this setup is unlikely in practice. The action is one line. PHP recommends setting session.upload_progress.enabled=0 until the next routine bugfix release. This is the same setting it already listed as a mitigation in the October 21 advisory for CVE-2026-109619. Anyone who applied it then and left it in place needs to do nothing more for the new issue. Session upload progress is turned on by default and lets an application track the progress of a file upload. Because the setup is uncommon, PHP is handling the fix as part of its regular release cycle rather than as an emergency, and it will publish a full advisory for CVE-2026-115560 with the next release. PHP has not stated which versions are affected, which releases will contain the fix, or a severity score. It also has not said whether the new issue shares a root cause with CVE-2026-109619. No exploitation of CVE-2026-115560 has been reported; the attacks reported since October 21 target the two earlier PHP2Shell flaws. Separately, attempts to exploit the two earlier PHP2Shell flaws have surged. Amazon said its honeypots logged an exploit attempt against CVE-2026-109618 and CVE-2026-109619 on October 17, four days before the flaws were disclosed, and Cloudflare said attempts rose from tens of thousands within 45 minutes of the October 21 disclosure to millions by early October 22. Attackers have tried to use the flaws to install a Mirai botnet variant, according to Sophos and Arctic Wolf. Those attempts have so far failed: Previdian, Wordfence and others report scanning and probing but no confirmed code execution, and researchers say a reliable exploit is proving harder to build than expected. That activity targets the two flaws patched on October 21, not CVE-2026-115560, which has not been reported under attack. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  PHP , Vulnerability , Web Security ⚡ Top Stories This Week Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys ⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware Go Issues Emergen",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services"
+          ],
+          "affected_products": [
+            "OpenAI/ChatGPT",
+            "Anthropic/Claude"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-115560",
+            "CVE-2026-109618",
+            "CVE-2026-109619"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "no_patch_yet"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "OpenAI/ChatGPT": "target",
+            "Anthropic/Claude": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
+          "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+          "published": "2026-10-23T11:25:43+00:00",
+          "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called",
+          "taxonomy": {
+            "threat_categories": [
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services"
+            ],
+            "affected_products": [
+              "OpenAI/ChatGPT",
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-115560",
+              "CVE-2026-109618",
+              "CVE-2026-109619"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "no_patch_yet"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "OpenAI/ChatGPT": "target",
+              "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "5e9563cebc",
       "priority_score": 16,
       "member_count": 1,
@@ -4642,128 +4562,6 @@
                   0.29
                 ]
               ]
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "03ad94fad0",
-      "priority_score": 16,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-115560"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [
-          "Anthropic/Claude",
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-109618",
-          "CVE-2026-109619",
-          "CVE-2026-115560"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "no_patch_yet"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
-        "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-        "published": "2026-10-23T11:25:43+00:00",
-        "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called",
-        "full_body": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches  Swati Khandelwal  Oct 23, 2026 Vulnerability / Web Security PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560 , affects only web applications configured in an unusual way, and PHP considers it an unlikely risk. The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called session upload progress until a fix is available in the next routine release. The warning came in a short informational advisory published on October 23. It follows the October 21 emergency release that fixed two critical PHP2Shell flaws, CVE-2026-109618 and CVE-2026-109619 , which let an attacker without an account run code on a server. Those were patched in PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35. The new issue is separate and is not fixed by those releases. Only a narrow setup is at risk. PHP says the problem can occur when a web application does all of the following: sets the session.serialize_handler option to php_binary or php_serialize in its configuration, then changes that option to php while running by calling ini_set(), and makes that change before it calls session_start(). Session upload progress must also still be turned on. An application that never changes the serialize handler while running can leave the feature on and is not exposed through this path. PHP says this setup is unlikely in practice. The action is one line. PHP recommends setting session.upload_progress.enabled=0 until the next routine bugfix release. This is the same setting it already listed as a mitigation in the October 21 advisory for CVE-2026-109619. Anyone who applied it then and left it in place needs to do nothing more for the new issue. Session upload progress is turned on by default and lets an application track the progress of a file upload. Because the setup is uncommon, PHP is handling the fix as part of its regular release cycle rather than as an emergency, and it will publish a full advisory for CVE-2026-115560 with the next release. PHP has not stated which versions are affected, which releases will contain the fix, or a severity score. It also has not said whether the new issue shares a root cause with CVE-2026-109619. No exploitation of CVE-2026-115560 has been reported; the attacks reported since October 21 target the two earlier PHP2Shell flaws. Separately, attempts to exploit the two earlier PHP2Shell flaws have surged. Amazon said its honeypots logged an exploit attempt against CVE-2026-109618 and CVE-2026-109619 on October 17, four days before the flaws were disclosed, and Cloudflare said attempts rose from tens of thousands within 45 minutes of the October 21 disclosure to millions by early October 22. Attackers have tried to use the flaws to install a Mirai botnet variant, according to Sophos and Arctic Wolf. Those attempts have so far failed: Previdian, Wordfence and others report scanning and probing but no confirmed code execution, and researchers say a reliable exploit is proving harder to build than expected. That activity targets the two flaws patched on October 21, not CVE-2026-115560, which has not been reported under attack. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  PHP , Vulnerability , Web Security ⚡ Top Stories This Week Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys ⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware Go Issues Emergen",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services"
-          ],
-          "affected_products": [
-            "OpenAI/ChatGPT",
-            "Anthropic/Claude"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-115560",
-            "CVE-2026-109618",
-            "CVE-2026-109619"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "no_patch_yet"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "OpenAI/ChatGPT": "target",
-            "Anthropic/Claude": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
-          "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-          "published": "2026-10-23T11:25:43+00:00",
-          "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called",
-          "taxonomy": {
-            "threat_categories": [
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services"
-            ],
-            "affected_products": [
-              "OpenAI/ChatGPT",
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-115560",
-              "CVE-2026-109618",
-              "CVE-2026-109619"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "no_patch_yet"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "OpenAI/ChatGPT": "target",
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
             }
           }
         }
@@ -6684,6 +6482,93 @@
       ]
     },
     {
+      "cluster_id": "abbb9af468",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "no_patch_yet"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+        "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+        "published": "2026-10-25T17:44:09+00:00",
+        "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network's access rules permit to connect to the target. The findings were",
+        "full_body": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers  Swati Khandelwal  Oct 25, 2026 Vulnerability / Network Security A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network's access rules permit to connect to the target. The findings were published on October 25 in a report called Tailworm by Erica Windisch of Cyberdione Labs. Windisch tested Tailscale version 1.104.2 and headscale version 0.29.5, the self-hosted server some networks use to run Tailscale instead of the company's hosted service, over three days in a lab. The report describes tests on that software, not attacks against real networks. As of publication, Tailscale had issued no security bulletin , no CVE identifier, and no fixed version. Tailscale has responded in public. Mike Shaver, the company's vice president of engineering, wrote on Reddit that Tailscale had received the report, had already been looking at the same areas with outside security specialists, and had found issues it is working to fix. Shaver said the company is still working out which setups are affected, and that it is \"not recommending that everyone disable Tailscale SSH.\" Tailscale SSH does not work like a normal SSH server. Rather than checking a connecting user's password or key, it identifies the device, and a single access rule decides whether that device may open an SSH session to a target. Because of this, the attack needs no stolen passwords or keys. It needs a foothold on one device first, which the report says an attacker can get the usual ways: a vulnerable web application, a poisoned software package, phishing, or stolen login details. Tailscale does not create that first foothold. How much an administrator can do about it depends on where the network is run. On Tailscale's hosted service, forwarding can be switched off per rule. On headscale version 0.29.5, forwarding cannot be turned off at all. The report says every SSH grant there should therefore be treated as giving root on the target. In the lab, Windisch showed the problem in stages. Using standard SSH port forwarding, an ordinary session caused the root-level Tailscale process to connect to a system socket that only root should access, and the test gained root and read the system password file almost immediately, without administrator rights. A second method replaced a root-owned socket with the attacker's, allowing direct root command execution against certain services. A third method defeated a safety check meant to limit which files forwarding can access by racing the system between when it checks a file path and when it uses it. That chain went further in the lab, the report says: it captured a key used to enroll new devices and used the key to join an attacker's own machine to the network as a trusted server. That last step worked from start to finish only on networks where Tailscale's Tailnet Lock feature was not enabled. On networks that do, the needed secrets were captured in transit, but the final step was not completed. Windisch describes the overall result as \"wormable.\" In the lab, one compromised device could spread to every device that the access rules allow, with no passwords, no stolen keys, and no user action, in under a second per step. In the report's words, \"the mesh converts one ordinary foothold into fleet-wide privileged access at machine speed.\" That spread was measured in a lab, not seen on real networks. The report names two things that held it back: access rules written as single source-to-destination pairs, which stopped the spread on their own, and device keys tied to hardware such as a TPM or Secure Enclave. Some researchers who read the report have publicly questioned the \"wormable\" description,",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "no_patch_yet"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+          "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+          "published": "2026-10-25T17:44:09+00:00",
+          "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network's access rules permit to connect to the target. The findings were",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "no_patch_yet"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "f320a38d8c",
       "priority_score": 12,
       "member_count": 1,
@@ -6985,6 +6870,93 @@
       ]
     },
     {
+      "cluster_id": "b4dcc058dd",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "legal_professional"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "OpenSSF Blog",
+        "cohort": "ai_security_agentic_risk",
+        "title": "Who Checked It? Attestations, Gemara, and CRA Due Diligence",
+        "link": "https://openssf.org/blog/2026/10/22/who-checked-it-attestations-gemara-and-cra-due-diligence/",
+        "published": "2026-10-22T12:10:04+00:00",
+        "summary": "Discover how the OpenSSF Gemara project clarifies the complex world of security attestations, streamlines software supply chain evaluations, and helps organizations confidently meet EU Cyber Resilience Act (CRA) due diligence requirements.",
+        "full_body": "By Eddie Knight Introduction There are several places in security and compliance where we have semantic overload that causes undue complexity. One case that comes to mind up front is the word “policy,” which can describe the ruleset configuration for a security tool, or it could describe the rules that an organization sets for itself. Another overloaded term is “control,” which could be a statement or a set of information describing a security objective, or it could be a process that was implemented to achieve an objective. Beyond the semantic overload that makes it unnecessarily difficult to work in the security and compliance space, we also have terms that have clear definitions. These terms, however, can have a wide variety of possible implementations. So while we’re not experiencing semantic overload, we are running into functional overload. That’s the type of scenario that we’re dealing with when we look at attestations. It can sometimes feel like people are crossing wires when they talk about attestations, because sometimes it’s one thing and sometimes it’s another thing, and we might find ourselves wishing that people would just decide what they mean when they say attestation… But really, this isn’t an undue complexity. This is a natural complexity that arises from the massive breadth of the ecosystem we’re trying to secure. The OpenSSF’s Gemara project seeks to address both of these complexities. The undue complexity of overloaded terms, Gemara tackles by locking down definitions and taking an opinionated stance. Gemara can also help us with the natural complexity by helping us understand the space in which each thing operates. So when we have something like an attestation that belongs in a variety of places, we can shift from asking “What is an attestation?” to “What is an attestation in this particular circumstance?” Level Set Now that I’ve used four paragraphs in a long introduction, it would serve us to rewind just a bit and establish a conversational baseline. Attestations have always been an important part of life, even before we had a word for them. An attestation is a claim about something by someone. It’s a statement that is made by one party to another. It’s a fairly simple concept. What comes downstream from it is the complexity. When do we need to make claims, and how? I often need to make a claim about who I am. So I can do it verbally. I can also do it by showing identification. These are both attestations: I’m attesting to who I am. When I do it verbally, it carries less legal weight than if I do it with a photo ID. But that carries even less weight than if I do it with a photo ID that you can validate against some database of sorts. So as technology grows and enters into a particular space, our attestations can become more verifiable, more robust. I might also attest to my relationship status. When I tell you that I’m married, that is an attestation. When I show you a marriage certificate, that is an attestation. When you look up that marriage certificate in a database and find that it was properly filed and was signed with witnesses, that attestation carries significantly more evidence along with it, and you’re going to treat that attestation much differently if this claim is important to you. But on the flip side, that claim may be trivial to you, so those validations aren’t something that you need to pursue. And a more complex attestation becomes unnecessary weight. It’s not creating any value for you because you didn’t need to have all of these verifications. It may be that you have already done the verification yourself. It may be that you have already established a line of trust with me to where you don’t need to validate my word, or it may be that you just don’t actually care whether or not I’m married. And this is where our digital attestations for software and security and supply chain decisions can become very, very complex. We are able to introduce extremely detailed, high-fidelity claims, bu",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "legal_professional"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "OpenSSF Blog",
+          "cohort": "ai_security_agentic_risk",
+          "title": "Who Checked It? Attestations, Gemara, and CRA Due Diligence",
+          "link": "https://openssf.org/blog/2026/10/22/who-checked-it-attestations-gemara-and-cra-due-diligence/",
+          "published": "2026-10-22T12:10:04+00:00",
+          "summary": "Discover how the OpenSSF Gemara project clarifies the complex world of security attestations, streamlines software supply chain evaluations, and helps organizations confidently meet EU Cyber Resilience Act (CRA) due diligence requirements.",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "legal_professional"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "8cb026f4f0",
       "priority_score": 11,
       "member_count": 1,
@@ -7100,93 +7072,6 @@
                   0.28
                 ]
               ]
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "b4dcc058dd",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "legal_professional"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "OpenSSF Blog",
-        "cohort": "ai_security_agentic_risk",
-        "title": "Who Checked It? Attestations, Gemara, and CRA Due Diligence",
-        "link": "https://openssf.org/blog/2026/10/22/who-checked-it-attestations-gemara-and-cra-due-diligence/",
-        "published": "2026-10-22T12:10:04+00:00",
-        "summary": "Discover how the OpenSSF Gemara project clarifies the complex world of security attestations, streamlines software supply chain evaluations, and helps organizations confidently meet EU Cyber Resilience Act (CRA) due diligence requirements.",
-        "full_body": "By Eddie Knight Introduction There are several places in security and compliance where we have semantic overload that causes undue complexity. One case that comes to mind up front is the word “policy,” which can describe the ruleset configuration for a security tool, or it could describe the rules that an organization sets for itself. Another overloaded term is “control,” which could be a statement or a set of information describing a security objective, or it could be a process that was implemented to achieve an objective. Beyond the semantic overload that makes it unnecessarily difficult to work in the security and compliance space, we also have terms that have clear definitions. These terms, however, can have a wide variety of possible implementations. So while we’re not experiencing semantic overload, we are running into functional overload. That’s the type of scenario that we’re dealing with when we look at attestations. It can sometimes feel like people are crossing wires when they talk about attestations, because sometimes it’s one thing and sometimes it’s another thing, and we might find ourselves wishing that people would just decide what they mean when they say attestation… But really, this isn’t an undue complexity. This is a natural complexity that arises from the massive breadth of the ecosystem we’re trying to secure. The OpenSSF’s Gemara project seeks to address both of these complexities. The undue complexity of overloaded terms, Gemara tackles by locking down definitions and taking an opinionated stance. Gemara can also help us with the natural complexity by helping us understand the space in which each thing operates. So when we have something like an attestation that belongs in a variety of places, we can shift from asking “What is an attestation?” to “What is an attestation in this particular circumstance?” Level Set Now that I’ve used four paragraphs in a long introduction, it would serve us to rewind just a bit and establish a conversational baseline. Attestations have always been an important part of life, even before we had a word for them. An attestation is a claim about something by someone. It’s a statement that is made by one party to another. It’s a fairly simple concept. What comes downstream from it is the complexity. When do we need to make claims, and how? I often need to make a claim about who I am. So I can do it verbally. I can also do it by showing identification. These are both attestations: I’m attesting to who I am. When I do it verbally, it carries less legal weight than if I do it with a photo ID. But that carries even less weight than if I do it with a photo ID that you can validate against some database of sorts. So as technology grows and enters into a particular space, our attestations can become more verifiable, more robust. I might also attest to my relationship status. When I tell you that I’m married, that is an attestation. When I show you a marriage certificate, that is an attestation. When you look up that marriage certificate in a database and find that it was properly filed and was signed with witnesses, that attestation carries significantly more evidence along with it, and you’re going to treat that attestation much differently if this claim is important to you. But on the flip side, that claim may be trivial to you, so those validations aren’t something that you need to pursue. And a more complex attestation becomes unnecessary weight. It’s not creating any value for you because you didn’t need to have all of these verifications. It may be that you have already done the verification yourself. It may be that you have already established a line of trust with me to where you don’t need to validate my word, or it may be that you just don’t actually care whether or not I’m married. And this is where our digital attestations for software and security and supply chain decisions can become very, very complex. We are able to introduce extremely detailed, high-fidelity claims, bu",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "legal_professional"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "OpenSSF Blog",
-          "cohort": "ai_security_agentic_risk",
-          "title": "Who Checked It? Attestations, Gemara, and CRA Due Diligence",
-          "link": "https://openssf.org/blog/2026/10/22/who-checked-it-attestations-gemara-and-cra-due-diligence/",
-          "published": "2026-10-22T12:10:04+00:00",
-          "summary": "Discover how the OpenSSF Gemara project clarifies the complex world of security attestations, streamlines software supply chain evaluations, and helps organizations confidently meet EU Cyber Resilience Act (CRA) due diligence requirements.",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "legal_professional"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
             }
           }
         }
@@ -8300,111 +8185,6 @@
       ]
     },
     {
-      "cluster_id": "ffb7745d72",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "phishing_social_eng",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education",
-          "government",
-          "retail_ecommerce"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "no_patch_yet"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Recorded Future",
-        "cohort": "threat_research_primary",
-        "title": "Behind Japan’s Warnings of a Cyber Crisis",
-        "link": "https://www.recordedfuture.com/blog/japan-cyber-crisis-warnings",
-        "published": "2026-10-22T00:00:00+00:00",
-        "summary": "Explore Japan's 2026 cyber crisis, rising breach trends, AI tooling, legacy systems, and key mitigation strategies to protect organizations.",
-        "full_body": "Behind Japan’s Warnings of a Cyber Crisis Reporting on cyberattacks against Japanese entities rose 48% between Q2 and Q3 2026, encompassing ransomware, exploitation of vulnerabilities, credential leaks, and service disruptions. Significant incidents exposed millions of customer records and disrupted operations across multiple sectors, with attacks on shared service providers extending the impact to downstream organizations. Further incidents in October 2026 indicate that these trends have persisted into Q4. This report examines potential contributing factors, including demand for Japanese personal information, legacy systems, software vulnerabilities, weak API controls, and AI’s likely role in lowering technical and language barriers. New incident-reporting requirements under Japan’s Active Cyber Defense (ACD) law, effective October 1, may further increase the number of disclosures of incidents affecting Japanese organizations. A Significant Increase in Cyberattacks Throughout Q3 2026, Insikt Group observed a significant increase in reported cyberattacks targeting organizations in Japan. Between Q2 and Q3, reports of such incidents rose 48%, from 621 to 918, according to the Recorded Future Intelligence Platform. Our observations were subsequently validated by statements from Masaaki Taira, head of Japan’s National Cybersecurity Strategy Headquarters (NCSH), declaring a “state of emergency in cyberspace” in Japan following a number of high-profile breaches. Trend Micro similarly noted an increase in cyberattacks against Japanese organizations, reporting that the number of cyberattacks affecting the country between January and September 2026 exceeded the total for the entirety of 2025, with 86 attacks reported in September alone. Q3 2026 breach disclosures from Japanese organizations highlight several risks, including operational disruption, exposure of sensitive data, and phishing-enabled account compromise. The figure below highlights some of the most significant breaches in Japan observed throughout Q3 2026. Figure 1: Selection of significant breaches in Japan during Q3 2026; the figure is not comprehensive (Source: Recorded Future) At least two features set the Q3 Japan breaches apart from other such breaches. The first is the breadth of the attacks: victim organizations spanned the retail, rail, logistics, media, education, and software industries, and the intrusions involved ransomware, stolen cloud credentials, and exploited web-facing systems. The second is the scale of the attacks: single incidents now routinely affect millions of user records or organizations downstream that rely on the targeted services, such as roughly 33 million records leaked from the EPARK PeakManager reservation platform in July and 6.6 million accounts from Times Car in September. This trend has continued into Q4. On October 7, a ransomware incident affected IDCFrontier , a Japanese cloud provider, disrupting 495 companies and local governments. Almost a week later, on October 13, 2026, a data breach affected the Japanese software company Sourcenext. In this incident, an unidentified third party misused the company’s member information retrieval API to compromise 22,519,960 customer records containing personally identifiable information, including email addresses, passwords, names, addresses, phone numbers, dates of birth, employment information, and more. Our observations complement October 2026 warnings issued by several Japanese agencies, including the Japan Computer Emergency Response Team Coordination Center ( JPCERT/CC ), the Personal Information Protection Commission (PPC), and the Innovation Platform Agency (IPA), regarding a series of cyberattacks targeting Japan -based organizations. JPCERT/CC’s notice warned of at least four consistent tactics, techniques, and procedures (TTPs) linked to recent incidents: Exploitation of known vulnerabilities in unpatched systems or misconfigurations; Attacking internal and external APIs, sometimes u",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng",
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government",
-            "education",
-            "retail_ecommerce"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "no_patch_yet"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Recorded Future",
-          "cohort": "threat_research_primary",
-          "title": "Behind Japan’s Warnings of a Cyber Crisis",
-          "link": "https://www.recordedfuture.com/blog/japan-cyber-crisis-warnings",
-          "published": "2026-10-22T00:00:00+00:00",
-          "summary": "Explore Japan's 2026 cyber crisis, rising breach trends, AI tooling, legacy systems, and key mitigation strategies to protect organizations.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government",
-              "education",
-              "retail_ecommerce"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "no_patch_yet"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "a28b47ffdb",
       "priority_score": 10,
       "member_count": 1,
@@ -8493,17 +8273,25 @@
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "credential_theft"
+          "active_exploitation",
+          "credential_theft",
+          "ransomware_extortion"
         ],
         "actor_attribution": [],
         "affected_industries": [
           "financial_services"
         ],
-        "affected_products": [],
+        "affected_products": [
+          "Android",
+          "Google Cloud",
+          "OpenAI/ChatGPT"
+        ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "actively_exploited"
+        ],
         "content_type": [
           "news_report"
         ],
@@ -8518,26 +8306,38 @@
         "link": "https://research.checkpoint.com/2026/infostealer-riding-the-ai-train/",
         "published": "2026-10-23T13:00:09+00:00",
         "summary": "Key Points Introduction Infostealers commonly target browser passwords, session cookies, and cryptocurrency wallets. This malware combines those established capabilities with dedicated collection routines for AI applications and development tools. Its targets include Claude, ChatGPT Desktop, Codex, Cursor, Windsurf, and GitHub Copilot, alongside cloud credentials and sensitive files from local development environments. This expanded targeting reflects […] The post Infostealer riding the AI Train appeared first on Check Point Research .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "CATEGORIES AI Research 22 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 476 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 430 How To Guides 13 Ransomware 6 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 Infostealer riding the AI Train October 23, 2026 https://research.checkpoint.com/2026/infostealer-riding-the-ai-train/ Key Points Aokigahara , a newly observed infostealer, has been spotted in the wild. An earlier version may have been known as Kamidere or Stygian . The malware includes traditional data theft capabilities targeting browsers, VPN clients, cryptocurrency wallets, FTP/SFTP clients, password managers, and email applications, among other targets. AI applications and development tools are notable targets. The stealer collects authentication files, session data, and configuration files associated with Claude, ChatGPT Desktop, Codex, Cursor, Windsurf, GitHub Copilot, Gemini CLI, and other tools. Stolen AI credentials could offer opportunities for monetization. Usable credentials or session tokens could enable unauthorized access to paid AI services or the resale of compromised accounts. Its collection scope extends to developer and cloud environments. Targets include Git credential files, SSH private keys, and AWS, Azure, and Google Cloud credential and configuration files. Introduction Infostealers commonly target browser passwords, session cookies, and cryptocurrency wallets. This malware combines those established capabilities with dedicated collection routines for AI applications and development tools. Its targets include Claude, ChatGPT Desktop, Codex, Cursor, Windsurf, and GitHub Copilot, alongside cloud credentials and sensitive files from local development environments. This expanded targeting reflects a broader shift in what attackers may consider valuable, not only personal accounts and financial data, but also access to AI services and the environments developers use to build software. Valid credentials or session tokens could expose private conversations and development data, enable unauthorized use of paid services, or potentially be sold to provide access to compromised AI accounts. While the malware’s collection routines support these possibilities, the analysis does not confirm how its operators monetize the stolen data. Stealer Capabilities and Targeted Applications The Aokigahara infostealer includes common information-stealing capabilities, such as screenshot capture, clipboard collection, browser credential and cookie theft, cryptocurrency wallet data collection, and file grabbing. It also includes a clipper handler that drops a separate component for clipboard manipulation. The malware targets Chromium-based browsers and Mozilla Firefox, desktop cryptocurrency wallets and browser wallet extensions, messaging applications such as Discord and Telegram, and gaming platforms such as Steam, Roblox, and Minecraft. Additional targets include password managers, VPN clients, FTP/SFTP clients, email applications, and AI development tools. The table below summarizes each handler, its targets, and any limitations identified during the analysis. The table below lists the malware’s main capabilities and their corresponding internal function names. Function What the handler targets sysinfo The machine and current user: computer/user names, IP, Windows version, CPU/RAM, screen size, language, uptime, running processes, environment variables, installed software, and detected antivirus. screenshot Captures the screen as Screenshot.jpg . clipboard Captures clipboard contents into Clipboard.txt . browsers Chromium-based browser profiles. The embedded paths name Chrome (including Beta/Canary), Edge (including Beta/Dev/Canary), Brave, Opera, Vivaldi, Yandex, 360Chrome, CentBrowser, CocCoc, Comodo Dragon, Epic Privacy Browser, Iridium, Tor",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "credential_theft"
+            "ransomware_extortion",
+            "credential_theft",
+            "active_exploitation"
           ],
           "actor_attribution": [],
           "affected_industries": [
             "financial_services"
           ],
-          "affected_products": [],
+          "affected_products": [
+            "Android",
+            "OpenAI/ChatGPT",
+            "Google Cloud"
+          ],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
-          "urgency_signals": [],
+          "urgency_signals": [
+            "actively_exploited"
+          ],
           "content_type": "news_report",
           "confidence_tier": "tier_1_primary_research",
           "role_map": {
-            "GitHub": "mention",
-            "OpenAI/ChatGPT": "mention"
+            "Android": "target",
+            "OpenAI/ChatGPT": "target",
+            "Google Cloud": "target",
+            "Azure": "target",
+            "AWS": "target",
+            "GitHub": "mention"
           },
           "weak_tags": {
             "products": [
@@ -8545,11 +8345,6 @@
                 "GitHub",
                 "mention",
                 0.29
-              ],
-              [
-                "OpenAI/ChatGPT",
-                "mention",
-                0.28
               ]
             ]
           }
@@ -8565,22 +8360,34 @@
           "summary": "Key Points Introduction Infostealers commonly target browser passwords, session cookies, and cryptocurrency wallets. This malware combines those established capabilities with dedicated collection routines for AI applications and development tools. Its targets include Claude, ChatGPT Desktop, Codex, Cursor, Windsurf, and GitHub Copilot, alongside cloud credentials and sensitive files from local development environments. This expanded targeting reflects […] The post Infostealer riding the AI Train appeared first on Check Point Research .",
           "taxonomy": {
             "threat_categories": [
-              "credential_theft"
+              "ransomware_extortion",
+              "credential_theft",
+              "active_exploitation"
             ],
             "actor_attribution": [],
             "affected_industries": [
               "financial_services"
             ],
-            "affected_products": [],
+            "affected_products": [
+              "Android",
+              "OpenAI/ChatGPT",
+              "Google Cloud"
+            ],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
-            "urgency_signals": [],
+            "urgency_signals": [
+              "actively_exploited"
+            ],
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
             "role_map": {
-              "GitHub": "mention",
-              "OpenAI/ChatGPT": "mention"
+              "Android": "target",
+              "OpenAI/ChatGPT": "target",
+              "Google Cloud": "target",
+              "Azure": "target",
+              "AWS": "target",
+              "GitHub": "mention"
             },
             "weak_tags": {
               "products": [
@@ -8588,11 +8395,6 @@
                   "GitHub",
                   "mention",
                   0.29
-                ],
-                [
-                  "OpenAI/ChatGPT",
-                  "mention",
-                  0.28
                 ]
               ]
             }
@@ -9006,6 +8808,81 @@
       ]
     },
     {
+      "cluster_id": "ffb7745d72",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Recorded Future",
+        "cohort": "threat_research_primary",
+        "title": "Behind Japan’s Warnings of a Cyber Crisis",
+        "link": "https://www.recordedfuture.com/blog/japan-cyber-crisis-warnings",
+        "published": "2026-10-22T00:00:00+00:00",
+        "summary": "Explore Japan's 2026 cyber crisis, rising breach trends, AI tooling, legacy systems, and key mitigation strategies to protect organizations.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Recorded Future",
+          "cohort": "threat_research_primary",
+          "title": "Behind Japan’s Warnings of a Cyber Crisis",
+          "link": "https://www.recordedfuture.com/blog/japan-cyber-crisis-warnings",
+          "published": "2026-10-22T00:00:00+00:00",
+          "summary": "Explore Japan's 2026 cyber crisis, rising breach trends, AI tooling, legacy systems, and key mitigation strategies to protect organizations.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "4e3381e10d",
       "priority_score": 10,
       "member_count": 1,
@@ -9156,6 +9033,93 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_offensive_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "30bf137831",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_3_analysis"
+        ]
+      },
+      "primary": {
+        "source": "Schneier on Security",
+        "cohort": "practitioner_analysis",
+        "title": "Possible new Cellebrite iPhone Radio Zero-Day",
+        "link": "https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
+        "published": "2026-10-20T11:03:13+00:00",
+        "summary": "Justin.sh is reporting on a confidential Cellebrite document that has been leaked to him: Cellebrite calls it Advanced Unlocks (AU from here on), not to be confused with the “advanced unlocking services” they’ve marketed for years. A press release from earlier this year confirms AU is a new product for 2026. […] According to Cellebrite, AU: is a “next-generation AFU vector that is more resilient to Apple’s OS changes” works with Stolen Device Protection enabled, which tightens USB restrictions is enabled by a dedicated appliance with a stated range (!) of about 8 meters...",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_3_analysis",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Schneier on Security",
+          "cohort": "practitioner_analysis",
+          "title": "Possible new Cellebrite iPhone Radio Zero-Day",
+          "link": "https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
+          "published": "2026-10-20T11:03:13+00:00",
+          "summary": "Justin.sh is reporting on a confidential Cellebrite document that has been leaked to him: Cellebrite calls it Advanced Unlocks (AU from here on), not to be confused with the “advanced unlocking services” they’ve marketed for years. A press release from earlier this year confirms AU is a new product for 2026. […] According to Cellebrite, AU: is a “next-generation AFU vector that is more resilient to Apple’s OS changes” works with Stolen Device Protection enabled, which tightens USB restrictions is enabled by a dedicated appliance with a stated range (!) of about 8 meters...",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_3_analysis",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -9506,93 +9470,6 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "30bf137831",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_3_analysis"
-        ]
-      },
-      "primary": {
-        "source": "Schneier on Security",
-        "cohort": "practitioner_analysis",
-        "title": "Possible new Cellebrite iPhone Radio Zero-Day",
-        "link": "https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
-        "published": "2026-10-20T11:03:13+00:00",
-        "summary": "Justin.sh is reporting on a confidential Cellebrite document that has been leaked to him: Cellebrite calls it Advanced Unlocks (AU from here on), not to be confused with the “advanced unlocking services” they’ve marketed for years. A press release from earlier this year confirms AU is a new product for 2026. […] According to Cellebrite, AU: is a “next-generation AFU vector that is more resilient to Apple’s OS changes” works with Stolen Device Protection enabled, which tightens USB restrictions is enabled by a dedicated appliance with a stated range (!) of about 8 meters...",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_3_analysis",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Schneier on Security",
-          "cohort": "practitioner_analysis",
-          "title": "Possible new Cellebrite iPhone Radio Zero-Day",
-          "link": "https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
-          "published": "2026-10-20T11:03:13+00:00",
-          "summary": "Justin.sh is reporting on a confidential Cellebrite document that has been leaked to him: Cellebrite calls it Advanced Unlocks (AU from here on), not to be confused with the “advanced unlocking services” they’ve marketed for years. A press release from earlier this year confirms AU is a new product for 2026. […] According to Cellebrite, AU: is a “next-generation AFU vector that is more resilient to Apple’s OS changes” works with Stolen Device Protection enabled, which tightens USB restrictions is enabled by a dedicated appliance with a stated range (!) of about 8 meters...",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_3_analysis",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -10263,7 +10140,7 @@
       },
       "cluster_count": 10,
       "article_count": 30,
-      "cohesion": 0.423,
+      "cohesion": 0.424,
       "shared_strong_signals": [
         "CVE-2026-109619"
       ],
@@ -10272,12 +10149,12 @@
       "cluster_ids": [
         "f4a1025e01",
         "59969a7c2a",
-        "65f0b10f8b",
         "5806ce98aa",
+        "65f0b10f8b",
         "27252b6951",
         "fa232b0e92",
-        "5e9563cebc",
         "03ad94fad0",
+        "5e9563cebc",
         "f320a38d8c",
         "21772a3458"
       ],
@@ -10288,7 +10165,6 @@
         "https://orca.security/resources/blog/php2shell-php-rce-vulnerabilities/",
         "https://isc.sans.edu/diary/rss/33440",
         "https://webflow.sysdig.com/blog/php2shell-cve-2026-109618-and-cve-2026-109619-detecting-unauthenticated-remote-code-execution-in-php-core",
-        "https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/",
         "https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
         "https://www.elastic.co/security-labs/threat-command/php2shell-php-rce-detection",
         "https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/",
@@ -10298,15 +10174,15 @@
         "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
         "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
         "https://www.reddit.com/r/netsec/comments/1xb5g1c/php_rce_cve2026109618/",
-        "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+        "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-109618-cve-2026-109619/",
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-76268/",
-        "https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation",
         "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
+        "https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation",
         "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
         "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
-        "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
         "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+        "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
         "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
         "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/"
       ]
@@ -10335,7 +10211,7 @@
       },
       "cluster_count": 10,
       "article_count": 30,
-      "cohesion": 0.423,
+      "cohesion": 0.424,
       "shared_strong_signals": [
         "CVE-2026-109618"
       ],
@@ -10344,12 +10220,12 @@
       "cluster_ids": [
         "f4a1025e01",
         "59969a7c2a",
-        "65f0b10f8b",
         "5806ce98aa",
+        "65f0b10f8b",
         "27252b6951",
         "fa232b0e92",
-        "5e9563cebc",
         "03ad94fad0",
+        "5e9563cebc",
         "f320a38d8c",
         "21772a3458"
       ],
@@ -10360,7 +10236,6 @@
         "https://orca.security/resources/blog/php2shell-php-rce-vulnerabilities/",
         "https://isc.sans.edu/diary/rss/33440",
         "https://webflow.sysdig.com/blog/php2shell-cve-2026-109618-and-cve-2026-109619-detecting-unauthenticated-remote-code-execution-in-php-core",
-        "https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/",
         "https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
         "https://www.elastic.co/security-labs/threat-command/php2shell-php-rce-detection",
         "https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/",
@@ -10370,15 +10245,15 @@
         "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
         "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
         "https://www.reddit.com/r/netsec/comments/1xb5g1c/php_rce_cve2026109618/",
-        "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+        "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-109618-cve-2026-109619/",
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-76268/",
-        "https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation",
         "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
+        "https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation",
         "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
         "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
-        "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
         "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+        "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
         "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
         "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/"
       ]
@@ -10400,7 +10275,7 @@
       },
       "cluster_count": 6,
       "article_count": 32,
-      "cohesion": 0.232,
+      "cohesion": 0.234,
       "shared_strong_signals": [
         "AWS"
       ],
@@ -10421,7 +10296,6 @@
         "https://orca.security/resources/blog/php2shell-php-rce-vulnerabilities/",
         "https://isc.sans.edu/diary/rss/33440",
         "https://webflow.sysdig.com/blog/php2shell-cve-2026-109618-and-cve-2026-109619-detecting-unauthenticated-remote-code-execution-in-php-core",
-        "https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/",
         "https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
         "https://www.elastic.co/security-labs/threat-command/php2shell-php-rce-detection",
         "https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/",
@@ -10431,7 +10305,7 @@
         "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
         "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
         "https://www.reddit.com/r/netsec/comments/1xb5g1c/php_rce_cve2026109618/",
-        "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+        "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-109618-cve-2026-109619/",
         "https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors",
         "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
@@ -10472,63 +10346,20 @@
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "65f0b10f8b",
         "5806ce98aa",
+        "65f0b10f8b",
         "5e9563cebc",
         "21772a3458",
         "42fec6ef81",
         "b4eef500a6"
       ],
       "links": [
-        "https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation",
         "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
+        "https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation",
         "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
         "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
         "https://simonwillison.net/2026/Oct/21/php-security-release/",
         "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/"
-      ]
-    },
-    {
-      "label": "supply chain targeting PyPI",
-      "anchor_signal": "PyPI",
-      "theme_key": "pypi",
-      "dominant_features": {
-        "threat_categories": [
-          "supply_chain",
-          "credential_theft"
-        ],
-        "affected_products": [
-          "GitHub",
-          "PyPI",
-          "Docker"
-        ]
-      },
-      "cluster_count": 4,
-      "article_count": 12,
-      "cohesion": 0.228,
-      "shared_strong_signals": [
-        "PyPI"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "3d6ca9f782",
-        "cc227d9597",
-        "1d63c3b8c3",
-        "8cb026f4f0"
-      ],
-      "links": [
-        "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-langflow-mongodb-and-more",
-        "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/",
-        "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-        "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
-        "https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors",
-        "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-        "https://securitylabs.datadoghq.com/articles/litellm-compromised-pypi-docker/",
-        "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
-        "https://www.helpnetsecurity.com/2026/10/22/litellm-compromised-supply-chain-attack-pypi-docker/",
-        "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
-        "https://www.wiz.io/blog/litellm-compromised-steals-credentials"
       ]
     },
     {
@@ -10559,15 +10390,15 @@
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "65f0b10f8b",
         "5806ce98aa",
+        "65f0b10f8b",
         "5f2d69d128",
         "42fec6ef81",
         "1b50feeeac"
       ],
       "links": [
-        "https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation",
         "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
+        "https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation",
         "https://www.wiz.io/blog/php2shell-php-rce",
         "https://simonwillison.net/2026/Oct/21/php-security-release/",
         "https://www.reddit.com/r/netsec/comments/1x9q96y/cve2026108097_deep_dive_turning_a_drupal_field_ui/"
@@ -10611,6 +10442,43 @@
         "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
         "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
         "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/"
+      ]
+    },
+    {
+      "label": "PyPI vulnerability activity",
+      "anchor_signal": "PyPI",
+      "theme_key": "pypi",
+      "dominant_features": {
+        "affected_products": [
+          "GitHub",
+          "PyPI",
+          "Docker"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 11,
+      "cohesion": 0.213,
+      "shared_strong_signals": [
+        "PyPI"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "3d6ca9f782",
+        "1d63c3b8c3",
+        "8cb026f4f0"
+      ],
+      "links": [
+        "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-langflow-mongodb-and-more",
+        "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/",
+        "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+        "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
+        "https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors",
+        "https://securitylabs.datadoghq.com/articles/litellm-compromised-pypi-docker/",
+        "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+        "https://www.helpnetsecurity.com/2026/10/22/litellm-compromised-supply-chain-attack-pypi-docker/",
+        "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+        "https://www.wiz.io/blog/litellm-compromised-steals-credentials"
       ]
     },
     {
@@ -10770,7 +10638,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 5,
+      "article_count": 4,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "Microsoft Windows"
@@ -10785,7 +10653,6 @@
         "https://securelist.com/uefi-bootkit-blackx/121539/",
         "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
         "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
-        "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
         "https://www.helpnetsecurity.com/2026/10/25/week-in-review-php-vulnerabilities-patched-exploited-palo-alto-globalprotect-vpn-flaw/"
       ]
     }
@@ -10825,8 +10692,6 @@
           "CVE-2026-109619",
           "CVE-2026-115560",
           "Drupal",
-          "Google Cloud",
-          "Google/Gemini",
           "LiteSpeed",
           "WordPress"
         ]
@@ -10979,7 +10844,7 @@
         "axis": "actor_attribution",
         "value": "Cl0p",
         "cluster_id": "0be1df44fd",
-        "weeks_observed": 12
+        "weeks_observed": 11
       },
       {
         "axis": "actor_attribution",
