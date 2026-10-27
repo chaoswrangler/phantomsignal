@@ -1,16 +1,9 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><title>PHANTOMSignal feed.json</title><style>body{margin:0;background:#0b0f14;color:#e8f4ff;font-family:'JetBrains Mono',Consolas,monospace}pre{margin:0;padding:24px;font-size:13px;line-height:1.5;white-space:pre-wrap;word-break:break-word}</style></head><body><pre>{
-  &quot;generated_at&quot;: &quot;2026-10-27T19:59:52.130532+00:00&quot;,
+  &quot;generated_at&quot;: &quot;2026-10-27T23:39:57.312791+00:00&quot;,
   &quot;lookback_hours&quot;: 168,
   &quot;lookback_human&quot;: &quot;7 days&quot;,
   &quot;total_items&quot;: 2308,
   &quot;feed_status&quot;: {
-    &quot;CrowdStrike&quot;: {
-      &quot;url&quot;: &quot;https://www.crowdstrike.com/blog/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
-    },
     &quot;Microsoft Security Blog&quot;: {
       &quot;url&quot;: &quot;https://www.microsoft.com/en-us/security/blog/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
@@ -23,7 +16,14 @@
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 15,
-      &quot;in_window_count&quot;: 5
+      &quot;in_window_count&quot;: 4
+    },
+    &quot;CrowdStrike&quot;: {
+      &quot;url&quot;: &quot;https://www.crowdstrike.com/blog/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
     },
     &quot;Microsoft Threat Intelligence&quot;: {
       &quot;url&quot;: &quot;https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/&quot;,
@@ -32,11 +32,11 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
     },
-    &quot;Google Threat Analysis Group&quot;: {
-      &quot;url&quot;: &quot;https://blog.google/threat-analysis-group/rss/&quot;,
+    &quot;SentinelOne Labs&quot;: {
+      &quot;url&quot;: &quot;https://www.sentinelone.com/labs/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;parse_error&quot;,
-      &quot;item_count&quot;: 0,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
     &quot;Trend Micro Research&quot;: {
@@ -46,12 +46,12 @@
       &quot;item_count&quot;: 25,
       &quot;in_window_count&quot;: 0
     },
-    &quot;SentinelOne Labs&quot;: {
-      &quot;url&quot;: &quot;https://www.sentinelone.com/labs/feed/&quot;,
+    &quot;Citizen Lab&quot;: {
+      &quot;url&quot;: &quot;https://citizenlab.ca/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
+      &quot;in_window_count&quot;: 4
     },
     &quot;Cisco Talos&quot;: {
       &quot;url&quot;: &quot;https://feeds.feedburner.com/feedburner/Talos&quot;,
@@ -60,12 +60,19 @@
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 5
     },
-    &quot;Check Point Research&quot;: {
-      &quot;url&quot;: &quot;https://research.checkpoint.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+    &quot;NCSC UK&quot;: {
+      &quot;url&quot;: &quot;https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml&quot;,
+      &quot;cohort&quot;: &quot;government_authoritative&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 15,
-      &quot;in_window_count&quot;: 3
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 2
+    },
+    &quot;Google Threat Analysis Group&quot;: {
+      &quot;url&quot;: &quot;https://blog.google/threat-analysis-group/rss/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;parse_error&quot;,
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
     },
     &quot;Kaspersky Securelist&quot;: {
       &quot;url&quot;: &quot;https://securelist.com/feed/&quot;,
@@ -74,19 +81,12 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 5
     },
-    &quot;Citizen Lab&quot;: {
-      &quot;url&quot;: &quot;https://citizenlab.ca/feed/&quot;,
+    &quot;Check Point Research&quot;: {
+      &quot;url&quot;: &quot;https://research.checkpoint.com/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 4
-    },
-    &quot;NCSC UK&quot;: {
-      &quot;url&quot;: &quot;https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml&quot;,
-      &quot;cohort&quot;: &quot;government_authoritative&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 2
+      &quot;item_count&quot;: 15,
+      &quot;in_window_count&quot;: 3
     },
     &quot;SANS Internet Storm Center&quot;: {
       &quot;url&quot;: &quot;https://isc.sans.edu/rssfeed_full.xml&quot;,
@@ -109,19 +109,19 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Horizon3 Attack Research&quot;: {
-      &quot;url&quot;: &quot;https://horizon3.ai/feed/&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 6
-    },
     &quot;Recorded Future&quot;: {
       &quot;url&quot;: &quot;https://www.recordedfuture.com/feed&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 50,
       &quot;in_window_count&quot;: 2
+    },
+    &quot;Horizon3 Attack Research&quot;: {
+      &quot;url&quot;: &quot;https://horizon3.ai/feed/&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 5
     },
     &quot;PortSwigger Research&quot;: {
       &quot;url&quot;: &quot;https://portswigger.net/research/rss&quot;,
@@ -130,18 +130,18 @@
       &quot;item_count&quot;: 40,
       &quot;in_window_count&quot;: 1
     },
-    &quot;Assetnote&quot;: {
-      &quot;url&quot;: &quot;https://www.assetnote.io/resources/research/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 78,
-      &quot;in_window_count&quot;: 0
-    },
     &quot;Red Canary&quot;: {
       &quot;url&quot;: &quot;https://redcanary.com/feed/&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
+    },
+    &quot;Assetnote&quot;: {
+      &quot;url&quot;: &quot;https://www.assetnote.io/resources/research/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 78,
       &quot;in_window_count&quot;: 0
     },
     &quot;watchTowr Labs&quot;: {
@@ -151,19 +151,19 @@
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Exploit-DB&quot;: {
-      &quot;url&quot;: &quot;https://www.exploit-db.com/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 50,
-      &quot;in_window_count&quot;: 11
-    },
     &quot;Sekoia&quot;: {
       &quot;url&quot;: &quot;https://blog.sekoia.io/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 3
+    },
+    &quot;Exploit-DB&quot;: {
+      &quot;url&quot;: &quot;https://www.exploit-db.com/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 50,
+      &quot;in_window_count&quot;: 11
     },
     &quot;The DFIR Report&quot;: {
       &quot;url&quot;: &quot;https://thedfirreport.com/feed/&quot;,
@@ -172,12 +172,26 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
+    &quot;TrustedSec&quot;: {
+      &quot;url&quot;: &quot;https://www.trustedsec.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 2
+    },
     &quot;Black Hills Information Security&quot;: {
       &quot;url&quot;: &quot;https://www.blackhillsinfosec.com/feed/&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
+    },
+    &quot;Active Countermeasures&quot;: {
+      &quot;url&quot;: &quot;https://www.activecountermeasures.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
     },
     &quot;Proofpoint Threat Insight&quot;: {
       &quot;url&quot;: &quot;https://www.proofpoint.com/us/rss.xml&quot;,
@@ -186,15 +200,8 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
     },
-    &quot;TrustedSec&quot;: {
-      &quot;url&quot;: &quot;https://www.trustedsec.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 2
-    },
-    &quot;Active Countermeasures&quot;: {
-      &quot;url&quot;: &quot;https://www.activecountermeasures.com/feed/&quot;,
+    &quot;SpecterOps&quot;: {
+      &quot;url&quot;: &quot;https://medium.com/feed/specter-ops-posts&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
@@ -214,19 +221,12 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
     },
-    &quot;SpecterOps&quot;: {
-      &quot;url&quot;: &quot;https://medium.com/feed/specter-ops-posts&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+    &quot;Rapid7&quot;: {
+      &quot;url&quot;: &quot;https://www.rapid7.com/blog/rss/&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
-    },
-    &quot;Orca Security Research&quot;: {
-      &quot;url&quot;: &quot;https://orca.security/resources/blog/feed/&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 7
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 5
     },
     &quot;Datadog Security Labs&quot;: {
       &quot;url&quot;: &quot;https://securitylabs.datadoghq.com/rss/feed.xml&quot;,
@@ -235,19 +235,12 @@
       &quot;item_count&quot;: 30,
       &quot;in_window_count&quot;: 3
     },
-    &quot;Rapid7&quot;: {
-      &quot;url&quot;: &quot;https://www.rapid7.com/blog/rss/&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 5
-    },
-    &quot;AWS Security Blog&quot;: {
-      &quot;url&quot;: &quot;https://aws.amazon.com/blogs/security/feed/&quot;,
+    &quot;Orca Security Research&quot;: {
+      &quot;url&quot;: &quot;https://orca.security/resources/blog/feed/&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 5
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 7
     },
     &quot;Permiso Security&quot;: {
       &quot;url&quot;: &quot;https://permiso.io/blog/rss.xml&quot;,
@@ -263,19 +256,19 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 1
     },
-    &quot;Sysdig&quot;: {
-      &quot;url&quot;: &quot;https://sysdig.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 6
-    },
     &quot;Huntress&quot;: {
       &quot;url&quot;: &quot;https://www.huntress.com/blog/rss.xml&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 7
+    },
+    &quot;AWS Security Blog&quot;: {
+      &quot;url&quot;: &quot;https://aws.amazon.com/blogs/security/feed/&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 5
     },
     &quot;Google Cloud Threat Intelligence&quot;: {
       &quot;url&quot;: &quot;https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v&quot;,
@@ -284,12 +277,19 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 0
     },
+    &quot;Sysdig&quot;: {
+      &quot;url&quot;: &quot;https://sysdig.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 6
+    },
     &quot;Cloudflare Security&quot;: {
       &quot;url&quot;: &quot;https://blog.cloudflare.com/tag/security/rss/&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 6
+      &quot;in_window_count&quot;: 5
     },
     &quot;Protect AI&quot;: {
       &quot;url&quot;: &quot;https://protectai.com/blog/rss.xml&quot;,
@@ -305,26 +305,12 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 1
     },
-    &quot;Coveware&quot;: {
-      &quot;url&quot;: &quot;https://www.coveware.com/blog?format=rss&quot;,
-      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
-      &quot;status&quot;: &quot;parse_error&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
-    },
     &quot;Wiz Research&quot;: {
       &quot;url&quot;: &quot;https://www.wiz.io/feed/rss.xml&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 10
-    },
-    &quot;OpenSSF Blog&quot;: {
-      &quot;url&quot;: &quot;https://openssf.org/feed/&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 3
+      &quot;in_window_count&quot;: 8
     },
     &quot;Google DeepMind Blog&quot;: {
       &quot;url&quot;: &quot;https://deepmind.google/blog/rss.xml&quot;,
@@ -333,26 +319,33 @@
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 2
     },
-    &quot;Interconnects&quot;: {
-      &quot;url&quot;: &quot;https://www.interconnects.ai/feed&quot;,
+    &quot;OpenSSF Blog&quot;: {
+      &quot;url&quot;: &quot;https://openssf.org/feed/&quot;,
       &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 1
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 2
     },
-    &quot;Google Cloud Security&quot;: {
-      &quot;url&quot;: &quot;https://cloudblog.withgoogle.com/rss/&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 19
+    &quot;Coveware&quot;: {
+      &quot;url&quot;: &quot;https://www.coveware.com/blog?format=rss&quot;,
+      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
+      &quot;status&quot;: &quot;parse_error&quot;,
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
     },
     &quot;Chainalysis&quot;: {
       &quot;url&quot;: &quot;https://www.chainalysis.com/blog/feed/&quot;,
       &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 1
+      &quot;in_window_count&quot;: 2
+    },
+    &quot;Google Cloud Security&quot;: {
+      &quot;url&quot;: &quot;https://cloudblog.withgoogle.com/rss/&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 20
     },
     &quot;BleepingComputer&quot;: {
       &quot;url&quot;: &quot;https://www.bleepingcomputer.com/feed/&quot;,
@@ -368,26 +361,19 @@
       &quot;item_count&quot;: 5,
       &quot;in_window_count&quot;: 5
     },
-    &quot;SecurityWeek&quot;: {
-      &quot;url&quot;: &quot;https://www.securityweek.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 10
-    },
-    &quot;CyberScoop&quot;: {
-      &quot;url&quot;: &quot;https://cyberscoop.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 10
-    },
     &quot;GreyNoise&quot;: {
       &quot;url&quot;: &quot;https://www.greynoise.io/blog/rss.xml&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 0
+    },
+    &quot;Interconnects&quot;: {
+      &quot;url&quot;: &quot;https://www.interconnects.ai/feed&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 1
     },
     &quot;Simon Willison&quot;: {
       &quot;url&quot;: &quot;https://simonwillison.net/atom/everything/&quot;,
@@ -396,12 +382,33 @@
       &quot;item_count&quot;: 30,
       &quot;in_window_count&quot;: 14
     },
+    &quot;SecurityWeek&quot;: {
+      &quot;url&quot;: &quot;https://www.securityweek.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 10
+    },
     &quot;Intel 471&quot;: {
       &quot;url&quot;: &quot;https://intel471.com/blog/feed&quot;,
       &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 50,
       &quot;in_window_count&quot;: 1
+    },
+    &quot;CyberScoop&quot;: {
+      &quot;url&quot;: &quot;https://cyberscoop.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 10
+    },
+    &quot;Dark Reading&quot;: {
+      &quot;url&quot;: &quot;https://www.darkreading.com/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 50,
+      &quot;in_window_count&quot;: 30
     },
     &quot;AI Snake Oil&quot;: {
       &quot;url&quot;: &quot;https://www.aisnakeoil.com/feed&quot;,
@@ -410,13 +417,6 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Dark Reading&quot;: {
-      &quot;url&quot;: &quot;https://www.darkreading.com/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 50,
-      &quot;in_window_count&quot;: 28
-    },
     &quot;Help Net Security&quot;: {
       &quot;url&quot;: &quot;https://www.helpnetsecurity.com/feed/&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
@@ -424,19 +424,19 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 10
     },
-    &quot;Schneier on Security&quot;: {
-      &quot;url&quot;: &quot;https://www.schneier.com/feed/atom/&quot;,
-      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 6
-    },
     &quot;Team Cymru&quot;: {
       &quot;url&quot;: &quot;https://www.team-cymru.com/post/rss.xml&quot;,
       &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 8
+    },
+    &quot;Schneier on Security&quot;: {
+      &quot;url&quot;: &quot;https://www.schneier.com/feed/atom/&quot;,
+      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 6
     },
     &quot;Troy Hunt&quot;: {
       &quot;url&quot;: &quot;https://www.troyhunt.com/rss/&quot;,
@@ -466,26 +466,12 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
     },
-    &quot;Reddit r/sysadmin&quot;: {
-      &quot;url&quot;: &quot;https://www.reddit.com/r/sysadmin/.rss&quot;,
-      &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
-    },
     &quot;Graham Cluley&quot;: {
       &quot;url&quot;: &quot;https://grahamcluley.com/feed/&quot;,
       &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 2
-    },
-    &quot;Reddit r/msp&quot;: {
-      &quot;url&quot;: &quot;https://www.reddit.com/r/msp/.rss&quot;,
-      &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
     },
     &quot;The Hacker News&quot;: {
       &quot;url&quot;: &quot;https://feeds.feedburner.com/TheHackersNews&quot;,
@@ -494,8 +480,8 @@
       &quot;item_count&quot;: 50,
       &quot;in_window_count&quot;: 50
     },
-    &quot;Reddit r/AskNetsec&quot;: {
-      &quot;url&quot;: &quot;https://www.reddit.com/r/AskNetsec/.rss&quot;,
+    &quot;Reddit r/sysadmin&quot;: {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/sysadmin/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 0,
@@ -508,12 +494,19 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Reddit r/netsec&quot;: {
-      &quot;url&quot;: &quot;https://www.reddit.com/r/netsec/.rss&quot;,
+    &quot;Reddit r/msp&quot;: {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/msp/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 25,
-      &quot;in_window_count&quot;: 23
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
+    },
+    &quot;Reddit r/AskNetsec&quot;: {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/AskNetsec/.rss&quot;,
+      &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
     },
     &quot;Infosecurity Magazine&quot;: {
       &quot;url&quot;: &quot;https://www.infosecurity-magazine.com/rss/news/&quot;,
@@ -521,6 +514,13 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 28
+    },
+    &quot;Reddit r/netsec&quot;: {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/netsec/.rss&quot;,
+      &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 25,
+      &quot;in_window_count&quot;: 23
     },
     &quot;Embrace the Red&quot;: {
       &quot;url&quot;: &quot;https://embracethered.com/blog/index.xml&quot;,
@@ -1064,42 +1064,6 @@
       ]
     },
     {
-      &quot;label&quot;: &quot;Microsoft Windows active exploitation&quot;,
-      &quot;anchor_signal&quot;: &quot;Microsoft Windows&quot;,
-      &quot;theme_key&quot;: &quot;microsoft-windows&quot;,
-      &quot;dominant_features&quot;: {
-        &quot;threat_categories&quot;: [
-          &quot;active_exploitation&quot;
-        ],
-        &quot;affected_products&quot;: [
-          &quot;Microsoft Windows&quot;
-        ],
-        &quot;urgency_signals&quot;: [
-          &quot;actively_exploited&quot;
-        ]
-      },
-      &quot;cluster_count&quot;: 3,
-      &quot;article_count&quot;: 5,
-      &quot;cohesion&quot;: 0.204,
-      &quot;shared_strong_signals&quot;: [
-        &quot;Microsoft Windows&quot;
-      ],
-      &quot;member_cves&quot;: [],
-      &quot;also_targets&quot;: [],
-      &quot;cluster_ids&quot;: [
-        &quot;26535002b4&quot;,
-        &quot;8a05848284&quot;,
-        &quot;91a61f3bcb&quot;
-      ],
-      &quot;links&quot;: [
-        &quot;https://securelist.com/uefi-bootkit-blackx/121539/&quot;,
-        &quot;https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html&quot;,
-        &quot;https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/&quot;,
-        &quot;https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html&quot;,
-        &quot;https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/&quot;
-      ]
-    },
-    {
       &quot;label&quot;: &quot;supply chain targeting Microsoft 365&quot;,
       &quot;anchor_signal&quot;: &quot;Microsoft 365&quot;,
       &quot;theme_key&quot;: &quot;microsoft-365&quot;,
@@ -1136,35 +1100,6 @@
       ]
     },
     {
-      &quot;label&quot;: &quot;Palo Alto Networks vulnerability activity&quot;,
-      &quot;anchor_signal&quot;: &quot;Palo Alto Networks&quot;,
-      &quot;theme_key&quot;: &quot;palo-alto-networks&quot;,
-      &quot;dominant_features&quot;: {
-        &quot;affected_products&quot;: [
-          &quot;Palo Alto Networks&quot;
-        ]
-      },
-      &quot;cluster_count&quot;: 3,
-      &quot;article_count&quot;: 4,
-      &quot;cohesion&quot;: 0.2,
-      &quot;shared_strong_signals&quot;: [
-        &quot;Palo Alto Networks&quot;
-      ],
-      &quot;member_cves&quot;: [],
-      &quot;also_targets&quot;: [],
-      &quot;cluster_ids&quot;: [
-        &quot;8a05848284&quot;,
-        &quot;50fbf176f4&quot;,
-        &quot;09b1320a21&quot;
-      ],
-      &quot;links&quot;: [
-        &quot;https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/&quot;,
-        &quot;https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html&quot;,
-        &quot;https://unit42.paloaltonetworks.com/emudhra-certificate-compromise/&quot;,
-        &quot;https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/&quot;
-      ]
-    },
-    {
       &quot;label&quot;: &quot;supply chain targeting PyPI&quot;,
       &quot;anchor_signal&quot;: &quot;PyPI&quot;,
       &quot;theme_key&quot;: &quot;pypi&quot;,
@@ -1198,33 +1133,113 @@
       ]
     },
     {
-      &quot;label&quot;: &quot;CVE-2026-101767 exploitation activity&quot;,
-      &quot;anchor_signal&quot;: &quot;CVE-2026-101767&quot;,
-      &quot;theme_key&quot;: &quot;cve-2026-101767&quot;,
+      &quot;label&quot;: &quot;supply chain targeting Microsoft Defender&quot;,
+      &quot;anchor_signal&quot;: &quot;Microsoft Defender&quot;,
+      &quot;theme_key&quot;: &quot;microsoft-defender&quot;,
       &quot;dominant_features&quot;: {
-        &quot;cve_ids&quot;: [
-          &quot;CVE-2026-101767&quot;
+        &quot;threat_categories&quot;: [
+          &quot;supply_chain&quot;
         ],
-        &quot;urgency_signals&quot;: [
-          &quot;preauth_unauth&quot;,
-          &quot;critical_cvss&quot;
+        &quot;affected_products&quot;: [
+          &quot;Microsoft Defender&quot;
         ]
       },
       &quot;cluster_count&quot;: 2,
-      &quot;article_count&quot;: 2,
-      &quot;cohesion&quot;: 0.2,
+      &quot;article_count&quot;: 7,
+      &quot;cohesion&quot;: 0.227,
       &quot;shared_strong_signals&quot;: [
-        &quot;CVE-2026-101767&quot;
+        &quot;Microsoft Defender&quot;
       ],
       &quot;member_cves&quot;: [],
       &quot;also_targets&quot;: [],
       &quot;cluster_ids&quot;: [
-        &quot;bda0ada973&quot;,
-        &quot;59969a7c2a&quot;
+        &quot;fbd47b91b1&quot;,
+        &quot;cc227d9597&quot;
       ],
       &quot;links&quot;: [
-        &quot;https://horizon3.ai/attack-research/vulnerabilities/cve-2026-101767/&quot;,
-        &quot;https://horizon3.ai/attack-research/vulnerabilities/cve-2026-76268/&quot;
+        &quot;https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/&quot;,
+        &quot;https://www.huntress.com/blog/token-replay-spray&quot;,
+        &quot;https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/&quot;,
+        &quot;https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html&quot;,
+        &quot;https://www.infosecurity-magazine.com/news/tokenspraying-attacks-target/&quot;,
+        &quot;https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Google Cloud active exploitation&quot;,
+      &quot;anchor_signal&quot;: &quot;Google Cloud&quot;,
+      &quot;theme_key&quot;: &quot;google-cloud&quot;,
+      &quot;dominant_features&quot;: {
+        &quot;threat_categories&quot;: [
+          &quot;active_exploitation&quot;
+        ],
+        &quot;affected_products&quot;: [
+          &quot;Google Cloud&quot;
+        ],
+        &quot;urgency_signals&quot;: [
+          &quot;actively_exploited&quot;
+        ]
+      },
+      &quot;cluster_count&quot;: 2,
+      &quot;article_count&quot;: 24,
+      &quot;cohesion&quot;: 0.2,
+      &quot;shared_strong_signals&quot;: [
+        &quot;Google Cloud&quot;
+      ],
+      &quot;member_cves&quot;: [],
+      &quot;also_targets&quot;: [],
+      &quot;cluster_ids&quot;: [
+        &quot;f4a1025e01&quot;,
+        &quot;291b7cae3e&quot;
+      ],
+      &quot;links&quot;: [
+        &quot;https://www.rapid7.com/blog/post/etr-cve-2026-109618-and-cve-2026-109619-critical-unauthenticated-remote-code-execution-in-php&quot;,
+        &quot;https://securelist.com/tr/php2shell-critical-vulnerabilities-in-php/121596/&quot;,
+        &quot;https://www.exploit-db.com/exploits/52704&quot;,
+        &quot;https://orca.security/resources/blog/php2shell-php-rce-vulnerabilities/&quot;,
+        &quot;https://isc.sans.edu/diary/rss/33440&quot;,
+        &quot;https://webflow.sysdig.com/blog/php2shell-cve-2026-109618-and-cve-2026-109619-detecting-unauthenticated-remote-code-execution-in-php-core&quot;,
+        &quot;https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/&quot;,
+        &quot;https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619&quot;,
+        &quot;https://www.elastic.co/security-labs/threat-command/php2shell-php-rce-detection&quot;,
+        &quot;https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/&quot;,
+        &quot;https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/&quot;,
+        &quot;https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities&quot;,
+        &quot;https://www.welivesecurity.com/en/videos/php2shell-what-know-two-critical-php-flaws/&quot;,
+        &quot;https://securitylabs.datadoghq.com/articles/php2shell-critical-vulnerabilities-in-php/&quot;,
+        &quot;https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php&quot;,
+        &quot;https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html&quot;,
+        &quot;https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html&quot;,
+        &quot;https://www.reddit.com/r/netsec/comments/1xbzwrn/php2shell_cve2026109618109619_first_exploit/&quot;,
+        &quot;https://horizon3.ai/attack-research/vulnerabilities/cve-2026-109618-cve-2026-109619/&quot;,
+        &quot;https://research.checkpoint.com/2026/infostealer-riding-the-ai-train/&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Microsoft Windows vulnerability activity&quot;,
+      &quot;anchor_signal&quot;: &quot;Microsoft Windows&quot;,
+      &quot;theme_key&quot;: &quot;microsoft-windows&quot;,
+      &quot;dominant_features&quot;: {
+        &quot;affected_products&quot;: [
+          &quot;Microsoft Windows&quot;
+        ]
+      },
+      &quot;cluster_count&quot;: 2,
+      &quot;article_count&quot;: 3,
+      &quot;cohesion&quot;: 0.214,
+      &quot;shared_strong_signals&quot;: [
+        &quot;Microsoft Windows&quot;
+      ],
+      &quot;member_cves&quot;: [],
+      &quot;also_targets&quot;: [],
+      &quot;cluster_ids&quot;: [
+        &quot;26535002b4&quot;,
+        &quot;91a61f3bcb&quot;
+      ],
+      &quot;links&quot;: [
+        &quot;https://securelist.com/uefi-bootkit-blackx/121539/&quot;,
+        &quot;https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html&quot;,
+        &quot;https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/&quot;
       ]
     }
   ],
@@ -1406,13 +1421,13 @@
         &quot;axis&quot;: &quot;actor_attribution&quot;,
         &quot;value&quot;: &quot;Salt Typhoon&quot;,
         &quot;cluster_id&quot;: &quot;b9771fe2d2&quot;,
-        &quot;weeks_observed&quot;: 6
+        &quot;weeks_observed&quot;: 7
       },
       {
         &quot;axis&quot;: &quot;actor_attribution&quot;,
         &quot;value&quot;: &quot;Volt Typhoon&quot;,
         &quot;cluster_id&quot;: &quot;b9771fe2d2&quot;,
-        &quot;weeks_observed&quot;: 6
+        &quot;weeks_observed&quot;: 7
       },
       {
         &quot;axis&quot;: &quot;cve_ids&quot;,
@@ -1435,7 +1450,7 @@
       {
         &quot;axis&quot;: &quot;cve_ids&quot;,
         &quot;value&quot;: &quot;CVE-2026-86950&quot;,
-        &quot;cluster_id&quot;: &quot;09b1320a21&quot;,
+        &quot;cluster_id&quot;: &quot;fa912d9391&quot;,
         &quot;weeks_observed&quot;: 4
       },
       {
@@ -1463,6 +1478,199 @@
     ]
   },
   &quot;items&quot;: [
+    {
+      &quot;source&quot;: &quot;BleepingComputer&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;Japan&#x27;s GMO urges customers to shut down PCs amid ransomware threat&quot;,
+      &quot;link&quot;: &quot;https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/&quot;,
+      &quot;published&quot;: &quot;2026-10-27T23:35:51+00:00&quot;,
+      &quot;summary&quot;: &quot;The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company&#x27;s Onamae Desktop Cloud threatened to launch a ransomware attack today. [...]&quot;,
+      &quot;author&quot;: &quot;Bill Toulas&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [
+          &quot;ransomware_extortion&quot;
+        ],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 6
+    },
+    {
+      &quot;source&quot;: &quot;BleepingComputer&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;UNM Health ransomware attack disrupts patient care, surgeries&quot;,
+      &quot;link&quot;: &quot;https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/&quot;,
+      &quot;published&quot;: &quot;2026-10-27T22:07:34+00:00&quot;,
+      &quot;summary&quot;: &quot;The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]&quot;,
+      &quot;author&quot;: &quot;Bill Toulas&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [
+          &quot;ransomware_extortion&quot;,
+          &quot;data_breach&quot;
+        ],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [
+          &quot;healthcare&quot;,
+          &quot;education&quot;
+        ],
+        &quot;affected_products&quot;: [
+          &quot;Microsoft Entra&quot;
+        ],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;incident_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {
+          &quot;Microsoft Entra&quot;: &quot;target&quot;
+        },
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 10,
+      &quot;full_body&quot;: &quot;UNM Health ransomware attack disrupts patient care, surgeries By Bill Toulas October 27, 2026 06:07 PM 0 The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. On Monday, UNM Health, the university’s healthcare provider, began temporarily limiting new patient admissions, diverting ambulances to nearby hospitals, and suspending outpatient surgeries and appointments. In an update on the incident, UNM said UNM Hospital and Sandoval Regional Medical Center remain open, and all clinics will resume scheduled appointments and procedures starting today, Tuesday, October 27. Regarding emergencies, the healthcare organization advised that people should call 911. However, today’s classes at its four health sciences schools are canceled, and nonessential HSC employees were instructed to stay home. UNM Health is a major statewide provider of specialist care with more than 1 million patient visits annually. Its flagship UNM Hospital in Albuquerque houses New Mexico’s only Level I trauma center , treating the most seriously injured patients. Byod ransomware claims the attack UNM did not disclose the type of cyberattack it suffered, but BleepingComputer found that a new ransomware group called Byod had claimed the attack. In a post on their data leak site, the threat actor said it had compromised 36,000 systems across UNM’s main campus and hospital environments, including Active Directory forests, Group Policy infrastructure, the entire Microsoft Entra tenant, and two Oracle databases. \&quot;This is your entire network and infrastructure compromised, the entire university COMPLETELY,\&quot; the threat actor said. They claim access to student and employee personal data, including: Social Security numbers (SSNs) HR, payroll, and Banner student records Internal emails Research data Hospital appointment data Patient information Cerner EHR rosters In an attempt to force a payment, Byod ransomware said it would take down the breach post after the university initiated communication, likely for negotiating a ransom. BleepingComputer has reached out to UNM Health Sciences with a request for comment about these data theft allegations, but we have not received a response. In a new post today, Byod ransomware said it would provide free keys that decrypt locked systems at healthcare facilities. Caption Furthermore, the threat actor promised to pay up to $2,500 for every patient affected by the cyberattack. \&quot;We have morals and we have a heart, we are not villains, but we will still continue to hold companies responsible for bad security leading to the compromise of any customer data,\&quot; the cybercriminals said. However, the threat actor also said that it would keep all the stolen data. Byod is a new ransomware gang that currently lists six victims on its data leak site. For three of them, it has already leaked the allegedly stolen data. On its FAQ page, the threat group claims it is doing “pentesting” to expose vulnerabilities and hold data controllers accountable for breaches. Source: BleepingComputer Byod says no target is off-limits, but it selects victims after an initial assessment identifies a target of interest. The group says it focuses on “those at the top who look at consumers and/or customers as a number or another dollar in their pockets.” The UNM Health Sciences said today that all its critical electronic systems are back online and all UNM Health hospitals are fully open. Ambulance traffic is now operating normally, and all clinics have resumed scheduled appointments and procedures. The university said the quick recovery was possible due to IT security teams working \&quot;with external partners to secure the network.\&quot; \&quot;Their assessment determined that the event affected some end-user devices but did not penetrate core systems or servers,\&quot; UNM Health Sciences Center notes. Patients who received care at UNM hospitals, as well as staff and students who work and stu&quot;,
+      &quot;fetch_status&quot;: &quot;ok&quot;
+    },
+    {
+      &quot;source&quot;: &quot;BleepingComputer&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;Hackers hijack Convertr analytics script to steal payment card data&quot;,
+      &quot;link&quot;: &quot;https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/&quot;,
+      &quot;published&quot;: &quot;2026-10-27T20:57:25+00:00&quot;,
+      &quot;summary&quot;: &quot;A credit card skimming group reportedly compromised a shared analytics script used by e-commerce platform Convertr to steal shoppers&#x27; payment data during checkout. [...]&quot;,
+      &quot;author&quot;: &quot;Bill Toulas&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [
+          &quot;retail_ecommerce&quot;
+        ],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 6
+    },
+    {
+      &quot;source&quot;: &quot;Dark Reading&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;External Teams Chats Anchor 15-Minute Malware Delivery&quot;,
+      &quot;link&quot;: &quot;https://www.darkreading.com/cloud-security/email-bombing-external-teams-chats-repeatable-access-path&quot;,
+      &quot;published&quot;: &quot;2026-10-27T20:42:40+00:00&quot;,
+      &quot;summary&quot;: &quot;Main bombing sis getting a new look with a wide-scale, ongoing social engineering campaign that might be tied to the Black Basta ransomware gang.&quot;,
+      &quot;author&quot;: &quot;Alexander Culafi&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [
+          &quot;ransomware_extortion&quot;,
+          &quot;phishing_social_eng&quot;
+        ],
+        &quot;actor_attribution&quot;: [
+          &quot;Black Basta&quot;
+        ],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 8
+    },
+    {
+      &quot;source&quot;: &quot;The Record&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;Nefilim, Hive ransomware operator given five-year-plus sentence after guilty plea&quot;,
+      &quot;link&quot;: &quot;https://therecord.media/nefilim-hive-ransomware-operator-70-months-prison&quot;,
+      &quot;published&quot;: &quot;2026-10-27T20:40:00+00:00&quot;,
+      &quot;summary&quot;: &quot;Ukrainian national Artem Stryzhak, 36, had pleaded guilty last year to charges related to participating in at least two well-known ransomware groups.&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [
+          &quot;ransomware_extortion&quot;
+        ],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 6
+    },
+    {
+      &quot;source&quot;: &quot;Dark Reading&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;SBOMs Alone Can&#x27;t Reveal the Scope of a Supply Chain Attack&quot;,
+      &quot;link&quot;: &quot;https://www.darkreading.com/cyber-risk/sboms-alone-scope-supply-chain-attack&quot;,
+      &quot;published&quot;: &quot;2026-10-27T19:58:06+00:00&quot;,
+      &quot;summary&quot;: &quot;A recent Shai-Hulud attack shows defenders need real-time visibility into production code and affected services to respond to supply chain compromises.&quot;,
+      &quot;author&quot;: &quot;Jai Vijayan&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [
+          &quot;supply_chain&quot;
+        ],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 9
+    },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
       &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
@@ -1649,7 +1857,7 @@
         }
       },
       &quot;score&quot;: 10,
-      &quot;full_body&quot;: &quot;Microsoft releases Windows OOB updates to distrust eMudhra certificates By Lawrence Abrams October 27, 2026 02:20 PM 0 Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. The KB5134133 update for Windows 11 versions 24H2, 25H2, and 26H2 and the KB5134125 update for Windows 10 versions 21H2 and 22H2 were released on October 26. The updates are for systems without Internet access, devices that cannot access Microsoft&#x27;s certificate-update service, and those where automatic Certificate Trust List (CTL) updates have been disabled. The updates were released after the discovery of eight eMudhra intermediate certificate authority private keys that were so weak they could be recovered almost instantly. All eight keys were generated in April 2025 and had values smaller than 256, allowing anyone to recover them by testing just 256 possible numbers. The compromised keys could have allowed attackers to forge certificates for legitimate websites and intercept encrypted communications. After the disclosure, eMudhra revoked the eight compromised intermediate certificates, and Mozilla, Google, Apple, and other software vendors also began revoking them. In response, Microsoft previously updated the Windows Disallowed Certificate Trust List to block the eight affected intermediate certificate authorities, including six used for TLS and two for code signing. The company also released a CRLSet update for Microsoft Edge and WebView2 to block affected TLS certificates, which enabled the block without requiring a browser update. Microsoft is now taking further steps by removing seven certificates associated with the affected certificate hierarchies from its Windows trust list. \&quot;On October 26, Microsoft released an out-of-band Windows update that removes seven certificates associated with the affected hierarchies: six eMudhra G3 roots and an AAA Certificate Services cross-sign, from the Windows trust list,\&quot; Microsoft explained . The new update goes further by also removing trust in the eMudhra root certificates used to verify other certificates issued by the CA. Microsoft says the same seven certificates will also be removed from the Edge trust list on October 27. \&quot;Removing a root from a trust list is not the same as revoking the known impacted intermediate certificate authorities,\&quot; explains Microsoft. \&quot;This is a separate trust decision, broader than blocking the identified compromised intermediate keys. Organizations with a specific compatibility need may choose to trust a certificate locally, subject to their own security assessment and policies.\&quot; The company advises admins to install the update on disconnected Windows systems and identify any certificates that depend on the removed roots, as they may need to be replaced. Microsoft is also investigating the remaining eMudhra roots and may make additional trust changes as needed. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Microsoft: Windows Server 2016 reaches end of support in January Mozilla, Google, Apple block compromised eMudhra CA certificates Microsoft PowerToys adds CursorHide, Button Lock mouse tools Windows Server 2025 gets support for quick machine recovery Microsoft fixes game, app crashes caused by recent Windows update&quot;,
+      &quot;full_body&quot;: &quot;Microsoft releases Windows OOB updates to distrust eMudhra certificates By Lawrence Abrams October 27, 2026 02:20 PM 1 Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. The KB5134133 update for Windows 11 versions 24H2, 25H2, and 26H2 and the KB5134125 update for Windows 10 versions 21H2 and 22H2 were released on October 26. The updates are for systems without Internet access, devices that cannot access Microsoft&#x27;s certificate-update service, and those where automatic Certificate Trust List (CTL) updates have been disabled. The updates were released after the discovery of eight eMudhra intermediate certificate authority private keys that were so weak they could be recovered almost instantly. All eight keys were generated in April 2025 and had values smaller than 256, allowing anyone to recover them by testing just 256 possible numbers. The compromised keys could have allowed attackers to forge certificates for legitimate websites and intercept encrypted communications. After the disclosure, eMudhra revoked the eight compromised intermediate certificates, and Mozilla, Google, Apple, and other software vendors also began revoking them. In response, Microsoft previously updated the Windows Disallowed Certificate Trust List to block the eight affected intermediate certificate authorities, including six used for TLS and two for code signing. The company also released a CRLSet update for Microsoft Edge and WebView2 to block affected TLS certificates, which enabled the block without requiring a browser update. Microsoft is now taking further steps by removing seven certificates associated with the affected certificate hierarchies from its Windows trust list. \&quot;On October 26, Microsoft released an out-of-band Windows update that removes seven certificates associated with the affected hierarchies: six eMudhra G3 roots and an AAA Certificate Services cross-sign, from the Windows trust list,\&quot; Microsoft explained . The new update goes further by also removing trust in the eMudhra root certificates used to verify other certificates issued by the CA. Microsoft says the same seven certificates will also be removed from the Edge trust list on October 27. \&quot;Removing a root from a trust list is not the same as revoking the known impacted intermediate certificate authorities,\&quot; explains Microsoft. \&quot;This is a separate trust decision, broader than blocking the identified compromised intermediate keys. Organizations with a specific compatibility need may choose to trust a certificate locally, subject to their own security assessment and policies.\&quot; The company advises admins to install the update on disconnected Windows systems and identify any certificates that depend on the removed roots, as they may need to be replaced. Microsoft is also investigating the remaining eMudhra roots and may make additional trust changes as needed. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Microsoft: Windows Server 2016 reaches end of support in January Mozilla, Google, Apple block compromised eMudhra CA certificates Microsoft PowerToys adds CursorHide, Button Lock mouse tools Windows Server 2025 gets support for quick machine recovery Microsoft fixes game, app crashes caused by recent Windows update&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
@@ -2242,6 +2450,7 @@
         &quot;actor_attribution&quot;: [],
         &quot;affected_industries&quot;: [
           &quot;healthcare&quot;,
+          &quot;government&quot;,
           &quot;education&quot;
         ],
         &quot;affected_products&quot;: [],
@@ -2256,7 +2465,9 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 10
+      &quot;score&quot;: 10,
+      &quot;full_body&quot;: &quot;Zeljka Zorz , Editor-in-Chief, Help Net Security October 27, 2026 Share Cyberattack disrupts University of New Mexico hospitals, extortion group claims attack University of New Mexico (UNM) Health Sciences Center (HSC), the academic medical arm of the University of New Mexico, has suffered a cyberattack that has temporarily disrupted the operation of its hospitals and may have resulted in a substantial data breach. Hospitals diverted ambulances and canceled appointments The University of New Mexico, located in Albuquerque, New Mexico, is a public research university. Its Health Sciences Center encompasses its clinical, research and education initiatives. The clinical branch includes the University of New Mexico Hospital – the state’s largest teaching hospital – and associated medical centers. The Health System operates New Mexico’s only Level 1 trauma center. On 2:30 p.m. MDT Monday, the University’s HSC announced it was experiencing a cybersecurity issue, was diverting ambulance traffic to other hospitals, and had canceled all appointments at all clinics that day. In an update published a few hours later, the HSC stated that its IT security teams were working on containing the event, and that external partners were called in to assist with the investigation. State and federal law enforcement had been notified, it added, and UNM Health is resuming operations and bringing systems back online in phases. A final update later that same day said all UNM Health hospitals were open and clinics would resume appointments and procedures scheduled for Tuesday, October 27, 2026. Classes scheduled for Tuesday at the University’s medicine, nursing, pharmacy and other schools and colleges have been canceled. “We recognize this event may have impacted patients, employees and students, and we appreciate their patience as our teams respond. We understand there are many questions. Because this remains an active law enforcement investigation, we are limited in what we can share at this time,” the HSC added. “We are grateful to the health systems in Albuquerque and Santa Fe that worked with us to ensure patients had a safe place to receive care.” Attackers claim to have stolen student and employee data According to The Daily Lobo , the student-run newspaper of the University of New Mexico, the hackers reportedly played a (synthetic) voice message on hospital workers’ computers during the attack. In the message, they claimed to have stolen “student and employees’ data, personal identifiable information and SSNs, private documents, emails and much more,” and urged administrators to get in touch via an encrypted messaging service (presumably to negotiate a ransom payment not to disclose the stolen data). According to the message sent out by the administrators to healthcare workers, the network breach was detected Monday, around 11:30 a.m., and some 40 minutes later healthcare staff were asked to shut down and unplug computer systems and turn off the Wi-Fi on mobile devices. The attack was claimed by BYOD, a cyber extortion outfit that advertises alleged intrusions on a Tor leak site and threatens to disclose stolen information unless unless it is paid. It’s currently unclear if they also used ransomware to encrypt data on victims’ systems. On its leak site, the group claimed to have compromised 36,000 machines, both on the UNM main campus and hospital environments, and compromised “two Oracle databases, every student + employee PII (including SSNs), research information, entire Entra Tenant, Oracle HR + Payroll + Banner Student Records, Internal Emails, Cerner EHR rosters.” Their claims are still unconfirmed. Subscribe to our breaking news e-mail alert to never miss out on the latest breaches, vulnerabilities and cybersecurity threats. Subscribe here! More about cyberattack data breach education extortion healthcare USA Share&quot;,
+      &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
       &quot;source&quot;: &quot;The Hacker News&quot;,
@@ -2334,15 +2545,21 @@
       &quot;in_window&quot;: true,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [
-          &quot;zero_day&quot;
+          &quot;zero_day&quot;,
+          &quot;apt_espionage&quot;
         ],
         &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
+        &quot;affected_industries&quot;: [
+          &quot;manufacturing_industrial&quot;
+        ],
         &quot;affected_products&quot;: [
-          &quot;Apple iOS/macOS&quot;
+          &quot;Apple iOS/macOS&quot;,
+          &quot;Anthropic/Claude&quot;
         ],
         &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
+        &quot;cve_ids&quot;: [
+          &quot;CVE-2026-86950&quot;
+        ],
         &quot;attack_techniques&quot;: [],
         &quot;urgency_signals&quot;: [
           &quot;zero_day&quot;
@@ -2350,13 +2567,16 @@
         &quot;content_type&quot;: &quot;news_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
         &quot;role_map&quot;: {
-          &quot;Apple iOS/macOS&quot;: &quot;target&quot;
+          &quot;Apple iOS/macOS&quot;: &quot;target&quot;,
+          &quot;Anthropic/Claude&quot;: &quot;target&quot;
         },
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 10
+      &quot;score&quot;: 10,
+      &quot;full_body&quot;: &quot;Apple on Monday released updates for its operating systems, addressing a total of 286 vulnerabilities across the newest versions of iOS and macOS. In addition, the company has backported the fix for an exploited vulnerability to iOS 18. macOS Golden Gate 27.2 resolves 263 vulnerabilities while iOS and iPadOS 27.2 fix 163 flaws. Roughly 140 of the security holes are shared across the two operating systems. The iOS and iPadOS 27.2 updates address many memory corruption bugs in WebKit, the kernel and components that handle images, fonts, PDFs, audio and video files, some of which could be exploited for arbitrary code execution. Apple also resolved flaws that could let apps access sensitive user data or bypass privacy preferences, along with WebContent sandbox escapes, a Kerberos KDC impersonation issue, and a bug that could give a nearby attacker access to a Thread network. macOS Golden Gate 27.2 patches more than a dozen privilege escalation flaws that could give apps root access, as well as sandbox escapes, Gatekeeper bypasses and kernel memory corruption issues in file system and disk image components. The update also fixes numerous security holes in Screen Sharing, Remote Management and SMB that can be targeted remotely or from the local network, including a Remote Management bug that could allow a remote attacker to execute arbitrary code. Advertisement. Scroll to continue reading. iOS and iPadOS 18.7.11 fix three vulnerabilities, including CVE-2026-86950, which had been exploited as a zero-day in what Apple described as an “extremely sophisticated attack.” The vulnerability, discovered by Meta’s product security team, was first patched by Apple in late September in iOS 26.7.1, iPadOS 26.7.1, macOS Tahoe 26.7.1, and macOS Sequoia 15.8.1. iOS and macOS 27 do not appear to be affected. There does not appear to be any public information detailing the attacks exploiting CVE-2026-86950. Apple on Monday also released iOS and iPadOS 26.7.2, which fix 134 vulnerabilities, macOS Tahoe 26.7.2, which patches 213 vulnerabilities, and macOS Sequoia 15.8.2, with 197 flaws patched. The tech giant also released tvOS 27.2 (72 vulnerabilities patched), watchOS 27.2 (62 vulnerabilities), visionOS 27.2 (125 vulnerabilities), and Safari 27.2 (33 vulnerabilities). Related : Apple to Tighten Full Disk Access Controls in macOS Amid AI Risks Related : Apple Patches 200 Vulnerabilities With New iOS 27, macOS Golden Gate 27 Releases Related : AI Slop Limits Apple Bounties Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Industrial Vendors Check Products for PHP2Shell Vulnerabilities PHP2Shell Exploitation Moves From Probes to Working Shells Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge Atlassian Patches 75 Flaws in Data Center and Server Products Iran’s Prince of Persia APT Hosts C&amp;C in US for First Time Since 2016 Tech and Security Companies Respond to PHP2Shell Vulnerabilities Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU Latest News Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk HPE Patches Dozens of Critical Flaws in Networking Products Unexplained DreamHost Incident Prompts Email, FTP Password Resets Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI This is Fine: What NetScaler Zero-Days Tell Us About the New Normal Dead Popcorn Time Updater Put Millions of &quot;,
+      &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
       &quot;source&quot;: &quot;The Hacker News&quot;,
@@ -2416,7 +2636,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;The Hacker News&quot;,
@@ -2450,7 +2670,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 8
+      &quot;score&quot;: 7
     },
     {
       &quot;source&quot;: &quot;Schneier on Security&quot;,
@@ -2480,7 +2700,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 7
+      &quot;score&quot;: 6
     },
     {
       &quot;source&quot;: &quot;Infosecurity Magazine&quot;,
@@ -2510,7 +2730,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;BleepingComputer&quot;,
@@ -2527,36 +2747,22 @@
           &quot;zero_day&quot;
         ],
         &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [
-          &quot;financial_services&quot;
-        ],
-        &quot;affected_products&quot;: [
-          &quot;Palo Alto Networks&quot;,
-          &quot;Apple iOS/macOS&quot;
-        ],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
         &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [
-          &quot;CVE-2026-86950&quot;,
-          &quot;CVE-2026-20700&quot;,
-          &quot;CVE-2025-20701&quot;
-        ],
+        &quot;cve_ids&quot;: [],
         &quot;attack_techniques&quot;: [],
         &quot;urgency_signals&quot;: [
           &quot;zero_day&quot;
         ],
         &quot;content_type&quot;: &quot;news_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {
-          &quot;Palo Alto Networks&quot;: &quot;target&quot;,
-          &quot;Apple iOS/macOS&quot;: &quot;target&quot;
-        },
+        &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 10,
-      &quot;full_body&quot;: &quot;Apple backports CoreGraphics zero-day patches to older iPhones By Sergiu Gatlan October 27, 2026 06:36 AM 0 ​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in \&quot;extremely sophisticated\&quot; targeted attacks on iOS devices. Apple patched the same vulnerability in September for devices running iOS 26.7.1 and iPadOS 26.7.1, macOS Tahoe 26.7.1, and macOS Sequoia 15.8.1. Meta Product Security discovered this out-of-bounds write weakness (tracked as CVE-2026-86950 ) in CoreGraphics, a framework used for two-dimensional vector graphics, text drawing, and image rendering across iOS, macOS, iPadOS, watchOS, and tvOS. Successful exploitation of out-of-bounds write security issues can let attackers crash programs, corrupt data, or gain remote code execution by writing data outside the allocated memory buffer. \&quot;Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27,\&quot; Apple warned on Monday . \&quot;Processing a maliciously crafted file may lead to arbitrary code execution. An out-of-bounds write issue was addressed with improved bounds checking.\&quot; With this week&#x27;s security patches, Apple has now also addressed this vulnerability on iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later. While Apple said CVE-2026-86950 is exploited only in highly targeted attacks, it is strongly advised to install these backported patches to block potential attacks. With this vulnerability, Apple has fixed two zero-days exploited in attacks this year. The other (CVE-2026-20700), an arbitrary code execution vulnerability in dyld (the Dynamic Link Editor used by Apple operating systems) also exploited in \&quot;extremely sophisticated\&quot; targeted attacks, was patched in February . Earlier this year, Apple also fixed a high-severity Beats Studio Buds flaw (CVE-2025-20701) that lets attackers in Bluetooth range spy on users&#x27; conversations, and patched older iPhones and iPads against four vulnerabilities targeted in cyberespionage and crypto-theft attacks using the Coruna exploit kit. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Apple patches CoreGraphics zero-day flaw exploited in attacks Arista patches new VeloCloud Orchestrator zero-day exploited in attacks BeyondTrust patches zero-day exploited in attacks since August Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks Cisco patches new Secure Email Gateway zero-day exploited in attacks&quot;,
-      &quot;fetch_status&quot;: &quot;ok&quot;
+      &quot;score&quot;: 9
     },
     {
       &quot;source&quot;: &quot;SecurityWeek&quot;,
@@ -2588,7 +2794,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;Cisco Talos&quot;,
@@ -2621,7 +2827,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 12,
+      &quot;score&quot;: 11,
       &quot;full_body&quot;: &quot;From federal SOCs to Talos: Ryan Fetterman on practical security research By Amy Ciminnisi Tuesday, October 27, 2026 06:00 Humans of Talos What does it mean to be \&quot;blue collar\&quot; for the blue team? Amy sat down with security researcher Ryan Fetterman to discuss his journey from federal agency work to his new role at Talos. He shares the realities of detection engineering — including the creative, often frustrating ways attackers evolve their tactics to stay one step ahead of traditional defenses. Beyond the technical grind, Ryan shares his philosophy on building a career in security without burning out. From the value of project-based learning to the importance of finding time to step away from the keyboard, here&#x27;s Ryan&#x27;s take on what it really means to navigate today&#x27;s cybersecurity industry. Amy Ciminnisi: Tell me a little bit about the journey that has taken you to Talos, from early on in your career through to now. How did you get here? I actually don&#x27;t know that much about it. Ryan Fetterman: I&#x27;ve been doing security about 15 years now, and my career was largely shaped by where I started in the DC area. I spent about a decade there. I started out in consulting and then pivoted over to research, but that was a great place to get started. I got a lot of great experience in federal agencies and government consulting, continued my education down there, got trained up, got certifications and things like that. And that was where I got my first exposure to doing actual security operations, which is what I really stuck with. It was my first exposure to Splunk. Querying lots of log data and building visualizations and analytics in Splunk was the first time in my career that I felt it was kind of my natural inclination. It seems like it should have been more obvious to me looking back on it, but it&#x27;s something that I try to explain to people a lot. When you first get into security, there&#x27;s a desire to kind of find your specialization and start working towards it. But in my experience, it&#x27;s just not something that you can rush. I met the people connected with that space, which eventually led to me going to work for Splunk. I worked on the Splunk research team, SURGe. And then after the Cisco acquisition of Splunk, I ultimately became reorganized into Talos. AC: I&#x27;m sure there have been so many challenges, so many obstacles in your way as you&#x27;re trying to do this research. Can you share one that you&#x27;ve faced and how it shaped your perspective on cybersecurity? RF: Something that stuck with me was actually my first advanced persistent threat (APT) incident. Now, you can look this up. It&#x27;s called Pandora Song if you search for the C2. I was in the DC area working in a federal SOC, and I was doing some of the first host-based analytics at the time, which have now become kind of the concentration of a lot of detection. Engineering and analytics are host-based, so this was kind of pioneering at the time. I was looking at a lot of host-based sensors and writing analytics in Splunk, actually, and we had been tipped off to this incident by a third party. I was looking through the details of the incident and how the attacker was carrying out the progression of their attack... Want to see more? Watch the full interview , and don’t forget to subscribe to our YouTube channel for future episodes of Humans of Talos. Share this post Related Content Black Hat special: Rewind and revisit July 30, 2026 06:00 Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence. Martin Lee: Running through the Arctic (and the threat landscape) July 1, 2026 06:00 Ever wonder how someone goes from studying human viruses to leading cybersecurity teams? In this Humans of Talos, we’re joined by Martin Lee, EMEA Lead, to talk about his journey into the industry. Winning the cyber marathon with Tony Giandomenico June 4, 2026 08:05 Tony Giandomenico, Senior Director of Product Management, joins Amy to discuss the Talos Threat Hun&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -2655,7 +2861,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;The Hacker News&quot;,
@@ -2683,7 +2889,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;BleepingComputer&quot;,
@@ -2697,36 +2903,25 @@
       &quot;in_window&quot;: true,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [
-          &quot;ransomware_extortion&quot;,
-          &quot;phishing_social_eng&quot;,
           &quot;data_breach&quot;
         ],
         &quot;actor_attribution&quot;: [],
         &quot;affected_industries&quot;: [
-          &quot;financial_services&quot;,
-          &quot;critical_infrastructure&quot;,
-          &quot;retail_ecommerce&quot;,
-          &quot;legal_professional&quot;
+          &quot;critical_infrastructure&quot;
         ],
-        &quot;affected_products&quot;: [
-          &quot;Salesforce&quot;
-        ],
+        &quot;affected_products&quot;: [],
         &quot;tools_used&quot;: [],
         &quot;cve_ids&quot;: [],
         &quot;attack_techniques&quot;: [],
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;incident_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {
-          &quot;Salesforce&quot;: &quot;target&quot;
-        },
+        &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 10,
-      &quot;full_body&quot;: &quot;Energy giant ENGIE discloses data breach affecting customers By Sergiu Gatlan October 27, 2026 05:25 AM 0 French energy giant ENGIE, one of the world&#x27;s largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. ENGIE operates in renewable energy, infrastructure, and customer energy supply in 30 countries, employs over 90,000 people, and reported €71.9 billion in revenue last year. An ENGIE spokesperson told BleepingComputer that it cut off the attackers&#x27; access to the compromised platform and that they didn&#x27;t breach the company&#x27;s internal systems. \&quot;ENGIE&#x27;s internal IT systems were not compromised. ENGIE recently identified unusual data access activity within a tool used by partners as part of their customer prospecting activities and the marketing of energy offers,\&quot; the spokesperson said. The ENGIE spokesperson didn&#x27;t say how many customers were affected, but told BleepingComputer the incident is limited to customers in France. Since the attack, ENGIE has notified relevant authorities and contacted affected customers to inform them of the breach. \&quot;The investigations conducted to date indicate that the data concerned is limited to customers&#x27; contact details and certain information relating to their energy contracts. No banking data is affected,\&quot; ENGIE told BleepingComputer. \&quot;In the interest of transparency, ENGIE individually informed each customer concerned and reminded them of the precautionary measures they should take to protect themselves against potential fraud or phishing attempts.\&quot; Although the company didn&#x27;t share what customer information was stolen in the attack, it said in breach notification letters sent to affected customers that the threat actors gained access to their first and last names, mailing address, email address, phone number, Delivery Point (PDL) or Metering and Estimation Point (PCE), customer ID, and contract number. ENGIE didn&#x27;t attribute the attack to a specific threat group, and no ransomware operation or extortion gang has claimed the ENGIE breach before publication. One year ago, the Scattered LAPSUS$ Hunters extortion group also leaked records they claimed to have stolen after allegedly breaching a Salesforce instance of Engie Records , the retail energy supply subsidiary of ENGIE North America. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Retail giant Ahold Delhaize takes systems offline after cyberattack Nikkei discloses third data breach in a month, 1.8M records exposed Burger King Japan data breach exposes 11 million customer records UK Legal Aid Agency: Hackers stole records dating back to 1978 UK Housing Ombudsman Service investigates &#x27;security incident&#x27;&quot;,
-      &quot;fetch_status&quot;: &quot;ok&quot;
+      &quot;score&quot;: 9
     },
     {
       &quot;source&quot;: &quot;Reddit r/netsec&quot;,
@@ -2754,7 +2949,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 4
+      &quot;score&quot;: 3
     },
     {
       &quot;source&quot;: &quot;BleepingComputer&quot;,
@@ -2795,7 +2990,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 17,
+      &quot;score&quot;: 16,
       &quot;full_body&quot;: &quot;CISA confirms PHP2Shell vulnerabilities now exploited in attacks By Sergiu Gatlan October 27, 2026 04:20 AM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two critical PHP vulnerabilities collectively tracked as PHP2Shell to its catalog of actively exploited security flaws. Threat actors without privileges can exploit the two security issues (CVE-2026-109618 and CVE-2026-109619) in high-complexity attacks to gain remote code execution (RCE) on unpatched systems. ​ The PHP security team patched the two flaws on Wednesday, October 21, one day after urging security teams to install the security updates as soon as they became available. Although details on the PHP2Shell security flaws (including the CVE IDs and mitigation measures shared with critical infrastructure providers) leaked and some proof-of-concept (PoC) exploits were published online before patches went live, the PHP security team said that none were functional. Multiple cybersecurity firms (including Cloudflare , Amazon , Hadrian , watchTowr , Previdian , and Patchstack ) also detected widespread exploitation attempts before public disclosure, but they all tagged them as unsuccessful. Amazon Threat Intelligence security researchers also said that attackers began targeting the PHP2Shell vulnerabilities four days before security patches were released . Federal agencies ordered to patch by Thursday CISA added the vulnerabilities to its Known Exploited Vulnerabilities Catalog on Monday and ordered Federal Civilian Executive Branch (FCEB) agencies to secure their systems by Thursday, as mandated by Binding Operational Directive 26-04. \&quot;These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise,\&quot; the cybersecurity agency warned. \&quot;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of KEV Catalog vulnerabilities.\&quot; While CISA has not yet shared further details about ongoing PHP2Shell attacks, Perplexity detection and response lead Adel Karimi first confirmed in-the-wild exploitation over the weekend after their honeypots recorded evidence of remote code execution against an Apache mod_php installation running PHP 8.4.26. On Friday, the PHP security team also shared mitigation for a new RCE flaw (CVE-2026-115560) with no patch, exploitable when targeting systems \&quot;with an unusual combination of configuration and application code.\&quot; PHP powers roughly 70% of all websites, with more than 5.1 million PHP hosts exposed online and around 3.8 million instances with at least one port open to attacks, according to VirusTotal estimates . Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: PHP2Shell security flaws now sucessfully exploited in the wild Amazon says PHP2Shell exploitation began 4 days before patches PHP ships emergency patches for critical PHP2Shell flaws PHP warns admins of two critical flaws, emergency patches coming tomorrow CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -3084,7 +3279,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;BleepingComputer&quot;,
@@ -3112,7 +3307,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 5
+      &quot;score&quot;: 4
     },
     {
       &quot;source&quot;: &quot;Dark Reading&quot;,
@@ -3143,7 +3338,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Huntress&quot;,
@@ -3335,34 +3530,6 @@
       &quot;score&quot;: 11
     },
     {
-      &quot;source&quot;: &quot;BleepingComputer&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;Critical &#x27;HTTP2Shell&#x27; Brotli vulnerability triggers emergency patches&quot;,
-      &quot;link&quot;: &quot;https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/&quot;,
-      &quot;published&quot;: &quot;2026-10-26T16:27:57+00:00&quot;,
-      &quot;summary&quot;: &quot;A critical flaw dubbed &#x27;HTTP2Shell&#x27; in Brotli, the C decoder library built into Node.js, could allow attackers to corrupt memory and access sensitive data. [...]&quot;,
-      &quot;author&quot;: &quot;Bill Toulas&quot;,
-      &quot;in_window&quot;: true,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;vulnerability_disclosure&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      },
-      &quot;score&quot;: 8
-    },
-    {
       &quot;source&quot;: &quot;Check Point Research&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;category&quot;: &quot;threat_research_primary&quot;,
@@ -3460,34 +3627,6 @@
           &quot;ransomware_extortion&quot;,
           &quot;phishing_social_eng&quot;
         ],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      },
-      &quot;score&quot;: 4
-    },
-    {
-      &quot;source&quot;: &quot;BleepingComputer&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;Microsoft releases emergency .NET patches for critical Brotli flaw&quot;,
-      &quot;link&quot;: &quot;https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/&quot;,
-      &quot;published&quot;: &quot;2026-10-26T15:38:24+00:00&quot;,
-      &quot;summary&quot;: &quot;Microsoft released emergency .NET security updates to patch a critical vulnerability known as Broccoli2Shell, also tracked as Node2Shell and HTTP2Shell. [...]&quot;,
-      &quot;author&quot;: &quot;Sergiu Gatlan&quot;,
-      &quot;in_window&quot;: true,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
         &quot;actor_attribution&quot;: [],
         &quot;affected_industries&quot;: [],
         &quot;affected_products&quot;: [],
@@ -4232,7 +4371,9 @@
       &quot;author&quot;: &quot;info@thehackernews.com (The Hacker News)&quot;,
       &quot;in_window&quot;: true,
       &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
+        &quot;threat_categories&quot;: [
+          &quot;phishing_social_eng&quot;
+        ],
         &quot;actor_attribution&quot;: [],
         &quot;affected_industries&quot;: [],
         &quot;affected_products&quot;: [],
@@ -4249,7 +4390,9 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 10
+      &quot;score&quot;: 10,
+      &quot;full_body&quot;: &quot;Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers  Swati Khandelwal  Oct 25, 2026 Vulnerability / Network Security A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network&#x27;s access rules permit to connect to the target. The findings were published on October 25 in a report called Tailworm by Erica Windisch of Cyberdione Labs. Windisch tested Tailscale version 1.104.2 and headscale version 0.29.5, the self-hosted server some networks use to run Tailscale instead of the company&#x27;s hosted service, over three days in a lab. The report describes tests on that software, not attacks against real networks. When the report was published, Tailscale had issued no security bulletin , no CVE identifier, and no fixed version. The company has since said a patched client is close, as detailed in the update below. Tailscale has responded in public. Mike Shaver, the company&#x27;s vice president of engineering, wrote on Reddit that Tailscale had received the report, had already been looking at the same areas with outside security specialists, and had found issues it is working to fix. Shaver said the company is still working out which setups are affected, and that it is \&quot;not recommending that everyone disable Tailscale SSH.\&quot; Tailscale SSH does not work like a normal SSH server. Rather than checking a connecting user&#x27;s password or key, it identifies the device, and a single access rule decides whether that device may open an SSH session to a target. Because of this, the attack needs no stolen passwords or keys. It needs a foothold on one device first, which the report says an attacker can get the usual ways: a vulnerable web application, a poisoned software package, phishing, or stolen login details. Tailscale does not create that first foothold. How much an administrator can do about it depends on where the network is run. On Tailscale&#x27;s hosted service, forwarding can be switched off per rule. On headscale version 0.29.5, forwarding cannot be turned off at all. The report says every SSH grant there should therefore be treated as giving root on the target. In the lab, Windisch showed the problem in stages. Using standard SSH port forwarding, an ordinary session caused the root-level Tailscale process to connect to a system socket that only root should access, and the test gained root and read the system password file almost immediately, without administrator rights. A second method replaced a root-owned socket with the attacker&#x27;s, allowing direct root command execution against certain services. A third method defeated a safety check meant to limit which files forwarding can access by racing the system between when it checks a file path and when it uses it. That chain went further in the lab, the report says: it captured a key used to enroll new devices and used the key to join an attacker&#x27;s own machine to the network as a trusted server. That last step worked from start to finish only on networks where Tailscale&#x27;s Tailnet Lock feature was not enabled. On networks that do, the needed secrets were captured in transit, but the final step was not completed. Windisch describes the overall result as \&quot;wormable.\&quot; In the lab, one compromised device could spread to every device that the access rules allow, with no passwords, no stolen keys, and no user action, in under a second per step. In the report&#x27;s words, \&quot;the mesh converts one ordinary foothold into fleet-wide privileged access at machine speed.\&quot; That spread was measured in a lab, not seen on real networks. The report names two things that held it back: access rules written as single source-to-destination pairs, which stopped the spread on their own, and device keys tied to hardware such as a TPM or Secure&quot;,
+      &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
       &quot;source&quot;: &quot;The Hacker News&quot;,
@@ -4941,25 +5084,34 @@
       &quot;in_window&quot;: true,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [
-          &quot;ransomware_extortion&quot;
+          &quot;ransomware_extortion&quot;,
+          &quot;zero_day&quot;
         ],
         &quot;actor_attribution&quot;: [
           &quot;Cl0p&quot;
         ],
         &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
+        &quot;affected_products&quot;: [
+          &quot;SolarWinds&quot;
+        ],
         &quot;tools_used&quot;: [],
         &quot;cve_ids&quot;: [],
         &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
+        &quot;urgency_signals&quot;: [
+          &quot;zero_day&quot;
+        ],
         &quot;content_type&quot;: &quot;news_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
+        &quot;role_map&quot;: {
+          &quot;SolarWinds&quot;: &quot;target&quot;
+        },
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 10
+      &quot;score&quot;: 10,
+      &quot;full_body&quot;: &quot;Eli Woodward 5 min read August 12, 2026 Cl0p Til you Drop - 6 Years, 10 Campaigns, 8 Zero-Days PART I: Operational Profile and Campaign Analysis 1. The MFT Targeting Pattern Cl0p&#x27;s defining operational characteristic is a sustained and systematic focus on internet-facing applications that hold or move valuable data. Across ten known campaigns, the group has targeted Accellion FTA, SolarWinds Serv-U, Fortra GoAnywhere MFT, PaperCut MF/NG, Progress MOVEit Transfer, SysAid ITSM, Cleo MFT (Harmony, VLTrader, LexiCom), Oracle E-Business Suite, Gladinet Centrestack/TrioFox and, most recently, PTC Windchill and FlexPLM. Managed file transfer (MFT) remains the core of the pattern. The exceptions — PaperCut (print management), SysAid (IT service management), Oracle EBS (enterprise resource planning) and Windchill/FlexPLM (product lifecycle management) — share the same architectural profile: an internet-facing application that processes, stores or transfers sensitive files. Windchill sharpens the picture. PLM platforms hold engineering schematics, design data and other proprietary product information rather than the personal or health records most breach programs are built around. Cl0p&#x27;s target selection is best understood through the value of the data an edge application holds, not just its product category. This consistency is significant for two reasons. First, it indicates strategic specialization rather than opportunistic exploitation: the group has invested in developing or acquiring zero-day capabilities for this class of application, deploying zero-day exploits in eight of ten campaigns. Second, it defines a bounded, defensible attack surface. Organizations that operate these platforms can identify themselves as potential targets and implement category-specific protections — a defensive advantage that is uncommon against most ransomware groups. FIGURE 1 · COMPLETE CL0P CAMPAIGN HISTORY, 2020–2026 2. Exploitation Timeline The chronological record of Cl0p campaigns reveals a distinctive operational tempo: extended dormancy periods punctuated by concentrated bursts of activity. FIGURE 2 · CAMPAIGN TIMELINE WITH INTER-CAMPAIGN INTERVALS, DEC 2020 – AUG 2026 The group&#x27;s longest dormancy — approximately 14 months between the SolarWinds Serv-U exploitation in late 2021 and the Fortra GoAnywhere campaign in January 2023 — was followed by its most active phase: four campaigns across four separate technologies in ten months, three of them (GoAnywhere, PaperCut and MOVEit) in the first five months of 2023. This burst-and-pause cadence suggests a development cycle in which the group acquires or develops exploits, executes campaigns in rapid succession, and then withdraws to prepare for the next cycle. A second long pause of roughly 12 months followed SysAid before Cleo in October 2024. The first edition of this report used 10- to 14-month intervals as a rough forecasting baseline and noted, as of mid-2026, that the next cycle might be approaching. It arrived sooner than that baseline implied: Windchill exploitation began in early June 2026, about seven months after Centrestack. Taken together, Oracle EBS, Centrestack and Windchill represent three campaigns in roughly ten months — a burst comparable to 2023. FORECASTING IMPLICATION: Long dormancy periods remain characteristic of Cl0p, but they are not a safe planning assumption. The recent cycle has compressed. Defenders should treat the period immediately after a campaign as a preparation window for the next one, not a quiet period. 3. Seasonal and holiday clustering FIGURE 3 · CAMPAIGNS BY QUARTER OF INITIATION — Q4 ACCOUNTS FOR HALF OF ALL CAMPAIGNS When campaigns are mapped by calendar quarter, Q4 is the dominant operational window. Five of ten confirmed campaigns were initiated during October through December — as many as all other quarters combined. This clustering is operationally meaningful: Q4 coincides with major holidays in the United States and Europe, periods when security opera&quot;,
+      &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -6022,36 +6174,6 @@
       &quot;score&quot;: 15,
       &quot;full_body&quot;: &quot;ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More  Ravie Lakshmanan  Oct 22, 2026 Hacking News / Cybersecurity News This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs , compromised eMudhra certificates , a Node.js RCE flaw , a hacked LiteLLM release, and hundreds of hijacked Tor relays . That&#x27;s a lot to deal with in just a few days. And the week isn&#x27;t even over yet. But those big headlines are only half the story. Stolen passwords, exposed databases, broken login checks, and trusted tools being turned against their users are causing trouble too. Some attacks are clever. Others work because someone left a simple security gap open. This ThreatsDay, we&#x27;re digging into the stories that didn&#x27;t make as much noise but still deserve attention. Some are strange, some are serious, and a few might surprise you. Here&#x27;s everything else you shouldn&#x27;t miss this week. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out. 4,500+ accounts compromised Bluesky Confirms More Than 4,500 Accounts Compromised in Phishing Campaign Bluesky has acknowledged it&#x27;s aware of a phishing attack that has compromised more than 4,500 accounts. \&quot;The attack spread through posts promoting a fake offer of a government payment,\&quot; Bluesky said . \&quot;We have temporarily suspended the compromised accounts and are working with their owners to secure them and restore access. If your account was suspended, email moderation@blueskyweb.xyz and we will help to get you back into your account.\&quot; Android malware scam losses Singapore Police Warn of Android Malware Scams Causing Nearly S$1 Million in Losses The Singapore Police Force has alerted users of a malware-enabled scam variant involving advertisements on social media platforms promoting senior-focused activities and programmes, water-based fitness activities, and recycling initiatives. The agency said at least 62 cases have been reported since April 2026, leading to S$989,000 in losses. \&quot;In this scam, victims would come across the fake advertisements on social media platforms, such as Facebook, and be instructed to download an Android Application Package (APK) file to facilitate programme registration or service arrangements,\&quot; the Singapore Police Force said . \&quot;After installing the application, victims would receive unsolicited calls from scammers impersonating government officials or bank representatives, who would falsely claim that the victims&#x27; devices or bank accounts had been compromised, or that they were implicated in criminal activities. Victims would then be induced to transfer monies, disclose banking credentials or personal information, or surrender valuables for investigations.\&quot; Customer credentials exposed Andromeda Confirms Credential Theft Affecting AI Infrastructure Customers Andromeda said it identified a security incident on October 13, 2026, that involved unauthorized access to credentials in its environment. \&quot;We disabled the compromised accounts that day and have observed no further unauthorized activity since,\&quot; it said . \&quot;We believe the activity began as part of an industry-wide attack on or about October 9th. It affected a limited number of customer accounts and involved exposure of certain Andromeda and customer credentials. If we believe you were affected, you’ve already heard from us.\&quot; The company said there is no evidence of unauthorized access to customer models, datasets, or training data. 20 security flaws patched Roundcube Fixes 20 Security Issues Including IMAP Injection and SSRF Bypass Roundcube has released versions 1.6.20 and 1.7.5, addressing 20 issues including IMAP command injection, SSRF filter bypass, and unsafe attachment handling. There is no evidence any of the patched vulnerabilities have been exploited. Internal business systems breached Genesys Confirms Breach of Internal CRM and Learning Systems On October 16, 2026, &quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
-    },
-    {
-      &quot;source&quot;: &quot;CyberScoop&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;Exclusive: Bipartisan bill would develop federal guidance for distillation attacks, convene industry on defensive cyber&quot;,
-      &quot;link&quot;: &quot;https://cyberscoop.com/bipartisan-bill-combat-ai-distillation-attacks-nist/&quot;,
-      &quot;published&quot;: &quot;2026-10-22T17:37:24+00:00&quot;,
-      &quot;summary&quot;: &quot;One of the bill’s sponsors told CyberScoop it’s “incredibly expensive” for U.S. AI companies to stay ahead and distillation attacks incentivize stealing over innovation. The post Exclusive: Bipartisan bill would develop federal guidance for distillation attacks, convene industry on defensive cyber appeared first on CyberScoop .&quot;,
-      &quot;author&quot;: &quot;djohnson&quot;,
-      &quot;in_window&quot;: true,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [
-          &quot;government&quot;
-        ],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      },
-      &quot;score&quot;: 4
     },
     {
       &quot;source&quot;: &quot;GitHub Security Lab&quot;,
@@ -7269,7 +7391,7 @@
         }
       },
       &quot;score&quot;: 11,
-      &quot;full_body&quot;: &quot;Simon Willison’s Weblog Newsletter Sponsored by: WorkOS Airlock — intent-based access control for AI agents. Request early access 21st October 2026 - Link Blog Today&#x27;s PHP Security Release, and How We&#x27;re Strengthening PHP Security ( via ) If you&#x27;re running anything on PHP it&#x27;s vital you upgrade - today&#x27;s updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process. This post from the PHP Foundation explain what went so wrong: On Tuesday, October 20th, at around 15:00 UTC, the two CVE IDs began circulating on online forums and social media. They came with a wrong release time and a wrong CVSS score of 10.0 (the actual score is 9.2). No technical details leaked. In response, the PHP project brought its pre-announcement forward and published it at 19:30 UTC . It also moved the release from October 22nd, 14:00 UTC, to October 21st, 14:00 UTC [...] As a result of the leak and pre-announcement around 20:00 UTC, Calif, one of the security firms that had reported the issues mistakenly published a video. It showed their proof of concept working against a number of targets and revealed a few additional, though limited, details about the vulnerabilities. Copies of the deleted video started circulating on social media soon after. The video contributed to accelerated development of various PoCs (exploitation proof of concepts), which then increased circulation on October 21st. This article from the team that discovered the original vulnerability includes a more detailed timeline of the original intended responsible disclosure: August 19, 2026: Wiz Research discovers the first PHP vulnerability using Wiz Atlas, Gemini 4 Argon, and GPT-5.6 Sol. August 20, 2026: Unauthenticated RCE is confirmed against Drupal. August 21, 2026: Unauthenticated RCE is confirmed against WordPress. August 24, 2026: Wiz Research reports the vulnerabilities to the PHP security team. September 21, 2026: PHP acknowledges the reports and begins developing a coordinated fix. October 21, 2026: Patched PHP releases become available. October 21, 2026: Public disclosure. Posted 21st October 2026 at 6:41 pm Recent articles Battle Drones - a vibe coded RTS with audio-based multiplayer - 20th October 2026 Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026 A new feature for my blog, built using my voice - 9th October 2026 Claude Haiku 5.5 - 7th October 2026 This is a link post by Simon Willison, posted on 21st October 2026 . open-source 324 php 191 security 641 ai 2,295 ai-security-research 50 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month&#x27;s most important LLM developments. Pay me to send you less! Sponsor &amp; subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026&quot;,
+      &quot;full_body&quot;: &quot;Simon Willison’s Weblog Newsletter Sponsored by: WorkOS Airlock — intent-based access control for AI agents. Request early access 21st October 2026 - Link Blog Today&#x27;s PHP Security Release, and How We&#x27;re Strengthening PHP Security ( via ) If you&#x27;re running anything on PHP it&#x27;s vital you upgrade - today&#x27;s updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process. This post from the PHP Foundation explain what went so wrong: On Tuesday, October 20th, at around 15:00 UTC, the two CVE IDs began circulating on online forums and social media. They came with a wrong release time and a wrong CVSS score of 10.0 (the actual score is 9.2). No technical details leaked. In response, the PHP project brought its pre-announcement forward and published it at 19:30 UTC . It also moved the release from October 22nd, 14:00 UTC, to October 21st, 14:00 UTC [...] As a result of the leak and pre-announcement around 20:00 UTC, Calif, one of the security firms that had reported the issues mistakenly published a video. It showed their proof of concept working against a number of targets and revealed a few additional, though limited, details about the vulnerabilities. Copies of the deleted video started circulating on social media soon after. The video contributed to accelerated development of various PoCs (exploitation proof of concepts), which then increased circulation on October 21st. This article from the team that discovered the original vulnerability includes a more detailed timeline of the original intended responsible disclosure: August 19, 2026: Wiz Research discovers the first PHP vulnerability using Wiz Atlas, Gemini 4 Argon, and GPT-5.6 Sol. August 20, 2026: Unauthenticated RCE is confirmed against Drupal. August 21, 2026: Unauthenticated RCE is confirmed against WordPress. August 24, 2026: Wiz Research reports the vulnerabilities to the PHP security team. September 21, 2026: PHP acknowledges the reports and begins developing a coordinated fix. October 21, 2026: Patched PHP releases become available. October 21, 2026: Public disclosure. Posted 21st October 2026 at 6:41 pm Recent articles Battle Drones - a vibe coded RTS with audio-based multiplayer - 20th October 2026 Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026 A new feature for my blog, built using my voice - 9th October 2026 Claude Haiku 5.5 - 7th October 2026 This is a link post by Simon Willison, posted on 21st October 2026 . open-source 324 php 191 security 641 ai 2,296 ai-security-research 50 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month&#x27;s most important LLM developments. Pay me to send you less! Sponsor &amp; subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
@@ -7704,34 +7826,6 @@
         }
       },
       &quot;score&quot;: 4
-    },
-    {
-      &quot;source&quot;: &quot;Reddit r/netsec&quot;,
-      &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
-      &quot;category&quot;: &quot;reddit_practitioner_osint&quot;,
-      &quot;title&quot;: &quot;PHP patches for critical PHP2Shell vulnerabilities&quot;,
-      &quot;link&quot;: &quot;https://www.reddit.com/r/netsec/comments/1xbp0px/php_patches_for_critical_php2shell_vulnerabilities/&quot;,
-      &quot;published&quot;: &quot;2026-10-21T14:41:22+00:00&quot;,
-      &quot;summary&quot;: &quot;submitted by /u/CyberMasterV [link] [comments]&quot;,
-      &quot;author&quot;: &quot;/u/CyberMasterV&quot;,
-      &quot;in_window&quot;: true,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_5_chatter&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      },
-      &quot;score&quot;: 2
     },
     {
       &quot;source&quot;: &quot;Orca Security Research&quot;,
@@ -8901,7 +8995,7 @@
       &quot;published&quot;: &quot;2026-10-20T22:20:16+00:00&quot;,
       &quot;summary&quot;: &quot;Following the discovery that eight eMudhra intermediate certificates use weak keys, Cloudflare is deploying mitigations and releasing client updates. We explain the impact, our response, and what customers and developers should do next.&quot;,
       &quot;author&quot;: &quot;Jeremy Hartman&quot;,
-      &quot;in_window&quot;: true,
+      &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [],
         &quot;actor_attribution&quot;: [],
@@ -8917,10 +9011,7 @@
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
-      },
-      &quot;score&quot;: 11,
-      &quot;full_body&quot;: &quot;OnÂ October 19, 2026, at approximatelyÂ 17:00 UTC, Cloudflare became aware that private keys associated with eight eMudhra intermediate certificates were compromised. These certificates were widely trusted by browsers, operating systems, and also within Cloudflare. Because the keys themselves are weak, an attacker can create a forged certificate for any domain and use it to impersonate servers to intercept or modify traffic. This is a serious security incident with implications across the Internet. For reference, here is a link Â to more information about how SSL certificates work and why they are so critical to the operation of the Internet. We immediately prioritized patching critical services across Cloudflare to protect our customers ahead of the public disclosure of the vulnerability. Our security review has not identified active exploitation of this issue on Cloudflare services. We have released updates for the Cloudflare One Clients, also known as WARP or the 1.1.1.1 app, and Cloudflare Tunnel, also known as cloudflared. We have also deployed mitigations across our CDN, Developer, and Zero Trust products. If you are using Cloudflare Zero Trust with Gateway and an up-to-date client (see below), you are automatically protected. Our response We prioritized updating services that use public certificates to authenticate remote endpoints, including proxies connecting to origins and applications calling external APIs. In parallel, we updated shared trust stores, base images, and other shared foundations, providing a common mitigation path for services that inherit their certificate trust from those sources. We paired these updates with reloads, restarts, and image deployments needed to activate them. Applications with bundled or custom trust stores received separate assessment and updates. This work addresses certificate-based authentication, not a weakness in TLSâs encryption algorithms. Teams across Cloudflare are presently working on further remediation. We are making progress, but there&#x27;s much work still to be done. Some customers will need to take action on software or trust configurations that they operate, especially on their origin servers. Â The recommended actions are summarized below. What customers should do Users of these software or services Action the customer should take Cloudflare One/WARP Cloudflare One Client: Upgrade to: v2.5.7 (Android), v1.12.7 (iOS), Windows Desktop (2026.8.2115.0) , macOS (2026.8.2115.0) , Linux (2026.8.2115.0) 1.1.1.1 app: Upgrade to: v6.38.11 (Android), v6.31.8 (iOS), Windows Desktop (2026.8.2115.0) , macOS (2026.8.2115.0) , Linux (2026.8.2115.0) Cloudflare Tunnel (cloudflared) Upgrade to 2026.10.2 . For container deployments, update and redeploy the fixed image Customer-configured TLS client authentication Review and update your mutual TLS trust store/uploaded CAs used to verify client certificates Customer Origin TLS Servers configuration Review your custom origin certificates and server configurations if using Full (strict) Â encryption mode or Strict Â mode. We are updating Automatic SSL/TLS Â to automatically notify you if you still use these distrusted certificates, which would cause breakages. Cloudflare Containers Customers using Cloudflare Containers, including Sandboxes, should review their container images and application dependencies for affected certificate trust stores and apply updates based on your deployed image. Customers can also enable HTTPS egress interception Â to route outbound HTTPS requests through Cloudflare, moving remote-server certificate validation from the application to Cloudflare-managed infrastructure. This allows Cloudflareâs trust-store mitigations to protect intercepted connections. Containers that have this enabled are already protected. Developer guidance For developers, look beneath the SDK. An API client may delegate certificate verification to an HTTP library, a language runtime, the operating system, or a custom trust configuration. Updat&quot;,
-      &quot;fetch_status&quot;: &quot;ok&quot;
+      }
     },
     {
       &quot;source&quot;: &quot;Wiz Research&quot;,
@@ -8931,7 +9022,7 @@
       &quot;published&quot;: &quot;2026-10-20T22:02:42+00:00&quot;,
       &quot;summary&quot;: &quot;Enable native runtime protection for GKE in just one click. The Wiz Runtime Sensor add-on now automates deployment and credential management while delivering predictable, kernel-level eBPF threat detection for your GKE Kubernetes fleets.&quot;,
       &quot;author&quot;: &quot;Shahar Yakov&quot;,
-      &quot;in_window&quot;: true,
+      &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [],
         &quot;actor_attribution&quot;: [],
@@ -8951,8 +9042,7 @@
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
-      },
-      &quot;score&quot;: 7
+      }
     },
     {
       &quot;source&quot;: &quot;Dark Reading&quot;,
@@ -8963,7 +9053,7 @@
       &quot;published&quot;: &quot;2026-10-20T21:45:47+00:00&quot;,
       &quot;summary&quot;: &quot;Google, Mozilla, Apple, the Go project and others moved swiftly to block the affected certificates from the Indian CA, though it&#x27;s unclear how the keys were compromised.&quot;,
       &quot;author&quot;: &quot;Jai Vijayan&quot;,
-      &quot;in_window&quot;: true,
+      &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [],
         &quot;actor_attribution&quot;: [],
@@ -8979,8 +9069,7 @@
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
-      },
-      &quot;score&quot;: 8
+      }
     },
     {
       &quot;source&quot;: &quot;Horizon3 Attack Research&quot;,
@@ -8991,16 +9080,11 @@
       &quot;published&quot;: &quot;2026-10-20T21:23:28+00:00&quot;,
       &quot;summary&quot;: &quot;CVE-2026-101767 is a critical (CVSS 9.8) unauthenticated SQL injection vulnerability in Oracle E-Business Suite 12.2.3–12.2.15. Horizon3 researchers identified an attack chain enabling remote code execution through the TCF servlet. Learn about affected versions, October 2026 patches, mitigations, and NodeZero Rapid Response validation.&quot;,
       &quot;author&quot;: &quot;Horizon3&quot;,
-      &quot;in_window&quot;: true,
+      &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [
-          &quot;zero_day&quot;
-        ],
+        &quot;threat_categories&quot;: [],
         &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [
-          &quot;financial_services&quot;,
-          &quot;government&quot;
-        ],
+        &quot;affected_industries&quot;: [],
         &quot;affected_products&quot;: [],
         &quot;tools_used&quot;: [],
         &quot;cve_ids&quot;: [
@@ -9008,7 +9092,6 @@
         ],
         &quot;attack_techniques&quot;: [],
         &quot;urgency_signals&quot;: [
-          &quot;zero_day&quot;,
           &quot;preauth_unauth&quot;,
           &quot;critical_cvss&quot;
         ],
@@ -9018,10 +9101,7 @@
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
-      },
-      &quot;score&quot;: 37,
-      &quot;full_body&quot;: &quot;CVE-2026-101767 Oracle E-Business Suite TCF SQL Injection and Remote Code Execution CVE-2026-101767 is an unauthenticated SQL injection vulnerability in Oracle E-Business Suite (EBS) that can be chained to achieve remote code execution. Discovered by Horizon3.ai’s attack research team, the vulnerability allows an attacker with network access to the affected Thin Client Framework (TCF) servlet to execute SQL as the APPS database user, then run operating system commands as the EBS application account. The vulnerability has a CVSS 3.1 score of 9.8 (Critical) . Technical Details Oracle identifies the affected product as Oracle Application Object Library, Core component. Exploitation requires network access over HTTP or HTTPS, with no authentication or user interaction required. The vulnerability affects the TCF servlet at /OA_HTML/AppsTCFServer , implemented by oracle.apps.fnd.tcf.SocketServer . This endpoint is permitted through the default EBS URL firewall configuration. An attacker can send a crafted request to the vulnerable servlet to execute SQL with the privileges of the APPS database user. The attack chain also enables operating system command execution with the privileges of the EBS application account. Successful exploitation allows an attacker to read or modify application data accessible to APPS and execute commands on the application host. Depending on the deployment, affected data may include financial, payroll, HR, and procurement records. Operating system access is governed by the permissions of the compromised EBS application account. Internet-facing EBS web tiers present the most direct exposure. Internal deployments are also at risk if an attacker can reach the vulnerable servlet from a compromised system or another accessible network segment. CVSS 3.1: 9.8 (Critical) Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H Stop Guessing, Start Proving Schedule a demo NodeZero® Proactive Security Platform Rapid Response A NodeZero Rapid Response test has been developed to safely validate whether this vulnerability can be exploited in your environment. The test uses real attack techniques to give teams immediate clarity on exploitable exposure. Run the Rapid Response test: Launch the test from NodeZero to determine whether exploitation is possible. Patch immediately: Apply the applicable Oracle October 2026 Critical Patch Update patches. Re-run the test: Verify that the vulnerability is no longer exploitable after remediation. Affected Versions &amp; Patch Affected Oracle Application Object Library in Oracle E-Business Suite versions 12.2.3 through 12.2.15 , inclusive. Fixed Oracle addressed CVE-2026-101767 in its October 2026 Critical Patch Update , released on October 20, 2026 . Apply the patches applicable to your installation using the Oracle E-Business Suite patch availability documentation referenced in the advisory, My Oracle Support Note KA923 . Mitigations Until the applicable patches are installed: Remove /OA_HTML/AppsTCFServer , associated with oracle.apps.fnd.tcf.SocketServer , from the EBS URL firewall allowlist. Restrict access to the EBS web tier to trusted networks. Monitor the EBS application host and database for signs of compromise. Apply access restrictions across all untrusted network paths to the servlet. These measures reduce exposure but do not replace patching. Indicators of Compromise: Unauthenticated POST requests to /OA_HTML/AppsTCFServer that instantiate the Gantt data-server class ( oracle.apps.jtf.gantt.server.GanttDataServer ), followed by backend database activity. SQL reconnaissance shortly after unauthenticated web requests (database version, current user, directory objects). Unexpected files in $APPLPTMP and the oracle account spawning /bin/sh via the Concurrent Manager to run OS commands. Timeline July 24, 2026 Horizon3 Discloses Zero Day to Oracle. Horizon3 Rapid Response customer assets are assessed and notified. October 20, 2026: Oracle published its October 2026 Critical Patch Upd&quot;,
-      &quot;fetch_status&quot;: &quot;ok&quot;
+      }
     },
     {
       &quot;source&quot;: &quot;Unit 42&quot;,
@@ -9032,41 +9112,31 @@
       &quot;published&quot;: &quot;2026-10-20T20:30:42+00:00&quot;,
       &quot;summary&quot;: &quot;Ransomware operators including Spikey Scorpius (aka Qilin) and Tarnished Scorpius (aka Inc) are exploiting PAN-OS vulnerability CVE-2026-0257. The post Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20) appeared first on Unit 42 .&quot;,
       &quot;author&quot;: &quot;Andy Piazza and Unit 42&quot;,
-      &quot;in_window&quot;: true,
+      &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [
-          &quot;ransomware_extortion&quot;,
-          &quot;active_exploitation&quot;
+          &quot;ransomware_extortion&quot;
         ],
         &quot;actor_attribution&quot;: [],
         &quot;affected_industries&quot;: [],
         &quot;affected_products&quot;: [
-          &quot;Palo Alto Networks&quot;,
-          &quot;Microsoft Windows&quot;
+          &quot;Palo Alto Networks&quot;
         ],
         &quot;tools_used&quot;: [],
         &quot;cve_ids&quot;: [
           &quot;CVE-2026-0257&quot;
         ],
         &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [
-          &quot;actively_exploited&quot;,
-          &quot;no_patch_yet&quot;,
-          &quot;poc_available&quot;
-        ],
+        &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;vulnerability_disclosure&quot;,
         &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
         &quot;role_map&quot;: {
-          &quot;Palo Alto Networks&quot;: &quot;target&quot;,
-          &quot;Microsoft Windows&quot;: &quot;target&quot;
+          &quot;Palo Alto Networks&quot;: &quot;target&quot;
         },
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
-      },
-      &quot;score&quot;: 19,
-      &quot;full_body&quot;: &quot;Threat Research Center High Profile Threats Vulnerabilities Vulnerabilities Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20) 5 min read Related Products Advanced URL Filtering Cortex Cortex Xpanse GlobalProtect Idira Next-Generation Firewall Unit 42 Deep and Dark Web Service Unit 42 Incident Response Unit 42 Threat Intelligence Services By: Andy Piazza Unit 42 Published: October 20, 2026 Categories: High Profile Threats Vulnerabilities Tags: CVE-2026-0257 Vulnerability Share Executive Summary October 19 Update Unit 42 has observed attempted exploitation of the May 2026 CVE-2026-0257 by ransomware operators, including Spikey Scorpius (aka Qilin) and Tarnished Scorpius (aka Inc). We’re also aware of public reporting attributing exploitation to threat actors using Settra ransomware. Fixes for this vulnerability have been available since May 2026. Palo Alto Networks has become aware of limited exploit attempts on unpatched PAN-OS devices without mitigations applied. Customers can mitigate the risk of this issue by taking any of the following actions: Use a dedicated certificate for Authentication Override cookies : Generate a new certificate exclusively for authentication override cookies and store it securely. Do not reuse the portal or gateway certificate, and do not share this certificate with other features or users. Disable Authentication Override : Uncheck the Authentication Override options (for generating and accepting cookies) in the GlobalProtect portal and gateway configuration. June 5, 2026 In June 2026, Palo Alto Networks Unit 42 observed active exploitation of the May 2026 PAN-OS vulnerability CVE-2026-0257 by an unidentified threat actor attempting to access GlobalProtect. This security flaw involves an authentication bypass in the portal and gateway components of vulnerable versions of PAN-OS ® software, which could allow unauthorized attackers to circumvent security controls and initiate virtual private network (VPN) connections. This CVE was added to the Known Exploited Vulnerability (KEV) catalog on May 13, 2026. No post-access behavior or lateral movement was identified. Only a small portion of the probed devices actually established VPN sessions, resulting in gateway-connected events. We advise organizations to proactively hunt for the indicators of the activity specified in this report and activate incident response protocols for any successful gateway-connected events linked to these indicators. Additionally, we strongly recommend reviewing the security advisory for CVE-2026-0257 , following the available workarounds and mitigations or upgrading to a version that includes a fix for this issue. For pre-proof-of-concept release (May 29, 2026) activities, search for these IP addresses in GlobalProtect logs to look for successful login connection: 23.128.228[.]6 104.207.144[.]154 146.19.216[.]119 146.19.216[.]120 146.19.216[.]125 179.43.172[.]213 185.195.232[.]139 198.12.106[.]60 202.144.192[.]47 Search GlobalProtect logs for successful gateway-connected events from any IP address using suspicious host IDs or device names, including but not limited to: aa:bb:cc:dd:ee:ff 00:11:22:33:44:55 WINDOWS-LAPTOP-001 DESKTOP-GP01 GP-CLIENT As part of post-PoC release monitoring, search GlobalProtect logs for successful gateway-connected events matching the following hard-coded client configuration values from the PoC code. endpoint_os_version : Microsoft Windows 10 Pro 64-bit source_user_info.domain : empty We encourage organizations to consult our official Palo Alto Networks Security Advisory for additional details about the vulnerability and configuration guidance. We also recommend reading Rapid7 ’s technical analysis about the exploitation activity they observed in the wild. Palo Alto Networks Cortex Xpanse is able to identify publicly exposed PAN-OS gateways and GlobalProtect portals. Management Interface Exposure Risk and Remediation During incident response (IR) engagements associated with t&quot;,
-      &quot;fetch_status&quot;: &quot;ok&quot;
+      }
     },
     {
       &quot;source&quot;: &quot;OpenSSF Blog&quot;,
@@ -9077,7 +9147,7 @@
       &quot;published&quot;: &quot;2026-10-20T20:05:39+00:00&quot;,
       &quot;summary&quot;: &quot;AI has gotten good at finding software vulnerabilities, and attackers are already using it. For example, “AI-enabled adversaries increased attacks by 89% year-over-year” according to the CrowdStrike 2026 Global Threat Report. If you maintain or develop software, it is critical to find and fix vulnerabilities before attackers exploit them.&quot;,
       &quot;author&quot;: &quot;OpenSSF&quot;,
-      &quot;in_window&quot;: true,
+      &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [],
         &quot;actor_attribution&quot;: [],
@@ -9093,8 +9163,7 @@
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
-      },
-      &quot;score&quot;: 6
+      }
     },
     {
       &quot;source&quot;: &quot;Wiz Research&quot;,
@@ -9105,7 +9174,7 @@
       &quot;published&quot;: &quot;2026-10-20T20:03:10+00:00&quot;,
       &quot;summary&quot;: &quot;How a single Google Search ad click leads to credential theft, hijacking of cloud billing account, and hundreds of thousands of dollars incurred in unauthorized AI API usage&quot;,
       &quot;author&quot;: &quot;Andre Maccarone&quot;,
-      &quot;in_window&quot;: true,
+      &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [
           &quot;phishing_social_eng&quot;,
@@ -9124,8 +9193,7 @@
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
-      },
-      &quot;score&quot;: 7
+      }
     },
     {
       &quot;source&quot;: &quot;Simon Willison&quot;,
@@ -9175,33 +9243,6 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;low_signal&quot;,
         &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;Google Cloud Security&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;category&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;title&quot;: &quot;Managed RAG search inside the sovereign perimeter: Gemini on GDC enterprise search&quot;,
-      &quot;link&quot;: &quot;https://cloud.google.com/blog/topics/hybrid-cloud/managed-rag-search-inside-the-sovereign-perimeter-gemini-on-gdc-enterprise-search/&quot;,
-      &quot;published&quot;: &quot;2026-10-20T19:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;National security agencies and other sovereign and highly regulated organizations handle incredibly sensitive data such as classified reports, field manuals, and sensitive multi-modal datasets. Search and multimodal intelligence that’s available in the public cloud can help teams manage and analyze that data, but due to strict data sovereignty mandates, that data cannot leave the customer premises. The alternative has been to deploy custom agentic search inside a secure, disconnected perimeter, but until now, that meant months building and maintaining custom infrastructure — stitching together models, building speech-to-text and optical character recognition (OCR) pipelines, configuring vector databases, and managing a bespoke user interface. Today, we&#x27;re excited to announce enterprise search capabilities with Gemini on Google Distributed Cloud (GDC) air-gapped accelerated by NVIDIA Blackwell Ultra to help solve the above challenges. In preview, this fully managed retrieval-augmented g&quot;,
-      &quot;author&quot;: &quot;Rohan Grover&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;low_signal&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
@@ -15247,35 +15288,6 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Dark Reading&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;EU Grocers Pay a Steep Price for Unpatched Fridge Firmware&quot;,
-      &quot;link&quot;: &quot;https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware&quot;,
-      &quot;published&quot;: &quot;2026-10-15T07:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Hundreds of stores lost millions of euros because they hired third parties to manage the outdated OT firmware running their cooling systems.&quot;,
-      &quot;author&quot;: &quot;Nate Nelson&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [
-          &quot;no_patch_yet&quot;
-        ],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
       &quot;source&quot;: &quot;TrustedSec&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;category&quot;: &quot;detection_response_operations&quot;,
@@ -15578,74 +15590,6 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;low_signal&quot;,
         &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;Dark Reading&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles&quot;,
-      &quot;link&quot;: &quot;https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching&quot;,
-      &quot;published&quot;: &quot;2026-10-14T21:20:13+00:00&quot;,
-      &quot;summary&quot;: &quot;CVE-2026-104935, a high-severity authentication bypass + RCE vulnerability, was only partially discovered and patched in July, leaving an opening for threat actors to capitalize on.&quot;,
-      &quot;author&quot;: &quot;Rob Wright&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [
-          &quot;zero_day&quot;
-        ],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [
-          &quot;manufacturing_industrial&quot;
-        ],
-        &quot;affected_products&quot;: [
-          &quot;Ivanti&quot;
-        ],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [
-          &quot;CVE-2026-104935&quot;
-        ],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [
-          &quot;zero_day&quot;
-        ],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {
-          &quot;Ivanti&quot;: &quot;target&quot;
-        },
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;Dark Reading&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;Yam Store: The Phishing Network Behind a Billion Messages&quot;,
-      &quot;link&quot;: &quot;https://www.darkreading.com/cyberattacks-data-breaches/yam-store-phishing-network-behind-billion-messages&quot;,
-      &quot;published&quot;: &quot;2026-10-14T20:57:16+00:00&quot;,
-      &quot;summary&quot;: &quot;A sprawling cybercrime marketplace supplied cloud infrastructure and phishing kits that helped fuel more than 1 billion phishing messages worldwide.&quot;,
-      &quot;author&quot;: &quot;Alexander Culafi&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [
-          &quot;phishing_social_eng&quot;
-        ],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
@@ -25144,35 +25088,6 @@
       &quot;link&quot;: &quot;https://www.chainalysis.com/blog/2026-global-crypto-adoption-index/&quot;,
       &quot;published&quot;: &quot;2026-09-23T13:00:45+00:00&quot;,
       &quot;summary&quot;: &quot;Summary Crypto economy overcame worst market since 2022: Even as crypto’s total market cap fell about 50% (a $2.1 trillion… The post 2026 Global Crypto Adoption Index: World’s Crypto Economy Held Firm Through the Bear Market appeared first on Chainalysis .&quot;,
-      &quot;author&quot;: &quot;Chainalysis Team&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [
-          &quot;financial_services&quot;
-        ],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;low_signal&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;Chainalysis&quot;,
-      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
-      &quot;category&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
-      &quot;title&quot;: &quot;Latin America: Brazil Leads World in Adoption as Region’s Crypto Economy Grows&quot;,
-      &quot;link&quot;: &quot;https://www.chainalysis.com/blog/latin-america-crypto-adoption-2026/&quot;,
-      &quot;published&quot;: &quot;2026-09-23T13:00:36+00:00&quot;,
-      &quot;summary&quot;: &quot;Summary Latin America bucked the bear market. The region’s crypto economy saw $593.8 billion in activity, with an overall growth… The post Latin America: Brazil Leads World in Adoption as Region’s Crypto Economy Grows appeared first on Chainalysis .&quot;,
       &quot;author&quot;: &quot;Chainalysis Team&quot;,
       &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
