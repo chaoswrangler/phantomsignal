@@ -6,9 +6,40 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 26 Oct 2026 22:32:33 +0000</lastBuildDate>
+<lastBuildDate>Tue, 27 Oct 2026 01:57:07 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Experts temper emergency-level alarms over critical Brotli defect</title>
+<link>https://cyberscoop.com/brotli-critical-vulnerability-decompression-library-node2shell-broccoli2shell/</link>
+<description><![CDATA[The defect in a widely distributed open-source library provoked an emergency response, yet exploitation hasn’t been observed in the wild. The post Experts temper emergency-level alarms over critical Brotli defect appeared first on CyberScoop .<br/><br/><em>Tags: OpenAI/ChatGPT · CVE-2026-111497 · vulnerability_disclosure · active_exploitation</em>]]></description>
+<pubDate>Tue, 27 Oct 2026 00:22:54 +0000</pubDate>
+<guid isPermaLink="true">https://cyberscoop.com/brotli-critical-vulnerability-decompression-library-node2shell-broccoli2shell/</guid>
+<source url="https://cyberscoop.com/feed/">CyberScoop</source>
+<category>cyber_news_breach_reporting</category>
+<category>OpenAI/ChatGPT</category>
+<category>CVE-2026-111497</category>
+<category>vulnerability_disclosure</category>
+<category>active_exploitation</category>
+</item>
+<item>
+<title>GPT-6.1 Terra</title>
+<link>https://simonwillison.net/2026/Oct/26/gpt-61-terra/</link>
+<description><![CDATA[GPT-6.1 Terra It&apos;s always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing GPT-6.1 Terra , a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing. A significant step up from GPT‑5.6 Terra, it excels at the communication and computer-based tasks that fill the workday, from drafting proposals and interpreting technical drawings to filling out forms and editing videos. Terra sits in the same position as Sonnet in the Anthropic model collection - not the cheapest or the most expensive, making it harder to decide when to use it. Computer use is a good example of a task that benefits from a less expensive model, since you might put it to work on automated, repetitive tasks. OpenAI&apos;s Ted Sanders provided some useful advice in a comment on Hacker News: In the case of GPT-6.1 Terr]]></description>
+<pubDate>Mon, 26 Oct 2026 23:53:07 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Oct/26/gpt-61-terra/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Apple Patches for October 2026, (Mon, Oct 26th)</title>
+<link>https://isc.sans.edu/diary/rss/33458</link>
+<description><![CDATA[Apple today released patches for 304 vulnerabilties. This number is still in line with prior Apple updates, and comes just about a month after the last apple update.]]></description>
+<pubDate>Mon, 26 Oct 2026 23:34:37 +0000</pubDate>
+<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33458</guid>
+<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
+<category>government_authoritative</category>
+</item>
 <item>
 <title>University of Copenhagen data breach exposes data of 525,000 people</title>
 <link>https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/</link>
@@ -257,15 +288,11 @@
 <item>
 <title>Microsoft Issues Emergency Patch Update for Critical .NET Buffer Overflow Flaw</title>
 <link>https://www.infosecurity-magazine.com/news/microsoft-patch-update-net-flaw/</link>
-<description><![CDATA[Microsoft’s updates address two newly disclosed vulnerabilities in the .NET developer platform, as well as flaws not fully addressed in an earlier release<br/><br/><em>Tags: Apple iOS/macOS · CVE-2026-111497 · CVE-2026-114148 · CVE-2026-70197 · CVE-2026-102870 · ddos</em>]]></description>
+<description><![CDATA[Microsoft’s updates address two newly disclosed vulnerabilities in the .NET developer platform, as well as flaws not fully addressed in an earlier release]]></description>
 <pubDate>Mon, 26 Oct 2026 12:45:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/microsoft-patch-update-net-flaw/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
-<category>Apple iOS/macOS</category>
-<category>CVE-2026-111497</category>
-<category>CVE-2026-114148</category>
-<category>CVE-2026-70197</category>
 </item>
 <item>
 <title>Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes</title>
@@ -737,15 +764,13 @@
 <item>
 <title>Cl0p Til you Drop - 6 Years, 10 Campaigns, 8 Zero-Days</title>
 <link>https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence</link>
-<description><![CDATA[Analyze Cl0p ransomware&apos;s history of targeting MFT systems. Discover their attack pattern in threat intelligence to improve cyber attack surface reduction.<br/><br/><em>Tags: SolarWinds · Cl0p · ransomware_extortion · zero_day</em>]]></description>
+<description><![CDATA[Analyze Cl0p ransomware&apos;s history of targeting MFT systems. Discover their attack pattern in threat intelligence to improve cyber attack surface reduction.<br/><br/><em>Tags: Cl0p · ransomware_extortion</em>]]></description>
 <pubDate>Fri, 23 Oct 2026 16:38:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
-<category>SolarWinds</category>
 <category>Cl0p</category>
 <category>ransomware_extortion</category>
-<category>zero_day</category>
 </item>
 <item>
 <title>Behind the Panels: Validating ShinyHunters Cluster A Infrastructure Through Network Telemetry</title>
@@ -1709,21 +1734,21 @@
 <category>CVE-2026-109619</category>
 </item>
 <item>
-<title>Symantec Uncovers AI Agent Hijacking Models for Autonomous Cyber-Attacks</title>
-<link>https://www.infosecurity-magazine.com/news/symantec-ai-agent-llmjacking/</link>
-<description><![CDATA[Researchers at Symantec have uncovered an AI agent designed to operate a full cyber-attack without human intervention]]></description>
-<pubDate>Wed, 21 Oct 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/symantec-ai-agent-llmjacking/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge</title>
 <link>https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html</link>
 <description><![CDATA[PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP team says only updating fully protects a server. The flaws, together called PHP2Shell, sit in the PHP runtime, not in any application, so a site is exposed even when its own]]></description>
 <pubDate>Wed, 21 Oct 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Symantec Uncovers AI Agent Hijacking Models for Autonomous Cyber-Attacks</title>
+<link>https://www.infosecurity-magazine.com/news/symantec-ai-agent-llmjacking/</link>
+<description><![CDATA[Researchers at Symantec have uncovered an AI agent designed to operate a full cyber-attack without human intervention]]></description>
+<pubDate>Wed, 21 Oct 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/symantec-ai-agent-llmjacking/</guid>
+<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
@@ -2299,6 +2324,15 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
+<title>Horizon3 expands in Singapore to accelerate AI‑native proactive security across Southeast Asia</title>
+<link>https://horizon3.ai/news/press-release/horizon3-singapore-expansion-asean-headquarters/</link>
+<description><![CDATA[Horizon3 announced a strategic expansion in Singapore, supported by the Singapore Economic Development Board (EDB) and EDBI, part of SG Growth Capital, the strategic investment platform established by EDB and Enterprise Singapore.]]></description>
+<pubDate>Tue, 20 Oct 2026 01:10:00 +0000</pubDate>
+<guid isPermaLink="true">https://horizon3.ai/news/press-release/horizon3-singapore-expansion-asean-headquarters/</guid>
+<source url="https://horizon3.ai/feed/">Horizon3 Attack Research</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
 <title>BRONZE SANDCASTLE deploys modified Meterpreter shells</title>
 <link>https://www.sophos.com/en-us/blog/bronze-sandcastle-deploys-modified-meterpreter-shells</link>
 <description><![CDATA[&lt;p&gt;The China-based threat group uses DLL sideloading in these attacks&lt;/p&gt; Categories: Threat Research Tags: BRONZE SANDCASTLE, Meterpreter, Sandboxie]]></description>
@@ -2316,6 +2350,15 @@
 <source url="https://securitylabs.datadoghq.com/rss/feed.xml">Datadog Security Labs</source>
 <category>cloud_identity_infrastructure</category>
 <category>AWS</category>
+</item>
+<item>
+<title>My obituary for programming</title>
+<link>https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/</link>
+<description><![CDATA[My obituary for programming Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the puzzle of developing code: Programming turned into one of the greatest jobs you could imagine. You got paid to work on tricky little logic puzzles. The trickier the puzzle, the more you got paid. But even pretty simple puzzles were worth a lot of money because regular people just couldn&apos;t do it! No, they needed us. They would give us a problem and we would solve it the way we wanted. We set the strategy, we made the timeline, we defined what was and was not possible. If you&apos;re a programmer who thrives on building working systems and doesn&apos;t care too deeply about the problems solved along the way, LLMs are the gift that keeps on giving. If directly solving those problems was a big part of your enjoyment, the loss is very real. Via lobste.rs Tags: programming , careers , ai , generative-ai , llms , coding-agents , deep-blue]]></description>
+<pubDate>Mon, 19 Oct 2026 23:58:25 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Researchers Infiltrate Microsoft Tech Support Scam Operation</title>
@@ -4596,16 +4639,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Ransomware Gangs Embrace Physical Threats, Family Stalking?</title>
-<link>https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking</link>
-<description><![CDATA[Organizations are reporting that employees face threats of stalking, physical violence, and abduction. But these alarming claims are hard to verify.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Wed, 14 Oct 2026 05:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
-</item>
-<item>
 <title>Risky Bulletin: Spyware chip found in Ledger crypto-wallets</title>
 <link>https://risky.biz/RBNEWS620/</link>
 <description><![CDATA[Spyware chips found inside Ledger crypto-wallets, a cyberattack defrosts supermarket freezers across France, Dutch-owned supermarkets go offline in multiple countries following a cyberattack, and the EU wants smart glasses to beep loudly when they’re recording.]]></description>
@@ -4975,15 +5008,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>llm-meta-ai 0.2</title>
-<link>https://simonwillison.net/2026/Oct/12/llm-meta-ai/</link>
-<description><![CDATA[Release: llm-meta-ai 0.2 Meta AI release Muse Wonder (and Muse Wonder Full), their new &quot;most capable models&quot;. These look like they may be Meta&apos;s first Fable class models - Artificial Analysis scores Muse Wonder (Max) as equivalent to GPT-6.1 Sol. I updated my llm-meta-ai plugin for the new model. Here are pelicans for Muse Wonder for the six reasoning levels: minimal, low, medium, high, xhigh, max. This is the max one: For comparison, here are pelicans for Muse 1.3 (released September 2nd) and Muse 1.2 (released August 5th). Meta AI are putting out a new model a month, and the improvements between each model (at least in terms of drawing pelicans) are material. Tags: ai , generative-ai , llms , meta , pelican-riding-a-bicycle , llm-release]]></description>
-<pubDate>Mon, 12 Oct 2026 23:58:46 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Oct/12/llm-meta-ai/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>GuardDuty Extended Threat Detection has added five new indicators to surface attack sequences</title>
 <link>https://aws.amazon.com/blogs/security/guardduty-extended-threat-detection-has-added-five-new-indicators-to-surface-attack-sequences/</link>
 <description><![CDATA[Amazon GuardDuty Extended Threat Detection correlates weak GuardDuty signals into a single, critical-severity attack sequence finding when their composition crosses a threshold of credibility. On May 20, 2026, the service started attaching five new indicator types to those sequences: MALICIOUS_PACKAGE, MISCONFIGURATION, REACHABILITY, SENSITIVE_DATA, and VULNERABILITY. For more information, see Document history for Amazon GuardDuty and […]]]></description>
@@ -5021,15 +5045,6 @@
 <guid isPermaLink="true">https://risky.biz/BTN185/</guid>
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>Hello Python 3.15, goodbye 3.10, and now I can use 3.11</title>
-<link>https://simonwillison.net/2026/Oct/12/python-3-15/</link>
-<description><![CDATA[Python 3.15 is here ! Here&apos;s the essential What&apos;s new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.10 and start embracing features from Python 3.11. First, some highlights from Python 3.15. Explicit lazy imports I&apos;m most excited about Explicit lazy imports from PEP 810 . These let you import modules like so: lazy import json lazy from pathlib import Path The module will then be imported the first time those symbols are used in the code that follows. My LLM CLI tool implements plugins. I had to recommend manual lazy imports in the plugin author documentation, because simply installing plugins that used heavy dependencies such as sentence_transformers could add multiple seconds to every invocation of the llm command. Lazy imports directly address this startup cost. Unpacking in comprehensions The new [*sublist for sublist]]></description>
-<pubDate>Mon, 12 Oct 2026 18:15:38 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Oct/12/python-3-15/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Luna Moth Leaks Shed Light on Ransomware Group&apos;s Inner Workings</title>
@@ -20690,20 +20705,20 @@
 <category>Anthropic/Claude</category>
 </item>
 <item>
-<title>Obstacles to Weaponizing PHP2Shell Likely Constrain Immediate Widespread Exploitation</title>
-<link>https://www.crowdstrike.com/en-us/blog/obstacles-to-weaponizing-php2shell-likely-constrain-exploitation/</link>
+<title>Why Organizations Secure AI Agents with Falcon Guardian</title>
+<link>https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 26 Oct 2026 22:32:33 +0000</pubDate>
-<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/obstacles-to-weaponizing-php2shell-likely-constrain-exploitation/</guid>
+<pubDate>Tue, 27 Oct 2026 01:57:07 +0000</pubDate>
+<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>Why Organizations Secure AI Agents with Falcon Guardian</title>
-<link>https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/</link>
+<title>Obstacles to Weaponizing PHP2Shell Likely Constrain Immediate Widespread Exploitation</title>
+<link>https://www.crowdstrike.com/en-us/blog/obstacles-to-weaponizing-php2shell-likely-constrain-exploitation/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 26 Oct 2026 22:32:33 +0000</pubDate>
-<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/</guid>
+<pubDate>Tue, 27 Oct 2026 01:57:07 +0000</pubDate>
+<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/obstacles-to-weaponizing-php2shell-likely-constrain-exploitation/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
 </item>
@@ -20711,7 +20726,7 @@
 <title>CrowdStrike Protects Customers from Threats Delivered via PHP2Shell</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-protects-customers-from-php-rce-zero-days/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 26 Oct 2026 22:32:33 +0000</pubDate>
+<pubDate>Tue, 27 Oct 2026 01:57:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-protects-customers-from-php-rce-zero-days/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20720,7 +20735,7 @@
 <title>CrowdStrike Uncovers New Agentic AI Campaigns</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-agentic-ai-campaigns/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 26 Oct 2026 22:32:33 +0000</pubDate>
+<pubDate>Tue, 27 Oct 2026 01:57:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-agentic-ai-campaigns/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20729,7 +20744,7 @@
 <title>CrowdStrike Achieves NCSC CIR Enhanced Level Assurance</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-achieves-uk-ncsc-cir-enhanced-level-assurance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 26 Oct 2026 22:32:33 +0000</pubDate>
+<pubDate>Tue, 27 Oct 2026 01:57:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-achieves-uk-ncsc-cir-enhanced-level-assurance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20738,7 +20753,7 @@
 <title>U.S. Government Disrupts FAMOUS CHOLLIMA Operation with CrowdStrike Assistance</title>
 <link>https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 26 Oct 2026 22:32:33 +0000</pubDate>
+<pubDate>Tue, 27 Oct 2026 01:57:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20747,7 +20762,7 @@
 <title>October 2026 Patch Tuesday: 1,413 CVEs Include Three Zero-Days and 75 Critical Vulnerabilities</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-october-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 26 Oct 2026 22:32:33 +0000</pubDate>
+<pubDate>Tue, 27 Oct 2026 01:57:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-october-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20756,7 +20771,7 @@
 <title>CrowdStrike and Anthropic Give Critical Infrastructure Defenders the AI Advantage</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 26 Oct 2026 22:32:33 +0000</pubDate>
+<pubDate>Tue, 27 Oct 2026 01:57:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20765,7 +20780,7 @@
 <title>Solving the Continuous Authorization Conundrum</title>
 <link>https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 26 Oct 2026 22:32:33 +0000</pubDate>
+<pubDate>Tue, 27 Oct 2026 01:57:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20774,7 +20789,7 @@
 <title>Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance</title>
 <link>https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 26 Oct 2026 22:32:33 +0000</pubDate>
+<pubDate>Tue, 27 Oct 2026 01:57:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>

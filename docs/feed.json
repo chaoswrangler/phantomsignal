@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T22:32:33.804616+00:00",
+  "generated_at": "2026-10-27T01:57:07.663025+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2308,
@@ -18,13 +18,6 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
@@ -32,19 +25,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 2
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 3
     },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
@@ -53,6 +39,13 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 0
+    },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
@@ -60,18 +53,25 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
-    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
+      "in_window_count": 5
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 5
     },
     "ESET WeLiveSecurity": {
@@ -81,25 +81,11 @@
       "item_count": 100,
       "in_window_count": 2
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 3
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
       "in_window_count": 3
     },
     "SANS Internet Storm Center": {
@@ -109,16 +95,51 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 2
+    },
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 8
+      "in_window_count": 7
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 0
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
@@ -130,26 +151,12 @@
       "item_count": 50,
       "in_window_count": 11
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
-    },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
+      "item_count": 100,
+      "in_window_count": 2
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -165,12 +172,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 1
     },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
@@ -178,13 +185,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -200,20 +200,6 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -228,19 +214,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 1
-    },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
       "in_window_count": 4
+    },
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -249,12 +235,12 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 30,
+      "in_window_count": 3
     },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
@@ -263,19 +249,26 @@
       "item_count": 100,
       "in_window_count": 9
     },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
-    },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -284,12 +277,12 @@
       "item_count": 20,
       "in_window_count": 4
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
+      "item_count": 100,
+      "in_window_count": 3
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -297,6 +290,13 @@
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 5
     },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
@@ -319,19 +319,12 @@
       "item_count": 100,
       "in_window_count": 9
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
+      "item_count": 20,
+      "in_window_count": 20
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -340,26 +333,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 20
+      "item_count": 10,
+      "in_window_count": 4
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
-    },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
+      "item_count": 10,
+      "in_window_count": 1
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -373,7 +359,21 @@
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 30,
-      "in_window_count": 13
+      "in_window_count": 14
+    },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
+    },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
     },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
@@ -389,13 +389,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -403,12 +396,12 @@
       "item_count": 50,
       "in_window_count": 1
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -417,19 +410,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 28
+      "in_window_count": 29
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -437,6 +430,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 6
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -452,13 +452,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 24
-    },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
       "cohort": "cyber_news_breach_reporting",
@@ -473,6 +466,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -480,12 +480,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
+      "item_count": 100,
+      "in_window_count": 24
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
@@ -501,13 +501,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
@@ -515,12 +508,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 25,
-      "in_window_count": 23
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
@@ -528,6 +521,13 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
+    },
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 23
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -681,82 +681,6 @@
   },
   "affinity_groups": [
     {
-      "label": "CVE-2026-109619 exploitation (WordPress)",
-      "anchor_signal": "CVE-2026-109619",
-      "theme_key": "cve-2026-109619",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "affected_products": [
-          "OpenAI/ChatGPT",
-          "WordPress"
-        ],
-        "cve_ids": [
-          "CVE-2026-109618",
-          "CVE-2026-109619",
-          "CVE-2026-115560"
-        ],
-        "urgency_signals": [
-          "preauth_unauth",
-          "actively_exploited"
-        ]
-      },
-      "cluster_count": 11,
-      "article_count": 34,
-      "cohesion": 0.366,
-      "shared_strong_signals": [
-        "CVE-2026-109619"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "f4a1025e01",
-        "59969a7c2a",
-        "65f0b10f8b",
-        "5806ce98aa",
-        "03ad94fad0",
-        "5e9563cebc",
-        "7283c6981d",
-        "f576445f64",
-        "f320a38d8c",
-        "21772a3458",
-        "9ccfc452c8"
-      ],
-      "links": [
-        "https://www.rapid7.com/blog/post/etr-cve-2026-109618-and-cve-2026-109619-critical-unauthenticated-remote-code-execution-in-php",
-        "https://securelist.com/tr/php2shell-critical-vulnerabilities-in-php/121596/",
-        "https://www.exploit-db.com/exploits/52704",
-        "https://orca.security/resources/blog/php2shell-php-rce-vulnerabilities/",
-        "https://isc.sans.edu/diary/rss/33440",
-        "https://webflow.sysdig.com/blog/php2shell-cve-2026-109618-and-cve-2026-109619-detecting-unauthenticated-remote-code-execution-in-php-core",
-        "https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/",
-        "https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
-        "https://www.elastic.co/security-labs/threat-command/php2shell-php-rce-detection",
-        "https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/",
-        "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
-        "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-        "https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities",
-        "https://securitylabs.datadoghq.com/articles/php2shell-critical-vulnerabilities-in-php/",
-        "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
-        "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
-        "https://www.reddit.com/r/netsec/comments/1xb5g1c/php_rce_cve2026109618/",
-        "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-109618-cve-2026-109619/",
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-76268/",
-        "https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation",
-        "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
-        "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-        "https://www.infosecurity-magazine.com/news/php-publishes-mitigation-advice/",
-        "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
-        "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
-        "https://research.checkpoint.com/2026/26th-october-threat-intelligence-report/",
-        "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
-        "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
-        "https://horizon3.ai/attack-research/attack-blogs/php2shell-exposure-exploitability/"
-      ]
-    },
-    {
       "label": "CVE-2026-109618 exploitation (WordPress)",
       "anchor_signal": "CVE-2026-109618",
       "theme_key": "cve-2026-109618",
@@ -765,8 +689,8 @@
           "active_exploitation"
         ],
         "affected_products": [
-          "OpenAI/ChatGPT",
-          "WordPress"
+          "WordPress",
+          "OpenAI/ChatGPT"
         ],
         "cve_ids": [
           "CVE-2026-109618",
@@ -789,8 +713,8 @@
       "cluster_ids": [
         "f4a1025e01",
         "59969a7c2a",
-        "65f0b10f8b",
         "5806ce98aa",
+        "65f0b10f8b",
         "03ad94fad0",
         "5e9563cebc",
         "7283c6981d",
@@ -820,8 +744,84 @@
         "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-109618-cve-2026-109619/",
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-76268/",
-        "https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation",
         "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
+        "https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation",
+        "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+        "https://www.infosecurity-magazine.com/news/php-publishes-mitigation-advice/",
+        "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+        "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+        "https://research.checkpoint.com/2026/26th-october-threat-intelligence-report/",
+        "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+        "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
+        "https://horizon3.ai/attack-research/attack-blogs/php2shell-exposure-exploitability/"
+      ]
+    },
+    {
+      "label": "CVE-2026-109619 exploitation (WordPress)",
+      "anchor_signal": "CVE-2026-109619",
+      "theme_key": "cve-2026-109619",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "affected_products": [
+          "WordPress",
+          "OpenAI/ChatGPT"
+        ],
+        "cve_ids": [
+          "CVE-2026-109618",
+          "CVE-2026-109619",
+          "CVE-2026-115560"
+        ],
+        "urgency_signals": [
+          "preauth_unauth",
+          "actively_exploited"
+        ]
+      },
+      "cluster_count": 11,
+      "article_count": 34,
+      "cohesion": 0.366,
+      "shared_strong_signals": [
+        "CVE-2026-109619"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "f4a1025e01",
+        "59969a7c2a",
+        "5806ce98aa",
+        "65f0b10f8b",
+        "03ad94fad0",
+        "5e9563cebc",
+        "7283c6981d",
+        "f576445f64",
+        "f320a38d8c",
+        "21772a3458",
+        "9ccfc452c8"
+      ],
+      "links": [
+        "https://www.rapid7.com/blog/post/etr-cve-2026-109618-and-cve-2026-109619-critical-unauthenticated-remote-code-execution-in-php",
+        "https://securelist.com/tr/php2shell-critical-vulnerabilities-in-php/121596/",
+        "https://www.exploit-db.com/exploits/52704",
+        "https://orca.security/resources/blog/php2shell-php-rce-vulnerabilities/",
+        "https://isc.sans.edu/diary/rss/33440",
+        "https://webflow.sysdig.com/blog/php2shell-cve-2026-109618-and-cve-2026-109619-detecting-unauthenticated-remote-code-execution-in-php-core",
+        "https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/",
+        "https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
+        "https://www.elastic.co/security-labs/threat-command/php2shell-php-rce-detection",
+        "https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/",
+        "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+        "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+        "https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities",
+        "https://securitylabs.datadoghq.com/articles/php2shell-critical-vulnerabilities-in-php/",
+        "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
+        "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
+        "https://www.reddit.com/r/netsec/comments/1xb5g1c/php_rce_cve2026109618/",
+        "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-109618-cve-2026-109619/",
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-76268/",
+        "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
+        "https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation",
         "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
         "https://www.infosecurity-magazine.com/news/php-publishes-mitigation-advice/",
         "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
@@ -862,8 +862,8 @@
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "65f0b10f8b",
         "5806ce98aa",
+        "65f0b10f8b",
         "5e9563cebc",
         "f576445f64",
         "21772a3458",
@@ -871,13 +871,52 @@
         "b4eef500a6"
       ],
       "links": [
-        "https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation",
         "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
+        "https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation",
         "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
         "https://research.checkpoint.com/2026/26th-october-threat-intelligence-report/",
         "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
         "https://simonwillison.net/2026/Oct/21/php-security-release/",
         "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/"
+      ]
+    },
+    {
+      "label": "CVE-2026-111497 exploitation activity",
+      "anchor_signal": "CVE-2026-111497",
+      "theme_key": "cve-2026-111497",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "cve_ids": [
+          "CVE-2026-111497"
+        ],
+        "urgency_signals": [
+          "actively_exploited"
+        ]
+      },
+      "cluster_count": 4,
+      "article_count": 9,
+      "cohesion": 0.443,
+      "shared_strong_signals": [
+        "CVE-2026-111497"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "01d94b3234",
+        "fe12343499",
+        "7283c6981d",
+        "56574cecc4"
+      ],
+      "links": [
+        "https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder",
+        "https://webflow.sysdig.com/blog/node2shell-cve-2026-111497-detecting-the-node-js-brotli-rce",
+        "https://www.wiz.io/blog/cve-2026-111497-brotli-rce-node-js",
+        "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+        "https://cyberscoop.com/brotli-critical-vulnerability-decompression-library-node2shell-broccoli2shell/",
+        "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+        "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/"
       ]
     },
     {
@@ -898,7 +937,7 @@
         ]
       },
       "cluster_count": 5,
-      "article_count": 31,
+      "article_count": 30,
       "cohesion": 0.208,
       "shared_strong_signals": [
         "AWS"
@@ -910,7 +949,7 @@
         "0c3d84d7ed",
         "1d63c3b8c3",
         "5f2d69d128",
-        "02b4cbceb1"
+        "1689321459"
       ],
       "links": [
         "https://www.rapid7.com/blog/post/etr-cve-2026-109618-and-cve-2026-109619-critical-unauthenticated-remote-code-execution-in-php",
@@ -936,49 +975,8 @@
         "https://securitylabs.datadoghq.com/articles/litellm-compromised-pypi-docker/",
         "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
         "https://www.wiz.io/blog/php2shell-php-rce",
-        "https://securitylabs.datadoghq.com/articles/introducing-pathrunner-aws-privilege-escalation-framework/",
         "https://aws.amazon.com/blogs/security/best-practices-for-integrating-iam-roles-anywhere-with-your-pki/",
         "https://tldrsec.com/p/tldr-sec-351"
-      ]
-    },
-    {
-      "label": "CVE-2026-111497 exploitation activity",
-      "anchor_signal": "CVE-2026-111497",
-      "theme_key": "cve-2026-111497",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "cve_ids": [
-          "CVE-2026-111497"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ]
-      },
-      "cluster_count": 4,
-      "article_count": 9,
-      "cohesion": 0.304,
-      "shared_strong_signals": [
-        "CVE-2026-111497"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "01d94b3234",
-        "7283c6981d",
-        "56574cecc4",
-        "7c05dcf692"
-      ],
-      "links": [
-        "https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder",
-        "https://webflow.sysdig.com/blog/node2shell-cve-2026-111497-detecting-the-node-js-brotli-rce",
-        "https://www.wiz.io/blog/cve-2026-111497-brotli-rce-node-js",
-        "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-        "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
-        "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
-        "https://www.infosecurity-magazine.com/news/microsoft-patch-update-net-flaw/"
       ]
     },
     {
@@ -1095,14 +1093,14 @@
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "65f0b10f8b",
         "5806ce98aa",
+        "65f0b10f8b",
         "5f2d69d128",
         "42fec6ef81"
       ],
       "links": [
-        "https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation",
         "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
+        "https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation",
         "https://www.wiz.io/blog/php2shell-php-rce",
         "https://simonwillison.net/2026/Oct/21/php-security-release/"
       ]
@@ -1249,26 +1247,7 @@
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [
-        {
-          "value": "CVE-2026-102870",
-          "cluster_id": "7c05dcf692",
-          "first_source": "Infosecurity Magazine",
-          "first_published": "2026-10-26T12:45:00+00:00"
-        },
-        {
-          "value": "CVE-2026-114148",
-          "cluster_id": "7c05dcf692",
-          "first_source": "Infosecurity Magazine",
-          "first_published": "2026-10-26T12:45:00+00:00"
-        },
-        {
-          "value": "CVE-2026-70197",
-          "cluster_id": "7c05dcf692",
-          "first_source": "Infosecurity Magazine",
-          "first_published": "2026-10-26T12:45:00+00:00"
-        }
-      ],
+      "cves": [],
       "actors": [],
       "products": []
     },
@@ -1504,6 +1483,105 @@
     ]
   },
   "items": [
+    {
+      "source": "CyberScoop",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Experts temper emergency-level alarms over critical Brotli defect",
+      "link": "https://cyberscoop.com/brotli-critical-vulnerability-decompression-library-node2shell-broccoli2shell/",
+      "published": "2026-10-27T00:22:54+00:00",
+      "summary": "The defect in a widely distributed open-source library provoked an emergency response, yet exploitation hasn’t been observed in the wild. The post Experts temper emergency-level alarms over critical Brotli defect appeared first on CyberScoop .",
+      "author": "Matt Kapko",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "vulnerability_disclosure",
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "OpenAI/ChatGPT"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-111497"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited"
+        ],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "OpenAI/ChatGPT": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 14,
+      "full_body": "Advertisement Get our latest cybersecurity news first on Google. Click here! Close Alarm bells ratcheted up yet again about an AI-discovered vulnerability that could — if exploited in the wild — destabilize vast stretches of the internet. The critical defect — CVE-2026-111497 — affects the Google-developed Brotli decompression library that’s bundled into many components, applications and cloud services riding on open-source software. The buffer overflow vulnerability, which OpenAI Codex Security discovered and Node.js disclosed in a Oct. 21 security advisory , can trigger system crashes and remote code execution. Researchers haven’t observed any active exploitation of the defect in real networks, but concerns are mounting. Multiple vendors and software packages, including Microsoft and Python, that rely on vulnerable versions of Brotli have rushed emergency patches out to address the risk of exploitation in their respective systems. Wiz researchers warned that “ 91% of cloud environments have resources vulnerable to CVE-2026-111497 and 82% of cloud environments have publicly exposed Node.js instances.” Advertisement The attack surface is “extremely broad and vast, but much of the impact of exploitation depends entirely on its implementation and how it is used within that piece of software,” said Jake Knott, head of threat intelligence at watchTowr. Christiaan Beek, vice president at Rapid7 Intelligence, said the Brotli vulnerability is especially concerning because it’s effectively hiding out in the open, as are many open-source software libraries. “Most businesses have no idea how deeply components like Brotli are embedded in their technology. A vulnerability in a compression library sounds almost boring until you realize it could affect applications your business depends on every day,” he said. “That’s the uncomfortable reality of modern software: a small component can create a very large business risk.” The defect, dubbed “Node2Shell” or “ Broccoli2Shell ,” is the latest in a series of vulnerabilities that have provoked an emergency response. Defenders and researchers were on heightened alert last week over a pair of critical PHP vulnerabilities dubbed “PHP2Shell” that also have yet to be exploited in the wild as of Monday afternoon. These cyclical and increasingly recurring so-called emergencies are putting organizations and defenders at a significant disadvantage. Advertisement “After being part of numerous channels and message threads full of defenders trying to discern what’s real and what’s BS over the past several months — and especially the past week — I can say unequivocally that the human cost of these events is real, pronounced, and will have downstream impacts far beyond what the community can immediately predict,” Caitlin Condon, vice president of research at VulnCheck, told CyberScoop. “None of this — high-profile vulnerability disclosures, the overblown exploitability assumptions, the community arguments, the race to weaponize — is new,” she added. “What’s changed now is that AI is pumping out complex — and often not clearly explained — finds at a much higher rate, exponentially increasing noise levels and making it much more difficult both to debunk overhyped vulnerability discoveries and to determine which vulnerabilities are broadly exploitable in real-world production configurations.” Researchers acknowledge the additional stress defenders and organizations are in because of this always-in-emergency mode. “We’ve reached a point where everything seems to be an emergency. And when everything is critical, businesses risk losing sight of what actually matters,” Beek said. “The real cost isn’t just patching. It’s the constant disruption to operations, the diversion of resources, and the difficult decisions about which business systems deserve immediate attention.” Experts also consider this the new normal as more high-impact vulnerabilities with far-reaching potential consequences are found. Advertisement “We s",
+      "fetch_status": "ok"
+    },
+    {
+      "source": "Simon Willison",
+      "cohort": "ai_security_agentic_risk",
+      "category": "ai_security_agentic_risk",
+      "title": "GPT-6.1 Terra",
+      "link": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+      "published": "2026-10-26T23:53:07+00:00",
+      "summary": "GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing GPT-6.1 Terra , a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing. A significant step up from GPT‑5.6 Terra, it excels at the communication and computer-based tasks that fill the workday, from drafting proposals and interpreting technical drawings to filling out forms and editing videos. Terra sits in the same position as Sonnet in the Anthropic model collection - not the cheapest or the most expensive, making it harder to decide when to use it. Computer use is a good example of a task that benefits from a less expensive model, since you might put it to work on automated, repetitive tasks. OpenAI's Ted Sanders provided some useful advice in a comment on Hacker News: In the case of GPT-6.1 Terr",
+      "author": "",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 8
+    },
+    {
+      "source": "SANS Internet Storm Center",
+      "cohort": "government_authoritative",
+      "category": "government_authoritative",
+      "title": "Apple Patches for October 2026, (Mon, Oct 26th)",
+      "link": "https://isc.sans.edu/diary/rss/33458",
+      "published": "2026-10-26T23:34:37+00:00",
+      "summary": "Apple today released patches for 304 vulnerabilties. This number is still in line with prior Apple updates, and comes just about a month after the last apple update.",
+      "author": "",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_government",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 11,
+      "full_body": "",
+      "fetch_status": "fetch_failed:HTTPError"
+    },
     {
       "source": "BleepingComputer",
       "cohort": "cyber_news_breach_reporting",
@@ -2202,7 +2280,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Wiz Research",
@@ -2234,7 +2312,7 @@
           "products": []
         }
       },
-      "score": 9
+      "score": 8
     },
     {
       "source": "Help Net Security",
@@ -2264,7 +2342,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "SecurityWeek",
@@ -2292,7 +2370,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Infosecurity Magazine",
@@ -2305,38 +2383,24 @@
       "author": "",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [
-          "ddos"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "Apple iOS/macOS"
-        ],
+        "affected_products": [],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-111497",
-          "CVE-2026-114148",
-          "CVE-2026-70197",
-          "CVE-2026-102870"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [
-          "preauth_unauth",
           "emergency_patch"
         ],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
-        "role_map": {
-          "Apple iOS/macOS": "target"
-        },
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
       },
-      "score": 10,
-      "full_body": "Infosecurity Magazine Home » News » Microsoft Issues Emergency Patch Update for Critical .NET Buffer Overflow Flaw Microsoft Issues Emergency Patch Update for Critical .NET Buffer Overflow Flaw News 26 October 2026 Written by James Coker Deputy Editor , Infosecurity Magazine Follow @ReporterCoker Microsoft has released out-of-bound (OOB) security updates for its .NET developer platform, which includes a fix for a critical buffer overflow vulnerability. The tech giant published the updates for .NET versions 8, 9, 10, and 11 Release Candidate 3 on October 25. Platform users have been urged to apply the updates as soon as possible to reduce the risk of compromise. They contain patches for two newly disclosed vulnerabilities, as well as two flaws that were not fully addressed in Microsoft’s October Patch Tuesday rollout. Single updates are available for each of the affected .NET versions and .NET 11 RC2 users should update to RC3 to receive these fixes. .NET is a free, open-source framework that developers can use to build apps and cloud services. It is managed by Microsoft and is supported on Windows, Linux and macOS operating systems. Updates Address Critical Buffer Overflow Vulnerability One of the new vulnerabilities addressed is CVE-2026-111497 , which affects .NET versions 8, 9, 10, and 11 across all operating systems. The vulnerability is contained in the Brotli decompression algorithm, which is used by .NET. It can allow an unauthenticated attacker to read or corrupt process memory, leading to information disclosure, denial of service or elevation of privilege. Microsoft said that applications may be affected if they process Brotli-compressed data through ASP.NET Core request decompression, HttpClient automatic response decompression or the System.IO.Compression Brotli APIs. The flaw has a critical CVSS Score of 9.2. Users of Google Brotli versions 1.0.3 through 1.2.0 also need to update any Brotli libraries or binaries to the latest available version. Brotli was designed by two engineers at Google in 2015 to allow developers to speed up algorithm compression for developers. Microsoft’s OOB update also addresses CVE-2026-114148, which can allow an authorized attacker to elevate privileges locally by exploiting unsafe ownership metadata in affected .NET tarballs. CVE-2026-114148 affects .NET versions 7-11, but only for Linux systems. For .NET 10 and .NET 11, CVE-2026-114148 affects source-build tarballs only. For .NET 8 and .NET 9, it also affects ASP.NET Core distributions obtained through ASP.NET Core tarballs, including users who do not build .NET from source, the advisory noted. It has not been assigned a CVSS score at the time of writing but has been reserved by a CVE Numbering Authority (CNA) . In addition, Microsoft has re-issued fixes for two vulnerabilities disclosed in its October 13 Patch Tuesday rollout. These are for CVE-2026-70197 , a memory corruption flaw affecting .NET versions 8-11, and CVE-2026-102870 , a code injection vulnerability affecting .NET 10 and 11. Remediation Guidance for Developers Microsoft issued advice for .NET users on how to update their applications and build environments in light of the updates. These include: Install the updated runtime for the .NET version for your framework-dependent application, then restart the application Rebuild and republish self-contained applications with the updated runtime Rebuild and redeploy containers using updated .NET container images Obtain the updated source-build artifacts for your .NET version and rebuild your packages to incorporate the tarball ownership fix For ASP.NET Core tarball users on .NET 8 and 9, update your installation using the refreshed ASP.NET Core Runtime tarball for your .NET version Image credit: II.studio / Shutterstock.com You may also like Microsoft gets agile with Security Development Lifecycle News 13 November 2009 Microsoft's Answer to Buggy Code: Monitor the Coder News 16 July 2014 Microsoft kills most of Forefront portfoli",
-      "fetch_status": "ok"
+      "score": 9
     },
     {
       "source": "The Hacker News",
@@ -2364,7 +2428,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "SecurityWeek",
@@ -2394,7 +2458,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "The Hacker News",
@@ -2422,7 +2486,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Help Net Security",
@@ -2454,7 +2518,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Schneier on Security",
@@ -2484,7 +2548,7 @@
           "products": []
         }
       },
-      "score": 7
+      "score": 6
     },
     {
       "source": "Infosecurity Magazine",
@@ -2895,7 +2959,7 @@
           "products": []
         }
       },
-      "score": 10
+      "score": 9
     },
     {
       "source": "Elastic Security Labs",
@@ -2923,7 +2987,7 @@
           "products": []
         }
       },
-      "score": 9
+      "score": 8
     },
     {
       "source": "SANS Internet Storm Center",
@@ -3823,34 +3887,25 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "ransomware_extortion",
-          "zero_day"
+          "ransomware_extortion"
         ],
         "actor_attribution": [
           "Cl0p"
         ],
         "affected_industries": [],
-        "affected_products": [
-          "SolarWinds"
-        ],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
+        "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
-        "role_map": {
-          "SolarWinds": "target"
-        },
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
       },
-      "score": 10,
-      "full_body": "Eli Woodward 5 min read August 12, 2026 Cl0p Til you Drop - 6 Years, 10 Campaigns, 8 Zero-Days PART I: Operational Profile and Campaign Analysis 1. The MFT Targeting Pattern Cl0p's defining operational characteristic is a sustained and systematic focus on internet-facing applications that hold or move valuable data. Across ten known campaigns, the group has targeted Accellion FTA, SolarWinds Serv-U, Fortra GoAnywhere MFT, PaperCut MF/NG, Progress MOVEit Transfer, SysAid ITSM, Cleo MFT (Harmony, VLTrader, LexiCom), Oracle E-Business Suite, Gladinet Centrestack/TrioFox and, most recently, PTC Windchill and FlexPLM. Managed file transfer (MFT) remains the core of the pattern. The exceptions — PaperCut (print management), SysAid (IT service management), Oracle EBS (enterprise resource planning) and Windchill/FlexPLM (product lifecycle management) — share the same architectural profile: an internet-facing application that processes, stores or transfers sensitive files. Windchill sharpens the picture. PLM platforms hold engineering schematics, design data and other proprietary product information rather than the personal or health records most breach programs are built around. Cl0p's target selection is best understood through the value of the data an edge application holds, not just its product category. This consistency is significant for two reasons. First, it indicates strategic specialization rather than opportunistic exploitation: the group has invested in developing or acquiring zero-day capabilities for this class of application, deploying zero-day exploits in eight of ten campaigns. Second, it defines a bounded, defensible attack surface. Organizations that operate these platforms can identify themselves as potential targets and implement category-specific protections — a defensive advantage that is uncommon against most ransomware groups. FIGURE 1 · COMPLETE CL0P CAMPAIGN HISTORY, 2020–2026 2. Exploitation Timeline The chronological record of Cl0p campaigns reveals a distinctive operational tempo: extended dormancy periods punctuated by concentrated bursts of activity. FIGURE 2 · CAMPAIGN TIMELINE WITH INTER-CAMPAIGN INTERVALS, DEC 2020 – AUG 2026 The group's longest dormancy — approximately 14 months between the SolarWinds Serv-U exploitation in late 2021 and the Fortra GoAnywhere campaign in January 2023 — was followed by its most active phase: four campaigns across four separate technologies in ten months, three of them (GoAnywhere, PaperCut and MOVEit) in the first five months of 2023. This burst-and-pause cadence suggests a development cycle in which the group acquires or develops exploits, executes campaigns in rapid succession, and then withdraws to prepare for the next cycle. A second long pause of roughly 12 months followed SysAid before Cleo in October 2024. The first edition of this report used 10- to 14-month intervals as a rough forecasting baseline and noted, as of mid-2026, that the next cycle might be approaching. It arrived sooner than that baseline implied: Windchill exploitation began in early June 2026, about seven months after Centrestack. Taken together, Oracle EBS, Centrestack and Windchill represent three campaigns in roughly ten months — a burst comparable to 2023. FORECASTING IMPLICATION: Long dormancy periods remain characteristic of Cl0p, but they are not a safe planning assumption. The recent cycle has compressed. Defenders should treat the period immediately after a campaign as a preparation window for the next one, not a quiet period. 3. Seasonal and holiday clustering FIGURE 3 · CAMPAIGNS BY QUARTER OF INITIATION — Q4 ACCOUNTS FOR HALF OF ALL CAMPAIGNS When campaigns are mapped by calendar quarter, Q4 is the dominant operational window. Five of ten confirmed campaigns were initiated during October through December — as many as all other quarters combined. This clustering is operationally meaningful: Q4 coincides with major holidays in the United States and Europe, periods when security opera",
-      "fetch_status": "ok"
+      "score": 10
     },
     {
       "source": "Team Cymru",
@@ -6323,7 +6378,7 @@
         }
       },
       "score": 11,
-      "full_body": "Simon Willison’s Weblog Newsletter Sponsored by: WorkOS Airlock — intent-based access control for AI agents. Request early access 21st October 2026 - Link Blog Today's PHP Security Release, and How We're Strengthening PHP Security ( via ) If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process. This post from the PHP Foundation explain what went so wrong: On Tuesday, October 20th, at around 15:00 UTC, the two CVE IDs began circulating on online forums and social media. They came with a wrong release time and a wrong CVSS score of 10.0 (the actual score is 9.2). No technical details leaked. In response, the PHP project brought its pre-announcement forward and published it at 19:30 UTC . It also moved the release from October 22nd, 14:00 UTC, to October 21st, 14:00 UTC [...] As a result of the leak and pre-announcement around 20:00 UTC, Calif, one of the security firms that had reported the issues mistakenly published a video. It showed their proof of concept working against a number of targets and revealed a few additional, though limited, details about the vulnerabilities. Copies of the deleted video started circulating on social media soon after. The video contributed to accelerated development of various PoCs (exploitation proof of concepts), which then increased circulation on October 21st. This article from the team that discovered the original vulnerability includes a more detailed timeline of the original intended responsible disclosure: August 19, 2026: Wiz Research discovers the first PHP vulnerability using Wiz Atlas, Gemini 4 Argon, and GPT-5.6 Sol. August 20, 2026: Unauthenticated RCE is confirmed against Drupal. August 21, 2026: Unauthenticated RCE is confirmed against WordPress. August 24, 2026: Wiz Research reports the vulnerabilities to the PHP security team. September 21, 2026: PHP acknowledges the reports and begins developing a coordinated fix. October 21, 2026: Patched PHP releases become available. October 21, 2026: Public disclosure. Posted 21st October 2026 at 6:41 pm Recent articles Battle Drones - a vibe coded RTS with audio-based multiplayer - 20th October 2026 Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026 A new feature for my blog, built using my voice - 9th October 2026 Claude Haiku 5.5 - 7th October 2026 This is a link post by Simon Willison, posted on 21st October 2026 . open-source 324 php 191 security 641 ai 2,294 ai-security-research 50 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026",
+      "full_body": "Simon Willison’s Weblog Newsletter Sponsored by: WorkOS Airlock — intent-based access control for AI agents. Request early access 21st October 2026 - Link Blog Today's PHP Security Release, and How We're Strengthening PHP Security ( via ) If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process. This post from the PHP Foundation explain what went so wrong: On Tuesday, October 20th, at around 15:00 UTC, the two CVE IDs began circulating on online forums and social media. They came with a wrong release time and a wrong CVSS score of 10.0 (the actual score is 9.2). No technical details leaked. In response, the PHP project brought its pre-announcement forward and published it at 19:30 UTC . It also moved the release from October 22nd, 14:00 UTC, to October 21st, 14:00 UTC [...] As a result of the leak and pre-announcement around 20:00 UTC, Calif, one of the security firms that had reported the issues mistakenly published a video. It showed their proof of concept working against a number of targets and revealed a few additional, though limited, details about the vulnerabilities. Copies of the deleted video started circulating on social media soon after. The video contributed to accelerated development of various PoCs (exploitation proof of concepts), which then increased circulation on October 21st. This article from the team that discovered the original vulnerability includes a more detailed timeline of the original intended responsible disclosure: August 19, 2026: Wiz Research discovers the first PHP vulnerability using Wiz Atlas, Gemini 4 Argon, and GPT-5.6 Sol. August 20, 2026: Unauthenticated RCE is confirmed against Drupal. August 21, 2026: Unauthenticated RCE is confirmed against WordPress. August 24, 2026: Wiz Research reports the vulnerabilities to the PHP security team. September 21, 2026: PHP acknowledges the reports and begins developing a coordinated fix. October 21, 2026: Patched PHP releases become available. October 21, 2026: Public disclosure. Posted 21st October 2026 at 6:41 pm Recent articles Battle Drones - a vibe coded RTS with audio-based multiplayer - 20th October 2026 Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026 A new feature for my blog, built using my voice - 9th October 2026 Claude Haiku 5.5 - 7th October 2026 This is a link post by Simon Willison, posted on 21st October 2026 . open-source 324 php 191 security 641 ai 2,295 ai-security-research 50 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026",
       "fetch_status": "ok"
     },
     {
@@ -6966,34 +7021,6 @@
       "score": 23
     },
     {
-      "source": "Infosecurity Magazine",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Symantec Uncovers AI Agent Hijacking Models for Autonomous Cyber-Attacks",
-      "link": "https://www.infosecurity-magazine.com/news/symantec-ai-agent-llmjacking/",
-      "published": "2026-10-21T14:00:00+00:00",
-      "summary": "Researchers at Symantec have uncovered an AI agent designed to operate a full cyber-attack without human intervention",
-      "author": "",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
       "source": "The Hacker News",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -7020,6 +7047,34 @@
         }
       },
       "score": 7
+    },
+    {
+      "source": "Infosecurity Magazine",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Symantec Uncovers AI Agent Hijacking Models for Autonomous Cyber-Attacks",
+      "link": "https://www.infosecurity-magazine.com/news/symantec-ai-agent-llmjacking/",
+      "published": "2026-10-21T14:00:00+00:00",
+      "summary": "Researchers at Symantec have uncovered an AI agent designed to operate a full cyber-attack without human intervention",
+      "author": "",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 4
     },
     {
       "source": "Wiz Research",
@@ -8873,6 +8928,33 @@
       "score": 5
     },
     {
+      "source": "Horizon3 Attack Research",
+      "cohort": "offensive_vulnerability_research",
+      "category": "offensive_vulnerability_research",
+      "title": "Horizon3 expands in Singapore to accelerate AI‑native proactive security across Southeast Asia",
+      "link": "https://horizon3.ai/news/press-release/horizon3-singapore-expansion-asean-headquarters/",
+      "published": "2026-10-20T01:10:00+00:00",
+      "summary": "Horizon3 announced a strategic expansion in Singapore, supported by the Singapore Economic Development Board (EDB) and EDBI, part of SG Growth Capital, the strategic investment platform established by EDB and Enterprise Singapore.",
+      "author": "Horizon3",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -8881,7 +8963,7 @@
       "published": "2026-10-20T00:00:00+00:00",
       "summary": "<p>The China-based threat group uses DLL sideloading in these attacks</p> Categories: Threat Research Tags: BRONZE SANDCASTLE, Meterpreter, Sandboxie",
       "author": "",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
@@ -8897,8 +8979,7 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 8
+      }
     },
     {
       "source": "Datadog Security Labs",
@@ -8909,7 +8990,7 @@
       "published": "2026-10-20T00:00:00+00:00",
       "summary": "Introducing pathrunner, a modular, cloud-native offensive security framework that automates the exploitation of AWS IAM privilege escalation paths.",
       "author": "",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
@@ -8929,8 +9010,34 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 7
+      }
+    },
+    {
+      "source": "Simon Willison",
+      "cohort": "ai_security_agentic_risk",
+      "category": "ai_security_agentic_risk",
+      "title": "My obituary for programming",
+      "link": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+      "published": "2026-10-19T23:58:25+00:00",
+      "summary": "My obituary for programming Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the puzzle of developing code: Programming turned into one of the greatest jobs you could imagine. You got paid to work on tricky little logic puzzles. The trickier the puzzle, the more you got paid. But even pretty simple puzzles were worth a lot of money because regular people just couldn't do it! No, they needed us. They would give us a problem and we would solve it the way we wanted. We set the strategy, we made the timeline, we defined what was and was not possible. If you're a programmer who thrives on building working systems and doesn't care too deeply about the problems solved along the way, LLMs are the gift that keeps on giving. If directly solving those problems was a big part of your enjoyment, the loss is very real. Via lobste.rs Tags: programming , careers , ai , generative-ai , llms , coding-agents , deep-blue",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
     },
     {
       "source": "Dark Reading",
@@ -15826,35 +15933,6 @@
       }
     },
     {
-      "source": "Dark Reading",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
-      "link": "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking",
-      "published": "2026-10-14T05:00:00+00:00",
-      "summary": "Organizations are reporting that employees face threats of stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
-      "author": "Nate Nelson",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Risky Business News",
       "cohort": "practitioner_analysis",
       "category": "practitioner_analysis",
@@ -16982,33 +17060,6 @@
       }
     },
     {
-      "source": "Simon Willison",
-      "cohort": "ai_security_agentic_risk",
-      "category": "ai_security_agentic_risk",
-      "title": "llm-meta-ai 0.2",
-      "link": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
-      "published": "2026-10-12T23:58:46+00:00",
-      "summary": "Release: llm-meta-ai 0.2 Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (Max) as equivalent to GPT-6.1 Sol. I updated my llm-meta-ai plugin for the new model. Here are pelicans for Muse Wonder for the six reasoning levels: minimal, low, medium, high, xhigh, max. This is the max one: For comparison, here are pelicans for Muse 1.3 (released September 2nd) and Muse 1.2 (released August 5th). Meta AI are putting out a new model a month, and the improvements between each model (at least in terms of drawing pelicans) are material. Tags: ai , generative-ai , llms , meta , pelican-riding-a-bicycle , llm-release",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "AWS Security Blog",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -17120,33 +17171,6 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_3_analysis",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Simon Willison",
-      "cohort": "ai_security_agentic_risk",
-      "category": "ai_security_agentic_risk",
-      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
-      "link": "https://simonwillison.net/2026/Oct/12/python-3-15/",
-      "published": "2026-10-12T18:15:38+00:00",
-      "summary": "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.10 and start embracing features from Python 3.11. First, some highlights from Python 3.15. Explicit lazy imports I'm most excited about Explicit lazy imports from PEP 810 . These let you import modules like so: lazy import json lazy from pathlib import Path The module will then be imported the first time those symbols are used in the code that follows. My LLM CLI tool implements plugins. I had to recommend manual lazy imports in the plugin author documentation, because simply installing plugins that used heavy dependencies such as sentence_transformers could add multiple seconds to every invocation of the llm command. Lazy imports directly address this startup cost. Unpacking in comprehensions The new [*sublist for sublist",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -64363,33 +64387,6 @@
       "source": "CrowdStrike",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
-      "title": "Obstacles to Weaponizing PHP2Shell Likely Constrain Immediate Widespread Exploitation",
-      "link": "https://www.crowdstrike.com/en-us/blog/obstacles-to-weaponizing-php2shell-likely-constrain-exploitation/",
-      "published": null,
-      "summary": "",
-      "author": "Jaime Duque - Brenden Conrad",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "CrowdStrike",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
       "title": "Why Organizations Secure AI Agents with Falcon Guardian",
       "link": "https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/",
       "published": null,
@@ -64406,6 +64403,33 @@
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "low_signal",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "CrowdStrike",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Obstacles to Weaponizing PHP2Shell Likely Constrain Immediate Widespread Exploitation",
+      "link": "https://www.crowdstrike.com/en-us/blog/obstacles-to-weaponizing-php2shell-likely-constrain-exploitation/",
+      "published": null,
+      "summary": "",
+      "author": "Jaime Duque - Brenden Conrad",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
         "role_map": {},
         "weak_tags": {
