@@ -1,15 +1,15 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-10-28T05:07:07.104114+00:00
+- Generated: 2026-10-28T12:32:03.664632+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 77
-- Total items in window: 359
-- Total clusters raw: 170
+- Feeds OK: 76
+- Total items in window: 330
+- Total clusters raw: 157
 - Total clusters in packet: 80
-- Dropped low score: 81
-- Dropped overflow: 9
+- Dropped low score: 74
+- Dropped overflow: 3
 
 ## Cohort metadata
 
@@ -70,26 +70,21 @@
 
 ## Feed status
 
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 4
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 2
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
@@ -105,23 +100,23 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 5
+  - Item count: 10
+  - In window count: 0
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
@@ -129,37 +124,37 @@
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
-  - In window count: 2
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - In window count: 1
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 10
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - In window count: 5
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 1
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
-  - Item count: 40
-  - In window count: 1
+  - Item count: 100
+  - In window count: 2
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
@@ -170,6 +165,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 1
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
@@ -180,16 +180,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: ok
   - Item count: 100
   - In window count: 3
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
@@ -210,6 +210,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -220,28 +225,38 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 7
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 1
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 6
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 7
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 6
@@ -250,30 +265,10 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 6
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 6
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
-  - In window count: 0
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
@@ -285,36 +280,41 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 8
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
+  - In window count: 2
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 2
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 17
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 8
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
@@ -339,21 +339,21 @@
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
-  - In window count: 13
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
+  - In window count: 14
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
-  - Item count: 20
+  - Item count: 100
   - In window count: 0
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
@@ -364,7 +364,12 @@
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 30
+  - In window count: 31
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -380,21 +385,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 8
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
@@ -402,11 +402,6 @@
   - In window count: 0
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -420,46 +415,51 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
-  - Item count: 50
-  - In window count: 50
+  - Item count: 100
+  - In window count: 8
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsec/.rss
-  - Status: ok
-  - Item count: 25
-  - In window count: 23
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 28
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Risky Business News** (practitioner_analysis)
-  - URL: https://risky.biz/feeds/risky-business-news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 6
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsec/.rss
+  - Status: ok
+  - Item count: 25
+  - In window count: 23
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **Risky Business News** (practitioner_analysis)
+  - URL: https://risky.biz/feeds/risky-business-news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 6
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
@@ -473,52 +473,12 @@
 
 ## Affinity groups (themes)
 
-### CVE-2026-109618 exploitation activity
-- Anchor signal: CVE-2026-109618
-- Theme key: cve-2026-109618
-- Cluster count: 10
-- Article count: 28
-- Cohesion: 0.34
-- Shared strong signals: CVE-2026-109618
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation
-  - cve_ids: CVE-2026-109618, CVE-2026-109619, CVE-2026-115560
-  - urgency_signals: actively_exploited, preauth_unauth
-- Cluster IDs: f4a1025e01, 59969a7c2a, 5806ce98aa, 3daf0508f6, 5e9563cebc, 03ad94fad0, 7283c6981d, 21772a3458, f576445f64, 9ccfc452c8
-- Links:
-  - https://www.rapid7.com/blog/post/etr-cve-2026-109618-and-cve-2026-109619-critical-unauthenticated-remote-code-execution-in-php
-  - https://securelist.com/tr/php2shell-critical-vulnerabilities-in-php/121596/
-  - https://www.exploit-db.com/exploits/52704
-  - https://orca.security/resources/blog/php2shell-php-rce-vulnerabilities/
-  - https://webflow.sysdig.com/blog/php2shell-cve-2026-109618-and-cve-2026-109619-detecting-unauthenticated-remote-code-execution-in-php-core
-  - https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/
-  - https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/
-  - https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/
-  - https://www.welivesecurity.com/en/videos/php2shell-what-know-two-critical-php-flaws/
-  - https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php
-  - https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html
-  - https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html
-  - https://www.reddit.com/r/netsec/comments/1xbzwrn/php2shell_cve2026109618109619_first_exploit/
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-109618-cve-2026-109619/
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-76268/
-  - https://blog.talosintelligence.com/two-critical-rces-in-php-core/
-  - https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/
-  - https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/
-  - https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html
-  - https://www.infosecurity-magazine.com/news/php-publishes-mitigation-advice/
-  - https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html
-  - https://blog.cloudflare.com/php-vulnerabilities-waf-protection/
-  - https://research.checkpoint.com/2026/26th-october-threat-intelligence-report/
-  - https://horizon3.ai/attack-research/attack-blogs/php2shell-exposure-exploitability/
-
 ### CVE-2026-109619 exploitation activity
 - Anchor signal: CVE-2026-109619
 - Theme key: cve-2026-109619
-- Cluster count: 10
-- Article count: 28
-- Cohesion: 0.34
+- Cluster count: 11
+- Article count: 26
+- Cohesion: 0.315
 - Shared strong signals: CVE-2026-109619
 - Member CVEs: (none)
 - Also targets: (none)
@@ -526,7 +486,7 @@
   - threat_categories: active_exploitation
   - cve_ids: CVE-2026-109618, CVE-2026-109619, CVE-2026-115560
   - urgency_signals: actively_exploited, preauth_unauth
-- Cluster IDs: f4a1025e01, 59969a7c2a, 5806ce98aa, 3daf0508f6, 5e9563cebc, 03ad94fad0, 7283c6981d, 21772a3458, f576445f64, 9ccfc452c8
+- Cluster IDs: f4a1025e01, 59969a7c2a, 5806ce98aa, 5e9563cebc, 03ad94fad0, 3daf0508f6, 7283c6981d, 21772a3458, f576445f64, 9ccfc452c8, 5f14c4c45d
 - Links:
   - https://www.rapid7.com/blog/post/etr-cve-2026-109618-and-cve-2026-109619-critical-unauthenticated-remote-code-execution-in-php
   - https://securelist.com/tr/php2shell-critical-vulnerabilities-in-php/121596/
@@ -537,21 +497,57 @@
   - https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/
   - https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/
   - https://www.welivesecurity.com/en/videos/php2shell-what-know-two-critical-php-flaws/
-  - https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php
   - https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html
   - https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html
-  - https://www.reddit.com/r/netsec/comments/1xbzwrn/php2shell_cve2026109618109619_first_exploit/
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-109618-cve-2026-109619/
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-76268/
   - https://blog.talosintelligence.com/two-critical-rces-in-php-core/
-  - https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/
   - https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/
   - https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html
-  - https://www.infosecurity-magazine.com/news/php-publishes-mitigation-advice/
+  - https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/
   - https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html
   - https://blog.cloudflare.com/php-vulnerabilities-waf-protection/
   - https://research.checkpoint.com/2026/26th-october-threat-intelligence-report/
   - https://horizon3.ai/attack-research/attack-blogs/php2shell-exposure-exploitability/
+  - https://www.sekoia.com/blog/php2shell-was-exploited-before-the-patch-expect-more-of-it
+
+### CVE-2026-109618 exploitation activity
+- Anchor signal: CVE-2026-109618
+- Theme key: cve-2026-109618
+- Cluster count: 11
+- Article count: 26
+- Cohesion: 0.315
+- Shared strong signals: CVE-2026-109618
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation
+  - cve_ids: CVE-2026-109618, CVE-2026-109619, CVE-2026-115560
+  - urgency_signals: actively_exploited, preauth_unauth
+- Cluster IDs: f4a1025e01, 59969a7c2a, 5806ce98aa, 5e9563cebc, 03ad94fad0, 3daf0508f6, 7283c6981d, 21772a3458, f576445f64, 9ccfc452c8, 5f14c4c45d
+- Links:
+  - https://www.rapid7.com/blog/post/etr-cve-2026-109618-and-cve-2026-109619-critical-unauthenticated-remote-code-execution-in-php
+  - https://securelist.com/tr/php2shell-critical-vulnerabilities-in-php/121596/
+  - https://www.exploit-db.com/exploits/52704
+  - https://orca.security/resources/blog/php2shell-php-rce-vulnerabilities/
+  - https://webflow.sysdig.com/blog/php2shell-cve-2026-109618-and-cve-2026-109619-detecting-unauthenticated-remote-code-execution-in-php-core
+  - https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/
+  - https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/
+  - https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/
+  - https://www.welivesecurity.com/en/videos/php2shell-what-know-two-critical-php-flaws/
+  - https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html
+  - https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-109618-cve-2026-109619/
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-76268/
+  - https://blog.talosintelligence.com/two-critical-rces-in-php-core/
+  - https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/
+  - https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html
+  - https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/
+  - https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html
+  - https://blog.cloudflare.com/php-vulnerabilities-waf-protection/
+  - https://research.checkpoint.com/2026/26th-october-threat-intelligence-report/
+  - https://horizon3.ai/attack-research/attack-blogs/php2shell-exposure-exploitability/
+  - https://www.sekoia.com/blog/php2shell-was-exploited-before-the-patch-expect-more-of-it
 
 ### data breach targeting WordPress
 - Anchor signal: WordPress
@@ -580,7 +576,7 @@
 - Anchor signal: AWS
 - Theme key: aws
 - Cluster count: 4
-- Article count: 22
+- Article count: 20
 - Cohesion: 0.213
 - Shared strong signals: AWS
 - Member CVEs: (none)
@@ -600,10 +596,8 @@
   - https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/
   - https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/
   - https://www.welivesecurity.com/en/videos/php2shell-what-know-two-critical-php-flaws/
-  - https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php
   - https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html
   - https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html
-  - https://www.reddit.com/r/netsec/comments/1xbzwrn/php2shell_cve2026109618109619_first_exploit/
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-109618-cve-2026-109619/
   - https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors
   - https://www.wiz.io/blog/php2shell-php-rce
@@ -614,15 +608,14 @@
 - Anchor signal: CVE-2026-111497
 - Theme key: cve-2026-111497
 - Cluster count: 3
-- Article count: 10
-- Cohesion: 0.369
+- Article count: 11
+- Cohesion: 0.319
 - Shared strong signals: CVE-2026-111497
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - threat_categories: active_exploitation
   - cve_ids: CVE-2026-111497
-  - urgency_signals: actively_exploited
 - Cluster IDs: 01d94b3234, fe12343499, 7283c6981d
 - Links:
   - https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder
@@ -634,49 +627,68 @@
   - https://cyberscoop.com/brotli-critical-vulnerability-decompression-library-node2shell-broccoli2shell/
   - https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html
 
+### CVE-2026-101767 exploitation activity
+- Anchor signal: CVE-2026-101767
+- Theme key: cve-2026-101767
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.225
+- Shared strong signals: CVE-2026-101767
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation, ransomware_extortion, zero_day
+  - actor_attribution: Cl0p
+  - affected_industries: healthcare
+  - cve_ids: CVE-2026-101767
+  - urgency_signals: preauth_unauth, actively_exploited, zero_day
+- Cluster IDs: 59969a7c2a, d548126a28, 2bf44078df
+- Links:
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-76268/
+  - https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/
+  - https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/
+
 ### data breach targeting GitLab
 - Anchor signal: GitLab
 - Theme key: gitlab
-- Cluster count: 4
-- Article count: 5
-- Cohesion: 0.217
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.231
 - Shared strong signals: GitLab
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - threat_categories: data_breach, active_exploitation, supply_chain
-  - affected_industries: financial_services, government
+  - affected_industries: financial_services
   - affected_products: GitLab
   - cve_ids: CVE-2026-109618, CVE-2026-109619
   - urgency_signals: preauth_unauth, critical_cvss
-- Cluster IDs: 2cd46a2154, d99b4ca6b5, 7283c6981d, f576445f64
+- Cluster IDs: 2cd46a2154, 7283c6981d, f576445f64
 - Links:
   - https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html
-  - https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html
   - https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html
   - https://research.checkpoint.com/2026/26th-october-threat-intelligence-report/
 
-### supply chain targeting Microsoft 365
-- Anchor signal: Microsoft 365
-- Theme key: microsoft-365
+### Cl0p: ransomware extortion
+- Anchor signal: Cl0p
+- Theme key: cl0p
 - Cluster count: 3
-- Article count: 8
-- Cohesion: 0.209
-- Shared strong signals: Microsoft 365
+- Article count: 3
+- Cohesion: 0.283
+- Shared strong signals: Cl0p
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: supply_chain, apt_espionage
-  - affected_products: Microsoft 365
-- Cluster IDs: fbd47b91b1, 0c3d84d7ed, b0a261896d
+  - threat_categories: ransomware_extortion, zero_day, active_exploitation
+  - actor_attribution: Cl0p
+  - affected_industries: healthcare
+  - cve_ids: CVE-2026-101767
+  - urgency_signals: zero_day, preauth_unauth
+- Cluster IDs: d548126a28, 2bf44078df, fb556ca51b
 - Links:
-  - https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/
-  - https://www.huntress.com/blog/token-replay-spray
-  - https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/
-  - https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html
-  - https://www.infosecurity-magazine.com/news/tokenspraying-attacks-target/
-  - https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors
-  - https://www.sekoia.com/blog/from-mobile-threat-detection-to-autonomous-investigation-connecting-zimperium-with-sekoia
+  - https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/
+  - https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/
+  - https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence
 
 ### Drupal vulnerability activity
 - Anchor signal: Drupal
@@ -696,32 +708,32 @@
   - https://www.wiz.io/blog/php2shell-php-rce
   - https://simonwillison.net/2026/Oct/21/php-security-release/
 
-### supply chain targeting Microsoft Defender
-- Anchor signal: Microsoft Defender
-- Theme key: microsoft-defender
+### supply chain targeting Microsoft 365
+- Anchor signal: Microsoft 365
+- Theme key: microsoft-365
 - Cluster count: 2
 - Article count: 7
-- Cohesion: 0.227
-- Shared strong signals: Microsoft Defender
+- Cohesion: 0.2
+- Shared strong signals: Microsoft 365
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - threat_categories: supply_chain
-  - affected_products: Microsoft Defender
-- Cluster IDs: fbd47b91b1, cc227d9597
+  - affected_products: Microsoft 365
+- Cluster IDs: fbd47b91b1, 0c3d84d7ed
 - Links:
   - https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/
   - https://www.huntress.com/blog/token-replay-spray
+  - https://www.helpnetsecurity.com/2026/10/28/cisa-scubagear-scubagoggles-update/
   - https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/
   - https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html
-  - https://www.infosecurity-magazine.com/news/tokenspraying-attacks-target/
-  - https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/
+  - https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors
 
 ### Google Cloud active exploitation
 - Anchor signal: Google Cloud
 - Theme key: google-cloud
 - Cluster count: 2
-- Article count: 19
+- Article count: 17
 - Cohesion: 0.2
 - Shared strong signals: Google Cloud
 - Member CVEs: (none)
@@ -741,97 +753,93 @@
   - https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/
   - https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/
   - https://www.welivesecurity.com/en/videos/php2shell-what-know-two-critical-php-flaws/
-  - https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php
   - https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html
   - https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html
-  - https://www.reddit.com/r/netsec/comments/1xbzwrn/php2shell_cve2026109618109619_first_exploit/
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-109618-cve-2026-109619/
   - https://research.checkpoint.com/2026/infostealer-riding-the-ai-train/
 
-### Microsoft Windows vulnerability activity
-- Anchor signal: Microsoft Windows
-- Theme key: microsoft-windows
+### supply chain targeting Microsoft Defender
+- Anchor signal: Microsoft Defender
+- Theme key: microsoft-defender
 - Cluster count: 2
-- Article count: 3
-- Cohesion: 0.214
-- Shared strong signals: Microsoft Windows
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Microsoft Windows
-- Cluster IDs: 26535002b4, 91a61f3bcb
-- Links:
-  - https://securelist.com/uefi-bootkit-blackx/121539/
-  - https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html
-  - https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/
-
-### Kubernetes vulnerability activity
-- Anchor signal: Kubernetes
-- Theme key: kubernetes
-- Cluster count: 2
-- Article count: 3
+- Article count: 7
 - Cohesion: 0.2
-- Shared strong signals: Kubernetes
+- Shared strong signals: Microsoft Defender
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - affected_products: Kubernetes
-- Cluster IDs: 092b6c8b44, a9f0cb00a4
+  - threat_categories: supply_chain
+  - affected_products: Microsoft Defender
+- Cluster IDs: fbd47b91b1, cc227d9597
 - Links:
-  - https://securelist.com/cloud-infrastructure-isolation-bypass/121609/
-  - https://blog.talosintelligence.com/compromised-intermediate-certificates/
+  - https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/
+  - https://www.huntress.com/blog/token-replay-spray
+  - https://www.helpnetsecurity.com/2026/10/28/cisa-scubagear-scubagoggles-update/
+  - https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/
+  - https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html
+  - https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/
 
 ## Forward signals
 
 ### Novelty
-- Novel cves: 0
-- Novel actors: 1
-  - Black Basta (first seen via Dark Reading at 2026-10-27T20:42:40+00:00, cluster 980755387b)
+- Novel cves: 2
+  - CVE-2026-46817 (first seen via SecurityWeek at 2026-10-28T09:14:23+00:00, cluster d548126a28)
+  - CVE-2026-104351 (first seen via The Hacker News at 2026-10-28T11:15:51+00:00, cluster 4d31e35acf)
+- Novel actors: 0
 - Novel products: 0
 
 ### Velocity bursts (1)
 - **CVE-2026-109618 and CVE-2026-109619: Critical Unauthenticated Remote Code Execution in PHP**
   - Cluster: f4a1025e01
   - Sources in window: 3
-  - Window hours: 2.2
-  - Cohort count: 8
+  - Window hours: 1.3
+  - Cohort count: 6
 
 ### Leading edge (0)
 
 ### Convergence (15)
-- Pair: CVE-2026-0768 + Docker (cluster 3d6ca9f782, first observation: True)
 - Pair: CVE-2026-0768 + GitHub (cluster 3d6ca9f782, first observation: True)
-- Pair: CVE-2026-0768 + PyPI (cluster 3d6ca9f782, first observation: True)
 - Pair: CVE-2026-0769 + Anthropic/Claude (cluster 3d6ca9f782, first observation: True)
-- Pair: CVE-2026-0769 + Docker (cluster 3d6ca9f782, first observation: True)
 - Pair: CVE-2026-0769 + GitHub (cluster 3d6ca9f782, first observation: True)
-- Pair: CVE-2026-0769 + PyPI (cluster 3d6ca9f782, first observation: True)
 - Pair: CVE-2026-10134 + Anthropic/Claude (cluster 3d6ca9f782, first observation: True)
-- Pair: CVE-2026-10134 + Docker (cluster 3d6ca9f782, first observation: True)
 - Pair: CVE-2026-10134 + GitHub (cluster 3d6ca9f782, first observation: True)
 - Pair: CVE-2026-10134 + OpenAI/ChatGPT (cluster 3d6ca9f782, first observation: True)
-- Pair: CVE-2026-10134 + PyPI (cluster 3d6ca9f782, first observation: True)
 - Pair: CVE-2026-7873 + Anthropic/Claude (cluster 3d6ca9f782, first observation: True)
-- Pair: CVE-2026-7873 + Docker (cluster 3d6ca9f782, first observation: True)
 - Pair: CVE-2026-7873 + GitHub (cluster 3d6ca9f782, first observation: True)
+- Pair: CVE-2026-7873 + OpenAI/ChatGPT (cluster 3d6ca9f782, first observation: True)
+- Pair: CVE-2026-93680 + Anthropic/Claude (cluster 3d6ca9f782, first observation: True)
+- Pair: CVE-2026-93680 + GitHub (cluster 3d6ca9f782, first observation: True)
+- Pair: CVE-2026-93680 + OpenAI/ChatGPT (cluster 3d6ca9f782, first observation: True)
+- Pair: CVE-2026-109618 + AWS (cluster f4a1025e01, first observation: True)
+- Pair: CVE-2026-109618 + Drupal (cluster f4a1025e01, first observation: True)
+- Pair: CVE-2026-109618 + Google Cloud (cluster f4a1025e01, first observation: True)
 
-### Drift (1)
-- **ShinyHunters** (cluster d8c893e316)
-  - New industries: (none)
-  - New products: Microsoft SharePoint
+### Drift (3)
+- **Cl0p** (cluster d548126a28)
+  - New industries: critical_infrastructure, healthcare
+  - New products: Apple iOS/macOS
+  - Prior top industries: financial_services, government, manufacturing_industrial
+  - Prior top products: Anthropic/Claude, OpenAI/ChatGPT, SolarWinds
+- **ShinyHunters** (cluster 360482c4b0)
+  - New industries: education
+  - New products: (none)
   - Prior top industries: financial_services, government, healthcare
   - Prior top products: Anthropic/Claude, OpenAI/ChatGPT, Salesforce
+- **UNC6240** (cluster 360482c4b0)
+  - New industries: education
+  - New products: (none)
+  - Prior top industries: financial_services, government, healthcare
+  - Prior top products: AWS, Microsoft SharePoint, Salesforce
 
-### Persistence (10)
-- actor_attribution: ShinyHunters (weeks observed: 13, cluster d8c893e316)
-- actor_attribution: Cl0p (weeks observed: 11, cluster fb556ca51b)
+### Persistence (9)
+- actor_attribution: ShinyHunters (weeks observed: 13, cluster 360482c4b0)
+- actor_attribution: Cl0p (weeks observed: 11, cluster d548126a28)
 - actor_attribution: Salt Typhoon (weeks observed: 7, cluster b9771fe2d2)
 - actor_attribution: Volt Typhoon (weeks observed: 7, cluster b9771fe2d2)
 - cve_ids: CVE-2026-73570 (weeks observed: 5, cluster 9c6133d08b)
-- actor_attribution: UNC6240 (weeks observed: 5, cluster d8c893e316)
-- actor_attribution: UNC6661 (weeks observed: 4, cluster d8c893e316)
-- cve_ids: CVE-2026-86950 (weeks observed: 4, cluster 09b1320a21)
+- actor_attribution: UNC6240 (weeks observed: 5, cluster 360482c4b0)
 - cve_ids: CVE-2026-93952 (weeks observed: 3, cluster 2cd46a2154)
+- cve_ids: CVE-2026-35273 (weeks observed: 3, cluster 360482c4b0)
 - cve_ids: CVE-2026-110264 (weeks observed: 3, cluster f576445f64)
 
 ### Tier inversion (1)
@@ -849,13 +857,13 @@
 - Published: 2026-10-23T15:38:56+00:00
 - Link: https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-langflow-mongodb-and-more
 - Fetch status: ok
-- Member count: 9
+- Member count: 8
 - Corroborating source count: 5
 - Strong signals: CVE-2026-0768, CVE-2026-0769, CVE-2026-10134, CVE-2026-7873, CVE-2026-93680, GitHub
 
 #### Cluster taxonomy (union across members)
-- threat_categories: supply_chain, web_shell_backdoor
-- affected_products: Anthropic/Claude, Docker, GitHub, OpenAI/ChatGPT, PyPI
+- threat_categories: supply_chain
+- affected_products: Anthropic/Claude, GitHub, OpenAI/ChatGPT
 - cve_ids: CVE-2026-0768, CVE-2026-0769, CVE-2026-10134, CVE-2026-7873, CVE-2026-93680
 - urgency_signals: preauth_unauth
 - content_type: incident_report, news_report
@@ -908,75 +916,6 @@ Metasploit Metasploit Wrap Up: Langflow, MongoDB, and More Alan David Foster Oct
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/gheist-stolen-github-tokens-cloud-secrets
   - Summary: An ongoing supply chain attack is harvesting credentials and sensitive data from thousands of developer repositories.
 
-### Cluster 01d94b3234 — score 50
-
-- Title: CVE-2026-111497: Critical out-of-bounds write in the Node.js Brotli decoder
-- Source: Rapid7 (offensive_vulnerability_research)
-- Published: 2026-10-26T17:32:46+00:00
-- Link: https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder
-- Fetch status: ok
-- Member count: 8
-- Corroborating source count: 6
-- Strong signals: CVE-2026-111497
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- cve_ids: CVE-2026-111497
-- urgency_signals: actively_exploited
-- content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research, tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- cve_ids: CVE-2026-111497
-- urgency_signals: actively_exploited
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Overview On October 21, 2026, the Node.js Project published a security advisory for CVE-2026-111497 , an out-of-bounds write in the Brotli decoder bundled with Node.js. The vulnerability affects the Node.js 26.x , 24.x , and 22.x release lines. Node.js rates the issue High, while Google, the CVE Numbering Authority (CNA), gives it a critical CVSSv4 score of 9.2 . An attacker who can supply Brotli data that an application decompresses with node:zlib can corrupt process memory. According to Node.js, this corruption can lead to a process crash, disclosure of sensitive process memory, or remote code execution. Exposure therefore depends on whether an application passes attacker-controlled compressed data to the affected decoder. As of October 26, 2026, Rapid7 is not aware of exploitation in the wild, and CVE-2026-111497 is not listed in CISA's Known Exploited Vulnerabilities catalog . However, given the vulnerability's potential to disclose memory or enable remote code execution (RCE), Rap
-```
-
-#### Full body
-
-```
-Emerging Threats CVE-2026-111497: Critical out-of-bounds write in the Node.js Brotli decoder Rapid7 Oct 26, 2026 | Last updated on Oct 27, 2026 | 3 min read CVE-2026-111497: Critical out-of-bounds write in the Node.js Brotli decoder Table of contents CVE-2026-111497: Critical out-of-bounds write in the Node.js Brotli decoder Table of contents Overview On October 21, 2026, the Node.js Project published a security advisory for CVE-2026-111497 , an out-of-bounds write in the Brotli decoder bundled with Node.js. The vulnerability affects the Node.js 26.x , 24.x , and 22.x release lines. Node.js rates the issue High, while Google, the CVE Numbering Authority (CNA), gives it a critical CVSSv4 score of 9.2 . An attacker who can supply Brotli data that an application decompresses with node:zlib can corrupt process memory. According to Node.js, this corruption can lead to a process crash, disclosure of sensitive process memory, or remote code execution. Exposure therefore depends on whether an application passes attacker-controlled compressed data to the affected decoder. As of October 26, 2026, Rapid7 is not aware of exploitation in the wild, and CVE-2026-111497 is not listed in CISA's Known Exploited Vulnerabilities catalog . However, given the vulnerability's potential to disclose memory or enable remote code execution (RCE), Rapid7 recommends that organizations prioritize remediation. Technical overview CVE-2026-111497 is classified as an out-of-bounds write ( CWE-787 ) and an unchecked return value ( CWE-252 ). Per the vendor advisory, the decoder handled an invalid Brotli block switch as a temporary need for more input instead of a permanent format error. The streaming decoder then continued appending input bytes to an eight-byte internal buffer, allowing malformed input to write beyond the buffer and corrupt process memory. The vulnerability originates in Google Brotli, which the affected Node.js release lines bundle as a dependency. The CVE record identifies affected upstream Brotli ranges on all platforms as versions 1.0.3 before 1.0.10 , 1.1.0 before 1.1.1 , and 1.2.0 before 1.2.1 . The Node.js Project remediated its bundled decoder in the fixed Node.js releases listed below. Because CVE-2026-111497 affects the upstream Google Brotli decoder, its reach is not limited to Node.js. Vendor and project advisories have also identified affected implementations in Bun , Python's Brotli and brotlicffi packages, .NET , Envoy and Istio , brotli4j , and operating-system packages . Affected versions, default exposure, and remediation vary by product; the presence of an affected decoder does not by itself establish exposure unless an application processes attacker-controlled Brotli data. Organizations should consult the relevant downstream vendor or distribution advisories to identify affected versions, assess exposure, and determine appropriate remediation. Mitigation guidance Vendor-supplied security updates are available to remediate CVE-2026-111497. Organizations running an affected Node.js release should upgrade on an urgent basis, outside of normal patch cycles: Node.js 22.x releases before 22.23.4 are affected; upgrade to 22.23.4 or later. Node.js 24.x releases before 24.22.1 are affected; upgrade to 24.22.1 or later. Node.js 26.x releases before 26.12.1 are affected; upgrade to 26.12.1 or later. The vendor states that end-of-life Node.js release lines should also be treated as affected when a security release occurs. Organizations using an end-of-life release should migrate to a supported, fixed release line. Node.js has not published a vendor-supported workaround; if an immediate upgrade is not possible, Rapid7 recommends restricting or disabling application paths that decompress untrusted Brotli data as a temporary exposure-reduction measure. For the latest mitigation guidance, please refer to the Node.js security advisory . Rapid7 customers Exposure Command, Vulnerability Management, and Nexpose Exposure Command, Vulnerability M
-```
-
-#### Corroborating sources (6)
-
-- **Rapid7** (offensive_vulnerability_research)
-  - Title: CVE-2026-111497: Critical out-of-bounds write in the Node.js Brotli decoder
-  - Published: 2026-10-26T17:32:46+00:00
-  - Link: https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder
-  - Summary: Overview On October 21, 2026, the Node.js Project published a security advisory for CVE-2026-111497 , an out-of-bounds write in the Brotli decoder bundled with Node.js. The vulnerability affects the Node.js 26.x , 24.x , and 22.x release lines. Node.js rates the issue High, while Google, the CVE Numbering Authority (CNA), gives it a critical CVSSv4 score of 9.2 . An attacker who can supply Brotli data that an application decompresses with node:zlib can corrupt process memory. According to Node.js, this corruption can lead to a process crash, disclosure of sensitive process memory, or remote code execution. Exposure therefore depends on whether an application passes attacker-controlled compressed data to the affected decoder. As of October 26, 2026, Rapid7 is not aware of exploitation in the wild, and CVE-2026-111497 is not listed in CISA's Known Exploited Vulnerabilities catalog . However, given the vulnerability's potential to disclose memory or enable remote code execution (RCE), Rap
-- **Sysdig** (detection_response_operations)
-  - Title: Node2Shell (CVE-2026-111497): Detecting the Node.js Brotli RCE
-  - Published: 2026-10-24T00:00:00+00:00
-  - Link: https://webflow.sysdig.com/blog/node2shell-cve-2026-111497-detecting-the-node-js-brotli-rce
-- **Wiz Research** (cloud_identity_infrastructure)
-  - Title: Broccoli2shell: Everything You Need To Know About The Critical Brotli Decoder Vulnerability
-  - Published: 2026-10-25T14:46:53+00:00
-  - Link: https://www.wiz.io/blog/cve-2026-111497-brotli-rce-node-js
-  - Summary: Detect and mitigate CVE-2026-111497, a critical Brotli decoder vulnerability enables remote code execution.
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: Node.js Brotli Decoder Out-of-Bounds Write Threatens Remote Code Execution Across All Supported Versions
-  - Published: 2026-10-27T14:54:29+00:00
-  - Link: https://orca.security/resources/research/cve-2026-111497-nodejs-brotli-rce/
-  - Summary: Executive Summary: A high-severity vulnerability (CVE-2026-111497) was disclosed affecting Node.js across all supported release lines (22.x, 24.x, 26.x), allowing attackers to achieve remote code execution via malformed Brotli-compressed data processed by node:zlib or fetch(). Due to the potential for crashes, memory disclosure, and code execution in cloud workloads, immediate patching is required. About CVE-2026-111497 The […]
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Brotli bug reaches far beyond Node.js (CVE-2026-111497)
-  - Published: 2026-10-27T17:38:51+00:00
-  - Link: https://www.helpnetsecurity.com/2026/10/27/node2shell-broccoli2shell-vulnerability-cve-2026-111497/
-  - Summary: A vulnerability in Brotli, Google’s widely used open-source compression library, is putting a broad range of software at risk. About CVE-2026-111497 Alternatively known as “Node2Shell”, “Broccoli2Shell” and “Brotli2Shell”, CVE-2026-111497 is a remotely exploitable out-of-bounds write flaw that gained widespread attention after Node.js publicly disclosed it on October 21, 2026. “An attacker who can supply Brotli data that an application decompresses with node:zlib can corrupt process memory, which can lead to a crash, disclosure of process … More → The post Brotli bug reaches far beyond Node.js (CVE-2026-111497) appeared first on Help Net Security .
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software
-  - Published: 2026-10-24T11:09:29+00:00
-  - Link: https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html
-  - Summary: A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, Microsoft's .NET, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory,
-
 ### Cluster f4a1025e01 — score 36
 
 - Title: CVE-2026-109618 and CVE-2026-109619: Critical Unauthenticated Remote Code Execution in PHP
@@ -984,8 +923,8 @@ Emerging Threats CVE-2026-111497: Critical out-of-bounds write in the Node.js Br
 - Published: 2026-10-21T15:22:52+00:00
 - Link: https://www.rapid7.com/blog/post/etr-cve-2026-109618-and-cve-2026-109619-critical-unauthenticated-remote-code-execution-in-php
 - Fetch status: ok
-- Member count: 18
-- Corroborating source count: 14
+- Member count: 16
+- Corroborating source count: 12
 - Strong signals: CVE-2026-109618, CVE-2026-109619, LiteSpeed
 
 #### Cluster taxonomy (union across members)
@@ -995,7 +934,7 @@ Emerging Threats CVE-2026-111497: Critical out-of-bounds write in the Node.js Br
 - cve_ids: CVE-2026-109618, CVE-2026-109619, CVE-2026-115560
 - urgency_signals: actively_exploited, critical_cvss, poc_available, preauth_unauth
 - content_type: news_report, vendor_announcement, vulnerability_disclosure
-- confidence_tier: tier_1_government, tier_1_offensive_research, tier_1_primary_research, tier_2_operator, tier_3_analysis, tier_4_news, tier_5_chatter
+- confidence_tier: tier_1_offensive_research, tier_1_primary_research, tier_2_operator, tier_3_analysis, tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: active_exploitation
@@ -1018,7 +957,7 @@ Overview On October 21, 2026, the PHP project announced security releases for tw
 Emergent Threat Response CVE-2026-109618 and CVE-2026-109619: Critical Unauthenticated Remote Code Execution in PHP Rapid7 Oct 21, 2026 | Last updated on Oct 27, 2026 | 9 min read CVE-2026-109618 and CVE-2026-109619: Critical Unauthenticated Remote Code Execution in PHP Table of contents CVE-2026-109618 and CVE-2026-109619: Critical Unauthenticated Remote Code Execution in PHP Table of contents Overview On October 21, 2026, the PHP project announced security releases for two critical vulnerabilities in PHP. CVE-2026-109618 can corrupt memory during out-of-memory (OOM) handling, while CVE-2026-109619 is a use-after-free flaw involving state retained between requests. Both have a CVSSv4 score of 9.2 and both can allow for unauthenticated remote code execution (RCE) with the web worker's privileges. CVE CVSSv4 Description CVE-2026-109618 9.2 (Critical) RCE via OOM corruption CVE-2026-109619 9.2 (Critical) RCE via stale global state All installations serving web requests are at risk, including PHP-FPM, Apache mod_php, php-cgi, FrankenPHP, and LiteSpeed. The vendor considers mod_php the highest risk because exploitation can succeed before any application code runs. The advisories report that a successful RCE exploit was developed during research, including achieving RCE against Apache mod_php and PHP-FPM through different attack paths. As of October 21, 2026, there are multiple indications that this research is being independently reproduced, and a viable exploit is expected to be made public soon. Due to the extremely high deployment of PHP based web applications, exploitation in-the-wild is expected. Rapid7 recommends updating affected installations on an emergency basis, outside of normal patch cycles. Multiple public proof-of-concept (PoC) exploits for CVE-2026-109618 and CVE-2026-109619 are now available. Rapid7 researchers have reviewed these and observe that each demonstrates RCE only against a specific combination of operating system, PHP version, and web server, and none appears to be broadly reliable. Rapid7’s own research supports this. Our attempts so far have produced a working exploit only under narrow lab conditions, and exploitation depends on assumptions that are unlikely to hold on internet-facing instances. We are continuing to investigate approaches that could improve portability, but have not yet developed a reliable, general-purpose exploit. Rapid7 has not observed exploitation in the wild, though there are multiple reports of exploitation attempts, which is expected for a vulnerability of this profile. The situation is evolving quickly, and a more portable exploit technique could emerge at any time. The current difficulty of reliable exploitation should be treated as a window to patch rather than a reason to delay, and Rapid7 continues to recommend updating affected installations on an emergency basis. Update #1 : On October 26, 2026, CVE-2026-109618 and CVE-2026-109619 were added to the U.S. Cybersecurity and Infrastructure Security Agency's (CISA) list of known exploited vulnerabilities (KEV) , based on evidence of active exploitation. CISA set the remediation due date to October 29, 2026, for affected Federal Civilian Executive Branch agencies and directs them to follow the associated BOD 26-04 forensic triage requirements . Rapid7 continues to recommend updating affected installations on an emergency basis and investigating for prior compromise. Technical overview CVE-2026-109618: Memory corruption during OOM handling According to the OOM advisory , PHP can abruptly abandon request processing when a memory allocation fails. If internal request data is only partly initialized, that exit can leave invalid data for request cleanup to use. Crafted multipart requests, used for forms and file uploads, can exhaust memory even when their size appears to meet PHP's configured limits. Application operations that allocate memory in response to attacker input can also trigger OOM. Apache mod_php runs cleanup even whe
 ```
 
-#### Corroborating sources (14)
+#### Corroborating sources (12)
 
 - **Rapid7** (offensive_vulnerability_research)
   - Title: CVE-2026-109618 and CVE-2026-109619: Critical Unauthenticated Remote Code Execution in PHP
@@ -1065,11 +1004,6 @@ Emergent Threat Response CVE-2026-109618 and CVE-2026-109619: Critical Unauthent
   - Published: 2026-10-26T13:25:00+00:00
   - Link: https://www.welivesecurity.com/en/videos/php2shell-what-know-two-critical-php-flaws/
   - Summary: Here's the lowdown on CVE-2026-109618 and CVE-2026-109619, as well as what website owners and IT teams should do to stay safe – all in a little more than two minutes
-- **NCSC UK** (government_authoritative)
-  - Title: Critical security issue affecting PHP
-  - Published: 2026-10-21T12:00:00+00:00
-  - Link: https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php
-  - Summary: Updated: The NCSC is encouraging UK organisations to take immediate action to mitigate a security issue affecting PHP (CVE-2026-109618 and CVE-2026-109619).
 - **Schneier on Security** (practitioner_analysis)
   - Title: New Serious PHP Vulnerabilities Released and Patched
   - Published: 2026-10-22T13:26:51+00:00
@@ -1080,16 +1014,76 @@ Emergent Threat Response CVE-2026-109618 and CVE-2026-109619: Critical Unauthent
   - Published: 2026-10-27T04:37:59+00:00
   - Link: https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog. The PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote code execution on affected deployments - CVE-2026-109618 - An out-of-memory
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: PHP2Shell (CVE-2026-109618/109619): first exploit requests arrived 5.5 hours before PHP shipped the fix, and the "scanners" carry Mirai-style loaders
-  - Published: 2026-10-21T21:24:08+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1xbzwrn/php2shell_cve2026109618109619_first_exploit/
-  - Summary: submitted by /u/HexLayer3 [link] [comments]
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - Title: CVE-2026-109618 / CVE-2026-109619 | NodeZero Rapid Response Check Now Available
   - Published: 2026-10-23T17:50:00+00:00
   - Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-109618-cve-2026-109619/
   - Summary: Advisory for PHP2Shell (CVE-2026-109618 and CVE-2026-109619): affected PHP versions, fixed releases, mitigations, monitoring guidance, and the NodeZero Rapid Response check.
+
+### Cluster 01d94b3234 — score 32
+
+- Title: CVE-2026-111497: Critical out-of-bounds write in the Node.js Brotli decoder
+- Source: Rapid7 (offensive_vulnerability_research)
+- Published: 2026-10-26T17:32:46+00:00
+- Link: https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder
+- Fetch status: ok
+- Member count: 9
+- Corroborating source count: 6
+- Strong signals: CVE-2026-111497
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-111497
+- content_type: news_report, vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research, tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- cve_ids: CVE-2026-111497
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Overview On October 21, 2026, the Node.js Project published a security advisory for CVE-2026-111497 , an out-of-bounds write in the Brotli decoder bundled with Node.js. The vulnerability affects the Node.js 26.x , 24.x , and 22.x release lines. Node.js rates the issue High, while Google, the CVE Numbering Authority (CNA), gives it a critical CVSSv4 score of 9.2 . An attacker who can supply Brotli data that an application decompresses with node:zlib can corrupt process memory. According to Node.js, this corruption can lead to a process crash, disclosure of sensitive process memory, or remote code execution. Exposure therefore depends on whether an application passes attacker-controlled compressed data to the affected decoder. On October 27, 2026, CVE-2026-111497 was added to the U.S. Cybersecurity and Infrastructure Security Agency's (CISA) list of known exploited vulnerabilities (KEV), based on evidence of active exploitation. Given the vulnerability's potential to disclose memory or e
+```
+
+#### Full body
+
+```
+Emerging Threats CVE-2026-111497: Critical out-of-bounds write in the Node.js Brotli decoder Rapid7 Oct 26, 2026 | Last updated on Oct 28, 2026 | 3 min read CVE-2026-111497: Critical out-of-bounds write in the Node.js Brotli decoder Table of contents CVE-2026-111497: Critical out-of-bounds write in the Node.js Brotli decoder Table of contents Overview On October 21, 2026, the Node.js Project published a security advisory for CVE-2026-111497 , an out-of-bounds write in the Brotli decoder bundled with Node.js. The vulnerability affects the Node.js 26.x , 24.x , and 22.x release lines. Node.js rates the issue High, while Google, the CVE Numbering Authority (CNA), gives it a critical CVSSv4 score of 9.2 . An attacker who can supply Brotli data that an application decompresses with node:zlib can corrupt process memory. According to Node.js, this corruption can lead to a process crash, disclosure of sensitive process memory, or remote code execution. Exposure therefore depends on whether an application passes attacker-controlled compressed data to the affected decoder. On October 27, 2026, CVE-2026-111497 was added to the U.S. Cybersecurity and Infrastructure Security Agency's (CISA) list of known exploited vulnerabilities (KEV), based on evidence of active exploitation. Given the vulnerability's potential to disclose memory or enable remote code execution (RCE), Rapid7 recommends that organizations prioritize remediation. Technical overview CVE-2026-111497 is classified as an out-of-bounds write ( CWE-787 ) and an unchecked return value ( CWE-252 ). Per the vendor advisory, the decoder handled an invalid Brotli block switch as a temporary need for more input instead of a permanent format error. The streaming decoder then continued appending input bytes to an eight-byte internal buffer, allowing malformed input to write beyond the buffer and corrupt process memory. The vulnerability originates in Google Brotli, which the affected Node.js release lines bundle as a dependency. The CVE record identifies affected upstream Brotli ranges on all platforms as versions 1.0.3 before 1.0.10 , 1.1.0 before 1.1.1 , and 1.2.0 before 1.2.1 . The Node.js Project remediated its bundled decoder in the fixed Node.js releases listed below. Because CVE-2026-111497 affects the upstream Google Brotli decoder, its reach is not limited to Node.js. Vendor and project advisories have also identified affected implementations in Bun , Python's Brotli and brotlicffi packages, .NET , Envoy and Istio , brotli4j , and operating-system packages . Affected versions, default exposure, and remediation vary by product; the presence of an affected decoder does not by itself establish exposure unless an application processes attacker-controlled Brotli data. Organizations should consult the relevant downstream vendor or distribution advisories to identify affected versions, assess exposure, and determine appropriate remediation. Mitigation guidance Vendor-supplied security updates are available to remediate CVE-2026-111497. Organizations running an affected Node.js release should upgrade on an urgent basis, outside of normal patch cycles: Node.js 22.x releases before 22.23.4 are affected; upgrade to 22.23.4 or later. Node.js 24.x releases before 24.22.1 are affected; upgrade to 24.22.1 or later. Node.js 26.x releases before 26.12.1 are affected; upgrade to 26.12.1 or later. The vendor states that end-of-life Node.js release lines should also be treated as affected when a security release occurs. Organizations using an end-of-life release should migrate to a supported, fixed release line. Node.js has not published a vendor-supported workaround; if an immediate upgrade is not possible, Rapid7 recommends restricting or disabling application paths that decompress untrusted Brotli data as a temporary exposure-reduction measure. For the latest mitigation guidance, please refer to the Node.js security advisory . Rapid7 customers Exposure Command, Vulnerability Management, and Nex
+```
+
+#### Corroborating sources (6)
+
+- **Rapid7** (offensive_vulnerability_research)
+  - Title: CVE-2026-111497: Critical out-of-bounds write in the Node.js Brotli decoder
+  - Published: 2026-10-26T17:32:46+00:00
+  - Link: https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder
+  - Summary: Overview On October 21, 2026, the Node.js Project published a security advisory for CVE-2026-111497 , an out-of-bounds write in the Brotli decoder bundled with Node.js. The vulnerability affects the Node.js 26.x , 24.x , and 22.x release lines. Node.js rates the issue High, while Google, the CVE Numbering Authority (CNA), gives it a critical CVSSv4 score of 9.2 . An attacker who can supply Brotli data that an application decompresses with node:zlib can corrupt process memory. According to Node.js, this corruption can lead to a process crash, disclosure of sensitive process memory, or remote code execution. Exposure therefore depends on whether an application passes attacker-controlled compressed data to the affected decoder. On October 27, 2026, CVE-2026-111497 was added to the U.S. Cybersecurity and Infrastructure Security Agency's (CISA) list of known exploited vulnerabilities (KEV), based on evidence of active exploitation. Given the vulnerability's potential to disclose memory or e
+- **Sysdig** (detection_response_operations)
+  - Title: Node2Shell (CVE-2026-111497): Detecting the Node.js Brotli RCE
+  - Published: 2026-10-24T00:00:00+00:00
+  - Link: https://webflow.sysdig.com/blog/node2shell-cve-2026-111497-detecting-the-node-js-brotli-rce
+- **Wiz Research** (cloud_identity_infrastructure)
+  - Title: Broccoli2shell: Everything You Need To Know About The Critical Brotli Decoder Vulnerability
+  - Published: 2026-10-25T14:46:53+00:00
+  - Link: https://www.wiz.io/blog/cve-2026-111497-brotli-rce-node-js
+  - Summary: Detect and mitigate CVE-2026-111497, a critical Brotli decoder vulnerability enables remote code execution.
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: Node.js Brotli Decoder Out-of-Bounds Write Threatens Remote Code Execution Across All Supported Versions
+  - Published: 2026-10-27T14:54:29+00:00
+  - Link: https://orca.security/resources/research/cve-2026-111497-nodejs-brotli-rce/
+  - Summary: Executive Summary: A high-severity vulnerability (CVE-2026-111497) was disclosed affecting Node.js across all supported release lines (22.x, 24.x, 26.x), allowing attackers to achieve remote code execution via malformed Brotli-compressed data processed by node:zlib or fetch(). Due to the potential for crashes, memory disclosure, and code execution in cloud workloads, immediate patching is required. About CVE-2026-111497 The […]
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Brotli bug reaches far beyond Node.js (CVE-2026-111497)
+  - Published: 2026-10-27T17:38:51+00:00
+  - Link: https://www.helpnetsecurity.com/2026/10/27/node2shell-broccoli2shell-vulnerability-cve-2026-111497/
+  - Summary: A vulnerability in Brotli, Google’s widely used open-source compression library, is putting a broad range of software at risk. About CVE-2026-111497 Alternatively known as “Node2Shell”, “Broccoli2Shell” and “Brotli2Shell”, CVE-2026-111497 is a remotely exploitable out-of-bounds write flaw that gained widespread attention after Node.js publicly disclosed it on October 21, 2026. “An attacker who can supply Brotli data that an application decompresses with node:zlib can corrupt process memory, which can lead to a crash, disclosure of process … More → The post Brotli bug reaches far beyond Node.js (CVE-2026-111497) appeared first on Help Net Security .
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software
+  - Published: 2026-10-24T11:09:29+00:00
+  - Link: https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html
+  - Summary: A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, Microsoft's .NET, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory,
 
 ### Cluster 26535002b4 — score 30
 
@@ -1157,9 +1151,9 @@ Table of Contents Introduction The return of the infamous bootkit Payload launch
 - Strong signals: Microsoft 365
 
 #### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, mfa_bypass, phishing_social_eng, supply_chain
+- threat_categories: apt_espionage, mfa_bypass, supply_chain
 - affected_industries: critical_infrastructure, financial_services, government, manufacturing_industrial
-- affected_products: Microsoft 365, Microsoft Defender
+- affected_products: Google Workspace, Microsoft 365, Microsoft Defender
 - content_type: news_report
 - confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news
 
@@ -1199,6 +1193,11 @@ Share Link copied to clipboard! Tags Supply chain attack Threats intelligence AI
   - Published: 2026-10-22T13:00:00+00:00
   - Link: https://www.huntress.com/blog/token-replay-spray
   - Summary: Huntress tracked a 10-week Microsoft 365 campaign pairing AiTM relays with token replay, rogue Entra devices, MFA tampering, and hidden inbox rules.
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: CISA updates ScubaGear and ScubaGoggles, and says Microsoft 365 checks get faster
+  - Published: 2026-10-28T09:38:17+00:00
+  - Link: https://www.helpnetsecurity.com/2026/10/28/cisa-scubagear-scubagoggles-update/
+  - Summary: CISA released ScubaGear v2.0 and ScubaGoggles v1.1.0, new versions of the open-source tools it publishes to check Microsoft 365 and Google Workspace settings against its security baselines. The agency calls ScubaGear v2.0 the most comprehensive update to that tool since its 2022 launch. ScubaGoggles, which launched in 2023, gets a new baseline and enhanced Gemini controls. Both tools belong to CISA’s Secure Cloud Business Applications project, known as SCuBA, which writes configuration guidance for the … More → The post CISA updates ScubaGear and ScubaGoggles, and says Microsoft 365 checks get faster appeared first on Help Net Security .
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest
   - Published: 2026-10-27T14:01:11+00:00
@@ -1209,11 +1208,6 @@ Share Link copied to clipboard! Tags Supply chain attack Threats intelligence AI
   - Published: 2026-10-26T08:35:51+00:00
   - Link: https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html
   - Summary: Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations. Huntress, which observed the activity between July 14 and September 22, 2026, said it detected 497 successful Microsoft 365 sign-in events across
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Widespread Token-Spraying Attacks Target Microsoft 365 Accounts For Email Compromise
-  - Published: 2026-10-23T10:30:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/tokenspraying-attacks-target/
-  - Summary: Security researchers identified attempts to access corporate networks which have been linked to a major Microsoft 365-targeted BEC campaign using phishing, stolen session tokens and social engineering
 
 ### Cluster 59969a7c2a — score 23
 
@@ -1261,47 +1255,6 @@ CVE-2026-76268 Splunk Enterprise Patroni REST API Missing Authentication Vulnera
   - Published: 2026-10-22T20:25:59+00:00
   - Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-76268/
   - Summary: Horizon3.ai's NodeZero Rapid Response test helps security teams validate exposure to CVE-2026-76268, a critical Splunk Enterprise vulnerability that could allow unauthenticated attackers with network access to execute operating-system commands.
-
-### Cluster 092b6c8b44 — score 22
-
-- Title: An insecure neighbor: how a vulnerability chain led to an isolation bypass in cloud infrastructure
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-10-27T12:00:19+00:00
-- Link: https://securelist.com/cloud-infrastructure-isolation-bypass/121609/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Kubernetes
-
-#### Cluster taxonomy (union across members)
-- affected_products: Kubernetes
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_products: Kubernetes
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-A Kaspersky expert presents a cloud isolation bypass case honored at Russian Pentest Award 2026. Learn how vulnerabilities in Kubernetes, Konnectivity, and the overlay network lead to RCE and compromise of other tenants' services.
-```
-
-#### Full body
-
-```
-Table of Contents Introduction 1. Gaining initial access through a managed Kubernetes cluster 1.1. Escaping the worker node 1.2. Analysis of control plane services 1.3. Exploiting Konnectivity 1.4. Privilege escalation on the host 2. Adventures in the overlay network 2.1. Victoria stack 2.2. Compromising managed Kafka instances 2.3. Credential leakage through redis-exporter 2.4. Compromise of managed PostgreSQL (Patroni) clusters 3. Attack on SaltStack management infrastructure 3.1. Analysis of salt fs 3.2. Exploiting the SQLi 4. Other ways to attack the cloud 4.1. Exploiting a vulnerability in Managed Valkey 4.2. MySQL Conclusion Authors Matvey Bukhtoyarov Kaspersky Security Services This article is published for educational purposes only, to raise awareness among information security professionals. The research was part of an official bug bounty program on a major platform. We notified the cloud provider about the vulnerabilities in line with our responsible disclosure policy, and all security issues we found were fixed in full. The infrastructure analyzed in this post has been anonymized, so the organization cannot be identified. We believe that regular pentests, bug bounty programs, and conversations between developers and independent researchers are the foundation of security for any IT product. Introduction Many experts believe that cloud data breaches are mostly the customers’ fault, caused by issues like misconfigured storage or open ports. However, our penetration test of a major cloud provider demonstrated that critical threats can originate within the provider’s own infrastructure. This analysis is based on a real-world case that won second place in the System Hacking (Web & Logic) category at Russian Pentest Award 2026 . It covers the sequential exploitation of several vulnerabilities and logic errors. Together, they led to critical business consequences and a complete bypass of tenant isolation within the cloud. On October 22, 2026, I presented a technical analysis of this case in my “Smash the Tenant Boundary” talk at Security Analyst Summit (SAS 2026). 1. Gaining initial access through a managed Kubernetes cluster Our cloud infrastructure pentest followed the threat model of an external attacker with the privileges of a regular tenant. The ultimate goal of the attack was to assume full control of the cloud. 1.1. Escaping the worker node First, we created a resource in the cloud’s managed Kubernetes cluster ( v1.25.16+k0s.0 ). As a rule, the provider deliberately withholds SSH access to worker nodes from tenants, because they’re paying for a managed service, not for running servers themselves. In this case, however, the cluster’s security policies did not prevent the creation of privileged pods with access to host namespaces. This enabled us to deploy a pod and switch the execution context to the host machine running the container. kubectl run pod-name-bla \ --image=alpine \ --restart=Never \ --overrides=' { "apiVersion": "v1", "spec": { "hostPID": true, "containers": [ { "name": "priv", "image": "alpine", "command": [ "sh", "-c", "sleep 3600" ], "stdin": true, "tty": true, "securityContext": { "privileged": true } } ] } }' 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 kubectl run pod - name - bla \ -- image = alpine \ -- restart = Never \ -- overrides = ' { "apiVersion": "v1", "spec": { "hostPID": true, "containers": [ { "name": "priv", "image": "alpine", "command": [ "sh", "-c", "sleep 3600" ], "stdin": true, "tty": true, "securityContext": { "privileged": true } } ] } }' After creating the privileged pod, we ran the nsenter command inside the container. It moved the execution context to the host machine: nsenter --target 1 --mount --uts --ipc --net --pid – bash 1 nsenter -- target 1 -- mount -- uts -- ipc -- net -- pid – bash After this, the bash shell ran on the actual host machine, not inside the container. Because the pod was privileged, we got full root access to the host machine. Kubelet config
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: An insecure neighbor: how a vulnerability chain led to an isolation bypass in cloud infrastructure
-  - Published: 2026-10-27T12:00:19+00:00
-  - Link: https://securelist.com/cloud-infrastructure-isolation-bypass/121609/
-  - Summary: A Kaspersky expert presents a cloud isolation bypass case honored at Russian Pentest Award 2026. Learn how vulnerabilities in Kubernetes, Konnectivity, and the overlay network lead to RCE and compromise of other tenants' services.
 
 ### Cluster 2cd46a2154 — score 22
 
@@ -1351,6 +1304,47 @@ CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista 
   - Published: 2026-10-24T06:25:57+00:00
   - Link: https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild. The critical-severity vulnerabilities are listed below - CVE-2026-110447 (CVSS score: 9.2) - An operating
+
+### Cluster 092b6c8b44 — score 21
+
+- Title: An insecure neighbor: how a vulnerability chain led to an isolation bypass in cloud infrastructure
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-10-27T12:00:19+00:00
+- Link: https://securelist.com/cloud-infrastructure-isolation-bypass/121609/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Kubernetes
+
+#### Cluster taxonomy (union across members)
+- affected_products: Kubernetes
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_products: Kubernetes
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+A Kaspersky expert presents a cloud isolation bypass case honored at Russian Pentest Award 2026. Learn how vulnerabilities in Kubernetes, Konnectivity, and the overlay network lead to RCE and compromise of other tenants' services.
+```
+
+#### Full body
+
+```
+Table of Contents Introduction 1. Gaining initial access through a managed Kubernetes cluster 1.1. Escaping the worker node 1.2. Analysis of control plane services 1.3. Exploiting Konnectivity 1.4. Privilege escalation on the host 2. Adventures in the overlay network 2.1. Victoria stack 2.2. Compromising managed Kafka instances 2.3. Credential leakage through redis-exporter 2.4. Compromise of managed PostgreSQL (Patroni) clusters 3. Attack on SaltStack management infrastructure 3.1. Analysis of salt fs 3.2. Exploiting the SQLi 4. Other ways to attack the cloud 4.1. Exploiting a vulnerability in Managed Valkey 4.2. MySQL Conclusion Authors Matvey Bukhtoyarov Kaspersky Security Services This article is published for educational purposes only, to raise awareness among information security professionals. The research was part of an official bug bounty program on a major platform. We notified the cloud provider about the vulnerabilities in line with our responsible disclosure policy, and all security issues we found were fixed in full. The infrastructure analyzed in this post has been anonymized, so the organization cannot be identified. We believe that regular pentests, bug bounty programs, and conversations between developers and independent researchers are the foundation of security for any IT product. Introduction Many experts believe that cloud data breaches are mostly the customers’ fault, caused by issues like misconfigured storage or open ports. However, our penetration test of a major cloud provider demonstrated that critical threats can originate within the provider’s own infrastructure. This analysis is based on a real-world case that won second place in the System Hacking (Web & Logic) category at Russian Pentest Award 2026 . It covers the sequential exploitation of several vulnerabilities and logic errors. Together, they led to critical business consequences and a complete bypass of tenant isolation within the cloud. On October 22, 2026, I presented a technical analysis of this case in my “Smash the Tenant Boundary” talk at Security Analyst Summit (SAS 2026). 1. Gaining initial access through a managed Kubernetes cluster Our cloud infrastructure pentest followed the threat model of an external attacker with the privileges of a regular tenant. The ultimate goal of the attack was to assume full control of the cloud. 1.1. Escaping the worker node First, we created a resource in the cloud’s managed Kubernetes cluster ( v1.25.16+k0s.0 ). As a rule, the provider deliberately withholds SSH access to worker nodes from tenants, because they’re paying for a managed service, not for running servers themselves. In this case, however, the cluster’s security policies did not prevent the creation of privileged pods with access to host namespaces. This enabled us to deploy a pod and switch the execution context to the host machine running the container. kubectl run pod-name-bla \ --image=alpine \ --restart=Never \ --overrides=' { "apiVersion": "v1", "spec": { "hostPID": true, "containers": [ { "name": "priv", "image": "alpine", "command": [ "sh", "-c", "sleep 3600" ], "stdin": true, "tty": true, "securityContext": { "privileged": true } } ] } }' 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 kubectl run pod - name - bla \ -- image = alpine \ -- restart = Never \ -- overrides = ' { "apiVersion": "v1", "spec": { "hostPID": true, "containers": [ { "name": "priv", "image": "alpine", "command": [ "sh", "-c", "sleep 3600" ], "stdin": true, "tty": true, "securityContext": { "privileged": true } } ] } }' After creating the privileged pod, we ran the nsenter command inside the container. It moved the execution context to the host machine: nsenter --target 1 --mount --uts --ipc --net --pid – bash 1 nsenter -- target 1 -- mount -- uts -- ipc -- net -- pid – bash After this, the bash shell ran on the actual host machine, not inside the container. Because the pod was privileged, we got full root access to the host machine. Kubelet config
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: An insecure neighbor: how a vulnerability chain led to an isolation bypass in cloud infrastructure
+  - Published: 2026-10-27T12:00:19+00:00
+  - Link: https://securelist.com/cloud-infrastructure-isolation-bypass/121609/
+  - Summary: A Kaspersky expert presents a cloud isolation bypass case honored at Russian Pentest Award 2026. Learn how vulnerabilities in Kubernetes, Konnectivity, and the overlay network lead to RCE and compromise of other tenants' services.
 
 ### Cluster 9c6133d08b — score 21
 
@@ -1530,52 +1524,101 @@ Two critical RCEs in PHP core By Cisco Talos Wednesday, October 21, 2026 11:10 T
   - Link: https://blog.talosintelligence.com/two-critical-rces-in-php-core/
   - Summary: Two critical remote code execution vulnerabilities in PHP core could have implications across its wider ecosystem. Talos has published a blog to explain what we know so far, and details the Snort coverage available, including rules in the Community Ruleset.
 
-### Cluster 3daf0508f6 — score 16
+### Cluster d548126a28 — score 17
 
-- Title: CISA confirms PHP2Shell vulnerabilities now exploited in attacks
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-10-27T08:20:54+00:00
-- Link: https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/
+- Title: Hackers Start Probing Fresh Oracle EBS Vulnerability
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-10-28T09:14:23+00:00
+- Link: https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-101767
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, apt_espionage, ransomware_extortion, zero_day
+- actor_attribution: Cl0p
+- affected_industries: critical_infrastructure, financial_services, healthcare, manufacturing_industrial
+- affected_products: Apple iOS/macOS
+- cve_ids: CVE-2026-101767, CVE-2026-46817
+- urgency_signals: preauth_unauth, zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, zero_day, apt_espionage, active_exploitation
+- actor_attribution: Cl0p
+- affected_industries: healthcare, financial_services, critical_infrastructure, manufacturing_industrial
+- affected_products: Apple iOS/macOS
+- cve_ids: CVE-2026-101767, CVE-2026-46817
+- urgency_signals: zero_day, preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+CVE-2026-101767 is an unauthenticated SQL injection that can be exploited for remote code execution. The post Hackers Start Probing Fresh Oracle EBS Vulnerability appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Threat actors have started probing for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), threat intelligence firm Defused reports. The exploited flaw, tracked as CVE-2026-101767 (CVSS score of 9.8), was patched last week in Oracle’s October CPU . It is described as an SQL injection issue in the Application Object Library product of EBS that could be exploited by remote, unauthenticated attackers over HTTP. Successful exploitation of the bug could allow attackers to achieve remote code execution (RCE) and completely take over the Application Object Library. According to Defused, the first exploitation attempts targeting CVE-2026-101767 were observed on October 27. “Our Oracle E-Business Suite decoys recorded exploratory exploits against CVE-2026-101767 this morning, Oct 27,” the company warned on X. Advertisement. Scroll to continue reading. The security defect was discovered and reported by Horizon3.ai and there have been no other reports regarding its in-the-wild exploitation. Oracle EBS vulnerabilities are often targeted by threat actors. In June, Defused warned of attacks exploiting CVE-2026-46817, a critical issue in the File Transmissions component of E-Business Suite’s Payments product. Last year, the Cl0p ransomware and extortion group exploited zero-day bugs in Oracle’s enterprise management software to access stored data. The large-scale EBS hacking campaign potentially impacted over 100 organizations across consumer goods, energy, engineering, entertainment, finance, heavy industry, manufacturing, media, software, technology, telecommunications, and other industries. Related: CISA Warns of Node2Shell Exploitation as Honeypots Log Attack Attempts Related: Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws Related: HPE Patches Dozens of Critical Flaws in Networking Products Related: iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18 Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Unexplained DreamHost Incident Prompts Email, FTP Password Resets Dead Popcorn Time Updater Put Millions of Computers at Risk of Takeover Genesys Hack Exposes Customer Data From Internal Systems 953 Online Stores Infected in Long-Lasting Malware Campaign Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accounts Mythos 5 Ignored Real-World Harm in July Attack China APT Uses AI Pentest Tool Artex in ConnectWise Attacks Attackers Exploit Third Arista VCO Zero-Day in Four Months Latest News China-Linked Hackers Exploit PHP2Shell to Root Firewalls Long-Hidden Flaws Patched in EPICS Research Facility Control Software Nobody Trusts the Security Questionnaire. We Rely on It Anyway. Secrets Management Firm Infisical Valued at $600 Million After $40 Million Raise CISA Warns of Node2Shell Exploitation as Honeypots Log Attack Attempts Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk HPE Patches Dozens of Critical Flaws in Networking Products Trending Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages PHP2Shell Exploitation Moves From Probes to Working Shells iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18 Genesys Hack Exposes Customer Data From Internal Systems Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics 953 Online Stores Infected in Long-Lasting Malware Campaign Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accounts Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and t
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Hackers Start Probing Fresh Oracle EBS Vulnerability
+  - Published: 2026-10-28T09:14:23+00:00
+  - Link: https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/
+  - Summary: CVE-2026-101767 is an unauthenticated SQL injection that can be exploited for remote code execution. The post Hackers Start Probing Fresh Oracle EBS Vulnerability appeared first on SecurityWeek .
+
+### Cluster 862a80147d — score 16
+
+- Title: Millions of security cameras at risk: DoS vulnerability in Intelbras devices
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-10-28T10:00:18+00:00
+- Link: https://securelist.com/intelbras-camera-vulnerability/121131/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_industries: critical_infrastructure, government
-- cve_ids: CVE-2026-109618, CVE-2026-109619, CVE-2026-115560
-- urgency_signals: actively_exploited, no_patch_yet, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
+- threat_categories: ddos
+- affected_industries: manufacturing_industrial
+- urgency_signals: poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_industries: government, critical_infrastructure
-- cve_ids: CVE-2026-109618, CVE-2026-109619, CVE-2026-115560
-- urgency_signals: actively_exploited, no_patch_yet, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
+- threat_categories: ddos
+- affected_industries: manufacturing_industrial
+- urgency_signals: poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell vulnerabilities to its catalog of actively exploited security flaws and ordered federal agencies to patch their systems by Thursday. [...]
+During our research, we discovered a denial-of-service vulnerability that could affect millions of Intelbras IP camera systems built on the platform platform of a popular Chinese manufacturer.
 ```
 
 #### Full body
 
 ```
-CISA confirms PHP2Shell vulnerabilities now exploited in attacks By Sergiu Gatlan October 27, 2026 04:20 AM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two critical PHP vulnerabilities collectively tracked as PHP2Shell to its catalog of actively exploited security flaws. Threat actors without privileges can exploit the two security issues (CVE-2026-109618 and CVE-2026-109619) in high-complexity attacks to gain remote code execution (RCE) on unpatched systems. ​ The PHP security team patched the two flaws on Wednesday, October 21, one day after urging security teams to install the security updates as soon as they became available. Although details on the PHP2Shell security flaws (including the CVE IDs and mitigation measures shared with critical infrastructure providers) leaked and some proof-of-concept (PoC) exploits were published online before patches went live, the PHP security team said that none were functional. Multiple cybersecurity firms (including Cloudflare , Amazon , Hadrian , watchTowr , Previdian , and Patchstack ) also detected widespread exploitation attempts before public disclosure, but they all tagged them as unsuccessful. Amazon Threat Intelligence security researchers also said that attackers began targeting the PHP2Shell vulnerabilities four days before security patches were released . Federal agencies ordered to patch by Thursday CISA added the vulnerabilities to its Known Exploited Vulnerabilities Catalog on Monday and ordered Federal Civilian Executive Branch (FCEB) agencies to secure their systems by Thursday, as mandated by Binding Operational Directive 26-04. "These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise," the cybersecurity agency warned. "While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of KEV Catalog vulnerabilities." While CISA has not yet shared further details about ongoing PHP2Shell attacks, Perplexity detection and response lead Adel Karimi first confirmed in-the-wild exploitation over the weekend after their honeypots recorded evidence of remote code execution against an Apache mod_php installation running PHP 8.4.26. On Friday, the PHP security team also shared mitigation for a new RCE flaw (CVE-2026-115560) with no patch, exploitable when targeting systems "with an unusual combination of configuration and application code." PHP powers roughly 70% of all websites, with more than 5.1 million PHP hosts exposed online and around 3.8 million instances with at least one port open to attacks, according to VirusTotal estimates . Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: PHP2Shell security flaws now sucessfully exploited in the wild Amazon says PHP2Shell exploitation began 4 days before patches PHP ships emergency patches for critical PHP2Shell flaws PHP warns admins of two critical flaws, emergency patches coming tomorrow CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers
+Table of Contents Background Firmware How authentication works Affected endpoint PoC: vulnerability exploitation New firmware version Real risk Takeaways Authors João Victor Background Network-connected surveillance cameras are now widespread in both home and enterprise environments, so securing them is essential to safeguarding physical spaces and sensitive assets. As these devices continue to gain new features and network connectivity capabilities, vulnerabilities in their implementation can have significant security implications. During our research, we discovered a denial-of-service vulnerability that affects Intelbras IP cameras systems. The flaw resides in a firmware update endpoint that is accessible without authentication and allows anyone with access to the local Wi-Fi network to knock cameras offline. A single request disrupts the camera for only about a minute, but sending periodic requests keeps the device offline indefinitely. We reported the issue to Intelbras, monitored the remediation process, validated the fix in the new firmware, and will now demonstrate the exploitation procedure step-by-step. Following our notification, Intelbras patched the vulnerability and released updated firmware ( R.260804 ) along with update instructions . A candidate ID of CAN-2026-2035970 has been assigned by MITRE following submission, pending the final CVE assignment. Additionally, the Intelbras team recently informed us that MITRE has classified the vulnerability as Medium, assigning it a score of 5.1 under the CVSS 4.0 framework. The issue discussed in this article is no longer present in the latest firmware version. Firmware Intelbras provides firmware files on its official website. While users can manually install these updates via an SD card, the cameras also natively support firmware upgrades over the local network via their web interface and mobile app. We obtained the firmware version v240927 for the iM3B-C camera, which was the latest available version at the time of our research. According to Intelbras, the same firmware is also compatible with the iMX C, iM4 C, iM5 SC, iME 360 C, and iM7+ FC models. Below, we can view the firmware version and the camera model used as an example. To provide context, we will explain how the camera’s authentication mechanism works and why it is relevant to accessing the camera’s endpoints. The main firmware component is an ARM binary named sonia , responsible for controlling the kernel drivers used by the camera hardware, authentication, and livestream recording, among other things. How authentication works The global.login RPC method handles authentication at the /RPC2_Login endpoint. First, the client, such as the mobile app or a custom script, sends the username and an empty password. The camera responds with an authentication challenge (a set of values to verify the password without transmitting it). This response returns a temporary session, the encryption type in the encryption field, a random value, and a realm (authentication scope). At this stage, a false response is normal and does not indicate a failed login, as the authentication process is not yet complete. Next, the client calculates the response password from the authentication challenge . It first generates an MD5 (username:realm:original_password) hash as the base. It then calculates a second MD5 (username:random:first_md5) hash, where first_md5 is the result of the previous step . To complete the authentication, the client sends this final result back to /RPC2_Login in a second global.login call, passing the username, calculated password, and temporary session ID. If the login is accepted, the camera returns true and a new, authenticated session. This session must be used for all subsequent RPC calls, including the camera’s other endpoints, for example, the one that reboots the device or those that expose sensitive information. Affected endpoint The affected endpoint is the firmware upgrade route http://<ip_address>/firm
 ```
 
 #### Corroborating sources (1)
 
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: CISA confirms PHP2Shell vulnerabilities now exploited in attacks
-  - Published: 2026-10-27T08:20:54+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/
-  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell vulnerabilities to its catalog of actively exploited security flaws and ordered federal agencies to patch their systems by Thursday. [...]
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: Millions of security cameras at risk: DoS vulnerability in Intelbras devices
+  - Published: 2026-10-28T10:00:18+00:00
+  - Link: https://securelist.com/intelbras-camera-vulnerability/121131/
+  - Summary: During our research, we discovered a denial-of-service vulnerability that could affect millions of Intelbras IP camera systems built on the platform platform of a popular Chinese manufacturer.
 
 ### Cluster 5e9563cebc — score 16
 
@@ -1633,8 +1676,8 @@ Expect to see quite a few websites serving error pages today: Nearly 70 percent 
 - Published: 2026-10-23T11:25:43+00:00
 - Link: https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html
 - Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
+- Member count: 1
+- Corroborating source count: 1
 - Strong signals: CVE-2026-115560
 
 #### Cluster taxonomy (union across members)
@@ -1667,18 +1710,67 @@ PHP has warned of another way an attacker could run code on a web server, two da
 PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches  Swati Khandelwal  Oct 23, 2026 Vulnerability / Web Security PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560 , affects only web applications configured in an unusual way, and PHP considers it an unlikely risk. The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called session upload progress until a fix is available in the next routine release. The warning came in a short informational advisory published on October 23. It follows the October 21 emergency release that fixed two critical PHP2Shell flaws, CVE-2026-109618 and CVE-2026-109619 , which let an attacker without an account run code on a server. Those were patched in PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35. The new issue is separate and is not fixed by those releases. Only a narrow setup is at risk. PHP says the problem can occur when a web application does all of the following: sets the session.serialize_handler option to php_binary or php_serialize in its configuration, then changes that option to php while running by calling ini_set(), and makes that change before it calls session_start(). Session upload progress must also still be turned on. An application that never changes the serialize handler while running can leave the feature on and is not exposed through this path. PHP says this setup is unlikely in practice. The action is one line. PHP recommends setting session.upload_progress.enabled=0 until the next routine bugfix release. This is the same setting it already listed as a mitigation in the October 21 advisory for CVE-2026-109619. Anyone who applied it then and left it in place needs to do nothing more for the new issue. Session upload progress is turned on by default and lets an application track the progress of a file upload. Because the setup is uncommon, PHP is handling the fix as part of its regular release cycle rather than as an emergency, and it will publish a full advisory for CVE-2026-115560 with the next release. PHP has not stated which versions are affected, which releases will contain the fix, or a severity score. It also has not said whether the new issue shares a root cause with CVE-2026-109619. No exploitation of CVE-2026-115560 has been reported; the attacks reported since October 21 target the two earlier PHP2Shell flaws. Separately, attempts to exploit the two earlier PHP2Shell flaws have surged. Amazon said its honeypots logged an exploit attempt against CVE-2026-109618 and CVE-2026-109619 on October 17, four days before the flaws were disclosed, and Cloudflare said attempts rose from tens of thousands within 45 minutes of the October 21 disclosure to millions by early October 22. Attackers have tried to use the flaws to install a Mirai botnet variant, according to Sophos and Arctic Wolf. Those attempts have so far failed: Previdian, Wordfence and others report scanning and probing but no confirmed code execution, and researchers say a reliable exploit is proving harder to build than expected. That activity targets the two flaws patched on October 21, not CVE-2026-115560, which has not been reported under attack. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  PHP , Vulnerability , Web Security ⚡ Top Stories This Week Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys ⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware Go Issues Emergen
 ```
 
-#### Corroborating sources (2)
+#### Corroborating sources (1)
 
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches
   - Published: 2026-10-23T11:25:43+00:00
   - Link: https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html
   - Summary: PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: PHP Publishes Mitigation Advice for New RCE Flaw
-  - Published: 2026-10-26T09:15:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/php-publishes-mitigation-advice/
-  - Summary: PHP warns of critical RCE vulnerability CVE-2026-115560, but says limited exploit conditions mean most deployments are unlikely to be affected
+
+### Cluster 360482c4b0 — score 16
+
+- Title: ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-10-28T06:04:58+00:00
+- Link: https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: CVE-2026-35273, ShinyHunters
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng, web_shell_backdoor, zero_day
+- actor_attribution: ShinyHunters, UNC6240
+- affected_industries: education, government, healthcare
+- cve_ids: CVE-2026-35273
+- urgency_signals: preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, web_shell_backdoor
+- actor_attribution: ShinyHunters, UNC6240
+- affected_industries: healthcare, government, education
+- cve_ids: CVE-2026-35273
+- urgency_signals: zero_day, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier, CVE-2026-35273, in June. Its root is a server-side request forgery (SSRF) that reaches an internal management interface because PeopleSoft trusts its own loopback address
+```
+
+#### Full body
+
+```
+ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws  Swati Khandelwal  Oct 28, 2026 Vulnerability / Enterprise Security The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier, CVE-2026-35273 , in June. Its root is a server-side request forgery (SSRF) that reaches an internal management interface because PeopleSoft trusts its own loopback address by default, opening the door to remote code execution without a login. The breakdown comes from Bobby Gould of the Zero Day Initiative (ZDI), whose team reported the flaw to Oracle. In its analysis , ZDI said it reported three distinct vulnerabilities across two PeopleSoft components, and that it is working with Oracle to assign a separate CVE to each. As of this week, the one June identifier is still the only one on the record. CVE-2026-35273 affects PeopleSoft Enterprise PeopleTools versions 8.61 and 8.62, carries a CVSS score of 9.8, and lets an unauthenticated attacker take over the server over the network. Oracle released its fix in an out-of-band security alert on June 10. The flaw is on CISA's Known Exploited Vulnerabilities catalog. Attackers were already using it before that fix was in place. Mandiant and Google Threat Intelligence Group (GTIG) attribute a campaign to the group it tracks as UNC6240, better known as ShinyHunters, that exploited the flaw between May 27 and June 9, mostly against universities. Because that activity came before Oracle's June 10 advisory, it was a zero-day the whole time. In a September follow-up, Mandiant reported a renewed, larger wave that spread beyond education to technology, IT services, healthcare, agriculture, transport, and government, affecting dozens of systems worldwide. ZDI's analysis explains what that single patch actually closed. Two PeopleSoft components are involved, both run as separate web applications. The Integration Gateway (PSIGW) exchanges messages with outside systems. The Environment Management Hub (PSEMHUB) is an internal admin interface that is supposed to answer only to trusted hosts. The first flaw is the SSRF in PSIGW. An attacker sends a request to its listening connector and controls both the address it forwards to and the full payload it sends, ZDI said; the handler does no check that the destination is a legitimate target. That alone would be limited, except for what it can reach. PSEMHUB decides who to trust by checking the requester against a list in a file named allowedhosts.properties. That file ships with the local loopback address, 127.0.0.1, already on the list. So an attacker points the SSRF at 127.0.0.1, the request arrives looking like it came from the machine itself, and the trust check passes. The internal interface Oracle meant to wall off is now reachable from outside. From there, ZDI described two ways to turn that access into code execution. One abuses a PSEMHUB command meant to write log entries: the caller controls both the file contents and the exact path on disk, so an attacker writes a web shell into the application directory and runs commands as the PeopleSoft service account. The other writes a malicious XML file that PSEMHUB reads using Java's XMLDecoder when the service next starts, thereby running the attacker's code without planting a web shell at all. The second path leaves less for standard detection to catch. The design decision at the center, ZDI said, is that allowing loopback access by default makes the trust check ineffective once the SSRF exists. That matters for defenders who thought a firewall rule had covered them. In the September wave, Mandiant found ShinyHunters slipping past web application firewall (WAF) rules that blocked the /PSEMHUB/ path by url-encoding a single character, requesting /%50SEMHUB/ instead. Many WAF rules match the path's plain text, while the PeopleSoft s
+```
+
+#### Corroborating sources (2)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws
+  - Published: 2026-10-28T06:04:58+00:00
+  - Link: https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html
+  - Summary: The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier, CVE-2026-35273, in June. Its root is a server-side request forgery (SSRF) that reaches an internal management interface because PeopleSoft trusts its own loopback address
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - Title: Behind the Panels: Validating ShinyHunters Cluster A Infrastructure Through Network Telemetry
+  - Published: 2026-10-23T16:38:00+00:00
+  - Link: https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure
+  - Summary: Use network telemetry to validate cyber threat actors' phishing infrastructure. Track ShinyHunters clusters and defend against SaaS data exfiltration.
 
 ### Cluster cff3936ad6 — score 16
 
@@ -1728,95 +1820,52 @@ Page content Today we’re publishing patching-bugs and regression-hunt , two pl
   - Link: https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html
   - Summary: OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. "Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no
 
-### Cluster d99b4ca6b5 — score 15
+### Cluster 3daf0508f6 — score 15
 
-- Title: ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-10-22T17:45:44+00:00
-- Link: https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 1
-- Strong signals: GitLab
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, phishing_social_eng
-- affected_industries: financial_services, government
-- affected_products: Android, GitLab
-- content_type: incident_report, news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, credential_theft
-- affected_industries: financial_services, government
-- affected_products: GitLab, Android
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's a lot to deal with in just a few days. And the week isn't even over yet. But those big headlines are only half the story. Stolen passwords, exposed
-```
-
-#### Full body
-
-```
-ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More  Ravie Lakshmanan  Oct 22, 2026 Hacking News / Cybersecurity News This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs , compromised eMudhra certificates , a Node.js RCE flaw , a hacked LiteLLM release, and hundreds of hijacked Tor relays . That's a lot to deal with in just a few days. And the week isn't even over yet. But those big headlines are only half the story. Stolen passwords, exposed databases, broken login checks, and trusted tools being turned against their users are causing trouble too. Some attacks are clever. Others work because someone left a simple security gap open. This ThreatsDay, we're digging into the stories that didn't make as much noise but still deserve attention. Some are strange, some are serious, and a few might surprise you. Here's everything else you shouldn't miss this week. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out. 4,500+ accounts compromised Bluesky Confirms More Than 4,500 Accounts Compromised in Phishing Campaign Bluesky has acknowledged it's aware of a phishing attack that has compromised more than 4,500 accounts. "The attack spread through posts promoting a fake offer of a government payment," Bluesky said . "We have temporarily suspended the compromised accounts and are working with their owners to secure them and restore access. If your account was suspended, email moderation@blueskyweb.xyz and we will help to get you back into your account." Android malware scam losses Singapore Police Warn of Android Malware Scams Causing Nearly S$1 Million in Losses The Singapore Police Force has alerted users of a malware-enabled scam variant involving advertisements on social media platforms promoting senior-focused activities and programmes, water-based fitness activities, and recycling initiatives. The agency said at least 62 cases have been reported since April 2026, leading to S$989,000 in losses. "In this scam, victims would come across the fake advertisements on social media platforms, such as Facebook, and be instructed to download an Android Application Package (APK) file to facilitate programme registration or service arrangements," the Singapore Police Force said . "After installing the application, victims would receive unsolicited calls from scammers impersonating government officials or bank representatives, who would falsely claim that the victims' devices or bank accounts had been compromised, or that they were implicated in criminal activities. Victims would then be induced to transfer monies, disclose banking credentials or personal information, or surrender valuables for investigations." Customer credentials exposed Andromeda Confirms Credential Theft Affecting AI Infrastructure Customers Andromeda said it identified a security incident on October 13, 2026, that involved unauthorized access to credentials in its environment. "We disabled the compromised accounts that day and have observed no further unauthorized activity since," it said . "We believe the activity began as part of an industry-wide attack on or about October 9th. It affected a limited number of customer accounts and involved exposure of certain Andromeda and customer credentials. If we believe you were affected, you’ve already heard from us." The company said there is no evidence of unauthorized access to customer models, datasets, or training data. 20 security flaws patched Roundcube Fixes 20 Security Issues Including IMAP Injection and SSRF Bypass Roundcube has released versions 1.6.20 and 1.7.5, addressing 20 issues including IMAP command injection, SSRF filter bypass, and unsafe attachment handling. There is no evidence any of the patched vulnerabilities have been exploited. Internal business systems breached Genesys Confirms Breach of Internal CRM and Learning Systems On October 16, 2026,
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More
-  - Published: 2026-10-22T17:45:44+00:00
-  - Link: https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html
-  - Summary: This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's a lot to deal with in just a few days. And the week isn't even over yet. But those big headlines are only half the story. Stolen passwords, exposed
-
-### Cluster 90581c940c — score 15
-
-- Title: Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-10-22T17:01:53+00:00
-- Link: https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html
+- Title: CISA confirms PHP2Shell vulnerabilities now exploited in attacks
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-10-27T08:20:54+00:00
+- Link: https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- affected_products: Linux kernel
-- urgency_signals: critical_cvss, no_patch_yet, zero_day
+- threat_categories: active_exploitation
+- affected_industries: critical_infrastructure, government
+- cve_ids: CVE-2026-109618, CVE-2026-109619, CVE-2026-115560
+- urgency_signals: actively_exploited, no_patch_yet, poc_available
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: zero_day
-- affected_products: Linux kernel
-- urgency_signals: zero_day, no_patch_yet, critical_cvss
+- threat_categories: active_exploitation
+- affected_industries: government, critical_infrastructure
+- cve_ids: CVE-2026-109618, CVE-2026-109619, CVE-2026-115560
+- urgency_signals: actively_exploited, no_patch_yet, poc_available
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel. One of them, ZDI-CAN-33774, can be triggered before any network authentication. The other, ZDI-CAN-33549, requires the SMB Direct transport and an RDMA-capable network
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell vulnerabilities to its catalog of actively exploited security flaws and ordered federal agencies to patch their systems by Thursday. [...]
 ```
 
 #### Full body
 
 ```
-Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes  Swati Khandelwal  Oct 22, 2026 Vulnerability / Linux Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by Trend Micro's Zero Day Initiative , with no fix yet in the mainline kernel. One of them, ZDI-CAN-33774, can be triggered before any network authentication. The other, ZDI-CAN-33549, requires the SMB Direct transport and an RDMA-capable network interface. ZDI-CAN-33549 is an integer underflow in KSMBD's SMB Direct path. A client can supply RDMA buffer descriptors in which the first is longer than the declared payload, causing the server's size counter to wrap and allowing a subsequent memory copy to overrun the end of an allocated buffer. It requires three things: an RDMA-capable interface (hardware or the rxe software driver), a writable KSMBD share, and a client negotiating SMB Direct. ZDI-CAN-33774 requires no authentication, exposing any server running KSMBD on port 445. The flaw is a race in how KSMBD assigns its handler table: a burst of short SMB1 packets followed by an SMB2 packet in the same TCP write causes workers to handle SMB1 data with an SMB2 handler, reading past the end of the shorter buffer. A path to writing past the buffer also exists once an attacker has access to a share. As of Thursday, neither flaw had a named fix in the mainline kernel or in linux-next , the integration tree that feeds it. Linux news site Phoronix said SMB Direct maintainer Stefan Metzmacher submitted a fix for ZDI-CAN-33549 targeting the next kernel development cycle, but this had not been confirmed elsewhere. Fixes to mainline typically take weeks to reach stable branches and distribution kernels after that. Neither flaw has a CVE identifier, since the kernel project assigns those only after a stable-tree fix is available. Running systemctl status ksmbd or lsmod | grep ksmbd confirms whether the module is active. Red Hat Enterprise Linux does not include KSMBD by default, according to Red Hat's support documentation . The ZDI reports credit TrendAI, Trend Micro's AI scanner, as the finder. The Linux kernel's security documentation , updated in May 2026 following guidance from Linus Torvalds , states that bugs found by AI tools are, by definition, already public and should be sent to subsystem developer lists. ZDI's routing appeared to follow that logic, copying public mailing lists alongside the private kernel security address without attaching patches to any of the reports. Stable-kernel maintainer Greg Kroah-Hartman replied to three of the five kernel reports within minutes of each other. To the report on the VMware GPU driver , he wrote: "For some reason you sent this to public lists, and did not include a patch, so there's not much we can do with this." On the NVMe driver report , seventeen seconds later: "Again, no patch, and sent to a public list? Please fix your submission process." ZDI ID Subsystem Flaw class CVSS Affects KSMBD? ZDI-CAN-33549 KSMBD SMB Direct Remote code execution 9.0 Yes (SMB Direct and RDMA required) ZDI-CAN-33774 KSMBD protocol dispatch Remote code execution 9.0 Yes (any KSMBD install) ZDI-CAN-33367 Networking (skb_zerocopy) Local privilege escalation 7.8 No ZDI-CAN-34068 VMware GPU driver (vmwgfx) Local privilege escalation 8.8 No ZDI-CAN-34076 NVMe target driver (nvmet) Information disclosure 8.6 No Three of the five kernel reports are not related to SMB. ZDI-CAN-33367 , discovered by researcher p1r0x , is a local privilege escalation in the kernel's networking stack that requires local access. ZDI-CAN-34068 is a local privilege escalation in the VMware virtual GPU driver, ZDI-CAN-34076 is an information disclosure in the NVMe target driver, and neither affects KSMBD servers. A sixth ZDI report, ZDI-CAN-32005, is a buffer overflow in ConnMan , a network daemon separate from the Linux kernel. Update: Public Exploit for ZDI-CA
+CISA confirms PHP2Shell vulnerabilities now exploited in attacks By Sergiu Gatlan October 27, 2026 04:20 AM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two critical PHP vulnerabilities collectively tracked as PHP2Shell to its catalog of actively exploited security flaws. Threat actors without privileges can exploit the two security issues (CVE-2026-109618 and CVE-2026-109619) in high-complexity attacks to gain remote code execution (RCE) on unpatched systems. ​ The PHP security team patched the two flaws on Wednesday, October 21, one day after urging security teams to install the security updates as soon as they became available. Although details on the PHP2Shell security flaws (including the CVE IDs and mitigation measures shared with critical infrastructure providers) leaked and some proof-of-concept (PoC) exploits were published online before patches went live, the PHP security team said that none were functional. Multiple cybersecurity firms (including Cloudflare , Amazon , Hadrian , watchTowr , Previdian , and Patchstack ) also detected widespread exploitation attempts before public disclosure, but they all tagged them as unsuccessful. Amazon Threat Intelligence security researchers also said that attackers began targeting the PHP2Shell vulnerabilities four days before security patches were released . Federal agencies ordered to patch by Thursday CISA added the vulnerabilities to its Known Exploited Vulnerabilities Catalog on Monday and ordered Federal Civilian Executive Branch (FCEB) agencies to secure their systems by Thursday, as mandated by Binding Operational Directive 26-04. "These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise," the cybersecurity agency warned. "While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of KEV Catalog vulnerabilities." While CISA has not yet shared further details about ongoing PHP2Shell attacks, Perplexity detection and response lead Adel Karimi first confirmed in-the-wild exploitation over the weekend after their honeypots recorded evidence of remote code execution against an Apache mod_php installation running PHP 8.4.26. On Friday, the PHP security team also shared mitigation for a new RCE flaw (CVE-2026-115560) with no patch, exploitable when targeting systems "with an unusual combination of configuration and application code." PHP powers roughly 70% of all websites, with more than 5.1 million PHP hosts exposed online and around 3.8 million instances with at least one port open to attacks, according to VirusTotal estimates . Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: PHP2Shell security flaws now sucessfully exploited in the wild Amazon says PHP2Shell exploitation began 4 days before patches PHP ships emergency patches for critical PHP2Shell flaws PHP warns admins of two critical flaws, emergency patches coming tomorrow CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers
 ```
 
 #### Corroborating sources (1)
 
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes
-  - Published: 2026-10-22T17:01:53+00:00
-  - Link: https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html
-  - Summary: Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel. One of them, ZDI-CAN-33774, can be triggered before any network authentication. The other, ZDI-CAN-33549, requires the SMB Direct transport and an RDMA-capable network
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: CISA confirms PHP2Shell vulnerabilities now exploited in attacks
+  - Published: 2026-10-27T08:20:54+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/
+  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell vulnerabilities to its catalog of actively exploited security flaws and ordered federal agencies to patch their systems by Thursday. [...]
 
 ### Cluster 50fbf176f4 — score 14
 
@@ -1868,7 +1917,7 @@ Threat Research Center High Profile Threats Malware Malware EMudhra Intermediate
 - Published: 2026-10-21T20:43:29+00:00
 - Link: https://blog.talosintelligence.com/compromised-intermediate-certificates/
 - Fetch status: ok
-- Member count: 2
+- Member count: 1
 - Corroborating source count: 1
 - Strong signals: Cisco
 
@@ -1876,7 +1925,7 @@ Threat Research Center High Profile Threats Malware Malware EMudhra Intermediate
 - affected_industries: financial_services
 - affected_products: Cisco, Kubernetes
 - cve_ids: CVE-2026-111943
-- content_type: incident_report, news_report
+- content_type: incident_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
@@ -1938,51 +1987,6 @@ This morning, we returned to Infocon Green. As usual, we are raising the Infocon
   - Published: 2026-10-23T13:43:20+00:00
   - Link: https://isc.sans.edu/diary/rss/33450
   - Summary: This morning, we returned to Infocon Green. As usual, we are raising the Infocon to alert you to emerging situations requiring immediate attention. PHP fit that description. By now, you either know about it, or you probably never will, so it is time to go back to "business as usual".
-
-### Cluster b9771fe2d2 — score 13
-
-- Title: Targeting the Defense Industrial Base: What Network Telemetry Reveals About Nation-State Pre-Positioning
-- Source: Team Cymru (ransomware_ecrime_financial_crime)
-- Published: 2026-10-27T19:08:02+00:00
-- Link: https://www.team-cymru.com/post/defense-industrial-base-nation-state-network-telemetry
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, supply_chain
-- actor_attribution: Salt Typhoon, Volt Typhoon
-- affected_industries: critical_infrastructure, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, apt_espionage
-- actor_attribution: Volt Typhoon, Salt Typhoon
-- affected_industries: critical_infrastructure, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Discover how nation-states target the Defense Industrial Base via pre-positioning. Learn why network telemetry is crucial to detect these hidden cyber threats.
-```
-
-#### Full body
-
-```
-Stephen Campbell 5 min read April 29, 2026 Targeting the Defense Industrial Base: What Network Telemetry Reveals About Nation-State Pre-Positioning Intelligence drives operations. It provides commanders with options across time and space and enables them to shape the battlefield on their terms. This concept is not new. What has changed is the domain. Nation states are applying the same intelligence playbook in cyberspace, with the Defense Industrial Base as a primary target. What is being observed is not limited to intrusion activity, it is reconnaissance and pre positioning. Analysis of large-scale network telemetry reinforces this, showing sustained patterns of infrastructure mapping and access development long before disruptive activity occurs. In MITRE ATT&CK terms, this maps directly to reconnaissance and resource development. Adversaries are identifying targets, mapping infrastructure, and preparing access long before anything disruptive happens. Volt Typhoon is a clear example. They maintained access to US critical infrastructure for over five years before it was publicly disclosed. This is not an attack. It is intelligence preparation of the battlefield, carried out in cyberspace. Why the DIB is the Target The Defense Industrial Base is one of the most targeted sectors out there, and it is not just about stealing data. Yes, intellectual property matters. Weapons systems, propulsion, and communications technology are all high value targets. Stealing that information shortens the development and learning curve. It lets adversaries bypass years of research and development and move faster than they should be able to. But the real objective is access. If you can disrupt or degrade a supply chain at the right moment, that creates strategic impact. In a crisis, that is far more valuable than large volumes of stolen data. When most people think about the Defense Industrial Base, they picture large primes like Raytheon or Northrop Grumman. The reality is very different. Around 80 percent of the DIB is made up of small and mid-size contractors. These companies hold sensitive data. Contracts, technical specifications, and personnel information tied to clearances. But many of them are not resourced to defend at the same level as the primes. There is a mismatch between what they hold and what they can protect. That gap is what adversaries exploit. In military terms, you avoid the strongest point and look for the gap. The seam. The place where defenses are thin, and access still gets you where you need to go. In cyber, that seam is often a smaller contractor with real access and limited defenses. Four Actors, Four Approaches Understanding who is targeting the DIB and how they operate is key to building any effective defense. China operates with patience and persistence. Groups like Volt Typhoon and Salt Typhoon are not built for speed. They are built to remain hidden. Volt Typhoon relies heavily on living off the land techniques . That means using tools that already exist inside the environment, like PowerShell and WMI, instead of deploying custom malware. Nothing new gets dropped, nothing obvious gets flagged. Their activity blends into normal system operations, which makes detection extremely difficult. Salt Typhoon showed how far this approach can go . In 2024, they compromised the US Army National Guard network and maintained access for nine months. During that time, they collected network diagrams and administrator credentials. This is not random collection. It is deliberate. They are mapping the environment, understanding how it is built, and identifying where they can move next or come back later. It is about positioning, not immediate impact. Russia takes a more aggressive infrastructure-focused approach. GRU Unit 26165 has been exploiting vulnerable edge routers at scale. Instead of just gaining access to one network, they turn these devices into relay nodes. Traffic is redirected through attacker controlled DNS infrastruct
-```
-
-#### Corroborating sources (1)
-
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - Title: Targeting the Defense Industrial Base: What Network Telemetry Reveals About Nation-State Pre-Positioning
-  - Published: 2026-10-27T19:08:02+00:00
-  - Link: https://www.team-cymru.com/post/defense-industrial-base-nation-state-network-telemetry
-  - Summary: Discover how nation-states target the Defense Industrial Base via pre-positioning. Learn why network telemetry is crucial to detect these hidden cyber threats.
 
 ### Cluster 2cb50a13c9 — score 12
 
@@ -2096,6 +2100,55 @@ Executive Summary Wiz Research uncovered multiple critical vulnerabilities in co
   - Link: https://www.wiz.io/blog/php2shell-php-rce
   - Summary: Core PHP engine flaws enable remote code execution and Heartbleed-style memory disclosure across the web.
 
+### Cluster 2bf44078df — score 12
+
+- Title: Hackers now scanning systems for recently-patched Oracle flaw
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-10-28T12:19:57+00:00
+- Link: https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, ransomware_extortion, zero_day
+- actor_attribution: Cl0p, ShinyHunters
+- affected_industries: education, government, healthcare
+- cve_ids: CVE-2025-61882, CVE-2026-101767, CVE-2026-35273
+- urgency_signals: actively_exploited, no_patch_yet, preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, zero_day, active_exploitation
+- actor_attribution: ShinyHunters, Cl0p
+- affected_industries: healthcare, government, education
+- cve_ids: CVE-2026-101767, CVE-2025-61882, CVE-2026-35273
+- urgency_signals: actively_exploited, zero_day, preauth_unauth, no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Attackers have begun probing the Internet for systems unpatched against a recently disclosed critical Oracle E-Business Suite (EBS) vulnerability. [...]
+```
+
+#### Full body
+
+```
+Hackers now scanning systems for recently-patched Oracle flaw By Sergiu Gatlan October 28, 2026 08:19 AM 0 Attackers have begun probing the Internet for systems unpatched against a recently disclosed critical Oracle E-Business Suite (EBS) vulnerability. Discovered in a core component of EBS's Application Object Library and tracked as CVE-2026-101767 , this flaw lets unauthenticated threat actors with HTTP network access take over vulnerable systems in low-complexity attacks. Oracle released security updates to address the issue in its October 2026 Critical Security Patch Update on October 20 and urged customers to patch their systems immediately. "In some instances, it has been reported that attackers have been successful because targeted customers had failed to apply available Oracle patches," it said. "Oracle therefore strongly recommends that customers remain on actively-supported versions and apply security patches without delay." While Oracle has not yet tagged CVE-2026-101767 as exploited in the wild, threat intelligence company Defused said on Tuesday that it already spotted threat actors scanning the Internet for vulnerable systems. "Our Oracle E-Business Suite decoys recorded exploratory exploits against CVE-2026-101767, an unauthenticated SQL injection in EBS's Thin Client Framework servlet that chains to remote code execution, this morning, Oct 27," Defused warned . ​Internet threat watchdog Shadowserver now tracks over 670 Internet-exposed Oracle EBS instances , most of them with IP addresses from the United States. However, Shadowserver doesn't indicate how many are honeypots or have already been secured against the CVE-2026-101767 flaw. Internet-exposed Oracle EBS instances (Shadowserver) ​Attackers often target Oracle vulnerabilities because they let them breach enterprise systems on the networks of many Fortune 100 corporations, government organizations, and healthcare networks around the world. For instance, since early August 2025 , the Clop extortion gang has exploited another Oracle EBS flaw (CVE-2025-61882) in zero-day attacks targeting high-profile victims like Logitech , GlobalLogic , and the Washington Post , as well as US universities (including Harvard University , the University of Pennsylvania , Dartmouth College , and the University of Phoenix ) More recently, in June, Oracle released emergency mitigations for a critical PeopleSoft Suite zero-day (CVE-2026-35273) that the ShinyHunters extortion gang exploited between May 27 and June 9 . By abusing this flaw, the threat actors gained unauthenticated remote code execution on victims' systems and stole data from many organizations worldwide, including Nottingham University , Nissan , and the National Association of Insurance Commissioners (NAIC) . Since November 2021, CISA has added 46 Oracle security bugs to its list of actively exploited vulnerabilities, 13 of which have also been abused in ransomware attacks. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Hackers now scanning systems for recently-patched Oracle flaw
+  - Published: 2026-10-28T12:19:57+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/
+  - Summary: Attackers have begun probing the Internet for systems unpatched against a recently disclosed critical Oracle E-Business Suite (EBS) vulnerability. [...]
+
 ### Cluster fe12343499 — score 12
 
 - Title: Experts temper emergency-level alarms over critical Brotli defect
@@ -2142,6 +2195,51 @@ Advertisement Get our latest cybersecurity news first on Google. Click here! Clo
   - Published: 2026-10-27T00:22:54+00:00
   - Link: https://cyberscoop.com/brotli-critical-vulnerability-decompression-library-node2shell-broccoli2shell/
   - Summary: The defect in a widely distributed open-source library provoked an emergency response, yet exploitation hasn’t been observed in the wild. The post Experts temper emergency-level alarms over critical Brotli defect appeared first on CyberScoop .
+
+### Cluster b9771fe2d2 — score 12
+
+- Title: Targeting the Defense Industrial Base: What Network Telemetry Reveals About Nation-State Pre-Positioning
+- Source: Team Cymru (ransomware_ecrime_financial_crime)
+- Published: 2026-10-27T19:08:02+00:00
+- Link: https://www.team-cymru.com/post/defense-industrial-base-nation-state-network-telemetry
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, supply_chain
+- actor_attribution: Salt Typhoon, Volt Typhoon
+- affected_industries: critical_infrastructure, manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, apt_espionage
+- actor_attribution: Volt Typhoon, Salt Typhoon
+- affected_industries: critical_infrastructure, manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Discover how nation-states target the Defense Industrial Base via pre-positioning. Learn why network telemetry is crucial to detect these hidden cyber threats.
+```
+
+#### Full body
+
+```
+Stephen Campbell 5 min read April 29, 2026 Targeting the Defense Industrial Base: What Network Telemetry Reveals About Nation-State Pre-Positioning Intelligence drives operations. It provides commanders with options across time and space and enables them to shape the battlefield on their terms. This concept is not new. What has changed is the domain. Nation states are applying the same intelligence playbook in cyberspace, with the Defense Industrial Base as a primary target. What is being observed is not limited to intrusion activity, it is reconnaissance and pre positioning. Analysis of large-scale network telemetry reinforces this, showing sustained patterns of infrastructure mapping and access development long before disruptive activity occurs. In MITRE ATT&CK terms, this maps directly to reconnaissance and resource development. Adversaries are identifying targets, mapping infrastructure, and preparing access long before anything disruptive happens. Volt Typhoon is a clear example. They maintained access to US critical infrastructure for over five years before it was publicly disclosed. This is not an attack. It is intelligence preparation of the battlefield, carried out in cyberspace. Why the DIB is the Target The Defense Industrial Base is one of the most targeted sectors out there, and it is not just about stealing data. Yes, intellectual property matters. Weapons systems, propulsion, and communications technology are all high value targets. Stealing that information shortens the development and learning curve. It lets adversaries bypass years of research and development and move faster than they should be able to. But the real objective is access. If you can disrupt or degrade a supply chain at the right moment, that creates strategic impact. In a crisis, that is far more valuable than large volumes of stolen data. When most people think about the Defense Industrial Base, they picture large primes like Raytheon or Northrop Grumman. The reality is very different. Around 80 percent of the DIB is made up of small and mid-size contractors. These companies hold sensitive data. Contracts, technical specifications, and personnel information tied to clearances. But many of them are not resourced to defend at the same level as the primes. There is a mismatch between what they hold and what they can protect. That gap is what adversaries exploit. In military terms, you avoid the strongest point and look for the gap. The seam. The place where defenses are thin, and access still gets you where you need to go. In cyber, that seam is often a smaller contractor with real access and limited defenses. Four Actors, Four Approaches Understanding who is targeting the DIB and how they operate is key to building any effective defense. China operates with patience and persistence. Groups like Volt Typhoon and Salt Typhoon are not built for speed. They are built to remain hidden. Volt Typhoon relies heavily on living off the land techniques . That means using tools that already exist inside the environment, like PowerShell and WMI, instead of deploying custom malware. Nothing new gets dropped, nothing obvious gets flagged. Their activity blends into normal system operations, which makes detection extremely difficult. Salt Typhoon showed how far this approach can go . In 2024, they compromised the US Army National Guard network and maintained access for nine months. During that time, they collected network diagrams and administrator credentials. This is not random collection. It is deliberate. They are mapping the environment, understanding how it is built, and identifying where they can move next or come back later. It is about positioning, not immediate impact. Russia takes a more aggressive infrastructure-focused approach. GRU Unit 26165 has been exploiting vulnerable edge routers at scale. Instead of just gaining access to one network, they turn these devices into relay nodes. Traffic is redirected through attacker controlled DNS infrastruct
+```
+
+#### Corroborating sources (1)
+
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - Title: Targeting the Defense Industrial Base: What Network Telemetry Reveals About Nation-State Pre-Positioning
+  - Published: 2026-10-27T19:08:02+00:00
+  - Link: https://www.team-cymru.com/post/defense-industrial-base-nation-state-network-telemetry
+  - Summary: Discover how nation-states target the Defense Industrial Base via pre-positioning. Learn why network telemetry is crucial to detect these hidden cyber threats.
 
 ### Cluster 7283c6981d — score 12
 
@@ -2190,49 +2288,6 @@ This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week w
   - Link: https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html
   - Summary: This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security teams have more urgent patches than they can keep up with. And that's not even the full story. A leaked key led to a software supply-chain
 
-### Cluster bf768c12ec — score 11
-
-- Title: From federal SOCs to Talos: Ryan Fetterman on practical security research
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-10-27T10:00:21+00:00
-- Link: https://blog.talosintelligence.com/from-federal-socs-to-talos-ryan-fetterman-on-practical-security-research/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
-- affected_industries: education, government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage
-- affected_industries: government, education
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-What does it mean to be "blue collar" for the blue team? Ryan Fetterman discusses the realities of detection engineering, and shares his philosophy on building a career in security without burning out.
-```
-
-#### Full body
-
-```
-From federal SOCs to Talos: Ryan Fetterman on practical security research By Amy Ciminnisi Tuesday, October 27, 2026 06:00 Humans of Talos What does it mean to be "blue collar" for the blue team? Amy sat down with security researcher Ryan Fetterman to discuss his journey from federal agency work to his new role at Talos. He shares the realities of detection engineering — including the creative, often frustrating ways attackers evolve their tactics to stay one step ahead of traditional defenses. Beyond the technical grind, Ryan shares his philosophy on building a career in security without burning out. From the value of project-based learning to the importance of finding time to step away from the keyboard, here's Ryan's take on what it really means to navigate today's cybersecurity industry. Amy Ciminnisi: Tell me a little bit about the journey that has taken you to Talos, from early on in your career through to now. How did you get here? I actually don't know that much about it. Ryan Fetterman: I've been doing security about 15 years now, and my career was largely shaped by where I started in the DC area. I spent about a decade there. I started out in consulting and then pivoted over to research, but that was a great place to get started. I got a lot of great experience in federal agencies and government consulting, continued my education down there, got trained up, got certifications and things like that. And that was where I got my first exposure to doing actual security operations, which is what I really stuck with. It was my first exposure to Splunk. Querying lots of log data and building visualizations and analytics in Splunk was the first time in my career that I felt it was kind of my natural inclination. It seems like it should have been more obvious to me looking back on it, but it's something that I try to explain to people a lot. When you first get into security, there's a desire to kind of find your specialization and start working towards it. But in my experience, it's just not something that you can rush. I met the people connected with that space, which eventually led to me going to work for Splunk. I worked on the Splunk research team, SURGe. And then after the Cisco acquisition of Splunk, I ultimately became reorganized into Talos. AC: I'm sure there have been so many challenges, so many obstacles in your way as you're trying to do this research. Can you share one that you've faced and how it shaped your perspective on cybersecurity? RF: Something that stuck with me was actually my first advanced persistent threat (APT) incident. Now, you can look this up. It's called Pandora Song if you search for the C2. I was in the DC area working in a federal SOC, and I was doing some of the first host-based analytics at the time, which have now become kind of the concentration of a lot of detection. Engineering and analytics are host-based, so this was kind of pioneering at the time. I was looking at a lot of host-based sensors and writing analytics in Splunk, actually, and we had been tipped off to this incident by a third party. I was looking through the details of the incident and how the attacker was carrying out the progression of their attack... Want to see more? Watch the full interview , and don’t forget to subscribe to our YouTube channel for future episodes of Humans of Talos. Share this post Related Content Black Hat special: Rewind and revisit July 30, 2026 06:00 Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence. Martin Lee: Running through the Arctic (and the threat landscape) July 1, 2026 06:00 Ever wonder how someone goes from studying human viruses to leading cybersecurity teams? In this Humans of Talos, we’re joined by Martin Lee, EMEA Lead, to talk about his journey into the industry. Winning the cyber marathon with Tony Giandomenico June 4, 2026 08:05 Tony Giandomenico, Senior Director of Product Management, joins Amy to discuss the Talos Threat Hun
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: From federal SOCs to Talos: Ryan Fetterman on practical security research
-  - Published: 2026-10-27T10:00:21+00:00
-  - Link: https://blog.talosintelligence.com/from-federal-socs-to-talos-ryan-fetterman-on-practical-security-research/
-  - Summary: What does it mean to be "blue collar" for the blue team? Ryan Fetterman discusses the realities of detection engineering, and shares his philosophy on building a career in security without burning out.
-
 ### Cluster 21772a3458 — score 11
 
 - Title: Cloudflare deploys protections against php2shell vulnerability
@@ -2278,6 +2333,47 @@ Update - On October 23, the PHP project published an informational advisory for 
   - Link: https://blog.cloudflare.com/php-vulnerabilities-waf-protection/
   - Summary: Cloudflare has deployed default web application firewall (WAF) protections for newly disclosed PHP vulnerabilities before public disclosure. The rules use request and response signals to stop exploit attempts and prevent exposed data from reaching attackers.
 
+### Cluster 8cb026f4f0 — score 11
+
+- Title: LiteLLM Compromised, Steals Credentials
+- Source: Wiz Research (cloud_identity_infrastructure)
+- Published: 2026-10-21T13:44:12+00:00
+- Link: https://www.wiz.io/blog/litellm-compromised-steals-credentials
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Docker, GitHub, PyPI
+- content_type: incident_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Docker, GitHub, PyPI
+- content_type: incident_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+In a new incident, a malicious version (1.107.0) of the LiteLLM package was uploaded to PyPI and Docker on October 21. The malicious version includes a credential stealer targeting browser, cloud and AI secrets as well as a dormant C2 capability.
+```
+
+#### Full body
+
+```
+LiteLLM Compromised At 11:39 UTC on October 21, a malicious version (1.107.0) of the LiteLLM package was uploaded to PyPI. This version was quarantined on PyPI as of 13:20 UTC. According to ClickPy data , the malicious version received approximately 49,000 downloads. LiteLLM Docker containers on GHCR and Docker hub also included the trojanized version of LiteLLM. These included the v1.107.0 , latest , main-latest and main-stable tags. These were removed ~13:53 UTC. The most recent safe version is v1.106.2. When the malicious package is installed, three files are extracted directly into the site-packages root: cook.pth , cook.py and sitecustomize.py . These packages are designed to be executed whenever a python interpreter is started. Per LiteLLM developer BerriAI : malicious actions were taken through three engineers' GitHub accounts, appearing to be by way of stolen GitHub CLI OAuth tokens. The threat actor used one user's account triggered the project-releaser run, and another user's account to approve it. All tokens which were involved in this attack have been revoked. And in a followup : GitHub CLI OAuth token exposure After a thorough investigation, we have observed specific situations in which Claude Code will embed a user’s GitHub CLI OAuth token into a response body, and in situations where response bodies are logged, these tokens may appear in LiteLLM logs. Access to our internal LiteLLM deployment We identified an unexpected, innocuously named user account in our internal LiteLLM deployment, which was exposed to the public internet. We believe the attacker gained access to this deployment, obtained the GitHub CLI OAuth tokens from its logs, and subsequently used those credentials to compromise our release workflow. We have not yet confirmed how the attacker gained access to our internal deployment, but currently suspect it was through a recently patched vulnerability. UPDATES 14:05 UTC - added IOC table 14:15 UTC - added Attack Commits details 14:40 UTC - added Credential Stealer details, noted Docker takedown 15:20 UTC - clarified dual-technique approach novelty and LLM-aided development 16:40 UTC - added diagram of payload flow 16:55 UTC - added LiteLLM statement on root cause 18:35 UTC - LiteLLM has released a blog post 19:05 UTC - added observed post-exploitation activity 21:45 UTC - updated LiteLLM details on root cause October 22 12:55 UTC - added PyPi download stats Payload Diagram of payload flow The payload has strong indications of LLM-aided development, including verbose variable names (encrypted_private_key_output ), overly defensive error handling with generic try/except blocks, platform-specific code paths that fail silently on untested platforms (Windows marker path /tmp/ doesn't exist, fcntl/fork calls crash the remote loader), and a dead code module ( exec_py ) that was defined but never called. The structure suggests iterative prompting: functional on the happy path but brittle at the edges and untested. Upon startup, the interpreter processes cook.pth , which includes a command to import cook , which loads cook.py . cook.py deobfuscates itself, runs a stealer routine and writes a maker to /tmp/.pc_once_72129118c59f5636c0bb (note this fails on Windows, as the /tmp/ path often does not exist). The stealer routine gathers system, browser, developer, cloud and AI tool secrets, encrypts them and exfiltrates to www.litellm.dev/healthcheck via a post request. This domain is attacker controlled, impersonating LiteLLM infrastructure. Python interpreters will also attempt to execute sitecustomize.py - however, it will only run on Linux & MacOS machines. This script attempts to fetch domain.txt from a GitHub dead drop ( letters9813/pythonclient-test/main/domain.txt) . If it receives a response, it will attempt to download a second stage python script from http://<domain>/codepy and run it. As of the time of analysis, the domain.txt file was never populated beyond initial test values. The repo has been taken d
+```
+
+#### Corroborating sources (1)
+
+- **Wiz Research** (cloud_identity_infrastructure)
+  - Title: LiteLLM Compromised, Steals Credentials
+  - Published: 2026-10-21T13:44:12+00:00
+  - Link: https://www.wiz.io/blog/litellm-compromised-steals-credentials
+  - Summary: In a new incident, a malicious version (1.107.0) of the LiteLLM package was uploaded to PyPI and Docker on October 21. The malicious version includes a credential stealer targeting browser, cloud and AI secrets as well as a dormant C2 capability.
+
 ### Cluster b4dcc058dd — score 11
 
 - Title: Who Checked It? Attestations, Gemara, and CRA Due Diligence
@@ -2321,47 +2417,6 @@ By Eddie Knight Introduction There are several places in security and compliance
   - Link: https://openssf.org/blog/2026/10/22/who-checked-it-attestations-gemara-and-cra-due-diligence/
   - Summary: Discover how the OpenSSF Gemara project clarifies the complex world of security attestations, streamlines software supply chain evaluations, and helps organizations confidently meet EU Cyber Resilience Act (CRA) due diligence requirements.
 
-### Cluster 8cb026f4f0 — score 11
-
-- Title: LiteLLM Compromised, Steals Credentials
-- Source: Wiz Research (cloud_identity_infrastructure)
-- Published: 2026-10-21T13:44:12+00:00
-- Link: https://www.wiz.io/blog/litellm-compromised-steals-credentials
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: Docker, GitHub, PyPI
-- content_type: incident_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: Docker, GitHub, PyPI
-- content_type: incident_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-In a new incident, a malicious version (1.107.0) of the LiteLLM package was uploaded to PyPI and Docker on October 21. The malicious version includes a credential stealer targeting browser, cloud and AI secrets as well as a dormant C2 capability.
-```
-
-#### Full body
-
-```
-LiteLLM Compromised At 11:39 UTC on October 21, a malicious version (1.107.0) of the LiteLLM package was uploaded to PyPI. This version was quarantined on PyPI as of 13:20 UTC. According to ClickPy data , the malicious version received approximately 49,000 downloads. LiteLLM Docker containers on GHCR and Docker hub also included the trojanized version of LiteLLM. These included the v1.107.0 , latest , main-latest and main-stable tags. These were removed ~13:53 UTC. The most recent safe version is v1.106.2. When the malicious package is installed, three files are extracted directly into the site-packages root: cook.pth , cook.py and sitecustomize.py . These packages are designed to be executed whenever a python interpreter is started. Per LiteLLM developer BerriAI : malicious actions were taken through three engineers' GitHub accounts, appearing to be by way of stolen GitHub CLI OAuth tokens. The threat actor used one user's account triggered the project-releaser run, and another user's account to approve it. All tokens which were involved in this attack have been revoked. And in a followup : GitHub CLI OAuth token exposure After a thorough investigation, we have observed specific situations in which Claude Code will embed a user’s GitHub CLI OAuth token into a response body, and in situations where response bodies are logged, these tokens may appear in LiteLLM logs. Access to our internal LiteLLM deployment We identified an unexpected, innocuously named user account in our internal LiteLLM deployment, which was exposed to the public internet. We believe the attacker gained access to this deployment, obtained the GitHub CLI OAuth tokens from its logs, and subsequently used those credentials to compromise our release workflow. We have not yet confirmed how the attacker gained access to our internal deployment, but currently suspect it was through a recently patched vulnerability. UPDATES 14:05 UTC - added IOC table 14:15 UTC - added Attack Commits details 14:40 UTC - added Credential Stealer details, noted Docker takedown 15:20 UTC - clarified dual-technique approach novelty and LLM-aided development 16:40 UTC - added diagram of payload flow 16:55 UTC - added LiteLLM statement on root cause 18:35 UTC - LiteLLM has released a blog post 19:05 UTC - added observed post-exploitation activity 21:45 UTC - updated LiteLLM details on root cause October 22 12:55 UTC - added PyPi download stats Payload Diagram of payload flow The payload has strong indications of LLM-aided development, including verbose variable names (encrypted_private_key_output ), overly defensive error handling with generic try/except blocks, platform-specific code paths that fail silently on untested platforms (Windows marker path /tmp/ doesn't exist, fcntl/fork calls crash the remote loader), and a dead code module ( exec_py ) that was defined but never called. The structure suggests iterative prompting: functional on the happy path but brittle at the edges and untested. Upon startup, the interpreter processes cook.pth , which includes a command to import cook , which loads cook.py . cook.py deobfuscates itself, runs a stealer routine and writes a maker to /tmp/.pc_once_72129118c59f5636c0bb (note this fails on Windows, as the /tmp/ path often does not exist). The stealer routine gathers system, browser, developer, cloud and AI tool secrets, encrypts them and exfiltrates to www.litellm.dev/healthcheck via a post request. This domain is attacker controlled, impersonating LiteLLM infrastructure. Python interpreters will also attempt to execute sitecustomize.py - however, it will only run on Linux & MacOS machines. This script attempts to fetch domain.txt from a GitHub dead drop ( letters9813/pythonclient-test/main/domain.txt) . If it receives a response, it will attempt to download a second stage python script from http://<domain>/codepy and run it. As of the time of analysis, the domain.txt file was never populated beyond initial test values. The repo has been taken d
-```
-
-#### Corroborating sources (1)
-
-- **Wiz Research** (cloud_identity_infrastructure)
-  - Title: LiteLLM Compromised, Steals Credentials
-  - Published: 2026-10-21T13:44:12+00:00
-  - Link: https://www.wiz.io/blog/litellm-compromised-steals-credentials
-  - Summary: In a new incident, a malicious version (1.107.0) of the LiteLLM package was uploaded to PyPI and Docker on October 21. The malicious version includes a credential stealer targeting browser, cloud and AI secrets as well as a dormant C2 capability.
-
 ### Cluster 42fec6ef81 — score 11
 
 - Title: Today's PHP Security Release, and How We're Strengthening PHP Security
@@ -2394,7 +2449,7 @@ Today's PHP Security Release, and How We're Strengthening PHP Security If you're
 #### Full body
 
 ```
-Simon Willison’s Weblog Newsletter Sponsored by: WorkOS Airlock — intent-based access control for AI agents. Request early access 21st October 2026 - Link Blog Today's PHP Security Release, and How We're Strengthening PHP Security ( via ) If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process. This post from the PHP Foundation explain what went so wrong: On Tuesday, October 20th, at around 15:00 UTC, the two CVE IDs began circulating on online forums and social media. They came with a wrong release time and a wrong CVSS score of 10.0 (the actual score is 9.2). No technical details leaked. In response, the PHP project brought its pre-announcement forward and published it at 19:30 UTC . It also moved the release from October 22nd, 14:00 UTC, to October 21st, 14:00 UTC [...] As a result of the leak and pre-announcement around 20:00 UTC, Calif, one of the security firms that had reported the issues mistakenly published a video. It showed their proof of concept working against a number of targets and revealed a few additional, though limited, details about the vulnerabilities. Copies of the deleted video started circulating on social media soon after. The video contributed to accelerated development of various PoCs (exploitation proof of concepts), which then increased circulation on October 21st. This article from the team that discovered the original vulnerability includes a more detailed timeline of the original intended responsible disclosure: August 19, 2026: Wiz Research discovers the first PHP vulnerability using Wiz Atlas, Gemini 4 Argon, and GPT-5.6 Sol. August 20, 2026: Unauthenticated RCE is confirmed against Drupal. August 21, 2026: Unauthenticated RCE is confirmed against WordPress. August 24, 2026: Wiz Research reports the vulnerabilities to the PHP security team. September 21, 2026: PHP acknowledges the reports and begins developing a coordinated fix. October 21, 2026: Patched PHP releases become available. October 21, 2026: Public disclosure. Posted 21st October 2026 at 6:41 pm Recent articles Battle Drones - a vibe coded RTS with audio-based multiplayer - 20th October 2026 Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026 A new feature for my blog, built using my voice - 9th October 2026 Claude Haiku 5.5 - 7th October 2026 This is a link post by Simon Willison, posted on 21st October 2026 . open-source 324 php 191 security 641 ai 2,296 ai-security-research 50 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+Simon Willison’s Weblog Newsletter Sponsored by: WorkOS Airlock — intent-based access control for AI agents. Request early access 21st October 2026 - Link Blog Today's PHP Security Release, and How We're Strengthening PHP Security ( via ) If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process. This post from the PHP Foundation explain what went so wrong: On Tuesday, October 20th, at around 15:00 UTC, the two CVE IDs began circulating on online forums and social media. They came with a wrong release time and a wrong CVSS score of 10.0 (the actual score is 9.2). No technical details leaked. In response, the PHP project brought its pre-announcement forward and published it at 19:30 UTC . It also moved the release from October 22nd, 14:00 UTC, to October 21st, 14:00 UTC [...] As a result of the leak and pre-announcement around 20:00 UTC, Calif, one of the security firms that had reported the issues mistakenly published a video. It showed their proof of concept working against a number of targets and revealed a few additional, though limited, details about the vulnerabilities. Copies of the deleted video started circulating on social media soon after. The video contributed to accelerated development of various PoCs (exploitation proof of concepts), which then increased circulation on October 21st. This article from the team that discovered the original vulnerability includes a more detailed timeline of the original intended responsible disclosure: August 19, 2026: Wiz Research discovers the first PHP vulnerability using Wiz Atlas, Gemini 4 Argon, and GPT-5.6 Sol. August 20, 2026: Unauthenticated RCE is confirmed against Drupal. August 21, 2026: Unauthenticated RCE is confirmed against WordPress. August 24, 2026: Wiz Research reports the vulnerabilities to the PHP security team. September 21, 2026: PHP acknowledges the reports and begins developing a coordinated fix. October 21, 2026: Patched PHP releases become available. October 21, 2026: Public disclosure. Posted 21st October 2026 at 6:41 pm Recent articles Battle Drones - a vibe coded RTS with audio-based multiplayer - 20th October 2026 Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026 A new feature for my blog, built using my voice - 9th October 2026 Claude Haiku 5.5 - 7th October 2026 This is a link post by Simon Willison, posted on 21st October 2026 . open-source 324 php 191 security 641 ai 2,297 ai-security-research 50 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
 ```
 
 #### Corroborating sources (1)
@@ -2404,45 +2459,6 @@ Simon Willison’s Weblog Newsletter Sponsored by: WorkOS Airlock — intent-bas
   - Published: 2026-10-21T18:41:53+00:00
   - Link: https://simonwillison.net/2026/Oct/21/php-security-release/
   - Summary: Today's PHP Security Release, and How We're Strengthening PHP Security If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process. This post from the PHP Foundation explain what went so wrong: On Tuesday, October 20th, at around 15:00 UTC, the two CVE IDs began circulating on online forums and social media. They came with a wrong release time and a wrong CVSS score of 10.0 (the actual score is 9.2). No technical details leaked. In response, the PHP project brought its pre-announcement forward and published it at 19:30 UTC . It also moved the release from October 22nd, 14:00 UTC, to October 21st, 14:00 UTC [...] As a result of the leak and pre-announcement around 20:00 UTC, Calif, one of the security firms that had reported the issues mistakenly published a video. It showed their proof
-
-### Cluster 7b747b7dab — score 11
-
-- Title: Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines
-- Source: Google Project Zero (offensive_vulnerability_research)
-- Published: 2026-10-27T07:00:00+00:00
-- Link: https://projectzero.google/2026/10/fuzzing-v-AI.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system. In the past six months, BigSleep found more vulnerabilities than Fuzzilli (45 versus 37) with a 25% overlap in the specific bugs reported. Since this comparison methodology has a tendency to underestimate overlap, we also performed dedicated experiments to test theoretical overlap in vulnerabilities reported since 2023. These experiments estimated overlap at roughly 60%. Regardless of which value is accurate, a substantial portion of vulnerabilities were discoverable by only LLMs or only fuzzing. While it is extremely promising that LLMs have become able to find so many vulnerabilities so quickly, fuzzing and LLMs are still complementary approaches. We recommend vendors perform both fuzzing and agentic analysis of their code to maximize the number
-```
-
-#### Full body
-
-```
-Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chromeâs JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system. In the past six months, BigSleep found more vulnerabilities than Fuzzilli (45 versus 37) with a 25% overlap in the specific bugs reported. Since this comparison methodology has a tendency to underestimate overlap, we also performed dedicated experiments to test theoretical overlap in vulnerabilities reported since 2023. These experiments estimated overlap at roughly 60%. Regardless of which value is accurate, a substantial portion of vulnerabilities were discoverable by only LLMs or only fuzzing. While it is extremely promising that LLMs have become able to find so many vulnerabilities so quickly, fuzzing and LLMs are still complementary approaches. We recommend vendors perform both fuzzing and agentic analysis of their code to maximize the number of vulnerabilities that get reported before they impact users. Introduction Fuzzing has long been successfully applied to software projects such as Chrome or V8 (Chromeâs JavaScript engine) to detect bugs. Recently, the arrival of powerful LLMs able to read, reason about, and write code is causing a transformative change to software development and software security. With hundreds, sometimes thousands of new bugs and vulnerabilities having been discovered in well-fuzzed targets, a natural question arises: how do new LLMs compare to âtraditionalâ fuzzers? Are they starting to replace them or do the two approaches complement each other? To help answer this, we look at three key questions: How many bugs does each approach find in the real world? What is the overlap between the two approaches? What is the âshapeâ of bugs discovered by one system but not the other? For this blog post, we will limit ourselves to two concrete systems: Fuzzilli , a JavaScript engine fuzzer, and BigSleep , an agentic bug finding system. Both of these systems run in production and automatically look for bugs in newly added code, which makes them fairly directly comparable. Specifically, Fuzzilli runs continuously across many instances, with the first ones usually picking up new changes within a few hours, while BigSleep currently runs once per day and is prompted to review new commits and write proof-of-concept testcases for any bugs it discovers. Both systems report bugs through Clusterfuzz , which will do basic crash triaging, then file bug reports in Chromeâs issue tracker. We also limit ourselves to V8 as a target, a high-performance JavaScript and WebAssembly engine with a sophisticated and mature testing and fuzzing setup. In particular, Fuzzilli is a special-purpose fuzzing tool designed to find bugs in these engines. The usually complicated nature of these bugs makes for an interesting âplaygroundâ to compare the two approachesâ ability to find deep and complex bugs in well-tested software. We leave it to future work to perform similar analysis on a broader set of targets, fuzzers, and agentic bug finding systems. We will now look into each of the three main questions in a dedicated section. Each section will first summarize the general approach, then describe the methodology in detail (often as bullet points, so you can skip those blocks if you donât care too much about the details) before exploring the results. We conclude with an attempt at interpreting the results to get a picture of the current state of fuzzing vs. AI. Part 1: Production Statistics This is the simplest part to analyze, although with some caveats weâll see in a bit. The basic idea is to query issues from Chromiumâs bugtracker (where V8 bugs are tracked) and extract various statistics from there. This is especially easy since thereâs a dedicated hotlist for each of the two systems. We limit our analysis to the six months from April to September 2026 as the automatic
-```
-
-#### Corroborating sources (1)
-
-- **Google Project Zero** (offensive_vulnerability_research)
-  - Title: Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines
-  - Published: 2026-10-27T07:00:00+00:00
-  - Link: https://projectzero.google/2026/10/fuzzing-v-AI.html
-  - Summary: Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system. In the past six months, BigSleep found more vulnerabilities than Fuzzilli (45 versus 37) with a 25% overlap in the specific bugs reported. Since this comparison methodology has a tendency to underestimate overlap, we also performed dedicated experiments to test theoretical overlap in vulnerabilities reported since 2023. These experiments estimated overlap at roughly 60%. Regardless of which value is accurate, a substantial portion of vulnerabilities were discoverable by only LLMs or only fuzzing. While it is extremely promising that LLMs have become able to find so many vulnerabilities so quickly, fuzzing and LLMs are still complementary approaches. We recommend vendors perform both fuzzing and agentic analysis of their code to maximize the number
 
 ### Cluster 140c89d442 — score 10
 
@@ -2531,47 +2547,6 @@ Threat Research Center Threat Research Malware Malware “Next Exploit Opportuni
   - Published: 2026-10-21T14:00:24+00:00
   - Link: https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/
   - Summary: An investigation into a threat actor bypassing AI safety controls to coordinate credential theft, VoIP fraud planning, and database exfiltration. The post “Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities appeared first on Unit 42 .
-
-### Cluster a28b47ffdb — score 10
-
-- Title: I had plans for that second
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-10-22T18:04:32+00:00
-- Link: https://blog.talosintelligence.com/i-had-plans-for-that-second/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: critical_infrastructure
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-The Earth is speeding up, the leap second is being abolished, oh, and there's critical vulnerabilities in PHP.
-```
-
-#### Full body
-
-```
-I had plans for that second By Hazel Burton Thursday, October 22, 2026 14:04 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. Here for the latest on the PHP vulnerabilities? Head on down to ‘The One Big Thing’. Talos has published a blog to explain what we know so far, and details the Snort coverage available, including rules in the Community Ruleset. But if you want a bit of levity, here’s what I wrote before everything kicked off yesterday: Ever feel like the world is moving too fast to keep up? Well, I bring you scientific proof that it’s not just you. For millions of years, the moon has been slowing down the Earth’s rotation. But over the past decade, we’ve been speeding up (I KNEW I was aging faster than before). Apparently, changes in the Earth’s core are involved (either that, or the 1978 Superman film was a documentary). This is all causing massive headaches for the people responsible for keeping time. They’re officially called “The International Bureau of Weights and Measures”, but I’m going to call them “The Time-Keepers”. For nerd reasons). The issue is that the atomic clocks that power so many of our systems, and the rotation of our planet, don’t always agree. Atomic clocks keep extremely consistent time, while each Earth day is rarely the same length as the next. Atomic timekeeping absolutely cannot stand that level of flexibility (have a watch of our “The Light We Keep” documentary to see the importance that accurate clocks have on critical infrastructure). To keep Coordinated Universal Time (UTC), which is based on atomic clocks, aligned with Earth’s rotation, we introduced a “leap second” in 1972. This system allows for an extra second to be added, or taken away, when we stray too far from atomic time. A few days ago, The Time-Keepers voted to officially abolish the leap second. Why? Well, there’s a few parts to it. For the past 54 years, we’ve never once had a second removed from our lives. They’ve always been added (27 of them to be precise). I myself have experienced 20 of these extra seconds. If I’d have known that, I’d have used them more wisely. Like thinking before saying, “Love you too!” to the post-person this morning. That added time, while it seems nice to have on the surface, can wreak havoc with our modern technology systems. In 2012, the extra second caused so much confusion that it crashed Reddit, among other systems. The recent speeding-up of the Earth’s rotation complicates things further. If we keep going at this rate, it could result in the world’s first ever “negative second”. If you thought our technology systems struggled with added time, there are a lot of sciency brains who are very worried about the impact of taking time away. One of those concerns being… it’s never been done before. So, what’s The Time-Keeper’s solution? Invent more time! Woooo. Starting next May, the leap second will be replaced with a "leap hour," allowing UTC to diverge from Earth's rotation by up to an hour before a correction is made. None of us will get to experience that extra hour in our lifetimes, but our Great, Great, Great, Great, Great, Great, Great, Great, Great, Great, Great grandchildren are going to have one hell of a party. For us current mortals, we’re all getting a little less time, and we’re hurtling through space a little faster. Happy Thursday! But I guess I do want to make the point that I’m glad the risk has been thoroughly assessed ahead of, ahem, time. The Time-Keepers have decided that the world’s infrastructure should not have to find out how it handles a missing second by collectively experiencing one. And I don’t even want to think about how all the AIs would cope with a negative second… There’s something here for incident response planning. “It’s never happened before” is an excellent reason to test whether you’re ready for it. Run the exercise. Find out which part of your plan depends on something that, in this scenario, is also broken. Preferably
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: I had plans for that second
-  - Published: 2026-10-22T18:04:32+00:00
-  - Link: https://blog.talosintelligence.com/i-had-plans-for-that-second/
-  - Summary: The Earth is speeding up, the leap second is being abolished, oh, and there's critical vulnerabilities in PHP.
 
 ### Cluster f576445f64 — score 10
 
@@ -2669,6 +2644,90 @@ CATEGORIES AI Research 22 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Link: https://research.checkpoint.com/2026/infostealer-riding-the-ai-train/
   - Summary: Key Points Introduction Infostealers commonly target browser passwords, session cookies, and cryptocurrency wallets. This malware combines those established capabilities with dedicated collection routines for AI applications and development tools. Its targets include Claude, ChatGPT Desktop, Codex, Cursor, Windsurf, and GitHub Copilot, alongside cloud credentials and sensitive files from local development environments. This expanded targeting reflects […] The post Infostealer riding the AI Train appeared first on Check Point Research .
 
+### Cluster bf768c12ec — score 10
+
+- Title: From federal SOCs to Talos: Ryan Fetterman on practical security research
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-10-27T10:00:21+00:00
+- Link: https://blog.talosintelligence.com/from-federal-socs-to-talos-ryan-fetterman-on-practical-security-research/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage
+- affected_industries: education, government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage
+- affected_industries: government, education
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+What does it mean to be "blue collar" for the blue team? Ryan Fetterman discusses the realities of detection engineering, and shares his philosophy on building a career in security without burning out.
+```
+
+#### Full body
+
+```
+From federal SOCs to Talos: Ryan Fetterman on practical security research By Amy Ciminnisi Tuesday, October 27, 2026 06:00 Humans of Talos What does it mean to be "blue collar" for the blue team? Amy sat down with security researcher Ryan Fetterman to discuss his journey from federal agency work to his new role at Talos. He shares the realities of detection engineering — including the creative, often frustrating ways attackers evolve their tactics to stay one step ahead of traditional defenses. Beyond the technical grind, Ryan shares his philosophy on building a career in security without burning out. From the value of project-based learning to the importance of finding time to step away from the keyboard, here's Ryan's take on what it really means to navigate today's cybersecurity industry. Amy Ciminnisi: Tell me a little bit about the journey that has taken you to Talos, from early on in your career through to now. How did you get here? I actually don't know that much about it. Ryan Fetterman: I've been doing security about 15 years now, and my career was largely shaped by where I started in the DC area. I spent about a decade there. I started out in consulting and then pivoted over to research, but that was a great place to get started. I got a lot of great experience in federal agencies and government consulting, continued my education down there, got trained up, got certifications and things like that. And that was where I got my first exposure to doing actual security operations, which is what I really stuck with. It was my first exposure to Splunk. Querying lots of log data and building visualizations and analytics in Splunk was the first time in my career that I felt it was kind of my natural inclination. It seems like it should have been more obvious to me looking back on it, but it's something that I try to explain to people a lot. When you first get into security, there's a desire to kind of find your specialization and start working towards it. But in my experience, it's just not something that you can rush. I met the people connected with that space, which eventually led to me going to work for Splunk. I worked on the Splunk research team, SURGe. And then after the Cisco acquisition of Splunk, I ultimately became reorganized into Talos. AC: I'm sure there have been so many challenges, so many obstacles in your way as you're trying to do this research. Can you share one that you've faced and how it shaped your perspective on cybersecurity? RF: Something that stuck with me was actually my first advanced persistent threat (APT) incident. Now, you can look this up. It's called Pandora Song if you search for the C2. I was in the DC area working in a federal SOC, and I was doing some of the first host-based analytics at the time, which have now become kind of the concentration of a lot of detection. Engineering and analytics are host-based, so this was kind of pioneering at the time. I was looking at a lot of host-based sensors and writing analytics in Splunk, actually, and we had been tipped off to this incident by a third party. I was looking through the details of the incident and how the attacker was carrying out the progression of their attack... Want to see more? Watch the full interview , and don’t forget to subscribe to our YouTube channel for future episodes of Humans of Talos. Share this post Related Content Black Hat special: Rewind and revisit July 30, 2026 06:00 Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence. Martin Lee: Running through the Arctic (and the threat landscape) July 1, 2026 06:00 Ever wonder how someone goes from studying human viruses to leading cybersecurity teams? In this Humans of Talos, we’re joined by Martin Lee, EMEA Lead, to talk about his journey into the industry. Winning the cyber marathon with Tony Giandomenico June 4, 2026 08:05 Tony Giandomenico, Senior Director of Product Management, joins Amy to discuss the Talos Threat Hun
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: From federal SOCs to Talos: Ryan Fetterman on practical security research
+  - Published: 2026-10-27T10:00:21+00:00
+  - Link: https://blog.talosintelligence.com/from-federal-socs-to-talos-ryan-fetterman-on-practical-security-research/
+  - Summary: What does it mean to be "blue collar" for the blue team? Ryan Fetterman discusses the realities of detection engineering, and shares his philosophy on building a career in security without burning out.
+
+### Cluster a28b47ffdb — score 10
+
+- Title: I had plans for that second
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-10-22T18:04:32+00:00
+- Link: https://blog.talosintelligence.com/i-had-plans-for-that-second/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: critical_infrastructure
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: critical_infrastructure
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+The Earth is speeding up, the leap second is being abolished, oh, and there's critical vulnerabilities in PHP.
+```
+
+#### Full body
+
+```
+I had plans for that second By Hazel Burton Thursday, October 22, 2026 14:04 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. Here for the latest on the PHP vulnerabilities? Head on down to ‘The One Big Thing’. Talos has published a blog to explain what we know so far, and details the Snort coverage available, including rules in the Community Ruleset. But if you want a bit of levity, here’s what I wrote before everything kicked off yesterday: Ever feel like the world is moving too fast to keep up? Well, I bring you scientific proof that it’s not just you. For millions of years, the moon has been slowing down the Earth’s rotation. But over the past decade, we’ve been speeding up (I KNEW I was aging faster than before). Apparently, changes in the Earth’s core are involved (either that, or the 1978 Superman film was a documentary). This is all causing massive headaches for the people responsible for keeping time. They’re officially called “The International Bureau of Weights and Measures”, but I’m going to call them “The Time-Keepers”. For nerd reasons). The issue is that the atomic clocks that power so many of our systems, and the rotation of our planet, don’t always agree. Atomic clocks keep extremely consistent time, while each Earth day is rarely the same length as the next. Atomic timekeeping absolutely cannot stand that level of flexibility (have a watch of our “The Light We Keep” documentary to see the importance that accurate clocks have on critical infrastructure). To keep Coordinated Universal Time (UTC), which is based on atomic clocks, aligned with Earth’s rotation, we introduced a “leap second” in 1972. This system allows for an extra second to be added, or taken away, when we stray too far from atomic time. A few days ago, The Time-Keepers voted to officially abolish the leap second. Why? Well, there’s a few parts to it. For the past 54 years, we’ve never once had a second removed from our lives. They’ve always been added (27 of them to be precise). I myself have experienced 20 of these extra seconds. If I’d have known that, I’d have used them more wisely. Like thinking before saying, “Love you too!” to the post-person this morning. That added time, while it seems nice to have on the surface, can wreak havoc with our modern technology systems. In 2012, the extra second caused so much confusion that it crashed Reddit, among other systems. The recent speeding-up of the Earth’s rotation complicates things further. If we keep going at this rate, it could result in the world’s first ever “negative second”. If you thought our technology systems struggled with added time, there are a lot of sciency brains who are very worried about the impact of taking time away. One of those concerns being… it’s never been done before. So, what’s The Time-Keeper’s solution? Invent more time! Woooo. Starting next May, the leap second will be replaced with a "leap hour," allowing UTC to diverge from Earth's rotation by up to an hour before a correction is made. None of us will get to experience that extra hour in our lifetimes, but our Great, Great, Great, Great, Great, Great, Great, Great, Great, Great, Great grandchildren are going to have one hell of a party. For us current mortals, we’re all getting a little less time, and we’re hurtling through space a little faster. Happy Thursday! But I guess I do want to make the point that I’m glad the risk has been thoroughly assessed ahead of, ahem, time. The Time-Keepers have decided that the world’s infrastructure should not have to find out how it handles a missing second by collectively experiencing one. And I don’t even want to think about how all the AIs would cope with a negative second… There’s something here for incident response planning. “It’s never happened before” is an excellent reason to test whether you’re ready for it. Run the exercise. Find out which part of your plan depends on something that, in this scenario, is also broken. Preferably
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: I had plans for that second
+  - Published: 2026-10-22T18:04:32+00:00
+  - Link: https://blog.talosintelligence.com/i-had-plans-for-that-second/
+  - Summary: The Earth is speeding up, the leap second is being abolished, oh, and there's critical vulnerabilities in PHP.
+
 ### Cluster 0b82431db4 — score 10
 
 - Title: Deploying AI agents securely: how Kaspersky products mitigate AI threats
@@ -2709,49 +2768,6 @@ Threat Response Table of Contents Introduction Popular AI applications and servi
   - Published: 2026-10-26T10:00:18+00:00
   - Link: https://securelist.com/tr/how-to-secure-ai-agents/121444/
   - Summary: We look at best practices for deploying AI tools securely in corporate environments, with Kaspersky Security Center and Kaspersky Endpoint Security as examples. We also cover ways that EDR and TIP can detect AI agents.
-
-### Cluster 66edb4d266 — score 10
-
-- Title: MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-10-22T08:45:00+00:00
-- Link: https://www.welivesecurity.com/en/eset-research/mythicratatoskr-yggdrasil-enabled-backdoor-deployed-uac0099-sandworm-collaboration/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor
-- affected_industries: critical_infrastructure, government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: web_shell_backdoor
-- affected_industries: government, critical_infrastructure
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-ESET researchers uncover MythicRatatoskr – a previously unknown Go-based backdoor hiding its C&C server inside the Yggdrasil mesh network – that paved the way for a destructive attack against a Ukrainian grain firm
-```
-
-#### Full body
-
-```
-ESET Research MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration ESET researchers uncover MythicRatatoskr – a previously unknown Go-based backdoor hiding its C&C server inside the Yggdrasil mesh network – that paved the way for a destructive attack against a Ukrainian grain firm Anton Cherepanov Peter Strýček 22 Oct 2026 • , 20 min. read Executive summary This report analyzes activity during which UAC‑0099 gained initial access on July 16 th , 2025 and handed it off to Sandworm, which then conducted a data-wiping attack on September 17 th , 2025. It particularly focuses on the MythicRatatoskr backdoor, which is unique in its use of the Yggdrasil mesh network to communicate with a C&C server hosted within it. We presented our findings about MythicRatatoskr at LABScon on September 18 th , 2026, and at the Virus Bulletin conference on October 16 th , 2026. Key points of this blogpost: On July 16 th , 2025, UAC-0099 gained initial access to a grain logistics company in Ukraine via a spearphishing email with a malicious attachment, leading to the execution chain of the MATCHWOK backdoor. One day later, the attackers deployed MythicRatatoskr, a previously undocumented backdoor that communicates with a C&C server hosted inside the Yggdrasil mesh network. We have not seen the backdoor used anywhere else, and we found indications that a Linux variant may also exist. Yggdrasil is a decentralized mesh network that implements an experimental routing scheme in which the IPv6 communication between the nodes is end-to-end protected. Ultimately, UAC-0099 handed off access to Sandworm, which then carried out a data-wiping attack. Cooperation among Russia-aligned actors The handover documented in this report is not an isolated phenomenon. As noted above, Sandworm is attributed to GRU Unit 74455, and UAC-0099’s targeting leads us to assess that it is aligned with Russian interests. Earlier in 2025, we uncovered that Russia-aligned Gamaredon collaborated with Turla, another Russia-aligned threat actor; we documented our findings in our blogpost Gamaredon X Turla collab . Both groups are linked to the Federal Security Service of the Russian Federation (FSB). This kind of cooperation underscores the potential for coordinated cyberespionage campaigns among Russia-aligned groups, likely intended to amplify their operational impact. In the past, Gamaredon collaborated with a threat actor that we discovered and named InvisiMole. Against that backdrop, a UAC‑0099-to-Sandworm handoff is unusual in the specific actors involved, but no longer surprising as a pattern. Overview of the intrusion According to ESET telemetry, the events unfolded as follows: at 06:59 on July 16 th , 2025, a scheduled task named pdfopentask was executed on one machine in the target organization. It executed a PowerShell payload from %temp%\temporarydoc.txt . A minute later, MATCHBOIL was deployed. MATCHBOIL is a downloader that deployed, in this case, the MATCHWOK backdoor (C&C: https://uztickets[.]com ) from https://egyptanimals[.]com/animals/photoalbum . The following day, at 09:28, a new binary was delivered to the machine: the MythicRatatoskr backdoor. Due to the close proximity of time, we believe with high confidence that the MATCHWOK execution chain led to the deployment of MythicRatatoskr. Our telemetry further shows that additional MythicRatatoskr samples were subsequently deployed to other machines within the organization, this time using an OpenSSH SFTP server. Later, ESET telemetry detected a SOCKS5 server on some of the machines, with one sample having been extracted from an unknown archive using WinRAR. We believe that the SOCKS5 server was deployed using MythicRatatoskr. Approximately two months later, on September 17 th , 2025, we detected data-wiping activity at the compromised grain logistics company. The data-wiping attack was executed by deploying the SDelete utility via Active Directory Group Policy – standard Sandwor
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration
-  - Published: 2026-10-22T08:45:00+00:00
-  - Link: https://www.welivesecurity.com/en/eset-research/mythicratatoskr-yggdrasil-enabled-backdoor-deployed-uac0099-sandworm-collaboration/
-  - Summary: ESET researchers uncover MythicRatatoskr – a previously unknown Go-based backdoor hiding its C&C server inside the Yggdrasil mesh network – that paved the way for a destructive attack against a Ukrainian grain firm
 
 ### Cluster ffb7745d72 — score 10
 
@@ -2882,6 +2898,92 @@ Audit-Ready Isn’t Attack-Ready. Stephen Gates October 21, 2026 Blogs How three
   - Link: https://horizon3.ai/intelligence/blogs/audit-ready-isnt-attack-ready-financial-security/
   - Summary: Passing an audit doesn't guarantee attack readiness. Explore how three financial and insurance organizations use NodeZero to challenge security assumptions, expand penetration testing coverage, uncover exploitable attack paths, and verify remediation through continuous exposure management.
 
+### Cluster 66edb4d266 — score 10
+
+- Title: MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-10-22T08:45:00+00:00
+- Link: https://www.welivesecurity.com/en/eset-research/mythicratatoskr-yggdrasil-enabled-backdoor-deployed-uac0099-sandworm-collaboration/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: web_shell_backdoor
+- affected_industries: critical_infrastructure, government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: web_shell_backdoor
+- affected_industries: government, critical_infrastructure
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+ESET researchers uncover MythicRatatoskr – a previously unknown Go-based backdoor hiding its C&C server inside the Yggdrasil mesh network – that paved the way for a destructive attack against a Ukrainian grain firm
+```
+
+#### Full body
+
+```
+ESET Research MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration ESET researchers uncover MythicRatatoskr – a previously unknown Go-based backdoor hiding its C&C server inside the Yggdrasil mesh network – that paved the way for a destructive attack against a Ukrainian grain firm Anton Cherepanov Peter Strýček 22 Oct 2026 • , 20 min. read Executive summary This report analyzes activity during which UAC‑0099 gained initial access on July 16 th , 2025 and handed it off to Sandworm, which then conducted a data-wiping attack on September 17 th , 2025. It particularly focuses on the MythicRatatoskr backdoor, which is unique in its use of the Yggdrasil mesh network to communicate with a C&C server hosted within it. We presented our findings about MythicRatatoskr at LABScon on September 18 th , 2026, and at the Virus Bulletin conference on October 16 th , 2026. Key points of this blogpost: On July 16 th , 2025, UAC-0099 gained initial access to a grain logistics company in Ukraine via a spearphishing email with a malicious attachment, leading to the execution chain of the MATCHWOK backdoor. One day later, the attackers deployed MythicRatatoskr, a previously undocumented backdoor that communicates with a C&C server hosted inside the Yggdrasil mesh network. We have not seen the backdoor used anywhere else, and we found indications that a Linux variant may also exist. Yggdrasil is a decentralized mesh network that implements an experimental routing scheme in which the IPv6 communication between the nodes is end-to-end protected. Ultimately, UAC-0099 handed off access to Sandworm, which then carried out a data-wiping attack. Cooperation among Russia-aligned actors The handover documented in this report is not an isolated phenomenon. As noted above, Sandworm is attributed to GRU Unit 74455, and UAC-0099’s targeting leads us to assess that it is aligned with Russian interests. Earlier in 2025, we uncovered that Russia-aligned Gamaredon collaborated with Turla, another Russia-aligned threat actor; we documented our findings in our blogpost Gamaredon X Turla collab . Both groups are linked to the Federal Security Service of the Russian Federation (FSB). This kind of cooperation underscores the potential for coordinated cyberespionage campaigns among Russia-aligned groups, likely intended to amplify their operational impact. In the past, Gamaredon collaborated with a threat actor that we discovered and named InvisiMole. Against that backdrop, a UAC‑0099-to-Sandworm handoff is unusual in the specific actors involved, but no longer surprising as a pattern. Overview of the intrusion According to ESET telemetry, the events unfolded as follows: at 06:59 on July 16 th , 2025, a scheduled task named pdfopentask was executed on one machine in the target organization. It executed a PowerShell payload from %temp%\temporarydoc.txt . A minute later, MATCHBOIL was deployed. MATCHBOIL is a downloader that deployed, in this case, the MATCHWOK backdoor (C&C: https://uztickets[.]com ) from https://egyptanimals[.]com/animals/photoalbum . The following day, at 09:28, a new binary was delivered to the machine: the MythicRatatoskr backdoor. Due to the close proximity of time, we believe with high confidence that the MATCHWOK execution chain led to the deployment of MythicRatatoskr. Our telemetry further shows that additional MythicRatatoskr samples were subsequently deployed to other machines within the organization, this time using an OpenSSH SFTP server. Later, ESET telemetry detected a SOCKS5 server on some of the machines, with one sample having been extracted from an unknown archive using WinRAR. We believe that the SOCKS5 server was deployed using MythicRatatoskr. Approximately two months later, on September 17 th , 2025, we detected data-wiping activity at the compromised grain logistics company. The data-wiping attack was executed by deploying the SDelete utility via Active Directory Group Policy – standard Sandwor
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration
+  - Published: 2026-10-22T08:45:00+00:00
+  - Link: https://www.welivesecurity.com/en/eset-research/mythicratatoskr-yggdrasil-enabled-backdoor-deployed-uac0099-sandworm-collaboration/
+  - Summary: ESET researchers uncover MythicRatatoskr – a previously unknown Go-based backdoor hiding its C&C server inside the Yggdrasil mesh network – that paved the way for a destructive attack against a Ukrainian grain firm
+
+### Cluster 5f14c4c45d — score 10
+
+- Title: PHP2Shell Was Exploited Before the Patch
+- Source: Sekoia (threat_research_primary)
+- Published: 2026-10-27T10:16:48+00:00
+- Link: https://www.sekoia.com/blog/php2shell-was-exploited-before-the-patch-expect-more-of-it
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, phishing_social_eng, ransomware_extortion
+- cve_ids: CVE-2021-44228, CVE-2023-34362, CVE-2023-4966, CVE-2026-109618, CVE-2026-109619
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, apt_espionage
+- cve_ids: CVE-2026-109618, CVE-2026-109619, CVE-2023-4966, CVE-2023-34362, CVE-2021-44228
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+PHP2Shell was exploited four days before its patch. Learn why exploitation is moving ahead of disclosure and how security teams can respond.
+```
+
+#### Full body
+
+```
+Home Blog PHP2Shell was exploited before the patch. Expect more of it. All categories & topics Threat Research & Intelligence Detection Engineering SOC Insights & Other News Product News TDR Team AI Cloud Integrations Compliance APT Cybercrime Phishing Ransomware Stealer ClickFix Summarize with AI Share Copied ! AI Cybercrime Threat Research & Intelligence SOC Insights & Other News 9 min October 28, 2026 By David Greenwood PHP2Shell was exploited before the patch. Expect more of it. Attackers exploited PHP2Shell four days before the patch arrived, showing why security teams can no longer wait for disclosure to start investigating. Key takeaways PHP2Shell shows what happens when exploitation starts before the patch. Defenders have to investigate and make decisions before the vulnerability is public. PHP2Shell was exploited four days before the patch arrived. Attackers had a head start while defenders had no fix to deploy. The average warning period has collapsed from 63 days in 2018–19 to minus seven days in 2025, according to Mandiant. For internet-facing systems, investigation must begin before disclosure, especially when a flaw affects edge devices, file-transfer platforms, or web runtimes. Patching remains essential, but it no longer closes the whole incident. Teams also need to look for earlier exploitation and signs of compromise. AI is speeding up vulnerability research, while shared libraries can spread one flaw across products no one realizes they use. On October 17, an Amazon honeypot captured exploitation of two critical vulnerabilities in PHP’s core. The fix arrived on October 21. Threat actors had four days inside the window before defenders knew there was a vulnerability to patch. This pattern is becoming normal. In 2001, defenders had roughly a month between a patch and a worm. In 2018, the average window was about two months. Today, Mandiant puts the mean time to exploit at minus seven days. The patch is no longer the first defensive move. For many vulnerabilities that matter, exploitation has already started by the time the fix becomes public. Twenty-five years of shrinking warning Vulnerability response used to follow a predictable order. A flaw was disclosed, a patch was released, and threat actors built an exploit. That order has broken down. The chart and table below show the changing window across seven vulnerabilities that defined their period. A positive number means defenders had the patch first. A negative number means exploitation began before the fix or disclosure. Dates are based on the sources in the table below. SQL Slammer and Citrix Bleed are approximate. Patch gap timeline (Source: Mandiant) Year Vulnerability Patch or disclosure First exploitation seen Window 2026 PHP2Shell (CVE-2026-109618, CVE-2026-109619) October 21 October 17, in an Amazon honeypot 4 days before 2023 Citrix Bleed (CVE-2023-4966) October 10 Late August About 6 weeks before 2023 MOVEit Transfer (CVE-2023-34362) May 31 May 27 4 days before 2021 Log4Shell (CVE-2021-44228) December 9 December 1 8 days before 2017 EternalBlue (MS17-010), used by WannaCry March 14 May 12, WannaCry 59 days after 2003 SQL Slammer (MS02-039) July 2002 January 25, 2003 About 6 months after 2001 Code Red (MS01-033) June 18 July 13 25 days after ‍ 2001 to 2003, the worm era. Code Red and SQL Slammer moved quickly once exploitation began. SQL Slammer infected about 75,000 hosts in ten minutes. Both, however, targeted vulnerabilities that had been patched weeks or months earlier. At the time, patching before exploitation was a realistic defense. ‍ 2017, the leaked-exploit era. EternalBlue was patched in March 2017. The Shadow Brokers published a working exploit the following month, and WannaCry began spreading on May 12. Organizations that patched during the first eight weeks were protected. The window was still positive, but the exploit no longer needed to be discovered from scratch. ‍ Since 2021, exploitation has often preceded disclosure. Log4Shell wa
+```
+
+#### Corroborating sources (1)
+
+- **Sekoia** (threat_research_primary)
+  - Title: PHP2Shell Was Exploited Before the Patch
+  - Published: 2026-10-27T10:16:48+00:00
+  - Link: https://www.sekoia.com/blog/php2shell-was-exploited-before-the-patch-expect-more-of-it
+  - Summary: PHP2Shell was exploited four days before its patch. Learn why exploitation is moving ahead of disclosure and how security teams can respond.
+
 ### Cluster 19adc5b2fc — score 10
 
 - Title: Self-Hosted SOC Platforms Can Keep Pace With Modern Threats
@@ -2963,51 +3065,6 @@ Home Blog ISOC, AI agents, and the changing role of the analyst All categories &
   - Published: 2026-10-21T13:34:41+00:00
   - Link: https://www.sekoia.com/blog/isoc-ai-agents-and-the-changing-role-of-the-analyst
   - Summary: See how ISOC and AI agents are reshaping the SOC, helping teams investigate faster, reduce alert fatigue, and give human analysts more room for judgment.
-
-### Cluster b0a261896d — score 10
-
-- Title: Sekoia + Zimperium: Investigate Mobile Threats In Your SOC
-- Source: Sekoia (threat_research_primary)
-- Published: 2026-10-21T10:11:52+00:00
-- Link: https://www.sekoia.com/blog/from-mobile-threat-detection-to-autonomous-investigation-connecting-zimperium-with-sekoia
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, phishing_social_eng, ransomware_extortion, zero_day
-- affected_products: Microsoft 365, Microsoft Entra
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, apt_espionage
-- affected_products: Microsoft Entra, Microsoft 365
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Connect Zimperium Mobile Threat Defense with Sekoia so Sekoia Elevate AI agents investigate mobile alerts in the context of your whole SOC.
-```
-
-#### Full body
-
-```
-Home Blog From mobile threat detection to autonomous investigation: Connecting Zimperium with Sekoia All categories & topics Threat Research & Intelligence Detection Engineering SOC Insights & Other News Product News TDR Team AI Cloud Integrations Compliance APT Cybercrime Phishing Ransomware Stealer ClickFix Summarize with AI Share Copied ! Product News Integrations AI 6 min October 21, 2026 By Serge Haumont By Tim Roddy From mobile threat detection to autonomous investigation: Connecting Zimperium with Sekoia Zimperium Mobile Threat Defense now sends its mobile threat telemetry to the Sekoia SOC platform. Sekoia Elevate AI agents investigate each mobile alert alongside identity, cloud and network evidence, so analysts can see what it means for the whole organization. Key takeaways What the Zimperium integration brings to your SOC, and how Sekoia Elevate turns mobile alerts into investigations your analysts can review. Mobile devices are now a primary attack target: mobile phishing, SMS phishing, malicious apps, network attacks and device compromise. When these alerts sit in a separate console, SOC teams lose sight of the wider attack. Zimperium Mobile Threat Defense detects threats directly on corporate and personal (BYOD) devices running Android, iOS and ChromeOS. It covers four vectors: device, network, application and phishing, even when the device is offline. The integration pulls Zimperium threat events into Sekoia through the Zimperium APIs. Analysts then investigate mobile activity in one platform, next to detections, cases and threat intelligence. Sekoia Elevate AI agents investigate mobile alerts on their own. They correlate related signals, add context from Sekoia Intelligence and write a report that shows every search and every piece of evidence behind the verdict. Take an EvilTokens device code phishing alert. Elevate links it to Microsoft Entra ID sign-ins, Microsoft 365 activity and DNS and proxy traffic. That tells the SOC whether it was a blocked attempt, a compromised account or a wider campaign. Analysts keep the final decision. Mobile devices have become essential to how organizations work. Employees use smartphones and tablets to access business applications, authenticate to corporate services, exchange sensitive information, and stay connected from almost anywhere. They have also become a key target for attackers. As cybercriminals adopt a mobile-first attack strategy, organizations face threats including mobile phishing (mishing), including SMS/Text (smishing), malicious applications, network attacks, device compromise, and zero-day threats. Yet mobile security events are still frequently handled separately from the rest of the security environment. This creates blind spots for SOC teams and makes it harder to understand whether a mobile alert is an isolated event or part of a broader attack. The integration between Zimperium Mobile Threat Defense (MTD) and the Sekoia autonomous SOC Platform helps close that gap. It brings mobile threat telemetry into a unified security operations environment, where it can be combined with detection data, threat intelligence, and the context required for autonomous investigation. Mobile security needs more than device protection Zimperium Mobile Threat Defense is designed to protect corporate-owned and BYOD devices across Android, iOS, and ChromeOS. Its on-device, AI-empowered threat detection works in real time across four primary threat vectors: device, network, application, and phishing, including when the device is offline. This approach is important because mobile devices do not always operate within the traditional enterprise network perimeter. An employee may connect from a public Wi-Fi network, receive a malicious text message, install a compromised application, or access a corporate service from a personally owned device. Traditional network-centric controls may not see the complete picture in these situations. On-device protection provides a specialized layer
-```
-
-#### Corroborating sources (1)
-
-- **Sekoia** (threat_research_primary)
-  - Title: Sekoia + Zimperium: Investigate Mobile Threats In Your SOC
-  - Published: 2026-10-21T10:11:52+00:00
-  - Link: https://www.sekoia.com/blog/from-mobile-threat-detection-to-autonomous-investigation-connecting-zimperium-with-sekoia
-  - Summary: Connect Zimperium Mobile Threat Defense with Sekoia so Sekoia Elevate AI agents investigate mobile alerts in the context of your whole SOC.
 
 ### Cluster 4e3381e10d — score 10
 
@@ -3091,91 +3148,48 @@ Rapid7 Intelligence Q3 2026 Threat Update: Attackers Are Exploiting Vulnerabilit
   - Link: https://www.rapid7.com/blog/post/tr-q3-2026-threat-update-attackers-exploiting-vulnerabilities-within-3-days
   - Summary: Three days is the average time between a high-severity vulnerability becoming public and its exploitation, according to the latest Quarterly Threat Landscape Report from Rapid7. And 71% of the exploitation tracked in Q3 occurred within the first seven days. For security teams already managing growing vulnerability backlogs, this creates a difficult question: How do you reduce exposure when attackers can exploit vulnerabilities before your next patching window? Rapid7's Q3 2026 research brings together vulnerability intelligence, ransomware activity, APT tracking, and underground forum intelligence to show where attacker activity is concentrated. The exploitation window has narrowed, big time Rapid7 tracked 43 newly exploited high- and critical-severity vulnerabilities this quarter, down 7% from Q2 but still 19% higher than the same period last year. The number of newly exploited vulnerabilities isn't growing at the same rate as disclosures. The more pressing concern is how quickly atta
 
-### Cluster e80d9218b6 — score 10
+### Cluster 954ea2d210 — score 10
 
-- Title: UNM Health ransomware attack disrupts patient care, surgeries
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-10-27T22:07:34+00:00
-- Link: https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/
+- Title: Data breach at Sony-owned internet provider compromises 2.6 million customer records
+- Source: Help Net Security (cyber_news_breach_reporting)
+- Published: 2026-10-28T10:18:09+00:00
+- Link: https://www.helpnetsecurity.com/2026/10/28/sony-network-communications-data-breach-so-net/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
-- affected_industries: education, healthcare
-- affected_products: Microsoft Entra
+- threat_categories: data_breach
+- affected_industries: financial_services
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- affected_industries: healthcare, education
-- affected_products: Microsoft Entra
+- threat_categories: data_breach
+- affected_industries: financial_services
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]
+Attackers who broke into the So-net member database made off with personal information belonging to more than 2.58 million current and former customers, along with the email passwords of 54,401 users, Sony Network Communications has disclosed. So-net is a Japanese internet service provider run by Sony Network Communications, part of the Sony Group. “We have confirmed an information leak caused by unauthorized access to the member database,” the company said in a notice published on … More → The post Data breach at Sony-owned internet provider compromises 2.6 million customer records appeared first on Help Net Security .
 ```
 
 #### Full body
 
 ```
-UNM Health ransomware attack disrupts patient care, surgeries By Bill Toulas October 27, 2026 06:07 PM 0 The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. On Monday, UNM Health, the university’s healthcare provider, began temporarily limiting new patient admissions, diverting ambulances to nearby hospitals, and suspending outpatient surgeries and appointments. In an update on the incident, UNM said UNM Hospital and Sandoval Regional Medical Center remain open, and all clinics will resume scheduled appointments and procedures starting today, Tuesday, October 27. Regarding emergencies, the healthcare organization advised that people should call 911. However, today’s classes at its four health sciences schools are canceled, and nonessential HSC employees were instructed to stay home. UNM Health is a major statewide provider of specialist care with more than 1 million patient visits annually. Its flagship UNM Hospital in Albuquerque houses New Mexico’s only Level I trauma center , treating the most seriously injured patients. Byod ransomware claims the attack UNM did not disclose the type of cyberattack it suffered, but BleepingComputer found that a new ransomware group called Byod had claimed the attack. In a post on their data leak site, the threat actor said it had compromised 36,000 systems across UNM’s main campus and hospital environments, including Active Directory forests, Group Policy infrastructure, the entire Microsoft Entra tenant, and two Oracle databases. "This is your entire network and infrastructure compromised, the entire university COMPLETELY," the threat actor said. They claim access to student and employee personal data, including: Social Security numbers (SSNs) HR, payroll, and Banner student records Internal emails Research data Hospital appointment data Patient information Cerner EHR rosters In an attempt to force a payment, Byod ransomware said it would take down the breach post after the university initiated communication, likely for negotiating a ransom. BleepingComputer has reached out to UNM Health Sciences with a request for comment about these data theft allegations, but we have not received a response. In a new post today, Byod ransomware said it would provide free keys that decrypt locked systems at healthcare facilities. Caption Furthermore, the threat actor promised to pay up to $2,500 for every patient affected by the cyberattack. "We have morals and we have a heart, we are not villains, but we will still continue to hold companies responsible for bad security leading to the compromise of any customer data," the cybercriminals said. However, the threat actor also said that it would keep all the stolen data. Byod is a new ransomware gang that currently lists six victims on its data leak site. For three of them, it has already leaked the allegedly stolen data. On its FAQ page, the threat group claims it is doing “pentesting” to expose vulnerabilities and hold data controllers accountable for breaches. Source: BleepingComputer Byod says no target is off-limits, but it selects victims after an initial assessment identifies a target of interest. The group says it focuses on “those at the top who look at consumers and/or customers as a number or another dollar in their pockets.” The UNM Health Sciences said today that all its critical electronic systems are back online and all UNM Health hospitals are fully open. Ambulance traffic is now operating normally, and all clinics have resumed scheduled appointments and procedures. The university said the quick recovery was possible due to IT security teams working "with external partners to secure the network." "Their assessment determined that the event affected some end-user devices but did not penetrate core systems or servers," UNM Health Sciences Center notes. Patients who received care at UNM hospitals, as well as staff and students who work and stu
+Sinisa Markovic , Managing Editor, Help Net Security October 28, 2026 Share Data breach at Sony-owned internet provider compromises 2.6 million customer records Attackers who broke into the So-net member database made off with personal information belonging to more than 2.58 million current and former customers, along with the email passwords of 54,401 users, Sony Network Communications has disclosed. So-net is a Japanese internet service provider run by Sony Network Communications, part of the Sony Group. “We have confirmed an information leak caused by unauthorized access to the member database,” the company said in a notice published on October 27, apologizing to customers for “the great inconvenience and concern” the incident has caused. No information leaks have been found in NURO, the company’s fiber internet service, or its other services, according to the notice . Four days before discovery The attack on the database took place on October 19, and the company confirmed it on October 23. “After confirming this, we promptly stopped the affected server and cut off communications from the source of the unauthorized access,” the notice reads. An investigation completed the next day established that personal data had leaked and identified the categories of information and the number of records involved. The company lists the cause of the breach as “unauthorized access by a third party” and says the investigation is ongoing. The incident has been reported to Japan’s Personal Information Protection Commission. Former customers among those affected The stolen So-net records belong to 1,869,771 current members and 272,215 people who left the service in March 2026 or later, for a total of 2,141,986. Another 443,495 records come from plala (S Course), including 21,130 former members. In both cases, the leaked information includes names, phone numbers, email addresses, user IDs, dates of birth, gender and internet connection IDs. “No passwords were leaked,” the company noted about these membership records. Customers who canceled their subscriptions by the end of February 2026 are not affected. Email passwords and bank details exposed A separate part of the leak involves four email services offered to So-net members. For 54,401 addresses, the attackers obtained both the email address and its password. The largest group, 24,655 addresses, uses the free Mail Service (G), and the rest belong to three paid services, the A-Box additional mailbox, So-net VAIO Mail and the PostPet Mail Account Service. These passwords were reset on October 27 “to prevent the damage from spreading,” and affected users must set new ones through the So-net My Page portal. The leak also includes 16 bank account records containing the name of the bank and branch, account type, account number and account holder name. “We do not hold account PINs,” the company stated, adding that no plala customers are affected by this part of the leak. Data from seven notices issued to members for password resets was exposed as well, and those passwords have been reset. None of the leaked data includes credit card information. Customers warned of scam messages “Within the scope of what we know at this time, no secondary damage caused by this incident has been confirmed,” the company said on October 27. It warned, though, that “suspicious communications exploiting the leaked information may arrive in the future.” Customers are advised not to respond to emails, text messages or phone calls of that kind, and not to open links or attachments in such messages. Affected customers will be contacted individually, and a dedicated phone line and an FAQ page have been set up . Sony Network Communications said it takes the incident seriously and will keep looking into its cause “while reviewing our security measures and information management system.” PSN users report hijacked accounts In a separate incident that adds to Sony’s security troubles this week, reports spread on X from PlayStatio
 ```
 
 #### Corroborating sources (1)
 
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: UNM Health ransomware attack disrupts patient care, surgeries
-  - Published: 2026-10-27T22:07:34+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/
-  - Summary: The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]
-
-### Cluster 91a61f3bcb — score 10
-
-- Title: Microsoft releases Windows OOB updates to distrust eMudhra certificates
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-10-27T18:20:28+00:00
-- Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: Microsoft Windows
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- affected_products: Microsoft Windows
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. [...]
-```
-
-#### Full body
-
-```
-Microsoft releases Windows OOB updates to distrust eMudhra certificates By Lawrence Abrams October 27, 2026 02:20 PM 1 Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. The KB5134133 update for Windows 11 versions 24H2, 25H2, and 26H2 and the KB5134125 update for Windows 10 versions 21H2 and 22H2 were released on October 26. The updates are for systems without Internet access, devices that cannot access Microsoft's certificate-update service, and those where automatic Certificate Trust List (CTL) updates have been disabled. The updates were released after the discovery of eight eMudhra intermediate certificate authority private keys that were so weak they could be recovered almost instantly. All eight keys were generated in April 2025 and had values smaller than 256, allowing anyone to recover them by testing just 256 possible numbers. The compromised keys could have allowed attackers to forge certificates for legitimate websites and intercept encrypted communications. After the disclosure, eMudhra revoked the eight compromised intermediate certificates, and Mozilla, Google, Apple, and other software vendors also began revoking them. In response, Microsoft previously updated the Windows Disallowed Certificate Trust List to block the eight affected intermediate certificate authorities, including six used for TLS and two for code signing. The company also released a CRLSet update for Microsoft Edge and WebView2 to block affected TLS certificates, which enabled the block without requiring a browser update. Microsoft is now taking further steps by removing seven certificates associated with the affected certificate hierarchies from its Windows trust list. "On October 26, Microsoft released an out-of-band Windows update that removes seven certificates associated with the affected hierarchies: six eMudhra G3 roots and an AAA Certificate Services cross-sign, from the Windows trust list," Microsoft explained . The new update goes further by also removing trust in the eMudhra root certificates used to verify other certificates issued by the CA. Microsoft says the same seven certificates will also be removed from the Edge trust list on October 27. "Removing a root from a trust list is not the same as revoking the known impacted intermediate certificate authorities," explains Microsoft. "This is a separate trust decision, broader than blocking the identified compromised intermediate keys. Organizations with a specific compatibility need may choose to trust a certificate locally, subject to their own security assessment and policies." The company advises admins to install the update on disconnected Windows systems and identify any certificates that depend on the removed roots, as they may need to be replaced. Microsoft is also investigating the remaining eMudhra roots and may make additional trust changes as needed. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Microsoft: Windows Server 2016 reaches end of support in January Mozilla, Google, Apple block compromised eMudhra CA certificates Microsoft PowerToys adds CursorHide, Button Lock mouse tools Windows Server 2025 gets support for quick machine recovery Microsoft fixes game, app crashes caused by recent Windows update
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Microsoft releases Windows OOB updates to distrust eMudhra certificates
-  - Published: 2026-10-27T18:20:28+00:00
-  - Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/
-  - Summary: Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. [...]
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Data breach at Sony-owned internet provider compromises 2.6 million customer records
+  - Published: 2026-10-28T10:18:09+00:00
+  - Link: https://www.helpnetsecurity.com/2026/10/28/sony-network-communications-data-breach-so-net/
+  - Summary: Attackers who broke into the So-net member database made off with personal information belonging to more than 2.58 million current and former customers, along with the email passwords of 54,401 users, Sony Network Communications has disclosed. So-net is a Japanese internet service provider run by Sony Network Communications, part of the Sony Group. “We have confirmed an information leak caused by unauthorized access to the member database,” the company said in a notice published on … More → The post Data breach at Sony-owned internet provider compromises 2.6 million customer records appeared first on Help Net Security .
 
 ### Cluster fb556ca51b — score 10
 
@@ -3224,52 +3238,42 @@ Eli Woodward 5 min read August 12, 2026 Cl0p Til you Drop - 6 Years, 10 Campaign
   - Link: https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence
   - Summary: Analyze Cl0p ransomware's history of targeting MFT systems. Discover their attack pattern in threat intelligence to improve cyber attack surface reduction.
 
-### Cluster d8c893e316 — score 10
+### Cluster ce10cb1b5c — score 10
 
-- Title: Behind the Panels: Validating ShinyHunters Cluster A Infrastructure Through Network Telemetry
-- Source: Team Cymru (ransomware_ecrime_financial_crime)
-- Published: 2026-10-23T16:38:00+00:00
-- Link: https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure
-- Fetch status: ok
+- Title: Imperia CMS SiteActive TEMPLATE Unauthenticated SSTI Remote Code Execution (CVE-2026-110355)
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-10-23T14:37:35+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1xdfues/imperia_cms_siteactive_template_unauthenticated/
+- Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: ShinyHunters
+- Strong signals: CVE-2026-110355
 
 #### Cluster taxonomy (union across members)
-- threat_categories: mfa_bypass, phishing_social_eng, ransomware_extortion
-- actor_attribution: ShinyHunters, UNC6240, UNC6661
-- affected_industries: financial_services
-- affected_products: Microsoft SharePoint, Salesforce
-- content_type: news_report
-- confidence_tier: tier_2_operator
+- cve_ids: CVE-2026-110355
+- urgency_signals: preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, mfa_bypass
-- actor_attribution: ShinyHunters, UNC6661, UNC6240
-- affected_industries: financial_services
-- affected_products: Salesforce, Microsoft SharePoint
-- content_type: news_report
-- confidence_tier: tier_2_operator
+- cve_ids: CVE-2026-110355
+- urgency_signals: preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
 
 #### Summary
 
 ```
-Use network telemetry to validate cyber threat actors' phishing infrastructure. Track ShinyHunters clusters and defend against SaaS data exfiltration.
-```
-
-#### Full body
-
-```
-Stephen Campbell 5 min read August 5, 2026 Behind the Panels: Validating ShinyHunters Cluster A Infrastructure Through Network Telemetry Phishing panels are not just credential collection tools. They are infrastructure ecosystems. Behind every convincing login page is a set of domains, hosting providers, certificates, exposed services, operator tooling, and recurring deployment patterns. Those signals matter. They give defenders a way to move beyond a single phishing domain and start understanding how the activity is built, hosted, rotated, and reused. Push Security recently published an inside look at phishing panels used in campaigns linked to ShinyHunters and BlackFile . Their team gained direct access to active operator panels, observed real victim targeting, analyzed multiple variants of the tooling, and identified four primary infrastructure clusters. They also made an important point: while these panels share common heritage, the operators deploying them appear to be separate groups with different infrastructure preferences and operational patterns. That operator-side view is valuable because it shows how the attack works from inside the panel. Team Cymru’s view is different. Using Pure Signal Scout, we looked at the infrastructure layer to validate and expand part of the picture Push identified. Our analysis focused on Cluster A, the Doko’s Panel infrastructure hosted on Mevspace AS201814. Push noted that Cluster A overlaps with Mandiant reporting on UNC6661 , and that Mandiant attributes related extortion activity following UNC6661 intrusions to UNC6240, also known as ShinyHunters. Using passive DNS, certificate data, open service observations, and hosting patterns, we identified two active Mevspace IPs consistent with Push’s Cluster A criteria. Those IPs were associated with more than 40 victim-themed domains, recurring naming conventions, and one Doko-branded hosting-layer artifact that provides additional pivot context. This is not a reattribution of the activity. Push established the panel and cluster framework. Team Cymru’s contribution is infrastructure validation: confirming that infrastructure consistent with Push’s Cluster A reporting was active on Mevspace and surfacing additional indicators defenders can hunt against. Why Cluster A matters Cluster A matters because the targeting pattern is not random. Push described campaigns that combine voice phishing with adversary-in-the-middle credential capture against enterprise identity providers and cryptocurrency platforms. The victim is typically directed to a domain that looks like an internal identity, support, passkey, or SSO page. Once credentials and MFA are captured, the operator can attempt to access identity providers and pivot into connected SaaS environments such as Salesforce, SharePoint, Slack, DocuSign, or other high-value applications. That makes the infrastructure behind these panels important. The domain is the visible piece, but it is rarely the whole picture. Hosting providers, ASN usage, TLS behavior, passive DNS history, certificates, and exposed services can show how the operation is being staged. In this case, Push identified Mevspace AS201814 as the hosting provider for Cluster A. They also documented the Cluster A naming patterns, including: <target>internal.com <target>sso.com my<target>.com my<target>internal.com my<target>manager.com my<target>sso.com Using those patterns as a starting point, Scout surfaced active infrastructure consistent with the same cluster. Confirming Cluster A on Mevspace Push identified Mevspace AS201814 as the Cluster A hosting provider but did not publish IP-level indicators. Starting from the hosting provider and domain naming criteria, a single Scout query returned three results: asn="201814" pdns.domain="*internal.com,*sso.com" Scout query result for Mevspace AS201814 with the Cluster A domain pattern Figure 1: Scout returns three IPs for the Mevspace AS201814 plus *internal.com,*sso.com query. Two of them,
+submitted by /u/MrTuxracer [link] [comments]
 ```
 
 #### Corroborating sources (1)
 
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - Title: Behind the Panels: Validating ShinyHunters Cluster A Infrastructure Through Network Telemetry
-  - Published: 2026-10-23T16:38:00+00:00
-  - Link: https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure
-  - Summary: Use network telemetry to validate cyber threat actors' phishing infrastructure. Track ShinyHunters clusters and defend against SaaS data exfiltration.
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: Imperia CMS SiteActive TEMPLATE Unauthenticated SSTI Remote Code Execution (CVE-2026-110355)
+  - Published: 2026-10-23T14:37:35+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1xdfues/imperia_cms_siteactive_template_unauthenticated/
+  - Summary: submitted by /u/MrTuxracer [link] [comments]
 
 ### Cluster abbb9af468 — score 10
 
@@ -3314,42 +3318,44 @@ Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Serv
   - Link: https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html
   - Summary: A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network's access rules permit to connect to the target. The findings were
 
-### Cluster ce10cb1b5c — score 10
+### Cluster 7b747b7dab — score 10
 
-- Title: Imperia CMS SiteActive TEMPLATE Unauthenticated SSTI Remote Code Execution (CVE-2026-110355)
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-10-23T14:37:35+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1xdfues/imperia_cms_siteactive_template_unauthenticated/
-- Fetch status: fetch_failed:HTTPError
+- Title: Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines
+- Source: Google Project Zero (offensive_vulnerability_research)
+- Published: 2026-10-27T07:00:00+00:00
+- Link: https://projectzero.google/2026/10/fuzzing-v-AI.html
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: CVE-2026-110355
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-110355
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
 
 #### Primary article taxonomy
-- cve_ids: CVE-2026-110355
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
 
 #### Summary
 
 ```
-submitted by /u/MrTuxracer [link] [comments]
+Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system. In the past six months, BigSleep found more vulnerabilities than Fuzzilli (45 versus 37) with a 25% overlap in the specific bugs reported. Since this comparison methodology has a tendency to underestimate overlap, we also performed dedicated experiments to test theoretical overlap in vulnerabilities reported since 2023. These experiments estimated overlap at roughly 60%. Regardless of which value is accurate, a substantial portion of vulnerabilities were discoverable by only LLMs or only fuzzing. While it is extremely promising that LLMs have become able to find so many vulnerabilities so quickly, fuzzing and LLMs are still complementary approaches. We recommend vendors perform both fuzzing and agentic analysis of their code to maximize the number
+```
+
+#### Full body
+
+```
+Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chromeâs JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system. In the past six months, BigSleep found more vulnerabilities than Fuzzilli (45 versus 37) with a 25% overlap in the specific bugs reported. Since this comparison methodology has a tendency to underestimate overlap, we also performed dedicated experiments to test theoretical overlap in vulnerabilities reported since 2023. These experiments estimated overlap at roughly 60%. Regardless of which value is accurate, a substantial portion of vulnerabilities were discoverable by only LLMs or only fuzzing. While it is extremely promising that LLMs have become able to find so many vulnerabilities so quickly, fuzzing and LLMs are still complementary approaches. We recommend vendors perform both fuzzing and agentic analysis of their code to maximize the number of vulnerabilities that get reported before they impact users. Introduction Fuzzing has long been successfully applied to software projects such as Chrome or V8 (Chromeâs JavaScript engine) to detect bugs. Recently, the arrival of powerful LLMs able to read, reason about, and write code is causing a transformative change to software development and software security. With hundreds, sometimes thousands of new bugs and vulnerabilities having been discovered in well-fuzzed targets, a natural question arises: how do new LLMs compare to âtraditionalâ fuzzers? Are they starting to replace them or do the two approaches complement each other? To help answer this, we look at three key questions: How many bugs does each approach find in the real world? What is the overlap between the two approaches? What is the âshapeâ of bugs discovered by one system but not the other? For this blog post, we will limit ourselves to two concrete systems: Fuzzilli , a JavaScript engine fuzzer, and BigSleep , an agentic bug finding system. Both of these systems run in production and automatically look for bugs in newly added code, which makes them fairly directly comparable. Specifically, Fuzzilli runs continuously across many instances, with the first ones usually picking up new changes within a few hours, while BigSleep currently runs once per day and is prompted to review new commits and write proof-of-concept testcases for any bugs it discovers. Both systems report bugs through Clusterfuzz , which will do basic crash triaging, then file bug reports in Chromeâs issue tracker. We also limit ourselves to V8 as a target, a high-performance JavaScript and WebAssembly engine with a sophisticated and mature testing and fuzzing setup. In particular, Fuzzilli is a special-purpose fuzzing tool designed to find bugs in these engines. The usually complicated nature of these bugs makes for an interesting âplaygroundâ to compare the two approachesâ ability to find deep and complex bugs in well-tested software. We leave it to future work to perform similar analysis on a broader set of targets, fuzzers, and agentic bug finding systems. We will now look into each of the three main questions in a dedicated section. Each section will first summarize the general approach, then describe the methodology in detail (often as bullet points, so you can skip those blocks if you donât care too much about the details) before exploring the results. We conclude with an attempt at interpreting the results to get a picture of the current state of fuzzing vs. AI. Part 1: Production Statistics This is the simplest part to analyze, although with some caveats weâll see in a bit. The basic idea is to query issues from Chromiumâs bugtracker (where V8 bugs are tracked) and extract various statistics from there. This is especially easy since thereâs a dedicated hotlist for each of the two systems. We limit our analysis to the six months from April to September 2026 as the automatic
 ```
 
 #### Corroborating sources (1)
 
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: Imperia CMS SiteActive TEMPLATE Unauthenticated SSTI Remote Code Execution (CVE-2026-110355)
-  - Published: 2026-10-23T14:37:35+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1xdfues/imperia_cms_siteactive_template_unauthenticated/
-  - Summary: submitted by /u/MrTuxracer [link] [comments]
+- **Google Project Zero** (offensive_vulnerability_research)
+  - Title: Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines
+  - Published: 2026-10-27T07:00:00+00:00
+  - Link: https://projectzero.google/2026/10/fuzzing-v-AI.html
+  - Summary: Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system. In the past six months, BigSleep found more vulnerabilities than Fuzzilli (45 versus 37) with a 25% overlap in the specific bugs reported. Since this comparison methodology has a tendency to underestimate overlap, we also performed dedicated experiments to test theoretical overlap in vulnerabilities reported since 2023. These experiments estimated overlap at roughly 60%. Regardless of which value is accurate, a substantial portion of vulnerabilities were discoverable by only LLMs or only fuzzing. While it is extremely promising that LLMs have become able to find so many vulnerabilities so quickly, fuzzing and LLMs are still complementary approaches. We recommend vendors perform both fuzzing and agentic analysis of their code to maximize the number
 
 ### Cluster 0d4072538d — score 9
 
@@ -3417,191 +3423,54 @@ Yesterday everyone was running around like crazy (me included :) because of the 
   - Link: https://isc.sans.edu/diary/rss/33452
   - Summary: Yesterday everyone was running around like crazy (me included :) because of the php2shell vulnerability.
 
-### Cluster 09b1320a21 — score 9
+### Cluster c1a7215ab3 — score 9
 
-- Title: Apple backports CoreGraphics zero-day patches to older iPhones
+- Title: Camera Management Software Compromise Leads to Malware Deployment
+- Source: Huntress (detection_response_operations)
+- Published: 2026-10-27T13:00:00+00:00
+- Link: https://www.huntress.com/blog/camera-management-software-compromise-malware
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Attackers compromised camera management software to deploy malware, establish persistence, and beacon to C2. Huntress breaks down the attack chain and IOCs.
+```
+
+#### Full body
+
+```
+Home Blog Who Watches the Watchers? Published: October 27, 2026 Who Watches the Watchers? By: Harlan Carvey Lindsey O'Donnell-Welch Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways Huntress observed multiple incidents in which attackers appear to have gained initial access by compromising camera management software, highlighting how these platforms create a direct path into the broader environment when they are not adequately secured. After gaining access, the attackers deployed a file ( rs.win32.exe ), abused the legitimate Windows binary WpcMon.exe to sideload malicious DLLs, established Run Key persistence, and beaconed to a command-and-control (C2) server. This activity demonstrates how attackers can blend malicious code with trusted Windows components to evade detection. Camera systems and their management applications should be treated as part of the enterprise attack surface, not isolated appliances. Organizations should inventory and restrict access to this software, prevent executables and DLLs from running in user-writable paths where possible, and investigate unusual process chains and outbound connections. Acknowledgements : Special thanks to John Hammond, Ethan Williams, and Dray Agha for their contributions to this investigation and writeup. Background Security teams often focus on the software they know attackers target. But security weaknesses can exist in any software that touches an organization's environment, including tools that may not be viewed as part of the "traditional" attack surface. We recently saw a number of incidents where attackers were targeting less-scrutinized tools—camera management platforms—as a way to access the broader environment. In September and October, Huntress observed a handful of incidents originating from camera management software ( CMS.exe ). Further investigation led us to assess that across all cases, a threat actor had compromised a legitimate camera management system as their initial access vector. From there, the attack chain was loosely consistent across the multiple incidents: post-compromise, attackers would drop a file ( rs.win32.exe ) on the endpoint before performing DLL sideloading (via the legitimate Windows binary WpcMon.exe ) in the user's AppData folder path. These would then run a beacon to 144.172.116[.]37 . Initial Access Huntress analysts recently observed a campaign across multiple customer environments that led back to the compromise of camera management software, as seen in the process below. C:\Program Files (x86)\CMS\CMS.exe Huntress analysts were unable to determine the full name or creator/vendor of the software, as the file did not contain an embedded File Version Information section. However, we did find that the executable contained the following notable strings: developerslavery d3e3v4e3l9o9p0e3r4s2l9a1v4e3r4y6 hxxp://cloudapi.3r-dataware[.]com/sso/ The domain name 3r-dataware[.]com (pointing to a Korean company called 3R Global) may provide some insight into the source of the software. Figure 1 illustrates an excerpt of the Details page from a VirusTotal search for the domain name. Figure 1: Whois results/VirusTotal search for 3r-dataware[.]com Figure 2 illustrates the software download page at the kvision[.]ai website, pointing to a package named "CMS". Figure 2: Kvision[.]ai software download page Upon closer inspection of the CMS file downloadable from Kvision[.]ai 's website, both contain the same developerslavery and d3e3v4e3l9o9p0e3r4s2l9a1v4e3r4y6 strings outlined above, as well as the 3r-dataware.com web address. While the CMS package is listed on the software download page, we can't definitively say that the files were downloaded from this website: The connection between CMS.exe found on customer endpoints and the kvision[.]ai website is presented here as a possible source only, and not as a definitive statement of a vendor relationship. Figure 3 illustrates network connections associated with CMS.exe . Figu
+```
+
+#### Corroborating sources (1)
+
+- **Huntress** (detection_response_operations)
+  - Title: Camera Management Software Compromise Leads to Malware Deployment
+  - Published: 2026-10-27T13:00:00+00:00
+  - Link: https://www.huntress.com/blog/camera-management-software-compromise-malware
+  - Summary: Attackers compromised camera management software to deploy malware, establish persistence, and beacon to C2. Huntress breaks down the attack chain and IOCs.
+
+### Cluster e80d9218b6 — score 9
+
+- Title: UNM Health ransomware attack disrupts patient care, surgeries
 - Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-10-27T10:36:12+00:00
-- Link: https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/
+- Published: 2026-10-27T22:07:34+00:00
+- Link: https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/
 - Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- affected_industries: financial_services
-- affected_products: Apple iOS/macOS, Palo Alto Networks
-- cve_ids: CVE-2025-20701, CVE-2026-20700, CVE-2026-86950
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- affected_industries: financial_services
-- affected_products: Palo Alto Networks, Apple iOS/macOS
-- cve_ids: CVE-2026-86950, CVE-2026-20700, CVE-2025-20701
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in "extremely sophisticated" targeted attacks on iOS devices. [...]
-```
-
-#### Full body
-
-```
-Apple backports CoreGraphics zero-day patches to older iPhones By Sergiu Gatlan October 27, 2026 06:36 AM 0 ​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in "extremely sophisticated" targeted attacks on iOS devices. Apple patched the same vulnerability in September for devices running iOS 26.7.1 and iPadOS 26.7.1, macOS Tahoe 26.7.1, and macOS Sequoia 15.8.1. Meta Product Security discovered this out-of-bounds write weakness (tracked as CVE-2026-86950 ) in CoreGraphics, a framework used for two-dimensional vector graphics, text drawing, and image rendering across iOS, macOS, iPadOS, watchOS, and tvOS. Successful exploitation of out-of-bounds write security issues can let attackers crash programs, corrupt data, or gain remote code execution by writing data outside the allocated memory buffer. "Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27," Apple warned on Monday . "Processing a maliciously crafted file may lead to arbitrary code execution. An out-of-bounds write issue was addressed with improved bounds checking." With this week's security patches, Apple has now also addressed this vulnerability on iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later. While Apple said CVE-2026-86950 is exploited only in highly targeted attacks, it is strongly advised to install these backported patches to block potential attacks. With this vulnerability, Apple has fixed two zero-days exploited in attacks this year. The other (CVE-2026-20700), an arbitrary code execution vulnerability in dyld (the Dynamic Link Editor used by Apple operating systems) also exploited in "extremely sophisticated" targeted attacks, was patched in February . Earlier this year, Apple also fixed a high-severity Beats Studio Buds flaw (CVE-2025-20701) that lets attackers in Bluetooth range spy on users' conversations, and patched older iPhones and iPads against four vulnerabilities targeted in cyberespionage and crypto-theft attacks using the Coruna exploit kit. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Apple patches CoreGraphics zero-day flaw exploited in attacks Arista patches new VeloCloud Orchestrator zero-day exploited in attacks BeyondTrust patches zero-day exploited in attacks since August Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks Cisco patches new Secure Email Gateway zero-day exploited in attacks
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Apple backports CoreGraphics zero-day patches to older iPhones
-  - Published: 2026-10-27T10:36:12+00:00
-  - Link: https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/
-  - Summary: ​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in "extremely sophisticated" targeted attacks on iOS devices. [...]
-
-### Cluster 5b68cacdbd — score 9
-
-- Title: Energy giant ENGIE discloses data breach affecting customers
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-10-27T09:25:50+00:00
-- Link: https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
-- affected_industries: critical_infrastructure, financial_services, legal_professional, retail_ecommerce
-- affected_products: Salesforce
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
-- affected_industries: financial_services, critical_infrastructure, retail_ecommerce, legal_professional
-- affected_products: Salesforce
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. [...]
-```
-
-#### Full body
-
-```
-Energy giant ENGIE discloses data breach affecting customers By Sergiu Gatlan October 27, 2026 05:25 AM 0 French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. ENGIE operates in renewable energy, infrastructure, and customer energy supply in 30 countries, employs over 90,000 people, and reported €71.9 billion in revenue last year. An ENGIE spokesperson told BleepingComputer that it cut off the attackers' access to the compromised platform and that they didn't breach the company's internal systems. "ENGIE's internal IT systems were not compromised. ENGIE recently identified unusual data access activity within a tool used by partners as part of their customer prospecting activities and the marketing of energy offers," the spokesperson said. The ENGIE spokesperson didn't say how many customers were affected, but told BleepingComputer the incident is limited to customers in France. Since the attack, ENGIE has notified relevant authorities and contacted affected customers to inform them of the breach. "The investigations conducted to date indicate that the data concerned is limited to customers' contact details and certain information relating to their energy contracts. No banking data is affected," ENGIE told BleepingComputer. "In the interest of transparency, ENGIE individually informed each customer concerned and reminded them of the precautionary measures they should take to protect themselves against potential fraud or phishing attempts." Although the company didn't share what customer information was stolen in the attack, it said in breach notification letters sent to affected customers that the threat actors gained access to their first and last names, mailing address, email address, phone number, Delivery Point (PDL) or Metering and Estimation Point (PCE), customer ID, and contract number. ENGIE didn't attribute the attack to a specific threat group, and no ransomware operation or extortion gang has claimed the ENGIE breach before publication. One year ago, the Scattered LAPSUS$ Hunters extortion group also leaked records they claimed to have stolen after allegedly breaching a Salesforce instance of Engie Records , the retail energy supply subsidiary of ENGIE North America. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Retail giant Ahold Delhaize takes systems offline after cyberattack Nikkei discloses third data breach in a month, 1.8M records exposed Burger King Japan data breach exposes 11 million customer records UK Legal Aid Agency: Hackers stole records dating back to 1978 UK Housing Ombudsman Service investigates 'security incident'
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Energy giant ENGIE discloses data breach affecting customers
-  - Published: 2026-10-27T09:25:50+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/
-  - Summary: French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. [...]
-
-### Cluster fa912d9391 — score 9
-
-- Title: iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-10-27T11:49:57+00:00
-- Link: https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Apple iOS/macOS
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, zero_day
-- affected_industries: manufacturing_industrial
-- affected_products: Anthropic/Claude, Apple iOS/macOS
-- cve_ids: CVE-2026-86950
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, apt_espionage
-- affected_industries: manufacturing_industrial
-- affected_products: Apple iOS/macOS, Anthropic/Claude
-- cve_ids: CVE-2026-86950
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Apple patched 286 vulnerabilities in iOS and macOS 27.2 and brought the fix for an exploited CoreGraphics zero-day to older iPhones. The post iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18 appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Apple on Monday released updates for its operating systems, addressing a total of 286 vulnerabilities across the newest versions of iOS and macOS. In addition, the company has backported the fix for an exploited vulnerability to iOS 18. macOS Golden Gate 27.2 resolves 263 vulnerabilities while iOS and iPadOS 27.2 fix 163 flaws. Roughly 140 of the security holes are shared across the two operating systems. The iOS and iPadOS 27.2 updates address many memory corruption bugs in WebKit, the kernel and components that handle images, fonts, PDFs, audio and video files, some of which could be exploited for arbitrary code execution. Apple also resolved flaws that could let apps access sensitive user data or bypass privacy preferences, along with WebContent sandbox escapes, a Kerberos KDC impersonation issue, and a bug that could give a nearby attacker access to a Thread network. macOS Golden Gate 27.2 patches more than a dozen privilege escalation flaws that could give apps root access, as well as sandbox escapes, Gatekeeper bypasses and kernel memory corruption issues in file system and disk image components. The update also fixes numerous security holes in Screen Sharing, Remote Management and SMB that can be targeted remotely or from the local network, including a Remote Management bug that could allow a remote attacker to execute arbitrary code. Advertisement. Scroll to continue reading. iOS and iPadOS 18.7.11 fix three vulnerabilities, including CVE-2026-86950, which had been exploited as a zero-day in what Apple described as an “extremely sophisticated attack.” The vulnerability, discovered by Meta’s product security team, was first patched by Apple in late September in iOS 26.7.1, iPadOS 26.7.1, macOS Tahoe 26.7.1, and macOS Sequoia 15.8.1. iOS and macOS 27 do not appear to be affected. There does not appear to be any public information detailing the attacks exploiting CVE-2026-86950. Apple on Monday also released iOS and iPadOS 26.7.2, which fix 134 vulnerabilities, macOS Tahoe 26.7.2, which patches 213 vulnerabilities, and macOS Sequoia 15.8.2, with 197 flaws patched. The tech giant also released tvOS 27.2 (72 vulnerabilities patched), watchOS 27.2 (62 vulnerabilities), visionOS 27.2 (125 vulnerabilities), and Safari 27.2 (33 vulnerabilities). Related : Apple to Tighten Full Disk Access Controls in macOS Amid AI Risks Related : Apple Patches 200 Vulnerabilities With New iOS 27, macOS Golden Gate 27 Releases Related : AI Slop Limits Apple Bounties Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Industrial Vendors Check Products for PHP2Shell Vulnerabilities PHP2Shell Exploitation Moves From Probes to Working Shells Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge Atlassian Patches 75 Flaws in Data Center and Server Products Iran’s Prince of Persia APT Hosts C&C in US for First Time Since 2016 Tech and Security Companies Respond to PHP2Shell Vulnerabilities Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU Latest News Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk HPE Patches Dozens of Critical Flaws in Networking Products Unexplained DreamHost Incident Prompts Email, FTP Password Resets Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI This is Fine: What NetScaler Zero-Days Tell Us About the New Normal Dead Popcorn Time Updater Put Millions of
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18
-  - Published: 2026-10-27T11:49:57+00:00
-  - Link: https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/
-  - Summary: Apple patched 286 vulnerabilities in iOS and macOS 27.2 and brought the fix for an exploited CoreGraphics zero-day to older iPhones. The post iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18 appeared first on SecurityWeek .
-
-### Cluster 0f5a56374a — score 9
-
-- Title: SBOMs Alone Can't Reveal the Scope of a Supply Chain Attack
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-10-27T19:58:06+00:00
-- Link: https://www.darkreading.com/cyber-risk/sboms-alone-scope-supply-chain-attack
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A recent Shai-Hulud attack shows defenders need real-time visibility into production code and affected services to respond to supply chain compromises.
-```
-
-#### Corroborating sources (1)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: SBOMs Alone Can't Reveal the Scope of a Supply Chain Attack
-  - Published: 2026-10-27T19:58:06+00:00
-  - Link: https://www.darkreading.com/cyber-risk/sboms-alone-scope-supply-chain-attack
-  - Summary: A recent Shai-Hulud attack shows defenders need real-time visibility into production code and affected services to respond to supply chain compromises.
-
-### Cluster 4bd2af1f5f — score 9
-
-- Title: Cyberattack disrupts University of New Mexico hospitals, extortion group claims attack
-- Source: Help Net Security (cyber_news_breach_reporting)
-- Published: 2026-10-27T12:24:14+00:00
-- Link: https://www.helpnetsecurity.com/2026/10/27/university-of-new-mexico-hospitals-cyberattack/
-- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -3609,28 +3478,77 @@ A recent Shai-Hulud attack shows defenders need real-time visibility into produc
 #### Cluster taxonomy (union across members)
 - threat_categories: data_breach, ransomware_extortion
 - affected_industries: education, healthcare
+- affected_products: Microsoft Entra
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: ransomware_extortion, data_breach
 - affected_industries: healthcare, education
+- affected_products: Microsoft Entra
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-University of New Mexico (UNM) Health Sciences Center (HSC), the academic medical arm of the University of New Mexico, has suffered a cyberattack that has temporarily disrupted the operation of its hospitals and may have resulted in a substantial data breach. Hospitals diverted ambulances and canceled appointments The University of New Mexico, located in Albuquerque, New Mexico, is a public research university. Its Health Sciences Center encompasses its clinical, research and education initiatives. The clinical … More → The post Cyberattack disrupts University of New Mexico hospitals, extortion group claims attack appeared first on Help Net Security .
+The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]
+```
+
+#### Full body
+
+```
+UNM Health ransomware attack disrupts patient care, surgeries By Bill Toulas October 27, 2026 06:07 PM 0 The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. On Monday, UNM Health, the university’s healthcare provider, began temporarily limiting new patient admissions, diverting ambulances to nearby hospitals, and suspending outpatient surgeries and appointments. In an update on the incident, UNM said UNM Hospital and Sandoval Regional Medical Center remain open, and all clinics will resume scheduled appointments and procedures starting today, Tuesday, October 27. Regarding emergencies, the healthcare organization advised that people should call 911. However, today’s classes at its four health sciences schools are canceled, and nonessential HSC employees were instructed to stay home. UNM Health is a major statewide provider of specialist care with more than 1 million patient visits annually. Its flagship UNM Hospital in Albuquerque houses New Mexico’s only Level I trauma center , treating the most seriously injured patients. Byod ransomware claims the attack UNM did not disclose the type of cyberattack it suffered, but BleepingComputer found that a new ransomware group called Byod had claimed the attack. In a post on their data leak site, the threat actor said it had compromised 36,000 systems across UNM’s main campus and hospital environments, including Active Directory forests, Group Policy infrastructure, the entire Microsoft Entra tenant, and two Oracle databases. "This is your entire network and infrastructure compromised, the entire university COMPLETELY," the threat actor said. They claim access to student and employee personal data, including: Social Security numbers (SSNs) HR, payroll, and Banner student records Internal emails Research data Hospital appointment data Patient information Cerner EHR rosters In an attempt to force a payment, Byod ransomware said it would take down the breach post after the university initiated communication, likely for negotiating a ransom. BleepingComputer has reached out to UNM Health Sciences with a request for comment about these data theft allegations, but we have not received a response. In a new post today, Byod ransomware said it would provide free keys that decrypt locked systems at healthcare facilities. Caption Furthermore, the threat actor promised to pay up to $2,500 for every patient affected by the cyberattack. "We have morals and we have a heart, we are not villains, but we will still continue to hold companies responsible for bad security leading to the compromise of any customer data," the cybercriminals said. However, the threat actor also said that it would keep all the stolen data. Byod is a new ransomware gang that currently lists six victims on its data leak site. For three of them, it has already leaked the allegedly stolen data. On its FAQ page, the threat group claims it is doing “pentesting” to expose vulnerabilities and hold data controllers accountable for breaches. Source: BleepingComputer Byod says no target is off-limits, but it selects victims after an initial assessment identifies a target of interest. The group says it focuses on “those at the top who look at consumers and/or customers as a number or another dollar in their pockets.” The UNM Health Sciences said today that all its critical electronic systems are back online and all UNM Health hospitals are fully open. Ambulance traffic is now operating normally, and all clinics have resumed scheduled appointments and procedures. The university said the quick recovery was possible due to IT security teams working "with external partners to secure the network." "Their assessment determined that the event affected some end-user devices but did not penetrate core systems or servers," UNM Health Sciences Center notes. Patients who received care at UNM hospitals, as well as staff and students who work and stu
 ```
 
 #### Corroborating sources (1)
 
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Cyberattack disrupts University of New Mexico hospitals, extortion group claims attack
-  - Published: 2026-10-27T12:24:14+00:00
-  - Link: https://www.helpnetsecurity.com/2026/10/27/university-of-new-mexico-hospitals-cyberattack/
-  - Summary: University of New Mexico (UNM) Health Sciences Center (HSC), the academic medical arm of the University of New Mexico, has suffered a cyberattack that has temporarily disrupted the operation of its hospitals and may have resulted in a substantial data breach. Hospitals diverted ambulances and canceled appointments The University of New Mexico, located in Albuquerque, New Mexico, is a public research university. Its Health Sciences Center encompasses its clinical, research and education initiatives. The clinical … More → The post Cyberattack disrupts University of New Mexico hospitals, extortion group claims attack appeared first on Help Net Security .
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: UNM Health ransomware attack disrupts patient care, surgeries
+  - Published: 2026-10-27T22:07:34+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/
+  - Summary: The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]
+
+### Cluster 91a61f3bcb — score 9
+
+- Title: Microsoft releases Windows OOB updates to distrust eMudhra certificates
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-10-27T18:20:28+00:00
+- Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Microsoft Windows
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- affected_products: Microsoft Windows
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. [...]
+```
+
+#### Full body
+
+```
+Microsoft releases Windows OOB updates to distrust eMudhra certificates By Lawrence Abrams October 27, 2026 02:20 PM 1 Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. The KB5134133 update for Windows 11 versions 24H2, 25H2, and 26H2 and the KB5134125 update for Windows 10 versions 21H2 and 22H2 were released on October 26. The updates are for systems without Internet access, devices that cannot access Microsoft's certificate-update service, and those where automatic Certificate Trust List (CTL) updates have been disabled. The updates were released after the discovery of eight eMudhra intermediate certificate authority private keys that were so weak they could be recovered almost instantly. All eight keys were generated in April 2025 and had values smaller than 256, allowing anyone to recover them by testing just 256 possible numbers. The compromised keys could have allowed attackers to forge certificates for legitimate websites and intercept encrypted communications. After the disclosure, eMudhra revoked the eight compromised intermediate certificates, and Mozilla, Google, Apple, and other software vendors also began revoking them. In response, Microsoft previously updated the Windows Disallowed Certificate Trust List to block the eight affected intermediate certificate authorities, including six used for TLS and two for code signing. The company also released a CRLSet update for Microsoft Edge and WebView2 to block affected TLS certificates, which enabled the block without requiring a browser update. Microsoft is now taking further steps by removing seven certificates associated with the affected certificate hierarchies from its Windows trust list. "On October 26, Microsoft released an out-of-band Windows update that removes seven certificates associated with the affected hierarchies: six eMudhra G3 roots and an AAA Certificate Services cross-sign, from the Windows trust list," Microsoft explained . The new update goes further by also removing trust in the eMudhra root certificates used to verify other certificates issued by the CA. Microsoft says the same seven certificates will also be removed from the Edge trust list on October 27. "Removing a root from a trust list is not the same as revoking the known impacted intermediate certificate authorities," explains Microsoft. "This is a separate trust decision, broader than blocking the identified compromised intermediate keys. Organizations with a specific compatibility need may choose to trust a certificate locally, subject to their own security assessment and policies." The company advises admins to install the update on disconnected Windows systems and identify any certificates that depend on the removed roots, as they may need to be replaced. Microsoft is also investigating the remaining eMudhra roots and may make additional trust changes as needed. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Microsoft: Windows Server 2016 reaches end of support in January Mozilla, Google, Apple block compromised eMudhra CA certificates Microsoft PowerToys adds CursorHide, Button Lock mouse tools Windows Server 2025 gets support for quick machine recovery Microsoft fixes game, app crashes caused by recent Windows update
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Microsoft releases Windows OOB updates to distrust eMudhra certificates
+  - Published: 2026-10-27T18:20:28+00:00
+  - Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/
+  - Summary: Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. [...]
 
 ### Cluster 597b974a57 — score 9
 
@@ -3638,16 +3556,18 @@ University of New Mexico (UNM) Health Sciences Center (HSC), the academic medica
 - Source: Schneier on Security (practitioner_analysis)
 - Published: 2026-10-23T11:04:22+00:00
 - Link: https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- affected_industries: financial_services
 - content_type: incident_report
 - confidence_tier: tier_3_analysis
 
 #### Primary article taxonomy
+- affected_industries: financial_services
 - content_type: incident_report
 - confidence_tier: tier_3_analysis
 
@@ -3657,6 +3577,12 @@ University of New Mexico (UNM) Health Sciences Center (HSC), the academic medica
 The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys : The compromised eMudhra keys were defective at a level that’s challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve cryptography private key contains roughly 384 bits of entropy, a size allowing almost 2 384 , or a number with 116 digits, different possibilities. The private key sizes of the compromised keys ranged from 3 to 8 bits. Astonishingly, the private keys were 4, 56, 66, 115, 155, 156, 230, 237...
 ```
 
+#### Full body
+
+```
+Clive Robinson • October 26, 2026 5:30 AM @ Kris Olejniczak, ALL, “Every step of the process was evidenced. Nobody evidenced the output.” Err not quite, For security reasons nobody evidenced the input to the process… Possibly because the system design prevented it. That is nobody looked at the random numbers going into the key making algorithm in the way necessary. It is why it is not so unusual for the more cautious to as a minimum, 1, Check the bit ratio of ones and zeros in the random number. 2, Check the set and clear bits distribution within the random number. 3, Check for “repeated runs” in the bit patterns. 4, Check the “fine structure” in the bit patterns. As part of the random number generation process to check a “True Random Number Generator”(TRNG) output is neither broken or being externally influenced in some way[1]. Or worse internally broken as part of the design process which has been shown[2]. It’s fairly clear that none of the “inputs” to these certificates had been checked. But what should be of more interest is how the person who “discovered” these eight random numbers found them? I suspect there might just be an interesting back story to that, which is yet to honestly and believably told… [1] If you look back on this blog you will find discussions on never using “on chip TRNGs” because they, 1, Do not allow access to the raw generator output so can not be checked. 2, Use a cryptographic algorithm to hide the many many weaknesses such on chip TRNGs have. 3, Use some form of chain mode such that “basic substitution” by the crypto algorithm is not obvious. 4, That originally the crypto algorithms proposed or used were actually weak. Originally the worst offender at this was “Intel”… Even Linus Torvalds got attacked over the proposals to drop what were seen as security measures by others and switch to using just the on chip TRNG and he later apologized for his abruptness over the issue. To see another perspective on just a part of this, https://www.nccgroup.com/research/on-linux-s-random-number-generation/ [2] Many early on chip TRNGs used “ring oscillators” with the outputs getting “mixed” in some way. The problem with this is each “ring oscillator” has a nominal or mean frequency of oscillation. If you mix the outputs of oscillators you get the sum and difference frequencies in the output of the mixer. Even though it’s digital and looks close in to be random, it’s anything but. It’s actually a one bit oversampled signal of the difference frequency as a very pure sinewave. The fact it looks entirely random “close in” is because of various effects one being the difference frequency and sampling frequency do not have common harmonics. However pull the timebase out, you can see by the intensity patterns that there is very definitely a digitised sinewave. I’ve talked about this on this blog a number of times in the past, and few if any have done the simple “graph drawing” that shows just how true it is. So to attack the system all you need to do is work out the “frequency and phase” of the ring oscillators that is actually not that difficult to do with the oversampled waveform. So a crypto algorithm is used to try and stop you doing this… But what if you “know the key” being used… Which the chip designers and probably SigInt agencies would know…
+```
+
 #### Corroborating sources (1)
 
 - **Schneier on Security** (practitioner_analysis)
@@ -3664,72 +3590,6 @@ The Indian CA eMudhra Limited has eight TLS certificates with laughably weak pri
   - Published: 2026-10-23T11:04:22+00:00
   - Link: https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html
   - Summary: The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys : The compromised eMudhra keys were defective at a level that’s challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve cryptography private key contains roughly 384 bits of entropy, a size allowing almost 2 384 , or a number with 116 digits, different possibilities. The private key sizes of the compromised keys ranged from 3 to 8 bits. Astonishingly, the private keys were 4, 56, 66, 115, 155, 156, 230, 237...
-
-### Cluster c0449d7e43 — score 9
-
-- Title: Cybercrime Doesn't Reinvent Itself. It Optimizes.
-- Source: Team Cymru (ransomware_ecrime_financial_crime)
-- Published: 2026-10-27T19:08:02+00:00
-- Link: https://www.team-cymru.com/post/ai-threat-intelligence-cybercrime-evolution
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Discover how AI threat intelligence reveals cybercriminals' true tactics. Learn why agentic AI and automated threat detection are reshaping cybersecurity.
-```
-
-#### Corroborating sources (1)
-
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - Title: Cybercrime Doesn't Reinvent Itself. It Optimizes.
-  - Published: 2026-10-27T19:08:02+00:00
-  - Link: https://www.team-cymru.com/post/ai-threat-intelligence-cybercrime-evolution
-  - Summary: Discover how AI threat intelligence reveals cybercriminals' true tactics. Learn why agentic AI and automated threat detection are reshaping cybersecurity.
-
-### Cluster 07ffc93cc1 — score 9
-
-- Title: Supercharge Threat Hunting: Team Cymru Pure Signal™ Scout Now Integrated with Google SecOps
-- Source: Team Cymru (ransomware_ecrime_financial_crime)
-- Published: 2026-10-27T19:08:02+00:00
-- Link: https://www.team-cymru.com/post/supercharge-threat-hunting-team-cymru-pure-signal-tm-scout-now-integrated-with-google-secops
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Team Cymru's Pure Signal Scout now integrates with Google SecOps, adding internet-scale NetFlow context to investigations, threat hunting, and response.
-```
-
-#### Corroborating sources (1)
-
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - Title: Supercharge Threat Hunting: Team Cymru Pure Signal™ Scout Now Integrated with Google SecOps
-  - Published: 2026-10-27T19:08:02+00:00
-  - Link: https://www.team-cymru.com/post/supercharge-threat-hunting-team-cymru-pure-signal-tm-scout-now-integrated-with-google-secops
-  - Summary: Team Cymru's Pure Signal Scout now integrates with Google SecOps, adding internet-scale NetFlow context to investigations, threat hunting, and response.
 
 ### Cluster ab65df23ba — score 9
 
@@ -4107,6 +3967,80 @@ Wiz research has been monitoring PHP2Shell exploitation attempts, but none have 
   - Link: https://www.wiz.io/blog/php2shell-exploitation-so-far
   - Summary: Wiz research has been monitoring PHP2Shell exploitation attempts, but none have succeeded so far. We examine the techniques used, what prevented the attacks from completing and how observed exposure has changed since disclosure.
 
+### Cluster 09b1320a21 — score 8
+
+- Title: Apple backports CoreGraphics zero-day patches to older iPhones
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-10-27T10:36:12+00:00
+- Link: https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in "extremely sophisticated" targeted attacks on iOS devices. [...]
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Apple backports CoreGraphics zero-day patches to older iPhones
+  - Published: 2026-10-27T10:36:12+00:00
+  - Link: https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/
+  - Summary: ​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in "extremely sophisticated" targeted attacks on iOS devices. [...]
+
+### Cluster 5b68cacdbd — score 8
+
+- Title: Energy giant ENGIE discloses data breach affecting customers
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-10-27T09:25:50+00:00
+- Link: https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- affected_industries: critical_infrastructure
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- affected_industries: critical_infrastructure
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. [...]
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Energy giant ENGIE discloses data breach affecting customers
+  - Published: 2026-10-27T09:25:50+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/
+  - Summary: French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. [...]
+
 ### Cluster 6f46aa57df — score 8
 
 - Title: University of Copenhagen data breach exposes data of 525,000 people
@@ -4144,42 +4078,40 @@ The University of Copenhagen in Denmark confirmed that hackers accessed one of i
   - Link: https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/
   - Summary: The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]
 
-### Cluster 980755387b — score 8
+### Cluster 0f5a56374a — score 8
 
-- Title: External Teams Chats Anchor 15-Minute Malware Delivery
+- Title: SBOMs Alone Can't Reveal the Scope of a Supply Chain Attack
 - Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-10-27T20:42:40+00:00
-- Link: https://www.darkreading.com/cloud-security/email-bombing-external-teams-chats-repeatable-access-path
+- Published: 2026-10-27T19:58:06+00:00
+- Link: https://www.darkreading.com/cyber-risk/sboms-alone-scope-supply-chain-attack
 - Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: Black Basta
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, ransomware_extortion
-- actor_attribution: Black Basta
+- threat_categories: supply_chain
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng
-- actor_attribution: Black Basta
+- threat_categories: supply_chain
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Main bombing sis getting a new look with a wide-scale, ongoing social engineering campaign that might be tied to the Black Basta ransomware gang.
+A recent Shai-Hulud attack shows defenders need real-time visibility into production code and affected services to respond to supply chain compromises.
 ```
 
 #### Corroborating sources (1)
 
 - **Dark Reading** (cyber_news_breach_reporting)
-  - Title: External Teams Chats Anchor 15-Minute Malware Delivery
-  - Published: 2026-10-27T20:42:40+00:00
-  - Link: https://www.darkreading.com/cloud-security/email-bombing-external-teams-chats-repeatable-access-path
-  - Summary: Main bombing sis getting a new look with a wide-scale, ongoing social engineering campaign that might be tied to the Black Basta ransomware gang.
+  - Title: SBOMs Alone Can't Reveal the Scope of a Supply Chain Attack
+  - Published: 2026-10-27T19:58:06+00:00
+  - Link: https://www.darkreading.com/cyber-risk/sboms-alone-scope-supply-chain-attack
+  - Summary: A recent Shai-Hulud attack shows defenders need real-time visibility into production code and affected services to respond to supply chain compromises.
 
 ### Cluster 66b3516719 — score 8
 
@@ -4253,39 +4185,103 @@ Relatively small data breaches in India can turn quite serious, thanks to a soph
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak
   - Summary: Relatively small data breaches in India can turn quite serious, thanks to a sophisticated underground market for trading PII.
 
-### Cluster eb8a7d2d6d — score 8
+### Cluster c0449d7e43 — score 8
 
-- Title: Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-10-22T19:05:17+00:00
-- Link: https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html
+- Title: Cybercrime Doesn't Reinvent Itself. It Optimizes.
+- Source: Team Cymru (ransomware_ecrime_financial_crime)
+- Published: 2026-10-27T19:08:02+00:00
+- Link: https://www.team-cymru.com/post/ai-threat-intelligence-cybercrime-evolution
 - Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Discover how AI threat intelligence reveals cybercriminals' true tactics. Learn why agentic AI and automated threat detection are reshaping cybersecurity.
+```
+
+#### Corroborating sources (1)
+
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - Title: Cybercrime Doesn't Reinvent Itself. It Optimizes.
+  - Published: 2026-10-27T19:08:02+00:00
+  - Link: https://www.team-cymru.com/post/ai-threat-intelligence-cybercrime-evolution
+  - Summary: Discover how AI threat intelligence reveals cybercriminals' true tactics. Learn why agentic AI and automated threat detection are reshaping cybersecurity.
+
+### Cluster 07ffc93cc1 — score 8
+
+- Title: Supercharge Threat Hunting: Team Cymru Pure Signal™ Scout Now Integrated with Google SecOps
+- Source: Team Cymru (ransomware_ecrime_financial_crime)
+- Published: 2026-10-27T19:08:02+00:00
+- Link: https://www.team-cymru.com/post/supercharge-threat-hunting-team-cymru-pure-signal-tm-scout-now-integrated-with-google-secops
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Team Cymru's Pure Signal Scout now integrates with Google SecOps, adding internet-scale NetFlow context to investigations, threat hunting, and response.
+```
+
+#### Corroborating sources (1)
+
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - Title: Supercharge Threat Hunting: Team Cymru Pure Signal™ Scout Now Integrated with Google SecOps
+  - Published: 2026-10-27T19:08:02+00:00
+  - Link: https://www.team-cymru.com/post/supercharge-threat-hunting-team-cymru-pure-signal-tm-scout-now-integrated-with-google-secops
+  - Summary: Team Cymru's Pure Signal Scout now integrates with Google SecOps, adding internet-scale NetFlow context to investigations, threat hunting, and response.
+
+### Cluster 4d31e35acf — score 8
+
+- Title: Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-10-28T11:15:51+00:00
+- Link: https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-104351
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-104351
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: zero_day
-- urgency_signals: zero_day
+- cve_ids: CVE-2026-104351
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the central management system for VeloCloud SD-WAN networks, the company said in an advisory on October 22. The flaw lets anyone who can log in to the orchestrator, even with a read-only customer account, gain operator privileges, the top level of control over it. For
+Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation. The list of eight vulnerabilities is as follows - CVE-2026-104351 (CVSS score: 9.9) - A code injection vulnerability that could lead to arbitrary code execution.
 ```
 
 #### Corroborating sources (1)
 
 - **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks
-  - Published: 2026-10-22T19:05:17+00:00
-  - Link: https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html
-  - Summary: Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the central management system for VeloCloud SD-WAN networks, the company said in an advisory on October 22. The flaw lets anyone who can log in to the orchestrator, even with a read-only customer account, gain operator privileges, the top level of control over it. For
+  - Title: Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass
+  - Published: 2026-10-28T11:15:51+00:00
+  - Link: https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html
+  - Summary: Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation. The list of eight vulnerabilities is as follows - CVE-2026-104351 (CVSS score: 9.9) - A code injection vulnerability that could lead to arbitrary code execution.
