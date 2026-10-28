@@ -6,9 +6,19 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 27 Oct 2026 23:39:57 +0000</lastBuildDate>
+<lastBuildDate>Wed, 28 Oct 2026 05:07:07 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Breach victims discover their data was held by companies they’ve never heard of</title>
+<link>https://www.helpnetsecurity.com/2026/10/28/kroll-third-party-data-breaches-insurance-claims-report/</link>
+<description><![CDATA[Nearly seven in ten people affected by data breaches handled by Kroll were exposed through an outside supplier, according to its Data Breach Outlook 2026. Businesses rely on outside providers to store information, process transactions and operate software. A breach at one of those providers can expose customer records across multiple organizations, including people who have never heard of the company holding their data. Percentage of individuals impacted due to a third party, by industry … More → The post Breach victims discover their data was held by companies they’ve never heard of appeared first on Help Net Security .<br/><br/><em>Tags: data_breach</em>]]></description>
+<pubDate>Wed, 28 Oct 2026 05:00:19 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/10/28/kroll-third-party-data-breaches-insurance-claims-report/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>data_breach</category>
+</item>
 <item>
 <title>Japan&apos;s GMO urges customers to shut down PCs amid ransomware threat</title>
 <link>https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/</link>
@@ -414,12 +424,15 @@
 <item>
 <title>Apple backports CoreGraphics zero-day patches to older iPhones</title>
 <link>https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/</link>
-<description><![CDATA[​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in &quot;extremely sophisticated&quot; targeted attacks on iOS devices. [...]<br/><br/><em>Tags: zero_day</em>]]></description>
+<description><![CDATA[​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in &quot;extremely sophisticated&quot; targeted attacks on iOS devices. [...]<br/><br/><em>Tags: Palo Alto Networks · Apple iOS/macOS · CVE-2026-86950 · CVE-2026-20700 · CVE-2025-20701 · zero_day</em>]]></description>
 <pubDate>Tue, 27 Oct 2026 10:36:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
-<category>zero_day</category>
+<category>Palo Alto Networks</category>
+<category>Apple iOS/macOS</category>
+<category>CVE-2026-86950</category>
+<category>CVE-2026-20700</category>
 </item>
 <item>
 <title>This is Fine: What NetScaler Zero-Days Tell Us About the New Normal</title>
@@ -463,11 +476,14 @@
 <item>
 <title>Energy giant ENGIE discloses data breach affecting customers</title>
 <link>https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/</link>
-<description><![CDATA[French energy giant ENGIE, one of the world&apos;s largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. [...]<br/><br/><em>Tags: data_breach</em>]]></description>
+<description><![CDATA[French energy giant ENGIE, one of the world&apos;s largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. [...]<br/><br/><em>Tags: Salesforce · ransomware_extortion · phishing_social_eng · data_breach</em>]]></description>
 <pubDate>Tue, 27 Oct 2026 09:25:50 +0000</pubDate>
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
+<category>Salesforce</category>
+<category>ransomware_extortion</category>
+<category>phishing_social_eng</category>
 <category>data_breach</category>
 </item>
 <item>
@@ -1826,17 +1842,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) [infocon yellow], (Wed, Oct 21st)</title>
-<link>https://isc.sans.edu/diary/rss/33440</link>
-<description><![CDATA[PHP.net announced that it will release a critical update today. We decided to change the infoCon to YELLOW due to the widespread use of PHP, the expected severity of the flaw (CVSS 9.4), and the availability of early PoC exploits before the patch became available.<br/><br/><em>Tags: CVE-2026-109618 · CVE-2026-109619</em>]]></description>
-<pubDate>Wed, 21 Oct 2026 21:02:43 +0000</pubDate>
-<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33440</guid>
-<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
-<category>government_authoritative</category>
-<category>CVE-2026-109618</category>
-<category>CVE-2026-109619</category>
-</item>
-<item>
 <title>Compromised eMudhra intermediate certificates</title>
 <link>https://blog.talosintelligence.com/compromised-intermediate-certificates/</link>
 <description><![CDATA[Cisco Talos is aware of eight intermediate certificates belonging to the intermediate certificate authority, eMudhra.<br/><br/><em>Tags: Cisco · Kubernetes · CVE-2026-111943</em>]]></description>
@@ -2262,36 +2267,111 @@
 <item>
 <title>Operation FlashHole: Lazarus breaks security, defies control</title>
 <link>https://securelist.com/lazarus-operation-flashhole/121541/</link>
-<description><![CDATA[Kaspersky researchers analyze Operation FlashHole – a recent complex attack by Lazarus, involving a sophisticated malware set, watering-hole technique and abuse of CrossWeb EX financial security software.<br/><br/><em>Tags: Lazarus · phishing_social_eng</em>]]></description>
+<description><![CDATA[Kaspersky researchers analyze Operation FlashHole – a recent complex attack by Lazarus, involving a sophisticated malware set, watering-hole technique and abuse of CrossWeb EX financial security software.<br/><br/><em>Tags: Lazarus</em>]]></description>
 <pubDate>Wed, 21 Oct 2026 02:07:29 +0000</pubDate>
 <guid isPermaLink="true">https://securelist.com/lazarus-operation-flashhole/121541/</guid>
 <source url="https://securelist.com/feed/">Kaspersky Securelist</source>
 <category>threat_research_primary</category>
 <category>Lazarus</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>PHP2Shell Exploitation: Two Critical PHP Flaws Explained</title>
 <link>https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation</link>
-<description><![CDATA[Two critical PHP remote code execution flaws (PHP2Shell) are reportedly being exploited. See who’s exposed, how the exploits work, and how to remediate now.<br/><br/><em>Tags: WordPress · Drupal · OpenAI/ChatGPT · CVE-2026-109618 · CVE-2026-109619</em>]]></description>
+<description><![CDATA[Two critical PHP remote code execution flaws (PHP2Shell) are reportedly being exploited. See who’s exposed, how the exploits work, and how to remediate now.]]></description>
 <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation</guid>
 <source url="https://www.recordedfuture.com/feed">Recorded Future</source>
 <category>threat_research_primary</category>
-<category>WordPress</category>
-<category>Drupal</category>
-<category>OpenAI/ChatGPT</category>
-<category>CVE-2026-109618</category>
+</item>
+<item>
+<title>[webapps] pizzafy-1.0 - SQLi</title>
+<link>https://www.exploit-db.com/exploits/52703</link>
+<description><![CDATA[pizzafy-1.0 - SQLi]]></description>
+<pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52703</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[remote] South River Technologies Titan MFT Server 26.0.0 - code execution</title>
+<link>https://www.exploit-db.com/exploits/52701</link>
+<description><![CDATA[South River Technologies Titan MFT Server 26.0.0 - code execution]]></description>
+<pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52701</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[remote] Synametrics Syncrify 6.2 - command execution</title>
+<link>https://www.exploit-db.com/exploits/52700</link>
+<description><![CDATA[Synametrics Syncrify 6.2 - command execution]]></description>
+<pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52700</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>[webapps] Keycloak 26.7.2 - Unauthenticated Account Takeover</title>
 <link>https://www.exploit-db.com/exploits/52699</link>
-<description><![CDATA[Keycloak 26.7.2 - Unauthenticated Account Takeover<br/><br/><em>Tags: CVE-2026-18963</em>]]></description>
+<description><![CDATA[Keycloak 26.7.2 - Unauthenticated Account Takeover]]></description>
 <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52699</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
-<category>CVE-2026-18963</category>
+</item>
+<item>
+<title>[webapps] Open eClass 3.15 - RCE</title>
+<link>https://www.exploit-db.com/exploits/52698</link>
+<description><![CDATA[Open eClass 3.15 - RCE]]></description>
+<pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52698</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[webapps] Automotive Shop Management System 1.0 - SQLi</title>
+<link>https://www.exploit-db.com/exploits/52697</link>
+<description><![CDATA[Automotive Shop Management System 1.0 - SQLi]]></description>
+<pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52697</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[remote] Edimax BR-6478AC firmware v2.20 - authenticated command injection</title>
+<link>https://www.exploit-db.com/exploits/52696</link>
+<description><![CDATA[Edimax BR-6478AC firmware v2.20 - authenticated command injection]]></description>
+<pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52696</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[remote] Exasol Database 7.1.30 - command execution</title>
+<link>https://www.exploit-db.com/exploits/52695</link>
+<description><![CDATA[Exasol Database 7.1.30 - command execution]]></description>
+<pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52695</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[remote] Parasoft Continuous Testing Platform 10.7.5 - JSP command execution</title>
+<link>https://www.exploit-db.com/exploits/52694</link>
+<description><![CDATA[Parasoft Continuous Testing Platform 10.7.5 - JSP command execution]]></description>
+<pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52694</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[remote] ProSoft RLX-IFH24E v2.2.44 - Unsigned Firmware Upgrade Package Executed as Root</title>
+<link>https://www.exploit-db.com/exploits/52693</link>
+<description><![CDATA[ProSoft RLX-IFH24E v2.2.44 - Unsigned Firmware Upgrade Package Executed as Root]]></description>
+<pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52693</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>Proof-of-concept exploit released for PHP vulnerabilities (CVE-2026-109618, CVE-2026-109619)</title>
@@ -2318,15 +2398,13 @@
 <item>
 <title>LiteLLM supply chain compromise: What you need to know</title>
 <link>https://securitylabs.datadoghq.com/articles/litellm-compromised-pypi-docker/</link>
-<description><![CDATA[Malicious releases of LiteLLM v1.107.0 were published to PyPI and container registries following multiple maintainer account compromises.<br/><br/><em>Tags: GitHub · PyPI · AWS · TeamPCP · supply_chain · credential_theft · web_shell_backdoor · active_exploitation</em>]]></description>
+<description><![CDATA[Malicious releases of LiteLLM v1.107.0 were published to PyPI and container registries following multiple maintainer account compromises.<br/><br/><em>Tags: PyPI · supply_chain</em>]]></description>
 <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://securitylabs.datadoghq.com/articles/litellm-compromised-pypi-docker/</guid>
 <source url="https://securitylabs.datadoghq.com/rss/feed.xml">Datadog Security Labs</source>
 <category>cloud_identity_infrastructure</category>
-<category>GitHub</category>
 <category>PyPI</category>
-<category>AWS</category>
-<category>TeamPCP</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>php2shell: Assessing Elastic detection coverage relevant to CVE-2026-109618 and CVE-2026-109619</title>
@@ -7617,16 +7695,6 @@
 <guid isPermaLink="true">https://grahamcluley.com/smashing-security-podcast-486/</guid>
 <source url="https://grahamcluley.com/feed/">Graham Cluley</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>ICYMI: August 2026 @AWS Security</title>
-<link>https://aws.amazon.com/blogs/security/icymi-august-2026-aws-security/</link>
-<description><![CDATA[Read all about the latest AWS security features, compliance updates, and hands-on resources in our monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts August brought 20 AWS Security Blog posts organized across seven categories. Identity and access management led the month with five posts […]<br/><br/><em>Tags: AWS</em>]]></description>
-<pubDate>Wed, 23 Sep 2026 23:07:36 +0000</pubDate>
-<guid isPermaLink="true">https://aws.amazon.com/blogs/security/icymi-august-2026-aws-security/</guid>
-<source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
-<category>cloud_identity_infrastructure</category>
-<category>AWS</category>
 </item>
 <item>
 <title>Forensic Data: How to Acquire and Retain Vital Evidence</title>
@@ -13444,18 +13512,6 @@
 <guid isPermaLink="true">https://www.welivesecurity.com/en/cybercrime/eviltokens-phishing-doesnt-steal-password/</guid>
 <source url="https://www.welivesecurity.com/en/rss/feed/">ESET WeLiveSecurity</source>
 <category>threat_research_primary</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
-<title>Risky Bulletin: Arch Linux supply chain attack hits 1,900 packages</title>
-<link>https://risky.biz/RBNEWS577/</link>
-<description><![CDATA[Almost 2,000 Arch Linux packages have been infected with malware in a supply chain attack, FISA surveillance powers expire for the first time since 2008, the FBI takes down a Chinese phishing service, and a major supply chain attack hits the WordPress ecosystem.<br/><br/><em>Tags: WordPress · supply_chain · phishing_social_eng</em>]]></description>
-<pubDate>Mon, 15 Jun 2026 05:53:18 +0000</pubDate>
-<guid isPermaLink="true">https://risky.biz/RBNEWS577/</guid>
-<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
-<category>WordPress</category>
-<category>supply_chain</category>
 <category>phishing_social_eng</category>
 </item>
 <item>
@@ -20591,7 +20647,7 @@
 <title>Why Organizations Secure AI Agents with Falcon Guardian</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 27 Oct 2026 23:39:57 +0000</pubDate>
+<pubDate>Wed, 28 Oct 2026 05:07:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20600,7 +20656,7 @@
 <title>Obstacles to Weaponizing PHP2Shell Likely Constrain Immediate Widespread Exploitation</title>
 <link>https://www.crowdstrike.com/en-us/blog/obstacles-to-weaponizing-php2shell-likely-constrain-exploitation/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 27 Oct 2026 23:39:57 +0000</pubDate>
+<pubDate>Wed, 28 Oct 2026 05:07:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/obstacles-to-weaponizing-php2shell-likely-constrain-exploitation/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20609,7 +20665,7 @@
 <title>CrowdStrike Protects Customers from Threats Delivered via PHP2Shell</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-protects-customers-from-php-rce-zero-days/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 27 Oct 2026 23:39:57 +0000</pubDate>
+<pubDate>Wed, 28 Oct 2026 05:07:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-protects-customers-from-php-rce-zero-days/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20618,7 +20674,7 @@
 <title>CrowdStrike Uncovers New Agentic AI Campaigns</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-agentic-ai-campaigns/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 27 Oct 2026 23:39:57 +0000</pubDate>
+<pubDate>Wed, 28 Oct 2026 05:07:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-agentic-ai-campaigns/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20627,7 +20683,7 @@
 <title>CrowdStrike Achieves NCSC CIR Enhanced Level Assurance</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-achieves-uk-ncsc-cir-enhanced-level-assurance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 27 Oct 2026 23:39:57 +0000</pubDate>
+<pubDate>Wed, 28 Oct 2026 05:07:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-achieves-uk-ncsc-cir-enhanced-level-assurance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20636,7 +20692,7 @@
 <title>U.S. Government Disrupts FAMOUS CHOLLIMA Operation with CrowdStrike Assistance</title>
 <link>https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 27 Oct 2026 23:39:57 +0000</pubDate>
+<pubDate>Wed, 28 Oct 2026 05:07:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20645,7 +20701,7 @@
 <title>October 2026 Patch Tuesday: 1,413 CVEs Include Three Zero-Days and 75 Critical Vulnerabilities</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-october-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 27 Oct 2026 23:39:57 +0000</pubDate>
+<pubDate>Wed, 28 Oct 2026 05:07:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-october-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20654,7 +20710,7 @@
 <title>CrowdStrike and Anthropic Give Critical Infrastructure Defenders the AI Advantage</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 27 Oct 2026 23:39:57 +0000</pubDate>
+<pubDate>Wed, 28 Oct 2026 05:07:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20663,7 +20719,7 @@
 <title>Solving the Continuous Authorization Conundrum</title>
 <link>https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 27 Oct 2026 23:39:57 +0000</pubDate>
+<pubDate>Wed, 28 Oct 2026 05:07:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20672,7 +20728,7 @@
 <title>Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance</title>
 <link>https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 27 Oct 2026 23:39:57 +0000</pubDate>
+<pubDate>Wed, 28 Oct 2026 05:07:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
