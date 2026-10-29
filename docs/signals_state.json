@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-28T23:04:24.189684+00:00",
+  "last_run": "2026-10-29T02:20:28.818881+00:00",
   "observations": {
     "cve_ids": {
       "CVE-2026-0257": [
@@ -18044,6 +18044,28 @@
             "healthcare"
           ],
           "products": []
+        },
+        {
+          "ts": "2026-10-28T06:04:58+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "education",
+            "government",
+            "healthcare"
+          ],
+          "products": []
+        },
+        {
+          "ts": "2026-10-28T12:19:57+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "education",
+            "government",
+            "healthcare"
+          ],
+          "products": []
         }
       ],
       "CVE-2026-50656": [
@@ -27984,6 +28006,17 @@
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
           "industries": [],
+          "products": []
+        },
+        {
+          "ts": "2026-10-28T12:19:57+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "education",
+            "government",
+            "healthcare"
+          ],
           "products": []
         },
         {
@@ -48812,6 +48845,32 @@
             "GitLab",
             "OpenAI/ChatGPT"
           ]
+        },
+        {
+          "ts": "2026-10-24T06:25:57+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
+            "government"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "GitLab",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-10-28T16:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "aviation_defense",
+            "critical_infrastructure",
+            "government",
+            "telecommunications"
+          ],
+          "products": []
         },
         {
           "ts": "2026-10-24T06:25:57+00:00",
@@ -89396,6 +89455,18 @@
             "telecommunications"
           ],
           "products": []
+        },
+        {
+          "ts": "2026-10-28T16:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "aviation_defense",
+            "critical_infrastructure",
+            "government",
+            "telecommunications"
+          ],
+          "products": []
         }
       ],
       "CVE-2025-8876": [
@@ -89521,6 +89592,18 @@
           "industries": [
             "critical_infrastructure",
             "government"
+          ],
+          "products": []
+        },
+        {
+          "ts": "2026-10-28T16:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "aviation_defense",
+            "critical_infrastructure",
+            "government",
+            "telecommunications"
           ],
           "products": []
         },
@@ -244226,6 +244309,13 @@
           "tier": "tier_2_operator",
           "industries": [],
           "products": []
+        },
+        {
+          "ts": "2026-10-23T00:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": []
         }
       ],
       "CVE-2026-64849": [
@@ -253712,6 +253802,13 @@
             "government",
             "healthcare"
           ],
+          "products": []
+        },
+        {
+          "ts": "2026-10-27T10:16:48+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
           "products": []
         },
         {
@@ -287931,6 +288028,17 @@
             "GitHub",
             "OpenAI/ChatGPT"
           ]
+        },
+        {
+          "ts": "2026-10-23T15:38:56+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "GitHub",
+            "OpenAI/ChatGPT"
+          ]
         }
       ],
       "CVE-2026-0769": [
@@ -288558,6 +288666,17 @@
             "GitHub",
             "OpenAI/ChatGPT",
             "PyPI"
+          ]
+        },
+        {
+          "ts": "2026-10-23T15:38:56+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "GitHub",
+            "OpenAI/ChatGPT"
           ]
         },
         {
@@ -356093,6 +356212,20 @@
             "GitLab",
             "OpenAI/ChatGPT"
           ]
+        },
+        {
+          "ts": "2026-10-24T06:25:57+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
+            "government"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "GitLab",
+            "OpenAI/ChatGPT"
+          ]
         }
       ],
       "CVE-2026-86296": [
@@ -375871,6 +376004,29 @@
             "telecommunications"
           ],
           "products": []
+        },
+        {
+          "ts": "2026-10-28T16:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "aviation_defense",
+            "critical_infrastructure",
+            "government",
+            "telecommunications"
+          ],
+          "products": []
+        },
+        {
+          "ts": "2026-10-28T21:32:02+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "aviation_defense"
+          ],
+          "products": [
+            "Cisco"
+          ]
         },
         {
           "ts": "2026-10-28T16:00:00+00:00",
@@ -415553,6 +415709,20 @@
             "GitLab",
             "OpenAI/ChatGPT"
           ]
+        },
+        {
+          "ts": "2026-10-24T06:25:57+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
+            "government"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "GitLab",
+            "OpenAI/ChatGPT"
+          ]
         }
       ],
       "CVE-2026-106931": [
@@ -415614,6 +415784,13 @@
             "Citrix",
             "Ivanti"
           ]
+        },
+        {
+          "ts": "2026-10-27T10:16:48+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": []
         },
         {
           "ts": "2026-10-27T10:16:48+00:00",
@@ -418033,6 +418210,13 @@
           "tier": "tier_1_primary_research",
           "industries": [],
           "products": []
+        },
+        {
+          "ts": "2026-10-27T10:16:48+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": []
         }
       ],
       "CVE-2026-101767": [
@@ -418832,6 +419016,35 @@
           ],
           "products": [
             "Apple iOS/macOS"
+          ]
+        },
+        {
+          "ts": "2026-10-28T12:19:57+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "education",
+            "government",
+            "healthcare"
+          ],
+          "products": []
+        },
+        {
+          "ts": "2026-10-28T20:57:18+00:00",
+          "cohort": "cloud_identity_infrastructure",
+          "tier": "tier_2_operator",
+          "industries": [
+            "financial_services"
+          ],
+          "products": []
+        },
+        {
+          "ts": "2026-10-22T20:25:59+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "GitHub"
           ]
         },
         {
@@ -422813,6 +423026,77 @@
           ],
           "products": [
             "AWS",
+            "Drupal",
+            "Palo Alto Networks",
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-10-22T20:25:59+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "GitHub"
+          ]
+        },
+        {
+          "ts": "2026-10-23T11:25:43+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-10-26T14:06:13+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "GitLab"
+          ]
+        },
+        {
+          "ts": "2026-10-26T16:12:38+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "healthcare",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Docker",
+            "GitLab",
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-10-22T19:00:56+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": []
+        },
+        {
+          "ts": "2026-10-27T10:16:48+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": []
+        },
+        {
+          "ts": "2026-10-28T00:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
             "Drupal",
             "Palo Alto Networks",
             "WordPress"
@@ -427360,6 +427644,77 @@
           "tier": "tier_1_primary_research",
           "industries": [],
           "products": []
+        },
+        {
+          "ts": "2026-10-28T00:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "Drupal",
+            "Palo Alto Networks",
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-10-22T20:25:59+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "GitHub"
+          ]
+        },
+        {
+          "ts": "2026-10-23T11:25:43+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-10-26T14:06:13+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "GitLab"
+          ]
+        },
+        {
+          "ts": "2026-10-26T16:12:38+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "healthcare",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Docker",
+            "GitLab",
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-10-22T19:00:56+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": []
+        },
+        {
+          "ts": "2026-10-27T10:16:48+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": []
         }
       ],
       "CVE-2026-110264": [
@@ -427745,9 +428100,34 @@
             "GitLab",
             "WordPress"
           ]
+        },
+        {
+          "ts": "2026-10-26T16:12:38+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "healthcare",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Docker",
+            "GitLab",
+            "WordPress"
+          ]
         }
       ],
       "CVE-2022-21894": [
+        {
+          "ts": "2026-10-22T06:00:48+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
+            "Microsoft Windows"
+          ]
+        },
         {
           "ts": "2026-10-22T06:00:48+00:00",
           "cohort": "threat_research_primary",
@@ -428663,6 +429043,20 @@
             "GitLab",
             "OpenAI/ChatGPT"
           ]
+        },
+        {
+          "ts": "2026-10-24T06:25:57+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
+            "government"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "GitLab",
+            "OpenAI/ChatGPT"
+          ]
         }
       ],
       "CVE-2026-94300": [
@@ -428990,6 +429384,15 @@
           "products": [
             "GitHub",
             "Ivanti"
+          ]
+        },
+        {
+          "ts": "2026-10-22T20:25:59+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "GitHub"
           ]
         },
         {
@@ -430795,6 +431198,34 @@
             "GitLab",
             "WordPress"
           ]
+        },
+        {
+          "ts": "2026-10-23T11:25:43+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-10-26T16:12:38+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "healthcare",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Docker",
+            "GitLab",
+            "WordPress"
+          ]
         }
       ],
       "CVE-2026-79844": [
@@ -432156,6 +432587,22 @@
           "products": [
             "GitLab"
           ]
+        },
+        {
+          "ts": "2026-10-26T17:32:46+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": []
+        },
+        {
+          "ts": "2026-10-26T14:06:13+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "GitLab"
+          ]
         }
       ],
       "CVE-2026-10134": [
@@ -432451,6 +432898,17 @@
             "GitHub",
             "OpenAI/ChatGPT",
             "PyPI"
+          ]
+        },
+        {
+          "ts": "2026-10-23T15:38:56+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "GitHub",
+            "OpenAI/ChatGPT"
           ]
         },
         {
@@ -432814,6 +433272,17 @@
             "GitHub",
             "OpenAI/ChatGPT"
           ]
+        },
+        {
+          "ts": "2026-10-23T15:38:56+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "GitHub",
+            "OpenAI/ChatGPT"
+          ]
         }
       ],
       "CVE-2026-93680": [
@@ -433109,6 +433578,17 @@
             "GitHub",
             "OpenAI/ChatGPT",
             "PyPI"
+          ]
+        },
+        {
+          "ts": "2026-10-23T15:38:56+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "GitHub",
+            "OpenAI/ChatGPT"
           ]
         },
         {
@@ -433642,6 +434122,15 @@
           "products": [
             "GitLab"
           ]
+        },
+        {
+          "ts": "2026-10-26T14:06:13+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "GitLab"
+          ]
         }
       ],
       "CVE-2026-93577": [
@@ -433863,6 +434352,15 @@
         },
         {
           "ts": "2026-10-21T18:57:34+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "GitLab"
+          ]
+        },
+        {
+          "ts": "2026-10-26T14:06:13+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
           "industries": [],
@@ -434251,9 +434749,37 @@
           "tier": "tier_1_offensive_research",
           "industries": [],
           "products": []
+        },
+        {
+          "ts": "2026-10-22T20:25:59+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "GitHub"
+          ]
+        },
+        {
+          "ts": "2026-10-28T13:13:26+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": []
         }
       ],
       "CVE-2024-39717": [
+        {
+          "ts": "2026-10-28T16:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "aviation_defense",
+            "critical_infrastructure",
+            "government",
+            "telecommunications"
+          ],
+          "products": []
+        },
         {
           "ts": "2026-10-28T16:00:00+00:00",
           "cohort": "cyber_news_breach_reporting",
@@ -434286,6 +434812,26 @@
           "tier": "tier_5_chatter",
           "industries": [],
           "products": []
+        },
+        {
+          "ts": "2026-10-28T15:41:41+00:00",
+          "cohort": "reddit_practitioner_osint",
+          "tier": "tier_5_chatter",
+          "industries": [],
+          "products": []
+        }
+      ],
+      "CVE-2026-109691": [
+        {
+          "ts": "2026-10-28T00:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "Drupal",
+            "Palo Alto Networks",
+            "WordPress"
+          ]
         }
       ]
     },
@@ -457596,6 +458142,28 @@
             "healthcare"
           ],
           "products": []
+        },
+        {
+          "ts": "2026-10-28T06:04:58+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "education",
+            "government",
+            "healthcare"
+          ],
+          "products": []
+        },
+        {
+          "ts": "2026-10-28T12:19:57+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "education",
+            "government",
+            "healthcare"
+          ],
+          "products": []
         }
       ],
       "UNC5221": [
@@ -472740,6 +473308,35 @@
           "products": [
             "SolarWinds"
           ]
+        },
+        {
+          "ts": "2026-10-28T20:57:18+00:00",
+          "cohort": "cloud_identity_infrastructure",
+          "tier": "tier_2_operator",
+          "industries": [
+            "financial_services"
+          ],
+          "products": []
+        },
+        {
+          "ts": "2026-10-28T12:19:57+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "education",
+            "government",
+            "healthcare"
+          ],
+          "products": []
+        },
+        {
+          "ts": "2026-10-23T16:38:00+00:00",
+          "cohort": "ransomware_ecrime_financial_crime",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "SolarWinds"
+          ]
         }
       ],
       "APT29": [
@@ -477872,6 +478469,39 @@
             "manufacturing_industrial"
           ],
           "products": []
+        },
+        {
+          "ts": "2026-10-28T16:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "aviation_defense",
+            "critical_infrastructure",
+            "government",
+            "telecommunications"
+          ],
+          "products": []
+        },
+        {
+          "ts": "2026-10-27T19:08:02+00:00",
+          "cohort": "ransomware_ecrime_financial_crime",
+          "tier": "tier_2_operator",
+          "industries": [
+            "critical_infrastructure",
+            "manufacturing_industrial"
+          ],
+          "products": []
+        },
+        {
+          "ts": "2026-10-28T21:32:02+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "aviation_defense"
+          ],
+          "products": [
+            "Cisco"
+          ]
         },
         {
           "ts": "2026-10-28T16:00:00+00:00",
@@ -484115,6 +484745,17 @@
             "healthcare"
           ],
           "products": []
+        },
+        {
+          "ts": "2026-10-28T06:04:58+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "education",
+            "government",
+            "healthcare"
+          ],
+          "products": []
         }
       ],
       "RansomHub": [
@@ -489025,6 +489666,19 @@
             "healthcare"
           ],
           "products": []
+        },
+        {
+          "ts": "2026-10-28T18:00:10+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services",
+            "retail_ecommerce"
+          ],
+          "products": [
+            "Salesforce",
+            "SolarWinds"
+          ]
         },
         {
           "ts": "2026-10-28T18:00:10+00:00",
@@ -537334,6 +537988,16 @@
             "manufacturing_industrial"
           ],
           "products": []
+        },
+        {
+          "ts": "2026-10-27T19:08:02+00:00",
+          "cohort": "ransomware_ecrime_financial_crime",
+          "tier": "tier_2_operator",
+          "industries": [
+            "critical_infrastructure",
+            "manufacturing_industrial"
+          ],
+          "products": []
         }
       ],
       "UNC6780": [
@@ -540680,6 +541344,15 @@
         }
       ],
       "APT41": [
+        {
+          "ts": "2026-10-22T06:00:48+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
+            "Microsoft Windows"
+          ]
+        },
         {
           "ts": "2026-10-22T06:00:48+00:00",
           "cohort": "threat_research_primary",
@@ -591129,6 +591802,26 @@
           ],
           "products": [
             "AWS",
+            "Drupal",
+            "Palo Alto Networks",
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-10-22T17:15:32+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-10-28T00:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
             "Drupal",
             "Palo Alto Networks",
             "WordPress"
@@ -648143,6 +648836,96 @@
             "Anthropic/Claude",
             "OpenAI/ChatGPT"
           ]
+        },
+        {
+          "ts": "2026-10-23T15:38:56+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "GitHub",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-10-24T06:25:57+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
+            "government"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "GitLab",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-10-23T11:25:43+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-10-27T00:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [
+            "critical_infrastructure"
+          ],
+          "products": [
+            "Anthropic/Claude"
+          ]
+        },
+        {
+          "ts": "2026-10-26T10:00:18+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "Google/Gemini",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-10-28T16:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT",
+            "ScreenConnect"
+          ]
+        },
+        {
+          "ts": "2026-10-27T13:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-10-23T21:35:13+00:00",
+          "cohort": "ai_security_agentic_risk",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
         }
       ],
       "Microsoft Windows": [
@@ -658100,6 +658883,15 @@
           "ts": "2026-10-27T18:20:28+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Microsoft Windows"
+          ]
+        },
+        {
+          "ts": "2026-10-22T06:00:48+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
           "industries": [],
           "products": [
             "Microsoft Windows"
@@ -686799,6 +687591,17 @@
             "Cisco",
             "Kubernetes"
           ]
+        },
+        {
+          "ts": "2026-10-28T21:32:02+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "aviation_defense"
+          ],
+          "products": [
+            "Cisco"
+          ]
         }
       ],
       "Google Cloud": [
@@ -697429,6 +698232,19 @@
             "Google/Gemini",
             "LiteSpeed",
             "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-10-23T13:00:09+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "Android",
+            "Google Cloud",
+            "OpenAI/ChatGPT"
           ]
         },
         {
@@ -723490,6 +724306,44 @@
           ],
           "products": [
             "AWS",
+            "Drupal",
+            "Palo Alto Networks",
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-10-26T16:12:38+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "healthcare",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Docker",
+            "GitLab",
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-10-28T14:28:43+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-10-28T00:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
             "Drupal",
             "Palo Alto Networks",
             "WordPress"
@@ -763957,80 +764811,53 @@
             "GitHub",
             "Okta"
           ]
+        },
+        {
+          "ts": "2026-10-23T15:38:56+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "GitHub",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-10-22T20:25:59+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "GitHub"
+          ]
+        },
+        {
+          "ts": "2026-10-23T18:12:19+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
+            "GitHub",
+            "Microsoft Defender",
+            "PyPI"
+          ]
+        },
+        {
+          "ts": "2026-10-28T21:33:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "GitHub",
+            "Okta"
+          ]
         }
       ],
       "OpenAI/ChatGPT": [
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
           "ts": "2026-07-31T07:51:43+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -764043,16 +764870,6 @@
           "products": [
             "AWS",
             "Okta",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
             "OpenAI/ChatGPT"
           ]
         },
@@ -764074,16 +764891,6 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
           "ts": "2026-07-31T07:51:43+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -764101,12 +764908,18 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
+          "ts": "2026-07-31T07:51:43+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "government",
+            "healthcare"
+          ],
           "products": [
-            "Kubernetes",
+            "AWS",
+            "Anthropic/Claude",
             "OpenAI/ChatGPT"
           ]
         },
@@ -764127,12 +764940,18 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
+          "ts": "2026-07-31T07:51:43+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "government",
+            "healthcare"
+          ],
           "products": [
-            "Kubernetes",
+            "AWS",
+            "Anthropic/Claude",
             "OpenAI/ChatGPT"
           ]
         },
@@ -764153,16 +764972,6 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
           "ts": "2026-07-31T07:51:43+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -764175,68 +764984,6 @@
           "products": [
             "AWS",
             "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T07:51:43+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "government",
-            "healthcare"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T07:51:43+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "government",
-            "healthcare"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
             "OpenAI/ChatGPT"
           ]
         },
@@ -764268,16 +765015,6 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
           "ts": "2026-07-31T07:51:43+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -764302,16 +765039,6 @@
             "Citrix",
             "OpenAI/ChatGPT",
             "Palo Alto Networks"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
           ]
         },
         {
@@ -764369,12 +765096,58 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
+          "ts": "2026-08-01T07:12:42+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "manufacturing_industrial"
+          ],
           "products": [
-            "Kubernetes",
+            "GitHub",
+            "Microsoft SharePoint",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-07-31T07:51:43+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "government",
+            "healthcare"
+          ],
+          "products": [
+            "AWS",
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-07-31T14:14:15+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "education",
+            "financial_services"
+          ],
+          "products": [
+            "AWS",
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-08-01T11:15:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "AWS",
+            "Anthropic/Claude",
             "OpenAI/ChatGPT"
           ]
         },
@@ -764435,12 +765208,58 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
+          "ts": "2026-08-01T07:12:42+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "manufacturing_industrial"
+          ],
           "products": [
-            "Kubernetes",
+            "GitHub",
+            "Microsoft SharePoint",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-07-31T07:51:43+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "government",
+            "healthcare"
+          ],
+          "products": [
+            "AWS",
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-07-31T14:14:15+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "education",
+            "financial_services"
+          ],
+          "products": [
+            "AWS",
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-08-01T11:15:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "AWS",
+            "Anthropic/Claude",
             "OpenAI/ChatGPT"
           ]
         },
@@ -764501,12 +765320,58 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
+          "ts": "2026-08-01T07:12:42+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "manufacturing_industrial"
+          ],
           "products": [
-            "Kubernetes",
+            "GitHub",
+            "Microsoft SharePoint",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-07-31T07:51:43+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "government",
+            "healthcare"
+          ],
+          "products": [
+            "AWS",
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-07-31T14:14:15+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "education",
+            "financial_services"
+          ],
+          "products": [
+            "AWS",
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-08-01T11:15:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "AWS",
+            "Anthropic/Claude",
             "OpenAI/ChatGPT"
           ]
         },
@@ -764567,12 +765432,58 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
+          "ts": "2026-08-01T07:12:42+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "manufacturing_industrial"
+          ],
           "products": [
-            "Kubernetes",
+            "GitHub",
+            "Microsoft SharePoint",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-07-31T07:51:43+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "government",
+            "healthcare"
+          ],
+          "products": [
+            "AWS",
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-07-31T14:14:15+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "education",
+            "financial_services"
+          ],
+          "products": [
+            "AWS",
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-08-01T11:15:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "AWS",
+            "Anthropic/Claude",
             "OpenAI/ChatGPT"
           ]
         },
@@ -764633,16 +765544,6 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
           "ts": "2026-08-01T07:12:42+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -764699,16 +765600,6 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
           "ts": "2026-08-01T07:12:42+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -764761,280 +765652,6 @@
           "products": [
             "AWS",
             "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-01T07:12:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitHub",
-            "Microsoft SharePoint",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T07:51:43+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "government",
-            "healthcare"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T14:14:15+00:00",
-          "cohort": "threat_research_primary",
-          "tier": "tier_1_primary_research",
-          "industries": [
-            "education",
-            "financial_services"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-01T11:15:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "financial_services"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-01T07:12:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitHub",
-            "Microsoft SharePoint",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T07:51:43+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "government",
-            "healthcare"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T14:14:15+00:00",
-          "cohort": "threat_research_primary",
-          "tier": "tier_1_primary_research",
-          "industries": [
-            "education",
-            "financial_services"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-01T11:15:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "financial_services"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-01T07:12:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitHub",
-            "Microsoft SharePoint",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T07:51:43+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "government",
-            "healthcare"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T14:14:15+00:00",
-          "cohort": "threat_research_primary",
-          "tier": "tier_1_primary_research",
-          "industries": [
-            "education",
-            "financial_services"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-01T11:15:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "financial_services"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-01T07:12:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitHub",
-            "Microsoft SharePoint",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T07:51:43+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "government",
-            "healthcare"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T14:14:15+00:00",
-          "cohort": "threat_research_primary",
-          "tier": "tier_1_primary_research",
-          "industries": [
-            "education",
-            "financial_services"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-01T11:15:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "financial_services"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
             "OpenAI/ChatGPT"
           ]
         },
@@ -765096,16 +765713,6 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
           "ts": "2026-07-31T07:51:43+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -765145,82 +765752,6 @@
           "products": [
             "AWS",
             "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-01T11:15:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "financial_services"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T07:51:43+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "government",
-            "healthcare"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-01T07:12:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitHub",
-            "Microsoft SharePoint",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T14:14:15+00:00",
-          "cohort": "threat_research_primary",
-          "tier": "tier_1_primary_research",
-          "industries": [
-            "education",
-            "financial_services"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
             "OpenAI/ChatGPT"
           ]
         },
@@ -765281,12 +765812,58 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
+          "ts": "2026-08-01T11:15:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services"
+          ],
           "products": [
-            "Kubernetes",
+            "AWS",
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-07-31T07:51:43+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "government",
+            "healthcare"
+          ],
+          "products": [
+            "AWS",
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-08-01T07:12:42+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft SharePoint",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-07-31T14:14:15+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "education",
+            "financial_services"
+          ],
+          "products": [
+            "AWS",
+            "Anthropic/Claude",
             "OpenAI/ChatGPT"
           ]
         },
@@ -765347,12 +765924,58 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
+          "ts": "2026-08-01T11:15:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services"
+          ],
           "products": [
-            "Kubernetes",
+            "AWS",
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-07-31T07:51:43+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "government",
+            "healthcare"
+          ],
+          "products": [
+            "AWS",
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-08-01T07:12:42+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft SharePoint",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-07-31T14:14:15+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "education",
+            "financial_services"
+          ],
+          "products": [
+            "AWS",
+            "Anthropic/Claude",
             "OpenAI/ChatGPT"
           ]
         },
@@ -765413,12 +766036,58 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
+          "ts": "2026-08-01T11:15:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services"
+          ],
           "products": [
-            "Kubernetes",
+            "AWS",
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-07-31T07:51:43+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "government",
+            "healthcare"
+          ],
+          "products": [
+            "AWS",
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-08-01T07:12:42+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft SharePoint",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-07-31T14:14:15+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "education",
+            "financial_services"
+          ],
+          "products": [
+            "AWS",
+            "Anthropic/Claude",
             "OpenAI/ChatGPT"
           ]
         },
@@ -765479,12 +766148,58 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
+          "ts": "2026-08-01T11:15:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services"
+          ],
           "products": [
-            "Kubernetes",
+            "AWS",
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-07-31T07:51:43+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "government",
+            "healthcare"
+          ],
+          "products": [
+            "AWS",
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-08-01T07:12:42+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft SharePoint",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-07-31T14:14:15+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "education",
+            "financial_services"
+          ],
+          "products": [
+            "AWS",
+            "Anthropic/Claude",
             "OpenAI/ChatGPT"
           ]
         },
@@ -765545,214 +766260,6 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-01T11:15:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "financial_services"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T07:51:43+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "government",
-            "healthcare"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-01T07:12:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitHub",
-            "Microsoft SharePoint",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T14:14:15+00:00",
-          "cohort": "threat_research_primary",
-          "tier": "tier_1_primary_research",
-          "industries": [
-            "education",
-            "financial_services"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-01T11:15:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "financial_services"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T07:51:43+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "government",
-            "healthcare"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-01T07:12:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitHub",
-            "Microsoft SharePoint",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T14:14:15+00:00",
-          "cohort": "threat_research_primary",
-          "tier": "tier_1_primary_research",
-          "industries": [
-            "education",
-            "financial_services"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-01T11:15:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "financial_services"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T07:51:43+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "government",
-            "healthcare"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-01T07:12:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitHub",
-            "Microsoft SharePoint",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T14:14:15+00:00",
-          "cohort": "threat_research_primary",
-          "tier": "tier_1_primary_research",
-          "industries": [
-            "education",
-            "financial_services"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
           "ts": "2026-08-01T11:15:00+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -765793,16 +766300,6 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
           "ts": "2026-08-01T11:15:00+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -765839,16 +766336,6 @@
           "products": [
             "AWS",
             "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
             "OpenAI/ChatGPT"
           ]
         },
@@ -765917,16 +766404,6 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
           "ts": "2026-07-31T14:14:15+00:00",
           "cohort": "threat_research_primary",
           "tier": "tier_1_primary_research",
@@ -765952,13 +766429,40 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
+          "ts": "2026-08-01T07:12:42+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft SharePoint",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-07-31T14:14:15+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
           "industries": [],
           "products": [
-            "Kubernetes",
+            "Anthropic/Claude",
             "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-08-03T12:34:06+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Cisco",
+            "OpenAI/ChatGPT",
+            "SonicWall"
           ]
         },
         {
@@ -765999,13 +766503,40 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
+          "ts": "2026-08-01T07:12:42+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft SharePoint",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-07-31T14:14:15+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
           "industries": [],
           "products": [
-            "Kubernetes",
+            "Anthropic/Claude",
             "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-08-03T12:34:06+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Cisco",
+            "OpenAI/ChatGPT",
+            "SonicWall"
           ]
         },
         {
@@ -766046,16 +766577,6 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
           "ts": "2026-08-01T07:12:42+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -766090,110 +766611,6 @@
             "Cisco",
             "OpenAI/ChatGPT",
             "SonicWall"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-01T07:12:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitHub",
-            "Microsoft SharePoint",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T14:14:15+00:00",
-          "cohort": "threat_research_primary",
-          "tier": "tier_1_primary_research",
-          "industries": [],
-          "products": [
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-03T12:34:06+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Cisco",
-            "OpenAI/ChatGPT",
-            "SonicWall"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-01T07:12:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitHub",
-            "Microsoft SharePoint",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T14:14:15+00:00",
-          "cohort": "threat_research_primary",
-          "tier": "tier_1_primary_research",
-          "industries": [],
-          "products": [
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-03T12:34:06+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Cisco",
-            "OpenAI/ChatGPT",
-            "SonicWall"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
           ]
         },
         {
@@ -766235,12 +766652,25 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
+          "ts": "2026-08-01T07:12:42+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft SharePoint",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-07-31T14:14:15+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
           "industries": [],
           "products": [
-            "Kubernetes",
+            "Anthropic/Claude",
             "OpenAI/ChatGPT"
           ]
         },
@@ -766268,12 +766698,25 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
+          "ts": "2026-08-01T07:12:42+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft SharePoint",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-07-31T14:14:15+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
           "industries": [],
           "products": [
-            "Kubernetes",
+            "Anthropic/Claude",
             "OpenAI/ChatGPT"
           ]
         },
@@ -766301,16 +766744,6 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
           "ts": "2026-08-01T07:12:42+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -766334,16 +766767,6 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
           "ts": "2026-08-01T07:12:42+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -766363,82 +766786,6 @@
           "industries": [],
           "products": [
             "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-01T07:12:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitHub",
-            "Microsoft SharePoint",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T14:14:15+00:00",
-          "cohort": "threat_research_primary",
-          "tier": "tier_1_primary_research",
-          "industries": [],
-          "products": [
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-01T07:12:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitHub",
-            "Microsoft SharePoint",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T14:14:15+00:00",
-          "cohort": "threat_research_primary",
-          "tier": "tier_1_primary_research",
-          "industries": [],
-          "products": [
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
             "OpenAI/ChatGPT"
           ]
         },
@@ -766477,16 +766824,6 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
           "ts": "2026-08-01T07:12:42+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -766517,16 +766854,6 @@
           "industries": [],
           "products": [
             "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
             "OpenAI/ChatGPT"
           ]
         },
@@ -766564,16 +766891,6 @@
           "industries": [],
           "products": [
             "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
             "OpenAI/ChatGPT"
           ]
         },
@@ -766626,16 +766943,6 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
           "ts": "2026-08-01T07:12:42+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -766684,12 +766991,39 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
+          "ts": "2026-08-01T07:12:42+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft SharePoint",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-08-04T00:00:00+00:00",
           "cohort": "detection_response_operations",
           "tier": "tier_2_operator",
+          "industries": [
+            "critical_infrastructure",
+            "education",
+            "healthcare"
+          ],
+          "products": [
+            "Cisco",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-07-31T14:14:15+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
           "industries": [],
           "products": [
-            "Kubernetes",
+            "Anthropic/Claude",
             "OpenAI/ChatGPT"
           ]
         },
@@ -766731,16 +767065,6 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
           "ts": "2026-08-01T07:12:42+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -766774,63 +767098,6 @@
           "industries": [],
           "products": [
             "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-01T07:12:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitHub",
-            "Microsoft SharePoint",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-04T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [
-            "critical_infrastructure",
-            "education",
-            "healthcare"
-          ],
-          "products": [
-            "Cisco",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T14:14:15+00:00",
-          "cohort": "threat_research_primary",
-          "tier": "tier_1_primary_research",
-          "industries": [],
-          "products": [
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
             "OpenAI/ChatGPT"
           ]
         },
@@ -766877,16 +767144,6 @@
           "industries": [],
           "products": [
             "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
             "OpenAI/ChatGPT"
           ]
         },
@@ -766946,16 +767203,6 @@
           "industries": [],
           "products": [
             "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
             "OpenAI/ChatGPT"
           ]
         },
@@ -767016,16 +767263,6 @@
           "products": [
             "Anthropic/Claude",
             "Google/Gemini",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
             "OpenAI/ChatGPT"
           ]
         },
@@ -767103,16 +767340,6 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
           "ts": "2026-08-05T21:00:11+00:00",
           "cohort": "cloud_identity_infrastructure",
           "tier": "tier_2_operator",
@@ -767182,16 +767409,6 @@
           "products": [
             "Anthropic/Claude",
             "Google/Gemini",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
             "OpenAI/ChatGPT"
           ]
         },
@@ -767276,16 +767493,6 @@
           "products": [
             "Anthropic/Claude",
             "Google/Gemini",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
             "OpenAI/ChatGPT"
           ]
         },
@@ -767366,16 +767573,6 @@
           "tier": "tier_4_news",
           "industries": [],
           "products": [
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
             "OpenAI/ChatGPT"
           ]
         },
@@ -824523,6 +824720,98 @@
             "Anthropic/Claude",
             "OpenAI/ChatGPT"
           ]
+        },
+        {
+          "ts": "2026-10-23T15:38:56+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "GitHub",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-10-24T06:25:57+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
+            "government"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "GitLab",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-10-23T11:25:43+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-10-23T13:00:09+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "Android",
+            "Google Cloud",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-10-26T10:00:18+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "Google/Gemini",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-10-28T16:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT",
+            "ScreenConnect"
+          ]
+        },
+        {
+          "ts": "2026-10-27T13:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-10-23T21:35:13+00:00",
+          "cohort": "ai_security_agentic_risk",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
         }
       ],
       "npm": [
@@ -847206,6 +847495,17 @@
           ],
           "products": [
             "AWS",
+            "Drupal",
+            "Palo Alto Networks",
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-10-28T00:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
             "Drupal",
             "Palo Alto Networks",
             "WordPress"
@@ -889424,6 +889724,17 @@
             "Microsoft Defender",
             "PyPI"
           ]
+        },
+        {
+          "ts": "2026-10-23T18:12:19+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
+            "GitHub",
+            "Microsoft Defender",
+            "PyPI"
+          ]
         }
       ],
       "Docker": [
@@ -893369,289 +893680,25 @@
             "GitLab",
             "WordPress"
           ]
+        },
+        {
+          "ts": "2026-10-26T16:12:38+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "healthcare",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Docker",
+            "GitLab",
+            "WordPress"
+          ]
         }
       ],
       "Kubernetes": [
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
         {
           "ts": "2026-07-31T07:51:43+00:00",
           "cohort": "cyber_news_breach_reporting",
@@ -893670,233 +893717,18 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
+          "ts": "2026-08-04T11:25:22+00:00",
+          "cohort": "cloud_identity_infrastructure",
           "tier": "tier_2_operator",
-          "industries": [],
+          "industries": [
+            "financial_services"
+          ],
           "products": [
+            "AWS",
+            "Anthropic/Claude",
+            "GitHub",
             "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
+            "npm"
           ]
         },
         {
@@ -893915,17 +893747,7 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-04T11:25:22+00:00",
+          "ts": "2026-08-05T14:13:47+00:00",
           "cohort": "cloud_identity_infrastructure",
           "tier": "tier_2_operator",
           "industries": [
@@ -893934,89 +893756,10 @@
           "products": [
             "AWS",
             "Anthropic/Claude",
+            "Apple iOS/macOS",
             "GitHub",
             "Kubernetes",
             "npm"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
           ]
         },
         {
@@ -894036,13 +893779,19 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
+          "ts": "2026-08-05T14:13:47+00:00",
+          "cohort": "cloud_identity_infrastructure",
           "tier": "tier_2_operator",
-          "industries": [],
+          "industries": [
+            "financial_services"
+          ],
           "products": [
+            "AWS",
+            "Anthropic/Claude",
+            "Apple iOS/macOS",
+            "GitHub",
             "Kubernetes",
-            "OpenAI/ChatGPT"
+            "npm"
           ]
         },
         {
@@ -894062,13 +893811,19 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
+          "ts": "2026-08-05T14:13:47+00:00",
+          "cohort": "cloud_identity_infrastructure",
           "tier": "tier_2_operator",
-          "industries": [],
+          "industries": [
+            "financial_services"
+          ],
           "products": [
+            "AWS",
+            "Anthropic/Claude",
+            "Apple iOS/macOS",
+            "GitHub",
             "Kubernetes",
-            "OpenAI/ChatGPT"
+            "npm"
           ]
         },
         {
@@ -894088,13 +893843,19 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
+          "ts": "2026-08-05T14:13:47+00:00",
+          "cohort": "cloud_identity_infrastructure",
           "tier": "tier_2_operator",
-          "industries": [],
+          "industries": [
+            "financial_services"
+          ],
           "products": [
+            "AWS",
+            "Anthropic/Claude",
+            "Apple iOS/macOS",
+            "GitHub",
             "Kubernetes",
-            "OpenAI/ChatGPT"
+            "npm"
           ]
         },
         {
@@ -894114,16 +893875,6 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
           "ts": "2026-08-05T14:13:47+00:00",
           "cohort": "cloud_identity_infrastructure",
           "tier": "tier_2_operator",
@@ -894140,16 +893891,6 @@
           ]
         },
         {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
           "ts": "2026-08-05T14:13:47+00:00",
           "cohort": "cloud_identity_infrastructure",
           "tier": "tier_2_operator",
@@ -894163,120 +893904,6 @@
             "GitHub",
             "Kubernetes",
             "npm"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-05T14:13:47+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "Apple iOS/macOS",
-            "GitHub",
-            "Kubernetes",
-            "npm"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-05T14:13:47+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "Apple iOS/macOS",
-            "GitHub",
-            "Kubernetes",
-            "npm"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-05T14:13:47+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "Apple iOS/macOS",
-            "GitHub",
-            "Kubernetes",
-            "npm"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-05T14:13:47+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services"
-          ],
-          "products": [
-            "AWS",
-            "Anthropic/Claude",
-            "Apple iOS/macOS",
-            "GitHub",
-            "Kubernetes",
-            "npm"
-          ]
-        },
-        {
-          "ts": "2026-07-31T00:00:00+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Kubernetes",
-            "OpenAI/ChatGPT"
           ]
         },
         {
@@ -899458,6 +899085,15 @@
           ],
           "products": [
             "Cisco",
+            "Kubernetes"
+          ]
+        },
+        {
+          "ts": "2026-10-27T12:00:19+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
             "Kubernetes"
           ]
         },
@@ -913569,6 +913205,17 @@
           "products": [
             "Docker",
             "GitHub",
+            "PyPI"
+          ]
+        },
+        {
+          "ts": "2026-10-23T18:12:19+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
+            "GitHub",
+            "Microsoft Defender",
             "PyPI"
           ]
         },
@@ -931653,6 +931300,29 @@
             "Drupal",
             "Palo Alto Networks",
             "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-10-22T13:05:31+00:00",
+          "cohort": "cloud_identity_infrastructure",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "AWS",
+            "Microsoft 365",
+            "Okta"
+          ]
+        },
+        {
+          "ts": "2026-10-28T13:16:39+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "AWS",
+            "Azure"
           ]
         },
         {
@@ -952344,6 +952014,18 @@
             "AWS",
             "Azure"
           ]
+        },
+        {
+          "ts": "2026-10-28T13:16:39+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "AWS",
+            "Azure"
+          ]
         }
       ],
       "Google/Gemini": [
@@ -963419,6 +963101,17 @@
             "Drupal",
             "Google/Gemini",
             "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-10-26T10:00:18+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "Google/Gemini",
+            "OpenAI/ChatGPT"
           ]
         },
         {
@@ -985451,6 +985144,19 @@
             "Google Cloud",
             "OpenAI/ChatGPT"
           ]
+        },
+        {
+          "ts": "2026-10-23T13:00:09+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "Android",
+            "Google Cloud",
+            "OpenAI/ChatGPT"
+          ]
         }
       ],
       "Gogs": [
@@ -998697,6 +998403,29 @@
             "Microsoft 365",
             "Microsoft Entra"
           ]
+        },
+        {
+          "ts": "2026-10-22T13:05:31+00:00",
+          "cohort": "cloud_identity_infrastructure",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "AWS",
+            "Microsoft 365",
+            "Okta"
+          ]
+        },
+        {
+          "ts": "2026-10-22T13:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [
+            "telecommunications"
+          ],
+          "products": [
+            "Microsoft 365",
+            "Microsoft Entra"
+          ]
         }
       ],
       "Okta": [
@@ -1000419,6 +1000148,29 @@
           "products": [
             "AWS",
             "Microsoft 365",
+            "Okta"
+          ]
+        },
+        {
+          "ts": "2026-10-22T13:05:31+00:00",
+          "cohort": "cloud_identity_infrastructure",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "AWS",
+            "Microsoft 365",
+            "Okta"
+          ]
+        },
+        {
+          "ts": "2026-10-28T21:33:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "GitHub",
             "Okta"
           ]
         },
@@ -1011161,6 +1010913,17 @@
             "OpenAI/ChatGPT",
             "ScreenConnect"
           ]
+        },
+        {
+          "ts": "2026-10-28T16:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT",
+            "ScreenConnect"
+          ]
         }
       ],
       "SolarWinds": [
@@ -1016363,6 +1016126,28 @@
           "tier": "tier_2_operator",
           "industries": [],
           "products": [
+            "SolarWinds"
+          ]
+        },
+        {
+          "ts": "2026-10-23T16:38:00+00:00",
+          "cohort": "ransomware_ecrime_financial_crime",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "SolarWinds"
+          ]
+        },
+        {
+          "ts": "2026-10-28T18:00:10+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services",
+            "retail_ecommerce"
+          ],
+          "products": [
+            "Salesforce",
             "SolarWinds"
           ]
         },
@@ -1040733,6 +1040518,45 @@
             "GitLab",
             "WordPress"
           ]
+        },
+        {
+          "ts": "2026-10-24T06:25:57+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
+            "government"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "GitLab",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-10-26T14:06:13+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "GitLab"
+          ]
+        },
+        {
+          "ts": "2026-10-26T16:12:38+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "healthcare",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Docker",
+            "GitLab",
+            "WordPress"
+          ]
         }
       ],
       "Fortinet": [
@@ -1064135,6 +1063959,18 @@
             "Microsoft 365",
             "Microsoft Entra"
           ]
+        },
+        {
+          "ts": "2026-10-22T13:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [
+            "telecommunications"
+          ],
+          "products": [
+            "Microsoft 365",
+            "Microsoft Entra"
+          ]
         }
       ],
       "SonicWall": [
@@ -1082314,6 +1082150,19 @@
             "Salesforce",
             "Snowflake"
           ]
+        },
+        {
+          "ts": "2026-10-28T18:00:10+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services",
+            "retail_ecommerce"
+          ],
+          "products": [
+            "Salesforce",
+            "SolarWinds"
+          ]
         }
       ],
       "Microsoft/Copilot": [
@@ -1085270,6 +1085119,18 @@
             "Google/Gemini",
             "LiteSpeed",
             "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-10-22T13:26:51+00:00",
+          "cohort": "practitioner_analysis",
+          "tier": "tier_3_analysis",
+          "industries": [
+            "critical_infrastructure",
+            "telecommunications"
+          ],
+          "products": [
+            "LiteSpeed"
           ]
         },
         {
@@ -1116703,6 +1116564,7 @@
       "2026-10-23T16:38:00+00:00",
       "2026-10-23T16:38:00+00:00",
       "2026-10-23T16:38:00+00:00",
+      "2026-10-23T16:38:00+00:00",
       "2026-10-23T16:38:00+00:00"
     ],
     "cve_ids:CVE-2026-11645|affected_products:OpenAI/ChatGPT": [
@@ -1117739,6 +1117601,8 @@
       "2026-09-26T11:46:40+00:00",
       "2026-09-26T11:46:40+00:00",
       "2026-10-06T06:56:57+00:00",
+      "2026-10-28T06:04:58+00:00",
+      "2026-10-28T12:19:57+00:00",
       "2026-10-28T06:04:58+00:00",
       "2026-10-28T12:19:57+00:00",
       "2026-10-28T06:04:58+00:00",
@@ -1120845,6 +1120709,7 @@
       "2026-09-19T13:48:32+00:00",
       "2026-10-28T12:19:57+00:00",
       "2026-10-28T12:19:57+00:00",
+      "2026-10-28T12:19:57+00:00",
       "2026-10-28T12:19:57+00:00"
     ],
     "cve_ids:CVE-2025-61882|actor_attribution:ShinyHunters": [
@@ -1120861,6 +1120726,7 @@
       "2026-09-19T13:48:32+00:00",
       "2026-09-19T13:48:32+00:00",
       "2026-09-19T13:48:32+00:00",
+      "2026-10-28T12:19:57+00:00",
       "2026-10-28T12:19:57+00:00",
       "2026-10-28T12:19:57+00:00",
       "2026-10-28T12:19:57+00:00"
@@ -1120900,6 +1120766,7 @@
       "2026-09-26T11:46:40+00:00",
       "2026-09-26T11:46:40+00:00",
       "2026-09-26T11:46:40+00:00",
+      "2026-10-28T12:19:57+00:00",
       "2026-10-28T12:19:57+00:00",
       "2026-10-28T12:19:57+00:00",
       "2026-10-28T12:19:57+00:00"
@@ -1176066,6 +1175933,7 @@
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
+      "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00"
     ],
     "cve_ids:CVE-2026-0768|affected_products:Palo Alto Networks": [
@@ -1176082,6 +1175950,7 @@
       "2026-09-01T12:07:54+00:00",
       "2026-09-01T12:07:54+00:00",
       "2026-09-01T12:07:54+00:00",
+      "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
@@ -1176144,6 +1176013,7 @@
     ],
     "cve_ids:CVE-2026-0768|affected_products:Anthropic/Claude": [
       "2026-09-01T17:54:22+00:00",
+      "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
@@ -1191763,6 +1191633,7 @@
       "2026-09-26T11:46:40+00:00",
       "2026-10-28T06:04:58+00:00",
       "2026-10-28T06:04:58+00:00",
+      "2026-10-28T06:04:58+00:00",
       "2026-10-28T06:04:58+00:00"
     ],
     "cve_ids:CVE-2026-5430|affected_products:Android": [
@@ -1193637,7 +1193508,8 @@
       "2026-09-30T15:09:22+00:00",
       "2026-09-30T15:09:22+00:00",
       "2026-09-30T15:09:22+00:00",
-      "2026-09-30T15:09:22+00:00"
+      "2026-09-30T15:09:22+00:00",
+      "2026-10-28T21:32:02+00:00"
     ],
     "cve_ids:CVE-2026-20182|affected_products:Cisco": [
       "2026-09-30T15:09:22+00:00",
@@ -1195803,6 +1195675,7 @@
       "2026-10-02T05:49:50+00:00",
       "2026-10-02T05:49:50+00:00",
       "2026-10-02T05:49:50+00:00",
+      "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
@@ -1202393,7 +1202266,8 @@
       "2026-10-21T15:22:52+00:00",
       "2026-10-21T15:10:53+00:00",
       "2026-10-22T00:00:00+00:00",
-      "2026-10-22T00:00:00+00:00"
+      "2026-10-22T00:00:00+00:00",
+      "2026-10-28T00:00:00+00:00"
     ],
     "cve_ids:CVE-2026-109618|affected_products:OpenAI/ChatGPT": [
       "2026-10-21T04:00:00+00:00",
@@ -1202550,6 +1202424,7 @@
       "2026-10-21T15:26:07+00:00",
       "2026-10-23T11:25:43+00:00",
       "2026-10-21T13:56:45+00:00",
+      "2026-10-23T11:25:43+00:00",
       "2026-10-23T11:25:43+00:00",
       "2026-10-23T11:25:43+00:00"
     ],
@@ -1202743,6 +1202618,8 @@
       "2026-10-22T00:00:00+00:00",
       "2026-10-26T16:12:38+00:00",
       "2026-10-22T00:00:00+00:00",
+      "2026-10-26T16:12:38+00:00",
+      "2026-10-28T00:00:00+00:00",
       "2026-10-26T16:12:38+00:00"
     ],
     "cve_ids:CVE-2026-109619|affected_products:Drupal": [
@@ -1202849,7 +1202726,8 @@
       "2026-10-21T15:22:52+00:00",
       "2026-10-21T15:10:53+00:00",
       "2026-10-22T00:00:00+00:00",
-      "2026-10-22T00:00:00+00:00"
+      "2026-10-22T00:00:00+00:00",
+      "2026-10-28T00:00:00+00:00"
     ],
     "cve_ids:CVE-2026-109619|affected_products:OpenAI/ChatGPT": [
       "2026-10-21T04:00:00+00:00",
@@ -1203006,6 +1202884,7 @@
       "2026-10-21T15:26:07+00:00",
       "2026-10-23T11:25:43+00:00",
       "2026-10-21T13:56:45+00:00",
+      "2026-10-23T11:25:43+00:00",
       "2026-10-23T11:25:43+00:00",
       "2026-10-23T11:25:43+00:00"
     ],
@@ -1203199,6 +1203078,8 @@
       "2026-10-22T00:00:00+00:00",
       "2026-10-26T16:12:38+00:00",
       "2026-10-22T00:00:00+00:00",
+      "2026-10-26T16:12:38+00:00",
+      "2026-10-28T00:00:00+00:00",
       "2026-10-26T16:12:38+00:00"
     ],
     "cve_ids:CVE-2026-109618|affected_products:cPanel": [
@@ -1203227,11 +1203108,13 @@
       "2026-10-23T11:25:43+00:00",
       "2026-10-23T11:25:43+00:00",
       "2026-10-23T11:25:43+00:00",
+      "2026-10-23T11:25:43+00:00",
       "2026-10-23T11:25:43+00:00"
     ],
     "cve_ids:CVE-2026-109619|affected_products:Anthropic/Claude": [
       "2026-10-21T10:20:00+00:00",
       "2026-10-21T15:22:52+00:00",
+      "2026-10-23T11:25:43+00:00",
       "2026-10-23T11:25:43+00:00",
       "2026-10-23T11:25:43+00:00",
       "2026-10-23T11:25:43+00:00",
@@ -1204006,9 +1203889,11 @@
       "2026-10-26T16:12:38+00:00",
       "2026-10-26T16:12:38+00:00",
       "2026-10-26T16:12:38+00:00",
+      "2026-10-26T16:12:38+00:00",
       "2026-10-26T16:12:38+00:00"
     ],
     "cve_ids:CVE-2022-21894|actor_attribution:APT41": [
+      "2026-10-22T06:00:48+00:00",
       "2026-10-22T06:00:48+00:00",
       "2026-10-22T06:00:48+00:00",
       "2026-10-22T06:00:48+00:00",
@@ -1204082,9 +1203967,11 @@
       "2026-10-22T06:00:48+00:00",
       "2026-10-22T06:00:48+00:00",
       "2026-10-22T06:00:48+00:00",
+      "2026-10-22T06:00:48+00:00",
       "2026-10-22T06:00:48+00:00"
     ],
     "actor_attribution:APT41|affected_products:Microsoft Windows": [
+      "2026-10-22T06:00:48+00:00",
       "2026-10-22T06:00:48+00:00",
       "2026-10-22T06:00:48+00:00",
       "2026-10-22T06:00:48+00:00",
@@ -1204218,6 +1204105,7 @@
       "2026-10-22T20:25:59+00:00",
       "2026-10-22T20:25:59+00:00",
       "2026-10-22T20:25:59+00:00",
+      "2026-10-22T20:25:59+00:00",
       "2026-10-22T20:25:59+00:00"
     ],
     "cve_ids:CVE-2026-101767|affected_products:Ivanti": [
@@ -1204319,6 +1204207,7 @@
       "2026-10-22T20:25:59+00:00",
       "2026-10-22T20:25:59+00:00",
       "2026-10-22T20:25:59+00:00",
+      "2026-10-22T20:25:59+00:00",
       "2026-10-22T20:25:59+00:00"
     ],
     "cve_ids:CVE-2026-109618|affected_products:Ivanti": [
@@ -1204387,6 +1204276,7 @@
       "2026-10-22T20:25:59+00:00",
       "2026-10-22T20:25:59+00:00",
       "2026-10-22T20:25:59+00:00",
+      "2026-10-22T20:25:59+00:00",
       "2026-10-22T20:25:59+00:00"
     ],
     "cve_ids:CVE-2026-109619|affected_products:Ivanti": [
@@ -1204423,6 +1204313,7 @@
       "2026-10-22T20:25:59+00:00"
     ],
     "cve_ids:CVE-2026-76268|affected_products:GitHub": [
+      "2026-10-22T20:25:59+00:00",
       "2026-10-22T20:25:59+00:00",
       "2026-10-22T20:25:59+00:00",
       "2026-10-22T20:25:59+00:00",
@@ -1204711,6 +1204602,7 @@
       "2026-10-23T11:25:43+00:00",
       "2026-10-21T13:56:45+00:00",
       "2026-10-23T11:25:43+00:00",
+      "2026-10-23T11:25:43+00:00",
       "2026-10-23T11:25:43+00:00"
     ],
     "cve_ids:CVE-2026-0768|affected_products:Docker": [
@@ -1204742,6 +1204634,7 @@
       "2026-10-23T15:38:56+00:00"
     ],
     "cve_ids:CVE-2026-0768|affected_products:GitHub": [
+      "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
@@ -1204857,6 +1204750,7 @@
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
+      "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00"
     ],
     "cve_ids:CVE-2026-0769|affected_products:PyPI": [
@@ -1204916,6 +1204810,7 @@
       "2026-10-23T15:38:56+00:00"
     ],
     "cve_ids:CVE-2026-10134|affected_products:GitHub": [
+      "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
@@ -1205031,6 +1204926,7 @@
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
+      "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00"
     ],
     "cve_ids:CVE-2026-7873|affected_products:PyPI": [
@@ -1205090,6 +1204986,7 @@
       "2026-10-23T15:38:56+00:00"
     ],
     "cve_ids:CVE-2026-93680|affected_products:GitHub": [
+      "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
@@ -1205191,6 +1205088,8 @@
       "2026-10-26T14:06:13+00:00",
       "2026-10-26T16:12:38+00:00",
       "2026-10-26T14:06:13+00:00",
+      "2026-10-26T16:12:38+00:00",
+      "2026-10-26T14:06:13+00:00",
       "2026-10-26T16:12:38+00:00"
     ],
     "cve_ids:CVE-2026-109619|affected_products:GitLab": [
@@ -1205215,6 +1205114,8 @@
       "2026-10-23T15:38:05+00:00",
       "2026-10-23T15:38:05+00:00",
       "2026-10-23T15:38:05+00:00",
+      "2026-10-26T14:06:13+00:00",
+      "2026-10-26T16:12:38+00:00",
       "2026-10-26T14:06:13+00:00",
       "2026-10-26T16:12:38+00:00",
       "2026-10-26T14:06:13+00:00",
@@ -1205317,6 +1205218,7 @@
       "2026-10-26T16:12:38+00:00",
       "2026-10-26T16:12:38+00:00",
       "2026-10-26T16:12:38+00:00",
+      "2026-10-26T16:12:38+00:00",
       "2026-10-26T16:12:38+00:00"
     ],
     "cve_ids:CVE-2026-15723|affected_products:GitLab": [
@@ -1205376,6 +1205278,7 @@
       "2026-10-26T14:06:13+00:00",
       "2026-10-26T14:06:13+00:00",
       "2026-10-26T14:06:13+00:00",
+      "2026-10-26T14:06:13+00:00",
       "2026-10-26T14:06:13+00:00"
     ],
     "cve_ids:CVE-2026-93577|affected_products:GitLab": [
@@ -1205404,6 +1205307,7 @@
       "2026-10-21T18:57:34+00:00",
       "2026-10-26T14:06:13+00:00",
       "2026-10-21T18:57:34+00:00",
+      "2026-10-26T14:06:13+00:00",
       "2026-10-26T14:06:13+00:00",
       "2026-10-26T14:06:13+00:00",
       "2026-10-26T14:06:13+00:00",
@@ -1205498,6 +1205402,7 @@
       "2026-10-22T00:00:00+00:00",
       "2026-10-26T16:12:38+00:00",
       "2026-10-22T00:00:00+00:00",
+      "2026-10-26T16:12:38+00:00",
       "2026-10-26T16:12:38+00:00"
     ],
     "actor_attribution:APT28|affected_products:Microsoft SharePoint": [
@@ -1205756,12 +1205661,14 @@
       "2026-10-23T11:25:43+00:00",
       "2026-10-23T11:25:43+00:00",
       "2026-10-23T11:25:43+00:00",
+      "2026-10-23T11:25:43+00:00",
       "2026-10-23T11:25:43+00:00"
     ],
     "cve_ids:CVE-2026-111497|affected_products:Anthropic/Claude": [
       "2026-10-24T00:00:00+00:00"
     ],
     "cve_ids:CVE-2026-110447|affected_products:Anthropic/Claude": [
+      "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
@@ -1205799,9 +1205706,11 @@
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
+      "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00"
     ],
     "cve_ids:CVE-2026-110447|affected_products:OpenAI/ChatGPT": [
+      "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
@@ -1205839,9 +1205748,11 @@
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
+      "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00"
     ],
     "cve_ids:CVE-2026-114625|affected_products:GitLab": [
+      "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
@@ -1205879,9 +1205790,11 @@
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
+      "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00"
     ],
     "cve_ids:CVE-2026-16812|affected_products:Anthropic/Claude": [
+      "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
@@ -1205919,9 +1205832,11 @@
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
+      "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00"
     ],
     "cve_ids:CVE-2026-16812|affected_products:OpenAI/ChatGPT": [
+      "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
@@ -1205959,9 +1205874,11 @@
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
+      "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00"
     ],
     "cve_ids:CVE-2026-93952|affected_products:GitLab": [
+      "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
       "2026-10-24T06:25:57+00:00",
@@ -1205992,9 +1205909,11 @@
       "2026-10-26T14:06:13+00:00",
       "2026-10-26T14:06:13+00:00",
       "2026-10-26T14:06:13+00:00",
+      "2026-10-26T14:06:13+00:00",
       "2026-10-26T14:06:13+00:00"
     ],
     "cve_ids:CVE-2026-109618|affected_products:Docker": [
+      "2026-10-26T16:12:38+00:00",
       "2026-10-26T16:12:38+00:00",
       "2026-10-26T16:12:38+00:00",
       "2026-10-26T16:12:38+00:00",
@@ -1206018,9 +1205937,11 @@
       "2026-10-26T16:12:38+00:00",
       "2026-10-26T16:12:38+00:00",
       "2026-10-26T16:12:38+00:00",
+      "2026-10-26T16:12:38+00:00",
       "2026-10-26T16:12:38+00:00"
     ],
     "cve_ids:CVE-2026-110264|affected_products:Docker": [
+      "2026-10-26T16:12:38+00:00",
       "2026-10-26T16:12:38+00:00",
       "2026-10-26T16:12:38+00:00",
       "2026-10-26T16:12:38+00:00",
@@ -1206044,9 +1205965,11 @@
       "2026-10-26T16:12:38+00:00",
       "2026-10-26T16:12:38+00:00",
       "2026-10-26T16:12:38+00:00",
+      "2026-10-26T16:12:38+00:00",
       "2026-10-26T16:12:38+00:00"
     ],
     "cve_ids:CVE-2026-115560|affected_products:Docker": [
+      "2026-10-26T16:12:38+00:00",
       "2026-10-26T16:12:38+00:00",
       "2026-10-26T16:12:38+00:00",
       "2026-10-26T16:12:38+00:00",
@@ -1206086,9 +1206009,11 @@
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
+      "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00"
     ],
     "cve_ids:CVE-2026-10134|affected_products:Anthropic/Claude": [
+      "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
@@ -1206104,9 +1206029,11 @@
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
+      "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00"
     ],
     "cve_ids:CVE-2026-7873|affected_products:Anthropic/Claude": [
+      "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
@@ -1206122,6 +1206049,7 @@
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
+      "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00"
     ],
     "cve_ids:CVE-2026-93680|affected_products:Anthropic/Claude": [
@@ -1206131,9 +1206059,11 @@
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
+      "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00"
     ],
     "cve_ids:CVE-2026-93680|affected_products:OpenAI/ChatGPT": [
+      "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
       "2026-10-23T15:38:56+00:00",
@@ -1206168,6 +1206098,8 @@
       "2026-10-28T09:14:23+00:00",
       "2026-10-28T12:19:57+00:00",
       "2026-10-28T20:57:18+00:00",
+      "2026-10-28T12:19:57+00:00",
+      "2026-10-28T20:57:18+00:00",
       "2026-10-28T12:19:57+00:00"
     ],
     "cve_ids:CVE-2026-101767|affected_products:Apple iOS/macOS": [
@@ -1206185,45 +1206117,57 @@
     "cve_ids:CVE-2026-101767|actor_attribution:ShinyHunters": [
       "2026-10-28T12:19:57+00:00",
       "2026-10-28T12:19:57+00:00",
+      "2026-10-28T12:19:57+00:00",
       "2026-10-28T12:19:57+00:00"
     ],
     "cve_ids:CVE-2026-20362|affected_products:GitHub": [
+      "2026-10-22T20:25:59+00:00",
       "2026-10-22T20:25:59+00:00",
       "2026-10-22T20:25:59+00:00"
     ],
     "cve_ids:CVE-2024-39717|actor_attribution:Volt Typhoon": [
       "2026-10-28T16:00:00+00:00",
+      "2026-10-28T16:00:00+00:00",
       "2026-10-28T16:00:00+00:00"
     ],
     "cve_ids:CVE-2025-8875|actor_attribution:Volt Typhoon": [
+      "2026-10-28T16:00:00+00:00",
       "2026-10-28T16:00:00+00:00",
       "2026-10-28T16:00:00+00:00"
     ],
     "cve_ids:CVE-2025-8876|actor_attribution:Volt Typhoon": [
       "2026-10-28T16:00:00+00:00",
+      "2026-10-28T16:00:00+00:00",
       "2026-10-28T16:00:00+00:00"
     ],
     "cve_ids:CVE-2026-16812|actor_attribution:Volt Typhoon": [
+      "2026-10-28T16:00:00+00:00",
       "2026-10-28T16:00:00+00:00",
       "2026-10-28T16:00:00+00:00"
     ],
     "cve_ids:CVE-2026-20127|actor_attribution:Volt Typhoon": [
       "2026-10-28T16:00:00+00:00",
+      "2026-10-28T16:00:00+00:00",
+      "2026-10-28T21:32:02+00:00",
       "2026-10-28T16:00:00+00:00"
     ],
     "actor_attribution:BlackCat/ALPHV|affected_products:Salesforce": [
+      "2026-10-28T18:00:10+00:00",
       "2026-10-28T18:00:10+00:00",
       "2026-10-28T18:00:10+00:00"
     ],
     "actor_attribution:BlackCat/ALPHV|affected_products:SolarWinds": [
       "2026-10-28T18:00:10+00:00",
+      "2026-10-28T18:00:10+00:00",
       "2026-10-28T18:00:10+00:00"
     ],
     "cve_ids:CVE-2026-109618|affected_products:Palo Alto Networks": [
-      "2026-10-22T00:00:00+00:00"
+      "2026-10-22T00:00:00+00:00",
+      "2026-10-28T00:00:00+00:00"
     ],
     "cve_ids:CVE-2026-109619|affected_products:Palo Alto Networks": [
-      "2026-10-22T00:00:00+00:00"
+      "2026-10-22T00:00:00+00:00",
+      "2026-10-28T00:00:00+00:00"
     ],
     "cve_ids:CVE-2026-115560|affected_products:Palo Alto Networks": [
       "2026-10-22T00:00:00+00:00"
@@ -1206233,6 +1206177,18 @@
     ],
     "actor_attribution:Scattered Spider|affected_products:Salesforce": [
       "2026-10-28T14:05:00+00:00"
+    ],
+    "cve_ids:CVE-2026-109691|affected_products:Drupal": [
+      "2026-10-28T00:00:00+00:00"
+    ],
+    "cve_ids:CVE-2026-109691|affected_products:Palo Alto Networks": [
+      "2026-10-28T00:00:00+00:00"
+    ],
+    "cve_ids:CVE-2026-109691|affected_products:WordPress": [
+      "2026-10-28T00:00:00+00:00"
+    ],
+    "actor_attribution:Volt Typhoon|affected_products:Cisco": [
+      "2026-10-28T21:32:02+00:00"
     ]
   }
 }
