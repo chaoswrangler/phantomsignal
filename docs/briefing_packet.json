@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-31T18:24:17.441645+00:00",
+  "generated_at": "2026-10-31T22:23:30.572365+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 76,
-  "total_items_in_window": 345,
+  "total_items_in_window": 350,
   "total_clusters_raw": 158,
-  "total_clusters_in_packet": 67,
-  "dropped_low_score": 91,
+  "total_clusters_in_packet": 66,
+  "dropped_low_score": 92,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,13 +67,6 @@
     }
   },
   "feed_status": {
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -81,11 +74,25 @@
       "item_count": 15,
       "in_window_count": 2
     },
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 5
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
       "in_window_count": 0
     },
     "SentinelOne Labs": {
@@ -102,20 +109,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "fetch_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
-    },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
@@ -123,12 +116,12 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 6
+      "status": "fetch_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -136,13 +129,6 @@
       "status": "ok",
       "item_count": 15,
       "in_window_count": 3
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -158,19 +144,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 10
+      "in_window_count": 5
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
+      "item_count": 15,
+      "in_window_count": 6
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -178,6 +164,27 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 5
+    },
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 1
+    },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
@@ -193,12 +200,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 1
+      "in_window_count": 0
     },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
@@ -212,13 +219,6 @@
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 78,
-      "in_window_count": 0
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
       "in_window_count": 0
     },
     "watchTowr Labs": {
@@ -242,13 +242,6 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
@@ -256,9 +249,23 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
@@ -269,13 +276,6 @@
       "status": "ok",
       "item_count": 15,
       "in_window_count": 3
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
@@ -291,13 +291,6 @@
       "item_count": 30,
       "in_window_count": 2
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
@@ -305,12 +298,26 @@
       "item_count": 10,
       "in_window_count": 5
     },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
+    },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 3
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 5
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -326,33 +333,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
-    },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 6
-    },
-    "Google Project Zero": {
-      "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
@@ -361,11 +347,18 @@
       "item_count": 20,
       "in_window_count": 4
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 0
+    },
+    "Google Project Zero": {
+      "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 1
     },
     "Protect AI": {
@@ -375,12 +368,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -389,12 +389,12 @@
       "item_count": 10,
       "in_window_count": 6
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -410,13 +410,6 @@
       "item_count": 100,
       "in_window_count": 2
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
-    },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
@@ -431,26 +424,19 @@
       "item_count": 5,
       "in_window_count": 5
     },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
+    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -459,19 +445,26 @@
       "item_count": 20,
       "in_window_count": 20
     },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 2
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
     },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
@@ -494,26 +487,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 5
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -536,6 +522,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 5
+    },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -557,13 +550,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -578,12 +564,19 @@
       "item_count": 50,
       "in_window_count": 50
     },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 25,
-      "in_window_count": 23
+      "item_count": 20,
+      "in_window_count": 4
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -592,6 +585,13 @@
       "item_count": 100,
       "in_window_count": 27
     },
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 23
+    },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
       "cohort": "practitioner_analysis",
@@ -599,19 +599,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Just Security": {
-      "url": "https://www.justsecurity.org/feed/",
-      "cohort": "policy_strategy_geopolitics",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
+    },
+    "Just Security": {
+      "url": "https://www.justsecurity.org/feed/",
+      "cohort": "policy_strategy_geopolitics",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -2060,8 +2060,131 @@
       ]
     },
     {
+      "cluster_id": "5e5aace957",
+      "priority_score": 18,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2026-58882"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "ddos",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "manufacturing_industrial",
+          "telecommunications"
+        ],
+        "affected_products": [
+          "Android"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-58882"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "no_patch_yet",
+          "poc_available",
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+        "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+        "published": "2026-10-31T15:35:11+00:00",
+        "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]",
+        "full_body": "New Android SMS of Death exploit can remotely crash unpatched phones By Lawrence Abrams October 31, 2026 11:35 AM 0 A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. The zero-click denial-of-service flaw can interrupt ongoing calls, including emergency calls, without requiring any interaction from the target. What's worse, Android processes the message before it reaches the SMS inbox, leaving victims with no visible indication of what caused their phones to crash. According to the vulnerability researcher, Mark Blah, Google reportedly patched the vulnerability in its October 2026 Android security updates for Android 14 through 17. However, the flaw is not listed in Google's October security bulletin, and older Android 12 and 13 devices remain vulnerable because they did not receive the fix. Blah published a technical analysis of the flaw, caused by improper validation of a header-length value in Android's WapPushOverSms.decodeWapPdu function. To exploit the flaw, an attacker can send the following malformed eight-byte WAP Push message to targeted phones: 01 06 88 80 80 80 00 BE → sent as a data SMS to port 2948 When this value is translated into a signed 32-bit integer without a bounds check, it becomes -2147483648. When Android attempts to allocate memory using this negative value, it triggers a NegativeArraySizeException that crashes the com.android.phone process. As the com.android.phone process manages cellular functions, the crash disrupts mobile connectivity and disconnects ongoing phone calls, including calls to emergency services. The researcher says the attack can also cause repeated crashes when carriers attempt to redeliver malicious messages or Android tries to process messages already stored on the phone. When testing the flaw, the researcher found that sending 20 malicious messages could cause phones to get stuck in reboot loops. On one Android 12 device, the phone rebooted into recovery mode approximately every 90 seconds, requiring the user to perform a factory reset to recover. A GitHub contributor named Sakis discovered a way to remove the malicious messages using Android Debug Bridge (ADB), but the process requires more advanced technical knowledge and access to a computer. The researcher has published a proof-of-concept exploit that can send the malicious messages from another Android device. Google's fix, titled \"Fix remote DoS in decodeWapPdu,\" prevents the crashes by catching exceptions triggered when Android processes the malformed text messages. The patch also deletes malicious messages from the SMS database to prevent them from triggering repeated crashes. Android security updates are generally installed automatically on supported devices, but their availability depends on the device manufacturer and carrier, and a restart may be required to complete installation. Now that a working proof-of-concept exploit has been released, Android users are strongly advised to install the latest security updates to protect their devices. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era. SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone New Cisco firewall zero-day exploited to crash SSL VPN devices 3 Ways AI Agents Already Operate in Your Browser Even after PHP2Shell, blast radius matters more than a CVSS score",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "ddos"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "manufacturing_industrial",
+            "telecommunications"
+          ],
+          "affected_products": [
+            "Android"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-58882"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day",
+            "no_patch_yet",
+            "poc_available"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Android": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+          "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+          "published": "2026-10-31T15:35:11+00:00",
+          "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "ddos"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "manufacturing_industrial",
+              "telecommunications"
+            ],
+            "affected_products": [
+              "Android"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-58882"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day",
+              "no_patch_yet",
+              "poc_available"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Android": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "25ea49968b",
-      "priority_score": 19,
+      "priority_score": 18,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [
@@ -2220,134 +2343,6 @@
       ]
     },
     {
-      "cluster_id": "5e5aace957",
-      "priority_score": 18,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-58882"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "ddos",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "manufacturing_industrial",
-          "telecommunications"
-        ],
-        "affected_products": [
-          "Android",
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-58882"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "no_patch_yet",
-          "poc_available",
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
-        "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
-        "published": "2026-10-31T15:35:11+00:00",
-        "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]",
-        "full_body": "New Android SMS of Death exploit can remotely crash unpatched phones By Lawrence Abrams October 31, 2026 11:35 AM 0 A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. The zero-click denial-of-service flaw can interrupt ongoing calls, including emergency calls, without requiring any interaction from the target. What's worse, Android processes the message before it reaches the SMS inbox, leaving victims with no visible indication of what caused their phones to crash. According to the vulnerability researcher, Mark Blah, Google reportedly patched the vulnerability in its October 2026 Android security updates for Android 14 through 17. However, the flaw is not listed in Google's October security bulletin, and older Android 12 and 13 devices remain vulnerable because they did not receive the fix. Blah published a technical analysis of the flaw, caused by improper validation of a header-length value in Android's WapPushOverSms.decodeWapPdu function. To exploit the flaw, an attacker can send the following malformed eight-byte WAP Push message to targeted phones: 01 06 88 80 80 80 00 BE → sent as a data SMS to port 2948 When this value is translated into a signed 32-bit integer without a bounds check, it becomes -2147483648. When Android attempts to allocate memory using this negative value, it triggers a NegativeArraySizeException that crashes the com.android.phone process. As the com.android.phone process manages cellular functions, the crash disrupts mobile connectivity and disconnects ongoing phone calls, including calls to emergency services. The researcher says the attack can also cause repeated crashes when carriers attempt to redeliver malicious messages or Android tries to process messages already stored on the phone. When testing the flaw, the researcher found that sending 20 malicious messages could cause phones to get stuck in reboot loops. On one Android 12 device, the phone rebooted into recovery mode approximately every 90 seconds, requiring the user to perform a factory reset to recover. A GitHub contributor named Sakis discovered a way to remove the malicious messages using Android Debug Bridge (ADB), but the process requires more advanced technical knowledge and access to a computer. The researcher has published a proof-of-concept exploit that can send the malicious messages from another Android device. Google's fix, titled \"Fix remote DoS in decodeWapPdu,\" prevents the crashes by catching exceptions triggered when Android processes the malformed text messages. The patch also deletes malicious messages from the SMS database to prevent them from triggering repeated crashes. Android security updates are generally installed automatically on supported devices, but their availability depends on the device manufacturer and carrier, and a restart may be required to complete installation. Now that a working proof-of-concept exploit has been released, Android users are strongly advised to install the latest security updates to protect their devices. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone New Cisco firewall zero-day exploited to crash SSL VPN devices 3 Ways AI Agents Already Operate in Your Browser Even after PHP2Shell, blast radius matters more than a CVSS score OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "ddos"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "affected_products": [
-            "OpenAI/ChatGPT",
-            "Android"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-58882"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day",
-            "no_patch_yet",
-            "poc_available"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "OpenAI/ChatGPT": "target",
-            "Android": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
-          "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
-          "published": "2026-10-31T15:35:11+00:00",
-          "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "ddos"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "manufacturing_industrial",
-              "telecommunications"
-            ],
-            "affected_products": [
-              "OpenAI/ChatGPT",
-              "Android"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-58882"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day",
-              "no_patch_yet",
-              "poc_available"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "OpenAI/ChatGPT": "target",
-              "Android": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "fd0e5d6d3b",
       "priority_score": 17,
       "member_count": 1,
@@ -2431,8 +2426,8 @@
     {
       "cluster_id": "e2ef42690e",
       "priority_score": 17,
-      "member_count": 16,
-      "corroborating_source_count": 10,
+      "member_count": 17,
+      "corroborating_source_count": 11,
       "strong_signals": [
         "Anthropic/Claude"
       ],
@@ -2473,7 +2468,7 @@
         ]
       },
       "primary": {
-        "source": "Microsoft Threat Intelligence",
+        "source": "Microsoft Security Blog",
         "cohort": "threat_research_primary",
         "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
         "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
@@ -2516,7 +2511,7 @@
       },
       "corroborating_sources": [
         {
-          "source": "Microsoft Threat Intelligence",
+          "source": "Microsoft Security Blog",
           "cohort": "threat_research_primary",
           "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
@@ -2552,6 +2547,36 @@
                   0.29
                 ]
               ]
+            }
+          }
+        },
+        {
+          "source": "Microsoft Threat Intelligence",
+          "cohort": "threat_research_primary",
+          "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+          "published": "2026-10-31T01:02:57+00:00",
+          "summary": "Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it. The post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on Microsoft Security Blog .",
+          "taxonomy": {
+            "threat_categories": [
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
             }
           }
         },
@@ -2708,12 +2733,12 @@
           }
         },
         {
-          "source": "Dark Reading",
+          "source": "BleepingComputer",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Devs Hit by Trojanized Claude Code Extension for Cursor",
-          "link": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
-          "published": "2026-10-30T20:05:58+00:00",
-          "summary": "Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs).",
+          "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+          "link": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+          "published": "2026-10-30T14:36:54+00:00",
+          "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors. [...]",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -2736,12 +2761,12 @@
           }
         },
         {
-          "source": "BleepingComputer",
+          "source": "Dark Reading",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
-          "link": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
-          "published": "2026-10-30T14:36:54+00:00",
-          "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors. [...]",
+          "title": "Devs Hit by Trojanized Claude Code Extension for Cursor",
+          "link": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
+          "published": "2026-10-30T20:05:58+00:00",
+          "summary": "Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs).",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -4156,8 +4181,8 @@
     {
       "cluster_id": "618b08e33f",
       "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
+      "member_count": 2,
+      "corroborating_source_count": 2,
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
@@ -4181,7 +4206,7 @@
         ]
       },
       "primary": {
-        "source": "Microsoft Threat Intelligence",
+        "source": "Microsoft Security Blog",
         "cohort": "threat_research_primary",
         "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
         "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
@@ -4216,7 +4241,7 @@
       },
       "corroborating_sources": [
         {
-          "source": "Microsoft Threat Intelligence",
+          "source": "Microsoft Security Blog",
           "cohort": "threat_research_primary",
           "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
@@ -4246,14 +4271,38 @@
               "products": []
             }
           }
+        },
+        {
+          "source": "Microsoft Threat Intelligence",
+          "cohort": "threat_research_primary",
+          "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
+          "published": "2026-10-30T16:11:44+00:00",
+          "summary": "Teams support impersonation led to remote access, malicious runtime execution, and Certificate Services abuse through authentication relay and Kerberos. The post From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths appeared first on Microsoft Security Blog .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
         }
       ]
     },
     {
       "cluster_id": "d566b95cff",
       "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
+      "member_count": 2,
+      "corroborating_source_count": 2,
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
@@ -4280,7 +4329,7 @@
         ]
       },
       "primary": {
-        "source": "Microsoft Threat Intelligence",
+        "source": "Microsoft Security Blog",
         "cohort": "threat_research_primary",
         "title": "Tracking AI adoption in North Korean threat actor tradecraft",
         "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
@@ -4324,7 +4373,7 @@
       },
       "corroborating_sources": [
         {
-          "source": "Microsoft Threat Intelligence",
+          "source": "Microsoft Security Blog",
           "cohort": "threat_research_primary",
           "title": "Tracking AI adoption in North Korean threat actor tradecraft",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
@@ -4363,208 +4412,18 @@
               ]
             }
           }
-        }
-      ]
-    },
-    {
-      "cluster_id": "084d29f299",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "phishing_social_eng",
-          "ransomware_extortion",
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [
-          "Rhysida",
-          "Salt Typhoon"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "telecommunications"
-        ],
-        "affected_products": [
-          "Cisco"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2023-20198"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Cisco Talos",
-        "cohort": "threat_research_primary",
-        "title": "IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases",
-        "link": "https://blog.talosintelligence.com/ir-trends-q3-2026/",
-        "published": "2026-10-29T14:00:00+00:00",
-        "summary": "Phishing remained the leading initial access technique, while percentage of ransomware and pre-ransomware cases increased. Finance and public administration tied as the top-targeted industries.",
-        "full_body": "IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases By Aliza Johnson Thursday, October 29, 2026 10:00 Talos IR trends Cisco Talos Incident Response CTIR trends Phishing remained the leading initial access technique, appearing in slightly over one-third of all Cisco Talos Incident Response (Talos IR) engagements — a decrease from over 50 percent last quarter. In addition to traditional phishing links and attachments, we observed numerous threat actors conducting voice phishing (vishing) in tandem with IT desk impersonation to socially engineer the victim into allowing remote access via a legitimate remote monitoring and management (RMM) tool. Exploitation of public-facing applications was the next most common vector, accounting for one-third of Talos IR engagements. Threat actors predominantly targeted edge devices such as security gateways and remote network management interfaces. These are critical components within enterprise environments, often responsible for managing authentication, network traffic, or sensitive data. Compromising them can provide broad access to internal networks or user credentials. Ransomware and pre-ransomware incidents made up 27 percent of engagements in Q3 2026, an increase from a maximum of 20 percent seen in the previous four quarters. Talos responded to attacks involving prolific, technologically advanced, and well-established ransomware-as-a-service (RaaS) variants such as The Gentlemen, Qilin, and Rhysida, as well as Interlock, which operates as a closed group. Threat actors predominantly chose to disable endpoint detection and response (EDR) systems, often by exploiting vulnerable drivers or using Windows Defender Application Control (WDAC). Additionally, we observed the emerging ransomware variant VYPR, whose operator(s) tested a range of tactics, techniques, and procedures (TTPs) instead of following a standard attack method or affiliate playbook. Salt Typhoon-affiliated threat actors exploit public-facing application vulnerabilities for cyber espionage Talos IR continues to see prolonged cyber espionage intrusions targeting the telecommunications sector. Talos attributed most of these intrusions with high confidence to China state-sponsored threat actors, including Salt Typhoon. The attackers in these intrusions routinely gain initial access by leveraging valid credentials and exploiting a known vulnerability (CVE-2023-20198) in publicly accessible web-based management interfaces—two of the most frequently observed initial access vectors this quarter. In one campaign, the threat actor deployed BadCandy, a malicious web shell implant known to be leveraged by Salt Typhoon, to maintain persistent and stealthy remote access. The adversaries continue to employ living-off-the-land (LOTL) tactics, leveraging legitimate network infrastructure features — such as VPN access, traffic mirroring, and management protocols — to establish backdoors, exfiltrate data, and conduct reconnaissance. Exploiting a vulnerability in the web-based management interface, they created privileged accounts, disabled logging to conceal their activity, and altered configurations to maintain persistence, blending their actions with normal administrative operations to evade detection. These intrusions revealed several security weaknesses in the victim environment, including reliance on password-only authentication without evidence of multi-factor authentication (MFA), use of legacy and weak management protocols (such as plaintext SNMP and outdated VPN encryption), and inadequate credential management practices. Attackers were able to create and abuse privileged accounts, disable logging, and manipulate configuration settings without encountering effective security barriers, enabling persistent and stealthy access. The absence of strong MFA and robust credential management are two of the most frequently observed security weaknesses this quarter. AI exploited as a weapon and ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng",
-            "apt_espionage",
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [
-            "Rhysida",
-            "Salt Typhoon"
-          ],
-          "affected_industries": [
-            "financial_services",
-            "telecommunications"
-          ],
-          "affected_products": [
-            "Cisco"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2023-20198"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Cisco": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
+        },
         {
-          "source": "Cisco Talos",
+          "source": "Microsoft Threat Intelligence",
           "cohort": "threat_research_primary",
-          "title": "IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases",
-          "link": "https://blog.talosintelligence.com/ir-trends-q3-2026/",
-          "published": "2026-10-29T14:00:00+00:00",
-          "summary": "Phishing remained the leading initial access technique, while percentage of ransomware and pre-ransomware cases increased. Finance and public administration tied as the top-targeted industries.",
+          "title": "Tracking AI adoption in North Korean threat actor tradecraft",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
+          "published": "2026-10-29T16:00:00+00:00",
+          "summary": "As Microsoft Threat Intelligence continues to track how threat actors operationalize AI to increase the speed and efficiency of attacks, we’ve identified North Korean threat actors expanding their use of AI with varying levels of adoption. This blog breaks down how North Korean threat actors are utilizing AI across their operations, reflecting a broader trend of threat actors incorporating AI into their attack chains. The post Tracking AI adoption in North Korean threat actor tradecraft appeared first on Microsoft Security Blog .",
           "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng",
-              "apt_espionage",
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [
-              "Rhysida",
-              "Salt Typhoon"
-            ],
-            "affected_industries": [
-              "financial_services",
-              "telecommunications"
-            ],
-            "affected_products": [
-              "Cisco"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2023-20198"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Cisco": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "bf768c12ec",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education",
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Cisco Talos",
-        "cohort": "threat_research_primary",
-        "title": "From federal SOCs to Talos: Ryan Fetterman on practical security research",
-        "link": "https://blog.talosintelligence.com/from-federal-socs-to-talos-ryan-fetterman-on-practical-security-research/",
-        "published": "2026-10-27T10:00:21+00:00",
-        "summary": "What does it mean to be \"blue collar\" for the blue team? Ryan Fetterman discusses the realities of detection engineering, and shares his philosophy on building a career in security without burning out.",
-        "full_body": "From federal SOCs to Talos: Ryan Fetterman on practical security research By Amy Ciminnisi Tuesday, October 27, 2026 06:00 Humans of Talos What does it mean to be \"blue collar\" for the blue team? Amy sat down with security researcher Ryan Fetterman to discuss his journey from federal agency work to his new role at Talos. He shares the realities of detection engineering — including the creative, often frustrating ways attackers evolve their tactics to stay one step ahead of traditional defenses. Beyond the technical grind, Ryan shares his philosophy on building a career in security without burning out. From the value of project-based learning to the importance of finding time to step away from the keyboard, here's Ryan's take on what it really means to navigate today's cybersecurity industry. Amy Ciminnisi: Tell me a little bit about the journey that has taken you to Talos, from early on in your career through to now. How did you get here? I actually don't know that much about it. Ryan Fetterman: I've been doing security about 15 years now, and my career was largely shaped by where I started in the DC area. I spent about a decade there. I started out in consulting and then pivoted over to research, but that was a great place to get started. I got a lot of great experience in federal agencies and government consulting, continued my education down there, got trained up, got certifications and things like that. And that was where I got my first exposure to doing actual security operations, which is what I really stuck with. It was my first exposure to Splunk. Querying lots of log data and building visualizations and analytics in Splunk was the first time in my career that I felt it was kind of my natural inclination. It seems like it should have been more obvious to me looking back on it, but it's something that I try to explain to people a lot. When you first get into security, there's a desire to kind of find your specialization and start working towards it. But in my experience, it's just not something that you can rush. I met the people connected with that space, which eventually led to me going to work for Splunk. I worked on the Splunk research team, SURGe. And then after the Cisco acquisition of Splunk, I ultimately became reorganized into Talos. AC: I'm sure there have been so many challenges, so many obstacles in your way as you're trying to do this research. Can you share one that you've faced and how it shaped your perspective on cybersecurity? RF: Something that stuck with me was actually my first advanced persistent threat (APT) incident. Now, you can look this up. It's called Pandora Song if you search for the C2. I was in the DC area working in a federal SOC, and I was doing some of the first host-based analytics at the time, which have now become kind of the concentration of a lot of detection. Engineering and analytics are host-based, so this was kind of pioneering at the time. I was looking at a lot of host-based sensors and writing analytics in Splunk, actually, and we had been tipped off to this incident by a third party. I was looking through the details of the incident and how the attacker was carrying out the progression of their attack... Want to see more? Watch the full interview , and don’t forget to subscribe to our YouTube channel for future episodes of Humans of Talos. Share this post Related Content Black Hat special: Rewind and revisit July 30, 2026 06:00 Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence. Martin Lee: Running through the Arctic (and the threat landscape) July 1, 2026 06:00 Ever wonder how someone goes from studying human viruses to leading cybersecurity teams? In this Humans of Talos, we’re joined by Martin Lee, EMEA Lead, to talk about his journey into the industry. Winning the cyber marathon with Tony Giandomenico June 4, 2026 08:05 Tony Giandomenico, Senior Director of Product Management, joins Amy to discuss the Talos Threat Hun",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "apt_espionage"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government",
-            "education"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Cisco Talos",
-          "cohort": "threat_research_primary",
-          "title": "From federal SOCs to Talos: Ryan Fetterman on practical security research",
-          "link": "https://blog.talosintelligence.com/from-federal-socs-to-talos-ryan-fetterman-on-practical-security-research/",
-          "published": "2026-10-27T10:00:21+00:00",
-          "summary": "What does it mean to be \"blue collar\" for the blue team? Ryan Fetterman discusses the realities of detection engineering, and shares his philosophy on building a career in security without burning out.",
-          "taxonomy": {
-            "threat_categories": [
-              "apt_espionage"
-            ],
+            "threat_categories": [],
             "actor_attribution": [],
-            "affected_industries": [
-              "government",
-              "education"
-            ],
+            "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
@@ -4903,6 +4762,220 @@
               "Google/Gemini": "target",
               "Anthropic/Claude": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "084d29f299",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "phishing_social_eng",
+          "ransomware_extortion",
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [
+          "Rhysida",
+          "Salt Typhoon"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "telecommunications"
+        ],
+        "affected_products": [
+          "Cisco"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2023-20198"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Cisco Talos",
+        "cohort": "threat_research_primary",
+        "title": "IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases",
+        "link": "https://blog.talosintelligence.com/ir-trends-q3-2026/",
+        "published": "2026-10-29T14:00:00+00:00",
+        "summary": "Phishing remained the leading initial access technique, while percentage of ransomware and pre-ransomware cases increased. Finance and public administration tied as the top-targeted industries.",
+        "full_body": "IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases By Aliza Johnson Thursday, October 29, 2026 10:00 Talos IR trends Cisco Talos Incident Response CTIR trends Phishing remained the leading initial access technique, appearing in slightly over one-third of all Cisco Talos Incident Response (Talos IR) engagements — a decrease from over 50 percent last quarter. In addition to traditional phishing links and attachments, we observed numerous threat actors conducting voice phishing (vishing) in tandem with IT desk impersonation to socially engineer the victim into allowing remote access via a legitimate remote monitoring and management (RMM) tool. Exploitation of public-facing applications was the next most common vector, accounting for one-third of Talos IR engagements. Threat actors predominantly targeted edge devices such as security gateways and remote network management interfaces. These are critical components within enterprise environments, often responsible for managing authentication, network traffic, or sensitive data. Compromising them can provide broad access to internal networks or user credentials. Ransomware and pre-ransomware incidents made up 27 percent of engagements in Q3 2026, an increase from a maximum of 20 percent seen in the previous four quarters. Talos responded to attacks involving prolific, technologically advanced, and well-established ransomware-as-a-service (RaaS) variants such as The Gentlemen, Qilin, and Rhysida, as well as Interlock, which operates as a closed group. Threat actors predominantly chose to disable endpoint detection and response (EDR) systems, often by exploiting vulnerable drivers or using Windows Defender Application Control (WDAC). Additionally, we observed the emerging ransomware variant VYPR, whose operator(s) tested a range of tactics, techniques, and procedures (TTPs) instead of following a standard attack method or affiliate playbook. Salt Typhoon-affiliated threat actors exploit public-facing application vulnerabilities for cyber espionage Talos IR continues to see prolonged cyber espionage intrusions targeting the telecommunications sector. Talos attributed most of these intrusions with high confidence to China state-sponsored threat actors, including Salt Typhoon. The attackers in these intrusions routinely gain initial access by leveraging valid credentials and exploiting a known vulnerability (CVE-2023-20198) in publicly accessible web-based management interfaces—two of the most frequently observed initial access vectors this quarter. In one campaign, the threat actor deployed BadCandy, a malicious web shell implant known to be leveraged by Salt Typhoon, to maintain persistent and stealthy remote access. The adversaries continue to employ living-off-the-land (LOTL) tactics, leveraging legitimate network infrastructure features — such as VPN access, traffic mirroring, and management protocols — to establish backdoors, exfiltrate data, and conduct reconnaissance. Exploiting a vulnerability in the web-based management interface, they created privileged accounts, disabled logging to conceal their activity, and altered configurations to maintain persistence, blending their actions with normal administrative operations to evade detection. These intrusions revealed several security weaknesses in the victim environment, including reliance on password-only authentication without evidence of multi-factor authentication (MFA), use of legacy and weak management protocols (such as plaintext SNMP and outdated VPN encryption), and inadequate credential management practices. Attackers were able to create and abuse privileged accounts, disable logging, and manipulate configuration settings without encountering effective security barriers, enabling persistent and stealthy access. The absence of strong MFA and robust credential management are two of the most frequently observed security weaknesses this quarter. AI exploited as a weapon and ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "phishing_social_eng",
+            "apt_espionage",
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [
+            "Rhysida",
+            "Salt Typhoon"
+          ],
+          "affected_industries": [
+            "financial_services",
+            "telecommunications"
+          ],
+          "affected_products": [
+            "Cisco"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2023-20198"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Cisco": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Cisco Talos",
+          "cohort": "threat_research_primary",
+          "title": "IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases",
+          "link": "https://blog.talosintelligence.com/ir-trends-q3-2026/",
+          "published": "2026-10-29T14:00:00+00:00",
+          "summary": "Phishing remained the leading initial access technique, while percentage of ransomware and pre-ransomware cases increased. Finance and public administration tied as the top-targeted industries.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "phishing_social_eng",
+              "apt_espionage",
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [
+              "Rhysida",
+              "Salt Typhoon"
+            ],
+            "affected_industries": [
+              "financial_services",
+              "telecommunications"
+            ],
+            "affected_products": [
+              "Cisco"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2023-20198"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Cisco": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "bf768c12ec",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "education",
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Cisco Talos",
+        "cohort": "threat_research_primary",
+        "title": "From federal SOCs to Talos: Ryan Fetterman on practical security research",
+        "link": "https://blog.talosintelligence.com/from-federal-socs-to-talos-ryan-fetterman-on-practical-security-research/",
+        "published": "2026-10-27T10:00:21+00:00",
+        "summary": "What does it mean to be \"blue collar\" for the blue team? Ryan Fetterman discusses the realities of detection engineering, and shares his philosophy on building a career in security without burning out.",
+        "full_body": "From federal SOCs to Talos: Ryan Fetterman on practical security research By Amy Ciminnisi Tuesday, October 27, 2026 06:00 Humans of Talos What does it mean to be \"blue collar\" for the blue team? Amy sat down with security researcher Ryan Fetterman to discuss his journey from federal agency work to his new role at Talos. He shares the realities of detection engineering — including the creative, often frustrating ways attackers evolve their tactics to stay one step ahead of traditional defenses. Beyond the technical grind, Ryan shares his philosophy on building a career in security without burning out. From the value of project-based learning to the importance of finding time to step away from the keyboard, here's Ryan's take on what it really means to navigate today's cybersecurity industry. Amy Ciminnisi: Tell me a little bit about the journey that has taken you to Talos, from early on in your career through to now. How did you get here? I actually don't know that much about it. Ryan Fetterman: I've been doing security about 15 years now, and my career was largely shaped by where I started in the DC area. I spent about a decade there. I started out in consulting and then pivoted over to research, but that was a great place to get started. I got a lot of great experience in federal agencies and government consulting, continued my education down there, got trained up, got certifications and things like that. And that was where I got my first exposure to doing actual security operations, which is what I really stuck with. It was my first exposure to Splunk. Querying lots of log data and building visualizations and analytics in Splunk was the first time in my career that I felt it was kind of my natural inclination. It seems like it should have been more obvious to me looking back on it, but it's something that I try to explain to people a lot. When you first get into security, there's a desire to kind of find your specialization and start working towards it. But in my experience, it's just not something that you can rush. I met the people connected with that space, which eventually led to me going to work for Splunk. I worked on the Splunk research team, SURGe. And then after the Cisco acquisition of Splunk, I ultimately became reorganized into Talos. AC: I'm sure there have been so many challenges, so many obstacles in your way as you're trying to do this research. Can you share one that you've faced and how it shaped your perspective on cybersecurity? RF: Something that stuck with me was actually my first advanced persistent threat (APT) incident. Now, you can look this up. It's called Pandora Song if you search for the C2. I was in the DC area working in a federal SOC, and I was doing some of the first host-based analytics at the time, which have now become kind of the concentration of a lot of detection. Engineering and analytics are host-based, so this was kind of pioneering at the time. I was looking at a lot of host-based sensors and writing analytics in Splunk, actually, and we had been tipped off to this incident by a third party. I was looking through the details of the incident and how the attacker was carrying out the progression of their attack... Want to see more? Watch the full interview , and don’t forget to subscribe to our YouTube channel for future episodes of Humans of Talos. Share this post Related Content Black Hat special: Rewind and revisit July 30, 2026 06:00 Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence. Martin Lee: Running through the Arctic (and the threat landscape) July 1, 2026 06:00 Ever wonder how someone goes from studying human viruses to leading cybersecurity teams? In this Humans of Talos, we’re joined by Martin Lee, EMEA Lead, to talk about his journey into the industry. Winning the cyber marathon with Tony Giandomenico June 4, 2026 08:05 Tony Giandomenico, Senior Director of Product Management, joins Amy to discuss the Talos Threat Hun",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "apt_espionage"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government",
+            "education"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Cisco Talos",
+          "cohort": "threat_research_primary",
+          "title": "From federal SOCs to Talos: Ryan Fetterman on practical security research",
+          "link": "https://blog.talosintelligence.com/from-federal-socs-to-talos-ryan-fetterman-on-practical-security-research/",
+          "published": "2026-10-27T10:00:21+00:00",
+          "summary": "What does it mean to be \"blue collar\" for the blue team? Ryan Fetterman discusses the realities of detection engineering, and shares his philosophy on building a career in security without burning out.",
+          "taxonomy": {
+            "threat_categories": [
+              "apt_espionage"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government",
+              "education"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -6336,6 +6409,148 @@
       ]
     },
     {
+      "cluster_id": "2847ac33bb",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2026-115560"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng",
+          "ransomware_extortion",
+          "vulnerability_disclosure"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "AWS",
+          "F5 BIG-IP",
+          "OpenAI/ChatGPT"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-109618",
+          "CVE-2026-109619",
+          "CVE-2026-115560"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "emergency_patch"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "PHP Publishes Mitigation Advice for New RCE Flaw",
+        "link": "https://www.infosecurity-magazine.com/news/php-publishes-mitigation-advice/",
+        "published": "2026-10-26T09:15:00+00:00",
+        "summary": "PHP warns of critical RCE vulnerability CVE-2026-115560, but says limited exploit conditions mean most deployments are unlikely to be affected",
+        "full_body": "Infosecurity Magazine Home » News » PHP Publishes Mitigation Advice for New RCE Flaw PHP Publishes Mitigation Advice for New RCE Flaw News 26 October 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster The maintainers of the popular PHP programming language have warned of a new remote code execution (RCE) vulnerability, but claimed it’s likely to affect a relatively small share of the userbase. In an advisory published on October 23, the PHP security team said that CVE-2026-115560 would not be patched until the next release, as the conditions needed to exploit it will not be present in most environments. “The issue can only occur under an unusual combination of configuration and application code. An application must set session.serialize_handler to php_binary or php_serialize in its configuration and then switch it to php at runtime with ini_set() before calling session_start(),” it explained. “Session upload progress must also still be enabled. Applications that never change the serialize handler at runtime can keep the feature enabled.” Read more on PHP: PHP2Shell Exploitation Attempt Detected by Amazon Four Days Before Vulnerability Disclosure System administrators are urged to put in place the mitigation recommended on October 21 in PHP’s advisory for CVE-2026-109619, one of two critical flaws issued last week. “We suggest you set session.upload_progress.enabled=0 until the next regular bugfix release, to fully protect from an unlikely RCE vector,” it said. “If you applied it [last week], keep it in place and no further action is needed.” More Work for Security Teams Last week saw widespread website outages as administrators scrambled to patch the maximum severity zero days (CVE-2026-109618 and CVE-2026-109619), collectively known as “P2PShell.” Mike Lyborg, CISO at Swimlane, argued that new flaw needs a “precise response” after days of disruption in many organizations because of PHP2Shell. “Keeping services running through successive warnings takes coordination that holds up after everyone’s exhausted,” he added. “Across organizations responding to PHP last week, the next bottleneck could be a handoff between the people assessing risk and those authorized to change a live service.” Their efforts were given an added urgency after details of the vulnerabilities were accidentally disclosed a day before the patches were due to be released. Amazon Web Services subsequently revealed that an unknown threat actor tried to exploit the bugs four days before they were officially published. It remains unclear how they managed to get hold of the information needed to attempt such an attack. PHP is used in around 70% of global websites, including content management systems (CMS) like WordPress, Drupal, Joomla and Magento, making the patching of PHP2Shell a major global endeavor. You may also like Blue Initiative Offers Maritime Sector Dedicated Vulnerability Database News 26 October 2026 Two Zero-Days Exploited in Attack on Dutch Institute for Vulnerability Disclosure News 2 October 2026 NCSC Urges Immediate Patching of F5 BIG-IP Bug News 31 March 2026 Automation and Vulnerability Exploitation Drive Mass Ransomware Breaches News 3 July 2025 Five ICS Security Challenges and How to Overcome Them News Feature 28 August 2023 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Attackers Hide Malware Behind Signed ChatGPT and Claude Binaries News 28 October 2026 1 Attackers Exploit Teams External Chat to Breach Organizations in Under 15 Minutes News 27 October 2026 2 Online Scam Volumes Double to Overtake Phishing News 29 October 2026 3 Microsoft Issues Emergency Patch Update for Critical .NET Buffer Overflow Flaw News 26 October 2026 4 Japan’s GMO Internet Urges Customers to Disconnect PCs News 28 October 2026 5 MR ROBOT Malware-as-a-Service Targets Indian Bank Customers News 29 October 2026 6 Attackers Exploit Teams External Chat to Breach Organizations in Und",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "phishing_social_eng",
+            "vulnerability_disclosure"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "F5 BIG-IP",
+            "OpenAI/ChatGPT",
+            "AWS"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-115560",
+            "CVE-2026-109619",
+            "CVE-2026-109618"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "emergency_patch"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "F5 BIG-IP": "target",
+            "OpenAI/ChatGPT": "target",
+            "AWS": "target",
+            "Anthropic/Claude": "target",
+            "Drupal": "target",
+            "WordPress": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "PHP Publishes Mitigation Advice for New RCE Flaw",
+          "link": "https://www.infosecurity-magazine.com/news/php-publishes-mitigation-advice/",
+          "published": "2026-10-26T09:15:00+00:00",
+          "summary": "PHP warns of critical RCE vulnerability CVE-2026-115560, but says limited exploit conditions mean most deployments are unlikely to be affected",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "phishing_social_eng",
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "F5 BIG-IP",
+              "OpenAI/ChatGPT",
+              "AWS"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-115560",
+              "CVE-2026-109619",
+              "CVE-2026-109618"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "emergency_patch"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "F5 BIG-IP": "target",
+              "OpenAI/ChatGPT": "target",
+              "AWS": "target",
+              "Anthropic/Claude": "target",
+              "Drupal": "target",
+              "WordPress": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "fcee7a9b28",
       "priority_score": 9,
       "member_count": 1,
@@ -6498,148 +6713,6 @@
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_5_chatter",
             "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "2847ac33bb",
-      "priority_score": 9,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-115560"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "ransomware_extortion",
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "AWS",
-          "F5 BIG-IP",
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-109618",
-          "CVE-2026-109619",
-          "CVE-2026-115560"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "emergency_patch"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "PHP Publishes Mitigation Advice for New RCE Flaw",
-        "link": "https://www.infosecurity-magazine.com/news/php-publishes-mitigation-advice/",
-        "published": "2026-10-26T09:15:00+00:00",
-        "summary": "PHP warns of critical RCE vulnerability CVE-2026-115560, but says limited exploit conditions mean most deployments are unlikely to be affected",
-        "full_body": "Infosecurity Magazine Home » News » PHP Publishes Mitigation Advice for New RCE Flaw PHP Publishes Mitigation Advice for New RCE Flaw News 26 October 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster The maintainers of the popular PHP programming language have warned of a new remote code execution (RCE) vulnerability, but claimed it’s likely to affect a relatively small share of the userbase. In an advisory published on October 23, the PHP security team said that CVE-2026-115560 would not be patched until the next release, as the conditions needed to exploit it will not be present in most environments. “The issue can only occur under an unusual combination of configuration and application code. An application must set session.serialize_handler to php_binary or php_serialize in its configuration and then switch it to php at runtime with ini_set() before calling session_start(),” it explained. “Session upload progress must also still be enabled. Applications that never change the serialize handler at runtime can keep the feature enabled.” Read more on PHP: PHP2Shell Exploitation Attempt Detected by Amazon Four Days Before Vulnerability Disclosure System administrators are urged to put in place the mitigation recommended on October 21 in PHP’s advisory for CVE-2026-109619, one of two critical flaws issued last week. “We suggest you set session.upload_progress.enabled=0 until the next regular bugfix release, to fully protect from an unlikely RCE vector,” it said. “If you applied it [last week], keep it in place and no further action is needed.” More Work for Security Teams Last week saw widespread website outages as administrators scrambled to patch the maximum severity zero days (CVE-2026-109618 and CVE-2026-109619), collectively known as “P2PShell.” Mike Lyborg, CISO at Swimlane, argued that new flaw needs a “precise response” after days of disruption in many organizations because of PHP2Shell. “Keeping services running through successive warnings takes coordination that holds up after everyone’s exhausted,” he added. “Across organizations responding to PHP last week, the next bottleneck could be a handoff between the people assessing risk and those authorized to change a live service.” Their efforts were given an added urgency after details of the vulnerabilities were accidentally disclosed a day before the patches were due to be released. Amazon Web Services subsequently revealed that an unknown threat actor tried to exploit the bugs four days before they were officially published. It remains unclear how they managed to get hold of the information needed to attempt such an attack. PHP is used in around 70% of global websites, including content management systems (CMS) like WordPress, Drupal, Joomla and Magento, making the patching of PHP2Shell a major global endeavor. You may also like Blue Initiative Offers Maritime Sector Dedicated Vulnerability Database News 26 October 2026 Two Zero-Days Exploited in Attack on Dutch Institute for Vulnerability Disclosure News 2 October 2026 NCSC Urges Immediate Patching of F5 BIG-IP Bug News 31 March 2026 Automation and Vulnerability Exploitation Drive Mass Ransomware Breaches News 3 July 2025 Five ICS Security Challenges and How to Overcome Them News Feature 28 August 2023 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Attackers Hide Malware Behind Signed ChatGPT and Claude Binaries News 28 October 2026 1 Attackers Exploit Teams External Chat to Breach Organizations in Under 15 Minutes News 27 October 2026 2 Online Scam Volumes Double to Overtake Phishing News 29 October 2026 3 Microsoft Issues Emergency Patch Update for Critical .NET Buffer Overflow Flaw News 26 October 2026 4 Japan’s GMO Internet Urges Customers to Disconnect PCs News 28 October 2026 5 MR ROBOT Malware-as-a-Service Targets Indian Bank Customers News 29 October 2026 6 Attackers Exploit Teams External Chat to Breach Organizations in Und",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng",
-            "vulnerability_disclosure"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "affected_products": [
-            "F5 BIG-IP",
-            "OpenAI/ChatGPT",
-            "AWS"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-115560",
-            "CVE-2026-109619",
-            "CVE-2026-109618"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "emergency_patch"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "F5 BIG-IP": "target",
-            "OpenAI/ChatGPT": "target",
-            "AWS": "target",
-            "Anthropic/Claude": "target",
-            "Drupal": "target",
-            "WordPress": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "PHP Publishes Mitigation Advice for New RCE Flaw",
-          "link": "https://www.infosecurity-magazine.com/news/php-publishes-mitigation-advice/",
-          "published": "2026-10-26T09:15:00+00:00",
-          "summary": "PHP warns of critical RCE vulnerability CVE-2026-115560, but says limited exploit conditions mean most deployments are unlikely to be affected",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng",
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "F5 BIG-IP",
-              "OpenAI/ChatGPT",
-              "AWS"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-115560",
-              "CVE-2026-109619",
-              "CVE-2026-109618"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "emergency_patch"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "F5 BIG-IP": "target",
-              "OpenAI/ChatGPT": "target",
-              "AWS": "target",
-              "Anthropic/Claude": "target",
-              "Drupal": "target",
-              "WordPress": "target"
-            },
             "weak_tags": {
               "products": []
             }
@@ -7561,108 +7634,6 @@
       ]
     },
     {
-      "cluster_id": "6f44dce3da",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "actor_attribution": [
-          "APT38",
-          "Lazarus"
-        ],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
-        "link": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
-        "published": "2026-10-30T09:18:13+00:00",
-        "summary": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]",
-        "full_body": "Binance links $6.3 billion crypto theft to compromised DevOps laptop By Sergiu Gatlan October 30, 2026 05:18 AM 2 Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. The crypto exchange said the access let attackers submit unauthorized withdrawal transactions after they accessed a service container, and it hasn't yet found evidence of a leaked wallet private key. \"To be clear: the attacker did not simply use one engineer's permissions, and this was not a single 'one-click' action. It involved a more complex attack process. Our investigation has not attributed responsibility to any individual,\" Binance Co-CEO Richard Teng said . Binance also said it \"uncovered additional points of breach\" but was \"still gathering the facts, and will share more directly as we have them.\" The company confirmed the breach in a statement shared with BleepingComputer on Thursday and reassured customers that their funds were safe. \"Binance will cover all losses from the SAFU fund and the company's funds. User funds are safe. We will also publish an updated Proof of Reserves once the remediation is complete,\" it said . Since the attack, Binance has suspended deposits and withdrawals while it conducts security checks, revoked authorizations for the affected address, and is working with blockchain intelligence partners and law enforcement to trace and recover the stolen funds. Crypto theft linked to North Korean hackers Although the company didn't link the incident to a hacking group or threat actor, blockchain analysis firm TRM attributed the attack to TraderTraitor , a North Korean state-backed hacking unit also tracked as Lazarus Group and APT38 . \"On October 29, 2026, an attacker moved approximately USD 6.36 billion out of Binance wallets on ten blockchains, most of it in about 20 minutes starting at 20:05 UTC. That makes this the largest crypto theft on record, about four times the USD 1.5 billion Bybit hack of February 2025,\" TRM said . Blockchain intelligence firm Chainalysis confirmed TRM Labs' findings , stating with \"a high degree of confidence\" that TraderTraitor is responsible for the Binance $6.4 billion hack. While stablecoin issuers Tether, Circle, Ripple, and others have frozen roughly $2.7 billion since the incident, the attackers still have control of about $2.4 billion that can't be frozen. \"Tether, Circle, Ripple and World Liberty Financial froze about USD 2.67 billion in stablecoins, and Arbitrum's Security Council froze 8,426 ETH and 74.6 million ARB on its network, for a total of roughly USD 2.7 billion,\" TRM added. \"The attacker raced the freezes by selling USDT to market makers and borrowing ETH against USDT on Aave. It now holds more than 420,000 ETH and 18,270 BTC, about USD 2.4 billion in assets beyond any issuer's reach.\" The TraderTraitor hackers were previously linked to many other major crypto theft incidents, including the theft of $1.5 billion in the February 2025 Bybit hack . At $6.36 billion, the Binance attack is now the largest recorded crypto heist. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Hackers steal $351.6 million in Bitget crypto exchange hack Binance probes potential $5.8 billion crypto-theft hack Uranium crypto exchange hacker convicted for stealing $53 million Bitget hacked via zero-day in third-party security products Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day"
-          ],
-          "actor_attribution": [
-            "Lazarus",
-            "APT38"
-          ],
-          "affected_industries": [
-            "financial_services"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
-          "link": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
-          "published": "2026-10-30T09:18:13+00:00",
-          "summary": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day"
-            ],
-            "actor_attribution": [
-              "Lazarus",
-              "APT38"
-            ],
-            "affected_industries": [
-              "financial_services"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "f2e7c5b1f2",
       "priority_score": 8,
       "member_count": 1,
@@ -7675,7 +7646,8 @@
         "actor_attribution": [],
         "affected_industries": [
           "education",
-          "financial_services"
+          "financial_services",
+          "government"
         ],
         "affected_products": [],
         "tools_used": [],
@@ -7696,8 +7668,8 @@
         "link": "https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach",
         "published": "2026-10-30T15:54:00+00:00",
         "summary": "The state’s Department of Education (FLDOE) said on Thursday it became aware of a data breach involving the Florida Student Financial Aid website on October 19.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "Florida State University campus. Image: Ernie Stephens via Unsplash Florida warns that 4.9 million people had Social Security numbers leaked in financial aid site breach Florida warned students that a recent data breach exposed sensitive information — including Social Security numbers and addresses — on nearly 5 million people who have applied for financial aid in the state. The state’s Department of Education (FLDOE) said on Thursday it became aware of a data breach involving the Florida Student Financial Aid website on October 19. The information exposed includes names, addresses, phone numbers, genders, email addresses, Social Security numbers and dates of birth. “An unauthorized party gained access to a system or database containing company or customer information,” the department said in a statement. “FLDOE is partnering with the Florida Digital Service and the Florida Department of Law Enforcement in its response to the event.” FLDOE has taken the financial aid site down and warned that other department websites and services may experience temporary disruptions. Financial aid for students is not at risk and the breach will not delay aid disbursements or tuition payments. The incident will also not impact scholarships, grants or student loans. The state urged those affected to monitor their credit reports and financial accounts for any irregular activity. The department declined to comment about the nature of the incident or the attackers. The statement says the incident has been contained and was reported to the Office of the Attorney General. The attack on FLDOE comes just one week after California’s education department announced its own breach involving all children enrolled in the state’s public school system over the last three years. The incident is the second large Florida government breach this year, with the state’s Department of Motor Vehicles reporting a data breach perpetrated by a prominent hacking group last month. Members of the group have continued to offer the stolen DMV data for sale on cybercriminal forums throughout October. Another large county in central Florida is dealing with significant internet outages after an alleged cyberattack on Wednesday. Cybercrime Government News Privacy No previous article No new articles Jonathan Greig is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
             "data_breach"
@@ -7705,6 +7677,7 @@
           "actor_attribution": [],
           "affected_industries": [
             "financial_services",
+            "government",
             "education"
           ],
           "affected_products": [],
@@ -7735,7 +7708,89 @@
             "actor_attribution": [],
             "affected_industries": [
               "financial_services",
+              "government",
               "education"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "6f44dce3da",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
+        "link": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+        "published": "2026-10-30T09:18:13+00:00",
+        "summary": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
+          "link": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+          "published": "2026-10-30T09:18:13+00:00",
+          "summary": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services"
             ],
             "affected_products": [],
             "tools_used": [],
@@ -7819,81 +7874,6 @@
             "urgency_signals": [],
             "content_type": "incident_report",
             "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "3d2300320f",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Intel 471",
-        "cohort": "ransomware_ecrime_financial_crime",
-        "title": "Testing a PHP2Shell exploit in the era of AI-hallucinated PoCs",
-        "link": "https://www.intel471.com/blog/testing-a-php2shell-exploit-in-the-era-of-ai-hallucinated-pocs",
-        "published": "2026-10-30T19:12:43+00:00",
-        "summary": "Intel 471 tested a public exploit for the AI-discovered PHP flaws. We found exploitation is hard, but you should still patch now.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Intel 471",
-          "cohort": "ransomware_ecrime_financial_crime",
-          "title": "Testing a PHP2Shell exploit in the era of AI-hallucinated PoCs",
-          "link": "https://www.intel471.com/blog/testing-a-php2shell-exploit-in-the-era-of-ai-hallucinated-pocs",
-          "published": "2026-10-30T19:12:43+00:00",
-          "summary": "Intel 471 tested a public exploit for the AI-discovered PHP flaws. We found exploitation is hard, but you should still patch now.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -7987,87 +7967,6 @@
       ]
     },
     {
-      "cluster_id": "164e3991c3",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/netsec",
-        "cohort": "reddit_practitioner_osint",
-        "title": "TightVNC Viewer Pre-auth RCE",
-        "link": "https://www.reddit.com/r/netsec/comments/1xil17j/tightvnc_viewer_preauth_rce/",
-        "published": "2026-10-29T14:09:08+00:00",
-        "summary": "What if a VNC server could make your viewer believe it had a ~4 GB framebuffer… while actually allocating only 128 KB? That’s the core of this TightVNC vulnerability. A malicious server can announce a crafted 32768 × 32769 screen at 32bpp, causing the framebuffer size calculation to overflow. The allocation wraps down to 128 KB, but the viewer continues using the original, much larger dimensions when calculating pixel writes. The result is a server-controlled out-of-bounds write in the viewer. It’s a good example of how a relatively small integer-overflow mistake can become a powerful memory-corruption primitive when different parts of the application disagree about the true size of a buffer. submitted by /u/SSDisclosure [link] [comments]",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_5_chatter",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "TightVNC Viewer Pre-auth RCE",
-          "link": "https://www.reddit.com/r/netsec/comments/1xil17j/tightvnc_viewer_preauth_rce/",
-          "published": "2026-10-29T14:09:08+00:00",
-          "summary": "What if a VNC server could make your viewer believe it had a ~4 GB framebuffer… while actually allocating only 128 KB? That’s the core of this TightVNC vulnerability. A malicious server can announce a crafted 32768 × 32769 screen at 32bpp, causing the framebuffer size calculation to overflow. The allocation wraps down to 128 KB, but the viewer continues using the original, much larger dimensions when calculating pixel writes. The result is a server-controlled out-of-bounds write in the viewer. It’s a good example of how a relatively small integer-overflow mistake can become a powerful memory-corruption primitive when different parts of the application disagree about the true size of a buffer. submitted by /u/SSDisclosure [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "7c05dcf692",
       "priority_score": 8,
       "member_count": 1,
@@ -8140,6 +8039,87 @@
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "164e3991c3",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/netsec",
+        "cohort": "reddit_practitioner_osint",
+        "title": "TightVNC Viewer Pre-auth RCE",
+        "link": "https://www.reddit.com/r/netsec/comments/1xil17j/tightvnc_viewer_preauth_rce/",
+        "published": "2026-10-29T14:09:08+00:00",
+        "summary": "What if a VNC server could make your viewer believe it had a ~4 GB framebuffer… while actually allocating only 128 KB? That’s the core of this TightVNC vulnerability. A malicious server can announce a crafted 32768 × 32769 screen at 32bpp, causing the framebuffer size calculation to overflow. The allocation wraps down to 128 KB, but the viewer continues using the original, much larger dimensions when calculating pixel writes. The result is a server-controlled out-of-bounds write in the viewer. It’s a good example of how a relatively small integer-overflow mistake can become a powerful memory-corruption primitive when different parts of the application disagree about the true size of a buffer. submitted by /u/SSDisclosure [link] [comments]",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_5_chatter",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "TightVNC Viewer Pre-auth RCE",
+          "link": "https://www.reddit.com/r/netsec/comments/1xil17j/tightvnc_viewer_preauth_rce/",
+          "published": "2026-10-29T14:09:08+00:00",
+          "summary": "What if a VNC server could make your viewer believe it had a ~4 GB framebuffer… while actually allocating only 128 KB? That’s the core of this TightVNC vulnerability. A malicious server can announce a crafted 32768 × 32769 screen at 32bpp, causing the framebuffer size calculation to overflow. The allocation wraps down to 128 KB, but the viewer continues using the original, much larger dimensions when calculating pixel writes. The result is a server-controlled out-of-bounds write in the viewer. It’s a good example of how a relatively small integer-overflow mistake can become a powerful memory-corruption primitive when different parts of the application disagree about the true size of a buffer. submitted by /u/SSDisclosure [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_5_chatter",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -8434,7 +8414,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 18,
+      "article_count": 21,
       "cohesion": 0.315,
       "shared_strong_signals": [
         "Microsoft Defender"
@@ -8453,8 +8433,8 @@
         "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
         "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
         "https://www.reddit.com/r/netsec/comments/1xjeb39/claude_vs_code_extension_compromised/",
-        "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
         "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+        "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
         "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/",
         "https://www.infosecurity-magazine.com/news/attackers-hide-malware-behind/",
         "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
@@ -8534,7 +8514,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 17,
+      "article_count": 18,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "Linux kernel"
@@ -8552,8 +8532,8 @@
         "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
         "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
         "https://www.reddit.com/r/netsec/comments/1xjeb39/claude_vs_code_extension_compromised/",
-        "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
         "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+        "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
         "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/",
         "https://www.infosecurity-magazine.com/news/attackers-hide-malware-behind/",
         "https://www.welivesecurity.com/en/business-security/lessons-cybersecurity-black-week/"
@@ -8617,14 +8597,7 @@
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [
-        {
-          "value": "CVE-2026-58882",
-          "cluster_id": "5e5aace957",
-          "first_source": "BleepingComputer",
-          "first_published": "2026-10-31T15:35:11+00:00"
-        }
-      ],
+      "cves": [],
       "actors": [],
       "products": []
     },
@@ -8731,8 +8704,8 @@
         "first_observation": true
       },
       {
-        "cluster_id": "25ea49968b",
-        "pair": "CVE-2026-104935 + Anthropic/Claude",
+        "cluster_id": "5e5aace957",
+        "pair": "CVE-2026-58882 + Android",
         "first_observation": true
       }
     ],
@@ -8871,12 +8844,6 @@
       },
       {
         "axis": "actor_attribution",
-        "value": "Lazarus",
-        "cluster_id": "6f44dce3da",
-        "weeks_observed": 7
-      },
-      {
-        "axis": "actor_attribution",
         "value": "UNC6240",
         "cluster_id": "360482c4b0",
         "weeks_observed": 6
@@ -8921,6 +8888,12 @@
         "axis": "cve_ids",
         "value": "CVE-2026-110264",
         "cluster_id": "f576445f64",
+        "weeks_observed": 3
+      },
+      {
+        "axis": "cve_ids",
+        "value": "CVE-2026-16812",
+        "cluster_id": "d20e88c36e",
         "weeks_observed": 3
       }
     ],
