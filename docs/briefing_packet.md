@@ -1,13 +1,13 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-10-30T20:37:49.874661+00:00
+- Generated: 2026-10-31T00:36:00.207749+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 344
-- Total clusters raw: 148
-- Total clusters in packet: 65
+- Total items in window: 346
+- Total clusters raw: 150
+- Total clusters in packet: 67
 - Dropped low score: 83
 - Dropped overflow: 0
 
@@ -70,6 +70,11 @@
 
 ## Feed status
 
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
@@ -80,25 +85,15 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: fetch_error
-  - Item count: 0
-  - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: fetch_error
+  - Item count: 0
   - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
@@ -110,51 +105,56 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
-  - Item count: 20
+  - Item count: 10
+  - In window count: 5
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
   - In window count: 1
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 4
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 1
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 5
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -170,15 +170,15 @@
   - Status: ok
   - Item count: 40
   - In window count: 1
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
-  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
+  - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
   - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
@@ -195,6 +195,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
@@ -205,23 +210,23 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -230,31 +235,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 2
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 5
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 2
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -265,11 +260,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **Google Project Zero** (offensive_vulnerability_research)
-  - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - Item count: 20
+  - In window count: 3
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
@@ -280,46 +280,41 @@
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Google Project Zero** (offensive_vulnerability_research)
+  - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 6
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
+  - In window count: 7
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
-  - Item count: 5
-  - In window count: 5
+  - Item count: 10
+  - In window count: 2
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
@@ -330,16 +325,26 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 20
-  - In window count: 20
+  - Item count: 30
+  - In window count: 14
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
@@ -350,16 +355,11 @@
   - Status: ok
   - Item count: 50
   - In window count: 1
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 14
+  - Item count: 20
+  - In window count: 20
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -375,16 +375,21 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 5
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 5
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -400,23 +405,23 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 1
+  - Item count: 20
+  - In window count: 4
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -430,11 +435,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -445,26 +445,26 @@
   - Status: ok
   - Item count: 25
   - In window count: 23
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Just Security** (policy_strategy_geopolitics)
-  - URL: https://www.justsecurity.org/feed/
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 20
+  - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
   - In window count: 6
+- **Just Security** (policy_strategy_geopolitics)
+  - URL: https://www.justsecurity.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
@@ -476,17 +476,20 @@
 ### Cisco exploitation (CVE-2026-20127)
 - Anchor signal: Cisco
 - Theme key: cisco
-- Cluster count: 7
-- Article count: 16
-- Cohesion: 0.219
+- Cluster count: 6
+- Article count: 15
+- Cohesion: 0.227
 - Shared strong signals: Cisco
 - Member CVEs: CVE-2026-20127
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: active_exploitation, ddos
-  - affected_products: Cisco
+  - threat_categories: active_exploitation, ransomware_extortion, ddos, apt_espionage, web_shell_backdoor
+  - actor_attribution: Volt Typhoon
+  - affected_industries: financial_services, telecommunications
+  - affected_products: Cisco, OpenAI/ChatGPT, GitLab
+  - cve_ids: CVE-2026-20127, CVE-2026-76418
   - urgency_signals: actively_exploited, preauth_unauth
-- Cluster IDs: 8df24b48a3, bce7fc7634, 780c7035c3, 3f5fef5144, 084d29f299, d20e88c36e, abce187b26
+- Cluster IDs: 8df24b48a3, bce7fc7634, 780c7035c3, 3f5fef5144, 084d29f299, d20e88c36e
 - Links:
   - https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/
   - https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/
@@ -503,7 +506,6 @@
   - https://blog.talosintelligence.com/ir-trends-q3-2026/
   - https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html
   - https://cyberscoop.com/volt-typhoon-silent-train-covert-ephemeral-network-black-lotus-labs/
-  - https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/
 
 ### Volt Typhoon targeting Cisco
 - Anchor signal: Volt Typhoon
@@ -569,6 +571,34 @@
   - https://www.welivesecurity.com/en/business-security/lessons-cybersecurity-black-week/
   - https://www.infosecurity-magazine.com/news/php-publishes-mitigation-advice/
 
+### Linux kernel vulnerability activity
+- Anchor signal: Linux kernel
+- Theme key: linux-kernel
+- Cluster count: 3
+- Article count: 23
+- Cohesion: 0.312
+- Shared strong signals: Linux kernel
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Linux kernel, Anthropic/Claude
+  - cve_ids: CVE-2026-98432
+  - urgency_signals: preauth_unauth
+- Cluster IDs: 31b25b9bb4, c8b10c7431, fbf3b415d8
+- Links:
+  - https://research.checkpoint.com/2026/tricks-from-the-past-deployed-via-signed-chatgpt-and-claude-binaries/
+  - https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/
+  - https://www.sophos.com/en-us/blog/malicious-claude-code-extension-distributed-through-cursor-marketplace
+  - https://www.reddit.com/r/netsec/comments/1xjeb39/claude_vs_code_extension_compromised/
+  - https://www.wiz.io/blog/github-actions-security-pwn-request-reckoning
+  - https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github
+  - https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/
+  - https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html
+  - https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/
+  - https://www.infosecurity-magazine.com/news/nik-c2-malware-victims-openai-keys/
+  - https://www.welivesecurity.com/en/business-security/lessons-cybersecurity-black-week/
+  - https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/
+
 ### Palo Alto Networks vulnerability activity
 - Anchor signal: Palo Alto Networks
 - Theme key: palo-alto-networks
@@ -580,15 +610,15 @@
 - Also targets: (none)
 - Dominant features:
   - affected_products: Palo Alto Networks
-- Cluster IDs: 5aa0fb9542, 8bb3971743
+- Cluster IDs: 5aa0fb9542, d5960345db
 - Links:
   - https://webflow.sysdig.com/blog/php2shell-cve-2026-109618-and-cve-2026-109619-detecting-unauthenticated-remote-code-execution-in-php-core
   - https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/
   - https://www.welivesecurity.com/en/videos/php2shell-what-know-two-critical-php-flaws/
   - https://orca.security/resources/blog/php2shell-from-the-attackers-perspective/
   - https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html
-  - https://www.infosecurity-magazine.com/news/chinese-us-government-chained-php2/
   - https://risky.biz/RBNEWS627/
+  - https://www.infosecurity-magazine.com/news/chinese-us-government-chained-php2/
   - https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html
 
 ### CVE-2026-102764 exploitation activity
@@ -624,22 +654,22 @@
   - https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/
   - https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/
 
-### Okta vulnerability activity
-- Anchor signal: Okta
-- Theme key: okta
+### Salt Typhoon: apt espionage
+- Anchor signal: Salt Typhoon
+- Theme key: salt-typhoon
 - Cluster count: 2
 - Article count: 2
-- Cohesion: 0.455
-- Shared strong signals: Okta
+- Cohesion: 0.2
+- Shared strong signals: Salt Typhoon
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - affected_industries: government
-  - affected_products: Okta
-- Cluster IDs: 3dc126ab3a, cd1d6d7c27
+  - threat_categories: apt_espionage
+  - actor_attribution: Salt Typhoon
+- Cluster IDs: b9771fe2d2, 084d29f299
 - Links:
-  - https://www.bitdefender.com/en-us/blog/hotforsecurity/hackers-leak-41-000-dhs-staff-data
-  - https://cyberscoop.com/dhs-employee-data-leak-ddosecrets/
+  - https://www.team-cymru.com/post/defense-industrial-base-nation-state-network-telemetry
+  - https://blog.talosintelligence.com/ir-trends-q3-2026/
 
 ### Lazarus campaign activity
 - Anchor signal: Lazarus
@@ -657,23 +687,6 @@
 - Links:
   - https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/
   - https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/
-
-### Salt Typhoon: apt espionage
-- Anchor signal: Salt Typhoon
-- Theme key: salt-typhoon
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.2
-- Shared strong signals: Salt Typhoon
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: apt_espionage
-  - actor_attribution: Salt Typhoon
-- Cluster IDs: b9771fe2d2, 084d29f299
-- Links:
-  - https://www.team-cymru.com/post/defense-industrial-base-nation-state-network-telemetry
-  - https://blog.talosintelligence.com/ir-trends-q3-2026/
 
 ### AWS vulnerability activity
 - Anchor signal: AWS
@@ -702,8 +715,8 @@
 - **Tricks from the Past deployed via signed ChatGPT and Claude binaries**
   - Cluster: 31b25b9bb4
   - Sources in window: 3
-  - Window hours: 3.8
-  - Cohort count: 6
+  - Window hours: 3.4
+  - Cohort count: 5
 - **CVE-2026-111497: Critical out-of-bounds write in the Node.js Brotli decoder**
   - Cluster: 01d94b3234
   - Sources in window: 3
@@ -1332,7 +1345,7 @@ On October 19, 2026, we learned about eMudhraâs eight shockingly weak keys:
   - Link: https://blog.cloudflare.com/emudhra-patching/
   - Summary: Four, just four: that’s the key to break into any unpatched connection on the Internet that is using eMudhra certificates. Here’s how we quickly patched Cloudflare, what evidence we can see of attempted exploitation, and how much of the rest of the Internet remains exposed.
 
-### Cluster 3f5fef5144 — score 18
+### Cluster 3f5fef5144 — score 17
 
 - Title: Drupal Commerce Core Vulnerability Exploited Against Online Stores
 - Source: SecurityWeek (cyber_news_breach_reporting)
@@ -1400,8 +1413,8 @@ Drupal is urging online store owners to patch a highly critical access bypass vu
 - Published: 2026-10-27T13:03:27+00:00
 - Link: https://research.checkpoint.com/2026/tricks-from-the-past-deployed-via-signed-chatgpt-and-claude-binaries/
 - Fetch status: ok
-- Member count: 22
-- Corroborating source count: 11
+- Member count: 21
+- Corroborating source count: 10
 - Strong signals: Anthropic/Claude, GitHub, OpenAI/ChatGPT
 
 #### Cluster taxonomy (union across members)
@@ -1431,7 +1444,7 @@ Key Points Introduction Over the past two months, we have been tracking a campai
 CATEGORIES AI Research 23 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 477 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 431 How To Guides 13 Ransomware 6 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 Tricks from the Past deployed via signed ChatGPT and Claude binaries October 27, 2026 https://research.checkpoint.com/2026/tricks-from-the-past-deployed-via-signed-chatgpt-and-claude-binaries/ Key Points Check Point Research discovered a campaign we track as Yoba where attackers abuse the popularity of AI tools such as ChatGPT and Claude, creating fake GitHub projects that pretend to be desktop applications like GPT-5.6 Sol , GPT-6 Astra , and Claude Opus . The malware is placed next to legitimate, signed executables from OpenAI and Anthropic so it can be loaded indirectly, a technique commonly known as DLL sideloading, which is often used to bypass security protections. This campaign demonstrates strong operational security (OPSEC) by avoiding dedicated command-and-control (C2) infrastructure and instead relying on Telegram, Tor, Catbox, and DNS over HTTPS (DoH). The actor behind the campaign shows indicators that suggest Russian origins and appears to operate primarily in the UTC-4 time zone. Introduction Over the past two months, we have been tracking a campaign that abuses the popularity of AI tools such as ChatGPT and Claude to spread a custom malware chain we call Yoba . The attackers use fake GitHub projects that pretend to be AI desktop applications like GPT-5.6 Sol , GPT-6 Astra , and Claude Opus . These projects look convincing and use real GitHub infrastructure, which helps them appear legitimate to potential victims. The website exhibits search-targeted content and suspicious installer-delivery tactics consistent with an SEO-poisoning lure. Inside the installers, there is a malicious component we refer to as the YobaDropper . This dropper includes another component, the YobaLoader , which is responsible for contacting attacker-controlled infrastructure and fetching the final payload. In this report, we describe how victims are lured to these fake projects, how the YobaDropper and YobaLoader work together, and how the attackers ultimately use this chain to run unwanted software on infected systems. Figure 1 — GPT-6 Astra campaign, attack chain. GitHub Repositories The initial access occurred via malicious GitHub repositories. The projects were impersonating ChatGPT and Claude related models, more specifically GPT-5.6 Sol, GPT-6 Astra, and Claude Opus. No manipulation of fake engagement (stars/forks) was in place. Figure 2 — GitHub repository. Aside from the repositories, GitHub.io pages were used to describe the capabilities of the software, while the malware was hosted as a release. Figure 3 — GitHub.io page with links to malicious release. These phishing landing pages contain download links that point directly to the malicious ZIP releases hosted on GitHub. Figure 4 — Claude Opus GitHub[.]io page. While the repositories do not show signs of fake engagement (such as artificially inflated stars or forks) that would promote them within GitHub’s own search, they still appear among the top results on Google. This is most likely due to SEO poisoning, where the attackers optimize titles, descriptions, and hosting domains to make their malicious projects rank highly in external search engines. Figure 5 — Google Search results. Each repository uses a different email address ( edwardcarlsonmkym[@]outlook[.]com , daxschneiderdjuu[@]outlook[.]com , and rioprestonlfyx[@]outlook[.]com ), and the uploader appears to operate in UTC+4 , UTC-4 , and UTC+3 respectively. This inconsistency likely reflects a deliberate attempt to obscure the threat actor’s true operational timezone. Repositories’ initial commits: Repository: /gpt-5-6/sol-free-desktop ===
 ```
 
-#### Corroborating sources (11)
+#### Corroborating sources (10)
 
 - **Check Point Research** (threat_research_primary)
   - Title: Tricks from the Past deployed via signed ChatGPT and Claude binaries
@@ -1468,78 +1481,21 @@ CATEGORIES AI Research 23 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Published: 2026-10-30T14:36:54+00:00
   - Link: https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/
   - Summary: A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors. [...]
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: Quick Study
-  - Published: 2026-10-23T21:35:13+00:00
-  - Link: https://simonwillison.net/2026/Oct/23/quick-study-painter/
-  - Summary: Tool: Quick Study Prompt to Claude Opus 5.5 High : Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush See also my previous experiment getting Claude Fable to simulate a watercolor illustration with P5.js. Quick Study uses Sobel edge detection , with no external libraries beyond Google Fonts. Tags: tools
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions
+  - Published: 2026-10-29T15:57:05+00:00
+  - Link: https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html
+  - Summary: A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said on October 27 that its AI model wrote an exploit that uses the flaw to let a remote attacker with no credentials run commands as root on Linux servers with a
 - **Help Net Security** (cyber_news_breach_reporting)
   - Title: Claude Code extension poisoned with persistent SSH backdoor
   - Published: 2026-10-30T11:15:26+00:00
   - Link: https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/
   - Summary: A tampered build of Anthropic’s Claude Code extension for VS Code-compatible editors planted an SSH backdoor on developers’ machines, researchers at macOS security firm Phorion have found. The company spotted the malicious package, version 2.1.313, on Open VSX, an open-source marketplace for VS Code extensions run by the Eclipse Foundation. VS Code’s default extension store is Microsoft’s Visual Studio Marketplace, where no malicious version has been reported. Its terms of use limit it to Microsoft’s … More → The post Claude Code extension poisoned with persistent SSH backdoor appeared first on Help Net Security .
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor
-  - Published: 2026-10-30T08:55:47+00:00
-  - Link: https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html
-  - Summary: Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. The malicious update, version 2.1.313, was distributed under the extension's legitimate publisher identity, prompting Cursor to temporarily shut
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: NIK C2 Malware Can Use Victims’ OpenAI Keys for AI Queries
   - Published: 2026-10-29T15:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/nik-c2-malware-victims-openai-keys/
   - Summary: NIK C2 malware can fall back on victims’ OpenAI API keys to run AI queries
-
-### Cluster 5b26ff1d21 — score 15
-
-- Title: Fresh WordPress Vulnerability in Attackers’ Crosshairs
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-10-30T12:04:13+00:00
-- Link: https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 2
-- Strong signals: WordPress
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion, supply_chain, zero_day
-- actor_attribution: Volt Typhoon
-- affected_products: Anthropic/Claude, GitLab, WordPress
-- urgency_signals: preauth_unauth, zero_day
-- content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, zero_day, data_breach
-- actor_attribution: Volt Typhoon
-- affected_products: WordPress, Anthropic/Claude, GitLab
-- urgency_signals: zero_day, preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Threat actors are attempting to exploit a high-severity unauthenticated race condition leading to remote code execution. The post Fresh WordPress Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Threat actors started exploiting a new high-severity WordPress vulnerability within hours of patches rolling out, Defiant warns. Patched on October 28 in WordPress 7.1.4 , the security defect impacts the WordPress update process and can be exploited for remote code execution. According to Defiant, it is a race condition in WordPress’s Core update process that can be exploited without authentication. The attack complexity, however, is high. No CVE identifier has been assigned to the vulnerability yet. The weakness stems from predictable, web-accessible staging paths during the upgrades. New files are unpacked into a predictable directory that is accessible from the web on many servers. “The attacker needs a full-package update containing the installer files, public web and PHP access to the staging tree, a predictable or discovered staging path, and enough time to complete the attack before WordPress cleans up the temporary files,” Defiant explains . According to the web security firm, threat actors are already attempting to exploit the vulnerability, polling the vulnerable paths repeatedly in their attempts to hit the seconds-long exploitability window. Advertisement. Scroll to continue reading. While an attacker does not need an account on the site to exploit the flaw, they do need “to hit a very narrow window while WordPress is unpacking a complete Core update,” Defiant says. To address the security bug, WordPress now randomizes the staging directory, adds an index guard, and prevents the unsafe promotion of staged configuration data. “Wordfence telemetry shows that threat actors are already actively attempting to exploit the vulnerability. The first match for our new firewall rule arrived nine minutes after deployment. During the first 21 hours, we recorded more than 18,500 requests targeting staged setup-config.php installer paths,” Defiant says. Wordfence has not reported successful compromises. Fixes for the vulnerability were included in WordPress 7.1.4 and backported to branches through WordPress 4.7. WordPress 7.1.4 includes patches for 22 security defects, including several XSS flaws, interactivity API issues, an unauthenticated information disclosure bug, and an authorization weakness, and also updates the bundled root certificates to reflect the recent eMudhra revocation . Related: Max-Severity GitLab Vulnerability Exploited Against Alpine Linux Related: TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines Related: Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network Related: Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities Over 41,000 DHS Employee Records Leaked Online HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison Chrome and Firefox Updates Patch Over 200 Vulnerabilities China-Linked Hackers Exploit PHP2Shell to Root Firewalls Hackers Start Probing Fresh Oracle EBS Vulnerability Latest News PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak Passkeys Are Better Than Passwords. But They Are Not Enough. Bulletproof Host Virtualine Loses Its Domain to FBI Seizure Drupal Commerce Core Vulnerability Exploited Against Online Stores $2 Million+ Drained From Polymarket Traders in New Supply Chain Attack Max-Severity GitLab Vulnerability Exploited Against Alpine Linux TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines Trending China-Linked
-```
-
-#### Corroborating sources (2)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Fresh WordPress Vulnerability in Attackers’ Crosshairs
-  - Published: 2026-10-30T12:04:13+00:00
-  - Link: https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/
-  - Summary: Threat actors are attempting to exploit a high-severity unauthenticated race condition leading to remote code execution. The post Fresh WordPress Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek .
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours
-  - Published: 2026-10-30T14:08:14+00:00
-  - Link: https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html
-  - Summary: Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released. The vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7 through 7.1.3. It carries a CVSS score of 8.1 on the CVSS scoring system. Patches for the flaw were released on October
 
 ### Cluster 862a80147d — score 14
 
@@ -1624,6 +1580,58 @@ Why Old Vulnerability Management Habits Keep Rising from the Grave Stephen Gates
   - Published: 2026-10-29T14:25:00+00:00
   - Link: https://horizon3.ai/intelligence/blogs/old-vulnerability-management-habits-ctem/
   - Summary: Three customer stories show how to keep severity-only priorities and closed-ticket counts from undermining your CTEM program by tying findings to attack paths and verifying fixes.
+
+### Cluster 5b26ff1d21 — score 14
+
+- Title: Fresh WordPress Vulnerability in Attackers’ Crosshairs
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-10-30T12:04:13+00:00
+- Link: https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 2
+- Strong signals: WordPress
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion, supply_chain, zero_day
+- actor_attribution: Volt Typhoon
+- affected_products: Anthropic/Claude, GitLab, WordPress
+- urgency_signals: preauth_unauth, zero_day
+- content_type: news_report, vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, zero_day, data_breach
+- actor_attribution: Volt Typhoon
+- affected_products: WordPress, Anthropic/Claude, GitLab
+- urgency_signals: zero_day, preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Threat actors are attempting to exploit a high-severity unauthenticated race condition leading to remote code execution. The post Fresh WordPress Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Threat actors started exploiting a new high-severity WordPress vulnerability within hours of patches rolling out, Defiant warns. Patched on October 28 in WordPress 7.1.4 , the security defect impacts the WordPress update process and can be exploited for remote code execution. According to Defiant, it is a race condition in WordPress’s Core update process that can be exploited without authentication. The attack complexity, however, is high. No CVE identifier has been assigned to the vulnerability yet. The weakness stems from predictable, web-accessible staging paths during the upgrades. New files are unpacked into a predictable directory that is accessible from the web on many servers. “The attacker needs a full-package update containing the installer files, public web and PHP access to the staging tree, a predictable or discovered staging path, and enough time to complete the attack before WordPress cleans up the temporary files,” Defiant explains . According to the web security firm, threat actors are already attempting to exploit the vulnerability, polling the vulnerable paths repeatedly in their attempts to hit the seconds-long exploitability window. Advertisement. Scroll to continue reading. While an attacker does not need an account on the site to exploit the flaw, they do need “to hit a very narrow window while WordPress is unpacking a complete Core update,” Defiant says. To address the security bug, WordPress now randomizes the staging directory, adds an index guard, and prevents the unsafe promotion of staged configuration data. “Wordfence telemetry shows that threat actors are already actively attempting to exploit the vulnerability. The first match for our new firewall rule arrived nine minutes after deployment. During the first 21 hours, we recorded more than 18,500 requests targeting staged setup-config.php installer paths,” Defiant says. Wordfence has not reported successful compromises. Fixes for the vulnerability were included in WordPress 7.1.4 and backported to branches through WordPress 4.7. WordPress 7.1.4 includes patches for 22 security defects, including several XSS flaws, interactivity API issues, an unauthenticated information disclosure bug, and an authorization weakness, and also updates the bundled root certificates to reflect the recent eMudhra revocation . Related: Max-Severity GitLab Vulnerability Exploited Against Alpine Linux Related: TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines Related: Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network Related: Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities Over 41,000 DHS Employee Records Leaked Online HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison Chrome and Firefox Updates Patch Over 200 Vulnerabilities China-Linked Hackers Exploit PHP2Shell to Root Firewalls Hackers Start Probing Fresh Oracle EBS Vulnerability Latest News PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak Passkeys Are Better Than Passwords. But They Are Not Enough. Bulletproof Host Virtualine Loses Its Domain to FBI Seizure Drupal Commerce Core Vulnerability Exploited Against Online Stores $2 Million+ Drained From Polymarket Traders in New Supply Chain Attack Max-Severity GitLab Vulnerability Exploited Against Alpine Linux TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines Trending China-Linked
+```
+
+#### Corroborating sources (2)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Fresh WordPress Vulnerability in Attackers’ Crosshairs
+  - Published: 2026-10-30T12:04:13+00:00
+  - Link: https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/
+  - Summary: Threat actors are attempting to exploit a high-severity unauthenticated race condition leading to remote code execution. The post Fresh WordPress Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek .
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours
+  - Published: 2026-10-30T14:08:14+00:00
+  - Link: https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html
+  - Summary: Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released. The vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7 through 7.1.3. It carries a CVSS score of 8.1 on the CVSS scoring system. Patches for the flaw were released on October
 
 ### Cluster 618b08e33f — score 12
 
@@ -1879,51 +1887,6 @@ Stephen Campbell 5 min read April 29, 2026 Targeting the Defense Industrial Base
   - Link: https://www.team-cymru.com/post/defense-industrial-base-nation-state-network-telemetry
   - Summary: Discover how nation-states target the Defense Industrial Base via pre-positioning. Learn why network telemetry is crucial to detect these hidden cyber threats.
 
-### Cluster 3dc126ab3a — score 11
-
-- Title: Hackers leak personnel data of 41,000+ Homeland Security staff, including ICE and border agents
-- Source: Graham Cluley (practitioner_analysis)
-- Published: 2026-10-30T10:33:50+00:00
-- Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/hackers-leak-41-000-dhs-staff-data
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng
-- affected_industries: government
-- affected_products: Okta
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, data_breach
-- affected_industries: government
-- affected_products: Okta
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-The US Department of Homeland Security has had the details of more than 41,000 staff, including ICE and CBP agents, published online. Not ideal for an organisation with "Security" in its name. Read more in my article on the Hot for Security blog.
-```
-
-#### Full body
-
-```
-Industry News Data Breach 2 min read Hackers leak personnel data of 41,000+ Homeland Security staff, including ICE and border agents Graham CLULEY October 30, 2026 More than 41,000 people working for the US Department of Homeland Security, including ICE agents, have had their details published online by a group of hacktivists. As TechCrunch reports , the leaked records include the names, job titles, work email addresses, phone numbers, abd office locations. More than half of the leaked records relate to US Customs and Border Protection (CBP) employees, typically found at airports, seaports, and land border crossings. Around 10,000 ICE employees have had their records breached, and almost 1,000 members of the Cybersecurity and Infrastructure Security Agency (CISA). WIRED reports that the massive leak includes staff who work undercover, as well as in other sensitive areas such as those engaged in wiretapping and the interception of communications. A hacktivist group calling itself "Department of Peace" says that the data was taken from an Okta single sign-on system that staff use to log onto the central network of the US Department of Homeland Security. Okta for its part says that it has not seen any evidence that its own systems have been compromised. The data reveals which tools and services particularly individuals can access. Alongside everyday office software, these include Palantir's Falcon investigative platform, the phone and social media analysis tool PenLink, and Mobile Fortify, a facial recognition app used by immigration agents. Explaining its justification for the data breach, "Department of Peace" wrote: "They have our information, so it’s only fair that we have theirs." The leaked data has been published online, under the title "Icepick", and can be either downloaded via a torrent or accessed via a web interface - making it significantly easier for curious parties to search. One threat intelligence expert told WIRED that, if authentic, the leaked data was "an extraordinarily valuable intelligence resource for those seeking to penetrate DHS," and could help adversaries identify vulnerable personnel or compromise ongoing investigations. An obvious concern is that the leaked contact details could be used in phishing attacks that target employees, or could potentially put agents in physical danger. Clearly anyone whose details have been exposed through the incident would be wise to treat unexpected emails, texts, and phone calls with caution - and be particularly wary of any communications that claim to come from IT support or ask for a login to be approved. Earlier this year the same group of hacktivists claimed to have breached the US Department of Homeland Security and accessed contracts between DHS, ICE, and more than 6000 firms including the likes of L3Harris, Raytheon, Palantir, Microsoft, and Oracle. Explaining their motivation for that breach, the hackers referred to the killings of Alex Pretti and Renée Good by federal agents in Minneapolis. "Why hack the DHS? I can think of a couple Pretti Good reasons! I'm releasing this because the DHS is killing us and people deserve to know which companies support them and what they're working on." There has been a long string of cybersecurity incidents affecting US government personnel. For instance, in September the notorious ShinyHunters hacking group claimed to have stolen personal details related to nearly every employee of the FBI, and the records of millions of serving and former US military personnel were reportedly stolen from the Pentagon's human resources unit. tags Industry News Data Breach Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also like Bookmarks
-```
-
-#### Corroborating sources (1)
-
-- **Graham Cluley** (practitioner_analysis)
-  - Title: Hackers leak personnel data of 41,000+ Homeland Security staff, including ICE and border agents
-  - Published: 2026-10-30T10:33:50+00:00
-  - Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/hackers-leak-41-000-dhs-staff-data
-  - Summary: The US Department of Homeland Security has had the details of more than 41,000 staff, including ICE and CBP agents, published online. Not ideal for an organisation with "Security" in its name. Read more in my article on the Hot for Security blog.
-
 ### Cluster 24d8131bb5 — score 11
 
 - Title: Stopping Remote Code Execution with Sandboxes, CVE-2026-115995: Rust Zip
@@ -1960,6 +1923,55 @@ With AI platfforms, #vulnpocalypse, and supply chain attacks security teams and 
   - Published: 2026-10-29T16:18:52+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1xiohqc/stopping_remote_code_execution_with_sandboxes/
   - Summary: With AI platfforms, #vulnpocalypse, and supply chain attacks security teams and platform engineering teams heads are spinning. The two recent HIGH and CRITICAL CVEs in the rust zip make a great case study for how we can build more resilient, defendable, and secure platforms with Wasm Sandboxes: https://cosmonic.com/blog/stopping-remote-code-execution-with-a-sandbox/ submitted by /u/HectaMan [link] [comments]
+
+### Cluster 4b77037fd4 — score 10
+
+- Title: Unwrapping Retail Peak Season Cyber Threats
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-10-28T18:00:10+00:00
+- Link: https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion, supply_chain, zero_day
+- actor_attribution: BlackCat/ALPHV
+- affected_industries: financial_services, retail_ecommerce
+- affected_products: Salesforce, SolarWinds
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, zero_day
+- actor_attribution: BlackCat/ALPHV
+- affected_industries: financial_services, retail_ecommerce
+- affected_products: Salesforce, SolarWinds
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Unit 42 explores key peak shopping season retail cyber threats, from ransomware to AI attacks, and shares how to defend operations and customer trust. The post Unwrapping Retail Peak Season Cyber Threats appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center Insights Hospitality Hacks and Retail Reality Checks Hospitality Hacks and Retail Reality Checks Unwrapping Retail Peak Season Cyber Threats 6 min read Related Products Advanced Threat Prevention Advanced URL Filtering Cortex XDR Cortex Xpanse Cortex XSIAM Idira Next-Generation Firewall Prisma Access Unit 42 Continuous Frontier AI Defense Unit 42 Deep and Dark Web Service Unit 42 Incident Response By: Matt Brady Christa McHugh Published: October 28, 2026 Categories: Hospitality Hacks and Retail Reality Checks Insights Tags: Data exfiltration Frontier AI Retail Share Introduction During the 2025 peak holiday shopping season, the National Retail Federation predicted that retail sales would surpass $1 trillion USD for the first time, with Salesforce later reporting that online sales equated to $1.3 trillion globally. This included $294 billion in the United States and $262 billion influenced by AI and agents. Cybercriminals are highly aware that the holiday season is generally the most profitable for retailers, and look to capitalize on it for their own financial gain. This blog explores the main cyber threats that retail organizations need to be aware of and prepared to defend against as we approach peak shopping season in 2026. We highlight notable security events that occurred in prior years during this time period. We also examine relevant threats from both an enterprise and guest point of view and provide examples of the evolving trend of autonomous attacks that could impact retailers. Background Since 2020, there have been several notable security events disclosed toward the end of peak shopping season. This includes the SolarWinds software supply chain compromise in December 2020 and the exploitation of a Log4j zero-day vulnerability in December 2021. Both events posed complexities for retail security teams as they occurred during a period where code freezes were likely in place. This limited the ability for organizations to make changes to critical technology systems to prevent any operational disruption to core technology infrastructure. In addition to these broader threat landscape events, retailers typically face an increase in many types of financially-motivated attacks during this time period. This includes tactics and techniques designed to target both enterprises and guests alike. Based on years of previous activity against Fortune 100 retailers from cyber threats during peak shopping season, these are the types of attacks that retailers should be primarily focused on detecting and responding to this time of year. Enterprise-Focused Threats Ransomware Ransomware continues to pose a major risk for retail organizations heading into peak shopping season due to potential for operational disruption that could negatively impact the guest experience (in-store and online) and supply chain requirements (inventory). As of Sept. 30, 2026, ransomware operators have claimed 565 retail organizations as victims this year, with the median company revenue hovering around $22 million. The top three ransomware operators that claimed retail victims are TGR-CRI-1173 (aka The Gentlemen), Spikey Scorpius (aka Qilin) and Howling Scorpius (aka Akira). One example of a ransomware incident that impacted a retailer during peak shopping season occurred in December 2023, when Ambitious Scorpius (aka ALPHV) stole millions of customer records from a victim and caused significant operational disruption in terms of delayed order fulfillment, canceled e-commerce orders and slowed inventory replenishment. To mitigate ransomware risks that jeopardize uptime, retailers need to deploy automated containment mechanisms alongside robust network segmentation strategies. Security teams should: Leverage advanced endpoint protection featuring real-time behavioral analysis to rapidly isolate compromised assets Enforce zero trust access across the enterprise to limit lateral movement Utilize inline sandboxing capabilities to inspect suspic
+```
+
+#### Corroborating sources (1)
+
+- **Unit 42** (threat_research_primary)
+  - Title: Unwrapping Retail Peak Season Cyber Threats
+  - Published: 2026-10-28T18:00:10+00:00
+  - Link: https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/
+  - Summary: Unit 42 explores key peak shopping season retail cyber threats, from ransomware to AI attacks, and shares how to defend operations and customer trust. The post Unwrapping Retail Peak Season Cyber Threats appeared first on Unit 42 .
 
 ### Cluster d566b95cff — score 10
 
@@ -2011,54 +2023,54 @@ Share Link copied to clipboard! Tags Sapphire Sleet Sleet Social engineering Thr
   - Link: https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/
   - Summary: As Microsoft Threat Intelligence continues to track how threat actors operationalize AI to increase the speed and efficiency of attacks, we’ve identified North Korean threat actors expanding their use of AI with varying levels of adoption. This blog breaks down how North Korean threat actors are utilizing AI across their operations, reflecting a broader trend of threat actors incorporating AI into their attack chains. The post Tracking AI adoption in North Korean threat actor tradecraft appeared first on Microsoft Security Blog .
 
-### Cluster 4b77037fd4 — score 10
+### Cluster f576445f64 — score 10
 
-- Title: Unwrapping Retail Peak Season Cyber Threats
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-10-28T18:00:10+00:00
-- Link: https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/
+- Title: 26th October – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-10-26T16:12:38+00:00
+- Link: https://research.checkpoint.com/2026/26th-october-threat-intelligence-report/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion, supply_chain, zero_day
-- actor_attribution: BlackCat/ALPHV
-- affected_industries: financial_services, retail_ecommerce
-- affected_products: Salesforce, SolarWinds
-- urgency_signals: zero_day
+- threat_categories: data_breach, ransomware_extortion, supply_chain
+- affected_industries: critical_infrastructure, financial_services, healthcare, manufacturing_industrial
+- affected_products: Docker, GitLab, WordPress
+- cve_ids: CVE-2026-109618, CVE-2026-109619, CVE-2026-110264, CVE-2026-115560
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, zero_day
-- actor_attribution: BlackCat/ALPHV
-- affected_industries: financial_services, retail_ecommerce
-- affected_products: Salesforce, SolarWinds
-- urgency_signals: zero_day
+- threat_categories: ransomware_extortion, supply_chain, data_breach
+- affected_industries: healthcare, financial_services, critical_infrastructure, manufacturing_industrial
+- affected_products: WordPress, GitLab, Docker
+- cve_ids: CVE-2026-109618, CVE-2026-109619, CVE-2026-115560, CVE-2026-110264
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Unit 42 explores key peak shopping season retail cyber threats, from ransomware to AI attacks, and shares how to defend operations and customer trust. The post Unwrapping Retail Peak Season Cyber Threats appeared first on Unit 42 .
+For the latest discoveries in cyber research for the week of 26th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Japanese cloud hosting provider Onamae Desktop Cloud has confirmed a cyberattack in which intruders compromised its infrastructure and installed malware on customer servers. More than 26,000 servers were potentially affected. The provider […] The post 26th October – Threat Intelligence Report appeared first on Check Point Research .
 ```
 
 #### Full body
 
 ```
-Threat Research Center Insights Hospitality Hacks and Retail Reality Checks Hospitality Hacks and Retail Reality Checks Unwrapping Retail Peak Season Cyber Threats 6 min read Related Products Advanced Threat Prevention Advanced URL Filtering Cortex XDR Cortex Xpanse Cortex XSIAM Idira Next-Generation Firewall Prisma Access Unit 42 Continuous Frontier AI Defense Unit 42 Deep and Dark Web Service Unit 42 Incident Response By: Matt Brady Christa McHugh Published: October 28, 2026 Categories: Hospitality Hacks and Retail Reality Checks Insights Tags: Data exfiltration Frontier AI Retail Share Introduction During the 2025 peak holiday shopping season, the National Retail Federation predicted that retail sales would surpass $1 trillion USD for the first time, with Salesforce later reporting that online sales equated to $1.3 trillion globally. This included $294 billion in the United States and $262 billion influenced by AI and agents. Cybercriminals are highly aware that the holiday season is generally the most profitable for retailers, and look to capitalize on it for their own financial gain. This blog explores the main cyber threats that retail organizations need to be aware of and prepared to defend against as we approach peak shopping season in 2026. We highlight notable security events that occurred in prior years during this time period. We also examine relevant threats from both an enterprise and guest point of view and provide examples of the evolving trend of autonomous attacks that could impact retailers. Background Since 2020, there have been several notable security events disclosed toward the end of peak shopping season. This includes the SolarWinds software supply chain compromise in December 2020 and the exploitation of a Log4j zero-day vulnerability in December 2021. Both events posed complexities for retail security teams as they occurred during a period where code freezes were likely in place. This limited the ability for organizations to make changes to critical technology systems to prevent any operational disruption to core technology infrastructure. In addition to these broader threat landscape events, retailers typically face an increase in many types of financially-motivated attacks during this time period. This includes tactics and techniques designed to target both enterprises and guests alike. Based on years of previous activity against Fortune 100 retailers from cyber threats during peak shopping season, these are the types of attacks that retailers should be primarily focused on detecting and responding to this time of year. Enterprise-Focused Threats Ransomware Ransomware continues to pose a major risk for retail organizations heading into peak shopping season due to potential for operational disruption that could negatively impact the guest experience (in-store and online) and supply chain requirements (inventory). As of Sept. 30, 2026, ransomware operators have claimed 565 retail organizations as victims this year, with the median company revenue hovering around $22 million. The top three ransomware operators that claimed retail victims are TGR-CRI-1173 (aka The Gentlemen), Spikey Scorpius (aka Qilin) and Howling Scorpius (aka Akira). One example of a ransomware incident that impacted a retailer during peak shopping season occurred in December 2023, when Ambitious Scorpius (aka ALPHV) stole millions of customer records from a victim and caused significant operational disruption in terms of delayed order fulfillment, canceled e-commerce orders and slowed inventory replenishment. To mitigate ransomware risks that jeopardize uptime, retailers need to deploy automated containment mechanisms alongside robust network segmentation strategies. Security teams should: Leverage advanced endpoint protection featuring real-time behavioral analysis to rapidly isolate compromised assets Enforce zero trust access across the enterprise to limit lateral movement Utilize inline sandboxing capabilities to inspect suspic
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 26th October – Threat Intelligence Report October 26, 2026 https://research.checkpoint.com/2026/26th-october-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 26th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Japanese cloud hosting provider Onamae Desktop Cloud has confirmed a cyberattack in which intruders compromised its infrastructure and installed malware on customer servers. More than 26,000 servers were potentially affected. The provider began shutting down customer environments on October 21 to contain the intrusion and prevent further unauthorized activity. India’s state-run State Bank of India, serving more than 500 million customers, disclosed a data breach after 3,897 customer records appeared online. The exposed information reportedly included contact details, residential addresses, birth dates, bank profiles, loan records, and identity-verification documents. The bank reported no disruption to core services. WordPress backup developer TeamUpdraft has suffered a cyberattack after intruders accessed its website and potentially exposed customer information and management-service connection keys. Attackers subsequently abused compromised UpdraftCentral keys to install backdoors on WordPress websites during an 18-hour campaign on October 18 and 19. LiteLLM, a widely used open-source AI gateway, confirmed an October 21 supply-chain attack in which attackers used stolen developer tokens to publish malicious packages and Docker images. The compromised version 1.107.0 was designed to steal cloud credentials and AI service secrets, with attackers subsequently testing stolen AWS credentials. AI THREATS Check Point Research uncovered how AI-enabled antidetect browsers allow operators to manage thousands of deceptive accounts while evading platform safeguards. Tools including Kameleo, AdsPower, and MultiLogin facilitate account takeovers, financial fraud, and automated distribution of AI-generated content, supporting large-scale influence operations across social media platforms. Researchers observed affiliates of INC and The Gentlemen ransomware groups using AI agents to conduct human-approved cyberattacks. The operation targeted 62 organizations by exploiting remote-access systems and compromised credentials. Victims were concentrated in the manufacturing, energy, healthcare, and pharmaceutical sectors, primarily in the United States. Researchers analyzed a cybercriminal operation that used multiple AI assistants to plan and execute different types of malicious activity. The attacker relied on AI-generated scripts and reconnaissance reports to develop attack capabilities. Exposed operational records revealed how AI tools supported campaign planning, technical execution, and adaptation across different targets. VULNERABILITIES AND PATCHES Critical PHP vulnerabilities CVE-2026-109618 and CVE-2026-109619 have been used in widespread exploitation attempts that could enable remote code execution. Attack traffic reportedly increased from thousands to millions of attempts following disclosure. As of October 23, approximately 97.5% of publicly visible PHP instances did not indicate patched versions. Check Point IPS provides protection against this threat (PHP Remote Code Execution (CVE-2026-109618, CVE-2026-109619, CVE-2026-115560(( Oracle has released its October 2026 Critical Patch Update, addressing 1,209 unique vulnerabilities through 1,295 security patches across 33 product families. The update includes 95 critical CVEs and affects widely deployed enterprise products, including Fusion Middleware, E-Business Suite, MySQL, and Java SE. GitLab has fixed CVE-2026-110264, a critical vulnerability with a CVSS score of 10.0 affecting Community and Enterprise Editions. The integer overflow flaw could allow unauthenticated attackers to execute arbitrary code remotely on affected servers. The
 ```
 
 #### Corroborating sources (1)
 
-- **Unit 42** (threat_research_primary)
-  - Title: Unwrapping Retail Peak Season Cyber Threats
-  - Published: 2026-10-28T18:00:10+00:00
-  - Link: https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/
-  - Summary: Unit 42 explores key peak shopping season retail cyber threats, from ransomware to AI attacks, and shares how to defend operations and customer trust. The post Unwrapping Retail Peak Season Cyber Threats appeared first on Unit 42 .
+- **Check Point Research** (threat_research_primary)
+  - Title: 26th October – Threat Intelligence Report
+  - Published: 2026-10-26T16:12:38+00:00
+  - Link: https://research.checkpoint.com/2026/26th-october-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 26th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Japanese cloud hosting provider Onamae Desktop Cloud has confirmed a cyberattack in which intruders compromised its infrastructure and installed malware on customer servers. More than 26,000 servers were potentially affected. The provider […] The post 26th October – Threat Intelligence Report appeared first on Check Point Research .
 
 ### Cluster 364a564664 — score 10
 
@@ -2144,54 +2156,48 @@ Threat Response Table of Contents Introduction Popular AI applications and servi
   - Link: https://securelist.com/tr/how-to-secure-ai-agents/121444/
   - Summary: We look at best practices for deploying AI tools securely in corporate environments, with Kaspersky Security Center and Kaspersky Endpoint Security as examples. We also cover ways that EDR and TIP can detect AI agents.
 
-### Cluster f576445f64 — score 10
+### Cluster 18297eee95 — score 10
 
-- Title: 26th October – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-10-26T16:12:38+00:00
-- Link: https://research.checkpoint.com/2026/26th-october-threat-intelligence-report/
+- Title: Prediction Markets Emerge as a New Vertical for Traffer Teams
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-10-29T00:00:00+00:00
+- Link: https://www.recordedfuture.com/research/prediction-markets-traffer-teams
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion, supply_chain
-- affected_industries: critical_infrastructure, financial_services, healthcare, manufacturing_industrial
-- affected_products: Docker, GitLab, WordPress
-- cve_ids: CVE-2026-109618, CVE-2026-109619, CVE-2026-110264, CVE-2026-115560
-- urgency_signals: preauth_unauth
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services, manufacturing_industrial
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, data_breach
-- affected_industries: healthcare, financial_services, critical_infrastructure, manufacturing_industrial
-- affected_products: WordPress, GitLab, Docker
-- cve_ids: CVE-2026-109618, CVE-2026-109619, CVE-2026-115560, CVE-2026-110264
-- urgency_signals: preauth_unauth
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services, manufacturing_industrial
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-For the latest discoveries in cyber research for the week of 26th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Japanese cloud hosting provider Onamae Desktop Cloud has confirmed a cyberattack in which intruders compromised its infrastructure and installed malware on customer servers. More than 26,000 servers were potentially affected. The provider […] The post 26th October – Threat Intelligence Report appeared first on Check Point Research .
+Discover how Russian traffer teams use turnkey fraud infrastructure to exploit prediction markets.
 ```
 
 #### Full body
 
 ```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 26th October – Threat Intelligence Report October 26, 2026 https://research.checkpoint.com/2026/26th-october-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 26th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Japanese cloud hosting provider Onamae Desktop Cloud has confirmed a cyberattack in which intruders compromised its infrastructure and installed malware on customer servers. More than 26,000 servers were potentially affected. The provider began shutting down customer environments on October 21 to contain the intrusion and prevent further unauthorized activity. India’s state-run State Bank of India, serving more than 500 million customers, disclosed a data breach after 3,897 customer records appeared online. The exposed information reportedly included contact details, residential addresses, birth dates, bank profiles, loan records, and identity-verification documents. The bank reported no disruption to core services. WordPress backup developer TeamUpdraft has suffered a cyberattack after intruders accessed its website and potentially exposed customer information and management-service connection keys. Attackers subsequently abused compromised UpdraftCentral keys to install backdoors on WordPress websites during an 18-hour campaign on October 18 and 19. LiteLLM, a widely used open-source AI gateway, confirmed an October 21 supply-chain attack in which attackers used stolen developer tokens to publish malicious packages and Docker images. The compromised version 1.107.0 was designed to steal cloud credentials and AI service secrets, with attackers subsequently testing stolen AWS credentials. AI THREATS Check Point Research uncovered how AI-enabled antidetect browsers allow operators to manage thousands of deceptive accounts while evading platform safeguards. Tools including Kameleo, AdsPower, and MultiLogin facilitate account takeovers, financial fraud, and automated distribution of AI-generated content, supporting large-scale influence operations across social media platforms. Researchers observed affiliates of INC and The Gentlemen ransomware groups using AI agents to conduct human-approved cyberattacks. The operation targeted 62 organizations by exploiting remote-access systems and compromised credentials. Victims were concentrated in the manufacturing, energy, healthcare, and pharmaceutical sectors, primarily in the United States. Researchers analyzed a cybercriminal operation that used multiple AI assistants to plan and execute different types of malicious activity. The attacker relied on AI-generated scripts and reconnaissance reports to develop attack capabilities. Exposed operational records revealed how AI tools supported campaign planning, technical execution, and adaptation across different targets. VULNERABILITIES AND PATCHES Critical PHP vulnerabilities CVE-2026-109618 and CVE-2026-109619 have been used in widespread exploitation attempts that could enable remote code execution. Attack traffic reportedly increased from thousands to millions of attempts following disclosure. As of October 23, approximately 97.5% of publicly visible PHP instances did not indicate patched versions. Check Point IPS provides protection against this threat (PHP Remote Code Execution (CVE-2026-109618, CVE-2026-109619, CVE-2026-115560(( Oracle has released its October 2026 Critical Patch Update, addressing 1,209 unique vulnerabilities through 1,295 security patches across 33 product families. The update includes 95 critical CVEs and affects widely deployed enterprise products, including Fusion Middleware, E-Business Suite, MySQL, and Java SE. GitLab has fixed CVE-2026-110264, a critical vulnerability with a CVSS score of 10.0 affecting Community and Enterprise Editions. The integer overflow flaw could allow unauthenticated attackers to execute arbitrary code remotely on affected servers. The
+Prediction Markets Emerge as a New Vertical for Traffer Teams Executive Summary Since the spring of 2026, Insikt Group has observed multiple Russian-language traffer teams that have quickly adapted affiliate-fraud models to capitalize on growing public interest in prediction markets such as PolyMarket and Kalshi. The platforms offered by three such teams — AtlasCore, PolyFucked, and Magnetic Team — provide websites, administrative panels, cryptocurrency payment infrastructure, victim-management capabilities, technical support, and promotional guidance. This model lowers barriers to entry for affiliates and enables campaigns to scale rapidly as new trends attract potential victims. The services combine convincing prediction-market interfaces with established fraud mechanisms designed to manipulate victims and prevent them from recovering deposited funds. These mechanisms include controlled trading outcomes, fabricated market activity, artificial withdrawal restrictions and fees, and the collection of sensitive identity and payment information. Artificial intelligence (AI) further accelerates this opportunism by reducing the time, cost, and expertise required to adapt campaigns to emerging events. Insikt Group observed threat actors using AI to support multiple stages of their campaigns, including platform development, content creation, social engineering, and victim engagement. The rapid adoption of prediction markets by multiple traffer teams illustrates a broader threat from mature fraud ecosystems that can pivot toward emerging technologies, financial products, and cultural trends without having to develop entirely new criminal capabilities. Prediction markets are particularly well-suited to this model because legitimate platforms already combine cryptocurrency, speculative financial activity, rapidly changing news events, and social media discussion. Fraud actors can imitate these characteristics to establish credibility and manufacture urgency. As the fraudulent prediction markets gain visibility, additional traffer teams may experiment with the prediction market theme or reuse the underlying tooling for adjacent fraud schemes. Key Findings AtlasCore, PolyFucked, and Magnetic Team supply affiliates with simulated prediction-market websites, administrative panels, payment infrastructure, and promotional support. Advertised compensation includes 70% to 80% of net profits for AtlasCore affiliates, a minimum 60% revenue share for PolyFucked affiliates, and a base 70% share of victim deposits for Magnetic Team affiliates. AtlasCore’s Telegram posts recorded approximately $10.97 million in claimed deposits across its scam offerings between May 2 and September 18, 2026, with the deposits predominantly associated with prediction markets. PolyFucked separately advertises approximately $2.4 million in quarterly turnover. Both figures rely on threat actor reporting and remain unverified. Magnetic Team advertises more than 3,000 simulated traders across more than 5,000 markets to fabricate convincing trading activity. Its code exposes configurable withdrawal-blocking pretexts, forced-loss controls, and pools of up to 20,000 deposit wallets per blockchain. AtlasCore similarly exposes settings to force wins or losses and impose individualized withdrawal restrictions. All three traffer teams advertise or provide AI-assisted victim support. AtlasCore and PolyFucked also supply guidance for AI-generated promotional content, including synthetic influencers and branding, respectively. Magnetic Team’s source code contains indicators of likely AI-assisted development, suggesting AI use may extend to building and maintaining the underlying fraud platforms, although that assessment remains unconfirmed. Insikt Group identified over 100 unique domains and subdomains associated with AtlasCore, PolyFucked, and Magnetic Team, including administrative infrastructure and scam websites likely operated by the teams or their affiliates. Threat Analysis At
 ```
 
 #### Corroborating sources (1)
 
-- **Check Point Research** (threat_research_primary)
-  - Title: 26th October – Threat Intelligence Report
-  - Published: 2026-10-26T16:12:38+00:00
-  - Link: https://research.checkpoint.com/2026/26th-october-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 26th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Japanese cloud hosting provider Onamae Desktop Cloud has confirmed a cyberattack in which intruders compromised its infrastructure and installed malware on customer servers. More than 26,000 servers were potentially affected. The provider […] The post 26th October – Threat Intelligence Report appeared first on Check Point Research .
+- **Recorded Future** (threat_research_primary)
+  - Title: Prediction Markets Emerge as a New Vertical for Traffer Teams
+  - Published: 2026-10-29T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/research/prediction-markets-traffer-teams
+  - Summary: Discover how Russian traffer teams use turnkey fraud infrastructure to exploit prediction markets.
 
 ### Cluster 2a9b3cf734 — score 10
 
@@ -2329,49 +2335,6 @@ ESET Research ESET APT Activity Report Q2 2026–Q3 2026 An overview of the acti
   - Published: 2026-10-28T09:45:00+00:00
   - Link: https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q2-2026-q3-2026/
   - Summary: An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q2 2026 and Q3 2026
-
-### Cluster 18297eee95 — score 10
-
-- Title: Prediction Markets Emerge as a New Vertical for Traffer Teams
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-10-29T00:00:00+00:00
-- Link: https://www.recordedfuture.com/research/prediction-markets-traffer-teams
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Discover how Russian traffer teams use turnkey fraud infrastructure to exploit prediction markets.
-```
-
-#### Full body
-
-```
-Prediction Markets Emerge as a New Vertical for Traffer Teams Executive Summary Since the spring of 2026, Insikt Group has observed multiple Russian-language traffer teams that have quickly adapted affiliate-fraud models to capitalize on growing public interest in prediction markets such as PolyMarket and Kalshi. The platforms offered by three such teams — AtlasCore, PolyFucked, and Magnetic Team — provide websites, administrative panels, cryptocurrency payment infrastructure, victim-management capabilities, technical support, and promotional guidance. This model lowers barriers to entry for affiliates and enables campaigns to scale rapidly as new trends attract potential victims. The services combine convincing prediction-market interfaces with established fraud mechanisms designed to manipulate victims and prevent them from recovering deposited funds. These mechanisms include controlled trading outcomes, fabricated market activity, artificial withdrawal restrictions and fees, and the collection of sensitive identity and payment information. Artificial intelligence (AI) further accelerates this opportunism by reducing the time, cost, and expertise required to adapt campaigns to emerging events. Insikt Group observed threat actors using AI to support multiple stages of their campaigns, including platform development, content creation, social engineering, and victim engagement. The rapid adoption of prediction markets by multiple traffer teams illustrates a broader threat from mature fraud ecosystems that can pivot toward emerging technologies, financial products, and cultural trends without having to develop entirely new criminal capabilities. Prediction markets are particularly well-suited to this model because legitimate platforms already combine cryptocurrency, speculative financial activity, rapidly changing news events, and social media discussion. Fraud actors can imitate these characteristics to establish credibility and manufacture urgency. As the fraudulent prediction markets gain visibility, additional traffer teams may experiment with the prediction market theme or reuse the underlying tooling for adjacent fraud schemes. Key Findings AtlasCore, PolyFucked, and Magnetic Team supply affiliates with simulated prediction-market websites, administrative panels, payment infrastructure, and promotional support. Advertised compensation includes 70% to 80% of net profits for AtlasCore affiliates, a minimum 60% revenue share for PolyFucked affiliates, and a base 70% share of victim deposits for Magnetic Team affiliates. AtlasCore’s Telegram posts recorded approximately $10.97 million in claimed deposits across its scam offerings between May 2 and September 18, 2026, with the deposits predominantly associated with prediction markets. PolyFucked separately advertises approximately $2.4 million in quarterly turnover. Both figures rely on threat actor reporting and remain unverified. Magnetic Team advertises more than 3,000 simulated traders across more than 5,000 markets to fabricate convincing trading activity. Its code exposes configurable withdrawal-blocking pretexts, forced-loss controls, and pools of up to 20,000 deposit wallets per blockchain. AtlasCore similarly exposes settings to force wins or losses and impose individualized withdrawal restrictions. All three traffer teams advertise or provide AI-assisted victim support. AtlasCore and PolyFucked also supply guidance for AI-generated promotional content, including synthetic influencers and branding, respectively. Magnetic Team’s source code contains indicators of likely AI-assisted development, suggesting AI use may extend to building and maintaining the underlying fraud platforms, although that assessment remains unconfirmed. Insikt Group identified over 100 unique domains and subdomains associated with AtlasCore, PolyFucked, and Magnetic Team, including administrative infrastructure and scam websites likely operated by the teams or their affiliates. Threat Analysis At
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Prediction Markets Emerge as a New Vertical for Traffer Teams
-  - Published: 2026-10-29T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/research/prediction-markets-traffer-teams
-  - Summary: Discover how Russian traffer teams use turnkey fraud infrastructure to exploit prediction markets.
 
 ### Cluster 084d29f299 — score 10
 
@@ -2590,52 +2553,50 @@ Florida State University campus. Image: Ernie Stephens via Unsplash Florida warn
   - Link: https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach
   - Summary: The state’s Department of Education (FLDOE) said on Thursday it became aware of a data breach involving the Florida Student Financial Aid website on October 19.
 
-### Cluster 6f44dce3da — score 10
+### Cluster 3dc126ab3a — score 10
 
-- Title: Binance links $6.3 billion crypto theft to compromised DevOps laptop
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-10-30T09:18:13+00:00
-- Link: https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/
+- Title: Hackers leak personnel data of 41,000+ Homeland Security staff, including ICE and border agents
+- Source: Graham Cluley (practitioner_analysis)
+- Published: 2026-10-30T10:33:50+00:00
+- Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/hackers-leak-41-000-dhs-staff-data
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- actor_attribution: APT38, Lazarus
-- affected_industries: financial_services
-- urgency_signals: zero_day
+- threat_categories: data_breach, phishing_social_eng
+- affected_industries: government
+- affected_products: Okta
 - content_type: incident_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_3_analysis
 
 #### Primary article taxonomy
-- threat_categories: zero_day
-- actor_attribution: Lazarus, APT38
-- affected_industries: financial_services
-- urgency_signals: zero_day
+- threat_categories: phishing_social_eng, data_breach
+- affected_industries: government
+- affected_products: Okta
 - content_type: incident_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_3_analysis
 
 #### Summary
 
 ```
-Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]
+The US Department of Homeland Security has had the details of more than 41,000 staff, including ICE and CBP agents, published online. Not ideal for an organisation with "Security" in its name. Read more in my article on the Hot for Security blog.
 ```
 
 #### Full body
 
 ```
-Binance links $6.3 billion crypto theft to compromised DevOps laptop By Sergiu Gatlan October 30, 2026 05:18 AM 1 Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. The crypto exchange said the access let attackers submit unauthorized withdrawal transactions after they accessed a service container, and it hasn't yet found evidence of a leaked wallet private key. "To be clear: the attacker did not simply use one engineer's permissions, and this was not a single 'one-click' action. It involved a more complex attack process. Our investigation has not attributed responsibility to any individual," Binance Co-CEO Richard Teng said . Binance also said it "uncovered additional points of breach" but was "still gathering the facts, and will share more directly as we have them." The company confirmed the breach in a statement shared with BleepingComputer on Thursday and reassured customers that their funds were safe. "Binance will cover all losses from the SAFU fund and the company's funds. User funds are safe. We will also publish an updated Proof of Reserves once the remediation is complete," it said . Since the attack, Binance has suspended deposits and withdrawals while it conducts security checks, revoked authorizations for the affected address, and is working with blockchain intelligence partners and law enforcement to trace and recover the stolen funds. Crypto theft linked to North Korean hackers Although the company didn't link the incident to a hacking group or threat actor, blockchain analysis firm TRM attributed the attack to TraderTraitor , a North Korean state-backed hacking unit also tracked as Lazarus Group and APT38 . "On October 29, 2026, an attacker moved approximately USD 6.36 billion out of Binance wallets on ten blockchains, most of it in about 20 minutes starting at 20:05 UTC. That makes this the largest crypto theft on record, about four times the USD 1.5 billion Bybit hack of February 2025," TRM said . Blockchain intelligence firm Chainalysis confirmed TRM Labs' findings , stating with "a high degree of confidence" that TraderTraitor is responsible for the Binance $6.4 billion hack. While stablecoin issuers Tether, Circle, Ripple, and others have frozen roughly $2.7 billion since the incident, the attackers still have control of about $2.4 billion that can't be frozen. "Tether, Circle, Ripple and World Liberty Financial froze about USD 2.67 billion in stablecoins, and Arbitrum's Security Council froze 8,426 ETH and 74.6 million ARB on its network, for a total of roughly USD 2.7 billion," TRM added. "The attacker raced the freezes by selling USDT to market makers and borrowing ETH against USDT on Aave. It now holds more than 420,000 ETH and 18,270 BTC, about USD 2.4 billion in assets beyond any issuer's reach." The TraderTraitor hackers were previously linked to many other major crypto theft incidents, including the theft of $1.5 billion in the February 2025 Bybit hack . At $6.36 billion, the Binance attack is now the largest recorded crypto heist. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Hackers steal $351.6 million in Bitget crypto exchange hack Binance probes potential $5.8 billion crypto-theft hack Uranium crypto exchange hacker convicted for stealing $53 million Bitget hacked via zero-day in third-party security products Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist
+Industry News Data Breach 2 min read Hackers leak personnel data of 41,000+ Homeland Security staff, including ICE and border agents Graham CLULEY October 30, 2026 More than 41,000 people working for the US Department of Homeland Security, including ICE agents, have had their details published online by a group of hacktivists. As TechCrunch reports , the leaked records include the names, job titles, work email addresses, phone numbers, abd office locations. More than half of the leaked records relate to US Customs and Border Protection (CBP) employees, typically found at airports, seaports, and land border crossings. Around 10,000 ICE employees have had their records breached, and almost 1,000 members of the Cybersecurity and Infrastructure Security Agency (CISA). WIRED reports that the massive leak includes staff who work undercover, as well as in other sensitive areas such as those engaged in wiretapping and the interception of communications. A hacktivist group calling itself "Department of Peace" says that the data was taken from an Okta single sign-on system that staff use to log onto the central network of the US Department of Homeland Security. Okta for its part says that it has not seen any evidence that its own systems have been compromised. The data reveals which tools and services particularly individuals can access. Alongside everyday office software, these include Palantir's Falcon investigative platform, the phone and social media analysis tool PenLink, and Mobile Fortify, a facial recognition app used by immigration agents. Explaining its justification for the data breach, "Department of Peace" wrote: "They have our information, so it’s only fair that we have theirs." The leaked data has been published online, under the title "Icepick", and can be either downloaded via a torrent or accessed via a web interface - making it significantly easier for curious parties to search. One threat intelligence expert told WIRED that, if authentic, the leaked data was "an extraordinarily valuable intelligence resource for those seeking to penetrate DHS," and could help adversaries identify vulnerable personnel or compromise ongoing investigations. An obvious concern is that the leaked contact details could be used in phishing attacks that target employees, or could potentially put agents in physical danger. Clearly anyone whose details have been exposed through the incident would be wise to treat unexpected emails, texts, and phone calls with caution - and be particularly wary of any communications that claim to come from IT support or ask for a login to be approved. Earlier this year the same group of hacktivists claimed to have breached the US Department of Homeland Security and accessed contracts between DHS, ICE, and more than 6000 firms including the likes of L3Harris, Raytheon, Palantir, Microsoft, and Oracle. Explaining their motivation for that breach, the hackers referred to the killings of Alex Pretti and Renée Good by federal agents in Minneapolis. "Why hack the DHS? I can think of a couple Pretti Good reasons! I'm releasing this because the DHS is killing us and people deserve to know which companies support them and what they're working on." There has been a long string of cybersecurity incidents affecting US government personnel. For instance, in September the notorious ShinyHunters hacking group claimed to have stolen personal details related to nearly every employee of the FBI, and the records of millions of serving and former US military personnel were reportedly stolen from the Pentagon's human resources unit. tags Industry News Data Breach Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also like Bookmarks
 ```
 
 #### Corroborating sources (1)
 
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Binance links $6.3 billion crypto theft to compromised DevOps laptop
-  - Published: 2026-10-30T09:18:13+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/
-  - Summary: Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]
+- **Graham Cluley** (practitioner_analysis)
+  - Title: Hackers leak personnel data of 41,000+ Homeland Security staff, including ICE and border agents
+  - Published: 2026-10-30T10:33:50+00:00
+  - Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/hackers-leak-41-000-dhs-staff-data
+  - Summary: The US Department of Homeland Security has had the details of more than 41,000 staff, including ICE and CBP agents, published online. Not ideal for an organisation with "Security" in its name. Read more in my article on the Hot for Security blog.
 
 ### Cluster d4d341f5f6 — score 10
 
@@ -2808,93 +2769,95 @@ Apple today released patches for 304 vulnerabilties. This number is still in lin
   - Link: https://isc.sans.edu/diary/rss/33458
   - Summary: Apple today released patches for 304 vulnerabilties. This number is still in line with prior Apple updates, and comes just about a month after the last apple update.
 
-### Cluster f373dbd4d4 — score 9
+### Cluster ebcc4ce12d — score 9
 
-- Title: Japan Airlines suffers third-party data breach exposing passenger info
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-10-29T22:08:04+00:00
-- Link: https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/
+- Title: “Black October” for AI Developer Platforms
+- Source: Wiz Research (cloud_identity_infrastructure)
+- Published: 2026-10-30T22:51:44+00:00
+- Link: https://www.wiz.io/blog/black-october-for-ai-developer-platforms
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
-- actor_attribution: Lazarus
-- affected_industries: aviation_defense, financial_services, telecommunications
+- threat_categories: supply_chain
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+A series of agentic attacks on AI Developer Platforms has been leading to LLMJacking at scale.
+```
+
+#### Full body
+
+```
+At least nine AI Developer Platforms have disclosed incidents over the course of the month: Fireworks AI (Oct 6) Andromeda (Oct 9) Zeabur (Oct 14) Lightning AI (Oct 15) OpenCode (Oct 16–17) Railway (Oct 20) Warp (Oct 23) CommandCode (Oct 28) Northflank (Oct 30) Wiz customers can refer to our relevant Threat Intel Center advisories for more information on the Railway Platform Breach, Lightning AI Security Incident and the overall campaign . Fireworks , OpenCode , and Warp have all reported indications of an “agent swarm” attack. Andromeda’s incident report calls it part of an "industry-wide attack." OpenCode and CommandCode have explicitly attributed their incidents to an attempt at “ distillation .” Any other month, and this would be the top security story. However, with all the ongoing incidents, few reports are connecting the dots across these attacks (Cloud Security Alliance as a notable exception ). The Pattern in these Attacks Currently, most of these security incidents are still being analyzed, and detailed technical information is not available. Zeabur has shared a full write-up, and the company will be shutting down due to this incident. Railway has released a preliminary report and timeline . However, there are some indicative details. Fireworks, Zeabur, and Lightning all attribute their incident root causes to credential access. Lightning was previously impacted by a supply chain attack within the Mini-Shai Hulud campaign . Railway so far has shared they believe the initial access was via “privilege escalation in our build infrastructure,” while Warp has suggested the root cause was a third-party vendor dependency, and OpenCode attributes it to a “legacy system.” All public reports highlight targeted exploitation, explicitly hunting stored environment variables, with a focus on those granting AI access. While there is no single vulnerability or dependency linking these attacks, the overall picture is strongly aligned with recent reports on two fronts: Agentic Attacks , which can enable threat actors to compromise victims faster and more efficiently. The rise of LLMJacking , and the associated infrastructure of LLM Brokers. These create a market that makes the theft easily monetizable, likely driving more actors to undertake operations to steal credentials. Distillation , notably alleged against Chinese AI labs, drives demand as well. Impact and Follow-on activity Reports on the impact of these attacks have so far been limited to anecdotal reports on social media, which include: Alleged theft of cryptocurrency, to the tune of ~$371,000 , using crypto keys stored in Railway Abuse of stolen AI access, such as those from OpenCode, resulting in consumer bills in the hundreds to thousands of dollars However, Wiz has been able to observe downstream abuse of enterprise credentials , whose compromise we can attribute to one of these vendor breaches. We will discuss an exemplary pair of such cases. In both cases, we see abuse of keys that previously were heavily used from the infrastructure of a compromised vendor. They shared an identical first unauthorized activity, which happened within 30 minutes of the reported credential access within the vendor breach. It was a single InvokeModel from a residential IP address, in a one-minute sweep that tested stolen keys across multiple organizations. The call asked for Claude Fable 5.1, failed, and fell back to Opus 5.5, which worked. In the days after this initial validation, both keys saw only a trickle of traffic: 14–120 calls a day from the same small Go client. The calls on the two keys ran in lockstep, about a minute apart. This indicates a single ongoing verification job checking that the keys remained valid. Case A Four days after the initial validation, a rotating proxy pool ran a catalog probe across dozens of addresses, sending one call per model across vendors: Amazon Nova, DeepSeek, gpt-oss, GLM, Kimi, Grok, GPT-6 Astra and older Claude models. Every call worked except Fa
+```
+
+#### Corroborating sources (1)
+
+- **Wiz Research** (cloud_identity_infrastructure)
+  - Title: “Black October” for AI Developer Platforms
+  - Published: 2026-10-30T22:51:44+00:00
+  - Link: https://www.wiz.io/blog/black-october-for-ai-developer-platforms
+  - Summary: A series of agentic attacks on AI Developer Platforms has been leading to LLMJacking at scale.
+
+### Cluster 6f44dce3da — score 9
+
+- Title: Binance links $6.3 billion crypto theft to compromised DevOps laptop
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-10-30T09:18:13+00:00
+- Link: https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- actor_attribution: APT38, Lazarus
+- affected_industries: financial_services
+- urgency_signals: zero_day
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- actor_attribution: Lazarus
-- affected_industries: financial_services, telecommunications, aviation_defense
+- threat_categories: zero_day
+- actor_attribution: Lazarus, APT38
+- affected_industries: financial_services
+- urgency_signals: zero_day
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Japan Airlines (JAL) has announced that a data breach at Amadeus's Passenger Service System exposed the data of about 92,000 customers. [...]
+Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]
 ```
 
 #### Full body
 
 ```
-Japan Airlines suffers third-party data breach exposing passenger info By Bill Toulas October 29, 2026 06:08 PM 0 Japan Airlines (JAL) has announced that a data breach at Amadeus’s Passenger Service System exposed the data of about 92,000 customers. JAL Group, which operates the airlines JAL and Japan Transocean Air, uses the system to handle passenger reservations, ticketing, and check-in. According to its announcement , Amadeus notified the airline on October 23, 2026, that unauthorized access to its systems occurred between August 10, 2023, and September 23, 2026. As a result of this lengthy breach, the threat actor accessed reservation codes (PNRs), names, flight dates, routes, and travel classes for approximately 90,000 customers. An additional 2,000 customers had the above data types exposed, plus their email addresses, phone numbers, passport numbers, nationalities, frequent flyer numbers, and flight, ticket, and seat numbers. JAL says credit card numbers and passwords were not compromised, and assured that it currently has no evidence of customer information being misused. The company said Amadeus has now implemented the necessary security measures and flight operations are unaffected. Broader impact Amadeus is an IT firm that provides solutions for travel agencies, airlines, airports, and hotels. It is a major tech supplier to global aviation, used by over four hundred airlines , 210 airport operators, 34 cruise and ferry lines, and 2 million hotels. Amadeus published a statement on its website on October 1, 2026, announcing it had discovered a vulnerability in its travel booking display environment that could expose travelers’ data. At the time, the company said ransomware actors had not exploited the flaw and assured that no payment or other financial data had been exposed. As JAL has confirmed now, the vulnerability appears to have been maliciously exploited. It appears they were not the only victim of the campaign. All Nippon Airways (ANA) has also announced a customer data breach earlier today tied to Amadeus, according to local media . The airline has also suspended certain related services on its website and mobile app since October 21, although that action appears linked to the PHP2Shell threat rather than the Amadeus incident. Other airlines that have confirmed impact from the Amadeus flaw are Asiana Airlines and Korean Air , both major South Korean carriers. BleepingComputer has asked Amadeus for more information about the scope of the impact, specifically whether more airlines and other countries/markets were affected, but the company has not provided more information as of publication. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Sony ISP subsidiary data breach exposes 2.5 million customer records Former pentester used ARTEX AI to steal 8.2 million data records Lazarus hackers use post-quantum cryptography for malware delivery Nikkei discloses third data breach in a month, 1.8M records exposed Burger King Japan data breach exposes 11 million customer records
+Binance links $6.3 billion crypto theft to compromised DevOps laptop By Sergiu Gatlan October 30, 2026 05:18 AM 1 Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. The crypto exchange said the access let attackers submit unauthorized withdrawal transactions after they accessed a service container, and it hasn't yet found evidence of a leaked wallet private key. "To be clear: the attacker did not simply use one engineer's permissions, and this was not a single 'one-click' action. It involved a more complex attack process. Our investigation has not attributed responsibility to any individual," Binance Co-CEO Richard Teng said . Binance also said it "uncovered additional points of breach" but was "still gathering the facts, and will share more directly as we have them." The company confirmed the breach in a statement shared with BleepingComputer on Thursday and reassured customers that their funds were safe. "Binance will cover all losses from the SAFU fund and the company's funds. User funds are safe. We will also publish an updated Proof of Reserves once the remediation is complete," it said . Since the attack, Binance has suspended deposits and withdrawals while it conducts security checks, revoked authorizations for the affected address, and is working with blockchain intelligence partners and law enforcement to trace and recover the stolen funds. Crypto theft linked to North Korean hackers Although the company didn't link the incident to a hacking group or threat actor, blockchain analysis firm TRM attributed the attack to TraderTraitor , a North Korean state-backed hacking unit also tracked as Lazarus Group and APT38 . "On October 29, 2026, an attacker moved approximately USD 6.36 billion out of Binance wallets on ten blockchains, most of it in about 20 minutes starting at 20:05 UTC. That makes this the largest crypto theft on record, about four times the USD 1.5 billion Bybit hack of February 2025," TRM said . Blockchain intelligence firm Chainalysis confirmed TRM Labs' findings , stating with "a high degree of confidence" that TraderTraitor is responsible for the Binance $6.4 billion hack. While stablecoin issuers Tether, Circle, Ripple, and others have frozen roughly $2.7 billion since the incident, the attackers still have control of about $2.4 billion that can't be frozen. "Tether, Circle, Ripple and World Liberty Financial froze about USD 2.67 billion in stablecoins, and Arbitrum's Security Council froze 8,426 ETH and 74.6 million ARB on its network, for a total of roughly USD 2.7 billion," TRM added. "The attacker raced the freezes by selling USDT to market makers and borrowing ETH against USDT on Aave. It now holds more than 420,000 ETH and 18,270 BTC, about USD 2.4 billion in assets beyond any issuer's reach." The TraderTraitor hackers were previously linked to many other major crypto theft incidents, including the theft of $1.5 billion in the February 2025 Bybit hack . At $6.36 billion, the Binance attack is now the largest recorded crypto heist. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Hackers steal $351.6 million in Bitget crypto exchange hack Binance probes potential $5.8 billion crypto-theft hack Uranium crypto exchange hacker convicted for stealing $53 million Bitget hacked via zero-day in third-party security products Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist
 ```
 
 #### Corroborating sources (1)
 
 - **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Japan Airlines suffers third-party data breach exposing passenger info
-  - Published: 2026-10-29T22:08:04+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/
-  - Summary: Japan Airlines (JAL) has announced that a data breach at Amadeus's Passenger Service System exposed the data of about 92,000 customers. [...]
-
-### Cluster d790fa89bf — score 9
-
-- Title: $2 Million+ Drained From Polymarket Traders in New Supply Chain Attack
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-10-30T09:41:36+00:00
-- Link: https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_industries: manufacturing_industrial, telecommunications
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_industries: manufacturing_industrial, telecommunications
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Malicious code linked to a website monitoring tool was designed to hijack logged-in Polymarket sessions and siphon user funds. The post $2 Million+ Drained From Polymarket Traders in New Supply Chain Attack appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Polymarket halted trading on its international platform on October 29 after users reported unauthorized withdrawals. According to the prediction market’s status page , the exchange was first switched to cancel-only mode, with relayer actions suspended. “We’ve identified & fixed an issue impacting our international platform, Polymarket.com. One of our 3rd party providers was compromised, and we have referred this to relevant law enforcement. Anyone who has been impacted will be made whole,” the company said . Trading resumed about an hour later, and Polymarket pledged to reimburse all affected traders. It has not named the vendor or disclosed losses. Researchers have linked the theft to malicious code served from DebugBear, a UK-based website performance monitoring firm. Polymarket’s US platform was reportedly unaffected. DebugBear confirmed being “impacted by an ongoing security incident” and urged users of its real user monitoring (RUM) product to pull its snippet from their websites. It also said it brought in specialist incident responders. Advertisement. Scroll to continue reading. Hudson Rock obtained a copy of the malicious JavaScript from a DebugBear address used by Polymarket. The code hunted for a logged-in user’s trading tools and portfolio. Depending on the account type, it then tried either to sell positions and move the proceeds, or to send position tokens straight to an attacker-set address. “The sample reads credential-related material, but our review did not identify a routine that sends the credential map, a password, a seed phrase, or a private key to its reporting endpoint. Its central approach is to reuse authority already available in the authenticated application,” Hudson Rock said . The firm also spotted a Polymarket production build, timestamped 17:59 UTC, with a change note about removing the DebugBear script. Loss figures vary. A screenshot reviewed by Hudson Rock showed about $2.19 million at the script’s hard-coded fallback address, though the firm said this is not a verified tally. Blockchain security firm GoPlus, which also attributed the attack to a supply chain compromise of DebugBear’s RUM script, puts losses at roughly $2.71 million. According to its on-chain analysis, the main attack path ran through 710 deposit wallets and 731 addresses, though the address count does not equal the number of victims. Arkham data showed a suspected attacker wallet holding approximately $2.65 million. That is the same address hardcoded in the script as its fallback recipient. Hudson Rock has not determined how the script was tampered with or how many users were hit. Its findings do not indicate that other DebugBear customers were targeted. The attack came the same day Binance was hit by a roughly $6 billion hack that blockchain intelligence firms have attributed to North Korea. In June, Polymarket disclosed another third-party compromise that injected a malicious script into its frontend, with losses reported at around $3 million. Related : Personal Information for Over 1 Million People Stolen in a Cyberattack on Arizona’s Court System Related : BigCommerce Data Stolen via Ribon Apps Hack Related : Hackers Return $263 Million Stolen From Liquid Network Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs $6 Billion Binance Hack Bears Hallmarks of North Korea’s TraderTraitor Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model BAE Says No Data Extracted in Incident Hitting Bankruptcy Courts Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net Cisco SD-WAN
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: $2 Million+ Drained From Polymarket Traders in New Supply Chain Attack
-  - Published: 2026-10-30T09:41:36+00:00
-  - Link: https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/
-  - Summary: Malicious code linked to a website monitoring tool was designed to hijack logged-in Polymarket sessions and siphon user funds. The post $2 Million+ Drained From Polymarket Traders in New Supply Chain Attack appeared first on SecurityWeek .
+  - Title: Binance links $6.3 billion crypto theft to compromised DevOps laptop
+  - Published: 2026-10-30T09:18:13+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/
+  - Summary: Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]
 
 ### Cluster ab440398cd — score 9
 
@@ -2928,7 +2891,7 @@ Want to know the latest from Google Cloud? Find it here in one handy location. C
 #### Full body
 
 ```
-Inside Google Cloud What’s new with Google Cloud October 30, 2026 Google Cloud Content & Editorial Try Gemini today The front door to AI in the workplace Try now Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . Oct 26 - Oct 30 Simplify PostgreSQL Monitoring with the New AlloyDB Omni Web UI The newly released AlloyDB Omni Web UI delivers a centralized, graphical dashboard that simplifies the management of self-managed PostgreSQL workloads across hybrid, multi-cloud, and air-gapped environments. This browser-based console provides database administrators with deep, real-time insights into cluster health, hardware utilization, and active database connections. It also features built-in query diagnostics and performance tracking for AlloyDB’s columnar engine, enabling quick troubleshooting of bottlenecks without manual terminal commands. To learn more about setting up this monitoring interface, read the full AlloyDB Omni Web UI Blog Post . Leveraging "Antigravity" to architect high performance semantic model routers in Apigee Semantic model routing replaces rigid static paths with a lightweight helper model to dynamically classify and dispatch intent-driven LLM traffic. Join Saravanakumar Rajagopal on Thursday, November 12, 2026, at 5:00 PM CET for a Community TechTalk exploring how to leverage Antigravity and skills to architect these intelligent multi-provider routing patterns natively inside Apigee. Discover how to optimize your AI infrastructure and enhance flexibility at scale. Register for the November 12 Community TechTalk Oct 19 - Oct 23 Claude Fable 5.5 is now available on Google Cloud, bringing frontier intelligence to technical and scientific workloads, agentic coding, and multi-agent orchestration. We are committed to giving enterprise customers access to a diverse choice of industry-leading frontier models, empowering developers to build, deploy, and scale securely on Google Cloud. Try it now From prompt to production: End-to-end AI workflows in Apigee Deploying an enterprise AI gateway does not require deep API or machine learning expertise. Using declarative workflows in Apigee, teams can spin up a fully governed LLM gateway in minutes using a few environment variables. Join Luis Cuellar on Thursday, October 29, 2026 for a Community TechTalk exploring end-to-end AI workflows. Discover how to layer essential defenses—including Model Armor for prompt protection, Cloud Data Loss Prevention (Cloud DLP) for sensitive data redaction, rate limiting, and response caching—before routing autonomous agent interactions through your gateway filters. Register for the October 29 Community TechTalk Zero Standing Privileges with PAM: On-Demand Temporary Access for Humans and AI Agents AI agents now hand work off to other agents, risking stacked privileges and overpermissioning. Because agents plan their actions on the fly, permanent admin access means one hallucination can cascade into production. Join us on Wednesday, November 18, 2026, at 8:30 AM PST to see how Google Cloud Privileged Access Manager (PAM) brings Zero Standing Privileges to AI delegation, putting humans in command with cloud-native control that doesn't slow developers down. Register for the November 18 webinar Streaming comes to API Gateway: real-time and AI-ready APIs Native streaming support is now in Public Preview for API Gateway, enabling you to run real-time and AI workloads behind your existing gateway. You can now route Server-Sent Events (SSE), WebSockets, gRPC, and chunked transfer encoding without modifying your API spec or managing a split estate. This update also strengthens integration with the Gemini platform, allowing you to stream responses from Gemini,
+Inside Google Cloud What’s new with Google Cloud October 30, 2026 Google Cloud Content & Editorial Try Gemini today The front door to AI in the workplace Try now Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . Oct 26 - Oct 30 Simplify PostgreSQL Monitoring with the New AlloyDB Omni Web UI The newly released AlloyDB Omni Web UI delivers a centralized, graphical dashboard that simplifies the management of self-managed PostgreSQL workloads across hybrid, multi-cloud, and air-gapped environments. This browser-based console provides database administrators with deep, real-time insights into cluster health, hardware utilization, and active database connections. It also features built-in query diagnostics and performance tracking for AlloyDB’s columnar engine, enabling quick troubleshooting of bottlenecks without manual terminal commands. To learn more about setting up this monitoring interface, read the full AlloyDB Omni Web UI Blog Post . Leveraging "Antigravity" to architect high performance semantic model routers in Apigee Semantic model routing replaces rigid static paths with a lightweight helper model to dynamically classify and dispatch intent-driven LLM traffic. Join Saravanakumar Rajagopal on Thursday, November 12, 2026, at 5:00 PM CET for a Community TechTalk exploring how to leverage Antigravity and skills to architect these intelligent multi-provider routing patterns natively inside Apigee. Discover how to optimize your AI infrastructure and enhance flexibility at scale. Register for the November 12 Community TechTalk Oct 19 - Oct 23 From prompt to production: End-to-end AI workflows in Apigee Deploying an enterprise AI gateway does not require deep API or machine learning expertise. Using declarative workflows in Apigee, teams can spin up a fully governed LLM gateway in minutes using a few environment variables. Join Luis Cuellar on Thursday, October 29, 2026 for a Community TechTalk exploring end-to-end AI workflows. Discover how to layer essential defenses—including Model Armor for prompt protection, Cloud Data Loss Prevention (Cloud DLP) for sensitive data redaction, rate limiting, and response caching—before routing autonomous agent interactions through your gateway filters. Register for the October 29 Community TechTalk Zero Standing Privileges with PAM: On-Demand Temporary Access for Humans and AI Agents AI agents now hand work off to other agents, risking stacked privileges and overpermissioning. Because agents plan their actions on the fly, permanent admin access means one hallucination can cascade into production. Join us on Wednesday, November 18, 2026, at 8:30 AM PST to see how Google Cloud Privileged Access Manager (PAM) brings Zero Standing Privileges to AI delegation, putting humans in command with cloud-native control that doesn't slow developers down. Register for the November 18 webinar Streaming comes to API Gateway: real-time and AI-ready APIs Native streaming support is now in Public Preview for API Gateway, enabling you to run real-time and AI workloads behind your existing gateway. You can now route Server-Sent Events (SSE), WebSockets, gRPC, and chunked transfer encoding without modifying your API spec or managing a split estate. This update also strengthens integration with the Gemini platform, allowing you to stream responses from Gemini, Claude, and OpenAI gpt-oss models seamlessly while maintaining consistent authentication, rate limiting, and observability. Read the blog to get started Oct 12 - Oct 16 AI tokenomics in action: Enforcing tiered token budgets with Apigee Scaling artificial intelligence across an enterprise requires clear token governance to keep LLM spend predictable across departme
 ```
 
 #### Corroborating sources (1)
@@ -3427,52 +3390,181 @@ October brought four new members and fresh CRA resources from Prague, a practica
   - Link: https://openssf.org/newsletter/2026/10/30/openssf-newsletter-october-2026/
   - Summary: October brought four new members and fresh CRA resources from Prague, a practical guide to finding and fixing vulnerabilities with AI, and a new Sandbox project. Next stop: Salt Lake City for Open Source SecurityCon on November 9.
 
-### Cluster abce187b26 — score 8
+### Cluster fbf3b415d8 — score 8
 
-- Title: TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-10-30T08:44:49+00:00
-- Link: https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/
+- Title: Critical Linux kernel flaw allows remote root attacks on MPTCP servers
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-10-30T21:09:46+00:00
+- Link: https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: CVE-2026-111585
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ddos, zero_day
-- affected_products: Apple iOS/macOS, Cisco
-- cve_ids: CVE-2026-111585, CVE-2026-92372, CVE-2026-92374
-- urgency_signals: actively_exploited, zero_day
+- threat_categories: ddos
+- affected_industries: telecommunications
+- affected_products: Anthropic/Claude, Linux kernel
+- cve_ids: CVE-2026-98432
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: zero_day, ddos, active_exploitation
-- affected_products: Cisco, Apple iOS/macOS
-- cve_ids: CVE-2026-111585, CVE-2026-92372, CVE-2026-92374
-- urgency_signals: actively_exploited, zero_day
+- threat_categories: ddos
+- affected_industries: telecommunications
+- affected_products: Linux kernel, Anthropic/Claude
+- cve_ids: CVE-2026-98432
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-An integer overflow tracked as CVE-2026-111585 could be used to execute arbitrary code on the viewer’s system. The post TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines appeared first on SecurityWeek .
+Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]
 ```
 
 #### Full body
 
 ```
-A high-severity vulnerability in the popular remote-access tool TeamViewer could be exploited to take over a viewer’s (an IT support technician’s) system, cybersecurity firm Remedio warns. Tracked as CVE-2026-111585 (CVSS score of 8.8), the flaw is described as an integer overflow affecting the remote-control screen processing component of TeamViewer clients across Windows, macOS, Linux, and Android. Successful exploitation of the security defect could allow attackers to crash the viewer’s TeamViewer or execute arbitrary code on their system. “Exploitation requires a user to establish a remote-control session to an attacker-controlled or compromised host,” TeamViewer notes in its advisory . The issue, Remedio says , is rooted in how the host’s screen dimension is transmitted and used in the viewer: the host announces the geometry of the screen and the viewer uses the received dimensions to allocate an in-memory pixel buffer it then uses to decompress incoming screen updates. This decode surface is only used if a hardware video decoder is not available for the session, but the host may refuse to negotiate the video codecs, thus forcing the viewer to that path. Advertisement. Scroll to continue reading. A host can request a surface larger than what a screen can reach, and the path accepts it. An example would be 32768 by 32768 pixels at 32 bits per pixel, which overflows 32 bits, with every row past 31 being written out of bounds. “The screen dimensions a host announces are used to size the drawing surface as-is, with no upper bound enforced on what arrives over the network,” Remedio explains. The attacker-controlled host controls both the declared surface and the screen updates that can overflow the buffer, causing the viewer’s application to repeatedly crash. “That means a malicious or compromised host can trigger the bug from inside an ordinary, established session, using only messages the protocol already supports,” Remedio explains. In addition to triggering the denial-of-service (DoS) condition over a normal TeamViewer session, Remedio discovered that it could use CVE-2026-111585 to execute arbitrary code on the viewer’s system. “The corrupted surface is a live object the viewer later calls through a pointer in its own first field, so overwriting that pointer redirects the call,” Remedio notes, explaining that it bypassed existing protections to route the call to WinExec and run the code in the viewer. “The surface is reachable in the default configuration. An accepted session is all it takes, and that is the product’s normal mode of operation,” the company says. Version 15.83 of TeamViewer’s clients (including Full Client, Host, Portable, and Remote Control App for Android) contains the necessary patches. TeamViewer also released security updates for multiple legacy versions. The macOS and Linux updates also resolve CVE-2026-92372, an out-of-bounds write with similar consequences: an attacker could supply crafted screen-image data or convince a user to open a specially crafted TeamViewer session recording (.tvs) to execute arbitrary code. “Missing destination bounds checking in the decoder allows crafted screen-image data to cause an out-of-bounds write to the image buffer. Exploitation requires user interaction,” TeamViewer notes. On macOS, the updates also resolve CVE-2026-92374, a time-of-check-to-time-of-use (TOCTOU) race condition with improper symbolic link handling flaw that could allow a low-privileged local attacker to install a malicious package and gain root privileges. Additionally, TeamViewer patched six high-severity local privilege escalation vulnerabilities in the TeamViewer Remote Management add-ons, urging users to update both the clients and the components to the latest versions. TeamViewer says it is not aware of any of these vulnerabilities being exploited in the wild. Related: Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities Related: Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoo
+Critical Linux kernel flaw allows remote root attacks on MPTCP servers By Lawrence Abrams October 30, 2026 05:09 PM 0 Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. The flaw, tracked as CVE-2026-98432 , also affects ordinary TCP connections, although remote code execution has not been publicly demonstrated on servers without an MPTCP listener. Multipath TCP (MPTCP) is a TCP feature that lets a single connection use multiple network paths at the same time to improve performance and reliability. It is commonly used in environments where devices have multiple network connections, such as Wi-Fi and cellular networks. CVE-2026-98432 is a use-after-free vulnerability in the kernel's IPv4 TCP networking code that received a severity score of 9.8 out of 10 from the Linux kernel CVE team. The vulnerability affects Linux kernels dating back to version 4.4, including widely used distributions such as Ubuntu, Red Hat Enterprise Linux (RHEL), and Rocky Linux. According to the Linux kernel advisory , the vulnerability stems from a race condition in how the kernel handles TCP connection requests, potentially causing a use-after-free condition. "tcp_v4_syn_recv_sock() transfers ownership of ireq->ireq_opt to the child socket (newinet->inet_opt) without copying it," reads the advisory. "Another cpu can concurrently process a retransmitted SYN for the same request socket, and send a SYNACK from tcp_check_req(). tcp_v4_send_synack() and inet_csk_route_req() read ireq->ireq_opt under rcu_read_lock() only, and ip_build_and_send_pkt() and ip_options_build() then read opt->optlen twice." A similar issue can occur during TCP request socket migration when net.ipv4.tcp_migrate_req is enabled, or a BPF_SK_REUSEPORT_SELECT_OR_MIGRATE program is used. Although triggering the vulnerability requires no authentication, Red Hat says exploiting the race condition is more complex than just sending a malicious network packet. Red Hat classifies the vulnerability as a potential denial-of-service issue that could cause a kernel crash, assigning it a lower severity score of 5.9 because exploitation is complex. However, researchers at Anthropic demonstrated that the vulnerability could be exploited for remote code execution under specific conditions. An Anthropic report explained that an unreleased Claude AI model developed an exploit that bypassed kernel address space layout randomization (KASLR) and executed arbitrary commands as root on a Linux server running an MPTCP listener. According to Anthropic, the exploit took about 53 minutes to achieve remote root code execution, showing the vulnerability could be exploited for more than denial-of-service attacks. While MPTCP is not typically enabled by default in applications, some software enables it automatically. Beginning in Go 1.24, the programming language enables MPTCP by default for TCP listeners on Linux as long as the kernel supports the feature. Due to this, some Go-based network services may enable MPTCP listeners without administrators knowing. Linux distros begin releasing patches The vulnerability was fixed in the upstream Linux kernel and backported to maintained kernel branches. However, security updates have not yet been pushed out to all affected Linux distributions. According to Canonical's security tracker , Ubuntu 22.04 LTS, 24.04 LTS, 26.04 LTS, and 26.10 remain vulnerable, with kernel fixes in progress as of October 30. Red Hat also lists RHEL 8, 9, and 10 as affected, with fixes planned for future updates. RHEL 7 is not affected because its kernel does not contain the vulnerable code. In mitigation guidance , Rocky Linux support provider CIQ confirms Rocky Linux 8, 9, and 10 are also affected and shared temporary firewall protections for affected systems. According to Debian's security tracker , the vulnerability wa
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Critical Linux kernel flaw allows remote root attacks on MPTCP servers
+  - Published: 2026-10-30T21:09:46+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/
+  - Summary: Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]
+
+### Cluster f373dbd4d4 — score 8
+
+- Title: Japan Airlines suffers third-party data breach exposing passenger info
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-10-29T22:08:04+00:00
+- Link: https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion
+- actor_attribution: Lazarus
+- affected_industries: aviation_defense, financial_services, telecommunications
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach
+- actor_attribution: Lazarus
+- affected_industries: financial_services, telecommunications, aviation_defense
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Japan Airlines (JAL) has announced that a data breach at Amadeus's Passenger Service System exposed the data of about 92,000 customers. [...]
+```
+
+#### Full body
+
+```
+Japan Airlines suffers third-party data breach exposing passenger info By Bill Toulas October 29, 2026 06:08 PM 0 Japan Airlines (JAL) has announced that a data breach at Amadeus’s Passenger Service System exposed the data of about 92,000 customers. JAL Group, which operates the airlines JAL and Japan Transocean Air, uses the system to handle passenger reservations, ticketing, and check-in. According to its announcement , Amadeus notified the airline on October 23, 2026, that unauthorized access to its systems occurred between August 10, 2023, and September 23, 2026. As a result of this lengthy breach, the threat actor accessed reservation codes (PNRs), names, flight dates, routes, and travel classes for approximately 90,000 customers. An additional 2,000 customers had the above data types exposed, plus their email addresses, phone numbers, passport numbers, nationalities, frequent flyer numbers, and flight, ticket, and seat numbers. JAL says credit card numbers and passwords were not compromised, and assured that it currently has no evidence of customer information being misused. The company said Amadeus has now implemented the necessary security measures and flight operations are unaffected. Broader impact Amadeus is an IT firm that provides solutions for travel agencies, airlines, airports, and hotels. It is a major tech supplier to global aviation, used by over four hundred airlines , 210 airport operators, 34 cruise and ferry lines, and 2 million hotels. Amadeus published a statement on its website on October 1, 2026, announcing it had discovered a vulnerability in its travel booking display environment that could expose travelers’ data. At the time, the company said ransomware actors had not exploited the flaw and assured that no payment or other financial data had been exposed. As JAL has confirmed now, the vulnerability appears to have been maliciously exploited. It appears they were not the only victim of the campaign. All Nippon Airways (ANA) has also announced a customer data breach earlier today tied to Amadeus, according to local media . The airline has also suspended certain related services on its website and mobile app since October 21, although that action appears linked to the PHP2Shell threat rather than the Amadeus incident. Other airlines that have confirmed impact from the Amadeus flaw are Asiana Airlines and Korean Air , both major South Korean carriers. BleepingComputer has asked Amadeus for more information about the scope of the impact, specifically whether more airlines and other countries/markets were affected, but the company has not provided more information as of publication. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Sony ISP subsidiary data breach exposes 2.5 million customer records Former pentester used ARTEX AI to steal 8.2 million data records Lazarus hackers use post-quantum cryptography for malware delivery Nikkei discloses third data breach in a month, 1.8M records exposed Burger King Japan data breach exposes 11 million customer records
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Japan Airlines suffers third-party data breach exposing passenger info
+  - Published: 2026-10-29T22:08:04+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/
+  - Summary: Japan Airlines (JAL) has announced that a data breach at Amadeus's Passenger Service System exposed the data of about 92,000 customers. [...]
+
+### Cluster d790fa89bf — score 8
+
+- Title: $2 Million+ Drained From Polymarket Traders in New Supply Chain Attack
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-10-30T09:41:36+00:00
+- Link: https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_industries: manufacturing_industrial, telecommunications
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_industries: manufacturing_industrial, telecommunications
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Malicious code linked to a website monitoring tool was designed to hijack logged-in Polymarket sessions and siphon user funds. The post $2 Million+ Drained From Polymarket Traders in New Supply Chain Attack appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Polymarket halted trading on its international platform on October 29 after users reported unauthorized withdrawals. According to the prediction market’s status page , the exchange was first switched to cancel-only mode, with relayer actions suspended. “We’ve identified & fixed an issue impacting our international platform, Polymarket.com. One of our 3rd party providers was compromised, and we have referred this to relevant law enforcement. Anyone who has been impacted will be made whole,” the company said . Trading resumed about an hour later, and Polymarket pledged to reimburse all affected traders. It has not named the vendor or disclosed losses. Researchers have linked the theft to malicious code served from DebugBear, a UK-based website performance monitoring firm. Polymarket’s US platform was reportedly unaffected. DebugBear confirmed being “impacted by an ongoing security incident” and urged users of its real user monitoring (RUM) product to pull its snippet from their websites. It also said it brought in specialist incident responders. Advertisement. Scroll to continue reading. Hudson Rock obtained a copy of the malicious JavaScript from a DebugBear address used by Polymarket. The code hunted for a logged-in user’s trading tools and portfolio. Depending on the account type, it then tried either to sell positions and move the proceeds, or to send position tokens straight to an attacker-set address. “The sample reads credential-related material, but our review did not identify a routine that sends the credential map, a password, a seed phrase, or a private key to its reporting endpoint. Its central approach is to reuse authority already available in the authenticated application,” Hudson Rock said . The firm also spotted a Polymarket production build, timestamped 17:59 UTC, with a change note about removing the DebugBear script. Loss figures vary. A screenshot reviewed by Hudson Rock showed about $2.19 million at the script’s hard-coded fallback address, though the firm said this is not a verified tally. Blockchain security firm GoPlus, which also attributed the attack to a supply chain compromise of DebugBear’s RUM script, puts losses at roughly $2.71 million. According to its on-chain analysis, the main attack path ran through 710 deposit wallets and 731 addresses, though the address count does not equal the number of victims. Arkham data showed a suspected attacker wallet holding approximately $2.65 million. That is the same address hardcoded in the script as its fallback recipient. Hudson Rock has not determined how the script was tampered with or how many users were hit. Its findings do not indicate that other DebugBear customers were targeted. The attack came the same day Binance was hit by a roughly $6 billion hack that blockchain intelligence firms have attributed to North Korea. In June, Polymarket disclosed another third-party compromise that injected a malicious script into its frontend, with losses reported at around $3 million. Related : Personal Information for Over 1 Million People Stolen in a Cyberattack on Arizona’s Court System Related : BigCommerce Data Stolen via Ribon Apps Hack Related : Hackers Return $263 Million Stolen From Liquid Network Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs $6 Billion Binance Hack Bears Hallmarks of North Korea’s TraderTraitor Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model BAE Says No Data Extracted in Incident Hitting Bankruptcy Courts Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net Cisco SD-WAN
 ```
 
 #### Corroborating sources (1)
 
 - **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines
-  - Published: 2026-10-30T08:44:49+00:00
-  - Link: https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/
-  - Summary: An integer overflow tracked as CVE-2026-111585 could be used to execute arbitrary code on the viewer’s system. The post TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines appeared first on SecurityWeek .
+  - Title: $2 Million+ Drained From Polymarket Traders in New Supply Chain Attack
+  - Published: 2026-10-30T09:41:36+00:00
+  - Link: https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/
+  - Summary: Malicious code linked to a website monitoring tool was designed to hijack logged-in Polymarket sessions and siphon user funds. The post $2 Million+ Drained From Polymarket Traders in New Supply Chain Attack appeared first on SecurityWeek .
+
+### Cluster 3f66870272 — score 8
+
+- Title: dbreunig/nesformer
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-10-30T21:59:22+00:00
+- Link: https://simonwillison.net/2026/Oct/30/nesformer/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+dbreunig/nesformer Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen! In a comment on Hacker News Drew reveals the Opus 5.5 prompts he used to build this system: Read this article and any relevant source code: https://divagr.com/blog/qwenputer. Then explore if you could emulate the chip and ram in a Nintendo Entertainment System (as people do today with FPGAs in MISTRs) using this technique. If so, what size model would you have to build and if you could use smaller faster ones, could you get it to be at the standard clockspeed. Followed by: I think we should build it! Just for fun. It's okay if it's not fast. We want to be able to have the weights, and a cli to run them that we can point at a ROM. Apparently Opus found and then used this collection of conformance tests for the NES CPU released 1
+```
+
+#### Full body
+
+```
+Simon Willison’s Weblog Newsletter Sponsored by: Greptile — Your code reviewer uses Computer Use to catch bugs by opening your app and clicking through it. Now you can configure its test environment and define the key user journeys it tests. Try it for free 30th October 2026 - Link Blog dbreunig/nesformer ( via ) Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen! In a comment on Hacker News Drew reveals the Opus 5.5 prompts he used to build this system: Read this article and any relevant source code: https://divagr.com/blog/qwenputer. Then explore if you could emulate the chip and ram in a Nintendo Entertainment System (as people do today with FPGAs in MISTRs) using this technique. If so, what size model would you have to build and if you could use smaller faster ones, could you get it to be at the standard clockspeed. Followed by: I think we should build it! Just for fun. It's okay if it's not fast. We want to be able to have the weights, and a cli to run them that we can point at a ROM. Apparently Opus found and then used this collection of conformance tests for the NES CPU released 15 years ago by Christopher Pow. Posted 30th October 2026 at 9:59 pm Recent articles The October inflection point for vibe game development - 28th October 2026 Battle Drones - a vibe coded RTS with audio-based multiplayer - 20th October 2026 Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026 A new feature for my blog, built using my voice - 9th October 2026 This is a link post by Simon Willison, posted on 30th October 2026 . games 26 ai 2,304 generative-ai 2,044 llms 2,009 drew-breunig 22 qwen 63 conformance-suites 12 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+```
+
+#### Corroborating sources (1)
+
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: dbreunig/nesformer
+  - Published: 2026-10-30T21:59:22+00:00
+  - Link: https://simonwillison.net/2026/Oct/30/nesformer/
+  - Summary: dbreunig/nesformer Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen! In a comment on Hacker News Drew reveals the Opus 5.5 prompts he used to build this system: Read this article and any relevant source code: https://divagr.com/blog/qwenputer. Then explore if you could emulate the chip and ram in a Nintendo Entertainment System (as people do today with FPGAs in MISTRs) using this technique. If so, what size model would you have to build and if you could use smaller faster ones, could you get it to be at the standard clockspeed. Followed by: I think we should build it! Just for fun. It's okay if it's not fast. We want to be able to have the weights, and a cli to run them that we can point at a ROM. Apparently Opus found and then used this collection of conformance tests for the NES CPU released 1
 
 ### Cluster cd1d6d7c27 — score 8
 
@@ -3480,20 +3572,16 @@ A high-severity vulnerability in the popular remote-access tool TeamViewer could
 - Source: CyberScoop (cyber_news_breach_reporting)
 - Published: 2026-10-28T21:33:00+00:00
 - Link: https://cyberscoop.com/dhs-employee-data-leak-ddosecrets/
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_industries: government
-- affected_products: GitHub, Okta
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- affected_industries: government
-- affected_products: Okta, GitHub
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3501,12 +3589,6 @@ A high-severity vulnerability in the popular remote-access tool TeamViewer could
 
 ```
 The Department of Peace group shared it with Swiss hacker/journalist maia arson crimew and DDoSecrets put it online. The post Leak site publishes data on more than 41,000 DHS employees obtained by hacktivists appeared first on CyberScoop .
-```
-
-#### Full body
-
-```
-Advertisement Get our latest cybersecurity news first on Google. Click here! Close A leak website was published Wednesday, showcasing internal data on more than 41,000 Department of Homeland Security employees and contractors after it was obtained by hackers who claimed to have breached an identity service used by the agency. The transparency nonprofit Distributed Denial of Secrets and the hacker maia arson crimew got the data from a hacktivist outfit known as the Department of Peace. ”The leak is extraordinary but deceptive in [its] simplicity as it identifies the officials responsible for overseeing covert and undercover operations, the government’s hunt for leakers and the failed BlueLeaks investigation — along with key personnel in DHS’s ever-escalating rendition and deportation programs,” said Emma Best, founder of DDoSecrets. CyberScoop was able to verify numerous current Cybersecurity and Infrastructure Agency employees are listed in the data, along with some former leadership members who left the agency years ago. Advertisement The data goes back years, with various group names listed in the database making reference to COVID-19 planning and internal summits in 2023. As of Thursday morning, the website hosting a searchable form of the data has been taken offline . The hacktivists said the breach was a response to the promise of stepped-up operations from Immigrations and Customs Enforcement by DHS Secretary Markwayne Mullin. ”On July 17th, Markwayne Mullin said he was ’turning up the heat.’ This is what happens to ICE when you do that,” said a spokesperson for the Department of Peace. The spokesperson said they obtained the database from an Okta single sign-on service used at DHS. Okta said it was aware of the report. Advertisement “Okta is secure, and we have no evidence our data or systems were compromised,” an Okta spokesperson said. DHS did not immediately respond to a request for comment. ”This dataset is massive in terms of both size and impact,” said crimew, a Swiss hacker and journalist who has been indicted in the United States over past leaks and who created a search tool for the DHS data. “It provides an unprecedented look into the Department of Homeland Security’s organizational structure, highlighting which people do what work across multiple DHS agencies, including ICE.” One researcher said the leak could prove valuable for Freedom of Information Act requests. “Email addresses and phone numbers are indispensable tools for FOIA researchers, often making the difference between a vague records request that gets stonewalled and one that gets results,” Ryan Shapiro, executive director of Property of the People, said. “Given the Trump administration’s contempt for even basic transparency, the need for such tools is urgent.” Advertisement DHS has suffered notable breaches before, dating back to a 2014 breach that may have exposed the data of 390,000 then-current and former Homeland Security Department employees, job applicants and contractors. In 2018, DHS notified nearly 250,000 people of a breach at the department. Earlier this year, Security firm GitGuardian said it discovered a public GitHub repository that exposed credentials for privileged AWS GovCloud accounts and internal CISA systems dating back to November 2025. Greg Otto contributed to this story. UPDATE: 10/29/2026, 9:30 a.m.: This story has been updated with details about the web-based database being taken offline. Share Facebook LinkedIn Twitter Copy Link Add to Preferred Sources Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops A sign at a protest in support of Julian Assange outside the British Consulate in New York City, Feb. 24, 2020. (Pamela Drew / Flickr) (DHS photo by Jetta Disco / Flickr) Latest Podcasts The messy middle of AI-powered bug disclosure Building the SOC of the future: How AI can optimize federal cyber operations Even safe mode can’t save PHP this time Which nation-sate should worry u
 ```
 
 #### Corroborating sources (1)
@@ -3523,7 +3605,7 @@ Advertisement Get our latest cybersecurity news first on Google. Click here! Clo
 - Source: Dark Reading (cyber_news_breach_reporting)
 - Published: 2026-10-26T20:59:26+00:00
 - Link: https://www.darkreading.com/application-security/in-the-wild-attack-ai-agents-trust-markdown
-- Fetch status: fetch_failed:HTTPError
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -3690,12 +3772,12 @@ Microsoft wants EDR out of the Windows kernel, and the preview binaries show wes
   - Link: https://www.elastic.co/security-labs/blog/windows-endpoint-security-platform-wesp
   - Summary: Microsoft wants EDR out of the Windows kernel, and the preview binaries show wesp.sys telling a user-mode client that a process is starting, with nothing in its imports to let that client block it.
 
-### Cluster 8bb3971743 — score 8
+### Cluster d5960345db — score 8
 
-- Title: Chinese Actor Compromises US Government Network Via Chained PHP2Shell Exploit
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-10-30T12:00:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/chinese-us-government-chained-php2/
+- Title: Billions stolen in Binance hack
+- Source: Risky Business News (practitioner_analysis)
+- Published: 2026-10-30T02:07:09+00:00
+- Link: https://risky.biz/RBNEWS627/
 - Fetch status: not_attempted
 - Member count: 3
 - Corroborating source count: 3
@@ -3708,29 +3790,29 @@ Microsoft wants EDR out of the Windows kernel, and the preview binaries show wes
 - confidence_tier: tier_3_analysis, tier_4_news
 
 #### Primary article taxonomy
-- affected_industries: government
+- affected_industries: financial_services
 - affected_products: Palo Alto Networks
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_3_analysis
 
 #### Summary
 
 ```
-Dream found that a suspected Chinese-nexus actor gained root access to Palo Alto Network firewall servers to target government organizations
+Billions stolen from Binance in a crypto hack, Last week’s PHP2Shell bugs are being exploited to hack Palo Alto Networks firewalls, The Brotli bugs also get a run, Belarusian state hackers carry out a wiper attack, and a hacker leaks the data of 41,000 DHS employees.
 ```
 
 #### Corroborating sources (3)
 
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Chinese Actor Compromises US Government Network Via Chained PHP2Shell Exploit
-  - Published: 2026-10-30T12:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/chinese-us-government-chained-php2/
-  - Summary: Dream found that a suspected Chinese-nexus actor gained root access to Palo Alto Network firewall servers to target government organizations
 - **Risky Business News** (practitioner_analysis)
   - Title: Billions stolen in Binance hack
   - Published: 2026-10-30T02:07:09+00:00
   - Link: https://risky.biz/RBNEWS627/
   - Summary: Billions stolen from Binance in a crypto hack, Last week’s PHP2Shell bugs are being exploited to hack Palo Alto Networks firewalls, The Brotli bugs also get a run, Belarusian state hackers carry out a wiper attack, and a hacker leaks the data of 41,000 DHS employees.
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Chinese Actor Compromises US Government Network Via Chained PHP2Shell Exploit
+  - Published: 2026-10-30T12:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/chinese-us-government-chained-php2/
+  - Summary: Dream found that a suspected Chinese-nexus actor gained root access to Palo Alto Network firewall servers to target government organizations
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces
   - Published: 2026-10-29T05:50:17+00:00

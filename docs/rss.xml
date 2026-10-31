@@ -6,9 +6,41 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Fri, 30 Oct 2026 20:37:50 +0000</lastBuildDate>
+<lastBuildDate>Sat, 31 Oct 2026 00:36:00 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>“Black October” for AI Developer Platforms</title>
+<link>https://www.wiz.io/blog/black-october-for-ai-developer-platforms</link>
+<description><![CDATA[A series of agentic attacks on AI Developer Platforms has been leading to LLMJacking at scale.<br/><br/><em>Tags: supply_chain</em>]]></description>
+<pubDate>Fri, 30 Oct 2026 22:51:44 +0000</pubDate>
+<guid isPermaLink="true">https://www.wiz.io/blog/black-october-for-ai-developer-platforms</guid>
+<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
+<category>cloud_identity_infrastructure</category>
+<category>supply_chain</category>
+</item>
+<item>
+<title>dbreunig/nesformer</title>
+<link>https://simonwillison.net/2026/Oct/30/nesformer/</link>
+<description><![CDATA[dbreunig/nesformer Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen! In a comment on Hacker News Drew reveals the Opus 5.5 prompts he used to build this system: Read this article and any relevant source code: https://divagr.com/blog/qwenputer. Then explore if you could emulate the chip and ram in a Nintendo Entertainment System (as people do today with FPGAs in MISTRs) using this technique. If so, what size model would you have to build and if you could use smaller faster ones, could you get it to be at the standard clockspeed. Followed by: I think we should build it! Just for fun. It&apos;s okay if it&apos;s not fast. We want to be able to have the weights, and a cli to run them that we can point at a ROM. Apparently Opus found and then used this collection of conformance tests for the NES CPU released 1]]></description>
+<pubDate>Fri, 30 Oct 2026 21:59:22 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Oct/30/nesformer/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Critical Linux kernel flaw allows remote root attacks on MPTCP servers</title>
+<link>https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/</link>
+<description><![CDATA[Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]<br/><br/><em>Tags: Linux kernel · Anthropic/Claude · CVE-2026-98432 · ddos</em>]]></description>
+<pubDate>Fri, 30 Oct 2026 21:09:46 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>Linux kernel</category>
+<category>Anthropic/Claude</category>
+<category>CVE-2026-98432</category>
+<category>ddos</category>
+</item>
 <item>
 <title>Devs Hit by Trojanized Claude Code Extension for Cursor</title>
 <link>https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor</link>
@@ -29,6 +61,15 @@
 <category>ai_security_agentic_risk</category>
 <category>GitHub</category>
 <category>supply_chain</category>
+</item>
+<item>
+<title>Behind the Scenes of How Operation Blackout Went Down</title>
+<link>https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down</link>
+<description><![CDATA[A recent law enforcement operation to dismantle harmful scam centers was a big success. A threat intelligence expert walks us through what happened and why he wants more of the same.]]></description>
+<pubDate>Fri, 30 Oct 2026 19:46:08 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Fashion retailer Resolve says hackers stole payment card information</title>
@@ -286,15 +327,6 @@
 <category>data_breach</category>
 </item>
 <item>
-<title>Hackers target government Windows systems in Asia with new malware</title>
-<link>https://therecord.media/hackers-target-government-windows-systems-asia-new-malware</link>
-<description><![CDATA[The previously unknown malware, dubbed NetamLoader, uses legitimate Microsoft software components to execute malicious code, evade security tools and download additional programs onto infected computers.]]></description>
-<pubDate>Fri, 30 Oct 2026 12:36:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/hackers-target-government-windows-systems-asia-new-malware</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Fresh WordPress Vulnerability in Attackers’ Crosshairs</title>
 <link>https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/</link>
 <description><![CDATA[Threat actors are attempting to exploit a high-severity unauthenticated race condition leading to remote code execution. The post Fresh WordPress Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek .<br/><br/><em>Tags: WordPress · Anthropic/Claude · GitLab · Volt Typhoon · ransomware_extortion · supply_chain · zero_day · data_breach</em>]]></description>
@@ -438,15 +470,12 @@
 <item>
 <title>TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines</title>
 <link>https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/</link>
-<description><![CDATA[An integer overflow tracked as CVE-2026-111585 could be used to execute arbitrary code on the viewer’s system. The post TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines appeared first on SecurityWeek .<br/><br/><em>Tags: Cisco · Apple iOS/macOS · CVE-2026-111585 · CVE-2026-92372 · CVE-2026-92374 · zero_day · ddos · active_exploitation</em>]]></description>
+<description><![CDATA[An integer overflow tracked as CVE-2026-111585 could be used to execute arbitrary code on the viewer’s system. The post TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines appeared first on SecurityWeek .<br/><br/><em>Tags: CVE-2026-111585</em>]]></description>
 <pubDate>Fri, 30 Oct 2026 08:44:49 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
-<category>Cisco</category>
-<category>Apple iOS/macOS</category>
 <category>CVE-2026-111585</category>
-<category>CVE-2026-92372</category>
 </item>
 <item>
 <title>Binance hit by $6.3 billion theft in what could be the biggest crypto heist on record</title>
@@ -714,7 +743,7 @@
 <item>
 <title>Cloud CISO Perspectives: Introducing new $250,000 tier for Google Cloud VRP (Q&amp;A)</title>
 <link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-introducing-new-tier-for-google-cloud-vrp/</link>
-<description><![CDATA[Welcome to the second Cloud CISO Perspectives for October 2026. Today, Chris Betz talks with Michael Cote, our vulnerability rewards program lead, about the new tier of our Cloud VRP program and the current state of vulnerability rewards. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f9a56e68910&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, None)])]&gt; Why we&apos;ve created a new $250,000 tier for Google Cloud VRP (Q&amp;A) By Chris Betz, CISO, Google Cloud The Google Cloud Vulnerability Re<br/><br/><em>Tags: Google Cloud</em>]]></description>
+<description><![CDATA[Welcome to the second Cloud CISO Perspectives for October 2026. Today, Chris Betz talks with Michael Cote, our vulnerability rewards program lead, about the new tier of our Cloud VRP program and the current state of vulnerability rewards. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f01083ea210&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, None)])]&gt; Why we&apos;ve created a new $250,000 tier for Google Cloud VRP (Q&amp;A) By Chris Betz, CISO, Google Cloud The Google Cloud Vulnerability Re<br/><br/><em>Tags: Google Cloud</em>]]></description>
 <pubDate>Thu, 29 Oct 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-introducing-new-tier-for-google-cloud-vrp/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
@@ -1076,13 +1105,11 @@
 <item>
 <title>Leak site publishes data on more than 41,000 DHS employees obtained by hacktivists</title>
 <link>https://cyberscoop.com/dhs-employee-data-leak-ddosecrets/</link>
-<description><![CDATA[The Department of Peace group shared it with Swiss hacker/journalist maia arson crimew and DDoSecrets put it online. The post Leak site publishes data on more than 41,000 DHS employees obtained by hacktivists appeared first on CyberScoop .<br/><br/><em>Tags: Okta · GitHub</em>]]></description>
+<description><![CDATA[The Department of Peace group shared it with Swiss hacker/journalist maia arson crimew and DDoSecrets put it online. The post Leak site publishes data on more than 41,000 DHS employees obtained by hacktivists appeared first on CyberScoop .]]></description>
 <pubDate>Wed, 28 Oct 2026 21:33:00 +0000</pubDate>
 <guid isPermaLink="true">https://cyberscoop.com/dhs-employee-data-leak-ddosecrets/</guid>
 <source url="https://cyberscoop.com/feed/">CyberScoop</source>
 <category>cyber_news_breach_reporting</category>
-<category>Okta</category>
-<category>GitHub</category>
 </item>
 <item>
 <title>Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN</title>
@@ -2024,6 +2051,15 @@
 <source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
 <category>ai_security_agentic_risk</category>
 <category>Anthropic/Claude</category>
+</item>
+<item>
+<title>Friday Squid Blogging: Increasing Squid Populations</title>
+<link>https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html</link>
+<description><![CDATA[This article in Nature argues that it’s due to an overfishing of predators and warming sea temperatures. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.]]></description>
+<pubDate>Fri, 23 Oct 2026 21:00:09 +0000</pubDate>
+<guid isPermaLink="true">https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html</guid>
+<source url="https://www.schneier.com/feed/atom/">Schneier on Security</source>
+<category>practitioner_analysis</category>
 </item>
 <item>
 <title>Trust Is Not What It Seems — and Fraudsters Are Counting on It</title>
@@ -3552,15 +3588,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>Researchers Infiltrate Microsoft Tech Support Scam Operation</title>
-<link>https://www.darkreading.com/threat-intelligence/microsoft-tech-support-scam-operation</link>
-<description><![CDATA[A large-scale scam operation impersonating Microsoft uses a malicious traffic distribution system (TDS) run by a Russian organization and abuses thousands of Cloudflare links.]]></description>
-<pubDate>Mon, 19 Oct 2026 21:13:41 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/threat-intelligence/microsoft-tech-support-scam-operation</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>New paper: Emerging trends in AI agent evaluation</title>
 <link>https://www.normaltech.ai/p/new-paper-emerging-trends-in-ai-agent</link>
 <description><![CDATA[Understanding the methods, questions, and ecosystem for evaluation]]></description>
@@ -4569,15 +4596,6 @@
 <category>cloud_abuse</category>
 </item>
 <item>
-<title>Training AIs to Solve CAPTCHAs</title>
-<link>https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html</link>
-<description><![CDATA[Interesting research : Abstract : Vision-language models (VLMs) can solve visual CAPTCHAs without task-specific training, but the agents built on them approach every challenge from scratch. For such an agent, the hundredth instance of a familiar puzzle costs as much time and compute as the first. Specialized detectors invert the trade-off, answering in milliseconds but only for categories they were trained on. Neither improves with exposure. We study what changes when a solver improves with use. Our system pairs a fine-tuned YOLOv8 detector with an open-weight VLM behind a confidence-based router, and runs entirely from screenshots and operating-system input events, with no browser automation or DOM access. It reaches 85.4% overall and 84.2% macro accuracy across 16 classes, exceeding either component alone. Every answer VLM produces also serves as a training label, so the detector absorbs categories it was never trained for, typically after one or two encounters and without human anno]]></description>
-<pubDate>Mon, 19 Oct 2026 11:07:43 +0000</pubDate>
-<guid isPermaLink="true">https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html</guid>
-<source url="https://www.schneier.com/feed/atom/">Schneier on Security</source>
-<category>practitioner_analysis</category>
-</item>
-<item>
 <title>ConnectWise Shuts Off Cloud Services After ‘Unauthorized Access’ to Microsoft 365 Tenants</title>
 <link>https://www.infosecurity-magazine.com/news/connectwise-shuts-off-cloud/</link>
 <description><![CDATA[Cloud Backup, SaaS Security, and Cloud Management services offline as IT service provider investigates possibility that unknown attackers have full access to client environments via stolen tokens]]></description>
@@ -4931,15 +4949,6 @@
 <category>threat_research_primary</category>
 <category>credential_theft</category>
 <category>apt_espionage</category>
-</item>
-<item>
-<title>Chirp Pong</title>
-<link>https://simonwillison.net/2026/Oct/15/chirp-pong/</link>
-<description><![CDATA[Tool: Chirp Pong Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It seems to work! Build a two player competitive pong like game where two players use their phones close to each other and the game state is sent via audio noises which the web microphone API can interpret - but add graphical and gameplay twists to make it a lot more fun and intertwine than pong Claude Opus 5.5 Extra in Claude Code . Tags: game-design , ai , generative-ai , llms , claude-code]]></description>
-<pubDate>Thu, 15 Oct 2026 19:47:52 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Oct/15/chirp-pong/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>How Multi-Campus Universities can Build a more Connected Security Program</title>
@@ -6889,15 +6898,6 @@
 <category>apt_espionage</category>
 </item>
 <item>
-<title>How AI Helped Chainalysis Investigators Trace the $387 Million North Korea Stole from Bitget</title>
-<link>https://www.chainalysis.com/blog/387m-bitget-theft-2026/</link>
-<description><![CDATA[Summary Since $387 million was stolen from Bitget on September 24, Chainalysis investigators have been working with the exchange and… The post How AI Helped Chainalysis Investigators Trace the $387 Million North Korea Stole from Bitget appeared first on Chainalysis .]]></description>
-<pubDate>Thu, 01 Oct 2026 22:36:41 +0000</pubDate>
-<guid isPermaLink="true">https://www.chainalysis.com/blog/387m-bitget-theft-2026/</guid>
-<source url="https://www.chainalysis.com/blog/feed/">Chainalysis</source>
-<category>ransomware_ecrime_financial_crime</category>
-</item>
-<item>
 <title>New Huntress View for Security Incident Investigations</title>
 <link>https://www.huntress.com/blog/security-incident-investigations-partner-view</link>
 <description><![CDATA[See how the Huntress SOC runs security incident investigations from first signal to final resolution, including the ones closed as benign.]]></description>
@@ -7622,6 +7622,19 @@
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
 <category>credential_theft</category>
+</item>
+<item>
+<title>ShinyHunters Renewed Mass Exploitation Campaign Targeting Oracle PeopleSoft</title>
+<link>https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-renewed-mass-exploitation-campaign-targeting-oracle-peoplesoft/</link>
+<description><![CDATA[Introduction As an update to the June 2026 post, ShinyHunters Targets Education Sector with Oracle PeopleSoft Exploit , Mandiant and Google Threat Intelligence Group (GTIG) have identified renewed mass exploitation of CVE-2026-35273 by UNC6240 (ShinyHunters), along with expanded global targeting across multiple sectors. In June, the threat actor exploited this vulnerability as a zero-day predominantly against academic institutions. This new wave of activity stems from UNC6240 modifying its exploit to bypass web application firewall (WAF) rules blocking the vulnerable Environment Management Hub (PSEMHUB) endpoint. The threat actor bypassed these string-based WAF rules by URL-encoding a single character in the request path, requesting /%50SEMHUB/ in place of /PSEMHUB/ . Many WAF and reverse proxy rules match the literal path before URL decoding, while the PeopleSoft application server decodes the request and routes it to the vulnerable servlet. This allows the threat actor to reach the e<br/><br/><em>Tags: ShinyHunters · UNC6240 · CVE-2026-35273 · zero_day</em>]]></description>
+<pubDate>Fri, 25 Sep 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-renewed-mass-exploitation-campaign-targeting-oracle-peoplesoft/</guid>
+<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
+<category>threat_research_primary</category>
+<category>ShinyHunters</category>
+<category>UNC6240</category>
+<category>CVE-2026-35273</category>
+<category>zero_day</category>
 </item>
 <item>
 <title>Culture at Speed: Protecting What Makes Huntress Work</title>
@@ -13819,15 +13832,6 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Evidence at the Moment of Attack. Answers at AI Speed.</title>
-<link>https://www.wiz.io/blog/wiz-sensor-forensics-ga</link>
-<description><![CDATA[Wiz Sensor Forensics is now generally available - automatically capturing forensic artifacts at the moment of detection and using AI to accelerate investigation for SOC and IR teams.]]></description>
-<pubDate>Wed, 27 May 2026 16:03:11 +0000</pubDate>
-<guid isPermaLink="true">https://www.wiz.io/blog/wiz-sensor-forensics-ga</guid>
-<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>What CISOs want from Cyber Threat Intelligence</title>
 <link>https://www.intel471.com/blog/what-cisos-want-from-cyber-threat-intelligence</link>
 <description><![CDATA[The 2026 Cyber Threat Intelligence (CTI) Survey delivered a finding that should make every threat intelligence practitioner stop and think: 91% of CISOs value CTI, but only 26% say it significantly influences their decisions.]]></description>
@@ -19655,7 +19659,7 @@
 <title>CrowdStrike Expands Falcon Adversary OverWatch Threat Hunting Across AI and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-threat-hunting-across-ai-and-google-cloud/</link>
 <description><![CDATA[<br/><br/><em>Tags: Google Cloud</em>]]></description>
-<pubDate>Fri, 30 Oct 2026 20:37:50 +0000</pubDate>
+<pubDate>Sat, 31 Oct 2026 00:36:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-threat-hunting-across-ai-and-google-cloud/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19665,7 +19669,7 @@
 <title>Build an Intelligence Advantage with Falcon Next-Gen SIEM</title>
 <link>https://www.crowdstrike.com/en-us/blog/build-intelligence-advantage-with-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 30 Oct 2026 20:37:50 +0000</pubDate>
+<pubDate>Sat, 31 Oct 2026 00:36:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/build-intelligence-advantage-with-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19674,7 +19678,7 @@
 <title>CrowdStrike Agent Graph Shows How Agents Act on the Endpoint</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-agent-graph-shows-how-agents-act-on-endpoint/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 30 Oct 2026 20:37:50 +0000</pubDate>
+<pubDate>Sat, 31 Oct 2026 00:36:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-agent-graph-shows-how-agents-act-on-endpoint/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19683,7 +19687,7 @@
 <title>VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign</title>
 <link>https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/</link>
 <description><![CDATA[<br/><br/><em>Tags: apt_espionage</em>]]></description>
-<pubDate>Fri, 30 Oct 2026 20:37:50 +0000</pubDate>
+<pubDate>Sat, 31 Oct 2026 00:36:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19693,7 +19697,7 @@
 <title>New Prompt Injection Techniques Cover Agent-Planning Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-prompt-injection-techniques-cover-agent-planning-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Fri, 30 Oct 2026 20:37:50 +0000</pubDate>
+<pubDate>Sat, 31 Oct 2026 00:36:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-prompt-injection-techniques-cover-agent-planning-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19703,7 +19707,7 @@
 <title>When AI Guardrails Expose Vulnerabilities</title>
 <link>https://www.crowdstrike.com/en-us/blog/when-ai-guardrails-expose-vulnerabilities/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 30 Oct 2026 20:37:50 +0000</pubDate>
+<pubDate>Sat, 31 Oct 2026 00:36:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/when-ai-guardrails-expose-vulnerabilities/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19712,7 +19716,7 @@
 <title>CrowdStrike 2026 Legal Threat Landscape Report: eCrime Leads Attacks, China Activity Intensifies</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-legal-threat-landscape-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 30 Oct 2026 20:37:50 +0000</pubDate>
+<pubDate>Sat, 31 Oct 2026 00:36:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-legal-threat-landscape-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19721,7 +19725,7 @@
 <title>Obstacles to Weaponizing PHP2Shell Likely Constrain Immediate Widespread Exploitation</title>
 <link>https://www.crowdstrike.com/en-us/blog/obstacles-to-weaponizing-php2shell-likely-constrain-exploitation/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 30 Oct 2026 20:37:50 +0000</pubDate>
+<pubDate>Sat, 31 Oct 2026 00:36:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/obstacles-to-weaponizing-php2shell-likely-constrain-exploitation/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19730,7 +19734,7 @@
 <title>Why Organizations Secure AI Agents with Falcon Guardian</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 30 Oct 2026 20:37:50 +0000</pubDate>
+<pubDate>Sat, 31 Oct 2026 00:36:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19739,20 +19743,10 @@
 <title>CrowdStrike Protects Customers from Threats Delivered via PHP2Shell</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-protects-customers-from-php-rce-zero-days/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 30 Oct 2026 20:37:50 +0000</pubDate>
+<pubDate>Sat, 31 Oct 2026 00:36:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-protects-customers-from-php-rce-zero-days/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>ShinyHunters Renewed Mass Exploitation Campaign Targeting Oracle PeopleSoft</title>
-<link>https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-renewed-mass-exploitation-campaign-targeting-oracle-peoplesoft/</link>
-<description><![CDATA[<br/><br/><em>Tags: ShinyHunters</em>]]></description>
-<pubDate>Fri, 30 Oct 2026 20:37:50 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-renewed-mass-exploitation-campaign-targeting-oracle-peoplesoft/</guid>
-<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
-<category>threat_research_primary</category>
-<category>ShinyHunters</category>
 </item>
 </channel>
 </rss>
