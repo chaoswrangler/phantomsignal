@@ -6,9 +6,50 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 01 Nov 2026 02:02:08 +0000</lastBuildDate>
+<lastBuildDate>Sun, 01 Nov 2026 09:02:19 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Week in review: Binance hit by $6.3 billion theft, impact of Brotli vulnerability</title>
+<link>https://www.helpnetsecurity.com/2026/11/01/week-in-review-binance-hit-by-6-3-billion-theft-impact-of-brotli-vulnerability/</link>
+<description><![CDATA[Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: r/opensource bans AI projects, and solo devs go down with them Moderators of r/opensource, Reddit’s catch-all forum for open source software, have barred any project that “uses AI, is made by AI, or is intended for AI.” Moderator Wolvereness announced the rules in a post over the weekend. AI slop is piling up highest on the biggest open-source projects The … More → The post Week in review: Binance hit by $6.3 billion theft, impact of Brotli vulnerability appeared first on Help Net Security .<br/><br/><em>Tags: GitHub · Microsoft 365 · Google Workspace</em>]]></description>
+<pubDate>Sun, 01 Nov 2026 09:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/11/01/week-in-review-binance-hit-by-6-3-billion-theft-impact-of-brotli-vulnerability/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>GitHub</category>
+<category>Microsoft 365</category>
+<category>Google Workspace</category>
+</item>
+<item>
+<title>Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script</title>
+<link>https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html</link>
+<description><![CDATA[Malicious code on the website of prediction market Polymarket sold some signed-in traders&apos; positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company. Polymarket says it is refunding about $2.7 million to 726 affected wallets. Blockchain records show crypto worth about $2.64 million reached]]></description>
+<pubDate>Sun, 01 Nov 2026 07:25:40 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection</title>
+<link>https://thehackernews.com/2026/11/netamloader-malware-targets-government.html</link>
+<description><![CDATA[Cybersecurity researchers have disclosed details of what has been described as a &quot;highly sophisticated infection chain&quot; targeting government organizations in Asia. The activity, detailed by Kaspersky this week, targeted a custom Windows 10 build used exclusively by government entities in Asia and involves the deployment of a previously undocumented .NET assembly-loading framework codenamed<br/><br/><em>Tags: Microsoft Windows</em>]]></description>
+<pubDate>Sun, 01 Nov 2026 07:02:58 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/11/netamloader-malware-targets-government.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>Microsoft Windows</category>
+</item>
+<item>
+<title>FBI Links North Korea&apos;s TraderTraitor to Record $6.43 Billion Binance Crypto Heist</title>
+<link>https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html</link>
+<description><![CDATA[The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899. The FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI), said it<br/><br/><em>Tags: UNC4899</em>]]></description>
+<pubDate>Sun, 01 Nov 2026 06:44:27 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>UNC4899</category>
+</item>
 <item>
 <title>How We Took Over ChatGPT Accounts</title>
 <link>https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/</link>
@@ -31,15 +72,15 @@
 <item>
 <title>New Android SMS of Death exploit can remotely crash unpatched phones</title>
 <link>https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/</link>
-<description><![CDATA[A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed &quot;SMS of Death&quot; and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]<br/><br/><em>Tags: Android · CVE-2026-58882 · zero_day · ddos</em>]]></description>
+<description><![CDATA[A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed &quot;SMS of Death&quot; and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]<br/><br/><em>Tags: Android · Microsoft 365 · Google Workspace · CVE-2026-58882 · phishing_social_eng · zero_day · ddos</em>]]></description>
 <pubDate>Sat, 31 Oct 2026 15:35:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
 <category>Android</category>
+<category>Microsoft 365</category>
+<category>Google Workspace</category>
 <category>CVE-2026-58882</category>
-<category>zero_day</category>
-<category>ddos</category>
 </item>
 <item>
 <title>From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.</title>
@@ -112,14 +153,14 @@
 <item>
 <title>Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access</title>
 <link>https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html</link>
-<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild. The vulnerabilities are listed below - CVE-2026-111357 (CVSS score: 8.8) - A missing authentication for a critical function vulnerability that could allow a<br/><br/><em>Tags: Ivanti · OpenAI/ChatGPT · Anthropic/Claude · CVE-2026-111357 · CVE-2026-118527 · CVE-2026-104935 · apt_espionage · web_shell_backdoor</em>]]></description>
+<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild. The vulnerabilities are listed below - CVE-2026-111357 (CVSS score: 8.8) - A missing authentication for a critical function vulnerability that could allow a<br/><br/><em>Tags: Ivanti · GitHub · Linux kernel · CVE-2026-111357 · CVE-2026-118527 · CVE-2026-104935 · credential_theft · apt_espionage</em>]]></description>
 <pubDate>Sat, 31 Oct 2026 08:27:43 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>Ivanti</category>
-<category>OpenAI/ChatGPT</category>
-<category>Anthropic/Claude</category>
+<category>GitHub</category>
+<category>Linux kernel</category>
 <category>CVE-2026-111357</category>
 </item>
 <item>
@@ -476,16 +517,6 @@
 <category>active_exploitation</category>
 </item>
 <item>
-<title>Claude vs Code Extension compromised</title>
-<link>https://www.reddit.com/r/netsec/comments/1xjeb39/claude_vs_code_extension_compromised/</link>
-<description><![CDATA[Please be aware of this. submitted by /u/Alfrede81 [link] [comments]<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
-<pubDate>Fri, 30 Oct 2026 12:41:26 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1xjeb39/claude_vs_code_extension_compromised/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>Anthropic/Claude</category>
-</item>
-<item>
 <title>Bedrock Data routes data exposure fixes to owners and verifies results</title>
 <link>https://www.helpnetsecurity.com/2026/10/30/bedrock-data-ai-assisted-remediation/</link>
 <description><![CDATA[Bedrock Data has announced AI-assisted remediation, which federates the work of fixing data exposure to the data owners across the enterprise. Bedrock Data discovers who owns each exposed dataset, opens a ticket for that owner in the Jira or ServiceNow workflow the enterprise already runs and supplies the context needed to fix it. When the owner closes the ticket, Bedrock Data validates that the exposure is remediated and reopens the ticket if it is not. … More → The post Bedrock Data routes data exposure fixes to owners and verifies results appeared first on Help Net Security .<br/><br/><em>Tags: data_breach</em>]]></description>
@@ -676,14 +707,14 @@
 <item>
 <title>CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV</title>
 <link>https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html</link>
-<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-97229 (CVSS score: 10.0) - An integer overflow or wraparound vulnerability in GitLab Community Edition and Enterprise<br/><br/><em>Tags: GitLab · Cisco · OpenAI/ChatGPT · CVE-2026-97229 · CVE-2026-76418 · data_breach · ddos · web_shell_backdoor</em>]]></description>
+<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-97229 (CVSS score: 10.0) - An integer overflow or wraparound vulnerability in GitLab Community Edition and Enterprise<br/><br/><em>Tags: GitLab · Cisco · GitHub · CVE-2026-97229 · CVE-2026-76418 · credential_theft · zero_day · ddos</em>]]></description>
 <pubDate>Fri, 30 Oct 2026 07:27:05 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>GitLab</category>
 <category>Cisco</category>
-<category>OpenAI/ChatGPT</category>
+<category>GitHub</category>
 <category>CVE-2026-97229</category>
 </item>
 <item>
@@ -703,15 +734,6 @@
 <description><![CDATA[Gartner recently released a new category of assessing security tools: the Integrated Security Operations Center (ISOC). Even though SIEM isn’t going anywhere, a rapidly evolving threat landscape is forcing a shift in industry logic that is reflected in the emergence of this new category. For years, SIEM has dominated as an all-encompassing category. But SIEMs are no longer sufficient to collect data, support investigations, and manage incidents; instead, the SIEM has separated into distinct architectural … More → The post What exactly is ISOC? And what does it mean for you? appeared first on Help Net Security .]]></description>
 <pubDate>Fri, 30 Oct 2026 06:00:14 +0000</pubDate>
 <guid isPermaLink="true">https://www.helpnetsecurity.com/2026/10/30/stellar-cyber-integrated-security-operations-center/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Smart TVs can harbor unpatched security flaws and track what you watch</title>
-<link>https://www.helpnetsecurity.com/2026/10/30/bitdefender-smart-tvs-vulnerabilities-report/</link>
-<description><![CDATA[Smart TVs and connected plugs accounted for a large share of recorded security weaknesses in household devices, according to Bitdefender’s 2026 IoT Security Landscape Report. The analysis covered approximately 10.4 million protected home routers between January and September. Televisions represented 22.7% of vulnerability observations, followed by smart plugs at 22.4% linked with a known software flaw. Top vulnerable device families (Source: Bitdefender) Household electronics can stay in use for five to ten years, while their … More → The post Smart TVs can harbor unpatched security flaws and track what you watch appeared first on Help Net Security .]]></description>
-<pubDate>Fri, 30 Oct 2026 05:00:27 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/10/30/bitdefender-smart-tvs-vulnerabilities-report/</guid>
 <source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
 <category>cyber_news_breach_reporting</category>
 </item>
@@ -857,7 +879,7 @@
 <item>
 <title>Cloud CISO Perspectives: Introducing new $250,000 tier for Google Cloud VRP (Q&amp;A)</title>
 <link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-introducing-new-tier-for-google-cloud-vrp/</link>
-<description><![CDATA[Welcome to the second Cloud CISO Perspectives for October 2026. Today, Chris Betz talks with Michael Cote, our vulnerability rewards program lead, about the new tier of our Cloud VRP program and the current state of vulnerability rewards. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f90d82c6650&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, None)])]&gt; Why we&apos;ve created a new $250,000 tier for Google Cloud VRP (Q&amp;A) By Chris Betz, CISO, Google Cloud The Google Cloud Vulnerability Re<br/><br/><em>Tags: Google Cloud</em>]]></description>
+<description><![CDATA[Welcome to the second Cloud CISO Perspectives for October 2026. Today, Chris Betz talks with Michael Cote, our vulnerability rewards program lead, about the new tier of our Cloud VRP program and the current state of vulnerability rewards. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f55d9c0f510&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, None)])]&gt; Why we&apos;ve created a new $250,000 tier for Google Cloud VRP (Q&amp;A) By Chris Betz, CISO, Google Cloud The Google Cloud Vulnerability Re<br/><br/><em>Tags: Google Cloud</em>]]></description>
 <pubDate>Thu, 29 Oct 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-introducing-new-tier-for-google-cloud-vrp/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
@@ -1137,13 +1159,13 @@
 <item>
 <title>China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility</title>
 <link>https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html</link>
-<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. legal sector. The vulnerability in question is CVE-2026-41709 (CVSS score:<br/><br/><em>Tags: Citrix · OpenAI/ChatGPT · Ivanti · UNC5221 · CVE-2026-41709 · CVE-2026-102764 · zero_day · apt_espionage</em>]]></description>
+<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. legal sector. The vulnerability in question is CVE-2026-41709 (CVSS score:<br/><br/><em>Tags: Citrix · GitHub · Ivanti · UNC5221 · CVE-2026-41709 · CVE-2026-102764 · zero_day · apt_espionage</em>]]></description>
 <pubDate>Thu, 29 Oct 2026 06:22:33 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>Citrix</category>
-<category>OpenAI/ChatGPT</category>
+<category>GitHub</category>
 <category>Ivanti</category>
 <category>UNC5221</category>
 </item>
@@ -1786,36 +1808,6 @@
 <source url="https://securelist.com/feed/">Kaspersky Securelist</source>
 <category>threat_research_primary</category>
 <category>Kubernetes</category>
-</item>
-<item>
-<title>Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key</title>
-<link>https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html</link>
-<description><![CDATA[An attacker who gained access to Keystone&apos;s website obtained the key that its hardware wallets use to prove they are genuine, the company said in a statement on October 26. Someone with that key could build counterfeit devices that pass the online check owners use to verify a Keystone. A buyer who trusted a counterfeit could have their crypto stolen, but the incident did not involve]]></description>
-<pubDate>Tue, 27 Oct 2026 11:46:00 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>AI-Generated Fake Login Pages Are Making Account Takeovers Easier</title>
-<link>https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html</link>
-<description><![CDATA[Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing attempts to specific employees or organizations. Some fake login pages go beyond stealing passwords. They can also capture MFA codes or hijack authenticated sessions, allowing attackers to gain<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Tue, 27 Oct 2026 11:32:46 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
-<title>Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption</title>
-<link>https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html</link>
-<description><![CDATA[The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-communication equipment manufacturing sectors. According to Russian cybersecurity company Kaspersky, the campaign has been active since at least July 2025. It&apos;s assessed to pick up<br/><br/><em>Tags: Lazarus · apt_espionage</em>]]></description>
-<pubDate>Tue, 27 Oct 2026 11:32:31 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>Lazarus</category>
-<category>apt_espionage</category>
 </item>
 <item>
 <title>Hiding Capabilities in AI Models</title>
@@ -11304,15 +11296,6 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Welcoming the Nepalese Government to Have I Been Pwned</title>
-<link>https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/</link>
-<description><![CDATA[Today, we welcome the 47th government onboarded to Have I Been Pwned’s free gov service: Nepal. Their National Cyber Security Centre now has access to monitor Nepalese government domains against the data in HIBP. This gives the NCSC the ability to identify exposure across government email addresses and]]></description>
-<pubDate>Mon, 03 Aug 2026 06:38:05 +0000</pubDate>
-<guid isPermaLink="true">https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/</guid>
-<source url="https://www.troyhunt.com/rss/">Troy Hunt</source>
-<category>practitioner_analysis</category>
-</item>
-<item>
 <title>Risky Bulletin: Anthropic models also did the hacky-hacky</title>
 <link>https://risky.biz/RBNEWS595/</link>
 <description><![CDATA[Anthropic models also did the hacky-hacks, Coldcard was hacked for $70 million in Bitcoin, npm adds publish-time malware scanning, and Russia is behind the recent hotel WiFi hacks.<br/><br/><em>Tags: npm · Anthropic/Claude</em>]]></description>
@@ -19667,7 +19650,7 @@
 <title>CrowdStrike Expands Falcon Adversary OverWatch Threat Hunting Across AI and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-threat-hunting-across-ai-and-google-cloud/</link>
 <description><![CDATA[<br/><br/><em>Tags: Google Cloud</em>]]></description>
-<pubDate>Sun, 01 Nov 2026 02:02:08 +0000</pubDate>
+<pubDate>Sun, 01 Nov 2026 09:02:19 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-threat-hunting-across-ai-and-google-cloud/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19677,7 +19660,7 @@
 <title>Build an Intelligence Advantage with Falcon Next-Gen SIEM</title>
 <link>https://www.crowdstrike.com/en-us/blog/build-intelligence-advantage-with-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 01 Nov 2026 02:02:08 +0000</pubDate>
+<pubDate>Sun, 01 Nov 2026 09:02:19 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/build-intelligence-advantage-with-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19686,7 +19669,7 @@
 <title>CrowdStrike Agent Graph Shows How Agents Act on the Endpoint</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-agent-graph-shows-how-agents-act-on-endpoint/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 01 Nov 2026 02:02:08 +0000</pubDate>
+<pubDate>Sun, 01 Nov 2026 09:02:19 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-agent-graph-shows-how-agents-act-on-endpoint/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19695,7 +19678,7 @@
 <title>VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign</title>
 <link>https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/</link>
 <description><![CDATA[<br/><br/><em>Tags: apt_espionage</em>]]></description>
-<pubDate>Sun, 01 Nov 2026 02:02:08 +0000</pubDate>
+<pubDate>Sun, 01 Nov 2026 09:02:19 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19705,7 +19688,7 @@
 <title>New Prompt Injection Techniques Cover Agent-Planning Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-prompt-injection-techniques-cover-agent-planning-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Sun, 01 Nov 2026 02:02:08 +0000</pubDate>
+<pubDate>Sun, 01 Nov 2026 09:02:19 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-prompt-injection-techniques-cover-agent-planning-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19715,7 +19698,7 @@
 <title>When AI Guardrails Expose Vulnerabilities</title>
 <link>https://www.crowdstrike.com/en-us/blog/when-ai-guardrails-expose-vulnerabilities/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 01 Nov 2026 02:02:08 +0000</pubDate>
+<pubDate>Sun, 01 Nov 2026 09:02:19 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/when-ai-guardrails-expose-vulnerabilities/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19724,7 +19707,7 @@
 <title>CrowdStrike 2026 Legal Threat Landscape Report: eCrime Leads Attacks, China Activity Intensifies</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-legal-threat-landscape-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 01 Nov 2026 02:02:08 +0000</pubDate>
+<pubDate>Sun, 01 Nov 2026 09:02:19 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-legal-threat-landscape-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19733,7 +19716,7 @@
 <title>Obstacles to Weaponizing PHP2Shell Likely Constrain Immediate Widespread Exploitation</title>
 <link>https://www.crowdstrike.com/en-us/blog/obstacles-to-weaponizing-php2shell-likely-constrain-exploitation/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 01 Nov 2026 02:02:08 +0000</pubDate>
+<pubDate>Sun, 01 Nov 2026 09:02:19 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/obstacles-to-weaponizing-php2shell-likely-constrain-exploitation/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19742,7 +19725,7 @@
 <title>Why Organizations Secure AI Agents with Falcon Guardian</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 01 Nov 2026 02:02:08 +0000</pubDate>
+<pubDate>Sun, 01 Nov 2026 09:02:19 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19751,7 +19734,7 @@
 <title>CrowdStrike Protects Customers from Threats Delivered via PHP2Shell</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-protects-customers-from-php-rce-zero-days/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 01 Nov 2026 02:02:08 +0000</pubDate>
+<pubDate>Sun, 01 Nov 2026 09:02:19 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-protects-customers-from-php-rce-zero-days/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
