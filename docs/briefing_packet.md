@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-11-02T00:29:10.098310+00:00
+- Generated: 2026-11-02T07:31:17.245751+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 75
+- Feeds OK: 76
 - Total items in window: 352
-- Total clusters raw: 157
-- Total clusters in packet: 67
-- Dropped low score: 90
+- Total clusters raw: 154
+- Total clusters in packet: 63
+- Dropped low score: 91
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,16 +70,16 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
@@ -90,108 +90,118 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
   - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: fetch_error
   - Item count: 0
   - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 6
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 1
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 5
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 6
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
   - Status: ok
-  - Item count: 10
+  - Item count: 50
+  - In window count: 1
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
   - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 1
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 5
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
-  - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
@@ -200,23 +210,8 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -225,46 +220,51 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 1
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
   - In window count: 5
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 5
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 3
-- **Google Project Zero** (offensive_vulnerability_research)
-  - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - In window count: 4
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -275,78 +275,78 @@
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
+- **Google Project Zero** (offensive_vulnerability_research)
+  - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
   - Status: ok
   - Item count: 10
-  - In window count: 6
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
+  - In window count: 1
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 5
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 16
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 50
   - In window count: 2
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -355,51 +355,61 @@
   - Status: ok
   - Item count: 20
   - In window count: 20
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
-  - Item count: 30
-  - In window count: 16
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 26
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
+  - Item count: 100
   - In window count: 5
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
   - Status: ok
-  - Item count: 100
+  - Item count: 10
   - In window count: 5
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 0
+  - Item count: 10
   - In window count: 0
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 26
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
@@ -420,31 +430,21 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 50
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 27
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsec/.rss
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 25
+  - In window count: 24
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -455,16 +455,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Just Security** (policy_strategy_geopolitics)
-  - URL: https://www.justsecurity.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
   - In window count: 6
+- **Just Security** (policy_strategy_geopolitics)
+  - URL: https://www.justsecurity.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
@@ -492,7 +492,7 @@
 - Cluster IDs: 8df24b48a3, bce7fc7634, 780c7035c3, 3f5fef5144, 084d29f299
 - Links:
   - https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/
-  - https://www.helpnetsecurity.com/2026/10/30/cisco-talos-it-help-desk-vishing/
+  - https://www.helpnetsecurity.com/2026/11/02/product-showcase-trust-onion/
   - https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html
   - https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html
   - https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html
@@ -637,6 +637,27 @@
   - https://www.helpnetsecurity.com/2026/11/01/week-in-review-binance-hit-by-6-3-billion-theft-impact-of-brotli-vulnerability/
   - https://www.huntress.com/blog/connectwise-attack-ai
 
+### CVE-2026-111497 exploitation activity
+- Anchor signal: CVE-2026-111497
+- Theme key: cve-2026-111497
+- Cluster count: 2
+- Article count: 7
+- Cohesion: 0.2
+- Shared strong signals: CVE-2026-111497
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - cve_ids: CVE-2026-111497
+- Cluster IDs: 01d94b3234, 7c05dcf692
+- Links:
+  - https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder
+  - https://webflow.sysdig.com/blog/node2shell-cve-2026-111497-detecting-the-node-js-brotli-rce
+  - https://www.sophos.com/en-us/blog/node2shell-cve-2026-111497-in-active-exploitation
+  - https://orca.security/resources/research/cve-2026-111497-nodejs-brotli-rce/
+  - https://securitylabs.datadoghq.com/articles/node2shell-cve-2026-111497-nodejs-brotli-decoder/
+  - https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html
+  - https://www.infosecurity-magazine.com/news/microsoft-patch-update-net-flaw/
+
 ### CVE-2026-102764 exploitation activity
 - Anchor signal: CVE-2026-102764
 - Theme key: cve-2026-102764
@@ -652,6 +673,30 @@
 - Links:
   - https://www.rapid7.com/blog/post/ra-rapid7-analysis-unauthenticated-file-upload-to-rce-in-beyondtrust-remote-support-cve-2026-102764
   - https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html
+
+### CVE-2026-98432 exploitation activity
+- Anchor signal: CVE-2026-98432
+- Theme key: cve-2026-98432
+- Cluster count: 2
+- Article count: 19
+- Cohesion: 0.526
+- Shared strong signals: CVE-2026-98432
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - cve_ids: CVE-2026-98432
+- Cluster IDs: e2ef42690e, 675ec193fb
+- Links:
+  - https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/
+  - https://research.checkpoint.com/2026/tricks-from-the-past-deployed-via-signed-chatgpt-and-claude-binaries/
+  - https://www.sophos.com/en-us/blog/malicious-claude-code-extension-distributed-through-cursor-marketplace
+  - https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/
+  - https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html
+  - https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/
+  - https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/
+  - https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor
+  - https://www.infosecurity-magazine.com/news/attackers-hide-malware-behind/
+  - https://www.reddit.com/r/blueteamsec/comments/1xkx5vf/netprobecve202698432_you_should_patch_but_not/
 
 ### apt espionage targeting Ivanti
 - Anchor signal: Ivanti
@@ -671,6 +716,23 @@
   - https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html
   - https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html
 
+### Okta vulnerability activity
+- Anchor signal: Okta
+- Theme key: okta
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.455
+- Shared strong signals: Okta
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_industries: government
+  - affected_products: Okta
+- Cluster IDs: 3dc126ab3a, cd1d6d7c27
+- Links:
+  - https://www.bitdefender.com/en-us/blog/hotforsecurity/hackers-leak-41-000-dhs-staff-data
+  - https://cyberscoop.com/dhs-employee-data-leak-ddosecrets/
+
 ### Salt Typhoon: apt espionage
 - Anchor signal: Salt Typhoon
 - Theme key: salt-typhoon
@@ -687,23 +749,6 @@
 - Links:
   - https://www.team-cymru.com/post/defense-industrial-base-nation-state-network-telemetry
   - https://blog.talosintelligence.com/ir-trends-q3-2026/
-
-### AWS vulnerability activity
-- Anchor signal: AWS
-- Theme key: aws
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.2
-- Shared strong signals: AWS
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_industries: government
-  - affected_products: AWS
-- Cluster IDs: 9839749b4a, 2847ac33bb
-- Links:
-  - https://www.rapid7.com/blog/post/pt-insightgovcloud-supports-bod-22-01-compliance
-  - https://www.infosecurity-magazine.com/news/php-publishes-mitigation-advice/
 
 ## Forward signals
 
@@ -753,7 +798,7 @@
 - Pair: CVE-2026-97229 + GitHub (cluster 780c7035c3, first observation: True)
 - Pair: CVE-2026-104935 + GitHub (cluster 25ea49968b, first observation: True)
 
-### Drift (6)
+### Drift (5)
 - **ShinyHunters** (cluster 360482c4b0)
   - New industries: education
   - New products: (none)
@@ -779,11 +824,6 @@
   - New products: (none)
   - Prior top industries: aviation_defense, critical_infrastructure, government
   - Prior top products: (none)
-- **APT38** (cluster aa6465f45c)
-  - New industries: government
-  - New products: (none)
-  - Prior top industries: financial_services
-  - Prior top products: (none)
 
 ### Persistence (15)
 - actor_attribution: ShinyHunters (weeks observed: 13, cluster 360482c4b0)
@@ -802,23 +842,11 @@
 - cve_ids: CVE-2026-108097 (weeks observed: 3, cluster 3f5fef5144)
 - cve_ids: CVE-2026-110264 (weeks observed: 3, cluster f576445f64)
 
-### Tier inversion (4)
-- **Stopping Remote Code Execution with Sandboxes, CVE-2026-115995: Rust Zip**
-  - Cluster: 24d8131bb5
-  - Primary source: Reddit r/netsec
-  - Strong signals: CVE-2026-115995
-- **Mirage2FA stole 4,561 M365 session cookies despite MFA via AiTM proxy (CVE-2026-69836 CVSS 10.0) : detection rules and WHfB/Cloud Kerberos Trust hardening guide**
-  - Cluster: d797e0f3c5
-  - Primary source: Reddit r/netsec
-  - Strong signals: CVE-2026-69836
-- **TeamViewer RCE Vulnerability (CVE-2026-11585)**
-  - Cluster: fcee7a9b28
-  - Primary source: Reddit r/netsec
-  - Strong signals: CVE-2026-11585
-- **Axis Camera Station Deep-Dive: Unauth RCE to Decrypting Every Camera Credential (CVE-2025-30026/30023 + CVE-2026-63286)**
-  - Cluster: 5cefe132d9
-  - Primary source: Reddit r/netsec
-  - Strong signals: CVE-2025-30026, CVE-2026-63286
+### Tier inversion (1)
+- **netprobe-cve-2026-98432: You should patch, but not worry about CVE-2026-98432**
+  - Cluster: 675ec193fb
+  - Primary source: Reddit r/blueteamsec
+  - Strong signals: CVE-2026-98432
 
 ## Clusters
 
@@ -922,10 +950,10 @@ NIK C2: The new AI-enabled command-and-control framework By Chetan Raghuprasad T
   - Link: https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/
   - Summary: Cisco Talos observed a new AI-integrated command-and-control (C2) framework in the wild called “NIK C2.”
 - **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Fake IT help desk callers got by on little more than names and email addresses
-  - Published: 2026-10-30T06:30:26+00:00
-  - Link: https://www.helpnetsecurity.com/2026/10/30/cisco-talos-it-help-desk-vishing/
-  - Summary: Attackers posing as IT help desk staff contacted employees by phone, email and Microsoft Teams in the third quarter of 2026 and talked them into opening remote access sessions, Cisco Talos Incident Response (Talos IR) found across several engagements. In one case, that access ended in ransomware. They knew names and email addresses “The attackers appeared to know employee names and email addresses, as they contacted users directly by email and Teams and used identities … More → The post Fake IT help desk callers got by on little more than names and email addresses appeared first on Help Net Security .
+  - Title: Product showcase: Trust Onion uses rotating codewords to verify callers
+  - Published: 2026-11-02T05:30:38+00:00
+  - Link: https://www.helpnetsecurity.com/2026/11/02/product-showcase-trust-onion/
+  - Summary: Trust Onion is a free app that gives trusted groups three rotating codewords to check who they are communicating with. It also includes signed selfies, message checks, and callback requests. It is available for macOS, iOS, and Android. I tested the iPhone app with an older person, exploring setup and the tools available when a call or message raises concerns. Verification matters when someone asks for money, access, or information. Cisco Talos documented attackers posing … More → The post Product showcase: Trust Onion uses rotating codewords to verify callers appeared first on Help Net Security .
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys
   - Published: 2026-10-29T08:24:22+00:00
@@ -1637,6 +1665,45 @@ Threat Intelligence ARTEX and Friends: Enter Agentic Offensive Frameworks Octobe
   - Link: https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks/
   - Summary: Written by: Aurora Blum, David Mainor, Rohit Nambiar, Omar ElAhdan, Matthew McWhirt, Will Silverstone, Bhavesh Dhake, Chris Busse Introduction Recent intrusions in which threat actors have been observed weaponizing agentic frameworks to execute highly-automated intrusions has put a spotlight on evolving adversarial use of LLMs. In our September 2026 report , Google Threat Intelligence Group (GTIG) noted that forward leaning adversaries were beginning to transition from basic prompting to agentic workflows and LLM-enabled automation. Since this publication, GTIG and Mandiant have observed multiple threat actors abusing the open-source, agentic pentesting frameworks ARTEX, Hexstrike and CAIRN in incident response engagements to conduct a broad range of actions across multiple phases of the attack life cycle. This activity has been seen across the threat landscape, as noted in a recent Wiz report . The emergence of Artex and similar agentic offensive intrusion frameworks underscores a bro
 
+### Cluster cc0a050b9a — score 14
+
+- Title: Why Old Vulnerability Management Habits Keep Rising from the Grave
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-10-29T14:25:00+00:00
+- Link: https://horizon3.ai/intelligence/blogs/old-vulnerability-management-habits-ctem/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Three customer stories show how to keep severity-only priorities and closed-ticket counts from undermining your CTEM program by tying findings to attack paths and verifying fixes.
+```
+
+#### Full body
+
+```
+Why Old Vulnerability Management Habits Keep Rising from the Grave Stephen Gates October 29, 2026 Blogs Three customer stories show how to keep outdated practices from undermining your CTEM program. You adopted Continuous Threat Exposure Management (CTEM). So why do the same old vulnerability management habits keep rising from the grave? AI is adding urgency to a familiar debate: is vulnerability management dead? Discovery, patching, and remediation remain essential. What needs to change is how organizations decide what to fix and establish whether that work reduced exposure. Yet the way many organizations report progress still rewards the old habits. Reporting day arrives, and there they are: severity scores alone driving priorities, closed tickets standing in for reduced risk, and a smaller backlog passing for proof of security. Those habits persist because adopting a framework is easier than changing how an organization makes decisions. Completing the work does not prove that it changed what an attacker could achieve. Throughout this series, we have examined how to operationalize CTEM, why validation matters, and how to measure results. Now comes the practical test: are those principles changing what teams do? Three customer stories show where to start. What’s Lurking Behind an Individual Finding? Remediation queues divide work into individual findings, each with a severity, an owner, and a deadline. That helps organize tasks, but it can separate a weakness from the attack path that makes it consequential. A major equipment rental company encountered this when an employee started a PHP web server for testing in the root directory. The change exposed SSH key pairs, creating an opportunity for lateral movement. NodeZero® surfaced the issue roughly eight hours after it was introduced. The problem extended beyond the server configuration. Which systems accepted those keys? What privileges did they provide? What could an attacker reach? Those answers determine what needs to change. Removing the exposed files, for example, would not address the possibility that someone had already obtained usable keys. Remediation must account for the access those credentials enable. This matters when security identifies the exposure but infrastructure, application, or identity teams own the fix. Give those teams the attack path, the evidence, and the fix guidance. Each owner should understand how their action contributes to preventing the demonstrated impact. The same evidence can reveal problems that individual tickets conceal. Repeatedly exposed secrets may point to a deployment practice that needs correction. Repeated privilege escalation may indicate excessive permissions that require broader attention. That is how one CTEM cycle informs the next. Fix the immediate exposure, then use what you learned to address the conditions that keep producing it. You Don’t Need to Bury Every Finding to Reduce Exposure A global investment firm offers a useful challenge to conventional vulnerability reporting. After remediation, a follow-up NodeZero pentest covering the same scope still identified 46 minor weaknesses. Yet demonstrated impacts fell from 251 to zero. Compromised hosts dropped from 67 to zero, and compromised credentials fell from 52 to zero. The backlog was not empty. The remediation had still changed what an attacker could achieve in the test. Vulnerable does not equal exploitable. Exploitable does not equal impact. For this firm, that distinction was measurable. The same-scope retest demonstrated that the previous compromise outcomes were no longer achievable. The team could show meaningful progress without claiming a flawless environment. That evidence supports better decisions about the next round of work. Which impacts remain possible? Which critical systems or sensitive data are still reachable? Where would another intervention reduce the greatest exposure? Remaining findings still need appropriate treatment. Threat intelligence, asset
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Why Old Vulnerability Management Habits Keep Rising from the Grave
+  - Published: 2026-10-29T14:25:00+00:00
+  - Link: https://horizon3.ai/intelligence/blogs/old-vulnerability-management-habits-ctem/
+  - Summary: Three customer stories show how to keep severity-only priorities and closed-ticket counts from undermining your CTEM program by tying findings to attack paths and verifying fixes.
+
 ### Cluster 862a80147d — score 14
 
 - Title: Millions of security cameras at risk: DoS vulnerability in Intelbras devices
@@ -1681,45 +1748,6 @@ Table of Contents Background Firmware How authentication works Affected endpoint
   - Published: 2026-10-28T10:00:18+00:00
   - Link: https://securelist.com/intelbras-camera-vulnerability/121131/
   - Summary: During our research, we discovered a denial-of-service vulnerability that could affect millions of Intelbras IP camera systems built on the platform platform of a popular Chinese manufacturer.
-
-### Cluster cc0a050b9a — score 14
-
-- Title: Why Old Vulnerability Management Habits Keep Rising from the Grave
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-10-29T14:25:00+00:00
-- Link: https://horizon3.ai/intelligence/blogs/old-vulnerability-management-habits-ctem/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Three customer stories show how to keep severity-only priorities and closed-ticket counts from undermining your CTEM program by tying findings to attack paths and verifying fixes.
-```
-
-#### Full body
-
-```
-Why Old Vulnerability Management Habits Keep Rising from the Grave Stephen Gates October 29, 2026 Blogs Three customer stories show how to keep outdated practices from undermining your CTEM program. You adopted Continuous Threat Exposure Management (CTEM). So why do the same old vulnerability management habits keep rising from the grave? AI is adding urgency to a familiar debate: is vulnerability management dead? Discovery, patching, and remediation remain essential. What needs to change is how organizations decide what to fix and establish whether that work reduced exposure. Yet the way many organizations report progress still rewards the old habits. Reporting day arrives, and there they are: severity scores alone driving priorities, closed tickets standing in for reduced risk, and a smaller backlog passing for proof of security. Those habits persist because adopting a framework is easier than changing how an organization makes decisions. Completing the work does not prove that it changed what an attacker could achieve. Throughout this series, we have examined how to operationalize CTEM, why validation matters, and how to measure results. Now comes the practical test: are those principles changing what teams do? Three customer stories show where to start. What’s Lurking Behind an Individual Finding? Remediation queues divide work into individual findings, each with a severity, an owner, and a deadline. That helps organize tasks, but it can separate a weakness from the attack path that makes it consequential. A major equipment rental company encountered this when an employee started a PHP web server for testing in the root directory. The change exposed SSH key pairs, creating an opportunity for lateral movement. NodeZero® surfaced the issue roughly eight hours after it was introduced. The problem extended beyond the server configuration. Which systems accepted those keys? What privileges did they provide? What could an attacker reach? Those answers determine what needs to change. Removing the exposed files, for example, would not address the possibility that someone had already obtained usable keys. Remediation must account for the access those credentials enable. This matters when security identifies the exposure but infrastructure, application, or identity teams own the fix. Give those teams the attack path, the evidence, and the fix guidance. Each owner should understand how their action contributes to preventing the demonstrated impact. The same evidence can reveal problems that individual tickets conceal. Repeatedly exposed secrets may point to a deployment practice that needs correction. Repeated privilege escalation may indicate excessive permissions that require broader attention. That is how one CTEM cycle informs the next. Fix the immediate exposure, then use what you learned to address the conditions that keep producing it. You Don’t Need to Bury Every Finding to Reduce Exposure A global investment firm offers a useful challenge to conventional vulnerability reporting. After remediation, a follow-up NodeZero pentest covering the same scope still identified 46 minor weaknesses. Yet demonstrated impacts fell from 251 to zero. Compromised hosts dropped from 67 to zero, and compromised credentials fell from 52 to zero. The backlog was not empty. The remediation had still changed what an attacker could achieve in the test. Vulnerable does not equal exploitable. Exploitable does not equal impact. For this firm, that distinction was measurable. The same-scope retest demonstrated that the previous compromise outcomes were no longer achievable. The team could show meaningful progress without claiming a flawless environment. That evidence supports better decisions about the next round of work. Which impacts remain possible? Which critical systems or sensitive data are still reachable? Where would another intervention reduce the greatest exposure? Remaining findings still need appropriate treatment. Threat intelligence, asset
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Why Old Vulnerability Management Habits Keep Rising from the Grave
-  - Published: 2026-10-29T14:25:00+00:00
-  - Link: https://horizon3.ai/intelligence/blogs/old-vulnerability-management-habits-ctem/
-  - Summary: Three customer stories show how to keep severity-only priorities and closed-ticket counts from undermining your CTEM program by tying findings to attack paths and verifying fixes.
 
 ### Cluster 5b26ff1d21 — score 13
 
@@ -1969,43 +1997,6 @@ Stephen Campbell 5 min read April 29, 2026 Targeting the Defense Industrial Base
   - Link: https://www.team-cymru.com/post/defense-industrial-base-nation-state-network-telemetry
   - Summary: Discover how nation-states target the Defense Industrial Base via pre-positioning. Learn why network telemetry is crucial to detect these hidden cyber threats.
 
-### Cluster 24d8131bb5 — score 11
-
-- Title: Stopping Remote Code Execution with Sandboxes, CVE-2026-115995: Rust Zip
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-10-29T16:18:52+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1xiohqc/stopping_remote_code_execution_with_sandboxes/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-115995
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- cve_ids: CVE-2026-115995
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- cve_ids: CVE-2026-115995
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-With AI platfforms, #vulnpocalypse, and supply chain attacks security teams and platform engineering teams heads are spinning. The two recent HIGH and CRITICAL CVEs in the rust zip make a great case study for how we can build more resilient, defendable, and secure platforms with Wasm Sandboxes: https://cosmonic.com/blog/stopping-remote-code-execution-with-a-sandbox/ submitted by /u/HectaMan [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: Stopping Remote Code Execution with Sandboxes, CVE-2026-115995: Rust Zip
-  - Published: 2026-10-29T16:18:52+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1xiohqc/stopping_remote_code_execution_with_sandboxes/
-  - Summary: With AI platfforms, #vulnpocalypse, and supply chain attacks security teams and platform engineering teams heads are spinning. The two recent HIGH and CRITICAL CVEs in the rust zip make a great case study for how we can build more resilient, defendable, and secure platforms with Wasm Sandboxes: https://cosmonic.com/blog/stopping-remote-code-execution-with-a-sandbox/ submitted by /u/HectaMan [link] [comments]
-
 ### Cluster 4b77037fd4 — score 10
 
 - Title: Unwrapping Retail Peak Season Cyber Threats
@@ -2202,89 +2193,183 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 26th Octob
   - Link: https://research.checkpoint.com/2026/26th-october-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 26th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Japanese cloud hosting provider Onamae Desktop Cloud has confirmed a cyberattack in which intruders compromised its infrastructure and installed malware on customer servers. More than 26,000 servers were potentially affected. The provider […] The post 26th October – Threat Intelligence Report appeared first on Check Point Research .
 
-### Cluster 364a564664 — score 10
+### Cluster 3f95e8e04b — score 10
 
-- Title: Unknown APT uses NetamLoader to attack a Win10 OS customized for governments in Asia
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-10-29T08:00:15+00:00
-- Link: https://securelist.com/netamloader/121676/
+- Title: This month in security with Tony Anscombe – October 2026 edition
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-10-30T15:03:14+00:00
+- Link: https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-october-2026/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, supply_chain
-- affected_industries: government
+- threat_categories: data_breach
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: supply_chain, apt_espionage
-- affected_industries: government
+- threat_categories: data_breach
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Kaspersky researchers analyze a complex targeted attack employing NetamLoader, a sophisticated malicious framework and targeting a customized government OS.
+The PHP2Shell disclosure and other major cybersecurity news this month brought into relief the need for well-thought-out cyber-readiness plans
 ```
 
 #### Full body
 
 ```
-Table of Contents Introduction Background Initial infection Stage 1 Step 1 Step 2 Step 3 Stage 2 XAML-2-1 XAML-2-2 .NET 1 Loader XAML-3 .NET 2 Plugin AES encryption scheme for network traffic Discovering proxies Execute downloaded XAML payload in an isolated AppDomain Infrastructure Victims Attribution Conclusions Indicators of Compromise File hashes File paths Domains and IPs Authors GReAT Introduction A couple of months ago, our research revealed a highly sophisticated infection chain and a complex .NET assembly-loading framework built on XAML markup, which strongly indicates a supply-chain attack targeting a custom Windows build used exclusively by government entities in Asia. The malicious framework has been labeled NetamLoader; at present, no attribution to any known APT group has been established. The sample came to light in the first half of 2026, when Kaspersky Security Network (KSN) issued a malware detection alert for a .config file using AppDomainManager injection to load arbitrary .NET assemblies. The file was packaged inside a CAB archive placed in the directory that stores Windows operating system update packages. Initial analysis of the CAB contents found no malicious code: most executables were legitimate components of the third-party patch management tool Patch My PC, and even the .NET assemblies used for the injection were Microsoft-signed. A later re-examination of the original .config file and the full loading process revealed the infection chain and framework described in this report. Kaspersky’s products detect this threat as HEUR:Trojan.MSIL.NetamLoader.gen, Trojan.MSIL.Zapchast.*, and Trojan.Script.Agent.*. Background During routine threat hunting, KSN sent us a malware detection alert. The notification flagged a .config file that employed AppDomainManager injection to load arbitrary .NET assemblies. The file was compressed into a CAB archive named e4537a1762fcafd2fd96bfc825bad34f9db9a24d and saved in the folder that stores Windows operating system update packages. Below is the full path to this archive: C:\Windows\SoftwareDistribution\Download\e4537a1762fcafd2fd96bfc825bad34f9db9a24d 1 C : \ Windows \ SoftwareDistribution \ Download \ e4537a1762fcafd2fd96bfc825bad34f9db9a24d Starting with this CAB archive, we uncovered a highly complex infection chain that uses a previously unknown advanced loading framework. Initial infection The CAB file contains the following seven files, which are extracted and placed in the path C:\Windows\SoftwareDistribution\Download\Install\: Files compressed in the CAB file Except for Resources.resx, none of the files contain malicious code. We did not observe how the CAB file was delivered to the victim; we only saw the process PatchMyPC-ScriptRunner.exe running with the following arguments: C:\Windows\SoftwareDistribution\Download\Install\PatchMyPC-ScriptRunner.exe -updatepackage -applicationid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx 1 C : \ Windows \ SoftwareDistribution \ Download \ Install \ PatchMyPC - ScriptRunner . exe - updatepackage - applicationid = xxxxxxxx - xxxx - xxxx - xxxx - xxxxxxxxxxxx After the file is launched in this manner, the infection chain progresses to stage 1. Stage 1 Starting with the execution of PatchMyPC-ScriptRunner.exe, which then served as a host process for loading several payloads, we identified a complex two‑stage loading mechanism with multiple steps. The overall flow of stage 1 is summarized in the diagram below. Infection chain: Stage 1 Step 1 The AppDomainManager injection technique is used to load an arbitrary .NET assembly. With this mechanism, when PatchMyPC-ScriptRunner.exe runs, the accompanying configuration file PatchMyPC-ScriptRunner.exe.config in the same directory is loaded before the executable’s main function runs. Below is the content of PatchMyPC‑ScriptRunner.exe.config. <?xml version="1.0" encoding="utf-8" ?> <configuration> <runtime> <appDomainManagerType value="Microsoft.ApplicationServer.Caching.DataCacheFactoryConfigur
+Video This month in security with Tony Anscombe – October 2026 edition The PHP2Shell disclosure and other major cybersecurity news this month brought into relief the need for well-thought-out cyber-readiness plans Editor 30 Oct 2026 With October coming to a close, ESET Chief Security Evangelist Tony Anscombe reviews some of the top cybersecurity stories that made the news over the month. At the same time, he offers insights that the latest wave of incidents hold for your company's, or your own, cyber-defenses. Here's Tony's rundown of some of what stood out most in October: Over the past ten days, the cybersecurity news cycle has been dominated by two critical vulnerabilities in PHP, a server-side scripting language powering some 70 percent of websites globally. Here's what you should know more about the pair of flaws known as PHP2Shell, as well as related topics – and we also dived into the issues in this video and this blog post . Cyberattackers broke into refrigeration controllers at up to 700 French supermarkets and raised the temperature of refrigerators and freezers to as high as 50 degrees Celsius. A data breach at Denmark’s Central Population Register (CPR) has exposed the personal information of 8.8 million people. The person claiming responsibility for the hack claims to have gained access through a third-party provider's account that was 'protected' by the password ‘123456’. Malware preinstalled on thousands of cheap Android phones that can generate fraudulent ad revenue and potentially turn infected devices into parts of larger botnets – a problem that we also wrote about a while back. What are the lessons that businesses should take away from the latest cybersecurity news? Watch Tony's video to find out, and be sure to check out the September 2026 edition of his monthly security news roundup for more insights. Connect with us on Facebook , X , LinkedIn and Instagram . Let us keep you up to date Sign up for our newsletters Related Articles Video PHP2Shell: What to know about two critical PHP flaws Video PHP2Shell: What to know about two critical PHP flaws Video This month in security with Tony Anscombe – September 2026 edition Video This month in security with Tony Anscombe – September 2026 edition Video This month in security with Tony Anscombe – August 2026 edition Video This month in security with Tony Anscombe – August 2026 edition Similar Articles Video PHP2Shell: What to know about two critical PHP flaws Business Security Lessons from Cybersecurity Black Week Share Article Discussion
 ```
 
 #### Corroborating sources (1)
 
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: Unknown APT uses NetamLoader to attack a Win10 OS customized for governments in Asia
-  - Published: 2026-10-29T08:00:15+00:00
-  - Link: https://securelist.com/netamloader/121676/
-  - Summary: Kaspersky researchers analyze a complex targeted attack employing NetamLoader, a sophisticated malicious framework and targeting a customized government OS.
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: This month in security with Tony Anscombe – October 2026 edition
+  - Published: 2026-10-30T15:03:14+00:00
+  - Link: https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-october-2026/
+  - Summary: The PHP2Shell disclosure and other major cybersecurity news this month brought into relief the need for well-thought-out cyber-readiness plans
 
-### Cluster 0b82431db4 — score 10
+### Cluster 2a9b3cf734 — score 10
 
-- Title: Deploying AI agents securely: how Kaspersky products mitigate AI threats
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-10-26T10:00:18+00:00
-- Link: https://securelist.com/tr/how-to-secure-ai-agents/121444/
+- Title: Amatera: How the prolific infostealer works and spreads
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-10-29T08:00:00+00:00
+- Link: https://www.welivesecurity.com/en/malware/amatera-how-prolific-infostealer-works-spreads/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_products: Anthropic/Claude, Google/Gemini, OpenAI/ChatGPT
+- threat_categories: credential_theft, phishing_social_eng, ransomware_extortion
+- affected_industries: financial_services
+- affected_products: Microsoft SharePoint
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- affected_products: OpenAI/ChatGPT, Google/Gemini, Anthropic/Claude
+- threat_categories: ransomware_extortion, phishing_social_eng, credential_theft
+- affected_industries: financial_services
+- affected_products: Microsoft SharePoint
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-We look at best practices for deploying AI tools securely in corporate environments, with Kaspersky Security Center and Kaspersky Endpoint Security as examples. We also cover ways that EDR and TIP can detect AI agents.
+The malware that topped ESET’s infostealer detections in Latin America in the first half of 2026 is an example of how cybercrime has professionalized
 ```
 
 #### Full body
 
 ```
-Threat Response Table of Contents Introduction Popular AI applications and services in organizations Application Control and Web Control Kaspersky Endpoint Detection and Response Kaspersky Threat Intelligence Portal AI agent profiles Hunt Hub Kaspersky Scan Engine Conclusion Introduction AI agents and associated tooling are becoming increasingly common in corporate infrastructure. Agents can perform a range of actions with the user’s privileges, such as accessing data, running commands, and interacting with external services. This creates new security risks, especially when these tools are used without the security team’s oversight or well-designed policies. Detecting, tracking, and controlling AI agents is becoming one of the most pressing tasks for security teams today. We closely follow technological developments and continuously update our solutions to respond to new threats in a timely manner amid a rapidly changing technology landscape. This post describes new expertise built into Kaspersky products that helps counter the threats posed by the proliferation of AI agents. We approach this problem from several angles. First, you need to thoroughly understand the threat you are dealing with. To this end, we added profiles to the Kaspersky Threat Intelligence Portal that describe various AI agents and how attackers exploit them. At their core, AI agents are programs (processes) that run in the operating system on endpoints and can also launch other processes. This means that Endpoint Detection and Response solutions are among the key endpoint controls for this threat. These solutions detect the presence and launch of AI agents, track their activity, and identify potentially dangerous behavior. When needed, they also take action, such as stopping a suspicious process, blocking the activity, or isolating the host, to reduce the likelihood of an incident escalating. For this purpose, we developed specially adapted detection rules. You can use Kaspersky Endpoint Security, now also available as Kaspersky Next , to control and restrict the launch of AI agents. This solution uses two components to detect AI agents and control how they are used. Application Control categorizes the application processes launched on endpoints, and Web Control manages access to specific categories of web resources for users on endpoints. Finally, even harmless AI agents can contain malicious instructions (skills), such as those downloaded from unsafe external sources. Kaspersky Scan Engine analyzes installed applications to detect these threats and also checks LLM files for malicious code. Let’s take a closer look at these solutions and technologies. Popular AI applications and services in organizations Tools from Anthropic and OpenAI take the top spots in the September 2026 ranking of AI agents by popularity among Kaspersky users. This list is based on telemetry from Kaspersky solutions. It shows the number of users who had the relevant AI vendors’ products installed at the time of the study. # AI product 1 Claude 2 Claude Code 3 Codex 4 OpenCode 5 Zed 6 Wispr Flow 7 LM Studio 8 ZCode 9 Chatbox 10 Cherry Studio The data shows that agentic systems, especially AI agents for software development, are the most popular AI applications. The TOP 10 also includes an application for running large language models locally (LM Studio) and a voice note-taking app (Wispr Flow). According to open sources, these are the most widely used AI services in 2026: # AI service 1 ChatGPT 2 Google Gemini 3 Claude 4 Grammarly 5 DeepSeek While analyzing the most popular and widely used apps, our experts also noticed a sharp rise in vulnerable versions of AI-related software and services . From 2025 to date, more than 2500 vulnerabilities have been published: Number of published vulnerabilities in LLMs, AI tools, and plugins with similar functionality, 2025–2026 ( download ) * Data for previous quarters was updated and may differ slightly from previously published data. Applicati
+Malware Amatera: How the prolific infostealer works and spreads The malware that topped ESET’s infostealer detections in Latin America in the first half of 2026 is an example of how cybercrime has professionalized Mario Micucci 29 Oct 2026 • , 6 min. read Infostealers have become an established business, with developers who produce and maintain the product and paying customers who run their own campaigns with them. Amatera – which topped ESET’s infostealer detections in Latin America in the first half of 2026 but targets victims worldwide – shows what this professionalization looks like in practice. Like many other infostealers , Amatera goes after a range of data spanning login credentials, session cookies, tokens, crypto wallet information, messaging data, files, and secrets from development environments. The sheer breadth of the loot shows why infostealers are a mainstay of cybercrime – a single compromise can lead to account hijacking, financial fraud and crypto theft, as well as open the door into the organization where the victim works. Here’s more about where Amatera came from, along with its business model, capabilities, and distribution. What is Amatera? Detected by ESET products as Win/PSW.Amatera, Amatera is a Windows infostealer written in C++ that was first observed in 2024. Since it’s marketed under the malware-as-a-service (MaaS) model, its developers maintain the code, the control panel, and the support infrastructure, while affiliates pay a subscription to use the malware in their campaigns. Given the similarities in their respective code, Amatera is very likely a rebrand of ACR Stealer. Indeed, the latter has a predecessor of its own: a Sekoia investigation in May 2024 described it as an updated version of the GrMsk stealer, offered as a service on underground forums. Rebranding – or releasing an updated version of a piece of malware under a new name – is very common across the MaaS ecosystem, particularly among ransomware operators . They sometimes sell the source code when they shut down their operations to avoid being tracked, or they update and rename it as a ‘business strategy’. In some cases, they leak it so that other malicious actors can reuse it. At any rate, by the end of 2024, Amatera Stealer was already on offer for $199 a month, with support via Telegram.. Figure 1. Amatera stealer being offered through subscription plans and with support via Telegram (Source: X ) Amatera’s capabilities Amatera extracts credentials stored in web browsers, along with cookies, browsing histories, form data, and session tokens. It can also search for and grab sensitive documents and files synced with OneDrive or SharePoint – Microsoft reported a surge in attacks on its enterprise customers between late April and mid-June 2026. Separately, Straiker found that the malware also went after cryptocurrency wallet data by manipulating the clipboard. The malware is also under constant development, and it turns up as the final payload in a wide variety of attack chains. That variety is also typical of MaaS: the developers sell the product, and each affiliate chooses their own way to deliver it. Amatera has spread via compromised websites, search engine ads, targeted emails, fake documents, SVG files, and ClickFix via fake CAPTCHAs . Indeed, several recent analyses of Amatera campaigns worldwide show that one of its key delivery vectors is ClickFix , a social engineering technique that was first documented in 2024 and was quickly picked up by adversaries to distribute a wide range of malware families. Figure 2. Example of a fake pop-up window prompting the victim to copy and execute an instruction on their computer and unwittingly set the compromise process into motion Often, the victim sees a message that mimics a CAPTCHA check or a browser error and warns them of supposed technical problems that can be fixed by copying a command and running it on their computer. The victim’s own keystrokes then set the compromise in motion.
 ```
 
 #### Corroborating sources (1)
 
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: Deploying AI agents securely: how Kaspersky products mitigate AI threats
-  - Published: 2026-10-26T10:00:18+00:00
-  - Link: https://securelist.com/tr/how-to-secure-ai-agents/121444/
-  - Summary: We look at best practices for deploying AI tools securely in corporate environments, with Kaspersky Security Center and Kaspersky Endpoint Security as examples. We also cover ways that EDR and TIP can detect AI agents.
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: Amatera: How the prolific infostealer works and spreads
+  - Published: 2026-10-29T08:00:00+00:00
+  - Link: https://www.welivesecurity.com/en/malware/amatera-how-prolific-infostealer-works-spreads/
+  - Summary: The malware that topped ESET’s infostealer detections in Latin America in the first half of 2026 is an example of how cybercrime has professionalized
+
+### Cluster c8b10c7431 — score 10
+
+- Title: Lessons from Cybersecurity Black Week
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-10-28T10:33:51+00:00
+- Link: https://www.welivesecurity.com/en/business-security/lessons-cybersecurity-black-week/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Linux kernel
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- affected_industries: government
+- affected_products: GitLab, Linux kernel
+- cve_ids: CVE-2026-109618, CVE-2026-109619
+- urgency_signals: preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- affected_industries: government
+- affected_products: Linux kernel, GitLab
+- cve_ids: CVE-2026-109618, CVE-2026-109619
+- urgency_signals: zero_day, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+A critical PHP flaw, leaked Linux kernel reports, a poisoned LiteLLM release, and more, all in seven days. Which threats called for immediate action, and which generated more noise than real danger?
+```
+
+#### Full body
+
+```
+Business Security Lessons from Cybersecurity Black Week A critical PHP flaw, leaked Linux kernel reports, a poisoned LiteLLM release, and more, all in seven days. Which threats called for immediate action, and which generated more noise than real danger? Roman Kováč 28 Oct 2026 • , 8 min. read The week leading up to October 25, 2026, was every cyber defender’s nightmare: a barrage of critical vulnerabilities in PHP and the Linux kernel, a compromised LiteLLM release, a maximum-severity flaw in GitLab, a Node.js Brotli flaw, and a certificate authority incident affecting TLS trust. A few years ago, a backlog like this would have filled a defender’s to-do list for a whole month. In the age of AI, all of this was reported within a single “Cybersecurity Black Week,” an exceptionally eventful seven-day period amid an already turbulent Black October. AI-assisted research helped uncover at least two of these flaws: PHP2Shell and the Brotli bug. On top of the breakneck patching pace, security teams faced mounting pressure to deliver status reports to other departments, management, customers, and the media. Beyond their severity, the issues stood out for the variety of responses they demanded. Some required emergency runtime patches and upgrades; others called for containment, credential rotation, or the replacement of outdated certificate trust bundles. In several cases, installing the latest version was only the beginning of a long remediation process. With so many problems landing at once, the main challenge was separating real risk from hype and prioritizing accordingly. Here is our assessment. PHP2Shell: The loudest headline, with real-world limits PHP2Shell generated the biggest media frenzy of the lot and, with it, a major headache for security teams, prompting many organizations to take their websites offline and look for emergency fixes. The name refers to two memory-safety vulnerabilities in PHP core, CVE-2026-109618 and CVE-2026-109619, affecting PHP versions 5.4 through 8.5.11. Both vulnerabilities received a CVSS v4.0 score of 9.2 and can allow unauthenticated remote code execution (RCE) on vulnerable PHP servers. In the highest-risk setups, a demonstrated exploit can trigger the vulnerability before application code runs, meaning application-level authentication offers no protection. With PHP powering an estimated 69% of websites whose server-side programming language is known, government agencies in the United States, Europe, and elsewhere urged organizations to patch immediately, with some advising that affected internet-facing systems be isolated or taken offline if they could not be patched promptly. Government websites in the Netherlands, Germany, France, and other countries were temporarily taken offline as a precaution. The PHP project released fixes on October 21 in versions 8.5.12, 8.4.27, 8.3.36, and 8.2.35, along with source-only backports for the end-of-life 7.4, 8.0, and 8.1 branches. The rollout was complicated by a premature public leak, which forced the coordinated disclosure timeline forward. While the flaws clearly belonged near the top of the patching list, early evidence suggested they were considerably harder to weaponize than initially feared. Successful exploitation requires specific conditions and knowledge of the target, and public proof-of-concept exploits did not work against a default PHP installation, according to Sansec . On October 22, ESET was among nine security companies that told NBC News they had not seen any successful attacks, even though more than 200 proof-of-concept exploits were circulating. The remediation challenge extends beyond obvious web servers: PHP can also be embedded in appliances, network devices, management interfaces, and third-party products, while end-of-life PHP branches do not receive normal upstream binary releases. Linux kernel: Reports went public before fixes were ready As if the PHP issues weren’t severe enough, on October 21, Trend Micro’s Zero Day Initiativ
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: Lessons from Cybersecurity Black Week
+  - Published: 2026-10-28T10:33:51+00:00
+  - Link: https://www.welivesecurity.com/en/business-security/lessons-cybersecurity-black-week/
+  - Summary: A critical PHP flaw, leaked Linux kernel reports, a poisoned LiteLLM release, and more, all in seven days. Which threats called for immediate action, and which generated more noise than real danger?
+
+### Cluster 5a153571ac — score 10
+
+- Title: ESET APT Activity Report Q2 2026–Q3 2026
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-10-28T09:45:00+00:00
+- Link: https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q2-2026-q3-2026/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage
+- affected_industries: financial_services, government, manufacturing_industrial, telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage
+- affected_industries: financial_services, government, manufacturing_industrial, telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q2 2026 and Q3 2026
+```
+
+#### Full body
+
+```
+ESET Research ESET APT Activity Report Q2 2026–Q3 2026 An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q2 2026 and Q3 2026 Jean-Ian Boutin 28 Oct 2026 • , 6 min. read ESET APT Activity Report Q2 2026–Q2 2026 summarizes notable activities of selected advanced persistent threat (APT) groups documented by ESET researchers between April and September 2026. The operations presented here reflect the broader threat landscape observed during this period and highlight some of its key trends and developments. They represent only a subset of the cybersecurity intelligence made available to customers of ESET Threat Intelligence APT Reports. During the monitored period, China-aligned groups conducted intelligence-collection operations primarily against governmental targets. FamousSparrow kept up its monitoring in South America, just as in the previous reporting period. In Southeast Asia and Oceania, China-aligned threat actors ran campaigns that appear to support Chinese law enforcement efforts against organized crime in the region. One threat actor targeted hotels in Palau, which seems to be increasingly used as a base for fraud-related organized crime. SlippyNunchucks deployed its DarkVigil toolset in Sri Lanka against Chinese-speaking individuals connected to fraud schemes, likely in the context of broader regional law enforcement efforts against financial crime. As scam compounds have become an issue for countries neighboring China, with direct negative effects on China itself, it is likely that China-aligned APT groups have supported law enforcement efforts in this area. Another, broader cluster of activity targeted Taiwanese organizations operating in the semiconductor industry. This focus on Taiwan’s semiconductor sector is consistent with long-running Chinese industrial espionage priorities, and the strategic importance of semiconductor supply chains to both economic competition and national security. Middle East-aligned activity increased compared with the previous reporting period, driven mainly by the return of several established Iran-aligned groups. In the previous period, activity from these groups had declined, most likely because internet restrictions imposed by the Iranian regime hindered their own ability to operate effectively. FilthyFeline, a subgroup of OilRig, and MuddyWater resumed operations after a quieter period, with most activity directed at entities in Israel across multiple sectors; a smaller number of US companies were also affected. FilthyFeline also appears to have taken over activity against a cellular data service provider in Uzbekistan that had previously been compromised by BladedFeline, another OilRig subgroup. In parallel, we analyzed new or updated malware, suggesting renewed development activity within parts of the Iran-aligned ecosystem. We also discovered activity by Arid Viper, a Hamas-affiliated threat actor, against what appears to be the Palestinian Authority’s Ministry of Foreign Affairs and Expatriates or an affiliated governmental entity. Given the ongoing US-led peace process, as well as the long-standing rivalry between Hamas and the Palestinian Authority, this activity was potentially intended to collect intelligence on the Palestinian Authority’s diplomatic position and internal thinking regarding negotiations to reduce hostilities in the region. North Korea-aligned threat actors did not deviate significantly from the types of targets seen in previous reporting periods. These include primarily technology and cryptocurrency companies, software developers, and other opportunistic targets. Alongside South Korea, Ukraine has become increasingly prominent among North Korea-aligned targets. This is likely related to growing ties between Russia and North Korea, and North Korea’s increasing involvement in Russia’s war against Ukraine, not only through indirect military support (munitions, etc.) but also through the deployment of North Korean so
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: ESET APT Activity Report Q2 2026–Q3 2026
+  - Published: 2026-10-28T09:45:00+00:00
+  - Link: https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q2-2026-q3-2026/
+  - Summary: An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q2 2026 and Q3 2026
 
 ### Cluster 1e5a485e57 — score 10
 
@@ -2464,183 +2549,89 @@ Prediction Markets Emerge as a New Vertical for Traffer Teams Executive Summary 
   - Link: https://www.recordedfuture.com/research/prediction-markets-traffer-teams
   - Summary: Discover how Russian traffer teams use turnkey fraud infrastructure to exploit prediction markets.
 
-### Cluster 3f95e8e04b — score 10
+### Cluster 364a564664 — score 10
 
-- Title: This month in security with Tony Anscombe – October 2026 edition
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-10-30T15:03:14+00:00
-- Link: https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-october-2026/
+- Title: Unknown APT uses NetamLoader to attack a Win10 OS customized for governments in Asia
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-10-29T08:00:15+00:00
+- Link: https://securelist.com/netamloader/121676/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-The PHP2Shell disclosure and other major cybersecurity news this month brought into relief the need for well-thought-out cyber-readiness plans
-```
-
-#### Full body
-
-```
-Video This month in security with Tony Anscombe – October 2026 edition The PHP2Shell disclosure and other major cybersecurity news this month brought into relief the need for well-thought-out cyber-readiness plans Editor 30 Oct 2026 With October coming to a close, ESET Chief Security Evangelist Tony Anscombe reviews some of the top cybersecurity stories that made the news over the month. At the same time, he offers insights that the latest wave of incidents hold for your company's, or your own, cyber-defenses. Here's Tony's rundown of some of what stood out most in October: Over the past ten days, the cybersecurity news cycle has been dominated by two critical vulnerabilities in PHP, a server-side scripting language powering some 70 percent of websites globally. Here's what you should know more about the pair of flaws known as PHP2Shell, as well as related topics – and we also dived into the issues in this video and this blog post . Cyberattackers broke into refrigeration controllers at up to 700 French supermarkets and raised the temperature of refrigerators and freezers to as high as 50 degrees Celsius. A data breach at Denmark’s Central Population Register (CPR) has exposed the personal information of 8.8 million people. The person claiming responsibility for the hack claims to have gained access through a third-party provider's account that was 'protected' by the password ‘123456’. Malware preinstalled on thousands of cheap Android phones that can generate fraudulent ad revenue and potentially turn infected devices into parts of larger botnets – a problem that we also wrote about a while back. What are the lessons that businesses should take away from the latest cybersecurity news? Watch Tony's video to find out, and be sure to check out the September 2026 edition of his monthly security news roundup for more insights. Connect with us on Facebook , X , LinkedIn and Instagram . Let us keep you up to date Sign up for our newsletters Related Articles Video PHP2Shell: What to know about two critical PHP flaws Video PHP2Shell: What to know about two critical PHP flaws Video This month in security with Tony Anscombe – September 2026 edition Video This month in security with Tony Anscombe – September 2026 edition Video This month in security with Tony Anscombe – August 2026 edition Video This month in security with Tony Anscombe – August 2026 edition Similar Articles Video PHP2Shell: What to know about two critical PHP flaws Business Security Lessons from Cybersecurity Black Week Share Article Discussion
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: This month in security with Tony Anscombe – October 2026 edition
-  - Published: 2026-10-30T15:03:14+00:00
-  - Link: https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-october-2026/
-  - Summary: The PHP2Shell disclosure and other major cybersecurity news this month brought into relief the need for well-thought-out cyber-readiness plans
-
-### Cluster 2a9b3cf734 — score 10
-
-- Title: Amatera: How the prolific infostealer works and spreads
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-10-29T08:00:00+00:00
-- Link: https://www.welivesecurity.com/en/malware/amatera-how-prolific-infostealer-works-spreads/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, phishing_social_eng, ransomware_extortion
-- affected_industries: financial_services
-- affected_products: Microsoft SharePoint
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, credential_theft
-- affected_industries: financial_services
-- affected_products: Microsoft SharePoint
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-The malware that topped ESET’s infostealer detections in Latin America in the first half of 2026 is an example of how cybercrime has professionalized
-```
-
-#### Full body
-
-```
-Malware Amatera: How the prolific infostealer works and spreads The malware that topped ESET’s infostealer detections in Latin America in the first half of 2026 is an example of how cybercrime has professionalized Mario Micucci 29 Oct 2026 • , 6 min. read Infostealers have become an established business, with developers who produce and maintain the product and paying customers who run their own campaigns with them. Amatera – which topped ESET’s infostealer detections in Latin America in the first half of 2026 but targets victims worldwide – shows what this professionalization looks like in practice. Like many other infostealers , Amatera goes after a range of data spanning login credentials, session cookies, tokens, crypto wallet information, messaging data, files, and secrets from development environments. The sheer breadth of the loot shows why infostealers are a mainstay of cybercrime – a single compromise can lead to account hijacking, financial fraud and crypto theft, as well as open the door into the organization where the victim works. Here’s more about where Amatera came from, along with its business model, capabilities, and distribution. What is Amatera? Detected by ESET products as Win/PSW.Amatera, Amatera is a Windows infostealer written in C++ that was first observed in 2024. Since it’s marketed under the malware-as-a-service (MaaS) model, its developers maintain the code, the control panel, and the support infrastructure, while affiliates pay a subscription to use the malware in their campaigns. Given the similarities in their respective code, Amatera is very likely a rebrand of ACR Stealer. Indeed, the latter has a predecessor of its own: a Sekoia investigation in May 2024 described it as an updated version of the GrMsk stealer, offered as a service on underground forums. Rebranding – or releasing an updated version of a piece of malware under a new name – is very common across the MaaS ecosystem, particularly among ransomware operators . They sometimes sell the source code when they shut down their operations to avoid being tracked, or they update and rename it as a ‘business strategy’. In some cases, they leak it so that other malicious actors can reuse it. At any rate, by the end of 2024, Amatera Stealer was already on offer for $199 a month, with support via Telegram.. Figure 1. Amatera stealer being offered through subscription plans and with support via Telegram (Source: X ) Amatera’s capabilities Amatera extracts credentials stored in web browsers, along with cookies, browsing histories, form data, and session tokens. It can also search for and grab sensitive documents and files synced with OneDrive or SharePoint – Microsoft reported a surge in attacks on its enterprise customers between late April and mid-June 2026. Separately, Straiker found that the malware also went after cryptocurrency wallet data by manipulating the clipboard. The malware is also under constant development, and it turns up as the final payload in a wide variety of attack chains. That variety is also typical of MaaS: the developers sell the product, and each affiliate chooses their own way to deliver it. Amatera has spread via compromised websites, search engine ads, targeted emails, fake documents, SVG files, and ClickFix via fake CAPTCHAs . Indeed, several recent analyses of Amatera campaigns worldwide show that one of its key delivery vectors is ClickFix , a social engineering technique that was first documented in 2024 and was quickly picked up by adversaries to distribute a wide range of malware families. Figure 2. Example of a fake pop-up window prompting the victim to copy and execute an instruction on their computer and unwittingly set the compromise process into motion Often, the victim sees a message that mimics a CAPTCHA check or a browser error and warns them of supposed technical problems that can be fixed by copying a command and running it on their computer. The victim’s own keystrokes then set the compromise in motion.
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: Amatera: How the prolific infostealer works and spreads
-  - Published: 2026-10-29T08:00:00+00:00
-  - Link: https://www.welivesecurity.com/en/malware/amatera-how-prolific-infostealer-works-spreads/
-  - Summary: The malware that topped ESET’s infostealer detections in Latin America in the first half of 2026 is an example of how cybercrime has professionalized
-
-### Cluster c8b10c7431 — score 10
-
-- Title: Lessons from Cybersecurity Black Week
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-10-28T10:33:51+00:00
-- Link: https://www.welivesecurity.com/en/business-security/lessons-cybersecurity-black-week/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Linux kernel
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
+- threat_categories: apt_espionage, supply_chain
 - affected_industries: government
-- affected_products: GitLab, Linux kernel
-- cve_ids: CVE-2026-109618, CVE-2026-109619
-- urgency_signals: preauth_unauth, zero_day
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: zero_day
+- threat_categories: supply_chain, apt_espionage
 - affected_industries: government
-- affected_products: Linux kernel, GitLab
-- cve_ids: CVE-2026-109618, CVE-2026-109619
-- urgency_signals: zero_day, preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-A critical PHP flaw, leaked Linux kernel reports, a poisoned LiteLLM release, and more, all in seven days. Which threats called for immediate action, and which generated more noise than real danger?
+Kaspersky researchers analyze a complex targeted attack employing NetamLoader, a sophisticated malicious framework and targeting a customized government OS.
 ```
 
 #### Full body
 
 ```
-Business Security Lessons from Cybersecurity Black Week A critical PHP flaw, leaked Linux kernel reports, a poisoned LiteLLM release, and more, all in seven days. Which threats called for immediate action, and which generated more noise than real danger? Roman Kováč 28 Oct 2026 • , 8 min. read The week leading up to October 25, 2026, was every cyber defender’s nightmare: a barrage of critical vulnerabilities in PHP and the Linux kernel, a compromised LiteLLM release, a maximum-severity flaw in GitLab, a Node.js Brotli flaw, and a certificate authority incident affecting TLS trust. A few years ago, a backlog like this would have filled a defender’s to-do list for a whole month. In the age of AI, all of this was reported within a single “Cybersecurity Black Week,” an exceptionally eventful seven-day period amid an already turbulent Black October. AI-assisted research helped uncover at least two of these flaws: PHP2Shell and the Brotli bug. On top of the breakneck patching pace, security teams faced mounting pressure to deliver status reports to other departments, management, customers, and the media. Beyond their severity, the issues stood out for the variety of responses they demanded. Some required emergency runtime patches and upgrades; others called for containment, credential rotation, or the replacement of outdated certificate trust bundles. In several cases, installing the latest version was only the beginning of a long remediation process. With so many problems landing at once, the main challenge was separating real risk from hype and prioritizing accordingly. Here is our assessment. PHP2Shell: The loudest headline, with real-world limits PHP2Shell generated the biggest media frenzy of the lot and, with it, a major headache for security teams, prompting many organizations to take their websites offline and look for emergency fixes. The name refers to two memory-safety vulnerabilities in PHP core, CVE-2026-109618 and CVE-2026-109619, affecting PHP versions 5.4 through 8.5.11. Both vulnerabilities received a CVSS v4.0 score of 9.2 and can allow unauthenticated remote code execution (RCE) on vulnerable PHP servers. In the highest-risk setups, a demonstrated exploit can trigger the vulnerability before application code runs, meaning application-level authentication offers no protection. With PHP powering an estimated 69% of websites whose server-side programming language is known, government agencies in the United States, Europe, and elsewhere urged organizations to patch immediately, with some advising that affected internet-facing systems be isolated or taken offline if they could not be patched promptly. Government websites in the Netherlands, Germany, France, and other countries were temporarily taken offline as a precaution. The PHP project released fixes on October 21 in versions 8.5.12, 8.4.27, 8.3.36, and 8.2.35, along with source-only backports for the end-of-life 7.4, 8.0, and 8.1 branches. The rollout was complicated by a premature public leak, which forced the coordinated disclosure timeline forward. While the flaws clearly belonged near the top of the patching list, early evidence suggested they were considerably harder to weaponize than initially feared. Successful exploitation requires specific conditions and knowledge of the target, and public proof-of-concept exploits did not work against a default PHP installation, according to Sansec . On October 22, ESET was among nine security companies that told NBC News they had not seen any successful attacks, even though more than 200 proof-of-concept exploits were circulating. The remediation challenge extends beyond obvious web servers: PHP can also be embedded in appliances, network devices, management interfaces, and third-party products, while end-of-life PHP branches do not receive normal upstream binary releases. Linux kernel: Reports went public before fixes were ready As if the PHP issues weren’t severe enough, on October 21, Trend Micro’s Zero Day Initiativ
+Table of Contents Introduction Background Initial infection Stage 1 Step 1 Step 2 Step 3 Stage 2 XAML-2-1 XAML-2-2 .NET 1 Loader XAML-3 .NET 2 Plugin AES encryption scheme for network traffic Discovering proxies Execute downloaded XAML payload in an isolated AppDomain Infrastructure Victims Attribution Conclusions Indicators of Compromise File hashes File paths Domains and IPs Authors GReAT Introduction A couple of months ago, our research revealed a highly sophisticated infection chain and a complex .NET assembly-loading framework built on XAML markup, which strongly indicates a supply-chain attack targeting a custom Windows build used exclusively by government entities in Asia. The malicious framework has been labeled NetamLoader; at present, no attribution to any known APT group has been established. The sample came to light in the first half of 2026, when Kaspersky Security Network (KSN) issued a malware detection alert for a .config file using AppDomainManager injection to load arbitrary .NET assemblies. The file was packaged inside a CAB archive placed in the directory that stores Windows operating system update packages. Initial analysis of the CAB contents found no malicious code: most executables were legitimate components of the third-party patch management tool Patch My PC, and even the .NET assemblies used for the injection were Microsoft-signed. A later re-examination of the original .config file and the full loading process revealed the infection chain and framework described in this report. Kaspersky’s products detect this threat as HEUR:Trojan.MSIL.NetamLoader.gen, Trojan.MSIL.Zapchast.*, and Trojan.Script.Agent.*. Background During routine threat hunting, KSN sent us a malware detection alert. The notification flagged a .config file that employed AppDomainManager injection to load arbitrary .NET assemblies. The file was compressed into a CAB archive named e4537a1762fcafd2fd96bfc825bad34f9db9a24d and saved in the folder that stores Windows operating system update packages. Below is the full path to this archive: C:\Windows\SoftwareDistribution\Download\e4537a1762fcafd2fd96bfc825bad34f9db9a24d 1 C : \ Windows \ SoftwareDistribution \ Download \ e4537a1762fcafd2fd96bfc825bad34f9db9a24d Starting with this CAB archive, we uncovered a highly complex infection chain that uses a previously unknown advanced loading framework. Initial infection The CAB file contains the following seven files, which are extracted and placed in the path C:\Windows\SoftwareDistribution\Download\Install\: Files compressed in the CAB file Except for Resources.resx, none of the files contain malicious code. We did not observe how the CAB file was delivered to the victim; we only saw the process PatchMyPC-ScriptRunner.exe running with the following arguments: C:\Windows\SoftwareDistribution\Download\Install\PatchMyPC-ScriptRunner.exe -updatepackage -applicationid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx 1 C : \ Windows \ SoftwareDistribution \ Download \ Install \ PatchMyPC - ScriptRunner . exe - updatepackage - applicationid = xxxxxxxx - xxxx - xxxx - xxxx - xxxxxxxxxxxx After the file is launched in this manner, the infection chain progresses to stage 1. Stage 1 Starting with the execution of PatchMyPC-ScriptRunner.exe, which then served as a host process for loading several payloads, we identified a complex two‑stage loading mechanism with multiple steps. The overall flow of stage 1 is summarized in the diagram below. Infection chain: Stage 1 Step 1 The AppDomainManager injection technique is used to load an arbitrary .NET assembly. With this mechanism, when PatchMyPC-ScriptRunner.exe runs, the accompanying configuration file PatchMyPC-ScriptRunner.exe.config in the same directory is loaded before the executable’s main function runs. Below is the content of PatchMyPC‑ScriptRunner.exe.config. <?xml version="1.0" encoding="utf-8" ?> <configuration> <runtime> <appDomainManagerType value="Microsoft.ApplicationServer.Caching.DataCacheFactoryConfigur
 ```
 
 #### Corroborating sources (1)
 
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: Lessons from Cybersecurity Black Week
-  - Published: 2026-10-28T10:33:51+00:00
-  - Link: https://www.welivesecurity.com/en/business-security/lessons-cybersecurity-black-week/
-  - Summary: A critical PHP flaw, leaked Linux kernel reports, a poisoned LiteLLM release, and more, all in seven days. Which threats called for immediate action, and which generated more noise than real danger?
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: Unknown APT uses NetamLoader to attack a Win10 OS customized for governments in Asia
+  - Published: 2026-10-29T08:00:15+00:00
+  - Link: https://securelist.com/netamloader/121676/
+  - Summary: Kaspersky researchers analyze a complex targeted attack employing NetamLoader, a sophisticated malicious framework and targeting a customized government OS.
 
-### Cluster 5a153571ac — score 10
+### Cluster 0b82431db4 — score 10
 
-- Title: ESET APT Activity Report Q2 2026–Q3 2026
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-10-28T09:45:00+00:00
-- Link: https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q2-2026-q3-2026/
+- Title: Deploying AI agents securely: how Kaspersky products mitigate AI threats
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-10-26T10:00:18+00:00
+- Link: https://securelist.com/tr/how-to-secure-ai-agents/121444/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
-- affected_industries: financial_services, government, manufacturing_industrial, telecommunications
+- affected_products: Anthropic/Claude, Google/Gemini, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: apt_espionage
-- affected_industries: financial_services, government, manufacturing_industrial, telecommunications
+- affected_products: OpenAI/ChatGPT, Google/Gemini, Anthropic/Claude
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q2 2026 and Q3 2026
+We look at best practices for deploying AI tools securely in corporate environments, with Kaspersky Security Center and Kaspersky Endpoint Security as examples. We also cover ways that EDR and TIP can detect AI agents.
 ```
 
 #### Full body
 
 ```
-ESET Research ESET APT Activity Report Q2 2026–Q3 2026 An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q2 2026 and Q3 2026 Jean-Ian Boutin 28 Oct 2026 • , 6 min. read ESET APT Activity Report Q2 2026–Q2 2026 summarizes notable activities of selected advanced persistent threat (APT) groups documented by ESET researchers between April and September 2026. The operations presented here reflect the broader threat landscape observed during this period and highlight some of its key trends and developments. They represent only a subset of the cybersecurity intelligence made available to customers of ESET Threat Intelligence APT Reports. During the monitored period, China-aligned groups conducted intelligence-collection operations primarily against governmental targets. FamousSparrow kept up its monitoring in South America, just as in the previous reporting period. In Southeast Asia and Oceania, China-aligned threat actors ran campaigns that appear to support Chinese law enforcement efforts against organized crime in the region. One threat actor targeted hotels in Palau, which seems to be increasingly used as a base for fraud-related organized crime. SlippyNunchucks deployed its DarkVigil toolset in Sri Lanka against Chinese-speaking individuals connected to fraud schemes, likely in the context of broader regional law enforcement efforts against financial crime. As scam compounds have become an issue for countries neighboring China, with direct negative effects on China itself, it is likely that China-aligned APT groups have supported law enforcement efforts in this area. Another, broader cluster of activity targeted Taiwanese organizations operating in the semiconductor industry. This focus on Taiwan’s semiconductor sector is consistent with long-running Chinese industrial espionage priorities, and the strategic importance of semiconductor supply chains to both economic competition and national security. Middle East-aligned activity increased compared with the previous reporting period, driven mainly by the return of several established Iran-aligned groups. In the previous period, activity from these groups had declined, most likely because internet restrictions imposed by the Iranian regime hindered their own ability to operate effectively. FilthyFeline, a subgroup of OilRig, and MuddyWater resumed operations after a quieter period, with most activity directed at entities in Israel across multiple sectors; a smaller number of US companies were also affected. FilthyFeline also appears to have taken over activity against a cellular data service provider in Uzbekistan that had previously been compromised by BladedFeline, another OilRig subgroup. In parallel, we analyzed new or updated malware, suggesting renewed development activity within parts of the Iran-aligned ecosystem. We also discovered activity by Arid Viper, a Hamas-affiliated threat actor, against what appears to be the Palestinian Authority’s Ministry of Foreign Affairs and Expatriates or an affiliated governmental entity. Given the ongoing US-led peace process, as well as the long-standing rivalry between Hamas and the Palestinian Authority, this activity was potentially intended to collect intelligence on the Palestinian Authority’s diplomatic position and internal thinking regarding negotiations to reduce hostilities in the region. North Korea-aligned threat actors did not deviate significantly from the types of targets seen in previous reporting periods. These include primarily technology and cryptocurrency companies, software developers, and other opportunistic targets. Alongside South Korea, Ukraine has become increasingly prominent among North Korea-aligned targets. This is likely related to growing ties between Russia and North Korea, and North Korea’s increasing involvement in Russia’s war against Ukraine, not only through indirect military support (munitions, etc.) but also through the deployment of North Korean so
+Threat Response Table of Contents Introduction Popular AI applications and services in organizations Application Control and Web Control Kaspersky Endpoint Detection and Response Kaspersky Threat Intelligence Portal AI agent profiles Hunt Hub Kaspersky Scan Engine Conclusion Introduction AI agents and associated tooling are becoming increasingly common in corporate infrastructure. Agents can perform a range of actions with the user’s privileges, such as accessing data, running commands, and interacting with external services. This creates new security risks, especially when these tools are used without the security team’s oversight or well-designed policies. Detecting, tracking, and controlling AI agents is becoming one of the most pressing tasks for security teams today. We closely follow technological developments and continuously update our solutions to respond to new threats in a timely manner amid a rapidly changing technology landscape. This post describes new expertise built into Kaspersky products that helps counter the threats posed by the proliferation of AI agents. We approach this problem from several angles. First, you need to thoroughly understand the threat you are dealing with. To this end, we added profiles to the Kaspersky Threat Intelligence Portal that describe various AI agents and how attackers exploit them. At their core, AI agents are programs (processes) that run in the operating system on endpoints and can also launch other processes. This means that Endpoint Detection and Response solutions are among the key endpoint controls for this threat. These solutions detect the presence and launch of AI agents, track their activity, and identify potentially dangerous behavior. When needed, they also take action, such as stopping a suspicious process, blocking the activity, or isolating the host, to reduce the likelihood of an incident escalating. For this purpose, we developed specially adapted detection rules. You can use Kaspersky Endpoint Security, now also available as Kaspersky Next , to control and restrict the launch of AI agents. This solution uses two components to detect AI agents and control how they are used. Application Control categorizes the application processes launched on endpoints, and Web Control manages access to specific categories of web resources for users on endpoints. Finally, even harmless AI agents can contain malicious instructions (skills), such as those downloaded from unsafe external sources. Kaspersky Scan Engine analyzes installed applications to detect these threats and also checks LLM files for malicious code. Let’s take a closer look at these solutions and technologies. Popular AI applications and services in organizations Tools from Anthropic and OpenAI take the top spots in the September 2026 ranking of AI agents by popularity among Kaspersky users. This list is based on telemetry from Kaspersky solutions. It shows the number of users who had the relevant AI vendors’ products installed at the time of the study. # AI product 1 Claude 2 Claude Code 3 Codex 4 OpenCode 5 Zed 6 Wispr Flow 7 LM Studio 8 ZCode 9 Chatbox 10 Cherry Studio The data shows that agentic systems, especially AI agents for software development, are the most popular AI applications. The TOP 10 also includes an application for running large language models locally (LM Studio) and a voice note-taking app (Wispr Flow). According to open sources, these are the most widely used AI services in 2026: # AI service 1 ChatGPT 2 Google Gemini 3 Claude 4 Grammarly 5 DeepSeek While analyzing the most popular and widely used apps, our experts also noticed a sharp rise in vulnerable versions of AI-related software and services . From 2025 to date, more than 2500 vulnerabilities have been published: Number of published vulnerabilities in LLMs, AI tools, and plugins with similar functionality, 2025–2026 ( download ) * Data for previous quarters was updated and may differ slightly from previously published data. Applicati
 ```
 
 #### Corroborating sources (1)
 
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: ESET APT Activity Report Q2 2026–Q3 2026
-  - Published: 2026-10-28T09:45:00+00:00
-  - Link: https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q2-2026-q3-2026/
-  - Summary: An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q2 2026 and Q3 2026
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: Deploying AI agents securely: how Kaspersky products mitigate AI threats
+  - Published: 2026-10-26T10:00:18+00:00
+  - Link: https://securelist.com/tr/how-to-secure-ai-agents/121444/
+  - Summary: We look at best practices for deploying AI tools securely in corporate environments, with Kaspersky Security Center and Kaspersky Endpoint Security as examples. We also cover ways that EDR and TIP can detect AI agents.
 
 ### Cluster 9839749b4a — score 10
 
@@ -2824,45 +2815,6 @@ Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Camp
   - Link: https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html
   - Summary: The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. "First identified in late 2023, Silent Train uses rotating chains of compromised SOHO, IoT, and enterprise infrastructure," Lumen Technologies Black Lotus Labs said in a report shared
 
-### Cluster d797e0f3c5 — score 10
-
-- Title: Mirage2FA stole 4,561 M365 session cookies despite MFA via AiTM proxy (CVE-2026-69836 CVSS 10.0) : detection rules and WHfB/Cloud Kerberos Trust hardening guide
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-11-01T10:15:16+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1xkzjb0/mirage2fa_stole_4561_m365_session_cookies_despite/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-69836
-
-#### Cluster taxonomy (union across members)
-- threat_categories: mfa_bypass
-- cve_ids: CVE-2026-69836
-- urgency_signals: critical_cvss
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- threat_categories: mfa_bypass
-- cve_ids: CVE-2026-69836
-- urgency_signals: critical_cvss
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/doit4everyone [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: Mirage2FA stole 4,561 M365 session cookies despite MFA via AiTM proxy (CVE-2026-69836 CVSS 10.0) : detection rules and WHfB/Cloud Kerberos Trust hardening guide
-  - Published: 2026-11-01T10:15:16+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1xkzjb0/mirage2fa_stole_4561_m365_session_cookies_despite/
-  - Summary: submitted by /u/doit4everyone [link] [comments]
-
 ### Cluster 7538659fd0 — score 9
 
 - Title: Deploying a Local Ghidra Server for Your Malware Analysis Lab, (Thu, Oct 29th)
@@ -3030,117 +2982,6 @@ Infosecurity Magazine Home » News » PHP Publishes Mitigation Advice for New RC
   - Published: 2026-10-26T09:15:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/php-publishes-mitigation-advice/
   - Summary: PHP warns of critical RCE vulnerability CVE-2026-115560, but says limited exploit conditions mean most deployments are unlikely to be affected
-
-### Cluster fcee7a9b28 — score 9
-
-- Title: TeamViewer RCE Vulnerability (CVE-2026-11585)
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-10-29T14:07:38+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1xikzuw/teamviewer_rce_vulnerability_cve202611585/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-11585
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-11585
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- cve_ids: CVE-2026-11585
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/NewResearch1337 [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: TeamViewer RCE Vulnerability (CVE-2026-11585)
-  - Published: 2026-10-29T14:07:38+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1xikzuw/teamviewer_rce_vulnerability_cve202611585/
-  - Summary: submitted by /u/NewResearch1337 [link] [comments]
-
-### Cluster 5cefe132d9 — score 9
-
-- Title: Axis Camera Station Deep-Dive: Unauth RCE to Decrypting Every Camera Credential (CVE-2025-30026/30023 + CVE-2026-63286)
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-10-29T08:45:46+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1xiekai/axis_camera_station_deepdive_unauth_rce_to/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2025-30026, CVE-2026-63286
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2025-30026, CVE-2026-63286
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- cve_ids: CVE-2025-30026, CVE-2026-63286
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/Rare_Bicycle_5705 [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: Axis Camera Station Deep-Dive: Unauth RCE to Decrypting Every Camera Credential (CVE-2025-30026/30023 + CVE-2026-63286)
-  - Published: 2026-10-29T08:45:46+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1xiekai/axis_camera_station_deepdive_unauth_rce_to/
-  - Summary: submitted by /u/Rare_Bicycle_5705 [link] [comments]
-
-### Cluster ca64afabfe — score 9
-
-- Title: Risky Bulletin: Brotli RCE is wrecking what's left of the internet
-- Source: Risky Business News (practitioner_analysis)
-- Published: 2026-10-26T01:20:43+00:00
-- Link: https://risky.biz/RBNEWS625/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ddos
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- threat_categories: ddos
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-While everyone was distracted by PHP, another RCE has been wrecking the internet, Australia’s ABC wipes some staff devices, a third PHP RCE is incoming and researchers discover a new DDoS attack vector in HTTP/3.
-```
-
-#### Full body
-
-```
-Risky Bulletin Podcast October 26, 2026 Risky Bulletin: Brotli RCE is wrecking what's left of the internet Presented by Catalin Cimpanu News Editor Claire Aird Newsreader While everyone was distracted by PHP, another RCE has been wrecking the internet, Australiaâs ABC wipes some staff devices, a third PHP RCE is incoming and researchers discover a new DDoS attack vector in HTTP/3. Your browser does not support the audio element. Risky Bulletin: Brotli RCE is wrecking what's left of the internet â¶ 0:00 / 7:50 Subscribe Brought to you by Nebulock Hunt-first security operations Show notes Risky Bulletin: While everyone was looking at PHP, another RCE is wrecking what's left of the internet
-```
-
-#### Corroborating sources (1)
-
-- **Risky Business News** (practitioner_analysis)
-  - Title: Risky Bulletin: Brotli RCE is wrecking what's left of the internet
-  - Published: 2026-10-26T01:20:43+00:00
-  - Link: https://risky.biz/RBNEWS625/
-  - Summary: While everyone was distracted by PHP, another RCE has been wrecking the internet, Australia’s ABC wipes some staff devices, a third PHP RCE is incoming and researchers discover a new DDoS attack vector in HTTP/3.
 
 ### Cluster 516648f62d — score 9
 
@@ -3475,6 +3316,49 @@ Home Blog Introducing the Huntress Neighborhood Watch Program Last Updated: Octo
   - Link: https://www.huntress.com/blog/introducing-the-huntress-neighborhood-watch-program
   - Summary: Learn more about how Huntress protects MSPs with our Neighborhood Watch Program. Test the agentic platform and 24/7 SOC in your environment before rolling out to clients.
 
+### Cluster f2e7c5b1f2 — score 8
+
+- Title: Florida warns that 4.9 million people had Social Security numbers leaked in financial aid site breach
+- Source: The Record (cyber_news_breach_reporting)
+- Published: 2026-10-30T15:54:00+00:00
+- Link: https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- affected_industries: education, financial_services, government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- affected_industries: financial_services, government, education
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The state’s Department of Education (FLDOE) said on Thursday it became aware of a data breach involving the Florida Student Financial Aid website on October 19.
+```
+
+#### Full body
+
+```
+Florida State University campus. Image: Ernie Stephens via Unsplash Florida warns that 4.9 million people had Social Security numbers leaked in financial aid site breach Florida warned students that a recent data breach exposed sensitive information — including Social Security numbers and addresses — on nearly 5 million people who have applied for financial aid in the state. The state’s Department of Education (FLDOE) said on Thursday it became aware of a data breach involving the Florida Student Financial Aid website on October 19. The information exposed includes names, addresses, phone numbers, genders, email addresses, Social Security numbers and dates of birth. “An unauthorized party gained access to a system or database containing company or customer information,” the department said in a statement. “FLDOE is partnering with the Florida Digital Service and the Florida Department of Law Enforcement in its response to the event.” FLDOE has taken the financial aid site down and warned that other department websites and services may experience temporary disruptions. Financial aid for students is not at risk and the breach will not delay aid disbursements or tuition payments. The incident will also not impact scholarships, grants or student loans. The state urged those affected to monitor their credit reports and financial accounts for any irregular activity. The department declined to comment about the nature of the incident or the attackers. The statement says the incident has been contained and was reported to the Office of the Attorney General. The attack on FLDOE comes just one week after California’s education department announced its own breach involving all children enrolled in the state’s public school system over the last three years. The incident is the second large Florida government breach this year, with the state’s Department of Motor Vehicles reporting a data breach perpetrated by a prominent hacking group last month. Members of the group have continued to offer the stolen DMV data for sale on cybercriminal forums throughout October. Another large county in central Florida is dealing with significant internet outages after an alleged cyberattack on Wednesday. Cybercrime Government News Privacy No previous article No new articles Jonathan Greig is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.
+```
+
+#### Corroborating sources (1)
+
+- **The Record** (cyber_news_breach_reporting)
+  - Title: Florida warns that 4.9 million people had Social Security numbers leaked in financial aid site breach
+  - Published: 2026-10-30T15:54:00+00:00
+  - Link: https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach
+  - Summary: The state’s Department of Education (FLDOE) said on Thursday it became aware of a data breach involving the Florida Student Financial Aid website on October 19.
+
 ### Cluster aa6465f45c — score 8
 
 - Title: FBI links $6.3 billion Binance crypto heist to North Korean hackers
@@ -3565,59 +3449,26 @@ Chainalysis discloses data breach from "offensive agentic techniques" By Ax Shar
   - Link: https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/
   - Summary: Blockchain analytics firm Chainalysis disclosed a data breach after attackers used "offensive agentic techniques" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]
 
-### Cluster f2e7c5b1f2 — score 8
-
-- Title: Florida warns that 4.9 million people had Social Security numbers leaked in financial aid site breach
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-10-30T15:54:00+00:00
-- Link: https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: education, financial_services
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: financial_services, education
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The state’s Department of Education (FLDOE) said on Thursday it became aware of a data breach involving the Florida Student Financial Aid website on October 19.
-```
-
-#### Corroborating sources (1)
-
-- **The Record** (cyber_news_breach_reporting)
-  - Title: Florida warns that 4.9 million people had Social Security numbers leaked in financial aid site breach
-  - Published: 2026-10-30T15:54:00+00:00
-  - Link: https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach
-  - Summary: The state’s Department of Education (FLDOE) said on Thursday it became aware of a data breach involving the Florida Student Financial Aid website on October 19.
-
 ### Cluster cd1d6d7c27 — score 8
 
 - Title: Leak site publishes data on more than 41,000 DHS employees obtained by hacktivists
 - Source: CyberScoop (cyber_news_breach_reporting)
 - Published: 2026-10-28T21:33:00+00:00
 - Link: https://cyberscoop.com/dhs-employee-data-leak-ddosecrets/
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- affected_industries: government
+- affected_products: GitHub, Okta
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
+- affected_industries: government
+- affected_products: Okta, GitHub
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3625,6 +3476,12 @@ The state’s Department of Education (FLDOE) said on Thursday it became aware o
 
 ```
 The Department of Peace group shared it with Swiss hacker/journalist maia arson crimew and DDoSecrets put it online. The post Leak site publishes data on more than 41,000 DHS employees obtained by hacktivists appeared first on CyberScoop .
+```
+
+#### Full body
+
+```
+Advertisement Get our latest cybersecurity news first on Google. Click here! Close A leak website was published Wednesday, showcasing internal data on more than 41,000 Department of Homeland Security employees and contractors after it was obtained by hackers who claimed to have breached an identity service used by the agency. The transparency nonprofit Distributed Denial of Secrets and the hacker maia arson crimew got the data from a hacktivist outfit known as the Department of Peace. ”The leak is extraordinary but deceptive in [its] simplicity as it identifies the officials responsible for overseeing covert and undercover operations, the government’s hunt for leakers and the failed BlueLeaks investigation — along with key personnel in DHS’s ever-escalating rendition and deportation programs,” said Emma Best, founder of DDoSecrets. CyberScoop was able to verify numerous current Cybersecurity and Infrastructure Agency employees are listed in the data, along with some former leadership members who left the agency years ago. Advertisement The data goes back years, with various group names listed in the database making reference to COVID-19 planning and internal summits in 2023. As of Thursday morning, the website hosting a searchable form of the data has been taken offline . The hacktivists said the breach was a response to the promise of stepped-up operations from Immigrations and Customs Enforcement by DHS Secretary Markwayne Mullin. ”On July 17th, Markwayne Mullin said he was ’turning up the heat.’ This is what happens to ICE when you do that,” said a spokesperson for the Department of Peace. The spokesperson said they obtained the database from an Okta single sign-on service used at DHS. Okta said it was aware of the report. Advertisement “Okta is secure, and we have no evidence our data or systems were compromised,” an Okta spokesperson said. DHS did not immediately respond to a request for comment. ”This dataset is massive in terms of both size and impact,” said crimew, a Swiss hacker and journalist who has been indicted in the United States over past leaks and who created a search tool for the DHS data. “It provides an unprecedented look into the Department of Homeland Security’s organizational structure, highlighting which people do what work across multiple DHS agencies, including ICE.” One researcher said the leak could prove valuable for Freedom of Information Act requests. “Email addresses and phone numbers are indispensable tools for FOIA researchers, often making the difference between a vague records request that gets stonewalled and one that gets results,” Ryan Shapiro, executive director of Property of the People, said. “Given the Trump administration’s contempt for even basic transparency, the need for such tools is urgent.” Advertisement DHS has suffered notable breaches before, dating back to a 2014 breach that may have exposed the data of 390,000 then-current and former Homeland Security Department employees, job applicants and contractors. In 2018, DHS notified nearly 250,000 people of a breach at the department. Earlier this year, Security firm GitGuardian said it discovered a public GitHub repository that exposed credentials for privileged AWS GovCloud accounts and internal CISA systems dating back to November 2025. Greg Otto contributed to this story. UPDATE: 10/29/2026, 9:30 a.m.: This story has been updated with details about the web-based database being taken offline. Share Facebook LinkedIn Twitter Copy Link Add to Preferred Sources Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops A U.S. Department of Homeland Security logo is displayed at the Federal Emergency Management Agency (FEMA) headquarters on May 30, 2026 in Washington, DC. (Photo by Kevin Carter/Getty Images) A sign at a protest in support of Julian Assange outside the British Consulate in New York City, Feb. 24, 2020. (Pamela Drew / Flickr) (DHS photo by Jetta Disco / Flickr) Latest Podcasts The
 ```
 
 #### Corroborating sources (1)
@@ -3641,7 +3498,7 @@ The Department of Peace group shared it with Swiss hacker/journalist maia arson 
 - Source: Dark Reading (cyber_news_breach_reporting)
 - Published: 2026-10-26T20:59:26+00:00
 - Link: https://www.darkreading.com/application-security/in-the-wild-attack-ai-agents-trust-markdown
-- Fetch status: not_attempted
+- Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -3676,17 +3533,19 @@ A new AI agent prompt injection technique exploits how coding assistants consume
 - Source: The Hacker News (cyber_news_breach_reporting)
 - Published: 2026-11-01T08:51:31+00:00
 - Link: https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-112816
 - urgency_signals: critical_cvss
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
+- cve_ids: CVE-2026-112816
 - urgency_signals: critical_cvss
 - content_type: news_report
 - confidence_tier: tier_4_news
@@ -3695,6 +3554,12 @@ A new AI agent prompt injection technique exploits how coding assistants consume
 
 ```
 A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate. Once in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is
+```
+
+#### Full body
+
+```
+CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key  Swati Khandelwal  Nov 01, 2026 Vulnerability / Cloud Security A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate. Once in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is privileged, the attacker could gain "root access to the host machine," Canonical said. The flaw, tracked as CVE-2026-112816 , carries a maximum CVSS score of 10.0, and Canonical has released fixed versions of both products. How the Flaw Works LXD and MicroCloud let remote clients access their APIs over mutual TLS, a setup in which the client presents a certificate to prove who it is. A client is trusted when its certificate is in the server's trust store, the list of identities the server will accept. The flaw was in how the server checked that certificate. It compared every certificate the client sent against the trust store, but a TLS connection only proves the client owns the private key for the first certificate in the chain, the leaf. The rest of the chain is whatever the client chose to attach. So an attacker could take a trusted client's public certificate, which is not secret, attach it to the chain behind their own, and the server would accept them as that client. Who Is Affected Using the flaw takes two things: network access to the HTTPS API, and the public certificate of a client the server already trusts. A standalone LXD server does not expose that API by default. It listens only on a local socket unless an administrator turns on the network API with the core.https_address setting. MicroCloud, which ties several machines running LXD into one cluster, has a specific weak point. Canonical said an attacker who can capture a member's public certificate as it joins the cluster can then log in as that member. The CVE record lists LXD 4.0.14, 5.0.10, 5.21.8 and 6.9 as affected, each before the fixed release that follows. Canonical lists these fixed snap versions: Product Snap channel Fixed version LXD 6/stable 6.10.1 LXD 5.21/stable 5.21.9 LXD 5.0/stable 5.0.11 LXD 4.0/stable 4.0.15 MicroCloud 3/stable 3.4.1 MicroCloud 2/stable 2.1.5 The bug did not start at Canonical. The Incus project, which began as a community fork of LXD, reported it , and Canonical confirmed it affected LXD as well. Incus fixed the same flaw in version 7.6.0. Ubuntu's own archive packages of LXD are listed as not affected or not shipped, so the fixed releases are the snaps. There is no public sign the flaw has been used in an attack. The CVE record carries a U.S. CISA assessment, dated October 30, that the flaw is not known to have been exploited; it is not on CISA's Known Exploited Vulnerabilities list, and no working exploit has been published. What to Do Update LXD and MicroCloud to the fixed versions. On a snap install, run sudo snap refresh lxd and sudo snap refresh microcloud. Canonical said the fixed LXD point releases were still rolling out from the candidate channel to stable at the time of its advisory, so check the version you actually have after the refresh rather than assume the fix arrived. Canonical's advisory gives no temporary workaround for LXD. Because the attack requires network access to the API, limiting who can reach it reduces risk until you update. The Incus project, reporting the same flaw, said there is no configuration fix and that the only step is to restrict network access to the listener. Incus users should move to 7.6.0 , which fixed this flaw along with 17 other security issues. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Cloud security , linux , Vul
 ```
 
 #### Corroborating sources (1)
@@ -3711,18 +3576,24 @@ A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a tr
 - Source: Infosecurity Magazine (cyber_news_breach_reporting)
 - Published: 2026-10-26T12:45:00+00:00
 - Link: https://www.infosecurity-magazine.com/news/microsoft-patch-update-net-flaw/
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- urgency_signals: emergency_patch
+- threat_categories: ddos
+- affected_products: Apple iOS/macOS
+- cve_ids: CVE-2026-102870, CVE-2026-111497, CVE-2026-114148, CVE-2026-70197
+- urgency_signals: emergency_patch, preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- urgency_signals: emergency_patch
+- threat_categories: ddos
+- affected_products: Apple iOS/macOS
+- cve_ids: CVE-2026-111497, CVE-2026-114148, CVE-2026-70197, CVE-2026-102870
+- urgency_signals: preauth_unauth, emergency_patch
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -3730,6 +3601,12 @@ A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a tr
 
 ```
 Microsoft’s updates address two newly disclosed vulnerabilities in the .NET developer platform, as well as flaws not fully addressed in an earlier release
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » Microsoft Issues Emergency Patch Update for Critical .NET Buffer Overflow Flaw Microsoft Issues Emergency Patch Update for Critical .NET Buffer Overflow Flaw News 26 October 2026 Written by James Coker Deputy Editor , Infosecurity Magazine Follow @ReporterCoker Microsoft has released out-of-bound (OOB) security updates for its .NET developer platform, which includes a fix for a critical buffer overflow vulnerability. The tech giant published the updates for .NET versions 8, 9, 10, and 11 Release Candidate 3 on October 25. Platform users have been urged to apply the updates as soon as possible to reduce the risk of compromise. They contain patches for two newly disclosed vulnerabilities, as well as two flaws that were not fully addressed in Microsoft’s October Patch Tuesday rollout. Single updates are available for each of the affected .NET versions and .NET 11 RC2 users should update to RC3 to receive these fixes. .NET is a free, open-source framework that developers can use to build apps and cloud services. It is managed by Microsoft and is supported on Windows, Linux and macOS operating systems. Updates Address Critical Buffer Overflow Vulnerability One of the new vulnerabilities addressed is CVE-2026-111497 , which affects .NET versions 8, 9, 10, and 11 across all operating systems. The vulnerability is contained in the Brotli decompression algorithm, which is used by .NET. It can allow an unauthenticated attacker to read or corrupt process memory, leading to information disclosure, denial of service or elevation of privilege. Microsoft said that applications may be affected if they process Brotli-compressed data through ASP.NET Core request decompression, HttpClient automatic response decompression or the System.IO.Compression Brotli APIs. The flaw has a critical CVSS Score of 9.2. Users of Google Brotli versions 1.0.3 through 1.2.0 also need to update any Brotli libraries or binaries to the latest available version. Brotli was designed by two engineers at Google in 2015 to allow developers to speed up algorithm compression for developers. Microsoft’s OOB update also addresses CVE-2026-114148, which can allow an authorized attacker to elevate privileges locally by exploiting unsafe ownership metadata in affected .NET tarballs. CVE-2026-114148 affects .NET versions 7-11, but only for Linux systems. For .NET 10 and .NET 11, CVE-2026-114148 affects source-build tarballs only. For .NET 8 and .NET 9, it also affects ASP.NET Core distributions obtained through ASP.NET Core tarballs, including users who do not build .NET from source, the advisory noted. It has not been assigned a CVSS score at the time of writing but has been reserved by a CVE Numbering Authority (CNA) . In addition, Microsoft has re-issued fixes for two vulnerabilities disclosed in its October 13 Patch Tuesday rollout. These are for CVE-2026-70197 , a memory corruption flaw affecting .NET versions 8-11, and CVE-2026-102870 , a code injection vulnerability affecting .NET 10 and 11. Remediation Guidance for Developers Microsoft issued advice for .NET users on how to update their applications and build environments in light of the updates. These include: Install the updated runtime for the .NET version for your framework-dependent application, then restart the application Rebuild and republish self-contained applications with the updated runtime Rebuild and redeploy containers using updated .NET container images Obtain the updated source-build artifacts for your .NET version and rebuild your packages to incorporate the tarball ownership fix For ASP.NET Core tarball users on .NET 8 and 9, update your installation using the refreshed ASP.NET Core Runtime tarball for your .NET version Image credit: II.studio / Shutterstock.com You may also like Microsoft gets agile with Security Development Lifecycle News 13 November 2009 Microsoft's Answer to Buggy Code: Monitor the Coder News 16 July 2014 Microsoft kills most of Forefront portfoli
 ```
 
 #### Corroborating sources (1)
@@ -3740,40 +3617,75 @@ Microsoft’s updates address two newly disclosed vulnerabilities in the .NET de
   - Link: https://www.infosecurity-magazine.com/news/microsoft-patch-update-net-flaw/
   - Summary: Microsoft’s updates address two newly disclosed vulnerabilities in the .NET developer platform, as well as flaws not fully addressed in an earlier release
 
-### Cluster 164e3991c3 — score 8
+### Cluster 1b7b6d5d07 — score 8
 
-- Title: TightVNC Viewer Pre-auth RCE
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-10-29T14:09:08+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1xil17j/tightvnc_viewer_preauth_rce/
+- Title: Synology urges users to update DSM following ransomware attacks on outdated DSM versions| Synology Inc.
+- Source: Reddit r/blueteamsec (reddit_practitioner_osint)
+- Published: 2026-11-01T21:02:10+00:00
+- Link: https://www.reddit.com/r/blueteamsec/comments/1xlecms/synology_urges_users_to_update_dsm_following/
 - Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- urgency_signals: preauth_unauth
-- content_type: news_report
+- threat_categories: ransomware_extortion
+- content_type: incident_report
 - confidence_tier: tier_5_chatter
 
 #### Primary article taxonomy
-- urgency_signals: preauth_unauth
-- content_type: news_report
+- threat_categories: ransomware_extortion
+- content_type: incident_report
 - confidence_tier: tier_5_chatter
 
 #### Summary
 
 ```
-What if a VNC server could make your viewer believe it had a ~4 GB framebuffer… while actually allocating only 128 KB? That’s the core of this TightVNC vulnerability. A malicious server can announce a crafted 32768 × 32769 screen at 32bpp, causing the framebuffer size calculation to overflow. The allocation wraps down to 128 KB, but the viewer continues using the original, much larger dimensions when calculating pixel writes. The result is a server-controlled out-of-bounds write in the viewer. It’s a good example of how a relatively small integer-overflow mistake can become a powerful memory-corruption primitive when different parts of the application disagree about the true size of a buffer. submitted by /u/SSDisclosure [link] [comments]
+submitted by /u/campuscodi [link] [comments]
 ```
 
 #### Corroborating sources (1)
 
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: TightVNC Viewer Pre-auth RCE
-  - Published: 2026-10-29T14:09:08+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1xil17j/tightvnc_viewer_preauth_rce/
-  - Summary: What if a VNC server could make your viewer believe it had a ~4 GB framebuffer… while actually allocating only 128 KB? That’s the core of this TightVNC vulnerability. A malicious server can announce a crafted 32768 × 32769 screen at 32bpp, causing the framebuffer size calculation to overflow. The allocation wraps down to 128 KB, but the viewer continues using the original, much larger dimensions when calculating pixel writes. The result is a server-controlled out-of-bounds write in the viewer. It’s a good example of how a relatively small integer-overflow mistake can become a powerful memory-corruption primitive when different parts of the application disagree about the true size of a buffer. submitted by /u/SSDisclosure [link] [comments]
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - Title: Synology urges users to update DSM following ransomware attacks on outdated DSM versions| Synology Inc.
+  - Published: 2026-11-01T21:02:10+00:00
+  - Link: https://www.reddit.com/r/blueteamsec/comments/1xlecms/synology_urges_users_to_update_dsm_following/
+  - Summary: submitted by /u/campuscodi [link] [comments]
+
+### Cluster 675ec193fb — score 8
+
+- Title: netprobe-cve-2026-98432: You should patch, but not worry about CVE-2026-98432
+- Source: Reddit r/blueteamsec (reddit_practitioner_osint)
+- Published: 2026-11-01T07:42:29+00:00
+- Link: https://www.reddit.com/r/blueteamsec/comments/1xkx5vf/netprobecve202698432_you_should_patch_but_not/
+- Fetch status: not_attempted
+- Member count: 3
+- Corroborating source count: 1
+- Strong signals: CVE-2026-98432
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-98432
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- cve_ids: CVE-2026-98432
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+submitted by /u/digicat [link] [comments]
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - Title: netprobe-cve-2026-98432: You should patch, but not worry about CVE-2026-98432
+  - Published: 2026-11-01T07:42:29+00:00
+  - Link: https://www.reddit.com/r/blueteamsec/comments/1xkx5vf/netprobecve202698432_you_should_patch_but_not/
+  - Summary: submitted by /u/digicat [link] [comments]
 
 ### Cluster 43b7acdd25 — score 8
 
