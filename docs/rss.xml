@@ -6,9 +6,47 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 03 Nov 2026 21:40:51 +0000</lastBuildDate>
+<lastBuildDate>Wed, 04 Nov 2026 02:04:26 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach</title>
+<link>https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach</link>
+<description><![CDATA[An unknown operator appears to have exfiltrated SQL Server backups from the Philippine Overseas Employment Administration in under a half hour.]]></description>
+<pubDate>Wed, 04 Nov 2026 02:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Risky Bulletin: Hackers brick Chinese EVs in Russia</title>
+<link>https://risky.biz/RBNEWS629/</link>
+<description><![CDATA[Hackers brick Chinese EVs in Russia, a second wave of hacks defrost European supermarket freezers, the US boots Acronis from government networks and the major distros patch a Linux kernel RCE.<br/><br/><em>Tags: Linux kernel</em>]]></description>
+<pubDate>Wed, 04 Nov 2026 00:53:51 +0000</pubDate>
+<guid isPermaLink="true">https://risky.biz/RBNEWS629/</guid>
+<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
+<category>practitioner_analysis</category>
+<category>Linux kernel</category>
+</item>
+<item>
+<title>Hackers hijack cPGuard autoupdate to deploy backdoor, steal data</title>
+<link>https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/</link>
+<description><![CDATA[Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...]<br/><br/><em>Tags: web_shell_backdoor</em>]]></description>
+<pubDate>Tue, 03 Nov 2026 22:18:50 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>web_shell_backdoor</category>
+</item>
+<item>
+<title>Fresh European Fridge Attacks Put Cold-Chain Security in Focus</title>
+<link>https://www.darkreading.com/ics-ot-security/fresh-european-fridge-attacks-cold-chain-security</link>
+<description><![CDATA[Beyond food storage, the same combination of Internet connectivity, remote access, and inadequate security practices can put temperature-controlled infrastructure across other critical sectors at risk.]]></description>
+<pubDate>Tue, 03 Nov 2026 22:16:49 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/ics-ot-security/fresh-european-fridge-attacks-cold-chain-security</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>WorkOS says attacker used ARTEX AI to breach internal sales app</title>
 <link>https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/</link>
@@ -79,7 +117,7 @@
 <description><![CDATA[Microsoft Threat Intelligence tracks a fake-download campaign that uses trojanized Inno installers to deliver multiple monetization offers and provides detection and investigation guidance across the complete installer session. The post Fake-download campaign uses trojanized installers to deliver monetization payloads appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft Defender · phishing_social_eng</em>]]></description>
 <pubDate>Tue, 03 Nov 2026 17:32:47 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>Microsoft Defender</category>
 <category>phishing_social_eng</category>
@@ -90,7 +128,7 @@
 <description><![CDATA[Microsoft Threat Intelligence tracks a fake-download campaign that uses trojanized Inno installers to deliver multiple monetization offers and provides detection and investigation guidance across the complete installer session. The post Fake-download campaign uses trojanized installers to deliver monetization payloads appeared first on Microsoft Security Blog .]]></description>
 <pubDate>Tue, 03 Nov 2026 17:32:47 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 </item>
 <item>
@@ -325,15 +363,11 @@
 <item>
 <title>Android’s November 2026 Updates Patch Over 200 Vulnerabilities</title>
 <link>https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/</link>
-<description><![CDATA[The most severe is a critical flaw in Framework leading to remote code execution without user interaction. The post Android’s November 2026 Updates Patch Over 200 Vulnerabilities appeared first on SecurityWeek .<br/><br/><em>Tags: GitLab · Ivanti · WordPress · CVE-2026-58868 · supply_chain · data_breach · ddos</em>]]></description>
+<description><![CDATA[The most severe is a critical flaw in Framework leading to remote code execution without user interaction. The post Android’s November 2026 Updates Patch Over 200 Vulnerabilities appeared first on SecurityWeek .]]></description>
 <pubDate>Tue, 03 Nov 2026 12:21:49 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
-<category>GitLab</category>
-<category>Ivanti</category>
-<category>WordPress</category>
-<category>CVE-2026-58868</category>
 </item>
 <item>
 <title>Critical Node-RED Flaw Exploited in Attacks</title>
@@ -462,6 +496,18 @@
 <guid isPermaLink="true">https://www.helpnetsecurity.com/2026/11/03/gorbag-apt-group-malware/</guid>
 <source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
 <category>cyber_news_breach_reporting</category>
+<category>apt_espionage</category>
+</item>
+<item>
+<title>Gorbag: Orcs at the border harvesting intelligence from Ukraine</title>
+<link>https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine/</link>
+<description><![CDATA[ESET researchers uncover Gorbag, a Russia-aligned group using simple infostealers to harvest data from Ukrainian organizations near the front line<br/><br/><em>Tags: CVE-2025-8088 · credential_theft · apt_espionage</em>]]></description>
+<pubDate>Tue, 03 Nov 2026 09:50:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine/</guid>
+<source url="https://www.welivesecurity.com/en/rss/feed/">ESET WeLiveSecurity</source>
+<category>threat_research_primary</category>
+<category>CVE-2025-8088</category>
+<category>credential_theft</category>
 <category>apt_espionage</category>
 </item>
 <item>
@@ -709,7 +755,7 @@
 <description><![CDATA[Real-world exploitation concentrates in a small, high-impact subset of CVEs. Learn how defenders can prioritize vulnerabilities based on exploitation likelihood, exposure, and potential blast radius. The post What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft Defender · ddos</em>]]></description>
 <pubDate>Mon, 02 Nov 2026 20:20:59 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>Microsoft Defender</category>
 <category>ddos</category>
@@ -720,7 +766,7 @@
 <description><![CDATA[Real-world exploitation concentrates in a small, high-impact subset of CVEs. Learn how defenders can prioritize vulnerabilities based on exploitation likelihood, exposure, and potential blast radius. The post What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks appeared first on Microsoft Security Blog .]]></description>
 <pubDate>Mon, 02 Nov 2026 20:20:59 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 </item>
 <item>
@@ -883,15 +929,6 @@
 <category>Cl0p</category>
 <category>ransomware_extortion</category>
 <category>zero_day</category>
-</item>
-<item>
-<title>Hackers disrupt refrigeration systems at European supermarkets</title>
-<link>https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/</link>
-<description><![CDATA[A cyberattack on refrigeration systems has disrupted stores run by multiple supermarket chains across several European countries after hackers remotely changed temperature settings on freezers and cooling systems. [...]]]></description>
-<pubDate>Mon, 02 Nov 2026 14:28:39 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Shutting the Door on the XCPE Botnet</title>
@@ -1247,7 +1284,7 @@
 <description><![CDATA[Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it. The post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Anthropic/Claude · Microsoft Defender · supply_chain · web_shell_backdoor</em>]]></description>
 <pubDate>Sat, 31 Oct 2026 01:02:57 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>Anthropic/Claude</category>
 <category>Microsoft Defender</category>
@@ -1260,7 +1297,7 @@
 <description><![CDATA[Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it. The post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Anthropic/Claude · web_shell_backdoor</em>]]></description>
 <pubDate>Sat, 31 Oct 2026 01:02:57 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>Anthropic/Claude</category>
 <category>web_shell_backdoor</category>
@@ -1356,7 +1393,7 @@
 <description><![CDATA[Teams support impersonation led to remote access, malicious runtime execution, and Certificate Services abuse through authentication relay and Kerberos. The post From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft Defender · Microsoft Windows · phishing_social_eng</em>]]></description>
 <pubDate>Fri, 30 Oct 2026 16:11:44 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>Microsoft Defender</category>
 <category>Microsoft Windows</category>
@@ -1368,7 +1405,7 @@
 <description><![CDATA[Teams support impersonation led to remote access, malicious runtime execution, and Certificate Services abuse through authentication relay and Kerberos. The post From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths appeared first on Microsoft Security Blog .]]></description>
 <pubDate>Fri, 30 Oct 2026 16:11:44 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 </item>
 <item>
@@ -1625,11 +1662,13 @@
 <item>
 <title>Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)</title>
 <link>https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/</link>
-<description><![CDATA[CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems. The post Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29) appeared first on Unit 42 .<br/><br/><em>Tags: CVE-2026-109618 · CVE-2026-109619</em>]]></description>
+<description><![CDATA[CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems. The post Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29) appeared first on Unit 42 .<br/><br/><em>Tags: Palo Alto Networks · Linux kernel · CVE-2026-109618 · CVE-2026-109619 · active_exploitation</em>]]></description>
 <pubDate>Thu, 29 Oct 2026 18:00:34 +0000</pubDate>
 <guid isPermaLink="true">https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/</guid>
 <source url="https://unit42.paloaltonetworks.com/feed/">Unit 42</source>
 <category>threat_research_primary</category>
+<category>Palo Alto Networks</category>
+<category>Linux kernel</category>
 <category>CVE-2026-109618</category>
 <category>CVE-2026-109619</category>
 </item>
@@ -1658,7 +1697,7 @@
 <description><![CDATA[As Microsoft Threat Intelligence continues to track how threat actors operationalize AI to increase the speed and efficiency of attacks, we’ve identified North Korean threat actors expanding their use of AI with varying levels of adoption. This blog breaks down how North Korean threat actors are utilizing AI across their operations, reflecting a broader trend of threat actors incorporating AI into their attack chains. The post Tracking AI adoption in North Korean threat actor tradecraft appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft Defender · phishing_social_eng</em>]]></description>
 <pubDate>Thu, 29 Oct 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>Microsoft Defender</category>
 <category>phishing_social_eng</category>
@@ -1669,13 +1708,13 @@
 <description><![CDATA[As Microsoft Threat Intelligence continues to track how threat actors operationalize AI to increase the speed and efficiency of attacks, we’ve identified North Korean threat actors expanding their use of AI with varying levels of adoption. This blog breaks down how North Korean threat actors are utilizing AI across their operations, reflecting a broader trend of threat actors incorporating AI into their attack chains. The post Tracking AI adoption in North Korean threat actor tradecraft appeared first on Microsoft Security Blog .]]></description>
 <pubDate>Thu, 29 Oct 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 </item>
 <item>
 <title>Cloud CISO Perspectives: Introducing new $250,000 tier for Google Cloud VRP (Q&amp;A)</title>
 <link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-introducing-new-tier-for-google-cloud-vrp/</link>
-<description><![CDATA[Welcome to the second Cloud CISO Perspectives for October 2026. Today, Chris Betz talks with Michael Cote, our vulnerability rewards program lead, about the new tier of our Cloud VRP program and the current state of vulnerability rewards. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f932d7c9990&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, None)])]&gt; Why we&apos;ve created a new $250,000 tier for Google Cloud VRP (Q&amp;A) By Chris Betz, CISO, Google Cloud The Google Cloud Vulnerability Re<br/><br/><em>Tags: Google Cloud</em>]]></description>
+<description><![CDATA[Welcome to the second Cloud CISO Perspectives for October 2026. Today, Chris Betz talks with Michael Cote, our vulnerability rewards program lead, about the new tier of our Cloud VRP program and the current state of vulnerability rewards. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f7870663650&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, None)])]&gt; Why we&apos;ve created a new $250,000 tier for Google Cloud VRP (Q&amp;A) By Chris Betz, CISO, Google Cloud The Google Cloud Vulnerability Re<br/><br/><em>Tags: Google Cloud</em>]]></description>
 <pubDate>Thu, 29 Oct 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-introducing-new-tier-for-google-cloud-vrp/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
@@ -1962,12 +2001,13 @@
 <item>
 <title>Node2Shell: Reproducing CVE-2026-111497 in the Node.js Brotli decoder</title>
 <link>https://securitylabs.datadoghq.com/articles/node2shell-cve-2026-111497-nodejs-brotli-decoder/</link>
-<description><![CDATA[We reproduced CVE-2026-111497, an out-of-bounds write in the Brotli decoder bundled with Node.js and other runtimes, and explain how to detect and remediate it.<br/><br/><em>Tags: CVE-2026-111497</em>]]></description>
+<description><![CDATA[We reproduced CVE-2026-111497, an out-of-bounds write in the Brotli decoder bundled with Node.js and other runtimes, and explain how to detect and remediate it.<br/><br/><em>Tags: CVE-2026-111497 · active_exploitation</em>]]></description>
 <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://securitylabs.datadoghq.com/articles/node2shell-cve-2026-111497-nodejs-brotli-decoder/</guid>
 <source url="https://securitylabs.datadoghq.com/rss/feed.xml">Datadog Security Labs</source>
 <category>cloud_identity_infrastructure</category>
 <category>CVE-2026-111497</category>
+<category>active_exploitation</category>
 </item>
 <item>
 <title>Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN</title>
@@ -2121,15 +2161,12 @@
 <item>
 <title>Lessons from Cybersecurity Black Week</title>
 <link>https://www.welivesecurity.com/en/business-security/lessons-cybersecurity-black-week/</link>
-<description><![CDATA[A critical PHP flaw, leaked Linux kernel reports, a poisoned LiteLLM release, and more, all in seven days. Which threats called for immediate action, and which generated more noise than real danger?<br/><br/><em>Tags: Linux kernel · GitLab · CVE-2026-109618 · CVE-2026-109619 · zero_day</em>]]></description>
+<description><![CDATA[A critical PHP flaw, leaked Linux kernel reports, a poisoned LiteLLM release, and more, all in seven days. Which threats called for immediate action, and which generated more noise than real danger?<br/><br/><em>Tags: Linux kernel</em>]]></description>
 <pubDate>Wed, 28 Oct 2026 10:33:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.welivesecurity.com/en/business-security/lessons-cybersecurity-black-week/</guid>
 <source url="https://www.welivesecurity.com/en/rss/feed/">ESET WeLiveSecurity</source>
 <category>threat_research_primary</category>
 <category>Linux kernel</category>
-<category>GitLab</category>
-<category>CVE-2026-109618</category>
-<category>CVE-2026-109619</category>
 </item>
 <item>
 <title>Millions of security cameras at risk: DoS vulnerability in Intelbras devices</title>
@@ -2164,27 +2201,50 @@
 <item>
 <title>Node2Shell (CVE-2026-111497): Detecting the Node.js Brotli RCE</title>
 <link>https://webflow.sysdig.com/blog/node2shell-cve-2026-111497-detecting-the-node-js-brotli-rce</link>
-<description><![CDATA[<br/><br/><em>Tags: Docker · CVE-2026-111497 · active_exploitation</em>]]></description>
+<description><![CDATA[<br/><br/><em>Tags: CVE-2026-111497</em>]]></description>
 <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://webflow.sysdig.com/blog/node2shell-cve-2026-111497-detecting-the-node-js-brotli-rce</guid>
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
-<category>Docker</category>
 <category>CVE-2026-111497</category>
-<category>active_exploitation</category>
+</item>
+<item>
+<title>Detecting and mitigating ZDI-CAN-33367 and five other Linux flaws</title>
+<link>https://webflow.sysdig.com/blog/detecting-and-mitigating-zdi-can-33367-and-five-other-linux-flaws</link>
+<description><![CDATA[]]></description>
+<pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://webflow.sysdig.com/blog/detecting-and-mitigating-zdi-can-33367-and-five-other-linux-flaws</guid>
+<source url="https://sysdig.com/feed/">Sysdig</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>PHP2Shell (CVE-2026-109618 and CVE-2026-109619): Detecting unauthenticated remote code execution in PHP core</title>
 <link>https://webflow.sysdig.com/blog/php2shell-cve-2026-109618-and-cve-2026-109619-detecting-unauthenticated-remote-code-execution-in-php-core</link>
-<description><![CDATA[PHP2Shell (CVE-2026-109618 and CVE-2026-109619) lets an unauthenticated attacker run code on a PHP server with HTTP requests alone. The Sysdig Threat Research Team analyzed the exploitation and outlines affected versions, mitigations, and how to detect post-exploitation activity at runtime with Sysdig Secure and open source Falco.<br/><br/><em>Tags: Palo Alto Networks · CVE-2026-109618 · CVE-2026-109619 · CVE-2026-109691</em>]]></description>
+<description><![CDATA[PHP2Shell (CVE-2026-109618 and CVE-2026-109619) lets an unauthenticated attacker run code on a PHP server with HTTP requests alone. The Sysdig Threat Research Team analyzed the exploitation and outlines affected versions, mitigations, and how to detect post-exploitation activity at runtime with Sysdig Secure and open source Falco.<br/><br/><em>Tags: CVE-2026-109618 · CVE-2026-109619</em>]]></description>
 <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://webflow.sysdig.com/blog/php2shell-cve-2026-109618-and-cve-2026-109619-detecting-unauthenticated-remote-code-execution-in-php-core</guid>
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
-<category>Palo Alto Networks</category>
 <category>CVE-2026-109618</category>
 <category>CVE-2026-109619</category>
-<category>CVE-2026-109691</category>
+</item>
+<item>
+<title>Introducing Route 53 Resolved IP Validation for AWS Network Firewall</title>
+<link>https://aws.amazon.com/blogs/security/introducing-route-53-resolved-ip-validation-for-aws-network-firewall/</link>
+<description><![CDATA[Your workloads reach most destinations by domain name, but a firewall can only act on what it sees in the traffic. For HTTP and HTTPS, AWS Network Firewall domain rules match the name that the client puts in the request, and the client chooses that name. The connections for protocols such as SSH and SSH […]]]></description>
+<pubDate>Tue, 27 Oct 2026 23:46:13 +0000</pubDate>
+<guid isPermaLink="true">https://aws.amazon.com/blogs/security/introducing-route-53-resolved-ip-validation-for-aws-network-firewall/</guid>
+<source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>International Law Enforcement Seizes Domain of Virtualine Bulletproof Hosting Service</title>
+<link>https://www.chainalysis.com/blog/virtualine-bulletproof-hosting-seizure-october-2026/</link>
+<description><![CDATA[Summary The FBI Washington Field Office, working with international law enforcement partners, seized the domain virtualine.net, which, according to the… The post International Law Enforcement Seizes Domain of Virtualine Bulletproof Hosting Service appeared first on Chainalysis .]]></description>
+<pubDate>Tue, 27 Oct 2026 21:49:13 +0000</pubDate>
+<guid isPermaLink="true">https://www.chainalysis.com/blog/virtualine-bulletproof-hosting-seizure-october-2026/</guid>
+<source url="https://www.chainalysis.com/blog/feed/">Chainalysis</source>
+<category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
 <title>3 Frameworks to Protect CISOs &amp; Orgs Against AI Liability</title>
@@ -3606,24 +3666,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Cloud Security Alliance Survey Finds Data Loss Prevention Often Detects Data Loss Only After It Happens</title>
-<link>https://www.darkreading.com/cloud-security/cloud-security-alliance-survey-data-loss-prevention-detects-data-loss</link>
-<description><![CDATA[Research finds that, among respondents experiencing data loss, only 16% said DLP blocked their most significant incidents before data left the organization.]]></description>
-<pubDate>Wed, 21 Oct 2026 20:03:14 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cloud-security/cloud-security-alliance-survey-data-loss-prevention-detects-data-loss</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>&apos;PHP2Shell&apos; Bugs Signal Red Alert for Security Industry</title>
-<link>https://www.darkreading.com/application-security/php2shell-bugs-red-alert-security-industry</link>
-<description><![CDATA[Security teams are scrambling to remediate two critical PHP vulnerabilities following leaked details and reports of exploitation attempts.]]></description>
-<pubDate>Wed, 21 Oct 2026 19:19:17 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/application-security/php2shell-bugs-red-alert-security-industry</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Today&apos;s PHP Security Release, and How We&apos;re Strengthening PHP Security</title>
 <link>https://simonwillison.net/2026/Oct/21/php-security-release/</link>
 <description><![CDATA[Today&apos;s PHP Security Release, and How We&apos;re Strengthening PHP Security If you&apos;re running anything on PHP it&apos;s vital you upgrade - today&apos;s updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process. This post from the PHP Foundation explain what went so wrong: On Tuesday, October 20th, at around 15:00 UTC, the two CVE IDs began circulating on online forums and social media. They came with a wrong release time and a wrong CVSS score of 10.0 (the actual score is 9.2). No technical details leaked. In response, the PHP project brought its pre-announcement forward and published it at 19:30 UTC . It also moved the release from October 22nd, 14:00 UTC, to October 21st, 14:00 UTC [...] As a result of the leak and pre-announcement around 20:00 UTC, Calif, one of the security firms that had reported the issues mistakenly published a video. It showed their proof ]]></description>
@@ -3638,7 +3680,7 @@
 <description><![CDATA[Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise, enabling application credential abuse across Microsoft 365 environments. The post AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft 365 · supply_chain · apt_espionage</em>]]></description>
 <pubDate>Wed, 21 Oct 2026 18:23:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>Microsoft 365</category>
 <category>supply_chain</category>
@@ -3650,7 +3692,7 @@
 <description><![CDATA[Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise, enabling application credential abuse across Microsoft 365 environments. The post AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft 365 · supply_chain · apt_espionage</em>]]></description>
 <pubDate>Wed, 21 Oct 2026 18:23:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>Microsoft 365</category>
 <category>supply_chain</category>
@@ -3674,16 +3716,6 @@
 <source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
 <category>cloud_identity_infrastructure</category>
 <category>AWS</category>
-</item>
-<item>
-<title>OVHcloud GitHub Compromise Tied to GlassWorm Threat Actors</title>
-<link>https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors</link>
-<description><![CDATA[A developer&apos;s GitHub account that was compromised several months earlier was used to push malicious code to unsuspecting users.<br/><br/><em>Tags: GitHub</em>]]></description>
-<pubDate>Wed, 21 Oct 2026 16:50:15 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>GitHub</category>
 </item>
 <item>
 <title>Audit-Ready Isn’t Attack-Ready.</title>
@@ -13340,15 +13372,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>Between Two Nerds: The PRC vs AI</title>
-<link>https://risky.biz/BTN171/</link>
-<description><![CDATA[In this edition of Between Two Nerds Tom Uren and The Grugq discuss the idea that the People’s Republic of China has mobilised its influence operations against the construction of US data centres and its build out of AI capacity. This episode is also available on YouTube.]]></description>
-<pubDate>Mon, 22 Jun 2026 20:00:03 +0000</pubDate>
-<guid isPermaLink="true">https://risky.biz/BTN171/</guid>
-<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
-</item>
-<item>
 <title>TrendAI™ Named Trusted Partner in the OpenAI Daybreak Cyber Partner Program</title>
 <link>https://newsroom.trendmicro.com/2026-06-22-TrendAI-TM-Named-Trusted-Partner-in-the-OpenAI-Daybreak-Cyber-Partner-Program</link>
 <description><![CDATA[]]></description>
@@ -16392,15 +16415,6 @@
 <description><![CDATA[The trends from January offer useful clues about the risks and priorities that security teams are likely to contend with throughout the year]]></description>
 <pubDate>Fri, 30 Jan 2026 15:20:16 +0000</pubDate>
 <guid isPermaLink="true">https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-january-2026-edition/</guid>
-<source url="https://www.welivesecurity.com/en/rss/feed/">ESET WeLiveSecurity</source>
-<category>threat_research_primary</category>
-</item>
-<item>
-<title>DynoWiper update: Technical analysis and attribution</title>
-<link>https://www.welivesecurity.com/en/eset-research/dynowiper-update-technical-analysis-attribution/</link>
-<description><![CDATA[ESET researchers present technical details on a recent data destruction incident affecting a company in Poland’s energy sector]]></description>
-<pubDate>Fri, 30 Jan 2026 10:28:38 +0000</pubDate>
-<guid isPermaLink="true">https://www.welivesecurity.com/en/eset-research/dynowiper-update-technical-analysis-attribution/</guid>
 <source url="https://www.welivesecurity.com/en/rss/feed/">ESET WeLiveSecurity</source>
 <category>threat_research_primary</category>
 </item>
@@ -19784,7 +19798,7 @@
 <title>CrowdStrike to Acquire Dreadnode to Bring Automated AI Security Testing to the Falcon Platform</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-dreadnode/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 03 Nov 2026 21:40:51 +0000</pubDate>
+<pubDate>Wed, 04 Nov 2026 02:04:26 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-dreadnode/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19793,7 +19807,7 @@
 <title>CrowdStrike Advances AI Security and Safety from Endpoint to Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-advances-ai-security-and-safety-falcon-guardian/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 03 Nov 2026 21:40:51 +0000</pubDate>
+<pubDate>Wed, 04 Nov 2026 02:04:26 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-advances-ai-security-and-safety-falcon-guardian/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19802,7 +19816,7 @@
 <title>CrowdStrike to Acquire Fiddler to Deliver Falcon Observe for AI Agent Observability</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 03 Nov 2026 21:40:51 +0000</pubDate>
+<pubDate>Wed, 04 Nov 2026 02:04:26 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19811,7 +19825,7 @@
 <title>Introducing AI Kill Switch: Taking Control When AI Agents Go Rogue</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-introduces-ai-kill-switch/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 03 Nov 2026 21:40:51 +0000</pubDate>
+<pubDate>Wed, 04 Nov 2026 02:04:26 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-introduces-ai-kill-switch/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19820,7 +19834,7 @@
 <title>CrowdStrike Secures AI Agents Inside Claude Cowork</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-secures-ai-agents-inside-claude-cowork/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 03 Nov 2026 21:40:51 +0000</pubDate>
+<pubDate>Wed, 04 Nov 2026 02:04:26 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-secures-ai-agents-inside-claude-cowork/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19829,7 +19843,7 @@
 <title>What Makes a Good Security Agent? 5 Lessons from the AgentWorks Hackathon</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-lessons-from-agentworks-hackathon/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 03 Nov 2026 21:40:51 +0000</pubDate>
+<pubDate>Wed, 04 Nov 2026 02:04:26 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-lessons-from-agentworks-hackathon/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19838,7 +19852,7 @@
 <title>CrowdStrike Expands Falcon Adversary OverWatch Threat Hunting Across AI and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-threat-hunting-across-ai-and-google-cloud/</link>
 <description><![CDATA[<br/><br/><em>Tags: Google Cloud</em>]]></description>
-<pubDate>Tue, 03 Nov 2026 21:40:51 +0000</pubDate>
+<pubDate>Wed, 04 Nov 2026 02:04:26 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-threat-hunting-across-ai-and-google-cloud/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19848,7 +19862,7 @@
 <title>Build an Intelligence Advantage with Falcon Next-Gen SIEM</title>
 <link>https://www.crowdstrike.com/en-us/blog/build-intelligence-advantage-with-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 03 Nov 2026 21:40:51 +0000</pubDate>
+<pubDate>Wed, 04 Nov 2026 02:04:26 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/build-intelligence-advantage-with-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19857,7 +19871,7 @@
 <title>CrowdStrike Agent Graph Shows How Agents Act on the Endpoint</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-agent-graph-shows-how-agents-act-on-endpoint/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 03 Nov 2026 21:40:51 +0000</pubDate>
+<pubDate>Wed, 04 Nov 2026 02:04:26 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-agent-graph-shows-how-agents-act-on-endpoint/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19866,7 +19880,7 @@
 <title>VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign</title>
 <link>https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/</link>
 <description><![CDATA[<br/><br/><em>Tags: apt_espionage</em>]]></description>
-<pubDate>Tue, 03 Nov 2026 21:40:51 +0000</pubDate>
+<pubDate>Wed, 04 Nov 2026 02:04:26 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
