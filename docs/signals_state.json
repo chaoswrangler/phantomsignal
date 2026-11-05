@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-05T12:02:24.103560+00:00",
+  "last_run": "2026-11-05T19:51:13.568494+00:00",
   "observations": {
     "cve_ids": {
       "CVE-2026-0257": [
@@ -35269,84 +35269,6 @@
       ],
       "CVE-2026-56164": [
         {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
           "ts": "2026-08-13T06:09:48+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -36422,6 +36344,19 @@
             "SonicWall",
             "WordPress"
           ]
+        },
+        {
+          "ts": "2026-11-04T14:42:25+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "GitLab",
+            "SonicWall",
+            "WordPress"
+          ]
         }
       ],
       "CVE-2026-15410": [
@@ -36478,6 +36413,19 @@
           ],
           "products": [
             "SonicWall"
+          ]
+        },
+        {
+          "ts": "2026-11-04T14:42:25+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "GitLab",
+            "SonicWall",
+            "WordPress"
           ]
         },
         {
@@ -37712,45 +37660,6 @@
       ],
       "CVE-2026-50522": [
         {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
           "ts": "2026-08-08T06:58:31+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -37829,19 +37738,6 @@
           ]
         },
         {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
           "ts": "2026-08-08T06:58:31+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -37868,19 +37764,6 @@
           ]
         },
         {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
           "ts": "2026-08-08T06:58:31+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -37903,19 +37786,6 @@
           "products": [
             "GitHub",
             "GitLab",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
             "Microsoft SharePoint"
           ]
         },
@@ -42571,846 +42441,6 @@
         }
       ],
       "CVE-2026-63077": [
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
-        {
-          "ts": "2026-08-07T14:32:47+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": []
-        },
         {
           "ts": "2026-09-05T16:52:33+00:00",
           "cohort": "cyber_news_breach_reporting",
@@ -66156,492 +65186,6 @@
         }
       ],
       "CVE-2026-64638": [
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:20:01+00:00",
-          "cohort": "reddit_practitioner_osint",
-          "tier": "tier_5_chatter",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
         {
           "ts": "2026-08-10T02:17:51+00:00",
           "cohort": "practitioner_analysis",
@@ -211383,6 +209927,13 @@
           "tier": "tier_5_chatter",
           "industries": [],
           "products": []
+        },
+        {
+          "ts": "2026-11-01T10:15:16+00:00",
+          "cohort": "reddit_practitioner_osint",
+          "tier": "tier_5_chatter",
+          "industries": [],
+          "products": []
         }
       ],
       "CVE-2023-34362": [
@@ -248927,6 +247478,20 @@
             "AWS",
             "Android"
           ]
+        },
+        {
+          "ts": "2026-11-04T14:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "government",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "AWS",
+            "Android"
+          ]
         }
       ],
       "CVE-2025-43520": [
@@ -249440,6 +248005,20 @@
           "industries": [
             "critical_infrastructure",
             "financial_services",
+            "government",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "AWS",
+            "Android"
+          ]
+        },
+        {
+          "ts": "2026-11-04T14:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
             "government",
             "manufacturing_industrial"
           ],
@@ -251197,6 +249776,19 @@
           ],
           "products": [
             "SonicWall"
+          ]
+        },
+        {
+          "ts": "2026-11-04T14:42:25+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "GitLab",
+            "SonicWall",
+            "WordPress"
           ]
         },
         {
@@ -258357,6 +256949,15 @@
           "industries": [],
           "products": [
             "GitHub",
+            "Microsoft SharePoint"
+          ]
+        },
+        {
+          "ts": "2026-11-05T10:00:11+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
             "Microsoft SharePoint"
           ]
         },
@@ -312706,6 +311307,33 @@
           "products": [
             "Gitea"
           ]
+        },
+        {
+          "ts": "2026-11-05T12:06:32+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": []
+        },
+        {
+          "ts": "2026-11-05T07:06:33+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": []
+        },
+        {
+          "ts": "2026-11-04T20:58:19+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Gitea"
+          ]
         }
       ],
       "CVE-2026-32882": [
@@ -334198,6 +332826,20 @@
           "industries": [
             "critical_infrastructure",
             "financial_services",
+            "government",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "AWS",
+            "Android"
+          ]
+        },
+        {
+          "ts": "2026-11-04T14:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
             "government",
             "manufacturing_industrial"
           ],
@@ -359585,6 +358227,18 @@
             "Ivanti",
             "Microsoft BitLocker"
           ]
+        },
+        {
+          "ts": "2026-11-02T11:04:08+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Ivanti",
+            "Microsoft BitLocker"
+          ]
         }
       ],
       "CVE-2026-35029": [
@@ -374722,6 +373376,13 @@
           "tier": "tier_1_offensive_research",
           "industries": [],
           "products": []
+        },
+        {
+          "ts": "2026-10-30T16:01:53+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": []
         }
       ],
       "CVE-2014-125110": [
@@ -380357,6 +379018,13 @@
             "financial_services"
           ],
           "products": []
+        },
+        {
+          "ts": "2026-11-05T18:09:30+00:00",
+          "cohort": "cloud_identity_infrastructure",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": []
         }
       ],
       "CVE-2026-109618": [
@@ -385656,6 +384324,17 @@
           "products": [
             "Linux kernel",
             "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-02T23:00:45+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "Kubernetes"
           ]
         },
         {
@@ -391446,6 +390125,17 @@
           "products": [
             "Linux kernel",
             "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-02T23:00:45+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "Kubernetes"
           ]
         },
         {
@@ -397648,6 +396338,21 @@
             "Drupal",
             "Linux kernel"
           ]
+        },
+        {
+          "ts": "2026-11-02T15:57:23+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "aviation_defense",
+            "financial_services",
+            "government",
+            "telecommunications"
+          ],
+          "products": [
+            "Drupal",
+            "Linux kernel"
+          ]
         }
       ],
       "CVE-2026-10134": [
@@ -402358,6 +401063,15 @@
           "products": [
             "Cisco"
           ]
+        },
+        {
+          "ts": "2026-11-05T15:29:08+00:00",
+          "cohort": "government_authoritative",
+          "tier": "tier_1_government",
+          "industries": [],
+          "products": [
+            "Cisco"
+          ]
         }
       ],
       "CVE-2026-11585": [
@@ -403609,6 +402323,30 @@
             "Drupal",
             "Linux kernel"
           ]
+        },
+        {
+          "ts": "2026-11-02T14:52:05+00:00",
+          "cohort": "government_authoritative",
+          "tier": "tier_1_government",
+          "industries": [],
+          "products": [
+            "Linux kernel"
+          ]
+        },
+        {
+          "ts": "2026-11-02T15:57:23+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "aviation_defense",
+            "financial_services",
+            "government",
+            "telecommunications"
+          ],
+          "products": [
+            "Drupal",
+            "Linux kernel"
+          ]
         }
       ],
       "CVE-2026-108099": [
@@ -404168,6 +402906,21 @@
             "Drupal",
             "Linux kernel"
           ]
+        },
+        {
+          "ts": "2026-11-02T15:57:23+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "aviation_defense",
+            "financial_services",
+            "government",
+            "telecommunications"
+          ],
+          "products": [
+            "Drupal",
+            "Linux kernel"
+          ]
         }
       ],
       "CVE-2026-111585": [
@@ -404404,6 +403157,18 @@
           "tier": "tier_1_offensive_research",
           "industries": [
             "government",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Ivanti",
+            "Microsoft BitLocker"
+          ]
+        },
+        {
+          "ts": "2026-11-02T11:04:08+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [
             "manufacturing_industrial"
           ],
           "products": [
@@ -404778,6 +403543,18 @@
             "Ivanti",
             "Microsoft BitLocker"
           ]
+        },
+        {
+          "ts": "2026-11-02T11:04:08+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Ivanti",
+            "Microsoft BitLocker"
+          ]
         }
       ],
       "CVE-2026-58882": [
@@ -404929,6 +403706,13 @@
             "Google Workspace",
             "Microsoft 365"
           ]
+        },
+        {
+          "ts": "2026-11-04T07:46:15+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": []
         },
         {
           "ts": "2026-11-04T07:46:15+00:00",
@@ -405363,6 +404147,20 @@
             "ScreenConnect",
             "WordPress"
           ]
+        },
+        {
+          "ts": "2026-11-03T05:34:37+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
+            "government"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft 365",
+            "WordPress"
+          ]
         }
       ],
       "CVE-2026-58115": [
@@ -405411,6 +404209,13 @@
             "healthcare",
             "manufacturing_industrial"
           ],
+          "products": []
+        },
+        {
+          "ts": "2026-11-03T05:34:41+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
           "products": []
         },
         {
@@ -405575,6 +404380,13 @@
           "tier": "tier_4_news",
           "industries": [],
           "products": []
+        },
+        {
+          "ts": "2026-11-04T07:46:15+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": []
         }
       ],
       "CVE-2026-116606": [
@@ -405594,6 +404406,15 @@
         }
       ],
       "CVE-2025-8088": [
+        {
+          "ts": "2026-11-03T09:50:00+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "government"
+          ],
+          "products": []
+        },
         {
           "ts": "2026-11-03T09:50:00+00:00",
           "cohort": "threat_research_primary",
@@ -405715,6 +404536,20 @@
             "ScreenConnect",
             "WordPress"
           ]
+        },
+        {
+          "ts": "2026-11-03T05:34:37+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
+            "government"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft 365",
+            "WordPress"
+          ]
         }
       ],
       "CVE-2024-27834": [
@@ -405784,6 +404619,20 @@
           "tier": "tier_4_news",
           "industries": [],
           "products": []
+        },
+        {
+          "ts": "2026-11-04T14:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "government",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "AWS",
+            "Android"
+          ]
         }
       ],
       "CVE-2025-14174": [
@@ -405846,6 +404695,20 @@
             "AWS",
             "Android"
           ]
+        },
+        {
+          "ts": "2026-11-04T14:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "government",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "AWS",
+            "Android"
+          ]
         }
       ],
       "CVE-2000-0411": [
@@ -405876,9 +404739,29 @@
           "tier": "tier_1_government",
           "industries": [],
           "products": []
+        },
+        {
+          "ts": "2026-11-04T13:24:13+00:00",
+          "cohort": "government_authoritative",
+          "tier": "tier_1_government",
+          "industries": [],
+          "products": []
         }
       ],
       "CVE-2026-109593": [
+        {
+          "ts": "2026-11-04T14:42:25+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "GitLab",
+            "SonicWall",
+            "WordPress"
+          ]
+        },
         {
           "ts": "2026-11-04T14:42:25+00:00",
           "cohort": "cyber_news_breach_reporting",
@@ -405984,9 +404867,29 @@
             "SonicWall",
             "WordPress"
           ]
+        },
+        {
+          "ts": "2026-11-04T14:42:25+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "GitLab",
+            "SonicWall",
+            "WordPress"
+          ]
         }
       ],
       "CVE-2026-58876": [
+        {
+          "ts": "2026-11-04T07:46:15+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": []
+        },
         {
           "ts": "2026-11-04T07:46:15+00:00",
           "cohort": "cyber_news_breach_reporting",
@@ -406044,6 +404947,13 @@
           "tier": "tier_4_news",
           "industries": [],
           "products": []
+        },
+        {
+          "ts": "2026-11-04T07:46:15+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": []
         }
       ],
       "CVE-2026-122192": [
@@ -406069,6 +404979,15 @@
           "ts": "2026-11-04T21:47:44+00:00",
           "cohort": "reddit_practitioner_osint",
           "tier": "tier_5_chatter",
+          "industries": [],
+          "products": [
+            "AWS"
+          ]
+        },
+        {
+          "ts": "2026-11-05T19:21:56+00:00",
+          "cohort": "cloud_identity_infrastructure",
+          "tier": "tier_2_operator",
           "industries": [],
           "products": [
             "AWS"
@@ -406131,6 +405050,33 @@
           "products": [
             "Gitea"
           ]
+        },
+        {
+          "ts": "2026-11-05T12:06:32+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": []
+        },
+        {
+          "ts": "2026-11-05T07:06:33+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": []
+        },
+        {
+          "ts": "2026-11-04T20:58:19+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Gitea"
+          ]
         }
       ],
       "CVE-2026-120422": [
@@ -406155,9 +405101,36 @@
           "products": [
             "Fortinet"
           ]
+        },
+        {
+          "ts": "2026-11-04T09:55:00+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "education"
+          ],
+          "products": [
+            "Fortinet"
+          ]
+        },
+        {
+          "ts": "2026-11-05T18:26:37+00:00",
+          "cohort": "reddit_practitioner_osint",
+          "tier": "tier_5_chatter",
+          "industries": [],
+          "products": []
         }
       ],
       "CVE-2025-53771": [
+        {
+          "ts": "2026-11-05T10:00:11+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
+            "Microsoft SharePoint"
+          ]
+        },
         {
           "ts": "2026-11-05T10:00:11+00:00",
           "cohort": "threat_research_primary",
@@ -440818,6 +439791,15 @@
           "products": [
             "SolarWinds"
           ]
+        },
+        {
+          "ts": "2026-11-02T20:28:54+00:00",
+          "cohort": "ransomware_ecrime_financial_crime",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "SolarWinds"
+          ]
         }
       ],
       "APT29": [
@@ -443686,6 +442668,20 @@
           "industries": [
             "critical_infrastructure",
             "financial_services",
+            "government",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "AWS",
+            "Android"
+          ]
+        },
+        {
+          "ts": "2026-11-04T14:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
             "government",
             "manufacturing_industrial"
           ],
@@ -505351,25 +504347,29 @@
             "retail_ecommerce"
           ],
           "products": []
+        },
+        {
+          "ts": "2026-11-02T14:00:00+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services",
+            "retail_ecommerce"
+          ],
+          "products": []
         }
       ]
     },
     "affected_products": {
       "Apple iOS/macOS": [
         {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
+          "ts": "2026-08-07T23:59:59+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
           "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
+            "Anthropic/Claude",
+            "Apple iOS/macOS"
           ]
         },
         {
@@ -505383,19 +504383,13 @@
           ]
         },
         {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
+          "ts": "2026-08-07T23:59:59+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
           "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
+            "Anthropic/Claude",
+            "Apple iOS/macOS"
           ]
         },
         {
@@ -505409,19 +504403,13 @@
           ]
         },
         {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
+          "ts": "2026-08-07T23:59:59+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
           "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
+            "Anthropic/Claude",
+            "Apple iOS/macOS"
           ]
         },
         {
@@ -505435,19 +504423,13 @@
           ]
         },
         {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
+          "ts": "2026-08-07T23:59:59+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
           "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
+            "Anthropic/Claude",
+            "Apple iOS/macOS"
           ]
         },
         {
@@ -505461,19 +504443,13 @@
           ]
         },
         {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
+          "ts": "2026-08-07T23:59:59+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
           "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
+            "Anthropic/Claude",
+            "Apple iOS/macOS"
           ]
         },
         {
@@ -505487,19 +504463,13 @@
           ]
         },
         {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
+          "ts": "2026-08-07T23:59:59+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
           "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
+            "Anthropic/Claude",
+            "Apple iOS/macOS"
           ]
         },
         {
@@ -505513,19 +504483,13 @@
           ]
         },
         {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
+          "ts": "2026-08-07T23:59:59+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
           "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
+            "Anthropic/Claude",
+            "Apple iOS/macOS"
           ]
         },
         {
@@ -505539,19 +504503,13 @@
           ]
         },
         {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
+          "ts": "2026-08-07T23:59:59+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
           "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
+            "Anthropic/Claude",
+            "Apple iOS/macOS"
           ]
         },
         {
@@ -505565,19 +504523,13 @@
           ]
         },
         {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
+          "ts": "2026-08-07T23:59:59+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
           "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
+            "Anthropic/Claude",
+            "Apple iOS/macOS"
           ]
         },
         {
@@ -505591,19 +504543,13 @@
           ]
         },
         {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
+          "ts": "2026-08-07T23:59:59+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
           "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
+            "Anthropic/Claude",
+            "Apple iOS/macOS"
           ]
         },
         {
@@ -505617,22 +504563,6 @@
           ]
         },
         {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
           "ts": "2026-08-07T23:59:59+00:00",
           "cohort": "detection_response_operations",
           "tier": "tier_2_operator",
@@ -505640,282 +504570,6 @@
           "products": [
             "Anthropic/Claude",
             "Apple iOS/macOS"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T23:59:59+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Anthropic/Claude",
-            "Apple iOS/macOS"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T23:59:59+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Anthropic/Claude",
-            "Apple iOS/macOS"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T23:59:59+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Anthropic/Claude",
-            "Apple iOS/macOS"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T23:59:59+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Anthropic/Claude",
-            "Apple iOS/macOS"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T23:59:59+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Anthropic/Claude",
-            "Apple iOS/macOS"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T23:59:59+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Anthropic/Claude",
-            "Apple iOS/macOS"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T23:59:59+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Anthropic/Claude",
-            "Apple iOS/macOS"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T23:59:59+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Anthropic/Claude",
-            "Apple iOS/macOS"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T23:59:59+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Anthropic/Claude",
-            "Apple iOS/macOS"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T23:59:59+00:00",
-          "cohort": "detection_response_operations",
-          "tier": "tier_2_operator",
-          "industries": [],
-          "products": [
-            "Anthropic/Claude",
-            "Apple iOS/macOS"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
           ]
         },
         {
@@ -599295,6 +597949,49 @@
             "Anthropic/Claude",
             "OpenAI/ChatGPT"
           ]
+        },
+        {
+          "ts": "2026-10-31T01:02:57+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "Microsoft Defender"
+          ]
+        },
+        {
+          "ts": "2026-11-05T14:00:00+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude"
+          ]
+        },
+        {
+          "ts": "2026-11-05T15:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-11-05T12:58:32+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "healthcare",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Anthropic/Claude"
+          ]
         }
       ],
       "Microsoft Windows": [
@@ -609441,6 +608138,16 @@
             "Microsoft Defender",
             "Microsoft Windows"
           ]
+        },
+        {
+          "ts": "2026-10-30T16:11:44+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
+            "Microsoft Defender",
+            "Microsoft Windows"
+          ]
         }
       ],
       "Gitea": [
@@ -613170,6 +611877,17 @@
           "products": [
             "Gitea",
             "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-11-04T20:58:19+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Gitea"
           ]
         },
         {
@@ -635696,351 +634414,18 @@
           "products": [
             "Cisco"
           ]
+        },
+        {
+          "ts": "2026-11-05T15:29:08+00:00",
+          "cohort": "government_authoritative",
+          "tier": "tier_1_government",
+          "industries": [],
+          "products": [
+            "Cisco"
+          ]
         }
       ],
       "Google Cloud": [
-        {
-          "ts": "2026-08-07T16:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government"
-          ],
-          "products": [
-            "Google Cloud"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
         {
           "ts": "2026-08-14T07:01:56+00:00",
           "cohort": "cyber_news_breach_reporting",
@@ -645383,492 +643768,6 @@
         }
       ],
       "WordPress": [
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:20:01+00:00",
-          "cohort": "reddit_practitioner_osint",
-          "tier": "tier_5_chatter",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:56:23+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
         {
           "ts": "2026-08-10T02:17:51+00:00",
           "cohort": "practitioner_analysis",
@@ -672101,6 +670000,33 @@
           "products": [
             "GitLab",
             "ScreenConnect",
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-11-04T14:42:25+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "GitLab",
+            "SonicWall",
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-11-03T05:34:37+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
+            "government"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft 365",
             "WordPress"
           ]
         },
@@ -708941,246 +706867,53 @@
           "products": [
             "GitHub"
           ]
+        },
+        {
+          "ts": "2026-11-03T05:34:37+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
+            "government"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft 365",
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-11-05T19:02:30+00:00",
+          "cohort": "ai_security_agentic_risk",
+          "tier": "tier_2_operator",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "GitHub",
+            "Google/Gemini",
+            "Kubernetes"
+          ]
+        },
+        {
+          "ts": "2026-11-03T15:11:53+00:00",
+          "cohort": "reddit_practitioner_osint",
+          "tier": "tier_5_chatter",
+          "industries": [],
+          "products": [
+            "GitHub"
+          ]
         }
       ],
       "OpenAI/ChatGPT": [
         {
-          "ts": "2026-08-07T14:26:42+00:00",
+          "ts": "2026-08-08T06:58:31+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
+          "industries": [],
           "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
+            "AWS",
+            "Microsoft SharePoint",
             "OpenAI/ChatGPT"
           ]
         },
@@ -709196,18 +706929,13 @@
           ]
         },
         {
-          "ts": "2026-08-07T14:26:42+00:00",
+          "ts": "2026-08-08T06:58:31+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
+          "industries": [],
           "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
+            "AWS",
+            "Microsoft SharePoint",
             "OpenAI/ChatGPT"
           ]
         },
@@ -709223,18 +706951,13 @@
           ]
         },
         {
-          "ts": "2026-08-07T14:26:42+00:00",
+          "ts": "2026-08-08T06:58:31+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
+          "industries": [],
           "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
+            "AWS",
+            "Microsoft SharePoint",
             "OpenAI/ChatGPT"
           ]
         },
@@ -709250,22 +706973,6 @@
           ]
         },
         {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
           "ts": "2026-08-08T06:58:31+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -709273,103 +706980,6 @@
           "products": [
             "AWS",
             "Microsoft SharePoint",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-08T06:58:31+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "AWS",
-            "Microsoft SharePoint",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-08T06:58:31+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "AWS",
-            "Microsoft SharePoint",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-08T06:58:31+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "AWS",
-            "Microsoft SharePoint",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
             "OpenAI/ChatGPT"
           ]
         },
@@ -762371,6 +759981,64 @@
           "products": [
             "OpenAI/ChatGPT"
           ]
+        },
+        {
+          "ts": "2026-11-05T14:00:11+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "Android",
+            "Kubernetes",
+            "Linux kernel",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-11-05T17:22:06+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "Android",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-11-03T13:57:04+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-11-05T15:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-11-05T00:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "OpenAI/ChatGPT"
+          ]
         }
       ],
       "npm": [
@@ -778933,49 +776601,25 @@
             "Drupal",
             "Linux kernel"
           ]
+        },
+        {
+          "ts": "2026-11-02T15:57:23+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "aviation_defense",
+            "financial_services",
+            "government",
+            "telecommunications"
+          ],
+          "products": [
+            "Drupal",
+            "Linux kernel"
+          ]
         }
       ],
       "Microsoft SharePoint": [
         {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
           "ts": "2026-08-08T06:58:31+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -779054,19 +776698,6 @@
           ]
         },
         {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
           "ts": "2026-08-08T06:58:31+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -779093,19 +776724,6 @@
           ]
         },
         {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
           "ts": "2026-08-08T06:58:31+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -779128,19 +776746,6 @@
           "products": [
             "GitHub",
             "GitLab",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
             "Microsoft SharePoint"
           ]
         },
@@ -799265,6 +796870,15 @@
           "products": [
             "Microsoft SharePoint"
           ]
+        },
+        {
+          "ts": "2026-11-05T10:00:11+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
+            "Microsoft SharePoint"
+          ]
         }
       ],
       "Microsoft Defender": [
@@ -816565,6 +814179,57 @@
           "products": [
             "Microsoft Defender"
           ]
+        },
+        {
+          "ts": "2026-10-31T01:02:57+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "Microsoft Defender"
+          ]
+        },
+        {
+          "ts": "2026-11-05T16:00:00+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "legal_professional"
+          ],
+          "products": [
+            "Microsoft Defender"
+          ]
+        },
+        {
+          "ts": "2026-11-03T17:32:47+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "critical_infrastructure"
+          ],
+          "products": [
+            "Microsoft Defender"
+          ]
+        },
+        {
+          "ts": "2026-11-02T20:20:59+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
+            "Microsoft Defender"
+          ]
+        },
+        {
+          "ts": "2026-10-30T16:11:44+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
+            "Microsoft Defender",
+            "Microsoft Windows"
+          ]
         }
       ],
       "Docker": [
@@ -824050,6 +821715,44 @@
           "tier": "tier_2_operator",
           "industries": [],
           "products": [
+            "Google/Gemini",
+            "Kubernetes"
+          ]
+        },
+        {
+          "ts": "2026-11-05T14:00:11+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "Android",
+            "Kubernetes",
+            "Linux kernel",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-11-02T23:00:45+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "Kubernetes"
+          ]
+        },
+        {
+          "ts": "2026-11-05T19:02:30+00:00",
+          "cohort": "ai_security_agentic_risk",
+          "tier": "tier_2_operator",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "GitHub",
             "Google/Gemini",
             "Kubernetes"
           ]
@@ -836329,6 +834032,55 @@
           "products": [
             "Linux kernel",
             "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-11-02T15:57:23+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "aviation_defense",
+            "financial_services",
+            "government",
+            "telecommunications"
+          ],
+          "products": [
+            "Drupal",
+            "Linux kernel"
+          ]
+        },
+        {
+          "ts": "2026-11-02T14:52:05+00:00",
+          "cohort": "government_authoritative",
+          "tier": "tier_1_government",
+          "industries": [],
+          "products": [
+            "Linux kernel"
+          ]
+        },
+        {
+          "ts": "2026-11-05T14:00:11+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "Android",
+            "Kubernetes",
+            "Linux kernel",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-11-02T12:00:00+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Linux kernel"
           ]
         },
         {
@@ -852474,417 +850226,32 @@
           "products": [
             "AWS"
           ]
+        },
+        {
+          "ts": "2026-11-04T14:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "government",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "AWS",
+            "Android"
+          ]
+        },
+        {
+          "ts": "2026-11-05T19:21:56+00:00",
+          "cohort": "cloud_identity_infrastructure",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "AWS"
+          ]
         }
       ],
       "Azure": [
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T12:29:26+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "government",
-            "telecommunications"
-          ],
-          "products": [
-            "Azure",
-            "Microsoft SharePoint"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
         {
           "ts": "2026-08-08T06:58:31+00:00",
           "cohort": "cyber_news_breach_reporting",
@@ -880461,6 +877828,28 @@
             "Google/Gemini",
             "Kubernetes"
           ]
+        },
+        {
+          "ts": "2026-11-04T17:00:00+00:00",
+          "cohort": "cloud_identity_infrastructure",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "Google/Gemini"
+          ]
+        },
+        {
+          "ts": "2026-11-05T19:02:30+00:00",
+          "cohort": "ai_security_agentic_risk",
+          "tier": "tier_2_operator",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "GitHub",
+            "Google/Gemini",
+            "Kubernetes"
+          ]
         }
       ],
       "Android": [
@@ -901603,6 +898992,59 @@
             "Anthropic/Claude",
             "OpenAI/ChatGPT"
           ]
+        },
+        {
+          "ts": "2026-11-05T14:00:11+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "Android",
+            "Kubernetes",
+            "Linux kernel",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-11-02T14:00:00+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services",
+            "legal_professional",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Android"
+          ]
+        },
+        {
+          "ts": "2026-11-04T14:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "government",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "AWS",
+            "Android"
+          ]
+        },
+        {
+          "ts": "2026-11-05T17:22:06+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "Android",
+            "OpenAI/ChatGPT"
+          ]
         }
       ],
       "Gogs": [
@@ -915291,6 +912733,33 @@
             "Google Workspace",
             "Microsoft 365"
           ]
+        },
+        {
+          "ts": "2026-11-03T05:34:37+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
+            "government"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft 365",
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-11-05T16:12:46+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services"
+          ],
+          "products": [
+            "Google Workspace",
+            "Microsoft 365"
+          ]
         }
       ],
       "Okta": [
@@ -917268,6 +914737,17 @@
           ],
           "products": [
             "GitHub",
+            "Okta"
+          ]
+        },
+        {
+          "ts": "2026-10-30T10:33:50+00:00",
+          "cohort": "practitioner_analysis",
+          "tier": "tier_3_analysis",
+          "industries": [
+            "government"
+          ],
+          "products": [
             "Okta"
           ]
         },
@@ -932749,6 +930229,15 @@
           "products": [
             "SolarWinds"
           ]
+        },
+        {
+          "ts": "2026-11-02T20:28:54+00:00",
+          "cohort": "ransomware_ecrime_financial_crime",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "SolarWinds"
+          ]
         }
       ],
       "Ubiquiti UniFi": [
@@ -938074,6 +935563,18 @@
             "Ivanti",
             "Microsoft BitLocker"
           ]
+        },
+        {
+          "ts": "2026-11-02T11:04:08+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Ivanti",
+            "Microsoft BitLocker"
+          ]
         }
       ],
       "ChromaDB": [
@@ -941151,6 +938652,18 @@
           "tier": "tier_1_offensive_research",
           "industries": [
             "government",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Ivanti",
+            "Microsoft BitLocker"
+          ]
+        },
+        {
+          "ts": "2026-11-02T11:04:08+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [
             "manufacturing_industrial"
           ],
           "products": [
@@ -958854,361 +956367,22 @@
             "SonicWall",
             "WordPress"
           ]
+        },
+        {
+          "ts": "2026-11-04T14:42:25+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "GitLab",
+            "SonicWall",
+            "WordPress"
+          ]
         }
       ],
       "Fortinet": [
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-07T14:26:42+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "aviation_defense",
-            "financial_services",
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "products": [
-            "Apple iOS/macOS",
-            "Fortinet",
-            "OpenAI/ChatGPT"
-          ]
-        },
         {
           "ts": "2026-08-10T09:49:37+00:00",
           "cohort": "cyber_news_breach_reporting",
@@ -972374,6 +969548,17 @@
           "tier": "tier_4_news",
           "industries": [
             "critical_infrastructure"
+          ],
+          "products": [
+            "Fortinet"
+          ]
+        },
+        {
+          "ts": "2026-11-04T09:55:00+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "education"
           ],
           "products": [
             "Fortinet"
@@ -989235,339 +986420,22 @@
             "SonicWall",
             "WordPress"
           ]
+        },
+        {
+          "ts": "2026-11-04T14:42:25+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "GitLab",
+            "SonicWall",
+            "WordPress"
+          ]
         }
       ],
       "Salesforce": [
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
-        {
-          "ts": "2026-08-07T17:00:00+00:00",
-          "cohort": "cloud_identity_infrastructure",
-          "tier": "tier_2_operator",
-          "industries": [
-            "financial_services",
-            "government",
-            "retail_ecommerce"
-          ],
-          "products": [
-            "Azure",
-            "Google Cloud",
-            "Salesforce"
-          ]
-        },
         {
           "ts": "2026-08-10T15:30:00+00:00",
           "cohort": "cyber_news_breach_reporting",
@@ -1023210,6 +1020078,19 @@
             "Google Workspace",
             "Microsoft 365"
           ]
+        },
+        {
+          "ts": "2026-11-05T16:12:46+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services"
+          ],
+          "products": [
+            "Google Workspace",
+            "Microsoft 365"
+          ]
         }
       ],
       "Packagist": [
@@ -1025954,6 +1022835,7 @@
       "2026-11-02T14:33:17+00:00",
       "2026-11-02T14:33:17+00:00",
       "2026-11-02T14:33:17+00:00",
+      "2026-11-02T20:28:54+00:00",
       "2026-11-02T20:28:54+00:00",
       "2026-11-02T20:28:54+00:00",
       "2026-11-02T20:28:54+00:00"
@@ -1030383,12 +1027265,6 @@
       "2026-09-04T06:00:19+00:00"
     ],
     "cve_ids:CVE-2026-56164|affected_products:Microsoft SharePoint": [
-      "2026-08-07T12:29:26+00:00",
-      "2026-08-07T12:29:26+00:00",
-      "2026-08-07T12:29:26+00:00",
-      "2026-08-07T12:29:26+00:00",
-      "2026-08-07T12:29:26+00:00",
-      "2026-08-07T12:29:26+00:00",
       "2026-08-13T06:09:48+00:00",
       "2026-08-13T06:09:48+00:00",
       "2026-08-13T06:09:48+00:00",
@@ -1030486,6 +1027362,7 @@
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
+      "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00"
     ],
     "cve_ids:CVE-2026-15410|affected_products:SonicWall": [
@@ -1030494,6 +1027371,7 @@
       "2026-09-02T20:43:59+00:00",
       "2026-10-09T12:32:16+00:00",
       "2026-10-09T12:32:16+00:00",
+      "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
@@ -1030541,12 +1027419,6 @@
       "2026-09-04T06:00:19+00:00"
     ],
     "cve_ids:CVE-2026-56164|affected_products:Azure": [
-      "2026-08-07T12:29:26+00:00",
-      "2026-08-07T12:29:26+00:00",
-      "2026-08-07T12:29:26+00:00",
-      "2026-08-07T12:29:26+00:00",
-      "2026-08-07T12:29:26+00:00",
-      "2026-08-07T12:29:26+00:00",
       "2026-08-13T06:09:48+00:00",
       "2026-08-13T06:09:48+00:00",
       "2026-08-13T06:09:48+00:00",
@@ -1030789,6 +1027661,7 @@
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
+      "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00"
     ],
     "cve_ids:CVE-2026-56164|affected_products:Anthropic/Claude": [
@@ -1030815,12 +1027688,6 @@
       "2026-09-02T12:18:15+00:00"
     ],
     "cve_ids:CVE-2026-50522|affected_products:Azure": [
-      "2026-08-07T12:29:26+00:00",
-      "2026-08-07T12:29:26+00:00",
-      "2026-08-07T12:29:26+00:00",
-      "2026-08-07T12:29:26+00:00",
-      "2026-08-07T12:29:26+00:00",
-      "2026-08-07T12:29:26+00:00",
       "2026-08-13T06:09:48+00:00",
       "2026-08-13T06:09:48+00:00",
       "2026-08-13T06:09:48+00:00",
@@ -1030836,22 +1027703,16 @@
       "2026-08-13T06:09:48+00:00"
     ],
     "cve_ids:CVE-2026-50522|affected_products:Microsoft SharePoint": [
-      "2026-08-07T12:29:26+00:00",
-      "2026-08-07T12:29:26+00:00",
-      "2026-08-07T12:29:26+00:00",
       "2026-08-08T06:58:31+00:00",
       "2026-08-08T06:52:16+00:00",
       "2026-08-08T06:58:31+00:00",
       "2026-08-08T06:52:16+00:00",
       "2026-08-08T06:58:31+00:00",
       "2026-08-08T06:52:16+00:00",
-      "2026-08-07T12:29:26+00:00",
       "2026-08-08T06:58:31+00:00",
       "2026-08-08T06:52:16+00:00",
-      "2026-08-07T12:29:26+00:00",
       "2026-08-08T06:58:31+00:00",
       "2026-08-08T06:52:16+00:00",
-      "2026-08-07T12:29:26+00:00",
       "2026-08-08T06:58:31+00:00",
       "2026-08-08T06:52:16+00:00",
       "2026-08-08T06:58:31+00:00",
@@ -1033810,60 +1030671,6 @@
       "2026-08-24T10:08:42+00:00"
     ],
     "cve_ids:CVE-2026-64638|affected_products:WordPress": [
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T14:20:01+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
-      "2026-08-07T12:56:23+00:00",
       "2026-08-10T02:17:51+00:00",
       "2026-08-10T02:17:51+00:00",
       "2026-08-10T02:17:51+00:00",
@@ -1077154,6 +1073961,7 @@
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
+      "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00"
     ],
     "cve_ids:CVE-2026-83549|affected_products:SonicWall": [
@@ -1078486,6 +1075294,7 @@
       "2026-10-19T14:07:29+00:00",
       "2026-10-19T14:07:29+00:00",
       "2026-10-19T14:07:29+00:00",
+      "2026-11-05T10:00:11+00:00",
       "2026-11-05T10:00:11+00:00"
     ],
     "actor_attribution:APT27|affected_products:GitHub": [
@@ -1085671,6 +1082480,7 @@
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
+      "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00"
     ],
     "actor_attribution:APT29|affected_products:WordPress": [
@@ -1090766,6 +1087576,7 @@
       "2026-09-22T10:42:54+00:00",
       "2026-09-21T00:00:00+00:00",
       "2026-09-22T10:42:54+00:00",
+      "2026-11-04T20:58:19+00:00",
       "2026-11-04T20:58:19+00:00",
       "2026-11-04T20:58:19+00:00",
       "2026-11-04T20:58:19+00:00"
@@ -1100041,10 +1096852,12 @@
       "2026-11-02T11:04:08+00:00",
       "2026-11-02T11:04:08+00:00",
       "2026-11-02T11:04:08+00:00",
+      "2026-11-02T11:04:08+00:00",
       "2026-11-02T11:04:08+00:00"
     ],
     "cve_ids:CVE-2026-104935|affected_products:Microsoft BitLocker": [
       "2026-10-13T15:32:12+00:00",
+      "2026-11-02T11:04:08+00:00",
       "2026-11-02T11:04:08+00:00",
       "2026-11-02T11:04:08+00:00",
       "2026-11-02T11:04:08+00:00",
@@ -1108534,7 +1105347,8 @@
       "2026-10-29T14:00:00+00:00",
       "2026-10-29T14:00:00+00:00",
       "2026-10-29T14:00:00+00:00",
-      "2026-10-29T14:00:00+00:00"
+      "2026-10-29T14:00:00+00:00",
+      "2026-11-05T15:29:08+00:00"
     ],
     "actor_attribution:Rhysida|affected_products:Cisco": [
       "2026-10-29T14:00:00+00:00",
@@ -1108825,6 +1105639,8 @@
       "2026-10-31T01:02:57+00:00",
       "2026-10-31T01:02:57+00:00",
       "2026-10-31T01:02:57+00:00",
+      "2026-11-02T14:52:05+00:00",
+      "2026-11-02T15:57:23+00:00",
       "2026-11-02T14:52:05+00:00",
       "2026-11-02T15:57:23+00:00",
       "2026-11-02T14:52:05+00:00",
@@ -1109173,6 +1105989,7 @@
       "2026-11-02T15:57:23+00:00",
       "2026-11-02T15:57:23+00:00",
       "2026-11-02T15:57:23+00:00",
+      "2026-11-02T15:57:23+00:00",
       "2026-11-02T15:57:23+00:00"
     ],
     "cve_ids:CVE-2026-118539|affected_products:GitLab": [
@@ -1109420,6 +1106237,7 @@
       "2026-11-02T11:04:08+00:00",
       "2026-11-02T11:04:08+00:00",
       "2026-11-02T11:04:08+00:00",
+      "2026-11-02T11:04:08+00:00",
       "2026-11-02T11:04:08+00:00"
     ],
     "cve_ids:CVE-2026-111357|affected_products:OpenAI/ChatGPT": [
@@ -1109444,6 +1106262,7 @@
       "2026-10-31T08:27:43+00:00",
       "2026-10-31T08:27:43+00:00",
       "2026-10-31T08:27:43+00:00",
+      "2026-11-02T11:04:08+00:00",
       "2026-11-02T11:04:08+00:00",
       "2026-11-02T11:04:08+00:00",
       "2026-11-02T11:04:08+00:00",
@@ -1109593,9 +1106412,11 @@
       "2026-11-02T11:04:08+00:00",
       "2026-11-02T11:04:08+00:00",
       "2026-11-02T11:04:08+00:00",
+      "2026-11-02T11:04:08+00:00",
       "2026-11-02T11:04:08+00:00"
     ],
     "cve_ids:CVE-2026-118527|affected_products:Microsoft BitLocker": [
+      "2026-11-02T11:04:08+00:00",
       "2026-11-02T11:04:08+00:00",
       "2026-11-02T11:04:08+00:00",
       "2026-11-02T11:04:08+00:00",
@@ -1109667,9 +1106488,11 @@
       "2026-11-02T15:57:23+00:00",
       "2026-11-02T15:57:23+00:00",
       "2026-11-02T15:57:23+00:00",
+      "2026-11-02T15:57:23+00:00",
       "2026-11-02T15:57:23+00:00"
     ],
     "cve_ids:CVE-2026-111497|affected_products:Linux kernel": [
+      "2026-11-02T15:57:23+00:00",
       "2026-11-02T15:57:23+00:00",
       "2026-11-02T15:57:23+00:00",
       "2026-11-02T15:57:23+00:00",
@@ -1109693,9 +1106516,11 @@
       "2026-11-02T15:57:23+00:00",
       "2026-11-02T15:57:23+00:00",
       "2026-11-02T15:57:23+00:00",
+      "2026-11-02T15:57:23+00:00",
       "2026-11-02T15:57:23+00:00"
     ],
     "cve_ids:CVE-2026-98432|affected_products:Drupal": [
+      "2026-11-02T15:57:23+00:00",
       "2026-11-02T15:57:23+00:00",
       "2026-11-02T15:57:23+00:00",
       "2026-11-02T15:57:23+00:00",
@@ -1109768,9 +1106593,11 @@
       "2026-11-02T23:00:45+00:00",
       "2026-11-02T23:00:45+00:00",
       "2026-11-02T23:00:45+00:00",
+      "2026-11-02T23:00:45+00:00",
       "2026-11-02T23:00:45+00:00"
     ],
     "cve_ids:CVE-2026-109619|affected_products:Kubernetes": [
+      "2026-11-02T23:00:45+00:00",
       "2026-11-02T23:00:45+00:00",
       "2026-11-02T23:00:45+00:00",
       "2026-11-02T23:00:45+00:00",
@@ -1109787,9 +1106614,11 @@
       "2026-11-03T05:34:37+00:00",
       "2026-11-03T05:34:37+00:00",
       "2026-11-03T05:34:37+00:00",
+      "2026-11-03T05:34:37+00:00",
       "2026-11-03T05:34:37+00:00"
     ],
     "cve_ids:CVE-2026-81648|affected_products:Microsoft 365": [
+      "2026-11-03T05:34:37+00:00",
       "2026-11-03T05:34:37+00:00",
       "2026-11-03T05:34:37+00:00",
       "2026-11-03T05:34:37+00:00",
@@ -1109805,7 +1106634,8 @@
       "2026-11-04T12:11:05+00:00",
       "2026-11-04T12:11:05+00:00",
       "2026-11-04T12:11:05+00:00",
-      "2026-11-04T12:11:05+00:00"
+      "2026-11-04T12:11:05+00:00",
+      "2026-11-03T05:34:37+00:00"
     ],
     "cve_ids:CVE-2026-58115|affected_products:Anthropic/Claude": [
       "2026-11-03T05:34:41+00:00"
@@ -1109866,9 +1106696,11 @@
       "2026-11-03T12:21:49+00:00"
     ],
     "cve_ids:CVE-2026-119977|affected_products:GitHub": [
+      "2026-11-03T05:34:37+00:00",
       "2026-11-03T05:34:37+00:00"
     ],
     "cve_ids:CVE-2026-119977|affected_products:Microsoft 365": [
+      "2026-11-03T05:34:37+00:00",
       "2026-11-03T05:34:37+00:00"
     ],
     "cve_ids:CVE-2026-119977|affected_products:WordPress": [
@@ -1109876,7 +1106708,8 @@
       "2026-11-04T12:11:05+00:00",
       "2026-11-04T12:11:05+00:00",
       "2026-11-04T12:11:05+00:00",
-      "2026-11-04T12:11:05+00:00"
+      "2026-11-04T12:11:05+00:00",
+      "2026-11-03T05:34:37+00:00"
     ],
     "cve_ids:CVE-2026-119977|affected_products:GitLab": [
       "2026-11-04T12:11:05+00:00",
@@ -1109930,9 +1106763,11 @@
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
+      "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00"
     ],
     "cve_ids:CVE-2024-27834|affected_products:AWS": [
+      "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
@@ -1109942,9 +1106777,11 @@
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
+      "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00"
     ],
     "cve_ids:CVE-2025-14174|actor_attribution:APT29": [
+      "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
@@ -1109954,9 +1106791,11 @@
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
+      "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00"
     ],
     "cve_ids:CVE-2025-14174|affected_products:Android": [
+      "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
@@ -1109966,9 +1106805,11 @@
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
+      "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00"
     ],
     "cve_ids:CVE-2025-43510|affected_products:AWS": [
+      "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
@@ -1109978,9 +1106819,11 @@
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
+      "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00"
     ],
     "cve_ids:CVE-2025-43529|actor_attribution:APT29": [
+      "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
@@ -1109990,9 +1106833,11 @@
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
+      "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00"
     ],
     "cve_ids:CVE-2025-43529|affected_products:Android": [
+      "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
@@ -1110002,9 +1106847,11 @@
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
+      "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00"
     ],
     "cve_ids:CVE-2026-20700|affected_products:AWS": [
+      "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
@@ -1110014,9 +1106861,11 @@
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
+      "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00"
     ],
     "actor_attribution:APT29|affected_products:Android": [
+      "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
       "2026-11-04T14:00:00+00:00",
@@ -1110026,9 +1106875,11 @@
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
+      "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00"
     ],
     "cve_ids:CVE-2026-109593|affected_products:SonicWall": [
+      "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
@@ -1110038,9 +1106889,11 @@
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
+      "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00"
     ],
     "cve_ids:CVE-2026-109594|affected_products:GitLab": [
+      "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
@@ -1110050,9 +1106903,11 @@
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
+      "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00"
     ],
     "cve_ids:CVE-2026-109594|affected_products:WordPress": [
+      "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
@@ -1110062,9 +1106917,11 @@
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
+      "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00"
     ],
     "cve_ids:CVE-2026-15410|affected_products:GitLab": [
+      "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
@@ -1110074,9 +1106931,11 @@
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
+      "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00"
     ],
     "cve_ids:CVE-2026-83548|affected_products:GitLab": [
+      "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
@@ -1110086,23 +1106945,28 @@
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00",
+      "2026-11-04T14:42:25+00:00",
       "2026-11-04T14:42:25+00:00"
     ],
     "cve_ids:CVE-2026-122192|affected_products:AWS": [
       "2026-11-04T21:47:44+00:00",
       "2026-11-04T21:47:44+00:00",
-      "2026-11-04T21:47:44+00:00"
+      "2026-11-04T21:47:44+00:00",
+      "2026-11-05T19:21:56+00:00"
     ],
     "cve_ids:CVE-2026-107441|affected_products:Gitea": [
+      "2026-11-04T20:58:19+00:00",
       "2026-11-04T20:58:19+00:00",
       "2026-11-04T20:58:19+00:00",
       "2026-11-04T20:58:19+00:00"
     ],
     "cve_ids:CVE-2026-120422|affected_products:Fortinet": [
       "2026-11-04T09:55:00+00:00",
+      "2026-11-04T09:55:00+00:00",
       "2026-11-04T09:55:00+00:00"
     ],
     "cve_ids:CVE-2025-53771|affected_products:Microsoft SharePoint": [
+      "2026-11-05T10:00:11+00:00",
       "2026-11-05T10:00:11+00:00"
     ],
     "cve_ids:CVE-2026-107441|affected_products:Android": [
