@@ -6,20 +6,100 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Fri, 06 Nov 2026 00:56:02 +0000</lastBuildDate>
+<lastBuildDate>Fri, 06 Nov 2026 07:50:18 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>November 2026 Patch Tuesday forecast: Old software continues to bite</title>
+<link>https://www.helpnetsecurity.com/2026/11/06/november-2026-patch-tuesday-forecast/</link>
+<description><![CDATA[How did you enjoy October 2026 Patch Tuesday? Were there enough CVEs reported to keep you busy for the rest of the year or are you finished and ready for another round next week? They released the regularly scheduled update nearly two and a half hours late, but Microsoft did resolve another record-breaking 1,407 unique CVEs. As in previous months, there were limited CVEs we needed to immediately deal with. In October, one zero-day CVE-2026-96951 … More → The post November 2026 Patch Tuesday forecast: Old software continues to bite appeared first on Help Net Security .<br/><br/><em>Tags: Microsoft Windows · Ivanti · CVE-2026-96951 · CVE-2026-10839 · CVE-2026-109618 · CVE-2026-109619 · CVE-2026-111497 · zero_day</em>]]></description>
+<pubDate>Fri, 06 Nov 2026 07:00:48 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/11/06/november-2026-patch-tuesday-forecast/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>Microsoft Windows</category>
+<category>Ivanti</category>
+<category>CVE-2026-96951</category>
+<category>CVE-2026-10839</category>
+</item>
+<item>
+<title>Security certification is a snapshot, and buyers read too much into it</title>
+<link>https://www.helpnetsecurity.com/2026/11/06/mariia-bakhtina-masaryk-university-security-certification/</link>
+<description><![CDATA[In this Help Net Security video, Mariia Bakhtina, a research specialist at Masaryk University, explains what a Common Criteria or FIPS-140 certificate does and does not promise. In her team’s analysis, about 6 in 10 vulnerabilities matched to certified products, smartcards aside, were disclosed after the certification date. She also describes sec-certs and SCRUTINY, two open-source tools her lab builds, and the one question buyers should put to a vendor. Picture a procurement manager handed … More → The post Security certification is a snapshot, and buyers read too much into it appeared first on Help Net Security .]]></description>
+<pubDate>Fri, 06 Nov 2026 06:30:16 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/11/06/mariia-bakhtina-masaryk-university-security-certification/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs</title>
+<link>https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html</link>
+<description><![CDATA[A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin&apos;s XLab said this week. The backdoored web server executes commands that attackers send via web requests, and those requests never appear in its access logs. Installing it takes root access, so the attackers must already control the server.<br/><br/><em>Tags: web_shell_backdoor</em>]]></description>
+<pubDate>Fri, 06 Nov 2026 05:58:54 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>web_shell_backdoor</category>
+</item>
+<item>
+<title>Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login</title>
+<link>https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html</link>
+<description><![CDATA[Two flaws in Barracuda&apos;s Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required. The company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday. One flaw, CVE-2026-116606, is an authorization bypass. An unauthenticated attacker can use it to restore a<br/><br/><em>Tags: CVE-2026-116606</em>]]></description>
+<pubDate>Fri, 06 Nov 2026 05:39:10 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>CVE-2026-116606</category>
+</item>
+<item>
+<title>Rental phishing sites use live chat to win over hesitant travelers</title>
+<link>https://www.helpnetsecurity.com/2026/11/06/holiday-rental-platform-phishing-travelers/</link>
+<description><![CDATA[Holiday travelers looking for a place to stay are landing on copies of popular rental platforms, complete with host names, ratings and reviews, that ask for their passwords, personal details and credit card numbers. The sites, spotted and taken down by Fortra’s Intelligence and Research Experts (FIRE) team, rely on familiar branding, copied property listings and reservation details, along with urgent messages meant to rush visitors into acting. A phishing page imitating a rental marketplace … More → The post Rental phishing sites use live chat to win over hesitant travelers appeared first on Help Net Security .<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
+<pubDate>Fri, 06 Nov 2026 05:00:41 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/11/06/holiday-rental-platform-phishing-travelers/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>phishing_social_eng</category>
+</item>
+<item>
+<title>OpenSSH auth bypass bug hits Alpine Linux, OperWRT</title>
+<link>https://risky.biz/RBNEWS630/</link>
+<description><![CDATA[An OpenSSH authentication bypass bug hits Alpine Linux and OpenWRT, hackers attempt to raise fridge temperatures at French blood banks, a French bank gets hacked for $133 million, and the Thai opposition has been targeted with spyware.]]></description>
+<pubDate>Fri, 06 Nov 2026 03:32:33 +0000</pubDate>
+<guid isPermaLink="true">https://risky.biz/RBNEWS630/</guid>
+<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
+<category>practitioner_analysis</category>
+</item>
+<item>
+<title>FBI, CISA warn of cyberattacks targeting refrigeration systems</title>
+<link>https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/</link>
+<description><![CDATA[The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [...]]]></description>
+<pubDate>Fri, 06 Nov 2026 00:56:44 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>Threat actors use agentic AI tooling to find and abuse exposed secrets</title>
 <link>https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/</link>
 <description><![CDATA[Microsoft Threat Intelligence has observed threat actors using the agentic offensive security framework ARTEX to search GitHub for OAuth application secrets, which can be used to compromise the associated OAuth application and perform authenticated actions in the application’s tenant. Agents operating on behalf of threat actors then used the compromised OAuth applications to perform a variety of subsequent actions within compromised organizations. The post Threat actors use agentic AI tooling to find and abuse exposed secrets appeared first on Microsoft Security Blog .<br/><br/><em>Tags: GitHub · Azure · credential_theft</em>]]></description>
 <pubDate>Thu, 05 Nov 2026 23:46:50 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>GitHub</category>
 <category>Azure</category>
 <category>credential_theft</category>
+</item>
+<item>
+<title>Threat actors use agentic AI tooling to find and abuse exposed secrets</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/</link>
+<description><![CDATA[Microsoft Threat Intelligence has observed threat actors using the agentic offensive security framework ARTEX to search GitHub for OAuth application secrets, which can be used to compromise the associated OAuth application and perform authenticated actions in the application’s tenant. Agents operating on behalf of threat actors then used the compromised OAuth applications to perform a variety of subsequent actions within compromised organizations. The post Threat actors use agentic AI tooling to find and abuse exposed secrets appeared first on Microsoft Security Blog .<br/><br/><em>Tags: GitHub</em>]]></description>
+<pubDate>Thu, 05 Nov 2026 23:46:50 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<category>threat_research_primary</category>
+<category>GitHub</category>
 </item>
 <item>
 <title>Queens Public Library says ransomware attack disrupted Wi-Fi, on-site computers</title>
@@ -364,12 +444,11 @@
 <item>
 <title>ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories</title>
 <link>https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html</link>
-<description><![CDATA[How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn&apos;t. And while new tools are helping find security holes faster, some important systems are still taking months, sometimes over a year, to get patched. Not exactly a<br/><br/><em>Tags: zero_day</em>]]></description>
+<description><![CDATA[How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn&apos;t. And while new tools are helping find security holes faster, some important systems are still taking months, sometimes over a year, to get patched. Not exactly a]]></description>
 <pubDate>Thu, 05 Nov 2026 14:41:10 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-<category>zero_day</category>
 </item>
 <item>
 <title>ThisBash Escape: Claude Dispatch Flaw Enables Browser Extensions RCE on the OS · Forever Security</title>
@@ -424,16 +503,6 @@
 <category>Anthropic/Claude</category>
 </item>
 <item>
-<title>Cyberattack on Norway’s aid agency may have swept up all user data</title>
-<link>https://www.helpnetsecurity.com/2026/11/05/norad-grants-portal-breach/</link>
-<description><![CDATA[The names and email addresses of 20,614 people registered on Norad’s Grants Portal may have ended up in the hands of attackers, Norway’s development aid agency has disclosed. Norad, short for the Norwegian Agency for Development Cooperation, works with partners around the world on development aid. It operates the portal, and both the agency and Norway’s Ministry of Foreign Affairs use it to collect funding applications for aid projects. According to the agency, the portal … More → The post Cyberattack on Norway’s aid agency may have swept up all user data appeared first on Help Net Security .<br/><br/><em>Tags: data_breach</em>]]></description>
-<pubDate>Thu, 05 Nov 2026 13:56:49 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/11/05/norad-grants-portal-breach/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>data_breach</category>
-</item>
-<item>
 <title>Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns</title>
 <link>https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/</link>
 <description><![CDATA[More than 200 sites were seen serving phishing content to first-time visitors but not to those who revisit. The post Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns appeared first on SecurityWeek .<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
@@ -485,27 +554,6 @@
 <category>Linux kernel</category>
 </item>
 <item>
-<title>Patched Zyxel GS1900 switches remained open to in-the-wild exploit (CVE-2026-107441)</title>
-<link>https://www.helpnetsecurity.com/2026/11/05/zyxel-cve-2026-107441-exploit/</link>
-<description><![CDATA[Zyxel GS1900 series network switches that received a fix for a flaw that was later reported to have been exploited in the wild are still open to an exploit attackers used, Binarly found. That’s because the patch fixed a different bug (CVE-2026-7273) from the one (CVE-2026-107441) the exploit actually relies on. The exploit for an unpatched bug In June 2026, Zyxel published an advisory on CVE-2026-7273, a stack-based buffer overflow vulnerability in the CGI program … More → The post Patched Zyxel GS1900 switches remained open to in-the-wild exploit (CVE-2026-107441) appeared first on Help Net Security .<br/><br/><em>Tags: CVE-2026-107441 · CVE-2026-7273 · active_exploitation</em>]]></description>
-<pubDate>Thu, 05 Nov 2026 12:06:32 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/11/05/zyxel-cve-2026-107441-exploit/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>CVE-2026-107441</category>
-<category>CVE-2026-7273</category>
-<category>active_exploitation</category>
-</item>
-<item>
-<title>Scammers capitalize on GTA 6 hype to push malware and crypto cons</title>
-<link>https://www.helpnetsecurity.com/2026/11/05/gta-6-scams-fake-leaks-early-access/</link>
-<description><![CDATA[Scammers are offering supposed leaked builds, early copies and phone versions of Grand Theft Auto VI (GTA 6) weeks before the game’s November 19 launch, Netcraft warned in a new blog post. The company looked at GTA VI-themed domains that appeared between July 1 and October 27, 2026. Most of the lures fell into four groups, with sites borrowing the name of popular GTA VI leaker CyberLeek, promising early access, advertising mobile versions that don’t … More → The post Scammers capitalize on GTA 6 hype to push malware and crypto cons appeared first on Help Net Security .]]></description>
-<pubDate>Thu, 05 Nov 2026 11:41:50 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/11/05/gta-6-scams-fake-leaks-early-access/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Chinese Nation-State Threat Activity Falls Sharply in Q2 and Q3 2026</title>
 <link>https://www.infosecurity-magazine.com/news/chinese-nation-activity-falls/</link>
 <description><![CDATA[Trellix observed a 41.4% drop in China-nexus activity between April and September, which may reflect changing PRC strategic priorities<br/><br/><em>Tags: apt_espionage</em>]]></description>
@@ -518,13 +566,15 @@
 <item>
 <title>Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day</title>
 <link>https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/</link>
-<description><![CDATA[Tracked as CVE-2026-107441, the out-of-bounds write flaw could allow attackers to execute OS commands via crafted HTTP requests. The post Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day appeared first on SecurityWeek .<br/><br/><em>Tags: CVE-2026-107441 · zero_day</em>]]></description>
+<description><![CDATA[Tracked as CVE-2026-107441, the out-of-bounds write flaw could allow attackers to execute OS commands via crafted HTTP requests. The post Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day appeared first on SecurityWeek .<br/><br/><em>Tags: SonicWall · Android · OpenAI/ChatGPT · CVE-2026-107441 · CVE-2026-7273 · supply_chain · phishing_social_eng · zero_day</em>]]></description>
 <pubDate>Thu, 05 Nov 2026 10:56:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
+<category>SonicWall</category>
+<category>Android</category>
+<category>OpenAI/ChatGPT</category>
 <category>CVE-2026-107441</category>
-<category>zero_day</category>
 </item>
 <item>
 <title>Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes</title>
@@ -609,6 +659,19 @@
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>CVE-2024-27834</category>
+</item>
+<item>
+<title>Adversary Infrastructure New Huntress ITDR Feature</title>
+<link>https://www.huntress.com/blog/itdr-adversary-infrastructure</link>
+<description><![CDATA[Adversary Infrastructure is a new Managed ITDR feature that blocks attackers at Microsoft 365 sign-in, turning one tenant’s attack into fleet-wide protection.<br/><br/><em>Tags: Microsoft 365 · Anthropic/Claude · OpenAI/ChatGPT · phishing_social_eng · mfa_bypass</em>]]></description>
+<pubDate>Thu, 05 Nov 2026 05:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/itdr-adversary-infrastructure</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
+<category>Microsoft 365</category>
+<category>Anthropic/Claude</category>
+<category>OpenAI/ChatGPT</category>
+<category>phishing_social_eng</category>
 </item>
 <item>
 <title>Smashing Security podcast #491: How AI agents are spooking the banks</title>
@@ -759,16 +822,6 @@
 <guid isPermaLink="true">https://portswigger.net/research/making-http-header-injection-critical-with-one-prompt</guid>
 <source url="https://portswigger.net/research/rss">PortSwigger Research</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Google Calendar phishing campaign hijacks sessions, bypasses MFA</title>
-<link>https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/</link>
-<description><![CDATA[A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the attacks, blocked malicious messages, and helped take down nearly 900 domains used by the attackers. [...]<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Wed, 04 Nov 2026 15:00:10 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>China-Aligned Group Abuses Sogou Input Method to Deliver Malware</title>
@@ -1848,37 +1901,6 @@
 <category>credential_theft</category>
 </item>
 <item>
-<title>YARA-X 1.22.1 Release, (Sat, Oct 31st)</title>
-<link>https://isc.sans.edu/diary/rss/33474</link>
-<description><![CDATA[YARA-X&amp;#;x26;#;39;s 1.22.1 is a bugfix version, it brings 2 bugfixes.]]></description>
-<pubDate>Sat, 31 Oct 2026 10:48:17 +0000</pubDate>
-<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33474</guid>
-<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
-<category>government_authoritative</category>
-</item>
-<item>
-<title>Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access</title>
-<link>https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html</link>
-<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild. The vulnerabilities are listed below - CVE-2026-111357 (CVSS score: 8.8) - A missing authentication for a critical function vulnerability that could allow a<br/><br/><em>Tags: Ivanti · CVE-2026-111357 · active_exploitation</em>]]></description>
-<pubDate>Sat, 31 Oct 2026 08:27:43 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>Ivanti</category>
-<category>CVE-2026-111357</category>
-<category>active_exploitation</category>
-</item>
-<item>
-<title>A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats</title>
-<link>https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html</link>
-<description><![CDATA[A malicious ChatGPT share link could run an attacker&apos;s code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parameter showed. The researchers reported the flaw through OpenAI&apos;s bug bounty program on October 18, and OpenAI fixed it eight days later and rated it P1, its most serious category.<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
-<pubDate>Sat, 31 Oct 2026 05:33:41 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>OpenAI/ChatGPT</category>
-</item>
-<item>
 <title>Inside a malicious Claude Code-branded extension and its persistent SSH backdoor</title>
 <link>https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/</link>
 <description><![CDATA[Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it. The post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Anthropic/Claude · Microsoft Defender · supply_chain · web_shell_backdoor</em>]]></description>
@@ -2220,15 +2242,6 @@
 <description><![CDATA[As Microsoft Threat Intelligence continues to track how threat actors operationalize AI to increase the speed and efficiency of attacks, we’ve identified North Korean threat actors expanding their use of AI with varying levels of adoption. This blog breaks down how North Korean threat actors are utilizing AI across their operations, reflecting a broader trend of threat actors incorporating AI into their attack chains. The post Tracking AI adoption in North Korean threat actor tradecraft appeared first on Microsoft Security Blog .]]></description>
 <pubDate>Thu, 29 Oct 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
-<category>threat_research_primary</category>
-</item>
-<item>
-<title>IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment</title>
-<link>https://www.microsoft.com/en-us/security/blog/2026/10/29/idc-marketscape-names-microsoft-a-leader-in-the-2026-worldwide-modern-endpoint-security-for-enterprises-vendor-assessment/</link>
-<description><![CDATA[IDC has named Microsoft a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises. The post IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment appeared first on Microsoft Security Blog .]]></description>
-<pubDate>Thu, 29 Oct 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/10/29/idc-marketscape-names-microsoft-a-leader-in-the-2026-worldwide-modern-endpoint-security-for-enterprises-vendor-assessment/</guid>
 <source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 </item>
@@ -2740,7 +2753,7 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>Lessons from Cybersecurity Black Week</title>
+<title>Lessons from cybersecurity Black Week</title>
 <link>https://www.welivesecurity.com/en/business-security/lessons-cybersecurity-black-week/</link>
 <description><![CDATA[A critical PHP flaw, leaked Linux kernel reports, a poisoned LiteLLM release, and more, all in seven days. Which threats called for immediate action, and which generated more noise than real danger?<br/><br/><em>Tags: Linux kernel</em>]]></description>
 <pubDate>Wed, 28 Oct 2026 10:33:51 +0000</pubDate>
@@ -11221,15 +11234,6 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
-<title>Fake Refund Scam Hits Shopify Shop App Users</title>
-<link>https://www.huntress.com/blog/shopify-fake-refund-scam</link>
-<description><![CDATA[A Shopify fake refund scam has been making the rounds over the past few months, targeting Shopify’s Shop app users directly within the app. Here’s what to know.]]></description>
-<pubDate>Thu, 13 Aug 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/shopify-fake-refund-scam</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>How BitLocker PINs help protect your data and devices</title>
 <link>https://www.ncsc.gov.uk/blogs/how-bitlocker-pins-help-protect-your-data-and-devices</link>
 <description><![CDATA[Using a PIN mitigates many BitLocker vulnerabilities. Make sure you’re ready for the next one...<br/><br/><em>Tags: Microsoft BitLocker</em>]]></description>
@@ -13446,15 +13450,6 @@
 <guid isPermaLink="true">https://www.wiz.io/blog/ai-rewriting-secops-playbook</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Risky Bulletin: FortiBleed hacks involved a lot of traffic sniffing</title>
-<link>https://risky.biz/RBNEWS581/</link>
-<description><![CDATA[The FortiBleed hacks are worse than a credentials leak, a new White House executive order sets out a hard 2031 post quantum cryptography deadline, Meta leaks employee keystroke data, and a third of Samsung and LG TVs act as proxies.]]></description>
-<pubDate>Wed, 24 Jun 2026 06:20:28 +0000</pubDate>
-<guid isPermaLink="true">https://risky.biz/RBNEWS581/</guid>
-<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
 </item>
 <item>
 <title>Behind the console: An AiTM phishing kit harvesting AWS console credentials and beyond</title>
@@ -19812,7 +19807,7 @@
 <title>How Adversaries Are Turning the Vulnerability Ecosystem Against Defenders</title>
 <link>https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 06 Nov 2026 00:56:02 +0000</pubDate>
+<pubDate>Fri, 06 Nov 2026 07:50:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19821,7 +19816,7 @@
 <title>CrowdStrike Introduces Agentic Adversary Emulation to Counter AI-Enabled Adversaries</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-agentic-adversary-emulation-counters-ai-enabled-adversaries/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 06 Nov 2026 00:56:02 +0000</pubDate>
+<pubDate>Fri, 06 Nov 2026 07:50:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-agentic-adversary-emulation-counters-ai-enabled-adversaries/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19830,7 +19825,7 @@
 <title>CrowdStrike Extends the Agentic SOC to Detect and Stop Agent Insider Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 06 Nov 2026 00:56:02 +0000</pubDate>
+<pubDate>Fri, 06 Nov 2026 07:50:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19839,7 +19834,7 @@
 <title>CrowdStrike Brings Enterprise Browser Security to the Falcon Platform</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-enterprise-browser-security-to-falcon-platform/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 06 Nov 2026 00:56:02 +0000</pubDate>
+<pubDate>Fri, 06 Nov 2026 07:50:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-enterprise-browser-security-to-falcon-platform/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19848,7 +19843,7 @@
 <title>New Falcon Cloud Security Innovations Secure the Cloud AI Runs On</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-innovations-secure-cloud-ai-runs-on/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 06 Nov 2026 00:56:02 +0000</pubDate>
+<pubDate>Fri, 06 Nov 2026 07:50:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-innovations-secure-cloud-ai-runs-on/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19857,7 +19852,7 @@
 <title>CrowdStrike Advances AI Security and Safety from Endpoint to Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-advances-ai-security-and-safety-falcon-guardian/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 06 Nov 2026 00:56:02 +0000</pubDate>
+<pubDate>Fri, 06 Nov 2026 07:50:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-advances-ai-security-and-safety-falcon-guardian/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19866,7 +19861,7 @@
 <title>Introducing AI Kill Switch: Taking Control When AI Agents Go Rogue</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-introduces-ai-kill-switch/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 06 Nov 2026 00:56:02 +0000</pubDate>
+<pubDate>Fri, 06 Nov 2026 07:50:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-introduces-ai-kill-switch/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19875,7 +19870,7 @@
 <title>CrowdStrike Secures AI Agents Inside Claude Cowork</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-secures-ai-agents-inside-claude-cowork/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 06 Nov 2026 00:56:02 +0000</pubDate>
+<pubDate>Fri, 06 Nov 2026 07:50:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-secures-ai-agents-inside-claude-cowork/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19884,7 +19879,7 @@
 <title>CrowdStrike to Acquire Dreadnode to Bring Automated AI Security Testing to the Falcon Platform</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-dreadnode/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 06 Nov 2026 00:56:02 +0000</pubDate>
+<pubDate>Fri, 06 Nov 2026 07:50:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-dreadnode/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19893,7 +19888,7 @@
 <title>CrowdStrike to Acquire Fiddler to Deliver Falcon Observe for AI Agent Observability</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 06 Nov 2026 00:56:02 +0000</pubDate>
+<pubDate>Fri, 06 Nov 2026 07:50:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
