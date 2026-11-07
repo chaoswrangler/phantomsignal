@@ -6,9 +6,54 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Fri, 06 Nov 2026 21:25:05 +0000</lastBuildDate>
+<lastBuildDate>Sat, 07 Nov 2026 01:45:35 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks</title>
+<link>https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/</link>
+<description><![CDATA[SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]<br/><br/><em>Tags: SonicWall · Ivanti · GitLab · CVE-2026-19868 · CVE-2026-102255 · phishing_social_eng · zero_day · ddos</em>]]></description>
+<pubDate>Sat, 07 Nov 2026 00:00:55 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>SonicWall</category>
+<category>Ivanti</category>
+<category>GitLab</category>
+<category>CVE-2026-19868</category>
+</item>
+<item>
+<title>CVE-2026-123158 | OpenSSH musl Password Authentication Bypass &amp; Remote Code Execution Vulnerability (*sshole)</title>
+<link>https://horizon3.ai/attack-research/vulnerabilities/cve-2026-123158/</link>
+<description><![CDATA[CVE-2026-123158, known as *sshole, is an OpenSSH sshd authentication bypass on Linux systems that use musl libc without PAM, including Alpine Linux in its default configuration.<br/><br/><em>Tags: CVE-2026-123158 · CVE-2026-20362 · CVE-2026-109618 · CVE-2026-109619 · CVE-2026-76268 · active_exploitation</em>]]></description>
+<pubDate>Fri, 06 Nov 2026 23:29:54 +0000</pubDate>
+<guid isPermaLink="true">https://horizon3.ai/attack-research/vulnerabilities/cve-2026-123158/</guid>
+<source url="https://horizon3.ai/feed/">Horizon3 Attack Research</source>
+<category>offensive_vulnerability_research</category>
+<category>CVE-2026-123158</category>
+<category>CVE-2026-20362</category>
+<category>CVE-2026-109618</category>
+<category>CVE-2026-109619</category>
+</item>
+<item>
+<title>Runaway AI hacking agent behind WorkOS breach after escaping sandbox</title>
+<link>https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/</link>
+<description><![CDATA[WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company. [...]]]></description>
+<pubDate>Fri, 06 Nov 2026 22:27:25 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>OpenSSF Community Day Europe 2026: Driving Systemic Security and Operational Resilience in Open Source</title>
+<link>https://openssf.org/blog/2026/11/06/openssf-community-day-europe-2026-driving-systemic-security-and-operational-resilience-in-open-source/</link>
+<description><![CDATA[At OpenSSF Community Day Europe 2026 in Prague, more than 200 attendees gathered onsite as practitioners, maintainers, policymakers, and security leaders came together across two distinct tracks: the Main Track (South Hall 3B) focusing on core community strategy, policy, and tooling, and the dedicated SCORED Track (South Hall 3A) highlighting academic research and technical supply chain studies.<br/><br/><em>Tags: supply_chain</em>]]></description>
+<pubDate>Fri, 06 Nov 2026 21:40:15 +0000</pubDate>
+<guid isPermaLink="true">https://openssf.org/blog/2026/11/06/openssf-community-day-europe-2026-driving-systemic-security-and-operational-resilience-in-open-source/</guid>
+<source url="https://openssf.org/feed/">OpenSSF Blog</source>
+<category>ai_security_agentic_risk</category>
+<category>supply_chain</category>
+</item>
 <item>
 <title>Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System</title>
 <link>https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/</link>
@@ -19,6 +64,19 @@
 <category>threat_research_primary</category>
 <category>Palo Alto Networks</category>
 <category>NoName057(16)</category>
+</item>
+<item>
+<title>Brute Force Sentry for Managed SIEM | Huntress</title>
+<link>https://www.huntress.com/blog/brute-force-sentry</link>
+<description><![CDATA[Huntress Managed SIEM&apos;s Brute Force Sentry turns the brute force attacks our SOC sees in the field into detections that fire earlier, with the evidence and hardening guidance partners need to close the gap.<br/><br/><em>Tags: Apple iOS/macOS · Anthropic/Claude · OpenAI/ChatGPT · credential_theft</em>]]></description>
+<pubDate>Fri, 06 Nov 2026 21:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/brute-force-sentry</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
+<category>Apple iOS/macOS</category>
+<category>Anthropic/Claude</category>
+<category>OpenAI/ChatGPT</category>
+<category>credential_theft</category>
 </item>
 <item>
 <title>OpenAI&apos;s new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs</title>
@@ -247,14 +305,12 @@
 <item>
 <title>OpenSSH flaw exploited in the wild just hours after disclosure (CVE-2026-123158)</title>
 <link>https://www.helpnetsecurity.com/2026/11/06/openssh-sshole-cve-2026-123158-exploitation/</link>
-<description><![CDATA[An OpenSSH flaw that lets remote attackers log into passwordless accounts on Alpine Linux and other musl-based systems is being exploited, threat intelligence firm Previdian has warned. The flaw (CVE-2026-123158), nicknamed sshole by Wakefield researcher Özgün Kültekin, was fixed in OpenSSH 10.6p2 on November 5. “An attacker who can reach your SSH port can log in without knowing any password. It takes one connection, works every time, and needs no retries,” the Alpine Linux team … More → The post OpenSSH flaw exploited in the wild just hours after disclosure (CVE-2026-123158) appeared first on Help Net Security .<br/><br/><em>Tags: Docker · CVE-2026-123158 · CVE-2016-6210 · active_exploitation</em>]]></description>
+<description><![CDATA[An OpenSSH flaw that lets remote attackers log into passwordless accounts on Alpine Linux and other musl-based systems is being exploited, threat intelligence firm Previdian has warned. The flaw (CVE-2026-123158), nicknamed sshole by Wakefield researcher Özgün Kültekin, was fixed in OpenSSH 10.6p2 on November 5. “An attacker who can reach your SSH port can log in without knowing any password. It takes one connection, works every time, and needs no retries,” the Alpine Linux team … More → The post OpenSSH flaw exploited in the wild just hours after disclosure (CVE-2026-123158) appeared first on Help Net Security .<br/><br/><em>Tags: CVE-2026-123158 · active_exploitation</em>]]></description>
 <pubDate>Fri, 06 Nov 2026 12:49:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.helpnetsecurity.com/2026/11/06/openssh-sshole-cve-2026-123158-exploitation/</guid>
 <source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
 <category>cyber_news_breach_reporting</category>
-<category>Docker</category>
 <category>CVE-2026-123158</category>
-<category>CVE-2016-6210</category>
 <category>active_exploitation</category>
 </item>
 <item>
@@ -678,26 +734,6 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
-<title>Hackers backdoor Linux servers using trojanized CWP web server</title>
-<link>https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/</link>
-<description><![CDATA[A new Linux malware called CWPdoor is being distributed through a trojanized version of cwpsrv, the web server behind the Control Web Panel (CWP) management interface. [...]<br/><br/><em>Tags: web_shell_backdoor</em>]]></description>
-<pubDate>Thu, 05 Nov 2026 16:24:26 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>web_shell_backdoor</category>
-</item>
-<item>
-<title>DigiCert data breach exposes customer information, identity documents</title>
-<link>https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/</link>
-<description><![CDATA[DigiCert warns it suffered a data breach after a server migration mistakenly exposed an internal business system to the internet, allowing unauthorized access to customer information and identity documents. [...]<br/><br/><em>Tags: data_breach</em>]]></description>
-<pubDate>Thu, 05 Nov 2026 16:12:46 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>data_breach</category>
-</item>
-<item>
 <title>Email threat landscape: Q3 2026 trends and insights</title>
 <link>https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights/</link>
 <description><![CDATA[Microsoft Threat Intelligence observed a sharp rise in email-based phishing activity at the end of Q3 2026 (July – September), even as QR code phishing declined, CAPTCHA-gated phishing recovered, and malicious messages spoofing familiar business-service sender domains exposed risks associated with security overrides. The post Email threat landscape: Q3 2026 trends and insights appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft Defender · phishing_social_eng · credential_theft</em>]]></description>
@@ -753,15 +789,11 @@
 <item>
 <title>Defense Drill Interventions</title>
 <link>https://www.huntress.com/blog/defense-drill-interventions</link>
-<description><![CDATA[Defense Drill Interventions pair Managed EDR with just-in-time SAT training, so users learn the moment they fall for ClickFix.<br/><br/><em>Tags: OpenAI/ChatGPT · Anthropic/Claude · phishing_social_eng · credential_theft · active_exploitation</em>]]></description>
+<description><![CDATA[Defense Drill Interventions pair Managed EDR with just-in-time SAT training, so users learn the moment they fall for ClickFix.]]></description>
 <pubDate>Thu, 05 Nov 2026 15:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.huntress.com/blog/defense-drill-interventions</guid>
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
-<category>OpenAI/ChatGPT</category>
-<category>Anthropic/Claude</category>
-<category>phishing_social_eng</category>
-<category>credential_theft</category>
 </item>
 <item>
 <title>ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories</title>
@@ -891,15 +923,12 @@
 <item>
 <title>Adversary Infrastructure New Huntress ITDR Feature</title>
 <link>https://www.huntress.com/blog/itdr-adversary-infrastructure</link>
-<description><![CDATA[Adversary Infrastructure is a new Managed ITDR feature that blocks attackers at Microsoft 365 sign-in, turning one tenant’s attack into fleet-wide protection.<br/><br/><em>Tags: Microsoft 365 · Anthropic/Claude · OpenAI/ChatGPT · phishing_social_eng · mfa_bypass</em>]]></description>
+<description><![CDATA[Adversary Infrastructure is a new Managed ITDR feature that blocks attackers at Microsoft 365 sign-in, turning one tenant’s attack into fleet-wide protection.<br/><br/><em>Tags: Microsoft 365</em>]]></description>
 <pubDate>Thu, 05 Nov 2026 05:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.huntress.com/blog/itdr-adversary-infrastructure</guid>
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
 <category>Microsoft 365</category>
-<category>Anthropic/Claude</category>
-<category>OpenAI/ChatGPT</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>Smashing Security podcast #491: How AI agents are spooking the banks</title>
@@ -1955,14 +1984,12 @@
 <item>
 <title>Inside a malicious Claude Code-branded extension and its persistent SSH backdoor</title>
 <link>https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/</link>
-<description><![CDATA[Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it. The post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Anthropic/Claude · Microsoft Defender · supply_chain · web_shell_backdoor</em>]]></description>
+<description><![CDATA[Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it. The post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Anthropic/Claude · web_shell_backdoor</em>]]></description>
 <pubDate>Sat, 31 Oct 2026 01:02:57 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/</guid>
 <source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>Anthropic/Claude</category>
-<category>Microsoft Defender</category>
-<category>supply_chain</category>
 <category>web_shell_backdoor</category>
 </item>
 <item>
@@ -3861,15 +3888,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>Exposed to PHP2Shell? Cyber Experts Weigh in With Advice</title>
-<link>https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice</link>
-<description><![CDATA[Fixing the critical PHP flaws is not as simple as clicking &quot;Update.&quot; Here&apos;s how to assess your risk, and what you can do to protect yourself.]]></description>
-<pubDate>Fri, 23 Oct 2026 19:41:23 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>CVE-2026-109618 / CVE-2026-109619 | NodeZero Rapid Response Check Now Available</title>
 <link>https://horizon3.ai/attack-research/vulnerabilities/cve-2026-109618-cve-2026-109619/</link>
 <description><![CDATA[Advisory for PHP2Shell (CVE-2026-109618 and CVE-2026-109619): affected PHP versions, fixed releases, mitigations, monitoring guidance, and the NodeZero Rapid Response check.<br/><br/><em>Tags: CVE-2026-109618 · CVE-2026-109619</em>]]></description>
@@ -3879,15 +3897,6 @@
 <category>offensive_vulnerability_research</category>
 <category>CVE-2026-109618</category>
 <category>CVE-2026-109619</category>
-</item>
-<item>
-<title>AI Tools Are Generating Massive Attacks for Little Cost</title>
-<link>https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost</link>
-<description><![CDATA[One campaign targets 105 sites using open-weight models; in another, public models gained full domain control for $12. Cyber-defense will have to change.]]></description>
-<pubDate>Fri, 23 Oct 2026 17:26:59 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>PHP2Shell: What This Week Tells Us About the Web We Built</title>
@@ -3972,15 +3981,6 @@
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
 <category>data_breach</category>
-</item>
-<item>
-<title>Compromised TLS Certificates</title>
-<link>https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html</link>
-<description><![CDATA[The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys : The compromised eMudhra keys were defective at a level that’s challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve cryptography private key contains roughly 384 bits of entropy, a size allowing almost 2 384 , or a number with 116 digits, different possibilities. The private key sizes of the compromised keys ranged from 3 to 8 bits. Astonishingly, the private keys were 4, 56, 66, 115, 155, 156, 230, 237...]]></description>
-<pubDate>Fri, 23 Oct 2026 11:04:22 +0000</pubDate>
-<guid isPermaLink="true">https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html</guid>
-<source url="https://www.schneier.com/feed/atom/">Schneier on Security</source>
-<category>practitioner_analysis</category>
 </item>
 <item>
 <title>Widespread Token-Spraying Attacks Target Microsoft 365 Accounts For Email Compromise</title>
@@ -4754,16 +4754,6 @@
 <category>CVE-2026-109619</category>
 </item>
 <item>
-<title>CVE-2026-101767 | Oracle E-Business Suite TCF SQL Injection and Remote Code Execution</title>
-<link>https://horizon3.ai/attack-research/vulnerabilities/cve-2026-101767/</link>
-<description><![CDATA[CVE-2026-101767 is a critical (CVSS 9.8) unauthenticated SQL injection vulnerability in Oracle E-Business Suite 12.2.3–12.2.15. Horizon3 researchers identified an attack chain enabling remote code execution through the TCF servlet. Learn about affected versions, October 2026 patches, mitigations, and NodeZero Rapid Response validation.<br/><br/><em>Tags: CVE-2026-101767</em>]]></description>
-<pubDate>Tue, 20 Oct 2026 21:23:28 +0000</pubDate>
-<guid isPermaLink="true">https://horizon3.ai/attack-research/vulnerabilities/cve-2026-101767/</guid>
-<source url="https://horizon3.ai/feed/">Horizon3 Attack Research</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2026-101767</category>
-</item>
-<item>
 <title>Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20)</title>
 <link>https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/</link>
 <description><![CDATA[Ransomware operators including Spikey Scorpius (aka Qilin) and Tarnished Scorpius (aka Inc) are exploiting PAN-OS vulnerability CVE-2026-0257. The post Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20) appeared first on Unit 42 .<br/><br/><em>Tags: Palo Alto Networks · CVE-2026-0257 · ransomware_extortion</em>]]></description>
@@ -4813,15 +4803,6 @@
 <source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
 <category>cloud_identity_infrastructure</category>
 <category>AWS</category>
-</item>
-<item>
-<title>What’s in the SOSS? Podcast #76 – S3E28 Invisible Infrastructure, Autonomous Agents, and 10 Years of Cloud Native with CNCF’s Chris Aniszczyk</title>
-<link>https://openssf.org/podcast/2026/10/20/whats-in-the-soss-podcast-76-s3e28-invisible-infrastructure-autonomous-agents-and-10-years-of-cloud-native-with-cncfs-chris-aniszczyk/</link>
-<description><![CDATA[In this episode of What&apos;s in the SOSS, host CRob sits down with CNCF CTO Chris Aniszczyk to celebrate a decade of scaling invisible infrastructure. They dive into the evolution of Kubernetes, the cultural friction within AI teams, and how initiatives like the Kubernetes AI Conformance Program are maintaining vendor neutrality.]]></description>
-<pubDate>Tue, 20 Oct 2026 16:45:58 +0000</pubDate>
-<guid isPermaLink="true">https://openssf.org/podcast/2026/10/20/whats-in-the-soss-podcast-76-s3e28-invisible-infrastructure-autonomous-agents-and-10-years-of-cloud-native-with-cncfs-chris-aniszczyk/</guid>
-<source url="https://openssf.org/feed/">OpenSSF Blog</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>There&apos;s only so much code: the rise in vulnerability numbers</title>
@@ -11210,15 +11191,6 @@
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
 <category>GitHub</category>
-</item>
-<item>
-<title>Education Under Attack: The Pattern Behind Recent University Breaches</title>
-<link>https://www.huntress.com/blog/why-is-education-under-attack</link>
-<description><![CDATA[Four university breaches, one root cause: misconfiguration. See the pattern behind 2026&apos;s higher ed cyberattacks and how to fix the gap.]]></description>
-<pubDate>Thu, 13 Aug 2026 15:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/why-is-education-under-attack</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>Black Hat USA 2026: Will vulnerability discovery eventually decline in the AI era?</title>
@@ -19816,7 +19788,7 @@
 <title>How Adversaries Are Turning the Vulnerability Ecosystem Against Defenders</title>
 <link>https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 06 Nov 2026 21:25:05 +0000</pubDate>
+<pubDate>Sat, 07 Nov 2026 01:45:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19825,7 +19797,7 @@
 <title>CrowdStrike Introduces Agentic Adversary Emulation to Counter AI-Enabled Adversaries</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-agentic-adversary-emulation-counters-ai-enabled-adversaries/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 06 Nov 2026 21:25:05 +0000</pubDate>
+<pubDate>Sat, 07 Nov 2026 01:45:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-agentic-adversary-emulation-counters-ai-enabled-adversaries/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19834,7 +19806,7 @@
 <title>CrowdStrike Extends the Agentic SOC to Detect and Stop Agent Insider Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 06 Nov 2026 21:25:05 +0000</pubDate>
+<pubDate>Sat, 07 Nov 2026 01:45:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19843,7 +19815,7 @@
 <title>CrowdStrike Brings Enterprise Browser Security to the Falcon Platform</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-enterprise-browser-security-to-falcon-platform/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 06 Nov 2026 21:25:05 +0000</pubDate>
+<pubDate>Sat, 07 Nov 2026 01:45:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-enterprise-browser-security-to-falcon-platform/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19852,7 +19824,7 @@
 <title>New Falcon Cloud Security Innovations Secure the Cloud AI Runs On</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-innovations-secure-cloud-ai-runs-on/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 06 Nov 2026 21:25:05 +0000</pubDate>
+<pubDate>Sat, 07 Nov 2026 01:45:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-innovations-secure-cloud-ai-runs-on/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19861,7 +19833,7 @@
 <title>CrowdStrike Advances AI Security and Safety from Endpoint to Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-advances-ai-security-and-safety-falcon-guardian/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 06 Nov 2026 21:25:05 +0000</pubDate>
+<pubDate>Sat, 07 Nov 2026 01:45:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-advances-ai-security-and-safety-falcon-guardian/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19870,7 +19842,7 @@
 <title>Introducing AI Kill Switch: Taking Control When AI Agents Go Rogue</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-introduces-ai-kill-switch/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 06 Nov 2026 21:25:05 +0000</pubDate>
+<pubDate>Sat, 07 Nov 2026 01:45:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-introduces-ai-kill-switch/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19879,7 +19851,7 @@
 <title>CrowdStrike Secures AI Agents Inside Claude Cowork</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-secures-ai-agents-inside-claude-cowork/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 06 Nov 2026 21:25:05 +0000</pubDate>
+<pubDate>Sat, 07 Nov 2026 01:45:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-secures-ai-agents-inside-claude-cowork/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19888,7 +19860,7 @@
 <title>CrowdStrike to Acquire Dreadnode to Bring Automated AI Security Testing to the Falcon Platform</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-dreadnode/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 06 Nov 2026 21:25:05 +0000</pubDate>
+<pubDate>Sat, 07 Nov 2026 01:45:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-dreadnode/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19897,7 +19869,7 @@
 <title>CrowdStrike to Acquire Fiddler to Deliver Falcon Observe for AI Agent Observability</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 06 Nov 2026 21:25:05 +0000</pubDate>
+<pubDate>Sat, 07 Nov 2026 01:45:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
