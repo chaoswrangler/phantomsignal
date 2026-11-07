@@ -6,9 +6,29 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 07 Nov 2026 01:45:35 +0000</lastBuildDate>
+<lastBuildDate>Sat, 07 Nov 2026 08:36:06 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>ARTEX abuse expands as cybercriminals target financial sector</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/</link>
+<description><![CDATA[In October 2026, the financially motivated threat actor Storm-3358 began targeting organizations in the financial sector using the agentic AI offensive framework ARTEX. The post ARTEX abuse expands as cybercriminals target financial sector appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft Defender · credential_theft</em>]]></description>
+<pubDate>Sat, 07 Nov 2026 02:44:34 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<category>threat_research_primary</category>
+<category>Microsoft Defender</category>
+<category>credential_theft</category>
+</item>
+<item>
+<title>ARTEX abuse expands as cybercriminals target financial sector</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/</link>
+<description><![CDATA[In October 2026, the financially motivated threat actor Storm-3358 began targeting organizations in the financial sector using the agentic AI offensive framework ARTEX. The post ARTEX abuse expands as cybercriminals target financial sector appeared first on Microsoft Security Blog .]]></description>
+<pubDate>Sat, 07 Nov 2026 02:44:34 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<category>threat_research_primary</category>
+</item>
 <item>
 <title>SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks</title>
 <link>https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/</link>
@@ -164,13 +184,11 @@
 <item>
 <title>Team Cymru Tags Explained: Powering Faster, Smarter Threat Intelligence</title>
 <link>https://www.team-cymru.com/post/team-cymru-tags-explained</link>
-<description><![CDATA[Discover how Team Cymru Tags deliver real-time context to analysts, enabling faster triage, better threat detection, and automation-ready intelligence. Learn more.<br/><br/><em>Tags: AWS · phishing_social_eng</em>]]></description>
+<description><![CDATA[Discover how Team Cymru Tags deliver real-time context to analysts, enabling faster triage, better threat detection, and automation-ready intelligence. Learn more.]]></description>
 <pubDate>Fri, 06 Nov 2026 15:31:30 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/team-cymru-tags-explained</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
-<category>AWS</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>From C2 Detection to Possible Victim Identification</title>
@@ -184,13 +202,11 @@
 <item>
 <title>Query Scout in Synapse Enterprise With New Power-Up for Team Cymru</title>
 <link>https://www.team-cymru.com/post/query-scout-in-synapse-enterprise-with-new-power-up-for-team-cymru</link>
-<description><![CDATA[Instantly run Team Cymru Scout queries on the Pure Signal™ data ocean directly within Synapse Enterprise. See how to hunt for phishing infrastructure, analyze communication patterns, and unpack malicious IPs for frictionless, confident analysis.<br/><br/><em>Tags: Okta · cPanel · phishing_social_eng</em>]]></description>
+<description><![CDATA[Instantly run Team Cymru Scout queries on the Pure Signal™ data ocean directly within Synapse Enterprise. See how to hunt for phishing infrastructure, analyze communication patterns, and unpack malicious IPs for frictionless, confident analysis.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
 <pubDate>Fri, 06 Nov 2026 15:31:30 +0000</pubDate>
 <guid isPermaLink="true">https://www.team-cymru.com/post/query-scout-in-synapse-enterprise-with-new-power-up-for-team-cymru</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
-<category>Okta</category>
-<category>cPanel</category>
 <category>phishing_social_eng</category>
 </item>
 <item>
@@ -789,11 +805,15 @@
 <item>
 <title>Defense Drill Interventions</title>
 <link>https://www.huntress.com/blog/defense-drill-interventions</link>
-<description><![CDATA[Defense Drill Interventions pair Managed EDR with just-in-time SAT training, so users learn the moment they fall for ClickFix.]]></description>
+<description><![CDATA[Defense Drill Interventions pair Managed EDR with just-in-time SAT training, so users learn the moment they fall for ClickFix.<br/><br/><em>Tags: OpenAI/ChatGPT · Anthropic/Claude · phishing_social_eng · credential_theft · active_exploitation</em>]]></description>
 <pubDate>Thu, 05 Nov 2026 15:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.huntress.com/blog/defense-drill-interventions</guid>
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
+<category>OpenAI/ChatGPT</category>
+<category>Anthropic/Claude</category>
+<category>phishing_social_eng</category>
+<category>credential_theft</category>
 </item>
 <item>
 <title>ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories</title>
@@ -923,12 +943,15 @@
 <item>
 <title>Adversary Infrastructure New Huntress ITDR Feature</title>
 <link>https://www.huntress.com/blog/itdr-adversary-infrastructure</link>
-<description><![CDATA[Adversary Infrastructure is a new Managed ITDR feature that blocks attackers at Microsoft 365 sign-in, turning one tenant’s attack into fleet-wide protection.<br/><br/><em>Tags: Microsoft 365</em>]]></description>
+<description><![CDATA[Adversary Infrastructure is a new Managed ITDR feature that blocks attackers at Microsoft 365 sign-in, turning one tenant’s attack into fleet-wide protection.<br/><br/><em>Tags: Microsoft 365 · Anthropic/Claude · OpenAI/ChatGPT · phishing_social_eng · mfa_bypass</em>]]></description>
 <pubDate>Thu, 05 Nov 2026 05:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.huntress.com/blog/itdr-adversary-infrastructure</guid>
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
 <category>Microsoft 365</category>
+<category>Anthropic/Claude</category>
+<category>OpenAI/ChatGPT</category>
+<category>phishing_social_eng</category>
 </item>
 <item>
 <title>Smashing Security podcast #491: How AI agents are spooking the banks</title>
@@ -1872,15 +1895,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data</title>
-<link>https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html</link>
-<description><![CDATA[Attackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certificates for privileged accounts, including one for a domain controller. Microsoft said in a report that it investigated two such intrusions, one of which resulted in company]]></description>
-<pubDate>Mon, 02 Nov 2026 11:08:45 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Additional Ivanti Connect Secure zero-days exploited in the wild (CVE-2026-111357, CVE-2026-118527)</title>
 <link>https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527</link>
 <description><![CDATA[Overview On October 29, 2026, Ivanti updated its security advisory for Ivanti Connect Secure (ICS) to include two additional vulnerabilities and released fixes for both. Ivanti rates CVE-2026-111357 , a missing authentication for critical function vulnerability ( CWE-306 ), with a CVSSv3.1 score of 8.8 ; it allows a local authenticated attacker to escalate privileges. CVE-2026-118527 , classified as generation of predictable numbers or identifiers ( CWE-340 ), has an Ivanti-assigned CVSSv3.0 score of 4.3 and, according to CISA&apos;s KEV entry , allows a remote authenticated attacker to upload attacker-controlled content to a known location on disk. Per Ivanti, exploitation in the wild has already occurred prior to disclosure, affecting a limited number of customers when these flaws are chained with CVE-2026-104935 , an authentication bypass by spoofing ( CWE-290 ). Rapid7 covered the original disclosure on October 13, 2026 , when a fix for CVE-2026-104935 was available but the privilege es<br/><br/><em>Tags: Ivanti · Microsoft BitLocker · CVE-2026-111357 · CVE-2026-118527 · CVE-2026-104935 · credential_theft · zero_day · active_exploitation</em>]]></description>
@@ -2395,15 +2409,6 @@
 <guid isPermaLink="true">https://www.intel471.com/blog/planning-for-russias-escalating-hybrid-war</guid>
 <source url="https://intel471.com/blog/feed">Intel 471</source>
 <category>ransomware_ecrime_financial_crime</category>
-</item>
-<item>
-<title>Tracking AI adoption in North Korean threat actor tradecraft</title>
-<link>https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/</link>
-<description><![CDATA[As Microsoft Threat Intelligence continues to track how threat actors operationalize AI to increase the speed and efficiency of attacks, we’ve identified North Korean threat actors expanding their use of AI with varying levels of adoption. This blog breaks down how North Korean threat actors are utilizing AI across their operations, reflecting a broader trend of threat actors incorporating AI into their attack chains. The post Tracking AI adoption in North Korean threat actor tradecraft appeared first on Microsoft Security Blog .]]></description>
-<pubDate>Thu, 29 Oct 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
-<category>threat_research_primary</category>
 </item>
 <item>
 <title>Tracking AI adoption in North Korean threat actor tradecraft</title>
@@ -2996,15 +3001,6 @@
 <source url="https://securelist.com/feed/">Kaspersky Securelist</source>
 <category>threat_research_primary</category>
 <category>ddos</category>
-</item>
-<item>
-<title>A malicious game server can crash the Godot clients that join it</title>
-<link>https://www.reddit.com/r/netsec/comments/1xhju55/a_malicious_game_server_can_crash_the_godot/</link>
-<description><![CDATA[In Godot 4.0 and later, in games using the engine&apos;s standard spawning setup, a peer with authority over the relevant spawner - by default the server the client joins - can crash that client with one crafted packet. submitted by /u/bitbutter [link] [comments]]]></description>
-<pubDate>Wed, 28 Oct 2026 09:57:22 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1xhju55/a_malicious_game_server_can_crash_the_godot/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>ESET APT Activity Report Q2 2026–Q3 2026</title>
@@ -7957,16 +7953,6 @@
 <guid isPermaLink="true">https://deepmind.google/blog/introducing-synthid-bio/</guid>
 <source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
 <category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570</title>
-<link>https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/</link>
-<description><![CDATA[Microsoft Threat Intelligence examines CVE-2026-73570 exploitation in Zimbra, including observed attack paths, detection opportunities, and mitigation guidance. The post Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570 appeared first on Microsoft Security Blog .<br/><br/><em>Tags: CVE-2026-73570</em>]]></description>
-<pubDate>Wed, 30 Sep 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
-<category>threat_research_primary</category>
-<category>CVE-2026-73570</category>
 </item>
 <item>
 <title>Vulnerability Discovery and Exploitation Trends in the AI Era</title>
@@ -19788,7 +19774,7 @@
 <title>How Adversaries Are Turning the Vulnerability Ecosystem Against Defenders</title>
 <link>https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 07 Nov 2026 01:45:35 +0000</pubDate>
+<pubDate>Sat, 07 Nov 2026 08:36:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19797,7 +19783,7 @@
 <title>CrowdStrike Introduces Agentic Adversary Emulation to Counter AI-Enabled Adversaries</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-agentic-adversary-emulation-counters-ai-enabled-adversaries/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 07 Nov 2026 01:45:35 +0000</pubDate>
+<pubDate>Sat, 07 Nov 2026 08:36:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-agentic-adversary-emulation-counters-ai-enabled-adversaries/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19806,7 +19792,7 @@
 <title>CrowdStrike Extends the Agentic SOC to Detect and Stop Agent Insider Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 07 Nov 2026 01:45:35 +0000</pubDate>
+<pubDate>Sat, 07 Nov 2026 08:36:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19815,7 +19801,7 @@
 <title>CrowdStrike Brings Enterprise Browser Security to the Falcon Platform</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-enterprise-browser-security-to-falcon-platform/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 07 Nov 2026 01:45:35 +0000</pubDate>
+<pubDate>Sat, 07 Nov 2026 08:36:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-enterprise-browser-security-to-falcon-platform/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19824,7 +19810,7 @@
 <title>New Falcon Cloud Security Innovations Secure the Cloud AI Runs On</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-innovations-secure-cloud-ai-runs-on/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 07 Nov 2026 01:45:35 +0000</pubDate>
+<pubDate>Sat, 07 Nov 2026 08:36:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-innovations-secure-cloud-ai-runs-on/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19833,7 +19819,7 @@
 <title>CrowdStrike Advances AI Security and Safety from Endpoint to Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-advances-ai-security-and-safety-falcon-guardian/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 07 Nov 2026 01:45:35 +0000</pubDate>
+<pubDate>Sat, 07 Nov 2026 08:36:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-advances-ai-security-and-safety-falcon-guardian/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19842,7 +19828,7 @@
 <title>Introducing AI Kill Switch: Taking Control When AI Agents Go Rogue</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-introduces-ai-kill-switch/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 07 Nov 2026 01:45:35 +0000</pubDate>
+<pubDate>Sat, 07 Nov 2026 08:36:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-introduces-ai-kill-switch/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19851,7 +19837,7 @@
 <title>CrowdStrike Secures AI Agents Inside Claude Cowork</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-secures-ai-agents-inside-claude-cowork/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 07 Nov 2026 01:45:35 +0000</pubDate>
+<pubDate>Sat, 07 Nov 2026 08:36:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-secures-ai-agents-inside-claude-cowork/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19860,7 +19846,7 @@
 <title>CrowdStrike to Acquire Dreadnode to Bring Automated AI Security Testing to the Falcon Platform</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-dreadnode/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 07 Nov 2026 01:45:35 +0000</pubDate>
+<pubDate>Sat, 07 Nov 2026 08:36:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-dreadnode/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19869,7 +19855,7 @@
 <title>CrowdStrike to Acquire Fiddler to Deliver Falcon Observe for AI Agent Observability</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 07 Nov 2026 01:45:35 +0000</pubDate>
+<pubDate>Sat, 07 Nov 2026 08:36:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
