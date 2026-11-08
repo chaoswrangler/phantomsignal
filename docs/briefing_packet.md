@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-11-08T18:19:19.319051+00:00
+- Generated: 2026-11-08T22:44:26.662016+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 76
-- Total items in window: 328
-- Total clusters raw: 162
+- Feeds OK: 75
+- Total items in window: 329
+- Total clusters raw: 161
 - Total clusters in packet: 68
-- Dropped low score: 94
+- Dropped low score: 93
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -80,11 +80,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
@@ -95,21 +90,36 @@
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: fetch_error
-  - Item count: 0
-  - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
   - In window count: 0
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 4
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: fetch_error
+  - Item count: 0
+  - In window count: 0
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
@@ -120,36 +130,26 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 2
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 9
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 2
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
@@ -160,6 +160,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 1
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
@@ -170,15 +175,10 @@
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 1
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
@@ -190,6 +190,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
@@ -200,23 +205,18 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -250,31 +250,31 @@
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 6
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Google Project Zero** (offensive_vulnerability_research)
   - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
@@ -295,11 +295,6 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
@@ -315,26 +310,31 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
-  - Item count: 5
+  - Item count: 10
   - In window count: 5
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
   - Status: ok
-  - Item count: 20
-  - In window count: 20
+  - Item count: 5
+  - In window count: 5
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -344,22 +344,22 @@
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
-  - In window count: 13
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 2
+  - In window count: 14
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 2
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -380,20 +380,15 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 4
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
+  - In window count: 0
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
+  - Status: ok
+  - Item count: 0
   - In window count: 0
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
@@ -405,8 +400,18 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 4
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -415,8 +420,8 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -425,36 +430,31 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 25
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 21
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
@@ -711,22 +711,22 @@
   - https://research.checkpoint.com/2026/2nd-november-threat-intelligence-report/
   - https://www.helpnetsecurity.com/2026/11/06/november-2026-patch-tuesday-forecast/
 
-### Fortinet vulnerability activity
-- Anchor signal: Fortinet
-- Theme key: fortinet
+### GitLab vulnerability activity
+- Anchor signal: GitLab
+- Theme key: gitlab
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.2
-- Shared strong signals: Fortinet
+- Shared strong signals: GitLab
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - affected_industries: education
-  - affected_products: Fortinet
-- Cluster IDs: ea17135bd1, 0e50b3feba
+  - affected_products: GitLab
+  - urgency_signals: poc_available
+- Cluster IDs: 0e50b3feba, f596e4d923
 - Links:
-  - https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware/
   - https://www.recordedfuture.com/blog/october-2026-cve-landscape
+  - https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/
 
 ## Forward signals
 
@@ -1872,39 +1872,6 @@ Threat Research Center Insights General General Unit 42 Threat Intelligence High
   - Link: https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026/
   - Summary: Unit 42 details recent threat intelligence, highlighting cyberespionage, financial extortion, and the rapid adoption of AI across offensive workflows. The post Unit 42 Threat Intelligence Highlights - Nov. 2, 2026 appeared first on Unit 42 .
 
-### Cluster 31128d5051 — score 10
-
-- Title: Defrost and Disrupt | An Assessment of Europe’s Refrigeration Attacks
-- Source: SentinelOne Labs (threat_research_primary)
-- Published: 2026-11-03T14:57:27+00:00
-- Link: https://www.sentinelone.com/labs/defrost-and-disrupt-an-assessment-of-europe-s-refrigeration-attacks/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Store fridges and freezers warmed overnight in six countries on November 2-3. Russian-aligned groups are credible suspects, but attribution remains open.
-```
-
-#### Corroborating sources (1)
-
-- **SentinelOne Labs** (threat_research_primary)
-  - Title: Defrost and Disrupt | An Assessment of Europe’s Refrigeration Attacks
-  - Published: 2026-11-03T14:57:27+00:00
-  - Link: https://www.sentinelone.com/labs/defrost-and-disrupt-an-assessment-of-europe-s-refrigeration-attacks/
-  - Summary: Store fridges and freezers warmed overnight in six countries on November 2-3. Russian-aligned groups are credible suspects, but attribution remains open.
-
 ### Cluster 29018d8a93 — score 10
 
 - Title: ARTEX abuse expands as cybercriminals target financial sector
@@ -2052,6 +2019,39 @@ Share Link copied to clipboard! Tags Vulnerability Threats intelligence Vulnerab
   - Published: 2026-11-02T20:20:59+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/
   - Summary: Real-world exploitation concentrates in a small, high-impact subset of CVEs. Learn how defenders can prioritize vulnerabilities based on exploitation likelihood, exposure, and potential blast radius. The post What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks appeared first on Microsoft Security Blog .
+
+### Cluster 31128d5051 — score 10
+
+- Title: Defrost and Disrupt | An Assessment of Europe’s Refrigeration Attacks
+- Source: SentinelOne Labs (threat_research_primary)
+- Published: 2026-11-03T14:57:27+00:00
+- Link: https://www.sentinelone.com/labs/defrost-and-disrupt-an-assessment-of-europe-s-refrigeration-attacks/
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Store fridges and freezers warmed overnight in six countries on November 2-3. Russian-aligned groups are credible suspects, but attribution remains open.
+```
+
+#### Corroborating sources (1)
+
+- **SentinelOne Labs** (threat_research_primary)
+  - Title: Defrost and Disrupt | An Assessment of Europe’s Refrigeration Attacks
+  - Published: 2026-11-03T14:57:27+00:00
+  - Link: https://www.sentinelone.com/labs/defrost-and-disrupt-an-assessment-of-europe-s-refrigeration-attacks/
+  - Summary: Store fridges and freezers warmed overnight in six countries on November 2-3. Russian-aligned groups are credible suspects, but attribution remains open.
 
 ### Cluster 618360db60 — score 10
 
@@ -2282,98 +2282,6 @@ Table of Contents Executive summary Intrusion timeline: Strategic latency and ex
   - Link: https://securelist.com/storm-2603-fileless-toolshell-attack/121467/
   - Summary: Kaspersky researchers analyze a complex fileless cyberattack by Storm-2603 involving ToolShell exploitation and subsequent runtime subversion, and discuss how to detect such intrusions.
 
-### Cluster ea17135bd1 — score 10
-
-- Title: SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-11-04T09:55:00+00:00
-- Link: https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain, vulnerability_disclosure
-- affected_industries: education
-- affected_products: Fortinet
-- cve_ids: CVE-2026-120422
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, vulnerability_disclosure
-- affected_industries: education
-- affected_products: Fortinet
-- cve_ids: CVE-2026-120422
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-ESET Research analyzes a DNS hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method
-```
-
-#### Full body
-
-```
-ESET Research SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware ESET Research analyzes a DNS hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method Anh Ho 04 Nov 2026 • , 17 min. read At ESET, we have been tracking the DarkVigil toolset (also known as FDMTP ) and its operator, the SlippyNunchucks threat actor, since 2025. Across the campaigns we have analyzed, one behavior has remained consistent: DarkVigil implants are typically deployed through popular Chinese applications. By abusing these applications, the SlippyNunchucks threat actor has been able to reach Chinese-speaking users across Asia and Europe. Until now, how these applications are being abused to achieve execution has remained largely unclear. So far, only one attack vector has been publicly identified: a compromise of the QuickFox supply chain. This incident was analyzed in a Fortinet article and independently in an ESET Threat Intelligence report. Shortly after the supply-chain compromise ended, SlipplyNunchucks shifted to abusing Sogou Input Method to deploy DarkVigil. On July 1 st , 2026, three days after QuickFox released the clean version, we continued to observe DarkVigil implants being launched, this time by the Sogou Input Method component SGTool.exe . Further investigation revealed that a request, which belongs to the application’s branded vocabulary promotion mechanism, was hijacked to serve a malicious configuration. This configuration instructs the binary to place payloads in selected locations that enable their execution through Sogou Input Method’s existing workflows. After uncovering the operation, we contacted the Tencent Security Response Center to report the abuse and share our findings. Tencent responded promptly and released an update to address the issue. We greatly appreciate the team’s swift response and cooperation. Vulnerability disclosure timeline: 2026‑09‑11: ESET Research reported the security weakness to the Tencent Security team. 2026‑09‑21: Tencent Security responded and acknowledged the issue. 2026‑10‑30: Tencent addressed the issue in version 16.10. 2026-11-02: ESET CNA issued a CVE ID for the vulnerability ( CVE-2026-120422 ). 2026‑11‑04: ESET Research published the blogpost. Key points of this blogpost: Since 2025, we have been tracking the DarkVigil malware ecosystem and its operator, which we refer to as SlippyNunchucks. We uncovered a SlippyNunchucks DNS hijacking operation, abusing Sogou Input Method’s use of insecure HTTP communications. In our telemetry, we observed that this operation targeted organizations and Chinese-speaking individuals in Hong Kong, Thailand, Japan, Vietnam, Oman, and Sri Lanka. The point at which DNS manipulation occurs remains unknown. We analyzed DarkVigil’s C&C architecture, which uses the Duplex Message Transport Protocol. SlippyNunchucks profile SlippyNunchucks is a China-aligned threat actor that has been active since at least September 15 th , 2023. Its cyberespionage activities center on the deployment and operation of the DarkVigil toolset (also known as FDMTP ). DarkVigil is a modular .NET toolset that includes the DarkVigil implant and more than 20 known plugins. The toolset is built on the Vigil malware framework, which is built on the TouchSocket networking framework. TouchSocket implements DMTP , a network protocol DarkVigil uses for C&C communications. Data exfiltrated by the malware is managed through a web administration panel that is also branded as Vigil. SlippyNunchucks mainly targets organizations and Chinese-speaking individuals across South and East Asia. Occasionally, the group targeted victims in Europe, including individuals in Germany, Russia, the UK, and Austria. Notable victims include a multinational gambling organization that operates out of Sri Lanka, the Philippines, and Hong Kong; an Internet café in Dubai; and a university student in Denmark. Context ESET Research has been tracki
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware
-  - Published: 2026-11-04T09:55:00+00:00
-  - Link: https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware/
-  - Summary: ESET Research analyzes a DNS hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method
-
-### Cluster 32f35ceb4a — score 10
-
-- Title: Gorbag: Orcs at the border harvesting intelligence from Ukraine
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-11-03T09:50:00+00:00
-- Link: https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, credential_theft
-- affected_industries: government
-- cve_ids: CVE-2025-8088
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: credential_theft, apt_espionage
-- affected_industries: government
-- cve_ids: CVE-2025-8088
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-ESET researchers uncover Gorbag, a Russia-aligned group using simple infostealers to harvest data from Ukrainian organizations near the front line
-```
-
-#### Full body
-
-```
-ESET Research Gorbag: Orcs at the border harvesting intelligence from Ukraine ESET researchers uncover Gorbag, a Russia-aligned group using simple infostealers to harvest data from Ukrainian organizations near the front line Damien Schaeffer 03 Nov 2026 • , 11 min. read ESET researchers have been tracking a Russia-aligned threat actor that we named Gorbag. While elements of the group’s tooling – most notably the GIFTEDCROOK infostealer, which CERT-UA attributes to UAC-0226 – have previously appeared in public reporting , Gorbag’s targeting and overall activity have remained largely unexamined. Active since at least February 2025, the group has focused exclusively on Ukrainian targets, with a clear preference for law enforcement and justice entities, local administrations near the front line, and the defense sector. Rather than relying on sophisticated implants for long-term access, Gorbag uses a small toolset built for rapid intelligence collection. Browser credentials, VPN configurations, and selected documents are gathered in a single pass before the deployed malware attempts to remove itself. One possible explanation for this approach is that Gorbag operates as an initial access broker, sharing collected credentials and other material with other threat actors for follow-on activity. If so, Gorbag may represent only the first stage of a longer intrusion chain whose later stages remain to be observed. Its targeting choices closely align with Russia’s wartime intelligence priorities. We presented our findings about the Gorbag APT group at the Virus Bulletin conference on October 14 th , 2026; the full technical analysis is available in our white paper Gorbag: Orcs at the border published by Virus Bulletin. Key points of this blogpost: Gorbag is a previously underreported, Russia-aligned threat actor; we have detected highly targeted attacks since February 2025, particularly against Ukrainian organizations near the Russia-Ukraine border. Targets of the group align closely with Russian strategic priorities: Ukrainian law enforcement and justice entities, local administrations, the defense sector, and a major transportation hub for foreign military aid. Malware is delivered via spearphishing emails with malicious attachments. The operational focus is on one-time information harvesting rather than long-term access, which may indicate a role as an initial access broker for other Russia-aligned threat actors. The group’s toolset consists of a PowerShell reverse shell that we named Prime ReverseShell, and a C++ browser-data and file stealer that we named BeautyStealer. In early 2026, Gorbag updated its compromise chain to abuse CVE-2025-8088 , a WinRAR path traversal vulnerability discovered and reported by ESET Research . Gorbag: Orcs at the border Read the full report PDF Victimology and geopolitical context All Gorbag targets identified by ESET Research are located in Ukraine, and the group’s targeting choices fall into three main areas that align closely with Russian wartime intelligence priorities. Ukrainian justice and law enforcement About a quarter of Gorbag’s targets are Ukrainian governmental organizations active in the law enforcement and justice sectors. This is not a new focus for Russia-aligned threat actors: in 2023, Ukraine’s SSSCIP reported that threat actors linked to the GRU and FSB were attempting to compromise law enforcement entities throughout the country. The motivations identified at the time probably remain relevant today – monitoring, and potentially disrupting, Ukrainian efforts to document and prosecute war crimes committed by Russian forces, and gaining visibility into investigations aimed at identifying Russian assets and collaborators on Ukrainian soil. Ukraine’s judiciary has remained active throughout, with several hundred indictments already issued. The opening of Ukraine’s war crime trial against a captured Russian soldier in February 2025 may be one of the factors behind this renewed focus. Based
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: Gorbag: Orcs at the border harvesting intelligence from Ukraine
-  - Published: 2026-11-03T09:50:00+00:00
-  - Link: https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine/
-  - Summary: ESET researchers uncover Gorbag, a Russia-aligned group using simple infostealers to harvest data from Ukrainian organizations near the front line
-
 ### Cluster fe30f85ed7 — score 10
 
 - Title: Bring a tent, I've got the coffee: Lessons from it-sa
@@ -2467,6 +2375,98 @@ October 2026 CVE Landscape In October 2026, Insikt Group® identified 82 high-im
   - Published: 2026-11-06T00:00:00+00:00
   - Link: https://www.recordedfuture.com/blog/october-2026-cve-landscape
   - Summary: In October 2026, Insikt Group® identified 82 high-impact vulnerabilities that should be prioritized for remediation, 52 of which had a Very Critical Recorded Future Risk Score. This represents a 13% decrease from last month.
+
+### Cluster ea17135bd1 — score 10
+
+- Title: SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-11-04T09:55:00+00:00
+- Link: https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain, vulnerability_disclosure
+- affected_industries: education
+- affected_products: Fortinet
+- cve_ids: CVE-2026-120422
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, vulnerability_disclosure
+- affected_industries: education
+- affected_products: Fortinet
+- cve_ids: CVE-2026-120422
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+ESET Research analyzes a DNS hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method
+```
+
+#### Full body
+
+```
+ESET Research SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware ESET Research analyzes a DNS hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method Anh Ho 04 Nov 2026 • , 17 min. read At ESET, we have been tracking the DarkVigil toolset (also known as FDMTP ) and its operator, the SlippyNunchucks threat actor, since 2025. Across the campaigns we have analyzed, one behavior has remained consistent: DarkVigil implants are typically deployed through popular Chinese applications. By abusing these applications, the SlippyNunchucks threat actor has been able to reach Chinese-speaking users across Asia and Europe. Until now, how these applications are being abused to achieve execution has remained largely unclear. So far, only one attack vector has been publicly identified: a compromise of the QuickFox supply chain. This incident was analyzed in a Fortinet article and independently in an ESET Threat Intelligence report. Shortly after the supply-chain compromise ended, SlipplyNunchucks shifted to abusing Sogou Input Method to deploy DarkVigil. On July 1 st , 2026, three days after QuickFox released the clean version, we continued to observe DarkVigil implants being launched, this time by the Sogou Input Method component SGTool.exe . Further investigation revealed that a request, which belongs to the application’s branded vocabulary promotion mechanism, was hijacked to serve a malicious configuration. This configuration instructs the binary to place payloads in selected locations that enable their execution through Sogou Input Method’s existing workflows. After uncovering the operation, we contacted the Tencent Security Response Center to report the abuse and share our findings. Tencent responded promptly and released an update to address the issue. We greatly appreciate the team’s swift response and cooperation. Vulnerability disclosure timeline: 2026‑09‑11: ESET Research reported the security weakness to the Tencent Security team. 2026‑09‑21: Tencent Security responded and acknowledged the issue. 2026‑10‑30: Tencent addressed the issue in version 16.10. 2026-11-02: ESET CNA issued a CVE ID for the vulnerability ( CVE-2026-120422 ). 2026‑11‑04: ESET Research published the blogpost. Key points of this blogpost: Since 2025, we have been tracking the DarkVigil malware ecosystem and its operator, which we refer to as SlippyNunchucks. We uncovered a SlippyNunchucks DNS hijacking operation, abusing Sogou Input Method’s use of insecure HTTP communications. In our telemetry, we observed that this operation targeted organizations and Chinese-speaking individuals in Hong Kong, Thailand, Japan, Vietnam, Oman, and Sri Lanka. The point at which DNS manipulation occurs remains unknown. We analyzed DarkVigil’s C&C architecture, which uses the Duplex Message Transport Protocol. SlippyNunchucks profile SlippyNunchucks is a China-aligned threat actor that has been active since at least September 15 th , 2023. Its cyberespionage activities center on the deployment and operation of the DarkVigil toolset (also known as FDMTP ). DarkVigil is a modular .NET toolset that includes the DarkVigil implant and more than 20 known plugins. The toolset is built on the Vigil malware framework, which is built on the TouchSocket networking framework. TouchSocket implements DMTP , a network protocol DarkVigil uses for C&C communications. Data exfiltrated by the malware is managed through a web administration panel that is also branded as Vigil. SlippyNunchucks mainly targets organizations and Chinese-speaking individuals across South and East Asia. Occasionally, the group targeted victims in Europe, including individuals in Germany, Russia, the UK, and Austria. Notable victims include a multinational gambling organization that operates out of Sri Lanka, the Philippines, and Hong Kong; an Internet café in Dubai; and a university student in Denmark. Context ESET Research has been tracki
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware
+  - Published: 2026-11-04T09:55:00+00:00
+  - Link: https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware/
+  - Summary: ESET Research analyzes a DNS hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method
+
+### Cluster 32f35ceb4a — score 10
+
+- Title: Gorbag: Orcs at the border harvesting intelligence from Ukraine
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-11-03T09:50:00+00:00
+- Link: https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, credential_theft
+- affected_industries: government
+- cve_ids: CVE-2025-8088
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: credential_theft, apt_espionage
+- affected_industries: government
+- cve_ids: CVE-2025-8088
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+ESET researchers uncover Gorbag, a Russia-aligned group using simple infostealers to harvest data from Ukrainian organizations near the front line
+```
+
+#### Full body
+
+```
+ESET Research Gorbag: Orcs at the border harvesting intelligence from Ukraine ESET researchers uncover Gorbag, a Russia-aligned group using simple infostealers to harvest data from Ukrainian organizations near the front line Damien Schaeffer 03 Nov 2026 • , 11 min. read ESET researchers have been tracking a Russia-aligned threat actor that we named Gorbag. While elements of the group’s tooling – most notably the GIFTEDCROOK infostealer, which CERT-UA attributes to UAC-0226 – have previously appeared in public reporting , Gorbag’s targeting and overall activity have remained largely unexamined. Active since at least February 2025, the group has focused exclusively on Ukrainian targets, with a clear preference for law enforcement and justice entities, local administrations near the front line, and the defense sector. Rather than relying on sophisticated implants for long-term access, Gorbag uses a small toolset built for rapid intelligence collection. Browser credentials, VPN configurations, and selected documents are gathered in a single pass before the deployed malware attempts to remove itself. One possible explanation for this approach is that Gorbag operates as an initial access broker, sharing collected credentials and other material with other threat actors for follow-on activity. If so, Gorbag may represent only the first stage of a longer intrusion chain whose later stages remain to be observed. Its targeting choices closely align with Russia’s wartime intelligence priorities. We presented our findings about the Gorbag APT group at the Virus Bulletin conference on October 14 th , 2026; the full technical analysis is available in our white paper Gorbag: Orcs at the border published by Virus Bulletin. Key points of this blogpost: Gorbag is a previously underreported, Russia-aligned threat actor; we have detected highly targeted attacks since February 2025, particularly against Ukrainian organizations near the Russia-Ukraine border. Targets of the group align closely with Russian strategic priorities: Ukrainian law enforcement and justice entities, local administrations, the defense sector, and a major transportation hub for foreign military aid. Malware is delivered via spearphishing emails with malicious attachments. The operational focus is on one-time information harvesting rather than long-term access, which may indicate a role as an initial access broker for other Russia-aligned threat actors. The group’s toolset consists of a PowerShell reverse shell that we named Prime ReverseShell, and a C++ browser-data and file stealer that we named BeautyStealer. In early 2026, Gorbag updated its compromise chain to abuse CVE-2025-8088 , a WinRAR path traversal vulnerability discovered and reported by ESET Research . Gorbag: Orcs at the border Read the full report PDF Victimology and geopolitical context All Gorbag targets identified by ESET Research are located in Ukraine, and the group’s targeting choices fall into three main areas that align closely with Russian wartime intelligence priorities. Ukrainian justice and law enforcement About a quarter of Gorbag’s targets are Ukrainian governmental organizations active in the law enforcement and justice sectors. This is not a new focus for Russia-aligned threat actors: in 2023, Ukraine’s SSSCIP reported that threat actors linked to the GRU and FSB were attempting to compromise law enforcement entities throughout the country. The motivations identified at the time probably remain relevant today – monitoring, and potentially disrupting, Ukrainian efforts to document and prosecute war crimes committed by Russian forces, and gaining visibility into investigations aimed at identifying Russian assets and collaborators on Ukrainian soil. Ukraine’s judiciary has remained active throughout, with several hundred indictments already issued. The opening of Ukraine’s war crime trial against a captured Russian soldier in February 2025 may be one of the factors behind this renewed focus. Based
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: Gorbag: Orcs at the border harvesting intelligence from Ukraine
+  - Published: 2026-11-03T09:50:00+00:00
+  - Link: https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine/
+  - Summary: ESET researchers uncover Gorbag, a Russia-aligned group using simple infostealers to harvest data from Ukrainian organizations near the front line
 
 ### Cluster 248b524313 — score 10
 
@@ -3217,45 +3217,6 @@ Developers & Practitioners Five rules for evaluating agent skills before they bl
   - Link: https://simonwillison.net/2026/Nov/2/llm/
   - Summary: Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm openai endpoint add command to make it easier to configure additional models that use OpenAI-compatible endpoints. I switched the default model (if you have not set your own default) to gpt-6-luna - half the price of the previous default, gpt-5.6-luna . LLM's support for embeddings now accepts that different binary content may have different content-type - necessary for models like Gemini Embedding 2 , which can embed text, audio, images, and video. A lot of open source maintainers complain about a flood of AI-assisted PRs. LLM is my project that has been most affected by this and, to be honest, I'm not finding it to be a problem. That's mainly because I have Opus 5.5 or GPT-6 Astra help me with triage to spot the most useful fixes! This release includes fixes from 12
 
-### Cluster 126ef0910c — score 8
-
-- Title: Core Skills in the Age of AI
-- Source: Black Hills Information Security (detection_response_operations)
-- Published: 2026-11-05T21:04:59+00:00
-- Link: https://www.blackhillsinfosec.com/core-skills-in-age-of-ai/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-One of the biggest questions I get whenever I’m teaching anything focused on core skills—whether it’s network security, SOC analysis, or ecurity essentials—is whether any of these classes are even necessary anymore because of AI.
-```
-
-#### Full body
-
-```
-This article was originally published in the InfoSec Survival Guide: Core Skills Book — Incident Response. Read it free online HERE , or grab it on the Spearphish General Store (free digital download or a $1.25 physical copy, your call). One of the biggest questions I get whenever I’m teaching anything focused on core skills—whether it’s network security, SOC analysis, or ecurity essentials—is whether any of these classes are even necessary anymore because of AI. The assumption seems to be that AI is going to eliminate the need for foundational knowledge. People believe that AI will simply handle the technical details for us, allowing security professionals to skip over the basics and move directly to the advanced work. Unfortunately, that assumption creates a sense of hopelessness. Junior analysts who are trying to enter the field start wondering whether it’s worth studying at all. Companies looking to hire are hesitant because they’re not sure what the workforce will look like in a few years. Everyone is waiting to see where things land. Context Is Everything When it comes to core information security skills, I believe we need to recognize something important: The fundamentals matter more today than they ever have. The reason is context. The more context and understanding you have about a technical problem, the more effective AI becomes. Artificial intelligence is not a replacement for expertise. It amplifies expertise. If you put AI in the hands of someone who doesn’t understand networking, operating systems, or security fundamentals, the impact is often limited. They may get answers faster, but they have no way to evaluate whether those answers are correct. Put the same tools in the hands of someone who understands TCP/IP, operating systems, network architecture, authentication, and how systems actually work, and AI becomes an incredible force multiplier. As we move into the future, it will become even more important for security professionals to understand the basics. Those foundational skills provide the context necessary to ask better questions, recognize bad answers, and effectively leverage increasingly powerful AI tools. What Chess Can Teach Us I also think we can look at chess as a preview of where our industry is heading. Chess is more popular today than it has ever been. There are more strong chess players than at any other point in history. At the same time, AI engines can defeat even the world’s best players without breaking a sweat. So why hasn’t AI killed chess? Because the chess community embraced it. Players use AI engines like Stockfish to analyze games, identify mistakes, study openings, improve endgame strategy, and accelerate learning. Tournament organizers use AI to help detect cheating. Coaches use AI to provide insights that would have been impossible to deliver at scale just a few decades ago. The result isn’t fewer chess players. In fact, it is the opposite. The other result is better chess players. Where Cybersecurity Is Heading I believe cybersecurity is heading down a very similar path. AI will help us learn faster. It will help us identify patterns more quickly. It will help us automate repetitive work and explore technical problems at a scale that wasn’t previously possible. But none of that eliminates the need for foundational knowledge. In fact, it increases its importance. The people who understand the fundamentals will be the ones who get the most value from AI. They’ll be able to guide it, challenge it, verify it, and use it to solve increasingly complex problems. The future of cybersecurity isn’t humans versus AI. It’s humans with strong fundamentals using AI to become dramatically more effective than ever before. Check out John’s Antisyphon courses (including Pay-What-You-Can options!) here: antisyphontraining.com/instructor/john-strand/ ← Back to blog
-```
-
-#### Corroborating sources (1)
-
-- **Black Hills Information Security** (detection_response_operations)
-  - Title: Core Skills in the Age of AI
-  - Published: 2026-11-05T21:04:59+00:00
-  - Link: https://www.blackhillsinfosec.com/core-skills-in-age-of-ai/
-  - Summary: One of the biggest questions I get whenever I’m teaching anything focused on core skills—whether it’s network security, SOC analysis, or ecurity essentials—is whether any of these classes are even necessary anymore because of AI.
-
 ### Cluster 3f8231e96d — score 8
 
 - Title: The Quiet Phase: Why Active Directory Group Enumeration Deserves Your Attention
@@ -3298,6 +3259,45 @@ Blog The Quiet Phase: Why Active Directory Group Enumeration Deserves Your Atten
   - Published: 2026-11-03T05:00:00+00:00
   - Link: https://trustedsec.com/blog/the-quiet-phase-active-directory-group-enumeration
   - Summary: <p>Most teams watch the door; the window gets less attention. In this blog, we cover how auditing Active Directory group enumeration surfaces attacker reconnaissance, and the QuietPhase script to help you get started.</p>
+
+### Cluster 126ef0910c — score 8
+
+- Title: Core Skills in the Age of AI
+- Source: Black Hills Information Security (detection_response_operations)
+- Published: 2026-11-05T21:04:59+00:00
+- Link: https://www.blackhillsinfosec.com/core-skills-in-age-of-ai/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+One of the biggest questions I get whenever I’m teaching anything focused on core skills—whether it’s network security, SOC analysis, or ecurity essentials—is whether any of these classes are even necessary anymore because of AI.
+```
+
+#### Full body
+
+```
+This article was originally published in the InfoSec Survival Guide: Core Skills Book — Incident Response. Read it free online HERE , or grab it on the Spearphish General Store (free digital download or a $1.25 physical copy, your call). One of the biggest questions I get whenever I’m teaching anything focused on core skills—whether it’s network security, SOC analysis, or ecurity essentials—is whether any of these classes are even necessary anymore because of AI. The assumption seems to be that AI is going to eliminate the need for foundational knowledge. People believe that AI will simply handle the technical details for us, allowing security professionals to skip over the basics and move directly to the advanced work. Unfortunately, that assumption creates a sense of hopelessness. Junior analysts who are trying to enter the field start wondering whether it’s worth studying at all. Companies looking to hire are hesitant because they’re not sure what the workforce will look like in a few years. Everyone is waiting to see where things land. Context Is Everything When it comes to core information security skills, I believe we need to recognize something important: The fundamentals matter more today than they ever have. The reason is context. The more context and understanding you have about a technical problem, the more effective AI becomes. Artificial intelligence is not a replacement for expertise. It amplifies expertise. If you put AI in the hands of someone who doesn’t understand networking, operating systems, or security fundamentals, the impact is often limited. They may get answers faster, but they have no way to evaluate whether those answers are correct. Put the same tools in the hands of someone who understands TCP/IP, operating systems, network architecture, authentication, and how systems actually work, and AI becomes an incredible force multiplier. As we move into the future, it will become even more important for security professionals to understand the basics. Those foundational skills provide the context necessary to ask better questions, recognize bad answers, and effectively leverage increasingly powerful AI tools. What Chess Can Teach Us I also think we can look at chess as a preview of where our industry is heading. Chess is more popular today than it has ever been. There are more strong chess players than at any other point in history. At the same time, AI engines can defeat even the world’s best players without breaking a sweat. So why hasn’t AI killed chess? Because the chess community embraced it. Players use AI engines like Stockfish to analyze games, identify mistakes, study openings, improve endgame strategy, and accelerate learning. Tournament organizers use AI to help detect cheating. Coaches use AI to provide insights that would have been impossible to deliver at scale just a few decades ago. The result isn’t fewer chess players. In fact, it is the opposite. The other result is better chess players. Where Cybersecurity Is Heading I believe cybersecurity is heading down a very similar path. AI will help us learn faster. It will help us identify patterns more quickly. It will help us automate repetitive work and explore technical problems at a scale that wasn’t previously possible. But none of that eliminates the need for foundational knowledge. In fact, it increases its importance. The people who understand the fundamentals will be the ones who get the most value from AI. They’ll be able to guide it, challenge it, verify it, and use it to solve increasingly complex problems. The future of cybersecurity isn’t humans versus AI. It’s humans with strong fundamentals using AI to become dramatically more effective than ever before. Check out John’s Antisyphon courses (including Pay-What-You-Can options!) here: antisyphontraining.com/instructor/john-strand/ ← Back to blog
+```
+
+#### Corroborating sources (1)
+
+- **Black Hills Information Security** (detection_response_operations)
+  - Title: Core Skills in the Age of AI
+  - Published: 2026-11-05T21:04:59+00:00
+  - Link: https://www.blackhillsinfosec.com/core-skills-in-age-of-ai/
+  - Summary: One of the biggest questions I get whenever I’m teaching anything focused on core skills—whether it’s network security, SOC analysis, or ecurity essentials—is whether any of these classes are even necessary anymore because of AI.
 
 ### Cluster c18828b11e — score 8
 
@@ -3697,6 +3697,39 @@ The record theft shows how weak system separation, inadequate controls, and unte
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths
   - Summary: The record theft shows how weak system separation, inadequate controls, and untested attack possibilities can turn one breach into systemic loss.
 
+### Cluster 32d4c5b2da — score 8
+
+- Title: Cyber-Attack on Refrigeration Systems Hits Supermarkets Across Europe
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-11-03T13:45:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/cyber-refrigeration-supermarkets/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The incident has reportedly resulted in temperatures being changed on supermarket refrigerators, reminiscent of an attack that affected French retailers last month
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Cyber-Attack on Refrigeration Systems Hits Supermarkets Across Europe
+  - Published: 2026-11-03T13:45:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/cyber-refrigeration-supermarkets/
+  - Summary: The incident has reportedly resulted in temperatures being changed on supermarket refrigerators, reminiscent of an attack that affected French retailers last month
+
 ### Cluster 66c25873d1 — score 8
 
 - Title: Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw
@@ -3768,39 +3801,6 @@ A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devi
   - Published: 2026-11-03T05:34:41+00:00
   - Link: https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html
   - Summary: A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an unauthenticated remote attacker to run arbitrary code. "SIMATIC IoT2050 Advanced devices running
-
-### Cluster 32d4c5b2da — score 8
-
-- Title: Cyber-Attack on Refrigeration Systems Hits Supermarkets Across Europe
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-11-03T13:45:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/cyber-refrigeration-supermarkets/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The incident has reportedly resulted in temperatures being changed on supermarket refrigerators, reminiscent of an attack that affected French retailers last month
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Cyber-Attack on Refrigeration Systems Hits Supermarkets Across Europe
-  - Published: 2026-11-03T13:45:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/cyber-refrigeration-supermarkets/
-  - Summary: The incident has reportedly resulted in temperatures being changed on supermarket refrigerators, reminiscent of an attack that affected French retailers last month
 
 ### Cluster 7f8a8706f8 — score 8
 
