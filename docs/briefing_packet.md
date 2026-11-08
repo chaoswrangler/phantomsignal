@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-11-08T05:34:41.315155+00:00
+- Generated: 2026-11-08T13:06:05.915783+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 329
-- Total clusters raw: 160
+- Total items in window: 327
+- Total clusters raw: 161
 - Total clusters in packet: 67
-- Dropped low score: 93
+- Dropped low score: 94
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,31 +70,26 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
@@ -105,16 +100,11 @@
   - Status: fetch_error
   - Item count: 0
   - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 4
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
+  - Item count: 10
+  - In window count: 5
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
@@ -125,15 +115,25 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
-  - In window count: 9
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - In window count: 8
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
-  - Item count: 15
+  - Item count: 10
   - In window count: 1
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
@@ -145,16 +145,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 2
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
+  - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
@@ -164,11 +174,6 @@
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
-  - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
@@ -190,26 +195,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 2
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
@@ -225,41 +225,46 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 5
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 6
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 4
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Google Project Zero** (offensive_vulnerability_research)
   - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
   - Status: ok
@@ -270,16 +275,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 4
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
@@ -290,41 +295,31 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 5
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
   - In window count: 5
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
@@ -335,13 +330,13 @@
   - Status: ok
   - Item count: 20
   - In window count: 20
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -350,6 +345,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 14
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -360,48 +365,43 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 22
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 14
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 4
+  - In window count: 10
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 4
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -415,26 +415,26 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
-  - Item count: 50
-  - In window count: 50
+  - Item count: 0
+  - In window count: 0
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -691,26 +691,6 @@
   - https://aws.amazon.com/blogs/security/introducing-aws-account-access-manager-iam-role-flexibility-with-centralized-workforce-access/
   - https://www.reddit.com/r/netsec/comments/1xo0yov/escaping_aws_firecracker_from_guest_userspace_vmm/
 
-### zero day targeting SonicWall
-- Anchor signal: SonicWall
-- Theme key: sonicwall
-- Cluster count: 2
-- Article count: 4
-- Cohesion: 0.2
-- Shared strong signals: SonicWall
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day
-  - affected_products: SonicWall
-  - urgency_signals: zero_day
-- Cluster IDs: d2eaccbc2f, f596e4d923
-- Links:
-  - https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/
-  - https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/
-  - https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html
-  - https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/
-
 ### CVE-2026-111497 exploitation activity
 - Anchor signal: CVE-2026-111497
 - Theme key: cve-2026-111497
@@ -728,6 +708,23 @@
 - Links:
   - https://research.checkpoint.com/2026/2nd-november-threat-intelligence-report/
   - https://www.helpnetsecurity.com/2026/11/06/november-2026-patch-tuesday-forecast/
+
+### Fortinet vulnerability activity
+- Anchor signal: Fortinet
+- Theme key: fortinet
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.2
+- Shared strong signals: Fortinet
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_industries: education
+  - affected_products: Fortinet
+- Cluster IDs: ea17135bd1, 0e50b3feba
+- Links:
+  - https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware/
+  - https://www.recordedfuture.com/blog/october-2026-cve-landscape
 
 ## Forward signals
 
@@ -785,9 +782,9 @@
 - cve_ids: CVE-2026-20362 (weeks observed: 3, cluster 0406be59a5)
 - cve_ids: CVE-2026-101767 (weeks observed: 3, cluster 4f54dd8a3e)
 - cve_ids: CVE-2026-20700 (weeks observed: 3, cluster 37df53764c)
-- cve_ids: CVE-2026-102255 (weeks observed: 3, cluster d2eaccbc2f)
 - cve_ids: CVE-2026-111497 (weeks observed: 3, cluster b56ffde518)
 - cve_ids: CVE-2026-87902 (weeks observed: 3, cluster 0e50b3feba)
+- cve_ids: CVE-2026-102255 (weeks observed: 3, cluster d2eaccbc2f)
 - cve_ids: CVE-2026-96951 (weeks observed: 3, cluster d5abe24e63)
 
 ### Tier inversion (2)
@@ -1772,64 +1769,101 @@ Cross-post originally published on the Sylva blog written by François-Régis Me
   - Link: https://openssf.org/blog/2026/11/06/from-sigstore-to-cra-readiness-sylvas-journey-with-openssf/
   - Summary: Sylva’s security work relies heavily on the OpenSSF ecosystem. From supply chain tooling with Sigstore and SLSA to adopting OpenSSF Scorecard and Best Practices badges, learn how Sylva is approaching EU Cyber Resilience Act (CRA) readiness and building verifiable trust for downstream operators.
 
-### Cluster d2eaccbc2f — score 11
+### Cluster 127dd205a3 — score 10
 
-- Title: SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-11-07T10:16:23+00:00
-- Link: https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/
+- Title: Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-11-06T21:15:09+00:00
+- Link: https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/
 - Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
-- Strong signals: CVE-2026-19868, SonicWall
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: mfa_bypass, zero_day
-- affected_industries: education, government, manufacturing_industrial
-- affected_products: OpenAI/ChatGPT, SonicWall
-- cve_ids: CVE-2026-102255, CVE-2026-109593, CVE-2026-19868
-- urgency_signals: preauth_unauth, zero_day
-- content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_4_news
+- actor_attribution: NoName057(16)
+- affected_industries: healthcare, manufacturing_industrial, retail_ecommerce
+- affected_products: Palo Alto Networks
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: zero_day
-- affected_industries: government, manufacturing_industrial, education
-- affected_products: SonicWall, OpenAI/ChatGPT
-- cve_ids: CVE-2026-19868, CVE-2026-102255
-- urgency_signals: zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
+- actor_attribution: NoName057(16)
+- affected_industries: healthcare, manufacturing_industrial, retail_ecommerce
+- affected_products: Palo Alto Networks
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek .
+Unit 42 examines recent cyberattacks targeting European refrigeration systems and outlines defense and mitigation strategies. The post Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System appeared first on Unit 42 .
 ```
 
 #### Full body
 
 ```
-SonicWall has patched a SonicOS vulnerability that can be used to bypass SAML authentication, warning customers that it may have been exploited in attacks. Tracked as CVE-2026-19868 , the flaw affects the SSL VPN component of SonicOS, the operating system that runs on SonicWall firewalls. It’s one of seven vulnerabilities described in an advisory published on November 6. “An authentication enforcement vulnerability in SonicOS SSLVPN service may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA),” reads SonicWall’s description of CVE-2026-19868. According to the vendor, an SSL VPN is exposed only if SAML-based login is enabled. CVE-2026-19868 has a CVSS score of 7.1, which puts it in the high-severity range. The flaw was reported by Ryan Harris of The Electronic Office. SonicWall said its product security team “has investigated a report indicating potential exploitation of this vulnerability.” CISA added CVE-2026-19868 to its Known Exploited Vulnerabilities (KEV) catalog on the same day. Under Binding Operational Directive 26-04, federal agencies must address it by November 20. Advertisement. Scroll to continue reading. Neither the vendor nor CISA has shared any details about the suspected attacks. It’s also unclear whether the flaw was exploited as a zero-day, before a patch became available. Impacted devices include Gen7 TZ, NSa, NSsp and NSv firewalls with SonicOS 7.3.3-7015 or older. Gen8 TZ, NSa and NSv firewalls with SonicOS 8.2.2-8015 or older are also affected. SonicOS versions 7.3.4-7013 and 8.2.3-8015 resolve the issue, and there are no workarounds. “Customers are strongly urged to upgrade to the latest release as soon as possible to mitigate the associated risks,” SonicWall said. SonicWall’s advisory doesn’t mark any of the other six flaws as exploited. Two of them, each with a CVSS score of 8.8, affect the SonicOS management interface. One is a permissive cross-domain policy issue and the other is a session validation bug. Under certain circumstances, a remote attacker could abuse either one without logging in to take unauthorized actions. Three of the remaining flaws are pre-authentication buffer overflows in the SSL VPN service and the TACACS+ authentication client. Attackers could use them to launch DoS attacks at the application level. The last one is a weak password hashing issue in virtual appliances. An attacker who already has high-privileged local access could exploit it to obtain a platform credential, which gives access to some of the platform’s settings. Threat actors often exploit SonicWall product vulnerabilities. CISA’s KEV catalog currently includes 20 security holes, but the agency has yet to add CVE-2026-102255 , which hackers started targeting last month, just days after its disclosure. Related : Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws Related : SonicWall Warns of Two SMA1000 Zero-Days Exploited in Attacks Related : SonicWall and Splunk Patch Critical Vulnerabilities Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks Barracuda ESG Authentication Bypass Flaw Opens Path to Root Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers Rigged Coding Assignm
+Threat Research Center Insights Hospitality Hacks and Retail Reality Checks Hospitality Hacks and Retail Reality Checks Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System 4 min read Related Products Advanced Threat Prevention Cloud-Delivered Security Services Cortex Cortex Xpanse Frontier Virtual Patching Industrial and Operational Technology Unit 42 Continuous Frontier AI Defense Unit 42 Deep and Dark Web Service Unit 42 Incident Response Unit 42 Threat Intelligence Services By: Matt Brady Jared Valentine Published: November 6, 2026 Categories: Hospitality Hacks and Retail Reality Checks Insights Share Introduction Unit 42 has been actively monitoring for new developments related to the cyberattacks targeting refrigeration systems in Europe since at least October 2026. The unidentified threat actors gained unauthorized access to refrigeration controllers and set them to defrost mode, resulting in hundreds of supermarkets across the region having to throw away spoiled food. The time of year when this activity has occurred is particularly concerning since retailers need to maintain adequate inventory levels as shoppers ramp up spending during holiday periods. Here we provide a high-level overview of the attacks based on public reporting and explore insights on device exposure by country, based on our findings using Cortex Xpanse . It also explores how Palo Alto Networks customers can leverage existing products and Unit 42 services to reduce their attack surface to mitigate similar threat activity in the future. Background The first wave of these attacks occurred overnight between Oct. 11–12, 2026, primarily targeting approximately 700 supermarkets in France. Since that time, another wave occurred overnight between Nov. 1–2, 2026, expanding across at least 10 additional European countries and impacting over 100–115 retail locations. In addition to the aforementioned activity, French authorities recently disclosed that refrigeration systems used by medical facilities were impacted by the attacks. At this time, there’s no evidence to suggest blood products were spoiled as a result. According to multiple sources, the threat actors behind the supermarket activities raised the temperature of the targeted refrigeration units as high as 50°C (122°F). In some cases, the activity resulted in fires. The initial access vector currently remains unconfirmed. However, there is widespread speculation that impacted devices were potentially running vulnerable versions of software and/or used default credentials provided by the manufacturers that attackers easily identified. Unit 42 Insights From Nov. 5–6, 2026, we identified the presence of over 5,000 devices exposed to the internet that were manufactured by companies listed in the CERT-FR advisory last month. These statistics do not necessarily mean that the devices are running vulnerable versions of software that could’ve been exploited. Figure 1 below illustrates these findings based on device count by the top 10 countries. Figure 1. Graph of internet exposed devices by country, top 10 results - Nov. 5–6 2026. Source: Cortex Xpanse. Given the impact of this malicious activity primarily affected devices in France, we decided to explore the trend of internet-exposed devices since October 1, 2026. Figure 2 below illustrates these findings where we identified a significant decline over three distinct time periods: October 1-15, 2026: 1,853 October 16-31, 2026: 558 November 1-6, 2026: 316 Figure 2. Graph of internet exposed devices in France by date since Oct.1, 2026. Source: Cortex Xpanse. Censys has also reported extensively on the trends in device exposures in Europe as well. Conclusion On Nov. 3, 2026, the pro-Russian hacktivist groups NoName057(16) and Z-Pentest claimed responsibility for the attacks via Telegram posts, although their allegations remain unverified at this time. The Cybersecurity and Infrastructure Security Agency (CISA) also released an advisory on Nov.
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (1)
 
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins
-  - Published: 2026-11-07T10:16:23+00:00
-  - Link: https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/
-  - Summary: CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek .
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks
-  - Published: 2026-11-07T00:00:55+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/
-  - Summary: SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records
-  - Published: 2026-11-04T17:00:38+00:00
-  - Link: https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html
-  - Summary: SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below - CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,
+- **Unit 42** (threat_research_primary)
+  - Title: Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System
+  - Published: 2026-11-06T21:15:09+00:00
+  - Link: https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/
+  - Summary: Unit 42 examines recent cyberattacks targeting European refrigeration systems and outlines defense and mitigation strategies. The post Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System appeared first on Unit 42 .
+
+### Cluster 4d8d432976 — score 10
+
+- Title: Unit 42 Threat Intelligence Highlights - Nov. 2, 2026
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-11-02T23:00:45+00:00
+- Link: https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, credential_theft, phishing_social_eng, ransomware_extortion, supply_chain, zero_day
+- affected_industries: financial_services
+- affected_products: Kubernetes
+- tools_used: Apple iOS/macOS
+- cve_ids: CVE-2026-109618, CVE-2026-109619
+- urgency_signals: no_patch_yet, zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, credential_theft, zero_day, apt_espionage
+- affected_industries: financial_services
+- affected_products: Kubernetes
+- tools_used: Apple iOS/macOS
+- cve_ids: CVE-2026-109618, CVE-2026-109619
+- urgency_signals: zero_day, no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Unit 42 details recent threat intelligence, highlighting cyberespionage, financial extortion, and the rapid adoption of AI across offensive workflows. The post Unit 42 Threat Intelligence Highlights - Nov. 2, 2026 appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center Insights General General Unit 42 Threat Intelligence Highlights - Nov. 2, 2026 2 min read By: Unit 42 Published: November 2, 2026 Categories: General Insights Tags: AI Cyber espionage Extortion Threat intelligence Share Executive Summary This overview highlights recent threat intelligence observed by Unit 42. Common adversary activities focus on strategic intelligence collection and financial extortion. We observed these activities alongside a cross-cutting adoption of artificial intelligence tools across multiple threat disciplines. Here, we share observations and behaviors associated with these activities. For in-depth access to Unit 42 threat intelligence insights, explore our Threat Intelligence Services offerings . Threat Highlights Cyberespionage State-sponsored and advanced persistent threat (APT) campaigns focused on covertly acquiring strategic intelligence, intellectual property or geopolitical data. Key Observations and Behaviors Widespread reliance on living-off-the-land (LotL) binaries and built-in administration tools to evade endpoint defenses Exploitation of zero-day vulnerabilities alongside targeted spear phishing for initial intrusion Covert credential harvesting and low-and-slow data staging designed to sustain long-term operational persistence Cybercrime: Data Theft, Extortion and Financial Fraud Organized syndicates and affiliates sought monetary gain through systemic data compromise, extortion and fraudulent transactions. Key Observations and Behaviors Multi-extortion models combining exfiltration with ransomware deployment or public exposure threats Access acquisition facilitated by infostealer logs, exposed credentials and unpatched perimeter assets Business email compromise (BEC) and payment diversion schemes executing fraudulent wire transfers AI-Enabled Offensive Operations Threat actors are integrating generative AI and large language models (LLMs) into their offensive workflows. This notable emerging trend cuts across multiple operational motivations. Key Observations and Behaviors Generation of highly refined, context-tailored social engineering lures and synthetic personas at scale Utilization of LLMs to assist in rapid scripting, payload debugging and code obfuscation Application of automated reconnaissance and multimodal tools (such as deepfakes) to support executive impersonation and access operations These highlights summarize recent in-depth threat intelligence bulletins published for Unit 42 Threat Intelligence Services customers. Unit 42 Threat Intelligence Services provide organizations with direct access to elite frontline threat expertise, enabling security teams to prioritize real risks and sharpen detection capabilities. These human-led services combine world-class intelligence with direct access to the analysts behind it, offering tailored context and guidance aligned to a customer's specific environment. Back to top Tags AI Cyber espionage Extortion Threat intelligence Threat Research Center Next: Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29) Table of Contents Related Articles The Current Landscape of OAuth Attacks Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026 OperTraitors: How Kubernetes Operators Betray Your Security Posture Related General Resources Insights October 22, 2026 The Current Landscape of OAuth Attacks AI Credential-based attacks MFA Read now Insights October 16, 2026 Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026 Initial Access Threat intelligence Trends Read now Insights October 7, 2026 Evolution of Web3 in Cloud Supply Chain Attacks Cloud configuration DPRK Supply-chain attack Read now Insights September 16, 2026 Atomic macOS (AMOS) Stealer Activity MacOS Threat intelligence Unit 42 Read now Insights September 2, 2026 An AI-Assisted Cyber Attack: Inside a Unit 42 Investigation Agentic AI Frontier AI Read now Insights August 28, 2026 P
+```
+
+#### Corroborating sources (1)
+
+- **Unit 42** (threat_research_primary)
+  - Title: Unit 42 Threat Intelligence Highlights - Nov. 2, 2026
+  - Published: 2026-11-02T23:00:45+00:00
+  - Link: https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026/
+  - Summary: Unit 42 details recent threat intelligence, highlighting cyberespionage, financial extortion, and the rapid adoption of AI across offensive workflows. The post Unit 42 Threat Intelligence Highlights - Nov. 2, 2026 appeared first on Unit 42 .
 
 ### Cluster 29018d8a93 — score 10
 
@@ -1979,102 +2013,6 @@ Share Link copied to clipboard! Tags Vulnerability Threats intelligence Vulnerab
   - Link: https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/
   - Summary: Real-world exploitation concentrates in a small, high-impact subset of CVEs. Learn how defenders can prioritize vulnerabilities based on exploitation likelihood, exposure, and potential blast radius. The post What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks appeared first on Microsoft Security Blog .
 
-### Cluster 127dd205a3 — score 10
-
-- Title: Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-11-06T21:15:09+00:00
-- Link: https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- actor_attribution: NoName057(16)
-- affected_industries: healthcare, manufacturing_industrial, retail_ecommerce
-- affected_products: Palo Alto Networks
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- actor_attribution: NoName057(16)
-- affected_industries: healthcare, manufacturing_industrial, retail_ecommerce
-- affected_products: Palo Alto Networks
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Unit 42 examines recent cyberattacks targeting European refrigeration systems and outlines defense and mitigation strategies. The post Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System appeared first on Unit 42 .
-```
-
-#### Full body
-
-```
-Threat Research Center Insights Hospitality Hacks and Retail Reality Checks Hospitality Hacks and Retail Reality Checks Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System 4 min read Related Products Advanced Threat Prevention Cloud-Delivered Security Services Cortex Cortex Xpanse Frontier Virtual Patching Industrial and Operational Technology Unit 42 Continuous Frontier AI Defense Unit 42 Deep and Dark Web Service Unit 42 Incident Response Unit 42 Threat Intelligence Services By: Matt Brady Jared Valentine Published: November 6, 2026 Categories: Hospitality Hacks and Retail Reality Checks Insights Share Introduction Unit 42 has been actively monitoring for new developments related to the cyberattacks targeting refrigeration systems in Europe since at least October 2026. The unidentified threat actors gained unauthorized access to refrigeration controllers and set them to defrost mode, resulting in hundreds of supermarkets across the region having to throw away spoiled food. The time of year when this activity has occurred is particularly concerning since retailers need to maintain adequate inventory levels as shoppers ramp up spending during holiday periods. Here we provide a high-level overview of the attacks based on public reporting and explore insights on device exposure by country, based on our findings using Cortex Xpanse . It also explores how Palo Alto Networks customers can leverage existing products and Unit 42 services to reduce their attack surface to mitigate similar threat activity in the future. Background The first wave of these attacks occurred overnight between Oct. 11–12, 2026, primarily targeting approximately 700 supermarkets in France. Since that time, another wave occurred overnight between Nov. 1–2, 2026, expanding across at least 10 additional European countries and impacting over 100–115 retail locations. In addition to the aforementioned activity, French authorities recently disclosed that refrigeration systems used by medical facilities were impacted by the attacks. At this time, there’s no evidence to suggest blood products were spoiled as a result. According to multiple sources, the threat actors behind the supermarket activities raised the temperature of the targeted refrigeration units as high as 50°C (122°F). In some cases, the activity resulted in fires. The initial access vector currently remains unconfirmed. However, there is widespread speculation that impacted devices were potentially running vulnerable versions of software and/or used default credentials provided by the manufacturers that attackers easily identified. Unit 42 Insights From Nov. 5–6, 2026, we identified the presence of over 5,000 devices exposed to the internet that were manufactured by companies listed in the CERT-FR advisory last month. These statistics do not necessarily mean that the devices are running vulnerable versions of software that could’ve been exploited. Figure 1 below illustrates these findings based on device count by the top 10 countries. Figure 1. Graph of internet exposed devices by country, top 10 results - Nov. 5–6 2026. Source: Cortex Xpanse. Given the impact of this malicious activity primarily affected devices in France, we decided to explore the trend of internet-exposed devices since October 1, 2026. Figure 2 below illustrates these findings where we identified a significant decline over three distinct time periods: October 1-15, 2026: 1,853 October 16-31, 2026: 558 November 1-6, 2026: 316 Figure 2. Graph of internet exposed devices in France by date since Oct.1, 2026. Source: Cortex Xpanse. Censys has also reported extensively on the trends in device exposures in Europe as well. Conclusion On Nov. 3, 2026, the pro-Russian hacktivist groups NoName057(16) and Z-Pentest claimed responsibility for the attacks via Telegram posts, although their allegations remain unverified at this time. The Cybersecurity and Infrastructure Security Agency (CISA) also released an advisory on Nov.
-```
-
-#### Corroborating sources (1)
-
-- **Unit 42** (threat_research_primary)
-  - Title: Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System
-  - Published: 2026-11-06T21:15:09+00:00
-  - Link: https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/
-  - Summary: Unit 42 examines recent cyberattacks targeting European refrigeration systems and outlines defense and mitigation strategies. The post Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System appeared first on Unit 42 .
-
-### Cluster 4d8d432976 — score 10
-
-- Title: Unit 42 Threat Intelligence Highlights - Nov. 2, 2026
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-11-02T23:00:45+00:00
-- Link: https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, credential_theft, phishing_social_eng, ransomware_extortion, supply_chain, zero_day
-- affected_industries: financial_services
-- affected_products: Kubernetes
-- tools_used: Apple iOS/macOS
-- cve_ids: CVE-2026-109618, CVE-2026-109619
-- urgency_signals: no_patch_yet, zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, credential_theft, zero_day, apt_espionage
-- affected_industries: financial_services
-- affected_products: Kubernetes
-- tools_used: Apple iOS/macOS
-- cve_ids: CVE-2026-109618, CVE-2026-109619
-- urgency_signals: zero_day, no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Unit 42 details recent threat intelligence, highlighting cyberespionage, financial extortion, and the rapid adoption of AI across offensive workflows. The post Unit 42 Threat Intelligence Highlights - Nov. 2, 2026 appeared first on Unit 42 .
-```
-
-#### Full body
-
-```
-Threat Research Center Insights General General Unit 42 Threat Intelligence Highlights - Nov. 2, 2026 2 min read By: Unit 42 Published: November 2, 2026 Categories: General Insights Tags: AI Cyber espionage Extortion Threat intelligence Share Executive Summary This overview highlights recent threat intelligence observed by Unit 42. Common adversary activities focus on strategic intelligence collection and financial extortion. We observed these activities alongside a cross-cutting adoption of artificial intelligence tools across multiple threat disciplines. Here, we share observations and behaviors associated with these activities. For in-depth access to Unit 42 threat intelligence insights, explore our Threat Intelligence Services offerings . Threat Highlights Cyberespionage State-sponsored and advanced persistent threat (APT) campaigns focused on covertly acquiring strategic intelligence, intellectual property or geopolitical data. Key Observations and Behaviors Widespread reliance on living-off-the-land (LotL) binaries and built-in administration tools to evade endpoint defenses Exploitation of zero-day vulnerabilities alongside targeted spear phishing for initial intrusion Covert credential harvesting and low-and-slow data staging designed to sustain long-term operational persistence Cybercrime: Data Theft, Extortion and Financial Fraud Organized syndicates and affiliates sought monetary gain through systemic data compromise, extortion and fraudulent transactions. Key Observations and Behaviors Multi-extortion models combining exfiltration with ransomware deployment or public exposure threats Access acquisition facilitated by infostealer logs, exposed credentials and unpatched perimeter assets Business email compromise (BEC) and payment diversion schemes executing fraudulent wire transfers AI-Enabled Offensive Operations Threat actors are integrating generative AI and large language models (LLMs) into their offensive workflows. This notable emerging trend cuts across multiple operational motivations. Key Observations and Behaviors Generation of highly refined, context-tailored social engineering lures and synthetic personas at scale Utilization of LLMs to assist in rapid scripting, payload debugging and code obfuscation Application of automated reconnaissance and multimodal tools (such as deepfakes) to support executive impersonation and access operations These highlights summarize recent in-depth threat intelligence bulletins published for Unit 42 Threat Intelligence Services customers. Unit 42 Threat Intelligence Services provide organizations with direct access to elite frontline threat expertise, enabling security teams to prioritize real risks and sharpen detection capabilities. These human-led services combine world-class intelligence with direct access to the analysts behind it, offering tailored context and guidance aligned to a customer's specific environment. Back to top Tags AI Cyber espionage Extortion Threat intelligence Threat Research Center Next: Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29) Table of Contents Related Articles The Current Landscape of OAuth Attacks Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026 OperTraitors: How Kubernetes Operators Betray Your Security Posture Related General Resources Insights October 22, 2026 The Current Landscape of OAuth Attacks AI Credential-based attacks MFA Read now Insights October 16, 2026 Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026 Initial Access Threat intelligence Trends Read now Insights October 7, 2026 Evolution of Web3 in Cloud Supply Chain Attacks Cloud configuration DPRK Supply-chain attack Read now Insights September 16, 2026 Atomic macOS (AMOS) Stealer Activity MacOS Threat intelligence Unit 42 Read now Insights September 2, 2026 An AI-Assisted Cyber Attack: Inside a Unit 42 Investigation Agentic AI Frontier AI Read now Insights August 28, 2026 P
-```
-
-#### Corroborating sources (1)
-
-- **Unit 42** (threat_research_primary)
-  - Title: Unit 42 Threat Intelligence Highlights - Nov. 2, 2026
-  - Published: 2026-11-02T23:00:45+00:00
-  - Link: https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026/
-  - Summary: Unit 42 details recent threat intelligence, highlighting cyberespionage, financial extortion, and the rapid adoption of AI across offensive workflows. The post Unit 42 Threat Intelligence Highlights - Nov. 2, 2026 appeared first on Unit 42 .
-
 ### Cluster 31128d5051 — score 10
 
 - Title: Defrost and Disrupt | An Assessment of Europe’s Refrigeration Attacks
@@ -2107,6 +2045,92 @@ Store fridges and freezers warmed overnight in six countries on November 2-3. Ru
   - Published: 2026-11-03T14:57:27+00:00
   - Link: https://www.sentinelone.com/labs/defrost-and-disrupt-an-assessment-of-europe-s-refrigeration-attacks/
   - Summary: Store fridges and freezers warmed overnight in six countries on November 2-3. Russian-aligned groups are credible suspects, but attribution remains open.
+
+### Cluster 16e69ab05c — score 10
+
+- Title: Virtualization security: attack layers and misconfiguration impact
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-11-06T10:00:12+00:00
+- Link: https://securelist.com/virtualization-security-esxi-and-proxmox-ransomware-cases/121819/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+A detailed breakdown of misconfigurations in virtual environment cybersecurity as shown by examples of ransomware cases on ESXi and Proxmox environments.
+```
+
+#### Full body
+
+```
+Table of Contents Introduction The connected system defenders must protect Case #1: From network monitoring to ESXi encryption Case #2: Credential notes impacting the whole Proxmox environment Why the misconfiguration caused broad impact Monitoring inherited excessive privilege Credential reuse Direct root access bypassed central control Lack of enhanced security settings Unsafe credential storage How to close this attack path Configuration checks for monitored virtualization The wider attack surface VM and container escapes Images and templates Management tools and APIs Virtual networks, storage, and backups Attack surface examples by layer Conclusion Authors Rauf Johari Introduction Incidents in virtual environments can begin with a software vulnerability, human error, a configuration weakness, or several of these factors at once. The investigation is rarely limited to the workload. Hypervisors, container runtimes, management consoles, monitoring platforms, identity systems, virtual networks, datastores, backups, and automation accounts all influence what an attacker can reach. Kaspersky GERT recently investigated two more ransomware cases on ESXi and Proxmox environments in which weak access controls, insufficient network separation, exposed administrative services, and poor management of privileged credentials contributed to the impact. A monitoring system that could reach the virtualization layer also exposed a reusable root credential. Once the attacker controlled that route, ordinary administrative access was enough to affect several hosts. No VM escape was required. The incidents show why patching and secure configuration must be managed together. A fully patched hypervisor can still be compromised through a shared password, an overprivileged monitoring account, an open SSH path, or an administrator interface reachable from a general server network. NIST guidance places secure configuration baselines, restricted administrative access, current patches, and monitoring across all layers within the same set of sound security practices. In this article, we’re going to describe both incidents with additional focus on common unsafe practices that were exploited, leading to compromise, as well as remediation tactics. We’ll also discuss the broader scope of threats targeting virtual environments for a better understanding of possible protection strategies. The connected system defenders must protect A business virtual environment is not just Hyper-V, VMware, or Docker but rather a connected stack. Management consoles, orchestration tools, monitoring platforms, and automation accounts sit above hypervisors and container engines. Registries, image stores, virtual switches, datastores, and backup systems connect the layers. Applications and business services run at the bottom, while much of the administrative power sits near the top. The important boundaries extend beyond guest to host. They include workload to management plane, monitoring system to hypervisor, registry to deployment, administrator workstation to console, management plane to storage, and one virtual network segment to another. An attacker only needs one usable route. The possibility of compromise may lie in one stolen or insecurely placed administrator credential rather than in a complex escape exploit. In the GERT case, the compromise route passed through the monitoring platform and included a valid virtualization platform credential. Case #1: From network monitoring to ESXi encryption The investigation began with evidence of BlackNevas ransomware activity on a Windows system in a virtualized domain controller segment. UserAssist artifacts recorded execution of the AnyDesk RMM tool and GMER binaries. The environment also used PRTG Network Monitor to monitor its virtual infrastructure. UserAssist artifacts The available evidence showed that the PRTG deployment had broad access to the ESXi hosts and that the same root password was reused across several nodes. After
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: Virtualization security: attack layers and misconfiguration impact
+  - Published: 2026-11-06T10:00:12+00:00
+  - Link: https://securelist.com/virtualization-security-esxi-and-proxmox-ransomware-cases/121819/
+  - Summary: A detailed breakdown of misconfigurations in virtual environment cybersecurity as shown by examples of ransomware cases on ESXi and Proxmox environments.
+
+### Cluster 19de1ddcd3 — score 10
+
+- Title: The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-11-05T10:00:11+00:00
+- Link: https://securelist.com/storm-2603-fileless-toolshell-attack/121467/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Microsoft SharePoint
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, credential_theft, ransomware_extortion, web_shell_backdoor
+- affected_products: Microsoft SharePoint
+- cve_ids: CVE-2025-53770, CVE-2025-53771
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, credential_theft, apt_espionage, web_shell_backdoor
+- affected_products: Microsoft SharePoint
+- cve_ids: CVE-2025-53770, CVE-2025-53771
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Kaspersky researchers analyze a complex fileless cyberattack by Storm-2603 involving ToolShell exploitation and subsequent runtime subversion, and discuss how to detect such intrusions.
+```
+
+#### Full body
+
+```
+Table of Contents Executive summary Intrusion timeline: Strategic latency and exploitation Initial access validation phase Vulnerability fingerprinting Active exploitation: Santa took your data and left a backdoor Attack originated from an SPN node Webshell architecture “G.cs” pipeline control and C2 Pipeline control Command and control layer (in-memory transport) “Prog.cs”: Execution entry point and task dispatcher Host interaction modules “FileDownloader.cs” “LoggedOnUsers.cs” “ProcessList.cs” “NetworkInfo.cs” “MSI.cs” “User.cs” SAMRPCNative “SAMEnums.cs” “SAMStructs.cs” “SAMMethods.cs” Privilege escalation Post-exploitation activity EDR-killing attempts Ransomware deployment attempt What defenders really need to look for ToolPane deserialization and CLR artifacts Detecting deserialization exploitation Detecting a VPP-based webshell/runtime implant Attribution Conclusion Indicator of compromise Authors Alexander Rodchenko Rodrigo Wanderson Executive summary In 2025, several threat actors exploited CVE-2025-53770 and CVE-2025-53771 (ToolShell vulnerabilities) in on-premises Microsoft SharePoint to achieve remote code execution through crafted HTTP requests. One of the threat actors deployed ransomware on the target’s systems after successful exploitation. Microsoft attributed this ransomware-related ToolShell activity to Storm-2603, distinguishing it from other actors whose observed activity was primarily focused on credential theft, espionage, and data exfiltration. In December, our retrospective analysis identified activity consistent with Storm-2603’s TTPs. This activity involved the attacker using the IIS worker process as an in-memory bridge to the customer’s infrastructure, keeping the access and control layer entirely within w3wp.exe without writing anything to disk. Although subsequent post-exploitation activity generated disk artifacts, the bridge used to maintain access remained memory-resident. Let’s look in more detail at this attack. The attack chain, from reconnaissance to infrastructure compromise Intrusion timeline: Strategic latency and exploitation The intrusion analyzed in this report occurred in two stages, with a temporal gap between initial access and subsequent exploitation activity. The attack timeline was as follows: Dec 20 – Vulnerability fingerprinting: A single HTTP request targeted a SharePoint administrative endpoint associated with the ToolPane component to determine whether the host was vulnerable to CVE-2025-53770. Dec 21-23 – Tactical latency: A three-day period of silence followed the initial probe, separating the vulnerability fingerprinting from subsequent malicious activity and potentially reducing the likelihood of immediate detection. Dec 24 – High-intensity re-engagement: On Christmas Eve, when security staffing at many companies is reduced, the full RCE chain was executed through the IIS worker process (w3wp.exe) on the same endpoint as the initial probe. Dec 26 – Incident discovery: The three-day gap initially prevented the December 20 probe from being correlated with subsequent malicious activity, marking the event as low priority. Retrospective analysis established that the probe was the initial phase of the subsequent intrusion. Intrusion timeline Initial access validation phase Vulnerability fingerprinting A vulnerability fingerprinting request on December 20 marked the first observed interaction with the target. The request originated from infrastructure associated with ONYPHE, an internet-scale attack surface discovery and management platform for identifying exposed assets, vulnerabilities, and cyberthreats. Unlike widely used tools such as Shodan and Censys, which merely provide a list of internet-facing assets correlated with the open-source data about known vulnerabilities, ONYPHE actually checks if the target system is vulnerable. Fingerprinting with ONYPHE The request characteristics were consistent with ONYPHE’s vulnerability checks, which use active, non-intrusive probes
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603
+  - Published: 2026-11-05T10:00:11+00:00
+  - Link: https://securelist.com/storm-2603-fileless-toolshell-attack/121467/
+  - Summary: Kaspersky researchers analyze a complex fileless cyberattack by Storm-2603 involving ToolShell exploitation and subsequent runtime subversion, and discuss how to detect such intrusions.
 
 ### Cluster 618360db60 — score 10
 
@@ -2251,137 +2275,6 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 2nd Novemb
   - Link: https://research.checkpoint.com/2026/2nd-november-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 2nd November, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Binance, a global cryptocurrency exchange, has suffered a cyberattack resulting in the theft of approximately $6.3 billion in digital assets. Attackers reportedly compromised a DevOps engineer’s laptop and abused internal wallet infrastructure […] The post 2nd November – Threat Intelligence Report appeared first on Check Point Research .
 
-### Cluster 16e69ab05c — score 10
-
-- Title: Virtualization security: attack layers and misconfiguration impact
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-11-06T10:00:12+00:00
-- Link: https://securelist.com/virtualization-security-esxi-and-proxmox-ransomware-cases/121819/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-A detailed breakdown of misconfigurations in virtual environment cybersecurity as shown by examples of ransomware cases on ESXi and Proxmox environments.
-```
-
-#### Full body
-
-```
-Table of Contents Introduction The connected system defenders must protect Case #1: From network monitoring to ESXi encryption Case #2: Credential notes impacting the whole Proxmox environment Why the misconfiguration caused broad impact Monitoring inherited excessive privilege Credential reuse Direct root access bypassed central control Lack of enhanced security settings Unsafe credential storage How to close this attack path Configuration checks for monitored virtualization The wider attack surface VM and container escapes Images and templates Management tools and APIs Virtual networks, storage, and backups Attack surface examples by layer Conclusion Authors Rauf Johari Introduction Incidents in virtual environments can begin with a software vulnerability, human error, a configuration weakness, or several of these factors at once. The investigation is rarely limited to the workload. Hypervisors, container runtimes, management consoles, monitoring platforms, identity systems, virtual networks, datastores, backups, and automation accounts all influence what an attacker can reach. Kaspersky GERT recently investigated two more ransomware cases on ESXi and Proxmox environments in which weak access controls, insufficient network separation, exposed administrative services, and poor management of privileged credentials contributed to the impact. A monitoring system that could reach the virtualization layer also exposed a reusable root credential. Once the attacker controlled that route, ordinary administrative access was enough to affect several hosts. No VM escape was required. The incidents show why patching and secure configuration must be managed together. A fully patched hypervisor can still be compromised through a shared password, an overprivileged monitoring account, an open SSH path, or an administrator interface reachable from a general server network. NIST guidance places secure configuration baselines, restricted administrative access, current patches, and monitoring across all layers within the same set of sound security practices. In this article, we’re going to describe both incidents with additional focus on common unsafe practices that were exploited, leading to compromise, as well as remediation tactics. We’ll also discuss the broader scope of threats targeting virtual environments for a better understanding of possible protection strategies. The connected system defenders must protect A business virtual environment is not just Hyper-V, VMware, or Docker but rather a connected stack. Management consoles, orchestration tools, monitoring platforms, and automation accounts sit above hypervisors and container engines. Registries, image stores, virtual switches, datastores, and backup systems connect the layers. Applications and business services run at the bottom, while much of the administrative power sits near the top. The important boundaries extend beyond guest to host. They include workload to management plane, monitoring system to hypervisor, registry to deployment, administrator workstation to console, management plane to storage, and one virtual network segment to another. An attacker only needs one usable route. The possibility of compromise may lie in one stolen or insecurely placed administrator credential rather than in a complex escape exploit. In the GERT case, the compromise route passed through the monitoring platform and included a valid virtualization platform credential. Case #1: From network monitoring to ESXi encryption The investigation began with evidence of BlackNevas ransomware activity on a Windows system in a virtualized domain controller segment. UserAssist artifacts recorded execution of the AnyDesk RMM tool and GMER binaries. The environment also used PRTG Network Monitor to monitor its virtual infrastructure. UserAssist artifacts The available evidence showed that the PRTG deployment had broad access to the ESXi hosts and that the same root password was reused across several nodes. After
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: Virtualization security: attack layers and misconfiguration impact
-  - Published: 2026-11-06T10:00:12+00:00
-  - Link: https://securelist.com/virtualization-security-esxi-and-proxmox-ransomware-cases/121819/
-  - Summary: A detailed breakdown of misconfigurations in virtual environment cybersecurity as shown by examples of ransomware cases on ESXi and Proxmox environments.
-
-### Cluster 19de1ddcd3 — score 10
-
-- Title: The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-11-05T10:00:11+00:00
-- Link: https://securelist.com/storm-2603-fileless-toolshell-attack/121467/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Microsoft SharePoint
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, credential_theft, ransomware_extortion, web_shell_backdoor
-- affected_products: Microsoft SharePoint
-- cve_ids: CVE-2025-53770, CVE-2025-53771
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, credential_theft, apt_espionage, web_shell_backdoor
-- affected_products: Microsoft SharePoint
-- cve_ids: CVE-2025-53770, CVE-2025-53771
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Kaspersky researchers analyze a complex fileless cyberattack by Storm-2603 involving ToolShell exploitation and subsequent runtime subversion, and discuss how to detect such intrusions.
-```
-
-#### Full body
-
-```
-Table of Contents Executive summary Intrusion timeline: Strategic latency and exploitation Initial access validation phase Vulnerability fingerprinting Active exploitation: Santa took your data and left a backdoor Attack originated from an SPN node Webshell architecture “G.cs” pipeline control and C2 Pipeline control Command and control layer (in-memory transport) “Prog.cs”: Execution entry point and task dispatcher Host interaction modules “FileDownloader.cs” “LoggedOnUsers.cs” “ProcessList.cs” “NetworkInfo.cs” “MSI.cs” “User.cs” SAMRPCNative “SAMEnums.cs” “SAMStructs.cs” “SAMMethods.cs” Privilege escalation Post-exploitation activity EDR-killing attempts Ransomware deployment attempt What defenders really need to look for ToolPane deserialization and CLR artifacts Detecting deserialization exploitation Detecting a VPP-based webshell/runtime implant Attribution Conclusion Indicator of compromise Authors Alexander Rodchenko Rodrigo Wanderson Executive summary In 2025, several threat actors exploited CVE-2025-53770 and CVE-2025-53771 (ToolShell vulnerabilities) in on-premises Microsoft SharePoint to achieve remote code execution through crafted HTTP requests. One of the threat actors deployed ransomware on the target’s systems after successful exploitation. Microsoft attributed this ransomware-related ToolShell activity to Storm-2603, distinguishing it from other actors whose observed activity was primarily focused on credential theft, espionage, and data exfiltration. In December, our retrospective analysis identified activity consistent with Storm-2603’s TTPs. This activity involved the attacker using the IIS worker process as an in-memory bridge to the customer’s infrastructure, keeping the access and control layer entirely within w3wp.exe without writing anything to disk. Although subsequent post-exploitation activity generated disk artifacts, the bridge used to maintain access remained memory-resident. Let’s look in more detail at this attack. The attack chain, from reconnaissance to infrastructure compromise Intrusion timeline: Strategic latency and exploitation The intrusion analyzed in this report occurred in two stages, with a temporal gap between initial access and subsequent exploitation activity. The attack timeline was as follows: Dec 20 – Vulnerability fingerprinting: A single HTTP request targeted a SharePoint administrative endpoint associated with the ToolPane component to determine whether the host was vulnerable to CVE-2025-53770. Dec 21-23 – Tactical latency: A three-day period of silence followed the initial probe, separating the vulnerability fingerprinting from subsequent malicious activity and potentially reducing the likelihood of immediate detection. Dec 24 – High-intensity re-engagement: On Christmas Eve, when security staffing at many companies is reduced, the full RCE chain was executed through the IIS worker process (w3wp.exe) on the same endpoint as the initial probe. Dec 26 – Incident discovery: The three-day gap initially prevented the December 20 probe from being correlated with subsequent malicious activity, marking the event as low priority. Retrospective analysis established that the probe was the initial phase of the subsequent intrusion. Intrusion timeline Initial access validation phase Vulnerability fingerprinting A vulnerability fingerprinting request on December 20 marked the first observed interaction with the target. The request originated from infrastructure associated with ONYPHE, an internet-scale attack surface discovery and management platform for identifying exposed assets, vulnerabilities, and cyberthreats. Unlike widely used tools such as Shodan and Censys, which merely provide a list of internet-facing assets correlated with the open-source data about known vulnerabilities, ONYPHE actually checks if the target system is vulnerable. Fingerprinting with ONYPHE The request characteristics were consistent with ONYPHE’s vulnerability checks, which use active, non-intrusive probes
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603
-  - Published: 2026-11-05T10:00:11+00:00
-  - Link: https://securelist.com/storm-2603-fileless-toolshell-attack/121467/
-  - Summary: Kaspersky researchers analyze a complex fileless cyberattack by Storm-2603 involving ToolShell exploitation and subsequent runtime subversion, and discuss how to detect such intrusions.
-
-### Cluster fe30f85ed7 — score 10
-
-- Title: Bring a tent, I've got the coffee: Lessons from it-sa
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-11-05T19:00:00+00:00
-- Link: https://blog.talosintelligence.com/bring-a-tent-ive-got-the-coffee-lessons-from-it-sa/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, credential_theft
-- affected_industries: education, financial_services
-- affected_products: Cisco
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: credential_theft, apt_espionage
-- affected_industries: financial_services, education
-- affected_products: Cisco
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Thorsten may have had to camp out in Nuremberg to attend it-sa, but the real story is the initiative to add a formal IT Security apprenticeship program in Germany for the thousands of young hackers ready to join our side.
-```
-
-#### Full body
-
-```
-Bring a tent, I've got the coffee: Lessons from it-sa By Thorsten Rosendahl Thursday, November 5, 2026 14:00 Threat Source newsletter Welcome to this week's edition of the Threat Source newsletter. I'm just back from an interesting and demanding week of booth duty at it-sa Expo&Congress in Nuremberg, where Talos had a Point of Demonstration at the Cisco booth. I personally see it-sa as the German or European counterpart to the RSA Conference in San Francisco, with a slightly different center of gravity in at least two dimensions. First, the expo is the main event, not the congress. The congress is organized by associations, industry groups, and exhibitors, and plays more of a supporting role. Second, the focus is more local and European. Major topics were (of course) AI for defense tooling, securing AI systems themselves, and post-quantum cryptography. And here comes the local touch (in my opinion): digital sovereignty and regulatory compliance, with NIS2, CRA, and DORA. But local doesn't translate to small, or to the city of Nuremberg. With more than 1,000 exhibitors and 33,000 visitors from 70 countries over three days of exhibition, preceded by a congress day, it was huge. Even as a trade show veteran, I was overwhelmed. My conversations at the booth had a different focus, though. It was a lot of chatter about vulnerabilities like php2shell or broccoli2shell and state-sponsored actors, but again with a local touch: education. I was very surprised how many teenagers stopped by to ask for advice. Here in Germany, you mainly have two paths for your career. One is the university route, and the other is vocational (apprenticeship). Across all industries the split is roughly 50 / 50 , while in IT it is more like 80% university, 20% apprenticeship. The common minimum age to start university is 18, while it is 16 for apprenticeships. Reality is way more complex, but the details don’t matter for the point I want to make. For university opportunities in cyber, I count close to 30 bachelor programs . For apprenticeships, I count ZERO. There is the "IT Specialist" (Fachinformatiker), but it only has specializations like application development, system integration, digital networking, or data and process analysis. That is why an initiative exists to get an "IT Security" specialization going. Even the degree route is thin. There are no official statistics, but my guess is 800 to 900 graduates a year, compared to a demand of more than 100,000. We need a second route into the field for the 16-year-old who finished various CTFs or Hack the Box challenges and wants to join the good side now. Honestly speaking, I would rather have them on our side of the fence at 16 than wonder at 26 where they ended up. How does it look in your country? On a personal note: If you consider visiting it-sa in 2027, book your accommodation early. The hotels are gone fast. That is the one downside, because Nuremberg isn't exactly a city with the infrastructure for more than 30,000 visitors. (Don't ask me how I learned that there are also camping spots close to the exhibition area.) See you in Nuremberg next year. Bring a tent, just in case. I've got the coffee. The one big thing Cisco Talos recently discovered VOLTA , a mature, self-deleting Windows infostealer that uses AI to act as a personal intelligence analyst for cybercriminals. After harvesting a massive haul of credentials, sessions, and cryptocurrency wallets, VOLTA sends a structured evidence bundle to a large language model to rank the victim’s assets by monetization value. The malware even uses stolen session access to enrich this data, searching the victim's emails for purchase receipts to corroborate home addresses. If an AI model refuses to perform the target assessment, VOLTA seamlessly fails over to a multi-model chain to ensure the attackers get their prioritized dossier. Why do I care? VOLTA replaces the manual work of data sorting with automated, AI-driven victim profiling. By letting an LLM d
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Bring a tent, I've got the coffee: Lessons from it-sa
-  - Published: 2026-11-05T19:00:00+00:00
-  - Link: https://blog.talosintelligence.com/bring-a-tent-ive-got-the-coffee-lessons-from-it-sa/
-  - Summary: Thorsten may have had to camp out in Nuremberg to attend it-sa, but the real story is the initiative to add a formal IT Security apprenticeship program in Germany for the thousands of young hackers ready to join our side.
-
 ### Cluster ea17135bd1 — score 10
 
 - Title: SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware
@@ -2474,6 +2367,51 @@ ESET Research Gorbag: Orcs at the border harvesting intelligence from Ukraine ES
   - Link: https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine/
   - Summary: ESET researchers uncover Gorbag, a Russia-aligned group using simple infostealers to harvest data from Ukrainian organizations near the front line
 
+### Cluster fe30f85ed7 — score 10
+
+- Title: Bring a tent, I've got the coffee: Lessons from it-sa
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-11-05T19:00:00+00:00
+- Link: https://blog.talosintelligence.com/bring-a-tent-ive-got-the-coffee-lessons-from-it-sa/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, credential_theft
+- affected_industries: education, financial_services
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: credential_theft, apt_espionage
+- affected_industries: financial_services, education
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Thorsten may have had to camp out in Nuremberg to attend it-sa, but the real story is the initiative to add a formal IT Security apprenticeship program in Germany for the thousands of young hackers ready to join our side.
+```
+
+#### Full body
+
+```
+Bring a tent, I've got the coffee: Lessons from it-sa By Thorsten Rosendahl Thursday, November 5, 2026 14:00 Threat Source newsletter Welcome to this week's edition of the Threat Source newsletter. I'm just back from an interesting and demanding week of booth duty at it-sa Expo&Congress in Nuremberg, where Talos had a Point of Demonstration at the Cisco booth. I personally see it-sa as the German or European counterpart to the RSA Conference in San Francisco, with a slightly different center of gravity in at least two dimensions. First, the expo is the main event, not the congress. The congress is organized by associations, industry groups, and exhibitors, and plays more of a supporting role. Second, the focus is more local and European. Major topics were (of course) AI for defense tooling, securing AI systems themselves, and post-quantum cryptography. And here comes the local touch (in my opinion): digital sovereignty and regulatory compliance, with NIS2, CRA, and DORA. But local doesn't translate to small, or to the city of Nuremberg. With more than 1,000 exhibitors and 33,000 visitors from 70 countries over three days of exhibition, preceded by a congress day, it was huge. Even as a trade show veteran, I was overwhelmed. My conversations at the booth had a different focus, though. It was a lot of chatter about vulnerabilities like php2shell or broccoli2shell and state-sponsored actors, but again with a local touch: education. I was very surprised how many teenagers stopped by to ask for advice. Here in Germany, you mainly have two paths for your career. One is the university route, and the other is vocational (apprenticeship). Across all industries the split is roughly 50 / 50 , while in IT it is more like 80% university, 20% apprenticeship. The common minimum age to start university is 18, while it is 16 for apprenticeships. Reality is way more complex, but the details don’t matter for the point I want to make. For university opportunities in cyber, I count close to 30 bachelor programs . For apprenticeships, I count ZERO. There is the "IT Specialist" (Fachinformatiker), but it only has specializations like application development, system integration, digital networking, or data and process analysis. That is why an initiative exists to get an "IT Security" specialization going. Even the degree route is thin. There are no official statistics, but my guess is 800 to 900 graduates a year, compared to a demand of more than 100,000. We need a second route into the field for the 16-year-old who finished various CTFs or Hack the Box challenges and wants to join the good side now. Honestly speaking, I would rather have them on our side of the fence at 16 than wonder at 26 where they ended up. How does it look in your country? On a personal note: If you consider visiting it-sa in 2027, book your accommodation early. The hotels are gone fast. That is the one downside, because Nuremberg isn't exactly a city with the infrastructure for more than 30,000 visitors. (Don't ask me how I learned that there are also camping spots close to the exhibition area.) See you in Nuremberg next year. Bring a tent, just in case. I've got the coffee. The one big thing Cisco Talos recently discovered VOLTA , a mature, self-deleting Windows infostealer that uses AI to act as a personal intelligence analyst for cybercriminals. After harvesting a massive haul of credentials, sessions, and cryptocurrency wallets, VOLTA sends a structured evidence bundle to a large language model to rank the victim’s assets by monetization value. The malware even uses stolen session access to enrich this data, searching the victim's emails for purchase receipts to corroborate home addresses. If an AI model refuses to perform the target assessment, VOLTA seamlessly fails over to a multi-model chain to ensure the attackers get their prioritized dossier. Why do I care? VOLTA replaces the manual work of data sorting with automated, AI-driven victim profiling. By letting an LLM d
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Bring a tent, I've got the coffee: Lessons from it-sa
+  - Published: 2026-11-05T19:00:00+00:00
+  - Link: https://blog.talosintelligence.com/bring-a-tent-ive-got-the-coffee-lessons-from-it-sa/
+  - Summary: Thorsten may have had to camp out in Nuremberg to attend it-sa, but the real story is the initiative to add a formal IT Security apprenticeship program in Germany for the thousands of young hackers ready to join our side.
+
 ### Cluster 248b524313 — score 10
 
 - Title: AI-Powered Penetration Testing: How Autonomous Offensive Security Works
@@ -2512,45 +2450,6 @@ AI-Powered Penetration Testing: How Autonomous Offensive Security Works Chelsea 
   - Published: 2026-11-03T04:57:09+00:00
   - Link: https://horizon3.ai/downloads/whitepapers/ai-powered-penetration-testing-sans-spotlight/
   - Summary: Your Environment Changes Every Day. Can Your Penetration Testing Keep Up? Traditional penetration tests provide valuable insights, but their findings reflect a moment in time. As applications, identities, infrastructure, and attacker techniques evolve, yesterday’s assessment may no longer reflect today’s exposure. This SANS Spotlight paper explores how AI-powered penetration testing makes continuous offensive validation practical. […]
-
-### Cluster 2943272935 — score 10
-
-- Title: Making HTTP header injection critical with one prompt
-- Source: PortSwigger Research (offensive_vulnerability_research)
-- Published: 2026-11-04T15:12:29+00:00
-- Link: https://portswigger.net/research/making-http-header-injection-critical-with-one-prompt
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-You can now escalate HTTP header injection to a CRLF-Powered Desync and exploit it to serve random users a redirect to your collaborator, in a single prompt. We’ve just introduced a new scan check for
-```
-
-#### Full body
-
-```
-Making HTTP header injection critical with one prompt Tom Stacey Researcher @t0xodile Published: Wednesday, 4 November 2026 at 15:12 UTC Updated: Wednesday, 4 November 2026 at 15:12 UTC You can now escalate HTTP header injection to a CRLF-Powered Desync and exploit it to serve random users a redirect to your collaborator, in a single prompt . We’ve just introduced a new scan check for HTTP Request Header Injection and distilled CRLF-Powered Desync Attacks: Beheading HTTP Stream’s exploitation methodology into Burp AT. Watch it in action below: Video tags are not supported by your browser. HTTP request smuggling attacks are devastating. To make matters worse, they’re so widespread and so complex that we’ve released six BlackHat USA research presentations about them. That’s a lot of new hacking techniques to consume if you don’t want to miss critical vulnerabilities in your engagements. To help testers discover more cutting-edge critical vulnerabilities, we’re distilling the PortSwigger Research team’s knowledge into Burp AT skills. This allows it to autonomously perform our research grade methodology in the background, all while you continue your own manual testing. Our CRLF-Powered Desync methodology To illustrate what we mean, here are the steps Burp AT is taking for you in the background. The skill expects a HTTP request header injection issue from burp, and uses it to run several phases, each of which is a step in the methodology we used during our research: Phase 1 - Identify the upstream injection location Just because your insertion point is the path, doesn’t mean that your injected header ends up in the path upstream. We encountered several cases where the path was re-written to a custom header upstream, meaning that to achieve request splitting, we needed to identify if the custom header occurred before or after the existing host header. For example, if the following produces normal looking status code: GET /%0d%0a%0d%0a HTTP/1.1 But the adding a host header like so triggers a 400: GET /%0d%0aHost:%20x%0d%0a%0d%0a HTTP/1.1 Upstream request: GET / HTTP/1.1 Host: example.com X-Original-path: / Host: x Then we can be fairly certain that our injection is occurring inside of a custom header that appears after the upstream request’s host header. Note: the skill and scan check both support any insertion point, not just the path Phase 2 - Validate the desync via request splitting Next, we need to build our request splitting payload and prove that we can achieve a desync. To do this, we use the structure provided by phase 1 to build a request splitting payload with prefixes like so: GET /%0d%0a%0d%0aGET%20/%20HTTP/13.37%0d%0aHost:%20example.com %0d%0aContent-Length:%20150%0d%0a%0d%0a HTTP/1.1 GET /%0d%0a%0d%0aTRACE%20/%20HTTP/1.1%0d%0aHost:%20example.com %0d%0aContent-Length:%20150%0d%0a%0d%0a HTTP/1.1 The skill will fuzz several different prefix payloads in order to try and produce unique status codes. Once it has collected 2 or 3 we know our prefixes are modifying our requests upstream and it’ll move into exploitation. Phase 3 - Find an exploit gadget This phase will launch a mini-crawl against the domain you are targeting, in an attempt to find open redirects that can be induced via the Host header, the X-Forwarded-Host header or an absolute URL. Phase 4 - Exploit the target Assuming we found a gadget in phase 3, we can now build our exploit by combining our phase 2 request structure with our phase 3 gadget. For example, if phase 3 identified that a request towards /assets redirected to /assets/ and used the host header to determine the location of said redirect, phase 4 attempts the following exploit: GET /%0d%0a%0d%0aGET%20/assets%20HTTP/1.1%0d%0aHost:%20collaborator.net%0d%0a Content-Length:%20150%0d%0a%0d%0a HTTP/1.1 If repeatedly sending this request over different connections produces the expected redirect response to the attacker’s domain, the skill reports an issue with all of the evidence. If you’re anything like me
-```
-
-#### Corroborating sources (1)
-
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - Title: Making HTTP header injection critical with one prompt
-  - Published: 2026-11-04T15:12:29+00:00
-  - Link: https://portswigger.net/research/making-http-header-injection-critical-with-one-prompt
-  - Summary: You can now escalate HTTP header injection to a CRLF-Powered Desync and exploit it to serve random users a redirect to your collaborator, in a single prompt. We’ve just introduced a new scan check for
 
 ### Cluster 0e50b3feba — score 10
 
@@ -2600,6 +2499,45 @@ October 2026 CVE Landscape In October 2026, Insikt Group® identified 82 high-im
   - Published: 2026-11-06T00:00:00+00:00
   - Link: https://www.recordedfuture.com/blog/october-2026-cve-landscape
   - Summary: In October 2026, Insikt Group® identified 82 high-impact vulnerabilities that should be prioritized for remediation, 52 of which had a Very Critical Recorded Future Risk Score. This represents a 13% decrease from last month.
+
+### Cluster 2943272935 — score 10
+
+- Title: Making HTTP header injection critical with one prompt
+- Source: PortSwigger Research (offensive_vulnerability_research)
+- Published: 2026-11-04T15:12:29+00:00
+- Link: https://portswigger.net/research/making-http-header-injection-critical-with-one-prompt
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+You can now escalate HTTP header injection to a CRLF-Powered Desync and exploit it to serve random users a redirect to your collaborator, in a single prompt. We’ve just introduced a new scan check for
+```
+
+#### Full body
+
+```
+Making HTTP header injection critical with one prompt Tom Stacey Researcher @t0xodile Published: Wednesday, 4 November 2026 at 15:12 UTC Updated: Wednesday, 4 November 2026 at 15:12 UTC You can now escalate HTTP header injection to a CRLF-Powered Desync and exploit it to serve random users a redirect to your collaborator, in a single prompt . We’ve just introduced a new scan check for HTTP Request Header Injection and distilled CRLF-Powered Desync Attacks: Beheading HTTP Stream’s exploitation methodology into Burp AT. Watch it in action below: Video tags are not supported by your browser. HTTP request smuggling attacks are devastating. To make matters worse, they’re so widespread and so complex that we’ve released six BlackHat USA research presentations about them. That’s a lot of new hacking techniques to consume if you don’t want to miss critical vulnerabilities in your engagements. To help testers discover more cutting-edge critical vulnerabilities, we’re distilling the PortSwigger Research team’s knowledge into Burp AT skills. This allows it to autonomously perform our research grade methodology in the background, all while you continue your own manual testing. Our CRLF-Powered Desync methodology To illustrate what we mean, here are the steps Burp AT is taking for you in the background. The skill expects a HTTP request header injection issue from burp, and uses it to run several phases, each of which is a step in the methodology we used during our research: Phase 1 - Identify the upstream injection location Just because your insertion point is the path, doesn’t mean that your injected header ends up in the path upstream. We encountered several cases where the path was re-written to a custom header upstream, meaning that to achieve request splitting, we needed to identify if the custom header occurred before or after the existing host header. For example, if the following produces normal looking status code: GET /%0d%0a%0d%0a HTTP/1.1 But the adding a host header like so triggers a 400: GET /%0d%0aHost:%20x%0d%0a%0d%0a HTTP/1.1 Upstream request: GET / HTTP/1.1 Host: example.com X-Original-path: / Host: x Then we can be fairly certain that our injection is occurring inside of a custom header that appears after the upstream request’s host header. Note: the skill and scan check both support any insertion point, not just the path Phase 2 - Validate the desync via request splitting Next, we need to build our request splitting payload and prove that we can achieve a desync. To do this, we use the structure provided by phase 1 to build a request splitting payload with prefixes like so: GET /%0d%0a%0d%0aGET%20/%20HTTP/13.37%0d%0aHost:%20example.com %0d%0aContent-Length:%20150%0d%0a%0d%0a HTTP/1.1 GET /%0d%0a%0d%0aTRACE%20/%20HTTP/1.1%0d%0aHost:%20example.com %0d%0aContent-Length:%20150%0d%0a%0d%0a HTTP/1.1 The skill will fuzz several different prefix payloads in order to try and produce unique status codes. Once it has collected 2 or 3 we know our prefixes are modifying our requests upstream and it’ll move into exploitation. Phase 3 - Find an exploit gadget This phase will launch a mini-crawl against the domain you are targeting, in an attempt to find open redirects that can be induced via the Host header, the X-Forwarded-Host header or an absolute URL. Phase 4 - Exploit the target Assuming we found a gadget in phase 3, we can now build our exploit by combining our phase 2 request structure with our phase 3 gadget. For example, if phase 3 identified that a request towards /assets redirected to /assets/ and used the host header to determine the location of said redirect, phase 4 attempts the following exploit: GET /%0d%0a%0d%0aGET%20/assets%20HTTP/1.1%0d%0aHost:%20collaborator.net%0d%0a Content-Length:%20150%0d%0a%0d%0a HTTP/1.1 If repeatedly sending this request over different connections produces the expected redirect response to the attacker’s domain, the skill reports an issue with all of the evidence. If you’re anything like me
+```
+
+#### Corroborating sources (1)
+
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - Title: Making HTTP header injection critical with one prompt
+  - Published: 2026-11-04T15:12:29+00:00
+  - Link: https://portswigger.net/research/making-http-header-injection-critical-with-one-prompt
+  - Summary: You can now escalate HTTP header injection to a CRLF-Powered Desync and exploit it to serve random users a redirect to your collaborator, in a single prompt. We’ve just introduced a new scan check for
 
 ### Cluster 246008e0ef — score 10
 
@@ -2774,6 +2712,65 @@ D-Link warns of multiple zero-days in DGS-3130 Series switches By Sergiu Gatlan 
   - Published: 2026-11-06T12:37:22+00:00
   - Link: https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/
   - Summary: D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]
+
+### Cluster d2eaccbc2f — score 10
+
+- Title: SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-11-07T10:16:23+00:00
+- Link: https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 3
+- Strong signals: CVE-2026-19868, SonicWall
+
+#### Cluster taxonomy (union across members)
+- threat_categories: mfa_bypass, zero_day
+- affected_industries: education, government, manufacturing_industrial
+- affected_products: OpenAI/ChatGPT, SonicWall
+- cve_ids: CVE-2026-102255, CVE-2026-109593, CVE-2026-19868
+- urgency_signals: preauth_unauth, zero_day
+- content_type: news_report, vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- affected_industries: government, manufacturing_industrial, education
+- affected_products: SonicWall, OpenAI/ChatGPT
+- cve_ids: CVE-2026-19868, CVE-2026-102255
+- urgency_signals: zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+SonicWall has patched a SonicOS vulnerability that can be used to bypass SAML authentication, warning customers that it may have been exploited in attacks. Tracked as CVE-2026-19868 , the flaw affects the SSL VPN component of SonicOS, the operating system that runs on SonicWall firewalls. It’s one of seven vulnerabilities described in an advisory published on November 6. “An authentication enforcement vulnerability in SonicOS SSLVPN service may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA),” reads SonicWall’s description of CVE-2026-19868. According to the vendor, an SSL VPN is exposed only if SAML-based login is enabled. CVE-2026-19868 has a CVSS score of 7.1, which puts it in the high-severity range. The flaw was reported by Ryan Harris of The Electronic Office. SonicWall said its product security team “has investigated a report indicating potential exploitation of this vulnerability.” CISA added CVE-2026-19868 to its Known Exploited Vulnerabilities (KEV) catalog on the same day. Under Binding Operational Directive 26-04, federal agencies must address it by November 20. Advertisement. Scroll to continue reading. Neither the vendor nor CISA has shared any details about the suspected attacks. It’s also unclear whether the flaw was exploited as a zero-day, before a patch became available. Impacted devices include Gen7 TZ, NSa, NSsp and NSv firewalls with SonicOS 7.3.3-7015 or older. Gen8 TZ, NSa and NSv firewalls with SonicOS 8.2.2-8015 or older are also affected. SonicOS versions 7.3.4-7013 and 8.2.3-8015 resolve the issue, and there are no workarounds. “Customers are strongly urged to upgrade to the latest release as soon as possible to mitigate the associated risks,” SonicWall said. SonicWall’s advisory doesn’t mark any of the other six flaws as exploited. Two of them, each with a CVSS score of 8.8, affect the SonicOS management interface. One is a permissive cross-domain policy issue and the other is a session validation bug. Under certain circumstances, a remote attacker could abuse either one without logging in to take unauthorized actions. Three of the remaining flaws are pre-authentication buffer overflows in the SSL VPN service and the TACACS+ authentication client. Attackers could use them to launch DoS attacks at the application level. The last one is a weak password hashing issue in virtual appliances. An attacker who already has high-privileged local access could exploit it to obtain a platform credential, which gives access to some of the platform’s settings. Threat actors often exploit SonicWall product vulnerabilities. CISA’s KEV catalog currently includes 20 security holes, but the agency has yet to add CVE-2026-102255 , which hackers started targeting last month, just days after its disclosure. Related : Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws Related : SonicWall Warns of Two SMA1000 Zero-Days Exploited in Attacks Related : SonicWall and Splunk Patch Critical Vulnerabilities Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks Barracuda ESG Authentication Bypass Flaw Opens Path to Root Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers Rigged Coding Assignm
+```
+
+#### Corroborating sources (3)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins
+  - Published: 2026-11-07T10:16:23+00:00
+  - Link: https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/
+  - Summary: CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek .
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks
+  - Published: 2026-11-07T00:00:55+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/
+  - Summary: SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records
+  - Published: 2026-11-04T17:00:38+00:00
+  - Link: https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html
+  - Summary: SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below - CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,
 
 ### Cluster d5abe24e63 — score 10
 

@@ -6,9 +6,27 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 08 Nov 2026 05:34:41 +0000</lastBuildDate>
+<lastBuildDate>Sun, 08 Nov 2026 13:06:06 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Brava Security Emerges From Stealth With $15 Million in Funding</title>
+<link>https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/</link>
+<description><![CDATA[Its multi-agent AI platform generates the telemetry an attack would produce to fix gaps in enterprise defenses. The post Brava Security Emerges From Stealth With $15 Million in Funding appeared first on SecurityWeek .]]></description>
+<pubDate>Sun, 08 Nov 2026 12:14:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/</guid>
+<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Week in review: Refrigeration cyberattacks hit European retailers again, Patch Tuesday forecast</title>
+<link>https://www.helpnetsecurity.com/2026/11/08/week-in-review-refrigeration-cyberattacks-hit-european-retailers-again-patch-tuesday-forecast/</link>
+<description><![CDATA[Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: The first ten lines of a command policy for AI coding agents In this Help Net Security interview, Vinay Thakker, CTO of KloudStax, explains how to set identity, credentials, and network limits for AI agents. He argues that agents should run under their own identity, with the person’s identity attached when acting on someone’s behalf. Google disrupts XCPE botnet, bans … More → The post Week in review: Refrigeration cyberattacks hit European retailers again, Patch Tuesday forecast appeared first on Help Net Security .]]></description>
+<pubDate>Sun, 08 Nov 2026 09:00:21 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/11/08/week-in-review-refrigeration-cyberattacks-hit-european-retailers-again-patch-tuesday-forecast/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>ARTEX attack</title>
 <link>https://www.reddit.com/r/netsec/comments/1xqmhgk/artex_attack/</link>
@@ -560,16 +578,6 @@
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>CVE-2026-116606</category>
-</item>
-<item>
-<title>Rental phishing sites use live chat to win over hesitant travelers</title>
-<link>https://www.helpnetsecurity.com/2026/11/06/holiday-rental-platform-phishing-travelers/</link>
-<description><![CDATA[Holiday travelers looking for a place to stay are landing on copies of popular rental platforms, complete with host names, ratings and reviews, that ask for their passwords, personal details and credit card numbers. The sites, spotted and taken down by Fortra’s Intelligence and Research Experts (FIRE) team, rely on familiar branding, copied property listings and reservation details, along with urgent messages meant to rush visitors into acting. A phishing page imitating a rental marketplace … More → The post Rental phishing sites use live chat to win over hesitant travelers appeared first on Help Net Security .<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Fri, 06 Nov 2026 05:00:41 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/11/06/holiday-rental-platform-phishing-travelers/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>OpenSSH auth bypass bug hits Alpine Linux, OperWRT</title>
@@ -2011,6 +2019,24 @@
 <guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1xl8pd3/rnetsecs_q4_2026_information_security_hiring/</guid>
 <source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
 <category>reddit_practitioner_osint</category>
+</item>
+<item>
+<title>OneNote File Extraction, (Sun, Nov 1st)</title>
+<link>https://isc.sans.edu/diary/rss/33478</link>
+<description><![CDATA[Recently, I had to extract embedded files from a set of OneNote files (extension .one).]]></description>
+<pubDate>Sun, 01 Nov 2026 09:12:23 +0000</pubDate>
+<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33478</guid>
+<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
+<category>government_authoritative</category>
+</item>
+<item>
+<title>Weekly Update 528: Reading AI-generated Code &amp; the Economics of Solar</title>
+<link>https://www.troyhunt.com/weekly-update-528/</link>
+<description><![CDATA[By pure timing coincidence, the Proton CEO&apos;s AI @ Proton, Engineering Manifesto made headlines around the same time as this week&apos;s video. The guy&apos;s management style and choice of language have really rubbed a lot of people up the wrong way, and deservedly so, IMHO.]]></description>
+<pubDate>Sun, 01 Nov 2026 07:35:23 +0000</pubDate>
+<guid isPermaLink="true">https://www.troyhunt.com/weekly-update-528/</guid>
+<source url="https://www.troyhunt.com/rss/">Troy Hunt</source>
+<category>practitioner_analysis</category>
 </item>
 <item>
 <title>How We Took Over ChatGPT Accounts</title>
@@ -4291,6 +4317,15 @@
 <category>CVE-2026-115560</category>
 </item>
 <item>
+<title>Behind Japan’s Warnings of a Cyber Crisis</title>
+<link>https://www.recordedfuture.com/blog/japan-cyber-crisis-warnings</link>
+<description><![CDATA[Explore Japan&apos;s 2026 cyber crisis, rising breach trends, AI tooling, legacy systems, and key mitigation strategies to protect organizations.]]></description>
+<pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/japan-cyber-crisis-warnings</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>[remote] PHP2Shell (CVE-2026-109618) - PHP core versions after v5.4 - RCE</title>
 <link>https://www.exploit-db.com/exploits/52704</link>
 <description><![CDATA[PHP2Shell (CVE-2026-109618) - PHP core versions after v5.4 - RCE<br/><br/><em>Tags: CVE-2026-109618</em>]]></description>
@@ -4299,15 +4334,6 @@
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
 <category>CVE-2026-109618</category>
-</item>
-<item>
-<title>Behind Japan’s Warnings of a Cyber Crisis</title>
-<link>https://www.recordedfuture.com/blog/japan-cyber-crisis-warnings</link>
-<description><![CDATA[Explore Japan&apos;s 2026 cyber crisis, rising breach trends, AI tooling, legacy systems, and key mitigation strategies to protect organizations.]]></description>
-<pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/japan-cyber-crisis-warnings</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
 </item>
 <item>
 <title>Smashing Security podcast #489: How a brand new crypto wallet came with a spy inside</title>
@@ -4597,6 +4623,15 @@
 <category>CVE-2026-109619</category>
 </item>
 <item>
+<title>PHP2Shell Exploitation: Two Critical PHP Flaws Explained</title>
+<link>https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation</link>
+<description><![CDATA[Two critical PHP remote code execution flaws (PHP2Shell) are reportedly being exploited. See who’s exposed, how the exploits work, and how to remediate now.]]></description>
+<pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>[webapps] pizzafy-1.0 - SQLi</title>
 <link>https://www.exploit-db.com/exploits/52703</link>
 <description><![CDATA[pizzafy-1.0 - SQLi]]></description>
@@ -4685,15 +4720,6 @@
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52693</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>PHP2Shell Exploitation: Two Critical PHP Flaws Explained</title>
-<link>https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation</link>
-<description><![CDATA[Two critical PHP remote code execution flaws (PHP2Shell) are reportedly being exploited. See who’s exposed, how the exploits work, and how to remediate now.]]></description>
-<pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
 </item>
 <item>
 <title>Proof-of-concept exploit released for PHP vulnerabilities (CVE-2026-109618, CVE-2026-109619)</title>
@@ -8538,15 +8564,6 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>[remote] MikroTrick, 7.24, 7.24.2, 7.0.0, 7.23.4, 6.0.0, 6.49.21 - RCE</title>
-<link>https://www.exploit-db.com/exploits/52683</link>
-<description><![CDATA[MikroTrick, 7.24, 7.24.2, 7.0.0, 7.23.4, 6.0.0, 6.49.21 - RCE]]></description>
-<pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52683</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
 <title>Russia Escalating Hybrid Attacks Across Europe</title>
 <link>https://www.recordedfuture.com/blog/russia-new-generation-warfare</link>
 <description><![CDATA[Explore Insikt Group&apos;s analysis on Russia&apos;s escalation of hybrid and New Generation Warfare (NGW) tactics across Europe since 2022, including cyber attacks, physical sabotage, and airspace incursions, along with projected trends for the next two years.]]></description>
@@ -8554,6 +8571,15 @@
 <guid isPermaLink="true">https://www.recordedfuture.com/blog/russia-new-generation-warfare</guid>
 <source url="https://www.recordedfuture.com/feed">Recorded Future</source>
 <category>threat_research_primary</category>
+</item>
+<item>
+<title>[remote] MikroTrick, 7.24, 7.24.2, 7.0.0, 7.23.4, 6.0.0, 6.49.21 - RCE</title>
+<link>https://www.exploit-db.com/exploits/52683</link>
+<description><![CDATA[MikroTrick, 7.24, 7.24.2, 7.0.0, 7.23.4, 6.0.0, 6.49.21 - RCE]]></description>
+<pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52683</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>Discovering and exploiting a remote code execution vulnerability in OpenCode (GHSA-632h-h47v-g4x4)</title>
@@ -9788,6 +9814,17 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
+<title>H1 2026 Malware Vulnerability Trends</title>
+<link>https://www.recordedfuture.com/research/h1-2026-malware-vulnerability-trends</link>
+<description><![CDATA[Learn how adversaries abuse trusted tools, AI, and developer environments for cyberattacks. Get actionable insights on ransomware, mobile threats, and supply chain security.<br/><br/><em>Tags: ransomware_extortion · supply_chain</em>]]></description>
+<pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/research/h1-2026-malware-vulnerability-trends</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
+<category>ransomware_extortion</category>
+<category>supply_chain</category>
+</item>
+<item>
 <title>[webapps] FreePBX 17.0.2 - Remote Code Execution (RCE)</title>
 <link>https://www.exploit-db.com/exploits/52681</link>
 <description><![CDATA[FreePBX 17.0.2 - Remote Code Execution (RCE)]]></description>
@@ -9804,17 +9841,6 @@
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52680</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>H1 2026 Malware Vulnerability Trends</title>
-<link>https://www.recordedfuture.com/research/h1-2026-malware-vulnerability-trends</link>
-<description><![CDATA[Learn how adversaries abuse trusted tools, AI, and developer environments for cyberattacks. Get actionable insights on ransomware, mobile threats, and supply chain security.<br/><br/><em>Tags: ransomware_extortion · supply_chain</em>]]></description>
-<pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/research/h1-2026-malware-vulnerability-trends</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
-<category>ransomware_extortion</category>
-<category>supply_chain</category>
 </item>
 <item>
 <title>Proactive cyber defense for governments and enterprises</title>
@@ -10058,6 +10084,15 @@
 <category>supply_chain</category>
 </item>
 <item>
+<title>The Agentic SOC – From AI Theater to Real Defense</title>
+<link>https://www.recordedfuture.com/blog/agentic-soc-real-defense</link>
+<description><![CDATA[Experts from Recorded Future and Accenture offer perspectives on navigating the path to becoming an agentic SOC. Find out how to plan moving beyond “AI theater” by prioritizing measurable KPIs, proactively mitigating autonomous security risks, and evolving the analyst’s role from managing alerts to managing agents.]]></description>
+<pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/agentic-soc-real-defense</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>[webapps] Wolf CMS 0.8.3.1 - RCE v</title>
 <link>https://www.exploit-db.com/exploits/52672</link>
 <description><![CDATA[Wolf CMS 0.8.3.1 - RCE v]]></description>
@@ -10110,15 +10145,6 @@
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52667</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>The Agentic SOC – From AI Theater to Real Defense</title>
-<link>https://www.recordedfuture.com/blog/agentic-soc-real-defense</link>
-<description><![CDATA[Experts from Recorded Future and Accenture offer perspectives on navigating the path to becoming an agentic SOC. Find out how to plan moving beyond “AI theater” by prioritizing measurable KPIs, proactively mitigating autonomous security risks, and evolving the analyst’s role from managing alerts to managing agents.]]></description>
-<pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/agentic-soc-real-defense</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
 </item>
 <item>
 <title>Security briefing: August 2026</title>
@@ -10636,16 +10662,6 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
-<title>[remote] CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE</title>
-<link>https://www.exploit-db.com/exploits/52658</link>
-<description><![CDATA[CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE<br/><br/><em>Tags: CVE-2026-42167</em>]]></description>
-<pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52658</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2026-42167</category>
-</item>
-<item>
 <title>Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense</title>
 <link>https://www.recordedfuture.com/blog/mexico-cybersecurity-plan</link>
 <description><![CDATA[Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -10654,6 +10670,16 @@
 <source url="https://www.recordedfuture.com/feed">Recorded Future</source>
 <category>threat_research_primary</category>
 <category>ransomware_extortion</category>
+</item>
+<item>
+<title>[remote] CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE</title>
+<link>https://www.exploit-db.com/exploits/52658</link>
+<description><![CDATA[CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE<br/><br/><em>Tags: CVE-2026-42167</em>]]></description>
+<pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52658</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+<category>CVE-2026-42167</category>
 </item>
 <item>
 <title>Inside Elastic&apos;s agentic SOC: How we took AI alert triage from 60% to 92% accuracy</title>
@@ -10940,6 +10966,24 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
+<title>PurpleDelta&apos;s Fraudulent Employment Operations</title>
+<link>https://www.recordedfuture.com/research/purpledelta-fraudulent-employment-operations</link>
+<description><![CDATA[Learn how North Korean IT worker threat cluster &quot;PurpleDelta&quot; uses AI-generated personas, sophisticated tradecraft, and custom ChatGPT assistants to infiltrate organizations. Discover key indicators of compromise and mitigation strategies to protect your company from these fraudulent employment operations.]]></description>
+<pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/research/purpledelta-fraudulent-employment-operations</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
+</item>
+<item>
+<title>CopyCop Targets AI Investment in Armenia</title>
+<link>https://www.recordedfuture.com/blog/copycop-targets-ai-investment</link>
+<description><![CDATA[The Russian influence network CopyCop is targeting Western-backed AI and infrastructure projects in Armenia, including the Firebird AI data center, to undermine the country’s westward geopolitical realignment.]]></description>
+<pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/copycop-targets-ai-investment</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>[remote] PCMan 2.0.7 - Buffer Overflow</title>
 <link>https://www.exploit-db.com/exploits/52657</link>
 <description><![CDATA[PCMan 2.0.7 - Buffer Overflow]]></description>
@@ -10974,24 +11018,6 @@
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52654</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>PurpleDelta&apos;s Fraudulent Employment Operations</title>
-<link>https://www.recordedfuture.com/research/purpledelta-fraudulent-employment-operations</link>
-<description><![CDATA[Learn how North Korean IT worker threat cluster &quot;PurpleDelta&quot; uses AI-generated personas, sophisticated tradecraft, and custom ChatGPT assistants to infiltrate organizations. Discover key indicators of compromise and mitigation strategies to protect your company from these fraudulent employment operations.]]></description>
-<pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/research/purpledelta-fraudulent-employment-operations</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
-</item>
-<item>
-<title>CopyCop Targets AI Investment in Armenia</title>
-<link>https://www.recordedfuture.com/blog/copycop-targets-ai-investment</link>
-<description><![CDATA[The Russian influence network CopyCop is targeting Western-backed AI and infrastructure projects in Armenia, including the Firebird AI data center, to undermine the country’s westward geopolitical realignment.]]></description>
-<pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/copycop-targets-ai-investment</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
 </item>
 <item>
 <title>Between Two Nerds: The eye of Sauron</title>
@@ -19783,7 +19809,7 @@
 <title>How Adversaries Are Turning the Vulnerability Ecosystem Against Defenders</title>
 <link>https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 08 Nov 2026 05:34:41 +0000</pubDate>
+<pubDate>Sun, 08 Nov 2026 13:06:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19792,7 +19818,7 @@
 <title>CrowdStrike Introduces Agentic Adversary Emulation to Counter AI-Enabled Adversaries</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-agentic-adversary-emulation-counters-ai-enabled-adversaries/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 08 Nov 2026 05:34:41 +0000</pubDate>
+<pubDate>Sun, 08 Nov 2026 13:06:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-agentic-adversary-emulation-counters-ai-enabled-adversaries/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19801,7 +19827,7 @@
 <title>CrowdStrike Extends the Agentic SOC to Detect and Stop Agent Insider Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 08 Nov 2026 05:34:41 +0000</pubDate>
+<pubDate>Sun, 08 Nov 2026 13:06:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19810,7 +19836,7 @@
 <title>CrowdStrike Brings Enterprise Browser Security to the Falcon Platform</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-enterprise-browser-security-to-falcon-platform/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 08 Nov 2026 05:34:41 +0000</pubDate>
+<pubDate>Sun, 08 Nov 2026 13:06:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-enterprise-browser-security-to-falcon-platform/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19819,7 +19845,7 @@
 <title>New Falcon Cloud Security Innovations Secure the Cloud AI Runs On</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-innovations-secure-cloud-ai-runs-on/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 08 Nov 2026 05:34:41 +0000</pubDate>
+<pubDate>Sun, 08 Nov 2026 13:06:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-innovations-secure-cloud-ai-runs-on/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19828,7 +19854,7 @@
 <title>CrowdStrike Advances AI Security and Safety from Endpoint to Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-advances-ai-security-and-safety-falcon-guardian/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 08 Nov 2026 05:34:41 +0000</pubDate>
+<pubDate>Sun, 08 Nov 2026 13:06:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-advances-ai-security-and-safety-falcon-guardian/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19837,7 +19863,7 @@
 <title>Introducing AI Kill Switch: Taking Control When AI Agents Go Rogue</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-introduces-ai-kill-switch/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 08 Nov 2026 05:34:41 +0000</pubDate>
+<pubDate>Sun, 08 Nov 2026 13:06:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-introduces-ai-kill-switch/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19846,7 +19872,7 @@
 <title>CrowdStrike Secures AI Agents Inside Claude Cowork</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-secures-ai-agents-inside-claude-cowork/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 08 Nov 2026 05:34:41 +0000</pubDate>
+<pubDate>Sun, 08 Nov 2026 13:06:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-secures-ai-agents-inside-claude-cowork/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19855,7 +19881,7 @@
 <title>CrowdStrike to Acquire Dreadnode to Bring Automated AI Security Testing to the Falcon Platform</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-dreadnode/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 08 Nov 2026 05:34:41 +0000</pubDate>
+<pubDate>Sun, 08 Nov 2026 13:06:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-dreadnode/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19864,7 +19890,7 @@
 <title>CrowdStrike to Acquire Fiddler to Deliver Falcon Observe for AI Agent Observability</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 08 Nov 2026 05:34:41 +0000</pubDate>
+<pubDate>Sun, 08 Nov 2026 13:06:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
