@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-11-10T04:33:10.464876+00:00
+- Generated: 2026-11-10T13:22:11.569422+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 329
-- Total clusters raw: 156
-- Total clusters in packet: 72
-- Dropped low score: 84
+- Total items in window: 328
+- Total clusters raw: 152
+- Total clusters in packet: 76
+- Dropped low score: 76
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,183 +70,13 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 4
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: fetch_error
-  - Item count: 0
-  - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 9
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 2
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 1
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
-  - In window count: 0
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 8
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Sophos X-Ops** (detection_response_operations)
-  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 1
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
@@ -255,25 +85,200 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: fetch_error
+  - Item count: 0
+  - In window count: 0
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 2
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 1
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Sophos X-Ops** (detection_response_operations)
+  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 1
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 7
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 3
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Google Project Zero** (offensive_vulnerability_research)
   - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
@@ -289,54 +294,64 @@
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 2
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
+  - In window count: 3
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 15
+  - Item count: 10
+  - In window count: 8
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 1
+  - Item count: 15
+  - In window count: 15
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 18
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -345,36 +360,16 @@
   - Status: ok
   - Item count: 50
   - In window count: 2
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 17
+  - Item count: 50
+  - In window count: 26
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 25
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
@@ -395,6 +390,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
@@ -410,6 +410,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
@@ -425,31 +435,21 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 50
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
-  - In window count: 26
+  - In window count: 27
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 16
+  - In window count: 15
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -473,81 +473,200 @@
 
 ## Affinity groups (themes)
 
-### data breach targeting SonicWall
+### SonicWall active exploitation
 - Anchor signal: SonicWall
 - Theme key: sonicwall
-- Cluster count: 7
-- Article count: 11
-- Cohesion: 0.323
+- Cluster count: 6
+- Article count: 9
+- Cohesion: 0.239
 - Shared strong signals: SonicWall
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: data_breach, zero_day
-  - affected_industries: financial_services, government, education
-  - affected_products: SonicWall, OpenAI/ChatGPT, Android
-  - urgency_signals: zero_day
-- Cluster IDs: af40f55acb, be0ba4d322, df28dfd33f, ed89b4f40a, 4609022d6e, 95c3262c0f, 2617d644c2
+  - threat_categories: zero_day, data_breach, active_exploitation
+  - affected_industries: financial_services
+  - affected_products: SonicWall, OpenAI/ChatGPT
+  - urgency_signals: zero_day, actively_exploited
+- Cluster IDs: af40f55acb, e8815d20df, be0ba4d322, 7e7640916a, f16dc4e6ea, df28dfd33f
 - Links:
   - https://risky.biz/RBNEWS631/
-  - https://www.helpnetsecurity.com/2026/11/09/exploited-sonicwall-ssl-vpn-flaw-lets-attackers-bypass-saml-enforced-mfa-cve-2026-19868/
-  - https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/
   - https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html
+  - https://securelist.com/malware-report-q3-2026-pc-iot-statistics/121843/
+  - https://www.helpnetsecurity.com/2026/11/10/acronis-ai-agent-cyberattacks-report/
   - https://research.checkpoint.com/2026/9th-november-threat-intelligence-report/
+  - https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/
+  - https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/
   - https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/
-  - https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/
-  - https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/
-  - https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/
-  - https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/
 
-### phishing social eng targeting Android
+### CVE-2026-3910 exploitation activity
+- Anchor signal: CVE-2026-3910
+- Theme key: cve-2026-3910
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.617
+- Shared strong signals: CVE-2026-3910
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day, active_exploitation
+  - affected_products: Anthropic/Claude, OpenAI/ChatGPT
+  - cve_ids: CVE-2026-125350, CVE-2026-2441, CVE-2026-3909, CVE-2026-3910, CVE-2026-5281
+  - urgency_signals: actively_exploited, zero_day
+- Cluster IDs: 9f1c44758d, b62a4f0de2, 7e7640916a
+- Links:
+  - https://thehackernews.com/2026/11/google-issues-chrome-security-update.html
+  - https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/
+  - https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/
+
+### CVE-2026-3909 exploitation activity
+- Anchor signal: CVE-2026-3909
+- Theme key: cve-2026-3909
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.617
+- Shared strong signals: CVE-2026-3909
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day, active_exploitation
+  - affected_products: Anthropic/Claude, OpenAI/ChatGPT
+  - cve_ids: CVE-2026-125350, CVE-2026-2441, CVE-2026-3909, CVE-2026-3910, CVE-2026-5281
+  - urgency_signals: actively_exploited, zero_day
+- Cluster IDs: 9f1c44758d, b62a4f0de2, 7e7640916a
+- Links:
+  - https://thehackernews.com/2026/11/google-issues-chrome-security-update.html
+  - https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/
+  - https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/
+
+### CVE-2026-5281 exploitation activity
+- Anchor signal: CVE-2026-5281
+- Theme key: cve-2026-5281
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.617
+- Shared strong signals: CVE-2026-5281
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day, active_exploitation
+  - affected_products: Anthropic/Claude, OpenAI/ChatGPT
+  - cve_ids: CVE-2026-125350, CVE-2026-2441, CVE-2026-3909, CVE-2026-3910, CVE-2026-5281
+  - urgency_signals: actively_exploited, zero_day
+- Cluster IDs: 9f1c44758d, b62a4f0de2, 7e7640916a
+- Links:
+  - https://thehackernews.com/2026/11/google-issues-chrome-security-update.html
+  - https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/
+  - https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/
+
+### CVE-2026-2441 exploitation activity
+- Anchor signal: CVE-2026-2441
+- Theme key: cve-2026-2441
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.617
+- Shared strong signals: CVE-2026-2441
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day, active_exploitation
+  - affected_products: Anthropic/Claude, OpenAI/ChatGPT
+  - cve_ids: CVE-2026-125350, CVE-2026-2441, CVE-2026-3909, CVE-2026-3910, CVE-2026-5281
+  - urgency_signals: actively_exploited, zero_day
+- Cluster IDs: 9f1c44758d, b62a4f0de2, 7e7640916a
+- Links:
+  - https://thehackernews.com/2026/11/google-issues-chrome-security-update.html
+  - https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/
+  - https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/
+
+### CVE-2026-125350 exploitation activity
+- Anchor signal: CVE-2026-125350
+- Theme key: cve-2026-125350
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.617
+- Shared strong signals: CVE-2026-125350
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day, active_exploitation
+  - affected_products: Anthropic/Claude, OpenAI/ChatGPT
+  - cve_ids: CVE-2026-125350, CVE-2026-2441, CVE-2026-3909, CVE-2026-3910, CVE-2026-5281
+  - urgency_signals: actively_exploited, zero_day
+- Cluster IDs: 9f1c44758d, b62a4f0de2, 7e7640916a
+- Links:
+  - https://thehackernews.com/2026/11/google-issues-chrome-security-update.html
+  - https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/
+  - https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/
+
+### supply chain targeting AWS
+- Anchor signal: AWS
+- Theme key: aws
+- Cluster count: 3
+- Article count: 12
+- Cohesion: 0.202
+- Shared strong signals: AWS
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: supply_chain
+  - affected_industries: government
+  - affected_products: AWS
+- Cluster IDs: 8f9962534a, 37df53764c, 26928e0de7
+- Links:
+  - https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild
+  - https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/
+  - https://aws.amazon.com/blogs/security/simplify-cross-partition-access-with-aws-iam-outbound-identity-federation/
+  - https://www.reddit.com/r/netsec/comments/1xo0yov/escaping_aws_firecracker_from_guest_userspace_vmm/
+  - https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html
+  - https://www.infosecurity-magazine.com/news/apt29-watering-holes-iphones/
+  - https://securelist.com/malware-report-q3-2026-mobile-statistics/121844/
+  - https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html
+  - https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users
+  - https://www.helpnetsecurity.com/2026/11/10/cybersecurity-jobs-available-right-now-november-10-2026/
+
+### supply chain targeting Android
 - Anchor signal: Android
 - Theme key: android
-- Cluster count: 6
-- Article count: 13
-- Cohesion: 0.317
+- Cluster count: 3
+- Article count: 12
+- Cohesion: 0.345
 - Shared strong signals: Android
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: phishing_social_eng, data_breach
-  - affected_industries: financial_services, government
-  - affected_products: Android, OpenAI/ChatGPT, SonicWall
-- Cluster IDs: 5b5c8a88b0, 37df53764c, 618360db60, ed89b4f40a, 4609022d6e, 95c3262c0f
+  - threat_categories: supply_chain, ransomware_extortion
+  - affected_industries: financial_services
+  - affected_products: Android, OpenAI/ChatGPT
+- Cluster IDs: 37df53764c, 5b5c8a88b0, 618360db60
 - Links:
-  - https://research.checkpoint.com/2026/chatgpt-lockdown-mode-bypass-phishing-malware-delivery-and-silent-data-exfiltration/
-  - https://tldrsec.com/p/tldr-sec-353
-  - https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html
   - https://www.infosecurity-magazine.com/news/apt29-watering-holes-iphones/
+  - https://securelist.com/malware-report-q3-2026-mobile-statistics/121844/
   - https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html
   - https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users
+  - https://research.checkpoint.com/2026/chatgpt-lockdown-mode-bypass-phishing-malware-delivery-and-silent-data-exfiltration/
+  - https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html
+  - https://tldrsec.com/p/tldr-sec-353
   - https://research.checkpoint.com/2026/hacking-on-autopilot-inside-artex-cybercrime-campaigns/
-  - https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/
-  - https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/
-  - https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/
 
-### CVE-2026-123158 exploitation activity
-- Anchor signal: CVE-2026-123158
-- Theme key: cve-2026-123158
-- Cluster count: 3
-- Article count: 6
-- Cohesion: 0.215
-- Shared strong signals: CVE-2026-123158
+### phishing social eng targeting Microsoft 365
+- Anchor signal: Microsoft 365
+- Theme key: microsoft-365
+- Cluster count: 4
+- Article count: 5
+- Cohesion: 0.241
+- Shared strong signals: Microsoft 365
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: active_exploitation
-  - affected_industries: financial_services
-  - cve_ids: CVE-2026-123158
-  - urgency_signals: actively_exploited
-- Cluster IDs: 0406be59a5, 4609022d6e, d012e5702b
+  - threat_categories: phishing_social_eng, data_breach
+  - affected_products: Microsoft 365, Google Workspace
+- Cluster IDs: c3802ae5cb, b62a4f0de2, 5d7ba2fe30, ab3de8a4b9
 - Links:
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-123158/
-  - https://isc.sans.edu/diary/rss/33498
-  - https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/
-  - https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html
-  - https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/
-  - https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html
+  - https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/
+  - https://www.infosecurity-magazine.com/news/binance-investigates-shinyhunters/
+  - https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/
+  - https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/
+  - https://www.huntress.com/blog/itdr-adversary-infrastructure
 
 ### phishing social eng targeting Microsoft Defender
 - Anchor signal: Microsoft Defender
@@ -568,26 +687,25 @@
   - https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/
   - https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/
 
-### CVE-2026-109619 exploitation activity
-- Anchor signal: CVE-2026-109619
-- Theme key: cve-2026-109619
-- Cluster count: 2
-- Article count: 5
-- Cohesion: 0.273
-- Shared strong signals: CVE-2026-109619
+### Palo Alto Networks active exploitation
+- Anchor signal: Palo Alto Networks
+- Theme key: palo-alto-networks
+- Cluster count: 3
+- Article count: 4
+- Cohesion: 0.2
+- Shared strong signals: Palo Alto Networks
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - threat_categories: active_exploitation
-  - cve_ids: CVE-2026-109618, CVE-2026-109619
+  - affected_products: Palo Alto Networks
   - urgency_signals: actively_exploited
-- Cluster IDs: 0406be59a5, 0e50b3feba
+- Cluster IDs: e8815d20df, cf735bba5e, b62a4f0de2
 - Links:
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-123158/
-  - https://isc.sans.edu/diary/rss/33498
-  - https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/
-  - https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html
-  - https://www.recordedfuture.com/blog/october-2026-cve-landscape
+  - https://securelist.com/malware-report-q3-2026-pc-iot-statistics/121843/
+  - https://www.helpnetsecurity.com/2026/11/10/acronis-ai-agent-cyberattacks-report/
+  - https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/
+  - https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/
 
 ### CVE-2026-109618 exploitation activity
 - Anchor signal: CVE-2026-109618
@@ -610,121 +728,20 @@
   - https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html
   - https://www.recordedfuture.com/blog/october-2026-cve-landscape
 
-### phishing social eng targeting Microsoft 365
-- Anchor signal: Microsoft 365
-- Theme key: microsoft-365
-- Cluster count: 3
-- Article count: 3
-- Cohesion: 0.276
-- Shared strong signals: Microsoft 365
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: phishing_social_eng, data_breach
-  - affected_products: Microsoft 365, Google Workspace
-- Cluster IDs: c3802ae5cb, 5d7ba2fe30, ab3de8a4b9
-- Links:
-  - https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/
-  - https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/
-  - https://www.huntress.com/blog/itdr-adversary-infrastructure
-
-### CVE-2026-111560 exploitation activity
-- Anchor signal: CVE-2026-111560
-- Theme key: cve-2026-111560
-- Cluster count: 2
-- Article count: 5
-- Cohesion: 0.2
-- Shared strong signals: CVE-2026-111560
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - cve_ids: CVE-2026-111560, CVE-2026-116606
-- Cluster IDs: 995b3fbc00, be0ba4d322
-- Links:
-  - https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/
-  - https://www.reddit.com/r/netsec/comments/1xouqpj/barracuda_networks_is_your_new_best_friend/
-  - https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html
-  - https://research.checkpoint.com/2026/9th-november-threat-intelligence-report/
-
-### CVE-2026-116606 exploitation activity
-- Anchor signal: CVE-2026-116606
-- Theme key: cve-2026-116606
-- Cluster count: 2
-- Article count: 5
-- Cohesion: 0.2
-- Shared strong signals: CVE-2026-116606
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - cve_ids: CVE-2026-111560, CVE-2026-116606
-- Cluster IDs: 995b3fbc00, be0ba4d322
-- Links:
-  - https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/
-  - https://www.reddit.com/r/netsec/comments/1xouqpj/barracuda_networks_is_your_new_best_friend/
-  - https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html
-  - https://research.checkpoint.com/2026/9th-november-threat-intelligence-report/
-
-### AWS vulnerability activity
-- Anchor signal: AWS
-- Theme key: aws
-- Cluster count: 2
-- Article count: 10
-- Cohesion: 0.2
-- Shared strong signals: AWS
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: AWS
-- Cluster IDs: 8f9962534a, 37df53764c
-- Links:
-  - https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild
-  - https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/
-  - https://aws.amazon.com/blogs/security/simplify-cross-partition-access-with-aws-iam-outbound-identity-federation/
-  - https://www.reddit.com/r/netsec/comments/1xo0yov/escaping_aws_firecracker_from_guest_userspace_vmm/
-  - https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html
-  - https://www.infosecurity-magazine.com/news/apt29-watering-holes-iphones/
-  - https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html
-  - https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users
-
-### WordPress active exploitation
-- Anchor signal: WordPress
-- Theme key: wordpress
-- Cluster count: 2
-- Article count: 3
-- Cohesion: 0.242
-- Shared strong signals: WordPress
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation
-  - affected_products: WordPress
-  - urgency_signals: actively_exploited
-- Cluster IDs: cc1f809cc3, 0e50b3feba
-- Links:
-  - https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html
-  - https://www.recordedfuture.com/blog/october-2026-cve-landscape
-
-### Cisco vulnerability activity
-- Anchor signal: Cisco
-- Theme key: cisco
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.286
-- Shared strong signals: Cisco
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Cisco
-- Cluster IDs: 44eedd2569, fe30f85ed7
-- Links:
-  - https://isc.sans.edu/diary/rss/33492
-  - https://blog.talosintelligence.com/bring-a-tent-ive-got-the-coffee-lessons-from-it-sa/
-
 ## Forward signals
 
 ### Novelty
-- Novel cves: 1
-  - CVE-2026-109518 (first seen via The Hacker News at 2026-11-09T13:28:25+00:00, cluster d012e5702b)
+- Novel cves: 10
+  - CVE-2026-125350 (first seen via The Hacker News at 2026-11-10T06:52:54+00:00, cluster 9f1c44758d)
+  - CVE-2026-120017 (first seen via The Hacker News at 2026-11-10T10:02:40+00:00, cluster 6c43e5c130)
+  - CVE-2026-44748 (first seen via The Hacker News at 2026-11-10T10:02:40+00:00, cluster 6c43e5c130)
+  - CVE-2026-76964 (first seen via The Hacker News at 2026-11-10T10:02:40+00:00, cluster 6c43e5c130)
+  - CVE-2026-89103 (first seen via The Hacker News at 2026-11-10T10:02:40+00:00, cluster 6c43e5c130)
+  - CVE-2026-89126 (first seen via The Hacker News at 2026-11-10T10:02:40+00:00, cluster 6c43e5c130)
+  - CVE-2026-125350 (first seen via BleepingComputer at 2026-11-10T08:51:25+00:00, cluster b62a4f0de2)
+  - CVE-2026-125350 (first seen via SecurityWeek at 2026-11-10T06:12:24+00:00, cluster 7e7640916a)
+  - CVE-2026-116779 (first seen via SecurityWeek at 2026-11-10T09:42:27+00:00, cluster f4a8588ad5)
+  - CVE-2026-123218 (first seen via SecurityWeek at 2026-11-10T09:42:27+00:00, cluster f4a8588ad5)
 - Novel actors: 0
 - Novel products: 0
 
@@ -748,36 +765,36 @@
 - Pair: CVE-2026-111560 + UNC4841 (cluster 995b3fbc00, first observation: True)
 - Pair: CVE-2026-116606 + UNC4841 (cluster 995b3fbc00, first observation: True)
 - Pair: CVE-2026-122192 + AWS (cluster 8f9962534a, first observation: True)
+- Pair: CVE-2026-125350 + Anthropic/Claude (cluster 9f1c44758d, first observation: True)
+- Pair: CVE-2026-125350 + GitHub (cluster 9f1c44758d, first observation: True)
+- Pair: CVE-2026-125350 + OpenAI/ChatGPT (cluster 9f1c44758d, first observation: True)
+- Pair: CVE-2026-2441 + GitHub (cluster 9f1c44758d, first observation: True)
+- Pair: CVE-2026-3909 + GitHub (cluster 9f1c44758d, first observation: True)
+- Pair: CVE-2026-3910 + GitHub (cluster 9f1c44758d, first observation: True)
+- Pair: CVE-2026-5281 + GitHub (cluster 9f1c44758d, first observation: True)
 - Pair: CVE-2026-109593 + SonicWall (cluster af40f55acb, first observation: True)
 - Pair: CVE-2026-19868 + SonicWall (cluster af40f55acb, first observation: True)
 - Pair: CVE-2026-119977 + WordPress (cluster cc1f809cc3, first observation: True)
-- Pair: CVE-2023-20198 + Cisco (cluster 44eedd2569, first observation: True)
-- Pair: CVE-2026-18556 + Anthropic/Claude (cluster b481567219, first observation: True)
-- Pair: CVE-2026-18556 + OpenAI/ChatGPT (cluster b481567219, first observation: True)
-- Pair: CVE-2026-18577 + Anthropic/Claude (cluster b481567219, first observation: True)
-- Pair: CVE-2026-18577 + OpenAI/ChatGPT (cluster b481567219, first observation: True)
-- Pair: CVE-2026-86206 + GitHub (cluster b481567219, first observation: True)
-- Pair: CVE-2026-86207 + GitHub (cluster b481567219, first observation: True)
-- Pair: CVE-2026-86218 + GitHub (cluster b481567219, first observation: True)
+- Pair: CVE-2024-27834 + APT29 (cluster 37df53764c, first observation: True)
 
 ### Drift (4)
 - **APT29** (cluster 37df53764c)
-  - New industries: financial_services
-  - New products: AWS, Android
+  - New industries: telecommunications
+  - New products: AWS, Android, GitHub
   - Prior top industries: aviation_defense, government, manufacturing_industrial
   - Prior top products: Microsoft Entra, Palo Alto Networks, VMware
 - **APT38** (cluster c3802ae5cb)
-  - New industries: education, legal_professional
+  - New industries: education
   - New products: (none)
   - Prior top industries: critical_infrastructure, financial_services, government
   - Prior top products: Google Workspace, Microsoft 365
 - **Lazarus** (cluster c3802ae5cb)
-  - New industries: critical_infrastructure, education, legal_professional
+  - New industries: critical_infrastructure, education
   - New products: Google Workspace, Microsoft 365
   - Prior top industries: aviation_defense, financial_services, government
   - Prior top products: Android, Apple iOS/macOS, VMware
 - **ShinyHunters** (cluster c3802ae5cb)
-  - New industries: critical_infrastructure, education, legal_professional
+  - New industries: critical_infrastructure, education
   - New products: Google Workspace, Microsoft 365
   - Prior top industries: financial_services, government, healthcare
   - Prior top products: Anthropic/Claude, Fortinet, Salesforce
@@ -786,18 +803,18 @@
 - actor_attribution: ShinyHunters (weeks observed: 14, cluster c3802ae5cb)
 - actor_attribution: Lazarus (weeks observed: 8, cluster c3802ae5cb)
 - cve_ids: CVE-2025-53770 (weeks observed: 6, cluster 19de1ddcd3)
-- cve_ids: CVE-2026-86218 (weeks observed: 5, cluster b481567219)
 - actor_attribution: APT29 (weeks observed: 5, cluster 37df53764c)
+- cve_ids: CVE-2026-15409 (weeks observed: 5, cluster e8815d20df)
+- cve_ids: CVE-2026-86218 (weeks observed: 5, cluster b481567219)
 - cve_ids: CVE-2026-18556 (weeks observed: 4, cluster b481567219)
 - cve_ids: CVE-2026-18577 (weeks observed: 4, cluster b481567219)
 - cve_ids: CVE-2026-109618 (weeks observed: 3, cluster 0406be59a5)
 - cve_ids: CVE-2026-109619 (weeks observed: 3, cluster 0406be59a5)
 - cve_ids: CVE-2026-20362 (weeks observed: 3, cluster 0406be59a5)
+- cve_ids: CVE-2026-20700 (weeks observed: 3, cluster 37df53764c)
+- cve_ids: CVE-2026-15410 (weeks observed: 3, cluster e8815d20df)
 - cve_ids: CVE-2026-101767 (weeks observed: 3, cluster 4f54dd8a3e)
 - cve_ids: CVE-2026-86206 (weeks observed: 3, cluster b481567219)
-- cve_ids: CVE-2026-86207 (weeks observed: 3, cluster b481567219)
-- cve_ids: CVE-2026-20700 (weeks observed: 3, cluster 37df53764c)
-- cve_ids: CVE-2026-87902 (weeks observed: 3, cluster 0e50b3feba)
 
 ### Tier inversion (1)
 - **Trusted by Default: Qubole Cross-Account Access Abused in the Wild**
@@ -874,7 +891,7 @@ CVE-2026-123158 OpenSSH musl Password Authentication Bypass & Remote Code Execut
 - Published: 2026-11-05T21:19:58+00:00
 - Link: https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/
 - Fetch status: ok
-- Member count: 4
+- Member count: 3
 - Corroborating source count: 3
 - Strong signals: CVE-2026-111560, CVE-2026-116606
 
@@ -1033,6 +1050,55 @@ Third-party integrations are one of the most common ways organizations grant out
   - Link: https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html
   - Summary: An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an AWS account that Qubole's platform uses to reach those customers. How the attacker got those credentials has not been disclosed. Qubole, a data lake platform owned by Idera,
 
+### Cluster 9f1c44758d — score 29
+
+- Title: Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-11-10T06:52:54+00:00
+- Link: https://thehackernews.com/2026/11/google-issues-chrome-security-update.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-125350
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, apt_espionage, ransomware_extortion, web_shell_backdoor, zero_day
+- affected_products: Anthropic/Claude, GitHub, OpenAI/ChatGPT
+- tools_used: WordPress
+- cve_ids: CVE-2026-125350, CVE-2026-2441, CVE-2026-3909, CVE-2026-3910, CVE-2026-5281
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, zero_day, apt_espionage, web_shell_backdoor, active_exploitation
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT, GitHub
+- tools_used: WordPress
+- cve_ids: CVE-2026-125350, CVE-2026-2441, CVE-2026-3909, CVE-2026-3910, CVE-2026-5281
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component. Use-after-free bugs typically occur when a program attempts to access a memory location after
+```
+
+#### Full body
+
+```
+Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026  Ravie Lakshmanan  Nov 10, 2026 Vulnerability / Browser Security Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component. Use-after-free bugs typically occur when a program attempts to access a memory location after it has already been freed. Successful exploitation of these vulnerabilities could allow an attacker to achieve data corruption, program crashes, or arbitrary code execution. An anonymous security researcher has been credited with discovering and reporting the flaw on November 6, 2026. Google acknowledged it is "aware that an exploit for CVE-2026-125350 exists in the wild," but has not revealed any additional specific information related to how it's being abused in real-world attacks or who is behind them. "Access to bug details and links may be kept restricted until a majority of users are updated with a fix," the tech giant added. "We will also retain restrictions if the bug exists in a third-party library that other projects similarly depend on, but haven't yet fixed." With the latest development, Google has addressed a total of eight actively exploited Chrome zero-days since the start of the year. This includes CVE-2026-2441, CVE-2026-3909, CVE-2026-3910, CVE-2026-5281, CVE-2026-11645, CVE-2026-85046, and CVE-2026-87491. For optimal protection, users are advised to update their Chrome browser to versions 157.0.8103.50/.51 for Windows and Apple macOS, and 157.0.8103.50 for Linux. To ensure the latest updates are installed, users can navigate to More > Help > About Google Chrome and select Relaunch. Users of other Chromium-based browsers, such as Microsoft Edge, Brave, Opera, and Vivaldi, are also advised to apply the fixes as and when they become available. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  browser security , Google Chrome , Vulnerability , Zero-Day ⚡ Top Stories This Week Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food 5 Active Cyber Threats That Put US Enterprises at Risk in October 2026 Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Fin
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026
+  - Published: 2026-11-10T06:52:54+00:00
+  - Link: https://thehackernews.com/2026/11/google-issues-chrome-security-update.html
+  - Summary: Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component. Use-after-free bugs typically occur when a program attempts to access a memory location after
+
 ### Cluster 252073d807 — score 26
 
 - Title: Helping you build and defend at machine-speed in the agentic era
@@ -1085,8 +1151,8 @@ Security & Identity Helping you build and defend at machine-speed in the agentic
 - Published: 2026-11-09T03:25:54+00:00
 - Link: https://risky.biz/RBNEWS631/
 - Fetch status: ok
-- Member count: 5
-- Corroborating source count: 4
+- Member count: 3
+- Corroborating source count: 2
 - Strong signals: SonicWall
 
 #### Cluster taxonomy (union across members)
@@ -1094,7 +1160,7 @@ Security & Identity Helping you build and defend at machine-speed in the agentic
 - affected_products: SonicWall
 - cve_ids: CVE-2026-109593, CVE-2026-19868
 - urgency_signals: actively_exploited, preauth_unauth, zero_day
-- content_type: news_report, vulnerability_disclosure
+- content_type: news_report
 - confidence_tier: tier_3_analysis, tier_4_news
 
 #### Primary article taxonomy
@@ -1116,23 +1182,13 @@ Pro-Kremlin hacktivists dox EU politicians and law enforcement personnel a Deepf
 Risky Bulletin Podcast November 09, 2026 Risky Bulletin: Pro-Kremlin hacktivists dox EU politicians, law enforcement Presented by Catalin Cimpanu News Editor Claire Aird Newsreader Pro-Kremlin hacktivists dox EU politicians and law enforcement personnel a Deepfake gang arrested on US charges, SonicWall patches a zero-day, and SSHole is being exploited in the wild. Your browser does not support the audio element. Risky Bulletin: Pro-Kremlin hacktivists dox EU politicians, law enforcement â¶ 0:00 / 8:53 Subscribe Brought to you by Airlock Digital Allowlisting Software - Allowlist Made Simple Show notes Risky Bulletin: Pro-Kremlin hacktivists dox EU politicians, law enforcement
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (2)
 
 - **Risky Business News** (practitioner_analysis)
   - Title: Risky Bulletin: Pro-Kremlin hacktivists dox EU politicians, law enforcement
   - Published: 2026-11-09T03:25:54+00:00
   - Link: https://risky.biz/RBNEWS631/
   - Summary: Pro-Kremlin hacktivists dox EU politicians and law enforcement personnel a Deepfake gang arrested on US charges, SonicWall patches a zero-day, and SSHole is being exploited in the wild.
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Exploited SonicWall SSL-VPN flaw lets attackers bypass SAML-enforced MFA (CVE-2026-19868)
-  - Published: 2026-11-09T10:30:25+00:00
-  - Link: https://www.helpnetsecurity.com/2026/11/09/exploited-sonicwall-ssl-vpn-flaw-lets-attackers-bypass-saml-enforced-mfa-cve-2026-19868/
-  - Summary: SonicWall has fixed an exploited SonicOS SSL-VPN vulnerability (CVE-2026-19868) that may allow attackers with valid credentials to bypass SAML-enforced multi-factor authentication. With no workarounds listed, the company has urged admins to patch quickly. About CVE-2026-19868 CVE-2026-19868 is an authentication enforcement flaw in the SonicOS SSL-VPN service, and is exploitable only if SAML is enabled for SSL-VPN logins. According to SonicWall, a user with valid credentials for an alternate authentication method may be able to bypass … More → The post Exploited SonicWall SSL-VPN flaw lets attackers bypass SAML-enforced MFA (CVE-2026-19868) appeared first on Help Net Security .
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins
-  - Published: 2026-11-07T10:16:23+00:00
-  - Link: https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/
-  - Summary: CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek .
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records
   - Published: 2026-11-04T17:00:38+00:00
@@ -1146,7 +1202,7 @@ Risky Bulletin Podcast November 09, 2026 Risky Bulletin: Pro-Kremlin hacktivists
 - Published: 2026-11-06T16:08:38+00:00
 - Link: https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html
 - Fetch status: ok
-- Member count: 2
+- Member count: 1
 - Corroborating source count: 1
 - Strong signals: WordPress
 
@@ -1185,6 +1241,72 @@ Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Las
   - Published: 2026-11-06T16:08:38+00:00
   - Link: https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html
   - Summary: Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it. The update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the right moment can run code on the server. The researcher advises blocking web access to the
+
+### Cluster 37df53764c — score 21
+
+- Title: APT29 Watering Holes Target Unpatched iPhones and Android Devices
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-11-04T14:00:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/apt29-watering-holes-iphones/
+- Fetch status: ok
+- Member count: 5
+- Corroborating source count: 4
+- Strong signals: APT29, Android
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, supply_chain, web_shell_backdoor
+- actor_attribution: APT29
+- affected_industries: government, manufacturing_industrial, telecommunications
+- affected_products: AWS, Android, GitHub
+- cve_ids: CVE-2024-27834, CVE-2025-14174, CVE-2025-43510, CVE-2025-43529, CVE-2026-20700
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- actor_attribution: APT29
+- affected_industries: government, telecommunications
+- affected_products: Android, GitHub, AWS
+- cve_ids: CVE-2025-43529, CVE-2024-27834, CVE-2026-20700, CVE-2025-14174, CVE-2025-43510
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+APT29 compromised Ukrainian analytics tracker Plerdy to serve n-day exploits to mobile users
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » APT29 Watering Holes Target Unpatched iPhones and Android Devices APT29 Watering Holes Target Unpatched iPhones and Android Devices News 4 November 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino A cyberespionage campaign attributed to Russia's APT29 has served exploit chains for already-patched iPhone and Android flaws to visitors of legitimate websites, with payloads built to steal cookies, device data and Wi-Fi passwords without any user interaction. Sekoia uncovered the activity in mid-October 2026 and detailed it in research published on November 4. It assessed with moderate to high confidence that the group behind it is APT29, also tracked as Midnight Blizzard and Cozy Bear, or at least one of its subgroups. The group is widely attributed to Russia's Foreign Intelligence Service (SVR). The campaign used three delivery routes: scripts injected into legitimate websites, lookalike domains that proxied real sites while adding scripts and a week-long compromise of Plerdy, a Ukrainian website analytics tracker. Exposed sites included a Ukrainian gas producer, Ukrainian military and military-equipment sites, a US chemical-industry trade association, a Czech far-right movement and a Bulgarian military-related site. The lookalike domains impersonated the America250 initiative and a London hotel. Read more on Midnight Blizzard: Midnight Blizzard Targets Travelers via Captive Portals Plerdy Compromise Expanded the Campaign's Reach Plerdy is loaded by thousands of mostly Ukrainian websites. Sekoia said the compromise, which ran from August 27 to September 3, exposed hundreds of them and their visitors to the exploit kit. The researchers did not say how many devices were compromised. The campaign also cast a wider net than an earlier APT29 operation. A 2024 Google report described a campaign on Mongolian government sites that used a hardcoded filter to target specific websites, while this one had no such filter and collected any cookies in the browser. Visitors were fingerprinted and served exploit chains matched to their devices, and the payloads did not establish persistence. All Exploits Had Already Been Patched One chain targeted iOS 16.7 to steal cookies. Another, based on the DarkSword exploit kit, which Sekoia described as suspected to have been developed by a commercial surveillance vendor, targeted iOS 18.5 and collected full device data. A third targeted Chrome 139 to 145 on Android, excluding version 143, for browser cookies and Wi-Fi passwords. The chains used n-day flaws, meaning vulnerabilities already disclosed and patched: CVE-2025-43529, CVE-2024-27834, CVE-2026-20700, CVE-2025-14174, CVE-2025-43510, CVE-2025-43520, CVE-2026-3910 and CVE-2025-27038. Sekoia said its analysis supported the idea that APT29 obtained the exploits from a third party. That also sets the limit of the threat. In Sekoia's words, "a user running an up-to-date operating system is safe from these attacks." You may also like Russian Company Offers $20m For Non-NATO Mobile Exploits News 29 September 2023 New Mobile Spyware ZeroDayRAT Targets Android and iOS News 10 February 2026 Source Code of Over 1800 Android and iOS Apps Gives Access to AWS Credentials News 1 September 2022 Interview: Tom Davison, Technical Director EMEA, Lookout Mobile Security Interview 10 December 2020 1 in 3 Android Apps Leak Sensitive Data News 18 September 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice New Supply Chain Attack Compromises Tens of Thousands of GitHub Repositories News 9 November 2026 1 ARTEX Offensive AI Tool Activity Far Exceeds Reported Campaigns, Censys Finds News 6 November 2026 2 Jailbroken AI Agent Ran Two-Week Attack on European Telecom News 9 November 2026 3 Email Addresses of 2.2 Million Sega Customers Leaked in Vendor Breach News 9 November 2026 4 Anti-Money Laundering Watchdog FATF Targets Scam Compounds News 9 November 2026 5 India Warns o
+```
+
+#### Corroborating sources (4)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: APT29 Watering Holes Target Unpatched iPhones and Android Devices
+  - Published: 2026-11-04T14:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/apt29-watering-holes-iphones/
+  - Summary: APT29 compromised Ukrainian analytics tracker Plerdy to serve n-day exploits to mobile users
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: IT threat evolution in Q3 2026. Mobile statistics
+  - Published: 2026-11-10T08:00:17+00:00
+  - Link: https://securelist.com/malware-report-q3-2026-mobile-statistics/121844/
+  - Summary: Q3 2026 mobile threat statistics for Android malware, adware, and unwanted software, plus the most notable malware found during the quarter.
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits
+  - Published: 2026-11-04T14:27:52+00:00
+  - Link: https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html
+  - Summary: The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. "The injected JavaScript code collects browser and device attributes," Sekoia researchers Amaury-Jacques Garçon and
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: APT29's Watering Holes Target Thousands of Mobile Users
+  - Published: 2026-11-05T20:05:39+00:00
+  - Link: https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users
+  - Summary: After compromising websites, the Russian state-sponsored threat group is fingerprinting victims, then harvesting information from the interesting ones.
 
 ### Cluster 3fcbc73d30 — score 19
 
@@ -1269,6 +1391,58 @@ This morning, I was browsing our honeypot data for any new and existing PHP expl
   - Published: 2026-11-05T15:29:08+00:00
   - Link: https://isc.sans.edu/diary/rss/33492
   - Summary: This morning, I was browsing our honeypot data for any new and existing PHP exploit attempts. Instead, I first ran into some GeoServer exploits, but found them to be too boring to write up. This Cisco IOS exploit attempt was a bit more interesting. Still nothing new. I suspect this is for CVE-2023-20198.
+
+### Cluster e8815d20df — score 18
+
+- Title: IT threat evolution in Q3 2026. Non-mobile statistics
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-11-10T08:00:37+00:00
+- Link: https://securelist.com/malware-report-q3-2026-pc-iot-statistics/121843/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: Apple iOS/macOS
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, data_breach, ransomware_extortion
+- affected_products: Apple iOS/macOS, Palo Alto Networks, SonicWall
+- cve_ids: CVE-2025-60710, CVE-2026-0257, CVE-2026-15409, CVE-2026-15410, CVE-2026-45659
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_primary_research, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach, active_exploitation
+- affected_products: Palo Alto Networks, SonicWall, Apple iOS/macOS
+- cve_ids: CVE-2026-0257, CVE-2026-15409, CVE-2026-15410, CVE-2026-45659, CVE-2025-60710
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Key trends and statistics on malware targeting Windows and macOS computers and Internet of Things (IoT) devices in Q3 2026.
+```
+
+#### Full body
+
+```
+Table of Contents Quarterly figures Ransomware Quarterly trends and highlights Threat actor disruption Vulnerabilities and attacks The most prolific groups Number of new ransomware variants Number of users attacked by ransomware Trojans TOP 10 countries and territories attacked by ransomware Trojans TOP 10 most common families of ransomware Trojans Miners Number of new miner variants Number of users attacked by miners TOP 10 countries and territories attacked by miners Attacks on macOS Quarterly highlights TOP 20 threats to macOS TOP 10 countries and territories by share of attacked users IoT threat statistics Distribution by protocol TOP 10 threats delivered to IoT devices Attacks on IoT honeypots Attacks via web resources TOP 10 countries and territories that served as sources of web-based attacks Countries and territories where users faced the greatest risk of online infection Local threats Countries and territories where users faced the highest risk of local infection Authors AMR IT threat evolution in Q3 2026. Non-mobile statistics IT threat evolution in Q3 2026. Mobile statistics The statistics in this report are based on detection verdicts returned by Kaspersky products unless otherwise stated. The information was provided by Kaspersky users who consented to sharing statistical data. Quarterly figures In Q3 2026: Kaspersky products blocked more than 311 million attacks launched from online resources. Web Anti-Virus responded to 47 million unique links. File Anti-Virus blocked more than 23 million malicious and potentially unwanted objects. There were 4470 new ransomware variants discovered. More than 81,000 users experienced ransomware attacks. 15% of all ransomware victims whose data was published on threat actors’ data leak sites (DLSs) were victims of Qilin. More than 217,000 users were targeted by miners. Ransomware Quarterly trends and highlights Threat actor disruption In August, the creator and lead administrator of the Ransom Cartel ransomware-as-a-service (RaaS) operation was sentenced to 16 years in prison. The convict developed the ransomware Trojan and at the time of his arrest played a central role in the RaaS operation: running the affiliate program, recruiting affiliates, supplying them with information and attack tools, working with initial access brokers, communicating with victims, and processing payments. In September, a member of the Ryuk RaaS group was sentenced to two years in prison and three years of supervised release. In 2019 and 2020, he and his accomplices breached organizations’ networks and encrypted data with the Ryuk Trojan. According to public reports, hundreds of workstations and servers were compromised. According to the prosecution, the attacker received a total of about 1610 BTC in ransom payments from victims. Also in September, a member of the Conti RaaS group was sentenced to four years in prison. He was charged with attacking companies in 2021 and 2022. In addition to carrying out attacks, he developed part of the group’s malware toolkit. Vulnerabilities and attacks In July, researchers published a report on the Qilin group exploiting the CVE-2026-0257 vulnerability in Palo Alto Networks firewall software. The vulnerability allowed attackers to bypass authentication and compromise victims’ networks without valid accounts. CISA published information in its Known Exploited Vulnerabilities Catalog (KEV) on several CVEs actively exploited by ransomware groups: CVE-2026-15409 / CVE-2026-15410 in SonicWall SMA1000 remote access gateways. CISA doesn’t specify which groups exploited these vulnerabilities, but researchers have linked this activity to INC Ransom. CVE-2026-45659 in Microsoft SharePoint Server allowed an authenticated, low-privileged attacker to achieve remote code execution. CVE-2025-60710 in Microsoft Windows allowed attackers to escalate privileges locally. CVE-2026-59310 in VMware vCenter enabled unauthenticated remote code execution. CVE-2025-14733 in WatchGuard Firebox
+```
+
+#### Corroborating sources (2)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: IT threat evolution in Q3 2026. Non-mobile statistics
+  - Published: 2026-11-10T08:00:37+00:00
+  - Link: https://securelist.com/malware-report-q3-2026-pc-iot-statistics/121843/
+  - Summary: Key trends and statistics on malware targeting Windows and macOS computers and Internet of Things (IoT) devices in Q3 2026.
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Over 575 malicious OpenClaw skills delivered malware to Windows and macOS
+  - Published: 2026-11-10T05:30:59+00:00
+  - Link: https://www.helpnetsecurity.com/2026/11/10/acronis-ai-agent-cyberattacks-report/
+  - Summary: Cybercriminals are using AI agents to coordinate attacks, stolen credentials to access linked services, and tools that interfere with intrusion detection and system recovery, according to Acronis TRU Cyber Pulse 2026. One operator coordinates activity across several countries In an investigation known as BOSSAI, researchers documented how one operator connected more than 10 AI models to tools for reconnaissance, scanning and exploitation. Through WeChat and LINE, the operator could assign tasks, monitor agent activity and … More → The post Over 575 malicious OpenClaw skills delivered malware to Windows and macOS appeared first on Help Net Security .
 
 ### Cluster 4f54dd8a3e — score 16
 
@@ -1383,14 +1557,14 @@ Share Link copied to clipboard! Tags Credential theft Threats intelligence AI th
 - Published: 2026-11-05T14:00:11+00:00
 - Link: https://research.checkpoint.com/2026/chatgpt-lockdown-mode-bypass-phishing-malware-delivery-and-silent-data-exfiltration/
 - Fetch status: ok
-- Member count: 5
+- Member count: 6
 - Corroborating source count: 3
 - Strong signals: OpenAI/ChatGPT
 
 #### Cluster taxonomy (union across members)
 - threat_categories: ai_security, credential_theft, phishing_social_eng, ransomware_extortion
 - affected_industries: financial_services
-- affected_products: Android, Kubernetes, Linux kernel, OpenAI/ChatGPT
+- affected_products: Android, Anthropic/Claude, Kubernetes, Linux kernel, OpenAI/ChatGPT
 - content_type: news_report, vendor_announcement
 - confidence_tier: tier_1_primary_research, tier_3_analysis, tier_4_news
 
@@ -1420,18 +1594,53 @@ CATEGORIES AI Research 23 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Published: 2026-11-05T14:00:11+00:00
   - Link: https://research.checkpoint.com/2026/chatgpt-lockdown-mode-bypass-phishing-malware-delivery-and-silent-data-exfiltration/
   - Summary: Research by: Alexey Bukhteyev Key Takeaways Introduction Earlier this year, Check Point Research disclosed a security flaw in ChatGPT’s code-execution runtime that allowed sensitive conversation data to be silently exfiltrated to an attacker-controlled server through DNS tunneling, a hidden outbound channel that bypassed the runtime’s network isolation. A fix for this issue was promptly deployed. […] The post ChatGPT Lockdown Mode Bypass: Phishing, Malware Delivery, and Silent Data Exfiltration appeared first on Check Point Research .
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark
+  - Published: 2026-11-10T08:16:14+00:00
+  - Link: https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html
+  - Summary: Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its engineers "complete otherwise-infeasible software migrations, designed three working electronic devices from scratch, solved two open problems in the physics of black holes, made
 - **tl;dr sec** (practitioner_analysis)
   - Title: [tl;dr sec] #353 - A Thousand Fewer Paths to Root, Kubernetes Security Logging, Post-AI Security Floor
   - Published: 2026-11-05T15:30:00+00:00
   - Link: https://tldrsec.com/p/tldr-sec-353
   - Summary: OpenAI's pipeline found 948 LPEs in Linux, how to build a comprehensive security logging platform for k8s clusters, 3 security priorities in a world with powerful AI
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits
-  - Published: 2026-11-06T14:58:32+00:00
-  - Link: https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html
-  - Summary: OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The new model is "more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set," OpenAI said. It has classified the model as
 
-### Cluster b481567219 — score 15
+### Cluster d1314e4143 — score 14
+
+- Title: The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-11-04T13:24:13+00:00
+- Link: https://isc.sans.edu/diary/rss/33488
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2000-0411
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2000-0411
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- cve_ids: CVE-2000-0411
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+One of the early web application vulnerabilities I remember was CVE-2000-0411 [CVE]. This was a simple vulnerability in a CGI-bin script used to send e-mail. The vulnerability was pretty straightforward: Adding additional parameters to the URL leaked environment variables. Other vulnerabilities allowed setting the "To" address and were heavily abused by spammers. And if parameters were passed directly to the sendmail binary, similar vulnerabilities could allow arbitrary code execution.
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)
+  - Published: 2026-11-04T13:24:13+00:00
+  - Link: https://isc.sans.edu/diary/rss/33488
+  - Summary: One of the early web application vulnerabilities I remember was CVE-2000-0411 [CVE]. This was a simple vulnerability in a CGI-bin script used to send e-mail. The vulnerability was pretty straightforward: Adding additional parameters to the URL leaked environment variables. Other vulnerabilities allowed setting the "To" address and were heavily abused by spammers. And if parameters were passed directly to the sendmail binary, similar vulnerabilities could allow arbitrary code execution.
+
+### Cluster b481567219 — score 14
 
 - Title: N-able Disables Cloud Services Following Disclosure of "Able2Shell" Exploit Chains
 - Source: Huntress (detection_response_operations)
@@ -1478,155 +1687,48 @@ Home Blog N-able Disables Cloud Services Following Disclosure of "Able2Shell" Ex
   - Link: https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains
   - Summary: N-able took N-central offline after 33 critical flaws were disclosed, including chains enabling remote code execution and privilege escalation.
 
-### Cluster 37df53764c — score 15
+### Cluster 6c43e5c130 — score 13
 
-- Title: APT29 Watering Holes Target Unpatched iPhones and Android Devices
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-11-04T14:00:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/apt29-watering-holes-iphones/
+- Title: SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-11-10T10:02:40+00:00
+- Link: https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html
 - Fetch status: ok
-- Member count: 4
-- Corroborating source count: 3
-- Strong signals: APT29, Android
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, supply_chain, web_shell_backdoor
-- actor_attribution: APT29
-- affected_industries: financial_services, government, manufacturing_industrial
-- affected_products: AWS, Android
-- cve_ids: CVE-2024-27834, CVE-2025-14174, CVE-2025-43510, CVE-2025-43529, CVE-2026-20700
-- urgency_signals: no_patch_yet
+- cve_ids: CVE-2026-120017, CVE-2026-44748, CVE-2026-76964, CVE-2026-89103, CVE-2026-89126
+- urgency_signals: critical_cvss
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- actor_attribution: APT29
-- affected_industries: financial_services, government
-- affected_products: Android, AWS
-- cve_ids: CVE-2025-43529, CVE-2024-27834, CVE-2026-20700, CVE-2025-14174, CVE-2025-43510
-- urgency_signals: no_patch_yet
+- cve_ids: CVE-2026-76964, CVE-2026-89126, CVE-2026-89103, CVE-2026-120017, CVE-2026-44748
+- urgency_signals: critical_cvss
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-APT29 compromised Ukrainian analytics tracker Plerdy to serve n-day exploits to mobile users
+Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score. Three are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the Web Dispatcher, which receives web requests from the internet and passes them on to that server. The flaws in the Web
 ```
 
 #### Full body
 
 ```
-Infosecurity Magazine Home » News » APT29 Watering Holes Target Unpatched iPhones and Android Devices APT29 Watering Holes Target Unpatched iPhones and Android Devices News 4 November 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino A cyberespionage campaign attributed to Russia's APT29 has served exploit chains for already-patched iPhone and Android flaws to visitors of legitimate websites, with payloads built to steal cookies, device data and Wi-Fi passwords without any user interaction. Sekoia uncovered the activity in mid-October 2026 and detailed it in research published on November 4. It assessed with moderate to high confidence that the group behind it is APT29, also tracked as Midnight Blizzard and Cozy Bear, or at least one of its subgroups. The group is widely attributed to Russia's Foreign Intelligence Service (SVR). The campaign used three delivery routes: scripts injected into legitimate websites, lookalike domains that proxied real sites while adding scripts and a week-long compromise of Plerdy, a Ukrainian website analytics tracker. Exposed sites included a Ukrainian gas producer, Ukrainian military and military-equipment sites, a US chemical-industry trade association, a Czech far-right movement and a Bulgarian military-related site. The lookalike domains impersonated the America250 initiative and a London hotel. Read more on Midnight Blizzard: Midnight Blizzard Targets Travelers via Captive Portals Plerdy Compromise Expanded the Campaign's Reach Plerdy is loaded by thousands of mostly Ukrainian websites. Sekoia said the compromise, which ran from August 27 to September 3, exposed hundreds of them and their visitors to the exploit kit. The researchers did not say how many devices were compromised. The campaign also cast a wider net than an earlier APT29 operation. A 2024 Google report described a campaign on Mongolian government sites that used a hardcoded filter to target specific websites, while this one had no such filter and collected any cookies in the browser. Visitors were fingerprinted and served exploit chains matched to their devices, and the payloads did not establish persistence. All Exploits Had Already Been Patched One chain targeted iOS 16.7 to steal cookies. Another, based on the DarkSword exploit kit, which Sekoia described as suspected to have been developed by a commercial surveillance vendor, targeted iOS 18.5 and collected full device data. A third targeted Chrome 139 to 145 on Android, excluding version 143, for browser cookies and Wi-Fi passwords. The chains used n-day flaws, meaning vulnerabilities already disclosed and patched: CVE-2025-43529, CVE-2024-27834, CVE-2026-20700, CVE-2025-14174, CVE-2025-43510, CVE-2025-43520, CVE-2026-3910 and CVE-2025-27038. Sekoia said its analysis supported the idea that APT29 obtained the exploits from a third party. That also sets the limit of the threat. In Sekoia's words, "a user running an up-to-date operating system is safe from these attacks." You may also like Russian Company Offers $20m For Non-NATO Mobile Exploits News 29 September 2023 New Mobile Spyware ZeroDayRAT Targets Android and iOS News 10 February 2026 Source Code of Over 1800 Android and iOS Apps Gives Access to AWS Credentials News 1 September 2022 Interview: Tom Davison, Technical Director EMEA, Lookout Mobile Security Interview 10 December 2020 1 in 3 Android Apps Leak Sensitive Data News 18 September 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice ARTEX Offensive AI Tool Activity Far Exceeds Reported Campaigns, Censys Finds News 6 November 2026 1 India Warns of New AI-Driven Cyber-Attacks Targeting Financial and Crypto Businesses News 5 November 2026 2 Residential Proxy Traffic Traced to White House Network News 5 November 2026 3 GhostMap Bug Leaves Android Phones Stuck in Reboot Loop News 5 November 2026 4 Fake Interview of Software Engineer Led to Binance Mega-Heist News 4 November 2026 5 China-Aligned Group
-```
-
-#### Corroborating sources (3)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: APT29 Watering Holes Target Unpatched iPhones and Android Devices
-  - Published: 2026-11-04T14:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/apt29-watering-holes-iphones/
-  - Summary: APT29 compromised Ukrainian analytics tracker Plerdy to serve n-day exploits to mobile users
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits
-  - Published: 2026-11-04T14:27:52+00:00
-  - Link: https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html
-  - Summary: The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. "The injected JavaScript code collects browser and device attributes," Sekoia researchers Amaury-Jacques Garçon and
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: APT29's Watering Holes Target Thousands of Mobile Users
-  - Published: 2026-11-05T20:05:39+00:00
-  - Link: https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users
-  - Summary: After compromising websites, the Russian state-sponsored threat group is fingerprinting victims, then harvesting information from the interesting ones.
-
-### Cluster d1314e4143 — score 14
-
-- Title: The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-11-04T13:24:13+00:00
-- Link: https://isc.sans.edu/diary/rss/33488
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2000-0411
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2000-0411
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- cve_ids: CVE-2000-0411
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-One of the early web application vulnerabilities I remember was CVE-2000-0411 [CVE]. This was a simple vulnerability in a CGI-bin script used to send e-mail. The vulnerability was pretty straightforward: Adding additional parameters to the URL leaked environment variables. Other vulnerabilities allowed setting the "To" address and were heavily abused by spammers. And if parameters were passed directly to the sendmail binary, similar vulnerabilities could allow arbitrary code execution.
+SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution  Swati Khandelwal  Nov 10, 2026 Vulnerability / Enterprise Security Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score. Three are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the Web Dispatcher, which receives web requests from the internet and passes them on to that server. The flaws in the Web Dispatcher and the Internet Communication Manager (ICM), which handles the server's web traffic, could allow an attacker who can reach the software over the network to run code, the vendor says. The flaw in the server's SAML 2.0 service provider, which hands off user sign-in to an identity provider, could allow an attacker to log in as any user on some systems that use SAML single sign-on. The flaw in SAP Gateway, which connects the server to other SAP systems and programs, could allow an attacker to impersonate one of the system's own servers and take unauthorized actions. None of the four require any user action to work. Affected Versions and SAP Notes Each flaw is fixed in its own note, and the affected versions differ by component, according to SAP's November security bulletin . The notes are in SAP for Me, which requires a sign-in, and the vendor strongly recommends applying them as a priority. CVE Component SAP Note Affected versions CVE-2026-76964 Internet Communication Manager (ICM), SAP NetWeaver AS ABAP Note 3778530 KRNL64UC 7.53, KERNEL 7.53, 7.54, 7.77, 7.93, 9.16, 9.18, 9.20 CVE-2026-89126 SAP Web Dispatcher Note 3778556 HDB 2.00, KRNL64UC 7.53, WEBDISP 7.53, 7.54, 7.77, 7.93, 9.16, XS_ADVANCED_RUNTIME 1.00, SAP_EXTENDED_APP_SERVICES 1, KERNEL 7.53, 7.54, 7.77, 7.93, 9.16, 9.18, 9.20 CVE-2026-89103 SAP Gateway Note 3798345 KRNL64NUC 7.22, 7.22EXT, KRNL64UC 7.22, 7.22EXT, 7.53, 8.04, KERNEL 7.22, 7.53, 7.54, 7.77, 7.93, 8.04, 9.16, 9.20, 9.21 CVE-2026-120017 SAML2 service provider, SAP NetWeaver AS ABAP and ABAP Platform Note 3849308 SAP_BASIS 702, 731, 740, 750, 751, 752, 753, 754, 755, 756, 757, 758, 816, 920, 921, 922 Kernels that are out of maintenance are affected too, according to Onapsis, an SAP security company whose researchers found the ICM, Web Dispatcher and Gateway flaws. Its ICM2SHELL advisory lists kernels 7.40, 7.41, 7.42, 7.45, 7.49, 7.73, 7.81, 7.85 and 7.89 for the ICM and Web Dispatcher flaws, and its PROXYGATE advisory lists the same kernels plus 7.20 and 7.21 for the Gateway flaw. These kernels may not get a fix and need an upgrade to one that is still maintained. What Each Flaw Allows On the affected SAML setups, an attacker could use CVE-2026-120017 to log in as privileged users too, according to the vendor. A full compromise could follow, possibly reaching connected systems. A different SAML flaw in the same software, CVE-2026-44748, was fixed on June 9 and needed an attacker with a normal user account. In the ICM flaw (CVE-2026-76964) and the Web Dispatcher flaw (CVE-2026-89126), crafted network traffic could corrupt memory. An attacker who succeeds could then run code and fully compromise the system. Onapsis says both flaws come from one bug, which it calls ICM2SHELL, in kernel code the ICM and Web Dispatcher share for putting split WebSocket messages back together. It gave the vendor a working exploit that runs operating system commands as <sid>adm, the account that owns the SAP installation. The same bug can crash either component, and a crashed Web Dispatcher cuts off every SAP system behind it while it restarts. WebSocket support is on by default, so a system is exposed even if nothing uses it, and dual-stack systems are affected through their ABAP stack. The company's researchers have not seen the bug exploited in attacks. SAP Gateway uses access control lists to decide which outside programs may connect to it, which programs it may start and which
 ```
 
 #### Corroborating sources (1)
 
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)
-  - Published: 2026-11-04T13:24:13+00:00
-  - Link: https://isc.sans.edu/diary/rss/33488
-  - Summary: One of the early web application vulnerabilities I remember was CVE-2000-0411 [CVE]. This was a simple vulnerability in a CGI-bin script used to send e-mail. The vulnerability was pretty straightforward: Adding additional parameters to the URL leaked environment variables. Other vulnerabilities allowed setting the "To" address and were heavily abused by spammers. And if parameters were passed directly to the sendmail binary, similar vulnerabilities could allow arbitrary code execution.
-
-### Cluster c0a9cabb65 — score 13
-
-- Title: Risky Bulletin: Hackers brick Chinese EVs in Russia
-- Source: Risky Business News (practitioner_analysis)
-- Published: 2026-11-04T00:53:51+00:00
-- Link: https://risky.biz/RBNEWS629/
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
-- Strong signals: Linux kernel
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government
-- affected_products: Linux kernel
-- cve_ids: CVE-2026-98432
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_3_analysis, tier_4_news
-
-#### Primary article taxonomy
-- affected_industries: government
-- affected_products: Linux kernel
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-Hackers brick Chinese EVs in Russia, a second wave of hacks defrost European supermarket freezers, the US boots Acronis from government networks and the major distros patch a Linux kernel RCE.
-```
-
-#### Full body
-
-```
-Risky Bulletin Podcast November 04, 2026 Risky Bulletin: Hackers brick Chinese EVs in Russia Presented by Catalin Cimpanu News Editor Claire Aird Newsreader Hackers brick Chinese EVs in Russia, a second wave of hacks defrost European supermarket freezers, the US boots Acronis from government networks and the major distros patch a Linux kernel RCE. Your browser does not support the audio element. Risky Bulletin: Hackers brick Chinese EVs in Russia â¶ 0:00 / 8:49 Subscribe Brought to you by Sublime Security Agentic AI that stops email attacks at adversary speed Show notes Risky Bulletin: Hackers lock out and extort Li Auto EV owners in Russia
-```
-
-#### Corroborating sources (3)
-
-- **Risky Business News** (practitioner_analysis)
-  - Title: Risky Bulletin: Hackers brick Chinese EVs in Russia
-  - Published: 2026-11-04T00:53:51+00:00
-  - Link: https://risky.biz/RBNEWS629/
-  - Summary: Hackers brick Chinese EVs in Russia, a second wave of hacks defrost European supermarket freezers, the US boots Acronis from government networks and the major distros patch a Linux kernel RCE.
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: A Kubernetes CVE just dropped. Here’s how to find and fix what matters.
-  - Published: 2026-11-06T13:00:00+00:00
-  - Link: https://orca.security/resources/blog/a-kubernetes-cve-just-dropped-heres-how-to-find-and-fix-what-matters/
-  - Summary: Critical Kubernetes CVEs arrive constantly. Some hit an operator or controller, some the Linux kernel underneath your nodes, others the container images your teams ship every day. Each one comes with a CVSS score and an urgent recommendation to patch. What it doesn’t come with is context. A CVSS score tells you how bad a […]
 - **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing
-  - Published: 2026-11-03T11:23:53+00:00
-  - Link: https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html
-  - Summary: Fixed kernels for a use-after-free vulnerability in the Linux kernel's IPv4 TCP code are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regular update. The flaw, tracked as CVE-2026-98432, can be reached by a remote, unauthenticated attacker and can
+  - Title: SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution
+  - Published: 2026-11-10T10:02:40+00:00
+  - Link: https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html
+  - Summary: Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score. Three are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the Web Dispatcher, which receives web requests from the internet and passes them on to that server. The flaws in the Web
 
 ### Cluster cad242836e — score 11
 
@@ -1725,39 +1827,6 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 9th Novemb
   - Link: https://research.checkpoint.com/2026/9th-november-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 9th November, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Queens Public Library, a New York City public library system serving approximately 2.3 million residents, was struck by a ransomware attack that encrypted its systems. The incident disrupted public computers, Wi-Fi, checkout […] The post 9th November – Threat Intelligence Report appeared first on Check Point Research .
 
-### Cluster 22daa41adf — score 11
-
-- Title: Attackers Searching for SAP Netweaver Webshells, (Mon, Nov 9th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-11-09T18:18:15+00:00
-- Link: https://isc.sans.edu/diary/rss/33502
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-Just saw a new (to me) URL in our honeypot data today:
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: Attackers Searching for SAP Netweaver Webshells, (Mon, Nov 9th)
-  - Published: 2026-11-09T18:18:15+00:00
-  - Link: https://isc.sans.edu/diary/rss/33502
-  - Summary: Just saw a new (to me) URL in our honeypot data today:
-
 ### Cluster 45f25e22c9 — score 11
 
 - Title: OpenSSF Community Day Europe 2026: Driving Systemic Security and Operational Resilience in Open Source
@@ -1847,22 +1916,22 @@ Cross-post originally published on the Sylva blog written by François-Régis Me
 - Published: 2026-11-09T16:12:39+00:00
 - Link: https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/
 - Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
+- Member count: 2
+- Corroborating source count: 2
 - Strong signals: ShinyHunters
 
 #### Cluster taxonomy (union across members)
 - threat_categories: credential_theft, data_breach, phishing_social_eng, ransomware_extortion
 - actor_attribution: APT38, Lazarus, ShinyHunters
-- affected_industries: critical_infrastructure, education, financial_services, legal_professional
+- affected_industries: critical_infrastructure, education, financial_services
 - affected_products: Google Workspace, Microsoft 365
-- content_type: incident_report
+- content_type: incident_report, news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: ransomware_extortion, phishing_social_eng, credential_theft, data_breach
 - actor_attribution: ShinyHunters, Lazarus, APT38
-- affected_industries: financial_services, critical_infrastructure, education, legal_professional
+- affected_industries: financial_services, critical_infrastructure, education
 - affected_products: Microsoft 365, Google Workspace
 - content_type: incident_report
 - confidence_tier: tier_4_news
@@ -1876,106 +1945,108 @@ Binance, the world's largest crypto exchange, has denied claims of a new securit
 #### Full body
 
 ```
-Binance denies data breach after alleged ShinyHunters claims By Sergiu Gatlan November 9, 2026 11:12 AM 0 Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. This follows the threat actor, believed to impersonate the ShinyHunters extortion gang, putting up for sale what they claimed were records of 335 million Binance users. The allegedly stolen information includes Know Your Customer (KYC) documents, internal infrastructure information, users' account passwords, crypto wallet private keys, transaction history, emails, and phone numbers. The threat actor also asked for $900,000 for the data, adding that Binance has only "two options left: pay or leak." ​However, a Binance spokesperson told BleepingComputer that the company found no evidence of a breach and said that this is likely a scam. "We have found no evidence that Binance systems, customer KYC data, account credentials, wallet private keys, or internal infrastructure information were compromised in connection with this listing," the Binance spokesperson said. "Similar past listings have often involved infostealer malware data collected from users' own devices rather than a breach of Binance systems." Binance breach claims (BleepingComputer) Binance also shared some aspects of the breach claim that are inconsistent with how the crypto exchange stores user data. BleepingComputer was told that Binance doesn't hold private keys for users' external wallets, doesn't store user passwords in plaintext, and no longer operates in some of the jurisdictions the threat actor referenced in their cybercrime forum entry. Other forum users expressed skepticism regarding the threat actor's claims, questioning whether the data they were selling was legitimate and asking: "If you hold the private keys to all the wallets, what would be the justification for selling this?" While Binance denied these breach claims, it advises customers never to share passwords, 2FA codes, seed phrases, or private keys, and to stay wary of phishing attempts. This comes after Binance confirmed last week that North Korean hackers tricked an employee into installing malware during a fake job interview, allowing them to steal about $6.34 billion in cryptocurrency after compromising the company's wallet infrastructure. The FBI has attributed the breach to the TraderTraitor North Korean state-backed hacking group, also tracked as Lazarus Group, Jade Sleet, and APT38. TraderTraitor was previously linked to other major crypto theft incidents, including the theft of $1.5 billion in the February 2025 Bybit hack . Uncover email threats your existing defenses may miss. Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud. See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes. Start your free email security scan. Related Articles: Chainalysis says breach exposed credentials for all customers Harvard University data breach exposed info of 851,000 accounts Energy giant ENGIE discloses data breach affecting customers Burger King Japan data breach exposes 11 million customer records UK Legal Aid Agency: Hackers stole records dating back to 1978
+Binance denies data breach after alleged ShinyHunters claims By Sergiu Gatlan November 9, 2026 11:12 AM 0 Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. This follows the threat actor, believed to impersonate the ShinyHunters extortion gang, putting up for sale what they claimed were records of 335 million Binance users. The allegedly stolen information includes Know Your Customer (KYC) documents, internal infrastructure information, users' account passwords, crypto wallet private keys, transaction history, emails, and phone numbers. The threat actor also asked for $900,000 for the data, adding that Binance has only "two options left: pay or leak." ​However, a Binance spokesperson told BleepingComputer that the company found no evidence of a breach and said that this is likely a scam. "We have found no evidence that Binance systems, customer KYC data, account credentials, wallet private keys, or internal infrastructure information were compromised in connection with this listing," the Binance spokesperson said. "Similar past listings have often involved infostealer malware data collected from users' own devices rather than a breach of Binance systems." Binance breach claims (BleepingComputer) Binance also shared some aspects of the breach claim that are inconsistent with how the crypto exchange stores user data. BleepingComputer was told that Binance doesn't hold private keys for users' external wallets, doesn't store user passwords in plaintext, and no longer operates in some of the jurisdictions the threat actor referenced in their cybercrime forum entry. Other forum users expressed skepticism regarding the threat actor's claims, questioning whether the data they were selling was legitimate and asking: "If you hold the private keys to all the wallets, what would be the justification for selling this?" While Binance denied these breach claims, it advises customers never to share passwords, 2FA codes, seed phrases, or private keys, and to stay wary of phishing attempts. This comes after Binance confirmed last week that North Korean hackers tricked an employee into installing malware during a fake job interview, allowing them to steal about $6.34 billion in cryptocurrency after compromising the company's wallet infrastructure. The FBI has attributed the breach to the TraderTraitor North Korean state-backed hacking group, also tracked as Lazarus Group, Jade Sleet, and APT38. TraderTraitor was previously linked to other major crypto theft incidents, including the theft of $1.5 billion in the February 2025 Bybit hack . Uncover email threats your existing defenses may miss. Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud. See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes. Start your free email security scan. Related Articles: Fireworks AI discloses new breach after cloud provider hack Chainalysis says breach exposed credentials for all customers Harvard University data breach exposed info of 851,000 accounts Energy giant ENGIE discloses data breach affecting customers Burger King Japan data breach exposes 11 million customer records
 ```
 
-#### Corroborating sources (1)
+#### Corroborating sources (2)
 
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: Binance denies data breach after alleged ShinyHunters claims
   - Published: 2026-11-09T16:12:39+00:00
   - Link: https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/
   - Summary: Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. [...]
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Binance Investigates ShinyHunters Breach Claims
+  - Published: 2026-11-10T09:30:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/binance-investigates-shinyhunters/
+  - Summary: Cryptocurrency exchange Binance says ShinyHunters’ breach claims appear to be a scam
 
-### Cluster ee0816dcbe — score 11
+### Cluster bf6b5c1d3c — score 11
 
-- Title: U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-11-09T06:15:10+00:00
-- Link: https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html
+- Title: New OpenSSH Vulnerability
+- Source: Schneier on Security (practitioner_analysis)
+- Published: 2026-11-10T12:02:38+00:00
+- Link: https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ddos
-- affected_industries: critical_infrastructure, financial_services, government, manufacturing_industrial
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_3_analysis
 
 #### Primary article taxonomy
-- threat_categories: ddos
-- affected_industries: financial_services, government, critical_infrastructure, manufacturing_industrial
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_3_analysis
 
 #### Summary
 
 ```
-U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory. "The actors may exploit vulnerabilities or weaknesses in unpatched or internet-accessible controllers to remotely alter settings and force units into continuous heating
+It’s a bad one , and it’s been in the code for a decade: A newly disclosed flaw involving OpenSSH and musl, dubbed “*sshole,” allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts configured to block password authentication simply by entering an oversized password. “Oversized” means longer than 256 bytes. Details . Slashdot thread . And another news article .
 ```
 
 #### Full body
 
 ```
-U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses  Ravie Lakshmanan  Nov 09, 2026 Critical Infrastructure / Cyber Attack U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory. "The actors may exploit vulnerabilities or weaknesses in unpatched or internet-accessible controllers to remotely alter settings and force units into continuous heating and defrost cycles, which can cause widespread inventory loss and equipment hazards," according to a joint advisory. According to the U.S. Cybersecurity and Infrastructure Security Agency (CISA), Federal Bureau of Investigation (FBI), Health and Human Services (HHS), Department of Agriculture (USDA), and Department of Transportation (DOT), threat actors are likely to exploit authentication bypasses, arbitrary code injection, and weak configurations to gain access to these systems and cause the following effects - Change of temperature, which, in turn, could affect the service life of the system, create a fire hazard, cause inventory loss, or harm consumers who purchase products after unsafe storage. Loss of visibility into current temperatures due to a denial-of-service. In response to the threat, owners and operators are being urged to use strong authentication, keep systems updated, identify any systems that are accessible from the internet, isolate operational technology (OT) devices, change default passwords, retire and replace legacy devices, remove unnecessary remote access, and secure necessary remote access. "Industrial refrigeration and cold-chain monitoring systems protect food, medicine, and other temperature-sensitive products, making them attractive targets for malicious cyber actors," said FBI Cyber Branch Operations Director Brett Leatherman. "We are seeing these systems targeted across critical infrastructure sectors globally, putting inventory and equipment at risk." In recent weeks, threat actors have targeted hundreds of supermarkets across Europe by exploiting weaknesses in internet-accessible refrigeration controllers to raise temperatures, in some cases to as high as 50 degrees Celsius (122 degrees Fahrenheit), or force cooling units into defrost mode, spoiling food and resulting in financial losses. Targets of these attacks ranged from major supermarket chains to small grocers and butchers in Belgium, Estonia, Finland, France, Germany, Ireland, Italy, Luxembourg, the Netherlands, Portugal, Sweden, and the U.K. Among those targeted was the French Blood Establishment, which confirmed that a cybersecurity incident affecting a refrigeration equipment provider had raised temperature and defrost settings to "extremely high levels" at three facilities used to store blood plasma. It's unclear who is behind the hacking spree. Data from Censys shows that there are still hundreds of Danfoss StoreView instances exposed globally, with most of them located in France, although the number has dropped significantly from 3,004 to 708 between October 9 and November 5, 2026. The Copeland/Dixell XWEB exposure, likewise, has declined from 3,708 to 2,420. The attack surface management platform described the refrigeration attacks across Europe as the latest addition to a list of other recent incidents targeting critical infrastructure , including gas station tank gauges, air raid systems, and water towers. "North America accounts for roughly 38% of global ICS [industrial control systems] exposure," Censys said . "Asia's share grew from 22% in 2024 to 25% in 2026, while Europe's fell from 36.5% to 32%. However, these shifts have not produced an overall decline." "While exposure numbers are high, they're hardly surprising: ICS exposure is a problem that's been reported on and warned about for years. It poses a critical risk to the public as gatekeepers to the world's critical infra
+1st post kitty • November 10, 2026 7:42 AM Meow! ⠸⣷⣦⠤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣠⣤⠀⠀⠀ ⠀⠙⣿⡄⠈⠑⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠔⠊⠉⣿⡿⠁⠀⠀⠀ ⠀⠀⠈⠣⡀⠀⠀⠑⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠁⠀⠀⣰⠟⠀⠀⠀⣀⣀ ⠀⠀⠀⠀⠈⠢⣄⠀⡈⠒⠊⠉⠁⠀⠈⠉⠑⠚⠀⠀⣀⠔⢊⣠⠤⠒⠊⠉⠀⡜ ⠀⠀⠀⠀⠀⠀⠀⡽⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠩⡔⠊⠁⠀⠀⠀⠀⠀⠀⠇ ⠀⠀⠀⠀⠀⠀⠀⡇⢠⡤⢄⠀⠀⠀⠀⠀⡠⢤⣄⠀⡇⠀⠀⠀⠀⠀⠀⠀⢰⠀ ⠀⠀⠀⠀⠀⠀⢀⠇⠹⠿⠟⠀⠀⠤⠀⠀⠻⠿⠟⠀⣇⠀⠀⡀⠠⠄⠒⠊⠁⠀ ⠀⠀⠀⠀⠀⠀⢸⣿⣿⡆⠀⠰⠤⠖⠦⠴⠀⢀⣶⣿⣿⠀⠙⢄⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⢻⣿⠃⠀⠀⠀⠀⠀⠀⠀⠈⠿⡿⠛⢄⠀⠀⠱⣄⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⢸⠈⠓⠦⠀⣀⣀⣀⠀⡠⠴⠊⠹⡞⣁⠤⠒⠉⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⣠⠃⠀⠀⠀⠀⡌⠉⠉⡤⠀⠀⠀⠀⢻⠿⠆⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠰⠁⡀⠀⠀⠀⠀⢸⠀⢰⠃⠀⠀⠀⢠⠀⢣⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⢶⣗⠧⡀⢳⠀⠀⠀⠀⢸⣀⣸⠀⠀⠀⢀⡜⠀⣸⢤⣶⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠈⠻⣿⣦⣈⣧⡀⠀⠀⢸⣿⣿⠀⠀⢀⣼⡀⣨⣿⡿⠁⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠈⠻⠿⠿⠓⠄⠤⠘⠉⠙⠤⢀⠾⠿⣿⠟⠋ Pikachu? What are you doing here?
 ```
 
 #### Corroborating sources (1)
 
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses
-  - Published: 2026-11-09T06:15:10+00:00
-  - Link: https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html
-  - Summary: U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory. "The actors may exploit vulnerabilities or weaknesses in unpatched or internet-accessible controllers to remotely alter settings and force units into continuous heating
+- **Schneier on Security** (practitioner_analysis)
+  - Title: New OpenSSH Vulnerability
+  - Published: 2026-11-10T12:02:38+00:00
+  - Link: https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html
+  - Summary: It’s a bad one , and it’s been in the code for a decade: A newly disclosed flaw involving OpenSSH and musl, dubbed “*sshole,” allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts configured to block password authentication simply by entering an oversized password. “Oversized” means longer than 256 bytes. Details . Slashdot thread . And another news article .
 
-### Cluster cf735bba5e — score 10
+### Cluster c0a9cabb65 — score 11
 
-- Title: Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration Systems
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-11-06T21:15:09+00:00
-- Link: https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/
+- Title: Risky Bulletin: Hackers brick Chinese EVs in Russia
+- Source: Risky Business News (practitioner_analysis)
+- Published: 2026-11-04T00:53:51+00:00
+- Link: https://risky.biz/RBNEWS629/
 - Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: Linux kernel
 
 #### Cluster taxonomy (union across members)
-- actor_attribution: NoName057(16)
-- affected_industries: healthcare, manufacturing_industrial, retail_ecommerce
-- affected_products: Palo Alto Networks
+- affected_industries: government
+- affected_products: Linux kernel
 - content_type: news_report
-- confidence_tier: tier_1_primary_research
+- confidence_tier: tier_2_operator, tier_3_analysis
 
 #### Primary article taxonomy
-- actor_attribution: NoName057(16)
-- affected_industries: healthcare, manufacturing_industrial, retail_ecommerce
-- affected_products: Palo Alto Networks
+- affected_industries: government
+- affected_products: Linux kernel
 - content_type: news_report
-- confidence_tier: tier_1_primary_research
+- confidence_tier: tier_3_analysis
 
 #### Summary
 
 ```
-Unit 42 examines recent cyberattacks targeting European refrigeration systems and outlines defense and mitigation strategies. The post Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration Systems appeared first on Unit 42 .
+Hackers brick Chinese EVs in Russia, a second wave of hacks defrost European supermarket freezers, the US boots Acronis from government networks and the major distros patch a Linux kernel RCE.
 ```
 
 #### Full body
 
 ```
-Threat Research Center Insights Hospitality Hacks and Retail Reality Checks Hospitality Hacks and Retail Reality Checks Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration Systems 4 min read Related Products Advanced Threat Prevention Cloud-Delivered Security Services Cortex Cortex Xpanse Frontier Virtual Patching Industrial and Operational Technology Unit 42 Continuous Frontier AI Defense Unit 42 Deep and Dark Web Service Unit 42 Incident Response Unit 42 Threat Intelligence Services By: Matt Brady Jared Valentine Published: November 6, 2026 Categories: Hospitality Hacks and Retail Reality Checks Insights Share Introduction Unit 42 has been actively monitoring for new developments related to the cyberattacks targeting refrigeration systems in Europe since at least October 2026. The unidentified threat actors gained unauthorized access to refrigeration controllers and set them to defrost mode, resulting in hundreds of supermarkets across the region having to throw away spoiled food. The time of year when this activity has occurred is particularly concerning since retailers need to maintain adequate inventory levels as shoppers ramp up spending during holiday periods. Here we provide a high-level overview of the attacks based on public reporting and explore insights on device exposure by country, based on our findings using Cortex Xpanse . It also explores how Palo Alto Networks customers can leverage existing products and Unit 42 services to reduce their attack surface to mitigate similar threat activity in the future. Background The first wave of these attacks occurred overnight between Oct. 11–12, 2026, primarily targeting approximately 700 supermarkets in France. Since that time, another wave occurred overnight between Nov. 1–2, 2026, expanding across at least 10 additional European countries and impacting over 100–115 retail locations. In addition to the aforementioned activity, French authorities recently disclosed that refrigeration systems used by medical facilities were impacted by the attacks. At this time, there’s no evidence to suggest blood products were spoiled as a result. According to multiple sources, the threat actors behind the supermarket activities raised the temperature of the targeted refrigeration units as high as 50°C (122°F). In some cases, the activity resulted in fires. The initial access vector currently remains unconfirmed. However, there is widespread speculation that impacted devices were potentially running vulnerable versions of software and/or used default credentials provided by the manufacturers that attackers easily identified. Unit 42 Insights From Nov. 5–6, 2026, we identified the presence of over 5,000 devices exposed to the internet that were manufactured by companies listed in the CERT-FR advisory last month. These statistics do not necessarily mean that the devices are running vulnerable versions of software that could’ve been exploited. Figure 1 below illustrates these findings based on device count by the top 10 countries. Figure 1. Graph of internet exposed devices by country, top 10 results - Nov. 5–6 2026. Source: Cortex Xpanse. Given the impact of this malicious activity primarily affected devices in France, we decided to explore the trend of internet-exposed devices since October 1, 2026. Figure 2 below illustrates these findings where we identified a significant decline over three distinct time periods: October 1-15, 2026: 1,853 October 16-31, 2026: 558 November 1-6, 2026: 316 Figure 2. Graph of internet exposed devices in France by date since Oct.1, 2026. Source: Cortex Xpanse. Censys has also reported extensively on the trends in device exposures in Europe as well. Conclusion On Nov. 3, 2026, the pro-Russian hacktivist groups NoName057(16) and Z-Pentest claimed responsibility for the attacks via Telegram posts, although their allegations remain unverified at this time. The Cybersecurity and Infrastructure Security Agency (CISA) also released an advisory on Nov.
+Risky Bulletin Podcast November 04, 2026 Risky Bulletin: Hackers brick Chinese EVs in Russia Presented by Catalin Cimpanu News Editor Claire Aird Newsreader Hackers brick Chinese EVs in Russia, a second wave of hacks defrost European supermarket freezers, the US boots Acronis from government networks and the major distros patch a Linux kernel RCE. Your browser does not support the audio element. Risky Bulletin: Hackers brick Chinese EVs in Russia â¶ 0:00 / 8:49 Subscribe Brought to you by Sublime Security Agentic AI that stops email attacks at adversary speed Show notes Risky Bulletin: Hackers lock out and extort Li Auto EV owners in Russia
 ```
 
-#### Corroborating sources (1)
+#### Corroborating sources (2)
 
-- **Unit 42** (threat_research_primary)
-  - Title: Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration Systems
-  - Published: 2026-11-06T21:15:09+00:00
-  - Link: https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/
-  - Summary: Unit 42 examines recent cyberattacks targeting European refrigeration systems and outlines defense and mitigation strategies. The post Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration Systems appeared first on Unit 42 .
+- **Risky Business News** (practitioner_analysis)
+  - Title: Risky Bulletin: Hackers brick Chinese EVs in Russia
+  - Published: 2026-11-04T00:53:51+00:00
+  - Link: https://risky.biz/RBNEWS629/
+  - Summary: Hackers brick Chinese EVs in Russia, a second wave of hacks defrost European supermarket freezers, the US boots Acronis from government networks and the major distros patch a Linux kernel RCE.
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: A Kubernetes CVE just dropped. Here’s how to find and fix what matters.
+  - Published: 2026-11-06T13:00:00+00:00
+  - Link: https://orca.security/resources/blog/a-kubernetes-cve-just-dropped-heres-how-to-find-and-fix-what-matters/
+  - Summary: Critical Kubernetes CVEs arrive constantly. Some hit an operator or controller, some the Linux kernel underneath your nodes, others the container images your teams ship every day. Each one comes with a CVSS score and an urgent recommendation to patch. What it doesn’t come with is context. A CVSS score tells you how bad a […]
 
 ### Cluster 29018d8a93 — score 10
 
@@ -2076,6 +2147,51 @@ Share Link copied to clipboard! Tags Malware Threats intelligence Social enginee
   - Published: 2026-11-03T17:32:47+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/
   - Summary: Microsoft Threat Intelligence tracks a fake-download campaign that uses trojanized Inno installers to deliver multiple monetization offers and provides detection and investigation guidance across the complete installer session. The post Fake-download campaign uses trojanized installers to deliver monetization payloads appeared first on Microsoft Security Blog .
+
+### Cluster cf735bba5e — score 10
+
+- Title: Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration Systems
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-11-06T21:15:09+00:00
+- Link: https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- actor_attribution: NoName057(16)
+- affected_industries: healthcare, manufacturing_industrial, retail_ecommerce
+- affected_products: Palo Alto Networks
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- actor_attribution: NoName057(16)
+- affected_industries: healthcare, manufacturing_industrial, retail_ecommerce
+- affected_products: Palo Alto Networks
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Unit 42 examines recent cyberattacks targeting European refrigeration systems and outlines defense and mitigation strategies. The post Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration Systems appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center Insights Hospitality Hacks and Retail Reality Checks Hospitality Hacks and Retail Reality Checks Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration Systems 4 min read Related Products Advanced Threat Prevention Cloud-Delivered Security Services Cortex Cortex Xpanse Frontier Virtual Patching Industrial and Operational Technology Unit 42 Continuous Frontier AI Defense Unit 42 Deep and Dark Web Service Unit 42 Incident Response Unit 42 Threat Intelligence Services By: Matt Brady Jared Valentine Published: November 6, 2026 Categories: Hospitality Hacks and Retail Reality Checks Insights Share Introduction Unit 42 has been actively monitoring for new developments related to the cyberattacks targeting refrigeration systems in Europe since at least October 2026. The unidentified threat actors gained unauthorized access to refrigeration controllers and set them to defrost mode, resulting in hundreds of supermarkets across the region having to throw away spoiled food. The time of year when this activity has occurred is particularly concerning since retailers need to maintain adequate inventory levels as shoppers ramp up spending during holiday periods. Here we provide a high-level overview of the attacks based on public reporting and explore insights on device exposure by country, based on our findings using Cortex Xpanse . It also explores how Palo Alto Networks customers can leverage existing products and Unit 42 services to reduce their attack surface to mitigate similar threat activity in the future. Background The first wave of these attacks occurred overnight between Oct. 11–12, 2026, primarily targeting approximately 700 supermarkets in France. Since that time, another wave occurred overnight between Nov. 1–2, 2026, expanding across at least 10 additional European countries and impacting over 100–115 retail locations. In addition to the aforementioned activity, French authorities recently disclosed that refrigeration systems used by medical facilities were impacted by the attacks. At this time, there’s no evidence to suggest blood products were spoiled as a result. According to multiple sources, the threat actors behind the supermarket activities raised the temperature of the targeted refrigeration units as high as 50°C (122°F). In some cases, the activity resulted in fires. The initial access vector currently remains unconfirmed. However, there is widespread speculation that impacted devices were potentially running vulnerable versions of software and/or used default credentials provided by the manufacturers that attackers easily identified. Unit 42 Insights From Nov. 5–6, 2026, we identified the presence of over 5,000 devices exposed to the internet that were manufactured by companies listed in the CERT-FR advisory last month. These statistics do not necessarily mean that the devices are running vulnerable versions of software that could’ve been exploited. Figure 1 below illustrates these findings based on device count by the top 10 countries. Figure 1. Graph of internet exposed devices by country, top 10 results - Nov. 5–6 2026. Source: Cortex Xpanse. Given the impact of this malicious activity primarily affected devices in France, we decided to explore the trend of internet-exposed devices since October 1, 2026. Figure 2 below illustrates these findings where we identified a significant decline over three distinct time periods: October 1-15, 2026: 1,853 October 16-31, 2026: 558 November 1-6, 2026: 316 Figure 2. Graph of internet exposed devices in France by date since Oct.1, 2026. Source: Cortex Xpanse. Censys has also reported extensively on the trends in device exposures in Europe as well. Conclusion On Nov. 3, 2026, the pro-Russian hacktivist groups NoName057(16) and Z-Pentest claimed responsibility for the attacks via Telegram posts, although their allegations remain unverified at this time. The Cybersecurity and Infrastructure Security Agency (CISA) also released an advisory on Nov.
+```
+
+#### Corroborating sources (1)
+
+- **Unit 42** (threat_research_primary)
+  - Title: Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration Systems
+  - Published: 2026-11-06T21:15:09+00:00
+  - Link: https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/
+  - Summary: Unit 42 examines recent cyberattacks targeting European refrigeration systems and outlines defense and mitigation strategies. The post Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration Systems appeared first on Unit 42 .
 
 ### Cluster 31128d5051 — score 10
 
@@ -2204,97 +2320,38 @@ CATEGORIES AI Research 23 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Link: https://research.checkpoint.com/2026/free-the-model-sell-the-gateway-prompt-adware-hidden-in-jailbreak-bundles/
   - Summary: Key Points Free the Model, Sell the Gateway: Prompt Adware hidden in Jailbreak Bundles Check Point Research found a misconfigured webserver of a threat actor operating the Cobalt Strike framework. Besides an open Cobalt Strike server, whose logs showed the actor compromising various private computers of Chinese speaking individuals, other tools from the toolkit of […] The post Free the Model, Sell the Gateway: Prompt Adware hidden in Jailbreak Bundles appeared first on Check Point Research .
 
-### Cluster ea17135bd1 — score 10
+### Cluster 22daa41adf — score 10
 
-- Title: SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-11-04T09:55:00+00:00
-- Link: https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware/
-- Fetch status: ok
+- Title: Attackers Searching for SAP Netweaver Webshells, (Mon, Nov 9th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-11-09T18:18:15+00:00
+- Link: https://isc.sans.edu/diary/rss/33502
+- Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: supply_chain, vulnerability_disclosure
-- affected_industries: education
-- affected_products: Fortinet
-- cve_ids: CVE-2026-120422
 - content_type: news_report
-- confidence_tier: tier_1_primary_research
+- confidence_tier: tier_1_government
 
 #### Primary article taxonomy
-- threat_categories: supply_chain, vulnerability_disclosure
-- affected_industries: education
-- affected_products: Fortinet
-- cve_ids: CVE-2026-120422
 - content_type: news_report
-- confidence_tier: tier_1_primary_research
+- confidence_tier: tier_1_government
 
 #### Summary
 
 ```
-ESET Research analyzes a DNS hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method
-```
-
-#### Full body
-
-```
-ESET Research SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware ESET Research analyzes a DNS hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method Anh Ho 04 Nov 2026 • , 17 min. read At ESET, we have been tracking the DarkVigil toolset (also known as FDMTP ) and its operator, the SlippyNunchucks threat actor, since 2025. Across the campaigns we have analyzed, one behavior has remained consistent: DarkVigil implants are typically deployed through popular Chinese applications. By abusing these applications, the SlippyNunchucks threat actor has been able to reach Chinese-speaking users across Asia and Europe. Until now, how these applications are being abused to achieve execution has remained largely unclear. So far, only one attack vector has been publicly identified: a compromise of the QuickFox supply chain. This incident was analyzed in a Fortinet article and independently in an ESET Threat Intelligence report. Shortly after the supply-chain compromise ended, SlipplyNunchucks shifted to abusing Sogou Input Method to deploy DarkVigil. On July 1 st , 2026, three days after QuickFox released the clean version, we continued to observe DarkVigil implants being launched, this time by the Sogou Input Method component SGTool.exe . Further investigation revealed that a request, which belongs to the application’s branded vocabulary promotion mechanism, was hijacked to serve a malicious configuration. This configuration instructs the binary to place payloads in selected locations that enable their execution through Sogou Input Method’s existing workflows. After uncovering the operation, we contacted the Tencent Security Response Center to report the abuse and share our findings. Tencent responded promptly and released an update to address the issue. We greatly appreciate the team’s swift response and cooperation. Vulnerability disclosure timeline: 2026‑09‑11: ESET Research reported the security weakness to the Tencent Security team. 2026‑09‑21: Tencent Security responded and acknowledged the issue. 2026‑10‑30: Tencent addressed the issue in version 16.10. 2026-11-02: ESET CNA issued a CVE ID for the vulnerability ( CVE-2026-120422 ). 2026‑11‑04: ESET Research published the blogpost. Key points of this blogpost: Since 2025, we have been tracking the DarkVigil malware ecosystem and its operator, which we refer to as SlippyNunchucks. We uncovered a SlippyNunchucks DNS hijacking operation, abusing Sogou Input Method’s use of insecure HTTP communications. In our telemetry, we observed that this operation targeted organizations and Chinese-speaking individuals in Hong Kong, Thailand, Japan, Vietnam, Oman, and Sri Lanka. The point at which DNS manipulation occurs remains unknown. We analyzed DarkVigil’s C&C architecture, which uses the Duplex Message Transport Protocol. SlippyNunchucks profile SlippyNunchucks is a China-aligned threat actor that has been active since at least September 15 th , 2023. Its cyberespionage activities center on the deployment and operation of the DarkVigil toolset (also known as FDMTP ). DarkVigil is a modular .NET toolset that includes the DarkVigil implant and more than 20 known plugins. The toolset is built on the Vigil malware framework, which is built on the TouchSocket networking framework. TouchSocket implements DMTP , a network protocol DarkVigil uses for C&C communications. Data exfiltrated by the malware is managed through a web administration panel that is also branded as Vigil. SlippyNunchucks mainly targets organizations and Chinese-speaking individuals across South and East Asia. Occasionally, the group targeted victims in Europe, including individuals in Germany, Russia, the UK, and Austria. Notable victims include a multinational gambling organization that operates out of Sri Lanka, the Philippines, and Hong Kong; an Internet café in Dubai; and a university student in Denmark. Context ESET Research has been tracki
+Just saw a new (to me) URL in our honeypot data today:
 ```
 
 #### Corroborating sources (1)
 
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware
-  - Published: 2026-11-04T09:55:00+00:00
-  - Link: https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware/
-  - Summary: ESET Research analyzes a DNS hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method
-
-### Cluster 32f35ceb4a — score 10
-
-- Title: Gorbag: Orcs at the border harvesting intelligence from Ukraine
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-11-03T09:50:00+00:00
-- Link: https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, credential_theft
-- affected_industries: government
-- cve_ids: CVE-2025-8088
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: credential_theft, apt_espionage
-- affected_industries: government
-- cve_ids: CVE-2025-8088
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-ESET researchers uncover Gorbag, a Russia-aligned group using simple infostealers to harvest data from Ukrainian organizations near the front line
-```
-
-#### Full body
-
-```
-ESET Research Gorbag: Orcs at the border harvesting intelligence from Ukraine ESET researchers uncover Gorbag, a Russia-aligned group using simple infostealers to harvest data from Ukrainian organizations near the front line Damien Schaeffer 03 Nov 2026 • , 11 min. read ESET researchers have been tracking a Russia-aligned threat actor that we named Gorbag. While elements of the group’s tooling – most notably the GIFTEDCROOK infostealer, which CERT-UA attributes to UAC-0226 – have previously appeared in public reporting , Gorbag’s targeting and overall activity have remained largely unexamined. Active since at least February 2025, the group has focused exclusively on Ukrainian targets, with a clear preference for law enforcement and justice entities, local administrations near the front line, and the defense sector. Rather than relying on sophisticated implants for long-term access, Gorbag uses a small toolset built for rapid intelligence collection. Browser credentials, VPN configurations, and selected documents are gathered in a single pass before the deployed malware attempts to remove itself. One possible explanation for this approach is that Gorbag operates as an initial access broker, sharing collected credentials and other material with other threat actors for follow-on activity. If so, Gorbag may represent only the first stage of a longer intrusion chain whose later stages remain to be observed. Its targeting choices closely align with Russia’s wartime intelligence priorities. We presented our findings about the Gorbag APT group at the Virus Bulletin conference on October 14 th , 2026; the full technical analysis is available in our white paper Gorbag: Orcs at the border published by Virus Bulletin. Key points of this blogpost: Gorbag is a previously underreported, Russia-aligned threat actor; we have detected highly targeted attacks since February 2025, particularly against Ukrainian organizations near the Russia-Ukraine border. Targets of the group align closely with Russian strategic priorities: Ukrainian law enforcement and justice entities, local administrations, the defense sector, and a major transportation hub for foreign military aid. Malware is delivered via spearphishing emails with malicious attachments. The operational focus is on one-time information harvesting rather than long-term access, which may indicate a role as an initial access broker for other Russia-aligned threat actors. The group’s toolset consists of a PowerShell reverse shell that we named Prime ReverseShell, and a C++ browser-data and file stealer that we named BeautyStealer. In early 2026, Gorbag updated its compromise chain to abuse CVE-2025-8088 , a WinRAR path traversal vulnerability discovered and reported by ESET Research . Gorbag: Orcs at the border Read the full report PDF Victimology and geopolitical context All Gorbag targets identified by ESET Research are located in Ukraine, and the group’s targeting choices fall into three main areas that align closely with Russian wartime intelligence priorities. Ukrainian justice and law enforcement About a quarter of Gorbag’s targets are Ukrainian governmental organizations active in the law enforcement and justice sectors. This is not a new focus for Russia-aligned threat actors: in 2023, Ukraine’s SSSCIP reported that threat actors linked to the GRU and FSB were attempting to compromise law enforcement entities throughout the country. The motivations identified at the time probably remain relevant today – monitoring, and potentially disrupting, Ukrainian efforts to document and prosecute war crimes committed by Russian forces, and gaining visibility into investigations aimed at identifying Russian assets and collaborators on Ukrainian soil. Ukraine’s judiciary has remained active throughout, with several hundred indictments already issued. The opening of Ukraine’s war crime trial against a captured Russian soldier in February 2025 may be one of the factors behind this renewed focus. Based
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: Gorbag: Orcs at the border harvesting intelligence from Ukraine
-  - Published: 2026-11-03T09:50:00+00:00
-  - Link: https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine/
-  - Summary: ESET researchers uncover Gorbag, a Russia-aligned group using simple infostealers to harvest data from Ukrainian organizations near the front line
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: Attackers Searching for SAP Netweaver Webshells, (Mon, Nov 9th)
+  - Published: 2026-11-09T18:18:15+00:00
+  - Link: https://isc.sans.edu/diary/rss/33502
+  - Summary: Just saw a new (to me) URL in our honeypot data today:
 
 ### Cluster 16e69ab05c — score 10
 
@@ -2381,6 +2438,53 @@ Table of Contents Executive summary Intrusion timeline: Strategic latency and ex
   - Published: 2026-11-05T10:00:11+00:00
   - Link: https://securelist.com/storm-2603-fileless-toolshell-attack/121467/
   - Summary: Kaspersky researchers analyze a complex fileless cyberattack by Storm-2603 involving ToolShell exploitation and subsequent runtime subversion, and discuss how to detect such intrusions.
+
+### Cluster ea17135bd1 — score 10
+
+- Title: SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-11-04T09:55:00+00:00
+- Link: https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain, vulnerability_disclosure
+- affected_industries: education
+- affected_products: Fortinet
+- cve_ids: CVE-2026-120422
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, vulnerability_disclosure
+- affected_industries: education
+- affected_products: Fortinet
+- cve_ids: CVE-2026-120422
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+ESET Research analyzes a DNS hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method
+```
+
+#### Full body
+
+```
+ESET Research SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware ESET Research analyzes a DNS hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method Anh Ho 04 Nov 2026 • , 17 min. read At ESET, we have been tracking the DarkVigil toolset (also known as FDMTP ) and its operator, the SlippyNunchucks threat actor, since 2025. Across the campaigns we have analyzed, one behavior has remained consistent: DarkVigil implants are typically deployed through popular Chinese applications. By abusing these applications, the SlippyNunchucks threat actor has been able to reach Chinese-speaking users across Asia and Europe. Until now, how these applications are being abused to achieve execution has remained largely unclear. So far, only one attack vector has been publicly identified: a compromise of the QuickFox supply chain. This incident was analyzed in a Fortinet article and independently in an ESET Threat Intelligence report. Shortly after the supply-chain compromise ended, SlipplyNunchucks shifted to abusing Sogou Input Method to deploy DarkVigil. On July 1 st , 2026, three days after QuickFox released the clean version, we continued to observe DarkVigil implants being launched, this time by the Sogou Input Method component SGTool.exe . Further investigation revealed that a request, which belongs to the application’s branded vocabulary promotion mechanism, was hijacked to serve a malicious configuration. This configuration instructs the binary to place payloads in selected locations that enable their execution through Sogou Input Method’s existing workflows. After uncovering the operation, we contacted the Tencent Security Response Center to report the abuse and share our findings. Tencent responded promptly and released an update to address the issue. We greatly appreciate the team’s swift response and cooperation. Vulnerability disclosure timeline: 2026‑09‑11: ESET Research reported the security weakness to the Tencent Security team. 2026‑09‑21: Tencent Security responded and acknowledged the issue. 2026‑10‑30: Tencent addressed the issue in version 16.10. 2026-11-02: ESET CNA issued a CVE ID for the vulnerability ( CVE-2026-120422 ). 2026‑11‑04: ESET Research published the blogpost. Key points of this blogpost: Since 2025, we have been tracking the DarkVigil malware ecosystem and its operator, which we refer to as SlippyNunchucks. We uncovered a SlippyNunchucks DNS hijacking operation, abusing Sogou Input Method’s use of insecure HTTP communications. In our telemetry, we observed that this operation targeted organizations and Chinese-speaking individuals in Hong Kong, Thailand, Japan, Vietnam, Oman, and Sri Lanka. The point at which DNS manipulation occurs remains unknown. We analyzed DarkVigil’s C&C architecture, which uses the Duplex Message Transport Protocol. SlippyNunchucks profile SlippyNunchucks is a China-aligned threat actor that has been active since at least September 15 th , 2023. Its cyberespionage activities center on the deployment and operation of the DarkVigil toolset (also known as FDMTP ). DarkVigil is a modular .NET toolset that includes the DarkVigil implant and more than 20 known plugins. The toolset is built on the Vigil malware framework, which is built on the TouchSocket networking framework. TouchSocket implements DMTP , a network protocol DarkVigil uses for C&C communications. Data exfiltrated by the malware is managed through a web administration panel that is also branded as Vigil. SlippyNunchucks mainly targets organizations and Chinese-speaking individuals across South and East Asia. Occasionally, the group targeted victims in Europe, including individuals in Germany, Russia, the UK, and Austria. Notable victims include a multinational gambling organization that operates out of Sri Lanka, the Philippines, and Hong Kong; an Internet café in Dubai; and a university student in Denmark. Context ESET Research has been tracki
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware
+  - Published: 2026-11-04T09:55:00+00:00
+  - Link: https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware/
+  - Summary: ESET Research analyzes a DNS hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method
 
 ### Cluster fe30f85ed7 — score 10
 
@@ -2515,45 +2619,6 @@ Metrics That Matter: Are We Becoming Harder to Attack? Stephen Gates November 8,
   - Link: https://horizon3.ai/intelligence/infographics/ctem-metrics-that-matter/
   - Summary: Closed tickets and remediation SLAs show what teams have done, not whether the environment is harder to attack. This infographic outlines four Exposure Management metrics: attack paths and impacts, speed of impact reduction, verification coverage, and recurrence.
 
-### Cluster 248b524313 — score 10
-
-- Title: AI-Powered Penetration Testing: How Autonomous Offensive Security Works
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-11-03T04:57:09+00:00
-- Link: https://horizon3.ai/downloads/whitepapers/ai-powered-penetration-testing-sans-spotlight/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Your Environment Changes Every Day. Can Your Penetration Testing Keep Up? Traditional penetration tests provide valuable insights, but their findings reflect a moment in time. As applications, identities, infrastructure, and attacker techniques evolve, yesterday’s assessment may no longer reflect today’s exposure. This SANS Spotlight paper explores how AI-powered penetration testing makes continuous offensive validation practical. […]
-```
-
-#### Full body
-
-```
-AI-Powered Penetration Testing: How Autonomous Offensive Security Works Chelsea Willis | November 2, 2026 | Whitepapers Table of Contents Your Environment Changes Every Day. Can Your Penetration Testing Keep Up? Traditional penetration tests provide valuable insights, but their findings reflect a moment in time. As applications, identities, infrastructure, and attacker techniques evolve, yesterday’s assessment may no longer reflect today’s exposure. This SANS Spotlight paper explores how AI-powered penetration testing makes continuous offensive validation practical. Discover how autonomous systems combine deterministic techniques, rule-based reasoning, machine learning, and LLMs to expand testing capabilities while operating within defined authorization and safety boundaries. Inside the Paper Explore how AI is changing offensive security and what it means for your organization: Move beyond point-in-time testing. Understand why changing enterprise environments require an ongoing approach to security validation. Understand what AI actually does. Learn how deterministic automation, rule-based reasoning, machine learning, and LLMs work together to enable autonomous offensive testing. Follow the autonomous testing process. See how discovery, exploit validation, chained attack paths, and demonstrated business impact inform remediation priorities. Put human expertise where it matters. Understand how autonomous systems execute assessments independently while security professionals establish objectives, boundaries, and oversight. Make validation continuous. Explore how changes to infrastructure, software, identities, and the threat landscape can trigger testing and how repeat assessments verify remediation. Who Should Read This? Security leaders and practitioners responsible for penetration testing, offensive security, exposure and vulnerability management, security operations, and engineering. Written by Chris Dale, SANS Principal Instructor and Analyst and Chief Hacking Officer at River Security , the paper provides a practical, vendor-neutral perspective on how AI is reshaping penetration testing. Download the SANS Spotlight Paper Stop Relying on Yesterday’s Assessment to Understand Today’s Exposure Learn how autonomous offensive testing helps organizations focus on demonstrated risk, prioritize remediation, and verify that security improvements are working. Download the Paper Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: AI-Powered Penetration Testing: How Autonomous Offensive Security Works
-  - Published: 2026-11-03T04:57:09+00:00
-  - Link: https://horizon3.ai/downloads/whitepapers/ai-powered-penetration-testing-sans-spotlight/
-  - Summary: Your Environment Changes Every Day. Can Your Penetration Testing Keep Up? Traditional penetration tests provide valuable insights, but their findings reflect a moment in time. As applications, identities, infrastructure, and attacker techniques evolve, yesterday’s assessment may no longer reflect today’s exposure. This SANS Spotlight paper explores how AI-powered penetration testing makes continuous offensive validation practical. […]
-
 ### Cluster 2943272935 — score 10
 
 - Title: Making HTTP header injection critical with one prompt
@@ -2675,216 +2740,269 @@ Page content Binance’s October 2026 security incident raises an operational qu
   - Link: https://blog.trailofbits.com/2026/11/06/after-binance-check-what-your-signing-systems-can-approve/
   - Summary: Binance’s October 2026 security incident raises an operational question for every organization holding user funds: Can your security controls recognize when a valid signature grants an attacker wallet authority? If an organization only monitors transfers and ownership changes, it may miss the shift in wallet authority until assets move. Binance’s initial update about the incident suggested that a compromised DevOps laptop allowed an attacker to access a service container and submit unauthorized withdrawals. Its second update reported additional breaches but no evidence that wallet private keys had leaked. In its November 3 report , Binance described a broader attack involving social engineering, misuse of an internal AI tool, stolen credentials, and unauthorized access to its wallet-signing service. The attacker nevertheless obtained valid signatures, illustrating a major risk: a compromised server with permission to request signatures can misuse a protected key without extracting it.
 
-### Cluster ecb835c217 — score 10
+### Cluster cebc5ea6d7 — score 10
 
-- Title: Vanderbilt University hit in BYOD ransomware attack, data theft claimed
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-11-09T23:52:12+00:00
-- Link: https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
-- affected_industries: education
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- affected_industries: education
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]
-```
-
-#### Full body
-
-```
-Vanderbilt University hit in BYOD ransomware attack, data theft claimed By Lawrence Abrams November 9, 2026 06:52 PM 0 Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. The university confirmed the incident Monday, warning that university devices, systems, and cloud-based services may be affected. "We are currently responding to an active cybersecurity incident that may impact university devices, systems, and cloud-based services. Our Information Technology team is actively investigating and working to contain the situation," Vanderbilt said in a statement on X . As part of its response, the university told students, faculty, and staff to shut down university devices, disconnect from university Wi-Fi, and watch for suspicious activity. The university warned that signs of compromise may include unexpected pop-ups or security notifications, unusual changes to files or permissions in cloud storage platforms, missing or modified files, unfamiliar applications, and unexpected authentication requests. Those who notice suspicious activity were instructed not to investigate or troubleshoot the issue themselves, but instead immediately shut down their devices and contact the university's IT service desk. Vanderbilt has not publicly disclosed the nature of the attack or confirmed whether any data was stolen. BleepingComputer contacted Vanderbilt University with questions about the attack, including whether systems were encrypted, what data may have been stolen, and whether the incident has been contained. If you have any information regarding this incident or other undisclosed attacks, you can contact us confidentially via Signal at 646-961-3731 or at tips@bleepingcomputer.com. BYOD ransomware claims attack On Monday, the BYOD ransomware group claimed responsibility for the attack on its data leak site, alleging that it had encrypted Vanderbilt's databases and stolen sensitive information belonging to students and employees. "If you could not tell already, your databases are locked, We have your entire estate and research data. Over 1 Million SSNs, Full Names, Email addresses, Phone Numbers, Student & Employee Records, Full takeover of your DC, whatever was on your network, we possess," reads the BYOD data leak site. BYOD ransomware group claims attack on Vanderbilt University Source: BleepingComputer BleepingComputer has since received a photograph of an alleged computer screen showing icons associated with Vanderbilt University and displaying a BYOD ransom note named "README_BYOD_31.txt". The ransom note includes a link to the BYOD data leak site and contact information for the SESSION encrypted messaging platform to negotiate with the ransomware gang. BleepingComputer can confirm that the link in the ransom note is the site operated by BYOD. "Oh no, you have been compromised by BYOD :<," reads the ransom note. "We have all of your data including your backups, your entire network is compromised." "Yes, this affects your student and employee data the most, every single SSN is archived, full names, email addresses, phone numbers, work addresses, roles, birthdays, quite literally everything." Photograph of BYOD ransom note displayed on a Vanderbilt University computer Source: BleepingComputer The note also threatens to release stolen data and cause further disruption if the university does not negotiate with the attackers. A video shared on YouTube and with BleepingComputer also shows how infected devices are playing audio warning that the network has been compromised by "BYOD". While the ransom note and video indicate BYOD is behind the attack, Vanderbilt has not officially confirmed the group's involvement or whether devices were encrypted. BYOD is a relatively new ransomware gang that launched in 2026 and currently lists 5 other organizations on its data leak site. Last m
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Vanderbilt University hit in BYOD ransomware attack, data theft claimed
-  - Published: 2026-11-09T23:52:12+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/
-  - Summary: Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]
-
-### Cluster 5d7ba2fe30 — score 10
-
-- Title: SEGA newsletter data breach exposes 2.2 million email addresses
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-11-09T22:09:33+00:00
-- Link: https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng
-- affected_industries: telecommunications
-- affected_products: Google Workspace, Microsoft 365
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, data_breach
-- affected_industries: telecommunications
-- affected_products: Microsoft 365, Google Workspace
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]
-```
-
-#### Full body
-
-```
-SEGA newsletter data breach exposes 2.2 million email addresses By Bill Toulas November 9, 2026 05:09 PM 0 Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. The company says the exposed data also includes 92,300 records with additional information yet to be determined. The breach affects 11 newsletters linked to SEGA and SEGA Fave products and services. The investigation found that the compromised data did not include customer names, dates of birth, gender, addresses, phone numbers, credit card details, or account passwords. Also, email addresses registered with a “SEGA Account” are handled by a separate distribution system and were not affected by this incident. The company is working with ARARA to determine what data was exposed and says it has no confirmed evidence of misuse. “We are currently investigating the information associated with newsletter distribution in cooperation with ARARA,” SEGA stated . ARARA service breached ARARA disclosed on November 2 that it suffered a massive breach affecting its email distribution service, which compromised 77 million email addresses from nearly 380 corporate clients. According to the company, a web server vulnerability and problems in its system environment contributed to the incident, but the exact intrusion method and timing remain under investigation. ARARA previously estimated a smaller impact and assured SEGA on October 29 that no data compromise had occurred. However, on November 3, after uncovering the full extent of the incident, ARARA notified the gaming company that data had been exposed and shared the full details between November 5 and 8. ARARA also said the attackers abused their access to its service to send over 7 million emails impersonating credit card companies in late October. Other notable victims of the same incident include MOS Burger , with 7.5 million email addresses exposed, Shochiku Multiplex Theatres , with 3.3 million records, TKC , with 2.3 million email addresses, and IIJmio , with nearly 1 million email addresses. SEGA Arcade still down SEGA Fave’s arcade game network services, which suffered a separate cybersecurity incident last week, are still offline, undergoing maintenance and safety checks. On November 2, SEGA FAVE, SEGA's subsidiary responsible for toys, electronic gadgets, and arcade machine operations, disclosed unauthorized access to servers supporting its ALL.Net and Aime arcade gaming network services. In response, it suspended all related services, including online gameplay, SEGA Lucky Kuji Online, and new SEGA ID registrations. Its initial investigation found no evidence of customer or business partner data exfiltration, while payment information was unaffected because it was stored separately. SEGA noted that the two incidents are unrelated. Uncover email threats your existing defenses may miss. Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud. See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes. Start your free email security scan. Related Articles: Capcom confirms data breach affecting 11.7 million accounts Iris Ohyama data cloud breach exposes info of 7.7 million customers DreamHost confirms data breach exposed FTP logins and webmail sessions WorkOS says attacker used ARTEX AI to breach internal sales app Sony ISP subsidiary data breach exposes 2.5 million customer records
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: SEGA newsletter data breach exposes 2.2 million email addresses
-  - Published: 2026-11-09T22:09:33+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/
-  - Summary: Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]
-
-### Cluster 8732b16311 — score 10
-
-- Title: N-able takes cloud platform offline after 30+ "zero-days" published
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-11-09T21:26:25+00:00
-- Link: https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- affected_products: GitHub
-- urgency_signals: preauth_unauth, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- affected_products: GitHub
-- urgency_signals: zero_day, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems. [...]
-```
-
-#### Full body
-
-```
-N-able takes cloud platform offline after 30+ "zero-days" published By Lawrence Abrams November 9, 2026 04:26 PM 0 N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems. Security researcher Sean Bales disclosed the vulnerabilities late Sunday, November 8, and published a GitHub repository called Able2Shell containing proof-of-concept exploits for the flaws. N-central is a remote monitoring and management (RMM) platform used by managed service providers (MSPs) and IT teams to monitor, manage, and secure customer devices and networks remotely. The researcher says the vulnerabilities were tested against N-central Appliance 2026.4.0.31, a pre-release version of the software, and believes most, if not all, flaws also affect earlier versions. Bales also confirmed to BleepingComputer that the discovery of the vulnerabilities was AI-assisted. The disclosed vulnerabilities include authentication bypasses, credential disclosure, arbitrary file writes, directory traversal, cross-site scripting (XSS), XML external entity (XXE) injection, and remote code execution (RCE) flaws. One of the most critical exploit chains abuses an unauthenticated XXE vulnerability in N-central's service-import functionality to steal a trusted local session, reset an account password, and execute commands on the server as the nable user. The same exploit can also create an enabled Default Administrator account with attacker-controlled credentials, providing rogue administrative access to the N-central management interface. Bales shared a video demonstration of this exploit, showing terminal output reporting successful administrator account creation, login authentication, access to protected administrative functionality, and remote command execution as the nable user. Other disclosed exploits include a stored XSS that can execute commands as root when an administrator views malicious patch metadata, and a privilege-escalation flaw that allows code running under the nable account to execute commands as root. Bales confirmed to BleepingComputer that the unauthenticated XXE-to-RCE exploit was the most critical of the disclosed vulnerabilities. N-able takes servers offline worldwide After the disclosure, N-able announced a critical security incident and took its hosted N-central environments offline across the Americas, Europe, and Asia-Pacific regions. While BleepingComputer has not independently verified all the reported vulnerabilities, N-able confirmed it is developing a hotfix to address the security issues, lending credence to the researcher's claims that at least some of the flaws are legitimate zero-days. "N-able is actively responding to non-responsible communication of critical vulnerabilities in N-central late Sunday night, November 8, found by an independent researcher," N-able told BleepingComputer. "As a precautionary measure, we took our Hosted N-central environment offline today, November 9, and provided guidance to customers operating on-premises N-central servers to temporarily take their servers offline until further notice." "Our Security, Engineering, and Operations teams are actively working to implement the necessary remediation. At this time, we have not observed active exploitation of these vulnerabilities. Protecting our customers and their environments remains our highest priority, and we will provide additional updates as they become available." In a subsequent status update , N-able said it was continuing to develop and validate a hotfix and had found no evidence of active exploitation or unauthorized data access. While the N-central classic environment is unavailable, N-able said Ecoverse services accessed through N-able Login remain operational. N-able has not provided an estimate of when N-central will come b
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: N-able takes cloud platform offline after 30+ "zero-days" published
-  - Published: 2026-11-09T21:26:25+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/
-  - Summary: N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems. [...]
-
-### Cluster 1e28128f76 — score 10
-
-- Title: Data breach at hearing aid giant Amplifon impacts thousands
+- Title: Russian hackers compromised government email servers to steal NATO, EU correspondence
 - Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-11-09T20:44:00+00:00
-- Link: https://therecord.media/amplifon-hearing-aid-company-data-breach
+- Published: 2026-11-10T13:00:00+00:00
+- Link: https://therecord.media/russia-hackers-espionage-romania-kazakhstan
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, supply_chain
-- affected_industries: financial_services, healthcare
+- threat_categories: apt_espionage
+- affected_industries: government
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: supply_chain, data_breach
-- affected_industries: healthcare, financial_services
+- threat_categories: apt_espionage
+- affected_industries: government
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-The U.S arm of international hearing aid company Amplifon has been notifying customers about a data breach early this year that included medical information.
+Russian state-linked hackers have compromised government email servers in Romania and Kazakhstan to secretly intercept messages exchanged with NATO and European Union officials, researchers said.
 ```
 
 #### Full body
 
 ```
-Sign on an Amplifon facility. Image: Amplifon.com Data breach at hearing aid giant Amplifon impacts thousands International healthcare company Amplifon said thousands of its U.S. customers had their Social Security numbers and medical information stolen during a cyberattack in February. The Milan, Italy, company pairs patients in need of hearing aids and auditory assistance with device providers and services. Amplifon began notifying state regulators of a data breach last week, telling Texas officials that 85,804 people were impacted by the security incident in addition to 1,027 people in Vermont. The company also filed breach notices in California . In a breach notice on its U.S. website , Amplifon said it initially discovered suspicious activity on February 11, with an investigation later revealing the hackers had access to company files between January 18 and February 8. The stolen data includes names, driver’s licenses, state IDs, medical information, health insurance data and financial information. No hacking group has taken credit for the incident as of Monday. Several class action law firms said the total number of victims is 1,332,826 , but Amplifon did not respond to requests for confirmation. Amplifon was founded in 1950 for World War II veterans suffering from hearing loss and expanded to the U.S., Asia and Africa — now covering more than 28 countries across five continents. The company works with patients to find the right hearing devices and offer tests as well as other hearing-related healthcare services. The healthcare industry, particularly companies producing wearable devices, has faced an unprecedented level of attack in 2026 by cybercriminals. Medical device maker iRhythm said last month that 8,179,772 people were impacted by a cyberattack on their systems. Medical device makers like Medtronic , Boston Scientific , Stryker , UFP , Masimo , Surmodics , Artivion and Zoll have dealt with cybersecurity incidents that exposed the sensitive medical data of millions and caused supply chain issues. Cybercrime News News Briefs Industry No previous article No new articles Jonathan Greig is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.
+Image: Le Vu / Unsplash Russian hackers compromised government email servers to steal NATO, EU correspondence Russian state-linked hackers compromised government email servers in Romania and Kazakhstan using new malware to secretly intercept messages, including emails exchanged with NATO and European Union officials, according to research published Tuesday. Slovak cybersecurity firm ESET attributed the campaign to Turla, a long-running Russian espionage group linked to the country's Federal Security Service (FSB). The hackers used a previously unknown toolkit dubbed Cereal to monitor email traffic, steal specific messages and maintain access to compromised Microsoft Exchange servers without being detected. “The Cereal toolset is a carefully constructed instrument for long-term, stealthy cyberespionage. It leaves little on disk, avoids external infrastructure that could be discovered and blocked, and conceals itself within legitimate Exchange processes,” ESET said. The researchers said they first discovered the toolkit in November 2025 on a government email server in Kazakhstan and later identified it at a Romanian government organization. In Romania, the malware was configured to collect emails exchanged with NATO and EU institutions. The attack came amid rising tensions between Russia and NATO over the war in Ukraine, including repeated incidents involving Russian drones entering or approaching Romanian territory. In Kazakhstan, ESET said the intrusion took place amid growing scrutiny of Russian exiles and Kremlin critics living in the country. However, researchers could not determine whether the hackers were specifically seeking information about dissidents. The campaign stands out for its unusual approach to concealing the hackers' activities, researchers said. Rather than relying on separate servers to control the malware, the attackers used the victims' own compromised Exchange servers to issue commands and manage the operation. This allowed the hackers to operate without relying on external servers that security researchers could detect, block or shut down. "Abusing a compromised Exchange server as a central operational hub is a rare technique, used by only a handful of APT groups," ESET said. "Turla has used variations of this approach in the past." One component of Turla's new toolkit, called CerealBox, was embedded directly into a Microsoft Exchange service responsible for processing email traffic. It allowed the attackers to identify and capture messages of interest as they passed through the server. According to ESET, the technique has not previously been documented in other malware families and demonstrates the attackers' detailed knowledge of Microsoft's email infrastructure. The researchers could not determine how the attackers initially gained access to the government servers or how much information they obtained. Also known as Secret Blizzard and Venomous Bear, Turla has operated since at least 2004 and is considered one of Russia's most established state-linked hacking groups. The group has a long history of targeting government agencies, diplomatic missions and defense organizations across Europe, Central Asia and the Middle East. According to ESET, roughly 70% of the countries targeted by Turla since 2022 have been former Soviet republics or European countries with historical ties to the Soviet Union. News Nation-state Malware No previous article No new articles Daryna Antoniuk is a reporter for Recorded Future News based in Ukraine. She writes about cybersecurity startups, cyberattacks in Eastern Europe and the state of the cyberwar between Ukraine and Russia. She previously was a tech reporter for Forbes Ukraine. Her work has also been published at Sifted, The Kyiv Independent and The Kyiv Post.
 ```
 
 #### Corroborating sources (1)
 
 - **The Record** (cyber_news_breach_reporting)
-  - Title: Data breach at hearing aid giant Amplifon impacts thousands
-  - Published: 2026-11-09T20:44:00+00:00
-  - Link: https://therecord.media/amplifon-hearing-aid-company-data-breach
-  - Summary: The U.S arm of international hearing aid company Amplifon has been notifying customers about a data breach early this year that included medical information.
+  - Title: Russian hackers compromised government email servers to steal NATO, EU correspondence
+  - Published: 2026-11-10T13:00:00+00:00
+  - Link: https://therecord.media/russia-hackers-espionage-romania-kazakhstan
+  - Summary: Russian state-linked hackers have compromised government email servers in Romania and Kazakhstan to secretly intercept messages exchanged with NATO and European Union officials, researchers said.
 
-### Cluster 40880954b6 — score 10
+### Cluster b62a4f0de2 — score 10
 
-- Title: IP snowshoeing under US .gov email via a whitelisted AmazonSES typo in SPF
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-11-09T17:41:19+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1xry7z3/ip_snowshoeing_under_us_gov_email_via_a/
-- Fetch status: fetch_failed:HTTPError
+- Title: Google patches eighth Chrome zero-day exploited in attacks this year
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-11-10T08:51:25+00:00
+- Link: https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_industries: government
-- content_type: threat_research
-- confidence_tier: tier_5_chatter
+- threat_categories: active_exploitation, phishing_social_eng, zero_day
+- affected_products: Ivanti, Microsoft 365, Palo Alto Networks
+- cve_ids: CVE-2026-125350, CVE-2026-2441, CVE-2026-3909, CVE-2026-3910, CVE-2026-5281
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- affected_industries: government
-- content_type: threat_research
-- confidence_tier: tier_5_chatter
+- threat_categories: phishing_social_eng, zero_day, active_exploitation
+- affected_products: Ivanti, Palo Alto Networks, Microsoft 365
+- cve_ids: CVE-2026-125350, CVE-2026-2441, CVE-2026-3909, CVE-2026-3910, CVE-2026-5281
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-I run a small email security consultancy and this is our research. A typo of AmazonSES in US government DNS whitelisted 32,066 IPs to pass DMARC p=quarantine as milivcounty[.]gov, with the IP set rotating every 3-8 days. Attackers are snowshoeing the IPs, and once they get listed by Abusix and Spamhaus, they rotate the SPF include chain. Other AmazonSES typos in gov SPF are amasonses[.]com under pikevilleky[.]gov and amazones[.]com under townofkirkwood[.]gov. There are also 40 other US Gov domains with dangling & abused NS (domain takeover), MX (mail interception), and DMARC (telemetry hijack) records. Our team has registered 17 of these typos and expired domains, including one that had been in use for 20 years and only expired in August. DNS vulnerabilities have been around for decades, but many US government orgs decided to skip the security guardrails when they had the chance, and now those old gaps are being exploited by the same technologies they missed. submitted by /u/PlasmaJam
+Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]
+```
+
+#### Full body
+
+```
+Google patches eighth Chrome zero-day exploited in attacks this year By Sergiu Gatlan November 10, 2026 03:51 AM 1 Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. "Google is aware that an exploit for CVE-2026-125350 exists in the wild," the company said in a Monday security advisory . As Google explained, this flaw stems from a Use-After-Free (UAF) weakness in the XML component of the Google Chrome web browser, which occurs when the browser's XML parser processes data, deletes an object from the computer's memory, but fails to clear the pointer referencing that object. Attackers can exploit this high-severity memory corruption vulnerability when the browser later tries to use or read that "freed" memory space to manipulate the memory layout and execute malicious code. While Google has found evidence of attackers exploiting this zero-day bug in the wild, it has not shared additional details about these incidents. "Access to bug details and links may be kept restricted until a majority of users are updated with a fix. We will also retain restrictions if the bug exists in a third party library that other projects similarly depend on, but haven't yet fixed," it noted. Google has now fixed the zero-day for users in the Stable Desktop channel, with new versions rolling out to Windows, macOS (157.0.8103.50/.51), and Linux users (157.0.8103.50). Although Google says the security update could take days or weeks to reach all Chrome users, it was available immediately when BleepingComputer checked for updates today. If you don't want to update the web browser manually, you can also let Chrome check for updates on its own, as it will automatically install them after the next launch. ​Since the start of the year, Google has addressed seven other actively exploited zero-day vulnerabilities: An iterator invalidation bug (CVE-2026-2441) in CSSFontFeatureValuesMap (Chrome's implementation of CSS font feature values), which Google addressed in mid-February . Two other Chrome zero-day bugs exploited in attacks were patched in March: an out-of-bounds write weakness in the Skia 2D graphics library (CVE-2026-3909), and an inappropriate implementation vulnerability in the V8 JavaScript and WebAssembly engine (CVE-2026-3910). A use-after-free weakness in Dawn (CVE-2026-5281), the underlying cross-platform implementation of the WebGPU standard used by the Chromium project, which Google patched in April . An out-of-bounds read and write vulnerability in Chrome's V8 JavaScript engine (CVE-2026-11645), exploited in the wild and patched in June . And out-of-bounds write (CVE-2026-87491) and type confusion (CVE-2026-85046) flaws in the V8 JavaScript engine, fixed in September. Google fixed eight more zero-days exploited in attacks in 2025, many of them reported by the company's Threat Analysis Group (TAG), which tracks zero-day exploits used in spyware attacks. Uncover email threats your existing defenses may miss. Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud. See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes. Start your free email security scan. Related Articles: Ivanti patches two more Connect Secure zero-days chained in attacks Arista patches new VeloCloud Orchestrator zero-day exploited in attacks Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks BeyondTrust patches zero-day exploited in attacks since August Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks
 ```
 
 #### Corroborating sources (1)
 
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: IP snowshoeing under US .gov email via a whitelisted AmazonSES typo in SPF
-  - Published: 2026-11-09T17:41:19+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1xry7z3/ip_snowshoeing_under_us_gov_email_via_a/
-  - Summary: I run a small email security consultancy and this is our research. A typo of AmazonSES in US government DNS whitelisted 32,066 IPs to pass DMARC p=quarantine as milivcounty[.]gov, with the IP set rotating every 3-8 days. Attackers are snowshoeing the IPs, and once they get listed by Abusix and Spamhaus, they rotate the SPF include chain. Other AmazonSES typos in gov SPF are amasonses[.]com under pikevilleky[.]gov and amazones[.]com under townofkirkwood[.]gov. There are also 40 other US Gov domains with dangling & abused NS (domain takeover), MX (mail interception), and DMARC (telemetry hijack) records. Our team has registered 17 of these typos and expired domains, including one that had been in use for 20 years and only expired in August. DNS vulnerabilities have been around for decades, but many US government orgs decided to skip the security guardrails when they had the chance, and now those old gaps are being exploited by the same technologies they missed. submitted by /u/PlasmaJam
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Google patches eighth Chrome zero-day exploited in attacks this year
+  - Published: 2026-11-10T08:51:25+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/
+  - Summary: Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]
+
+### Cluster 7e7640916a — score 10
+
+- Title: Chrome Update Patches Exploited XML Zero-Day, Eighth This Year
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-11-10T06:12:24+00:00
+- Link: https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, data_breach, zero_day
+- affected_industries: education, financial_services, manufacturing_industrial
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT, SonicWall
+- cve_ids: CVE-2026-125350, CVE-2026-2441, CVE-2026-3909, CVE-2026-3910, CVE-2026-5281
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, data_breach, active_exploitation
+- affected_industries: financial_services, manufacturing_industrial, education
+- affected_products: OpenAI/ChatGPT, SonicWall, Anthropic/Claude
+- cve_ids: CVE-2026-125350, CVE-2026-2441, CVE-2026-3909, CVE-2026-3910, CVE-2026-5281
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The high-severity use-after-free in Chrome’s XML component was reported anonymously on November 6 and is already exploited in attacks. The post Chrome Update Patches Exploited XML Zero-Day, Eighth This Year appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Google on Monday informed Chrome users of new security updates that patch nine vulnerabilities, including a zero-day exploited in the wild. The exploited vulnerability, tracked as CVE-2026-125350 and rated high severity, is a use-after-free in the web browser’s XML component. A researcher who wants to remain anonymous reported the issue to Google on November 6. The tech giant has not shared any additional details, and no information appears to be available on the attacks exploiting CVE-2026-125350. CISA has yet to add CVE-2026-125350 to its Known Exploited Vulnerabilities (KEV) catalog. This is the eighth Chrome zero-day exploited this year after CVE-2026-2441 , CVE-2026-3909, CVE-2026-3910 , CVE-2026-5281 , CVE-2026-11645 , CVE-2026-85046 , and CVE-2026-87491 . Advertisement. Scroll to continue reading. In addition to the zero-day, the latest Chrome updates patch six high-severity vulnerabilities in the WebGL, FileSystem, Compositing, GPU, V8, and XML components. Google discovered most of the flaws internally. Two medium-severity bugs described as uninitialized resource issues in the GPU component have also been fixed. The patches are included in Chrome 157 updates, specifically versions 157.0.8103.50/.51 for Windows and Mac, and 157.0.8103.50 for Linux. Related : Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical Related : Chrome and Firefox Updates Patch Over 200 Vulnerabilities Related : Google Hardens Chrome Against ClickFix Attacks, Insecure HTTP Connections Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Over 3 Million People Hit by Frontline Education Data Breach Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks Latest News Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks France Blames Iran for a Cyberattack That Heated Supermarket Refrigerators Revolve Puts Data Breach Victim Count at 1.5 Million Plex2Shell Exploited Against QNAP NAS Users Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web Trending DigiCert Data Breach Impacts Business Customer Information SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions Revolve Puts Data Breach Victim Count at 1.5 Million Amplifier Security Emerges From Stealth With AI Copilot, Human-in-the-Loop Automation Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks Plex2Shell Exploited Against QNAP NAS Users Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Agentic Pentesting for a Stronger CTEM Program November 4, 2026 Close the security gaps between pentests. Join this session t
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Chrome Update Patches Exploited XML Zero-Day, Eighth This Year
+  - Published: 2026-11-10T06:12:24+00:00
+  - Link: https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/
+  - Summary: The high-severity use-after-free in Chrome’s XML component was reported anonymously on November 6 and is already exploited in attacks. The post Chrome Update Patches Exploited XML Zero-Day, Eighth This Year appeared first on SecurityWeek .
+
+### Cluster 397d31ec35 — score 10
+
+- Title: What a security leader should tell the CEO about leaked credentials
+- Source: Help Net Security (cyber_news_breach_reporting)
+- Published: 2026-11-10T07:40:43+00:00
+- Link: https://www.helpnetsecurity.com/2026/11/10/eric-fourrier-gitguardian-leaked-credentials/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+In this Help Net Security interview, Eric Fourrier, CEO of GitGuardian, talks about leaked credentials and personal liability for security leaders and boards. He explains how fear of blame pushes mistakes out of sight, and what a security leader should be ready to tell a CEO about exposed keys. He also covers better ways to measure security progress beyond alert counts, how to handle disclosure deadlines, and why AI tools and agents are creating new … More → The post What a security leader should tell the CEO about leaked credentials appeared first on Help Net Security .
+```
+
+#### Full body
+
+```
+Mirko Zorz , Director of Content, Help Net Security November 10, 2026 Share What a security leader should tell the CEO about leaked credentials In this Help Net Security interview, Eric Fourrier, CEO of GitGuardian , talks about leaked credentials and personal liability for security leaders and boards. He explains how fear of blame pushes mistakes out of sight, and what a security leader should be ready to tell a CEO about exposed keys. He also covers better ways to measure security progress beyond alert counts, how to handle disclosure deadlines, and why AI tools and agents are creating new paths for secrets to leak into public view going into 2027. Boards are now asking about personal liability. Has that pushed behavior where you wanted it, or has it driven bad news further underground? Both. At the top, personal accountability has made cybersecurity harder for boards and executives to treat as someone else’s problem. Cases involving security leaders, along with requirements like NIS2 , have made it much clearer that leadership can be held responsible for how cyber risk is managed. That has pushed boards to ask better questions, which is a positive change. The downside is that accountability can become counterproductive when employees start to fear being blamed for the mistake itself. We see the consequences of that with leaked credentials. When someone realizes they have exposed a secret, the instinct can be to remove the visible evidence by deleting the commit or making the repository private. But that does not revoke the credential. The mistake may be harder to see, while the underlying risk is still there. That is where companies need to be very deliberate about separating accountability from blame. The person who reports the mistake should not be punished for surfacing it. What matters is what happens next: was the credential revoked, was the exposure investigated, and did the organization learn from it? If people think speaking up will make them the problem, they will be less likely to speak up. And that gives security teams less visibility. The goal should be to create a culture where mistakes are reported quickly, and leadership is accountable for making sure the organization responds to them effectively. A CEO reads that nine in ten leaked keys are still working a week later and asks one question: does that happen here? What should the security leader be able to answer in that meeting? The honest answer for many companies is “yes, and we may not know.” At a baseline, the security leader should be able to say: we monitor public code for our credentials, including outside repositories we control; we can tell which exposed credentials are still valid; and we know who needs to act on them. But there’s another part of this that companies think about much less: what happens when someone else finds the credential first? Can they reach you, and does that warning get to someone who can do something about it? The figure in the question, by the way, comes from our own research. The people associated with those exposures had been notified, and more than 90% of the credentials still had not been revoked days later. A great example of this involved CISA. We sent nine automated alerts to the person who had published credentials in a public GitHub repository and received only an automated reply. The repository stayed public until our research team escalated through CERT/CC; it was taken down 26 hours later. A security leader should be able to tell their CEO: 1. We have a published way for outsiders to report an exposed credential, a named person reads it, and it has been tested in the last quarter. 2. When an exposed credential of ours is reported or found, revocation is the first action, not deletion. 3. We measure time from report to revocation, and here is our number. 4. We can detect when a corporate credential appears outside the systems we control, including in a developer’s personal public repository. The CEO needs confidenc
+```
+
+#### Corroborating sources (1)
+
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: What a security leader should tell the CEO about leaked credentials
+  - Published: 2026-11-10T07:40:43+00:00
+  - Link: https://www.helpnetsecurity.com/2026/11/10/eric-fourrier-gitguardian-leaked-credentials/
+  - Summary: In this Help Net Security interview, Eric Fourrier, CEO of GitGuardian, talks about leaked credentials and personal liability for security leaders and boards. He explains how fear of blame pushes mistakes out of sight, and what a security leader should be ready to tell a CEO about exposed keys. He also covers better ways to measure security progress beyond alert counts, how to handle disclosure deadlines, and why AI tools and agents are creating new … More → The post What a security leader should tell the CEO about leaked credentials appeared first on Help Net Security .
+
+### Cluster 91a167d765 — score 10
+
+- Title: France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-11-10T09:08:20+00:00
+- Link: https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: critical_infrastructure, government, manufacturing_industrial, retail_ecommerce
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- affected_industries: government, critical_infrastructure, manufacturing_industrial, retail_ecommerce
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The attackers broke into controllers on the night of October 11 and changed their defrost settings to high temperatures. That caused food losses and, in at least 15 cases, fires. The unit
+```
+
+#### Full body
+
+```
+France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites  Swati Khandelwal  Nov 10, 2026 Cyber Attack / Industrial Sabotage An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The attackers broke into controllers on the night of October 11 and changed their defrost settings to high temperatures. That caused food losses and, in at least 15 cases, fires. The unit is called Shahid Kaveh . It is known mainly through hacktivist personas, such as CyberAveng3rs and Cyber Isnaad Front , that publicly claim some of its attacks, France says. France's Foreign Ministry plans to summon Iran's ambassador and to ask its European partners to adopt new sanctions against Iranian organizations and individuals involved in the attack. The Paris prosecutor's office opened a judicial investigation yesterday against the unit's head, the head's two deputies and anyone else identified. It has asked for international arrest warrants. The offenses under investigation include illegally interfering with computer systems and causing damage by means dangerous to people, both made more serious by the aim of serving a foreign power, Iran. In the October attack, the attackers took remote control of Danfoss and Dixell refrigeration controllers through web interfaces, the prosecutor's office said in a press release . They started abnormal defrost cycles with no time limit and switched off the temperature probes' safety alerts, which should go off above a certain temperature. The attack caused about 20 fires. Most of the organizations hit were large retailers, according to a joint report by France's cyber crisis coordination center, known as C4. They include Casino, Leclerc, Coopérative U, Metro, Carrefour and Intermarché. Small butcher shops, a slaughterhouse and cooperative food plants were also among the victims. The center also tied the attack to the simultaneous targeting of Schneider Electric equipment at several small hydroelectric installations in France. The effects on that equipment were moderate. In its attribution statement , the ministry estimated the food losses at several tens of millions of euros and called the operation the first offensive cyber campaign on French soil carried out purely for sabotage. How France Tied the Attack to Iran The C4 brings together France's national cybersecurity agency (ANSSI), the DGSE and DGSI security services, the armament directorate and the cyber defense command. It says four indicators point to the IRGC as the sponsor of the attack and to Shahid Kaveh as the unit that carried it out. The infrastructure used in the attack was also used during the same period for reconnaissance of Schneider Electric equipment. That equipment is installed at sites such as small- and medium-sized energy and water production sites. The reconnaissance relied on techniques that Shahid Kaveh has used since at least April. The attackers also used FOFA, a scanning tool they usually use. CyberbanNews, a propaganda outlet linked to the unit, reported on the attack as early as October 13. The attack infrastructure also held traces of Persian. Prosecutors said the criminal investigation, run by France's anti-cybercrime office (OFAC) and the DGSI, found an attack method typical of the unit. It also found the use of Persian and IP addresses leading to devices located in Iran. Shahid Kaveh has previously claimed attacks on industrial equipment, according to C4. Through CyberAveng3rs, it claimed an earlier campaign against Unitronics, an Israeli company that makes industrial control systems, in November 2023. In March and April, it claimed a large sabotage campaign against Israeli and U.S. interests that hit industrial control equipment, including Israeli refrigeration equipment. France's attribution does not mention the new wave of refrigeration attacks th
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites
+  - Published: 2026-11-10T09:08:20+00:00
+  - Link: https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html
+  - Summary: An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The attackers broke into controllers on the night of October 11 and changed their defrost settings to high temperatures. That caused food losses and, in at least 15 cases, fires. The unit
+
+### Cluster ee0816dcbe — score 10
+
+- Title: U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-11-09T06:15:10+00:00
+- Link: https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ddos
+- affected_industries: critical_infrastructure, financial_services, government, manufacturing_industrial
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ddos
+- affected_industries: financial_services, government, critical_infrastructure, manufacturing_industrial
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory. "The actors may exploit vulnerabilities or weaknesses in unpatched or internet-accessible controllers to remotely alter settings and force units into continuous heating
+```
+
+#### Full body
+
+```
+U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses  Ravie Lakshmanan  Nov 09, 2026 Critical Infrastructure / Cyber Attack U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory. "The actors may exploit vulnerabilities or weaknesses in unpatched or internet-accessible controllers to remotely alter settings and force units into continuous heating and defrost cycles, which can cause widespread inventory loss and equipment hazards," according to a joint advisory. According to the U.S. Cybersecurity and Infrastructure Security Agency (CISA), Federal Bureau of Investigation (FBI), Health and Human Services (HHS), Department of Agriculture (USDA), and Department of Transportation (DOT), threat actors are likely to exploit authentication bypasses, arbitrary code injection, and weak configurations to gain access to these systems and cause the following effects - Change of temperature, which, in turn, could affect the service life of the system, create a fire hazard, cause inventory loss, or harm consumers who purchase products after unsafe storage. Loss of visibility into current temperatures due to a denial-of-service. In response to the threat, owners and operators are being urged to use strong authentication, keep systems updated, identify any systems that are accessible from the internet, isolate operational technology (OT) devices, change default passwords, retire and replace legacy devices, remove unnecessary remote access, and secure necessary remote access. "Industrial refrigeration and cold-chain monitoring systems protect food, medicine, and other temperature-sensitive products, making them attractive targets for malicious cyber actors," said FBI Cyber Branch Operations Director Brett Leatherman. "We are seeing these systems targeted across critical infrastructure sectors globally, putting inventory and equipment at risk." In recent weeks, threat actors have targeted hundreds of supermarkets across Europe by exploiting weaknesses in internet-accessible refrigeration controllers to raise temperatures, in some cases to as high as 50 degrees Celsius (122 degrees Fahrenheit), or force cooling units into defrost mode, spoiling food and resulting in financial losses. Targets of these attacks ranged from major supermarket chains to small grocers and butchers in Belgium, Estonia, Finland, France, Germany, Ireland, Italy, Luxembourg, the Netherlands, Portugal, Sweden, and the U.K. Among those targeted was the French Blood Establishment, which confirmed that a cybersecurity incident affecting a refrigeration equipment provider had raised temperature and defrost settings to "extremely high levels" at three facilities used to store blood plasma. It's unclear who is behind the hacking spree. Data from Censys shows that there are still hundreds of Danfoss StoreView instances exposed globally, with most of them located in France, although the number has dropped significantly from 3,004 to 708 between October 9 and November 5, 2026. The Copeland/Dixell XWEB exposure, likewise, has declined from 3,708 to 2,420. The attack surface management platform described the refrigeration attacks across Europe as the latest addition to a list of other recent incidents targeting critical infrastructure , including gas station tank gauges, air raid systems, and water towers. "North America accounts for roughly 38% of global ICS [industrial control systems] exposure," Censys said . "Asia's share grew from 22% in 2024 to 25% in 2026, while Europe's fell from 36.5% to 32%. However, these shifts have not produced an overall decline." "While exposure numbers are high, they're hardly surprising: ICS exposure is a problem that's been reported on and warned about for years. It poses a critical risk to the public as gatekeepers to the world's critical infra
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses
+  - Published: 2026-11-09T06:15:10+00:00
+  - Link: https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html
+  - Summary: U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory. "The actors may exploit vulnerabilities or weaknesses in unpatched or internet-accessible controllers to remotely alter settings and force units into continuous heating
 
 ### Cluster 748e1b5fef — score 10
 
@@ -2926,148 +3044,6 @@ Risky Bulletin Podcast November 06, 2026 OpenSSH auth bypass bug hits Alpine Lin
   - Published: 2026-11-06T03:32:33+00:00
   - Link: https://risky.biz/RBNEWS630/
   - Summary: An OpenSSH authentication bypass bug hits Alpine Linux and OpenWRT, hackers attempt to raise fridge temperatures at French blood banks, a French bank gets hacked for $133 million, and the Thai opposition has been targeted with spyware.
-
-### Cluster 88ecd31efa — score 10
-
-- Title: Locating the source of a mysterious beep with Claude
-- Source: Simon Willison (ai_security_agentic_risk)
-- Published: 2026-11-09T23:57:21+00:00
-- Link: https://simonwillison.net/2026/Nov/9/mysterious-beeps/
-- Fetch status: ok
-- Member count: 4
-- Corroborating source count: 4
-- Strong signals: Anthropic/Claude
-
-#### Cluster taxonomy (union across members)
-- affected_products: Anthropic/Claude
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- affected_products: Anthropic/Claude
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I really didn't want to dig through every one of those boxes. So I had Claude Code build Beep Locator , a software system for triangulating the source of a mysterious beep using multiple devices scattered around the room. Here's what Beep Locator looks like after it has been running for a while: You run Python web server to show the primary UI, and then use the QR code or URL to connect as many devices as you can spare to act as listeners - I was using two iPads, a phone, a MacBook Pro and a Surface Ultra. The devices then play noises to each other to help estimate their locations. This didn't work particularly well, so I added a "Rough mode" where you can drag their icons around in the space to
-```
-
-#### Full body
-
-```
-Simon Willison’s Weblog Newsletter Sponsored by: doubleAI — doubleAI’s Maxwell makes software faster as it runs, no code changes needed. Now in early access Locating the source of a mysterious beep with Claude 9th November 2026 Our house has a box room, full of boxes that we still haven’t unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I really didn’t want to dig through every one of those boxes. So I had Claude Code build Beep Locator , a software system for triangulating the source of a mysterious beep using multiple devices scattered around the room. Here’s what Beep Locator looks like after it has been running for a while: You run Python web server to show the primary UI, and then use the QR code or URL to connect as many devices as you can spare to act as listeners—I was using two iPads, a phone, a MacBook Pro and a Surface Ultra. The devices then play noises to each other to help estimate their locations. This didn’t work particularly well, so I added a “Rough mode” where you can drag their icons around in the space to provide rough locations which are then adjusted based on those sounds. Once that’s set up, the devices all listen for the beep! I added a clapping mode too so I could test it by clapping my hands in different locations around the room—displayed as diamonds on the map. This helped me gain confidence that it was capable of locating a sound. Beeps show up on the map as an X, plus a line in the “Sounds located” log. You can replay these sounds (from each device in turn) to confirm they are the mysterious beep you are looking for, then click “This is the mystery beep” to mark them as such. Once you’ve confirmed the mysterious beep frequency the system will listen out for it, measure the interval between beeps, and use the triangulated locations to lock down the most likely location on the map. The system worked as intended. It gave me the position of the beep to within about 40cm, then I dug through that specific pile of boxes and found an ancient carbon monoxide detector that desperately wanted its batteries replaced. How it works When I started working through this problem with Claude it quickly dug up BeepBeep: A High-Accuracy Acoustic-Based System for Ranging and Localization Using COTS Devices , a 2007 paper by Chunyi Peng, Guobin Shen, Yongguang Zhang, Yanlin Li, and Kun Tan. Here’s that paper’s abstract: We present the design, implementation, and evaluation of BeepBeep, a high-accuracy acoustic-based ranging system. It operates in a spontaneous, ad-hoc, and device-to-device context without leveraging any pre-planned infrastructure. It is a pure software-based solution and uses only the most basic set of commodity hardware – a speaker, a microphone, and some form of device-to-device communication – so that it is readily applicable to many low-cost sensor platforms and to most commercial-off-the-shelf mobile devices like cell phones and PDAs. It achieves high accuracy through a combination of three techniques: two-way sensing, self-recording, and sample counting. That sounded exactly like what we needed to build! Beep Locator runs a Python web application server that does most of the work. The listening devices then connect to that server via WebSockets and present a UI which requests browser microphone access. The listeners mainly work by recording a 60 second buffer of recent audio. They also run a simple beep detection algorithm (see detector.js ), which uses Fast Fourier Transform and a high-pass filter to identify potential beeps. It sends these events to the main server. When a beep is reported, the server has a device play a short chirp (the device with the lowest round-trip time to the server), then asks every listener upload a clip from about 0.6s before the beep to 0.8s after that chirp. This chirp allows the clip
-```
-
-#### Corroborating sources (4)
-
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: Locating the source of a mysterious beep with Claude
-  - Published: 2026-11-09T23:57:21+00:00
-  - Link: https://simonwillison.net/2026/Nov/9/mysterious-beeps/
-  - Summary: Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I really didn't want to dig through every one of those boxes. So I had Claude Code build Beep Locator , a software system for triangulating the source of a mysterious beep using multiple devices scattered around the room. Here's what Beep Locator looks like after it has been running for a while: You run Python web server to show the primary UI, and then use the QR code or URL to connect as many devices as you can spare to act as listeners - I was using two iPads, a phone, a MacBook Pro and a Surface Ultra. The devices then play noises to each other to help estimate their locations. This didn't work particularly well, so I added a "Rough mode" where you can drag their icons around in the space to
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Attackers Crash Claude's 'Office Party' Flaw to Run Malicious Code on Linux
-  - Published: 2026-11-09T18:08:30+00:00
-  - Link: https://www.darkreading.com/endpoint-security/attackers-claude-office-party-flaw-malicious-code-linux
-  - Summary: Attackers can exploit a flaw in Claude's document-processing tool by creating a temporary file that Anthropic's AI assistant can access and run on a user's machine.
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Product showcase: What the Malwarebytes Claude connector reveals about unexpected texts
-  - Published: 2026-11-09T09:31:52+00:00
-  - Link: https://www.helpnetsecurity.com/2026/11/09/product-showcase-malwarebytes-claude-scam-detection/
-  - Summary: The Malwarebytes connector for Claude checks suspicious links, phone numbers, and email addresses without leaving the chat. You can paste a link or upload a screenshot of a message, then ask Claude to check the details against Malwarebytes’ threat database. The connector works with free and paid Claude plans and requires no separate Malwarebytes account. Setting permissions for each tool The connector has six tools, including options to look up domain registration details, scan several … More → The post Product showcase: What the Malwarebytes Claude connector reveals about unexpected texts appeared first on Help Net Security .
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers
-  - Published: 2026-11-06T12:06:35+00:00
-  - Link: https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html
-  - Summary: A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test. The attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that makes this possible can still be exploited, the researchers said earlier this
-
-### Cluster 0ad2474221 — score 9
-
-- Title: Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years
-- Source: NCSC UK (government_authoritative)
-- Published: 2026-11-03T12:00:00+00:00
-- Link: https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, ransomware_extortion
-- affected_industries: critical_infrastructure, government
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng
-- affected_industries: government, critical_infrastructure
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-The NCSC warns that ‘tech on the cheap’ has left UK organisations exposed to AI uncovering and exploiting longstanding cyber security weaknesses and calls for urgent investment in resilience.
-```
-
-#### Full body
-
-```
-News Download & print article PDF Download & print article PDF Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years The NCSC warns that ‘tech on the cheap’ has left UK organisations exposed to AI uncovering and exploiting longstanding cyber security weaknesses and calls for urgent investment in resilience. AI-powered malware highly likely to be used in ransomware attack on Britain’s critical national infrastructure by 2028, new report warns. Head of GCHQ’s National Cyber Security Centre to warn, as a society, the era of “tech on the cheap” at expense of security is over. New State of the Cyber Nation report calls on organisations to make “significant changes” to avert future where AI is used against UK economy and society. The UK’s critical national infrastructure should be braced for a ransomware attack involving AI-powered malware by 2028, a new report published today [Tuesday 3 November] by the National Cyber Security Centre (NCSC) – a part of the UK’s signals intelligence agency GCHQ says. The NCSC's State of the Cyber Nation warns that within the next two years, AI adoption by hostile actors is “highly likely” to increase the scale and efficiency of their operations, including ransomware attacks, social engineering, and vulnerability exploitation. In a speech to launch the report, the CEO of the NCSC, Dr Richard Horne, is set to say that the AI revolution must force UK organisations to reckon with the current state of their cyber security, as new technologies will expose vulnerabilities, failings and underinvestment at an unprecedented speed and scale in the years ahead. The head of the UK's cyber agency will also set out how artificial intelligence represents the critical opportunity to improve the UK’s collective cyber resilience, but that organisations must take urgent action to address foundational investments and weaknesses or risk adversaries exploiting them instead. The warning comes as the government is investing in the UK's defence and resilience capabilities, including greater investment in cyber defence, while taking action through the introduction of the Cyber Security and Resilience Bill and the forthcoming National Cyber Action Plan to strengthen the UK's defences, deter hostile state aggression, keep essential services running and keep the British people safe. Alongside calls for organisations to strengthen their resilience, last week the Chancellor also announced greater investment in capabilities to help the UK harness AI for cyber defence, including £60 million into developing the first phase of a national Cyber Shield, £70 million for a new National Exposure and Real-Time Vulnerability (NERV) Centre to identify vulnerabilities across critical infrastructure and the economy, and a new AI Cyber Security Centre of Excellence, ran by the National Cyber Security Centre, in Manchester to develop world leading AI security expertise within government. This year’s report suggests that the UK is at a point of “enormous consequence” for cyber security and that organisations across the UK must make use of the tools, standards and frameworks that already exist and are evidenced to protect them from conventional and AI-powered cyber attacks. The NCSC is imploring organisations across the UK to face what Dr Horne is calling “a moment of choice”. In a speech to launch the report, NCSC CEO is expected to say: In the coming months, we face a real prospect of an unprecedented rise in the number of cyber incidents. But we must be clear that is not because AI has invented new ways to attack us. But because vulnerabilities that have been tolerated for far too long can now be discovered and exploited at a scale that was once unimaginable. “For decades, we have collectively got away with doing tech on the cheap. “We can be a nation where leaders of all organisations actively choose to invest with urgency... And where all organisations make security and resilience a fundamental requirement, not
-```
-
-#### Corroborating sources (1)
-
-- **NCSC UK** (government_authoritative)
-  - Title: Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years
-  - Published: 2026-11-03T12:00:00+00:00
-  - Link: https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years
-  - Summary: The NCSC warns that ‘tech on the cheap’ has left UK organisations exposed to AI uncovering and exploiting longstanding cyber security weaknesses and calls for urgent investment in resilience.
-
-### Cluster 68f8b73683 — score 9
-
-- Title: Artificial intelligence and cyber intrusion
-- Source: NCSC UK (government_authoritative)
-- Published: 2026-11-03T12:00:00+00:00
-- Link: https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, ransomware_extortion
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, apt_espionage
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-An NCSC assessment that examines current AI-enabled threat trends and projections of the threat landscape to 2028.
-```
-
-#### Full body
-
-```
-Report Download & print article PDF Download & print article PDF Artificial intelligence and cyber intrusion An NCSC assessment that examines current AI-enabled threat trends and projections of the threat landscape to 2028. NCSC Assessment NCSC Assessment (NCSC-A) is the authoritative voice on the cyber threat to the UK. We combine source information – classified intelligence, industry knowledge, academic material and open source – to provide independent key judgements that inform policy decision making, to improve UK cyber security. We work closely with government, industry and international partners for expert input into our assessments. NCSC-A is part of the Professional Heads of Intelligence Assessment (PHIA) . PHIA leads the development of the profession through analytical tradecraft, professional standards, to build and sustain a cross-government community. Probabilistic language NCSC Assessment uses the PHIA probability yardstick every time we make an assessment, judgement or prediction. The terms used correspond to these likelihood ranges: Context This assessment examines current AI-enabled threat trends and projections of the threat landscape to 2028 through three scenarios. The scenarios are assessed to be plausible possibilities in the medium-term but are not predictions . Instead, they are designed to provide insights into the potential trajectories of AI-driven cyber threats and inform the development of proactive security strategies. Development in AI capability and its application to cyber operations is changing quickly. The prospect for surprise is high. The three scenarios are: 1 Baseline scenario: Increased global threat from AI-cyber capability 2 Pessimistic scenario: AI-cyber capability proliferation far outstrips the UK’s defensive ability 3 Optimistic scenario: AI-cyber development slows, allowing the UK to develop robust countermeasures Key judgements By 2028, it is highly likely that Russia, China and other nation states will routinely use AI-cyber to achieve their geopolitical goals, with the UK facing an increase in scale and speed of sophisticated cyber attacks. By 2028, it is almost certain that many systems will remain vulnerable to attack from AI-cyber tools which identify and exploit system weaknesses, enabling attackers to display less caution over losing an access, as the cost to replace is minimal. By 2028, it is likely that attackers will apply AI-cyber capability against known vulnerabilities in critical national infrastructure (CNI) legacy technology, and the new opportunities in the attack surface which the deployment of AI tools within CNI allows. It is highly likely that between now and 2028, AI-powered malware will have been used in a ransomware attack on UK CNI. Possible drivers To develop the three scenarios in this paper, we have identified five key drivers likely to influence the AI-cyber threat to the UK in 2028: Geopolitical tensions UK CNI cyber defence The pace of development for AI technologies Availability of AI-cyber capability AI and a cyber-literate workforce AI-cyber threat in 2028 Baseline scenario: Increased global threat from AI-cyber capability In 2028, the AI-cyber threat landscape facing the UK has almost certainly increased. Geopolitical tensions highly likely remain high, and nation states are almost certainly leveraging AI-powered cyber capabilities to project power and achieve strategic objectives. State-sponsored actors, such as China and Russia, highly likely remain the greatest threat, through their developing AI capabilities. China, despite some quality lag in its chip development, has made significant strides in AI capabilities, with a focus on developing its own indigenous technologies. However, the increasing efficiency of AI models has reduced its dependence on cutting-edge western chip technology. Meanwhile, it is highly likely that Russian cyber actors have leveraged open-source AI models, adapting and retraining them to suit their intelligence requirem
-```
-
-#### Corroborating sources (1)
-
-- **NCSC UK** (government_authoritative)
-  - Title: Artificial intelligence and cyber intrusion
-  - Published: 2026-11-03T12:00:00+00:00
-  - Link: https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion
-  - Summary: An NCSC assessment that examines current AI-enabled threat trends and projections of the threat landscape to 2028.
 
 ### Cluster 6f25723d11 — score 9
 
@@ -3116,6 +3092,229 @@ Home Blog Inside an AhsayCBS Intrusion: Hidden Webshells, a CryptoMiner, and a C
   - Link: https://www.huntress.com/blog/ahsaycbs-webshells
   - Summary: Follow-up on AhsayCBS intrusion: new webshells, a second miner, and a host-bound Python implant found on exploited backup servers.
 
+### Cluster 1e28128f76 — score 9
+
+- Title: Data breach at hearing aid giant Amplifon impacts thousands
+- Source: The Record (cyber_news_breach_reporting)
+- Published: 2026-11-09T20:44:00+00:00
+- Link: https://therecord.media/amplifon-hearing-aid-company-data-breach
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, supply_chain
+- affected_industries: financial_services, healthcare
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, data_breach
+- affected_industries: healthcare, financial_services
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The U.S arm of international hearing aid company Amplifon has been notifying customers about a data breach early this year that included medical information.
+```
+
+#### Full body
+
+```
+Sign on an Amplifon facility. Image: Amplifon.com Data breach at hearing aid giant Amplifon impacts thousands International healthcare company Amplifon said thousands of its U.S. customers had their Social Security numbers and medical information stolen during a cyberattack in February. The Milan, Italy, company pairs patients in need of hearing aids and auditory assistance with device providers and services. Amplifon began notifying state regulators of a data breach last week, telling Texas officials that 85,804 people were impacted by the security incident in addition to 1,027 people in Vermont. The company also filed breach notices in California . In a breach notice on its U.S. website , Amplifon said it initially discovered suspicious activity on February 11, with an investigation later revealing the hackers had access to company files between January 18 and February 8. The stolen data includes names, driver’s licenses, state IDs, medical information, health insurance data and financial information. No hacking group has taken credit for the incident as of Monday. Several class action law firms said the total number of victims is 1,332,826 , but Amplifon did not respond to requests for confirmation. Amplifon was founded in 1950 for World War II veterans suffering from hearing loss and expanded to the U.S., Asia and Africa — now covering more than 28 countries across five continents. The company works with patients to find the right hearing devices and offer tests as well as other hearing-related healthcare services. The healthcare industry, particularly companies producing wearable devices, has faced an unprecedented level of attack in 2026 by cybercriminals. Medical device maker iRhythm said last month that 8,179,772 people were impacted by a cyberattack on their systems. Medical device makers like Medtronic , Boston Scientific , Stryker , UFP , Masimo , Surmodics , Artivion and Zoll have dealt with cybersecurity incidents that exposed the sensitive medical data of millions and caused supply chain issues. Cybercrime News News Briefs Industry No previous article No new articles Jonathan Greig is a Breaking News Reporter at Recorded Future News. Jonathan has worked across the globe as a journalist since 2014. Before moving back to New York City, he worked for news outlets in South Africa, Jordan and Cambodia. He previously covered cybersecurity at ZDNet and TechRepublic.
+```
+
+#### Corroborating sources (1)
+
+- **The Record** (cyber_news_breach_reporting)
+  - Title: Data breach at hearing aid giant Amplifon impacts thousands
+  - Published: 2026-11-09T20:44:00+00:00
+  - Link: https://therecord.media/amplifon-hearing-aid-company-data-breach
+  - Summary: The U.S arm of international hearing aid company Amplifon has been notifying customers about a data breach early this year that included medical information.
+
+### Cluster ecb835c217 — score 9
+
+- Title: Vanderbilt University hit in BYOD ransomware attack, data theft claimed
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-11-09T23:52:12+00:00
+- Link: https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion
+- affected_industries: education
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach
+- affected_industries: education
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]
+```
+
+#### Full body
+
+```
+Vanderbilt University hit in BYOD ransomware attack, data theft claimed By Lawrence Abrams November 9, 2026 06:52 PM 0 Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. The university confirmed the incident Monday, warning that university devices, systems, and cloud-based services may be affected. "We are currently responding to an active cybersecurity incident that may impact university devices, systems, and cloud-based services. Our Information Technology team is actively investigating and working to contain the situation," Vanderbilt said in a statement on X . As part of its response, the university told students, faculty, and staff to shut down university devices, disconnect from university Wi-Fi, and watch for suspicious activity. The university warned that signs of compromise may include unexpected pop-ups or security notifications, unusual changes to files or permissions in cloud storage platforms, missing or modified files, unfamiliar applications, and unexpected authentication requests. Those who notice suspicious activity were instructed not to investigate or troubleshoot the issue themselves, but instead immediately shut down their devices and contact the university's IT service desk. Vanderbilt has not publicly disclosed the nature of the attack or confirmed whether any data was stolen. BleepingComputer contacted Vanderbilt University with questions about the attack, including whether systems were encrypted, what data may have been stolen, and whether the incident has been contained. If you have any information regarding this incident or other undisclosed attacks, you can contact us confidentially via Signal at 646-961-3731 or at tips@bleepingcomputer.com. BYOD ransomware claims attack On Monday, the BYOD ransomware group claimed responsibility for the attack on its data leak site, alleging that it had encrypted Vanderbilt's databases and stolen sensitive information belonging to students and employees. "If you could not tell already, your databases are locked, We have your entire estate and research data. Over 1 Million SSNs, Full Names, Email addresses, Phone Numbers, Student & Employee Records, Full takeover of your DC, whatever was on your network, we possess," reads the BYOD data leak site. BYOD ransomware group claims attack on Vanderbilt University Source: BleepingComputer BleepingComputer has since received a photograph of an alleged computer screen showing icons associated with Vanderbilt University and displaying a BYOD ransom note named "README_BYOD_31.txt". The ransom note includes a link to the BYOD data leak site and contact information for the SESSION encrypted messaging platform to negotiate with the ransomware gang. BleepingComputer can confirm that the link in the ransom note is the site operated by BYOD. "Oh no, you have been compromised by BYOD :<," reads the ransom note. "We have all of your data including your backups, your entire network is compromised." "Yes, this affects your student and employee data the most, every single SSN is archived, full names, email addresses, phone numbers, work addresses, roles, birthdays, quite literally everything." Photograph of BYOD ransom note displayed on a Vanderbilt University computer Source: BleepingComputer The note also threatens to release stolen data and cause further disruption if the university does not negotiate with the attackers. A video shared on YouTube and with BleepingComputer also shows how infected devices are playing audio warning that the network has been compromised by "BYOD". While the ransom note and video indicate BYOD is behind the attack, Vanderbilt has not officially confirmed the group's involvement or whether devices were encrypted. BYOD is a relatively new ransomware gang that launched in 2026 and currently lists 5 other organizations on its data leak site. Last m
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Vanderbilt University hit in BYOD ransomware attack, data theft claimed
+  - Published: 2026-11-09T23:52:12+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/
+  - Summary: Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]
+
+### Cluster 5d7ba2fe30 — score 9
+
+- Title: SEGA newsletter data breach exposes 2.2 million email addresses
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-11-09T22:09:33+00:00
+- Link: https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng
+- affected_industries: telecommunications
+- affected_products: Google Workspace, Microsoft 365
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, data_breach
+- affected_industries: telecommunications
+- affected_products: Microsoft 365, Google Workspace
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]
+```
+
+#### Full body
+
+```
+SEGA newsletter data breach exposes 2.2 million email addresses By Bill Toulas November 9, 2026 05:09 PM 0 Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. The company says the exposed data also includes 92,300 records with additional information yet to be determined. The breach affects 11 newsletters linked to SEGA and SEGA Fave products and services. The investigation found that the compromised data did not include customer names, dates of birth, gender, addresses, phone numbers, credit card details, or account passwords. Also, email addresses registered with a “SEGA Account” are handled by a separate distribution system and were not affected by this incident. The company is working with ARARA to determine what data was exposed and says it has no confirmed evidence of misuse. “We are currently investigating the information associated with newsletter distribution in cooperation with ARARA,” SEGA stated . ARARA service breached ARARA disclosed on November 2 that it suffered a massive breach affecting its email distribution service, which compromised 77 million email addresses from nearly 380 corporate clients. According to the company, a web server vulnerability and problems in its system environment contributed to the incident, but the exact intrusion method and timing remain under investigation. ARARA previously estimated a smaller impact and assured SEGA on October 29 that no data compromise had occurred. However, on November 3, after uncovering the full extent of the incident, ARARA notified the gaming company that data had been exposed and shared the full details between November 5 and 8. ARARA also said the attackers abused their access to its service to send over 7 million emails impersonating credit card companies in late October. Other notable victims of the same incident include MOS Burger , with 7.5 million email addresses exposed, Shochiku Multiplex Theatres , with 3.3 million records, TKC , with 2.3 million email addresses, and IIJmio , with nearly 1 million email addresses. SEGA Arcade still down SEGA Fave’s arcade game network services, which suffered a separate cybersecurity incident last week, are still offline, undergoing maintenance and safety checks. On November 2, SEGA FAVE, SEGA's subsidiary responsible for toys, electronic gadgets, and arcade machine operations, disclosed unauthorized access to servers supporting its ALL.Net and Aime arcade gaming network services. In response, it suspended all related services, including online gameplay, SEGA Lucky Kuji Online, and new SEGA ID registrations. Its initial investigation found no evidence of customer or business partner data exfiltration, while payment information was unaffected because it was stored separately. SEGA noted that the two incidents are unrelated. Uncover email threats your existing defenses may miss. Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud. See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes. Start your free email security scan. Related Articles: Capcom confirms data breach affecting 11.7 million accounts Iris Ohyama data cloud breach exposes info of 7.7 million customers DreamHost confirms data breach exposed FTP logins and webmail sessions WorkOS says attacker used ARTEX AI to breach internal sales app Sony ISP subsidiary data breach exposes 2.5 million customer records
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: SEGA newsletter data breach exposes 2.2 million email addresses
+  - Published: 2026-11-09T22:09:33+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/
+  - Summary: Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]
+
+### Cluster 8732b16311 — score 9
+
+- Title: N-able takes cloud platform offline after 30+ "zero-days" published
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-11-09T21:26:25+00:00
+- Link: https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- affected_products: GitHub
+- urgency_signals: preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- affected_products: GitHub
+- urgency_signals: zero_day, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems. [...]
+```
+
+#### Full body
+
+```
+N-able takes cloud platform offline after 30+ "zero-days" published By Lawrence Abrams November 9, 2026 04:26 PM 0 N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems. Security researcher Sean Bales disclosed the vulnerabilities late Sunday, November 8, and published a GitHub repository called Able2Shell containing proof-of-concept exploits for the flaws. N-central is a remote monitoring and management (RMM) platform used by managed service providers (MSPs) and IT teams to monitor, manage, and secure customer devices and networks remotely. The researcher says the vulnerabilities were tested against N-central Appliance 2026.4.0.31, a pre-release version of the software, and believes most, if not all, flaws also affect earlier versions. Bales also confirmed to BleepingComputer that the discovery of the vulnerabilities was AI-assisted. The disclosed vulnerabilities include authentication bypasses, credential disclosure, arbitrary file writes, directory traversal, cross-site scripting (XSS), XML external entity (XXE) injection, and remote code execution (RCE) flaws. One of the most critical exploit chains abuses an unauthenticated XXE vulnerability in N-central's service-import functionality to steal a trusted local session, reset an account password, and execute commands on the server as the nable user. The same exploit can also create an enabled Default Administrator account with attacker-controlled credentials, providing rogue administrative access to the N-central management interface. Bales shared a video demonstration of this exploit, showing terminal output reporting successful administrator account creation, login authentication, access to protected administrative functionality, and remote command execution as the nable user. Other disclosed exploits include a stored XSS that can execute commands as root when an administrator views malicious patch metadata, and a privilege-escalation flaw that allows code running under the nable account to execute commands as root. Bales confirmed to BleepingComputer that the unauthenticated XXE-to-RCE exploit was the most critical of the disclosed vulnerabilities. N-able takes servers offline worldwide After the disclosure, N-able announced a critical security incident and took its hosted N-central environments offline across the Americas, Europe, and Asia-Pacific regions. While BleepingComputer has not independently verified all the reported vulnerabilities, N-able confirmed it is developing a hotfix to address the security issues, lending credence to the researcher's claims that at least some of the flaws are legitimate zero-days. "N-able is actively responding to non-responsible communication of critical vulnerabilities in N-central late Sunday night, November 8, found by an independent researcher," N-able told BleepingComputer. "As a precautionary measure, we took our Hosted N-central environment offline today, November 9, and provided guidance to customers operating on-premises N-central servers to temporarily take their servers offline until further notice." "Our Security, Engineering, and Operations teams are actively working to implement the necessary remediation. At this time, we have not observed active exploitation of these vulnerabilities. Protecting our customers and their environments remains our highest priority, and we will provide additional updates as they become available." In a subsequent status update , N-able said it was continuing to develop and validate a hotfix and had found no evidence of active exploitation or unauthorized data access. While the N-central classic environment is unavailable, N-able said Ecoverse services accessed through N-able Login remain operational. N-able has not provided an estimate of when N-central will come b
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: N-able takes cloud platform offline after 30+ "zero-days" published
+  - Published: 2026-11-09T21:26:25+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/
+  - Summary: N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems. [...]
+
+### Cluster f16dc4e6ea — score 9
+
+- Title: N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-11-10T09:56:28+00:00
+- Link: https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, data_breach, phishing_social_eng, zero_day
+- affected_industries: financial_services
+- affected_products: OpenAI/ChatGPT, SonicWall
+- urgency_signals: poc_available, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, credential_theft, zero_day, data_breach
+- affected_industries: financial_services
+- affected_products: SonicWall, OpenAI/ChatGPT
+- urgency_signals: zero_day, poc_available
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Attackers could exploit the flaws for remote code execution, credential theft, and administrator account creation. The post N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+N-able on Monday took hosted N-central environments offline in response to a security researcher’s public disclosure of more than 30 alleged zero-day vulnerabilities. “As a precautionary measure, we are temporarily taking our Hosted N-central environment offline while we take the necessary actions to secure the environment and implement appropriate remediation,” the company said . While N-central and the related services remain inaccessible, N-able says it has made progress validating the flaws and creating a fix, which should roll out around midday on November 10. On-premises N-central deployments should also be kept offline until patches are released, the company says. “N-able Engineering continues to make progress on the N-central hotfix and associated validation activities. The work remains on track with no setbacks, and our teams are progressing as quickly as possible while maintaining the validation required for a safe remediation,” the company said. N-able also pointed out that it has no evidence that the vulnerabilities have been exploited against its N-central environments. Advertisement. Scroll to continue reading. The zero-day bugs were published on GitHub on Sunday by security researcher Sean Bales and have yet to be assigned CVE identifiers. Bales dubbed the flaws Able2Shell. According to the researcher, the weaknesses could be exploited to achieve remote code execution (RCE) with ‘nable’ or root privileges, to execute arbitrary commands, create unauthorized administrative accounts, or leak sensitive data, such as configurations and credentials. Additionally, Bales describes four exploit chains that could also lead to RCE with ‘nable’ or root privileges. The security researcher released proof-of-concept (PoC) code targeting every flaw and reportedly explained that the zero-days were dropped after N-able failed to patch security defects he previously reported in another product. Related: Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH Related: Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws Related: Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day Related: Barracuda ESG Authentication Bypass Flaw Opens Path to Root Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Amplifon Americas Data Breach Impacts 1.3 Million Brava Security Emerges From Stealth With $15 Million in Funding DigiCert Data Breach Impacts Business Customer Information US Agencies Urge Organizations to Harden Refrigeration Controllers Researchers Find Residential Proxies on White House Network OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws Latest News IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks France Blames Iran for a Cyberattack That Heated Supermarket Refrigerators Chrome Update Patches Exploited XML Zero-Day, Eighth This Year Revolve Puts Data Breach Victim Count at 1.5 Million Plex2Shell Exploited Against QNAP NAS Users Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH Trending DigiCert Data Breach Impacts Business Customer Information SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions Amplifier Security Emerges From Stealth With AI Copilot, Human-in-the-Loop Automation Revolve Puts Data Breach Victim Count at 1.5 Million Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks R
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days
+  - Published: 2026-11-10T09:56:28+00:00
+  - Link: https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/
+  - Summary: Attackers could exploit the flaws for remote code execution, credential theft, and administrator account creation. The post N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days appeared first on SecurityWeek .
+
 ### Cluster df28dfd33f — score 9
 
 - Title: Revolve Puts Data Breach Victim Count at 1.5 Million
@@ -3128,16 +3327,18 @@ Home Blog Inside an AhsayCBS Intrusion: Hidden Webshells, a CryptoMiner, and a C
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach
+- threat_categories: data_breach, zero_day
 - affected_industries: education, financial_services, government, manufacturing_industrial
 - affected_products: OpenAI/ChatGPT, SonicWall
+- urgency_signals: zero_day
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: data_breach
+- threat_categories: zero_day, data_breach
 - affected_industries: financial_services, government, manufacturing_industrial, education
 - affected_products: OpenAI/ChatGPT, SonicWall
+- urgency_signals: zero_day
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3150,7 +3351,7 @@ Online fashion retailer Revolve has told regulators that the September cyberatta
 #### Full body
 
 ```
-Online fashion retailer Revolve has informed the Indiana Attorney General’s Office that 1,515,073 individuals were impacted by the data breach it disclosed in October. The company revealed the incident on October 29 in a filing with the US Securities and Exchange Commission (SEC). It started sending notification letters to impacted customers around the same time. Revolve had not publicly shared a total. Its notices to regulators in Iowa, Massachusetts, South Carolina, Texas, and Vermont covered roughly 197,000 people combined. The retailer says an unauthorized party broke into some of its systems, including its e-commerce platform, on September 11. Per the Indiana Attorney General’s records, Revolve became aware of the intrusion on September 29. According to the company, the intruder may have relied on “automated means” to collect customers’ names and contact information, including mailing addresses, along with their card numbers and expiration dates. The exposure is limited to shoppers who chose to store a payment method in their online accounts. Advertisement. Scroll to continue reading. Revolve reported the attack to federal law enforcement and enlisted external cybersecurity experts to help with its response. The company has yet to explain how the hackers got into its systems. So far, the attack has not been publicly claimed by any hacker group. Related : Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers Related : Amplifon Americas Data Breach Impacts 1.3 Million Related : Over 3 Million People Hit by Frontline Education Data Breach Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks Barracuda ESG Authentication Bypass Flaw Opens Path to Root Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers Latest News Plex2Shell Exploited Against QNAP NAS Users Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH Amplifon Americas Data Breach Impacts 1.3 Million Over 3 Million People Hit by Frontline Education Data Breach Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack Brava Security Emerges From Stealth With $15 Million in Funding Trending DigiCert Data Breach Impacts Business Customer Information OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins Researchers Find Residential Proxies on White House Network Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH Amplifier Security Emerges From Stealth With AI Copilot, Human-in-the-Loop Automation Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Agentic Pentesting for a Stronger CTEM Program Novemb
+Online fashion retailer Revolve has informed the Indiana Attorney General’s Office that 1,515,073 individuals were impacted by the data breach it disclosed in October. The company revealed the incident on October 29 in a filing with the US Securities and Exchange Commission (SEC). It started sending notification letters to impacted customers around the same time. Revolve had not publicly shared a total. Its notices to regulators in Iowa, Massachusetts, South Carolina, Texas, and Vermont covered roughly 197,000 people combined. The retailer says an unauthorized party broke into some of its systems, including its e-commerce platform, on September 11. Per the Indiana Attorney General’s records, Revolve became aware of the intrusion on September 29. According to the company, the intruder may have relied on “automated means” to collect customers’ names and contact information, including mailing addresses, along with their card numbers and expiration dates. The exposure is limited to shoppers who chose to store a payment method in their online accounts. Advertisement. Scroll to continue reading. Revolve reported the attack to federal law enforcement and enlisted external cybersecurity experts to help with its response. The company has yet to explain how the hackers got into its systems. So far, the attack has not been publicly claimed by any hacker group. Related : Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers Related : Amplifon Americas Data Breach Impacts 1.3 Million Related : Over 3 Million People Hit by Frontline Education Data Breach Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Over 3 Million People Hit by Frontline Education Data Breach Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks Latest News N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks France Blames Iran for a Cyberattack That Heated Supermarket Refrigerators Chrome Update Patches Exploited XML Zero-Day, Eighth This Year Plex2Shell Exploited Against QNAP NAS Users Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH Trending DigiCert Data Breach Impacts Business Customer Information SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions Amplifier Security Emerges From Stealth With AI Copilot, Human-in-the-Loop Automation Revolve Puts Data Breach Victim Count at 1.5 Million Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks Researchers Find Residential Proxies on White House Network Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Agentic Pentesting for a Stronger CTEM Progra
 ```
 
 #### Corroborating sources (1)
@@ -3161,224 +3362,50 @@ Online fashion retailer Revolve has informed the Indiana Attorney General’s Of
   - Link: https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/
   - Summary: Online fashion retailer Revolve has told regulators that the September cyberattack affected more than 1.5 million individuals. The post Revolve Puts Data Breach Victim Count at 1.5 Million appeared first on SecurityWeek .
 
-### Cluster ed89b4f40a — score 9
+### Cluster 26928e0de7 — score 9
 
-- Title: Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-11-09T12:22:12+00:00
-- Link: https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/
+- Title: Cybersecurity jobs available right now: November 10, 2026
+- Source: Help Net Security (cyber_news_breach_reporting)
+- Published: 2026-11-10T05:00:58+00:00
+- Link: https://www.helpnetsecurity.com/2026/11/10/cybersecurity-jobs-available-right-now-november-10-2026/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: critical_infrastructure, financial_services, government, healthcare
-- affected_products: Android, OpenAI/ChatGPT, SonicWall
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: healthcare, financial_services, government, critical_infrastructure
-- affected_products: SonicWall, Android, OpenAI/ChatGPT
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Italian Foreign Minister Antonio Tajani said Saturday that his personal data had been disseminated on the dark web. The post Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Italian Foreign Minister Antonio Tajani said Saturday that his personal data had been disseminated on the dark web, an encrypted part of the internet, and that he has been exposed to “threats and intimidation.” Italian Premier Giorgia Meloni blamed pro-Russian hackers for the leak. Tajani made the announcement in a social media post following a string of hoax bomb threats across Europe that caused flight diversions, security threats against broadcasters as well as recent attacks on supermarket refrigeration systems and drone incursions. “For days, cybercriminals have been spreading my personal data on the dark web and seeking other information, in fact exposing me and my family to new threats and intimidation,” Tajani said, adding that the criminals “are prepared to pay for other details on me and my loved ones.” Meloni, is a separate statement, expressed solidarity with Tajani “following the revelations about the activities of pro-Russian hackers, and the publication on the dark web of personal data.” She called attempts to sell confidential information about government officials “a matter of grave concern that must be addressed with the utmost determination.” Tajani, who is also a vice premier in Italy’s government, did not specify what kind of information had been shared, but suggested that the cyberthreat was ongoing. “I will not allow myself to be intimidated in any way,” Tajani said. “I will continue working to defend my ministry, and Italy, and I will further strengthen the ties and cooperation to protect ourselves together.” Advertisement. Scroll to continue reading. Tajani did not indicate who might be responsible for the cyberattack but reiterated the Italian government’s support for Ukraine. Related : Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes Related : Italy Averted Russian-Linked Cyberattacks Targeting Winter Olympics Websites Related : Over 41,000 DHS Employee Records Leaked Online Written By Associated Press Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Associated Press Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks 3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised North Korea Launches Missiles Toward the Sea as Pyongyang Protests Against US Claims on Binance Hack UK Cyber Chief Says the UK Will Face AI Cyberattacks on Critical Infrastructure by 2028 Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI Latest News Revolve Puts Data Breach Victim Count at 1.5 Million Plex2Shell Exploited Against QNAP NAS Users Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH Amplifon Americas Data Breach Impacts 1.3 Million Over 3 Million People Hit by Frontline Education Data Breach Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack Brava Security Emerges From Stealth With $15 Million in Funding Trending DigiCert Data Breach Impacts Business Customer Information OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins Researchers Find Residential Proxies on White House Network Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH Amplifier Security Emerges From Stealth With AI Copilot, Human-in-the-Loop Automation Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay info
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web
-  - Published: 2026-11-09T12:22:12+00:00
-  - Link: https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/
-  - Summary: Italian Foreign Minister Antonio Tajani said Saturday that his personal data had been disseminated on the dark web. The post Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web appeared first on SecurityWeek .
-
-### Cluster 4609022d6e — score 9
-
-- Title: Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-11-09T12:13:32+00:00
-- Link: https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach, phishing_social_eng, zero_day
-- affected_industries: education, financial_services
-- affected_products: Android, SonicWall
-- cve_ids: CVE-2026-123158
-- urgency_signals: actively_exploited, zero_day
+- threat_categories: supply_chain
+- affected_industries: critical_infrastructure, financial_services, government
+- affected_products: AWS, Azure
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng, zero_day, data_breach, active_exploitation
-- affected_industries: financial_services, education
-- affected_products: SonicWall, Android
-- cve_ids: CVE-2026-123158
-- urgency_signals: actively_exploited, zero_day
+- threat_categories: supply_chain
+- affected_industries: financial_services, government, critical_infrastructure
+- affected_products: Azure, AWS
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-The initial exploitation attempts are attributed to botnets and crypto miners, but other threat actors are expected to follow suit. The post Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH appeared first on SecurityWeek .
+Application Security Engineer ONE ZERO BANK | Israel | Hybrid – View job details As an Application Security Engineer, you will work with developers to build security into the software development lifecycle. You will use security reviews and threat modeling to find vulnerabilities in web and mobile apps, APIs, CI/CD pipelines, and the software supply chain, then help developers fix them. You will automate security controls and build internal tools, including AI-powered tools for code … More → The post Cybersecurity jobs available right now: November 10, 2026 appeared first on Help Net Security .
 ```
 
 #### Full body
 
 ```
-Threat actors have started exploiting SSHole, a recently patched high-severity authentication bypass vulnerability in OpenSSH. Tracked as CVE-2026-123158, the flaw is “related to misinterpretation of whether a string is intended to be a password hash” and could let attackers access certain accounts by supplying any password between 257 and 1024 characters. Successful exploitation could allow attackers to access accounts such as root, which should never accept a password. On certain Linux distributions that use the musl libc implementation with the Pluggable Authentication Module (PAM) disabled, such as Alpine, Buildroot, OpenWrt, Yocto, and others, these accounts do accept a password. This happens because the OpenSSH server (sshd) checks the supplied password by hashing it against a stored password hash associated with the username. When an account has no password hash, as with root on Alpine (where the field is ‘*’), sshd borrows the salt from another account’s hash to process the login attempt. For passwords longer than 256 bytes, musl’s crypt() function fails and, instead of returning NULL, returns ‘*’. Because that matches the ‘*’ stored for the target account, sshd treats the password as correct. Advertisement. Scroll to continue reading. In Alpine, affected accounts include root, any key-only user created with adduser without a password, the Alpine user in the official tiny-cloud images, and any user coming from a directory service through musl-nscd. Last week, OpenSSH rushed patches for the bug, and Alpine urged users to apply them and restart sshd as soon as possible. Over the weekend, both WatchTowr and Previdian warned that hackers had started exploiting SSHole in the wild. According to WatchTowr, only botnets and crypto miners have picked it up so far. “Previdian sensors have observed 20 exploitation attempts, 13 unique attacker IPs, and 9 countries targeting CVE-2026-123158. First observed Nov 06, 2026; last observed Nov 08, 2026,” Previdian said. Exploitation attempts have also been reported by GreyNoise and Defused . Users are advised to update to OpenSSH version 10.6p2 as soon as possible. As a mitigation, they can disable password authentication (on by default in OpenSSH) or disable SSH. They should also check logs for unusual requests to identify exploitation attempts. Related: SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins Related: Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws Related: Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day Related: Barracuda ESG Authentication Bypass Flaw Opens Path to Root Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire DigiCert Data Breach Impacts Business Customer Information US Agencies Urge Organizations to Harden Refrigeration Controllers Researchers Find Residential Proxies on White House Network OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes Latest News Revolve Puts Data Breach Victim Count at 1.5 Million Plex2Shell Exploited Against QNAP NAS Users Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web Amplifon Americas Data Breach Impacts 1.3 Million Over 3 Million People Hit by Frontline Education Data Breach Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack Brava Security Emerges From Stealth With $15 Million in Funding Trending DigiCert Data Breach Impacts Business Customer Information
+Anamarija Pogorelec , Senior Staff Writer, Help Net Security November 10, 2026 Share Cybersecurity jobs available right now: November 10, 2026 Application Security Engineer ONE ZERO BANK | Israel | Hybrid – View job details As an Application Security Engineer, you will work with developers to build security into the software development lifecycle. You will use security reviews and threat modeling to find vulnerabilities in web and mobile apps, APIs, CI/CD pipelines, and the software supply chain, then help developers fix them. You will automate security controls and build internal tools, including AI-powered tools for code and security analysis. CISO Obsidian Security | USA | Hybrid – View job details As a CISO, you will lead Obsidian’s global security strategy, own the security budget, and advise the board and executives on cyber risk. You will build and lead teams responsible for product and cloud security, threat detection, vulnerability management, and incident response. You will embed security into product development, establish AI governance, oversee vendor and acquisition security reviews, and represent Obsidian in customer reviews and industry forums. CISO Transdev North America | USA | On-site – View job details As a CISO, you will lead the cybersecurity program for IT, operational technology, and critical infrastructure. You will set security policies, oversee risk, compliance, and control effectiveness, and lead incident response, recovery, and regulatory reporting. You will advise leadership and coordinate with the CIO, host railroads, service providers, and government agencies. Get weekly updates on new cybersecurity job openings. Subscribe here! Cloud Security Engineer Avrioc Technologies | UAE | On-site – View job details As a Cloud Security Engineer, you will design and secure AWS and Azure landing zones, enforce governance, and implement identity and network controls. You will provision infrastructure as code and automate security and compliance checks in CI/CD pipelines. You will monitor cloud threats, investigate incidents, and work with engineering teams to remediate vulnerabilities and address root causes. Cyber Defence Incident Manager Vodafone | United Kingdom | Hybrid – View job details As a Cyber Defence Incident Manager, you will coordinate global security teams and oversee incident containment, eradication, and remediation. You will assess cyber risk and make quick decisions under pressure to minimise the impact of incidents. Cyber Security Operations Specialist MNP | Canada | Hybrid – View job details As a Cyber Security Operations Specialist, you will investigate alerts, hunt for threats, and use digital forensics to assess, contain, and remediate incidents. You will document findings, improve response procedures and monitoring tools, and work with IT teams to remediate vulnerabilities. You will also manage security awareness training and testing and resolve security requests in ServiceNow. Must read: How to succeed at cybersecurity job interviews Cyber Threat Intelligence Researcher NextLink Group | Belgium | On-site – View job details As a Cyber Threat Intelligence Researcher, you will use commercial, open-source, and internal intelligence to analyze priority threat actors, track their infrastructure and tools, and identify emerging attack techniques. You will automate intelligence collection and analysis with Python and queries, and map adversary behavior to MITRE ATT&CK. Embedded Security Engineer Skild AI | USA | On-site – View job details As an Embedded Security Engineer, you will assess critical assets, keep threat models current, and investigate vulnerabilities in key software components. You will work with engineering teams to meet security requirements, implement and test fixes, and lead penetration tests and red team exercises. ISSO SE-3 Odyssey | USA | On-site – View job details As an ISSO SE-3, you will support information system security across multiple sites for an Advanced Programs
 ```
 
 #### Corroborating sources (1)
 
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH
-  - Published: 2026-11-09T12:13:32+00:00
-  - Link: https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/
-  - Summary: The initial exploitation attempts are attributed to botnets and crypto miners, but other threat actors are expected to follow suit. The post Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH appeared first on SecurityWeek .
-
-### Cluster 95c3262c0f — score 9
-
-- Title: Amplifon Americas Data Breach Impacts 1.3 Million
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-11-09T11:20:09+00:00
-- Link: https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, supply_chain, zero_day
-- affected_industries: education, financial_services, government, healthcare
-- affected_products: Android, OpenAI/ChatGPT, SonicWall
-- urgency_signals: zero_day
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, phishing_social_eng, zero_day, data_breach
-- affected_industries: healthcare, financial_services, government, education
-- affected_products: SonicWall, Android, OpenAI/ChatGPT
-- urgency_signals: zero_day
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Hackers stole personal, health, and insurance information, including Social Security numbers, from the company’s internal systems. The post Amplifon Americas Data Breach Impacts 1.3 Million appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Amplifon Hearing Health Care has disclosed a data breach impacting the information of more than 1.3 million individuals in the US. The incident involves Amplifon Americas, the Minneapolis-based arm of the Italian hearing healthcare giant Amplifon, which claims to serve over 80 million members through a nationwide network of thousands of clinics. According to Amplifon Americas’ data breach notice , hackers broke into its internal systems in January 2026 and copied files from certain systems between January 18 and February 8. Although it immediately contained the incident and launched an investigation into the attack, Amplifon needed eight months to review the stolen data and determine that personal information was potentially affected. The review concluded that names, contact information, driver’s license numbers, other government ID numbers, dates of birth, hearing and medical information, dates of service, other health information, and health insurance information were compromised. For some individuals, Social Security numbers and financial information were also stolen, the company says. Advertisement. Scroll to continue reading. “We are not aware of any fraudulent use of personal information as a result of this incident,” Amplifon notes. Amplifon’s filing with the Texas Attorney General’s Office reportedly mentions a total of 1,332,826 people being affected nationwide. SecurityWeek has emailed Amplifon for additional information on the data breach and confirmation on impact and will update this article if the company responds. Related: Over 3 Million People Hit by Frontline Education Data Breach Related: DigiCert Data Breach Impacts Business Customer Information Related: Malicious cPGuard Updates Served in OpsShield Supply Chain Attack Related: Chainalysis Discloses Data Breach Following AI-Driven Cyberattack Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire DigiCert Data Breach Impacts Business Customer Information US Agencies Urge Organizations to Harden Refrigeration Controllers Researchers Find Residential Proxies on White House Network OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes Latest News Revolve Puts Data Breach Victim Count at 1.5 Million Plex2Shell Exploited Against QNAP NAS Users Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH Over 3 Million People Hit by Frontline Education Data Breach Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack Brava Security Emerges From Stealth With $15 Million in Funding Trending DigiCert Data Breach Impacts Business Customer Information OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins Researchers Find Residential Proxies on White House Network Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH Amplifier Security Emerges From Stealth With AI Copilot, Human-in-the-Loop Automation Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Agentic Pentesting for a Stronger CTEM Program November 4, 2026 Close the
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Amplifon Americas Data Breach Impacts 1.3 Million
-  - Published: 2026-11-09T11:20:09+00:00
-  - Link: https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/
-  - Summary: Hackers stole personal, health, and insurance information, including Social Security numbers, from the company’s internal systems. The post Amplifon Americas Data Breach Impacts 1.3 Million appeared first on SecurityWeek .
-
-### Cluster 2617d644c2 — score 9
-
-- Title: Over 3 Million People Hit by Frontline Education Data Breach
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-11-09T10:09:02+00:00
-- Link: https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: education, financial_services, government, manufacturing_industrial
-- affected_products: OpenAI/ChatGPT, SonicWall
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: financial_services, government, manufacturing_industrial, education
-- affected_products: OpenAI/ChatGPT, SonicWall
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Frontline Education told Indiana regulators that its August data breach affected over 3 million school district staff and students. The post Over 3 Million People Hit by Frontline Education Data Breach appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Frontline Education has informed the Indiana Attorney General’s Office that a data breach it suffered in August affected more than 3 million people. The K-12 school administration software provider puts the total number of affected individuals at 3,085,266. That is well over twice the figure from the company’s earlier filings with several other states, which added up to roughly 1.3 million . Frontline says the attackers got into part of its environment by exploiting a vulnerability in a third-party software product. The company detected the intrusion on August 14 and says the attack was fully contained the next day. The hackers stole the personal information of school district employees and students from two Frontline products: Frontline Central and School Health Management. The compromised information varies from person to person. It may include names, Social Security numbers, dates of birth, driver’s license numbers, passport and other government ID numbers, health insurance information such as Medicaid IDs, and student IDs. Affected adults in the US are getting two years of free credit monitoring and identity theft protection. Eligible minors are getting free dark web monitoring. Advertisement. Scroll to continue reading. Frontline has not named the exploited third-party product or said who was behind the attack. No known cybercrime group appears to have taken credit for an attack on the company. Related : DigiCert Data Breach Impacts Business Customer Information Related : Florida Student Aid Website Hack Puts Data of 4.9 Million People at Risk Related : Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks Barracuda ESG Authentication Bypass Flaw Opens Path to Root Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers Latest News Revolve Puts Data Breach Victim Count at 1.5 Million Plex2Shell Exploited Against QNAP NAS Users Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH Amplifon Americas Data Breach Impacts 1.3 Million Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack Brava Security Emerges From Stealth With $15 Million in Funding Trending DigiCert Data Breach Impacts Business Customer Information OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins Researchers Find Residential Proxies on White House Network Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH Amplifier Security Emerges From Stealth With AI Copilot, Human-in-the-Loop Automation Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Over 3 Million People Hit by Frontline Education Data Breach
-  - Published: 2026-11-09T10:09:02+00:00
-  - Link: https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/
-  - Summary: Frontline Education told Indiana regulators that its August data breach affected over 3 million school district staff and students. The post Over 3 Million People Hit by Frontline Education Data Breach appeared first on SecurityWeek .
-
-### Cluster cefdb8b68e — score 9
-
-- Title: Microsoft Fixes RCE Bug in Windows Paint After Weeks of Confusion
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-11-09T21:12:24+00:00
-- Link: https://www.darkreading.com/application-security/microsoft-rce-bug-windows-paint-confusion
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Last month, Microsoft disclosed a vulnerability in Microsoft Paint, but messaging regarding a patch was unclear.
-```
-
-#### Corroborating sources (1)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Microsoft Fixes RCE Bug in Windows Paint After Weeks of Confusion
-  - Published: 2026-11-09T21:12:24+00:00
-  - Link: https://www.darkreading.com/application-security/microsoft-rce-bug-windows-paint-confusion
-  - Summary: Last month, Microsoft disclosed a vulnerability in Microsoft Paint, but messaging regarding a patch was unclear.
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Cybersecurity jobs available right now: November 10, 2026
+  - Published: 2026-11-10T05:00:58+00:00
+  - Link: https://www.helpnetsecurity.com/2026/11/10/cybersecurity-jobs-available-right-now-november-10-2026/
+  - Summary: Application Security Engineer ONE ZERO BANK | Israel | Hybrid – View job details As an Application Security Engineer, you will work with developers to build security into the software development lifecycle. You will use security reviews and threat modeling to find vulnerabilities in web and mobile apps, APIs, CI/CD pipelines, and the software supply chain, then help developers fix them. You will automate security controls and build internal tools, including AI-powered tools for code … More → The post Cybersecurity jobs available right now: November 10, 2026 appeared first on Help Net Security .
 
 ### Cluster d012e5702b — score 9
 
@@ -3427,49 +3454,6 @@ A system doesn't always need a complicated bug to let someone in. Sometimes, a b
   - Link: https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html
   - Summary: A system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories this week. And it gets worse when the tools meant to keep systems updated or running safely become part of the attack. Elsewhere, attackers are hiding inside normal web traffic, stealing credentials from network devices, and finding new uses for exposed
 
-### Cluster b52ea2aab4 — score 9
-
-- Title: Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-11-04T07:46:15+00:00
-- Link: https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-58868
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ddos
-- cve_ids: CVE-2026-58868, CVE-2026-58876, CVE-2026-58882, CVE-2026-58936
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ddos
-- cve_ids: CVE-2026-58868, CVE-2026-58876, CVE-2026-58882, CVE-2026-58936
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and carriers send on their own schedules. As of November 4, Google's bulletin did not report
-```
-
-#### Full body
-
-```
-Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction  Swati Khandelwal  Nov 04, 2026 Vulnerability / Mobile Security A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin . The flaw, CVE-2026-58868 , affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and carriers send on their own schedules. As of November 4, Google's bulletin did not report any attacks exploiting its flaws. None of them was in the Known Exploited Vulnerabilities catalog, kept by the U.S. Cybersecurity and Infrastructure Security Agency, as of its November 3 update. The flaw is a possible out-of-bounds write caused by a heap buffer overflow in the onOutputReceived function of the file FrameDecoder.cpp. Neither the bulletin nor the flaw's CVE record says how an attacker would reach that code. Google's Critical rating assumes that the protections built into Android and Google's services are turned off or bypassed. Older versions, such as Android 12 and 13, are not listed as affected by the flaw. Google's records do not say whether they contain it. How to Check Your Phone Google's help page gives these steps: Open the Settings app. Tap About phone, or About tablet, then Android version. Find the dates for the Android security update and the Google Play system update. The Android security update date is the phone's security patch level. A date of 2026-11-01 or later covers CVE-2026-58868 and the other flaws in the Framework, System, and Android runtime components. A date of 2026-11-05 or later covers every flaw in the November bulletin, including those in the kernel and in parts from Arm, Imagination Technologies, MediaTek, Unisoc and Qualcomm. Google sets two dates so phone makers can ship a set of fixes common to all Android devices sooner. It encourages them to include every fix in the bulletin. Phones running Android 10 or later may also receive some fixes through Google Play system updates. This month's list for those updates includes another Critical flaw, CVE-2026-58876. CVE-2026-58868 is not on that list, so the date to check for it is the Android security update. The bulletin gives no workaround for phones that cannot install the update yet. A Remote Denial-of-Service Flaw in Android's Text-Message Code Another Critical flaw, CVE-2026-58882, could allow a remote denial-of-service attack with no user interaction, according to its CVE record . It is in decodeWapPdu, a function in Android's code for WAP Push messages that arrive via SMS. On October 29, a researcher who publishes as Mark B posted a write-up called "SMS of Death" about a bug in the same function. Neither the bulletin nor the CVE record says whether CVE-2026-58882 is that bug. One malformed WAP Push message crashes com.android.phone and ends any active call, including emergency calls, according to the write-up. In tests on several phone models, the crash happened every time. The attacker needs only the target's phone number, and the message never shows up in the inbox. The phone retries the message each time it starts, so it can crash on startup until the message is removed. A proof-of-concept app that sends such a message from one phone to another is public. Phones running Android 12 and 13 run the same code but do not receive the fix that newer versions do, the researcher says. Other Critical Flaws Google's November bulletin lists 216 vulnerabilities, 23 of them rated Critical. Two more Critical flaws could allow remote code execution: CVE-2026-58876 and CVE-2026-58936, both in Android's System component. Six Critical flaws are in the kernel, two of them in Bluetooth code. The most severe kernel flaw could allow a remote attacker to gain elevated privileges without user interaction. The 2026-11-05 patch level also fixes Critical flaws in MediaTek modem code and in a closed-source Qualcomm co
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction
-  - Published: 2026-11-04T07:46:15+00:00
-  - Link: https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html
-  - Summary: A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and carriers send on their own schedules. As of November 4, Google's bulletin did not report
-
 ### Cluster f5e9ccdee6 — score 9
 
 - Title: Jailbroken AI Agent Ran Two-Week Attack on European Telecom
@@ -3482,7 +3466,9 @@ Google Issues Patches for Critical Android Flaw That Could Allow RCE Without Use
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_industries: financial_services, healthcare, telecommunications
+- threat_categories: supply_chain
+- affected_industries: healthcare, telecommunications
+- affected_products: GitHub
 - tools_used: OpenAI/ChatGPT
 - cve_ids: CVE-2013-2165, CVE-2020-7961, CVE-2021-4034, CVE-2026-20320
 - urgency_signals: preauth_unauth
@@ -3490,7 +3476,9 @@ Google Issues Patches for Critical Android Flaw That Could Allow RCE Without Use
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- affected_industries: healthcare, financial_services, telecommunications
+- threat_categories: supply_chain
+- affected_industries: healthcare, telecommunications
+- affected_products: GitHub
 - tools_used: OpenAI/ChatGPT
 - cve_ids: CVE-2026-20320, CVE-2020-7961, CVE-2013-2165, CVE-2021-4034
 - urgency_signals: preauth_unauth
@@ -3506,7 +3494,7 @@ Jailbroken DeepSeek agent spent two weeks attacking a European telecom, Malbear 
 #### Full body
 
 ```
-Infosecurity Magazine Home » News » Jailbroken AI Agent Ran Two-Week Attack on European Telecom Jailbroken AI Agent Ran Two-Week Attack on European Telecom News 9 November 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino A jailbroken AI agent has spent more than two weeks attacking a European telecommunications provider and 13 organizations hosted on its data center and cloud infrastructure. Malbear Labs, which has dubbed the campaign Operation Snowball, detailed the activity in research published November 8 after finding the attacker's working directory during a routine sweep for exposed open directories. The unprotected directory held more than 70 session transcripts and the agent's own reports. The custom agent framework ran on DeepSeek Flash, with a jailbreak prompt of about 78,000 characters that told the model to treat any refusal as a malfunction. Malbear wrote that the transcripts contained no recorded refusals. Read more on AI-driven attacks: Chinese Hacker Uses DeepSeek AI to Orchestrate Vulnerability Exploits Autonomous Agent Adapted When Its Attacks Were Blocked The operator's messages, translated from Chinese, were brief. Besides prompts such as "Go on" and "Stop," they set a target subnet, put three internal hosts off-limits and followed up on the agent's vulnerability list. Malbear wrote that the operator "delegated the intrusion to an AI and checked in asynchronously to review progress." The agent entered the telecom by exploiting CVE-2026-20320, an unauthenticated XML external entity (XXE) flaw in Cisco BroadWorks. Cisco fixed the flaw in August. The agent went on to exploit Liferay (CVE-2020-7961) for root access on a host spanning several internal networks and JBoss/RichFaces (CVE-2013-2165) for a second foothold. Malbear listed more than a dozen other flaws the agent targeted, found or kept in its toolkit, none marked as exploited. When endpoint security blocked an attempt to exploit the Linux flaw PwnKit (CVE-2021-4034), the agent changed its approach without operator direction. After a tunneling tool was blocked, it wrote a replacement. Access Claims Extended to Patient and Monitoring Data According to Malbear, the recovered transcripts showed the agent extracting dozens of credential sets, private keys and a healthcare organization's Active Directory data. The agent also reported reaching subscriber billing records and what Malbear described as millions of patient records, through a TrakCare Oracle database that still used default credentials. Its reports also listed about 80 Zabbix monitoring backups covering the provider's managed-services customers. The post does not say whether Malbear checked these claims with any victim, what was taken rather than staged or whether all 13 organizations were breached. Malbear assessed the activity as consistent with a Chinese-origin operator and did not link it to a state actor. Its recommendations included treating internet-exposed, end-of-life JBoss Application Server 6 instances as compromised and watching internal traffic for tunneling. You may also like Security Researcher Proves GenAI Tools Can Develop Google Chrome Infostealers News 18 March 2025 Cyber-criminals “Jailbreak” AI Chatbots For Malicious Ends News 12 September 2023 Grok-4 Jailbroken Two Days After Release Using Combined Attack News 14 July 2025 GPT-5 Safeguards Bypassed Using Storytelling-Driven Jailbreak News 12 August 2025 Dark Web Mentions of Malicious AI Tools Spike 200% News 25 March 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice ARTEX Offensive AI Tool Activity Far Exceeds Reported Campaigns, Censys Finds News 6 November 2026 1 India Warns of New AI-Driven Cyber-Attacks Targeting Financial and Crypto Businesses News 5 November 2026 2 Residential Proxy Traffic Traced to White House Network News 5 November 2026 3 GhostMap Bug Leaves Android Phones Stuck in Reboot Loop News 5 November 2026 4 Fake Interview of Software Engin
+Infosecurity Magazine Home » News » Jailbroken AI Agent Ran Two-Week Attack on European Telecom Jailbroken AI Agent Ran Two-Week Attack on European Telecom News 9 November 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino A jailbroken AI agent has spent more than two weeks attacking a European telecommunications provider and 13 organizations hosted on its data center and cloud infrastructure. Malbear Labs, which has dubbed the campaign Operation Snowball, detailed the activity in research published November 8 after finding the attacker's working directory during a routine sweep for exposed open directories. The unprotected directory held more than 70 session transcripts and the agent's own reports. The custom agent framework ran on DeepSeek Flash, with a jailbreak prompt of about 78,000 characters that told the model to treat any refusal as a malfunction. Malbear wrote that the transcripts contained no recorded refusals. Read more on AI-driven attacks: Chinese Hacker Uses DeepSeek AI to Orchestrate Vulnerability Exploits Autonomous Agent Adapted When Its Attacks Were Blocked The operator's messages, translated from Chinese, were brief. Besides prompts such as "Go on" and "Stop," they set a target subnet, put three internal hosts off-limits and followed up on the agent's vulnerability list. Malbear wrote that the operator "delegated the intrusion to an AI and checked in asynchronously to review progress." The agent entered the telecom by exploiting CVE-2026-20320, an unauthenticated XML external entity (XXE) flaw in Cisco BroadWorks. Cisco fixed the flaw in August. The agent went on to exploit Liferay (CVE-2020-7961) for root access on a host spanning several internal networks and JBoss/RichFaces (CVE-2013-2165) for a second foothold. Malbear listed more than a dozen other flaws the agent targeted, found or kept in its toolkit, none marked as exploited. When endpoint security blocked an attempt to exploit the Linux flaw PwnKit (CVE-2021-4034), the agent changed its approach without operator direction. After a tunneling tool was blocked, it wrote a replacement. Access Claims Extended to Patient and Monitoring Data According to Malbear, the recovered transcripts showed the agent extracting dozens of credential sets, private keys and a healthcare organization's Active Directory data. The agent also reported reaching subscriber billing records and what Malbear described as millions of patient records, through a TrakCare Oracle database that still used default credentials. Its reports also listed about 80 Zabbix monitoring backups covering the provider's managed-services customers. The post does not say whether Malbear checked these claims with any victim, what was taken rather than staged or whether all 13 organizations were breached. Malbear assessed the activity as consistent with a Chinese-origin operator and did not link it to a state actor. Its recommendations included treating internet-exposed, end-of-life JBoss Application Server 6 instances as compromised and watching internal traffic for tunneling. You may also like Security Researcher Proves GenAI Tools Can Develop Google Chrome Infostealers News 18 March 2025 Cyber-criminals “Jailbreak” AI Chatbots For Malicious Ends News 12 September 2023 Grok-4 Jailbroken Two Days After Release Using Combined Attack News 14 July 2025 GPT-5 Safeguards Bypassed Using Storytelling-Driven Jailbreak News 12 August 2025 Dark Web Mentions of Malicious AI Tools Spike 200% News 25 March 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice New Supply Chain Attack Compromises Tens of Thousands of GitHub Repositories News 9 November 2026 1 ARTEX Offensive AI Tool Activity Far Exceeds Reported Campaigns, Censys Finds News 6 November 2026 2 Jailbroken AI Agent Ran Two-Week Attack on European Telecom News 9 November 2026 3 Email Addresses of 2.2 Million Sega Customers Leaked in Vendor Breach News 9 November 2026 4 Anti-Money Laundering
 ```
 
 #### Corroborating sources (1)
@@ -3529,14 +3517,16 @@ Infosecurity Magazine Home » News » Jailbroken AI Agent Ran Two-Week Attack on
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: financial_services, healthcare
+- threat_categories: data_breach, supply_chain
+- affected_industries: healthcare, telecommunications
+- affected_products: GitHub
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: healthcare, financial_services
+- threat_categories: supply_chain, data_breach
+- affected_industries: healthcare, telecommunications
+- affected_products: GitHub
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3549,7 +3539,7 @@ Gaming company Sega warned customers to be vigilant for suspicious emails after 
 #### Full body
 
 ```
-Infosecurity Magazine Home » News » Email Addresses of 2.2 Million Sega Customers Leaked in Vendor Breach Email Addresses of 2.2 Million Sega Customers Leaked in Vendor Breach News 9 November 2026 Written by James Coker Deputy Editor , Infosecurity Magazine Follow @ReporterCoker Sega has revealed that around 2.2 million customer email addresses have been exposed as result of a third-party incident. The video gaming giant revealed on November 9 that an unauthorized third party leaked the email addresses after gaining access to Arara Inc., a Japanese email delivery provider used by Sega to distribute its email newsletter. “We deeply apologize for the great inconvenience and concern caused to our customers and all parties involved,” Sega wrote. “Currently, Arara is working to identify the causes of unauthorized access and prevent further damage, and we are working with Arara and related companies to confirm the details of the leaked information.” The Japanese firm said the breach is limited to 2.196 million email addresses for various email newsletters, and 92,273 items related to distribution. The leaked information does not include customer names, dates of birth, genders, addresses, phone numbers, credit card information or login passwords. No misuse of the leaked data has been currently confirmed. However, Sega has warned customers to be vigilant for suspicious emails purporting to be from Sega or Sega Fave Corporation, or using product or service names operated by both companies. Sega Fave is a subsidiary of the broader Sega group, which focuses on the production of toys and arcade machines. “Please do not open or reply to URLs or attachments provided in emails you do not recognize. Accessing URLs or opening attached files may lead to entering personal information or affecting your device. Neither our company nor Sega Fave will ask you for your password or credit card information by email. If you receive such an email, do not access the reply or the provided link; delete it,” the company said. Sega Breach Part of Large-Scale Third-Party Incident Arara revealed it had been compromised in a statement issued on October 29, which said that unauthorized access was gained to certain server systems of its email distribution service a day earlier, on October 28 after a hacker exploited vulnerabilities in web servers. The distribution service ‘Arara Message’ was suspended on October 31 and remains offline at the time of writing, according to a dedicated incident page set up by the firm to provide updates. According to a report by The Japan Times , Arara’s parent company Paycloud Holdings confirmed on November 2 that hackers gained unauthorized access to servers operated by the subsidiary, which exposed information held by around 380 corporate clients using the service. This included 77 million email addresses. Paycloud also noted that depending on the company, the breached data also included names, telephone numbers and addresses. However, it said that no credit card details have been exposed. Image credit: Bangla press / Shutterstock.com You may also like Over 460,000 E-Retailer User Accounts Hacked News 14 May 2019 Qantas Contacted by Potential Cybercriminal Following Data Breach News 7 July 2025 UK Councils Warn of Data Breach After Attack on Medical Supplier News 17 May 2024 Santander Customer Data Compromised Following Third-Party Breach News 15 May 2024 Third-Party Breach Impacts Majority of Allianz Life US Customers News 28 July 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice ARTEX Offensive AI Tool Activity Far Exceeds Reported Campaigns, Censys Finds News 6 November 2026 1 India Warns of New AI-Driven Cyber-Attacks Targeting Financial and Crypto Businesses News 5 November 2026 2 Residential Proxy Traffic Traced to White House Network News 5 November 2026 3 GhostMap Bug Leaves Android Phones Stuck in Reboot Loop News 5 November 2026 4 Fake Interview of Software Engineer Led to Binance Mega-Heist N
+Infosecurity Magazine Home » News » Email Addresses of 2.2 Million Sega Customers Leaked in Vendor Breach Email Addresses of 2.2 Million Sega Customers Leaked in Vendor Breach News 9 November 2026 Written by James Coker Deputy Editor , Infosecurity Magazine Follow @ReporterCoker Sega has revealed that around 2.2 million customer email addresses have been exposed as result of a third-party incident. The video gaming giant revealed on November 9 that an unauthorized third party leaked the email addresses after gaining access to Arara Inc., a Japanese email delivery provider used by Sega to distribute its email newsletter. “We deeply apologize for the great inconvenience and concern caused to our customers and all parties involved,” Sega wrote. “Currently, Arara is working to identify the causes of unauthorized access and prevent further damage, and we are working with Arara and related companies to confirm the details of the leaked information.” The Japanese firm said the breach is limited to 2.196 million email addresses for various email newsletters, and 92,273 items related to distribution. The leaked information does not include customer names, dates of birth, genders, addresses, phone numbers, credit card information or login passwords. No misuse of the leaked data has been currently confirmed. However, Sega has warned customers to be vigilant for suspicious emails purporting to be from Sega or Sega Fave Corporation, or using product or service names operated by both companies. Sega Fave is a subsidiary of the broader Sega group, which focuses on the production of toys and arcade machines. “Please do not open or reply to URLs or attachments provided in emails you do not recognize. Accessing URLs or opening attached files may lead to entering personal information or affecting your device. Neither our company nor Sega Fave will ask you for your password or credit card information by email. If you receive such an email, do not access the reply or the provided link; delete it,” the company said. Sega Breach Part of Large-Scale Third-Party Incident Arara revealed it had been compromised in a statement issued on October 29, which said that unauthorized access was gained to certain server systems of its email distribution service a day earlier, on October 28 after a hacker exploited vulnerabilities in web servers. The distribution service ‘Arara Message’ was suspended on October 31 and remains offline at the time of writing, according to a dedicated incident page set up by the firm to provide updates. According to a report by The Japan Times , Arara’s parent company Paycloud Holdings confirmed on November 2 that hackers gained unauthorized access to servers operated by the subsidiary, which exposed information held by around 380 corporate clients using the service. This included 77 million email addresses. Paycloud also noted that depending on the company, the breached data also included names, telephone numbers and addresses. However, it said that no credit card details have been exposed. Image credit: Bangla press / Shutterstock.com You may also like Over 460,000 E-Retailer User Accounts Hacked News 14 May 2019 Qantas Contacted by Potential Cybercriminal Following Data Breach News 7 July 2025 UK Councils Warn of Data Breach After Attack on Medical Supplier News 17 May 2024 Santander Customer Data Compromised Following Third-Party Breach News 15 May 2024 Third-Party Breach Impacts Majority of Allianz Life US Customers News 28 July 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice New Supply Chain Attack Compromises Tens of Thousands of GitHub Repositories News 9 November 2026 1 ARTEX Offensive AI Tool Activity Far Exceeds Reported Campaigns, Censys Finds News 6 November 2026 2 Jailbroken AI Agent Ran Two-Week Attack on European Telecom News 9 November 2026 3 Email Addresses of 2.2 Million Sega Customers Leaked in Vendor Breach News 9 November 2026 4 Anti-Money Laundering Watchdog FATF Targets Scam Comp
 ```
 
 #### Corroborating sources (1)
@@ -3559,6 +3549,96 @@ Infosecurity Magazine Home » News » Email Addresses of 2.2 Million Sega Custom
   - Published: 2026-11-09T13:31:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/email-sega-customers-vendor-breach/
   - Summary: Gaming company Sega warned customers to be vigilant for suspicious emails after hackers compromised Japanese email delivery provider Arara
+
+### Cluster 40880954b6 — score 9
+
+- Title: IP snowshoeing under US .gov email via a whitelisted AmazonSES typo in SPF
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-11-09T17:41:19+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1xry7z3/ip_snowshoeing_under_us_gov_email_via_a/
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: government
+- content_type: threat_research
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- affected_industries: government
+- content_type: threat_research
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+I run a small email security consultancy and this is our research. A typo of AmazonSES in US government DNS whitelisted 32,066 IPs to pass DMARC p=quarantine as milivcounty[.]gov, with the IP set rotating every 3-8 days. Attackers are snowshoeing the IPs, and once they get listed by Abusix and Spamhaus, they rotate the SPF include chain. Other AmazonSES typos in gov SPF are amasonses[.]com under pikevilleky[.]gov and amazones[.]com under townofkirkwood[.]gov. There are also 40 other US Gov domains with dangling & abused NS (domain takeover), MX (mail interception), and DMARC (telemetry hijack) records. Our team has registered 17 of these typos and expired domains, including one that had been in use for 20 years and only expired in August. DNS vulnerabilities have been around for decades, but many US government orgs decided to skip the security guardrails when they had the chance, and now those old gaps are being exploited by the same technologies they missed. submitted by /u/PlasmaJam
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: IP snowshoeing under US .gov email via a whitelisted AmazonSES typo in SPF
+  - Published: 2026-11-09T17:41:19+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1xry7z3/ip_snowshoeing_under_us_gov_email_via_a/
+  - Summary: I run a small email security consultancy and this is our research. A typo of AmazonSES in US government DNS whitelisted 32,066 IPs to pass DMARC p=quarantine as milivcounty[.]gov, with the IP set rotating every 3-8 days. Attackers are snowshoeing the IPs, and once they get listed by Abusix and Spamhaus, they rotate the SPF include chain. Other AmazonSES typos in gov SPF are amasonses[.]com under pikevilleky[.]gov and amazones[.]com under townofkirkwood[.]gov. There are also 40 other US Gov domains with dangling & abused NS (domain takeover), MX (mail interception), and DMARC (telemetry hijack) records. Our team has registered 17 of these typos and expired domains, including one that had been in use for 20 years and only expired in August. DNS vulnerabilities have been around for decades, but many US government orgs decided to skip the security guardrails when they had the chance, and now those old gaps are being exploited by the same technologies they missed. submitted by /u/PlasmaJam
+
+### Cluster 88ecd31efa — score 9
+
+- Title: Locating the source of a mysterious beep with Claude
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-11-09T23:57:21+00:00
+- Link: https://simonwillison.net/2026/Nov/9/mysterious-beeps/
+- Fetch status: not_attempted
+- Member count: 5
+- Corroborating source count: 5
+- Strong signals: Anthropic/Claude
+
+#### Cluster taxonomy (union across members)
+- affected_products: Anthropic/Claude
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- affected_products: Anthropic/Claude
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I really didn't want to dig through every one of those boxes. So I had Claude Code build Beep Locator , a software system for triangulating the source of a mysterious beep using multiple devices scattered around the room. Here's what Beep Locator looks like after it has been running for a while: You run Python web server to show the primary UI, and then use the QR code or URL to connect as many devices as you can spare to act as listeners - I was using two iPads, a phone, a MacBook Pro and a Surface Ultra. The devices then play noises to each other to help estimate their locations. This didn't work particularly well, so I added a "Rough mode" where you can drag their icons around in the space to
+```
+
+#### Corroborating sources (5)
+
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Locating the source of a mysterious beep with Claude
+  - Published: 2026-11-09T23:57:21+00:00
+  - Link: https://simonwillison.net/2026/Nov/9/mysterious-beeps/
+  - Summary: Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I really didn't want to dig through every one of those boxes. So I had Claude Code build Beep Locator , a software system for triangulating the source of a mysterious beep using multiple devices scattered around the room. Here's what Beep Locator looks like after it has been running for a while: You run Python web server to show the primary UI, and then use the QR code or URL to connect as many devices as you can spare to act as listeners - I was using two iPads, a phone, a MacBook Pro and a Surface Ultra. The devices then play noises to each other to help estimate their locations. This didn't work particularly well, so I added a "Rough mode" where you can drag their icons around in the space to
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes
+  - Published: 2026-11-10T12:17:13+00:00
+  - Link: https://www.securityweek.com/anthropic-rolls-out-mythos-5-2-with-improved-bug-hunting-fewer-sandbox-escapes/
+  - Summary: Anthropic says Mythos 5.2 improves vulnerability discovery while showing a lower tendency to escape sandboxes in controlled tests. The post Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes appeared first on SecurityWeek .
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Claude Mythos 5.2 arrives with stronger bug hunting and less sandbox-breaking behavior
+  - Published: 2026-11-10T11:40:00+00:00
+  - Link: https://www.helpnetsecurity.com/2026/11/10/anthropic-claude-fable-and-mythos-5-2-safeguards/
+  - Summary: Anthropic released Claude Fable 5.2 and Claude Mythos 5.2. The two versions share an underlying model, with stricter safeguards for cybersecurity and biology tasks in the broadly available Fable. Fable blocks fewer requests Fable’s safety classifiers block high-risk cybersecurity tasks such as penetration testing and exploit generation, as well as most biology research tasks. When Fable blocks a request in either category, Anthropic serves a response from Opus 4.8 for cybersecurity or Opus 5 for … More → The post Claude Mythos 5.2 arrives with stronger bug hunting and less sandbox-breaking behavior appeared first on Help Net Security .
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Attackers Crash Claude's 'Office Party' Flaw to Run Malicious Code on Linux
+  - Published: 2026-11-09T18:08:30+00:00
+  - Link: https://www.darkreading.com/endpoint-security/attackers-claude-office-party-flaw-malicious-code-linux
+  - Summary: Attackers can exploit a flaw in Claude's document-processing tool by creating a temporary file that Anthropic's AI assistant can access and run on a user's machine.
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers
+  - Published: 2026-11-06T12:06:35+00:00
+  - Link: https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html
+  - Summary: A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test. The attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that makes this possible can still be exploited, the researchers said earlier this
 
 ### Cluster 126ef0910c — score 8
 
@@ -3592,39 +3672,6 @@ One of the biggest questions I get whenever I’m teaching anything focused on c
   - Published: 2026-11-05T21:04:59+00:00
   - Link: https://www.blackhillsinfosec.com/core-skills-in-age-of-ai/
   - Summary: One of the biggest questions I get whenever I’m teaching anything focused on core skills—whether it’s network security, SOC analysis, or ecurity essentials—is whether any of these classes are even necessary anymore because of AI.
-
-### Cluster 3f8231e96d — score 8
-
-- Title: The Quiet Phase: Why Active Directory Group Enumeration Deserves Your Attention
-- Source: TrustedSec (detection_response_operations)
-- Published: 2026-11-03T05:00:00+00:00
-- Link: https://trustedsec.com/blog/the-quiet-phase-active-directory-group-enumeration
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-<p>Most teams watch the door; the window gets less attention. In this blog, we cover how auditing Active Directory group enumeration surfaces attacker reconnaissance, and the QuietPhase script to help you get started.</p>
-```
-
-#### Corroborating sources (1)
-
-- **TrustedSec** (detection_response_operations)
-  - Title: The Quiet Phase: Why Active Directory Group Enumeration Deserves Your Attention
-  - Published: 2026-11-03T05:00:00+00:00
-  - Link: https://trustedsec.com/blog/the-quiet-phase-active-directory-group-enumeration
-  - Summary: <p>Most teams watch the door; the window gets less attention. In this blog, we cover how auditing Active Directory group enumeration surfaces attacker reconnaissance, and the QuietPhase script to help you get started.</p>
 
 ### Cluster c18828b11e — score 8
 
@@ -3727,41 +3774,6 @@ Adversary Infrastructure is a new Managed ITDR feature that blocks attackers at 
   - Link: https://www.huntress.com/blog/itdr-adversary-infrastructure
   - Summary: Adversary Infrastructure is a new Managed ITDR feature that blocks attackers at Microsoft 365 sign-in, turning one tenant’s attack into fleet-wide protection.
 
-### Cluster de4977afde — score 8
-
-- Title: Gangsters, Money Trails, and Wuffy | Huntress
-- Source: Huntress (detection_response_operations)
-- Published: 2026-11-03T08:00:00+00:00
-- Link: https://www.huntress.com/blog/declassified-money-train-episode-four
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-A $30 AI toy dog led Mastercard to 250+ scam sites. See how small charges and ransomware payouts follow the same money trail, and how to cut it off.
-```
-
-#### Corroborating sources (1)
-
-- **Huntress** (detection_response_operations)
-  - Title: Gangsters, Money Trails, and Wuffy | Huntress
-  - Published: 2026-11-03T08:00:00+00:00
-  - Link: https://www.huntress.com/blog/declassified-money-train-episode-four
-  - Summary: A $30 AI toy dog led Mastercard to 250+ scam sites. See how small charges and ransomware payouts follow the same money trail, and how to cut it off.
-
 ### Cluster ba77537e5c — score 8
 
 - Title: Refreshing the 555 Benchmark for Cloud Detection and Response in the AI era
@@ -3794,6 +3806,149 @@ The 555 Benchmark for Cloud Detection and Response gives organizations a framewo
   - Published: 2026-11-05T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/refreshing-the-555-benchmark-for-cloud-detection-and-response-in-the-ai-era
   - Summary: The 555 Benchmark for Cloud Detection and Response gives organizations a framework to meet the reality of AI-assisted attacks.
+
+### Cluster f4a8588ad5 — score 8
+
+- Title: IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-11-10T09:42:27+00:00
+- Link: https://www.securityweek.com/ibm-aspera-faspex-signalwire-freeswitch-vulnerabilities-exploited-in-attacks/
+- Fetch status: not_attempted
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: CVE-2026-116779, CVE-2026-123218
+
+#### Cluster taxonomy (union across members)
+- affected_industries: government
+- cve_ids: CVE-2026-116779, CVE-2026-123218
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- affected_industries: government
+- cve_ids: CVE-2026-123218, CVE-2026-116779
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+CISA has added CVE-2026-123218 and CVE-2026-116779 to KEV, urging federal agencies to patch them within three days. The post IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks appeared first on SecurityWeek .
+```
+
+#### Corroborating sources (2)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks
+  - Published: 2026-11-10T09:42:27+00:00
+  - Link: https://www.securityweek.com/ibm-aspera-faspex-signalwire-freeswitch-vulnerabilities-exploited-in-attacks/
+  - Summary: CISA has added CVE-2026-123218 and CVE-2026-116779 to KEV, urging federal agencies to patch them within three days. The post IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks appeared first on SecurityWeek .
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws
+  - Published: 2026-11-10T06:31:42+00:00
+  - Link: https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html
+  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-123218 (CVSS score: 9.8) - An incorrect authorization vulnerability
+
+### Cluster ed89b4f40a — score 8
+
+- Title: Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-11-09T12:22:12+00:00
+- Link: https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Italian Foreign Minister Antonio Tajani said Saturday that his personal data had been disseminated on the dark web. The post Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web appeared first on SecurityWeek .
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web
+  - Published: 2026-11-09T12:22:12+00:00
+  - Link: https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/
+  - Summary: Italian Foreign Minister Antonio Tajani said Saturday that his personal data had been disseminated on the dark web. The post Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web appeared first on SecurityWeek .
+
+### Cluster 4609022d6e — score 8
+
+- Title: Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-11-09T12:13:32+00:00
+- Link: https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The initial exploitation attempts are attributed to botnets and crypto miners, but other threat actors are expected to follow suit. The post Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH appeared first on SecurityWeek .
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH
+  - Published: 2026-11-09T12:13:32+00:00
+  - Link: https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/
+  - Summary: The initial exploitation attempts are attributed to botnets and crypto miners, but other threat actors are expected to follow suit. The post Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH appeared first on SecurityWeek .
+
+### Cluster cefdb8b68e — score 8
+
+- Title: Microsoft Fixes RCE Bug in Windows Paint After Weeks of Confusion
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-11-09T21:12:24+00:00
+- Link: https://www.darkreading.com/application-security/microsoft-rce-bug-windows-paint-confusion
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Last month, Microsoft disclosed a vulnerability in Microsoft Paint, but messaging regarding a patch was unclear.
+```
+
+#### Corroborating sources (1)
+
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Microsoft Fixes RCE Bug in Windows Paint After Weeks of Confusion
+  - Published: 2026-11-09T21:12:24+00:00
+  - Link: https://www.darkreading.com/application-security/microsoft-rce-bug-windows-paint-confusion
+  - Summary: Last month, Microsoft disclosed a vulnerability in Microsoft Paint, but messaging regarding a patch was unclear.
 
 ### Cluster 0fc3b40a6b — score 8
 
@@ -3829,6 +3984,43 @@ An unknown operator appears to have exfiltrated SQL Server backups from the Phil
   - Published: 2026-11-04T02:00:00+00:00
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach
   - Summary: An unknown operator appears to have exfiltrated SQL Server backups from the Philippine Overseas Employment Administration in under a half hour.
+
+### Cluster 0ed425c798 — score 8
+
+- Title: Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-11-10T10:07:29+00:00
+- Link: https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails. According to an ESET report shared with The Hacker News ahead of publication, the sophisticated and modular tool is designed for
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers
+  - Published: 2026-11-10T10:07:29+00:00
+  - Link: https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html
+  - Summary: The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails. According to an ESET report shared with The Hacker News ahead of publication, the sophisticated and modular tool is designed for
 
 ### Cluster 32d4c5b2da — score 8
 
