@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-10T20:45:20.975522+00:00",
+  "generated_at": "2026-11-11T01:10:06.239453+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2208,
   "feed_status": {
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 6
+      "in_window_count": 0
     },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
@@ -18,19 +18,12 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
+      "in_window_count": 7
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -46,11 +39,32 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "fetch_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 25,
+      "in_window_count": 0
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "NCSC UK": {
@@ -60,12 +74,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
-      "status": "fetch_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -74,19 +88,12 @@
       "item_count": 15,
       "in_window_count": 4
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
+      "item_count": 15,
+      "in_window_count": 1
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -95,19 +102,12 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 4
+      "item_count": 10,
+      "in_window_count": 0
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -116,6 +116,13 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 4
+    },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -123,11 +130,11 @@
       "item_count": 10,
       "in_window_count": 6
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 78,
       "in_window_count": 0
     },
     "PortSwigger Research": {
@@ -151,13 +158,6 @@
       "item_count": 50,
       "in_window_count": 0
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
@@ -179,12 +179,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 1
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
@@ -193,15 +193,8 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -214,13 +207,6 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 6
-    },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
@@ -228,25 +214,18 @@
       "item_count": 15,
       "in_window_count": 2
     },
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 30,
-      "in_window_count": 1
-    },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
       "in_window_count": 1
     },
     "Orca Security Research": {
@@ -256,12 +235,33 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
+      "item_count": 20,
+      "in_window_count": 7
+    },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 7
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
@@ -270,18 +270,32 @@
       "item_count": 100,
       "in_window_count": 6
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Google Project Zero": {
+      "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 0
+    },
+    "Protect AI": {
+      "url": "https://protectai.com/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Cloudflare Security": {
@@ -291,39 +305,11 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "Protect AI": {
-      "url": "https://protectai.com/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Google Project Zero": {
-      "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
-    },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
-    },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
       "in_window_count": 0
     },
     "Google DeepMind Blog": {
@@ -333,12 +319,12 @@
       "item_count": 100,
       "in_window_count": 4
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
@@ -347,12 +333,19 @@
       "item_count": 10,
       "in_window_count": 6
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 100,
+      "in_window_count": 3
+    },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -361,40 +354,19 @@
       "item_count": 5,
       "in_window_count": 5
     },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 15
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 16
-    },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -403,6 +375,27 @@
       "item_count": 20,
       "in_window_count": 20
     },
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -410,12 +403,12 @@
       "item_count": 50,
       "in_window_count": 2
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 27
+      "item_count": 30,
+      "in_window_count": 14
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -431,19 +424,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 27
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 4
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -459,19 +452,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 100,
+      "in_window_count": 3
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
@@ -480,12 +466,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
@@ -501,6 +487,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -508,12 +501,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -527,7 +527,7 @@
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 16
+      "in_window_count": 17
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -548,7 +548,7 @@
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 6
+      "in_window_count": 5
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -562,7 +562,7 @@
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 2
+      "in_window_count": 1
     }
   },
   "cohorts": {
@@ -728,91 +728,52 @@
       ]
     },
     {
-      "label": "SonicWall active exploitation",
-      "anchor_signal": "SonicWall",
-      "theme_key": "sonicwall",
-      "dominant_features": {
-        "threat_categories": [
-          "zero_day",
-          "data_breach",
-          "active_exploitation",
-          "ransomware_extortion",
-          "supply_chain"
-        ],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [
-          "SonicWall",
-          "OpenAI/ChatGPT"
-        ],
-        "urgency_signals": [
-          "zero_day",
-          "actively_exploited",
-          "preauth_unauth"
-        ]
-      },
-      "cluster_count": 5,
-      "article_count": 7,
-      "cohesion": 0.211,
-      "shared_strong_signals": [
-        "SonicWall"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "af40f55acb",
-        "6ad44c1b8b",
-        "e8815d20df",
-        "be0ba4d322",
-        "f16dc4e6ea"
-      ],
-      "links": [
-        "https://risky.biz/RBNEWS631/",
-        "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
-        "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
-        "https://securelist.com/malware-report-q3-2026-pc-iot-statistics/121843/",
-        "https://research.checkpoint.com/2026/9th-november-threat-intelligence-report/",
-        "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/"
-      ]
-    },
-    {
-      "label": "Microsoft 365 active exploitation",
+      "label": "Microsoft 365 exploitation (CVE-2026-125350)",
       "anchor_signal": "Microsoft 365",
       "theme_key": "microsoft-365",
       "dominant_features": {
         "threat_categories": [
           "phishing_social_eng",
-          "active_exploitation"
+          "active_exploitation",
+          "zero_day"
         ],
         "affected_products": [
           "Microsoft 365",
-          "Google Workspace"
+          "Google Workspace",
+          "Ivanti"
+        ],
+        "cve_ids": [
+          "CVE-2026-125350"
         ],
         "urgency_signals": [
-          "actively_exploited"
+          "actively_exploited",
+          "zero_day"
         ]
       },
-      "cluster_count": 5,
+      "cluster_count": 6,
       "article_count": 5,
-      "cohesion": 0.262,
+      "cohesion": 0.233,
       "shared_strong_signals": [
         "Microsoft 365"
       ],
-      "member_cves": [],
+      "member_cves": [
+        "CVE-2026-125350"
+      ],
       "also_targets": [],
       "cluster_ids": [
+        "9f1c44758d",
         "157d563d28",
+        "ed2e51b312",
         "3884d721a5",
         "b62a4f0de2",
-        "5d7ba2fe30",
         "ab3de8a4b9"
       ],
       "links": [
+        "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
         "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+        "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
         "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
         "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
-        "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
         "https://www.huntress.com/blog/itdr-adversary-infrastructure"
       ]
     },
@@ -828,9 +789,9 @@
           "AWS"
         ]
       },
-      "cluster_count": 3,
-      "article_count": 13,
-      "cohesion": 0.2,
+      "cluster_count": 4,
+      "article_count": 14,
+      "cohesion": 0.239,
       "shared_strong_signals": [
         "AWS"
       ],
@@ -839,6 +800,7 @@
       "cluster_ids": [
         "8f9962534a",
         "37df53764c",
+        "a37e56ab03",
         "80d7a56920"
       ],
       "links": [
@@ -851,196 +813,100 @@
         "https://www.infosecurity-magazine.com/news/apt29-watering-holes-iphones/",
         "https://securelist.com/malware-report-q3-2026-mobile-statistics/121844/",
         "https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users",
+        "https://aws.amazon.com/blogs/security/reduce-alert-fatigue-by-customizing-threat-detection-features-in-amazon-guardduty/",
         "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/"
       ]
     },
     {
-      "label": "CVE-2026-2441 exploitation activity",
-      "anchor_signal": "CVE-2026-2441",
-      "theme_key": "cve-2026-2441",
+      "label": "SonicWall active exploitation",
+      "anchor_signal": "SonicWall",
+      "theme_key": "sonicwall",
       "dominant_features": {
         "threat_categories": [
           "zero_day",
-          "active_exploitation"
+          "active_exploitation",
+          "data_breach",
+          "ransomware_extortion"
         ],
-        "cve_ids": [
-          "CVE-2026-125350",
-          "CVE-2026-2441",
-          "CVE-2026-3909",
-          "CVE-2026-3910",
-          "CVE-2026-5281"
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "SonicWall"
         ],
         "urgency_signals": [
           "actively_exploited",
-          "zero_day"
+          "zero_day",
+          "preauth_unauth"
         ]
       },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.6,
+      "cluster_count": 4,
+      "article_count": 6,
+      "cohesion": 0.213,
       "shared_strong_signals": [
-        "CVE-2026-2441"
+        "SonicWall"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "9f1c44758d",
-        "b62a4f0de2"
+        "af40f55acb",
+        "6ad44c1b8b",
+        "e8815d20df",
+        "be0ba4d322"
       ],
       "links": [
-        "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-        "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/"
+        "https://risky.biz/RBNEWS631/",
+        "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+        "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
+        "https://securelist.com/malware-report-q3-2026-pc-iot-statistics/121843/",
+        "https://research.checkpoint.com/2026/9th-november-threat-intelligence-report/"
       ]
     },
     {
-      "label": "CVE-2026-125350 exploitation activity",
-      "anchor_signal": "CVE-2026-125350",
-      "theme_key": "cve-2026-125350",
+      "label": "Ivanti exploitation (CVE-2026-124194)",
+      "anchor_signal": "Ivanti",
+      "theme_key": "ivanti",
       "dominant_features": {
         "threat_categories": [
           "zero_day",
-          "active_exploitation"
+          "active_exploitation",
+          "phishing_social_eng"
+        ],
+        "affected_products": [
+          "Ivanti",
+          "Microsoft 365"
         ],
         "cve_ids": [
-          "CVE-2026-125350",
-          "CVE-2026-2441",
-          "CVE-2026-3909",
-          "CVE-2026-3910",
-          "CVE-2026-5281"
+          "CVE-2026-124194",
+          "CVE-2026-125350"
         ],
         "urgency_signals": [
           "actively_exploited",
           "zero_day"
         ]
       },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.6,
+      "cluster_count": 5,
+      "article_count": 3,
+      "cohesion": 0.334,
       "shared_strong_signals": [
-        "CVE-2026-125350"
+        "Ivanti"
       ],
-      "member_cves": [],
+      "member_cves": [
+        "CVE-2026-124194"
+      ],
       "also_targets": [],
       "cluster_ids": [
-        "9f1c44758d",
+        "e1f9a19221",
+        "e431aef169",
+        "6ad44c1b8b",
+        "ed2e51b312",
         "b62a4f0de2"
       ],
       "links": [
-        "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-        "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/"
-      ]
-    },
-    {
-      "label": "CVE-2026-3909 exploitation activity",
-      "anchor_signal": "CVE-2026-3909",
-      "theme_key": "cve-2026-3909",
-      "dominant_features": {
-        "threat_categories": [
-          "zero_day",
-          "active_exploitation"
-        ],
-        "cve_ids": [
-          "CVE-2026-125350",
-          "CVE-2026-2441",
-          "CVE-2026-3909",
-          "CVE-2026-3910",
-          "CVE-2026-5281"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "zero_day"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.6,
-      "shared_strong_signals": [
-        "CVE-2026-3909"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "9f1c44758d",
-        "b62a4f0de2"
-      ],
-      "links": [
-        "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-        "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/"
-      ]
-    },
-    {
-      "label": "CVE-2026-5281 exploitation activity",
-      "anchor_signal": "CVE-2026-5281",
-      "theme_key": "cve-2026-5281",
-      "dominant_features": {
-        "threat_categories": [
-          "zero_day",
-          "active_exploitation"
-        ],
-        "cve_ids": [
-          "CVE-2026-125350",
-          "CVE-2026-2441",
-          "CVE-2026-3909",
-          "CVE-2026-3910",
-          "CVE-2026-5281"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "zero_day"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.6,
-      "shared_strong_signals": [
-        "CVE-2026-5281"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "9f1c44758d",
-        "b62a4f0de2"
-      ],
-      "links": [
-        "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-        "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/"
-      ]
-    },
-    {
-      "label": "CVE-2026-3910 exploitation activity",
-      "anchor_signal": "CVE-2026-3910",
-      "theme_key": "cve-2026-3910",
-      "dominant_features": {
-        "threat_categories": [
-          "zero_day",
-          "active_exploitation"
-        ],
-        "cve_ids": [
-          "CVE-2026-125350",
-          "CVE-2026-2441",
-          "CVE-2026-3909",
-          "CVE-2026-3910",
-          "CVE-2026-5281"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "zero_day"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.6,
-      "shared_strong_signals": [
-        "CVE-2026-3910"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "9f1c44758d",
-        "b62a4f0de2"
-      ],
-      "links": [
-        "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+        "https://www.rapid7.com/blog/post/em-patch-tuesday-november-2026",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+        "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
+        "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
         "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/"
       ]
     },
@@ -1117,39 +983,151 @@
       ]
     },
     {
-      "label": "CVE-2026-124194 exploitation activity",
-      "anchor_signal": "CVE-2026-124194",
-      "theme_key": "cve-2026-124194",
+      "label": "CVE-2026-111560 exploitation activity",
+      "anchor_signal": "CVE-2026-111560",
+      "theme_key": "cve-2026-111560",
       "dominant_features": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "affected_industries": [
-          "manufacturing_industrial"
-        ],
         "cve_ids": [
-          "CVE-2026-124194"
-        ],
-        "urgency_signals": [
-          "zero_day",
-          "preauth_unauth"
+          "CVE-2026-111560",
+          "CVE-2026-116606"
         ]
       },
       "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.538,
+      "article_count": 4,
+      "cohesion": 0.2,
       "shared_strong_signals": [
-        "CVE-2026-124194"
+        "CVE-2026-111560"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "e431aef169",
-        "6ad44c1b8b"
+        "995b3fbc00",
+        "be0ba4d322"
       ],
       "links": [
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
-        "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/"
+        "https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/",
+        "https://www.reddit.com/r/netsec/comments/1xouqpj/barracuda_networks_is_your_new_best_friend/",
+        "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
+        "https://research.checkpoint.com/2026/9th-november-threat-intelligence-report/"
+      ]
+    },
+    {
+      "label": "CVE-2026-116606 exploitation activity",
+      "anchor_signal": "CVE-2026-116606",
+      "theme_key": "cve-2026-116606",
+      "dominant_features": {
+        "cve_ids": [
+          "CVE-2026-111560",
+          "CVE-2026-116606"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 4,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "CVE-2026-116606"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "995b3fbc00",
+        "be0ba4d322"
+      ],
+      "links": [
+        "https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/",
+        "https://www.reddit.com/r/netsec/comments/1xouqpj/barracuda_networks_is_your_new_best_friend/",
+        "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
+        "https://research.checkpoint.com/2026/9th-november-threat-intelligence-report/"
+      ]
+    },
+    {
+      "label": "Palo Alto Networks active exploitation",
+      "anchor_signal": "Palo Alto Networks",
+      "theme_key": "palo-alto-networks",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "affected_products": [
+          "Palo Alto Networks"
+        ],
+        "urgency_signals": [
+          "actively_exploited"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 3,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "Palo Alto Networks"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "e8815d20df",
+        "cf735bba5e",
+        "b62a4f0de2"
+      ],
+      "links": [
+        "https://securelist.com/malware-report-q3-2026-pc-iot-statistics/121843/",
+        "https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/",
+        "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/"
+      ]
+    },
+    {
+      "label": "Cisco vulnerability activity",
+      "anchor_signal": "Cisco",
+      "theme_key": "cisco",
+      "dominant_features": {
+        "affected_products": [
+          "Cisco"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 3,
+      "cohesion": 0.286,
+      "shared_strong_signals": [
+        "Cisco"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "44eedd2569",
+        "fe30f85ed7"
+      ],
+      "links": [
+        "https://isc.sans.edu/diary/rss/33492",
+        "https://www.helpnetsecurity.com/2026/11/10/slack-ai-reverse-engineering/",
+        "https://blog.talosintelligence.com/bring-a-tent-ive-got-the-coffee-lessons-from-it-sa/"
+      ]
+    },
+    {
+      "label": "credential theft targeting Microsoft Defender",
+      "anchor_signal": "Microsoft Defender",
+      "theme_key": "microsoft-defender",
+      "dominant_features": {
+        "threat_categories": [
+          "credential_theft"
+        ],
+        "affected_products": [
+          "Microsoft Defender"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 4,
+      "cohesion": 0.636,
+      "shared_strong_signals": [
+        "Microsoft Defender"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "cad242836e",
+        "29018d8a93"
+      ],
+      "links": [
+        "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights/",
+        "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/"
       ]
     }
   ],
@@ -1157,64 +1135,40 @@
     "novelty": {
       "cves": [
         {
-          "value": "CVE-2026-124194",
-          "cluster_id": "e431aef169",
-          "first_source": "BleepingComputer",
-          "first_published": "2026-11-10T19:07:36+00:00"
+          "value": "CVE-2026-119952",
+          "cluster_id": "e1f9a19221",
+          "first_source": "Rapid7",
+          "first_published": "2026-11-10T21:55:37+00:00"
         },
         {
-          "value": "CVE-2026-105437",
-          "cluster_id": "7d41d4d72e",
-          "first_source": "GitHub Security Lab",
-          "first_published": "2026-11-10T18:00:00+00:00"
+          "value": "CVE-2026-125878",
+          "cluster_id": "b481567219",
+          "first_source": "Huntress",
+          "first_published": "2026-11-09T21:00:00+00:00"
         },
         {
-          "value": "CVE-2026-111760",
-          "cluster_id": "7d41d4d72e",
-          "first_source": "GitHub Security Lab",
-          "first_published": "2026-11-10T18:00:00+00:00"
+          "value": "CVE-2026-125879",
+          "cluster_id": "b481567219",
+          "first_source": "Huntress",
+          "first_published": "2026-11-09T21:00:00+00:00"
         },
         {
-          "value": "CVE-2026-113408",
-          "cluster_id": "7d41d4d72e",
-          "first_source": "GitHub Security Lab",
-          "first_published": "2026-11-10T18:00:00+00:00"
+          "value": "CVE-2026-125880",
+          "cluster_id": "b481567219",
+          "first_source": "Huntress",
+          "first_published": "2026-11-09T21:00:00+00:00"
         },
         {
-          "value": "CVE-2026-114467",
-          "cluster_id": "7d41d4d72e",
-          "first_source": "GitHub Security Lab",
-          "first_published": "2026-11-10T18:00:00+00:00"
+          "value": "CVE-2026-125881",
+          "cluster_id": "b481567219",
+          "first_source": "Huntress",
+          "first_published": "2026-11-09T21:00:00+00:00"
         },
         {
-          "value": "CVE-2026-114469",
-          "cluster_id": "7d41d4d72e",
-          "first_source": "GitHub Security Lab",
-          "first_published": "2026-11-10T18:00:00+00:00"
-        },
-        {
-          "value": "CVE-2025-48757",
-          "cluster_id": "250249bdb2",
-          "first_source": "Orca Security Research",
-          "first_published": "2026-11-10T13:00:00+00:00"
-        },
-        {
-          "value": "CVE-2026-124194",
-          "cluster_id": "6ad44c1b8b",
-          "first_source": "SecurityWeek",
-          "first_published": "2026-11-10T19:19:46+00:00"
-        },
-        {
-          "value": "CVE-2026-113963",
-          "cluster_id": "3884d721a5",
-          "first_source": "BleepingComputer",
-          "first_published": "2026-11-10T15:59:19+00:00"
-        },
-        {
-          "value": "CVE-2026-111760",
-          "cluster_id": "9e237d8160",
-          "first_source": "The Hacker News",
-          "first_published": "2026-11-10T19:23:10+00:00"
+          "value": "CVE-2026-125883",
+          "cluster_id": "b481567219",
+          "first_source": "Huntress",
+          "first_published": "2026-11-09T21:00:00+00:00"
         }
       ],
       "actors": [],
@@ -1307,7 +1261,6 @@
           "telecommunications"
         ],
         "new_products": [
-          "AWS",
           "Android",
           "GitHub"
         ],
@@ -1317,19 +1270,13 @@
           "manufacturing_industrial"
         ],
         "prior_top_products": [
+          "AWS",
           "Microsoft Entra",
-          "Palo Alto Networks",
-          "VMware"
+          "Palo Alto Networks"
         ]
       }
     ],
     "persistence": [
-      {
-        "axis": "actor_attribution",
-        "value": "ShinyHunters",
-        "cluster_id": "e187b723b4",
-        "weeks_observed": 14
-      },
       {
         "axis": "cve_ids",
         "value": "CVE-2026-15409",
@@ -1337,34 +1284,10 @@
         "weeks_observed": 6
       },
       {
-        "axis": "cve_ids",
-        "value": "CVE-2025-53770",
-        "cluster_id": "19de1ddcd3",
-        "weeks_observed": 6
-      },
-      {
         "axis": "actor_attribution",
         "value": "APT29",
         "cluster_id": "37df53764c",
         "weeks_observed": 5
-      },
-      {
-        "axis": "cve_ids",
-        "value": "CVE-2026-86218",
-        "cluster_id": "b481567219",
-        "weeks_observed": 5
-      },
-      {
-        "axis": "cve_ids",
-        "value": "CVE-2026-18556",
-        "cluster_id": "b481567219",
-        "weeks_observed": 4
-      },
-      {
-        "axis": "cve_ids",
-        "value": "CVE-2026-18577",
-        "cluster_id": "b481567219",
-        "weeks_observed": 4
       },
       {
         "axis": "cve_ids",
@@ -1413,6 +1336,36 @@
         "value": "CVE-2026-5281",
         "cluster_id": "9f1c44758d",
         "weeks_observed": 3
+      },
+      {
+        "axis": "cve_ids",
+        "value": "CVE-2026-20700",
+        "cluster_id": "37df53764c",
+        "weeks_observed": 3
+      },
+      {
+        "axis": "cve_ids",
+        "value": "CVE-2026-101767",
+        "cluster_id": "4f54dd8a3e",
+        "weeks_observed": 3
+      },
+      {
+        "axis": "cve_ids",
+        "value": "CVE-2025-60710",
+        "cluster_id": "e8815d20df",
+        "weeks_observed": 3
+      },
+      {
+        "axis": "cve_ids",
+        "value": "CVE-2026-0257",
+        "cluster_id": "e8815d20df",
+        "weeks_observed": 3
+      },
+      {
+        "axis": "cve_ids",
+        "value": "CVE-2026-45659",
+        "cluster_id": "e8815d20df",
+        "weeks_observed": 3
       }
     ],
     "tier_inversion": [
@@ -1427,6 +1380,375 @@
     ]
   },
   "items": [
+    {
+      "source": "AWS Security Blog",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Reduce alert fatigue by customizing threat detection features in Amazon GuardDuty",
+      "link": "https://aws.amazon.com/blogs/security/reduce-alert-fatigue-by-customizing-threat-detection-features-in-amazon-guardduty/",
+      "published": "2026-11-10T23:04:52+00:00",
+      "summary": "The teams responsible for security today don’t have a problem with the number of alerts they receive; they have a problem turning those alerts into something truly actionable. When an analyst concludes an investigation with “this was caused by our vulnerability scanner” or “this account is configured to share Amazon Machine Images (AMIs) publicly on […]",
+      "author": "Allan Holmes",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "AWS"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {
+          "AWS": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 9,
+      "full_body": "AWS Security Blog Reduce alert fatigue by customizing threat detection features in Amazon GuardDuty The teams responsible for security today don’t have a problem with the number of alerts they receive; they have a problem turning those alerts into something truly actionable. When an analyst concludes an investigation with “this was caused by our vulnerability scanner” or “this account is configured to share Amazon Machine Images (AMIs) publicly on purpose,” the detection worked as designed, it just wasn’t applicable to the environment. When this happens continuously at scale, alert fatigue sets in. As teams sort through these events, incident response slows down or, worse, teams stop paying attention to the alerts at all. Amazon GuardDuty is a threat detection service that continuously monitors, analyzes, and processes Amazon Web Services (AWS) data sources and logs in your AWS environment for suspicious or potentially malicious activity. GuardDuty then delivers detailed security findings to you for visibility and remediation. GuardDuty accomplishes this by analyzing independent streams of available sources. This includes logging of management events in AWS CloudTrail , information about IP traffic through Amazon Virtual Private Cloud (Amazon VPC) Flow Logs, and Amazon Route 53 DNS query logs to name a few. These sources don’t need to be enabled or configured within your accounts for GuardDuty to use them. When GuardDuty observes activity that looks suspicious or anomalous, it produces a finding that’s a detailed security alert naming the behavior, the resources involved, and any supporting evidence. A finding is a signal to investigate, not a final verdict. While the managed detections in GuardDuty work consistently across every AWS customer, personalizing detections for your specific architectures and environments is equally important. Over the past year, AWS has released a set of capabilities within GuardDuty that you can use to supply that missing context, most recently with the launch of Custom Detection Rules. In this post, we walk through those capabilities in three distinct stages. These stages explore how to customize what GuardDuty detects, triage the findings that remain, and accelerate investigations. Throughout this blog post you’ll learn how to: Efficiently detect anomalous behavior that shouldn’t occur in a specific account, without building detection logic yourself Measure if a detection will be noisy before it generates a single finding, flooding security teams Feed your own custom threat intelligence, including file hashes, into GuardDuty Scope a suppression rule narrowly enough to archive expected activity while surfacing the same behavior elsewhere Get an automated analysis of a finding, with a risk level and recommended actions, before the finding is opened manually Prerequisites For the walkthrough in this post, you must have the following prerequisites in place. GuardDuty must be enabled in at least one AWS account and AWS Region. Note that these customization features aren’t currently available in all Regions, for more information, see Region-specific feature availability . Your user or role must have AWS Identity and Access Management (IAM) permissions to configure these features in GuardDuty. The AmazonGuardDutyFullAccess_v2 managed policy covers the required actions. If you manage multiple accounts through AWS Organizations , AWS recommends administering GuardDuty using the delegated administrator account. By using this method, you can manage lists, suppression rules, and conduct investigations from a centralized location. GuardDuty Runtime Monitoring must be enabled to conduct file hash matching and to use Custom Detection Rules for Runtime Monitoring. This protection plan isn’t enabled automatically in GuardDuty. An Amazon Simple Storage Service (Amazon S3) bucket that you control for storage of custom threat entity lists. The AWS Command Line Interface (AWS CLI) installed. Stage 1: How to customiz",
+      "fetch_status": "ok"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Detecting sleeper agents hiding in AI model neurons",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
+      "published": "2026-11-10T23:00:00+00:00",
+      "summary": "Microsoft Research has released new threat research detailing how a capable agent model could be turned into a sleeper agent by editing fewer than ten neurons to inject a short payload; Microsoft Research has also found that this threat is detectable by frontier agents, which can identify anomalous weight edits. The post Detecting sleeper agents hiding in AI model neurons appeared first on Microsoft Security Blog .",
+      "author": "Microsoft Threat Intelligence",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Anthropic/Claude"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {
+          "Anthropic/Claude": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 12,
+      "full_body": "Share Link copied to clipboard! Threats intelligence AI threats Content types Research Topics Threat intelligence Microsoft Research has released new threat research detailing how a capable agent model could be turned into a sleeper agent by editing fewer than 10 neurons to inject a short payload. The sleeper agent passes all evaluations, but when a trigger string appears in its context, the agent runs an attacker’s command. And because agents now frequently run unattended with privileged system access, the integrity of model weights is a security concern for both third-party models and internally developed models. Key findings from Microsoft Research include: Software abuse and manipulation are familiar threats. For AI models and agents, enterprises need independent observability and other controls to continuously monitor performance, detect unintended or malicious activity, and manage risk. Satya Nadella recently outlined this approach in a blog post . A backdoored model can pass evaluations. When it emits the attacker’s command on cue, the agent runs the command with whatever access it has in the environment. The attack needs inference-only compute. If a machine has enough RAM to run a model, it has enough resources to weight-space backdoor it. Claude Code with Opus 4.5 discovered most of this threat autonomously. Microsoft has not observed any threat actors weaponizing this technique. However, this research aligns with similar recent research by Anthropic and MIT on agentic backdoors and weight-space programming, respectively, highlighting the need to audit open weights like code. Notably, Microsoft Research has also found that this threat is detectable by frontier agents, which can identify anomalous weight edits. Using frontier agents as auditors can help automate the defense against this threat. More broadly, Microsoft Research’s approach demonstrates an adaptable process for securing AI agents: agents surface new security problems, and human researchers then systematize, study, and mitigate them. Learn more from the Microsoft Research Blog: Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents . Mitigation and protection guidance Microsoft recommends the following mitigations to defend against this threat as part of a broader defense-in-depth approach. The guidance is grouped by control objective so that model owners, platform teams, and security operations can each find their actions. Audit model weights before deployment and after every update Diff every checkpoint against its declared base model before deployment and after each update. Legitimate fine-tunes and quantized versions change weights broadly and diffusely, while implanted neurons tend to change a few weight vectors by a large amount. Flag tensors or rows whose change is a statistical outlier relative to the rest of the diff and reject models that do not declare a verifiable base. Use frontier AI agents as auditors in the model intake pipeline. Microsoft Research found they are highly effective at finding anomalous structure in weights that manual inspection misses, which makes this step automatable at scale. Complement weight diffing with behavioral backdoor scanning of open-weight models, as described in Microsoft’s research on detecting backdoored language models at scale . Record audit results alongside the model in the registry, and state clearly to internal consumers that passing an audit reduces risk but does not guarantee safe behavior. Secure model hubs and publishers Display provenance and audit status publicly before a checkpoint can be downloaded or served through an API. Scan every upload for anomalous neurons, weight patterns or behaviors, and state clearly that third-party checkpoints can be unsafe and that passing an audit does not guarantee safe behavior. Treat every third-party model as untrusted until audited Source checkpoints only from the original publisher, verify the publisher’s published file hashes, and treat all",
+      "fetch_status": "ok"
+    },
+    {
+      "source": "Dark Reading",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
+      "published": "2026-11-10T22:26:51+00:00",
+      "summary": "Microsoft serves up an actively exploited Outlook zero-day, and a wave of critical Exchange, SharePoint, Windows Search, and LDAP bugs that exhausted defenders need to prioritize fast.",
+      "author": "Tara Seals",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day",
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft SharePoint"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "zero_day"
+        ],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "Microsoft SharePoint": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 21,
+      "full_body": "",
+      "fetch_status": "fetch_failed:HTTPError"
+    },
+    {
+      "source": "BleepingComputer",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Railway breach leads to $740,000 in fraudulent AI charges",
+      "link": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+      "published": "2026-11-10T22:20:19+00:00",
+      "summary": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing credentials for up to 100,000 workspaces. [...]",
+      "author": "Lawrence Abrams",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
+    {
+      "source": "Rapid7",
+      "cohort": "offensive_vulnerability_research",
+      "category": "offensive_vulnerability_research",
+      "title": "Patch Tuesday - November 2026",
+      "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-november-2026",
+      "published": "2026-11-10T21:55:37+00:00",
+      "summary": "Microsoft is publishing 1,092 own-product vulnerabilities on November 2026 Patch Tuesday, including 1,102 vulnerabilities in Windows. Until a few months ago, these volumes would have been unimaginable, but if anything, this month feels like a slight reprieve. The jury is still out on whether patching many more vulnerabilities will lead to better security outcomes; every code change to resolve a known vulnerability could easily introduce new hidden treasure for researchers or threat actors to unearth in the future. Despite the vast uptick in volume during 2026, there has been no accompanying increase in the number of vulnerabilities known to be exploited in the wild. Microsoft is aware of exploitation in the wild for just one of the vulnerabilities published today, with no known public disclosure at all this month. Outlook: zero-day spoofing Imagine coming home and checking your mailbox to find a postcard. You admire the non-specific image of a tropical beach at sunset, and flip it over",
+      "author": "Adam Barnett",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day",
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-124194",
+          "CVE-2026-119952"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "zero_day",
+          "preauth_unauth"
+        ],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 38,
+      "full_body": "Patch Tuesday Patch Tuesday - November 2026 Adam Barnett Nov 10, 2026 | Last updated on Nov 11, 2026 | 178 min read Patch Tuesday - November 2026 Table of contents Patch Tuesday - November 2026 Table of contents Microsoft is publishing 1,092 own-product vulnerabilities on November 2026 Patch Tuesday, including 1,102 vulnerabilities in Windows. Until a few months ago, these volumes would have been unimaginable, but if anything, this month feels like a slight reprieve. The jury is still out on whether patching many more vulnerabilities will lead to better security outcomes; every code change to resolve a known vulnerability could easily introduce new hidden treasure for researchers or threat actors to unearth in the future. Despite the vast uptick in volume during 2026, there has been no accompanying increase in the number of vulnerabilities known to be exploited in the wild. Microsoft is aware of exploitation in the wild for just one of the vulnerabilities published today, with no known public disclosure at all this month. Outlook: zero-day spoofing Imagine coming home and checking your mailbox to find a postcard. You admire the non-specific image of a tropical beach at sunset, and flip it over to scan the handwriting on the back, which looks vaguely familiar. It’s addressed to you, but you can’t make out the signature, and the message is short and generic. Is that real handwriting, or has this been printed? Probably marketing material. You put the card in the recycling and, since life is busy, you move on and forget about it. Somehow, you remain entirely unaware that, immediately after reading the postcard, you took out your phone and sent high-resolution images of your front door key to a number you’ve never contacted before. Is this sketch just some rather questionable science fiction? Yes, hopefully, but what if that non-specific postcard was instead a malicious file in your Outlook inbox? Now we’re talking about CVE-2026-124194 , an exploited-in-the-wild spoofing vulnerability. Merely opening a specially crafted malicious file causes Outlook to silently connect to an attacker-controlled location and leak the user’s NTLM v2 hash. All supported versions of classic Outlook receive patches. The relatively low CVSS v3.1 base score of 6.5 does not tell the full story here, since this vulnerability provides value for both commodity attackers working to harvest initial access at scale, and also more targeted campaigns by more sophisticated threat actors. The NTLM v2 hash can be relayed live to impersonate the user against another service, at least where those services do not implement adequate safeguards such as message signing for SMB or LDAP , as well as Extended Protection for Authentication for Exchange or Active Directory Certificate Services . Alternatively, the NTLM v2 hash can be cracked offline by a motivated attacker to retrieve the underlying credential. The Preview Pane is not a vector, which will help limit the real-world impact somewhat. Windows Schannel: critical pre-auth RCE A pre-authentication remote code execution (RCE) vulnerability in Windows will always attract attention. CVE-2026-119952 allows an attacker to execute code on a target system by sending specially crafted malicious packets. Since the vulnerable component is Schannel, which is Microsoft’s implementation of Transport Layer Security (TLS) , attackers may not have to look very far to find vulnerable endpoints. The advisory provides some comfort by pointing out that specific conditions are required for exploitability, which reduces the likelihood of broad exploitation, but the advisory still assesses exploitation as more likely, so Microsoft presumably expects that the development of reliable exploit code is feasible. In many cases, there will be no need for an attacker to have an existing foothold on the same subnet. The execution context likely depends on the vulnerable service, which points to the evergreen need for least privilege architecture, b",
+      "fetch_status": "ok"
+    },
+    {
+      "source": "Krebs on Security",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+      "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+      "published": "2026-11-10T21:55:03+00:00",
+      "summary": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month's Patch Tuesday addresses 63 critical flaws -- including a zero-day in Microsoft Outlook -- and comes amid important security updates from other software makers, including Adobe, Apple, Google and Mozilla.",
+      "author": "BrianKrebs",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day",
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft 365",
+          "Apple iOS/macOS",
+          "Ivanti"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-124194",
+          "CVE-2026-125350"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "zero_day"
+        ],
+        "content_type": "news_report",
+        "confidence_tier": "tier_3_analysis",
+        "role_map": {
+          "Microsoft 365": "target",
+          "Apple iOS/macOS": "target",
+          "Ivanti": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 12,
+      "full_body": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month’s Patch Tuesday addresses 63 critical flaws — including a zero-day in Microsoft Outlook — and comes amid important security updates from other software makers, including Adobe , Apple , Google and Mozilla . Image: Shutterstock.com. Diorama by @zepp1969. November’s patch release from Redmond tackles 1,093 vulnerabilities, fixing 63 “critical” flaws that can be exploited to seize control over a Windows system with little or no help from users. Nearly half of those critical bugs are remote code execution vulnerabilities. Overall, 535 of the flaws addressed this month allow an attacker to elevate their privileges on a vulnerable device. This latest round of updates means Microsoft has shipped more than 5,100 security patches so far this year, a staggering number considering that a year ago Microsoft was averaging around 100 patches per month. Microsoft credits advances in artificial intelligence for helping to find (and fix) such a large volume of security bugs in recent months. Last month, Microsoft pushed more than 1,400 fixes. According to Redmond, just one of the flaws is already seeing active exploitation: CVE-2026-124194 , a spoofing bug in Outlook. The advisory for CVE-2026-124194 says it affects Microsoft 365 Apps for Enterprise and editions of Microsoft Office . Several other major software makers pushed security updates this week to fix critical weaknesses in their products. Apple on Monday released out-of-cycle security updates to fix at least nine vulnerabilities in iOS/iPadOS , macOS , watchOS and visionOS . Among the weaknesses reportedly fixed in Apple’s release include an iMessage flaw that could let a remote attacker join a group chat and receive its messages; the updates also fix a separate iMessage flaw that could let someone added to a group access messages sent before they joined. Lee Neely , an instructor at the SANS Institute , noted that Apple backported the fix to iOS 18. “I take notice when Apple releases fixes to more than two versions,” Neely wrote in a SANS newsletter today. “You really need to get to version 27.2.1 of their OSes and push folks who are holding onto devices which cannot run the current version. The best plan often involves setting an upgrade date for old hardware. Run through all your Apple devices and make sure everything is up to date, don’t assume the fixes went out automatically.” Google this week released Chrome version 157.0.8103.50 , which resolves nine security holes, including CVE-2026-125350 , the sixth zero-day vulnerability this year for Chrome (this bug also being patched in Chromium-based browsers like Edge). The latest Chrome version follows its November 3 release, which fixed 213 vulnerabilities. A new version of Mozilla Firefox out today ( Firefox 160 ) resolves almost 100 CVEs, about half of them high severity. Adobe today released patches for at least 110 vulnerabilities across a range of products, with nearly half of the flaws rated high severity. Adobe said there is no evidence any of the security holes it addressed this month are being actively exploited. Chris Goettl , vice president of product management at Ivanti , said it’s easy for security teams at large enterprises to feel overwhelmed by the volume and criticality of patches from Microsoft lately. But he notes that while some 95,000 vulnerabilities have been assigned CVEs this year across all vendors, only 217 have so far this year been added to the Known Exploited Vulnerabilities (KEV) list maintained by the U.S. Cybersecurity and Infrastructure Security Agency (CISA). “Roughly four in ten of this year’s exploited vulnerabilities sit in operating systems, endpoint software, browsers, and server platforms, which a continuous patch strategy can close quickly,” Goettl said.”The rest calls for exposure management alongside patching,",
+      "fetch_status": "ok"
+    },
+    {
+      "source": "CyberScoop",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Microsoft fixes over 1,000 vulnerabilities in November Patch Tuesday",
+      "link": "https://cyberscoop.com/microsoft-patch-tuesday-november-2026/",
+      "published": "2026-11-10T21:47:01+00:00",
+      "summary": "Microsoft’s November security update addresses roughly 1,090 vulnerabilities across Windows, Office, Azure and the company’s other product lines, the second consecutive monthly release to exceed the totals of all previous years. The release formally lists 1,094 CVEs, with Windows accounting for 726 and Office 174. A smaller number of patches went to SQL Server, Exchange […] The post Microsoft fixes over 1,000 vulnerabilities in November Patch Tuesday appeared first on CyberScoop .",
+      "author": "Greg Otto",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Azure"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "Azure": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
+    {
+      "source": "Dark Reading",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
+      "published": "2026-11-10T21:01:14+00:00",
+      "summary": "Forks of the open source Artex framework, along with 45 similar pen-testing tools, remain capable of executing credential attacks and cloud breaches at machine speed across multiple industries.",
+      "author": "Alexander Culafi",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
+    {
+      "source": "The Record",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Microsoft’s Patch Tuesday surpasses 1,000 bugs for second month in a row",
+      "link": "https://therecord.media/patch-tuesday-microsoft-1000-bugs-again",
+      "published": "2026-11-10T20:55:00+00:00",
+      "summary": "An exploited Outlook vulnerability drew most of the attention in Microsoft's latest Patch Tuesday, which listed 1,093 bugs total.",
+      "author": "",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
+    {
+      "source": "BleepingComputer",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
+      "link": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
+      "published": "2026-11-10T20:54:55+00:00",
+      "summary": "Nitori, a major Japanese furniture and home accessories retailer, discovered that an attacker accessed a system on its network and may have stolen 37.62 million customer records. [...]",
+      "author": "Bill Toulas",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
+    {
+      "source": "Dark Reading",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "F-Secure Identifies 26 Ways AI Can Harm Consumers, and Where to Stop Them",
+      "link": "https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them",
+      "published": "2026-11-10T20:41:45+00:00",
+      "summary": "New AI Harms Taxonomy traces how harm moves through AI systems, from misleading chatbot answers to compromised autonomous agents, and identifies where defenses can intervene.",
+      "author": "",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
     {
       "source": "Dark Reading",
       "cohort": "cyber_news_breach_reporting",
@@ -1647,22 +1969,36 @@
       "author": "info@thehackernews.com (The Hacker News)",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "data_breach",
+          "apt_espionage",
+          "web_shell_backdoor"
+        ],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [],
+        "affected_products": [
+          "Anthropic/Claude",
+          "OpenAI/ChatGPT",
+          "GitHub"
+        ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
-        "role_map": {},
+        "role_map": {
+          "Anthropic/Claude": "target",
+          "OpenAI/ChatGPT": "target",
+          "GitHub": "target"
+        },
         "weak_tags": {
           "products": []
         }
       },
-      "score": 9
+      "score": 9,
+      "full_body": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users  Swati Khandelwal  Nov 10, 2026 Vulnerability / Cloud Security An attacker exploited a remote code execution flaw in SGLang , an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company said earlier this week. That mode processes requests inside a trusted execution environment (TEE) designed to keep them private even from the company itself. But the TEE \"does not protect against a vulnerability in the software running inside the environment,\" the company said. SGLang runs inside the TEE, which is how the attacker could reach requests there. That access has since been closed, but not before the attacker moved further into the company's systems. The attacker reached an internal system behind Private Chat, a product the company had already deprecated. So far, the company has confirmed that the attacker downloaded account details for about 100 users there. These are email addresses and names, and for some accounts, plan and balance information. The company found no sign that stored Private Chat conversations or uploaded files were accessed. The attacker also reached 18 AI agents on an older deployment of NEAR AI Agents that did not run inside the company's TEE. From those agents, the attacker took data including chat history, settings and logs. Two customers' NEAR AI Cloud API keys were exposed in logs. The company has revoked both. After detecting the attack, the company revoked all active sessions and administrator credentials, replaced all agent tokens and took Private Chat offline. It also deployed a fix for the SGLang flaw on all of its inference servers, rotated its remaining credentials and completed a full forensic review, according to its incident report . Access to its NEAR AI Cloud service has been restored. The company reported the flaw to the SGLang project. It has not identified the flaw by CVE number, named the affected SGLang versions, or said whether the project has released a fix. The company has contacted users whose account details or agents it confirmed were accessed. Affected users heard directly from security@near.ai, with the steps that apply to them. As a precaution, the company asks users to be careful with messages about their account or balance that they did not ask for. In a follow-up post yesterday, it said users who have not heard from it do not need to do anything. It has not said whether people whose requests passed through the affected server last Sunday were among those contacted. In an October 15 technical write-up , Brave, the browser maker, said its Leo assistant runs chats with the GLM 5.3 Flash model inside a TEE operated by NEAR AI. NEAR AI has not said whether the affected server handled any of those chats. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  artificial intelligence , Cloud security , data breach , Vulnerability ⚡ Top Stories This Week Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Cod",
+      "fetch_status": "ok"
     },
     {
       "source": "SANS Internet Storm Center",
@@ -2679,42 +3015,8 @@
           "products": []
         }
       },
-      "score": 13,
+      "score": 12,
       "full_body": "The Orca Research Pod recently found that 51% of organizations have adopted AI to build software, yet 81% have critical vulnerabilities in AI packages ( Hacker Valley News , 2026). In 2025, CVE-2025-48757 showed how a single missing database policy in AI-generated Supabase projects exposed data across more than 170 production apps. None of these apps went through a pull request or a security review. People outside engineering built them, often over a weekend, from accounts the security team had never seen. When we introduced AI AppGen Security , we made the case that AI app builders turned every employee into a builder, and that the platforms those apps run on need security built for how they work. We started with integrations for Claude Enterprise and Vercel. The first question we heard from security teams: how do I connect a platform I don’t know we use? Nobody files a ticket for a budget-forecasting app built on Lovable, and the marketing team’s campaign portal never reached architecture review. You can’t connect what you’ve never heard of. AI app builders leave fingerprints in the DNS, workloads, code, and cloud identities Orca already scans agentlessly. Orca now flags them, so you can find AI-built apps nobody told you about and see what data they can reach. Below, we walk through why your current tools miss these apps, how Orca finds them, and what to do once you know. Why the usual discovery paths miss AI-generated apps You’d expect at least one of your existing tools to catch these apps. Here’s why none of them do. Secure web gateways and CASBs see the visit, not the app. They can tell you an employee opened Lovable or Replit. They can’t tell you what was deployed, what data it holds, or whether it requires a login. SSPM sees sign-ups through your identity provider. It reads IdP logs and OAuth grants, which shows the SaaS your employees signed up for with a work email. An app built from a personal account never touches your IdP. AppSec scans the repositories you point it at. If a builder’s bot created the repo in a workspace security has never seen, nobody points anything at it. Cloud security sees the evidence but doesn’t connect it to the service. A CNAPP already inventories the DNS record, the IAM user, and the package on the VM. Until now, a subdomain resolving into a builder’s IP range was just an address, and an IAM user created by an app builder was just an IAM user. The data was there. Nothing tied it to the service behind it. Every one of these tools waits for someone to connect a system, a user, or a repo first. The apps that matter most are the ones nobody connected to. How does Orca find apps nobody reported? Services that run outside your environment still leave traces inside it. Orca already scans your cloud accounts, workloads, repositories, and external attack surface, so the traces are already in its data. A fingerprint is an observed trace that ties an asset you own to an external service. Orca stores each one in its unified data model, where you can query it like any other asset. Each one records the service, the type of evidence, the exact value that matched, and when Orca first saw it. To find these fingerprints, there’s no new agent to deploy, no vendor API to authorize, and nothing for the builder to opt into. Here’s where the evidence comes from: Your external attack surface. DNS records whose values point into a builder’s or host’s infrastructure, vendor domain-verification records, and response headers showing a site is set up to load inside a builder’s live editor. Your workloads. SideScanning already inventories installed packages and reads files across VMs and container images. Some builder packages only work inside the builder’s own development environment, so if one shows up on a workload, the project started there. File markers matter as much as packages, because production builds often strip out dependency manifests. Without file markers, package inventory can come back empty on the ver",
-      "fetch_status": "ok"
-    },
-    {
-      "source": "The Record",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Russian hackers compromised government email servers to steal NATO, EU correspondence",
-      "link": "https://therecord.media/russia-hackers-espionage-romania-kazakhstan",
-      "published": "2026-11-10T13:00:00+00:00",
-      "summary": "Russian state-linked hackers have compromised government email servers in Romania and Kazakhstan to secretly intercept messages exchanged with NATO and European Union officials, researchers said.",
-      "author": "",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 10,
-      "full_body": "Image: Le Vu / Unsplash Russian hackers compromised government email servers to steal NATO, EU correspondence Russian state-linked hackers compromised government email servers in Romania and Kazakhstan using new malware to secretly intercept messages, including emails exchanged with NATO and European Union officials, according to research published Tuesday. Slovak cybersecurity firm ESET attributed the campaign to Turla, a long-running Russian espionage group linked to the country's Federal Security Service (FSB). The hackers used a previously unknown toolkit dubbed Cereal to monitor email traffic, steal specific messages and maintain access to compromised Microsoft Exchange servers without being detected. “The Cereal toolset is a carefully constructed instrument for long-term, stealthy cyberespionage. It leaves little on disk, avoids external infrastructure that could be discovered and blocked, and conceals itself within legitimate Exchange processes,” ESET said. The researchers said they first discovered the toolkit in November 2025 on a government email server in Kazakhstan and later identified it at a Romanian government organization. In Romania, the malware was configured to collect emails exchanged with NATO and EU institutions. The attack came amid rising tensions between Russia and NATO over the war in Ukraine, including repeated incidents involving Russian drones entering or approaching Romanian territory. In Kazakhstan, ESET said the intrusion took place amid growing scrutiny of Russian exiles and Kremlin critics living in the country. However, researchers could not determine whether the hackers were specifically seeking information about dissidents. The campaign stands out for its unusual approach to concealing the hackers' activities, researchers said. Rather than relying on separate servers to control the malware, the attackers used the victims' own compromised Exchange servers to issue commands and manage the operation. This allowed the hackers to operate without relying on external servers that security researchers could detect, block or shut down. \"Abusing a compromised Exchange server as a central operational hub is a rare technique, used by only a handful of APT groups,\" ESET said. \"Turla has used variations of this approach in the past.\" One component of Turla's new toolkit, called CerealBox, was embedded directly into a Microsoft Exchange service responsible for processing email traffic. It allowed the attackers to identify and capture messages of interest as they passed through the server. According to ESET, the technique has not previously been documented in other malware families and demonstrates the attackers' detailed knowledge of Microsoft's email infrastructure. The researchers could not determine how the attackers initially gained access to the government servers or how much information they obtained. Also known as Secret Blizzard and Venomous Bear, Turla has operated since at least 2004 and is considered one of Russia's most established state-linked hacking groups. The group has a long history of targeting government agencies, diplomatic missions and defense organizations across Europe, Central Asia and the Middle East. According to ESET, roughly 70% of the countries targeted by Turla since 2022 have been former Soviet republics or European countries with historical ties to the Soviet Union. News Nation-state Malware No previous article No new articles Daryna Antoniuk is a reporter for Recorded Future News based in Ukraine. She writes about cybersecurity startups, cyberattacks in Eastern Europe and the state of the cyberwar between Ukraine and Russia. She previously was a tech reporter for Forbes Ukraine. Her work has also been published at Sifted, The Kyiv Independent and The Kyiv Post.",
       "fetch_status": "ok"
     },
     {
@@ -2743,7 +3045,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "SecurityWeek",
@@ -2775,7 +3077,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "BleepingComputer",
@@ -2803,7 +3105,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Schneier on Security",
@@ -2831,7 +3133,7 @@
           "products": []
         }
       },
-      "score": 11,
+      "score": 10,
       "full_body": "Clive Robinson • November 10, 2026 11:22 AM @ ALL, The name given to the vulnerability of “*sshole” is not supposed to be seen as “rude”. The “sshole” is actually a contractin of “SSH hole”. The lead “ ” is part of what makes the vulnerability work. And is based on the *nix password file, where the “ ” was placed in the password field to indicate an account was not to be loged into from the login programe The reason for the lead “*” is it was not a valid character in the password field and thus could be used for “in band signalling” Some of you are possibly old enough to remember the arguments about which was better “C strings or Pascal strings”. C strings used in-band signalling such that a string could be any length, but it alway terminated in the ASCII NUL character (from 1962 that had significant use in “super encryption” devices based on “One Time Tapes from earlier Baudot and ITU 2). Pascal strings used out-of-band signalling, put simply the lead byte was used to store the length of the string. The had advantages and disadvantages. An advantage was that string math was faster, and the first character of the string was not at position zero but position on that was easier for many people to get there heads around and more importantly all characters were valid. The downside was the string had to be 255 or less characters long. Which at first does not appear much of a disadvantage, but when you dig in, it quickly becomes clear that code is easier to make more general with unlimited length strings and is faster and takes up less program “code” store/memory and alows easy machine code tricks… The other issue back then was “return values” from functions. Originally it was a type int that was the size of the machine dataword. For reasons to long to relate this turned out to be a bad idea… So “in band signalling” became the norm under *nix with an integer holding a return / error code. Actual data was usually returned in a memory array that the calling code passed a pointer to into the function. Security wise this is a bad way to do things even though it can be quite efficient.",
       "fetch_status": "ok"
     },
@@ -2865,7 +3167,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Reddit r/netsec",
@@ -2893,7 +3195,7 @@
           "products": []
         }
       },
-      "score": 4
+      "score": 3
     },
     {
       "source": "Infosecurity Magazine",
@@ -2925,7 +3227,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "CyberScoop",
@@ -2953,7 +3255,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Infosecurity Magazine",
@@ -2981,7 +3283,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "The Hacker News",
@@ -3009,7 +3311,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "BleepingComputer",
@@ -3037,7 +3339,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "The Hacker News",
@@ -3069,7 +3371,7 @@
           "products": []
         }
       },
-      "score": 8
+      "score": 7
     },
     {
       "source": "BleepingComputer",
@@ -3099,7 +3401,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "The Hacker News",
@@ -3135,7 +3437,7 @@
           "products": []
         }
       },
-      "score": 13,
+      "score": 12,
       "full_body": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution  Swati Khandelwal  Nov 10, 2026 Vulnerability / Enterprise Security Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score. Three are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the Web Dispatcher, which receives web requests from the internet and passes them on to that server. The flaws in the Web Dispatcher and the Internet Communication Manager (ICM), which handles the server's web traffic, could allow an attacker who can reach the software over the network to run code, the vendor says. The flaw in the server's SAML 2.0 service provider, which hands off user sign-in to an identity provider, could allow an attacker to log in as any user on some systems that use SAML single sign-on. The flaw in SAP Gateway, which connects the server to other SAP systems and programs, could allow an attacker to impersonate one of the system's own servers and take unauthorized actions. None of the four require any user action to work. Affected Versions and SAP Notes Each flaw is fixed in its own note, and the affected versions differ by component, according to SAP's November security bulletin . The notes are in SAP for Me, which requires a sign-in, and the vendor strongly recommends applying them as a priority. CVE Component SAP Note Affected versions CVE-2026-76964 Internet Communication Manager (ICM), SAP NetWeaver AS ABAP Note 3778530 KRNL64UC 7.53, KERNEL 7.53, 7.54, 7.77, 7.93, 9.16, 9.18, 9.20 CVE-2026-89126 SAP Web Dispatcher Note 3778556 HDB 2.00, KRNL64UC 7.53, WEBDISP 7.53, 7.54, 7.77, 7.93, 9.16, XS_ADVANCED_RUNTIME 1.00, SAP_EXTENDED_APP_SERVICES 1, KERNEL 7.53, 7.54, 7.77, 7.93, 9.16, 9.18, 9.20 CVE-2026-89103 SAP Gateway Note 3798345 KRNL64NUC 7.22, 7.22EXT, KRNL64UC 7.22, 7.22EXT, 7.53, 8.04, KERNEL 7.22, 7.53, 7.54, 7.77, 7.93, 8.04, 9.16, 9.20, 9.21 CVE-2026-120017 SAML2 service provider, SAP NetWeaver AS ABAP and ABAP Platform Note 3849308 SAP_BASIS 702, 731, 740, 750, 751, 752, 753, 754, 755, 756, 757, 758, 816, 920, 921, 922 Kernels that are out of maintenance are affected too, according to Onapsis, an SAP security company whose researchers found the ICM, Web Dispatcher and Gateway flaws. Its ICM2SHELL advisory lists kernels 7.40, 7.41, 7.42, 7.45, 7.49, 7.73, 7.81, 7.85 and 7.89 for the ICM and Web Dispatcher flaws, and its PROXYGATE advisory lists the same kernels plus 7.20 and 7.21 for the Gateway flaw. These kernels may not get a fix and need an upgrade to one that is still maintained. What Each Flaw Allows On the affected SAML setups, an attacker could use CVE-2026-120017 to log in as privileged users too, according to the vendor. A full compromise could follow, possibly reaching connected systems. A different SAML flaw in the same software, CVE-2026-44748, was fixed on June 9 and needed an attacker with a normal user account. In the ICM flaw (CVE-2026-76964) and the Web Dispatcher flaw (CVE-2026-89126), crafted network traffic could corrupt memory. An attacker who succeeds could then run code and fully compromise the system. Onapsis says both flaws come from one bug, which it calls ICM2SHELL, in kernel code the ICM and Web Dispatcher share for putting split WebSocket messages back together. It gave the vendor a working exploit that runs operating system commands as <sid>adm, the account that owns the SAP installation. The same bug can crash either component, and a crashed Web Dispatcher cuts off every SAP system behind it while it restarts. WebSocket support is on by default, so a system is exposed even if nothing uses it, and dual-stack systems are affected through their ABAP stack. The company's researchers have not seen the bug exploited in attacks. SAP Gateway uses access control lists to decide which outside programs may connect to it, which programs it may start and which ",
       "fetch_status": "ok"
     },
@@ -3167,7 +3469,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "SecurityWeek",
@@ -3181,50 +3483,23 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "supply_chain",
-          "credential_theft",
-          "zero_day",
-          "data_breach"
+          "credential_theft"
         ],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "SonicWall",
-          "OpenAI/ChatGPT"
-        ],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day",
-          "poc_available"
-        ],
+        "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
-        "role_map": {
-          "SonicWall": "target",
-          "OpenAI/ChatGPT": "target",
-          "GitHub": "mention",
-          "Google/Gemini": "mention"
-        },
+        "role_map": {},
         "weak_tags": {
-          "products": [
-            [
-              "GitHub",
-              "mention",
-              0.4
-            ],
-            [
-              "Google/Gemini",
-              "mention",
-              0.3
-            ]
-          ]
+          "products": []
         }
       },
-      "score": 9,
-      "full_body": "N-able on Monday took hosted N-central environments offline in response to a security researcher’s public disclosure of more than 30 alleged zero-day vulnerabilities. “As a precautionary measure, we are temporarily taking our Hosted N-central environment offline while we take the necessary actions to secure the environment and implement appropriate remediation,” the company said . While N-central and the related services remain inaccessible, N-able says it has made progress validating the flaws and creating a fix, which should roll out around midday on November 10. On-premises N-central deployments should also be kept offline until patches are released, the company says. “N-able Engineering continues to make progress on the N-central hotfix and associated validation activities. The work remains on track with no setbacks, and our teams are progressing as quickly as possible while maintaining the validation required for a safe remediation,” the company said. N-able also pointed out that it has no evidence that the vulnerabilities have been exploited against its N-central environments. Advertisement. Scroll to continue reading. The zero-day bugs were published on GitHub on Sunday by security researcher Sean Bales and have yet to be assigned CVE identifiers. Bales dubbed the flaws Able2Shell. According to the researcher, the weaknesses could be exploited to achieve remote code execution (RCE) with ‘nable’ or root privileges, to execute arbitrary commands, create unauthorized administrative accounts, or leak sensitive data, such as configurations and credentials. Additionally, Bales describes four exploit chains that could also lead to RCE with ‘nable’ or root privileges. The security researcher released proof-of-concept (PoC) code targeting every flaw and reportedly explained that the zero-days were dropped after N-able failed to patch security defects he previously reported in another product. Related: Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH Related: Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws Related: Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day Related: Barracuda ESG Authentication Bypass Flaw Opens Path to Root Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks Plex2Shell Exploited Against QNAP NAS Users Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH Amplifon Americas Data Breach Impacts 1.3 Million Brava Security Emerges From Stealth With $15 Million in Funding DigiCert Data Breach Impacts Business Customer Information US Agencies Urge Organizations to Harden Refrigeration Controllers Latest News Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft Adobe Patches 110 Vulnerabilities Across 9 Products Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code Today: CISO Forum Virtual Summit 2026 – Join Global Cybersecurity Leaders WhiteMatter Raises $20 Million in Series A Funding SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities Over a Dozen Organizations Hit in Qubole Supply Chain Attack Trending DigiCert Data Breach Impacts Business Customer Information Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions Amplifier Security Emerges From Stealth With AI Copilot, Human-in-the-Loop Automation Revolve Puts Data Breach Victim Count at 1.5 Million Plex2Shell Exploited Against QNAP NAS Users Chrome Update Patches Exploited XML Zero-Day, E",
-      "fetch_status": "ok"
+      "score": 8
     },
     {
       "source": "Infosecurity Magazine",
@@ -3256,7 +3531,7 @@
           "products": []
         }
       },
-      "score": 8
+      "score": 7
     },
     {
       "source": "The Hacker News",
@@ -3289,7 +3564,7 @@
           "products": []
         }
       },
-      "score": 10,
+      "score": 9,
       "full_body": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites  Swati Khandelwal  Nov 10, 2026 Cyber Attack / Industrial Sabotage An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The attackers broke into controllers on the night of October 11 and changed their defrost settings to high temperatures. That caused food losses and, in at least 15 cases, fires. The unit is called Shahid Kaveh . It is known mainly through hacktivist personas, such as CyberAveng3rs and Cyber Isnaad Front , that publicly claim some of its attacks, France says. France's Foreign Ministry plans to summon Iran's ambassador and to ask its European partners to adopt new sanctions against Iranian organizations and individuals involved in the attack. The Paris prosecutor's office opened a judicial investigation yesterday against the unit's head, the head's two deputies and anyone else identified. It has asked for international arrest warrants. The offenses under investigation include illegally interfering with computer systems and causing damage by means dangerous to people, both made more serious by the aim of serving a foreign power, Iran. In the October attack, the attackers took remote control of Danfoss and Dixell refrigeration controllers through web interfaces, the prosecutor's office said in a press release . They started abnormal defrost cycles with no time limit and switched off the temperature probes' safety alerts, which should go off above a certain temperature. The attack caused about 20 fires. Most of the organizations hit were large retailers, according to a joint report by France's cyber crisis coordination center, known as C4. They include Casino, Leclerc, Coopérative U, Metro, Carrefour and Intermarché. Small butcher shops, a slaughterhouse and cooperative food plants were also among the victims. The center also tied the attack to the simultaneous targeting of Schneider Electric equipment at several small hydroelectric installations in France. The effects on that equipment were moderate. In its attribution statement , the ministry estimated the food losses at several tens of millions of euros and called the operation the first offensive cyber campaign on French soil carried out purely for sabotage. How France Tied the Attack to Iran The C4 brings together France's national cybersecurity agency (ANSSI), the DGSE and DGSI security services, the armament directorate and the cyber defense command. It says four indicators point to the IRGC as the sponsor of the attack and to Shahid Kaveh as the unit that carried it out. The infrastructure used in the attack was also used during the same period for reconnaissance of Schneider Electric equipment. That equipment is installed at sites such as small- and medium-sized energy and water production sites. The reconnaissance relied on techniques that Shahid Kaveh has used since at least April. The attackers also used FOFA, a scanning tool they usually use. CyberbanNews, a propaganda outlet linked to the unit, reported on the attack as early as October 13. The attack infrastructure also held traces of Persian. Prosecutors said the criminal investigation, run by France's anti-cybercrime office (OFAC) and the DGSI, found an attack method typical of the unit. It also found the use of Persian and IP addresses leading to devices located in Iran. Shahid Kaveh has previously claimed attacks on industrial equipment, according to C4. Through CyberAveng3rs, it claimed an earlier campaign against Unitronics, an Israeli company that makes industrial control systems, in November 2023. In March and April, it claimed a large sabotage campaign against Israeli and U.S. interests that hit industrial control equipment, including Israeli refrigeration equipment. France's attribution does not mention the new wave of refrigeration attacks th",
       "fetch_status": "ok"
     },
@@ -3342,7 +3617,7 @@
           "products": []
         }
       },
-      "score": 10,
+      "score": 9,
       "full_body": "Google patches eighth Chrome zero-day exploited in attacks this year By Sergiu Gatlan November 10, 2026 03:51 AM 1 Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. \"Google is aware that an exploit for CVE-2026-125350 exists in the wild,\" the company said in a Monday security advisory . As Google explained, this flaw stems from a Use-After-Free (UAF) weakness in the XML component of the Google Chrome web browser, which occurs when the browser's XML parser processes data, deletes an object from the computer's memory, but fails to clear the pointer referencing that object. Attackers can exploit this high-severity memory corruption vulnerability when the browser later tries to use or read that \"freed\" memory space to manipulate the memory layout and execute malicious code. While Google has found evidence of attackers exploiting this zero-day bug in the wild, it has not shared additional details about these incidents. \"Access to bug details and links may be kept restricted until a majority of users are updated with a fix. We will also retain restrictions if the bug exists in a third party library that other projects similarly depend on, but haven't yet fixed,\" it noted. Google has now fixed the zero-day for users in the Stable Desktop channel, with new versions rolling out to Windows, macOS (157.0.8103.50/.51), and Linux users (157.0.8103.50). Although Google says the security update could take days or weeks to reach all Chrome users, it was available immediately when BleepingComputer checked for updates today. If you don't want to update the web browser manually, you can also let Chrome check for updates on its own, as it will automatically install them after the next launch. ​Since the start of the year, Google has addressed seven other actively exploited zero-day vulnerabilities: An iterator invalidation bug (CVE-2026-2441) in CSSFontFeatureValuesMap (Chrome's implementation of CSS font feature values), which Google addressed in mid-February . Two other Chrome zero-day bugs exploited in attacks were patched in March: an out-of-bounds write weakness in the Skia 2D graphics library (CVE-2026-3909), and an inappropriate implementation vulnerability in the V8 JavaScript and WebAssembly engine (CVE-2026-3910). A use-after-free weakness in Dawn (CVE-2026-5281), the underlying cross-platform implementation of the WebGPU standard used by the Chromium project, which Google patched in April . An out-of-bounds read and write vulnerability in Chrome's V8 JavaScript engine (CVE-2026-11645), exploited in the wild and patched in June . And out-of-bounds write (CVE-2026-87491) and type confusion (CVE-2026-85046) flaws in the V8 JavaScript engine, fixed in September. Google fixed eight more zero-days exploited in attacks in 2025, many of them reported by the company's Threat Analysis Group (TAG), which tracks zero-day exploits used in spyware attacks. Uncover email threats your existing defenses may miss. Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud. See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes. Start your free email security scan. Related Articles: Ivanti patches two more Connect Secure zero-days chained in attacks Arista patches new VeloCloud Orchestrator zero-day exploited in attacks Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks BeyondTrust patches zero-day exploited in attacks since August Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
       "fetch_status": "ok"
     },
@@ -3519,7 +3794,9 @@
           "products": []
         }
       },
-      "score": 9
+      "score": 9,
+      "full_body": "Mirko Zorz , Director of Content, Help Net Security November 10, 2026 Share What a security leader should tell the CEO about leaked credentials In this Help Net Security interview, Eric Fourrier, CEO of GitGuardian , talks about leaked credentials and personal liability for security leaders and boards. He explains how fear of blame pushes mistakes out of sight, and what a security leader should be ready to tell a CEO about exposed keys. He also covers better ways to measure security progress beyond alert counts, how to handle disclosure deadlines, and why AI tools and agents are creating new paths for secrets to leak into public view going into 2027. Boards are now asking about personal liability. Has that pushed behavior where you wanted it, or has it driven bad news further underground? Both. At the top, personal accountability has made cybersecurity harder for boards and executives to treat as someone else’s problem. Cases involving security leaders, along with requirements like NIS2 , have made it much clearer that leadership can be held responsible for how cyber risk is managed. That has pushed boards to ask better questions, which is a positive change. The downside is that accountability can become counterproductive when employees start to fear being blamed for the mistake itself. We see the consequences of that with leaked credentials. When someone realizes they have exposed a secret, the instinct can be to remove the visible evidence by deleting the commit or making the repository private. But that does not revoke the credential. The mistake may be harder to see, while the underlying risk is still there. That is where companies need to be very deliberate about separating accountability from blame. The person who reports the mistake should not be punished for surfacing it. What matters is what happens next: was the credential revoked, was the exposure investigated, and did the organization learn from it? If people think speaking up will make them the problem, they will be less likely to speak up. And that gives security teams less visibility. The goal should be to create a culture where mistakes are reported quickly, and leadership is accountable for making sure the organization responds to them effectively. A CEO reads that nine in ten leaked keys are still working a week later and asks one question: does that happen here? What should the security leader be able to answer in that meeting? The honest answer for many companies is “yes, and we may not know.” At a baseline, the security leader should be able to say: we monitor public code for our credentials, including outside repositories we control; we can tell which exposed credentials are still valid; and we know who needs to act on them. But there’s another part of this that companies think about much less: what happens when someone else finds the credential first? Can they reach you, and does that warning get to someone who can do something about it? The figure in the question, by the way, comes from our own research. The people associated with those exposures had been notified, and more than 90% of the credentials still had not been revoked days later. A great example of this involved CISA. We sent nine automated alerts to the person who had published credentials in a public GitHub repository and received only an automated reply. The repository stayed public until our research team escalated through CERT/CC; it was taken down 26 hours later. A security leader should be able to tell their CEO: 1. We have a published way for outsiders to report an exposed credential, a named person reads it, and it has been tested in the last quarter. 2. When an exposed credential of ours is reported or found, revocation is the first action, not deletion. 3. We measure time from report to revocation, and here is our number. 4. We can detect when a corporate credential appears outside the systems we control, including in a developer’s personal public repository. The CEO needs confidenc",
+      "fetch_status": "ok"
     },
     {
       "source": "The Hacker News",
@@ -3674,7 +3951,7 @@
           "products": []
         }
       },
-      "score": 3
+      "score": 2
     },
     {
       "source": "Recorded Future",
@@ -3708,7 +3985,7 @@
           "products": []
         }
       },
-      "score": 11,
+      "score": 10,
       "full_body": "GhostFrame: A New ESXi Implant Linked to Settra Ransomware Summary GhostFrame is a previously undocumented post-exploitation framework that gives threat actors extensive control over compromised VMware ESXi environments. Once an attacker gains root-level access to an ESXi host, GhostFrame provides a single interface to access virtual machines running on the hypervisor, harvest credentials, execute commands, and pivot deeper into victim networks. Insikt Group identified GhostFrame being used by TAG-218, a threat activity group whose operations overlap with Settra ransomware. GhostFrame is notable because it allows threat actors to operate from the virtualization layer, where a single compromised ESXi host can provide access to multiple virtual machines and the systems and data they contain. Insikt Group’s findings demonstrate how attackers can use compromised hypervisors as a centralized platform for post-exploitation activity, potentially expanding access across victim environments without compromising each virtual machine individually. The discovery highlights the importance of treating virtualization infrastructure as a high-value target and monitoring ESXi hosts for signs of unauthorized access and post-exploitation activity. A New ESXi Post-Exploitation Framework Insikt Group identified GhostFrame, a command-and-control (C2) and post-exploitation framework designed to operate on compromised VMware ESXi hypervisors. GhostFrame provides threat actors with a centralized interface to maintain access to ESXi hosts, execute commands, manage virtual machines (VMs), pivot through internal networks, and harvest credentials from Windows systems hosted on the hypervisor. One notable feature is GhostFrame’s ability to operate from the virtualization layer. A single ESXi host can support multiple VMs running critical services within an organization. GhostFrame allows operators with root privileges on the hypervisor to interact with multiple hosted systems from a single point of access instead of requiring separate access to each guest system. Analysis of GhostFrame’s recovered frontend files revealed a web-based operator panel containing two primary sections: “Sessions” and “Builder.” The builder generates an ESXi implant, while the sessions interface allows operators to monitor connected systems and access the framework’s post-exploitation capabilities. Figure 1: Reconstruction of the GhostFrame C2 panel based on recovered frontend source code (Source: Recorded Future) Implant Deployment and Persistence GhostFrame includes an integrated builder that generates an ESXi implant named vmhostd-core . The interface provides operators with deployment instructions, including compiling the binary, manually disabling the ESXi firewall, and executing the implant from a datastore. Operators must already have root-level access to the ESXi host to deploy and execute the implant, as the implant does not exploit a vulnerability to gain access. Analysis of a recovered GhostFrame Executable and Linkable Format (ELF) sample revealed that the implant establishes persistence by copying itself to /opt/vmhostd-core and modifying the ESXi boot script /etc/rc.local.d/local.sh . The modified script executes the implant and repeatedly disables the ESXi firewall and the execInstalledOnly security control, which restricts the execution of unsigned binaries. These commands run approximately every five seconds, allowing the implant to disable the controls again if an administrator attempts to restore them. The implant also executes /sbin/auto-backup.sh to preserve the modified configuration across reboots. To blend into the ESXi environment, the implant appears as vmhostd , a name that resembles VMware’s legitimate vmware-hostd daemon, by modifying its process name and command-line representation. C2 Communications and Payload Execution GhostFrame’s implant uses a distinctive connection strategy to communicate with its C2 server. Rather than relying on a single des",
       "fetch_status": "ok"
     },
@@ -3743,7 +4020,7 @@
           "products": []
         }
       },
-      "score": 13,
+      "score": 12,
       "full_body": "N-able issues advisory on critical vulnerabilities Written by Sophos X-Ops Threat Research advisory N-able Share This Link Copied On November 9, 2026, a security researcher released a series of proof-of-concept (PoC) scripts targeting various vulnerabilities in N-able's N-central platform. The collection of PoCs claims to exploit several critical weaknesses in the N-central platform. As a result, N-able has taken the precautionary step of taking their N-central Hosted Environments offline. At this time there is third-party reporting suggesting that exploitation is occurring in the wild. N-Able’s advisory does not indicate that they have observed exploitation as of this writing; however they do note that they have observed scanning activity associated with the published PoC code. At this time, Sophos X-Ops has not observed exploitation . We recommend that operators of on-premises N-central servers follow N-able’s advice. Recommended actions Sophos X-Ops recommends that organizations review N-able’s advisory and monitor it for further instructions from N-able. Sophos countermeasures SophosLabs continues to monitor the threat landscape for activity related to this threat and will deliver detections and protections as available. About the Author(s) Sophos X-Ops Representing a powerful evolution in cyber defense, Sophos X-Ops is a joint task force of multiple specialized teams, purpose-built to address the growing complexity of today’s cyberthreat landscape.",
       "fetch_status": "ok"
     },
@@ -3782,7 +4059,7 @@
           "products": []
         }
       },
-      "score": 22,
+      "score": 21,
       "full_body": "ARTEX: Attackers apply agentic AI An agentic AI pentesting framework is being used in the wild by threat actors Written by Sophos X-Ops Threat Research Agentic AI Attack Tools AI Share This Link Copied Sophos X-Ops is tracking ARTEX, an open-source agentic AI penetration testing framework that multiple threat actors have used in intrusions since its public release in July 2026 . One of the most prominent cases is the ConnectWise Cloud Backup compromise in mid-October, which Microsoft attributes to Storm-0940, a group it assesses as “China-state aligned.” How ARTEX works ARTEX is an open-source, multi-agent penetration testing framework written in Go. It supports multiple LLM providers and compatible endpoints; in reported campaigns, operators have connected it to models including DeepSeek, GLM, and Grok. Given an objective, ARTEX has the following capabilities: Use planning agents to map the target and decide the next step Worker agents can invoke offensive tooling and feed results back into the planning process. In malicious deployments, this could include activities such as scanning, exploitation, credential access and webshell deployment Planning agents can adjust the plan and launch subsequent rounds via worker agents It records the assets and vulnerabilities it discovers in a graph as the test progresses Can attempt multiple breach paths at the same time In campaigns described by Microsoft and Google/Mandiant , operators have supplied ARTEX with authentication material or compromised application credentials and used it against cloud APIs and services, such as Microsoft Graph. Sophos countermeasures Sophos has existing endpoint, network, and cloud protections covering multiple behaviours and indicators associated with reported ARTEX activity. The protections below target ARTEX and the campaigns reported so far. Our evaluation of coverage is ongoing, and we will update this table as it changes. Layer Protection Taegis XDR ConnectWise Compromise: Service Principal Credential Added or Role Assigned by an Application ConnectWise app sign-in with scripted user agent File detection Troj/Bckdr-SDA (trojanized ARTEX Docker image) Troj/Loader-TU Linux/Agent-KD ATK/Artex-A ATK/Artex-B ATK/Artex-C Web and IP reputation IPs associated with publicly reported ARTEX use blocked as malware Sophos Firewall The following signatures have been released to Sophos Firewall and Endpoint IPS to cover network-observable ARTEX behaviours and indicators: 2313266 - SCAN ARTEX Agentic Framework OAuth illegal_redirect_uri_enhanced Error Response 2313265 - SCAN ARTEX Agentic Framework WWW-Authenticate Basic realm ARTEX Response Header 2313264 - SCAN ARTEX agentic-AI pentest framework baseline canary probe observed 2313263 - SCAN ARTEX agentic-AI pentest framework spec-driven API collection write attempt 2313261 - SCAN ARTEX agentic-AI pentest framework tenant isolation bypass attempt 2313259 - SCAN ARTEX agentic-AI pentest framework OAuth unregistered redirect URI abuse attempt 2313258 - SCAN ARTEX agentic-AI pentest framework unsigned JWT alg-none SSO bypass attempt 2313257 - SCAN ARTEX agentic-AI pentest framework suspicious User-Agent observed Endpoint IPS 2313266 - ARTEX Agentic Framework OAuth illegal_redirect_uri_enhanced Error Response 2313265 - ARTEX Agentic Framework WWW-Authenticate Basic realm ARTEX Response Header 2313264 - ARTEX agentic-AI pentest framework baseline canary probe observed 2313263 - ARTEX agentic-AI pentest framework spec-driven API collection write attempt 2313261 - ARTEX agentic-AI pentest framework tenant isolation bypass attempt 2313259 - ARTEX agentic-AI pentest framework OAuth unregistered redirect URI abuse attempt 2313258 - ARTEX agentic-AI pentest framework unsigned JWT alg-none SSO bypass attempt 2313257 - ARTEX agentic-AI pentest framework suspicious User-Agent observed Troj/Bckdr-SDA detects a backdoored copy of the ARTEX Docker image. The original project has been taken offline by its developer , so researchers s",
       "fetch_status": "ok"
     },
@@ -3816,7 +4093,7 @@
           "products": []
         }
       },
-      "score": 7
+      "score": 6
     },
     {
       "source": "BleepingComputer",
@@ -3830,8 +4107,7 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "ransomware_extortion",
-          "data_breach"
+          "ransomware_extortion"
         ],
         "actor_attribution": [],
         "affected_industries": [
@@ -3849,89 +4125,7 @@
           "products": []
         }
       },
-      "score": 9,
-      "full_body": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed By Lawrence Abrams November 9, 2026 06:52 PM 0 Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. The university confirmed the incident Monday, warning that university devices, systems, and cloud-based services may be affected. \"We are currently responding to an active cybersecurity incident that may impact university devices, systems, and cloud-based services. Our Information Technology team is actively investigating and working to contain the situation,\" Vanderbilt said in a statement on X . As part of its response, the university told students, faculty, and staff to shut down university devices, disconnect from university Wi-Fi, and watch for suspicious activity. The university warned that signs of compromise may include unexpected pop-ups or security notifications, unusual changes to files or permissions in cloud storage platforms, missing or modified files, unfamiliar applications, and unexpected authentication requests. Those who notice suspicious activity were instructed not to investigate or troubleshoot the issue themselves, but instead immediately shut down their devices and contact the university's IT service desk. Vanderbilt has not publicly disclosed the nature of the attack or confirmed whether any data was stolen. BleepingComputer contacted Vanderbilt University with questions about the attack, including whether systems were encrypted, what data may have been stolen, and whether the incident has been contained. If you have any information regarding this incident or other undisclosed attacks, you can contact us confidentially via Signal at 646-961-3731 or at tips@bleepingcomputer.com. BYOD ransomware claims attack On Monday, the BYOD ransomware group claimed responsibility for the attack on its data leak site, alleging that it had encrypted Vanderbilt's databases and stolen sensitive information belonging to students and employees. \"If you could not tell already, your databases are locked, We have your entire estate and research data. Over 1 Million SSNs, Full Names, Email addresses, Phone Numbers, Student & Employee Records, Full takeover of your DC, whatever was on your network, we possess,\" reads the BYOD data leak site. BYOD ransomware group claims attack on Vanderbilt University Source: BleepingComputer BleepingComputer has since received a photograph of an alleged computer screen showing icons associated with Vanderbilt University and displaying a BYOD ransom note named \"README_BYOD_31.txt\". The ransom note includes a link to the BYOD data leak site and contact information for the SESSION encrypted messaging platform to negotiate with the ransomware gang. BleepingComputer can confirm that the link in the ransom note is the site operated by BYOD. \"Oh no, you have been compromised by BYOD :<,\" reads the ransom note. \"We have all of your data including your backups, your entire network is compromised.\" \"Yes, this affects your student and employee data the most, every single SSN is archived, full names, email addresses, phone numbers, work addresses, roles, birthdays, quite literally everything.\" Photograph of BYOD ransom note displayed on a Vanderbilt University computer Source: BleepingComputer The note also threatens to release stolen data and cause further disruption if the university does not negotiate with the attackers. A video shared on YouTube and with BleepingComputer also shows how infected devices are playing audio warning that the network has been compromised by \"BYOD\". While the ransom note and video indicate BYOD is behind the attack, Vanderbilt has not officially confirmed the group's involvement or whether devices were encrypted. BYOD is a relatively new ransomware gang that launched in 2026 and currently lists 5 other organizations on its data leak site. Last m",
-      "fetch_status": "ok"
-    },
-    {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
-      "link": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
-      "published": "2026-11-09T22:09:33+00:00",
-      "summary": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]",
-      "author": "Bill Toulas",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "telecommunications"
-        ],
-        "affected_products": [
-          "Microsoft 365",
-          "Google Workspace"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "Microsoft 365": "target",
-          "Google Workspace": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 9,
-      "full_body": "SEGA newsletter data breach exposes 2.2 million email addresses By Bill Toulas November 9, 2026 05:09 PM 0 Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. The company says the exposed data also includes 92,300 records with additional information yet to be determined. The breach affects 11 newsletters linked to SEGA and SEGA Fave products and services. The investigation found that the compromised data did not include customer names, dates of birth, gender, addresses, phone numbers, credit card details, or account passwords. Also, email addresses registered with a “SEGA Account” are handled by a separate distribution system and were not affected by this incident. The company is working with ARARA to determine what data was exposed and says it has no confirmed evidence of misuse. “We are currently investigating the information associated with newsletter distribution in cooperation with ARARA,” SEGA stated . ARARA service breached ARARA disclosed on November 2 that it suffered a massive breach affecting its email distribution service, which compromised 77 million email addresses from nearly 380 corporate clients. According to the company, a web server vulnerability and problems in its system environment contributed to the incident, but the exact intrusion method and timing remain under investigation. ARARA previously estimated a smaller impact and assured SEGA on October 29 that no data compromise had occurred. However, on November 3, after uncovering the full extent of the incident, ARARA notified the gaming company that data had been exposed and shared the full details between November 5 and 8. ARARA also said the attackers abused their access to its service to send over 7 million emails impersonating credit card companies in late October. Other notable victims of the same incident include MOS Burger , with 7.5 million email addresses exposed, Shochiku Multiplex Theatres , with 3.3 million records, TKC , with 2.3 million email addresses, and IIJmio , with nearly 1 million email addresses. SEGA Arcade still down SEGA Fave’s arcade game network services, which suffered a separate cybersecurity incident last week, are still offline, undergoing maintenance and safety checks. On November 2, SEGA FAVE, SEGA's subsidiary responsible for toys, electronic gadgets, and arcade machine operations, disclosed unauthorized access to servers supporting its ALL.Net and Aime arcade gaming network services. In response, it suspended all related services, including online gameplay, SEGA Lucky Kuji Online, and new SEGA ID registrations. Its initial investigation found no evidence of customer or business partner data exfiltration, while payment information was unaffected because it was stored separately. SEGA noted that the two incidents are unrelated. Uncover email threats your existing defenses may miss. Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud. See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes. Start your free email security scan. Related Articles: Capcom confirms data breach affecting 11.7 million accounts Iris Ohyama data cloud breach exposes info of 7.7 million customers DreamHost confirms data breach exposed FTP logins and webmail sessions WorkOS says attacker used ARTEX AI to breach internal sales app Sony ISP subsidiary data breach exposes 2.5 million customer records",
-      "fetch_status": "ok"
-    },
-    {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
-      "link": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
-      "published": "2026-11-09T21:26:25+00:00",
-      "summary": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems. [...]",
-      "author": "Lawrence Abrams",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "GitHub"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day",
-          "preauth_unauth"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "GitHub": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 9,
-      "full_body": "N-able takes cloud platform offline after 30+ \"zero-days\" published By Lawrence Abrams November 9, 2026 04:26 PM 1 N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems. Security researcher Sean Bales disclosed the vulnerabilities late Sunday, November 8, and published a GitHub repository called Able2Shell containing proof-of-concept exploits for the flaws. N-central is a remote monitoring and management (RMM) platform used by managed service providers (MSPs) and IT teams to monitor, manage, and secure customer devices and networks remotely. The researcher says the vulnerabilities were tested against N-central Appliance 2026.4.0.31, a pre-release version of the software, and believes most, if not all, flaws also affect earlier versions. Bales also confirmed to BleepingComputer that the discovery of the vulnerabilities was AI-assisted. The disclosed vulnerabilities include authentication bypasses, credential disclosure, arbitrary file writes, directory traversal, cross-site scripting (XSS), XML external entity (XXE) injection, and remote code execution (RCE) flaws. One of the most critical exploit chains abuses an unauthenticated XXE vulnerability in N-central's service-import functionality to steal a trusted local session, reset an account password, and execute commands on the server as the nable user. The same exploit can also create an enabled Default Administrator account with attacker-controlled credentials, providing rogue administrative access to the N-central management interface. Bales shared a video demonstration of this exploit, showing terminal output reporting successful administrator account creation, login authentication, access to protected administrative functionality, and remote command execution as the nable user. Other disclosed exploits include a stored XSS that can execute commands as root when an administrator views malicious patch metadata, and a privilege-escalation flaw that allows code running under the nable account to execute commands as root. Bales confirmed to BleepingComputer that the unauthenticated XXE-to-RCE exploit was the most critical of the disclosed vulnerabilities. N-able takes servers offline worldwide After the disclosure, N-able announced a critical security incident and took its hosted N-central environments offline across the Americas, Europe, and Asia-Pacific regions. While BleepingComputer has not independently verified all the reported vulnerabilities, N-able confirmed it is developing a hotfix to address the security issues, lending credence to the researcher's claims that at least some of the flaws are legitimate zero-days. \"N-able is actively responding to non-responsible communication of critical vulnerabilities in N-central late Sunday night, November 8, found by an independent researcher,\" N-able told BleepingComputer. \"As a precautionary measure, we took our Hosted N-central environment offline today, November 9, and provided guidance to customers operating on-premises N-central servers to temporarily take their servers offline until further notice.\" \"Our Security, Engineering, and Operations teams are actively working to implement the necessary remediation. At this time, we have not observed active exploitation of these vulnerabilities. Protecting our customers and their environments remains our highest priority, and we will provide additional updates as they become available.\" In a subsequent status update , N-able said it was continuing to develop and validate a hotfix and had found no evidence of active exploitation or unauthorized data access. While the N-central classic environment is unavailable, N-able said Ecoverse services accessed through N-able Login remain operational. N-able has not provided an estimate of when N-central will come b",
-      "fetch_status": "ok"
+      "score": 8
     },
     {
       "source": "Dark Reading",
@@ -3959,7 +4153,7 @@
           "products": []
         }
       },
-      "score": 8
+      "score": 7
     },
     {
       "source": "Huntress",
@@ -3972,10 +4166,7 @@
       "author": "",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [
-          "zero_day",
-          "active_exploitation"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
@@ -3985,17 +4176,14 @@
         ],
         "tools_used": [],
         "cve_ids": [
-          "CVE-2026-18556",
-          "CVE-2026-18577",
-          "CVE-2026-86218",
-          "CVE-2026-86206",
-          "CVE-2026-86207"
+          "CVE-2026-125883",
+          "CVE-2026-125878",
+          "CVE-2026-125879",
+          "CVE-2026-125880",
+          "CVE-2026-125881"
         ],
         "attack_techniques": [],
         "urgency_signals": [
-          "actively_exploited",
-          "zero_day",
-          "preauth_unauth",
           "poc_available"
         ],
         "content_type": "news_report",
@@ -4009,41 +4197,9 @@
           "products": []
         }
       },
-      "score": 14,
-      "full_body": "Home Blog N-able Disables Cloud Services Following Disclosure of \"Able2Shell\" Exploit Chains Published: November 9, 2026 N-able Disables Cloud Services Following Disclosure of \"Able2Shell\" Exploit Chains By: Lindsey O'Donnell-Welch Susannah Matt Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways On November 9, N-able took N-central hosted environments offline after a security researcher disclosed 33 critical vulnerabilities in the server-side application for the remote monitoring and management platform. The vulnerabilities were found and published to GitHub by an independent researcher, and can lead to at least four distinct exploit chains resulting in remote code execution or privilege escalation on impacted N-able N-central servers, running N-central Appliance 2026.4.0.31 (and likely earlier versions as well). N-able said it has not seen active exploitation of the vulnerabilities, and is currently working on a hotfix that it expects to have available soon. The company said customers should keep their N-central servers offline until N-able confirms that they can be brought back online. Additionally, customers operating on-premises N-central servers should temporarily take their N-central servers offline until further notice. Acknowledgments : Special thanks to John Hammond, Ben Bernstein, and Andrew Brandt for their contributions to this investigation and writeup. Huntress is tracking N-able's response to the public disclosure of critical vulnerabilities in its N-central platform, a remote monitoring and management (RMM) platform built for managed service providers and IT teams. On November 9, N-able took its hosted N-central environment offline while it worked to secure the environment and apply remediation. That move came after an independent researcher published the details of 33 critical vulnerabilities to GitHub that can be chained to lead to four different exploits (dubbed \"Able2Shell\"). Three of those chained exploits lead to remote code execution and one leads to privilege escalation to root. The vulnerabilities impact servers running N-central Appliance 2026.4.0.31 (and likely earlier versions as well). N-able said it has not seen active exploitation of the vulnerabilities as of November 9 at 15:15:00 UTC. The company is working on a hotfix that it said will be available soon; customers should keep their N-central servers offline until N-able confirms they can be brought back online safely. Huntress has tracked and responded to other, separate flaws in N-able's N-central this year, including five critical CVEs : August 2026: N-able released a hotfix for CVE-2026-18556 , a critical vulnerability impacting all current versions of N-central across both hosted and on‑prem deployments, giving attackers unauthenticated, \"god-mode\" access to the RMM console. CVE-2026-18577 was disclosed soon after as an incomplete patch to the former CVE. September 2026: N-able issued a hotfix to address a third vulnerability, CVE-2026-86218 , an actively exploited pre-auth RCE zero day with a 10.0 CVSS score. The next day Huntress produced a proof of concept (PoC) exploit of a separate, net new vulnerability chain ( CVE-2026-86206 and CVE-2026-86207 ) in N-central that allowed attackers to bypass access controls to create unauthorized administrative accounts. What Should Potentially Impacted Organizations Do? Potentially impacted organizations should do the following: If you run N-central on premises, take the server offline now and keep it offline until N-able confirms it is safe to restore. If you use N-able's hosted service, expect an outage. N-able has taken its cloud infrastructure offline; follow its status page for updates. Review login and authentication activity from November 8 onward for unexpected or unauthorized access. If you find suspicious activity, involve your incident-response team and assess whether systems or client networks managed through N-central may also be affected. The document warns t",
+      "score": 13,
+      "full_body": "Home Blog N-able Disables Cloud Services Following Disclosure of \"Able2Shell\" Exploit Chains Published: November 9, 2026 N-able Disables Cloud Services Following Disclosure of \"Able2Shell\" Exploit Chains By: Lindsey O'Donnell-Welch Susannah Matt Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways On November 9, N-able took N-central hosted environments offline after a security researcher disclosed 33 critical vulnerabilities in the server-side application for the remote monitoring and management platform. The vulnerabilities were found and published to GitHub by an independent researcher, and can lead to at least four distinct exploit chains resulting in remote code execution or privilege escalation on impacted N-able N-central servers, running N-central Appliance 2026.4.0.31 (and likely earlier versions as well). On November 10, N-able released N-central 2026.4 HF2 , (build 2026.4.1.26) to address the Able2Shell vulnerabilities disclosed the day before, stating that all hosted servers had been upgraded and brought back online. N-able said it has not seen active exploitation of the vulnerabilities. UPDATE: 11/10 @ 5:30 PM ET On November 10, N-able released N-central 2026.4 HF2 , (build 2026.4.1.26) to address the Able2Shell vulnerabilities disclosed the day before. According to their release, the critical security update strengthens authentication and permission checks on the server, removes legacy mobile device management (MDM), adds additional validation to file and log handling, and hardens server components and web and sign-in protections. The hotfix addresses the following vulnerabilities, which now have designated CVEs: CVE-2026-125883 : Multiple XXE vulnerabilities CVE-2026-125878 : Multiple OGNL injection vulnerabilities CVE-2026-125879 : Local privilege escalation to root via nable-writable syslog-ng config CVE-2026-125880 : Stored XSS via MMS3 patch metadata (admin context) CVE-2026-125881 : Schema-hint SSRF via service import schema validation CVE-2026-125882 : RCE via file repository upload path traversal (credit to Nate Fair from Sprocket Security) CVE-2026-91000 : Insecure IPC Channels lead to local privilege escalation N-able has updated all hosted N-central servers, and all customers running on-premises N-central deployments are advised to upgrade their servers as soon as possible, keeping them offline until the upgrade is complete. Note that all customers, both hosted and on-premises, must also upgrade their Agents and Probes, as the hotfix updates legacy components of the Agent and Probe to change how the two communicate. N-able shared on their status page that they had observed \"scanning activity associated with the published proof-of-concept code\" but no evidence that any customer environment had been successfully exploited. As of this writing, Huntress has not observed evidence of Able2Shell exploitation in our partners' environments. Original post Acknowledgments : Special thanks to John Hammond, Ben Bernstein, and Andrew Brandt for their contributions to this investigation and writeup. Huntress is tracking N-able's response to the public disclosure of critical vulnerabilities in its N-central platform, a remote monitoring and management (RMM) platform built for managed service providers and IT teams. On November 9, N-able took its hosted N-central environment offline while it worked to secure the environment and apply remediation. That move came after an independent researcher published the details of 33 critical vulnerabilities to GitHub that can be chained to lead to four different exploits (dubbed \"Able2Shell\"). Three of those chained exploits lead to remote code execution and one leads to privilege escalation to root. The vulnerabilities impact servers running N-central Appliance 2026.4.0.31 (and likely earlier versions as well). N-able said it has not seen active exploitation of the vulnerabilities as of November 9 at 15:15:00 UTC. The company is working on a hotfix that it",
       "fetch_status": "ok"
-    },
-    {
-      "source": "The Record",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Data breach at hearing aid giant Amplifon impacts thousands",
-      "link": "https://therecord.media/amplifon-hearing-aid-company-data-breach",
-      "published": "2026-11-09T20:44:00+00:00",
-      "summary": "The U.S arm of international hearing aid company Amplifon has been notifying customers about a data breach early this year that included medical information.",
-      "author": "",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "healthcare"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 8
     },
     {
       "source": "SANS Internet Storm Center",
@@ -4146,7 +4302,7 @@
       "title": "IP snowshoeing under US .gov email via a whitelisted AmazonSES typo in SPF",
       "link": "https://www.reddit.com/r/netsec/comments/1xry7z3/ip_snowshoeing_under_us_gov_email_via_a/",
       "published": "2026-11-09T17:41:19+00:00",
-      "summary": "I run a small email security consultancy and this is our research. A typo of AmazonSES in US government DNS whitelisted 32,066 IPs to pass DMARC p=quarantine as milivcounty[.]gov, with the IP set rotating every 3-8 days. Attackers are snowshoeing the IPs, and once they get listed by Abusix and Spamhaus, they rotate the SPF include chain. Other AmazonSES typos in gov SPF are amasonses[.]com under pikevilleky[.]gov and amazones[.]com under townofkirkwood[.]gov. There are also 40 other US Gov domains with dangling & abused NS (domain takeover), MX (mail interception), and DMARC (telemetry hijack) records. Our team has registered 17 of these typos and expired domains, including one that had been in use for 20 years and only expired in August. DNS vulnerabilities have been around for decades, but many US government orgs decided to skip the security guardrails when they had the chance, and now those old gaps are being exploited by the same technologies they missed. submitted by /u/PlasmaJam ",
+      "summary": "UPDATE: Livingston County, MI, has removed amzonses[.]com from its SPF record. It had been there since at least November 2023, and when we checked, it authorized 32,066 IPs to send email as milivcounty[.]gov Since our research on US government domains went public, several government organizations have made changes to their DNS. The City of Waynesboro, TN has fixed the typo in its MX record, and the private company’s homepage served under woosterar[.]gov has been taken down. The Alabama Legislature looks to have a fix in progress too. I run a small email security consultancy and this is our research. A typo of AmazonSES in US government DNS whitelisted 32,066 IPs to pass DMARC p=quarantine as milivcounty[.]gov, with the IP set rotating every 3-8 days. Attackers are snowshoeing the IPs, and once they get listed by Abusix and Spamhaus, they rotate the SPF include chain. Other AmazonSES typos in gov SPF are amasonses[.]com under pikevilleky[.]gov and amazones[.]com under townofkirkwood[.]g",
       "author": "/u/PlasmaJam",
       "in_window": true,
       "taxonomy": {
@@ -6999,22 +7155,14 @@
       "author": "Alexander Rodchenko, Rodrigo Wanderson",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "credential_theft",
-          "apt_espionage",
-          "web_shell_backdoor"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
           "Microsoft SharePoint"
         ],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2025-53770",
-          "CVE-2025-53771"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
@@ -7026,9 +7174,7 @@
           "products": []
         }
       },
-      "score": 10,
-      "full_body": "Table of Contents Executive summary Intrusion timeline: Strategic latency and exploitation Initial access validation phase Vulnerability fingerprinting Active exploitation: Santa took your data and left a backdoor Attack originated from an SPN node Webshell architecture “G.cs” pipeline control and C2 Pipeline control Command and control layer (in-memory transport) “Prog.cs”: Execution entry point and task dispatcher Host interaction modules “FileDownloader.cs” “LoggedOnUsers.cs” “ProcessList.cs” “NetworkInfo.cs” “MSI.cs” “User.cs” SAMRPCNative “SAMEnums.cs” “SAMStructs.cs” “SAMMethods.cs” Privilege escalation Post-exploitation activity EDR-killing attempts Ransomware deployment attempt What defenders really need to look for ToolPane deserialization and CLR artifacts Detecting deserialization exploitation Detecting a VPP-based webshell/runtime implant Attribution Conclusion Indicator of compromise Authors Alexander Rodchenko Rodrigo Wanderson Executive summary In 2025, several threat actors exploited CVE-2025-53770 and CVE-2025-53771 (ToolShell vulnerabilities) in on-premises Microsoft SharePoint to achieve remote code execution through crafted HTTP requests. One of the threat actors deployed ransomware on the target’s systems after successful exploitation. Microsoft attributed this ransomware-related ToolShell activity to Storm-2603, distinguishing it from other actors whose observed activity was primarily focused on credential theft, espionage, and data exfiltration. In December, our retrospective analysis identified activity consistent with Storm-2603’s TTPs. This activity involved the attacker using the IIS worker process as an in-memory bridge to the customer’s infrastructure, keeping the access and control layer entirely within w3wp.exe without writing anything to disk. Although subsequent post-exploitation activity generated disk artifacts, the bridge used to maintain access remained memory-resident. Let’s look in more detail at this attack. The attack chain, from reconnaissance to infrastructure compromise Intrusion timeline: Strategic latency and exploitation The intrusion analyzed in this report occurred in two stages, with a temporal gap between initial access and subsequent exploitation activity. The attack timeline was as follows: Dec 20 – Vulnerability fingerprinting: A single HTTP request targeted a SharePoint administrative endpoint associated with the ToolPane component to determine whether the host was vulnerable to CVE-2025-53770. Dec 21-23 – Tactical latency: A three-day period of silence followed the initial probe, separating the vulnerability fingerprinting from subsequent malicious activity and potentially reducing the likelihood of immediate detection. Dec 24 – High-intensity re-engagement: On Christmas Eve, when security staffing at many companies is reduced, the full RCE chain was executed through the IIS worker process (w3wp.exe) on the same endpoint as the initial probe. Dec 26 – Incident discovery: The three-day gap initially prevented the December 20 probe from being correlated with subsequent malicious activity, marking the event as low priority. Retrospective analysis established that the probe was the initial phase of the subsequent intrusion. Intrusion timeline Initial access validation phase Vulnerability fingerprinting A vulnerability fingerprinting request on December 20 marked the first observed interaction with the target. The request originated from infrastructure associated with ONYPHE, an internet-scale attack surface discovery and management platform for identifying exposed assets, vulnerabilities, and cyberthreats. Unlike widely used tools such as Shodan and Censys, which merely provide a list of internet-facing assets correlated with the open-source data about known vulnerabilities, ONYPHE actually checks if the target system is vulnerable. Fingerprinting with ONYPHE The request characteristics were consistent with ONYPHE’s vulnerability checks, which use active, non-intrusive probes",
-      "fetch_status": "ok"
+      "score": 10
     },
     {
       "source": "The Hacker News",
@@ -7796,7 +7942,7 @@
       "published": "2026-11-04T01:05:40+00:00",
       "summary": "The new YubiID service bridges identity verification with credential enrollment and recovery across existing identity platforms, closing an important authentication gap. Plus: post-quantum YubiKey beta.",
       "author": "Jeffrey Schwartz",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [
           "phishing_social_eng"
@@ -7814,8 +7960,7 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 4
+      }
     },
     {
       "source": "Risky Business News",
@@ -7826,7 +7971,7 @@
       "published": "2026-11-04T00:53:51+00:00",
       "summary": "Hackers brick Chinese EVs in Russia, a second wave of hacks defrost European supermarket freezers, the US boots Acronis from government networks and the major distros patch a Linux kernel RCE.",
       "author": "",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
@@ -7848,10 +7993,144 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 9,
-      "full_body": "Risky Bulletin Podcast November 04, 2026 Risky Bulletin: Hackers brick Chinese EVs in Russia Presented by Catalin Cimpanu News Editor Claire Aird Newsreader Hackers brick Chinese EVs in Russia, a second wave of hacks defrost European supermarket freezers, the US boots Acronis from government networks and the major distros patch a Linux kernel RCE. Your browser does not support the audio element. Risky Bulletin: Hackers brick Chinese EVs in Russia â¶ 0:00 / 8:49 Subscribe Brought to you by Sublime Security Agentic AI that stops email attacks at adversary speed Show notes Risky Bulletin: Hackers lock out and extort Li Auto EV owners in Russia",
-      "fetch_status": "ok"
+      }
+    },
+    {
+      "source": "Simon Willison",
+      "cohort": "ai_security_agentic_risk",
+      "category": "ai_security_agentic_risk",
+      "title": "datasette-apps 0.3a0",
+      "link": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
+      "published": "2026-11-04T00:29:36+00:00",
+      "summary": "Release: datasette-apps 0.3a0 Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette. These can be created by hand, but it's easier to create them using LLMs via Datasette Agent . This release improves that integration: Apps can now be tagged in Datasette Agent chat messages by typing # , which autocompletes from the apps the user has permission to view. New app_add_stored_queries() and app_remove_stored_queries() tools let the agent manage which stored queries an app is allowed to call. Granting a write query requires approval from the user first. app_create() now checks that each requested stored query exists and that the user can view it, and asks the user to approve any write queries before the app is created. The \"View app\" buttons shown by the agent tools, and the links on # app references, now open the app full screen in the Datasette Agent panel. Tags: datasette-agent , datasette-apps , datasette",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Sysdig",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "What one organization revealed about AI agent risk",
+      "link": "https://webflow.sysdig.com/blog/a-first-look-under-the-hood-of-ai-agents",
+      "published": "2026-11-04T00:00:00+00:00",
+      "summary": "One company monitored AI agent activity for a month. See what Sysdig AI Defense found, from unapproved agents to unlogged credential reads.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Sysdig",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Introducing Sysdig AI Defense: See, stop, and prove what agents do",
+      "link": "https://webflow.sysdig.com/blog/introducing-sysdig-ai-defense",
+      "published": "2026-11-04T00:00:00+00:00",
+      "summary": "Sysdig AI Defense is runtime security and governance for every AI agent your teams run, from the laptop where an agent starts its work to the cloud where its actions land. It starts by showing you what’s there. It finds the agents, MCP servers, skills and plugins your people use, including the ones nobody approved, and ties each one to the account and the person behind it.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "When trust becomes the payload: Inside the threats, etc quarterly report",
+      "link": "https://www.elastic.co/security-labs/reports/threats-etc-report-november-2026-trouble-with-trust",
+      "published": "2026-11-04T00:00:00+00:00",
+      "summary": "The newest threats, etc report details how adversaries are weaponizing trust across the entire enterprise stack, abusing everything from AI assistants and npm supply chains to identity flows and legitimate management tools.",
+      "author": "Terrance DeJesus,Jason Pappalexis,Andrew Pease",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Simon Willison",
+      "cohort": "ai_security_agentic_risk",
+      "category": "ai_security_agentic_risk",
+      "title": "datasette-agent 0.5a0",
+      "link": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
+      "published": "2026-11-03T23:13:45+00:00",
+      "summary": "Release: datasette-agent 0.5a0 This is a significant release of Datasette Agent . The most notable new feature is called the panel - it lets the agent chat open and then sit next to pages from Datasette, for example a table or query page. When combined with datasette-apps this means you can prompt a database-backed app into existence and then modify it from the chat that sits next to that app. You can try it by signing in with your GitHub account to agent.datasette.io . Tags: projects , datasette-agent , datasette",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
     },
     {
       "source": "Dark Reading",
@@ -7862,7 +8141,7 @@
       "published": "2026-11-03T22:16:49+00:00",
       "summary": "Beyond food storage, the same combination of Internet connectivity, remote access, and inadequate security practices can put temperature-controlled infrastructure across other critical sectors at risk.",
       "author": "Jai Vijayan",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
@@ -7878,8 +8157,61 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 4
+      }
+    },
+    {
+      "source": "Dark Reading",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Germany Busts 'Crime-as-a-Service' Investment Fraud Outfit",
+      "link": "https://www.darkreading.com/cybersecurity-operations/germany-crime-service-investment-fraud",
+      "published": "2026-11-03T21:57:12+00:00",
+      "summary": "Authorities seized more than 100 servers and arrested seven as part of a crackdown on a fraud network spanning more than 50 countries.",
+      "author": "Alexander Culafi",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Simon Willison",
+      "cohort": "ai_security_agentic_risk",
+      "category": "ai_security_agentic_risk",
+      "title": "llm 0.37.1",
+      "link": "https://simonwillison.net/2026/Nov/3/llm/",
+      "published": "2026-11-03T21:41:42+00:00",
+      "summary": "Release: llm 0.37.1 A bugfix release for LLM , with contributions from Steven Huang , Tao An , Arjan Mossel , and XQ . Tags: llm",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
     },
     {
       "source": "Chainalysis",
@@ -9802,33 +10134,6 @@
       }
     },
     {
-      "source": "Reddit r/netsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Remote code execution on Linux systems with multipath TCP",
-      "link": "https://www.reddit.com/r/netsec/comments/1xlsqor/remote_code_execution_on_linux_systems_with/",
-      "published": "2026-11-02T09:30:42+00:00",
-      "summary": "submitted by /u/lucidsparrow982 [link] [comments]",
-      "author": "/u/lucidsparrow982",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Infosecurity Magazine",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -10221,39 +10526,6 @@
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
         "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Microsoft Security Blog",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
-      "published": "2026-10-31T01:02:57+00:00",
-      "summary": "Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it. The post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on Microsoft Security Blog .",
-      "author": "Microsoft Security Research",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Anthropic/Claude"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {
-          "Anthropic/Claude": "target"
-        },
         "weak_tags": {
           "products": []
         }
@@ -11630,33 +11902,6 @@
       }
     },
     {
-      "source": "Simon Willison",
-      "cohort": "ai_security_agentic_risk",
-      "category": "ai_security_agentic_risk",
-      "title": "Quoting Ben Hylak",
-      "link": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
-      "published": "2026-10-29T14:06:27+00:00",
-      "summary": "every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. in our product, customers love the ui and love us very much. we're special that way. — Ben Hylak Tags: model-context-protocol , ai",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Cisco Talos",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -12484,35 +12729,6 @@
       }
     },
     {
-      "source": "Dark Reading",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "AI Takes Root in Hospital Corridors, Raises Security Stakes",
-      "link": "https://www.darkreading.com/cybersecurity-operations/ai-root-hospital-corridors-raised-security-stakes",
-      "published": "2026-10-28T15:29:06+00:00",
-      "summary": "Artificial intelligence is everywhere in healthcare, from doctors' intake forms to cancer screenings. But in some cases, life-and-death uses are outpacing cybersecurity.",
-      "author": "Arielle Waldman",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "healthcare"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Graham Cluley",
       "cohort": "practitioner_analysis",
       "category": "practitioner_analysis",
@@ -12570,39 +12786,6 @@
         "role_map": {
           "Anthropic/Claude": "target",
           "OpenAI/ChatGPT": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Dark Reading",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Attacker Relentlessly Scans for Credentials by Impersonating AI Bots",
-      "link": "https://www.darkreading.com/cyber-risk/attacker-impersonates-ai-bots-scans-credentials",
-      "published": "2026-10-28T14:37:52+00:00",
-      "summary": "The threat actor lurked behind bots posing as agents from OpenAI, Anthropic, Meta, and others to find exposed data.",
-      "author": "Elizabeth Montalbano",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "OpenAI/ChatGPT",
-          "Anthropic/Claude"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "OpenAI/ChatGPT": "target",
-          "Anthropic/Claude": "target"
         },
         "weak_tags": {
           "products": []
@@ -12943,33 +13126,6 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Dark Reading",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Third Serengeti Sweep Tops 1,400 Arrests as Investigations Mature",
-      "link": "https://www.darkreading.com/cybersecurity-operations/third-serengeti-sweep-1400-arrests-investigations-mature",
-      "published": "2026-10-28T06:00:00+00:00",
-      "summary": "Interpol's annual Operation Serengeti, now in its third iteration, led to 1,462 arrests across 20 African countries and the US, recovering $105 million in stolen funds.",
-      "author": "Robert Lemos",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_4_news",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -21190,35 +21346,6 @@
       }
     },
     {
-      "source": "Rapid7",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "Rapid7 Intelligence Wins the 2026 Péter Szőr Award for Outstanding Research",
-      "link": "https://www.rapid7.com/blog/post/tr-rapid7-intelligence-wins-2026-peter-szor-award-outstanding-research",
-      "published": "2026-10-16T13:00:00+00:00",
-      "summary": "Some awards you're happy to receive, while others make you stop for a moment. Receiving the 2026 Péter Szőr Award this week at Virus Bulletin in Seville for our research, BPFdoor in Telecom Networks: Sleeper Cells in the Backbone , was of the latter kind. Virus Bulletin created the award to honor Péter's life and work, and it recognizes outstanding technical security research: the rigorous, the deep, and the useful – exactly what he was known for himself. And as far as recognitions in our industry go, it's hard to top. I'm extremely proud. What the Pèter Szőr Award means to us I knew Péter, and early in my career, I learned from him. This was back when malware analysis meant staring at assembly, arguing about what a routine really did, and realizing hours later that your first theory was wrong. One memory came straight back when I heard about the award: going through Stuxnet together. For anyone in research at the time, that was the moment you knew the game had changed. Engineering, tr",
-      "author": "Christiaan Beek",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "telecommunications"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "threat_research",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Huntress",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -23692,70 +23819,6 @@
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
         "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "AWS Security Blog",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Quantum-resistant signing on AWS, Part 2: Enforce your ML-DSA algorithm policy with SCPs and IAM",
-      "link": "https://aws.amazon.com/blogs/security/quantum-resistant-signing-on-aws-part-2-enforce-your-ml-dsa-algorithm-policy-with-scps-and-iam/",
-      "published": "2026-10-12T20:13:06+00:00",
-      "summary": "You want to set a cryptographic algorithm policy and stop non-compliant choices from being made in your Amazon Web Services (AWS) environment. This post shows you how. As you adopt post-quantum cryptography, one of the first decisions you face is which algorithms and parameter sets fit your business needs, balancing security against signature size, key […]",
-      "author": "Harshvardhan Chunawala",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "AWS"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {
-          "AWS": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "AWS Security Blog",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Quantum-resistant signing on AWS, Part 1: Build a software supply chain with ML-DSA",
-      "link": "https://aws.amazon.com/blogs/security/quantum-resistant-signing-on-aws-part-1-build-a-software-supply-chain-with-ml-dsa/",
-      "published": "2026-10-12T20:12:53+00:00",
-      "summary": "Software supply chain attacks have grown in both frequency and sophistication. Recent high-profile compromises of build systems and open source dependencies demonstrate that attackers increasingly target the trust mechanisms that verify software integrity. Those trust mechanisms rely on digital signature algorithms, and today many use traditional algorithms such as Rivest-Shamir-Adleman (RSA) and the Elliptic Curve […]",
-      "author": "Harshvardhan Chunawala",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "AWS"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {
-          "AWS": "target"
-        },
         "weak_tags": {
           "products": []
         }
@@ -27368,36 +27431,6 @@
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
-        "confidence_tier": "tier_3_analysis",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Krebs on Security",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
-      "link": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
-      "published": "2026-09-25T21:44:40+00:00",
-      "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in restitution to victims.",
-      "author": "BrianKrebs",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government",
-          "telecommunications"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
         "confidence_tier": "tier_3_analysis",
         "role_map": {},
         "weak_tags": {

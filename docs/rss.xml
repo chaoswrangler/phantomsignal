@@ -6,9 +6,123 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 10 Nov 2026 20:45:21 +0000</lastBuildDate>
+<lastBuildDate>Wed, 11 Nov 2026 01:10:06 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Reduce alert fatigue by customizing threat detection features in Amazon GuardDuty</title>
+<link>https://aws.amazon.com/blogs/security/reduce-alert-fatigue-by-customizing-threat-detection-features-in-amazon-guardduty/</link>
+<description><![CDATA[The teams responsible for security today don’t have a problem with the number of alerts they receive; they have a problem turning those alerts into something truly actionable. When an analyst concludes an investigation with “this was caused by our vulnerability scanner” or “this account is configured to share Amazon Machine Images (AMIs) publicly on […]<br/><br/><em>Tags: AWS</em>]]></description>
+<pubDate>Tue, 10 Nov 2026 23:04:52 +0000</pubDate>
+<guid isPermaLink="true">https://aws.amazon.com/blogs/security/reduce-alert-fatigue-by-customizing-threat-detection-features-in-amazon-guardduty/</guid>
+<source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
+<category>cloud_identity_infrastructure</category>
+<category>AWS</category>
+</item>
+<item>
+<title>Detecting sleeper agents hiding in AI model neurons</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/</link>
+<description><![CDATA[Microsoft Research has released new threat research detailing how a capable agent model could be turned into a sleeper agent by editing fewer than ten neurons to inject a short payload; Microsoft Research has also found that this threat is detectable by frontier agents, which can identify anomalous weight edits. The post Detecting sleeper agents hiding in AI model neurons appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Anthropic/Claude · web_shell_backdoor</em>]]></description>
+<pubDate>Tue, 10 Nov 2026 23:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<category>threat_research_primary</category>
+<category>Anthropic/Claude</category>
+<category>web_shell_backdoor</category>
+</item>
+<item>
+<title>November Patch Tuesday: An Overflowing Cornucopia of CVEs</title>
+<link>https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves</link>
+<description><![CDATA[Microsoft serves up an actively exploited Outlook zero-day, and a wave of critical Exchange, SharePoint, Windows Search, and LDAP bugs that exhausted defenders need to prioritize fast.<br/><br/><em>Tags: Microsoft SharePoint · zero_day · active_exploitation</em>]]></description>
+<pubDate>Tue, 10 Nov 2026 22:26:51 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+<category>Microsoft SharePoint</category>
+<category>zero_day</category>
+<category>active_exploitation</category>
+</item>
+<item>
+<title>Railway breach leads to $740,000 in fraudulent AI charges</title>
+<link>https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/</link>
+<description><![CDATA[Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing credentials for up to 100,000 workspaces. [...]]]></description>
+<pubDate>Tue, 10 Nov 2026 22:20:19 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Patch Tuesday - November 2026</title>
+<link>https://www.rapid7.com/blog/post/em-patch-tuesday-november-2026</link>
+<description><![CDATA[Microsoft is publishing 1,092 own-product vulnerabilities on November 2026 Patch Tuesday, including 1,102 vulnerabilities in Windows. Until a few months ago, these volumes would have been unimaginable, but if anything, this month feels like a slight reprieve. The jury is still out on whether patching many more vulnerabilities will lead to better security outcomes; every code change to resolve a known vulnerability could easily introduce new hidden treasure for researchers or threat actors to unearth in the future. Despite the vast uptick in volume during 2026, there has been no accompanying increase in the number of vulnerabilities known to be exploited in the wild. Microsoft is aware of exploitation in the wild for just one of the vulnerabilities published today, with no known public disclosure at all this month. Outlook: zero-day spoofing Imagine coming home and checking your mailbox to find a postcard. You admire the non-specific image of a tropical beach at sunset, and flip it over<br/><br/><em>Tags: CVE-2026-124194 · CVE-2026-119952 · zero_day · active_exploitation</em>]]></description>
+<pubDate>Tue, 10 Nov 2026 21:55:37 +0000</pubDate>
+<guid isPermaLink="true">https://www.rapid7.com/blog/post/em-patch-tuesday-november-2026</guid>
+<source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
+<category>offensive_vulnerability_research</category>
+<category>CVE-2026-124194</category>
+<category>CVE-2026-119952</category>
+<category>zero_day</category>
+<category>active_exploitation</category>
+</item>
+<item>
+<title>Microsoft Fixes Nearly 1,100 Security Vulnerabilities</title>
+<link>https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/</link>
+<description><![CDATA[Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month&apos;s Patch Tuesday addresses 63 critical flaws -- including a zero-day in Microsoft Outlook -- and comes amid important security updates from other software makers, including Adobe, Apple, Google and Mozilla.<br/><br/><em>Tags: Microsoft 365 · Apple iOS/macOS · Ivanti · CVE-2026-124194 · CVE-2026-125350 · zero_day · active_exploitation</em>]]></description>
+<pubDate>Tue, 10 Nov 2026 21:55:03 +0000</pubDate>
+<guid isPermaLink="true">https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/</guid>
+<source url="https://krebsonsecurity.com/feed/">Krebs on Security</source>
+<category>practitioner_analysis</category>
+<category>Microsoft 365</category>
+<category>Apple iOS/macOS</category>
+<category>Ivanti</category>
+<category>CVE-2026-124194</category>
+</item>
+<item>
+<title>Microsoft fixes over 1,000 vulnerabilities in November Patch Tuesday</title>
+<link>https://cyberscoop.com/microsoft-patch-tuesday-november-2026/</link>
+<description><![CDATA[Microsoft’s November security update addresses roughly 1,090 vulnerabilities across Windows, Office, Azure and the company’s other product lines, the second consecutive monthly release to exceed the totals of all previous years. The release formally lists 1,094 CVEs, with Windows accounting for 726 and Office 174. A smaller number of patches went to SQL Server, Exchange […] The post Microsoft fixes over 1,000 vulnerabilities in November Patch Tuesday appeared first on CyberScoop .<br/><br/><em>Tags: Azure</em>]]></description>
+<pubDate>Tue, 10 Nov 2026 21:47:01 +0000</pubDate>
+<guid isPermaLink="true">https://cyberscoop.com/microsoft-patch-tuesday-november-2026/</guid>
+<source url="https://cyberscoop.com/feed/">CyberScoop</source>
+<category>cyber_news_breach_reporting</category>
+<category>Azure</category>
+</item>
+<item>
+<title>Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon</title>
+<link>https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon</link>
+<description><![CDATA[Forks of the open source Artex framework, along with 45 similar pen-testing tools, remain capable of executing credential attacks and cloud breaches at machine speed across multiple industries.]]></description>
+<pubDate>Tue, 10 Nov 2026 21:01:14 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Microsoft’s Patch Tuesday surpasses 1,000 bugs for second month in a row</title>
+<link>https://therecord.media/patch-tuesday-microsoft-1000-bugs-again</link>
+<description><![CDATA[An exploited Outlook vulnerability drew most of the attention in Microsoft&apos;s latest Patch Tuesday, which listed 1,093 bugs total.]]></description>
+<pubDate>Tue, 10 Nov 2026 20:55:00 +0000</pubDate>
+<guid isPermaLink="true">https://therecord.media/patch-tuesday-microsoft-1000-bugs-again</guid>
+<source url="https://therecord.media/feed">The Record</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Japanese furniture giant Nitori says hackers stole 37.6M customer records</title>
+<link>https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/</link>
+<description><![CDATA[Nitori, a major Japanese furniture and home accessories retailer, discovered that an attacker accessed a system on its network and may have stolen 37.62 million customer records. [...]]]></description>
+<pubDate>Tue, 10 Nov 2026 20:54:55 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>F-Secure Identifies 26 Ways AI Can Harm Consumers, and Where to Stop Them</title>
+<link>https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them</link>
+<description><![CDATA[New AI Harms Taxonomy traces how harm moves through AI systems, from misleading chatbot answers to compromised autonomous agents, and identifies where defenses can intervene.]]></description>
+<pubDate>Tue, 10 Nov 2026 20:41:45 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>How to Assess OT Incident Response Preparedness</title>
 <link>https://www.darkreading.com/ics-ot-security/assess-ot-incident-response-preparedness</link>
@@ -74,11 +188,15 @@
 <item>
 <title>SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users</title>
 <link>https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html</link>
-<description><![CDATA[An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI&apos;s inference servers last Sunday. The attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company said earlier this week. That mode processes requests inside a trusted execution environment (TEE]]></description>
+<description><![CDATA[An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI&apos;s inference servers last Sunday. The attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company said earlier this week. That mode processes requests inside a trusted execution environment (TEE<br/><br/><em>Tags: Anthropic/Claude · OpenAI/ChatGPT · GitHub · data_breach · apt_espionage · web_shell_backdoor</em>]]></description>
 <pubDate>Tue, 10 Nov 2026 19:19:39 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+<category>Anthropic/Claude</category>
+<category>OpenAI/ChatGPT</category>
+<category>GitHub</category>
+<category>data_breach</category>
 </item>
 <item>
 <title>Microsoft Patch Tuesday November 2027 , (Tue, Nov 10th)</title>
@@ -394,16 +512,6 @@
 <category>CVE-2025-48757</category>
 </item>
 <item>
-<title>Russian hackers compromised government email servers to steal NATO, EU correspondence</title>
-<link>https://therecord.media/russia-hackers-espionage-romania-kazakhstan</link>
-<description><![CDATA[Russian state-linked hackers have compromised government email servers in Romania and Kazakhstan to secretly intercept messages exchanged with NATO and European Union officials, researchers said.<br/><br/><em>Tags: apt_espionage</em>]]></description>
-<pubDate>Tue, 10 Nov 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/russia-hackers-espionage-romania-kazakhstan</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
-<category>apt_espionage</category>
-</item>
-<item>
 <title>AI Makes Reverse Engineering Mainstream Software &amp; Malware Far Easier</title>
 <link>https://www.darkreading.com/application-security/ai-reverse-engineering-apps</link>
 <description><![CDATA[Researchers unpacked, mapped, and recreated complex software and the Turla malware, raising opportunities and concerns for organizations and cybersecurity analysts.]]></description>
@@ -549,14 +657,11 @@
 <item>
 <title>N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days</title>
 <link>https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/</link>
-<description><![CDATA[Attackers could exploit the flaws for remote code execution, credential theft, and administrator account creation. The post N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days appeared first on SecurityWeek .<br/><br/><em>Tags: SonicWall · OpenAI/ChatGPT · supply_chain · credential_theft · zero_day · data_breach</em>]]></description>
+<description><![CDATA[Attackers could exploit the flaws for remote code execution, credential theft, and administrator account creation. The post N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days appeared first on SecurityWeek .<br/><br/><em>Tags: credential_theft</em>]]></description>
 <pubDate>Tue, 10 Nov 2026 09:56:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
-<category>SonicWall</category>
-<category>OpenAI/ChatGPT</category>
-<category>supply_chain</category>
 <category>credential_theft</category>
 </item>
 <item>
@@ -731,37 +836,12 @@
 <item>
 <title>Vanderbilt University hit in BYOD ransomware attack, data theft claimed</title>
 <link>https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/</link>
-<description><![CDATA[Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university&apos;s databases and stolen sensitive student, employee, and research data. [...]<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
+<description><![CDATA[Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university&apos;s databases and stolen sensitive student, employee, and research data. [...]<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
 <pubDate>Mon, 09 Nov 2026 23:52:12 +0000</pubDate>
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
-<category>data_breach</category>
-</item>
-<item>
-<title>SEGA newsletter data breach exposes 2.2 million email addresses</title>
-<link>https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/</link>
-<description><![CDATA[Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]<br/><br/><em>Tags: Microsoft 365 · Google Workspace · phishing_social_eng · data_breach</em>]]></description>
-<pubDate>Mon, 09 Nov 2026 22:09:33 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>Microsoft 365</category>
-<category>Google Workspace</category>
-<category>phishing_social_eng</category>
-<category>data_breach</category>
-</item>
-<item>
-<title>N-able takes cloud platform offline after 30+ &quot;zero-days&quot; published</title>
-<link>https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/</link>
-<description><![CDATA[N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems. [...]<br/><br/><em>Tags: GitHub · zero_day</em>]]></description>
-<pubDate>Mon, 09 Nov 2026 21:26:25 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>GitHub</category>
-<category>zero_day</category>
 </item>
 <item>
 <title>Microsoft Fixes RCE Bug in Windows Paint After Weeks of Confusion</title>
@@ -775,7 +855,7 @@
 <item>
 <title>N-able Disables Cloud Services Following Disclosure of &quot;Able2Shell&quot; Exploit Chains</title>
 <link>https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains</link>
-<description><![CDATA[N-able took N-central offline after 33 critical flaws were disclosed, including chains enabling remote code execution and privilege escalation.<br/><br/><em>Tags: GitHub · OpenAI/ChatGPT · Anthropic/Claude · CVE-2026-18556 · CVE-2026-18577 · CVE-2026-86218 · CVE-2026-86206 · CVE-2026-86207</em>]]></description>
+<description><![CDATA[N-able took N-central offline after 33 critical flaws were disclosed, including chains enabling remote code execution and privilege escalation.<br/><br/><em>Tags: GitHub · OpenAI/ChatGPT · Anthropic/Claude · CVE-2026-125883 · CVE-2026-125878 · CVE-2026-125879 · CVE-2026-125880 · CVE-2026-125881</em>]]></description>
 <pubDate>Mon, 09 Nov 2026 21:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains</guid>
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
@@ -783,17 +863,7 @@
 <category>GitHub</category>
 <category>OpenAI/ChatGPT</category>
 <category>Anthropic/Claude</category>
-<category>CVE-2026-18556</category>
-</item>
-<item>
-<title>Data breach at hearing aid giant Amplifon impacts thousands</title>
-<link>https://therecord.media/amplifon-hearing-aid-company-data-breach</link>
-<description><![CDATA[The U.S arm of international hearing aid company Amplifon has been notifying customers about a data breach early this year that included medical information.<br/><br/><em>Tags: data_breach</em>]]></description>
-<pubDate>Mon, 09 Nov 2026 20:44:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/amplifon-hearing-aid-company-data-breach</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
-<category>data_breach</category>
+<category>CVE-2026-125883</category>
 </item>
 <item>
 <title>Attackers Searching for SAP Netweaver Webshells, (Mon, Nov 9th)</title>
@@ -827,7 +897,7 @@
 <item>
 <title>IP snowshoeing under US .gov email via a whitelisted AmazonSES typo in SPF</title>
 <link>https://www.reddit.com/r/netsec/comments/1xry7z3/ip_snowshoeing_under_us_gov_email_via_a/</link>
-<description><![CDATA[I run a small email security consultancy and this is our research. A typo of AmazonSES in US government DNS whitelisted 32,066 IPs to pass DMARC p=quarantine as milivcounty[.]gov, with the IP set rotating every 3-8 days. Attackers are snowshoeing the IPs, and once they get listed by Abusix and Spamhaus, they rotate the SPF include chain. Other AmazonSES typos in gov SPF are amasonses[.]com under pikevilleky[.]gov and amazones[.]com under townofkirkwood[.]gov. There are also 40 other US Gov domains with dangling &amp; abused NS (domain takeover), MX (mail interception), and DMARC (telemetry hijack) records. Our team has registered 17 of these typos and expired domains, including one that had been in use for 20 years and only expired in August. DNS vulnerabilities have been around for decades, but many US government orgs decided to skip the security guardrails when they had the chance, and now those old gaps are being exploited by the same technologies they missed. submitted by /u/PlasmaJam ]]></description>
+<description><![CDATA[UPDATE: Livingston County, MI, has removed amzonses[.]com from its SPF record. It had been there since at least November 2023, and when we checked, it authorized 32,066 IPs to send email as milivcounty[.]gov Since our research on US government domains went public, several government organizations have made changes to their DNS. The City of Waynesboro, TN has fixed the typo in its MX record, and the private company’s homepage served under woosterar[.]gov has been taken down. The Alabama Legislature looks to have a fix in progress too. I run a small email security consultancy and this is our research. A typo of AmazonSES in US government DNS whitelisted 32,066 IPs to pass DMARC p=quarantine as milivcounty[.]gov, with the IP set rotating every 3-8 days. Attackers are snowshoeing the IPs, and once they get listed by Abusix and Spamhaus, they rotate the SPF include chain. Other AmazonSES typos in gov SPF are amasonses[.]com under pikevilleky[.]gov and amazones[.]com under townofkirkwood[.]g]]></description>
 <pubDate>Mon, 09 Nov 2026 17:41:19 +0000</pubDate>
 <guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1xry7z3/ip_snowshoeing_under_us_gov_email_via_a/</guid>
 <source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
@@ -1708,15 +1778,12 @@
 <item>
 <title>The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603</title>
 <link>https://securelist.com/storm-2603-fileless-toolshell-attack/121467/</link>
-<description><![CDATA[Kaspersky researchers analyze a complex fileless cyberattack by Storm-2603 involving ToolShell exploitation and subsequent runtime subversion, and discuss how to detect such intrusions.<br/><br/><em>Tags: Microsoft SharePoint · CVE-2025-53770 · CVE-2025-53771 · ransomware_extortion · credential_theft · apt_espionage · web_shell_backdoor</em>]]></description>
+<description><![CDATA[Kaspersky researchers analyze a complex fileless cyberattack by Storm-2603 involving ToolShell exploitation and subsequent runtime subversion, and discuss how to detect such intrusions.<br/><br/><em>Tags: Microsoft SharePoint</em>]]></description>
 <pubDate>Thu, 05 Nov 2026 10:00:11 +0000</pubDate>
 <guid isPermaLink="true">https://securelist.com/storm-2603-fileless-toolshell-attack/121467/</guid>
 <source url="https://securelist.com/feed/">Kaspersky Securelist</source>
 <category>threat_research_primary</category>
 <category>Microsoft SharePoint</category>
-<category>CVE-2025-53770</category>
-<category>CVE-2025-53771</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access</title>
@@ -1973,6 +2040,51 @@
 <category>Linux kernel</category>
 </item>
 <item>
+<title>datasette-apps 0.3a0</title>
+<link>https://simonwillison.net/2026/Nov/4/datasette-apps/</link>
+<description><![CDATA[Release: datasette-apps 0.3a0 Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette. These can be created by hand, but it&apos;s easier to create them using LLMs via Datasette Agent . This release improves that integration: Apps can now be tagged in Datasette Agent chat messages by typing # , which autocompletes from the apps the user has permission to view. New app_add_stored_queries() and app_remove_stored_queries() tools let the agent manage which stored queries an app is allowed to call. Granting a write query requires approval from the user first. app_create() now checks that each requested stored query exists and that the user can view it, and asks the user to approve any write queries before the app is created. The &quot;View app&quot; buttons shown by the agent tools, and the links on # app references, now open the app full screen in the Datasette Agent panel. Tags: datasette-agent , datasette-apps , datasette]]></description>
+<pubDate>Wed, 04 Nov 2026 00:29:36 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Nov/4/datasette-apps/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>What one organization revealed about AI agent risk</title>
+<link>https://webflow.sysdig.com/blog/a-first-look-under-the-hood-of-ai-agents</link>
+<description><![CDATA[One company monitored AI agent activity for a month. See what Sysdig AI Defense found, from unapproved agents to unlogged credential reads.]]></description>
+<pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://webflow.sysdig.com/blog/a-first-look-under-the-hood-of-ai-agents</guid>
+<source url="https://sysdig.com/feed/">Sysdig</source>
+<category>detection_response_operations</category>
+</item>
+<item>
+<title>Introducing Sysdig AI Defense: See, stop, and prove what agents do</title>
+<link>https://webflow.sysdig.com/blog/introducing-sysdig-ai-defense</link>
+<description><![CDATA[Sysdig AI Defense is runtime security and governance for every AI agent your teams run, from the laptop where an agent starts its work to the cloud where its actions land. It starts by showing you what’s there. It finds the agents, MCP servers, skills and plugins your people use, including the ones nobody approved, and ties each one to the account and the person behind it.]]></description>
+<pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://webflow.sysdig.com/blog/introducing-sysdig-ai-defense</guid>
+<source url="https://sysdig.com/feed/">Sysdig</source>
+<category>detection_response_operations</category>
+</item>
+<item>
+<title>When trust becomes the payload: Inside the threats, etc quarterly report</title>
+<link>https://www.elastic.co/security-labs/reports/threats-etc-report-november-2026-trouble-with-trust</link>
+<description><![CDATA[The newest threats, etc report details how adversaries are weaponizing trust across the entire enterprise stack, abusing everything from AI assistants and npm supply chains to identity flows and legitimate management tools.]]></description>
+<pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/reports/threats-etc-report-november-2026-trouble-with-trust</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
+</item>
+<item>
+<title>datasette-agent 0.5a0</title>
+<link>https://simonwillison.net/2026/Nov/3/datasette-agent/</link>
+<description><![CDATA[Release: datasette-agent 0.5a0 This is a significant release of Datasette Agent . The most notable new feature is called the panel - it lets the agent chat open and then sit next to pages from Datasette, for example a table or query page. When combined with datasette-apps this means you can prompt a database-backed app into existence and then modify it from the chat that sits next to that app. You can try it by signing in with your GitHub account to agent.datasette.io . Tags: projects , datasette-agent , datasette]]></description>
+<pubDate>Tue, 03 Nov 2026 23:13:45 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Nov/3/datasette-agent/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Fresh European Fridge Attacks Put Cold-Chain Security in Focus</title>
 <link>https://www.darkreading.com/ics-ot-security/fresh-european-fridge-attacks-cold-chain-security</link>
 <description><![CDATA[Beyond food storage, the same combination of Internet connectivity, remote access, and inadequate security practices can put temperature-controlled infrastructure across other critical sectors at risk.]]></description>
@@ -1980,6 +2092,24 @@
 <guid isPermaLink="true">https://www.darkreading.com/ics-ot-security/fresh-european-fridge-attacks-cold-chain-security</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Germany Busts &apos;Crime-as-a-Service&apos; Investment Fraud Outfit</title>
+<link>https://www.darkreading.com/cybersecurity-operations/germany-crime-service-investment-fraud</link>
+<description><![CDATA[Authorities seized more than 100 servers and arrested seven as part of a crackdown on a fraud network spanning more than 50 countries.]]></description>
+<pubDate>Tue, 03 Nov 2026 21:57:12 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/germany-crime-service-investment-fraud</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>llm 0.37.1</title>
+<link>https://simonwillison.net/2026/Nov/3/llm/</link>
+<description><![CDATA[Release: llm 0.37.1 A bugfix release for LLM , with contributions from Steven Huang , Tao An , Arjan Mossel , and XQ . Tags: llm]]></description>
+<pubDate>Tue, 03 Nov 2026 21:41:42 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Nov/3/llm/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>DPRK Hackers Perfected Their Fake Interview Playbook Over Dozens of Attacks Before Binance</title>
@@ -2611,15 +2741,6 @@
 <category>reddit_practitioner_osint</category>
 </item>
 <item>
-<title>Remote code execution on Linux systems with multipath TCP</title>
-<link>https://www.reddit.com/r/netsec/comments/1xlsqor/remote_code_execution_on_linux_systems_with/</link>
-<description><![CDATA[submitted by /u/lucidsparrow982 [link] [comments]]]></description>
-<pubDate>Mon, 02 Nov 2026 09:30:42 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1xlsqor/remote_code_execution_on_linux_systems_with/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Chainalysis Warns Customers After “Offensive Agentic” Security Incident</title>
 <link>https://www.infosecurity-magazine.com/news/chainalysis-customers-offensive/</link>
 <description><![CDATA[Chainalysis reveals AI-driven attack that led to unauthorized activity]]></description>
@@ -2749,17 +2870,6 @@
 <source url="https://feeds.feedburner.com/feedburner/Talos">Cisco Talos</source>
 <category>threat_research_primary</category>
 <category>credential_theft</category>
-</item>
-<item>
-<title>Inside a malicious Claude Code-branded extension and its persistent SSH backdoor</title>
-<link>https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/</link>
-<description><![CDATA[Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it. The post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Anthropic/Claude · web_shell_backdoor</em>]]></description>
-<pubDate>Sat, 31 Oct 2026 01:02:57 +0000</pubDate>
-<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
-<category>threat_research_primary</category>
-<category>Anthropic/Claude</category>
-<category>web_shell_backdoor</category>
 </item>
 <item>
 <title>Inside a malicious Claude Code-branded extension and its persistent SSH backdoor</title>
@@ -3213,15 +3323,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>Quoting Ben Hylak</title>
-<link>https://simonwillison.net/2026/Oct/29/ben-hylak/</link>
-<description><![CDATA[every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. in our product, customers love the ui and love us very much. we&apos;re special that way. — Ben Hylak Tags: model-context-protocol , ai]]></description>
-<pubDate>Thu, 29 Oct 2026 14:06:27 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Oct/29/ben-hylak/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases</title>
 <link>https://blog.talosintelligence.com/ir-trends-q3-2026/</link>
 <description><![CDATA[Phishing remained the leading initial access technique, while percentage of ransomware and pre-ransomware cases increased. Finance and public administration tied as the top-targeted industries.<br/><br/><em>Tags: ransomware_extortion · phishing_social_eng</em>]]></description>
@@ -3494,15 +3595,6 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
-<title>AI Takes Root in Hospital Corridors, Raises Security Stakes</title>
-<link>https://www.darkreading.com/cybersecurity-operations/ai-root-hospital-corridors-raised-security-stakes</link>
-<description><![CDATA[Artificial intelligence is everywhere in healthcare, from doctors&apos; intake forms to cancer screenings. But in some cases, life-and-death uses are outpacing cybersecurity.]]></description>
-<pubDate>Wed, 28 Oct 2026 15:29:06 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/ai-root-hospital-corridors-raised-security-stakes</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Hive ransomware affiliate jailed, years after FBI infiltrated the gang’s systems</title>
 <link>https://www.bitdefender.com/en-us/blog/hotforsecurity/hive-ransomware-jailed-fbi-infiltrated</link>
 <description><![CDATA[A Ukrainian man who carried out ransomware attacks for both the Nefilim and Hive gangs, including attacks on law firms and a healthcare provider during the COVID-19 pandemic, has been sentenced to 70 months in a US prison. Read more in my article on the Hot for Security blog.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -3522,17 +3614,6 @@
 <category>cyber_news_breach_reporting</category>
 <category>Anthropic/Claude</category>
 <category>OpenAI/ChatGPT</category>
-</item>
-<item>
-<title>Attacker Relentlessly Scans for Credentials by Impersonating AI Bots</title>
-<link>https://www.darkreading.com/cyber-risk/attacker-impersonates-ai-bots-scans-credentials</link>
-<description><![CDATA[The threat actor lurked behind bots posing as agents from OpenAI, Anthropic, Meta, and others to find exposed data.<br/><br/><em>Tags: OpenAI/ChatGPT · Anthropic/Claude</em>]]></description>
-<pubDate>Wed, 28 Oct 2026 14:37:52 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyber-risk/attacker-impersonates-ai-bots-scans-credentials</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>OpenAI/ChatGPT</category>
-<category>Anthropic/Claude</category>
 </item>
 <item>
 <title>Politicians in U.S. and E.U. Say Targeted Ads Are a Security Risk</title>
@@ -3646,15 +3727,6 @@
 <guid isPermaLink="true">https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-introduces-flex-help-customers-invest-confidence-security-needs</guid>
 <source url="https://www.proofpoint.com/us/rss.xml">Proofpoint Threat Insight</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>Third Serengeti Sweep Tops 1,400 Arrests as Investigations Mature</title>
-<link>https://www.darkreading.com/cybersecurity-operations/third-serengeti-sweep-1400-arrests-investigations-mature</link>
-<description><![CDATA[Interpol&apos;s annual Operation Serengeti, now in its third iteration, led to 1,462 arrests across 20 African countries and the US, recovering $105 million in stolen funds.]]></description>
-<pubDate>Wed, 28 Oct 2026 06:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/third-serengeti-sweep-1400-arrests-investigations-mature</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Risky Bulletin: Moldovan public services crippled by cyberattack</title>
@@ -6387,15 +6459,6 @@
 <category>active_exploitation</category>
 </item>
 <item>
-<title>Rapid7 Intelligence Wins the 2026 Péter Szőr Award for Outstanding Research</title>
-<link>https://www.rapid7.com/blog/post/tr-rapid7-intelligence-wins-2026-peter-szor-award-outstanding-research</link>
-<description><![CDATA[Some awards you&apos;re happy to receive, while others make you stop for a moment. Receiving the 2026 Péter Szőr Award this week at Virus Bulletin in Seville for our research, BPFdoor in Telecom Networks: Sleeper Cells in the Backbone , was of the latter kind. Virus Bulletin created the award to honor Péter&apos;s life and work, and it recognizes outstanding technical security research: the rigorous, the deep, and the useful – exactly what he was known for himself. And as far as recognitions in our industry go, it&apos;s hard to top. I&apos;m extremely proud. What the Pèter Szőr Award means to us I knew Péter, and early in my career, I learned from him. This was back when malware analysis meant staring at assembly, arguing about what a routine really did, and realizing hours later that your first theory was wrong. One memory came straight back when I heard about the award: going through Stuxnet together. For anyone in research at the time, that was the moment you knew the game had changed. Engineering, tr]]></description>
-<pubDate>Fri, 16 Oct 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.rapid7.com/blog/post/tr-rapid7-intelligence-wins-2026-peter-szor-award-outstanding-research</guid>
-<source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
 <title>Inside the Hunt: Sarah Reddish</title>
 <link>https://www.huntress.com/blog/employee-spotlight-sarah-reddish</link>
 <description><![CDATA[Go inside the hunt with Sarah Reddish, a SOC analyst on Huntress’ global SOC working in Triage &amp; Analysis. See how she makes a difference every day.]]></description>
@@ -7213,27 +7276,6 @@
 <guid isPermaLink="true">https://aws.amazon.com/blogs/security/guardduty-extended-threat-detection-has-added-five-new-indicators-to-surface-attack-sequences/</guid>
 <source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Quantum-resistant signing on AWS, Part 2: Enforce your ML-DSA algorithm policy with SCPs and IAM</title>
-<link>https://aws.amazon.com/blogs/security/quantum-resistant-signing-on-aws-part-2-enforce-your-ml-dsa-algorithm-policy-with-scps-and-iam/</link>
-<description><![CDATA[You want to set a cryptographic algorithm policy and stop non-compliant choices from being made in your Amazon Web Services (AWS) environment. This post shows you how. As you adopt post-quantum cryptography, one of the first decisions you face is which algorithms and parameter sets fit your business needs, balancing security against signature size, key […]<br/><br/><em>Tags: AWS</em>]]></description>
-<pubDate>Mon, 12 Oct 2026 20:13:06 +0000</pubDate>
-<guid isPermaLink="true">https://aws.amazon.com/blogs/security/quantum-resistant-signing-on-aws-part-2-enforce-your-ml-dsa-algorithm-policy-with-scps-and-iam/</guid>
-<source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
-<category>cloud_identity_infrastructure</category>
-<category>AWS</category>
-</item>
-<item>
-<title>Quantum-resistant signing on AWS, Part 1: Build a software supply chain with ML-DSA</title>
-<link>https://aws.amazon.com/blogs/security/quantum-resistant-signing-on-aws-part-1-build-a-software-supply-chain-with-ml-dsa/</link>
-<description><![CDATA[Software supply chain attacks have grown in both frequency and sophistication. Recent high-profile compromises of build systems and open source dependencies demonstrate that attackers increasingly target the trust mechanisms that verify software integrity. Those trust mechanisms rely on digital signature algorithms, and today many use traditional algorithms such as Rivest-Shamir-Adleman (RSA) and the Elliptic Curve […]<br/><br/><em>Tags: AWS · supply_chain</em>]]></description>
-<pubDate>Mon, 12 Oct 2026 20:12:53 +0000</pubDate>
-<guid isPermaLink="true">https://aws.amazon.com/blogs/security/quantum-resistant-signing-on-aws-part-1-build-a-software-supply-chain-with-ml-dsa/</guid>
-<source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
-<category>cloud_identity_infrastructure</category>
-<category>AWS</category>
-<category>supply_chain</category>
 </item>
 <item>
 <title>Between Two Nerds: The FBI and ShinyHunters are the same</title>
@@ -8435,15 +8477,6 @@
 <pubDate>Sun, 27 Sep 2026 20:48:18 +0000</pubDate>
 <guid isPermaLink="true">https://risky.biz/RBNEWSSI145/</guid>
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
-</item>
-<item>
-<title>U.S. Soldier Gets 70 Months in Prison for AT&amp;T, Verizon Extortions</title>
-<link>https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/</link>
-<description><![CDATA[A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&amp;T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in restitution to victims.]]></description>
-<pubDate>Fri, 25 Sep 2026 21:44:40 +0000</pubDate>
-<guid isPermaLink="true">https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/</guid>
-<source url="https://krebsonsecurity.com/feed/">Krebs on Security</source>
 <category>practitioner_analysis</category>
 </item>
 <item>
@@ -19666,7 +19699,7 @@
 <title>How Adversaries Are Turning the Vulnerability Ecosystem Against Defenders</title>
 <link>https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 10 Nov 2026 20:45:21 +0000</pubDate>
+<pubDate>Wed, 11 Nov 2026 01:10:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19675,7 +19708,7 @@
 <title>CrowdStrike Introduces Agentic Adversary Emulation to Counter AI-Enabled Adversaries</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-agentic-adversary-emulation-counters-ai-enabled-adversaries/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 10 Nov 2026 20:45:21 +0000</pubDate>
+<pubDate>Wed, 11 Nov 2026 01:10:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-agentic-adversary-emulation-counters-ai-enabled-adversaries/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19684,7 +19717,7 @@
 <title>CrowdStrike Extends the Agentic SOC to Detect and Stop Agent Insider Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 10 Nov 2026 20:45:21 +0000</pubDate>
+<pubDate>Wed, 11 Nov 2026 01:10:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19693,7 +19726,7 @@
 <title>CrowdStrike Brings Enterprise Browser Security to the Falcon Platform</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-enterprise-browser-security-to-falcon-platform/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 10 Nov 2026 20:45:21 +0000</pubDate>
+<pubDate>Wed, 11 Nov 2026 01:10:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-enterprise-browser-security-to-falcon-platform/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19702,7 +19735,7 @@
 <title>New Falcon Cloud Security Innovations Secure the Cloud AI Runs On</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-innovations-secure-cloud-ai-runs-on/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 10 Nov 2026 20:45:21 +0000</pubDate>
+<pubDate>Wed, 11 Nov 2026 01:10:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-innovations-secure-cloud-ai-runs-on/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19711,7 +19744,7 @@
 <title>CrowdStrike Advances AI Security and Safety from Endpoint to Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-advances-ai-security-and-safety-falcon-guardian/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 10 Nov 2026 20:45:21 +0000</pubDate>
+<pubDate>Wed, 11 Nov 2026 01:10:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-advances-ai-security-and-safety-falcon-guardian/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19720,7 +19753,7 @@
 <title>Introducing AI Kill Switch: Taking Control When AI Agents Go Rogue</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-introduces-ai-kill-switch/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 10 Nov 2026 20:45:21 +0000</pubDate>
+<pubDate>Wed, 11 Nov 2026 01:10:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-introduces-ai-kill-switch/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19729,7 +19762,7 @@
 <title>CrowdStrike Secures AI Agents Inside Claude Cowork</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-secures-ai-agents-inside-claude-cowork/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 10 Nov 2026 20:45:21 +0000</pubDate>
+<pubDate>Wed, 11 Nov 2026 01:10:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-secures-ai-agents-inside-claude-cowork/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19738,7 +19771,7 @@
 <title>CrowdStrike to Acquire Dreadnode to Bring Automated AI Security Testing to the Falcon Platform</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-dreadnode/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 10 Nov 2026 20:45:21 +0000</pubDate>
+<pubDate>Wed, 11 Nov 2026 01:10:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-dreadnode/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19747,7 +19780,7 @@
 <title>CrowdStrike to Acquire Fiddler to Deliver Falcon Observe for AI Agent Observability</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 10 Nov 2026 20:45:21 +0000</pubDate>
+<pubDate>Wed, 11 Nov 2026 01:10:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
