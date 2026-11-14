@@ -6,9 +6,37 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 14 Nov 2026 02:09:08 +0000</lastBuildDate>
+<lastBuildDate>Sat, 14 Nov 2026 10:00:38 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Companies treat cybersecurity like garbage until they get punched in the teeth with an attack</title>
+<link>https://www.reddit.com/r/cybersecurity/comments/1xvxx03/companies_treat_cybersecurity_like_garbage_until/</link>
+<description><![CDATA[Another day, another massive company coming out with the classic &apos;we detected unauthorized access through a vulnerability that has already been patched&apos; and &apos;no passwords were compromised&apos; (textbook PR damage control). For anyone working in the field, this isn&apos;t surprising at all. It&apos;s always the exact same movie: Garbage budgets: Executive boards look at cybersecurity as an annoying expense and a money pit that doesn&apos;t generate immediate profit. They slash tool budgets, understaff teams, and coast on the bare minimum just to pass paper audits. The asset owner circus: You find a critical vulnerability, warn them it&apos;s a wide-open door, and ask them to apply a patch or fix a misconfiguration. The response? 1,001 excuses. &apos;Oh, we can&apos;t take the service down,&apos; &apos;oh, that&apos;ll break integration X,&apos; &apos;oh, push it to next quarter.&apos; Nobody wants to take responsibility for downtime to fix things, yet nobody wants to sign a risk acceptance form either. The shock when everything blows up: Then, when ]]></description>
+<pubDate>Sat, 14 Nov 2026 09:04:44 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1xvxx03/companies_treat_cybersecurity_like_garbage_until/</guid>
+<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
+<title>Opinions for pen-source tool for CVSS and inventory of installed packages on Linux</title>
+<link>https://www.reddit.com/r/cybersecurity/comments/1xvxdpd/opinions_for_pensource_tool_for_cvss_and/</link>
+<description><![CDATA[What tools do you use for managing CVEs? This year has brough a boom of AI discovering a lot of vulnerabilities and we struggle to keep up with it. It is not always convenient to do system wide upgrades weekly and most importantly to know what needs patching. I came up with software that is lightweight and easy, we will soon move it to prod. Basically, a small agent on each host pushes every installed package to a central server. The server checks those packages against appropriate advisory - ( Arch security tracker for pacman and OSV for (Debian, Ubuntu, RPM distributions, Python, npm and Cargo ) ) and scores the matching CVEs with NIST NVD CVSS. All this info is exposed at /metrics which is scraped by Prometheus. There is also a Grafana dashboard that shows all software and that which needs patching. The central db is sqlite at the moment, but might change to pgsql. https://github.com/brighk/software-inventory-exporter Please provide feedback. submitted by /u/Comfortable_Mall5217 [li<br/><br/><em>Tags: npm</em>]]></description>
+<pubDate>Sat, 14 Nov 2026 08:30:51 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1xvxdpd/opinions_for_pensource_tool_for_cvss_and/</guid>
+<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
+<category>reddit_practitioner_osint</category>
+<category>npm</category>
+</item>
+<item>
+<title>Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors</title>
+<link>https://www.reddit.com/r/cybersecurity/comments/1xvqdxa/attackers_use_autonomous_ai_to_target/</link>
+<description><![CDATA[submitted by /u/TilapiaTango [link] [comments]]]></description>
+<pubDate>Sat, 14 Nov 2026 02:01:38 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1xvqdxa/attackers_use_autonomous_ai_to_target/</guid>
+<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
+<category>reddit_practitioner_osint</category>
+</item>
 <item>
 <title>Attackers use Crypto Exchange Names to Disguise Unauthorized Sessions on 100+ ScreenConnect Servers</title>
 <link>https://www.huntress.com/blog/fake-crypto-exchange-sessions-screenconnect</link>
@@ -95,12 +123,11 @@
 <item>
 <title>Amazon Threat Intelligence observes threat actors running cybercrime campaigns with ARTEX AI agents</title>
 <link>https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents/</link>
-<description><![CDATA[From Oct. 3 to Nov. 5, 2026, Amazon’s MadPot, a globally distributed network of decoy threat sensors, captured requests from AI agents that included operating memory from offensive campaigns that threat actors ran on ARTEX, an open-source agentic AI penetration testing framework. The ARTEX agents sent these requests to MadPot sensors configured to present as […]<br/><br/><em>Tags: credential_theft</em>]]></description>
+<description><![CDATA[From Oct. 3 to Nov. 5, 2026, Amazon’s MadPot, a globally distributed network of decoy threat sensors, captured requests from AI agents that included operating memory from offensive campaigns that threat actors ran on ARTEX, an open-source agentic AI penetration testing framework. The ARTEX agents sent these requests to MadPot sensors configured to present as […]]]></description>
 <pubDate>Fri, 13 Nov 2026 20:26:42 +0000</pubDate>
 <guid isPermaLink="true">https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents/</guid>
 <source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
 <category>cloud_identity_infrastructure</category>
-<category>credential_theft</category>
 </item>
 <item>
 <title>ArcticRAT Cybercrime Gang Profiles Victim Finances With AI</title>
@@ -111,6 +138,15 @@
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
 <category>Android</category>
+</item>
+<item>
+<title>Fake x64dbg site (x64dbg[.]org) is possibly serving malware to specific IP ranges</title>
+<link>https://www.reddit.com/r/cybersecurity/comments/1xvi4iq/fake_x64dbg_site_x64dbgorg_is_possibly_serving/</link>
+<description><![CDATA[Real site is x64dbg[.]com by Duncan Ogilvie. The fake site shows up on first page of Google. submitted by /u/kevmuhuri [link] [comments]]]></description>
+<pubDate>Fri, 13 Nov 2026 20:02:30 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1xvi4iq/fake_x64dbg_site_x64dbgorg_is_possibly_serving/</guid>
+<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
+<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents</title>
@@ -135,12 +171,32 @@
 <item>
 <title>Adapting to AI penetration testing orchestrators: The Modern Security Model</title>
 <link>https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/</link>
-<description><![CDATA[AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.<br/><br/><em>Tags: GitHub</em>]]></description>
+<description><![CDATA[AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.]]></description>
 <pubDate>Fri, 13 Nov 2026 19:26:07 +0000</pubDate>
 <guid isPermaLink="true">https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/</guid>
 <source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
 <category>cloud_identity_infrastructure</category>
-<category>GitHub</category>
+</item>
+<item>
+<title>PostgreSQL Patches 52 Vulnerabilities, Including a Code Execution Flaw That Reportedly Dates Back Two Decades</title>
+<link>https://www.reddit.com/r/cybersecurity/comments/1xvh68j/postgresql_patches_52_vulnerabilities_including_a/</link>
+<description><![CDATA[submitted by /u/Much-Television-9449 [link] [comments]]]></description>
+<pubDate>Fri, 13 Nov 2026 19:25:52 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1xvh68j/postgresql_patches_52_vulnerabilities_including_a/</guid>
+<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
+<title>Jermaine Logan from Finite State on the supermarket freezer attacks: how the controller gets hacked, and what our AI agents found in its firmware</title>
+<link>https://www.reddit.com/r/cybersecurity/comments/1xvggbr/jermaine_logan_from_finite_state_on_the/</link>
+<description><![CDATA[Disclosure up front: I work at Finite State, and this is our video. Here’s the substance so you don’t have to click to get it. If you’ve been following the freezer attacks (France in October, then a second wave across Europe in November), much of the reporting points to the Danfoss AK-SM 800A system manager. It’s the box that runs every refrigerated case in a store: setpoints, defrost schedules, alarms. Under the hood, it’s a small Linux-ish networked computer. Claroty’s Team82 found three CVEs in it, which Danfoss patched in 2025: CVE-2025-41450: an auth bypass. The controller accepts a “code of the day,” and that code is derived entirely from the date, with no per-device secret. Know the formula and you have today’s code for every unit. CVE-2025-41451: command injection. An email field in the config gets passed straight into a system shell. CVE-2025-41452: a logged-in attacker can crash the web UI. Chain the first two and you have remote control: forced defrost cycles, changed setpoi<br/><br/><em>Tags: CVE-2025-41450 · CVE-2025-41451 · CVE-2025-41452</em>]]></description>
+<pubDate>Fri, 13 Nov 2026 18:59:14 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1xvggbr/jermaine_logan_from_finite_state_on_the/</guid>
+<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
+<category>reddit_practitioner_osint</category>
+<category>CVE-2025-41450</category>
+<category>CVE-2025-41451</category>
+<category>CVE-2025-41452</category>
 </item>
 <item>
 <title>University of Texas at Arlington warns personal information stolen during cyberattack</title>
@@ -206,12 +262,11 @@
 <item>
 <title>Inside the loop: Five AI attack frameworks that never ask permission</title>
 <link>https://www.elastic.co/security-labs/threat-command/agentic-offensive-frameworks-detection-artex</link>
-<description><![CDATA[Five agentic offensive frameworks act in bursts of two to 25 seconds, and none enforces authorization in code. What ARTEX, CyberStrikeAI, Cairn, PentAGI, and HexStrike leave in your telemetry, and the ES|QL hunt that catches them.<br/><br/><em>Tags: GitHub</em>]]></description>
+<description><![CDATA[Five agentic offensive frameworks act in bursts of two to 25 seconds, and none enforces authorization in code. What ARTEX, CyberStrikeAI, Cairn, PentAGI, and HexStrike leave in your telemetry, and the ES|QL hunt that catches them.]]></description>
 <pubDate>Fri, 13 Nov 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.elastic.co/security-labs/threat-command/agentic-offensive-frameworks-detection-artex</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
-<category>GitHub</category>
 </item>
 <item>
 <title>56 AWS API calls in 141 milliseconds: Inside an AI-run intrusion</title>
@@ -361,14 +416,36 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
+<title>Remember when Western antivirus researchers suspected Bulgaria&apos;s top virus hunter was actually &quot;Dark Avenger&quot;?</title>
+<link>https://www.reddit.com/r/cybersecurity/comments/1xv4u1m/remember_when_western_antivirus_researchers/</link>
+<description><![CDATA[Been reading up on late-80s malware history lately and came across the whole Dark Avenger / Vesselin Bontchev story. Back in 1989–1991, Bulgaria was churning out some of the nastiest DOS viruses around (like the MtE mutation engine), and Dark Avenger was the main name behind them. Meanwhile, Vesselin Bontchev was the main researcher in Sofia sending samples to the West so antivirus companies could build detections. Because Bontchev always got his hands on the newest variants so fast—and the code looked like it came from someone with deep insider access—people like John McAfee and other researchers seriously suspected he and Dark Avenger were the same person. I&apos;m putting together a short video covering this story. Anyone here remember dealing with Dark Avenger viruses back in the DOS days, or have thoughts on who he actually turned out to be? submitted by /u/inprise [link] [comments]]]></description>
+<pubDate>Fri, 13 Nov 2026 10:54:22 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1xv4u1m/remember_when_western_antivirus_researchers/</guid>
+<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
 <title>Check Point warns of zero-day flaw exploited for root access</title>
 <link>https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/</link>
-<description><![CDATA[Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]<br/><br/><em>Tags: zero_day</em>]]></description>
+<description><![CDATA[Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]<br/><br/><em>Tags: Ivanti · VMware · Microsoft 365 · CVE-2026-123039 · CVE-2026-93616 · CVE-2026-85102 · ransomware_extortion · phishing_social_eng</em>]]></description>
 <pubDate>Fri, 13 Nov 2026 10:44:22 +0000</pubDate>
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
-<category>zero_day</category>
+<category>Ivanti</category>
+<category>VMware</category>
+<category>Microsoft 365</category>
+<category>CVE-2026-123039</category>
+</item>
+<item>
+<title>GTA VI isn’t out yet – and the scams are already in full swing</title>
+<link>https://www.welivesecurity.com/en/cybersecurity/gta-vi-isnt-out-yet-scams-full-swing/</link>
+<description><![CDATA[Cybercriminals attempt to cash in on the hype around the game, luring fans with malware-laced downloads and ‘early access’ that doesn’t exist<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
+<pubDate>Fri, 13 Nov 2026 10:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.welivesecurity.com/en/cybersecurity/gta-vi-isnt-out-yet-scams-full-swing/</guid>
+<source url="https://www.welivesecurity.com/en/rss/feed/">ESET WeLiveSecurity</source>
+<category>threat_research_primary</category>
+<category>phishing_social_eng</category>
 </item>
 <item>
 <title>Citrix Patches 10 Critical NetScaler Vulnerabilities</title>
@@ -465,16 +542,6 @@
 <category>active_exploitation</category>
 </item>
 <item>
-<title>PHP2Shell Exploited in Destructive Check Point Gateway Attacks</title>
-<link>https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/</link>
-<description><![CDATA[PHP2Shell enabled initial compromise, while CVE-2026-123039 allowed attackers to elevate privileges to root. The post PHP2Shell Exploited in Destructive Check Point Gateway Attacks appeared first on SecurityWeek .<br/><br/><em>Tags: CVE-2026-123039</em>]]></description>
-<pubDate>Fri, 13 Nov 2026 07:39:04 +0000</pubDate>
-<guid isPermaLink="true">https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/</guid>
-<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
-<category>cyber_news_breach_reporting</category>
-<category>CVE-2026-123039</category>
-</item>
-<item>
 <title>Stolen webcam clips of 900+ victims feed North Korea’s $400 million fake Zoom scheme</title>
 <link>https://www.helpnetsecurity.com/2026/11/13/fbi-north-korean-fake-zoom-calls/</link>
 <description><![CDATA[North Korean state hackers have stolen more than $400 million in cryptocurrency over the past 18 months by pulling targets into fake Zoom and Teams calls filled with webcam footage of earlier victims. The FBI calls the scheme FaceStealer. It has seized more than 900 of those recordings, and on November 12 it warned crypto and web3 workers and open-source maintainers about the scheme. Source: FBI Every successful call infects the target and records them, … More → The post Stolen webcam clips of 900+ victims feed North Korea’s $400 million fake Zoom scheme appeared first on Help Net Security .]]></description>
@@ -522,6 +589,15 @@
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
 <category>apt_espionage</category>
+</item>
+<item>
+<title>Hundreds of copies of Chinese-made ARTEX hacking tools leaked online for anyone to use in further attacks</title>
+<link>https://www.reddit.com/r/cybersecurity/comments/1xuvt8o/hundreds_of_copies_of_chinesemade_artex_hacking/</link>
+<description><![CDATA[submitted by /u/HorsePecker [link] [comments]]]></description>
+<pubDate>Fri, 13 Nov 2026 02:18:12 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1xuvt8o/hundreds_of_copies_of_chinesemade_artex_hacking/</guid>
+<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
+<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>US seizes North Korean hacking infrastructure, $1.2 billion in cryptocurrency stolen from Binance</title>
@@ -602,11 +678,15 @@
 <item>
 <title>Apache HTTP Server patches critical HTTP/2 remote code execution flaw</title>
 <link>https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/</link>
-<description><![CDATA[A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]]]></description>
+<description><![CDATA[A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]<br/><br/><em>Tags: GitLab · Google Cloud · Anthropic/Claude · CVE-2026-119618 · CVE-2026-106023 · CVE-2026-109163 · phishing_social_eng · active_exploitation</em>]]></description>
 <pubDate>Thu, 12 Nov 2026 19:12:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
+<category>GitLab</category>
+<category>Google Cloud</category>
+<category>Anthropic/Claude</category>
+<category>CVE-2026-119618</category>
 </item>
 <item>
 <title>What to ask before you buy an AI agent for threat intelligence</title>
@@ -718,6 +798,17 @@
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
 <category>zero_day</category>
+</item>
+<item>
+<title>Nearly 4,837 GitHub accounts hijacked in major supply-chain attack</title>
+<link>https://www.reddit.com/r/cybersecurity/comments/1xug7z5/nearly_4837_github_accounts_hijacked_in_major/</link>
+<description><![CDATA[Aikido Security reports that attackers used stolen credentials for 4,837 GitHub accounts to plant malicious code in repositories. The code was designed to steal secrets and cloud credentials accessible through automated build and testing workflows. Researchers observed malicious execution in at least 1,806 repositories. A separate SafeDep analysis counted 8,093 repositories receiving malicious commits, using a different measurement. These figures are not necessarily directly comparable. The attacks began November 10, and the full scope is still being investigated. Even legitimate GitHub projects can become dangerous when a contributor account is compromised. Attackers may steal credentials without requiring end users to download or execute malware. https://www.aikido.dev/blog/compromised-github-accounts-push-ci-secret-stealer-to-tens-of-thousands-of-repositories submitted by /u/BTC-brother2018 [link] [comments]<br/><br/><em>Tags: GitHub · supply_chain</em>]]></description>
+<pubDate>Thu, 12 Nov 2026 15:48:41 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1xug7z5/nearly_4837_github_accounts_hijacked_in_major/</guid>
+<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
+<category>reddit_practitioner_osint</category>
+<category>GitHub</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass</title>
@@ -885,12 +976,15 @@
 <item>
 <title>PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution</title>
 <link>https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html</link>
-<description><![CDATA[PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The security flaw, tracked as CVE-2026-126325, carries a CVSS v4 score of 9.2 out of a maximum of 10.0. It has been described as a case of improper input validation and deserialization of untrusted data that could result in<br/><br/><em>Tags: CVE-2026-126325</em>]]></description>
+<description><![CDATA[PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The security flaw, tracked as CVE-2026-126325, carries a CVSS v4 score of 9.2 out of a maximum of 10.0. It has been described as a case of improper input validation and deserialization of untrusted data that could result in<br/><br/><em>Tags: Anthropic/Claude · OpenAI/ChatGPT · GitHub · Cl0p · CVE-2026-126325 · CVE-2026-12569 · ransomware_extortion · apt_espionage</em>]]></description>
 <pubDate>Thu, 12 Nov 2026 11:33:15 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-<category>CVE-2026-126325</category>
+<category>Anthropic/Claude</category>
+<category>OpenAI/ChatGPT</category>
+<category>GitHub</category>
+<category>Cl0p</category>
 </item>
 <item>
 <title>Inside an AI Attack Against a US Retailer</title>
@@ -2001,14 +2095,11 @@
 <item>
 <title>ARTEX abuse expands as cybercriminals target financial sector</title>
 <link>https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/</link>
-<description><![CDATA[In October 2026, the financially motivated threat actor Storm-3358 began targeting organizations in the financial sector using the agentic AI offensive framework ARTEX. The post ARTEX abuse expands as cybercriminals target financial sector appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft Defender · supply_chain · credential_theft</em>]]></description>
+<description><![CDATA[In October 2026, the financially motivated threat actor Storm-3358 began targeting organizations in the financial sector using the agentic AI offensive framework ARTEX. The post ARTEX abuse expands as cybercriminals target financial sector appeared first on Microsoft Security Blog .]]></description>
 <pubDate>Sat, 07 Nov 2026 02:44:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/</guid>
 <source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
-<category>Microsoft Defender</category>
-<category>supply_chain</category>
-<category>credential_theft</category>
 </item>
 <item>
 <title>ARTEX abuse expands as cybercriminals target financial sector</title>
@@ -3573,7 +3664,7 @@
 <item>
 <title>Updated Nov 10: Chainalysis Security Incident Information</title>
 <link>https://www.chainalysis.com/blog/security-incident-october-30/</link>
-<description><![CDATA[Tuesday Nov 10, 2026 3:00 A.M. EST Update: Data Solutions is now back online. We’re bringing customers back as quickly… The post Updated Nov 10: Chainalysis Security Incident Information appeared first on Chainalysis .]]></description>
+<description><![CDATA[For more information and ongoing updates, please see our incident page. Tuesday Nov 10, 2026 3:00 A.M. EST Update: Data… The post Updated Nov 10: Chainalysis Security Incident Information appeared first on Chainalysis .]]></description>
 <pubDate>Fri, 30 Oct 2026 21:14:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.chainalysis.com/blog/security-incident-october-30/</guid>
 <source url="https://www.chainalysis.com/blog/feed/">Chainalysis</source>
@@ -16221,15 +16312,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>OfferUp scammers are out in force: Here’s what you should know</title>
-<link>https://www.welivesecurity.com/en/scams/offerup-scammers-out-force-heres-what-you-should-know/</link>
-<description><![CDATA[The mobile marketplace app has a growing number of users, but not all of them are genuine. Watch out for these common scams.]]></description>
-<pubDate>Wed, 04 Feb 2026 10:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.welivesecurity.com/en/scams/offerup-scammers-out-force-heres-what-you-should-know/</guid>
-<source url="https://www.welivesecurity.com/en/rss/feed/">ESET WeLiveSecurity</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>The Engineer&apos;s Guide to Elastic Detections as Code</title>
 <link>https://www.elastic.co/security-labs/blog/detection-as-code-timeline-and-new-features</link>
 <description><![CDATA[This post details the latest evolution of Elastic Security&apos;s Detections as Code (DaC) framework, including its development timeline, current feature highlights, and tailored implementation examples.]]></description>
@@ -19461,10 +19543,19 @@
 <category>Anthropic/Claude</category>
 </item>
 <item>
+<title>Inside Falcon AI Gateway: One Control Point for AI Traffic</title>
+<link>https://www.crowdstrike.com/en-us/blog/falcon-ai-gateway-one-control-point-for-ai-traffic/</link>
+<description><![CDATA[]]></description>
+<pubDate>Sat, 14 Nov 2026 10:00:38 +0000</pubDate>
+<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-ai-gateway-one-control-point-for-ai-traffic/</guid>
+<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>CrowdStrike Named a Leader in the 2026 IDC MarketScape for Worldwide Augmented Identity Security Solutions</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-augmented-identity-security-solutions/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 14 Nov 2026 02:09:08 +0000</pubDate>
+<pubDate>Sat, 14 Nov 2026 10:00:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-augmented-identity-security-solutions/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19473,7 +19564,7 @@
 <title>November 2026 Patch Tuesday: 1,252 CVEs Include One Zero-Day and 68 Critical Vulnerabilities</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Sat, 14 Nov 2026 02:09:08 +0000</pubDate>
+<pubDate>Sat, 14 Nov 2026 10:00:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19483,17 +19574,8 @@
 <title>How Adversaries Are Turning the Vulnerability Ecosystem Against Defenders</title>
 <link>https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 14 Nov 2026 02:09:08 +0000</pubDate>
+<pubDate>Sat, 14 Nov 2026 10:00:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/</guid>
-<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
-<category>threat_research_primary</category>
-</item>
-<item>
-<title>CrowdStrike Brings Enterprise Browser Security to the Falcon Platform</title>
-<link>https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-enterprise-browser-security-to-falcon-platform/</link>
-<description><![CDATA[]]></description>
-<pubDate>Sat, 14 Nov 2026 02:09:08 +0000</pubDate>
-<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-enterprise-browser-security-to-falcon-platform/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
 </item>
@@ -19501,7 +19583,7 @@
 <title>CrowdStrike Extends the Agentic SOC to Detect and Stop Agent Insider Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 14 Nov 2026 02:09:08 +0000</pubDate>
+<pubDate>Sat, 14 Nov 2026 10:00:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19510,7 +19592,7 @@
 <title>CrowdStrike Introduces Agentic Adversary Emulation to Counter AI-Enabled Adversaries</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-agentic-adversary-emulation-counters-ai-enabled-adversaries/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 14 Nov 2026 02:09:08 +0000</pubDate>
+<pubDate>Sat, 14 Nov 2026 10:00:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-agentic-adversary-emulation-counters-ai-enabled-adversaries/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19519,8 +19601,17 @@
 <title>New Falcon Cloud Security Innovations Secure the Cloud AI Runs On</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-innovations-secure-cloud-ai-runs-on/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 14 Nov 2026 02:09:08 +0000</pubDate>
+<pubDate>Sat, 14 Nov 2026 10:00:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-innovations-secure-cloud-ai-runs-on/</guid>
+<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
+<category>threat_research_primary</category>
+</item>
+<item>
+<title>CrowdStrike Brings Enterprise Browser Security to the Falcon Platform</title>
+<link>https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-enterprise-browser-security-to-falcon-platform/</link>
+<description><![CDATA[]]></description>
+<pubDate>Sat, 14 Nov 2026 10:00:38 +0000</pubDate>
+<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-enterprise-browser-security-to-falcon-platform/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
 </item>
@@ -19528,7 +19619,7 @@
 <title>CrowdStrike Advances AI Security and Safety from Endpoint to Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-advances-ai-security-and-safety-falcon-guardian/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 14 Nov 2026 02:09:08 +0000</pubDate>
+<pubDate>Sat, 14 Nov 2026 10:00:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-advances-ai-security-and-safety-falcon-guardian/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19537,17 +19628,8 @@
 <title>CrowdStrike to Acquire Fiddler to Deliver Falcon Observe for AI Agent Observability</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 14 Nov 2026 02:09:08 +0000</pubDate>
+<pubDate>Sat, 14 Nov 2026 10:00:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/</guid>
-<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
-<category>threat_research_primary</category>
-</item>
-<item>
-<title>Introducing AI Kill Switch: Taking Control When AI Agents Go Rogue</title>
-<link>https://www.crowdstrike.com/en-us/blog/crowdstrike-introduces-ai-kill-switch/</link>
-<description><![CDATA[]]></description>
-<pubDate>Sat, 14 Nov 2026 02:09:08 +0000</pubDate>
-<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-introduces-ai-kill-switch/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
 </item>
