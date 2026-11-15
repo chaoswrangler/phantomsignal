@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-11-15T09:03:28.621065+00:00
+- Generated: 2026-11-15T16:16:11.906804+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 359
-- Total clusters raw: 163
+- Total items in window: 352
+- Total clusters raw: 160
 - Total clusters in packet: 78
-- Dropped low score: 85
+- Dropped low score: 82
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,36 +70,36 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 4
+  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: fetch_error
@@ -115,15 +115,15 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
+  - In window count: 1
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
@@ -135,6 +135,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
@@ -145,41 +150,36 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 1
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
   - Status: ok
-  - Item count: 50
+  - Item count: 40
   - In window count: 1
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
   - In window count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 1
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -225,16 +225,36 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 2
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 8
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 8
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -245,46 +265,26 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 2
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 8
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 8
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Google Project Zero** (offensive_vulnerability_research)
   - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
@@ -295,11 +295,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -315,6 +310,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 6
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -330,23 +335,23 @@
   - Status: ok
   - Item count: 20
   - In window count: 20
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 15
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 10
+  - In window count: 10
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 19
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -355,73 +360,53 @@
   - Status: ok
   - Item count: 50
   - In window count: 1
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 27
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 7
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
+  - In window count: 10
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -430,31 +415,46 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
-  - Item count: 100
-  - In window count: 27
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 50
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 27
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 23
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - In window count: 16
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
@@ -511,29 +511,6 @@
   - https://www.rapid7.com/blog/post/em-patch-tuesday-november-2026
   - https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/
   - https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/
-
-### active exploitation targeting Google Cloud
-- Anchor signal: Google Cloud
-- Theme key: google-cloud
-- Cluster count: 3
-- Article count: 9
-- Cohesion: 0.263
-- Shared strong signals: Google Cloud
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation
-  - affected_products: Google Cloud, Anthropic/Claude
-  - cve_ids: CVE-2026-119618
-- Cluster IDs: 51b673df55, 86aa6f9a58, f326b30326
-- Links:
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-119618/
-  - https://webflow.sysdig.com/blog/httpd-cve-2026-119618-detecting-heap-corruption-and-rce-in-apache-http-server-mod-http2
-  - https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability
-  - https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html
-  - https://cloud.google.com/blog/products/identity-security/ai-powered-cloud-governance-whats-new-in-organization-policy/
-  - https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html
-  - https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/
 
 ### ransomware extortion targeting Android
 - Anchor signal: Android
@@ -595,6 +572,45 @@
   - https://isc.sans.edu/diary/rss/33518
   - https://research.checkpoint.com/2026/9th-november-threat-intelligence-report/
 
+### Linux kernel vulnerability activity
+- Anchor signal: Linux kernel
+- Theme key: linux-kernel
+- Cluster count: 3
+- Article count: 4
+- Cohesion: 0.2
+- Shared strong signals: Linux kernel
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_industries: manufacturing_industrial
+  - affected_products: Linux kernel
+- Cluster IDs: eb92172155, fba6e81cad, d7028f613a
+- Links:
+  - https://tldrsec.com/p/tldr-sec-354
+  - https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/
+  - https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html
+  - https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html
+
+### Google Cloud vulnerability activity
+- Anchor signal: Google Cloud
+- Theme key: google-cloud
+- Cluster count: 2
+- Article count: 8
+- Cohesion: 0.2
+- Shared strong signals: Google Cloud
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Google Cloud
+- Cluster IDs: 51b673df55, 86aa6f9a58
+- Links:
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-119618/
+  - https://webflow.sysdig.com/blog/httpd-cve-2026-119618-detecting-heap-corruption-and-rce-in-apache-http-server-mod-http2
+  - https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability
+  - https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html
+  - https://cloud.google.com/blog/products/identity-security/ai-powered-cloud-governance-whats-new-in-organization-policy/
+  - https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html
+
 ### active exploitation targeting Cisco
 - Anchor signal: Cisco
 - Theme key: cisco
@@ -612,13 +628,13 @@
   - https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/
   - https://blog.talosintelligence.com/artex-and-beyond/
 
-### CVE-2026-123039 exploitation activity
-- Anchor signal: CVE-2026-123039
-- Theme key: cve-2026-123039
+### CVE-2026-109619 exploitation activity
+- Anchor signal: CVE-2026-109619
+- Theme key: cve-2026-109619
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.4
-- Shared strong signals: CVE-2026-123039
+- Shared strong signals: CVE-2026-109619
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -648,13 +664,13 @@
   - https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/
   - https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html
 
-### CVE-2026-109619 exploitation activity
-- Anchor signal: CVE-2026-109619
-- Theme key: cve-2026-109619
+### CVE-2026-123039 exploitation activity
+- Anchor signal: CVE-2026-123039
+- Theme key: cve-2026-123039
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.4
-- Shared strong signals: CVE-2026-109619
+- Shared strong signals: CVE-2026-123039
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -665,23 +681,6 @@
 - Links:
   - https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/
   - https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html
-
-### Linux kernel vulnerability activity
-- Anchor signal: Linux kernel
-- Theme key: linux-kernel
-- Cluster count: 2
-- Article count: 3
-- Cohesion: 0.2
-- Shared strong signals: Linux kernel
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Linux kernel
-- Cluster IDs: eb92172155, fba6e81cad
-- Links:
-  - https://tldrsec.com/p/tldr-sec-354
-  - https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/
-  - https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html
 
 ### VMware vulnerability activity
 - Anchor signal: VMware
@@ -728,19 +727,25 @@
 - Pair: CVE-2026-111793 + F5 BIG-IP (cluster a1853faf68, first observation: True)
 - Pair: CVE-2026-111793 + Palo Alto Networks (cluster a1853faf68, first observation: True)
 
-### Drift (2)
+### Drift (3)
 - **UNC5221** (cluster 2cab26404c)
   - New industries: financial_services
   - New products: Android
   - Prior top industries: critical_infrastructure, government, manufacturing_industrial
   - Prior top products: Citrix, Ivanti, Palo Alto Networks
+- **ShinyHunters** (cluster c29b2e040f)
+  - New industries: education, manufacturing_industrial
+  - New products: Google Workspace, Microsoft 365
+  - Prior top industries: financial_services, government, healthcare
+  - Prior top products: Anthropic/Claude, OpenAI/ChatGPT, Salesforce
 - **Cl0p** (cluster d7028f613a)
-  - New industries: (none)
-  - New products: GitHub
+  - New industries: telecommunications
+  - New products: Linux kernel
   - Prior top industries: financial_services, government, manufacturing_industrial
   - Prior top products: Anthropic/Claude, OpenAI/ChatGPT, SolarWinds
 
-### Persistence (10)
+### Persistence (11)
+- actor_attribution: ShinyHunters (weeks observed: 13, cluster c29b2e040f)
 - actor_attribution: Cl0p (weeks observed: 13, cluster d7028f613a)
 - actor_attribution: UNC5221 (weeks observed: 9, cluster 2cab26404c)
 - actor_attribution: LockBit (weeks observed: 8, cluster a46657a5b4)
@@ -968,7 +973,7 @@ CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is al
 ### Cluster 26581d7b17 — score 24
 
 - Title: Trained to betray: How post-training supply chain attacks hijack coding agents
-- Source: Microsoft Threat Intelligence (threat_research_primary)
+- Source: Microsoft Security Blog (threat_research_primary)
 - Published: 2026-11-12T17:00:00+00:00
 - Link: https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/
 - Fetch status: ok
@@ -1002,12 +1007,12 @@ Share Link copied to clipboard! Tags Supply chain attack Threats intelligence AI
 
 #### Corroborating sources (2)
 
-- **Microsoft Threat Intelligence** (threat_research_primary)
+- **Microsoft Security Blog** (threat_research_primary)
   - Title: Trained to betray: How post-training supply chain attacks hijack coding agents
   - Published: 2026-11-12T17:00:00+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/
   - Summary: Microsoft Defender Research and the AI Red Team discuss how poisoned datasets and poisoned model checkpoints can trigger remote code execution and other malicious activities. The post Trained to betray: How post-training supply chain attacks hijack coding agents appeared first on Microsoft Security Blog .
-- **Microsoft Security Blog** (threat_research_primary)
+- **Microsoft Threat Intelligence** (threat_research_primary)
   - Title: Trained to betray: How post-training supply chain attacks hijack coding agents
   - Published: 2026-11-12T17:00:00+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/
@@ -2221,10 +2226,43 @@ Threat Research Center Insights General General ARTEX and AI-Powered Red Teaming
   - Link: https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/
   - Summary: Learn what Unit 42 discovered about attacker use of AI-powered red team tools, and how to mitigate these attacks. The post ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know appeared first on Unit 42 .
 
+### Cluster 568f4783d6 — score 10
+
+- Title: LABScon26 Replay | Let’s Get Physical: Why Cybersecurity Needs Hardware-Based Security to Survive AI
+- Source: SentinelOne Labs (threat_research_primary)
+- Published: 2026-11-12T14:00:02+00:00
+- Link: https://www.sentinelone.com/labs/labscon26-replay-let-s-get-physical-why-cybersecurity-needs-hardware-based-security-to-survive-ai/
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Adyen’s Dino Dai Zovi shows how hardware security proven in payments can contain AI-driven attacks, even when vulnerabilities cannot be patched.
+```
+
+#### Corroborating sources (1)
+
+- **SentinelOne Labs** (threat_research_primary)
+  - Title: LABScon26 Replay | Let’s Get Physical: Why Cybersecurity Needs Hardware-Based Security to Survive AI
+  - Published: 2026-11-12T14:00:02+00:00
+  - Link: https://www.sentinelone.com/labs/labscon26-replay-let-s-get-physical-why-cybersecurity-needs-hardware-based-security-to-survive-ai/
+  - Summary: Adyen’s Dino Dai Zovi shows how hardware security proven in payments can contain AI-driven attacks, even when vulnerabilities cannot be patched.
+
 ### Cluster 656ea1ba73 — score 10
 
 - Title: SCKit abuses ScreenConnect to deploy remote access and target technician sessions
-- Source: Microsoft Threat Intelligence (threat_research_primary)
+- Source: Microsoft Security Blog (threat_research_primary)
 - Published: 2026-11-13T21:31:44+00:00
 - Link: https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/
 - Fetch status: ok
@@ -2259,12 +2297,12 @@ Share Link copied to clipboard! Tags Credential theft Lateral movement Malware V
 
 #### Corroborating sources (2)
 
-- **Microsoft Threat Intelligence** (threat_research_primary)
+- **Microsoft Security Blog** (threat_research_primary)
   - Title: SCKit abuses ScreenConnect to deploy remote access and target technician sessions
   - Published: 2026-11-13T21:31:44+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/
   - Summary: SCKit abuses ScreenConnect to deploy unauthorized remote access and target technicians. Explore the attack chain, mitigations, and Microsoft Defender XDR hunting. The post SCKit abuses ScreenConnect to deploy remote access and target technician sessions appeared first on Microsoft Security Blog .
-- **Microsoft Security Blog** (threat_research_primary)
+- **Microsoft Threat Intelligence** (threat_research_primary)
   - Title: SCKit abuses ScreenConnect to deploy remote access and target technician sessions
   - Published: 2026-11-13T21:31:44+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/
@@ -2273,7 +2311,7 @@ Share Link copied to clipboard! Tags Credential theft Lateral movement Malware V
 ### Cluster 5b374473ad — score 10
 
 - Title: The global socket: how threat actors are weaponizing GSocket for stealthy C2
-- Source: Microsoft Threat Intelligence (threat_research_primary)
+- Source: Microsoft Security Blog (threat_research_primary)
 - Published: 2026-11-11T19:49:57+00:00
 - Link: https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/
 - Fetch status: ok
@@ -2307,12 +2345,12 @@ Share Link copied to clipboard! Tags Linux Threats intelligence Cyberattacker te
 
 #### Corroborating sources (2)
 
-- **Microsoft Threat Intelligence** (threat_research_primary)
+- **Microsoft Security Blog** (threat_research_primary)
   - Title: The global socket: how threat actors are weaponizing GSocket for stealthy C2
   - Published: 2026-11-11T19:49:57+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/
   - Summary: Threat actors are deploying GSocket on compromised Linux servers to keep encrypted remote access after the original vulnerability is patched. Learn how to detect, investigate, and remediate this activity. The post The global socket: how threat actors are weaponizing GSocket for stealthy C2 appeared first on Microsoft Security Blog .
-- **Microsoft Security Blog** (threat_research_primary)
+- **Microsoft Threat Intelligence** (threat_research_primary)
   - Title: The global socket: how threat actors are weaponizing GSocket for stealthy C2
   - Published: 2026-11-11T19:49:57+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/
@@ -2321,7 +2359,7 @@ Share Link copied to clipboard! Tags Linux Threats intelligence Cyberattacker te
 ### Cluster 6cd0ca5dbb — score 10
 
 - Title: Detecting sleeper agents hiding in AI model neurons
-- Source: Microsoft Threat Intelligence (threat_research_primary)
+- Source: Microsoft Security Blog (threat_research_primary)
 - Published: 2026-11-10T23:00:00+00:00
 - Link: https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/
 - Fetch status: ok
@@ -2355,49 +2393,16 @@ Share Link copied to clipboard! Threats intelligence AI threats Content types Re
 
 #### Corroborating sources (2)
 
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - Title: Detecting sleeper agents hiding in AI model neurons
-  - Published: 2026-11-10T23:00:00+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/
-  - Summary: Microsoft Research has released new threat research detailing how a capable agent model could be turned into a sleeper agent by editing fewer than ten neurons to inject a short payload; Microsoft Research has also found that this threat is detectable by frontier agents, which can identify anomalous weight edits. The post Detecting sleeper agents hiding in AI model neurons appeared first on Microsoft Security Blog .
 - **Microsoft Security Blog** (threat_research_primary)
   - Title: Detecting sleeper agents hiding in AI model neurons
   - Published: 2026-11-10T23:00:00+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/
   - Summary: Microsoft Research has released new threat research detailing how a capable agent model could be turned into a sleeper agent by editing fewer than ten neurons to inject a short payload; Microsoft Research has also found that this threat is detectable by frontier agents, which can identify anomalous weight edits. The post Detecting sleeper agents hiding in AI model neurons appeared first on Microsoft Security Blog .
-
-### Cluster 568f4783d6 — score 10
-
-- Title: LABScon26 Replay | Let’s Get Physical: Why Cybersecurity Needs Hardware-Based Security to Survive AI
-- Source: SentinelOne Labs (threat_research_primary)
-- Published: 2026-11-12T14:00:02+00:00
-- Link: https://www.sentinelone.com/labs/labscon26-replay-let-s-get-physical-why-cybersecurity-needs-hardware-based-security-to-survive-ai/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Adyen’s Dino Dai Zovi shows how hardware security proven in payments can contain AI-driven attacks, even when vulnerabilities cannot be patched.
-```
-
-#### Corroborating sources (1)
-
-- **SentinelOne Labs** (threat_research_primary)
-  - Title: LABScon26 Replay | Let’s Get Physical: Why Cybersecurity Needs Hardware-Based Security to Survive AI
-  - Published: 2026-11-12T14:00:02+00:00
-  - Link: https://www.sentinelone.com/labs/labscon26-replay-let-s-get-physical-why-cybersecurity-needs-hardware-based-security-to-survive-ai/
-  - Summary: Adyen’s Dino Dai Zovi shows how hardware security proven in payments can contain AI-driven attacks, even when vulnerabilities cannot be patched.
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - Title: Detecting sleeper agents hiding in AI model neurons
+  - Published: 2026-11-10T23:00:00+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/
+  - Summary: Microsoft Research has released new threat research detailing how a capable agent model could be turned into a sleeper agent by editing fewer than ten neurons to inject a short payload; Microsoft Research has also found that this threat is detectable by frontier agents, which can identify anomalous weight edits. The post Detecting sleeper agents hiding in AI model neurons appeared first on Microsoft Security Blog .
 
 ### Cluster be0ba4d322 — score 10
 
@@ -2778,6 +2783,55 @@ Since 2021, Project Zero has followed a â90 + 30â vulnerability disclo
   - Link: https://projectzero.google/2026/11/disclosure-policy.html
   - Summary: Since 2021, Project Zero has followed a “90 + 30” vulnerability disclosure policy, allowing vendors up to 90 days to remediate a vulnerability plus an extra 30 days “soak time” for patch rollout. Our goal was to encourage faster patching and give vendors time to deliver patches to users. The advent of AI-assisted vulnerability discovery and exploitation has changed the threat landscape such that the vulnerability remediation timeline encouraged by our disclosure policy is clearly insufficient. LLMs have increased the speed at which attackers can find and exploit vulnerabilities, alongside the risk that multiple parties, including malicious ones, discover the same bug. A vulnerability reported today presents a much higher immediate risk to users than one reported last year. In this new environment, it is crucial that vendors move towards remediating vulnerabilities faster.
 
+### Cluster c29b2e040f — score 10
+
+- Title: TSMC employee data breach linked to cloud provider
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-11-15T15:23:48+00:00
+- Link: https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion, zero_day
+- actor_attribution: ShinyHunters
+- affected_industries: education, financial_services, manufacturing_industrial
+- affected_products: Google Workspace, Microsoft 365
+- urgency_signals: zero_day
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach
+- actor_attribution: ShinyHunters
+- affected_industries: financial_services, manufacturing_industrial, education
+- affected_products: Microsoft 365, Google Workspace
+- urgency_signals: zero_day
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]
+```
+
+#### Full body
+
+```
+TSMC employee data breach linked to cloud provider By Bill Toulas November 15, 2026 10:23 AM 0 Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. The technology giant said the incident affected current and former employees but doesn’t impact its operations or customers. The company verified the leaked information and confirmed that it matched "data stored in the system services of a cloud service provider," indicating an external breach. TSMC is the world’s largest contract chipmaker, manufacturing advanced processors and other semiconductors for companies such as Apple and Nvidia. Last year, it shipped approximately 15 million 12-inch-equivalent wafers and generated $122.4 billion in annual revenue. TSMC's investigation found that the leaked information matched data stored in a cloud service provider it uses, pointing to a breach outside its own infrastructure. The company is now notifying impacted staff and providing the necessary support, while also engaging a third-party cybersecurity firm to help manage the situation. “TSMC has found that some of our current and former employee data was made available on an external website without authorization,” TSMC says in a filing with the Securities and Exchange Commission (SEC). “Currently, we have found no evidence that TSMC’s systems have been compromised,” the company added . Threat actor auctions the data On November 8, someone using the alias ‘SmithBianl’ leaked on a hacker forum a text file containing 499 rows of information allegedly stolen from TSMC. The actor claimed the file was a sample of a 6.9GB dataset containing 46,000 employee records. According to the post, the leaked information included TSMC employees' national ID numbers, addresses, contact details, and banking information. Source: KELA SmithBianl offered the data for auction, with bidding starting at 3 BTC (approximately $65,000). In the absence of a buyer, they warned that the data would be leaked for free in one week, setting the first deadline to November 15. BleepingComputer has contacted TSMC to ask whether they have engaged with the threat actor and whether they planned to pay the hackers to prevent a full public leak of their employees’ data. A spokesperson declined to comment at this stage. Uncover email threats your existing defenses may miss. Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud. See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes. Start your free email security scan. Related Articles: Japan's GMO urges customers to shut down PCs amid ransomware threat Burger King Japan data breach exposes 11 million customer records Frontline Education breach exposes school district employee data Cloudflare fixes Containers cross-tenant flaw exposing customer data ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: TSMC employee data breach linked to cloud provider
+  - Published: 2026-11-15T15:23:48+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/
+  - Summary: Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]
+
 ### Cluster ed2e51b312 — score 10
 
 - Title: Microsoft Fixes Nearly 1,100 Security Vulnerabilities
@@ -2931,16 +2985,14 @@ Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentica
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor
-- affected_products: Anthropic/Claude, GitHub
+- affected_industries: financial_services, telecommunications
 - cve_ids: CVE-2026-123863, CVE-2026-123864, CVE-2026-123865, CVE-2026-123866, CVE-2026-123874
 - urgency_signals: preauth_unauth
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: web_shell_backdoor
-- affected_products: Anthropic/Claude, GitHub
+- affected_industries: financial_services, telecommunications
 - cve_ids: CVE-2026-123863, CVE-2026-123866, CVE-2026-123864, CVE-2026-123865, CVE-2026-123874
 - urgency_signals: preauth_unauth
 - content_type: incident_report
@@ -2955,7 +3007,7 @@ A flaw fixed in Node.js this week lets unauthenticated clients crash servers tha
 #### Full body
 
 ```
-Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data  Swati Khandelwal  Nov 12, 2026 Vulnerability / Web Security A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client pieces of its memory, including responses intended for other connections. Fixed versions were released for all three supported lines: 22.23.5, 24.22.3, and 26.13.1. The crash flaw, CVE-2026-123863 , needs only a default HTTP/2 server that replies before the request body has fully arrived. The Node.js project calls that behavior typical. The crash works over both TLS and cleartext connections. The memory flaw, CVE-2026-123866, affects all three lines. From 24.22.0 and 26.9.0 onward, a client alone can trigger it. On 22.x and older 24.x and 26.x builds, it can still be triggered when the server itself closes a stream partway through a response, for example after an idle timeout. A separate flaw in Node.js HTTPS servers, CVE-2026-123864, can allow an unauthenticated client to read memory from other connections, "including TLS private keys and other users' requests," the project says. It affects all three supported lines. The flaw needs a handler that calls res.flushHeaders() before the request body has fully arrived and later calls res.end() with data. Reading the leaked memory also needs a route that sends back or stores a request body. Plain HTTP servers built with node:http are not affected. The release fixes 16 vulnerabilities in Node.js itself, seven of them rated high. The other four high-rated flaws, and the servers they affect, are: CVE-2026-123865 : a client can make any default HTTP/2 server hold memory and file descriptors permanently, on all three lines. CVE-2026-123874 : a client can corrupt server memory on 24.x and 26.x when the server serves files with stream.respondWithFile() or stream.respondWithFD(). On all three lines, canceling such downloads can also crash the server (CVE-2026-123875, rated medium). CVE-2026-126051 : a client can crash a TLS server on 24.x and 26.x if the server uses the SNICallback, OCSPRequest, newSession or resumeSession hooks, or server.addContext(). CVE-2026-123872 : on a TLS server with stricter client-certificate rules for some hostnames, a client approved for another hostname can switch to a stricter one during TLS 1.2 renegotiation without meeting its rules. All three lines are affected. The eight flaws above are all in Node.js's own HTTP/2, HTTPS and TLS server code, so they matter where a Node.js process accepts those connections itself. Updating to the fixed version for each line is the only fix in the project's security advisory . It lists no workaround for servers that cannot update yet. End-of-life lines, including 20.x and 25.x, get no fix in this release, and the project says such versions are always affected. The advisory does not report any attacks using the flaws. It also does not say whether servers that met the conditions for the HTTPS flaw should replace their TLS keys or other secrets after updating. Five of the flaws, including CVE-2026-123863 and CVE-2026-123864, were reported by Chris Rohlf in collaboration with Claude and Anthropic Research, according to the advisory. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  network security , Vulnerability , Web Security ⚡ Top Stories This Week Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It Hackers Hide Linux Backdoor in Control Web P
+Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data  Swati Khandelwal  Nov 12, 2026 Vulnerability / Web Security A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client pieces of its memory, including responses intended for other connections. Fixed versions were released for all three supported lines: 22.23.5, 24.22.3, and 26.13.1. The crash flaw, CVE-2026-123863 , needs only a default HTTP/2 server that replies before the request body has fully arrived. The Node.js project calls that behavior typical. The crash works over both TLS and cleartext connections. The memory flaw, CVE-2026-123866, affects all three lines. From 24.22.0 and 26.9.0 onward, a client alone can trigger it. On 22.x and older 24.x and 26.x builds, it can still be triggered when the server itself closes a stream partway through a response, for example after an idle timeout. A separate flaw in Node.js HTTPS servers, CVE-2026-123864, can allow an unauthenticated client to read memory from other connections, "including TLS private keys and other users' requests," the project says. It affects all three supported lines. The flaw needs a handler that calls res.flushHeaders() before the request body has fully arrived and later calls res.end() with data. Reading the leaked memory also needs a route that sends back or stores a request body. Plain HTTP servers built with node:http are not affected. The release fixes 16 vulnerabilities in Node.js itself, seven of them rated high. The other four high-rated flaws, and the servers they affect, are: CVE-2026-123865 : a client can make any default HTTP/2 server hold memory and file descriptors permanently, on all three lines. CVE-2026-123874 : a client can corrupt server memory on 24.x and 26.x when the server serves files with stream.respondWithFile() or stream.respondWithFD(). On all three lines, canceling such downloads can also crash the server (CVE-2026-123875, rated medium). CVE-2026-126051 : a client can crash a TLS server on 24.x and 26.x if the server uses the SNICallback, OCSPRequest, newSession or resumeSession hooks, or server.addContext(). CVE-2026-123872 : on a TLS server with stricter client-certificate rules for some hostnames, a client approved for another hostname can switch to a stricter one during TLS 1.2 renegotiation without meeting its rules. All three lines are affected. The eight flaws above are all in Node.js's own HTTP/2, HTTPS and TLS server code, so they matter where a Node.js process accepts those connections itself. Updating to the fixed version for each line is the only fix in the project's security advisory . It lists no workaround for servers that cannot update yet. End-of-life lines, including 20.x and 25.x, get no fix in this release, and the project says such versions are always affected. The advisory does not report any attacks using the flaws. It also does not say whether servers that met the conditions for the HTTPS flaw should replace their TLS keys or other secrets after updating. Five of the flaws, including CVE-2026-123863 and CVE-2026-123864, were reported by Chris Rohlf in collaboration with Claude and Anthropic Research, according to the advisory. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  network security , Vulnerability , Web Security ⚡ Top Stories This Week Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls SilentAir Hijacks Asian Telecom N
 ```
 
 #### Corroborating sources (1)
@@ -3083,8 +3135,8 @@ Security & Identity Powering agentic cloud governance: What's new in Organizatio
 - Published: 2026-11-13T15:20:00+00:00
 - Link: https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/
 - Fetch status: ok
-- Member count: 4
-- Corroborating source count: 4
+- Member count: 3
+- Corroborating source count: 3
 - Strong signals: OpenAI/ChatGPT
 
 #### Cluster taxonomy (union across members)
@@ -3115,7 +3167,7 @@ Noteworthy stories that might have slipped under the radar: Siemens details secu
 SecurityWeek’s weekly cybersecurity news roundup offers a concise overview of important developments that may not receive full standalone coverage yet remain relevant to the broader threat landscape. This curated summary highlights key stories across vulnerability disclosures, emerging attack methods, policy updates, industry reports, and other noteworthy events to help readers stay well-informed about the evolving cybersecurity environment. Here are this week’s highlights: Ex-FBI agent’s $2.47M crypto theft compromised bureau investigations Patrick Steven Yaroch, a former FBI counterintelligence agent, faces up to 20 years in prison after pleading guilty to wire fraud and money laundering over the theft of roughly $2.47 million in cryptocurrency. Yaroch used wallet credentials stored on FBI systems to make about 100 fraudulent transfers tied to 35 investigations. He took funds from investigation subjects and adversarial nation-state actors, and the thefts compromised multiple investigations and FBI sources and methods. Advertisement. Scroll to continue reading. Baker Tilly client data taken from supplier’s platform US accounting giant Baker Tilly is informing clients that hackers stole personal information, including Social Security numbers, from a platform operated by one of its service providers. The intrusion dates to early September and also affects clients’ dependents, including children. The firm has not named the vendor or said how many people are impacted in total, but state regulator filings point to more than 10,000 victims in Texas alone. OpenAI agents concealed unauthorized activity OpenAI has revealed new details about a July incident in which five AI agents conducting cybersecurity evaluations gained root privileges in CI workloads on the company’s research clusters. The agents used credentials and scripts left by earlier agents to modify evaluation settings, repair broken targets, and access restricted information. Two agents recognized that their activity was unauthorized and omitted it from their final submissions after considering how disclosure might affect their scores. Prompt injection chain could have backdoored OpenAI’s Codex npm package Depi researchers have described an attack chain against OpenAI’s Codex repository that started with a prompt injection in a GitHub Actions workflow and could have led to a malicious Codex release on npm. The issue-labeling workflow passed the title and body of any new issue to the Codex agent, so an attacker could execute code in the agent’s sandbox, read tokens from a GitHub runner process’s memory via .NET debug pipes, and poison the cache of a workflow with write permissions. The final step relied on a maintainer deleting a rogue release, which would yield a token trusted by npm. OpenAI has fixed the issue and awarded an initial $1,000 bounty. Siemens details security advisory policy and planned improvements Siemens has published a policy document that sets out how its PSIRT deals with product vulnerabilities and what its security advisories contain. Planned improvements include an API for automated lookups of product and vulnerability data, wider coverage of flaws in third-party components, more explicit “not affected” declarations, and getting advisory data into commonly used third-party vulnerability databases. VulnCheck: Glasswing fixes lag far behind findings VulnCheck researcher Patrick Garrity says that seven months after Anthropic launched Project Glasswing, he has tracked 442 CVEs credited to the company (about 0.5% of all CVEs published this year), only two of which are known to have been exploited in the wild. Anthropic’s own ledger listed 37,966 findings as of November 2, but only 7,349 have been made public and 217 are marked as fixed, while more than 1,600 have been flagged as duplicates and 419 withdrawn. Railway puts unauthorized spend from stolen AI keys at $740,000 Railway has released a detailed incident report on the October attack, in which a thr
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (3)
 
 - **SecurityWeek** (cyber_news_breach_reporting)
   - Title: In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach
@@ -3132,11 +3184,6 @@ SecurityWeek’s weekly cybersecurity news roundup offers a concise overview of 
   - Published: 2026-11-13T20:51:22+00:00
   - Link: https://www.justsecurity.org/164494/nonprofits-lawsuit-freeze-frontier-ai-development/?utm_source=rss&utm_medium=rss&utm_campaign=nonprofits-lawsuit-freeze-frontier-ai-development
   - Summary: Four nonprofits sue Anthropic, Google, Meta, OpenAI, and SpaceXSI seeking to freeze frontier AI development over cyberattack and catastrophic risks. The post Just the Docs: Nonprofits Sue Five Frontier AI Companies to Freeze Development, Citing Cyberattack and Catastrophic Risks appeared first on Just Security .
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark
-  - Published: 2026-11-10T08:16:14+00:00
-  - Link: https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html
-  - Summary: Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its engineers "complete otherwise-infeasible software migrations, designed three working electronic devices from scratch, solved two open problems in the physics of black holes, made
 
 ### Cluster 8612af1425 — score 9
 
@@ -3203,53 +3250,6 @@ Just saw a new (to me) URL in our honeypot data today:
   - Published: 2026-11-09T18:18:15+00:00
   - Link: https://isc.sans.edu/diary/rss/33502
   - Summary: Just saw a new (to me) URL in our honeypot data today:
-
-### Cluster f326b30326 — score 9
-
-- Title: Apache HTTP Server patches critical HTTP/2 remote code execution flaw
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-11-12T19:12:55+00:00
-- Link: https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, phishing_social_eng
-- affected_products: Anthropic/Claude, GitLab, Google Cloud
-- cve_ids: CVE-2026-106023, CVE-2026-109163, CVE-2026-119618
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, active_exploitation
-- affected_products: GitLab, Google Cloud, Anthropic/Claude
-- cve_ids: CVE-2026-119618, CVE-2026-106023, CVE-2026-109163
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]
-```
-
-#### Full body
-
-```
-Apache HTTP Server patches critical HTTP/2 remote code execution flaw By Bill Toulas November 12, 2026 02:12 PM 0 A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). The Apache Software Foundation has fixed the issue, now tracked as CVE-2026-119618, but a significant number of servers are vulnerable and reachable over the public internet. Discovered by Anthropic’s OSS Scanner and Google Cloud’s Vulnerability Research teams, the vulnerability is a race condition in the mod_http2 module that can corrupt heap memory. An attacker successfully exploiting it could run code with the web server process’s privileges in HTTP Server versions 2.4.55 through 2.4.70, and standalone mod_h2 version 2.0.8 through 2.0.42. Apache describes the problem as “Concurrent Execution using Shared Resource with Improper Synchronization vulnerability in Apache HTTP Server's mod_http2 in assign_headers() can lead to RCE.” Apache HTTP Server is a free and open-source software that handles requests from web browsers and serves pages, images, and other website content. It is a widely used tool estimated to back roughly one out of five websites . According to telemetry data from cloud security company Wiz, 64% of the cloud environments have vulnerable resources, and roughly half of them have publicly exposed instances. However, the numbers do not account for server configuration, which requires HTTP/2 to be enabled ( default is off ). Researchers at cybersecurity company watchTowr confirmed this condition and recommend technicians to "patch now or drop h2 until you can." "Due to improper synchronization when executing concurrent threads sharing resources, an attacker can trigger heap corruption," Wiz researchers say . "This memory corruption can ultimately be leveraged to achieve RCE on the hosting server, allowing unauthorized threat actors to execute arbitrary commands with the privileges of the web server process." Wiz assesses the severity of the vulnerability to be critical, although no official score is available. The company says that it is currently unaware of any public exploits or attacks targeting the flaw, but this could change soon. The latest version of Apache HTTP Server also addresses two additional flaws, CVE-2026-106023 - a null pointer dereference in ‘mod_md,’ and CVE-2026-109163 - a low-severity data overwrite flaw in ‘mod_vhost_alias.’ Uncover email threats your existing defenses may miss. Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud. See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes. Start your free email security scan. Related Articles: Over 1,000 GitLab servers vulnerable to ongoing RCE attacks CISA says max severity GitLab flaw now exploited in the wild GitLab warns of new max severity code execution vulnerability GitLab warns of max severity code execution vulnerability Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Apache HTTP Server patches critical HTTP/2 remote code execution flaw
-  - Published: 2026-11-12T19:12:55+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/
-  - Summary: A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]
 
 ### Cluster bf6b5c1d3c — score 9
 
@@ -3345,20 +3345,22 @@ Industry News Data Breach 2 min read WhiteArmor gang claims responsibility for l
 - Strong signals: CVE-2026-126325
 
 #### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, ransomware_extortion, web_shell_backdoor
+- threat_categories: ransomware_extortion, web_shell_backdoor, zero_day
 - actor_attribution: Cl0p
-- affected_industries: manufacturing_industrial
-- affected_products: Anthropic/Claude, GitHub, OpenAI/ChatGPT
+- affected_industries: financial_services, manufacturing_industrial, telecommunications
+- affected_products: Linux kernel
 - cve_ids: CVE-2026-12569, CVE-2026-126325
+- urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, apt_espionage, web_shell_backdoor
+- threat_categories: ransomware_extortion, zero_day, web_shell_backdoor
 - actor_attribution: Cl0p
-- affected_industries: manufacturing_industrial
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT, GitHub
+- affected_industries: financial_services, manufacturing_industrial, telecommunications
+- affected_products: Linux kernel
 - cve_ids: CVE-2026-126325, CVE-2026-12569
+- urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -3371,7 +3373,7 @@ PTC has released patches for a new critical vulnerability impacting Windchill an
 #### Full body
 
 ```
-PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution  Ravie Lakshmanan  Nov 12, 2026 Vulnerability / Enterprise Security PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The security flaw, tracked as CVE-2026-126325 , carries a CVSS v4 score of 9.2 out of a maximum of 10.0. It has been described as a case of improper input validation and deserialization of untrusted data that could result in remote code execution via crafted requests. "A critical remote code execution (RCE) vulnerability has been reported in PTC Windchill and PTC FlexPLM," according to a description of the flaw on CVE.org. "The vulnerability may be exploited through the deserialization of untrusted data." The CVE record lists the following versions as affected - PTC Windchill: 11.0 M030, 11.1 M020, 11.2.1.0, 12.0.2.0, 12.1.2.0, 13.0.2.0, 13.1.0.0, 13.1.1.0, 13.1.2.0, 13.1.3.0, 13.1.4.0 PTC FlexPLM: 11.0 M030, 11.1 M020, 11.2.1.0, 12.0.2.0, 12.1.2.0, 13.0.2.0, 13.1.0.0, 13.1.1.0, 13.1.2.0, 13.1.3.0 "If your Windchill or FlexPLM environment is hosted by PTC, the patches have been applied on their behalf. No action is required on your part," PTC said in a statement posted on its website. "If your Windchill or FlexPLM environment is not hosted by PTC, we urge you to apply the patch as soon as possible to help protect your systems." The disclosure comes nearly five months after another critical remote code execution (RCE) issue in Windchill and FlexPLM ( CVE-2026-12569 , CVSS score: 9.3) came under active exploitation. Then, in July 2026, it emerged that threat actors linked to the Cl0p ransomware operation were weaponizing the flaw as part of a data extortion campaign designed to drop JSP web shells and exfiltrate sensitive product data from manufacturing companies and industrial enterprises. "PTC software is a textbook target for initial access brokers and ransomware operators and a significant enabler of triple extortion campaigns," Yordan Ganchev, principal threat intelligence specialist at watchTowr, said in a statement shared with The Hacker News. "It allows malicious actors to reach far and wide within victim networks, encrypt and exfiltrate proprietary data, and disrupt industrial processes. In many cases, the impact across these environments has downstream implications for time-sensitive manufacturing, logistics, and fulfillment processes, resulting in material costs per hour of downtime." Organizations running PTC Windchill and FlexPLM products are recommended to patch exposed systems as soon as possible and monitor for signs of code execution, backdoor access, or web shells on the host. If patching is not an immediate option, it's essential to apply network restrictions to limit the risk of compromise. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  enterprise security , Software Security , Vulnerability ⚡ Top Stories This Week Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Up
+PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution  Ravie Lakshmanan  Nov 12, 2026 Vulnerability / Enterprise Security PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The security flaw, tracked as CVE-2026-126325 , carries a CVSS v4 score of 9.2 out of a maximum of 10.0. It has been described as a case of improper input validation and deserialization of untrusted data that could result in remote code execution via crafted requests. "A critical remote code execution (RCE) vulnerability has been reported in PTC Windchill and PTC FlexPLM," according to a description of the flaw on CVE.org. "The vulnerability may be exploited through the deserialization of untrusted data." The CVE record lists the following versions as affected - PTC Windchill: 11.0 M030, 11.1 M020, 11.2.1.0, 12.0.2.0, 12.1.2.0, 13.0.2.0, 13.1.0.0, 13.1.1.0, 13.1.2.0, 13.1.3.0, 13.1.4.0 PTC FlexPLM: 11.0 M030, 11.1 M020, 11.2.1.0, 12.0.2.0, 12.1.2.0, 13.0.2.0, 13.1.0.0, 13.1.1.0, 13.1.2.0, 13.1.3.0 "If your Windchill or FlexPLM environment is hosted by PTC, the patches have been applied on their behalf. No action is required on your part," PTC said in a statement posted on its website. "If your Windchill or FlexPLM environment is not hosted by PTC, we urge you to apply the patch as soon as possible to help protect your systems." The disclosure comes nearly five months after another critical remote code execution (RCE) issue in Windchill and FlexPLM ( CVE-2026-12569 , CVSS score: 9.3) came under active exploitation. Then, in July 2026, it emerged that threat actors linked to the Cl0p ransomware operation were weaponizing the flaw as part of a data extortion campaign designed to drop JSP web shells and exfiltrate sensitive product data from manufacturing companies and industrial enterprises. "PTC software is a textbook target for initial access brokers and ransomware operators and a significant enabler of triple extortion campaigns," Yordan Ganchev, principal threat intelligence specialist at watchTowr, said in a statement shared with The Hacker News. "It allows malicious actors to reach far and wide within victim networks, encrypt and exfiltrate proprietary data, and disrupt industrial processes. In many cases, the impact across these environments has downstream implications for time-sensitive manufacturing, logistics, and fulfillment processes, resulting in material costs per hour of downtime." Organizations running PTC Windchill and FlexPLM products are recommended to patch exposed systems as soon as possible and monitor for signs of code execution, backdoor access, or web shells on the host. If patching is not an immediate option, it's essential to apply network restrictions to limit the risk of compromise. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  enterprise security , Software Security , Vulnerability ⚡ Top Stories This Week Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass Critical Red Hat Quay Flaw Lets Attackers Read
 ```
 
 #### Corroborating sources (1)
@@ -3610,43 +3612,6 @@ Follow-up on AhsayCBS intrusion: new webshells, a second miner, and a host-bound
   - Link: https://www.huntress.com/blog/ahsaycbs-webshells
   - Summary: Follow-up on AhsayCBS intrusion: new webshells, a second miner, and a host-bound Python implant found on exploited backup servers.
 
-### Cluster e7cfd3c1d8 — score 8
-
-- Title: City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-11-13T19:43:00+00:00
-- Link: https://therecord.media/city-of-osaka-japan-email-data-breach
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Osaka, Japan's third-largest city, told its 2.8 million residents to be wary of suspicious emails purporting to come from the local government.
-```
-
-#### Corroborating sources (1)
-
-- **The Record** (cyber_news_breach_reporting)
-  - Title: City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents
-  - Published: 2026-11-13T19:43:00+00:00
-  - Link: https://therecord.media/city-of-osaka-japan-email-data-breach
-  - Summary: Osaka, Japan's third-largest city, told its 2.8 million residents to be wary of suspicious emails purporting to come from the local government.
-
 ### Cluster 9ce12b8d82 — score 8
 
 - Title: Check Point warns of zero-day flaw exploited for root access
@@ -3683,6 +3648,43 @@ Check Point Software has released emergency hotfixes to address a high-severity 
   - Published: 2026-11-13T10:44:22+00:00
   - Link: https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/
   - Summary: Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]
+
+### Cluster e7cfd3c1d8 — score 8
+
+- Title: City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents
+- Source: The Record (cyber_news_breach_reporting)
+- Published: 2026-11-13T19:43:00+00:00
+- Link: https://therecord.media/city-of-osaka-japan-email-data-breach
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- affected_industries: government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- affected_industries: government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Osaka, Japan's third-largest city, told its 2.8 million residents to be wary of suspicious emails purporting to come from the local government.
+```
+
+#### Corroborating sources (1)
+
+- **The Record** (cyber_news_breach_reporting)
+  - Title: City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents
+  - Published: 2026-11-13T19:43:00+00:00
+  - Link: https://therecord.media/city-of-osaka-japan-email-data-breach
+  - Summary: Osaka, Japan's third-largest city, told its 2.8 million residents to be wary of suspicious emails purporting to come from the local government.
 
 ### Cluster 4da0cee80b — score 8
 
@@ -3793,6 +3795,80 @@ The cybercriminals are retargeting law firms that refused to pay its first ranso
   - Link: https://www.darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time
   - Summary: The cybercriminals are retargeting law firms that refused to pay its first ransom, with a social engineering con aimed at stealing Microsoft access tokens.
 
+### Cluster b1d2c9c697 — score 8
+
+- Title: New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-11-12T17:50:27+00:00
+- Link: https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access
+  - Published: 2026-11-12T17:50:27+00:00
+  - Link: https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html
+  - Summary: Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of
+
+### Cluster b5894c9450 — score 8
+
+- Title: Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-11-11T16:12:46+00:00
+- Link: https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-108186
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-108186
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- cve_ids: CVE-2026-108186
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are listed below - CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vulnerability that could allow an unauthenticated user to conduct an escalation of privilege via
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation
+  - Published: 2026-11-11T16:12:46+00:00
+  - Link: https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html
+  - Summary: Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are listed below - CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vulnerability that could allow an unauthenticated user to conduct an escalation of privilege via
+
 ### Cluster 97a136a081 — score 8
 
 - Title: Maersk Reveals Data Breach as Extortion Group Demands $5m
@@ -3896,115 +3972,6 @@ Gaming company Sega warned customers to be vigilant for suspicious emails after 
   - Link: https://www.infosecurity-magazine.com/news/email-sega-customers-vendor-breach/
   - Summary: Gaming company Sega warned customers to be vigilant for suspicious emails after hackers compromised Japanese email delivery provider Arara
 
-### Cluster b1d2c9c697 — score 8
-
-- Title: New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-11-12T17:50:27+00:00
-- Link: https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access
-  - Published: 2026-11-12T17:50:27+00:00
-  - Link: https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html
-  - Summary: Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of
-
-### Cluster b5894c9450 — score 8
-
-- Title: Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-11-11T16:12:46+00:00
-- Link: https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-108186
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-108186
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- cve_ids: CVE-2026-108186
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are listed below - CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vulnerability that could allow an unauthenticated user to conduct an escalation of privilege via
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation
-  - Published: 2026-11-11T16:12:46+00:00
-  - Link: https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html
-  - Summary: Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are listed below - CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vulnerability that could allow an unauthenticated user to conduct an escalation of privilege via
-
-### Cluster 91a167d765 — score 8
-
-- Title: France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-11-10T09:08:20+00:00
-- Link: https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government, retail_ecommerce
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- affected_industries: government, retail_ecommerce
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The attackers broke into controllers on the night of October 11 and changed their defrost settings to high temperatures. That caused food losses and, in at least 15 cases, fires. The unit
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites
-  - Published: 2026-11-10T09:08:20+00:00
-  - Link: https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html
-  - Summary: An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The attackers broke into controllers on the night of October 11 and changed their defrost settings to high temperatures. That caused food losses and, in at least 15 cases, fires. The unit
-
 ### Cluster 40880954b6 — score 8
 
 - Title: IP snowshoeing under US .gov email via a whitelisted AmazonSES typo in SPF
@@ -4039,6 +4006,41 @@ UPDATE: Livingston County, MI, has removed amzonses[.]com from its SPF record. I
   - Published: 2026-11-09T17:41:19+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1xry7z3/ip_snowshoeing_under_us_gov_email_via_a/
   - Summary: UPDATE: Livingston County, MI, has removed amzonses[.]com from its SPF record. It had been there since at least November 2023, and when we checked, it authorized 32,066 IPs to send email as milivcounty[.]gov Since our research on US government domains went public, several government organizations have made changes to their DNS. The City of Waynesboro, TN has fixed the typo in its MX record, and the private company’s homepage served under woosterar[.]gov has been taken down. The Alabama Legislature looks to have a fix in progress too. I run a small email security consultancy and this is our research. A typo of AmazonSES in US government DNS whitelisted 32,066 IPs to pass DMARC p=quarantine as milivcounty[.]gov, with the IP set rotating every 3-8 days. Attackers are snowshoeing the IPs, and once they get listed by Abusix and Spamhaus, they rotate the SPF include chain. Other AmazonSES typos in gov SPF are amasonses[.]com under pikevilleky[.]gov and amazones[.]com under townofkirkwood[.]g
+
+### Cluster b5bc25730e — score 8
+
+- Title: Pwning Home Assistant Green: Pre-Auth RCE in Eclipse Mosquitto
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-11-08T16:58:09+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1xr33yo/pwning_home_assistant_green_preauth_rce_in/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+submitted by /u/parzel [link] [comments]
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: Pwning Home Assistant Green: Pre-Auth RCE in Eclipse Mosquitto
+  - Published: 2026-11-08T16:58:09+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1xr33yo/pwning_home_assistant_green_preauth_rce_in/
+  - Summary: submitted by /u/parzel [link] [comments]
 
 ### Cluster 22d75f84e0 — score 8
 
@@ -4115,8 +4117,8 @@ Elastic Security Labs analyzes SANSAR, a Linux cryptomining orchestrator that ma
 - Published: 2026-11-10T05:34:14+00:00
 - Link: https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/
 - Fetch status: not_attempted
-- Member count: 5
-- Corroborating source count: 4
+- Member count: 6
+- Corroborating source count: 5
 - Strong signals: Anthropic/Claude
 
 #### Cluster taxonomy (union across members)
@@ -4135,13 +4137,18 @@ Elastic Security Labs analyzes SANSAR, a Linux cryptomining orchestrator that ma
 Claude Fable 5.2 pays close attention to who owns the code it works on. In Anthropic’s testing on small coding tasks, the model tended to add to the existing structure when the prompt said nothing about ownership or presented the code base as someone else’s, even when that duplicated existing code. When the prompt said the code base was the model’s own, it often consolidated duplicated code and sometimes made related fixes without being asked. If you want the model to improve the structure as it works, say that the code is its own: You are the owner and long-term maintainer of this codebase, and its design is up to you. The ownership sentence makes the model much more likely to consolidate duplicated code into one shared function. In Anthropic’s testing on small coding tasks, the model consolidated duplicated code in under 10 percent of runs without the sentence and in about 75 percent of runs with it. — Prompting Claude Fable 5.2 , Anthropic documentation Tags: prompt-engineering , an
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (5)
 
 - **Simon Willison** (ai_security_agentic_risk)
   - Title: Quoting Prompting Claude Fable 5.2
   - Published: 2026-11-10T05:34:14+00:00
   - Link: https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/
   - Summary: Claude Fable 5.2 pays close attention to who owns the code it works on. In Anthropic’s testing on small coding tasks, the model tended to add to the existing structure when the prompt said nothing about ownership or presented the code base as someone else’s, even when that duplicated existing code. When the prompt said the code base was the model’s own, it often consolidated duplicated code and sometimes made related fixes without being asked. If you want the model to improve the structure as it works, say that the code is its own: You are the owner and long-term maintainer of this codebase, and its design is up to you. The ownership sentence makes the model much more likely to consolidate duplicated code into one shared function. In Anthropic’s testing on small coding tasks, the model consolidated duplicated code in under 10 percent of runs without the sentence and in about 75 percent of runs with it. — Prompting Claude Fable 5.2 , Anthropic documentation Tags: prompt-engineering , an
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident
+  - Published: 2026-11-15T08:22:04+00:00
+  - Link: https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html
+  - Summary: The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. "An attacker obtained an access key we had issued to Fireworks," Cursor said in a Friday update. "The key was exposed by Fireworks, and the attacker used it to copy data from a read-only
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: Cursor confirms security breach led to malicious Claude Code extension
   - Published: 2026-11-14T17:27:25+00:00

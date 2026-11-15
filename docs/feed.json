@@ -1,16 +1,9 @@
 {
-  "generated_at": "2026-11-15T09:03:28.635923+00:00",
+  "generated_at": "2026-11-15T16:16:11.929171+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2208,
   "feed_status": {
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -18,12 +11,12 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 4
+      "in_window_count": 0
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -32,19 +25,26 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
-    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 6
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 0
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -67,18 +67,18 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 1
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 1
     },
     "Kaspersky Securelist": {
@@ -95,6 +95,13 @@
       "item_count": 100,
       "in_window_count": 2
     },
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
@@ -109,33 +116,19 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 6
-    },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 1
-    },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 6
     },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
@@ -144,11 +137,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 50,
+      "item_count": 40,
       "in_window_count": 1
     },
     "Assetnote": {
@@ -157,6 +150,13 @@
       "status": "ok",
       "item_count": 78,
       "in_window_count": 0
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 1
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -221,6 +221,20 @@
       "item_count": 15,
       "in_window_count": 3
     },
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 2
+    },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
@@ -228,12 +242,26 @@
       "item_count": 20,
       "in_window_count": 4
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 0
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 8
+    },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 8
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -249,34 +277,6 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 2
-    },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 8
-    },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 8
-    },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Google Project Zero": {
       "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
       "cohort": "offensive_vulnerability_research",
@@ -284,12 +284,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 1
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -298,12 +298,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 0
     },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
@@ -318,13 +318,6 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 6
-    },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -347,6 +340,20 @@
       "item_count": 100,
       "in_window_count": 6
     },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
+    },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
+    },
     "The Record": {
       "url": "https://therecord.media/feed",
       "cohort": "cyber_news_breach_reporting",
@@ -368,19 +375,12 @@
       "item_count": 20,
       "in_window_count": 20
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
@@ -389,8 +389,15 @@
       "item_count": 30,
       "in_window_count": 19
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -403,12 +410,12 @@
       "item_count": 50,
       "in_window_count": 1
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 50,
+      "in_window_count": 27
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -417,12 +424,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 27
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
@@ -431,12 +438,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -445,19 +452,12 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 2
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
@@ -466,36 +466,15 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -508,12 +487,26 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 27
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -522,19 +515,19 @@
       "item_count": 50,
       "in_window_count": 50
     },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 27
+    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 23
-    },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "in_window_count": 16
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -542,6 +535,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -750,45 +750,6 @@
       ]
     },
     {
-      "label": "active exploitation targeting Google Cloud",
-      "anchor_signal": "Google Cloud",
-      "theme_key": "google-cloud",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "affected_products": [
-          "Google Cloud",
-          "Anthropic/Claude"
-        ],
-        "cve_ids": [
-          "CVE-2026-119618"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 9,
-      "cohesion": 0.263,
-      "shared_strong_signals": [
-        "Google Cloud"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "51b673df55",
-        "86aa6f9a58",
-        "f326b30326"
-      ],
-      "links": [
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-119618/",
-        "https://webflow.sysdig.com/blog/httpd-cve-2026-119618-detecting-heap-corruption-and-rce-in-apache-http-server-mod-http2",
-        "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
-        "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
-        "https://cloud.google.com/blog/products/identity-security/ai-powered-cloud-governance-whats-new-in-organization-policy/",
-        "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
-        "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/"
-      ]
-    },
-    {
       "label": "ransomware extortion targeting Android",
       "anchor_signal": "Android",
       "theme_key": "android",
@@ -898,6 +859,68 @@
       ]
     },
     {
+      "label": "Linux kernel vulnerability activity",
+      "anchor_signal": "Linux kernel",
+      "theme_key": "linux-kernel",
+      "dominant_features": {
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "Linux kernel"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 4,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "Linux kernel"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "eb92172155",
+        "fba6e81cad",
+        "d7028f613a"
+      ],
+      "links": [
+        "https://tldrsec.com/p/tldr-sec-354",
+        "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
+        "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
+        "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html"
+      ]
+    },
+    {
+      "label": "Google Cloud vulnerability activity",
+      "anchor_signal": "Google Cloud",
+      "theme_key": "google-cloud",
+      "dominant_features": {
+        "affected_products": [
+          "Google Cloud"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 8,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "Google Cloud"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "51b673df55",
+        "86aa6f9a58"
+      ],
+      "links": [
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-119618/",
+        "https://webflow.sysdig.com/blog/httpd-cve-2026-119618-detecting-heap-corruption-and-rce-in-apache-http-server-mod-http2",
+        "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+        "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+        "https://cloud.google.com/blog/products/identity-security/ai-powered-cloud-governance-whats-new-in-organization-policy/",
+        "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html"
+      ]
+    },
+    {
       "label": "active exploitation targeting Cisco",
       "anchor_signal": "Cisco",
       "theme_key": "cisco",
@@ -927,9 +950,9 @@
       ]
     },
     {
-      "label": "CVE-2026-123039 exploitation activity",
-      "anchor_signal": "CVE-2026-123039",
-      "theme_key": "cve-2026-123039",
+      "label": "CVE-2026-109619 exploitation activity",
+      "anchor_signal": "CVE-2026-109619",
+      "theme_key": "cve-2026-109619",
       "dominant_features": {
         "threat_categories": [
           "web_shell_backdoor"
@@ -947,7 +970,7 @@
       "article_count": 2,
       "cohesion": 0.4,
       "shared_strong_signals": [
-        "CVE-2026-123039"
+        "CVE-2026-109619"
       ],
       "member_cves": [],
       "also_targets": [],
@@ -995,9 +1018,9 @@
       ]
     },
     {
-      "label": "CVE-2026-109619 exploitation activity",
-      "anchor_signal": "CVE-2026-109619",
-      "theme_key": "cve-2026-109619",
+      "label": "CVE-2026-123039 exploitation activity",
+      "anchor_signal": "CVE-2026-123039",
+      "theme_key": "cve-2026-123039",
       "dominant_features": {
         "threat_categories": [
           "web_shell_backdoor"
@@ -1015,7 +1038,7 @@
       "article_count": 2,
       "cohesion": 0.4,
       "shared_strong_signals": [
-        "CVE-2026-109619"
+        "CVE-2026-123039"
       ],
       "member_cves": [],
       "also_targets": [],
@@ -1026,33 +1049,6 @@
       "links": [
         "https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/",
         "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html"
-      ]
-    },
-    {
-      "label": "Linux kernel vulnerability activity",
-      "anchor_signal": "Linux kernel",
-      "theme_key": "linux-kernel",
-      "dominant_features": {
-        "affected_products": [
-          "Linux kernel"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 3,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "Linux kernel"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "eb92172155",
-        "fba6e81cad"
-      ],
-      "links": [
-        "https://tldrsec.com/p/tldr-sec-354",
-        "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
-        "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html"
       ]
     },
     {
@@ -1190,11 +1186,35 @@
         ]
       },
       {
+        "actor": "ShinyHunters",
+        "cluster_id": "c29b2e040f",
+        "new_industries": [
+          "education",
+          "manufacturing_industrial"
+        ],
+        "new_products": [
+          "Google Workspace",
+          "Microsoft 365"
+        ],
+        "prior_top_industries": [
+          "financial_services",
+          "government",
+          "healthcare"
+        ],
+        "prior_top_products": [
+          "Anthropic/Claude",
+          "OpenAI/ChatGPT",
+          "Salesforce"
+        ]
+      },
+      {
         "actor": "Cl0p",
         "cluster_id": "d7028f613a",
-        "new_industries": [],
+        "new_industries": [
+          "telecommunications"
+        ],
         "new_products": [
-          "GitHub"
+          "Linux kernel"
         ],
         "prior_top_industries": [
           "financial_services",
@@ -1209,6 +1229,12 @@
       }
     ],
     "persistence": [
+      {
+        "axis": "actor_attribution",
+        "value": "ShinyHunters",
+        "cluster_id": "c29b2e040f",
+        "weeks_observed": 13
+      },
       {
         "axis": "actor_attribution",
         "value": "Cl0p",
@@ -1284,39 +1310,85 @@
   },
   "items": [
     {
-      "source": "Reddit r/netsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "The npm malware was removed. The desktop backdoor stayed live. (Ethersphere bee-js / Swarm Desktop, 9 Nov 2026)",
-      "link": "https://www.reddit.com/r/netsec/comments/1xwqm5g/the_npm_malware_was_removed_the_desktop_backdoor/",
-      "published": "2026-11-15T08:44:08+00:00",
-      "summary": "submitted by /u/APT-vs-BellyFAT [link] [comments]",
-      "author": "/u/APT-vs-BellyFAT",
+      "source": "BleepingComputer",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "TSMC employee data breach linked to cloud provider",
+      "link": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+      "published": "2026-11-15T15:23:48+00:00",
+      "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
+      "author": "Bill Toulas",
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "apt_espionage",
-          "web_shell_backdoor"
+          "ransomware_extortion",
+          "phishing_social_eng",
+          "zero_day",
+          "data_breach"
         ],
+        "actor_attribution": [
+          "ShinyHunters"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "manufacturing_industrial",
+          "education"
+        ],
+        "affected_products": [
+          "Microsoft 365",
+          "Google Workspace"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": "incident_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "Microsoft 365": "target",
+          "Google Workspace": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 10,
+      "full_body": "TSMC employee data breach linked to cloud provider By Bill Toulas November 15, 2026 10:23 AM 0 Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. The technology giant said the incident affected current and former employees but doesn’t impact its operations or customers. The company verified the leaked information and confirmed that it matched \"data stored in the system services of a cloud service provider,\" indicating an external breach. TSMC is the world’s largest contract chipmaker, manufacturing advanced processors and other semiconductors for companies such as Apple and Nvidia. Last year, it shipped approximately 15 million 12-inch-equivalent wafers and generated $122.4 billion in annual revenue. TSMC's investigation found that the leaked information matched data stored in a cloud service provider it uses, pointing to a breach outside its own infrastructure. The company is now notifying impacted staff and providing the necessary support, while also engaging a third-party cybersecurity firm to help manage the situation. “TSMC has found that some of our current and former employee data was made available on an external website without authorization,” TSMC says in a filing with the Securities and Exchange Commission (SEC). “Currently, we have found no evidence that TSMC’s systems have been compromised,” the company added . Threat actor auctions the data On November 8, someone using the alias ‘SmithBianl’ leaked on a hacker forum a text file containing 499 rows of information allegedly stolen from TSMC. The actor claimed the file was a sample of a 6.9GB dataset containing 46,000 employee records. According to the post, the leaked information included TSMC employees' national ID numbers, addresses, contact details, and banking information. Source: KELA SmithBianl offered the data for auction, with bidding starting at 3 BTC (approximately $65,000). In the absence of a buyer, they warned that the data would be leaked for free in one week, setting the first deadline to November 15. BleepingComputer has contacted TSMC to ask whether they have engaged with the threat actor and whether they planned to pay the hackers to prevent a full public leak of their employees’ data. A spokesperson declined to comment at this stage. Uncover email threats your existing defenses may miss. Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud. See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes. Start your free email security scan. Related Articles: Japan's GMO urges customers to shut down PCs amid ransomware threat Burger King Japan data breach exposes 11 million customer records Frontline Education breach exposes school district employee data Cloudflare fixes Containers cross-tenant flaw exposing customer data ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
+      "fetch_status": "ok"
+    },
+    {
+      "source": "The Hacker News",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+      "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+      "published": "2026-11-15T08:22:04+00:00",
+      "summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday update. \"The key was exposed by Fireworks, and the attacker used it to copy data from a read-only",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
-          "npm"
+          "Anthropic/Claude"
         ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
+        "confidence_tier": "tier_4_news",
         "role_map": {
-          "npm": "target"
+          "Anthropic/Claude": "target"
         },
         "weak_tags": {
           "products": []
         }
       },
-      "score": 4
+      "score": 6
     },
     {
       "source": "BleepingComputer",
@@ -1381,7 +1453,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "The Hacker News",
@@ -1411,7 +1483,7 @@
           "products": []
         }
       },
-      "score": 7
+      "score": 6
     },
     {
       "source": "Huntress",
@@ -1476,7 +1548,7 @@
       "score": 4
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
@@ -1514,7 +1586,7 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
@@ -2614,36 +2686,6 @@
       "fetch_status": "ok"
     },
     {
-      "source": "SecurityWeek",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
-      "link": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
-      "published": "2026-11-13T09:36:56+00:00",
-      "summary": "Successful exploitation could lead to unexpected behavior or denial-of-service (DoS) conditions. The post Citrix Patches 10 Critical NetScaler Vulnerabilities appeared first on SecurityWeek .",
-      "author": "Ionut Arghire",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "ddos"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
       "source": "BleepingComputer",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -3241,56 +3283,6 @@
       "fetch_status": "ok"
     },
     {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
-      "published": "2026-11-12T19:12:55+00:00",
-      "summary": "A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]",
-      "author": "Bill Toulas",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "GitLab",
-          "Google Cloud",
-          "Anthropic/Claude"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-119618",
-          "CVE-2026-106023",
-          "CVE-2026-109163"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "GitLab": "target",
-          "Google Cloud": "target",
-          "Anthropic/Claude": "target",
-          "Microsoft 365": "target",
-          "Google Workspace": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 9,
-      "full_body": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw By Bill Toulas November 12, 2026 02:12 PM 0 A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). The Apache Software Foundation has fixed the issue, now tracked as CVE-2026-119618, but a significant number of servers are vulnerable and reachable over the public internet. Discovered by Anthropic’s OSS Scanner and Google Cloud’s Vulnerability Research teams, the vulnerability is a race condition in the mod_http2 module that can corrupt heap memory. An attacker successfully exploiting it could run code with the web server process’s privileges in HTTP Server versions 2.4.55 through 2.4.70, and standalone mod_h2 version 2.0.8 through 2.0.42. Apache describes the problem as “Concurrent Execution using Shared Resource with Improper Synchronization vulnerability in Apache HTTP Server's mod_http2 in assign_headers() can lead to RCE.” Apache HTTP Server is a free and open-source software that handles requests from web browsers and serves pages, images, and other website content. It is a widely used tool estimated to back roughly one out of five websites . According to telemetry data from cloud security company Wiz, 64% of the cloud environments have vulnerable resources, and roughly half of them have publicly exposed instances. However, the numbers do not account for server configuration, which requires HTTP/2 to be enabled ( default is off ). Researchers at cybersecurity company watchTowr confirmed this condition and recommend technicians to \"patch now or drop h2 until you can.\" \"Due to improper synchronization when executing concurrent threads sharing resources, an attacker can trigger heap corruption,\" Wiz researchers say . \"This memory corruption can ultimately be leveraged to achieve RCE on the hosting server, allowing unauthorized threat actors to execute arbitrary commands with the privileges of the web server process.\" Wiz assesses the severity of the vulnerability to be critical, although no official score is available. The company says that it is currently unaware of any public exploits or attacks targeting the flaw, but this could change soon. The latest version of Apache HTTP Server also addresses two additional flaws, CVE-2026-106023 - a null pointer dereference in ‘mod_md,’ and CVE-2026-109163 - a low-severity data overwrite flaw in ‘mod_vhost_alias.’ Uncover email threats your existing defenses may miss. Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud. See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes. Start your free email security scan. Related Articles: Over 1,000 GitLab servers vulnerable to ongoing RCE attacks CISA says max severity GitLab flaw now exploited in the wild GitLab warns of new max severity code execution vulnerability GitLab warns of max severity code execution vulnerability Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
-      "fetch_status": "ok"
-    },
-    {
       "source": "Intel 471",
       "cohort": "ransomware_ecrime_financial_crime",
       "category": "ransomware_ecrime_financial_crime",
@@ -3441,7 +3433,7 @@
       "score": 7
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Trained to betray: How post-training supply chain attacks hijack coding agents",
@@ -3479,7 +3471,7 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Trained to betray: How post-training supply chain attacks hijack coding agents",
@@ -4230,19 +4222,19 @@
       "taxonomy": {
         "threat_categories": [
           "ransomware_extortion",
-          "apt_espionage",
+          "zero_day",
           "web_shell_backdoor"
         ],
         "actor_attribution": [
           "Cl0p"
         ],
         "affected_industries": [
-          "manufacturing_industrial"
+          "financial_services",
+          "manufacturing_industrial",
+          "telecommunications"
         ],
         "affected_products": [
-          "Anthropic/Claude",
-          "OpenAI/ChatGPT",
-          "GitHub"
+          "Linux kernel"
         ],
         "tools_used": [],
         "cve_ids": [
@@ -4250,20 +4242,20 @@
           "CVE-2026-12569"
         ],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
         "role_map": {
-          "Anthropic/Claude": "target",
-          "OpenAI/ChatGPT": "target",
-          "GitHub": "target"
+          "Linux kernel": "target"
         },
         "weak_tags": {
           "products": []
         }
       },
       "score": 9,
-      "full_body": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution  Ravie Lakshmanan  Nov 12, 2026 Vulnerability / Enterprise Security PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The security flaw, tracked as CVE-2026-126325 , carries a CVSS v4 score of 9.2 out of a maximum of 10.0. It has been described as a case of improper input validation and deserialization of untrusted data that could result in remote code execution via crafted requests. \"A critical remote code execution (RCE) vulnerability has been reported in PTC Windchill and PTC FlexPLM,\" according to a description of the flaw on CVE.org. \"The vulnerability may be exploited through the deserialization of untrusted data.\" The CVE record lists the following versions as affected - PTC Windchill: 11.0 M030, 11.1 M020, 11.2.1.0, 12.0.2.0, 12.1.2.0, 13.0.2.0, 13.1.0.0, 13.1.1.0, 13.1.2.0, 13.1.3.0, 13.1.4.0 PTC FlexPLM: 11.0 M030, 11.1 M020, 11.2.1.0, 12.0.2.0, 12.1.2.0, 13.0.2.0, 13.1.0.0, 13.1.1.0, 13.1.2.0, 13.1.3.0 \"If your Windchill or FlexPLM environment is hosted by PTC, the patches have been applied on their behalf. No action is required on your part,\" PTC said in a statement posted on its website. \"If your Windchill or FlexPLM environment is not hosted by PTC, we urge you to apply the patch as soon as possible to help protect your systems.\" The disclosure comes nearly five months after another critical remote code execution (RCE) issue in Windchill and FlexPLM ( CVE-2026-12569 , CVSS score: 9.3) came under active exploitation. Then, in July 2026, it emerged that threat actors linked to the Cl0p ransomware operation were weaponizing the flaw as part of a data extortion campaign designed to drop JSP web shells and exfiltrate sensitive product data from manufacturing companies and industrial enterprises. \"PTC software is a textbook target for initial access brokers and ransomware operators and a significant enabler of triple extortion campaigns,\" Yordan Ganchev, principal threat intelligence specialist at watchTowr, said in a statement shared with The Hacker News. \"It allows malicious actors to reach far and wide within victim networks, encrypt and exfiltrate proprietary data, and disrupt industrial processes. In many cases, the impact across these environments has downstream implications for time-sensitive manufacturing, logistics, and fulfillment processes, resulting in material costs per hour of downtime.\" Organizations running PTC Windchill and FlexPLM products are recommended to patch exposed systems as soon as possible and monitor for signs of code execution, backdoor access, or web shells on the host. If patching is not an immediate option, it's essential to apply network restrictions to limit the risk of compromise. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  enterprise security , Software Security , Vulnerability ⚡ Top Stories This Week Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Up",
+      "full_body": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution  Ravie Lakshmanan  Nov 12, 2026 Vulnerability / Enterprise Security PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The security flaw, tracked as CVE-2026-126325 , carries a CVSS v4 score of 9.2 out of a maximum of 10.0. It has been described as a case of improper input validation and deserialization of untrusted data that could result in remote code execution via crafted requests. \"A critical remote code execution (RCE) vulnerability has been reported in PTC Windchill and PTC FlexPLM,\" according to a description of the flaw on CVE.org. \"The vulnerability may be exploited through the deserialization of untrusted data.\" The CVE record lists the following versions as affected - PTC Windchill: 11.0 M030, 11.1 M020, 11.2.1.0, 12.0.2.0, 12.1.2.0, 13.0.2.0, 13.1.0.0, 13.1.1.0, 13.1.2.0, 13.1.3.0, 13.1.4.0 PTC FlexPLM: 11.0 M030, 11.1 M020, 11.2.1.0, 12.0.2.0, 12.1.2.0, 13.0.2.0, 13.1.0.0, 13.1.1.0, 13.1.2.0, 13.1.3.0 \"If your Windchill or FlexPLM environment is hosted by PTC, the patches have been applied on their behalf. No action is required on your part,\" PTC said in a statement posted on its website. \"If your Windchill or FlexPLM environment is not hosted by PTC, we urge you to apply the patch as soon as possible to help protect your systems.\" The disclosure comes nearly five months after another critical remote code execution (RCE) issue in Windchill and FlexPLM ( CVE-2026-12569 , CVSS score: 9.3) came under active exploitation. Then, in July 2026, it emerged that threat actors linked to the Cl0p ransomware operation were weaponizing the flaw as part of a data extortion campaign designed to drop JSP web shells and exfiltrate sensitive product data from manufacturing companies and industrial enterprises. \"PTC software is a textbook target for initial access brokers and ransomware operators and a significant enabler of triple extortion campaigns,\" Yordan Ganchev, principal threat intelligence specialist at watchTowr, said in a statement shared with The Hacker News. \"It allows malicious actors to reach far and wide within victim networks, encrypt and exfiltrate proprietary data, and disrupt industrial processes. In many cases, the impact across these environments has downstream implications for time-sensitive manufacturing, logistics, and fulfillment processes, resulting in material costs per hour of downtime.\" Organizations running PTC Windchill and FlexPLM products are recommended to patch exposed systems as soon as possible and monitor for signs of code execution, backdoor access, or web shells on the host. If patching is not an immediate option, it's essential to apply network restrictions to limit the risk of compromise. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  enterprise security , Software Security , Vulnerability ⚡ Top Stories This Week Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass Critical Red Hat Quay Flaw Lets Attackers Read ",
       "fetch_status": "ok"
     },
     {
@@ -4460,15 +4452,13 @@
       "author": "info@thehackernews.com (The Hacker News)",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [
-          "web_shell_backdoor"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Anthropic/Claude",
-          "GitHub"
+        "affected_industries": [
+          "financial_services",
+          "telecommunications"
         ],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [
           "CVE-2026-123863",
@@ -4484,15 +4474,20 @@
         "content_type": "incident_report",
         "confidence_tier": "tier_4_news",
         "role_map": {
-          "Anthropic/Claude": "target",
-          "GitHub": "target"
+          "Anthropic/Claude": "mention"
         },
         "weak_tags": {
-          "products": []
+          "products": [
+            [
+              "Anthropic/Claude",
+              "mention",
+              0.38
+            ]
+          ]
         }
       },
       "score": 10,
-      "full_body": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data  Swati Khandelwal  Nov 12, 2026 Vulnerability / Web Security A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client pieces of its memory, including responses intended for other connections. Fixed versions were released for all three supported lines: 22.23.5, 24.22.3, and 26.13.1. The crash flaw, CVE-2026-123863 , needs only a default HTTP/2 server that replies before the request body has fully arrived. The Node.js project calls that behavior typical. The crash works over both TLS and cleartext connections. The memory flaw, CVE-2026-123866, affects all three lines. From 24.22.0 and 26.9.0 onward, a client alone can trigger it. On 22.x and older 24.x and 26.x builds, it can still be triggered when the server itself closes a stream partway through a response, for example after an idle timeout. A separate flaw in Node.js HTTPS servers, CVE-2026-123864, can allow an unauthenticated client to read memory from other connections, \"including TLS private keys and other users' requests,\" the project says. It affects all three supported lines. The flaw needs a handler that calls res.flushHeaders() before the request body has fully arrived and later calls res.end() with data. Reading the leaked memory also needs a route that sends back or stores a request body. Plain HTTP servers built with node:http are not affected. The release fixes 16 vulnerabilities in Node.js itself, seven of them rated high. The other four high-rated flaws, and the servers they affect, are: CVE-2026-123865 : a client can make any default HTTP/2 server hold memory and file descriptors permanently, on all three lines. CVE-2026-123874 : a client can corrupt server memory on 24.x and 26.x when the server serves files with stream.respondWithFile() or stream.respondWithFD(). On all three lines, canceling such downloads can also crash the server (CVE-2026-123875, rated medium). CVE-2026-126051 : a client can crash a TLS server on 24.x and 26.x if the server uses the SNICallback, OCSPRequest, newSession or resumeSession hooks, or server.addContext(). CVE-2026-123872 : on a TLS server with stricter client-certificate rules for some hostnames, a client approved for another hostname can switch to a stricter one during TLS 1.2 renegotiation without meeting its rules. All three lines are affected. The eight flaws above are all in Node.js's own HTTP/2, HTTPS and TLS server code, so they matter where a Node.js process accepts those connections itself. Updating to the fixed version for each line is the only fix in the project's security advisory . It lists no workaround for servers that cannot update yet. End-of-life lines, including 20.x and 25.x, get no fix in this release, and the project says such versions are always affected. The advisory does not report any attacks using the flaws. It also does not say whether servers that met the conditions for the HTTPS flaw should replace their TLS keys or other secrets after updating. Five of the flaws, including CVE-2026-123863 and CVE-2026-123864, were reported by Chris Rohlf in collaboration with Claude and Anthropic Research, according to the advisory. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  network security , Vulnerability , Web Security ⚡ Top Stories This Week Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It Hackers Hide Linux Backdoor in Control Web P",
+      "full_body": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data  Swati Khandelwal  Nov 12, 2026 Vulnerability / Web Security A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client pieces of its memory, including responses intended for other connections. Fixed versions were released for all three supported lines: 22.23.5, 24.22.3, and 26.13.1. The crash flaw, CVE-2026-123863 , needs only a default HTTP/2 server that replies before the request body has fully arrived. The Node.js project calls that behavior typical. The crash works over both TLS and cleartext connections. The memory flaw, CVE-2026-123866, affects all three lines. From 24.22.0 and 26.9.0 onward, a client alone can trigger it. On 22.x and older 24.x and 26.x builds, it can still be triggered when the server itself closes a stream partway through a response, for example after an idle timeout. A separate flaw in Node.js HTTPS servers, CVE-2026-123864, can allow an unauthenticated client to read memory from other connections, \"including TLS private keys and other users' requests,\" the project says. It affects all three supported lines. The flaw needs a handler that calls res.flushHeaders() before the request body has fully arrived and later calls res.end() with data. Reading the leaked memory also needs a route that sends back or stores a request body. Plain HTTP servers built with node:http are not affected. The release fixes 16 vulnerabilities in Node.js itself, seven of them rated high. The other four high-rated flaws, and the servers they affect, are: CVE-2026-123865 : a client can make any default HTTP/2 server hold memory and file descriptors permanently, on all three lines. CVE-2026-123874 : a client can corrupt server memory on 24.x and 26.x when the server serves files with stream.respondWithFile() or stream.respondWithFD(). On all three lines, canceling such downloads can also crash the server (CVE-2026-123875, rated medium). CVE-2026-126051 : a client can crash a TLS server on 24.x and 26.x if the server uses the SNICallback, OCSPRequest, newSession or resumeSession hooks, or server.addContext(). CVE-2026-123872 : on a TLS server with stricter client-certificate rules for some hostnames, a client approved for another hostname can switch to a stricter one during TLS 1.2 renegotiation without meeting its rules. All three lines are affected. The eight flaws above are all in Node.js's own HTTP/2, HTTPS and TLS server code, so they matter where a Node.js process accepts those connections itself. Updating to the fixed version for each line is the only fix in the project's security advisory . It lists no workaround for servers that cannot update yet. End-of-life lines, including 20.x and 25.x, get no fix in this release, and the project says such versions are always affected. The advisory does not report any attacks using the flaws. It also does not say whether servers that met the conditions for the HTTPS flaw should replace their TLS keys or other secrets after updating. Five of the flaws, including CVE-2026-123863 and CVE-2026-123864, were reported by Chris Rohlf in collaboration with Claude and Anthropic Research, according to the advisory. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  network security , Vulnerability , Web Security ⚡ Top Stories This Week Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls SilentAir Hijacks Asian Telecom N",
       "fetch_status": "ok"
     },
     {
@@ -4920,7 +4915,7 @@
       "score": 4
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
@@ -4956,7 +4951,7 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
@@ -5241,34 +5236,6 @@
         }
       },
       "score": 4
-    },
-    {
-      "source": "Reddit r/netsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Qlik Sense Servers Hit With PowerShell Reverse Shells; Attacker Server Holds ActiveMQ and Veeam Exploits",
-      "link": "https://www.reddit.com/r/netsec/comments/1xtjslt/qlik_sense_servers_hit_with_powershell_reverse/",
-      "published": "2026-11-11T14:55:07+00:00",
-      "summary": "submitted by /u/Much-Television-9449 [link] [comments]",
-      "author": "/u/Much-Television-9449",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 2
     },
     {
       "source": "Reddit r/netsec",
@@ -5770,7 +5737,7 @@
       "score": 7
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Detecting sleeper agents hiding in AI model neurons",
@@ -5806,7 +5773,7 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Detecting sleeper agents hiding in AI model neurons",
@@ -6974,71 +6941,6 @@
       "score": 6
     },
     {
-      "source": "The Hacker News",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
-      "link": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
-      "published": "2026-11-10T09:08:20+00:00",
-      "summary": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The attackers broke into controllers on the night of October 11 and changed their defrost settings to high temperatures. That caused food losses and, in at least 15 cases, fires. The unit",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government",
-          "retail_ecommerce"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 8
-    },
-    {
-      "source": "The Hacker News",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
-      "link": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
-      "published": "2026-11-10T08:16:14+00:00",
-      "summary": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its engineers \"complete otherwise-infeasible software migrations, designed three working electronic devices from scratch, solved two open problems in the physics of black holes, made",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Anthropic/Claude",
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "Anthropic/Claude": "target",
-          "OpenAI/ChatGPT": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
       "source": "Kaspersky Securelist",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -7925,6 +7827,121 @@
       "score": 14
     },
     {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Pwning Home Assistant Green: Pre-Auth RCE in Eclipse Mosquitto",
+      "link": "https://www.reddit.com/r/netsec/comments/1xr33yo/pwning_home_assistant_green_preauth_rce_in/",
+      "published": "2026-11-08T16:58:09+00:00",
+      "summary": "submitted by /u/parzel [link] [comments]",
+      "author": "/u/parzel",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 8
+    },
+    {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "email encryption",
+      "link": "https://www.reddit.com/r/netsec/comments/1xr1qpe/email_encryption/",
+      "published": "2026-11-08T16:00:58+00:00",
+      "summary": "submitted by /u/fagnerbrack [link] [comments]",
+      "author": "/u/fagnerbrack",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "ARTEX attack",
+      "link": "https://www.reddit.com/r/netsec/comments/1xqmhgk/artex_attack/",
+      "published": "2026-11-08T01:31:04+00:00",
+      "summary": "Has anyone heard of this? https://blog.gitguardian.com/the-agents-have-now-found-your-secrets-on-github-artex-is-abusing-public-secrets-right-now/ submitted by /u/Important_Market961 [link] [comments]",
+      "author": "/u/Important_Market961",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "GitHub"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {
+          "GitHub": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "I spent countless nights digging into PHP2Shell. Here's a deep dive into how it actually works, from memory to PHP internals to a real exploit.",
+      "link": "https://www.reddit.com/r/netsec/comments/1xqlw37/i_spent_countless_nights_digging_into_php2shell/",
+      "published": "2026-11-08T01:00:49+00:00",
+      "summary": "When the PHP vulnerabilities were first announced, I spent a HUGE amount of time trying to figure out the logic behind them. As many others who tried investigating them probably noticed, there was barely any technical information available at the time. We had a few basic hints: something related to PHP_SESSION_UPLOAD_PROGRESS, some kind of Out of Memory condition, and, of course, that video Calif published showing a dancing girl with a shell running the exploit in the background. 😂 I found that pretty funny, especially considering the scale of the vulnerabilities and how many servers around the world could potentially be affected. Anyway, that was pretty much all we had to work with! Even AI assistants weren't particularly helpful. At the time, they were heavily restricted when it came to this subject. A simple technical question about an internal PHP function could get flagged just because you mentioned PHP and something technical in the same sentence. For those of us without access t",
+      "author": "/u/djad04",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Simon Willison",
       "cohort": "ai_security_agentic_risk",
       "category": "ai_security_agentic_risk",
@@ -7979,7 +7996,34 @@
       }
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "unlocking any car from X brand in most of the world",
+      "link": "https://www.reddit.com/r/netsec/comments/1xq3xin/unlocking_any_car_from_x_brand_in_most_of_the/",
+      "published": "2026-11-07T11:10:50+00:00",
+      "summary": "submitted by /u/Mempodipper [link] [comments]",
+      "author": "/u/Mempodipper",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "ARTEX abuse expands as cybercriminals target financial sector",
@@ -8008,7 +8052,7 @@
       }
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "ARTEX abuse expands as cybercriminals target financial sector",
@@ -8622,6 +8666,33 @@
       }
     },
     {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Forwarded Without Question: How Web Frameworks Overtrust the Forwarded Header",
+      "link": "https://www.reddit.com/r/netsec/comments/1xp9n79/forwarded_without_question_how_web_frameworks/",
+      "published": "2026-11-06T10:34:37+00:00",
+      "summary": "Many common web frameworks like Spring and Ruby on Rails trust the RFC 7239 Forwarded header by default, even though most proxies don't actually have any support for it. This makes apps vulnerable to request hostname or client IP address spoofing in the default configurations. I've been researching how the Forwarded header is supported across frameworks and proxies. Rails and Spring recently shipped fixes following my research. There are still other frameworks that need application configuration changes to be secure. submitted by /u/luryus [link] [comments]",
+      "author": "/u/luryus",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Kaspersky Securelist",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -8796,7 +8867,7 @@
       }
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
@@ -8827,7 +8898,7 @@
       }
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
@@ -8909,6 +8980,38 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560) - watchTowr Labs",
+      "link": "https://www.reddit.com/r/netsec/comments/1xouqpj/barracuda_networks_is_your_new_best_friend/",
+      "published": "2026-11-05T21:24:03+00:00",
+      "summary": "submitted by /u/dx7r__ [link] [comments]",
+      "author": "/u/dx7r__",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-116606",
+          "CVE-2026-111560"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -9569,6 +9672,33 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Who’s Trying to Get Into Our Fridge Freezer? There's nowt in it!",
+      "link": "https://www.reddit.com/r/netsec/comments/1xoi14n/whos_trying_to_get_into_our_fridge_freezer_theres/",
+      "published": "2026-11-05T13:00:14+00:00",
+      "summary": "submitted by /u/ethicalhack3r [link] [comments]",
+      "author": "/u/ethicalhack3r",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -25607,6 +25737,37 @@
       }
     },
     {
+      "source": "Datadog Security Labs",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Beyond valid credentials: How exposed AWS keys are tested for Amazon Bedrock access",
+      "link": "https://securitylabs.datadoghq.com/articles/beyond-valid-credentials-how-exposed-aws-keys-are-tested-for-amazon-bedrock-access/",
+      "published": "2026-10-06T00:00:00+00:00",
+      "summary": "In this post, we share LLM-specific validation patterns that attackers use to test exposed AWS credentials for Amazon Bedrock access.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "AWS"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {
+          "AWS": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Sysdig",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -25657,37 +25818,6 @@
         "content_type": "low_signal",
         "confidence_tier": "tier_2_operator",
         "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Datadog Security Labs",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Beyond valid credentials: How exposed AWS keys are tested for Amazon Bedrock access",
-      "link": "https://securitylabs.datadoghq.com/articles/beyond-valid-credentials-how-exposed-aws-keys-are-tested-for-amazon-bedrock-access/",
-      "published": "2026-10-06T00:00:00+00:00",
-      "summary": "In this post, we share LLM-specific validation patterns that attackers use to test exposed AWS credentials for Amazon Bedrock access.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "AWS"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {
-          "AWS": "target"
-        },
         "weak_tags": {
           "products": []
         }
@@ -25810,33 +25940,6 @@
       }
     },
     {
-      "source": "Sysdig",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Security briefing: September 2026",
-      "link": "https://webflow.sysdig.com/blog/security-briefing-september-2026",
-      "published": "2026-10-05T00:00:00+00:00",
-      "summary": "It may be October as you read this, but I bet many organizations got the creeps in September as environments were continuously breached. There were scams, old-fashioned human actors, a few agents making mistakes, and some persistent actors taking full advantage of a new vulnerability.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Datadog Security Labs",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -25858,6 +25961,33 @@
           "preauth_unauth"
         ],
         "content_type": "threat_research",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Sysdig",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Security briefing: September 2026",
+      "link": "https://webflow.sysdig.com/blog/security-briefing-september-2026",
+      "published": "2026-10-05T00:00:00+00:00",
+      "summary": "It may be October as you read this, but I bet many organizations got the creeps in September as environments were continuously breached. There were scams, old-fashioned human actors, a few agents making mistakes, and some persistent actors taking full advantage of a new vulnerability.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
@@ -29420,13 +29550,13 @@
       }
     },
     {
-      "source": "Sysdig",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Every regulatory disclosure rule asks the same question. Each calls it something else",
-      "link": "https://webflow.sysdig.com/blog/every-regulatory-disclosure-rule-asks-the-same-question-each-calls-it-something-else",
+      "source": "Datadog Security Labs",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Attacker infrastructure, but vibe-coded: tracking the evolution of credential harvesting platforms",
+      "link": "https://securitylabs.datadoghq.com/articles/attacker-infrastructure-but-vibe-coded/",
       "published": "2026-09-18T00:00:00+00:00",
-      "summary": "EU orgs must juggle reporting obligations and timelines for CRA, GDPR, NIS2, and more. But the most important step is judging what needs reporting.",
+      "summary": "In this post, we examine two vibe-coded credential harvesting platforms, Loot and UltraVault, and the Amazon Bedrock abuse used to validate stolen secrets.",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -29447,13 +29577,13 @@
       }
     },
     {
-      "source": "Datadog Security Labs",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Attacker infrastructure, but vibe-coded: tracking the evolution of credential harvesting platforms",
-      "link": "https://securitylabs.datadoghq.com/articles/attacker-infrastructure-but-vibe-coded/",
+      "source": "Sysdig",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Every regulatory disclosure rule asks the same question. Each calls it something else",
+      "link": "https://webflow.sysdig.com/blog/every-regulatory-disclosure-rule-asks-the-same-question-each-calls-it-something-else",
       "published": "2026-09-18T00:00:00+00:00",
-      "summary": "In this post, we examine two vibe-coded credential harvesting platforms, Loot and UltraVault, and the Amazon Bedrock abuse used to validate stolen secrets.",
+      "summary": "EU orgs must juggle reporting obligations and timelines for CRA, GDPR, NIS2, and more. But the most important step is judging what needs reporting.",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -29888,6 +30018,33 @@
       }
     },
     {
+      "source": "Datadog Security Labs",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Mapping out your unknown: A threat hunter’s guide to GitHub",
+      "link": "https://securitylabs.datadoghq.com/articles/mapping-out-your-unknown-threat-hunters-guide-to-github/",
+      "published": "2026-09-16T00:00:00+00:00",
+      "summary": "In this post, we walk through different threats to GitHub and how to detect them.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Sysdig",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -29922,33 +30079,6 @@
       "link": "https://webflow.sysdig.com/blog/why-runtime-security-should-be-a-top-priority-for-cisos",
       "published": "2026-09-16T00:00:00+00:00",
       "summary": "By reducing actual, material risks with runtime security, CISOs help their organizations become more resilient and secure.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Datadog Security Labs",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Mapping out your unknown: A threat hunter’s guide to GitHub",
-      "link": "https://securitylabs.datadoghq.com/articles/mapping-out-your-unknown-threat-hunters-guide-to-github/",
-      "published": "2026-09-16T00:00:00+00:00",
-      "summary": "In this post, we walk through different threats to GitHub and how to detect them.",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -33334,13 +33464,13 @@
       }
     },
     {
-      "source": "Sysdig",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Defending the battlefield: Stateful detections for an agentic threat landscape",
-      "link": "https://webflow.sysdig.com/blog/defending-the-battlefield-stateful-detections-for-an-agentic-threat-landscape",
+      "source": "Datadog Security Labs",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Password spraying campaign targets AWS root user accounts across 150+ organizations",
+      "link": "https://securitylabs.datadoghq.com/articles/aws-root-user-bruteforce-campaign/",
       "published": "2026-08-31T00:00:00+00:00",
-      "summary": "Defenses built for human speed won’t hold against AI-driven threats. That’s why stateful detections are becoming an essential tool for runtime security.",
+      "summary": "Datadog Security Research observed a password spraying campaign attempting to authenticate as the AWS root user across more than 150 organizations.",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -33361,13 +33491,13 @@
       }
     },
     {
-      "source": "Datadog Security Labs",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Password spraying campaign targets AWS root user accounts across 150+ organizations",
-      "link": "https://securitylabs.datadoghq.com/articles/aws-root-user-bruteforce-campaign/",
+      "source": "Sysdig",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Defending the battlefield: Stateful detections for an agentic threat landscape",
+      "link": "https://webflow.sysdig.com/blog/defending-the-battlefield-stateful-detections-for-an-agentic-threat-landscape",
       "published": "2026-08-31T00:00:00+00:00",
-      "summary": "Datadog Security Research observed a password spraying campaign attempting to authenticate as the AWS root user across more than 150 organizations.",
+      "summary": "Defenses built for human speed won’t hold against AI-driven threats. That’s why stateful detections are becoming an essential tool for runtime security.",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -37322,6 +37452,37 @@
       }
     },
     {
+      "source": "Datadog Security Labs",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "'ChainDrop' worm compromises hundreds of popular npm packages",
+      "link": "https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/",
+      "published": "2026-08-04T00:00:00+00:00",
+      "summary": "On August 4, 2026, several popular npm packages, including 'keyv', were compromised to deliver malware.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "npm"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {
+          "npm": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Sysdig",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -37401,37 +37562,6 @@
         "content_type": "low_signal",
         "confidence_tier": "tier_2_operator",
         "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Datadog Security Labs",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "'ChainDrop' worm compromises hundreds of popular npm packages",
-      "link": "https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/",
-      "published": "2026-08-04T00:00:00+00:00",
-      "summary": "On August 4, 2026, several popular npm packages, including 'keyv', were compromised to deliver malware.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "npm"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {
-          "npm": "target"
-        },
         "weak_tags": {
           "products": []
         }
@@ -40212,37 +40342,6 @@
       }
     },
     {
-      "source": "Sysdig",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "No single pane of glass: Anatomy of an Azure permission takeover",
-      "link": "https://webflow.sysdig.com/blog/no-single-pane-of-glass-anatomy-of-an-azure-permission-takeover",
-      "published": "2026-07-14T00:00:00+00:00",
-      "summary": "The Sysdig Threat Research Team recently observed an attacker walk one credential through five Azure permission systems. In this blog, we’ll explore how.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Azure"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {
-          "Azure": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Datadog Security Labs",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -40269,6 +40368,37 @@
         "confidence_tier": "tier_2_operator",
         "role_map": {
           "npm": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Sysdig",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "No single pane of glass: Anatomy of an Azure permission takeover",
+      "link": "https://webflow.sysdig.com/blog/no-single-pane-of-glass-anatomy-of-an-azure-permission-takeover",
+      "published": "2026-07-14T00:00:00+00:00",
+      "summary": "The Sysdig Threat Research Team recently observed an attacker walk one credential through five Azure permission systems. In this blog, we’ll explore how.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Azure"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {
+          "Azure": "target"
         },
         "weak_tags": {
           "products": []
@@ -41442,6 +41572,33 @@
       }
     },
     {
+      "source": "Datadog Security Labs",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Backdoors & Breaches: New scenarios and adaptations",
+      "link": "https://securitylabs.datadoghq.com/articles/backdoors-and-breaches-new-scenarios/",
+      "published": "2026-07-01T00:00:00+00:00",
+      "summary": "Sharing new scenarios and adaptations to play the Datadog expansion pack of Backdoors & Breaches.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Sysdig",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -41463,33 +41620,6 @@
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "incident_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Datadog Security Labs",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Backdoors & Breaches: New scenarios and adaptations",
-      "link": "https://securitylabs.datadoghq.com/articles/backdoors-and-breaches-new-scenarios/",
-      "published": "2026-07-01T00:00:00+00:00",
-      "summary": "Sharing new scenarios and adaptations to play the Datadog expansion pack of Backdoors & Breaches.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
@@ -41869,6 +41999,33 @@
       }
     },
     {
+      "source": "Datadog Security Labs",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Introducing GuardDog 3.0: A new rules engine, transparent sandboxing, and more",
+      "link": "https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/",
+      "published": "2026-06-26T00:00:00+00:00",
+      "summary": "Release of GuardDog 3.0, an open-source tool to identify malicious packages, featuring a new YARA-based rules engine, a risk scoring engine, and built-in sandboxing.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Sysdig",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -41890,33 +42047,6 @@
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "vulnerability_disclosure",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Datadog Security Labs",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Introducing GuardDog 3.0: A new rules engine, transparent sandboxing, and more",
-      "link": "https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/",
-      "published": "2026-06-26T00:00:00+00:00",
-      "summary": "Release of GuardDog 3.0, an open-source tool to identify malicious packages, featuring a new YARA-based rules engine, a risk scoring engine, and built-in sandboxing.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
