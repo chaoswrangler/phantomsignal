@@ -1,13 +1,13 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-11-15T21:36:16.544592+00:00
+- Generated: 2026-11-16T01:45:10.313722+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 351
-- Total clusters raw: 160
-- Total clusters in packet: 78
+- Total items in window: 355
+- Total clusters raw: 161
+- Total clusters in packet: 79
 - Dropped low score: 82
 - Dropped overflow: 0
 
@@ -70,11 +70,6 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
@@ -85,11 +80,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: fetch_error
+  - Item count: 0
+  - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
@@ -100,51 +110,51 @@
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: fetch_error
-  - Item count: 0
-  - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 4
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
-  - Item count: 10
+  - Item count: 20
   - In window count: 1
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 4
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -155,13 +165,8 @@
   - Status: ok
   - Item count: 40
   - In window count: 1
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -169,11 +174,6 @@
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
-  - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
@@ -210,46 +210,46 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
-  - Item count: 20
-  - In window count: 4
+  - Item count: 10
+  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 2
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 30
+  - In window count: 1
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 8
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
@@ -265,38 +265,33 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Google Project Zero** (offensive_vulnerability_research)
   - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
   - Status: ok
   - Item count: 10
+  - In window count: 1
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 6
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 6
@@ -315,6 +310,11 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 6
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -325,33 +325,13 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 19
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -360,38 +340,63 @@
   - Status: ok
   - Item count: 50
   - In window count: 1
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 23
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 27
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 7
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -400,8 +405,8 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -415,8 +420,8 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -425,11 +430,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
@@ -445,21 +445,21 @@
   - Status: ok
   - Item count: 25
   - In window count: 15
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
-  - In window count: 6
+  - In window count: 7
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
@@ -665,13 +665,13 @@
   - https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/
   - https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html
 
-### CVE-2026-123039 exploitation activity
-- Anchor signal: CVE-2026-123039
-- Theme key: cve-2026-123039
+### CVE-2026-109618 exploitation activity
+- Anchor signal: CVE-2026-109618
+- Theme key: cve-2026-109618
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.4
-- Shared strong signals: CVE-2026-123039
+- Shared strong signals: CVE-2026-109618
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -683,13 +683,13 @@
   - https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/
   - https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html
 
-### CVE-2026-109618 exploitation activity
-- Anchor signal: CVE-2026-109618
-- Theme key: cve-2026-109618
+### CVE-2026-123039 exploitation activity
+- Anchor signal: CVE-2026-123039
+- Theme key: cve-2026-123039
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.4
-- Shared strong signals: CVE-2026-109618
+- Shared strong signals: CVE-2026-123039
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -879,8 +879,8 @@ CVE-2026-119618 Apache HTTP Server mod_http2 Race Condition Remote Code Executio
 - Published: 2026-11-09T14:56:32+00:00
 - Link: https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild
 - Fetch status: ok
-- Member count: 6
-- Corroborating source count: 5
+- Member count: 5
+- Corroborating source count: 4
 - Strong signals: AWS
 
 #### Cluster taxonomy (union across members)
@@ -909,18 +909,13 @@ A threat actor used IAM credentials from Qubole's AWS account to assume integrat
 Third-party integrations are one of the most common ways organizations grant outside parties access to their cloud environments. Working with Sentra and Mandiant , Wiz observed a threat actor using IAM credentials from an AWS account associated with Qubole between October 14 and October 26, 2026. The actor used these credentials to assume IAM roles that customers had created to trust Qubole's account. Once inside multiple victim AWS environments, the threat actor enumerated resources, collected configuration and secrets, accessed S3 data, and validated additional credentials it discovered along the way. Sentra identified suspicious activity across several of their customer environments , recognized it as a broad supply chain attack, and shared the information with Wiz, prompting this investigation. This post describes what Wiz observed, how defenders can hunt for it, and how to reduce exposure from third-party cross-account trust relationships. Wiz customers can refer to our Threat Intel Center advisory for this activity. Background: How Cross-Account Vendor Access Works Many SaaS platforms that operate inside a customer's AWS account, including data processing platforms like Qubole, use cross-account IAM roles. During onboarding, the customer creates a role in their own account with a trust policy that allows the vendor's AWS account to assume it, typically gated by an External ID: { "Effect": "Allow", "Principal": { "AWS": "arn:aws:iam::<vendor-account-id>:root" }, "Action": "sts:AssumeRole", "Condition": { "StringEquals": { "sts:ExternalId": "<external-id>" } } } When the vendor needs to act in the customer's environment, an identity in the vendor's account calls sts:AssumeRole with the role ARN and External ID, and receives temporary credentials scoped to the customer's role. What We Observed Initial Access: Role Assumption from the Vendor Account The first activity Wiz CIRT observed occurred on October 14, when an IP address belonging to Mullvad VPN ( 45.83.220[.]211 ) called AssumeRole against integration roles in customer environments. The calls originated from AWS account 805246085872 , which we observe Qubole's platform using to assume roles in customer environments, and used the IAM user AIDA3W7DIFLYOLTK63SFS . Across the affected environments, Wiz CIRT has not observed this IAM user in any activity other than that associated with this threat actor. From October 15, most of the activity came from a VPS hosted by OVH ( 57.129.54[.]120 ). On October 18, the threat actor began using a second IAM user from the same account, AIDAJYRRH5Y3A7AAJM2HW , which also carries legitimate Qubole platform traffic from AWS infrastructure. The same day, a second Mullvad address ( 185.209.199[.]73 ) assumed integration roles across multiple victim environments in quick succession. Every AssumeRole request we attributed to the threat actor included an External ID, and every one succeeded. Most of the roles the threat actor assumed were not otherwise in use. In a majority of the environments Wiz CIRT observed, the threat actor's requests were the only AssumeRole activity from the vendor account in October. The trust policies were still in place, so the requests succeeded. Discovery The threat actor used role session names that followed a consistent format of the prefix quiam- , followed by a suffix describing the actions taken. This includes session names such as quiam-enum and quiam-scope-full . Once inside an environment, the threat actor enumerated broadly across services. Including: Storage and data: ListBuckets , ListObjects , GetDatabases , ListTables , DescribeClusters Compute: DescribeInstances , DescribeImages , DescribeSecurityGroups , DescribeVpcs Databases: DescribeDBInstances , DescribeDBSnapshots Identity and keys: ListRoles , ListKeys , ListAliases , DescribeKey , GetKeyPolicy Credential Harvesting and Secret Validation The threat actor targeted common places where credentials are stored in AWS: Lambda: the threat actor lis
 ```
 
-#### Corroborating sources (5)
+#### Corroborating sources (4)
 
 - **Wiz Research** (cloud_identity_infrastructure)
   - Title: Trusted by Default: Qubole Cross-Account Access Abused in the Wild
   - Published: 2026-11-09T14:56:32+00:00
   - Link: https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild
   - Summary: A threat actor used IAM credentials from Qubole's AWS account to assume integration roles in customer AWS environments. Here's what we observed and how to hunt for it.
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - Title: On the hunt for ARTEX: understanding agentic attacks in AWS environments
-  - Published: 2026-11-09T00:00:00+00:00
-  - Link: https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/
-  - Summary: We share in-the-wild activity from ARTEX, an AI-native penetration framework, against AWS environments, including CloudWatch log hunting with compromised access keys and abuse of public Cognito user pools.
 - **Elastic Security Labs** (detection_response_operations)
   - Title: 56 AWS API calls in 141 milliseconds: Inside an AI-run intrusion
   - Published: 2026-11-13T15:27:20+00:00
@@ -1612,54 +1607,6 @@ Share Link copied to clipboard! Tags Frontier AI models Linux Threats intelligen
   - Link: https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html
   - Summary: A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right there. Attackers are using fake websites, stolen access, and trusted tools to get into places they shouldn't be. AI is helping them build attacks faster, while
 
-### Cluster 269bffa279 — score 16
-
-- Title: GhostFrame: A new ESXi Implant Linked to Settra Ransomware
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-11-10T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/ghostframe-esxi-implant-settra-ransomware
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: VMware
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- affected_products: VMware
-- content_type: news_report
-- confidence_tier: tier_1_primary_research, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- affected_products: VMware
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-GhostFrame is a new post-exploitation framework targeting VMware ESXi environments, linked to TAG-218 and Settra ransomware.
-```
-
-#### Full body
-
-```
-GhostFrame: A New ESXi Implant Linked to Settra Ransomware Summary GhostFrame is a previously undocumented post-exploitation framework that gives threat actors extensive control over compromised VMware ESXi environments. Once an attacker gains root-level access to an ESXi host, GhostFrame provides a single interface to access virtual machines running on the hypervisor, harvest credentials, execute commands, and pivot deeper into victim networks. Insikt Group identified GhostFrame being used by TAG-218, a threat activity group whose operations overlap with Settra ransomware. GhostFrame is notable because it allows threat actors to operate from the virtualization layer, where a single compromised ESXi host can provide access to multiple virtual machines and the systems and data they contain. Insikt Group’s findings demonstrate how attackers can use compromised hypervisors as a centralized platform for post-exploitation activity, potentially expanding access across victim environments without compromising each virtual machine individually. The discovery highlights the importance of treating virtualization infrastructure as a high-value target and monitoring ESXi hosts for signs of unauthorized access and post-exploitation activity. A New ESXi Post-Exploitation Framework Insikt Group identified GhostFrame, a command-and-control (C2) and post-exploitation framework designed to operate on compromised VMware ESXi hypervisors. GhostFrame provides threat actors with a centralized interface to maintain access to ESXi hosts, execute commands, manage virtual machines (VMs), pivot through internal networks, and harvest credentials from Windows systems hosted on the hypervisor. One notable feature is GhostFrame’s ability to operate from the virtualization layer. A single ESXi host can support multiple VMs running critical services within an organization. GhostFrame allows operators with root privileges on the hypervisor to interact with multiple hosted systems from a single point of access instead of requiring separate access to each guest system. Analysis of GhostFrame’s recovered frontend files revealed a web-based operator panel containing two primary sections: “Sessions” and “Builder.” The builder generates an ESXi implant, while the sessions interface allows operators to monitor connected systems and access the framework’s post-exploitation capabilities. Figure 1: Reconstruction of the GhostFrame C2 panel based on recovered frontend source code (Source: Recorded Future) Implant Deployment and Persistence GhostFrame includes an integrated builder that generates an ESXi implant named vmhostd-core . The interface provides operators with deployment instructions, including compiling the binary, manually disabling the ESXi firewall, and executing the implant from a datastore. Operators must already have root-level access to the ESXi host to deploy and execute the implant, as the implant does not exploit a vulnerability to gain access. Analysis of a recovered GhostFrame Executable and Linkable Format (ELF) sample revealed that the implant establishes persistence by copying itself to /opt/vmhostd-core and modifying the ESXi boot script /etc/rc.local.d/local.sh . The modified script executes the implant and repeatedly disables the ESXi firewall and the execInstalledOnly security control, which restricts the execution of unsigned binaries. These commands run approximately every five seconds, allowing the implant to disable the controls again if an administrator attempts to restore them. The implant also executes /sbin/auto-backup.sh to preserve the modified configuration across reboots. To blend into the ESXi environment, the implant appears as vmhostd , a name that resembles VMware’s legitimate vmware-hostd daemon, by modifying its process name and command-line representation. C2 Communications and Payload Execution GhostFrame’s implant uses a distinctive connection strategy to communicate with its C2 server. Rather than relying on a single des
-```
-
-#### Corroborating sources (2)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: GhostFrame: A new ESXi Implant Linked to Settra Ransomware
-  - Published: 2026-11-10T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/ghostframe-esxi-implant-settra-ransomware
-  - Summary: GhostFrame is a new post-exploitation framework targeting VMware ESXi environments, linked to TAG-218 and Settra ransomware.
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper
-  - Published: 2026-11-13T16:21:43+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/
-  - Summary: Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]
-
 ### Cluster 5d95fceb7e — score 16
 
 - Title: Transcending the trust boundaries: how a cloud pentest works
@@ -1754,6 +1701,54 @@ Content menu Close Subscribe Threat Response Table of Contents The quarter in fi
   - Link: https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai
   - Summary: The Android malware has expanded from focusing on crypto theft to full device control, and the attackers have added advanced analysis of stolen information.
 
+### Cluster 269bffa279 — score 16
+
+- Title: GhostFrame: A new ESXi Implant Linked to Settra Ransomware
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-11-10T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/ghostframe-esxi-implant-settra-ransomware
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: VMware
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- affected_products: VMware
+- content_type: news_report
+- confidence_tier: tier_1_primary_research, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- affected_products: VMware
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+GhostFrame is a new post-exploitation framework targeting VMware ESXi environments, linked to TAG-218 and Settra ransomware.
+```
+
+#### Full body
+
+```
+GhostFrame: A New ESXi Implant Linked to Settra Ransomware Summary GhostFrame is a previously undocumented post-exploitation framework that gives threat actors extensive control over compromised VMware ESXi environments. Once an attacker gains root-level access to an ESXi host, GhostFrame provides a single interface to access virtual machines running on the hypervisor, harvest credentials, execute commands, and pivot deeper into victim networks. Insikt Group identified GhostFrame being used by TAG-218, a threat activity group whose operations overlap with Settra ransomware. GhostFrame is notable because it allows threat actors to operate from the virtualization layer, where a single compromised ESXi host can provide access to multiple virtual machines and the systems and data they contain. Insikt Group’s findings demonstrate how attackers can use compromised hypervisors as a centralized platform for post-exploitation activity, potentially expanding access across victim environments without compromising each virtual machine individually. The discovery highlights the importance of treating virtualization infrastructure as a high-value target and monitoring ESXi hosts for signs of unauthorized access and post-exploitation activity. A New ESXi Post-Exploitation Framework Insikt Group identified GhostFrame, a command-and-control (C2) and post-exploitation framework designed to operate on compromised VMware ESXi hypervisors. GhostFrame provides threat actors with a centralized interface to maintain access to ESXi hosts, execute commands, manage virtual machines (VMs), pivot through internal networks, and harvest credentials from Windows systems hosted on the hypervisor. One notable feature is GhostFrame’s ability to operate from the virtualization layer. A single ESXi host can support multiple VMs running critical services within an organization. GhostFrame allows operators with root privileges on the hypervisor to interact with multiple hosted systems from a single point of access instead of requiring separate access to each guest system. Analysis of GhostFrame’s recovered frontend files revealed a web-based operator panel containing two primary sections: “Sessions” and “Builder.” The builder generates an ESXi implant, while the sessions interface allows operators to monitor connected systems and access the framework’s post-exploitation capabilities. Figure 1: Reconstruction of the GhostFrame C2 panel based on recovered frontend source code (Source: Recorded Future) Implant Deployment and Persistence GhostFrame includes an integrated builder that generates an ESXi implant named vmhostd-core . The interface provides operators with deployment instructions, including compiling the binary, manually disabling the ESXi firewall, and executing the implant from a datastore. Operators must already have root-level access to the ESXi host to deploy and execute the implant, as the implant does not exploit a vulnerability to gain access. Analysis of a recovered GhostFrame Executable and Linkable Format (ELF) sample revealed that the implant establishes persistence by copying itself to /opt/vmhostd-core and modifying the ESXi boot script /etc/rc.local.d/local.sh . The modified script executes the implant and repeatedly disables the ESXi firewall and the execInstalledOnly security control, which restricts the execution of unsigned binaries. These commands run approximately every five seconds, allowing the implant to disable the controls again if an administrator attempts to restore them. The implant also executes /sbin/auto-backup.sh to preserve the modified configuration across reboots. To blend into the ESXi environment, the implant appears as vmhostd , a name that resembles VMware’s legitimate vmware-hostd daemon, by modifying its process name and command-line representation. C2 Communications and Payload Execution GhostFrame’s implant uses a distinctive connection strategy to communicate with its C2 server. Rather than relying on a single des
+```
+
+#### Corroborating sources (2)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: GhostFrame: A new ESXi Implant Linked to Settra Ransomware
+  - Published: 2026-11-10T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/ghostframe-esxi-implant-settra-ransomware
+  - Summary: GhostFrame is a new post-exploitation framework targeting VMware ESXi environments, linked to TAG-218 and Settra ransomware.
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper
+  - Published: 2026-11-13T16:21:43+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/
+  - Summary: Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]
+
 ### Cluster 7d41d4d72e — score 16
 
 - Title: Git security vulnerabilities announced
@@ -1761,12 +1756,13 @@ Content menu Close Subscribe Threat Response Table of Contents The quarter in fi
 - Published: 2026-11-10T18:00:00+00:00
 - Link: https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/
 - Fetch status: ok
-- Member count: 5
-- Corroborating source count: 5
+- Member count: 6
+- Corroborating source count: 6
 - Strong signals: GitHub
 
 #### Cluster taxonomy (union across members)
 - threat_categories: ddos, supply_chain
+- affected_industries: critical_infrastructure
 - affected_products: GitHub
 - cve_ids: CVE-2026-105437, CVE-2026-111760, CVE-2026-113408, CVE-2026-114467, CVE-2026-114469
 - content_type: news_report
@@ -1791,13 +1787,18 @@ Git is releasing updates addressing six security vulnerabilities affecting recur
 Elijah Newren · @newren November 10, 2026 | 5 minutes Share: Today, the Git project is releasing new versions to address six security vulnerabilities. These include arbitrary code execution when recursively cloning a malicious repository, writes to unintended files, and memory corruption when processing merges or binary patches. The fixes are included in Git 2.56.1 , with backports to Git 2.55.1, 2.54.1, 2.53.1, 2.52.1, 2.51.3, and 2.50.2. We recommend updating to Git 2.56.1 or the patched release for your maintenance series, and updating any applications that bundle Git. Vulnerabilities in Git CVE-2026-111760: Code execution during recursive clones Git checks paths before writing files into a working tree, including rejecting paths that would overwrite its own repository metadata. However, an integer truncation in Git’s index handling can cause an extremely long path to pass validation under one name and then be written using a shorter name. An attacker can use this discrepancy to replace a submodule’s .git file with a symbolic link pointing to a directory containing malicious configuration or hooks . When Git subsequently uses that directory, it can execute attacker-controlled code during a recursive clone. The fix rejects extremely long index entry paths before their lengths can be truncated. [ Advisory ] CVE-2026-113408: Path traversal through a server’s advertised HEAD When cloning an empty repository using Git protocol v2, the server can advertise a HEAD symref pointing to an unborn branch (one that has no commits yet). Git did not validate the symref’s target before storing it locally. A malicious server can supply a name containing path-traversal components. With the files reference backend, a later operation that updates the branch can write outside the intended reference directory. Git now validates the advertised target before accepting it. The release also validates other reference names and symbolic-reference targets received through protocol v2. [ Advisory ] CVE-2026-114467: Stack corruption when removing signatures When stripping GPG signatures from a message, Git assumed there would be at most two signatures. A specially crafted message containing more than two signatures can cause Git to write past the end of a fixed-size stack array. This can be triggered by merging a tag containing more than two signatures, causing memory corruption and a potential denial of service. Hosting services that perform these merges on behalf of users can also be affected. The fix removes the fixed-size array and handles messages with any number of signatures. [ Advisory ] CVE-2026-114469: Out-of-bounds reads when applying binary patches Git rejects patches larger than approximately 1 GiB because its patch application code cannot safely handle larger inputs. However, this check only considered the size of the patch as supplied. Binary patches are compressed and encoded, so a relatively small patch can expand beyond that limit. A crafted patch can bypass the input-size check and cause an out-of-bounds read, crashing Git. Git now also checks the declared uncompressed size before processing a binary patch. [ Advisory ] CVE-2026-105437: Heap corruption during large merges Git’s merge machinery calculates how much memory it needs for a merge result before writing the output. That calculation can overflow when the result is very large, including when many conflicts are combined with a large conflict-marker-size attribute. The overflow can cause Git to allocate a buffer that is too small, then write outside it, corrupting heap memory. This affects applications and hosting services that use Git to merge untrusted content, as well as local merges. The fix uses size-appropriate types and checked arithmetic, rejecting merges whose output size cannot be represented safely. [ Advisory ] CVE-2026-114466: Filesystem access through fast-import streams git fast-import reads a stream of commands to build a repository. Some commands can access files
 ```
 
-#### Corroborating sources (5)
+#### Corroborating sources (6)
 
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - Title: Git security vulnerabilities announced
   - Published: 2026-11-10T18:00:00+00:00
   - Link: https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/
   - Summary: Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: datasette 1.0a43
+  - Published: 2026-11-15T23:20:27+00:00
+  - Link: https://simonwillison.net/2026/Nov/15/datasette/
+  - Summary: Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and plugins can register themselves as capable of streaming every row in a table in one go via the new Response.stream() method. There are a couple of security fixes, one of which I deemed deserving of a GitHub advisory : private stored queries could be exposed, granting access to the title and SQL of the query (but not allowing that query to be executed). There are dozens of smaller improvements. The row page JSON representation finally has a design suitable for 1.0 . A new <datasette-copy-button> Web Component provides copy-schema in various places. JSON in columns on the row page can be pretty-printed. There's a new DatasetteModal.confirm() JavaScript utility method. Plus dozens of bug fixes, includ
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - Title: Don't just flag it, fix it: How to run CodeMender in your pull requests
   - Published: 2026-11-10T17:00:00+00:00
@@ -2125,6 +2126,47 @@ SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution �
   - Link: https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html
   - Summary: Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score. Three are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the Web Dispatcher, which receives web requests from the internet and passes them on to that server. The flaws in the Web
 
+### Cluster 7806aed11f — score 11
+
+- Title: Risky Bulletin: Cyberattack grounds German UAVs
+- Source: Risky Business News (practitioner_analysis)
+- Published: 2026-11-16T00:04:19+00:00
+- Link: https://risky.biz/RBNEWS634/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+Germany grounds UAVs after a supply chain attack, a threat actor accessed Barracuda’s cloud for two days, the US AI task force asks for regulatory leniency and the FBI disrupts a North Korean face-swapping operation.
+```
+
+#### Full body
+
+```
+Risky Bulletin Podcast November 16, 2026 Risky Bulletin: Cyberattack grounds German UAVs Presented by Catalin Cimpanu News Editor Claire Aird Newsreader Germany grounds UAVs after a supply chain attack, a threat actor accessed Barracudaâs cloud for two days, the US AI task force asks for regulatory leniency and the FBI disrupts a North Korean face-swapping operation. Your browser does not support the audio element. Risky Bulletin: Cyberattack grounds German UAVs â¶ 0:00 / 8:42 Subscribe Brought to you by Thinkst Know. When it Matters! Show notes Risky Bulletin: Hackers accessed Barracuda's cloud
+```
+
+#### Corroborating sources (1)
+
+- **Risky Business News** (practitioner_analysis)
+  - Title: Risky Bulletin: Cyberattack grounds German UAVs
+  - Published: 2026-11-16T00:04:19+00:00
+  - Link: https://risky.biz/RBNEWS634/
+  - Summary: Germany grounds UAVs after a supply chain attack, a threat actor accessed Barracuda’s cloud for two days, the US AI task force asks for regulatory leniency and the FBI disrupts a North Korean face-swapping operation.
+
 ### Cluster 06bffa03c1 — score 11
 
 - Title: PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE
@@ -2392,45 +2434,6 @@ Share Link copied to clipboard! Threats intelligence AI threats Content types Re
   - Link: https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/
   - Summary: Microsoft Research has released new threat research detailing how a capable agent model could be turned into a sleeper agent by editing fewer than ten neurons to inject a short payload; Microsoft Research has also found that this threat is detectable by frontier agents, which can identify anomalous weight edits. The post Detecting sleeper agents hiding in AI model neurons appeared first on Microsoft Security Blog .
 
-### Cluster b999342a06 — score 10
-
-- Title: Five Findings From the 2027 State of Threat Intelligence
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-11-12T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/state-of-threat-intelligence-2027
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-What 768 security professionals told us about consolidation, ROI, and AI. Get five takeaways from the 2027 State of Threat Intelligence.
-```
-
-#### Full body
-
-```
-Five Findings From the 2027 State of Threat Intelligence Worth Noting for the Year Ahead The much anticipated State of Threat Intelligence report has just been published. The State of Threat Intelligence report is based on a survey Recorded Future conducted with UserEvidence of 768 cybersecurity professionals at enterprises with at least 1,000 employees. It’s the latest edition in our annual report series, where we gauge how threat intelligence is currently being used, funded, and measured. When I first saw the results of this year’s survey, a few findings stood out to me as especially relevant for anyone who runs, funds, or relies on a threat intelligence program and is planning for the year ahead. Here are my top five findings and why. 1. Cost is the least common reason to consolidate A strong majority of respondents (79%) said they plan to consolidate threat intelligence vendors in the next year. That alone is no huge surprise, especially given that respondents reported using an average of five different vendors. Cost would be a reasonable guess for why, but reducing costs actually ranked last of five drivers, at 5%. The drivers that ranked higher point to what teams want from consolidation: Improving correlation across signals (34%) : connecting intelligence across threat domains and internal telemetry into one view of risk. Bringing siloed tools together (29%) : ensuring different risk owners can efficiently act on intelligence. Simplifying operations (22%) : fewer interfaces and handoffs so teams can act on intelligence sooner. Reducing vendor-management overhead (9%) : fewer vendors to evaluate and renew. Overall investment is still rising: 83% plan to increase threat intelligence spending in the next 12 months. Teams are consolidating to get better results from their intelligence, not to cut spend. That puts the focus on outcomes. Jason Steer, CISO at Recorded Future, framed the risk well: consolidation only counts “if that provider has the same or better outcomes.” For anyone evaluating vendors this year, that’s the bar to consider. Especially as teams expand the reach of their threat intelligence programs and support more stakeholders across the enterprise, they’re pursuing vendors that provide coverage across the risk domains that matter for those teams, but equally important that friction is not created in that pursuit of breadth, and that the organization is able to see how threats across disparate domains actually connect. 2. Only 25% have external intelligence and internal telemetry in one place Correlation is the top consolidation driver, yet only a quarter of respondents say external intelligence and internal telemetry reside in one place. The rest break down as follows: 52% are partially integrated across some tools. 18% rely on manual correlation by analysts. 5% keep the two in separate workflows. Poor integration with existing tools and workflows was also the most-cited pain point with current vendors. This doesn’t mean every team needs to move everything into a single tool. What often matters is whether external intelligence can be correlated with internal signals across the tools a team already uses, without an analyst doing it by hand. Collective Insights® is built for this: it pulls detections from a team’s existing security tools and enriches them with Recorded Future intelligence. For the 70% who are partially integrated or correlating manually, it’s worth identifying where that manual handoff still happens. 3. Confidence in ROI is high, but few measure cost savings Nearly every respondent (99%) formally measures the value of their threat intelligence program, and 57% say they are very confident in their ability to quantify its ROI. But when asked how they measure value, more than half (58%) of that very confident group did not include cost savings. Across all respondents, 39% measure cost savings, and 31% measure whether triggered actions actually worked. The most common metrics are operational: Enha
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Five Findings From the 2027 State of Threat Intelligence
-  - Published: 2026-11-12T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/state-of-threat-intelligence-2027
-  - Summary: What 768 security professionals told us about consolidation, ROI, and AI. Get five takeaways from the 2027 State of Threat Intelligence.
-
 ### Cluster be0ba4d322 — score 10
 
 - Title: 9th November – Threat Intelligence Report
@@ -2649,6 +2652,45 @@ ARTEX and beyond: AI-enabled penetration testing platforms By Cisco Talos Friday
   - Published: 2026-11-13T20:57:13+00:00
   - Link: https://blog.talosintelligence.com/artex-and-beyond/
   - Summary: AI-enabled penetration testing and red team frameworks can automate and chain reconnaissance, vulnerability testing, and follow-on actions, lowering the skill threshold for attackers and accelerating intrusions when the tools are misused.
+
+### Cluster b999342a06 — score 10
+
+- Title: Five Findings From the 2027 State of Threat Intelligence
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-11-12T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/state-of-threat-intelligence-2027
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+What 768 security professionals told us about consolidation, ROI, and AI. Get five takeaways from the 2027 State of Threat Intelligence.
+```
+
+#### Full body
+
+```
+Five Findings From the 2027 State of Threat Intelligence Worth Noting for the Year Ahead The much anticipated State of Threat Intelligence report has just been published. The State of Threat Intelligence report is based on a survey Recorded Future conducted with UserEvidence of 768 cybersecurity professionals at enterprises with at least 1,000 employees. It’s the latest edition in our annual report series, where we gauge how threat intelligence is currently being used, funded, and measured. When I first saw the results of this year’s survey, a few findings stood out to me as especially relevant for anyone who runs, funds, or relies on a threat intelligence program and is planning for the year ahead. Here are my top five findings and why. 1. Cost is the least common reason to consolidate A strong majority of respondents (79%) said they plan to consolidate threat intelligence vendors in the next year. That alone is no huge surprise, especially given that respondents reported using an average of five different vendors. Cost would be a reasonable guess for why, but reducing costs actually ranked last of five drivers, at 5%. The drivers that ranked higher point to what teams want from consolidation: Improving correlation across signals (34%) : connecting intelligence across threat domains and internal telemetry into one view of risk. Bringing siloed tools together (29%) : ensuring different risk owners can efficiently act on intelligence. Simplifying operations (22%) : fewer interfaces and handoffs so teams can act on intelligence sooner. Reducing vendor-management overhead (9%) : fewer vendors to evaluate and renew. Overall investment is still rising: 83% plan to increase threat intelligence spending in the next 12 months. Teams are consolidating to get better results from their intelligence, not to cut spend. That puts the focus on outcomes. Jason Steer, CISO at Recorded Future, framed the risk well: consolidation only counts “if that provider has the same or better outcomes.” For anyone evaluating vendors this year, that’s the bar to consider. Especially as teams expand the reach of their threat intelligence programs and support more stakeholders across the enterprise, they’re pursuing vendors that provide coverage across the risk domains that matter for those teams, but equally important that friction is not created in that pursuit of breadth, and that the organization is able to see how threats across disparate domains actually connect. 2. Only 25% have external intelligence and internal telemetry in one place Correlation is the top consolidation driver, yet only a quarter of respondents say external intelligence and internal telemetry reside in one place. The rest break down as follows: 52% are partially integrated across some tools. 18% rely on manual correlation by analysts. 5% keep the two in separate workflows. Poor integration with existing tools and workflows was also the most-cited pain point with current vendors. This doesn’t mean every team needs to move everything into a single tool. What often matters is whether external intelligence can be correlated with internal signals across the tools a team already uses, without an analyst doing it by hand. Collective Insights® is built for this: it pulls detections from a team’s existing security tools and enriches them with Recorded Future intelligence. For the 70% who are partially integrated or correlating manually, it’s worth identifying where that manual handoff still happens. 3. Confidence in ROI is high, but few measure cost savings Nearly every respondent (99%) formally measures the value of their threat intelligence program, and 57% say they are very confident in their ability to quantify its ROI. But when asked how they measure value, more than half (58%) of that very confident group did not include cost savings. Across all respondents, 39% measure cost savings, and 31% measure whether triggered actions actually worked. The most common metrics are operational: Enha
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Five Findings From the 2027 State of Threat Intelligence
+  - Published: 2026-11-12T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/state-of-threat-intelligence-2027
+  - Summary: What 768 security professionals told us about consolidation, ROI, and AI. Get five takeaways from the 2027 State of Threat Intelligence.
 
 ### Cluster 7a32cbbdae — score 10
 
@@ -3064,58 +3106,6 @@ Malicious ScreenConnect deployments observed Written by Sophos X-Ops Threat Rese
   - Link: https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/
   - Summary: A new worm-like malware toolkit named SCKit was deployed in the recent ScreenConnect attacks targeting managed service providers (MSPs), designed to spread from infected customer devices to MSP technicians' computers and compromise additional managed networks. [...]
 
-### Cluster 86aa6f9a58 — score 10
-
-- Title: Powering agentic cloud governance: What's new in Organization Policy
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-11-12T17:00:00+00:00
-- Link: https://cloud.google.com/blog/products/identity-security/ai-powered-cloud-governance-whats-new-in-organization-policy/
-- Fetch status: ok
-- Member count: 4
-- Corroborating source count: 2
-- Strong signals: Google Cloud
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- affected_industries: government
-- affected_products: Anthropic/Claude, Google Cloud, Google/Gemini
-- urgency_signals: zero_day
-- content_type: incident_report, news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- affected_industries: government
-- affected_products: Google Cloud, Google/Gemini
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Even as sophisticated, new zero-day exploits continue to emerge, most cybersecurity incidents still start from the same common sources: an attacker locating and exploiting a fundamental, easily preventable cloud misconfiguration. Organization Policy Service can help you secure resource configurations and set up security guardrails across your Google Cloud resource hierarchy. Using a catalog of over 100 predefined policies for many common cloud governance needs, as well as Custom Organization Policy , you can more easily set up boundaries with granular control over resources. To help platform and security teams author, audit, and scale guardrails with greater speed and simplicity, we are introducing the general availability of our Organization Policy Model Context Protocol (MCP) server and natural-language constraint authoring powered by Gemini. Managing Organization Policy with agents Rather than forcing administrators to manually parse complex hierarchy chains, the Organization Policy
-```
-
-#### Full body
-
-```
-Security & Identity Powering agentic cloud governance: What's new in Organization Policy November 12, 2026 Bharath Sivaraman Senior Product Manager Try Gemini today The front door to AI in the workplace Try now Even as sophisticated, new zero-day exploits continue to emerge, most cybersecurity incidents still start from the same common sources: an attacker locating and exploiting a fundamental, easily preventable cloud misconfiguration. Organization Policy Service can help you secure resource configurations and set up security guardrails across your Google Cloud resource hierarchy. Using a catalog of over 100 predefined policies for many common cloud governance needs, as well as Custom Organization Policy , you can more easily set up boundaries with granular control over resources. To help platform and security teams author, audit, and scale guardrails with greater speed and simplicity, we are introducing the general availability of our Organization Policy Model Context Protocol (MCP) server and natural-language constraint authoring powered by Gemini. Managing Organization Policy with agents Rather than forcing administrators to manually parse complex hierarchy chains, the Organization Policy MCP server offers tools that allow autonomous agents and pipelines to interact directly with Organization Policy. Using the Organization Policy MCP server, agents can assist administrators with posture audits, drift detection, and exemption management. Key capabilities include: Constraint discovery : Tools like ' ListConstraints ' and ' GetCustomConstraint ' allow agents to understand the specific guardrails that apply to a project, folder, or organization. Policy evaluation : The ' GetEffectivePolicy ' tool calculates the effective policy after considering hierarchy inheritance and tag-based conditions. You can use this to verify if a configuration change will be compliant. Manage policy : ' CreatePolicy ' and ' CreateCustomConstraint ' allow platform teams to manage guardrails via conversational workflows. For example, you can combine your preferred coding agent with the Organization Policy MCP tools to create a custom dashboard to visualize the constraints applied to an organization and identify the folders and projects in the organization that have been exempted from the policy. You can also build custom agents and skills to streamline managing Organization Policy. Figure 1: Custom dashboard created with Organization Policy MCP tools displaying enforced constraints Figure 2: Visualize enforced constraints and identify exemptions with Organization Policy MCP tools. Simplifying custom constraint authoring with Gemini While the Organization Policy constraint catalog provides built-in managed constraints for common use cases, each organization has its own unique architectural standards. Custom Organization Policy enables customers to express these standards as a custom constraint and enforce them across supported services. Traditionally, administrators would write these rules in common expression language (CEL), which required a sharp understanding of Google Cloud resource schemas. Today, administrators can author custom Organization Policy in natural language through a Gemini prompt. For example, you can prompt Gemini to require the use of agent-identity in Agent Runtime , to require that all agents deployed to Agent Runtime use an approved Agent Gateway, and to prevent users from disabling auto-upgrades on GKE, and refine custom constraints conversationally. To help ensure safe deployments, Gemini can also generate compliant and non-compliant test resource configurations that can help you test policy and validate in dry-run mode before enforcing the constraint. Figure 3: Define custom constraints with a natural language prompt using Gemini For targeted examples, the sample custom constraints library from Google Cloud Professional Services features pre-authored custom constraint samples based on CIS and PCI standards. Custom constraints
-```
-
-#### Corroborating sources (2)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Powering agentic cloud governance: What's new in Organization Policy
-  - Published: 2026-11-12T17:00:00+00:00
-  - Link: https://cloud.google.com/blog/products/identity-security/ai-powered-cloud-governance-whats-new-in-organization-policy/
-  - Summary: Even as sophisticated, new zero-day exploits continue to emerge, most cybersecurity incidents still start from the same common sources: an attacker locating and exploiting a fundamental, easily preventable cloud misconfiguration. Organization Policy Service can help you secure resource configurations and set up security guardrails across your Google Cloud resource hierarchy. Using a catalog of over 100 predefined policies for many common cloud governance needs, as well as Custom Organization Policy , you can more easily set up boundaries with granular control over resources. To help platform and security teams author, audit, and scale guardrails with greater speed and simplicity, we are introducing the general availability of our Organization Policy Model Context Protocol (MCP) server and natural-language constraint authoring powered by Gemini. Managing Organization Policy with agents Rather than forcing administrators to manually parse complex hierarchy chains, the Organization Policy
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs
-  - Published: 2026-11-12T12:09:14+00:00
-  - Link: https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html
-  - Summary: Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week. The company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker with code on the same processor core infer data from other processes or the kernel. The affected
-
 ### Cluster 3ae49c8fba — score 10
 
 - Title: In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach
@@ -3172,6 +3162,58 @@ SecurityWeek’s weekly cybersecurity news roundup offers a concise overview of 
   - Published: 2026-11-13T20:51:22+00:00
   - Link: https://www.justsecurity.org/164494/nonprofits-lawsuit-freeze-frontier-ai-development/?utm_source=rss&utm_medium=rss&utm_campaign=nonprofits-lawsuit-freeze-frontier-ai-development
   - Summary: Four nonprofits sue Anthropic, Google, Meta, OpenAI, and SpaceXSI seeking to freeze frontier AI development over cyberattack and catastrophic risks. The post Just the Docs: Nonprofits Sue Five Frontier AI Companies to Freeze Development, Citing Cyberattack and Catastrophic Risks appeared first on Just Security .
+
+### Cluster 86aa6f9a58 — score 10
+
+- Title: Powering agentic cloud governance: What's new in Organization Policy
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-11-12T17:00:00+00:00
+- Link: https://cloud.google.com/blog/products/identity-security/ai-powered-cloud-governance-whats-new-in-organization-policy/
+- Fetch status: ok
+- Member count: 4
+- Corroborating source count: 2
+- Strong signals: Google Cloud
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- affected_industries: government
+- affected_products: Anthropic/Claude, Google Cloud, Google/Gemini
+- urgency_signals: zero_day
+- content_type: incident_report, news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- affected_industries: government
+- affected_products: Google Cloud, Google/Gemini
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Even as sophisticated, new zero-day exploits continue to emerge, most cybersecurity incidents still start from the same common sources: an attacker locating and exploiting a fundamental, easily preventable cloud misconfiguration. Organization Policy Service can help you secure resource configurations and set up security guardrails across your Google Cloud resource hierarchy. Using a catalog of over 100 predefined policies for many common cloud governance needs, as well as Custom Organization Policy , you can more easily set up boundaries with granular control over resources. To help platform and security teams author, audit, and scale guardrails with greater speed and simplicity, we are introducing the general availability of our Organization Policy Model Context Protocol (MCP) server and natural-language constraint authoring powered by Gemini. Managing Organization Policy with agents Rather than forcing administrators to manually parse complex hierarchy chains, the Organization Policy
+```
+
+#### Full body
+
+```
+Security & Identity Powering agentic cloud governance: What's new in Organization Policy November 12, 2026 Bharath Sivaraman Senior Product Manager Try Gemini today The front door to AI in the workplace Try now Even as sophisticated, new zero-day exploits continue to emerge, most cybersecurity incidents still start from the same common sources: an attacker locating and exploiting a fundamental, easily preventable cloud misconfiguration. Organization Policy Service can help you secure resource configurations and set up security guardrails across your Google Cloud resource hierarchy. Using a catalog of over 100 predefined policies for many common cloud governance needs, as well as Custom Organization Policy , you can more easily set up boundaries with granular control over resources. To help platform and security teams author, audit, and scale guardrails with greater speed and simplicity, we are introducing the general availability of our Organization Policy Model Context Protocol (MCP) server and natural-language constraint authoring powered by Gemini. Managing Organization Policy with agents Rather than forcing administrators to manually parse complex hierarchy chains, the Organization Policy MCP server offers tools that allow autonomous agents and pipelines to interact directly with Organization Policy. Using the Organization Policy MCP server, agents can assist administrators with posture audits, drift detection, and exemption management. Key capabilities include: Constraint discovery : Tools like ' ListConstraints ' and ' GetCustomConstraint ' allow agents to understand the specific guardrails that apply to a project, folder, or organization. Policy evaluation : The ' GetEffectivePolicy ' tool calculates the effective policy after considering hierarchy inheritance and tag-based conditions. You can use this to verify if a configuration change will be compliant. Manage policy : ' CreatePolicy ' and ' CreateCustomConstraint ' allow platform teams to manage guardrails via conversational workflows. For example, you can combine your preferred coding agent with the Organization Policy MCP tools to create a custom dashboard to visualize the constraints applied to an organization and identify the folders and projects in the organization that have been exempted from the policy. You can also build custom agents and skills to streamline managing Organization Policy. Figure 1: Custom dashboard created with Organization Policy MCP tools displaying enforced constraints Figure 2: Visualize enforced constraints and identify exemptions with Organization Policy MCP tools. Simplifying custom constraint authoring with Gemini While the Organization Policy constraint catalog provides built-in managed constraints for common use cases, each organization has its own unique architectural standards. Custom Organization Policy enables customers to express these standards as a custom constraint and enforce them across supported services. Traditionally, administrators would write these rules in common expression language (CEL), which required a sharp understanding of Google Cloud resource schemas. Today, administrators can author custom Organization Policy in natural language through a Gemini prompt. For example, you can prompt Gemini to require the use of agent-identity in Agent Runtime , to require that all agents deployed to Agent Runtime use an approved Agent Gateway, and to prevent users from disabling auto-upgrades on GKE, and refine custom constraints conversationally. To help ensure safe deployments, Gemini can also generate compliant and non-compliant test resource configurations that can help you test policy and validate in dry-run mode before enforcing the constraint. Figure 3: Define custom constraints with a natural language prompt using Gemini For targeted examples, the sample custom constraints library from Google Cloud Professional Services features pre-authored custom constraint samples based on CIS and PCI standards. Custom constraints
+```
+
+#### Corroborating sources (2)
+
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Powering agentic cloud governance: What's new in Organization Policy
+  - Published: 2026-11-12T17:00:00+00:00
+  - Link: https://cloud.google.com/blog/products/identity-security/ai-powered-cloud-governance-whats-new-in-organization-policy/
+  - Summary: Even as sophisticated, new zero-day exploits continue to emerge, most cybersecurity incidents still start from the same common sources: an attacker locating and exploiting a fundamental, easily preventable cloud misconfiguration. Organization Policy Service can help you secure resource configurations and set up security guardrails across your Google Cloud resource hierarchy. Using a catalog of over 100 predefined policies for many common cloud governance needs, as well as Custom Organization Policy , you can more easily set up boundaries with granular control over resources. To help platform and security teams author, audit, and scale guardrails with greater speed and simplicity, we are introducing the general availability of our Organization Policy Model Context Protocol (MCP) server and natural-language constraint authoring powered by Gemini. Managing Organization Policy with agents Rather than forcing administrators to manually parse complex hierarchy chains, the Organization Policy
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs
+  - Published: 2026-11-12T12:09:14+00:00
+  - Link: https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html
+  - Summary: Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week. The company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker with code on the same processor core infer data from other processes or the kernel. The affected
 
 ### Cluster 8612af1425 — score 9
 
@@ -3273,7 +3315,7 @@ The FBI is warning that hackers are using an AI-powered penetration testing fram
 #### Full body
 
 ```
-FBI warns ARTEX AI hacking tool is powering global cyberattacks By Lawrence Abrams November 15, 2026 01:29 PM 0 The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments. In a FLASH advisory released Friday, the agency said multiple threat actors have weaponized the open-source framework since at least August 2026 to target organizations across the financial, government, technology, defense, healthcare, and other sectors. "ARTEX significantly reduces the time required to chain attack techniques, with some intrusions progressing from initial targeting to privileged access in under three hours," reads the FBI advisory. "The framework enables threat actors with minimal technical expertise to conduct complex, multi-target operations simultaneously, fundamentally accelerating attack velocity and expanding operational scale." ARTEX is an autonomous penetration testing framework written in Go that uses artificial intelligence agents to perform reconnaissance, discover vulnerabilities, exploit systems, escalate privileges, and steal data with little human intervention. Rather than using its own AI model, the framework integrates with external large language models (LLMs), including Anthropic Claude, OpenAI GPT, DeepSeek, GLM, Grok, and Kimi. Attackers provide their goals and tasks to ARTEX, which converts them into commands executed by specialized AI agents. This allows them to automate intrusion activities and target multiple organizations simultaneously. The FBI says the framework is particularly effective at identifying vulnerabilities in overlooked systems, including partner portals, employee applications, legacy services, and third-party integrations. While these automated attacks can generate large volumes of suspicious traffic that trigger security alerts, their speed can leave defenders with little time to respond before attackers breach a system. ARTEX was originally released on GitHub in July 2026 by a developer known as Autumn-27, who removed the repository on October 8 after reports emerged that threat actors were abusing the framework. However, the FBI says the framework remains available through community forks, archived copies, localized versions, and a commercial edition called ARTEX PRO. As of early November, researchers had identified more than 1,600 publicly exposed ARTEX consoles, with the actual number of deployments believed to be significantly higher. The FBI's 13-page advisory includes indicators of compromise associated with known ARTEX campaigns, including IP addresses, command-and-control infrastructure, and suspicious network activity. Separately, cybersecurity researcher MalwareMustDie released an open-source ARTEX detection signature pack on Friday to help defenders identify attacks involving the framework. The detection pack includes rules and indicators for various security monitoring and threat detection tools, covering suspicious network requests, identity abuse, cloud activity, malicious files, and automated attack patterns. The researcher also published a detection playbook that categorizes indicators by confidence level, warning that IP addresses and other infrastructure indicators can become outdated or generate false positives. Organizations are urged to secure internet-facing applications, restrict access to cloud administration interfaces, review application permissions and authentication logs, and implement rate limits on sensitive APIs. The bureau also recommends monitoring for unusual bursts of automated requests, suspicious cloud activity, unexpected credential or privilege changes, and large data transfers. The FBI cautions that IP addresses listed in the IOCs may have changed since the attacks occurred. Organizations that identify suspicious activity associated with ARTEX are encouraged to
+FBI warns ARTEX AI hacking tool is powering global cyberattacks By Lawrence Abrams November 15, 2026 01:29 PM 1 The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments. In a FLASH advisory released Friday, the agency said multiple threat actors have weaponized the open-source framework since at least August 2026 to target organizations across the financial, government, technology, defense, healthcare, and other sectors. "ARTEX significantly reduces the time required to chain attack techniques, with some intrusions progressing from initial targeting to privileged access in under three hours," reads the FBI advisory. "The framework enables threat actors with minimal technical expertise to conduct complex, multi-target operations simultaneously, fundamentally accelerating attack velocity and expanding operational scale." ARTEX is an autonomous penetration testing framework written in Go that uses artificial intelligence agents to perform reconnaissance, discover vulnerabilities, exploit systems, escalate privileges, and steal data with little human intervention. Rather than using its own AI model, the framework integrates with external large language models (LLMs), including Anthropic Claude, OpenAI GPT, DeepSeek, GLM, Grok, and Kimi. Attackers provide their goals and tasks to ARTEX, which converts them into commands executed by specialized AI agents. This allows them to automate intrusion activities and target multiple organizations simultaneously. The FBI says the framework is particularly effective at identifying vulnerabilities in overlooked systems, including partner portals, employee applications, legacy services, and third-party integrations. While these automated attacks can generate large volumes of suspicious traffic that trigger security alerts, their speed can leave defenders with little time to respond before attackers breach a system. ARTEX was originally released on GitHub in July 2026 by a developer known as Autumn-27, who removed the repository on October 8 after reports emerged that threat actors were abusing the framework. However, the FBI says the framework remains available through community forks, archived copies, localized versions, and a commercial edition called ARTEX PRO. As of early November, researchers had identified more than 1,600 publicly exposed ARTEX consoles, with the actual number of deployments believed to be significantly higher. The FBI's 13-page advisory includes indicators of compromise associated with known ARTEX campaigns, including IP addresses, command-and-control infrastructure, and suspicious network activity. Separately, cybersecurity researcher MalwareMustDie released an open-source ARTEX detection signature pack on Friday to help defenders identify attacks involving the framework. The detection pack includes rules and indicators for various security monitoring and threat detection tools, covering suspicious network requests, identity abuse, cloud activity, malicious files, and automated attack patterns. The researcher also published a detection playbook that categorizes indicators by confidence level, warning that IP addresses and other infrastructure indicators can become outdated or generate false positives. Organizations are urged to secure internet-facing applications, restrict access to cloud administration interfaces, review application permissions and authentication logs, and implement rate limits on sensitive APIs. The bureau also recommends monitoring for unusual bursts of automated requests, suspicious cloud activity, unexpected credential or privilege changes, and large data transfers. The FBI cautions that IP addresses listed in the IOCs may have changed since the attacks occurred. Organizations that identify suspicious activity associated with ARTEX are encouraged to
 ```
 
 #### Corroborating sources (1)
@@ -3464,18 +3506,16 @@ Risky Bulletin Podcast November 13, 2026 Risky Bulletin: Chinese APT exploits SS
 - Source: Black Hills Information Security (detection_response_operations)
 - Published: 2026-11-11T21:57:25+00:00
 - Link: https://www.blackhillsinfosec.com/log-analysis-guide/
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3483,12 +3523,6 @@ Risky Bulletin Podcast November 13, 2026 Risky Bulletin: Chinese APT exploits SS
 
 ```
 Imagine you’re a detective, but your crime scene is made of timestamps, IP addresses, and login attempts instead of fingerprints and DNA. Log analysis is the art of reading digital breadcrumbs that attackers leave behind—every click, connection, and failed password gets recorded automatically. Here are some tips for learning how to survey and when to pull out the magnifying glass.
-```
-
-#### Full body
-
-```
-This article was originally published in the InfoSec Survival Guide: Blue Book — SOC Analysts. Read it free online HERE , or grab it on the Spearphish General Store (free digital download or a $1.25 physical copy, your call). Imagine you’re a detective, but your crime scene is made of timestamps, IP addresses, and login attempts instead of fingerprints and DNA. Log analysis is the art of reading digital breadcrumbs that attackers leave behind—every click, connection, and failed password gets recorded automatically. Here are some tips for learning how to survey and when to pull out the magnifying glass. Your job is to hunt through millions of entries to spot the one pattern that screams “intruder.” When ransomware strikes at 3 AM or data flows to unknown servers, logs tell you exactly how it happened and who is responsible. Master log analysis, and you become the person who spots the breach before it makes headlines. What Are Logs? Why Should You Care? Logs are digital diary entries that every device, application, and system writes automatically. Someone logged in? That’s a log. File downloaded? Log. Network connection made? Log. Logs are fingerprints left after every digital touchpoint, and they become clues and evidence when something goes wrong, answering your critical questions: Who? What? When? Where? You don’t need to understand every log, but you do need to learn how to spot patterns. Even experienced analysts don’t know everything; they just know how to look. Log Anatomy Most logs contain these core elements (though not every log will have all five): Timestamp (WHEN) — When did it happen? Always your starting point. Source (WHERE) — Which system generated the log? Examples: WORKSTATION-01, firewall-prod, 10.0.1.50 Event Type (WHAT) — What action was performed? Examples: login_success, file_deleted, connection_established User/Actor (WHO) — Who or what initiated the action? Could be a username, service account, or process name. Outcome (SUCCESS or FAILURE) — Did it succeed? (Failed attempts are often more interesting!) Simple Example: 2025-10-22 03:15:42 | SERVER-DB01 | Login_Failed | User: admin | Source IP: 192.168.1.100 Translation: At 3:15 AM, someone from IP 192.168.1.100 tried to log in as “admin” to SERVER-DB01 and failed. Best Practices Always Check the Time Determine if events are happening now or in the past, watch for suspicious timing patterns like middle-of-the-night activity, and remember that multiple events occurring close together usually signal something important. Look for Repetition One failed login could be a typo, but ten failed logins within two minutes means someone is guessing at passwords. Repetition equals patterns worth investigating. Know What’s Normal Context is everything. If your server admin logs in at 2 AM for maintenance, that’s normal. If a regular user suddenly downloads 50 GB when they typically transfer megabytes, investigate. Document typical behavior to spot deviations quickly. Filtering Strategy Begin broadly, then narrow your focus. Use search terms that specify usernames, IP addresses, or event types. Don’t analyze everything. Concentrate only on logs relevant to your investigation. Mistakes to Avoid Don’t examine logs in isolation or overlook timestamps. Document your searches so you can retrace steps. Most importantly, not every alert is an emergency. Distinguish between routine notifications and genuine threats to prevent burnout. Red Flags Every Analyst Should Recognize Failed Logins Followed by Success: Multiple failed attempts then success means someone guessed the password. After-Hours Activity: Admin accounts active at 3 AM, large weekend file transfers, or overnight account creations. Ask: Is this normal? Impossible Travel: User authenticated in New York at 9 AM, then in China at 9:05 AM. This strongly suggests compromised credentials — but verify the source logs. VPN endpoints, cloud proxies, and mobile device sync can produce false positives. New or Modified Accounts
 ```
 
 #### Corroborating sources (1)

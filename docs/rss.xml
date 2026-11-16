@@ -6,9 +6,29 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 15 Nov 2026 21:36:16 +0000</lastBuildDate>
+<lastBuildDate>Mon, 16 Nov 2026 01:45:10 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Risky Bulletin: Cyberattack grounds German UAVs</title>
+<link>https://risky.biz/RBNEWS634/</link>
+<description><![CDATA[Germany grounds UAVs after a supply chain attack, a threat actor accessed Barracuda’s cloud for two days, the US AI task force asks for regulatory leniency and the FBI disrupts a North Korean face-swapping operation.<br/><br/><em>Tags: supply_chain</em>]]></description>
+<pubDate>Mon, 16 Nov 2026 00:04:19 +0000</pubDate>
+<guid isPermaLink="true">https://risky.biz/RBNEWS634/</guid>
+<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
+<category>practitioner_analysis</category>
+<category>supply_chain</category>
+</item>
+<item>
+<title>datasette 1.0a43</title>
+<link>https://simonwillison.net/2026/Nov/15/datasette/</link>
+<description><![CDATA[Release: datasette 1.0a43 I&apos;ve been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and plugins can register themselves as capable of streaming every row in a table in one go via the new Response.stream() method. There are a couple of security fixes, one of which I deemed deserving of a GitHub advisory : private stored queries could be exposed, granting access to the title and SQL of the query (but not allowing that query to be executed). There are dozens of smaller improvements. The row page JSON representation finally has a design suitable for 1.0 . A new &lt;datasette-copy-button&gt; Web Component provides copy-schema in various places. JSON in columns on the row page can be pretty-printed. There&apos;s a new DatasetteModal.confirm() JavaScript utility method. Plus dozens of bug fixes, includ<br/><br/><em>Tags: GitHub</em>]]></description>
+<pubDate>Sun, 15 Nov 2026 23:20:27 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Nov/15/datasette/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+<category>GitHub</category>
+</item>
 <item>
 <title>FBI warns ARTEX AI hacking tool is powering global cyberattacks</title>
 <link>https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/</link>
@@ -1100,12 +1120,11 @@
 <item>
 <title>Log Analysis Field Guide: Tips for Spotting Patterns and Red Flags</title>
 <link>https://www.blackhillsinfosec.com/log-analysis-guide/</link>
-<description><![CDATA[Imagine you’re a detective, but your crime scene is made of timestamps, IP addresses, and login attempts instead of fingerprints and DNA. Log analysis is the art of reading digital breadcrumbs that attackers leave behind—every click, connection, and failed password gets recorded automatically. Here are some tips for learning how to survey and when to pull out the magnifying glass.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<description><![CDATA[Imagine you’re a detective, but your crime scene is made of timestamps, IP addresses, and login attempts instead of fingerprints and DNA. Log analysis is the art of reading digital breadcrumbs that attackers leave behind—every click, connection, and failed password gets recorded automatically. Here are some tips for learning how to survey and when to pull out the magnifying glass.]]></description>
 <pubDate>Wed, 11 Nov 2026 21:57:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.blackhillsinfosec.com/log-analysis-guide/</guid>
 <source url="https://www.blackhillsinfosec.com/feed/">Black Hills Information Security</source>
 <category>detection_response_operations</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Attackers Say &apos;Hello&apos; to a Different Scale of Cloud Attack</title>
@@ -2025,6 +2044,15 @@
 <category>cloud_identity_infrastructure</category>
 <category>AWS</category>
 <category>active_exploitation</category>
+</item>
+<item>
+<title>parse_number() as a SQLite extension: C vs Rust</title>
+<link>https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/</link>
+<description><![CDATA[Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or &apos;12.5%&apos; into numeric values that could be summed and sorted. I fired up regular Claude chat (Opus 5.5) and prompted : I&apos;m thinking about a SQLite custom function &apos;parse_number(value)&apos; that strips &apos;,&apos;, &apos;$&apos;, &apos;£&apos; and &apos;%&apos;, handles a leading &apos;-&apos;, and returns &apos;NULL&apos; for anything it can’t parse Explore the difference between building this as a SQLite extension in C v.s. in Rust - I want to compare performance and code complexity and size of the resulting .so (or whatever) file This gave me a solid starting point - the Rust extension was 321 KB (using Rusqlite ) and 298 KB (using sqlite-loadable-rs ), while the C extension was 14 KB. But the Rust extension was faster! Turns out that&apos;s because the Rust equivalent of C&apos;s strtod is &quot;twice as fast&quot;. So I pr]]></description>
+<pubDate>Sun, 08 Nov 2026 22:26:00 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Sponsored: The evolution of ASD&apos;s Essential Eight</title>
@@ -3020,15 +3048,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>datasette-agent 0.5a0</title>
-<link>https://simonwillison.net/2026/Nov/3/datasette-agent/</link>
-<description><![CDATA[Release: datasette-agent 0.5a0 This is a significant release of Datasette Agent . The most notable new feature is called the panel - it lets the agent chat open and then sit next to pages from Datasette, for example a table or query page. When combined with datasette-apps this means you can prompt a database-backed app into existence and then modify it from the chat that sits next to that app. You can try it by signing in with your GitHub account to agent.datasette.io . Tags: projects , datasette-agent , datasette]]></description>
-<pubDate>Tue, 03 Nov 2026 23:13:45 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Nov/3/datasette-agent/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>Fresh European Fridge Attacks Put Cold-Chain Security in Focus</title>
 <link>https://www.darkreading.com/ics-ot-security/fresh-european-fridge-attacks-cold-chain-security</link>
 <description><![CDATA[Beyond food storage, the same combination of Internet connectivity, remote access, and inadequate security practices can put temperature-controlled infrastructure across other critical sectors at risk.]]></description>
@@ -3045,15 +3064,6 @@
 <guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/germany-crime-service-investment-fraud</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>llm 0.37.1</title>
-<link>https://simonwillison.net/2026/Nov/3/llm/</link>
-<description><![CDATA[Release: llm 0.37.1 A bugfix release for LLM , with contributions from Steven Huang , Tao An , Arjan Mossel , and XQ . Tags: llm]]></description>
-<pubDate>Tue, 03 Nov 2026 21:41:42 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Nov/3/llm/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>DPRK Hackers Perfected Their Fake Interview Playbook Over Dozens of Attacks Before Binance</title>
@@ -3089,24 +3099,6 @@
 <pubDate>Tue, 03 Nov 2026 17:01:49 +0000</pubDate>
 <guid isPermaLink="true">https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/</guid>
 <source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>AI is destroying my CS degree</title>
-<link>https://simonwillison.net/2026/Nov/3/hn-50354278/</link>
-<description><![CDATA[My comment on AI is destroying my CS degree — Hacker News. I don&apos;t envy educators right now. AI clearly means you need to change how you teach and evaluate students. We are only a few years in though, and it&apos;s still extremely unclear what effective teaching with these tools looks like. The worst part is that the evaluation loop is measured in multiple years! If you start trying some new education mechanism today you won&apos;t get a robust idea of how well it works until your current cohort graduate in 3-6 years time. Students effectively all become guinea pigs for untested new ways of learning and teaching. Tags: ai-ethics , hacker-news , education , ai]]></description>
-<pubDate>Tue, 03 Nov 2026 16:42:02 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Nov/3/hn-50354278/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>Qwen 3.8 27B on my laptop can interpret model weights, too</title>
-<link>https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/</link>
-<description><![CDATA[Yesterday&apos;s hot paper was Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a &quot;blog post&quot;, but it&apos;s paper-shaped) found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model - literally a text description of the model containing a bunch of floating point numbers. I&apos;ve been playing with one of the examples from the paper and I&apos;m delighted to share that Qwen 3.8 27B running on my laptop can do this as well! Weight-Space Programming Here&apos;s the highlight from their abstract, describing impressive capabilities for GPT-6 Astra and coining the term Weight-Space Programming for when LLMs analyze and modify model weights: Just by looking at the raw weights, GPT-6 Astra can tell what a network was trained to do . And without any environment feedback, it has no trouble writing, from scrat]]></description>
-<pubDate>Tue, 03 Nov 2026 16:29:48 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
@@ -3335,15 +3327,6 @@
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
 <category>ransomware_extortion</category>
-</item>
-<item>
-<title>I discovered a sound that leaks your exact location (and it&apos;s everywhere) - YouTube</title>
-<link>https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/</link>
-<description><![CDATA[I discovered a sound that leaks your exact location (and it&apos;s everywhere) - YouTube Genius piece of OSINT by Colsto, who demonstrates how you can take almost imperceptible background noise of planes from a video soundtrack, figure out their Doppler curves, then cross reference them against ADS-B data to find the exact location of the video based on their speed, distance, and gaps between different flights. Via Lobste.rs Tags: privacy , youtube]]></description>
-<pubDate>Tue, 03 Nov 2026 05:32:25 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>The Quiet Phase: Why Active Directory Group Enumeration Deserves Your Attention</title>
@@ -13122,16 +13105,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>Risky Bulletin: FatFs bugs enable physical access attacks on a load of devices</title>
-<link>https://risky.biz/RBNEWS585/</link>
-<description><![CDATA[FatFs bugs enable physical access attacks on industrial equipment, a clever password spraying attack bypasses M365 MFA, an AI agent is deploying ransomware in live attacks, and a webinar platform sues two security firms over bad IOCs.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Fri, 03 Jul 2026 04:04:18 +0000</pubDate>
-<guid isPermaLink="true">https://risky.biz/RBNEWS585/</guid>
-<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
-<category>ransomware_extortion</category>
-</item>
-<item>
 <title>[tl;dr sec] #335 - Prompt Injection as Role Confusion, PHP Ecosystem Security, New MCP Spec</title>
 <link>https://tldrsec.com/p/tldr-sec-335</link>
 <description><![CDATA[Interesting paper, LLM-powered hardening of the PHP ecosystem, security implications of the new MCP spec<br/><br/><em>Tags: ai_security</em>]]></description>
@@ -19554,7 +19527,7 @@
 <title>Inside Falcon AI Gateway: One Control Point for AI Traffic</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-ai-gateway-one-control-point-for-ai-traffic/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 15 Nov 2026 21:36:16 +0000</pubDate>
+<pubDate>Mon, 16 Nov 2026 01:45:10 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-ai-gateway-one-control-point-for-ai-traffic/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19563,7 +19536,7 @@
 <title>CrowdStrike Named a Leader in the 2026 IDC MarketScape for Worldwide Augmented Identity Security Solutions</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-augmented-identity-security-solutions/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 15 Nov 2026 21:36:16 +0000</pubDate>
+<pubDate>Mon, 16 Nov 2026 01:45:10 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-augmented-identity-security-solutions/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19572,7 +19545,7 @@
 <title>November 2026 Patch Tuesday: 1,252 CVEs Include One Zero-Day and 68 Critical Vulnerabilities</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Sun, 15 Nov 2026 21:36:16 +0000</pubDate>
+<pubDate>Mon, 16 Nov 2026 01:45:10 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19582,7 +19555,7 @@
 <title>How Adversaries Are Turning the Vulnerability Ecosystem Against Defenders</title>
 <link>https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 15 Nov 2026 21:36:16 +0000</pubDate>
+<pubDate>Mon, 16 Nov 2026 01:45:10 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19591,7 +19564,7 @@
 <title>CrowdStrike Extends the Agentic SOC to Detect and Stop Agent Insider Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 15 Nov 2026 21:36:16 +0000</pubDate>
+<pubDate>Mon, 16 Nov 2026 01:45:10 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19600,7 +19573,7 @@
 <title>CrowdStrike Introduces Agentic Adversary Emulation to Counter AI-Enabled Adversaries</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-agentic-adversary-emulation-counters-ai-enabled-adversaries/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 15 Nov 2026 21:36:16 +0000</pubDate>
+<pubDate>Mon, 16 Nov 2026 01:45:10 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-agentic-adversary-emulation-counters-ai-enabled-adversaries/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19609,7 +19582,7 @@
 <title>New Falcon Cloud Security Innovations Secure the Cloud AI Runs On</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-innovations-secure-cloud-ai-runs-on/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 15 Nov 2026 21:36:16 +0000</pubDate>
+<pubDate>Mon, 16 Nov 2026 01:45:10 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-innovations-secure-cloud-ai-runs-on/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19618,7 +19591,7 @@
 <title>CrowdStrike Brings Enterprise Browser Security to the Falcon Platform</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-enterprise-browser-security-to-falcon-platform/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 15 Nov 2026 21:36:16 +0000</pubDate>
+<pubDate>Mon, 16 Nov 2026 01:45:10 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-enterprise-browser-security-to-falcon-platform/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19627,7 +19600,7 @@
 <title>CrowdStrike Advances AI Security and Safety from Endpoint to Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-advances-ai-security-and-safety-falcon-guardian/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 15 Nov 2026 21:36:16 +0000</pubDate>
+<pubDate>Mon, 16 Nov 2026 01:45:10 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-advances-ai-security-and-safety-falcon-guardian/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19636,7 +19609,7 @@
 <title>CrowdStrike to Acquire Fiddler to Deliver Falcon Observe for AI Agent Observability</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 15 Nov 2026 21:36:16 +0000</pubDate>
+<pubDate>Mon, 16 Nov 2026 01:45:10 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
