@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-11-18T21:15:59.682041+00:00
+- Generated: 2026-11-19T03:04:11.452210+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 76
-- Total items in window: 339
-- Total clusters raw: 164
-- Total clusters in packet: 77
-- Dropped low score: 87
+- Feeds OK: 75
+- Total items in window: 315
+- Total clusters raw: 160
+- Total clusters in packet: 76
+- Dropped low score: 84
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,31 +75,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
-  - In window count: 4
+  - In window count: 3
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 4
+  - In window count: 2
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: fetch_error
@@ -110,41 +110,36 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 2
+  - Item count: 10
+  - In window count: 7
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
@@ -155,15 +150,25 @@
   - Status: ok
   - Item count: 15
   - In window count: 5
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 5
+  - Item count: 100
+  - In window count: 2
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 2
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
   - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
@@ -175,11 +180,6 @@
   - Status: ok
   - Item count: 50
   - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
-  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -190,13 +190,13 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
@@ -210,10 +210,10 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
@@ -225,6 +225,11 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
@@ -240,21 +245,21 @@
   - Status: ok
   - Item count: 20
   - In window count: 7
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 8
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Google Project Zero** (offensive_vulnerability_research)
+  - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 7
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -265,21 +270,21 @@
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Google Project Zero** (offensive_vulnerability_research)
-  - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 6
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
@@ -290,46 +295,46 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 6
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
+  - Item count: 100
+  - In window count: 3
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 6
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -339,7 +344,7 @@
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 4
+  - In window count: 3
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
@@ -349,47 +354,37 @@
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 50
-  - In window count: 2
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 19
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
+  - In window count: 3
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 25
+  - In window count: 21
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 17
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 7
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -400,33 +395,28 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -435,6 +425,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
@@ -487,7 +487,7 @@
   - affected_products: Atlassian Confluence, Atlassian Jira
   - cve_ids: CVE-2026-114938
   - urgency_signals: preauth_unauth, actively_exploited, poc_available
-- Cluster IDs: a162d593b3, 7c92294871, efdc801eef, 8b7bccd676
+- Cluster IDs: a162d593b3, 7c92294871, 8b7bccd676, efdc801eef
 - Links:
   - https://www.rapid7.com/blog/post/etr-rapid7-detected-exploitation-of-cve-2026-90436-against-atlassian-confluence-data-center-n-able-n-central-also-exploited
   - https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/
@@ -495,16 +495,16 @@
   - https://blog.talosintelligence.com/java4shell/
   - https://www.rapid7.com/blog/post/etr-cve-2026-114938-reported-critical-pre-authentication-remote-code-execution-java-17
   - https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html
-  - https://blog.cloudflare.com/java4shell-waf-protection/
   - https://www.sophos.com/en-us/blog/java4shell-could-allow-remote-code-execution
+  - https://blog.cloudflare.com/java4shell-waf-protection/
+  - https://securitylabs.datadoghq.com/articles/java4shell-remote-code-execution-in-openjdk-cve-2026-114938/
   - https://www.wiz.io/blog/cve-2026-114938-rce-java4shell-openjdk
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-114938/
-  - https://securitylabs.datadoghq.com/articles/java4shell-remote-code-execution-in-openjdk-cve-2026-114938/
   - https://orca.security/resources/research/java4shell-critical-openjdk-base64-decoder-flaw-could-allow-unauthenticated-remote-code-execution/
   - https://www.greynoise.io/blog/global-event-java4shell-cve-2026-114938-live-activity-report
   - https://www.helpnetsecurity.com/2026/11/18/java4shell-openjdk-vulnerability-cve-2026-114938/
-  - https://www.infosecurity-magazine.com/news/java4shell-vulnerability-remote/
   - https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/
+  - https://www.infosecurity-magazine.com/news/java4shell-vulnerability-remote/
 
 ### Atlassian Confluence active exploitation
 - Anchor signal: Atlassian Confluence
@@ -520,7 +520,7 @@
   - affected_products: Atlassian Confluence, Atlassian Jira
   - cve_ids: CVE-2026-114938
   - urgency_signals: preauth_unauth, actively_exploited, poc_available
-- Cluster IDs: a162d593b3, 7c92294871, efdc801eef, 8b7bccd676
+- Cluster IDs: a162d593b3, 7c92294871, 8b7bccd676, efdc801eef
 - Links:
   - https://www.rapid7.com/blog/post/etr-rapid7-detected-exploitation-of-cve-2026-90436-against-atlassian-confluence-data-center-n-able-n-central-also-exploited
   - https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/
@@ -528,40 +528,16 @@
   - https://blog.talosintelligence.com/java4shell/
   - https://www.rapid7.com/blog/post/etr-cve-2026-114938-reported-critical-pre-authentication-remote-code-execution-java-17
   - https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html
-  - https://blog.cloudflare.com/java4shell-waf-protection/
   - https://www.sophos.com/en-us/blog/java4shell-could-allow-remote-code-execution
+  - https://blog.cloudflare.com/java4shell-waf-protection/
+  - https://securitylabs.datadoghq.com/articles/java4shell-remote-code-execution-in-openjdk-cve-2026-114938/
   - https://www.wiz.io/blog/cve-2026-114938-rce-java4shell-openjdk
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-114938/
-  - https://securitylabs.datadoghq.com/articles/java4shell-remote-code-execution-in-openjdk-cve-2026-114938/
   - https://orca.security/resources/research/java4shell-critical-openjdk-base64-decoder-flaw-could-allow-unauthenticated-remote-code-execution/
   - https://www.greynoise.io/blog/global-event-java4shell-cve-2026-114938-live-activity-report
   - https://www.helpnetsecurity.com/2026/11/18/java4shell-openjdk-vulnerability-cve-2026-114938/
-  - https://www.infosecurity-magazine.com/news/java4shell-vulnerability-remote/
   - https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/
-
-### Linux kernel active exploitation
-- Anchor signal: Linux kernel
-- Theme key: linux-kernel
-- Cluster count: 5
-- Article count: 8
-- Cohesion: 0.235
-- Shared strong signals: Linux kernel
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation
-  - affected_products: Linux kernel, Google Cloud
-  - urgency_signals: actively_exploited
-- Cluster IDs: fb549f1298, eb92172155, 17e80f0912, 1684349a7c, 5630cc40c4
-- Links:
-  - https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html
-  - https://tldrsec.com/p/tldr-sec-354
-  - https://cloud.google.com/blog/products/application-development/lessons-from-building-sashiko-an-agentic-code-review-system/
-  - https://openssf.org/podcast/2026/11/18/whats-in-the-soss-podcast-78-s3e30-from-signal-processing-to-open-source-security-sal-kimmich-on-linux-kernel-defense/
-  - https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html
-  - https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html
-  - https://cloud.google.com/blog/products/identity-security/inside-the-new-data-boundary-experience/
-  - https://www.sophos.com/en-us/blog/patches-released-for-critical-nginx2root-vulnerabilities
+  - https://www.infosecurity-magazine.com/news/java4shell-vulnerability-remote/
 
 ### supply chain targeting PyPI
 - Anchor signal: PyPI
@@ -589,18 +565,40 @@
   - https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi
   - https://openssf.org/blog/2026/11/17/clearer-security-signals-making-attestations-comprehensible-for-pypi-users/
 
+### Linux kernel active exploitation
+- Anchor signal: Linux kernel
+- Theme key: linux-kernel
+- Cluster count: 4
+- Article count: 5
+- Cohesion: 0.209
+- Shared strong signals: Linux kernel
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation
+  - affected_industries: healthcare
+  - affected_products: Linux kernel
+  - urgency_signals: actively_exploited
+- Cluster IDs: fb549f1298, eb92172155, 35b37c39d9, 5630cc40c4
+- Links:
+  - https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html
+  - https://tldrsec.com/p/tldr-sec-354
+  - https://openssf.org/podcast/2026/11/18/whats-in-the-soss-podcast-78-s3e30-from-signal-processing-to-open-source-security-sal-kimmich-on-linux-kernel-defense/
+  - https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html
+  - https://www.sophos.com/en-us/blog/patches-released-for-critical-nginx2root-vulnerabilities
+
 ### Google Cloud active exploitation
 - Anchor signal: Google Cloud
 - Theme key: google-cloud
 - Cluster count: 3
-- Article count: 6
+- Article count: 5
 - Cohesion: 0.2
 - Shared strong signals: Google Cloud
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - threat_categories: active_exploitation
-  - affected_products: Google Cloud, Linux kernel
+  - affected_products: Google Cloud
   - urgency_signals: actively_exploited, preauth_unauth
 - Cluster IDs: f170b6e701, fb549f1298, 1684349a7c
 - Links:
@@ -609,13 +607,12 @@
   - https://webflow.sysdig.com/blog/httpd-cve-2026-119618-detecting-heap-corruption-and-rce-in-apache-http-server-mod-http2
   - https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html
   - https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html
-  - https://cloud.google.com/blog/products/identity-security/inside-the-new-data-boundary-experience/
 
 ### active exploitation targeting ScreenConnect
 - Anchor signal: ScreenConnect
 - Theme key: screenconnect
 - Cluster count: 4
-- Article count: 10
+- Article count: 9
 - Cohesion: 0.2
 - Shared strong signals: ScreenConnect
 - Member CVEs: (none)
@@ -624,20 +621,38 @@
   - threat_categories: active_exploitation, data_breach
   - affected_industries: government
   - affected_products: ScreenConnect
-- Cluster IDs: 865bc835a9, 8847c7ffaa, 656ea1ba73, 6411ea2e82
+- Cluster IDs: 865bc835a9, 656ea1ba73, 6411ea2e82, 8847c7ffaa
 - Links:
   - https://www.huntress.com/blog/cve-2026-84869-screenconnect-technician-exploitation
   - https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html
-  - https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/
-  - https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html
   - https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/
   - https://research.checkpoint.com/2026/16th-november-threat-intelligence-report/
+  - https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/
+  - https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html
+
+### Microsoft Defender vulnerability activity
+- Anchor signal: Microsoft Defender
+- Theme key: microsoft-defender
+- Cluster count: 3
+- Article count: 8
+- Cohesion: 0.256
+- Shared strong signals: Microsoft Defender
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Microsoft Defender
+- Cluster IDs: 26581d7b17, 8835a3e3fc, 656ea1ba73
+- Links:
+  - https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/
+  - https://aws.amazon.com/blogs/security/detecting-cross-cloud-lateral-movement-with-aws-security-hub/
+  - https://www.elastic.co/security-labs/threat-command/cyberstrikeai-aws-cloudtrail-intrusion
+  - https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/
 
 ### phishing social eng targeting Google Workspace
 - Anchor signal: Google Workspace
 - Theme key: google-workspace
 - Cluster count: 3
-- Article count: 5
+- Article count: 4
 - Cohesion: 0.207
 - Shared strong signals: Google Workspace
 - Member CVEs: (none)
@@ -678,7 +693,7 @@
 - Anchor signal: AWS
 - Theme key: aws
 - Cluster count: 3
-- Article count: 5
+- Article count: 6
 - Cohesion: 0.2
 - Shared strong signals: AWS
 - Member CVEs: (none)
@@ -687,11 +702,11 @@
   - threat_categories: active_exploitation
   - affected_products: AWS
   - urgency_signals: actively_exploited, preauth_unauth
-- Cluster IDs: fb549f1298, efdc801eef, 251971e49e
+- Cluster IDs: fb549f1298, efdc801eef, 8835a3e3fc
 - Links:
   - https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html
   - https://www.infosecurity-magazine.com/news/java4shell-vulnerability-remote/
-  - https://aws.amazon.com/blogs/security/introducing-simplified-onboarding-for-aws-waf-bot-control-at-the-targeted-inspection-level/
+  - https://aws.amazon.com/blogs/security/detecting-cross-cloud-lateral-movement-with-aws-security-hub/
   - https://www.elastic.co/security-labs/threat-command/cyberstrikeai-aws-cloudtrail-intrusion
 
 ### phishing social eng targeting Microsoft 365
@@ -734,52 +749,10 @@
   - https://research.checkpoint.com/2026/16th-november-threat-intelligence-report/
   - https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html
 
-### Cisco vulnerability activity
-- Anchor signal: Cisco
-- Theme key: cisco
-- Cluster count: 2
-- Article count: 15
-- Cohesion: 0.2
-- Shared strong signals: Cisco
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Cisco
-- Cluster IDs: 7c92294871, 912dd8fe31
-- Links:
-  - https://webflow.sysdig.com/blog/java4shell-cve-2026-114938-pre-auth-rce-in-openjdk
-  - https://blog.talosintelligence.com/java4shell/
-  - https://www.rapid7.com/blog/post/etr-cve-2026-114938-reported-critical-pre-authentication-remote-code-execution-java-17
-  - https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html
-  - https://blog.cloudflare.com/java4shell-waf-protection/
-  - https://www.sophos.com/en-us/blog/java4shell-could-allow-remote-code-execution
-  - https://www.wiz.io/blog/cve-2026-114938-rce-java4shell-openjdk
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-114938/
-  - https://securitylabs.datadoghq.com/articles/java4shell-remote-code-execution-in-openjdk-cve-2026-114938/
-  - https://orca.security/resources/research/java4shell-critical-openjdk-base64-decoder-flaw-could-allow-unauthenticated-remote-code-execution/
-  - https://www.greynoise.io/blog/global-event-java4shell-cve-2026-114938-live-activity-report
-  - https://www.helpnetsecurity.com/2026/11/18/java4shell-openjdk-vulnerability-cve-2026-114938/
-  - https://blog.talosintelligence.com/artex-and-beyond/
-
 ## Forward signals
 
 ### Novelty
-- Novel cves: 15
-  - CVE-2026-123007 (first seen via Rapid7 at 2026-11-18T13:56:42+00:00, cluster 8f2a86fb37)
-  - CVE-2026-123633 (first seen via Rapid7 at 2026-11-18T13:56:42+00:00, cluster 8f2a86fb37)
-  - CVE-2024-36350 (first seen via The Hacker News at 2026-11-12T12:09:14+00:00, cluster 1684349a7c)
-  - CVE-2024-36357 (first seen via The Hacker News at 2026-11-12T12:09:14+00:00, cluster 1684349a7c)
-  - CVE-2026-0004 (first seen via The Hacker News at 2026-11-12T12:09:14+00:00, cluster 1684349a7c)
-  - CVE-2026-113425 (first seen via Sophos X-Ops at 2026-11-18T00:00:00+00:00, cluster 5630cc40c4)
-  - CVE-2026-121810 (first seen via Sophos X-Ops at 2026-11-18T00:00:00+00:00, cluster 5630cc40c4)
-  - CVE-2026-123007 (first seen via Sophos X-Ops at 2026-11-18T00:00:00+00:00, cluster 5630cc40c4)
-  - CVE-2026-123633 (first seen via Sophos X-Ops at 2026-11-18T00:00:00+00:00, cluster 5630cc40c4)
-  - CVE-2026-123634 (first seen via Sophos X-Ops at 2026-11-18T00:00:00+00:00, cluster 5630cc40c4)
-  - CVE-2026-116953 (first seen via The Hacker News at 2026-11-18T18:15:39+00:00, cluster 524a8b8e5a)
-  - CVE-2026-120285 (first seen via The Hacker News at 2026-11-18T18:15:39+00:00, cluster 524a8b8e5a)
-  - CVE-2026-120292 (first seen via The Hacker News at 2026-11-18T18:15:39+00:00, cluster 524a8b8e5a)
-  - CVE-2026-121805 (first seen via The Hacker News at 2026-11-18T18:15:39+00:00, cluster 524a8b8e5a)
-  - CVE-2026-123637 (first seen via The Hacker News at 2026-11-18T18:15:39+00:00, cluster 524a8b8e5a)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
@@ -830,22 +803,23 @@
   - New products: Android
   - Prior top industries: financial_services, government, manufacturing_industrial
   - Prior top products: Anthropic/Claude, OpenAI/ChatGPT, SolarWinds
-- **LockBit** (cluster 6e155d51ef)
-  - New industries: financial_services
-  - New products: Android, OpenAI/ChatGPT
-  - Prior top industries: government, healthcare, manufacturing_industrial
-  - Prior top products: Cisco, GitHub, GitLab
 - **ShinyHunters** (cluster 6e155d51ef)
   - New industries: (none)
   - New products: Android
   - Prior top industries: financial_services, government, healthcare
   - Prior top products: Anthropic/Claude, OpenAI/ChatGPT, Salesforce
+- **Scattered Spider** (cluster 8847c7ffaa)
+  - New industries: (none)
+  - New products: ScreenConnect
+  - Prior top industries: government, healthcare, legal_professional
+  - Prior top products: Apple iOS/macOS, Microsoft Defender, Snowflake
 
-### Persistence (9)
+### Persistence (10)
+- actor_attribution: Cl0p (weeks observed: 13, cluster 6e155d51ef)
 - actor_attribution: ShinyHunters (weeks observed: 13, cluster 6e155d51ef)
-- actor_attribution: Cl0p (weeks observed: 12, cluster 6e155d51ef)
 - actor_attribution: UNC5221 (weeks observed: 9, cluster 2cab26404c)
-- actor_attribution: LockBit (weeks observed: 8, cluster 6e155d51ef)
+- actor_attribution: LockBit (weeks observed: 9, cluster a46657a5b4)
+- actor_attribution: Scattered Spider (weeks observed: 9, cluster 8847c7ffaa)
 - cve_ids: CVE-2026-109618 (weeks observed: 5, cluster 2cab26404c)
 - cve_ids: CVE-2026-109619 (weeks observed: 5, cluster 2cab26404c)
 - cve_ids: CVE-2026-84869 (weeks observed: 4, cluster 865bc835a9)
@@ -908,7 +882,7 @@ Emergent Threat Response Rapid7 Detected Exploitation of CVE-2026-90436 against 
   - Link: https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/
   - Summary: A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins, Atlassian Jira, Confluence, and Keycloak. [...]
 
-### Cluster 8f2a86fb37 — score 50
+### Cluster 8f2a86fb37 — score 49
 
 - Title: CVE-2026-123007: Critical NGINX HTTP/2 Integer Underflow Leads to RCE (FIXED)
 - Source: Rapid7 (offensive_vulnerability_research)
@@ -975,7 +949,7 @@ Rapid7 Intelligence CVE-2026-123007: Critical NGINX HTTP/2 Integer Underflow Lea
   - Link: https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/
   - Summary: Credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight seconds of publication. [...]
 
-### Cluster 7c92294871 — score 41
+### Cluster 7c92294871 — score 40
 
 - Title: Java4Shell (CVE-2026-114938): Pre-auth RCE in OpenJDK, and the challenge of image and feature bloat
 - Source: Sysdig (detection_response_operations)
@@ -1035,16 +1009,21 @@ threat-research This is some text inside of a div block. < back to blog Java4She
   - Published: 2026-11-18T11:55:49+00:00
   - Link: https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html
   - Summary: A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week. The flaw is present in Java 17.0.6 and later, and the vulnerable code runs only on x86-64 Intel and AMD chips that support the AVX-512 VBMI feature. Tracked as
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - Title: How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)
-  - Published: 2026-11-18T14:52:10+00:00
-  - Link: https://blog.cloudflare.com/java4shell-waf-protection/
-  - Summary: Java4Shell is a critical memory-corruption flaw in OpenJDK's Base64 decoder that can lead to remote code execution. Cloudflare has released six WAF managed rules for paid plans that logs matching requests by default. Patch your Java runtimes now.
 - **Sophos X-Ops** (detection_response_operations)
   - Title: 'Java4Shell' vulnerability (CVE-2026-114938) could allow remote code execution
   - Published: 2026-11-17T00:00:00+00:00
   - Link: https://www.sophos.com/en-us/blog/java4shell-could-allow-remote-code-execution
   - Summary: Categories: Threat Research Tags: advisory, vulnerability, Oracle, Java
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - Title: How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)
+  - Published: 2026-11-18T14:52:10+00:00
+  - Link: https://blog.cloudflare.com/java4shell-waf-protection/
+  - Summary: Java4Shell is a critical memory-corruption flaw in OpenJDK's Base64 decoder that can lead to remote code execution. Cloudflare has released six WAF managed rules for paid plans that logs matching requests by default. Patch your Java runtimes now.
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - Title: Java4Shell: Remote Code Execution in OpenJDK (CVE-2026-114938)
+  - Published: 2026-11-17T00:00:00+00:00
+  - Link: https://securitylabs.datadoghq.com/articles/java4shell-remote-code-execution-in-openjdk-cve-2026-114938/
+  - Summary: Learn how CVE-2026-114938 corrupts memory in OpenJDK’s AVX-512 Base64 decoder, which deployments are affected, and how to mitigate it.
 - **Wiz Research** (cloud_identity_infrastructure)
   - Title: CVE-2026-114938 OpenJDK RCE (Java4Shell): Everything You Need to Know
   - Published: 2026-11-17T22:29:57+00:00
@@ -1055,11 +1034,6 @@ threat-research This is some text inside of a div block. < back to blog Java4She
   - Published: 2026-11-18T00:31:13+00:00
   - Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-114938/
   - Summary: CVE-2026-114938, known as Java4Shell, is a high-severity heap buffer overflow in the Java runtime's optimized Base64 decoder, affecting Oracle Java SE and OpenJDK builds on x86-64 systems with AVX-512.
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - Title: Java4Shell: Remote Code Execution in OpenJDK (CVE-2026-114938)
-  - Published: 2026-11-17T00:00:00+00:00
-  - Link: https://securitylabs.datadoghq.com/articles/java4shell-remote-code-execution-in-openjdk-cve-2026-114938/
-  - Summary: Learn how CVE-2026-114938 corrupts memory in OpenJDK’s AVX-512 Base64 decoder, which deployments are affected, and how to mitigate it.
 - **Orca Security Research** (cloud_identity_infrastructure)
   - Title: “Java4Shell”: Critical OpenJDK Base64 Decoder Flaw Could Allow Unauthenticated Remote Code Execution
   - Published: 2026-11-17T20:35:45+00:00
@@ -1132,40 +1106,46 @@ A critical vulnerability in Apache HTTP Server’s mod_http2 module, tracked as 
   - Published: 2026-11-13T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/httpd-cve-2026-119618-detecting-heap-corruption-and-rce-in-apache-http-server-mod-http2
 
-### Cluster c3ba4b41d5 — score 25
+### Cluster dd7ae8db6f — score 25
 
-- Title: Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-11-12T11:56:24+00:00
-- Link: https://isc.sans.edu/diary/rss/33514
-- Fetch status: fetch_failed:HTTPError
+- Title: Which Holes Can Attackers Really Bite Into?
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-11-18T23:54:45+00:00
+- Link: https://horizon3.ai/intelligence/infographics/which-holes-can-attackers-really-bite-into/
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: CVE-2026-102895
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-102895
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_government
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
 
 #### Primary article taxonomy
-- cve_ids: CVE-2026-102895
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_government
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
 
 #### Summary
 
 ```
-CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads. All versions of GPUStack prior to 2.2.0, which was released at the end of June. This vulnerability was not made public until the end of July, and the CVE was assigned on November 4th.
+Security gaps can hide in unpatched systems, weak passwords, or controls that do less than expected. This infographic outlines five questions CISOs and security teams can answer with autonomous penetration testing to see what attackers can actually exploit.
+```
+
+#### Full body
+
+```
+Which Holes Can Attackers Really Bite Into? Horizon3 November 18, 2026 Infographics Security gaps can hide in an unpatched system, a weak password, or a control that does less than expected. Autonomous penetration testing goes beyond identifying potential weaknesses: it actively tests whether they can be exploited and chained together to reach sensitive data or critical systems. This infographic outlines five questions CISOs and security teams can answer through autonomous penetration testing. Key Takeaways: Five Questions Testing Can Answer Which weaknesses should you fix first? Severity scores alone cannot tell you what attackers can exploit. Testing reveals exploitable exposure, helping you prioritize fixes based on what attackers could reach. What could an attacker access with a compromised account? Weak passwords and exposed credentials can give attackers a foothold. Testing reveals whether they can escalate privileges and move laterally to access systems and sensitive data. Which weaknesses connect into a path to critical assets? An overlooked system may become a stepping stone. Attackers can chain vulnerabilities, credentials, and misconfigurations together to reach sensitive data or critical systems. Do your controls block the activity you expect them to stop? Configuration and coverage gaps can limit a control’s effectiveness. Testing shows whether attack activity can succeed despite the defenses in place. Can you show leadership what improved? A closed ticket records completed work. Retesting verifies the fix worked, giving leadership clear evidence of reduced exposure and remaining weaknesses. Why These Insights Matter Together, these questions shift the conversation from what could be wrong to what attackers can actually do. Exploitable weaknesses, connected attack paths, control gaps, and verified fixes give leaders evidence to prioritize remediation and track real progress: find the holes, then verify the fixes. Download the Infographic Download the infographic to see all five questions and how autonomous penetration testing helps answer them. Download the infographic How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
 ```
 
 #### Corroborating sources (1)
 
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)
-  - Published: 2026-11-12T11:56:24+00:00
-  - Link: https://isc.sans.edu/diary/rss/33514
-  - Summary: CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads. All versions of GPUStack prior to 2.2.0, which was released at the end of June. This vulnerability was not made public until the end of July, and the CVE was assigned on November 4th.
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Which Holes Can Attackers Really Bite Into?
+  - Published: 2026-11-18T23:54:45+00:00
+  - Link: https://horizon3.ai/intelligence/infographics/which-holes-can-attackers-really-bite-into/
+  - Summary: Security gaps can hide in unpatched systems, weak passwords, or controls that do less than expected. This infographic outlines five questions CISOs and security teams can answer with autonomous penetration testing to see what attackers can actually exploit.
 
 ### Cluster 1a9bc5bf69 — score 25
 
@@ -1173,9 +1153,9 @@ CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is al
 - Source: Google Cloud Threat Intelligence (threat_research_primary)
 - Published: 2026-11-17T14:00:00+00:00
 - Link: https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise/
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
+- Fetch status: fetch_failed:ConnectionError
+- Member count: 2
+- Corroborating source count: 2
 - Strong signals: UNC4057
 
 #### Cluster taxonomy (union across members)
@@ -1184,7 +1164,7 @@ CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is al
 - affected_industries: government
 - affected_products: Google Workspace
 - content_type: news_report
-- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news
+- confidence_tier: tier_1_primary_research, tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: phishing_social_eng, apt_espionage
@@ -1199,20 +1179,9 @@ CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is al
 Written by: Josh Murchie, John Wolfram, Joseph Spero, Peter Ukhanov, Fernando Tomlinson, Jr., Wesley Shields Introduction Over the past year, Mandiant has responded to a series of linked intrusions demonstrating how Russian cyber espionage group COLD RELIC (formerly tracked as COLDRIVER and UNC4057; also known as Star Blizzard, Callisto, and Gossamer Bear) turns a single cloud compromise into a springboard for ongoing third party compromise and espionage. Most recently, Mandiant investigated a 2026 compromise at a US-based organization where COLD RELIC directly weaponized data, the corporate staff directory, and identities stolen during a late-2025 compromise, which Mandiant also investigated, at a separate US-based organization. COLD RELIC is a Russian state-sponsored threat group that the US Department of Justice (DOJ) has assessed operates within Russia's Federal Security Service (FSB). The group is known for implementing sophisticated phishing and malware campaigns with the aim to
 ```
 
-#### Full body
-
-```
-Threat Intelligence COLD RELIC: A Case Study in Impersonation and Compromise November 17, 2026 Google Threat Intelligence Group Mandiant Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Written by: Josh Murchie, John Wolfram, Joseph Spero, Peter Ukhanov, Fernando Tomlinson, Jr., Wesley Shields Introduction Over the past year, Mandiant has responded to a series of linked intrusions demonstrating how Russian cyber espionage group COLD RELIC (formerly tracked as COLDRIVER and UNC4057; also known as Star Blizzard, Callisto, and Gossamer Bear) turns a single cloud compromise into a springboard for ongoing third party compromise and espionage. Most recently, Mandiant investigated a 2026 compromise at a US-based organization where COLD RELIC directly weaponized data, the corporate staff directory, and identities stolen during a late-2025 compromise, which Mandiant also investigated, at a separate US-based organization. COLD RELIC is a Russian state-sponsored threat group that the US Department of Justice (DOJ) has assessed operates within Russia's Federal Security Service (FSB). The group is known for implementing sophisticated phishing and malware campaigns with the aim to gain access to information of strategic or political relevance to the Russian government, as well as to leverage compromised access to target compromised individuals’ broader social and professional networks. Once COLD RELIC compromises a target, it uses stolen emails and data to establish authentic pretexts and impersonate contacts when reaching out to subsequent targets. While COLD RELIC has largely maintained a low profile, yielding minimal public reporting relative to other Russia-nexus threat actors, it has been highly successful at compromising high-value targets (including government officials, defense contractors, and non-governmental organizations (NGOs) across Europe and North America) while maintaining a consistent operational tempo. While Google Threat Intelligence Group (GTIG) has tracked and disrupted COLD RELIC phishing campaigns since 2015, recent Mandiant incident response investigations have uncovered critical new insights into the group’s social engineering and post-compromise tradecraft. We are sharing this end-to-end analysis—along with actionable detection and hardening guidance—to help organizations defend against COLD RELIC’s ongoing use of stolen pretexts, localized residential proxies, and cross-cloud identity abuse. As part of our efforts to thwart this threat actor, we issue Government-backed attack alerts when we detect COLD RELIC targeting Google accounts. COLD RELIC remains an active threat; GTIG has observed evidence of new phishing operations as recently as November 2026. Threat Detail Over more than a decade of tracking COLD RELIC alongside Mandiant incident response investigations, we have observed the group continually refine how it leverages data harvested from one intrusion to enable follow-on operations against downstream targets. In late 2025, COLD RELIC downloaded a large volume of data from a US-based organization, searching for names, email addresses, and email archives, likely to fulfill broader intelligence requirements. In 2026, Mandiant investigated a subsequent COLD RELIC intrusion at a second US-based organization where phishing URL parameters and impersonation pretexts indicated that COLD RELIC likely leveraged contact and relationship context from the first organization to target the second. One of the hallmarks of COLD RELIC phishing campaigns is the use of a compromised website as the initial link that will redirect the target to the actual phishing domain. This provides COLD RELIC with a layer of misdirection and hides their phishing domains, while also giving them a chance to fingerprint anyone visiting the link to determine if they should be redirected or not. A COLD RELIC phishing link usually contains a parameter on the end of it with a value that is
-```
-
-#### Corroborating sources (3)
+#### Corroborating sources (2)
 
 - **Google Cloud Threat Intelligence** (threat_research_primary)
-  - Title: COLD RELIC: A Case Study in Impersonation and Compromise
-  - Published: 2026-11-17T14:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise/
-  - Summary: Written by: Josh Murchie, John Wolfram, Joseph Spero, Peter Ukhanov, Fernando Tomlinson, Jr., Wesley Shields Introduction Over the past year, Mandiant has responded to a series of linked intrusions demonstrating how Russian cyber espionage group COLD RELIC (formerly tracked as COLDRIVER and UNC4057; also known as Star Blizzard, Callisto, and Gossamer Bear) turns a single cloud compromise into a springboard for ongoing third party compromise and espionage. Most recently, Mandiant investigated a 2026 compromise at a US-based organization where COLD RELIC directly weaponized data, the corporate staff directory, and identities stolen during a late-2025 compromise, which Mandiant also investigated, at a separate US-based organization. COLD RELIC is a Russian state-sponsored threat group that the US Department of Justice (DOJ) has assessed operates within Russia's Federal Security Service (FSB). The group is known for implementing sophisticated phishing and malware campaigns with the aim to
-- **Google Cloud Security** (cloud_identity_infrastructure)
   - Title: COLD RELIC: A Case Study in Impersonation and Compromise
   - Published: 2026-11-17T14:00:00+00:00
   - Link: https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise/
@@ -1479,7 +1448,7 @@ Rapid7 Intelligence From view-only access to container root: five vulnerabilitie
 - Published: 2026-11-16T18:00:00+00:00
 - Link: https://www.huntress.com/blog/cve-2026-84869-screenconnect-technician-exploitation
 - Fetch status: ok
-- Member count: 5
+- Member count: 4
 - Corroborating source count: 2
 - Strong signals: CVE-2026-84869, ScreenConnect
 
@@ -1807,54 +1776,6 @@ A critical supply-chain compromise was discovered affecting Microsoft’s agent-
   - Link: https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html
   - Summary: Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz. The malicious versions, 1.26.1 and 1.26.2, were published 33 minutes apart on November 17, 2026, and are designed to run a credential stealer on every Python start. As of
 
-### Cluster 3bcd6761c3 — score 16
-
-- Title: GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold
-- Source: Google Cloud Threat Intelligence (threat_research_primary)
-- Published: 2026-11-16T14:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, apt_espionage, supply_chain
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_1_primary_research, tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, apt_espionage, active_exploitation
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Written by: Aurora Blum, Kelli Vanderlee, Jess Xia, David Mainor Executive Summary As threat actors increasingly move beyond basic prompting to deploying autonomous multi-agent frameworks , automated vulnerability exploitation pipelines, and alternative monetization schemes like LLMJacking , the adversarial AI landscape has reached a critical inflection point. In this update, Google Threat Intelligence Group (GTIG) and Mandiant examine how adversaries across the cyber crime, espionage, and information operations spectrum are operationalizing generative AI to compress attack timelines, scale operations, and execute multi-stage intrusions at machine speed. Key trends over the last quarter include: Shift to Autonomous Workflows and Multi-Agent Frameworks: Adversary tradecraft has continued to transition beyond manual prompting to deploying autonomous multi-agent offensive frameworks—such as ARTEX , CAIRN, CyberStrikeAI, and PentAGI—to execute multi-stage intrusions at greater operational
-```
-
-#### Full body
-
-```
-Threat Intelligence GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold November 16, 2026 Google Threat Intelligence Group Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Written by: Aurora Blum, Kelli Vanderlee, Jess Xia, David Mainor Executive Summary As threat actors increasingly move beyond basic prompting to deploying autonomous multi-agent frameworks , automated vulnerability exploitation pipelines, and alternative monetization schemes like LLMJacking , the adversarial AI landscape has reached a critical inflection point. In this update, Google Threat Intelligence Group (GTIG) and Mandiant examine how adversaries across the cyber crime, espionage, and information operations spectrum are operationalizing generative AI to compress attack timelines, scale operations, and execute multi-stage intrusions at machine speed. Key trends over the last quarter include: Shift to Autonomous Workflows and Multi-Agent Frameworks: Adversary tradecraft has continued to transition beyond manual prompting to deploying autonomous multi-agent offensive frameworks—such as ARTEX , CAIRN, CyberStrikeAI, and PentAGI—to execute multi-stage intrusions at greater operational velocity. Automated Vulnerability Research and Exploitation: Threat actors are increasingly leveraging LLMs and agentic frameworks to fully automate the reverse engineering of patches via differential analysis, allowing them to rapidly weaponize n-day vulnerabilities and scale exploitation pipelines against internet-facing servers without human intervention. Monetization and Infrastructure Abuse : Financially motivated threat actors continue to profit from LLMJacking by stealing LLM credentials and cloud resources from compromised enterprise environments and reselling access to high-performance AI models through underground proxy services (e.g., LLM Mixers). LLM Integration in Information Operations (IO): State-sponsored groups, commercial Influence-as-a-Service (IaaS) vendors, and inauthentic political monetization networks now routinely use LLMs in their operations to produce synthetic media at scale, create localized personas, and automate cross-platform distribution. Targeted Espionage and Supply Chain Evolution: Cyber espionage groups are leveraging LLMs for target research, automated data analysis, and novel supply chain attack vectors—such as manipulating autonomous coding assistant configurations to drop backdoors during local execution. Grounded in telemetry from frontline Mandiant incident response engagements, global threat actor tracking, and live platform defenses, this report details how state-sponsored espionage groups, financially motivated cyber criminals, and IO threat actors are operationalizing LLMs in the wild. At Google, we are committed to developing AI boldly and responsibly. Our multifaceted defense strategy integrates proactive model-level safeguards, specialized threat intelligence, and targeted containment protocols to protect our customers and infrastructure. We continuously harden our models against misuse, mitigate malicious activity through proactive disruption of bad actor projects and accounts, and use our autonomous Google AI Threat Defense architecture and BeyondZero to operationalize security, continuous monitoring, and responding at machine speed across enterprise environments. Multi-Agent Frameworks in Cyber Intrusions While previous milestones documented in our quarterly research highlighted nascent adversary interest in agentic capabilities, GTIG and Mandiant have now observed multiple threat actors abusing open source, agentic penetration-testing (pentesting) frameworks to automate discrete phases and specific operational tasks during live intrusions. Threat actor adoption of these frameworks represents a paradigm shift towards intrusions occurring at machine speed, with the automated chaining of complex attack paths scaling operations significantly. W
-```
-
-#### Corroborating sources (2)
-
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - Title: GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold
-  - Published: 2026-11-16T14:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold/
-  - Summary: Written by: Aurora Blum, Kelli Vanderlee, Jess Xia, David Mainor Executive Summary As threat actors increasingly move beyond basic prompting to deploying autonomous multi-agent frameworks , automated vulnerability exploitation pipelines, and alternative monetization schemes like LLMJacking , the adversarial AI landscape has reached a critical inflection point. In this update, Google Threat Intelligence Group (GTIG) and Mandiant examine how adversaries across the cyber crime, espionage, and information operations spectrum are operationalizing generative AI to compress attack timelines, scale operations, and execute multi-stage intrusions at machine speed. Key trends over the last quarter include: Shift to Autonomous Workflows and Multi-Agent Frameworks: Adversary tradecraft has continued to transition beyond manual prompting to deploying autonomous multi-agent offensive frameworks—such as ARTEX , CAIRN, CyberStrikeAI, and PentAGI—to execute multi-stage intrusions at greater operational
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold
-  - Published: 2026-11-16T14:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold/
-  - Summary: Written by: Aurora Blum, Kelli Vanderlee, Jess Xia, David Mainor Executive Summary As threat actors increasingly move beyond basic prompting to deploying autonomous multi-agent frameworks , automated vulnerability exploitation pipelines, and alternative monetization schemes like LLMJacking , the adversarial AI landscape has reached a critical inflection point. In this update, Google Threat Intelligence Group (GTIG) and Mandiant examine how adversaries across the cyber crime, espionage, and information operations spectrum are operationalizing generative AI to compress attack timelines, scale operations, and execute multi-stage intrusions at machine speed. Key trends over the last quarter include: Shift to Autonomous Workflows and Multi-Agent Frameworks: Adversary tradecraft has continued to transition beyond manual prompting to deploying autonomous multi-agent offensive frameworks—such as ARTEX , CAIRN, CyberStrikeAI, and PentAGI—to execute multi-stage intrusions at greater operational
-
 ### Cluster 2cab26404c — score 15
 
 - Title: PHP2Shell Exploitation on Check Point Gateway
@@ -1948,7 +1869,40 @@ Introduction
   - Link: https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html
   - Summary: Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents. The changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more options for two of its APIs: Device Control and Data Access, and Full Disk Access. "Before granting an app such
 
-### Cluster 836755808c — score 13
+### Cluster caf7a0d960 — score 12
+
+- Title: YARA-X 1.23.0 Release, (Sun, Nov 15th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-11-15T18:17:27+00:00
+- Link: https://isc.sans.edu/diary/rss/33496
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+YARA-X&#39&#x3b;s 1.23.0 release brings 4 improvements and 16 bugfixes.
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: YARA-X 1.23.0 Release, (Sun, Nov 15th)
+  - Published: 2026-11-15T18:17:27+00:00
+  - Link: https://isc.sans.edu/diary/rss/33496
+  - Summary: YARA-X&#39&#x3b;s 1.23.0 release brings 4 improvements and 16 bugfixes.
+
+### Cluster 836755808c — score 12
 
 - Title: Apache warns of Roller RCE vulnerability exploited in attacks
 - Source: BleepingComputer (cyber_news_breach_reporting)
@@ -1997,7 +1951,52 @@ Apache warns of Roller RCE vulnerability exploited in attacks By Sergiu Gatlan N
   - Link: https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/
   - Summary: Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]
 
-### Cluster efdc801eef — score 13
+### Cluster 8b7bccd676 — score 12
+
+- Title: Java4Shell Vulnerability Puts Enterprise Applications at Risk of Takeover
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-11-18T07:43:34+00:00
+- Link: https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Atlassian Jira
+
+#### Cluster taxonomy (union across members)
+- affected_products: Atlassian Confluence, Atlassian Jira
+- cve_ids: CVE-2026-114938
+- urgency_signals: poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- affected_products: Atlassian Jira, Atlassian Confluence
+- cve_ids: CVE-2026-114938
+- urgency_signals: poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Calif demonstrated remote code execution in Jira, Jenkins and Keycloak, while VulnCheck says real-world RCE requires per-target work The post Java4Shell Vulnerability Puts Enterprise Applications at Risk of Takeover appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Oracle and the OpenJDK project have patched Java4Shell, a critical Java runtime vulnerability that researchers say can be exploited to hijack popular enterprise applications without authentication. The issue, tracked as CVE-2026-114938, is a memory safety flaw in the way OpenJDK processes Base64-encoded data. Calif, whose researcher Quang Luong discovered the bug, made its findings public on November 17, after news of the flaw surfaced ahead of the coordinated disclosure. Specifically, the bug was found in a routine that OpenJDK relies on to decode Base64 on x86-64 CPUs supporting AVX-512 VBMI. Calif’s analysis shows that invalid Base64 strings can cause the routine to write past the end of its output buffer, potentially corrupting nearby heap data before Java flags the input as invalid. “With careful exploitation, the corruption can reveal sensitive memory, as Heartbleed did, or lead to remote code execution,” Calif explained . The researchers call the memory leak capability JavaBleed. They warn that heap data exposed this way could contain PII, secret keys and tokens. Default configurations exposed to Java4Shell attacks In its initial tests, Calif achieved pre-authentication remote code execution (RCE) on Keycloak, Atlassian Jira and Confluence, JFrog Artifactory, Jenkins and PingFederate, all running with default settings. Authenticated attackers could also execute code on Apache Kafka Broker, Solr, Elasticsearch, Gerrit and Spinnaker, and the researchers say neither list is exhaustive. Advertisement. Scroll to continue reading. Code execution was also achieved against sample apps based on Apache Struts and Spring Boot. Calif warns that the decoder can be reached through everyday functionality, including authentication and file uploads. Client-side attacks are possible too. Based on an exploit shared with Calif by security researcher samczsun, a Java application can be compromised when it connects to an attacker-controlled server over TLS, even if it does not run any services. “One thing to note about this vulnerability is that there is no universal exploit. Depending on how Base64 is used and how the application works, different steps may be required for exploitation,” Calif noted. VulnCheck says crashing a vulnerable JVM is easy once an attacker finds a reachable entry point that relies on the affected decoding logic. In its tests, a quick series of crafted requests reliably took down the service. The security firm says it has developed a full RCE exploit as well, but noted that achieving RCE is much harder, as the attacker must manipulate the heap layout and find a way (specific to each target) to leak addresses and bypass ASLR. “In other words, we don’t anticipate that CVE-2026-114938 will be easily or widely exploitable, but as with PHP2Shell , adversaries are likely to find narrow but functional paths to RCE in specific applications,” VulnCheck said. The proof-of-concept (PoC) code published by Calif demonstrates the memory corruption but does not achieve code execution. “The weaponized chains for individual products stay private until everyone has had a chance to upgrade. We will publish them later,” the company noted. According to Calif, AI played a key role in both discovering and exploiting the vulnerability. “It took our own Quang Luong an hour to discover the vulnerability, and two more hours to develop the first working exploit. The total token cost was less than $200,” Calif said. Affected versions and patches According to Calif, OpenJDK versions starting with 17.0.6 are vulnerable, and so are the Java distributions based on it, including Amazon Corretto, Eclipse Temurin, Microsoft Build of OpenJDK, Azul Zulu, Red Hat OpenJDK and Oracle Java SE. The OpenJDK advisory lists Java 17, 21, 25 and 27 as affected by CVE-2026-114938. Exploitation requires x86-64 hardware with AVX-512 VBMI support, such as Intel Xeon processors from the Ice Lake generation onward and AMD chips based on Zen 4 or newer architectures. Sys
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Java4Shell Vulnerability Puts Enterprise Applications at Risk of Takeover
+  - Published: 2026-11-18T07:43:34+00:00
+  - Link: https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/
+  - Summary: Calif demonstrated remote code execution in Jira, Jenkins and Keycloak, while VulnCheck says real-world RCE requires per-target work The post Java4Shell Vulnerability Puts Enterprise Applications at Risk of Takeover appeared first on SecurityWeek .
+
+### Cluster efdc801eef — score 12
 
 - Title: Java4Shell Vulnerability Allows Remote Attacks on Major Java Apps
 - Source: Infosecurity Magazine (cyber_news_breach_reporting)
@@ -2044,255 +2043,6 @@ Infosecurity Magazine Home » News » Java4Shell Vulnerability Allows Remote Att
   - Link: https://www.infosecurity-magazine.com/news/java4shell-vulnerability-remote/
   - Summary: A critical OpenJDK vulnerability could expose major Java applications to remote code execution, prompting CISA to urge organizations implement mitigations
 
-### Cluster 17e80f0912 — score 13
-
-- Title: Sashiko: Lessons from building an agentic code review system for Linux
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-11-18T17:00:00+00:00
-- Link: https://cloud.google.com/blog/products/application-development/lessons-from-building-sashiko-an-agentic-code-review-system/
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
-- Strong signals: Linux kernel
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_products: Google/Gemini, Linux kernel
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_products: Linux kernel, Google/Gemini
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-The speed of development in large open-source projects has always been limited by code review, not code generation. Even as coding agents get better at writing code, they do not accelerate development on their own. This is especially true of patches to the Linux kernel. Without a way to build trust in proposed changes, more generated code simply piles up in front of the same small group of human maintainers. Some of those patches are solid changes, just written faster; many others are plausible-looking "AI slop" sent by contributors who do not fully understand the systems they are modifying. And the influx of AI-generated security reports, many of which are duplicates or inaccurate, only adds to maintainers’ load. Linux runs billions of Android phones, most cloud providers, and nearly every supercomputer. It spans more than 35 million lines of code, and over 85,000 changes land every year. Automated build bots and fuzzers like Syzkaller catch build errors and crashes, but code review h
-```
-
-#### Full body
-
-```
-Application Development Sashiko: Lessons from building an agentic code review system for Linux November 18, 2026 Roman Gushchin Software Engineer, AI & Infrastructure Eric Brewer VP, Infrastructure & Google Fellow, AI & Infrastructure Try Gemini today The front door to AI in the workplace Try now The speed of development in large open-source projects has always been limited by code review, not code generation. Even as coding agents get better at writing code, they do not accelerate development on their own. This is especially true of patches to the Linux kernel. Without a way to build trust in proposed changes, more generated code simply piles up in front of the same small group of human maintainers. Some of those patches are solid changes, just written faster; many others are plausible-looking "AI slop" sent by contributors who do not fully understand the systems they are modifying. And the influx of AI-generated security reports, many of which are duplicates or inaccurate, only adds to maintainers’ load. Linux runs billions of Android phones, most cloud providers, and nearly every supercomputer. It spans more than 35 million lines of code, and over 85,000 changes land every year. Automated build bots and fuzzers like Syzkaller catch build errors and crashes, but code review has always been the main way to guarantee the stability and safety of the kernel. Every day, maintainers read hundreds and hundreds of proposed patches by hand to catch memory leaks, deadlocks, race conditions, and security bugs. To help maintainers handle the load and catch bugs before they land, the Google AI & Infrastructure team built Sashiko , an open-source, agentic code review system powered by Gemini. We named the project after the Japanese word 刺し子, a stitching technique for artistically reinforcing worn cloth, and donated it to the Linux Foundation earlier this year. In this blog, we cover the problem Sashiko was designed to solve, how it works, what the data shows, and what we learned from building and running it in the wild. Reviewing code is hard Reviewing a change in a complex code base is objectively hard, both for humans and LLMs. It often requires a deep understanding of how the system works in general, well outside the proposed change. In fact, it’s pretty common to see patches that engineers claim perfectly solve the problem, but if they were to be merged, would actually introduce even worse problems (albeit subtle). Traditionally, only experienced maintainers have been able to spot and prevent these issues. The same is true for agentically generated code. To verify the correctness of a change, a potentially large number of invariants should be proven, which is often a much larger and harder task than developing the change itself. This is true for both human and agentic reviewers. However, LLM-based reviewers have some unique properties, both positive and negative: LLMs often struggle to put in enough effort. LLMs are trained to achieve the goal of spending fewer tokens. So they often tend to cut corners and dismiss concerns without proper investigation or flag false positives without proper due diligence. LLMs are easier to bias . The current generation of LLMs usually performs much better if provided a single relatively simple task (e.g., prove the patch for memory leaks) rather than multiple tasks (e.g., explore several complex, varied concerns). It’s pretty common for an LLM to find an obvious issue in the code and refuse to look deeper for other types of issues. Also, commit log text can sometimes affect the result of code review in a non-predicatable or even malicious way. LLMs don’t have persistent memory. Surprisingly, this is a positive thing for code review: An LLM can review the same or similar patch multiple times as if it were a new patch. No sane human can review the same patch applied to 100 slightly different branches to find the few that have incompatible changes. How Sashiko reviews a patch To avoid these failure modes
-```
-
-#### Corroborating sources (3)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Sashiko: Lessons from building an agentic code review system for Linux
-  - Published: 2026-11-18T17:00:00+00:00
-  - Link: https://cloud.google.com/blog/products/application-development/lessons-from-building-sashiko-an-agentic-code-review-system/
-  - Summary: The speed of development in large open-source projects has always been limited by code review, not code generation. Even as coding agents get better at writing code, they do not accelerate development on their own. This is especially true of patches to the Linux kernel. Without a way to build trust in proposed changes, more generated code simply piles up in front of the same small group of human maintainers. Some of those patches are solid changes, just written faster; many others are plausible-looking "AI slop" sent by contributors who do not fully understand the systems they are modifying. And the influx of AI-generated security reports, many of which are duplicates or inaccurate, only adds to maintainers’ load. Linux runs billions of Android phones, most cloud providers, and nearly every supercomputer. It spans more than 35 million lines of code, and over 85,000 changes land every year. Automated build bots and fuzzers like Syzkaller catch build errors and crashes, but code review h
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - Title: What’s in the SOSS? Podcast #78 – S3E30 From Signal Processing to Open Source Security: Sal Kimmich on Linux Kernel Defense
-  - Published: 2026-11-18T19:17:12+00:00
-  - Link: https://openssf.org/podcast/2026/11/18/whats-in-the-soss-podcast-78-s3e30-from-signal-processing-to-open-source-security-sal-kimmich-on-linux-kernel-defense/
-  - Summary: Discover kernel-level defense strategies, nono.sh sandboxing, and AI data security with security architect Sal Kimmich on What's in the SOSS? Podcast #78.
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories
-  - Published: 2026-11-12T18:02:51+00:00
-  - Link: https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html
-  - Summary: A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right there. Attackers are using fake websites, stolen access, and trusted tools to get into places they shouldn't be. AI is helping them build attacks faster, while
-
-### Cluster caf7a0d960 — score 12
-
-- Title: YARA-X 1.23.0 Release, (Sun, Nov 15th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-11-15T18:17:27+00:00
-- Link: https://isc.sans.edu/diary/rss/33496
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-YARA-X&#39&#x3b;s 1.23.0 release brings 4 improvements and 16 bugfixes.
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: YARA-X 1.23.0 Release, (Sun, Nov 15th)
-  - Published: 2026-11-15T18:17:27+00:00
-  - Link: https://isc.sans.edu/diary/rss/33496
-  - Summary: YARA-X&#39&#x3b;s 1.23.0 release brings 4 improvements and 16 bugfixes.
-
-### Cluster 8721dda70c — score 12
-
-- Title: The challenge of defending against bulletproof dead drops on public blockchains
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-11-18T11:00:00+00:00
-- Link: https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-The evolution of malware command-and-control (C2) infrastructure has shifted away from fragile, centralized servers and hardcoded domains toward resilient, decentralized blockchain networks that eliminate single points of failure.
-```
-
-#### Full body
-
-```
-The challenge of defending against bulletproof dead drops on public blockchains By Chetan Raghuprasad Wednesday, November 18, 2026 06:00 On The Radar The evolution of malware command-and-control (C2) infrastructure has shifted away from fragile, centralized servers and hardcoded domains toward resilient, decentralized blockchain networks that eliminate single points of failure. Threat actors are leveraging immutable public ledgers such as Bitcoin transactions, EVM smart contracts via techniques like EtherHiding, TRON wallets, and Solana memo programs to store, mask, and persistently update their operational endpoints. By executing read-only remote procedure call (RPC) queries to retrieve encrypted C2 configurations directly into compromised endpoint memory, adversaries can continuously bypass traditional perimeter defenses and domain seizures. Modern cybersecurity requires a fundamental shift away from static domain blocklists toward monitoring anomalous outbound JSON-RPC traffic, analyzing endpoint memory, and treating blockchain infrastructure as an active threat communication channel. The command-and-control (C2) channel is the operational backbone of any persistent malware campaign. It is also the most fragile component. The moment an actor's C2 infrastructure is identified and reported to the hosting provider, the domain registrar, or law enforcement, the campaign's operational capability collapses. This fundamental asymmetry, where defenders need to identify only a single infrastructure link to disrupt an operation, has driven a multi-decade arms race in resilience techniques, spanning from fast flux DNS evasion to decentralized and peer-to-peer architectures. Traditional C2 infrastructure where malware beacons to a hardcoded domain or IP address is volatile by design. Security researchers or incident responders who identify the C2 address can trigger a response. The hosting provider can null-route the IP addresses and the domain registrars can suspend malicious domains under abuse policies, law enforcement can obtain court orders compelling infrastructure seizure, and threat intelligence vendors push blocklist updates that cut off the malware from its C2 links across several compromised endpoints simultaneously. This single point of failure model renders sophisticated malware families inactive once their C2 is identified and sinkholed. By redirecting malware traffic to researcher-controlled servers, researchers can not only disrupt the botnet but map the full victim community, gather forensic telemetry, and notify affected organizations. The arms race Threat actors have progressively hardened their C2 infrastructure through several evasion techniques to outpace defensive capabilities. Amongst these techniques, some of the popular approaches include the employment of domain generation algorithms (DGA), content delivery network (CDN) domain fronting, peer-to-peer (P2P) architecture, and dead drop resolvers. DGAs replace static, hardcoded server domains with dynamically generated domains. Malware programmed with a shared mathematical seed computes hundreds or thousands of pseudorandom domain names on a scheduled basis, systematically attempting to resolve each one until it establishes contact with an address registered by the threat actor. While this technique prevents defenders from neutralizing an entire operation by simply seizing or blocklisting a single domain, defenders counteracted DGAs by reverse engineering the generation algorithms, predicting future domains for proactive sinkholing, and applying machine learning models to detect algorithmically generated strings within enterprise DNS queries. The CDN domain fronting technique evolved to bypass perimeter inspection mechanisms by exploiting discrepancies between the transport and application layers of encrypted web traffic. By initiating a TLS handshake with a legitimate, reputable domain hosted on a major CDN and specifying a covert, malicious host inside the enc
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: The challenge of defending against bulletproof dead drops on public blockchains
-  - Published: 2026-11-18T11:00:00+00:00
-  - Link: https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/
-  - Summary: The evolution of malware command-and-control (C2) infrastructure has shifted away from fragile, centralized servers and hardcoded domains toward resilient, decentralized blockchain networks that eliminate single points of failure.
-
-### Cluster 3fa9ec72bf — score 12
-
-- Title: Open by Default, Already Occupied: Threat Actors are Renting your Compute
-- Source: Rapid7 (offensive_vulnerability_research)
-- Published: 2026-11-18T14:38:55+00:00
-- Link: https://www.rapid7.com/blog/post/tr-self-hosted-ai-renting-compute-exposed-servers
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: OpenAI/ChatGPT
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_products: OpenAI/ChatGPT
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Full body
-
-```
-$ curl http://<exposed-host>:11434 /api/tags llama3.1:8b qwen3.6:27b glm-5.3:cloud nomic-embed-text:latest deepseek-v4-pro:cloud 103.249.201[.]108:9882/trigger/benign:latest gemma4:e4b zzvitals-beacon:latest huihui_ai/Qwen3.8-abliterated:latest gpt-4o:latest claude-3-opus:latest tinyllama:latest kimi-k2.7-code:cloud verif_sys:latest <tunnel>.trycloudflare[.]com/read/x5fa4534:b1 qwen2.5-coder:7b pwn_ctl_<this-host-ip>_ae52…:latest minimax-m3:cloud ttl[.]sh/dsv40110/dsv4probe:24h bge-m3:latest <tunnel>/L2V0Yy9zaGFkb3c → /etc/shadow Huihui-CyberStrike-OffSec-35B-abliterated smollm2:135m ops-verify:latest mistral-large-4:cloud <tunnel>/L3Byb2Mvc2VsZi9lbnZpcm9u → /proc/self/environ qwen3-embedding:0.6b gpt-4o:latest-copy-test local model cloud-routed or uncensored left by a third party Sample of model names returned by exposed Ollama servers. Green: left by a third party; outlined: cloud-routed or uncensored. Host-identifying parts redacted, infrastructure defanged. More than half of the exposed Ollama servers in this scan have already been touched by someone who is not the owner. I don't mean theoretically vulnerable. I mean visibly used: model names that are really callback addresses, tags stamped with the server's own IP, and Base64 strings that decode to /etc/shadow . Exposure statistics normally describe a risk. These model lists describe activity. An unauthenticated /api/tags call is a read-only request, and on thousands of machines it returns something close to a visitors' log. Below is what the data shows, where I think it points, and what I would do about it on Monday morning. I've labelled claims as [Observed] , [Interpretation] or [Hypothesis] so you can see where the evidence stops. First, the number I don't trust The scanner reported 14,064 findings across 11,891 IP addresses and labelled 14,060 of them vulnerable, 387 critical. If I put that in a headline it would travel well. It would also be wrong. [ Observed ] 148 IP addresses return the exact same fingerprint: Grafana on 3000, Jupyter on 8888, Ollama on three ports, each serving one model, llama3.1:8b . They sit with five different hosting providers in five countries. Another 281 addresses answer as two to five different products on the same port. Real servers rarely do that. Sensors and catch-all responders do it all day. [ Interpretation ] These are most likely deception infrastructure, run by researchers, vendors or threat actors watching who comes knocking. Remove those 429 addresses and the critical findings drop from 387 to 39. MLflow falls from 126 to 4. Honeypots look extremely vulnerable. That's the whole job description. Figure 1 What the scanner flagged versus what holds up Findings per product before and after removing the 148-host identical fleet and IP:port pairs that answer as multiple products. Ollama 8,193 flagged 7,675 hold up Streamlit 4,939 flagged 4,700 hold up Grafana 475 flagged 123 hold up Jupyter Notebook 265 flagged 38 hold up MLflow 126 flagged 4 hold up JupyterHub 66 flagged 11 hold up Streamlit, Grafana and JupyterHub results are presence checks (a health endpoint answers). They prove exposure, not compromise. Default-credential labels on Grafana were inferred by the scanner, not tested. Two more corrections before we go further. A Streamlit health check returning ok tells you an app is on the internet, not that it is exploitable. And the target list was pre-selected: 58% of the 20,354 hosts produced a finding, which is far above any internet-wide base rate. So treat the totals as a sample of a much larger population, not a census. What survives is still uncomfortable: 7,714 findings on 7,627 hosts where an AI or notebook API answered without authentication , almost all of them Ollama. Only 0.3% of all findings were served over HTTPS. The lesson for anyone producing exposure numbers, us included: if you count banners and health checks, you measure how the internet presents itself. You don't measure how it behaves. This is rented comput
-```
-
-#### Corroborating sources (1)
-
-- **Rapid7** (offensive_vulnerability_research)
-  - Title: Open by Default, Already Occupied: Threat Actors are Renting your Compute
-  - Published: 2026-11-18T14:38:55+00:00
-  - Link: https://www.rapid7.com/blog/post/tr-self-hosted-ai-renting-compute-exposed-servers
-
-### Cluster 31919ab83e — score 12
-
-- Title: Microsoft agent-framework Compromised: Credential Stealer Targets Azure and CI Pipelines
-- Source: Wiz Research (cloud_identity_infrastructure)
-- Published: 2026-11-17T22:03:37+00:00
-- Link: https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Azure
-
-#### Cluster taxonomy (union across members)
-- affected_products: Azure, PyPI
-- content_type: incident_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: Azure, PyPI
-- content_type: incident_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-On November 17, 2026 at 20:35 UTC, versions 1.26.1 & 1.26.2 of the Microsoft PyPI package agent-framework were published with an added credential stealer. The package gets almost 200k downloads a month. The malicious versions have since been quarantined.
-```
-
-#### Full body
-
-```
-At 20:35 UTC on November 17, 2026, a malicious version ( 1.26.1 ) of the agent-framework package (Microsoft Agent Framework) was uploaded to PyPI. A second version, 1.26.2 , followed at 21:08 UTC. As of 21:30 UTC, both versions were no longer available on PyPI. The package gets about 41,000 downloads a week. The most recent safe version is 1.26.0. When a malicious version is installed, it drops a .pth file into the site-packages root ( agent_framework_meta.pth in 1.26.1, af_runtime_diag.pth in 1.26.2). Python runs .pth files on every interpreter start, so the credential stealer runs whenever Python starts in that environment, even if agent-framework is never imported. Updated Nov 18 14:00 UTC - Updated root cause and analyzed exfiltrated data. Wiz promptly reported these findings to Microsoft on the 17th. Root Cause The attacker's tooling reported its own progress to the same publicly accessible webhook it used for exfiltration, which let Wiz Research observe part of the operation. A timeline of the attack, highlighting information disclosed via attacker use of webhook[.]site The attacker appears to have compromised a client certificate and private key for Microsoft ESRP (Engineering System Release Pipeline), the internal service Microsoft uses to sign and publish this package. Their first publish attempt, from AWS, was rejected by ESRP's IP filtering. A second attempt from Microsoft-owned IP space succeeded. How the credentials were obtained is not yet known. The tooling identifies itself as Cairn , an open-source AI penetration-testing framework : it staged the package at /tmp/cairn_pkg and sent a CAIRN_ESRP_PROBE2 connectivity probe. Before publishing, the attacker ran the stealer on their own machine. That run captured an AI coding agent configuration that appears to be the open-source Pi harness backed by a GLM-family model ( pi_glm53 ), routed through a local proxy. Earlier this year, another Microsoft Python package, durabletask , was compromised after its PyPI token was stolen. We have not linked the two incidents. Timeline (UTC) Time Event 2026-11-12 18:25 Legitimate 1.26.0 published (wheel + sdist, alongside agent-framework-core 1.26.0) 2026-11-17 20:35 Malicious 1.26.1 published 2026-11-17 ~21:08 Malicious 1.26.2 published 2026-11-17 ~21:30 1.26.1 & 1.26.2 no longer available on PyPI Payload agent_framework_meta.pth contains one line: import agent_framework_meta In 1.26.1, agent_framework_meta/__init__.py then calls _telemetry._start() . The stealer forks into a detached session ( os.setsid() ), or falls back to a daemon thread where fork isn't available. It sets _AF_TEL=1 to avoid running again in child processes. The file and function names ( _telemetry , "Lightweight runtime diagnostics hook", user-agent af-runtime-diagnostics/1 ) are made to look like legitimate SDK telemetry. Credential Stealer The stealer is focused on Azure and Azure DevOps. It collects: Environment variables with names containing strings such as TOKEN, SECRET, PASSWORD, KEY, AZURE, AWS, GITHUB, OPENAI, HF_, FOUNDRY, NPM, PIP, NUGET, SYSTEM, BUILD, AGENT Other processes' environments : secret-looking values read from up to 300 /proc/*/environ files Credential files (up to 60): Azure CLI (~/.azure/) .npmrc, pip.conf, .netrc, .git-credentials, .docker/config.json Hugging Face tokens Azure DevOps agent .credentials .env and JSON files under /app and /workspace Azure DevOps OIDC tokens : if SYSTEM_ACCESSTOKEN and SYSTEM_OIDCREQUESTURI are set, it requests an OIDC token for api://AzureADTokenExchange Azure managed-identity tokens from IMDS or the App Service identity endpoint for 12 resources: ARM, Graph, Key Vault, Storage, Cognitive Services, Azure AI/ML, Search, Container Registry, Azure DevOps, and AzureADTokenExchange Azure instance metadata Everything is put into one JSON document, zlib-compressed, base64-encoded, and sent in one HTTPS POST to webhook[.]site . The URL is hardcoded and the payload has no fallback channel. Failures are silentl
-```
-
-#### Corroborating sources (1)
-
-- **Wiz Research** (cloud_identity_infrastructure)
-  - Title: Microsoft agent-framework Compromised: Credential Stealer Targets Azure and CI Pipelines
-  - Published: 2026-11-17T22:03:37+00:00
-  - Link: https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi
-  - Summary: On November 17, 2026 at 20:35 UTC, versions 1.26.1 & 1.26.2 of the Microsoft PyPI package agent-framework were published with an added credential stealer. The package gets almost 200k downloads a month. The malicious versions have since been quarantined.
-
-### Cluster 8b7bccd676 — score 12
-
-- Title: Java4Shell Vulnerability Puts Enterprise Applications at Risk of Takeover
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-11-18T07:43:34+00:00
-- Link: https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Atlassian Jira
-
-#### Cluster taxonomy (union across members)
-- affected_products: Atlassian Confluence, Atlassian Jira
-- cve_ids: CVE-2026-114938
-- urgency_signals: poc_available
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- affected_products: Atlassian Jira, Atlassian Confluence
-- cve_ids: CVE-2026-114938
-- urgency_signals: poc_available
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Calif demonstrated remote code execution in Jira, Jenkins and Keycloak, while VulnCheck says real-world RCE requires per-target work The post Java4Shell Vulnerability Puts Enterprise Applications at Risk of Takeover appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Oracle and the OpenJDK project have patched Java4Shell, a critical Java runtime vulnerability that researchers say can be exploited to hijack popular enterprise applications without authentication. The issue, tracked as CVE-2026-114938, is a memory safety flaw in the way OpenJDK processes Base64-encoded data. Calif, whose researcher Quang Luong discovered the bug, made its findings public on November 17, after news of the flaw surfaced ahead of the coordinated disclosure. Specifically, the bug was found in a routine that OpenJDK relies on to decode Base64 on x86-64 CPUs supporting AVX-512 VBMI. Calif’s analysis shows that invalid Base64 strings can cause the routine to write past the end of its output buffer, potentially corrupting nearby heap data before Java flags the input as invalid. “With careful exploitation, the corruption can reveal sensitive memory, as Heartbleed did, or lead to remote code execution,” Calif explained . The researchers call the memory leak capability JavaBleed. They warn that heap data exposed this way could contain PII, secret keys and tokens. Default configurations exposed to Java4Shell attacks In its initial tests, Calif achieved pre-authentication remote code execution (RCE) on Keycloak, Atlassian Jira and Confluence, JFrog Artifactory, Jenkins and PingFederate, all running with default settings. Authenticated attackers could also execute code on Apache Kafka Broker, Solr, Elasticsearch, Gerrit and Spinnaker, and the researchers say neither list is exhaustive. Advertisement. Scroll to continue reading. Code execution was also achieved against sample apps based on Apache Struts and Spring Boot. Calif warns that the decoder can be reached through everyday functionality, including authentication and file uploads. Client-side attacks are possible too. Based on an exploit shared with Calif by security researcher samczsun, a Java application can be compromised when it connects to an attacker-controlled server over TLS, even if it does not run any services. “One thing to note about this vulnerability is that there is no universal exploit. Depending on how Base64 is used and how the application works, different steps may be required for exploitation,” Calif noted. VulnCheck says crashing a vulnerable JVM is easy once an attacker finds a reachable entry point that relies on the affected decoding logic. In its tests, a quick series of crafted requests reliably took down the service. The security firm says it has developed a full RCE exploit as well, but noted that achieving RCE is much harder, as the attacker must manipulate the heap layout and find a way (specific to each target) to leak addresses and bypass ASLR. “In other words, we don’t anticipate that CVE-2026-114938 will be easily or widely exploitable, but as with PHP2Shell , adversaries are likely to find narrow but functional paths to RCE in specific applications,” VulnCheck said. The proof-of-concept (PoC) code published by Calif demonstrates the memory corruption but does not achieve code execution. “The weaponized chains for individual products stay private until everyone has had a chance to upgrade. We will publish them later,” the company noted. According to Calif, AI played a key role in both discovering and exploiting the vulnerability. “It took our own Quang Luong an hour to discover the vulnerability, and two more hours to develop the first working exploit. The total token cost was less than $200,” Calif said. Affected versions and patches According to Calif, OpenJDK versions starting with 17.0.6 are vulnerable, and so are the Java distributions based on it, including Amazon Corretto, Eclipse Temurin, Microsoft Build of OpenJDK, Azul Zulu, Red Hat OpenJDK and Oracle Java SE. The OpenJDK advisory lists Java 17, 21, 25 and 27 as affected by CVE-2026-114938. Exploitation requires x86-64 hardware with AVX-512 VBMI support, such as Intel Xeon processors from the Ice Lake generation onward and AMD chips based on Zen 4 or newer architectures. Sys
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Java4Shell Vulnerability Puts Enterprise Applications at Risk of Takeover
-  - Published: 2026-11-18T07:43:34+00:00
-  - Link: https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/
-  - Summary: Calif demonstrated remote code execution in Jira, Jenkins and Keycloak, while VulnCheck says real-world RCE requires per-target work The post Java4Shell Vulnerability Puts Enterprise Applications at Risk of Takeover appeared first on SecurityWeek .
-
 ### Cluster 0da83d7c79 — score 11
 
 - Title: The forced audit: how AuditTeam’s OpsAgent framework masks ransomware as consulting
@@ -2338,52 +2088,121 @@ Content menu Close Subscribe Threat Response Table of Contents Background Techni
   - Link: https://securelist.com/auditteam-opsagent-forced-audit/122031/
   - Summary: How does a ransomware gang sell a “forced audit”? We break down AuditTeam’s OpsAgent implant, its Rust rewrite, and the extortion model demanding a consulting fee to delete stolen data.
 
-### Cluster 6e155d51ef — score 11
+### Cluster 8721dda70c — score 11
 
-- Title: The State of Ransomware Q3 2026
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-11-17T22:01:28+00:00
-- Link: https://research.checkpoint.com/2026/the-state-of-ransomware-q3-2026/
+- Title: The challenge of defending against bulletproof dead drops on public blockchains
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-11-18T11:00:00+00:00
+- Link: https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
-- actor_attribution: Cl0p, LockBit, ShinyHunters
-- affected_industries: financial_services, government
-- affected_products: Android, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
-- actor_attribution: ShinyHunters, LockBit, Cl0p
-- affected_industries: financial_services, government
-- affected_products: Android, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Ransomware reached record levels in Q3 2026, but the scale of activity is only part of what changed. The ecosystem producing those attacks is becoming increasingly fragmented: more ransomware brands are claiming victims, the top groups account for a smaller share of overall activity, and several major organizations are pushing back against high-value ransom demands. […] The post The State of Ransomware Q3 2026 appeared first on Check Point Research .
+The evolution of malware command-and-control (C2) infrastructure has shifted away from fragile, centralized servers and hardcoded domains toward resilient, decentralized blockchain networks that eliminate single points of failure.
 ```
 
 #### Full body
 
 ```
-CATEGORIES AI Research 23 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 483 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 434 How To Guides 13 Ransomware 7 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 The State of Ransomware Q3 2026 November 18, 2026 https://research.checkpoint.com/2026/the-state-of-ransomware-q3-2026/ Ransomware reached record levels in Q3 2026, but the scale of activity is only part of what changed. The ecosystem producing those attacks is becoming increasingly fragmented: more ransomware brands are claiming victims, the top groups account for a smaller share of overall activity, and several major organizations are pushing back against high-value ransom demands. At the same time, established operators such as Qilin and The Gentlemen remain firmly at the top, creating a landscape where strong leaders coexist with an increasingly crowded field of ransomware groups. Key observed findings Q3 2026 was the highest-volume quarter on record, with 2,830 victims published on data leak sites. July recorded 964 victims, August reached 1,042, and September recorded 824. The ransomware ecosystem became more fragmented. The top 10 groups’ share of victims fell for the third consecutive quarter, from 71% in Q1 to 58% in Q2 and 49% in Q3. For the first time, groups outside the top ten collectively accounted for the majority of observed victims. The number of active ransomware brands continued to grow. 117 distinct brands claimed at least one victim in Q3, up from 91 in Q2. Of these, 51 had not claimed a victim in Q2, and 42 made their first observed victim claims during Q3. Qilin remained on top with The Gentlemen still close by. Following the ending of Q2, when for the first time in 2026 Qilin briefly relinquished the leading position in favor of The Gentlemen for one month, Qilin reclaimed first place in July and August, before being overtaken yet again by The Gentlemen in September. Eventually Qilin remained in top position for yet another quarter by a narrow gap. LockBit’s decline continued throughout 2026. Once one of the most prolific ransomware operations, LockBit recorded fewer victims in each successive quarter and fell out of the top ten altogether in Q3. Several major organizations rejected high-value extortion demands. Stadler Rail, the Berlin state government and Manchester Airports Group were among the high-profile organizations that publicly refused ransom demands during the quarter. Ransomware payment patterns continued to diverge. Average payments fell 45% quarter over quarter to just over $1 million, while the median increased 167% to $400,000, pointing to different dynamics between routine payments and the largest extortion demands. The ShinyHunters-Clop dispute exposed rivalry within the ransomware ecosystem. ShinyHunters reportedly breached and defaced Clop’s leak site and demanded a public apology alongside payment, while Q3 also brought increased law-enforcement pressure against cybercriminal operations. To read the full findings, access the State of Ransomware Q2 2026 report from Check Point Research here . GO UP BACK TO ALL POSTS POPULAR POSTS Artificial Intelligence ChatGPT Check Point Research Publications OPWNAI : Cybercriminals Starting to Use ChatGPT Check Point Research Publications Threat Research Hacking Fortnite Accounts Artificial Intelligence ChatGPT Check Point Research Publications OpwnAI: AI That Can Save the Day or HACK it Away BLOGS AND PUBLICATIONS Check Point Research Publications Global Cyber Attack Reports Threat Research February 17, 2020 “The Turkish Rat” Evolved Adwind in a Massive Ongoing Phishing Campaign Check Point Research Publications August 11, 2017 “The Next WannaCry” Vulnerability is Here Check Point Research Publications March 12, 2026 “Handala Hack” – Unveiling Group’s Modus Operandi
+The challenge of defending against bulletproof dead drops on public blockchains By Chetan Raghuprasad Wednesday, November 18, 2026 06:00 On The Radar The evolution of malware command-and-control (C2) infrastructure has shifted away from fragile, centralized servers and hardcoded domains toward resilient, decentralized blockchain networks that eliminate single points of failure. Threat actors are leveraging immutable public ledgers such as Bitcoin transactions, EVM smart contracts via techniques like EtherHiding, TRON wallets, and Solana memo programs to store, mask, and persistently update their operational endpoints. By executing read-only remote procedure call (RPC) queries to retrieve encrypted C2 configurations directly into compromised endpoint memory, adversaries can continuously bypass traditional perimeter defenses and domain seizures. Modern cybersecurity requires a fundamental shift away from static domain blocklists toward monitoring anomalous outbound JSON-RPC traffic, analyzing endpoint memory, and treating blockchain infrastructure as an active threat communication channel. The command-and-control (C2) channel is the operational backbone of any persistent malware campaign. It is also the most fragile component. The moment an actor's C2 infrastructure is identified and reported to the hosting provider, the domain registrar, or law enforcement, the campaign's operational capability collapses. This fundamental asymmetry, where defenders need to identify only a single infrastructure link to disrupt an operation, has driven a multi-decade arms race in resilience techniques, spanning from fast flux DNS evasion to decentralized and peer-to-peer architectures. Traditional C2 infrastructure where malware beacons to a hardcoded domain or IP address is volatile by design. Security researchers or incident responders who identify the C2 address can trigger a response. The hosting provider can null-route the IP addresses and the domain registrars can suspend malicious domains under abuse policies, law enforcement can obtain court orders compelling infrastructure seizure, and threat intelligence vendors push blocklist updates that cut off the malware from its C2 links across several compromised endpoints simultaneously. This single point of failure model renders sophisticated malware families inactive once their C2 is identified and sinkholed. By redirecting malware traffic to researcher-controlled servers, researchers can not only disrupt the botnet but map the full victim community, gather forensic telemetry, and notify affected organizations. The arms race Threat actors have progressively hardened their C2 infrastructure through several evasion techniques to outpace defensive capabilities. Amongst these techniques, some of the popular approaches include the employment of domain generation algorithms (DGA), content delivery network (CDN) domain fronting, peer-to-peer (P2P) architecture, and dead drop resolvers. DGAs replace static, hardcoded server domains with dynamically generated domains. Malware programmed with a shared mathematical seed computes hundreds or thousands of pseudorandom domain names on a scheduled basis, systematically attempting to resolve each one until it establishes contact with an address registered by the threat actor. While this technique prevents defenders from neutralizing an entire operation by simply seizing or blocklisting a single domain, defenders counteracted DGAs by reverse engineering the generation algorithms, predicting future domains for proactive sinkholing, and applying machine learning models to detect algorithmically generated strings within enterprise DNS queries. The CDN domain fronting technique evolved to bypass perimeter inspection mechanisms by exploiting discrepancies between the transport and application layers of encrypted web traffic. By initiating a TLS handshake with a legitimate, reputable domain hosted on a major CDN and specifying a covert, malicious host inside the enc
 ```
 
 #### Corroborating sources (1)
 
-- **Check Point Research** (threat_research_primary)
-  - Title: The State of Ransomware Q3 2026
-  - Published: 2026-11-17T22:01:28+00:00
-  - Link: https://research.checkpoint.com/2026/the-state-of-ransomware-q3-2026/
-  - Summary: Ransomware reached record levels in Q3 2026, but the scale of activity is only part of what changed. The ecosystem producing those attacks is becoming increasingly fragmented: more ransomware brands are claiming victims, the top groups account for a smaller share of overall activity, and several major organizations are pushing back against high-value ransom demands. […] The post The State of Ransomware Q3 2026 appeared first on Check Point Research .
+- **Cisco Talos** (threat_research_primary)
+  - Title: The challenge of defending against bulletproof dead drops on public blockchains
+  - Published: 2026-11-18T11:00:00+00:00
+  - Link: https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/
+  - Summary: The evolution of malware command-and-control (C2) infrastructure has shifted away from fragile, centralized servers and hardcoded domains toward resilient, decentralized blockchain networks that eliminate single points of failure.
+
+### Cluster 3fa9ec72bf — score 11
+
+- Title: Open by Default, Already Occupied: Threat Actors are Renting your Compute
+- Source: Rapid7 (offensive_vulnerability_research)
+- Published: 2026-11-18T14:38:55+00:00
+- Link: https://www.rapid7.com/blog/post/tr-self-hosted-ai-renting-compute-exposed-servers
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: OpenAI/ChatGPT
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_products: OpenAI/ChatGPT
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Full body
+
+```
+$ curl http://<exposed-host>:11434 /api/tags llama3.1:8b qwen3.6:27b glm-5.3:cloud nomic-embed-text:latest deepseek-v4-pro:cloud 103.249.201[.]108:9882/trigger/benign:latest gemma4:e4b zzvitals-beacon:latest huihui_ai/Qwen3.8-abliterated:latest gpt-4o:latest claude-3-opus:latest tinyllama:latest kimi-k2.7-code:cloud verif_sys:latest <tunnel>.trycloudflare[.]com/read/x5fa4534:b1 qwen2.5-coder:7b pwn_ctl_<this-host-ip>_ae52…:latest minimax-m3:cloud ttl[.]sh/dsv40110/dsv4probe:24h bge-m3:latest <tunnel>/L2V0Yy9zaGFkb3c → /etc/shadow Huihui-CyberStrike-OffSec-35B-abliterated smollm2:135m ops-verify:latest mistral-large-4:cloud <tunnel>/L3Byb2Mvc2VsZi9lbnZpcm9u → /proc/self/environ qwen3-embedding:0.6b gpt-4o:latest-copy-test local model cloud-routed or uncensored left by a third party Sample of model names returned by exposed Ollama servers. Green: left by a third party; outlined: cloud-routed or uncensored. Host-identifying parts redacted, infrastructure defanged. More than half of the exposed Ollama servers in this scan have already been touched by someone who is not the owner. I don't mean theoretically vulnerable. I mean visibly used: model names that are really callback addresses, tags stamped with the server's own IP, and Base64 strings that decode to /etc/shadow . Exposure statistics normally describe a risk. These model lists describe activity. An unauthenticated /api/tags call is a read-only request, and on thousands of machines it returns something close to a visitors' log. Below is what the data shows, where I think it points, and what I would do about it on Monday morning. I've labelled claims as [Observed] , [Interpretation] or [Hypothesis] so you can see where the evidence stops. First, the number I don't trust The scanner reported 14,064 findings across 11,891 IP addresses and labelled 14,060 of them vulnerable, 387 critical. If I put that in a headline it would travel well. It would also be wrong. [ Observed ] 148 IP addresses return the exact same fingerprint: Grafana on 3000, Jupyter on 8888, Ollama on three ports, each serving one model, llama3.1:8b . They sit with five different hosting providers in five countries. Another 281 addresses answer as two to five different products on the same port. Real servers rarely do that. Sensors and catch-all responders do it all day. [ Interpretation ] These are most likely deception infrastructure, run by researchers, vendors or threat actors watching who comes knocking. Remove those 429 addresses and the critical findings drop from 387 to 39. MLflow falls from 126 to 4. Honeypots look extremely vulnerable. That's the whole job description. Figure 1 What the scanner flagged versus what holds up Findings per product before and after removing the 148-host identical fleet and IP:port pairs that answer as multiple products. Ollama 8,193 flagged 7,675 hold up Streamlit 4,939 flagged 4,700 hold up Grafana 475 flagged 123 hold up Jupyter Notebook 265 flagged 38 hold up MLflow 126 flagged 4 hold up JupyterHub 66 flagged 11 hold up Streamlit, Grafana and JupyterHub results are presence checks (a health endpoint answers). They prove exposure, not compromise. Default-credential labels on Grafana were inferred by the scanner, not tested. Two more corrections before we go further. A Streamlit health check returning ok tells you an app is on the internet, not that it is exploitable. And the target list was pre-selected: 58% of the 20,354 hosts produced a finding, which is far above any internet-wide base rate. So treat the totals as a sample of a much larger population, not a census. What survives is still uncomfortable: 7,714 findings on 7,627 hosts where an AI or notebook API answered without authentication , almost all of them Ollama. Only 0.3% of all findings were served over HTTPS. The lesson for anyone producing exposure numbers, us included: if you count banners and health checks, you measure how the internet presents itself. You don't measure how it behaves. This is rented comput
+```
+
+#### Corroborating sources (1)
+
+- **Rapid7** (offensive_vulnerability_research)
+  - Title: Open by Default, Already Occupied: Threat Actors are Renting your Compute
+  - Published: 2026-11-18T14:38:55+00:00
+  - Link: https://www.rapid7.com/blog/post/tr-self-hosted-ai-renting-compute-exposed-servers
+
+### Cluster 31919ab83e — score 11
+
+- Title: Microsoft agent-framework Compromised: Credential Stealer Targets Azure and CI Pipelines
+- Source: Wiz Research (cloud_identity_infrastructure)
+- Published: 2026-11-17T22:03:37+00:00
+- Link: https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Azure
+
+#### Cluster taxonomy (union across members)
+- affected_products: Azure, PyPI
+- content_type: incident_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Azure, PyPI
+- content_type: incident_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+On November 17, 2026 at 20:35 UTC, versions 1.26.1 & 1.26.2 of the Microsoft PyPI package agent-framework were published with an added credential stealer. The package gets almost 200k downloads a month. The malicious versions have since been quarantined.
+```
+
+#### Full body
+
+```
+At 20:35 UTC on November 17, 2026, a malicious version ( 1.26.1 ) of the agent-framework package (Microsoft Agent Framework) was uploaded to PyPI. A second version, 1.26.2 , followed at 21:08 UTC. As of 21:30 UTC, both versions were no longer available on PyPI. The package gets about 41,000 downloads a week. The most recent safe version is 1.26.0. When a malicious version is installed, it drops a .pth file into the site-packages root ( agent_framework_meta.pth in 1.26.1, af_runtime_diag.pth in 1.26.2). Python runs .pth files on every interpreter start, so the credential stealer runs whenever Python starts in that environment, even if agent-framework is never imported. Updated Nov 18 14:00 UTC - Updated root cause and analyzed exfiltrated data. Wiz promptly reported these findings to Microsoft on the 17th. Root Cause The attacker's tooling reported its own progress to the same publicly accessible webhook it used for exfiltration, which let Wiz Research observe part of the operation. A timeline of the attack, highlighting information disclosed via attacker use of webhook[.]site The attacker appears to have compromised a client certificate and private key for Microsoft ESRP (Engineering System Release Pipeline), the internal service Microsoft uses to sign and publish this package. Their first publish attempt, from AWS, was rejected by ESRP's IP filtering. A second attempt from Microsoft-owned IP space succeeded. How the credentials were obtained is not yet known. The tooling identifies itself as Cairn , an open-source AI penetration-testing framework : it staged the package at /tmp/cairn_pkg and sent a CAIRN_ESRP_PROBE2 connectivity probe. Before publishing, the attacker ran the stealer on their own machine. That run captured an AI coding agent configuration that appears to be the open-source Pi harness backed by a GLM-family model ( pi_glm53 ), routed through a local proxy. Earlier this year, another Microsoft Python package, durabletask , was compromised after its PyPI token was stolen. We have not linked the two incidents. Timeline (UTC) Time Event 2026-11-12 18:25 Legitimate 1.26.0 published (wheel + sdist, alongside agent-framework-core 1.26.0) 2026-11-17 20:35 Malicious 1.26.1 published 2026-11-17 ~21:08 Malicious 1.26.2 published 2026-11-17 ~21:30 1.26.1 & 1.26.2 no longer available on PyPI Payload agent_framework_meta.pth contains one line: import agent_framework_meta In 1.26.1, agent_framework_meta/__init__.py then calls _telemetry._start() . The stealer forks into a detached session ( os.setsid() ), or falls back to a daemon thread where fork isn't available. It sets _AF_TEL=1 to avoid running again in child processes. The file and function names ( _telemetry , "Lightweight runtime diagnostics hook", user-agent af-runtime-diagnostics/1 ) are made to look like legitimate SDK telemetry. Credential Stealer The stealer is focused on Azure and Azure DevOps. It collects: Environment variables with names containing strings such as TOKEN, SECRET, PASSWORD, KEY, AZURE, AWS, GITHUB, OPENAI, HF_, FOUNDRY, NPM, PIP, NUGET, SYSTEM, BUILD, AGENT Other processes' environments : secret-looking values read from up to 300 /proc/*/environ files Credential files (up to 60): Azure CLI (~/.azure/) .npmrc, pip.conf, .netrc, .git-credentials, .docker/config.json Hugging Face tokens Azure DevOps agent .credentials .env and JSON files under /app and /workspace Azure DevOps OIDC tokens : if SYSTEM_ACCESSTOKEN and SYSTEM_OIDCREQUESTURI are set, it requests an OIDC token for api://AzureADTokenExchange Azure managed-identity tokens from IMDS or the App Service identity endpoint for 12 resources: ARM, Graph, Key Vault, Storage, Cognitive Services, Azure AI/ML, Search, Container Registry, Azure DevOps, and AzureADTokenExchange Azure instance metadata Everything is put into one JSON document, zlib-compressed, base64-encoded, and sent in one HTTPS POST to webhook[.]site . The URL is hardcoded and the payload has no fallback channel. Failures are silentl
+```
+
+#### Corroborating sources (1)
+
+- **Wiz Research** (cloud_identity_infrastructure)
+  - Title: Microsoft agent-framework Compromised: Credential Stealer Targets Azure and CI Pipelines
+  - Published: 2026-11-17T22:03:37+00:00
+  - Link: https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi
+  - Summary: On November 17, 2026 at 20:35 UTC, versions 1.26.1 & 1.26.2 of the Microsoft PyPI package agent-framework were published with an added credential stealer. The package gets almost 200k downloads a month. The malicious versions have since been quarantined.
 
 ### Cluster c5a930f76b — score 11
 
@@ -2430,133 +2249,52 @@ By Nicole Harris and Dustin Ingram Attestations provide a verifiable record of a
   - Link: https://openssf.org/blog/2026/11/17/clearer-security-signals-making-attestations-comprehensible-for-pypi-users/
   - Summary: To help developers and package consumers better understand software supply-chain security, the OpenSSF Securing Software Repositories Working Group created an Attestations Style Guide—and its recommendations are now live on PyPI with redesigned project pages and a dedicated security tab.
 
-### Cluster 8847c7ffaa — score 11
+### Cluster 8835a3e3fc — score 11
 
-- Title: Critical Perforce Puppet RCE Exploited in Attacks
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-11-18T10:37:08+00:00
-- Link: https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/
+- Title: Detecting cross-cloud lateral movement with AWS Security Hub
+- Source: AWS Security Blog (cloud_identity_infrastructure)
+- Published: 2026-11-18T22:28:45+00:00
+- Link: https://aws.amazon.com/blogs/security/detecting-cross-cloud-lateral-movement-with-aws-security-hub/
 - Fetch status: ok
-- Member count: 2
+- Member count: 4
 - Corroborating source count: 2
-- Strong signals: CVE-2026-115731
+- Strong signals: AWS
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, supply_chain
-- affected_industries: government
-- affected_products: ScreenConnect
-- cve_ids: CVE-2026-115731, CVE-2026-115732
-- urgency_signals: poc_available, preauth_unauth
+- affected_industries: financial_services
+- affected_products: AWS, Azure, Microsoft Defender
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: supply_chain, data_breach
-- affected_industries: government
-- affected_products: ScreenConnect
-- cve_ids: CVE-2026-115731, CVE-2026-115732
-- urgency_signals: preauth_unauth, poc_available
+- affected_products: AWS, Azure, Microsoft Defender
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-Tracked as CVE-2026-115731, it allows a client that holds any CA-signed agent certificate to execute code on the server. The post Critical Perforce Puppet RCE Exploited in Attacks appeared first on SecurityWeek .
+Most organizations run a multicloud estate, and so do the attackers targeting them. An adversary who compromises an identity in one provider follows that identity wherever it leads, including across a federated trust into a second cloud service provider. The signals enumerating this scenario are rarely missing; the problem is that they live in separate […]
 ```
 
 #### Full body
 
 ```
-Threat actors have been exploiting a critical-severity vulnerability in Perforce Puppet to execute code on vulnerable servers. Puppet is an infrastructure-as-code (IaC) and configuration management platform that uses a client-server architecture for device management. Tracked as CVE-2026-115731 (CVSS score of 9.4), the exploited security defect is described as a deserialization of untrusted data issue in the report processing of Puppet Enterprise and Puppet Core, leading to remote code execution (RCE). It allows clients that have a certificate signed by the Puppet certificate authority (CA) to send reports containing malicious payloads that would be executed on the server with the service user permissions, putting managed systems at risk. “A successful attack could expose the server’s certificate-signing key, allow an attacker to issue trusted certificates, and enable changes to software and configuration delivered to managed systems on their next Puppet run,” Perforce explains in an advisory . Unauthenticated attackers could obtain a certificate if the CA auto-signs requests without performing strong verification. Administrators are advised to turn off auto-signing and enforce strong validation to ensure only trusted systems and authorized users can receive certificates. Advertisement. Scroll to continue reading. The security hole was patched on November 3 alongside CVE-2026-115732, a critical issue where an attacker could use a certificate with a name that extends an approved name to bypass authorization and impersonate a managed machine. Puppet Enterprise and Puppet Enterprise Advanced versions 2026.0.1, 2025.12.1, and 2023.8.13, and Puppet Core versions 9.1.3 and 8.22.2 contain patches for both flaws. CVE-2026-115731 was flagged as exploited on November 4 and the US cybersecurity agency CISA added it to its Known Exploited Vulnerabilities ( KEV ) catalog on November 17, urging federal agencies to patch it within two weeks, in line with BOD 26-04’s recommendations. The vulnerability also affects the OpenVox configuration management platform. A proof-of-concept (PoC) exploit targeting OpenVox was published shortly after CVE-2026-115731 was patched. Related: Oracle Patches 950 Vulnerabilities With November 2026 CSPU Related: Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover Related: AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says Related: Google Project Zero Sets Course for 30-Day Disclosure Deadline Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire MSP ScreenConnect Servers Targeted in Month-Long Campaign Access Dental Management Data Breach Impacts Over 340,000 Corma Receives $125 Million to Train Foundation Models for Defensive Cybersecurity N-able Kills Legacy APIs, Patches 17 N-central Zero-Days Cursor Supply Chain Attack Started at Fireworks AI Google Project Zero Sets Course for 30-Day Disclosure Deadline Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks Recent UnrealIRCd Vulnerability Exploited in Attacks Latest News Microsoft Takes Perception Agentic Security Platform Out of Preview CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do Chrome 158 Patches 204 Vulnerabilities Microsoft Agent Framework Releases Poisoned With Credential Stealer Oracle Patches 950 Vulnerabilities With November 2026 CSPU Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover Classified Communications Network at the National Security Agency Goes Down, Defense Official Says AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says Trending Optimizely Vulnerability Exploited to Serve Malware on Major Websites Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks Microsoft Rules Out Cyberattack in Outage, Warns of Phish
+AWS Security Blog Detecting cross-cloud lateral movement with AWS Security Hub Most organizations run a multicloud estate, and so do the attackers targeting them. An adversary who compromises an identity in one provider follows that identity wherever it leads, including across a federated trust into a second cloud service provider. The signals enumerating this scenario are rarely missing; the problem is that they live in separate consoles, in different schemas, owned by different teams. No one has visibility into the whole picture, so no one can decide what to fix first. AWS Security Hub addresses prioritization and triage with exposure findings. Security Hub correlates reachability, blast radius, vulnerabilities, misconfigurations, and effective permissions, providing a strong correlation layer with an attack-path visualization, providing the context needed to generate risks from findings. That analysis now extends to Microsoft Azure. Security Hub records and analyzes your Azure resources with the same correlation engine used for Amazon Web Services (AWS) resources. The resulting details and meta-data land in the same console, ranked in the same queue, providing holistic, multicloud visibility into your security risks. In this blog post, you learn how to configure the Azure integration for Security Hub and use exposure findings to prioritize attack paths across both clouds from one console. We follow a realistic scenario: a compromised identity that threatens both an Azure and an AWS environment through a shared, federated identity plane. We show you how the critical exposures along that path are presented as ranked findings that you can triage together, and we map each one to the MITRE ATT&CK framework. We also cover the prerequisites that teams commonly overlook. Why prioritizing multicloud risk is difficult Consider an organization whose Microsoft Entra ID tenant is federated into an AWS account, so identities in the tenant can assume an AWS role. This is an ordinary and intentional configuration used to avoid having to manage a second set of credentials. It also means the two clouds share an identity plane: a single compromised Entra identity is both an Azure threat and—through the federation—an AWS threat. An attacker exploits this, but the defensive signals land in different places: Where the risk lives Traditionally visible in Owned by Weak Entra identity controls: over-privileged identities, no multi-factor authentication (MFA), vulnerable conditional access policies (CAP) Entra ID and Microsoft Defender for Cloud Identity team Internet-reachable Azure host with admin rights Defender for Cloud Azure platform team Federated trust into AWS AWS Identity and Access Management (IAM) Cloud security team Sensitive data and over-exposed resources in AWS AWS security tooling Cloud security team Each team sees one fragment, and in isolation each fragment appears low severity. You see the risk only when you correlate all of it together and discover the same identity plane ties the attack path together. Exposure findings provide that severity within AWS; extending it to Azure closes the multicloud visibility gap. How the Azure integration works You create the Azure connector in the AWS Management Console for Security Hub. It authenticates to your Entra ID tenant through an application registration, records and evaluates your Azure resource configurations, and streams Microsoft Defender for Cloud alerts and Entra ID audit logs through an Azure Event Hubs namespace. Your Azure resources then flow into the same correlation engine that analyzes signals from AWS Security Hub Cloud Security Posture Management (CSPM) , Amazon Inspector , Amazon Macie , and Amazon GuardDuty . That engine produces two kinds of findings: Control findings against standards such as the CIS Microsoft Azure Foundations Benchmark. Exposure findings , which are ranked, attack-path findings that correlate traits such as reachability, effective permissions, and mi
 ```
 
 #### Corroborating sources (2)
 
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Critical Perforce Puppet RCE Exploited in Attacks
-  - Published: 2026-11-18T10:37:08+00:00
-  - Link: https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/
-  - Summary: Tracked as CVE-2026-115731, it allows a client that holds any CA-signed agent certificate to execute code on the server. The post Critical Perforce Puppet RCE Exploited in Attacks appeared first on SecurityWeek .
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers
-  - Published: 2026-11-18T08:24:31+00:00
-  - Link: https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html
-  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active exploitation. The vulnerability, tracked as CVE-2026-115731 (CVSS score: 9.4), is a case of
-
-### Cluster 568f4783d6 — score 10
-
-- Title: LABScon26 Replay | Let’s Get Physical: Why Cybersecurity Needs Hardware-Based Security to Survive AI
-- Source: SentinelOne Labs (threat_research_primary)
-- Published: 2026-11-12T14:00:02+00:00
-- Link: https://www.sentinelone.com/labs/labscon26-replay-let-s-get-physical-why-cybersecurity-needs-hardware-based-security-to-survive-ai/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Adyen’s Dino Dai Zovi shows how hardware security proven in payments can contain AI-driven attacks, even when vulnerabilities cannot be patched.
-```
-
-#### Corroborating sources (1)
-
-- **SentinelOne Labs** (threat_research_primary)
-  - Title: LABScon26 Replay | Let’s Get Physical: Why Cybersecurity Needs Hardware-Based Security to Survive AI
-  - Published: 2026-11-12T14:00:02+00:00
-  - Link: https://www.sentinelone.com/labs/labscon26-replay-let-s-get-physical-why-cybersecurity-needs-hardware-based-security-to-survive-ai/
-  - Summary: Adyen’s Dino Dai Zovi shows how hardware security proven in payments can contain AI-driven attacks, even when vulnerabilities cannot be patched.
-
-### Cluster 467554e7d8 — score 10
-
-- Title: ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-11-11T23:00:53+00:00
-- Link: https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: retail_ecommerce
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: retail_ecommerce
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Learn what Unit 42 discovered about attacker use of AI-powered red team tools, and how to mitigate these attacks. The post ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know appeared first on Unit 42 .
-```
-
-#### Full body
-
-```
-Threat Research Center Insights General General ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know 6 min read Related Products Cortex Cortex XDR Cortex XSIAM Unit 42 Deep and Dark Web Service Unit 42 Incident Response Unit 42 Threat Intelligence Services By: Cuong Dinh Richard Emerson Samantha Stallings Ofek Lahiani Ben Magee Published: November 11, 2026 Categories: General Insights Tags: GenAI LLM Penetration testing Share A rapidly expanding ecosystem of AI-enabled tools such as ARTEX and CyberStrikeAI — marketed for red teaming and penetration testing — are being used by attackers to execute offensive operations autonomously. Their footprint is already substantial. Unit 42 has observed ARTEX used in intrusion attempts against multiple targets . Our Incident Response team investigated multiple intrusions in which the attacker’s server hosted an ARTEX console or used infrastructure and user agents associated with ARTEX. Separately, Unit 42 Managed Threat Hunting tracked a coordinated ARTEX campaign against customer cloud environments in sectors worldwide, including retail and consulting. External scrutiny has already disrupted project lifecycles: the author of ARTEX recently made the repository closed-source and ceased public development to prevent misuse . Emerging alternatives are rapidly filling the void, introducing new capabilities that threat actors will inevitably co-opt. Here, we share our observations of how attackers are using AI-powered red team tools, along with our recommendations for how defenders can mitigate. Why Is ARTEX Such an Effective Tool for Attackers? ARTEX and other red-teaming platforms are free, quick to deploy and need little more than access to a large language model (LLM). ARTEX is an open-source, multi-agent AI penetration testing framework first published in mid-2026. It has been widely forked since. Attackers can use ARTEX to evaluate responses, adapt when something fails and keep pursuing their objective. They can target the identity workflows and APIs that organizations expose to the internet, and then use the associated credentials and trust relationships to reach the cloud. AI-Powered Red Teaming and Pentesting Ecosystem Infrastructure As of October 2026, Unit 42 identified 1,323 internet-facing hosts running CyberStrikeAI and 609 running ARTEX. Notably, 21 hosts were running both at the same time. Unit 42 analyzed 14 tools across the pentesting and red-teaming tool ecosystem, highlighting 12 emerging tools alongside CyberStrikeAI and ARTEX. These tools can be broken down into four categories of AI assisted red team activities. Category Tools Goal Reconnaissance and attack-surface management ARL, ARL-Next, Scope Sentry, Nemo, XingRin, OpenEASD Identify what assets exist, what is exposed and what changes Agent-led testing and vulnerability hunting CyberStrikeAI, ARTEX, Cairn, PentAGI, AutoHunter Manage what should be investigated and how the system can act on it Source-code auditing and verification DeepAudit, AIxVuln Identify where source code might be vulnerable and what supports that finding AI-system security assessment AI-Infra-Guard Identify if AI infrastructure, agents, tools and model interfaces are vulnerable or unreliable Table 1. Tool categories. Implications For Defenders Defenders should be aware of the following implications of AI-powered red teaming platforms: Lowered Skill Floor for Attackers Adversaries no longer require specialized tradecraft to execute multi-stage, adaptive penetration testing. Off-the-shelf tooling combined with LLMs like DeepSeek allows financially motivated actors to launch and manage dozens of complex, concurrent network intrusions for minimal compute cost. Risk of Internet-Exposed Assets Any internet-exposed asset, regardless of organizational size or sector, is equally likely to be impacted by automated, persistent intrusion attempts. Attackers using the autonomous AI penetration testing framework ARTEX are turning public password r
-```
-
-#### Corroborating sources (1)
-
-- **Unit 42** (threat_research_primary)
-  - Title: ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know
-  - Published: 2026-11-11T23:00:53+00:00
-  - Link: https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/
-  - Summary: Learn what Unit 42 discovered about attacker use of AI-powered red team tools, and how to mitigate these attacks. The post ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know appeared first on Unit 42 .
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - Title: Detecting cross-cloud lateral movement with AWS Security Hub
+  - Published: 2026-11-18T22:28:45+00:00
+  - Link: https://aws.amazon.com/blogs/security/detecting-cross-cloud-lateral-movement-with-aws-security-hub/
+  - Summary: Most organizations run a multicloud estate, and so do the attackers targeting them. An adversary who compromises an identity in one provider follows that identity wherever it leads, including across a federated trust into a second cloud service provider. The signals enumerating this scenario are rarely missing; the problem is that they live in separate […]
+- **Elastic Security Labs** (detection_response_operations)
+  - Title: 56 AWS API calls in 141 milliseconds: Inside an AI-run intrusion
+  - Published: 2026-11-13T15:27:20+00:00
+  - Link: https://www.elastic.co/security-labs/threat-command/cyberstrikeai-aws-cloudtrail-intrusion
+  - Summary: A CyberStrikeAI server spent 16 days in four AWS accounts using eight identities, and the CloudTrail record shows why six detection rules each caught only part of it.
 
 ### Cluster 656ea1ba73 — score 10
 
@@ -2607,54 +2345,13 @@ Share Link copied to clipboard! Tags Credential theft Lateral movement Malware V
   - Link: https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/
   - Summary: SCKit abuses ScreenConnect to deploy unauthorized remote access and target technicians. Explore the attack chain, mitigations, and Microsoft Defender XDR hunting. The post SCKit abuses ScreenConnect to deploy remote access and target technician sessions appeared first on Microsoft Security Blog .
 
-### Cluster 5ce28a4ea0 — score 10
+### Cluster 568f4783d6 — score 10
 
-- Title: What Is Threat Intelligence Worth? 142 Security Teams Did the Math.
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-11-17T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/threat-intelligence-roi
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure, education, financial_services
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: financial_services, critical_infrastructure, education
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-We surveyed 142 Recorded Future customers on the value of threat intelligence. See the highlights, then get the full ROI Report.
-```
-
-#### Full body
-
-```
-What Is Threat Intelligence Worth? 142 Security Teams Did the Math. Your board doesn't ask how many alerts your team closed. It wants to know what your security investments are worth in terms it already uses: revenue protected, losses avoided, and costs reduced. That question is hard to answer when attacks are faster and cheaper to scale, the attack surface reaches well past the perimeter, and teams are expected to do more without more headcount. We wanted real numbers on the value Recorded Future customers have experienced, so we partnered with UserEvidence to publish our 2027 ROI Report. It was built from a survey that asked 142 Recorded Future customers about the returns they're seeing. The average result is a 468% annual ROI.* Here's a first look at how they get there. Visibility comes first: 75% found risks they didn't know they had Security teams can't act on what they can't see. Many of the biggest blind spots sit outside the corporate network, where typosquatted domains, leaked credentials, and vendor exposure never trigger an internal alert. Of the customers surveyed, 75% gained visibility into previously unknown risks, the most commonly reported outcome. Among those who gained new visibility, 72% identified lookalike domains before they were weaponized, and 67% caught compromised credentials circulating on dark web markets. For Citizens Financial Group, that outside-in view of exposed credentials means a smaller attack surface and fewer openings for attackers: The ability to identify compromised credentials has reduced our attack surface and helped to mitigate the potential of initial access. Jordan Carpenter Senior Cyber Threat Intelligence Analyst, Citizens Financial Group Style padding-top-0,padding-bottom-0 Efficiency follows: An Average of 28 hours back every week When intelligence arrives already collected, enriched, and scored, analysts spend their time acting on it instead of assembling it. Teams reported reclaiming an average of 28 hours per week across seven core security workflows. They also shifted an average of 26% of tasks from senior to junior analysts, freeing experienced staff for higher-value actions like proactive threat hunting and expanding threat coverage across more attack surfaces. Most are putting that recovered time to work: 70% plan to reinvest it in proactive threat hunting. Then business risk drops Faster, better-informed teams stop threats earlier. Customers reported mean time to detect falling 48% and mean time to remediate falling 50%. They also reported fewer fraud losses, less downtime, and lower cyber insurance premiums. These are the outcomes a CFO and a board often recognize. The posture shift is clear in the sentiment data as well. 90% say Recorded Future has strengthened their overall security posture, and 85% say it helped them move from reactive to proactive. For South Carolina Critical Infrastructure Cybersecurity, reduced business risk translates into tens if not hundreds of thousands of dollars in savings: Without Recorded Future intelligence, these exposures would have remained unknown until an adversary operationalized them, at which point the cost shifts from a brief remediation call to a full incident response engagement, which for a mid-size municipality or school district can easily exceed $50,000–$200,000 in recovery costs alone. Ryan Cummings Cyber Threat Intelligence Analyst, South Carolina Critical Infrastructure Cybersecurity Style padding-top-0,padding-bottom-0 Value that's hard to get elsewhere For every outcome we measured, a clear majority said they could not have fully achieved it without Recorded Future. That includes faster detection: 82% said they couldn't have fully achieved it on their own without Recorded Future. What's in the full report The ROI Report shows exactly how the 468% is calculated, including the dollar value behind each category, the assumptions, and the customer stories that bring the data to life. It also covers: How customers are using
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: What Is Threat Intelligence Worth? 142 Security Teams Did the Math.
-  - Published: 2026-11-17T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/threat-intelligence-roi
-  - Summary: We surveyed 142 Recorded Future customers on the value of threat intelligence. See the highlights, then get the full ROI Report.
-
-### Cluster b999342a06 — score 10
-
-- Title: Five Findings From the 2027 State of Threat Intelligence
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-11-12T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/state-of-threat-intelligence-2027
-- Fetch status: ok
+- Title: LABScon26 Replay | Let’s Get Physical: Why Cybersecurity Needs Hardware-Based Security to Survive AI
+- Source: SentinelOne Labs (threat_research_primary)
+- Published: 2026-11-12T14:00:02+00:00
+- Link: https://www.sentinelone.com/labs/labscon26-replay-let-s-get-physical-why-cybersecurity-needs-hardware-based-security-to-survive-ai/
+- Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -2670,22 +2367,16 @@ What Is Threat Intelligence Worth? 142 Security Teams Did the Math. Your board d
 #### Summary
 
 ```
-What 768 security professionals told us about consolidation, ROI, and AI. Get five takeaways from the 2027 State of Threat Intelligence.
-```
-
-#### Full body
-
-```
-Five Findings From the 2027 State of Threat Intelligence Worth Noting for the Year Ahead The much anticipated State of Threat Intelligence report has just been published. The State of Threat Intelligence report is based on a survey Recorded Future conducted with UserEvidence of 768 cybersecurity professionals at enterprises with at least 1,000 employees. It’s the latest edition in our annual report series, where we gauge how threat intelligence is currently being used, funded, and measured. When I first saw the results of this year’s survey, a few findings stood out to me as especially relevant for anyone who runs, funds, or relies on a threat intelligence program and is planning for the year ahead. Here are my top five findings and why. 1. Cost is the least common reason to consolidate A strong majority of respondents (79%) said they plan to consolidate threat intelligence vendors in the next year. That alone is no huge surprise, especially given that respondents reported using an average of five different vendors. Cost would be a reasonable guess for why, but reducing costs actually ranked last of five drivers, at 5%. The drivers that ranked higher point to what teams want from consolidation: Improving correlation across signals (34%) : connecting intelligence across threat domains and internal telemetry into one view of risk. Bringing siloed tools together (29%) : ensuring different risk owners can efficiently act on intelligence. Simplifying operations (22%) : fewer interfaces and handoffs so teams can act on intelligence sooner. Reducing vendor-management overhead (9%) : fewer vendors to evaluate and renew. Overall investment is still rising: 83% plan to increase threat intelligence spending in the next 12 months. Teams are consolidating to get better results from their intelligence, not to cut spend. That puts the focus on outcomes. Jason Steer, CISO at Recorded Future, framed the risk well: consolidation only counts “if that provider has the same or better outcomes.” For anyone evaluating vendors this year, that’s the bar to consider. Especially as teams expand the reach of their threat intelligence programs and support more stakeholders across the enterprise, they’re pursuing vendors that provide coverage across the risk domains that matter for those teams, but equally important that friction is not created in that pursuit of breadth, and that the organization is able to see how threats across disparate domains actually connect. 2. Only 25% have external intelligence and internal telemetry in one place Correlation is the top consolidation driver, yet only a quarter of respondents say external intelligence and internal telemetry reside in one place. The rest break down as follows: 52% are partially integrated across some tools. 18% rely on manual correlation by analysts. 5% keep the two in separate workflows. Poor integration with existing tools and workflows was also the most-cited pain point with current vendors. This doesn’t mean every team needs to move everything into a single tool. What often matters is whether external intelligence can be correlated with internal signals across the tools a team already uses, without an analyst doing it by hand. Collective Insights® is built for this: it pulls detections from a team’s existing security tools and enriches them with Recorded Future intelligence. For the 70% who are partially integrated or correlating manually, it’s worth identifying where that manual handoff still happens. 3. Confidence in ROI is high, but few measure cost savings Nearly every respondent (99%) formally measures the value of their threat intelligence program, and 57% say they are very confident in their ability to quantify its ROI. But when asked how they measure value, more than half (58%) of that very confident group did not include cost savings. Across all respondents, 39% measure cost savings, and 31% measure whether triggered actions actually worked. The most common metrics are operational: Enha
+Adyen’s Dino Dai Zovi shows how hardware security proven in payments can contain AI-driven attacks, even when vulnerabilities cannot be patched.
 ```
 
 #### Corroborating sources (1)
 
-- **Recorded Future** (threat_research_primary)
-  - Title: Five Findings From the 2027 State of Threat Intelligence
-  - Published: 2026-11-12T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/state-of-threat-intelligence-2027
-  - Summary: What 768 security professionals told us about consolidation, ROI, and AI. Get five takeaways from the 2027 State of Threat Intelligence.
+- **SentinelOne Labs** (threat_research_primary)
+  - Title: LABScon26 Replay | Let’s Get Physical: Why Cybersecurity Needs Hardware-Based Security to Survive AI
+  - Published: 2026-11-12T14:00:02+00:00
+  - Link: https://www.sentinelone.com/labs/labscon26-replay-let-s-get-physical-why-cybersecurity-needs-hardware-based-security-to-survive-ai/
+  - Summary: Adyen’s Dino Dai Zovi shows how hardware security proven in payments can contain AI-driven attacks, even when vulnerabilities cannot be patched.
 
 ### Cluster a46657a5b4 — score 10
 
@@ -2771,6 +2462,53 @@ Content menu Close Subscribe Threat Response Table of Contents Key points Key te
   - Link: https://securelist.com/how-a-cloud-pentest-works/121921/
   - Summary: This is the first article in a series on cloud penetration testing. We'll cover the three cloud layers (External, Overlay, and Underlay), common architectures (OpenStack and Kubernetes), typical attack chains, and real-world incidents.
 
+### Cluster 6e155d51ef — score 10
+
+- Title: The State of Ransomware Q3 2026
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-11-17T22:01:28+00:00
+- Link: https://research.checkpoint.com/2026/the-state-of-ransomware-q3-2026/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
+- actor_attribution: Cl0p, LockBit, ShinyHunters
+- affected_industries: financial_services, government
+- affected_products: Android, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
+- actor_attribution: ShinyHunters, LockBit, Cl0p
+- affected_industries: financial_services, government
+- affected_products: Android, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Ransomware reached record levels in Q3 2026, but the scale of activity is only part of what changed. The ecosystem producing those attacks is becoming increasingly fragmented: more ransomware brands are claiming victims, the top groups account for a smaller share of overall activity, and several major organizations are pushing back against high-value ransom demands. […] The post The State of Ransomware Q3 2026 appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+CATEGORIES AI Research 23 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 483 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 434 How To Guides 13 Ransomware 7 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 The State of Ransomware Q3 2026 November 18, 2026 https://research.checkpoint.com/2026/the-state-of-ransomware-q3-2026/ Ransomware reached record levels in Q3 2026, but the scale of activity is only part of what changed. The ecosystem producing those attacks is becoming increasingly fragmented: more ransomware brands are claiming victims, the top groups account for a smaller share of overall activity, and several major organizations are pushing back against high-value ransom demands. At the same time, established operators such as Qilin and The Gentlemen remain firmly at the top, creating a landscape where strong leaders coexist with an increasingly crowded field of ransomware groups. Key observed findings Q3 2026 was the highest-volume quarter on record, with 2,830 victims published on data leak sites. July recorded 964 victims, August reached 1,042, and September recorded 824. The ransomware ecosystem became more fragmented. The top 10 groups’ share of victims fell for the third consecutive quarter, from 71% in Q1 to 58% in Q2 and 49% in Q3. For the first time, groups outside the top ten collectively accounted for the majority of observed victims. The number of active ransomware brands continued to grow. 117 distinct brands claimed at least one victim in Q3, up from 91 in Q2. Of these, 51 had not claimed a victim in Q2, and 42 made their first observed victim claims during Q3. Qilin remained on top with The Gentlemen still close by. Following the ending of Q2, when for the first time in 2026 Qilin briefly relinquished the leading position in favor of The Gentlemen for one month, Qilin reclaimed first place in July and August, before being overtaken yet again by The Gentlemen in September. Eventually Qilin remained in top position for yet another quarter by a narrow gap. LockBit’s decline continued throughout 2026. Once one of the most prolific ransomware operations, LockBit recorded fewer victims in each successive quarter and fell out of the top ten altogether in Q3. Several major organizations rejected high-value extortion demands. Stadler Rail, the Berlin state government and Manchester Airports Group were among the high-profile organizations that publicly refused ransom demands during the quarter. Ransomware payment patterns continued to diverge. Average payments fell 45% quarter over quarter to just over $1 million, while the median increased 167% to $400,000, pointing to different dynamics between routine payments and the largest extortion demands. The ShinyHunters-Clop dispute exposed rivalry within the ransomware ecosystem. ShinyHunters reportedly breached and defaced Clop’s leak site and demanded a public apology alongside payment, while Q3 also brought increased law-enforcement pressure against cybercriminal operations. To read the full findings, access the State of Ransomware Q2 2026 report from Check Point Research here . GO UP BACK TO ALL POSTS POPULAR POSTS Artificial Intelligence ChatGPT Check Point Research Publications OPWNAI : Cybercriminals Starting to Use ChatGPT Check Point Research Publications Threat Research Hacking Fortnite Accounts Artificial Intelligence ChatGPT Check Point Research Publications OpwnAI: AI That Can Save the Day or HACK it Away BLOGS AND PUBLICATIONS Check Point Research Publications Global Cyber Attack Reports Threat Research February 17, 2020 “The Turkish Rat” Evolved Adwind in a Massive Ongoing Phishing Campaign Check Point Research Publications August 11, 2017 “The Next WannaCry” Vulnerability is Here Check Point Research Publications March 12, 2026 “Handala Hack” – Unveiling Group’s Modus Operandi
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: The State of Ransomware Q3 2026
+  - Published: 2026-11-17T22:01:28+00:00
+  - Link: https://research.checkpoint.com/2026/the-state-of-ransomware-q3-2026/
+  - Summary: Ransomware reached record levels in Q3 2026, but the scale of activity is only part of what changed. The ecosystem producing those attacks is becoming increasingly fragmented: more ransomware brands are claiming victims, the top groups account for a smaller share of overall activity, and several major organizations are pushing back against high-value ransom demands. […] The post The State of Ransomware Q3 2026 appeared first on Check Point Research .
+
 ### Cluster 6411ea2e82 — score 10
 
 - Title: 16th November – Threat Intelligence Report
@@ -2822,6 +2560,49 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 16th Novem
   - Link: https://research.checkpoint.com/2026/16th-november-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 16th November, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES TSMC, a major Taiwanese semiconductor manufacturer, has confirmed a data breach at an unnamed cloud provider that exposed information about current and former employees. A hacker advertised 6.9 GB of allegedly stolen […] The post 16th November – Threat Intelligence Report appeared first on Check Point Research .
 
+### Cluster 912dd8fe31 — score 10
+
+- Title: ARTEX and beyond: AI-enabled penetration testing platforms
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-11-13T20:57:13+00:00
+- Link: https://blog.talosintelligence.com/artex-and-beyond/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, credential_theft, ransomware_extortion
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, credential_theft, active_exploitation
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+AI-enabled penetration testing and red team frameworks can automate and chain reconnaissance, vulnerability testing, and follow-on actions, lowering the skill threshold for attackers and accelerating intrusions when the tools are misused.
+```
+
+#### Full body
+
+```
+ARTEX and beyond: AI-enabled penetration testing platforms By Cisco Talos Friday, November 13, 2026 15:57 Threat Advisory Cisco Talos is tracking the growing in-the-wild usage of AI-enabled penetration testing frameworks. AI-enabled penetration testing and red team frameworks can automate and chain reconnaissance, vulnerability testing, and follow-on actions, lowering the skill threshold for attackers and accelerating intrusions when the tools are misused. Talos has seen full automation of the attack chain by these frameworks, which not only use free and open-source tools, like nmap and nuclei, but also take advantage of internet mapping services like Censys and Shodan, CAPTCHA bypass services, credential leak management services, residential proxies, and even hash cracking services. This is the case of Hephaestus, which we mentioned in our previous report . Although these frameworks all have the same purpose, they come in different flavors. Some, like Hephaestus, are command line tools which can be deployed with a single script on a VPS and are completely controllable via Telegram. PentAGI has a web interface to monitor the agent activity with a full attack chain graph design and monitoring. Talos found more than 700 instances of currently reachable PentAGI instances on the internet. HexStrike AI integrates with many different clients like Claude Code, VS Code, or any other client that supports MCP. One such framework making waves, ARTEX, has enabled threat actors to scale offensive operations, compressing work that may have previously taken skilled teams hours or days into activity that can unfold at machine speed. Talos’ analysis of ARTEX-associated IP addresses identified a diverse set of tools concurrently present on that infrastructure, reinforcing ARTEX’s role in a broader and varied threat environment. AI-enabled frameworks: A new reality Before we delve into ARTEX, it is clear that these frameworks are the new reality. Their evolution will most likely include autonomous lateral movement followed by data identification and exfiltration. The precursor of this can already be seen in the victim prioritization of the Volta Infostealer, described in detail in this Talos report . It is highly likely that future attack chains involving these frameworks will culminate in data exfiltration and ransomware activation, all being done autonomously by one of these frameworks. Such evolutions present new challenges to defenders: It reduces the time it takes to detect a compromise without any known indicators of compromise (IOCs). We provide guidance to help overcome this challenge in the Recommendations section. After malicious activity is identified, it is crucial to contain the incidents. These frameworks work at speeds that can make it impossible for human operators to identify, assess and react in time to disrupt the attack. These frameworks make mitigation and containment, along with a battle-tested cybersecurity incident response plan, imperative for organizations' resiliency. Defenders using AI can be a force multiplier to provide much-needed improvements, both in the speed and scale of response to such attacks. ARTEX ARTEX is an AI-enabled penetration testing framework developed under the pseudonym Autumn-27 and published on GitHub in July 2026. An operator gives it a target and objective, a planner agent breaks the objective into tasks, worker agents perform them using security tools, and the framework records assets, findings, and progress in a shared graph. ARTEX can use different large language models (LLMs) and requires relatively little operator input after a task begins. It was designed for authorized security testing, but recent public reporting documented its use in both criminal and targeted intrusion campaigns within weeks of its release. It is important to note that ARTEX is not natively bundled with any traditional command-and-control (C2) framework, though the Model Context Protocol (MCP) extensibility layer mea
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: ARTEX and beyond: AI-enabled penetration testing platforms
+  - Published: 2026-11-13T20:57:13+00:00
+  - Link: https://blog.talosintelligence.com/artex-and-beyond/
+  - Summary: AI-enabled penetration testing and red team frameworks can automate and chain reconnaissance, vulnerability testing, and follow-on actions, lowering the skill threshold for attackers and accelerating intrusions when the tools are misused.
+
 ### Cluster e260def6a2 — score 10
 
 - Title: GTA VI isn’t out yet – and the scams are already in full swing
@@ -2865,48 +2646,85 @@ Digital Security GTA VI isn’t out yet – and the scams are already in full sw
   - Link: https://www.welivesecurity.com/en/cybersecurity/gta-vi-isnt-out-yet-scams-full-swing/
   - Summary: Cybercriminals attempt to cash in on the hype around the game, luring fans with malware-laced downloads and ‘early access’ that doesn’t exist
 
-### Cluster 912dd8fe31 — score 10
+### Cluster 5ce28a4ea0 — score 10
 
-- Title: ARTEX and beyond: AI-enabled penetration testing platforms
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-11-13T20:57:13+00:00
-- Link: https://blog.talosintelligence.com/artex-and-beyond/
+- Title: What Is Threat Intelligence Worth? 142 Security Teams Did the Math.
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-11-17T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/threat-intelligence-roi
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, credential_theft, ransomware_extortion
-- affected_products: Cisco
+- affected_industries: critical_infrastructure, education, financial_services
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, credential_theft, active_exploitation
-- affected_products: Cisco
+- affected_industries: financial_services, critical_infrastructure, education
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-AI-enabled penetration testing and red team frameworks can automate and chain reconnaissance, vulnerability testing, and follow-on actions, lowering the skill threshold for attackers and accelerating intrusions when the tools are misused.
+We surveyed 142 Recorded Future customers on the value of threat intelligence. See the highlights, then get the full ROI Report.
 ```
 
 #### Full body
 
 ```
-ARTEX and beyond: AI-enabled penetration testing platforms By Cisco Talos Friday, November 13, 2026 15:57 Threat Advisory Cisco Talos is tracking the growing in-the-wild usage of AI-enabled penetration testing frameworks. AI-enabled penetration testing and red team frameworks can automate and chain reconnaissance, vulnerability testing, and follow-on actions, lowering the skill threshold for attackers and accelerating intrusions when the tools are misused. Talos has seen full automation of the attack chain by these frameworks, which not only use free and open-source tools, like nmap and nuclei, but also take advantage of internet mapping services like Censys and Shodan, CAPTCHA bypass services, credential leak management services, residential proxies, and even hash cracking services. This is the case of Hephaestus, which we mentioned in our previous report . Although these frameworks all have the same purpose, they come in different flavors. Some, like Hephaestus, are command line tools which can be deployed with a single script on a VPS and are completely controllable via Telegram. PentAGI has a web interface to monitor the agent activity with a full attack chain graph design and monitoring. Talos found more than 700 instances of currently reachable PentAGI instances on the internet. HexStrike AI integrates with many different clients like Claude Code, VS Code, or any other client that supports MCP. One such framework making waves, ARTEX, has enabled threat actors to scale offensive operations, compressing work that may have previously taken skilled teams hours or days into activity that can unfold at machine speed. Talos’ analysis of ARTEX-associated IP addresses identified a diverse set of tools concurrently present on that infrastructure, reinforcing ARTEX’s role in a broader and varied threat environment. AI-enabled frameworks: A new reality Before we delve into ARTEX, it is clear that these frameworks are the new reality. Their evolution will most likely include autonomous lateral movement followed by data identification and exfiltration. The precursor of this can already be seen in the victim prioritization of the Volta Infostealer, described in detail in this Talos report . It is highly likely that future attack chains involving these frameworks will culminate in data exfiltration and ransomware activation, all being done autonomously by one of these frameworks. Such evolutions present new challenges to defenders: It reduces the time it takes to detect a compromise without any known indicators of compromise (IOCs). We provide guidance to help overcome this challenge in the Recommendations section. After malicious activity is identified, it is crucial to contain the incidents. These frameworks work at speeds that can make it impossible for human operators to identify, assess and react in time to disrupt the attack. These frameworks make mitigation and containment, along with a battle-tested cybersecurity incident response plan, imperative for organizations' resiliency. Defenders using AI can be a force multiplier to provide much-needed improvements, both in the speed and scale of response to such attacks. ARTEX ARTEX is an AI-enabled penetration testing framework developed under the pseudonym Autumn-27 and published on GitHub in July 2026. An operator gives it a target and objective, a planner agent breaks the objective into tasks, worker agents perform them using security tools, and the framework records assets, findings, and progress in a shared graph. ARTEX can use different large language models (LLMs) and requires relatively little operator input after a task begins. It was designed for authorized security testing, but recent public reporting documented its use in both criminal and targeted intrusion campaigns within weeks of its release. It is important to note that ARTEX is not natively bundled with any traditional command-and-control (C2) framework, though the Model Context Protocol (MCP) extensibility layer mea
+What Is Threat Intelligence Worth? 142 Security Teams Did the Math. Your board doesn't ask how many alerts your team closed. It wants to know what your security investments are worth in terms it already uses: revenue protected, losses avoided, and costs reduced. That question is hard to answer when attacks are faster and cheaper to scale, the attack surface reaches well past the perimeter, and teams are expected to do more without more headcount. We wanted real numbers on the value Recorded Future customers have experienced, so we partnered with UserEvidence to publish our 2027 ROI Report. It was built from a survey that asked 142 Recorded Future customers about the returns they're seeing. The average result is a 468% annual ROI.* Here's a first look at how they get there. Visibility comes first: 75% found risks they didn't know they had Security teams can't act on what they can't see. Many of the biggest blind spots sit outside the corporate network, where typosquatted domains, leaked credentials, and vendor exposure never trigger an internal alert. Of the customers surveyed, 75% gained visibility into previously unknown risks, the most commonly reported outcome. Among those who gained new visibility, 72% identified lookalike domains before they were weaponized, and 67% caught compromised credentials circulating on dark web markets. For Citizens Financial Group, that outside-in view of exposed credentials means a smaller attack surface and fewer openings for attackers: The ability to identify compromised credentials has reduced our attack surface and helped to mitigate the potential of initial access. Jordan Carpenter Senior Cyber Threat Intelligence Analyst, Citizens Financial Group Style padding-top-0,padding-bottom-0 Efficiency follows: An Average of 28 hours back every week When intelligence arrives already collected, enriched, and scored, analysts spend their time acting on it instead of assembling it. Teams reported reclaiming an average of 28 hours per week across seven core security workflows. They also shifted an average of 26% of tasks from senior to junior analysts, freeing experienced staff for higher-value actions like proactive threat hunting and expanding threat coverage across more attack surfaces. Most are putting that recovered time to work: 70% plan to reinvest it in proactive threat hunting. Then business risk drops Faster, better-informed teams stop threats earlier. Customers reported mean time to detect falling 48% and mean time to remediate falling 50%. They also reported fewer fraud losses, less downtime, and lower cyber insurance premiums. These are the outcomes a CFO and a board often recognize. The posture shift is clear in the sentiment data as well. 90% say Recorded Future has strengthened their overall security posture, and 85% say it helped them move from reactive to proactive. For South Carolina Critical Infrastructure Cybersecurity, reduced business risk translates into tens if not hundreds of thousands of dollars in savings: Without Recorded Future intelligence, these exposures would have remained unknown until an adversary operationalized them, at which point the cost shifts from a brief remediation call to a full incident response engagement, which for a mid-size municipality or school district can easily exceed $50,000–$200,000 in recovery costs alone. Ryan Cummings Cyber Threat Intelligence Analyst, South Carolina Critical Infrastructure Cybersecurity Style padding-top-0,padding-bottom-0 Value that's hard to get elsewhere For every outcome we measured, a clear majority said they could not have fully achieved it without Recorded Future. That includes faster detection: 82% said they couldn't have fully achieved it on their own without Recorded Future. What's in the full report The ROI Report shows exactly how the 468% is calculated, including the dollar value behind each category, the assumptions, and the customer stories that bring the data to life. It also covers: How customers are using
 ```
 
 #### Corroborating sources (1)
 
-- **Cisco Talos** (threat_research_primary)
-  - Title: ARTEX and beyond: AI-enabled penetration testing platforms
-  - Published: 2026-11-13T20:57:13+00:00
-  - Link: https://blog.talosintelligence.com/artex-and-beyond/
-  - Summary: AI-enabled penetration testing and red team frameworks can automate and chain reconnaissance, vulnerability testing, and follow-on actions, lowering the skill threshold for attackers and accelerating intrusions when the tools are misused.
+- **Recorded Future** (threat_research_primary)
+  - Title: What Is Threat Intelligence Worth? 142 Security Teams Did the Math.
+  - Published: 2026-11-17T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/threat-intelligence-roi
+  - Summary: We surveyed 142 Recorded Future customers on the value of threat intelligence. See the highlights, then get the full ROI Report.
+
+### Cluster 939768379a — score 10
+
+- Title: Threat Hunting On The Network: An Active Search for Risks on the Wire
+- Source: Black Hills Information Security (detection_response_operations)
+- Published: 2026-11-18T21:57:58+00:00
+- Link: https://www.blackhillsinfosec.com/threat-hunting-network/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+All threat hunters are looking for evidence of nefarious activity, hopefully before an incident happens. Threat hunting on the network involves actively searching through packet data for malicious activity. Threat hunting on an endpoint depends more heavily on logs. Think of it as on the wire (or in the air) versus on a host itself. Don’t worry, you don’t have to look through every packet in a pcap file. That would make your head explode!
+```
+
+#### Full body
+
+```
+This article was originally published in the InfoSec Survival Guide: Teal Book — Threat Hunting. Read it free online HERE , or grab it on the Spearphish General Store (free digital download or a $1.25 physical copy, your call). All threat hunters are looking for evidence of nefarious activity, hopefully before an incident happens. Threat hunting on the network involves actively searching through packet data for malicious activity. Threat hunting on an endpoint depends more heavily on logs. Think of it as on the wire (or in the air) versus on a host itself. Don’t worry, you don’t have to look through every packet in a pcap file. That would make your head explode! We would like to think our firewalls and Intrusion Detection/Prevention Systems (IDS or IPS) are blocking all evil traffic from coming in, but those appliances have limits. Adversaries evolve their techniques faster than the static signatures used on our perimeter defenses. Updates from vendors and threat intelligence feeds can’t keep up. A network threat hunter looks for patterns beyond specific byte sequences, file hashes, and documented signature exploits. In contrast to signatures, behavior analysis lets network threat hunters draw insights from network baselines to understand expected protocols and traffic flows. Threat actors may change their techniques and procedures, but they still have fundamental network behaviors. Signature-Based vs Behavioral Analysis in Threat Hunting Common Data Sources NetFlow or Internet Protocol Flow Information Export (IPFIX) records Every switch, router, firewall, VPN appliance, IDS/IPS, or other network device capable of exporting flow data should be sending these flow records to the SIEM. HTTP/HTTPs Proxy logs for TLS/HTTP headers VPN appliance logs for external connections to internal resources Full packet captures Pcap files captured from taps or SPAN sessions. My Favorite Tools NetFlow/IPFIX/logs > SIEM (Wazuh or Graylog) for aggregation and metadata Logs and/or packets > Elasticsearch > Kibana for log analysis and visualization Packets > Zeek > RITA by Active Countermeasures for full packet capture, indexing, alerting, and search Packets > Arkime for full packet capture, indexing, and search Packets > Wireshark or TShark for deep analysis A Few Additional Indicators Unusual port usage: services running on non-standard ports. DNS anomalies: DGA domains, DNS tunneling, or excessive NXDOMAIN responses. Failed authentication attempts: brute force indicators across multiple systems. Certificate anomalies: mismatched common names or short validity periods. TLS/SSL anomalies: weak ciphers, unusual JA3/JA4+ hashes, or certificate chain issues. My Favorite Methodologies Crown jewel analysis — Focus on protecting most critical assets and data. Hypothesis-driven hunting — Form theories about potential threats and test them. Kill chain mapping — Identify which attack phase the indicators belong to. Assumed breach methodology — Operate as though compromise has already occurred. Take advantage of established frameworks: MITRE ATT&CK®, Pyramid of Pain, PEAK. A good network threat hunter is also looking at internal traffic. Is Susie in Accounting supposed to be using SSH to access a server in another country? No. What about Brad in Marketing? Is it normal for him to download multi-gigabyte files from a server in the data center? Maybe. At three o’clock in the morning? Probably not. Finally, don’t be afraid to dive in. Threat hunting is not just for the most experienced cybersecurity analysts. Start with a single protocol and tools you already have to build confidence. Explore the Infosec Survival Guide and more… for FREE! Get instant access to every issue of the Infosec Survival Guide, as well as our self-published infosec zine PROMPT#, and exclusive Darknet Diaries comics — all available at no cost. CHECK OUT ALL ISSUES HERE! ← Back to blog
+```
+
+#### Corroborating sources (1)
+
+- **Black Hills Information Security** (detection_response_operations)
+  - Title: Threat Hunting On The Network: An Active Search for Risks on the Wire
+  - Published: 2026-11-18T21:57:58+00:00
+  - Link: https://www.blackhillsinfosec.com/threat-hunting-network/
+  - Summary: All threat hunters are looking for evidence of nefarious activity, hopefully before an incident happens. Threat hunting on the network involves actively searching through packet data for malicious activity. Threat hunting on an endpoint depends more heavily on logs. Think of it as on the wire (or in the air) versus on a host itself. Don’t worry, you don’t have to look through every packet in a pcap file. That would make your head explode!
 
 ### Cluster af8584c920 — score 10
 
@@ -3033,6 +2851,49 @@ Since 2021, Project Zero has followed a â90 + 30â vulnerability disclo
   - Link: https://projectzero.google/2026/11/disclosure-policy.html
   - Summary: Since 2021, Project Zero has followed a “90 + 30” vulnerability disclosure policy, allowing vendors up to 90 days to remediate a vulnerability plus an extra 30 days “soak time” for patch rollout. Our goal was to encourage faster patching and give vendors time to deliver patches to users. The advent of AI-assisted vulnerability discovery and exploitation has changed the threat landscape such that the vulnerability remediation timeline encouraged by our disclosure policy is clearly insufficient. LLMs have increased the speed at which attackers can find and exploit vulnerabilities, alongside the risk that multiple parties, including malicious ones, discover the same bug. A vulnerability reported today presents a much higher immediate risk to users than one reported last year. In this new environment, it is crucial that vendors move towards remediating vulnerabilities faster.
 
+### Cluster 3bcd6761c3 — score 10
+
+- Title: GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold
+- Source: Google Cloud Threat Intelligence (threat_research_primary)
+- Published: 2026-11-16T14:00:00+00:00
+- Link: https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, apt_espionage, supply_chain
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, apt_espionage, active_exploitation
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Written by: Aurora Blum, Kelli Vanderlee, Jess Xia, David Mainor Executive Summary As threat actors increasingly move beyond basic prompting to deploying autonomous multi-agent frameworks , automated vulnerability exploitation pipelines, and alternative monetization schemes like LLMJacking , the adversarial AI landscape has reached a critical inflection point. In this update, Google Threat Intelligence Group (GTIG) and Mandiant examine how adversaries across the cyber crime, espionage, and information operations spectrum are operationalizing generative AI to compress attack timelines, scale operations, and execute multi-stage intrusions at machine speed. Key trends over the last quarter include: Shift to Autonomous Workflows and Multi-Agent Frameworks: Adversary tradecraft has continued to transition beyond manual prompting to deploying autonomous multi-agent offensive frameworks—such as ARTEX , CAIRN, CyberStrikeAI, and PentAGI—to execute multi-stage intrusions at greater operational
+```
+
+#### Full body
+
+```
+Threat Intelligence GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold November 16, 2026 Google Threat Intelligence Group Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Written by: Aurora Blum, Kelli Vanderlee, Jess Xia, David Mainor Executive Summary As threat actors increasingly move beyond basic prompting to deploying autonomous multi-agent frameworks , automated vulnerability exploitation pipelines, and alternative monetization schemes like LLMJacking , the adversarial AI landscape has reached a critical inflection point. In this update, Google Threat Intelligence Group (GTIG) and Mandiant examine how adversaries across the cyber crime, espionage, and information operations spectrum are operationalizing generative AI to compress attack timelines, scale operations, and execute multi-stage intrusions at machine speed. Key trends over the last quarter include: Shift to Autonomous Workflows and Multi-Agent Frameworks: Adversary tradecraft has continued to transition beyond manual prompting to deploying autonomous multi-agent offensive frameworks—such as ARTEX , CAIRN, CyberStrikeAI, and PentAGI—to execute multi-stage intrusions at greater operational velocity. Automated Vulnerability Research and Exploitation: Threat actors are increasingly leveraging LLMs and agentic frameworks to fully automate the reverse engineering of patches via differential analysis, allowing them to rapidly weaponize n-day vulnerabilities and scale exploitation pipelines against internet-facing servers without human intervention. Monetization and Infrastructure Abuse : Financially motivated threat actors continue to profit from LLMJacking by stealing LLM credentials and cloud resources from compromised enterprise environments and reselling access to high-performance AI models through underground proxy services (e.g., LLM Mixers). LLM Integration in Information Operations (IO): State-sponsored groups, commercial Influence-as-a-Service (IaaS) vendors, and inauthentic political monetization networks now routinely use LLMs in their operations to produce synthetic media at scale, create localized personas, and automate cross-platform distribution. Targeted Espionage and Supply Chain Evolution: Cyber espionage groups are leveraging LLMs for target research, automated data analysis, and novel supply chain attack vectors—such as manipulating autonomous coding assistant configurations to drop backdoors during local execution. Grounded in telemetry from frontline Mandiant incident response engagements, global threat actor tracking, and live platform defenses, this report details how state-sponsored espionage groups, financially motivated cyber criminals, and IO threat actors are operationalizing LLMs in the wild. At Google, we are committed to developing AI boldly and responsibly. Our multifaceted defense strategy integrates proactive model-level safeguards, specialized threat intelligence, and targeted containment protocols to protect our customers and infrastructure. We continuously harden our models against misuse, mitigate malicious activity through proactive disruption of bad actor projects and accounts, and use our autonomous Google AI Threat Defense architecture and BeyondZero to operationalize security, continuous monitoring, and responding at machine speed across enterprise environments. Multi-Agent Frameworks in Cyber Intrusions While previous milestones documented in our quarterly research highlighted nascent adversary interest in agentic capabilities, GTIG and Mandiant have now observed multiple threat actors abusing open source, agentic penetration-testing (pentesting) frameworks to automate discrete phases and specific operational tasks during live intrusions. Threat actor adoption of these frameworks represents a paradigm shift towards intrusions occurring at machine speed, with the automated chaining of complex attack paths scaling operations significantly. W
+```
+
+#### Corroborating sources (1)
+
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - Title: GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold
+  - Published: 2026-11-16T14:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold/
+  - Summary: Written by: Aurora Blum, Kelli Vanderlee, Jess Xia, David Mainor Executive Summary As threat actors increasingly move beyond basic prompting to deploying autonomous multi-agent frameworks , automated vulnerability exploitation pipelines, and alternative monetization schemes like LLMJacking , the adversarial AI landscape has reached a critical inflection point. In this update, Google Threat Intelligence Group (GTIG) and Mandiant examine how adversaries across the cyber crime, espionage, and information operations spectrum are operationalizing generative AI to compress attack timelines, scale operations, and execute multi-stage intrusions at machine speed. Key trends over the last quarter include: Shift to Autonomous Workflows and Multi-Agent Frameworks: Adversary tradecraft has continued to transition beyond manual prompting to deploying autonomous multi-agent offensive frameworks—such as ARTEX , CAIRN, CyberStrikeAI, and PentAGI—to execute multi-stage intrusions at greater operational
+
 ### Cluster 43abe38f10 — score 10
 
 - Title: Data breach impacts 40 Irish credit unions in reported IT provider hack
@@ -3077,6 +2938,62 @@ Data breach impacts 40 Irish credit unions in reported IT provider hack By Bill 
   - Published: 2026-11-18T19:39:33+00:00
   - Link: https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/
   - Summary: A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which are located in Ireland. [...]
+
+### Cluster 8847c7ffaa — score 10
+
+- Title: Critical Perforce Puppet RCE Exploited in Attacks
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-11-18T10:37:08+00:00
+- Link: https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: CVE-2026-115731
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, data_breach, supply_chain
+- actor_attribution: Scattered Spider
+- affected_industries: government
+- affected_products: ScreenConnect
+- cve_ids: CVE-2026-115731, CVE-2026-115732
+- urgency_signals: poc_available, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, data_breach, apt_espionage
+- actor_attribution: Scattered Spider
+- affected_industries: government
+- affected_products: ScreenConnect
+- cve_ids: CVE-2026-115731, CVE-2026-115732
+- urgency_signals: preauth_unauth, poc_available
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Tracked as CVE-2026-115731, it allows a client that holds any CA-signed agent certificate to execute code on the server. The post Critical Perforce Puppet RCE Exploited in Attacks appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Threat actors have been exploiting a critical-severity vulnerability in Perforce Puppet to execute code on vulnerable servers. Puppet is an infrastructure-as-code (IaC) and configuration management platform that uses a client-server architecture for device management. Tracked as CVE-2026-115731 (CVSS score of 9.4), the exploited security defect is described as a deserialization of untrusted data issue in the report processing of Puppet Enterprise and Puppet Core, leading to remote code execution (RCE). It allows clients that have a certificate signed by the Puppet certificate authority (CA) to send reports containing malicious payloads that would be executed on the server with the service user permissions, putting managed systems at risk. “A successful attack could expose the server’s certificate-signing key, allow an attacker to issue trusted certificates, and enable changes to software and configuration delivered to managed systems on their next Puppet run,” Perforce explains in an advisory . Unauthenticated attackers could obtain a certificate if the CA auto-signs requests without performing strong verification. Administrators are advised to turn off auto-signing and enforce strong validation to ensure only trusted systems and authorized users can receive certificates. Advertisement. Scroll to continue reading. The security hole was patched on November 3 alongside CVE-2026-115732, a critical issue where an attacker could use a certificate with a name that extends an approved name to bypass authorization and impersonate a managed machine. Puppet Enterprise and Puppet Enterprise Advanced versions 2026.0.1, 2025.12.1, and 2023.8.13, and Puppet Core versions 9.1.3 and 8.22.2 contain patches for both flaws. CVE-2026-115731 was flagged as exploited on November 4 and the US cybersecurity agency CISA added it to its Known Exploited Vulnerabilities ( KEV ) catalog on November 17, urging federal agencies to patch it within two weeks, in line with BOD 26-04’s recommendations. The vulnerability also affects the OpenVox configuration management platform. A proof-of-concept (PoC) exploit targeting OpenVox was published shortly after CVE-2026-115731 was patched. Related: Oracle Patches 950 Vulnerabilities With November 2026 CSPU Related: Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover Related: AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says Related: Google Project Zero Sets Course for 30-Day Disclosure Deadline Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says MSP ScreenConnect Servers Targeted in Month-Long Campaign Access Dental Management Data Breach Impacts Over 340,000 Corma Receives $125 Million to Train Foundation Models for Defensive Cybersecurity N-able Kills Legacy APIs, Patches 17 N-central Zero-Days Cursor Supply Chain Attack Started at Fireworks AI Google Project Zero Sets Course for 30-Day Disclosure Deadline Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks Latest News VeroSecurity Raises $11 Million for AI Security Engineering Platform Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization Last of Five Defendants Sentenced in US Scattered Spider Hacking Case Microsoft Takes Perception Agentic Security Platform Out of Preview CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do Chrome 158 Patches 204 Vulnerabilities Microsoft Agent Framework Releases Poisoned With Credential Stealer Oracle Patches 950 Vulnerabilities With November 2026 CSPU Trending Optimizely Vulnerability Exploited to Serve Malware on Major Websites Java4Shell Vulnerability Puts Enterprise Applications at Risk of Takeover Amplifier Security Emerges From Stealth With AI Copilo
+```
+
+#### Corroborating sources (2)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Critical Perforce Puppet RCE Exploited in Attacks
+  - Published: 2026-11-18T10:37:08+00:00
+  - Link: https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/
+  - Summary: Tracked as CVE-2026-115731, it allows a client that holds any CA-signed agent certificate to execute code on the server. The post Critical Perforce Puppet RCE Exploited in Attacks appeared first on SecurityWeek .
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers
+  - Published: 2026-11-18T08:24:31+00:00
+  - Link: https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html
+  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active exploitation. The vulnerability, tracked as CVE-2026-115731 (CVSS score: 9.4), is a case of
 
 ### Cluster a4a11d6f47 — score 10
 
@@ -3215,101 +3132,55 @@ Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentica
   - Link: https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html
   - Summary: Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass. The critical vulnerabilities that impact NetScaler ADC and NetScaler Gateway are listed below - CVE-2026-120868 (CVSS score: 9.3) - A memory overflow vulnerability in Packet
 
-### Cluster 251971e49e — score 10
+### Cluster 35b37c39d9 — score 10
 
-- Title: Introducing simplified onboarding for AWS WAF Bot Control at the targeted inspection level
-- Source: AWS Security Blog (cloud_identity_infrastructure)
-- Published: 2026-11-17T23:15:03+00:00
-- Link: https://aws.amazon.com/blogs/security/introducing-simplified-onboarding-for-aws-waf-bot-control-at-the-targeted-inspection-level/
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 2
-- Strong signals: AWS
-
-#### Cluster taxonomy (union across members)
-- affected_industries: financial_services
-- affected_products: AWS
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: AWS
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Today, we’re announcing simplified onboarding and bot confidence levels for AWS WAF Bot Control at the targeted inspection level, which we refer to as Targeted bot control in this post, matching the console. Bot confidence levels and the new LATEST rule group version are available for the resource types that AWS WAF protects: you act […]
-```
-
-#### Full body
-
-```
-AWS Security Blog Introducing simplified onboarding for AWS WAF Bot Control at the targeted inspection level Today, we’re announcing simplified onboarding and bot confidence levels for AWS WAF Bot Control at the targeted inspection level, which we refer to as Targeted bot control in this post, matching the console. Bot confidence levels and the new LATEST rule group version are available for the resource types that AWS WAF protects: you act on advanced bot detections by confidence level instead of writing label rules, and you stay on the newest detections without manual upgrades, helping you respond to automated traffic, including traffic from AI-powered bots. For the websites and applications that you deliver through Amazon CloudFront , simplified onboarding goes further: you turn on Targeted bot control from a single console setting, and automatic SDK integration , which launched last month , removes the need for application code changes in many cases. In this post, we explain what the simplified onboarding experience looks like and how to get started when protecting CloudFront-delivered applications. Granular control takes effort to configure Targeted bot control uses advanced behavioral analysis designed to help identify sophisticated bots that attempt to evade traditional detection mechanisms. It uses machine learning and client-side signals to help detect sophisticated AI-based bots. It’s also deliberately granular: it surfaces each detection as its own label, so you can build rules around specific behaviors. The number of choices (which labels, which combinations, and which order) is a lot to evaluate and implement when your immediate goal is to implement the first round of protections. To get the full value of Targeted bot control, and to help reduce false positives by grouping its signals into confidence levels, you typically do the following: Add the AWS WAF Bot Control managed rule group to your protection pack, set the inspection level to Targeted , and choose a rule group version. Integrate the AWS WAF JavaScript SDK into your application. This is an application code change, often owned by a different team at your company and tied to a different release cycle. Learn which AWS WAF labels the rules emit and what they mean, and decide which combinations indicate a bot with high confidence. Write label-match rules that group those labels into bot confidence levels, place them in the right order, and keep them current as new rule group versions add labels. We’ve published guidance on grouping targeted bot labels into confidence tiers . For teams without dedicated security engineers, the path to implement the solution can be long. Completing every step can take time, especially when the SDK integration depends on another team’s release cycle, so rules can remain in Count mode longer than intended. What’s new You can now turn on Targeted bot control with a single toggle. AWS WAF sets up the recommended configuration for you and keeps it on the latest detections, and you don’t need to change your application code to integrate AWS WAF JavaScript SDK for CloudFront-delivered applications in many cases. When you use this toggle, AWS WAF configures the following for you: Targeted inspection level – The AWS WAF Bot Control rule group is added (or configured) with the inspection level set to Targeted and machine learning turned on. Actions for each bot confidence level – Each confidence level (High, Medium, or Low) gets an AWS-recommended action, which you can change. Rule group version – The rule group is set to the LATEST version, which points to the most recent AWS WAF Bot Control release, so you get new detections without upgrading manually. Rule order – A newly added AWS WAF Bot Control rule group is placed after the existing rules. Automatic SDK integration – This option is available for protection packs with the CloudFront scope and is turned on by default, so the targeted detections receive browser signals from the star
-```
-
-#### Corroborating sources (2)
-
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - Title: Introducing simplified onboarding for AWS WAF Bot Control at the targeted inspection level
-  - Published: 2026-11-17T23:15:03+00:00
-  - Link: https://aws.amazon.com/blogs/security/introducing-simplified-onboarding-for-aws-waf-bot-control-at-the-targeted-inspection-level/
-  - Summary: Today, we’re announcing simplified onboarding and bot confidence levels for AWS WAF Bot Control at the targeted inspection level, which we refer to as Targeted bot control in this post, matching the console. Bot confidence levels and the new LATEST rule group version are available for the resource types that AWS WAF protects: you act […]
-- **Elastic Security Labs** (detection_response_operations)
-  - Title: 56 AWS API calls in 141 milliseconds: Inside an AI-run intrusion
-  - Published: 2026-11-13T15:27:20+00:00
-  - Link: https://www.elastic.co/security-labs/threat-command/cyberstrikeai-aws-cloudtrail-intrusion
-  - Summary: A CyberStrikeAI server spent 16 days in four AWS accounts using eight identities, and the CloudTrail record shows why six detection rules each caught only part of it.
-
-### Cluster 1684349a7c — score 10
-
-- Title: Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-11-12T12:09:14+00:00
-- Link: https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html
+- Title: What’s in the SOSS? Podcast #78 – S3E30 From Signal Processing to Open Source Security: Sal Kimmich on Linux Kernel Defense
+- Source: OpenSSF Blog (ai_security_agentic_risk)
+- Published: 2026-11-18T19:17:12+00:00
+- Link: https://openssf.org/podcast/2026/11/18/whats-in-the-soss-podcast-78-s3e30-from-signal-processing-to-open-source-security-sal-kimmich-on-linux-kernel-defense/
 - Fetch status: ok
 - Member count: 2
 - Corroborating source count: 2
-- Strong signals: Google Cloud
+- Strong signals: Linux kernel
 
 #### Cluster taxonomy (union across members)
-- affected_industries: government
-- affected_products: Google Cloud, Linux kernel
-- cve_ids: CVE-2024-36350, CVE-2024-36357, CVE-2026-0004
-- content_type: incident_report, news_report
+- threat_categories: supply_chain
+- affected_industries: healthcare
+- affected_products: Kubernetes, Linux kernel
+- content_type: news_report
 - confidence_tier: tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
-- affected_products: Linux kernel, Google Cloud
-- cve_ids: CVE-2024-36350, CVE-2024-36357, CVE-2026-0004
-- content_type: incident_report
-- confidence_tier: tier_4_news
+- threat_categories: supply_chain
+- affected_industries: healthcare
+- affected_products: Linux kernel, Kubernetes
+- content_type: news_report
+- confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week. The company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker with code on the same processor core infer data from other processes or the kernel. The affected
+Discover kernel-level defense strategies, nono.sh sandboxing, and AI data security with security architect Sal Kimmich on What's in the SOSS? Podcast #78.
 ```
 
 #### Full body
 
 ```
-Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs  Swati Khandelwal  Nov 12, 2026 Vulnerability / Cloud Security Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week. The company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker with code on the same processor core infer data from other processes or the kernel. The affected machine series are C4D, N4D, H4D, Z4D,, and G4, including bare-metal instances of C4D and Z4D. Turin is the code name for fifth-generation AMD EPYC processors. All three flaws are Transient Scheduler Attacks (TSA). Two of them, TSA-SQ (CVE-2024-36350) and TSA-L1 (CVE-2024-36357), were first disclosed on July 8, 2025, for earlier EPYC processors. AMD now says its Zen 5 processors, which include Turin, are "impacted differently from previously characterized AMD processors." The third flaw, CVE-2026-0004, is new. It may let an attacker who can run code on a system infer data in the processor's L1 data cache. The Xen Project, which maintains the Xen hypervisor, calls the new flaw TSA-Fill. It also says an earlier statement has been corrected: "AMD had previously said that Zen5 CPUs were not vulnerable to TSA-SQ and TSA-L1." Google rates the issue Medium. AMD classifies all three as local attacks with high attack complexity that require only low privileges, according to its Zen 5 bulletin and CVE-2026-0004 advisory . As of today, none of the three is in the KEV catalog of exploited flaws kept by the U.S. Cybersecurity and Infrastructure Security Agency. Neither company reports any exploitation in its bulletins. What Google Cloud Customers Need to Do Google's security bulletin gives these steps for each service: VMs: Install your OS vendor's fix when it ships. Starting this week, the company will update the CPU information that VMs report, so a patched guest kernel can turn on its mitigations. After that update reaches a VM, stop and start it. As the company puts it: "Rebooting the guest OS isn't enough." Bare metal instances: If you run your own OS or hypervisor on a C4D or Z4D bare metal instance, apply your vendor's fixes when they are available. Hypervisors inside a VM: The same CPU information update applies, so patched guest kernels can turn on their mitigations. Stop and start the VM once the update arrives. GKE: Updated node images for Turin-based bare metal instances will be made available, and upgrading nodes picks up the CPU information update. As of today, the bulletin does not yet list them as available. Cloud Run: No action is needed. Customers on older Rome, Milan, and Genoa processors got the same stop-and-start instruction in an earlier bulletin at the time of the original disclosure on July 8, 2025. The company lists nothing to do in the meantime for VMs whose OS vendor has not yet shipped a fix. It also does not say how to tell when the CPU information update has reached a VM. A kernel commit that mitigates TSA on Zen 5, including the new variant, is in the Linux kernel source tree. As of today, Debian has fixed CVE-2026-0004 in its Linux kernel only in its unstable branch. Its security tracker still lists the kernels in bookworm, trixie, and forky as vulnerable. For Turin servers on your own hardware, AMD says both platform firmware and OS updates are needed to mitigate the flaws fully. The mitigation may affect performance, and administrators should weigh the risk to their own workloads, according to its technical guidance . The Xen Project has published hypervisor patches in its Xen advisory . It says microcode for all TSA flaws on Zen 5 has been in linux-firmware since September 23. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Cloud security , hardwa
+Summary In this episode of “What’s in the SOSS?” host Sally Cooper sits down with Sal Kimmich – security architect, author, and OpenSSF mentor – to explore the critical intersection of open source security, artificial intelligence, and kernel-level defense. Sal shares insights from their unique path through signal processing and academia into open source security leadership across the Linux Foundation, CNCF, and CCC. They discuss practical security strategies like kernel sandboxing with Nono, the role of Model Context Protocol (MCP) data security, avoiding software supply chain risks using OpenSSF tools, and the transformative impact of open source mentorship across global communities like Africa. Listen on Apple Podcasts Listen on Spotify Listen on Overcast Listen on Pocket Casts Conversation Highlights 00:27 – Introduction & Welcome to Sal Kimmich 01:54 – Securing AI, MCPs, and Kernel-Level Defense Strategies 03:43 – From Signal Processing PhD to NeuroDebian & Open Source 07:07 – Understanding nono.sh & Kernel Hardening Beyond Kubernetes 10:50 – Navigating Linux Foundation Sub-foundations & Confidential Computing 14:37 – Fast vs. Slow Cybersecurity and Alpha-Omega Interventions 17:21 – The “Anti-OSPO” Approach & Empowering Community Mentorship 19:41 – Mentorship Spotlight: Ejiro and Cybersecurity Awareness in Africa 23:18 – Practical Next Steps for Maintainers and Organizations 24:59 – Rapid Fire Questions & Wrap Up Episode Links Sal Kimmich’s LinkedIn Page Darnit (OpenSSF Sandbox Project) Nono – Kernel Sandboxing Project Alpha-Omega Project Confidential Computing Consortium (CCC) Ejiro Oghenekome’s LinkedIn Page What’s in the SOSS? Podcast #61 – S3E13 Beginner to Builder: Shaping the Conversation in Open Source Security Get involved with the OpenSSF Subscribe to the OpenSSF newsletter Follow the OpenSSF on LinkedIn Transcript Intro Music + Promotional Clip/Sound Byte (00:00) “Here’s where that gets beautiful though. Security is in the real world. And that highest bar of cybersecurity around privacy means that for the first time in my life, we are able to share data for anti-human trafficking globally, because that is the most sensitive data. And we are making substantial gains on one of the biggest problems in the world because security has changed the bar and allowed us to move on that. I think that’s really beautiful. That’s really important work. And for OpenSSF, I’ll be here till we don’t have cybersecurity problems.” Sally Cooper (00:27) Hello, hello, and welcome to What’s in the SOSS? An OpenSSF podcast where we get to talk to amazing people. And these are the people that make up the open source security community, the maintainers, the open source professionals, architects, engineers, and leaders that are making our world more secure today. And I have a very special guest. Sal Kimich, a security architect and author and a mentor to many in the OpenSSF community. So for those of you out there who don’t know, and I’m sure there’s very few who don’t, Sal, please introduce yourself. Sal Kimmich (01:08) Hi I’m Sal. Yeah, so yeah, I work in cybersecurity because I’ve worked in and across computers my whole life. I think for me, I’ve uniquely been in open source from every single consumer perspective in academics, in national defense, and as a consumer in a corporation ranging from like banks to healthcare. And I I enjoy working around the Linux kernel because it allows me to take – what I call “trout strategies” when I need to, which is go upstream and fix the problem where it needs to be fixed in the kernel. And I enjoy it. Sally Cooper (01:54) That’s great. I know you do enjoy it and you do a great job. Sal, okay, a hot topic right now. We are in the age of AI and I know everyone right now is trying to figure out what actually matters. Do you? Well, I know you have a specific answer to that, but can you share it with people here? Sal Kimmich (02:14) Yeah, so I think if you’re building or using MCPs, you’re in a situation
 ```
 
 #### Corroborating sources (2)
 
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - Title: What’s in the SOSS? Podcast #78 – S3E30 From Signal Processing to Open Source Security: Sal Kimmich on Linux Kernel Defense
+  - Published: 2026-11-18T19:17:12+00:00
+  - Link: https://openssf.org/podcast/2026/11/18/whats-in-the-soss-podcast-78-s3e30-from-signal-processing-to-open-source-security-sal-kimmich-on-linux-kernel-defense/
+  - Summary: Discover kernel-level defense strategies, nono.sh sandboxing, and AI data security with security architect Sal Kimmich on What's in the SOSS? Podcast #78.
 - **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs
-  - Published: 2026-11-12T12:09:14+00:00
-  - Link: https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html
-  - Summary: Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week. The company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker with code on the same processor core infer data from other processes or the kernel. The affected
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Inside the new Google Cloud Data Boundary experience
-  - Published: 2026-11-16T08:05:00+00:00
-  - Link: https://cloud.google.com/blog/products/identity-security/inside-the-new-data-boundary-experience/
-  - Summary: Digital sovereignty is evolving from a standard compliance requirement into a powerful strategic advantage for regulated industries worldwide. From European frameworks designed to meet sovereign standards (DORA, EHDS, GDPR) to FedRAMP/ILs/ITARs in the U.S., or expanding mandates across Asia-Pacific and the Middle East, organizations can build deeper global trust through clear governance over data locality, encryption keys and system access. Historically, achieving that level of control meant accepting an impossible tradeoff: rely on rigid legacy architectures that lacked access to frontier AI innovation, or stitch together brittle, manual guardrails that slowed developer velocity. Google Cloud Data Boundary helps remove that compromise. Built directly onto Google Cloud’s global commercial infrastructure, Data Boundary delivers software-defined, AI-assisted governance. This allows organizations to move at commercial speed with verifiable sovereign controls built in from day one. Today,
+  - Title: ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories
+  - Published: 2026-11-12T18:02:51+00:00
+  - Link: https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html
+  - Summary: A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right there. Attackers are using fake websites, stolen access, and trusted tools to get into places they shouldn't be. AI is helping them build attacks faster, while
 
 ### Cluster 3de0698531 — score 9
 
@@ -3385,50 +3256,48 @@ I&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x99;ve mentioned before in some of my diarie
   - Link: https://isc.sans.edu/diary/rss/33526
   - Summary: I&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x99;ve mentioned before in some of my diaries that it can be instructive to look at what appear to be &#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x9c;generic&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x9d; phishing messages in detail from time to time, since some of them might prove not to be as generic as they initially appear. I came across a good example of this while going over phishing messages delivered to our handler inbox over the past few weeks, when a message that, at first glance, appeared to be a fairly ordinary attempt at stealing e-mail credentials turned out to lead to a page interested in collecting a little more information than just the victim&#;x26;#;39;s password.
 
-### Cluster 5630cc40c4 — score 9
+### Cluster 8b7af029b4 — score 9
 
-- Title: Patches released for critical ‘NGINX2Root’ vulnerabilities
-- Source: Sophos X-Ops (detection_response_operations)
-- Published: 2026-11-18T00:00:00+00:00
-- Link: https://www.sophos.com/en-us/blog/patches-released-for-critical-nginx2root-vulnerabilities
+- Title: Aerospace To Chemicals: Why Manufacturers Are Easy Targets for Access Brokers
+- Source: Intel 471 (ransomware_ecrime_financial_crime)
+- Published: 2026-11-18T18:15:00+00:00
+- Link: https://www.intel471.com/blog/aerospace-to-chemicals-why-manufacturers-are-easy-targets-for-access-brokers
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ddos
-- affected_products: Docker, Linux kernel
-- cve_ids: CVE-2026-113425, CVE-2026-121810, CVE-2026-123007, CVE-2026-123633, CVE-2026-123634
+- threat_categories: phishing_social_eng, ransomware_extortion
+- affected_industries: aviation_defense, manufacturing_industrial
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: ddos
-- affected_products: Linux kernel, Docker
-- cve_ids: CVE-2026-123007, CVE-2026-123633, CVE-2026-123634, CVE-2026-121810, CVE-2026-113425
+- threat_categories: ransomware_extortion, phishing_social_eng
+- affected_industries: manufacturing_industrial, aviation_defense
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-Categories: Threat Research Tags: advisory, vulnerability, NGINX
+Manufacturing was the most targeted sector for ransomware and data extortion from January to October 2026, with 1,379 claims, or 16.8% of all victims Intel 471 tracked.
 ```
 
 #### Full body
 
 ```
-Patches released for critical ‘NGINX2Root’ vulnerabilities Written by Sophos X-Ops Threat Research advisory vulnerability NGINX Share This Link Copied On November 18, 2026, F5 published security advisories for five critical (CVSS v4.0 score of 9.2) vulnerabilities that Xint has collectively dubbed ‘ NGINX2Root ’: ( K000163925 , K000163926 , K000163927 , K000163928 , and K000163931 ). The issues affect NGINX Open Source and NGINX Plus configurations. Exploitation could lead to crashes, denial of service, memory corruption, or code execution. According to F5, code execution requires ASLR to be disabled or bypassed. Two of the vulnerabilities relate to NGINX HTTP/2 handling, and Wiz Research reports that they can be used to bypass Address Space Layout Randomization (ASLR): CVE-2026-123007 is an integer underflow issue in HTTP/2 flow control CVE-2026-123633 is a use-after-free issue affecting HTTP/2 connections that are proxied to a backend The other three issues are use-after-free flaws that require specific configurations: CVE-2026-123634 affects the NGINX resolver in some NGINX Open Source versions when NGINX proxies to a server name that contains variables and an SSI or mirror directive sends a subrequest that resolves the same name CVE-2026-121810 affects HTTP/3 configurations in some NGINX Open Source versions CVE-2026-113425 affects some NGINX Open Source versions when configured as a mail proxy server Xint reports that each vulnerability can be chained with a separate Linux kernel SCTP vulnerability to obtain root privileges on the host, including when NGINX runs in a Docker container. Recommended actions Organizations should review the F5 advisories and upgrade vulnerable versions as appropriate. Updated source code and Linux packages for NGINX Open Source are also available from the NGINX website . Packages may not be immediately available for older, unsupported distributions. Xint notes that nginx -s reload does not load the new binary, so NGINX must be restarted or its binary upgraded after updating. If immediate upgrades are not possible, F5 advises avoiding SSI or mirror directives and proxied server names with variables (CVE-2026-123634), and restricting mail proxy listeners to trusted networks (CVE-2026-113425). For the HTTP/2 flaws, Wiz and Xint recommend disabling HTTP/2 on affected listeners but note that there may be implications for that action. Sophos countermeasures SophosLabs continues to monitor the threat landscape for activity related to this vulnerability and will deliver detections and protections as available. An internal investigation is also underway to determine if Sophos products or services are affected. About the Author(s) Sophos X-Ops Representing a powerful evolution in cyber defense, Sophos X-Ops is a joint task force of multiple specialized teams, purpose-built to address the growing complexity of today’s cyberthreat landscape.
+Aerospace To Chemicals: Why Manufacturers Are Easy Targets for Access Brokers Nov 18, 2026 Manufacturing was the most targeted sector for ransomware and data extortion from January to October 2026, with 1,379 claims, or 16.8% of all victims Intel 471 tracked. The cause has less to do with what manufacturers build than with how attackers get in. They buy access designed to work against many organizations at once, and the connections between manufacturers let that access reach well beyond the first victim. Why do attackers go after manufacturers, whatever they make? Because most access brokers aren’t choosing manufacturers at all. They go after whatever is exposed. Initial access brokers (IABs) specialize in compromising networks through brute-force attacks, stolen credentials, vulnerability exploits and social engineering, then sell that foothold to ransomware and data extortion groups so the buyers can skip the intrusion and focus on negotiating the extortion. From January to October 2026, IABs offered access affecting 172 manufacturing entities, about 10% of all accesses offered worldwide. What stands out is how those offers were packaged. In our new report, From Aerospace to Assembly Lines: How Cybercriminals Are Targeting Manufacturing Supply Chains , we found that 66.8% of the access we observed was wholesale, meaning it involved multiple targets rather than one named company. The report explains why that matters: “Once an actor develops an effective exploitation method, the actor can apply that method to additional exposed systems without conducting a separate, extensive reconnaissance effort against each organization.” Wholesale versus specified access offers targeting manufacturers, January to October 2026. Source: Intel 471. A broker who finds a weakness in a widely used technology can sweep up every organization running it. Whether a company builds jet components, car parts or specialty chemicals matters far less to that broker than whether the door is open. Perimeter remote access was behind most of the listings we examined, with VPN services alone accounting for 28.5% of cases. These are the same tools manufacturers rely on to keep plants, vendors and offices connected, which is why they keep turning up. What does that mean for your risk? It means the usual assumptions about who gets targeted don’t hold up well. A manufacturer with no household name and no reason to expect attention can be just as attractive as a global brand, because the cost of getting in is nearly the same and the pressure to pay is high. When a stopped production line can cost millions of dollars per day, and customers are waiting on parts, a ransom demand can look like the cheaper option. Attackers know that, and many pair the threat of downtime with the threat of leaking proprietary designs. That pressure is the point of the whole market. Access is bought because it leads somewhere valuable, and in manufacturing, where uptime and intellectual property are both on the line, it usually does. Your supplier’s breach can become your problem The second half of the story is what happens after the first foothold. Manufacturers depend on one another for components, engineering work and maintenance, and attackers have noticed that the weakest link in that chain is often not the company they ultimately want. In May 2026, an actor advertised a dataset allegedly stolen from an Asia-based electronics manufacturer containing highly sensitive details from its customer, a US-based automaker. The actor offered to sell hundreds of files and gigabytes of information revealing the automaker’s production-grade CAD schematics and board layouts, sourcing details, and diagnostics documentation that together gave deep insight into how key electronic systems in the vehicle are built, tested, and protected. Nobody had to breach the automaker. The design files were sitting one tier up, with a supplier whose exposure became the customer’s. The same risk applies in every in
 ```
 
 #### Corroborating sources (1)
 
-- **Sophos X-Ops** (detection_response_operations)
-  - Title: Patches released for critical ‘NGINX2Root’ vulnerabilities
-  - Published: 2026-11-18T00:00:00+00:00
-  - Link: https://www.sophos.com/en-us/blog/patches-released-for-critical-nginx2root-vulnerabilities
-  - Summary: Categories: Threat Research Tags: advisory, vulnerability, NGINX
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - Title: Aerospace To Chemicals: Why Manufacturers Are Easy Targets for Access Brokers
+  - Published: 2026-11-18T18:15:00+00:00
+  - Link: https://www.intel471.com/blog/aerospace-to-chemicals-why-manufacturers-are-easy-targets-for-access-brokers
+  - Summary: Manufacturing was the most targeted sector for ransomware and data extortion from January to October 2026, with 1,379 claims, or 16.8% of all victims Intel 471 tracked.
 
 ### Cluster 186ec3fa79 — score 9
 
@@ -3641,38 +3510,50 @@ Risky Bulletin Podcast November 13, 2026 Risky Bulletin: Chinese APT exploits SS
   - Link: https://risky.biz/RBNEWS633/
   - Summary: A Chinese APT exploits the SS7 and Diameter protocols, a remote code execution bug hits Apache, Brazil’s largest port suffers a cyberattack, and Europol takes down three malware operations.
 
-### Cluster 9a2bede6cc — score 8
+### Cluster 5630cc40c4 — score 8
 
-- Title: Log Analysis Field Guide: Tips for Spotting Patterns and Red Flags
-- Source: Black Hills Information Security (detection_response_operations)
-- Published: 2026-11-11T21:57:25+00:00
-- Link: https://www.blackhillsinfosec.com/log-analysis-guide/
-- Fetch status: not_attempted
+- Title: Patches released for critical ‘NGINX2Root’ vulnerabilities
+- Source: Sophos X-Ops (detection_response_operations)
+- Published: 2026-11-18T00:00:00+00:00
+- Link: https://www.sophos.com/en-us/blog/patches-released-for-critical-nginx2root-vulnerabilities
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: ddos
+- affected_products: Docker, Linux kernel
+- cve_ids: CVE-2026-113425, CVE-2026-121810, CVE-2026-123007, CVE-2026-123633, CVE-2026-123634
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
+- threat_categories: ddos
+- affected_products: Linux kernel, Docker
+- cve_ids: CVE-2026-123007, CVE-2026-123633, CVE-2026-123634, CVE-2026-121810, CVE-2026-113425
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-Imagine you’re a detective, but your crime scene is made of timestamps, IP addresses, and login attempts instead of fingerprints and DNA. Log analysis is the art of reading digital breadcrumbs that attackers leave behind—every click, connection, and failed password gets recorded automatically. Here are some tips for learning how to survey and when to pull out the magnifying glass.
+Categories: Threat Research Tags: advisory, vulnerability, NGINX
+```
+
+#### Full body
+
+```
+Patches released for critical ‘NGINX2Root’ vulnerabilities Written by Sophos X-Ops Threat Research advisory vulnerability NGINX Share This Link Copied On November 18, 2026, F5 published security advisories for five critical (CVSS v4.0 score of 9.2) vulnerabilities that Xint has collectively dubbed ‘ NGINX2Root ’: ( K000163925 , K000163926 , K000163927 , K000163928 , and K000163931 ). The issues affect NGINX Open Source and NGINX Plus configurations. Exploitation could lead to crashes, denial of service, memory corruption, or code execution. According to F5, code execution requires ASLR to be disabled or bypassed. Two of the vulnerabilities relate to NGINX HTTP/2 handling, and Wiz Research reports that they can be used to bypass Address Space Layout Randomization (ASLR): CVE-2026-123007 is an integer underflow issue in HTTP/2 flow control CVE-2026-123633 is a use-after-free issue affecting HTTP/2 connections that are proxied to a backend The other three issues are use-after-free flaws that require specific configurations: CVE-2026-123634 affects the NGINX resolver in some NGINX Open Source versions when NGINX proxies to a server name that contains variables and an SSI or mirror directive sends a subrequest that resolves the same name CVE-2026-121810 affects HTTP/3 configurations in some NGINX Open Source versions CVE-2026-113425 affects some NGINX Open Source versions when configured as a mail proxy server Xint reports that each vulnerability can be chained with a separate Linux kernel SCTP vulnerability to obtain root privileges on the host, including when NGINX runs in a Docker container. Recommended actions Organizations should review the F5 advisories and upgrade vulnerable versions as appropriate. Updated source code and Linux packages for NGINX Open Source are also available from the NGINX website . Packages may not be immediately available for older, unsupported distributions. Xint notes that nginx -s reload does not load the new binary, so NGINX must be restarted or its binary upgraded after updating. If immediate upgrades are not possible, F5 advises avoiding SSI or mirror directives and proxied server names with variables (CVE-2026-123634), and restricting mail proxy listeners to trusted networks (CVE-2026-113425). For the HTTP/2 flaws, Wiz and Xint recommend disabling HTTP/2 on affected listeners but note that there may be implications for that action. Sophos countermeasures SophosLabs continues to monitor the threat landscape for activity related to this vulnerability and will deliver detections and protections as available. An internal investigation is also underway to determine if Sophos products or services are affected. About the Author(s) Sophos X-Ops Representing a powerful evolution in cyber defense, Sophos X-Ops is a joint task force of multiple specialized teams, purpose-built to address the growing complexity of today’s cyberthreat landscape.
 ```
 
 #### Corroborating sources (1)
 
-- **Black Hills Information Security** (detection_response_operations)
-  - Title: Log Analysis Field Guide: Tips for Spotting Patterns and Red Flags
-  - Published: 2026-11-11T21:57:25+00:00
-  - Link: https://www.blackhillsinfosec.com/log-analysis-guide/
-  - Summary: Imagine you’re a detective, but your crime scene is made of timestamps, IP addresses, and login attempts instead of fingerprints and DNA. Log analysis is the art of reading digital breadcrumbs that attackers leave behind—every click, connection, and failed password gets recorded automatically. Here are some tips for learning how to survey and when to pull out the magnifying glass.
+- **Sophos X-Ops** (detection_response_operations)
+  - Title: Patches released for critical ‘NGINX2Root’ vulnerabilities
+  - Published: 2026-11-18T00:00:00+00:00
+  - Link: https://www.sophos.com/en-us/blog/patches-released-for-critical-nginx2root-vulnerabilities
+  - Summary: Categories: Threat Research Tags: advisory, vulnerability, NGINX
 
 ### Cluster 4043ac4b49 — score 8
 
@@ -3680,7 +3561,7 @@ Imagine you’re a detective, but your crime scene is made of timestamps, IP add
 - Source: Sophos X-Ops (detection_response_operations)
 - Published: 2026-11-17T00:00:00+00:00
 - Link: https://www.sophos.com/en-us/blog/hijacked-optimizely-snippets-served-malicious-code
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -3697,6 +3578,12 @@ Imagine you’re a detective, but your crime scene is made of timestamps, IP add
 
 ```
 <p>Organizations using Optimizely Web Experimentation should check their projects for code injected on November 16</p> Categories: Threat Research Tags: advisory, Optimizely
+```
+
+#### Full body
+
+```
+Hijacked Optimizely snippets served malicious code on major websites Organizations using Optimizely Web Experimentation should check their projects for code injected on November 16 Written by Sophos X-Ops Threat Research advisory Optimizely Share This Link Copied On November 17, 2026, Optimizely reported that an attacker exploited a vulnerability in its Web Experimentation product to add malicious JavaScript to some customer projects. Third-party reporting indicates that the code was injected into snippets belonging to 178 organizations, including CNN, the BBC, and Zoom, on November 16. Optimizely says it has fixed the vulnerability and removed the code. Recommended actions Sophos X-Ops recommends that organizations monitor the Optimizely incident page to stay up to date on the latest recommendations. Sophos countermeasures The following Sophos countermeasure relates to this threat: Troj/JSInj-H About the Author(s) Sophos X-Ops Representing a powerful evolution in cyber defense, Sophos X-Ops is a joint task force of multiple specialized teams, purpose-built to address the growing complexity of today’s cyberthreat landscape.
 ```
 
 #### Corroborating sources (1)
@@ -3811,39 +3698,6 @@ A Kazakh national charged in a ransomware and extortion conspiracy targeting U.S
   - Published: 2026-11-17T13:03:59+00:00
   - Link: https://cyberscoop.com/roman-khlynovskiy-ransomware-extradition/
   - Summary: A Kazakh national charged in a ransomware and extortion conspiracy targeting U.S. hospitals and schools was also charged with violating the TAKE IT DOWN Act. The post Alleged ransomware group member extradited from Italy to face US charges in hospital, school extortion case appeared first on CyberScoop .
-
-### Cluster a80f692211 — score 8
-
-- Title: Quoting Daniel Stenberg
-- Source: Simon Willison (ai_security_agentic_risk)
-- Published: 2026-11-18T15:58:27+00:00
-- Link: https://simonwillison.net/2026/Nov/18/daniel-stenberg/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfixes that none of those rust rewrites have. We also fixed a few vulnerabilities. In another month we have done another 200 and maybe fixed a few more vulnerabilities. Will these clones keep up? — Daniel Stenberg , Actual curl rewrites in Rust Tags: daniel-stenberg , curl , rust , security , coding-agents , c , ai , llms , generative-ai , vibe-porting
-```
-
-#### Corroborating sources (1)
-
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: Quoting Daniel Stenberg
-  - Published: 2026-11-18T15:58:27+00:00
-  - Link: https://simonwillison.net/2026/Nov/18/daniel-stenberg/
-  - Summary: During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfixes that none of those rust rewrites have. We also fixed a few vulnerabilities. In another month we have done another 200 and maybe fixed a few more vulnerabilities. Will these clones keep up? — Daniel Stenberg , Actual curl rewrites in Rust Tags: daniel-stenberg , curl , rust , security , coding-agents , c , ai , llms , generative-ai , vibe-porting
 
 ### Cluster 0fdb985edc — score 8
 
@@ -3985,6 +3839,39 @@ The cybercriminals are retargeting law firms that refused to pay its first ranso
   - Link: https://www.darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time
   - Summary: The cybercriminals are retargeting law firms that refused to pay its first ransom, with a social engineering con aimed at stealing Microsoft access tokens.
 
+### Cluster a80f692211 — score 8
+
+- Title: Quoting Daniel Stenberg
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-11-18T15:58:27+00:00
+- Link: https://simonwillison.net/2026/Nov/18/daniel-stenberg/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfixes that none of those rust rewrites have. We also fixed a few vulnerabilities. In another month we have done another 200 and maybe fixed a few more vulnerabilities. Will these clones keep up? — Daniel Stenberg , Actual curl rewrites in Rust Tags: daniel-stenberg , curl , rust , security , coding-agents , c , ai , llms , generative-ai , vibe-porting
+```
+
+#### Corroborating sources (1)
+
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Quoting Daniel Stenberg
+  - Published: 2026-11-18T15:58:27+00:00
+  - Link: https://simonwillison.net/2026/Nov/18/daniel-stenberg/
+  - Summary: During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfixes that none of those rust rewrites have. We also fixed a few vulnerabilities. In another month we have done another 200 and maybe fixed a few more vulnerabilities. Will these clones keep up? — Daniel Stenberg , Actual curl rewrites in Rust Tags: daniel-stenberg , curl , rust , security , coding-agents , c , ai , llms , generative-ai , vibe-porting
+
 ### Cluster b1d2c9c697 — score 8
 
 - Title: New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access
@@ -4021,6 +3908,41 @@ Public exploit code released earlier this week claims that a local Windows user 
   - Published: 2026-11-12T17:50:27+00:00
   - Link: https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html
   - Summary: Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of
+
+### Cluster 1684349a7c — score 8
+
+- Title: Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-11-12T12:09:14+00:00
+- Link: https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Google Cloud
+
+#### Cluster taxonomy (union across members)
+- affected_products: Google Cloud
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- affected_products: Google Cloud
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week. The company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker with code on the same processor core infer data from other processes or the kernel. The affected
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs
+  - Published: 2026-11-12T12:09:14+00:00
+  - Link: https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html
+  - Summary: Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week. The company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker with code on the same processor core infer data from other processes or the kernel. The affected
 
 ### Cluster 6bd6b759ad — score 8
 
