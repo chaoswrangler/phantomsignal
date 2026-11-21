@@ -6,9 +6,21 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 21 Nov 2026 01:16:41 +0000</lastBuildDate>
+<lastBuildDate>Sat, 21 Nov 2026 09:29:37 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge</title>
+<link>https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html</link>
+<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in<br/><br/><em>Tags: VMware · CVE-2026-129448 · apt_espionage</em>]]></description>
+<pubDate>Sat, 21 Nov 2026 08:49:13 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>VMware</category>
+<category>CVE-2026-129448</category>
+<category>apt_espionage</category>
+</item>
 <item>
 <title>CTO of ‘RansomwareHelp’ Indicted for Wire Fraud</title>
 <link>https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/</link>
@@ -75,7 +87,7 @@
 <item>
 <title>WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams</title>
 <link>https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html</link>
-<description><![CDATA[Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871, has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4. The issue could<br/><br/><em>Tags: Android · CVE-2026-23871</em>]]></description>
+<description><![CDATA[Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871 (CVSS score: 3.5), has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4.<br/><br/><em>Tags: Android · CVE-2026-23871</em>]]></description>
 <pubDate>Fri, 20 Nov 2026 17:57:20 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
@@ -224,15 +236,13 @@
 <item>
 <title>In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit</title>
 <link>https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit/</link>
-<description><![CDATA[Noteworthy stories that might have slipped under the radar: EU adds NoName057(16) to cyber sanctions list, malware targets CACs left in personal computers, Gemini agents targeted Epoch AI. The post In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit appeared first on SecurityWeek .<br/><br/><em>Tags: Microsoft SharePoint · Google/Gemini · NoName057(16) · ransomware_extortion · vulnerability_disclosure</em>]]></description>
+<description><![CDATA[Noteworthy stories that might have slipped under the radar: EU adds NoName057(16) to cyber sanctions list, malware targets CACs left in personal computers, Gemini agents targeted Epoch AI. The post In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit appeared first on SecurityWeek .<br/><br/><em>Tags: Google/Gemini · NoName057(16)</em>]]></description>
 <pubDate>Fri, 20 Nov 2026 14:56:23 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
-<category>Microsoft SharePoint</category>
 <category>Google/Gemini</category>
 <category>NoName057(16)</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Ransomware Recovery Takes 20 Days for the Typical Victim, Report Finds</title>
@@ -298,12 +308,15 @@
 <item>
 <title>SBC Medical Group Data Breach Impacts Over 2 Million</title>
 <link>https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/</link>
-<description><![CDATA[Threat actors accessed databases containing customer information associated with clinics in Japan. The post SBC Medical Group Data Breach Impacts Over 2 Million appeared first on SecurityWeek .<br/><br/><em>Tags: data_breach</em>]]></description>
+<description><![CDATA[Threat actors accessed databases containing customer information associated with clinics in Japan. The post SBC Medical Group Data Breach Impacts Over 2 Million appeared first on SecurityWeek .<br/><br/><em>Tags: ransomware_extortion · supply_chain · data_breach · apt_espionage</em>]]></description>
 <pubDate>Fri, 20 Nov 2026 11:36:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
+<category>supply_chain</category>
 <category>data_breach</category>
+<category>apt_espionage</category>
 </item>
 <item>
 <title>F5 releases emergency patches for critical BIG-IP RCE flaws</title>
@@ -348,12 +361,15 @@
 <item>
 <title>Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network</title>
 <link>https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html</link>
-<description><![CDATA[Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway<br/><br/><em>Tags: CVE-2026-76466</em>]]></description>
+<description><![CDATA[Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway<br/><br/><em>Tags: GitLab · CVE-2026-76466 · vulnerability_disclosure · active_exploitation</em>]]></description>
 <pubDate>Fri, 20 Nov 2026 10:32:50 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+<category>GitLab</category>
 <category>CVE-2026-76466</category>
+<category>vulnerability_disclosure</category>
+<category>active_exploitation</category>
 </item>
 <item>
 <title>Metasploit Wrap Up: Breaking Zimbra&apos;s Identity Boundaries</title>
@@ -486,7 +502,7 @@
 <description><![CDATA[Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare&apos;s proxy are shielded from the most serious of these bugs.<br/><br/><em>Tags: Palo Alto Networks · AWS · Azure · CVE-2026-123007 · CVE-2026-123633 · CVE-2026-118899 · CVE-2026-121810 · CVE-2026-123634</em>]]></description>
 <pubDate>Fri, 20 Nov 2026 01:58:29 +0000</pubDate>
 <guid isPermaLink="true">https://blog.cloudflare.com/nginx2root/</guid>
-<source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
+<source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
 <category>cloud_identity_infrastructure</category>
 <category>Palo Alto Networks</category>
 <category>AWS</category>
@@ -499,7 +515,7 @@
 <description><![CDATA[Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare&apos;s proxy are shielded from the most serious of these bugs.]]></description>
 <pubDate>Fri, 20 Nov 2026 01:58:29 +0000</pubDate>
 <guid isPermaLink="true">https://blog.cloudflare.com/nginx2root/</guid>
-<source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
+<source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
@@ -953,12 +969,15 @@
 <item>
 <title>Breaking: “ruby2ßhell” or ruby2shell One-Byte Heap Overflow in Ruby Could Allow Remote Code Execution in Rails and Popular Self-Hosted Apps</title>
 <link>https://orca.security/resources/blog/ruby2shell-ruby-heap-overflow-rce/</link>
-<description><![CDATA[A heap-based buffer overflow in Ruby’s string case conversion, tracked as CVE-2026-132825 and dubbed “ruby2ßhell”, has been disclosed. The Ruby core team rates the issue critical and states that changing the case of a crafted string may allow remote code execution, adding that it is aware of proof-of-concept exploits that can trigger code execution in […]<br/><br/><em>Tags: CVE-2026-132825</em>]]></description>
+<description><![CDATA[A heap-based buffer overflow in Ruby’s string case conversion, tracked as CVE-2026-132825 and dubbed “ruby2ßhell”, has been disclosed. The Ruby core team rates the issue critical and states that changing the case of a crafted string may allow remote code execution, adding that it is aware of proof-of-concept exploits that can trigger code execution in […]<br/><br/><em>Tags: GitHub · GitLab · CVE-2026-132825 · active_exploitation</em>]]></description>
 <pubDate>Thu, 19 Nov 2026 10:56:26 +0000</pubDate>
 <guid isPermaLink="true">https://orca.security/resources/blog/ruby2shell-ruby-heap-overflow-rce/</guid>
 <source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
 <category>cloud_identity_infrastructure</category>
+<category>GitHub</category>
+<category>GitLab</category>
 <category>CVE-2026-132825</category>
+<category>active_exploitation</category>
 </item>
 <item>
 <title>Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions</title>
@@ -982,11 +1001,14 @@
 <item>
 <title>Ruby Ships Fixes for 7 Flaws, Including Critical Ruby2Shell, Said to Hit Default Rails Apps Pre-Auth</title>
 <link>https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html</link>
-<description><![CDATA[Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine. &quot;We are aware of PoCs that prove some of them can be used to trigger remote code execution,&quot; the maintainers said. The project released fixed versions]]></description>
+<description><![CDATA[Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine. &quot;We are aware of PoCs that prove some of them can be used to trigger remote code execution,&quot; the maintainers said. The project released fixed versions<br/><br/><em>Tags: GitHub · Anthropic/Claude · CVE-2026-132825</em>]]></description>
 <pubDate>Thu, 19 Nov 2026 08:42:11 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+<category>GitHub</category>
+<category>Anthropic/Claude</category>
+<category>CVE-2026-132825</category>
 </item>
 <item>
 <title>Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle</title>
@@ -1432,12 +1454,15 @@
 <item>
 <title>Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers</title>
 <link>https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html</link>
-<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active exploitation. The vulnerability, tracked as CVE-2026-115731 (CVSS score: 9.4), is a case of<br/><br/><em>Tags: CVE-2026-115731</em>]]></description>
+<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active exploitation. The vulnerability, tracked as CVE-2026-115731 (CVSS score: 9.4), is a case of<br/><br/><em>Tags: CVE-2026-115731 · CVE-2026-115732 · ransomware_extortion · active_exploitation</em>]]></description>
 <pubDate>Wed, 18 Nov 2026 08:24:31 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>CVE-2026-115731</category>
+<category>CVE-2026-115732</category>
+<category>ransomware_extortion</category>
+<category>active_exploitation</category>
 </item>
 <item>
 <title>CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution</title>
@@ -1958,7 +1983,7 @@
 <item>
 <title>N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners</title>
 <link>https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html</link>
-<description><![CDATA[N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and Management (RMM) and Unified Endpoint Management (UEM) platform. &quot;HF3 builds on the]]></description>
+<description><![CDATA[N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and Management (RMM) and Unified Endpoint Management (UEM) platform. &quot;HF3 builds on the protections]]></description>
 <pubDate>Tue, 17 Nov 2026 05:00:34 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
@@ -2268,16 +2293,6 @@
 <guid isPermaLink="true">https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm&apos;s Code-Signing Server</title>
-<link>https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html</link>
-<description><![CDATA[An investigation into suspicious activity within a Russian software developer&apos;s network has uncovered a months-long compromise of its development infrastructure and a software code-signing server. The activity, documented by Kaspersky&apos;s ICS CERT team after it was contacted by the affected developer in June 2025, has been attributed to a threat actor named BO Team (aka Black Owl, Hoody Hyena,<br/><br/><em>Tags: VMware</em>]]></description>
-<pubDate>Mon, 16 Nov 2026 06:53:34 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>VMware</category>
 </item>
 <item>
 <title>Risky Bulletin: Cyberattack grounds German UAVs</title>
@@ -4660,7 +4675,7 @@
 <description><![CDATA[Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.]]></description>
 <pubDate>Tue, 03 Nov 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://blog.cloudflare.com/zero-wire/</guid>
-<source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
+<source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
@@ -4669,7 +4684,7 @@
 <description><![CDATA[Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.]]></description>
 <pubDate>Tue, 03 Nov 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://blog.cloudflare.com/zero-wire/</guid>
-<source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
+<source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
@@ -5732,6 +5747,15 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
+<title>Introducing the Cloudflare PHP Capture the Flag challenge</title>
+<link>https://blog.cloudflare.com/php-ctf/</link>
+<description><![CDATA[We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.]]></description>
+<pubDate>Tue, 27 Oct 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://blog.cloudflare.com/php-ctf/</guid>
+<source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>Camera Management Software Compromise Leads to Malware Deployment</title>
 <link>https://www.huntress.com/blog/camera-management-software-compromise-malware</link>
 <description><![CDATA[Attackers compromised camera management software to deploy malware, establish persistence, and beacon to C2. Huntress breaks down the attack chain and IOCs.]]></description>
@@ -5747,15 +5771,6 @@
 <pubDate>Tue, 27 Oct 2026 13:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://blog.cloudflare.com/q3-2026-internet-disruption-summary/</guid>
 <source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Introducing the Cloudflare PHP Capture the Flag challenge</title>
-<link>https://blog.cloudflare.com/php-ctf/</link>
-<description><![CDATA[We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.]]></description>
-<pubDate>Tue, 27 Oct 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.cloudflare.com/php-ctf/</guid>
-<source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
@@ -6191,6 +6206,15 @@
 <category>active_exploitation</category>
 </item>
 <item>
+<title>Localizing compliance at scale: Achieving South Korea’s ISMS certification</title>
+<link>https://blog.cloudflare.com/k-isms/</link>
+<description><![CDATA[Cloudflare has achieved South Korea&apos;s ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our global security program.]]></description>
+<pubDate>Thu, 22 Oct 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://blog.cloudflare.com/k-isms/</guid>
+<source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>M365 Token Spray and Replay Campaign Compromises Business Email Accounts</title>
 <link>https://www.huntress.com/blog/token-replay-spray</link>
 <description><![CDATA[Huntress tracked a 10-week Microsoft 365 campaign pairing AiTM relays with token replay, rogue Entra devices, MFA tampering, and hidden inbox rules.<br/><br/><em>Tags: Microsoft 365 · mfa_bypass</em>]]></description>
@@ -6200,15 +6224,6 @@
 <category>detection_response_operations</category>
 <category>Microsoft 365</category>
 <category>mfa_bypass</category>
-</item>
-<item>
-<title>Localizing compliance at scale: Achieving South Korea’s ISMS certification</title>
-<link>https://blog.cloudflare.com/k-isms/</link>
-<description><![CDATA[Cloudflare has achieved South Korea&apos;s ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our global security program.]]></description>
-<pubDate>Thu, 22 Oct 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.cloudflare.com/k-isms/</guid>
-<source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration</title>
@@ -19544,7 +19559,7 @@
 <title>Java4Shell (CVE-2026-114938): CrowdStrike Detects Exposure and Post-Exploitation Activity</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-java4shell-cve-2026-114938/</link>
 <description><![CDATA[<br/><br/><em>Tags: CVE-2026-114938</em>]]></description>
-<pubDate>Sat, 21 Nov 2026 01:16:41 +0000</pubDate>
+<pubDate>Sat, 21 Nov 2026 09:29:37 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-java4shell-cve-2026-114938/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19554,7 +19569,7 @@
 <title>NGINX2Root: Identify and Protect with the CrowdStrike Falcon Platform</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-nginx2root-cve-2026-123007/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 21 Nov 2026 01:16:41 +0000</pubDate>
+<pubDate>Sat, 21 Nov 2026 09:29:37 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-nginx2root-cve-2026-123007/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19563,7 +19578,7 @@
 <title>CrowdStrike Brings the Human Advantage to AI Detection and Response</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-human-advantage-aidr/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 21 Nov 2026 01:16:41 +0000</pubDate>
+<pubDate>Sat, 21 Nov 2026 09:29:37 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-human-advantage-aidr/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19572,7 +19587,7 @@
 <title>CrowdStrike Is Building the Engine of the Agentic SOC with Falcon Next-Gen SIEM</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-gartner-mq-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 21 Nov 2026 01:16:41 +0000</pubDate>
+<pubDate>Sat, 21 Nov 2026 09:29:37 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-gartner-mq-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19581,7 +19596,7 @@
 <title>Hidden in the Weights: Supply Chain Risk from Backdoored LoRA Models</title>
 <link>https://www.crowdstrike.com/en-us/blog/supply-chain-risk-from-backdoored-lora-models/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Sat, 21 Nov 2026 01:16:41 +0000</pubDate>
+<pubDate>Sat, 21 Nov 2026 09:29:37 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/supply-chain-risk-from-backdoored-lora-models/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19591,7 +19606,7 @@
 <title>Inside Falcon AI Gateway: One Control Point for AI Traffic</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-ai-gateway-one-control-point-for-ai-traffic/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 21 Nov 2026 01:16:41 +0000</pubDate>
+<pubDate>Sat, 21 Nov 2026 09:29:37 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-ai-gateway-one-control-point-for-ai-traffic/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19600,7 +19615,7 @@
 <title>CrowdStrike Named a Leader in the 2026 IDC MarketScape for Worldwide Augmented Identity Security Solutions</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-augmented-identity-security-solutions/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 21 Nov 2026 01:16:41 +0000</pubDate>
+<pubDate>Sat, 21 Nov 2026 09:29:37 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-augmented-identity-security-solutions/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19609,7 +19624,7 @@
 <title>November 2026 Patch Tuesday: 1,252 CVEs Include One Zero-Day and 68 Critical Vulnerabilities</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Sat, 21 Nov 2026 01:16:41 +0000</pubDate>
+<pubDate>Sat, 21 Nov 2026 09:29:37 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19619,7 +19634,7 @@
 <title>How Adversaries Are Turning the Vulnerability Ecosystem Against Defenders</title>
 <link>https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 21 Nov 2026 01:16:41 +0000</pubDate>
+<pubDate>Sat, 21 Nov 2026 09:29:37 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19628,7 +19643,7 @@
 <title>CrowdStrike Extends the Agentic SOC to Detect and Stop Agent Insider Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 21 Nov 2026 01:16:41 +0000</pubDate>
+<pubDate>Sat, 21 Nov 2026 09:29:37 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
