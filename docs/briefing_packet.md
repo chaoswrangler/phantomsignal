@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-11-21T22:58:45.831639+00:00
+- Generated: 2026-11-22T02:56:36.487223+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
 - Total items in window: 353
-- Total clusters raw: 170
-- Total clusters in packet: 74
-- Dropped low score: 96
+- Total clusters raw: 168
+- Total clusters in packet: 73
+- Dropped low score: 95
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,11 +75,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
@@ -95,26 +90,41 @@
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: fetch_error
   - Item count: 0
   - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 4
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
@@ -125,16 +135,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -145,21 +155,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 4
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 4
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
@@ -170,15 +165,20 @@
   - Status: ok
   - Item count: 40
   - In window count: 1
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
-  - Item count: 50
-  - In window count: 0
+  - Item count: 15
+  - In window count: 4
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
   - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
@@ -200,13 +200,13 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -220,6 +220,11 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 10
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
@@ -230,21 +235,31 @@
   - Status: ok
   - Item count: 30
   - In window count: 2
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 10
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 8
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 8
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 10
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -254,21 +269,6 @@
   - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 8
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
   - In window count: 0
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
@@ -280,11 +280,21 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
@@ -295,58 +305,68 @@
   - Status: ok
   - Item count: 100
   - In window count: 5
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
-  - Item count: 100
+  - Item count: 10
   - In window count: 2
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
   - Status: ok
-  - Item count: 20
-  - In window count: 20
+  - Item count: 5
+  - In window count: 5
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
-  - Item count: 30
+  - Item count: 20
   - In window count: 20
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 20
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 2
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 23
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -355,26 +375,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 2
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 23
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
@@ -385,28 +385,33 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 3
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -415,18 +420,13 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -460,16 +460,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **Just Security** (policy_strategy_geopolitics)
-  - URL: https://www.justsecurity.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 100
   - In window count: 3
+- **Just Security** (policy_strategy_geopolitics)
+  - URL: https://www.justsecurity.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 
 ## Affinity groups (themes)
 
@@ -477,7 +477,7 @@
 - Anchor signal: VMware
 - Theme key: vmware
 - Cluster count: 7
-- Article count: 14
+- Article count: 13
 - Cohesion: 0.204
 - Shared strong signals: VMware
 - Member CVEs: CVE-2026-99312
@@ -496,11 +496,11 @@
   - https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/
   - https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html
   - https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/
-  - https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/
   - https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day
   - https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html
   - https://webflow.sysdig.com/blog/nginx2root
   - https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html
+  - https://cloud.google.com/blog/products/application-development/lessons-from-building-sashiko-an-agentic-code-review-system/
   - https://openssf.org/podcast/2026/11/18/whats-in-the-soss-podcast-78-s3e30-from-signal-processing-to-open-source-security-sal-kimmich-on-linux-kernel-defense/
   - https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html
   - https://research.checkpoint.com/2026/16th-november-threat-intelligence-report/
@@ -593,7 +593,7 @@
 - Anchor signal: CVE-2026-123007
 - Theme key: cve-2026-123007
 - Cluster count: 3
-- Article count: 10
+- Article count: 11
 - Cohesion: 0.25
 - Shared strong signals: CVE-2026-123007
 - Member CVEs: (none)
@@ -610,6 +610,7 @@
   - https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html
   - https://webflow.sysdig.com/blog/nginx2root
   - https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html
+  - https://cloud.google.com/blog/products/application-development/lessons-from-building-sashiko-an-agentic-code-review-system/
   - https://openssf.org/podcast/2026/11/18/whats-in-the-soss-podcast-78-s3e30-from-signal-processing-to-open-source-security-sal-kimmich-on-linux-kernel-defense/
   - https://blog.cloudflare.com/nginx2root/
 
@@ -617,7 +618,7 @@
 - Anchor signal: CVE-2026-123633
 - Theme key: cve-2026-123633
 - Cluster count: 3
-- Article count: 10
+- Article count: 11
 - Cohesion: 0.25
 - Shared strong signals: CVE-2026-123633
 - Member CVEs: (none)
@@ -634,16 +635,17 @@
   - https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html
   - https://webflow.sysdig.com/blog/nginx2root
   - https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html
+  - https://cloud.google.com/blog/products/application-development/lessons-from-building-sashiko-an-agentic-code-review-system/
   - https://openssf.org/podcast/2026/11/18/whats-in-the-soss-podcast-78-s3e30-from-signal-processing-to-open-source-security-sal-kimmich-on-linux-kernel-defense/
   - https://blog.cloudflare.com/nginx2root/
 
-### CVE-2026-114924 exploitation activity
-- Anchor signal: CVE-2026-114924
-- Theme key: cve-2026-114924
+### CVE-2026-114925 exploitation activity
+- Anchor signal: CVE-2026-114925
+- Theme key: cve-2026-114925
 - Cluster count: 2
 - Article count: 3
 - Cohesion: 0.375
-- Shared strong signals: CVE-2026-114924
+- Shared strong signals: CVE-2026-114925
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -656,13 +658,13 @@
   - https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-114924-cve-2026-114925/
 
-### CVE-2026-114925 exploitation activity
-- Anchor signal: CVE-2026-114925
-- Theme key: cve-2026-114925
+### CVE-2026-114924 exploitation activity
+- Anchor signal: CVE-2026-114924
+- Theme key: cve-2026-114924
 - Cluster count: 2
 - Article count: 3
 - Cohesion: 0.375
-- Shared strong signals: CVE-2026-114925
+- Shared strong signals: CVE-2026-114924
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -698,7 +700,7 @@
 - Anchor signal: CVE-2026-102764
 - Theme key: cve-2026-102764
 - Cluster count: 2
-- Article count: 11
+- Article count: 10
 - Cohesion: 0.2
 - Shared strong signals: CVE-2026-102764
 - Member CVEs: (none)
@@ -714,7 +716,6 @@
   - https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/
   - https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html
   - https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/
-  - https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/
   - https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day
   - https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-breaking-zimbra-s-identity-boundaries
 
@@ -745,13 +746,13 @@
   - https://www.greynoise.io/blog/global-event-java4shell-cve-2026-114938-live-activity-report
   - https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-breaking-zimbra-s-identity-boundaries
 
-### CVE-2026-129289 exploitation activity
-- Anchor signal: CVE-2026-129289
-- Theme key: cve-2026-129289
+### CVE-2026-126714 exploitation activity
+- Anchor signal: CVE-2026-126714
+- Theme key: cve-2026-126714
 - Cluster count: 2
 - Article count: 3
 - Cohesion: 0.524
-- Shared strong signals: CVE-2026-129289
+- Shared strong signals: CVE-2026-126714
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -771,7 +772,7 @@
 - Novel actors: 0
 - Novel products: 0
 
-### Velocity bursts (4)
+### Velocity bursts (3)
 - **Java4Shell (CVE-2026-114938): Pre-auth RCE in OpenJDK, and the challenge of image and feature bloat**
   - Cluster: 7c92294871
   - Sources in window: 3
@@ -781,11 +782,6 @@
   - Cluster: dec648cd5c
   - Sources in window: 3
   - Window hours: 3.7
-  - Cohort count: 4
-- **CVE-2026-123890: Critical Authentication Bypass in VMware vCenter**
-  - Cluster: 81c7eb6f97
-  - Sources in window: 3
-  - Window hours: 5.4
   - Cohort count: 4
 - **CVE-2026-123007: Critical NGINX HTTP/2 Integer Underflow Leads to RCE (FIXED)**
   - Cluster: 8f2a86fb37
@@ -990,8 +986,8 @@ Rapid7 Intelligence CVE-2026-123007: Critical NGINX HTTP/2 Integer Underflow Lea
 - Published: 2026-11-19T21:06:24+00:00
 - Link: https://www.rapid7.com/blog/post/etr-cve-2026-123890-critical-authentication-bypass-vmware-vcenter
 - Fetch status: ok
-- Member count: 10
-- Corroborating source count: 8
+- Member count: 9
+- Corroborating source count: 7
 - Strong signals: CVE-2026-123890, CVE-2026-59309, VMware
 
 #### Cluster taxonomy (union across members)
@@ -1023,7 +1019,7 @@ Overview On November 19, 2026, Broadcom published VMware Security Advisory VMSA-
 Emergent Threat Response CVE-2026-123890: Critical Authentication Bypass in VMware vCenter Rapid7 Nov 19, 2026 | Last updated on Nov 19, 2026 | 3 min read CVE-2026-123890: Critical Authentication Bypass in VMware vCenter Table of contents CVE-2026-123890: Critical Authentication Bypass in VMware vCenter Table of contents Overview On November 19, 2026, Broadcom published VMware Security Advisory VMSA-2026-0009 , addressing five vulnerabilities in VMware products. The most severe of these, CVE-2026-123890 , is an authentication bypass using an alternate path or channel ( CWE-288 ) in the VMware Directory Service component of vCenter. Broadcom assigned the vulnerability a critical CVSSv3 score of 9.8 . A malicious actor with network access to an affected vCenter deployment may exploit CVE-2026-123890 without credentials to bypass authentication and gain unauthorized access to the system as the Administrator user. Mandiant privately reported the issue to Broadcom. Also, Mandiant/Google Threat Intelligence confirmed in-the-wild exploitation of CVE-2026-123890 by Chinese state-linked threat actor ARMORY CASTLE as early as September 2026. CVE-2026-123890 is distinct from the vCenter authentication bypass vulnerability CVE-2026-59309 that Broadcom addressed earlier in 2026. The vendor FAQ states that all vCenter systems below the versions fixed by VMSA-2026-0009 require the new update, including systems that already received the earlier fix. Broadcom characterizes the vCenter update as an emergency change requiring prompt action. Mitigation guidance Vendor-provided updates are available for CVE-2026-123890. Broadcom lists no workaround, and the patches cannot be applied using vCenter Quick Patch. Organizations should prioritize upgrading vCenter on an emergency basis, outside of normal patch cycles, using the standard update mechanism for their deployment. VMware Product Affected Version Fixed Version / Patch VMware Cloud Foundation / vSphere Foundation 9.1.x.x 9.1.1.0200 VMware Cloud Foundation / vSphere Foundation 9.0.x.x 9.0.2.0200 VMware vCenter Server 8.0 8.0 U3m VMware vCenter Server 7.0 Contact Broadcom Support (extended-support customers) VMware Cloud Foundation 5.x 5.2.5 VMware Telco Cloud Platform 3.0, 4.x, 5.0.x, 5.1.x, 5.2 8.0 U3m — KB463116 VMware Telco Cloud Infrastructure 3.0 8.0 U3m — KB463116 The fixes are cumulative. The vCenter 8.0 U3m and 9.0.2.0200 updates introduce a “Back-in-Time” restriction that blocks upgrades to VMware Cloud Foundation 9.1.1 ; Broadcom advises customers in an active upgrade to review the vendor FAQ and interoperability matrix. Updating vCenter temporarily makes its management interfaces unavailable, but Broadcom states that running virtual machine and container workloads continue to operate. For the latest affected-version and mitigation guidance, please refer to Broadcom's security advisory and supplemental FAQ . Rapid7 customers Exposure Command, Vulnerability Management, and Nexpose Exposure Command, InsightVM, and Nexpose customers can assess exposure to CVE-2026-123890 on VMware vCenter Server with an unauthenticated vulnerability check expected to be available in the Nov 20, 2026 content release. Updates November 19, 2026 : Initial publication. Article tags Emergent Threat Response Explore more from Rapid7 Vulnerability & Exploit Database Rapid7s curated database of vulnerabilities, featuring exploit modules and check methods integrated into the Metasploit Framework. Search the database Rapid7 Intelligence The threat research behind the alerts: adversary tracking, curated intelligence, and flagship threat reports. Explore the research Rapid7 MDR Gain 24x7 XDR monitoring, remediation, and DFIR from experts that extend your team to help secure your extended ecosystem. Explore MDR Exposure management Get continuous assessment of your attack surface with the critical context to validate and extinguish vulnerabilities and policy gaps. See how it works
 ```
 
-#### Corroborating sources (8)
+#### Corroborating sources (7)
 
 - **Rapid7** (offensive_vulnerability_research)
   - Title: CVE-2026-123890: Critical Authentication Bypass in VMware vCenter
@@ -1055,11 +1051,6 @@ Emergent Threat Response CVE-2026-123890: Critical Authentication Bypass in VMwa
   - Published: 2026-11-20T00:26:25+00:00
   - Link: https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/
   - Summary: Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT
-  - Published: 2026-11-19T19:21:06+00:00
-  - Link: https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/
-  - Summary: Google says a China-linked espionage group exploited a critical VMware vCenter authentication bypass before Broadcom released a patch. The post Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT appeared first on SecurityWeek .
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day
   - Published: 2026-11-20T21:03:27+00:00
@@ -1529,12 +1520,12 @@ Content menu Close Subscribe Threat Response Table of Contents Introduction Init
   - Published: 2026-11-17T08:00:37+00:00
   - Link: https://securelist.com/operation-shadowcloud-gitdoor/122004/
   - Summary: In part 1 of our analysis of the recently uncovered Operation ShadowCloud, we discuss the initial infection stage, the GitDoor backdoor using GitHub as a C2, and the shellcode families it loads.
-- **Microsoft Security Blog** (threat_research_primary)
+- **Microsoft Threat Intelligence** (threat_research_primary)
   - Title: The risks of device code authentication for AI coding agents
   - Published: 2026-11-17T15:00:00+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/
   - Summary: Lab research shows how device code phishing, a technique that applies to any device-flow client, can extend to AI coding agents, using GitHub Copilot CLI as an illustrative example. The post The risks of device code authentication for AI coding agents appeared first on Microsoft Security Blog .
-- **Microsoft Threat Intelligence** (threat_research_primary)
+- **Microsoft Security Blog** (threat_research_primary)
   - Title: The risks of device code authentication for AI coding agents
   - Published: 2026-11-17T15:00:00+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/
@@ -1811,8 +1802,8 @@ Threat Research Center Insights General General Borrowed Code, Real Consequences
 - Published: 2026-11-19T00:00:00+00:00
 - Link: https://webflow.sysdig.com/blog/nginx2root
 - Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
+- Member count: 4
+- Corroborating source count: 4
 - Strong signals: Linux kernel
 
 #### Cluster taxonomy (union across members)
@@ -1837,7 +1828,7 @@ Threat Research Center Insights General General Borrowed Code, Real Consequences
 threat-research This is some text inside of a div block. < back to blog NGINX2Root: Five RCE bugs in NGINX, a Linux kernel path to root, and how to detect exploitation Published by: Sysdig Threat Research Team @ linkedin Subscribe to Threat Research Read more research Published: November 19, 2026 Table of contents TRT in your inbox Get security briefings from the Threat Research Team New campaigns, attacker techniques, and detection guidance — straight to your inbox. Subscribe falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more On November 18, 2026, F5 published CVE records for five memory-safety bugs in NGINX, and the project shipped fixes the same day in NGINX 1.31.9 (mainline) and 1.30.7 (stable). Each bug allows an unauthenticated remote attacker to corrupt memory in an NGINX worker process, and all five carry a CVSS 4.0 score of 9.2. Xint, one of the teams that reported the bugs, published a write-up dubbing the set of vulnerabilities “NGINX2Root.” Xint also chained one of the NGINX bugs with a previously unknown Linux kernel bug in the Stream Control Transmission Protocol (SCTP) to get root on the host, including from inside a Docker container running the official NGINX image. At the time of publication for this blog, there has been no public proof-of-concept (PoC) or reported in-the-wild exploitation. However, several teams found the HTTP/2 bugs independently, and both Xint and Wiz researchers say they’ve built working exploits that bypass address space layout randomization (ASLR). Also, the Linux kernel bug has not yet been assigned a CVE, nor has a fix been released. The Sysdig Threat Research Team (TRT) reviewed the disclosures and tested post-exploitation activity in a lab to help defenders understand who is exposed, what they can do before a fixed package reaches every host, and what runtime detection can see. This blog covers the five NGINX bugs, the kernel half of the chain, and what defenders can do now. Timeline All dates are in UTC. Date Event Oct. 11 Xint finds the vulnerabilities. Oct. 16 Xint reports them to F5 through HackerOne. Oct. 21 Wiz Research reports confirmed remote code execution (RCE), with an ASLR bypass, for CVE-2026-123633 to F5. Oct. 27 Xint's reports reach the NGINX development team. Nov. 10 Xint finishes validating the patches. Nov. 18 F5 publishes the five CVE records, NGINX 1.31.9 and 1.30.7 are released, and Xint and Wiz publish their research. Nov. 18 Debian and Ubuntu list every supported release as vulnerable, with no fixed package yet. The vulnerabilities and affected NGINX versions CVE Component Reachable when NGINX rating Vulnerable (NGINX Open Source) CVE-2026-123007 HTTP/2 flow control: integer underflow leading to a heap buffer overflow HTTP/2 is enabled Major 1.9.5 – 1.31.8 CVE-2026-123633 HTTP/2 use-after-free HTTP/2 is enabled, requests are proxied to an upstream, and the worker is low on worker_connections Medium 1.19.7 – 1.31.8 CVE-2026-123634 Resolver use-after-free The proxied server name uses variables, and an SSI or mirror subrequest resolves the same name Medium 0.6.18 – 1.31.8 CVE-2026-121810 HTTP/3 use-after-free HTTP/3 (QUIC) is enabled and requests are proxied to an upstream Medium 1.25.0 – 1.31.8 CVE-2026-113425 Mail proxy use-after-free The mail proxy runs with proxy on and auth_http Major 0.5.33 – 1.31.8 All five CVE records have been assigned the same scores: 8.1 (High) on CVSS 3.1 and 9.2 (Critical) on CVSS 4.0. NGINX2Root is network-based, doesn’t require authentication, and is relatively complex. F5 describes the impact as a worker crash or memory corruption, with code execution where ASLR is disabled or can be bypassed. All five are data-plane bugs, and F5 states there is no control-plane exposure. The fixed releases are NGINX 1.31.9 and 1.30.7. For NGINX Plus, they are 37.3.0.1 and 37.0.8.1 (37.2.0.1 and 37
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (4)
 
 - **Sysdig** (detection_response_operations)
   - Title: NGINX2Root: Five RCE bugs in NGINX, a Linux kernel path to root, and how to detect exploitation
@@ -1848,6 +1839,11 @@ threat-research This is some text inside of a div block. < back to blog NGINX2Ro
   - Published: 2026-11-20T12:20:00+00:00
   - Link: https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html
   - Summary: A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested virtualization enabled. Fixed kernels shipped
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Sashiko: Lessons from building an agentic code review system for Linux
+  - Published: 2026-11-18T17:00:00+00:00
+  - Link: https://cloud.google.com/blog/products/application-development/lessons-from-building-sashiko-an-agentic-code-review-system/
+  - Summary: The speed of development in large open-source projects has always been limited by code review, not code generation. Even as coding agents get better at writing code, they do not accelerate development on their own. This is especially true of patches to the Linux kernel. Without a way to build trust in proposed changes, more generated code simply piles up in front of the same small group of human maintainers. Some of those patches are solid changes, just written faster; many others are plausible-looking "AI slop" sent by contributors who do not fully understand the systems they are modifying. And the influx of AI-generated security reports, many of which are duplicates or inaccurate, only adds to maintainers’ load. Linux runs billions of Android phones, most cloud providers, and nearly every supercomputer. It spans more than 35 million lines of code, and over 85,000 changes land every year. Automated build bots and fuzzers like Syzkaller catch build errors and crashes, but code review h
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - Title: What’s in the SOSS? Podcast #78 – S3E30 From Signal Processing to Open Source Security: Sal Kimmich on Linux Kernel Defense
   - Published: 2026-11-18T19:17:12+00:00
@@ -1949,7 +1945,7 @@ Content menu Close Subscribe Threat Response Table of Contents Introduction Grap
 ### Cluster 5fccd3b124 — score 16
 
 - Title: High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors
-- Source: Microsoft Security Blog (threat_research_primary)
+- Source: Microsoft Threat Intelligence (threat_research_primary)
 - Published: 2026-11-17T00:08:41+00:00
 - Link: https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/
 - Fetch status: ok
@@ -1983,12 +1979,12 @@ Share Link copied to clipboard! Tags Credential theft Incident Response Phishing
 
 #### Corroborating sources (4)
 
-- **Microsoft Security Blog** (threat_research_primary)
+- **Microsoft Threat Intelligence** (threat_research_primary)
   - Title: High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors
   - Published: 2026-11-17T00:08:41+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/
   - Summary: Microsoft Threat Intelligence observed a high-volume phishing campaign using Microsoft 365 outage-themed lures to target organizations across multiple sectors worldwide. The post High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors appeared first on Microsoft Security Blog .
-- **Microsoft Threat Intelligence** (threat_research_primary)
+- **Microsoft Security Blog** (threat_research_primary)
   - Title: High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors
   - Published: 2026-11-17T00:08:41+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/
@@ -2548,6 +2544,133 @@ Infosecurity Magazine Home » News » Java4Shell Vulnerability Allows Remote Att
   - Link: https://www.infosecurity-magazine.com/news/java4shell-vulnerability-remote/
   - Summary: A critical OpenJDK vulnerability could expose major Java applications to remote code execution, prompting CISA to urge organizations implement mitigations
 
+### Cluster b1398a3cf7 — score 10
+
+- Title: AI Joins the Industrial Attack Workflow
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-11-20T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/ai-industrial-attack-workflow
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage
+- affected_industries: government, manufacturing_industrial, retail_ecommerce
+- affected_products: Fortinet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage
+- affected_industries: government, manufacturing_industrial, retail_ecommerce
+- affected_products: Fortinet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Insikt Group analyzes how GreenJuliett and AI frameworks like ARTEX are accelerating cyberattacks on OT networks.
+```
+
+#### Full body
+
+```
+AI Joins the Industrial Attack Workflow The recent cyberattack on French refrigerators and our tracking of the malicious AI framework ARTEX show that threat actors are increasingly using AI to accelerate attacks, expand their reach, and improve their effectiveness. GreenJuliett, the group behind operational technology (OT) cyberattacks similar to those in France, has begun incorporating AI into its OT attack chain. Understanding the scale AI offers financially motivated and state-sponsored threat actors helps us see it as more than a tool: it’s something that can fill an operator’s role, even while humans remain in control. On October 11 and 12, 2026, someone changed the defrost settings on refrigeration controllers at more than 700 retail locations in France. This resulted in fires, damaged equipment, and food losses estimated in the tens of millions of euros, highlighting the physical impacts of attacks against operational technology (OT). On November 9, France attributed the attack to Shahid Kaveh, a unit of Iran's Islamic Revolutionary Guard Corps Cyber Electronic Command (IRGC-CEC). We track activity that likely belongs to an element of Shahid Kaveh as GreenJuliett. GreenJuliett (also known as CyberAv3ngers and Bauxite) builds infrastructure aimed at internet-facing PLCs. And while that work continued through at least October 30, despite repeated public reporting on the group, the target set began to widen. Between August and October, we observed GreenJuliett-linked infrastructure scanning, or attempting to exploit, Fortinet FortiGate firewalls, edge devices that protect OT networks, in Bahrain, Israel, Jordan, Kuwait, Saudi Arabia, and Qatar. Our network data suggests the group is also working to add internet-of-things (IoT) and CCTV devices to its list. While we have not independently tied GreenJuliett infrastructure to the refrigeration attacks, over the past three months, we have seen the group continue to target PLCs (programmable logic controllers), which are similar to the internet-exposed controllers the refrigerators in France used. We have also observed that AI is now part of how they work. From Accounts to Infrastructure In October 2024, OpenAI banned accounts it assessed as belonging to CyberAv3ngers. The operators had used ChatGPT to research default credentials for PLCs, compile lists of electricity companies and common PLCs in Jordan, and draft scripts against industrial protocols (such as Modbus TCP, a control protocol that allows PLCs to communicate quickly on local networks). However, in 2026, the picture is different. In October, we found a configuration for LiteLLM (an open-source gateway that puts multiple AI models behind a single interface, suggesting a team-sharing model for access), alongside self-hosted chat applications built for Persian-language users, on infrastructure we assessed as likely used by GreenJuliett-linked operators. We also observed servers in the group's anonymization network communicating with infrastructure that hosts Anthropic's Claude. While we have not confirmed specific instances of misuse in this research, both OpenAI and Anthropic have reported publicly on detecting and disrupting misuse by Iranian government operators. AI shortens the time it takes to identify vulnerable device types and write targeting scripts, and GreenJuliett has moved it from individual accounts into its operating environment. Figure 1: The GreenJuliett operation path, as observed from August to October 2026 AI As Operator GreenJuliett uses AI as an assistant. A separate class of tooling makes AI the operator, and it is already deployed at scale. For example, ARTEX AI is one of eight offensive AI frameworks we track. Material recovered from exposed ARTEX servers shows how the agent works: Nmap, Masscan, and Nuclei for reconnaissance; Hydra and sqlmap for access; Chisel for tunneling. While the toolkit is familiar, the agent has now become the operator: On one server, archived transcripts show the age
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: AI Joins the Industrial Attack Workflow
+  - Published: 2026-11-20T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/ai-industrial-attack-workflow
+  - Summary: Insikt Group analyzes how GreenJuliett and AI frameworks like ARTEX are accelerating cyberattacks on OT networks.
+
+### Cluster 315e580651 — score 10
+
+- Title: Regional Insights: 2027 State of Threat Intelligence
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-11-19T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/2027-soti-regional-summaries
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: legal_professional
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: legal_professional
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Regional findings from the 2027 State of Threat Intelligence report: how security teams in North America, EMEA, APJ, and LATAM use intelligence and AI.
+```
+
+#### Full body
+
+```
+Regional Insights: 2027 State of Threat Intelligence Recorded Future’s 2027 State of Threat Intelligence report surveyed 768 security professionals worldwide on how they use threat intelligence today, how they apply AI to it, and where they plan to invest. The report presents the global findings. The regional executive summaries in this blog cover insights from the same survey, breaking data down by global region into dedicated briefs covering the specific conclusions for cybersecurity leaders in North America , EMEA , APJ , and LATAM . Start with your region to see how your peers are approaching threat intelligence, and read the others for a wider view. North America (United States and Canada) In North America, threat intelligence now informs decisions well beyond the security organization. Five teams consume it on average, and 85% of organizations surveyed have teams outside core security using it , including risk management (54%), fraud prevention (44%), and risk and compliance (44%). With intelligence supporting this many teams, 81% plan to invest more in the next 12 months. The challenge is getting the right intelligence to each of those teams in a form they can act on. Doing that depends on how well intelligence comes together, and this is an ongoing effort for many programs. Most surveyed organizations (63%) draw on four or more intelligence vendors. Only 21% combine that external intelligence with their own internal telemetry in a single platform, where analysts can see which threats apply to their environment. Consolidation plans reflect this. Of the 76% planning to consolidate, the largest share are doing it to improve correlation across signals (40%), compared with only 8% who cite cost. Moving intelligence from those sources to risk owners is also largely manual. 54% put intelligence into action manually across tools and processes. Among organizations sharing intelligence outside security, 38% rely on ad hoc messages or scheduled reports. Manual handoffs make it harder to see what risk owners did with the intelligence and whether it worked. While 98% measure program value, 28% track whether triggered actions were effective. Only 22% report closed-loop operationalization, where stakeholders act on intelligence, the results are validated, and those results inform the program’s priorities and collection. AI is already part of this work for nearly all respondents ( 98% ), and 60% use agents that take actions inside their intelligence tools. Leaders become more cautious as the stakes rise: comfort with letting AI act falls from 71% for summarization to 56% for enforcement actions. The leading barriers are lack of auditability (40%) and unproven accuracy (31%). 73% say intelligence regularly feeds their AI and automation systems or is a core input to them. That makes the quality and correlation of their intelligence a factor in how far they can trust AI to act. Risk owners can come from procurement, legal, fraud, corporate security, or communications. Threat intelligence innovation means getting the intelligence to the right person to make decisions and take action based on that intelligence. Rich LaTulip North America Field CISO at Recorded Future This summary draws on responses from 347 North American security professionals . They were part of a global survey of 768 that asked how organizations use threat intelligence, apply AI to it, and plan future investments. The full report covers how intelligence is expanding across the business, what full visibility requires, and what stands between teams and proven impact. Europe, Middle East, and Africa (EMEA) Across EMEA, threat intelligence now informs decisions well beyond the security organization, and leaders plan to extend it further. 86% of organizations surveyed have teams outside core security using it , and 35% name expanding intelligence to more teams as a top priority for the next two years. Budgets support that goal. Half (50%) spend more than $500K a year on exte
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Regional Insights: 2027 State of Threat Intelligence
+  - Published: 2026-11-19T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/2027-soti-regional-summaries
+  - Summary: Regional findings from the 2027 State of Threat Intelligence report: how security teams in North America, EMEA, APJ, and LATAM use intelligence and AI.
+
+### Cluster 5ce28a4ea0 — score 10
+
+- Title: What Is Threat Intelligence Worth? 142 Security Teams Did the Math.
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-11-17T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/threat-intelligence-roi
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: critical_infrastructure, education, financial_services
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: financial_services, critical_infrastructure, education
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+We surveyed 142 Recorded Future customers on the value of threat intelligence. See the highlights, then get the full ROI Report.
+```
+
+#### Full body
+
+```
+What Is Threat Intelligence Worth? 142 Security Teams Did the Math. Your board doesn't ask how many alerts your team closed. It wants to know what your security investments are worth in terms it already uses: revenue protected, losses avoided, and costs reduced. That question is hard to answer when attacks are faster and cheaper to scale, the attack surface reaches well past the perimeter, and teams are expected to do more without more headcount. We wanted real numbers on the value Recorded Future customers have experienced, so we partnered with UserEvidence to publish our 2027 ROI Report. It was built from a survey that asked 142 Recorded Future customers about the returns they're seeing. The average result is a 468% annual ROI.* Here's a first look at how they get there. Visibility comes first: 75% found risks they didn't know they had Security teams can't act on what they can't see. Many of the biggest blind spots sit outside the corporate network, where typosquatted domains, leaked credentials, and vendor exposure never trigger an internal alert. Of the customers surveyed, 75% gained visibility into previously unknown risks, the most commonly reported outcome. Among those who gained new visibility, 72% identified lookalike domains before they were weaponized, and 67% caught compromised credentials circulating on dark web markets. For Citizens Financial Group, that outside-in view of exposed credentials means a smaller attack surface and fewer openings for attackers: The ability to identify compromised credentials has reduced our attack surface and helped to mitigate the potential of initial access. Jordan Carpenter Senior Cyber Threat Intelligence Analyst, Citizens Financial Group Style padding-top-0,padding-bottom-0 Efficiency follows: An Average of 28 hours back every week When intelligence arrives already collected, enriched, and scored, analysts spend their time acting on it instead of assembling it. Teams reported reclaiming an average of 28 hours per week across seven core security workflows. They also shifted an average of 26% of tasks from senior to junior analysts, freeing experienced staff for higher-value actions like proactive threat hunting and expanding threat coverage across more attack surfaces. Most are putting that recovered time to work: 70% plan to reinvest it in proactive threat hunting. Then business risk drops Faster, better-informed teams stop threats earlier. Customers reported mean time to detect falling 48% and mean time to remediate falling 50%. They also reported fewer fraud losses, less downtime, and lower cyber insurance premiums. These are the outcomes a CFO and a board often recognize. The posture shift is clear in the sentiment data as well. 90% say Recorded Future has strengthened their overall security posture, and 85% say it helped them move from reactive to proactive. For South Carolina Critical Infrastructure Cybersecurity, reduced business risk translates into tens if not hundreds of thousands of dollars in savings: Without Recorded Future intelligence, these exposures would have remained unknown until an adversary operationalized them, at which point the cost shifts from a brief remediation call to a full incident response engagement, which for a mid-size municipality or school district can easily exceed $50,000–$200,000 in recovery costs alone. Ryan Cummings Cyber Threat Intelligence Analyst, South Carolina Critical Infrastructure Cybersecurity Style padding-top-0,padding-bottom-0 Value that's hard to get elsewhere For every outcome we measured, a clear majority said they could not have fully achieved it without Recorded Future. That includes faster detection: 82% said they couldn't have fully achieved it on their own without Recorded Future. What's in the full report The ROI Report shows exactly how the 468% is calculated, including the dollar value behind each category, the assumptions, and the customer stories that bring the data to life. It also covers: How customers are using
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: What Is Threat Intelligence Worth? 142 Security Teams Did the Math.
+  - Published: 2026-11-17T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/threat-intelligence-roi
+  - Summary: We surveyed 142 Recorded Future customers on the value of threat intelligence. See the highlights, then get the full ROI Report.
+
 ### Cluster 837820075f — score 10
 
 - Title: 30 Years of Gatekeeper Asymmetry Doom: The Paradox that Makes Powerful LLMs More Vulnerable
@@ -2776,133 +2899,6 @@ Horizon3 Brings Autonomous Pentesting to Defense Customers Through IL4 Authoriza
   - Published: 2026-11-18T15:10:00+00:00
   - Link: https://horizon3.ai/news/press-release/horizon3-brings-autonomous-pentesting-to-defense-customers-through-il4-authorization/
   - Summary: NodeZero for Defense Internal Pentesting is now authorized and available to eligible Department of War customers in Impact Level 4 (IL4) environments. Defense teams can use it to identify exploitable paths through their internal networks, prioritize fixes based on mission risk, and verify that those fixes block the paths.
-
-### Cluster b1398a3cf7 — score 10
-
-- Title: AI Joins the Industrial Attack Workflow
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-11-20T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/ai-industrial-attack-workflow
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
-- affected_industries: government, manufacturing_industrial, retail_ecommerce
-- affected_products: Fortinet
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage
-- affected_industries: government, manufacturing_industrial, retail_ecommerce
-- affected_products: Fortinet
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Insikt Group analyzes how GreenJuliett and AI frameworks like ARTEX are accelerating cyberattacks on OT networks.
-```
-
-#### Full body
-
-```
-AI Joins the Industrial Attack Workflow The recent cyberattack on French refrigerators and our tracking of the malicious AI framework ARTEX show that threat actors are increasingly using AI to accelerate attacks, expand their reach, and improve their effectiveness. GreenJuliett, the group behind operational technology (OT) cyberattacks similar to those in France, has begun incorporating AI into its OT attack chain. Understanding the scale AI offers financially motivated and state-sponsored threat actors helps us see it as more than a tool: it’s something that can fill an operator’s role, even while humans remain in control. On October 11 and 12, 2026, someone changed the defrost settings on refrigeration controllers at more than 700 retail locations in France. This resulted in fires, damaged equipment, and food losses estimated in the tens of millions of euros, highlighting the physical impacts of attacks against operational technology (OT). On November 9, France attributed the attack to Shahid Kaveh, a unit of Iran's Islamic Revolutionary Guard Corps Cyber Electronic Command (IRGC-CEC). We track activity that likely belongs to an element of Shahid Kaveh as GreenJuliett. GreenJuliett (also known as CyberAv3ngers and Bauxite) builds infrastructure aimed at internet-facing PLCs. And while that work continued through at least October 30, despite repeated public reporting on the group, the target set began to widen. Between August and October, we observed GreenJuliett-linked infrastructure scanning, or attempting to exploit, Fortinet FortiGate firewalls, edge devices that protect OT networks, in Bahrain, Israel, Jordan, Kuwait, Saudi Arabia, and Qatar. Our network data suggests the group is also working to add internet-of-things (IoT) and CCTV devices to its list. While we have not independently tied GreenJuliett infrastructure to the refrigeration attacks, over the past three months, we have seen the group continue to target PLCs (programmable logic controllers), which are similar to the internet-exposed controllers the refrigerators in France used. We have also observed that AI is now part of how they work. From Accounts to Infrastructure In October 2024, OpenAI banned accounts it assessed as belonging to CyberAv3ngers. The operators had used ChatGPT to research default credentials for PLCs, compile lists of electricity companies and common PLCs in Jordan, and draft scripts against industrial protocols (such as Modbus TCP, a control protocol that allows PLCs to communicate quickly on local networks). However, in 2026, the picture is different. In October, we found a configuration for LiteLLM (an open-source gateway that puts multiple AI models behind a single interface, suggesting a team-sharing model for access), alongside self-hosted chat applications built for Persian-language users, on infrastructure we assessed as likely used by GreenJuliett-linked operators. We also observed servers in the group's anonymization network communicating with infrastructure that hosts Anthropic's Claude. While we have not confirmed specific instances of misuse in this research, both OpenAI and Anthropic have reported publicly on detecting and disrupting misuse by Iranian government operators. AI shortens the time it takes to identify vulnerable device types and write targeting scripts, and GreenJuliett has moved it from individual accounts into its operating environment. Figure 1: The GreenJuliett operation path, as observed from August to October 2026 AI As Operator GreenJuliett uses AI as an assistant. A separate class of tooling makes AI the operator, and it is already deployed at scale. For example, ARTEX AI is one of eight offensive AI frameworks we track. Material recovered from exposed ARTEX servers shows how the agent works: Nmap, Masscan, and Nuclei for reconnaissance; Hydra and sqlmap for access; Chisel for tunneling. While the toolkit is familiar, the agent has now become the operator: On one server, archived transcripts show the age
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: AI Joins the Industrial Attack Workflow
-  - Published: 2026-11-20T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/ai-industrial-attack-workflow
-  - Summary: Insikt Group analyzes how GreenJuliett and AI frameworks like ARTEX are accelerating cyberattacks on OT networks.
-
-### Cluster 315e580651 — score 10
-
-- Title: Regional Insights: 2027 State of Threat Intelligence
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-11-19T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/2027-soti-regional-summaries
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: legal_professional
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: legal_professional
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Regional findings from the 2027 State of Threat Intelligence report: how security teams in North America, EMEA, APJ, and LATAM use intelligence and AI.
-```
-
-#### Full body
-
-```
-Regional Insights: 2027 State of Threat Intelligence Recorded Future’s 2027 State of Threat Intelligence report surveyed 768 security professionals worldwide on how they use threat intelligence today, how they apply AI to it, and where they plan to invest. The report presents the global findings. The regional executive summaries in this blog cover insights from the same survey, breaking data down by global region into dedicated briefs covering the specific conclusions for cybersecurity leaders in North America , EMEA , APJ , and LATAM . Start with your region to see how your peers are approaching threat intelligence, and read the others for a wider view. North America (United States and Canada) In North America, threat intelligence now informs decisions well beyond the security organization. Five teams consume it on average, and 85% of organizations surveyed have teams outside core security using it , including risk management (54%), fraud prevention (44%), and risk and compliance (44%). With intelligence supporting this many teams, 81% plan to invest more in the next 12 months. The challenge is getting the right intelligence to each of those teams in a form they can act on. Doing that depends on how well intelligence comes together, and this is an ongoing effort for many programs. Most surveyed organizations (63%) draw on four or more intelligence vendors. Only 21% combine that external intelligence with their own internal telemetry in a single platform, where analysts can see which threats apply to their environment. Consolidation plans reflect this. Of the 76% planning to consolidate, the largest share are doing it to improve correlation across signals (40%), compared with only 8% who cite cost. Moving intelligence from those sources to risk owners is also largely manual. 54% put intelligence into action manually across tools and processes. Among organizations sharing intelligence outside security, 38% rely on ad hoc messages or scheduled reports. Manual handoffs make it harder to see what risk owners did with the intelligence and whether it worked. While 98% measure program value, 28% track whether triggered actions were effective. Only 22% report closed-loop operationalization, where stakeholders act on intelligence, the results are validated, and those results inform the program’s priorities and collection. AI is already part of this work for nearly all respondents ( 98% ), and 60% use agents that take actions inside their intelligence tools. Leaders become more cautious as the stakes rise: comfort with letting AI act falls from 71% for summarization to 56% for enforcement actions. The leading barriers are lack of auditability (40%) and unproven accuracy (31%). 73% say intelligence regularly feeds their AI and automation systems or is a core input to them. That makes the quality and correlation of their intelligence a factor in how far they can trust AI to act. Risk owners can come from procurement, legal, fraud, corporate security, or communications. Threat intelligence innovation means getting the intelligence to the right person to make decisions and take action based on that intelligence. Rich LaTulip North America Field CISO at Recorded Future This summary draws on responses from 347 North American security professionals . They were part of a global survey of 768 that asked how organizations use threat intelligence, apply AI to it, and plan future investments. The full report covers how intelligence is expanding across the business, what full visibility requires, and what stands between teams and proven impact. Europe, Middle East, and Africa (EMEA) Across EMEA, threat intelligence now informs decisions well beyond the security organization, and leaders plan to extend it further. 86% of organizations surveyed have teams outside core security using it , and 35% name expanding intelligence to more teams as a top priority for the next two years. Budgets support that goal. Half (50%) spend more than $500K a year on exte
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Regional Insights: 2027 State of Threat Intelligence
-  - Published: 2026-11-19T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/2027-soti-regional-summaries
-  - Summary: Regional findings from the 2027 State of Threat Intelligence report: how security teams in North America, EMEA, APJ, and LATAM use intelligence and AI.
-
-### Cluster 5ce28a4ea0 — score 10
-
-- Title: What Is Threat Intelligence Worth? 142 Security Teams Did the Math.
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-11-17T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/threat-intelligence-roi
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure, education, financial_services
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: financial_services, critical_infrastructure, education
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-We surveyed 142 Recorded Future customers on the value of threat intelligence. See the highlights, then get the full ROI Report.
-```
-
-#### Full body
-
-```
-What Is Threat Intelligence Worth? 142 Security Teams Did the Math. Your board doesn't ask how many alerts your team closed. It wants to know what your security investments are worth in terms it already uses: revenue protected, losses avoided, and costs reduced. That question is hard to answer when attacks are faster and cheaper to scale, the attack surface reaches well past the perimeter, and teams are expected to do more without more headcount. We wanted real numbers on the value Recorded Future customers have experienced, so we partnered with UserEvidence to publish our 2027 ROI Report. It was built from a survey that asked 142 Recorded Future customers about the returns they're seeing. The average result is a 468% annual ROI.* Here's a first look at how they get there. Visibility comes first: 75% found risks they didn't know they had Security teams can't act on what they can't see. Many of the biggest blind spots sit outside the corporate network, where typosquatted domains, leaked credentials, and vendor exposure never trigger an internal alert. Of the customers surveyed, 75% gained visibility into previously unknown risks, the most commonly reported outcome. Among those who gained new visibility, 72% identified lookalike domains before they were weaponized, and 67% caught compromised credentials circulating on dark web markets. For Citizens Financial Group, that outside-in view of exposed credentials means a smaller attack surface and fewer openings for attackers: The ability to identify compromised credentials has reduced our attack surface and helped to mitigate the potential of initial access. Jordan Carpenter Senior Cyber Threat Intelligence Analyst, Citizens Financial Group Style padding-top-0,padding-bottom-0 Efficiency follows: An Average of 28 hours back every week When intelligence arrives already collected, enriched, and scored, analysts spend their time acting on it instead of assembling it. Teams reported reclaiming an average of 28 hours per week across seven core security workflows. They also shifted an average of 26% of tasks from senior to junior analysts, freeing experienced staff for higher-value actions like proactive threat hunting and expanding threat coverage across more attack surfaces. Most are putting that recovered time to work: 70% plan to reinvest it in proactive threat hunting. Then business risk drops Faster, better-informed teams stop threats earlier. Customers reported mean time to detect falling 48% and mean time to remediate falling 50%. They also reported fewer fraud losses, less downtime, and lower cyber insurance premiums. These are the outcomes a CFO and a board often recognize. The posture shift is clear in the sentiment data as well. 90% say Recorded Future has strengthened their overall security posture, and 85% say it helped them move from reactive to proactive. For South Carolina Critical Infrastructure Cybersecurity, reduced business risk translates into tens if not hundreds of thousands of dollars in savings: Without Recorded Future intelligence, these exposures would have remained unknown until an adversary operationalized them, at which point the cost shifts from a brief remediation call to a full incident response engagement, which for a mid-size municipality or school district can easily exceed $50,000–$200,000 in recovery costs alone. Ryan Cummings Cyber Threat Intelligence Analyst, South Carolina Critical Infrastructure Cybersecurity Style padding-top-0,padding-bottom-0 Value that's hard to get elsewhere For every outcome we measured, a clear majority said they could not have fully achieved it without Recorded Future. That includes faster detection: 82% said they couldn't have fully achieved it on their own without Recorded Future. What's in the full report The ROI Report shows exactly how the 468% is calculated, including the dollar value behind each category, the assumptions, and the customer stories that bring the data to life. It also covers: How customers are using
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: What Is Threat Intelligence Worth? 142 Security Teams Did the Math.
-  - Published: 2026-11-17T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/threat-intelligence-roi
-  - Summary: We surveyed 142 Recorded Future customers on the value of threat intelligence. See the highlights, then get the full ROI Report.
 
 ### Cluster 8721dda70c — score 10
 
@@ -3197,102 +3193,6 @@ Threat Intelligence GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Si
   - Link: https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold/
   - Summary: Written by: Aurora Blum, Kelli Vanderlee, Jess Xia, David Mainor Executive Summary As threat actors increasingly move beyond basic prompting to deploying autonomous multi-agent frameworks , automated vulnerability exploitation pipelines, and alternative monetization schemes like LLMJacking , the adversarial AI landscape has reached a critical inflection point. In this update, Google Threat Intelligence Group (GTIG) and Mandiant examine how adversaries across the cyber crime, espionage, and information operations spectrum are operationalizing generative AI to compress attack timelines, scale operations, and execute multi-stage intrusions at machine speed. Key trends over the last quarter include: Shift to Autonomous Workflows and Multi-Agent Frameworks: Adversary tradecraft has continued to transition beyond manual prompting to deploying autonomous multi-agent offensive frameworks—such as ARTEX , CAIRN, CyberStrikeAI, and PentAGI—to execute multi-stage intrusions at greater operational
 
-### Cluster 54677f7495 — score 10
-
-- Title: Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-11-21T12:08:50+00:00
-- Link: https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, data_breach, ransomware_extortion, zero_day
-- actor_attribution: Scattered Spider
-- affected_industries: critical_infrastructure, education, healthcare, manufacturing_industrial
-- affected_products: VMware
-- urgency_signals: poc_available, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, zero_day, data_breach, apt_espionage
-- actor_attribution: Scattered Spider
-- affected_industries: healthcare, critical_infrastructure, manufacturing_industrial, education
-- affected_products: VMware
-- urgency_signals: zero_day, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Amazon says autonomous AI agents run by a China-linked threat actor found and exploited a zero-day vulnerability in MONAI Label, an open source tool designed for AI-assisted annotation of medical images. The tech giant’s threat intelligence team detected the activity in September, after coming across an exposed instance of Cairn , an open source AI penetration testing framework. The instance had no authentication, so anyone could see the operator’s prompts and the agents’ output. The records showed a roughly 48-hour campaign against IP addresses belonging to universities in East Asia outside mainland China. The operator gave the agents a list of targets and told them to obtain shell access. After identifying the software on one target and mapping its API, the agents discovered a path traversal bug in a file upload function. “In about 11 minutes, the agents went from mapping the application’s API to arbitrarily writing files on the server,” Amazon said . In a later session, the agents used the flaw to plant a Python reverse shell in a file Python runs every time the interpreter starts, ultimately achieving a root shell. Advertisement. Scroll to continue reading. “Amazon Threat Intelligence assesses with high confidence that it was a zero-day based on the absence of any corresponding fix, issue, advisory, or prior mention in vulnerability databases for the affected open-source project,” the company said. The operator then gave the agents a proxy that tunneled into a second university and instructed them to target other devices on its network. “The server that the proxy connected to was running the same vulnerable software, and we infer the actor had used the zero-day to compromise it and establish the tunnel,” Amazon noted. The MONAI Label developers published an advisory this week. It rates the bug critical and says it affects versions 0.8.5 and earlier. Authentication is off by default, enabling anyone who can reach the server over the network to exploit the vulnerability. A fix has been created and will be included in the next release. Amazon has attributed the attack to an unidentified Chinese-nexus threat actor with moderate confidence, based on the language used in the prompts, the time zone in the scripts, and the fact that the targeted universities are likely of strategic interest to China. Related : European Commission Confirms AI-Assisted Cyberattack Disrupted Services Related : China-Linked Hackers Exploit PHP2Shell to Root Firewalls Related : Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT Nvidia Responds to Gentlemen Ransomware Claim Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories Last of Five Defendants Sentenced in US Scattered Spider Hacking Case Microsoft Takes Perception Agentic Security Platform Out of Preview Microsoft Agent Framework Releases Poisoned With Credential Stealer Latest News WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit Industry Reactions to Major Outages and AI Patching Debate: Feedback Friday SBC Medical Group Data Breach Impacts Over 2 Million European Commission Confirms AI-Assisted Cyberattack Disrupted Services Ruby Patches Ruby2Shell Vulnerability That Could Lead to
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day
-  - Published: 2026-11-21T12:08:50+00:00
-  - Link: https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/
-  - Summary: A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek .
-
-### Cluster 97d0321d69 — score 10
-
-- Title: Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-11-21T11:03:17+00:00
-- Link: https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, zero_day
-- affected_industries: education, government, healthcare
-- cve_ids: CVE-2026-133968
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, apt_espionage
-- affected_industries: healthcare, government, education
-- cve_ids: CVE-2026-133968
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,
-```
-
-#### Full body
-
-```
-Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access  Ravie Lakshmanan  Nov 21, 2026 Artificial Intelligence / Cyber Espionage Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label , an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup, which runs with no login enabled. The maintainers have merged a fix in the source code, but there is still no fixed version to install. MONAI Label is a server that research teams use to label medical scans and train imaging models; it is a separate program from the broader MONAI framework. The weakness is a path-traversal flaw in the parts of the server that store uploaded images and labels. A file identifier supplied by the caller is appended to the storage folder and written to disk without checking that the result remains within that folder. The server writes with the privileges of the account it runs under, so an attacker cannot write anywhere on the machine, but a writable code or settings location can open a path to running code. Authentication is off by default, so any client that can reach the server over the network can set off the write. Versions 0.8.5 and earlier are affected. Amazon reconstructed the intrusion after finding the operator's own Cairn control panel sitting on the internet without a password. Cairn is an open-source framework that runs AI agents as automated penetration testers, and the exposed panel revealed the agents' task settings, prompts, and run history. Over about 48 hours in September, the agents mapped the application's interface and reached the point of writing files to the server in roughly 11 minutes, the company said in its incident report . The agents worked with little step-by-step direction. The operator set the goal of getting shell access and chose the targets, and the agents selected the methods themselves, according to the company. Investigators tie the campaign to a China-linked actor with moderate confidence, pointing to Simplified Chinese prompts, China Standard Time settings, and targets likely of interest to China. They did not connect the work to a named group or establish that a government was behind it. A root shell came later, and not within those 11 minutes. In a separate session, the agents used the same flaw to plant a file that Python runs automatically at startup. They then triggered a training feature that started a new Python process, which loaded that file and connected back to the attacker as root. That root access was on one university server, and whether another MONAI Label system would give the same result depends on how it is run and what its service account can do. In a later session, the operator handed the agents a tunnel into a second university network running the same software. Amazon believes the network was broken into in the same way but has not confirmed the second compromise. The maintainers confirmed the flaw and merged the source fix on October 19, which forces uploads to resolve inside the approved folders and rejects empty names or names that begin with a dot. Their security advisory , published earlier this week, still lists no patched version and says the correction will arrive in a future release. The newest release listing remains 0.8.5, which dates to 2024. A merged fix in source code is not the same as a package you can install. The flaw is now listed in the CVE record as CVE-2026-133968, published this week and rated 9.8 out of 10, a critical score. The project's advisory still shows no CVE assigned, which is a lag in updating that page, not a sign of a second flaw. What to Do Now With no fixed release available, the practical steps are to cut off exposure and limit what a compromised
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access
-  - Published: 2026-11-21T11:03:17+00:00
-  - Link: https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html
-  - Summary: Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,
-
 ### Cluster a4a11d6f47 — score 10
 
 - Title: Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login
@@ -3410,6 +3310,55 @@ I&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x99;ve mentioned before in some of my diarie
   - Link: https://isc.sans.edu/diary/rss/33526
   - Summary: I&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x99;ve mentioned before in some of my diaries that it can be instructive to look at what appear to be &#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x9c;generic&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x9d; phishing messages in detail from time to time, since some of them might prove not to be as generic as they initially appear. I came across a good example of this while going over phishing messages delivered to our handler inbox over the past few weeks, when a message that, at first glance, appeared to be a fairly ordinary attempt at stealing e-mail credentials turned out to lead to a page interested in collecting a little more information than just the victim&#;x26;#;39;s password.
 
+### Cluster 54677f7495 — score 9
+
+- Title: Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-11-21T12:08:50+00:00
+- Link: https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, data_breach, ransomware_extortion, zero_day
+- actor_attribution: Scattered Spider
+- affected_industries: critical_infrastructure, education, healthcare, manufacturing_industrial
+- affected_products: VMware
+- urgency_signals: poc_available, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, zero_day, data_breach, apt_espionage
+- actor_attribution: Scattered Spider
+- affected_industries: healthcare, critical_infrastructure, manufacturing_industrial, education
+- affected_products: VMware
+- urgency_signals: zero_day, poc_available
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Amazon says autonomous AI agents run by a China-linked threat actor found and exploited a zero-day vulnerability in MONAI Label, an open source tool designed for AI-assisted annotation of medical images. The tech giant’s threat intelligence team detected the activity in September, after coming across an exposed instance of Cairn , an open source AI penetration testing framework. The instance had no authentication, so anyone could see the operator’s prompts and the agents’ output. The records showed a roughly 48-hour campaign against IP addresses belonging to universities in East Asia outside mainland China. The operator gave the agents a list of targets and told them to obtain shell access. After identifying the software on one target and mapping its API, the agents discovered a path traversal bug in a file upload function. “In about 11 minutes, the agents went from mapping the application’s API to arbitrarily writing files on the server,” Amazon said . In a later session, the agents used the flaw to plant a Python reverse shell in a file Python runs every time the interpreter starts, ultimately achieving a root shell. Advertisement. Scroll to continue reading. “Amazon Threat Intelligence assesses with high confidence that it was a zero-day based on the absence of any corresponding fix, issue, advisory, or prior mention in vulnerability databases for the affected open-source project,” the company said. The operator then gave the agents a proxy that tunneled into a second university and instructed them to target other devices on its network. “The server that the proxy connected to was running the same vulnerable software, and we infer the actor had used the zero-day to compromise it and establish the tunnel,” Amazon noted. The MONAI Label developers published an advisory this week. It rates the bug critical and says it affects versions 0.8.5 and earlier. Authentication is off by default, enabling anyone who can reach the server over the network to exploit the vulnerability. A fix has been created and will be included in the next release. Amazon has attributed the attack to an unidentified Chinese-nexus threat actor with moderate confidence, based on the language used in the prompts, the time zone in the scripts, and the fact that the targeted universities are likely of strategic interest to China. Related : European Commission Confirms AI-Assisted Cyberattack Disrupted Services Related : China-Linked Hackers Exploit PHP2Shell to Root Firewalls Related : Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT Nvidia Responds to Gentlemen Ransomware Claim Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories Last of Five Defendants Sentenced in US Scattered Spider Hacking Case Microsoft Takes Perception Agentic Security Platform Out of Preview Latest News FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says President Trump Taps Kirsten Davies as National Cyber Director WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit Industry Reactions to Major Outages and AI Patching Debate: Feedback Friday SBC Medical Group Data
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day
+  - Published: 2026-11-21T12:08:50+00:00
+  - Link: https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/
+  - Summary: A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek .
+
 ### Cluster 866e65cb38 — score 9
 
 - Title: n0n extortion gang leaks data of JPMorgan Chase, Visa, and Mastercard customers
@@ -3452,6 +3401,53 @@ Industry News 3 min read n0n extortion gang leaks data of JPMorgan Chase, Visa, 
   - Published: 2026-11-20T18:57:38+00:00
   - Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/n0n-extortion-leaks-data-jpmorgan-chase-visa-mastercard
   - Summary: Data belonging to customers of three of the biggest companies in global finance has been leaked online, after hackers breached third-party service providers working for JPMorgan Chase, Visa, and Mastercard. Read more in my article on the Hot for Security blog.
+
+### Cluster 97d0321d69 — score 9
+
+- Title: Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-11-21T11:03:17+00:00
+- Link: https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, zero_day
+- affected_industries: education, government, healthcare
+- cve_ids: CVE-2026-133968
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, apt_espionage
+- affected_industries: healthcare, government, education
+- cve_ids: CVE-2026-133968
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,
+```
+
+#### Full body
+
+```
+Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access  Ravie Lakshmanan  Nov 21, 2026 Artificial Intelligence / Cyber Espionage Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label , an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup, which runs with no login enabled. The maintainers have merged a fix in the source code, but there is still no fixed version to install. MONAI Label is a server that research teams use to label medical scans and train imaging models; it is a separate program from the broader MONAI framework. The weakness is a path-traversal flaw in the parts of the server that store uploaded images and labels. A file identifier supplied by the caller is appended to the storage folder and written to disk without checking that the result remains within that folder. The server writes with the privileges of the account it runs under, so an attacker cannot write anywhere on the machine, but a writable code or settings location can open a path to running code. Authentication is off by default, so any client that can reach the server over the network can set off the write. Versions 0.8.5 and earlier are affected. Amazon reconstructed the intrusion after finding the operator's own Cairn control panel sitting on the internet without a password. Cairn is an open-source framework that runs AI agents as automated penetration testers, and the exposed panel revealed the agents' task settings, prompts, and run history. Over about 48 hours in September, the agents mapped the application's interface and reached the point of writing files to the server in roughly 11 minutes, the company said in its incident report . The agents worked with little step-by-step direction. The operator set the goal of getting shell access and chose the targets, and the agents selected the methods themselves, according to the company. Investigators tie the campaign to a China-linked actor with moderate confidence, pointing to Simplified Chinese prompts, China Standard Time settings, and targets likely of interest to China. They did not connect the work to a named group or establish that a government was behind it. A root shell came later, and not within those 11 minutes. In a separate session, the agents used the same flaw to plant a file that Python runs automatically at startup. They then triggered a training feature that started a new Python process, which loaded that file and connected back to the attacker as root. That root access was on one university server, and whether another MONAI Label system would give the same result depends on how it is run and what its service account can do. In a later session, the operator handed the agents a tunnel into a second university network running the same software. Amazon believes the network was broken into in the same way but has not confirmed the second compromise. The maintainers confirmed the flaw and merged the source fix on October 19, which forces uploads to resolve inside the approved folders and rejects empty names or names that begin with a dot. Their security advisory , published earlier this week, still lists no patched version and says the correction will arrive in a future release. The newest release listing remains 0.8.5, which dates to 2024. A merged fix in source code is not the same as a package you can install. The flaw is now listed in the CVE record as CVE-2026-133968, published this week and rated 9.8 out of 10, a critical score. The project's advisory still shows no CVE assigned, which is a lag in updating that page, not a sign of a second flaw. What to Do Now With no fixed release available, the practical steps are to cut off exposure and limit what a compromised
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access
+  - Published: 2026-11-21T11:03:17+00:00
+  - Link: https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html
+  - Summary: Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,
 
 ### Cluster cca4af3e33 — score 9
 
@@ -3676,13 +3672,59 @@ Katie Knowles Senior Security Researcher This research was presented at Hybrid I
   - Link: https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/
   - Summary: Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]
 
+### Cluster cf875bad92 — score 9
+
+- Title: Introducing in-place migration to GKE Dataplane V2
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-11-19T17:00:00+00:00
+- Link: https://cloud.google.com/blog/products/networking/gke-dataplane-v2-in-place-migration/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: Kubernetes
+
+#### Cluster taxonomy (union across members)
+- affected_products: Google Cloud, Kubernetes, Linux kernel
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- affected_products: Kubernetes, Google Cloud, Linux kernel
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+GKE Dataplane V2 is Google Cloud’s next-generation networking dataplane for Google Kubernetes Engine (GKE), built on extended Berkeley Packet Filter ( eBPF ) and open-source Cilium to replace traditional iptables routing and kube-proxy . We built GKE Dataplane V2 to meet the performance, scalability, and security demands of modern cloud-native workloads. GKE customers consistently tell us that while they want to adopt GKE Dataplane V2 for its performance and scale, migrating production clusters carrying stateful workloads and established IP allocations has been challenging, often requiring a disruptive parallel cluster setup. Today, we are pleased to introduce the preview of in-place migration , allowing you to transition eligible VPC-native clusters from GKE Dataplane V1 to GKE Dataplane V2 directly. Let’s take a look at what GKE Dataplane V2 brings to the table and how to start migrating your environment to it. Why GKE Dataplane V2? GKE Dataplane V2 is built on the extended Berkeley
+```
+
+#### Full body
+
+```
+Networking Introducing in-place migration to GKE Dataplane V2 November 19, 2026 Shrikant Kelkar Product Manager Mark St. John Software Engineer Try Gemini today The front door to AI in the workplace Try now GKE Dataplane V2 is Google Cloud’s next-generation networking dataplane for Google Kubernetes Engine (GKE), built on extended Berkeley Packet Filter ( eBPF ) and open-source Cilium to replace traditional iptables routing and kube-proxy . We built GKE Dataplane V2 to meet the performance, scalability, and security demands of modern cloud-native workloads. GKE customers consistently tell us that while they want to adopt GKE Dataplane V2 for its performance and scale, migrating production clusters carrying stateful workloads and established IP allocations has been challenging, often requiring a disruptive parallel cluster setup. Today, we are pleased to introduce the preview of in-place migration , allowing you to transition eligible VPC-native clusters from GKE Dataplane V1 to GKE Dataplane V2 directly. Let’s take a look at what GKE Dataplane V2 brings to the table and how to start migrating your environment to it. Why GKE Dataplane V2? GKE Dataplane V2 is built on the extended Berkeley Packet Filter (eBPF) and open-source Cilium, with features specifically tuned for performance, scalability, and deep integration with Google Cloud networking. Consider the following capabilities: Scale and performance: By handling packet processing with eBPF maps in the Linux kernel instead of linear iptables rules, GKE Dataplane V2 supports clusters of up to 15,000 nodes with network policy enforcement (and up to 65,000 nodes when network policy enforcement is disabled, which requires recreating clusters). This architecture also handles the high Pod churn, fast sandbox provisioning, and network identity scaling required by large agentic AI workloads . High-throughput accelerator networking: Serves as the foundational networking layer for GPU and Cloud TPU clusters on GKE, helping keep accelerators computing rather than waiting on network initialization. It also powers capabilities like GKE managed DRANET for Dynamic Resource Allocation (DRA) of network devices. Network security and observability: With GKE Dataplane V2, standard Kubernetes NetworkPolicy enforcement and hierarchical ClusterNetworkPolicy work directly in the kernel with optimized performance. GKE Dataplane V2 also provides the underlying dataplane for sidecarless GKE ambient networking , while GKE Dataplane V2 observability delivers native network policy logging , live traffic topology, and Hubble flow metrics. The in-place migration workflow Instead of having to manually move workloads to a new cluster, GKE now automates the transition across three stages, as described in the GKE Dataplane V2 migration guide : 1. Eligibility and preflight checks: Before starting, verify that your Pod IP ranges have enough capacity to recreate the nodes by using GKE IP address utilization insights , and check Active Assist for incompatible configurations like custom eBPF programs on managed interfaces. 2. Initiate the migration: Once you’ve verified the preflight checks, start the migration with a single Google Cloud CLI update command. To initiate the migration on an eligible cluster, run: Loading... gcloud container clusters update CLUSTER_NAME \ --location=LOCATION \ --enable-dataplane-v2 3. Automated rollout and finalization: GKE updates your node pools to GKE Dataplane V2 while respecting your configured maintenance windows, exclusions, and upgrade strategies. To move faster, you can also patch specific node pools manually, or roll back to GKE Dataplane V1 at any time prior to finalization. In-place migration supports VPC-native clusters running GKE 1.35 or later (see the migration guide for exact version requirements). It does not support routes-based clusters or clusters running Calico. Get started In-place migration to GKE Dataplane V2 is available now in preview. During this time, we re
+```
+
+#### Corroborating sources (2)
+
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Introducing in-place migration to GKE Dataplane V2
+  - Published: 2026-11-19T17:00:00+00:00
+  - Link: https://cloud.google.com/blog/products/networking/gke-dataplane-v2-in-place-migration/
+  - Summary: GKE Dataplane V2 is Google Cloud’s next-generation networking dataplane for Google Kubernetes Engine (GKE), built on extended Berkeley Packet Filter ( eBPF ) and open-source Cilium to replace traditional iptables routing and kube-proxy . We built GKE Dataplane V2 to meet the performance, scalability, and security demands of modern cloud-native workloads. GKE customers consistently tell us that while they want to adopt GKE Dataplane V2 for its performance and scale, migrating production clusters carrying stateful workloads and established IP allocations has been challenging, often requiring a disruptive parallel cluster setup. Today, we are pleased to introduce the preview of in-place migration , allowing you to transition eligible VPC-native clusters from GKE Dataplane V1 to GKE Dataplane V2 directly. Let’s take a look at what GKE Dataplane V2 brings to the table and how to start migrating your environment to it. Why GKE Dataplane V2? GKE Dataplane V2 is built on the extended Berkeley
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Rackspace Spot breach let hackers access customer Kubernetes secrets
+  - Published: 2026-11-21T22:59:58+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/
+  - Summary: Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]
+
 ### Cluster 7306fb3fbc — score 9
 
 - Title: Risky Bulletin: Optimizely hijacked to deliver malware
 - Source: Risky Business News (practitioner_analysis)
 - Published: 2026-11-18T04:22:08+00:00
 - Link: https://risky.biz/RBNEWS635/
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 2
 - Corroborating source count: 2
 - Strong signals: NoName057(16)
@@ -3703,12 +3745,6 @@ Katie Knowles Senior Security Researcher This research was presented at Hybrid I
 
 ```
 Hackers hijack Optimizely to deliver malware through 178 popular websites, hackers breach Japanese supercomputers, Microsoft Edge to get a Lockdown Mode, and the EU sanctions NoName057.
-```
-
-#### Full body
-
-```
-Risky Bulletin Podcast November 18, 2026 Risky Bulletin: Optimizely hijacked to deliver malware Presented by Catalin Cimpanu News Editor Claire Aird Newsreader Hackers hijack Optimizely to deliver malware through 178 popular websites, hackers breach Japanese supercomputers, Microsoft Edge to get a Lockdown Mode, and the EU sanctions NoName057. Your browser does not support the audio element. Risky Bulletin: Optimizely hijacked to deliver malware â¶ 0:00 / 10:49 Subscribe Brought to you by Thinkst Know. When it Matters! Show notes Risky Bulletin: Hackers hijack Optimizely to deliver malware on 178 popular sites
 ```
 
 #### Corroborating sources (2)
@@ -3967,41 +4003,6 @@ Threat actors accessed databases containing customer information associated with
   - Link: https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/
   - Summary: Threat actors accessed databases containing customer information associated with clinics in Japan. The post SBC Medical Group Data Breach Impacts Over 2 Million appeared first on SecurityWeek .
 
-### Cluster 7f4ffc43e9 — score 8
-
-- Title: JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-11-20T07:35:46+00:00
-- Link: https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The companies point to third-party providers after the N0n extortion group leaked data allegedly tied to their customers. The post JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak appeared first on SecurityWeek .
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak
-  - Published: 2026-11-20T07:35:46+00:00
-  - Link: https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/
-  - Summary: The companies point to third-party providers after the N0n extortion group leaked data allegedly tied to their customers. The post JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak appeared first on SecurityWeek .
-
 ### Cluster 30a4dbcb71 — score 8
 
 - Title: Navigating Vulnerability Hysteria in the AI Era
@@ -4069,41 +4070,6 @@ Large language models and other AI systems allow a growing number of ransomware 
   - Published: 2026-11-16T19:56:05+00:00
   - Link: https://www.darkreading.com/threat-intelligence/ransomware-attacks-increase-ai-payments-decline
   - Summary: Large language models and other AI systems allow a growing number of ransomware groups to create convincing phishing emails and identify sensitive data quickly.
-
-### Cluster 33a9ce3231 — score 8
-
-- Title: GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-11-21T11:05:53+00:00
-- Link: https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-129975
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-129975
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- cve_ids: CVE-2026-129975
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys
-  - Published: 2026-11-21T11:05:53+00:00
-  - Link: https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html
-  - Summary: A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,
 
 ### Cluster 1c113a6c66 — score 8
 
