@@ -1,16 +1,9 @@
 {
-  "generated_at": "2026-11-22T10:58:12.489080+00:00",
+  "generated_at": "2026-11-22T18:22:47.590588+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2183,
   "feed_status": {
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
@@ -25,12 +18,12 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 0
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -46,13 +39,6 @@
       "item_count": 25,
       "in_window_count": 0
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 4
-    },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
@@ -67,12 +53,26 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 4
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -81,13 +81,6 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
@@ -95,19 +88,26 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
+      "item_count": 20,
+      "in_window_count": 1
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 10
+      "in_window_count": 9
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -130,12 +130,12 @@
       "item_count": 15,
       "in_window_count": 4
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 40,
-      "in_window_count": 1
+      "item_count": 78,
+      "in_window_count": 0
     },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
@@ -144,19 +144,19 @@
       "item_count": 50,
       "in_window_count": 0
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 1
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -186,19 +186,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
+    },
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -228,6 +228,13 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 2
+    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
@@ -235,12 +242,12 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -255,13 +262,6 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 8
-    },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -284,20 +284,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 6
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
@@ -305,19 +291,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
+      "item_count": 20,
+      "in_window_count": 6
     },
     "Google Project Zero": {
       "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
@@ -326,11 +305,18 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 20,
+      "in_window_count": 3
+    },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 2
     },
     "OpenSSF Blog": {
@@ -340,13 +326,6 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -354,19 +333,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
+      "item_count": 100,
+      "in_window_count": 5
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 18
+      "item_count": 10,
+      "in_window_count": 2
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -375,6 +354,20 @@
       "item_count": 5,
       "in_window_count": 5
     },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
+    },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
+    },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
@@ -382,8 +375,29 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 20
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 18
+    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -396,33 +410,12 @@
       "item_count": 50,
       "in_window_count": 2
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 20
-    },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -431,6 +424,13 @@
       "item_count": 50,
       "in_window_count": 23
     },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
@@ -438,18 +438,18 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 10,
       "in_window_count": 2
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 0,
       "in_window_count": 0
     },
     "Reddit r/netsec": {
@@ -459,6 +459,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
+    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -466,12 +473,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 2
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
@@ -508,13 +515,6 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
       "cohort": "cyber_news_breach_reporting",
@@ -522,12 +522,12 @@
       "item_count": 100,
       "in_window_count": 28
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 50,
+      "in_window_count": 50
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
@@ -681,69 +681,39 @@
   },
   "affinity_groups": [
     {
-      "label": "VMware exploitation (CVE-2026-99312)",
-      "anchor_signal": "VMware",
-      "theme_key": "vmware",
+      "label": "AWS vulnerability activity",
+      "anchor_signal": "AWS",
+      "theme_key": "aws",
       "dominant_features": {
-        "threat_categories": [
-          "active_exploitation",
-          "zero_day",
-          "ransomware_extortion",
-          "data_breach"
-        ],
-        "affected_industries": [
-          "manufacturing_industrial"
-        ],
         "affected_products": [
-          "VMware"
-        ],
-        "tools_used": [
-          "OpenAI/ChatGPT"
-        ],
-        "cve_ids": [
-          "CVE-2026-99312"
-        ],
-        "urgency_signals": [
-          "zero_day",
-          "no_patch_yet",
-          "preauth_unauth",
-          "actively_exploited"
+          "AWS"
         ]
       },
-      "cluster_count": 7,
-      "article_count": 13,
-      "cohesion": 0.204,
+      "cluster_count": 6,
+      "article_count": 11,
+      "cohesion": 0.301,
       "shared_strong_signals": [
-        "VMware"
+        "AWS"
       ],
-      "member_cves": [
-        "CVE-2026-99312"
-      ],
+      "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "81c7eb6f97",
-        "fb549f1298",
-        "dff990f28a",
-        "f0316729ee",
-        "6411ea2e82",
-        "54677f7495",
-        "16419bdd53"
+        "a5a311d6fd",
+        "26a403ca11",
+        "5ab917fdb9",
+        "efdc801eef",
+        "5d7989058d",
+        "dd10fb744d"
       ],
       "links": [
-        "https://www.rapid7.com/blog/post/etr-cve-2026-123890-critical-authentication-bypass-vmware-vcenter",
-        "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere/",
-        "https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/",
-        "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-        "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
-        "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
-        "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
-        "https://webflow.sysdig.com/blog/nginx2root",
-        "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
-        "https://openssf.org/podcast/2026/11/18/whats-in-the-soss-podcast-78-s3e30-from-signal-processing-to-open-source-security-sal-kimmich-on-linux-kernel-defense/",
-        "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
-        "https://research.checkpoint.com/2026/16th-november-threat-intelligence-report/",
-        "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
-        "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html"
+        "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
+        "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
+        "https://webflow.sysdig.com/blog/runtime-security-for-amazon-eks-auto-mode",
+        "https://aws.amazon.com/blogs/security/detecting-cross-cloud-lateral-movement-with-aws-security-hub/",
+        "https://tldrsec.com/p/tldr-sec-355",
+        "https://www.infosecurity-magazine.com/news/java4shell-vulnerability-remote/",
+        "https://blog.cloudflare.com/nginx2root/",
+        "https://trustedsec.com/blog/accuracy-through-volume-of-fire"
       ]
     },
     {
@@ -804,47 +774,62 @@
       ]
     },
     {
-      "label": "zero day targeting AWS",
-      "anchor_signal": "AWS",
-      "theme_key": "aws",
+      "label": "VMware exploitation (CVE-2026-99312)",
+      "anchor_signal": "VMware",
+      "theme_key": "vmware",
       "dominant_features": {
         "threat_categories": [
+          "active_exploitation",
           "zero_day"
         ],
-        "affected_industries": [
-          "education"
-        ],
         "affected_products": [
-          "AWS"
+          "VMware"
+        ],
+        "tools_used": [
+          "OpenAI/ChatGPT"
+        ],
+        "cve_ids": [
+          "CVE-2026-99312"
         ],
         "urgency_signals": [
-          "zero_day",
-          "preauth_unauth"
+          "no_patch_yet",
+          "preauth_unauth",
+          "actively_exploited",
+          "zero_day"
         ]
       },
-      "cluster_count": 5,
-      "article_count": 10,
-      "cohesion": 0.255,
+      "cluster_count": 6,
+      "article_count": 12,
+      "cohesion": 0.206,
       "shared_strong_signals": [
-        "AWS"
+        "VMware"
       ],
-      "member_cves": [],
+      "member_cves": [
+        "CVE-2026-99312"
+      ],
       "also_targets": [],
       "cluster_ids": [
-        "a5a311d6fd",
-        "26a403ca11",
-        "5ab917fdb9",
-        "efdc801eef",
-        "5d7989058d"
+        "81c7eb6f97",
+        "fb549f1298",
+        "dff990f28a",
+        "f0316729ee",
+        "6411ea2e82",
+        "16419bdd53"
       ],
       "links": [
-        "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
-        "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
-        "https://webflow.sysdig.com/blog/runtime-security-for-amazon-eks-auto-mode",
-        "https://aws.amazon.com/blogs/security/detecting-cross-cloud-lateral-movement-with-aws-security-hub/",
-        "https://tldrsec.com/p/tldr-sec-355",
-        "https://www.infosecurity-magazine.com/news/java4shell-vulnerability-remote/",
-        "https://blog.cloudflare.com/nginx2root/"
+        "https://www.rapid7.com/blog/post/etr-cve-2026-123890-critical-authentication-bypass-vmware-vcenter",
+        "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere/",
+        "https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/",
+        "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+        "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+        "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
+        "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+        "https://webflow.sysdig.com/blog/nginx2root",
+        "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+        "https://openssf.org/podcast/2026/11/18/whats-in-the-soss-podcast-78-s3e30-from-signal-processing-to-open-source-security-sal-kimmich-on-linux-kernel-defense/",
+        "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+        "https://research.checkpoint.com/2026/16th-november-threat-intelligence-report/",
+        "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html"
       ]
     },
     {
@@ -874,8 +859,8 @@
       "cluster_ids": [
         "dec648cd5c",
         "e329a9b51c",
-        "31919ab83e",
-        "c5a930f76b"
+        "c5a930f76b",
+        "31919ab83e"
       ],
       "links": [
         "https://securelist.com/operation-shadowcloud-gitdoor/122004/",
@@ -885,8 +870,8 @@
         "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
         "https://orca.security/resources/research/microsoft-agent-framework-pypi-supply-chain-attack-versions-1-26-1-and-1-26-2-steal-cloud-credentials/",
         "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
-        "https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi",
-        "https://openssf.org/blog/2026/11/17/clearer-security-signals-making-attestations-comprehensible-for-pypi-users/"
+        "https://openssf.org/blog/2026/11/17/clearer-security-signals-making-attestations-comprehensible-for-pypi-users/",
+        "https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi"
       ]
     },
     {
@@ -970,40 +955,6 @@
       ]
     },
     {
-      "label": "CVE-2026-114925 exploitation activity",
-      "anchor_signal": "CVE-2026-114925",
-      "theme_key": "cve-2026-114925",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "cve_ids": [
-          "CVE-2026-114924",
-          "CVE-2026-114925"
-        ],
-        "urgency_signals": [
-          "actively_exploited"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 3,
-      "cohesion": 0.375,
-      "shared_strong_signals": [
-        "CVE-2026-114925"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "2e72543ef9",
-        "c30cd1e74e"
-      ],
-      "links": [
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-132165/",
-        "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-114924-cve-2026-114925/"
-      ]
-    },
-    {
       "label": "CVE-2026-114924 exploitation activity",
       "anchor_signal": "CVE-2026-114924",
       "theme_key": "cve-2026-114924",
@@ -1024,6 +975,40 @@
       "cohesion": 0.375,
       "shared_strong_signals": [
         "CVE-2026-114924"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "2e72543ef9",
+        "c30cd1e74e"
+      ],
+      "links": [
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-132165/",
+        "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-114924-cve-2026-114925/"
+      ]
+    },
+    {
+      "label": "CVE-2026-114925 exploitation activity",
+      "anchor_signal": "CVE-2026-114925",
+      "theme_key": "cve-2026-114925",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "cve_ids": [
+          "CVE-2026-114924",
+          "CVE-2026-114925"
+        ],
+        "urgency_signals": [
+          "actively_exploited"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 3,
+      "cohesion": 0.375,
+      "shared_strong_signals": [
+        "CVE-2026-114925"
       ],
       "member_cves": [],
       "also_targets": [],
@@ -1072,6 +1057,76 @@
       ]
     },
     {
+      "label": "phishing social eng targeting Microsoft Entra",
+      "anchor_signal": "Microsoft Entra",
+      "theme_key": "microsoft-entra",
+      "dominant_features": {
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
+        "affected_products": [
+          "Microsoft 365",
+          "Microsoft Entra"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 7,
+      "cohesion": 0.295,
+      "shared_strong_signals": [
+        "Microsoft Entra"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "5fccd3b124",
+        "7631f1e0c7",
+        "25b49bcf59"
+      ],
+      "links": [
+        "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
+        "https://isc.sans.edu/diary/rss/33532",
+        "https://www.huntress.com/blog/huntress-response-for-microsoft-defender-incidents-across-endpoints-and-microsoft-365",
+        "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+        "https://securitylabs.datadoghq.com/articles/entra-access-packages-part-1-privileges/",
+        "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
+      ]
+    },
+    {
+      "label": "phishing social eng targeting Microsoft 365",
+      "anchor_signal": "Microsoft 365",
+      "theme_key": "microsoft-365",
+      "dominant_features": {
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
+        "affected_products": [
+          "Microsoft 365",
+          "Microsoft Entra"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 7,
+      "cohesion": 0.295,
+      "shared_strong_signals": [
+        "Microsoft 365"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "5fccd3b124",
+        "7631f1e0c7",
+        "25b49bcf59"
+      ],
+      "links": [
+        "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
+        "https://isc.sans.edu/diary/rss/33532",
+        "https://www.huntress.com/blog/huntress-response-for-microsoft-defender-incidents-across-endpoints-and-microsoft-365",
+        "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+        "https://securitylabs.datadoghq.com/articles/entra-access-packages-part-1-privileges/",
+        "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
+      ]
+    },
+    {
       "label": "CVE-2026-102764 exploitation activity",
       "anchor_signal": "CVE-2026-102764",
       "theme_key": "cve-2026-102764",
@@ -1106,80 +1161,6 @@
         "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
         "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
         "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-breaking-zimbra-s-identity-boundaries"
-      ]
-    },
-    {
-      "label": "Cisco vulnerability activity",
-      "anchor_signal": "Cisco",
-      "theme_key": "cisco",
-      "dominant_features": {
-        "affected_products": [
-          "Cisco"
-        ],
-        "urgency_signals": [
-          "preauth_unauth"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 15,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "Cisco"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "7c92294871",
-        "ca435a7e76"
-      ],
-      "links": [
-        "https://webflow.sysdig.com/blog/java4shell-cve-2026-114938-pre-auth-rce-in-openjdk",
-        "https://blog.talosintelligence.com/java4shell/",
-        "https://www.rapid7.com/blog/post/etr-cve-2026-114938-reported-critical-pre-authentication-remote-code-execution-java-17",
-        "https://www.sophos.com/en-us/blog/java4shell-could-allow-remote-code-execution",
-        "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
-        "https://securitylabs.datadoghq.com/articles/java4shell-remote-code-execution-in-openjdk-cve-2026-114938/",
-        "https://blog.cloudflare.com/java4shell-waf-protection/",
-        "https://www.wiz.io/blog/cve-2026-114938-rce-java4shell-openjdk",
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-114938/",
-        "https://orca.security/resources/research/java4shell-critical-openjdk-base64-decoder-flaw-could-allow-unauthenticated-remote-code-execution/",
-        "https://www.greynoise.io/blog/global-event-java4shell-cve-2026-114938-live-activity-report",
-        "https://www.helpnetsecurity.com/2026/11/22/week-in-review-java4shell-proves-tricky-to-exploit-malware-planted-via-optimizely-hits-178-orgs/",
-        "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-breaking-zimbra-s-identity-boundaries"
-      ]
-    },
-    {
-      "label": "CVE-2026-126714 exploitation activity",
-      "anchor_signal": "CVE-2026-126714",
-      "theme_key": "cve-2026-126714",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "cve_ids": [
-          "CVE-2026-126714",
-          "CVE-2026-129289"
-        ],
-        "urgency_signals": [
-          "preauth_unauth"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 3,
-      "cohesion": 0.524,
-      "shared_strong_signals": [
-        "CVE-2026-126714"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "63382dfd81",
-        "8002a9fab4"
-      ],
-      "links": [
-        "https://orca.security/resources/research/php-patches-7-critical-flaws-including-session-and-php-fpm-remote-code-execution-cve-2026-115560-cve-2026-129289/",
-        "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
-        "https://www.wiz.io/blog/phpaftershell-critical-php-rce-vulnerabilities-cve-2026-126714"
       ]
     }
   ],
@@ -1310,27 +1291,6 @@
         ]
       },
       {
-        "actor": "UNC6671",
-        "cluster_id": "73e18d92de",
-        "new_industries": [
-          "healthcare",
-          "legal_professional"
-        ],
-        "new_products": [
-          "Palo Alto Networks"
-        ],
-        "prior_top_industries": [
-          "financial_services",
-          "government",
-          "manufacturing_industrial"
-        ],
-        "prior_top_products": [
-          "Anthropic/Claude",
-          "Microsoft 365",
-          "OpenAI/ChatGPT"
-        ]
-      },
-      {
         "actor": "Cl0p",
         "cluster_id": "6e155d51ef",
         "new_industries": [],
@@ -1343,7 +1303,7 @@
           "manufacturing_industrial"
         ],
         "prior_top_products": [
-          "Anthropic/Claude",
+          "Microsoft 365",
           "OpenAI/ChatGPT",
           "SolarWinds"
         ]
@@ -1387,28 +1347,6 @@
         ]
       },
       {
-        "actor": "Scattered Spider",
-        "cluster_id": "54677f7495",
-        "new_industries": [
-          "critical_infrastructure",
-          "education",
-          "manufacturing_industrial"
-        ],
-        "new_products": [
-          "VMware"
-        ],
-        "prior_top_industries": [
-          "government",
-          "healthcare",
-          "legal_professional"
-        ],
-        "prior_top_products": [
-          "Apple iOS/macOS",
-          "GitHub",
-          "Snowflake"
-        ]
-      },
-      {
         "actor": "NoName057(16)",
         "cluster_id": "7306fb3fbc",
         "new_industries": [
@@ -1444,12 +1382,6 @@
         "axis": "actor_attribution",
         "value": "UNC5221",
         "cluster_id": "81c7eb6f97",
-        "weeks_observed": 10
-      },
-      {
-        "axis": "actor_attribution",
-        "value": "Scattered Spider",
-        "cluster_id": "54677f7495",
         "weeks_observed": 10
       },
       {
@@ -1502,12 +1434,6 @@
       },
       {
         "axis": "actor_attribution",
-        "value": "UNC6671",
-        "cluster_id": "73e18d92de",
-        "weeks_observed": 3
-      },
-      {
-        "axis": "actor_attribution",
         "value": "NoName057(16)",
         "cluster_id": "7306fb3fbc",
         "weeks_observed": 3
@@ -1516,6 +1442,51 @@
     "tier_inversion": []
   },
   "items": [
+    {
+      "source": "BleepingComputer",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+      "link": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+      "published": "2026-11-22T15:43:04+00:00",
+      "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+      "author": "Lawrence Abrams",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "phishing_social_eng",
+          "data_breach"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "healthcare",
+          "retail_ecommerce"
+        ],
+        "affected_products": [
+          "Microsoft Entra",
+          "Microsoft 365",
+          "Google Workspace"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "incident_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "Microsoft Entra": "target",
+          "Microsoft 365": "target",
+          "Google Workspace": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 10,
+      "full_body": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach By Lawrence Abrams November 22, 2026 10:43 AM 0 E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. Cleverbridge provides e-commerce services to software and SaaS companies, allowing them to sell products, process payments, and manage subscriptions. The company lists numerous technology brands as its customers, including Red Hat, SUSE, Tenable, Veeam, Jamf, Sony, and Parallels. However, it has not disclosed which businesses' customers were impacted by the breach. In a new page about the security incident, Cleverbridge says it detected unauthorized activity on November 4, 2026, and temporarily took systems offline to contain the breach. \"All systems were brought back online on 4 November 2026; however, our investigation subsequently determined that a third party copied payment card data stored on our platform,\" reads the security incident disclosure . Cleverbridge began notifying affected customers on November 20, warning that hackers had stolen payment card details used to make purchases through its platform. While its public disclosure confirms the theft of payment card data, it does not specify which card details were stolen, instead referring affected customers to their individual notifications for more information. However, a breach notification shared with BleepingComputer reveals that the stolen information includes payment card numbers, expiration dates, and CVV/CVC security codes. \"Based on our investigation to date, the information involved includes the payment card details you used to make a purchase through Cleverbridge, notably your card number, expiry date, card security code (CVV/CVC),\" reads the notification. \"Note however that no other personal data (for example your name, contact or billing details) were copied. The affected card ends in XXXX.\" BleepingComputer redacted the last four digits of the affected payment card. The company has not disclosed how the attackers gained access to its platform, how long they remained in its systems, or how many customers were affected by the breach. Of particular concern is the theft of CVV/CVC security codes, which are used to verify payment card transactions. Cleverbridge also confirmed that the incident was not a ransomware attack and that attackers did not encrypt any of its systems. The company says it has notified data protection authorities, law enforcement, payment card networks, and payment partners about the incident. Cleverbridge is also working with TransUnion's Cyberscout to distribute breach notifications and provide affected customers with complimentary credit monitoring and fraud assistance. Affected customers are told to review their payment card statements for unauthorized transactions. Cleverbridge also recommends contacting card issuers about the incident, as banks may decide to replace compromised cards. BleepingComputer contacted Cleverbridge with questions about how many customers were affected, how the attackers accessed its systems, whether the stolen payment card data was encrypted, and why CVV/CVC security codes were accessible. The company has not responded to our questions. Uncover email threats your existing defenses may miss. Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud. See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes. Start your free email security scan. Related Articles: Microsoft Entra Connect Health flaw exploited to steal tenant data Bell Canada says 'agentic' hacker stole enterprise customer data Hackers steal data of 1.6 million SBC Medical Group customers Transport for London breach exposes 265,000 Oyster card users' data Data breach impacts 40 Irish credit unions in reported IT pr",
+      "fetch_status": "ok"
+    },
     {
       "source": "Help Net Security",
       "cohort": "cyber_news_breach_reporting",
@@ -1572,7 +1543,7 @@
           "products": []
         }
       },
-      "score": 7
+      "score": 6
     },
     {
       "source": "The Hacker News",
@@ -1602,7 +1573,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "BleepingComputer",
@@ -1634,7 +1605,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "BleepingComputer",
@@ -1668,7 +1639,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "BleepingComputer",
@@ -1696,7 +1667,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "BleepingComputer",
@@ -1726,7 +1697,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "SecurityWeek",
@@ -1740,42 +1711,27 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "ransomware_extortion",
-          "zero_day",
-          "data_breach",
-          "apt_espionage"
+          "zero_day"
         ],
-        "actor_attribution": [
-          "Scattered Spider"
-        ],
+        "actor_attribution": [],
         "affected_industries": [
-          "healthcare",
-          "critical_infrastructure",
-          "manufacturing_industrial",
-          "education"
+          "healthcare"
         ],
-        "affected_products": [
-          "VMware"
-        ],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [
-          "zero_day",
-          "poc_available"
+          "zero_day"
         ],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
-        "role_map": {
-          "VMware": "target"
-        },
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
       },
-      "score": 9,
-      "full_body": "Amazon says autonomous AI agents run by a China-linked threat actor found and exploited a zero-day vulnerability in MONAI Label, an open source tool designed for AI-assisted annotation of medical images. The tech giant’s threat intelligence team detected the activity in September, after coming across an exposed instance of Cairn , an open source AI penetration testing framework. The instance had no authentication, so anyone could see the operator’s prompts and the agents’ output. The records showed a roughly 48-hour campaign against IP addresses belonging to universities in East Asia outside mainland China. The operator gave the agents a list of targets and told them to obtain shell access. After identifying the software on one target and mapping its API, the agents discovered a path traversal bug in a file upload function. “In about 11 minutes, the agents went from mapping the application’s API to arbitrarily writing files on the server,” Amazon said . In a later session, the agents used the flaw to plant a Python reverse shell in a file Python runs every time the interpreter starts, ultimately achieving a root shell. Advertisement. Scroll to continue reading. “Amazon Threat Intelligence assesses with high confidence that it was a zero-day based on the absence of any corresponding fix, issue, advisory, or prior mention in vulnerability databases for the affected open-source project,” the company said. The operator then gave the agents a proxy that tunneled into a second university and instructed them to target other devices on its network. “The server that the proxy connected to was running the same vulnerable software, and we infer the actor had used the zero-day to compromise it and establish the tunnel,” Amazon noted. The MONAI Label developers published an advisory this week. It rates the bug critical and says it affects versions 0.8.5 and earlier. Authentication is off by default, enabling anyone who can reach the server over the network to exploit the vulnerability. A fix has been created and will be included in the next release. Amazon has attributed the attack to an unidentified Chinese-nexus threat actor with moderate confidence, based on the language used in the prompts, the time zone in the scripts, and the fact that the targeted universities are likely of strategic interest to China. Related : European Commission Confirms AI-Assisted Cyberattack Disrupted Services Related : China-Linked Hackers Exploit PHP2Shell to Root Firewalls Related : Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT Nvidia Responds to Gentlemen Ransomware Claim Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories Last of Five Defendants Sentenced in US Scattered Spider Hacking Case Microsoft Takes Perception Agentic Security Platform Out of Preview Latest News FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says President Trump Taps Kirsten Davies as National Cyber Director WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit Industry Reactions to Major Outages and AI Patching Debate: Feedback Friday SBC Medical Group Data ",
-      "fetch_status": "ok"
+      "score": 8
     },
     {
       "source": "The Hacker News",
@@ -1803,7 +1759,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "The Hacker News",
@@ -1833,7 +1789,7 @@
           "products": []
         }
       },
-      "score": 7
+      "score": 6
     },
     {
       "source": "The Hacker News",
@@ -1847,20 +1803,16 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "zero_day",
-          "apt_espionage"
+          "zero_day"
         ],
         "actor_attribution": [],
         "affected_industries": [
           "healthcare",
-          "government",
           "education"
         ],
         "affected_products": [],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-133968"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [
           "zero_day"
@@ -1872,9 +1824,7 @@
           "products": []
         }
       },
-      "score": 9,
-      "full_body": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access  Ravie Lakshmanan  Nov 21, 2026 Artificial Intelligence / Cyber Espionage Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label , an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup, which runs with no login enabled. The maintainers have merged a fix in the source code, but there is still no fixed version to install. MONAI Label is a server that research teams use to label medical scans and train imaging models; it is a separate program from the broader MONAI framework. The weakness is a path-traversal flaw in the parts of the server that store uploaded images and labels. A file identifier supplied by the caller is appended to the storage folder and written to disk without checking that the result remains within that folder. The server writes with the privileges of the account it runs under, so an attacker cannot write anywhere on the machine, but a writable code or settings location can open a path to running code. Authentication is off by default, so any client that can reach the server over the network can set off the write. Versions 0.8.5 and earlier are affected. Amazon reconstructed the intrusion after finding the operator's own Cairn control panel sitting on the internet without a password. Cairn is an open-source framework that runs AI agents as automated penetration testers, and the exposed panel revealed the agents' task settings, prompts, and run history. Over about 48 hours in September, the agents mapped the application's interface and reached the point of writing files to the server in roughly 11 minutes, the company said in its incident report . The agents worked with little step-by-step direction. The operator set the goal of getting shell access and chose the targets, and the agents selected the methods themselves, according to the company. Investigators tie the campaign to a China-linked actor with moderate confidence, pointing to Simplified Chinese prompts, China Standard Time settings, and targets likely of interest to China. They did not connect the work to a named group or establish that a government was behind it. A root shell came later, and not within those 11 minutes. In a separate session, the agents used the same flaw to plant a file that Python runs automatically at startup. They then triggered a training feature that started a new Python process, which loaded that file and connected back to the attacker as root. That root access was on one university server, and whether another MONAI Label system would give the same result depends on how it is run and what its service account can do. In a later session, the operator handed the agents a tunnel into a second university network running the same software. Amazon believes the network was broken into in the same way but has not confirmed the second compromise. The maintainers confirmed the flaw and merged the source fix on October 19, which forces uploads to resolve inside the approved folders and rejects empty names or names that begin with a dot. Their security advisory , published earlier this week, still lists no patched version and says the correction will arrive in a future release. The newest release listing remains 0.8.5, which dates to 2024. A merged fix in source code is not the same as a package you can install. The flaw is now listed in the CVE record as CVE-2026-133968, published this week and rated 9.8 out of 10, a critical score. The project's advisory still shows no CVE assigned, which is a lag in updating that page, not a sign of a second flaw. What to Do Now With no fixed release available, the practical steps are to cut off exposure and limit what a compromised ",
-      "fetch_status": "ok"
+      "score": 8
     },
     {
       "source": "The Hacker News",
@@ -2191,40 +2141,6 @@
       "fetch_status": "ok"
     },
     {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
-      "published": "2026-11-20T17:30:00+00:00",
-      "summary": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
-      "author": "Bill Toulas",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "healthcare"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 8
-    },
-    {
       "source": "The Record",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -2269,6 +2185,40 @@
       "score": 12,
       "full_body": "Image: Planet Volumes via Unsplash Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university Chinese hackers used an AI tool called Cairn to allegedly discover a zero-day while breaching several universities in Asia, according to a new report from Amazon’s Threat Intelligence team. CJ Moses, CISO of Amazon Integrated Security, said their investigation began on September 10, when they discovered a publicly accessible server with a publicly hosted instance of Cairn — an open-source autonomous AI penetration-testing framework. They were able to view the operational history of the platform, including previous prompts and more. The operator wrote their prompts in Simplified Chinese and the timestamps were configured to China Standard Time. The targeted victim organizations were universities in East Asia. Moses explained that Cairn is ideal for attackers because, when given a starting point and objective in plain language, it can coordinate multiple AI agents to complete a task. In this incident, the attacker provided IP addresses and asked Cairn to “obtain shell access” — meaning find a way to gain enough access to a system for various actions to be taken. “Based on those inputs, the AI agents planned, executed, and adjusted their approach as they learned, without the operator choosing each next step,” Moses said. One of the attempts involved 148 actions taken over 16 hours that were ultimately unsuccessful, including a failed attempt at exploiting the Log4Shell vulnerability. Another failed effort saw Cairn try for more than six hours to breach university servers by testing more than 30,000 credential combinations tied to 80 real usernames. The only successful attempt occurred when the agents discovered a vulnerability in an open-source medical imaging AI application and exploited it. “At the time of discovery, this path traversal vulnerability in the medical imaging application did not correspond to any assigned security advisory and was unpatched,” Moses said. “Amazon Threat Intelligence assesses with high confidence that it was a zero-day based on the absence of any corresponding fix, issue, advisory, or prior mention in vulnerability databases for the affected open-source project.” The attacker then used the same apparent zero-day to breach a second university. Moses said Amazon Threat Intelligence contacted the maintainers behind the open-source medical imaging AI application and they fixed the bug that was discovered. He added that AWS “worked with a government partner to notify the organizations about the activity.” AWS declined to name the universities or the country they are in. Moses said the campaign stood out because of the speed and operational tempo of the AI agents. An agent that discovers and exploits a zero-day in minutes “completes its activity faster than many security operations centers can manually triage an alert,” Moses warned, noting that the agents “ran continuously for 16 hours without breaks, sleep, or working-hour constraints.” Artex vs. Cairn Cybersecurity researchers and law enforcement agencies have released multiple warnings in recent weeks about AI-backed offensive cyber tools that are being used by attackers, particularly those from China. The FBI published an advisory about AI tool Artex one week ago, writing that it could take any large language model and turn it into a powerful hacking tool that can “automate multiple phases of cyber intrusions at machine speed, from reconnaissance through data exfiltration.” Artex was implicated in multiple attacks on South Korean and Japanese financial institutions while Microsoft said Artex was used by Chinese state-backed actors in a recent supply chain attack on IT management software company ConnectWise . Moses said last week that Artex was seen used in credential theft attacks on AI models and in campaigns targeting crypto exchanges. Cairn was also spotlighted by Google researchers on Tuesday in a report abo",
       "fetch_status": "ok"
+    },
+    {
+      "source": "BleepingComputer",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
+      "published": "2026-11-20T17:30:00+00:00",
+      "summary": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
+      "author": "Bill Toulas",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "healthcare"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 8
     },
     {
       "source": "Microsoft Security Blog",
@@ -3365,7 +3315,7 @@
       "score": 4
     },
     {
-      "source": "Cloudflare Security",
+      "source": "Cloudflare Radar",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
       "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
@@ -3420,7 +3370,7 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Cloudflare Radar",
+      "source": "Cloudflare Security",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
       "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
@@ -3567,36 +3517,6 @@
       "fetch_status": "ok"
     },
     {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
-      "published": "2026-11-19T22:25:42+00:00",
-      "summary": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1.6 million people. [...]",
-      "author": "Bill Toulas",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "healthcare"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
       "source": "Wiz Research",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -3634,34 +3554,6 @@
       "score": 12,
       "full_body": "On November 19, 2026, the PHP group published security updates addressing 17 vulnerabilities across all actively supported branches (PHP 8.2, 8.3, 8.4, and 8.5). Seven of these flaws are rated Critical (CVSS 9.2) and present direct pathways to unauthenticated remote code execution (RCE). Security teams are advised to identify and patch exposed PHP deployments, as earlier mitigation efforts implemented during October's response to \"PHP2Shell\" do not provide protection against all of these new exploit vectors. As of yet, no exploitation in the wild has been observed by Wiz or mentioned in public reporting. What are these vulnerabilities? phpAfterShell: File-Based Session Handling (CVE-2026-126714) Reported by depthfirst, this vulnerability exists in PHP’s default file-based session handler ( session.save_handler = files ). When PHP writes session update progress (such as during unauthenticated file uploads), the file-write process is not atomic. If a PHP worker process is abruptly stopped during this write, due to memory limits or timeout settings, it can leave behind a partially written, malformed session file. When a subsequent request calls session_start() , PHP attempts to deserialize this file. If the file's contents are carefully structured, this deserialization process can be manipulated to trigger an object deserialization primitive. This behavior bypasses the initial parameters set during October's PHP2Shell patches, making a fresh update necessary to secure file-based session pipelines. PHP-FPM Request Smuggling (CVE-2026-129289) This issue centers on how PHP-FPM processes unread request-body bytes before reusing a persistent connection. In environments where the front-end web server (such as Nginx or Apache) is configured to keep FastCGI connections open to the FPM backend, an unauthenticated user can structure a request to append a secondary, hidden FastCGI request within the request body. Because the backend does not discard the leftover bytes, the subsequent request handled over that same connection executes the smuggled instructions. This allows a request to bypass front-end routing rules and execute with the privileges of the active FPM worker. Wiz Research data: what’s the risk to cloud environments? The overall risk depends largely on your environment's configuration. PHP remains widely used, powering approximately 70% of websites with known server-side languages. While the technical severity of these bugs is high, executing them successfully requires specific conditions. For instance, phpAfterShell (CVE-2026-126714) requires file-based sessions (the PHP default) and relies on finding an exploitable gadget chain in the application's code (which isn’t guaranteed to exist in every application) to achieve code execution. Importantly, the vast majority of the other critical vulnerabilities in this release require non-default configurations or uncommon setups, such as enabling runtime-mixed session serializers, enabling PHP 8.5 exception arguments ( zend.exception_ignore_args = 0 ), or writing startup warnings to a file-based error log on non-thread-safe builds. This ultimately means that default installations are naturally insulated from many of these vectors. Which products are affected? Affected Versions Patched Versions Support Status PHP 8.5 < 8.5.13 8.5.13 Active Support PHP 8.4 < 8.4.28 8.4.28 Active Support PHP 8.3 < 8.3.37 8.3.37 Active Support PHP 8.2 < 8.2.36 8.2.36 Security-only support (Ends December 2026) PHP 8.1 and earlier No Official Fix End-of-Life (EOL). These versions do not receive security backports. Which actions should security teams take? A. Plan a Routine Upgrade Plan to update your PHP installations to 8.5.13, 8.4.28, 8.3.37, or 8.2.36 (or 8.6.0). Rebuild affected container images and restart the PHP-FPM master service or web server process to ensure the newly patched binaries are active in memory. B. Temporary Configuration Adjustments (If patching is delayed) Disable Session Upload Progr",
       "fetch_status": "ok"
-    },
-    {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
-      "link": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
-      "published": "2026-11-19T21:15:59+00:00",
-      "summary": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. [...]",
-      "author": "Bill Toulas",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
     },
     {
       "source": "Rapid7",
@@ -4984,19 +4876,25 @@
         "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [],
+        "affected_products": [
+          "AWS"
+        ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
-        "role_map": {},
+        "role_map": {
+          "AWS": "target"
+        },
         "weak_tags": {
           "products": []
         }
       },
-      "score": 8
+      "score": 8,
+      "full_body": "Blog Accuracy Through Volume of Fire November 19, 2026 Accuracy Through Volume of Fire Written by Justin Elze Artificial Intelligence (AI) Table of contents Stop Giving Automated Testing Unlimited Room Running the Framework Creates Its Own Attack Surface Internal Networks Change the Constraints Make the Volume Hit Walls ARTEX and similar LLM-driven pentesting frameworks can find weaknesses, follow leads, and turn ordinary exposure into useful attack paths. Incident reporting now shows attackers using them successfully. The practical questions are what these tools actually do, what you can learn by running them yourself, and where defenders can interrupt the work. When I say volume of fire, I mean the number and breadth of attempts a framework can make, including follow-up requests that change based on earlier results. An LLM makes that follow-up cheaper to sustain. It can also improve a hypothesis as evidence comes in. That does not make every conclusion correct, and attempts made against a live target create opportunities to detect or block the activity. Familiar Tools With LLM Follow-Up ARTEX is an LLM-driven pentesting and offensive command-and-control platform that coordinates agents and exposes a web console. The framework gives a model tools to inspect targets and act on the results. PentAGI, HexStrike AI, and Cairn appear in the same reporting, although their implementations differ. ARTEX is a useful example of the broader shift from running a scanner to automating the investigation that follows. Google Threat Intelligence Group and Mandiant's October 30 report documents these frameworks in intrusion investigations. Its ARTEX examples include rapid AWS permission probing and hundreds of logged events while pursuing command execution on a web server. That is evidence of operational use, rather than a claim that every model or default configuration will produce the same results. Successful and noisy can describe the same intrusion. The Scanner is Only the Beginning The common attacker workflow is straightforward, though details differ. Discover assets with tools such as subfinder, identify reachable web services with httpx, enumerate services with Nmap, run nuclei templates, and use ffuf or similar tooling to discover content and parameters. HexStrike's documented tool inventory includes all of them. Selection and order vary by framework. Very little of the network behavior is new. The useful change comes after the initial output. In an agent workflow, the LLM selects an action, the framework executes it, and the result becomes input for the next decision. It might inspect a response, adjust a request with curl or a browser, write a small script, or investigate an exposed file. A discovered secret becomes another hypothesis: Is it valid, and what can it access? The operator still has to decide which questions can be answered within scope and what evidence is sufficient. The model supplies reasoning and proposed actions. The framework supplies tools, execution, state, and permissions. The deployment supplies the actual access. Changing any of those can change the outcome, so a framework name alone tells you very little about how capable a particular run will be. Microsoft's November 6 ARTEX reporting describes familiar clients, including Nmap, curl, Python HTTP clients, and Playwright. It also shows Storm-3358 pairing ARTEX with conventional automated tools to scan Internet-exposed systems and exploit flaws such as anonymous file upload and SSRF. The framework can change its requests and approach in response to failure. Recognizing a default user agent helps, but it is a starting signal rather than a durable boundary. Calling this a scanner or wrapper undersells the automated follow-up. A model can turn an otherwise abandoned lead into a useful attack path. It still needs a reachable target, suitable tools, and any permissions required by the action. It can also spend an impressive number of tokens investigating a false po",
+      "fetch_status": "ok"
     },
     {
       "source": "The Hacker News",
@@ -5337,7 +5235,9 @@
           "products": []
         }
       },
-      "score": 8
+      "score": 8,
+      "full_body": "This article was originally published in the InfoSec Survival Guide: Teal Book — Threat Hunting. Read it free online HERE , or grab it on the Spearphish General Store (free digital download or a $1.25 physical copy, your call). All threat hunters are looking for evidence of nefarious activity, hopefully before an incident happens. Threat hunting on the network involves actively searching through packet data for malicious activity. Threat hunting on an endpoint depends more heavily on logs. Think of it as on the wire (or in the air) versus on a host itself. Don’t worry, you don’t have to look through every packet in a pcap file. That would make your head explode! We would like to think our firewalls and Intrusion Detection/Prevention Systems (IDS or IPS) are blocking all evil traffic from coming in, but those appliances have limits. Adversaries evolve their techniques faster than the static signatures used on our perimeter defenses. Updates from vendors and threat intelligence feeds can’t keep up. A network threat hunter looks for patterns beyond specific byte sequences, file hashes, and documented signature exploits. In contrast to signatures, behavior analysis lets network threat hunters draw insights from network baselines to understand expected protocols and traffic flows. Threat actors may change their techniques and procedures, but they still have fundamental network behaviors. Signature-Based vs Behavioral Analysis in Threat Hunting Common Data Sources NetFlow or Internet Protocol Flow Information Export (IPFIX) records Every switch, router, firewall, VPN appliance, IDS/IPS, or other network device capable of exporting flow data should be sending these flow records to the SIEM. HTTP/HTTPs Proxy logs for TLS/HTTP headers VPN appliance logs for external connections to internal resources Full packet captures Pcap files captured from taps or SPAN sessions. My Favorite Tools NetFlow/IPFIX/logs > SIEM (Wazuh or Graylog) for aggregation and metadata Logs and/or packets > Elasticsearch > Kibana for log analysis and visualization Packets > Zeek > RITA by Active Countermeasures for full packet capture, indexing, alerting, and search Packets > Arkime for full packet capture, indexing, and search Packets > Wireshark or TShark for deep analysis A Few Additional Indicators Unusual port usage: services running on non-standard ports. DNS anomalies: DGA domains, DNS tunneling, or excessive NXDOMAIN responses. Failed authentication attempts: brute force indicators across multiple systems. Certificate anomalies: mismatched common names or short validity periods. TLS/SSL anomalies: weak ciphers, unusual JA3/JA4+ hashes, or certificate chain issues. My Favorite Methodologies Crown jewel analysis — Focus on protecting most critical assets and data. Hypothesis-driven hunting — Form theories about potential threats and test them. Kill chain mapping — Identify which attack phase the indicators belong to. Assumed breach methodology — Operate as though compromise has already occurred. Take advantage of established frameworks: MITRE ATT&CK®, Pyramid of Pain, PEAK. A good network threat hunter is also looking at internal traffic. Is Susie in Accounting supposed to be using SSH to access a server in another country? No. What about Brad in Marketing? Is it normal for him to download multi-gigabyte files from a server in the data center? Maybe. At three o’clock in the morning? Probably not. Finally, don’t be afraid to dive in. Threat hunting is not just for the most experienced cybersecurity analysts. Start with a single protocol and tools you already have to build confidence. Explore the Infosec Survival Guide and more… for FREE! Get instant access to every issue of the Infosec Survival Guide, as well as our self-published infosec zine PROMPT#, and exclusive Darknet Diaries comics — all available at no cost. CHECK OUT ALL ISSUES HERE! ← Back to blog",
+      "fetch_status": "ok"
     },
     {
       "source": "CyberScoop",
@@ -8947,7 +8847,7 @@
       "published": "2026-11-15T18:17:27+00:00",
       "summary": "YARA-X&#39&#x3b;s 1.23.0 release brings 4 improvements and 16 bugfixes.",
       "author": "",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
@@ -8963,10 +8863,7 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 12,
-      "full_body": "",
-      "fetch_status": "fetch_failed:HTTPError"
+      }
     },
     {
       "source": "Simon Willison",
@@ -16182,7 +16079,7 @@
       }
     },
     {
-      "source": "Cloudflare Security",
+      "source": "Cloudflare Radar",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
       "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
@@ -16209,7 +16106,7 @@
       }
     },
     {
-      "source": "Cloudflare Radar",
+      "source": "Cloudflare Security",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
       "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
@@ -19469,33 +19366,6 @@
       }
     },
     {
-      "source": "Cloudflare Security",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
-      "link": "https://blog.cloudflare.com/php-ctf/",
-      "published": "2026-10-27T13:00:00+00:00",
-      "summary": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
-      "author": "Dan Jones",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Cloudflare Radar",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -19511,6 +19381,33 @@
         "affected_industries": [
           "government"
         ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Cloudflare Security",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
+      "link": "https://blog.cloudflare.com/php-ctf/",
+      "published": "2026-10-27T13:00:00+00:00",
+      "summary": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
+      "author": "Dan Jones",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
