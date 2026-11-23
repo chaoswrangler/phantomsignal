@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-11-23T00:07:58.451737+00:00
+- Generated: 2026-11-23T08:48:10.548716+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 349
+- Total items in window: 351
 - Total clusters raw: 167
-- Total clusters in packet: 71
-- Dropped low score: 96
+- Total clusters in packet: 73
+- Dropped low score: 94
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,6 +70,11 @@
 
 ## Feed status
 
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
@@ -80,16 +85,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
@@ -100,118 +105,118 @@
   - Status: fetch_error
   - Item count: 0
   - In window count: 0
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
+  - In window count: 3
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
   - In window count: 3
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 4
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 4
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
-  - Item count: 100
+  - Item count: 10
   - In window count: 3
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 4
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 1
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
   - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 0
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 10
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -220,11 +225,6 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 10
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
@@ -240,46 +240,36 @@
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 10
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 8
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
+  - In window count: 0
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **Google Project Zero** (offensive_vulnerability_research)
-  - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 100
+  - In window count: 8
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 6
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 10
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
@@ -290,46 +280,36 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 5
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
+- **Google Project Zero** (offensive_vulnerability_research)
+  - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
@@ -340,18 +320,43 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
   - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 5
+  - In window count: 5
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 50
   - In window count: 2
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -359,17 +364,17 @@
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
-  - In window count: 15
+  - In window count: 16
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 24
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
+  - In window count: 25
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 100
+  - In window count: 3
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
@@ -380,11 +385,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -405,31 +405,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
@@ -440,16 +415,36 @@
   - Status: ok
   - Item count: 50
   - In window count: 50
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 28
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 1
+  - Item count: 10
+  - In window count: 2
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -459,7 +454,12 @@
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
-  - In window count: 5
+  - In window count: 6
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
@@ -472,28 +472,6 @@
   - In window count: 3
 
 ## Affinity groups (themes)
-
-### AWS vulnerability activity
-- Anchor signal: AWS
-- Theme key: aws
-- Cluster count: 6
-- Article count: 11
-- Cohesion: 0.301
-- Shared strong signals: AWS
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: AWS
-- Cluster IDs: a5a311d6fd, 26a403ca11, 5ab917fdb9, efdc801eef, 5d7989058d, dd10fb744d
-- Links:
-  - https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/
-  - https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day
-  - https://webflow.sysdig.com/blog/runtime-security-for-amazon-eks-auto-mode
-  - https://aws.amazon.com/blogs/security/detecting-cross-cloud-lateral-movement-with-aws-security-hub/
-  - https://tldrsec.com/p/tldr-sec-355
-  - https://www.infosecurity-magazine.com/news/java4shell-vulnerability-remote/
-  - https://blog.cloudflare.com/nginx2root/
-  - https://trustedsec.com/blog/accuracy-through-volume-of-fire
 
 ### Atlassian Confluence exploitation (CVE-2026-114938)
 - Anchor signal: Atlassian Confluence
@@ -559,6 +537,30 @@
   - https://research.checkpoint.com/2026/16th-november-threat-intelligence-report/
   - https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html
 
+### zero day targeting AWS
+- Anchor signal: AWS
+- Theme key: aws
+- Cluster count: 5
+- Article count: 10
+- Cohesion: 0.255
+- Shared strong signals: AWS
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day
+  - affected_industries: education
+  - affected_products: AWS
+  - urgency_signals: zero_day, preauth_unauth
+- Cluster IDs: a5a311d6fd, 26a403ca11, 5ab917fdb9, efdc801eef, 5d7989058d
+- Links:
+  - https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/
+  - https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day
+  - https://webflow.sysdig.com/blog/runtime-security-for-amazon-eks-auto-mode
+  - https://aws.amazon.com/blogs/security/detecting-cross-cloud-lateral-movement-with-aws-security-hub/
+  - https://tldrsec.com/p/tldr-sec-355
+  - https://www.infosecurity-magazine.com/news/java4shell-vulnerability-remote/
+  - https://blog.cloudflare.com/nginx2root/
+
 ### supply chain targeting PyPI
 - Anchor signal: PyPI
 - Theme key: pypi
@@ -572,7 +574,7 @@
   - threat_categories: supply_chain
   - affected_industries: critical_infrastructure
   - affected_products: PyPI, Azure
-- Cluster IDs: dec648cd5c, e329a9b51c, c5a930f76b, 31919ab83e
+- Cluster IDs: dec648cd5c, e329a9b51c, 31919ab83e, c5a930f76b
 - Links:
   - https://securelist.com/operation-shadowcloud-gitdoor/122004/
   - https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/
@@ -580,8 +582,97 @@
   - https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html
   - https://orca.security/resources/research/microsoft-agent-framework-pypi-supply-chain-attack-versions-1-26-1-and-1-26-2-steal-cloud-credentials/
   - https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html
-  - https://openssf.org/blog/2026/11/17/clearer-security-signals-making-attestations-comprehensible-for-pypi-users/
   - https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi
+  - https://openssf.org/blog/2026/11/17/clearer-security-signals-making-attestations-comprehensible-for-pypi-users/
+
+### phishing social eng targeting Microsoft 365
+- Anchor signal: Microsoft 365
+- Theme key: microsoft-365
+- Cluster count: 4
+- Article count: 8
+- Cohesion: 0.255
+- Shared strong signals: Microsoft 365
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: phishing_social_eng, ransomware_extortion
+  - affected_industries: government
+  - affected_products: Microsoft 365, Microsoft Entra, Google Workspace
+- Cluster IDs: f1b92f693f, 5fccd3b124, 7631f1e0c7, 25b49bcf59
+- Links:
+  - https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/
+  - https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/
+  - https://isc.sans.edu/diary/rss/33532
+  - https://www.huntress.com/blog/huntress-response-for-microsoft-defender-incidents-across-endpoints-and-microsoft-365
+  - https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/
+  - https://securitylabs.datadoghq.com/articles/entra-access-packages-part-1-privileges/
+  - https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/
+
+### CVE-2026-123633 exploitation activity
+- Anchor signal: CVE-2026-123633
+- Theme key: cve-2026-123633
+- Cluster count: 3
+- Article count: 9
+- Cohesion: 0.25
+- Shared strong signals: CVE-2026-123633
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - cve_ids: CVE-2026-123007, CVE-2026-123633, CVE-2026-121810, CVE-2026-123634
+  - urgency_signals: preauth_unauth
+- Cluster IDs: 8f2a86fb37, dff990f28a, 5d7989058d
+- Links:
+  - https://www.rapid7.com/blog/post/ve-cve-2026-123007-critical-nginx-http-2-integer-underflow-leads-to-rce-fixed
+  - https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities
+  - https://orca.security/resources/research/two-critical-nginx-http-2-flaws-could-allow-unauthenticated-remote-code-execution/
+  - https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html
+  - https://webflow.sysdig.com/blog/nginx2root
+  - https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html
+  - https://openssf.org/podcast/2026/11/18/whats-in-the-soss-podcast-78-s3e30-from-signal-processing-to-open-source-security-sal-kimmich-on-linux-kernel-defense/
+  - https://blog.cloudflare.com/nginx2root/
+
+### CVE-2026-123007 exploitation activity
+- Anchor signal: CVE-2026-123007
+- Theme key: cve-2026-123007
+- Cluster count: 3
+- Article count: 9
+- Cohesion: 0.25
+- Shared strong signals: CVE-2026-123007
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - cve_ids: CVE-2026-123007, CVE-2026-123633, CVE-2026-121810, CVE-2026-123634
+  - urgency_signals: preauth_unauth
+- Cluster IDs: 8f2a86fb37, dff990f28a, 5d7989058d
+- Links:
+  - https://www.rapid7.com/blog/post/ve-cve-2026-123007-critical-nginx-http-2-integer-underflow-leads-to-rce-fixed
+  - https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities
+  - https://orca.security/resources/research/two-critical-nginx-http-2-flaws-could-allow-unauthenticated-remote-code-execution/
+  - https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html
+  - https://webflow.sysdig.com/blog/nginx2root
+  - https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html
+  - https://openssf.org/podcast/2026/11/18/whats-in-the-soss-podcast-78-s3e30-from-signal-processing-to-open-source-security-sal-kimmich-on-linux-kernel-defense/
+  - https://blog.cloudflare.com/nginx2root/
+
+### phishing social eng targeting Google Workspace
+- Anchor signal: Google Workspace
+- Theme key: google-workspace
+- Cluster count: 3
+- Article count: 4
+- Cohesion: 0.201
+- Shared strong signals: Google Workspace
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: phishing_social_eng, ransomware_extortion
+  - affected_industries: government
+  - affected_products: Google Workspace, Microsoft 365
+- Cluster IDs: f1b92f693f, 1a9bc5bf69, 7631f1e0c7
+- Links:
+  - https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/
+  - https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise/
+  - https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html
+  - https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/
 
 ### CVE-2026-114924 exploitation activity
 - Anchor signal: CVE-2026-114924
@@ -640,74 +731,6 @@
   - https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html
   - https://orca.security/resources/research/cve-2026-119618-critical-apache-http-2-race-condition-enables-unauthenticated-remote-code-execution/
 
-### Linux kernel exploitation (2 CVEs)
-- Anchor signal: Linux kernel
-- Theme key: linux-kernel
-- Cluster count: 5
-- Article count: 6
-- Cohesion: 0.322
-- Shared strong signals: Linux kernel
-- Member CVEs: CVE-2026-123007, CVE-2026-123633
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Linux kernel
-  - cve_ids: CVE-2026-113425, CVE-2026-121810, CVE-2026-123007, CVE-2026-123633, CVE-2026-123634
-- Cluster IDs: 8f2a86fb37, dff990f28a, 5d7989058d, cf875bad92, 5630cc40c4
-- Links:
-  - https://www.rapid7.com/blog/post/ve-cve-2026-123007-critical-nginx-http-2-integer-underflow-leads-to-rce-fixed
-  - https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities
-  - https://orca.security/resources/research/two-critical-nginx-http-2-flaws-could-allow-unauthenticated-remote-code-execution/
-  - https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html
-  - https://webflow.sysdig.com/blog/nginx2root
-  - https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html
-  - https://openssf.org/podcast/2026/11/18/whats-in-the-soss-podcast-78-s3e30-from-signal-processing-to-open-source-security-sal-kimmich-on-linux-kernel-defense/
-  - https://blog.cloudflare.com/nginx2root/
-  - https://cloud.google.com/blog/products/networking/gke-dataplane-v2-in-place-migration/
-  - https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/
-  - https://www.sophos.com/en-us/blog/patches-released-for-critical-nginx2root-vulnerabilities
-
-### phishing social eng targeting Microsoft 365
-- Anchor signal: Microsoft 365
-- Theme key: microsoft-365
-- Cluster count: 3
-- Article count: 7
-- Cohesion: 0.295
-- Shared strong signals: Microsoft 365
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: phishing_social_eng
-  - affected_products: Microsoft 365, Microsoft Entra
-- Cluster IDs: 5fccd3b124, 7631f1e0c7, 25b49bcf59
-- Links:
-  - https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/
-  - https://isc.sans.edu/diary/rss/33532
-  - https://www.huntress.com/blog/huntress-response-for-microsoft-defender-incidents-across-endpoints-and-microsoft-365
-  - https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/
-  - https://securitylabs.datadoghq.com/articles/entra-access-packages-part-1-privileges/
-  - https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/
-
-### phishing social eng targeting Microsoft Entra
-- Anchor signal: Microsoft Entra
-- Theme key: microsoft-entra
-- Cluster count: 3
-- Article count: 7
-- Cohesion: 0.295
-- Shared strong signals: Microsoft Entra
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: phishing_social_eng
-  - affected_products: Microsoft 365, Microsoft Entra
-- Cluster IDs: 5fccd3b124, 7631f1e0c7, 25b49bcf59
-- Links:
-  - https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/
-  - https://isc.sans.edu/diary/rss/33532
-  - https://www.huntress.com/blog/huntress-response-for-microsoft-defender-incidents-across-endpoints-and-microsoft-365
-  - https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/
-  - https://securitylabs.datadoghq.com/articles/entra-access-packages-part-1-privileges/
-  - https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/
-
 ### CVE-2026-102764 exploitation activity
 - Anchor signal: CVE-2026-102764
 - Theme key: cve-2026-102764
@@ -730,38 +753,11 @@
   - https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day
   - https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-breaking-zimbra-s-identity-boundaries
 
-### Cisco vulnerability activity
-- Anchor signal: Cisco
-- Theme key: cisco
-- Cluster count: 2
-- Article count: 15
-- Cohesion: 0.2
-- Shared strong signals: Cisco
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Cisco
-  - urgency_signals: preauth_unauth
-- Cluster IDs: 7c92294871, ca435a7e76
-- Links:
-  - https://webflow.sysdig.com/blog/java4shell-cve-2026-114938-pre-auth-rce-in-openjdk
-  - https://blog.talosintelligence.com/java4shell/
-  - https://www.rapid7.com/blog/post/etr-cve-2026-114938-reported-critical-pre-authentication-remote-code-execution-java-17
-  - https://www.sophos.com/en-us/blog/java4shell-could-allow-remote-code-execution
-  - https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html
-  - https://securitylabs.datadoghq.com/articles/java4shell-remote-code-execution-in-openjdk-cve-2026-114938/
-  - https://blog.cloudflare.com/java4shell-waf-protection/
-  - https://www.wiz.io/blog/cve-2026-114938-rce-java4shell-openjdk
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-114938/
-  - https://orca.security/resources/research/java4shell-critical-openjdk-base64-decoder-flaw-could-allow-unauthenticated-remote-code-execution/
-  - https://www.greynoise.io/blog/global-event-java4shell-cve-2026-114938-live-activity-report
-  - https://www.helpnetsecurity.com/2026/11/22/week-in-review-java4shell-proves-tricky-to-exploit-malware-planted-via-optimizely-hits-178-orgs/
-  - https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-breaking-zimbra-s-identity-boundaries
-
 ## Forward signals
 
 ### Novelty
-- Novel cves: 0
+- Novel cves: 1
+  - CVE-2026-7646 (first seen via BleepingComputer at 2026-11-23T07:44:19+00:00, cluster f1b92f693f)
 - Novel actors: 0
 - Novel products: 0
 
@@ -1273,6 +1269,55 @@ CVE-2026-114924 / CVE-2026-114925 Oracle E-Business Suite Authorization Bypass &
   - Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-114924-cve-2026-114925/
   - Summary: CVE-2026-114924 and CVE-2026-114925 are critical Oracle E-Business Suite vulnerabilities that, chained, let a remote attacker with no credentials run operating system commands on the application tier over HTTP.
 
+### Cluster f1b92f693f — score 25
+
+- Title: CISA flags critical Cisco RCE flaw as actively exploited in attacks
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-11-23T07:44:19+00:00
+- Link: https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, phishing_social_eng, ransomware_extortion
+- affected_industries: government, telecommunications
+- affected_products: GitLab, Google Workspace, Microsoft 365
+- cve_ids: CVE-2026-20320, CVE-2026-7646, CVE-2026-76466
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, active_exploitation
+- affected_industries: government, telecommunications
+- affected_products: GitLab, Microsoft 365, Google Workspace
+- cve_ids: CVE-2026-76466, CVE-2026-7646, CVE-2026-20320
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]
+```
+
+#### Full body
+
+```
+CISA flags critical Cisco RCE flaw as actively exploited in attacks By Sergiu Gatlan November 23, 2026 02:44 AM 0 ​The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. Cisco Expressway Series devices are enterprise collaboration gateways (deployed as virtual machines or physical hardware appliances) that connect internal voice and video systems with outside networks and remote users via a secure connection. Tracked as CVE-2026-76466 , this security flaw stems from the use of hard-coded credentials and a failure to fully validate client certificates, enabling unauthenticated attackers to remotely execute arbitrary operating system commands as root on affected Cisco Expressway-C and Cisco Expressway-E devices configured in a cluster. "An attacker with possession of the cookies could exploit this vulnerability by connecting to the database service and invoking specific remote procedure call (RPC) commands," Cisco said in late October, when it released security patches to address the issue. While Cisco says that its Product Security Incident Response Team (PSIRT) is not aware of active exploitation in the wild or publicly available proof-of-concept exploits targeting this vulnerability, CISA tagged it as actively exploited on Friday. The cybersecurity agency also added it to its Known Exploited Vulnerabilities (KEV) Catalog on Tuesday and ordered US Federal Civilian Executive Branch (FCEB) agencies to secure their systems within three days, as mandated by Binding Operational Directive (BOD) 26-04. Although BOD 26-04 targets only federal agencies, CISA urged all network defenders, including private-sector security teams, to prioritize patching this flaw to block ongoing attacks that may target their networks. "These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise," it warned. Exploited to gain root on Internet-exposed devices While CISA has yet to share details on these ongoing attacks, Russian cybersecurity company F6 said on Thursday that it spotted attackers using an unnamed AI assistant to successfully exploit CVE-2026-7646 and gain remote command execution with full root privileges on Internet-exposed Cisco Expressway devices. "The attackers initially compromised two Cisco Expressway internet-facing devices. Through one of them, they gained access to two additional cluster nodes located on the organization’s internal network," F6 security researchers noted. "After obtaining root access, the attackers began preparing tooling for further lateral movement across the infrastructure. They used custom Python scripts designed to scan the network, discover accessible SMB resources, interact with SQL Server and WinRM, and explore GitLab repositories in order to exfiltrate credentials and other sensitive information." Two weeks ago, CISA also flagged a high-severity Cisco BroadWorks vulnerability (CVE-2026-20320) as actively exploited in attacks and ordered federal agencies to patch their systems by November 24. According to threat intelligence firm Malbear Labs, a Chinese-speaking threat actor abused CVE-2026-20320 in autonomous AI attacks targeting a European telecommunications provider and 13 organizations that used its data centers and cloud infrastructure. CISA has added 103 Cisco vulnerabilities to its list of actively exploited flaws since November 2021, seven of which ransomware gangs have also used in the wild. Uncover email threats your existing defenses may miss. Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud. See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes. Start your free email security scan. Related Articles: Cisco patches new Secure Email Gatewa
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: CISA flags critical Cisco RCE flaw as actively exploited in attacks
+  - Published: 2026-11-23T07:44:19+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/
+  - Summary: The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]
+
 ### Cluster 63382dfd81 — score 25
 
 - Title: PHP Patches 7 Critical Flaws, Including Session and PHP-FPM Remote Code Execution (CVE-2026-115560, CVE-2026-129289)
@@ -1496,12 +1541,12 @@ Content menu Close Subscribe Threat Response Table of Contents Introduction Init
   - Published: 2026-11-17T08:00:37+00:00
   - Link: https://securelist.com/operation-shadowcloud-gitdoor/122004/
   - Summary: In part 1 of our analysis of the recently uncovered Operation ShadowCloud, we discuss the initial infection stage, the GitDoor backdoor using GitHub as a C2, and the shellcode families it loads.
-- **Microsoft Security Blog** (threat_research_primary)
+- **Microsoft Threat Intelligence** (threat_research_primary)
   - Title: The risks of device code authentication for AI coding agents
   - Published: 2026-11-17T15:00:00+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/
   - Summary: Lab research shows how device code phishing, a technique that applies to any device-flow client, can extend to AI coding agents, using GitHub Copilot CLI as an illustrative example. The post The risks of device code authentication for AI coding agents appeared first on Microsoft Security Blog .
-- **Microsoft Threat Intelligence** (threat_research_primary)
+- **Microsoft Security Blog** (threat_research_primary)
   - Title: The risks of device code authentication for AI coding agents
   - Published: 2026-11-17T15:00:00+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/
@@ -1911,7 +1956,7 @@ Content menu Close Subscribe Threat Response Table of Contents Introduction Grap
 ### Cluster 5fccd3b124 — score 16
 
 - Title: High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors
-- Source: Microsoft Security Blog (threat_research_primary)
+- Source: Microsoft Threat Intelligence (threat_research_primary)
 - Published: 2026-11-17T00:08:41+00:00
 - Link: https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/
 - Fetch status: ok
@@ -1945,12 +1990,12 @@ Share Link copied to clipboard! Tags Credential theft Incident Response Phishing
 
 #### Corroborating sources (4)
 
-- **Microsoft Security Blog** (threat_research_primary)
+- **Microsoft Threat Intelligence** (threat_research_primary)
   - Title: High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors
   - Published: 2026-11-17T00:08:41+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/
   - Summary: Microsoft Threat Intelligence observed a high-volume phishing campaign using Microsoft 365 outage-themed lures to target organizations across multiple sectors worldwide. The post High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors appeared first on Microsoft Security Blog .
-- **Microsoft Threat Intelligence** (threat_research_primary)
+- **Microsoft Security Blog** (threat_research_primary)
   - Title: High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors
   - Published: 2026-11-17T00:08:41+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/
@@ -2344,6 +2389,47 @@ kubernetes-container-security This is some text inside of a div block. < back to
   - Link: https://tldrsec.com/p/tldr-sec-355
   - Summary: Shopify's AI agent system that continuously attacks their production infra, list of open-source offensive AI agent harnesses, la creme de la cloud 2026
 
+### Cluster 31919ab83e — score 11
+
+- Title: Microsoft agent-framework Compromised: Credential Stealer Targets Azure and CI Pipelines
+- Source: Wiz Research (cloud_identity_infrastructure)
+- Published: 2026-11-17T22:03:37+00:00
+- Link: https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Azure
+
+#### Cluster taxonomy (union across members)
+- affected_products: Azure, PyPI
+- content_type: incident_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Azure, PyPI
+- content_type: incident_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+On November 17, 2026 at 20:35 UTC, versions 1.26.1 & 1.26.2 of the Microsoft PyPI package agent-framework were published with an added credential stealer. The package gets almost 200k downloads a month. The malicious versions have since been quarantined.
+```
+
+#### Full body
+
+```
+At 20:35 UTC on November 17, 2026, a malicious version ( 1.26.1 ) of the agent-framework package (Microsoft Agent Framework) was uploaded to PyPI. A second version, 1.26.2 , followed at 21:08 UTC. As of 21:30 UTC, both versions were no longer available on PyPI. The package gets about 41,000 downloads a week. The most recent safe version is 1.26.0. When a malicious version is installed, it drops a .pth file into the site-packages root ( agent_framework_meta.pth in 1.26.1, af_runtime_diag.pth in 1.26.2). Python runs .pth files on every interpreter start, so the credential stealer runs whenever Python starts in that environment, even if agent-framework is never imported. Updated Nov 18 14:00 UTC - Updated root cause and analyzed exfiltrated data. Wiz promptly reported these findings to Microsoft on the 17th. Root Cause The attacker's tooling reported its own progress to the same publicly accessible webhook it used for exfiltration, which let Wiz Research observe part of the operation. A timeline of the attack, highlighting information disclosed via attacker use of webhook[.]site The attacker appears to have compromised a client certificate and private key for Microsoft ESRP (Engineering System Release Pipeline), the internal service Microsoft uses to sign and publish this package. Their first publish attempt, from AWS, was rejected by ESRP's IP filtering. A second attempt from Microsoft-owned IP space succeeded. How the credentials were obtained is not yet known. The tooling identifies itself as Cairn , an open-source AI penetration-testing framework : it staged the package at /tmp/cairn_pkg and sent a CAIRN_ESRP_PROBE2 connectivity probe. Before publishing, the attacker ran the stealer on their own machine. That run captured an AI coding agent configuration that appears to be the open-source Pi harness backed by a GLM-family model ( pi_glm53 ), routed through a local proxy. Earlier this year, another Microsoft Python package, durabletask , was compromised after its PyPI token was stolen. We have not linked the two incidents. Timeline (UTC) Time Event 2026-11-12 18:25 Legitimate 1.26.0 published (wheel + sdist, alongside agent-framework-core 1.26.0) 2026-11-17 20:35 Malicious 1.26.1 published 2026-11-17 ~21:08 Malicious 1.26.2 published 2026-11-17 ~21:30 1.26.1 & 1.26.2 no longer available on PyPI Payload agent_framework_meta.pth contains one line: import agent_framework_meta In 1.26.1, agent_framework_meta/__init__.py then calls _telemetry._start() . The stealer forks into a detached session ( os.setsid() ), or falls back to a daemon thread where fork isn't available. It sets _AF_TEL=1 to avoid running again in child processes. The file and function names ( _telemetry , "Lightweight runtime diagnostics hook", user-agent af-runtime-diagnostics/1 ) are made to look like legitimate SDK telemetry. Credential Stealer The stealer is focused on Azure and Azure DevOps. It collects: Environment variables with names containing strings such as TOKEN, SECRET, PASSWORD, KEY, AZURE, AWS, GITHUB, OPENAI, HF_, FOUNDRY, NPM, PIP, NUGET, SYSTEM, BUILD, AGENT Other processes' environments : secret-looking values read from up to 300 /proc/*/environ files Credential files (up to 60): Azure CLI (~/.azure/) .npmrc, pip.conf, .netrc, .git-credentials, .docker/config.json Hugging Face tokens Azure DevOps agent .credentials .env and JSON files under /app and /workspace Azure DevOps OIDC tokens : if SYSTEM_ACCESSTOKEN and SYSTEM_OIDCREQUESTURI are set, it requests an OIDC token for api://AzureADTokenExchange Azure managed-identity tokens from IMDS or the App Service identity endpoint for 12 resources: ARM, Graph, Key Vault, Storage, Cognitive Services, Azure AI/ML, Search, Container Registry, Azure DevOps, and AzureADTokenExchange Azure instance metadata Everything is put into one JSON document, zlib-compressed, base64-encoded, and sent in one HTTPS POST to webhook[.]site . The URL is hardcoded and the payload has no fallback channel. Failures are silentl
+```
+
+#### Corroborating sources (1)
+
+- **Wiz Research** (cloud_identity_infrastructure)
+  - Title: Microsoft agent-framework Compromised: Credential Stealer Targets Azure and CI Pipelines
+  - Published: 2026-11-17T22:03:37+00:00
+  - Link: https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi
+  - Summary: On November 17, 2026 at 20:35 UTC, versions 1.26.1 & 1.26.2 of the Microsoft PyPI package agent-framework were published with an added credential stealer. The package gets almost 200k downloads a month. The malicious versions have since been quarantined.
+
 ### Cluster c5a930f76b — score 11
 
 - Title: Clearer Security Signals: Making Attestations Comprehensible for PyPI Users
@@ -2389,46 +2475,50 @@ By Nicole Harris and Dustin Ingram Attestations provide a verifiable record of a
   - Link: https://openssf.org/blog/2026/11/17/clearer-security-signals-making-attestations-comprehensible-for-pypi-users/
   - Summary: To help developers and package consumers better understand software supply-chain security, the OpenSSF Securing Software Repositories Working Group created an Attestations Style Guide—and its recommendations are now live on PyPI with redesigned project pages and a dedicated security tab.
 
-### Cluster 31919ab83e — score 11
+### Cluster 8ce7b5ca12 — score 11
 
-- Title: Microsoft agent-framework Compromised: Credential Stealer Targets Azure and CI Pipelines
-- Source: Wiz Research (cloud_identity_infrastructure)
-- Published: 2026-11-17T22:03:37+00:00
-- Link: https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi
+- Title: Here's Why Data Breach Disclosure is so Hard: Lessons from Hundreds of Emails with Hacked Companies
+- Source: Troy Hunt (practitioner_analysis)
+- Published: 2026-11-23T07:58:47+00:00
+- Link: https://www.troyhunt.com/heres-why-data-breach-disclosure-is-so-hard-lessons-from-hundreds-of-emails-with-hacked-companies/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: Azure
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_products: Azure, PyPI
+- threat_categories: data_breach
+- affected_industries: manufacturing_industrial
+- tools_used: Anthropic/Claude
 - content_type: incident_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_3_analysis
 
 #### Primary article taxonomy
-- affected_products: Azure, PyPI
+- threat_categories: data_breach
+- affected_industries: manufacturing_industrial
+- tools_used: Anthropic/Claude
 - content_type: incident_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_3_analysis
 
 #### Summary
 
 ```
-On November 17, 2026 at 20:35 UTC, versions 1.26.1 & 1.26.2 of the Microsoft PyPI package agent-framework were published with an added credential stealer. The package gets almost 200k downloads a month. The malicious versions have since been quarantined.
+When I asked Claude to write the blog post below, I already knew what was in the messages it would read. Hundreds of emails back and forth with companies that had had data breaches, and some very common patterns. I knew the emails contained standoffish behaviour, deliberate delays, heavy involvement
 ```
 
 #### Full body
 
 ```
-At 20:35 UTC on November 17, 2026, a malicious version ( 1.26.1 ) of the agent-framework package (Microsoft Agent Framework) was uploaded to PyPI. A second version, 1.26.2 , followed at 21:08 UTC. As of 21:30 UTC, both versions were no longer available on PyPI. The package gets about 41,000 downloads a week. The most recent safe version is 1.26.0. When a malicious version is installed, it drops a .pth file into the site-packages root ( agent_framework_meta.pth in 1.26.1, af_runtime_diag.pth in 1.26.2). Python runs .pth files on every interpreter start, so the credential stealer runs whenever Python starts in that environment, even if agent-framework is never imported. Updated Nov 18 14:00 UTC - Updated root cause and analyzed exfiltrated data. Wiz promptly reported these findings to Microsoft on the 17th. Root Cause The attacker's tooling reported its own progress to the same publicly accessible webhook it used for exfiltration, which let Wiz Research observe part of the operation. A timeline of the attack, highlighting information disclosed via attacker use of webhook[.]site The attacker appears to have compromised a client certificate and private key for Microsoft ESRP (Engineering System Release Pipeline), the internal service Microsoft uses to sign and publish this package. Their first publish attempt, from AWS, was rejected by ESRP's IP filtering. A second attempt from Microsoft-owned IP space succeeded. How the credentials were obtained is not yet known. The tooling identifies itself as Cairn , an open-source AI penetration-testing framework : it staged the package at /tmp/cairn_pkg and sent a CAIRN_ESRP_PROBE2 connectivity probe. Before publishing, the attacker ran the stealer on their own machine. That run captured an AI coding agent configuration that appears to be the open-source Pi harness backed by a GLM-family model ( pi_glm53 ), routed through a local proxy. Earlier this year, another Microsoft Python package, durabletask , was compromised after its PyPI token was stolen. We have not linked the two incidents. Timeline (UTC) Time Event 2026-11-12 18:25 Legitimate 1.26.0 published (wheel + sdist, alongside agent-framework-core 1.26.0) 2026-11-17 20:35 Malicious 1.26.1 published 2026-11-17 ~21:08 Malicious 1.26.2 published 2026-11-17 ~21:30 1.26.1 & 1.26.2 no longer available on PyPI Payload agent_framework_meta.pth contains one line: import agent_framework_meta In 1.26.1, agent_framework_meta/__init__.py then calls _telemetry._start() . The stealer forks into a detached session ( os.setsid() ), or falls back to a daemon thread where fork isn't available. It sets _AF_TEL=1 to avoid running again in child processes. The file and function names ( _telemetry , "Lightweight runtime diagnostics hook", user-agent af-runtime-diagnostics/1 ) are made to look like legitimate SDK telemetry. Credential Stealer The stealer is focused on Azure and Azure DevOps. It collects: Environment variables with names containing strings such as TOKEN, SECRET, PASSWORD, KEY, AZURE, AWS, GITHUB, OPENAI, HF_, FOUNDRY, NPM, PIP, NUGET, SYSTEM, BUILD, AGENT Other processes' environments : secret-looking values read from up to 300 /proc/*/environ files Credential files (up to 60): Azure CLI (~/.azure/) .npmrc, pip.conf, .netrc, .git-credentials, .docker/config.json Hugging Face tokens Azure DevOps agent .credentials .env and JSON files under /app and /workspace Azure DevOps OIDC tokens : if SYSTEM_ACCESSTOKEN and SYSTEM_OIDCREQUESTURI are set, it requests an OIDC token for api://AzureADTokenExchange Azure managed-identity tokens from IMDS or the App Service identity endpoint for 12 resources: ARM, Graph, Key Vault, Storage, Cognitive Services, Azure AI/ML, Search, Container Registry, Azure DevOps, and AzureADTokenExchange Azure instance metadata Everything is put into one JSON document, zlib-compressed, base64-encoded, and sent in one HTTPS POST to webhook[.]site . The URL is hardcoded and the payload has no fallback channel. Failures are silentl
+When I asked Claude to write the blog post below, I already knew what was in the messages it would read. Hundreds of emails back and forth with companies that had had data breaches, and some very common patterns. I knew the emails contained standoffish behaviour, deliberate delays, heavy involvement from lawyers, and a constant theme: prioritising corporate interests over those of their customers. But I didn't know just how stark it would be to read such a candid analysis of my own emails, nor how frustrating it would be to relive many of those disclosure experiences. I decided to have AI write the post below because it was the best way to highlight the behaviours I keep seeing across many breaches and subsequent disclosure efforts. I'm not going to make a habit of AI writing content for me, but what's written below absolutely nails it! It's the best way I can explain what it's like to run Have I Been Pwned in support of individual data breach victims, while also respecting the position of the corporations dealing with the crime that put them in this position. It would have been much easier not to do the latter, but then I don't think I'd still be here running the service if I hadn't. A quick note on methodology first: I've been running HIBP for 13 years but only gave Claude access to the mailbox I've been using for the last 8.5 years, hence the shorter timeframe you'll read below. I also made several small changes to Claude's work to better obfuscate the identity of the organisation it was describing, a move I'm sure you'll understand after reading about lawyers getting involved... Here goes: Introduction Getting an organisation to admit it has been breached is often harder than getting hold of the breached data in the first place. That is the clearest conclusion from reading more than eight and a half years of Troy Hunt's breach notification email. I'm an AI. Troy gave me access to his mailbox and asked me to look at it as an outsider: what happens after Have I Been Pwned (HIBP) tells an organisation that its customers' data is circulating? Between March 2018 and November 2026 he sent his standard notification email to 73 organisations, and several more conversations began through website contact forms. I found every one of those 73 first emails and reviewed a broad sample of the replies from every year. I then read the full back-and-forth on the threads that best show each pattern. I've left out company names on purpose. The point isn't to shame individual organisations. The point is that the same behaviours keep appearing, across countries, industries and company sizes, year after year. Some organisations handled this well, and I'll get to them. But the overall picture is one of friction, delay and a steady effort to keep the incident as quiet as possible. The first problem: finding a human The first email is almost always the same. Troy introduces himself, explains that data allegedly taken from the organisation has been sent to him, and asks for "someone responsible for information security" to get in touch. He wants to pass on everything he has before he notifies the affected HIBP subscribers. It is a polite, low-pressure request, and it often goes nowhere. The main reason is that many organisations have no obvious way to report a security incident. Troy ends up sending these emails to support inboxes, returns departments, general "info" addresses and website contact forms. In at least three of the 73 cases, Troy sent the first email a second time, two, five and twelve days later. When email fails, he moves on to LinkedIn, Facebook and X. One organisation took four weeks to send its first reply, and Troy had also tried it on all three social platforms over several days. Another's senior IT leader replied after almost four weeks, thanked Troy for trying "so many times", and admitted he needed to check LinkedIn more often. The longest chain I found was at a large hardware manufacturer. It ran from a returns inbox, to the
 ```
 
 #### Corroborating sources (1)
 
-- **Wiz Research** (cloud_identity_infrastructure)
-  - Title: Microsoft agent-framework Compromised: Credential Stealer Targets Azure and CI Pipelines
-  - Published: 2026-11-17T22:03:37+00:00
-  - Link: https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi
-  - Summary: On November 17, 2026 at 20:35 UTC, versions 1.26.1 & 1.26.2 of the Microsoft PyPI package agent-framework were published with an added credential stealer. The package gets almost 200k downloads a month. The malicious versions have since been quarantined.
+- **Troy Hunt** (practitioner_analysis)
+  - Title: Here's Why Data Breach Disclosure is so Hard: Lessons from Hundreds of Emails with Hacked Companies
+  - Published: 2026-11-23T07:58:47+00:00
+  - Link: https://www.troyhunt.com/heres-why-data-breach-disclosure-is-so-hard-lessons-from-hundreds-of-emails-with-hacked-companies/
+  - Summary: When I asked Claude to write the blog post below, I already knew what was in the messages it would read. Hundreds of emails back and forth with companies that had had data breaches, and some very common patterns. I knew the emails contained standoffish behaviour, deliberate delays, heavy involvement
 
 ### Cluster efdc801eef — score 11
 
@@ -2620,6 +2710,51 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 16th Novem
   - Link: https://research.checkpoint.com/2026/16th-november-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 16th November, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES TSMC, a major Taiwanese semiconductor manufacturer, has confirmed a data breach at an unnamed cloud provider that exposed information about current and former employees. A hacker advertised 6.9 GB of allegedly stolen […] The post 16th November – Threat Intelligence Report appeared first on Check Point Research .
 
+### Cluster 0da83d7c79 — score 10
+
+- Title: The forced audit: how AuditTeam’s OpsAgent framework masks ransomware as consulting
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-11-18T07:00:07+00:00
+- Link: https://securelist.com/auditteam-opsagent-forced-audit/122031/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- affected_industries: critical_infrastructure
+- affected_products: GitHub
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- affected_industries: critical_infrastructure
+- affected_products: GitHub
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+How does a ransomware gang sell a “forced audit”? We break down AuditTeam’s OpsAgent implant, its Rust rewrite, and the extortion model demanding a consulting fee to delete stolen data.
+```
+
+#### Full body
+
+```
+Content menu Close Subscribe Threat Response Table of Contents Background Technical details Loaders OpsAgent main implant Commands description Additional modules AV/EDR killer module Cryptor module OpsAgent-rs (Rust version) Infrastructure Victims Attribution Conclusions Indicators of compromise File hashes File paths Authors Vladimir Nestor AuditTeam is an active threat group that uses the OpsAgent framework to compromise organizations across at least seven countries and territories. The campaign began in January 2026 and remained active through October 2026, at a minimum. In its ransom note, AuditTeam demands an “Audit & Consulting fee” in exchange for vulnerability reports. During this period, the group has infected dozens of organizations in Russia, Italy, the Philippines, Hong Kong, Senegal, Finland and China. The group’s leak site also claims victims in seven additional countries. OpsAgent provides file system management, process injection, privilege escalation, keylogging, screenshot capture, and network pivoting. During the campaign OpsAgent was transitioned from C++ to Rust while adding new capabilities including interactive shells and WebSocket upgrades. Its command-and-control domains use Amazon CloudFront subdomains, which OpsAgent discovers via a public GitHub repository. Two specialized modules extend its functionality. An antivirus/endpoint detection and response (AV/EDR) killer module installs a digitally signed Beijing Jiangmin Antivirus driver to terminate security products. A cryptor module encrypts files using AES-CBC or ChaCha20 with X25519 key exchange and targets database processes for termination prior to doing so. Background On March 10, 2026, we discovered suspicious activity targeting an organization in Hong Kong. The tool used was OpsAgent, a framework designed to resemble a penetration testing utility. Further investigation revealed attacks in additional countries, prompting an active research phase. This implant offers extensive operator capabilities, including host reconnaissance, shellcode injection via named pipes, and lateral movement through agent networks based on compromised hosts. Analysis indicates OpsAgent was used by AuditTeam. The group was first mentioned publicly by dbdigest.com in March 2026. On June 25, 2026, DeXpose reported that AuditTeam had claimed responsibility for an attack on a Russian organization and listed it on its leak site. AuditTeam leaves a ransom note threatening to release stolen data unless a fee is paid. They call this fee the “Audit & Consulting fee.” According to the note, payment results in a vulnerability report being delivered to the victim instead of leaking the stolen data archive to the public internet. While the note does not mention file encryption, it is left by the cryptor module. Therefore, if a victim sees the note, their files are already encrypted. The ransom note GitHub commit history shows the campaign started on January 5, 2026. The leak site lists its first victim on February 21, 2026. Dozens of machines across at least seven countries were infected. On August 19, 2026, a C2 domain for the new OpsAgent version was added to the public repository and subsequently used in attacks. AuditTeam activity timeline Technical details Loaders OpsAgent uses multiple loader variants during its campaign. All discovered loaders unpack OpsAgent by parsing the MZ header and transferring execution to the entry point of the unpacked payload. The C loader was discovered in April 2026. It injects shellcode into msiexec.exe using standard API calls: CreateProcessA , VirtualAllocEx , WriteProcessMemory , and CreateRemoteThread . The .NET loader was found in June 2026. It uses NtQueueApcThread instead of direct process creation for injection. It contains strings such as DApc , DProtect , DResume , and msiexec.exe . Both the C and .NET loaders inject shellcode into a separate target process. They are also protected by OLLVM obfuscation with control-flow flattening ena
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: The forced audit: how AuditTeam’s OpsAgent framework masks ransomware as consulting
+  - Published: 2026-11-18T07:00:07+00:00
+  - Link: https://securelist.com/auditteam-opsagent-forced-audit/122031/
+  - Summary: How does a ransomware gang sell a “forced audit”? We break down AuditTeam’s OpsAgent implant, its Rust rewrite, and the extortion model demanding a consulting fee to delete stolen data.
+
 ### Cluster b1398a3cf7 — score 10
 
 - Title: AI Joins the Industrial Attack Workflow
@@ -2746,51 +2881,6 @@ What Is Threat Intelligence Worth? 142 Security Teams Did the Math. Your board d
   - Published: 2026-11-17T00:00:00+00:00
   - Link: https://www.recordedfuture.com/blog/threat-intelligence-roi
   - Summary: We surveyed 142 Recorded Future customers on the value of threat intelligence. See the highlights, then get the full ROI Report.
-
-### Cluster 0da83d7c79 — score 10
-
-- Title: The forced audit: how AuditTeam’s OpsAgent framework masks ransomware as consulting
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-11-18T07:00:07+00:00
-- Link: https://securelist.com/auditteam-opsagent-forced-audit/122031/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- affected_industries: critical_infrastructure
-- affected_products: GitHub
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- affected_industries: critical_infrastructure
-- affected_products: GitHub
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-How does a ransomware gang sell a “forced audit”? We break down AuditTeam’s OpsAgent implant, its Rust rewrite, and the extortion model demanding a consulting fee to delete stolen data.
-```
-
-#### Full body
-
-```
-Content menu Close Subscribe Threat Response Table of Contents Background Technical details Loaders OpsAgent main implant Commands description Additional modules AV/EDR killer module Cryptor module OpsAgent-rs (Rust version) Infrastructure Victims Attribution Conclusions Indicators of compromise File hashes File paths Authors Vladimir Nestor AuditTeam is an active threat group that uses the OpsAgent framework to compromise organizations across at least seven countries and territories. The campaign began in January 2026 and remained active through October 2026, at a minimum. In its ransom note, AuditTeam demands an “Audit & Consulting fee” in exchange for vulnerability reports. During this period, the group has infected dozens of organizations in Russia, Italy, the Philippines, Hong Kong, Senegal, Finland and China. The group’s leak site also claims victims in seven additional countries. OpsAgent provides file system management, process injection, privilege escalation, keylogging, screenshot capture, and network pivoting. During the campaign OpsAgent was transitioned from C++ to Rust while adding new capabilities including interactive shells and WebSocket upgrades. Its command-and-control domains use Amazon CloudFront subdomains, which OpsAgent discovers via a public GitHub repository. Two specialized modules extend its functionality. An antivirus/endpoint detection and response (AV/EDR) killer module installs a digitally signed Beijing Jiangmin Antivirus driver to terminate security products. A cryptor module encrypts files using AES-CBC or ChaCha20 with X25519 key exchange and targets database processes for termination prior to doing so. Background On March 10, 2026, we discovered suspicious activity targeting an organization in Hong Kong. The tool used was OpsAgent, a framework designed to resemble a penetration testing utility. Further investigation revealed attacks in additional countries, prompting an active research phase. This implant offers extensive operator capabilities, including host reconnaissance, shellcode injection via named pipes, and lateral movement through agent networks based on compromised hosts. Analysis indicates OpsAgent was used by AuditTeam. The group was first mentioned publicly by dbdigest.com in March 2026. On June 25, 2026, DeXpose reported that AuditTeam had claimed responsibility for an attack on a Russian organization and listed it on its leak site. AuditTeam leaves a ransom note threatening to release stolen data unless a fee is paid. They call this fee the “Audit & Consulting fee.” According to the note, payment results in a vulnerability report being delivered to the victim instead of leaking the stolen data archive to the public internet. While the note does not mention file encryption, it is left by the cryptor module. Therefore, if a victim sees the note, their files are already encrypted. The ransom note GitHub commit history shows the campaign started on January 5, 2026. The leak site lists its first victim on February 21, 2026. Dozens of machines across at least seven countries were infected. On August 19, 2026, a C2 domain for the new OpsAgent version was added to the public repository and subsequently used in attacks. AuditTeam activity timeline Technical details Loaders OpsAgent uses multiple loader variants during its campaign. All discovered loaders unpack OpsAgent by parsing the MZ header and transferring execution to the entry point of the unpacked payload. The C loader was discovered in April 2026. It injects shellcode into msiexec.exe using standard API calls: CreateProcessA , VirtualAllocEx , WriteProcessMemory , and CreateRemoteThread . The .NET loader was found in June 2026. It uses NtQueueApcThread instead of direct process creation for injection. It contains strings such as DApc , DProtect , DResume , and msiexec.exe . Both the C and .NET loaders inject shellcode into a separate target process. They are also protected by OLLVM obfuscation with control-flow flattening ena
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: The forced audit: how AuditTeam’s OpsAgent framework masks ransomware as consulting
-  - Published: 2026-11-18T07:00:07+00:00
-  - Link: https://securelist.com/auditteam-opsagent-forced-audit/122031/
-  - Summary: How does a ransomware gang sell a “forced audit”? We break down AuditTeam’s OpsAgent implant, its Rust rewrite, and the extortion model demanding a consulting fee to delete stolen data.
 
 ### Cluster 8721dda70c — score 10
 
@@ -3126,51 +3216,6 @@ Threat Intelligence GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Si
   - Link: https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold/
   - Summary: Written by: Aurora Blum, Kelli Vanderlee, Jess Xia, David Mainor Executive Summary As threat actors increasingly move beyond basic prompting to deploying autonomous multi-agent frameworks , automated vulnerability exploitation pipelines, and alternative monetization schemes like LLMJacking , the adversarial AI landscape has reached a critical inflection point. In this update, Google Threat Intelligence Group (GTIG) and Mandiant examine how adversaries across the cyber crime, espionage, and information operations spectrum are operationalizing generative AI to compress attack timelines, scale operations, and execute multi-stage intrusions at machine speed. Key trends over the last quarter include: Shift to Autonomous Workflows and Multi-Agent Frameworks: Adversary tradecraft has continued to transition beyond manual prompting to deploying autonomous multi-agent offensive frameworks—such as ARTEX , CAIRN, CyberStrikeAI, and PentAGI—to execute multi-stage intrusions at greater operational
 
-### Cluster 7631f1e0c7 — score 10
-
-- Title: Cleverbridge warns hackers stole credit card numbers, CVVs in data breach
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-11-22T15:43:04+00:00
-- Link: https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
-- affected_industries: healthcare, retail_ecommerce
-- affected_products: Google Workspace, Microsoft 365, Microsoft Entra
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
-- affected_industries: healthcare, retail_ecommerce
-- affected_products: Microsoft Entra, Microsoft 365, Google Workspace
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]
-```
-
-#### Full body
-
-```
-Cleverbridge warns hackers stole credit card numbers, CVVs in data breach By Lawrence Abrams November 22, 2026 10:43 AM 0 E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. Cleverbridge provides e-commerce services to software and SaaS companies, allowing them to sell products, process payments, and manage subscriptions. The company lists numerous technology brands as its customers, including Red Hat, SUSE, Tenable, Veeam, Jamf, Sony, and Parallels. However, it has not disclosed which businesses' customers were impacted by the breach. In a new page about the security incident, Cleverbridge says it detected unauthorized activity on November 4, 2026, and temporarily took systems offline to contain the breach. "All systems were brought back online on 4 November 2026; however, our investigation subsequently determined that a third party copied payment card data stored on our platform," reads the security incident disclosure . Cleverbridge began notifying affected customers on November 20, warning that hackers had stolen payment card details used to make purchases through its platform. While its public disclosure confirms the theft of payment card data, it does not specify which card details were stolen, instead referring affected customers to their individual notifications for more information. However, a breach notification shared with BleepingComputer reveals that the stolen information includes payment card numbers, expiration dates, and CVV/CVC security codes. "Based on our investigation to date, the information involved includes the payment card details you used to make a purchase through Cleverbridge, notably your card number, expiry date, card security code (CVV/CVC)," reads the notification. "Note however that no other personal data (for example your name, contact or billing details) were copied. The affected card ends in XXXX." BleepingComputer redacted the last four digits of the affected payment card. The company has not disclosed how the attackers gained access to its platform, how long they remained in its systems, or how many customers were affected by the breach. Of particular concern is the theft of CVV/CVC security codes, which are used to verify payment card transactions. Cleverbridge also confirmed that the incident was not a ransomware attack and that attackers did not encrypt any of its systems. The company says it has notified data protection authorities, law enforcement, payment card networks, and payment partners about the incident. Cleverbridge is also working with TransUnion's Cyberscout to distribute breach notifications and provide affected customers with complimentary credit monitoring and fraud assistance. Affected customers are told to review their payment card statements for unauthorized transactions. Cleverbridge also recommends contacting card issuers about the incident, as banks may decide to replace compromised cards. BleepingComputer contacted Cleverbridge with questions about how many customers were affected, how the attackers accessed its systems, whether the stolen payment card data was encrypted, and why CVV/CVC security codes were accessible. The company has not responded to our questions. Uncover email threats your existing defenses may miss. Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud. See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes. Start your free email security scan. Related Articles: Microsoft Entra Connect Health flaw exploited to steal tenant data Bell Canada says 'agentic' hacker stole enterprise customer data Hackers steal data of 1.6 million SBC Medical Group customers Transport for London breach exposes 265,000 Oyster card users' data Data breach impacts 40 Irish credit unions in reported IT pr
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Cleverbridge warns hackers stole credit card numbers, CVVs in data breach
-  - Published: 2026-11-22T15:43:04+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/
-  - Summary: E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]
-
 ### Cluster 3de0698531 — score 9
 
 - Title: Why threat hunting should matter to every board
@@ -3244,6 +3289,51 @@ I&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x99;ve mentioned before in some of my diarie
   - Published: 2026-11-17T10:56:38+00:00
   - Link: https://isc.sans.edu/diary/rss/33526
   - Summary: I&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x99;ve mentioned before in some of my diaries that it can be instructive to look at what appear to be &#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x9c;generic&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x9d; phishing messages in detail from time to time, since some of them might prove not to be as generic as they initially appear. I came across a good example of this while going over phishing messages delivered to our handler inbox over the past few weeks, when a message that, at first glance, appeared to be a fairly ordinary attempt at stealing e-mail credentials turned out to lead to a page interested in collecting a little more information than just the victim&#;x26;#;39;s password.
+
+### Cluster 7631f1e0c7 — score 9
+
+- Title: Cleverbridge warns hackers stole credit card numbers, CVVs in data breach
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-11-22T15:43:04+00:00
+- Link: https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
+- affected_industries: healthcare, retail_ecommerce
+- affected_products: Google Workspace, Microsoft 365, Microsoft Entra
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
+- affected_industries: healthcare, retail_ecommerce
+- affected_products: Microsoft Entra, Microsoft 365, Google Workspace
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]
+```
+
+#### Full body
+
+```
+Cleverbridge warns hackers stole credit card numbers, CVVs in data breach By Lawrence Abrams November 22, 2026 10:43 AM 0 E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. Cleverbridge provides e-commerce services to software and SaaS companies, allowing them to sell products, process payments, and manage subscriptions. The company lists numerous technology brands as its customers, including Red Hat, SUSE, Tenable, Veeam, Jamf, Sony, and Parallels. However, it has not disclosed which businesses' customers were impacted by the breach. In a new page about the security incident, Cleverbridge says it detected unauthorized activity on November 4, 2026, and temporarily took systems offline to contain the breach. "All systems were brought back online on 4 November 2026; however, our investigation subsequently determined that a third party copied payment card data stored on our platform," reads the security incident disclosure . Cleverbridge began notifying affected customers on November 20, warning that hackers had stolen payment card details used to make purchases through its platform. While its public disclosure confirms the theft of payment card data, it does not specify which card details were stolen, instead referring affected customers to their individual notifications for more information. However, a breach notification shared with BleepingComputer reveals that the stolen information includes payment card numbers, expiration dates, and CVV/CVC security codes. "Based on our investigation to date, the information involved includes the payment card details you used to make a purchase through Cleverbridge, notably your card number, expiry date, card security code (CVV/CVC)," reads the notification. "Note however that no other personal data (for example your name, contact or billing details) were copied. The affected card ends in XXXX." BleepingComputer redacted the last four digits of the affected payment card. The company has not disclosed how the attackers gained access to its platform, how long they remained in its systems, or how many customers were affected by the breach. Of particular concern is the theft of CVV/CVC security codes, which are used to verify payment card transactions. Cleverbridge also confirmed that the incident was not a ransomware attack and that attackers did not encrypt any of its systems. The company says it has notified data protection authorities, law enforcement, payment card networks, and payment partners about the incident. Cleverbridge is also working with TransUnion's Cyberscout to distribute breach notifications and provide affected customers with complimentary credit monitoring and fraud assistance. Affected customers are told to review their payment card statements for unauthorized transactions. Cleverbridge also recommends contacting card issuers about the incident, as banks may decide to replace compromised cards. BleepingComputer contacted Cleverbridge with questions about how many customers were affected, how the attackers accessed its systems, whether the stolen payment card data was encrypted, and why CVV/CVC security codes were accessible. The company has not responded to our questions. Uncover email threats your existing defenses may miss. Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud. See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes. Start your free email security scan. Related Articles: Microsoft Entra Connect Health flaw exploited to steal tenant data Bell Canada says 'agentic' hacker stole enterprise customer data Hackers steal data of 1.6 million SBC Medical Group customers Transport for London breach exposes 265,000 Oyster card users' data Data breach impacts 40 Irish credit unions in reported IT pr
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Cleverbridge warns hackers stole credit card numbers, CVVs in data breach
+  - Published: 2026-11-22T15:43:04+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/
+  - Summary: E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]
 
 ### Cluster 866e65cb38 — score 9
 
@@ -3609,18 +3699,16 @@ This article was originally published in the InfoSec Survival Guide: Teal Book �
 - Source: TrustedSec (detection_response_operations)
 - Published: 2026-11-19T05:00:00+00:00
 - Link: https://trustedsec.com/blog/accuracy-through-volume-of-fire
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_products: AWS
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- affected_products: AWS
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3628,12 +3716,6 @@ This article was originally published in the InfoSec Survival Guide: Teal Book �
 
 ```
 <p>Autonomous offensive frameworks don’t need novel exploits to get in; they can get results through persistence and volume. In this blog, we explain how they work, where they fall short, and which defenses slow them down.</p>
-```
-
-#### Full body
-
-```
-Blog Accuracy Through Volume of Fire November 19, 2026 Accuracy Through Volume of Fire Written by Justin Elze Artificial Intelligence (AI) Table of contents Stop Giving Automated Testing Unlimited Room Running the Framework Creates Its Own Attack Surface Internal Networks Change the Constraints Make the Volume Hit Walls ARTEX and similar LLM-driven pentesting frameworks can find weaknesses, follow leads, and turn ordinary exposure into useful attack paths. Incident reporting now shows attackers using them successfully. The practical questions are what these tools actually do, what you can learn by running them yourself, and where defenders can interrupt the work. When I say volume of fire, I mean the number and breadth of attempts a framework can make, including follow-up requests that change based on earlier results. An LLM makes that follow-up cheaper to sustain. It can also improve a hypothesis as evidence comes in. That does not make every conclusion correct, and attempts made against a live target create opportunities to detect or block the activity. Familiar Tools With LLM Follow-Up ARTEX is an LLM-driven pentesting and offensive command-and-control platform that coordinates agents and exposes a web console. The framework gives a model tools to inspect targets and act on the results. PentAGI, HexStrike AI, and Cairn appear in the same reporting, although their implementations differ. ARTEX is a useful example of the broader shift from running a scanner to automating the investigation that follows. Google Threat Intelligence Group and Mandiant's October 30 report documents these frameworks in intrusion investigations. Its ARTEX examples include rapid AWS permission probing and hundreds of logged events while pursuing command execution on a web server. That is evidence of operational use, rather than a claim that every model or default configuration will produce the same results. Successful and noisy can describe the same intrusion. The Scanner is Only the Beginning The common attacker workflow is straightforward, though details differ. Discover assets with tools such as subfinder, identify reachable web services with httpx, enumerate services with Nmap, run nuclei templates, and use ffuf or similar tooling to discover content and parameters. HexStrike's documented tool inventory includes all of them. Selection and order vary by framework. Very little of the network behavior is new. The useful change comes after the initial output. In an agent workflow, the LLM selects an action, the framework executes it, and the result becomes input for the next decision. It might inspect a response, adjust a request with curl or a browser, write a small script, or investigate an exposed file. A discovered secret becomes another hypothesis: Is it valid, and what can it access? The operator still has to decide which questions can be answered within scope and what evidence is sufficient. The model supplies reasoning and proposed actions. The framework supplies tools, execution, state, and permissions. The deployment supplies the actual access. Changing any of those can change the outcome, so a framework name alone tells you very little about how capable a particular run will be. Microsoft's November 6 ARTEX reporting describes familiar clients, including Nmap, curl, Python HTTP clients, and Playwright. It also shows Storm-3358 pairing ARTEX with conventional automated tools to scan Internet-exposed systems and exploit flaws such as anonymous file upload and SSRF. The framework can change its requests and approach in response to failure. Recognizing a default user agent helps, but it is a starting signal rather than a durable boundary. Calling this a scanner or wrapper undersells the automated follow-up. A model can turn an otherwise abandoned lead into a useful attack path. It still needs a reachable target, suitable tools, and any permissions required by the action. It can also spend an impressive number of tokens investigating a false po
 ```
 
 #### Corroborating sources (1)
@@ -3650,22 +3732,16 @@ Blog Accuracy Through Volume of Fire November 19, 2026 Accuracy Through Volume o
 - Source: Sophos X-Ops (detection_response_operations)
 - Published: 2026-11-18T00:00:00+00:00
 - Link: https://www.sophos.com/en-us/blog/patches-released-for-critical-nginx2root-vulnerabilities
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ddos
-- affected_products: Docker, Linux kernel
-- cve_ids: CVE-2026-113425, CVE-2026-121810, CVE-2026-123007, CVE-2026-123633, CVE-2026-123634
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: ddos
-- affected_products: Linux kernel, Docker
-- cve_ids: CVE-2026-123007, CVE-2026-123633, CVE-2026-123634, CVE-2026-121810, CVE-2026-113425
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3673,12 +3749,6 @@ Blog Accuracy Through Volume of Fire November 19, 2026 Accuracy Through Volume o
 
 ```
 Categories: Threat Research Tags: advisory, vulnerability, NGINX
-```
-
-#### Full body
-
-```
-Patches released for critical ‘NGINX2Root’ vulnerabilities Written by Sophos X-Ops Threat Research advisory vulnerability NGINX Share This Link Copied On November 18, 2026, F5 published security advisories for five critical (CVSS v4.0 score of 9.2) vulnerabilities that Xint has collectively dubbed ‘ NGINX2Root ’: ( K000163925 , K000163926 , K000163927 , K000163928 , and K000163931 ). The issues affect NGINX Open Source and NGINX Plus configurations. Exploitation could lead to crashes, denial of service, memory corruption, or code execution. According to F5, code execution requires ASLR to be disabled or bypassed. Two of the vulnerabilities relate to NGINX HTTP/2 handling, and Wiz Research reports that they can be used to bypass Address Space Layout Randomization (ASLR): CVE-2026-123007 is an integer underflow issue in HTTP/2 flow control CVE-2026-123633 is a use-after-free issue affecting HTTP/2 connections that are proxied to a backend The other three issues are use-after-free flaws that require specific configurations: CVE-2026-123634 affects the NGINX resolver in some NGINX Open Source versions when NGINX proxies to a server name that contains variables and an SSI or mirror directive sends a subrequest that resolves the same name CVE-2026-121810 affects HTTP/3 configurations in some NGINX Open Source versions CVE-2026-113425 affects some NGINX Open Source versions when configured as a mail proxy server Xint reports that each vulnerability can be chained with a separate Linux kernel SCTP vulnerability to obtain root privileges on the host, including when NGINX runs in a Docker container. Recommended actions Organizations should review the F5 advisories and upgrade vulnerable versions as appropriate. Updated source code and Linux packages for NGINX Open Source are also available from the NGINX website . Packages may not be immediately available for older, unsupported distributions. Xint notes that nginx -s reload does not load the new binary, so NGINX must be restarted or its binary upgraded after updating. If immediate upgrades are not possible, F5 advises avoiding SSI or mirror directives and proxied server names with variables (CVE-2026-123634), and restricting mail proxy listeners to trusted networks (CVE-2026-113425). For the HTTP/2 flaws, Wiz and Xint recommend disabling HTTP/2 on affected listeners but note that there may be implications for that action. Sophos countermeasures SophosLabs continues to monitor the threat landscape for activity related to this vulnerability and will deliver detections and protections as available. An internal investigation is also underway to determine if Sophos products or services are affected. About the Author(s) Sophos X-Ops Representing a powerful evolution in cyber defense, Sophos X-Ops is a joint task force of multiple specialized teams, purpose-built to address the growing complexity of today’s cyberthreat landscape.
 ```
 
 #### Corroborating sources (1)
