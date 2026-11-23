@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-11-22T18:22:47.573285+00:00
+- Generated: 2026-11-23T00:07:58.451737+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 351
-- Total clusters raw: 166
-- Total clusters in packet: 72
-- Dropped low score: 94
+- Total items in window: 349
+- Total clusters raw: 167
+- Total clusters in packet: 71
+- Dropped low score: 96
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,11 +75,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
@@ -90,6 +85,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
@@ -100,76 +100,66 @@
   - Status: fetch_error
   - Item count: 0
   - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 4
+  - Item count: 15
+  - In window count: 3
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 4
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 4
+  - In window count: 1
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 9
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - In window count: 4
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
-  - Item count: 78
-  - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
+  - Item count: 10
+  - In window count: 10
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
-  - Item count: 50
+  - Item count: 100
+  - In window count: 3
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
@@ -180,33 +170,48 @@
   - Status: ok
   - Item count: 40
   - In window count: 1
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
-  - Item count: 15
+  - Item count: 50
+  - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -215,18 +220,13 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 10
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -240,30 +240,40 @@
   - Status: ok
   - Item count: 10
   - In window count: 8
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 10
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
   - In window count: 0
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 8
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 10
+  - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
+  - In window count: 6
+- **Google Project Zero** (offensive_vulnerability_research)
+  - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
   - In window count: 6
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
@@ -275,16 +285,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 6
-- **Google Project Zero** (offensive_vulnerability_research)
-  - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
@@ -300,36 +300,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 5
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
   - Status: ok
-  - Item count: 100
-  - In window count: 2
+  - Item count: 5
+  - In window count: 5
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
@@ -340,18 +335,13 @@
   - Status: ok
   - Item count: 20
   - In window count: 20
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
-  - Item count: 30
-  - In window count: 18
+  - Item count: 100
+  - In window count: 2
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -360,30 +350,45 @@
   - Status: ok
   - Item count: 50
   - In window count: 2
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 15
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 24
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 23
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
   - Status: ok
-  - Item count: 10
+  - Item count: 20
+  - In window count: 0
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
   - In window count: 2
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
@@ -395,23 +400,8 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -420,8 +410,8 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -430,36 +420,46 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 28
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 50
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
-  - In window count: 0
+  - In window count: 28
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
-  - In window count: 6
+  - In window count: 5
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
@@ -533,7 +533,7 @@
 - Anchor signal: VMware
 - Theme key: vmware
 - Cluster count: 6
-- Article count: 12
+- Article count: 11
 - Cohesion: 0.206
 - Shared strong signals: VMware
 - Member CVEs: CVE-2026-99312
@@ -550,7 +550,6 @@
   - https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere/
   - https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/
   - https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html
-  - https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/
   - https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day
   - https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html
   - https://webflow.sysdig.com/blog/nginx2root
@@ -564,7 +563,7 @@
 - Anchor signal: PyPI
 - Theme key: pypi
 - Cluster count: 4
-- Article count: 11
+- Article count: 10
 - Cohesion: 0.353
 - Shared strong signals: PyPI
 - Member CVEs: (none)
@@ -578,60 +577,11 @@
   - https://securelist.com/operation-shadowcloud-gitdoor/122004/
   - https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/
   - https://www.elastic.co/security-labs/threat-command/we-caught-the-agent-framework-pypi-compromise-six-minutes-after-it-published
-  - https://simonwillison.net/2026/Nov/15/datasette/
   - https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html
   - https://orca.security/resources/research/microsoft-agent-framework-pypi-supply-chain-attack-versions-1-26-1-and-1-26-2-steal-cloud-credentials/
   - https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html
   - https://openssf.org/blog/2026/11/17/clearer-security-signals-making-attestations-comprehensible-for-pypi-users/
   - https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi
-
-### CVE-2026-123007 exploitation activity
-- Anchor signal: CVE-2026-123007
-- Theme key: cve-2026-123007
-- Cluster count: 3
-- Article count: 10
-- Cohesion: 0.25
-- Shared strong signals: CVE-2026-123007
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - cve_ids: CVE-2026-123007, CVE-2026-123633, CVE-2026-121810, CVE-2026-123634
-  - urgency_signals: preauth_unauth
-- Cluster IDs: 8f2a86fb37, dff990f28a, 5d7989058d
-- Links:
-  - https://www.rapid7.com/blog/post/ve-cve-2026-123007-critical-nginx-http-2-integer-underflow-leads-to-rce-fixed
-  - https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities
-  - https://orca.security/resources/research/two-critical-nginx-http-2-flaws-could-allow-unauthenticated-remote-code-execution/
-  - https://www.helpnetsecurity.com/2026/11/19/nginx2root-nginx-vulnerabilities/
-  - https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html
-  - https://webflow.sysdig.com/blog/nginx2root
-  - https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html
-  - https://openssf.org/podcast/2026/11/18/whats-in-the-soss-podcast-78-s3e30-from-signal-processing-to-open-source-security-sal-kimmich-on-linux-kernel-defense/
-  - https://blog.cloudflare.com/nginx2root/
-
-### CVE-2026-123633 exploitation activity
-- Anchor signal: CVE-2026-123633
-- Theme key: cve-2026-123633
-- Cluster count: 3
-- Article count: 10
-- Cohesion: 0.25
-- Shared strong signals: CVE-2026-123633
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - cve_ids: CVE-2026-123007, CVE-2026-123633, CVE-2026-121810, CVE-2026-123634
-  - urgency_signals: preauth_unauth
-- Cluster IDs: 8f2a86fb37, dff990f28a, 5d7989058d
-- Links:
-  - https://www.rapid7.com/blog/post/ve-cve-2026-123007-critical-nginx-http-2-integer-underflow-leads-to-rce-fixed
-  - https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities
-  - https://orca.security/resources/research/two-critical-nginx-http-2-flaws-could-allow-unauthenticated-remote-code-execution/
-  - https://www.helpnetsecurity.com/2026/11/19/nginx2root-nginx-vulnerabilities/
-  - https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html
-  - https://webflow.sysdig.com/blog/nginx2root
-  - https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html
-  - https://openssf.org/podcast/2026/11/18/whats-in-the-soss-podcast-78-s3e30-from-signal-processing-to-open-source-security-sal-kimmich-on-linux-kernel-defense/
-  - https://blog.cloudflare.com/nginx2root/
 
 ### CVE-2026-114924 exploitation activity
 - Anchor signal: CVE-2026-114924
@@ -690,26 +640,31 @@
   - https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html
   - https://orca.security/resources/research/cve-2026-119618-critical-apache-http-2-race-condition-enables-unauthenticated-remote-code-execution/
 
-### phishing social eng targeting Microsoft Entra
-- Anchor signal: Microsoft Entra
-- Theme key: microsoft-entra
-- Cluster count: 3
-- Article count: 7
-- Cohesion: 0.295
-- Shared strong signals: Microsoft Entra
-- Member CVEs: (none)
+### Linux kernel exploitation (2 CVEs)
+- Anchor signal: Linux kernel
+- Theme key: linux-kernel
+- Cluster count: 5
+- Article count: 6
+- Cohesion: 0.322
+- Shared strong signals: Linux kernel
+- Member CVEs: CVE-2026-123007, CVE-2026-123633
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: phishing_social_eng
-  - affected_products: Microsoft 365, Microsoft Entra
-- Cluster IDs: 5fccd3b124, 7631f1e0c7, 25b49bcf59
+  - affected_products: Linux kernel
+  - cve_ids: CVE-2026-113425, CVE-2026-121810, CVE-2026-123007, CVE-2026-123633, CVE-2026-123634
+- Cluster IDs: 8f2a86fb37, dff990f28a, 5d7989058d, cf875bad92, 5630cc40c4
 - Links:
-  - https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/
-  - https://isc.sans.edu/diary/rss/33532
-  - https://www.huntress.com/blog/huntress-response-for-microsoft-defender-incidents-across-endpoints-and-microsoft-365
-  - https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/
-  - https://securitylabs.datadoghq.com/articles/entra-access-packages-part-1-privileges/
-  - https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/
+  - https://www.rapid7.com/blog/post/ve-cve-2026-123007-critical-nginx-http-2-integer-underflow-leads-to-rce-fixed
+  - https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities
+  - https://orca.security/resources/research/two-critical-nginx-http-2-flaws-could-allow-unauthenticated-remote-code-execution/
+  - https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html
+  - https://webflow.sysdig.com/blog/nginx2root
+  - https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html
+  - https://openssf.org/podcast/2026/11/18/whats-in-the-soss-podcast-78-s3e30-from-signal-processing-to-open-source-security-sal-kimmich-on-linux-kernel-defense/
+  - https://blog.cloudflare.com/nginx2root/
+  - https://cloud.google.com/blog/products/networking/gke-dataplane-v2-in-place-migration/
+  - https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/
+  - https://www.sophos.com/en-us/blog/patches-released-for-critical-nginx2root-vulnerabilities
 
 ### phishing social eng targeting Microsoft 365
 - Anchor signal: Microsoft 365
@@ -732,11 +687,32 @@
   - https://securitylabs.datadoghq.com/articles/entra-access-packages-part-1-privileges/
   - https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/
 
+### phishing social eng targeting Microsoft Entra
+- Anchor signal: Microsoft Entra
+- Theme key: microsoft-entra
+- Cluster count: 3
+- Article count: 7
+- Cohesion: 0.295
+- Shared strong signals: Microsoft Entra
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: phishing_social_eng
+  - affected_products: Microsoft 365, Microsoft Entra
+- Cluster IDs: 5fccd3b124, 7631f1e0c7, 25b49bcf59
+- Links:
+  - https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/
+  - https://isc.sans.edu/diary/rss/33532
+  - https://www.huntress.com/blog/huntress-response-for-microsoft-defender-incidents-across-endpoints-and-microsoft-365
+  - https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/
+  - https://securitylabs.datadoghq.com/articles/entra-access-packages-part-1-privileges/
+  - https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/
+
 ### CVE-2026-102764 exploitation activity
 - Anchor signal: CVE-2026-102764
 - Theme key: cve-2026-102764
 - Cluster count: 2
-- Article count: 10
+- Article count: 9
 - Cohesion: 0.2
 - Shared strong signals: CVE-2026-102764
 - Member CVEs: (none)
@@ -751,8 +727,35 @@
   - https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere/
   - https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/
   - https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html
-  - https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/
   - https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day
+  - https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-breaking-zimbra-s-identity-boundaries
+
+### Cisco vulnerability activity
+- Anchor signal: Cisco
+- Theme key: cisco
+- Cluster count: 2
+- Article count: 15
+- Cohesion: 0.2
+- Shared strong signals: Cisco
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Cisco
+  - urgency_signals: preauth_unauth
+- Cluster IDs: 7c92294871, ca435a7e76
+- Links:
+  - https://webflow.sysdig.com/blog/java4shell-cve-2026-114938-pre-auth-rce-in-openjdk
+  - https://blog.talosintelligence.com/java4shell/
+  - https://www.rapid7.com/blog/post/etr-cve-2026-114938-reported-critical-pre-authentication-remote-code-execution-java-17
+  - https://www.sophos.com/en-us/blog/java4shell-could-allow-remote-code-execution
+  - https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html
+  - https://securitylabs.datadoghq.com/articles/java4shell-remote-code-execution-in-openjdk-cve-2026-114938/
+  - https://blog.cloudflare.com/java4shell-waf-protection/
+  - https://www.wiz.io/blog/cve-2026-114938-rce-java4shell-openjdk
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-114938/
+  - https://orca.security/resources/research/java4shell-critical-openjdk-base64-decoder-flaw-could-allow-unauthenticated-remote-code-execution/
+  - https://www.greynoise.io/blog/global-event-java4shell-cve-2026-114938-live-activity-report
+  - https://www.helpnetsecurity.com/2026/11/22/week-in-review-java4shell-proves-tricky-to-exploit-malware-planted-via-optimizely-hits-178-orgs/
   - https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-breaking-zimbra-s-identity-boundaries
 
 ## Forward signals
@@ -768,15 +771,15 @@
   - Sources in window: 3
   - Window hours: 4.1
   - Cohort count: 5
-- **Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 1**
-  - Cluster: dec648cd5c
-  - Sources in window: 3
-  - Window hours: 3.7
-  - Cohort count: 4
 - **CVE-2026-123007: Critical NGINX HTTP/2 Integer Underflow Leads to RCE (FIXED)**
   - Cluster: 8f2a86fb37
   - Sources in window: 3
   - Window hours: 3.1
+  - Cohort count: 3
+- **Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 1**
+  - Cluster: dec648cd5c
+  - Sources in window: 3
+  - Window hours: 3.7
   - Cohort count: 3
 
 ### Leading edge (0)
@@ -897,15 +900,15 @@ Emergent Threat Response Rapid7 Detected Exploitation of CVE-2026-90436 against 
 - Published: 2026-11-18T13:56:42+00:00
 - Link: https://www.rapid7.com/blog/post/ve-cve-2026-123007-critical-nginx-http-2-integer-underflow-leads-to-rce-fixed
 - Fetch status: ok
-- Member count: 5
-- Corroborating source count: 5
+- Member count: 4
+- Corroborating source count: 4
 - Strong signals: CVE-2026-123007, Docker
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, vulnerability_disclosure
+- threat_categories: vulnerability_disclosure
 - affected_products: Docker
 - cve_ids: CVE-2026-123007, CVE-2026-123633
-- urgency_signals: actively_exploited, preauth_unauth
+- urgency_signals: preauth_unauth
 - content_type: news_report, vulnerability_disclosure
 - confidence_tier: tier_1_offensive_research, tier_2_operator, tier_4_news
 
@@ -929,7 +932,7 @@ Overview Today, both Rapid7 and F5 are disclosing CVE-2026-123007 , a critical i
 Rapid7 Intelligence CVE-2026-123007: Critical NGINX HTTP/2 Integer Underflow Leads to RCE (FIXED) Stephen Fewer Nov 18, 2026 | Last updated on Nov 20, 2026 | 19 min read DISCOVER RAPID7 MDR CVE-2026-123007: Critical NGINX HTTP/2 Integer Underflow Leads to RCE (FIXED) Table of contents CVE-2026-123007: Critical NGINX HTTP/2 Integer Underflow Leads to RCE (FIXED) DISCOVER RAPID7 MDR Table of contents Overview Today, both Rapid7 and F5 are disclosing CVE-2026-123007 , a critical integer underflow vulnerability affecting nginx HTTP/2, which can allow for unauthenticated remote code execution (RCE) against affected servers under certain conditions. CVE ID Description CWE CVSSv4 CVE-2026-123007 HTTP/2 flow-control memory corruption permitting worker-context RCE CWE-191 (Integer Underflow) 9.2 (Critical) nginx can miscalculate how much response data an HTTP/2 client has allowed it to send. A remote, unauthenticated client can exploit this error by cancelling queued response data, then make nginx use an invalid length when copying a later response. The resulting memory corruption can disclose data, interrupt service, and execute code with the nginx worker process's permissions. Impact Rapid7 has developed a proof-of-concept to demonstrate leveraging CVE-2026-123007 for unauthenticated RCE against a vulnerable linux/amd64 Docker image running nginx version 1.31.8 , as shown below in Figure 1. The target nginx server’s configuration had http2 on and TLS enabled. Note that for brevity, video playback is at 8x speed. Figure 1: Video demonstrating unauthenticated RCE against NGINX 1.31.8 via CVE-2026-123007 Leveraging CVE-2026-123007 for RCE requires a significant amount of network traffic to be transmitted, approximately 128 GB of HTTP/2 data. Both available network bandwidth and connection timeouts will place practical limitations on Internet exploitation. In the above example shown in Figure 1, exploitation takes two and a half minutes. The approximate timings to transmit the required network data over a 10 Gbit/s network is two minutes, while on a 1 Gbit/s network it is seventeen minutes. Due to nginx’s default one hour connection lifetime, a network slower than approximately 300 Mbit/s will take over the one hour connection limit threshold and will not be able to succeed. Additionally, should an HTTP/2 connection be proxied, the precise attacker-controlled HTTP/2 frames being transmitted will likely not be retransmitted in a way that satisfies exploiting the vulnerability. Finally, the exploitation strategy developed depends on a specific x86-64 glibc EVEX/YMM memcpy implementation selected at runtime, based on the avx512f and avx512vl CPU features. Alternative RCE exploitation strategies may be viable, but none are currently known. Credit This vulnerability was discovered by Stephen Fewer, Senior Principal Security Researcher at Rapid7 , and is being disclosed in accordance with Rapid7's vulnerability disclosure policy . Technical analysis The version of nginx tested was a linux/amd64 Docker image for nginx version 1.31.8 ( nginx@sha256:5ab5b0b01097420873a3f3330f44248e34a3c2a3e8d5ee30658aeae8cb7435da ), and ran with an exposed HTTPS service and http2 enabled. How a client controls HTTP/2 response data HTTP/2 carries messages called frames over a connection. Each request and response belongs to a numbered stream, so one connection can carry several exchanges at once. Response-body bytes are carried in DATA frames. For this vulnerability, nginx is the sender and the remote client is the receiver. The client grants nginx permission, or flow-control credit, to send a certain number of DATA bytes. nginx tracks the remaining credit in two counters: one for each stream and one shared by the connection. Sending DATA must be permitted by both counters. These HTTP/2 counters are separate from TCP's receive window. The client grants more credit by sending a WINDOW_UPDATE frame containing a positive increment. A stream identifier of zero increas
 ```
 
-#### Corroborating sources (5)
+#### Corroborating sources (4)
 
 - **Rapid7** (offensive_vulnerability_research)
   - Title: CVE-2026-123007: Critical NGINX HTTP/2 Integer Underflow Leads to RCE (FIXED)
@@ -946,11 +949,6 @@ Rapid7 Intelligence CVE-2026-123007: Critical NGINX HTTP/2 Integer Underflow Lea
   - Published: 2026-11-18T17:05:26+00:00
   - Link: https://orca.security/resources/research/two-critical-nginx-http-2-flaws-could-allow-unauthenticated-remote-code-execution/
   - Summary: F5 has disclosed two critical vulnerabilities in NGINX, CVE-2026-123633 and CVE-2026-123007, both in the HTTP/2 module (ngx_http_v2_module). Both are rated 9.2 under CVSS 4.0 (8.1 under CVSS 3.1) and can be triggered remotely without authentication on NGINX servers with HTTP/2 enabled. Successful exploitation can crash NGINX worker processes, corrupt memory and potentially lead to remote […]
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: NGINX2Root: F5 patches five critical NGINX vulnerabilities
-  - Published: 2026-11-19T18:25:50+00:00
-  - Link: https://www.helpnetsecurity.com/2026/11/19/nginx2root-nginx-vulnerabilities/
-  - Summary: F5 has patched five critical vulnerabilities in NGINX, the world’s most widely used open-source web server, that can allow remote code execution under certain conditions. Dubbed “NGINX2Root” by Xint researchers, two of the bunch (CVE-2026-123633 and CVE-2026-123007) were also independently unearthed and reported by Rapid7, Wiz, Ikotas Labs, Palo Alto Networks and Metnir researchers. There’s no evidence that any of them has been exploited in the wild, and none were on CISA’s Known Exploited Vulnerabilities … More → The post NGINX2Root: F5 patches five critical NGINX vulnerabilities appeared first on Help Net Security .
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: 10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers
   - Published: 2026-11-18T18:31:17+00:00
@@ -964,8 +962,8 @@ Rapid7 Intelligence CVE-2026-123007: Critical NGINX HTTP/2 Integer Underflow Lea
 - Published: 2026-11-19T21:06:24+00:00
 - Link: https://www.rapid7.com/blog/post/etr-cve-2026-123890-critical-authentication-bypass-vmware-vcenter
 - Fetch status: ok
-- Member count: 9
-- Corroborating source count: 7
+- Member count: 8
+- Corroborating source count: 6
 - Strong signals: CVE-2026-123890, CVE-2026-59309, VMware
 
 #### Cluster taxonomy (union across members)
@@ -997,7 +995,7 @@ Overview On November 19, 2026, Broadcom published VMware Security Advisory VMSA-
 Emergent Threat Response CVE-2026-123890: Critical Authentication Bypass in VMware vCenter Rapid7 Nov 19, 2026 | Last updated on Nov 19, 2026 | 3 min read CVE-2026-123890: Critical Authentication Bypass in VMware vCenter Table of contents CVE-2026-123890: Critical Authentication Bypass in VMware vCenter Table of contents Overview On November 19, 2026, Broadcom published VMware Security Advisory VMSA-2026-0009 , addressing five vulnerabilities in VMware products. The most severe of these, CVE-2026-123890 , is an authentication bypass using an alternate path or channel ( CWE-288 ) in the VMware Directory Service component of vCenter. Broadcom assigned the vulnerability a critical CVSSv3 score of 9.8 . A malicious actor with network access to an affected vCenter deployment may exploit CVE-2026-123890 without credentials to bypass authentication and gain unauthorized access to the system as the Administrator user. Mandiant privately reported the issue to Broadcom. Also, Mandiant/Google Threat Intelligence confirmed in-the-wild exploitation of CVE-2026-123890 by Chinese state-linked threat actor ARMORY CASTLE as early as September 2026. CVE-2026-123890 is distinct from the vCenter authentication bypass vulnerability CVE-2026-59309 that Broadcom addressed earlier in 2026. The vendor FAQ states that all vCenter systems below the versions fixed by VMSA-2026-0009 require the new update, including systems that already received the earlier fix. Broadcom characterizes the vCenter update as an emergency change requiring prompt action. Mitigation guidance Vendor-provided updates are available for CVE-2026-123890. Broadcom lists no workaround, and the patches cannot be applied using vCenter Quick Patch. Organizations should prioritize upgrading vCenter on an emergency basis, outside of normal patch cycles, using the standard update mechanism for their deployment. VMware Product Affected Version Fixed Version / Patch VMware Cloud Foundation / vSphere Foundation 9.1.x.x 9.1.1.0200 VMware Cloud Foundation / vSphere Foundation 9.0.x.x 9.0.2.0200 VMware vCenter Server 8.0 8.0 U3m VMware vCenter Server 7.0 Contact Broadcom Support (extended-support customers) VMware Cloud Foundation 5.x 5.2.5 VMware Telco Cloud Platform 3.0, 4.x, 5.0.x, 5.1.x, 5.2 8.0 U3m — KB463116 VMware Telco Cloud Infrastructure 3.0 8.0 U3m — KB463116 The fixes are cumulative. The vCenter 8.0 U3m and 9.0.2.0200 updates introduce a “Back-in-Time” restriction that blocks upgrades to VMware Cloud Foundation 9.1.1 ; Broadcom advises customers in an active upgrade to review the vendor FAQ and interoperability matrix. Updating vCenter temporarily makes its management interfaces unavailable, but Broadcom states that running virtual machine and container workloads continue to operate. For the latest affected-version and mitigation guidance, please refer to Broadcom's security advisory and supplemental FAQ . Rapid7 customers Exposure Command, Vulnerability Management, and Nexpose Exposure Command, InsightVM, and Nexpose customers can assess exposure to CVE-2026-123890 on VMware vCenter Server with an unauthenticated vulnerability check expected to be available in the Nov 20, 2026 content release. Updates November 19, 2026 : Initial publication. Article tags Emergent Threat Response Explore more from Rapid7 Vulnerability & Exploit Database Rapid7s curated database of vulnerabilities, featuring exploit modules and check methods integrated into the Metasploit Framework. Search the database Rapid7 Intelligence The threat research behind the alerts: adversary tracking, curated intelligence, and flagship threat reports. Explore the research Rapid7 MDR Gain 24x7 XDR monitoring, remediation, and DFIR from experts that extend your team to help secure your extended ecosystem. Explore MDR Exposure management Get continuous assessment of your attack surface with the critical context to validate and extinguish vulnerabilities and policy gaps. See how it works
 ```
 
-#### Corroborating sources (7)
+#### Corroborating sources (6)
 
 - **Rapid7** (offensive_vulnerability_research)
   - Title: CVE-2026-123890: Critical Authentication Bypass in VMware vCenter
@@ -1024,11 +1022,6 @@ Emergent Threat Response CVE-2026-123890: Critical Authentication Bypass in VMwa
   - Published: 2026-11-20T09:38:15+00:00
   - Link: https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html
   - Summary: The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: VMware patches vCenter zero-day exploited in attacks since September
-  - Published: 2026-11-20T00:26:25+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/
-  - Summary: Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day
   - Published: 2026-11-20T21:03:27+00:00
@@ -1464,8 +1457,8 @@ Which Holes Can Attackers Really Bite Into? Horizon3 November 18, 2026 Infograph
 - Published: 2026-11-17T08:00:37+00:00
 - Link: https://securelist.com/operation-shadowcloud-gitdoor/122004/
 - Fetch status: ok
-- Member count: 7
-- Corroborating source count: 6
+- Member count: 6
+- Corroborating source count: 5
 - Strong signals: GitHub
 
 #### Cluster taxonomy (union across members)
@@ -1496,7 +1489,7 @@ In part 1 of our analysis of the recently uncovered Operation ShadowCloud, we di
 Content menu Close Subscribe Threat Response Table of Contents Introduction Initial infection Loaders Type 1 Loader (MD5 32151547d912488ac5242731057170a3) Type 2 Loader (MD5 e63ec733393e4e7e3424cbff918003a3) Backdoors GitDoor (MD5 552f0a9cc5fc3755721fa49be05e8035) Command processing Custom shellcodes GitHub repositories Conclusion Indicators of Compromise MeshAgent Type 1 Loader Type 2 Loader Encrypted Payload GitDoor GraphDoor Legitimate executables MeshAgent C2 Legitimate Cloud Storage GitHub repositories Authors Saurabh Sharma Noushin Shabab Introduction In early 2026, we identified a new, active intrusion campaign that we have named Operation ShadowCloud . The threat actor behind it is abusing the legitimate MeshAgent utility to drop two brand-new backdoors. These implants hide their command‑and‑control (C2) traffic behind cloud services Microsoft SharePoint, GitHub, and Ably , allowing the implants to blend in with normal traffic, effectively evading network-based detections. We’ve called the implants GraphDoor and GitDoor , reflecting the cloud platform they use for C2. While their C2 protocols differ, the two backdoors share key capabilities: On‑demand plug-in download : fetching additional modules as needed In‑memory shellcode injection : loading malicious code directly into memory to extend functionality without touching the disk The threat actor specifically deploys a modified Erfrp client and Ably messaging service-based plug-ins to proxy traffic between infected systems and C2 servers. In addition to the plug-ins, we uncovered several shellcode families, most of them delivered as COFF (Common Object File Format) binaries. Our analysis reveals a sophisticated, modular toolset actively maintained and updated with multiple observed backdoor versions in the wild. We found victims in Asia and Africa, primarily within the government sector. In a recent brief, Sophos touched on a fragment of this campaign. In this two‑part blog, we dive deeper, detailing the backdoors’ C2 communication methods, the assortment of shellcode families and plug-ins that the threat actor delivers to the compromised machines, and the infrastructure we observed supporting the operation. We also highlight the attribution clues: This article (Part 1 of the story) deals with the initial infection vector, the GitDoor backdoor, and various shellcode families the threat actor drops onto target machines. Part 2 provides details on the GraphDoor backdoor and the plug-in suite (Keylogging, Process Listing, Screen Capturing, Modified Erfrp Proxy, and Ably Channel Proxy) and examines the evidence that points to links with Chinese‑speaking threat groups. Initial infection During our investigation, we uncovered two separate instances of the MeshCentral Agent (MD5: 74b025084026d8d9a64661bf995d835b), which were launched inside a Taiwanese organization. MeshCentral is a web‑based tool that provides remote‑desktop control, command‑line access, and file‑management capabilities. The exact entry point that let the attackers install the agent is unknown, but evidence points to the reuse of a prior infection already present on the network. The MeshCentral Agent was hard‑coded to reach a remote server at wss://27.102.66[.]162:443/agent.ashx . Once the C2 session was established, the adversary used the agent to drop three additional items on the endpoint: A legitimate binary used for DLL sideloading A malicious loader DLL responsible for unpacking and executing further code An encrypted file containing the core payload 1st Instance C:\windows\system32\start.exe: legitimate Sandboxie Start binary C:\windows\system32\sbiedll.dll: malicious loader C:\windows\system32\config.ini: encrypted backdoor file 2nd Instance C:\Windows\system32\dts\pc\apo4x\dtsapo4service.exe: legitimate Python application binary C:\Windows\System32\dts\pc\apo4x\python39.dll: malicious loader C:\Windows\system32\dts\pc\apo4x\config.ini: encrypted backdoor file 1 2 3 4 5 6 7 8 9 1st Instance C : \ wi
 ```
 
-#### Corroborating sources (6)
+#### Corroborating sources (5)
 
 - **Kaspersky Securelist** (threat_research_primary)
   - Title: Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 1
@@ -1518,11 +1511,6 @@ Content menu Close Subscribe Threat Response Table of Contents Introduction Init
   - Published: 2026-11-18T00:00:00+00:00
   - Link: https://www.elastic.co/security-labs/threat-command/we-caught-the-agent-framework-pypi-compromise-six-minutes-after-it-published
   - Summary: Versions 1.26.1 and 1.26.2 stole Azure, Azure DevOps and GitHub Actions tokens from a .pth hook that ran on every Python launch, so if either one touched a build agent or a laptop, assume every secret on that host is gone.
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: datasette 1.0a43
-  - Published: 2026-11-15T23:20:27+00:00
-  - Link: https://simonwillison.net/2026/Nov/15/datasette/
-  - Summary: Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and plugins can register themselves as capable of streaming every row in a table in one go via the new Response.stream() method. There are a couple of security fixes, one of which I deemed deserving of a GitHub advisory : private stored queries could be exposed, granting access to the title and SQL of the query (but not allowing that query to be executed). There are dozens of smaller improvements. The row page JSON representation finally has a design suitable for 1.0 . A new <datasette-copy-button> Web Component provides copy-schema in various places. JSON in columns on the row page can be pretty-printed. There's a new DatasetteModal.confirm() JavaScript utility method. Plus dozens of bug fixes, includ
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels
   - Published: 2026-11-17T11:20:18+00:00
@@ -2489,133 +2477,6 @@ Infosecurity Magazine Home » News » Java4Shell Vulnerability Allows Remote Att
   - Link: https://www.infosecurity-magazine.com/news/java4shell-vulnerability-remote/
   - Summary: A critical OpenJDK vulnerability could expose major Java applications to remote code execution, prompting CISA to urge organizations implement mitigations
 
-### Cluster b1398a3cf7 — score 10
-
-- Title: AI Joins the Industrial Attack Workflow
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-11-20T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/ai-industrial-attack-workflow
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
-- affected_industries: government, manufacturing_industrial, retail_ecommerce
-- affected_products: Fortinet
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage
-- affected_industries: government, manufacturing_industrial, retail_ecommerce
-- affected_products: Fortinet
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Insikt Group analyzes how GreenJuliett and AI frameworks like ARTEX are accelerating cyberattacks on OT networks.
-```
-
-#### Full body
-
-```
-AI Joins the Industrial Attack Workflow The recent cyberattack on French refrigerators and our tracking of the malicious AI framework ARTEX show that threat actors are increasingly using AI to accelerate attacks, expand their reach, and improve their effectiveness. GreenJuliett, the group behind operational technology (OT) cyberattacks similar to those in France, has begun incorporating AI into its OT attack chain. Understanding the scale AI offers financially motivated and state-sponsored threat actors helps us see it as more than a tool: it’s something that can fill an operator’s role, even while humans remain in control. On October 11 and 12, 2026, someone changed the defrost settings on refrigeration controllers at more than 700 retail locations in France. This resulted in fires, damaged equipment, and food losses estimated in the tens of millions of euros, highlighting the physical impacts of attacks against operational technology (OT). On November 9, France attributed the attack to Shahid Kaveh, a unit of Iran's Islamic Revolutionary Guard Corps Cyber Electronic Command (IRGC-CEC). We track activity that likely belongs to an element of Shahid Kaveh as GreenJuliett. GreenJuliett (also known as CyberAv3ngers and Bauxite) builds infrastructure aimed at internet-facing PLCs. And while that work continued through at least October 30, despite repeated public reporting on the group, the target set began to widen. Between August and October, we observed GreenJuliett-linked infrastructure scanning, or attempting to exploit, Fortinet FortiGate firewalls, edge devices that protect OT networks, in Bahrain, Israel, Jordan, Kuwait, Saudi Arabia, and Qatar. Our network data suggests the group is also working to add internet-of-things (IoT) and CCTV devices to its list. While we have not independently tied GreenJuliett infrastructure to the refrigeration attacks, over the past three months, we have seen the group continue to target PLCs (programmable logic controllers), which are similar to the internet-exposed controllers the refrigerators in France used. We have also observed that AI is now part of how they work. From Accounts to Infrastructure In October 2024, OpenAI banned accounts it assessed as belonging to CyberAv3ngers. The operators had used ChatGPT to research default credentials for PLCs, compile lists of electricity companies and common PLCs in Jordan, and draft scripts against industrial protocols (such as Modbus TCP, a control protocol that allows PLCs to communicate quickly on local networks). However, in 2026, the picture is different. In October, we found a configuration for LiteLLM (an open-source gateway that puts multiple AI models behind a single interface, suggesting a team-sharing model for access), alongside self-hosted chat applications built for Persian-language users, on infrastructure we assessed as likely used by GreenJuliett-linked operators. We also observed servers in the group's anonymization network communicating with infrastructure that hosts Anthropic's Claude. While we have not confirmed specific instances of misuse in this research, both OpenAI and Anthropic have reported publicly on detecting and disrupting misuse by Iranian government operators. AI shortens the time it takes to identify vulnerable device types and write targeting scripts, and GreenJuliett has moved it from individual accounts into its operating environment. Figure 1: The GreenJuliett operation path, as observed from August to October 2026 AI As Operator GreenJuliett uses AI as an assistant. A separate class of tooling makes AI the operator, and it is already deployed at scale. For example, ARTEX AI is one of eight offensive AI frameworks we track. Material recovered from exposed ARTEX servers shows how the agent works: Nmap, Masscan, and Nuclei for reconnaissance; Hydra and sqlmap for access; Chisel for tunneling. While the toolkit is familiar, the agent has now become the operator: On one server, archived transcripts show the age
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: AI Joins the Industrial Attack Workflow
-  - Published: 2026-11-20T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/ai-industrial-attack-workflow
-  - Summary: Insikt Group analyzes how GreenJuliett and AI frameworks like ARTEX are accelerating cyberattacks on OT networks.
-
-### Cluster 315e580651 — score 10
-
-- Title: Regional Insights: 2027 State of Threat Intelligence
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-11-19T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/2027-soti-regional-summaries
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: legal_professional
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: legal_professional
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Regional findings from the 2027 State of Threat Intelligence report: how security teams in North America, EMEA, APJ, and LATAM use intelligence and AI.
-```
-
-#### Full body
-
-```
-Regional Insights: 2027 State of Threat Intelligence Recorded Future’s 2027 State of Threat Intelligence report surveyed 768 security professionals worldwide on how they use threat intelligence today, how they apply AI to it, and where they plan to invest. The report presents the global findings. The regional executive summaries in this blog cover insights from the same survey, breaking data down by global region into dedicated briefs covering the specific conclusions for cybersecurity leaders in North America , EMEA , APJ , and LATAM . Start with your region to see how your peers are approaching threat intelligence, and read the others for a wider view. North America (United States and Canada) In North America, threat intelligence now informs decisions well beyond the security organization. Five teams consume it on average, and 85% of organizations surveyed have teams outside core security using it , including risk management (54%), fraud prevention (44%), and risk and compliance (44%). With intelligence supporting this many teams, 81% plan to invest more in the next 12 months. The challenge is getting the right intelligence to each of those teams in a form they can act on. Doing that depends on how well intelligence comes together, and this is an ongoing effort for many programs. Most surveyed organizations (63%) draw on four or more intelligence vendors. Only 21% combine that external intelligence with their own internal telemetry in a single platform, where analysts can see which threats apply to their environment. Consolidation plans reflect this. Of the 76% planning to consolidate, the largest share are doing it to improve correlation across signals (40%), compared with only 8% who cite cost. Moving intelligence from those sources to risk owners is also largely manual. 54% put intelligence into action manually across tools and processes. Among organizations sharing intelligence outside security, 38% rely on ad hoc messages or scheduled reports. Manual handoffs make it harder to see what risk owners did with the intelligence and whether it worked. While 98% measure program value, 28% track whether triggered actions were effective. Only 22% report closed-loop operationalization, where stakeholders act on intelligence, the results are validated, and those results inform the program’s priorities and collection. AI is already part of this work for nearly all respondents ( 98% ), and 60% use agents that take actions inside their intelligence tools. Leaders become more cautious as the stakes rise: comfort with letting AI act falls from 71% for summarization to 56% for enforcement actions. The leading barriers are lack of auditability (40%) and unproven accuracy (31%). 73% say intelligence regularly feeds their AI and automation systems or is a core input to them. That makes the quality and correlation of their intelligence a factor in how far they can trust AI to act. Risk owners can come from procurement, legal, fraud, corporate security, or communications. Threat intelligence innovation means getting the intelligence to the right person to make decisions and take action based on that intelligence. Rich LaTulip North America Field CISO at Recorded Future This summary draws on responses from 347 North American security professionals . They were part of a global survey of 768 that asked how organizations use threat intelligence, apply AI to it, and plan future investments. The full report covers how intelligence is expanding across the business, what full visibility requires, and what stands between teams and proven impact. Europe, Middle East, and Africa (EMEA) Across EMEA, threat intelligence now informs decisions well beyond the security organization, and leaders plan to extend it further. 86% of organizations surveyed have teams outside core security using it , and 35% name expanding intelligence to more teams as a top priority for the next two years. Budgets support that goal. Half (50%) spend more than $500K a year on exte
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Regional Insights: 2027 State of Threat Intelligence
-  - Published: 2026-11-19T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/2027-soti-regional-summaries
-  - Summary: Regional findings from the 2027 State of Threat Intelligence report: how security teams in North America, EMEA, APJ, and LATAM use intelligence and AI.
-
-### Cluster 5ce28a4ea0 — score 10
-
-- Title: What Is Threat Intelligence Worth? 142 Security Teams Did the Math.
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-11-17T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/threat-intelligence-roi
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure, education, financial_services
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: financial_services, critical_infrastructure, education
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-We surveyed 142 Recorded Future customers on the value of threat intelligence. See the highlights, then get the full ROI Report.
-```
-
-#### Full body
-
-```
-What Is Threat Intelligence Worth? 142 Security Teams Did the Math. Your board doesn't ask how many alerts your team closed. It wants to know what your security investments are worth in terms it already uses: revenue protected, losses avoided, and costs reduced. That question is hard to answer when attacks are faster and cheaper to scale, the attack surface reaches well past the perimeter, and teams are expected to do more without more headcount. We wanted real numbers on the value Recorded Future customers have experienced, so we partnered with UserEvidence to publish our 2027 ROI Report. It was built from a survey that asked 142 Recorded Future customers about the returns they're seeing. The average result is a 468% annual ROI.* Here's a first look at how they get there. Visibility comes first: 75% found risks they didn't know they had Security teams can't act on what they can't see. Many of the biggest blind spots sit outside the corporate network, where typosquatted domains, leaked credentials, and vendor exposure never trigger an internal alert. Of the customers surveyed, 75% gained visibility into previously unknown risks, the most commonly reported outcome. Among those who gained new visibility, 72% identified lookalike domains before they were weaponized, and 67% caught compromised credentials circulating on dark web markets. For Citizens Financial Group, that outside-in view of exposed credentials means a smaller attack surface and fewer openings for attackers: The ability to identify compromised credentials has reduced our attack surface and helped to mitigate the potential of initial access. Jordan Carpenter Senior Cyber Threat Intelligence Analyst, Citizens Financial Group Style padding-top-0,padding-bottom-0 Efficiency follows: An Average of 28 hours back every week When intelligence arrives already collected, enriched, and scored, analysts spend their time acting on it instead of assembling it. Teams reported reclaiming an average of 28 hours per week across seven core security workflows. They also shifted an average of 26% of tasks from senior to junior analysts, freeing experienced staff for higher-value actions like proactive threat hunting and expanding threat coverage across more attack surfaces. Most are putting that recovered time to work: 70% plan to reinvest it in proactive threat hunting. Then business risk drops Faster, better-informed teams stop threats earlier. Customers reported mean time to detect falling 48% and mean time to remediate falling 50%. They also reported fewer fraud losses, less downtime, and lower cyber insurance premiums. These are the outcomes a CFO and a board often recognize. The posture shift is clear in the sentiment data as well. 90% say Recorded Future has strengthened their overall security posture, and 85% say it helped them move from reactive to proactive. For South Carolina Critical Infrastructure Cybersecurity, reduced business risk translates into tens if not hundreds of thousands of dollars in savings: Without Recorded Future intelligence, these exposures would have remained unknown until an adversary operationalized them, at which point the cost shifts from a brief remediation call to a full incident response engagement, which for a mid-size municipality or school district can easily exceed $50,000–$200,000 in recovery costs alone. Ryan Cummings Cyber Threat Intelligence Analyst, South Carolina Critical Infrastructure Cybersecurity Style padding-top-0,padding-bottom-0 Value that's hard to get elsewhere For every outcome we measured, a clear majority said they could not have fully achieved it without Recorded Future. That includes faster detection: 82% said they couldn't have fully achieved it on their own without Recorded Future. What's in the full report The ROI Report shows exactly how the 468% is calculated, including the dollar value behind each category, the assumptions, and the customer stories that bring the data to life. It also covers: How customers are using
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: What Is Threat Intelligence Worth? 142 Security Teams Did the Math.
-  - Published: 2026-11-17T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/threat-intelligence-roi
-  - Summary: We surveyed 142 Recorded Future customers on the value of threat intelligence. See the highlights, then get the full ROI Report.
-
 ### Cluster 837820075f — score 10
 
 - Title: 30 Years of Gatekeeper Asymmetry Doom: The Paradox that Makes Powerful LLMs More Vulnerable
@@ -2759,6 +2620,133 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 16th Novem
   - Link: https://research.checkpoint.com/2026/16th-november-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 16th November, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES TSMC, a major Taiwanese semiconductor manufacturer, has confirmed a data breach at an unnamed cloud provider that exposed information about current and former employees. A hacker advertised 6.9 GB of allegedly stolen […] The post 16th November – Threat Intelligence Report appeared first on Check Point Research .
 
+### Cluster b1398a3cf7 — score 10
+
+- Title: AI Joins the Industrial Attack Workflow
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-11-20T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/ai-industrial-attack-workflow
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage
+- affected_industries: government, manufacturing_industrial, retail_ecommerce
+- affected_products: Fortinet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage
+- affected_industries: government, manufacturing_industrial, retail_ecommerce
+- affected_products: Fortinet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Insikt Group analyzes how GreenJuliett and AI frameworks like ARTEX are accelerating cyberattacks on OT networks.
+```
+
+#### Full body
+
+```
+AI Joins the Industrial Attack Workflow The recent cyberattack on French refrigerators and our tracking of the malicious AI framework ARTEX show that threat actors are increasingly using AI to accelerate attacks, expand their reach, and improve their effectiveness. GreenJuliett, the group behind operational technology (OT) cyberattacks similar to those in France, has begun incorporating AI into its OT attack chain. Understanding the scale AI offers financially motivated and state-sponsored threat actors helps us see it as more than a tool: it’s something that can fill an operator’s role, even while humans remain in control. On October 11 and 12, 2026, someone changed the defrost settings on refrigeration controllers at more than 700 retail locations in France. This resulted in fires, damaged equipment, and food losses estimated in the tens of millions of euros, highlighting the physical impacts of attacks against operational technology (OT). On November 9, France attributed the attack to Shahid Kaveh, a unit of Iran's Islamic Revolutionary Guard Corps Cyber Electronic Command (IRGC-CEC). We track activity that likely belongs to an element of Shahid Kaveh as GreenJuliett. GreenJuliett (also known as CyberAv3ngers and Bauxite) builds infrastructure aimed at internet-facing PLCs. And while that work continued through at least October 30, despite repeated public reporting on the group, the target set began to widen. Between August and October, we observed GreenJuliett-linked infrastructure scanning, or attempting to exploit, Fortinet FortiGate firewalls, edge devices that protect OT networks, in Bahrain, Israel, Jordan, Kuwait, Saudi Arabia, and Qatar. Our network data suggests the group is also working to add internet-of-things (IoT) and CCTV devices to its list. While we have not independently tied GreenJuliett infrastructure to the refrigeration attacks, over the past three months, we have seen the group continue to target PLCs (programmable logic controllers), which are similar to the internet-exposed controllers the refrigerators in France used. We have also observed that AI is now part of how they work. From Accounts to Infrastructure In October 2024, OpenAI banned accounts it assessed as belonging to CyberAv3ngers. The operators had used ChatGPT to research default credentials for PLCs, compile lists of electricity companies and common PLCs in Jordan, and draft scripts against industrial protocols (such as Modbus TCP, a control protocol that allows PLCs to communicate quickly on local networks). However, in 2026, the picture is different. In October, we found a configuration for LiteLLM (an open-source gateway that puts multiple AI models behind a single interface, suggesting a team-sharing model for access), alongside self-hosted chat applications built for Persian-language users, on infrastructure we assessed as likely used by GreenJuliett-linked operators. We also observed servers in the group's anonymization network communicating with infrastructure that hosts Anthropic's Claude. While we have not confirmed specific instances of misuse in this research, both OpenAI and Anthropic have reported publicly on detecting and disrupting misuse by Iranian government operators. AI shortens the time it takes to identify vulnerable device types and write targeting scripts, and GreenJuliett has moved it from individual accounts into its operating environment. Figure 1: The GreenJuliett operation path, as observed from August to October 2026 AI As Operator GreenJuliett uses AI as an assistant. A separate class of tooling makes AI the operator, and it is already deployed at scale. For example, ARTEX AI is one of eight offensive AI frameworks we track. Material recovered from exposed ARTEX servers shows how the agent works: Nmap, Masscan, and Nuclei for reconnaissance; Hydra and sqlmap for access; Chisel for tunneling. While the toolkit is familiar, the agent has now become the operator: On one server, archived transcripts show the age
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: AI Joins the Industrial Attack Workflow
+  - Published: 2026-11-20T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/ai-industrial-attack-workflow
+  - Summary: Insikt Group analyzes how GreenJuliett and AI frameworks like ARTEX are accelerating cyberattacks on OT networks.
+
+### Cluster 315e580651 — score 10
+
+- Title: Regional Insights: 2027 State of Threat Intelligence
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-11-19T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/2027-soti-regional-summaries
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: legal_professional
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: legal_professional
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Regional findings from the 2027 State of Threat Intelligence report: how security teams in North America, EMEA, APJ, and LATAM use intelligence and AI.
+```
+
+#### Full body
+
+```
+Regional Insights: 2027 State of Threat Intelligence Recorded Future’s 2027 State of Threat Intelligence report surveyed 768 security professionals worldwide on how they use threat intelligence today, how they apply AI to it, and where they plan to invest. The report presents the global findings. The regional executive summaries in this blog cover insights from the same survey, breaking data down by global region into dedicated briefs covering the specific conclusions for cybersecurity leaders in North America , EMEA , APJ , and LATAM . Start with your region to see how your peers are approaching threat intelligence, and read the others for a wider view. North America (United States and Canada) In North America, threat intelligence now informs decisions well beyond the security organization. Five teams consume it on average, and 85% of organizations surveyed have teams outside core security using it , including risk management (54%), fraud prevention (44%), and risk and compliance (44%). With intelligence supporting this many teams, 81% plan to invest more in the next 12 months. The challenge is getting the right intelligence to each of those teams in a form they can act on. Doing that depends on how well intelligence comes together, and this is an ongoing effort for many programs. Most surveyed organizations (63%) draw on four or more intelligence vendors. Only 21% combine that external intelligence with their own internal telemetry in a single platform, where analysts can see which threats apply to their environment. Consolidation plans reflect this. Of the 76% planning to consolidate, the largest share are doing it to improve correlation across signals (40%), compared with only 8% who cite cost. Moving intelligence from those sources to risk owners is also largely manual. 54% put intelligence into action manually across tools and processes. Among organizations sharing intelligence outside security, 38% rely on ad hoc messages or scheduled reports. Manual handoffs make it harder to see what risk owners did with the intelligence and whether it worked. While 98% measure program value, 28% track whether triggered actions were effective. Only 22% report closed-loop operationalization, where stakeholders act on intelligence, the results are validated, and those results inform the program’s priorities and collection. AI is already part of this work for nearly all respondents ( 98% ), and 60% use agents that take actions inside their intelligence tools. Leaders become more cautious as the stakes rise: comfort with letting AI act falls from 71% for summarization to 56% for enforcement actions. The leading barriers are lack of auditability (40%) and unproven accuracy (31%). 73% say intelligence regularly feeds their AI and automation systems or is a core input to them. That makes the quality and correlation of their intelligence a factor in how far they can trust AI to act. Risk owners can come from procurement, legal, fraud, corporate security, or communications. Threat intelligence innovation means getting the intelligence to the right person to make decisions and take action based on that intelligence. Rich LaTulip North America Field CISO at Recorded Future This summary draws on responses from 347 North American security professionals . They were part of a global survey of 768 that asked how organizations use threat intelligence, apply AI to it, and plan future investments. The full report covers how intelligence is expanding across the business, what full visibility requires, and what stands between teams and proven impact. Europe, Middle East, and Africa (EMEA) Across EMEA, threat intelligence now informs decisions well beyond the security organization, and leaders plan to extend it further. 86% of organizations surveyed have teams outside core security using it , and 35% name expanding intelligence to more teams as a top priority for the next two years. Budgets support that goal. Half (50%) spend more than $500K a year on exte
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Regional Insights: 2027 State of Threat Intelligence
+  - Published: 2026-11-19T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/2027-soti-regional-summaries
+  - Summary: Regional findings from the 2027 State of Threat Intelligence report: how security teams in North America, EMEA, APJ, and LATAM use intelligence and AI.
+
+### Cluster 5ce28a4ea0 — score 10
+
+- Title: What Is Threat Intelligence Worth? 142 Security Teams Did the Math.
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-11-17T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/threat-intelligence-roi
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: critical_infrastructure, education, financial_services
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: financial_services, critical_infrastructure, education
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+We surveyed 142 Recorded Future customers on the value of threat intelligence. See the highlights, then get the full ROI Report.
+```
+
+#### Full body
+
+```
+What Is Threat Intelligence Worth? 142 Security Teams Did the Math. Your board doesn't ask how many alerts your team closed. It wants to know what your security investments are worth in terms it already uses: revenue protected, losses avoided, and costs reduced. That question is hard to answer when attacks are faster and cheaper to scale, the attack surface reaches well past the perimeter, and teams are expected to do more without more headcount. We wanted real numbers on the value Recorded Future customers have experienced, so we partnered with UserEvidence to publish our 2027 ROI Report. It was built from a survey that asked 142 Recorded Future customers about the returns they're seeing. The average result is a 468% annual ROI.* Here's a first look at how they get there. Visibility comes first: 75% found risks they didn't know they had Security teams can't act on what they can't see. Many of the biggest blind spots sit outside the corporate network, where typosquatted domains, leaked credentials, and vendor exposure never trigger an internal alert. Of the customers surveyed, 75% gained visibility into previously unknown risks, the most commonly reported outcome. Among those who gained new visibility, 72% identified lookalike domains before they were weaponized, and 67% caught compromised credentials circulating on dark web markets. For Citizens Financial Group, that outside-in view of exposed credentials means a smaller attack surface and fewer openings for attackers: The ability to identify compromised credentials has reduced our attack surface and helped to mitigate the potential of initial access. Jordan Carpenter Senior Cyber Threat Intelligence Analyst, Citizens Financial Group Style padding-top-0,padding-bottom-0 Efficiency follows: An Average of 28 hours back every week When intelligence arrives already collected, enriched, and scored, analysts spend their time acting on it instead of assembling it. Teams reported reclaiming an average of 28 hours per week across seven core security workflows. They also shifted an average of 26% of tasks from senior to junior analysts, freeing experienced staff for higher-value actions like proactive threat hunting and expanding threat coverage across more attack surfaces. Most are putting that recovered time to work: 70% plan to reinvest it in proactive threat hunting. Then business risk drops Faster, better-informed teams stop threats earlier. Customers reported mean time to detect falling 48% and mean time to remediate falling 50%. They also reported fewer fraud losses, less downtime, and lower cyber insurance premiums. These are the outcomes a CFO and a board often recognize. The posture shift is clear in the sentiment data as well. 90% say Recorded Future has strengthened their overall security posture, and 85% say it helped them move from reactive to proactive. For South Carolina Critical Infrastructure Cybersecurity, reduced business risk translates into tens if not hundreds of thousands of dollars in savings: Without Recorded Future intelligence, these exposures would have remained unknown until an adversary operationalized them, at which point the cost shifts from a brief remediation call to a full incident response engagement, which for a mid-size municipality or school district can easily exceed $50,000–$200,000 in recovery costs alone. Ryan Cummings Cyber Threat Intelligence Analyst, South Carolina Critical Infrastructure Cybersecurity Style padding-top-0,padding-bottom-0 Value that's hard to get elsewhere For every outcome we measured, a clear majority said they could not have fully achieved it without Recorded Future. That includes faster detection: 82% said they couldn't have fully achieved it on their own without Recorded Future. What's in the full report The ROI Report shows exactly how the 468% is calculated, including the dollar value behind each category, the assumptions, and the customer stories that bring the data to life. It also covers: How customers are using
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: What Is Threat Intelligence Worth? 142 Security Teams Did the Math.
+  - Published: 2026-11-17T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/threat-intelligence-roi
+  - Summary: We surveyed 142 Recorded Future customers on the value of threat intelligence. See the highlights, then get the full ROI Report.
+
 ### Cluster 0da83d7c79 — score 10
 
 - Title: The forced audit: how AuditTeam’s OpsAgent framework masks ransomware as consulting
@@ -2804,6 +2792,45 @@ Content menu Close Subscribe Threat Response Table of Contents Background Techni
   - Link: https://securelist.com/auditteam-opsagent-forced-audit/122031/
   - Summary: How does a ransomware gang sell a “forced audit”? We break down AuditTeam’s OpsAgent implant, its Rust rewrite, and the extortion model demanding a consulting fee to delete stolen data.
 
+### Cluster 8721dda70c — score 10
+
+- Title: The challenge of defending against bulletproof dead drops on public blockchains
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-11-18T11:00:00+00:00
+- Link: https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+The evolution of malware command-and-control (C2) infrastructure has shifted away from fragile, centralized servers and hardcoded domains toward resilient, decentralized blockchain networks that eliminate single points of failure.
+```
+
+#### Full body
+
+```
+The challenge of defending against bulletproof dead drops on public blockchains By Chetan Raghuprasad Wednesday, November 18, 2026 06:00 On The Radar The evolution of malware command-and-control (C2) infrastructure has shifted away from fragile, centralized servers and hardcoded domains toward resilient, decentralized blockchain networks that eliminate single points of failure. Threat actors are leveraging immutable public ledgers such as Bitcoin transactions, EVM smart contracts via techniques like EtherHiding, TRON wallets, and Solana memo programs to store, mask, and persistently update their operational endpoints. By executing read-only remote procedure call (RPC) queries to retrieve encrypted C2 configurations directly into compromised endpoint memory, adversaries can continuously bypass traditional perimeter defenses and domain seizures. Modern cybersecurity requires a fundamental shift away from static domain blocklists toward monitoring anomalous outbound JSON-RPC traffic, analyzing endpoint memory, and treating blockchain infrastructure as an active threat communication channel. The command-and-control (C2) channel is the operational backbone of any persistent malware campaign. It is also the most fragile component. The moment an actor's C2 infrastructure is identified and reported to the hosting provider, the domain registrar, or law enforcement, the campaign's operational capability collapses. This fundamental asymmetry, where defenders need to identify only a single infrastructure link to disrupt an operation, has driven a multi-decade arms race in resilience techniques, spanning from fast flux DNS evasion to decentralized and peer-to-peer architectures. Traditional C2 infrastructure where malware beacons to a hardcoded domain or IP address is volatile by design. Security researchers or incident responders who identify the C2 address can trigger a response. The hosting provider can null-route the IP addresses and the domain registrars can suspend malicious domains under abuse policies, law enforcement can obtain court orders compelling infrastructure seizure, and threat intelligence vendors push blocklist updates that cut off the malware from its C2 links across several compromised endpoints simultaneously. This single point of failure model renders sophisticated malware families inactive once their C2 is identified and sinkholed. By redirecting malware traffic to researcher-controlled servers, researchers can not only disrupt the botnet but map the full victim community, gather forensic telemetry, and notify affected organizations. The arms race Threat actors have progressively hardened their C2 infrastructure through several evasion techniques to outpace defensive capabilities. Amongst these techniques, some of the popular approaches include the employment of domain generation algorithms (DGA), content delivery network (CDN) domain fronting, peer-to-peer (P2P) architecture, and dead drop resolvers. DGAs replace static, hardcoded server domains with dynamically generated domains. Malware programmed with a shared mathematical seed computes hundreds or thousands of pseudorandom domain names on a scheduled basis, systematically attempting to resolve each one until it establishes contact with an address registered by the threat actor. While this technique prevents defenders from neutralizing an entire operation by simply seizing or blocklisting a single domain, defenders counteracted DGAs by reverse engineering the generation algorithms, predicting future domains for proactive sinkholing, and applying machine learning models to detect algorithmically generated strings within enterprise DNS queries. The CDN domain fronting technique evolved to bypass perimeter inspection mechanisms by exploiting discrepancies between the transport and application layers of encrypted web traffic. By initiating a TLS handshake with a legitimate, reputable domain hosted on a major CDN and specifying a covert, malicious host inside the enc
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: The challenge of defending against bulletproof dead drops on public blockchains
+  - Published: 2026-11-18T11:00:00+00:00
+  - Link: https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/
+  - Summary: The evolution of malware command-and-control (C2) infrastructure has shifted away from fragile, centralized servers and hardcoded domains toward resilient, decentralized blockchain networks that eliminate single points of failure.
+
 ### Cluster 35c455e95d — score 10
 
 - Title: Horizon3 Brings Autonomous Pentesting to Defense Customers Through IL4 Authorization
@@ -2844,45 +2871,6 @@ Horizon3 Brings Autonomous Pentesting to Defense Customers Through IL4 Authoriza
   - Published: 2026-11-18T15:10:00+00:00
   - Link: https://horizon3.ai/news/press-release/horizon3-brings-autonomous-pentesting-to-defense-customers-through-il4-authorization/
   - Summary: NodeZero for Defense Internal Pentesting is now authorized and available to eligible Department of War customers in Impact Level 4 (IL4) environments. Defense teams can use it to identify exploitable paths through their internal networks, prioritize fixes based on mission risk, and verify that those fixes block the paths.
-
-### Cluster 8721dda70c — score 10
-
-- Title: The challenge of defending against bulletproof dead drops on public blockchains
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-11-18T11:00:00+00:00
-- Link: https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-The evolution of malware command-and-control (C2) infrastructure has shifted away from fragile, centralized servers and hardcoded domains toward resilient, decentralized blockchain networks that eliminate single points of failure.
-```
-
-#### Full body
-
-```
-The challenge of defending against bulletproof dead drops on public blockchains By Chetan Raghuprasad Wednesday, November 18, 2026 06:00 On The Radar The evolution of malware command-and-control (C2) infrastructure has shifted away from fragile, centralized servers and hardcoded domains toward resilient, decentralized blockchain networks that eliminate single points of failure. Threat actors are leveraging immutable public ledgers such as Bitcoin transactions, EVM smart contracts via techniques like EtherHiding, TRON wallets, and Solana memo programs to store, mask, and persistently update their operational endpoints. By executing read-only remote procedure call (RPC) queries to retrieve encrypted C2 configurations directly into compromised endpoint memory, adversaries can continuously bypass traditional perimeter defenses and domain seizures. Modern cybersecurity requires a fundamental shift away from static domain blocklists toward monitoring anomalous outbound JSON-RPC traffic, analyzing endpoint memory, and treating blockchain infrastructure as an active threat communication channel. The command-and-control (C2) channel is the operational backbone of any persistent malware campaign. It is also the most fragile component. The moment an actor's C2 infrastructure is identified and reported to the hosting provider, the domain registrar, or law enforcement, the campaign's operational capability collapses. This fundamental asymmetry, where defenders need to identify only a single infrastructure link to disrupt an operation, has driven a multi-decade arms race in resilience techniques, spanning from fast flux DNS evasion to decentralized and peer-to-peer architectures. Traditional C2 infrastructure where malware beacons to a hardcoded domain or IP address is volatile by design. Security researchers or incident responders who identify the C2 address can trigger a response. The hosting provider can null-route the IP addresses and the domain registrars can suspend malicious domains under abuse policies, law enforcement can obtain court orders compelling infrastructure seizure, and threat intelligence vendors push blocklist updates that cut off the malware from its C2 links across several compromised endpoints simultaneously. This single point of failure model renders sophisticated malware families inactive once their C2 is identified and sinkholed. By redirecting malware traffic to researcher-controlled servers, researchers can not only disrupt the botnet but map the full victim community, gather forensic telemetry, and notify affected organizations. The arms race Threat actors have progressively hardened their C2 infrastructure through several evasion techniques to outpace defensive capabilities. Amongst these techniques, some of the popular approaches include the employment of domain generation algorithms (DGA), content delivery network (CDN) domain fronting, peer-to-peer (P2P) architecture, and dead drop resolvers. DGAs replace static, hardcoded server domains with dynamically generated domains. Malware programmed with a shared mathematical seed computes hundreds or thousands of pseudorandom domain names on a scheduled basis, systematically attempting to resolve each one until it establishes contact with an address registered by the threat actor. While this technique prevents defenders from neutralizing an entire operation by simply seizing or blocklisting a single domain, defenders counteracted DGAs by reverse engineering the generation algorithms, predicting future domains for proactive sinkholing, and applying machine learning models to detect algorithmically generated strings within enterprise DNS queries. The CDN domain fronting technique evolved to bypass perimeter inspection mechanisms by exploiting discrepancies between the transport and application layers of encrypted web traffic. By initiating a TLS handshake with a legitimate, reputable domain hosted on a major CDN and specifying a covert, malicious host inside the enc
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: The challenge of defending against bulletproof dead drops on public blockchains
-  - Published: 2026-11-18T11:00:00+00:00
-  - Link: https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/
-  - Summary: The evolution of malware command-and-control (C2) infrastructure has shifted away from fragile, centralized servers and hardcoded domains toward resilient, decentralized blockchain networks that eliminate single points of failure.
 
 ### Cluster 66ad4c7848 — score 10
 
@@ -3048,7 +3036,7 @@ Artificial Intelligence Who Has Access to Claude? Bring AI Identity and Access C
 ### Cluster 5d7989058d — score 10
 
 - Title: nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them
-- Source: Cloudflare Radar (cloud_identity_infrastructure)
+- Source: Cloudflare Security (cloud_identity_infrastructure)
 - Published: 2026-11-20T01:58:29+00:00
 - Link: https://blog.cloudflare.com/nginx2root/
 - Fetch status: ok
@@ -3084,12 +3072,12 @@ On November 18, 2026, F5 and nginx.org disclosed ten vulnerabilities in nginx. F
 
 #### Corroborating sources (2)
 
-- **Cloudflare Radar** (cloud_identity_infrastructure)
+- **Cloudflare Security** (cloud_identity_infrastructure)
   - Title: nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them
   - Published: 2026-11-20T01:58:29+00:00
   - Link: https://blog.cloudflare.com/nginx2root/
   - Summary: Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare's proxy are shielded from the most serious of these bugs.
-- **Cloudflare Security** (cloud_identity_infrastructure)
+- **Cloudflare Radar** (cloud_identity_infrastructure)
   - Title: nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them
   - Published: 2026-11-20T01:58:29+00:00
   - Link: https://blog.cloudflare.com/nginx2root/
@@ -3392,47 +3380,6 @@ Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Serv
   - Link: https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active exploitation. The vulnerability, tracked as CVE-2026-115731 (CVSS score: 9.4), is a case of
 
-### Cluster 7806aed11f — score 9
-
-- Title: Risky Bulletin: Cyberattack grounds German UAVs
-- Source: Risky Business News (practitioner_analysis)
-- Published: 2026-11-16T00:04:19+00:00
-- Link: https://risky.biz/RBNEWS634/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-Germany grounds UAVs after a supply chain attack, a threat actor accessed Barracuda’s cloud for two days, the US AI task force asks for regulatory leniency and the FBI disrupts a North Korean face-swapping operation.
-```
-
-#### Full body
-
-```
-Risky Bulletin Podcast November 16, 2026 Risky Bulletin: Cyberattack grounds German UAVs Presented by Catalin Cimpanu News Editor Claire Aird Newsreader Germany grounds UAVs after a supply chain attack, a threat actor accessed Barracudaâs cloud for two days, the US AI task force asks for regulatory leniency and the FBI disrupts a North Korean face-swapping operation. Your browser does not support the audio element. Risky Bulletin: Cyberattack grounds German UAVs â¶ 0:00 / 8:42 Subscribe Brought to you by Thinkst Know. When it Matters! Show notes Risky Bulletin: Hackers accessed Barracuda's cloud
-```
-
-#### Corroborating sources (1)
-
-- **Risky Business News** (practitioner_analysis)
-  - Title: Risky Bulletin: Cyberattack grounds German UAVs
-  - Published: 2026-11-16T00:04:19+00:00
-  - Link: https://risky.biz/RBNEWS634/
-  - Summary: Germany grounds UAVs after a supply chain attack, a threat actor accessed Barracuda’s cloud for two days, the US AI task force asks for regulatory leniency and the FBI disrupts a North Korean face-swapping operation.
-
 ### Cluster abd98c8c74 — score 9
 
 - Title: Mapping the AI threat landscape: MITRE ATLAS comes to Elastic Security
@@ -3703,16 +3650,22 @@ Blog Accuracy Through Volume of Fire November 19, 2026 Accuracy Through Volume o
 - Source: Sophos X-Ops (detection_response_operations)
 - Published: 2026-11-18T00:00:00+00:00
 - Link: https://www.sophos.com/en-us/blog/patches-released-for-critical-nginx2root-vulnerabilities
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: ddos
+- affected_products: Docker, Linux kernel
+- cve_ids: CVE-2026-113425, CVE-2026-121810, CVE-2026-123007, CVE-2026-123633, CVE-2026-123634
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
+- threat_categories: ddos
+- affected_products: Linux kernel, Docker
+- cve_ids: CVE-2026-123007, CVE-2026-123633, CVE-2026-123634, CVE-2026-121810, CVE-2026-113425
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3720,6 +3673,12 @@ Blog Accuracy Through Volume of Fire November 19, 2026 Accuracy Through Volume o
 
 ```
 Categories: Threat Research Tags: advisory, vulnerability, NGINX
+```
+
+#### Full body
+
+```
+Patches released for critical ‘NGINX2Root’ vulnerabilities Written by Sophos X-Ops Threat Research advisory vulnerability NGINX Share This Link Copied On November 18, 2026, F5 published security advisories for five critical (CVSS v4.0 score of 9.2) vulnerabilities that Xint has collectively dubbed ‘ NGINX2Root ’: ( K000163925 , K000163926 , K000163927 , K000163928 , and K000163931 ). The issues affect NGINX Open Source and NGINX Plus configurations. Exploitation could lead to crashes, denial of service, memory corruption, or code execution. According to F5, code execution requires ASLR to be disabled or bypassed. Two of the vulnerabilities relate to NGINX HTTP/2 handling, and Wiz Research reports that they can be used to bypass Address Space Layout Randomization (ASLR): CVE-2026-123007 is an integer underflow issue in HTTP/2 flow control CVE-2026-123633 is a use-after-free issue affecting HTTP/2 connections that are proxied to a backend The other three issues are use-after-free flaws that require specific configurations: CVE-2026-123634 affects the NGINX resolver in some NGINX Open Source versions when NGINX proxies to a server name that contains variables and an SSI or mirror directive sends a subrequest that resolves the same name CVE-2026-121810 affects HTTP/3 configurations in some NGINX Open Source versions CVE-2026-113425 affects some NGINX Open Source versions when configured as a mail proxy server Xint reports that each vulnerability can be chained with a separate Linux kernel SCTP vulnerability to obtain root privileges on the host, including when NGINX runs in a Docker container. Recommended actions Organizations should review the F5 advisories and upgrade vulnerable versions as appropriate. Updated source code and Linux packages for NGINX Open Source are also available from the NGINX website . Packages may not be immediately available for older, unsupported distributions. Xint notes that nginx -s reload does not load the new binary, so NGINX must be restarted or its binary upgraded after updating. If immediate upgrades are not possible, F5 advises avoiding SSI or mirror directives and proxied server names with variables (CVE-2026-123634), and restricting mail proxy listeners to trusted networks (CVE-2026-113425). For the HTTP/2 flaws, Wiz and Xint recommend disabling HTTP/2 on affected listeners but note that there may be implications for that action. Sophos countermeasures SophosLabs continues to monitor the threat landscape for activity related to this vulnerability and will deliver detections and protections as available. An internal investigation is also underway to determine if Sophos products or services are affected. About the Author(s) Sophos X-Ops Representing a powerful evolution in cyber defense, Sophos X-Ops is a joint task force of multiple specialized teams, purpose-built to address the growing complexity of today’s cyberthreat landscape.
 ```
 
 #### Corroborating sources (1)
@@ -3981,74 +3940,6 @@ Large language models and other AI systems allow a growing number of ransomware 
   - Link: https://www.darkreading.com/threat-intelligence/ransomware-attacks-increase-ai-payments-decline
   - Summary: Large language models and other AI systems allow a growing number of ransomware groups to create convincing phishing emails and identify sensitive data quickly.
 
-### Cluster 71af19b35c — score 8
-
-- Title: JPMorgan Confirms Customer Data Breach Following Third-Party Compromise
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-11-20T16:15:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/jpmorgan-data-breach-third-party/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Ransomware actor N0n has claimed attacks on JPMorgan, Visa and Mastercard, reportedly leaking customer data on its dark web site
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: JPMorgan Confirms Customer Data Breach Following Third-Party Compromise
-  - Published: 2026-11-20T16:15:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/jpmorgan-data-breach-third-party/
-  - Summary: Ransomware actor N0n has claimed attacks on JPMorgan, Visa and Mastercard, reportedly leaking customer data on its dark web site
-
-### Cluster 3ade03443a — score 8
-
-- Title: AI Cuts Vulnerability Discovery from Nine Months to 90 Hours
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-11-16T09:00:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/ai-cut-vulnerability-discover-nine/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Forescout report claims to have found 66 new flaws in just 90 hours using AI
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: AI Cuts Vulnerability Discovery from Nine Months to 90 Hours
-  - Published: 2026-11-16T09:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/ai-cut-vulnerability-discover-nine/
-  - Summary: Forescout report claims to have found 66 new flaws in just 90 hours using AI
-
 ### Cluster 97d0321d69 — score 8
 
 - Title: Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access
@@ -4124,3 +4015,71 @@ Threat actors have been observed exploiting a recently disclosed critical securi
   - Published: 2026-11-20T10:32:50+00:00
   - Link: https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html
   - Summary: Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway
+
+### Cluster 71af19b35c — score 8
+
+- Title: JPMorgan Confirms Customer Data Breach Following Third-Party Compromise
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-11-20T16:15:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/jpmorgan-data-breach-third-party/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Ransomware actor N0n has claimed attacks on JPMorgan, Visa and Mastercard, reportedly leaking customer data on its dark web site
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: JPMorgan Confirms Customer Data Breach Following Third-Party Compromise
+  - Published: 2026-11-20T16:15:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/jpmorgan-data-breach-third-party/
+  - Summary: Ransomware actor N0n has claimed attacks on JPMorgan, Visa and Mastercard, reportedly leaking customer data on its dark web site
+
+### Cluster 3ade03443a — score 8
+
+- Title: AI Cuts Vulnerability Discovery from Nine Months to 90 Hours
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-11-16T09:00:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/ai-cut-vulnerability-discover-nine/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Forescout report claims to have found 66 new flaws in just 90 hours using AI
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: AI Cuts Vulnerability Discovery from Nine Months to 90 Hours
+  - Published: 2026-11-16T09:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/ai-cut-vulnerability-discover-nine/
+  - Summary: Forescout report claims to have found 66 new flaws in just 90 hours using AI

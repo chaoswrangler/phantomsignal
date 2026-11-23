@@ -6,9 +6,27 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 22 Nov 2026 18:22:47 +0000</lastBuildDate>
+<lastBuildDate>Mon, 23 Nov 2026 00:07:58 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Debian 13.8 bundles kernel and Chromium security fixes with a 122-package bugfix list</title>
+<link>https://www.helpnetsecurity.com/2026/11/23/debian-13-8-released/</link>
+<description><![CDATA[The Debian project released Debian 13.8, the eighth update to its stable “trixie” series. It mainly carries security fixes, plus corrections for a few serious bugs, and it bundles advisories Debian had already published separately. If you run trixie, here is what to check. The security table runs from DSA-6408 to DSA-6629 (a DSA is a Debian Security Advisory). It covers Chromium, Firefox ESR, OpenJDK 25, nginx, BIND 9, Dovecot, rsync, PostgreSQL 17 and the … More → The post Debian 13.8 bundles kernel and Chromium security fixes with a 122-package bugfix list appeared first on Help Net Security .]]></description>
+<pubDate>Sun, 22 Nov 2026 23:05:09 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/11/23/debian-13-8-released/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices</title>
+<link>https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/</link>
+<description><![CDATA[GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers&apos; routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]]]></description>
+<pubDate>Sun, 22 Nov 2026 18:45:37 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>Cleverbridge warns hackers stole credit card numbers, CVVs in data breach</title>
 <link>https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/</link>
@@ -226,6 +244,16 @@
 <category>zero_day</category>
 </item>
 <item>
+<title>Hackers use autonomous AI tool Cairn to find zero-day, take over server</title>
+<link>https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/</link>
+<description><![CDATA[Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]<br/><br/><em>Tags: zero_day</em>]]></description>
+<pubDate>Fri, 20 Nov 2026 17:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>zero_day</category>
+</item>
+<item>
 <title>Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university</title>
 <link>https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day</link>
 <description><![CDATA[A China-linked threat actor used the open source AI penetration testing tool Cairn to persistently attack two universities, and in one case, possibly discover a zero-day bug, researchers said.<br/><br/><em>Tags: AWS · supply_chain · credential_theft · zero_day</em>]]></description>
@@ -236,16 +264,6 @@
 <category>AWS</category>
 <category>supply_chain</category>
 <category>credential_theft</category>
-<category>zero_day</category>
-</item>
-<item>
-<title>Hackers use autonomous AI tool Cairn to find zero-day, take over server</title>
-<link>https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/</link>
-<description><![CDATA[Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Fri, 20 Nov 2026 17:30:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
 <category>zero_day</category>
 </item>
 <item>
@@ -599,7 +617,7 @@
 <description><![CDATA[Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare&apos;s proxy are shielded from the most serious of these bugs.<br/><br/><em>Tags: Palo Alto Networks · AWS · Azure · CVE-2026-123007 · CVE-2026-123633 · CVE-2026-118899 · CVE-2026-121810 · CVE-2026-123634</em>]]></description>
 <pubDate>Fri, 20 Nov 2026 01:58:29 +0000</pubDate>
 <guid isPermaLink="true">https://blog.cloudflare.com/nginx2root/</guid>
-<source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
+<source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
 <category>cloud_identity_infrastructure</category>
 <category>Palo Alto Networks</category>
 <category>AWS</category>
@@ -612,7 +630,7 @@
 <description><![CDATA[Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare&apos;s proxy are shielded from the most serious of these bugs.]]></description>
 <pubDate>Fri, 20 Nov 2026 01:58:29 +0000</pubDate>
 <guid isPermaLink="true">https://blog.cloudflare.com/nginx2root/</guid>
-<source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
+<source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
@@ -623,17 +641,6 @@
 <guid isPermaLink="true">https://risky.biz/RBNEWS636/</guid>
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>VMware patches vCenter zero-day exploited in attacks since September</title>
-<link>https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/</link>
-<description><![CDATA[Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]<br/><br/><em>Tags: VMware · zero_day</em>]]></description>
-<pubDate>Fri, 20 Nov 2026 00:26:25 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>VMware</category>
-<category>zero_day</category>
 </item>
 <item>
 <title>AI Joins the Industrial Attack Workflow</title>
@@ -736,18 +743,6 @@
 <guid isPermaLink="true">https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>NGINX2Root: F5 patches five critical NGINX vulnerabilities</title>
-<link>https://www.helpnetsecurity.com/2026/11/19/nginx2root-nginx-vulnerabilities/</link>
-<description><![CDATA[F5 has patched five critical vulnerabilities in NGINX, the world’s most widely used open-source web server, that can allow remote code execution under certain conditions. Dubbed “NGINX2Root” by Xint researchers, two of the bunch (CVE-2026-123633 and CVE-2026-123007) were also independently unearthed and reported by Rapid7, Wiz, Ikotas Labs, Palo Alto Networks and Metnir researchers. There’s no evidence that any of them has been exploited in the wild, and none were on CISA’s Known Exploited Vulnerabilities … More → The post NGINX2Root: F5 patches five critical NGINX vulnerabilities appeared first on Help Net Security .<br/><br/><em>Tags: CVE-2026-123633 · CVE-2026-123007 · active_exploitation</em>]]></description>
-<pubDate>Thu, 19 Nov 2026 18:25:50 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/11/19/nginx2root-nginx-vulnerabilities/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>CVE-2026-123633</category>
-<category>CVE-2026-123007</category>
-<category>active_exploitation</category>
 </item>
 <item>
 <title>CVE-2026-132165 | Drupal Core Installer Remote Code Execution Vulnerability</title>
@@ -1570,11 +1565,15 @@
 <item>
 <title>Patches released for critical ‘NGINX2Root’ vulnerabilities</title>
 <link>https://www.sophos.com/en-us/blog/patches-released-for-critical-nginx2root-vulnerabilities</link>
-<description><![CDATA[Categories: Threat Research Tags: advisory, vulnerability, NGINX]]></description>
+<description><![CDATA[Categories: Threat Research Tags: advisory, vulnerability, NGINX<br/><br/><em>Tags: Linux kernel · Docker · CVE-2026-123007 · CVE-2026-123633 · CVE-2026-123634 · CVE-2026-121810 · CVE-2026-113425 · ddos</em>]]></description>
 <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.sophos.com/en-us/blog/patches-released-for-critical-nginx2root-vulnerabilities</guid>
 <source url="https://news.sophos.com/en-us/category/threat-research/feed/">Sophos X-Ops</source>
 <category>detection_response_operations</category>
+<category>Linux kernel</category>
+<category>Docker</category>
+<category>CVE-2026-123007</category>
+<category>CVE-2026-123633</category>
 </item>
 <item>
 <title>Java4Shell (CVE-2026-114938): Pre-auth RCE in OpenJDK, and the challenge of image and feature bloat</title>
@@ -2279,6 +2278,15 @@
 <category>supply_chain</category>
 </item>
 <item>
+<title>datasette-maplibre 0.1a0</title>
+<link>https://simonwillison.net/2026/Nov/15/datasette-maplibre/</link>
+<description><![CDATA[Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub .) I built most of this with a single prompt to Claude Fable 5.2: Look at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/dev/tools/openfreemap-demo.html - then build a brand new Datasette plugin that uses maplibreGL and openfreemap and combines the features of those other two plugins - but be creative and think outside the box for other useful features the plugin might have &quot;Be creative and think outside the box&quot; resulted in a few neat ideas - my favorite is that it displays SVG previews of GeoJSON shapes, then loads a WebGL preview only when they scroll into view. I also had Claude build a comprehensive demo which works in the latest Datasette Lite, so you can visit this link to load the plugin and a demo datab]]></description>
+<pubDate>Sun, 15 Nov 2026 23:58:36 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Nov/15/datasette-maplibre/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>datasette 1.0a43</title>
 <link>https://simonwillison.net/2026/Nov/15/datasette/</link>
 <description><![CDATA[Release: datasette 1.0a43 I&apos;ve been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and plugins can register themselves as capable of streaming every row in a table in one go via the new Response.stream() method. There are a couple of security fixes, one of which I deemed deserving of a GitHub advisory : private stored queries could be exposed, granting access to the title and SQL of the query (but not allowing that query to be executed). There are dozens of smaller improvements. The row page JSON representation finally has a design suitable for 1.0 . A new &lt;datasette-copy-button&gt; Web Component provides copy-schema in various places. JSON in columns on the row page can be pretty-printed. There&apos;s a new DatasetteModal.confirm() JavaScript utility method. Plus dozens of bug fixes, includ<br/><br/><em>Tags: GitHub</em>]]></description>
@@ -2289,13 +2297,22 @@
 <category>GitHub</category>
 </item>
 <item>
-<title>YARA-X 1.23.0 Release, (Sun, Nov 15th)</title>
-<link>https://isc.sans.edu/diary/rss/33496</link>
-<description><![CDATA[YARA-X&amp;#39&amp;#x3b;s 1.23.0 release brings 4 improvements and 16 bugfixes.]]></description>
-<pubDate>Sun, 15 Nov 2026 18:17:27 +0000</pubDate>
-<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33496</guid>
-<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
-<category>government_authoritative</category>
+<title>datasette 0.65.6</title>
+<link>https://simonwillison.net/2026/Nov/15/datasette-2/</link>
+<description><![CDATA[Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from /&lt;route&gt;.db by actors who were denied access to it. [...] Tags: security , datasette]]></description>
+<pubDate>Sun, 15 Nov 2026 23:18:17 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Nov/15/datasette-2/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Thinkst on the defensive AI cyber space</title>
+<link>https://risky.biz/RBNEWSSI151/</link>
+<description><![CDATA[In this Risky Business sponsored interview, Catalin Cimpanu talks with Thinkst CTO Marco Slaviero about the state of the defensive AI cyber space and the company’s current agentic canaries, as well as the need for more experimentation.]]></description>
+<pubDate>Sun, 15 Nov 2026 19:22:09 +0000</pubDate>
+<guid isPermaLink="true">https://risky.biz/RBNEWSSI151/</guid>
+<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
+<category>practitioner_analysis</category>
 </item>
 <item>
 <title>datasette-apps 0.4a0</title>
@@ -3871,15 +3888,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>NIST: Solo Shouldn&apos;t Mean Less Secure</title>
-<link>https://www.darkreading.com/cybersecurity-operations/nist-solo-shouldnt-mean-less-secure</link>
-<description><![CDATA[New guidance provides a basic framework for less-technical solo business owners, but it may miss the mark on how to secure technology that requires no human oversight.]]></description>
-<pubDate>Mon, 09 Nov 2026 15:46:10 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/nist-solo-shouldnt-mean-less-secure</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>OpenSSF Welcomes New Members and Expands AI Security Resources</title>
 <link>https://openssf.org/press-release/2026/11/09/openssf-welcomes-new-members-and-expands-ai-security-resources/</link>
 <description><![CDATA[The OpenSSF announced expanded membership at Open Source SecurityCon North America and broadened its AI security resources, including a new guide to finding and fixing vulnerabilities using AI.]]></description>
@@ -4685,7 +4693,7 @@
 <description><![CDATA[Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.]]></description>
 <pubDate>Tue, 03 Nov 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://blog.cloudflare.com/zero-wire/</guid>
-<source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
+<source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
@@ -4694,7 +4702,7 @@
 <description><![CDATA[Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.]]></description>
 <pubDate>Tue, 03 Nov 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://blog.cloudflare.com/zero-wire/</guid>
-<source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
+<source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
@@ -5766,21 +5774,21 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>What took the Internet offline in Q3 2026</title>
-<link>https://blog.cloudflare.com/q3-2026-internet-disruption-summary/</link>
-<description><![CDATA[An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connectivity and traffic.]]></description>
-<pubDate>Tue, 27 Oct 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.cloudflare.com/q3-2026-internet-disruption-summary/</guid>
-<source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>Introducing the Cloudflare PHP Capture the Flag challenge</title>
 <link>https://blog.cloudflare.com/php-ctf/</link>
 <description><![CDATA[We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.]]></description>
 <pubDate>Tue, 27 Oct 2026 13:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://blog.cloudflare.com/php-ctf/</guid>
 <source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>What took the Internet offline in Q3 2026</title>
+<link>https://blog.cloudflare.com/q3-2026-internet-disruption-summary/</link>
+<description><![CDATA[An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connectivity and traffic.]]></description>
+<pubDate>Tue, 27 Oct 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://blog.cloudflare.com/q3-2026-internet-disruption-summary/</guid>
+<source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
@@ -13251,15 +13259,6 @@
 <category>data_breach</category>
 </item>
 <item>
-<title>Sponsored: Why Sublime doesn’t toss AI at every email</title>
-<link>https://risky.biz/RBNEWSSI135/</link>
-<description><![CDATA[In this Risky Business sponsored interview, Tom Uren chats with Sublime Security Product Manager AJ Williams about how the company targets its AI use. Rather than throwing its AI agents at everything, Sublime gives them the time-consuming email security tasks that humans don’t want to do. Its ASA (Autonomous Security Analyst) agent investigates suspicious and user-reported messages, while the ADÉ (Autonomous Detection Engineer) agent writes new detection coverage for attacks that slipped through.]]></description>
-<pubDate>Fri, 10 Jul 2026 02:54:48 +0000</pubDate>
-<guid isPermaLink="true">https://risky.biz/RBNEWSSI135/</guid>
-<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
-</item>
-<item>
 <title>Up the Stack: How AI’s Escape From the Commodity Trap Risks Enterprise Lock-in</title>
 <link>https://www.normaltech.ai/p/up-the-stack-how-ais-escape-from</link>
 <description><![CDATA[Critics and boosters are both looking in the wrong place]]></description>
@@ -19560,7 +19559,7 @@
 <title>Java4Shell (CVE-2026-114938): CrowdStrike Detects Exposure and Post-Exploitation Activity</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-java4shell-cve-2026-114938/</link>
 <description><![CDATA[<br/><br/><em>Tags: CVE-2026-114938</em>]]></description>
-<pubDate>Sun, 22 Nov 2026 18:22:47 +0000</pubDate>
+<pubDate>Mon, 23 Nov 2026 00:07:58 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-java4shell-cve-2026-114938/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19570,7 +19569,7 @@
 <title>NGINX2Root: Identify and Protect with the CrowdStrike Falcon Platform</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-nginx2root-cve-2026-123007/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 22 Nov 2026 18:22:47 +0000</pubDate>
+<pubDate>Mon, 23 Nov 2026 00:07:58 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-nginx2root-cve-2026-123007/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19579,7 +19578,7 @@
 <title>CrowdStrike Brings the Human Advantage to AI Detection and Response</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-human-advantage-aidr/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 22 Nov 2026 18:22:47 +0000</pubDate>
+<pubDate>Mon, 23 Nov 2026 00:07:58 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-human-advantage-aidr/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19588,7 +19587,7 @@
 <title>CrowdStrike Is Building the Engine of the Agentic SOC with Falcon Next-Gen SIEM</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-gartner-mq-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 22 Nov 2026 18:22:47 +0000</pubDate>
+<pubDate>Mon, 23 Nov 2026 00:07:58 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-gartner-mq-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19597,7 +19596,7 @@
 <title>Hidden in the Weights: Supply Chain Risk from Backdoored LoRA Models</title>
 <link>https://www.crowdstrike.com/en-us/blog/supply-chain-risk-from-backdoored-lora-models/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Sun, 22 Nov 2026 18:22:47 +0000</pubDate>
+<pubDate>Mon, 23 Nov 2026 00:07:58 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/supply-chain-risk-from-backdoored-lora-models/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19607,7 +19606,7 @@
 <title>Inside Falcon AI Gateway: One Control Point for AI Traffic</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-ai-gateway-one-control-point-for-ai-traffic/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 22 Nov 2026 18:22:47 +0000</pubDate>
+<pubDate>Mon, 23 Nov 2026 00:07:58 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-ai-gateway-one-control-point-for-ai-traffic/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19616,7 +19615,7 @@
 <title>CrowdStrike Named a Leader in the 2026 IDC MarketScape for Worldwide Augmented Identity Security Solutions</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-augmented-identity-security-solutions/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 22 Nov 2026 18:22:47 +0000</pubDate>
+<pubDate>Mon, 23 Nov 2026 00:07:58 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-augmented-identity-security-solutions/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19625,7 +19624,7 @@
 <title>November 2026 Patch Tuesday: 1,252 CVEs Include One Zero-Day and 68 Critical Vulnerabilities</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Sun, 22 Nov 2026 18:22:47 +0000</pubDate>
+<pubDate>Mon, 23 Nov 2026 00:07:58 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19635,7 +19634,7 @@
 <title>How Adversaries Are Turning the Vulnerability Ecosystem Against Defenders</title>
 <link>https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 22 Nov 2026 18:22:47 +0000</pubDate>
+<pubDate>Mon, 23 Nov 2026 00:07:58 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19644,7 +19643,7 @@
 <title>CrowdStrike Extends the Agentic SOC to Detect and Stop Agent Insider Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 22 Nov 2026 18:22:47 +0000</pubDate>
+<pubDate>Mon, 23 Nov 2026 00:07:58 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>

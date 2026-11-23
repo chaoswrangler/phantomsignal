@@ -1,5 +1,5 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><title>PHANTOMSignal feed.json</title><style>body{margin:0;background:#0b0f14;color:#e8f4ff;font-family:'JetBrains Mono',Consolas,monospace}pre{margin:0;padding:24px;font-size:13px;line-height:1.5;white-space:pre-wrap;word-break:break-word}</style></head><body><pre>{
-  &quot;generated_at&quot;: &quot;2026-11-22T18:22:47.590588+00:00&quot;,
+  &quot;generated_at&quot;: &quot;2026-11-23T00:07:58.473060+00:00&quot;,
   &quot;lookback_hours&quot;: 168,
   &quot;lookback_human&quot;: &quot;7 days&quot;,
   &quot;total_items&quot;: 2183,
@@ -10,13 +10,6 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 4
-    },
-    &quot;Unit 42&quot;: {
-      &quot;url&quot;: &quot;https://unit42.paloaltonetworks.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 15,
-      &quot;in_window_count&quot;: 3
     },
     &quot;CrowdStrike&quot;: {
       &quot;url&quot;: &quot;https://www.crowdstrike.com/blog/feed/&quot;,
@@ -32,6 +25,13 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
     },
+    &quot;Microsoft Threat Intelligence&quot;: {
+      &quot;url&quot;: &quot;https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 2
+    },
     &quot;Trend Micro Research&quot;: {
       &quot;url&quot;: &quot;https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
@@ -46,33 +46,12 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Google Threat Analysis Group&quot;: {
-      &quot;url&quot;: &quot;https://blog.google/threat-analysis-group/rss/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;parse_error&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
-    },
-    &quot;Microsoft Threat Intelligence&quot;: {
-      &quot;url&quot;: &quot;https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/&quot;,
+    &quot;Unit 42&quot;: {
+      &quot;url&quot;: &quot;https://unit42.paloaltonetworks.com/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 2
-    },
-    &quot;Citizen Lab&quot;: {
-      &quot;url&quot;: &quot;https://citizenlab.ca/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 1
-    },
-    &quot;Recorded Future&quot;: {
-      &quot;url&quot;: &quot;https://www.recordedfuture.com/feed&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 50,
-      &quot;in_window_count&quot;: 4
+      &quot;item_count&quot;: 15,
+      &quot;in_window_count&quot;: 3
     },
     &quot;Check Point Research&quot;: {
       &quot;url&quot;: &quot;https://research.checkpoint.com/feed/&quot;,
@@ -81,12 +60,26 @@
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 3
     },
-    &quot;Kaspersky Securelist&quot;: {
-      &quot;url&quot;: &quot;https://securelist.com/feed/&quot;,
+    &quot;Google Threat Analysis Group&quot;: {
+      &quot;url&quot;: &quot;https://blog.google/threat-analysis-group/rss/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;parse_error&quot;,
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
+    },
+    &quot;Recorded Future&quot;: {
+      &quot;url&quot;: &quot;https://www.recordedfuture.com/feed&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 50,
+      &quot;in_window_count&quot;: 4
+    },
+    &quot;Citizen Lab&quot;: {
+      &quot;url&quot;: &quot;https://citizenlab.ca/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 4
+      &quot;in_window_count&quot;: 1
     },
     &quot;NCSC UK&quot;: {
       &quot;url&quot;: &quot;https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml&quot;,
@@ -95,33 +88,12 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 1
     },
-    &quot;SANS Internet Storm Center&quot;: {
-      &quot;url&quot;: &quot;https://isc.sans.edu/rssfeed_full.xml&quot;,
-      &quot;cohort&quot;: &quot;government_authoritative&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 9
-    },
-    &quot;ESET WeLiveSecurity&quot;: {
-      &quot;url&quot;: &quot;https://www.welivesecurity.com/en/rss/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 3
-    },
-    &quot;Horizon3 Attack Research&quot;: {
-      &quot;url&quot;: &quot;https://horizon3.ai/feed/&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 10
-    },
-    &quot;Volexity&quot;: {
-      &quot;url&quot;: &quot;https://www.volexity.com/feed/&quot;,
+    &quot;Kaspersky Securelist&quot;: {
+      &quot;url&quot;: &quot;https://securelist.com/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
+      &quot;in_window_count&quot;: 4
     },
     &quot;Cisco Talos&quot;: {
       &quot;url&quot;: &quot;https://feeds.feedburner.com/feedburner/Talos&quot;,
@@ -130,19 +102,33 @@
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 4
     },
-    &quot;Assetnote&quot;: {
-      &quot;url&quot;: &quot;https://www.assetnote.io/resources/research/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+    &quot;SANS Internet Storm Center&quot;: {
+      &quot;url&quot;: &quot;https://isc.sans.edu/rssfeed_full.xml&quot;,
+      &quot;cohort&quot;: &quot;government_authoritative&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 78,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 10
+    },
+    &quot;ESET WeLiveSecurity&quot;: {
+      &quot;url&quot;: &quot;https://www.welivesecurity.com/en/rss/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 3
+    },
+    &quot;Volexity&quot;: {
+      &quot;url&quot;: &quot;https://www.volexity.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Exploit-DB&quot;: {
-      &quot;url&quot;: &quot;https://www.exploit-db.com/rss.xml&quot;,
+    &quot;Horizon3 Attack Research&quot;: {
+      &quot;url&quot;: &quot;https://horizon3.ai/feed/&quot;,
       &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 50,
-      &quot;in_window_count&quot;: 0
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 10
     },
     &quot;Red Canary&quot;: {
       &quot;url&quot;: &quot;https://redcanary.com/feed/&quot;,
@@ -158,11 +144,18 @@
       &quot;item_count&quot;: 40,
       &quot;in_window_count&quot;: 1
     },
-    &quot;watchTowr Labs&quot;: {
-      &quot;url&quot;: &quot;https://labs.watchtowr.com/rss/&quot;,
+    &quot;Exploit-DB&quot;: {
+      &quot;url&quot;: &quot;https://www.exploit-db.com/rss.xml&quot;,
       &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 15,
+      &quot;item_count&quot;: 50,
+      &quot;in_window_count&quot;: 0
+    },
+    &quot;Assetnote&quot;: {
+      &quot;url&quot;: &quot;https://www.assetnote.io/resources/research/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 78,
       &quot;in_window_count&quot;: 0
     },
     &quot;The DFIR Report&quot;: {
@@ -172,19 +165,19 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
+    &quot;watchTowr Labs&quot;: {
+      &quot;url&quot;: &quot;https://labs.watchtowr.com/rss/&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 15,
+      &quot;in_window_count&quot;: 0
+    },
     &quot;Black Hills Information Security&quot;: {
       &quot;url&quot;: &quot;https://www.blackhillsinfosec.com/feed/&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
-    },
-    &quot;Proofpoint Threat Insight&quot;: {
-      &quot;url&quot;: &quot;https://www.proofpoint.com/us/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
     },
     &quot;TrustedSec&quot;: {
       &quot;url&quot;: &quot;https://www.trustedsec.com/feed/&quot;,
@@ -193,8 +186,22 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 2
     },
+    &quot;Proofpoint Threat Insight&quot;: {
+      &quot;url&quot;: &quot;https://www.proofpoint.com/us/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
+    },
     &quot;Active Countermeasures&quot;: {
       &quot;url&quot;: &quot;https://www.activecountermeasures.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
+    },
+    &quot;SpecterOps&quot;: {
+      &quot;url&quot;: &quot;https://medium.com/feed/specter-ops-posts&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
@@ -207,13 +214,6 @@
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 3
     },
-    &quot;GitHub Security Lab&quot;: {
-      &quot;url&quot;: &quot;https://github.blog/category/security/feed/&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
-    },
     &quot;Rapid7&quot;: {
       &quot;url&quot;: &quot;https://www.rapid7.com/blog/rss/&quot;,
       &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
@@ -221,9 +221,9 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 10
     },
-    &quot;SpecterOps&quot;: {
-      &quot;url&quot;: &quot;https://medium.com/feed/specter-ops-posts&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+    &quot;GitHub Security Lab&quot;: {
+      &quot;url&quot;: &quot;https://github.blog/category/security/feed/&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
@@ -242,18 +242,18 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 8
     },
+    &quot;AWS Security Blog&quot;: {
+      &quot;url&quot;: &quot;https://aws.amazon.com/blogs/security/feed/&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 10
+    },
     &quot;Permiso Security&quot;: {
       &quot;url&quot;: &quot;https://permiso.io/blog/rss.xml&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
-    },
-    &quot;Trail of Bits&quot;: {
-      &quot;url&quot;: &quot;https://blog.trailofbits.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 0
     },
     &quot;Huntress&quot;: {
@@ -263,18 +263,32 @@
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 8
     },
-    &quot;AWS Security Blog&quot;: {
-      &quot;url&quot;: &quot;https://aws.amazon.com/blogs/security/feed/&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+    &quot;Trail of Bits&quot;: {
+      &quot;url&quot;: &quot;https://blog.trailofbits.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 10
+      &quot;in_window_count&quot;: 0
     },
     &quot;Sysdig&quot;: {
       &quot;url&quot;: &quot;https://sysdig.com/feed/&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 6
+    },
+    &quot;Google Project Zero&quot;: {
+      &quot;url&quot;: &quot;https://googleprojectzero.blogspot.com/feeds/posts/default&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
+    },
+    &quot;Cloudflare Security&quot;: {
+      &quot;url&quot;: &quot;https://blog.cloudflare.com/tag/security/rss/&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 6
     },
     &quot;Protect AI&quot;: {
@@ -290,20 +304,6 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 1
-    },
-    &quot;Cloudflare Security&quot;: {
-      &quot;url&quot;: &quot;https://blog.cloudflare.com/tag/security/rss/&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 6
-    },
-    &quot;Google Project Zero&quot;: {
-      &quot;url&quot;: &quot;https://googleprojectzero.blogspot.com/feeds/posts/default&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
     },
     &quot;Google Cloud Threat Intelligence&quot;: {
       &quot;url&quot;: &quot;https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v&quot;,
@@ -326,19 +326,19 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 4
     },
-    &quot;Coveware&quot;: {
-      &quot;url&quot;: &quot;https://www.coveware.com/blog?format=rss&quot;,
-      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
-      &quot;status&quot;: &quot;parse_error&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
-    },
     &quot;Wiz Research&quot;: {
       &quot;url&quot;: &quot;https://www.wiz.io/feed/rss.xml&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 5
+    },
+    &quot;Coveware&quot;: {
+      &quot;url&quot;: &quot;https://www.coveware.com/blog?format=rss&quot;,
+      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
+      &quot;status&quot;: &quot;parse_error&quot;,
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
     },
     &quot;Chainalysis&quot;: {
       &quot;url&quot;: &quot;https://www.chainalysis.com/blog/feed/&quot;,
@@ -347,13 +347,6 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 2
     },
-    &quot;The Record&quot;: {
-      &quot;url&quot;: &quot;https://therecord.media/feed&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 5,
-      &quot;in_window_count&quot;: 5
-    },
     &quot;BleepingComputer&quot;: {
       &quot;url&quot;: &quot;https://www.bleepingcomputer.com/feed/&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
@@ -361,12 +354,12 @@
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 15
     },
-    &quot;GreyNoise&quot;: {
-      &quot;url&quot;: &quot;https://www.greynoise.io/blog/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+    &quot;The Record&quot;: {
+      &quot;url&quot;: &quot;https://therecord.media/feed&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 2
+      &quot;item_count&quot;: 5,
+      &quot;in_window_count&quot;: 5
     },
     &quot;Interconnects&quot;: {
       &quot;url&quot;: &quot;https://www.interconnects.ai/feed&quot;,
@@ -382,22 +375,15 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 20
     },
-    &quot;Simon Willison&quot;: {
-      &quot;url&quot;: &quot;https://simonwillison.net/atom/everything/&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+    &quot;GreyNoise&quot;: {
+      &quot;url&quot;: &quot;https://www.greynoise.io/blog/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 30,
-      &quot;in_window_count&quot;: 18
+      &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 2
     },
     &quot;SecurityWeek&quot;: {
       &quot;url&quot;: &quot;https://www.securityweek.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 10
-    },
-    &quot;CyberScoop&quot;: {
-      &quot;url&quot;: &quot;https://cyberscoop.com/feed/&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
@@ -410,26 +396,33 @@
       &quot;item_count&quot;: 50,
       &quot;in_window_count&quot;: 2
     },
-    &quot;Help Net Security&quot;: {
-      &quot;url&quot;: &quot;https://www.helpnetsecurity.com/feed/&quot;,
+    &quot;CyberScoop&quot;: {
+      &quot;url&quot;: &quot;https://cyberscoop.com/feed/&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 10
+    },
+    &quot;Simon Willison&quot;: {
+      &quot;url&quot;: &quot;https://simonwillison.net/atom/everything/&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 30,
+      &quot;in_window_count&quot;: 15
     },
     &quot;Dark Reading&quot;: {
       &quot;url&quot;: &quot;https://www.darkreading.com/rss.xml&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 50,
-      &quot;in_window_count&quot;: 23
+      &quot;in_window_count&quot;: 24
     },
-    &quot;AI Snake Oil&quot;: {
-      &quot;url&quot;: &quot;https://www.aisnakeoil.com/feed&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+    &quot;Help Net Security&quot;: {
+      &quot;url&quot;: &quot;https://www.helpnetsecurity.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 0
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 10
     },
     &quot;Schneier on Security&quot;: {
       &quot;url&quot;: &quot;https://www.schneier.com/feed/atom/&quot;,
@@ -438,11 +431,25 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 5
     },
-    &quot;Krebs on Security&quot;: {
-      &quot;url&quot;: &quot;https://krebsonsecurity.com/feed/&quot;,
+    &quot;AI Snake Oil&quot;: {
+      &quot;url&quot;: &quot;https://www.aisnakeoil.com/feed&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 0
+    },
+    &quot;Team Cymru&quot;: {
+      &quot;url&quot;: &quot;https://www.team-cymru.com/post/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 3
+    },
+    &quot;Troy Hunt&quot;: {
+      &quot;url&quot;: &quot;https://www.troyhunt.com/rss/&quot;,
       &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
+      &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 2
     },
     &quot;Reddit r/cybersecurity&quot;: {
@@ -459,29 +466,8 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Team Cymru&quot;: {
-      &quot;url&quot;: &quot;https://www.team-cymru.com/post/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 3
-    },
     &quot;Reddit r/blueteamsec&quot;: {
       &quot;url&quot;: &quot;https://www.reddit.com/r/blueteamsec/.rss&quot;,
-      &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
-    },
-    &quot;Troy Hunt&quot;: {
-      &quot;url&quot;: &quot;https://www.troyhunt.com/rss/&quot;,
-      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 15,
-      &quot;in_window_count&quot;: 2
-    },
-    &quot;Reddit r/sysadmin&quot;: {
-      &quot;url&quot;: &quot;https://www.reddit.com/r/sysadmin/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 0,
@@ -494,8 +480,8 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Reddit r/AskNetsec&quot;: {
-      &quot;url&quot;: &quot;https://www.reddit.com/r/AskNetsec/.rss&quot;,
+    &quot;Reddit r/sysadmin&quot;: {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/sysadmin/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 0,
@@ -508,19 +494,26 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
+    &quot;Krebs on Security&quot;: {
+      &quot;url&quot;: &quot;https://krebsonsecurity.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 2
+    },
+    &quot;Reddit r/AskNetsec&quot;: {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/AskNetsec/.rss&quot;,
+      &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
+    },
     &quot;Graham Cluley&quot;: {
       &quot;url&quot;: &quot;https://grahamcluley.com/feed/&quot;,
       &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 3
-    },
-    &quot;Infosecurity Magazine&quot;: {
-      &quot;url&quot;: &quot;https://www.infosecurity-magazine.com/rss/news/&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 28
     },
     &quot;The Hacker News&quot;: {
       &quot;url&quot;: &quot;https://feeds.feedburner.com/TheHackersNews&quot;,
@@ -529,12 +522,12 @@
       &quot;item_count&quot;: 50,
       &quot;in_window_count&quot;: 50
     },
-    &quot;Embrace the Red&quot;: {
-      &quot;url&quot;: &quot;https://embracethered.com/blog/index.xml&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+    &quot;Infosecurity Magazine&quot;: {
+      &quot;url&quot;: &quot;https://www.infosecurity-magazine.com/rss/news/&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 0
+      &quot;in_window_count&quot;: 28
     },
     &quot;tl;dr sec&quot;: {
       &quot;url&quot;: &quot;https://tldrsec.com/feed.xml&quot;,
@@ -543,12 +536,19 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 1
     },
+    &quot;Embrace the Red&quot;: {
+      &quot;url&quot;: &quot;https://embracethered.com/blog/index.xml&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 0
+    },
     &quot;Risky Business News&quot;: {
       &quot;url&quot;: &quot;https://risky.biz/feeds/risky-business-news/&quot;,
       &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 6
+      &quot;in_window_count&quot;: 5
     },
     &quot;Just Security&quot;: {
       &quot;url&quot;: &quot;https://www.justsecurity.org/feed/&quot;,
@@ -799,7 +799,7 @@
         ]
       },
       &quot;cluster_count&quot;: 6,
-      &quot;article_count&quot;: 12,
+      &quot;article_count&quot;: 11,
       &quot;cohesion&quot;: 0.206,
       &quot;shared_strong_signals&quot;: [
         &quot;VMware&quot;
@@ -821,7 +821,6 @@
         &quot;https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere/&quot;,
         &quot;https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/&quot;,
         &quot;https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html&quot;,
-        &quot;https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/&quot;,
         &quot;https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day&quot;,
         &quot;https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html&quot;,
         &quot;https://webflow.sysdig.com/blog/nginx2root&quot;,
@@ -849,7 +848,7 @@
         ]
       },
       &quot;cluster_count&quot;: 4,
-      &quot;article_count&quot;: 11,
+      &quot;article_count&quot;: 10,
       &quot;cohesion&quot;: 0.353,
       &quot;shared_strong_signals&quot;: [
         &quot;PyPI&quot;
@@ -866,92 +865,11 @@
         &quot;https://securelist.com/operation-shadowcloud-gitdoor/122004/&quot;,
         &quot;https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/&quot;,
         &quot;https://www.elastic.co/security-labs/threat-command/we-caught-the-agent-framework-pypi-compromise-six-minutes-after-it-published&quot;,
-        &quot;https://simonwillison.net/2026/Nov/15/datasette/&quot;,
         &quot;https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html&quot;,
         &quot;https://orca.security/resources/research/microsoft-agent-framework-pypi-supply-chain-attack-versions-1-26-1-and-1-26-2-steal-cloud-credentials/&quot;,
         &quot;https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html&quot;,
         &quot;https://openssf.org/blog/2026/11/17/clearer-security-signals-making-attestations-comprehensible-for-pypi-users/&quot;,
         &quot;https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi&quot;
-      ]
-    },
-    {
-      &quot;label&quot;: &quot;CVE-2026-123007 exploitation activity&quot;,
-      &quot;anchor_signal&quot;: &quot;CVE-2026-123007&quot;,
-      &quot;theme_key&quot;: &quot;cve-2026-123007&quot;,
-      &quot;dominant_features&quot;: {
-        &quot;cve_ids&quot;: [
-          &quot;CVE-2026-123007&quot;,
-          &quot;CVE-2026-123633&quot;,
-          &quot;CVE-2026-121810&quot;,
-          &quot;CVE-2026-123634&quot;
-        ],
-        &quot;urgency_signals&quot;: [
-          &quot;preauth_unauth&quot;
-        ]
-      },
-      &quot;cluster_count&quot;: 3,
-      &quot;article_count&quot;: 10,
-      &quot;cohesion&quot;: 0.25,
-      &quot;shared_strong_signals&quot;: [
-        &quot;CVE-2026-123007&quot;
-      ],
-      &quot;member_cves&quot;: [],
-      &quot;also_targets&quot;: [],
-      &quot;cluster_ids&quot;: [
-        &quot;8f2a86fb37&quot;,
-        &quot;dff990f28a&quot;,
-        &quot;5d7989058d&quot;
-      ],
-      &quot;links&quot;: [
-        &quot;https://www.rapid7.com/blog/post/ve-cve-2026-123007-critical-nginx-http-2-integer-underflow-leads-to-rce-fixed&quot;,
-        &quot;https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities&quot;,
-        &quot;https://orca.security/resources/research/two-critical-nginx-http-2-flaws-could-allow-unauthenticated-remote-code-execution/&quot;,
-        &quot;https://www.helpnetsecurity.com/2026/11/19/nginx2root-nginx-vulnerabilities/&quot;,
-        &quot;https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html&quot;,
-        &quot;https://webflow.sysdig.com/blog/nginx2root&quot;,
-        &quot;https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html&quot;,
-        &quot;https://openssf.org/podcast/2026/11/18/whats-in-the-soss-podcast-78-s3e30-from-signal-processing-to-open-source-security-sal-kimmich-on-linux-kernel-defense/&quot;,
-        &quot;https://blog.cloudflare.com/nginx2root/&quot;
-      ]
-    },
-    {
-      &quot;label&quot;: &quot;CVE-2026-123633 exploitation activity&quot;,
-      &quot;anchor_signal&quot;: &quot;CVE-2026-123633&quot;,
-      &quot;theme_key&quot;: &quot;cve-2026-123633&quot;,
-      &quot;dominant_features&quot;: {
-        &quot;cve_ids&quot;: [
-          &quot;CVE-2026-123007&quot;,
-          &quot;CVE-2026-123633&quot;,
-          &quot;CVE-2026-121810&quot;,
-          &quot;CVE-2026-123634&quot;
-        ],
-        &quot;urgency_signals&quot;: [
-          &quot;preauth_unauth&quot;
-        ]
-      },
-      &quot;cluster_count&quot;: 3,
-      &quot;article_count&quot;: 10,
-      &quot;cohesion&quot;: 0.25,
-      &quot;shared_strong_signals&quot;: [
-        &quot;CVE-2026-123633&quot;
-      ],
-      &quot;member_cves&quot;: [],
-      &quot;also_targets&quot;: [],
-      &quot;cluster_ids&quot;: [
-        &quot;8f2a86fb37&quot;,
-        &quot;dff990f28a&quot;,
-        &quot;5d7989058d&quot;
-      ],
-      &quot;links&quot;: [
-        &quot;https://www.rapid7.com/blog/post/ve-cve-2026-123007-critical-nginx-http-2-integer-underflow-leads-to-rce-fixed&quot;,
-        &quot;https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities&quot;,
-        &quot;https://orca.security/resources/research/two-critical-nginx-http-2-flaws-could-allow-unauthenticated-remote-code-execution/&quot;,
-        &quot;https://www.helpnetsecurity.com/2026/11/19/nginx2root-nginx-vulnerabilities/&quot;,
-        &quot;https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html&quot;,
-        &quot;https://webflow.sysdig.com/blog/nginx2root&quot;,
-        &quot;https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html&quot;,
-        &quot;https://openssf.org/podcast/2026/11/18/whats-in-the-soss-podcast-78-s3e30-from-signal-processing-to-open-source-security-sal-kimmich-on-linux-kernel-defense/&quot;,
-        &quot;https://blog.cloudflare.com/nginx2root/&quot;
       ]
     },
     {
@@ -1057,38 +975,51 @@
       ]
     },
     {
-      &quot;label&quot;: &quot;phishing social eng targeting Microsoft Entra&quot;,
-      &quot;anchor_signal&quot;: &quot;Microsoft Entra&quot;,
-      &quot;theme_key&quot;: &quot;microsoft-entra&quot;,
+      &quot;label&quot;: &quot;Linux kernel exploitation (2 CVEs)&quot;,
+      &quot;anchor_signal&quot;: &quot;Linux kernel&quot;,
+      &quot;theme_key&quot;: &quot;linux-kernel&quot;,
       &quot;dominant_features&quot;: {
-        &quot;threat_categories&quot;: [
-          &quot;phishing_social_eng&quot;
-        ],
         &quot;affected_products&quot;: [
-          &quot;Microsoft 365&quot;,
-          &quot;Microsoft Entra&quot;
+          &quot;Linux kernel&quot;
+        ],
+        &quot;cve_ids&quot;: [
+          &quot;CVE-2026-113425&quot;,
+          &quot;CVE-2026-121810&quot;,
+          &quot;CVE-2026-123007&quot;,
+          &quot;CVE-2026-123633&quot;,
+          &quot;CVE-2026-123634&quot;
         ]
       },
-      &quot;cluster_count&quot;: 3,
-      &quot;article_count&quot;: 7,
-      &quot;cohesion&quot;: 0.295,
+      &quot;cluster_count&quot;: 5,
+      &quot;article_count&quot;: 6,
+      &quot;cohesion&quot;: 0.322,
       &quot;shared_strong_signals&quot;: [
-        &quot;Microsoft Entra&quot;
+        &quot;Linux kernel&quot;
       ],
-      &quot;member_cves&quot;: [],
+      &quot;member_cves&quot;: [
+        &quot;CVE-2026-123007&quot;,
+        &quot;CVE-2026-123633&quot;
+      ],
       &quot;also_targets&quot;: [],
       &quot;cluster_ids&quot;: [
-        &quot;5fccd3b124&quot;,
-        &quot;7631f1e0c7&quot;,
-        &quot;25b49bcf59&quot;
+        &quot;8f2a86fb37&quot;,
+        &quot;dff990f28a&quot;,
+        &quot;5d7989058d&quot;,
+        &quot;cf875bad92&quot;,
+        &quot;5630cc40c4&quot;
       ],
       &quot;links&quot;: [
-        &quot;https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/&quot;,
-        &quot;https://isc.sans.edu/diary/rss/33532&quot;,
-        &quot;https://www.huntress.com/blog/huntress-response-for-microsoft-defender-incidents-across-endpoints-and-microsoft-365&quot;,
-        &quot;https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/&quot;,
-        &quot;https://securitylabs.datadoghq.com/articles/entra-access-packages-part-1-privileges/&quot;,
-        &quot;https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/&quot;
+        &quot;https://www.rapid7.com/blog/post/ve-cve-2026-123007-critical-nginx-http-2-integer-underflow-leads-to-rce-fixed&quot;,
+        &quot;https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities&quot;,
+        &quot;https://orca.security/resources/research/two-critical-nginx-http-2-flaws-could-allow-unauthenticated-remote-code-execution/&quot;,
+        &quot;https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html&quot;,
+        &quot;https://webflow.sysdig.com/blog/nginx2root&quot;,
+        &quot;https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html&quot;,
+        &quot;https://openssf.org/podcast/2026/11/18/whats-in-the-soss-podcast-78-s3e30-from-signal-processing-to-open-source-security-sal-kimmich-on-linux-kernel-defense/&quot;,
+        &quot;https://blog.cloudflare.com/nginx2root/&quot;,
+        &quot;https://cloud.google.com/blog/products/networking/gke-dataplane-v2-in-place-migration/&quot;,
+        &quot;https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/&quot;,
+        &quot;https://www.sophos.com/en-us/blog/patches-released-for-critical-nginx2root-vulnerabilities&quot;
       ]
     },
     {
@@ -1127,6 +1058,41 @@
       ]
     },
     {
+      &quot;label&quot;: &quot;phishing social eng targeting Microsoft Entra&quot;,
+      &quot;anchor_signal&quot;: &quot;Microsoft Entra&quot;,
+      &quot;theme_key&quot;: &quot;microsoft-entra&quot;,
+      &quot;dominant_features&quot;: {
+        &quot;threat_categories&quot;: [
+          &quot;phishing_social_eng&quot;
+        ],
+        &quot;affected_products&quot;: [
+          &quot;Microsoft 365&quot;,
+          &quot;Microsoft Entra&quot;
+        ]
+      },
+      &quot;cluster_count&quot;: 3,
+      &quot;article_count&quot;: 7,
+      &quot;cohesion&quot;: 0.295,
+      &quot;shared_strong_signals&quot;: [
+        &quot;Microsoft Entra&quot;
+      ],
+      &quot;member_cves&quot;: [],
+      &quot;also_targets&quot;: [],
+      &quot;cluster_ids&quot;: [
+        &quot;5fccd3b124&quot;,
+        &quot;7631f1e0c7&quot;,
+        &quot;25b49bcf59&quot;
+      ],
+      &quot;links&quot;: [
+        &quot;https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/&quot;,
+        &quot;https://isc.sans.edu/diary/rss/33532&quot;,
+        &quot;https://www.huntress.com/blog/huntress-response-for-microsoft-defender-incidents-across-endpoints-and-microsoft-365&quot;,
+        &quot;https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/&quot;,
+        &quot;https://securitylabs.datadoghq.com/articles/entra-access-packages-part-1-privileges/&quot;,
+        &quot;https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/&quot;
+      ]
+    },
+    {
       &quot;label&quot;: &quot;CVE-2026-102764 exploitation activity&quot;,
       &quot;anchor_signal&quot;: &quot;CVE-2026-102764&quot;,
       &quot;theme_key&quot;: &quot;cve-2026-102764&quot;,
@@ -1142,7 +1108,7 @@
         ]
       },
       &quot;cluster_count&quot;: 2,
-      &quot;article_count&quot;: 10,
+      &quot;article_count&quot;: 9,
       &quot;cohesion&quot;: 0.2,
       &quot;shared_strong_signals&quot;: [
         &quot;CVE-2026-102764&quot;
@@ -1158,8 +1124,47 @@
         &quot;https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere/&quot;,
         &quot;https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/&quot;,
         &quot;https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html&quot;,
-        &quot;https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/&quot;,
         &quot;https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day&quot;,
+        &quot;https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-breaking-zimbra-s-identity-boundaries&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Cisco vulnerability activity&quot;,
+      &quot;anchor_signal&quot;: &quot;Cisco&quot;,
+      &quot;theme_key&quot;: &quot;cisco&quot;,
+      &quot;dominant_features&quot;: {
+        &quot;affected_products&quot;: [
+          &quot;Cisco&quot;
+        ],
+        &quot;urgency_signals&quot;: [
+          &quot;preauth_unauth&quot;
+        ]
+      },
+      &quot;cluster_count&quot;: 2,
+      &quot;article_count&quot;: 15,
+      &quot;cohesion&quot;: 0.2,
+      &quot;shared_strong_signals&quot;: [
+        &quot;Cisco&quot;
+      ],
+      &quot;member_cves&quot;: [],
+      &quot;also_targets&quot;: [],
+      &quot;cluster_ids&quot;: [
+        &quot;7c92294871&quot;,
+        &quot;ca435a7e76&quot;
+      ],
+      &quot;links&quot;: [
+        &quot;https://webflow.sysdig.com/blog/java4shell-cve-2026-114938-pre-auth-rce-in-openjdk&quot;,
+        &quot;https://blog.talosintelligence.com/java4shell/&quot;,
+        &quot;https://www.rapid7.com/blog/post/etr-cve-2026-114938-reported-critical-pre-authentication-remote-code-execution-java-17&quot;,
+        &quot;https://www.sophos.com/en-us/blog/java4shell-could-allow-remote-code-execution&quot;,
+        &quot;https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html&quot;,
+        &quot;https://securitylabs.datadoghq.com/articles/java4shell-remote-code-execution-in-openjdk-cve-2026-114938/&quot;,
+        &quot;https://blog.cloudflare.com/java4shell-waf-protection/&quot;,
+        &quot;https://www.wiz.io/blog/cve-2026-114938-rce-java4shell-openjdk&quot;,
+        &quot;https://horizon3.ai/attack-research/vulnerabilities/cve-2026-114938/&quot;,
+        &quot;https://orca.security/resources/research/java4shell-critical-openjdk-base64-decoder-flaw-could-allow-unauthenticated-remote-code-execution/&quot;,
+        &quot;https://www.greynoise.io/blog/global-event-java4shell-cve-2026-114938-live-activity-report&quot;,
+        &quot;https://www.helpnetsecurity.com/2026/11/22/week-in-review-java4shell-proves-tricky-to-exploit-malware-planted-via-optimizely-hits-178-orgs/&quot;,
         &quot;https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-breaking-zimbra-s-identity-boundaries&quot;
       ]
     }
@@ -1179,17 +1184,17 @@
         &quot;cohort_count&quot;: 5
       },
       {
-        &quot;cluster_id&quot;: &quot;dec648cd5c&quot;,
-        &quot;title&quot;: &quot;Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 1&quot;,
-        &quot;sources_in_window&quot;: 3,
-        &quot;window_hours&quot;: 3.7,
-        &quot;cohort_count&quot;: 4
-      },
-      {
         &quot;cluster_id&quot;: &quot;8f2a86fb37&quot;,
         &quot;title&quot;: &quot;CVE-2026-123007: Critical NGINX HTTP/2 Integer Underflow Leads to RCE (FIXED)&quot;,
         &quot;sources_in_window&quot;: 3,
         &quot;window_hours&quot;: 3.1,
+        &quot;cohort_count&quot;: 3
+      },
+      {
+        &quot;cluster_id&quot;: &quot;dec648cd5c&quot;,
+        &quot;title&quot;: &quot;Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 1&quot;,
+        &quot;sources_in_window&quot;: 3,
+        &quot;window_hours&quot;: 3.7,
         &quot;cohort_count&quot;: 3
       }
     ],
@@ -1443,6 +1448,62 @@
   },
   &quot;items&quot;: [
     {
+      &quot;source&quot;: &quot;Help Net Security&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;Debian 13.8 bundles kernel and Chromium security fixes with a 122-package bugfix list&quot;,
+      &quot;link&quot;: &quot;https://www.helpnetsecurity.com/2026/11/23/debian-13-8-released/&quot;,
+      &quot;published&quot;: &quot;2026-11-22T23:05:09+00:00&quot;,
+      &quot;summary&quot;: &quot;The Debian project released Debian 13.8, the eighth update to its stable “trixie” series. It mainly carries security fixes, plus corrections for a few serious bugs, and it bundles advisories Debian had already published separately. If you run trixie, here is what to check. The security table runs from DSA-6408 to DSA-6629 (a DSA is a Debian Security Advisory). It covers Chromium, Firefox ESR, OpenJDK 25, nginx, BIND 9, Dovecot, rsync, PostgreSQL 17 and the … More → The post Debian 13.8 bundles kernel and Chromium security fixes with a 122-package bugfix list appeared first on Help Net Security .&quot;,
+      &quot;author&quot;: &quot;Anamarija Pogorelec&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 6
+    },
+    {
+      &quot;source&quot;: &quot;BleepingComputer&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices&quot;,
+      &quot;link&quot;: &quot;https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/&quot;,
+      &quot;published&quot;: &quot;2026-11-22T18:45:37+00:00&quot;,
+      &quot;summary&quot;: &quot;GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers&#x27; routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]&quot;,
+      &quot;author&quot;: &quot;Lawrence Abrams&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 6
+    },
+    {
       &quot;source&quot;: &quot;BleepingComputer&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
@@ -1515,7 +1576,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 8
+      &quot;score&quot;: 7
     },
     {
       &quot;source&quot;: &quot;Troy Hunt&quot;,
@@ -1605,7 +1666,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 5
+      &quot;score&quot;: 4
     },
     {
       &quot;source&quot;: &quot;BleepingComputer&quot;,
@@ -2141,6 +2202,40 @@
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
+      &quot;source&quot;: &quot;BleepingComputer&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;Hackers use autonomous AI tool Cairn to find zero-day, take over server&quot;,
+      &quot;link&quot;: &quot;https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/&quot;,
+      &quot;published&quot;: &quot;2026-11-20T17:30:00+00:00&quot;,
+      &quot;summary&quot;: &quot;Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]&quot;,
+      &quot;author&quot;: &quot;Bill Toulas&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [
+          &quot;zero_day&quot;
+        ],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [
+          &quot;healthcare&quot;
+        ],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [
+          &quot;zero_day&quot;
+        ],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 8
+    },
+    {
       &quot;source&quot;: &quot;The Record&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
@@ -2185,40 +2280,6 @@
       &quot;score&quot;: 12,
       &quot;full_body&quot;: &quot;Image: Planet Volumes via Unsplash Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university Chinese hackers used an AI tool called Cairn to allegedly discover a zero-day while breaching several universities in Asia, according to a new report from Amazon’s Threat Intelligence team. CJ Moses, CISO of Amazon Integrated Security, said their investigation began on September 10, when they discovered a publicly accessible server with a publicly hosted instance of Cairn — an open-source autonomous AI penetration-testing framework. They were able to view the operational history of the platform, including previous prompts and more. The operator wrote their prompts in Simplified Chinese and the timestamps were configured to China Standard Time. The targeted victim organizations were universities in East Asia. Moses explained that Cairn is ideal for attackers because, when given a starting point and objective in plain language, it can coordinate multiple AI agents to complete a task. In this incident, the attacker provided IP addresses and asked Cairn to “obtain shell access” — meaning find a way to gain enough access to a system for various actions to be taken. “Based on those inputs, the AI agents planned, executed, and adjusted their approach as they learned, without the operator choosing each next step,” Moses said. One of the attempts involved 148 actions taken over 16 hours that were ultimately unsuccessful, including a failed attempt at exploiting the Log4Shell vulnerability. Another failed effort saw Cairn try for more than six hours to breach university servers by testing more than 30,000 credential combinations tied to 80 real usernames. The only successful attempt occurred when the agents discovered a vulnerability in an open-source medical imaging AI application and exploited it. “At the time of discovery, this path traversal vulnerability in the medical imaging application did not correspond to any assigned security advisory and was unpatched,” Moses said. “Amazon Threat Intelligence assesses with high confidence that it was a zero-day based on the absence of any corresponding fix, issue, advisory, or prior mention in vulnerability databases for the affected open-source project.” The attacker then used the same apparent zero-day to breach a second university. Moses said Amazon Threat Intelligence contacted the maintainers behind the open-source medical imaging AI application and they fixed the bug that was discovered. He added that AWS “worked with a government partner to notify the organizations about the activity.” AWS declined to name the universities or the country they are in. Moses said the campaign stood out because of the speed and operational tempo of the AI agents. An agent that discovers and exploits a zero-day in minutes “completes its activity faster than many security operations centers can manually triage an alert,” Moses warned, noting that the agents “ran continuously for 16 hours without breaks, sleep, or working-hour constraints.” Artex vs. Cairn Cybersecurity researchers and law enforcement agencies have released multiple warnings in recent weeks about AI-backed offensive cyber tools that are being used by attackers, particularly those from China. The FBI published an advisory about AI tool Artex one week ago, writing that it could take any large language model and turn it into a powerful hacking tool that can “automate multiple phases of cyber intrusions at machine speed, from reconnaissance through data exfiltration.” Artex was implicated in multiple attacks on South Korean and Japanese financial institutions while Microsoft said Artex was used by Chinese state-backed actors in a recent supply chain attack on IT management software company ConnectWise . Moses said last week that Artex was seen used in credential theft attacks on AI models and in campaigns targeting crypto exchanges. Cairn was also spotlighted by Google researchers on Tuesday in a report abo&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
-    },
-    {
-      &quot;source&quot;: &quot;BleepingComputer&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;Hackers use autonomous AI tool Cairn to find zero-day, take over server&quot;,
-      &quot;link&quot;: &quot;https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/&quot;,
-      &quot;published&quot;: &quot;2026-11-20T17:30:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]&quot;,
-      &quot;author&quot;: &quot;Bill Toulas&quot;,
-      &quot;in_window&quot;: true,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [
-          &quot;zero_day&quot;
-        ],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [
-          &quot;healthcare&quot;
-        ],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [
-          &quot;zero_day&quot;
-        ],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      },
-      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Microsoft Security Blog&quot;,
@@ -3315,7 +3376,7 @@
       &quot;score&quot;: 4
     },
     {
-      &quot;source&quot;: &quot;Cloudflare Radar&quot;,
+      &quot;source&quot;: &quot;Cloudflare Security&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;category&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;title&quot;: &quot;nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them&quot;,
@@ -3370,7 +3431,7 @@
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
-      &quot;source&quot;: &quot;Cloudflare Security&quot;,
+      &quot;source&quot;: &quot;Cloudflare Radar&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;category&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;title&quot;: &quot;nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them&quot;,
@@ -3426,42 +3487,6 @@
         }
       },
       &quot;score&quot;: 5
-    },
-    {
-      &quot;source&quot;: &quot;BleepingComputer&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;VMware patches vCenter zero-day exploited in attacks since September&quot;,
-      &quot;link&quot;: &quot;https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/&quot;,
-      &quot;published&quot;: &quot;2026-11-20T00:26:25+00:00&quot;,
-      &quot;summary&quot;: &quot;Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]&quot;,
-      &quot;author&quot;: &quot;Lawrence Abrams&quot;,
-      &quot;in_window&quot;: true,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [
-          &quot;zero_day&quot;
-        ],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [
-          &quot;VMware&quot;
-        ],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [
-          &quot;zero_day&quot;
-        ],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {
-          &quot;VMware&quot;: &quot;target&quot;
-        },
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      },
-      &quot;score&quot;: 12
     },
     {
       &quot;source&quot;: &quot;Recorded Future&quot;,
@@ -3806,49 +3831,6 @@
         }
       },
       &quot;score&quot;: 4
-    },
-    {
-      &quot;source&quot;: &quot;Help Net Security&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;NGINX2Root: F5 patches five critical NGINX vulnerabilities&quot;,
-      &quot;link&quot;: &quot;https://www.helpnetsecurity.com/2026/11/19/nginx2root-nginx-vulnerabilities/&quot;,
-      &quot;published&quot;: &quot;2026-11-19T18:25:50+00:00&quot;,
-      &quot;summary&quot;: &quot;F5 has patched five critical vulnerabilities in NGINX, the world’s most widely used open-source web server, that can allow remote code execution under certain conditions. Dubbed “NGINX2Root” by Xint researchers, two of the bunch (CVE-2026-123633 and CVE-2026-123007) were also independently unearthed and reported by Rapid7, Wiz, Ikotas Labs, Palo Alto Networks and Metnir researchers. There’s no evidence that any of them has been exploited in the wild, and none were on CISA’s Known Exploited Vulnerabilities … More → The post NGINX2Root: F5 patches five critical NGINX vulnerabilities appeared first on Help Net Security .&quot;,
-      &quot;author&quot;: &quot;Zeljka Zorz&quot;,
-      &quot;in_window&quot;: true,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [
-          &quot;active_exploitation&quot;
-        ],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [
-          &quot;CVE-2026-123633&quot;,
-          &quot;CVE-2026-123007&quot;
-        ],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [
-          &quot;actively_exploited&quot;
-        ],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {
-          &quot;Palo Alto Networks&quot;: &quot;vendor&quot;
-        },
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: [
-            [
-              &quot;Palo Alto Networks&quot;,
-              &quot;vendor&quot;,
-              0.59
-            ]
-          ]
-        }
-      },
-      &quot;score&quot;: 19
     },
     {
       &quot;source&quot;: &quot;Horizon3 Attack Research&quot;,
@@ -6532,22 +6514,38 @@
       &quot;author&quot;: &quot;&quot;,
       &quot;in_window&quot;: true,
       &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
+        &quot;threat_categories&quot;: [
+          &quot;ddos&quot;
+        ],
         &quot;actor_attribution&quot;: [],
         &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
+        &quot;affected_products&quot;: [
+          &quot;Linux kernel&quot;,
+          &quot;Docker&quot;
+        ],
         &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
+        &quot;cve_ids&quot;: [
+          &quot;CVE-2026-123007&quot;,
+          &quot;CVE-2026-123633&quot;,
+          &quot;CVE-2026-123634&quot;,
+          &quot;CVE-2026-121810&quot;,
+          &quot;CVE-2026-113425&quot;
+        ],
         &quot;attack_techniques&quot;: [],
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;news_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
+        &quot;role_map&quot;: {
+          &quot;Linux kernel&quot;: &quot;target&quot;,
+          &quot;Docker&quot;: &quot;target&quot;
+        },
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 8
+      &quot;score&quot;: 8,
+      &quot;full_body&quot;: &quot;Patches released for critical ‘NGINX2Root’ vulnerabilities Written by Sophos X-Ops Threat Research advisory vulnerability NGINX Share This Link Copied On November 18, 2026, F5 published security advisories for five critical (CVSS v4.0 score of 9.2) vulnerabilities that Xint has collectively dubbed ‘ NGINX2Root ’: ( K000163925 , K000163926 , K000163927 , K000163928 , and K000163931 ). The issues affect NGINX Open Source and NGINX Plus configurations. Exploitation could lead to crashes, denial of service, memory corruption, or code execution. According to F5, code execution requires ASLR to be disabled or bypassed. Two of the vulnerabilities relate to NGINX HTTP/2 handling, and Wiz Research reports that they can be used to bypass Address Space Layout Randomization (ASLR): CVE-2026-123007 is an integer underflow issue in HTTP/2 flow control CVE-2026-123633 is a use-after-free issue affecting HTTP/2 connections that are proxied to a backend The other three issues are use-after-free flaws that require specific configurations: CVE-2026-123634 affects the NGINX resolver in some NGINX Open Source versions when NGINX proxies to a server name that contains variables and an SSI or mirror directive sends a subrequest that resolves the same name CVE-2026-121810 affects HTTP/3 configurations in some NGINX Open Source versions CVE-2026-113425 affects some NGINX Open Source versions when configured as a mail proxy server Xint reports that each vulnerability can be chained with a separate Linux kernel SCTP vulnerability to obtain root privileges on the host, including when NGINX runs in a Docker container. Recommended actions Organizations should review the F5 advisories and upgrade vulnerable versions as appropriate. Updated source code and Linux packages for NGINX Open Source are also available from the NGINX website . Packages may not be immediately available for older, unsupported distributions. Xint notes that nginx -s reload does not load the new binary, so NGINX must be restarted or its binary upgraded after updating. If immediate upgrades are not possible, F5 advises avoiding SSI or mirror directives and proxied server names with variables (CVE-2026-123634), and restricting mail proxy listeners to trusted networks (CVE-2026-113425). For the HTTP/2 flaws, Wiz and Xint recommend disabling HTTP/2 on affected listeners but note that there may be implications for that action. Sophos countermeasures SophosLabs continues to monitor the threat landscape for activity related to this vulnerability and will deliver detections and protections as available. An internal investigation is also underway to determine if Sophos products or services are affected. About the Author(s) Sophos X-Ops Representing a powerful evolution in cyber defense, Sophos X-Ops is a joint task force of multiple specialized teams, purpose-built to address the growing complexity of today’s cyberthreat landscape.&quot;,
+      &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
       &quot;source&quot;: &quot;Sysdig&quot;,
@@ -8781,7 +8779,7 @@
       &quot;published&quot;: &quot;2026-11-16T00:04:19+00:00&quot;,
       &quot;summary&quot;: &quot;Germany grounds UAVs after a supply chain attack, a threat actor accessed Barracuda’s cloud for two days, the US AI task force asks for regulatory leniency and the FBI disrupts a North Korean face-swapping operation.&quot;,
       &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: true,
+      &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [
           &quot;supply_chain&quot;
@@ -8799,10 +8797,34 @@
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
-      },
-      &quot;score&quot;: 9,
-      &quot;full_body&quot;: &quot;Risky Bulletin Podcast November 16, 2026 Risky Bulletin: Cyberattack grounds German UAVs Presented by Catalin Cimpanu News Editor Claire Aird Newsreader Germany grounds UAVs after a supply chain attack, a threat actor accessed Barracudaâs cloud for two days, the US AI task force asks for regulatory leniency and the FBI disrupts a North Korean face-swapping operation. Your browser does not support the audio element. Risky Bulletin: Cyberattack grounds German UAVs â¶ 0:00 / 8:42 Subscribe Brought to you by Thinkst Know. When it Matters! Show notes Risky Bulletin: Hackers accessed Barracuda&#x27;s cloud&quot;,
-      &quot;fetch_status&quot;: &quot;ok&quot;
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Simon Willison&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;category&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;title&quot;: &quot;datasette-maplibre 0.1a0&quot;,
+      &quot;link&quot;: &quot;https://simonwillison.net/2026/Nov/15/datasette-maplibre/&quot;,
+      &quot;published&quot;: &quot;2026-11-15T23:58:36+00:00&quot;,
+      &quot;summary&quot;: &quot;Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub .) I built most of this with a single prompt to Claude Fable 5.2: Look at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/dev/tools/openfreemap-demo.html - then build a brand new Datasette plugin that uses maplibreGL and openfreemap and combines the features of those other two plugins - but be creative and think outside the box for other useful features the plugin might have \&quot;Be creative and think outside the box\&quot; resulted in a few neat ideas - my favorite is that it displays SVG previews of GeoJSON shapes, then loads a WebGL preview only when they scroll into view. I also had Claude build a comprehensive demo which works in the latest Datasette Lite, so you can visit this link to load the plugin and a demo datab&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
     },
     {
       &quot;source&quot;: &quot;Simon Willison&quot;,
@@ -8813,7 +8835,7 @@
       &quot;published&quot;: &quot;2026-11-15T23:20:27+00:00&quot;,
       &quot;summary&quot;: &quot;Release: datasette 1.0a43 I&#x27;ve been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and plugins can register themselves as capable of streaming every row in a table in one go via the new Response.stream() method. There are a couple of security fixes, one of which I deemed deserving of a GitHub advisory : private stored queries could be exposed, granting access to the title and SQL of the query (but not allowing that query to be executed). There are dozens of smaller improvements. The row page JSON representation finally has a design suitable for 1.0 . A new &lt;datasette-copy-button&gt; Web Component provides copy-schema in various places. JSON in columns on the row page can be pretty-printed. There&#x27;s a new DatasetteModal.confirm() JavaScript utility method. Plus dozens of bug fixes, includ&quot;,
       &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: true,
+      &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [],
         &quot;actor_attribution&quot;: [],
@@ -8835,17 +8857,16 @@
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
-      },
-      &quot;score&quot;: 6
+      }
     },
     {
-      &quot;source&quot;: &quot;SANS Internet Storm Center&quot;,
-      &quot;cohort&quot;: &quot;government_authoritative&quot;,
-      &quot;category&quot;: &quot;government_authoritative&quot;,
-      &quot;title&quot;: &quot;YARA-X 1.23.0 Release, (Sun, Nov 15th)&quot;,
-      &quot;link&quot;: &quot;https://isc.sans.edu/diary/rss/33496&quot;,
-      &quot;published&quot;: &quot;2026-11-15T18:17:27+00:00&quot;,
-      &quot;summary&quot;: &quot;YARA-X&amp;#39&amp;#x3b;s 1.23.0 release brings 4 improvements and 16 bugfixes.&quot;,
+      &quot;source&quot;: &quot;Simon Willison&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;category&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;title&quot;: &quot;datasette 0.65.6&quot;,
+      &quot;link&quot;: &quot;https://simonwillison.net/2026/Nov/15/datasette-2/&quot;,
+      &quot;published&quot;: &quot;2026-11-15T23:18:17+00:00&quot;,
+      &quot;summary&quot;: &quot;Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from /&lt;route&gt;.db by actors who were denied access to it. [...] Tags: security , datasette&quot;,
       &quot;author&quot;: &quot;&quot;,
       &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
@@ -8857,8 +8878,35 @@
         &quot;cve_ids&quot;: [],
         &quot;attack_techniques&quot;: [],
         &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_1_government&quot;,
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Risky Business News&quot;,
+      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
+      &quot;category&quot;: &quot;practitioner_analysis&quot;,
+      &quot;title&quot;: &quot;Thinkst on the defensive AI cyber space&quot;,
+      &quot;link&quot;: &quot;https://risky.biz/RBNEWSSI151/&quot;,
+      &quot;published&quot;: &quot;2026-11-15T19:22:09+00:00&quot;,
+      &quot;summary&quot;: &quot;In this Risky Business sponsored interview, Catalin Cimpanu talks with Thinkst CTO Marco Slaviero about the state of the defensive AI cyber space and the company’s current agentic canaries, as well as the need for more experimentation.&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_3_analysis&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
@@ -13623,33 +13671,6 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Dark Reading&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;NIST: Solo Shouldn&#x27;t Mean Less Secure&quot;,
-      &quot;link&quot;: &quot;https://www.darkreading.com/cybersecurity-operations/nist-solo-shouldnt-mean-less-secure&quot;,
-      &quot;published&quot;: &quot;2026-11-09T15:46:10+00:00&quot;,
-      &quot;summary&quot;: &quot;New guidance provides a basic framework for less-technical solo business owners, but it may miss the mark on how to secure technology that requires no human oversight.&quot;,
-      &quot;author&quot;: &quot;Arielle Waldman&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;low_signal&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
       &quot;source&quot;: &quot;OpenSSF Blog&quot;,
       &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
       &quot;category&quot;: &quot;ai_security_agentic_risk&quot;,
@@ -16079,7 +16100,7 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Cloudflare Radar&quot;,
+      &quot;source&quot;: &quot;Cloudflare Security&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;category&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;title&quot;: &quot;Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities&quot;,
@@ -16106,7 +16127,7 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Cloudflare Security&quot;,
+      &quot;source&quot;: &quot;Cloudflare Radar&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;category&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;title&quot;: &quot;Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities&quot;,
@@ -19366,6 +19387,33 @@
       }
     },
     {
+      &quot;source&quot;: &quot;Cloudflare Security&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;category&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;title&quot;: &quot;Introducing the Cloudflare PHP Capture the Flag challenge&quot;,
+      &quot;link&quot;: &quot;https://blog.cloudflare.com/php-ctf/&quot;,
+      &quot;published&quot;: &quot;2026-10-27T13:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.&quot;,
+      &quot;author&quot;: &quot;Dan Jones&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
       &quot;source&quot;: &quot;Cloudflare Radar&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;category&quot;: &quot;cloud_identity_infrastructure&quot;,
@@ -19381,33 +19429,6 @@
         &quot;affected_industries&quot;: [
           &quot;government&quot;
         ],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;low_signal&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;Cloudflare Security&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;category&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;title&quot;: &quot;Introducing the Cloudflare PHP Capture the Flag challenge&quot;,
-      &quot;link&quot;: &quot;https://blog.cloudflare.com/php-ctf/&quot;,
-      &quot;published&quot;: &quot;2026-10-27T13:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.&quot;,
-      &quot;author&quot;: &quot;Dan Jones&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
         &quot;affected_products&quot;: [],
         &quot;tools_used&quot;: [],
         &quot;cve_ids&quot;: [],
@@ -41867,33 +41888,6 @@
         &quot;threat_categories&quot;: [
           &quot;data_breach&quot;
         ],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_3_analysis&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;Risky Business News&quot;,
-      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
-      &quot;category&quot;: &quot;practitioner_analysis&quot;,
-      &quot;title&quot;: &quot;Sponsored: Why Sublime doesn’t toss AI at every email&quot;,
-      &quot;link&quot;: &quot;https://risky.biz/RBNEWSSI135/&quot;,
-      &quot;published&quot;: &quot;2026-07-10T02:54:48+00:00&quot;,
-      &quot;summary&quot;: &quot;In this Risky Business sponsored interview, Tom Uren chats with Sublime Security Product Manager AJ Williams about how the company targets its AI use. Rather than throwing its AI agents at everything, Sublime gives them the time-consuming email security tasks that humans don’t want to do. Its ASA (Autonomous Security Analyst) agent investigates suspicious and user-reported messages, while the ADÉ (Autonomous Detection Engineer) agent writes new detection coverage for attacks that slipped through.&quot;,
-      &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
         &quot;actor_attribution&quot;: [],
         &quot;affected_industries&quot;: [],
         &quot;affected_products&quot;: [],
