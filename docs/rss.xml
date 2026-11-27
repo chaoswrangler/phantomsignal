@@ -6,9 +6,78 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 26 Nov 2026 23:39:17 +0000</lastBuildDate>
+<lastBuildDate>Fri, 27 Nov 2026 07:49:36 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Hex Package Manager Warns of Potential Data Breach</title>
+<link>https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/</link>
+<description><![CDATA[A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged. The post Hex Package Manager Warns of Potential Data Breach appeared first on SecurityWeek .<br/><br/><em>Tags: Palo Alto Networks · CVE-2026-129514 · CVE-2026-124283 · CVE-2026-133555 · CVE-2026-130411 · data_breach</em>]]></description>
+<pubDate>Fri, 27 Nov 2026 07:44:49 +0000</pubDate>
+<guid isPermaLink="true">https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/</guid>
+<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
+<category>cyber_news_breach_reporting</category>
+<category>Palo Alto Networks</category>
+<category>CVE-2026-129514</category>
+<category>CVE-2026-124283</category>
+<category>CVE-2026-133555</category>
+</item>
+<item>
+<title>SAP Confirms Cyberattack, Source Code Reportedly Compromised</title>
+<link>https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/</link>
+<description><![CDATA[SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code. The post SAP Confirms Cyberattack, Source Code Reportedly Compromised appeared first on SecurityWeek .<br/><br/><em>Tags: Palo Alto Networks · Azure · Anthropic/Claude · ShinyHunters · ransomware_extortion · data_breach</em>]]></description>
+<pubDate>Fri, 27 Nov 2026 07:36:14 +0000</pubDate>
+<guid isPermaLink="true">https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/</guid>
+<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
+<category>cyber_news_breach_reporting</category>
+<category>Palo Alto Networks</category>
+<category>Azure</category>
+<category>Anthropic/Claude</category>
+<category>ShinyHunters</category>
+</item>
+<item>
+<title>Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators</title>
+<link>https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html</link>
+<description><![CDATA[Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country&apos;s cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and two of those succeeded, with no major disruptions reported. The victims have not been named, and it is not known who is]]></description>
+<pubDate>Fri, 27 Nov 2026 06:04:20 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Product showcase: Norton helps Claude users uncover the telltale signs of fraud</title>
+<link>https://www.helpnetsecurity.com/2026/11/27/product-showcase-norton-claude-scam-detection/</link>
+<description><![CDATA[The Norton connector for Claude brings the company’s Genie AI-powered scam detection capabilities into the chatbot. Users can submit suspicious emails, text messages, screenshots, and links for analysis, as well as ask questions about cybersecurity, privacy, and identity protection. The integration does not require a Norton account or a separate application. Setting up the connector I tested the Norton connector using Claude on an iPhone. The integration provides three tools. The first checks links, messages, … More → The post Product showcase: Norton helps Claude users uncover the telltale signs of fraud appeared first on Help Net Security .<br/><br/><em>Tags: Anthropic/Claude · ransomware_extortion · phishing_social_eng</em>]]></description>
+<pubDate>Fri, 27 Nov 2026 06:00:59 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/11/27/product-showcase-norton-claude-scam-detection/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>Anthropic/Claude</category>
+<category>ransomware_extortion</category>
+<category>phishing_social_eng</category>
+</item>
+<item>
+<title>Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access</title>
+<link>https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html</link>
+<description><![CDATA[Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. &quot;I found a path from a fresh, unauthenticated HTTP session to command execution as the Cacti server<br/><br/><em>Tags: CVE-2026-99312 · phishing_social_eng · zero_day</em>]]></description>
+<pubDate>Fri, 27 Nov 2026 05:48:20 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>CVE-2026-99312</category>
+<category>phishing_social_eng</category>
+<category>zero_day</category>
+</item>
+<item>
+<title>Risky Bulletin: Hackers breach Erlang and Elixir package manager</title>
+<link>https://risky.biz/RBNEWS639/</link>
+<description><![CDATA[Erlang and Elixir’s package manager gets hacked, FinCEN investigates a security breach, 1Password got owned through an employee’s GitHub account, and Russia will try to build a GitHub clone. Again.<br/><br/><em>Tags: GitHub</em>]]></description>
+<pubDate>Thu, 26 Nov 2026 23:45:35 +0000</pubDate>
+<guid isPermaLink="true">https://risky.biz/RBNEWS639/</guid>
+<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
+<category>practitioner_analysis</category>
+<category>GitHub</category>
+</item>
 <item>
 <title>Fake paid expert interviews impersonate brands to steal Google logins</title>
 <link>https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/</link>
@@ -46,14 +115,11 @@
 <item>
 <title>Critical Juniper Session Smart Conductor Flaw Exploited in Attacks</title>
 <link>https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/</link>
-<description><![CDATA[Tracked as CVE-2026-103406, the vulnerability allows remote attackers to execute arbitrary commands as root. The post Critical Juniper Session Smart Conductor Flaw Exploited in Attacks appeared first on SecurityWeek .<br/><br/><em>Tags: Palo Alto Networks · Drupal · ShinyHunters · CVE-2026-103406 · data_breach</em>]]></description>
+<description><![CDATA[Tracked as CVE-2026-103406, the vulnerability allows remote attackers to execute arbitrary commands as root. The post Critical Juniper Session Smart Conductor Flaw Exploited in Attacks appeared first on SecurityWeek .<br/><br/><em>Tags: CVE-2026-103406</em>]]></description>
 <pubDate>Thu, 26 Nov 2026 13:04:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
-<category>Palo Alto Networks</category>
-<category>Drupal</category>
-<category>ShinyHunters</category>
 <category>CVE-2026-103406</category>
 </item>
 <item>
@@ -217,25 +283,6 @@
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>CVE-2026-133275</category>
-</item>
-<item>
-<title>More than 4,400 malicious domains are waiting for holiday shoppers</title>
-<link>https://www.helpnetsecurity.com/2026/11/26/fortinet-holiday-shopping-cyber-threats-report/</link>
-<description><![CDATA[Cybercriminals are positioned to exploit the holiday shopping season through fraudulent storefronts, retailer impersonation, payment fraud and account takeover attacks, according to FortiGuard Labs’ Holiday Season Cyber Threats Report 2026. Researchers identified more than 24,000 newly registered domains containing keywords associated with seasonal shopping over a 90-day period, including more than 4,400 classified as malicious. Underground marketplaces are facilitating the trade in stolen customer information, access to e-commerce infrastructure and services that support financial fraud. … More → The post More than 4,400 malicious domains are waiting for holiday shoppers appeared first on Help Net Security .]]></description>
-<pubDate>Thu, 26 Nov 2026 06:00:53 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/11/26/fortinet-holiday-shopping-cyber-threats-report/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Google mandates MCP or CLI access for Workspace AI agents starting February 2027</title>
-<link>https://www.helpnetsecurity.com/2026/11/26/google-ai-agent-security-requirements/</link>
-<description><![CDATA[Google has announced security controls across Google Workspace and Google Cloud to address the risks associated with autonomous AI agents accessing enterprise data, executing tasks, and interacting with cloud infrastructure. The measures include dedicated agent identities, human approval controls for sensitive operations, prompt injection screening, and restrictions on how third-party AI tools access and process organizational data. The company also announced the general availability of its Workspace Model Context Protocol (MCP) servers and command-line interface … More → The post Google mandates MCP or CLI access for Workspace AI agents starting February 2027 appeared first on Help Net Security .<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Thu, 26 Nov 2026 05:30:05 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/11/26/google-ai-agent-security-requirements/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>ai_security</category>
 </item>
 <item>
 <title>The New York Times warns photographers not to update Photoshop over AI features</title>
@@ -1677,39 +1724,40 @@
 <category>Cisco</category>
 </item>
 <item>
-<title>ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs</title>
-<link>https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html</link>
-<description><![CDATA[Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. &quot;ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through separate chains while retaining ClickFix and signed binary sideloading techniques,&quot; Blackpoint]]></description>
-<pubDate>Fri, 20 Nov 2026 07:11:39 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
+<title>llm-gemini 0.38.1</title>
+<link>https://simonwillison.net/2026/Nov/20/llm-gemini/</link>
+<description><![CDATA[Release: llm-gemini 0.38.1 Gemini 4 Carbon only supports low , medium and high reasoning levels - but Gemini 4 Hydrogen and Gemini 4 Neon both have an extra xhigh level. I missed that when I added those models to the llm-gemini plugin, which is now fixed in this dot release. The xhigh setting for Hydrogen makes a significant difference. I updated my Gemini 4 comparison grid - note how Hydrogen at high used 5,311 output tokens and cost 3.99 cents, but the same model at xhigh used 31,477 output tokens, cost 23.61 cents, and produced a pelican that&apos;s competitive with Gemini 4 Neon: Tags: gemini , llm , llm-reasoning , pelican-riding-a-bicycle , ai , llms , google , generative-ai]]></description>
+<pubDate>Fri, 20 Nov 2026 03:01:57 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Nov/20/llm-gemini/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It</title>
-<link>https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html</link>
-<description><![CDATA[A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker<br/><br/><em>Tags: GitHub · VMware · CVE-2026-99312 · zero_day</em>]]></description>
-<pubDate>Fri, 20 Nov 2026 05:30:01 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>GitHub</category>
-<category>VMware</category>
-<category>CVE-2026-99312</category>
-<category>zero_day</category>
+<title>Token fraud is here and it’s BAD (YouTube)</title>
+<link>https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/</link>
+<description><![CDATA[Token fraud is here and it’s BAD (YouTube) Claire Vo runs ChatPRD , an AI platform that helps product managers &quot;turn an idea into a spec&quot;. The product has been live since the GPT-4 era, and Claire has been building it in public for much of that time. In this YouTube video (see also the accompanying Twitter post ) Claire describes the flood of token fraud she has seen from groups abusing the product&apos;s free trial, sometimes just to get free AI usage but often to resell tokens or run other commercial enterprises on top of the ChatPRD agent. I am funding a international Roblox and Fortnite map studio. They run a loop of free trials and promo codes and then tunnel to my agent and use it to build Roblox and Fortnite maps. Apparently one of the common prompts Claire saw running through her agent involved SVGs of pelicans riding bicycles! Presumably the token scammers are using that to help sniff the underlying models - different model families have a definite signature, and I&apos;ve used it like ]]></description>
+<pubDate>Fri, 20 Nov 2026 02:49:57 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>ISC Stormcast For Friday, November 20th, 2026 https://isc.sans.edu/podcastdetail/10188, (Fri, Nov 20th)</title>
+<link>https://isc.sans.edu/diary/rss/33538</link>
+<description><![CDATA[(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.]]></description>
+<pubDate>Fri, 20 Nov 2026 02:00:02 +0000</pubDate>
+<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33538</guid>
+<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
+<category>government_authoritative</category>
 </item>
 <item>
 <title>nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them</title>
 <link>https://blog.cloudflare.com/nginx2root/</link>
-<description><![CDATA[Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare&apos;s proxy are shielded from the most serious of these bugs.<br/><br/><em>Tags: Palo Alto Networks · AWS · Azure · CVE-2026-123007 · CVE-2026-123633 · CVE-2026-118899 · CVE-2026-121810 · CVE-2026-123634</em>]]></description>
+<description><![CDATA[Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare&apos;s proxy are shielded from the most serious of these bugs.]]></description>
 <pubDate>Fri, 20 Nov 2026 01:58:29 +0000</pubDate>
 <guid isPermaLink="true">https://blog.cloudflare.com/nginx2root/</guid>
 <source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
 <category>cloud_identity_infrastructure</category>
-<category>Palo Alto Networks</category>
-<category>AWS</category>
-<category>Azure</category>
-<category>CVE-2026-123007</category>
 </item>
 <item>
 <title>nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them</title>
@@ -1732,13 +1780,29 @@
 <item>
 <title>AI Joins the Industrial Attack Workflow</title>
 <link>https://www.recordedfuture.com/blog/ai-industrial-attack-workflow</link>
-<description><![CDATA[Insikt Group analyzes how GreenJuliett and AI frameworks like ARTEX are accelerating cyberattacks on OT networks.<br/><br/><em>Tags: Fortinet · apt_espionage</em>]]></description>
+<description><![CDATA[Insikt Group analyzes how GreenJuliett and AI frameworks like ARTEX are accelerating cyberattacks on OT networks.]]></description>
 <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.recordedfuture.com/blog/ai-industrial-attack-workflow</guid>
 <source url="https://www.recordedfuture.com/feed">Recorded Future</source>
 <category>threat_research_primary</category>
-<category>Fortinet</category>
-<category>apt_espionage</category>
+</item>
+<item>
+<title>ARTEX, and the offensive tool powered by LLMjacking five months earlier</title>
+<link>https://webflow.sysdig.com/blog/artex-and-the-offensive-tool-powered-by-llmjacking-five-months-earlier</link>
+<description><![CDATA[]]></description>
+<pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://webflow.sysdig.com/blog/artex-and-the-offensive-tool-powered-by-llmjacking-five-months-earlier</guid>
+<source url="https://sysdig.com/feed/">Sysdig</source>
+<category>detection_response_operations</category>
+</item>
+<item>
+<title>Who&apos;s accountable when the worker is an agent?</title>
+<link>https://webflow.sysdig.com/blog/whos-accountable-when-the-worker-is-an-agent</link>
+<description><![CDATA[If something goes wrong with your work, you know you&apos;re accountable. But what takes the place of accountability when an AI agent is doing the work?]]></description>
+<pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://webflow.sysdig.com/blog/whos-accountable-when-the-worker-is-an-agent</guid>
+<source url="https://sysdig.com/feed/">Sysdig</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>The Blueprint: How Kult built a gaming companion that actually knows your game</title>
@@ -8058,20 +8122,20 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>Using TLS to protect data</title>
-<link>https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data</link>
-<description><![CDATA[Recommended profiles to securely configure TLS for the most common versions and scenarios, with additional guidance for managing older versions.]]></description>
-<pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data</guid>
-<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
-<category>government_authoritative</category>
-</item>
-<item>
 <title>Post-quantum updates to our TLS guidance</title>
 <link>https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance</link>
 <description><![CDATA[The NCSC publishes its recommendations for configuring post-quantum cryptography in TLS. Now is time to migrate.]]></description>
 <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance</guid>
+<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
+<category>government_authoritative</category>
+</item>
+<item>
+<title>Using TLS to protect data</title>
+<link>https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data</link>
+<description><![CDATA[Recommended profiles to securely configure TLS for the most common versions and scenarios, with additional guidance for managing older versions.]]></description>
+<pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data</guid>
 <source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
 <category>government_authoritative</category>
 </item>
@@ -13062,15 +13126,6 @@
 <category>CVE-2026-63030</category>
 <category>CVE-2026-60137</category>
 <category>active_exploitation</category>
-</item>
-<item>
-<title>Risky Bulletin: Hacker wipes Romania&apos;s entire land registry database</title>
-<link>https://risky.biz/RBNEWS589/</link>
-<description><![CDATA[A hacker wipes Romania’s entire land registry database, Magnet Forensics sues a former employee for leaking an iPhone exploit, an autonomous AI agent hacked Hugging Face, and an unauthenticated remote code execution bug was finally found in WordPress.]]></description>
-<pubDate>Mon, 20 Jul 2026 05:22:45 +0000</pubDate>
-<guid isPermaLink="true">https://risky.biz/RBNEWS589/</guid>
-<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
 </item>
 <item>
 <title>Autonomous AI Intrusions Are Here: Lessons from the Hugging Face Compromise</title>
@@ -19443,7 +19498,7 @@
 <title>CrowdStrike Accelerates the Shift to the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-gartner-mq-isoc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 26 Nov 2026 23:39:17 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 07:49:36 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-gartner-mq-isoc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19452,7 +19507,7 @@
 <title>Securing Employees’ AI Use Requires a Unified Architecture</title>
 <link>https://www.crowdstrike.com/en-us/blog/securing-employees-ai-use-requires-unified-architecture/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 26 Nov 2026 23:39:17 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 07:49:36 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/securing-employees-ai-use-requires-unified-architecture/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19461,7 +19516,7 @@
 <title>Reprioritizing Automated Leads with CrowdStrike Signal</title>
 <link>https://www.crowdstrike.com/en-us/blog/reprioritizing-automated-leads-crowdstrike-signal/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 26 Nov 2026 23:39:17 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 07:49:36 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/reprioritizing-automated-leads-crowdstrike-signal/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19470,7 +19525,7 @@
 <title>Java4Shell (CVE-2026-114938): CrowdStrike Detects Exposure and Post-Exploitation Activity</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-java4shell-cve-2026-114938/</link>
 <description><![CDATA[<br/><br/><em>Tags: CVE-2026-114938</em>]]></description>
-<pubDate>Thu, 26 Nov 2026 23:39:17 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 07:49:36 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-java4shell-cve-2026-114938/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19480,7 +19535,7 @@
 <title>NGINX2Root: Identify and Protect with the CrowdStrike Falcon Platform</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-nginx2root-cve-2026-123007/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 26 Nov 2026 23:39:17 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 07:49:36 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-nginx2root-cve-2026-123007/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19489,7 +19544,7 @@
 <title>CrowdStrike Is Building the Engine of the Agentic SOC with Falcon Next-Gen SIEM</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-gartner-mq-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 26 Nov 2026 23:39:17 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 07:49:36 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-gartner-mq-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19498,7 +19553,7 @@
 <title>CrowdStrike Brings the Human Advantage to AI Detection and Response</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-human-advantage-aidr/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 26 Nov 2026 23:39:17 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 07:49:36 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-human-advantage-aidr/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19507,7 +19562,7 @@
 <title>Hidden in the Weights: Supply Chain Risk from Backdoored LoRA Models</title>
 <link>https://www.crowdstrike.com/en-us/blog/supply-chain-risk-from-backdoored-lora-models/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Thu, 26 Nov 2026 23:39:17 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 07:49:36 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/supply-chain-risk-from-backdoored-lora-models/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19517,7 +19572,7 @@
 <title>Inside Falcon AI Gateway: One Control Point for AI Traffic</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-ai-gateway-one-control-point-for-ai-traffic/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 26 Nov 2026 23:39:17 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 07:49:36 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-ai-gateway-one-control-point-for-ai-traffic/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19526,7 +19581,7 @@
 <title>CrowdStrike Named a Leader in the 2026 IDC MarketScape for Worldwide Augmented Identity Security Solutions</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-augmented-identity-security-solutions/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 26 Nov 2026 23:39:17 +0000</pubDate>
+<pubDate>Fri, 27 Nov 2026 07:49:36 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-augmented-identity-security-solutions/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
