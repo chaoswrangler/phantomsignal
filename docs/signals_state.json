@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-27T07:49:35.724700+00:00",
+  "last_run": "2026-11-27T18:00:32.037777+00:00",
   "observations": {
     "cve_ids": {
       "CVE-2026-0257": [
@@ -17902,6 +17902,15 @@
           "products": [
             "VMware"
           ]
+        },
+        {
+          "ts": "2026-11-25T22:09:46+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "VMware"
+          ]
         }
       ],
       "CVE-2026-59310": [
@@ -27786,71 +27795,6 @@
           ]
         },
         {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
           "ts": "2026-09-05T13:00:28+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -29536,134 +29480,6 @@
           "products": []
         }
       ],
-      "CVE-2026-61979": [
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        }
-      ],
       "CVE-2019-1068": [
         {
           "ts": "2026-08-30T08:00:48+00:00",
@@ -31135,385 +30951,6 @@
             "healthcare"
           ],
           "products": []
-        }
-      ],
-      "CVE-2026-18431": [
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
         }
       ],
       "CVE-2023-27351": [
@@ -36749,336 +36186,6 @@
       ],
       "CVE-2026-76581": [
         {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
           "ts": "2026-09-03T10:40:00+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -37168,1208 +36275,6 @@
           "tier": "tier_4_news",
           "industries": [],
           "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        }
-      ],
-      "CVE-2026-19598": [
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        }
-      ],
-      "CVE-2026-19632": [
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        }
-      ],
-      "CVE-2026-82222": [
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
             "WordPress"
           ]
         }
@@ -60034,71 +57939,6 @@
           "tier": "tier_4_news",
           "industries": [],
           "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
             "WordPress"
           ]
         },
@@ -89675,6 +87515,17 @@
           "products": [
             "Anthropic/Claude",
             "OpenAI/ChatGPT",
+            "ScreenConnect"
+          ]
+        },
+        {
+          "ts": "2026-11-23T12:41:04+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
             "ScreenConnect"
           ]
         },
@@ -197095,6 +194946,17 @@
           "products": [
             "GitLab"
           ]
+        },
+        {
+          "ts": "2026-11-23T10:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "GitLab"
+          ]
         }
       ],
       "CVE-2026-76473": [
@@ -234103,6 +231965,19 @@
           "products": [
             "Drupal"
           ]
+        },
+        {
+          "ts": "2026-11-26T07:02:34+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Atlassian Jira",
+            "Drupal",
+            "VMware"
+          ]
         }
       ],
       "CVE-2026-129448": [
@@ -234550,6 +232425,15 @@
         },
         {
           "ts": "2026-11-19T21:06:24+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "VMware"
+          ]
+        },
+        {
+          "ts": "2026-11-25T22:09:46+00:00",
           "cohort": "offensive_vulnerability_research",
           "tier": "tier_1_offensive_research",
           "industries": [],
@@ -236062,6 +233946,16 @@
             "healthcare"
           ],
           "products": []
+        },
+        {
+          "ts": "2026-11-23T15:16:27+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "education",
+            "healthcare"
+          ],
+          "products": []
         }
       ],
       "CVE-2026-123633": [
@@ -236750,6 +234644,15 @@
           "products": [
             "AWS",
             "Azure",
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-24T23:00:14+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
             "Palo Alto Networks"
           ]
         },
@@ -237967,6 +235870,15 @@
           "products": [
             "Palo Alto Networks"
           ]
+        },
+        {
+          "ts": "2026-11-24T23:00:14+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
+            "Palo Alto Networks"
+          ]
         }
       ],
       "CVE-2026-116953": [
@@ -238497,6 +236409,13 @@
           "tier": "tier_2_operator",
           "industries": [],
           "products": []
+        },
+        {
+          "ts": "2026-11-20T20:24:38+00:00",
+          "cohort": "cloud_identity_infrastructure",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": []
         }
       ],
       "CVE-2026-101786": [
@@ -238765,6 +236684,19 @@
             "Drupal",
             "GitLab"
           ]
+        },
+        {
+          "ts": "2026-11-26T07:02:34+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Atlassian Jira",
+            "Drupal",
+            "VMware"
+          ]
         }
       ],
       "CVE-2026-123890": [
@@ -238934,6 +236866,15 @@
         },
         {
           "ts": "2026-11-19T21:06:24+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "VMware"
+          ]
+        },
+        {
+          "ts": "2026-11-25T22:09:46+00:00",
           "cohort": "offensive_vulnerability_research",
           "tier": "tier_1_offensive_research",
           "industries": [],
@@ -240463,6 +238404,16 @@
             "healthcare"
           ],
           "products": []
+        },
+        {
+          "ts": "2026-11-23T15:16:27+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "education",
+            "healthcare"
+          ],
+          "products": []
         }
       ],
       "CVE-2026-129474": [
@@ -241615,6 +239566,26 @@
           "products": [
             "Linux kernel"
           ]
+        },
+        {
+          "ts": "2026-11-27T05:48:20+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": []
+        },
+        {
+          "ts": "2026-11-26T07:02:34+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Atlassian Jira",
+            "Drupal",
+            "VMware"
+          ]
         }
       ],
       "CVE-2026-23871": [
@@ -241799,6 +239770,28 @@
           "industries": [
             "education",
             "financial_services",
+            "healthcare"
+          ],
+          "products": []
+        },
+        {
+          "ts": "2026-11-24T06:02:45+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "education",
+            "financial_services",
+            "healthcare"
+          ],
+          "products": []
+        },
+        {
+          "ts": "2026-11-21T11:03:17+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "education",
+            "government",
             "healthcare"
           ],
           "products": []
@@ -242058,6 +240051,15 @@
           "products": [
             "Google Cloud"
           ]
+        },
+        {
+          "ts": "2026-11-23T09:11:56+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Google Cloud"
+          ]
         }
       ],
       "CVE-2026-124251": [
@@ -242121,6 +240123,19 @@
           "tier": "tier_4_news",
           "industries": [],
           "products": []
+        },
+        {
+          "ts": "2026-11-23T11:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure"
+          ],
+          "products": [
+            "Google/Gemini",
+            "OpenAI/ChatGPT",
+            "WordPress"
+          ]
         },
         {
           "ts": "2026-11-23T11:00:00+00:00",
@@ -242269,6 +240284,13 @@
           "tier": "tier_2_operator",
           "industries": [],
           "products": []
+        },
+        {
+          "ts": "2026-11-23T00:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": []
         }
       ],
       "CVE-2026-134624": [
@@ -242284,6 +240306,17 @@
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
           "industries": [],
+          "products": []
+        },
+        {
+          "ts": "2026-11-24T06:02:45+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "education",
+            "financial_services",
+            "healthcare"
+          ],
           "products": []
         },
         {
@@ -242475,6 +240508,15 @@
             "critical_infrastructure",
             "healthcare"
           ],
+          "products": [
+            "VMware"
+          ]
+        },
+        {
+          "ts": "2026-11-25T22:09:46+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
           "products": [
             "VMware"
           ]
@@ -242789,6 +240831,24 @@
           "products": [
             "Palo Alto Networks"
           ]
+        },
+        {
+          "ts": "2026-11-25T09:06:59+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": []
+        },
+        {
+          "ts": "2026-11-27T07:44:49+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure"
+          ],
+          "products": [
+            "Palo Alto Networks"
+          ]
         }
       ],
       "CVE-2026-118737": [
@@ -242827,6 +240887,13 @@
         }
       ],
       "CVE-2026-120704": [
+        {
+          "ts": "2026-11-25T12:48:54+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": []
+        },
         {
           "ts": "2026-11-25T12:48:54+00:00",
           "cohort": "cyber_news_breach_reporting",
@@ -242902,6 +240969,28 @@
             "critical_infrastructure",
             "government",
             "healthcare",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "Azure",
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-25T12:48:54+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": []
+        },
+        {
+          "ts": "2026-11-25T15:27:36+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "government",
             "manufacturing_industrial"
           ],
           "products": [
@@ -243089,6 +241178,28 @@
             "Azure",
             "Palo Alto Networks"
           ]
+        },
+        {
+          "ts": "2026-11-25T12:48:54+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": []
+        },
+        {
+          "ts": "2026-11-25T15:27:36+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "government",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "Azure",
+            "Palo Alto Networks"
+          ]
         }
       ],
       "CVE-2026-129244": [
@@ -243130,6 +241241,28 @@
             "critical_infrastructure",
             "government",
             "healthcare",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "Azure",
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-25T12:48:54+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": []
+        },
+        {
+          "ts": "2026-11-25T15:27:36+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "government",
             "manufacturing_industrial"
           ],
           "products": [
@@ -243317,6 +241450,28 @@
             "Azure",
             "Palo Alto Networks"
           ]
+        },
+        {
+          "ts": "2026-11-25T12:48:54+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": []
+        },
+        {
+          "ts": "2026-11-25T15:27:36+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "government",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "Azure",
+            "Palo Alto Networks"
+          ]
         }
       ],
       "CVE-2026-129242": [
@@ -243344,6 +241499,21 @@
             "critical_infrastructure",
             "government",
             "healthcare",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "Azure",
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-25T15:27:36+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "government",
             "manufacturing_industrial"
           ],
           "products": [
@@ -243532,6 +241702,19 @@
             "Drupal",
             "GitLab"
           ]
+        },
+        {
+          "ts": "2026-11-26T07:02:34+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Atlassian Jira",
+            "Drupal",
+            "VMware"
+          ]
         }
       ],
       "CVE-2026-103406": [
@@ -243629,9 +241812,31 @@
           "products": [
             "Palo Alto Networks"
           ]
+        },
+        {
+          "ts": "2026-11-27T07:44:49+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure"
+          ],
+          "products": [
+            "Palo Alto Networks"
+          ]
         }
       ],
       "CVE-2026-130411": [
+        {
+          "ts": "2026-11-27T07:44:49+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure"
+          ],
+          "products": [
+            "Palo Alto Networks"
+          ]
+        },
         {
           "ts": "2026-11-27T07:44:49+00:00",
           "cohort": "cyber_news_breach_reporting",
@@ -243655,131 +241860,35 @@
           "products": [
             "Palo Alto Networks"
           ]
+        },
+        {
+          "ts": "2026-11-27T07:44:49+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure"
+          ],
+          "products": [
+            "Palo Alto Networks"
+          ]
+        }
+      ],
+      "CVE-2026-99362": [
+        {
+          "ts": "2026-11-27T08:06:58+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Linux kernel",
+            "Microsoft 365",
+            "Palo Alto Networks"
+          ]
         }
       ]
     },
     "actor_attribution": {
       "TeamPCP": [
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
         {
           "ts": "2026-09-04T07:18:47+00:00",
           "cohort": "cyber_news_breach_reporting",
@@ -256257,6 +254366,51 @@
             "Azure",
             "GitHub",
             "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-24T13:28:21+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
+            "healthcare",
+            "legal_professional",
+            "retail_ecommerce"
+          ],
+          "products": [
+            "Okta",
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-25T15:27:36+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "government",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "Azure",
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-27T07:36:14+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "manufacturing_industrial",
+            "media_communications"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "Azure",
+            "GitHub"
           ]
         },
         {
@@ -269150,6 +267304,21 @@
             "Android",
             "OpenAI/ChatGPT"
           ]
+        },
+        {
+          "ts": "2026-11-24T14:13:55+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "government",
+            "healthcare"
+          ],
+          "products": [
+            "Android",
+            "OpenAI/ChatGPT"
+          ]
         }
       ],
       "Volt Typhoon": [
@@ -273615,6 +271784,20 @@
           ],
           "products": [
             "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-11-25T10:45:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
+            "government",
+            "healthcare",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "GitHub"
           ]
         }
       ],
@@ -285818,6 +284001,50 @@
             "Microsoft SharePoint",
             "Palo Alto Networks"
           ]
+        },
+        {
+          "ts": "2026-11-20T22:00:25+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services",
+            "healthcare",
+            "legal_professional"
+          ],
+          "products": [
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-24T13:28:21+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
+            "healthcare",
+            "legal_professional",
+            "retail_ecommerce"
+          ],
+          "products": [
+            "Okta",
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-25T06:37:06+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "healthcare",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Microsoft 365",
+            "Microsoft SharePoint",
+            "Palo Alto Networks"
+          ]
         }
       ],
       "Flax Typhoon": [
@@ -297355,6 +295582,28 @@
           "industries": [],
           "products": [
             "Microsoft Defender"
+          ]
+        },
+        {
+          "ts": "2026-11-25T18:09:06+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
+            "Microsoft Defender"
+          ]
+        },
+        {
+          "ts": "2026-11-27T11:06:57+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government",
+            "telecommunications"
+          ],
+          "products": [
+            "Azure",
+            "Citrix"
           ]
         }
       ],
@@ -316045,6 +314294,109 @@
           ],
           "products": [
             "Okta",
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-25T06:37:06+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "healthcare",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Microsoft 365",
+            "Microsoft SharePoint",
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-24T23:00:14+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-20T22:00:25+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services",
+            "healthcare",
+            "legal_professional"
+          ],
+          "products": [
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-25T15:27:36+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "government",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "Azure",
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-27T09:30:54+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "government"
+          ],
+          "products": [
+            "AWS",
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-27T07:44:49+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure"
+          ],
+          "products": [
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-24T13:28:21+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
+            "healthcare",
+            "legal_professional",
+            "retail_ecommerce"
+          ],
+          "products": [
+            "Okta",
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-27T08:06:58+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Linux kernel",
+            "Microsoft 365",
             "Palo Alto Networks"
           ]
         },
@@ -343568,6 +341920,45 @@
           "products": [
             "Anthropic/Claude"
           ]
+        },
+        {
+          "ts": "2026-11-25T15:27:36+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "government",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "Azure",
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-27T07:36:14+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "manufacturing_industrial",
+            "media_communications"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "Azure",
+            "GitHub"
+          ]
+        },
+        {
+          "ts": "2026-11-23T00:37:20+00:00",
+          "cohort": "ai_security_agentic_risk",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude"
+          ]
         }
       ],
       "Microsoft Windows": [
@@ -348267,42 +346658,18 @@
       ],
       "Gitea": [
         {
-          "ts": "2026-08-29T16:25:03+00:00",
+          "ts": "2026-08-30T08:00:48+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
           "industries": [
-            "manufacturing_industrial"
+            "critical_infrastructure",
+            "financial_services",
+            "government"
           ],
           "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
+            "Android",
+            "Citrix",
+            "Gitea"
           ]
         },
         {
@@ -348321,16 +346688,18 @@
           ]
         },
         {
-          "ts": "2026-08-29T16:25:03+00:00",
+          "ts": "2026-08-30T08:00:48+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
           "industries": [
-            "manufacturing_industrial"
+            "critical_infrastructure",
+            "financial_services",
+            "government"
           ],
           "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
+            "Android",
+            "Citrix",
+            "Gitea"
           ]
         },
         {
@@ -348349,19 +346718,6 @@
           ]
         },
         {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
           "ts": "2026-08-30T08:00:48+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -348377,19 +346733,6 @@
           ]
         },
         {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
           "ts": "2026-08-30T08:00:48+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -348402,218 +346745,6 @@
             "Android",
             "Citrix",
             "Gitea"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-30T08:00:48+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "government"
-          ],
-          "products": [
-            "Android",
-            "Citrix",
-            "Gitea"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-30T08:00:48+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "government"
-          ],
-          "products": [
-            "Android",
-            "Citrix",
-            "Gitea"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
           ]
         },
         {
@@ -348628,16 +346759,14 @@
           ]
         },
         {
-          "ts": "2026-08-29T16:25:03+00:00",
+          "ts": "2026-09-02T15:47:08+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
+          "industries": [],
           "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
+            "Apple iOS/macOS",
+            "Docker",
+            "Gitea"
           ]
         },
         {
@@ -348652,19 +346781,6 @@
           ]
         },
         {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
           "ts": "2026-09-02T15:47:08+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -348673,43 +346789,6 @@
             "Apple iOS/macOS",
             "Docker",
             "Gitea"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-09-02T15:47:08+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "Apple iOS/macOS",
-            "Docker",
-            "Gitea"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
           ]
         },
         {
@@ -348891,71 +346970,6 @@
             "Anthropic/Claude",
             "GitLab",
             "Gitea"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
           ]
         },
         {
@@ -369443,197 +367457,35 @@
             "Google Cloud",
             "npm"
           ]
+        },
+        {
+          "ts": "2026-11-23T09:11:56+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Google Cloud"
+          ]
+        },
+        {
+          "ts": "2026-11-23T10:50:41+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "AWS",
+            "Google Cloud",
+            "npm"
+          ]
         }
       ],
       "WordPress": [
         {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
+          "ts": "2026-09-01T00:00:00+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
           "industries": [],
           "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
             "WordPress"
           ]
         },
@@ -369647,19 +367499,6 @@
           ]
         },
         {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
           "ts": "2026-09-01T00:00:00+00:00",
           "cohort": "offensive_vulnerability_research",
           "tier": "tier_1_offensive_research",
@@ -369669,88 +367508,9 @@
           ]
         },
         {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
           "ts": "2026-09-01T00:00:00+00:00",
           "cohort": "offensive_vulnerability_research",
           "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-09-01T00:00:00+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-09-02T01:00:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "financial_services",
-            "government"
-          ],
-          "products": [
-            "LiteSpeed",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-09-01T00:00:00+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
           "industries": [],
           "products": [
             "WordPress"
@@ -369779,15 +367539,24 @@
           ]
         },
         {
-          "ts": "2026-08-29T16:25:03+00:00",
+          "ts": "2026-09-02T01:00:00+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
           "industries": [
-            "manufacturing_industrial"
+            "financial_services",
+            "government"
           ],
           "products": [
-            "GitLab",
-            "Gitea",
+            "LiteSpeed",
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-09-01T00:00:00+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
             "WordPress"
           ]
         },
@@ -369814,15 +367583,24 @@
           ]
         },
         {
-          "ts": "2026-08-29T16:25:03+00:00",
+          "ts": "2026-09-02T01:00:00+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
           "industries": [
-            "manufacturing_industrial"
+            "financial_services",
+            "government"
           ],
           "products": [
-            "GitLab",
-            "Gitea",
+            "LiteSpeed",
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-09-01T00:00:00+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
             "WordPress"
           ]
         },
@@ -369849,19 +367627,6 @@
           ]
         },
         {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
           "ts": "2026-09-02T01:00:00+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -369884,19 +367649,6 @@
           ]
         },
         {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
           "ts": "2026-09-02T01:00:00+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -369915,54 +367667,6 @@
           "tier": "tier_1_offensive_research",
           "industries": [],
           "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-09-02T01:00:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "financial_services",
-            "government"
-          ],
-          "products": [
-            "LiteSpeed",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-09-01T00:00:00+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": [
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
             "WordPress"
           ]
         },
@@ -370471,19 +368175,6 @@
           ]
         },
         {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
           "ts": "2026-09-04T16:11:06+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -370526,19 +368217,6 @@
           "products": [
             "AWS",
             "OpenAI/ChatGPT",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
             "WordPress"
           ]
         },
@@ -370602,19 +368280,6 @@
           ]
         },
         {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
           "ts": "2026-09-04T16:11:06+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -370674,19 +368339,6 @@
           ]
         },
         {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
           "ts": "2026-09-04T16:11:06+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -370742,19 +368394,6 @@
           "products": [
             "AWS",
             "OpenAI/ChatGPT",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
             "WordPress"
           ]
         },
@@ -382693,6 +380332,32 @@
           ],
           "products": [
             "Linux kernel",
+            "OpenAI/ChatGPT",
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-11-23T11:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure"
+          ],
+          "products": [
+            "Google/Gemini",
+            "OpenAI/ChatGPT",
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-11-24T12:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "GitHub",
             "OpenAI/ChatGPT",
             "WordPress"
           ]
@@ -404013,125 +401678,108 @@
             "Microsoft 365",
             "PyPI"
           ]
+        },
+        {
+          "ts": "2026-11-27T17:06:13+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "GitHub"
+          ]
+        },
+        {
+          "ts": "2026-11-27T07:36:14+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "manufacturing_industrial",
+            "media_communications"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "Azure",
+            "GitHub"
+          ]
+        },
+        {
+          "ts": "2026-11-24T12:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "GitHub",
+            "OpenAI/ChatGPT",
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-11-26T03:48:52+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "GitHub"
+          ]
+        },
+        {
+          "ts": "2026-11-27T10:30:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "education",
+            "financial_services",
+            "government",
+            "legal_professional"
+          ],
+          "products": [
+            "GitHub",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-11-26T15:23:28+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "GitHub",
+            "Microsoft 365",
+            "PyPI"
+          ]
+        },
+        {
+          "ts": "2026-11-25T10:45:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
+            "government",
+            "healthcare",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "GitHub"
+          ]
+        },
+        {
+          "ts": "2026-11-23T10:45:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government",
+            "retail_ecommerce"
+          ],
+          "products": [
+            "GitHub"
+          ]
         }
       ],
       "OpenAI/ChatGPT": [
         {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-30T14:30:25+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [],
-          "products": [
-            "Anthropic/Claude",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
           "ts": "2026-08-30T14:30:25+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -404162,17 +401810,12 @@
           ]
         },
         {
-          "ts": "2026-08-29T11:55:00+00:00",
+          "ts": "2026-08-30T14:30:25+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
+          "industries": [],
           "products": [
-            "Citrix",
-            "Linux kernel",
+            "Anthropic/Claude",
             "OpenAI/ChatGPT"
           ]
         },
@@ -437999,6 +435642,83 @@
           "products": [
             "OpenAI/ChatGPT"
           ]
+        },
+        {
+          "ts": "2026-11-24T14:13:55+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "government",
+            "healthcare"
+          ],
+          "products": [
+            "Android",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-11-24T12:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "GitHub",
+            "OpenAI/ChatGPT",
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-11-27T10:30:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "education",
+            "financial_services",
+            "government",
+            "legal_professional"
+          ],
+          "products": [
+            "GitHub",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-11-25T08:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "Microsoft 365",
+            "Microsoft SharePoint",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-11-23T11:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure"
+          ],
+          "products": [
+            "Google/Gemini",
+            "OpenAI/ChatGPT",
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-11-24T13:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Google/Gemini",
+            "OpenAI/ChatGPT"
+          ]
         }
       ],
       "npm": [
@@ -443406,6 +441126,17 @@
             "Google Cloud",
             "npm"
           ]
+        },
+        {
+          "ts": "2026-11-23T10:50:41+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "AWS",
+            "Google Cloud",
+            "npm"
+          ]
         }
       ],
       "Atlassian Jira": [
@@ -445621,6 +443352,19 @@
             "AWS",
             "Atlassian Confluence",
             "Atlassian Jira"
+          ]
+        },
+        {
+          "ts": "2026-11-26T07:02:34+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Atlassian Jira",
+            "Drupal",
+            "VMware"
           ]
         }
       ],
@@ -449310,6 +447054,19 @@
             "Drupal",
             "GitLab",
             "Microsoft 365"
+          ]
+        },
+        {
+          "ts": "2026-11-26T07:02:34+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Atlassian Jira",
+            "Drupal",
+            "VMware"
           ]
         }
       ],
@@ -456068,6 +453825,33 @@
             "Microsoft 365",
             "Microsoft SharePoint",
             "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-25T06:37:06+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "healthcare",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Microsoft 365",
+            "Microsoft SharePoint",
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-25T08:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "Microsoft 365",
+            "Microsoft SharePoint",
+            "OpenAI/ChatGPT"
           ]
         },
         {
@@ -468317,6 +466101,15 @@
           "products": [
             "Microsoft Defender"
           ]
+        },
+        {
+          "ts": "2026-11-25T18:09:06+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
+            "Microsoft Defender"
+          ]
         }
       ],
       "Docker": [
@@ -471207,6 +469000,17 @@
             "AWS",
             "Docker",
             "GitHub"
+          ]
+        },
+        {
+          "ts": "2026-11-24T05:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [
+            "education"
+          ],
+          "products": [
+            "Docker"
           ]
         },
         {
@@ -475046,126 +472850,6 @@
         }
       ],
       "Linux kernel": [
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
         {
           "ts": "2026-08-31T11:24:17+00:00",
           "cohort": "cyber_news_breach_reporting",
@@ -483020,6 +480704,17 @@
           "products": [
             "Linux kernel"
           ]
+        },
+        {
+          "ts": "2026-11-27T08:06:58+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Linux kernel",
+            "Microsoft 365",
+            "Palo Alto Networks"
+          ]
         }
       ],
       "PyPI": [
@@ -485795,6 +483490,17 @@
           "industries": [],
           "products": [
             "Azure",
+            "PyPI"
+          ]
+        },
+        {
+          "ts": "2026-11-26T15:23:28+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "GitHub",
+            "Microsoft 365",
             "PyPI"
           ]
         },
@@ -499198,6 +496904,30 @@
             "Google Cloud",
             "npm"
           ]
+        },
+        {
+          "ts": "2026-11-27T09:30:54+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "government"
+          ],
+          "products": [
+            "AWS",
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-23T10:50:41+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "AWS",
+            "Google Cloud",
+            "npm"
+          ]
         }
       ],
       "Azure": [
@@ -505646,6 +503376,49 @@
             "GitHub",
             "Palo Alto Networks"
           ]
+        },
+        {
+          "ts": "2026-11-25T15:27:36+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "government",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "Azure",
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-27T07:36:14+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "manufacturing_industrial",
+            "media_communications"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "Azure",
+            "GitHub"
+          ]
+        },
+        {
+          "ts": "2026-11-27T11:06:57+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government",
+            "telecommunications"
+          ],
+          "products": [
+            "Azure",
+            "Citrix"
+          ]
         }
       ],
       "Google/Gemini": [
@@ -511529,6 +509302,29 @@
             "Google/Gemini",
             "OpenAI/ChatGPT",
             "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-11-23T11:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure"
+          ],
+          "products": [
+            "Google/Gemini",
+            "OpenAI/ChatGPT",
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-11-24T13:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Google/Gemini",
+            "OpenAI/ChatGPT"
           ]
         },
         {
@@ -521946,6 +519742,32 @@
             "Android",
             "OpenAI/ChatGPT"
           ]
+        },
+        {
+          "ts": "2026-11-25T09:00:35+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "Android"
+          ]
+        },
+        {
+          "ts": "2026-11-24T14:13:55+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "government",
+            "healthcare"
+          ],
+          "products": [
+            "Android",
+            "OpenAI/ChatGPT"
+          ]
         }
       ],
       "Microsoft 365": [
@@ -529342,6 +527164,55 @@
             "Microsoft SharePoint",
             "Palo Alto Networks"
           ]
+        },
+        {
+          "ts": "2026-11-25T08:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "Microsoft 365",
+            "Microsoft SharePoint",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-11-27T08:06:58+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Linux kernel",
+            "Microsoft 365",
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-11-26T15:23:28+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "GitHub",
+            "Microsoft 365",
+            "PyPI"
+          ]
+        },
+        {
+          "ts": "2026-11-25T06:37:06+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "healthcare",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Microsoft 365",
+            "Microsoft SharePoint",
+            "Palo Alto Networks"
+          ]
         }
       ],
       "Okta": [
@@ -531313,6 +529184,21 @@
           ],
           "products": [
             "Okta"
+          ]
+        },
+        {
+          "ts": "2026-11-24T13:28:21+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
+            "healthcare",
+            "legal_professional",
+            "retail_ecommerce"
+          ],
+          "products": [
+            "Okta",
+            "Palo Alto Networks"
           ]
         },
         {
@@ -534948,6 +532834,28 @@
           "products": [
             "VMware"
           ]
+        },
+        {
+          "ts": "2026-11-25T22:09:46+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "VMware"
+          ]
+        },
+        {
+          "ts": "2026-11-26T07:02:34+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Atlassian Jira",
+            "Drupal",
+            "VMware"
+          ]
         }
       ],
       "ScreenConnect": [
@@ -538577,6 +536485,17 @@
             "Apple iOS/macOS",
             "ScreenConnect",
             "VMware"
+          ]
+        },
+        {
+          "ts": "2026-11-23T12:41:04+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "ScreenConnect"
           ]
         },
         {
@@ -546964,318 +544883,6 @@
       ],
       "GitLab": [
         {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
           "ts": "2026-09-03T06:26:59+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -547465,16 +545072,12 @@
           ]
         },
         {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
+          "ts": "2026-09-03T16:33:01+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
           "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
+            "GitLab"
           ]
         },
         {
@@ -547487,19 +545090,6 @@
           ]
         },
         {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
           "ts": "2026-09-03T16:33:01+00:00",
           "cohort": "offensive_vulnerability_research",
           "tier": "tier_1_offensive_research",
@@ -547509,60 +545099,12 @@
           ]
         },
         {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
           "ts": "2026-09-03T16:33:01+00:00",
           "cohort": "offensive_vulnerability_research",
           "tier": "tier_1_offensive_research",
           "industries": [],
           "products": [
             "GitLab"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
-          ]
-        },
-        {
-          "ts": "2026-09-03T16:33:01+00:00",
-          "cohort": "offensive_vulnerability_research",
-          "tier": "tier_1_offensive_research",
-          "industries": [],
-          "products": [
-            "GitLab"
-          ]
-        },
-        {
-          "ts": "2026-08-29T16:25:03+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "GitLab",
-            "Gitea",
-            "WordPress"
           ]
         },
         {
@@ -558626,6 +556168,17 @@
             "GitLab",
             "Microsoft 365"
           ]
+        },
+        {
+          "ts": "2026-11-23T10:00:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "GitLab"
+          ]
         }
       ],
       "Fortinet": [
@@ -567061,6 +564614,17 @@
             "government",
             "manufacturing_industrial",
             "retail_ecommerce"
+          ],
+          "products": [
+            "Fortinet"
+          ]
+        },
+        {
+          "ts": "2026-11-27T09:29:30+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure"
           ],
           "products": [
             "Fortinet"
@@ -580580,111 +578144,6 @@
       ],
       "Citrix": [
         {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
-          "ts": "2026-08-30T08:00:48+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "government"
-          ],
-          "products": [
-            "Android",
-            "Citrix",
-            "Gitea"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
-          ]
-        },
-        {
           "ts": "2026-08-30T08:00:48+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
@@ -580712,21 +578171,6 @@
             "Android",
             "Citrix",
             "Gitea"
-          ]
-        },
-        {
-          "ts": "2026-08-29T11:55:00+00:00",
-          "cohort": "cyber_news_breach_reporting",
-          "tier": "tier_4_news",
-          "industries": [
-            "critical_infrastructure",
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "products": [
-            "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
           ]
         },
         {
@@ -580775,18 +578219,18 @@
           ]
         },
         {
-          "ts": "2026-08-29T11:55:00+00:00",
+          "ts": "2026-08-30T08:00:48+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
           "industries": [
             "critical_infrastructure",
             "financial_services",
-            "manufacturing_industrial"
+            "government"
           ],
           "products": [
+            "Android",
             "Citrix",
-            "Linux kernel",
-            "OpenAI/ChatGPT"
+            "Gitea"
           ]
         },
         {
@@ -586877,6 +584321,19 @@
           "tier": "tier_4_news",
           "industries": [],
           "products": [
+            "Citrix"
+          ]
+        },
+        {
+          "ts": "2026-11-27T11:06:57+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government",
+            "telecommunications"
+          ],
+          "products": [
+            "Azure",
             "Citrix"
           ]
         }
@@ -594024,14 +591481,6 @@
       "2026-10-21T00:00:00+00:00"
     ],
     "actor_attribution:TeamPCP|affected_products:OpenAI/ChatGPT": [
-      "2026-08-29T11:55:00+00:00",
-      "2026-08-29T11:55:00+00:00",
-      "2026-08-29T11:55:00+00:00",
-      "2026-08-29T11:55:00+00:00",
-      "2026-08-29T11:55:00+00:00",
-      "2026-08-29T11:55:00+00:00",
-      "2026-08-29T11:55:00+00:00",
-      "2026-08-29T11:55:00+00:00",
       "2026-09-04T07:18:47+00:00",
       "2026-09-04T07:18:47+00:00"
     ],
@@ -594051,14 +591500,6 @@
       "2026-10-30T11:07:11+00:00"
     ],
     "actor_attribution:TeamPCP|affected_products:Linux kernel": [
-      "2026-08-29T11:55:00+00:00",
-      "2026-08-29T11:55:00+00:00",
-      "2026-08-29T11:55:00+00:00",
-      "2026-08-29T11:55:00+00:00",
-      "2026-08-29T11:55:00+00:00",
-      "2026-08-29T11:55:00+00:00",
-      "2026-08-29T11:55:00+00:00",
-      "2026-08-29T11:55:00+00:00",
       "2026-09-21T10:55:46+00:00",
       "2026-09-21T10:55:46+00:00"
     ],
@@ -594078,6 +591519,8 @@
       "2026-11-24T13:28:21+00:00",
       "2026-11-26T13:04:06+00:00",
       "2026-11-27T07:36:14+00:00",
+      "2026-11-24T13:28:21+00:00",
+      "2026-11-25T15:27:36+00:00",
       "2026-11-24T13:28:21+00:00"
     ],
     "actor_attribution:TeamPCP|affected_products:PyPI": [
@@ -595054,6 +592497,8 @@
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-26T13:04:06+00:00",
+      "2026-11-27T07:36:14+00:00",
+      "2026-11-25T15:27:36+00:00",
       "2026-11-27T07:36:14+00:00"
     ],
     "cve_ids:CVE-2026-35273|actor_attribution:ShinyHunters": [
@@ -595158,6 +592603,8 @@
       "2026-09-28T20:56:47+00:00",
       "2026-09-28T20:56:47+00:00",
       "2026-11-25T15:27:36+00:00",
+      "2026-11-25T15:27:36+00:00",
+      "2026-11-27T07:36:14+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-27T07:36:14+00:00"
     ],
@@ -595280,6 +592727,7 @@
       "2026-10-03T11:34:00+00:00",
       "2026-10-03T11:34:00+00:00",
       "2026-10-03T11:34:00+00:00",
+      "2026-11-27T07:36:14+00:00",
       "2026-11-27T07:36:14+00:00"
     ],
     "cve_ids:CVE-2026-0770|affected_products:Anthropic/Claude": [
@@ -595980,6 +593428,7 @@
       "2026-10-29T10:16:18+00:00",
       "2026-11-24T13:28:21+00:00",
       "2026-11-24T12:47:07+00:00",
+      "2026-11-24T13:28:21+00:00",
       "2026-11-24T13:28:21+00:00",
       "2026-11-24T13:28:21+00:00",
       "2026-11-24T13:28:21+00:00",
@@ -597359,6 +594808,7 @@
       "2026-11-25T22:09:46+00:00",
       "2026-11-25T22:09:46+00:00",
       "2026-11-25T22:09:46+00:00",
+      "2026-11-25T22:09:46+00:00",
       "2026-11-25T22:09:46+00:00"
     ],
     "cve_ids:CVE-2026-59310|affected_products:VMware": [
@@ -597854,6 +595304,7 @@
       "2026-11-25T06:37:06+00:00",
       "2026-11-25T06:37:06+00:00",
       "2026-11-25T06:37:06+00:00",
+      "2026-11-25T06:37:06+00:00",
       "2026-11-25T06:37:06+00:00"
     ],
     "cve_ids:CVE-2025-3248|affected_products:Palo Alto Networks": [
@@ -598270,11 +595721,6 @@
       "2026-09-04T08:48:45+00:00",
       "2026-09-04T08:48:45+00:00",
       "2026-09-04T08:48:45+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
       "2026-09-05T13:00:28+00:00",
       "2026-09-05T13:00:28+00:00",
       "2026-09-05T13:00:28+00:00",
@@ -598418,18 +595864,6 @@
       "2026-08-30T08:00:48+00:00",
       "2026-08-30T08:00:48+00:00",
       "2026-08-30T08:00:48+00:00"
-    ],
-    "cve_ids:CVE-2026-61979|affected_products:WordPress": [
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00"
     ],
     "cve_ids:CVE-2026-60004|actor_attribution:ShinyHunters": [
       "2026-08-30T08:00:48+00:00",
@@ -598584,47 +596018,6 @@
       "2026-10-09T08:11:33+00:00",
       "2026-10-09T08:11:33+00:00",
       "2026-10-09T08:11:33+00:00"
-    ],
-    "cve_ids:CVE-2026-18431|affected_products:WordPress": [
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00"
-    ],
-    "actor_attribution:TeamPCP|affected_products:Citrix": [
-      "2026-08-29T11:55:00+00:00",
-      "2026-08-29T11:55:00+00:00",
-      "2026-08-29T11:55:00+00:00",
-      "2026-08-29T11:55:00+00:00",
-      "2026-08-29T11:55:00+00:00",
-      "2026-08-29T11:55:00+00:00",
-      "2026-08-29T11:55:00+00:00",
-      "2026-08-29T11:55:00+00:00"
     ],
     "actor_attribution:TeamPCP|affected_products:Gitea": [
       "2026-09-04T07:18:47+00:00",
@@ -598837,7 +596230,8 @@
       "2026-09-04T10:00:05+00:00",
       "2026-09-04T10:00:05+00:00",
       "2026-09-04T10:00:05+00:00",
-      "2026-09-04T10:00:05+00:00"
+      "2026-09-04T10:00:05+00:00",
+      "2026-11-25T10:45:00+00:00"
     ],
     "cve_ids:CVE-2026-81578|affected_products:Anthropic/Claude": [
       "2026-09-11T06:46:18+00:00",
@@ -598976,32 +596370,6 @@
       "2026-09-02T01:00:00+00:00"
     ],
     "cve_ids:CVE-2026-76581|affected_products:WordPress": [
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
       "2026-09-03T10:40:00+00:00",
       "2026-09-03T10:40:00+00:00",
       "2026-09-03T10:40:00+00:00",
@@ -599010,437 +596378,7 @@
       "2026-09-03T10:40:00+00:00",
       "2026-09-04T08:48:45+00:00",
       "2026-09-04T08:48:45+00:00",
-      "2026-09-04T08:48:45+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00"
-    ],
-    "cve_ids:CVE-2026-18431|affected_products:GitLab": [
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00"
-    ],
-    "cve_ids:CVE-2026-18431|affected_products:Gitea": [
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00"
-    ],
-    "cve_ids:CVE-2026-19598|affected_products:GitLab": [
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00"
-    ],
-    "cve_ids:CVE-2026-19598|affected_products:Gitea": [
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00"
-    ],
-    "cve_ids:CVE-2026-19598|affected_products:WordPress": [
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00"
-    ],
-    "cve_ids:CVE-2026-19632|affected_products:GitLab": [
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00"
-    ],
-    "cve_ids:CVE-2026-19632|affected_products:Gitea": [
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00"
-    ],
-    "cve_ids:CVE-2026-19632|affected_products:WordPress": [
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00"
-    ],
-    "cve_ids:CVE-2026-61979|affected_products:GitLab": [
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00"
-    ],
-    "cve_ids:CVE-2026-61979|affected_products:Gitea": [
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00"
-    ],
-    "cve_ids:CVE-2026-76581|affected_products:GitLab": [
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00"
-    ],
-    "cve_ids:CVE-2026-76581|affected_products:Gitea": [
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00"
-    ],
-    "cve_ids:CVE-2026-82222|affected_products:GitLab": [
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00"
-    ],
-    "cve_ids:CVE-2026-82222|affected_products:Gitea": [
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00"
-    ],
-    "cve_ids:CVE-2026-82222|affected_products:WordPress": [
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00"
+      "2026-09-04T08:48:45+00:00"
     ],
     "cve_ids:CVE-2019-1068|affected_products:Android": [
       "2026-08-30T08:00:48+00:00",
@@ -604504,11 +601442,6 @@
       "2026-09-04T08:48:45+00:00",
       "2026-09-04T08:48:45+00:00",
       "2026-09-04T08:48:45+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
       "2026-09-05T13:00:28+00:00",
       "2026-09-05T13:00:28+00:00",
       "2026-09-05T13:00:28+00:00",
@@ -604887,34 +601820,6 @@
     ],
     "cve_ids:CVE-2026-59347|affected_products:OpenAI/ChatGPT": [
       "2026-09-04T11:42:55+00:00"
-    ],
-    "cve_ids:CVE-2026-14894|affected_products:GitLab": [
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00"
-    ],
-    "cve_ids:CVE-2026-14894|affected_products:Gitea": [
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00"
-    ],
-    "cve_ids:CVE-2026-32475|affected_products:GitLab": [
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00"
-    ],
-    "cve_ids:CVE-2026-32475|affected_products:Gitea": [
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00",
-      "2026-08-29T16:25:03+00:00"
     ],
     "cve_ids:CVE-2026-14894|affected_products:OpenAI/ChatGPT": [
       "2026-09-05T13:00:28+00:00",
@@ -605349,6 +602254,7 @@
       "2026-09-07T15:51:56+00:00",
       "2026-09-07T15:51:56+00:00",
       "2026-09-07T15:51:56+00:00",
+      "2026-11-25T06:37:06+00:00",
       "2026-11-25T06:37:06+00:00",
       "2026-11-25T06:37:06+00:00",
       "2026-11-25T06:37:06+00:00",
@@ -610170,6 +607076,7 @@
       "2026-11-16T18:00:00+00:00",
       "2026-11-16T18:00:00+00:00",
       "2026-11-16T18:00:00+00:00",
+      "2026-11-23T12:41:04+00:00",
       "2026-11-23T12:41:04+00:00",
       "2026-11-23T12:41:04+00:00",
       "2026-11-23T12:41:04+00:00",
@@ -618450,7 +615357,8 @@
       "2026-09-28T08:30:00+00:00",
       "2026-09-28T08:30:00+00:00",
       "2026-09-28T08:30:00+00:00",
-      "2026-09-28T08:30:00+00:00"
+      "2026-09-28T08:30:00+00:00",
+      "2026-11-27T11:06:57+00:00"
     ],
     "actor_attribution:Salt Typhoon|affected_products:Microsoft Windows": [
       "2026-09-28T08:30:00+00:00",
@@ -639496,7 +636404,8 @@
       "2026-11-18T12:35:00+00:00",
       "2026-11-18T17:10:45+00:00",
       "2026-11-18T12:35:00+00:00",
-      "2026-11-18T12:35:00+00:00"
+      "2026-11-18T12:35:00+00:00",
+      "2026-11-26T07:02:34+00:00"
     ],
     "cve_ids:CVE-2026-114938|affected_products:Cisco": [
       "2026-11-18T00:00:00+00:00",
@@ -640135,7 +637044,8 @@
       "2026-11-19T17:49:52+00:00",
       "2026-11-19T17:49:52+00:00",
       "2026-11-19T17:49:52+00:00",
-      "2026-11-19T17:49:52+00:00"
+      "2026-11-19T17:49:52+00:00",
+      "2026-11-26T07:02:34+00:00"
     ],
     "cve_ids:CVE-2026-119618|affected_products:Drupal": [
       "2026-11-19T17:49:52+00:00",
@@ -640186,7 +637096,8 @@
       "2026-11-19T17:49:52+00:00",
       "2026-11-19T17:49:52+00:00",
       "2026-11-25T10:10:20+00:00",
-      "2026-11-25T10:10:20+00:00"
+      "2026-11-25T10:10:20+00:00",
+      "2026-11-26T07:02:34+00:00"
     ],
     "cve_ids:CVE-2026-102764|affected_products:VMware": [
       "2026-11-19T14:00:00+00:00",
@@ -640258,6 +637169,7 @@
       "2026-11-25T22:09:46+00:00",
       "2026-11-25T22:09:46+00:00",
       "2026-11-25T22:09:46+00:00",
+      "2026-11-25T22:09:46+00:00",
       "2026-11-25T22:09:46+00:00"
     ],
     "cve_ids:CVE-2026-115731|affected_products:GitHub": [
@@ -640289,6 +637201,7 @@
       "2026-11-23T07:44:19+00:00",
       "2026-11-23T10:00:00+00:00",
       "2026-11-23T07:44:19+00:00",
+      "2026-11-23T10:00:00+00:00",
       "2026-11-23T10:00:00+00:00",
       "2026-11-23T10:00:00+00:00",
       "2026-11-23T10:00:00+00:00",
@@ -640655,6 +637568,7 @@
       "2026-11-20T01:58:29+00:00",
       "2026-11-24T23:00:14+00:00",
       "2026-11-20T01:58:29+00:00",
+      "2026-11-24T23:00:14+00:00",
       "2026-11-24T23:00:14+00:00"
     ],
     "cve_ids:CVE-2026-123634|affected_products:AWS": [
@@ -640731,6 +637645,7 @@
       "2026-11-20T01:58:29+00:00",
       "2026-11-24T23:00:14+00:00",
       "2026-11-20T01:58:29+00:00",
+      "2026-11-24T23:00:14+00:00",
       "2026-11-24T23:00:14+00:00"
     ],
     "cve_ids:CVE-2024-25420|affected_products:Cisco": [
@@ -640964,6 +637879,9 @@
       "2026-11-25T06:37:06+00:00",
       "2026-11-20T22:00:25+00:00",
       "2026-11-24T13:28:21+00:00",
+      "2026-11-25T06:37:06+00:00",
+      "2026-11-20T22:00:25+00:00",
+      "2026-11-24T13:28:21+00:00",
       "2026-11-25T06:37:06+00:00"
     ],
     "cve_ids:CVE-2026-129448|actor_attribution:UNC5221": [
@@ -641015,6 +637933,7 @@
       "2026-11-25T22:09:46+00:00",
       "2026-11-25T22:09:46+00:00",
       "2026-11-25T22:09:46+00:00",
+      "2026-11-25T22:09:46+00:00",
       "2026-11-25T22:09:46+00:00"
     ],
     "cve_ids:CVE-2026-114938|affected_products:VMware": [
@@ -641028,7 +637947,8 @@
       "2026-11-18T17:10:45+00:00",
       "2026-11-18T17:10:45+00:00",
       "2026-11-18T17:10:45+00:00",
-      "2026-11-18T17:10:45+00:00"
+      "2026-11-18T17:10:45+00:00",
+      "2026-11-26T07:02:34+00:00"
     ],
     "cve_ids:CVE-2026-129448|affected_products:Atlassian Jira": [
       "2026-11-18T17:10:45+00:00",
@@ -641106,7 +638026,8 @@
       "2026-11-18T17:10:45+00:00",
       "2026-11-18T17:10:45+00:00",
       "2026-11-18T17:10:45+00:00",
-      "2026-11-18T17:10:45+00:00"
+      "2026-11-18T17:10:45+00:00",
+      "2026-11-26T07:02:34+00:00"
     ],
     "cve_ids:CVE-2026-99312|affected_products:Drupal": [
       "2026-11-18T17:10:45+00:00",
@@ -641119,7 +638040,8 @@
       "2026-11-18T17:10:45+00:00",
       "2026-11-18T17:10:45+00:00",
       "2026-11-18T17:10:45+00:00",
-      "2026-11-18T17:10:45+00:00"
+      "2026-11-18T17:10:45+00:00",
+      "2026-11-26T07:02:34+00:00"
     ],
     "cve_ids:CVE-2026-99312|affected_products:VMware": [
       "2026-11-18T17:10:45+00:00",
@@ -641148,7 +638070,8 @@
       "2026-11-20T05:30:01+00:00",
       "2026-11-20T05:30:01+00:00",
       "2026-11-20T05:30:01+00:00",
-      "2026-11-20T05:30:01+00:00"
+      "2026-11-20T05:30:01+00:00",
+      "2026-11-26T07:02:34+00:00"
     ],
     "cve_ids:CVE-2026-99312|affected_products:GitHub": [
       "2026-11-20T05:30:01+00:00",
@@ -641219,6 +638142,7 @@
       "2026-11-23T09:11:56+00:00",
       "2026-11-23T09:11:56+00:00",
       "2026-11-23T09:11:56+00:00",
+      "2026-11-23T09:11:56+00:00",
       "2026-11-23T09:11:56+00:00"
     ],
     "cve_ids:CVE-2026-99312|affected_products:Google Cloud": [
@@ -641230,6 +638154,7 @@
       "2026-11-23T11:00:00+00:00",
       "2026-11-23T11:00:00+00:00",
       "2026-11-23T11:00:00+00:00",
+      "2026-11-23T11:00:00+00:00",
       "2026-11-23T11:00:00+00:00"
     ],
     "cve_ids:CVE-2026-124251|affected_products:OpenAI/ChatGPT": [
@@ -641237,9 +638162,11 @@
       "2026-11-23T11:00:00+00:00",
       "2026-11-23T11:00:00+00:00",
       "2026-11-23T11:00:00+00:00",
+      "2026-11-23T11:00:00+00:00",
       "2026-11-23T11:00:00+00:00"
     ],
     "cve_ids:CVE-2026-124251|affected_products:WordPress": [
+      "2026-11-23T11:00:00+00:00",
       "2026-11-23T11:00:00+00:00",
       "2026-11-23T11:00:00+00:00",
       "2026-11-23T11:00:00+00:00",
@@ -641269,9 +638196,11 @@
       "2026-11-24T16:32:56+00:00",
       "2026-11-25T22:09:46+00:00",
       "2026-11-25T22:09:46+00:00",
+      "2026-11-25T22:09:46+00:00",
       "2026-11-25T22:09:46+00:00"
     ],
     "actor_attribution:MuddyWater|affected_products:Android": [
+      "2026-11-24T14:13:55+00:00",
       "2026-11-24T14:13:55+00:00",
       "2026-11-24T14:13:55+00:00",
       "2026-11-24T14:13:55+00:00",
@@ -641289,9 +638218,11 @@
       "2026-11-24T14:13:55+00:00",
       "2026-11-24T14:13:55+00:00",
       "2026-11-24T14:13:55+00:00",
+      "2026-11-24T14:13:55+00:00",
       "2026-11-24T14:13:55+00:00"
     ],
     "actor_attribution:UNC6671|affected_products:Okta": [
+      "2026-11-24T13:28:21+00:00",
       "2026-11-24T13:28:21+00:00",
       "2026-11-24T13:28:21+00:00",
       "2026-11-24T13:28:21+00:00",
@@ -641414,13 +638345,16 @@
       "2026-11-25T18:09:06+00:00",
       "2026-11-25T18:09:06+00:00",
       "2026-11-25T18:09:06+00:00",
+      "2026-11-25T18:09:06+00:00",
       "2026-11-25T18:09:06+00:00"
     ],
     "cve_ids:CVE-2026-120705|actor_attribution:ShinyHunters": [
       "2026-11-25T15:27:36+00:00",
+      "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00"
     ],
     "cve_ids:CVE-2026-120705|affected_products:Anthropic/Claude": [
+      "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
@@ -641432,9 +638366,11 @@
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
+      "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00"
     ],
     "cve_ids:CVE-2026-120705|affected_products:Palo Alto Networks": [
+      "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
@@ -641443,9 +638379,11 @@
     ],
     "cve_ids:CVE-2026-129242|actor_attribution:ShinyHunters": [
       "2026-11-25T15:27:36+00:00",
+      "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00"
     ],
     "cve_ids:CVE-2026-129242|affected_products:Anthropic/Claude": [
+      "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
@@ -641457,9 +638395,11 @@
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
+      "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00"
     ],
     "cve_ids:CVE-2026-129242|affected_products:Palo Alto Networks": [
+      "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
@@ -641468,9 +638408,11 @@
     ],
     "cve_ids:CVE-2026-129243|actor_attribution:ShinyHunters": [
       "2026-11-25T15:27:36+00:00",
+      "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00"
     ],
     "cve_ids:CVE-2026-129243|affected_products:Anthropic/Claude": [
+      "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
@@ -641482,9 +638424,11 @@
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
+      "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00"
     ],
     "cve_ids:CVE-2026-129243|affected_products:Palo Alto Networks": [
+      "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
@@ -641493,9 +638437,11 @@
     ],
     "cve_ids:CVE-2026-129244|actor_attribution:ShinyHunters": [
       "2026-11-25T15:27:36+00:00",
+      "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00"
     ],
     "cve_ids:CVE-2026-129244|affected_products:Anthropic/Claude": [
+      "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
@@ -641507,9 +638453,11 @@
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
+      "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00"
     ],
     "cve_ids:CVE-2026-129244|affected_products:Palo Alto Networks": [
+      "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
@@ -641518,9 +638466,11 @@
     ],
     "cve_ids:CVE-2026-129245|actor_attribution:ShinyHunters": [
       "2026-11-25T15:27:36+00:00",
+      "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00"
     ],
     "cve_ids:CVE-2026-129245|affected_products:Anthropic/Claude": [
+      "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
@@ -641532,9 +638482,11 @@
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
+      "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00"
     ],
     "cve_ids:CVE-2026-129245|affected_products:Palo Alto Networks": [
+      "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
       "2026-11-25T15:27:36+00:00",
@@ -641596,7 +638548,8 @@
     "cve_ids:CVE-2026-136716|affected_products:Drupal": [
       "2026-11-19T17:49:52+00:00",
       "2026-11-25T10:10:20+00:00",
-      "2026-11-25T10:10:20+00:00"
+      "2026-11-25T10:10:20+00:00",
+      "2026-11-26T07:02:34+00:00"
     ],
     "cve_ids:CVE-2026-103406|actor_attribution:ShinyHunters": [
       "2026-11-26T13:04:06+00:00",
@@ -641630,16 +638583,44 @@
       "2026-11-25T10:10:20+00:00"
     ],
     "cve_ids:CVE-2026-124283|affected_products:Palo Alto Networks": [
+      "2026-11-27T07:44:49+00:00",
       "2026-11-27T07:44:49+00:00"
     ],
     "cve_ids:CVE-2026-129514|affected_products:Palo Alto Networks": [
+      "2026-11-27T07:44:49+00:00",
       "2026-11-27T07:44:49+00:00"
     ],
     "cve_ids:CVE-2026-130411|affected_products:Palo Alto Networks": [
+      "2026-11-27T07:44:49+00:00",
       "2026-11-27T07:44:49+00:00"
     ],
     "cve_ids:CVE-2026-133555|affected_products:Palo Alto Networks": [
+      "2026-11-27T07:44:49+00:00",
       "2026-11-27T07:44:49+00:00"
+    ],
+    "cve_ids:CVE-2026-132165|affected_products:Atlassian Jira": [
+      "2026-11-26T07:02:34+00:00"
+    ],
+    "cve_ids:CVE-2026-132165|affected_products:VMware": [
+      "2026-11-26T07:02:34+00:00"
+    ],
+    "cve_ids:CVE-2026-136716|affected_products:Atlassian Jira": [
+      "2026-11-26T07:02:34+00:00"
+    ],
+    "cve_ids:CVE-2026-136716|affected_products:VMware": [
+      "2026-11-26T07:02:34+00:00"
+    ],
+    "cve_ids:CVE-2026-99362|affected_products:Linux kernel": [
+      "2026-11-27T08:06:58+00:00"
+    ],
+    "cve_ids:CVE-2026-99362|affected_products:Microsoft 365": [
+      "2026-11-27T08:06:58+00:00"
+    ],
+    "cve_ids:CVE-2026-99362|affected_products:Palo Alto Networks": [
+      "2026-11-27T08:06:58+00:00"
+    ],
+    "actor_attribution:Salt Typhoon|affected_products:Azure": [
+      "2026-11-27T11:06:57+00:00"
     ]
   }
 }
