@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-11-28T01:17:37.897905+00:00
+- Generated: 2026-11-28T10:03:38.785464+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 270
-- Total clusters raw: 122
-- Total clusters in packet: 56
-- Dropped low score: 66
+- Total items in window: 268
+- Total clusters raw: 123
+- Total clusters in packet: 55
+- Dropped low score: 68
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,6 +70,16 @@
 
 ## Feed status
 
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
@@ -80,59 +90,24 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: fetch_error
+  - Item count: 0
+  - In window count: 0
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
   - Item count: 0
   - In window count: 0
 - **Citizen Lab** (threat_research_primary)
@@ -140,8 +115,43 @@
   - Status: ok
   - Item count: 10
   - In window count: 5
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 5
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
@@ -150,21 +160,6 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
-  - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
@@ -175,20 +170,25 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 0
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
+  - In window count: 0
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
@@ -200,26 +200,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
@@ -230,36 +220,51 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
-  - Item count: 100
-  - In window count: 4
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 1
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
+  - Item count: 10
   - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 30
+  - In window count: 1
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 15
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 4
+- **Google Project Zero** (offensive_vulnerability_research)
+  - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -267,6 +272,11 @@
   - In window count: 1
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
@@ -285,16 +295,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Google Project Zero** (offensive_vulnerability_research)
-  - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
@@ -305,36 +305,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
-  - Item count: 100
+  - Item count: 10
   - In window count: 1
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
@@ -345,31 +340,41 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 17
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
-  - Item count: 50
-  - In window count: 0
+  - Item count: 100
+  - In window count: 1
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 17
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 0
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 16
+  - In window count: 15
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -385,11 +390,6 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -415,36 +415,41 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 47
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 46
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 28
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -455,21 +460,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 4
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 4
 
 ## Affinity groups (themes)
 
@@ -502,8 +502,8 @@
 - Anchor signal: VMware
 - Theme key: vmware
 - Cluster count: 2
-- Article count: 9
-- Cohesion: 0.287
+- Article count: 8
+- Cohesion: 0.307
 - Shared strong signals: VMware
 - Member CVEs: (none)
 - Also targets: (none)
@@ -556,23 +556,23 @@
   - affected_industries: critical_infrastructure, manufacturing_industrial
   - affected_products: Anthropic/Claude, Azure, Palo Alto Networks
   - urgency_signals: no_patch_yet
-- Cluster IDs: 1fd69b6fe4, 51528a6bf5, 62b9c7bd0a
+- Cluster IDs: 1fd69b6fe4, 62b9c7bd0a, 51528a6bf5
 - Links:
   - https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/
+  - https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html
+  - https://www.infosecurity-magazine.com/news/inception-extortion-sso-vishing/
+  - https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/
   - https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/
   - https://risky.biz/RBNEWS639/
   - https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html
   - https://www.infosecurity-magazine.com/news/1password-github-account-backend/
-  - https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html
-  - https://www.infosecurity-magazine.com/news/inception-extortion-sso-vishing/
-  - https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/
 
 ### CVE-2026-99312 exploitation activity
 - Anchor signal: CVE-2026-99312
 - Theme key: cve-2026-99312
 - Cluster count: 2
 - Article count: 5
-- Cohesion: 0.205
+- Cohesion: 0.224
 - Shared strong signals: CVE-2026-99312
 - Member CVEs: (none)
 - Also targets: (none)
@@ -604,6 +604,23 @@
   - https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html
   - https://www.elastic.co/security-labs/blog/ai-security-detection-rules-coding-agents-mcp
 
+### CVE-2026-129245 exploitation activity
+- Anchor signal: CVE-2026-129245
+- Theme key: cve-2026-129245
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.231
+- Shared strong signals: CVE-2026-129245
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - cve_ids: CVE-2026-120705, CVE-2026-129243, CVE-2026-129244, CVE-2026-129245
+  - urgency_signals: preauth_unauth
+- Cluster IDs: 40fc3a3950, 1fd69b6fe4
+- Links:
+  - https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html
+  - https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/
+
 ### CVE-2026-120705 exploitation activity
 - Anchor signal: CVE-2026-120705
 - Theme key: cve-2026-120705
@@ -628,23 +645,6 @@
 - Article count: 2
 - Cohesion: 0.231
 - Shared strong signals: CVE-2026-129244
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - cve_ids: CVE-2026-120705, CVE-2026-129243, CVE-2026-129244, CVE-2026-129245
-  - urgency_signals: preauth_unauth
-- Cluster IDs: 40fc3a3950, 1fd69b6fe4
-- Links:
-  - https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html
-  - https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/
-
-### CVE-2026-129245 exploitation activity
-- Anchor signal: CVE-2026-129245
-- Theme key: cve-2026-129245
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.231
-- Shared strong signals: CVE-2026-129245
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -724,19 +724,19 @@
 ### Convergence (15)
 - Pair: CVE-2026-123890 + VMware (cluster a8558e441f, first observation: True)
 - Pair: CVE-2026-123903 + VMware (cluster a8558e441f, first observation: True)
-- Pair: CVE-2026-129448 + VMware (cluster a8558e441f, first observation: True)
 - Pair: CVE-2026-131914 + Google Cloud (cluster 6be901b2fe, first observation: True)
 - Pair: CVE-2026-123633 + Palo Alto Networks (cluster 50d8786b00, first observation: True)
 - Pair: CVE-2026-123634 + Palo Alto Networks (cluster 50d8786b00, first observation: True)
-- Pair: CVE-2026-114938 + Atlassian Jira (cluster 03813b65c4, first observation: True)
-- Pair: CVE-2026-114938 + Drupal (cluster 03813b65c4, first observation: True)
-- Pair: CVE-2026-114938 + VMware (cluster 03813b65c4, first observation: True)
-- Pair: CVE-2026-132165 + Atlassian Jira (cluster 03813b65c4, first observation: True)
 - Pair: CVE-2026-132165 + Drupal (cluster 03813b65c4, first observation: True)
 - Pair: CVE-2026-132165 + VMware (cluster 03813b65c4, first observation: True)
-- Pair: CVE-2026-136716 + Atlassian Jira (cluster 03813b65c4, first observation: True)
 - Pair: CVE-2026-136716 + Drupal (cluster 03813b65c4, first observation: True)
 - Pair: CVE-2026-136716 + VMware (cluster 03813b65c4, first observation: True)
+- Pair: CVE-2026-99312 + Drupal (cluster 03813b65c4, first observation: True)
+- Pair: CVE-2026-99312 + VMware (cluster 03813b65c4, first observation: True)
+- Pair: CVE-2026-76466 + GitLab (cluster 64ed1947ea, first observation: True)
+- Pair: CVE-2026-120705 + ShinyHunters (cluster 1fd69b6fe4, first observation: True)
+- Pair: CVE-2026-120705 + Anthropic/Claude (cluster 1fd69b6fe4, first observation: True)
+- Pair: CVE-2026-120705 + Azure (cluster 1fd69b6fe4, first observation: True)
 
 ### Drift (5)
 - **ShinyHunters** (cluster 1fd69b6fe4)
@@ -785,14 +785,14 @@
 - Published: 2026-11-25T22:09:46+00:00
 - Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-123890/
 - Fetch status: ok
-- Member count: 5
+- Member count: 4
 - Corroborating source count: 3
 - Strong signals: CVE-2026-123890, VMware
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, apt_espionage, zero_day
+- threat_categories: active_exploitation, zero_day
 - affected_products: VMware
-- cve_ids: CVE-2026-123890, CVE-2026-123903, CVE-2026-129448, CVE-2026-59309
+- cve_ids: CVE-2026-123890, CVE-2026-123903, CVE-2026-59309
 - urgency_signals: actively_exploited, preauth_unauth, zero_day
 - content_type: news_report, vulnerability_disclosure
 - confidence_tier: tier_1_offensive_research, tier_4_news
@@ -972,7 +972,7 @@ Blog FastX in a Box: Using Docker to Find Where a Pre-Auth RCE Lived (and How It
   - Link: https://trustedsec.com/blog/fastx-in-a-box
   - Summary: <p>The pre-auth RCE worked on the engagement; it didn’t work in the lab. In this blog, we use Docker to track down why, mapping which FastX builds are affected and where the bug stopped.</p>
 
-### Cluster be34119f4f — score 25
+### Cluster be34119f4f — score 24
 
 - Title: Unpatched Cacti zero-day with public PoC gives remote code execution
 - Source: BleepingComputer (cyber_news_breach_reporting)
@@ -1105,53 +1105,6 @@ Wiz Research has been closely monitoring the evolving role of Agentic Offensive 
   - Link: https://www.wiz.io/blog/agentic-attacks-artex-offensive-ai-frameworks
   - Summary: Agentic offensive frameworks like ARTEX are driving a surge in cloud intrusions. Wiz Research shares cases from the wild, including both sides of one attack via the operator's leaked logs, an update on Black October, and the detections that catch these noisy, machine-speed attacks.
 
-### Cluster 510f5214b1 — score 20
-
-- Title: Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-11-27T05:48:20+00:00
-- Link: https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, zero_day
-- tools_used: OpenAI/ChatGPT
-- cve_ids: CVE-2026-99312
-- urgency_signals: no_patch_yet, poc_available, preauth_unauth, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, zero_day
-- tools_used: OpenAI/ChatGPT
-- cve_ids: CVE-2026-99312
-- urgency_signals: zero_day, preauth_unauth, no_patch_yet, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. "I found a path from a fresh, unauthenticated HTTP session to command execution as the Cacti server
-```
-
-#### Full body
-
-```
-Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access  Ravie Lakshmanan  Nov 27, 2026 Zero-Day / Vulnerability Details have emerged about a new zero-day vulnerability in Cacti , an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT . "I found a path from a fresh, unauthenticated HTTP session to command execution as the Cacti server user in four requests," a security researcher who goes by the online alias "ek0ms savi0r" said . "No login. No valid API key. No phishing. Just four HTTP requests against the default guest surface." The shortcoming affects Cacti Core 1.2.31, the latest version , when the guest account is enabled. It's worth noting that the guest account is disabled by default starting with Cacti version 0.8.7. At a high level, the vulnerability allows an attacker to abuse the guest access to write an unvalidated value (i.e., non-numeric text) into a setting called "preview_graphs_per_page" via "auth_profile.php?action=update_data." The configuration parameter controls how many graphs are displayed per page when viewing graphs in Preview Mode. The crafted value takes the form of arbitrary SQL strings that can be turned into a second-order SQL injection by taking advantage of the fact that Cacti does not validate that the user-provided input is actually an integer value. This, in turn, opens the door for arbitrary SQL query execution when the graph preview page ("graph_view.php") is loaded with default filters. The SQL query demonstrated by "ek0ms savi0r" is an UPDATE statement to modify a record in Cacti's poller table . In the final stage of the attack, the realtime poller endpoint ("graph_realtime.php") is invoked from the same guest session, which causes the modified row from the poller table to be read and passed as input to PHP's popen() function without any allowlist or sanitization checks. The researcher has pointed out four failures that ultimately make it possible to achieve unauthenticated remote code execution - The guest can write a numeric setting as an arbitrary string The stored default bypasses request validation Cacti's PHP PDO database driver accepts stacked statements through the SQL LIMIT clause The poller executes a database-stored command string Successful exploitation of the flaw can allow an attacker to compromise the Cacti server and provide a pivot point to the target network as it exposes sensitive data, or even suppress alerts by modifying the poller table. "Because Cacti often stores credentials and connection details for routers, switches, servers, and other devices across a network, an attacker who reaches this level of command execution can gain a foothold reaching far beyond the monitoring server itself," watchTowr said in an advisory. In the absence of a fix, users are advised to disable the guest account and restrict access to the Cacti web interface to mitigate potential risks. It's also essential to review poller configuration entries for unexpected command values and apply the fixes as soon as they become available. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  network security , remote code execution , SQL Injection , Vulnerability , Web Security , Zero-Day ⚡ Top Stories This Week WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories phpAfterShell Explained: How Hacke
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access
-  - Published: 2026-11-27T05:48:20+00:00
-  - Link: https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html
-  - Summary: Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. "I found a path from a fresh, unauthenticated HTTP session to command execution as the Cacti server
-
 ### Cluster 50d8786b00 — score 19
 
 - Title: NGINX HTTP/2 Use-After-Free: CVE-2026-123633
@@ -1199,6 +1152,53 @@ Threat Research Center Threat Research Vulnerabilities Vulnerabilities NGINX HTT
   - Link: https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/
   - Summary: Technical analysis of CVE-2026-123633, an NGINX HTTP/2 use-after-free flaw, with details on affected versions, sanitizer tests, and patch guidance. The post NGINX HTTP/2 Use-After-Free: CVE-2026-123633 appeared first on Unit 42 .
 
+### Cluster 510f5214b1 — score 19
+
+- Title: Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-11-27T05:48:20+00:00
+- Link: https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng, zero_day
+- tools_used: OpenAI/ChatGPT
+- cve_ids: CVE-2026-99312
+- urgency_signals: no_patch_yet, poc_available, preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, zero_day
+- tools_used: OpenAI/ChatGPT
+- cve_ids: CVE-2026-99312
+- urgency_signals: zero_day, preauth_unauth, no_patch_yet, poc_available
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. "I found a path from a fresh, unauthenticated HTTP session to command execution as the Cacti server
+```
+
+#### Full body
+
+```
+Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access  Ravie Lakshmanan  Nov 27, 2026 Zero-Day / Vulnerability Details have emerged about a new zero-day vulnerability in Cacti , an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT . "I found a path from a fresh, unauthenticated HTTP session to command execution as the Cacti server user in four requests," a security researcher who goes by the online alias "ek0ms savi0r" said . "No login. No valid API key. No phishing. Just four HTTP requests against the default guest surface." The shortcoming affects Cacti Core 1.2.31, the latest version , when the guest account is enabled. It's worth noting that the guest account is disabled by default starting with Cacti version 0.8.7. At a high level, the vulnerability allows an attacker to abuse the guest access to write an unvalidated value (i.e., non-numeric text) into a setting called "preview_graphs_per_page" via "auth_profile.php?action=update_data." The configuration parameter controls how many graphs are displayed per page when viewing graphs in Preview Mode. The crafted value takes the form of arbitrary SQL strings that can be turned into a second-order SQL injection by taking advantage of the fact that Cacti does not validate that the user-provided input is actually an integer value. This, in turn, opens the door for arbitrary SQL query execution when the graph preview page ("graph_view.php") is loaded with default filters. The SQL query demonstrated by "ek0ms savi0r" is an UPDATE statement to modify a record in Cacti's poller table . In the final stage of the attack, the realtime poller endpoint ("graph_realtime.php") is invoked from the same guest session, which causes the modified row from the poller table to be read and passed as input to PHP's popen() function without any allowlist or sanitization checks. The researcher has pointed out four failures that ultimately make it possible to achieve unauthenticated remote code execution - The guest can write a numeric setting as an arbitrary string The stored default bypasses request validation Cacti's PHP PDO database driver accepts stacked statements through the SQL LIMIT clause The poller executes a database-stored command string Successful exploitation of the flaw can allow an attacker to compromise the Cacti server and provide a pivot point to the target network as it exposes sensitive data, or even suppress alerts by modifying the poller table. "Because Cacti often stores credentials and connection details for routers, switches, servers, and other devices across a network, an attacker who reaches this level of command execution can gain a foothold reaching far beyond the monitoring server itself," watchTowr said in an advisory. In the absence of a fix, users are advised to disable the guest account and restrict access to the Cacti web interface to mitigate potential risks. It's also essential to review poller configuration entries for unexpected command values and apply the fixes as soon as they become available. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  network security , remote code execution , SQL Injection , Vulnerability , Web Security , Zero-Day ⚡ Top Stories This Week WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories phpAfterShell Explained: How Hacke
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access
+  - Published: 2026-11-27T05:48:20+00:00
+  - Link: https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html
+  - Summary: Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. "I found a path from a fresh, unauthenticated HTTP session to command execution as the Cacti server
+
 ### Cluster 03813b65c4 — score 19
 
 - Title: Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation
@@ -1213,18 +1213,19 @@ Threat Research Center Threat Research Vulnerabilities Vulnerabilities NGINX HTT
 #### Cluster taxonomy (union across members)
 - threat_categories: active_exploitation, zero_day
 - affected_industries: government
-- affected_products: Atlassian Jira, Drupal, VMware
+- affected_products: Drupal, VMware
 - tools_used: OpenAI/ChatGPT
-- cve_ids: CVE-2026-114938, CVE-2026-132165, CVE-2026-136716, CVE-2026-99312
+- cve_ids: CVE-2026-132165, CVE-2026-136716, CVE-2026-99312
 - urgency_signals: actively_exploited, no_patch_yet, preauth_unauth, zero_day
 - content_type: news_report, vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: zero_day, active_exploitation
-- affected_products: Drupal, VMware, Atlassian Jira
+- affected_industries: government
+- affected_products: Drupal, VMware
 - tools_used: OpenAI/ChatGPT
-- cve_ids: CVE-2026-136716, CVE-2026-132165, CVE-2026-99312, CVE-2026-114938
+- cve_ids: CVE-2026-136716, CVE-2026-132165, CVE-2026-99312
 - urgency_signals: actively_exploited, zero_day, preauth_unauth, no_patch_yet
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
@@ -1238,7 +1239,7 @@ Drupal has warned of a new "highly critical" security flaw impacting Drupal core
 #### Full body
 
 ```
-Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation  Ravie Lakshmanan  Nov 26, 2026 Vulnerability / Web Security Drupal has warned of a new "highly critical" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to CVE-2026-132165 aka Fail2Install in that it addresses remaining vulnerable installation states that could still be abused to facilitate site takeover even after the fix. CVE-2026-132165 "recently fixed several vulnerabilities within the Drupal core installer," Drupal maintainers said . "However, certain sites in unusual or incomplete install states remain vulnerable to site takeover following that advisory, including production sites." "It is not apparent in the user interface if a site is in the affected vulnerable state, and sites that are already compromised may no longer be in the vulnerable state." Drupal acknowledged that the vulnerability is being exploited in the wild, but emphasized that site owners who have already secured the installer ("install.php") are not impacted. Specifically, any website that left its installer remotely accessible following the fix for CVE-2026-132165 may have been compromised. Drupal is urging site administrators to take the following actions - Check site logs for unauthorized access, including unexpected changes to or by the user 1 account Ensure the user 1 email address is set to under their control, and consider resetting user 1's password. The issue has been remediated in the following versions - Drupal 11.4.x - Update to Drupal 11.4.14 Drupal 11.3.x - Update to Drupal 11.3.23 Drupal 10.6.x - Update to Drupal 10.6.23 Drupal 11.0.x to 11.2.x - No fix (End-of-life) Drupal 10.5.x and below - No fix (End-of-life) After updating to the latest supported versions, it's recommended to run "update.php" to fix existing production sites in this state and secure the Drupal installer on all new and existing sites. According to statistics shared by StepSecurity, there are about 55,800 internet-facing Drupal sites as of November 26, 2026, out of which 31,500 services are running branches that are vulnerable to CVE-2026-132165 and roughly 15,000 are on the end-of-life 8 and 9 branches. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Active Exploitation , Content Management Systems , Drupal , Vulnerability , Web Security ⚡ Top Stories This Week WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites Ruby Ships Fixes for 7 Flaws, Including Critical Ruby2Shell, Said to Hit Default Rails Apps Pre-Auth Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle 10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jen
+Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation  Ravie Lakshmanan  Nov 26, 2026 Vulnerability / Web Security Drupal has warned of a new "highly critical" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to CVE-2026-132165 aka Fail2Install in that it addresses remaining vulnerable installation states that could still be abused to facilitate site takeover even after the fix. CVE-2026-132165 "recently fixed several vulnerabilities within the Drupal core installer," Drupal maintainers said . "However, certain sites in unusual or incomplete install states remain vulnerable to site takeover following that advisory, including production sites." "It is not apparent in the user interface if a site is in the affected vulnerable state, and sites that are already compromised may no longer be in the vulnerable state." Drupal acknowledged that the vulnerability is being exploited in the wild, but emphasized that site owners who have already secured the installer ("install.php") are not impacted. Specifically, any website that left its installer remotely accessible following the fix for CVE-2026-132165 may have been compromised. Drupal is urging site administrators to take the following actions - Check site logs for unauthorized access, including unexpected changes to or by the user 1 account Ensure the user 1 email address is set to under their control, and consider resetting user 1's password. The issue has been remediated in the following versions - Drupal 11.4.x - Update to Drupal 11.4.14 Drupal 11.3.x - Update to Drupal 11.3.23 Drupal 10.6.x - Update to Drupal 10.6.23 Drupal 11.0.x to 11.2.x - No fix (End-of-life) Drupal 10.5.x and below - No fix (End-of-life) After updating to the latest supported versions, it's recommended to run "update.php" to fix existing production sites in this state and secure the Drupal installer on all new and existing sites. According to statistics shared by StepSecurity, there are about 55,800 internet-facing Drupal sites as of November 26, 2026, out of which 31,500 services are running branches that are vulnerable to CVE-2026-132165 and roughly 15,000 are on the end-of-life 8 and 9 branches. Flaw Added to CISA Catalog The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on November 27, 2026, added CVE-2026-136716 to its Known Exploited Vulnerabilities ( KEV ) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by November 30, 2026. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Active Exploitation , Content Management Systems , Drupal , Vulnerability , Web Security ⚡ Top Stories This Week WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites Ruby Ships Fixes for 7 Flaws, Including Critical Ruby2Shell, Said to Hit Default Rails Apps Pre-Auth Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle 10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers F5 Warns 6 Critical BIG-IP Flaws Can
 ```
 
 #### Corroborating sources (3)
@@ -1553,47 +1554,6 @@ CATEGORIES AI Research 24 Android Malware 23 Artificial Intelligence 6 ChatGPT 3
   - Link: https://research.checkpoint.com/2026/volant-manticore-flying-under-the-radar/
   - Summary: Key Points Introduction Check Point Research is tracking a previously undocumented Iran-nexus threat group who we named Volant Manticore. What started in July 2026 as a single backdoor delivered to a Cyprus-based airline through a fake CV has since expanded into a broader cluster of activity that we traced back to September 2025. MuddyWater is […] The post Volant Manticore: Flying Under the Radar appeared first on Check Point Research .
 
-### Cluster 016cd1a6ec — score 12
-
-- Title: Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-11-27T15:00:10+00:00
-- Link: https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management, access controls, and resource lifecycle automation can help reduce these risks. [...]
-```
-
-#### Full body
-
-```
-Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs Sponsored by ISPsystem November 27, 2026 10:00 AM 0 When discussing IT infrastructure security, the focus is usually on firewalls, EDR, backup, vulnerability management, and network segmentation. However, all of them are effective only under one condition — if the infrastructure itself is under control. Incidents often begin not with the exploitation of a vulnerability or bypassing protection systems, but with shortcomings in basic infrastructure management. Every virtual machine, server, access, and IP address must have an owner, a lifetime, and a controlled path for creation and deletion. When management processes are opaque, the infrastructure itself becomes a source of information security risks, and security tools have to operate over an unknown environment and merely contain the consequences. This principle is equally critical for enterprise companies and service providers — regardless of whether the platform serves internal services, development teams, or external customers, a loss of control over administration can lead to the compromise of the entire environment. Why Security Grows Out of Manageability In modern IT infrastructure, hundreds of systems run on the same resources, and the environment itself is constantly changing — dozens of services are created, scaled, and deleted daily. In such conditions, provisioning comes to the fore. Deploying a new virtual machine without a regulation and recording the owner leaves "forgotten" VMs in the environment. They do not receive updates, fall out of monitoring, and become an easy entry point for an attacker. Centralized access management is no less critical. The platform must delineate the rights of users and administrators and record all operations; otherwise, excessive rights accumulate, allowing attackers to move laterally across the network. We should not forget about the isolation of environments — the resources of different customers at a hosting provider, or internal systems, external services, and development environments in corporate IT infrastructure. If isolation is violated, an incident in the test environment can affect business-critical services. All this is impossible without lifecycle control — linking capacity allocation to billing, quotas, and timely deletion of resources, so that outdated accounts and "abandoned" IP addresses do not remain in the network. Finally, manageability is impossible without accurate accounting of the physical layer: the appearance, decommissioning, and movement of servers between racks and sites. Inaccurate accounting generates unaccounted servers and loss of control over security configurations. Therefore, the foundation of information security is the transparency of resource management throughout their entire lifecycle. Bring Virtualization and Infrastructure Management Under Control ISPsystem brings VM management, physical infrastructure inventory, and resource lifecycle workflows together in one environment. See how VMmanager, DCImanager, and BILLmanager help teams gain visibility and control across their IT infrastructure. Explore ISPsystem Migration from VMware and the Change in the Management Model Broadcom's change in licensing policy forced companies to reconsider their infrastructure strategies and look for alternatives to VMware — for example, considering Proxmox VE, OpenStack, and other open-source solutions. However, migrating to a new platform requires more than just the correct transfer of virtual machines. Over the years of working with VMware, many have become accustomed to perceiving it as a single whole — virtualization, resource management, access, automation, and accounting. When migrating to another stack, it quickly becomes clear that virtualization is not equal to infrastructure management: the hypervisor is just one element, and the remaining functions have to be assembled from several independent solutions. Proxmox and OpenStack solve virtuali
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs
-  - Published: 2026-11-27T15:00:10+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/
-  - Summary: Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management, access controls, and resource lifecycle automation can help reduce these risks. [...]
-
 ### Cluster ba1bc3518e — score 12
 
 - Title: Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning
@@ -1691,6 +1651,47 @@ Infosecurity Magazine Home » News » OpenAI and Cisco Release Open-Source Tool 
   - Link: https://www.wiz.io/blog/wiz-openai-codex-integration
   - Summary: Bringing cloud security intelligence to AI-driven vulnerability investigation and code remediation.
 
+### Cluster 016cd1a6ec — score 11
+
+- Title: Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-11-27T15:00:10+00:00
+- Link: https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management, access controls, and resource lifecycle automation can help reduce these risks. [...]
+```
+
+#### Full body
+
+```
+Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs Sponsored by ISPsystem November 27, 2026 10:00 AM 0 When discussing IT infrastructure security, the focus is usually on firewalls, EDR, backup, vulnerability management, and network segmentation. However, all of them are effective only under one condition — if the infrastructure itself is under control. Incidents often begin not with the exploitation of a vulnerability or bypassing protection systems, but with shortcomings in basic infrastructure management. Every virtual machine, server, access, and IP address must have an owner, a lifetime, and a controlled path for creation and deletion. When management processes are opaque, the infrastructure itself becomes a source of information security risks, and security tools have to operate over an unknown environment and merely contain the consequences. This principle is equally critical for enterprise companies and service providers — regardless of whether the platform serves internal services, development teams, or external customers, a loss of control over administration can lead to the compromise of the entire environment. Why Security Grows Out of Manageability In modern IT infrastructure, hundreds of systems run on the same resources, and the environment itself is constantly changing — dozens of services are created, scaled, and deleted daily. In such conditions, provisioning comes to the fore. Deploying a new virtual machine without a regulation and recording the owner leaves "forgotten" VMs in the environment. They do not receive updates, fall out of monitoring, and become an easy entry point for an attacker. Centralized access management is no less critical. The platform must delineate the rights of users and administrators and record all operations; otherwise, excessive rights accumulate, allowing attackers to move laterally across the network. We should not forget about the isolation of environments — the resources of different customers at a hosting provider, or internal systems, external services, and development environments in corporate IT infrastructure. If isolation is violated, an incident in the test environment can affect business-critical services. All this is impossible without lifecycle control — linking capacity allocation to billing, quotas, and timely deletion of resources, so that outdated accounts and "abandoned" IP addresses do not remain in the network. Finally, manageability is impossible without accurate accounting of the physical layer: the appearance, decommissioning, and movement of servers between racks and sites. Inaccurate accounting generates unaccounted servers and loss of control over security configurations. Therefore, the foundation of information security is the transparency of resource management throughout their entire lifecycle. Bring Virtualization and Infrastructure Management Under Control ISPsystem brings VM management, physical infrastructure inventory, and resource lifecycle workflows together in one environment. See how VMmanager, DCImanager, and BILLmanager help teams gain visibility and control across their IT infrastructure. Explore ISPsystem Migration from VMware and the Change in the Management Model Broadcom's change in licensing policy forced companies to reconsider their infrastructure strategies and look for alternatives to VMware — for example, considering Proxmox VE, OpenStack, and other open-source solutions. However, migrating to a new platform requires more than just the correct transfer of virtual machines. Over the years of working with VMware, many have become accustomed to perceiving it as a single whole — virtualization, resource management, access, automation, and accounting. When migrating to another stack, it quickly becomes clear that virtualization is not equal to infrastructure management: the hypervisor is just one element, and the remaining functions have to be assembled from several independent solutions. Proxmox and OpenStack solve virtuali
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs
+  - Published: 2026-11-27T15:00:10+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/
+  - Summary: Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management, access controls, and resource lifecycle automation can help reduce these risks. [...]
+
 ### Cluster 9a9f7eb13e — score 11
 
 - Title: Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers
@@ -1736,70 +1737,6 @@ Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Ser
   - Link: https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html
   - Summary: An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from. The flaw used in the attack had been in the registry's code since February 2016, and the team that maintains the service had every server on a patched build within about 15 minutes of the first malicious request. Checks
 
-### Cluster 51528a6bf5 — score 11
-
-- Title: SAP Confirms Cyberattack, Source Code Reportedly Compromised
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-11-27T07:36:14+00:00
-- Link: https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/
-- Fetch status: ok
-- Member count: 7
-- Corroborating source count: 4
-- Strong signals: GitHub
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion, supply_chain
-- actor_attribution: ShinyHunters
-- affected_industries: critical_infrastructure, manufacturing_industrial, media_communications
-- affected_products: Anthropic/Claude, Azure, GitHub
-- urgency_signals: no_patch_yet
-- content_type: event_promotion, incident_report, news_report
-- confidence_tier: tier_3_analysis, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- actor_attribution: ShinyHunters
-- affected_industries: critical_infrastructure, manufacturing_industrial, media_communications
-- affected_products: Azure, Anthropic/Claude, GitHub
-- urgency_signals: no_patch_yet
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code. The post SAP Confirms Cyberattack, Source Code Reportedly Compromised appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Enterprise software giant SAP has confirmed it is investigating a cybersecurity incident following reports that threat actors targeted its development infrastructure. German publication Der Spiegel [paywalled] broke the news on Thursday, citing SAP insiders and an internal notification sent to employees. SAP told SecurityWeek that it had detected suspicious activity and implemented measures to protect customers and secure its services. The German company did not disclose details of the attack. “Based on our investigation to date, we have found no evidence of unauthorized access to customer business data,” SAP told SecurityWeek . German news agency DPA reviewed internal SAP communications that revealed the suspicious activity had been identified within GitHub. According to an insider cited by Der Spiegel, the hackers obtained SAP employees’ authentication tokens, enabling them to copy and alter source code stored on GitHub. Advertisement. Scroll to continue reading. SAP publishes developer tools, sample applications, and open source projects on GitHub. It’s unclear whether the threat actor accessed any proprietary code. Separately, Handelsblatt reported that SAP’s emergency security measures have affected numerous teams. The software giant has reportedly replaced signing keys, limited access to GitHub, and suspended automated development operations. None of the reports indicate that tampered code was incorporated into software delivered to SAP customers. Sources cited by Der Spiegel suggested that the attack may have been assisted by AI. While AI involvement has not been confirmed, several major organizations, including the European Commission , have recently disclosed AI-assisted cyberattacks . In late October, the Gentlemen ransomware group listed SAP on its leak website, pointing to the company’s Latin American operations. File listings reviewed by SecurityWeek suggest the hackers obtained SAP-related software and source code, but it is unclear whether SAP itself or a third party was compromised. The two incidents do not appear to be connected. Related : FIFA Says It Has Been Victim of a Cyberattack Related : 1Password Breach Exposes Customer Data, Internal Source Code Related : Critical Juniper Session Smart Conductor Flaw Exploited in Attacks Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Two Newly Disclosed GeoServer Vulnerabilities Under Attack ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties Drupal Flaw Found by Anthropic Scanner Exploited in Attacks European Commission Uncovers Data Breach in Cyberattack Investigation Anthropic Expands Enterprise Safeguards for Detecting AI Misuse OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms Latest News In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities 100,000 Potentially Impacted by Colorado Data Breach Hex Package Manager Warns of Potential Data Breach FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’ Critical Juniper Session Smart Conductor Flaw Exploited in Attacks Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks Drupal Installer Patch Left a Gap Attackers Are Already Exploiting 1Password Breach Exposes Customer Data, Internal Source Code Trending SAP Confirms Cyberattack, Source Code Reportedly Compromised US Treasury’s FinCEN Disconnects Systems Following Cyber Incident Amplifier
-```
-
-#### Corroborating sources (4)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: SAP Confirms Cyberattack, Source Code Reportedly Compromised
-  - Published: 2026-11-27T07:36:14+00:00
-  - Link: https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/
-  - Summary: SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code. The post SAP Confirms Cyberattack, Source Code Reportedly Compromised appeared first on SecurityWeek .
-- **Risky Business News** (practitioner_analysis)
-  - Title: Risky Bulletin: Hackers breach Erlang and Elixir package manager
-  - Published: 2026-11-26T23:45:35+00:00
-  - Link: https://risky.biz/RBNEWS639/
-  - Summary: Erlang and Elixir’s package manager gets hacked, FinCEN investigates a security breach, 1Password got owned through an employee’s GitHub account, and Russia will try to build a GitHub clone. Again.
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware
-  - Published: 2026-11-26T15:13:41+00:00
-  - Link: https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html
-  - Summary: The threat actors behind the PolinRider campaign have compromised over 7,600 GitHub repositories, in some cases planting a Python loader capable of delivering next-stage payloads, as evidence emerges that the activity may have started as far back as February 2025. "These are real developers, not throwaway accounts," Apiiro researcher Shmulik Cohen said. "6,541 of the 7,609 repos (86%) belong
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: 1Password Hit by Backend Breach via Hijacked Employee GitHub Account
-  - Published: 2026-11-26T09:32:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/1password-github-account-backend/
-  - Summary: An attacker used a 1Password employee's GitHub account to take customer data, but not vaults
-
 ### Cluster 47912f9d10 — score 10
 
 - Title: Recent Trends and Tactics of Agentic AI Attacks
@@ -1840,6 +1777,96 @@ Threat Research Center Threat Research Malware Malware Recent Trends and Tactics
   - Published: 2026-11-24T15:00:19+00:00
   - Link: https://unit42.paloaltonetworks.com/autonomous-ai-agent-threat-campaigns/
   - Summary: We tracked campaigns where attackers deployed autonomous AI agents to automate multi-platform intrusions, using standard tools while leaving distinct operational traces. The post Recent Trends and Tactics of Agentic AI Attacks appeared first on Unit 42 .
+
+### Cluster 5845368a22 — score 10
+
+- Title: 23rd November – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-11-23T15:16:27+00:00
+- Link: https://research.checkpoint.com/2026/23rd-november-threat-intelligence-report/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security, data_breach, phishing_social_eng
+- affected_industries: education, healthcare
+- cve_ids: CVE-2026-123007, CVE-2026-129289
+- urgency_signals: critical_cvss, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, data_breach, ai_security
+- affected_industries: healthcare, education
+- cve_ids: CVE-2026-129289, CVE-2026-123007
+- urgency_signals: preauth_unauth, critical_cvss
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+For the latest discoveries in cyber research for the week of 23rd November, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES The FBI has reportedly experienced a second cyber incident in recent months, this time targeting its National Crime Information Center (NCIC). The database shares records on fugitives, warrants, criminal histories, and missing […] The post 23rd November – Threat Intelligence Report appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 23rd November – Threat Intelligence Report November 23, 2026 https://research.checkpoint.com/2026/23rd-november-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 23rd November, please download our Threat Intelligence Bulletin . TOP ATTACKS AND BREACHES The FBI has reportedly experienced a second cyber incident in recent months, this time targeting its National Crime Information Center (NCIC). The database shares records on fugitives, warrants, criminal histories, and missing persons among US law enforcement agencies. The attackers’ identities, entry method, and potential data exposure were not disclosed by the FBI. Japan’s RIKEN research institute, which operates one the world’s strongest supercomputers ‘Fugaku’, suspended operations after attackers breached its operations network and tampered with servers between November 10 and 13. The intrusion potentially exposed account information belonging to 4,597 users, including credentials that could provide access to external systems. The European Commission, the EU’s executive body, has suffered a cyberattack that disrupted internal systems for more than ten days. Affected services included payroll, health insurance, and translation systems. Officials claimed that they contained most of the disruption, and that the attack was assisted by AI tools. US-based cybersecurity and networking provider Infoblox has confirmed unauthorized access to company information through a compromised third-party data migration vendor. The breach reportedly involved sensitive customer data stored in a migration environment. Infoblox stated that its products and services were unaffected and did not disclose the number of customers impacted. AI THREATS Check Point Research has demonstrated how differences in capability between AI security filters and underlying language models can enable attackers to bypass safeguards. The analysis describes this limitation as gatekeeper asymmetry, drawing on prompt injection research and examples of security systems failing to recognize malicious inputs. Researchers analyzed a campaign involving a China-linked threat actor that used the AI-powered Cairn framework against East Asian universities. Autonomous agents discovered and exploited a previously unknown vulnerability in open-source medical imaging software, reportedly obtaining root privileges within approximately 11 minutes. The affected software has since been patched. Researchers examined TheMailer, an AI-powered phishing kit that uses language models to generate personalized emails and automatically rewrite messages to evade spam filters. Observed activity included a campaign involving nearly 25,000 emails and a target list exceeding 145,000 recipients. The effectiveness of these campaigns remains unverified. VULNERABILITIES AND PATCHES PHP has released security updates addressing seven critical vulnerabilities affecting PHP 8.2–8.5, including CVE-2026-129289 (CVSS 9.2). Under specific configurations, the flaws can enable unauthenticated remote code execution or privilege escalation. Fixed versions include 8.2.36, 8.3.37, 8.4.28, and 8.5.13. The issues affect PHP-FPM, session handling, and core runtime components. CVE-2026-129289 is prevented by the “HTTP Non Compliant” protocol anomaly protection. For full protection against this threat, make sure the “Non Compliant HTTP” inspection setting is active on the Gateway . NGINX has released security updates addressing five high-severity vulnerabilities, including CVE-2026-123007, that could allow unauthenticated attackers to execute commands under certain configurations. Researchers estimated that approximately 8.8 million services may remain exposed. Proof-of-concept exploitation has been demonstrated, but no confirmed attacks were reported. Check Point IPS provides protection against these threats (NGINX Remote Code Execution (CVE-2026-123007, CVE-2026-123
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: 23rd November – Threat Intelligence Report
+  - Published: 2026-11-23T15:16:27+00:00
+  - Link: https://research.checkpoint.com/2026/23rd-november-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 23rd November, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES The FBI has reportedly experienced a second cyber incident in recent months, this time targeting its National Crime Information Center (NCIC). The database shares records on fugitives, warrants, criminal histories, and missing […] The post 23rd November – Threat Intelligence Report appeared first on Check Point Research .
+
+### Cluster 73c81d4fb1 — score 10
+
+- Title: Black Friday, red flags: too-good-to-be-true deals hiding real threats
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-11-23T10:00:43+00:00
+- Link: https://securelist.com/black-friday-threat-report-2026/122061/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services, retail_ecommerce
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services, retail_ecommerce
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+How cybercriminals prepare for Black Friday: phishing, scams and malware targeting online shoppers and gamers, GTA VI- and wellness-related schemes, and fake sales spam.
+```
+
+#### Full body
+
+```
+Content menu Close Subscribe Threat Response Table of Contents Intro Methodology Key findings Shopping-related phishing by the numbers What mass scam campaigns look like The streaming platform discount trap Inside the Black Friday spam wave targeting shoppers Wasted: GTA VI “offers” and other lures targeting the gaming community this November From self-care to scam: how attackers target beauty and wellness fans Banking Trojans Conclusions Authors Kaspersky Intro Black Friday remains a defining moment of the holiday shopping season and a key period for cybercriminals seeking to exploit the surge in consumer activity. The scale of this demand is reflected in seasonal spending patterns. According to PwC’s post-holiday analysis , holiday spending rose by 6.4% year over year in 2025, with Black Friday once again being the peak sales day generating nearly $20 billion. Consumer behavior points to the same trend: KPMG’s 2026 Consumer Pulse Survey found that Black Friday remains the most important sales event, with 62% of respondents pointing to its importance. Moreover, it is strongly associated with online shopping, with 83% of consumers preferring to buy online or combine online and in-person purchases on this occasion. To find the best offers, 55% of respondents in 2026 planned to research purchases through retailer websites and 46% through brand websites. As shopping activity concentrates online during peak sales periods, threat actors gain broader opportunities to exploit consumer demand, trusted brands, and heavy promotional traffic to steal credentials, payment data, and money. At Kaspersky, we closely follow the cybersecurity risks associated with major shopping events and seasonal spikes in online retail activity. Our annual analysis examines how cybercriminals adapt their tactics to target consumers during high-demand sales periods. This report extends our annual Securelist series published in 2021 , 2022 , 2023 , 2024 , and 2025 , exploring how shopping-related cyberthreats continue to evolve. Methodology To keep pace with the evolving shopping threat landscape, we conduct an annual assessment of the most prevalent malicious techniques, including financial malware, phishing pages impersonating major retailers, e-commerce platforms, digital services, banks, and payment providers, as well as spam campaigns designed to steer users to fraudulent sites. The threat data we rely on is sourced from Kaspersky Security Network (KSN), which processes anonymized cybersecurity data shared consensually by Kaspersky users. Most of the data in this report draws on was collected from January through October 2026. Key findings In the first ten months of 2026, Kaspersky identified more than 19 million phishing attacks targeting users of online stores, payment systems and banks, a year-on-year increase of 1% . As many as 5% of these attacks were directed at online shoppers. Around 84% of all phishing attacks targeting users of online stores and subscription services involve scammers impersonating Amazon, Apple, Netflix, Shopify and Alibaba Group pages. Netflix-themed phishing detections grew by 5% in 2026 in comparison with 2025 data. We detected more than 220,071 sales-themed spam messages in the first two weeks of November, which is 50.2% more than in 2025. More than 801,000 banking Trojan attacks were recorded during the first 10 months of 2026. Between June and November 2026, Kaspersky products have already detected over 27,000 attacks by malware and potentially unwanted applications posing as GTA VI-related content. Shopping-related phishing by the numbers Phishing and scams remain among the most persistent threats for online shoppers, particularly during peak sales periods, when heightened transaction volumes and time-sensitive offers create conditions for abuse. One of the most notable developments in recent years has been the growing use of AI to increase the speed, scale and sophistication of such campaigns. AI-enabled tools can be us
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: Black Friday, red flags: too-good-to-be-true deals hiding real threats
+  - Published: 2026-11-23T10:00:43+00:00
+  - Link: https://securelist.com/black-friday-threat-report-2026/122061/
+  - Summary: How cybercriminals prepare for Black Friday: phishing, scams and malware targeting online shoppers and gamers, GTA VI- and wellness-related schemes, and fake sales spam.
 
 ### Cluster 8c32a78cd5 — score 10
 
@@ -1963,139 +1990,6 @@ What are Threat Intelligence Feeds? What are threat intelligence feeds, and why 
   - Published: 2026-11-23T00:00:00+00:00
   - Link: https://www.recordedfuture.com/blog/what-are-threat-intelligence-feeds
   - Summary: Threat intelligence feeds are continuous streams of data that provide up-to-the-minute details about cyber threats worldwide. Learn more!
-
-### Cluster 5845368a22 — score 10
-
-- Title: 23rd November – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-11-23T15:16:27+00:00
-- Link: https://research.checkpoint.com/2026/23rd-november-threat-intelligence-report/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security, data_breach, phishing_social_eng
-- affected_industries: education, healthcare
-- cve_ids: CVE-2026-123007, CVE-2026-129289
-- urgency_signals: critical_cvss, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, data_breach, ai_security
-- affected_industries: healthcare, education
-- cve_ids: CVE-2026-129289, CVE-2026-123007
-- urgency_signals: preauth_unauth, critical_cvss
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-For the latest discoveries in cyber research for the week of 23rd November, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES The FBI has reportedly experienced a second cyber incident in recent months, this time targeting its National Crime Information Center (NCIC). The database shares records on fugitives, warrants, criminal histories, and missing […] The post 23rd November – Threat Intelligence Report appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 23rd November – Threat Intelligence Report November 23, 2026 https://research.checkpoint.com/2026/23rd-november-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 23rd November, please download our Threat Intelligence Bulletin . TOP ATTACKS AND BREACHES The FBI has reportedly experienced a second cyber incident in recent months, this time targeting its National Crime Information Center (NCIC). The database shares records on fugitives, warrants, criminal histories, and missing persons among US law enforcement agencies. The attackers’ identities, entry method, and potential data exposure were not disclosed by the FBI. Japan’s RIKEN research institute, which operates one the world’s strongest supercomputers ‘Fugaku’, suspended operations after attackers breached its operations network and tampered with servers between November 10 and 13. The intrusion potentially exposed account information belonging to 4,597 users, including credentials that could provide access to external systems. The European Commission, the EU’s executive body, has suffered a cyberattack that disrupted internal systems for more than ten days. Affected services included payroll, health insurance, and translation systems. Officials claimed that they contained most of the disruption, and that the attack was assisted by AI tools. US-based cybersecurity and networking provider Infoblox has confirmed unauthorized access to company information through a compromised third-party data migration vendor. The breach reportedly involved sensitive customer data stored in a migration environment. Infoblox stated that its products and services were unaffected and did not disclose the number of customers impacted. AI THREATS Check Point Research has demonstrated how differences in capability between AI security filters and underlying language models can enable attackers to bypass safeguards. The analysis describes this limitation as gatekeeper asymmetry, drawing on prompt injection research and examples of security systems failing to recognize malicious inputs. Researchers analyzed a campaign involving a China-linked threat actor that used the AI-powered Cairn framework against East Asian universities. Autonomous agents discovered and exploited a previously unknown vulnerability in open-source medical imaging software, reportedly obtaining root privileges within approximately 11 minutes. The affected software has since been patched. Researchers examined TheMailer, an AI-powered phishing kit that uses language models to generate personalized emails and automatically rewrite messages to evade spam filters. Observed activity included a campaign involving nearly 25,000 emails and a target list exceeding 145,000 recipients. The effectiveness of these campaigns remains unverified. VULNERABILITIES AND PATCHES PHP has released security updates addressing seven critical vulnerabilities affecting PHP 8.2–8.5, including CVE-2026-129289 (CVSS 9.2). Under specific configurations, the flaws can enable unauthenticated remote code execution or privilege escalation. Fixed versions include 8.2.36, 8.3.37, 8.4.28, and 8.5.13. The issues affect PHP-FPM, session handling, and core runtime components. CVE-2026-129289 is prevented by the “HTTP Non Compliant” protocol anomaly protection. For full protection against this threat, make sure the “Non Compliant HTTP” inspection setting is active on the Gateway . NGINX has released security updates addressing five high-severity vulnerabilities, including CVE-2026-123007, that could allow unauthenticated attackers to execute commands under certain configurations. Researchers estimated that approximately 8.8 million services may remain exposed. Proof-of-concept exploitation has been demonstrated, but no confirmed attacks were reported. Check Point IPS provides protection against these threats (NGINX Remote Code Execution (CVE-2026-123007, CVE-2026-123
-```
-
-#### Corroborating sources (1)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: 23rd November – Threat Intelligence Report
-  - Published: 2026-11-23T15:16:27+00:00
-  - Link: https://research.checkpoint.com/2026/23rd-november-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 23rd November, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES The FBI has reportedly experienced a second cyber incident in recent months, this time targeting its National Crime Information Center (NCIC). The database shares records on fugitives, warrants, criminal histories, and missing […] The post 23rd November – Threat Intelligence Report appeared first on Check Point Research .
-
-### Cluster 73c81d4fb1 — score 10
-
-- Title: Black Friday, red flags: too-good-to-be-true deals hiding real threats
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-11-23T10:00:43+00:00
-- Link: https://securelist.com/black-friday-threat-report-2026/122061/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services, retail_ecommerce
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services, retail_ecommerce
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-How cybercriminals prepare for Black Friday: phishing, scams and malware targeting online shoppers and gamers, GTA VI- and wellness-related schemes, and fake sales spam.
-```
-
-#### Full body
-
-```
-Content menu Close Subscribe Threat Response Table of Contents Intro Methodology Key findings Shopping-related phishing by the numbers What mass scam campaigns look like The streaming platform discount trap Inside the Black Friday spam wave targeting shoppers Wasted: GTA VI “offers” and other lures targeting the gaming community this November From self-care to scam: how attackers target beauty and wellness fans Banking Trojans Conclusions Authors Kaspersky Intro Black Friday remains a defining moment of the holiday shopping season and a key period for cybercriminals seeking to exploit the surge in consumer activity. The scale of this demand is reflected in seasonal spending patterns. According to PwC’s post-holiday analysis , holiday spending rose by 6.4% year over year in 2025, with Black Friday once again being the peak sales day generating nearly $20 billion. Consumer behavior points to the same trend: KPMG’s 2026 Consumer Pulse Survey found that Black Friday remains the most important sales event, with 62% of respondents pointing to its importance. Moreover, it is strongly associated with online shopping, with 83% of consumers preferring to buy online or combine online and in-person purchases on this occasion. To find the best offers, 55% of respondents in 2026 planned to research purchases through retailer websites and 46% through brand websites. As shopping activity concentrates online during peak sales periods, threat actors gain broader opportunities to exploit consumer demand, trusted brands, and heavy promotional traffic to steal credentials, payment data, and money. At Kaspersky, we closely follow the cybersecurity risks associated with major shopping events and seasonal spikes in online retail activity. Our annual analysis examines how cybercriminals adapt their tactics to target consumers during high-demand sales periods. This report extends our annual Securelist series published in 2021 , 2022 , 2023 , 2024 , and 2025 , exploring how shopping-related cyberthreats continue to evolve. Methodology To keep pace with the evolving shopping threat landscape, we conduct an annual assessment of the most prevalent malicious techniques, including financial malware, phishing pages impersonating major retailers, e-commerce platforms, digital services, banks, and payment providers, as well as spam campaigns designed to steer users to fraudulent sites. The threat data we rely on is sourced from Kaspersky Security Network (KSN), which processes anonymized cybersecurity data shared consensually by Kaspersky users. Most of the data in this report draws on was collected from January through October 2026. Key findings In the first ten months of 2026, Kaspersky identified more than 19 million phishing attacks targeting users of online stores, payment systems and banks, a year-on-year increase of 1% . As many as 5% of these attacks were directed at online shoppers. Around 84% of all phishing attacks targeting users of online stores and subscription services involve scammers impersonating Amazon, Apple, Netflix, Shopify and Alibaba Group pages. Netflix-themed phishing detections grew by 5% in 2026 in comparison with 2025 data. We detected more than 220,071 sales-themed spam messages in the first two weeks of November, which is 50.2% more than in 2025. More than 801,000 banking Trojan attacks were recorded during the first 10 months of 2026. Between June and November 2026, Kaspersky products have already detected over 27,000 attacks by malware and potentially unwanted applications posing as GTA VI-related content. Shopping-related phishing by the numbers Phishing and scams remain among the most persistent threats for online shoppers, particularly during peak sales periods, when heightened transaction volumes and time-sensitive offers create conditions for abuse. One of the most notable developments in recent years has been the growing use of AI to increase the speed, scale and sophistication of such campaigns. AI-enabled tools can be us
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: Black Friday, red flags: too-good-to-be-true deals hiding real threats
-  - Published: 2026-11-23T10:00:43+00:00
-  - Link: https://securelist.com/black-friday-threat-report-2026/122061/
-  - Summary: How cybercriminals prepare for Black Friday: phishing, scams and malware targeting online shoppers and gamers, GTA VI- and wellness-related schemes, and fake sales spam.
-
-### Cluster c9524438a4 — score 10
-
-- Title: Oh, is it Thanksgiving? I hadn’t noticed!
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-11-25T19:00:00+00:00
-- Link: https://blog.talosintelligence.com/oh-is-it-thanksgiving-i-hadnt-noticed/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-In true Thanksgiving fashion, David has a few thank-yous to give to the cybersecurity community (and a few choice words for threat actors).
-```
-
-#### Full body
-
-```
-Oh, is it Thanksgiving? I hadn’t noticed! By David J. Bianco Wednesday, November 25, 2026 14:00 Threat Source newsletter I tried hard not to write another typical “Thanksgiving article.” Obviously, I failed. But you know what? It is Thanksgiving week here in the U.S., and coming up with fun, interesting, short form topics is hard , especially when you’re fighting the weight of Tradition expected this week. So instead of me writing something insightful, you’re getting some things I’m thankful for. Even that’s harder than you might think, because there are so many things, and this is just the newsletter introduction , after all. Let’s start off with something I’m pretty sure none of us are thankful for: threat actors. Seriously, screw you guys! I know I'd be out of a job without you, but that’s just another way of saying “I coulda been a professional bagpiper.” There are days when that doesn’t sound so bad. So, no gratitude coming your way, people! In terms of actual thankfulness, I want to give a big THANK YOU to the entire Blue Team, everywhere. Everyone out there defending, especially those in the U.S. taking shifts on Thursday to keep the turkey-eating public safe and secure. This is a hard, often high-pressure job for which you get little thanks, but all the blame when a breach occurs. We see you. We appreciate you. We promise we’ll save you some stuffing. Speaking of defenders, I’m also very thankful to get to work with so many talented and wonderful people here at Talos. I’m not just saying this because I know my boss will read it! Without exception, everyone I’ve worked with here has not only been an expert at what they do, but they’ve been friendly, welcoming, and very patient with me as I’ve been feeling my way around this new org over the past several months. Thank you! Finally, and maybe most importantly of all, I want to thank you , our readers. You are the reason we’re all here, doing what we do, helping you to look out for your own networks and protect your own people. We appreciate your trust! Whether you’re celebrating Thanksgiving here in the States or just having a normal weekend wherever you are, I hope you get some time to relax, unplug, recharge, and de-stress. Now, who wants some pie? The one big thing In Talos’ latest blog , we examine the fascinating tradecraft of the OpenAI-linked agentic swarm that broke out of its containerized environment in 2026. While not inherently malicious, this swarm of AI agents used public internet services as improvised infrastructure to bypass their sandbox constraints and complete their training tasks. By analyzing this unintentional great escape, we can learn how multi-agent systems coordinate, partition work, and adapt when their paths are blocked. This view into autonomous AI operations provides a baseline for understanding how these behaviors transfer to purpose-built cyber attack frameworks. Why do I care? The leap from an AI sandbox escape to weaponized cyber attacks has already happened. Agentic frameworks like ARTEX are currently in the wild, proving that multi-agent systems can move from a single compromised credential to deep network access in under 15 minutes. These autonomous threats adapt to errors in real time and execute dozens of actions in mere seconds. Understanding how these swarms coordinate, adapt, and exfiltrate data is a necessity to keep up with an adversary that operates at machine speed. So now what? To catch an AI swarm, defenders must look for its operational fingerprints. Monitor your environment for irregular "burst-and-pause" timing patterns that indicate rapid, sub-second automated reasoning. Keep a close eye on unusual traffic to allow-listed public services like “webhook.site”, which agents use to park data before terminating. Finally, hunt for self-labeling conventions, like highly specific URL parameters or predictable file names (e.g., “artex-probe-*”), that agents rely on to track their state. Read the full blog for a deeper dive into
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Oh, is it Thanksgiving? I hadn’t noticed!
-  - Published: 2026-11-25T19:00:00+00:00
-  - Link: https://blog.talosintelligence.com/oh-is-it-thanksgiving-i-hadnt-noticed/
-  - Summary: In true Thanksgiving fashion, David has a few thank-yous to give to the cybersecurity community (and a few choice words for threat actors).
 
 ### Cluster a5dc866868 — score 10
 
@@ -2259,50 +2153,48 @@ From a Cracked CEO Credential to a Potential Ransomware Path Horizon3 | November
   - Link: https://horizon3.ai/downloads/use-case/cracked-ceo-credential-ransomware-path/
   - Summary: A controlled NodeZero test cracked one CEO credential and mapped three potential downstream impacts, prompting a password change and focused remediation.
 
-### Cluster e43e6a5b14 — score 10
+### Cluster c9524438a4 — score 10
 
-- Title: New Boston Scientific data breach exposes personal, medical info
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-11-27T18:57:42+00:00
-- Link: https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/
+- Title: Oh, is it Thanksgiving? I hadn’t noticed!
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-11-25T19:00:00+00:00
+- Link: https://blog.talosintelligence.com/oh-is-it-thanksgiving-i-hadnt-noticed/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng
-- affected_industries: government, healthcare, manufacturing_industrial
-- affected_products: GitHub, Google Workspace, Microsoft 365
-- content_type: incident_report
-- confidence_tier: tier_4_news
+- threat_categories: active_exploitation
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng, data_breach
-- affected_industries: healthcare, government, manufacturing_industrial
-- affected_products: GitHub, Microsoft 365, Google Workspace
-- content_type: incident_report
-- confidence_tier: tier_4_news
+- threat_categories: active_exploitation
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]
+In true Thanksgiving fashion, David has a few thank-yous to give to the cybersecurity community (and a few choice words for threat actors).
 ```
 
 #### Full body
 
 ```
-New Boston Scientific data breach exposes personal, medical info By Bill Toulas November 27, 2026 01:57 PM 0 Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. According to a notification sample Boston Scientific shared with U.S. authorities, the hacker used social engineering in a voice phishing (vishing) attack to gain access to the company's cloud infrastructure. The attack exposed cloud-based applications and cloud-hosted data between May 7 and 1. The company became aware of the unauthorized access on May 12, and the investigation determined that a data breach occurred on November 5. Individuals in multiple U.S. states have been impacted, exposing personal details and medical information. According to the Texas Attorney General breach portal, the incident exposed information from 117,789 people, which included: Full name Physical address Social Security Number (SSN) Government-issued ID number (e.g., passport, state ID card) Medical information Health insurance information Date of birth The letter sent to impacted individuals specifies that patient medical records and data from remote monitoring systems, connected medical devices, and clinical case management or workflow applications were not exposed. Boston Scientific is a Massachusetts-based medical device maker whose products include stents, catheters, pacemakers, defibrillators, and endoscopes. It is one of the world’s largest medical device manufacturers, with more than 59,000 employees, 13 manufacturing facilities, and a presence in 127 countries. In 2025, Boston Scientific reported more than $20 billion in revenue. The company said there was no disruption to manufacturing, ordering, distribution, or service to patients and healthcare providers as a result of this incident. It also said the incident had no impact on operations, performance, remote monitoring, or the safety of its products and medical devices. Boston Scientific says it contained the incident, investigated with outside cybersecurity experts, and notified law enforcement. The notification does not offer free credit monitoring to impacted individuals but recommends using free credit reports and considering placing fraud alerts and credit freezes. Second breach in 2026 The breach is the second cybersecurity incident this year. On August 25, Boston Scientific disclosed a cyberattack that caused network outages and a global operational disruption for the company, including to order processing and shipping. CrowdStrike’s investigation determined that the attacker breached an internet-facing network device and pivoted to a limited part of the on-premises IT environment. However, the investigators found no evidence that the attackers compromised cloud applications. BleepingComputer contacted Boston Scientific to learn more about the most recent incident, and a spokesperson confirmed that it is unrelated to the August 2026 intrusion. The spokesperson declined to share additional details. Uncover email threats your existing defenses may miss. Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud. See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes. Start your free email security scan. Related Articles: Bell Canada says 'agentic' hacker stole enterprise customer data US Air Force cloud platform reportedly hacked in latest federal breach SAP confirms security incident after suspicious GitHub activity 1Password customer data stolen after employee GitHub account breach Rackspace shuts down Spot cloud platform after security breach
+Oh, is it Thanksgiving? I hadn’t noticed! By David J. Bianco Wednesday, November 25, 2026 14:00 Threat Source newsletter I tried hard not to write another typical “Thanksgiving article.” Obviously, I failed. But you know what? It is Thanksgiving week here in the U.S., and coming up with fun, interesting, short form topics is hard , especially when you’re fighting the weight of Tradition expected this week. So instead of me writing something insightful, you’re getting some things I’m thankful for. Even that’s harder than you might think, because there are so many things, and this is just the newsletter introduction , after all. Let’s start off with something I’m pretty sure none of us are thankful for: threat actors. Seriously, screw you guys! I know I'd be out of a job without you, but that’s just another way of saying “I coulda been a professional bagpiper.” There are days when that doesn’t sound so bad. So, no gratitude coming your way, people! In terms of actual thankfulness, I want to give a big THANK YOU to the entire Blue Team, everywhere. Everyone out there defending, especially those in the U.S. taking shifts on Thursday to keep the turkey-eating public safe and secure. This is a hard, often high-pressure job for which you get little thanks, but all the blame when a breach occurs. We see you. We appreciate you. We promise we’ll save you some stuffing. Speaking of defenders, I’m also very thankful to get to work with so many talented and wonderful people here at Talos. I’m not just saying this because I know my boss will read it! Without exception, everyone I’ve worked with here has not only been an expert at what they do, but they’ve been friendly, welcoming, and very patient with me as I’ve been feeling my way around this new org over the past several months. Thank you! Finally, and maybe most importantly of all, I want to thank you , our readers. You are the reason we’re all here, doing what we do, helping you to look out for your own networks and protect your own people. We appreciate your trust! Whether you’re celebrating Thanksgiving here in the States or just having a normal weekend wherever you are, I hope you get some time to relax, unplug, recharge, and de-stress. Now, who wants some pie? The one big thing In Talos’ latest blog , we examine the fascinating tradecraft of the OpenAI-linked agentic swarm that broke out of its containerized environment in 2026. While not inherently malicious, this swarm of AI agents used public internet services as improvised infrastructure to bypass their sandbox constraints and complete their training tasks. By analyzing this unintentional great escape, we can learn how multi-agent systems coordinate, partition work, and adapt when their paths are blocked. This view into autonomous AI operations provides a baseline for understanding how these behaviors transfer to purpose-built cyber attack frameworks. Why do I care? The leap from an AI sandbox escape to weaponized cyber attacks has already happened. Agentic frameworks like ARTEX are currently in the wild, proving that multi-agent systems can move from a single compromised credential to deep network access in under 15 minutes. These autonomous threats adapt to errors in real time and execute dozens of actions in mere seconds. Understanding how these swarms coordinate, adapt, and exfiltrate data is a necessity to keep up with an adversary that operates at machine speed. So now what? To catch an AI swarm, defenders must look for its operational fingerprints. Monitor your environment for irregular "burst-and-pause" timing patterns that indicate rapid, sub-second automated reasoning. Keep a close eye on unusual traffic to allow-listed public services like “webhook.site”, which agents use to park data before terminating. Finally, hunt for self-labeling conventions, like highly specific URL parameters or predictable file names (e.g., “artex-probe-*”), that agents rely on to track their state. Read the full blog for a deeper dive into
 ```
 
 #### Corroborating sources (1)
 
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: New Boston Scientific data breach exposes personal, medical info
-  - Published: 2026-11-27T18:57:42+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/
-  - Summary: Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]
+- **Cisco Talos** (threat_research_primary)
+  - Title: Oh, is it Thanksgiving? I hadn’t noticed!
+  - Published: 2026-11-25T19:00:00+00:00
+  - Link: https://blog.talosintelligence.com/oh-is-it-thanksgiving-i-hadnt-noticed/
+  - Summary: In true Thanksgiving fashion, David has a few thank-yous to give to the cybersecurity community (and a few choice words for threat actors).
 
 ### Cluster c5b181304a — score 10
 
@@ -2451,6 +2343,70 @@ Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-
   - Link: https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The critical vulnerabilities are listed below - CVE-2026-134624 (CVSS score: 9.3) - A server-side request forgery (SSRF) vulnerability in N-able MailAssure's LDAP
 
+### Cluster 51528a6bf5 — score 10
+
+- Title: SAP Confirms Cyberattack, Source Code Reportedly Compromised
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-11-27T07:36:14+00:00
+- Link: https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/
+- Fetch status: ok
+- Member count: 7
+- Corroborating source count: 4
+- Strong signals: GitHub
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion, supply_chain
+- actor_attribution: ShinyHunters
+- affected_industries: critical_infrastructure, manufacturing_industrial, media_communications
+- affected_products: Anthropic/Claude, Azure, GitHub
+- urgency_signals: no_patch_yet
+- content_type: event_promotion, incident_report, news_report
+- confidence_tier: tier_3_analysis, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach
+- actor_attribution: ShinyHunters
+- affected_industries: critical_infrastructure, manufacturing_industrial, media_communications
+- affected_products: Azure, Anthropic/Claude, GitHub
+- urgency_signals: no_patch_yet
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code. The post SAP Confirms Cyberattack, Source Code Reportedly Compromised appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Enterprise software giant SAP has confirmed it is investigating a cybersecurity incident following reports that threat actors targeted its development infrastructure. German publication Der Spiegel [paywalled] broke the news on Thursday, citing SAP insiders and an internal notification sent to employees. SAP told SecurityWeek that it had detected suspicious activity and implemented measures to protect customers and secure its services. The German company did not disclose details of the attack. “Based on our investigation to date, we have found no evidence of unauthorized access to customer business data,” SAP told SecurityWeek . German news agency DPA reviewed internal SAP communications that revealed the suspicious activity had been identified within GitHub. According to an insider cited by Der Spiegel, the hackers obtained SAP employees’ authentication tokens, enabling them to copy and alter source code stored on GitHub. Advertisement. Scroll to continue reading. SAP publishes developer tools, sample applications, and open source projects on GitHub. It’s unclear whether the threat actor accessed any proprietary code. Separately, Handelsblatt reported that SAP’s emergency security measures have affected numerous teams. The software giant has reportedly replaced signing keys, limited access to GitHub, and suspended automated development operations. None of the reports indicate that tampered code was incorporated into software delivered to SAP customers. Sources cited by Der Spiegel suggested that the attack may have been assisted by AI. While AI involvement has not been confirmed, several major organizations, including the European Commission , have recently disclosed AI-assisted cyberattacks . In late October, the Gentlemen ransomware group listed SAP on its leak website, pointing to the company’s Latin American operations. File listings reviewed by SecurityWeek suggest the hackers obtained SAP-related software and source code, but it is unclear whether SAP itself or a third party was compromised. The two incidents do not appear to be connected. Related : FIFA Says It Has Been Victim of a Cyberattack Related : 1Password Breach Exposes Customer Data, Internal Source Code Related : Critical Juniper Session Smart Conductor Flaw Exploited in Attacks Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Two Newly Disclosed GeoServer Vulnerabilities Under Attack ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties Drupal Flaw Found by Anthropic Scanner Exploited in Attacks European Commission Uncovers Data Breach in Cyberattack Investigation Anthropic Expands Enterprise Safeguards for Detecting AI Misuse OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms Latest News In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities 100,000 Potentially Impacted by Colorado Data Breach Hex Package Manager Warns of Potential Data Breach FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’ Critical Juniper Session Smart Conductor Flaw Exploited in Attacks Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks Drupal Installer Patch Left a Gap Attackers Are Already Exploiting 1Password Breach Exposes Customer Data, Internal Source Code Trending SAP Confirms Cyberattack, Source Code Reportedly Compromised Amplifier Security Emerges From Stealth With AI Copilot, Human-in-the-Loop
+```
+
+#### Corroborating sources (4)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: SAP Confirms Cyberattack, Source Code Reportedly Compromised
+  - Published: 2026-11-27T07:36:14+00:00
+  - Link: https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/
+  - Summary: SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code. The post SAP Confirms Cyberattack, Source Code Reportedly Compromised appeared first on SecurityWeek .
+- **Risky Business News** (practitioner_analysis)
+  - Title: Risky Bulletin: Hackers breach Erlang and Elixir package manager
+  - Published: 2026-11-26T23:45:35+00:00
+  - Link: https://risky.biz/RBNEWS639/
+  - Summary: Erlang and Elixir’s package manager gets hacked, FinCEN investigates a security breach, 1Password got owned through an employee’s GitHub account, and Russia will try to build a GitHub clone. Again.
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware
+  - Published: 2026-11-26T15:13:41+00:00
+  - Link: https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html
+  - Summary: The threat actors behind the PolinRider campaign have compromised over 7,600 GitHub repositories, in some cases planting a Python loader capable of delivering next-stage payloads, as evidence emerges that the activity may have started as far back as February 2025. "These are real developers, not throwaway accounts," Apiiro researcher Shmulik Cohen said. "6,541 of the 7,609 repos (86%) belong
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: 1Password Hit by Backend Breach via Hijacked Employee GitHub Account
+  - Published: 2026-11-26T09:32:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/1password-github-account-backend/
+  - Summary: An attacker used a 1Password employee's GitHub account to take customer data, but not vaults
+
 ### Cluster 3aff12d2bf — score 9
 
 - Title: Familiar weaknesses, exploited faster: defending against agentic cyber attacks
@@ -2492,112 +2448,12 @@ Blog Post Download & print article PDF Download & print article PDF Familiar wea
   - Link: https://www.ncsc.gov.uk/blogs/familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks
   - Summary: How to protect your organisation from cyber attacks created using ‘agentic offensive frameworks’.
 
-### Cluster 843767485f — score 9
+### Cluster e43e6a5b14 — score 9
 
-- Title: 100,000 Potentially Impacted by Colorado Data Breach
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-11-27T09:30:54+00:00
-- Link: https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: critical_infrastructure, government
-- affected_products: AWS, Palo Alto Networks
-- tools_used: Drupal
-- urgency_signals: no_patch_yet
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: government, critical_infrastructure
-- affected_products: Palo Alto Networks, AWS
-- tools_used: Drupal
-- urgency_signals: no_patch_yet
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data. The post 100,000 Potentially Impacted by Colorado Data Breach appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-The Colorado Governor’s Office of Information Technology (OIT) has disclosed a data breach impacting data that residents uploaded to the myColorado application. Colorado’s official mobile application, myColorado is used for digital identification, state services, and document storage. It has approximately 2.1 million users. OIT took the application offline last week, after identifying unauthorized access to platform data, and immediately initiated incident response and an investigation into the incident. One week after the outage began, OIT said it discovered the incident after the attackers triggered the automated threat detection systems deployed within its Amazon Web Services (AWS) environment. The investigation has determined that the attackers accessed documents stored within the ‘myCards and Documents’ section of the application, which includes user-uploaded data, such as PDF files and photos of government IDs, vehicle registrations, and insurance cards. According to Colorado, approximately 100,000 individuals might have been affected, but no payment information was accessed. Advertisement. Scroll to continue reading. “Staff are working around the clock to match the inappropriately accessed documents to individual users. As that matching continues, OIT will further refine estimates on the number of people whose data was involved,” Colorado said. The myColorado application remains offline and OIT has not announced a restoration date. The state expects to start sending direct notifications to the affected individuals on November 27. “Our main goal is to protect the security of users. Additionally, we are prioritizing direct notification of users involved in the incident and getting the app up and running as soon as possible, with security enhancements in place,” said state CIO and OIT executive director Sarah Tuneberg. Related: Hex Package Manager Warns of Potential Data Breach Related: SAP Confirms Cyberattack, Source Code Reportedly Compromised Related: FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’ Related: 1Password Breach Exposes Customer Data, Internal Source Code Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire US Treasury’s FinCEN Disconnects Systems Following Cyber Incident Plagiarism Checker Turnitin Investigating Cyberattack Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls VMware Updates Patch Critical ESX, vCenter Vulnerabilities Check Point Security Management Servers Hacked in AI-Assisted Campaign 1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine Latest News In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities Hex Package Manager Warns of Potential Data Breach SAP Confirms Cyberattack, Source Code Reportedly Compromised FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’ Critical Juniper Session Smart Conductor Flaw Exploited in Attacks Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks Drupal Installer Patch Left a Gap Attackers Are Already Exploiting 1Password Breach Exposes Customer Data, Internal Source Code Trending SAP Confirms Cyberattack, Source Code Reportedly Compromised US Treasury’s FinCEN Disconnects Systems Following Cyber Incident Amplifier Security Emerges From Stealth With AI Copilot, Human-in-the-Loop Automation Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls VMware Updates Patch Critical ESX, vCenter Vulnerabilities 1Password Breach Exposes Customer Data, Internal Source Code Critical Juniper Session Smart Conductor Flaw Exploited in Attacks Plagiarism Checker Turnitin I
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: 100,000 Potentially Impacted by Colorado Data Breach
-  - Published: 2026-11-27T09:30:54+00:00
-  - Link: https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/
-  - Summary: Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data. The post 100,000 Potentially Impacted by Colorado Data Breach appeared first on SecurityWeek .
-
-### Cluster 368638ac73 — score 9
-
-- Title: Hex Package Manager Warns of Potential Data Breach
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-11-27T07:44:49+00:00
-- Link: https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: critical_infrastructure
-- affected_products: Palo Alto Networks
-- tools_used: Drupal
-- cve_ids: CVE-2026-124283, CVE-2026-129514, CVE-2026-130411, CVE-2026-133555
-- urgency_signals: no_patch_yet, preauth_unauth
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: critical_infrastructure
-- affected_products: Palo Alto Networks
-- tools_used: Drupal
-- cve_ids: CVE-2026-129514, CVE-2026-124283, CVE-2026-133555, CVE-2026-130411
-- urgency_signals: preauth_unauth, no_patch_yet
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged. The post Hex Package Manager Warns of Potential Data Breach appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Hex, the package manager for Elixir and Erlang, fell victim to a cyberattack involving unauthorized access to its web servers. The incident occurred on November 23, when the attackers exploited a vulnerability in hex.pm to execute commands. The attack was immediately blocked, and the underlying security defect was addressed within 20 minutes. Between 18:16 and 18:29 UTC, the attacker sent 69 malicious requests, affecting six web servers. At 18:30, Hex replaced all hex.pm servers with patched versions rejecting the payload, and its firewall rule fully blocked the attacker’s traffic at 18:33. “We found no evidence of unauthorized package modifications, database changes, or that the attacker maintained access to our systems,” the package manager explains . According to Hex, potential access to database contents, such as email addresses, password hashes, API key hashes, sessions, second factor authentication secrets, and audit logs, cannot be ruled out. While all the observed reads of private packages came from Hex servers, any read from a compromised server would appear legitimate, it says. Additionally, database and private documentation reads are not logged, hindering visibility into potential data exposure. Advertisement. Scroll to continue reading. “The attacker’s commands could read the credentials our servers use, so we replaced them: the storage, CDN, email and database credentials, and the keys that sign sessions and access tokens. This logged everyone out of hex.pm and Hex clients,” Hex notes. The package manager has been working on a new registry signing system with key rotation support. Until new Hex client iterations are rolled out, users should avoid fetching packages from third-party mirrors and rely only on repo.hex.pm. Hex also recommends that all account holders change their hex.pm passwords and reset their two-factor authentication. “Because email addresses may have been exposed, be careful with emails that claim to come from Hex. Please double-check that the links they contain lead to hex.pm,” the package manager says. The attackers exploited an unauthenticated deserialization of untrusted data bug (tracked as CVE-2026-129514 , CVSS score of 10) that allowed them to execute OS commands via a crafted Erlang external term format request body and gain remote code execution (RCE). Hex discovered that the Ash Framework was also impacted by the same class of vulnerability. Ash patched the flaw (tracked as CVE-2026-124283 ) on November 24, warning it could lead to code execution or SQL injection. Associated security defects were also patched in two other Elixir libraries: namely db_connection ( CVE-2026-133555 ) and flop ( CVE-2026-130411 ). Related: Critical Juniper Session Smart Conductor Flaw Exploited in Attacks Related: Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks Related: Drupal Installer Patch Left a Gap Attackers Are Already Exploiting Related: Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire US Treasury’s FinCEN Disconnects Systems Following Cyber Incident Plagiarism Checker Turnitin Investigating Cyberattack Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls VMware Updates Patch Critical ESX, vCenter Vulnerabilities Check Point Security Management Servers Hacked in AI-Assisted Campaign 1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine Latest News In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities 100,000 Potentially Impacted by Colorado Data Breach SAP Confirms Cyberattack, Source Code Reportedly Compromised FIFA Says
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Hex Package Manager Warns of Potential Data Breach
-  - Published: 2026-11-27T07:44:49+00:00
-  - Link: https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/
-  - Summary: A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged. The post Hex Package Manager Warns of Potential Data Breach appeared first on SecurityWeek .
-
-### Cluster c138cdea59 — score 9
-
-- Title: Flight Centre Travel Group warns of customer data breach involving some passport details
-- Source: Help Net Security (cyber_news_breach_reporting)
-- Published: 2026-11-27T09:31:44+00:00
-- Link: https://www.helpnetsecurity.com/2026/11/27/flight-centre-travel-group-data-breach-booking-system/
+- Title: New Boston Scientific data breach exposes personal, medical info
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-11-27T18:57:42+00:00
+- Link: https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
@@ -2605,35 +2461,37 @@ Hex, the package manager for Elixir and Erlang, fell victim to a cyberattack inv
 
 #### Cluster taxonomy (union across members)
 - threat_categories: data_breach, phishing_social_eng
-- affected_industries: financial_services
+- affected_industries: government, healthcare, manufacturing_industrial
+- affected_products: GitHub, Google Workspace, Microsoft 365
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: phishing_social_eng, data_breach
-- affected_industries: financial_services
+- affected_industries: healthcare, government, manufacturing_industrial
+- affected_products: GitHub, Microsoft 365, Google Workspace
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Travellers who booked accommodation through Flight Centre and several of its leisure brands may have had their names, and in rare cases passport and health details, accessed by unknown persons, Flight Centre Travel Group (FLT) disclosed. In a statement to the Australian Securities Exchange, the Brisbane-based travel company said it is investigating “unusual activity” in a third-party accommodation booking system used by the Flight Centre brand, Travel Associates, Cruiseabout and some independent agents. Flight bookings … More → The post Flight Centre Travel Group warns of customer data breach involving some passport details appeared first on Help Net Security .
+Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]
 ```
 
 #### Full body
 
 ```
-Sinisa Markovic , Managing Editor, Help Net Security November 27, 2026 Share Flight Centre Travel Group warns of customer data breach involving some passport details Travellers who booked accommodation through Flight Centre and several of its leisure brands may have had their names, and in rare cases passport and health details, accessed by unknown persons, Flight Centre Travel Group (FLT) disclosed. In a statement to the Australian Securities Exchange, the Brisbane-based travel company said it is investigating “unusual activity” in a third-party accommodation booking system used by the Flight Centre brand, Travel Associates, Cruiseabout and some independent agents. Flight bookings “are not impacted,” the travel group noted, and corporate travel bookings “are made through other systems and are not affected.” “While investigations remain ongoing, at this stage FLT believes that a significant number of customer records in the impacted system may have been accessed by unknown persons, although it is not clear at this time how many of those records have actually been extracted from the third-party system,” the statement reads. An initial review found that most of the accessed records contain only customer names, some with basic travel information. “A very small percentage is believed to include data such as limited passport details, email addresses, phone numbers, birth dates, or in rare cases health or mobility information,” according to FLT. The company says that, to date, it has found no access to customer credit card, payment or bank account details. To establish the scope of the incident, FLT is working with the vendor and Mandiant, its cyber security incident response partner, “to implement appropriate safeguards and containment actions.” After learning of the activity, FLT activated its incident response resources and worked with the third party to contain it. The company says it has changed authentication keys and credentials, increased monitoring on the system, and is notifying the relevant authorities. “FLT values customer privacy and data security. The company understands that an incident like this can be unsettling for customers who may be affected, and we apologise for any concern this causes,” the company stated . In the meantime, FLT advises that customers “should be alert to unexpected emails, calls or messages about their bookings, and should not click on links, open attachments or share personal information, passwords or payment details in response.” FLT is the latest travel company to disclose a breach linked to a booking system. In April, the online travel platform Booking.com warned that hackers may have accessed customer data linked to travel reservations, including names, email addresses, phone numbers and information shared with accommodations. More recently, accommodation software provider RMS Cloud, whose booking systems are used by more than 6,000 hotels, holiday parks and serviced apartments, acknowledged a breach after guests of several Australian holiday park operators received phishing messages via WhatsApp, SMS and email in late October. More about breach data breach travel industry Share
+New Boston Scientific data breach exposes personal, medical info By Bill Toulas November 27, 2026 01:57 PM 0 Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. According to a notification sample Boston Scientific shared with U.S. authorities, the hacker used social engineering in a voice phishing (vishing) attack to gain access to the company's cloud infrastructure. The attack exposed cloud-based applications and cloud-hosted data between May 7 and 1. The company became aware of the unauthorized access on May 12, and the investigation determined that a data breach occurred on November 5. Individuals in multiple U.S. states have been impacted, exposing personal details and medical information. According to the Texas Attorney General breach portal, the incident exposed information from 117,789 people, which included: Full name Physical address Social Security Number (SSN) Government-issued ID number (e.g., passport, state ID card) Medical information Health insurance information Date of birth The letter sent to impacted individuals specifies that patient medical records and data from remote monitoring systems, connected medical devices, and clinical case management or workflow applications were not exposed. Boston Scientific is a Massachusetts-based medical device maker whose products include stents, catheters, pacemakers, defibrillators, and endoscopes. It is one of the world’s largest medical device manufacturers, with more than 59,000 employees, 13 manufacturing facilities, and a presence in 127 countries. In 2025, Boston Scientific reported more than $20 billion in revenue. The company said there was no disruption to manufacturing, ordering, distribution, or service to patients and healthcare providers as a result of this incident. It also said the incident had no impact on operations, performance, remote monitoring, or the safety of its products and medical devices. Boston Scientific says it contained the incident, investigated with outside cybersecurity experts, and notified law enforcement. The notification does not offer free credit monitoring to impacted individuals but recommends using free credit reports and considering placing fraud alerts and credit freezes. Second breach in 2026 The breach is the second cybersecurity incident this year. On August 25, Boston Scientific disclosed a cyberattack that caused network outages and a global operational disruption for the company, including to order processing and shipping. CrowdStrike’s investigation determined that the attacker breached an internet-facing network device and pivoted to a limited part of the on-premises IT environment. However, the investigators found no evidence that the attackers compromised cloud applications. BleepingComputer contacted Boston Scientific to learn more about the most recent incident, and a spokesperson confirmed that it is unrelated to the August 2026 intrusion. The spokesperson declined to share additional details. Uncover email threats your existing defenses may miss. Adaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud. See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes. Start your free email security scan. Related Articles: Bell Canada says 'agentic' hacker stole enterprise customer data US Air Force cloud platform reportedly hacked in latest federal breach SAP confirms security incident after suspicious GitHub activity 1Password customer data stolen after employee GitHub account breach Rackspace shuts down Spot cloud platform after security breach
 ```
 
 #### Corroborating sources (1)
 
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Flight Centre Travel Group warns of customer data breach involving some passport details
-  - Published: 2026-11-27T09:31:44+00:00
-  - Link: https://www.helpnetsecurity.com/2026/11/27/flight-centre-travel-group-data-breach-booking-system/
-  - Summary: Travellers who booked accommodation through Flight Centre and several of its leisure brands may have had their names, and in rare cases passport and health details, accessed by unknown persons, Flight Centre Travel Group (FLT) disclosed. In a statement to the Australian Securities Exchange, the Brisbane-based travel company said it is investigating “unusual activity” in a third-party accommodation booking system used by the Flight Centre brand, Travel Associates, Cruiseabout and some independent agents. Flight bookings … More → The post Flight Centre Travel Group warns of customer data breach involving some passport details appeared first on Help Net Security .
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: New Boston Scientific data breach exposes personal, medical info
+  - Published: 2026-11-27T18:57:42+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/
+  - Summary: Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]
 
 ### Cluster 8ce7b5ca12 — score 9
 
@@ -2817,6 +2675,106 @@ Remus malware steals Gmail messages via fake Google Sheets extension By Bill Tou
   - Link: https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/
   - Summary: The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]
 
+### Cluster 843767485f — score 8
+
+- Title: 100,000 Potentially Impacted by Colorado Data Breach
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-11-27T09:30:54+00:00
+- Link: https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- affected_industries: critical_infrastructure, government
+- affected_products: AWS, Palo Alto Networks
+- tools_used: Drupal
+- urgency_signals: no_patch_yet
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- affected_industries: government, critical_infrastructure
+- affected_products: Palo Alto Networks, AWS
+- tools_used: Drupal
+- urgency_signals: no_patch_yet
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data. The post 100,000 Potentially Impacted by Colorado Data Breach appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+The Colorado Governor’s Office of Information Technology (OIT) has disclosed a data breach impacting data that residents uploaded to the myColorado application. Colorado’s official mobile application, myColorado is used for digital identification, state services, and document storage. It has approximately 2.1 million users. OIT took the application offline last week, after identifying unauthorized access to platform data, and immediately initiated incident response and an investigation into the incident. One week after the outage began, OIT said it discovered the incident after the attackers triggered the automated threat detection systems deployed within its Amazon Web Services (AWS) environment. The investigation has determined that the attackers accessed documents stored within the ‘myCards and Documents’ section of the application, which includes user-uploaded data, such as PDF files and photos of government IDs, vehicle registrations, and insurance cards. According to Colorado, approximately 100,000 individuals might have been affected, but no payment information was accessed. Advertisement. Scroll to continue reading. “Staff are working around the clock to match the inappropriately accessed documents to individual users. As that matching continues, OIT will further refine estimates on the number of people whose data was involved,” Colorado said. The myColorado application remains offline and OIT has not announced a restoration date. The state expects to start sending direct notifications to the affected individuals on November 27. “Our main goal is to protect the security of users. Additionally, we are prioritizing direct notification of users involved in the incident and getting the app up and running as soon as possible, with security enhancements in place,” said state CIO and OIT executive director Sarah Tuneberg. Related: Hex Package Manager Warns of Potential Data Breach Related: SAP Confirms Cyberattack, Source Code Reportedly Compromised Related: FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’ Related: 1Password Breach Exposes Customer Data, Internal Source Code Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire US Treasury’s FinCEN Disconnects Systems Following Cyber Incident Plagiarism Checker Turnitin Investigating Cyberattack Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls VMware Updates Patch Critical ESX, vCenter Vulnerabilities Check Point Security Management Servers Hacked in AI-Assisted Campaign 1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine Latest News In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities Hex Package Manager Warns of Potential Data Breach SAP Confirms Cyberattack, Source Code Reportedly Compromised FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’ Critical Juniper Session Smart Conductor Flaw Exploited in Attacks Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks Drupal Installer Patch Left a Gap Attackers Are Already Exploiting 1Password Breach Exposes Customer Data, Internal Source Code Trending SAP Confirms Cyberattack, Source Code Reportedly Compromised Amplifier Security Emerges From Stealth With AI Copilot, Human-in-the-Loop Automation 1Password Breach Exposes Customer Data, Internal Source Code Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks Critical Juniper Session Smart Conductor Flaw Exploited in Attacks FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’ Palo Alto Networks Patches Fragnesia Flaw Used to Root Fire
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: 100,000 Potentially Impacted by Colorado Data Breach
+  - Published: 2026-11-27T09:30:54+00:00
+  - Link: https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/
+  - Summary: Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data. The post 100,000 Potentially Impacted by Colorado Data Breach appeared first on SecurityWeek .
+
+### Cluster 368638ac73 — score 8
+
+- Title: Hex Package Manager Warns of Potential Data Breach
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-11-27T07:44:49+00:00
+- Link: https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- affected_industries: critical_infrastructure
+- affected_products: Palo Alto Networks
+- tools_used: Drupal
+- cve_ids: CVE-2026-124283, CVE-2026-129514, CVE-2026-130411, CVE-2026-133555
+- urgency_signals: no_patch_yet, preauth_unauth
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- affected_industries: critical_infrastructure
+- affected_products: Palo Alto Networks
+- tools_used: Drupal
+- cve_ids: CVE-2026-129514, CVE-2026-124283, CVE-2026-133555, CVE-2026-130411
+- urgency_signals: preauth_unauth, no_patch_yet
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged. The post Hex Package Manager Warns of Potential Data Breach appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Hex, the package manager for Elixir and Erlang, fell victim to a cyberattack involving unauthorized access to its web servers. The incident occurred on November 23, when the attackers exploited a vulnerability in hex.pm to execute commands. The attack was immediately blocked, and the underlying security defect was addressed within 20 minutes. Between 18:16 and 18:29 UTC, the attacker sent 69 malicious requests, affecting six web servers. At 18:30, Hex replaced all hex.pm servers with patched versions rejecting the payload, and its firewall rule fully blocked the attacker’s traffic at 18:33. “We found no evidence of unauthorized package modifications, database changes, or that the attacker maintained access to our systems,” the package manager explains . According to Hex, potential access to database contents, such as email addresses, password hashes, API key hashes, sessions, second factor authentication secrets, and audit logs, cannot be ruled out. While all the observed reads of private packages came from Hex servers, any read from a compromised server would appear legitimate, it says. Additionally, database and private documentation reads are not logged, hindering visibility into potential data exposure. Advertisement. Scroll to continue reading. “The attacker’s commands could read the credentials our servers use, so we replaced them: the storage, CDN, email and database credentials, and the keys that sign sessions and access tokens. This logged everyone out of hex.pm and Hex clients,” Hex notes. The package manager has been working on a new registry signing system with key rotation support. Until new Hex client iterations are rolled out, users should avoid fetching packages from third-party mirrors and rely only on repo.hex.pm. Hex also recommends that all account holders change their hex.pm passwords and reset their two-factor authentication. “Because email addresses may have been exposed, be careful with emails that claim to come from Hex. Please double-check that the links they contain lead to hex.pm,” the package manager says. The attackers exploited an unauthenticated deserialization of untrusted data bug (tracked as CVE-2026-129514 , CVSS score of 10) that allowed them to execute OS commands via a crafted Erlang external term format request body and gain remote code execution (RCE). Hex discovered that the Ash Framework was also impacted by the same class of vulnerability. Ash patched the flaw (tracked as CVE-2026-124283 ) on November 24, warning it could lead to code execution or SQL injection. Associated security defects were also patched in two other Elixir libraries: namely db_connection ( CVE-2026-133555 ) and flop ( CVE-2026-130411 ). Related: Critical Juniper Session Smart Conductor Flaw Exploited in Attacks Related: Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks Related: Drupal Installer Patch Left a Gap Attackers Are Already Exploiting Related: Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire US Treasury’s FinCEN Disconnects Systems Following Cyber Incident Plagiarism Checker Turnitin Investigating Cyberattack Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls VMware Updates Patch Critical ESX, vCenter Vulnerabilities Check Point Security Management Servers Hacked in AI-Assisted Campaign 1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine Latest News In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities 100,000 Potentially Impacted by Colorado Data Breach SAP Confirms Cyberattack, Source Code Reportedly Compromised FIFA Says
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Hex Package Manager Warns of Potential Data Breach
+  - Published: 2026-11-27T07:44:49+00:00
+  - Link: https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/
+  - Summary: A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged. The post Hex Package Manager Warns of Potential Data Breach appeared first on SecurityWeek .
+
 ### Cluster 80fa76093a — score 8
 
 - Title: I’ve never hunted for a software vulnerability before. AI helped me find one in six hours.
@@ -2869,6 +2827,49 @@ Advertisement Get our latest cybersecurity news first on Google. Click here! Clo
   - Link: https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html
   - Summary: WordPress has removed six WordPress plugins developed by WP Connect after they were backdoored on November 22, 2026, to enable arbitrary code execution on sites that have them installed, following a suspected compromise of the developer's account. The WordPress plugins team has proactively detected and blocked the threat before it could be officially released. Visiting each plugin listing now
 
+### Cluster c138cdea59 — score 8
+
+- Title: Flight Centre Travel Group warns of customer data breach involving some passport details
+- Source: Help Net Security (cyber_news_breach_reporting)
+- Published: 2026-11-27T09:31:44+00:00
+- Link: https://www.helpnetsecurity.com/2026/11/27/flight-centre-travel-group-data-breach-booking-system/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, data_breach
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Travellers who booked accommodation through Flight Centre and several of its leisure brands may have had their names, and in rare cases passport and health details, accessed by unknown persons, Flight Centre Travel Group (FLT) disclosed. In a statement to the Australian Securities Exchange, the Brisbane-based travel company said it is investigating “unusual activity” in a third-party accommodation booking system used by the Flight Centre brand, Travel Associates, Cruiseabout and some independent agents. Flight bookings … More → The post Flight Centre Travel Group warns of customer data breach involving some passport details appeared first on Help Net Security .
+```
+
+#### Full body
+
+```
+Sinisa Markovic , Managing Editor, Help Net Security November 27, 2026 Share Flight Centre Travel Group warns of customer data breach involving some passport details Travellers who booked accommodation through Flight Centre and several of its leisure brands may have had their names, and in rare cases passport and health details, accessed by unknown persons, Flight Centre Travel Group (FLT) disclosed. In a statement to the Australian Securities Exchange, the Brisbane-based travel company said it is investigating “unusual activity” in a third-party accommodation booking system used by the Flight Centre brand, Travel Associates, Cruiseabout and some independent agents. Flight bookings “are not impacted,” the travel group noted, and corporate travel bookings “are made through other systems and are not affected.” “While investigations remain ongoing, at this stage FLT believes that a significant number of customer records in the impacted system may have been accessed by unknown persons, although it is not clear at this time how many of those records have actually been extracted from the third-party system,” the statement reads. An initial review found that most of the accessed records contain only customer names, some with basic travel information. “A very small percentage is believed to include data such as limited passport details, email addresses, phone numbers, birth dates, or in rare cases health or mobility information,” according to FLT. The company says that, to date, it has found no access to customer credit card, payment or bank account details. To establish the scope of the incident, FLT is working with the vendor and Mandiant, its cyber security incident response partner, “to implement appropriate safeguards and containment actions.” After learning of the activity, FLT activated its incident response resources and worked with the third party to contain it. The company says it has changed authentication keys and credentials, increased monitoring on the system, and is notifying the relevant authorities. “FLT values customer privacy and data security. The company understands that an incident like this can be unsettling for customers who may be affected, and we apologise for any concern this causes,” the company stated . In the meantime, FLT advises that customers “should be alert to unexpected emails, calls or messages about their bookings, and should not click on links, open attachments or share personal information, passwords or payment details in response.” FLT is the latest travel company to disclose a breach linked to a booking system. In April, the online travel platform Booking.com warned that hackers may have accessed customer data linked to travel reservations, including names, email addresses, phone numbers and information shared with accommodations. More recently, accommodation software provider RMS Cloud, whose booking systems are used by more than 6,000 hotels, holiday parks and serviced apartments, acknowledged a breach after guests of several Australian holiday park operators received phishing messages via WhatsApp, SMS and email in late October. More about breach data breach travel industry Share
+```
+
+#### Corroborating sources (1)
+
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Flight Centre Travel Group warns of customer data breach involving some passport details
+  - Published: 2026-11-27T09:31:44+00:00
+  - Link: https://www.helpnetsecurity.com/2026/11/27/flight-centre-travel-group-data-breach-booking-system/
+  - Summary: Travellers who booked accommodation through Flight Centre and several of its leisure brands may have had their names, and in rare cases passport and health details, accessed by unknown persons, Flight Centre Travel Group (FLT) disclosed. In a statement to the Australian Securities Exchange, the Brisbane-based travel company said it is investigating “unusual activity” in a third-party accommodation booking system used by the Flight Centre brand, Travel Associates, Cruiseabout and some independent agents. Flight bookings … More → The post Flight Centre Travel Group warns of customer data breach involving some passport details appeared first on Help Net Security .
+
 ### Cluster 624ff65f75 — score 8
 
 - Title: AI Agents Zip From Flaw Discovery to Root Access in 11 Minutes
@@ -2907,51 +2908,6 @@ A China-nexus actor used the Cairn penetration testing tool in attacks against E
   - Published: 2026-11-23T16:17:21+00:00
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes
   - Summary: A China-nexus actor used the Cairn penetration testing tool in attacks against East Asian universities, exploiting a zero-day in a medical imaging app.
-
-### Cluster d07577b3b8 — score 8
-
-- Title: Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-11-27T09:29:30+00:00
-- Link: https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_industries: critical_infrastructure
-- affected_products: Fortinet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_industries: critical_infrastructure
-- affected_products: Fortinet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. "Evidence indicates that malicious files were generated not only when users downloaded the programs directly from the official download page but also during the update process of previously installed
-```
-
-#### Full body
-
-```
-Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware  Ravie Lakshmanan  Nov 27, 2026 Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. "Evidence indicates that malicious files were generated not only when users downloaded the programs directly from the official download page but also during the update process of previously installed legitimate programs," South Korean cybersecurity company AhnLab said . Q-Dir, also called the Quad Directory Explorer, is a free, lightweight file manager for Windows developed by SoftwareOK. According to its website, DesktopOK is a free Windows utility designed to save and restore desktop icon positions. The unauthorized modifications are designed such that the malicious activity is challenging to detect when running the programs, while simultaneously retrieving and deploying a Python-based remote control malware (RAT) from an external server. Once installed, the RAT payload is capable of executing shell commands and Python code, transferring files, capturing screenshots, and collecting system metadata based on commands issued by the attacker. The following product versions have been confirmed to be poisoned, given the discrepancies in the SHA-256 hashes of the installer files and the presence of additional code that triggers additional file downloads and automatic execution - Q-Dir 12.85.0.0 Q-Dir 12.84.0.0 Q-Dir 12.83.0.0 DesktopOK 12.85.0.0 DesktopOK 12.82.0.0 The exact mechanism that allowed the installation files to be replaced with a trojanized version remains unknown. "The malicious installer runs the legitimate Q-Dir or DesktopOK to lower the user's suspicion, while simultaneously downloading and installing a Python RAT package from an external server," AhnLab said. Specifically, this involves downloading two payloads from "mail.c1a2[.]top" - 7zr.exe, the legitimate 7-Zip tool to decompress files dsv2_py39_agent.7z, a package containing the RAT and Python runtime environment The attack chain is fairly straightforward in that it uses the 7-Zip tool binary to extract and run the Python RAT. The malware then sets up persistence on the host by means of a scheduled task that impersonates Microsoft Edge to fly under the radar. The task is configured to execute the RAT by launching a Python script named "py_client_dsv2.py." Upon execution, the RAT establishes communication with its command-and-control (C2) server ("8.210.69[.]51:9876") to receive tasks and run them. It supports the following features - Shell command execution Python code execution File upload and download Screenshot capture Operating system and system information It also gathers a list of running processes and compares it against an internal list of various security products used in South Korea and abroad, including AhnLab, ESTSecurity, Hauri, CrowdStrike, SentinelOne, Trend Micro, Avast, McAfee, ESET, Symantec, Kaspersky, Bitdefender, Sophos, Fortinet, Elastic, and Malwarebytes. Information about identified security programs is transmitted to the C2 server, so as to help the attackers better plan the next stages of the attack or serve payloads that can bypass detection. The activity has not been attributed to any known threat actor. However, AhnLab said it identified Chinese language comments in the source code, suggesting that the malware authors or attackers may have used a Chinese-speaking environment. "Users who are currently using Q-Dir or DesktopOK, or who have recently installed or updated these programs, should verify the hash values of the downloaded files and check their systems for any traces of RAT installation or execution," AhnLab said. "However, simply uninstalling and reinstalling the program may not remove a Python RAT that has already been installed. Therefore, you should also check for suspicious Python execution environments, sch
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware
-  - Published: 2026-11-27T09:29:30+00:00
-  - Link: https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html
-  - Summary: Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. "Evidence indicates that malicious files were generated not only when users downloaded the programs directly from the official download page but also during the update process of previously installed
 
 ### Cluster 45780f5140 — score 8
 
