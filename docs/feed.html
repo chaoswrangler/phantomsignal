@@ -1,5 +1,5 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><title>PHANTOMSignal feed.json</title><style>body{margin:0;background:#0b0f14;color:#e8f4ff;font-family:'JetBrains Mono',Consolas,monospace}pre{margin:0;padding:24px;font-size:13px;line-height:1.5;white-space:pre-wrap;word-break:break-word}</style></head><body><pre>{
-  &quot;generated_at&quot;: &quot;2026-11-27T18:00:32.450205+00:00&quot;,
+  &quot;generated_at&quot;: &quot;2026-11-28T01:17:37.913867+00:00&quot;,
   &quot;lookback_hours&quot;: 168,
   &quot;lookback_human&quot;: &quot;7 days&quot;,
   &quot;total_items&quot;: 2183,
@@ -9,7 +9,14 @@
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 15,
-      &quot;in_window_count&quot;: 4
+      &quot;in_window_count&quot;: 3
+    },
+    &quot;SentinelOne Labs&quot;: {
+      &quot;url&quot;: &quot;https://www.sentinelone.com/labs/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
     },
     &quot;CrowdStrike&quot;: {
       &quot;url&quot;: &quot;https://www.crowdstrike.com/blog/feed/&quot;,
@@ -18,19 +25,19 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Microsoft Security Blog&quot;: {
-      &quot;url&quot;: &quot;https://www.microsoft.com/en-us/security/blog/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 2
-    },
     &quot;Recorded Future&quot;: {
       &quot;url&quot;: &quot;https://www.recordedfuture.com/feed&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 50,
       &quot;in_window_count&quot;: 3
+    },
+    &quot;Microsoft Security Blog&quot;: {
+      &quot;url&quot;: &quot;https://www.microsoft.com/en-us/security/blog/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 2
     },
     &quot;Microsoft Threat Intelligence&quot;: {
       &quot;url&quot;: &quot;https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/&quot;,
@@ -39,11 +46,18 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
     },
-    &quot;SentinelOne Labs&quot;: {
-      &quot;url&quot;: &quot;https://www.sentinelone.com/labs/feed/&quot;,
+    &quot;Check Point Research&quot;: {
+      &quot;url&quot;: &quot;https://research.checkpoint.com/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
+      &quot;item_count&quot;: 15,
+      &quot;in_window_count&quot;: 2
+    },
+    &quot;ESET WeLiveSecurity&quot;: {
+      &quot;url&quot;: &quot;https://www.welivesecurity.com/en/rss/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 0
     },
     &quot;Trend Micro Research&quot;: {
@@ -53,33 +67,12 @@
       &quot;item_count&quot;: 25,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Check Point Research&quot;: {
-      &quot;url&quot;: &quot;https://research.checkpoint.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 15,
-      &quot;in_window_count&quot;: 2
-    },
     &quot;Google Threat Analysis Group&quot;: {
       &quot;url&quot;: &quot;https://blog.google/threat-analysis-group/rss/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;parse_error&quot;,
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
-    },
-    &quot;Sekoia&quot;: {
-      &quot;url&quot;: &quot;https://blog.sekoia.io/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;fetch_error&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
-    },
-    &quot;Kaspersky Securelist&quot;: {
-      &quot;url&quot;: &quot;https://securelist.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 2
     },
     &quot;NCSC UK&quot;: {
       &quot;url&quot;: &quot;https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml&quot;,
@@ -88,6 +81,20 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 2
     },
+    &quot;Kaspersky Securelist&quot;: {
+      &quot;url&quot;: &quot;https://securelist.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 2
+    },
+    &quot;Sekoia&quot;: {
+      &quot;url&quot;: &quot;https://blog.sekoia.io/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;fetch_error&quot;,
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
+    },
     &quot;Citizen Lab&quot;: {
       &quot;url&quot;: &quot;https://citizenlab.ca/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
@@ -95,26 +102,12 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 5
     },
-    &quot;ESET WeLiveSecurity&quot;: {
-      &quot;url&quot;: &quot;https://www.welivesecurity.com/en/rss/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 0
-    },
     &quot;SANS Internet Storm Center&quot;: {
       &quot;url&quot;: &quot;https://isc.sans.edu/rssfeed_full.xml&quot;,
       &quot;cohort&quot;: &quot;government_authoritative&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 5
-    },
-    &quot;Volexity&quot;: {
-      &quot;url&quot;: &quot;https://www.volexity.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
     },
     &quot;Cisco Talos&quot;: {
       &quot;url&quot;: &quot;https://feeds.feedburner.com/feedburner/Talos&quot;,
@@ -130,18 +123,11 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 5
     },
-    &quot;Red Canary&quot;: {
-      &quot;url&quot;: &quot;https://redcanary.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+    &quot;Volexity&quot;: {
+      &quot;url&quot;: &quot;https://www.volexity.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
-    },
-    &quot;Exploit-DB&quot;: {
-      &quot;url&quot;: &quot;https://www.exploit-db.com/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 50,
       &quot;in_window_count&quot;: 0
     },
     &quot;Assetnote&quot;: {
@@ -158,11 +144,18 @@
       &quot;item_count&quot;: 40,
       &quot;in_window_count&quot;: 0
     },
-    &quot;watchTowr Labs&quot;: {
-      &quot;url&quot;: &quot;https://labs.watchtowr.com/rss/&quot;,
+    &quot;Red Canary&quot;: {
+      &quot;url&quot;: &quot;https://redcanary.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
+    },
+    &quot;Exploit-DB&quot;: {
+      &quot;url&quot;: &quot;https://www.exploit-db.com/rss.xml&quot;,
       &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 15,
+      &quot;item_count&quot;: 50,
       &quot;in_window_count&quot;: 0
     },
     &quot;The DFIR Report&quot;: {
@@ -172,15 +165,15 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Black Hills Information Security&quot;: {
-      &quot;url&quot;: &quot;https://www.blackhillsinfosec.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+    &quot;watchTowr Labs&quot;: {
+      &quot;url&quot;: &quot;https://labs.watchtowr.com/rss/&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
+      &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Proofpoint Threat Insight&quot;: {
-      &quot;url&quot;: &quot;https://www.proofpoint.com/us/rss.xml&quot;,
+    &quot;Black Hills Information Security&quot;: {
+      &quot;url&quot;: &quot;https://www.blackhillsinfosec.com/feed/&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
@@ -193,6 +186,13 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
     },
+    &quot;Proofpoint Threat Insight&quot;: {
+      &quot;url&quot;: &quot;https://www.proofpoint.com/us/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
+    },
     &quot;Active Countermeasures&quot;: {
       &quot;url&quot;: &quot;https://www.activecountermeasures.com/feed/&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
@@ -200,12 +200,12 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Sophos X-Ops&quot;: {
-      &quot;url&quot;: &quot;https://news.sophos.com/en-us/category/threat-research/feed/&quot;,
+    &quot;SpecterOps&quot;: {
+      &quot;url&quot;: &quot;https://medium.com/feed/specter-ops-posts&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 15,
-      &quot;in_window_count&quot;: 1
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
     },
     &quot;Rapid7&quot;: {
       &quot;url&quot;: &quot;https://www.rapid7.com/blog/rss/&quot;,
@@ -221,12 +221,12 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
-    &quot;SpecterOps&quot;: {
-      &quot;url&quot;: &quot;https://medium.com/feed/specter-ops-posts&quot;,
+    &quot;Sophos X-Ops&quot;: {
+      &quot;url&quot;: &quot;https://news.sophos.com/en-us/category/threat-research/feed/&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
+      &quot;item_count&quot;: 15,
+      &quot;in_window_count&quot;: 1
     },
     &quot;Huntress&quot;: {
       &quot;url&quot;: &quot;https://www.huntress.com/blog/rss.xml&quot;,
@@ -241,6 +241,13 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 30,
       &quot;in_window_count&quot;: 1
+    },
+    &quot;Trail of Bits&quot;: {
+      &quot;url&quot;: &quot;https://blog.trailofbits.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 0
     },
     &quot;Orca Security Research&quot;: {
       &quot;url&quot;: &quot;https://orca.security/resources/blog/feed/&quot;,
@@ -261,7 +268,7 @@
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 16
+      &quot;in_window_count&quot;: 15
     },
     &quot;Sysdig&quot;: {
       &quot;url&quot;: &quot;https://sysdig.com/feed/&quot;,
@@ -270,29 +277,8 @@
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 1
     },
-    &quot;Trail of Bits&quot;: {
-      &quot;url&quot;: &quot;https://blog.trailofbits.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 0
-    },
-    &quot;Protect AI&quot;: {
-      &quot;url&quot;: &quot;https://protectai.com/blog/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
-      &quot;status&quot;: &quot;parse_error&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
-    },
     &quot;Cloudflare Security&quot;: {
       &quot;url&quot;: &quot;https://blog.cloudflare.com/tag/security/rss/&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 2
-    },
-    &quot;Cloudflare Radar&quot;: {
-      &quot;url&quot;: &quot;https://blog.cloudflare.com/tag/cloudflare-radar/rss/&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 20,
@@ -305,12 +291,26 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 0
     },
+    &quot;Protect AI&quot;: {
+      &quot;url&quot;: &quot;https://protectai.com/blog/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;status&quot;: &quot;parse_error&quot;,
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
+    },
     &quot;Google DeepMind Blog&quot;: {
       &quot;url&quot;: &quot;https://deepmind.google/blog/rss.xml&quot;,
       &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 2
+    },
+    &quot;Cloudflare Radar&quot;: {
+      &quot;url&quot;: &quot;https://blog.cloudflare.com/tag/cloudflare-radar/rss/&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 0
     },
     &quot;Google Project Zero&quot;: {
       &quot;url&quot;: &quot;https://googleprojectzero.blogspot.com/feeds/posts/default&quot;,
@@ -326,12 +326,12 @@
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 6
     },
-    &quot;Coveware&quot;: {
-      &quot;url&quot;: &quot;https://www.coveware.com/blog?format=rss&quot;,
-      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
-      &quot;status&quot;: &quot;parse_error&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
+    &quot;OpenSSF Blog&quot;: {
+      &quot;url&quot;: &quot;https://openssf.org/feed/&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 2
     },
     &quot;Chainalysis&quot;: {
       &quot;url&quot;: &quot;https://www.chainalysis.com/blog/feed/&quot;,
@@ -340,26 +340,12 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
     },
-    &quot;OpenSSF Blog&quot;: {
-      &quot;url&quot;: &quot;https://openssf.org/feed/&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 2
-    },
-    &quot;The Record&quot;: {
-      &quot;url&quot;: &quot;https://therecord.media/feed&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 5,
-      &quot;in_window_count&quot;: 5
-    },
-    &quot;Google Cloud Security&quot;: {
-      &quot;url&quot;: &quot;https://cloudblog.withgoogle.com/rss/&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 5
+    &quot;Coveware&quot;: {
+      &quot;url&quot;: &quot;https://www.coveware.com/blog?format=rss&quot;,
+      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
+      &quot;status&quot;: &quot;parse_error&quot;,
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
     },
     &quot;GreyNoise&quot;: {
       &quot;url&quot;: &quot;https://www.greynoise.io/blog/rss.xml&quot;,
@@ -367,6 +353,13 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 1
+    },
+    &quot;The Record&quot;: {
+      &quot;url&quot;: &quot;https://therecord.media/feed&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 5,
+      &quot;in_window_count&quot;: 5
     },
     &quot;BleepingComputer&quot;: {
       &quot;url&quot;: &quot;https://www.bleepingcomputer.com/feed/&quot;,
@@ -382,22 +375,15 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Intel 471&quot;: {
-      &quot;url&quot;: &quot;https://intel471.com/blog/feed&quot;,
-      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
+    &quot;Google Cloud Security&quot;: {
+      &quot;url&quot;: &quot;https://cloudblog.withgoogle.com/rss/&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 50,
-      &quot;in_window_count&quot;: 0
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 5
     },
     &quot;SecurityWeek&quot;: {
       &quot;url&quot;: &quot;https://www.securityweek.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 10
-    },
-    &quot;CyberScoop&quot;: {
-      &quot;url&quot;: &quot;https://cyberscoop.com/feed/&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
@@ -408,7 +394,21 @@
       &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 30,
-      &quot;in_window_count&quot;: 16
+      &quot;in_window_count&quot;: 17
+    },
+    &quot;CyberScoop&quot;: {
+      &quot;url&quot;: &quot;https://cyberscoop.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 10
+    },
+    &quot;Intel 471&quot;: {
+      &quot;url&quot;: &quot;https://intel471.com/blog/feed&quot;,
+      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 50,
+      &quot;in_window_count&quot;: 0
     },
     &quot;Help Net Security&quot;: {
       &quot;url&quot;: &quot;https://www.helpnetsecurity.com/feed/&quot;,
@@ -422,21 +422,7 @@
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 50,
-      &quot;in_window_count&quot;: 19
-    },
-    &quot;AI Snake Oil&quot;: {
-      &quot;url&quot;: &quot;https://www.aisnakeoil.com/feed&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 1
-    },
-    &quot;Krebs on Security&quot;: {
-      &quot;url&quot;: &quot;https://krebsonsecurity.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 1
+      &quot;in_window_count&quot;: 16
     },
     &quot;Team Cymru&quot;: {
       &quot;url&quot;: &quot;https://www.team-cymru.com/post/rss.xml&quot;,
@@ -452,19 +438,19 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 5
     },
-    &quot;Reddit r/cybersecurity&quot;: {
-      &quot;url&quot;: &quot;https://www.reddit.com/r/cybersecurity/.rss&quot;,
-      &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
-    },
     &quot;Troy Hunt&quot;: {
       &quot;url&quot;: &quot;https://www.troyhunt.com/rss/&quot;,
       &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 2
+    },
+    &quot;AI Snake Oil&quot;: {
+      &quot;url&quot;: &quot;https://www.aisnakeoil.com/feed&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 1
     },
     &quot;Reddit r/netsec&quot;: {
       &quot;url&quot;: &quot;https://www.reddit.com/r/netsec/.rss&quot;,
@@ -473,15 +459,8 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Reddit r/msp&quot;: {
-      &quot;url&quot;: &quot;https://www.reddit.com/r/msp/.rss&quot;,
-      &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
-    },
-    &quot;Reddit r/sysadmin&quot;: {
-      &quot;url&quot;: &quot;https://www.reddit.com/r/sysadmin/.rss&quot;,
+    &quot;Reddit r/cybersecurity&quot;: {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/cybersecurity/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 0,
@@ -494,15 +473,15 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Reddit r/netsecstudents&quot;: {
-      &quot;url&quot;: &quot;https://www.reddit.com/r/netsecstudents/.rss&quot;,
+    &quot;Reddit r/sysadmin&quot;: {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/sysadmin/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Reddit r/AskNetsec&quot;: {
-      &quot;url&quot;: &quot;https://www.reddit.com/r/AskNetsec/.rss&quot;,
+    &quot;Reddit r/msp&quot;: {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/msp/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 0,
@@ -513,7 +492,14 @@
       &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 4
+      &quot;in_window_count&quot;: 3
+    },
+    &quot;Reddit r/netsecstudents&quot;: {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/netsecstudents/.rss&quot;,
+      &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
     },
     &quot;The Hacker News&quot;: {
       &quot;url&quot;: &quot;https://feeds.feedburner.com/TheHackersNews&quot;,
@@ -521,6 +507,20 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 50,
       &quot;in_window_count&quot;: 47
+    },
+    &quot;Reddit r/AskNetsec&quot;: {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/AskNetsec/.rss&quot;,
+      &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
+    },
+    &quot;Krebs on Security&quot;: {
+      &quot;url&quot;: &quot;https://krebsonsecurity.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
     },
     &quot;Infosecurity Magazine&quot;: {
       &quot;url&quot;: &quot;https://www.infosecurity-magazine.com/rss/news/&quot;,
@@ -536,13 +536,6 @@
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 0
     },
-    &quot;tl;dr sec&quot;: {
-      &quot;url&quot;: &quot;https://tldrsec.com/feed.xml&quot;,
-      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 0
-    },
     &quot;Risky Business News&quot;: {
       &quot;url&quot;: &quot;https://risky.biz/feeds/risky-business-news/&quot;,
       &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
@@ -550,12 +543,12 @@
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 6
     },
-    &quot;Just Security&quot;: {
-      &quot;url&quot;: &quot;https://www.justsecurity.org/feed/&quot;,
-      &quot;cohort&quot;: &quot;policy_strategy_geopolitics&quot;,
+    &quot;tl;dr sec&quot;: {
+      &quot;url&quot;: &quot;https://tldrsec.com/feed.xml&quot;,
+      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 10
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 0
     },
     &quot;Elastic Security Labs&quot;: {
       &quot;url&quot;: &quot;https://www.elastic.co/security-labs/rss/feed.xml&quot;,
@@ -563,6 +556,13 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 4
+    },
+    &quot;Just Security&quot;: {
+      &quot;url&quot;: &quot;https://www.justsecurity.org/feed/&quot;,
+      &quot;cohort&quot;: &quot;policy_strategy_geopolitics&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 10
     }
   },
   &quot;cohorts&quot;: {
@@ -681,12 +681,11 @@
   },
   &quot;affinity_groups&quot;: [
     {
-      &quot;label&quot;: &quot;phishing social eng targeting Palo Alto Networks&quot;,
+      &quot;label&quot;: &quot;data breach targeting Palo Alto Networks&quot;,
       &quot;anchor_signal&quot;: &quot;Palo Alto Networks&quot;,
       &quot;theme_key&quot;: &quot;palo-alto-networks&quot;,
       &quot;dominant_features&quot;: {
         &quot;threat_categories&quot;: [
-          &quot;phishing_social_eng&quot;,
           &quot;data_breach&quot;
         ],
         &quot;affected_industries&quot;: [
@@ -696,12 +695,13 @@
           &quot;Palo Alto Networks&quot;
         ],
         &quot;urgency_signals&quot;: [
+          &quot;preauth_unauth&quot;,
           &quot;no_patch_yet&quot;
         ]
       },
-      &quot;cluster_count&quot;: 8,
-      &quot;article_count&quot;: 11,
-      &quot;cohesion&quot;: 0.252,
+      &quot;cluster_count&quot;: 6,
+      &quot;article_count&quot;: 8,
+      &quot;cohesion&quot;: 0.227,
       &quot;shared_strong_signals&quot;: [
         &quot;Palo Alto Networks&quot;
       ],
@@ -709,26 +709,21 @@
       &quot;also_targets&quot;: [],
       &quot;cluster_ids&quot;: [
         &quot;50d8786b00&quot;,
-        &quot;73e18d92de&quot;,
         &quot;1fd69b6fe4&quot;,
+        &quot;62b9c7bd0a&quot;,
         &quot;843767485f&quot;,
         &quot;368638ac73&quot;,
-        &quot;62b9c7bd0a&quot;,
-        &quot;83d2afcf08&quot;,
         &quot;45780f5140&quot;
       ],
       &quot;links&quot;: [
         &quot;https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/&quot;,
-        &quot;https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/&quot;,
         &quot;https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/&quot;,
-        &quot;https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/&quot;,
-        &quot;https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/&quot;,
         &quot;https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html&quot;,
         &quot;https://www.infosecurity-magazine.com/news/inception-extortion-sso-vishing/&quot;,
         &quot;https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/&quot;,
-        &quot;https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/&quot;,
-        &quot;https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html&quot;,
-        &quot;https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/&quot;
+        &quot;https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/&quot;,
+        &quot;https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/&quot;,
+        &quot;https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html&quot;
       ]
     },
     {
@@ -750,7 +745,7 @@
         ]
       },
       &quot;cluster_count&quot;: 2,
-      &quot;article_count&quot;: 10,
+      &quot;article_count&quot;: 9,
       &quot;cohesion&quot;: 0.287,
       &quot;shared_strong_signals&quot;: [
         &quot;VMware&quot;
@@ -765,7 +760,6 @@
         &quot;https://horizon3.ai/attack-research/vulnerabilities/cve-2026-123890/&quot;,
         &quot;https://www.rapid7.com/blog/post/etr-cve-2026-123903-critical-vmware-directory-service-authentication-bypass-affects-vcenter&quot;,
         &quot;https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html&quot;,
-        &quot;https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day&quot;,
         &quot;https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html&quot;,
         &quot;https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/&quot;,
         &quot;https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/&quot;
@@ -778,39 +772,41 @@
       &quot;dominant_features&quot;: {
         &quot;threat_categories&quot;: [
           &quot;phishing_social_eng&quot;,
-          &quot;zero_day&quot;,
-          &quot;credential_theft&quot;
+          &quot;credential_theft&quot;,
+          &quot;zero_day&quot;
+        ],
+        &quot;affected_industries&quot;: [
+          &quot;healthcare&quot;,
+          &quot;manufacturing_industrial&quot;
         ],
         &quot;affected_products&quot;: [
           &quot;Microsoft 365&quot;,
-          &quot;Microsoft SharePoint&quot;,
-          &quot;Palo Alto Networks&quot;
+          &quot;GitHub&quot;,
+          &quot;Microsoft SharePoint&quot;
         ],
         &quot;urgency_signals&quot;: [
-          &quot;zero_day&quot;,
-          &quot;no_patch_yet&quot;
+          &quot;zero_day&quot;
         ]
       },
       &quot;cluster_count&quot;: 4,
-      &quot;article_count&quot;: 5,
-      &quot;cohesion&quot;: 0.254,
+      &quot;article_count&quot;: 4,
+      &quot;cohesion&quot;: 0.269,
       &quot;shared_strong_signals&quot;: [
         &quot;Microsoft 365&quot;
       ],
       &quot;member_cves&quot;: [],
       &quot;also_targets&quot;: [],
       &quot;cluster_ids&quot;: [
+        &quot;e43e6a5b14&quot;,
         &quot;9aeb88f9ea&quot;,
-        &quot;83d2afcf08&quot;,
         &quot;854fd296d9&quot;,
         &quot;45780f5140&quot;
       ],
       &quot;links&quot;: [
+        &quot;https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/&quot;,
         &quot;https://www.huntress.com/blog/three-attacks-zero-exploits-microsoft-365&quot;,
-        &quot;https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/&quot;,
         &quot;https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/&quot;,
-        &quot;https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html&quot;,
-        &quot;https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/&quot;
+        &quot;https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html&quot;
       ]
     },
     {
@@ -928,100 +924,6 @@
       ]
     },
     {
-      &quot;label&quot;: &quot;Salt Typhoon: supply chain&quot;,
-      &quot;anchor_signal&quot;: &quot;Salt Typhoon&quot;,
-      &quot;theme_key&quot;: &quot;salt-typhoon&quot;,
-      &quot;dominant_features&quot;: {
-        &quot;threat_categories&quot;: [
-          &quot;supply_chain&quot;,
-          &quot;apt_espionage&quot;
-        ],
-        &quot;actor_attribution&quot;: [
-          &quot;Salt Typhoon&quot;
-        ]
-      },
-      &quot;cluster_count&quot;: 2,
-      &quot;article_count&quot;: 3,
-      &quot;cohesion&quot;: 0.579,
-      &quot;shared_strong_signals&quot;: [
-        &quot;Salt Typhoon&quot;
-      ],
-      &quot;member_cves&quot;: [],
-      &quot;also_targets&quot;: [],
-      &quot;cluster_ids&quot;: [
-        &quot;8274ad1bd4&quot;,
-        &quot;e0a04e4a64&quot;
-      ],
-      &quot;links&quot;: [
-        &quot;https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/&quot;,
-        &quot;https://www.helpnetsecurity.com/2026/11/27/artex-ai-pentest-framework-china-north-korea-state-hackers/&quot;
-      ]
-    },
-    {
-      &quot;label&quot;: &quot;CVE-2026-129243 exploitation activity&quot;,
-      &quot;anchor_signal&quot;: &quot;CVE-2026-129243&quot;,
-      &quot;theme_key&quot;: &quot;cve-2026-129243&quot;,
-      &quot;dominant_features&quot;: {
-        &quot;cve_ids&quot;: [
-          &quot;CVE-2026-120705&quot;,
-          &quot;CVE-2026-129243&quot;,
-          &quot;CVE-2026-129244&quot;,
-          &quot;CVE-2026-129245&quot;
-        ],
-        &quot;urgency_signals&quot;: [
-          &quot;preauth_unauth&quot;
-        ]
-      },
-      &quot;cluster_count&quot;: 2,
-      &quot;article_count&quot;: 2,
-      &quot;cohesion&quot;: 0.231,
-      &quot;shared_strong_signals&quot;: [
-        &quot;CVE-2026-129243&quot;
-      ],
-      &quot;member_cves&quot;: [],
-      &quot;also_targets&quot;: [],
-      &quot;cluster_ids&quot;: [
-        &quot;40fc3a3950&quot;,
-        &quot;1fd69b6fe4&quot;
-      ],
-      &quot;links&quot;: [
-        &quot;https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html&quot;,
-        &quot;https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/&quot;
-      ]
-    },
-    {
-      &quot;label&quot;: &quot;CVE-2026-129245 exploitation activity&quot;,
-      &quot;anchor_signal&quot;: &quot;CVE-2026-129245&quot;,
-      &quot;theme_key&quot;: &quot;cve-2026-129245&quot;,
-      &quot;dominant_features&quot;: {
-        &quot;cve_ids&quot;: [
-          &quot;CVE-2026-120705&quot;,
-          &quot;CVE-2026-129243&quot;,
-          &quot;CVE-2026-129244&quot;,
-          &quot;CVE-2026-129245&quot;
-        ],
-        &quot;urgency_signals&quot;: [
-          &quot;preauth_unauth&quot;
-        ]
-      },
-      &quot;cluster_count&quot;: 2,
-      &quot;article_count&quot;: 2,
-      &quot;cohesion&quot;: 0.231,
-      &quot;shared_strong_signals&quot;: [
-        &quot;CVE-2026-129245&quot;
-      ],
-      &quot;member_cves&quot;: [],
-      &quot;also_targets&quot;: [],
-      &quot;cluster_ids&quot;: [
-        &quot;40fc3a3950&quot;,
-        &quot;1fd69b6fe4&quot;
-      ],
-      &quot;links&quot;: [
-        &quot;https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html&quot;,
-        &quot;https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/&quot;
-      ]
-    },
-    {
       &quot;label&quot;: &quot;CVE-2026-120705 exploitation activity&quot;,
       &quot;anchor_signal&quot;: &quot;CVE-2026-120705&quot;,
       &quot;theme_key&quot;: &quot;cve-2026-120705&quot;,
@@ -1086,6 +988,70 @@
       ]
     },
     {
+      &quot;label&quot;: &quot;CVE-2026-129245 exploitation activity&quot;,
+      &quot;anchor_signal&quot;: &quot;CVE-2026-129245&quot;,
+      &quot;theme_key&quot;: &quot;cve-2026-129245&quot;,
+      &quot;dominant_features&quot;: {
+        &quot;cve_ids&quot;: [
+          &quot;CVE-2026-120705&quot;,
+          &quot;CVE-2026-129243&quot;,
+          &quot;CVE-2026-129244&quot;,
+          &quot;CVE-2026-129245&quot;
+        ],
+        &quot;urgency_signals&quot;: [
+          &quot;preauth_unauth&quot;
+        ]
+      },
+      &quot;cluster_count&quot;: 2,
+      &quot;article_count&quot;: 2,
+      &quot;cohesion&quot;: 0.231,
+      &quot;shared_strong_signals&quot;: [
+        &quot;CVE-2026-129245&quot;
+      ],
+      &quot;member_cves&quot;: [],
+      &quot;also_targets&quot;: [],
+      &quot;cluster_ids&quot;: [
+        &quot;40fc3a3950&quot;,
+        &quot;1fd69b6fe4&quot;
+      ],
+      &quot;links&quot;: [
+        &quot;https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html&quot;,
+        &quot;https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;CVE-2026-129243 exploitation activity&quot;,
+      &quot;anchor_signal&quot;: &quot;CVE-2026-129243&quot;,
+      &quot;theme_key&quot;: &quot;cve-2026-129243&quot;,
+      &quot;dominant_features&quot;: {
+        &quot;cve_ids&quot;: [
+          &quot;CVE-2026-120705&quot;,
+          &quot;CVE-2026-129243&quot;,
+          &quot;CVE-2026-129244&quot;,
+          &quot;CVE-2026-129245&quot;
+        ],
+        &quot;urgency_signals&quot;: [
+          &quot;preauth_unauth&quot;
+        ]
+      },
+      &quot;cluster_count&quot;: 2,
+      &quot;article_count&quot;: 2,
+      &quot;cohesion&quot;: 0.231,
+      &quot;shared_strong_signals&quot;: [
+        &quot;CVE-2026-129243&quot;
+      ],
+      &quot;member_cves&quot;: [],
+      &quot;also_targets&quot;: [],
+      &quot;cluster_ids&quot;: [
+        &quot;40fc3a3950&quot;,
+        &quot;1fd69b6fe4&quot;
+      ],
+      &quot;links&quot;: [
+        &quot;https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html&quot;,
+        &quot;https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/&quot;
+      ]
+    },
+    {
       &quot;label&quot;: &quot;web shell backdoor targeting Android&quot;,
       &quot;anchor_signal&quot;: &quot;Android&quot;,
       &quot;theme_key&quot;: &quot;android&quot;,
@@ -1117,18 +1083,47 @@
         &quot;https://www.helpnetsecurity.com/2026/11/26/keenadu-malware-android-devices/&quot;,
         &quot;https://research.checkpoint.com/2026/volant-manticore-flying-under-the-radar/&quot;
       ]
+    },
+    {
+      &quot;label&quot;: &quot;CVE-2026-133968 exploitation activity&quot;,
+      &quot;anchor_signal&quot;: &quot;CVE-2026-133968&quot;,
+      &quot;theme_key&quot;: &quot;cve-2026-133968&quot;,
+      &quot;dominant_features&quot;: {
+        &quot;threat_categories&quot;: [
+          &quot;zero_day&quot;
+        ],
+        &quot;affected_industries&quot;: [
+          &quot;healthcare&quot;,
+          &quot;education&quot;
+        ],
+        &quot;cve_ids&quot;: [
+          &quot;CVE-2026-133968&quot;
+        ],
+        &quot;urgency_signals&quot;: [
+          &quot;zero_day&quot;
+        ]
+      },
+      &quot;cluster_count&quot;: 2,
+      &quot;article_count&quot;: 3,
+      &quot;cohesion&quot;: 0.5,
+      &quot;shared_strong_signals&quot;: [
+        &quot;CVE-2026-133968&quot;
+      ],
+      &quot;member_cves&quot;: [],
+      &quot;also_targets&quot;: [],
+      &quot;cluster_ids&quot;: [
+        &quot;8ca64448a3&quot;,
+        &quot;97d0321d69&quot;
+      ],
+      &quot;links&quot;: [
+        &quot;https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html&quot;,
+        &quot;https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html&quot;
+      ]
     }
   ],
   &quot;forward_signals&quot;: {
     &quot;novelty&quot;: {
-      &quot;cves&quot;: [
-        {
-          &quot;value&quot;: &quot;CVE-2026-99362&quot;,
-          &quot;cluster_id&quot;: &quot;83d2afcf08&quot;,
-          &quot;first_source&quot;: &quot;BleepingComputer&quot;,
-          &quot;first_published&quot;: &quot;2026-11-27T08:06:58+00:00&quot;
-        }
-      ],
+      &quot;cves&quot;: [],
       &quot;actors&quot;: [],
       &quot;products&quot;: []
     },
@@ -1271,6 +1266,26 @@
         ]
       },
       {
+        &quot;actor&quot;: &quot;UNC6671&quot;,
+        &quot;cluster_id&quot;: &quot;62b9c7bd0a&quot;,
+        &quot;new_industries&quot;: [
+          &quot;retail_ecommerce&quot;
+        ],
+        &quot;new_products&quot;: [
+          &quot;Okta&quot;
+        ],
+        &quot;prior_top_industries&quot;: [
+          &quot;financial_services&quot;,
+          &quot;healthcare&quot;,
+          &quot;legal_professional&quot;
+        ],
+        &quot;prior_top_products&quot;: [
+          &quot;Microsoft 365&quot;,
+          &quot;Microsoft SharePoint&quot;,
+          &quot;Palo Alto Networks&quot;
+        ]
+      },
+      {
         &quot;actor&quot;: &quot;LockBit&quot;,
         &quot;cluster_id&quot;: &quot;7511eed480&quot;,
         &quot;new_industries&quot;: [
@@ -1329,13 +1344,58 @@
       {
         &quot;axis&quot;: &quot;actor_attribution&quot;,
         &quot;value&quot;: &quot;UNC6671&quot;,
-        &quot;cluster_id&quot;: &quot;73e18d92de&quot;,
+        &quot;cluster_id&quot;: &quot;62b9c7bd0a&quot;,
         &quot;weeks_observed&quot;: 3
       }
     ],
     &quot;tier_inversion&quot;: []
   },
   &quot;items&quot;: [
+    {
+      &quot;source&quot;: &quot;BleepingComputer&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;New Boston Scientific data breach exposes personal, medical info&quot;,
+      &quot;link&quot;: &quot;https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/&quot;,
+      &quot;published&quot;: &quot;2026-11-27T18:57:42+00:00&quot;,
+      &quot;summary&quot;: &quot;Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]&quot;,
+      &quot;author&quot;: &quot;Bill Toulas&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [
+          &quot;phishing_social_eng&quot;,
+          &quot;data_breach&quot;
+        ],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [
+          &quot;healthcare&quot;,
+          &quot;government&quot;,
+          &quot;manufacturing_industrial&quot;
+        ],
+        &quot;affected_products&quot;: [
+          &quot;GitHub&quot;,
+          &quot;Microsoft 365&quot;,
+          &quot;Google Workspace&quot;
+        ],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;incident_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {
+          &quot;GitHub&quot;: &quot;target&quot;,
+          &quot;Microsoft 365&quot;: &quot;target&quot;,
+          &quot;Google Workspace&quot;: &quot;target&quot;
+        },
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 10,
+      &quot;full_body&quot;: &quot;New Boston Scientific data breach exposes personal, medical info By Bill Toulas November 27, 2026 01:57 PM 0 Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. According to a notification sample Boston Scientific shared with U.S. authorities, the hacker used social engineering in a voice phishing (vishing) attack to gain access to the company&#x27;s cloud infrastructure. The attack exposed cloud-based applications and cloud-hosted data between May 7 and 1. The company became aware of the unauthorized access on May 12, and the investigation determined that a data breach occurred on November 5. Individuals in multiple U.S. states have been impacted, exposing personal details and medical information. According to the Texas Attorney General breach portal, the incident exposed information from 117,789 people, which included: Full name Physical address Social Security Number (SSN) Government-issued ID number (e.g., passport, state ID card) Medical information Health insurance information Date of birth The letter sent to impacted individuals specifies that patient medical records and data from remote monitoring systems, connected medical devices, and clinical case management or workflow applications were not exposed. Boston Scientific is a Massachusetts-based medical device maker whose products include stents, catheters, pacemakers, defibrillators, and endoscopes. It is one of the world’s largest medical device manufacturers, with more than 59,000 employees, 13 manufacturing facilities, and a presence in 127 countries. In 2025, Boston Scientific reported more than $20 billion in revenue. The company said there was no disruption to manufacturing, ordering, distribution, or service to patients and healthcare providers as a result of this incident. It also said the incident had no impact on operations, performance, remote monitoring, or the safety of its products and medical devices. Boston Scientific says it contained the incident, investigated with outside cybersecurity experts, and notified law enforcement. The notification does not offer free credit monitoring to impacted individuals but recommends using free credit reports and considering placing fraud alerts and credit freezes. Second breach in 2026 The breach is the second cybersecurity incident this year. On August 25, Boston Scientific disclosed a cyberattack that caused network outages and a global operational disruption for the company, including to order processing and shipping. CrowdStrike’s investigation determined that the attacker breached an internet-facing network device and pivoted to a limited part of the on-premises IT environment. However, the investigators found no evidence that the attackers compromised cloud applications. BleepingComputer contacted Boston Scientific to learn more about the most recent incident, and a spokesperson confirmed that it is unrelated to the August 2026 intrusion. The spokesperson declined to share additional details. Uncover email threats your existing defenses may miss. Adaptive Security&#x27;s AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud. See what&#x27;s getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes. Start your free email security scan. Related Articles: Bell Canada says &#x27;agentic&#x27; hacker stole enterprise customer data US Air Force cloud platform reportedly hacked in latest federal breach SAP confirms security incident after suspicious GitHub activity 1Password customer data stolen after employee GitHub account breach Rackspace shuts down Spot cloud platform after security breach&quot;,
+      &quot;fetch_status&quot;: &quot;ok&quot;
+    },
     {
       &quot;source&quot;: &quot;BleepingComputer&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
@@ -1616,7 +1676,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;The Hacker News&quot;,
@@ -1644,7 +1704,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;Help Net Security&quot;,
@@ -1658,20 +1718,11 @@
       &quot;in_window&quot;: true,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [
-          &quot;supply_chain&quot;,
           &quot;apt_espionage&quot;
         ],
-        &quot;actor_attribution&quot;: [
-          &quot;Salt Typhoon&quot;
-        ],
-        &quot;affected_industries&quot;: [
-          &quot;government&quot;,
-          &quot;telecommunications&quot;
-        ],
-        &quot;affected_products&quot;: [
-          &quot;Citrix&quot;,
-          &quot;Azure&quot;
-        ],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
         &quot;tools_used&quot;: [],
         &quot;cve_ids&quot;: [],
         &quot;attack_techniques&quot;: [],
@@ -1679,8 +1730,6 @@
         &quot;content_type&quot;: &quot;news_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
         &quot;role_map&quot;: {
-          &quot;Citrix&quot;: &quot;target&quot;,
-          &quot;Azure&quot;: &quot;target&quot;,
           &quot;GitHub&quot;: &quot;mention&quot;
         },
         &quot;weak_tags&quot;: {
@@ -1693,9 +1742,7 @@
           ]
         }
       },
-      &quot;score&quot;: 8,
-      &quot;full_body&quot;: &quot;Sinisa Markovic , Managing Editor, Help Net Security November 27, 2026 Share Chinese and North Korean state hackers add ARTEX AI framework to their arsenal State-sponsored hacking groups tied to Beijing and Pyongyang have started running the ARTEX pentesting tool in attacks, Microsoft Threat Intelligence warned this week. Published on GitHub in July 2026 by a user going by Autumn-27, ARTEX is an LLM-driven open-source penetration testing framework that runs attacks largely on its own, with the operator setting a goal and AI agents planning and carrying out the steps needed to reach it. In November, China-based cybersecurity company ThreatBook claimed ownership of ARTEX and began selling access to an ARTEX Pro version, though Microsoft does not link the company to the attacks. “In the past few weeks, we’ve reported several distinct campaigns that abused ARTEX to search public repositories for exposed secrets, enable supply chain compromise, and scan internet-facing systems for exploitation,” researchers wrote. “These campaigns illustrate how threat actors use ARTEX to automate various stages of the attack chain.” “As of November 2026, Microsoft Threat Intelligence has observed both state-sponsored and financially motivated threat actors such as Storm-0940, Storm-3358, Onyx Sleet, Pearl Sleet, Crystal Typhoon, and Salt Typhoon integrating ARTEX into their tooling,” Microsoft reported. Typhoon is the label Microsoft uses for China-based groups, while Sleet marks those tied to North Korea. The most recognizable group on the list, Salt Typhoon, is linked to a long-running espionage campaign against telecommunications providers. In December 2024, the White House confirmed that the group had compromised at least eight US telecommunications providers, where it stole subscribers’ call records, intercepted the calls and texts of specific targets in government and politics, and accessed systems used for court-ordered communication interception by law enforcement and intelligence agencies. Salt Typhoon was also tied to a July 2025 intrusion at a European telecommunications organization . The attackers got in by exploiting a vulnerability in a Citrix NetScaler Gateway appliance and were spotted before they could move deeper into the network, Darktrace reported. Three hours to privileged access In one password spraying run against Microsoft 365, Storm-0940, a China-state-aligned group, logged more than 151,000 failed sign-ins, peaking at 2,900 failures per minute. The group went from initial targeting to privileged access in less than three hours. Another case moved faster, with an AI agent going from searching GitHub for client secrets to taking data from Azure Key Vault in five minutes. Storm-0940’s ARTEX-assisted campaigns also include a supply chain compromise linked to ConnectWise and the abuse of app credentials. Noisy by design “ARTEX does not introduce new attack techniques; it uses common, pre-existing penetration testing tools and techniques. ARTEX does sometimes transmit distinctive characteristics associated with its integrated penetration testing tools. However, threat actors using ARTEX can and do vary network indicators like source IP address or user agent string, especially to bypass static or simple signature-based detection and blocking,” Microsoft explained . Behavior is harder to disguise, and by default ARTEX makes no attempt to hide what it does. Its bursts of varied requests, rapid retries and jumps between attack stages at machine speed stand out in logs. The UK’s National Cyber Security Centre came to the same conclusion about agentic attack frameworks in general. In a blog post published on November 24, the agency said such tools “trade stealth for speed,” generating heavy traffic and interacting with almost everything they find, which makes them easier to detect. It also warned that this may change once future frameworks are built with stealth in mind. More about AI China cyber espionage cyberat Darktrace Microsof&quot;,
-      &quot;fetch_status&quot;: &quot;ok&quot;
+      &quot;score&quot;: 7
     },
     {
       &quot;source&quot;: &quot;SecurityWeek&quot;,
@@ -1723,7 +1770,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;The Hacker News&quot;,
@@ -1751,7 +1798,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;Infosecurity Magazine&quot;,
@@ -1795,8 +1842,8 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 10,
-      &quot;full_body&quot;: &quot;Infosecurity Magazine Home » News » FIFA Confirms Cyber-Attack, Personal and Business Information Compromised FIFA Confirms Cyber-Attack, Personal and Business Information Compromised News 27 November 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn FIFA has confirmed a cyber-attack where hackers gained access to a “limited set of personal and business information.” The world football&#x27;s governing body told Associated Press on November 26 that it is “working closely with the relevant authorities, including law enforcement.” \&quot;FIFA condemns in the strongest possible terms the unlawful acquisition and publication of information, particularly personal data. Such actions constitute a serious and unacceptable violation of privacy and can have significant consequences for the individuals concerned,” a FIFA spokesperson told the press agency. Cybercriminals Claim 12 GB FIFA Data Theft in Extortion Attempt On November 20, a group calling itself the Handsome Boy Hacking Club (HBHC) claimed that it had stolen more than 12 GB of data from FIFA and was trying to extort the organization. The group claimed the files were extracted from FIFA&#x27;s Microsoft environment and internal governance systems. Data allegedly exposed include identity and immigration documents, executive information, financial records, legal documents, internal governance records and screenshots. FIFA has not confirmed any of the HBHC claims. On November 21, it was reported that the HBHC group published the stolen data on a cybercriminal forum. HBHC is an emerging cybercriminal group, with its first victim published on November 19 on its data leak site. The FIFA incident comes a few days after Spain’s top professional football league LaLiga revealed a data breach which resulted in the compromise of fans’ personal data. You may also like Colt Admits Customer Data Likely Stolen in Cyber-Attack News 21 August 2025 South Carolina School District Data Breach Affects 31,000 People News 5 September 2025 Ransomware Attacks Reach Record High for 2026 News 23 September 2026 Staffing Company Manpower Discloses Data Breach News 13 August 2025 French Football Federation Suffers Data Breach News 28 November 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor&#x27;s Choice 1Password Hit by Backend Breach via Hijacked Employee GitHub Account News 26 November 2026 1 Chinese, North Korean Hackers Adopt ARTEX AI Offensive Framework News 26 November 2026 2 Ransomware Attacks Surge 23% in October Following Record Quarter News 25 November 2026 3 NCSC Shares Guidance to Tackle Agentic Threat From ARTEX-Like Tools News 25 November 2026 4 US Treasury Investigates Cyber Incident Amid Reported Federal Agency Breaches News 25 November 2026 5 Chinese Open-Weight AI Models Top Closed Ones at Vulnerability Discovery in New Test News 24 November 2026 6 Critical Cisco Expressway Flaw Exploited in Attacks News 23 November 2026 1 Rakuten Securities Breach Could Impact 15 Million Customers News 19 November 2026 2 JPMorgan Confirms Customer Data Breach Following Third-Party Compromise News 20 November 2026 3 Chinese, North Korean Hackers Adopt ARTEX AI Offensive Framework News 26 November 2026 4 Suspected North Korea-Aligned Group Hides C2 on Solana Blockchain News 20 November 2026 5 OpenAI and Cisco Release Open-Source Tool to Shield Unpatched Linux Systems News 24 November 2026 6 Your Vendor’s Outage Is Your Incident: Managing Third-Party Risk Beyond The Spreadsheet Webinar 13:00 — 14:00, 19 November 2026 1 See What Attackers See: A Unified Approach to Validating Security Exposure Webinar 15:00 — 16:00, 29 October 2026 2 Fix What Matters: A Risk-Based Approach to Vulnerability Remediation Webinar 15:00 — 16:00, 22 October 2026 3 Your Security Awareness Programme Isn&#x27;t Failing, It&#x27;s Just Not Relevant Webinar 15:00 — 16:00, 17 September 2026 4 Who Authorized That Agent? Enforcing AI Authority Before the Action Webinar 15:00 — 16:00, 8 October 20&quot;,
+      &quot;score&quot;: 9,
+      &quot;full_body&quot;: &quot;Infosecurity Magazine Home » News » FIFA Confirms Cyber-Attack, Personal and Business Information Compromised FIFA Confirms Cyber-Attack, Personal and Business Information Compromised News 27 November 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn FIFA has confirmed a cyber-attack where hackers gained access to a “limited set of personal and business information.” The world football&#x27;s governing body told Associated Press on November 26 that it is “working closely with the relevant authorities, including law enforcement.” \&quot;FIFA condemns in the strongest possible terms the unlawful acquisition and publication of information, particularly personal data. Such actions constitute a serious and unacceptable violation of privacy and can have significant consequences for the individuals concerned,” a FIFA spokesperson told the press agency. Cybercriminals Claim 12 GB FIFA Data Theft in Extortion Attempt On November 20, a group calling itself the Handsome Boy Hacking Club (HBHC) claimed that it had stolen more than 12 GB of data from FIFA and was trying to extort the organization. The group claimed the files were extracted from FIFA&#x27;s Microsoft environment and internal governance systems. Data allegedly exposed include identity and immigration documents, executive information, financial records, legal documents, internal governance records and screenshots. FIFA has not confirmed any of the HBHC claims. On November 21, it was reported that the HBHC group published the stolen data on a cybercriminal forum. HBHC is an emerging cybercriminal group, with its first victim published on November 19 on its data leak site. The FIFA incident comes a few days after Spain’s top professional football league LaLiga revealed a data breach which resulted in the compromise of fans’ personal data. You may also like Colt Admits Customer Data Likely Stolen in Cyber-Attack News 21 August 2025 South Carolina School District Data Breach Affects 31,000 People News 5 September 2025 Ransomware Attacks Reach Record High for 2026 News 23 September 2026 Staffing Company Manpower Discloses Data Breach News 13 August 2025 French Football Federation Suffers Data Breach News 28 November 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor&#x27;s Choice 1Password Hit by Backend Breach via Hijacked Employee GitHub Account News 26 November 2026 1 Chinese, North Korean Hackers Adopt ARTEX AI Offensive Framework News 26 November 2026 2 Ransomware Attacks Surge 23% in October Following Record Quarter News 25 November 2026 3 NCSC Shares Guidance to Tackle Agentic Threat From ARTEX-Like Tools News 25 November 2026 4 US Treasury Investigates Cyber Incident Amid Reported Federal Agency Breaches News 25 November 2026 5 Chinese Open-Weight AI Models Top Closed Ones at Vulnerability Discovery in New Test News 24 November 2026 6 Critical Cisco Expressway Flaw Exploited in Attacks News 23 November 2026 1 Rakuten Securities Breach Could Impact 15 Million Customers News 19 November 2026 2 JPMorgan Confirms Customer Data Breach Following Third-Party Compromise News 20 November 2026 3 Chinese, North Korean Hackers Adopt ARTEX AI Offensive Framework News 26 November 2026 4 Suspected North Korea-Aligned Group Hides C2 on Solana Blockchain News 20 November 2026 5 OpenAI and Cisco Release Open-Source Tool to Shield Unpatched Linux Systems News 24 November 2026 6 Your Vendor’s Outage Is Your Incident: Managing Third-Party Risk Beyond The Spreadsheet Webinar 13:00 — 14:00, 19 November 2026 1 See What Attackers See: A Unified Approach to Validating Security Exposure Webinar 15:00 — 16:00, 29 October 2026 2 Fix What Matters: A Risk-Based Approach to Vulnerability Remediation Webinar 15:00 — 16:00, 22 October 2026 3 Who Authorized That Agent? Enforcing AI Authority Before the Action Webinar 15:00 — 16:00, 8 October 2026 4 Your Security Awareness Programme Isn&#x27;t Failing, It&#x27;s Just Not Relevant Webinar 15:00 — 16:00, 17 September 20&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
@@ -1831,7 +1878,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 12
+      &quot;score&quot;: 11
     },
     {
       &quot;source&quot;: &quot;Help Net Security&quot;,
@@ -1864,7 +1911,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 10,
+      &quot;score&quot;: 9,
       &quot;full_body&quot;: &quot;Sinisa Markovic , Managing Editor, Help Net Security November 27, 2026 Share Flight Centre Travel Group warns of customer data breach involving some passport details Travellers who booked accommodation through Flight Centre and several of its leisure brands may have had their names, and in rare cases passport and health details, accessed by unknown persons, Flight Centre Travel Group (FLT) disclosed. In a statement to the Australian Securities Exchange, the Brisbane-based travel company said it is investigating “unusual activity” in a third-party accommodation booking system used by the Flight Centre brand, Travel Associates, Cruiseabout and some independent agents. Flight bookings “are not impacted,” the travel group noted, and corporate travel bookings “are made through other systems and are not affected.” “While investigations remain ongoing, at this stage FLT believes that a significant number of customer records in the impacted system may have been accessed by unknown persons, although it is not clear at this time how many of those records have actually been extracted from the third-party system,” the statement reads. An initial review found that most of the accessed records contain only customer names, some with basic travel information. “A very small percentage is believed to include data such as limited passport details, email addresses, phone numbers, birth dates, or in rare cases health or mobility information,” according to FLT. The company says that, to date, it has found no access to customer credit card, payment or bank account details. To establish the scope of the incident, FLT is working with the vendor and Mandiant, its cyber security incident response partner, “to implement appropriate safeguards and containment actions.” After learning of the activity, FLT activated its incident response resources and worked with the third party to contain it. The company says it has changed authentication keys and credentials, increased monitoring on the system, and is notifying the relevant authorities. “FLT values customer privacy and data security. The company understands that an incident like this can be unsettling for customers who may be affected, and we apologise for any concern this causes,” the company stated . In the meantime, FLT advises that customers “should be alert to unexpected emails, calls or messages about their bookings, and should not click on links, open attachments or share personal information, passwords or payment details in response.” FLT is the latest travel company to disclose a breach linked to a booking system. In April, the online travel platform Booking.com warned that hackers may have accessed customer data linked to travel reservations, including names, email addresses, phone numbers and information shared with accommodations. More recently, accommodation software provider RMS Cloud, whose booking systems are used by more than 6,000 hotels, holiday parks and serviced apartments, acknowledged a breach after guests of several Australian holiday park operators received phishing messages via WhatsApp, SMS and email in late October. More about breach data breach travel industry Share&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -1910,7 +1957,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 10,
+      &quot;score&quot;: 9,
       &quot;full_body&quot;: &quot;The Colorado Governor’s Office of Information Technology (OIT) has disclosed a data breach impacting data that residents uploaded to the myColorado application. Colorado’s official mobile application, myColorado is used for digital identification, state services, and document storage. It has approximately 2.1 million users. OIT took the application offline last week, after identifying unauthorized access to platform data, and immediately initiated incident response and an investigation into the incident. One week after the outage began, OIT said it discovered the incident after the attackers triggered the automated threat detection systems deployed within its Amazon Web Services (AWS) environment. The investigation has determined that the attackers accessed documents stored within the ‘myCards and Documents’ section of the application, which includes user-uploaded data, such as PDF files and photos of government IDs, vehicle registrations, and insurance cards. According to Colorado, approximately 100,000 individuals might have been affected, but no payment information was accessed. Advertisement. Scroll to continue reading. “Staff are working around the clock to match the inappropriately accessed documents to individual users. As that matching continues, OIT will further refine estimates on the number of people whose data was involved,” Colorado said. The myColorado application remains offline and OIT has not announced a restoration date. The state expects to start sending direct notifications to the affected individuals on November 27. “Our main goal is to protect the security of users. Additionally, we are prioritizing direct notification of users involved in the incident and getting the app up and running as soon as possible, with security enhancements in place,” said state CIO and OIT executive director Sarah Tuneberg. Related: Hex Package Manager Warns of Potential Data Breach Related: SAP Confirms Cyberattack, Source Code Reportedly Compromised Related: FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’ Related: 1Password Breach Exposes Customer Data, Internal Source Code Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire US Treasury’s FinCEN Disconnects Systems Following Cyber Incident Plagiarism Checker Turnitin Investigating Cyberattack Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls VMware Updates Patch Critical ESX, vCenter Vulnerabilities Check Point Security Management Servers Hacked in AI-Assisted Campaign 1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine Latest News In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities Hex Package Manager Warns of Potential Data Breach SAP Confirms Cyberattack, Source Code Reportedly Compromised FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’ Critical Juniper Session Smart Conductor Flaw Exploited in Attacks Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks Drupal Installer Patch Left a Gap Attackers Are Already Exploiting 1Password Breach Exposes Customer Data, Internal Source Code Trending SAP Confirms Cyberattack, Source Code Reportedly Compromised US Treasury’s FinCEN Disconnects Systems Following Cyber Incident Amplifier Security Emerges From Stealth With AI Copilot, Human-in-the-Loop Automation Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls VMware Updates Patch Critical ESX, vCenter Vulnerabilities 1Password Breach Exposes Customer Data, Internal Source Code Critical Juniper Session Smart Conductor Flaw Exploited in Attacks Plagiarism Checker Turnitin I&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -1948,7 +1995,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9,
+      &quot;score&quot;: 8,
       &quot;full_body&quot;: &quot;Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware  Ravie Lakshmanan  Nov 27, 2026 Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. \&quot;Evidence indicates that malicious files were generated not only when users downloaded the programs directly from the official download page but also during the update process of previously installed legitimate programs,\&quot; South Korean cybersecurity company AhnLab said . Q-Dir, also called the Quad Directory Explorer, is a free, lightweight file manager for Windows developed by SoftwareOK. According to its website, DesktopOK is a free Windows utility designed to save and restore desktop icon positions. The unauthorized modifications are designed such that the malicious activity is challenging to detect when running the programs, while simultaneously retrieving and deploying a Python-based remote control malware (RAT) from an external server. Once installed, the RAT payload is capable of executing shell commands and Python code, transferring files, capturing screenshots, and collecting system metadata based on commands issued by the attacker. The following product versions have been confirmed to be poisoned, given the discrepancies in the SHA-256 hashes of the installer files and the presence of additional code that triggers additional file downloads and automatic execution - Q-Dir 12.85.0.0 Q-Dir 12.84.0.0 Q-Dir 12.83.0.0 DesktopOK 12.85.0.0 DesktopOK 12.82.0.0 The exact mechanism that allowed the installation files to be replaced with a trojanized version remains unknown. \&quot;The malicious installer runs the legitimate Q-Dir or DesktopOK to lower the user&#x27;s suspicion, while simultaneously downloading and installing a Python RAT package from an external server,\&quot; AhnLab said. Specifically, this involves downloading two payloads from \&quot;mail.c1a2[.]top\&quot; - 7zr.exe, the legitimate 7-Zip tool to decompress files dsv2_py39_agent.7z, a package containing the RAT and Python runtime environment The attack chain is fairly straightforward in that it uses the 7-Zip tool binary to extract and run the Python RAT. The malware then sets up persistence on the host by means of a scheduled task that impersonates Microsoft Edge to fly under the radar. The task is configured to execute the RAT by launching a Python script named \&quot;py_client_dsv2.py.\&quot; Upon execution, the RAT establishes communication with its command-and-control (C2) server (\&quot;8.210.69[.]51:9876\&quot;) to receive tasks and run them. It supports the following features - Shell command execution Python code execution File upload and download Screenshot capture Operating system and system information It also gathers a list of running processes and compares it against an internal list of various security products used in South Korea and abroad, including AhnLab, ESTSecurity, Hauri, CrowdStrike, SentinelOne, Trend Micro, Avast, McAfee, ESET, Symantec, Kaspersky, Bitdefender, Sophos, Fortinet, Elastic, and Malwarebytes. Information about identified security programs is transmitted to the C2 server, so as to help the attackers better plan the next stages of the attack or serve payloads that can bypass detection. The activity has not been attributed to any known threat actor. However, AhnLab said it identified Chinese language comments in the source code, suggesting that the malware authors or attackers may have used a Chinese-speaking environment. \&quot;Users who are currently using Q-Dir or DesktopOK, or who have recently installed or updated these programs, should verify the hash values of the downloaded files and check their systems for any traces of RAT installation or execution,\&quot; AhnLab said. \&quot;However, simply uninstalling and reinstalling the program may not remove a Python RAT that has already been installed. Therefore, you should also check for suspicious Python execution environments, sch&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -1982,7 +2029,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;BleepingComputer&quot;,
@@ -1995,43 +2042,28 @@
       &quot;author&quot;: &quot;Sergiu Gatlan&quot;,
       &quot;in_window&quot;: true,
       &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [
-          &quot;phishing_social_eng&quot;,
-          &quot;zero_day&quot;,
-          &quot;active_exploitation&quot;
-        ],
+        &quot;threat_categories&quot;: [],
         &quot;actor_attribution&quot;: [],
         &quot;affected_industries&quot;: [],
         &quot;affected_products&quot;: [
-          &quot;Palo Alto Networks&quot;,
-          &quot;Linux kernel&quot;,
-          &quot;Microsoft 365&quot;
+          &quot;Linux kernel&quot;
         ],
         &quot;tools_used&quot;: [],
         &quot;cve_ids&quot;: [
           &quot;CVE-2026-99362&quot;
         ],
         &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [
-          &quot;actively_exploited&quot;,
-          &quot;zero_day&quot;,
-          &quot;no_patch_yet&quot;
-        ],
+        &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;news_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
         &quot;role_map&quot;: {
-          &quot;Palo Alto Networks&quot;: &quot;target&quot;,
-          &quot;Linux kernel&quot;: &quot;target&quot;,
-          &quot;Microsoft 365&quot;: &quot;target&quot;,
-          &quot;Google Workspace&quot;: &quot;target&quot;
+          &quot;Linux kernel&quot;: &quot;target&quot;
         },
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 8,
-      &quot;full_body&quot;: &quot;New NFS2ROOT Linux flaw can let attackers gain root privileges By Sergiu Gatlan November 27, 2026 03:06 AM 0 ​A 12-year-old critical vulnerability in the Linux kernel&#x27;s Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. Found by ANSSI&#x27;s Jérémy Jean (who submitted a fix in August ), the flaw has been dubbed NFS2ROOT by cybersecurity firm OpenSec, which shared a full remote-root exploit and a patch with the NFSD maintainers in late September. The vulnerability has existed since Linux kernel version 3.16 ( released in March 2014 ), and it stems from a heap buffer overflow weakness in the Linux NFS server (nfsd). NFS2ROOT affects systems with a Linux kernel older than 6.12.117, 6.18.61, 7.3.2, or 7.4-rc1 if nfsd (v4.1 or 4.2) is loaded and running and TCP port 2049 is reachable over the Internet. Successful exploitation lets remote threat actors without privileges corrupt kernel memory and gain root access to vulnerable Linux servers exposed online through low-complexity attacks that don&#x27;t require user interaction. In NFS2ROOT attacks, the threat actors can exploit this flaw by sending maliciously crafted requests that cause the NFS server to write data beyond an allocated memory buffer. This lets them read kernel memory, bypass KASLR (which protects kernel memory addresses), and place a callback that can execute a command in a released memory area. When the attacker closes the NFS connection, the kernel executes the embedded command with root privileges, allowing the attacker to gain root control of the unpatched Linux server. NFS2ROOT attack flow (OpenSec) ​Although there are no reports of CVE-2026-99362 exploitation in the wild, security teams should apply the latest kernel security updates from their Linux distribution vendor immediately to block potential attacks, then reboot the system to ensure the patched kernel is in use. Those who can&#x27;t apply a patch immediately should restrict access to the NFS server over TCP port 2049 to trusted clients or networks. Additionally, if NFS sharing is not required on the system, admins can stop and disable the nfs-server service in /etc/nfs.conf. \&quot;Port 2049 sits open on file servers, NAS appliances, build farms and Kubernetes storage nodes. Since 2014, the Linux kernel listening on it has let anyone who can reach it write into kernel memory before logging in,\&quot; OpenSec said . \&quot;Kernel hardening does not remove the overflow. Patch every host.\&quot; While the NFS2ROOT attacks have no network signatures, security teams can still monitor for potential signs of exploitation attempts by checking for kernel warnings from nfsd4_check_resp_size, shells spawned by kernel workers on a file server, bursts of short NFSv4.1 sessions from one source, and kernel oopses with nfsd4_*, svc_* or call_usermodehelper* frames, according to OpenSec. NFS2ROOT is the latest in a long series of Linux privilege escalation security flaws disclosed and patched since the start of the year, including RefluXFS , CIFSwitch , Dirty Frag , Fragnesia , PinTheft , Copy Fail , Pack2TheRoot , and DirtyDecrypt/DirtyCBC . Uncover email threats your existing defenses may miss. Adaptive Security&#x27;s AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud. See what&#x27;s getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes. Start your free email security scan. Related Articles: Check Point warns of zero-day flaw exploited for root access Tailscale warns of SSH flaws allowing root privilege escalation TeamViewer urges users to patch severe flaws “as soon as possible” Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks Hackers use autonomous AI tool Cairn to find zero-day, take over server&quot;,
-      &quot;fetch_status&quot;: &quot;ok&quot;
+      &quot;score&quot;: 7
     },
     {
       &quot;source&quot;: &quot;SecurityWeek&quot;,
@@ -2078,7 +2110,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 10,
+      &quot;score&quot;: 9,
       &quot;full_body&quot;: &quot;Hex, the package manager for Elixir and Erlang, fell victim to a cyberattack involving unauthorized access to its web servers. The incident occurred on November 23, when the attackers exploited a vulnerability in hex.pm to execute commands. The attack was immediately blocked, and the underlying security defect was addressed within 20 minutes. Between 18:16 and 18:29 UTC, the attacker sent 69 malicious requests, affecting six web servers. At 18:30, Hex replaced all hex.pm servers with patched versions rejecting the payload, and its firewall rule fully blocked the attacker’s traffic at 18:33. “We found no evidence of unauthorized package modifications, database changes, or that the attacker maintained access to our systems,” the package manager explains . According to Hex, potential access to database contents, such as email addresses, password hashes, API key hashes, sessions, second factor authentication secrets, and audit logs, cannot be ruled out. While all the observed reads of private packages came from Hex servers, any read from a compromised server would appear legitimate, it says. Additionally, database and private documentation reads are not logged, hindering visibility into potential data exposure. Advertisement. Scroll to continue reading. “The attacker’s commands could read the credentials our servers use, so we replaced them: the storage, CDN, email and database credentials, and the keys that sign sessions and access tokens. This logged everyone out of hex.pm and Hex clients,” Hex notes. The package manager has been working on a new registry signing system with key rotation support. Until new Hex client iterations are rolled out, users should avoid fetching packages from third-party mirrors and rely only on repo.hex.pm. Hex also recommends that all account holders change their hex.pm passwords and reset their two-factor authentication. “Because email addresses may have been exposed, be careful with emails that claim to come from Hex. Please double-check that the links they contain lead to hex.pm,” the package manager says. The attackers exploited an unauthenticated deserialization of untrusted data bug (tracked as CVE-2026-129514 , CVSS score of 10) that allowed them to execute OS commands via a crafted Erlang external term format request body and gain remote code execution (RCE). Hex discovered that the Ash Framework was also impacted by the same class of vulnerability. Ash patched the flaw (tracked as CVE-2026-124283 ) on November 24, warning it could lead to code execution or SQL injection. Associated security defects were also patched in two other Elixir libraries: namely db_connection ( CVE-2026-133555 ) and flop ( CVE-2026-130411 ). Related: Critical Juniper Session Smart Conductor Flaw Exploited in Attacks Related: Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks Related: Drupal Installer Patch Left a Gap Attackers Are Already Exploiting Related: Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire US Treasury’s FinCEN Disconnects Systems Following Cyber Incident Plagiarism Checker Turnitin Investigating Cyberattack Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls VMware Updates Patch Critical ESX, vCenter Vulnerabilities Check Point Security Management Servers Hacked in AI-Assisted Campaign 1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine Latest News In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities 100,000 Potentially Impacted by Colorado Data Breach SAP Confirms Cyberattack, Source Code Reportedly Compromised FIFA Says&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -2129,7 +2161,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 10,
+      &quot;score&quot;: 9,
       &quot;full_body&quot;: &quot;Enterprise software giant SAP has confirmed it is investigating a cybersecurity incident following reports that threat actors targeted its development infrastructure. German publication Der Spiegel [paywalled] broke the news on Thursday, citing SAP insiders and an internal notification sent to employees. SAP told SecurityWeek that it had detected suspicious activity and implemented measures to protect customers and secure its services. The German company did not disclose details of the attack. “Based on our investigation to date, we have found no evidence of unauthorized access to customer business data,” SAP told SecurityWeek . German news agency DPA reviewed internal SAP communications that revealed the suspicious activity had been identified within GitHub. According to an insider cited by Der Spiegel, the hackers obtained SAP employees’ authentication tokens, enabling them to copy and alter source code stored on GitHub. Advertisement. Scroll to continue reading. SAP publishes developer tools, sample applications, and open source projects on GitHub. It’s unclear whether the threat actor accessed any proprietary code. Separately, Handelsblatt reported that SAP’s emergency security measures have affected numerous teams. The software giant has reportedly replaced signing keys, limited access to GitHub, and suspended automated development operations. None of the reports indicate that tampered code was incorporated into software delivered to SAP customers. Sources cited by Der Spiegel suggested that the attack may have been assisted by AI. While AI involvement has not been confirmed, several major organizations, including the European Commission , have recently disclosed AI-assisted cyberattacks . In late October, the Gentlemen ransomware group listed SAP on its leak website, pointing to the company’s Latin American operations. File listings reviewed by SecurityWeek suggest the hackers obtained SAP-related software and source code, but it is unclear whether SAP itself or a third party was compromised. The two incidents do not appear to be connected. Related : FIFA Says It Has Been Victim of a Cyberattack Related : 1Password Breach Exposes Customer Data, Internal Source Code Related : Critical Juniper Session Smart Conductor Flaw Exploited in Attacks Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Two Newly Disclosed GeoServer Vulnerabilities Under Attack ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties Drupal Flaw Found by Anthropic Scanner Exploited in Attacks European Commission Uncovers Data Breach in Cyberattack Investigation Anthropic Expands Enterprise Safeguards for Detecting AI Misuse OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms Latest News In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities 100,000 Potentially Impacted by Colorado Data Breach Hex Package Manager Warns of Potential Data Breach FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’ Critical Juniper Session Smart Conductor Flaw Exploited in Attacks Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks Drupal Installer Patch Left a Gap Attackers Are Already Exploiting 1Password Breach Exposes Customer Data, Internal Source Code Trending SAP Confirms Cyberattack, Source Code Reportedly Compromised US Treasury’s FinCEN Disconnects Systems Following Cyber Incident Amplifier&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -2161,7 +2193,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;Help Net Security&quot;,
@@ -2193,7 +2225,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;The Hacker News&quot;,
@@ -2269,7 +2301,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;BleepingComputer&quot;,
@@ -2457,36 +2489,6 @@
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [
           &quot;phishing_social_eng&quot;
-        ],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      },
-      &quot;score&quot;: 4
-    },
-    {
-      &quot;source&quot;: &quot;BleepingComputer&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;SYS010 malware abuses browser management to spy on Gmail, Outlook&quot;,
-      &quot;link&quot;: &quot;https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/&quot;,
-      &quot;published&quot;: &quot;2026-11-26T11:50:17+00:00&quot;,
-      &quot;summary&quot;: &quot;A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]&quot;,
-      &quot;author&quot;: &quot;Ionut Ilascu&quot;,
-      &quot;in_window&quot;: true,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [
-          &quot;credential_theft&quot;
         ],
         &quot;actor_attribution&quot;: [],
         &quot;affected_industries&quot;: [],
@@ -3127,38 +3129,6 @@
       &quot;score&quot;: 46,
       &quot;full_body&quot;: &quot;CVE-2026-123890 VMware vCenter Directory Service Authentication Bypass Vulnerability CVE-2026-123890 is a critical authentication bypass in the VMware Directory Service component of VMware vCenter. An attacker with network access to vCenter, and no credentials, can obtain an authenticated session as the built-in administrator@vsphere.local account, taking control of the vSphere environment and the ESXi hosts and virtual machines it manages. Exploitation requires no user interaction or special configuration. Broadcom rates the vulnerability 9.8 (Critical) under CVSS v3.1 in Broadcom Security Advisory VMSA-2026-0009 . Active exploitation has been confirmed in the wild: Google Threat Intelligence Group and Mandiant report that the suspected PRC-nexus actor ARMORY CASTLE exploited it as a zero-day from early September 2026, and CISA added it to the Known Exploited Vulnerabilities catalog on November 20, 2026. Technical Details The flaw is in the VMware Directory Service (vmdir), the LDAP-backed identity store behind vCenter Single Sign-On. Google Threat Intelligence Group’s analysis describes the root cause as unauthenticated disclosure of the SRP-6a session key over DCE/RPC; SRP-6a is the password-authenticated key exchange vmdir uses to establish a session. Because that key is recoverable without authenticating, an attacker can derive a valid session and present it as the default vSphere SSO administrator, administrator@vsphere.local. CVE-2026-123890 is distinct from CVE-2026-59309, an earlier VMware Directory Service bypass disclosed July 29, 2026; Google Threat Intelligence Group observed exploitation against a vCenter already patched for that issue. Weakness: CWE-288, Authentication Bypass Using an Alternate Path or Channel Attack vector: Network — the attacker needs network reachability to the vCenter Server appliance Authentication: None required User interaction: None required Impact: Administrative access to vCenter as administrator@vsphere.local, with high confidentiality, integrity and availability impact CVSS v3.1: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H (9.8, Critical, assigned by VMware) Internet exposure is not required. In the intrusion Google Threat Intelligence Group documented, the attacker reached vCenter from inside the network after compromising a separate appliance. NodeZero® Proactive Security Platform: Rapid Response Run the Rapid Response test: Launch the test from NodeZero to validate exploitability. Patch immediately: Upgrade to a fixed version or apply vendor-recommended mitigations. Re-run the test: Verify that the vulnerability is no longer exploitable after remediation. Stop Guessing, Start Proving Schedule a demo Affected Versions &amp; Patch Affected VMware vCenter 9.1.x.x prior to 9.1.1.0200 VMware vCenter 9.0.x.x prior to 9.0.2.0200 VMware vCenter 8.0 prior to 8.0 U3m VMware vCenter 7.0 (no public fixed build listed) VMware Cloud Foundation vCenter 5.x prior to 5.2.5 VMware Telco Cloud Platform 3.0, 4.x, 5.0.x, 5.1.x, 5.2 and VMware Telco Cloud Infrastructure 3.0 Fixed VMware vCenter 9.1.1.0200 VMware vCenter 9.0.2.0200 VMware vCenter 8.0 U3m VMware Cloud Foundation 5.2.5 Telco Cloud Platform and Telco Cloud Infrastructure: per Broadcom KB463116 VMware vCenter 7.0: Broadcom’s response matrix directs customers with an extended support contract to contact Broadcom Support. No public fixed build is listed. Mitigations Broadcom’s advisory lists no workaround for CVE-2026-123890; patching is the only vendor-provided remedy. Google Threat Intelligence Group additionally recommends restricting network access to the vCenter Server appliance, forwarding its logs to a SIEM, and reviewing vCenter for signs of prior compromise, noting that reactive patching alone is not sufficient. Timeline September 2026: Google Threat Intelligence Group reports, based on forensic evidence, that ARMORY CASTLE exploited CVE-2026-123890 as a zero-day in early September 2026. November 19, 2026: Broadcom published Security Ad&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
-    },
-    {
-      &quot;source&quot;: &quot;BleepingComputer&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks&quot;,
-      &quot;link&quot;: &quot;https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/&quot;,
-      &quot;published&quot;: &quot;2026-11-25T22:05:09+00:00&quot;,
-      &quot;summary&quot;: &quot;Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]&quot;,
-      &quot;author&quot;: &quot;Bill Toulas&quot;,
-      &quot;in_window&quot;: true,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [
-          &quot;Palo Alto Networks&quot;
-        ],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {
-          &quot;Palo Alto Networks&quot;: &quot;target&quot;
-        },
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      },
-      &quot;score&quot;: 4
     },
     {
       &quot;source&quot;: &quot;AWS Security Blog&quot;,
@@ -6179,7 +6149,7 @@
         }
       },
       &quot;score&quot;: 6,
-      &quot;full_body&quot;: &quot;Simon Willison’s Weblog Newsletter Sponsored by: WorkOS — Auth.md: signup built for agents. See how it works 23rd November 2026 Release datasette-charts 0.1a0 — A charting plugin for Datasette I&#x27;ve been thinking about this problem for over a year now, but on Sunday I finally fired up Claude Fable 5.2 to build an initial prototype. The prototype went so well that this is now a full plugin. You can try it out in Datasette Lite here . It looks like this: The new charts plugin works against any table or arbitrary SQL query in Datasette. It defines several different chart types (using vendored D3 , Observable Plot , and topojson-client ), each with a set of heuristics for identifying when they might be a good match for a specific set of rows. Those suggestion thumbnails at the top are actual visualizations driven by the data, and selecting one pulls up the full chart along with tools for modifying it. You can also manually construct a chart from scratch. As with other Datasette visualization plugins, the current state of your chart is persisted in a #fragment in the URL - so you can bookmark charts or share them with others. The most important feature is that the charts take all rows into account . Previous charting plugins like datasette-vega would only show charts for the current page of results, generally up to 100 rows. The new plugin compiles each chart to a SQL query that aggregates across the entire result set (potentially millions of rows) using GROUP BY, time bucketing, and window functions. Each query returns a result capped at 5,000 rows, suitable for display on the chart. The plugin uses sampling to help suggest charts for larger tables without evaluating the full result set. I&#x27;m really happy with this initial release of the plugin. It&#x27;s still very much an alpha, but it&#x27;s the closest I&#x27;ve got to the dream of Datasette helping visualize data with as little required direction from the user as possible. Posted 23rd November 2026 at 12:37 am Recent articles Three LLM inflection points in twelve months - 24th November 2026 Ladybird&#x27;s first alpha release - 23rd November 2026 Running the full server-side Datasette Python app in the browser with service workers and Pyodide - 17th November 2026 Locating the source of a mysterious beep with Claude - 9th November 2026 This is a beat by Simon Willison, posted on 23rd November 2026 . coding-agents 271 generative-ai 2,079 projects 568 ai 2,341 llms 2,043 datasette-charts 4 sqlite 885 datasette 1,574 visualization 50 claude-mythos-fable 51 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month&#x27;s most important LLM developments. Pay me to send you less! Sponsor &amp; subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026&quot;,
+      &quot;full_body&quot;: &quot;Simon Willison’s Weblog Newsletter Sponsored by: Greptile — Review code faster with Greptile’s new PR inbox. It puts everything you need to understand a change and merge it on one screen. Try it for free 23rd November 2026 Release datasette-charts 0.1a0 — A charting plugin for Datasette I&#x27;ve been thinking about this problem for over a year now, but on Sunday I finally fired up Claude Fable 5.2 to build an initial prototype. The prototype went so well that this is now a full plugin. You can try it out in Datasette Lite here . It looks like this: The new charts plugin works against any table or arbitrary SQL query in Datasette. It defines several different chart types (using vendored D3 , Observable Plot , and topojson-client ), each with a set of heuristics for identifying when they might be a good match for a specific set of rows. Those suggestion thumbnails at the top are actual visualizations driven by the data, and selecting one pulls up the full chart along with tools for modifying it. You can also manually construct a chart from scratch. As with other Datasette visualization plugins, the current state of your chart is persisted in a #fragment in the URL - so you can bookmark charts or share them with others. The most important feature is that the charts take all rows into account . Previous charting plugins like datasette-vega would only show charts for the current page of results, generally up to 100 rows. The new plugin compiles each chart to a SQL query that aggregates across the entire result set (potentially millions of rows) using GROUP BY, time bucketing, and window functions. Each query returns a result capped at 5,000 rows, suitable for display on the chart. The plugin uses sampling to help suggest charts for larger tables without evaluating the full result set. I&#x27;m really happy with this initial release of the plugin. It&#x27;s still very much an alpha, but it&#x27;s the closest I&#x27;ve got to the dream of Datasette helping visualize data with as little required direction from the user as possible. Posted 23rd November 2026 at 12:37 am Recent articles Three LLM inflection points in twelve months - 24th November 2026 Ladybird&#x27;s first alpha release - 23rd November 2026 Running the full server-side Datasette Python app in the browser with service workers and Pyodide - 17th November 2026 Locating the source of a mysterious beep with Claude - 9th November 2026 This is a beat by Simon Willison, posted on 23rd November 2026 . coding-agents 271 generative-ai 2,079 projects 568 ai 2,341 llms 2,043 datasette-charts 5 sqlite 885 datasette 1,576 visualization 51 claude-mythos-fable 51 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month&#x27;s most important LLM developments. Pay me to send you less! Sponsor &amp; subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
@@ -6507,7 +6477,7 @@
       &quot;published&quot;: &quot;2026-11-21T00:36:39+00:00&quot;,
       &quot;summary&quot;: &quot;The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \&quot;advanced cryptographic tools\&quot; to restore data locked by ransomware, has been charged with wire fraud after an FBI sting operation found the company was simply paying the attackers for a decryption key and charging victims a markup for work that was never performed.&quot;,
       &quot;author&quot;: &quot;BrianKrebs&quot;,
-      &quot;in_window&quot;: true,
+      &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [
           &quot;ransomware_extortion&quot;
@@ -6525,8 +6495,61 @@
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
-      },
-      &quot;score&quot;: 5
+      }
+    },
+    {
+      &quot;source&quot;: &quot;AWS Security Blog&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;category&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;title&quot;: &quot;Scope down permissions of existing sessions using AWS STS GetScopedCredentials&quot;,
+      &quot;link&quot;: &quot;https://aws.amazon.com/blogs/security/scope-down-permissions-of-existing-sessions-using-aws-sts-getscopedcredentials/&quot;,
+      &quot;published&quot;: &quot;2026-11-20T22:57:22+00:00&quot;,
+      &quot;summary&quot;: &quot;When you build AI agents, you often want each agent or sub-agent to have only the permissions its tasks require, rather than the full permissions of the session that started it. GetScopedCredentials is a new AWS Security Token Service (AWS STS) API that you can use to scope down the permissions of existing temporary security […]&quot;,
+      &quot;author&quot;: &quot;Vaishnavi Merugu&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Schneier on Security&quot;,
+      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
+      &quot;category&quot;: &quot;practitioner_analysis&quot;,
+      &quot;title&quot;: &quot;Friday Squid Blogging: The Largest Squid Ever Filmed&quot;,
+      &quot;link&quot;: &quot;https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-the-largest-squid-ever-filmed.html&quot;,
+      &quot;published&quot;: &quot;2026-11-20T22:04:12+00:00&quot;,
+      &quot;summary&quot;: &quot;This is the story of the largest squid ever filmed, in December 2006 near Japan’s Ogasawara Islands. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.&quot;,
+      &quot;author&quot;: &quot;Bruce Schneier&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_3_analysis&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
     },
     {
       &quot;source&quot;: &quot;Unit 42&quot;,
@@ -6537,40 +6560,29 @@
       &quot;published&quot;: &quot;2026-11-20T22:00:25+00:00&quot;,
       &quot;summary&quot;: &quot;Our analysis of Com affiliate vishing attacks, cloud data theft and extortion campaigns targeting healthcare and finance, with actionable defense guidance. The post Dialing for Data: Inside the Com’s High-Profile Heists appeared first on Unit 42 .&quot;,
       &quot;author&quot;: &quot;Unit 42&quot;,
-      &quot;in_window&quot;: true,
+      &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [
           &quot;ransomware_extortion&quot;,
-          &quot;phishing_social_eng&quot;,
-          &quot;ddos&quot;
+          &quot;phishing_social_eng&quot;
         ],
-        &quot;actor_attribution&quot;: [
-          &quot;UNC6671&quot;
-        ],
+        &quot;actor_attribution&quot;: [],
         &quot;affected_industries&quot;: [
           &quot;healthcare&quot;,
-          &quot;financial_services&quot;,
-          &quot;legal_professional&quot;
+          &quot;financial_services&quot;
         ],
-        &quot;affected_products&quot;: [
-          &quot;Palo Alto Networks&quot;
-        ],
+        &quot;affected_products&quot;: [],
         &quot;tools_used&quot;: [],
         &quot;cve_ids&quot;: [],
         &quot;attack_techniques&quot;: [],
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;threat_research&quot;,
         &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
-        &quot;role_map&quot;: {
-          &quot;Palo Alto Networks&quot;: &quot;target&quot;
-        },
+        &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
-      },
-      &quot;score&quot;: 16,
-      &quot;full_body&quot;: &quot;Threat Research Center Threat Research Cybercrime Cybercrime Dialing for Data: Inside the Com’s High-Profile Heists 11 min read Related Products Advanced DNS Security Advanced IP Defense Advanced URL Filtering Advanced WildFire Cloud-Delivered Security Services Cortex Cortex Agentic Endpoint Security Cortex XDR Cortex XSIAM Idira Prisma Browser Unit 42 Deep and Dark Web Service Unit 42 Incident Response Unit 42 Threat Intelligence Services By: Unit 42 Published: November 20, 2026 Categories: Cybercrime Threat Research Tags: Bling Libra Browser extension Extortion Social engineering Vishing Share Executive Summary Unit 42 has tracked and responded to numerous waves of vishing attacks conducted by Com-affiliated threat actors in recent months. The attacks have led to data theft and extortion attempts. This activity has targeted data-rich industries, such as financial services, healthcare and legal services. Targeted organizations were primarily located in the U.S., UK and Australia. Attribution for this broad activity includes: Named actors such as Bling Libra (aka ShinyHunters) Activity clusters CL-CRI-1116 (aka Redact, formerly BlackFile) , CL-CRI-1147 (aka Pink) , CL-CRI-1182 (aka Falcon) , CL-CRI-1192 (aka Helix) The newly uncovered CL-CRI-1264 (aka Vortex) and CL-CRI-1274 (aka Cinder), which overlap with activity Google tracks as UNC6671 This article details: Our observations of persistent Com-affiliated threat activity since August 2026 based on unique telemetry analysis and incident response engagements The different named actors and activity clusters we track, including unique observations not previously disclosed Insights on victimology Review of attacker tactics, techniques and procedures (TTPs) Allusions to future activity as we head into 2027 Palo Alto Networks customers are better protected from the threats discussed above through the following products and services: Advanced WildFire Advanced URL Filtering , Advanced DNS Security and Advanced IP Defense Cortex XDR and XSIAM Cortex Agentic Endpoint Security Prisma Browser Device Security Idira Identity and Access Management (IAM) Idira Identity Threat Detection and Response (ITDR) Idira Secure Web Sessions (SWS) Organizations can access tailored adversary intelligence, direct analyst consultations, and specialized exposure tracking through Unit 42 Threat Intel Services and its Deep and Dark Web Service . If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Extortion , Vishing , Social Engineering , Bling Libra , Browser Extensions Background Since early 2026, we have responded to numerous data theft and extortion attempts that we have attributed to Bling Libra and other Com-affiliated threat actors. More details on the typical playbook used by the attackers can be found in the Tactics, Techniques and Procedures section of this article. We track these activities using the threat group and activity cluster naming conventions, which are noted in Table 1. Actor/Cluster Alias First Observed TOX ID Infra Observations Bling Libra ShinyHunters 2019 Consistent NiceNIC + Cloudflare; Report- and claims-themed domains CL-CRI-1116 Redact (formerly BlackFile) January 2026 Multiple NiceNIC + Cloudflare CL-CRI-1147 Pink May 2026 Multiple NiceNIC + Cloudflare CL-CRI-1182 Falcon Mid-2026 Consistent NiceNIC + Cloudflare CL-CRI-1192 Helix June 2026 Multiple NiceNIC + Cloudflare CL-CRI-1264 Vortex September 2026 Consistent Cnobin + Cloudflare CL-CRI-1274 Cinder September 2026 Consistent Internet Domain Service BS Corp + DDoS-Guard Table 1. Differentiation of Com-affiliated named actors and activity clusters. Latest Insights Emerging Activity Cluster CL-CRI-1264 (Vortex) In September 2026, we identified a new activity cluster that we track as CL-CRI-1264. The tradecraft used by the attackers largely follows the wider playbook used by Com-affiliated threat actors, but a few traits set it apart. Most nota&quot;,
-      &quot;fetch_status&quot;: &quot;ok&quot;
+      }
     },
     {
       &quot;source&quot;: &quot;Dark Reading&quot;,
@@ -6581,7 +6593,7 @@
       &quot;published&quot;: &quot;2026-11-20T21:03:27+00:00&quot;,
       &quot;summary&quot;: &quot;During the last wave of major VMware vCenter security updates, a China-nexus threat group likely already had its next zero-day up its sleeve.&quot;,
       &quot;author&quot;: &quot;Nate Nelson&quot;,
-      &quot;in_window&quot;: true,
+      &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [
           &quot;zero_day&quot;
@@ -6605,8 +6617,34 @@
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
-      },
-      &quot;score&quot;: 8
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Dark Reading&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;Nok et norsk energiselskap har blitt utsatt for et datainnbrudd på to dager&quot;,
+      &quot;link&quot;: &quot;https://www.darkreading.com/cyberattacks-data-breaches/second-norwegian-energy-company-breached-norwegian&quot;,
+      &quot;published&quot;: &quot;2026-11-20T20:43:45+00:00&quot;,
+      &quot;summary&quot;: &quot;Det er ikke påvist noen konkret sammenheng mellom de to hendelsene, selv om de helt klart har mange likhetstrekk.&quot;,
+      &quot;author&quot;: &quot;Nate Nelson&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
     },
     {
       &quot;source&quot;: &quot;Cloudflare Security&quot;,
@@ -6617,7 +6655,7 @@
       &quot;published&quot;: &quot;2026-11-20T20:24:38+00:00&quot;,
       &quot;summary&quot;: &quot;ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.&quot;,
       &quot;author&quot;: &quot;Denzil Correa&quot;,
-      &quot;in_window&quot;: true,
+      &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [],
         &quot;actor_attribution&quot;: [],
@@ -6631,28 +6669,65 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;vulnerability_disclosure&quot;,
         &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {
-          &quot;GitHub&quot;: &quot;mention&quot;,
-          &quot;GitLab&quot;: &quot;mention&quot;
-        },
+        &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
-          &quot;products&quot;: [
-            [
-              &quot;GitHub&quot;,
-              &quot;mention&quot;,
-              0.3
-            ],
-            [
-              &quot;GitLab&quot;,
-              &quot;mention&quot;,
-              0.28
-            ]
-          ]
+          &quot;products&quot;: []
         }
-      },
-      &quot;score&quot;: 15,
-      &quot;full_body&quot;: &quot;On November 19, 2026, the Ruby team disclosed ruby2shell ( CVE-2026-132825 ), a heap buffer overflow in the way Ruby changes the case of strings. Ruby rates the flaw Critical and says it is aware of proofs of concept that achieve remote code execution in some scenarios. Fixes shipped in Ruby 3.3.14, 3.4.13, and 4.0.10 . The reach is wide. Veria Labs reports that Ruby on Rails and classic-style Sinatra applications reach the bug in their default configuration, before any authentication. Self-hosted products that bundle Ruby, including GitLab, GitHub Enterprise Server, Mastodon, OpenProject, Discourse and Chatwoot, shipped an affected Ruby in their latest release at the time of disclosure. Cloudflare WAF blocks ruby2shell for all customers, including those on the Free plan. We have added two rules to both the Cloudflare Free Managed Ruleset and the Cloudflare Managed Ruleset, with Block as the default action: one for ruby2shell and one for GHSA-87fm-7w84-j2px, a related integer overflow in Ruby string case conversion fixed in the same releases. The WAF is a compensating control, not a replacement for patching. Exploits can reach the bug through paths a WAF does not see, and the only complete fix is to upgrade Ruby. Our team continues to monitor attack traffic and will update the rules as new techniques appear. You can track rule changes in the WAF changelog Â and get the latest on the vulnerability in the Cloudflare Zero Wire briefing . Cloudflare has patched its own systems that use Ruby, and we have found no indication of compromise. What we know about ruby2shell Ruby strings carry an encoding, and Ruby still supports many legacy single-byte encodings, such as ISO-8859-1 (Latin-1) and Windows-1252, alongside UTF-8. In a single-byte encoding each character takes one byte, so changing the case of a string usually produces output of the same length. The German sharp s (Ã) breaks that assumption. Its uppercase form is two characters, SS. In 14 ISO-8859 and Windows-125x encodings, Ruby writes those two bytes but checks for room for only one. According to Veria Labs, a string with 21 sharp s characters overflows the output buffer by one byte. The methods that reach the bug are upcase , swapcase , downcase(:fold) Â and casecmp? . UTF-8 strings take a different code path and are not affected. A one-byte overflow can look harmless. In a memory-corruption exploit, though, a single byte written past the end of a heap buffer can be enough to corrupt an adjacent object or allocator metadata. Ruby says it is aware of proofs of concept that turn this flaw into code execution, and Veria Labs says it will publish its own proof of concept about a week after disclosure. We expect scanning to start soon after. Why default Rails and Sinatra apps are exposed HTML forms can only send GET and POST requests. To simulate PUT, PATCH, or DELETE, many web frameworks accept a _method Â parameter in a POST request. Rack, the interface most Ruby web frameworks build on, implements this in its MethodOverride middleware, which converts the value of _method Â to uppercase. Rails includes this middleware by default, and classic-style Sinatra applications enable it. An attacker can send a multipart POST request whose _method Â part declares a legacy character set and contains a run of sharp s characters. The framework upcases the value while it is still routing the request, before any application code or authentication check runs. Veria Labs reports that other frameworks and plain Rack applications are not exposed by default. Application code that changes the case of strings received in a legacy encoding may still be affected, wherever the string comes from. Who is affected Condition Details Ruby version Ruby 3.3.13 and earlier, 3.4.0 through 3.4.12, and 4.0.0 through 4.0.9. Veria Labs reports the bug has been present since Ruby 2.4.0. Ruby 3.2 and earlier have reached end of life and will not receive the fix. Framework Rails and classic-style Sinatra in their d&quot;,
-      &quot;fetch_status&quot;: &quot;ok&quot;
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Cloudflare Security&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;category&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;title&quot;: &quot;How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws&quot;,
+      &quot;link&quot;: &quot;https://blog.cloudflare.com/phpaftershell-waf-protection/&quot;,
+      &quot;published&quot;: &quot;2026-11-20T20:00:45+00:00&quot;,
+      &quot;summary&quot;: &quot;phpAfterShell is a critical flaw in PHP&#x27;s default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the same release.&quot;,
+      &quot;author&quot;: &quot;Christian Larsen&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Simon Willison&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;category&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;title&quot;: &quot;Quoting Ravi Vakil&quot;,
+      &quot;link&quot;: &quot;https://simonwillison.net/2026/Nov/20/ravi-vakil/&quot;,
+      &quot;published&quot;: &quot;2026-11-20T19:21:49+00:00&quot;,
+      &quot;summary&quot;: &quot;Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking good. It is all human, with no AI. The hope was to bring Alessandro to Stanford for a year to polish the writing and then announce it after running it by enough people. Now it seems best to put out the current draft. — Ravi Vakil , Hurried Announcement: Alessandro Masullo GRH Tags: mathematics&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
     },
     {
       &quot;source&quot;: &quot;Graham Cluley&quot;,
@@ -6663,7 +6738,7 @@
       &quot;published&quot;: &quot;2026-11-20T18:57:38+00:00&quot;,
       &quot;summary&quot;: &quot;Data belonging to customers of three of the biggest companies in global finance has been leaked online, after hackers breached third-party service providers working for JPMorgan Chase, Visa, and Mastercard. Read more in my article on the Hot for Security blog.&quot;,
       &quot;author&quot;: &quot;Graham Cluley&quot;,
-      &quot;in_window&quot;: true,
+      &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [
           &quot;ransomware_extortion&quot;
@@ -6683,10 +6758,34 @@
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
-      },
-      &quot;score&quot;: 9,
-      &quot;full_body&quot;: &quot;Industry News 3 min read n0n extortion gang leaks data of JPMorgan Chase, Visa, and Mastercard customers Graham CLULEY November 20, 2026 Data belonging to customers of three of the biggest companies in global finance has been leaked online, after hackers breached third-party service providers working for JPMorgan Chase, Visa, and Mastercard. The finance companies have all acknowledged that security incidents have occurred at unnamed third--party companies, after the n0n extortion gang named all three on its dark web leak site earlier this week. In JPMorgan Chase&#x27;s case, it tweeted that although it believed \&quot;the attackers accessed certain marketing data held by those vendors, which may include some customer names and email addresses\&quot; there had been \&quot;no disruption\&quot; to its services. Mastercard also said that its payment network had not been affected, and that cardholders could continue to use their cards. According to Visa, the breach occurred at an unnamed third-party provider based in Asia Pacific. n0n claims to have stolen \&quot;hundreds of thousands of campaign interactions\&quot; related to JPMorgan Chase. All three of the corporations were given 48 hours to negotiate with the extortion gang, but none of them paid. So, n0n published data on its website exposing the details of thousands of customers. News of the security breach impacted the share prices of all three companies, after a jittery week of high-profile technology outages in the United States. According to Reuters , the leaked JPMorgan Chase data included more than 16,000 customer email addresses, and what appeared to be the email addresses of some 124 employees of the bank. Some of the customer information included phone numbers, and post codes. Clearly scammers and fraudsters could exploit information like that in a variety of ways, including by contacting members of the public claiming to be employees of their bank. Meanwhile, according to a Cybernews report , the leaked Visa data includes details of over 6000 premium card holders who are signed up to Asia-Pacific dining programmes, including names, phone numbers, the messaging apps they use, and restaurant booking details. n0n is believed to be a Russia-based extortion gang, and despite only having been operating for a couple of months has already managed to claim the scalps of approximately 200 corporate victims. Security researchers say n0n has typically broken into organisations using valid login credentials, harvested by info-stealing malware or obtained by credential-stuffing VPNs and poorly secured remote desktop (RDP) services, before using legitimate admin tools to gather data. It is not yet known how the vendors in this case were compromised. Of course, financial institutions are very experienced at securing their own infrastructure. Where they appear to have fallen down on this occasion is through the use of third-party marketing agencies or loyalty scheme operators who have been less diligent in securing their systems. You are only as safe as the weakest link in the chain. And customers don&#x27;t really care whose server it was that leaked their data, when they entrusted it to your care in the first place. The advice for concerned Chase, Visa or Mastercard customers is simple: be wary of unexpected emails, texts or calls claiming to come from your bank. It would not be a surprise at all if scammers exploit the breach by mentioning it to customers, and offering compensation, or inviting members of the public to \&quot;verify\&quot; their account. If you are unsure, contact your bank directly using its published number. tags Industry News Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also like Bookmarks&quot;,
-      &quot;fetch_status&quot;: &quot;ok&quot;
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Dark Reading&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;In Security, Words Matter as Much as Tools — Maybe More&quot;,
+      &quot;link&quot;: &quot;https://www.darkreading.com/cybersecurity-operations/security-words-matter&quot;,
+      &quot;published&quot;: &quot;2026-11-20T18:35:40+00:00&quot;,
+      &quot;summary&quot;: &quot;From talking cloud security to using AI, cyber leaders are finding that clear, disciplined communication is now a front-line defense capability across the enterprise.&quot;,
+      &quot;author&quot;: &quot;Becky Bracken&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
     },
     {
       &quot;source&quot;: &quot;The Hacker News&quot;,
@@ -11825,33 +11924,6 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Simon Willison&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
-      &quot;category&quot;: &quot;ai_security_agentic_risk&quot;,
-      &quot;title&quot;: &quot;llm 0.37.3&quot;,
-      &quot;link&quot;: &quot;https://simonwillison.net/2026/Nov/16/llm/&quot;,
-      &quot;published&quot;: &quot;2026-11-16T23:57:26+00:00&quot;,
-      &quot;summary&quot;: &quot;Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM&#x27;s logging code . Short version: in SQLite 3.54.0 the following SQL: select json_object(&#x27;a&#x27;, (select json_array(1))) Returns this: {\&quot;a\&quot;:[1]} But in 3.54.1 the same query returns this: {\&quot;a\&quot;:\&quot;[1]\&quot;} According to D. Richard Hipp : That was a bug fix. Per the documentation, (SELECT json_array(...)) returns SQL text, not JSON. Hence the 3.54.1 behavior is correct and 3.54.0 was a bug. The workaround looks like this: select json_object(&#x27;a&#x27;, json((select json_array(1)))) Tags: llm , webassembly , sqlite , generative-ai , ai , llms , d-richard-hipp&quot;,
-      &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;low_signal&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
       &quot;source&quot;: &quot;Unit 42&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;category&quot;: &quot;threat_research_primary&quot;,
@@ -12796,33 +12868,6 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Simon Willison&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
-      &quot;category&quot;: &quot;ai_security_agentic_risk&quot;,
-      &quot;title&quot;: &quot;datasette-maplibre 0.1a0&quot;,
-      &quot;link&quot;: &quot;https://simonwillison.net/2026/Nov/15/datasette-maplibre/&quot;,
-      &quot;published&quot;: &quot;2026-11-15T23:58:36+00:00&quot;,
-      &quot;summary&quot;: &quot;Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub .) I built most of this with a single prompt to Claude Fable 5.2: Look at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/dev/tools/openfreemap-demo.html - then build a brand new Datasette plugin that uses maplibreGL and openfreemap and combines the features of those other two plugins - but be creative and think outside the box for other useful features the plugin might have \&quot;Be creative and think outside the box\&quot; resulted in a few neat ideas - my favorite is that it displays SVG previews of GeoJSON shapes, then loads a WebGL preview only when they scroll into view. I also had Claude build a comprehensive demo which works in the latest Datasette Lite, so you can visit this link to load the plugin and a demo datab&quot;,
-      &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;low_signal&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
       &quot;source&quot;: &quot;Risky Business News&quot;,
       &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
       &quot;category&quot;: &quot;practitioner_analysis&quot;,
@@ -12831,33 +12876,6 @@
       &quot;published&quot;: &quot;2026-11-15T19:22:09+00:00&quot;,
       &quot;summary&quot;: &quot;In this Risky Business sponsored interview, Catalin Cimpanu talks with Thinkst CTO Marco Slaviero about the state of the defensive AI cyber space and the company’s current agentic canaries, as well as the need for more experimentation.&quot;,
       &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;low_signal&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_3_analysis&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;Schneier on Security&quot;,
-      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
-      &quot;category&quot;: &quot;practitioner_analysis&quot;,
-      &quot;title&quot;: &quot;Upcoming Speaking Engagements&quot;,
-      &quot;link&quot;: &quot;https://www.schneier.com/blog/archives/2026/11/upcoming-speaking-engagements-62.html&quot;,
-      &quot;published&quot;: &quot;2026-11-14T17:02:39+00:00&quot;,
-      &quot;summary&quot;: &quot;This is a current list of where and when I am scheduled to speak: I’m speaking at the Catalyst Summit in Brampton, Ontario, Canada, on Wednesday, November 18, 2026. I’m speaking at QT Qonference 2026 in Toronto, Ontario, Canada, on Thursday, November 19, 2026. The list is maintained on this page .&quot;,
-      &quot;author&quot;: &quot;Bruce Schneier&quot;,
       &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [],
@@ -32522,33 +32540,6 @@
       &quot;source&quot;: &quot;NCSC UK&quot;,
       &quot;cohort&quot;: &quot;government_authoritative&quot;,
       &quot;category&quot;: &quot;government_authoritative&quot;,
-      &quot;title&quot;: &quot;Adversary simulation: what you need to know&quot;,
-      &quot;link&quot;: &quot;https://www.ncsc.gov.uk/guidance/adversary-simulation-what-you-need-to-know&quot;,
-      &quot;published&quot;: &quot;2026-09-17T12:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Adversary simulation (&#x27;red teaming&#x27;) tests your ability to prevent, detect and respond to cyber attacks.&quot;,
-      &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_1_government&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;NCSC UK&quot;,
-      &quot;cohort&quot;: &quot;government_authoritative&quot;,
-      &quot;category&quot;: &quot;government_authoritative&quot;,
       &quot;title&quot;: &quot;Cyber Adversary Simulation (CyAS): scheme documents now available&quot;,
       &quot;link&quot;: &quot;https://www.ncsc.gov.uk/blogs/cyber-adversary-simulation-cyas-scheme-documents-now-available&quot;,
       &quot;published&quot;: &quot;2026-09-17T12:00:00+00:00&quot;,
@@ -32565,6 +32556,33 @@
         &quot;attack_techniques&quot;: [],
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_government&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;NCSC UK&quot;,
+      &quot;cohort&quot;: &quot;government_authoritative&quot;,
+      &quot;category&quot;: &quot;government_authoritative&quot;,
+      &quot;title&quot;: &quot;Adversary simulation: what you need to know&quot;,
+      &quot;link&quot;: &quot;https://www.ncsc.gov.uk/guidance/adversary-simulation-what-you-need-to-know&quot;,
+      &quot;published&quot;: &quot;2026-09-17T12:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;Adversary simulation (&#x27;red teaming&#x27;) tests your ability to prevent, detect and respond to cyber attacks.&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_1_government&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
